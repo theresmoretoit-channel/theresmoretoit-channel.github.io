@@ -632,13 +632,40 @@ def kratky_popis(v, lang, n=158):
     return t.rstrip(",;:") + "…"
 
 
+# Datum, jak se píše v dané zemi (CLDR, formát „long“; vygenerováno z Babel 2.18,
+# vloženo napevno, ať stavba na GitHubu nepotřebuje knihovnu navíc).
+DATUM = {
+    "en": ("{d} {m} {y}", ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']),
+    "cs": ("{d}. {m} {y}", ['ledna', 'února', 'března', 'dubna', 'května', 'června', 'července', 'srpna', 'září', 'října', 'listopadu', 'prosince']),
+    "de": ("{d}. {m} {y}", ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']),
+    "es": ("{d} de {m} de {y}", ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']),
+    "fi": ("{d}. {m} {y}", ['tammikuuta', 'helmikuuta', 'maaliskuuta', 'huhtikuuta', 'toukokuuta', 'kesäkuuta', 'heinäkuuta', 'elokuuta', 'syyskuuta', 'lokakuuta', 'marraskuuta', 'joulukuuta']),
+    "fr": ("{d} {m} {y}", ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']),
+    "id": ("{d} {m} {y}", ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']),
+    "it": ("{d} {m} {y}", ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre']),
+    "pl": ("{d} {m} {y}", ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia']),
+    "pt-BR": ("{d} de {m} de {y}", ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']),
+    "sv": ("{d} {m} {y}", ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december']),
+    "tr": ("{d} {m} {y}", ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık']),
+    "uk": ("{d} {m} {y} р.", ['січня', 'лютого', 'березня', 'квітня', 'травня', 'червня', 'липня', 'серпня', 'вересня', 'жовтня', 'листопада', 'грудня']),
+    "vi": ("{d} {m}, {y}", ['tháng 1', 'tháng 2', 'tháng 3', 'tháng 4', 'tháng 5', 'tháng 6', 'tháng 7', 'tháng 8', 'tháng 9', 'tháng 10', 'tháng 11', 'tháng 12']),
+}
+
+
+def datum_textem(iso, lang):
+    vzor, mesice = DATUM[lang]
+    y, m, d = (int(x) for x in iso.split("-"))
+    # francouzsky je první den v měsíci řadová číslovka (1er mai), CLDR to neumí
+    return vzor.format(d="1er" if lang == "fr" and d == 1 else d, m=mesice[m - 1], y=y)
+
+
 def meta_videa(v, lang):
     t = T[lang]
     d = delka(v)
     casti = []
     if d:
         casti.append(f'<span>{math.ceil(d / 60)} {esc(t["min"])}</span>')
-    casti.append(f'<time datetime="{v["datum"]}">{v["datum"]}</time>')
+    casti.append(f'<time datetime="{v["datum"]}">{esc(datum_textem(v["datum"], lang))}</time>')
     return f'<p class="meta">{"".join(casti)}</p>'
 
 
