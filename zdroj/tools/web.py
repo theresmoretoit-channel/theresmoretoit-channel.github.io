@@ -669,13 +669,33 @@ def meta_videa(v, lang):
     return f'<p class="meta">{"".join(casti)}</p>'
 
 
-def nahled(v, ob, sirka=640):
-    return ob.udelej(v["dir"] / "render/thumbnail.jpg", f"thumbs/{v['cislo']}-{sirka}.webp", sirka, 78)
+# Obrázky jdou ve více šířkách a prohlížeč si podle `sizes` vezme nejmenší, která
+# pokryje místo na displeji (PageSpeed 2026-11-17: náhledy 640 px zobrazené ve
+# ~250 px, úspora 854 KiB). `sizes` odpovídá rozvržení ve style.css: obsah má
+# nejvýš 52rem včetně okrajů, seznam má sloupce od 15rem, text 38rem.
+SIZES_SEZNAM = "(max-width: 40rem) calc(100vw - 2rem), (max-width: 52rem) calc(50vw - 2rem), 16rem"
+SIZES_PLNA = "(max-width: 52rem) calc(100vw - 2rem), 50rem"
+SIZES_TEXT = "(max-width: 40rem) calc(100vw - 4rem), 38rem"
+
+
+def img(ob, src, varianty, kvalita, sizes, attrs):
+    """<img> se srcset; `varianty` = [(rel, šířka)] od nejmenší. Chybějící varianta vypadne."""
+    hotove = [r for r in (ob.udelej(src, rel, w, kvalita) for rel, w in varianty) if r]
+    if not hotove:
+        return ""
+    url, w, h = hotove[-1]
+    ss = (f' srcset="{", ".join(f"{u} {x}w" for u, x, _ in hotove)}" sizes="{sizes}"'
+          if len(hotove) > 1 else "")
+    return f'<img src="{url}"{ss} width="{w}" height="{h}" {attrs}>'
+
+
+def img_nahledu(v, ob, sirky, sizes, attrs):
+    return img(ob, v["dir"] / "render/thumbnail.jpg",
+               [(f"thumbs/{v['cislo']}-{s}.webp", s) for s in sirky], 78, sizes, attrs)
 
 
 def polozka_seznamu(v, lang, ob):
-    n = nahled(v, ob)
-    img = f'<img src="{n[0]}" width="{n[1]}" height="{n[2]}" alt="" loading="lazy" decoding="async">' if n else ""
+    img = img_nahledu(v, ob, (320, 640), SIZES_SEZNAM, 'alt="" loading="lazy" decoding="async"')
     return f"""<li><a href="{url_videa(v, lang)}">{img}<span class="vt">{esc(v["titul"][lang])}</span></a>{meta_videa(v, lang)}</li>"""
 
 
@@ -687,11 +707,9 @@ def stranka_videa(v, lang, ob, tema, souvisejici):
     titul = v["titul"][lang]
     pop = v["popis"][lang]
     yt = f"https://www.youtube.com/watch?v={vid}"
-    poster = nahled(v, ob, 1280)
     og = ob.udelej(v["dir"] / "render/thumbnail.jpg", f"og/{v['cislo']}.jpg", 1280, 84, fmt="JPEG")
     parametry = "" if lang == "en" else f"&cc_load_policy=1&cc_lang_pref={lang}&hl={lang}"
-    poster_img = (f'<img src="{poster[0]}" width="{poster[1]}" height="{poster[2]}" alt="" fetchpriority="high">'
-                  if poster else "")
+    poster_img = img_nahledu(v, ob, (640, 960, 1280), SIZES_PLNA, 'alt="" fetchpriority="high"')
     hraj = f"""<div class="player" data-id="{vid}" data-params="{esc(parametry)}" data-title="{esc(titul)}">
   <a class="player-box" href="{yt}" aria-label="{esc(t["play"])}: {esc(titul)}">{poster_img}<span class="play" aria-hidden="true"></span></a>
 </div>"""
@@ -722,8 +740,10 @@ def stranka_videa(v, lang, ob, tema, souvisejici):
             src = obrazek_sceny(v, sid)
             if not src:
                 continue
-            r = ob.udelej(src, f"img/{v['cislo']}/{sid}.webp", 1200, 74)
-            if not r:
+            alt = vycisti(v["scenar"][lang].get(sid, ""))[:180]
+            tag = img(ob, src, [(f"img/{v['cislo']}/{sid}-640.webp", 640), (f"img/{v['cislo']}/{sid}.webp", 1200)],
+                      74, SIZES_TEXT, f'alt="{esc(alt)}" loading="lazy" decoding="async"')
+            if not tag:
                 continue
             k = kredit(v, sid)
             cap = ""
@@ -732,9 +752,7 @@ def stranka_videa(v, lang, ob, tema, souvisejici):
                 if sid not in uz:
                     kredity.append(k)
                     uz.add(sid)
-            alt = vycisti(v["scenar"][lang].get(sid, ""))[:180]
-            obr = (f'<figure><img src="{r[0]}" width="{r[1]}" height="{r[2]}" alt="{esc(alt)}" '
-                   f'loading="lazy" decoding="async">{cap}</figure>')
+            obr = f'<figure>{tag}{cap}</figure>'
             break
         hlava = ""
         if ki is not None:
@@ -816,21 +834,30 @@ def stranka_domu(lang, videa, temata, ob):
     moje = [v for v in videa if lang in v["scenar"]]
     moje.sort(key=lambda v: (v["datum"], v["cislo"]), reverse=True)
     nej = moje[0]
-    n = nahled(nej, ob, 1280)
-    img = f'<img src="{n[0]}" width="{n[1]}" height="{n[2]}" alt="" fetchpriority="high">' if n else ""
+    obr = img_nahledu(nej, ob, (640, 960, 1280), SIZES_PLNA, 'alt="" fetchpriority="high"')
     uvod = nej["popis"][lang]["uvod"][0] if nej["popis"][lang]["uvod"] else ""
     temata_html = ""
     if lang == "en":
         temata_html = '<section class="topics" aria-labelledby="topics-h"><h2 id="topics-h">Topics</h2><ul>' + "".join(
             f'<li><a href="/topics/{x["klic"]}/">{esc(kratky_titul(x))}</a> <span>{len(x["_videa"])}</span></li>'
             for x in temata if x["_videa"]) + "</ul></section>"
-    telo = f"""<section class="hero">
+    # Záhlaví po vzoru stránky kanálu na YouTube: banner (výřez 1546×423, který
+    # YouTube ukazuje na všech zařízeních), profilovka, název, handle, popis, odběr.
+    telo = f"""<section class="hero kanal-hero">
+<img class="banner" src="/kanal/banner-1546.webp" srcset="/kanal/banner-800.webp 800w, /kanal/banner-1546.webp 1546w" sizes="{SIZES_PLNA}" width="1546" height="423" alt="">
+<div class="kanal">
+<img class="profil" src="/kanal/profil-192.webp" width="96" height="96" alt="">
+<div class="kanal-text">
 <h1>{esc(NAME)}</h1>
+<p class="handle"><span>@theres-more-to-it</span><span>{len(moje)} {esc(t["videos"])}</span></p>
 <p class="tagline">{esc(t["tagline"])}</p>
+<a class="odber" href="{SUBSCRIBE}">{esc(t["subscribe"])}</a>
+</div>
+</div>
 </section>
 <section class="newest" aria-labelledby="newest-h">
 <h2 id="newest-h" class="quiet">{esc(t["newest"])}</h2>
-<a class="feature" href="{url_videa(nej, lang)}">{img}<span class="ft">{esc(nej["titul"][lang])}</span></a>
+<a class="feature" href="{url_videa(nej, lang)}">{obr}<span class="ft">{esc(nej["titul"][lang])}</span></a>
 <p class="lead">{esc(uvod)}</p>
 {meta_videa(nej, lang)}
 </section>
