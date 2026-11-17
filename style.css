@@ -1,4 +1,224 @@
-body { max-width: 42rem; margin: 3rem auto; padding: 0 1rem; font: 17px/1.6 system-ui, sans-serif; color: #1a1f27; background: #fff; }
-h1 { font-size: 1.6rem; }
-h2 { font-size: 1.15rem; margin-top: 2rem; }
-a { color: #8a5a1c; }
+/* There's More To It — web kanálu. Generuje tools/web.py, styl je ruční.
+   Barvy jsou z diagramů videí (tools/svgkit.py: BG, INK, AMBER). */
+
+@font-face { font-family: "Source Serif"; src: url(/fonts/source-serif-Regular.woff2) format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Source Serif"; src: url(/fonts/source-serif-It.woff2) format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Source Serif"; src: url(/fonts/source-serif-Semibold.woff2) format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+:root {
+  --bg: #0e141c;
+  --raised: #151f2b;
+  --ink: #d3dce6;
+  --soft: #93a4b8;
+  --rule: #263445;
+  --amber: #d9a05b;
+  --amber-ink: #e6b67c;
+  --on-amber: #0e141c;
+  --serif: "Source Serif", "Iowan Old Style", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --measure: 38rem;
+  --railw: 7rem;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f2f4f6;
+    --raised: #ffffff;
+    --ink: #16202b;
+    --soft: #56687b;
+    --rule: #d3dbe3;
+    --amber: #b06d22;
+    --amber-ink: #8f5414;
+    --on-amber: #ffffff;
+    color-scheme: light;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1.1875rem/1.62 var(--serif);
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  text-rendering: optimizeLegibility;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--amber-ink); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; border-radius: 2px; }
+h1, h2, h3 { font-weight: 600; line-height: 1.15; text-wrap: balance; }
+.vh-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Stránky bez <main> (zásady pro audit) */
+body:not(:has(main)) { max-width: var(--measure); margin: 3rem auto; padding: 0 1rem; }
+body:not(:has(main)) h1 { font-size: 2rem; }
+
+/* ------------------------------------------------ hlavička a patička */
+header.site, footer.site, main { max-width: calc(var(--measure) + 2 * var(--railw)); margin: 0 auto; padding: 0 1rem; }
+header.site {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding-top: 1.1rem; padding-bottom: 1.1rem;
+  font: 500 .9375rem/1.3 var(--sans);
+}
+.brand { color: var(--ink); text-decoration: none; font: 600 1.125rem/1 var(--serif); }
+header.site nav { display: flex; align-items: center; gap: 1.25rem; }
+.sub { text-decoration: none; }
+.lang { position: relative; }
+.lang summary { cursor: pointer; color: var(--soft); list-style: none; padding: .25rem 0; }
+.lang summary::-webkit-details-marker { display: none; }
+.lang summary::after { content: ""; display: inline-block; margin-left: .4em; width: .4em; height: .4em;
+  border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-.2em) rotate(45deg); }
+.lang ul {
+  position: absolute; right: 0; top: 100%; z-index: 5; margin: .4rem 0 0; padding: .4rem 0; list-style: none;
+  background: var(--raised); border: 1px solid var(--rule); border-radius: 6px; min-width: 12rem;
+  max-height: 70vh; overflow: auto; box-shadow: 0 10px 30px rgb(0 0 0 / .25);
+}
+.lang li a { display: block; padding: .35rem .9rem; color: var(--ink); text-decoration: none; }
+.lang li a:hover { background: var(--bg); }
+.lang li a[aria-current] { color: var(--amber-ink); }
+
+footer.site { margin-top: 5rem; padding-top: 1.5rem; padding-bottom: 3rem; border-top: 1px solid var(--rule);
+  font: 400 .875rem/1.5 var(--sans); color: var(--soft); }
+footer.site h2 { font: 600 1rem/1.3 var(--sans); color: var(--ink); margin: 0 0 .4rem; }
+.tools { margin-bottom: 1.5rem; }
+.tools ul { padding-left: 1.1rem; }
+.tools li { margin: .3rem 0; }
+.badge { display: inline-block; vertical-align: middle; margin-left: .5rem; }
+.badge img { display: inline; width: 112px; height: auto; }
+
+/* ------------------------------------------------ společné kousky */
+.meta { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; margin: .5rem 0 0; font: 400 .875rem/1.4 var(--sans); color: var(--soft); font-variant-numeric: tabular-nums; }
+.lead { font-size: 1.3125rem; line-height: 1.55; }
+.btn {
+  display: inline-block; padding: .55rem 1rem; border-radius: 999px; text-decoration: none;
+  background: var(--amber); color: var(--on-amber); font: 600 .9375rem/1.2 var(--sans);
+}
+.btn:hover { filter: brightness(1.08); }
+.quiet { font: 500 .9375rem/1.3 var(--sans); color: var(--soft); margin: 0 0 .75rem; }
+
+.vlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem 1.75rem; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
+.vlist li a { display: block; color: var(--ink); text-decoration: none; }
+.vlist img { aspect-ratio: 16 / 9; width: 100%; object-fit: cover; border-radius: 5px; background: var(--raised); }
+.vlist .vt { display: block; margin-top: .6rem; font-size: 1.0625rem; line-height: 1.3; font-weight: 600; text-wrap: balance; }
+.vlist li a:hover .vt { color: var(--amber-ink); }
+.vlist .meta { margin-top: .3rem; font-size: .8125rem; }
+
+/* ------------------------------------------------ úvodní stránka */
+.hero { padding: 3.5rem 0 2.5rem; }
+.hero h1 {
+  margin: 0; font-size: clamp(2.75rem, 9vw, 5.25rem); line-height: .98; letter-spacing: -.02em;
+  max-width: 9ch;
+}
+.tagline { margin: 1.25rem 0 0; max-width: 30ch; font-size: clamp(1.25rem, 2.6vw, 1.5rem); line-height: 1.4; color: var(--soft); }
+.topic-hero h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); max-width: 22ch; line-height: 1.05; }
+.topic-hero .tagline { max-width: var(--measure); font-size: 1.1875rem; }
+.crumb { margin: 0 0 1rem; font: 500 .9375rem/1.3 var(--sans); }
+
+.newest { padding: 2rem 0 1rem; border-top: 1px solid var(--rule); }
+.feature { display: block; color: var(--ink); text-decoration: none; }
+.feature img { border-radius: 6px; aspect-ratio: 16 / 9; width: 100%; object-fit: cover; }
+.feature .ft { display: block; margin-top: 1.1rem; font-size: clamp(1.75rem, 4.4vw, 2.6rem); line-height: 1.1; font-weight: 600; letter-spacing: -.01em; text-wrap: balance; max-width: 24ch; }
+.feature:hover .ft { color: var(--amber-ink); }
+.newest .lead { max-width: var(--measure); margin: .9rem 0 0; color: var(--ink); }
+
+.topics { padding: 2.5rem 0 1rem; }
+.topics h2, .all h2 { font-size: 1.75rem; margin: 0 0 1.25rem; }
+.topics ul { list-style: none; padding: 0; margin: 0; columns: 2 16rem; column-gap: 2rem; }
+.topics li { break-inside: avoid; padding: .45rem 0; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 1rem; }
+.topics li a { color: var(--ink); text-decoration: none; }
+.topics li a:hover { color: var(--amber-ink); }
+.topics li span, .count { font: 400 .875rem/1.9 var(--sans); color: var(--soft); font-variant-numeric: tabular-nums; }
+
+.all { padding-top: 2.5rem; }
+.all-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .75rem 1.5rem; margin-bottom: 1.25rem; }
+.all-head h2 { margin: 0; }
+.search input {
+  font: 400 1rem/1.3 var(--sans); color: var(--ink); background: var(--raised);
+  border: 1px solid var(--rule); border-radius: 999px; padding: .55rem 1rem; width: min(18rem, 80vw);
+}
+.search input:focus { outline: 2px solid var(--amber); outline-offset: 1px; border-color: transparent; }
+.empty { color: var(--soft); font-family: var(--sans); }
+
+/* ------------------------------------------------ stránka videa */
+.video { padding-top: 2rem; }
+.video > * { margin-left: var(--railw); max-width: var(--measure); }
+.video > .vh, .video > .player { margin-left: 0; max-width: none; }
+.vh { margin-bottom: 1.75rem; }
+.vh h1 { margin: 0; font-size: clamp(2.1rem, 5.6vw, 3.5rem); line-height: 1.06; letter-spacing: -.015em; max-width: 19ch; }
+.topic { margin: 0 0 .75rem; font: 500 .9375rem/1.3 var(--sans); }
+.topic a { text-decoration: none; }
+
+.player { position: relative; border-radius: 7px; overflow: hidden; background: #000; aspect-ratio: 16 / 9; }
+.player-box { position: absolute; inset: 0; display: block; }
+.player-box img, .player iframe { width: 100%; height: 100%; object-fit: cover; border: 0; }
+.play {
+  position: absolute; left: 50%; top: 50%; width: 5.25rem; height: 5.25rem; margin: -2.625rem 0 0 -2.625rem;
+  border-radius: 50%; background: rgb(14 20 28 / .78); box-shadow: 0 0 0 2px var(--amber);
+  transition: transform .15s ease, background .15s ease;
+}
+.play::after { content: ""; position: absolute; left: 53%; top: 50%; transform: translate(-50%, -50%);
+  border-style: solid; border-width: .85rem 0 .85rem 1.4rem; border-color: transparent transparent transparent #d9a05b; }
+.player-box:hover .play, .player-box:focus-visible .play { transform: scale(1.06); background: rgb(14 20 28 / .92); }
+
+.intro { margin-top: 2rem; }
+.intro .lead:first-child { margin-top: 0; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.5rem; margin: 1.75rem 0 0; font: 500 .9375rem/1.3 var(--sans); }
+
+/* Časová osa: jediný výrazný prvek webu. Čára vede podél celého textu,
+   jantarová část ukazuje, kam čtenář došel, a u každé kapitoly je čas,
+   na který se dá kliknout a video se pustí od toho místa. */
+.transcript { position: relative; margin-top: 3.5rem; padding-top: .25rem; }
+.rail { position: absolute; left: -2rem; top: .5rem; bottom: 0; width: 2px; background: var(--rule); border-radius: 2px; }
+.rail-fill { position: absolute; inset: 0; background: var(--amber); transform-origin: top; transform: scaleY(0); border-radius: 2px; }
+.note { margin: 0 0 2rem; font: 400 .875rem/1.5 var(--sans); color: var(--soft); }
+.ch h2 { position: relative; margin: 3rem 0 1rem; font-size: 1.5rem; }
+.ch:first-of-type h2 { margin-top: 0; }
+.ch h2::before {
+  content: ""; position: absolute; left: calc(-2rem - 4px); top: .5em; width: 10px; height: 10px; border-radius: 50%;
+  background: var(--bg); box-shadow: inset 0 0 0 2px var(--rule); transition: box-shadow .2s ease, background .2s ease;
+}
+.ch h2.passed::before { background: var(--amber); box-shadow: inset 0 0 0 2px var(--amber); }
+.ts {
+  position: absolute; right: calc(100% + 3rem); top: .28em; width: 3.75rem; text-align: right;
+  font: 500 .875rem/1.4 var(--sans); font-variant-numeric: tabular-nums; color: var(--soft); text-decoration: none;
+}
+.ts:hover, .passed .ts { color: var(--amber-ink); }
+.ch p { margin: 0 0 1.15rem; hyphens: auto; }
+figure { margin: 1.75rem 0 1.9rem; }
+figure img { border-radius: 5px; background: var(--raised); }
+figcaption { margin-top: .5rem; font: 400 .8125rem/1.45 var(--sans); color: var(--soft); }
+figcaption a { color: var(--soft); }
+
+.vf { margin-top: 3.5rem; padding-top: .5rem; border-top: 1px solid var(--rule); }
+.vf h2 { font-size: 1.25rem; margin: 2rem 0 .75rem; }
+.src, .cred, .links ul { padding-left: 1.1rem; margin: 0; font-size: 1rem; line-height: 1.5; }
+.src li, .cred li { margin: .35rem 0; }
+.cred { font: 400 .875rem/1.5 var(--sans); color: var(--soft); }
+.links { margin-top: 1.5rem; font: 400 .875rem/1.5 var(--sans); }
+.links summary { cursor: pointer; color: var(--soft); }
+.links ul { margin-top: .75rem; font: inherit; columns: 2 16rem; column-gap: 2rem; }
+.links li { break-inside: avoid; margin: .2rem 0; overflow-wrap: anywhere; }
+
+.related { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+.related h2 { font-size: 1.5rem; margin: 0 0 1.25rem; }
+
+/* ------------------------------------------------ úzké obrazovky */
+@media (max-width: 62rem) {
+  .video > * { margin-left: 0; }
+  .transcript { padding-left: 1.75rem; }
+  .rail { left: .25rem; }
+  .ch h2::before { left: calc(-1.75rem + .25rem - 4px); }
+  .ts { position: static; display: block; width: auto; text-align: left; margin-bottom: .2rem; }
+}
+@media (max-width: 40rem) {
+  body { font-size: 1.125rem; }
+  header.site { flex-wrap: wrap; }
+  .hero { padding: 2rem 0 1.75rem; }
+  .vlist { grid-template-columns: 1fr; }
+  .lead { font-size: 1.1875rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}
