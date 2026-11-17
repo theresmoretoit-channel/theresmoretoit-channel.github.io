@@ -1,0 +1,976 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY. Panel repo() leží na týchž souřadnicích až do S104 a v S99 se vyplácí. Nikdy ho nekresli ručně.",
+      "diagram_generator": "uvod",
+      "diagram": "Páteř videa: repozitářový panel human/ na pevných souřadnicích, pod ním ztlumeně 3 000 000 000 characters."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Šipka míří OD repozitáře DO procesu, ne obráceně — scéna mluví o kopírování do nového procesu.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo panel repo(), vpravo prázdný rámeček process, mezi nimi ambrová šipka kopírování."
+    },
+    {
+      "id": "S02b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02b.png",
+      "note": "Beat z fact checku (buňka je diploidní). Písmenné ID, aby se nepřečíslovalo video. Jeden obraz, jedna změna — ne nový střih.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, mění se jediná věc: v rámečku process leží panel DVAKRÁT a vedle ambrové × 2.",
+      "pause": 1.6,
+      "naveti": "You copied the entire program into it."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Výčet ve voiceoveru musí být vidět jako výčet — proto rozbalení, ne nový obraz.",
+      "diagram_generator": "uvod",
+      "diagram": "Panel v procesu rozbalený na všechny položky: moduly, závislosti, staré bloky."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "assert: ztlumená plocha musí být 99 % plochy panelu, ne 'nějak hodně'. Obraz nesmí tvrdit víc ani míň než scénář — a scénář mluví o ZNACÍCH, ne o genech (viz factcheck.md).",
+      "diagram_generator": "uvod",
+      "diagram": "Týž rozbalený panel; 99 % řádků ztlumeno do MUTED, ambrový je jen tenký proužek, u ztlumené části ambrové 99 %."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Beat před odhalením. Nejtišší obraz úvodu — nic nového se nekreslí.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž panel, všechny popisky pryč, obraz se ztiší."
+    },
+    {
+      "id": "S06",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S06.png",
+      "note": "ODHALENÍ hooku. Jediné místo úvodu, kde se obraz pohne.",
+      "prompt": "a vast dense field of countless small cells packed together, seen from far above, each one identical in size, quiet and endless, no single focal point"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Jádro musí být VIDĚT a být pojmenované — scénář po fact checku říká 'that has a nucleus' a devět buněk z deseti ho nemá. Obraz to tvrzení nese, ne popisek.",
+      "diagram_generator": "uvod",
+      "diagram": "Obrys buňky s jádrem, uvnitř panel repo() na souřadnicích páteře."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Tvrzení scény je 'stejný kód, jiné chování'. Panely proto musí být identické až na velikost; kdyby se lišily, kresba tvrdí opak.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři buňky vedle sebe různého tvaru — NEURON, LIVER CELL, SKIN CELL — a v každé TÝŽ malý panel repo()."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Poměr je záměrně jiný než v S04: tam 99 % znaků, tady 'většina se nepoužívá'. Dvě různá tvrzení, dva různé obrazy.",
+      "diagram_generator": "uvod",
+      "diagram": "Jedna buňka, panel repo() s většinou řádků v MUTED a několika v INK."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Rovnítko je ztlumené schválně: scénář říká 'very roughly'. Míra jistoty v kresbě musí sedět s mírou jistoty ve větě.",
+      "diagram_generator": "geny",
+      "diagram": "Vlevo jeden řádek repozitáře, vpravo blok funkce, mezi nimi znak rovnosti se ztlumeným ZHRUBA."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "První skutečný blok kódu videa. Šipka plná — je to doložené.",
+      "diagram_generator": "geny",
+      "diagram": "Blok def make_protein() a z něj šipka do malého tvaru bílkoviny."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Scéna říká 'having the function doesn't mean it is running'. Ztlumení = neběží; otazník = chybí spouštěč.",
+      "diagram_generator": "geny",
+      "diagram": "Týž blok funkce, celý ztlumený; vedle ambrový otazník na místě, odkud by přišlo zavolání."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Dva bloky kódu ze zdroje v jednom obraze, ne ve dvou scénách — je to jedno tvrzení ve dvou zápisech.",
+      "diagram_generator": "geny",
+      "diagram": "Terminálový rámeček: make_protein() a pod ním CALL 0x00401A20, ambrově."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Tenhle řetěz se v S24 vrátí ve STEJNÉM rámci, aby kontrast se sítí fungoval. Souřadnice se odvozují z _kit, ne píšou znovu.",
+      "diagram_generator": "geny",
+      "diagram": "Řetěz procesoru: INSTRUCTION → ADDRESS → INSTRUCTION POINTER, šipka ukazuje na řádek volání."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "text_skrtnuty(), ne skrt_text() — ta kreslí jen čáru a zůstala by holá čárka. Škrtá se CELÝ nápis, protože neplatí vůbec.",
+      "diagram_generator": "geny",
+      "diagram": "Buňka; na místě, kde by byl procesor, přeškrtnutý nápis CPU."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Beat. Obraz se ztiší před otázkou.",
+      "diagram_generator": "geny",
+      "diagram": "Buňka bez jediného popisku."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Otázka bloku. Ambrová = 'o tomhle je řeč', ne 'dobré'.",
+      "diagram_generator": "geny",
+      "diagram": "Táž buňka, uprostřed jediný velký ambrový otazník.",
+      "pause": 2.6
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Adresa v obraze musí být TÁŽ jako v S13, jinak divák čte dvě různá místa.",
+      "diagram_generator": "pointer",
+      "diagram": "Paměťový pás s adresami a skok JMP 0x00401A20 obloukem na konkrétní adresu."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Čtyři, protože scénář jmenuje čtyři. Počet dlaždic je tvrzení.",
+      "diagram_generator": "pointer",
+      "diagram": "Čtyři dlaždice: ACCESS PERMISSIONS, PROCESSES, CONFIG FILES, EVENTS."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Protějšky jsou ZTLUMENÉ, protože scénář říká jen 'surprisingly similar roles' — ne rovnost.",
+      "diagram_generator": "pointer",
+      "diagram": "Týchž čtyři dlaždice, ke každé se ztlumeně přiřadí biologický protějšek."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Šipka míří na gen, který se přepisuje, ne na faktor. Kontrola: cíl šipky odpovídá podmětu věty.",
+      "diagram_generator": "pointer",
+      "diagram": "Pás DNA, na vazebné místo dosedá transkripční faktor, z genu ambrová šipka na TRANSCRIBED."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Rozvinutý úsek ambrový = přístupný. Svinutý MUTED. Barva tady nese celé tvrzení scény.",
+      "diagram_generator": "pointer",
+      "diagram": "Dva pruhy: regulační sekvence s popiskami WHEN a WHERE, a chromatin jako svinutý versus rozvinutý úsek."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Šipky dovnitř, nikdy ven — scéna mluví o přijímání.",
+      "diagram_generator": "pointer",
+      "diagram": "Buňka a do ní zvenčí šipky signálů z okolí."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Blok kódu ze zdroje. Rámec i souřadnice TOTOŽNÉ s S25, jinak se kontrast nepozná.",
+      "diagram_generator": "pointer",
+      "diagram": "Svislý řetěz CPU → INSTRUCTION POINTER → MEMORY ADDRESS → EXECUTE."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Druhá půlka kontrastu. Sčítání místo řetězu je tvrzení: není to sekvence, je to souběh.",
+      "diagram_generator": "pointer",
+      "diagram": "V témž rámci síť: SIGNALS + CELLULAR STATE + REGULATORY PROTEINS + DNA ACCESSIBILITY → GENE EXPRESSION."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Síť NESMÍ mít viditelný střed, jinak kresba tvrdí opak věty.",
+      "diagram_generator": "pointer",
+      "diagram": "Síť uzlů bez jediného středu; vedle přeškrtnutý nápis INSTRUCTION POINTER."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Návrat páteře. Stín, ne mazání — to je celý rozdíl, o kterém scéna je.",
+      "diagram_generator": "pointer",
+      "diagram": "Panel repo() na souřadnicích páteře, části zastíněné jako nepřístupné."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Čárkovaný rámeček = 'je tam, ale nesahá se na to'. Kdyby se blok smazal, obraz by tvrdil pravý opak scénáře.",
+      "diagram_generator": "pointer",
+      "diagram": "Týž panel; neuronový blok je přítomný, ale v DIM s čárkovaným rámečkem, popisek PRESENT, NOT ACCESSIBLE; vedle přeškrtnutý nápis DELETE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Návrat do softwarového světa. Malý schválně — v S31 se do téhož místa nacpe celý repozitář.",
+      "diagram_generator": "finger",
+      "diagram": "Strom aplikace s několika moduly, malý, klidný."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Tenká šipka a dvě funkce = 'the few functions it needs'. Kontrast s S31 stojí na tom, že je to opravdu málo.",
+      "diagram_generator": "finger",
+      "diagram": "Nový rámeček finger/ a z něj tenká šipka na dvě potřebné funkce."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Absurdita se dělá MĚŘÍTKEM, ne popiskem. Panel musí být tentýž jako v S01.",
+      "diagram_generator": "finger",
+      "diagram": "Do rámečku finger/ je vecpaný CELÝ panel repo() v plné velikosti, přetéká."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Pět položek, protože scénář jich jmenuje pět a pak řekne Everything.",
+      "diagram_generator": "finger",
+      "diagram": "Týž rámeček, obsah vypsaný: BRAIN, LIVER, HEART, IMMUNE SYSTEM, REPRODUCTIVE SYSTEM."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Mezikrok mezi jedním rámečkem a mřížkou. Zmenšení musí být plynulé, aby se v S34 poznalo, že je to týž rámeček.",
+      "diagram_generator": "finger",
+      "diagram": "Týž rámeček zmenšený a vydlážděný na mřížce, která začíná zaplňovat obraz."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Scéna říká 'for every cell' — mřížka proto nesmí mít viditelný konec.",
+      "diagram_generator": "finger",
+      "diagram": "Mřížka týchž rámečků přes celé plátno, k okrajům se ztrácí.",
+      "pause": 1.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "postava() z _kit. Bublina s ocáskem, ne uzavřený trojúhelník — naměřená past.",
+      "diagram_generator": "finger",
+      "diagram": "Malá postava před tou mřížkou, bublina WHO DESIGNED THIS?"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Beat před odpovědí. Bublina je prázdná, ne pryč. `dovetek` je tu jen PŘEPÍNAČ obětované věty: pauza 0,8 je pod prahem 1,5, takže se jinak vůbec nezkusí. Divák hlásil schwu za „is\"; whisper ji nepozná (přepis je správný tak i tak), ale energie za posledním slovem klesne ze 170 ms na −22 dB na 20 ms na −56 dB.",
+      "diagram_generator": "finger",
+      "diagram": "Týž obraz, bublina prázdná.",
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Jednoslovná promluva: naveti je SKUTEČNÝ text předchozí scény, aby si 'Nobody.' udrželo intonaci odpovědi. Bez toho Kokoro vkládá /s/ (past 'Well... no.').",
+      "diagram_generator": "finger",
+      "diagram": "Týž obraz, v bublině ambrové NOBODY.",
+      "pause": 1.4,
+      "naveti": "And the answer is."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Oprava v obraze, ne nový obraz — scénář se opravuje uvnitř téže věty. Návětí NENÍ kosmetika: bez něj Kokoro vkládá /s/ a whisper slyší „Wells not nobody\" (past z videa 015). Ze čtyř zkoušených variant zabrala JEDINÁ tahle; obětovaná věta ani druhé návětí ne.",
+      "diagram_generator": "finger",
+      "diagram": "Táž bublina: NOBODY. přeškrtnuto, pod tím ambrové EVOLUTION.",
+      "naveti": "Here is the strange part."
+    },
+    {
+      "id": "S39",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "note": "Předěl do hlubokého času. Druhý ze sedmi pohyblivých záběrů videa.",
+      "prompt": "an immense stratified rock face seen edge on, countless thin layers stacked into deep time, a single small figure at the base for scale, cold and quiet",
+      "pause": 2.4
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Log nesmí mít viditelný začátek — 'stretching back billions of years'.",
+      "diagram_generator": "legacy",
+      "diagram": "Panel repo() a vedle něj sloupec commit logu, jehož datumy mizí dolů mimo obraz."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Tři škrty, tři věty scénáře. Škrtá se text_skrtnuty(), ne křížkem — přes nápis by nebyl čitelný.",
+      "diagram_generator": "legacy",
+      "diagram": "Tři přeškrtnuté nápisy pod sebou: VERSION 1.0 DESIGN, CLEAN REWRITE, human_v2/."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Uživatel označil tuhle sekvenci za nejlepší ve scénáři. Píše se malými, jako skutečné commit messages.",
+      "diagram_generator": "legacy",
+      "diagram": "Commit log, čtyři položky ambrově: add feature, patch bug, duplicate module, reuse old module."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Pokračování logu z S42, TÝŽ sloupec a táž šířka — je to jedna souvislá historie, ne druhý seznam.",
+      "diagram_generator": "legacy",
+      "diagram": "Týž log pokračuje: work around limitation, add another workaround, keep old API because something depends on it."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Log se opakuje do ztracena. Nesmí mít viditelný konec — 'again and again for billions of years'.",
+      "diagram_generator": "legacy",
+      "diagram": "Týž log opakovaný dolů přes celý obraz, k okraji se ztrácí, vedle časová osa."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Škrt na první otázce znamená 'evoluce se na to neptá', ne 'je to špatná otázka'. Popisek to musí unést.",
+      "diagram_generator": "legacy",
+      "diagram": "Dvě otázky nad sebou: WHAT IS THE CLEANEST ARCHITECTURE? přeškrtnutá, DOES THIS ORGANISM REPRODUCE? ambrová."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Plná čára = doložené. Větev pokračuje, protože kód přežil.",
+      "diagram_generator": "legacy",
+      "diagram": "Z ambrové otázky odchází jediná plná větev s YES a pokračuje mimo obraz.",
+      "pause": 2.2
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Zámek přes celek, ne přes jednotlivé commity: nelze přepsat CELÉ, ne jednotlivosti.",
+      "diagram_generator": "legacy",
+      "diagram": "Obrovský repozitář pokrytý značkami přispěvatelů; přes celek zámek s popiskem NO REWRITE."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Rozvržení se v S49 opakuje BEZE ZMĚNY, aby výslech měl rytmus.",
+      "diagram_generator": "legacy",
+      "diagram": "Dvojice otázka/odpověď: WHY DOES THIS EXIST? / BECAUSE SOMETHING DEPENDED ON IT."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Totéž rozvržení jako S48, aby výslech měl rytmus. Kdyby se posunulo, přestane to být dvojice.",
+      "diagram_generator": "legacy",
+      "diagram": "Totéž rozvržení: WHY IS THIS API SO WEIRD? / LEGACY. ambrově."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Škrtá se REFACTOR, ne evoluce. Evoluce platí dál, jen nerefaktoruje.",
+      "diagram_generator": "legacy",
+      "diagram": "Přeškrtnuté REFACTOR, pod ním ambrové MODIFY WHAT ALREADY EXISTS."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Beat před pointou bloku.",
+      "diagram_generator": "legacy",
+      "diagram": "Časová osa z S44, popisky pryč."
+    },
+    {
+      "id": "S52",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S52.png",
+      "note": "Výplata bloku. Jednoslovná promluva, proto naveti — obětovaná věta by v promluvě pod dvě sekundy nenašla kde řezat a jen tiše varovala.",
+      "prompt": "a single human silhouette standing small at the top of an immense layered rock formation, seen from a great distance, quiet and unheroic",
+      "pause": 2.8,
+      "naveti": "And after billions of years."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Malý a klidný obraz. Kontrast s biologickou verzí stojí na tom, že softwarová je uspořádaná.",
+      "diagram_generator": "testy",
+      "diagram": "Malý obraz: změna → test."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Blok kódu ze zdroje. Rámec totožný s S55–S57, protože se do něj bude škrtat.",
+      "diagram_generator": "testy",
+      "diagram": "Řetěz COMMIT → BUILD → UNIT TESTS → INTEGRATION TESTS → DEPLOYMENT."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Otazník na místě testů — biologie tam něco má, ale ještě nevíme co. Odpověď dá S56.",
+      "diagram_generator": "testy",
+      "diagram": "Týž řetěz, biologická verze: MUTATION → ?"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Obě větve stejně silné. Kdyby jedna byla ambrová, kresba by tvrdila, která nastane.",
+      "diagram_generator": "testy",
+      "diagram": "MUTATION → dvě větve: SURVIVES AND REPRODUCES / DOESN'T."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Škrtá se DO ŘETĚZU z S54, na týchž souřadnicích. Divák musí poznat, že chybí články téhož řetězu.",
+      "diagram_generator": "testy",
+      "diagram": "Týž řetěz, STAGING a ROLLBACK přeškrtnuté."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Šipka MUSÍ být čárkovaná: scénář říká 'can contribute', ne 'causes'. Plná čára by z hypotézy udělala tvrzení.",
+      "diagram_generator": "testy",
+      "diagram": "Tkáň buněk, jedna ambrová se dělí rychleji než sousedé; ČÁRKOVANÁ šipka na popisek CAN CONTRIBUTE TO CANCER."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Pointa bloku a nejcitovanější věta videa.",
+      "diagram_generator": "testy",
+      "diagram": "Týž řetěz, jediné prostředí je PRODUCTION, ambrově.",
+      "pause": 2.6
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Blok kódu ze zdroje. Kreslí se poctivě, aby se v S61 mělo co zrušit.",
+      "diagram_generator": "server",
+      "diagram": "Strom CENTRAL COMPUTER → orgány → tisíce buněk."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Mizí ŠIPKY, ne orgány. Orgány platí dál, neplatí jen řízení shora.",
+      "diagram_generator": "server",
+      "diagram": "Týž strom, centrální rámeček přeškrtnutý a šipky z něj pryč."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Tři šipky, tři věci ze scénáře. Všechny míří dovnitř buňky.",
+      "diagram_generator": "server",
+      "diagram": "Jedna buňka, do ní šipky: CHEMICAL SIGNALS, NEIGHBOURS, HORMONES."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Beat před vtipem.",
+      "diagram_generator": "server",
+      "diagram": "Prázdný rámeček zprávy."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Škrtá se CELÁ zpráva, protože nic z ní neplatí. Číslo je doslova ze zdroje.",
+      "diagram_generator": "server",
+      "diagram": "Táž zpráva vyplněná: CELL #7,392,184 — PLEASE EXPRESS GENE X NOW., celá přeškrtnutá.",
+      "pause": 1.8
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Uživatel označil pořadí za správné: nejdřív mechanismus, teprve teď termín. Obraz to musí respektovat — žádný diagram, jen pojmenování.",
+      "diagram_generator": "server",
+      "diagram": "Uprostřed prázdna jediný nápis DISTRIBUTED SYSTEMS."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Zvětšený agent má čtyři popisky, protože scénář jmenuje čtyři vlastnosti. Ostatní agenti zůstanou beze jmen — nejsou to jiní agenti, jsou to titíž.",
+      "diagram_generator": "server",
+      "diagram": "Mřížka agentů, jeden zvětšený s popiskami STATE, SENSORS, INPUTS, RESPONSES."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Roj NESMÍ mít střed ani vedoucí prvek. Přeškrtnutá smyčka a roj se středem by si odporovaly.",
+      "diagram_generator": "server",
+      "diagram": "Přeškrtnutý blok for cell in all_cells: tell_cell_what_to_do(); vedle roj bez středu."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Tři pravidla, čitelná. Beat před tím, co z nich vyleze. Návětí kvůli vloženému „A\" na začátku — whisper bez něj slyší „A simple local rules\".",
+      "diagram_generator": "server",
+      "diagram": "Tři jednoduchá lokální pravidla vypsaná pod sebou.",
+      "naveti": "Here is the strange part."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Pravidla musí zůstat čitelná — tvrzení je 'jednoduchá pravidla', ne 'nějaká pravidla'.",
+      "diagram_generator": "server",
+      "diagram": "Táž tři pravidla vlevo malá, vpravo složitý celkový vzor, který z nich vyšel.",
+      "pause": 2.4
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S70.png",
+      "note": "Předěl. Tělo běžící desítky let.",
+      "prompt": "a quiet interior of an enormous machine hall that has clearly been running for decades, worn surfaces, no people, no windows, steady even light"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Dva škrty, dvě věty scénáře. sudo reboot je blok kódu ze zdroje.",
+      "diagram_generator": "reboot",
+      "diagram": "Terminálový rámeček s sudo reboot, přeškrtnuto; pod tím přeškrtnuté SCHEDULED MAINTENANCE WINDOW."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Výměna dílů se musí dít UVNITŘ běžícího rámce, ne vedle něj — celé tvrzení je 'while running'.",
+      "diagram_generator": "reboot",
+      "diagram": "Běžící systém, v němž se vyměňují díly: buňky mizí a vznikají, bílkoviny se tvoří a rozpadají."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Změna proti S72 musí být VIDĚT — je to celé tvrzení scény.",
+      "diagram_generator": "reboot",
+      "diagram": "Týž systém, další díly vyměněné; původní kus už není ani jeden."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Počítadlo uptime je jediný ambrový prvek. Číslo nesmí být kulaté, aby vypadalo jako skutečný běh.",
+      "diagram_generator": "reboot",
+      "diagram": "Server s počítadlem uptime, které neběželo na nulu."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Server obsluhuje požadavky A ZÁROVEŇ se opravuje. Kdyby požadavky ustaly, obraz tvrdí odstávku.",
+      "diagram_generator": "reboot",
+      "diagram": "Týž server vyměňuje vlastní díly a přitom obsluhuje požadavky."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Táž kompozice jako S75, přibude jediný nápis. Ne nový obraz.",
+      "diagram_generator": "reboot",
+      "diagram": "Totéž, ambrové NO DOWNTIME."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Směr šipek je zdola nahoru, ne shora dolů. Kdyby mířily dolů, kresba tvrdí řízení shora — přesně to, co scénář popírá.",
+      "diagram_generator": "reboot",
+      "diagram": "Hierarchie zdola: BUŇKY → TKÁNĚ → ORGÁNY → SOUSTAVY → ORGANISMUS, stavěná odspoda nahoru."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Rámeček je PRÁZDNÝ a čárkovaný: nikdo tam není. Kdyby tam byla postava se škrtem, obraz tvrdí 'někdo to je, ale neplatí to'.",
+      "diagram_generator": "reboot",
+      "diagram": "Táž hierarchie a nad ní čárkovaný prázdný rámeček s přeškrtnutým popiskem HOLDS THE WHOLE ARCHITECTURE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Beat před pointou celého videa.",
+      "diagram_generator": "funguje",
+      "diagram": "Všechny motivy videa pohromadě, ztlumené."
+    },
+    {
+      "id": "S80",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "POINTA VIDEA. Statický schválně — pohyb by z toho udělal efekt. Návětí NENÍ 'And somehow.': to končí na -how a Kokoro ho slilo s 'it' bez jediné milisekundy ticha, takže se řez nenašel a whisper slyšel 'In | it | works | it'. Naměřeno na šesti návětích: tohle nechá před 'it' 310 ms. PROMPT ve druhém kole: slovo 'organism' udělalo z modelu tvora na tenkých nohách s ocasem, tedy obraz, který tvrdí PRAVÝ OPAK věty 'it works'. Strom je organismus taky, model ho kreslí spolehlivě a nespadne do deformované anatomie.",
+      "prompt": "a single bare tree standing alone and whole on an empty plain, seen from a distance, complete and ordinary, nothing else in the frame, flat grey overcast sky",
+      "pause": 1.4,
+      "naveti": "That is what the evidence shows."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "NOT PERFECTLY ambrově, FAR FROM PERFECTLY ztlumeně — druhé je zesílení prvního, ne nové tvrzení.",
+      "diagram_generator": "funguje",
+      "diagram": "Ambrové NOT PERFECTLY a pod tím ztlumené FAR FROM PERFECTLY."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Výčet toho, co to postavilo. **Byla to sdxl scéna a SDXL na ní DVAKRÁT minul**: napoprvé nakreslil jediné velké srdce v krajině, napodruhé prázdnou krajinu bez tvarů. Čtyři věci vedle sebe difuzní model neumí — a druhý nezdar je podle CLAUDE.md ta chvíle, kdy se nemá psát třetí prompt, nýbrž přesunout scénu k jinému zdroji. Výčet je schéma, tedy svg. Diagram staticky, jako všechny ostatní.",
+      "diagram_generator": "funguje",
+      "diagram": "Čtyři siluety v řadě — oko, srdce, roj imunitních buněk, složený mozek — a pod každou popisek."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Poslední joke videa a uživatel na něm výslovně trval. Na obrazovce musí být TÝŽ panel jako v S01 — jinak vtip nedosedne.",
+      "diagram_generator": "funguje",
+      "diagram": "Malá postava u notebooku, na obrazovce panel repo(), píše stížnost.",
+      "pause": 2.8
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Dvě dvojice, protože po škrtu 0.2 zbyly ve scénáři dvě. Kdyby jich bylo v obraze víc, kresba tvrdí víc než text.",
+      "diagram_generator": "analogie",
+      "diagram": "Tabulka analogií: GENE ↔ FUNCTION, MUTATION ↔ SOURCE CHANGE."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Škrtá se přes CELOU tabulku? Ne — jen popisek BLUEPRINT. Analogie platí dál, neplatí jen 'plán'.",
+      "diagram_generator": "analogie",
+      "diagram": "Táž tabulka a pod ní přeškrtnuté BLUEPRINT FOR A HUMAN."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Přes tabulku se škrtá CELÁ, jednou čarou, ne po řádcích — jinak se to čte jako 'neplatí ten jeden řádek'.",
+      "diagram_generator": "analogie",
+      "diagram": "Přeškrtnutý blok CREATE_ARM() / CREATE_EYE() / CREATE_HEART()."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Šest položek, protože scénář jich jmenuje šest.",
+      "diagram_generator": "analogie",
+      "diagram": "Oblak vzájemných vlivů: molekuly, buňky, fyzikální síly, chemické gradienty, načasování, prostředí."
+    },
+    {
+      "id": "S87b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87b.png",
+      "note": "Písmenné ID, protože S87 byla 13,4 s. Jeden obraz, jedna změna — ne dva střihy.",
+      "diagram_generator": "analogie",
+      "diagram": "Týž oblak, přibude jediná věc: organismus vystupující z něj."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Pravidla jsou VSAZENÁ do systému, ne nad ním. Rozvržení nese tvrzení: žádná vrstva navrch.",
+      "diagram_generator": "analogie",
+      "diagram": "DNA jako sada pravidel vsazená do fyzického systému, ne jako výpis."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Škrtá se výpis zdrojáku, ne DNA. Rozdíl je celý smysl scény.",
+      "diagram_generator": "analogie",
+      "diagram": "Vedle toho přeškrtnuté SOURCE CODE LISTING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Plné, protože to doopravdy umíme. Kontrast s S91 stojí na tom.",
+      "diagram_generator": "analogie",
+      "diagram": "Tři věci, které umíme: SEQUENCE, IDENTIFY GENES, MEASURE PROTEINS — plné čáry."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Řetěz končí u tlačítka RUN a dál nepokračuje. Pokračování dodá až S92 — a bude prázdné.",
+      "diagram_generator": "analogie",
+      "diagram": "DNA → počítač → tlačítko RUN."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "NESMÍ tam být vyvíjející se člověk. Scéna říká, že to NEUMÍME — obraz, který to ukáže, tvrdí opak. Proto je tahle scéna diagram, ne sdxl.",
+      "diagram_generator": "analogie",
+      "diagram": "Za tlačítkem RUN prázdný čárkovaný rámeček výstupu s otazníkem."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Poměr velikostí je tvrzení. assert na plochu obou.",
+      "diagram_generator": "analogie",
+      "diagram": "Malý panel genomu vedle mnohem většího čárkovaného obrysu THE WHOLE MACHINE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Návrat k nápisu z úvodu, na týchž souřadnicích. Finále se otevírá tam, kde video začalo.",
+      "diagram_generator": "finale",
+      "diagram": "Nápis DNA = CODE, jako na začátku."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Vrstvy se odkrývají směrem DOLŮ, do hloubky — 'the deeper we look'.",
+      "diagram_generator": "finale",
+      "diagram": "Týž nápis, kolem něj se odkrývají vrstvy."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Tři škrty, tři věty. Pokračování je v S97 na týchž souřadnicích, aby seznam působil jako jeden.",
+      "diagram_generator": "finale",
+      "diagram": "Přeškrtnuté pod sebou: CPU, OPERATING SYSTEM, CENTRAL SERVER."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Šest položek, šest škrtů. Počet je tvrzení — scénář jich jmenuje šest.",
+      "diagram_generator": "finale",
+      "diagram": "Přeškrtnuté pokračování: PROGRAMMER, GITHUB, CODE REVIEW, STAGING, ROLLBACK, CLEAN ARCHITECTURE."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Po opravě z fact checku je jich TRILLIONS, ne billions. Mřížka proto nesmí jít spočítat.",
+      "diagram_generator": "finale",
+      "diagram": "Hustá mřížka drobných agentů přes celé plátno."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Tohle je celý smysl toho, že panel od S01 nikdy neuhnul. Souřadnice se berou z _kit, nikdy se nepíšou znovu.",
+      "diagram_generator": "finale",
+      "diagram": "VÝPLATA PÁTEŘE: panel repo() na týchž souřadnicích jako v S01, ale postarší — samé záplaty, obejití a staré rozhraní."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Beat před závěrem.",
+      "diagram_generator": "finale",
+      "diagram": "Týž panel, popisky pryč."
+    },
+    {
+      "id": "S101",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S101.png",
+      "note": "Závěrečné crescendo. PROMPT ve druhém kole: první pokus dal souměrnou barokní kupoli, tedy 'starobylé a zdobné', ale ne 'záplatované a rozrostlé bez plánu' — a právě to je věta scény. Přibylo lešení, zazděné otvory a nesouměrnost.",
+      "prompt": "an immense old structure extended again and again over ages with mismatched additions, scaffolding, patched walls and bricked-up openings, no coherent plan, lopsided and still standing, seen whole from a distance"
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "NO REBOOT přes log, ne vedle něj. Je to vlastnost té historie, ne poznámka k ní.",
+      "diagram_generator": "finale",
+      "diagram": "Commit log v plném měřítku a přes něj ambrové NO REBOOT."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Beat před poslední větou.",
+      "diagram_generator": "finale",
+      "diagram": "Týž obraz ztlumený."
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Jediné místo, kde páteř SMÍ uhnout — dál na její poloze nic nestojí. Prázdno vpravo a dole je kvůli kartám a závěrečné obrazovce YouTube.",
+      "diagram_generator": "finale",
+      "diagram": "ZÁVĚREČNÁ DESKA: panel repo() posunutý vlevo nahoru, vedle RUNNING IN PRODUCTION. Dolní třetina a pravá strana prázdné.",
+      "pause": 3.0
+    }
+  ]
+}

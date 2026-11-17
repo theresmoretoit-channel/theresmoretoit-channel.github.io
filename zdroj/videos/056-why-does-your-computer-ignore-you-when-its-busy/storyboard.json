@@ -1,0 +1,857 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY a od téhle chvíle leží na TÝCHŽ souřadnicích (kreslí ji _kit.draha(), nikdy ne ručně). První obrazovka nese myšlenku, ne atmosféru: klik vstoupí vlevo a vpravo nesvítí nic — to je celé video na jednom obraze. Záměrně NENÍ sdxl.",
+      "diagram_generator": "drahy",
+      "diagram": "Páteř: vodorovná dráha ve výšce 880 se sedmi stanicemi CLICK / HARDWARE / KERNEL / QUEUE / PROGRAM / PICTURE / SCREEN, všechny ztlumené. Vlevo vstupuje ambrová značka kliknutí, stanice SCREEN je tmavá."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Scéna říká 'klikáš dál a nic'. Přibývají jen značky, dráha se nehýbe — kdyby se posunula, výplata v S89 se nepozná.",
+      "diagram_generator": "drahy",
+      "diagram": "Táž dráha, u vstupu se hromadí tři ambrové značky kliknutí nad sebou, SCREEN pořád tmavá. Vpravo nahoře drobné počítadlo vteřin."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Výplata studeného otevření. Tři značky jsou tytéž tři z S02 — počet musí sedět, jinak obraz tvrdí něco jiného než voiceover ('every click you made arrives').",
+      "diagram_generator": "drahy",
+      "diagram": "Všechny tři značky dorazí naráz na SCREEN, stanice se rozsvítí ambrově, počítadlo vteřin zhasne.",
+      "pause": 2.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Tady se poprvé používá konvence 'ambrová = o tomhle je řeč'. Svítí JEN první úsek: scéna netvrdí, že se událost dostala dál.",
+      "diagram_generator": "drahy",
+      "diagram": "Dráha ztlumená, ambrově svítí jen první úsek CLICK -> HARDWARE, u něj popisek 'microseconds'."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Scéna kreslí DATA (množství), takže počet čárek se v kódu spočítá a zajistí assertem — obraz nesmí tvrdit víc ani míň než scénář. 'Thousands' je schválně neurčité, viz factcheck.md (naměřeno 6 325/s, ale to platí pro jeden stroj).",
+      "diagram_generator": "preruseni",
+      "diagram": "Do stanice HARDWARE vtéká hustý svazek krátkých čárek, nad ním popisek 'thousands every second'. Dráha za HARDWARE ztlumená."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Čtyři zdroje = čtyři věty voiceoveru, v tomtéž pořadí. Pořadí samo nese tvrzení, takže se nesmí prohodit.",
+      "diagram_generator": "preruseni",
+      "diagram": "Čtyři pojmenované zdroje událostí vedle sebe — klávesa, paket, časovač, disk — každý svou čárou do téže stanice HARDWARE."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Dílek je NEURČITÝ úsek, ne bod — prvenství je sporné (1103A, DYSEAC), doloženo je jen desetiletí. Kdyby se to nakreslilo jako jeden rok, kresba by tvrdila víc než scénář. Viz factcheck.md, S07.",
+      "diagram_generator": "preruseni",
+      "diagram": "Na čáře mezi zařízením a procesorem ambrový nápis INTERRUPT; vlevo dole drobná časová osa s jediným dílkem '1950s'."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Šipka míří DOVNITŘ, tedy od světa k procesoru — směr nese celé tvrzení scény. Scéna, ve které něco na něco míří: ověřit, že cíl odpovídá podmětu.",
+      "diagram_generator": "preruseni",
+      "diagram": "Svislá hranice: vlevo uzavřený obrys procesoru, vpravo 'the world outside'. Jediná ambrová šipka překračuje hranici zprava doleva."
+    },
+    {
+      "id": "S09",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S09.png",
+      "note": "SDXL. Jedna ze dvou atmosférických scén videa (2,2 % — spodní kraj pásma kanálu, schválně: difuzní scény jsou to, podle čeho divák soudí 'hromadná výroba'). Leží až v 0:55, tedy dávno po okamžiku, kdy divák zařazuje.",
+      "prompt": "a person sitting motionless at a desk in a dim room at night, seen from behind, facing a dark switched-off monitor, hands resting still on the desk, cold indigo shadows, a single small amber desk lamp, no text"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Otázka videa vyslovená v obraze. Postava je u CLICK, ne u SCREEN — divák čeká na druhém konci, ale klikne na prvním.",
+      "diagram_generator": "drahy",
+      "diagram": "Dráha ztlumená, u stanice CLICK stojí lidská postava, nad ní velký ambrový otazník."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Škrtá se text_skrtnuty(), ne skrt_text() — ta kreslí jen čáru. Přes NÁPIS jde vodorovná čára, ne křížek, jinak se nedá přečíst, co se škrtá.",
+      "diagram_generator": "drahy",
+      "diagram": "Tabulka dvou špatných odpovědí, obě přeškrtnuté vodorovnou čarou: 'the computer is too slow' a 'the interrupt failed'."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Dílčí odpověď do 1:10. Obě slova leží PŘÍMO na stanicích páteře, takže rozdíl je vidět jako vzdálenost, ne jako dva nápisy vedle sebe.",
+      "diagram_generator": "drahy",
+      "diagram": "Dvě ambrová místa na jedné dráze: NOTICED u stanice HARDWARE a SERVED u stanice PROGRAM, mezi nimi ztlumený úsek.",
+      "pause": 2.4
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Opačný směr než S08 — tady se ptá procesor. Ten protiklad je pointa celého bloku, takže rozvržení má být zrcadlem S08.",
+      "diagram_generator": "preruseni",
+      "diagram": "Procesor uprostřed, kolem něj čtyři zařízení, z procesoru vede ke každému tenká šipka s otazníkem."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Čtyři otázky = čtyři popisky v pořadí ze scénáře.",
+      "diagram_generator": "preruseni",
+      "diagram": "Totéž, ale u každého zařízení odpověď 'no'. Čtyři otázky voiceoveru jako čtyři popisky."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Opakování musí být vidět jako opakování — tři totožné řádky, ne tři různé kresby.",
+      "diagram_generator": "preruseni",
+      "diagram": "Tři kola dotazování pod sebou, každé kolo celé v 'no'. Poslední kolo se ztrácí ve ztlumení."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Poměr je DATA: spočítat v kódu a zajistit assertem, ať obraz netvrdí konkrétní číslo, které scénář neříká. Scénář říká jen 'would eat the machine alive' — tedy většina, ne 97 %.",
+      "diagram_generator": "preruseni",
+      "diagram": "Vodorovný pruh času procesoru rozdělený na ASKING (ambrová, většina) a WORK (úzký zbytek)."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Zrcadlo S13: teď hlásí zařízení. Jen jedno, protože scénář mluví o myši.",
+      "diagram_generator": "preruseni",
+      "diagram": "Myš dole, z ní vzhůru jediná ambrová šipka k procesoru. Ostatní zařízení ztlumená a bez šipek."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Rámeček HANDLER je malý ZÁMĚRNĚ — jeho velikost nese tvrzení, které přijde až v S24. Velikost se tedy nesmí měnit mezi S18 a S24.",
+      "diagram_generator": "preruseni",
+      "diagram": "Procesor opouští rozdělanou práci (ztlumený blok) a skáče do malého rámečku HANDLER."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Záznam je jeden — ne celá fronta. Fronta přijde až v S25.",
+      "diagram_generator": "preruseni",
+      "diagram": "Z rámečku HANDLER vede krátká šipka do stanice KERNEL, kde přibude jeden záznam."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Jediná scéna videa, kde ambrová znamená zároveň souhlas. Je to riziko (ambrová má znamenat 'o tomhle je řeč'), takže zaškrtnutí je samostatný prvek a barvu nenese.",
+      "diagram_generator": "preruseni",
+      "diagram": "Celý mechanismus přerušení ambrově, vedle něj zaškrtnutí."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Čárkovaná = hypotéza, plná = doloženo. Tahle scéna je domněnka diváka, takže se NESMÍ kreslit plnou čarou — jinak obraz tvrdí, že to tak funguje.",
+      "diagram_generator": "drahy",
+      "diagram": "Dráha, přes kterou vede ČÁRKOVANÁ ambrová šipka rovnou z CLICK do SCREEN, mimo stanice."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Táž velikost rámečku jako v S18.",
+      "diagram_generator": "preruseni",
+      "diagram": "Rámeček HANDLER s velmi malou vnitřní plochou označenou 'allowed work'."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Fronta roste doprava, tedy směrem, kterým jde celá páteř. Kdyby rostla doleva, čte se jako návrat.",
+      "diagram_generator": "preruseni",
+      "diagram": "Za rámečkem HANDLER se hromadí fronta čekajících událostí; jedna z nich je další přerušení."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Přeškrtnutí přes celý nadpis znamená 'neplatí to vůbec' — a to je tady správně, protože ta varianta se opravdu nepoužívá.",
+      "diagram_generator": "preruseni",
+      "diagram": "Dvě varianty vedle sebe: velký rámeček 'do everything now' přeškrtnutý, malý rámeček 'do as little as possible' ambrový."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Čtyři kroky = čtyři věty voiceoveru v tomtéž pořadí.",
+      "diagram_generator": "preruseni",
+      "diagram": "Čtyři kroky obsluhy v řadě: NOTE / ACKNOWLEDGE / QUEUE / EXIT."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Jména půlek se schválně NEŘÍKAJÍ (horní/dolní polovina je linuxový pojem) — kdyby se dopsala, scéna začne tvrdit víc, než je doložené. Viz factcheck.md.",
+      "diagram_generator": "preruseni",
+      "diagram": "Vodorovný pruh rozdělený na dvě půlky: NOW (úzká, ambrová) a LATER (široká, ztlumená)."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Přesun ambrové mezi S26 a S27 je celý smysl dvojice — proto musí být rozvržení obou scén shodné.",
+      "diagram_generator": "preruseni",
+      "diagram": "Táž dvojice, ambrová se přesune na LATER, a nad ní přibude 'everything you would ever see'."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "První odpověď v obraze: svítí tři stanice ze sedmi.",
+      "diagram_generator": "drahy",
+      "diagram": "Dráha; ambrově svítí CLICK -> HARDWARE -> KERNEL, tedy 'attention'."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Zlom videa. Kresba tvrdí přesný opak S21 — tam čárkovaná zkratka rovnou na SCREEN, tady přerušená cesta k PROGRAM.",
+      "diagram_generator": "drahy",
+      "diagram": "Táž dráha, šipka z KERNEL do PROGRAM přeškrtnutá.",
+      "pause": 2.8
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Návrh diváka, ne řešení. Tvar žebříčku se používá znovu v S31, S32, S45 a S62 — je to druhý opakovaný tvar videa po páteři, takže patří do _kit.py.",
+      "diagram_generator": "priorita",
+      "diagram": "Žebříček priorit: nahoře prázdné místo, do kterého se ambrově vsadí INPUT, pod ním ostatní práce."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Tři položky = tři otázky voiceoveru.",
+      "diagram_generator": "priorita",
+      "diagram": "Týž žebříček, v horní příčce tři položky: MOUSE, KEYBOARD, WINDOW — všechny ambrové."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Zaškrtnutí je záměrně přítomné, aby se v S45 dalo přeškrtnout. Bez něj by obrat neměl co obracet.",
+      "diagram_generator": "priorita",
+      "diagram": "Týž žebříček, pod horní příčkou ztlumený zbytek 'everything else', vedle zaškrtnutí 'sounds right'.",
+      "pause": 2.2
+    },
+    {
+      "id": "S33",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S33.png",
+      "note": "ARCHIV. Široká panoramata z landeru — ustavující záběr, proto slow_zoom_out. ZÁMĚRNĚ BEZ 'fit': snímek je poměrem asi 4:1, takže vsazený do rámu by byl z tří čtvrtin rozmazaná výplň. Výchozí režim rám vyplní a ořízne, a ve středu zůstane paluba landeru s obzorem. ZAMÍTNUT byl dotaz 'Mars Pathfinder Landing Site': vrátil anotovanou vědeckou tabuli s popiskami ('North Knob', 'Big Crater 2.2 km'), tedy obraz plný cizího textu — přesně proto se dotaz nepíše od stolu. PICK NENÍ DOKLAD, doklad je archive-raw/S33.orig a jeho SHA-256.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Mars Pathfinder Presidential Panorama",
+        "pick": 0,
+        "grade": {
+          "saturation": 88
+        }
+      }
+    },
+    {
+      "id": "S34",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S34.png",
+      "note": "ARCHIV. Bližší pohled: solární panel landeru a vak v popředí, kameny a kopec na obzoru. ZAMÍTNUTY byly dva jiné snímky téže mise. Rover Sojourner proto, že voiceover mluví o LANDERU a rover je jiné zařízení — obraz by tvrdil něco jiného než věta, a to žádný detektor nenajde. 'A Rover-eye view of the Lander' proto, že je to rybí oko plné kamenů, ve kterém lander poznat nejde. Otisk MUSÍ být jiný než u S33.",
+      "archive": {
+        "provider": "nasa",
+        "query": "Pathfinder on Mars",
+        "pick": 0,
+        "grade": {
+          "fit": 0.94,
+          "saturation": 88
+        }
+      }
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Škrtá se text_skrtnuty(). Scéna je most z archivu zpátky do diagramů.",
+      "diagram_generator": "mars",
+      "diagram": "Dvě přeškrtnuté příčiny — 'a cosmic ray', 'a broken part' — a pod nimi stojící ambrový nápis A SCHEDULING PROBLEM."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Rozvržení tří pruhů se od téhle scény do S40 NESMÍ změnit — celý Pathfinder se čte jako pohyb v jednom obraze. Jména úloh sedí s factcheck.md (information bus, communications, ASI/MET).",
+      "diagram_generator": "mars",
+      "diagram": "Tři vodorovné pruhy úloh nad sebou podle priority: HIGH (data bus), MEDIUM (communications), LOW (weather). Vpravo sdílený rámeček MEMORY. Z HIGH vede ambrová šipka k rámečku."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Zámek je u LOW, tedy dole. Když se prohodí, scéna tvrdí opak.",
+      "diagram_generator": "mars",
+      "diagram": "Totéž; rámeček MEMORY drží zámek a vede k němu čára od LOW."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Tady je příčina inverze. MEDIUM nesmí mít žádnou vazbu na MEMORY — právě to je na tom překvapivé.",
+      "diagram_generator": "mars",
+      "diagram": "Totéž; MEDIUM pruh je ambrový a běží, LOW pruh je ztlumený a zastavený."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Bez téhle scény se S40 čte jako chyba v kresbě.",
+      "diagram_generator": "mars",
+      "diagram": "Totéž; u LOW je zámek pořád držený a přibude popisek 'never finishes'."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Scéna, ve které něco na něco míří: šipka jde od HIGH (ta, co čeká) k zámku, ne k LOW úloze.",
+      "diagram_generator": "mars",
+      "diagram": "Totéž; z HIGH vede šipka k MEMORY, která končí o zámek — blokovaná. Vedle ambrový popisek 'stuck behind the lowest'."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Pojmenování. Pruhy zůstávají na týchž souřadnicích, jen ztlumené.",
+      "diagram_generator": "mars",
+      "diagram": "Velký ambrový nápis PRIORITY INVERSION přes ztlumený obraz tří pruhů.",
+      "pause": 2.2
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Watchdog nesleduje chybu, sleduje TICHO — proto se kreslí prázdný pruh, ne chybová značka.",
+      "diagram_generator": "mars",
+      "diagram": "Vlevo tikající watchdog, vpravo pruh HIGH úlohy prázdný. Mezi nimi narůstající ambrový oblouk času."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Tři značky = 'then it happened again. And again.' — tedy opakování, ne jeden reset.",
+      "diagram_generator": "mars",
+      "diagram": "Celý obraz se resetuje: tři pruhy zmizí, zbude prázdná osa, a nad ní tři značky opakování."
+    },
+    {
+      "id": "S44",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "ARCHIV. Tým mise, ne řídicí středisko: apollovské 'Mission Control' snímky, které vyhledávání nabízí, jsou z JINÉ mise, a obraz z cizí mise je věcná chyba, kterou žádný detektor nenajde. STATIC a fit 0,86 — u skupinové fotky divák hlásil postupně oříznuté hlavy, když se zoomuje. Když se na kontaktním listu nenajde nic použitelného, scéna se překreslí kódem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Mars Pathfinder team JPL",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86,
+          "saturation": 88
+        }
+      }
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Výplata S32. Bez shodného rozvržení se obrat nepozná.",
+      "diagram_generator": "priorita",
+      "diagram": "Týž žebříček jako v S30-S32, zaškrtnutí 'sounds right' je teď přeškrtnuté a vedle stojí HIGH PRIORITY = ASKED FIRST."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Zobecnění Pathfinderu bez Marsu — proto žádné jméno úlohy.",
+      "diagram_generator": "priorita",
+      "diagram": "Rychlá úloha nahoře čeká na pomalou dole, mezi nimi zámek; nad tím popisek 'importance buys nothing'.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Počet dílů v obou variantách musí být STEJNÝ a zajištěný assertem — v tom je celé tvrzení scény.",
+      "diagram_generator": "priorita",
+      "diagram": "Pevný rámeček CYCLES rozdělený na díly; priorita mění jen POŘADÍ dílů, ne jejich počet. Dvě varianty vedle sebe se stejným počtem dílů."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Žádné procento v nápisu — scénář říká 'one hundred percent' slovy a obraz to ukazuje plností, ne číslem.",
+      "diagram_generator": "cpu",
+      "diagram": "Čtyři jádra, všechna plná."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Ambrová je tvoje úloha, ne 'ta důležitá'.",
+      "diagram_generator": "cpu",
+      "diagram": "Časová osa rozsekaná na velmi krátké střídavé úseky tří různých úloh; jeden úsek je ambrový (tvoje okno)."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Scéna dokládá, že se to dá dělat naráz — proto se pruhy PŘEKRÝVAJÍ v čase.",
+      "diagram_generator": "cpu",
+      "diagram": "Dva pruhy běžící současně: COMPILE (dlouhý) a SCROLL (krátké úseky vložené mezi)."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Tady se poprvé rozlišuje propustnost a zpoždění. Obojí musí být vidět naráz, jinak scéna jen tvrdí.",
+      "diagram_generator": "cpu",
+      "diagram": "Dva ukazatele vedle sebe: THROUGHPUT beze změny, LATENCY narostlá."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Uživatelem vyzdvižená formulace videa. Scéna je záměrně skoro prázdná — beat nese ticho a jedno slovo.\n\nDOVĚTEK. Divák nahlásil schwu za koncem. Naměřeno na obálce: důlek a za ním vlastní hrb −3 dB dlouhý 340 ms, tedy doříkávaná schwa na úrovni řeči.\n\nVlastní znění dovětku NENÍ kosmetika — rozhoduje, jestli se řez vůbec najde. Projeto pět znění a změřen konec každého:\n  A \"The rest of the system carries on regardless.\"  -8 dB, 200 ms  <- použito\n  B \"Everything else keeps running.\"                 -7 dB, 160 ms\n  C \"So the system simply stays busy.\"     ŘEZ SELHAL, zůstalo -3 dB/340 ms\n  D \"Nobody notices the difference anyway.\"          +6 dB, 700 ms (horší)\n  E \"The machine keeps working through all of it...\" -6 dB, 200 ms\n\nKontrola proti celému videu: posledních 300 ms scény je po opravě 80. nejhlasitějších z 91 (špička -6 dB proti mediánu -3 dB), takže konec je teď tišší než skoro všechny ostatní scény.\n\nNÁVĚTÍ tu NEPOMOHLO a nejde kombinovat: tts.py:849 volí větev scene_s_navetim() přes elif, takže se dovětek vůbec neuplatní. Samotné návětí schwu zkrátilo jen na 240 ms / -5 dB.",
+      "diagram_generator": "cpu",
+      "diagram": "Prázdná plocha a uprostřed jediné ambrové slovo LATE.",
+      "pause": 2.6,
+      "dovetek": "The rest of the system carries on regardless."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Rozestupy jsou DATA — musí odpovídat poměru 0,5 : 1 : 5, jinak obraz tvrdí jiné zpoždění než voiceover. Assert.",
+      "diagram_generator": "cpu",
+      "diagram": "Tři odpovědi na téže ose, každá dál od kliknutí: půl sekundy, sekunda, pět sekund."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Navazuje na S53 beze změny rozvržení.",
+      "diagram_generator": "cpu",
+      "diagram": "Táž osa, u půlsekundy popisek 'a machine that is thinking'."
+    },
+    {
+      "id": "S55",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S55.png",
+      "note": "SDXL, DRUHÉ KOLO. První pokus (odložený ve scratchpadu) měl rozsvícená stropní světla a teplou pískovou podlahu — hala, ve které se svítí, se nečte jako 'a machine that has died', a teplá podlaha jde proti kotvě stylu. Vinu nesla slova o světle, ne kotva: prompt sám žádal 'one distant amber lamp'. Je to táž rodina jako 'dawn/dusk' u videa 020, kde šikmé světlo přebilo barevnou kotvu. Druhé kolo světlo NEŽÁDÁ vůbec a má vlastní 'seed' — bez něj by --force dal tutéž kompozici, protože seed se odvozuje z ID scény.",
+      "prompt": "a deserted machine room at night, long rows of tall equipment cabinets standing dark and switched off, every indicator unlit, ceiling fixtures dark, no light source in the room, cold indigo darkness, deep shadow, faint grey daylight from a far doorway, empty, abandoned, still, no text",
+      "pause": 2.2,
+      "seed": 20560055
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Páteř se vrací po dlouhé odbočce. Značka se přesouvá, dráha ne.",
+      "diagram_generator": "pamet",
+      "diagram": "Dráha se značkou 'bottleneck', která se přesune ze stanice PROGRAM (procesor) jinam."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Šipky jsou OBOUSMĚRNÉ — 'out to storage and back'. Jednosměrná šipka by tvrdila, že se paměť jen uvolňuje.",
+      "diagram_generator": "pamet",
+      "diagram": "Rámeček MEMORY plný, z něj a do něj putují stránky na STORAGE."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Zrcadlo S16 — táž kresba, jiná příčina. Ta shoda je záměr: obě scény říkají 'stroj dělá režii místo práce'.",
+      "diagram_generator": "pamet",
+      "diagram": "Pruh času stroje rozdělený: MOVING MEMORY (ambrová, většina) a YOUR WORK (zbytek)."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Druhé pojmenování videa, shodné provedení jako S41 (PRIORITY INVERSION). Ta dvojice je motiv.",
+      "diagram_generator": "pamet",
+      "diagram": "Velký ambrový nápis THRASHING přes ztlumený obraz stěhování stránek."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Nejpřekvapivější scéna bloku: nízký ukazatel a stojící dráha musí být v JEDNOM obraze, jinak se rozpor nepozná.",
+      "diagram_generator": "pamet",
+      "diagram": "Ukazatel procesoru nízko, a přesto dráha stojí."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Krátký beat, minimum prvků.",
+      "diagram_generator": "pamet",
+      "diagram": "Dvě slova pod sebou: NOT WORKING přeškrtnuté, WAITING ambrové."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Třetí návrat žebříčku. Časy před a po musí být stejně dlouhé — to je celé tvrzení scény. Assert.",
+      "diagram_generator": "pamet",
+      "diagram": "Žebříček priorit z S30; čekající úloha je vysazená do nejvyšší příčky a vedle ní stejný čas čekání jako předtím.",
+      "pause": 2.2
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Přechod na aplikační větev, pořád na páteři.",
+      "diagram_generator": "aplikace",
+      "diagram": "Dráha: KERNEL svítí, PROGRAM tmavý. Mezi nimi fronta s jedním záznamem."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Fronta je tentýž tvar, který se vyplatí v S89 — proto se kreslí funkcí z _kit.py, ne ručně.",
+      "diagram_generator": "aplikace",
+      "diagram": "Fronta se jménem programu; program vedle je zavřený a nic si nebere."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Scéna kreslí, JAK něco funguje — tedy samostatný průchod: ověřit, že obojí visí na TÉMŽ vlákně, jinak je nákres funkčně nesmysl.",
+      "diagram_generator": "aplikace",
+      "diagram": "Jedno vlákno, na němž visí dvě úlohy: dlouhý výpočet a obsluha okna. Výpočet ambrový a dlouhý."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Kontrast je celá pointa: tři v pořádku, jedno ne.",
+      "diagram_generator": "aplikace",
+      "diagram": "Tři zaškrtnuté položky (mouse, keyboard, other programs) a jedno přeškrtnuté okno."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Doloženo primárním zdrojem (DWM nahradí okno duchem a dopíše 'Not Responding' do záhlaví) — viz factcheck.md, S68.",
+      "diagram_generator": "aplikace",
+      "diagram": "Okno zesvětlené do ztracena, v záhlaví nápis NOT RESPONDING."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Jediné doložené číslo bloku. Pět sekund tu není totéž jako pět sekund v S09 — tam je to vymyšlená scéna. Kdyby to vypadalo jako pointa, změní se číslo v S09.",
+      "diagram_generator": "aplikace",
+      "diagram": "Fronta zpráv a nad ní časovač, který dojde na pěti sekundách."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Metafora dveří je ve voiceoveru, takže smí být i v obraze.",
+      "diagram_generator": "aplikace",
+      "diagram": "Systém (ambrový, svítí) a aplikace (ztlumená) oddělené hranicí; u aplikace zavřené dveře."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Uzavření aplikační větve. Za touhle scénou následuje CTA, takže obraz musí být klidný.",
+      "diagram_generator": "aplikace",
+      "diagram": "Dvě události vedle sebe, mezi nimi nerovnítko: RECEIVING THE CLICK a ANSWERING IT."
+    },
+    {
+      "id": "S70b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "VÝZVA K ODBĚRU podle docs/cta.md. `visual` ukazuje SCHVÁLNĚ na obrázek PŘEDCHOZÍ scény: prolínačka mezi dvěma identickými obrázky není vidět, takže divák nezaznamená střih. Do diagramu se nekreslí nic — nápis klade render.py ze sdílené vrstvy. 'effect': 'static' je povinný (u nové scény by se zoom počítal od začátku a v místě střihu by skočil zpátky) a předchozí scéna musí být taky statická; S70 je diagram, sedí. Umístěná za uzavřenou myšlenkou o aplikaci, ne doprostřed argumentu o prioritě — viz notes.md.",
+      "cta": true
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Nejsilnější moment páteře: divák vidí, že zbývají dvě stanice, o kterých se ještě nemluvilo.",
+      "diagram_generator": "drahy",
+      "diagram": "Dráha: svítí všechno až po PROGRAM, stanice PICTURE a SCREEN zůstávají tmavé."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Čtyři kroky = čtyři věty. Řada pokračuje týmž směrem jako páteř.",
+      "diagram_generator": "obraz",
+      "diagram": "Čtyři rámečky v řadě: APP STATE -> FRAME -> GRAPHICS CARD -> DISPLAY."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Číslo je odvozené (1000/60), ne opsané, a platí pro obvyklých 60 Hz — proto 'ordinary screen' a 'about'. Viz factcheck.md, S73.",
+      "diagram_generator": "obraz",
+      "diagram": "Řada rovnoměrných dílků snímků, rozestup popsaný jako 'about sixteen milliseconds'."
+    },
+    {
+      "id": "S73b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73b.png",
+      "note": "Rozdíl mezi zpracováním a viděním je jediné tvrzení scény, takže v obraze nesmí být nic jiného.",
+      "diagram_generator": "obraz",
+      "diagram": "Jedna časová osa, na ní dvě různě vzdálené značky: PROCESSED a SEEN.",
+      "pause": 2.2
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Prázdný rámeček je záměr — prázdno v obraze je tvrzení o nevědomosti, ne chybějící kresba. Proto má popisek.",
+      "diagram_generator": "zamer",
+      "diagram": "Systém ví: 'the mouse moved' (ambrová, vyplněná). Vedle prázdný rámeček 'why'."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Čtvrtý je schválně banální — kdyby chyběl, scéna by tvrdila, že všechny záměry jsou vážné.",
+      "diagram_generator": "zamer",
+      "diagram": "Čtyři záměry vedle sebe: hra, dokument, důležité tlačítko, vrážka do stolu."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Slití je pohyb, který se musí poznat z rozvržení: čtyři vstupy, jeden výstup, totéž pořadí jako v S75.",
+      "diagram_generator": "zamer",
+      "diagram": "Čtyři záměry se slijí do jediné identické události."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Kompromis se kreslí jako dvě částečně naplněné stupnice, ne jako váhy — váhy tvrdí, že jedno vyhrálo.",
+      "diagram_generator": "zamer",
+      "diagram": "Dva ukazatele proti sobě: LATENCY FOR YOU a PROGRESS ON EVERYTHING ELSE, oba uprostřed.",
+      "pause": 2.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Začátek výplaty. Od téhle scény do S83 se dráha nesmí posunout ani o pixel — na tom stojí celý závěr. VOLNÁ HORNÍ POLOVINA (závěrečná obrazovka).",
+      "diagram_generator": "drahy",
+      "diagram": "Celá dráha znovu, všech sedm stanic viditelných, značka kliknutí na začátku."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Tři kroky = tři věty. VOLNÁ HORNÍ POLOVINA.",
+      "diagram_generator": "drahy",
+      "diagram": "Postupně se rozsvěcují první tři stanice, u každé krátký popisek: report / store / reach."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Čtyři kroky = čtyři věty. VOLNÁ HORNÍ POLOVINA.",
+      "diagram_generator": "drahy",
+      "diagram": "Rozsvěcují se zbylé čtyři stanice: run / change / draw / show."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Dílky jsou stejné — 'every one of those steps is small and fast'. Různé velikosti by tvrdily, že některý krok je pomalý. VOLNÁ HORNÍ POLOVINA.",
+      "diagram_generator": "drahy",
+      "diagram": "Pod každou stanicí drobný stejně velký dílek času."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Který dílek naroste, je jedno — a právě to je pointa. Proto NE první ani poslední. VOLNÁ HORNÍ POLOVINA.",
+      "diagram_generator": "drahy",
+      "diagram": "Jeden libovolný dílek naroste ambrově, ostatní zůstanou malé."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Návrat k S01. Rozvržení musí být shodné s S01, jinak se návrat nepozná. VOLNÁ HORNÍ POLOVINA.",
+      "diagram_generator": "drahy",
+      "diagram": "Celá dráha ztmavne, stanice SCREEN tmavá, nad tím nápis DEAD COMPUTER.",
+      "pause": 2.6
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Poměr je DATA: řada musí být zřetelně dlouhá, jinak obraz netvrdí 'how rarely'. Assert. POSLEDNÍCH 20 S — volná horní polovina.",
+      "diagram_generator": "zaver",
+      "diagram": "Dlouhá řada drobných úspěšných kliknutí, mezi nimi jediné ambrové neúspěšné."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Nepoměr je celé tvrzení scény. POSLEDNÍCH 20 S — volná horní polovina.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo obrovské číslo operací za sekundu jako hustá plocha, vpravo jediná drobná značka pohybu ruky."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "POSLEDNÍCH 20 S — volná horní polovina.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž kresba, nad ní zaškrtnutí 'almost always'.",
+      "pause": 1.4
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Záměrně TOTOŽNÁ s S01. POSLEDNÍCH 20 S — volná horní polovina.",
+      "diagram_generator": "drahy",
+      "diagram": "Dráha jako v S01, značka kliknutí vstupuje vlevo, SCREEN tmavá."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "POSLEDNÍCH 20 S — volná horní polovina.",
+      "diagram_generator": "drahy",
+      "diagram": "Rozsvítí se HARDWARE a KERNEL, nad nimi 'it heard you'.",
+      "pause": 1.6,
+      "dovetek": "The rest of the system carries on regardless."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "VÝPLATA PÁTEŘE. Fronta je tentýž tvar jako v S64 — proto z _kit.py. Poslední obraz videa, POSLEDNÍCH 20 S: prvky závěrečné obrazovky patří do horní poloviny, takže fronta leží dole.",
+      "diagram_generator": "drahy",
+      "diagram": "Fronta z S64 přes celou šířku, v ní jedna ambrově označená položka YOUR CLICK, před ní i za ní další."
+    }
+  ]
+}

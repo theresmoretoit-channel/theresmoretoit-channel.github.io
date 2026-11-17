@@ -1,0 +1,633 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese myšlenku (vypínač v konkrétní hodině), ne atmosféru; NE sdxl. Zavádí páteř A — osa se do S59 nesmí pohnout. „Says the internet“ musí být i v obraze: je to tvrzení, ne fakt (míra jistoty).",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A (`osa()`): vodorovná osa HOURS WITHOUT FOOD, 0–48 h, na pevné výšce. U 16 h ambrový vypínač v poloze ON; nad ním malým písmem SAYS THE INTERNET."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Pořád tvrzení internetu, ne výklad — proto uvozovky. Mechanismus se tu NEkreslí, ten přijde v S17–S20.",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř A zmenšená nahoře, vypínač ON. Pod ní buňka a v ní smyčka dvou šipek kolem drobného poškozeného kusu; nápis v uvozovkách “REPAIR MODE”."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Etymologie podle Nobel Advanced Information 2016.",
+   "diagram_generator": "uvod",
+   "diagram": "Velké slovo AUTOPHAGY rozdělené na AUTO- a -PHAGY, pod každou půlkou řecky αὐτός / φαγεῖν a anglicky SELF / EATING.",
+   "vycet": 0.3,
+   "pause": 0.5
+  },
+  {
+   "id": "S04",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "KANDIDÁT z kontaktního listu 2026-10-13 (dotaz = přesný název souboru; pick ověřit `--search`, po stažení okem). Jošinori Ósumi na Nobelově týdnu 2016, Bengt Nyman, CC BY 2.0. Portrét: fit 0,84, BEZ zoomu. Jméno zazní až v S26 — tady jen „the scientist“.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Nobel Laureates 7428 (30679389523) (cropped)",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Hlavní otázky videa. Ambrová = o tomhle je řeč.",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř A, vypínač u 16 h. Dva ambrové otazníky: nad šestnáctkou WHERE FROM?, pod osou MEASURED IN A HUMAN?",
+   "pause": 1.0
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Zavádí lištu stopy pro S07–S11: čtyři zastávky na pevných souřadnicích nahoře (SCHEDULE · 2010 GUIDE · BLOG · MOUSE STUDY), aktuální ambrově. Kreslí jedna funkce v `_kit.py`.",
+   "diagram_generator": "stopa",
+   "diagram": "STOPA: vpravo velká číslice 16, od ní doleva čára přes čtyři prázdné zastávky; čára se směrem doleva ztenčuje a přechází v čárkovanou."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "assert 16 + 8 == 24. „Is familiar from a meal schedule“ — nic o prvenství (fact check S07, UPRAVENO).",
+   "diagram_generator": "stopa",
+   "diagram": "Lišta stopy, zastávka 1. Pod ní úsek páteře A 0–24 h: pruh 0–16 WITHOUT FOOD, pruh 16–24 EAT, nad tím 16:8."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Průvodce se nejmenuje ani v obraze (voiceover ho nejmenuje). „0 matches“ = fulltext bez slova autophagy (fact check S08). Nic o tom, že ho „proslavil“.",
+   "diagram_generator": "stopa",
+   "diagram": "Lišta, zastávka 2. Karta dokumentu A 16:8 GUIDE · 2010 se štítky TRAINING a FAT LOSS; pod kartou vyhledávací pole “autophagy” → 0 MATCHES."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Blog (lasta.app) se nejmenuje. Odkaz je na stránce opravdu na slově „begins“ (fact check S10) — podtržení to říká přesně.",
+   "diagram_generator": "stopa",
+   "diagram": "Lišta, zastávka 3. Karta webové stránky POPULAR FASTING GUIDE s citátem “autophagy typically begins around the 16-hour mark”; slovo begins podtržené jako odkaz."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Šipka = odkaz vede sem (ne příčina).",
+   "diagram_generator": "stopa",
+   "diagram": "Lišta, zastávka 4. Od podtrženého begins šipka ke kartě studie MICE · 24 h OR 48 h WITHOUT FOOD; pod kartou páteř A s ambrovými body u 24 a 48 h a ikonou myši.",
+   "pause": 0.6
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Netvrdit „po 16 h nic není“ — jen že to ta studie neměřila. Proto prázdný kroužek, ne křížek. Řádek PEOPLE se v S42–S48 začne plnit — zakládá se tady.",
+   "diagram_generator": "stopa",
+   "diagram": "Páteř A rozdělená na dva řádky: MICE (body 24 a 48 h, plné) a PEOPLE (prázdný řádek). U 16 h v řádku MICE čárkovaný prázdný kroužek NOT MEASURED."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Čára bez jednotek na svislé ose → v rohu SCHEMATIC. Vypínač ztlumený, ne přeškrtnutý (video netvrdí, že nic nezačíná).",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř A; nad osou nízká souvislá čára, která začíná už vlevo PŘED nulou (štítek NOW, RIGHT NOW) a běží přes celou osu, popsaná BACKGROUND LEVEL. Vypínač u 16 h ztlumený."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Čárkovaně = neznámé u člověka. Žádná hodnota ani hodina na čárkované větvi.",
+   "diagram_generator": "uvod",
+   "diagram": "Táž čára; za nulou se z ní odpojí čárkovaná stoupající větev. Tři ambrové otázky: UP FROM WHAT? (u základní úrovně), BY HOW MUCH? (u výšky), AFTER HOW LONG? (podél osy, s otazníkem místo hodiny)."
+  },
+  {
+   "id": "S13b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "cta": true,
+   "pause": 2.4,
+   "note": "CTA podle docs/cta.md — dědí S13 (statický diagram), ~1:30, hned za první výplatou."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Každý tvar s popiskem (zpětná vazba: tvar bez legendy neříká nic).",
+   "diagram_generator": "bunka",
+   "diagram": "Výřez buňky, tři popsané kusy: MISFOLDED PROTEIN (zauzlený řetízek), CLUMP (shluk), DAMAGED MITOCHONDRION (fazole s přerušenými kristami); pod mitochondrií drobně THE CELL'S POWER PLANT.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Měřítko soudku a mitochondrie z S16 musí být shodné (sdílená konstanta).",
+   "diagram_generator": "bunka",
+   "diagram": "Proteasom jako soudek; do něj vstupuje jeden řetízek proteinu, ven padají krátké kousky. Popisek PROTEASOME · ONE PROTEIN AT A TIME."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Velikosti ve stejném měřítku jako S15. „On its own“ (znění uživatele) → popisek ON ITS OWN, ne NEVER.",
+   "diagram_generator": "bunka",
+   "diagram": "Vlevo proteasom a vedle něj mitochondrie mnohem větší než jeho otvor (TOO BIG ON ITS OWN). Vpravo táž mitochondrie, kolem ní se zavírá membrána — AUTOPHAGY: THE WHOLE THING."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Zavádí páteř B. Výplata v S28 a S39–S41 (týž obraz s ucpaným / volným odtokem) a v S62–S63.",
+   "diagram_generator": "linka",
+   "diagram": "PÁTEŘ B (`linka()`): zleva doprava pět stanic recyklace na pevných souřadnicích — náklad, membrána, váček, lysozom, stavební kameny se šipkou zpět. Tady svítí jen první dvě: mitochondrie a kolem ní dorůstající srpek membrány (MEMBRANE); zbytek ztlumené obrysy."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Dvojitá stěna musí být vidět (voiceover ji jmenuje).",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B, svítí stanice 3: uzavřený váček s DVOJITOU stěnou, popisek AUTOPHAGOSOME; šipka k lysozomu."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Lysozom má v celém videu jednu podobu — sdílený tvar v `_kit.py`.",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B, svítí lysozom: uzavřený vak s tečkami enzymů, popisky LYSOSOME, ACIDIC, DIGESTIVE ENZYMES."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Smyčka je uzavřená — na tom stojí S24 („it never stops“).",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B celá rozsvícená: váček splynul s lysozomem, ven vycházejí drobné stavební kameny a šipka vede zpátky do buňky — USED AGAIN."
+  },
+  {
+   "id": "S21",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "KANDIDÁT z kontaktního listu 2026-10-13 (pick ověřit `--search`, po stažení okem). Christian de Duve, 1983, Rob Croes / Anefo, CC0. Portrét: fit 0,84, BEZ zoomu. Fotka je z roku 1983, rok 1963 nese voiceover, obraz o letopočtu nic netvrdí.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Christian de Duve (1983)",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Fotka novorozených myší na Commons není (hledáno 2026-10-13: jen videa a obrázky z článků s textem) → kresba. Myš je sdílený tvar v `_kit.py`.",
+   "diagram_generator": "mysi",
+   "diagram": "Silueta novorozeného mláděte myši uprostřed, nad ní otázka HOW MUCH DOES A BODY DEPEND ON IT?"
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Rozděleno podle zpětné vazby storyboardu: jen přívod a nárůst autofagie. Kuma 2004.",
+   "diagram_generator": "mysi",
+   "diagram": "Matka → mládě, přívod potravy přerušený (AT BIRTH: FOOD SUPPLY CUT), v mláděti ambrová šipka nahoru AUTOPHAGY SURGES · ACROSS THE BODY."
+  },
+  {
+   "id": "S23b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23b.png",
+   "note": "Rozděleno z S23 (zpětná vazba storyboardu). Obě mláďata MUSÍ být identická — tvrzení „look normal“; kontrast nese jen popisek. Gen Atg5 podle Kuma 2004 (voiceover: „one key autophagy gene“).",
+   "diagram_generator": "mysi",
+   "diagram": "Dvě stejné siluety novorozených myší vedle sebe; nad oběma LOOK NORMAL, pravá s popiskem WITHOUT Atg5 a pod ní DIES WITHIN A DAY.",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Škrt je správně — scénář to tvrdí přímo („isn't an emergency mode“).",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B jako uzavřený kruh, který se točí stále; uprostřed MAINTENANCE · NEVER STOPS. Nahoře přeškrtnutý nápis EMERGENCY MODE (`text_skrtnuty`).",
+   "pause": 2.4
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "„Partly“ — žádné tvrzení, že je to jediný zdroj.",
+   "diagram_generator": "kvasinky",
+   "diagram": "Kvasinka (oválná buňka s pupenem), popisek YEAST; vlevo nahoře ztlumeně otázka WHERE DOES THE FASTING IDEA COME FROM?"
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "„Early 1990s“, ne 1992 (fact check S26). Vakuola je sdílený tvar s lysozomem v S19 (táž role).",
+   "diagram_generator": "kvasinky",
+   "diagram": "Kvasinka s velkou vakuolou: RECYCLING CHAMBER (VACUOLE) · CAN'T DIGEST; zvenku přeškrtnutý přívod živin NO FOOD. Nahoře OHSUMI LAB · EARLY 1990s."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Počty bublinek jsou SCHEMATICKÉ, ne data → v rohu SCHEMATIC. Takeshige 1992.",
+   "diagram_generator": "kvasinky",
+   "diagram": "Dvě kvasinky vedle sebe: 1 HOUR — ve vakuole několik bublinek; 3 HOURS — vakuola skoro plná."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Kompozice se doslova vrací v S40 — počet a poloha váčků jsou konstanta v `_kit.py`, ne v generátoru.",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B: přívod zesílený (STARVATION: MORE IN), odtok v lysozomu zablokovaný (DIGESTION BLOCKED), váčky se hromadí před ním. Dole REMEMBER THIS."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "assert len(geny) == 15 (Tsukada & Ohsumi 1993). Vypínač je tvar z páteře A, ale bez osy — jen odkaz.",
+   "diagram_generator": "kvasinky",
+   "diagram": "Patnáct krátkých pruhů genů v řadě (ATG GENES · YEAST), pod nimi NOBEL PRIZE 2016. Vpravo ztlumený vypínač z páteře A s přeškrtnutým A FASTING SCHEDULE.",
+   "vycet": 0.3,
+   "pause": 2.2
+  },
+  {
+   "id": "S30",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S30.png",
+   "note": "KANDIDÁT z kontaktního listu 2026-10-13 (pick ověřit `--search`, po stažení okem). Myš kmene C57BL/6 — tentýž kmen jako Alirezaei 2010; public domain. Pije (voda se při půstu nebere), ne jí — snímek „eating“ by tvrdil opak scény. Drobky jídla vpravo dole vyretušovány (klon ručníku z téže fotky, `retus_check` 2,45 %), protože scéna mluví o hladovění.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Black 6 mouse drinking",
+    "pick": 0,
+    "retouch": "S30.retouch.png",
+    "grade": {
+     "_retusovano": "odstraněny drobky jídla vpravo dole retuší (klon textury ručníku z téže fotky, mimo pipeline)"
+    }
+   }
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "assert poměr výšek == 4. Popisek COUNTED je povinný: je to POČET, ne míra recyklace (uživatel: počet nekreslit jako flux — pointa S39–S41). Bod 24 h se nekreslí, číslo k němu ve fact checku není.",
+   "diagram_generator": "mysi",
+   "diagram": "Silueta Purkyňova neuronu. Dva sloupce: FED a 48 h WITHOUT FOOD, druhý ~4× vyšší, nad ním ≈ ×4. Nadpis AUTOPHAGOSOMES COUNTED · ONE TYPE OF NEURON."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "assert 7. Platí pro celé tělo (fact check S32 OK*). Postavy nejsou v měřítku → nadpis ENERGY PER GRAM, ne velikost.",
+   "diagram_generator": "mysi",
+   "diagram": "Myš a člověk vedle sebe ve stejné výšce (ne v měřítku), pod každým sloupec ENERGY PER GRAM: myš 7×, člověk 1×."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "assert 100 − 14 == 86, plocha siluety se škáluje podle hmotnosti. Carper 2020.",
+   "diagram_generator": "mysi",
+   "diagram": "Silueta myši zmenšená na 86 % plochy vedle obrysu původní velikosti; −14 % IN ONE DAY; drobně ADULT MALE MICE · ONE LAB STUDY.",
+   "pause": 0.5
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Škrt přes nápis (`text_skrtnuty`), ne křížek.",
+   "diagram_generator": "mysi",
+   "diagram": "Stupnice délky půstu pro myš; u A DAY OR TWO přeškrtnuté LONG FAST a vedle ambrové EXTREME.",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Mizushima 2004 × Alirezaei 2010. Žádná karta není „správná“ — stejná barva obou.",
+   "diagram_generator": "mysi",
+   "diagram": "Nahoře DIFFERENT ORGANS, DIFFERENT METHODS. Dvě karty se siluetou mozku: 2004 · BRAIN: NO RESPONSE a 2010 · BRAIN: STRONG RESPONSE, mezi nimi 6 YEARS LATER."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Žádný převodní poměr v obraze (žádný validovaný neexistuje, fact check S36).",
+   "diagram_generator": "mysi",
+   "diagram": "Páteř A, řádek MICE s body 24 a 48 h; čárkovaná šipka dolů na řádek PEOPLE končí otazníkem — žádný bod.",
+   "pause": 2.6
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Lidská postava je sdílený tvar (`postava()`), beze tváře.",
+   "diagram_generator": "lide",
+   "diagram": "Silueta člověka s orgány ztlumeně uvnitř; před ní lupa s otazníkem — NO WAY TO WATCH INSIDE."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Stejné souřadnice postavy jako S37.",
+   "diagram_generator": "lide",
+   "diagram": "Táž silueta; rozsvícená jen dvě místa: paže s kapkou (BLOOD) a stehno s malým vzorkem (MUSCLE). Zbytek ztlumený — THAT'S ABOUT IT.",
+   "pause": 0.6
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Otazník je povinný: je to jedna ze dvou možností.",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B: v řadě pět váčků, odtok volný, šipky rychlé — MORE BAGS: FASTER RECYCLING?",
+   "pause": 0.3
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "assert počet váčků v S39 == S40 — to je celá pointa: počet obě možnosti NEROZLIŠÍ (uživatel). Kompozice z S28.",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B: TÝCH pět váčků, ale odtok zablokovaný a váčky stojí ve frontě — OR A BLOCKED EXIT? Drobně LIKE OHSUMI'S YEAST (callback S28)."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Ambrová je tok, ne počet váčků.",
+   "diagram_generator": "linka",
+   "diagram": "Páteř B celá, přes všechny stanice jedna ambrová šipka toku od váčku po rozklad — FLUX = THE WHOLE FLOW. Dole drobně IN PEOPLE: NEW, MOSTLY BLOOD."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Singh 2025 (flux v krvi). Řádek PEOPLE se tu začíná plnit.",
+   "diagram_generator": "lide",
+   "diagram": "Páteř A, řádek PEOPLE: u 12 h kapka krve a bod 12 h OVERNIGHT FAST; vedle NO FASTER THAN 1 h AFTER A PROTEIN MEAL. Nahoře SMALL AND MIXED."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Dutý bod = nepřímý signál, ne měření recyklace (konvence pro celé video). Jamshed 2019, +22 % → „about a fifth“.",
+   "diagram_generator": "lide",
+   "diagram": "Páteř A, řádek PEOPLE: k bodu 12 h přibude u 18 h DUTÝ bod 18 h × 4 DAYS · ONE GENE ≈ +20 % · A GENE SIGNAL, NOT RECYCLING."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "assert 121. Bensalem 2025.",
+   "diagram_generator": "lide",
+   "diagram": "Páteř A, řádek PEOPLE: u 20 h bod 20 h · 3× A WEEK · 6 MONTHS · 121 PEOPLE."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Uživatel: obě čáry nechat, ale zřetelně schematické — žádné hodnoty na osách, pokles nevýrazný, ať nepůsobí jako naměřená časová řada. Pokles kontrolní skupiny musí být vidět.",
+   "diagram_generator": "lide",
+   "diagram": "Výřez studie: dvě schematické čáry přes 6 měsíců BEZ číselných os — FASTING GROUP téměř rovná s popiskem NOT SIGNIFICANT, STANDARD CARE jen mírně klesající; mezera na konci DIFFERENCE AT 6 MONTHS · POST HOC. V rohu SCHEMATIC."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Fotka Kroemera na Commons není (hledáno 2026-10-13). Podcast, ne článek (notes).",
+   "diagram_generator": "lide",
+   "diagram": "Karta otázky: “Does a sixteen-hour fast induce autophagy in any human tissue?” — QUESTION TO GUIDO KROEMER · PODCAST, 2019. Pod ní páteř A, řádek PEOPLE s body 12/18/20 h a čárkovaný kroužek u 16 h."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Bez dalších prvků.",
+   "diagram_generator": "lide",
+   "diagram": "Velký citát “We don't know.” uprostřed, pod ním GUIDO KROEMER · 2019.",
+   "pause": 1.4
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Škrt přes nápis. Míra jistoty: otazník, ne křížek u 16 h.",
+   "diagram_generator": "lide",
+   "diagram": "Páteř A, řádek PEOPLE, kroužek u 16 h s otazníkem. Vedle přeškrtnuté “IT DOESN'T HAPPEN” a ambrové NOT KNOWN YET.",
+   "vycet": 0.3,
+   "pause": 2.8
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Otázka, ne doporučení.",
+   "diagram_generator": "stari",
+   "diagram": "Posuvník MORE AUTOPHAGY? s otazníkem; pod ním ztlumeně ANIMALS: THE CASE LOOKS STRONG."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Shluk je tentýž tvar jako CLUMP v S14. Hara 2006, Komatsu 2006.",
+   "diagram_generator": "stari",
+   "diagram": "Myš a vedle ní neuron plný shluků proteinu: NO AUTOPHAGY IN THE BRAIN → MOVEMENT PROBLEMS, PROTEIN CLUMPS."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "assert delší == 1.17 × kratší. Medián, ne maximum (fact check S51 OK*).",
+   "diagram_generator": "stari",
+   "diagram": "Dva vodorovné pruhy MEDIAN LIFESPAN: NORMAL MICE a MICE OVERPRODUCING Atg5, druhý o 17 % delší (+17 %). Ztlumeně nad tím SOME ANIMALS LIVE LONGER."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Prázdný rámeček, ne křížek — chybí doklad, ne že by to bylo vyvrácené.",
+   "diagram_generator": "stari",
+   "diagram": "Řádek HUMANS: prázdný rámeček LIVE LONGER? → NO EVIDENCE YET.",
+   "pause": 1.2
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Krátká scéna — jednoduchý obraz.",
+   "diagram_generator": "stari",
+   "diagram": "Obrys nádorové buňky (nepravidelný shluk) a slovo CANCER."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Beclin 1 +/− (Qu 2003, Yue 2003). Lidská data o rakovině prsu NEKRESLIT (fact check S54).",
+   "diagram_generator": "stari",
+   "diagram": "Myš; u ní dva řádky kopie genu, jedna přeškrtnutá (ONE WORKING COPY); šipka k častějším nádorům MORE TUMOURS. Dole ambrově HELPS KEEP CANCER FROM STARTING.",
+   "pause": 0.5
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Yang 2011. „In mice“ musí být v obraze — blokáda u lidí se ve videu netvrdí.",
+   "diagram_generator": "stari",
+   "diagram": "Zavedený nádor, uvnitř malá smyčka páteře B (FEEDS ON AUTOPHAGY); vedle PANCREATIC TUMOURS: RELY HEAVILY a IN MICE: BLOCKED → SHRANK."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Obě strany stejnou barvou (ambrová ≠ dobré).",
+   "diagram_generator": "stari",
+   "diagram": "Jedna smyčka páteře B uprostřed, vlevo od ní BEFORE A TUMOUR: PROTECTS, vpravo ONCE ESTABLISHED: HELPS IT SURVIVE; nahoře NOT GOOD OR BAD — A TOOL.",
+   "pause": 2.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Návrat k S01 — týž obraz, teď s vědomím, co víme.",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř A na původním místě, vypínač u 16 h jako v S01, nad ním otázka WHAT REALLY HAPPENS AFTER 16 HOURS?",
+   "pause": 1.2
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Uživatel: rozsah 12–36 h z obrazu pryč — voiceover hodiny neuvádí, obraz je nesmí nenápadně doplnit. Žádná ostrá hrana (ne „switch“).",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř A, nad osou pruh PALIVO s plynulým přechodem SUGAR → FAT & KETONES BEZ vyznačeného začátku a konce (přechod se rozlévá přes celou šířku, žádný úsek osy nevyčnívá); popisek GRADUAL · VARIES BY PERSON.",
+   "pause": 0.4
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Vypínač čárkovaně = neověřené tvrzení, ne vyvrácené.",
+   "diagram_generator": "zaver",
+   "diagram": "Týž přechod; vypínač u 16 h čárkovaně s NOT A COUNTDOWN. Pod tím řádek AUTOPHAGY s otazníkem — WHEN? NOT FROM THIS."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Začátek závěrečného okna: HORNÍ polovina volná pro dlaždici a kolečko odběru (docs/storyboard-a-diagramy.md). Páteř se smí pohnout jen tady a dál.",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř A POSUNUTÁ DO DOLNÍ POLOVINY (klíč `osa_dole`): souvislá čára BACKGROUND LEVEL z S12 běží dál přes celou osu, místy čárkovaný pruh MAYBE A LITTLE FASTER, SOME TISSUES; popisek BY HOW MUCH? NOT KNOWN YET.",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Horní polovina volná. Netvrdí, že je tvrzení nepravdivé — jen přesnější, než dovolují data.",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: osa a čárkovaný vypínač u 16 h s nápisem “REPAIR BEGINS AT HOUR 16” v uvozovkách; vedle MORE PRECISE THAN THE SCIENCE."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Horní polovina volná. Bez textu kromě titulku.",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: smyčka páteře B (zmenšená), poškozená mitochondrie vstupuje do váčku."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Závěrečná deska: horní polovina prázdná, static, dlouhá pauza.",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: táž smyčka, uzavřený kruh a z něj odcházejí stavební kameny zpět do buňky; pod tím klidná souvislá čára BACKGROUND LEVEL.",
+   "pause": 3.0
+  }
+ ]
+}

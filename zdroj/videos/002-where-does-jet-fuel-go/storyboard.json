@@ -1,0 +1,526 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Novinový titulek. Vrací se v S50 jako rám.",
+      "diagram_generator": "karta",
+      "diagram": "titulek: PLANE DUMPS 20 TONNES OF FUEL"
+    },
+    {
+      "id": "S02",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S02.png",
+      "note": "Palivo mizí do vzduchu. Bez letadla — SDXL konkrétní stroje neumí.",
+      "prompt": "high altitude sky at dusk, a thin pale plume dispersing into cold blue air, layered cloud far below, painterly, cinematic wide"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Nastolení obou otázek, na které video odpovídá.",
+      "diagram_generator": "karta",
+      "diagram": "dvě otázky pod sebou: WHERE DOES IT GO? / WHY NOT BURN IT?",
+      "pause": 2.2
+    },
+    {
+      "id": "S04",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S04.png",
+      "note": "Skutečný vzlet. SDXL by dal nepravděpodobný stroj.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "airliner taking off runway",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Ne ikonky poruch — dráha zpátky je čitelnější a nese příběh.",
+      "diagram_generator": "navrat",
+      "diagram": "dráha odletu, která se stáčí zpět na letiště"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Fáze 1: plné. Vrací se u S15 jako to, čeho se zbavujeme.",
+      "diagram_generator": "nadrze",
+      "diagram": "křídlo v půdorysu, nádrže plné"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "KLÍČOVÝ diagram. Čísla podle Boeing ACAP, viz factcheck.md S07.",
+      "diagram_generator": "hmotnosti",
+      "diagram": "fáze 1: dva sloupce, MTOW 397 t a MLW 286 t"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Mezera je pointa, ne sloupce.",
+      "diagram_generator": "hmotnosti",
+      "diagram": "fáze 2: zvýrazněná mezera 111 t mezi sloupci"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "",
+      "diagram_generator": "ubytek",
+      "diagram": "fáze 1: křivka hmotnosti klesající během deseti hodin letu"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Ukáže, proč je návrat po startu problém.",
+      "diagram_generator": "ubytek",
+      "diagram": "fáze 2: značka v 15. minutě, kde křivka ještě nespadla",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S11.png",
+      "note": "Dvacet kol A380 (public domain). Polep dopravce odstraněn chirurgickou retuší — ověřeno, že se změnilo 2,99 % plochy a mapa rozdílu ukazuje jen oba nápisy QATAR. Originál v archive-raw zůstává nedotčený, evidence i otisk platí dál.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "aircraft main landing gear bogie",
+        "pick": 1,
+        "retouch": "S11.retouch.png",
+        "grade": {
+          "_retusovano": true,
+          "zoom": [
+            0.03,
+            0.42,
+            0.55,
+            0.48
+          ]
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Smyčka musí být vidět jako smyčka, ne jako seznam.",
+      "diagram_generator": "spirala",
+      "diagram": "uzavřená smyčka: víc materiálu -> víc hmoty -> víc paliva -> víc hmoty"
+    },
+    {
+      "id": "S13",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S13.png",
+      "note": "Roky létání s hmotou navíc. Abstraktní, sedí SDXL.",
+      "prompt": "a wide empty horizon above an endless cloud deck, cold pale light, sense of great distance and repetition, painterly"
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S14.png",
+      "note": "Původní nález měl licenci GFDL, která se do popisku videa prakticky nedá splnit.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "airliner touchdown runway",
+        "pick": 0
+      },
+      "pause": 2.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Odpověď na to, čeho se dá zbavit.",
+      "diagram_generator": "slozeni",
+      "diagram": "hmotnost letadla rozdělená na konstrukci, náklad a palivo; palivo zvýrazněné"
+    },
+    {
+      "id": "S16",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S16.png",
+      "note": "Zahrada s bazénem z námětu. Negativ v project.json vylučuje postavy.",
+      "prompt": "a quiet suburban garden with a swimming pool seen from above, late afternoon light, calm and ordinary, painterly, no people"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Ukazuje, kde trysky NEJSOU — to nese pointu.",
+      "diagram_generator": "trysky",
+      "diagram": "fáze 1: půdorys křídla, trysky u konců; přeškrtnuté břicho a okolí motorů"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Tahle vzdálenost se vrací v S32 jako teze videa.",
+      "diagram_generator": "trysky",
+      "diagram": "fáze 2: zvýrazněná vzdálenost trysky od motoru"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "",
+      "diagram_generator": "rozprasovani",
+      "diagram": "tryska rozbíjí proud na kapky a aerosol v nabíhajícím vzduchu"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "",
+      "diagram_generator": "vyska",
+      "diagram": "fáze 1: výšková osa se značkou 1 800 m"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Číslo doložené modelem ATSDR, viz factcheck.md S21.",
+      "diagram_generator": "vyska",
+      "diagram": "fáze 2: sloupec odparu nad 1 500 m, popisek 98 %"
+    },
+    {
+      "id": "S22",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S22.png",
+      "note": "Palivo zůstává v atmosféře. Nezmizí — to scénář výslovně říká.",
+      "prompt": "a thin haze layer suspended over a wide landscape at dawn, cold desaturated palette, painterly",
+      "pause": 2.2
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S23.png",
+      "note": "Původní dotaz 'jet engine turbofan closeup' nevrátil nic — slovo closeup ve Commons nefunguje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "turbofan engine",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "",
+      "diagram_generator": "spotreba",
+      "diagram": "fáze 1: 10-11 tun za hodinu"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Konkrétní odpověď místo obecného tvrzení, že by to trvalo dlouho.",
+      "diagram_generator": "spotreba",
+      "diagram": "fáze 2: sto tun převedeno na ~10 hodin letu",
+      "pause": 2.2
+    },
+    {
+      "id": "S26",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S26.png",
+      "note": "PONECHÁNO ZÁMĚRNĚ. Prompt žádal osamocený plamen, model dal hořící žárovku. Scéna říká „tady mě napadl skvělý nápad“ a hořící žárovka to nese líp než plamen. Nepřegenerovávat — viz CLAUDE.md, přejímka podle funkce scény.",
+      "prompt": "a single tongue of flame suspended in a black empty sky, nothing else visible, no ground, no horizon, no buildings, isolated, painterly, restrained"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Původně sdxl — model dal západ slunce nad krajinou místo ohnivého pruhu. Jako věcná technická kresba je vtip srozumitelnější a nemusí se hádat s modelem.",
+      "diagram_generator": "plamenomet",
+      "diagram": "dopravní letadlo s plameny od konců křídel, popsané jako vážný systém"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Krátký beat před odhalením F-111.",
+      "diagram_generator": "karta",
+      "diagram": "SOMEBODY DID."
+    },
+    {
+      "id": "S29",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S29.png",
+      "note": "Dobový snímek stroje, public domain. Musí být JINÝ než S30, jinak tři stejné záběry po sobě.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "F-111 Aardvark in flight",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S30",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S30.png",
+      "note": "NEJDŮLEŽITĚJŠÍ archivní snímek videa. Ověřit licenci — RAAF/australská vláda.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "F-111 dump and burn",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S31",
+      "source": "archive",
+      "effect": "pan_left",
+      "visual": "images/S31.png",
+      "note": "Australský F-111 (CC BY 2.0). Opět jiný snímek než S30.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "F-111 Aardvark australia",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "TEZE CELÉHO VIDEA. Rozdíl je doslova umístění jedné trubky.",
+      "diagram_generator": "potrubi",
+      "diagram": "fáze 1: F-111 s výpustí mezi motory vedle dopravního letadla s tryskami na koncích křídel"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "",
+      "diagram_generator": "potrubi",
+      "diagram": "fáze 2: zvýrazněná vzdálenost výpusť-motor u obou strojů"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "",
+      "diagram_generator": "potrubi",
+      "diagram": "fáze 3: totéž rozhodnutí dělá vypouštění bezpečným a zapálení nemožným",
+      "pause": 2.4
+    },
+    {
+      "id": "S35",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S35.png",
+      "note": "Nakládání kufrů.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "aircraft cargo hold baggage loading",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Aritmetika ověřená ve factcheck.md S36.",
+      "diagram_generator": "kufry",
+      "diagram": "4 t kufrů proti stotunové mezeře, popisek 4 %",
+      "pause": 2.2
+    },
+    {
+      "id": "S37",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S37.png",
+      "note": "Ekonomická kabina A321neo (CC0). Původní nález byl VIP interiér soukromého A318 — sofa a křesla říkají pravý opak než 'dvě stě cestujících'.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "aircraft cabin economy class",
+        "pick": 2
+      }
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Scénář sám přiznává, že 80 kg je kulaté číslo.",
+      "diagram_generator": "vypocet",
+      "diagram": "12 000 kg / 80 kg = 150 cestujících"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "",
+      "diagram_generator": "displej",
+      "diagram": "fáze 1: hláška na displeji kapitána, REMOVE 150 PASSENGERS"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "",
+      "diagram_generator": "displej",
+      "diagram": "fáze 2: EMERGENCY WEIGHT REDUCTION PROGRAMME"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Nakreslené jako vážná instruktážní karta — v tom je vtip.",
+      "diagram_generator": "padak",
+      "diagram": "popisky: THIS IS A PARACHUTE / THIS IS THE CORD"
+    },
+    {
+      "id": "S41b",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S41b.png",
+      "note": "Pohled zevnitř letadla otevřenou rampou ven, postava padá do prázdna (public domain). Původně sdxl — model dvakrát nepochopil 'dveře letadla zevnitř' a dal interiér s okny, pak hangár. Konkrétní objekt patří do archivu, ne do difuzního modelu (viz Tři zdroje vizuálů). Pointa padákové části, záměrně krátká scéna.",
+      "pause": 2.8,
+      "archive": {
+        "provider": "wikimedia",
+        "query": "skydivers exit aircraft door",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "",
+      "diagram_generator": "seznam",
+      "diagram": "fáze 1: MOST AIRLINERS CANNOT DUMP FUEL AT ALL"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "A220 je nejslabší položka seznamu, viz factcheck.md.",
+      "diagram_generator": "seznam",
+      "diagram": "fáze 2: stroje s jettisonem a bez něj ve dvou sloupcích"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "",
+      "diagram_generator": "predpis",
+      "diagram": "fáze 1: FAR 25.1001 / CS-25"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "",
+      "diagram_generator": "predpis",
+      "diagram": "fáze 2: podmínka — stoupavost po 15minutovém letu při maximální hmotnosti"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "",
+      "diagram_generator": "stoupavost",
+      "diagram": "úzkotrupý stroj stoupá i s plnými nádržemi"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Odpověď na titulní otázku pro většinu letadel.",
+      "diagram_generator": "karta",
+      "diagram": "THERE IS NO DUMPED FUEL."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "",
+      "diagram_generator": "dve_cesty",
+      "diagram": "dvě větve: kroužit a spálit, nebo přistát přetížený a nechat prohlédnout",
+      "pause": 2.4
+    },
+    {
+      "id": "S49",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S49.png",
+      "note": "Bílý 747-8 bez polepu aerolinky (public domain, USAF). Nahradil snímek Lufthansy — video mluví o nouzovém vypouštění paliva a konkrétní dopravce u toho záběru naznačuje, že se to týká zrovna jeho. Výřez odstraňuje naleštěný trup v popředí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "VC-25B Bridge aircraft taxis",
+        "pick": 0,
+        "grade": {
+          "zoom": [
+            0.02,
+            0.3,
+            0.62,
+            0.45
+          ]
+        }
+      }
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Rám se zavírá. Musí být vizuálně shodné s S01.",
+      "diagram_generator": "karta",
+      "diagram": "tentýž titulek jako S01, teď už srozumitelný"
+    },
+    {
+      "id": "S51",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S51.png",
+      "note": "PONECHÁNO ZÁMĚRNĚ. Místo prázdné oblohy přišlo maloměsto s dráty. Funkce závěru je návrat do normálu, ulice ji nese. Nepřegenerovávat.",
+      "prompt": "an empty sky at dusk, last light, calm and open, painterly, cinematic wide"
+    }
+  ]
+}

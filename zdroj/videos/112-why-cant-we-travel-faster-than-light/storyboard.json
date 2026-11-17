@@ -1,0 +1,918 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A `casoprostor()` poprvé, bez čísel: svislá osa TIME ↑, vlevo svislá světočára EARTH (Alice, bez jména), vpravo šikmá světočára SHIP. Ze ZPRÁVA SENT na Zemi plochá ambrová šipka k lodi, popisek FASTER THAN LIGHT; vedle tence čárkovaně dráha světla pod 45° (LIGHT) pro srovnání.",
+   "note": "První obrazovka nese myšlenku (zpráva rychlejší než světlo), ne atmosféru — a zároveň zavádí páteř, která se v S28–S41 vyplatí s čísly. Žádná čísla na osách (konvence 5).",
+   "pause": 0.6
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Táž páteř: k zprávě přibude odpověď od lodi zpět k Zemi, popisek REPLY · JUST AS FAST. Zpráva ztlumená, odpověď ambrová.",
+   "note": "Geometrie z S28–S35 (0,9 c, 2 c), jen bez popsaných os — S02 a S35 musí ležet na týchž souřadnicích.",
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Táž páteř: odpověď končí na světočáře Země POD bodem odeslání. Dva štítky na světočáře: MESSAGE SENT a níž ambrově REPLY RECEIVED.",
+   "note": "Odhalení háčku — pauza, ať to dosedne.",
+   "pause": 1.2
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "Táž páteř ztlumeně, nad ní dva řádky: NOT A CLOCK ERROR · NOT SCIENCE FICTION, pod tím ambrově RELATIVITY + FASTER-THAN-LIGHT SIGNAL → COULD HAPPEN.",
+   "note": "Míra jistoty z hlasu: „could happen“ — v obraze COULD, ne WILL.",
+   "pause": 1.2
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "Tři ikony ve stylu 111, všechny čárkovaně (konvence 111: model, nikdy nepozorováno): WARP DRIVE (bublina), WORMHOLE (hrdlo), EXOTIC MATTER (čárkovaný rámeček). Nad nimi ztlumeně LAST VIDEO.",
+   "note": "PO ZVEŘEJNĚNÍ: karta na 111 (zGxKaV9OROE) v tomhle místě. Ikony převzít tvarem ze 111 `_kit.py`, ať se díl pozná."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S06.png",
+   "diagram_generator": "malby",
+   "diagram": "malba přes celý rám z `art/S06.png` (ChatGPT, zadání v `art/ZADANI.md`)",
+   "note": "Jediná atmosférická scéna úvodu, až za myšlenkou. Paprsek, který nedosáhne okraje = otázka „might not allow it“. SDXL (seed 822063258) vrátil jen noční oblohu bez paprsku — funkci nenesl, uživatel nechá nakreslit ChatGPT. Konec úvodního bloku.",
+   "pause": 2.2
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "PÁTEŘ B `rychlost()`: vodorovně KINETIC ENERGY (MeV, log, značky 0.5 · 1 · 1.5 · 4.5 · 15), svisle SPEED (× c, 0 → 1.5), plná vodorovná STĚNA u 1 c = SPEED OF LIGHT. Pět naměřených bodů už v obraze, ztlumeně. Nadpis THE SPEED LIMIT: MEASURED.",
+   "note": "Data v obraze od prvního snímku (prázdné osy čte divák jako rozbitý graf). Body z factcheck S13: 0.867, 0.910, 0.960, 0.987, ≈1.0 — assert."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "Schéma pokusu zboku: ELECTRON GUN → trubice → ALUMINIUM DISC, nad trubicí kóta ≈ 8 M a dva stopky START / STOP. Ztlumeně MIT, 1964.",
+   "note": "Dráha 8,4 m, hlas „about eight metres“ → v obraze ≈ 8 M, ne 8.4. Elektron jako tečka v trubici s šipkou (pohyb prostorem = šipka u předmětu, konvence 111).",
+   "pause": 0.5
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "Pět sloupců energie vedle sebe: 0.5 · 1 · 1.5 · 4.5 · 15 MEV, výšky lineárně podle hodnoty; nad posledním ambrově ×30.",
+   "note": "Assert 15/0.5 == 30. První sloupec je schválně skoro neviditelný — to je to „thirty times“."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "PÁTEŘ B `rychlost()`: vodorovně KINETIC ENERGY (MeV, log, značky 0.5 · 1 · 1.5 · 4.5 · 15), svisle SPEED (× c, 0 → 1.5), plná vodorovná STĚNA u 1 c = SPEED OF LIGHT. První bod (0.5 MeV) ambrově s popiskem ≈ 87 % OF c, ostatní ztlumeně.",
+   "note": "Poloha bodu z hodnoty 0.867, ne od oka. Stěna na týchž souřadnicích jako S07.",
+   "pause": 0.6
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "PÁTEŘ B `rychlost()`: vodorovně KINETIC ENERGY (MeV, log, značky 0.5 · 1 · 1.5 · 4.5 · 15), svisle SPEED (× c, 0 → 1.5), plná vodorovná STĚNA u 1 c = SPEED OF LIGHT. Poslední bod (15 MeV) ambrově přímo na stěně, s chybovou úsečkou; popisek TOO CLOSE TO c TO TELL APART.",
+   "note": "Naměřeno ≈1,0 c při chybě ~10 % (factcheck S11) — proto chybová úsečka, ne bod nad/pod stěnou. Bod nesmí ležet NAD stěnou."
+  },
+  {
+   "id": "S11b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11b.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "PÁTEŘ B `rychlost()`: vodorovně KINETIC ENERGY (MeV, log, značky 0.5 · 1 · 1.5 · 4.5 · 15), svisle SPEED (× c, 0 → 1.5), plná vodorovná STĚNA u 1 c = SPEED OF LIGHT. K bodům ambrově ČÁRKOVANÁ Newtonova křivka v = √(2T/m): u 0.5 MeV už nad stěnou (1.4 c) a dál uteče z grafu nahoru se šipkou; popisek NEWTON: SEVERAL TIMES c.",
+   "note": "Čárkovaně = předpověď modelu (konvence). Číslo 7.7 c v obraze NENÍ — uživatel ho v0.3 vyškrtl („several times“), obraz nesmí přidat, co hlas neříká.",
+   "pause": 0.6
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "Schéma z S08, ambrově zvýrazněný ALUMINIUM DISC s vlnkami tepla a popiskem HEAT MEASURED: ALL THE ENERGY ARRIVED.",
+   "note": "Factcheck S12 ⚠️: nevíme, u kterých běhů kalorimetrie — obraz neříká EVERY RUN.",
+   "pause": 0.6
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "bertozzi",
+   "diagram": "PÁTEŘ B `rychlost()`: vodorovně KINETIC ENERGY (MeV, log, značky 0.5 · 1 · 1.5 · 4.5 · 15), svisle SPEED (× c, 0 → 1.5), plná vodorovná STĚNA u 1 c = SPEED OF LIGHT. Všech pět bodů plně, spojené; stěna ambrově s nápisem THE WALL. Newton ztlumeně čárkovaně pryč nahoru.",
+   "note": "Výplata bloku. CTA S13b tenhle obraz dědí — proto static a nic, co by se mělo hýbat."
+  },
+  {
+   "id": "S13b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "cta": true,
+   "note": "CTA podle docs/cta.md — dědí S13, odhadem ~1:30, tedy za první výplatou (Bertozzi) a před hlavní otázkou S14. Konec bloku.",
+   "pause": 2.2
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ B z S13 ztlumeně, nad stěnou ambrově WHY A LIMIT AT ALL?",
+   "note": "Začíná „But“ po pauze 2,4 za CTA — záměrný obrat, ne pauza uprostřed souvětí."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "uvod",
+   "diagram": "Uprostřed velké slovo “NOW” v uvozovkách, ambrově. Nic dalšího."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "vlak",
+   "diagram": "PÁTEŘ C `vlak()`: dlouhý vlak jede doprava (šipka u vlaku), pod ním nástupiště; pevné souřadnice. Na obou koncích vlaku blesk (ambrově). Nikdo zatím nestojí.",
+   "note": "Blesky jako klikatá čára, ne SDXL — musí být na přesných souřadnicích konců vlaku."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "vlak",
+   "diagram": "PÁTEŘ C `vlak()`: dlouhý vlak jede doprava (šipka u vlaku), pod ním nástupiště; pevné souřadnice. Žena na nástupišti přesně v polovině (kóta stejných vzdáleností); dva oblouky záblesků se potkávají u ní. Štítek PLATFORM: SIMULTANEOUS.",
+   "note": "Polovina se počítá z konců vlaku v okamžiku úderu, assert.",
+   "pause": 1.0
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "vlak",
+   "diagram": "PÁTEŘ C `vlak()`: dlouhý vlak jede doprava (šipka u vlaku), pod ním nástupiště; pevné souřadnice. Uprostřed vlaku cestující (druhá postava), u ní šipka pohybu k přednímu konci.",
+   "note": "Dvě „she“ (S18–S20): postavy rozlišit polohou (nástupiště × vlak), ne barvou bez legendy.",
+   "pause": 0.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "vlak",
+   "diagram": "PÁTEŘ C `vlak()`: dlouhý vlak jede doprava (šipka u vlaku), pod ním nástupiště; pevné souřadnice. Přední oblouk dorazil k cestující (ambrově), zadní ještě ne (ztlumeně, kus za ní).",
+   "pause": 0.4
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "vlak",
+   "diagram": "PÁTEŘ C `vlak()`: dlouhý vlak jede doprava (šipka u vlaku), pod ním nástupiště; pevné souřadnice. Štítek u cestující: PASSENGER: FRONT STRUCK FIRST. Ztlumeně LIGHT: SAME SPEED FOR EVERYONE.",
+   "note": "„correctly“ — štítek bez otazníku, je to správný závěr v její soustavě."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "vlak",
+   "diagram": "PÁTEŘ C `vlak()`: dlouhý vlak jede doprava (šipka u vlaku), pod ním nástupiště; pevné souřadnice. Obě postavy, každá se svým štítkem (SIMULTANEOUS / FRONT FIRST), mezi nimi ambrově BOTH RIGHT. Ztlumeně EINSTEIN'S EXAMPLE.",
+   "note": "Rok 1917 v obraze NENÍ (hlas ho neříká). Konec obrazu vlaku.",
+   "pause": 1.4
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dva štítky EFFECT → CAUSE v obráceném pořadí, šipka mezi nimi s ambrovým otazníkem.",
+   "note": "Otázka, ne tvrzení — otazník, ne škrt."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "uvod",
+   "diagram": "Totéž ztlumeně a přes to velké ambrové NO.",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "kuzel",
+   "diagram": "PÁTEŘ A `casoprostor()` na týchž souřadnicích jako S01: z bodu A dvě plné čáry světla pod 45° (světelný kužel do budoucnosti), vnitřek kužele jemně podbarvený. Událost B MIMO kužel (daleko, krátce potom), u ní ambrově ORDER CAN FLIP; popisek u čar LIGHT CAN'T MAKE IT.",
+   "note": "Bod A = tentýž bod, ze kterého v S01 i S29 odchází zpráva.",
+   "pause": 0.4
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "kuzel",
+   "diagram": "PÁTEŘ A `casoprostor()` na týchž souřadnicích jako S01: z bodu A dvě plné čáry světla pod 45° (světelný kužel do budoucnosti), vnitřek kužele jemně podbarvený. Událost C UVNITŘ kužele, plná šipka A → C, ambrově EVERYONE AGREES WHICH CAME FIRST; B ztlumeně.",
+   "note": "Šipka = příčina → následek; míří od A k C (podmět: jedna událost ovlivní druhou)."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "kuzel",
+   "diagram": "PÁTEŘ A `casoprostor()` na týchž souřadnicích jako S01: z bodu A dvě plné čáry světla pod 45° (světelný kužel do budoucnosti), vnitřek kužele jemně podbarvený. Hrany kužele ambrově, nápis LIGHT-SPEED LIMIT = CAUSE BEFORE EFFECT; nad tím ztlumeně IN RELATIVITY.",
+   "note": "„In relativity“ musí být v obraze (omezení z v0.3). Konec bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "kuzel",
+   "diagram": "PÁTEŘ A `casoprostor()` na týchž souřadnicích jako S01: z bodu A dvě plné čáry světla pod 45° (světelný kužel do budoucnosti), vnitřek kužele jemně podbarvený. Z bodu A ambrová PLOCHÁ šipka ven z kužele, popisek FASTER THAN LIGHT.",
+   "note": "Beat „Now let's break it.“ Dovětek proti schwě za „break it“ (poslech draftu), pauza 1,0 je pod prahem 1,5.",
+   "pause": 1.0,
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Kóta 1 LIGHT-YEAR v t = 0 mezi Alicí a Bobem, u Boba šipka FLYING OUT AT 90 % OF c.",
+   "note": "Čísla v obraze = čísla v hlase (1 ly, 90 %). Souřadnice sdílené s S01–S03 (bez popisků os) — assert v registru."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Signál z (0, 0) se sklonem 2 c ambrově, popisek 2 × SPEED OF LIGHT; tence čárkovaně světlo pro srovnání.",
+   "note": "Sklon z hodnoty 2 c, ne od oka."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Příjem u Boba v (1.818 ly, 0.909 r) jako bod, štítek ≈ 11 MONTHS LATER (FOR ALICE).",
+   "note": "Assert t₁ = 1/(2 − 0.9) = 0.909 roku = 10.9 měsíce (factcheck S30). Hlas „almost eleven months“ → ≈ 11.",
+   "pause": 0.5
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Ze zdroje (0, 0) světelný kužel z S24; příjem leží mimo něj, ambrově LIGHT COULDN'T CONNECT THEM.",
+   "note": "Callback na S24: tentýž kužel, táž grafika.",
+   "pause": 0.8
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Bobova čára současnosti (sklon 0.9) přes bod příjmu, protne světočáru Alice v t = −0.73 r, tedy POD odesláním. Štítek BOB'S “NOW” · ARRIVES BEFORE IT WAS SENT.",
+   "note": "Assert průsečíku: 0.909 − 0.9·1.818 = −0.727 < 0. Čára „now“ = tentýž motiv jako slovo NOW v S15 (stejný styl uvozovek). Odhalení.",
+   "pause": 1.4
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Totéž ztlumeně, nápis UNSETTLING · NOT A PARADOX YET.",
+   "pause": 1.0
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Od bodu příjmu odpověď ambrově zpět k Zemi, popisek REPLY: 2 × c, MEASURED FROM THE SHIP.",
+   "note": "Odpověď v Aliciných souřadnicích: rychlost (−2 + 0.9)/(1 − 1.8) = +1.375 c, tedy šipka jde doleva DOLŮ. Leží NAD Bobovou čarou současnosti (v Bobově čase jde dopředu) — assert.",
+   "pause": 1.0
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Odpověď dopadne na světočáru Alice v t = −0.41 r; mezi dopadem a odesláním kóta ≈ 5 MONTHS BEFORE ambrově.",
+   "note": "Assert t = 0.909 − 1.818/1.375 = −0.413 roku = −4.96 měsíce (factcheck S35). Táž geometrie jako S03.",
+   "pause": 1.0
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Detail světočáry Alice: dole REPLY RECEIVED (ambrově), nahoře QUESTION SENT, mezi nimi šipka času nahoru. Bob ztlumeně.",
+   "note": "Výplata háčku z S03 — tytéž štítky na týchž místech.",
+   "pause": 1.4
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "alice",
+   "diagram": "Páteř ztlumeně v pozadí, popředí dvě data na časové ose: 1907 · EINSTEIN NOTICES a 1970 · “THE TACHYONIC ANTITELEPHONE” (ambrově, s ikonou staromódního telefonu).",
+   "note": "Obě data v hlase. Žádný portrét: scéna nese jméno pojmu, ne osobu.",
+   "pause": 1.0
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. U bodu REPLY RECEIVED bublina ambrově: “DON'T SEND THE MESSAGE.”",
+   "note": "Bublina se špičkou k Alici — ocásek jako otevřená čára, ne uzavřený trojúhelník (známá vada).",
+   "pause": 1.0
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Zpráva z (0, 0) čárkovaně a ztlumeně (neodeslána), u Boba otazník, u odpovědi ambrově WHERE DID THE REPLY COME FROM?",
+   "note": "Neodeslaná zpráva = čárkovaně (nestala se), ne přeškrtnutá."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Celá smyčka ambrově: odpověď → (prevents) → odeslání. Nápis AN EFFECT PREVENTED ITS OWN CAUSE.",
+   "note": "Šipka PREVENTS míří od odpovědi (následek) na odeslání (příčina) — podmět věty je následek.",
+   "pause": 1.8
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "alice",
+   "diagram": "PÁTEŘ A `casoprostor()` s popsanými osami: vodorovně DISTANCE (LIGHT-YEARS, 0 → 2), svisle TIME (YEARS, −1 → +1.2); světočára ALICE · EARTH v x = 0, světočára BOB · 0.9 c: x = 1 + 0.9 t. Smyčka plně, nad ní rovnice: FASTER-THAN-LIGHT SIGNALS + USUAL RULES OF RELATIVITY = A MESSAGE THAT ARRIVES BEFORE IT WAS SENT.",
+   "note": "Podmínka „usual rules“ musí být v obraze.",
+   "pause": 0.4
+  },
+  {
+   "id": "S41a",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41a.png",
+   "diagram_generator": "alice",
+   "diagram": "Dva štítky pod sebou: plně a ambrově A SERIOUS PROBLEM FOR CAUSE AND EFFECT; pod tím ztlumeně NOT: PROOF THAT EVERY SHORTCUT MUST FAIL.",
+   "note": "Míra jistoty z v0.3: druhý řádek ztlumený, NE přeškrtnutý (škrt by tvrdil „neplatí vůbec“).",
+   "pause": 0.4
+  },
+  {
+   "id": "S41b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41b.png",
+   "diagram_generator": "alice",
+   "diagram": "Vlevo tři ikony nad sebou — RADIO (vlnovka), PARTICLES (tečky), ANYTHING (otazník) — všechny vedou do jedné ploché ambrové šipky FASTER THAN LIGHT, za ní malá smyčka z S40. Ztlumeně + USUAL RULES.",
+   "note": "Konec bloku antitelefonu.",
+   "pause": 2.4
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "testy",
+   "diagram": "Vlevo plný rámeček RELATIVITY, vpravo čárkovaný rámeček NEW THEORY? s ambrovou šipkou CHANGE THE RULES. Nahoře ztlumeně PHYSICS NEVER PROVES “IMPOSSIBLE”.",
+   "note": "Jediné místo s výhradou „nic není dokázáno“ (rozhodnuto ve scénáři). Nová teorie čárkovaně = hypotéza.",
+   "pause": 0.4
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "testy",
+   "diagram": "Táž dvojice; pod RELATIVITY sloupec zatržených řádků EVERY TEST SO FAR ✓, od NEW THEORY? šipka MUST EXPLAIN THIS ambrově.",
+   "note": "Za S42 krátká pauza (S43 začíná „But“ uprostřed myšlenky).",
+   "pause": 0.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "testy",
+   "diagram": "Schéma Nagel 2015 zjednodušeně: dva kolmé rezonátory na otočném stole (šipka rotace), u každého paprsek tam a zpět. Nápis SPEED OF LIGHT IN DIFFERENT DIRECTIONS?",
+   "note": "Měří se OBOUSMĚRNÁ rychlost (factcheck S44) — paprsky tam A zpět, ne jednosměrně. Pohyb stolu šipkou u předmětu.",
+   "pause": 0.5
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "testy",
+   "diagram": "Velké 1 PART IN 1,000,000,000,000,000,000 a pod tím ambrově NO DIFFERENCE FOUND. Schéma z S44 ztlumeně.",
+   "note": "Assert: 10¹⁸ = billion billion (hlas). „Found none“, ne „proved none“.",
+   "pause": 1.0
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "testy",
+   "diagram": "Samotná STĚNA: vodorovná čára SPEED OF LIGHT (nad ní FASTER, pod ní SLOWER), nad ní jediný ČÁRKOVANÝ ambrový bod s popiskem 2011?",
+   "note": "Bez os PÁTEŘE B — ty patří Bertozziho elektronům a bod neutrin OPERA by do nich nepatřil. Čárkovaně, protože se ukázal jako chyba — obraz nesmí tvrdit, že stěna praskla."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "testy",
+   "diagram": "Řez zemskou kůrou: oblouk povrchu, vlevo CERN (NEAR GENEVA), vpravo hora a pod ní laboratoř GRAN SASSO (ITALY); mezi nimi tětiva skrz horninu, ambrově NEUTRINOS, kóta 730 KM.",
+   "note": "Neutrina letí horninou, ne po povrchu — tětiva, ne oblouk. Bez mapy (obrys Itálie kódem nevychází)."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "testy",
+   "diagram": "Táž tětiva jako závod: neutrino (ambrově) kousek před čárou, kam by dorazilo světlo (ztlumeně LIGHT). Popisek 60 BILLIONTHS OF A SECOND EARLY.",
+   "note": "Náskok je ve schématu přehnaný, v obraze nesmí být metry (hlas je neříká).",
+   "pause": 1.0
+  },
+  {
+   "id": "S48b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48b.png",
+   "diagram_generator": "testy",
+   "diagram": "Řada mnoha opakovaných měření jako tečky na časové ose, všechny posunuté týmž směrem před LIGHT; popisek WRONG EVERY SINGLE TIME. Ztlumeně NOT A FLUKE.",
+   "note": "6σ v obraze NENÍ (hlas říká „far too strong“). Systematická chyba = všechny stejně, ne rozptyl."
+  },
+  {
+   "id": "S49",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S49.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-16 pod tímto dotazem: File:OPERA-Experiment-Nov2005.jpg — hala detektoru OPERA v Gran Sasso (Mhier, CC BY-SA 3.0).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "OPERA-Experiment-Nov2005",
+    "pick": 0,
+    "grade": {
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "testy",
+   "diagram": "Řetěz časování: GPS → FIBRE-OPTIC CABLE → MASTER CLOCK → DETECTOR; na spoji vlákna ambrový kroužek FAULTY CONNECTION, nad řetězem ztlumeně TIMING PROBLEMS (plural).",
+   "note": "Dvě závady, ne jedna (factcheck S50): nápis TIMING PROBLEMS nad celým řetězem, konektor jen jako „including“.",
+   "pause": 0.6
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "testy",
+   "diagram": "Stěna z S46: čárkovaný bod 2011 ztlumený a přeškrtnutý, plný ambrový bod NA stěně, popisek CORRECTED: CONSISTENT WITH c.",
+   "note": "Tady škrt sedí: ten výsledek opravdu neplatí."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "testy",
+   "diagram": "Tři kroky zleva doprava: EXTRAORDINARY RESULT → CHECKING → ambrově DIDN'T SURVIVE. Ztlumeně nad tím: RELATIVITY CAN BE WRONG — BUT…",
+   "note": "Konec bloku testů.",
+   "pause": 2.4
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "cervi",
+   "diagram": "Vlevo ztlumeně zmenšená stěna z PÁTEŘE B se šipkou, která se o ni zastaví (SIGNALS); vpravo ambrově čárkované hrdlo červí díry, nad ním LAST VIDEO.",
+   "note": "PO ZVEŘEJNĚNÍ případně druhá karta na 111 tady. Šipka se o stěnu zastaví, ale není přeškrtnutá („can't simply“)."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "cervi",
+   "diagram": "Prohnutá plocha prostoru (dva listy nad sebou jako v 111), body A a B; dlouhá cesta po ploše ztlumeně, krátký tunel čárkovaně ambrově. Popisek SHORTER PATH · NOTHING OUTRUNS LIGHT.",
+   "note": "Tvar převzít z 111 `cervi_dira()`, ať navazuje.",
+   "pause": 0.5
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-16 pod tímto dotazem: File:Kip Thorne at Caltech.jpg — portrét (Keenan Pepper, CC BY-SA 3.0). Portrét: žádný zoom, fit 0.84.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Kip Thorne at Caltech",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84,
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "cervi",
+   "diagram": "Dva ciferníky z 111 S10–S11 (ON BOARD × ON EARTH) zmenšeně, nad nimi ztlumeně SEEN IT BEFORE.",
+   "note": "Callback na dilataci času ve 111.",
+   "pause": 0.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "cervi",
+   "diagram": "Dva ciferníky: AT HOME (ručička daleko) a na lodi CLOSE TO LIGHT SPEED (ručička kousek, ambrově) — popisek RUNS SLOW.",
+   "note": "Kvalitativně, bez čísel (konvence 5)."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Ústí vedle sebe, obě hodiny YEAR 0, mezi nimi = ; popisek THROUGH THE TUNNEL: CLOCKS AGREE.",
+   "note": "Hodiny jako kalendář YEAR N, ne ciferník s ručičkami — S60 a S62 potřebují čitelná čísla."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Pravé ústí na dlouhé smyčce tam a zpět (plná šipka u ústí), popisek 99 % OF c. Tunel se natahuje s ním.",
+   "note": "Pohyb prostorem = šipka u předmětu. Idealizace bez zrychlení — v note generátoru."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Ústí zase vedle sebe: levé EARTH · YEAR 10, pravé ambrově TRAVELLED · YEAR 1.4 (popisek LESS THAN 1.5 YEARS).",
+   "note": "Assert 10/γ(0.99) = 1.41 (factcheck S59–S62). Hlas „less than a year and a half“ — obraz nesmí tvrdit víc přesnosti, proto popisek slovy a 1.4 malé."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Tunel ambrově, na jeho koncích YEAR 1.4 = YEAR 1.4 (hodiny obou ústí přes tunel souhlasí), zvenku ztlumeně stále YEAR 10 / YEAR 1.4.",
+   "note": "Klíčový a nejtěžší obraz videa: rozlišit čas ZVENKU (ztlumeně) a čas PŘES TUNEL (ambrově). Ověřit na kontaktním listu, že se to čte.",
+   "pause": 0.4
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Postava vstupuje do pravého ústí (zvenku YEAR 10), vystupuje z levého v YEAR 1.4; ambrově kóta MORE THAN 8 YEARS EARLIER.",
+   "note": "Assert 10 − 1.41 = 8.59 > 8. Odhalení.",
+   "pause": 1.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Totéž ztlumeně, nápis A TIME SHIFT ≠ A TIME MACHINE (YET).",
+   "pause": 0.4
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Ústí od sebe, mezi nimi obyčejná dráha světla po plné čáře; dva pruhy: SHIFT (ambrově, delší) a LIGHT TRAVEL TIME (kratší). Popisek SHIFT LONGER THAN LIGHT NEEDS.",
+   "note": "Kvalitativní pruhy bez čísel — podmínka, ne naše konkrétní ústí.",
+   "pause": 0.4
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "cervi",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Uzavřená smyčka ambrově: z levého ústí v minulosti pěšky (plná šipka) k pravému, tunelem zpět; u startu ARRIVE BEFORE YOU LEFT.",
+   "note": "Smyčka stejného tvaru jako antitelefon v S40 — vizuální rým: tentýž problém.",
+   "pause": 1.4
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "cervi",
+   "diagram": "Celé schéma S65 vložené na list papíru (čárkovaný okraj, ohnutý roh), popisek A SOLUTION ON PAPER; ztlumeně HOW TO BUILD? HOW TO KEEP OPEN?",
+   "note": "Otázky ztlumeně, ne přeškrtnuté.",
+   "pause": 0.5
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "cervi",
+   "diagram": "Dvě cesty do jedné smyčky: vlevo FASTER-THAN-LIGHT SIGNAL (smyčka z S40), vpravo WORMHOLE (smyčka z S65), čárkované šipky k společnému EFFECT BEFORE CAUSE.",
+   "note": "„may lead“ → šipky čárkovaně. Před hlavním obratem videa — dlouhá pauza.",
+   "pause": 2.6
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "hawking",
+   "diagram": "Nahoře otázka DOES THE UNIVERSE FORBID IT?, pod ní dvě prázdné větve 1 a 2 (zatím bez jmen).",
+   "note": "Zakládá rozvržení konce: větev 1 vlevo = Hawking, větev 2 vpravo = Novikov. Tytéž pozice v S82–S86.",
+   "pause": 1.2
+  },
+  {
+   "id": "S69",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-16 pod tímto dotazem: File:Stephen Hawking NASA 50th 200804210001HQ.jpg — přednáška NASA 2008, za ním Země, Měsíc a Mars (NASA/Paul E. Alers, public domain). StarChild jen 250×359 px, proto ne. Výřez zoom spodních 72 %: v celém snímku byl Hawking moc malý na poznání.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Stephen Hawking NASA 50th 200804210001HQ",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84,
+     "saturation": 95,
+     "vignette": false,
+     "zoom": [
+      0.0,
+      0.28,
+      1.0,
+      0.72
+     ]
+    }
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "hawking",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Uvnitř tunelu narůstající vlny ambrově, u hrdla ∞; smyčka z S65 čárkovaně a ztlumeně s příčkou STOPPED BEFORE IT FORMS. Popisek ENERGY OF EMPTY SPACE BUILDS UP.",
+   "note": "Hlas „as a wormhole came close to becoming“ — smyčka ještě nehotová (nedotažená), ne uzavřená a přeškrtnutá.",
+   "pause": 0.6
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "hawking",
+   "diagram": "Velký nápis CHRONOLOGY PROTECTION CONJECTURE, slovo CONJECTURE ambrově; ztlumeně HAWKING, 1992.",
+   "note": "Rok 1992 je v hlase (S69). CONJECTURE zvýrazněné kvůli S82."
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "hawking",
+   "diagram": "Prázdná ulice/náměstí, na ní čárkované obrysy davu (postavy), které tam NEJSOU; popisek NO HORDES OF TOURISTS FROM THE FUTURE. Ztlumeně (HALF JOKING).",
+   "note": "Čárkované postavy = nepřítomné. „Half jokingly“ musí být v obraze — jinak to vypadá jako argument.",
+   "pause": 1.0
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "hawking",
+   "diagram": "Pozvánka jako karta: A RECEPTION FOR TIME TRAVELLERS · 28 JUNE 2009 · CAMBRIDGE, pod kartou ambrově razítko SENT AFTERWARDS.",
+   "note": "Datum a místo z factcheck S73. Znění karty NENÍ citace skutečné pozvánky — neformátovat jako faksimile.",
+   "pause": 1.2
+  },
+  {
+   "id": "S74",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S74.png",
+   "note": "Pointa „Nobody came.“ — prázdný sál. Malovaná ilustrace, ne fotorealismus a ne konkrétní skutečná místnost (otázka AI zůstává ne). Když SDXL přidá postavy nebo text, náhrada svg: stůl se sklenkami z kódu.",
+   "prompt": "an empty elegant reception room at night, a long table with untouched champagne glasses and small plates, a few balloons, warm amber lamplight, chairs all empty, nobody there",
+   "pause": 2.2
+  },
+  {
+   "id": "S75",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-16 pod tímto dotazem: File:Kip Thorne and Igor Novikov.jpg (Konstantin Malanchev, CC BY 2.0). Samostatný portrét Novikova Commons nemá; Thorne je poznat z S55, takže divák pozná, kdo je druhý. Vpravo u kraje svislý podpis autora — po stažení zkontrolovat, jestli ve fit 0.9 ruší.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Kip Thorne and Igor Novikov",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "novikov",
+   "diagram": "Časová osa se smyčkou do minulosti (čárkovaně); u minulosti dva štítky: VISIT ✓ a ambrově CHANGE ✗.",
+   "note": "„Maybe“ → ztlumeně MAYBE nad tím.",
+   "pause": 1.2
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "novikov",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Ústí jako kapsy na kulečníkovém stole (shora). Koule (plná) jede do pravého ústí, z levého vyjíždí táž koule dřív (ambrově, čárkovaně tunel). Ztlumeně POLCHINSKI.",
+   "note": "Nedokončená věta pokračuje v S78 — krátká pauza (rozhodnuto ve scénáři).",
+   "pause": 0.3
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "novikov",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Starší koule narazí do mladší, mladší se odrazí MIMO pravé ústí; trajektorie do ústí čárkovaně ztlumeně. Ambrově PARADOX.",
+   "note": "Mladší a starší koule rozlišit popiskem YOUNGER / OLDER, ne jen barvou.",
+   "pause": 1.0
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "novikov",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Totéž rozestavení ztlumeně, na místě srážky ambrový otazník; ztlumeně THORNE AND TWO COLLEAGUES · THE EQUATIONS.",
+   "note": "Echeverria, Klinkhammer, Thorne 1991 — jména v obraze nejsou (hlas je neříká).",
+   "pause": 0.6
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "novikov",
+   "diagram": "PÁTEŘ D `cervi_hodiny()`: dvě ústí červí díry (čárkovaná kolečka, konvence 111: model), spojená čárkovaným tunelem obloukem nad nimi; u každého ústí ciferník s popiskem. Šikmý úder: mladší koule jen šťouchnutá, změní směr o kousek a STEJNĚ vjede do pravého ústí; celá smyčka ambrově. Popisek A GLANCING BLOW · CONSISTENT.",
+   "note": "Smyčka se uzavře — tvar rýmuje s S65.",
+   "pause": 1.0
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "novikov",
+   "diagram": "Mřížka malých kulečníkových scének (různé startovní směry), u každé ✓ AT LEAST ONE; u některých ambrově ×2 MORE THAN ONE.",
+   "note": "Assert: žádná scénka bez ✓. „Infinitely many“ v obraze NENÍ (uživatel v0.4).",
+   "pause": 2.2
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA (koncová obrazovka, prvky YouTube patří nahoru): dvě karty na pozicích větví z S68: vlevo HAWKING: CONJECTURE, vpravo NOVIKOV: PRINCIPLE; mezi nimi ambrově NEITHER PROVEN.",
+   "note": "Možná už v 20s okně — proto taky jen dole.",
+   "pause": 1.2
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA (koncová obrazovka): CAUSE → EFFECT, nad tím ambrově THE SPEED OF LIGHT MAY BE WHAT KEEPS THIS ORDER.",
+   "note": "„may“ v obraze. Kužel z S26 tu nakonec není — zmenšený do dolní poloviny byl nečitelný a pořadí nese dvojice karet.",
+   "pause": 1.4
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA (koncová obrazovka, prvky YouTube patří nahoru): obě karty z S82; levá ambrově NO TIME MACHINE EVER FORMS, pravá ztlumeně.",
+   "note": "S85 pokračuje malým „or“ → za S84 kratší pauza.",
+   "pause": 0.6
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA (koncová obrazovka, prvky YouTube patří nahoru): pravá ambrově ONLY SELF-CONSISTENT HISTORIES, levá ztlumeně.",
+   "pause": 1.2
+  },
+  {
+   "id": "S86",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S86.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA (koncová obrazovka, prvky YouTube patří nahoru): obě karty ztlumeně, mezi nimi ambrově ? a pod tím WHICH, IF EITHER?",
+   "note": "Klidná deska, nic nového. „if either“ v obraze — připouští i třetí možnost z S42.",
+   "pause": 2.4
+  }
+ ]
+}

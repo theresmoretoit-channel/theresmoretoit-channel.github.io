@@ -1,0 +1,754 @@
+1
+00:00:00,250 --> 00:00:03,350
+Every few days, another
+serious bug makes the news.
+
+2
+00:00:04,170 --> 00:00:06,370
+A bug that lets someone skip the login.
+
+3
+00:00:06,970 --> 00:00:08,850
+A bug that leaks private data.
+
+4
+00:00:09,630 --> 00:00:11,970
+A bug that hands an
+attacker your computer.
+
+5
+00:00:13,090 --> 00:00:16,370
+Sometimes it's Windows. Sometimes Linux.
+
+6
+00:00:16,850 --> 00:00:19,810
+A browser, a database, a cloud service...
+
+7
+00:00:20,190 --> 00:00:23,710
+or a small library that millions
+of developers depend on.
+
+8
+00:00:24,470 --> 00:00:27,030
+And the reaction is
+almost always the same.
+
+9
+00:00:27,650 --> 00:00:29,530
+How did the programmers miss this?
+
+10
+00:00:30,160 --> 00:00:31,360
+These are professionals.
+
+11
+00:00:31,920 --> 00:00:35,940
+They have code reviews, automated
+tests, security audits, fuzzing...
+
+12
+00:00:36,380 --> 00:00:38,240
+and the bugs keep coming anyway.
+
+13
+00:00:39,230 --> 00:00:42,910
+So is it even possible to write
+complex software without bugs?
+
+14
+00:00:44,390 --> 00:00:45,990
+Let's start with a number.
+
+15
+00:00:46,630 --> 00:00:51,290
+Imagine a program with just a hundred
+settings, each of them either on or off.
+
+16
+00:00:52,250 --> 00:00:54,650
+A hundred simple yes-or-no decisions.
+
+17
+00:00:55,550 --> 00:00:57,510
+How many combinations is that?
+
+18
+00:00:58,080 --> 00:00:59,860
+Two to the power of a hundred.
+
+19
+00:01:00,380 --> 00:01:02,620
+That's roughly a million
+trillion trillion.
+
+20
+00:01:03,600 --> 00:01:07,440
+Now imagine you could test a
+billion combinations every second.
+
+21
+00:01:08,160 --> 00:01:09,900
+And you started at the Big Bang.
+
+22
+00:01:10,750 --> 00:01:15,197
+By today, you'd have tested about
+one combination in three thousand.
+
+23
+00:01:15,497 --> 00:01:17,477
+And a hundred switches is nothing.
+
+24
+00:01:18,077 --> 00:01:20,457
+A real program has millions of them.
+
+25
+00:01:20,637 --> 00:01:25,177
+So "just test everything" isn't
+expensive. It's impossible.
+
+26
+00:01:27,737 --> 00:01:29,777
+And those switches aren't exotic.
+
+27
+00:01:30,437 --> 00:01:33,497
+Take one of the simplest
+things a program ever does.
+
+28
+00:01:34,077 --> 00:01:36,877
+A user asks for their
+account by its number.
+
+29
+00:01:37,337 --> 00:01:40,777
+We find it in the
+database. We send it back.
+
+30
+00:01:41,547 --> 00:01:43,547
+But what if the user doesn't exist?
+
+31
+00:01:44,347 --> 00:01:47,107
+What if someone sends
+text instead of a number?
+
+32
+00:01:47,267 --> 00:01:49,067
+Or a negative number?
+
+33
+00:01:49,147 --> 00:01:50,887
+Or an enormous one?
+
+34
+00:01:51,587 --> 00:01:54,167
+What if this person
+isn't allowed to see it?
+
+35
+00:01:54,647 --> 00:01:58,707
+What if someone deletes the account
+at the exact moment we're loading it?
+
+36
+00:01:58,907 --> 00:02:01,487
+What if the same request arrives twice?
+
+37
+00:02:02,577 --> 00:02:04,857
+Every one of these questions is simple.
+
+38
+00:02:05,417 --> 00:02:07,137
+The problem is how they combine.
+
+39
+00:02:07,897 --> 00:02:09,497
+Each one is another switch.
+
+40
+00:02:10,417 --> 00:02:13,897
+By the way, if you like videos
+like this, consider subscribing.
+
+41
+00:02:14,517 --> 00:02:16,137
+It really helps the channel.
+
+42
+00:02:18,307 --> 00:02:20,847
+And a computer won't sort them out for us.
+
+43
+00:02:21,307 --> 00:02:25,267
+It does exactly what we tell
+it to. Not what we meant.
+
+44
+00:02:25,897 --> 00:02:28,557
+That's why we invented
+programming languages.
+
+45
+00:02:29,357 --> 00:02:33,337
+They let us describe complex things
+without thinking about every detail.
+
+46
+00:02:34,377 --> 00:02:38,137
+But some of them take care of
+less than you'd hope. Take C.
+
+47
+00:02:38,797 --> 00:02:42,337
+It's fast, it's simple, and it gives
+you enormous control over memory.
+
+48
+00:02:43,647 --> 00:02:47,747
+So you can write this. We reserve
+room for sixteen characters.
+
+49
+00:02:48,527 --> 00:02:50,607
+Then we say: copy the input here.
+
+50
+00:02:51,387 --> 00:02:55,887
+What if the input is five hundred
+characters long? C won't ask.
+
+51
+00:02:56,267 --> 00:02:58,467
+It just keeps writing past the end.
+
+52
+00:02:59,347 --> 00:03:01,867
+And what's right after
+those sixteen characters?
+
+53
+00:03:02,567 --> 00:03:04,467
+Often, something very important.
+
+54
+00:03:05,297 --> 00:03:07,597
+When a program calls a
+function, it writes down
+
+55
+00:03:07,827 --> 00:03:12,117
+where to go back once the function
+is done. A return address.
+
+56
+00:03:13,037 --> 00:03:16,577
+In a classic layout, it sits not
+far past the end of our buffer.
+
+57
+00:03:17,517 --> 00:03:20,877
+So an attacker sends an input
+of exactly the right length.
+
+58
+00:03:21,437 --> 00:03:23,077
+First, their own instructions.
+
+59
+00:03:23,977 --> 00:03:26,437
+Then, at the very end,
+a new return address...
+
+60
+00:03:26,897 --> 00:03:28,637
+pointing back at those instructions.
+
+61
+00:03:29,757 --> 00:03:34,077
+The function finishes. The processor
+looks up where to return...
+
+62
+00:03:34,437 --> 00:03:36,857
+and jumps straight into
+the attacker's code.
+
+63
+00:03:37,717 --> 00:03:40,937
+Now it's running their program,
+with all the permissions of yours.
+
+64
+00:03:41,737 --> 00:03:44,557
+That's what "executing
+arbitrary code" means.
+
+65
+00:03:45,527 --> 00:03:49,827
+And the processor didn't do anything
+wrong. It followed the instructions.
+
+66
+00:03:50,967 --> 00:03:54,807
+In 1988, a mistake
+exactly like this let the
+
+67
+00:03:55,037 --> 00:03:57,587
+Morris worm spread across
+the early internet.
+
+68
+00:03:58,467 --> 00:04:01,507
+And the same trick has been
+used in attacks ever since.
+
+69
+00:04:04,317 --> 00:04:07,617
+So newer languages hand part
+of the job to the compiler.
+
+70
+00:04:08,157 --> 00:04:12,837
+Rust, for example, refuses to build
+many programs that could misuse memory.
+
+71
+00:04:13,987 --> 00:04:17,107
+The programmer says: but I
+know exactly what I'm doing!
+
+72
+00:04:17,407 --> 00:04:20,387
+And the compiler says:
+that's what everyone says.
+
+73
+00:04:21,257 --> 00:04:23,137
+And it's right to be suspicious.
+
+74
+00:04:23,997 --> 00:04:27,897
+Microsoft and Google's Chrome team
+have both reported that around seventy
+
+75
+00:04:28,127 --> 00:04:32,417
+percent of the security bugs they've
+studied come from memory safety problems.
+
+76
+00:04:33,507 --> 00:04:37,487
+But a program can be perfectly
+memory-safe and still completely wrong.
+
+77
+00:04:38,427 --> 00:04:39,747
+Imagine a user logs in.
+
+78
+00:04:39,977 --> 00:04:45,687
+Their password is checked correctly.
+Nothing crashes. No memory is corrupted.
+
+79
+00:04:46,467 --> 00:04:49,447
+And then the program shows
+them somebody else's data.
+
+80
+00:04:49,627 --> 00:04:52,507
+Because the permission check
+was written slightly wrong.
+
+81
+00:04:53,437 --> 00:04:55,957
+No language can catch that on its own.
+
+82
+00:04:56,597 --> 00:05:01,617
+The language doesn't know what the program
+was supposed to do. Only we know that.
+
+83
+00:05:03,877 --> 00:05:09,217
+So back to testing. A test can tell
+you: for this input, I got this result.
+
+84
+00:05:09,907 --> 00:05:13,147
+It can't tell you: the program
+is right for every input.
+
+85
+00:05:13,227 --> 00:05:16,447
+And we've already seen
+why we can't try them all.
+
+86
+00:05:17,197 --> 00:05:22,337
+In 1970, the computer scientist Edsger
+Dijkstra put it in one sentence.
+
+87
+00:05:23,017 --> 00:05:26,577
+Testing can show the presence of
+bugs, but never their absence.
+
+88
+00:05:29,536 --> 00:05:32,496
+Fine. So instead of testing,
+why not write a program that
+
+89
+00:05:32,726 --> 00:05:35,456
+checks other programs and
+proves they're correct?
+
+90
+00:05:36,056 --> 00:05:40,036
+Feed it any code, and it tells you
+whether that code does what it should.
+
+91
+00:05:40,836 --> 00:05:44,916
+That question was answered before the
+first real computer was even built.
+
+92
+00:05:45,656 --> 00:05:50,536
+In 1936, Alan Turing proved that
+a program like that cannot exist.
+
+93
+00:05:51,726 --> 00:05:53,946
+Not that nobody has built it yet.
+
+94
+00:05:54,186 --> 00:05:56,066
+That it can't exist at all.
+
+95
+00:05:56,786 --> 00:05:59,106
+He showed that no program
+can decide, for every
+
+96
+00:05:59,336 --> 00:06:02,046
+other program, whether it
+will ever stop running.
+
+97
+00:06:03,146 --> 00:06:06,246
+And in 1953, Henry Rice went further.
+
+98
+00:06:07,106 --> 00:06:08,906
+The same is true for every non-trivial
+
+99
+00:06:08,986 --> 00:06:11,646
+question about what a
+program actually does.
+
+100
+00:06:12,686 --> 00:06:14,806
+Is it secure? Does it leak data?
+
+101
+00:06:15,526 --> 00:06:17,206
+Does it give the right answer?
+
+102
+00:06:17,806 --> 00:06:21,306
+There is no general method that
+settles that for every program.
+
+103
+00:06:23,876 --> 00:06:27,416
+So is bug-free software
+impossible? Not quite.
+
+104
+00:06:27,996 --> 00:06:30,096
+For one specific program,
+you can sometimes
+
+105
+00:06:30,326 --> 00:06:32,636
+prove it correct, with enormous effort.
+
+106
+00:06:33,506 --> 00:06:37,886
+In 2009, a team in Australia proved
+that a small operating system
+
+107
+00:06:38,116 --> 00:06:43,166
+kernel, called seL4, does exactly
+what its specification says.
+
+108
+00:06:44,306 --> 00:06:46,666
+It was under ten thousand lines of code.
+
+109
+00:06:47,606 --> 00:06:50,196
+Building the kernel took
+about two person-years.
+
+110
+00:06:50,566 --> 00:06:52,566
+Proving it correct took about twenty.
+
+111
+00:06:53,046 --> 00:06:56,366
+A modern web browser has
+tens of millions of lines.
+
+112
+00:06:57,196 --> 00:06:59,196
+And even that proof has a catch.
+
+113
+00:06:59,696 --> 00:07:02,196
+It shows the program
+matches its specification.
+
+114
+00:07:03,236 --> 00:07:06,756
+It can't show that the specification
+is what we actually wanted.
+
+115
+00:07:07,866 --> 00:07:10,526
+And the specification
+is written by people.
+
+116
+00:07:10,886 --> 00:07:12,966
+So the question comes back to us.
+
+117
+00:07:15,416 --> 00:07:17,376
+And it isn't only our own code.
+
+118
+00:07:18,016 --> 00:07:22,156
+A programmer today builds on frameworks,
+libraries and hundreds of dependencies.
+
+119
+00:07:23,256 --> 00:07:25,916
+Every layer saves us
+enormous amounts of work.
+
+120
+00:07:26,276 --> 00:07:30,756
+But every layer is something we have
+to understand... or at least trust.
+
+121
+00:07:31,416 --> 00:07:34,736
+Which means you don't have to write
+a bug to have one in your software.
+
+122
+00:07:35,216 --> 00:07:37,216
+You can simply install it.
+
+123
+00:07:37,976 --> 00:07:42,836
+Then add the pressure. Nobody wants
+a perfect product in ten years.
+
+124
+00:07:43,456 --> 00:07:45,456
+They want a working one next month.
+
+125
+00:07:45,916 --> 00:07:49,696
+And a break-in that never happened is
+very hard to show in a presentation.
+
+126
+00:07:51,106 --> 00:07:52,966
+And here's the strangest part.
+
+127
+00:07:53,406 --> 00:07:55,146
+Our tools keep getting better.
+
+128
+00:07:55,286 --> 00:07:58,166
+Safer languages, fuzzing, bug bounties...
+
+129
+00:07:59,066 --> 00:08:02,066
+And yet the number of known
+vulnerabilities keeps growing.
+
+130
+00:08:02,686 --> 00:08:07,186
+In 2024 alone, around forty
+thousand got an official number.
+
+131
+00:08:07,806 --> 00:08:11,586
+Partly because we're also writing
+vastly more software than ever.
+
+132
+00:08:11,906 --> 00:08:14,146
+It's like making every road safer...
+
+133
+00:08:14,446 --> 00:08:17,026
+while building millions
+of times more roads.
+
+134
+00:08:19,376 --> 00:08:22,796
+So are programmers bad at their jobs? No.
+
+135
+00:08:23,296 --> 00:08:26,956
+We've been asking them for something
+that no general method can guarantee.
+
+136
+00:08:28,036 --> 00:08:32,916
+So maybe "how do we write software
+without bugs?" is the wrong question.
+
+137
+00:08:33,746 --> 00:08:36,106
+The better question is:
+how do we build systems
+
+138
+00:08:36,336 --> 00:08:39,286
+that stay safe even when
+the software has bugs?
+
+139
+00:08:42,106 --> 00:08:44,726
+And that's exactly where
+security is heading.
+
+140
+00:08:45,426 --> 00:08:47,466
+It doesn't say: never make a mistake.
+
+141
+00:08:47,546 --> 00:08:49,886
+It says: assume you already have.
+
+142
+00:08:50,446 --> 00:08:52,126
+Remember that return address?
+
+143
+00:08:52,926 --> 00:08:54,626
+Today, the system guards it.
+
+144
+00:08:54,706 --> 00:08:57,366
+It shuffles where things sit in memory.
+
+145
+00:08:58,026 --> 00:09:00,966
+And it refuses to run
+instructions hidden in data.
+
+146
+00:09:02,046 --> 00:09:04,386
+The bug in our C code is still there.
+
+147
+00:09:04,806 --> 00:09:07,366
+It's just much harder
+to turn into an attack.
+
+148
+00:09:08,256 --> 00:09:10,116
+And the same idea is everywhere.
+
+149
+00:09:10,956 --> 00:09:13,156
+Sandboxes, limited permissions, isolated
+
+150
+00:09:13,386 --> 00:09:16,436
+processes, encryption,
+backups, monitoring...
+
+151
+00:09:16,516 --> 00:09:20,456
+layer after layer, so that one
+bug doesn't become a disaster.
+
+152
+00:09:23,206 --> 00:09:25,526
+And it has a very practical consequence.
+
+153
+00:09:26,206 --> 00:09:29,286
+If bugs are inevitable,
+fixing them isn't optional.
+
+154
+00:09:30,216 --> 00:09:32,076
+The software you're using today may well
+
+155
+00:09:32,306 --> 00:09:35,156
+contain a vulnerability
+nobody has found yet.
+
+156
+00:09:35,956 --> 00:09:38,636
+And when someone does, the
+update is the difference between
+
+157
+00:09:38,866 --> 00:09:42,076
+"a vulnerability was discovered"
+and "we were hacked".
+
+158
+00:09:43,006 --> 00:09:45,346
+The same goes for the systems we build.
+
+159
+00:09:46,106 --> 00:09:50,426
+Old libraries and unsupported platforms
+don't get safer by being ignored.
+
+160
+00:09:51,086 --> 00:09:52,866
+They turn into technical debt.
+
+161
+00:09:53,496 --> 00:09:57,416
+And why that debt has to be paid off
+is what my video "It Still Works.
+
+162
+00:09:58,096 --> 00:10:00,216
+So Why Upgrade It?" is about.
+
+163
+00:10:00,654 --> 00:10:03,094
+Because in software, "it
+still works" and "it's
+
+164
+00:10:03,324 --> 00:10:05,304
+still safe" are two very different things.

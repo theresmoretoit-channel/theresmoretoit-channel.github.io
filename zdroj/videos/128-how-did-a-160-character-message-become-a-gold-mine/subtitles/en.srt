@@ -1,0 +1,709 @@
+1
+00:00:00,000 --> 00:00:02,640
+In the early 2000s, mobile operators
+
+2
+00:00:02,870 --> 00:00:06,540
+were selling data at a price
+that sounds absurd today.
+
+3
+00:00:07,136 --> 00:00:09,716
+Not mobile internet. Text messages.
+
+4
+00:00:10,560 --> 00:00:14,380
+A single text message carried
+at most 140 bytes.
+
+5
+00:00:15,093 --> 00:00:17,753
+At ten cents a message,
+one megabyte of texts
+
+6
+00:00:17,983 --> 00:00:20,820
+would cost you more
+than seven hundred dollars.
+
+7
+00:00:20,920 --> 00:00:21,840
+And people paid it.
+
+8
+00:00:22,070 --> 00:00:24,420
+Billions of times a day.
+
+9
+00:00:25,050 --> 00:00:29,350
+So how did a tiny side feature
+of the mobile network become a gold mine?
+
+10
+00:00:29,610 --> 00:00:33,810
+And why was every message
+limited to exactly 160 characters?
+
+11
+00:00:36,650 --> 00:00:39,690
+Let's start with that number,
+because it has two parents.
+
+12
+00:00:40,415 --> 00:00:43,075
+In 1985, a German engineer
+
+13
+00:00:43,305 --> 00:00:46,635
+called Friedhelm Hillebrand
+sat down at a typewriter.
+
+14
+00:00:47,317 --> 00:00:51,797
+He typed out ordinary sentences
+and questions, and counted the characters.
+
+15
+00:00:52,661 --> 00:00:54,601
+Almost all of them fit into 160.
+
+16
+00:00:56,383 --> 00:00:59,383
+He checked postcards
+and telex messages too.
+
+17
+00:01:00,083 --> 00:01:03,403
+Most of those were shorter
+than 160 as well.
+
+18
+00:01:03,969 --> 00:01:05,449
+So the first parent is human.
+
+19
+00:01:05,679 --> 00:01:11,109
+160 characters was enough
+to say most things people actually say.
+
+20
+00:01:12,326 --> 00:01:14,426
+The second parent is the network.
+
+21
+00:01:15,302 --> 00:01:17,642
+Engineers were designing GSM,
+
+22
+00:01:17,722 --> 00:01:21,042
+the new European standard
+for digital mobile phones.
+
+23
+00:01:21,498 --> 00:01:24,018
+And a phone doesn't only carry your voice.
+
+24
+00:01:24,658 --> 00:01:27,978
+It constantly exchanges small messages
+with the network.
+
+25
+00:01:28,764 --> 00:01:33,144
+I'm here. I've moved to another cell.
+A call is coming in.
+
+26
+00:01:33,705 --> 00:01:35,185
+That's called signalling.
+
+27
+00:01:35,265 --> 00:01:38,765
+And most of the time,
+those channels sit almost empty.
+
+28
+00:01:39,285 --> 00:01:41,085
+So the idea was modest.
+
+29
+00:01:41,825 --> 00:01:45,545
+What if short text messages
+could ride along in that spare capacity?
+
+30
+00:01:46,244 --> 00:01:48,364
+But a signalling message is small.
+
+31
+00:01:49,024 --> 00:01:51,924
+The room left for the text was 140 bytes.
+
+32
+00:01:52,699 --> 00:01:56,459
+140 bytes is 1120 bits.
+
+33
+00:01:57,169 --> 00:02:00,049
+Simple text doesn't need
+eight bits per character.
+
+34
+00:02:00,689 --> 00:02:02,449
+GSM used seven.
+
+35
+00:02:02,669 --> 00:02:07,269
+And 1120 divided by seven is exactly 160.
+
+36
+00:02:08,803 --> 00:02:10,403
+It wasn't a coincidence.
+
+37
+00:02:11,123 --> 00:02:15,183
+The first design had room
+for only about 146 characters.
+
+38
+00:02:15,403 --> 00:02:19,483
+So the engineers stretched it
+until 160 fitted.
+
+39
+00:02:21,983 --> 00:02:23,463
+There's a catch, though.
+
+40
+00:02:23,603 --> 00:02:27,123
+Seven bits only give you
+a hundred and twenty-eight characters.
+
+41
+00:02:27,590 --> 00:02:30,870
+That covers English,
+and a handful of accented letters.
+
+42
+00:02:31,275 --> 00:02:33,402
+But not the Czech ř.
+
+43
+00:02:33,515 --> 00:02:38,975
+Not the Polish ł, the Hungarian ő,
+or the Cyrillic alphabet.
+
+44
+00:02:39,864 --> 00:02:42,384
+Use one of those,
+and the phone switches to an encoding
+
+45
+00:02:42,614 --> 00:02:44,784
+with sixteen bits per character.
+
+46
+00:02:45,043 --> 00:02:49,183
+And the same 140 bytes
+now hold only 70 characters.
+
+47
+00:02:49,960 --> 00:02:52,960
+One letter could cut your message
+by more than half.
+
+48
+00:02:53,219 --> 00:02:54,719
+Which is why, for years,
+
+49
+00:02:54,799 --> 00:02:58,199
+millions of people wrote their texts
+without accents at all.
+
+50
+00:03:00,809 --> 00:03:05,289
+The service itself was called
+SMS. Short Message Service.
+
+51
+00:03:05,748 --> 00:03:09,008
+And nobody expected it
+to become the way people talk.
+
+52
+00:03:09,684 --> 00:03:12,244
+It was a small extra
+built into the network.
+
+53
+00:03:12,644 --> 00:03:16,604
+Something like a pager:
+a short note for someone on the move.
+
+54
+00:03:17,691 --> 00:03:20,351
+On the 3rd of December 1992,
+
+55
+00:03:20,451 --> 00:03:23,591
+the first text message was sent
+across a British network.
+
+56
+00:03:24,358 --> 00:03:26,078
+It said: "Merry Christmas."
+
+57
+00:03:26,886 --> 00:03:29,426
+It was typed on a computer, not a phone.
+
+58
+00:03:30,118 --> 00:03:32,938
+The phone that received it
+could display the message.
+
+59
+00:03:33,018 --> 00:03:35,798
+But it had no way to send one back.
+
+60
+00:03:37,958 --> 00:03:41,118
+Getting a message to someone
+worked like a post office.
+
+61
+00:03:41,851 --> 00:03:45,671
+Your phone handed the text to a server
+in the network, the SMS Centre.
+
+62
+00:03:46,639 --> 00:03:50,119
+If the recipient's phone was switched off,
+the message waited.
+
+63
+00:03:50,853 --> 00:03:52,853
+Out of coverage? It waited.
+
+64
+00:03:53,401 --> 00:03:56,441
+And when the phone came back,
+the network tried again.
+
+65
+00:03:57,038 --> 00:03:59,298
+Engineers call it store and forward.
+
+66
+00:03:59,978 --> 00:04:02,238
+No internet, no account, no app.
+
+67
+00:04:02,638 --> 00:04:04,218
+Just a mobile signal.
+
+68
+00:04:06,528 --> 00:04:10,148
+Then phones learned to send texts,
+and people discovered something
+
+69
+00:04:10,378 --> 00:04:12,828
+the designers hadn't really planned for.
+
+70
+00:04:13,344 --> 00:04:16,344
+A phone call needs
+both people at the same time.
+
+71
+00:04:16,939 --> 00:04:18,899
+A text doesn't need that.
+
+72
+00:04:19,573 --> 00:04:20,893
+You could send "Where are you?"
+
+73
+00:04:21,123 --> 00:04:23,373
+and carry on with your day.
+
+74
+00:04:24,023 --> 00:04:27,403
+The other person could answer
+in a minute, or in an hour.
+
+75
+00:04:28,002 --> 00:04:30,842
+And on a keypad
+with three or four letters on each key,
+
+76
+00:04:30,922 --> 00:04:32,882
+people got astonishingly fast.
+
+77
+00:04:33,666 --> 00:04:36,086
+The phone stopped being just a telephone.
+
+78
+00:04:36,806 --> 00:04:39,126
+It became a personal messaging device.
+
+79
+00:04:40,572 --> 00:04:42,772
+And that's where the gold mine opened.
+
+80
+00:04:44,902 --> 00:04:47,802
+Think about what a text message
+costs the network.
+
+81
+00:04:48,603 --> 00:04:50,503
+The towers were already there.
+
+82
+00:04:50,963 --> 00:04:53,263
+The signalling channels
+were already there.
+
+83
+00:04:53,464 --> 00:04:56,684
+And each message was
+at most a hundred and forty bytes.
+
+84
+00:04:57,243 --> 00:05:01,243
+But customers didn't pay for bytes.
+They paid per message.
+
+85
+00:05:01,570 --> 00:05:04,810
+Or for a bundle
+of a few hundred messages a month.
+
+86
+00:05:05,442 --> 00:05:08,362
+Prices varied a lot
+from country to country.
+
+87
+00:05:09,058 --> 00:05:12,078
+In much of Europe,
+you paid for every single text.
+
+88
+00:05:12,781 --> 00:05:15,701
+In the United States,
+texting caught on later,
+
+89
+00:05:15,941 --> 00:05:18,361
+and you often paid to receive a text, too.
+
+90
+00:05:18,978 --> 00:05:22,278
+But the basic arithmetic
+was the same almost everywhere.
+
+91
+00:05:23,021 --> 00:05:26,421
+A tiny amount of data,
+sold as a separate service.
+
+92
+00:05:26,749 --> 00:05:29,049
+And sold billions of times a day.
+
+93
+00:05:29,703 --> 00:05:34,083
+For operators, it became one of the most
+profitable things they had ever sold.
+
+94
+00:05:37,113 --> 00:05:39,033
+And then it got a little strange.
+
+95
+00:05:39,897 --> 00:05:43,197
+Some operators offered free texting
+from their own websites.
+
+96
+00:05:44,017 --> 00:05:46,417
+Type a number, type a message, send.
+
+97
+00:05:47,035 --> 00:05:48,455
+Programmers noticed.
+
+98
+00:05:49,255 --> 00:05:52,795
+If a website can send a text,
+a program can use that website.
+
+99
+00:05:53,640 --> 00:05:56,100
+Soon there were apps
+that sent texts from your computer,
+
+100
+00:05:56,330 --> 00:05:58,940
+through the operators' own gateways.
+
+101
+00:05:59,645 --> 00:06:04,085
+The service people paid for on their
+phones was sometimes free one window away.
+
+102
+00:06:06,735 --> 00:06:09,815
+But 160 characters had another limit.
+
+103
+00:06:10,479 --> 00:06:12,539
+What if you wanted to send a picture?
+
+104
+00:06:13,349 --> 00:06:17,209
+Enter MMS. Multimedia Messaging Service.
+
+105
+00:06:17,927 --> 00:06:20,947
+Pictures, sound,
+short videos, longer text.
+
+106
+00:06:21,628 --> 00:06:23,128
+And here's the clever part.
+
+107
+00:06:23,208 --> 00:06:26,108
+An MMS didn't travel like a text.
+
+108
+00:06:26,867 --> 00:06:29,647
+First, your phone received
+a small hidden message.
+
+109
+00:06:30,427 --> 00:06:33,267
+Something like:
+there's a picture waiting for you.
+
+110
+00:06:33,392 --> 00:06:36,172
+Then the phone went online
+and downloaded it.
+
+111
+00:06:36,452 --> 00:06:39,292
+Which meant MMS needed mobile data.
+
+112
+00:06:40,025 --> 00:06:42,665
+It needed the right settings
+from your operator.
+
+113
+00:06:43,149 --> 00:06:47,429
+And it had size limits that squeezed
+photos into a blurry little rectangle.
+
+114
+00:06:48,131 --> 00:06:49,891
+It was often expensive.
+
+115
+00:06:50,431 --> 00:06:52,631
+And sometimes, it simply didn't arrive.
+
+116
+00:06:53,434 --> 00:06:56,234
+MMS was the awkward teenager
+between the text message
+
+117
+00:06:56,464 --> 00:06:58,874
+and everything that came next.
+
+118
+00:06:59,325 --> 00:07:02,205
+And what came next
+was the internet on your phone.
+
+119
+00:07:03,455 --> 00:07:06,295
+Once phones had a reliable
+data connection,
+
+120
+00:07:06,475 --> 00:07:10,155
+a message didn't need the operator's
+messaging service at all.
+
+121
+00:07:10,677 --> 00:07:12,877
+It could travel as ordinary data.
+
+122
+00:07:13,738 --> 00:07:16,818
+Apps like WhatsApp
+and Facebook Messenger sent texts,
+
+123
+00:07:16,898 --> 00:07:20,418
+pictures, voice messages
+and videos the same way.
+
+124
+00:07:20,895 --> 00:07:23,295
+The economics of messaging flipped.
+
+125
+00:07:23,678 --> 00:07:25,998
+Instead of one message, one charge,
+
+126
+00:07:26,261 --> 00:07:30,921
+thousands of messages became
+a rounding error inside your data plan.
+
+127
+00:07:31,541 --> 00:07:33,541
+The gold mine didn't run dry.
+
+128
+00:07:33,861 --> 00:07:35,601
+It was simply bypassed.
+
+129
+00:07:38,091 --> 00:07:40,231
+But SMS didn't disappear.
+
+130
+00:07:40,667 --> 00:07:44,627
+Because it still has one trick
+that most internet messengers don't.
+
+131
+00:07:45,093 --> 00:07:46,233
+Mobile signal: yes.
+
+132
+00:07:46,463 --> 00:07:48,013
+Wi-Fi: no.
+
+133
+00:07:48,113 --> 00:07:49,733
+Mobile data: no.
+
+134
+00:07:50,355 --> 00:07:52,735
+Even then, SMS still works.
+
+135
+00:07:53,416 --> 00:07:56,816
+That's why it carries the things
+that can't wait for a good connection.
+
+136
+00:07:57,672 --> 00:08:01,192
+Login codes. Bank alerts.
+Delivery updates.
+
+137
+00:08:01,793 --> 00:08:03,613
+And the occasional "Call me."
+
+138
+00:08:05,763 --> 00:08:09,883
+The mobile industry did try
+to give the old system a modern successor.
+
+139
+00:08:10,659 --> 00:08:12,379
+It's called RCS.
+
+140
+00:08:12,819 --> 00:08:14,739
+Rich Communication Services.
+
+141
+00:08:15,621 --> 00:08:21,721
+Typing indicators. Read receipts.
+Group chats. Proper photos. Reactions.
+
+142
+00:08:22,655 --> 00:08:26,835
+Basically, everything people had been
+getting from messaging apps for years.
+
+143
+00:08:27,508 --> 00:08:30,228
+But RCS needs an internet connection.
+
+144
+00:08:30,553 --> 00:08:33,773
+So when the data is gone,
+the most modern system steps aside,
+
+145
+00:08:34,003 --> 00:08:37,903
+and the phone can fall back
+to the oldest one.
+
+146
+00:08:39,603 --> 00:08:43,163
+A message designed in the 1980s,
+squeezed into the gaps
+
+147
+00:08:43,393 --> 00:08:47,463
+of a signalling channel,
+limited to 160 characters.
+
+148
+00:08:48,275 --> 00:08:49,635
+It became a gold mine.
+
+149
+00:08:50,761 --> 00:08:52,841
+It was bypassed by the internet.
+
+150
+00:08:53,415 --> 00:08:57,015
+And it's still the thing your phone
+reaches for when nothing else works.
+
+151
+00:09:00,225 --> 00:09:02,685
+RCS has one more twist, though.
+
+152
+00:09:03,308 --> 00:09:07,128
+For years, the best-known phone
+in the world simply didn't speak it.
+
+153
+00:09:07,449 --> 00:09:09,669
+But that's a story for another video.
+
+154
+00:09:10,961 --> 00:09:12,781
+So here's a question for you.
+
+155
+00:09:13,501 --> 00:09:17,421
+Was the 160-character limit
+a handicap texting survived,
+
+156
+00:09:17,501 --> 00:09:19,521
+or part of the reason it caught on?
+
+157
+00:09:19,861 --> 00:09:21,491
+Let me know in the comments.

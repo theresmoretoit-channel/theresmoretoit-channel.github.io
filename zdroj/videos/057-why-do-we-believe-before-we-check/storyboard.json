@@ -1,0 +1,712 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První obrazovka nese MYŠLENKU, ne atmosféru, a NENÍ sdxl — pravidlo kanálu. Zavádí se tu páteř celého videa: osa času s dvěma značkami. Mezera mezi nimi je celé video. Titulek v kartičce musí být NEČITELNÝ (linky, ne slova), jinak si obraz vymyslí konkrétní zprávu, kterou scénář neříká.",
+      "diagram_generator": "osa",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ: vodorovná osa času v y=760, na ní ambrová značka POCIT v x=760 a prázdný kroužek CHECK v x=2000. Nad osou kartička titulku (obdélník s třemi linkami místo písmen, žádný čitelný nadpis). Od kartičky vede krátká šipka dolů na ambrovou značku."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Otázka z titulu videa leží doslova v mezeře mezi pocitem a ověřením. Osa se NESMÍ posunout — celé video se k ní vrací šestkrát a výplata v S71 se pozná jedině podle shodných souřadnic.",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa na týchž souřadnicích. Mezi značkami se rozsvítí mezera (ambrový podkres) a nad ni přijde otázka WHY? Kroužek CHECK zůstává prázdný."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Scéna tvrdí, že příčina je starší než internet — kresba to říká tím, že osa začíná VLEVO od zprávy. Škrt je vodorovná čára přes nápis (`text_skrtnuty`), ne křížek: křížek přes písmo se nedá přečíst a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "osa",
+      "diagram": "Osa pokračuje DOLEVA za kartičku titulku, tam se vynoří obrys hlavy. Vpravo dole ztlumený štítek THE INTERNET s vodorovným škrtem přes text.",
+      "pause": 1.4
+    },
+    {
+      "id": "S04",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S04.png",
+      "note": "Jediná atmosférická scéna první třetiny a schválně je hned tady: po třech diagramech potřebuje divák nadechnout. SDXL tu smí být, protože se nekreslí konkrétní objekt ani text — jen keře a šero. Žádné zvíře v obraze: scénář nechává nejisté, jestli tam predátor JE, a obraz to nesmí rozhodnout za něj.",
+      "prompt": "dense dark undergrowth at the edge of a clearing, tall grass parted by something unseen, deep shadow between the stems, a single pale stone in the foreground, flat grey overcast light, no sun, empty and still, painterly"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Konvence kanálu: plná čára doložené, čárkovaná hypotetické. Dolní větev je čárkovaná proto, že ten člověk se k výsledku nikdy nedostal — ne proto, že by počítání bylo špatné.",
+      "diagram_generator": "evoluce",
+      "diagram": "Z jednoho bodu dvě větve: horní RUN (plná čára, končí siluetou, která stojí), dolní WORK OUT THE PROBABILITY (čárkovaná, končí prázdným polem). Plná = doloženo, čárkovaná = hypotéza."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Tohle je Nesse (smoke detector principle) nakreslený jako výplatní matice — a je to jediné místo, kde scéna tvrdí NEsymetrii nákladů. Ambrová tu znamená 'o tomhle je řeč', tedy to drahé pole, ne 'správná volba'. Kdyby dostala druhý význam, čte se celá scéna obráceně.",
+      "diagram_generator": "evoluce",
+      "diagram": "Tabulka 2x2: sloupce PREDATOR / NO PREDATOR, řádky RAN / STAYED. Tři pole nesou drobnou cenu (tenký ambrový proužek), pole STAYED + PREDATOR je celé ambrové a nese cenu přes celou výšku. `assert`: právě čtyři pole, právě jedno zvýrazněné."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "TVRDÝ ZÁKAZ: žádná infografika typu amygdala -> zkratka -> kůra. Doložená je jen RYCHLOST (startle 20–400 ms), ne cesta signálu; LeDoux svou 'dolní cestu' sám přehodnotil. Obraz proto ukazuje pořadí v čase, ne anatomii.",
+      "diagram_generator": "osa",
+      "diagram": "Návrat páteře: osa, ambrová značka POCIT vlevo, prázdný kroužek CHECK vpravo, mezi nimi šipka směru. Nic dalšího."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Třicet teček je doložené číslo (Hill 2011, průměrná tlupa 28,2 dospělých), takže se počítá v kódu a hlídá `assert`em. Pravá strana schválně NEMÁ počet — 'a few billion' se nedá nakreslit poctivě, a předstírat spočítatelnost by bylo tvrzení navíc.",
+      "diagram_generator": "dav",
+      "diagram": "Vlevo kroužek s PŘESNĚ 30 tečkami (`assert` na 30) a popiskem A VALLEY. Vpravo husté pole teček přetékající přes okraj rámu, popisek WITHIN REACH. Mezi nimi měřítko, které ukazuje, že pravá strana se do rámu nevejde.",
+      "pause": 1.4
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Spojnice je POHLED, ne příčina — proto tenká čára bez hrotu. Šipka by tvrdila 'strach se přenáší mechanicky', což scénář v téhle scéně ještě neříká.",
+      "diagram_generator": "dav",
+      "diagram": "Pravidelná síť teček (lidé). Jedna tečka ambrová, kolem ní tenký kroužek. Soused má oči obrácené k ní (krátká spojnice pohledu, ne šipka příčiny)."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Krok 2 téhož obrazu. Souřadnice sítě se mezi S09–S12 nesmí pohnout, jinak divák nevidí šíření, ale čtyři různé obrázky.",
+      "diagram_generator": "dav",
+      "diagram": "Táž síť na týchž souřadnicích, ambrové jsou už tři tečky, pohledové spojnice vedou od dalších."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Pointa první minuty: nikdo nedostal informaci. Prázdný kanál to musí ukázat TÍM, že do něj nic nevede — ne škrtnutím. Škrtnutý kanál by znamenal 'informace neexistuje', a to scéna netvrdí.",
+      "diagram_generator": "dav",
+      "diagram": "Celá síť ambrová. Vlevo nahoře prázdný kanál: obdélník s popiskem NEW INFORMATION, dovnitř nevede žádná čára, obdélník je prázdný a ztlumený."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Dvě barvy tu NEznamenají hodnocení. Naměřený nález z třetího videa: barva bez významu si význam vyrobí — proto je pod oběma jeden popisek, který říká, že jde o tentýž mechanismus.",
+      "diagram_generator": "dav",
+      "diagram": "Táž síť dvakrát vedle sebe: vlevo ambrová (strach), vpravo světlá (nadšení). Pod nimi jeden společný popisek IT WORKS BOTH WAYS."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Informační kaskáda (Bikhchandani 1992): rozhoduje se podle chování předchozích, ne podle vlastní informace. Proto žádná postava nemá vstup shora — kdyby měla, kreslili bychom něco jiného, než scénář říká.",
+      "diagram_generator": "dav",
+      "diagram": "Řada postav zleva doprava; každá další vidí jen ty PŘED sebou (krátké pohledové spojnice dozadu) a nemá vlastní vstup. Nad řadou stoupající křivka MORE CONVINCING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Uvozovky v obraze dělají totéž co ve scénáři: tohle je představa, ne zjištění. Bez nich by deska tvrdila, že volby rationální JSOU.",
+      "diagram_generator": "volby",
+      "diagram": "Volební lístek jako čistý obdélník se třemi řádky a prázdným políčkem, nad ním štítek RATIONAL PROCESS v uvozovkách."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Idealizovaná linka. Kreslí se plnou čarou schválně, aby se v S16 mělo co ztlumit.",
+      "diagram_generator": "volby",
+      "diagram": "Vodorovná linka kroků: PROGRAMMES -> COMPARE -> CONSEQUENCES -> CHOICE, čtyři pole spojená plnými šipkami."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Ztlumení, ne škrt: scénář se ptá 'kolik voličů to dělá', netvrdí 'nikdo'. Škrt by byl silnější tvrzení, než jaké zazní.",
+      "diagram_generator": "volby",
+      "diagram": "Táž linka na týchž souřadnicích, první tři pole ztlumená (MUTED) a nad každým otazník. Šipky zůstávají."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Bubliny sedí přesně tam, kde byla v S16 linka kroků — kresba tím říká, čím se ten postup nahradil, aniž by to musel říct popisek.",
+      "diagram_generator": "volby",
+      "diagram": "Čtyři bubliny s krátkými větami I LIKE HER / I TRUST HIM / SEEMS CONFIDENT / CAN'T STAND HIM, rozmístěné kolem prázdného místa po lince z S16."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Tváře musí zůstat BEZ RYSŮ a bez jakékoli podoby se skutečnou osobou — studie pracovala s reálnými kandidáty, ale video o nich netvrdí nic a nemá je ani licenčně kde vzít. Rok 2005 je rok STUDIE, ne voleb (závody byly senátní 2000/2002/2004).",
+      "diagram_generator": "volby",
+      "diagram": "Dvě prázdné portrétní oválné plochy vedle sebe, bez rysů, bez jmen. Pod nimi tenký rámeček STUDY, 2005."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Tady je škrt na místě: studie ty údaje opravdu odebrala (a dvojice, kde účastník kandidáta poznal, se z analýzy vyřadily). Výseč ciferníku musí být zřetelně malá — jedna vteřina je pointa scény.",
+      "diagram_generator": "volby",
+      "diagram": "Táž dvojice oválů. Vlevo tři škrtnuté štítky NAME / PARTY / POLICIES, vpravo ciferník s výsečí ONE SECOND a otázka WHICH LOOKS MORE COMPETENT?"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "TVRDÝ LIMIT: objeví-li se číslo, je to 67,6 %, protože právě to patří k pokusu s jednovteřinovou expozicí. 68,8 % jsou senátní závody 2004 BEZ časového omezení a k téhle scéně nepatří. Sedm z deseti značek je ilustrace 'roughly seven out of ten', proto je pod nimi přesné číslo — aby obraz netvrdil kulatějších 70 %.",
+      "diagram_generator": "volby",
+      "diagram": "Deset značek závodů v řadě, sedm ambrových. Pod nimi jediné číslo 67.6 % a popisek ONE-SECOND JUDGEMENTS."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Výplata páteře číslo jedna: úsudek padne dřív, než kandidát promluví. Pořadí na ose je celé tvrzení scény, takže vzdálenosti musí odpovídat — FIRST WORD SPOKEN patří vpravo od obou.",
+      "diagram_generator": "osa",
+      "diagram": "Páteř potřetí. Na ose přibude druhá značka vlevo: JUDGEMENT těsně za POCIT, a až daleko vpravo od nich značka FIRST WORD SPOKEN.",
+      "pause": 2.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "TVRDÝ ZÁKAZ: nic v obraze nesmí jednu variantu označit za lepší nebo přesvědčivější. Doložené je jen to, že se liší VNÍMÁNÍ; efekt na přesvědčivost je podmíněný kvalitou argumentu (silný posílí, slabý prozradí). Žádná fajfka, žádná ambrová 'vítězná' strana.",
+      "diagram_generator": "prednes",
+      "diagram": "Dvakrát TÝŽ blok textu (stejný počet řádků, stejná délka), pod každým jiný průběh intonace — jeden klidný, druhý roztřesený. Nad oběma jeden popisek SAME SENTENCE."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Ambrová smí být jen na slově REACTION (o tom je řeč), ne na jednom z ukazatelů. Viz S22 — tohle je táž past o scénu dál.",
+      "diagram_generator": "prednes",
+      "diagram": "Nahoře jeden informační blok INFORMATION s popiskem IDENTICAL. Dolů z něj vedou dvě čáry ke dvěma různě velkým ukazatelům REACTION. Ani jeden ukazatel není označený jako správný.",
+      "pause": 1.6
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Škrtá se JEDEN štítek, ne celá scéna: scénář neříká, že lidé nejsou hloupí, říká, že to vysvětlení je laciné. Prázdné místo pod štítkem drží souřadnice pro S25–S26.",
+      "diagram_generator": "lez",
+      "diagram": "Uprostřed štítek BECAUSE THEY'RE STUPID s vodorovným škrtem přes text. Pod ním otevřené místo, do kterého bude v S25 ukazovat klíč."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Obraz tvrdí 'ta věta je udělaná na ten pocit', ne 'argumenty nefungují' — proto jsou argumenty ztlumené, ne škrtnuté.",
+      "diagram_generator": "lez",
+      "diagram": "Zámek ve tvaru pocitu (FEAR) a klíč ve tvaru věty, který do něj přesně zapadá. Vedle ztlumená hromádka klíčů ARGUMENTS, které do zámku nepasují."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Tři stejně velké zámky schválně: žádný z těch tří pocitů není v scénáři významnější než ostatní, takže velikost ani pořadí nesmí tvrdit opak.",
+      "diagram_generator": "lez",
+      "diagram": "Tři zámky vedle sebe: FEAR / ANGER / IGNORED, ke každému jiný klíč. Rozestupy stejné, velikosti stejné."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Smyčka nesmí nést žádné číslo. Doložené je, že se nepravdy šíří dál a rychleji (Vosoughi 2018), ne o kolik vydělá jeden článek — a Vosoughi to navíc vysvětluje NOVOSTÍ, ne emocí, takže konkrétní číslo by tu bylo vydávané za něco, co neplatí.",
+      "diagram_generator": "lez",
+      "diagram": "Uzavřená smyčka čtyř polí: FEELING -> CLICKS -> REACH -> MONEY -> zpět. Bez čísel a bez měřítka.",
+      "pause": 2.2
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Předstíraný konec videa. Rámeček musí být UZAVŘENÝ, aby v S28b bylo co otevřít.",
+      "diagram_generator": "lez",
+      "diagram": "Osa z páteře, obě značky, a kolem celého obrazu uzavřený rámeček s popiskem ANSWER. Osa končí u pravého okraje rámečku.",
+      "pause": 2.8
+    },
+    {
+      "id": "S28b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28b.png",
+      "note": "Zlom videa. Je to úder (`S28b` dědí rozvržení S28) a mění se JEDINÁ věc — jinak by z beatu bylo pět střihů za sebou. Zároveň to musí být vidět na první pohled: 'But wait' není nádech, ale otevření druhé poloviny. NAVETI: divak nahlasil schwu za koncem sceny. Obetovana veta tu selhala (v logu 'konec sceny by padl do posledniho slova'), protoze promluva ma jen 1,1 s -- je to taz hranice jako u 'Probably not.' ve videu 026. Naveti promluvu prodlouzi a urizne se v tichu pred prvnim slovem sceny. Zneni je volene tak, aby NEobsahovalo prvni slovo sceny: kdyby ho obsahovalo, rez by se nasel uvnitr naveti a scena by prisla o zacatek.",
+      "diagram_generator": "lez",
+      "diagram": "TÝŽ obraz, jediná změna: pravá strana rámečku zmizí a osa pokračuje za okraj rámu doprava, do prázdna.",
+      "pause": 1.6,
+      "naveti": "So the case looks closed."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Obě větve čárkovaně — jsou to návrhy, které scénář teprve prověří. Kdyby byly plné, obraz by je vydával za řešení.",
+      "diagram_generator": "overit",
+      "diagram": "Postava u osy, nad ní dvě možnosti jako dvě čárkované větve: STOP TRUSTING YOURSELF a CHECK EVERYTHING. Obě zatím bez výsledku."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Scéna zužuje na jeden nárok, aby S31–S33 mohly stavět řetěz práce na tomtéž místě.",
+      "diagram_generator": "overit",
+      "diagram": "Zvýrazní se větev CHECK EVERYTHING, druhá ztlumí. Pod ní jediná kartička ONE CLAIM."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Sloupec musí růst z TÉŽE kartičky a od týchž souřadnic jako v S32–S33, jinak nebude vidět, že je to pořád jeden jediný nárok.",
+      "diagram_generator": "overit",
+      "diagram": "Pod kartičkou ONE CLAIM vyrostou dva kroky: FIND THE DATA, WHO COLLECTED IT. Sloupec roste dolů od pevného bodu."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Krok 2 téhož obrazu.",
+      "diagram_generator": "overit",
+      "diagram": "Týž sloupec, přibudou UNDERSTAND THE STATISTICS a FIND THE OPPOSITE STUDIES. Sloupec už přesahuje spodní třetinu."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Přetečení z rámu je celé tvrzení scény: práce nekončí. Proto se poslední krok NEsmí vejít.",
+      "diagram_generator": "overit",
+      "diagram": "Týž sloupec, přibude DO THEY REALLY DISAGREE? a sloupec vyjede za spodní okraj rámu."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Šest oborů je doslova výčet ze scénáře — proto `assert` na počet i na znění. Kdyby jich obraz měl pět nebo sedm, tvrdí něco jiného než hlas.",
+      "diagram_generator": "overit",
+      "diagram": "Celý sloupec se zmenší do jedné dlaždice vlevo nahoře a vedle ní se objeví PĚT dalších stejných dlaždic s popisky MEDICINE / ENERGY / LAW / CLIMATE / HISTORY / FINANCE. `assert`: právě šest dlaždic a právě těchto šest popisků.",
+      "pause": 1.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Druhá otázka videa se rodí na TÉMŽE místě, kde v S02 stála první. To je celý smysl páteře — kdyby se osa posunula, výměna otázky se nepozná.",
+      "diagram_generator": "osa",
+      "diagram": "Páteř počtvrté. Nad mezerou mezi POCIT a CHECK se vymění otázka: dřívější WHY? zmizí a nastoupí WHO DO I TRUST?",
+      "pause": 2.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Analogie, ne tvrzení o světě. Žádná čísla, žádné značky.",
+      "diagram_generator": "duvera",
+      "diagram": "Vlevo rozbité auto, vpravo postava s klíčem, mezi nimi šipka. Nad postavou NOT A MECHANIC."
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S37.png",
+      "note": "Druhý nádech videa a padne přesně doprostřed nejhustšího bloku. Archivní fotka výpadku proudu by tvrdila konkrétní událost, kterou scénář nejmenuje — proto SDXL, a proto v promptu žádné město ani rok. DRUHÉ KOLO: první pokus (tmavá ulice v noci) vrátil rozsvícená okna a hořící lucernu — tedy přesný opak funkce scény. Je to táž rodina jako „dawn/dusk dá vždycky zlaté světlo\" z CLAUDE.md: slovo `night` si model doplní lampami. Druhý pokus proto o noci nemluví vůbec a říká, že nic nesvítí. Zamítnuté kolo leží ve scratchpadu. PŘIJATO: druhé kolo dalo prázdný pokoj s VYPNUTOU lampou a světlem jen z okna. Nesvítí nic, což je přesně funkce scény; jas proti diagramům je vlastnost kanálu (poměr 4–6x u všech videí), ne vada.",
+      "prompt": "an unlit interior in the middle of the day, a switched-off table lamp beside an empty chair, flat grey light from an unseen window, deep indigo shadow across a bare floor, nothing glowing anywhere, still and empty, painterly ink texture",
+      "seed": 4177
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Scéna bere tu větu vážně, takže obraz taky. Žádný přeškrtnutý štítek ani ikona 'blbost' — to by bylo přesně to obrácení očí, o kterém hlas říká, že si ho ta věta nezaslouží.",
+      "diagram_generator": "duvera",
+      "diagram": "Uprostřed věta I DON'T TRUST SCIENTISTS v uvozovkách, v obyčejné kresbě, bez škrtu, bez posměšné ikony. Pod ní jediné slovo WHY?"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "TVRDÝ LIMIT pro celý blok S39–S42: pointa je 'věda se opravuje', ne 'vědě se nedá věřit'. Zlom proto NENÍ trhlina ani pád — je to bod, ve kterém čára pokračuje dál.",
+      "diagram_generator": "duvera",
+      "diagram": "Vodorovná časová osa vědění. Na ní plná čára ANSWER, která v jednom bodě končí a pokračuje jinde — zlom je vyznačený ambrovým bodem NEW EVIDENCE."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Délka pruhu je tvrzení ('decades at a time') a je to jediné, co tu obraz kvantifikuje — bez konkrétních let, protože scénář žádný rok neříká.",
+      "diagram_generator": "duvera",
+      "diagram": "Táž osa, ale delší: pruh DECADES, po celou dobu jedna odpověď, pak ambrový bod a jiná odpověď. Pruh je zřetelně dlouhý."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Zesílení čáry po opravě je celé sdělení scény. Kdyby po zlomu čára zeslábla, obraz by tvrdil opak hlasu.",
+      "diagram_generator": "duvera",
+      "diagram": "Týž obraz, jediná změna: ambrový bod dostane popisek THIS IS THE FEATURE a čára za ním zesílí."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Ztlumit, NEŠKRTAT: scéna neříká, že lidem se nevěří, říká, čemu se věří především. A šipka musí končit u PROCESU — je to přesně ten typ scény, kde kresba umí ukázat na špatný cíl (past 'šipka míří na oběť místo na útočníka').",
+      "diagram_generator": "duvera",
+      "diagram": "Dvě pole vedle sebe: ztlumené A PERSON WHO IS NEVER WRONG a ambrové A PROCESS THAT CATCHES MISTAKES. Šipka od 'trust' vede do ambrového.",
+      "pause": 2.2
+    },
+    {
+      "id": "S43",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S43.png",
+      "note": "Třetí a poslední atmosférická scéna. Obrazovka musí být PRÁZDNÁ — jakýkoli obsah by z 'a video' udělal konkrétní video a scénář žádné nejmenuje. V negativu je proto screen content i text. DRUHÉ KOLO: první pokus dal jasně bílý prázdný obdélník na zdi — čte se jako prázdný rám, ne jako obrazovka, a byl by nejsvětlejším místem celého videa. Druhý pokus ukazuje jen ODLESK a diváka zezadu; zdroj zůstává mimo záběr, takže se pořád nedá říct, jaké video to je. PŘIJATO: druhé kolo dalo postavu zezadu před svítícím obdélníkem v šeru. Na obdélníku není nic čitelného, takže se pořád nedá říct, jaké video to je — a přitom je vidět, že tam někdo sedí a dívá se.",
+      "prompt": "a dim room seen from behind a seated silhouette, a faint cold glow falling on the wall in front of them, the source out of frame, deep indigo shadow, nothing readable anywhere, quiet and still, painterly ink texture",
+      "seed": 9311
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Obě kolečka stejně velká schválně: scéna tvrdí VÝMĚNU autority, ne přechod k něčemu horšímu. Kdyby bylo druhé menší nebo tmavší, obraz by hodnotil, kdežto hlas jen popisuje.",
+      "diagram_generator": "duvera",
+      "diagram": "Tři prázdné odškrtávací rámečky: EVIDENCE EXAMINED / FIELD STUDIED / BETTER SOURCE FOUND, všechny nezaškrtnuté. Vedle nich dvě stejně velká kolečka a mezi nimi obousměrná šipka SWAP."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Škrt tady patří k pojmu, ne k člověku: přeškrtává se nálepka 'critical thinking', kterou si ten postup sám dává.",
+      "diagram_generator": "duvera",
+      "diagram": "Táž dvojice koleček; druhé dostane bublinu s textem WHAT WE HOPED TO HEAR. Pod tím štítek CRITICAL THINKING s vodorovným škrtem."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Jediné místo videa, kde se škrtá definice — a je to v pořádku, protože hlas říká doslova 'never meant'. Obě řádky musí být stejně dlouhé a stejně velké, aby se nezdálo, že jedna je jen hlasitější.",
+      "diagram_generator": "duvera",
+      "diagram": "Dvě definice pod sebou. Horní I BELIEVE NOTHING přeškrtnutá, spodní I WANT A GOOD REASON TO BELIEVE IT ambrová.",
+      "pause": 1.6
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Sem se zavádí rozvržení, na kterém stojí celý blok S47–S53: čtyři pevná místa v pravém sloupci. Musí být vidět už teď, prázdná — jinak se ze čtyř otázek stane výčet, ne postup.",
+      "diagram_generator": "postup",
+      "diagram": "Dvě svislé dráhy. Levá THE CLAIM s visacím zámkem nahoře (nedosažitelná), pravá THE WAY IT IS MADE otevřená. Pravá dráha je prázdný sloupec se čtyřmi prázdnými místy."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Číslování je to, co z výčtu dělá postup. Prázdná místa dole drží slib, že to pokračuje.",
+      "diagram_generator": "postup",
+      "diagram": "Do pravého sloupce se zapíšou první dvě otázky: 1 WHERE DID IT COME FROM? a 2 DOES IT CORRECT ITSELF? Zbylá dvě místa zůstávají prázdná."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Čtyři otázky na týchž souřadnicích jako v S47–S48. Odsazení každé položky se odvozuje z výšky té nad ní, ne z odhadu.",
+      "diagram_generator": "postup",
+      "diagram": "Doplní se 3 WHAT WOULD CHANGE ITS MIND? a 4 DOES IT SAY 'WE DON'T KNOW YET'? Sloupec je plný, souřadnice se nezměnily."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Tady se postup poprvé POUŽÍVÁ. Sloupec musí zůstat v obraze — kdyby zmizel, scéna přestane být krokem postupu a stane se novou myšlenkou.",
+      "diagram_generator": "postup",
+      "diagram": "Sloupec čtyř otázek se zmenší k levému okraji a zůstane čitelný. Vpravo přijde kartička A NEW STUDY PROVES SOMETHING a pod ní zamčené pole THE STUDY ITSELF."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Rozsvícená položka sloupce říká, KTERÝ krok se právě dělá. To je celý rozdíl mezi postupem a dekorací.",
+      "diagram_generator": "postup",
+      "diagram": "Otázka 1 ve sloupci se rozsvítí ambrově. Vpravo dvě možnosti vedle sebe: odkaz na studii a snímek obrazovky s číslem bez jména; druhá má prázdné pole SOURCE."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Prázdný deník, ne škrt. Scéna netvrdí, že ten zdroj lže; tvrdí, že nekontroluje. Je to nejsilnější věta scénáře a obraz ji nesmí přehnat.",
+      "diagram_generator": "postup",
+      "diagram": "Rozsvítí se otázka 2. Vpravo zdroj s deníkem oprav, který je prázdný — nula řádků, popisek NO CORRECTIONS EVER."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Uzavření postupu. Škrtá se požadavek na odbornost, ne odbornost sama.",
+      "diagram_generator": "postup",
+      "diagram": "Všechny čtyři otázky ambrové. Vedle sloupce štítek REQUIRES AN EXPERT s vodorovným škrtem a pod ním REQUIRES LOOKING."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Musí být vidět, že postup NENÍ důkaz — proto miska PROOF zůstává nedosažitelná. Kdyby ji postup dorovnal, obraz slibuje jistotu, kterou scénář výslovně odmítá.",
+      "diagram_generator": "postup",
+      "diagram": "Váhy: na jedné misce PROOF (nedosažitelná, ztlumená a nad rámem), na druhé HOW IT MADE YOU FEEL. Postup ze sloupce leží jako závaží na misce k pocitu a převáží ji. Miska PROOF zůstává mimo dosah.",
+      "pause": 2.4
+    },
+    {
+      "id": "S54b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "VÝZVA K ODBĚRU podle `docs/cta.md`: vlastní scéna s písmenem, dědí OBRAZ předchozí scény (proto `images/S54.png` — prolínačka dvou shodných obrázků není vidět), `static`, do diagramu se nekreslí nic, nápis klade `render.py` ze sdílené vrstvy. Předchozí scéna je diagram, tedy statická, takže skok nenastane.\n\nODCHYLKA OD PÁSMA KANÁLU, a je to vědomé: sedí na 74 % stopáže, kdežto dosavadní videa mají 40–60 %. Pásmo je ale popis, ne pravidlo — pravidlo zní 'první scéna za hlavní pointou'. Tohle video odpovídá pozdě schválně (oblouk A: titulní otázka se v 38 % zodpoví jen naoko a v S28b se přebije druhou). Umístit výzvu za tu první, zdánlivou odpověď by ji strčilo přesně doprostřed zlomu, tedy do jediného místa, kde video nesmí ztratit tah. S54 je skutečná pointa druhé poloviny a S55 začíná novou myšlenku, takže je to seam mezi dvěma myšlenkami, ne uvnitř jedné.",
+      "cta": true,
+      "pause": 1.6
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Štít musí být uzavřený, aby v S55b bylo co rozbít.",
+      "diagram_generator": "chytrost",
+      "diagram": "Postava s popiskem CLEVER, kolem ní oblouk jako štít. Štít je plný a uzavřený."
+    },
+    {
+      "id": "S55b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55b.png",
+      "note": "Úder 'It doesn't.' Mění se jediná věc. Čárkovaně, ne rozbitě na kusy — scéna říká, že chytrost nechrání, ne že škodí. NAVETI: divak nahlasil schwu za koncem sceny. Obetovana veta tu selhala (v logu 'konec sceny by padl do posledniho slova'), protoze promluva ma jen 1,1 s -- je to taz hranice jako u 'Probably not.' ve videu 026. Naveti promluvu prodlouzi a urizne se v tichu pred prvnim slovem sceny. Zneni je volene tak, aby NEobsahovalo prvni slovo sceny: kdyby ho obsahovalo, rez by se nasel uvnitr naveti a scena by prisla o zacatek.",
+      "diagram_generator": "chytrost",
+      "diagram": "TÝŽ obraz, jediná změna: oblouk štítu se změní na čárkovaný a v jednom místě chybí.",
+      "pause": 1.6,
+      "naveti": "You would expect that shield to hold."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Čísla v tabulce si vymyslíme, ale MUSÍ být v S56 i S57 bitově stejná — kreslí je jedna funkce v `_kit.py`, ne dvě kopie. Identita čísel je celá pointa dvojice scén.",
+      "diagram_generator": "chytrost",
+      "diagram": "Tabulka čísel 2x2 (obyčejná kontingenční tabulka, konkrétní čísla), nad ní štítek SKIN CREAM."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Kdyby se čísla jakkoli lišila, scéna přestane tvrdit to, co studie zjistila. Proto společná funkce a `assert` na shodu obou tabulek.",
+      "diagram_generator": "chytrost",
+      "diagram": "TÁŽ tabulka, týchž čísel, na týchž souřadnicích. Jediná změna: štítek nahoře je A LAW ON GUNS."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Vpravo NEKLESÁ, jen neroste — to je přesně to, co studie ukázala u přesnosti. Klesající sloupec by byl 'spočítali to hůř', tedy nepravda.",
+      "diagram_generator": "chytrost",
+      "diagram": "Dvě panely vedle sebe. Vlevo SKIN CREAM: sloupec přesnosti roste s početní gramotností. Vpravo A LAW ON GUNS: týž sloupec neroste."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "NEJCITLIVĚJŠÍ SCÉNA VIDEA. Doložené je, že se s rostoucí početní gramotností zvětšila POLARIZACE mezi skupinami — ne že by chytří počítali hůř. Rozestup dvou čar to říká přesně; jediná klesající křivka by to řekla špatně. Žádný popisek typu SMART PEOPLE GOT IT WRONG.",
+      "diagram_generator": "chytrost",
+      "diagram": "Jeden graf: vodorovná osa NUMERACY (low -> high), dvě čáry pro dvě politické skupiny, které se s rostoucí gramotností ROZCHÁZEJÍ. Popisek POLARISATION INCREASED.",
+      "pause": 1.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Scéna, ve které něco na něco míří — ověř, že cíl odpovídá podmětu: silná šipka musí končit u obhajoby, ne u pravdy.",
+      "diagram_generator": "chytrost",
+      "diagram": "Z ikony SKILL vedou dvě šipky: k FIND THE TRUTH (ztlumená, tenká) a k DEFEND WHAT I ALREADY THINK (ambrová, silná)."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Obrácená šipka nese větu 'skill, pointed the wrong way' beze slov. `sipka()` VRACÍ seznam — bez `o +=` se prostě nenakreslí a nic to neohlásí.",
+      "diagram_generator": "chytrost",
+      "diagram": "Šipka SKILL zůstane, otočí se o 180 stupňů a míří zpátky do postavy. Pod ní štítek NOT STUPIDITY.",
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "TVRDÝ ZÁKAZ: žádná citace, žádné procento, žádný odkaz na studii. Doložený mechanismus té studie (informační díry) je JINÝ než ten, který kreslíme (motivované hledání, plyne z Kahana o scénu výš). Obraz proto smí ukázat jen to, co říká hlas.",
+      "diagram_generator": "chytrost",
+      "diagram": "Postava u vyhledávacího pole; z pole vychází několik výsledků, ale k postavě se vrací jen ten, který odpovídá bublině nad ní (to, v co doufala).",
+      "pause": 1.6
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Čára uprostřed je to jediné, co se v S63b změní, takže musí být zřetelná a přesně uprostřed.",
+      "diagram_generator": "chytrost",
+      "diagram": "Dvě skupiny teček oddělené svislou čarou. Vlevo ambrová skupina WE, vpravo ztlumená THOSE PEOPLE."
+    },
+    {
+      "id": "S63b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63b.png",
+      "note": "Úder 'Same brain.' Nejlevnější možný střih a nejsilnější okamžik druhé poloviny. Nic dalšího se v obraze hýbat nesmí. NAVETI: divak nahlasil, ze za koncem sceny Emma jeste vydechne. Prepis modelem base.en (tim, kterym jede tts.py) to potvrdil: whisper slysi 'The same brain, huh?' -- slabika navic v 0,92-1,00 s, tedy 380 ms za koncem slova 'brain'. Obetovana veta tu selhala stejne jako u S28b a S55b (promluva 1,19 s). Zneni naveti je skutecna predchozi replika ze S63, takze drzi i intonaci, a NEobsahuje prvni slovo sceny ('same') -- jinak by se rez nasel uvnitr naveti.",
+      "diagram_generator": "chytrost",
+      "diagram": "TÝŽ obraz, jediná změna: svislá čára zmizí a obě skupiny mají stejnou barvu.",
+      "pause": 2.6,
+      "naveti": "The ones who share nonsense."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Plné poličky, žádné hodnocení. Scéna mluví o nás, takže tu nesmí být ani škrt, ani varovná ikona.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava s dvěma poličkami nad hlavou: OPINIONS I WANT TO BE TRUE a PEOPLE I BELIEVE AUTOMATICALLY, obě plné."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Callback přes celé video. Pozná se jedině při shodném rozvržení, proto se kartička kreslí toutéž funkcí v `_kit.py` jako v S01. Nedokreslený text = 'before we have reached the end of it'.",
+      "diagram_generator": "zaver",
+      "diagram": "Kartička titulku z S01 se vrací na TYTÉŽ souřadnice, k ní ambrová značka pocitu — a text kartičky je pořád jen zpola vykreslený."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Chybějící dělící čára je celé tvrzení scény. Je to protiklad k S63, kde čára byla — a záměrně se používá týž tvar.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě pole RATIONAL a EMOTIONAL vedle sebe, mezi nimi ale žádná dělící čára; obě mají stejnou barvu a spojuje je jeden obrys."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "0,4 s je doložené (startlová reakce doběhne do ~400 ms). Značka proto nesmí sedět na nule — obraz by tvrdil okamžitost, kterou nikdo neměřil.",
+      "diagram_generator": "zaver",
+      "diagram": "Vodorovný pruh 0 az 1 SECOND, na něm ambrová značka kolem 0,4 s s popiskem A MOMENT OF FEAR. Nad pruhem ztlumeně MATHEMATICS a ROCKETS jako věci, které trvaly staletí.",
+      "pause": 1.6
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Odtud dál platí okno závěrečné obrazovky: horní polovina zůstává volná, protože YouTube tam vkládá dlaždici a kolečko odběru a dole vždycky sedí titulek. (Okno závěrečné obrazovky podle odhadu začíná až u S70 — volná horní polovina už tady je rezerva pro případ, že se stopáž po TTS posune.)",
+      "diagram_generator": "zaver",
+      "diagram": "Osa z páteře, na ní jen ambrová značka pocitu a nad ní popisek YOU FEEL IT. Horní polovina obrazu prázdná."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Volná horní polovina, viz S68. Otázky patří POD osu, aby se nepotkaly s prvky závěrečné obrazovky. (Okno závěrečné obrazovky podle odhadu začíná až u S70 — volná horní polovina už tady je rezerva pro případ, že se stopáž po TTS posune.)",
+      "diagram_generator": "zaver",
+      "diagram": "Táž osa; k pocitu přibudou dvě otázky pod osou: WHO IS TELLING ME? a HOW COULD THEY KNOW? Horní polovina prázdná."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Nejtěžší otázka dostane ambrovou; ostatní dvě zůstanou v běžné barvě, aby bylo poznat, že je to gradace, ne výčet. ZÁVĚREČNÁ OBRAZOVKA: podle odhadu je tohle první ze tří scén v posledních 20 s (S70–S72). Dlaždice dalšího videa má 0,33 šířky, kolečko odběru 0,16 — oboje patří do HORNÍ poloviny, protože dole sedí titulek. Ověřit `python tools/zaver_check.py` až bude `work/timing.json`.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž osa, přibude třetí otázka DO I HAVE A REASON, OR DO I WANT TO? ambrově. Horní polovina prázdná.",
+      "pause": 1.8
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Tohle je okamžik, kvůli kterému páteř existuje. Souřadnice musí sedět se S01, S02, S07, S21, S28, S35 a S68 — kdyby se osa během videa posunula, výplata se nepozná a nikdo nebude vědět proč.",
+      "diagram_generator": "osa",
+      "diagram": "VÝPLATA PÁTEŘE: celá osa z S01 na týchž souřadnicích, mezera mezi POCIT a CHECK je konečně popsaná — TEN SECONDS. Kroužek CHECK se poprvé vybarví. Horní polovina prázdná.",
+      "pause": 2.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Poslední scéna a zároveň konec okna závěrečné obrazovky. Žádné tvrzení, o které by divák přišel, kdyby ho dlaždice zakryla. Delší pauza, ať deska chvíli drží.",
+      "diagram_generator": "zaver",
+      "diagram": "Závěrečná deska: dvě věty pod sebou, I DON'T KNOW ambrově a I KNOW, BECAUSE I BELIEVE IT ztlumeně. Klidná, statická, horní polovina i pravý horní roh volné.",
+      "pause": 2.4
+    }
+  ]
+}

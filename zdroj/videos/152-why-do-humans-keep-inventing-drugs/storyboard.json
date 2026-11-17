@@ -1,0 +1,883 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `nalez()`: tři karty nálezů na pevných místech. Svítí jen první: semínka tabáku u ohniště, 12,000+ YEARS AGO · UTAH · TOBACCO SEEDS. Další dvě karty zatím jen tlumené obrysy.",
+      "note": "První obrazovka nese myšlenku (nález, číslo, místo), ne atmosféru. Žádné SDXL na začátku.",
+      "anim": "animace"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Druhá karta: list koky a špetka vápna, 8,000 YEARS AGO · ANDES · COCA LEAVES + LIME.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Třetí karta: džbán s nápojem, 9,000 YEARS AGO · CHINA · RICE, HONEY, FRUIT.",
+      "note": "Pořadí karet je pořadí vyprávění, ne chronologie; letopočty proto na kartách, ne na ose.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Mezi kartami čárkované přepážky, pod nimi NO SHARED LANGUAGE · RELIGION · CONTINENT.",
+      "note": "Přepážky čárkovaně = oddělení, ne hypotéza; v hlavičce _kit.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Pod každou kartou vratná šipka (smyčka) zpět k rostlině: KEPT COMING BACK.",
+      "anim": "animace"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři karty ztlumené, pod nimi dva menší štítky OPIUM · BRONZE AGE MEDITERRANEAN a CANNABIS · CENTRAL ASIA. Nahoře WHEN DID IT START? NOBODY KNOWS.",
+      "note": "Neuvádět jediné datum vzniku (poznámka zdroje).",
+      "pause": 1.2,
+      "anim": "animace"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Velká otázka: WHY DOES EVERY SOCIETY FIND A WAY TO CHANGE ITS OWN MIND?",
+      "pause": 1.0
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `membrana()` + `receptor()` poprvé: vlevo rostlina, uprostřed molekula s výstupkem, vpravo dole membrána nervové buňky se zářezem téhož tvaru. Molekula do zářezu zapadne. WHY DOES IT FIT?",
+      "note": "Páteř zámek–klíč: membrána na MEM_Y, receptor na REC_X; vrací se v S16, S18, S28–S30, S32, S35–S37, S86.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Dvě rostliny: kávovník s bobulemi (DOESN'T CARE IF YOU'RE AWAKE) a tabák (HAS NEVER MET A SMOKER)."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Molekula z S08, nápis NOT MADE FOR US; molekula se otočí do hrotu a vedle ambrově WEAPONS.",
+      "note": "Dílčí výplata kolem 1:00 (pravidlo „začni platit“).",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Rostlina zakořeněná pod čarou země (CAN'T RUN), housenka se plazí k listu, kolem listů ambrový obláček CHEMISTRY.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Pokus: miska s listem, do kterého se přimíchá mletá káva a čajové lístky; housenky. BOSTON · 1984 · COFFEE AND TEA IN THE FOOD.",
+      "note": "Žádná konkrétní dávka v obraze."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Tři housenky s výsledky ATE LESS · TREMBLED · STOPPED GROWING; pod tím ambrově AT HIGHER DOSES: DEAD WITHIN A DAY.",
+      "anim": "animace"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Vlevo tabákové listy → postřikovač → řádek plodin (TOBACCO WATER · FOR CENTURIES), vpravo moderní lahev insekticidu (MODELLED ON NICOTINE)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "zbrane",
+      "diagram": "List koky, na něm brouk; nervová dráha brouka se rozkostrbatí: COCAINE · SCRAMBLES INSECT NERVES.",
+      "note": "„seems to protect“ → v obraze bez větší jistoty, nadpis SEEMS TO PROTECT.",
+      "anim": "animace",
+      "vyzva": true
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "zbrane",
+      "diagram": "PÁTEŘ dvakrát vedle sebe: vlevo INSECT NERVE, vpravo HUMAN NERVE, oba se stejnými zářezy. Mezi nimi = SAME CHEMICALS.",
+      "note": "Dvě membrány na REC2_X, týž tvar receptoru (registr).",
+      "anim": "animace"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Tři štítky DOPAMINE · SEROTONIN · ACETYLCHOLINE nad oběma membránami; pod tím osa HUNDREDS OF MILLIONS OF YEARS.",
+      "note": "„Some of these… hundreds of millions“ — osa bez přesného čísla, bez společného předka (S17 podle zpětné vazby k v0.2).",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Táž molekula zapadne do zářezu hmyzu i člověka: JAMS AN INSECT'S NERVES · OFTEN OURS TOO.",
+      "anim": "animace"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Jedna molekula, tři zvířata (hmyz, pták, člověk) s různě velkými účinky; dole DOSE MATTERS · SO DOES BIOLOGY.",
+      "note": "Ne jen velikost těla (zpětná vazba k v0.1): proto ikony různých druhů, ne jedna zvětšená."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "zbrane",
+      "diagram": "Vlevo list kávovníku, vpravo šálek kávy; mezi nimi = SAME MOLECULE, pod nimi VERY DIFFERENT DOSE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "vcely",
+      "diagram": "Molekula, nápis NOT ONLY WEAPONS; vedle se objeví květ.",
+      "pause": 0.6,
+      "anim": "animace"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "vcely",
+      "diagram": "Květ kávovníku/citrusu, kapka nektaru se zrnkem kofeinu, včela. NOT ENOUGH TO HARM · ENOUGH TO CHANGE.",
+      "note": "Kresba, ne fotka: archiv nemá včelu na květu kávovníku jistě a kresba nese tvrzení (kapka s kofeinem)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "vcely",
+      "diagram": "Dva sloupce: WITHOUT CAFFEINE ×1, WITH CAFFEINE ×3, nadpis REMEMBERED THE SCENT A DAY LATER · 2013.",
+      "note": "Poměr sloupců 1 : 3 se počítá a hlídá assertem.",
+      "anim": "animace"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "vcely",
+      "diagram": "Osa času: rostliny a jejich návštěvníci dávno vlevo, malý člověk až úplně vpravo. LONG BEFORE WE CAME ALONG.",
+      "pause": 2.2
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "vcely",
+      "diagram": "Dvě karty: WHY THEY WORK (fajfka) a WHY WE WANT THEM (otazník, ambrově)."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "vcely",
+      "diagram": "Výstražný trojúhelník POISON = WARNING, k němu šipka z hlavy s otazníkem: WHY GO LOOKING FOR IT?",
+      "pause": 2.4
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "mozek",
+      "diagram": "Obrys hlavy s mozkem jako mapa; tři špendlíky MORPHINE · CANNABIS · NICOTINE. THE DRUGS WERE THE MAP.",
+      "anim": "animace"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "mozek",
+      "diagram": "PÁTEŘ: membrána se zářezem, tři baňky THREE LABS · 1973, klíč MORPHINE zapadne: OPIOID RECEPTOR.",
+      "anim": "animace",
+      "pause": 0.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "mozek",
+      "diagram": "Zámek (receptor) a vedle makovice s otazníkem: A LOCK FOR A POPPY?"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "mozek",
+      "diagram": "Do téhož zářezu zapadne ambrový klíč z mozku: ABERDEEN · 1975 · THE BRAIN'S OWN OPIOIDS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "mozek",
+      "diagram": "Slovo ENDORPHIN rozložené: ENDO(GENOUS) + (M)ORPHINE = THE MORPHINE WITHIN.",
+      "pause": 1.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "mozek",
+      "diagram": "Druhý tvar receptoru: nejdřív klíč CANNABIS, pak 1992 ambrový klíč THE BRAIN'S OWN.",
+      "anim": "animace"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "mozek",
+      "diagram": "ANANDAMIDE ← ĀNANDA · SANSKRIT FOR BLISS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "mozek",
+      "diagram": "NICOTINIC RECEPTORS: ikona svalu (paže) a hlavy, v obou receptor třetího tvaru.",
+      "pause": 1.2
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "mozek",
+      "diagram": "PÁTEŘ: cizí klíč (rostlinný, tlumeně zelený obrys) v zámku, který tam byl; ALREADY THERE · HIJACKED.",
+      "anim": "animace"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "mozek",
+      "diagram": "Tečky TIREDNESS SIGNAL se hromadí, čím déle jsi vzhůru (hodiny); kofein ucpe zářez: BLOCKED.",
+      "note": "Bez jména adenosin, scénář ho nejmenuje.",
+      "anim": "animace"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "mozek",
+      "diagram": "Dva skoro stejné klíče: messenger ATTENTION a NICOTINE · IMITATES.",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "mozek",
+      "diagram": "Synapse: dopaminové tečky, zpětná pumpa (CLEARING) přeškrtnutá klíčem COCAINE, tečky zůstávají: KEEPS WORKING.",
+      "note": "Kreslí, jak to funguje: zpětné vychytávání, ne uvolňování (kontrolovat podle `docs` — funkční nákres).",
+      "anim": "animace"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "mozek",
+      "diagram": "Nápis THE PLEASURE CHEMICAL přeškrtnutý (text_skrtnuty), pod ním IT ISN'T, REALLY."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "mozek",
+      "diagram": "Dopamin jako učitel: smyčka ACTION → DOPAMINE → WORTH DOING AGAIN.",
+      "note": "Smyčka `smycka()` se vrací v S41 a S87.",
+      "pause": 0.5
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "mozek",
+      "diagram": "Táž smyčka, látka zatlačí na DOPAMINE a smyčka zesílí: WORTH REPEATING.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "alkohol",
+      "diagram": "Štít EVOLUTION a otazník: WHY DIDN'T IT PROTECT US?",
+      "pause": 0.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "alkohol",
+      "diagram": "Štít se otočí: WITH ONE SUBSTANCE · THE OPPOSITE.",
+      "anim": "animace"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "alkohol",
+      "diagram": "Osa ~10 MILLION YEARS AGO, řetězec DNA s jediným ambrovým písmenem: ONE MUTATION · ALCOHOL-BREAKING GENE.",
+      "anim": "animace"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "alkohol",
+      "diagram": "Dva sloupce BEFORE ×1 a AFTER ~×40 (poměr hlídá assert): BETTER AT BREAKING DOWN ALCOHOL.",
+      "anim": "animace"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "alkohol",
+      "diagram": "Strom, pod ním zem; zralé ovoce padá a kvasí (bublinky). MORE TIME ON THE GROUND.",
+      "anim": "animace"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "alkohol",
+      "diagram": "Kvašené ovoce → ADVANTAGE? (čárkovaně = hypotéza, „may have“), vpravo daleko osa BREWING · MILLIONS OF YEARS LATER.",
+      "note": "Míra jistoty: čárkovaně, s otazníkem.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "zavislost",
+      "diagram": "Řada deseti postav, ne všechny jsou ambrové: NOT EVERYONE GETS CAUGHT."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "zavislost",
+      "diagram": "Karta průzkumu: US SURVEY · EARLY 1990s · TRIED IT → BECAME DEPENDENT."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "zavislost",
+      "diagram": "Sloupce CANNABIS 9 % · ALCOHOL 15 % · HEROIN 23 %, výšky z čísel (assert).",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "zavislost",
+      "diagram": "Přibude čtvrtý, nejvyšší sloupec TOBACCO · NEARLY 1/3 (32 %), ambrově.",
+      "note": "Číslo 32 % z factchecku (31,9 %).",
+      "anim": "animace"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "zavislost",
+      "diagram": "Riziko = SUBSTANCE + PERSON; pod osobou GENES · MENTAL HEALTH · STRESS · HOW OFTEN.",
+      "pause": 2.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "kultura",
+      "diagram": "Dílek skládačky CHEMISTRY a prázdné místo vedle: NOT THE WHOLE STORY.",
+      "pause": 0.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "kultura",
+      "diagram": "Šálek kávy: MOST WIDELY USED DRUG ON EARTH, dole přeškrtnuté FOR THE THRILL."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "kultura",
+      "diagram": "Tři ikony: slunce GET THROUGH A MORNING, měsíc NIGHT SHIFT, rovná čára TO FEEL NORMAL.",
+      "vycet": 0.3,
+      "anim": "animace"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "kultura",
+      "diagram": "NOT CHASING A HIGH (tlumeně) → GETTING AWAY FROM: PAIN · FEAR · EXHAUSTION · A MEMORY.",
+      "vycet": 0.3,
+      "pause": 2.2,
+      "anim": "animace"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "kultura",
+      "diagram": "Obřadní oheň s kouřem a kruh tlumených siluet bez tváří: CEREMONY · CONTACT WITH THE SACRED.",
+      "note": "Siluety, žádní lidé pod vlivem."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "kultura",
+      "diagram": "Dvě sklenice přiťukávají: A WEDDING; dvě postavy se spojí: STRANGERS → FRIENDS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "kultura",
+      "diagram": "Váhy ACCEPTED / BANNED, uprostřed nápis NOT DECIDED BY CHEMISTRY.",
+      "pause": 1.6
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "kultura",
+      "diagram": "PÁTEŘ `osa_zakazu()`: osa 1400–1700; šálek a měsíc SUFI · YEMEN · 15TH CENTURY.",
+      "note": "Osa na pevných souřadnicích S60–S63."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "kultura",
+      "diagram": "Na ose razítko 1511 · MECCA · BANNED, pak přeškrtnuté DIDN'T LAST.",
+      "anim": "animace"
+    },
+    {
+      "id": "S62",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S62.png",
+      "note": "PICK 0 vybrán z výpisu --search (PD); ověřit na kontaktním listu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "coffee house 17th century",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9,
+          "vignette": false
+        }
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "kultura",
+      "diagram": "Na ose 17TH CENTURY · SEVILLE · TOBACCO IN CHURCH → EXCOMMUNICATION (bez letopočtu, viz factcheck)."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "kultura",
+      "diagram": "TODAY: šálek = BREAKFAST, tabák = PETROL STATION; malý sloupec z S51 TOBACCO 32 % > HEROIN 23 %.",
+      "note": "Callback na S51 sloupce, tytéž barvy.",
+      "pause": 2.4
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "chemie",
+      "diagram": "Tři ikony z rostliny: CHEWED THE LEAF · DRANK THE BREW · SMOKED THE DRIED FLOWER.",
+      "vycet": 0.3,
+      "anim": "animace"
+    },
+    {
+      "id": "S66",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "PICK 0 vybrán z výpisu --search (PD); ověřit na kontaktním listu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Sertürner",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "chemie",
+      "diagram": "MORPHEUS · GOD OF DREAMS → MORPHINE."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "chemie",
+      "diagram": "Kapka opia (směs teček) → lahvička s čistou látkou a stupnicí: ISOLATED · PURIFIED · MEASURED.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "chemie",
+      "diagram": "Dvě šipky vzhůru: MEDICINE a RISK.",
+      "pause": 1.6
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "chemie",
+      "diagram": "List koky <1 % vs. čistý kokain ×100 (sloupce, poměr assert). AROUND 1860.",
+      "anim": "animace"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "chemie",
+      "diagram": "Kalendář AUGUST 1897, dva zakroužkované dny 10 a 21: 11 DAYS APART, dvě lahvičky.",
+      "note": "Data z factchecku (10. a 21. 8. 1897).",
+      "anim": "animace"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "chemie",
+      "diagram": "Lahvička 1 ASPIRIN, lahvička 2 HEROIN (ambrově)."
+    },
+    {
+      "id": "S72b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S72b.png",
+      "note": "PICK 0 vybrán z výpisu --search (PD); ověřit na kontaktním listu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Bayer Heroin bottle",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9,
+          "vignette": false
+        }
+      },
+      "pause": 2.2
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "chemie",
+      "diagram": "Šestiúhelníková molekula: kousek se vymění za nový tvar: BEYOND EXTRACTION · NO PLANT HAD MADE.",
+      "anim": "animace"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "chemie",
+      "diagram": "Tři karty ANAESTHETICS · ANTIDEPRESSANTS · PAINKILLERS FAR STRONGER THAN MORPHINE.",
+      "vycet": 0.3,
+      "anim": "animace"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "chemie",
+      "diagram": "NEW ≠ MORE DANGEROUS; pod tím WHAT IT DOES · HOW MUCH · HOW.",
+      "note": "Poznámka zdroje: syntetické ≠ automaticky nebezpečnější.",
+      "pause": 1.4
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "chemie",
+      "diagram": "Zákon (list) se jménem zakázané molekuly; vedle stejná molekula s jedním vyměněným dílkem: LEGALLY DOESN'T EXIST YET.",
+      "note": "Klička jen obecně, žádná konkrétní látka.",
+      "anim": "animace"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "chemie",
+      "diagram": "Mřížka 1 000 teček, 47 ambrových: EU DRUGS AGENCY · END OF 2024 · 1,000+ MONITORED · 47 NEW.",
+      "note": "Počty hlídá assert.",
+      "anim": "animace",
+      "pause": 0.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "chemie",
+      "diagram": "Smyčka BAN → NEW ONE APPEARS, pomalá šipka STUDY zaostává.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "zaver",
+      "diagram": "Šipka se otočí: WHAT NATURE CONTAINS → WHAT WE WANT OUR BRAINS TO DO.",
+      "anim": "animace"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "zaver",
+      "diagram": "Houba a recept: AUSTRALIA · SINCE 2023 · AUTHORISED PSYCHIATRISTS · PSILOCYBIN · TREATMENT-RESISTANT DEPRESSION."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "zaver",
+      "diagram": "Tři lahvičky s pilulkami: SLEEP · FOCUS · LESS AFRAID."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "zaver",
+      "diagram": "Táž molekula uprostřed; vlevo MEDICINE (pacient), vpravo ILLEGAL DRUG (POSSESSED OR SOLD UNLAWFULLY).",
+      "pause": 1.2
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ čára: DRUG · MEDICINE · MORNING COFFEE, svislá ambrová čára se nakreslí a posune: WE DRAW IT · AND MOVE IT.",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "zaver",
+      "diagram": "Titul: WHY DO HUMANS KEEP INVENTING DRUGS?",
+      "pause": 1.2
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "zaver",
+      "diagram": "PARTLY, WE DON'T: rostlina a molekula-hrot z S10 míří na hmyz.",
+      "note": "Callback S10."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ: dvě membrány z S16, SAME ANCIENT PARTS.",
+      "pause": 0.4
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "diagram_generator": "zaver",
+      "diagram": "Smyčka z S40: WORTH REPEATING."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "diagram_generator": "zaver",
+      "diagram": "Tři malé ikony COFFEE HOUSES · CEREMONIES · LABORATORIES, pod nimi A CURIOUS SPECIES.",
+      "pause": 2.0
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina prázdná. Dole: THE WORLD IS FULL OF CHEMICALS THAT CHANGE WHAT IT FEELS LIKE TO BE HUMAN.",
+      "note": "Posledních 20 s: S89–S91, nic nad y 640.",
+      "pause": 0.5
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina prázdná. Dole HARD TO STOP LOOKING.",
+      "pause": 1.6
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina prázdná. Dole IF A PILL HAD NO SIDE EFFECTS AT ALL, WOULD IT STILL BE A DRUG? a menší LET ME KNOW IN THE COMMENTS.",
+      "note": "Otázka do komentářů, klidná deska."
+    }
+  ]
+}

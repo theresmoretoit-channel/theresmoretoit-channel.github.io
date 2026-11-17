@@ -1,0 +1,713 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "JEDINÁ atmosférická scéna úvodu — páteř se zavádí až v S02, ať má hook dech.\nDRUHÉ KOLO (5. 9. 2026). První kolo dalo obří halu s regály ustupujícími ke světlu, tedy PRAKTICKY TÝŽ ZÁBĚR JAKO S37 — a ta je jen o čtyři minuty dál, takže by to divák přečetl jako opakování. Vina byla v promptu: obě scény měly 'shelves receding'. Zamítnuté kolo leží ve scratchpadu.\nNový prompt je ZÁMĚRNĚ TĚSNÝ: hook má nést JEDEN zapomenutý předmět, ne prostor. Zapsaný `seed`, protože samotné --force dá tutéž kompozici.",
+      "prompt": "a single dusty shellac record lying flat on a bare wooden table, close view from above, thick dust and a few scratches, one empty paper sleeve beside it, plain dark surroundings falling away into shadow, flat grey overcast light, no sun, no text",
+      "seed": 771244
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "ZAVEDENÍ PÁTEŘE. Police leží na pevném y a od téhle scény se NIKDY nehne. Blok je vlevo, tedy ve staré části osy — divák si má hned spojit vlevo = staré. Škrtá se přes NÁPIS vodorovnou čarou (skrt_text), ne křížkem.",
+      "diagram_generator": "police",
+      "diagram": "POLICE se zavádí: vodorovná čára na pevném y, na ní jediný blok díla vlevo s popiskem RECORDING, 1950. Nad ním tři ztlumené popisky, které postupně blednou: SELLER, LABEL, MUSICIAN — všechny přeškrtnuté vodorovným škrtem přes text."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Tady se poprvé ukáže mez, a hned v tom absurdním stavu: dílo z roku 1950 leží napravo od meze, tedy pořád zamčené. Celý paradox videa je v jednom obraze. MEZ SE KRESLÍ VÝHRADNĚ přes mez() — kdyby se posunula o pixel jinam než záměrně, výplata v závěru se nepozná.",
+      "diagram_generator": "police",
+      "diagram": "Táž police a týž blok. Zprava přijíždí svislá MEZ a zastaví se NALEVO od bloku, takže blok zůstane v zamčené části. Nad blokem malý výřez TEN SECONDS."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Ambrová = to, o čem je řeč, ne „to špatné\". Třetí důvod svítí, protože je to ten platný, ne protože by byl horší.",
+      "diagram_generator": "police",
+      "diagram": "Tři důvody vedle sebe, dva přeškrtnuté: IT IS SECRET (škrt), SOMEBODY IS USING IT (škrt), SOMEBODY MAY OWN IT (ambrová, nepřeškrtnutá)."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "První výskyt stavu mezi „NEVÍME, KDO JI OVLÁDÁ\". Vrátí se u osiřelých děl (S40–S43). Čárkovaná = nejasné, NE „hypotéza\" — v tomhle videu není osa doloženo/nedoloženo, takže se čárkovaná používá jen na nejistotu. Zapsáno v hlavičce _kit.py.",
+      "diagram_generator": "police",
+      "diagram": "Nad blokem prázdný rámeček vlastníka s velkým otazníkem uprostřed. Od rámečku vede čárkovaná čára dolů k bloku — spojení existuje, ale neví se, kam vede.",
+      "pause": 1.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Konec hooku. Police i mez zůstávají na obraze, ale prázdné — divák si má zapamatovat TVAR, ne obsah. Delší pauza, ať otázka visí.",
+      "diagram_generator": "police",
+      "diagram": "Prázdná police, mez uprostřed, nad tím otázka na dva řádky: CAN COPYRIGHT GET IN THE WAY OF THE THING IT WAS BUILT TO ENCOURAGE?",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Obrat scénáře: teď hájíme copyright. Vizuálně to musí být TÁŽ police — jinak by to vypadalo jako jiné téma. Blok napravo od meze je poprvé v pořádku.",
+      "diagram_generator": "smlouva",
+      "diagram": "Nadpis COPYRIGHT IS NOT A STUPID IDEA, pod ním police s jedním novým blokem vpravo, tedy v chráněné části. Mez je na svém místě a blok je za ní právem."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "POZOR NA SMĚR ŠIPKY. Podmět věty je ten, kdo kopíruje; oběť je autor. Šipka proto míří OD kopií K autorovi a je přeškrtnutá (nic mu nepřijde), ne od autora ke kopiím. Je to přesně ta past „diagram může tvrdit opak popisku\".",
+      "diagram_generator": "smlouva",
+      "diagram": "Vlevo autor u stolu (postava) a nad ním tři roky jako tři dílky. Vpravo tiskárna chrlící stoh kopií, pod ním cenovka HALF THE PRICE. Mezi nimi ambrová šipka od stohu ZPĚT k autorovi, přeškrtnutá — peníze se nevrací."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Plný tvar = existuje, čárkovaný obrys = neexistuje. Druhá konvence videa, zavádí se tady.",
+      "diagram_generator": "smlouva",
+      "diagram": "Dva sloupce: YOU DID THE WORK s plným dílkem práce, THEY DID NOT s prázdným obrysem."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Tady mez dostane jméno. Do téhle scény byla jen čára, od téhle scény je to model. Legendu potřebuje každý abstraktní tvar — divák jinak nečte nic.",
+      "diagram_generator": "smlouva",
+      "diagram": "Police s blokem, nad ním časová šipka zleva doprava rozdělená na dva úseky: TEMPORARY MONOPOLY (ambrový) a EVERYBODY (ztlumený). Mez stojí na jejich rozhraní a je poprvé POPSANÁ: vlevo FREE TO BUILD ON, vpravo PROTECTED."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Škrtá se NÁPIS, tedy skrt_text, ne křížek. A škrtá se celá věta, protože neplatí celá — kdyby se škrtlo jen FOREVER, tvrdilo by to něco jiného.",
+      "diagram_generator": "smlouva",
+      "diagram": "Táž police. Nápis THE CREATOR OWNS THIS FOREVER přeškrtnutý vodorovnou čarou přes text, pod ním ambrově A TRADE.",
+      "pause": 1.2
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Jednovětá scéna a druhá branka videa (~1:10). Šipka je bez čísel schválně — otázka se teprve klade. Pauza KRÁTKÁ, je to nádech, ne předěl.",
+      "diagram_generator": "doba",
+      "diagram": "Prázdná police, mez uprostřed a nad ní jediná otázka: HOW LONG IS TEMPORARY? Pod mezí obousměrná šipka bez stupnice.",
+      "pause": 1.2
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Slovo FLOOR musí být v obraze, ne jen v hlase: celá pointa S14 stojí na tom, že je to spodní mez, ne strop. Bez toho by S14 vypadala jako oprava, ne jako navýšení.",
+      "diagram_generator": "doba",
+      "diagram": "Časová osa pod policí. Od bodu úmrtí autora ambrový úsek dlouhý PLUS FIFTY YEARS, popisek BERNE CONVENTION — THE FLOOR. Pod úsekem slovo MINIMUM."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Původní délka MUSÍ zůstat vidět jako obrys, jinak divák nepozná, že se něco prodloužilo. Mez se hýbe poprvé — a je to poprvé, kdy její pohyb něco tvrdí.",
+      "diagram_generator": "doba",
+      "diagram": "Týž základ, ambrový úsek se prodlouží na PLUS SEVENTY YEARS a mez se posune doprava. Vlevo tři popisky států: BRITAIN, EUROPEAN UNION, UNITED STATES. Původní padesátiletý úsek zůstává jako ztlumený obrys pod tím novým."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "První tvrdý úder videa. Sčítání musí být VIDĚT jako sčítání dvou úseků, ne jako hotové číslo — jinak si divák neověří, odkud se vzalo. Assert v generátoru hlídá 60+70=130.",
+      "diagram_generator": "doba",
+      "diagram": "Vodorovný pás života autora: značka AGE 25 (vznik díla) a AGE 85 (úmrtí), mezi nimi 60 YEARS. Za úmrtím navazuje ambrových PLUS 70. Celé pod sebou sečteno do jednoho pruhu s velkým popiskem 130 YEARS.",
+      "pause": 1.4
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "VYBRÁNO Z KONTAKTNÍHO LISTU (6 kandidátů), ne od stolu. File:Mickey Mouse - Steamboat Willie (1928).jpg, 1000x871, Walt Disney / Ub Iwerks, public domain, copyrighted=False. Mickey u kormidla, bez textu v obraze.\nPROČ NE OSTATNÍ: [0] Earlypete je Pete, ne Mickey — scéna mluví o prvním MICKEY MOUSE kresleném filmu. [2] mezititulek nese nápis COPYRIGHT MCMXXIX, tedy 1929, kdežto scénář říká nineteen twenty-eight — obraz by odporoval hlasu. [3] je táž scéna v 432x360 a je to výřez použitý ve studiovém logu. [4] je bhútánská známka z roku 1989 s (c) 1984 Disney, tedy moderní chráněný design. [5] je Minnie v 450x396.\nGRADE ZLEHČENÝ (tint 0, bez viněty): výchozí archive_grade by z kresleného filmu udělal starou fotografii. FIT, ne výplň — ořez na 16:9 by uřízl Mickeymu hlavu a nohy.\nPOZOR: Commons u VŠECH snímků Steamboat Willie hlásí restrictions=trademarked. Autorské právo vypršelo, ochranná známka ne — do NÁHLEDU ani do brandingu kanálu to nesmí, stejně jako logo NASA.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Mickey Mouse - Steamboat Willie (1928)",
+        "pick": 1,
+        "grade": {
+          "fit": 0.86,
+          "saturation": 100,
+          "tint_amount": 0,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Jednovětý beat na konci bloku o době. Kokoro na konci promluvy klesá, takže důraz musí nést OBRAZ a pauza — v hlase nebude. Největší pauza první poloviny.",
+      "diagram_generator": "doba",
+      "diagram": "Police, na ní blok STEAMBOAT WILLIE úplně vlevo, tedy nejstarší. Nad ním jediný velký nápis NINETY-FIVE YEARS a čárkovaná čekací dráha od 1928 k mezi.",
+      "pause": 2.6
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Most mezi blokem o době a tezí videa. Prázdná police se ztlumenými obrysy říká „a teď se podíváme, co na ní vlastně stojí\".",
+      "diagram_generator": "stavba",
+      "diagram": "Přechodová scéna: mez zůstane, police se vyprázdní a zleva začnou nabíhat ztlumené obrysy budoucích bloků."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Uživatel si tuhle scénu vyžádal jmenovitě. Musí být vidět, že novější blok se O TEN STARŠÍ OPÍRÁ — ne že jen stojí vedle. Bez překryvu je to jen řada, ne stavba. Žádná šipka: šipka by tvrdila nevyhnutelnost, a scénář říká jen „takhle to chodí\".",
+      "diagram_generator": "stavba",
+      "diagram": "TEZE VIDEA. Na polici čtyři bloky vedle sebe zleva doprava, každý o patro výš než předchozí, takže vzniká schodiště. Nad každým krokem popisek: DISCOVERS, STUDIES, IMPROVES, BUILDS ON. Každý blok stojí ČÁSTEČNĚ na tom předchozím."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Konflikt videa v jednom obraze, a proto sem patří delší pauza. Šipka se LÁME o mez, nekříží ji — kdyby ji křížila, tvrdil by obraz, že to jde. Chybějící blok je čárkovaný obrys podle konvence ze S09.",
+      "diagram_generator": "stavba",
+      "diagram": "Táž věž. Nahoře nový blok, který se chce opřít o blok NAPRAVO od meze — čárkovaný obrys na místě, kam by patřil, a ambrová šipka k němu narazí do meze a zlomí se. Vlevo popisek WE WANT TO ENCOURAGE CREATION, vpravo LET ME USE WHAT EXISTS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Přechod k hudbě: dosud byl blok atom, teď se ukáže, že není. Popisky až v S22, ať se rozpad přečte dřív než výčet.",
+      "diagram_generator": "hudba",
+      "diagram": "Jeden blok díla se rozpadne na pět vrstev nad sebou, zatím bez popisků."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Šest položek na jednu scénu je hodně, ale je to výčet a divák ho čte, ne studuje. Text sázet přes text_do(), ať se dlouhé ARRANGEMENT nevejde jen tak tak.",
+      "diagram_generator": "hudba",
+      "diagram": "Pět vrstev s popisky: COMPOSITION, LYRICS, ARRANGEMENT, RECORDING, PERFORMANCE, a šestá ztlumená SAMPLED FROM ELSEWHERE."
+    },
+    {
+      "id": "S22b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22b.png",
+      "note": "Pointa scény je POČET vlastníků, ne jejich jména — rámečky proto zůstanou prázdné. Kdyby v nich byla jména, video by tvrdilo, kdo to je.",
+      "diagram_generator": "hudba",
+      "diagram": "Táž pětice, ale ke každé vrstvě vede čára k jinému malému rámečku vlastníka. Šest rámečků, žádné dva stejné."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Tři transformace v řadě, ne tři scény — jsou to varianty jedné věci. Proužek musí zůstat vizuálně TÝŽ objekt, jinak se ztratí, že jde pořád o ty dvě vteřiny.",
+      "diagram_generator": "hudba",
+      "diagram": "Vlevo blok OLD RECORDING, z něj se odkrojí úzký proužek TWO SECONDS. Proužek pak projde třemi kroky: roztažený (slow down), rozsekaný na kousky (cut up), položený pod nový tlustý pruh (new beat)."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Proužek musí být pořád ROZPOZNATELNÝ, jen slabý — to je celé tvrzení scény. Kdyby zmizel úplně, obraz by řekl, že už tam nic není, a scénář říká opak.",
+      "diagram_generator": "hudba",
+      "diagram": "Nový blok NEW WORK, uvnitř kterého je původní proužek už jen tence naznačený. Nad blokem ambrový nápis LEGALLY, IT MAY STILL COUNT."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Sloupce mají strop, ale NEMAJÍ stupnici a nemají čísla — scénář žádná neuvádí. Tečky jsou hustota, ne počet; generátor je sype algoritmicky a nesmí u nich stát číslo. Scéna je 13,2 s, tedy nejdelší ve videu — kdyby v draftu vlekla, dělí se před „With millions of songs\".",
+      "diagram_generator": "hudba",
+      "diagram": "Vlevo tři vyčerpatelné zásoby jako krátké sloupce s pevným stropem: NOTES, CHORD PROGRESSIONS, RHYTHMS. Vpravo obrovské pole drobných teček = MILLIONS OF SONGS. Dole ambrově RESEMBLANCE IS ARITHMETIC."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Jediná scéna videa s částkou. Stopy musí být vizuálně ROZDÍLNÉ, protože příští scéna říká, že se lišily — kdyby vypadaly stejně, S27 by popírala obraz.",
+      "diagram_generator": "hudba",
+      "diagram": "Dvě zvukové stopy vedle sebe, mezi nimi soudní verdikt jako rámeček s částkou OVER FIVE MILLION DOLLARS a letopočtem 2018."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "MÍRA JISTOTY JE TU CELÁ POINTA. Je to NÁZOR DISENTU, ne rozhodnutí soudu — proto bublina s výslovným popiskem THE DISSENT a čárkovaný obrys. Většina to výslovně popřela (viz factcheck.md), takže obraz nesmí tvrdit, že se to stalo. OSM SHOD ZE ZNALECKÉHO POSUDKU patří sem jako osm drobných značek mezi stopami — rozhodl uživatel: je to doklad, který unese obraz a hlas ne.",
+      "diagram_generator": "hudba",
+      "diagram": "Tři řádky rozdílů mezi stopami: MELODY, HARMONY, RHYTHM, u každého značka „liší se\". Vpravo bublina s popiskem THE DISSENT a v ní varování COPYRIGHT A MUSICAL STYLE. Bublina je čárkovaná."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Druhý stav mezi: NEJASNÁ. Je to vlastní otázka videa, ne názor disentu, takže je sázená jako nadpis, ne do bubliny.",
+      "diagram_generator": "hudba",
+      "diagram": "Mez je poprvé ROZOSTŘENÁ — místo ostré čáry široký neurčitý pás. Nad ním otázka WHAT WAS ACTUALLY COPIED?"
+    },
+    {
+      "id": "S28b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28b.png",
+      "note": "Poloha odpovědí vůči mezi NESE VÝZNAM: „patří to všem\" leží ve volné části, zbytek v chráněné. Divák tím dostane odpověď na otázku ze S28, aniž by ji hlas vyslovil. Konec hudebního bloku.",
+      "diagram_generator": "hudba",
+      "diagram": "Čtyři možnosti pod rozostřenou mezí: A MELODY? A RHYTHM? A PROTECTED MUSICAL EXPRESSION? OR SOMETHING THAT BELONGS TO EVERYBODY? Poslední je ambrová a leží vlevo od meze, ostatní tři vpravo.",
+      "pause": 2.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Přímý callback na S19 — MUSÍ mít shodné rozvržení, jinak se souvislost nepozná (CLAUDE.md: callback přes desítky scén pozná jen shodné rozvržení). Ambrový je jen ten nejvyšší blok, protože o něm je řeč; spodní vrstvy nejsou horší.",
+      "diagram_generator": "software",
+      "diagram": "Věž ze S19, ale postavená z pojmenovaných vrstev: LIBRARIES, FRAMEWORKS, OPERATING SYSTEMS, PROTOCOLS, a úplně nahoře úzký ambrový blok YOUR PROGRAM."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Nová krabička musí mít JINÝ TVAR než původní. Kdyby vypadala stejně, obraz by řekl „zkopíroval\", což je přesně to, co scénář popírá.",
+      "diagram_generator": "software",
+      "diagram": "Vlevo uzavřená krabička zařízení. Vpravo táž krabička rozložená na součástky s popiskem HOW IT WORKS. Úplně vpravo nová krabička, jiného tvaru, sestavená z pochopení, ne z dílů."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Rozdíl mezi znalostí a produktem je celá scéna. Škrtnutá šipka je přeškrtnutá křížkem (je to plocha, ne nápis).",
+      "diagram_generator": "software",
+      "diagram": "Dvě šipky ze staré krabičky: silná ambrová vede KNOWLEDGE k nové krabičce, tenká přeškrtnutá vede THE PRODUCT."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Třetí stav mezi: POVOLENÝ PŘECHOD. Šipka mez KŘÍŽÍ, na rozdíl od S20, kde se lámala — to je celý rozdíl mezi „nesmíš\" a „smíš, protože jinak to nejde\".",
+      "diagram_generator": "software",
+      "diagram": "Mez, a přes ni poprvé POVOLENÝ PŘECHOD: ambrová šipka mezí prochází a u průsečíku je značka fajfky s popiskem FAIR USE, 1992. Pod mezí popisek TO UNDERSTAND IT."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Podmínka holdingu, ne ozdoba: soud řekl fair use PROTOŽE jiná cesta nebyla. Kdyby obraz nabídl i druhou průchozí cestu, tvrdil by víc než soud.",
+      "diagram_generator": "software",
+      "diagram": "Dvě cesty k téže krabičce: horní je přeškrtnutá a popsaná ANOTHER WAY IN, dolní vede skrz mez a je jediná průchozí."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Proužek musí být opravdu tenký — poměr nese příští scéna a divák si ho má všimnout dřív, než ho uslyší.",
+      "diagram_generator": "software",
+      "diagram": "Velký blok THE WHOLE SYSTEM a v něm úplně nahoře tenoučký ambrový proužek s popiskem ELEVEN THOUSAND FIVE HUNDRED LINES. Vedle letopočet 2021 a SUPREME COURT."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "ASSERT: mřížka musí mít přesně 1000 dílků a 4 svítící, jinak obraz tvrdí jiné číslo než hlas. Přesně ten případ, na který docs chtějí assert.",
+      "diagram_generator": "software",
+      "diagram": "Táž kompozice, k proužku připsáno FOUR TENTHS OF ONE PER CENT. Vedle mřížka 1000 dílků, z nichž jsou čtyři ambrové."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Konec softwarového bloku. Skóre je v obraze, protože je to konkrétní a hlas ho řekne jen jednou. Postava přes mez = přenesená znalost, ne přenesený produkt.",
+      "diagram_generator": "software",
+      "diagram": "Mez s průchodem, jímž prochází postava programátora a nese si s sebou malý balík WHAT THEY ALREADY KNEW. U meze skóre SIX TO TWO.",
+      "pause": 2.2
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S37.png",
+      "note": "Předěl mezi softwarem a osiřelými díly. Zoom ven otevírá svět, jak to má docs — z jednoho případu se jde do celého skladiště.",
+      "prompt": "a long corridor of tall archive shelves stretching away into darkness, boxes of unlabelled documents, one small figure standing at the far end looking up, cold flat overcast light, no sun, no text"
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "VYBRÁNO Z KONTAKTNÍHO LISTU (4 kandidáti), ne od stolu. File:Elvira Donnarumma at her home (1930), by an unknown photographer.jpg, 1410x1056, autor UNKNOWN PHOTOGRAPHER, datováno 1930.\nPROČ PRÁVĚ TAHLE: licenční šablona je PD-anon-70-EU, tedy volné dílo PRÁVĚ PROTO, že je autor anonymní a uplynulo sedmdesát let. Scéna mluví o snímku, u kterého se nedá dohledat vlastník — a tenhle soubor je osiřelé dílo i jeho rozuzlení naráz. Argument nese sama licence, ne jen motiv.\nPROČ NE OSTATNÍ: [1] má ZNÁMÉHO autora (B. S. Virk) a vodoznak Panjab Digital Library, takže osiřelé dílo nedokládá. [2] má jen 526x800 a je datovaný 1930-40s. [3] (sovětská loterie 1930) má nejlepší rozlišení 2184x1390 a taky neznámého autora, ale nese v obraze azbukový billboard — přitáhl by téma Sovětského svazu, o kterém scénář nemluví. Je to záložní volba.\nBEZ ZOOMU: je na ní obličej a na portrét zoom nepatří. Grade se NEZLEHČUJE — tady má vypadat jako stará fotografie, protože o to ve scéně jde.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Elvira Donnarumma unknown photographer 1930",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88,
+          "saturation": 60,
+          "tint_amount": 14,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Doslovný callback na S05, a proto musí mít SHODNÉ rozvržení. Tam to byl háček úvodu, tady je to pojmenovaný problém.",
+      "diagram_generator": "osirela",
+      "diagram": "Blok díla na polici, nad ním prázdný rámeček vlastníka s otazníkem — TÝŽ tvar jako v S05. Od rámečku vede přeškrtnutá šipka ASK PERMISSION do prázdna."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Ambrová jde na RIZIKO, protože o něm je řeč — ne proto, že by bylo nejhorší. První dvě jsou plné podle konvence „plný tvar = existuje\".",
+      "diagram_generator": "osirela",
+      "diagram": "Blok s popiskem ORPHAN WORK. Kolem něj čtyři konstatování: IT EXISTS (plné), IT HAS VALUE (plné), NOBODY IS EARNING (ztlumené), USING IT IS A RISK (ambrové)."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Předobraz PRŮCHODU, který se naplno otevře až v S50. Tady jsou dvířka zavřená — průchod formálně existuje, ale je podmíněný. Termín DILIGENT SEARCH je doslovný z právního textu a musí být v obraze.",
+      "diagram_generator": "osirela",
+      "diagram": "Mez s malými dvířky, na nichž visí zámek s popiskem DILIGENT SEARCH. Vedle letopočet 2012 a EUROPE. Dvířka jsou zavřená."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Naklonění je tvrzení a scénář ho unese: cena za užití je vyšší než to užití. Použít vahy() z _kit.py — je to zděděný tvar a nemá se kreslit znovu.",
+      "diagram_generator": "osirela",
+      "diagram": "Váhy: na jedné misce drobný blok díla, na druhé podstatně větší stoh papírů s popiskem PROVING YOU LOOKED. Váhy se naklánějí k papírům."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Konec bloku o osiřelých dílech a zároveň spojení s tezí ze S19: nepostavené věže jsou čárkované obrysy podle konvence ze S09. Škoda je v tom, co nevzniklo.",
+      "diagram_generator": "osirela",
+      "diagram": "Police, na ní blok, který zůstal na místě. Kolem něj ztlumené obrysy věží, které se na něm nepostavily. Dole NOBODY KNOWS WHO IS ALLOWED TO SAY YES.",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Čárkovaná mez = nejistota, jestli tu má být. Používá se týž stav jako u nejasné hranice v hudbě, protože jde o totéž: nevíme, kde má být.",
+      "diagram_generator": "zrusit",
+      "diagram": "Prázdná police a nad ní jediná otázka SO SHOULD WE SIMPLY ABOLISH COPYRIGHT? Mez je nakreslená čárkovaně, jako by měla zmizet."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "TÁŽ kompozice jako S44 — proto je to odpověď, ne nová scéna.\nNAVETI (5. 9. 2026): divák nahlásil artefakt za slovem „not\". Změřeno — whisper přepsal promluvu jako „Probably not TO.\", tedy slabika navíc 340 ms na úrovni řeči. Není to tichá schwa v ocasu (ten má jen 160 ms na −22 dB), ale artefakt KRÁTKÉ SAMOSTATNÉ PROMLUVY, táž třída jako „wellssnou\" u patnáctého videa.\nObětovaná věta tu NEFUNGUJE: v promluvě 1,28 s se nenajde kde řezat a pojistka ji odmítne („konec scény by padl do posledního slova\"). Vyzkoušeno, whisper dál slyšel „to\".\nNávětí je SKUTEČNÝ TEXT S44, protože „Probably not.\" je gramaticky odpověď na tu otázku — dostane tím i správnou intonaci odpovědi, ne izolovaného tvrzení. Naměřeno: whisper slyší čisté „Probably | not.\", ticho před prvním slovem 140 ms.",
+      "diagram_generator": "zrusit",
+      "diagram": "Táž kompozice, přes otázku ambrové PROBABLY NOT.",
+      "pause": 1.4,
+      "naveti": "So should we simply abolish copyright?"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Kopie musí být vizuálně NEROZLIŠITELNÁ od originálu, jen tenčí — to je rozdíl proti S30, kde nová krabička měla jiný tvar. Tady jde o identickou kopii, tam o pochopení.",
+      "diagram_generator": "zrusit",
+      "diagram": "Velký blok stavěný zdola: pod ním tisíc drobných postav a vedle pruh let. Popisek A HUNDRED MILLION DOLLARS. Vpravo tenká dokonalá kopie za almost nothing."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Následek, ne morální soud: bez důvodu stavět se to nepostaví. Rozpad na obrysy je táž konvence jako v S43 — a je to schválně, protože je to táž ztráta, jen z opačné strany.",
+      "diagram_generator": "zrusit",
+      "diagram": "Šipka INCENTIVE mířící zdola do velkého bloku, přeškrtnutá. Blok se rozpadá na čárkované obrysy."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Scénář říká „moves it somewhere else\", ne „je to hloupost\". Obraz proto přesouvá, neškrtá.",
+      "diagram_generator": "zrusit",
+      "diagram": "Nápis EVERYTHING SHOULD BE FREE v uvozovkách, a od něj šipka, která problém jen posouvá o kus dál — kulička se překutálí z jedné jamky do druhé."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Vrchol argumentu: mez není vypínač, ale poloha. Přeškrtnutá je DVOJICE jako celek, ne jedna z možností — kdyby se škrtla jen jedna, obraz by řekl, která vyhrála. Největší pauza videa.",
+      "diagram_generator": "zrusit",
+      "diagram": "POINTA VIDEA. Nahoře přeškrtnutá dvojice COPYRIGHT / NO COPYRIGHT. Pod ní police s mezí a pod mezí obousměrná šipka s jediným velkým popiskem HOW MUCH.",
+      "pause": 2.6
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Čtvrtý a nejdůležitější stav mezi: PRŮCHOD. Mez se NERUŠÍ ani neposouvá — dělá se v ní otvor. To je přesně formulace uživatele („hranici nezrušíme, ale uděláme v ní průchod\") a odlišuje tuhle kapitolu od S44, kde se mez rušila.",
+      "diagram_generator": "pruchod",
+      "diagram": "Mez, a v ní se poprvé OTEVŘE PRŮCHOD — obdélníkový výřez s ambrovým rámem. Skrz něj prochází postava a nese si notu. Nad průchodem NO PERMISSION NEEDED, vedle UNITED STATES."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Prázdno za druhým krokem je tvrzení: „that is the entire process\". Kdyby tam byl byť ztlumený třetí krok, obraz by řekl, že to tak jednoduché není.",
+      "diagram_generator": "pruchod",
+      "diagram": "Průchod z boku jako dva kroky na cestě: FILE A NOTICE, PAY A FIXED RATE. Za nimi otevřená mez. Žádný třetí krok."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Jednovětá scéna a nejsilnější fakt videa. Letopočet je slovy ve scénáři, ale v OBRAZE smí být číslicemi — titulky i hlas berou text ze script.md, obraz ne.",
+      "diagram_generator": "pruchod",
+      "diagram": "Průchod v mezi, a nad ním letopočet NINETEEN OH NINE, sázený velkým písmem."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Konec bloku o roce 1909. Věta „older than almost everybody using it\" je vtip a obraz ho má dopovědět, ne zopakovat.",
+      "diagram_generator": "pruchod",
+      "diagram": "Vodorovná osa od 1909 doprava po dnešek, a na ní ztlumené postavičky lidí, kteří se narodili až po ní. Nad tím NOT A THOUGHT EXPERIMENT.",
+      "pause": 2.0
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Proužek MUSÍ být týž tvar jako v S23, jinak se nepozná, že navrhované řešení míří přesně na ten problém z hudební kapitoly.",
+      "diagram_generator": "pruchod",
+      "diagram": "Týž průchod, ale místo noty jím prochází proužek TWO SECONDS ze S23. Tři kroky: REPORT IT, PAY THE RATE, DONE."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Srovnání dvou stavů vedle sebe. Klubko nesmí být estetické — má být nečitelné, protože o to jde.",
+      "diagram_generator": "pruchod",
+      "diagram": "Vlevo dnešní stav: klubko čar mezi mnoha rámečky vlastníků, jeden z nich s otazníkem a popiskem 1974. Vpravo tentýž úkol jako jediná rovná čára průchodem."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "První ze tří dvojic. Všechny tři MUSÍ mít shodné rozvržení (vlevo kopie, vpravo stavba), jinak se z trojice stane tři různé scény a rytmus se rozpadne.",
+      "diagram_generator": "pruchod",
+      "diagram": "Dvojice: vlevo PIRATING A FILM jako identická kopie bloku, vpravo A DOCUMENTARY ABOUT IT jako nový blok, který má původní jen jako malou vloženou část."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Druhá dvojice, shodné rozvržení s S56.",
+      "diagram_generator": "pruchod",
+      "diagram": "Táž kompozice: vlevo UPLOADING SOMEBODY'S SONG, vpravo SAMPLING TWO SECONDS OF IT."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Třetí dvojice. Konec bloku o transformaci, hned za ním jde výzva k odběru.",
+      "diagram_generator": "pruchod",
+      "diagram": "Táž kompozice: vlevo COPYING A RIVAL'S CODE, vpravo BUILDING SOMETHING THAT WORKS ALONGSIDE IT.",
+      "pause": 1.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "VÝZVA K ODBĚRU. Obraz musí být záměrně prázdný — divák tu neztrácí žádnou informaci, protože se na vteřinu nemluví o věci. Žádný nový tvar, jen páteř.",
+      "diagram_generator": "pruchod",
+      "diagram": "Klidná deska: police a mez v základním stavu, nic se neděje."
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S60.png",
+      "note": "Předěl k AI. Měřítko dělá celou práci: „na škále, na kterou lidi nemají\". Zoom dovnitř, protože se zaostřuje na jednu novou věc.",
+      "prompt": "an enormous dark reading room seen from above, endless rows of identical open books on long tables, no people, cold flat overcast light falling from high windows, no sun, no text"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Otazníkový rámeček je týž tvar jako v S05 a S39 — potřetí, a teď u AI. Divák tím dostane spojení „tohle je tentýž problém\" bez jediného slova navíc.",
+      "diagram_generator": "ai",
+      "diagram": "Čtyři otázky pod sebou, každá se svým malým tvarem: BOOKS, MUSIC, A STYLE, a poslední WHO OWNS WHAT COMES OUT? s prázdným rámečkem vlastníka a otazníkem."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Povolený přechod, týž tvar jako v S32 u fair use z roku 1992. Souvislost mezi reverse engineeringem a trénováním je celý argument kapitoly.",
+      "diagram_generator": "ai",
+      "diagram": "Mez, skrz ni prochází široká ambrová šipka TRAINING s fajfkou a popiskem TRANSFORMATIVE. Vedle letopočet 2025 a TWO COURTS."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "NEJCITLIVĚJŠÍ SCÉNA VIDEA. Obraz nesmí říct, že trénování fair use není — musí být vidět, že přeškrtnutá je JEN ta knihovna, zatímco šipka TRAINING ze S62 zůstává na obraze průchozí. Obě naráz, jinak divák přečte opak. Viz factcheck.md.",
+      "diagram_generator": "ai",
+      "diagram": "Vedle toho druhá věc: ohrada plná knih s popiskem A LIBRARY OF PIRATED BOOKS, a od ní šipka k mezi, která NEPROJDE — narazí a je přeškrtnutá."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Škrtá se NÁPIS, tedy vodorovnou čarou. Přeškrtnutá otázka není špatná otázka — je to ta, kterou se ptát nestačí, a popisek to musí unést sám.",
+      "diagram_generator": "ai",
+      "diagram": "Dvě otázky nad sebou: DID YOU USE IT? přeškrtnutá, WHAT DID YOU DO WITH IT? ambrová."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Konec bloku o AI a shrnutí všech letopočtů videa na jednom místě. Tvrzení scény je, že je to TÁŽ otázka — proto jedna společná mez pod všemi body.",
+      "diagram_generator": "ai",
+      "diagram": "Časová osa videa v malém: 1909, 1992, 2012, 2018, 2021, 2025 — a pod všemi táž mez. AI je poslední bod, ne jiná osa.",
+      "pause": 2.4
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Uživatel si závěr vyžádal jmenovitě. Obě tvrzení musí být GRAFICKY ROVNOCENNÁ — žádné ztlumené, žádné přeškrtnuté. Platí obě zároveň.",
+      "diagram_generator": "zaver",
+      "diagram": "Mez daleko VPRAVO. Na polici hodně bloků, ale skoro žádné věže. Popisky: STRONG PROTECTION — A REASON TO INVEST, a pod tím HARDER TO REUSE."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Zrcadlo S66 a musí mít SHODNÉ rozvržení, jen mez jinde — jinak se nepozná, že se mění jediná věc. To je celá výplata páteře.",
+      "diagram_generator": "zaver",
+      "diagram": "Mez daleko VLEVO. Hodně nízkých věží, ale žádný velký blok. Popisky: WEAK PROTECTION — EASIER TO BUILD ON, a pod tím EXPENSIVE WORK HARDER TO PAY FOR."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "POZOR NA MÍRU JISTOTY. Scénář říká, že cíl je maximalizovat, co vznikne, a že to není totéž jako maximalizovat ochranu. NEŘÍKÁ, kde ten vrchol je — takže vrchol musí být čárkovaný s otazníkem. Plný vrchol by tvrdil, že známe optimum.",
+      "diagram_generator": "zaver",
+      "diagram": "Křivka: vodorovně poloha meze, svisle HOW MUCH GETS MADE. Křivka má maximum, ale jeho poloha je čárkovaná a označená otazníkem. Vlevo i vpravo od vrcholu klesá.",
+      "pause": 1.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Ztlumená, NE přeškrtnutá — první otázka není neplatná, jen je to špatně položená otázka. Škrt by tvrdil víc než scénář.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě formulace otázky nad sebou: HOW DO WE STOP PEOPLE COPYING? ztlumená, HOW DO WE STOP FREE-RIDING WITHOUT STOPPING BUILDING? ambrová a plná."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Emocionální vrchol závěru. Zítřejší věže jsou obrysy podle konvence ze S09 — ještě nevznikly a obraz to nesmí zamlžit.",
+      "diagram_generator": "zaver",
+      "diagram": "Police: vlevo dnešní tvůrci s hotovými bloky, vpravo prázdné místo a ztlumené obrysy zítřejších věží. Mez mezi nimi. Popisek TOMORROW'S."
+    },
+    {
+      "id": "S71",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S71.png",
+      "note": "Poslední atmosférická scéna. Věta končí výpustkou, takže obraz drží napětí místo hlasu. Zoom ven odhaluje, jak je to velké.",
+      "prompt": "a vast stone vault sealed with heavy doors, everything inside perfectly preserved and untouched, thick dust on the floor, nobody has been here for a long time, cold flat overcast light, no sun, no text",
+      "pause": 1.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Nejsilnější obraz videa a musí být čitelný bez textu: chráníme dokonale a nemáme z čeho stavět. Věž vlevo je jediné ambrové místo.",
+      "diagram_generator": "zaver",
+      "diagram": "Mez posunutá úplně doprava, za ní obrovská hromada dokonale zachovaných bloků. Vlevo od meze skoro nic — a jediná nízká věž, která se pokouší růst."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Karty YouTube sedí vpravo a dole, takže tam nesmí být text ani nic, o co by divák přišel. Je to POSLEDNÍ SCÉNA SCÉNÁŘE navržená jako klidná, ne scéna navíc. Mez se tu smí naposledy pohnout — na její poloze už nic nestojí.",
+      "diagram_generator": "zaver",
+      "diagram": "ZÁVĚREČNÁ DESKA. Police a mez naposledy, klidně, uprostřed horní poloviny plátna. Text jen nahoře. Dolní třetina a pravá strana zůstávají prázdné.",
+      "pause": 4.0
+    }
+  ]
+}

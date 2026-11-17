@@ -1,0 +1,803 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Páteř videa se zavádí hned: okno() z prvního dílu. Divák uvidí týž tvar jako v 017, takže pokračování je poznat obrazem, ne jen slovem.",
+      "diagram_generator": "uvod",
+      "diagram": "Okno prohlížeče s číslem 2 v záhlaví, za ním posunuté druhé okno s číslem 1 a šipkou dolů k odkazu."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "pruh() a stack() jsou doslova obrázky z prvního dílu. Shrnutí má vypadat jako vzpomínka, ne jako nový výklad.",
+      "diagram_generator": "uvod",
+      "diagram": "Pruh podílu na trhu vyplněný z malé části, vedle ikona Windows XP; pruh se doplní přes devadesát procent."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "stack() z 017. Poslední řádek 'web developers just happened to pay for it' zatím bez obrazu - platí se až od S07.",
+      "diagram_generator": "uvod",
+      "diagram": "Vrstvená platforma: WINDOWS - BROWSER - APPLICATIONS, ambrově zvýrazněná horní vrstva."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Přechod z rekapitulace do vlastního tématu. Prázdno je záměr: teprve se zaplní.",
+      "diagram_generator": "uvod",
+      "diagram": "Okno prohlížeče, pod ním prázdné místo s ambrovým otazníkem tam, kde bude katalog."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Číslo je tu ZÁMĚRNĚ číslicí - je to text v obraze, ne mluvené slovo, a scéna právě tvrdí, že čísla se nepamatují.",
+      "diagram_generator": "uvod",
+      "diagram": "Řádek trackeru: ISSUE 4172, šedý, jeden z mnoha stejných řádků nad i pod ním."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Kontrast tracker vs vlastní jméno je teze celého videa. Ambrová = o tomhle je řeč.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž řádek, ale místo čísla ambrový nápis PEEKABOO; ostatní řádky ztmavly.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "vzorek() se tu zavádí a bude se lámat celý blok. Stejné souřadnice po celé video, jinak se změny nepoznají.",
+      "diagram_generator": "jmena",
+      "diagram": "Vzorová stránka: obrázek plovoucí vlevo, odstavec vedle něj; mezi nimi zvětšená mezera."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "BEAT 1 ze 4. Rozděleno 2026-09-06 po připomínce diváka, že 'not four, not two, three' jde moc rychle. Naměřeno: scéna měla pět větných hranic a NEVLOŽILA SE ANI JEDNA (u čtyř se nenašlo ticho, jedna zamítnuta pojistkou +3 dB) — Kokoro tam mezi čísly nechává 60 ms. `scene_pause` se PŘIDÁVÁ, ne vkládá řezem, takže ho nemá co odmítnout. VIZUÁLNĚ JE TO JEDEN OBRAZ: stránka i kóta se nesmí hnout, mění se JEN číslo v kótě, jinak z beatu vzniknou čtyři střihy. NÁVĚTÍ: po rozdělení scény jsou to samostatné promluvy kolem sekundy a Kokoro do nich vkládá cizí hlásku — whisper slyšel 'You're not Thor' místo 'Not four' a 'A 3' místo 'Three'. Návětí promluvu prodlouží, artefakt zmizí a samo se uřízne v tichu před prvním slovem. Dostaly ho všechny tři beaty, aby měly stejný nájezd.",
+      "diagram_generator": "jmena",
+      "diagram": "Vzorová stránka s kótou mezery; v kótě stojí 4 PX, ztlumeně.",
+      "pause": 0.5,
+      "naveti": "The gap is always the same size."
+    },
+    {
+      "id": "S08b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08b.png",
+      "note": "BEAT 2 ze 4. Viz poznámku u S08. NÁVĚTÍ: po rozdělení scény jsou to samostatné promluvy kolem sekundy a Kokoro do nich vkládá cizí hlásku — whisper slyšel 'You're not Thor' místo 'Not four' a 'A 3' místo 'Three'. Návětí promluvu prodlouží, artefakt zmizí a samo se uřízne v tichu před prvním slovem. Dostaly ho všechny tři beaty, aby měly stejný nájezd.",
+      "diagram_generator": "jmena",
+      "diagram": "Táž stránka a táž kóta; v kótě 2 PX, ztlumeně.",
+      "pause": 0.5,
+      "naveti": "The gap is always the same size."
+    },
+    {
+      "id": "S08c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08c.png",
+      "note": "BEAT 3 ze 4. Viz poznámku u S08. NÁVĚTÍ: po rozdělení scény jsou to samostatné promluvy kolem sekundy a Kokoro do nich vkládá cizí hlásku — whisper slyšel 'You're not Thor' místo 'Not four' a 'A 3' místo 'Three'. Návětí promluvu prodlouží, artefakt zmizí a samo se uřízne v tichu před prvním slovem. Dostaly ho všechny tři beaty, aby měly stejný nájezd.",
+      "diagram_generator": "jmena",
+      "diagram": "Táž stránka a táž kóta; v kótě 3 PX, ambrově.",
+      "pause": 0.7,
+      "naveti": "It was never four or two."
+    },
+    {
+      "id": "S08d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08d.png",
+      "note": "BEAT 4 ze 4. Viz poznámku u S08.",
+      "diagram_generator": "jmena",
+      "diagram": "Totéž a pod obrazem jméno THE THREE PIXEL JOG.",
+      "pause": 0.8
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Zdvojení je vidět jen srovnáním, takže dvě kopie vedle sebe. Ambrová jen na tom zdvojeném okraji.",
+      "diagram_generator": "jmena",
+      "diagram": "Stránka s levým okrajem floatu okótovaným na 10 px, vedle druhá verze s 20 px."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "kod() z prvního dílu. Řádek stojí sám, protože scéna hned potom říká, že je to nesmysl.",
+      "diagram_generator": "jmena",
+      "diagram": "Nápis THE DOUBLE MARGIN BUG, pod ním kódový panel s jediným řádkem display: inline."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Nesmyslnost se ukazuje sousedstvím dvou řádků, ne škrtem - škrt by znamenal 'neplatí to', a ono to platilo.",
+      "diagram_generator": "jmena",
+      "diagram": "Kódový panel: float: left a display: inline nad sebou, mezi nimi ambrový vykřičník."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Mizení se kreslí PRŮHLEDNOSTÍ, ne škrtem (konvence 4 z prvního dílu). Obsah tam je, jen není vidět.",
+      "diagram_generator": "jmena",
+      "diagram": "Stránka, ve které chybí prostřední blok; na jeho místě je prázdno v barvě pozadí."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Šipka scrollu je příčina návratu, takže musí mířit na stránku, ne od ní.",
+      "diagram_generator": "jmena",
+      "diagram": "Táž stránka s vráceným blokem, vedle svislá šipka scrollu; pod obrazem THE PEEKABOO BUG."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Otazník je tvrzení scény ('nobody could fully explain why'), ne ozdoba. Bez něj by obraz tvrdil, že to je vysvětlené.",
+      "diagram_generator": "jmena",
+      "diagram": "Kódový panel s position: relative, pod ním ambrový otazník."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Guillotine spouští a:hover u odkazu nad plovoucími prvky - kurzor v obraze proto musí ležet na odkazu, ne jinde.",
+      "diagram_generator": "jmena",
+      "diagram": "Stránka s odkazem pod kurzorem; pozadí boxu pod ním useknuté vodorovnou čarou."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Dvě jména za jednu scénu, takže dva menší vzorky. Nekreslit je velké - nejsou to hlavní chyby bloku.",
+      "diagram_generator": "jmena",
+      "diagram": "Dvě malé stránky vedle sebe: v levé text odsunutý mimo svůj box, v pravé rámečky v nesprávných místech a barvách."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "OPRAVENO PO FACT CHECKU: nejde o seznam, ale o několik plovoucích prvků, a duplikují se ZNAKY z posledního z nich.",
+      "diagram_generator": "jmena",
+      "diagram": "Řada plovoucích boxů; pod posledním se opakují jeho poslední písmena, bledší."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Šipka míří OD komentářů K duplikaci, protože komentáře jsou příčina. Opačný směr by tvrdil, že to komentář opravuje.",
+      "diagram_generator": "jmena",
+      "diagram": "Značkovací kód s několika komentáři mezi boxy; komentáře ambrové, šipka od nich k zdvojeným písmenům.",
+      "pause": 1.2
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Tahle scéna je předpoklad Holly Hacku v S27-S29. Kdyby se nakreslila jinak než tam, callback se nepozná.",
+      "diagram_generator": "jmena",
+      "diagram": "Box s deklarovanou výškou a obsahem, který ji přerůstá; box se roztahuje místo přetečení."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Přes nápis se škrtá čarou, ne křížkem. Škrt je tu na místě: min-height v IE6 opravdu neexistoval.",
+      "diagram_generator": "jmena",
+      "diagram": "Vedle sebe HEIGHT a MIN-HEIGHT; druhý nápis přeškrtnutý vodorovnou čarou.",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Sběrná scéna bloku. Jména musí sedět na tytéž vady na tomtéž místě stránky jako v S08-S18.",
+      "diagram_generator": "jmena",
+      "diagram": "Stránka se všemi dosud ukázanými vadami naráz, každá s vlastním ambrovým jménem na vodítku."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Teze videa. Ztmavení katalogu je záměr - pozornost patří větě, ne vadám.",
+      "diagram_generator": "jmena",
+      "diagram": "Táž stránka ztmavená, nad ní jediná ambrová věta: YOU DON'T NAME A BUG YOU MEET ONCE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Zavedení příznaku jako vlastnosti KAŽDÉHO prvku, ne jako jedné věci. Bez toho nedává smysl 'every element either did or did not'.",
+      "diagram_generator": "layout",
+      "diagram": "Stránka s prvky, u každého malé prázdné políčko; některá zaškrtnutá, jiná ne."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Rozdíl mezi 'sizes itself' a 'leaves it to its parent' musí být vidět směrem šipky, ne barvou.",
+      "diagram_generator": "layout",
+      "diagram": "Dva prvky vedle sebe: jeden si měří vlastní rozměr, druhý ho přebírá od rodiče šipkou shora."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Neexistenci nelze nakreslit škrtem - škrt by znamenal 'zrušeno'. Proto řádek, který do panelu nepatří.",
+      "diagram_generator": "layout",
+      "diagram": "Kódový panel s pokusem napsat layout: on, celý řádek je bledý a mimo panel; vedle specifikace bez toho slova."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Tři různé příčiny, jeden následek. Šipky musí končit ve stejném bodě, jinak to čte jako tři různé příznaky.",
+      "diagram_generator": "layout",
+      "diagram": "Tři kódové řádky width, height, float; od každého šipka k témuž políčku, které se zaškrtne."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Holá scéna, protože pointa přijde až ve dvou dalších. Kdyby tu už byl výsledek, S29 nemá co vyplácet.",
+      "diagram_generator": "layout",
+      "diagram": "Kódový panel s height: 1%."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Předjímka star hacku o pět scén dopředu; scénář to říká slovy ('a hack we'll get to in a minute'), obraz to jen ukáže.",
+      "diagram_generator": "layout",
+      "diagram": "Týž panel vsazený dovnitř obálky * html, která je zatím jen naznačená."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "TOHLE JE TA VÝPLATA: Holly Hack funguje kvůli Expanding Boxu. Šipka musí vést k S19, ne obecně nahoru.",
+      "diagram_generator": "layout",
+      "diagram": "Box z S19, jak přerůstá deklarovanou výšku, a nad ním ambrová šipka zpět k height: 1%."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Beat se jménem, stejná sazba jako S08 a S13. Jeden obraz, mění se jediná věc.",
+      "diagram_generator": "layout",
+      "diagram": "Nápis THE HOLLY HACK."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Prázdno kolem je záměr - vlastnost nic nedělá a obraz to má tvrdit taky.",
+      "diagram_generator": "layout",
+      "diagram": "Kódový panel s jediným řádkem zoom: 1."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Jediná změna je to políčko. Kdyby se stránky lišily, obraz by tvrdil opak scénáře.",
+      "diagram_generator": "layout",
+      "diagram": "Dvě identické stránky vedle sebe, mezi nimi zoom: 1; rozdíl žádný, ale políčko příznaku se zaškrtne.",
+      "pause": 2.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Otevření bloku. Od téhle scény panel kódu roste - je to nosič eskalace, o kterou šlo recenzentovi.",
+      "diagram_generator": "hacky",
+      "diagram": "Stránka a vedle ní kódový panel; mezi nimi ambrová šipka označená ONLY THIS BROWSER."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "OPATRNĚ PO FACT CHECKU: uzel je nakreslený jako naznačený, ne plný, protože doložené je CHOVÁNÍ, ne že tam ten prvek byl.",
+      "diagram_generator": "hacky",
+      "diagram": "Strom dokumentu: html s potomky, a nad html naznačený další uzel bez jména, bledý a přerušovaný."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Selektor a jeho cíl v jednom obraze, jinak se nepozná, na co se ta hvězdička chytá.",
+      "diagram_generator": "hacky",
+      "diagram": "Kódový panel s * html a šipkou k tomu naznačenému uzlu."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Průhlednost, ne škrt: ostatní prohlížeče pravidlo nezakazují, ono jim jen nesedne na nic.",
+      "diagram_generator": "hacky",
+      "diagram": "Tentýž strom bez toho uzlu, selektor nad ním prochází naprázdno a mizí."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Podtržítko musí být ambrové a znatelně větší, jinak se v renderu ztratí.",
+      "diagram_generator": "hacky",
+      "diagram": "Kódový panel: dva řádky téže vlastnosti, druhý s podtržítkem na začátku."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Dva prohlížeče, jeden kód, opačný výsledek. Sloupce musí být stejně široké, aby se to nečetlo jako důležitost.",
+      "diagram_generator": "hacky",
+      "diagram": "Táž dvojice dvakrát: pod nápisem STANDARDS druhý řádek bledne, pod IE6 zůstává."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Pointa bloku vyslovená v obraze. Vejde se, protože panel je jen dvouřádkový.",
+      "diagram_generator": "hacky",
+      "diagram": "Ambrový nápis THE BREAKAGE WAS THE INSTRUCTION nad panelem s podtržítkem.",
+      "pause": 1.4
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Zavedení podmíněného komentáře jako obyčejného komentáře - to je celý vtip.",
+      "diagram_generator": "hacky",
+      "diagram": "Komentářová značka ve zdroji, ambrová."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Dveře jsou metafora scénáře, takže se kreslí jako otevřený rámeček, ne jako doslovné dveře.",
+      "diagram_generator": "hacky",
+      "diagram": "Dvě větve od téhož komentáře: vlevo prohlížeč, který ho zahodí, vpravo IE6, kterému se otevře druhý stylesheet."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nejde o výsměch, nýbrž o doklad teze prvního dílu. Žádný škrt, žádný ironický prvek - jen konstatování.",
+      "diagram_generator": "hacky",
+      "diagram": "Logo výrobce nad tím komentářem, pod obrazem SHIPPED ON PURPOSE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Dva režimy jako přepínač, ne jako dvě různé věci - scénář říká 'had two modes'.",
+      "diagram_generator": "rezim",
+      "diagram": "Přepínač se dvěma polohami: STANDARDS a QUIRKS; ukazatel na STANDARDS."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "krabice() z prvního dílu MÁ POVINNÝ ARGUMENT rezim a musí být v popisku - jinak obraz tvrdí, že IE6 měl box model rozbitý vždycky.",
+      "diagram_generator": "rezim",
+      "diagram": "Box model dvakrát: vlevo šířka bez paddingu a rámečku, vpravo šířka včetně nich."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Pořadí řádků je celé tvrzení scény, takže se nesmí kreslit stylizovaně - dva řádky pod sebou, deklarace první.",
+      "diagram_generator": "rezim",
+      "diagram": "Zdrojový soubor: úplně nahoře XML deklarace, pod ní doctype."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Příčina a následek v jednom obraze. Bez přepínače z S43 by tahle scéna neměla kam ukázat.",
+      "diagram_generator": "rezim",
+      "diagram": "Šipka od té deklarace k přepínači, který se překlopí do QUIRKS.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Vada je vidět jen ve srovnání. Šedá musí být opravdu šedá, ne ztmavená barva pozadí.",
+      "diagram_generator": "obrazky",
+      "diagram": "Obrázek s měkkým okrajem na dvou pozadích: vlevo přechod čistý, vpravo šedý lem."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Délka toho názvu JE ta scéna ('a name like a serial number'), takže se nesmí zalomit ani zkrátit.",
+      "diagram_generator": "obrazky",
+      "diagram": "Kódový panel s dlouhým názvem filtru přes celou šířku."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "PO FACT CHECKU: filtr nenahrazuje obrázek, kreslí se mimo běžný proces. Vrstva proto stojí stranou, ne na místě obrázku.",
+      "diagram_generator": "obrazky",
+      "diagram": "Obrázek správně vykreslený, ale odkaz nad ním má kurzor a nereaguje; vrstva filtru leží mimo pořadí vykreslování."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Rovnocennost výsledku a nerovnost zápisu. Ambrová na obou, protože ani jeden není 'ten správný'.",
+      "diagram_generator": "obrazky",
+      "diagram": "Kódový panel se dvěma řádky vedle sebe: krátká běžná vlastnost a dlouhý filtr, oba se stejným výsledkem.",
+      "pause": 1.4
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Předchůdce všeho ostatního - kreslí se ztlumeně, protože je to minulost, ne téma.",
+      "diagram_generator": "obrazky",
+      "diagram": "Mřížka vnořených tabulek, buňky v buňkách, tři úrovně hluboko."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Kóta musí být na roztaženou velikost, ne na původní pixel - scéna mluví o tom roztažení.",
+      "diagram_generator": "obrazky",
+      "diagram": "Průhledný obrázek 1x1 px roztažený do velkého obdélníku, okótovaný; pod obrazem THE SPACER GIF.",
+      "pause": 2.2
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Táž vizuální gramatika jako u hasLayout v S23 - políčko u prvku. Divák ji už zná.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Seznam prvků; u odkazu zaškrtnuté hover, u ostatních prázdné políčko."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Soubor visí VEDLE stránky, ne uvnitř - to je pointa následující scény.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Menu, které se má rozbalit nad jiným prvkem než odkazem; vedle připojený externí soubor."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Kód vyvolaný ze stylu je absurdita scény. Šipka vede ze stylesheetu, ne ze stránky.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Stylesheet s řádkem behavior a šipkou k samostatnému souboru s kódem."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Callback na první díl - tam už tenhle obraz jednou byl. Kreslí se stejně, jinak se nepozná.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Kódový panel: uvnitř stylesheetu blok JavaScriptu."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "PO FACT CHECKU: žádné číslo. Opakování se kreslí kroužením, ne počtem.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Tentýž blok, kolem něj opakované spouštěče: pohyb myši, klávesa, scroll; vrací se do bloku dokola.",
+      "pause": 1.4
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Dva různé limity, jeden tvar. Čísla patří do popisků, ne do mluveného slova - ve scénáři jsou slovy.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Stoh pravidel narážející na strop; nad stropem pravidla bledá. Vedle stoh stylesheetů se stejným stropem."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Konec bloku o dopisování. Odsud dál to přestává být kosmetika.",
+      "diagram_generator": "dopisovani",
+      "diagram": "Build step jako mezikrok mezi mnoha stylesheety a jedním, který jde do prohlížeče.",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Přepážka je celé tvrzení. Kdyby se soustavy dotýkaly, obraz by říkal, že spolu komunikují.",
+      "diagram_generator": "pamet",
+      "diagram": "Dvě oddělené účetní soustavy vedle sebe, mezi nimi svislá přepážka; ani jedna nevidí za ni."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Smyčka musí přepážku křížit - to je důvod, proč ji nikdo nerozváže.",
+      "diagram_generator": "pamet",
+      "diagram": "Smyčka mezi skriptem a prvkem stránky, procházející přes přepážku; ambrová, neuzavřená ani jednou soustavou.",
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Chybějící znak je hrdina scény, takže se zvýrazňuje PRÁZDNO, ne okolní text.",
+      "diagram_generator": "pad",
+      "diagram": "Značka input s atributem type bez rovnítka; místo rovnítka ambrová mezera."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Norma je tu kontrast. Bez ní není z čeho vybočit.",
+      "diagram_generator": "pad",
+      "diagram": "Tři prohlížeče berou týž vadný atribut a pokračují dál; u každého fajfka."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Mechanismus, ne vtip. Doložený zdrojem: porovnání proti HIDDEN je příčina.",
+      "diagram_generator": "pad",
+      "diagram": "Okno prohlížeče s ambrovým porovnáním typu proti slovu HIDDEN; na místě typu není nic."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Adresa nula je jádro celé pointy. Nekreslit hexadecimálně, divák to má přečíst na první pohled.",
+      "diagram_generator": "pad",
+      "diagram": "Ukazatel mířící na adresu 0; okno prohlížeče se láme."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "TOHLE JE VÝPLATA CELÉHO VIDEA a doložená část: pád opouští prohlížeč, protože kód je ve sdílené knihovně.",
+      "diagram_generator": "pad",
+      "diagram": "Sdílená systémová knihovna pod oknem prohlížeče; z ní vedou čáry k poštovnímu klientu a k oknu se soubory, obě okna se lámou."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Poslední úder bloku. Žádný text navíc - věta ve scénáři je silnější než popisek.",
+      "diagram_generator": "pad",
+      "diagram": "Okno se seznamem souborů, zavřené; nad ním malá webová stránka.",
+      "pause": 3.0
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Doplacení teze prvního dílu obrazem: týž stack(), jen jinak poskládaný. Tohle je ta scéna, kvůli které stack() v S03 vůbec je.",
+      "diagram_generator": "pad",
+      "diagram": "Vrstvená platforma z S03, ale prohlížeč je nakreslený jako součást systémové vrstvy, ne nad ní.",
+      "pause": 2.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Škrt tu je na místě - druhá verze na tomtéž stroji opravdu nešla.",
+      "diagram_generator": "stroje",
+      "diagram": "Jeden počítač, na něm jediná verze prohlížeče; vedle přeškrtnutá možnost mít jich víc."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "PŘEKRESLENO KÓDEM PO DVOU NEÚSPĚŠNÝCH KOLECH SDXL. Model dal dvakrát chodbu mezi racky, tedy serverovnu — jiné tvrzení než 'police náhradních strojů u vývojáře'. CLAUDE.md: když model funkci scény netrefí dvakrát, není to chyba promptu, ale znamení, že scéna patří jinam. Kresba to navíc umí líp: každý stroj nese okno(), tedy páteř videa, a je na něm vidět, že se liší jen VERZÍ — o tom ta scéna je.",
+      "diagram_generator": "stroje",
+      "diagram": "Police se dvěma patry, na ní pět strojů; na každém okno prohlížeče s jinou verzí, jedno ambrové."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Nepoměr je tvrzení scény: celý operační systém kvůli jedné stránce. Ta stránka musí být malá.",
+      "diagram_generator": "stroje",
+      "diagram": "Složka s ikonami virtuálních strojů, každý nese celý operační systém; z jednoho vede čára k jediné stránce."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Jméno knihovny a autora je ve scénáři, takže patří i do obrazu - je to doložený fakt, ne obecnost.",
+      "diagram_generator": "stroje",
+      "diagram": "Knihovna připojená ke starému prohlížeči, která mu dopisuje chybějící vlastnosti; nad ní jméno IE7.js.",
+      "pause": 2.2
+    },
+    {
+      "id": "S73",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S73.png",
+      "note": "Jediná atmosférická scéna uprostřed videa. Má nést měřítko, které diagram neunese.",
+      "prompt": "rows of desks in a dim open plan office at night, cathode ray tube monitors glowing, empty chairs, painted illustration, muted palette, no text"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Ambrová znamená 'o tomhle je řeč', ne 'to je dobré'. Tady je to nutné říct, protože obsah je negativní.",
+      "diagram_generator": "cena",
+      "diagram": "Tři sloupce: FEATURES, PRODUCTS, COMPENSATION; první dva bledé, třetí ambrový a plný."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Zase týž stack(). Aplikace musí ležet NA prohlížeči, jinak není vidět, proč ho nejde odstranit.",
+      "diagram_generator": "cena",
+      "diagram": "Vrstvená platforma z S03 s aplikacemi nahoře; pod nimi prohlížeč, který nejde vytáhnout."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Sběrná scéna eskalace, kterou si vyžádal recenzent. Prvky musí být tytéž tvary jako ve svých scénách, jen zmenšené.",
+      "diagram_generator": "cena",
+      "diagram": "Prohlížeč obklopený vším, co kolem něj během videa přibylo - hacky, filtry, soubory, stroje, knihovny.",
+      "pause": 2.8
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "PO FACT CHECKU: nešlo o konec podpory napříč Googlem, ale o Docs a Sites od 1. 3. 2010. Popisek to musí říct přesně.",
+      "diagram_generator": "pohreb",
+      "diagram": "Datum a oznámení, že aplikace jednoho poskytovatele v tomhle prohlížeči přestanou fungovat."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "VÝPLATA PÁTEŘE: okno(), které video zavedlo v S01, tady leží. Tvar musí být poznatelně tentýž.",
+      "diagram_generator": "pohreb",
+      "diagram": "Okno prohlížeče položené naležato jako rakev, kolem něj postavy."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Čísla jsou doložená (plánováno 30-50, přišlo 80-100). V obraze číslicemi, ve scénáři slovy.",
+      "diagram_generator": "pohreb",
+      "diagram": "Táž rakev, kolem ní dav; vedle číslo očekávané účasti a číslo skutečné."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Doslovné znění karty je doložené, takže se cituje přesně. Bez uvozovek by to byl náš text, ne jejich.",
+      "diagram_generator": "pohreb",
+      "diagram": "Kytice u rakve s kartičkou: THANKS FOR THE GOOD TIMES, IE6.",
+      "pause": 2.6
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Že to bylo přesně rok na den, je ověřené (4. 3. 2010 a 4. 3. 2011) - a je to nejsilnější detail závěru.",
+      "diagram_generator": "pohreb",
+      "diagram": "Kalendář: dvě data přesně rok od sebe, mezi nimi rakev a webová stránka s odpočtem."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Absurdita je v tom, KDO ten odpočet provozuje. Logo musí být u odpočtu, ne u prohlížeče.",
+      "diagram_generator": "pohreb",
+      "diagram": "Odpočet: dvanáct procent klesající k jednomu, vedle logo výrobce prohlížeče.",
+      "pause": 3.0
+    },
+    {
+      "id": "S83",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S83.png",
+      "note": "ZÁVĚREČNÁ DESKA. Klidná, nic v dolní třetině ani vpravo kvůli kartám YouTube. Počasí je ZA OKNEM, ne místo něj: kotva stylu videa říká 'early two thousands office interior' a krajina by proti ní prohrála (CLAUDE.md: když prompt jde proti kotvě, prohraje prompt). Navíc to doslova kreslí 'you name it where you live'. KOLO 2: první pokus dal jasný den s teplým obzorem (past 'teplý nádech nedělá prompt, ale denní doba' — řeší se POČASÍM, ne denní dobou) a k tomu stůl vpravo dole, tedy přesně tam, kam YouTube klade karty.",
+      "prompt": "the view from inside a dim empty room through a tall window, heavy rain running down the glass, low grey cloud over an open plain, flat grey overcast sky, no sun, bare floor, nothing in the lower part of the frame, painted illustration, muted palette, no text",
+      "seed": 8823
+    }
+  ]
+}

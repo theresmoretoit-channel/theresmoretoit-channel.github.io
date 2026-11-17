@@ -1,0 +1,585 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ #1 — BOX (cubesat_box() v _kit.py, pevné BOX rect vlevo od středu). První scéna schválně NENÍ sdxl a nese myšlenku: malá krabička proti obří komunikační družici — 'ne družice za miliardu, něco malého'. Box je prostá čtvercová silueta s naznačenými panely, ne věrná kresba konkrétního CubeSatu (nepředstírá přesnost). Zrcadlo je S51, kde týž box stojí vedle dlouhého checklistu.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo velká čárkovaná silueta obří družice (BILLION-DOLLAR SATELLITE, ztlumeně, čárkovaně = ne o ni jde), vpravo malý plný BOX na pevných souřadnicích. Nad boxem ambrově YOUR OWN SATELLITE?"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Box na týchž souřadnicích jako S01, teď 'velký jako bochník chleba' a otevřený — dovnitř se poprvé sáhne. Součástky jen naznačené ikonou + popiskem, ne přeplácané; jsou to tytéž kategorie, které se rozvedou v S08–S11 (setup/payoff).",
+      "diagram_generator": "uvod",
+      "diagram": "Týž BOX, rozříznutý pohled dovnitř: drobné popsané bloky COMPUTER, SOLAR PANELS, RADIO, SENSORS a menší CAMERA. Vedle boxu měřítko ≈ loaf of bread."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Bez SDXL (rozhodnuto 2026-09-27) — video nemá žádnou difuzní scénu. Myšlenkový skok 'garáž → orbita': ponk s krabičkou dole, od něj čárkovaný oblouk nahoru na orbitu. Čárkovaně, protože je to zatím jen záměr ('sounds impossible / but it isn't'). Box je týž tvar jako S01/S02.",
+      "diagram_generator": "uvod",
+      "diagram": "Dole jednoduchý ponk (GARAGE) s malým BOXEM, od něj čárkovaný oblouk vzhůru k drobnému oblouku Země (ORBIT). Ambrově ztlumeně SOUNDS IMPOSSIBLE, pod tím ambrově BUT IT ISN'T."
+    },
+    {
+      "id": "S04",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S04.png",
+      "note": "'They're called CubeSats' — výplata 'sounds impossible but isn't'. Skutečná fotka CubeSatu grounduje celý úvod (dá se to vyfotit a MÁ to jméno → archiv, ne diagram). PICK PROVIZORNÍ — ověřit kontaktním listem (--search 'CubeSat') před buildem; přijatelný má být každý z první šestice. Fotka se smí hýbat (slow_zoom_in), na rozdíl od diagramů.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "CubeSat satellite",
+        "grade": {
+          "fit": 0.9
+        },
+        "pick": 1
+      },
+      "pause": 2.4
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "PÁTEŘ #2 — CHECKLIST (checklist() v _kit.py, pevné CHECKLIST_X vpravo). TEZE VIDEA: 'nejtěžší není postavit ji, je to všechno ostatní'. Box vlevo je hotový a odškrtnutý (BUILD IT ✓), vpravo se poprvé objeví dlouhý PRÁZDNÝ seznam nezaškrtnutých položek = 'everything else'. Položky musí odpovídat pozdějším blokům a finálnímu výčtu v S47/factcheck. Tady jsou všechny neodškrtnuté a ambrově se rozsvítí jen nadpis EVERYTHING ELSE.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo malý BOX se zeleným ✓ a popiskem BUILD IT. Vpravo dlouhý CHECKLIST s prázdnými □: COST · FIT IT ALL IN · POINT ITSELF · SURVIVE LAUNCH · SURVIVE SPACE · POWER FOR YEARS · RUN ON ITS OWN · COMMUNICATE LEGALLY · GET TO ORBIT · CLEAR OUT OF ORBIT. Nadpis EVERYTHING ELSE ambrově.",
+      "pause": 1.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "1U = ~10 cm (POZOR: podle factcheck.md to NENÍ přesná krychle, 10×10×11,35 cm — voiceover říká 'roughly a ten-centimetre cube', obraz nesmí tvrdit přesnou krychli; popsat jako ~10 cm). Řada 1U→2U→3U→6U jako skládání standardních jednotek. Velikost rámečků roste s U, to nese tvrzení 'stack and get larger'.",
+      "diagram_generator": "uvod",
+      "diagram": "Čtyři boxy vedle sebe rostoucí velikosti: 1U (≈10 cm), 2U, 3U, 6U, popsané. U 1U kóta ~10 cm. Jednotky viditelně stavebnicově navazují."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "MUSÍ BÝT STATICKÝ DIAGRAM — dědí ho výzva k odběru S07b (prolínačka mezi dvěma shodnými obrázky + zoom by skočil). Myšlenka standardizace: místo návrhu od nuly se sáhne po standardních rozměrech a rozhraních; 'space open to universities, start-ups, and maybe even you'. Výplata první porce úvodu.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo přeškrtnutá cesta DESIGN FROM SCRATCH (text_skrtnuty), vpravo STANDARD SIZES + STANDARD INTERFACES vedoucí šipkou k trojici štítků UNIVERSITIES · START-UPS · YOU (YOU ambrově).",
+      "pause": 1.2
+    },
+    {
+      "id": "S07b",
+      "source": "svg",
+      "visual": "images/S07.png",
+      "effect": "static",
+      "cta": true,
+      "pause": 2.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Začátek procházky 'co je uvnitř' (S08–S11). Box se vrací na pevné souřadnice a plní se — první je POČÍTAČ. Ambrově se rozsvítí jen ten blok, o kterém je řeč (konvence: ambrová = 'o tomhle je teď řeč').",
+      "diagram_generator": "stavba",
+      "diagram": "BOX na pevných souřadnicích, uvnitř ambrově zvýrazněný blok COMPUTER, vedle popisky RUN SOFTWARE · CONTROL HARDWARE · DECIDE. Ostatní bloky ztlumené.",
+      "pause": 0.5
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Napájení. Šipka slunce→panely→baterie a stín Země. Šipka nese směr toku energie (panel vyrábí, baterie ukládá pro stín).",
+      "diagram_generator": "stavba",
+      "diagram": "BOX, ambrově blok POWER: solární panely → baterie. Malé slunce a čárkovaný stín Země (EARTH'S SHADOW), šipka toku SUN → PANELS → BATTERY.",
+      "pause": 0.5
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Spojení. Rádio + anténa na boxu, dole pozemní stanice naslouchá. Vlnka signálu vede OD družice K Zemi.",
+      "diagram_generator": "stavba",
+      "diagram": "BOX s anténou, ambrově blok RADIO. Dole na zemi malá GROUND STATION s parabolou, mezi nimi vlnka signálu (šipka dolů k Zemi).",
+      "pause": 0.5
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Senzory + zádrhel 'up is surprisingly hard' — teasuje orientaci, kterou rozvádí S27–S29 (setup/payoff, ne redundance). Výčet senzorů drobně, aby se pointa 'kudy míří' nezahltila.",
+      "diagram_generator": "stavba",
+      "diagram": "BOX, ambrově blok SENSORS s výčtem TEMPERATURE · VOLTAGE · CURRENT · ACCELERATION · MAGNETIC FIELD. Dole otazník u čárkované šipky 'UP?' vedle tumblingového boxu (náznak, že 'up' není jasné).",
+      "pause": 2.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Začátek bloku CENA. Nepříjemná otázka 'kolik to stojí?' — odpověď 'víc, než to vypadá'. Box malý, velký ambrový otazník ceny.",
+      "diagram_generator": "cena",
+      "diagram": "Malý BOX vlevo, vedle velký ambrový nápis HOW MUCH? a pod ním ztlumeně MORE THAN IT LOOKS."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Rozpad ceny 1U flight hardware. Čísla PATŘÍ NA OBRAZ, ne do voiceoveru (ten říká 'tens of thousands'). Konkrétní rozpětí ověř podle factcheck.md; jde o strukturu položek, ne o cent přesně. Součet = 'tens of thousands $'.",
+      "diagram_generator": "cena",
+      "diagram": "Sloupec položek s cenovými štítky: POWER SYSTEM · SOLAR PANELS · BATTERIES · COMPUTER · RADIO · ATTITUDE CONTROL · STRUCTURE · PAYLOAD. Dole součet ≈ TENS OF THOUSANDS $ (FLIGHT HARDWARE ONLY).",
+      "pause": 0.5
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "'Things that aren't on the parts list' — tady se poprvé PLNÍ CHECKLIST z S05: náklady mimo hardware jsou přesně to 'everything else'. Odškrtne/rozsvítí se COST a přibudou položky testování, integrace, dokumentace, provoz, licence, start.",
+      "diagram_generator": "cena",
+      "diagram": "CHECKLIST na pevných souřadnicích, ambrově skupina 'NOT ON THE PARTS LIST': TESTING · INTEGRATION · DOCUMENTATION · GROUND OPERATIONS · LICENSING · LAUNCH. Poslední LAUNCH ambrově (vede do S15)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Cena startu. Rideshare 1U 'tens of thousands', větší 'hundreds of thousands' — čísla na obraz. Dvě velikosti vedle sebe nesou 'bigger = more'.",
+      "diagram_generator": "cena",
+      "diagram": "Dva sloupce: malý CubeSat → RIDESHARE ≈ TENS OF THOUSANDS $, větší CubeSat → BIGGER MISSION ≈ HUNDREDS OF THOUSANDS $. Popisek JUST TO GET INTO SPACE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Blok VEJÍT SE. 'Ridiculous problem'. Seznam dílů zůstává v OBRAZE, ale VOICEOVER ho po poslechu už nečte (byl v S08–S11 a S13) — scénář jen 'Remember all those parts?'.",
+      "diagram_generator": "vejit",
+      "diagram": "Vlevo sloupec dílů (COMPUTER · RADIO · BATTERY · POWER ELECTRONICS · SENSORS · ATTITUDE HARDWARE · WIRING · PAYLOAD · SOLAR PANELS), šipkou do malého BOXU vpravo. Nahoře ambrově HOW DOES IT ALL FIT?",
+      "pause": 1.6
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "3D puzzle. 'Every centimetre / gram / watt matters' + musí přežít start. Naskládané desky do boxu, tři kóty cm/g/W.",
+      "diagram_generator": "vejit",
+      "diagram": "Rozložený (exploded) BOX s naskládanými deskami plošných spojů uvnitř, kóty EVERY cm · EVERY g · EVERY W. Dole ztlumeně MUST SURVIVE A ROCKET LAUNCH.",
+      "pause": 2.2
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Blok SOUČÁSTKY. Nemusíš navrhovat vše sám — existuje průmysl a tržiště s díly. POZOR (factcheck): jména firem se do OBRAZU nepíšou jako reklama; kategorie dílů ano. Obecné 'a whole industry / marketplaces'.",
+      "diagram_generator": "soucastky",
+      "diagram": "Regál / katalog s kartami dílů: COMPUTERS · POWER SYSTEMS · RADIOS · ANTENNAS · SOLAR PANELS. Nad tím štítek CUBESAT PARTS MARKETPLACE (bez konkrétních značek)."
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18b.png",
+      "note": "Doplněno po poslechu. Komponenty jsou standardizované (PC/104 stack) a prodejné; ceny orientačně na obraze (proměnlivé), vendoři jako fakt, ne reklama.",
+      "diagram_generator": "soucastky",
+      "diagram": "Vlevo stoh desek PC/104 STACK se stohovacím konektorem. Vpravo vendoři ENDUROSAT · GOMSPACE · ISISPACE · CUBESATSHOP a rozpětí THOUSANDS → TENS OF THOUSANDS $."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "'Nejsou to exotické procesory' — ARM Cortex-M7 se známými rozhraními. Podle factcheck: obecné tvrzení o jednom současném OBC, ne reklama. Rozhraní jako známé piny/sběrnice.",
+      "diagram_generator": "soucastky",
+      "diagram": "Čip s popiskem ARM CORTEX-M7 a z něj vyvedené známé sběrnice SPI · I²C · UART · CAN. Štítek FAMILIAR INTERFACES."
+    },
+    {
+      "id": "S19b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S19b.png",
+      "note": "Doplněno po poslechu — reálná deska CubeSatu (obraz, o který uživatel žádal). PICK PROVIZORNÍ, ověřit kontaktním listem (--search 'CubeSat board' / 'CubeSat PCB'). Fotka se smí hýbat.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "CubeSat assembly",
+        "grade": {
+          "fit": 0.9
+        },
+        "pick": 3
+      }
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Ne rychlost, ale předvídatelnost/nízký příkon/spolehlivost. Náročnější mise → Cortex-A + Linux. Tři priority jako váhy proti 'raw speed'.",
+      "diagram_generator": "soucastky",
+      "diagram": "Váhy: na jedné misce ztlumeně RAW SPEED (lehčí), na druhé ambrově PREDICTABLE · LOW POWER · RELIABLE (těžší). Vedle menší větev MORE DEMANDING → ARM CORTEX-A + LINUX."
+    },
+    {
+      "id": "S20b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20b.png",
+      "note": "Doplněno po poslechu. Takt CubeSat ~200 MHz vs notebook 4–5 GHz — délky pruhů odvozené z čísel (assert na poměr ~21×). Čísla na obraze, ne ve voiceoveru.",
+      "diagram_generator": "soucastky",
+      "diagram": "Dva vodorovné pruhy: krátký CUBESAT COMPUTER ~200 MHz (ambrový), dlouhý YOUR LAPTOP 4–5 GHz. Dole MANY TIMES SLOWER — BUT ALMOST NO POWER."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Blok SOFTWARE. 'Žádný tajemný vesmírný jazyk' — je to embedded, často C/C++. Přeškrtnutý mýtus vs. realita.",
+      "diagram_generator": "software",
+      "diagram": "Přeškrtnutý nápis 'SPACE LANGUAGE' (text_skrtnuty), pod ním ambrově EMBEDDED SOFTWARE · C / C++."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Kde běží: bare metal, nebo RTOS (FreeRTOS/Zephyr/RTEMS), nebo framework (NASA F Prime). Podle factcheck jsou to reálné projekty; F Prime = C++ letový framework.",
+      "diagram_generator": "software",
+      "diagram": "Vrstvy: HARDWARE dole, nad ním dvě větve — BARE METAL a RTOS (FreeRTOS · Zephyr · RTEMS), navrchu FRAMEWORK: NASA F PRIME (C++)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "DIAGRAM smyčky letového SW — voiceover jen 'your code might look something like this', celý obsah nese obraz. Obsah přesně podle notes.md (kandidát na assert, že kroky sedí). Je to smyčka (šipka z REPEAT zpět do BOOT).",
+      "diagram_generator": "software",
+      "diagram": "Svislá smyčka kroků v monospace: BOOT → SELF TEST → READ SENSORS → CHECK POWER → UPDATE ATTITUDE → RUN PAYLOAD → STORE DATA → WAIT FOR GROUND COMMAND → TRANSMIT TELEMETRY → REPEAT, se zpětnou šipkou REPEAT→BOOT.",
+      "pause": 1.4
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Zásadní rozdíl proti běžnému počítači: no SSH, no debugger, a když spadne, je pár set km nad tebou. Přeškrtnuté SSH/DEBUGGER, box vysoko nad Zemí.",
+      "diagram_generator": "software",
+      "diagram": "Přeškrtnuté štítky SSH a ATTACH DEBUGGER (text_skrtnuty). Vpravo malý BOX vysoko nad obloukem Země, kóta A FEW HUNDRED km UP."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Proto watchdogs, safe mode, fault detection, recovery — musí se opravit sám. Odškrtne se položka RUN ON ITS OWN v checklistu (autonomie). Konvence: čtyři štítky jako obranné vrstvy.",
+      "diagram_generator": "software",
+      "diagram": "Čtyři štítky kolem boxu: WATCHDOGS · SAFE MODE · FAULT DETECTION · AUTOMATIC RECOVERY. Popisek FIX PROBLEMS WITH NO ONE THERE. Náznak odškrtnutí RUN ON ITS OWN.",
+      "pause": 2.2
+    },
+    {
+      "id": "S25b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25b.png",
+      "note": "Doplněno po poslechu — odpověď na 'jak je stíněn'. KONTROLA smyslu: paprsek shora do čipu, bit flip; těžké stínění PŘEŠKRTNUTÉ (moc těžké), místo něj watch/correct/reset (navazuje na S25).",
+      "diagram_generator": "software",
+      "diagram": "Čip zasažený kosmickým paprskem shora, uvnitř 0 → 1 (flipnutý bit). Vpravo přeškrtnuté HEAVY SHIELDING a pod tím WATCHES ITSELF · CORRECTS ERRORS · RESETS ON FAULT."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Přechod k 'things get serious': co funguje na stole, není hotové pro raketu. Teasuje testovací blok S33–S37. Čtyři nepřátelé prostředí jako ikony.",
+      "diagram_generator": "testy",
+      "diagram": "Vlevo přeškrtnuté WORKS ON YOUR DESK, vpravo čtyři ikony s popisky VIBRATION · VACUUM · TEMPERATURE EXTREMES · RADIATION. Nadpis ambrově MUST SURVIVE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Blok ORIENTACE (payoff teaseru z S11). Tumbling ve vesmíru, no floor/ceiling. GPS řekne KDE, ne KAM čelí — to je jádro. Přeškrtnout u GPS jen 'which way', ne celé GPS.",
+      "diagram_generator": "orientace",
+      "diagram": "Box uprostřed s rotačními šipkami (tumbling), kolem přeškrtnuté FLOOR/CEILING. GPS štítek: WHERE YOU ARE ✓ / WHICH WAY YOU FACE ✗ (jen druhý řádek přeškrtnut)."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Určení attitude: gyroskop + magnetometr + sun sensor. Pak ZMĚNIT — magnetorquer (rozvede S29). Tři senzory jako vstupy do 'ATTITUDE'.",
+      "diagram_generator": "orientace",
+      "diagram": "Tři vstupy GYROSCOPE · MAGNETOMETER · SUN SENSOR → šipky → box ATTITUDE. Dole ambrově náznak ONE COMMON TRICK: MAGNETORQUER (vede do S29)."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "KONTROLA FUNKČNÍHO SMYSLU (storyboard-a-diagramy.md): magnetorquer se opírá o magnetické pole Země a dává MALÝ MOMENT — NEposouvá, jen OTÁČÍ. Kresba nesmí naznačit posun (žádná šipka translace), jen rotaci. Odškrtne POINT ITSELF.",
+      "diagram_generator": "orientace",
+      "diagram": "Box s cívkou (magnetorquer), kolem čáry magnetického pole Země. Zakřivená šipka = rotace (TORQUE), vedle přeškrtnuté 'NOT A ROCKET / DOESN'T MOVE IT'. Popisek JUST TURNS IT.",
+      "pause": 2.2
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Blok MISE. Nic z předchozího není důvod — důvodem je payload. Výčet možných misí. Payload ambrově uvnitř boxu.",
+      "diagram_generator": "mise",
+      "diagram": "BOX s ambrově zvýrazněným blokem PAYLOAD, kolem něj karty misí: MEASURE RADIATION · PHOTOGRAPH EARTH · STUDY ATMOSPHERE · TEST A SENSOR · PROVE NEW TECH."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Družice je hlavně to, co payload udrží naživu: napájet, mířit, hřát, ukládat, poslat domů. Pět funkcí jako prstenec kolem payloadu — družice slouží payloadu.",
+      "diagram_generator": "mise",
+      "diagram": "Payload uprostřed, kolem něj prstenec pěti funkcí: POWER IT · POINT IT · KEEP IT WARM · STORE ITS DATA · SEND IT HOME.",
+      "pause": 1.2
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Callback k autonomii (S24). Kontrast restart PC vs. 'velmi drahý objekt tiše obíhající Zemi'. Dvě poloviny obrazu: desktop s tlačítkem restart × box nad Zemí bez pomoci.",
+      "diagram_generator": "software",
+      "diagram": "Vlevo desktop + tlačítko RESTART. Vpravo box nad obloukem Země, ambrově EXPENSIVE OBJECT · SILENTLY ORBITING. Mezi nimi kontrastní 'vs'.",
+      "pause": 2.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Blok TESTY. 'Postavili jsme to, všechno funguje — můžeme startovat? Ještě ne.' Checklist se vrací: hardware odškrtnutý, ale 'PROVE IT' položky prázdné. Sráží euforii.",
+      "diagram_generator": "testy",
+      "diagram": "Krátký seznam odškrtnutých ✓ COMPUTER BOOTS · RADIO TALKS · PANELS MAKE POWER · PAYLOAD RUNS, pod ním velké ambrové CAN WE LAUNCH? a přeškrtnuté ztlumené NOT YET."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Musí dokázat, že přežije start = testování, a hodně. Přechod do konkrétních testů (S35 vibrace archiv, S36 vakuum/teplo). Krátká deska 'PROVE IT SURVIVES'.",
+      "diagram_generator": "testy",
+      "diagram": "Nadpis TESTING, pod ním tři čekající štítky VIBRATION · VACUUM & THERMAL · (a šipka do S35/S36). Ambrově A LOT OF TESTING."
+    },
+    {
+      "id": "S35",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Vibrační test na 'giant shaker' — má jméno a dá se vyfotit → archiv. PICK PROVIZORNÍ, ověřit kontaktním listem (--search 'satellite vibration test' / 'shaker table satellite'). Static (technická fotka, ne pohyb). Náhrada, kdyby Commons nic volného neměl: diagram třesoucího se boxu na stole.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "spacecraft vibration test",
+        "grade": {
+          "fit": 0.9
+        },
+        "pick": 1
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Vakuum + teplo. Na Zemi vzduch odvádí teplo, ve vesmíru ne → jedna strana horká, druhá studená. Řešení: thermal straps, coatings, insulation. Pointa 'physics, not air conditioning'. Odškrtne SURVIVE SPACE. KONTROLA smyslu: horká strana ke slunci, studená do stínu.",
+      "diagram_generator": "testy",
+      "diagram": "Box: jedna strana ke slunci HOT, druhá ve stínu COLD, uvnitř elektronika s pásmem WITHIN LIMITS. Štítky THERMAL STRAPS · COATINGS · INSULATION. Dole ambrově NO AIR CONDITIONING — JUST PHYSICS.",
+      "pause": 1.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Baterie: cyklus nabít (slunce) / vybít (stín), znovu a znovu, roky. Jedna chyba v napájení tiše ukončí misi. Cyklický graf nabíjení/vybíjení, ne fotorealismus. Odškrtne POWER FOR YEARS.",
+      "diagram_generator": "testy",
+      "diagram": "Cyklická křivka CHARGE (sunlight) ↑ / DISCHARGE (shadow) ↓ opakovaně, popisek FOR YEARS. Vedle varování ONE MISTAKE = MISSION OVER.",
+      "pause": 2.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Blok SPOJENÍ. Jak s ní mluvit: rádio, anténa, LEGÁLNÍ frekvence, pozemní stanice. Nemá internet — jen přeletí a vysílá. Odškrtne COMMUNICATE LEGALLY. Zdůraznit 'legally' (štítek licence).",
+      "diagram_generator": "spojeni",
+      "diagram": "Řetěz RADIO → ANTENNA → LICENSED FREQUENCY → GROUND STATION. Přeškrtnuté NO INTERNET; box přelétá nad stanicí (FLIES OVERHEAD & TRANSMITS)."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "DIAGRAM 'terminálu' — voiceover 'imagine opening a terminal and seeing this', obsah nese obraz. Obsah přesně podle notes.md. Za ním pointa 'stroj tiskne ta čísla stovky km nad hlavou'. Monospace, tmavý terminál.",
+      "diagram_generator": "spojeni",
+      "diagram": "Terminálové okno v monospace: SATELLITE ONLINE / Battery: 8.1 V / Temperature: 21.4 C / Solar power: 4.7 W / Altitude: 510 km / Mode: NOMINAL. Malý popisek THIS MACHINE IS HUNDREDS OF km OVER YOUR HEAD.",
+      "pause": 2.2
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Blok START. 'Postavit raketu? Prosím ne.' — CubeSaty létají jako sekundární náklad. Přeškrtnutá vlastní raketa, ambrově SECONDARY PAYLOAD.",
+      "diagram_generator": "start",
+      "diagram": "Přeškrtnutá velká raketa 'BUILD YOUR OWN ROCKET' (text_skrtnuty / škrt přes ikonu), vedle ambrově CUBESATS FLY AS SECONDARY PAYLOADS."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Raketa už letí a má místo navíc; tvůj satelit veze standardní deployer. KONTROLA smyslu: deployer je pouzdro na boku/uvnitř nosiče, box uvnitř. Náhrada archivem, kdyby diagram byl slabý — ale deployer jako schéma stačí.",
+      "diagram_generator": "start",
+      "diagram": "Řez nosičem: hlavní náklad nahoře, na boku STANDARD DEPLOYER s malým boxem uvnitř. Popisek SPARE ROOM · RIDES ALONG · NO PERSONAL ROCKET."
+    },
+    {
+      "id": "S42",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S42.png",
+      "note": "Skutečný start rakety — má jméno a dá se vyfotit → archiv. Voiceover: nesaháš, neotevřeš, ~9 minut na orbitu (factcheck: 'about nine minutes', zaokrouhlení, ne přesně). PICK PROVIZORNÍ, ověřit (--search 'rocket launch'). Fotka se smí hýbat (slow_zoom_in). Odškrtne GET TO ORBIT.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "rocket launch liftoff",
+        "grade": {
+          "fit": 0.95
+        },
+        "pick": 1
+      }
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S43.png",
+      "note": "Zkráceno po poslechu na uvolnění + tumbling; výplata 'ground station hears it' se přesunula do S43b. PICK PROVIZORNÍ, ověřit (--search 'CubeSat deployment ISS'). slow_zoom_out = vzdaluje se.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "CubeSat deployment ISS",
+        "grade": {
+          "fit": 0.9
+        },
+        "pick": 6
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43b.png",
+      "note": "Doplněno po poslechu — jak pozná vypuštění + 30 min inhibice (CDS). 'ground station hears it' přesunuto sem z S43 (za těch 30 min ticha, jinak odporuje pravidlu).",
+      "diagram_generator": "start",
+      "diagram": "Časová osa EJECTED → SWITCHES POP → BOOT → 30 MIN SILENT → RADIO ON → CALL HOME. Zvýrazněno BY THE RULES: SILENT FOR ~30 MINUTES.",
+      "pause": 2.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Beat výplaty: 'Postavil jsi stroj. A ten stroj teď obíhá planetu.' Box na oběžné dráze kolem Země, klid. POZOR (factcheck): 'orbiting the planet', ne 'in space'. Vhodné místo pro delší pauzu.",
+      "diagram_generator": "zaver",
+      "diagram": "Oblouk Země, kolem něj čárkovaná orbita s malým plným BOXEM. Ambrově YOU BUILT A MACHINE. / IT'S ORBITING THE PLANET.",
+      "pause": 2.6
+    },
+    {
+      "id": "S44b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44b.png",
+      "note": "Debris setup (vrácen v opravách 0.3). 'Ještě nejsme hotoví' — mrtvá družice nemůže zůstat navždy, stane se z ní space debris. Táž orbita jako S44, box teď ztlumený/mrtvý + varování.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž orbita jako S44, box ztlumený (DEAD SATELLITE). Kolem přibývají další čárkované úlomky, ambrově SPACE DEBRIS. Náznak 'LEFT FOR CENTURIES'."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "End-of-life plán: horní atmosféra brzdí, orbita klesá, re-entry, shoří. Pointa 'konec mise je součást mise'. Odškrtne CLEAR OUT OF ORBIT. KONTROLA smyslu: klesající spirála dolů do atmosféry.",
+      "diagram_generator": "zaver",
+      "diagram": "Klesající spirála orbity k Zemi: DRAG → ORBIT DECAYS → RE-ENTRY → BURNS UP. Dole ambrově THE END OF THE MISSION IS PART OF THE MISSION.",
+      "pause": 2.6
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Závěr — začátek ocasu videa (POZOR: S46–S51 = posledních ~20 s, závěrečná obrazovka YouTube; drž VOLNOU HORNÍ POLOVINU obrazu, obsah do dolní části nad titulek). 'Technicky ano.' Přeškrtnuté 'nemusíš být NASA / vlastnit raketu / velká firma'.",
+      "diagram_generator": "zaver",
+      "diagram": "Ambrově TECHNICALLY, YES. Pod tím tři přeškrtnuté podmínky BE NASA · OWN A ROCKET · A HUGE COMPANY. Vše v dolní polovině, horní půlka prázdná (end screen)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "VÝPLATA CHECKLISTU. Pět položek přesně podle voiceoveru S47/factcheck: survive launch · survive space · communicate legally · run on its own · clear out of orbit — všechny odškrtnuté. ASSERT: text položek se musí shodovat s S47 ve script.md a s páteří checklist(). Vše 'proven before anyone puts it on a rocket'. Dolní polovina (end screen nahoře).",
+      "diagram_generator": "zaver",
+      "diagram": "CHECKLIST se všemi ✓: SURVIVE LAUNCH · SURVIVE SPACE · COMMUNICATE LEGALLY · RUN ON ITS OWN · CLEAR OUT OF ORBIT. Dole ambrově ALL PROVEN BEFORE THE ROCKET. Obsah v dolní polovině.",
+      "pause": 2.2
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Hlavní pointa videa: CubeSaty neudělaly vesmír SNADNÝM, udělaly ho STANDARDIZOVANÝM. Přeškrtnuté EASY, ambrově STANDARDISED. Dolní polovina (end screen).",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnuté NOT EASY (text_skrtnuty), pod ním velké ambrové STANDARDISED. Ztlumeně FIT AN EXISTING STANDARD. Horní půlka volná.",
+      "pause": 1.2
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Ocas: právě teď obíhají drobné stroje, postavené univerzitami, výzkumnými týmy, firmami, studenty. Čárkované orbity kolem Země s drobnými boxy. Dolní polovina.",
+      "diagram_generator": "zaver",
+      "diagram": "Země dole, kolem ní několik čárkovaných orbit s drobnými boxy. Štítky BUILT BY UNIVERSITIES · RESEARCH TEAMS · COMPANIES · STUDENTS. Horní půlka volná (end screen).",
+      "pause": 1.0
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Co nesou: kamery, měření radiace, nová technologie, a někdy jen experiment 'dá se to rozchodit ve vesmíru?'. Drobné boxy s ikonami misí. Dolní polovina.",
+      "diagram_generator": "zaver",
+      "diagram": "Řada drobných boxů s ikonami: CAMERA · RADIATION · NEW TECH · ? (experiment). Poslední s ambrovou bublinou 'CAN WE MAKE THIS WORK IN SPACE?'. Horní půlka volná.",
+      "pause": 1.0
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "FINÁLE — výplata OBOU pátěří. 'Vzdálenost mezi tebou a vesmírem už není raketa. Je to deseticentimetrová krabička a hodně dlouhý checklist.' Malý BOX (páteř #1) vlevo, obří dlouhý CHECKLIST (páteř #2) vpravo, oba na svých pevných souřadnicích. Klidná deska, dlouhá pauza. Obsah drž v dolní/střední části, horní pruh volný pro end screen.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo malý BOX s kótou ~10 cm, vpravo velmi dlouhý CHECKLIST (celý odškrtnutý). Mezi nimi ambrově THE DISTANCE TO SPACE: A 10 cm BOX + A VERY LONG CHECKLIST. Horní pruh prázdný.",
+      "pause": 3.0
+    }
+  ]
+}

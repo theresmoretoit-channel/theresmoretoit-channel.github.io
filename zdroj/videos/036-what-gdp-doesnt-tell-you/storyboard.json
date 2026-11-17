@@ -1,0 +1,940 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S01.png",
+      "note": "Jediná fotografie v úvodu. Zničené domy jsou konkrétní vyfotitelná věc, tedy archiv, ne SDXL. PICK OVĚŘEN KONTAKTNÍM LISTEM: první dotaz ('FEMA aerial view hurricane damaged homes') vrátil sice public domain snímek, ale ŠIROKÝ LETECKÝ ZÁBĚR, na kterém se zkáza musí hledat — jako hook v první sekundě videa nefunguje. Zúženo na 'destroyed homes and debris', kde zkáza plní rám. `fit` je 0,96, ne 0,92: snímek má poměr blízko 3:2, takže rozostřené okolí má být jen úzký lem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "FEMA Destroyed homes and debris on Bolivar Peninsula",
+        "pick": 0,
+        "grade": {
+          "fit": 0.96
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "ZAVEDENÍ DRUHÉ POLOVINY PÁTEŘE. Pás pod vodorovnou čarou = 'co se do GDP nezapočítá'. Tady je v něm zkáza. Čára leží na PEVNÉM y a nesmí se do S98 hnout — na tom stojí S54, S60, S65, S69 i S73.",
+      "diagram_generator": "uvod",
+      "diagram": "Spodní pás POD ČAROU: tři škrtnuté položky HOMES / ROADS / BUSINESSES."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "ZAVEDENÍ PÁTEŘE. Ukazatel je na pevných souřadnicích až do S92, kde se z něj stane teploměr. Konvence: ukazatel se hýbe JEN s produkcí, nikdy se zkázou. Duch původní polohy zůstane čárkovaně, ať je růst vidět.\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = poloha před hurikánem.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad čarou se objeví vodorovný ukazatel GDP a ambrová výplň povyroste."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Ústřední otázka videa. Beat nese otazník, ne nový obraz — je to jeden obraz, ve kterém se mění jediná věc (CLAUDE.md, rozdělení scény).",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, mezi pásem a ukazatelem velký ambrový otazník.",
+      "pause": 1.6
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Uklizení scény před pojmenováním. Ukazatel se NEPOSOUVÁ, jen kolem něj zmizí všechno ostatní.",
+      "diagram_generator": "uvod",
+      "diagram": "Zkáza i otazník zmizí, zůstane samotný ukazatel uprostřed."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Jednoslovná scéna, 0,7 s. NAVETI POVINNĚ (CLAUDE.md: 'Probably not.' u videa 026) a ověřit whisperem, ne existencí souboru.",
+      "diagram_generator": "uvod",
+      "diagram": "Ukazatel dostane popisek GDP.",
+      "naveti": "That is the number this whole video is about.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Rozvinutí zkratky. Písmena G-D-P zůstanou ambrová, zbytek slov ztlumený.",
+      "diagram_generator": "definice",
+      "diagram": "GDP se rozepíše na GROSS DOMESTIC PRODUCT pod ukazatelem."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Nejdelší scéna první třetiny (9,4 s), takže je na čtyři části místo. Každá část je doložená zvlášť ve factcheck.md; 'within a country's borders' je vědomé zjednodušení (SNA má rezidenci v ekonomickém území), takže ta část NEMÁ dostat ambrový důraz — ambrová znamená 'o tomhle je řeč', a tady je řeč o celku.",
+      "diagram_generator": "definice",
+      "diagram": "Definice rozložená na čtyři ohraničené části: MARKET VALUE / ALL FINAL GOODS AND SERVICES / WITHIN A COUNTRY'S BORDERS / IN A PERIOD OF TIME."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Rozvíjí čtvrtou část z S08. Osa je vodorovná a leží NÍŽ než páteřní čára, ať se nepletou.",
+      "diagram_generator": "definice",
+      "diagram": "Časová osa s vyznačeným rokem a čtvrtletím."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Šipky zatím ukazatele nedosáhnou — dorazí až v S11. Konvence: šipka = 'tohle se do toho počítá'.",
+      "diagram_generator": "definice",
+      "diagram": "Čtyři štítky FACTORIES / SOFTWARE / RESTAURANTS / BUILDERS, z každého šipka nahoru."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Ukazatel roste POPRVÉ z legitimní produkce. Pro srovnání s S24, kde poroste z rekonstrukce po katastrofě — týž pohyb, jiný důvod, a přesně o tom je video.\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = poloha před čtyřmi šipkami z S10.",
+      "diagram_generator": "definice",
+      "diagram": "Šipky dorazí do ukazatele a výplň povyroste."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Ne otazník jako v S04, ale celá otázka — tohle je otázka, na kterou GDP odpovědět UMÍ. Grafický protiklad k S85, kde se stejným způsobem přiletí otázky, na které neumí.",
+      "diagram_generator": "definice",
+      "diagram": "Nad ukazatelem otázka HOW MUCH PRODUCTION IS HAPPENING?"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Fajfka = 'na tuhle otázku to odpovídá'. Zopakuje se převráceně v S85.",
+      "diagram_generator": "definice",
+      "diagram": "Pod otázkou ambrová fajfka.",
+      "pause": 2.2
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Předěl.",
+      "diagram_generator": "uzitek",
+      "diagram": "Otázka SO WHY DOES EVERYBODY CARE? nad ukazatelem."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Stupnice je to, co dělá z obrázku měřidlo. Zůstává na ukazateli až do konce videa a v S86 se stane stupnicí teploměru.",
+      "diagram_generator": "uzitek",
+      "diagram": "Ukazatel dostane stupnici s dílky — 'standardised way'."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = nižší poloha.",
+      "diagram_generator": "uzitek",
+      "diagram": "Výplň roste, vedle šipka nahoru a popisek PRODUCING MORE."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "POZOR NA KONVENCI: tohle je JEDINÉ místo videa, kde výplň klesá, a klesá proto, že KLESLA PRODUKCE. Zkáza s ukazatelem nikdy nehne (S25, S73). Kdyby se to smíchalo, S73 přestane tvrdit, co má.\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = VYŠŠÍ poloha, protože tady jako jediná ve videu výplň KLESÁ.",
+      "diagram_generator": "uzitek",
+      "diagram": "Výplň klesá, šipka dolů, popisek ACTIVITY DECLINING."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "OPRAVENO PŘI REVIZI: třetí dvojice byla popsaná BOOM / BOOM, což jednak vymýšlí, že období růstu je konjunktura, jednak jsou dva stejné popisky nečitelné. Hlas říká 'one period of economic growth with another'. 10,3 s, tedy tři dvojice se vejdou. Velký ukazatel na chvíli ustoupí do ztlumení, ale ZŮSTANE na svém místě — malé dvojice se sázejí pod něj.",
+      "diagram_generator": "uzitek",
+      "diagram": "Tři dvojice malých ukazatelů: THIS YEAR / LAST YEAR, COUNTRY A / COUNTRY B, GROWTH THEN / GROWTH NOW.",
+      "pause": 1.6
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "CALLBACK NA PEVNÝCH SOUŘADNICÍCH. Musí to být pixel po pixelu tentýž obraz jako S03, jinak se nepozná, že jsme zpátky u hooku. Hlídá assert.",
+      "diagram_generator": "hurikan",
+      "diagram": "Návrat obrazu z S02 a S03: pás se zkázou a nad ním ukazatel."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Škrtá se vodorovnou čarou přes nápis (text_skrtnuty), ne křížkem — křížek přes nápis ho udělá nečitelným.",
+      "diagram_generator": "hurikan",
+      "diagram": "Tři položky pásu se přeškrtnou, popisek THAT'S TERRIBLE."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "První okamžik, kdy něco ze spodního pásu čáru PŘEKROČÍ. Zopakuje se v S56 u restaurace a v S73 se to naopak nestane.",
+      "diagram_generator": "hurikan",
+      "diagram": "Z pásu vyrazí vzhůru šipka REBUILD."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Rozvržení schválně stejné jako S10 — divák má poznat, že se to počítá STEJNĚ jako výroba aut a softwaru.",
+      "diagram_generator": "hurikan",
+      "diagram": "Čtyři štítky CONSTRUCTION / WORKERS / MATERIALS / SERVICES, každý se šipkou k ukazateli."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Šířka nese tvrzení ('enormous amounts of money'), takže se odvozuje z rozměru ostatních štítků, ne napevno.",
+      "diagram_generator": "hurikan",
+      "diagram": "Pátý štítek GOVERNMENT, širší než ostatní."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = poloha z S19, tedy stav před rekonstrukcí.",
+      "diagram_generator": "hurikan",
+      "diagram": "Všech pět šipek dorazí, výplň ukazatele povyroste."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "TĚŽIŠTĚ CELÉHO VIDEA. Duch původní polohy z S03 je ta jediná věc, která dělá z obrázku tvrzení — bez něj by scéna říkala jen „ukazatel je takhle vysoko“. Poloha ducha se bere z TÉŽE konstanty jako S03, ne opisem.",
+      "diagram_generator": "hurikan",
+      "diagram": "Ukazatel viditelně výš než na začátku; čárkovaný duch původní polohy z S03."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Kontrast je celá scéna: nahoře se pohnulo, dole ne. Nic dalšího do obrazu.",
+      "diagram_generator": "hurikan",
+      "diagram": "Ukazatel nahoře, pás dole pořád přeškrtnutý a nezměněný."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Přejmenování měřidla, ne nový obraz.",
+      "diagram_generator": "hurikan",
+      "diagram": "Ukazatel dostane popisek ACTIVITY."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "OPRAVENO PŘI REVIZI STORYBOARDU: původně tam spojnice nebyla vůbec, což tvrdí 'nikdy'. Hlas ale říká 'doesn't AUTOMATICALLY measure' — tedy ne že to nejde, nýbrž že se to nestane samo. Čárkovaná čára je konvence kanálu pro domněnku a nejistotu, takže míra jistoty obrazu teď sedí s hlasem.",
+      "diagram_generator": "hurikan",
+      "diagram": "Vedle ukazatele dvě pole GOOD a BAD; k ukazateli od nich vede ČÁRKOVANÁ spojnice s otazníkem.",
+      "pause": 2.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Předěl.",
+      "diagram_generator": "ceny",
+      "diagram": "Ukazatel sám, nad ním ambrový nápis AND THAT'S NOT ALL."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Řady musí být IDENTICKÉ — počet i rozestupy z jedné konstanty, jinak obraz tvrdí, že se produkce změnila.",
+      "diagram_generator": "ceny",
+      "diagram": "Dvě totožné řady po pěti předmětech, popisky LAST YEAR a THIS YEAR."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Ambrové jsou cenovky, ne předměty — o cenách je řeč.",
+      "diagram_generator": "ceny",
+      "diagram": "U letošní řady cenovky, každá o desetinu vyšší."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Růst se odvozuje z téže konstanty jako cenovky (10 %), ne odhadem.\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = loňská poloha, rozdíl je přesně desetina.",
+      "diagram_generator": "ceny",
+      "diagram": "Ukazatel povyroste o desetinu, řady zůstanou totožné."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Škrtá se YES a ambrové je NO — hlas říká 'No' a ambrová znamená 'o tomhle je řeč'. Ukazatel v téhle scéně stojí; odpověď se týká produkce, ne měřidla.",
+      "diagram_generator": "ceny",
+      "diagram": "Otázka DID IT PRODUCE MORE? a pod ní přeškrtnuté ANO, ambrové NO."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Jediné místo videa, kde je ukazatelů víc. Horní zůstává na páteřní pozici, REAL se sází pod něj — aby se po S37 dal ten spodní zase odstranit.",
+      "diagram_generator": "ceny",
+      "diagram": "Ukazatel se rozdělí na dva pod sebou: NOMINAL a REAL."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Zvýrazňuje se HORNÍ z dvojice zavedené v S34, tedy ten na páteřní pozici. Spodní REAL zůstává ztlumený, ne skrytý.",
+      "diagram_generator": "ceny",
+      "diagram": "NOMINAL zvýrazněn, popisek CURRENT PRICES."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Cenovky jsou tytéž tvary jako v S31 a odečítají se z REAL — proto musí být kresleny toutéž funkcí, jinak se souvislost nepozná.",
+      "diagram_generator": "ceny",
+      "diagram": "REAL zvýrazněn, cenovky z S31 se z něj odečtou a zešednou."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Větve jsou obě plnou čarou — je to otevřená otázka, ne doložený závěr.",
+      "diagram_generator": "ceny",
+      "diagram": "Titulek THREE PERCENT a pod ním dvě větve: REAL GROWTH / HIGHER PRICES.",
+      "pause": 2.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "OPRAVENO PŘI REVIZI: dřív scéna rovnou přelepila ukazatel na PER CAPITA, jenže hned následující S39 mluví o CELKOVÉM GDP. Obraz by běžel o scénu napřed proti hlasu. Nadpis je ohlášení tématu, přejmenování přijde až v S40.",
+      "diagram_generator": "nahlavu",
+      "diagram": "Nad ukazatelem se objeví nadpis GDP PER CAPITA; ukazatel sám zůstane popsaný jako dosud."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Ukazatel v plné šíři a bez postaviček. Je to protipól S40: napřed celek, teprve pak dělení. Ohlašovací nadpis z S38 zůstává nahoře.",
+      "diagram_generator": "nahlavu",
+      "diagram": "Ukazatel v plné šíři, popisek HOW BIG THE ECONOMY IS."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Postavičky z _kit.postava(). Počet je jen naznačený (řada mizí do ztracena), protože žádné konkrétní číslo scéna netvrdí. Přejmenování ukazatele patří sem, ne do S38.",
+      "diagram_generator": "nahlavu",
+      "diagram": "Pod ukazatelem řada postaviček a dělicí znak; teprve teď ukazatel dostane popisek PER CAPITA."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "PPP. Koše se liší VELIKOSTÍ, ne počtem položek — počet by tvrdil konkrétní poměr, který scéna nemá.",
+      "diagram_generator": "nahlavu",
+      "diagram": "Dvě země, u každé týž obnos peněz a pod ním různě velký nákupní koš."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nadpis je nad OBĚMA zeměmi z S41, ne nad jednou — hlas mluví o srovnávání, tedy o obou.",
+      "diagram_generator": "nahlavu",
+      "diagram": "Nad oběma zeměmi společný nápis PER CAPITA, PPP-ADJUSTED."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "OPRAVENO PŘI REVIZI: sloupce byly popsané jako rozdělení BOHATSTVÍ, jenže o bohatství je řeč až v §7 (S44–S50) a video ty dvě věci schválně odděluje. Tady je řeč o GDP per capita, takže sloupce musí být produkt na hlavu. Čára průměru leží TAM, kde průměr těch sloupců opravdu je — spočítat z dat, ne umístit od oka.",
+      "diagram_generator": "nahlavu",
+      "diagram": "Produkt na hlavu jako velmi nerovné sloupce a přes ně jediná vodorovná čára AVERAGE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Předěl.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "Ukazatel a vedle něj přeškrtnuté rovnítko k nápisu WEALTH."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Popisek na ukazateli, nic dalšího. Připravuje protiklad k nádrži, která přijde v S46 vpravo.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "Ukazatel s popiskem PRODUCTION OVER A PERIOD."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "OPRAVENO PŘI REVIZI: nádrž byla 'pod ukazatelem', tedy v pásu, který od S02 znamená 'co GDP nezachytí'. Bohatství tam nepatří — není to nezapočtená produkce, nýbrž jiný účetní objekt (stav v rozvaze, SNA2008 §2.122). Kdyby zůstalo v pásu, rozmělní se význam pásu, na kterém pak stojí S54, S60, S65, S67 i S73. Nádrž proto sedí na vlastní ose vpravo.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "VPRAVO od ukazatele, mimo pás pod čarou, se objeví nádrž s popiskem ACCUMULATED OVER TIME."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "NEJDŮLEŽITĚJŠÍ DIAGRAM SEKCE. Doloženo doslova SNA2008 §3.2 ('Stocks measure economic value at a point in time. Flows measure changes in economic value over a period of time'), viz factcheck.md. Trubka jde DOPRAVA k nádrži, ne dolů do pásu — viz S46.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "Ukazatel se protáhne doprava do trubky ústící do nádrže: FLOW a STOCK."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Tok i nádrž na týchž souřadnicích jako S47.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "Silný tok, ale nádrž vpravo rozdělená na velmi nerovné díly."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Zrcadlo S48. Trubka i nádrž na týchž souřadnicích, ať je rozdíl vidět na jediné veličině.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "Slabý tok, ale nádrž vpravo plná."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "OPRAVENO PŘI REVIZI: dřív se škrtal popisek NA NÁDRŽI, takže obraz tvrdil 'nádrž není bankovní účet'. Hlas ale říká, že bankovní účet není GDP. Bankovní účet JE zůstatek, tedy nádrž — proto popisek zůstává na nádrži a škrtá se SPOJNICE od ukazatele. Táž konvence jako S88, S89 a S99.",
+      "diagram_generator": "bohatstvi",
+      "diagram": "Nádrž dostane popisek BANK ACCOUNT; mezi ukazatelem a tím popiskem je přeškrtnutá spojnice.",
+      "pause": 2.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Uklizení scény. Prázdný pás je příslib — za chvíli se do něj něco položí.",
+      "diagram_generator": "neplacena",
+      "diagram": "Ukazatel sám, pás pod čarou prázdný a čekající."
+    },
+    {
+      "id": "S52",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S52.png",
+      "note": "SDXL SI TU MÍSTO ZASLOUŽÍ: atmosféra a lidské měřítko, přesně kotva stylu ('obyčejný život v lidském měřítku'). Jediný teplý akcent patří tomu, co se do GDP nezapočítá — světlu v kuchyni. POZOR: nežádat denní dobu, 'overcast' místo 'evening' (CLAUDE.md: dawn/dusk dá vždycky zlatou).",
+      "prompt": "a small home kitchen seen from the doorway, one person quietly preparing a meal at a worn wooden table, a pot on the stove, plates set out for a family, soft light from a single window, grey overcast day outside, ordinary and unremarkable, no text"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "První věc, kterou video do prázdného pásu vloží. Ambrová, protože o ní je řeč — ne protože je dobrá.",
+      "diagram_generator": "neplacena",
+      "diagram": "Do pásu pod čarou se položí talíř s popiskem A MEAL."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "KLÍČOVÁ SCÉNA SEKCE a přesná ilustrace opravené věty ze scénáře ('that hour didn't happen'). Šipka se čáry DOTKNE a nepřejde ji; ukazatel se nesmí hnout ani o pixel. Podle factchecku se suroviny do GDP započítaly — proto míří k čáře HODINA PRÁCE, ne talíř.",
+      "diagram_generator": "neplacena",
+      "diagram": "Vedle talíře štítek ONE HOUR OF WORK; od obojího vede šipka k čáře a ZASTAVÍ SE pod ní."
+    },
+    {
+      "id": "S55",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Protějšek S52. Rozvržení schválně podobné (jídlo, ruce, stůl), aby se dvě scény četly jako TÁŽ VĚC v jiném prostředí — v tom je pointa. Účtenka je jediný prvek navíc a je to ten, o který jde.",
+      "prompt": "a modest restaurant kitchen pass, a plated meal being handed across the counter to a waiting server, a printed bill on a spike, tiled wall, flat even light, grey overcast day beyond the doorway, ordinary working place, no text"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Rozdíl proti S54 je jediný: šipka projde. Nic jiného se v obraze nesmí změnit, jinak divák nepozná, co to způsobilo.\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = poloha z S54, kde se šipka o čáru zastavila.",
+      "diagram_generator": "neplacena",
+      "diagram": "Táž šipka jako v S54, ale nese štítek TRANSACTION a čáru PŘEKROČÍ; ukazatel povyroste."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Talíře musí být kresleny TOUŽ funkcí a v téže velikosti — obraz tvrdí, že jsou stejné.",
+      "diagram_generator": "neplacena",
+      "diagram": "Dva totožné talíře vedle sebe, mezi nimi rovnítko."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Pojmenování čáry, která tam leží od S02. Podle factchecku je měřitelnost JEDEN ze tří důvodů SNA, ne jediný — proto popisek říká 'not measured', ne 'worthless'.",
+      "diagram_generator": "neplacena",
+      "diagram": "Páteřní čára dostane popisky: nad ní MEASURED, pod ní NOT MEASURED."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Pás se rozšiřuje, ale zůstává prázdný — položky přijdou až v S60. Rozšíření je příslib, že jich bude víc než ta jedna hodina z S54.",
+      "diagram_generator": "neplacena",
+      "diagram": "Pás pod čarou se rozšíří, popisek UNPAID WORK."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Všechny čtyři jsou DOSLOVA na seznamu vyňatých služeb v SNA2008 §6.28 (viz factcheck.md) — proto zrovna tyhle čtyři a proto se nemají nahradit hezčími ikonami.",
+      "diagram_generator": "neplacena",
+      "diagram": "Čtyři štítky v pásu: CHILDCARE / CLEANING / COOKING / CARE OF RELATIVES."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Ambrová = 'jsou cenné'. Nehybný ukazatel = 'a přesto tam nejsou'.",
+      "diagram_generator": "neplacena",
+      "diagram": "Štítky zesvětlí do ambrové, ale ukazatel se nehne.",
+      "pause": 1.6
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Připravuje místo pro portrét v S63. Škrtá se nápis vodorovnou čarou.",
+      "diagram_generator": "kuznets",
+      "diagram": "Nápis A MODERN CRITICISM přeškrtnutý, pod ním prázdné místo."
+    },
+    {
+      "id": "S63",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "PORTRÉT: fit 0.84 a effect static POVINNĚ. CLAUDE.md: 'portrét nesmí být přes celý obraz' a 'zoom na portrét nepatří'. POZOR NA ROZLIŠENÍ: první pick ('Simon Kuznets close-up (cropped)') měl originál jen 246x379 px, což je na 1920 řádků nepoužitelně málo a v renderu by byl rozmazaný. Bere se proto NEOŘÍZNUTÁ verze. Public domain (AP, 1971). Po stažení ověřit `archive.py --evidence`, protože pořadí výsledků Commons se mění.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Simon Kuznets 1971",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Nejdelší scéna videa (11,5 s), takže je na citaci i zdroj místo. TEXT MUSÍ BÝT ČITELNÝ, tedy diagram — ani SDXL, ani archiv text neumí. Citace je doslovná ze str. 7 primárního dokumentu; nekrátit ji jinak než na doslovný výřez, jinak přestane být citací.",
+      "diagram_generator": "kuznets",
+      "diagram": "Deska s citací: 'The welfare of a nation can scarcely be inferred from a measurement of national income.' a pod ní zdroj NATIONAL INCOME 1929-32, SENATE DOCUMENT 124, 1934."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "CALLBACK PŘES CELÉ VIDEO: Kuznets ukazuje přesně na ty čtyři položky, které vyjmenovala S60 a které jsou v SNA §6.28. Štítky se kreslí TOUŽ funkcí a na týchž souřadnicích jako v S60, jinak se propojení nepozná.",
+      "diagram_generator": "kuznets",
+      "diagram": "Od desky vede šipka dolů do pásu pod čarou, kde se rozsvítí štítky z S60.",
+      "pause": 2.8
+    },
+    {
+      "id": "S66",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S66.png",
+      "note": "Emocionální obrat videa. Lidské měřítko a odstup — obličeje se nemají číst, protože scéna nemluví o konkrétních lidech.",
+      "prompt": "three ordinary people sitting on a low wall outside a plain block of flats, seen from a distance, nobody's face readable, quiet street, grey overcast sky, flat even light, patient unremarkable mood, no text"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Pás se plní dál, ke čtyřem z S60. Ukazatel se pořád nehýbe.",
+      "diagram_generator": "zivot",
+      "diagram": "Do pásu pod čarou přibudou štítky HEALTHY / SAFE / FREE TIME."
+    },
+    {
+      "id": "S68",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S68.png",
+      "note": "Doplňuje 'clean environment' a 'like the way they live'. Prázdná ulice schválně — divák si tam dosadí sebe.",
+      "prompt": "a plain residential street on an overcast day, low houses, a scrap of grass, laundry on a line, one bicycle leaning on a wall, nobody in frame, flat even light, ordinary and lived-in, no text"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Ukazatele musí být PIXEL PO PIXELU stejné, jinak scéna netvrdí, co říká ('very similar GDP per capita'). Hlídá assert. Popisek PER CAPITA je nutný — od S40 je ukazatel na hlavu a divák to musí poznat i tady.",
+      "diagram_generator": "zivot",
+      "diagram": "Dvě země vedle sebe: totožné ukazatele s popiskem PER CAPITA nahoře, ale zcela různě plné pásy dole."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Doloženo SNA2008 §1.84, viz factcheck.md.",
+      "diagram_generator": "zivot",
+      "diagram": "Přes pás pod čarou nápis GDP WASN'T DESIGNED FOR THIS.",
+      "pause": 2.6
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Přechod, který explicitně navazuje na hook — nová věta S71 vznikla právě proto (viz notes.md, 0.2).",
+      "diagram_generator": "valka",
+      "diagram": "Ukazatel sám, pod ním ztlumený duch hurikánu z S02."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Rozdělení na dvě poloviny čárou, která tam leží od S02. Zbraně jsou v GDP (SNA2008, rozšíření hranice aktiv o weapons systems), zkáza je mimo (§12.46, který jmenuje i 'acts of war') — viz factcheck.md.",
+      "diagram_generator": "valka",
+      "diagram": "Nad čarou štítek WEAPONS PRODUCED, pod čarou WEALTH DESTROYED."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "SCÉNA, KTEROU FACT CHECK PŘEPSAL. Musí ukazovat účetní tvrzení, ne 'ničení nemá vliv': proto se spodní šipka o čáru zastaví, ale NENÍ přeškrtnutá a nemá křížek — škrt by tvrdil 'nestalo se to'. Táž geometrie jako S54, kde se o čáru zastaví hodina práce.\n\nDUCH POVINNĚ: scéna je STATICKÁ, takže „povyroste“ v obraze nikdo neuvidí — pohyb musí nést čárkovaný duch předchozí polohy výplně. Bez něj scéna tvrdí jen „ukazatel je takhle vysoko“, ne „vyrostl“. Tady duch = poloha před válečnou výrobou.",
+      "diagram_generator": "valka",
+      "diagram": "Ze zbraní šipka nahoru do ukazatele, který povyroste. Ze zkázy šipka nahoru, která se o čáru ZASTAVÍ a dostane popisek NOT SUBTRACTED."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "KOTVA KARTY NA VIDEO 025. Karta má vyskočit na slovech 'whole video', takže deska musí být čitelná od začátku scény. Obdélník je zástupné místo — skutečnou dlaždici vloží YouTube, takže pod ním nesmí být nic, o co by divák přišel.",
+      "diagram_generator": "valka",
+      "diagram": "Klidná deska: obdélník s poměrem 16:9 a popiskem HOW DOES A WAR ECONOMY WORK?",
+      "pause": 2.0
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Rozvržení schválně totožné s S10 a S22 — potřetí týž obraz, potřetí jiný důvod. To je celý argument videa v jednom rozvržení. Doloženo SNA2008 §1.81 (znečištění) a §1.79, který používá epidemii jako svůj vlastní příklad.",
+      "diagram_generator": "priklady",
+      "diagram": "Čtyři štítky POLLUTION / CRIME / ACCIDENTS / DISEASE, z každého šipka nahoru do ukazatele."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "OPRAVENO PŘI REVIZI: dřív byla přeškrtnutá celá tabule, což je totéž tvrzení, jaké o scénu dál dělají prázdná políčka v S77. Škrtnutá SPOJNICE říká 'ukazatel není morální skóre' a nechává S77 její vlastní práci: ukázat mechanismus. Táž konvence jako S50, S88, S89 a S99.",
+      "diagram_generator": "priklady",
+      "diagram": "Nad ukazatelem tabule MORAL SCORE a mezi ní a ukazatelem přeškrtnutá spojnice."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Obě políčka jsou PRÁZDNÁ. To je to tvrzení.",
+      "diagram_generator": "priklady",
+      "diagram": "U ukazatele dvě prázdná políčka: +  pro dobré, −  pro špatné.",
+      "pause": 2.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Předěl.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Otázka A TERRIBLE INDICATOR? nad ukazatelem."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Rehabilitace. Poprvé od S03 je ukazatel kreslený plnou silou.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Ukazatel plný, ambrový, ostrý."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Dvě šipky u JEDNOHO ukazatele, ne dva ukazatele. Rozdíl proti S16 a S17: tam se výplň hýbala, tady se jen ukazuje, že měřidlo umí obojí.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Ukazatel se stupnicí a dvěma šipkami MORE / LESS."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Křivka je ilustrativní a nesmí nést konkrétní data — video žádná neuvádí. Proto bez čísel na ose.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Časová řada s propadem a zotavením, popisky RECESSION a RECOVERY."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "1,2 s. NAVETI.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Ukazatel a vedle něj drobný ambrový nápis NOT PERFECT.",
+      "naveti": "Nobody claims otherwise."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Připravuje S86: to prázdné místo je tam, kde v S86 vyroste teploměr. Čárkovaný obrys = konvence pro 'není to tam'.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Vlevo ukazatel, vpravo prázdné místo s čárkovaným obrysem a nápisem NOTHING."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "OPRAVENO PŘI REVIZI: dřív to byl týž obraz jako S82, jen s jiným popiskem ('NOT PERFECT' -> 'NOT THE PROBLEM'), tedy dvě po sobě jdoucí scény bez proměny. Teď scéna ZAČÍNÁ obraz z S85 — otázky se dají do pohybu — takže S84 -> S85 je proměna, ne dvojí titulek.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Z pásu pod čarou se začnou zvedat otázky a míří k ukazateli; nápis NOT THE PROBLEM u ukazatele."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "PROTIKLAD K S12–S13: tam otázka dorazila a dostala fajfku, tady se odrazí. Rozvržení musí být zrcadlem S12, jinak se dvojice nepozná.",
+      "diagram_generator": "uzitecne",
+      "diagram": "Z pásu pod čarou se k ukazateli sbíhají otázky a odrážejí se od něj.",
+      "pause": 2.2
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "VÝPLATA PÁTEŘE. Táž délka, tytéž souřadnice, táž stupnice jako od S03 — přibývá jediný tvar. Kdyby se ukazatel při proměně posunul, callback zmizí. Hlídá assert proti konstantám z _kit.py.",
+      "diagram_generator": "teplomer",
+      "diagram": "Ukazateli naroste na levém konci baňka. Je z něj teploměr."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Fajfka je táž jako v S13.",
+      "diagram_generator": "teplomer",
+      "diagram": "Teploměr s ambrovou fajfkou a popiskem TEMPERATURE."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Škrtá se SPOJNICE, ne teploměr ani manžeta — obojí je v pořádku, špatné je jejich spojení.",
+      "diagram_generator": "teplomer",
+      "diagram": "Vedle teploměru manžeta tlakoměru, mezi nimi přeškrtnutá spojnice."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Táž geometrie jako S88.",
+      "diagram_generator": "teplomer",
+      "diagram": "Vedle teploměru štítek HAPPY WITH YOUR LIFE?, spojnice přeškrtnutá."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "OPRAVENO PŘI REVIZI: dřív tu byl jen 'teploměr sám uprostřed', tedy úklid scény před popiskem v S91. Hlas ale říká 'GDP works the same way', což je okamžik, kdy se metafora uzavírá. Vrácení původního popisku GDP na teploměr to řekne obrazem: to měřidlo od S03 a tenhle teploměr jsou jedno a totéž.",
+      "diagram_generator": "teplomer",
+      "diagram": "Teploměru se vrátí popisek GDP z ukazatele — je to táž věc."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Popisek na teploměru, který si v S90 vzal zpět jméno GDP. Ambrová je na popisku, ne na teploměru — o důležitosti je řeč, ne o měřidle.",
+      "diagram_generator": "teplomer",
+      "diagram": "Teploměr s ambrovým popiskem SOMETHING IMPORTANT."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Pole je čárkované a mnohem větší než teploměr. Poměr velikostí nese tvrzení, takže se odvozuje z rozměru teploměru, ne píše napevno.",
+      "diagram_generator": "teplomer",
+      "diagram": "Kolem teploměru velké ztlumené pole s popiskem EVERYTHING THAT MATTERS.",
+      "pause": 2.6
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Cituje se to, co divák slyší ve zprávách — proto deska, ne diagram.",
+      "diagram_generator": "zaver",
+      "diagram": "Titulková deska GDP INCREASED BY THREE PERCENT."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Vodorovný škrt přes nápis.",
+      "diagram_generator": "zaver",
+      "diagram": "Pod ní PEOPLE ARE THREE PERCENT BETTER OFF, přeškrtnuté."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "OPRAVENO PŘI REVIZI: popis mluvil o otázce, která ve scéně žádná není (S93 je titulek, S94 škrtnutý řádek). 1,2 s. NAVETI.",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnutý řádek z S94 zmizí, zůstane sama titulková deska z S93.",
+      "naveti": "It is worth being precise here."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Duch je tu nutný: hlas říká 'produced MORE economic value THAN BEFORE', takže obraz musí ukázat srovnání, ne jen stav.",
+      "diagram_generator": "zaver",
+      "diagram": "Teploměr se stupnicí, ambrový popisek THIS PARTICULAR MEASURE a čárkovaný duch nižší předchozí hodnoty."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "ZAČÍNÁ POSLEDNÍCH 20 SEKUND. Páteř se smí pohnout jedině tady (docs/storyboard-a-diagramy.md). Od téhle scény do konce musí být HORNÍ polovina volná — dole sedí titulek ze svgkit.title(), takže prvky závěrečné obrazovky se vejdou jen nahoru.",
+      "diagram_generator": "zaver",
+      "diagram": "Teploměr sjede do dolní třetiny obrazu, horní polovina prázdná."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "'A country is more than its economy.' Silueta je malá a nízká — horní polovina zůstává volná pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Vedle teploměru drobná nízká silueta městečka, obojí v dolní třetině."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Táž konvence jako S88 a S89: neplatí spojení, ne ty dvě věci.",
+      "diagram_generator": "zaver",
+      "diagram": "Mezi teploměrem a městečkem přeškrtnutá spojnice."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "1,7 s, klidná deska.",
+      "diagram_generator": "zaver",
+      "diagram": "Samotný teploměr v dolní třetině."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "ZÁVĚREČNÁ DESKA. Vše v dolní třetině, horní polovina prázdná. Delší pauza, ať deska drží. Ověřit `python tools/zaver_check.py videos/036-what-gdp-doesnt-tell-you` — hlásí i to, do kterého ROHU prvek nedávat.",
+      "diagram_generator": "zaver",
+      "diagram": "Vedle teploměru ztlumené obrysy stetoskopu a manžety, popisek NEVER MEANT TO BE.",
+      "pause": 3.2
+    }
+  ]
+}

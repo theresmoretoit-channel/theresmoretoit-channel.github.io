@@ -1,0 +1,848 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ VIDEA se zavádí hned první obrazovkou a nese myšlenku, ne atmosféru: hustota zářezů vlevo a prázdno vpravo říká tezi dřív, než ji hlas dopoví. Osa leží celým videem v TÝCHŽ souřadnicích (_kit.osa()) a pohne se jedině v závěrečné desce.",
+      "diagram_generator": "osa",
+      "diagram": "Vodorovná časová osa v y=470. Vlevo hustá řada zářezů verzí (1995 az 2001), vpravo jediný zářez 2006. Mezi nimi prázdno."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Ambrová = 'o tomhle je řeč', ne 'špatné'. Pás je jediná změna proti S01, takže divák pozná, že jde o týž obraz.",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa, mezera mezi 2001 a 2006 vyplněná ambrovým pásem a popsaná FIVE YEARS, TWO MONTHS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Scéna říká 'nebylo to tím, že by si nikdo nestěžoval'. Kresba nesmí tvrdit konkrétní počet — proto neurčitá řada, ne spočitatelná mřížka.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři karty s nadpisy stížností z éry, pod nimi řada drobných záložek značících další."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Tvrzení scény je 'oni to řekli a nikdo si nevšiml'. Ambrová bublina je malá schválně — velikost nese důležitost, a tady je pointa v tom, že to zapadlo.",
+      "diagram_generator": "uvod",
+      "diagram": "Tytéž karty ztlumené, mezi nimi jediná ambrová bublina s prohlášením, vedle ní nikdo nekouká."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Značka série JE AŽ TADY, ne v S01 — u 028 byla v 0:00 a myšlenka začala až v 0:37. Naměřeno v notes.md.",
+      "diagram_generator": "uvod",
+      "diagram": "Čtyři vodorovné pruhy pod sebou s čísly dílů, čtvrtý ambrový, první tři ztlumené."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Doslova 'ta mezera pod všemi třemi díly'. Spojuje páteř se sérií jedním obrazem.",
+      "diagram_generator": "osa",
+      "diagram": "Tři ztlumené pruhy dílů vsazené NAD osu, ambrová mezera pod nimi prázdná.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Callback na 017 bez opakování jeho scény: tam se to dokazovalo, tady je to premisa.",
+      "diagram_generator": "uvod",
+      "diagram": "Pruh trhu rozdělený na 90 % ambrových a zbytek ztlumený; nad ním zářez 2001 na ose."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Otázka scény zní 'co stavíš, když není co porazit'. Prázdno vpravo je odpověď v obraze.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž pruh, ale prázdná dráha za cílovou čárou — nikdo další v závodě.",
+      "pause": 2.2
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Čárkovaně = zatím jen hrozba, ne rozsudek. Konvence plná/čárkovaná platí celým videem.",
+      "diagram_generator": "soud",
+      "diagram": "Budova soudu jako jednoduchý tvar, od ní čárkovaná čára k ose."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Počet značek odpovídá 'dvacet států' ve scénáři — assert v generátoru, obrázek nesmí tvrdit jiné číslo.",
+      "diagram_generator": "soud",
+      "diagram": "Zářez 1998 na ose, nad ním dvacet drobných značek států a jedna velká federální."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Rozdělení firmy jako tvar, ne jako slovo.",
+      "diagram_generator": "soud",
+      "diagram": "Čtverec firmy rozťatý svislým řezem na dvě části, zářez 2000."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "POZOR na dvojí tvrzení: monopol POTVRZEN, rozdělení ZRUŠENO. Škrtá se _kit.text_skrtnuty(), ne skrt_text() — ta kreslí jen čáru.",
+      "diagram_generator": "soud",
+      "diagram": "Tytéž dvě půlky, mezi nimi ambrová spojka vrácená zpět; vedle štítek MONOPOLY s fajfkou a štítek BREAKUP přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Beat scéna, krátká schválně. Dvě data blízko sebe jsou celé sdělení.",
+      "diagram_generator": "osa",
+      "diagram": "Osa přiblížená na léto 2001: zářez rozsudku a osm týdnů vedle něj zářez IE6.",
+      "pause": 2.6
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Tři, protože scénář jmenuje tři. Ani o jeden víc.",
+      "diagram_generator": "soud",
+      "diagram": "Tři řádky povinností z dohody, každý s odrážkou."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Tvrzení je NEPŘÍTOMNOST řádku. Prázdný rámeček to ukáže; napsat tam text, o kterém se říká, že tam není, by scénu obrátilo.",
+      "diagram_generator": "soud",
+      "diagram": "Týž seznam a pod ním prázdný čtvrtý řádek ohraničený čárkovaně, v něm nic."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Opraveno podle zpetna vazba 0.2: NE 'legal pressure ended', ale konec hrozby rozdělení. Kresba musí říkat totéž — proto mizí jen čárkovaná hrozba, ne celý soud.",
+      "diagram_generator": "osa",
+      "diagram": "Osa: hrozba rozdělení končí, zářez IE6 hned vedle.",
+      "pause": 2.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Zdroj tvrzení je online chat, ne tisková zpráva — obraz to má přiznat.",
+      "diagram_generator": "platforma",
+      "diagram": "Okno chatu z roku 2003, v něm jediný ambrový řádek."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Ústřední obraz celého bloku.",
+      "diagram_generator": "platforma",
+      "diagram": "Krabice BROWSER přesunutá dovnitř větší krabice WINDOWS, vedle ní přeškrtnutá samostatná instalace."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Jediná změna proti S18 je nápis. Scéna je o pojmenování, ne o novém ději.",
+      "diagram_generator": "platforma",
+      "diagram": "Tentýž tvar, jen štítek PRODUCT nahrazený štítkem FEATURE."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Callback musí mít SHODNÉ rozvržení s tím, na co odkazuje, jinak se nepozná.",
+      "diagram_generator": "platforma",
+      "diagram": "Zmenšený obraz z dílu 1 (prohlížeč jako platforma) vedle dnešního, mezi nimi rovnítko a datum."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Šipka nese nevyhnutelnost: prohlížeč se zlepší, jen když se zlepší systém.",
+      "diagram_generator": "platforma",
+      "diagram": "Řetěz: WINDOWS -> BROWSER, šipka jen jedním směrem.",
+      "pause": 2.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Bloky, ne ikony — scéna je o rozsahu, ne o funkcích.",
+      "diagram_generator": "longhorn",
+      "diagram": "Tři sliby nového Windows jako tři bloky nad sebou."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Restart 2004 je doložený (factcheck.md). Vypadlé bloky kreslit ztlumeně, ne mazat — tvrzení je 'tiše se to zahodilo'.",
+      "diagram_generator": "longhorn",
+      "diagram": "Plán posunutý dvakrát doprava, pak čárkovaně restartovaný z jiného místa; dva bloky vypadnou."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Opraveno podle recenze 0.2: víc než pět let, ne šest. Popisek na ose musí sedět s textem scény.",
+      "diagram_generator": "osa",
+      "diagram": "Na ose zářez 2007 daleko vpravo od 2001, mezera popsaná MORE THAN FIVE YEARS."
+    },
+    {
+      "id": "S25",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S25.png",
+      "note": "Jediná atmosférická scéna prvního bloku a NENÍ první scénou videa (pravidlo z docs). Nese 'prohlížeč čekal na systém, který se sám přestavoval'.",
+      "prompt": "a single beige desktop computer alone in an empty office at night, one warm amber monitor glow, scaffolding poles and dust sheets visible through the doorway behind it, the room around it half rebuilt, stillness",
+      "pause": 2.4
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Šipka = směr a příčina. Postavy jsou anonymní, jmenovaná je až S27.",
+      "diagram_generator": "lide",
+      "diagram": "Skupina postav u krabice BROWSER, šipky odcházejí pryč."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Wilsonova délka služby se dokládá překryvem s osou, ne portrétem. Archiv sem nepatří — je to konkrétní osoba a fotka by byla portrét, na který podle pravidel kanálu nepatří ani zoom.",
+      "diagram_generator": "lide",
+      "diagram": "Řada verzí IE 1995 az 2001 na ose, pod ní pruh 'jeden člověk' táhnoucí se přes všechny."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Pokračování téhož tvaru, ne nový obraz.",
+      "diagram_generator": "lide",
+      "diagram": "Týž pruh ohnutý pryč z osy do krabice WPF."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Nájezd na výčet. POZOR: prázdné osy divák čte jako rozbitý graf (zpětná vazba 003) — proto odrážky, ne prázdný rám.",
+      "diagram_generator": "lide",
+      "diagram": "Prázdný seznam se čtyřmi odrážkami, zatím bez textu."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Čtyři, protože scénář jmenuje čtyři. Žádná z položek nesmí být ambrová — ani jedna není 'ta pravá'.",
+      "diagram_generator": "lide",
+      "diagram": "Týž seznam vyplněný čtyřmi důvody."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Vzdálenost je tvrzení. Musí být zjevně velká, ale ne nekonečná.",
+      "diagram_generator": "lide",
+      "diagram": "Dráha se dvěma značkami: IE daleko vpředu, konkurence vzadu."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Nájezd na citaci. Krátká scéna schválně.",
+      "diagram_generator": "citace",
+      "diagram": "Prázdný ambrový rámeček citace."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Nejdůležitější věta videa. Sází se jako CITACE, tedy s uvozovkami a atribucí, protože je to doklad, ne náš komentář.",
+      "diagram_generator": "citace",
+      "diagram": "Citace Chrise Wilsona vysázená přes obraz, ambrová."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Opraveno podle recenze 0.2: 'led major parts of Internet Explorer', NE 'ran the browser team'.",
+      "diagram_generator": "citace",
+      "diagram": "Pod citací atribuce: role a roky u IE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Pointa bloku je, že jsou od téže firmy. Proto společná hlavička nad oběma.",
+      "diagram_generator": "tasman",
+      "diagram": "Dvě krabice prohlížečů vedle sebe, jedna hlavička firmy nad oběma."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Engine je popsaný, ne nakreslený — scéna netvrdí nic o vnitřku.",
+      "diagram_generator": "tasman",
+      "diagram": "Levý prohlížeč s enginem TRIDENT, pravý s TASMAN, zářez 2000 na ose."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Callback na 017/028. Čísla v obou modelech musí sedět s aritmetikou dílu 1 (assert).",
+      "diagram_generator": "tasman",
+      "diagram": "Dva box modely vedle sebe: u Tasmanu shodné šířky, u Tridentu rozdílné."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Diagram tvrdí přesně to, co scénář: spor o definici, ne o schopnost.",
+      "diagram_generator": "tasman",
+      "diagram": "Detail sporu o šířku: obsah, padding, border, dvě různé celkové šířky."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Opraveno podle recenze: 'modern browsers', ne 'every browser on earth'. Kresba proto ukazuje přepínač, ne planetu.",
+      "diagram_generator": "tasman",
+      "diagram": "Stránka, jejíž první řádek je ambrový; z něj šipka k přepínači."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Dvě polohy, žádná ambrová — ani jedna není 'správná'.",
+      "diagram_generator": "tasman",
+      "diagram": "Přepínač se dvěma polohami: STANDARDS a QUIRKS, pod každou hromádka stránek."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Krátký beat.",
+      "diagram_generator": "tasman",
+      "diagram": "Fajfka u věty, že to šlo."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nejsilnější doklad bloku. Vzdálenost šesti týdnů musí být měřitelná proti měřítku osy, ne odhadnutá.",
+      "diagram_generator": "osa",
+      "diagram": "Na ose dva zářezy šest týdnů od sebe: konec Mac IE5 a oznámení poslední samostatné verze.",
+      "pause": 2.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Obrat videa. Škrtá se text_skrtnuty(), a škrtá se CELÝ nadpis — půlka by znamenala 'neplatí to takhle'.",
+      "diagram_generator": "tasman",
+      "diagram": "Dvě věty pod sebou: 'couldn't fix it' přeškrtnutá vodorovnou čarou, 'no reason to' ambrová.",
+      "pause": 3.0
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "cta": true,
+      "note": "VÝZVA K ODBĚRU podle docs/cta.md. Sedí v 6:29, tedy 48 % stopáže, a je to PRVNÍ scéna za hlavní pointou videa (S43: 'ne že to neuměli, ale že neměli důvod') — leží mezi dvěma bloky, ne uvnitř rozvedené myšlenky. `visual` ukazuje na obrázek S43, takže prolínačka mezi dvěma shodnými obrázky není vidět; obě scény jsou `static`, jinak by zoom v místě střihu skočil zpátky. Nápis se do diagramu NEKRESLÍ — vypaluje ho render.py z branding/cta-overlay.png."
+    },
+    {
+      "id": "S44",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S44.png",
+      "note": "Předěl mezi blokem 1 a 2. Pohyb je tu předěl, ne výchozí stav.",
+      "prompt": "an empty office corridor at night with one lit monitor, and beyond the window a city of lit windows stretching away, movement everywhere outside and none inside, warm amber point of light"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Čtyři součástky = čtyři věci, které blok jmenuje. Assert na počet.",
+      "diagram_generator": "krabice",
+      "diagram": "Zamrzlá krabice prohlížeče, uvnitř ní čtyři drobné ambrové součástky."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Datace přes osu, ne přes popisek.",
+      "diagram_generator": "krabice",
+      "diagram": "Tým u krabice s nápisem firemní pošty, kolem konec devadesátých let na ose."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Tvrzení 'stránky přicházely celé, nebo vůbec'.",
+      "diagram_generator": "krabice",
+      "diagram": "Stránka načtená celá, pak celá znovu; mezi nimi nic."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Jediná změna proti S47: stránka se nepřekresluje. To je celý vynález.",
+      "diagram_generator": "krabice",
+      "diagram": "Stránka, z ní šipka ven a šipka zpět, stránka zůstává táž."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Původ je pointa: přišlo to jako ActiveX komponenta.",
+      "diagram_generator": "krabice",
+      "diagram": "Součástka se štítkem a razítkem ActiveX."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Páteř nese i tenhle blok — proto osa, ne nový obraz.",
+      "diagram_generator": "osa",
+      "diagram": "Součástka položená na osu a táhnoucí se přes celou pětiletou mezeru."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Změkčeno podle recenze: 'eventually built their own', ne 'had to copy it'. Kresba proto nemá šipku nátlaku.",
+      "diagram_generator": "krabice",
+      "diagram": "Čtyři prohlížeče, v každém táž součástka, jméno stejné."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Konkrétní následek, bez jmen produktů v obraze.",
+      "diagram_generator": "krabice",
+      "diagram": "Dvě karty aplikací: pošta bez překreslení a mapa tažená myší."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Jedno slovo přes obraz. Scéna nemá co dodat.",
+      "diagram_generator": "krabice",
+      "diagram": "Slovo AJAX velkým písmem."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Škrt přes JEDNO písmeno je v pořádku, protože scénář tvrdí, že neplatí právě to písmeno.",
+      "diagram_generator": "krabice",
+      "diagram": "Rozepsaná zkratka, písmeno X přeškrtnuté vodorovnou čarou.",
+      "pause": 2.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Výplata bloku.",
+      "diagram_generator": "krabice",
+      "diagram": "Krabice prohlížeče, z ní vede ambrová linka do dnešního webu."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Ukazatel postupu ve výčtu — divák má vědět, že přijdou ještě tři.",
+      "diagram_generator": "krabice",
+      "diagram": "Tytéž čtyři součástky, první ztlumená, zbylé tři čekají."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Popisek říká, co to dělá. Věta 'every framework since is a descendant' je VÝKLAD, ne fakt — v obraze proto být nesmí (nález recenze 0.2).",
+      "diagram_generator": "krabice",
+      "diagram": "Kus stránky vyjmutý a nahrazený novým blokem."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Totéž: obraz ukazuje schopnost, ne genealogii.",
+      "diagram_generator": "krabice",
+      "diagram": "Oblast stránky s kurzorem uvnitř."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Nejmenší z výčtu a schválně doslovný — divák to vidí každý den.",
+      "diagram_generator": "krabice",
+      "diagram": "Dlouhý řádek textu v úzkém rámečku, zakončený třemi tečkami.",
+      "pause": 2.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Vyzvání diváka, aby si to ověřil. Obraz má vypadat proveditelně, ne ilustrativně.",
+      "diagram_generator": "agent",
+      "diagram": "Zařízení s otevřeným řádkem dotazu."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Text v obraze je DOKLAD. Musí se opsat z živého řetězce a ověřit před renderem, ne napsat po paměti.",
+      "diagram_generator": "agent",
+      "diagram": "Skutečný řetězec dnešního prohlížeče rozložený na části, každá s popiskem, čí jméno to je."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Poměr ambrové ku ztlumené nese pointu.",
+      "diagram_generator": "agent",
+      "diagram": "Tentýž řetězec, jediná část, která je pravda, ambrová; zbytek ztlumený."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Řetěz šipek dozadu = 'každý se vydával za toho populárního'.",
+      "diagram_generator": "agent",
+      "diagram": "Řada prohlížečů devadesátých let, každý se hlásí jménem předchozího."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Vzájemnost je pointa, ne jednostranná vina.",
+      "diagram_generator": "agent",
+      "diagram": "Dvě šipky proti sobě mezi IE a Netscape, pak šipky ode všech ostatních."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Páteř uzavírá blok: dnešní důsledek dávné dohody.",
+      "diagram_generator": "osa",
+      "diagram": "Osa protažená o dvacet pět let dozadu, na jejím konci dnešní řetězec.",
+      "pause": 2.4
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Přesně tady se video láme. Obraz to má říct dřív než hlas.",
+      "diagram_generator": "dvere",
+      "diagram": "Pětiletá mezera na ose rozdělená na dvě poloviny: jedna ven, druhá dovnitř."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Callback na 028 S66–S67. Shodné rozvržení s tamní scénou, jinak se callback nepozná.",
+      "diagram_generator": "dvere",
+      "diagram": "Okno se seznamem souborů zavírané stránkou."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Tvrzení je NEPŘÍTOMNOST hranice.",
+      "diagram_generator": "dvere",
+      "diagram": "Prohlížeč jako část systému: vnořené krabice, žádná hranice mezi nimi.",
+      "pause": 2.2
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Rozšiřitelnost jako mechanismus, ne jako hrozba — hrozba přijde až v S71.",
+      "diagram_generator": "dvere",
+      "diagram": "Okno prohlížeče se zásuvkou, do ní zasunutý drobný modul, který vidí na celé okno."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Shodná velikost nese tvrzení 'běželo to se vším, co jsi směl ty'.",
+      "diagram_generator": "dvere",
+      "diagram": "Týž modul a vedle něj práva uživatele, obojí stejně velké."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Přechod od nástroje k odvětví.",
+      "diagram_generator": "dvere",
+      "diagram": "Z jednoho modulu se stane řada modulů, zářez 2004."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "DATA V OBRAZE: čtyři lišty a třetina výšky jsou ve scénáři. Generátor to musí spočítat a zajistit assertem, ne nakreslit od oka.",
+      "diagram_generator": "dvere",
+      "diagram": "Okno prohlížeče se čtyřmi lištami nad stránkou, lišty zabírají třetinu výšky."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Tři cesty, tři popisky. Třetí je ambrová, protože na ni navazuje S74.",
+      "diagram_generator": "dvere",
+      "diagram": "Tři cesty k témuž oknu: placená, přibalená, žádná."
+    },
+    {
+      "id": "S74",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S74.png",
+      "note": "Doslovné 'nekliknul jsi na nic'. Nepřítomnost člověka je celý obraz.",
+      "prompt": "a dim living room at night, a single beige monitor glowing, nobody sitting at the desk, the chair pushed back, quiet",
+      "pause": 2.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Páteř odpovídá na otázku 'kam upgradovat' — nikam.",
+      "diagram_generator": "osa",
+      "diagram": "Osa: za rokem 2004 žádný další zářez verze, jen prázdno."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Krátký nájezd před obratem bloku.",
+      "diagram_generator": "sp2",
+      "diagram": "Prázdné místo, kde se čeká nový prohlížeč."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Ústřední obraz bloku 3: oprava přišla o patro výš.",
+      "diagram_generator": "sp2",
+      "diagram": "Krabice systému s ambrovou záplatou, uvnitř ní prohlížeč; zářez srpen 2004."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Čtyři, protože scénář jmenuje čtyři. Poslední je upřesněná podle recenze: ptá se před URČITÝMI prvky, ne před vším.",
+      "diagram_generator": "sp2",
+      "diagram": "Čtyři položky obsahu záplaty pod sebou."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Scéna, ve které něco míří na někoho — ověřit směr proti podmětu věty (past z 020 S11).",
+      "diagram_generator": "sp2",
+      "diagram": "Šipka vedoucí od systému dolů k prohlížeči, ne naopak."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Výplata callbacku: tvar opravy dokazuje tezi dílu 1.",
+      "diagram_generator": "sp2",
+      "diagram": "Tvar opravy položený přes obraz z dílu 1.",
+      "pause": 2.8
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Můstek k dílu 3. Nesmí přerůst v jeho převyprávění — jedna scéna, ne blok.",
+      "diagram_generator": "sp2",
+      "diagram": "Firemní aplikace, která najednou dostává dotaz na potvrzení; vedle ní stížnost."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Sloupec bez čísel — kanál nemá doložený počet stažení a obraz nesmí tvrdit víc než scénář.",
+      "diagram_generator": "osa",
+      "diagram": "Zářez listopad 2004 na ose, vedle něj rostoucí sloupec stažení."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Opraveno podle recenze: tři měsíce, ne čtyři (9. 11. 2004 -> 15. 2. 2005).",
+      "diagram_generator": "osa",
+      "diagram": "Zářez únor 2005, tři měsíce za předchozím."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Ambrová znamená 'o tomhle je řeč'. Ostatní tři nejsou přeškrtnuté — nezmizely, jen nebyly důvodem.",
+      "diagram_generator": "sp2",
+      "diagram": "Čtyři možné důvody pod sebou, ambrový jen bezpečnostní; ostatní tři ztlumené."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Páteř se uzavírá. Odtud dál se osa už jen vyplácí.",
+      "diagram_generator": "osa",
+      "diagram": "Osa: zářez 2006 uzavírá pětiletou mezeru.",
+      "pause": 2.6
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Beat. Horní třetina prázdná — začíná okno závěrečné obrazovky.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka z úvodu vysázená přes prázdný obraz.",
+      "pause": 2.2
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Callback funguje jen při SHODNÉM rozvržení s S36–S37.",
+      "diagram_generator": "zaver",
+      "diagram": "Tasman z S36 znovu, na týchž souřadnicích, s opravenou chybou box modelu."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Opraveno podle recenze: 'the competition that had driven the first browser war', ne 'the competition was gone' — Firefox je o šest scén dřív. Horní třetina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři důvody pod sebou: konkurence první války, soud, lidé přesunutí jinam.",
+      "pause": 2.4
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Uzavření série. Horní třetina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři pruhy dílů z S05, všechny ambrové."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Předposlední deska. Horní třetina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Osa bez jediného zářezu, rovná.",
+      "pause": 2.8
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "VÝPLATA PÁTEŘE: časová osa z S01 se stane stropem. Jediné místo, kde se osa smí pohnout (pravidlo 3 z docs). Strop leží v horní TŘETINĚ, ne u horní hrany, aby zbylo místo na prvky závěrečné obrazovky.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž osa posunutá nahoru do role STROPU, pod ní drobné tvary, které se o ni opírají."
+    }
+  ]
+}

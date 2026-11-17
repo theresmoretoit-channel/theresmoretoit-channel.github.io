@@ -1,0 +1,1346 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "vrstva": "adresa",
+   "note": "PÁTEŘ: mapa na pevných souřadnicích (_kit.mapa()). Nese myšlenku od první vteřiny: peklo jako místo na mapě. Ne sdxl.",
+   "diagram_generator": "adresa",
+   "diagram": "Topografická mapa údolí pod hradbami, vrstevnice jako tenká kresba. Jediný barevný prvek: žhavý špendlík. Bez nadpisu HELL.",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "vrstva": "adresa",
+   "note": "Mapa se nehýbe. Poloha údolí je běžné ztotožnění (factcheck S02), proto bez přesné adresy nebo souřadnic.",
+   "diagram_generator": "adresa",
+   "diagram": "Táž mapa, přibude obrys hradeb a popisek OLD CITY."
+  },
+  {
+   "id": "S03",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S03.png",
+   "vrstva": "adresa",
+   "note": "Fotka Hinnomu podle Commons (kategorie Valley of Hinnom). Obyčejné zelené údolí, kontrast k mapě. Rým se S104: musí být TENTÝŽ soubor i popisek.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Jerusalem-Hinnom-Kidron-Old-City-323\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "VALLEY OF HINNOM, JERUSALEM"
+    }
+   }
+  },
+  {
+   "id": "S04",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "vrstva": "adresa",
+   "note": "Prostor koncertů, bez sněhu. Fotka Dylana ne: o něm to není.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"4899226982\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "SULTAN'S POOL, IN THE VALLEY"
+    }
+   }
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "vrstva": "adresa",
+   "note": "Vlastní písmo: ověřit, že Inkscape vysází hebrejštinu.",
+   "diagram_generator": "adresa",
+   "diagram": "Mapa ztlumená, u špendlíku nápis גיא הנום a pod ním GE HINNOM."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "vrstva": "adresa",
+   "note": "Čárkovaně = „very probably“ (factcheck S06); kresba nesmí tvrdit víc než hlas. Ověřit sazbu arabštiny.",
+   "diagram_generator": "adresa",
+   "diagram": "Řetěz tří jmen: GE HINNOM → Γέεννα GEHENNA → جهنم JAHANNAM. Poslední šipka čárkovaně."
+  },
+  {
+   "id": "S06b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06b.png",
+   "vrstva": "adresa",
+   "note": "Spojka, která ve v0.5 chyběla: Gehenna a Jahannam jsou slova, která se překládají jako hell. Bez ohně.",
+   "diagram_generator": "adresa",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "vrstva": "adresa",
+   "note": "Záměrně ŽÁDNÝ obraz ohně: šetří se na S78.",
+   "diagram_generator": "adresa",
+   "diagram": "Totéž slovo, pod ním A PLACE OF FIRE FOR THE WICKED. Čistá typografie."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "vrstva": "adresa",
+   "note": "Hlavní otázka videa. Rým s S01.",
+   "diagram_generator": "adresa",
+   "diagram": "Mapa ze S01, špendlík, otazník.",
+   "pause": 1.2
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "vrstva": "seol",
+   "note": "Přechod do vrstvy ŠEÓL. Popisek OLDER BOOKS OF THE BIBLE: scéna neplatí pro celé židovské dějiny (factcheck S09).",
+   "diagram_generator": "seol",
+   "diagram": "Mapa zhasne, zůstane vodorovná čára země a na ní domky vedle údolí. Pod čarou prázdno."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "vrstva": "seol",
+   "note": "ŠEÓL = skoro černá, žádný akcent. Páteř této vrstvy je čára země v jedné výšce.",
+   "diagram_generator": "seol",
+   "diagram": "Pod čarou se otevře temný prostor, nápis SHEOL / שאול."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "vrstva": "seol",
+   "note": "Stejná velikost a barva = rovnost. Žádná ambrová, nikdo není „o tom řeč“.",
+   "diagram_generator": "seol",
+   "diagram": "V temnotě řada stejných šedých postav, všechny stejně velké.",
+   "pause": 0.715,
+      "zvuk": { "bf_emma": "zvuk/S11.flac" },
+      "vycet": 0.3
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "vrstva": "seol",
+   "note": "Záměrně ne malba Saula u Endoru: barokní malby by rozmazaly pátou vrstvu.",
+   "diagram_generator": "seol",
+   "diagram": "Nad čarou král s korunou a žena, pod čarou se zvedá silueta proroka."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "vrstva": "seol",
+   "note": "Citace je z Bible, proto s veršem.",
+   "diagram_generator": "seol",
+   "diagram": "Samuel a Saul, nápis TOMORROW, YOU AND YOUR SONS WILL BE WITH ME. 1 Samuel 28:19."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "vrstva": "seol",
+   "note": "Kresba tvrdí totéž co hlas: stejné místo, žádná přepážka.",
+   "diagram_generator": "seol",
+   "diagram": "Obě postavy pod čarou, vedle sebe, stejně velké: THE PROPHET / THE KING GOD REJECTED."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "vrstva": "seol",
+   "note": "Prázdné, ne přeškrtnuté: neexistují, nikdo je nezrušil.",
+   "diagram_generator": "seol",
+   "diagram": "Tatáž scéna, dvě prázdné škatulky REWARD a PUNISHMENT.",
+   "pause": 1.6,
+   "vycet": 0.3
+  },
+  {
+   "id": "S16",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S16.png",
+   "vrstva": "hlina",
+   "note": "Hliněná tabulka Gilgameše, akkadsky. NENÍ to sumerská báseň ze S17, popisek proto netvrdí víc než „from the epic“.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Newly Discovered Tablet V\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "CLAY TABLET FROM THE EPIC OF GILGAMESH"
+    }
+   }
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "vrstva": "hlina",
+   "note": "VRSTVA HLÍNA: terakota. assert: počet synů v kresbě sedí. Bohové bez ikonografie, ať nic nepředstíráme.",
+   "diagram_generator": "hlina",
+   "diagram": "Terakotové destičky: 1 SON = postava pláče, 7 SONS = postava na trůnu mezi nižšími bohy."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "vrstva": "seol",
+   "note": "Vrací se k Šeólu.",
+   "diagram_generator": "seol",
+   "diagram": "Zpět čára země. Jedna postava označená BAD jde dolů."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "vrstva": "seol",
+   "note": "VÝZVA K ODBĚRU za touto scénou (~1:40). Levý dolní roh prázdný: postavy až od x > 25 %.",
+   "diagram_generator": "seol",
+   "diagram": "Postava BAD stojí mezi ostatními a nejde rozeznat, štítek zmizí.",
+   "pause": 1.6,
+   "vyzva": true
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "vrstva": "dily",
+   "note": "Zavádí DRUHOU PÁTEŘ: pět polí (_kit.pet_dilu()) na pevných souřadnicích, S106 je vyplatí.",
+   "diagram_generator": "dily",
+   "diagram": "Prázdno a dole pět prázdných polí.",
+   "pause": 0.5
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "vrstva": "dily",
+   "note": "Pole jsou vedle sebe bez šipek. ŠIPKY MEZI NIMI NESMÍ BÝT: tvrdily by doložený přenos (factcheck S21–S22).",
+   "diagram_generator": "dily",
+   "diagram": "Pět polí, přes ně časová osa bez čísel."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "vrstva": "dily",
+   "note": "Kresba říká totéž co „is still debated“.",
+   "diagram_generator": "dily",
+   "diagram": "Pět polí, mezi nimi čárkované otazníky.",
+   "pause": 2.4
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "vrstva": "egypt",
+   "note": "Předěly mají všechny stejné rozvržení, mění se jen rozsvícené pole.",
+   "diagram_generator": "dily",
+   "diagram": "Předěl: první pole se rozsvítí pískem papyru, velké A COURT, ikona vah.",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S24.png",
+   "vrstva": "egypt",
+   "note": "Skutečný arch v British Museum, ne dekorace.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Papyrus of Ani BM Sheet 12\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "PAPYRUS OF ANI, ABOUT 1250 BC"
+    }
+   }
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "vrstva": "egypt",
+   "note": "assert 42. Flat, profil, registry: egyptská grafická řeč, ne napodobenina hieroglyfů.",
+   "diagram_generator": "egypt",
+   "diagram": "Papyrový pás s registry, postava v profilu, 42 značek po řadě.",
+   "pause": 0.5
+  },
+  {
+   "id": "S26",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S26.png",
+   "vrstva": "egypt",
+   "note": "Celý výjev Hunefera; zaostřuje se na váhy.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"judgement of the dead in the presence of Osiris\" -intitle:cropped",
+    "pick": 0,
+    "grade": {
+     "popisek": "PAPYRUS OF HUNEFER, ABOUT 1275 BC"
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S27",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "vrstva": "egypt",
+   "note": "Ammit je ve výřezu vidět, ověřeno na kontaktním listu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"El pesado del corazón\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "AMMIT, PAPYRUS OF HUNEFER"
+    }
+   }
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "vrstva": "egypt",
+   "note": "Šipka je tady v pořádku: jde o příčinu uvnitř téhle víry.",
+   "diagram_generator": "egypt",
+   "diagram": "Váhy v papyrové kresbě, HOW YOU LIVE → WHAT HAPPENS NEXT."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "vrstva": "egypt",
+   "note": "Beat, stejný obraz.",
+   "diagram_generator": "egypt",
+   "diagram": "Tytéž váhy, v rámu malá klíčová dírka.",
+   "pause": 0.6
+  },
+  {
+   "id": "S30",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S30.png",
+   "vrstva": "egypt",
+   "note": "Skutečný srdeční skarab (CC0). Nejsilnější obraz bloku.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Scarabeo del cuore\" intitle:\"Cat 5982 f01\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "HEART SCARAB, MUSEO EGIZIO, TURIN"
+    }
+   }
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "vrstva": "egypt",
+   "note": "assert 6 z 12. „Perhaps“ musí být vidět: ~ před číslem (factcheck S31).",
+   "diagram_generator": "egypt",
+   "diagram": "Svitek = půl roku mzdy: 12 pruhů, 6 ambrových, otazník u čísla.",
+   "pause": 0.5
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "vrstva": "egypt",
+   "note": "Vtip nese cenovka.",
+   "diagram_generator": "egypt",
+   "diagram": "Váhy, u nich cenovka."
+  },
+  {
+   "id": "S33",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "vrstva": "egypt",
+   "note": "JEDINÝ oheň před S78. POZOR: původ na Commons je jen „likely Book of the Dead or Coffin Texts“, popisek proto text nejmenuje. Rozlišení jen 544 px, proto fit.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Ancient Egyptian Lake of fire\"",
+    "pick": 0,
+    "grade": {
+     "fit": 0.72,
+     "popisek": "EGYPTIAN LAKE OF FIRE, GUARDED BY BABOONS"
+    }
+   },
+   "pause": 2.4
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "vrstva": "recko",
+   "note": "Rozvržení ze S23.",
+   "diagram_generator": "dily",
+   "diagram": "Předěl: druhé pole terakotové, A SENTENCE, meandr.",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S35",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "vrstva": "recko",
+   "note": "Portrét: žádný zoom, celá hlava s odstupem.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Plato Silanion Musei Capitolini MC1377\" -intitle:cropped",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84,
+     "fit_bg": "#000000",
+     "popisek": "PLATO, ROMAN COPY OF A GREEK PORTRAIT"
+    }
+   }
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "vrstva": "recko",
+   "note": "Černofigurový jazyk je skutečné médium doby. Silueta bez titulů = „stripped“.",
+   "diagram_generator": "recko",
+   "diagram": "Černofigurový styl: oranžová hlína, černá silueta nahá bez ozdob před soudcem. Dvě cedulky CURABLE / INCURABLE."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "vrstva": "recko",
+   "note": "Šipka k divákům nese „as a warning“.",
+   "diagram_generator": "recko",
+   "diagram": "Dvě cesty: CURABLE ven, INCURABLE dolů se značkou FOREVER a diváky.",
+   "pause": 0.5
+  },
+  {
+   "id": "S38",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "vrstva": "recko",
+   "note": "Jezdec a nápis ΑΡΧΕ. ZÁMĚRNĚ NE mince s hlavou: ta by se četla jako jeho portrét, a to podle všeho není.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Archelaos, Stater\"",
+    "pick": 0,
+    "grade": {
+     "fit": 0.86,
+     "fit_bg": "#ffffff",
+     "popisek": "COIN OF ARCHELAUS I, 413–399 BC"
+    }
+   }
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "vrstva": "recko",
+   "note": "Motiv „jmenovaný“ se vrátí v S91.",
+   "diagram_generator": "recko",
+   "diagram": "Mince v černofigurovém rámu, štítek jménem.",
+   "pause": 2.4
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "vrstva": "judea",
+   "note": "Rozvržení ze S23.",
+   "diagram_generator": "dily",
+   "diagram": "Předěl: třetí pole pergamenové, A MOTIVE."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "vrstva": "judea",
+   "note": "VRSTVA JUDEA: pergamen a sazba, téměř žádné obrazy. Tahle vrstva je TEXT, protože o text jde.",
+   "diagram_generator": "judea",
+   "diagram": "Pergamen, sloupec textu. HERE, IN THIS LIFE."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "vrstva": "judea",
+   "note": "Dohoda jako smlouva.",
+   "diagram_generator": "judea",
+   "diagram": "Dva sloupce na pergamenu: OBEY → BLESSED, DISOBEY → CURSED. Deuteronomy 28."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "vrstva": "judea",
+   "note": "Stejný obraz, jedna změna.",
+   "diagram_generator": "judea",
+   "diagram": "Tatáž smlouva, nad ní velké CHECK IT."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "vrstva": "judea",
+   "note": "Přehození je tvrzení verše.",
+   "diagram_generator": "judea",
+   "diagram": "Smlouva s přehozenými řádky: JUST → WHAT THE WICKED DESERVE. Ecclesiastes 8:14."
+  },
+  {
+   "id": "S45",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S45.png",
+   "vrstva": "judea",
+   "note": "Jedna ze dvou SDXL scén: atmosféra, nic historicky konkrétního. Žádná tvář. Mimo pergamen záměrně: je to to, proti čemu se text bouří.",
+   "prompt": "old wealthy man asleep in a large carved bed, seen from behind, silk and gold, oil lamp, quiet comfortable room, no face",
+   "pause": 1.4
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "vrstva": "judea",
+   "note": "Datování z factchecku.",
+   "diagram_generator": "judea",
+   "diagram": "Prázdný pergamen, jeden řádek se začíná psát. c. 300–200 BC."
+  },
+  {
+   "id": "S47",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S47.png",
+   "vrstva": "judea",
+   "note": "BL Or 485, Charles ho vede mezi rukopisy Henocha (sigla G). Opis je o 1 700 let mladší než text, popisek to říká.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"BL Or 485\"",
+    "pick": 0,
+    "grade": {
+     "fit": 0.8,
+     "popisek": "ETHIOPIC COPY OF 1 ENOCH, 16TH CENTURY"
+    }
+   }
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "vrstva": "judea",
+   "note": "DIAGRAM 1 Henoch 22. Řez zůstane stejný S48–S52.",
+   "diagram_generator": "judea",
+   "diagram": "Řez skálou: dutina se světlem, RIGHTEOUS.",
+   "pause": 0.6,
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "vrstva": "judea",
+   "note": "„But not all“: dutina není plná.",
+   "diagram_generator": "judea",
+   "diagram": "Řez: druhá dutina, SINNERS, otazník."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "vrstva": "judea",
+   "note": "Doslovná citace, verš musí být vidět. Nejdůležitější scéna videa.",
+   "diagram_generator": "judea",
+   "diagram": "Přes řez citace, velká, zvýrazněné IN THEIR LIFETIME. 1 Enoch 22:10.",
+   "anim": "animace"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "vrstva": "judea",
+   "note": "Pauza nese beat.",
+   "diagram_generator": "judea",
+   "diagram": "Táž citace, zbytek ztmaví.",
+   "pause": 1.4,
+   "naveti": "executed on them in their lifetime."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "vrstva": "judea",
+   "note": "Ambrová = o tomhle je řeč. Dolní dvě postavy jen náznak.",
+   "diagram_generator": "judea",
+   "diagram": "Dutina nese štítek GOT AWAY WITH IT, ambrově.",
+   "pause": 2.2
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "vrstva": "judea",
+   "note": "Jeden obraz, jedna změna.",
+   "diagram_generator": "judea",
+   "diagram": "Tatáž smlouva z S42, prasklá napůl.",
+   "anim": "animace"
+  },
+  {
+   "id": "S54",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "vrstva": "judea",
+   "note": "Tady portrét na minci JE král. Rým s Archelaem.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Syria - king Antiochos IV\" intitle:\"head\"",
+    "pick": 0,
+    "grade": {
+     "fit": 0.8,
+     "popisek": "ANTIOCHUS IV, 175–164 BC"
+    }
+   }
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "vrstva": "judea",
+   "note": "Bez násilí v obraze, je to věta, ne scéna.",
+   "diagram_generator": "judea",
+   "diagram": "Sloupec, řádek KEEPING THE LAW přechází v DEATH."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "vrstva": "judea",
+   "note": "Ciseri (1863) má na Commons jen 275 px, nepoužitelné. Kresba je navíc věrnější vrstvě: Judea je text. assert 7.",
+   "diagram_generator": "judea",
+   "diagram": "Pergamen, řada MOTHER + SEVEN SONS: osm znaků, sedm postupně ztmavených. 2 MACCABEES 7."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "vrstva": "judea",
+   "note": "Jako S50.",
+   "diagram_generator": "judea",
+   "diagram": "Citace NO RESURRECTION TO LIFE. 2 Maccabees 7:14."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "vrstva": "judea",
+   "note": "Ambrová znamená „o tom je řeč“, ne „je to pravda“. Hlídat, ať to tak nepůsobí: popisek OR.",
+   "diagram_generator": "judea",
+   "diagram": "Vidlička: GOD FAILED THEM / THE STORY ISN'T OVER, druhá ambrově.",
+   "pause": 1.2
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "vrstva": "judea",
+   "note": "Pole v časové ose.",
+   "diagram_generator": "judea",
+   "diagram": "Pergamen, c. 167–164 BC."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "vrstva": "judea",
+   "note": "Řada postav ze S11 se rozdělí: vizuální návrat k Šeólu.",
+   "diagram_generator": "judea",
+   "diagram": "Citace Daniel 12:2 přes celý obraz, dvě cesty z jedné řady spících."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "vrstva": "judea",
+   "note": "VÝPLATA ŠEÓLU. Tentýž tvar jako S11.",
+   "diagram_generator": "judea",
+   "diagram": "Řada ze S11 rozdělená na dvě části, bez konce.",
+   "pause": 2.8,
+   "anim": "animace"
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "vrstva": "misto",
+   "note": "Rozvržení ze S23.",
+   "diagram_generator": "dily",
+   "diagram": "Předěl: čtvrté pole, THE LOCATION, mapa.",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "vrstva": "misto",
+   "note": "NÁVRAT PÁTEŘE. Musí sedět s S01 (_kit.mapa()).",
+   "diagram_generator": "adresa",
+   "diagram": "Mapa ze S01 na stejných souřadnicích, bez špendlíku, otazník."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "vrstva": "misto",
+   "note": "PLNÁ čára = Jeremiáš údolí opravdu jmenuje.",
+   "diagram_generator": "adresa",
+   "diagram": "Na mapě plná čára k údolí: JEREMIAH 7:31, citace."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "vrstva": "misto",
+   "note": "Rozlišuje obvinění a nález (factcheck S65).",
+   "diagram_generator": "adresa",
+   "diagram": "Cedulka Jeremiáše zůstane, přes ni ACCUSATION, NOT EXCAVATION.",
+   "pause": 0.5
+  },
+  {
+   "id": "S65b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65b.png",
+   "vrstva": "misto",
+   "note": "PLNÁ čára: Jer 7:32 údolí jmenuje. Přechod od zločinu k trestu.",
+   "diagram_generator": "adresa"
+  },
+  {
+   "id": "S65c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65c.png",
+   "vrstva": "misto",
+   "note": "Obě cedulky míří na TENTÝŽ bod v údolí: to je celé tvrzení scény.",
+   "diagram_generator": "adresa",
+   "pause": 1.4,
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S66",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S66.png",
+   "vrstva": "misto",
+   "note": "Levý konec svitku (hebrejština se čte zprava). Retuš = výřez z plného rozlišení, originál zůstává v evidenci.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Great Isaiah Scroll MS A\" intitle:\"x0-y0\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "GREAT ISAIAH SCROLL, THE LAST COLUMN",
+     "fit": 0.92,
+     "fit_bg": "#ffffff",
+     "_retusovano": "výřez posledního sloupce z plného rozlišení téhož souboru"
+    },
+    "retouch": "S66.retouch.jpg"
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "vrstva": "misto",
+   "note": "ČÁRKOVANĚ: text údolí nejmenuje, ztotožnění je výklad (factcheck S67).",
+   "diagram_generator": "adresa",
+   "diagram": "Mapa, ČÁRKOVANÁ čára: 1 ENOCH 27, ACCURSED VALLEY."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "vrstva": "misto",
+   "note": "Kresba přesně říká, co je doložené a co výklad.",
+   "diagram_generator": "adresa",
+   "diagram": "Mapa se třemi cedulkami kolem údolí: Jeremiáš plně, Izajáš a Henoch čárkovaně.",
+   "pause": 1.4,
+   "vycet": 0.3
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "vrstva": "misto",
+   "note": "Slovo opouští místo.",
+   "diagram_generator": "misto",
+   "diagram": "Mapa ustoupí, slovo GEHENNA se od ní odlepí."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "vrstva": "misto",
+   "note": "Bez portrétu Ježíše.",
+   "diagram_generator": "misto",
+   "diagram": "Mark 9:47–48 vedle Isaiah 66:24, shodná slova zvýrazněná."
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "vrstva": "misto",
+   "note": "assert 12 a 11, výčet z factchecku.",
+   "diagram_generator": "misto",
+   "diagram": "Dvanáct teček, 11 ambrových, 1 šedá. Popisky evangelií."
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "vrstva": "misto",
+   "note": "Stále žádný oheň.",
+   "diagram_generator": "misto",
+   "diagram": "Mapa, čárkovaný rámeček RUBBISH DUMP? Žádné plameny."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "vrstva": "misto",
+   "note": "Mezera na ose je argument. Nepřeškrtávat: „no direct evidence“, ne „vyvráceno“.",
+   "diagram_generator": "misto",
+   "diagram": "Časová osa: Ježíš … dlouhá mezera … c. 1200 AD, KIMHI. NO DIRECT EVIDENCE.",
+   "pause": 1.4
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "vrstva": "misto",
+   "note": "Změna tématu.",
+   "diagram_generator": "misto",
+   "diagram": "Velké HELL, prázdné pozadí.",
+   "pause": 0.5
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "vrstva": "misto",
+   "note": "Rekonstruovaný tvar s hvězdičkou, jak se píše.",
+   "diagram_generator": "misto",
+   "diagram": "*haljō → HELL, THE CONCEALED PLACE, A WORLD OF THE DEAD.",
+   "pause": 0.5
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "vrstva": "misto",
+   "note": "Šířka přívodu tvrdí „about half the time“ (31 z 65, factcheck S76). Jen SVG: funkci nese trychtýř, titulní list by přidal jen licenční evidenci.",
+   "diagram_generator": "misto",
+   "diagram": "Trychtýř: GEHENNA, HADES, TARTARUS, SHEOL → HELL, KING JAMES BIBLE, 1611. Přívod ze SHEOL poloviční šířky.",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S76b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76b.png",
+   "vrstva": "misto",
+   "note": "Výplata „Hell has an address“: mapa se špendlíkem jako v S01. Bez ohně.",
+   "diagram_generator": "misto",
+   "pause": 2.4
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "vrstva": "obrazy",
+   "note": "Rozvržení ze S23. První rumělka ve videu.",
+   "diagram_generator": "dily",
+   "diagram": "Předěl: páté pole černé a rumělkové, THE PICTURES.",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S78",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S78.png",
+   "vrstva": "obrazy",
+   "note": "ZJEVENÍ VIDEA. První obraz pekla skoro po osmi minutách: Giottův Satan, Scrovegniho kaple. Hlas říká „the devil in charge“, S79 to vzápětí obrátí.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"WGA09243\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "GIOTTO, ABOUT 1306"
+    }
+   },
+   "pause": 1.2
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "vrstva": "obrazy",
+   "note": "Čárový obraz, ne ďábel s vidlemi.",
+   "diagram_generator": "obrazy",
+   "diagram": "Tmavá plocha, drobná figura padá dovnitř: THROWN IN. Revelation 20:10."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "vrstva": "obrazy",
+   "note": "Řezbový, tiskový dojem: VRSTVA OBRAZY je černá a rumělka jako rytina.",
+   "diagram_generator": "obrazy",
+   "diagram": "Kniha APOCALYPSE OF PETER, c. 100–150 AD, na černé."
+  },
+  {
+   "id": "S81",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S81.png",
+   "vrstva": "obrazy",
+   "note": "Výslovně pozdější, není to ilustrace knihy z 2. století. Popisek to musí říkat.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Hortus Deliciarum - Hell\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "A LATER PICTURE: HORTUS DELICIARUM, ABOUT 1180"
+    }
+   }
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "vrstva": "obrazy",
+   "note": "Geometrie = „very close“.",
+   "diagram_generator": "obrazy",
+   "diagram": "Kruh BIBLE, kniha těsně na hraně."
+  },
+  {
+   "id": "S83",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "vrstva": "obrazy",
+   "note": "Skutečný rukopis.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Muratorian Fragment\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "MURATORIAN FRAGMENT, 8TH-CENTURY COPY"
+    }
+   }
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "vrstva": "obrazy",
+   "note": "Obrázky přecházejí, kniha ne.",
+   "diagram_generator": "obrazy",
+   "diagram": "Kniha mimo kruh, z ní vycházejí obrázky přes hranici."
+  },
+  {
+   "id": "S85",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S85.png",
+   "vrstva": "obrazy",
+   "note": "Mapa pekla, kresba k Dantovi.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"La Carte de l'Enfer\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "BOTTICELLI, ABOUT 1490"
+    }
+   }
+  },
+  {
+   "id": "S86",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S86.png",
+   "vrstva": "obrazy",
+   "note": "Doré ke zpěvu XIX: nohy z děr. Rytina, rok v popisku.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"DvinfernoPopeNicholasIII\"",
+    "pick": 0,
+    "grade": {
+     "fit": 0.86,
+     "popisek": "GUSTAVE DORÉ, 1861"
+    }
+   }
+  },
+  {
+   "id": "S87",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S87.png",
+   "vrstva": "obrazy",
+   "note": "Táž scéna jinou rukou. Citát je v hlase.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"William Blake 004\" filetype:bitmap",
+    "pick": 0,
+    "grade": {
+     "fit": 0.86,
+     "popisek": "WILLIAM BLAKE, ABOUT 1825"
+    }
+   }
+  },
+  {
+   "id": "S88",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "vrstva": "obrazy",
+   "note": "Výjev potvrzený (senato.it), autorství jen připsané: Britannica ho vede jako nejisté. Proto ATTRIBUTED.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"proclama il giubileo\"",
+    "pick": 0,
+    "grade": {
+     "fit": 0.94,
+     "fit_bg": "#100e0c",
+     "popisek": "BONIFACE VIII, ATTRIBUTED TO GIOTTO, ABOUT 1300"
+    }
+   }
+  },
+  {
+   "id": "S89",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S89.png",
+   "vrstva": "obrazy",
+   "note": "Vtip musí nést obraz bez hlasu.",
+   "diagram_generator": "obrazy",
+   "diagram": "Prázdná díra a cedulka RESERVED.",
+   "pause": 2.6,
+   "naveti": "and he was the pope."
+  },
+  {
+   "id": "S90",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S90.png",
+   "vrstva": "pointa",
+   "note": "Pauza před pointou se dělá v S89.",
+   "diagram_generator": "pointa",
+   "diagram": "Čtyři prázdná pole."
+  },
+  {
+   "id": "S91",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S91.png",
+   "vrstva": "pointa",
+   "note": "VÝPLATA VRSTEV: tady je vidět, že to byly různé světy. Jeden pro každý řádek.",
+   "diagram_generator": "pointa",
+   "diagram": "Čtyři dlaždice, každá v médiu své vrstvy: mince v černofiguře, pergamen, rytina s rumělkou, Giotto.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S92",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S92.png",
+   "vrstva": "pointa",
+   "note": "Nejsilnější věta: žádný obraz, jen text.",
+   "diagram_generator": "pointa",
+   "diagram": "Čistá sazba, věta přes obraz. Dlaždice ztmavené.",
+   "pause": 1.4
+  },
+  {
+   "id": "S93",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S93.png",
+   "vrstva": "pointa",
+   "note": "Stejná gramatika jako S42.",
+   "diagram_generator": "pointa",
+   "diagram": "Tři čárové postavy: čin, nic, příběh.",
+   "pause": 0.5
+  },
+  {
+   "id": "S94",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S94.png",
+   "vrstva": "pointa",
+   "note": "Oddělení otázek jako diagram.",
+   "diagram_generator": "pointa",
+   "diagram": "Dvě pole: WHERE IT CAME FROM | IS IT TRUE?, mezi nimi rovnítko přeškrtnuté."
+  },
+  {
+   "id": "S95",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S95.png",
+   "vrstva": "pointa",
+   "note": "VÝZVA K ODBĚRU č. 2. Levý dolní roh prázdný. Titulek krátký.",
+   "diagram_generator": "pointa",
+   "diagram": "Jediný řádek WHY PEOPLE NEEDED IT.",
+   "pause": 3.0,
+   "vyzva": true
+  },
+  {
+   "id": "S96",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S96.png",
+   "vrstva": "soused",
+   "note": "Přechod.",
+   "diagram_generator": "soused",
+   "diagram": "Dlaždice ze S91 s přidaným řádkem seznamu, prázdným."
+  },
+  {
+   "id": "S97",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S97.png",
+   "vrstva": "soused",
+   "note": "Stejná úroveň, stejné písmo: tvrzení „na stejném seznamu“. Žádný obraz ženy visící za vlasy.",
+   "diagram_generator": "soused",
+   "diagram": "Seznam Petrovy apokalypsy: PERSECUTORS a hned pod tím WOMEN WHO PLAITED THEIR HAIR."
+  },
+  {
+   "id": "S98",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S98.png",
+   "vrstva": "soused",
+   "note": "Druhá a poslední SDXL. Žádné postavy, obyčejnost je pointa.",
+   "prompt": "quiet ancient Mediterranean street with an open doorway, laundry drying, plain stone houses, soft flat grey overcast light, nobody visible, no text",
+   "pause": 0.5
+  },
+  {
+   "id": "S99",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S99.png",
+   "vrstva": "soused",
+   "note": "Adresuje diváka.",
+   "diagram_generator": "soused",
+   "diagram": "Seznam, na konci prázdný řádek a nápis YOU.",
+   "pause": 2.2
+  },
+  {
+   "id": "S100",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S100.png",
+   "vrstva": "dnes",
+   "note": "assert 55. Moderní, střízlivá sazba: nová VRSTVA DNES.",
+   "diagram_generator": "dnes",
+   "diagram": "55 % jako pruh. Pew, 2023–24. Definice otázky drobně."
+  },
+  {
+   "id": "S101",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S101.png",
+   "vrstva": "dnes",
+   "note": "Bez portrétu: slova, ne osoba.",
+   "diagram_generator": "dnes",
+   "diagram": "Citace přes obraz. John Paul II, 28 July 1999, vatican.va."
+  },
+  {
+   "id": "S102",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S102.png",
+   "vrstva": "dnes",
+   "note": "Beat.",
+   "diagram_generator": "dnes",
+   "diagram": "Jen RATHER THAN A PLACE.",
+   "pause": 1.4,
+   "naveti": "separate themselves from God."
+  },
+  {
+   "id": "S103",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S103.png",
+   "vrstva": "dnes",
+   "note": "VÝPLATA PÁTEŘE. Stejné souřadnice.",
+   "diagram_generator": "adresa",
+   "diagram": "Mapa ze S01, ale špendlík je pryč; po něm jen obrys. Malé NOT A CHANGE OF DOCTRINE.",
+   "pause": 1.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S104",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S104.png",
+   "vrstva": "dnes",
+   "note": "Tentýž soubor i popisek jako S03: rým.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "intitle:\"Jerusalem-Hinnom-Kidron-Old-City-323\"",
+    "pick": 0,
+    "grade": {
+     "popisek": "VALLEY OF HINNOM, JERUSALEM"
+    }
+   },
+   "pause": 3.0,
+   "naveti": "a pope was describing hell without an address."
+  },
+  {
+   "id": "S105",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S105.png",
+   "vrstva": "zaver",
+   "note": "Začátek okna závěrečné obrazovky.",
+   "diagram_generator": "zaver",
+   "diagram": "Horní polovina prázdná, dole otázka."
+  },
+  {
+   "id": "S106",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S106.png",
+   "vrstva": "zaver",
+   "note": "VÝPLATA DRUHÉ PÁTEŘE. V dolní polovině. Stále bez šipek.",
+   "diagram_generator": "dily",
+   "diagram": "Pět polí rozsvícených, každé ve své vrstvě, s ikonami. Bez šipek.",
+   "pause": 0.6,
+   "vycet": 0.3
+  },
+  {
+   "id": "S107",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S107.png",
+   "vrstva": "zaver",
+   "note": "Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Pod poli jediný řádek SOMEBODY GOT AWAY WITH IT.",
+   "pause": 2.2
+  },
+  {
+   "id": "S108",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S108.png",
+   "vrstva": "zaver",
+   "note": "Horní polovina pro dlaždici a kolečko.",
+   "diagram_generator": "zaver",
+   "diagram": "Klidná deska, otázka v dolní polovině.",
+   "pause": 0.5
+  },
+  {
+   "id": "S109",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S109.png",
+   "vrstva": "zaver",
+   "note": "Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Tatáž deska, druhá půlka otázky."
+  },
+  {
+   "id": "S110",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S110.png",
+   "vrstva": "zaver",
+   "note": "Delší držení.",
+   "diagram_generator": "zaver",
+   "diagram": "Tatáž deska.",
+   "pause": 3.0
+  }
+ ]
+}

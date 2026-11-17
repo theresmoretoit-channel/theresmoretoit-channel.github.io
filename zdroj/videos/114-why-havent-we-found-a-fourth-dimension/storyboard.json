@@ -1,0 +1,428 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "Půdorys bytu ze 113 (`pudorys()`, PÁTEŘ A videa 113, na týchž souřadnicích): dveře ZAVŘENÉ, okna zavřená (plnou čarou). Uvnitř obýváku a ložnice rozsypané drobné tečky vzduchu (INK, ztlumeně). Jedna tečka u zdi ambrově a od ní krátká ČÁRKOVANÁ ambrová šipka „ven z papíru“ (šikmo, tak jako čtvrtý směr ve 113), přeškrtnutá. Popisek AIR STAYS IN.",
+   "note": "První scéna nese myšlenku (otázku úniku), ne atmosféru, a rýmuje se se 113 (týž byt). Čtvrtý směr čárkovaně = hypotéza (konvence 113). Škrt jen přes šipku úniku, ne přes nápis.",
+   "pause": 0.5
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Trezor ze 113 (`trezor()`, zamčený, peníze uvnitř). Ambrová ČÁRKOVANÁ šipka čtvrtým směrem shora dovnitř k penězům, zámek s fajfkou STILL LOCKED. Nahoře drobně LAST TIME.",
+   "note": "Callback na 113 S12–S13 stejným tvarem trezoru. Čárkovaně: myšlenkový pokus.",
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Týž půdorys jako S01 (`pudorys()`): z teček vzduchu, z hrnku kávy (ikonka s párou) a z postavy shora (`postava_shora()`) vedou ambrové ČÁRKOVANÉ šipky čtvrtým směrem ven. Popisky AIR · HEAT · YOU. Nad tím velký otazník.",
+   "note": "Otazník, ne tvrzení: scéna se ptá, proč se to NEděje. Šipky čárkovaně, protože nic takového nikdo neviděl."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "`slunce()` ze 113 (PÁTEŘ D tam) a planeta, jejíž dráha se ambrově ČÁRKOVANĚ stáčí ve spirále pryč (jako 113 S40 vpravo). Popisek A BIG 4TH DIMENSION → NO STABLE ORBITS. Nahoře drobně WE ALREADY KNOW (VIDEO 113).",
+   "note": "Rekapitulace 113 tím samým obrazem, ať ji divák pozná; spirála čárkovaně = tak by to bylo, ne pozorování.",
+   "pause": 0.5
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "Rozvržení 113 S46: dva čárkované otvory vedle sebe, 1 · CURLED UP TOO SMALL (uvnitř drobný kroužek) a 2 · OUT OF REACH (uvnitř list papíru s postavičkou přilepenou k němu). Nad tím IF IT EXISTS, IT'S HIDDEN.",
+   "note": "Dvě možnosti, žádná nevyhrává: obě stejně velké, obě INK, ambrový jen nadpis. Konec úvodního bloku.",
+   "pause": 1.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "lednice",
+   "diagram": "PÁTEŘ A `lednice()` poprvé: dvířka lednice zepředu (vysoký zaoblený obdélník s madlem) na pevných souřadnicích, na nich malý magnet držící list papíru. Magnet ambrově. Popisek A CLUE?",
+   "note": "Páteř A: lednice se nikdy nekreslí ručně, jen `lednice()`. Výplata v S40. Otazník: zatím jen náznak."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "lednice",
+   "diagram": "`lednice()` na týchž souřadnicích. Z papíru dolů dlouhá šipka THE GRAVITY OF THE ENTIRE EARTH (INK), vedle drobná ikona zeměkoule. Magnet ambrově s popiskem ONE SMALL MAGNET. Dole ambrově THE MAGNET WINS.",
+   "note": "Šipka gravitace je VELKÁ (celá Země), přesto magnet vyhrává: velikost šipky nese „celá Země“, ne velikost síly. Papír visí, nepadá — žádná šipka pohybu dolů."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "lednice",
+   "diagram": "Dva protony (kolečka s +) vedle sebe. Mezi nimi ven dvě velké ambrové šipky ELECTRIC PUSH, a uprostřed nepatrná šipka GRAVITY (INK, sotva viditelná). Pod tím ≈ 10³⁶ × STRONGER (A TRILLION TRILLION TRILLION).",
+   "note": "Číslo spočítané ve factchecku: k e²/(G m_p²) = 1,24 × 10³⁶. Šipky nemohou být v poměru 10³⁶ — proto drobná šipka gravitace + číslo; assert na číslo v generátoru, ne na délky."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "lednice",
+   "diagram": "Nadpis THE HIERARCHY PROBLEM, pod ním WHY IS GRAVITY SO WEAK? (ambrově) a velký otazník. Vpravo dole drobně `lednice()` zmenšeně a ztlumeně.",
+   "note": "„Nobody knows“ → otazník, ne odpověď."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "lednice",
+   "diagram": "Karta 1998 · ARKANI-HAMED, DIMOPOULOS, DVALI. Pod ní dvě věty: GRAVITY IS WEAK (škrtnutá vodorovnou čarou, `text_skrtnuty()`), pod ní GRAVITY ONLY LOOKS WEAK s ambrovým LOOKS.",
+   "note": "Jména jen v obraze, ve voiceoveru nejsou (výslovnost). Škrt přes celou větu je správně: tvrzení „gravitace je slabá“ ten nápad opravdu popírá. „Maybe“ ve scénáři: nad tím drobně AN IDEA, ne fakt.",
+   "pause": 1.0
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "lednice",
+   "diagram": "`rovina()` ze 113 (list v perspektivě, na týchž souřadnicích jako 113 S50–S52). Na listu inkoustem ikony ATOMS · LIGHT · PEOPLE (INK, „přilepené“). Nad listem ambrový symbol GRAVITY (kolečko se siločarami), který se listu nedotýká. Popisek STUCK TO THE PAGE / GRAVITY ISN'T.",
+   "note": "„like last time“ → přesně tentýž list jako 113, ať divák pozná obraz dřív, než ho pochopí."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "lednice",
+   "diagram": "Týž `rovina()` jako S11. Z bodu na listu se ambrové ČÁRKOVANÉ siločáry rozbíhají nejen po listu, ale i nad a pod něj; na listu zbývá jen jejich část (slabší, ztlumená). Popisek SHARED WITH DIRECTIONS WE CAN'T SEE → FEELS FEEBLE.",
+   "note": "Čárkovaně = hypotéza ADD. Siločáry ven z listu, žádné „GRAVITY LEAKS“ jako fakt. Předchází CTA, proto statická a krátká pauza.",
+   "pause": 1.0
+  },
+  {
+   "id": "S12b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "cta": true,
+   "note": "CTA podle docs/cta.md — dědí S12 (~1:47), za výplatou „gravitace jen vypadá slabá“, před S13 („predictions can be checked“). Blokový předěl je až za ní.",
+   "pause": 2.2
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "laborator",
+   "diagram": "PÁTEŘ B `trojice()` poprvé: tři rámečky vedle sebe na pevných souřadnicích, zatím prázdné a ČÁRKOVANÉ, s ikonami ztlumeně: ON A LAB BENCH (vahadlo na vlákně) · IN A COLLIDER (prstenec) · ACROSS THE UNIVERSE (dvě hvězdy). Nad tím ambrově PREDICTIONS CAN BE CHECKED.",
+   "note": "Páteř B: trojice testů, rámečky se plní v S32 (skóre) a vrací v S39 (stopy). Ikony jen `ikona_testu()`. Čárkovaně = test ještě neproběhl.",
+   "pause": 0.5
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "laborator",
+   "diagram": "PÁTEŘ C `graf()` poprvé: osy STRENGTH OF GRAVITY ↑ a DISTANCE → bez čísel. Plná křivka THE OLD RULE (1/r²). Na ní dva body: r a 2r, u 2r svislé úsečky ukazují ¼ — popisek DOUBLE THE DISTANCE → 4× WEAKER.",
+   "note": "Páteř C: osy a křivka se nikdy nekreslí ručně, jen `graf()`. Bez číselných os, netvrdí čísla (konvence 5 ze 113). Poměr ¼ assert v generátoru.",
+   "pause": 0.5
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "laborator",
+   "diagram": "`graf()`: plná křivka staré pravidlo, a vlevo (malé vzdálenosti) od ní ambrově ČÁRKOVANĚ odbočuje křivka PLYNULE nahoru (ohyb, ne zlom). Svislá čárkovaná značka SIZE OF THE HIDDEN DIMENSIONS v místě ohybu. Popisek CLOSER THAN THAT → STRONGER THAN IT SHOULD BE?",
+   "note": "Rozhodnuto ve factchecku: přechod je plynulý, „suddenly“ je zjednodušení → kreslit ohyb, ne lom. Čárkovaně = předpověď."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "laborator",
+   "diagram": "`graf()` s čárkovanou odbočkou z S15 ztlumeně. Oblast vlevo od značky 1 MM šrafovaná: NOT YET MEASURED (1998). Napravo od ní plná křivka s tečkami měření.",
+   "note": "Značka 1 mm na ose je jediné číslo; poloha na log ose sdílená s S19 (52 µm) přes `graf_x()`."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "laborator",
+   "diagram": "Drobný ambrový sinusový signál GRAVITY ztracený ve velkém zubatém šumu (INK, ztlumeně). Kolem šumu tři štítky: STRAY ELECTRIC CHARGES · VIBRATION · A CHANGE IN TEMPERATURE.",
+   "note": "Výčet ve scénáři → `vycet` na scéně (tři krátké věty s tečkami).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "laborator",
+   "diagram": "Řez aparátem v perspektivě: shora tenké vlákno, na něm VISÍCÍ disk s otvory po obvodu (HANGING DISC), pod ním tenká stínicí membrána, pod ní OTÁČEJÍCÍ se disk s otvory (TURNING DISC, kruhová šipka). U visícího disku drobná ambrová ČÁRKOVANÁ oblouková šipka zkroucení: A TELLTALE TWIST? Dole drobně SEATTLE · UNIVERSITY OF WASHINGTON.",
+   "note": "Nákres zařízení → samostatný průchod „jak to funguje“: visící disk se NEotáčí, jen by se kroutil; točí se spodní; mezi nimi stínění (Lee et al. 2020: torzní detektor a rotující atraktor s otvory, mezi nimi membrána). Jméno Eöt-Wash jen do popisku videa. Zpětná vazba ke storyboardu: na první pohled musí být jasné, že se TOČÍ spodní disk (výrazná plná kruhová šipka) a horní by se jen nepatrně KROUTIL (drobná čárkovaná) — to je důležitější než konstrukční detail."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "laborator",
+   "diagram": "`graf()`: tečky měření teď sahají doleva až ke značce 52 µm a všechny leží na plné křivce starého pravidla. Šrafovaná neprozkoumaná oblast se zmenšila na úsek vlevo od 52 µm. U značky drobně průřez lidského vlasu (kruh v témže měřítku ~80 µm): THINNER THAN A HUMAN HAIR. Nahoře 2020.",
+   "note": "Vlas jako kruh: jeho průměr v jednotkách osy počítá generátor; protože je osa logaritmická, kruh NEKRESLIT na osu, ale vedle, jako ikonku s popiskem. Data 52 µm–3 mm (factcheck).",
+   "pause": 0.6
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "laborator",
+   "diagram": "`graf()` jako S19. Čárkovaná ambrová odbočka se posunula doleva za 52 µm s nepřeškrtnutým popiskem HIDDEN DIMENSIONS? SMALLER THAN THAT. Vpravo ztlumeně původní odbočka u značky 1 MM a PŘÍMO U NÍ (ne jako nadpis scény) popisek THE 1998 MILLIMETRE VERSION přeškrtnutý `text_skrtnuty()`, pod ním drobně RULED OUT.",
+   "note": "Zpětná vazba ke storyboardu: škrt a RULED OUT musí jednoznačně mířit JEN na milimetrovou verzi — popisek sedí u odbočky 1 mm, škrt nepřesahuje na nic jiného, nadpis scény žádný „ruled out“ nemá. Myšlenka skrytých dimenzí se posunula, ne zmizela. Konec laboratorního bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "urychlovac",
+   "diagram": "Dva svazky částic proti sobě (vodorovné šipky), v místě srážky ambrově ČÁRKOVANÁ drobná černá díra (černý kroužek s čárkovaným ambrovým obrysem) s popiskem A MICROSCOPIC BLACK HOLE? Nad tím IF GRAVITY IS STRONG UP CLOSE…",
+   "note": "„Theory said … could be“ → otazník a čárkovaně."
+  },
+  {
+   "id": "S22",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S22.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Views of the LHC tunnel sector 3-4",
+    "pick": 0,
+    "grade": {
+     "saturation": 95
+    }
+   },
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [0] Views of the LHC tunnel sector 3-4, tirage 2 (Maximilien Brice, CERN), CC BY-SA 3.0 — atribuce povinná. Dotaz zúžený na název, [1] je týž záběr (tirage 1). Konkrétní pojmenovaný objekt → archiv; fotka se hýbe, diagramy ne."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "urychlovac",
+   "diagram": "PÁTEŘ D `detektor()` poprvé: příčný řez detektorem (soustředné kruhy), ze středu viditelné dráhy částic plnou čarou (INK). Jedna ambrová ČÁRKOVANÁ šipka na opačnou stranu, kde chybí: MISSING ENERGY. U jejího konce drobně OFF THE PAGE?",
+   "note": "Páteř D jen `detektor()`, S23–S25 na týchž souřadnicích. Rýmuje se se 113 S55. Chybějící energie čárkovaně (nevidíme ji).",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "urychlovac",
+   "diagram": "`detektor()` jako S23, táž čárkovaná šipka. Ze šipky vedou dvě větve ke dvěma štítkům: NEUTRINO (INK, plně — známá věc) a ANOTHER DIMENSION? (ztlumeně, čárkovaně). Dole MISSING ENERGY ≠ A PHOTOGRAPH OF ANOTHER DIMENSION.",
+   "note": "Neutrino je doložené (plně), dimenze hypotéza (čárkovaně) — míra jistoty odpovídá scénáři. Žádná větev není ambrová, ať žádná „nevyhrává“."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "urychlovac",
+   "diagram": "`detektor()` ztlumeně vlevo, vpravo `vahy()` v rovnováze: ENERGY IN | ENERGY OUT (+ KNOWN PARTICLES). Pod tím dva řádky: NO BLACK HOLES · NO MISSING ENERGY BEYOND KNOWN PHYSICS.",
+   "note": "„So far“: nadpis SO FAR, ne „never“. Konec bloku urychlovače.",
+   "pause": 2.4
+  },
+  {
+   "id": "S26",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Eso1733r Composite NGC 4993 kilonova",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 95,
+     "fit_bg": "#0c1118"
+    }
+   },
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [0] Composite of images of NGC 4993 and kilonova (eso1733r), ESO/N.R. Tanvir, A.J. Levan and the VIN-ROUGE collaboration, CC BY 4.0 — atribuce povinná. Galaxie před (April 2014) a po (August 2017): popisek AUGUST 2017 sedí na voiceover. Statický a fit 0.9, protože nese vlastní popisky, které by zoom ořízl; fit_bg = BG diagramů (rozostřená kopie by z písmen udělala šmouhy, jako 113 S04). Zamítnuto: [0] původního dotazu je vícesnímkový soubor, PanSTARRS má žluté popisky, mapa souhvězdí nic nenese. Zpětná vazba ke storyboardu: popisek August 2017 musí zůstat čitelný (fit, ne ořez)."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "vesmir",
+   "diagram": "Časová osa vodorovně: vlevo dvě neutronové hvězdy na spirále (NEUTRON STARS — COLLAPSED CORES OF DEAD STARS), v bodě MERGER svislá značka; vpravo za ní o kus dál značka GAMMA RAYS s popiskem < 2 SECONDS LATER. Nad osou křivka gravitační vlny (chirp, roste frekvence i amplituda až ke splynutí).",
+   "note": "1,74 s (factcheck) → „< 2 s“. Plně: stalo se a bylo pozorováno."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "vesmir",
+   "diagram": "PÁTEŘ E `dve_cesty()` poprvé: vlevo galaxie (tečka se spirálou), vpravo Země. Mezi nimi dvě cesty: nahoře vlnovka GRAVITATIONAL WAVES, dole rovná čára LIGHT. Popisek THE SAME EVENT, TWO WAYS. Drobně 130 MILLION LIGHT-YEARS.",
+   "note": "Páteř E jen `dve_cesty()`, S28–S31 na týchž souřadnicích. Obě cesty plně (obojí pozorováno), ambrová jen to, o čem je řeč."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "vesmir",
+   "diagram": "`dve_cesty()`: z vlnovky odcházejí kolmo ambrové ČÁRKOVANÉ šipky (únik), vlnovka k Zemi slábne. U Země dvě značky vzdálenosti: BY LIGHT a BY GRAVITATIONAL WAVES — ta druhá dál (čárkovaně). Nad tím IF GRAVITY LEAKED…",
+   "note": "Celé čárkovaně: je to „kdyby“. Pardo et al. 2018: platí pro únik na velkých škálách — obraz netvrdí víc."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "vesmir",
+   "diagram": "`dve_cesty()` bez únikových šipek. Dvě značky vzdálenosti se svými chybovými úsečkami se PŘEKRÝVAJÍ (ne totožný bod). Fajfka a ambrově THE TWO DISTANCES AGREED.",
+   "note": "Shoda v rámci nejistot (zpetna vazba 0.5) → chybové úsečky, ne jeden bod. Rozděleno na S30 / S30b: Emma „It didn't. The two…“ slévá i s výpustkou (u řezu řeč −1 dB), af_heart pauzu má. Mezi scénami se pauza PŘIDÁVÁ, takže ji nic neodmítne; pause 0,45 = sentence_pause.",
+   "pause": 0.45,
+   "naveti": "The galaxy would seem further away in gravitational waves than in light."
+  },
+  {
+   "id": "S30b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "naveti": "It didn't.",
+   "note": "Druhá půlka S30, dědí obraz S30 (beat vyrobený rozdělením scény). Návětí = skutečný text předchozí scény kvůli intonaci. Konec bloku pauzou 1,0 jako dřív S30.",
+   "pause": 1.0
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "vesmir",
+   "diagram": "`dve_cesty()`: u Země malý graf amplitudy vlny podle vzdálenosti. Dvě PŘEDPOVĚDI (obě tenkou čarou, ne data): ONLY OUR THREE DIMENSIONS (INK) a WITH THE TESTED LEAK (ambrově čárkovaně, nižší). Jediné MĚŘENÍ je bod s chybovou úsečkou na konci trasy (u Země), leží na předpovědi tří rozměrů a mimo předpověď úniku. Popisek CONSISTENT WITH THREE DIMENSIONS, drobně ANY LEAK: TOO SMALL TO SEE.",
+   "note": "Zpětná vazba ke storyboardu: nedělat z modelu pozorovanou křivku — vlna se neměřila po celé trase, jen jednou na konci. Proto předpovědi jako čáry a měření jako jeden bod s chybou. Netvrdit „no extra dimensions“ (factcheck, Pardo et al.: únik na velkých škálách, testované modely). Konec vesmírného bloku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "zbyva",
+   "diagram": "VÝPLATA PÁTEŘE B `trojice()`: tři rámečky z S13 na týchž souřadnicích, teď plnou čarou, ikony INK, a v každém NO LEAK. Nad tím THE SCORECARD.",
+   "note": "Žádné fajfky „dobré“ ani křížky — jen NO LEAK, protože výsledek je nula, ne úspěch.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "zbyva",
+   "diagram": "`trojice()` ztlumeně vlevo jako tři prázdné prohledané skrýše (CHECKED: EMPTY). Vpravo menší čárkované rámečky různých tvarů, jeden drobný, jeden nepravidelný: SMALLER · STRANGER (ambrově).",
+   "note": "„Doesn't mean there's no fourth dimension“ → nic se neškrtá.",
+   "pause": 1.4
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "zbyva",
+   "diagram": "Rozvržení 113 S48: vodorovná čára (náš prostor) a lupa na jeden bod, v lupě drobný ambrový kroužek (stočená dimenze). Vlevo dole `graf()` zmenšeně a ztlumeně s ručičkou ANY EXPERIMENT, kroužek leží daleko za jeho levým krajem: FAR SMALLER THAN ANY EXPERIMENT CAN REACH. Nahoře THE OLDEST HIDING PLACE (KALUZA–KLEIN, 1920s).",
+   "note": "Kroužek čárkovaně (nikdo ho neviděl). Rýmuje se se 113 S48 (Klein)."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "zbyva",
+   "diagram": "Vlevo lupa s kroužkem z S34, po kroužku obíhá tečka (ambrová šipka). Vpravo žebříček hmotností: dole plná čára A FAMILIAR PARTICLE, nad ní čárkované úrovně HEAVIER COPIES? (rovnoměrně rozložené).",
+   "note": "„In some theories“ → čárkovaně a otazník. Rovnoměrné rozestupy úrovní: KK věž m_n ≈ n/R (factcheck), assert v generátoru.",
+   "pause": 0.5
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "zbyva",
+   "diagram": "Vlevo ztlumeně kulička s nápisem AN ELECTRON AS A TINY 4D BALL, nápis přeškrtnutý (`text_skrtnuty()`). Vpravo žebříček z S35 a pod ním A SPECIFIC PREDICTION: NEW PARTICLES, PARTICULAR MASSES. Dole ambrově NONE FOUND.",
+   "note": "Bod 2 autorky: elektron jako 4D kulička je to, co se popírá — škrt sedí."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "zbyva",
+   "diagram": "Vlevo vibrující smyčka struny (STRING THEORY) a pod ní CONSISTENT VERSIONS REQUIRE EXTRA DIMENSIONS. Vpravo MATHEMATICAL REQUIREMENT ≠ EVIDENCE (`rovna_se(ne=True)`), ≠ ambrově.",
+   "note": "Bez čísla „10 dimenzí“ — scénář ho neříká a obraz nesmí tvrdit víc. Konec bloku „co zbývá“.",
+   "pause": 2.6
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "zaver",
+   "diagram": "Pětiboký dům Plochozemě ze 113 (`dum_plochozeme()`) se čtvercem uvnitř a ambrový kruh-návštěvník (průřez koule), jako 113 S57, ale v plné velikosti. Popisek A SPHERE CAME TO VISIT.",
+   "note": "Callback 113. Zatím celý obraz; koncová obrazovka začíná až S39."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: VÝPLATA PÁTEŘE B — `trojice()` zmenšeně, v každém rámečku drobná ambrová čárkovaná stopa (otisk) a popisek A PULL TOO STRONG · A COLLISION THAT DOESN'T ADD UP · A RIPPLE TOO FAINT. Nad tím (pořád v dolní polovině) LOOKING FOR FOOTPRINTS.",
+   "note": "Koncová obrazovka (posledních ~20 s je S39–S41): horní polovina prázdná pro dlaždici a kolečko odběru. Stopy čárkovaně — nikdo je zatím nenašel. Po renderu ověřit `zaver_check.py` a kontaktním listem: stopy v S39 čitelné i zmenšené, text u lednice v S40 nekoliduje s dlaždicí ani kolečkem.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: VÝPLATA PÁTEŘE A — `lednice()` zmenšeně (jediné místo, kde se smí pohnout), magnet ambrově, papír drží. Vedle STILL BEATING THE WHOLE PLANET a menší NOBODY KNOWS WHY.",
+   "note": "Lednice se zmenšuje a posouvá jen tady (koncová deska), jinde pevné souřadnice. Po renderu ověřit `zaver_check.py` a kontaktním listem: stopy v S39 čitelné i zmenšené, text u lednice v S40 nekoliduje s dlaždicí ani kolečkem.",
+   "pause": 1.2
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: ztlumeně WHAT WOULD IT LOOK LIKE? (otázka 113) a pod ní ambrově WHAT WOULD GIVE IT AWAY?",
+   "note": "Otázka 113 se neškrtá (není špatná, jen změněná) — jen se ztlumí. Konec videa, dlouhá pauza ať deska drží. Po renderu ověřit `zaver_check.py` a kontaktním listem: stopy v S39 čitelné i zmenšené, text u lednice v S40 nekoliduje s dlaždicí ani kolečkem.",
+   "pause": 3.0
+  }
+ ]
+}

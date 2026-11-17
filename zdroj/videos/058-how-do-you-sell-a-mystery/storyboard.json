@@ -1,0 +1,851 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První obrazovka nese MYŠLENKU, ne atmosféru: divák vidí mechanismus dřív, než ví, o čem video je. Zavádí `ramecek_vyrez()` na pevných souřadnicích — vyplácí se v S71b/c, kde je to Dänikenova oříznutá fotka Nazcy.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ TADY. Vlevo neutrální obrazec (shluk čar), na něm ambrový rámeček výřezu, vpravo ten výřez zvětšený — a zvětšenina se čte jako něco úplně jiného. Tři malé číslice 1-2-3 pod tím."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Ukazuje, že jde o týž tvar ve třech médiích. Rámeček je pořád tentýž prvek jako v S01, jen zmenšený — divák si ho má zafixovat jako značku. PAUZA 2.2 s: konec úvodní teze, než video sáhne po Dänikenovi.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři ztlumené rámečky vedle sebe: obrazovka dokumentu, novinový titulek, televizní kanál. Nad každým týž ambrový rámeček výřezu v malém.",
+      "pause": 2.2
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Konzervativní číslo — agent uvádí 75 mil. Fact check S03.",
+      "diagram_generator": "podvod",
+      "diagram": "Stoh knih, vedle číslo 70 000 000 vysázené velkým. Pod tím ztlumeně `49 books, 30+ languages`."
+    },
+    {
+      "id": "S04",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "PORTRÉT: žádný zoom (divák u videa 004 hlásil uříznuté čelo a ořezané hlavy) a `fit`, aby byla celá hlava s odstupem. PICK SE MUSÍ VYBRAT Z KONTAKTNÍHO LISTU, ne od stolu. CC BY / CC BY-SA -> atribuce POVINNÁ v popisku videa, uvnitř kopírovaného bloku.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Erich von Daniken",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Dvě čísla ze scénáře v obraze, aby je divák viděl i slyšel. Nic víc — scéna má jen doložit, co zaznělo.",
+      "diagram_generator": "podvod",
+      "diagram": "Hotelová faktura a úvěrová reference, přes obě ambrové razítko FORGED. Pod tím `$130,000` a `12 years`."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Kauzální řetěz padělek -> cesty -> kniha. Šipka tu nese tvrzení, tak ať míří správně: od peněz K cestám, od cest KE knize.",
+      "diagram_generator": "podvod",
+      "diagram": "Šipka od hromádky peněz ke třem cílům: letadlo, Peru, Egypt. Z nich šipka do knihy. Kniha má štítek `March 1968`."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Osa je tu proto, že zadání si tenhle sled spletlo (myslelo si, že ve vězení psal PRVNÍ knihu). Obraz to drží na místě.",
+      "diagram_generator": "podvod",
+      "diagram": "Časová osa: `March 1968` kniha, `Nov 1968` zatčení, `Feb 1970` rozsudek 3,5 roku. Za rozsudkem ikona druhé knihy.",
+      "pause": 1.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Dvě tvrzení vedle sebe, ještě nespojená. Otazník, ne šipka — šipka by odpověděla dřív než voiceover.",
+      "diagram_generator": "podvod",
+      "diagram": "Vlevo krabička `HE COMMITTED FRAUD`, vpravo krabička `HIS THEORIES WERE FRAUD`, mezi nimi velký ambrový otazník."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Beat téhož obrazu, mění se jediná věc (otazník -> přeškrtnutá šipka). Tohle je pravidlo videa vyslovené obrazem.",
+      "diagram_generator": "podvod",
+      "diagram": "Táž kompozice, ale mezi krabičkami je teď PŘEŠKRTNUTÁ šipka."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Třetí beat téhož obrazu. Nekreslit nové scény — jinak z toho je pět střihů za sebou. PAUZA 1.4 s: po `THE GAP` — divák si tu má uvědomit, co málem udělal.",
+      "diagram_generator": "podvod",
+      "diagram": "Táž kompozice ztlumená, mezera mezi krabičkami ambrově zvýrazněná a popsaná `THE GAP`.",
+      "pause": 1.4
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "`Not once. Thousands of times.` Mřížka tvrdí množství, ne přesný počet — scénář taky ne (fact check: třída 2).",
+      "diagram_generator": "podvod",
+      "diagram": "Mřížka mnoha malých rámečků výřezu, jeden ambrový, ostatní ztlumené.",
+      "pause": 2.6
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Titulní deska uprostřed videa. Klid po pauze 2,6 s. PAUZA 2.2 s: titulní deska uprostřed videa se má nadechnout.",
+      "diagram_generator": "kroky",
+      "diagram": "Nadpis HOW DO YOU SELL A MYSTERY? uprostřed prázdné plochy.",
+      "pause": 2.2
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Tři kroky dostanou stejnou desku pokaždé — stejná velikost, stejné místo, mění se jen číslice a text. Pořadí a velikost samy nesou tvrzení.",
+      "diagram_generator": "kroky",
+      "diagram": "Velké `1` a pod ním `START WITH SOMETHING REAL`."
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S14.png",
+      "note": "Fotka se hýbe, diagram ne. `slow_zoom_out`, protože se svět otevírá — divák má vidět měřítko pláně. PICK Z KONTAKTNÍHO LISTU.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nazca lines aerial geoglyphs Peru",
+        "pick": 0,
+        "grade": {
+          "fit": 0.92
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Čísla z fact checku S15. Měřítko je tvrzení, tak ať je doložené.",
+      "diagram_generator": "nazca",
+      "diagram": "Obrys pláně s měřítkem: `1,300 km of lines`, `50 km²`, ztlumená silueta letadla pro měřítko."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Vrací se na tytéž souřadnice jako S13. Kdyby se deska pohnula, série se rozpadne.",
+      "diagram_generator": "kroky",
+      "diagram": "Deska kroku 1 ztlumená, vedle ní ambrový nápis `NOTHING CLAIMED YET`."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Táž deska jako S13, jen jiná číslice.",
+      "diagram_generator": "kroky",
+      "diagram": "Velké `2` a pod ním `POINT AT SOMETHING UNEXPLAINED`."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Scénář schválně NEŘÍKÁ `viditelné jen ze vzduchu` (běžný omyl), takže ani obraz to tvrdit nesmí — proto je vidět i pohled ze země.",
+      "diagram_generator": "nazca",
+      "diagram": "Obrazec Nazcy z boku a z ptačí perspektivy, u druhého ambrový otazník."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "`every single word has been true` — obraz to musí potvrdit, ne relativizovat.",
+      "diagram_generator": "kroky",
+      "diagram": "Desky 1 a 2 vedle sebe, obě se zeleným/ztlumeným zaškrtnutím `TRUE`."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Třetí deska. Ambrová znamená `o tomhle je teď řeč`, ne `špatné` — jinak se video čte obráceně.",
+      "diagram_generator": "kroky",
+      "diagram": "Velké `3` a pod ním `ASK IF THE ANSWER IS EXTRAORDINARY`, ambrově."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "PÁTEŘ PODRUHÉ, a poprvé na konkrétní věci. Táž kompozice jako S01. Tady se má divák poprvé chytit. PAUZA 2.2 s: první výskyt páteře na konkrétní věci — tady se má divák chytit.",
+      "diagram_generator": "kroky",
+      "diagram": "Na obrazec z S18 dosedne ambrový rámeček výřezu a vedle se objeví zvětšenina, ve které čáry vypadají jako letiště.",
+      "pause": 2.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "`questions cannot be wrong` — bublina je prázdná schválně.",
+      "diagram_generator": "kroky",
+      "diagram": "Prázdná bublina s otazníkem, pod ní ztlumené `NO CLAIM MADE`."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Datace z fact checku S23. Scénář neříká `u všech čar` a zdroj taky ne (`some lines`) — obraz proto ukazuje JEDNU čáru, ne pláň.",
+      "diagram_generator": "nazca",
+      "diagram": "Přímka v písku, na obou koncích zatlučený dřevěný kůl, u jednoho štítek `AD 525 ±80`."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Po fact checku: `offerings left on them`, NE `smashed` — obraz proto střepy neukazuje rozbité úderem, jen položené. A `most of the figures`, takže je vedle vidět i jedna složená z víc čar.",
+      "diagram_generator": "nazca",
+      "diagram": "Na čáře leží střepy a kus textilie, ambrově. Vedle malý obrazec kreslený jednou nepřerušenou linkou, se šipkou `one line`."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "SCÉNA, KTERÁ KRESLÍ, JAK NĚCO FUNGUJE -> vlastní kontrolní průchod. Tmavá vrstva musí být NAHOŘE a tenká, světlé podloží pod ní. Obráceně by kresba tvrdila nesmysl.",
+      "diagram_generator": "nazca",
+      "diagram": "Řez terénem: tmavá vrstva kamínků nahoře, světlé podloží pod ní, ruka odhrnuje kamínky. Popisek `10–15 cm`."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Přeškrtnutí celé desky znamená `neplatí to vůbec` — a to je přesně to, co scénář říká.",
+      "diagram_generator": "nazca",
+      "diagram": "Deska `LANDING STRIP` celá přeškrtnutá vodorovnou čarou (na text se škrtá čarou, ne křížkem)."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "`Rejecting one explanation is not the same as having all the answers.` Kresba nesmí tvrdit, že je Nazca vyřešená.",
+      "diagram_generator": "nazca",
+      "diagram": "Vlevo jedna přeškrtnutá odpověď, vpravo pole otazníků, které zůstávají. Mezi nimi přeškrtnuté rovnítko.",
+      "pause": 1.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Zavádí váhy, které se vyplácejí v S63 (20 s proti 191 min). Musí to být TÝŽ tvar, jinak se výplata nepozná.",
+      "diagram_generator": "kroky",
+      "diagram": "Nerovnoramenné váhy: na jedné misce `4 WORDS`, na druhé `A MINUTE`. Miska s minutou dole.",
+      "pause": 2.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Ukazuje opakování vzorce. Ikony ztlumené, protože pointa je ten sled pod nimi, ne ony samy.",
+      "diagram_generator": "kroky",
+      "diagram": "Tři ztlumené ikony (pyramida, mayská stéla, svitek), pod každou týž sled `REAL / OPEN / ALIENS?`."
+    },
+    {
+      "id": "S30",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30.png",
+      "note": "Chrám nápisů. `slow_zoom_in`, protože se zaostřuje na jednu věc — vstup do hrobky. PICK Z KONTAKTNÍHO LISTU. Saturace sražena na 38: zeleň džungle jde proti paletě videa (slate blue / stone grey / brick red), a scéna má nést stavbu, ne vegetaci.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Palenque Temple of the Inscriptions",
+        "pick": 1,
+        "grade": {
+          "fit": 0.9,
+          "saturation": 38
+        }
+      }
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "VÍKO SE KRESLÍ, NEFOTÍ — fotografie na Commons jsou CC BY-SA a scéna s obrazem manipuluje. Čtyři šipky musí mířit na čtyři RŮZNÁ místa, jinak scéna netvrdí nic.",
+      "diagram_generator": "palenque",
+      "diagram": "Stylizovaný obrys víka (postava v nakloněné poloze), na něm čtyři ambrové popisky se šipkami: ASTRONAUT, CONTROL PANEL, ENGINE, SPACECRAFT."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Beat téhož obrazu: mění se jen vrstva popisků. Datum je ve fact checku ověřené výpočtem (27. 7. 615 az 29. 8. 683).",
+      "diagram_generator": "palenque",
+      "diagram": "Týž obrys, popisky zmizely. Vedle štítek `K'INICH JANAAB' PAKAL`, `615–683`, `68 years`."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Třetí beat. Tady se ukazuje, že na TÝŽ obraz sedí druhá sada popisků — to je celá pointa Palenque a musí to být vidět beze slov.",
+      "diagram_generator": "palenque",
+      "diagram": "Týž obrys, teď s mayskými popisky: WORLD TREE nahoru, FUNERARY SERPENT k čelistem dole, MAIZE GOD k postavě."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Čárkovaná = hypotéza, plná = doloženo; to je konvence videa. Přeškrtnuté jsou proto, že Däniken je NEPOUŽIL, ne proto, že by neplatily. `note` to říká, ať to příští agent nepřehodí.",
+      "diagram_generator": "palenque",
+      "diagram": "Vlevo oko s čárkovanou čarou k obrazu (`LOOKING`), vpravo tři plné čáry od BURIAL, INSCRIPTIONS, OTHER CARVINGS — všechny tři přeškrtnuté."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Beat: to, co Däniken vynechal, se ukáže jako to, co archeologie má.",
+      "diagram_generator": "palenque",
+      "diagram": "Táž kompozice, škrty zmizely a tři plné čáry se rozsvítí ambrově."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Shrnutí kroků na tomtéž příkladu. Stejný tvar jako S19, aby si to divák spojil.",
+      "diagram_generator": "palenque",
+      "diagram": "Tři řádky: `THE OBJECT — REAL`, `THE STRANGENESS — REAL`, `THE READING — THE EXTRA STEP`. Třetí ambrově.",
+      "pause": 2.8
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Deska nové otázky. Hlavní otázka videa je zodpovězená, tahle je nová — proto dostane vlastní desku. PAUZA 2.2 s: deska nové otázky.",
+      "diagram_generator": "veril",
+      "diagram": "Otázka SO WAS HE SIMPLY LYING? uprostřed prázdné plochy.",
+      "pause": 2.2
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Tytéž váhy jako S28 a S63. Prázdné misky = odpověď zatím není.",
+      "diagram_generator": "veril",
+      "diagram": "Váhy v rovnováze, obě misky prázdné."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Kontrast délky. Uťatý úsek musí být ZŘETELNĚ kratší, jinak srovnání nefunguje.",
+      "diagram_generator": "veril",
+      "diagram": "Časová osa 1968–2026, plná hustě knihami a přednáškami. Vedle ztlumeně `A CON MAN STOPS` s krátkým uťatým úsekem."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Doložený citát, viz fact check S40. Nahradil parafrázi, za kterou nestál žádný zdroj.",
+      "diagram_generator": "veril",
+      "diagram": "Rámeček rozhovoru se štítkem `2018`, v něm věta `CONTACT WITHIN 10 YEARS`."
+    },
+    {
+      "id": "S40b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40b.png",
+      "note": "Beat téhož obrazu, ne nový obrázek. TTS: samostatná promluva o šesti slovech -> potřebuje `naveti`, ověřené na `base.en`.",
+      "diagram_generator": "veril",
+      "diagram": "Týž rámeček, pod větou se ambrově rozsvítí `FOR THIS I HAVE NO PROOF.`",
+      "naveti": "He said it plainly enough in that conversation.",
+      "pause": 1.6
+    },
+    {
+      "id": "S40c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40c.png",
+      "note": "Střízlivě. Žádný portrét, žádná deska in memoriam — video není nekrolog.",
+      "diagram_generator": "veril",
+      "diagram": "Týž rámeček ztlumený, pod ním `1935 – 2026`."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Váhy se poprvé naklánějí. Tvar drží z S38.",
+      "diagram_generator": "veril",
+      "diagram": "Miska vah s nápisem `NOT A ONE-TIME SCAM` klesá."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "KRITICKÉ: obraz nesmí naznačit, že druhá miska převáží. Scénář říká, že platí obojí najednou. Tady by kresba snadno tvrdila víc než text.",
+      "diagram_generator": "veril",
+      "diagram": "Druhá miska s `FALSIFIED DOCUMENTS` klesá taky — váhy zůstávají v rovnováze."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Výplata vah ze S38. Rovnováha je tvrzení, ne nerozhodnost.",
+      "diagram_generator": "veril",
+      "diagram": "Váhy v rovnováze, obě misky plné, ambrový popisek `BOTH`.",
+      "pause": 1.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Šipka nese nevyhnutelnost — proto od metody K lidem, ne obráceně.",
+      "diagram_generator": "veril",
+      "diagram": "Krabička `THE METHOD` a od ní dvě šipky: k `LIAR` (přeškrtnuto) a k `BELIEVER` (ambrově)."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Výběr nejlepších příkladů nakreslený doslova. Odsunuté musí být ještě VIDĚT, jinak to není výběr, ale neexistence.",
+      "diagram_generator": "veril",
+      "diagram": "Řada příkladů, tři ambrové vybrané dopředu, ostatní ztlumené a odsunuté za okraj."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Přeškrtnuté rovnítko, ne šipka: nejsou to protiklady, jen to nejsou totéž.",
+      "diagram_generator": "veril",
+      "diagram": "Dvě krabičky vedle sebe: `SINCERE BELIEF` a `HONEST EVIDENCE`, mezi nimi přeškrtnuté rovnítko."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "HLAVNÍ POINTA VIDEA. Za ní jde CTA. PAUZA 2.6 s: HLAVNÍ POINTA VIDEA — nejdelší ticho před CTA.",
+      "diagram_generator": "veril",
+      "diagram": "Táž dvojice, pod každou ikonka jiné dovednosti. Ambrově nadpis `TWO DIFFERENT SKILLS`.",
+      "pause": 2.6
+    },
+    {
+      "id": "S47b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "CTA podle docs/cta.md: vlastní scéna s písmenem, `static`, `cta: true`, žádný střih navíc. Sedí za hlavní pointou, ne na začátku ani na konci.",
+      "diagram_generator": "veril",
+      "diagram": "Dědí obraz S47 beze změny; nápis vypálí render.py ze sdílené vrstvy.",
+      "cta": true,
+      "pause": 1.2
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Páteř potřetí. Stroj přebírá tentýž prvek.",
+      "diagram_generator": "televize",
+      "diagram": "Silueta televizoru, uvnitř týž rámeček výřezu jako v S01."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "`does not need a believer either` — odchod musí být vidět jako odchod, ne jako nepřítomnost. PAUZA 2.2 s: než se rozjede televizní recept.",
+      "diagram_generator": "televize",
+      "diagram": "Postava (`BELIEVER`) odchází z obrazu, stroj běží dál.",
+      "pause": 2.2
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Čísla z fact checku S50. Pás schválně vybíhá z rámu — pořad běží dál.",
+      "diagram_generator": "televize",
+      "diagram": "Pás epizod od `2010` doprava, popisek `22 seasons, 283 episodes`."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Recept je ve scénáři jednou, ne třikrát (zadání ho mělo třikrát). Obraz ho drží pohromadě, aby to stačilo.",
+      "diagram_generator": "televize",
+      "diagram": "Čtyři kroky receptu pod sebou, číslované."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Šipka zpět dělá ze seznamu smyčku. To je celé tvrzení scény.",
+      "diagram_generator": "televize",
+      "diagram": "Pokračování seznamu: nota, obloha, `AD BREAK`, a šipka zpět na začátek."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Tytéž váhy. Tady poprvé nesou pointu o obchodním modelu.",
+      "diagram_generator": "televize",
+      "diagram": "Váhy: `PROVE ALIENS` (prázdná miska) proti `MAKE THE ANSWER DULL` (plná)."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Připravuje S63. Poměr pruhů musí odpovídat poměru, o kterém se mluví.",
+      "diagram_generator": "televize",
+      "diagram": "Obdélník epizody rozdělený na dva pruhy: `20 s EXCITING` úzký ambrový a zbytek ztlumený."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Výpustka ve scénáři je `...` (tři tečky), ne `…` — Kokoro je čte různě. Obraz to má taky jako tři tečky.",
+      "diagram_generator": "televize",
+      "diagram": "Kámen s otazníkem, pod ním `THEREFORE...` a velké ambrové `ALIENS?`"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Obyčejná verze musí vypadat bohatě, ne chudě — jinak obraz podpoří televizi, ne scénář.",
+      "diagram_generator": "televize",
+      "diagram": "Čtyři ikony v řadě: generace dovedností, dav dělníků, rampa, lano."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Commons použitelný snímek osady nemá (ověřeno `--search`), takže se kreslí. Fact check S57: Heit el-Ghurab, AERA od 1988, `most of the fractures had healed completely`.",
+      "diagram_generator": "televize",
+      "diagram": "Půdorys dělnické osady u pyramid, v něm pekárny; vedle rentgen dlouhé kosti se zahojenou zlomeninou a dlahou."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "SCÉNA, KTERÁ KRESLÍ, JAK NĚCO FUNGUJE -> vlastní kontrolní průchod. Voda se lije PŘED saně, ne za ně; lano táhne vodorovně, ne šikmo vzhůru. Fact check S58 (PRL, 29. 4. 2014).",
+      "diagram_generator": "televize",
+      "diagram": "Blok na dřevěných saních, lano dopředu, postava před saněmi lije vodu na písek. Šipka tření dolů, popisek `wet sand halves the force`."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Poslední výskyt vah před výplatou v S63.",
+      "diagram_generator": "televize",
+      "diagram": "Váhy: `BETTER ANSWER` dole, `AN HOUR OF TELEVISION` nahoře.",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Doslovný callback. Musí to být TÁŽ kresba zmenšená, ne nová — jinak si divák nevzpomene.",
+      "diagram_generator": "naklady",
+      "diagram": "Ambrový ukazatel zpět k obrazu ze S28 (`4 WORDS / A MINUTE`), zmenšenému v rohu."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Seznam je z vlastní stránky filmu, ne odhad.",
+      "diagram_generator": "naklady",
+      "diagram": "Obal dokumentu `ANCIENT ALIENS DEBUNKED`, pod ním sloupec položek: Puma Punku, pyramidy, Nazca, Pakal, Tolima, žárovka."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Poměr 191:20 se musí nakreslit, ne odhadnout -> `assert` v generátoru. Fact check S62 eviduje rozpor: IMDb 3:11, vlastní stránka filmu `3 hours`.",
+      "diagram_generator": "naklady",
+      "diagram": "Časový pruh `3:11` proti pruhu `0:20`, ve správném poměru."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Poslední a nejprudší náklon. Tvar vah se od S28 nesměl pohnout. PAUZA 2.4 s: výplata vah, 20 s proti 3 h.",
+      "diagram_generator": "naklady",
+      "diagram": "VÝPLATA VAH: `20 SECONDS` vysoko nahoře, `3 HOURS` úplně dole.",
+      "pause": 2.4
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Doloží se jeho vlastní filmografií, ne nálepkou. Fact check S64.",
+      "diagram_generator": "naklady",
+      "diagram": "Štítek u obalu filmu: `CHRIS WHITE`, pod ním ztlumeně další dva jeho tituly."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Týž tvar jako S09 (přeškrtnutá šipka mezi dvěma tvrzeními). To je záměr: pravidlo se vrací ve stejném obraze.",
+      "diagram_generator": "naklady",
+      "diagram": "Šipka od `WHO MADE IT` k `IS THE ARCHAEOLOGY WRONG?` — přeškrtnutá."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "ZRCADLO S65, doslova překlopené. Tady se ukazuje, že pravidlo platí oběma směry, a je to vidět dřív, než to voiceover dopoví.",
+      "diagram_generator": "naklady",
+      "diagram": "Zrcadlově: šipka od `FRAUD CONVICTION` k `IS HIS NAZCA ARGUMENT WRONG?` — taky přeškrtnutá."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Spojení obou. Nejdůležitější deska videa po S47.",
+      "diagram_generator": "naklady",
+      "diagram": "Obě přeškrtnuté šipky vedle sebe, pod nimi ambrově `JUDGE THE EVIDENCE`.",
+      "pause": 2.2
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Klidná, krátká. Žádná grafika navíc. PAUZA 1.8 s: po odkazu, než se vrátíme k člověku.",
+      "diagram_generator": "naklady",
+      "diagram": "Ztlumený řádek `LINK IN THE DESCRIPTION`.",
+      "pause": 1.8
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Návrat k člověku. Silueta, ne fotka — fotka je v S04 a znovu by se opakovala.",
+      "diagram_generator": "odkaz",
+      "diagram": "Ambrový ukazatel zpět k portrétní siluetě z úvodu."
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "note": "Jediná atmosférická scéna první poloviny závěru. NE první scéna videa (to je pravidlo kanálu) a schválně až tady, kde má vyprávění změknout. DRUHÉ KOLO: první pokus (seed 1968) vyšel FOTOREALISTICKY — u zátiší má SDXL silný fotografický sklon a přebil kotvu stylu. Fotorealismus je jediné kritérium, které překlápí odpověď YouTube na otázku „byla použita AI\", takže se scéna musí číst jako malba. Prompt proto říká malovanost výslovně a dvakrát.",
+      "prompt": "loose painted gouache illustration of a worn leather notebook and a folded map lying on a plank table, thick visible brush strokes, flat simplified shapes, matte paper texture, muted, not a photograph, no text",
+      "seed": 4471
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Po fact checku: `nearly` (57 let 10 měsíců) a bez slova `fairly` — verdikt si má udělat divák po S71b/c, ne my za něj.",
+      "diagram_generator": "odkaz",
+      "diagram": "Dvě ztlumené desky: `POORLY SUPPORTED`, `DEMONSTRABLY WRONG`. Pod nimi `nearly 60 years of criticism`."
+    },
+    {
+      "id": "S71b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71b.png",
+      "note": "TOHLE JE NEJDŮLEŽITĚJŠÍ DIAGRAM VIDEA. Táž kompozice a tytéž souřadnice jako S01 a S21, teď na doloženém případu. Dänikenova fotka je chráněná, takže se kreslí — a kreslená je stejně lepší, protože ukazuje výřez i celek najednou. POZOR NA PTÁKA: Nickell neříká, KTEROU ptačí figuru Däniken oříznul, takže se kreslí obecná ptačí figura S NOHAMA (koleno musí být kam nakreslit). Divák přitom v S14 viděl kolibříka — kresba se mu má podobat stylem, ne být jeho kopií. Do factcheck.md zapsáno.",
+      "diagram_generator": "odkaz",
+      "diagram": "VÝPLATA PÁTEŘE. Celá ptačí figura Nazcy vlevo, na koleni ambrový rámeček výřezu, vpravo zvětšenina — a ta vypadá jako parkovací stání letiště."
+    },
+    {
+      "id": "S71c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71c.png",
+      "note": "Beat téhož obrazu. Divák má mechanismus vidět, ne slyšet. PAUZA 2.8 s: VÝPLATA PÁTEŘE — nejsilnější diagram videa musí chvíli držet.",
+      "diagram_generator": "odkaz",
+      "diagram": "Rámeček se odsune a zvětšenina se popíše `KNEE JOINT`.",
+      "pause": 2.8
+    },
+    {
+      "id": "S72",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S72.png",
+      "note": "Druhá a poslední atmosférická scéna. `slow_zoom_out`, protože se svět otevírá — tři země, dálka.",
+      "prompt": "wide dry landscape with distant ruins under flat grey overcast sky, a single small figure walking, no text",
+      "seed": 1970
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Stroj musí být zjevně stroj, ne ilustrace. Kola se točí jedním směrem — z myšlenky na epizody, ne obráceně.",
+      "diagram_generator": "odkaz",
+      "diagram": "Stroj z ozubených kol, do něj vstupuje `ONE IDEA`, ven vypadávají očíslované epizody."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Beat téhož obrazu.",
+      "diagram_generator": "odkaz",
+      "diagram": "Týž stroj, u výstupu přibývá `NEXT WEEK` a nota."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "`cheapens it` — kresba to musí říct hodnotou, ne nadpisem.",
+      "diagram_generator": "odkaz",
+      "diagram": "Váhy naposledy: `LEGACY` lehká, `FORMULA` těžká."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Nejtišší scéna závěru. Jedna věta, jeden tvar. PAUZA 1.6 s: nejtišší scéna závěru.",
+      "diagram_generator": "odkaz",
+      "diagram": "Jediná ambrová žárovka uprostřed prázdné plochy.",
+      "pause": 1.6
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Callback na S50. `It only needed another episode.`",
+      "diagram_generator": "odkaz",
+      "diagram": "Pás epizod z S50, ale bez konce — vybíhá z rámu a mizí.",
+      "pause": 2.8
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA ZAČÍNÁ TADY. Kresba patří DOLŮ, horní polovina musí zůstat volná — prvky Studia se dole potkají s titulkem.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři desky kroků z S13/S17/S20 zmenšené do spodní třetiny, nad nimi prázdno."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Horní polovina volná. Ověřit `zaver_check.py`.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodní třetině ambrový nápis `WE DON'T KNOW`, nad ním prázdno."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Horní polovina volná. PAUZA 1.4 s: závěrečná obrazovka — deska má držet.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole obrys díry, která se NEvyplňuje; vedle ztlumeně `NOT A HOLE TO FILL`.",
+      "pause": 1.4
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole silueta mimozemšťana přeškrtnutá a vedle skupinka lidských siluet."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Beat téhož obrazu. Horní polovina volná. PAUZA 1.4 s: závěrečná obrazovka.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž skupinka, jedna postava ambrově.",
+      "pause": 1.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Poslední výskyt páteře. Prázdný rámeček = záhada nebyla tam, kde ji divák hledal.",
+      "diagram_generator": "zaver",
+      "diagram": "Rámeček výřezu naposledy — prázdný, bez zvětšeniny."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Poslední scéna. Delší pauza, `static`, kresba jen dole. `zaver_check.py` musí projít u S78–S84.",
+      "diagram_generator": "zaver",
+      "diagram": "Rámeček se otočí a míří na diváka. Dole ztlumeně `WHY WE KEPT WATCHING`.",
+      "pause": 3.2
+    }
+  ]
+}

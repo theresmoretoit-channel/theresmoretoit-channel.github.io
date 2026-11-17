@@ -1,0 +1,1859 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ VIDEA. Svislá čára na x=1280 se zavádí tady a od téhle chvíle leží pořád na týchž souřadnicích až do S118, kde se vyplatí. Kreslí ji JEDINÁ funkce cara() v _kit.py — kdyby se mezi scénami posunula, výplata se nepozná a nikdo si toho nevšimne, protože každá scéna zvlášť vypadá dobře. První scéna schválně NENÍ sdxl a nese myšlenku (neviditelná čára), ne atmosféru.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Prázdné plátno, uprostřed svislá ČÁRA na x=1280 — tence, ambrově, bez popisků. Nic jiného."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Nápis se přidává k existující čáře, čára se nehýbe.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Táž čára, vlevo od ní nahoře nápis MEN."
+    },
+    {
+      "id": "S02b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02b.png",
+      "note": "Beat rozdělením scény, jeden obraz, mění se jediná věc. Ne dva různé obrázky.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Táž čára, přibývá vpravo nápis WOMEN. MEN zůstává."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Škrtá se ikona, ne nápis — přes nápis vede vodorovná čára jen tam, kde se ruší tvrzení. Tady se ruší předmět.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára s oběma nápisy. Pod čarou tři přeškrtnuté ikony: strážný, doklad, závora."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "'Skoro každý ví, kudy vede.' Tečky jsou lidé. Tvrzení nese to, že žádná není na špatné straně, ne jejich počet — proto hustota, ne spočítané kusy.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára, oba nápisy, a kolem čáry hustý roj drobných teček po obou stranách — ani jedna tečku nepřekročí."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Zatím bez ambrové — ambrová je 'o tomhle je řeč', ne 'tohle je správně'.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára; vlevo obrys košile, vpravo obrys šatů, oba INK."
+    },
+    {
+      "id": "S05b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05b.png",
+      "note": "Druhý beat téhož obrazu. Barvy jsou zástupné, NE růžová a modrá — ty přijdou až v S63 a tam mají nést tvrzení. Kdyby padly už tady, výplata v historickém bloku se otupí.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Táž kompozice, obrysy zůstávají, přibývají pod nimi barevné destičky: vlevo chladná, vpravo teplá."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "PRVNÍ VÝSKYT TUŽKY. Vrací se v S118 jako poslední obraz videa. Tady je to otázka ('někdo ji musel nakreslit'), tam odpověď. Tužka se kreslí funkcí tuzka() v _kit.py, ne ručně.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára, a u jejího horního konce ambrová ruka s tužkou — jen naznačená, samotná čára beze změny."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Rámečky jsou prázdné schválně — obraz se tím netváří, že ty instituce existují. Do rámečku se předává jeho STŘED, ne dopočítané účaří.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Tři prázdné rámečky vedle sebe s popisky: A COMMITTEE / AN INTERNATIONAL BODY / THE MINISTRY OF TROUSERS. Rámečky prázdné."
+    },
+    {
+      "id": "S07b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07b.png",
+      "note": "Přes tabulku se škrtá CELÁ, ne po řádcích — jedna čára přes tři rámečky zvlášť by se četla jako 'neplatí ten prostřední'. Na nápisy jde text_skrtnuty(), ne skrt_text() samotné.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Tytéž tři rámečky, všechny tři přeškrtnuté jednou vodorovnou čárou přes celou trojici."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Prázdné místo NAD čarou je táž konvence jako u videa 020 (světová vláda). Scéna tvrdí 'není tam nikdo', ne 'nevíme'.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára, a nad ní prázdné místo, kde by seděl orgán. Ambrově orámované, ale vevnitř nic."
+    },
+    {
+      "id": "S08b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08b.png",
+      "note": "POZOR: do 0.2 tu stálo LAW a bylo to v rozporu s historickým blokem v osmé minutě. Slovo LAW se sem nesmí vrátit — video o zákonech mluví až v S71c–S71i a tam říká něco jiného.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čtyři přeškrtnuté štítky: COMMITTEE / REGISTER / STANDARD / INSPECTOR."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "'Breaking one gets you stared at.' Tvrzení nese natočení teček, ne jejich barva. Scéna, ve které něco míří na někoho: ověřit, že míří na tu, která čáru překročila.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára, přes ni překračuje jedna ambrová tečka — a všechny ostatní tečky jsou k ní otočené."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Otázka videa. Za ní pauza.",
+      "diagram_generator": "cara_gen",
+      "diagram": "Čára sama, nad ní velký ambrový otazník.",
+      "pause": 2.4
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Scéna schválně přiznává, že část rozdílu je praktická. Bez ní by video tvrdilo, že celý rozdíl je vymyšlený, což pravda není.",
+      "diagram_generator": "obchod",
+      "diagram": "Nadpis THE HONEST PART, pod ním dva obrysy postav různé stavby."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Nic se tu nezpochybňuje, takže žádný akcent.",
+      "diagram_generator": "obchod",
+      "diagram": "Tři řádky s ikonami: tvar těla / střih / preference. Každý řádek INK, nic ambrové."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Ulička obchodu je táž čára jako páteř, jen viděná shora. Souřadnice se proto bere z cara(), ne zapisuje ručně.",
+      "diagram_generator": "obchod",
+      "diagram": "Půdorys obchodu: dva regály, mezi nimi ulička, která leží PŘESNĚ na x=1280."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Košile MUSÍ být tentýž tvar z téže funkce, jinak scéna tvrdí, že se liší střihem — tedy opak toho, co říká voiceover.",
+      "diagram_generator": "obchod",
+      "diagram": "Dvě totožné košile vedle sebe, mezi nimi ulička. Liší se jen barvou."
+    },
+    {
+      "id": "S14b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14b.png",
+      "note": "Beat: 'nebo prostě jiná ulička'. Poslední rozdíl se odebere a zůstane jen poloha.",
+      "diagram_generator": "obchod",
+      "diagram": "Táž dvojice, barvy zmizí. Zbyde jen ulička mezi nimi."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Ptá se, jestli látka ví. Odpověď nedává.",
+      "diagram_generator": "obchod",
+      "diagram": "Detail látky, velký. Přes něj ambrový otazník."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Šipka znamená přenesení, ne příčinu. Obě kalhoty jsou z jedné funkce, takže jsou bit po bitu stejné — to je celé tvrzení scény.",
+      "diagram_generator": "obchod",
+      "diagram": "Kalhoty nakreslené dvakrát na týchž souřadnicích, jednou vlevo od uličky, jednou vpravo, spojené šipkou."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Krátký beat. Za 'not' zůstávala schwa — scéna má tři slova a `pause` jen 0,8 s, takže se obětovaná věta sama nezapnula (`cisty = pause >= prah`). Dovětek je SKUTEČNÝ text následující scény, takže řez padne do přirozené mezery mezi větami.",
+      "diagram_generator": "obchod",
+      "diagram": "Tytéž kalhoty, šipka zmizí, přes obojí velké ambrové NO.",
+      "dovetek": "The difference is not in the cloth."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "'Není to v látce, přidali jsme to k ní.' Sloupnutá vrstva je tvrzení scény.",
+      "diagram_generator": "obchod",
+      "diagram": "Kalhoty samotné, a vedle nich ambrová vrstva, která se z nich sloupává jako fólie s nápisem WOMEN'S.",
+      "pause": 2.2
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Předává štafetu z otázky 'kdo to vymyslel' na 'kdo to drží'.",
+      "diagram_generator": "smycka",
+      "diagram": "Čára, nad ní dva otazníky: přeškrtnutý WHO INVENTED IT a ambrový, zatím prázdný."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Hlavní otázka druhé části videa.",
+      "diagram_generator": "smycka",
+      "diagram": "Prázdný ambrový otazník sám, velký."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "ZAKLÁDÁ SE KRUH SMYČKY. Uzly leží na pevných souřadnicích z _kit.kruh_uzly() a nesmí se hnout až do S90, kde se smyčka otočí. S21c dědí tenhle obrázek, takže scéna MUSÍ být svg a static.",
+      "diagram_generator": "smycka",
+      "diagram": "Čtyři prázdné uzly rozmístěné do kruhu, zatím bez popisků a bez spojnic."
+    },
+    {
+      "id": "S21b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21b.png",
+      "note": "'It is a loop.' Kruh se uzavře dřív, než se pojmenuje — divák nejdřív vidí tvar, pak obsah.",
+      "diagram_generator": "smycka",
+      "diagram": "Tytéž uzly, přibývají spojnice do uzavřeného kruhu. Popisky pořád žádné."
+    },
+    {
+      "id": "S21c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "VÝZVA K ODBĚRU (docs/cta.md). visual ukazuje na images/S21.png, effect static — prolínačka mezi dvěma stejnými obrázky není vidět. Vychází na 1:54, tedy v okně 1:30–2:15 a mimo druhý útes. Předchozí scéna je diagram a statická, jak docs/cta.md vyžaduje.",
+      "diagram_generator": "smycka",
+      "diagram": "Dědí obrázek S21.",
+      "cta": true,
+      "pause": 1.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Odtud do S29b se rozsvěcí vždycky JEDEN uzel. Ambrová = 'o tomhle je právě řeč'.",
+      "diagram_generator": "smycka",
+      "diagram": "Kruh, rozsvítí se uzel MANUFACTURER, ostatní tři ztlumené."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Šipka míří NA výrobce, protože to on se dívá, co lidé kupují. Ověřit směr.",
+      "diagram_generator": "smycka",
+      "diagram": "Uzel MANUFACTURER svítí, od uzlu PEOPLE k němu vede šipka."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Z uzlu MANUFACTURER vypadávají dvě krabice, MEN'S a WOMEN'S."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Callback na S13 — tentýž tvar z téže funkce, jinak se rým nepozná.",
+      "diagram_generator": "smycka",
+      "diagram": "Rozsvítí se uzel RETAILER, v něm půdorys obchodu z S13 v malém."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Rozsvítí se uzel MARKETING, z něj vychází šipka k lidem."
+    },
+    {
+      "id": "S26b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26b.png",
+      "note": "Výčet, nic víc.",
+      "diagram_generator": "smycka",
+      "diagram": "Čtyři štítky vedle sebe: MEN'S / WOMEN'S / MASCULINE / FEMININE."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Rozsvítí se uzel PEOPLE, kolem něj se objevují tytéž čtyři štítky mnohokrát, drobně."
+    },
+    {
+      "id": "S27b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27b.png",
+      "note": "Beat, mění se jediná věc — hustota.",
+      "diagram_generator": "smycka",
+      "diagram": "Táž scéna, štítky zhoustnou a uzel PEOPLE je jimi obklopený."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Tady se kruh poprvé uzavírá zpětně.",
+      "diagram_generator": "smycka",
+      "diagram": "Šipka od PEOPLE zpátky k MANUFACTURER."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Všechny čtyři šipky svítí naráz."
+    },
+    {
+      "id": "S29b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29b.png",
+      "note": "'And around we go.' Popisky zmizí schválně, zůstane pohyb. Za 'go' bylo slyšet /s/ — táž vada jako u 'Well... no' z videa 015: Kokoro na konci krátké promluvy vloží sykavku. Dovětek promluvu prodlouží a řeže se v tichu před ním. Má šest slov, protože pod čtyři by ho `lib.sentences()` slepil s předchozí větou a hranice by zmizela.",
+      "diagram_generator": "smycka",
+      "diagram": "Celý kruh svítí a je bez popisků — jen tvar.",
+      "dovetek": "People create expectations and businesses answer them."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Dva řádky textu vlevo, u každého šipka do kruhu: PEOPLE CREATE EXPECTATIONS / BUSINESSES ANSWER THEM."
+    },
+    {
+      "id": "S30b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30b.png",
+      "note": "Beat, přidávají se řádky, předchozí zůstávají.",
+      "diagram_generator": "smycka",
+      "diagram": "Přibývají další dva řádky: BUSINESSES REINFORCE THEM / PEOPLE LEARN THEM."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Scéna, ve které něco míří na někoho. Bublina patří byznysu a šipka míří na lidi — ověřit, že si to nesedlo obráceně.",
+      "diagram_generator": "smycka",
+      "diagram": "Uzel BUSINESSES ukazuje na uzel PEOPLE, v bublině: THAT IS WHAT CUSTOMERS WANT."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Musí to být zrcadlo S31 na týchž souřadnicích, jinak se rým nepozná.",
+      "diagram_generator": "smycka",
+      "diagram": "Zrcadlově: uzel PEOPLE ukazuje na BUSINESSES, bublina THAT IS JUST HOW THINGS ARE."
+    },
+    {
+      "id": "S32b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32b.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Obě šipky naráz, kruh uzavřený, obě bubliny."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Kruh, a u něj otázka WHO STARTED IT? se šipkou hledající začátek."
+    },
+    {
+      "id": "S33b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33b.png",
+      "note": "'Possibly nobody.' Nenajdení je tvrzení scény.",
+      "diagram_generator": "smycka",
+      "diagram": "Šipka obíhá kruh a nikde nekončí; otázka zůstává."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Tentýž prázdný rámec jako v S08. Callback přes dvanáct scén, takže tvar musí být z téže funkce.",
+      "diagram_generator": "smycka",
+      "diagram": "Nad kruhem prázdné místo, kde by seděl řídící orgán — ambrově orámované, prázdné."
+    },
+    {
+      "id": "S34b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34b.png",
+      "note": "'Stačí, aby se všichni účastnili.'",
+      "diagram_generator": "smycka",
+      "diagram": "Kruh bez prázdného rámce nahoře, jen uzly a šipky.",
+      "pause": 2.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Přechod z celku na jeden uzel.",
+      "diagram_generator": "firmy",
+      "diagram": "Kruh ztlumený vzadu, dopředu vystupuje uzel BUSINESSES."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "ČÁRKOVANÁ ZNAMENÁ HYPOTÉZA. Tohle je verze, kterou video odmítá, takže se nesmí nakreslit plnou čarou — jinak obraz tvrdí, co voiceover popírá.",
+      "diagram_generator": "firmy",
+      "diagram": "Karikatura: velká firma shora tlačí na drobné postavy. Celé v čárkované čáře."
+    },
+    {
+      "id": "S36b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36b.png",
+      "note": "",
+      "diagram_generator": "firmy",
+      "diagram": "Táž kresba, přeškrtnutá."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Celá scéna je o poloze. Souřadnice kruhu se berou z _kit, ne znovu.",
+      "diagram_generator": "firmy",
+      "diagram": "Firma nakreslená UVNITŘ kruhu z S21, ne nad ním."
+    },
+    {
+      "id": "S37b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37b.png",
+      "note": "",
+      "diagram_generator": "firmy",
+      "diagram": "Firma uvnitř kruhu, kolem ní lidé, mezi nimi obousměrné šipky."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Sloupečky jsou ilustrativní, ne data — proto BEZ číselné osy. Kdyby osa byla, obraz by tvrdil konkrétní čísla, která scénář nemá.",
+      "diagram_generator": "firmy",
+      "diagram": "Tři sloupce dat: WHAT WE BUY / WHAT WE IGNORE / WHAT WE CLICK ON, pod nimi sloupečky různé výšky."
+    },
+    {
+      "id": "S38b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38b.png",
+      "note": "",
+      "diagram_generator": "firmy",
+      "diagram": "Jedna postava, nad ní bublina: THAT ONE IS FOR PEOPLE LIKE ME."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Šipka nahoru je jediné tvrzení o prodeji, které scénář dává. Žádné číslo.",
+      "diagram_generator": "firmy",
+      "diagram": "Jeden výrobek se rozděluje na dva; vedle šipka nahoru s popiskem SALES."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "",
+      "diagram_generator": "firmy",
+      "diagram": "Přeškrtnutý GRAND PLAN, vedle nepřeškrtnuté GOOD BUSINESS."
+    },
+    {
+      "id": "S40b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40b.png",
+      "note": "'If a label helps sell the thing, the label stays.'",
+      "diagram_generator": "firmy",
+      "diagram": "Výrobek se štítkem, štítek ambrový a přišitý.",
+      "pause": 2.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "",
+      "diagram_generator": "reklama",
+      "diagram": "Ulička z S13, a rozdíl mezi stranami se zvětšuje."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Musí být zřetelně TÝŽ předmět jako v S43 a S43b, jinak scéna tvrdí, že se liší výrobek.",
+      "diagram_generator": "reklama",
+      "diagram": "Jeden předmět uprostřed: žiletka, pero, kolo — tři ikony v řadě, všechny INK."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "",
+      "diagram_generator": "reklama",
+      "diagram": "Vlevo plakát nad tímtéž předmětem: POWER. PERFORMANCE. DURABILITY."
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43b.png",
+      "note": "Předmět se nesmí ani o pixel pohnout proti S43 — to je celé tvrzení dvojice.",
+      "diagram_generator": "reklama",
+      "diagram": "Vpravo plakát nad tímtéž předmětem na týchž souřadnicích: BEAUTY. ELEGANCE. SOFTNESS."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Pointa dvojice.",
+      "diagram_generator": "reklama",
+      "diagram": "Oba plakáty vedle sebe, mezi nimi jeden jediný předmět."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "",
+      "diagram_generator": "reklama",
+      "diagram": "Předmět, k němu dva štítky: FUNCTION (INK) a IDENTITY (ambrová)."
+    },
+    {
+      "id": "S45b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45b.png",
+      "note": "",
+      "diagram_generator": "reklama",
+      "diagram": "Táž kresba, IDENTITY orámovaná."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Miska vah potřebuje close=True, jinak je z ní otevřený tvar — zapsaná past kanálu.",
+      "diagram_generator": "reklama",
+      "diagram": "Váhy: na jedné misce USEFUL, na druhé GENUINE, vyrovnané."
+    },
+    {
+      "id": "S46b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46b.png",
+      "note": "",
+      "diagram_generator": "reklama",
+      "diagram": "Třetí miska, IN OUR HEADS, ambrová."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Hustota nese tvrzení 'a few thousand times'. Počet se nepočítá, takže se ani nesmí tvářit jako spočítaný.",
+      "diagram_generator": "reklama",
+      "diagram": "Týž štítek nakreslený mnohokrát přes celé plátno, slábne do pozadí."
+    },
+    {
+      "id": "S47b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47b.png",
+      "note": "",
+      "diagram_generator": "reklama",
+      "diagram": "Z toho pole vystoupí jediný štítek a změní se na cedulku FACT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Systém se zúží na diváka.",
+      "diagram_generator": "uceni",
+      "diagram": "Kruh z S21 ztlumený, dopředu vystupuje uzel PEOPLE a v něm jedna postava."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Silueta, ne fotka a ne sdxl. Difuzní model by z toho udělal fotorealistickou postavu a ta by u tohohle tématu nesla tvrzení, které scénář nemá.",
+      "diagram_generator": "uceni",
+      "diagram": "Silueta postavy v sukni, jdoucí zleva doprava, INK."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Bublina patří DIVÁKOVI, ne postavě. Musí to být poznat kotvou ocásku — jinak scéna tvrdí opak.",
+      "diagram_generator": "uceni",
+      "diagram": "Táž silueta, nad ní bublina: THAT IS WOMEN'S CLOTHING."
+    },
+    {
+      "id": "S50b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50b.png",
+      "note": "",
+      "diagram_generator": "uceni",
+      "diagram": "Bublina zmizí, zůstane silueta a ambrový otazník."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Čárkovaná, protože se to nestalo.",
+      "diagram_generator": "uceni",
+      "diagram": "Přeškrtnutý výjev: někdo sedí u stolu a vysvětluje pravidlo."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Ikony, ne scény. U každé popisek pod ní — odsazení z pod_hlavou(), ne odhadem.",
+      "diagram_generator": "uceni",
+      "diagram": "Pět drobných výjevů kolem postavy: rodiče, spolužáci, televize, film, reklama."
+    },
+    {
+      "id": "S52b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52b.png",
+      "note": "Beat.",
+      "diagram_generator": "uceni",
+      "diagram": "Přibývají dva: výloha a cizí lidé na ulici. Předchozích pět zůstává."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Páteř se vrací. Souřadnice z cara().",
+      "diagram_generator": "uceni",
+      "diagram": "Čára z S01 a kolem ní postavy, každá na své straně."
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "note": "Zrcadlí S09. Tentýž tvar, tentýž pohyb — proto z téže funkce. Callback přes 68 scén se pozná jen při shodném rozvržení.",
+      "diagram_generator": "uceni",
+      "diagram": "Jedna postava přejde čáru a ostatní se k ní otočí."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "'You learned the map.' Poprvé se z čáry stane hranice na mapě — týž prvek, jiný význam.",
+      "diagram_generator": "uceni",
+      "diagram": "Mapa: čára uprostřed, vlevo MEN, vpravo WOMEN, obojí jako území."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "'It runs by itself.'",
+      "diagram_generator": "uceni",
+      "diagram": "Táž mapa, ale vybledlá do pozadí, jako by byla pod kůží."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "",
+      "diagram_generator": "uceni",
+      "diagram": "Postava překračuje hranici, kolem ní ambrové zvlnění."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "TVOJE DODANÁ PASÁŽ. Silueta musí být přesně tatáž jako v S49.",
+      "diagram_generator": "uceni",
+      "diagram": "Silueta v sukni z S49 na týchž souřadnicích, kolem ní tři přeškrtnuté reakce: smích, zírání, ukazování."
+    },
+    {
+      "id": "S57b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57b.png",
+      "note": "Beat.",
+      "diagram_generator": "uceni",
+      "diagram": "Zbývá přeškrtnuté zírání."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "",
+      "diagram_generator": "uceni",
+      "diagram": "Silueta a nad ní ambrový otazník: WHY DOES IT FEEL UNUSUAL?"
+    },
+    {
+      "id": "S58b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58b.png",
+      "note": "'Maybe it's feminine only in our heads.' Odlepení je táž konvence jako sloupnutá vrstva v S18 — proto z téže funkce.",
+      "diagram_generator": "uceni",
+      "diagram": "Silueta, a slovo FEMININE se odlepuje od sukně a odlétá k hlavě diváka.",
+      "pause": 2.8
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "",
+      "diagram_generator": "historie",
+      "diagram": "Dva štítky vedle sebe: FAMILIAR a NATURAL, mezi nimi rovnítko, které je přeškrtnuté."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Osa je páteř historického bloku. Leží na pevném y a všechny scény S60–S71i ji sdílejí.",
+      "diagram_generator": "historie",
+      "diagram": "Časová osa, na ní vyznačený krátký úsek JEDEN ŽIVOT, a kolem něj mnohem delší osa."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "",
+      "diagram_generator": "historie",
+      "diagram": "Osa, nad ní bublina MEN HAVE ALWAYS WORN THIS, sahající přes celou osu."
+    },
+    {
+      "id": "S61b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61b.png",
+      "note": "'How far back does always actually go?' Smrsknutí je celé tvrzení scény.",
+      "diagram_generator": "historie",
+      "diagram": "Bublina se smrskne na ten krátký úsek. Ambrový otazník nad zbytkem osy.",
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Stránka se kreslí, NEstahuje — Commons ročník toho časopisu nemá a citace musí být čitelná, což archivní sken neudělá. Letopočet číslicí, výslovnost řeší pronounce.",
+      "diagram_generator": "historie",
+      "diagram": "Osa, na ní bod 1918. Vedle stránka časopisu, schematicky, s nadpisem EARNSHAW'S INFANTS' DEPARTMENT."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Tady se poprvé smí použít růžová a modrá, a nesou tvrzení. Proto se v S05b nesměly objevit jako pestrost.",
+      "diagram_generator": "historie",
+      "diagram": "Citace vysázená velkým písmem: PINK IS THE STRONGER, MORE DECIDED COLOUR — SO IT IS MORE SUITABLE FOR THE BOY. Vedle růžová destička u chlapecké ikony."
+    },
+    {
+      "id": "S63b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63b.png",
+      "note": "",
+      "diagram_generator": "historie",
+      "diagram": "Druhá půlka citace a modrá destička u dívčí ikony."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "",
+      "diagram_generator": "historie",
+      "diagram": "Osa s bodem 1918, nad ní obrácená dvojice barev proti dnešku."
+    },
+    {
+      "id": "S64b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64b.png",
+      "note": "POZOR NA VÝKLAD: scéna NEsmí tvrdit 'dřív to bylo obráceně'. Přesně to je vada, kterou fact check u 0.1 našel. Škrtá se představa pravidla, ne ta dvojice barev.",
+      "diagram_generator": "historie",
+      "diagram": "Přes tu dvojici ambrový škrt a nápis NOT A RULE."
+    },
+    {
+      "id": "S64c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64c.png",
+      "note": "Deset štítků odpovídá deseti jmenovaným obchodům. Počet se v kódu spočítá z pole jmen a zajistí assertem — obrázek nesmí tvrdit víc ani míň než factcheck.md.",
+      "diagram_generator": "historie",
+      "diagram": "Osa, bod 1927, a pod ním deset štítků obchodních domů."
+    },
+    {
+      "id": "S64d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64d.png",
+      "note": "POMĚR SE NEKRESLÍ. Wikipedie u toho přehledu uvádí 'šest a čtyři', ale její vlastní jmenný seznam má poměr obrácený, takže se to nedá rozhodnout. Rozdělení proto musí být zjevně neuspořádané a nikde se nesmí objevit číslo. Scénář říká jen 'some' a 'some'.",
+      "diagram_generator": "historie",
+      "diagram": "Týchž deset štítků, část dostane růžovou destičku, část modrou — ROZHÁZENĚ, bez počtu."
+    },
+    {
+      "id": "S64e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64e.png",
+      "note": "Tentýž prázdný rámeček jako v S08 a S34. Třetí výskyt téhož tvaru — z téže funkce.",
+      "diagram_generator": "historie",
+      "diagram": "Nad štítky prázdný rámeček THE RULE, přeškrtnutý."
+    },
+    {
+      "id": "S64f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64f.png",
+      "note": "Pásmo, ne bod. Paoletti mluví o 'not dominant until the 1950s', tedy o pozvolném ustálení — ostrý bod by tvrdil víc, než zdroj unese.",
+      "diagram_generator": "historie",
+      "diagram": "Osa, na ní vyznačené pásmo kolem padesátých let, kdy se pravidlo usadí.",
+      "pause": 1.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Předěl uvnitř historického bloku.",
+      "diagram_generator": "podpatky",
+      "diagram": "Osa, nová položka HIGH HEELS."
+    },
+    {
+      "id": "S66",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S66.png",
+      "note": "ARCHIV. Perská jízda, která nosila podpatek kvůli třmenům. Dotaz ověřen přes --search (vrátil PD miniatury jezdců). PICK NENÍ ZAPSANÝ: pořadí výsledků Commons se mění i mezi dvěma voláními minutu po sobě, takže evidence je archive-raw/S66.orig a jeho otisk SHA-256, ne pick. Vybrat z kontaktního listu a teprve pak zapsat.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Safavid horseman",
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S67",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S67.png",
+      "note": "ARCHIV. Mužská bota 17. století. PŮVODNÍ DOTAZ `17th century shoes` vrátil FOTKU LONDÝNSKÉ ULICE: snímek se jmenoval '17th century shoe repairs' a byl to obchod s opravnou obuvi. Přesně past z CLAUDE.md — dotaz napsaný od stolu je NÁVRH, ne zadání, a pozná se to teprve pohledem. Nový dotaz míří do sbírky Livrustkammaren, kde je přijatelný každý výsledek v první šestici.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "1600-tals sko Livrustkammaren",
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S67b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67b.png",
+      "note": "Kreslené, ne archivní — štítky musí být čitelné a na fotku se nedají položit bez překryvu.",
+      "diagram_generator": "podpatky",
+      "diagram": "Bota z S67 schematicky překreslená, k ní dva štítky: STATUS a MASCULINITY."
+    },
+    {
+      "id": "S67c",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S67c.png",
+      "note": "ARCHIV. Rigaudův portrét Ludvíka XIV., na kterém jsou červené podpatky vidět. Původní dotaz vrátil snímek OBRAZU V MUZEU i s rámem a stěnou kolem, takže portrét zabíral třetinu plochy. ZOOM NA PORTRÉT NEPATŘÍ (divák u videa 004 hlásil uříznuté čelo), proto effect static a grade.fit. Pozor: scénář Ludvíka záměrně nejmenuje, protože zdroje připisují červený podpatek u dvora i Ludvíku XIII. PICK 3 vybrán z kontaktního listu: výsledek [0] téhož dotazu je FOTKA OBRAZU V MUZEU i s rámem a stěnou, takže po `fit` zabíral portrét třetinu plochy.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Portrait of Louis XIV of France Rigaud",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 3
+      }
+    },
+    {
+      "id": "S67d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67d.png",
+      "note": "",
+      "diagram_generator": "podpatky",
+      "diagram": "Přeškrtnutý štítek FEMININE u téže boty."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": " Za 'trousers' bylo slysitelne dorikavane schwa. Dvouslovna scena, pauza 0,8 s, takze se obetovana veta sama nezapnula.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Osa, nová položka TROUSERS.",
+      "dovetek": "In ancient Rome a grown man wore a tunic."
+    },
+    {
+      "id": "S68b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S68b.png",
+      "note": "ARCHIV. Socha nebo reliéf Římana v tunice — konkrétní doložený objekt, ne naše kresba. Je to jediné místo bloku, kde divák uvidí, jak to opravdu vypadalo. PICK NENÍ ZAPSANÝ: pořadí výsledků Commons se mění i mezi dvěma voláními, takže evidence je archive-raw/S68b.orig a jeho otisk, ne pick. Vybrat z kontaktního listu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Roman statue togatus tunic",
+        "grade": {
+          "fit": 0.86
+        }
+      }
+    },
+    {
+      "id": "S68c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68c.png",
+      "note": "Obrys tuniky s vyznačenou linií kolene. Kreslený, ne archivní — koleno musí být poznat jako MĚŘENÝ bod, a to fotka neudělá.",
+      "diagram_generator": "rim",
+      "diagram": "Obrys tuniky s vyznačenou linií kolene."
+    },
+    {
+      "id": "S68d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68d.png",
+      "note": "Táž tunika, k ní ambrový štítek A DRESS? Scéna netvrdí, že to dnes šaty JSOU — tvrdí, že bychom jim tak řekli. Otazník je proto ve štítku, ne v komentáři.",
+      "diagram_generator": "rim",
+      "diagram": "Táž tunika, k ní ambrový štítek A DRESS? Scéna netvrdí, že to dnes šaty JSOU — tvrdí, že bychom jim tak řekli."
+    },
+    {
+      "id": "S68e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68e.png",
+      "note": "Páteřní čára ve dvou polohách: dnešní a římská. Týž prvek, jiné místo — celé tvrzení scény je, že se hranice nezrušila, jen ležela jinde.",
+      "diagram_generator": "rim",
+      "diagram": "Páteřní čára ve dvou polohách: dnešní a římská."
+    },
+    {
+      "id": "S68f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68f.png",
+      "note": "Dvě tuniky vedle sebe, ke kolenu a ke kotníku, mezi nimi hranice. Delší je ambrově označená jako to, co se vysmívalo. POZOR: neškrtat ji — scéna nepopisuje, že by byla zakázaná, nýbrž že za ni muž sklidil posměch. Táž konvence jako S78 proti S57.",
+      "diagram_generator": "rim",
+      "diagram": "Dvě tuniky vedle sebe, ke kolenu a ke kotníku, mezi nimi hranice."
+    },
+    {
+      "id": "S68g",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68g.png",
+      "note": "Kalhoty s ambrovým štítkem FOREIGN a tři jména národů. Týž tvar kalhot jako v S16, S17 a S68 — je to pořád jedna a tatáž věc, o které video mluví.",
+      "diagram_generator": "rim",
+      "diagram": "Kalhoty s ambrovým štítkem FOREIGN a tři jména národů."
+    },
+    {
+      "id": "S68h",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68h.png",
+      "note": "Časová osa s bodem 397. Je to NEJSTARŠÍ bod celého videa, takže se osa konečně využije až k levému okraji — do téhle chvíle se všechno tlačilo doprava.",
+      "diagram_generator": "rim",
+      "diagram": "Časová osa s bodem 397."
+    },
+    {
+      "id": "S68i",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68i.png",
+      "note": "DESKA ZÁKONA POPRVÉ, s nápisem NO TROUSERS IN ROME. Je to TÝŽ tvar na TÝCHŽ souřadnicích jako pařížská vyhláška v S70 — dva zákony o kalhotách, čtrnáct set let od sebe, mířící proti sobě. Kdyby se deska mezi S68i a S70 pohnula, ta dvojice se nepozná.",
+      "diagram_generator": "rim",
+      "diagram": "DESKA ZÁKONA POPRVÉ, s nápisem NO TROUSERS IN ROME.",
+      "pause": 1.6
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "",
+      "diagram_generator": "kalhoty",
+      "diagram": "Úřední okénko, za ním úředník, před ním žena s formulářem."
+    },
+    {
+      "id": "S69b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69b.png",
+      "note": "Detail z primárního zdroje (fr.wikipedia: lékařské potvrzení, obnova po šesti měsících). Je to nejkonkrétnější věc celého bloku, proto se kreslí.",
+      "diagram_generator": "kalhoty",
+      "diagram": "K formuláři přibývá lékařské potvrzení a razítko EVERY SIX MONTHS."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "ZAVÁDÍ SE MOTIV BLOKU: zákon jako NEHYBNÁ DESKA. Deska leží na pevném y a od téhle chvíle se do S71i nepohne ani o pixel — pohybovat se bude jen konvence nad ní. Uživatel to zadal výslovně: 'LAW → CONVENTION, zákon se stává starou nehybnou vrstvou pod pohybující se konvencí.'",
+      "diagram_generator": "kalhoty",
+      "diagram": "Osa, bod 1800, a nad ním deska s nápisem THE ORDINANCE."
+    },
+    {
+      "id": "S70b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70b.png",
+      "note": "",
+      "diagram_generator": "kalhoty",
+      "diagram": "Deska beze změny, na ose bod 2013, od něj šipka k desce."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Zešednutí, ne škrt. Předpis nebyl zrušen, jen pozbyl účinků — škrt by tvrdil zrušení, tedy přesně tu nepravdu, kterou fact check vyhodil ze scénáře.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Deska zešedne (MUTED), nápis zůstává čitelný."
+    },
+    {
+      "id": "S71b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71b.png",
+      "note": "",
+      "diagram_generator": "kalhoty",
+      "diagram": "Šedá deska dole, nad ní se posunul celý pruh života. Deska na týchž souřadnicích."
+    },
+    {
+      "id": "S71c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71c.png",
+      "note": "Video si tady vysloví námitku samo. Deska se musí rozsvítit, jinak scéna přiznání oslabuje.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Deska se rozsvítí zpátky do INK a nápis A REAL LAW."
+    },
+    {
+      "id": "S71d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71d.png",
+      "note": "",
+      "diagram_generator": "kalhoty",
+      "diagram": "Vedle první desky přibývají další dvě, taky zákony o oděvu."
+    },
+    {
+      "id": "S71e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71e.png",
+      "note": "",
+      "diagram_generator": "kalhoty",
+      "diagram": "Deska sama, a v ní prázdné místo, kde chybí zdůvodnění."
+    },
+    {
+      "id": "S71f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71f.png",
+      "note": "Čtvrtý a poslední výskyt prázdného rámečku (S08, S34, S64e, S71f). Tady se vyplácí: ten orgán nikdy neexistoval, a proto ho zákon nemohl citovat.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Prázdné místo dostane ambrový rámeček s otázkou WHY ARE TROUSERS MEN'S? — a zůstane prázdné."
+    },
+    {
+      "id": "S71g",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71g.png",
+      "note": "Vrstva musí být POD deskou a širší než ona. Poloha je celé tvrzení scény.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Pod deskou se objeví starší, širší vrstva CONVENTION, na kterou deska dosedá."
+    },
+    {
+      "id": "S71h",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71h.png",
+      "note": "Scéna, ve které něco míří na někoho — ověřit oba směry proti větě 'enforce a convention, they don't invent it'.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Dvě šipky: od CONVENTION k LAW plná, od LAW ke CONVENTION přeškrtnutá."
+    },
+    {
+      "id": "S71i",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71i.png",
+      "note": "Výplata motivu. Deska se od S70 nehnula ani jednou, takže se teď pozná, že se pohnula konvence. Kdyby se deska cestou posunula, scéna netvrdí nic.",
+      "diagram_generator": "kalhoty",
+      "diagram": "Vrstva CONVENTION se posune stranou, deska LAW zůstane přesně tam, kde byla.",
+      "pause": 2.6
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "",
+      "diagram_generator": "pohyb",
+      "diagram": "Časová osa, na ní hustě střídavé značky."
+    },
+    {
+      "id": "S72b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72b.png",
+      "note": "",
+      "diagram_generator": "pohyb",
+      "diagram": "Čtyři řádky ikon, každý se v čase mění: barvy, siluety, vlasy, boty."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Páteř se otočí naplocho a stane se z ní hranice, přes kterou věci putují. Týž prvek, třetí význam (po uličce a mapě).",
+      "diagram_generator": "pohyb",
+      "diagram": "Čára z S01 vodorovně, nad ní položka přechází zleva doprava."
+    },
+    {
+      "id": "S73b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73b.png",
+      "note": "Zrcadlo S73 na týchž souřadnicích.",
+      "diagram_generator": "pohyb",
+      "diagram": "Jiná položka přechází opačným směrem."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "",
+      "diagram_generator": "pohyb",
+      "diagram": "Čára se vlní a posouvá, dvě polohy naráz: jedna ztlumená, jedna ambrová."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "'While we are living inside one particular version of them.' Neviditelnost ostatních poloh nese tvrzení.",
+      "diagram_generator": "pohyb",
+      "diagram": "Postava stojí uvnitř jedné konkrétní polohy čáry a ostatní polohy nevidí.",
+      "pause": 2.4
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Předěl. Video tu varuje před špatným čtením sebe sama.",
+      "diagram_generator": "vymahani",
+      "diagram": "Ambrový vykřičník nad prázdným plátnem."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Zrcadlí S59 (FAMILIAR = NATURAL). Tentýž tvar z téže funkce, jinak se rým nepozná.",
+      "diagram_generator": "vymahani",
+      "diagram": "Dva štítky: INVENTED a IMAGINARY, mezi nimi přeškrtnuté rovnítko."
+    },
+    {
+      "id": "S77b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77b.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Štítek INVENTED zůstává, pod ním se objeví plná čára CONSEQUENCES."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Tentokrát NEpřeškrtnutý — v S57 se škrtal, protože to byla výzva divákovi; tady se popisuje, co se děje. Rozdíl mezi těmi dvěma scénami je celý smysl bloku.",
+      "diagram_generator": "vymahani",
+      "diagram": "Silueta v sukni z S49 na týchž souřadnicích, kolem ní ambrový smích."
+    },
+    {
+      "id": "S78b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78b.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Silueta v obleku, kolem ní soudící pohledy."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Dítě a nad ním barevná destička s nápisem FOR GIRLS."
+    },
+    {
+      "id": "S79b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79b.png",
+      "note": "Callback na půdorys.",
+      "diagram_generator": "vymahani",
+      "diagram": "Dospělý u pokladny, v ruce věc z druhé poloviny obchodu; půdorys z S13 v pozadí."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Deska LAW je tatáž jako v S70–S71i a JE škrtnutá právem — tady se mluví o studu a posměchu, ne o oděvu obecně. Zaznívá až ZA blokem S71c–S71i, takže si to divák nespojí špatně.",
+      "diagram_generator": "vymahani",
+      "diagram": "Přeškrtnutý odznak policie a přeškrtnutá deska LAW."
+    },
+    {
+      "id": "S80b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80b.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Místo odznaku se objeví kruh lidí."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Tři štítky: EMBARRASSMENT / RIDICULE / DISAPPROVAL."
+    },
+    {
+      "id": "S81b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81b.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Dvě ikony: zvednuté obočí a vtip."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "",
+      "diagram_generator": "vymahani",
+      "diagram": "Bublina: WHY ARE YOU WEARING THAT?"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Nejsilnější věta bloku je o strachu z toho, co si pomyslí OSTATNÍ — proto se ostatní nedívají. Kdyby se dívali, scéna tvrdí něco jiného.",
+      "diagram_generator": "vymahani",
+      "diagram": "Postava sama, kolem ní ztlumené obrysy lidí, kteří se ani nedívají.",
+      "pause": 2.8
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Celý blok je zrcadlo S22–S32b. Uzly, poloměr i popisky musí být z téže funkce _kit.kruh_uzly() — kdyby se cokoli posunulo, obrácení se nepozná a divák uvidí jen další kruh.",
+      "diagram_generator": "zpetny",
+      "diagram": "Kruh z S21 na PŘESNĚ týchž souřadnicích, šipky obrácené."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "",
+      "diagram_generator": "zpetny",
+      "diagram": "Jedna postava mimo obě strany čáry, ostatní se dívají."
+    },
+    {
+      "id": "S85b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85b.png",
+      "note": "",
+      "diagram_generator": "zpetny",
+      "diagram": "Jedna z těch postav dostane ambrovou bublinu: ACTUALLY, I LIKE THAT."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "",
+      "diagram_generator": "zpetny",
+      "diagram": "Dvě postavy na stejné straně čáry, kde dřív byla jedna."
+    },
+    {
+      "id": "S86b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86b.png",
+      "note": "Zrcadlí S56, kde zvlnění vznikalo.",
+      "diagram_generator": "zpetny",
+      "diagram": "Ambrové zvlnění kolem nich slábne."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Odtud běží kruh obráceně: PEOPLE → RETAILER → MANUFACTURER → MARKETING. Ověřit směr proti S22–S29, musí být opačný.",
+      "diagram_generator": "zpetny",
+      "diagram": "Uzel RETAILER se rozsvítí, k němu šipka od lidí."
+    },
+    {
+      "id": "S87b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87b.png",
+      "note": "",
+      "diagram_generator": "zpetny",
+      "diagram": "Rozsvítí se MANUFACTURER a MARKETING."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Výplata půdorysu, který se zavedl v S13 a vracel se v S25 a S79b.",
+      "diagram_generator": "zpetny",
+      "diagram": "Půdorys obchodu z S13, věc je teď v obou polovinách."
+    },
+    {
+      "id": "S88b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88b.png",
+      "note": "Zrcadlí S85, kde se všichni dívali. Rozdíl mezi těmi dvěma scénami je celý blok.",
+      "diagram_generator": "zpetny",
+      "diagram": "Táž věc, kolem ní ztlumené postavy, které si jí nevšímají."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "",
+      "diagram_generator": "zpetny",
+      "diagram": "Čára z S01 a věc leží přes ni."
+    },
+    {
+      "id": "S89b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89b.png",
+      "note": "Deska je tatáž jako LAW z S70 — a to je záměr: konvence se změnila bez ní.",
+      "diagram_generator": "zpetny",
+      "diagram": "Přeškrtnutá deska OFFICIAL RULE CHANGE."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "",
+      "diagram_generator": "zpetny",
+      "diagram": "Kruh běžící obráceně, bez popisků.",
+      "pause": 2.4
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Vracíme se na začátek. Souřadnice z cara().",
+      "diagram_generator": "otazka",
+      "diagram": "Cedule z S02 a S02b, MEN a WOMEN, na týchž souřadnicích."
+    },
+    {
+      "id": "S91b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91b.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Mezi cedulemi jeden kus oblečení a ambrový otazník."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Ten otazník se přeškrtne."
+    },
+    {
+      "id": "S92b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92b.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Nový otazník: WHAT IS THIS CLOTHING ACTUALLY FOR?"
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Tři odškrtávací políčka: DOES IT FIT / IS IT COMFORTABLE / DOES IT DO THE JOB."
+    },
+    {
+      "id": "S93b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93b.png",
+      "note": "Beat, předchozí zůstávají.",
+      "diagram_generator": "otazka",
+      "diagram": "Dvě další: DO YOU LIKE IT / DOES IT MAKE YOU FEEL GOOD."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Všech pět zaškrtnutých, a vedle nich štítek s pohlavím, který nic nepřidává."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Předěl před nejdůležitějším rozlišením videa.",
+      "diagram_generator": "otazka",
+      "diagram": "Prázdné plátno, uprostřed ambrová svislice — čára z S01."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Scéna schválně netvrdí, že se všichni mají oblékat stejně. Bez ní by video říkalo něco, co neříká.",
+      "diagram_generator": "otazka",
+      "diagram": "Dvě postavy oblečené různě, obě bez štítku, obojí v pořádku."
+    },
+    {
+      "id": "S96b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96b.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Tři štítky: PREFERENCES / TRADITIONS / CATEGORIES, všechny INK, žádný škrt."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Tytéž tři štítky, vedle nich zaškrtnutí."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "TĚŽIŠTĚ ZÁVĚRU. Tentýž tvar se dvěma významy — proto se kreslí jednou funkcí se dvěma stavy, ne dvěma kresbami.",
+      "diagram_generator": "otazka",
+      "diagram": "Štítek DESCRIPTION se mění na štítek RESTRICTION; tvar je stejný, obsah jiný."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Definice: WOMEN'S CLOTHING = CLOTHING USUALLY MARKETED TO WOMEN."
+    },
+    {
+      "id": "S99b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99b.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Táž definice, pravá strana se vymění za CLOTHING YOU ARE NOT ALLOWED TO WEAR."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "",
+      "diagram_generator": "otazka",
+      "diagram": "Obě definice pod sebou, mezi nimi přeškrtnuté rovnítko."
+    },
+    {
+      "id": "S100b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100b.png",
+      "note": "Klec a konvence musí být ze stejných prvků, jen jinak zavřených. Rozdíl je v jedné čáře, a to je pointa videa.",
+      "diagram_generator": "otazka",
+      "diagram": "Vlevo otevřený oblouk CONVENTION, vpravo mříž CAGE — obojí ze stejných čar.",
+      "pause": 3.0
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Návrat k S10.",
+      "diagram_generator": "kdo",
+      "diagram": "Otázka videa znovu, velká: WHO DECIDES?"
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Tři uzly kruhu se rozsvítí: MANUFACTURERS / RETAILERS / ADVERTISERS."
+    },
+    {
+      "id": "S102b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102b.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Přibývají DESIGNERS / FAMILIES / FRIENDS."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Rozsvítí se poslední uzel a je to divák."
+    },
+    {
+      "id": "S103b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103b.png",
+      "note": "Velikost nese důležitost — proto je 'usually not' větší. Zapsáno, ať to nikdo 'nesrovná'.",
+      "diagram_generator": "kdo",
+      "diagram": "Dva štítky: ON PURPOSE (drobný) a USUALLY NOT (velký)."
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Pátý a poslední výskyt prázdného rámečku.",
+      "diagram_generator": "kdo",
+      "diagram": "Prázdný rámeček A SINGLE PERSON TO BLAME, přeškrtnutý."
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Kruh, který se překresluje sám do sebe."
+    },
+    {
+      "id": "S106",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Tři kroky v kruhu: LEARN / EXPECT / ANSWER."
+    },
+    {
+      "id": "S106b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106b.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Čtvrtý krok: TEACH AGAIN."
+    },
+    {
+      "id": "S107",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S107.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Kruh a pod ním druhý, menší, nový — další generace."
+    },
+    {
+      "id": "S107b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S107b.png",
+      "note": "",
+      "diagram_generator": "kdo",
+      "diagram": "Oba kruhy se točí.",
+      "pause": 2.6
+    },
+    {
+      "id": "S108",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S108.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Kruh, a v jednom místě tenká trhlina."
+    },
+    {
+      "id": "S109",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S109.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Trhlina se rozšíří; popisek BELIEF u místa, kde kruh drží."
+    },
+    {
+      "id": "S110",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S110.png",
+      "note": "'Nemusíš to celé zbourat.'",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnuté kladivo nad kruhem."
+    },
+    {
+      "id": "S110b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S110b.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnutá debata dvou postav."
+    },
+    {
+      "id": "S111",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S111.png",
+      "note": "'Nemusíš ani přestat nosit pánské nebo dámské.' Scéna schválně NIC neruší.",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnutý škrt přes obě poloviny obchodu — půdorys z S13, obojí zůstává."
+    },
+    {
+      "id": "S112",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S112.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Postava, nad ní čára z S01 zmenšená do myšlenkové bubliny."
+    },
+    {
+      "id": "S113",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S113.png",
+      "note": " Za 'conventions' schwa. Je to JEDNOSLOVNA scena, u ktere CLAUDE.md varuje, ze obetovana veta zplostuje intonaci posledniho slova (pripad 'Courage.' u videa 055) - tady ale schwu hlasi divak, takze se to vymeni. Po pregenerovani poslechnout, jestli 'Conventions' nezni ploche.",
+      "diagram_generator": "zaver",
+      "diagram": "Jediné slovo uprostřed: CONVENTIONS.",
+      "dovetek": "Not laws, not physics, not biology."
+    },
+    {
+      "id": "S113b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S113b.png",
+      "note": "Štítek LAWS smí být přeškrtnutý jedině tady, protože scéna mluví o KATEGORIÍCH, ne o oděvu — a divák už má za sebou S71c–S71i.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři přeškrtnuté štítky: LAWS / PHYSICS / BIOLOGY / MORALITY."
+    },
+    {
+      "id": "S113c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S113c.png",
+      "note": " Orez schwy tu usekl pulku koncoveho 's'. orez_schwu() bezi u KAZDE sceny pod pet slov nezavisle na dovetku a je semanticky - reze, kdyz whisper uslysi slovo navic. Dovetek udela konec cisty, takze whisper zadne slovo navic neuslysi a orez nema do ceho sahnout.",
+      "diagram_generator": "zaver",
+      "diagram": "Zbyde CONVENTIONS.",
+      "pause": 2.2,
+      "dovetek": "And if one day you wear something."
+    },
+    {
+      "id": "S114",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S114.png",
+      "note": "ZAČÍNÁ OKNO ZÁVĚREČNÉ OBRAZOVKY (posledních ~20 s). Od téhle scény do konce musí zůstat volná HORNÍ polovina obrazu — dole sedí titulek ze svgkit.title(). Kontroluje zaver_check.py.",
+      "diagram_generator": "zaver",
+      "diagram": "Čára z S01 a postava, která k ní přistupuje."
+    },
+    {
+      "id": "S115",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S115.png",
+      "note": "Horní polovina prázdná kvůli závěrečné obrazovce.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři přeškrtnuté následky: CRIME / BROKEN REALITY / HURT SOMEBODY. Vše v dolní třetině."
+    },
+    {
+      "id": "S116",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S116.png",
+      "note": "Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava stojí na čáře."
+    },
+    {
+      "id": "S117",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S117.png",
+      "note": "Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Čára začne blednout."
+    },
+    {
+      "id": "S117b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S117b.png",
+      "note": "Horní polovina prázdná. Tahy nesmí být souměrné — jde o opakované kreslení, ne o jeden silný tah.",
+      "diagram_generator": "zaver",
+      "diagram": "Čára se překresluje znovu a znovu, slabě, mnoha tahy přes sebe."
+    },
+    {
+      "id": "S118",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S118.png",
+      "note": "VÝPLATA PÁTEŘE. Tužka se poprvé objevila v S06 jako otázka, tady je odpovědí. Tvar z téže funkce tuzka(), jinak se rým přes 112 scén nepozná. Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Ruka s tužkou z S06, teď celá, drží tužku nad blednoucí čárou.",
+      "pause": 2.6
+    },
+    {
+      "id": "S119",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S119.png",
+      "note": "Poslední callback. Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Silueta v sukni z S49 a S57 na týchž souřadnicích, bez škrtů a bez reakcí okolí."
+    },
+    {
+      "id": "S119b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S119b.png",
+      "note": "Poslední obraz videa. Horní polovina prázdná, aby se vešly obě dlaždice závěrečné obrazovky.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž silueta, a čára je pryč.",
+      "pause": 1.6
+    }
+  ]
+}

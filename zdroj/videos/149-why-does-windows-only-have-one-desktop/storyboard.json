@@ -1,0 +1,533 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 (monitor na OBR). Běžná plocha Windows: taskbar, Start a ikony postupně zmizí, zůstanou čárkované obrysy NO TASKBAR, NO START, NO ICONS.",
+      "note": "První obrazovka nese myšlenku: Windows bez plochy. Čárkovaně = chybí (konvence 2).",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Do prázdné obrazovky přijede tenká lišta nahoře, menu u kurzoru a čtyři virtuální plochy.",
+      "anim": "animace"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Linuxová plocha ztlumená, přes ni karty PROGRAMS, DRIVERS, FILES s fajfkami a STILL WINDOWS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Skutečný snímek cmd.exe z uživatelovy XP VM: reg query Shell = emergeCore.exe, řádek rámečkem. ONE SETTING.",
+      "note": "art/emerge-reg-shell.png 2× nearest-neighbour (PUVOD.md). Je to doklad, ne ilustrace.",
+      "anim": "animace"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 2: pole Shell s klíčem Winlogon, hodnota explorer.exe se napíše. Nad ním řada malých PC, pod každým explorer.exe.",
+      "note": "Pole v dolní půlce kvůli S50 (závěrečná obrazovka nahoře).",
+      "anim": "animace"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Totéž pole: explorer.exe se smaže a napíše another.exe. SIGN OUT → SIGN IN → malý monitor s jinou plochou, WHATEVER IT DRAWS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Okno SYSTEM.INI: [boot], shell=progman.exe zvýrazněný, ostatní řádky ztlumeně. WINDOWS 3.0 · 1990, šipka ONE LINE.",
+      "note": "Ostatní řádky [boot] (mouse.drv, display.drv, keyboard.drv) jsou typické položky Windows 3.x, jen ztlumeně.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "Nahoře shell=progman.exe → shell=another.exe, Program Manager se skupinami ikon vybledne do čárkovaného obrysu NEVER APPEARED.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "uvod",
+      "diagram": "CAN WINDOWS HAVE A DIFFERENT DESKTOP? se přeškrtne, IT ALWAYS COULD, velké ambrové WHY HAS ALMOST NOBODY SEEN ONE?",
+      "note": "Konec úvodu. Škrt celé otázky je správně: ta otázka neplatí vůbec.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "shell",
+      "diagram": "PÁTEŘ 1: plocha Windows, postupně se orámují taskbar, ikony a tray, uprostřed explorer.exe a spojnice ke všem třem.",
+      "anim": "animace"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "shell",
+      "diagram": "explorer.exe nahoře, dvě větve: okno se složkami YOUR FILES a plocha THE DESKTOP ambrově, THE JOB MOST PEOPLE NEVER NOTICE.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "shell",
+      "diagram": "PÁTEŘ 4 (vrstvy): THE SHELL ambrově s kurzorem, THE LAYER YOU TOUCH; pod tím zespodu KERNEL, DRIVERS, SERVICES.",
+      "anim": "animace"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "shell",
+      "diagram": "PÁTEŘ 1: plocha s Notepadem a prohlížečem, Správce úloh, řádek Windows Explorer, END TASK. Taskbar a ikony zmizí (čárkovaně), okna zůstanou, STILL RUNNING.",
+      "note": "Notepad a prohlížeč (ne okna složek, ta patří Exploreru a zavřou se s ním, viz factcheck). ⚠ ověří se záběrem ve VM.",
+      "anim": "animace"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "shell",
+      "diagram": "Taskbar a ikony se vrátí, Správce úloh zmizí. THE DESKTOP IS JUST ANOTHER PROGRAM.",
+      "note": "🔔 Výzva k odběru: levý dolní roh prázdný (monitor začíná na x 546).",
+      "anim": "animace",
+      "pause": 2.2,
+      "vyzva": true
+    },
+    {
+      "id": "S14b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14b.png",
+      "diagram_generator": "shell",
+      "diagram": "ANDROID: telefon s HOME APP, přepnutí LAUNCHER A → B, A NORMAL SETTING. WINDOWS: monitor, Shell = explorer.exe, čárkovaně NO SIMPLE BUTTON.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "shell",
+      "diagram": "DESKTOP ENVIRONMENT kolem SHELL (TASKBAR, MENUS, DESKTOP) a WINDOW MANAGER (POSITION, STACKING, FOCUS). Ambrově vždy ten pojem, o kterém je řeč.",
+      "anim": "animace"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "shell",
+      "diagram": "LINUX: tři SHELL, tři WM, spojnice každý s každým, MANY COMBINATIONS. WINDOWS: SHELL · REPLACEABLE nad zamčenými WINDOW MANAGEMENT a WINDOW FRAMES, PART OF WINDOWS ITSELF.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "historie",
+      "diagram": "Dva regály krabic se softwarem, jedna ambrová. EARLY 1990s · IN THE SHOP, A REPLACEMENT FOR PROGRAM MANAGER."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "historie",
+      "diagram": "Skutečný snímek Norton Desktop for Windows 1.0 na Windows 3.1 (Toasty Tech) 2×, popisky DESKTOP, FILE TOOLS, LAUNCHER rozsvěcované podle řeči; vpravo NORTON DESKTOP FOR WINDOWS · 1991, ON TOP OF THE SAME WINDOWS.",
+      "note": "art/ndw-folder.png, zdroj toastytech.com/guis/ndw.html, autor Nathan Lineback — KREDIT DO POPISU VIDEA. Rok jen v obraze (rozhodnutí uživatele). PUVOD.md.",
+      "anim": "animace"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "historie",
+      "diagram": "Monitor s průřezem domu o čtyřech místnostech, tečkovaná cesta místnostmi. PACKARD BELL NAVIGATOR 1993, ON NEW PCs, ROOMS: VERSION 2 · 1994.",
+      "note": "Factcheck: verze 1.1 (1993) měla jen ikony, dům s místnostmi od verze 2 (1994). Proto obojí v obraze.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "historie",
+      "diagram": "Totéž okno SYSTEM.INI jako v S07: progman.exe se smaže a napíše explorer.exe. WINDOWS 95 · 1995, SAME PLACE.",
+      "note": "Rým s S07 na týchž souřadnicích (páteř sysini).",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "historie",
+      "diagram": "LATE 1990s. Uprostřed shell= ambrově, kolem kruh postav, dole LITESTEP."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "historie",
+      "diagram": "NEXTSTEP (FROM NeXT, FOUNDED BY STEVE JOBS AFTER APPLE) → AFTERSTEP (UNIX WINDOW MANAGER) → LITESTEP (WINDOWS SHELL).",
+      "anim": "animace"
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S23.png",
+      "note": "Skutečný LiteStep (téma NonStepII), Commons, GPL. Dotaz zúžený na přesný název souboru, pick 0 ověřen --search 2026-11-07.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "NonStepII-desktop-example",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "historie",
+      "diagram": "THEMES, SHARED LIKE WALLPAPERS: tři monitory FUTURISTIC, UNIX WORKSTATION, ALMOST NOTHING.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "historie",
+      "diagram": "Monitor se schématem: jedno prosté menu a tenká lišta dole. BLACKBOX FOR WINDOWS, COPIED FROM BLACKBOX · UNIX."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "historie",
+      "diagram": "Skutečný snímek bbLean 1.17.1 na XP (celá obrazovka 1:1), popisky MENU a TOOLBAR, vpravo bbLEAN · WINDOWS 2000 · XP.",
+      "note": "art/bblean.png 1:1, celá obrazovka. PUVOD.md."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "historie",
+      "diagram": "Skutečný snímek Emerge Desktop na XP (celá obrazovka 1:1), popisky LAUNCHER, TASK LIST, TRAY, CLOCK nad lištou. Uprostřed EMERGE DESKTOP · EACH PART A SEPARATE PROGRAM.",
+      "note": "art/emerge-xp.png 1:1, celá obrazovka, lišta nad pásem titulků. PUVOD.md.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "historie",
+      "diagram": "Tři XP plochy v barvách BLUE, OLIVE GREEN, SILVER se stejným rozvržením. COLOURS AND BUTTONS CHANGED, THE LAYOUT STAYED.",
+      "anim": "animace"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "historie",
+      "diagram": "Pruh 128 MB: WINDOWS, SHELL (ambrově, zmenší se), čárkovaně uvolněné místo, EVERYTHING ELSE. NOT TO SCALE. A LIGHTER SHELL PROMISED MORE ROOM.",
+      "note": "Čárkovaně = slib (S29 promised), bez čísel úspory: nejsou doložené.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "historie",
+      "diagram": "LINUX: čtyři různé plochy, CHOOSING A DESKTOP IS NORMAL. Vpravo postava s otazníkem, SOME WINDOWS USERS WANTED THE SAME CHOICE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "historie",
+      "diagram": "LITESTEP, EMERGE DESKTOP, SHARPENVIRO: čáry, které končí. LAST: 2014 · ALPHA, STOPPED, STOPPED.",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "dnes",
+      "diagram": "PÁTEŘ 4: vlevo malý tým. Vrstva shellu EXPLORER.EXE se rozpadne na čtyři díly. MORE THAN ONE EXECUTABLE.",
+      "anim": "animace"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "dnes",
+      "diagram": "Díly se pojmenují: EXPLORER.EXE, START MENU (OWN PROCESS · SINCE 2019), SYSTEM COMPONENTS, PACKAGED APPS.",
+      "note": "Rok 2019 jen v obraze (StartMenuExperienceHost, factcheck).",
+      "anim": "animace"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "dnes",
+      "diagram": "EXPLORER.EXE se vymění za YOUR SHELL, ostatní díly zůstanou. REPLACING EXPLORER ≠ REPLACING ALL OF IT, HARDER THAN IT USED TO BE.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "dnes",
+      "diagram": "Skutečný snímek Cairo Desktop 0.4 na Windows 11 (menu bar, taskbar, okno About © 2007–2026), 1:1; vpravo CAIRO DESKTOP, OPEN SOURCE, WINDOWS 11 · TODAY.",
+      "note": "art/cairo-s35.png (uživatelova Win 11 VM, vyretušovaný nápis Activate Windows). PUVOD.md."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "dnes",
+      "diagram": "Skutečný snímek Cairo s rozbaleným stackem Documents, 1:1; popisky MENU BAR, TASKBAR, STACKS podle řeči.",
+      "note": "art/cairo-s36.png (tatáž VM, vyretušovaný nápis Activate Windows). PUVOD.md.",
+      "anim": "animace"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "dnes",
+      "diagram": "ALONGSIDE EXPLORER × AS THE SHELL; pod druhým čárkovaně SETTINGS, WINDOWS SECURITY, CAN MISBEHAVE.",
+      "note": "Čárkovaně: potíže hlášené, ne zaručené. ⚠ ověřit ve VM.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "dnes",
+      "diagram": "Skutečné snímky Seelen UI na Windows 11, 1:1: lišta a dok (popisky BAR, DOCK, WIDGETS podle řeči), na „tiles“ prolnutí do snímku se třemi dlaždicemi (orámované), vpravo SEELEN UI · TILED WINDOWS.",
+      "note": "art/seelen-bar.png (vyretušovaný nápis Activate Windows) → art/seelen-tiling.png. PUVOD.md.",
+      "anim": "animace"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "dnes",
+      "diagram": "PÁTEŘ 4: nad vrstvou EXPLORER.EXE · STILL RUNNING přibude vrstva SEELEN UI. NEW FACE / SAME SHELL. Pod vrstvami 2× výřez lišty Seelen „root | Windows Explorer - Program Manager“, spojnice k vrstvě explorer.exe (na „explorer“).",
+      "note": "Kontrast s S18: tam se vrstva shellu vyměnila, tady se jen přikryla. Výřez z art/seelen-bar.png: okno plochy ve Windows 11 se pořád jmenuje Program Manager a patří Exploreru (callback na S08, rozhodl uživatel).",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "kiosk",
+      "diagram": "AND MICROSOFT? SHELL LAUNCHER, AN OFFICIAL WINDOWS FEATURE, kiosek FOR DEVICES LIKE KIOSKS.",
+      "anim": "animace",
+      "us": {
+        "sentence_pause": 0.0
+      },
+      "note": "us.sentence_pause 0: af_heart zavře před koncovým „t“ v „Microsoft?“ a vložená větná pauza padala do slova (uživatel 2026-11-08). min_sentence_words nepomůže — první věta scény se nemá ke komu přilepit. Pauzy v S40 u Heart nesou přirozené mezery. Emma beze změny."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "kiosk",
+      "diagram": "Automat na jízdenky, samoobslužná pokladna, bankomat, postupně.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "kiosk",
+      "diagram": "PÁTEŘ 4: vrstva shellu = ONE APPLICATION. Vlevo administrátor NAMES THE PROGRAM. AFTER SIGN-IN, IT IS THE WHOLE DESKTOP.",
+      "note": "Factcheck: Shell Launcher sám jiné aplikace neblokuje, proto ne ALL YOU GET.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "kiosk",
+      "diagram": "SHELL LAUNCHER IS AVAILABLE IN: ENTERPRISE, EDUCATION, IOT ENTERPRISE; NOT IN čárkovaně HOME, PRO.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "kiosk",
+      "diagram": "PÁTEŘ 2: pole Shell = explorer.exe na týchž souřadnicích jako v S05. THE OLDER MECHANISM, STILL PART OF WINDOWS. Čárkovaný přepínač NO NORMAL DESKTOP SETTING.",
+      "anim": "animace",
+      "pause": 3.0
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "zaver",
+      "diagram": "WHY ONLY ONE DESKTOP? Přeškrtnuté BECAUSE IT CAN'T HAVE ANOTHER, velké ambrové THE DESKTOP IS THE PRODUCT.",
+      "note": "Pointa. 🔔 Výzva k odběru za ní: levý dolní roh prázdný.",
+      "anim": "animace",
+      "pause": 2.8,
+      "vyzva": true
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "zaver",
+      "diagram": "LINUX, A CHOICE. Okno instalátoru CHOOSE YOUR DESKTOP: KDE PLASMA, GNOME, XFCE, CINNAMON, …",
+      "anim": "animace"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "zaver",
+      "diagram": "Reklama, snímek obrazovky a stránka podpory, ve všech tatáž plocha. ONE SET OF INSTRUCTIONS FOR MORE THAN A BILLION MACHINES.",
+      "anim": "animace"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "zaver",
+      "diagram": "ADVANTAGE: nápověda = tvoje obrazovka. COST: postava s otazníkem, MOST PEOPLE NEVER LEARN THERE WAS A CHOICE.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "zaver",
+      "diagram": "Osa: NORTON 1991, NAVIGATOR 1993, ambrová čára WINDOWS 95, pak LITESTEP, BLACKBOX, EMERGE. BEFORE WINDOWS 95 EVEN EXISTED."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ 2: pole Shell = explorer.exe s blikajícím kurzorem, WAITING FOR A DIFFERENT NAME.",
+      "note": "Začíná okno závěrečné obrazovky: horní polovina prázdná.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: THE DESKTOP IS JUST SOFTWARE / AND SOFTWARE CAN BE REPLACED.",
+      "note": "Horní polovina prázdná (závěrečná obrazovka).",
+      "pause": 1.6
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: IF YOU COULD PICK AT INSTALL, SWITCH ? KEEP THE ONE YOU KNOW.",
+      "note": "Horní polovina prázdná (závěrečná obrazovka). Obě volby stejně, bez ambrové.",
+      "pause": 2.0
+    }
+  ]
+}

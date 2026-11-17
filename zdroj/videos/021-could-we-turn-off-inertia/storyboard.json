@@ -1,0 +1,662 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook je SCÉNA, ne schéma. Divák musí napřed sedět v tom letadle, teprve pak dává smysl ptát se, co by necítil.",
+      "prompt": "interior of an airliner cabin seen from the aisle, empty seats in soft window light, a single passenger sitting still and looking out, calm ordinary morning"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Tři stavy vozidla vlevo, JEDNA nehybná postava vpravo. Postava musí být ve všech třech řádcích shodná na pixel — v tom je celé tvrzení scény.",
+      "diagram_generator": "uvod",
+      "diagram": "profil vozidla třikrát pod sebou, pokaždé s jinou ambrovou šipkou: SPEED UP dopředu, SLOW DOWN dozadu, TURN do oblouku; vpravo od všech tří táž sedící postava, úplně stejná a nehybná, s popiskem NOTHING"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Přes NÁPIS vodorovný škrt (skrt_text), ne křížek — CLAUDE.md.",
+      "diagram_generator": "uvod",
+      "diagram": "tři řádky s ikonou a vodorovným škrtem přes nápis: PUSHED INTO THE SEAT, THROWN FORWARD, SUDDEN JOLTS; všechny tři přeškrtnuté ambrovou",
+      "pause": 2.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Zavádí se tu osa G, kterou pak čtou S06, S07 i S08. Rozvržení osy se mezi těmi scénami NESMÍ pohnout, jinak se změny nedají číst.",
+      "diagram_generator": "uvod",
+      "diagram": "svislá osa přetížení zdola nahoru, nahoře vodorovná plná čára jako strop s nápisem CEILING, pod ní ambrový sloupec, který se o ni zarazí"
+    },
+    {
+      "id": "S05",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Fotka, ne kresba: přetlakový oblek je konkrétní předmět a Commons ho má (CLAUDE.md: dá se to vyfotit? Pak to model kreslit nemá). POZOR na výběr snímku — nesmí vypadat, že se proti přetížení namáhá OBLEK. Pointa scény je pilot + oblek + svalové napětí; hledej záběr s pilotem v něm, ne oblek samotný na věšáku. fit 0.84, ať je vidět celá postava s odstupem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "fighter pilot flight suit cockpit",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Popisek říká SUIT + STRAINING, protože oblek sám dá jen 1 az 2 G — viz factcheck.md. Kdyby tam stálo jen SUIT, obraz by tvrdil, co scénář neříká.",
+      "diagram_generator": "uvod",
+      "diagram": "táž osa G jako v S04, na ní ambrová značka na hodnotě NINE G a popisek SUIT + STRAINING; vedle drobně TENS OF SECONDS"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "BEAT: týž obraz jako S06 s jedinou změnou. Osa se nesmí pohnout. Pásma odpovídají factcheck.md, nejsou vymyšlená.",
+      "diagram_generator": "uvod",
+      "diagram": "táž osa G, značka devítky ztlumená, ambrově zvýrazněné pásmo GREY-OUT (tři az čtyři G) a BLACKOUT (čtyři az čtyři a půl G); vpravo dvě kolečka zorného pole, první s tmavými okraji, druhé celé tmavé"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Punchline bloku. Poměr výšek nese tvrzení — kdyby byly podobné, scéna by řekla „a je to skoro stejné\".",
+      "diagram_generator": "uvod",
+      "diagram": "dva sloupce vedle sebe na téže ose: vysoký ztlumený s popiskem WHAT THE ENGINE COULD DO a nízký ambrový s popiskem WHAT THE PASSENGER SURVIVES; mezi nimi velká mezera",
+      "pause": 2.5
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Titulní karta bloku. Jediné dvě čistě typografické scény videa jsou tahle a S10.",
+      "diagram_generator": "sedacka",
+      "diagram": "titulní karta: velký nápis WHAT WOULD WE HAVE TO INVENT?, pod ním tenká vodorovná ambrová čára"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Předěl. Krátká scéna, takže musí být čitelná okamžitě.",
+      "diagram_generator": "sedacka",
+      "diagram": "titulní karta menší: nápis THE SIMPLEST PROBLEM, pod ním ambrově ACCELERATION"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "PÁTEŘNÍ OBRAZ videa. Táž postava v téže poloze se vrací v S12, S13, S14, S32, S45, S46 a S47 — rozvržení se proto kreslí vždy jednou funkcí, nikdy ručně. Šipka z opěradla je JEDNA a KRÁTKÁ: je to lokální síla, což je půlka tvrzení celého videa.",
+      "diagram_generator": "sedacka",
+      "diagram": "profil auta se sedící postavou uvnitř, pod vozem ambrová šipka zrychlení doprava; v zádech postavy jedna krátká tlustá ambrová šipka z opěradla do těla, popisek THE SEAT PUSHES YOU"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "BEAT, ne nový obrázek. Jediná změna je zvýrazněné místo dotyku.",
+      "diagram_generator": "sedacka",
+      "diagram": "týž obraz jako S11, jen v místě dotyku zad a opěradla ambrové zvýraznění a popisek THIS IS WHAT YOU FEEL"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Zrcadlo S11. Táž postava, jen jiné místo dotyku — obraz tím říká, že jde pořád o tutéž věc.",
+      "diagram_generator": "sedacka",
+      "diagram": "týž profil vozu, šipka zrychlení otočená doleva (brzdění), postava opřená dopředu do pásu, ambrová šipka od pásu do těla, popisek THE BELT STOPS YOU"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Zadání celého videa v jednom obrázku. Křížek smí být přes ŠIPKU, protože to není nápis.",
+      "diagram_generator": "sedacka",
+      "diagram": "týž obraz jako S11, ale šipka z opěradla je přeškrtnutá ambrovým křížem; popisek PREVENT THIS FROM REACHING YOU",
+      "pause": 2.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Zavádí kolejnici, kterou pak čte S16 a hlavně S23 a S26. Délka kolejnice v tomhle obrázku je referenční — v S27 se proti ní měří půl kilometru.",
+      "diagram_generator": "posun",
+      "diagram": "profil letadla, uvnitř vodorovná kolejnice a na ní sedačka s postavou; ambrová šipka zrychlení letadla doprava, menší ambrová šipka sedačky doleva, popisky VEHICLE FORWARD a SEAT BACKWARD"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Dvě soustavy vedle sebe. Postava vpravo musí být na pixel tam, kde byla, jinak obraz popře, co scéna říká.",
+      "diagram_generator": "posun",
+      "diagram": "dva rámečky vedle sebe: vlevo VIEW FROM THE GROUND s letadlem, které se posunulo, vpravo VIEW FROM YOUR SEAT s toutéž postavou přesně uprostřed a nehybnou"
+    },
+    {
+      "id": "S17",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Skutečný simulátor na hexapodu. Archiv, ne SDXL: je to konkrétní stroj, který lze vyfotit, a SDXL by z „šesti noh\" udělal pavouka.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "flight simulator",
+        "pick": 7,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "PÁTEŘNÍ OBRAZ číslo dvě. Týž hexapod se vrací v S19, S20, S21 a hlavně v S50, kde se splácí callback — proto se kreslí jednou funkcí. Kóta ukazuje ROZSAH, ne přesné číslo (factcheck.md: 0,3 az 1,5 m podle toho, co se měří).",
+      "diagram_generator": "simulator",
+      "diagram": "schéma hexapodu: obdélníková kabina nahoře, šest šikmých noh dolů k základně, vpravo svislá kóta s popiskem A METRE OR SO"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "BEAT: táž soustava, jediná změna je náklon.",
+      "diagram_generator": "simulator",
+      "diagram": "týž hexapod, ale kabina nakloněná dozadu asi o dvacet stupňů, nohy vzadu zkrácené a vpředu prodloužené; popisek TILTS BACKWARDS"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Tady se rozhoduje, jestli divák pochopí zbytek videa. Rovnítko mezi dvěma SHODNÝMI šipkami je celé tvrzení — obě šipky proto musí být kreslené týmž kódem, ne dvakrát ručně.",
+      "diagram_generator": "simulator",
+      "diagram": "nakloněná kabina zblízka, uvnitř postava; svislá ztlumená šipka GRAVITY dolů a její ambrová složka do zad postavy; vpravo dvě kolečka vnitřního ucha, obě s toutéž šipkou, popisky ACCELERATION a TILTED GRAVITY, mezi nimi rovnítko"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Punch bloku. Škrt přes nápis vodorovnou čarou, ne křížkem.",
+      "diagram_generator": "simulator",
+      "diagram": "nakloněný hexapod ztlumeně, přes něj velký nápis NOT CANCELLING, vodorovně přeškrtnutý, a pod ním ambrově BORROWING GRAVITY"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Záměrně skoro prázdný obraz — je to nádech před další částí a zároveň vizuální záložka, kterou S50 otevře. Ten drobný hexapod v rohu je ta záložka.",
+      "diagram_generator": "simulator",
+      "diagram": "prázdná plocha s jediným ambrovým praporkem nebo záložkou a drobným nápisem REMEMBER THIS; vpravo dole malý ztlumený obrys hexapodu",
+      "pause": 2.8
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Návrat k posunuté sedačce. Ztlumení říká „vracíme se\", otazník „a je tu potíž\". Scénář si tenhle návrat vyžádal větou But back to the moving seat.",
+      "diagram_generator": "kolejnice",
+      "diagram": "týž obraz jako S15, celý ztlumený, přes něj ambrový otazník"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Zadání příkladu. Čísla jsou velká, protože se s nimi dál počítá.",
+      "diagram_generator": "kolejnice",
+      "diagram": "dva velké údaje vedle sebe: ONE G a TEN SECONDS, pod nimi drobně roughly the acceleration of gravity"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Číslo je přepočítané (353,0 km/h), ne odhadnuté — factcheck.md.",
+      "diagram_generator": "kolejnice",
+      "diagram": "rychloměrová stupnice nebo prostý údaj: +350 KM/H vypsaný ambrově, pod ním drobně after ten seconds"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Poměr délky kolejnice k letadlu NESE celé tvrzení. Letadlo musí být stejně velké jako v S15, jinak se poměr nedá porovnat.",
+      "diagram_generator": "kolejnice",
+      "diagram": "profil letadla ve stejné velikosti jako v S15, a od něj doleva vede kolejnice, která je mnohonásobně delší než celé letadlo; na ní kóta 500 M"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Totéž číslo v jiných jednotkách a s měřítkem. Naměřená hodnota je 490,3 m, takže „almost half a kilometre\" platí doslova — kolejnice proto nesmí být nakreslená delší než letadlo krát zhruba sedm.",
+      "diagram_generator": "kolejnice",
+      "diagram": "táž kolejnice, vedle ní pro měřítko drobný obrys dopravního letadla a popisek HALF A KILOMETRE"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Vtip. Musí být zjevně absurdní, ne technický.",
+      "diagram_generator": "kolejnice",
+      "diagram": "řada leteckých sedadel v perspektivě, která pokračuje až za okraj obrazu, popisek ECONOMY CLASS drobně dole",
+      "pause": 2.5
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Otazník u paty šipky je záměr — scéna se ptá, S31 na to odpoví.",
+      "diagram_generator": "primo",
+      "diagram": "sedící postava jako v S11, ale bez auta kolem; z prázdna k ní míří ambrová šipka s otazníkem, popisek PUSH THE PASSENGER DIRECTLY"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Regulační smyčka. Rámečky jsou plnou čarou — je to technika, která existuje, ne návrh.",
+      "diagram_generator": "primo",
+      "diagram": "vodorovné schéma ze tří rámečků propojených šipkami: SENSOR, COMPUTER, ACTUATOR, z posledního šipka do sedící postavy"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "BEAT: týž obraz jako S30, přibyla jediná věc. Otázka směřuje DOLŮ, protože ptát se na reakci znamená ptát se, o co se to opírá.",
+      "diagram_generator": "primo",
+      "diagram": "totéž schéma, ale pod rámečkem ACTUATOR je ambrový otazník a šipka mířící dolů do prázdna, popisek WHERE FROM?"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Obě šipky STEJNĚ DLOUHÉ. Kdyby jedna byla kratší, obraz by tvrdil, že se něco zrušilo — a scéna říká přesný opak.",
+      "diagram_generator": "primo",
+      "diagram": "sedící postava, do ní ambrová šipka doprava s popiskem ACTION, a ze stejného bodu stejně dlouhá šipka doleva do rámečku VEHICLE s popiskem REACTION"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pojem se pojmenovává tady, protože ho scénář poprvé použil o scénu dřív. Šipky tlačí a nic se neděje — to je „fighting it\", ne „eliminating it\".",
+      "diagram_generator": "primo",
+      "diagram": "velký nápis INERTIA uprostřed, pod ním drobně the resistance of matter to changing its motion; kolem něj ambrové šipky, které do nápisu tlačí ze všech stran, ale nápis se nehne"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Čárkovaný rámeček = hypotéza. Tahle konvence platí pro celý zbytek videa a zavádí se právě tady.",
+      "diagram_generator": "primo",
+      "diagram": "týž nápis INERTIA, ale ztlumený a čárkovaně orámovaný, nad ním ambrově WHAT IF WE COULD CHANGE THIS?",
+      "pause": 2.2
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Sen celého videa v jednom obrázku: vůz zrychluje, tělo nemá ani jednu šipku. Čárkovaná čára říká, že tohle zatím neexistuje.",
+      "diagram_generator": "primo",
+      "diagram": "profil vozidla s ambrovou šipkou zrychlení doprava, uvnitř sedící postava úplně bez jediné šipky; mezi vozem a postavou čárkovaná svislá čára"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Vymezení negativem. Třetí řádek je čárkovaně orámovaný — pořád je to hypotéza.",
+      "diagram_generator": "primo",
+      "diagram": "tři řádky pod sebou, první dva vodorovně přeškrtnuté: A BETTER SUSPENSION SYSTEM, A CLEVER SEAT; třetí ambrový a nepřeškrtnutý: SOMETHING FUNDAMENTALLY NEW, pod ním drobně and we don't know how",
+      "pause": 2.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Nádech. Prázdno je záměr — další scéna je jednoslovná.",
+      "diagram_generator": "gravitace",
+      "diagram": "téměř prázdná plocha, uprostřed drobně A FORCE YOU HAVE NEVER FELT"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Jednoslovná scéna. Nic víc v obraze být nesmí.",
+      "diagram_generator": "gravitace",
+      "diagram": "jediné slovo GRAVITY přes celou šířku, ambrově"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Šipka je ZTLUMENÁ, ne ambrová: scéna říká, že tu ta síla je, ale že ji necítíš. Ambrová barva znamená „o tomhle je řeč\", a řeč je o té necítěnosti.",
+      "diagram_generator": "gravitace",
+      "diagram": "stojící postava nahoře, dole velký oblouk zemského povrchu; od postavy dolů vede dlouhá ztlumená šipka k popisku CENTRE OF THE EARTH"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "BEAT: jediná změna proti S39.",
+      "diagram_generator": "gravitace",
+      "diagram": "týž obraz, přes šipku ambrový vodorovný škrt slova FEEL, popisek AND YOU CANNOT FEEL IT"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Dvojice, ve které se mění jediná věc. Postava musí být v obou rámečcích shodná.",
+      "diagram_generator": "gravitace",
+      "diagram": "dva rámečky vedle sebe, v obou táž postava; vlevo pod ní židle a ambrová šipka z židle do těla s popiskem THIS you feel, vpravo židle chybí a šipka taky, popisek NOTHING"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Absence šipky je celý obsah scény. Nic se dokreslovat nesmí.",
+      "diagram_generator": "gravitace",
+      "diagram": "padající postava uprostřed prázdné plochy, žádná šipka, žádný dotyk, popisek FREE FALL"
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Skutečná fotka z ISS. Archiv, protože je to doložitelné místo a NASA snímky jsou volné; fotorealistická generovaná scéna konkrétního skutečného místa by překlopila odpověď na dotaz YouTube „byla použita AI\" na ano.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "astronaut floating space station",
+        "pick": 3,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Předěl před nejdůležitější pasáží videa.",
+      "diagram_generator": "gravitace",
+      "diagram": "téměř prázdná plocha, uprostřed drobně AND HERE IS WHY THAT MATTERS"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "PRVNÍ POLOVINA klíčového protikladu. Šipka je JEDNA a stlačení je NEROVNOMĚRNÉ — obojí je to, co se v S46 změní. Postava, její velikost i poloha se mezi S45, S46 a S47 nesmí pohnout ani o pixel, jinak protiklad zanikne.",
+      "diagram_generator": "jadro",
+      "diagram": "sedící postava z profilu, VELKÁ a uprostřed; z opěradla do zad jediná krátká tlustá ambrová šipka; od místa dotyku se tělem šíří pásy stlačení, hustší u zad a řidší u hrudi; popisky ONE PLACE a TRAVELS THROUGH YOU"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "DRUHÁ POLOVINA. Šipky musí být doslova stejně dlouhé a stejně husté — je to slabý princip ekvivalence nakreslený. Kdyby některá byla delší, obraz by kreslil slapovou sílu, tedy přesně tu výhradu, které se scénář vyhnul přeformulováním (factcheck.md).",
+      "diagram_generator": "jadro",
+      "diagram": "TATÁŽ postava ve stejné velikosti a poloze jako v S45; místo jedné šipky mnoho stejně dlouhých ambrových šipek rovnoměrně po celém těle, všechny stejným směrem; žádné pásy stlačení; popisek EVERY PART, THE SAME ACCELERATION"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "BEAT: proti S46 přibyl jediný popisek.",
+      "diagram_generator": "jadro",
+      "diagram": "týž obraz jako S46, jen ambrové škrtnutí u popisku COMPRESSED a pod ním NOTHING TO FEEL"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Spojení obou obrazů, které už divák zná. ZÁMĚRNĚ BEZ PORTRÉTU: portrét by přerušil řetěz kreseb těla, na kterém stojí celý blok, a CLAUDE.md navíc má od diváků výtku na portréty přes celý obraz.",
+      "diagram_generator": "jadro",
+      "diagram": "padající postava jako v S42, kolem ní rovnoměrné šipky jako v S46; vedle citace A FALLING PERSON FEELS NO GRAVITY a drobně EINSTEIN, 1907"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Shrnutí protikladu do jednoho obrazu. Pravá polovina je doslova S46 zmenšená, ne nová kresba.",
+      "diagram_generator": "jadro",
+      "diagram": "dva rámečky vedle sebe: vlevo NOT THIS s postavou a jednou protisměrnou šipkou, vodorovně přeškrtnuto; vpravo THIS s postavou a rovnoměrnými šipkami jako v S46"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "SPLACENÍ CALLBACKU ze S22. Hexapod musí mít přesně týž tvar jako v S18 az S21, jinak se návrat nepozná. Tohle je vrchol videa — recenzent ho označil za nejlepší pasáž scénáře.",
+      "diagram_generator": "jadro",
+      "diagram": "vpravo postava s rovnoměrnými šipkami jako v S46, vlevo se vrací nakloněný hexapod ze S19 ve stejném tvaru; mezi nimi ambrová šipka od hexapodu k postavě a popisek THE SIMULATOR WAS BORROWING THIS",
+      "pause": 2.8
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Čárkovaný rámeček = hypotéza, konvence zavedená v S34.",
+      "diagram_generator": "casoprostor",
+      "diagram": "velký nápis MANIPULATE GRAVITY ITSELF v čárkovaném rámečku, pod ním otazník"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Mřížka je kreslená kódem, ne SDXL: model bere „mřížku prostupující prostorem\" doslova a udělá pletivo (CLAUDE.md).",
+      "diagram_generator": "casoprostor",
+      "diagram": "pravidelná mřížka přes celou plochu, uprostřed těžké těleso, kolem něj se mřížka prohýbá; popisky MATTER AND ENERGY a CURVE SPACETIME"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "BEAT proti S52: mřížka je táž soustava, mění se jen tvar prohnutí. Postava je pořád ta ze S45 az S49 a pořád bez šipek.",
+      "diagram_generator": "casoprostor",
+      "diagram": "táž mřížka, ale prohnutá jinak — svahem, po kterém sedící postava sjíždí bez jediné šipky do těla; popisek CHANGE THE GEOMETRY, NOT THE PASSENGER"
+    },
+    {
+      "id": "S54",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S54.png",
+      "note": "Jediná atmosférická scéna druhé půlky. Nehybný šálek je pointa — ale nesmí být v promptu vysvětlený, jinak z toho SDXL udělá zátiší. POKUS 1 ZAMÍTNUT: slovo „cabin\" model přečetl jako dřevěný srub s konvicí a hvězdami za oknem, tedy chalupa v horách místo lodi v letu. Prompt proto slovo cabin neobsahuje a místo „streaked starlight\" říká „long bright streaks rushing past\".",
+      "prompt": "inside a dark spacecraft, a wide curved viewport filling the far wall, long bright streaks of starlight rushing past outside, a single cup resting on a metal table, faint amber instrument glow along the panels, nobody moving"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Pojmenování. Čárkovaně, protože to pořád neexistuje.",
+      "diagram_generator": "casoprostor",
+      "diagram": "velký nápis INERTIAL DAMPENER v čárkovaném rámečku, pod ním drobně what science fiction calls it"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Nádech před zamítnutím.",
+      "diagram_generator": "casoprostor",
+      "diagram": "téměř prázdná plocha, uprostřed drobně BUT THERE IS A CATCH",
+      "pause": 2.2
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Scéna má tři údery a jeden obraz je unese, protože je to protiklad: umíme měřit, chybí ovladač. Prázdné místo po knoflíku je nosnější než fotka LIGO, která by ilustrovala jen první třetinu.",
+      "diagram_generator": "neumime",
+      "diagram": "přístrojový panel: vlevo velký přesný číselný displej s popiskem MEASURE a zeleným háčkem, vpravo prázdné kruhové místo po ovladači s popiskem TURN IT DOWN a ambrovým škrtem; dole drobně even gravitational waves from colliding black holes"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Čárkovaný rámeček = hypotéza, táž konvence jako v S34 a S51. Prázdné místo v řadě jinak plných rámečků je celé tvrzení scény.",
+      "diagram_generator": "neumime",
+      "diagram": "řada rámečků se jmény částic, poslední rámeček prázdný a ČÁRKOVANÝ s popiskem GRAVITON a drobně never detected",
+      "pause": 2.5
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Otázka. Odpověď je samostatná scéna, ať mezi ně jde dát ticho.",
+      "diagram_generator": "zaver",
+      "diagram": "velký nápis COULD WE BUILD ONE? uprostřed prázdné plochy"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Jednoslovná scéna. Divák tady musí dostat ticho.",
+      "diagram_generator": "zaver",
+      "diagram": "jediné slovo NO, velké a ambrové, nad ním drobně with today's physics",
+      "pause": 2.8
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Všechny tři čárkovaně a stejně velké — žádná z těch cest není doložená a žádná není pravděpodobnější.",
+      "diagram_generator": "zaver",
+      "diagram": "tři čárkované rámečky vedle sebe s nápisy INERTIA, GRAVITY, SPACETIME, z každého vede čárkovaná šipka nahoru ke společnému nápisu EVERYTHING CHANGES"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Obrat perspektivy, ke kterému celé video směřuje. Horní otázka musí zůstat čitelná i přeškrtnutá — proto vodorovný škrt, ne křížek.",
+      "diagram_generator": "zaver",
+      "diagram": "dvě otázky pod sebou, horní vodorovně přeškrtnutá a ztlumená: HOW DO WE MAKE THE VEHICLE ACCELERATE MORE GENTLY?, dolní ambrová: HOW DO WE MAKE THE PASSENGERS NOT SHARE THAT ACCELERATION?"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Protiklad dvou režimů. Loď je v obou polovinách táž.",
+      "diagram_generator": "zaver",
+      "diagram": "vlevo loď plazící se po ztlumené čáře s popiskem CRAWL, vpravo táž loď s ambrovou šipkou zrychlení; mezi nimi svislý předěl"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Křivka je SPOČÍTANÁ z v = at/odmocnina(1+(at/c)^2), ne nakreslená od oka — hlídá to assert v generátoru. Čísla jsou ve factcheck.md.",
+      "diagram_generator": "zaver",
+      "diagram": "graf rychlosti v čase: osa X v letech, osa Y jako podíl rychlosti světla, křivka se zvedá a ohýbá k vodorovné asymptotě C; na křivce dvě značky s údaji 100 DAYS 0,27 C a 1 YEAR 0,72 C"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Přehození toho, co divák čekal.",
+      "diagram_generator": "zaver",
+      "diagram": "dva řádky, horní ztlumený a přeškrtnutý REACHING A HIGH SPEED, dolní ambrový SURVIVING THE ACCELERATION",
+      "pause": 2.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Přechod od techniky k otázce.",
+      "diagram_generator": "zaver",
+      "diagram": "nápis MORE THAN SCIENCE FICTION, pod ním tenká čára a drobně a question about matter itself"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Otázka, kvůli které celé video vzniklo. Nic jiného v obraze.",
+      "diagram_generator": "zaver",
+      "diagram": "velká otázka přes celou plochu: WHY DOES MATTER RESIST BEING ACCELERATED?"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Záměrné zrcadlo S57: tentýž tvar obrazu, jiná dvojice. Divák si toho nemusí všimnout vědomě, ale drží to závěr pohromadě.",
+      "diagram_generator": "zaver",
+      "diagram": "vlevo vzorec F = ma s popiskem WE CAN DESCRIBE IT a zeleným háčkem, vpravo prázdné místo po vypínači s popiskem SWITCH IT OFF a ambrovým škrtem"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Ticho před koncem.",
+      "diagram_generator": "zaver",
+      "diagram": "téměř prázdná plocha, uprostřed drobně MAYBE WE NEVER WILL",
+      "pause": 2.8
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "note": "Poslední obraz. Žádná loď, žádná technika — jen ta dosažitelnost.",
+      "prompt": "a wide field of stars above a dark quiet horizon, one faint distant point of light slightly brighter than the rest, cold clear night, vast empty sky"
+    }
+  ]
+}

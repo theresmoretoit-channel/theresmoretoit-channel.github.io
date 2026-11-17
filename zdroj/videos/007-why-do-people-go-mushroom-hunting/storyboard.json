@@ -1,0 +1,600 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Ustavující záběr a jediné místo, kde je nájezd na atmosféru v pořádku — divák je ten cizinec, který se dívá zpovzdálí. Postava malá v rámu, ne portrét.",
+      "prompt": "a lone figure with a wicker basket walking between tall trunks in an autumn forest, seen from a distance through the trees, fallen leaves, low mist"
+    },
+    {
+      "id": "S02",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Sběr hub v lese. Konkrétní úkon, model ho nakreslí špatně (ruce). Původní dlouhý dotaz nic nenašel — Commons nerozumí popisným frázím.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "mushroom picking basket",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Tři skupiny musí být rozeznatelné BAREVNĚ i POPISKEM. Barva tady něco znamená (zpětná vazba: barva bez významu si význam vyrobí), takže se stejná trojice barev musí držet i v S29-S30.",
+      "diagram_generator": "uvod",
+      "diagram": "rozptýlené siluety hub ve třech barevných skupinách s popiskami DELICIOUS / MAKES YOU ILL / DEADLY; počty ve skupinách nestejné, deadly nejmenší"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Otázka videa. Zůstane viset přes pauzu.",
+      "diagram_generator": "uvod",
+      "diagram": "dvě mapy vedle sebe, v jedné koš plný hub, ve druhé týž koš přeškrtnutý; dole otázka RIDICULOUS? / SENSIBLE?",
+      "pause": 2.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Základní karta, žádná animace. Popisky povinné — bez nich jsou to tři obdélníky (past ze třetího videa).",
+      "diagram_generator": "rise",
+      "diagram": "tři popsané rámečky PLANTS / ANIMALS / FUNGI, třetí zvýrazněný"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Nosí tvrzení „houby jsou blíž nám než stromu\". Osa musí být POPSANÁ a data v obraze od prvního snímku (past ze čtvrtého videa: prázdné osy divák čte jako rozbitý graf). Pozor: rostliny se odštěpily dřív, ale rozestup se nesmí kreslit jako doložený — kreslit bez čísla u větve PLANTS.",
+      "diagram_generator": "strom_zivota",
+      "diagram": "zjednodušený strom života s časovou osou vlevo; větev PLANTS odbočuje níž, uzel ANIMALS + FUNGI výš a popsaný ~1 BILLION YEARS AGO; větev FUNGI zvýrazněná"
+    },
+    {
+      "id": "S07",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S07.png",
+      "note": "Čistý snímek hřibu — „vzdálený příbuzný\". Dotaz na houbu v ruce nic použitelného nedal (nalezené záběry jsou žampiony, tedy pěstovaný druh, což by tady bylo věcně vedle).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Boletus edulis",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Klíčový diagram sekce. Poměr ploch nese celou pointu — podhoubí musí zabírat násobně víc než plodnice, jinak věta „většina organismu je pod zemí\" nesedí s obrazem.",
+      "diagram_generator": "plodnice",
+      "diagram": "průřez půdou: nad linií půdy klobouk a třeň popsané FRUITING BODY, pod linií rozsáhlá síť vláken popsaná MYCELIUM, výrazně větší plocha"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Přímá analogie z původního textu uživatele. Musí být čitelné, že zvýrazněná je vždy ta malá věc.",
+      "diagram_generator": "plodnice",
+      "diagram": "vedle sebe: jabloň s jablkem a strom s houbou u paty, u obou zvýrazněná jen ta malá část; popisky APPLE ≠ TREE a MUSHROOM ≠ FUNGUS"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Měřítko je pointa, proto diagram a ne letecký snímek. POZOR na fact check: stáří se NEUVÁDÍ číslem (odhady 2 400 vs. 8 000 let) a prvenství je PODLE PLOCHY, ne podle hmotnosti. Do obrázku nepsat ani jedno z toho jinak.",
+      "diagram_generator": "oregon",
+      "diagram": "obrys plochy ~9,65 km² v Malheur National Forest položený na měřítko pro porovnání; popisky ONE ORGANISM a NEARLY TEN SQUARE KILOMETRES"
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Trsy václavky — plodnice právě toho druhu, o kterém mluví S10. Ověřit určení na stránce zdroje; špatný druh je tady věcná chyba.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Armillaria ostoyae",
+        "pick": 4
+      },
+      "pause": 2.2
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Žádné konkrétní číslo do obrázku — scénář schválně říká jen „mostly water\" a „not a good source of calories\". Obrázek nesmí tvrdit víc než scénář.",
+      "diagram_generator": "slozeni",
+      "diagram": "vodorovný pruh složení čerstvé houby, drtivá většina popsaná WATER; vedle malá kalorická hodnota v porovnání s běžnou potravinou"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Výčet ze scénáře jedna ku jedné. Ikony jednoznačné — ořech ať není kámen.",
+      "diagram_generator": "sber",
+      "diagram": "řada ikon s popiskami BERRIES / FRUIT / NUTS / ROOTS / MUSHROOMS, poslední zvýrazněná"
+    },
+    {
+      "id": "S14",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S14.png",
+      "note": "Nádech před nejdůležitější sekcí videa. Jediná scéna bloku bez informace — schválně, ať pointa v S15-S22 nedopadne doprostřed textu.",
+      "prompt": "an empty forest path in autumn light, tall trunks receding, no people, leaf litter and moss"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Tvrzení se vysloví hned a teprve pak se vysvětluje. Karta, ne graf.",
+      "diagram_generator": "mykorhiza",
+      "diagram": "pěstební bedna s houbami přeškrtnutá, popiska CANNOT BE FARMED"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "NEJDŮLEŽITĚJŠÍ DIAGRAM VIDEA. Obě šipky popsané, jinak divák nepozná, co se kterým směrem vyměňuje. SDXL na tohle nesahat — past z prvního videa: „mřížka prostupující prostorem\" dala pletivo.",
+      "diagram_generator": "mykorhiza",
+      "diagram": "detailní průřez: kořen stromu obalený vlákny houby; šipka dolů popsaná SUGAR (from sunlight), šipka nahoru popsaná WATER + MINERALS; naznačený mnohem větší dosah vláken než kořenů"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Rozšíření z jednoho kořene na celý les. POZOR: scénář říká „the large majority of land plants\", ne procento — do obrázku žádné číslo (literatura dává 80-92 %, viz factcheck.md).",
+      "diagram_generator": "mykorhiza",
+      "diagram": "průřez lesem s několika stromy propojenými pod zemí sítí vláken; popiska MYCORRHIZA a THE FOREST RUNS ON IT"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Vysvětluje PROČ to nejde pěstovat. Bez téhle scény vypadá S15 jako neochota trhu, ne jako biologie.",
+      "diagram_generator": "mykorhiza",
+      "diagram": "časová šipka MILLIONS OF YEARS, na jejím konci houba se zesláblou/zmizelou sadou nástrojů na rozklad dřeva; popiska LOST THE ABILITY TO LIVE ALONE"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Kontrast musí být okamžitý. Vlevo prázdno, vpravo houba.",
+      "diagram_generator": "mykorhiza",
+      "diagram": "pytel sterilních pilin, v něm nic neroste, vedle týž pytel s živým kořenem stromu a plodnicí; popisky NO / YES"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Levá půlka dvojice. Rozvržení se MUSÍ shodovat s S21, aby srovnání fungovalo.",
+      "diagram_generator": "regal",
+      "diagram": "regál v obchodě se třemi popsanými přihrádkami BUTTON / OYSTER / SHIITAKE, pod nimi společná popiska FEEDS ON DEAD MATTER — GROWS IN A SHED"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Pravá půlka dvojice. Prázdné místo v regále je ten obraz. POZOR na formulaci: nejde o to, že se nedají pěstovat vůbec — lanýž se pěstuje v naočkovaném sadu. Do obrázku psát jen NEEDS A LIVING TREE, nic silnějšího.",
+      "diagram_generator": "regal",
+      "diagram": "týž regál, ale prázdný, s obrysy PORCINI / CHANTERELLE mimo něj v lese; společná popiska NEEDS A LIVING TREE"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Payoff pointy 1. Dlouhá pauza — divák to má kam uložit (zpětná vazba k prvnímu videu: informace se sypou).",
+      "diagram_generator": "regal",
+      "diagram": "les s popiskou THE ONLY SHOP THERE IS",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Obrat sekce. Zatím žádná konkrétní houba — ta přijde v S24.",
+      "diagram_generator": "otrava",
+      "diagram": "silueta houby s výstražným popiskem POISONOUS, vedle otazník u popisky NOT IN THE WAY YOU'D EXPECT"
+    },
+    {
+      "id": "S24",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Muchomůrka zelená. ŠPATNÝ OBRÁZEK JE TADY VĚCNÁ CHYBA, ne estetický problém — určení druhu ověřit na stránce zdroje, ne od oka. Bez zoomu, s odstupem, ať je vidět celá plodnice včetně pochvy u báze.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Amanita phalloides",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86
+        }
+      }
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "PRVNÍ ZE TŘÍ STAVŮ TÉŽE OSY. Celá osa musí být v obraze OD PRVNÍHO SNÍMKU, jen ztlumená — past ze čtvrtého videa: prázdné osy divák hlásí jako rozbitý graf. Zvýrazňuje se, nedokresluje se.",
+      "diagram_generator": "otrava",
+      "diagram": "časová osa otravy popsaná po hodinách a dnech; zvýrazněný první úsek 0-12 H s popiskou YOU FEEL FINE; celá osa včetně pozdějších fází viditelná už teď, jen ztlumená"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Druhý stav. Klamné zlepšení je ta nejdůležitější část a musí být vidět, že je uprostřed, ne na konci.",
+      "diagram_generator": "otrava",
+      "diagram": "tatáž osa, zvýrazněný úsek nevolnosti a po něm úsek popsaný YOU APPEAR TO RECOVER"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Třetí stav. Formulace „starts to fail\" je z fact checku a nesmí se v obrázku zesílit na FAILURE — zdroj mluví o nástupu příznaků poškození, ne o dokonaném selhání.",
+      "diagram_generator": "otrava",
+      "diagram": "tatáž osa, zvýrazněný úsek DAY 3-6 s popiskou THE LIVER STARTS TO FAIL"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Pointa scény není velikost podílu, ale důvod. Druhá popiska je důležitější než graf.",
+      "diagram_generator": "otrava",
+      "diagram": "podíl smrtelných otrav houbami připadající na jediný druh, zbytek doplněk; popiska AROUND NINETY PER CENT a pod tím NOT THE STRONGEST POISON — HALF A DAY'S HEAD START"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tři karty, stejné rozvržení jako S30 — je to dvojice.",
+      "diagram_generator": "pravidla",
+      "diagram": "tři karty lidových pravidel s ikonami: stříbrná lžíce, zvíře okusující houbu, pestrá houba; popisky SILVER SPOON / ANIMALS EAT IT / BRIGHT COLOURS"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Přeškrtnutí musí být okamžitě čitelné i ve 210 px.",
+      "diagram_generator": "pravidla",
+      "diagram": "tytéž tři karty, všechny přeškrtnuté; pod nimi popiska NONE OF THEM WORK"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Nejlepší obraz videa a zároveň závěs pro pointu 2. Prázdná visačka musí být zjevně prázdná, ne jen nečitelná.",
+      "diagram_generator": "pravidla",
+      "diagram": "houba s prázdnou visačkou na třeni; popiska NATURE DOESN'T LABEL ANYTHING",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Proti přeškrtnuté zkratce „vidím -> jím\". Čtyři kroky, ne tři.",
+      "diagram_generator": "urceni",
+      "diagram": "řetěz čtyř kroků I SEE A MUSHROOM -> I IDENTIFY THE SPECIES -> I AM CERTAIN -> I EAT IT"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Nese větu „a mushroom is not a category you can work with\". Názvy nemusí být čitelné všechny, ale musí být zjevné, že to jsou RŮZNÁ jména.",
+      "diagram_generator": "urceni",
+      "diagram": "rámeček s nápisem MUSHROOM rozpadající se na desítky drobných rámečků s latinskými názvy druhů"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Výčet ze scénáře jedna ku jedné, čtyři panely proti čtyřem větám.",
+      "diagram_generator": "urceni",
+      "diagram": "čtyři panely s popiskami WHICH TREE / WHICH MONTH / THE UNDERSIDE / THE CUT FLESH, v každém odpovídající kresba"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Payoff pointy 2. Kartotéka, ne procesor — znalost je lidská, ne strojová.",
+      "diagram_generator": "urceni",
+      "diagram": "silueta hlavy, uvnitř uspořádané záznamy jako v kartotéce; popiska A BIOLOGICAL DATABASE",
+      "pause": 2.2
+    },
+    {
+      "id": "S36",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Předávání znalosti. Schválně zezadu a bez obličejů — je to obecná scéna, ne portrét, a model obličeje kazí.",
+      "prompt": "an adult crouching beside a child on a forest floor, pointing at something among fallen leaves, seen from behind, autumn light"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Opakování těch dvou vět je ten obraz — musí být vidět, že se předává TOTÉŽ, ne že se to vyvíjí.",
+      "diagram_generator": "predavani",
+      "diagram": "řetěz postav napříč generacemi, mezi nimi opakovaně tytéž dvě věty THAT ONE'S GOOD / THAT ONE YOU DON'T TOUCH"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Číslo je doložené (73,1 %, harmonizovaný průzkum). Uvést v obrázku i ROK a ZEMI, jinak vypadá jako obecné tvrzení. Nepsat nic o kilogramech ani o tunách — ta čísla míchají houby s lesními plody, viz factcheck.md.",
+      "diagram_generator": "predavani",
+      "diagram": "podíl dospělých v Česku, kteří sbírají houby, popsaný SEVENTY-THREE PER CENT; drobná popiska CZECHIA, SURVEY 2020-2024"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Zrcadlo k S37. Musí být rozpoznatelně TÝŽ les, jinak srovnání nefunguje.",
+      "diagram_generator": "predavani",
+      "diagram": "týž les jako v S37, tytéž houby, ale žádní lidé; popiska NOBODY SEES IT AS FOOD"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "PŘEKRESLENO, ne archiv: dotaz na Commons nevrátil žádný volný snímek Wassonových. Kreslit siluety, ne podobizny. POZOR na fact check: v roce 1927 Gordon Wasson ještě nebyl bankéř, takže do obrázku psát jen jméno, národnost a letopočet — žádné povolání.",
+      "diagram_generator": "wasson",
+      "diagram": "lesní cesta, na ní dvě postavy; nad obrazem popiska 1927 — CATSKILLS, NEW YORK; u postav popisky VALENTINA (Russian) a GORDON (American)"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Tři popisky pod obrázkem nesou celou pointu. Bez nich jsou to dvě postavy.",
+      "diagram_generator": "wasson",
+      "diagram": "dvě postavy na téže lesní cestě, jedna nadšeně sbírá, druhá couvá s odporem; popisky SAME FOREST / SAME MUSHROOMS / SAME AFTERNOON"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Payoff pointy 3. Houba uprostřed musí být zjevně stejná pro obě strany.",
+      "diagram_generator": "wasson",
+      "diagram": "dva popsané póly MYCOPHILIA a MYCOPHOBIA, mezi nimi nedotčená houba; popiska NEITHER ONE IS ABOUT THE MUSHROOMS",
+      "pause": 2.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Výčet z původního textu uživatele. Popisky povinné.",
+      "diagram_generator": "jidlo",
+      "diagram": "čtyři talíře s popiskami SNAILS / FROGS / SEAWEED / INSECTS, u každého mapa nebo značka „normální tady\""
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Nejsilnější položka výčtu, proto vlastní scéna.",
+      "diagram_generator": "jidlo",
+      "diagram": "sklenice mléka s popiskou MILK FROM ANOTHER SPECIES"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Uzavírá blok o kultuře. Obě bubliny stejně velké — ani jedna strana není ta hloupá.",
+      "diagram_generator": "jidlo",
+      "diagram": "dvě myšlenkové bubliny nad týmž kusem lesní půdy: v jedné hotové jídlo, ve druhé jen popiska A FUNGUS",
+      "pause": 2.2
+    },
+    {
+      "id": "S46",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Jediná teplá scéna videa. Po půlhodině lesa a jedu je to úleva a má na ni být čas. PŘEGENEROVÁNO: první pokus vyšel fotorealisticky, což by překlopilo odpověď na dotaz YouTube „byla použita AI\" na ANO. Malířskost se musí vynutit v promptu scény, kotva stylu z project.json na blízké objekty nestačí.",
+      "prompt": "loose painterly oil sketch of sliced wild mushrooms frying in a cast iron pan, visible brush strokes, thick impasto, warm kitchen light, steam, painted illustration not a photograph",
+      "seed": 4102
+    },
+    {
+      "id": "S47",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Sušené houby. Konkrétní věc, kterou model kreslí jako beztvarou hmotu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "dried mushrooms",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Zařazuje houbu mezi známé chutě. Popisky povinné.",
+      "diagram_generator": "umami",
+      "diagram": "tři zdroje umami s popiskami MEAT / BROTH / AGED CHEESE a k nim houba jako čtvrtý"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Rozdíl mezi sčítáním a násobením je celá pointa. Sloupec „dohromady\" musí být zjevně vyšší než součet obou, ne jen o kousek.",
+      "diagram_generator": "umami",
+      "diagram": "dvě látky vedle sebe, každá s malým sloupcem chuti; pod nimi tytéž dvě dohromady s výrazně vyšším sloupcem; popisky NOT ADDED / MULTIPLIED"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "TA DRUHÁ POPISKA JE POVINNÁ. Třicetinásobek platí pro čisté látky v roztoku, ne pro sušenou houbu v polévce — bez ní obrázek tvrdí víc než data (tatáž vada jako S39 třetího videa).",
+      "diagram_generator": "umami",
+      "diagram": "sloupcové porovnání s popiskou AROUND THIRTYFOLD a povinnou drobnou popiskou PURE COMPOUNDS, EQUAL AMOUNTS, IN SOLUTION"
+    },
+    {
+      "id": "S51",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S51.png",
+      "note": "Obraz z původního textu uživatele — v zimě otevřeš sklenici a ucítíš les. Zima za oknem musí být vidět, jinak scéna nefunguje. PŘEGENEROVÁNO: první pokus vyšel fotorealisticky, což by překlopilo odpověď na dotaz YouTube „byla použita AI\" na ANO. Malířskost se musí vynutit v promptu scény, kotva stylu z project.json na blízké objekty nestačí.",
+      "prompt": "loose painterly oil sketch of a glass jar of dried mushrooms on a kitchen table, visible brush strokes, winter window behind with snow, painted illustration not a photograph",
+      "pause": 2.4,
+      "seed": 4103
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Vtip uživatele, doslova. Účtenka funguje, protože položky jdou přečíst jedna po druhé.",
+      "diagram_generator": "zdarma",
+      "diagram": "účtenka s položkami CAR / FUEL / BOOTS / BASKET / KNIFE / SEVERAL HOURS OF YOUR LIFE a nahoře přeškrtnuté FREE"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Prostý před/po. Statické.",
+      "diagram_generator": "zdarma",
+      "diagram": "prázdný koš a vedle týž koš plný hub; popiska NOBODY GREW THIS",
+      "pause": 2.2
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Dvojice podobných hub musí být OPRAVDU podobná, jinak scéna tvrdí opak toho, co říká scénář.",
+      "diagram_generator": "varovani",
+      "diagram": "přeškrtnutý pohár za největší koš; vedle dvě velmi podobné houby, jedna popsaná EDIBLE, druhá DEADLY"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Nesouměrnost vah je pointa. Nesmí vyjít vyváženě.",
+      "diagram_generator": "varovani",
+      "diagram": "váhy: na jedné misce borůvka s popiskou DISAPPOINTING, na druhé houba s popiskou A DIFFERENT CATEGORY OF MISTAKE",
+      "pause": 2.4
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Nese větu „the last ordinary survivor\". Poměry úseků musí odpovídat — sběračství drtivě nejdelší.",
+      "diagram_generator": "zaver",
+      "diagram": "časová osa lidského získávání potravy: dlouhý úsek FINDING, kratší úsek FARMING, krátký úsek BUYING; jedno vlákno FINDING pokračuje až doprava"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Ne „nechtěl\", ale „nemohl\". Scénář to říká výslovně a obrázek to nesmí obrátit.",
+      "diagram_generator": "zaver",
+      "diagram": "tovární linka, na jejím konci houba, která na pás nedosedne; popiska INDUSTRY COULDN'T TAKE IT OVER"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "SHRNUJÍCÍ KARTA CELÉHO VIDEA — spojuje pointu 1 (S22) a pointu 2 (S35) do závěru. Vlevo se musí vizuálně citovat S16, vpravo S31, ať to divák pozná. Nejdelší pauza videa.",
+      "diagram_generator": "zaver",
+      "diagram": "dvě sloučené příčiny: vlevo houba a strom spojené kořeny s popiskou WON'T GROW WITHOUT ITS TREE, vpravo prázdná etiketa s popiskou WON'T FIT ON A LABEL",
+      "pause": 2.8
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Návrat k obchodu z S20-S21, teď z druhé strany.",
+      "diagram_generator": "zaver",
+      "diagram": "regál se zahraničním ovocem a houbami v plastové vaničce; vedle otevřený les"
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S60.png",
+      "note": "Divák se má dívat a nic nenajít — proto v promptu výslovně žádná houba. Připravuje S61. PŘEGENEROVÁNO: první pokus vyšel fotorealisticky, což by překlopilo odpověď na dotaz YouTube „byla použita AI\" na ANO. Malířskost se musí vynutit v promptu scény, kotva stylu z project.json na blízké objekty nestačí.",
+      "prompt": "loose painterly oil sketch of a forest floor with moss, damp soil and fallen leaves, visible brush strokes, thick impasto, low autumn light, no mushroom visible, painted illustration not a photograph",
+      "seed": 4104
+    },
+    {
+      "id": "S61",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S61.png",
+      "note": "Hřib na místě, kde vyrostl. Navazuje na S60 jako odpověď. POZOR: stejný dotaz jako S07, takže po stažení POROVNAT md5 — past z CLAUDE.md, tři různé dotazy na F-111 vrátily týž snímek.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Boletus edulis",
+        "pick": 3
+      },
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S62.png",
+      "note": "Zrcadlí S01, jen teď odchází a divák už ví proč. Odjezd, ne nájezd.",
+      "prompt": "a figure with a wicker basket walking away into an autumn forest, seen from behind, path curving between trunks"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Poslední obraz. Bez pohybu, bez ozdob.",
+      "diagram_generator": "zaver",
+      "diagram": "prostá karta s popiskou A SHOP WITH NO DOOR, NO SHELVES, AND NOTHING WRITTEN ON ANYTHING"
+    }
+  ]
+}

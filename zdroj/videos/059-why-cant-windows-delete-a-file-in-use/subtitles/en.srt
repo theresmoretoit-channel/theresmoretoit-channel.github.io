@@ -1,0 +1,717 @@
+1
+00:00:00,400 --> 00:00:02,190
+You try to delete a file.
+
+2
+00:00:02,780 --> 00:00:05,410
+Your computer says it is
+open in another program.
+
+3
+00:00:06,140 --> 00:00:07,630
+It does not say which one.
+
+4
+00:00:08,410 --> 00:00:11,780
+That message is the visible end
+of a much stranger question.
+
+5
+00:00:12,390 --> 00:00:15,120
+What does it actually mean to open a file?
+
+6
+00:00:16,120 --> 00:00:18,960
+Because on another computer,
+the same file, open
+
+7
+00:00:19,040 --> 00:00:21,390
+in the same way, deletes
+without complaining.
+
+8
+00:00:22,660 --> 00:00:24,450
+Same file. Same action.
+
+9
+00:00:25,100 --> 00:00:26,710
+Two completely different answers.
+
+10
+00:00:29,243 --> 00:00:32,473
+Start with the part that annoys
+everybody. Which program?
+
+11
+00:00:33,457 --> 00:00:34,657
+Windows knows.
+
+12
+00:00:35,317 --> 00:00:39,647
+It has a kernel object for that open
+file, and it knows which process owns it.
+
+13
+00:00:40,197 --> 00:00:41,467
+It could name it.
+
+14
+00:00:42,407 --> 00:00:44,097
+So you close things at random.
+
+15
+00:00:44,887 --> 00:00:46,397
+You open Task Manager.
+
+16
+00:00:47,187 --> 00:00:50,877
+You stare at a list of processes
+and recognise hardly any of them.
+
+17
+00:00:51,877 --> 00:00:55,327
+And for years, the answer really
+was to download a separate tool.
+
+18
+00:00:56,137 --> 00:01:01,167
+Unlocker came out in 2005, and on
+Windows XP that was the answer.
+
+19
+00:01:02,397 --> 00:01:06,987
+Then Windows 7 shipped
+Resource Monitor. The CPU tab.
+
+20
+00:01:07,617 --> 00:01:09,767
+A list called Associated Handles.
+
+21
+00:01:10,487 --> 00:01:12,037
+Type the name of the file.
+
+22
+00:01:12,787 --> 00:01:16,877
+It gives you the program and the
+process ID. Nothing to install.
+
+23
+00:01:17,707 --> 00:01:19,557
+It has been there since 2009.
+
+24
+00:01:22,777 --> 00:01:25,517
+Although the separate tools
+did more than just tell you.
+
+25
+00:01:25,597 --> 00:01:28,727
+They could close the
+handle and let the file go.
+
+26
+00:01:30,367 --> 00:01:32,257
+Which brings us back to the question.
+
+27
+00:01:33,187 --> 00:01:35,877
+What did that program acquire
+when it opened the file?
+
+28
+00:01:36,857 --> 00:01:40,387
+Say a video player opens
+a file called movie.mp4.
+
+29
+00:01:41,137 --> 00:01:44,747
+On Windows, opening a file
+means filling in two things.
+
+30
+00:01:45,917 --> 00:01:51,467
+The first one is obvious. What do I want
+to do with it? Read it. Write to it.
+
+31
+00:01:52,177 --> 00:01:54,267
+The second one is the interesting one.
+
+32
+00:01:54,897 --> 00:01:57,407
+What may everybody else
+do while I have it open?
+
+33
+00:01:58,467 --> 00:01:59,997
+That is a real setting.
+
+34
+00:02:00,807 --> 00:02:03,737
+You say what other programs
+may do while you have it open.
+
+35
+00:02:04,807 --> 00:02:07,417
+They may read it. They
+may also write to it.
+
+36
+00:02:07,767 --> 00:02:09,697
+They may delete or rename it.
+
+37
+00:02:10,567 --> 00:02:14,857
+Or nothing at all. Nobody
+touches this while I am using it.
+
+38
+00:02:16,207 --> 00:02:19,387
+The flag that permits deleting
+is called FILE_SHARE_DELETE.
+
+39
+00:02:19,967 --> 00:02:23,877
+And Microsoft's documentation
+adds one line underneath it.
+
+40
+00:02:24,757 --> 00:02:28,287
+Delete access allows both
+delete and rename operations.
+
+41
+00:02:29,567 --> 00:02:33,717
+So a program that refuses delete
+sharing has blocked renaming as well.
+
+42
+00:02:35,997 --> 00:02:37,477
+And if the program that opened the file
+
+43
+00:02:37,557 --> 00:02:40,467
+did not grant it,
+nothing else can take it.
+
+44
+00:02:41,547 --> 00:02:44,117
+Which is why the error
+is not called file busy.
+
+45
+00:02:44,987 --> 00:02:46,777
+It is called a sharing violation.
+
+46
+00:02:48,057 --> 00:02:51,087
+The answer was sitting in the
+name of the error the whole time.
+
+47
+00:02:53,967 --> 00:02:56,137
+Now the same thing on a Linux machine.
+
+48
+00:02:57,007 --> 00:02:58,597
+A player opens the video.
+
+49
+00:02:59,377 --> 00:03:02,287
+And you type rm movie.mp4.
+
+50
+00:03:02,737 --> 00:03:04,747
+It works. The video keeps playing.
+
+51
+00:03:07,277 --> 00:03:10,347
+So what did that program get,
+if not a hold on the file?
+
+52
+00:03:11,417 --> 00:03:13,487
+This is the whole idea of the video.
+
+53
+00:03:14,197 --> 00:03:15,707
+The name is not the file.
+
+54
+00:03:17,807 --> 00:03:19,417
+movie.mp4 is a line in a directory.
+
+55
+00:03:20,487 --> 00:03:23,617
+That line points at an object
+which holds the actual data.
+
+56
+00:03:24,807 --> 00:03:28,617
+When a program opens the file, what
+it gets is a reference to the object.
+
+57
+00:03:28,887 --> 00:03:30,657
+Not to the line.
+
+58
+00:03:31,597 --> 00:03:35,747
+So removing the file deletes the
+line. The object is untouched.
+
+59
+00:03:36,887 --> 00:03:39,337
+The manual page says it in one sentence.
+
+60
+00:03:40,287 --> 00:03:42,207
+The file will remain
+in existence until the
+
+61
+00:03:42,287 --> 00:03:45,017
+last file descriptor
+referring to it is closed.
+
+62
+00:03:48,007 --> 00:03:50,617
+Which sounds abstract
+until you watch it happen.
+
+63
+00:03:51,387 --> 00:03:53,267
+So I made a log file
+five hundred megabytes
+
+64
+00:03:53,347 --> 00:03:56,557
+long, and left one
+process holding it open.
+
+65
+00:03:57,757 --> 00:03:59,207
+Then I deleted it.
+
+66
+00:04:00,017 --> 00:04:02,387
+Listing the directory
+shows nothing at all.
+
+67
+00:04:03,037 --> 00:04:06,147
+The tool that measures the
+size of the folder says zero.
+
+68
+00:04:07,227 --> 00:04:09,287
+And the tool that measures
+free space on the disk
+
+69
+00:04:09,367 --> 00:04:11,837
+says five hundred megabytes
+are still missing.
+
+70
+00:04:13,217 --> 00:04:16,327
+An empty folder. Half a gigabyte gone.
+
+71
+00:04:19,197 --> 00:04:23,627
+This happens often enough that there is a
+command just for finding files like this.
+
+72
+00:04:24,237 --> 00:04:26,807
+Deleted, invisible, still on the disk.
+
+73
+00:04:27,937 --> 00:04:31,867
+And the space comes back the moment
+that one process lets go of the file.
+
+74
+00:04:34,607 --> 00:04:36,617
+The same logic covers renaming.
+
+75
+00:04:37,147 --> 00:04:40,677
+Move the file while it is open,
+and the program never notices.
+
+76
+00:04:41,927 --> 00:04:44,037
+The manual is blunt about that too.
+
+77
+00:04:45,127 --> 00:04:47,797
+Open file descriptors for
+the old path are unaffected.
+
+78
+00:04:49,037 --> 00:04:50,587
+It was never using the name.
+
+79
+00:04:52,767 --> 00:04:54,997
+Which has one limit worth knowing about.
+
+80
+00:04:55,487 --> 00:04:58,177
+You cannot overwrite a
+running program in place.
+
+81
+00:04:59,437 --> 00:05:01,847
+Linux refuses. Text file busy.
+
+82
+00:05:04,133 --> 00:05:07,503
+What you can do is detach the
+name and put a new file there.
+
+83
+00:05:08,543 --> 00:05:12,553
+The old process keeps running from
+an object that no longer has a name.
+
+84
+00:05:13,243 --> 00:05:15,773
+Anything started later gets the new one.
+
+85
+00:05:16,733 --> 00:05:19,443
+Which is the same idea
+again, proving itself.
+
+86
+00:05:20,353 --> 00:05:23,543
+You can replace many things without
+touching the object in place.
+
+87
+00:05:26,493 --> 00:05:29,783
+Which is why Linux can update
+a program while it is running.
+
+88
+00:05:30,513 --> 00:05:33,583
+You just do not get the new
+version until you restart it.
+
+89
+00:05:35,873 --> 00:05:38,043
+So is Windows simply the worse design?
+
+90
+00:05:39,203 --> 00:05:42,073
+No. And this is the part
+that hardly anyone knows.
+
+91
+00:05:43,623 --> 00:05:46,393
+Windows has a way to do
+exactly the same thing.
+
+92
+00:05:47,383 --> 00:05:51,013
+On NTFS, Windows can ask
+for a POSIX style delete.
+
+93
+00:05:52,243 --> 00:05:55,153
+Microsoft describes what
+happens when you use it.
+
+94
+00:05:55,803 --> 00:05:58,073
+The name is removed from
+the visible namespace.
+
+95
+00:05:59,483 --> 00:06:02,303
+And applications that already
+had the file open can still
+
+96
+00:06:02,383 --> 00:06:05,973
+use it, even though the name
+they used to open it is gone.
+
+97
+00:06:07,183 --> 00:06:08,853
+That is the Unix behaviour.
+
+98
+00:06:09,083 --> 00:06:10,183
+On NTFS.
+
+99
+00:06:10,263 --> 00:06:11,933
+Documented by Microsoft.
+
+100
+00:06:14,754 --> 00:06:16,804
+Both systems can do both things.
+
+101
+00:06:17,614 --> 00:06:19,064
+What differs is the default.
+
+102
+00:06:19,874 --> 00:06:22,884
+What you get when you open a
+file and never think about it.
+
+103
+00:06:23,804 --> 00:06:25,534
+On Windows, you get a contract.
+
+104
+00:06:26,044 --> 00:06:28,634
+On Unix, you get a reference to an object.
+
+105
+00:06:31,644 --> 00:06:33,774
+Which sounds like a
+question for programmers,
+
+106
+00:06:34,024 --> 00:06:36,274
+until you have seen
+this particular message.
+
+107
+00:06:37,434 --> 00:06:40,664
+Please restart your computer
+to finish installing updates.
+
+108
+00:06:43,244 --> 00:06:46,104
+Suppose Windows has to
+replace a library that a
+
+109
+00:06:46,184 --> 00:06:49,094
+running process holds open
+under the strict contract.
+
+110
+00:06:50,364 --> 00:06:52,954
+It cannot swap the file
+underneath that process.
+
+111
+00:06:53,544 --> 00:06:55,494
+So something has to let go.
+
+112
+00:06:56,504 --> 00:06:59,144
+Quit the application. Stop the service.
+
+113
+00:06:59,224 --> 00:07:01,994
+Or hand the whole job
+to the Restart Manager.
+
+114
+00:07:03,094 --> 00:07:04,604
+Which is a real component.
+
+115
+00:07:05,334 --> 00:07:07,064
+It shuts things down in order.
+
+116
+00:07:07,774 --> 00:07:10,404
+Windows applications,
+then console programs,
+
+117
+00:07:11,365 --> 00:07:13,955
+then services, and Windows Explorer last.
+
+118
+00:07:14,105 --> 00:07:16,335
+Then it starts them up again.
+
+119
+00:07:17,125 --> 00:07:19,285
+And it exists for one
+reason, which Microsoft
+
+120
+00:07:19,365 --> 00:07:21,815
+states plainly in its own documentation.
+
+121
+00:07:23,385 --> 00:07:25,245
+The primary reason that
+software installation
+
+122
+00:07:25,325 --> 00:07:27,915
+and updates require a system restart...
+
+123
+00:07:29,555 --> 00:07:31,735
+is that some of the
+files being updated are
+
+124
+00:07:31,815 --> 00:07:35,025
+currently in use by a running
+application or service.
+
+125
+00:07:38,295 --> 00:07:40,025
+It would be too neat to stop there.
+
+126
+00:07:40,635 --> 00:07:44,405
+Sharing rules are not the only
+reason a computer asks to restart.
+
+127
+00:07:45,505 --> 00:07:47,295
+A kernel update is different.
+
+128
+00:07:47,945 --> 00:07:50,335
+You cannot swap the
+kernel underneath itself.
+
+129
+00:07:51,415 --> 00:07:56,165
+Linux has that problem too, although live
+patching can sometimes avoid a reboot.
+
+130
+00:07:57,355 --> 00:08:00,565
+So the honest version claims
+less than the satisfying one.
+
+131
+00:08:03,265 --> 00:08:05,925
+The way Windows treats files
+in use made some components
+
+132
+00:08:06,005 --> 00:08:09,255
+harder to replace while
+running, and that contributed.
+
+133
+00:08:10,665 --> 00:08:13,435
+Because every design choice
+has a consequence somewhere.
+
+134
+00:08:16,075 --> 00:08:20,545
+Windows lets the program that opens a
+file decide how others may share it.
+
+135
+00:08:21,575 --> 00:08:23,935
+The cost is that sometimes
+you cannot delete your
+
+136
+00:08:24,015 --> 00:08:27,385
+own file, because another
+program has not allowed it.
+
+137
+00:08:28,345 --> 00:08:31,185
+Unix keeps the name and
+the object apart, so many
+
+138
+00:08:31,265 --> 00:08:33,795
+things can be replaced
+while the system is running.
+
+139
+00:08:34,985 --> 00:08:36,685
+The cost is half a gigabyte that vanished
+
+140
+00:08:36,765 --> 00:08:39,655
+from the disk and belongs
+to no file at all.
+
+141
+00:08:42,445 --> 00:08:44,855
+And look at how each
+of those gets resolved.
+
+142
+00:08:45,765 --> 00:08:49,535
+On Windows, one way out is closing
+the program that holds the file.
+
+143
+00:08:50,715 --> 00:08:53,615
+On Linux, one way to get
+that disk space back is
+
+144
+00:08:53,695 --> 00:08:56,265
+restarting the service
+that still has it open.
+
+145
+00:08:57,505 --> 00:09:00,135
+Different causes.
+Sometimes, the same remedy.
+
+146
+00:09:03,265 --> 00:09:04,845
+By the way, if you'd like to see where the
+
+147
+00:09:04,925 --> 00:09:07,675
+next question takes us,
+consider subscribing.
+
+148
+00:09:08,525 --> 00:09:09,995
+It really helps the channel.
+
+149
+00:09:11,385 --> 00:09:13,235
+So. The question from the start.
+
+150
+00:09:14,105 --> 00:09:15,795
+What does it mean to open a file?
+
+151
+00:09:16,595 --> 00:09:18,385
+It means you are holding something.
+
+152
+00:09:19,055 --> 00:09:21,885
+The two systems simply hand
+you different things to hold.
+
+153
+00:09:22,985 --> 00:09:27,075
+Which is why that message never actually
+said this file cannot be deleted.
+
+154
+00:09:28,355 --> 00:09:31,465
+It said the program that opened
+it did not agree to let you.
+
+155
+00:09:32,465 --> 00:09:34,155
+And it does know which program.
+
+156
+00:09:34,765 --> 00:09:36,255
+It just did not mention it.

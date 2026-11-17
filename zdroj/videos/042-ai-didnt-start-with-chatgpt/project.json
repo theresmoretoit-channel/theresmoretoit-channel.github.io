@@ -1,0 +1,119 @@
+{
+  "title": "How Old Is AI, Really?",
+  "slug": "042-ai-didnt-start-with-chatgpt",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly documentary illustration, muted desaturated palette of warm paper grey, deep ink blue-black and pale bone white, one restrained muted amber accent and nothing more, flat even indoor light, no sun, no shadows, visible brush and ink texture, subtle film grain, restrained detail, quiet laboratory and office interior, ordinary human scale, cinematic composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, logo, watermark, signature, user interface, chart, graph, photorealistic, photograph, glossy render, 3d render, humanoid robot, android, robot face, metal skull, glowing brain, brain made of circuits, circuit board pattern, neural network diagram, node and edge graph, holographic display, floating hologram, blue neon glow, cyberpunk, sci-fi, futuristic, matrix code rain, binary digits, glowing eyes, dramatic lighting, lens flare, neon rim light, dawn, dusk, golden hour, sunlight, sunlit, warm daylight, sunset, oversaturated, neon, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs, duplicate face"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 604,
+    "music_sections": [
+      [
+        "S01",
+        "S03"
+      ],
+      [
+        "S16",
+        "S20"
+      ],
+      [
+        "S26",
+        "S31"
+      ],
+      [
+        "S36",
+        "S40"
+      ],
+      [
+        "S50",
+        "S52"
+      ],
+      [
+        "S58",
+        "S60"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "archive_grade": {
+    "levels": "6%,94%",
+    "saturation": 55,
+    "tint": "#c98f4e",
+    "tint_amount": 20,
+    "contrast": "-6x-10",
+    "vignette": true,
+    "vignette_edge": "#a8a8a8"
+  },
+  "pronounce": {
+    "1943": "nineteen forty-three",
+    "1950": "nineteen fifty",
+    "1956": "nineteen fifty-six",
+    "1966": "nineteen sixty-six",
+    "1990s": "nineteen nineties",
+    "1997": "nineteen ninety-seven",
+    "2012": "twenty twelve",
+    "2017": "twenty seventeen",
+    "2022": "twenty twenty-two"
+  }
+}

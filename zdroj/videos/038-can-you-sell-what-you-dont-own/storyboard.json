@@ -1,0 +1,607 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY. Barel na pevných souřadnicích BAREL_XY, ze kterých se do konce videa nehne — na tom stojí výplata v S56 a S64. Klíč scény je, že mluvčí barel NEMÁ: šipka vychází z prázdného místa, ne z barelu. Kresba tím tvrdí totéž co věta, ne o nic víc.",
+      "diagram_generator": "uvod",
+      "diagram": "dvě postavy, mezi nimi BAREL na souřadnicích BAREL_XY, ambrová šipka od mluvčího ke kupci; nad mluvčím prázdné místo tam, kde barel NENÍ"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Obrácené pořadí musí být vidět jako obrácené, ne jen popsané. Osa běží doprava, ale ambrová „prodám\" sedí VLEVO a „koupím\" VPRAVO, takže divák čte protisměr dřív, než to Emma dořekne.",
+      "diagram_generator": "uvod",
+      "diagram": "časová osa: DNES prodám (ambrová dolů) — POZDĚJI koupím zpět (ambrová nahoru); pořadí je vizuálně obrácené proti zvyklosti"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Beat 1,4 s, tedy titulková deska. Barel drží pozici z S01 — první z devíti callbacků páteře. Za scénou je pauza: konec prvního bloku.",
+      "diagram_generator": "uvod",
+      "diagram": "nadpis SHORT SELLING, pod ním barel z S01 s šipkou vracející se zpět",
+      "pause": 2.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Referenční obraz, proti kterému se S05 obrací. ZÁMĚRNĚ nudný a bez výhrad — celá pointa je, že tohle divák zná.",
+      "diagram_generator": "uvod",
+      "diagram": "obyčejný obchod: krabice, koupě za 10, prodej za 20, ambrový zisk +10"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "NENÍ to nový obrázek, je to S04 převrácený. Kdyby se překreslilo celé rozvržení, zanikne to jediné, co scéna tvrdí — že se změnilo POŘADÍ, ne obchod. Táž konvence jako u S02/S03 v 037.",
+      "diagram_generator": "uvod",
+      "diagram": "týž obraz jako S04, ale kroky prohozené: SELL FIRST nahoře, BUY LATER dole; šipka času beze změny"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Šipka dolů je PŘEDPOVĚĎ, ne fakt — proto čárkovaně. Plná čára by tvrdila, že cena opravdu klesne, což scéna neříká: říká „I think the price is going to fall\". Konvence plná/čárkovaná nese míru jistoty.",
+      "diagram_generator": "mechanika",
+      "diagram": "barel na BAREL_XY s cenovkou 80 DOLLARS, ambrová šipka dolů, čárkovaná předpověď poklesu"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Opraveno v 0.2 podle zpětné vazby: NIKDE se nesmí objevit půjčka, výpůjčka ani vracení. U futures se nic nepůjčuje a kresba to nesmí tvrdit ani obrázkem (žádná šipka „od někoho\" a zpět).",
+      "diagram_generator": "mechanika",
+      "diagram": "tři kroky pod sebou na téže ose: SELL 80 -> price falls to 60 -> BUY BACK 60"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Ambrová je tady „o tomhle je řeč\", ne „tohle je dobré\" — o dvě scény dál se týmž sloupcem ukáže ztráta. Kdyby ambrová znamenala zisk, S10 se bude číst obráceně.",
+      "diagram_generator": "mechanika",
+      "diagram": "rozdíl obou cen jako ambrový sloupec +20, pod ním drobně AT LEAST IN THEORY",
+      "pause": 2.2
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Vědomě totožné rozvržení jako S07. Divák má poznat, že se mění JEDINÁ věc — směr ceny.",
+      "diagram_generator": "mechanika",
+      "diagram": "táž osa jako S07, ale cena stoupá k 100; ambrová šipka nahoru"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Callback na S08 a důvod, proč tam ambrová nesmí znamenat „dobré\". Sloupec MUSÍ mít stejnou šířku a x jako v S08.",
+      "diagram_generator": "mechanika",
+      "diagram": "týž sloupec jako v S08, ale obrácený dolů: -20"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Poslední sloupec je ZÁMĚRNĚ otazník, ne číslo. Scénář hodnotu neuvádí („you get the idea\"), takže kdyby ji obraz dopočítal, tvrdí víc než voiceover. Hlídá assert v generátoru.",
+      "diagram_generator": "mechanika",
+      "diagram": "tři sloupce vedle sebe: 100 -> -20, 200 -> -120, 500 -> otazník",
+      "pause": 1.2
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "KLÍČOVÝ DIAGRAM PRVNÍ TŘETINY. Data musí být v obraze od prvního snímku — prázdné osy divák čte jako rozbitý graf, ne jako napětí (výtka od diváka u videa o hudbě). Podlaha u LONG je plná čára (doložená mez), strop u SHORT chybí úplně a osa pokračuje za okraj rámu.",
+      "diagram_generator": "ztrata",
+      "diagram": "dvě svislé osy vedle sebe: LONG s podlahou v nule, SHORT bez stropu; obě od ceny 80"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Beat téhož obrazu, ne nový obrázek. Jediná změna je, že se osa protáhne za okraj — to je celá věta scény.",
+      "diagram_generator": "ztrata",
+      "diagram": "táž dvojice os, SHORT strana pokračuje šipkou mimo rám"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "ASSERT: oba sloupce ztráty MUSÍ být stejně vysoké, protože obě ztráty jsou 80. To je celá pointa — vlevo k tomu bylo potřeba, aby cena spadla na nulu, vpravo stačilo zdvojnásobení. Kdyby se výšky lišily, obraz tvrdí opak scénáře.",
+      "diagram_generator": "ztrata",
+      "diagram": "symetrická dvojice: koupě 80 -> 0 = ztráta 80 vlevo, short 80 -> 160 = ztráta 80 vpravo; obě ztráty stejně vysoké"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Levý sloupec se NESMÍ pohnout — jeho nehybnost je argument. Souřadnice se proto berou z téže funkce jako v S14.",
+      "diagram_generator": "ztrata",
+      "diagram": "pravý sloupec vyroste na -720, levý zůstává; popisky UPSIDE LIMITED / DOWNSIDE ISN'T"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Beat 1,7 s a konec bloku. Nejdelší pauza první poloviny, protože scénář tu obrací celý úhel: od „jak se to dělá\" k „proč to někdo dělá\".",
+      "diagram_generator": "ztrata",
+      "diagram": "klidná deska s jedinou otázkou SO WHY WOULD ANYONE DO THIS?",
+      "pause": 2.8
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Obě větve stejně silné a stejně barevné. Kdyby jedna byla ambrová a druhá ztlumená, obraz tvrdí „tahle vyhrála\" — a scéna říká pravý opak, totiž že jsou to dva legitimní důvody.",
+      "diagram_generator": "zajisteni",
+      "diagram": "dvě cesty od téhož bodu: VYDĚLAT (ambrová) a ZBAVIT SE RIZIKA (ambrová), rovnocenné"
+    },
+    {
+      "id": "S18",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S18.png",
+      "note": "ARCHIV. PRVNÍ POKUS ZAMÍTNUT PODLE FUNKCE, ne podle shody s dotazem: „aircraft refuelling\" vrátilo VOJENSKÉ tankování za letu (tanker a stíhačky), jenže scéna říká „imagine you are an airline\" — divák by viděl armádu, ne aerolinku. Pick 3 je dopravní Boeing 757 s palivovou cisternou, tedy palivo jako provozní náklad.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "aircraft fuel truck airport",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Kresba musí ukázat, že se to VYROVNÁ, ne že aerolinka vydělá. Nejjednodušší je plochý součtový pruh pod oběma miskami. Bez něj scéna tvrdí, že hedging je způsob, jak zbohatnout.",
+      "diagram_generator": "zajisteni",
+      "diagram": "dvě váhy: cena ropy nahoru -> palivo dražší (dolů) A pozice vydělává (nahoru), součet plochý"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Interval versus čára je celý obsah scény. Interval se kreslí jako pás, ne jako chybové úsečky — ty už by tvrdily měření.",
+      "diagram_generator": "zajisteni",
+      "diagram": "nejistá cena (rozmazaný interval) se mění v předvídatelnou (jedna čára); vedle druhá strana kontraktu"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Stejná velikost a stejná barva u všech tří. Velikost i pořadí samy nesou důležitost, a scénář žádnou z nich nepovyšuje.",
+      "diagram_generator": "zajisteni",
+      "diagram": "tři protistrany v řadě: SPEKULANT, FIRMA S OPAČNÝM RIZIKEM, MARKET MAKER; všechny stejně velké"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Bubliny se musí LIŠIT obsahem (šipka nahoru vs dolů), protože věta zní „they don't have to believe the exact same thing\". Kdyby byly stejné, obraz tvrdí opak. Ocásek bubliny je otevřený trojúhelník, ne uzavřený — zapsaná vada z _kit.",
+      "diagram_generator": "zajisteni",
+      "diagram": "dvě postavy s odlišnými myšlenkovými bublinami, mezi nimi JEDEN společný kontrakt",
+      "pause": 2.4
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "PRVNÍ PROMĚNA PÁTEŘE a jádro celého videa. Barel drží souřadnice z S01 — bez toho se přeměna nepozná a scéna vypadá jen jako „obrázek papíru\". Papír je uvnitř obrysu barelu, ne vedle něj.",
+      "diagram_generator": "kontrakt",
+      "diagram": "PÁTEŘ: barel na BAREL_XY bledne do obrysu a na jeho místě se objevuje list papíru"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Řádky jsou konkrétní, ale hodnoty zástupné (tečky), protože scénář říká „a certain date, a certain amount\". Kdyby tam bylo skutečné datum a množství, obraz tvrdí konkrétní kontrakt, který nikdo nedoložil.",
+      "diagram_generator": "kontrakt",
+      "diagram": "kontrakt jako formulář se třemi vyplněnými řádky: DATE / AMOUNT / DELIVER + ACCEPT"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "ASSERT na poměr: nejvýš pár procent smí končit dodáním (doloženo 1-3 %, factcheck D2). A NEKRESLIT CISTERNU jako fakt — „truck full of oil\" je ve scénáři obraz, ne popis; WTI se předává v potrubním uzlu.",
+      "diagram_generator": "kontrakt",
+      "diagram": "sto malých kontraktů, z nichž jen dva vedou k dodání; zbytek se uzavře"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Svislice expirace je tvrdá čára, protože datum je dané. Pozice je ambrová, protože o ní je řeč.",
+      "diagram_generator": "kontrakt",
+      "diagram": "jedna pozice se otevře a zase zavře před svislicí EXPIRY"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Nehybnost barelu je argument: „no barrel needs to travel anywhere\". Proto se v téhle scéně nesmí použít žádný pohyb ani zoom — a proto je barel pořád na týchž souřadnicích jako v S01.",
+      "diagram_generator": "kontrakt",
+      "diagram": "barel na BAREL_XY se ANI NEHNE, zatímco nad ním putuje jen ambrový rozdíl ceny",
+      "pause": 2.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Beat 3,8 s, otázka a hned odpověď („Not necessarily.\"). Obrys je týž tvar jako v S23, jen bez papíru — divák má poznat, že ubyl obsah, ne že přišel jiný obrázek.",
+      "diagram_generator": "kontrakt",
+      "diagram": "PÁTEŘ: prázdný obrys barelu s velkým otazníkem uvnitř",
+      "pause": 1.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Ropa je čárkovaně, protože ještě neexistuje. Plná čára by tvrdila, že někde leží.",
+      "diagram_generator": "kontrakt",
+      "diagram": "časová osa: kontrakt DNES, ropa teprve VZNIKNE později (čárkovaně)"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Barel se nesmí ztratit ani přeškrtnout — scéna říká „may never enter the transaction\", ne „neexistuje\". Rozdíl mezi „nevstoupí do obchodu\" a „není\" je celý rozdíl mezi touhle scénou a konspirací.",
+      "diagram_generator": "kontrakt",
+      "diagram": "všechny pozice se zavřou před svislicí DELIVERY; barel za svislicí zůstává nedotčený"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "DRUHÁ PROMĚNA PÁTEŘE. Řetěz je barrel -> contract -> promise a tady je jeho prostřední bod. Štítek ceny musí zůstat, protože scénář zdůrazňuje „that has a price\".",
+      "diagram_generator": "kontrakt",
+      "diagram": "PÁTEŘ: obrys barelu se mění v jednoduchý tvar SLIBU se štítkem ceny, popisek A STANDARDISED PROMISE",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S32.png",
+      "note": "SDXL, ne diagram: je to NÁLADA přechodu zpátky k fyzickému světu, ne tvrzení. Po sedmi minutách abstrakce má divák vidět, že ta věc opravdu existuje. Prompt záměrně žádá počasí, ne denní dobu — dawn/dusk dá u SDXL vždycky zlaté světlo proti kotvě stylu.",
+      "prompt": "wide calm view of a quiet industrial coastline with plain storage tanks and a jetty, seen from a distance, flat grey overcast sky, no sun, no text"
+    },
+    {
+      "id": "S33",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "ARCHIV: rafinerie je vyfotitelná a má vlastní jméno. Dotaz prověřen přes --search. Pick čeká na kontaktní list.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "oil refinery"
+      }
+    },
+    {
+      "id": "S34",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S34.png",
+      "note": "ARCHIV: tanker je přesně to, na co je Commons silný. Dotaz prověřen přes --search. Pick čeká na kontaktní list.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "crude oil tanker"
+      }
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Mezera je ambrová, protože o ní je řeč. Obě ceny jsou plnou čarou — obojí je skutečné.",
+      "diagram_generator": "kotva",
+      "diagram": "dvě ceny na jedné ose: FUTURES a PHYSICAL, mezi nimi ambrová mezera"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "ŠIPKY MUSÍ MÍŘIT SPRÁVNĚ: od obchodníka k LEVNÉ ceně (nákup) a od DRAHÉ pryč (prodej). Scéna, ve které něco míří na někoho, je podle CLAUDE.md přesně ta, kde se plete cíl s podmětem.",
+      "diagram_generator": "kotva",
+      "diagram": "dvě šipky: kup levné, prodej drahé; mezera se uzavírá; popisek ARBITRAGE"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Slovo USUALLY je celý smysl scény a musí být v obraze, ne jen ve zvuku — je to jediné varování před dubnem 2020. Sází se drobně a ztlumeně, protože je to výhrada, ne nadpis.",
+      "diagram_generator": "kotva",
+      "diagram": "kotva držící cenu u dna, pod ní drobně USUALLY",
+      "pause": 2.8
+    },
+    {
+      "id": "S38",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S38.png",
+      "note": "SDXL jako předěl před nejsilnější částí videa. Prázdnota a opakování nesou to, co scéna říká: fyzický svět narazil na svůj strop. Konkrétní Cushing sem NEPATŘÍ — to je archivní úloha a přijde v S41.",
+      "prompt": "a vast plain covered with identical plain cylindrical storage tanks stretching to the horizon, no people, flat grey overcast sky, no sun, no text"
+    },
+    {
+      "id": "S39",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "ARCHIV: konkrétní historická událost s datem, tedy úloha pro archiv, ne pro SDXL. Dotaz prověřen přes --search a vrací přímo snímky z jara 2020. Pick čeká na kontaktní list.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "empty motorway lockdown"
+      }
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Přebytek musí být plocha mezi křivkami, ne třetí čára — plocha je to, co „nemá kam\".",
+      "diagram_generator": "duben",
+      "diagram": "dva pruhy: PRODUKCE plochá, POPTÁVKA padá; mezi nimi rostoucí ambrový přebytek"
+    },
+    {
+      "id": "S41",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "ARCHIV. DVA ZAMÍTNUTÉ POKUSY. „Cushing Oklahoma oil storage\" vrací na Commons jen GRAFY zásob od EIA, ne fotky nádrží. „oil storage tank farm aerial\" dalo snímek z takové výšky, že nádrže jsou drobné tečky mezi poli — scéna potřebuje, aby byly nádrže VIDĚT a působily plně. Cushing jmenuje voiceover, obraz nese obecná nádržová farma. Ořez posunut nahoru (grade.crop_y 0,22), protože dolní polovinu snímku zabírá plot a silnice — scéna potřebuje, aby dominovaly nádrže.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "oil storage tanks",
+        "pick": 0,
+        "grade": {
+          "crop_y": 0.22
+        }
+      }
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "KLÍČOVÝ DIAGRAM VIDEA. Nula MUSÍ být v obraze od začátku a ne na dolním okraji — jinak pád pod ni není vidět. Data od prvního snímku, žádný nájezd na prázdné osy. Konkrétní hodnota -37,63 ve scénáři NEZAZNÍ, takže ji obraz nesmí tvrdit jako popisek; osa smí být bez čísel.",
+      "diagram_generator": "duben",
+      "diagram": "cenová osa s nulou uprostřed, křivka protíná nulu a padá pod ni; popisek BELOW ZERO",
+      "pause": 3.0
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Celá zvláštnost je v tom, že peníze i kontrakt jdou TÝMŽ směrem. Kdyby šly proti sobě, je to obyčejný obchod a scéna nic netvrdí.",
+      "diagram_generator": "duben",
+      "diagram": "dvě postavy, ambrová platba putuje SPOLU s kontraktem stejným směrem"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Táž svislice a totéž rozvržení jako v S26 a S30 — potřetí, takže se to musí kreslit jednou funkcí, ne třikrát ručně.",
+      "diagram_generator": "duben",
+      "diagram": "kalendářní osa, pozice drží až za svislici DELIVERY"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Sklad musí být viditelně PLNÝ už v okamžiku, kdy barely přijíždějí. Prázdný sklad by tvrdil, že problém je jinde.",
+      "diagram_generator": "duben",
+      "diagram": "tisíc barelů dorazí k postavě, která nemá kam je dát; sklad je plný"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Obrácení otázky je pointa celého bloku, takže se sází jako dvojice pod sebou se shodným rozvržením — rozdíl má být v jediném prohozeném slově, ne v jiné grafice.",
+      "diagram_generator": "duben",
+      "diagram": "dvě otázky pod sebou, druhá ambrová: HOW MUCH WILL YOU PAY ME / HOW MUCH WILL I PAY YOU",
+      "pause": 2.6
+    },
+    {
+      "id": "S47",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S47.png",
+      "note": "SDXL: prázdný sklad je nálada, ne tvrzení. Je to zároveň vizuální most k S53 a k závěru — video se od téhle chvíle odpoutává od věcí. Prázdnota je součást kotvy stylu, ne chyba promptu.",
+      "prompt": "a large empty warehouse interior with nothing stored in it, plain concrete floor and high windows, cold flat daylight, grey overcast, no sun, no people, no text"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Barel se ztrácí, ale NEMIZÍ úplně — v S56 a S64 se ještě vrátí. Ztlumit na DIM, ne smazat.",
+      "diagram_generator": "abstrakce",
+      "diagram": "kontrakt zůstává, barel pod ním se ztrácí; popisek YOU DON'T NECESSARILY NEED OIL"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "TŘETÍ PROMĚNA PÁTEŘE: tvar zůstává, obsah se mění. Přesně šest položek, protože scénář jich jmenuje šest — assert. Poslední (počasí) je ambrová, protože je to pointa výčtu.",
+      "diagram_generator": "abstrakce",
+      "diagram": "PÁTEŘ: šest obrysů barelu, v každém jiný obsah — úroky, měny, indexy, inflace, kredit, počasí"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Sedmý tvar musí sedět do téže mřížky jako šest předchozích, jinak se nečte jako pokračování řady.",
+      "diagram_generator": "abstrakce",
+      "diagram": "sedmý obrys, uvnitř místo věci procentní podíl; popisek PROBABILITY",
+      "pause": 2.4
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Otázka je ZÁMĚRNĚ obecná („candidate X\"), stejně jako ve scénáři. Žádné skutečné jméno, žádná skutečná volba — jinak video zestárne za rok a navíc by tvrdilo něco, co nikdo nedoložil.",
+      "diagram_generator": "pravdepodobnost",
+      "diagram": "binární kontrakt: YES -> 1 dolar, NO -> 0 dolarů"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "ASSERT: poloha značky se počítá z hodnoty 0,70, nekreslí se od oka. Je to scéna, která kreslí data.",
+      "diagram_generator": "pravdepodobnost",
+      "diagram": "cenová osa 0 az 1 dolar, značka na 0,70, pod ní 70 %"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Táž osa jako S52, tedy jedna funkce s přepínačem. Šipky míří OD obchodníka k ceně, ne naopak.",
+      "diagram_generator": "pravdepodobnost",
+      "diagram": "táž osa, dvě šipky: kup pod svým odhadem, prodej nad ním"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Škrtá se VODOROVNOU čarou přes nápis, ne křížkem — pod křížkem se nápis nepřečte a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic. Na text i se škrtem je text_skrtnuty(), ne skrt_text().",
+      "diagram_generator": "pravdepodobnost",
+      "diagram": "tři přeškrtnuté položky (ropa, zlato, firma) a čtvrtá ambrová: BELIEF ABOUT THE FUTURE"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Jméno Polymarket je ve scénáři, ale do obrazu nepatří jako logo — SDXL ani diagram nemá kreslit značky. Stačí obecná obrazovka trhu; jméno nese voiceover.",
+      "diagram_generator": "pravdepodobnost",
+      "diagram": "obrazovka trhu s několika otázkami a jejich procenty; popisek PREDICTION MARKET"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "VÝPLATA PÁTEŘE, kvůli které barel od S01 nesmí uhnout ani o pixel. Pět stavů odpovídá pěti větám scénáře — assert na počet. První barel je plný a shodný s S01, poslední je jen obrys. Kdyby se souřadnice mezi scénami posunuly, divák uvidí pět hezkých obrázků a callback nepozná — a každá scéna zvlášť bude přitom vypadat dobře.",
+      "diagram_generator": "pravdepodobnost",
+      "diagram": "VÝPLATA: pět barelů v řadě na BAREL_XY, každý prázdnější — věci, kontrakty, kontrakty na neexistující, riziko, pravděpodobnosti",
+      "pause": 3.0
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Rozvržení se vrací k S01, ale barel je už jen obrys. Rám a poloha nadpisu musí sedět s S01, jinak se návrat nepozná.",
+      "diagram_generator": "zaver",
+      "diagram": "původní otázka z S01 se vrací jako nadpis, pod ní barel v obrysu"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Čtyři položky, protože scénář jmenuje čtyři — assert. Poslední („a bet\") je ztlumená, protože scénář ji uvozuje „sometimes just\".",
+      "diagram_generator": "zaver",
+      "diagram": "kontrakt se čtyřmi popisky: OBLIGATION / FUTURE TRANSACTION / RISK / A BET"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Objekt se škrtá, trh ne. Kdyby se škrtl celý obraz, scéna tvrdí „trhy nejsou skutečné\" — což video neříká.",
+      "diagram_generator": "zaver",
+      "diagram": "přeškrtnutý fyzický objekt uprostřed, kolem něj trh běží dál"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Poslední nosník je ambrový, protože scénář říká „and most importantly\". ZÁVĚREČNÁ OBRAZOVKA: od téhle scény dál musí zůstat volná HORNÍ polovina rámu — dole sedí titulek a YouTube tam dlaždici ani kolečko nepoloží.",
+      "diagram_generator": "zaver",
+      "diagram": "čtyři nosníky pod deskou trhu: RULES / COUNTERPARTIES / SETTLEMENT / BELIEF; poslední ambrový",
+      "pause": 2.4
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA. Kresba patří do dolních dvou třetin, horní polovina zůstává prázdná, aby se tam vešla dlaždice dalšího videa (0,33 šířky) i kolečko odběru (0,16 šířky). Ověřit zaver_check.py, ne okem.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ: prázdný obrys barelu na BAREL_XY, kolem něj odloupnuté vrstvy (sklady, certifikáty, bankovky), nahoře volno",
+      "pause": 3.0
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA — horní polovina volná. Čtyři položky podle scénáře, assert.",
+      "diagram_generator": "zaver",
+      "diagram": "čtyři slova pod sebou v dolní polovině: EXPECTATIONS / RISK / PROMISES / BELIEFS"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA — horní polovina volná. Výhrada se sází drobně a ztlumeně, stejně jako USUALLY v S37; je to týž rytmus podruhé a schválně.",
+      "diagram_generator": "zaver",
+      "diagram": "stroj z S62 běží, pod ním drobně MOST OF THE TIME"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "POSLEDNÍ VÝPLATA PÁTEŘE a poslední scéna videa. Barel nesmí zmizet úplně — věta zní „was never really the interesting part\", ne „neexistoval\". Zůstává nejtlumenější stopou v obraze. ZÁVĚREČNÁ OBRAZOVKA: horní polovina volná, delší doznění, static.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ NAPOSLED: barel na BAREL_XY bledne skoro do neviditelna, kolem něj zůstává síť vazeb"
+    }
+  ]
+}

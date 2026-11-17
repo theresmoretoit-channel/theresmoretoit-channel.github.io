@@ -1,0 +1,967 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Otvírák. Počet teček se POČÍTÁ a hlídá assertem — obraz nesmí tvrdit jiné číslo než „a few hundred billion“. Jedna ambrová = Proxima, a je to jediné, co v obraze svítí.",
+      "diagram_generator": "uvod",
+      "diagram": "Pole slabých teček přes celé plátno, jedna ambrová a kroužkovaná."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "PÁTEŘ: tady se dráha zavádí a od téhle chvíle leží na týchž souřadnicích až do S102. Nikdy se nekreslí ručně, vždycky funkcí draha() z _kit.py.",
+      "diagram_generator": "uvod",
+      "diagram": "ZAVEDENÍ PÁTEŘE: vodorovná dráha Slunce → Proxima na DRAHA_Y, popiska 4.24 LIGHT-YEARS."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "PÁTEŘ: dráha se NEHNE ani o pixel, přibude jen popisek. Kdyby se zkrátila „jak to působí“, zmizel by celý smysl páteře.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž dráha, u ní ambrový popisek SOUNDS CLOSE s otazníkem.",
+      "naveti": "It is the closest star to the Sun."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "První časový údaj na dráze. Ztlumeně, protože přesné číslo přijde až v S16.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad dráhou ztlumený pás TENS OF THOUSANDS OF YEARS."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Beat. Jediné slovo, aby pauza před obratem měla na čem stát.",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdná deska s nápisem BUT."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "PÁTEŘ: šipka MÍŘÍ VEN, ne k Proximě — scénář po fact checku říká „send a spacecraft out of the Solar System and put it on a course“, ne „postavit mezihvězdnou sondu“. Kresba to musí držet stejně opatrně jako text.",
+      "diagram_generator": "uvod",
+      "diagram": "Dráha, od Slunce vychází ambrová šipka ven ze soustavy."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Ambrová je na ALREADY FLYING, protože to je jediná položka, která není schopnost, nýbrž fakt (Voyager 1 od 2012 v mezihvězdném prostoru).",
+      "diagram_generator": "uvod",
+      "diagram": "Čtyři štítky pod sebou: ROCKETS, COMPUTERS, NAVIGATION, ALREADY FLYING. Poslední ambrový."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Ústřední otázka v 0:41, tedy před druhou brankou trychtýře.",
+      "diagram_generator": "uvod",
+      "diagram": "Otázka přes celé plátno: CAN WE ACTUALLY DO IT? pod ní dráha."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Dílčí odpověď hned. NAVETI POVINNĚ: „Well... sort of.“ je doslova případ z videa 015 („wellssnou“), měřeno na třinácti zápisech interpunkce.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž otázka, pod ní ambrové SORT OF a napůl vyplněný rámeček.",
+      "naveti": "That is the question everyone asks."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Konec úvodního bloku. Atmosféra, ne informace — jediná scéna do 1:00, která nic netvrdí. PŘEKRESLENO JAKO DIAGRAM 2026-09-09 po TŘECH neúspěšných kolech SDXL: s malířskou kotvou vyšla pokaždé osamělá postava v krajině, bez ní produktová fotka na šedém pozadí — a ta by navíc překlopila prohlášení o AI. Viz notes.md.",
+      "pause": 2.0,
+      "diagram_generator": "uvod",
+      "diagram": "Řada bezejmenných úkolů nad ztlumenou dráhou, poslední tři blednou."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Otevírá pomalou větev.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Nadpis DISTANCE nad dráhou."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "PÁTEŘ: první tvrdé číslo videa, v 0:58 — tedy uvnitř druhé branky trychtýře (0:50–1:10). Kilometry se sázejí jako číslice, protože se ČTOU z obrazu; hlas je říká slovy.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Dráha s dvojí popiskou: 4.24 LIGHT-YEARS a 40 000 000 000 000 KM."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Assert: poloha značky = 17/299792, tedy 0,0057 % škály. Musí být prakticky neviditelná — to je celé tvrzení scény.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Vodorovná škála 0 az rychlost světla, na ní ambrová značka naší nejrychlejší sondy."
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S14.png",
+      "note": "Konkrétní objekt s vlastním jménem → archiv, ne SDXL (CLAUDE.md: „sonda u Jupiteru dala létající talíř“). VYBRÁNO Z KONTAKTNÍHO LISTU z osmi kandidátů: ostatní jsou buď diagramy s vypálenými popisky (bojovaly by s naší textovou vrstvou), nebo mají jen 800×600. Dotaz je NASA ID, ne slova — vrací přesně jeden výsledek, takže pick nemůže odplavat (CLAUDE.md: „pořadí výsledků se mění i mezi dvěma voláními“). 8192×4610, tedy nativní 16:9 → grade nepotřebuje fit ani crop.",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA17462",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "BEZ NAVETI schválně: scéna má dvě věty („That sounds fast. It's not.“) a scene_s_navetim() nevkládá sentence_pause, takže by se slily. Riziko krátké promluvy je tu menší než ztráta beatu.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Táž škála, popisek SEVENTEEN KILOMETRES PER SECOND u té neviditelné značky."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "PÁTEŘ: číslo z fact checku: 4,017e13 km / 17 km/s = 74 886 let.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Dráha, přes ni velké SEVENTY-FIVE THOUSAND YEARS."
+    },
+    {
+      "id": "S17",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S17.png",
+      "note": "Měřítko pro 75 000 let. VYBRÁNO Z KONTAKTNÍHO LISTU ze čtrnácti kandidátů. Barevné snímky mají lešení (čte se jako „ve výstavbě“, tedy proti smyslu scény), turisty nebo velbloudy. Tenhle je černobílý, bez lešení a bez textu v obraze, a je z něj vidět i kolonáda — čitelné jako „staré“ samotným médiem. 11399×8467, **CC0** (Museo Egizio, Turín), tedy jediný kandidát BEZ povinné atribuce. crop_y 0.42, aby při ořezu na 16:9 zůstal vrchol pyramidy i kolonáda.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Saqqara Pyramid of Djoser Museo Egizio",
+        "pick": 0,
+        "grade": {
+          "crop_y": 0.42
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Přesun od vzdálenosti k přežití. Otazník je UVNITŘ stroje, ne u cíle — nejde o to, jestli doletí, ale jestli bude fungovat.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Dráha, na jejím konci rámeček stroje s otazníkem uvnitř."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Pivot celého videa. Pauza tady odděluje „jak daleko“ od „jak dlouho“.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Prázdná deska: A COMPLETELY DIFFERENT PROBLEM.",
+      "pause": 2.2
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Přechod k všednosti, ať měřítko 75 000 let dostane lidský protějšek.",
+      "diagram_generator": "preziti",
+      "diagram": "Dva předměty vedle sebe: telefon a auto, ztlumeně."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Rok se sází číslicí, hlas ho říká slovy.",
+      "diagram_generator": "preziti",
+      "diagram": "Nad nimi otázka WORKING PERFECTLY IN THE YEAR 10 000?"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "NAVETI: „Probably none.“ je tvarem přesně „Probably not.“ z videa 026, kde obětovaná věta selhala a zabralo teprve návětí. Škrtá se text_skrtnuty(), ne skrt_text() — ten kreslí jen čáru. NÁVĚTÍ VYMĚNĚNO po prvním TTS: „Think about that for a moment.“ nechalo před slovem „probably“ jen 70 ms ticha (práh je 80), takže se návětí neuřízlo a whisper slyšel „are probably non sus“. Nové návětí končí VÝPUSTKOU a dá 250 ms — souhlasí to s měřením z videa 015, že „...“ dělá delší mezeru než tečka.",
+      "diagram_generator": "preziti",
+      "diagram": "Oba předměty přeškrtnuté, nápis PROBABLY NONE.",
+      "naveti": "Here is the honest answer..."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "PÁTEŘ: deset tisíc je 13 % dráhy, sedmdesát pět tisíc je celá. Poměr se počítá, ne kreslí.",
+      "diagram_generator": "preziti",
+      "diagram": "Dráha, na ní dvě značky: TEN THOUSAND a SEVENTY-FIVE THOUSAND."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "PÁTEŘ: NEJDŮLEŽITĚJŠÍ SCÉNA VIDEA. Šířka úseku se POČÍTÁ jako 49/74886 délky dráhy, tedy ~1,3 px na 2560 — assert to hlídá. Že je neviditelný, JE to tvrzení. Kdyby se nakreslil „aby byl vidět“, scéna by tvrdila opak.",
+      "diagram_generator": "preziti",
+      "diagram": "VÝPLATA PÁTEŘE: na dráze 75 000 let ambrový úsek 49 let, popisek EVERYTHING WE HAVE EVER KEPT RUNNING."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Assert: přesně 7 z 10. Fact check: NASA vypnula Voyageru 1 poslední přístroj 17. 4. 2026, sedm z deseti sad je pryč, sondy ztrácejí ~4 W ročně.",
+      "diagram_generator": "preziti",
+      "diagram": "Deset rámečků přístrojů, sedm přeškrtnutých vodorovnou čarou."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Ambrová na „a tisíce dalších“, protože právě to je tvrzení scény — ne ty dvě jmenované položky.",
+      "diagram_generator": "preziti",
+      "diagram": "Rámeček sondy, kolem ní ztlumené štítky RADIATION, TEMPERATURE, a ambrové AND THOUSANDS MORE."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Jádro pomalé větve.",
+      "diagram_generator": "preziti",
+      "diagram": "Táž sonda, přes ni ambrový nápis YOU CAN'T REPAIR IT."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "ČÁRKOVANÁ = hypotetická oprava, která neexistuje. Šipka míří NA SONDU (od technika k ní) — kontrola z CLAUDE.md „scéna, ve které něco míří na někoho“.",
+      "diagram_generator": "preziti",
+      "diagram": "Sonda, k ní čárkovaná šipka od ikony technika, šipka přeškrtnutá.",
+      "pause": 2.0
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Otevírá dílčí blok.",
+      "diagram_generator": "pocitac",
+      "diagram": "Nadpis THE COMPUTER nad rámečkem sondy."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Ambrová na OPERATE, protože to je rozdíl, o kterém scéna mluví.",
+      "diagram_generator": "pocitac",
+      "diagram": "Dva rámečky: STORE DATA (ztlumený) a OPERATE (ambrový), mezi nimi šipka."
+    },
+    {
+      "id": "S31",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S31.png",
+      "note": "Měřítko technologické změny. VYBRÁNO Z KONTAKTNÍHO LISTU: ze čtyř kandidátů jediný, kde je vidět CELÝ SÁL — řada páskových jednotek do hloubky nese tvrzení „tohle byl počítač“ líp než detail jedné konzole. Dotaz je zúžený na jméno fotografa, takže vrací jediný výsledek a pick je stabilní. 4877×3391, volné dílo (Warren K. Leffler, US News & World Report). Pomalý nájezd do hloubky sálu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Dept of Agriculture Computer Room Leffler",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Prázdno je tvrzení: neumíme to, ne „je to těžké“.",
+      "diagram_generator": "pocitac",
+      "diagram": "Časová osa years / decades / centuries / 75 000 let, poslední úsek prázdný s nápisem NO PRACTICAL EXPERIENCE.",
+      "pause": 1.8
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Otevírá dílčí blok.",
+      "diagram_generator": "energie",
+      "diagram": "Nadpis ENERGY."
+    },
+    {
+      "id": "S34",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "RTG. PŮVODNÍ DOTAZ BYL ŠPATNĚ a poznalo se to až z kontaktního listu: „New Horizons RTG installation“ vracelo sály, rakety a nápisy, ale ani jeden snímek, kde by se dal generátor poznat jako samostatné zařízení. Tenhle má jediný černý žebrovaný válec na stojanu a technika vedle pro měřítko, takže scéna tvrdí totéž co věta. Je to Cassini, tedy skutečně „deep-space mission“ — obecné hledání vracelo MMRTG od marsovského roveru, což by kresba tvrdila jinak než text. Dotaz je NASA ID → jeden výsledek, stabilní pick. 2400×1920, tedy 1,25:1; fit 0.92 místo ořezu, aby se neuřízl vrchol válce. GRADE: `zoom` odřezává BÍLÝ RÁM SKENU (obsah je 2280×1526 na +60+197 z 2400×1920) — bez něj `fit` vyrobil bílý rámeček, tedy nejsvětlejší plochu celého videa. Změřeno `magick -trim`, ne odhadem.",
+      "archive": {
+        "provider": "nasa",
+        "query": "KSC-97PC903",
+        "pick": 0,
+        "grade": {
+          "zoom": [
+            0.025,
+            0.1026,
+            0.95,
+            0.7948
+          ],
+          "fit": 0.95
+        }
+      }
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Křivka se POČÍTÁ z 2**(-t/87.7), nekreslí od ruky. Assert kontroluje, že v 87,7 roku je hodnota přesně 0,5.",
+      "diagram_generator": "energie",
+      "diagram": "Klesající exponenciála výkonu, na ose 88 LET a značka 1/2."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Assert: 2**(-1000/87.7) = 1/2707, tedy skutečně pod tisícinou. Fact check to má jako konzervativní — reálný RTG klesá rychleji, protože degradují termočlánky.",
+      "diagram_generator": "energie",
+      "diagram": "Táž křivka, značka na 1 000 letech, popisek LESS THAN A THOUSANDTH."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "PÁTEŘ: assert: 1000/74886 = 1,34 % dráhy. Vedle je pořád úsek z S24 (49 let), takže divák vidí obojí na jedné ose.",
+      "diagram_generator": "energie",
+      "diagram": "PÁTEŘ: na dráze 75 000 let ambrový úsek 1 000 let."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Beat.",
+      "diagram_generator": "energie",
+      "diagram": "Nápis THAT'S THE MISSION přes celý obraz."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Tady se poprvé objeví myšlenka spánku, která se vyplatí v S94. Ambrová plná = ta, o které bude řeč dál; čárkovaná = ta, kterou neumíme.",
+      "diagram_generator": "energie",
+      "diagram": "Dvě větve od sondy: NEVER STOP (čárkovaná) a SLEEP AND WAKE (ambrová plná)."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Konec POMALÉ VĚTVE. Nejdelší pauza první poloviny — za ní se video otočí k rychlé sondě. PŘEKRESLENO JAKO DIAGRAM 2026-09-09 po TŘECH neúspěšných kolech SDXL: s malířskou kotvou vyšla pokaždé osamělá postava v krajině, bez ní produktová fotka na šedém pozadí — a ta by navíc překlopila prohlášení o AI. Viz notes.md.",
+      "pause": 2.8,
+      "diagram_generator": "energie",
+      "diagram": "Přeškrtnutá družice vlevo, uzavřená prázdná schránka vpravo."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Obrat k rychlé větvi.",
+      "diagram_generator": "laser",
+      "diagram": "Dráha, vedle ní ztlumený Voyager a ambrový otazník FASTER."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Beat.",
+      "diagram_generator": "laser",
+      "diagram": "Nadpis LASER PROPULSION."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Fact check: Starshot má POZEMNÍ fázované pole, ne orbitální. Kresba to musí držet — laser stojí na Zemi.",
+      "diagram_generator": "laser",
+      "diagram": "Schéma: pole laserů NA ZEMI, kužel svazku, malá plachta."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Křížek na motor (plocha bez písma), ne přes nápis.",
+      "diagram_generator": "laser",
+      "diagram": "Táž plachta, vedle přeškrtnutý velký motor."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Táž škála jako S13 a S15 — teprve srovnáním se pozná, o kolik je to jinde. Assert: 0,2 c je 20 % škály, kdežto Voyager 0,0057 %.",
+      "diagram_generator": "laser",
+      "diagram": "Škála rychlosti z S13, na ní nová ambrová značka na 20 % c."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Assert: poměr sloupců = 100/36,9 = 2,71. Scénář po fact checku říká „nearly three times“, takže sloupec NESMÍ vyjít na trojnásobek.",
+      "diagram_generator": "laser",
+      "diagram": "Dva sloupce: 100 GW a UK ELECTRICITY 36.9 GW."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "PÁTEŘ: stejná vzdálenost, jiný čas. Dráha se nemění, mění se jen údaj nad ní.",
+      "diagram_generator": "laser",
+      "diagram": "PÁTEŘ: táž dráha, popisek TWENTY YEARS."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "PÁTEŘ: assert na poměr 74886/21,2 = 3 533×. Ambrová je na dvaceti letech.",
+      "diagram_generator": "laser",
+      "diagram": "Dráha se dvěma časovými pásy nad sebou: 75 000 YEARS a 20 YEARS."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Tři rámečky = tři problémy, které přijdou (brzdění, prach, navigace). Zůstávají prázdné, plní se v S58, S62 a S70. TTS hlásí „dovětek se nenašel kde uříznout“ a je to v pořádku: přepis končí slovem „several“ a ocas má −20,8 dB, tedy pod prahem 18 dB z CLAUDE.md. Zkoušeny čtyři dovětky, všechny daly týž čistý přepis — nejlepší ocas (−24,5 dB) měl „We will go through them in order.“, ale stál jednu větnou pauzu. Neměnit.",
+      "diagram_generator": "laser",
+      "diagram": "Nápis BUT THERE'S A CATCH, pod ním tři prázdné rámečky.",
+      "pause": 2.0
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "PÁTEŘ: průběh letu.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Dráha, sonda v polovině, ambrový úsek TWENTY YEARS za ní."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "NAVETI: „And then... what?“ má 0,7 s, tedy pásmo, kde obětovaná věta tiše selže.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Sonda na konci dráhy, nad ní velký otazník.",
+      "naveti": "It arrives at the far end."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Bublina = cizí názor, ne tvrzení videa.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Bublina s replikou JUST SLOW IT DOWN."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "text_skrtnuty(), ne křížek — přes nápis se škrtá vodorovně.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Táž bublina přeškrtnutá vodorovnou čarou."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Assert: obě plochy jsou STEJNĚ velké — to je celé tvrzení opravené věty z fact checku. U Proximy je prázdno, tedy čárkovaně.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Dvě zrcadlové plochy energie: ACCELERATE (ambrová, laser u Země) a DECELERATE (čárkovaná, u Proximy nic)."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Křížek na kresbu bez písma.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Dráha, u Proximy přeškrtnutá oběžná dráha."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "PÁTEŘ: NAVETI: „It's a flyby.“ má 1,0 s. Tohle je vizuální jádro celé věci — sonda nekončí u hvězdy, protíná ji.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Dráha, sonda PROLÉTÁ za Proximu a pokračuje.",
+      "naveti": "So here is what it really is."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Průlet v čase, ne v prostoru.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Táž dráha, tři body za Proximou: PICTURES, DATA, GONE."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Vyplňuje první ze tří rámečků založených v S49.",
+      "diagram_generator": "brzdeni",
+      "diagram": "Tři přeškrtnuté nápisy: SECOND ATTEMPT, U-TURN, PARKING ORBIT. První rámeček z S49 se vyplní.",
+      "pause": 2.0
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Prach patří k RYCHLÉ větvi — přesunuto sem podle zpětné vazby 0.1.",
+      "diagram_generator": "prach",
+      "diagram": "Dráha, na ní ztlumená zrnka."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Běžná rychlost, malý následek.",
+      "diagram_generator": "prach",
+      "diagram": "Zrnko naráží do desky, malý důlek."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Assert: (γ−1)mc² pro 1e−12 kg = 1 853 J, náboj 5,56×45 NATO 1 767 J. Primární zdroj arXiv:2307.12160 uvádí 1 800 J. POZOR: verze 0.2 mluvila o miligramu a byla mimo o šest řádů — viz factcheck.md.",
+      "diagram_generator": "prach",
+      "diagram": "Totéž při 0,2 c: zrnko o hmotnosti 0.000000001 G, vedle náboj, popisek SAME ENERGY."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Váhy z _kit.py. Vyplňuje druhý ze tří rámečků.",
+      "diagram_generator": "prach",
+      "diagram": "Váhy: na jedné misce SHIELDING, na druhé ACCELERATION. Druhý rámeček z S49 se vyplní.",
+      "pause": 1.8
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Otevírá blok.",
+      "diagram_generator": "navigace",
+      "diagram": "Nadpis NAVIGATION."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Scéna vznáší problém a hned ho zavírá — ambrová je proto na „zvládnutelné“, ne na pohybu.",
+      "diagram_generator": "navigace",
+      "diagram": "Proxima a Slunce, u obou vektor pohybu; ambrový popisek MANAGEABLE."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Assert: chyba 1 úhlové vteřiny přes 4,24 ly = 1,95e8 km. Úhel u vrcholu se kreslí zveličeně, ale ČÍSLO je spočítané — a popisek to musí říct.",
+      "diagram_generator": "navigace",
+      "diagram": "Ze Země vějíř dvou drah, mezi nimi u Proximy ambrová mezera 195 000 000 KM."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "PÁTEŘ: zpoždění na téže ose jako vzdálenost.",
+      "diagram_generator": "navigace",
+      "diagram": "Dráha, po ní signál se štítkem 4 YEARS EACH WAY."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "",
+      "diagram_generator": "navigace",
+      "diagram": "Sonda daleko od zamýšlené dráhy, mezi nimi ambrová vzdálenost."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Přeškrtnutá šipka MÍŘÍ K ZEMI (žádost o instrukce), ne od ní. Kontrola cíle podle podmětu věty.",
+      "diagram_generator": "navigace",
+      "diagram": "Sonda s vlastním rámečkem rozhodování, k Zemi vede přeškrtnutá šipka."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "",
+      "diagram_generator": "navigace",
+      "diagram": "Dvě úlohy sondy: ORIENTATION FROM STARS a REAL OR BROKEN SENSOR."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Vyplňuje poslední ze tří rámečků z S49 — blok rychlé sondy se tím uzavírá.",
+      "diagram_generator": "navigace",
+      "diagram": "Země zmenšená na okraji, popisek A VERY DISTANT OBSERVER. Třetí rámeček z S49 se vyplní.",
+      "pause": 2.2
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Rekapitulace před spojením obou větví.",
+      "diagram_generator": "spojeni",
+      "diagram": "Tři rámečky z S49 vyplněné a odškrtnuté."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "PÁTEŘ: okamžik, pro který se letělo.",
+      "diagram_generator": "spojeni",
+      "diagram": "Dráha, sonda u Proximy, ambrový záblesk snímku."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Oprava rozporu, kterou si vyžádal uživatel: sonda NEZASTAVUJE, míjí hvězdu a padá dál do tmy. Atmosféra, protože konkrétní sonda není úloha pro SDXL — proto „fleck“, ne „probe“. PŘEKRESLENO JAKO DIAGRAM 2026-09-09 po TŘECH neúspěšných kolech SDXL: s malířskou kotvou vyšla pokaždé osamělá postava v krajině, bez ní produktová fotka na šedém pozadí — a ta by navíc překlopila prohlášení o AI. Viz notes.md.",
+      "diagram_generator": "spojeni",
+      "diagram": "PÁTEŘ: dráha pokračuje za Proximu, sonda za hvězdou, ambrový bod = jediná kopie dat."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "PÁTEŘ: kužel se rozšiřuje — proto je signál slabý.",
+      "diagram_generator": "spojeni",
+      "diagram": "Malý vysílač, z něj rozšiřující se kužel přes celou dráhu k Zemi."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Jediné místo videa, kde je obraz lepší než diagram — metafora křiku přes oceán. PŘEKRESLENO JAKO DIAGRAM 2026-09-09 po TŘECH neúspěšných kolech SDXL: s malířskou kotvou vyšla pokaždé osamělá postava v krajině, bez ní produktová fotka na šedém pozadí — a ta by navíc překlopila prohlášení o AI. Viz notes.md.",
+      "diagram_generator": "spojeni",
+      "diagram": "Dva body na koncích dráhy, mezi nimi čárkovaná mezera; u pravého terč velikosti mince."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Assert: 2 × 4,2465 = 8,49 roku.",
+      "diagram_generator": "spojeni",
+      "diagram": "Časová osa konverzace: otázka 4 roky tam, odpověď 4 roky zpět, součet 8.5 YEARS."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Poměr velikostí nese tvrzení, takže je vědomě zveličený a popisek to říká.",
+      "diagram_generator": "spojeni",
+      "diagram": "Dva rámečky dat: TINY (ambrový, malý) a HIGH-RESOLUTION MOVIE (ztlumený, obrovský)."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Křížek na plochu bez písma.",
+      "diagram_generator": "spojeni",
+      "diagram": "Velký rámeček filmu přeškrtnutý.",
+      "pause": 2.4
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Callback na S08 — TOTÉŽ rozvržení, aby se poznalo, že se ptáme znovu.",
+      "diagram_generator": "odpoved",
+      "diagram": "Ústřední otázka podruhé, přes celý obraz."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "",
+      "diagram_generator": "odpoved",
+      "diagram": "Definice REACH #1: dráha protínající systém."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Ambrová = o tomhle je řeč, ne „tohle je dobře“.",
+      "diagram_generator": "odpoved",
+      "diagram": "Ambrová fajfka PROBABLY YES."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "",
+      "diagram_generator": "odpoved",
+      "diagram": "Definice REACH #2: sonda, která dorazí funkční."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Mezistupeň — ani ano, ani ne.",
+      "diagram_generator": "odpoved",
+      "diagram": "Poloviční fajfka, ztlumená."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "",
+      "diagram_generator": "odpoved",
+      "diagram": "Definice REACH #3: pracuje sama desítky tisíc let a pošle data."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Tři definice, tři odpovědi — a poslední je prázdno, ne křížek. Neumíme to, ne „nejde to“.",
+      "diagram_generator": "odpoved",
+      "diagram": "Prázdné místo, kde měla být fajfka, popisek WE DON'T KNOW HOW.",
+      "pause": 2.6
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Předěl před tezí videa. PŘEKRESLENO JAKO DIAGRAM 2026-09-09 po TŘECH neúspěšných kolech SDXL: s malířskou kotvou vyšla pokaždé osamělá postava v krajině, bez ní produktová fotka na šedém pozadí — a ta by navíc překlopila prohlášení o AI. Viz notes.md.",
+      "diagram_generator": "cas",
+      "diagram": "Ztlumená dráha a sonda uprostřed, bez popisků — nádech před tezí."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Prázdný rámeček čeká na S88.",
+      "diagram_generator": "cas",
+      "diagram": "Tři štítky: PROPULSION, DISTANCE (oba ztlumené), třetí prázdný ambrový rámeček."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Teze celého videa. Uživatel výslovně žádá, aby scéna dostala prostor — proto dlouhá pauza a NAVETI (1,0 s promluva, obětovaná věta by tiše selhala).",
+      "diagram_generator": "cas",
+      "diagram": "Do prázdného rámečku se napíše TIME.",
+      "naveti": "Think about what actually limits us.",
+      "pause": 2.6
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "PÁTEŘ: tentýž ambrový úsek jako v S24, teď pojmenovaný.",
+      "diagram_generator": "cas",
+      "diagram": "Dráha, na ní úseky YEARS a DECADES — obojí u levého kraje."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "PÁTEŘ: obě větve na jedné ose — tady se spojují.",
+      "diagram_generator": "cas",
+      "diagram": "Dráha se dvěma rozsahy: CENTURIES a TENS OF THOUSANDS OF YEARS."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Callback na S19, totéž rozvržení.",
+      "diagram_generator": "cas",
+      "diagram": "Nápis A COMPLETELY DIFFERENT ENGINEERING PROBLEM."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "",
+      "diagram_generator": "cas",
+      "diagram": "Dvě sondy: rychlá (ztlumená) a vytrvalá (ambrová)."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "",
+      "diagram_generator": "cas",
+      "diagram": "Nápis DON'T MAKE IT LAST FOREVER."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "PÁTEŘ: odpověď na S24. V S24 byl ambrový úsek beznadějně krátký proti dráze; tady je krátkých úseků několik a stačí to. Rozvržení je totéž, mění se jen to, kde je světlo.",
+      "diagram_generator": "cas",
+      "diagram": "VÝPLATA PÁTEŘE PODRUHÉ: dráha převážně ztmavená, ambrová jen na krátkých probuzeních a na konci."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "",
+      "diagram_generator": "cas",
+      "diagram": "Tři úlohy probuzené sondy: CHECK, REPAIR, NAVIGATE."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "POZOR PŘI TTS: promluva má jen 1,7 s a pauza 2,4 spustí obětovanou větu, která na tak krátké scéně může tiše selhat. Ověřit whisperem, ne existencí souboru.",
+      "diagram_generator": "cas",
+      "diagram": "Poslední probuzení u Proximy, z něj signál zpátky.",
+      "pause": 2.4
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: od téhle scény musí zůstat volná HORNÍ POLOVINA obrazu (docs/storyboard-a-diagramy.md — dole je vždycky titulek).",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka CAN WE GET THERE? a ambrová fajfka PROBABLY."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Otázka, kterou si divák odnese. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka WILL IT STILL KNOW WHAT TO DO? bez odpovědi."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dráha ztlumená, nad ní prázdno."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Šest položek jako ve scénáři. Sázet do DOLNÍ třetiny, horní polovina zůstává volná pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Šest štítků v dolní třetině: SPEED, ENERGY, NAVIGATION, COMMUNICATION, RELIABILITY, AUTONOMY."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "NAVETI: 1,2 s promluva. Slovo TIME sázet doprostřed dolní poloviny, ne nahoru.",
+      "diagram_generator": "zaver",
+      "diagram": "Nad nimi jediné ambrové slovo TIME.",
+      "naveti": "There is one more thing on that list.",
+      "pause": 2.4
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "PÁTEŘ: poslední scéna. Dráha leží na týchž souřadnicích jako v S02 — po deseti minutách se vrací tam, kde začala. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Poslední obraz páteře: dráha Slunce → Proxima, popisek FOUR LIGHT-YEARS, jinak prázdno."
+    }
+  ]
+}

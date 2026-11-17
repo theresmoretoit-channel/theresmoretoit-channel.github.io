@@ -1,0 +1,477 @@
+{
+  "total": 570.552,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 8.751,
+      "end": 9.251,
+      "dur": 9.101,
+      "text": "You buy a brand-new drive. One terabyte, completely empty. Before it will hold a single file, it first has to be formatted."
+    },
+    {
+      "id": "S02",
+      "start": 9.251,
+      "speech_end": 21.157,
+      "end": 21.957,
+      "dur": 12.706,
+      "text": "So you format it with ext4, the standard filesystem on many Linux computers. With the default settings, before you've saved anything at all, about seventeen gigabytes are gone."
+    },
+    {
+      "id": "S03",
+      "start": 21.957,
+      "speech_end": 28.489,
+      "end": 29.089,
+      "dur": 7.132,
+      "text": "Nothing has been stored yet. No photos, no documents. So what's taking up all that space?"
+    },
+    {
+      "id": "S04",
+      "start": 29.089,
+      "speech_end": 37.307,
+      "end": 38.107,
+      "dur": 9.017,
+      "text": "And why does a drive need formatting in the first place? It can already store data. It can read and write trillions of bits."
+    },
+    {
+      "id": "S05",
+      "start": 38.107,
+      "speech_end": 41.477,
+      "end": 42.277,
+      "dur": 4.171,
+      "text": "Why can't the computer just start writing wherever there's room?"
+    },
+    {
+      "id": "S06",
+      "start": 42.277,
+      "speech_end": 46.367,
+      "end": 48.767,
+      "dur": 6.49,
+      "text": "Because storing data and finding it again are two very different problems."
+    },
+    {
+      "id": "S07",
+      "start": 48.767,
+      "speech_end": 56.876,
+      "end": 57.476,
+      "dur": 8.709,
+      "text": "Imagine an office that hands out blank paper instead of forms. Everything gets written down somewhere... and nobody can find anything."
+    },
+    {
+      "id": "S08",
+      "start": 57.476,
+      "speech_end": 63.686,
+      "end": 64.486,
+      "dur": 7.01,
+      "text": "A drive without a filesystem is that pile of paper. A better picture, though, is a notebook."
+    },
+    {
+      "id": "S09",
+      "start": 64.486,
+      "speech_end": 68.731,
+      "end": 69.531,
+      "dur": 5.045,
+      "text": "Picture a notebook with a thousand pages, and a few rules for using it."
+    },
+    {
+      "id": "S10",
+      "start": 69.531,
+      "speech_end": 78.687,
+      "end": 79.487,
+      "dur": 9.956,
+      "text": "First, every page has a number. Now every spot in the notebook has an address. Page four hundred and twelve means exactly one place."
+    },
+    {
+      "id": "S11",
+      "start": 79.487,
+      "speech_end": 88.43,
+      "end": 89.23,
+      "dur": 9.743,
+      "text": "Second, the first few pages are a table of contents. Each entry gives a name, and the page where it lives. Pancakes: page twelve."
+    },
+    {
+      "id": "S12",
+      "start": 89.23,
+      "speech_end": 93.198,
+      "end": 93.998,
+      "dur": 4.768,
+      "text": "Third, at the very back, there's a list of the pages that are still blank."
+    },
+    {
+      "id": "S13",
+      "start": 93.998,
+      "speech_end": 104.907,
+      "end": 105.707,
+      "dur": 11.709,
+      "text": "Now add a recipe. You check the back for a blank page. You write the recipe there. You add a line to the contents. And you cross that page off the blank list."
+    },
+    {
+      "id": "S14",
+      "start": 105.707,
+      "speech_end": 109.805,
+      "end": 110.605,
+      "dur": 4.898,
+      "text": "One recipe, three places. And all three have to agree."
+    },
+    {
+      "id": "S15",
+      "start": 110.605,
+      "speech_end": 121.447,
+      "end": 122.247,
+      "dur": 11.641,
+      "text": "Then the pancake recipe grows. Page twelve is full, and page thirteen is already taken. So it carries on at page eighty-seven, and the contents has to say so."
+    },
+    {
+      "id": "S16",
+      "start": 122.247,
+      "speech_end": 132.127,
+      "end": 134.527,
+      "dur": 12.28,
+      "text": "And here's the catch. If you want room for a thousand entries in the table of contents, you have to set those pages aside before you write a single recipe."
+    },
+    {
+      "id": "S17",
+      "start": 134.527,
+      "speech_end": 138.177,
+      "end": 139.377,
+      "dur": 4.85,
+      "text": "That's the analogy. Here's what's actually on the drive."
+    },
+    {
+      "id": "S18",
+      "start": 139.377,
+      "speech_end": 147.08,
+      "end": 147.88,
+      "dur": 8.503,
+      "text": "A drive doesn't know about files, folders or names. All it offers is a long row of numbered slots, called sectors."
+    },
+    {
+      "id": "S19",
+      "start": 147.88,
+      "speech_end": 161.26,
+      "end": 162.06,
+      "dur": 14.18,
+      "text": "On a hard drive, the data sits on spinning platters. An SSD keeps it in flash memory. Either way, the computer only ever asks for a sector by its number, and the drive works out where that is."
+    },
+    {
+      "id": "S20",
+      "start": 162.06,
+      "speech_end": 169.038,
+      "end": 169.838,
+      "dur": 7.778,
+      "text": "A sector is small. Usually 512 bytes, or 4,096 on newer drives."
+    },
+    {
+      "id": "S21",
+      "start": 169.838,
+      "speech_end": 179.269,
+      "end": 180.069,
+      "dur": 10.231,
+      "text": "Filesystems usually work in bigger pieces, called blocks. On ext4, a block is four kilobytes, the size of eight old-style sectors."
+    },
+    {
+      "id": "S22",
+      "start": 180.069,
+      "speech_end": 189.287,
+      "end": 190.087,
+      "dur": 10.018,
+      "text": "Those numbered blocks are the notebook's pages. What the filesystem still needs are the other two parts: a table of contents, and a list of what's free."
+    },
+    {
+      "id": "S23",
+      "start": 190.087,
+      "speech_end": 195.017,
+      "end": 196.217,
+      "dur": 6.13,
+      "text": "That's what formatting builds. And that's where those seventeen gigabytes went."
+    },
+    {
+      "id": "S24",
+      "start": 196.217,
+      "speech_end": 208.083,
+      "end": 208.883,
+      "dur": 12.665,
+      "text": "Ext4 sets aside a record for every file and folder the drive will be able to hold at once. Each record is 256 bytes. It's called an inode."
+    },
+    {
+      "id": "S25",
+      "start": 208.883,
+      "speech_end": 216.179,
+      "end": 216.979,
+      "dur": 8.096,
+      "text": "One day, each inode will say how big a file is, when it was changed, who may open it, and which blocks hold its contents."
+    },
+    {
+      "id": "S26",
+      "start": 216.979,
+      "speech_end": 227.969,
+      "end": 228.769,
+      "dur": 11.791,
+      "text": "On a one terabyte drive, ext4 prepares about sixty-one million of them. All empty, all waiting. That's almost sixteen gigabytes of blank records."
+    },
+    {
+      "id": "S27",
+      "start": 228.769,
+      "speech_end": 241.765,
+      "end": 242.565,
+      "dur": 13.796,
+      "text": "Why sixty-one million? Ext4 makes a simple guess: one inode for every sixteen kilobytes of space on the drive. On a typical computer, most of those records will never be used."
+    },
+    {
+      "id": "S28",
+      "start": 242.565,
+      "speech_end": 252.999,
+      "end": 253.599,
+      "dur": 11.034,
+      "text": "About one more gigabyte goes to a journal, which we'll come back to. The rest is other bookkeeping, including a map with one bit per block, saying whether it's used or free."
+    },
+    {
+      "id": "S29",
+      "start": 253.599,
+      "speech_end": 263.189,
+      "end": 265.789,
+      "dur": 12.19,
+      "text": "That number is fixed, too. Use up every record with millions of tiny files, and the drive will tell you it's full... even with gigabytes of space left."
+    },
+    {
+      "id": "S30",
+      "start": 265.789,
+      "speech_end": 275.587,
+      "end": 276.387,
+      "dur": 10.598,
+      "text": "So let's watch it work. We'll create a file called hello.txt. Inside, just one word: hello. Five letters. Five bytes."
+    },
+    {
+      "id": "S31",
+      "start": 276.387,
+      "speech_end": 284.711,
+      "end": 285.511,
+      "dur": 9.124,
+      "text": "The filesystem picks an empty inode. Let's say number thirteen. Then it finds a free block in the map, and marks it as used."
+    },
+    {
+      "id": "S32",
+      "start": 285.511,
+      "speech_end": 294.089,
+      "end": 294.589,
+      "dur": 9.078,
+      "text": "It writes the five bytes into that block. Then it fills in the inode: five bytes long, created just now, and stored in that one block."
+    },
+    {
+      "id": "S33",
+      "start": 294.589,
+      "speech_end": 300.605,
+      "end": 301.405,
+      "dur": 6.816,
+      "text": "And finally, in the folder, it adds one line: the name hello.txt, and the number thirteen."
+    },
+    {
+      "id": "S34",
+      "start": 301.405,
+      "speech_end": 311.159,
+      "end": 311.759,
+      "dur": 10.354,
+      "text": "Notice where the name ended up. Not in the file. Not in the inode. The name lives in the folder, which is really just a list of names and numbers."
+    },
+    {
+      "id": "S35",
+      "start": 311.759,
+      "speech_end": 316.924,
+      "end": 317.724,
+      "dur": 5.965,
+      "text": "And a folder is just another file. What it happens to contain is that list."
+    },
+    {
+      "id": "S36",
+      "start": 317.724,
+      "speech_end": 330.441,
+      "end": 331.241,
+      "dur": 13.517,
+      "text": "That's also why moving a file to another folder on the same filesystem is instant, however big it is. One folder loses a line, the other gains one, and usually, the contents don't move at all."
+    },
+    {
+      "id": "S37",
+      "start": 331.241,
+      "speech_end": 342.72,
+      "end": 343.52,
+      "dur": 12.279,
+      "text": "Five bytes of text... and on the drive, it takes up 4,096. A block is the smallest piece the filesystem hands out, so even a tiny file costs a whole one."
+    },
+    {
+      "id": "S38",
+      "start": 343.52,
+      "speech_end": 354.383,
+      "end": 355.183,
+      "dur": 11.663,
+      "text": "When the file outgrows its block, the filesystem finds another free one. Maybe right next door. Maybe somewhere else entirely. And the inode keeps track of both."
+    },
+    {
+      "id": "S39",
+      "start": 355.183,
+      "speech_end": 364.958,
+      "end": 365.758,
+      "dur": 10.575,
+      "text": "Over time, a big file can end up in pieces all over the drive. A hard drive has to jump between them. An SSD copes with that much better."
+    },
+    {
+      "id": "S40",
+      "start": 365.758,
+      "speech_end": 373.824,
+      "end": 374.624,
+      "dur": 8.866,
+      "text": "The program that saved the file knows none of this. It said \"save hello.txt\", and everything else happened underneath."
+    },
+    {
+      "id": "S41",
+      "start": 374.624,
+      "speech_end": 382.521,
+      "end": 383.321,
+      "dur": 8.697,
+      "text": "Now delete it. The name is removed from the folder. The inode is marked as free. The block goes back on the free list."
+    },
+    {
+      "id": "S42",
+      "start": 383.321,
+      "speech_end": 392.563,
+      "end": 393.363,
+      "dur": 10.041,
+      "text": "On a traditional hard drive, the five bytes themselves stay put. Nobody touched them. They remain until something new is written on top."
+    },
+    {
+      "id": "S43",
+      "start": 393.363,
+      "speech_end": 403.116,
+      "end": 403.916,
+      "dur": 10.553,
+      "text": "That's why a deleted file can sometimes be recovered. Deleting usually doesn't erase the contents. It just marks the space as available."
+    },
+    {
+      "id": "S44",
+      "start": 403.916,
+      "speech_end": 417.083,
+      "end": 417.883,
+      "dur": 13.967,
+      "text": "On an SSD, it's less certain. The filesystem can tell the drive that those blocks are no longer needed, and the drive may discard what's in them. After that, getting the file back is much less likely."
+    },
+    {
+      "id": "S45",
+      "start": 417.883,
+      "speech_end": 427.173,
+      "end": 429.773,
+      "dur": 11.89,
+      "text": "So a filesystem is really a bookkeeper. Creating this one file meant updating three things: the folder, the inode, and the map of free blocks."
+    },
+    {
+      "id": "S46",
+      "start": 429.773,
+      "speech_end": 432.461,
+      "end": 433.661,
+      "dur": 3.888,
+      "text": "Now cut the power halfway through saving a file."
+    },
+    {
+      "id": "S47",
+      "start": 433.661,
+      "speech_end": 442.006,
+      "end": 442.506,
+      "dur": 8.845,
+      "text": "Maybe the block was marked as used, but no inode points to it yet. That space is simply lost. Annoying, but harmless."
+    },
+    {
+      "id": "S48",
+      "start": 442.506,
+      "speech_end": 452.622,
+      "end": 453.422,
+      "dur": 10.916,
+      "text": "Or maybe the inode points to a block that the map still calls free. The next file can be written right on top of it. And the first one is quietly destroyed."
+    },
+    {
+      "id": "S49",
+      "start": 453.422,
+      "speech_end": 469.762,
+      "end": 471.362,
+      "dur": 17.94,
+      "text": "That's why ext4 keeps a journal. Before it changes its bookkeeping, it writes down what it's about to do. After a crash, it replays only the changes it had finished writing down, and marked as complete. Anything unfinished is ignored."
+    },
+    {
+      "id": "S50",
+      "start": 471.362,
+      "speech_end": 476.932,
+      "end": 477.732,
+      "dur": 6.37,
+      "text": "And there's a quieter problem. Sometimes a drive changes a bit and doesn't tell anyone."
+    },
+    {
+      "id": "S51",
+      "start": 477.732,
+      "speech_end": 487.4,
+      "end": 488.2,
+      "dur": 10.468,
+      "text": "Ext4 protects its own records with checksums, so it can spot damage there. But the contents of your files? Those, it simply trusts."
+    },
+    {
+      "id": "S52",
+      "start": 488.2,
+      "speech_end": 499.81,
+      "end": 502.41,
+      "dur": 14.21,
+      "text": "Some filesystems check both. And some keep a second copy, so when one copy is damaged, they can repair it from the other. Spotting a problem and fixing it are not the same thing."
+    },
+    {
+      "id": "S53",
+      "start": 502.41,
+      "speech_end": 508.127,
+      "end": 508.727,
+      "dur": 6.317,
+      "text": "So every filesystem does the same job: numbered blocks, a list of names, and a map of what's free."
+    },
+    {
+      "id": "S54",
+      "start": 508.727,
+      "speech_end": 520.998,
+      "end": 521.598,
+      "dur": 12.871,
+      "text": "But the choices differ. Ext4 prepares sixty-one million records before you save a thing. NTFS, on Windows, keeps its records in one big table that grows as you go."
+    },
+    {
+      "id": "S55",
+      "start": 521.598,
+      "speech_end": 536.26,
+      "end": 537.06,
+      "dur": 15.462,
+      "text": "And Btrfs doesn't prepare a fixed table of inodes in advance. It creates them as files arrive. And normally, it doesn't overwrite data in place. It writes a new copy, and only then lets go of the old one."
+    },
+    {
+      "id": "S56",
+      "start": 537.06,
+      "speech_end": 542.073,
+      "end": 542.573,
+      "dur": 5.513,
+      "text": "By default, it also checksums your files, so it can tell when they've been damaged."
+    },
+    {
+      "id": "S57",
+      "start": 542.573,
+      "speech_end": 554.973,
+      "end": 557.373,
+      "dur": 14.8,
+      "text": "And because the old copy isn't overwritten, a snapshot can keep it alive. That changes the answer to almost every question in this video: what a crash does, what deleting means, and even what a copy is."
+    },
+    {
+      "id": "S58",
+      "start": 557.373,
+      "speech_end": 559.513,
+      "end": 561.113,
+      "dur": 3.74,
+      "text": "That's where the next video begins."
+    },
+    {
+      "id": "S59",
+      "start": 561.113,
+      "speech_end": 569.352,
+      "end": 570.552,
+      "dur": 9.439,
+      "text": "So here's a question for you. Should a filesystem just store your files, or should it protect them too? Let me know in the comments."
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "vrstva": "pera",
+   "note": "První obrazovka nese myšlenku, není sdxl. Pero jedinou funkcí _kit.pera(), pevné souřadnice. Žádné pero není označené jako to s proudem: nevíme to.",
+   "diagram_generator": "pera",
+   "diagram": "PÁTEŘ 1: řada deseti stejných žlutých per. Na *which* naskočí nad každým otazník.",
+   "anim": "animace"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "vrstva": "pera",
+   "diagram_generator": "pera",
+   "diagram": "Táž řada, dole malý popisek LEFT OVER FROM AN EARLIER STUDY a ciferník čekání."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "vrstva": "pera",
+   "note": "Výsledek cvaknutí se neukáže. Nevíme, co ten které pero udělalo.",
+   "diagram_generator": "pera",
+   "diagram": "Prst cvakne jedno pero, nad řadou DOES THIS ONE SHOCK?, stranou škrtnuté NO PRIZE.",
+   "anim": "animace"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "vrstva": "pera",
+   "note": "Průměr, ne konkrétní pera. Popisek ON AVERAGE.",
+   "diagram_generator": "pera",
+   "diagram": "Pět per se postupně rozsvítí, velké ≈ 5.",
+   "anim": "animace"
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "vrstva": "pera",
+   "note": "Jediné místo s červenou a zelenou: barva je tu obsah. assert 5 + 5 a 1 + 2 = 3. Že klikali i na červená, je doložené, a je to samo o sobě zvláštní.",
+   "diagram_generator": "pera",
+   "diagram": "Pod žlutou řadou (ztlumená, ≈ 5) druhá: 5 červených, 5 zelených. Rozsvítí se 1 zelené a 2 červená, ≈ 3.",
+   "anim": "animace"
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "vrstva": "pera",
+   "note": "Vzorek v obraze, je malý a divák to má vidět.",
+   "diagram_generator": "pera",
+   "diagram": "Obě řady: NOT KNOWING ≈ 5, KNOWING ≈ 3. Pod tím tlačítka se zvukem (WITH SOUNDS TOO) a FELT WORSE. Malý popisek 54 STUDENTS.",
+   "pause": 1.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "vrstva": "feed",
+   "note": "PÁTEŘ 2: feed jednou funkcí _kit.feed(sirka). Velikost je stupnice celého videa: S07 telefon, S36 přes okraj, S45 větší, S56 skoro celý rám, S73 zase malý.",
+   "diagram_generator": "feed",
+   "diagram": "Pera se rozplynou, na jejich místě telefon v ruce; odemkne se a rozsvítí.",
+   "anim": "animace"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "vrstva": "feed",
+   "note": "Bez jakéhokoli skutečného záběru války: šedé pruhy a jedno slovo.",
+   "diagram_generator": "feed",
+   "diagram": "Feed se posouvá: titulek WAR, článek, video s přehrávacím trojúhelníkem.",
+   "anim": "animace"
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "vrstva": "feed",
+   "diagram_generator": "feed",
+   "diagram": "Postava vedle telefonu, hodiny 0:00 → 0:45, feed běží dál.",
+   "anim": "animace"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "vrstva": "feed",
+   "diagram_generator": "feed",
+   "diagram": "Tři karty naskakují ve feedu s každou větou: ONE MORE ARTICLE, ONE MORE UPDATE, ONE MORE VIDEO.",
+   "anim": "animace",
+   "vycet": 0.3
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "vrstva": "feed",
+   "diagram_generator": "feed",
+   "diagram": "Velké DOOMSCROLLING, pod tím jednořádková definice. Telefon malý stranou."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "vrstva": "feed",
+   "diagram_generator": "feed",
+   "diagram": "Feed vlevo, ztlumená karta SOMETHING FUNNY vpravo, mezi nimi velké WHY?"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "vrstva": "feed",
+   "note": "PÁTEŘ 3: hlava se třemi částmi, _kit.hlava_casti(). Vrací se v S33, S45, S70.",
+   "diagram_generator": "feed",
+   "diagram": "Hlava z profilu: dvě přihrádky uvnitř (1, 2) a třetí mimo ni (3).",
+   "anim": "animace",
+   "pause": 2.2
+  },
+  {
+   "id": "S14",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S14.png",
+   "vrstva": "klik",
+   "note": "Atmosféra, nutné herní PC. Bez šelmy: nevíme, co v keři je.",
+   "prompt": "dark dense forest path with one thick bush in the foreground, flat grey overcast light, no animals, no people, no text",
+   "diagram": "Tmavá lesní cesta, hustý keř v popředí, nic živého.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "vrstva": "klik",
+   "diagram_generator": "klik",
+   "diagram": "Dva řádky: WIND → NOTHING HAPPENS / PREDATOR → THE END. Pod nimi cena: FALSE ALARM: A FEW SECONDS × MISSED THREAT: EVERYTHING.",
+   "pause": 0.5
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "vrstva": "klik",
+   "note": "VÝZVA K ODBĚRU č. 1 (cíl 1:30–2:15), levý dolní roh prázdný. Čárkovaně = výklad, ne pokus.",
+   "diagram_generator": "klik",
+   "diagram": "Váhy, kde černá karta převáží světlou, nápis NEGATIVITY BIAS. Čárkovaně THE USUAL STORY.",
+   "pause": 1.2,
+   "vyzva": true
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "vrstva": "klik",
+   "note": "Slova bad / wrong / love / beautiful jsou nejčastější podle Robertsona, ne vymyšlená.",
+   "diagram_generator": "klik",
+   "diagram": "Dvě karty téhož článku, liší se jediným slovem, losování A/B. SAME STORY, DIFFERENT WORDING.",
+   "anim": "animace"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "vrstva": "klik",
+   "note": "Hlas říká about two. Sloupce v poměru hodnot, assert. Procenta click rate, nikoli body.",
+   "diagram_generator": "klik",
+   "diagram": "Počítadlo OVER 20,000 TESTS. Dva sloupce: +2.3 % za negativní slovo, −1.0 % za pozitivní.",
+   "anim": "animace"
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "vrstva": "klik",
+   "note": "Poměr 100 : 102,3 je skutečný, proto je rozdíl nepatrný a o to jde. assert.",
+   "diagram_generator": "klik",
+   "diagram": "Sloupec click rate 100 a vedle 102,3: skoro stejné, popisek A NUDGE. Pak FEAR WORDS: FEWER CLICKS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "vrstva": "klik",
+   "diagram_generator": "klik",
+   "diagram": "Jeden titulek, telefon odložený na stůl. SO WHY DON'T YOU?",
+   "pause": 2.4
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "vrstva": "nejistota",
+   "diagram_generator": "nejistota",
+   "diagram": "Dva kameny na obrazovce, kurzor přeskakuje, IS THERE A SNAKE UNDER THIS ONE? Popisek LONDON, 2016 · 45 PEOPLE.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "vrstva": "nejistota",
+   "note": "Tři dvojice pravděpodobností jsou ze studie, žádná jiná.",
+   "diagram_generator": "nejistota",
+   "diagram": "Had vyleze, blesk do ruky. Nad kameny se střídá 90/10, 70/30, 50/50.",
+   "anim": "animace"
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "vrstva": "nejistota",
+   "note": "Bez křivky stresu v čase, tu k dispozici nemáme.",
+   "diagram_generator": "nejistota",
+   "diagram": "Stupnice HOW STRESSED? a značka šoku, která do ní přispívá, vedle prázdný otazník SOMETHING ELSE.",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "vrstva": "nejistota",
+   "note": "Křivka je výpočet (binární entropie), ne naměřený stres. Popisek osy to musí říkat. assert na vrchol v 50.",
+   "diagram_generator": "nejistota",
+   "diagram": "Křivka UNCERTAINTY: vodorovně šance na šok 0–100 %, oblouk s vrcholem na 50 %, ambrový bod.",
+   "anim": "animace"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "vrstva": "nejistota",
+   "note": "Pokus nesrovnával jistotu, proto shrnutí autora a v obraze jeho jméno.",
+   "diagram_generator": "nejistota",
+   "diagram": "Tři karty: WILL (klidná), WON'T (klidná), MIGHT? (ambrová, větší). Popisek A. DE BERKER, LEAD AUTHOR."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "vrstva": "nejistota",
+   "diagram_generator": "nejistota",
+   "diagram": "Telefon ze S07 na téže pozici, titulek WAR, naskočí HOW BAD?",
+   "anim": "animace"
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "vrstva": "nejistota",
+   "note": "Žádné číslo u pravděpodobnosti, S27 ho schválně nemá.",
+   "diagram_generator": "nejistota",
+   "diagram": "Okolo telefonu postupně tři otázky, nakonec ODDS: ?",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "vrstva": "nejistota",
+   "note": "Počty ilustrační, ne měření.",
+   "diagram_generator": "nejistota",
+   "diagram": "Větvení: článek zodpoví dvě otázky a z každé vyrostou dvě nové. Otazníků přibývá.",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "vrstva": "nejistota",
+   "diagram_generator": "nejistota",
+   "diagram": "Postava s telefonem, NOT KNOWING vpředu, ruka to odstrkuje. Malý popisek SURVEYS: A LINK, NOT PROOF."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "vrstva": "nejistota",
+   "note": "Spirála je úvaha, ne měření. Čárkovaně.",
+   "diagram_generator": "nejistota",
+   "diagram": "Dvě šipky se stáčí do spirály: MORE INFORMATION → NEW UNCERTAINTY → …",
+   "anim": "animace"
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "vrstva": "nejistota",
+   "diagram_generator": "nejistota",
+   "diagram": "Postava jde po čáře k vlaječce FINALLY UNDERSTAND. Vlaječka se posouvá stejně rychle.",
+   "anim": "animace"
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "vrstva": "nejistota",
+   "note": "Tatáž _kit.pera(), bez jediného posunu, jinak se rým nepozná.",
+   "diagram_generator": "nejistota",
+   "diagram": "VÝPLATA 1: titulky z feedu se jeden po druhém promění ve žlutá pera a dosednou na souřadnice ze S01.",
+   "anim": "animace",
+   "pause": 2.8
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "vrstva": "stroj",
+   "diagram_generator": "stroj",
+   "diagram": "Hlava ze S13: 1 a 2 ztlumené, rozsvítí se 3 mimo hlavu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "vrstva": "stroj",
+   "diagram_generator": "stroj",
+   "diagram": "Noviny se dolistují, zadní strana, televizní obraz zhasne. Obojí razítko LAST PAGE / END.",
+   "anim": "animace"
+  },
+  {
+   "id": "S35",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "vrstva": "stroj",
+   "note": "Vybráno z kontaktního listu: Commons má public domain portrét jen 200×235 px, proto NEXT Berlin 2014 (1600×1067, CC BY 2.0, popis souboru jmenuje Azu Raskina). Celá postava s odstupem, bez zoomu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Ne tf-2679 Aza Raskin",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false,
+     "popisek": "AZA RASKIN",
+     "fit_bg": "#06060a"
+    }
+   },
+   "diagram": "Portrét Azy Raskina, jméno a 2006."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "vrstva": "stroj",
+   "note": "Výrok doslovný. Facebook a Snap obvinění z návykovosti tehdy popřely, proto v obraze není slovo addictive.",
+   "diagram_generator": "stroj",
+   "diagram": "Tlačítko NEXT PAGE zmizí, feed se protáhne přes dolní okraj rámu. Citát a podpis A. RASKIN, BBC PANORAMA, 2018.",
+   "anim": "animace"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "vrstva": "stroj",
+   "diagram_generator": "stroj",
+   "diagram": "Karty projdou trychtýřem PREDICT, ven vychází jen pořadí: CLICK, WATCH, SHARE, REPLY.",
+   "anim": "animace"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "vrstva": "stroj",
+   "note": "Jednou funkcí _kit.dva_feedy().",
+   "diagram_generator": "stroj",
+   "diagram": "PÁTEŘ 4: dva sloupce feedu vedle sebe, ALGORITHM a TIME ORDER. Popisek 806 USERS · FEBRUARY 2023."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "vrstva": "stroj",
+   "note": "Rozdíly proti časovému řazení v SD, po tweetech, NE změna nálady. Skutečný poměr, assert. Štěstí musí být stejně vidět jako úzkost.",
+   "diagram_generator": "stroj",
+   "diagram": "Sloupce po řádcích: HOW DID THIS TWEET MAKE YOU FEEL? anger 0,27, anxiety 0,12, happiness 0,12, sadness 0,09.",
+   "anim": "animace"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "vrstva": "stroj",
+   "note": "Znění ze studie.",
+   "diagram_generator": "stroj",
+   "diagram": "Karta otázky a tři volby: NO, INDIFFERENT, YES."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "vrstva": "stroj",
+   "note": "Poměr 0,06 : 0,18 skutečný, assert.",
+   "diagram_generator": "stroj",
+   "diagram": "Osa od nuly: ALL TWEETS +0,06 doprava, POLITICAL −0,18 doleva. Popisky SLIGHTLY BETTER, LOST.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "vrstva": "stroj",
+   "diagram_generator": "stroj",
+   "diagram": "WHAT YOU REACT TO ≠ WHAT YOU WANT TO SEE."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "vrstva": "stroj",
+   "note": "Věta na short.",
+   "diagram_generator": "stroj",
+   "diagram": "Dva řádky: ARE YOU HAPPY? škrtnuté, WILL YOU INTERACT? ambrově."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "vrstva": "stroj",
+   "note": "VÝZVA K ODBĚRU č. 2, levý dolní roh prázdný, feed vpravo. Výzva hned po *this video reached you* je vtipná i účelná.",
+   "diagram_generator": "stroj",
+   "diagram": "Popisek ONE PLATFORM, ONE MONTH. Ve feedu se rozsvítí karta THIS VIDEO.",
+   "anim": "animace",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "vrstva": "smycka",
+   "note": "Spojuje všechny tři části. Šipky kruhu jsou úsudek, od S47 přijdou doklady.",
+   "diagram_generator": "smycka",
+   "diagram": "Hlava ze S13 a kolem ní kruh tří šipek: DISTURBING → ANXIOUS → LOOK FOR MORE → NEW THREAT. Feed větší.",
+   "anim": "animace"
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "vrstva": "smycka",
+   "note": "Nesmí tam být šipka jedním směrem.",
+   "diagram_generator": "smycka",
+   "diagram": "DOOMSCROLLING — ANXIETY, spojnice s otazníkem na obou koncích. WHICH CAME FIRST? Malý popisek IRAN · USA.",
+   "pause": 0.5
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "vrstva": "smycka",
+   "note": "Jedna tečka = 10 lidí, 90 teček, assert. Bez skutečných poměrů skupin, kreslit rovnoměrně.",
+   "diagram_generator": "smycka",
+   "diagram": "Tečky se náhodně rozběhnou do skupin COVID NEWS a NOTHING (+ KINDNESS).",
+   "anim": "animace"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "vrstva": "smycka",
+   "note": "Bez velikosti poklesu, nekreslit grafem.",
+   "diagram_generator": "smycka",
+   "diagram": "Stopky 2–4 MIN. COVID NEWS: nálada dolů. KINDNESS: bez poklesu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S49",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S49.png",
+   "vrstva": "smycka",
+   "note": "Vybráno z kontaktního listu: prázdný Boylston Street s nápisem FINISH (2015). Žádné záběry z roku 2013, hazmat snímky z téhož dotazu záměrně ne. Snímek je z roku 2015 (cíl je na Boylston Street každý rok na stejném místě), proto rok v popisku: hlas mluví o 2013 a obraz to nesmí tvrdit.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Boston Marathon finish line Boylston Street",
+    "pick": 0,
+    "grade": {
+     "saturation": 80,
+     "vignette": false,
+     "popisek": "BOSTON FINISH LINE, 2015"
+    }
+   },
+   "diagram": "Cílová rovinka bostonského maratonu, jiný rok nebo klidný záběr, žádné výbuchy."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "vrstva": "smycka",
+   "diagram_generator": "smycka",
+   "diagram": "Sloupec DIRECT: AT THE SITE, KNEW SOMEONE THERE."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "vrstva": "smycka",
+   "diagram_generator": "smycka",
+   "diagram": "Vedle druhý sloupec MEDIA: 6+ HOURS A DAY, ikony TV, rádio, tisk, online, sociální sítě."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "vrstva": "smycka",
+   "note": "b z Holman 2014 v plném textu. Poměr skutečný, assert. Čte se *link*, ne *worse*.",
+   "diagram_generator": "smycka",
+   "diagram": "Pod sloupci dva pruhy LINK TO ACUTE STRESS: DIRECT 6,17, 6+ HOURS 15,85. Malý popisek SURVEY, ADJUSTED.",
+   "anim": "animace"
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "vrstva": "smycka",
+   "note": "Osa jednou funkcí _kit.osa_let(), S54–S56 na týchž souřadnicích.",
+   "diagram_generator": "smycka",
+   "diagram": "Razítko A SURVEY CAN'T PROVE THIS. Naskočí časová osa 2013 → +6 MONTHS → +2 YEARS → 2016.",
+   "anim": "animace"
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "vrstva": "smycka",
+   "diagram_generator": "smycka",
+   "diagram": "Na ose: COVERAGE → STRESS SYMPTOMS → WORRY.",
+   "anim": "animace"
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "vrstva": "smycka",
+   "note": "Žádný obraz z místa, jen osa.",
+   "diagram_generator": "smycka",
+   "diagram": "Na konci osy ORLANDO, 2016: MORE COVERAGE, MORE STRESS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "vrstva": "smycka",
+   "note": "Největší feed videa. NOT PROOF je tam kvůli míře jistoty.",
+   "diagram_generator": "smycka",
+   "diagram": "Osa se ohne do kruhu ze S45. Postava vedle feedu, který vyplní skoro celý rám. Popisek NOT PROOF.",
+   "anim": "animace",
+   "pause": 2.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "vrstva": "informace",
+   "diagram_generator": "informace",
+   "diagram": "Malá postava a feed, naskočí STAYING INFORMED s fajfkou.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "vrstva": "informace",
+   "note": "2 743 je celý vzorek, deaktivace byla náhodně přidělena jen části. Grafika nesmí vyvolat dojem, že vypnuli všichni: postavy stojí u SIGNED UP, škrt je až u SOME a nezvýrazňuje se žádný zlomek postav, protože poměr v obraze by byl další tvrzení.",
+   "diagram_generator": "informace",
+   "diagram": "Vlevo skupina postav: 2,743 PEOPLE, SIGNED UP. Šipka k panelu vpravo: přeškrtnuté FACEBOOK, kalendář 4 WEEKS, SOME DEACTIVATED FACEBOOK FOR 4 WEEKS. Nahoře 2018 US MIDTERMS."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "vrstva": "informace",
+   "note": "Poměr pruhů skutečný, assert.",
+   "diagram_generator": "informace",
+   "diagram": "Tři řádky: NEWS KNOWLEDGE −0,19, WELL-BEING +0,09 (SLIGHTLY), +1 HOUR A DAY.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "vrstva": "informace",
+   "diagram_generator": "informace",
+   "diagram": "Řada deseti očí, první ambrová, desátá s otazníkem.",
+   "pause": 1.2
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "vrstva": "informace",
+   "note": "Ilustrace. Počty nejsou naměřené, žádná křivka znalostí.",
+   "diagram_generator": "informace",
+   "diagram": "Deset týchž titulků za sebou, jen několik přidá detail. Hodiny ubíhají.",
+   "anim": "animace",
+   "pause": 2.4
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "vrstva": "reseni",
+   "diagram_generator": "reseni",
+   "diagram": "STOP SCROLLING přeškrtnuté (text_skrtnuty), vedle STOP THINKING ABOUT FOOD a prázdný talíř."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "vrstva": "reseni",
+   "note": "Bez tvrzení o velikosti účinku.",
+   "diagram_generator": "reseni",
+   "diagram": "Obálka 3× A DAY, 1 WEEK: LESS STRESS. Štítek EMAIL, NOT NEWS.",
+   "pause": 0.5
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "vrstva": "reseni",
+   "note": "Zrcadlo S36, táž geometrie.",
+   "diagram_generator": "reseni",
+   "diagram": "Feed ze S36 znovu dostane konec: naskočí LAST PAGE. Tři řádky: DECIDE WHAT YOU WANT TO KNOW, PICK A TIME, SAME AS THE LAST ONE? STOP.",
+   "anim": "animace"
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "vrstva": "reseni",
+   "note": "Přechod nese *it comes from the pens*. Hmyz schematicky.",
+   "diagram_generator": "reseni",
+   "diagram": "VÝPLATA 2: žlutá pera na souřadnicích ze S01 se změní na zakryté obrázky, kurzor odkrývá.",
+   "anim": "animace"
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "vrstva": "reseni",
+   "note": "Počty odkrytí ilustrační, známe jen směr. Výplata per: otázka stojí v obraze místo odpovědi.",
+   "diagram_generator": "reseni",
+   "diagram": "Vedle sebe dvě řady: bez otázky odkryto víc, s bublinou HOW WILL I FEEL? odkryto míň, u ní HAPPIER. Pak zůstane jedna žlutá řada a bublina.",
+   "anim": "animace",
+   "pause": 2.8
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "vrstva": "zaver",
+   "diagram_generator": "zaver",
+   "diagram": "Hlava ze S13, 1 a 2 svítí: WATCHING FOR THREATS, WHAT HAPPENS NEXT.",
+   "anim": "animace"
+  },
+  {
+   "id": "S71",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S71.png",
+   "vrstva": "zaver",
+   "note": "Kola porovnána na kontaktním listu (první kolo stoh novin a čajník; 7147 role přes celý stůl; 7148 se čte jako kámen). 7149: jedny noviny na stole, klid.",
+   "prompt": "one folded newspaper lying flat on a bare wooden table, plain empty wall behind, window light from the side, nothing else on the table, flat grey overcast light, quiet, no people, no readable text",
+   "diagram": "Přeložené noviny na prázdném stole u okna.",
+   "pause": 1.4,
+   "seed": 7149
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "vrstva": "zaver",
+   "note": "Spadá do okna závěrečné obrazovky, horní polovina volná. Statická.",
+   "diagram_generator": "zaver",
+   "diagram": "Postava v dolní třetině, nese na zádech hromadu karet z feedu."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "vrstva": "zaver",
+   "note": "Animace jen v dolní polovině, horní prázdná kvůli dlaždici. Ověřit na snímku z draftu, zaver_check animaci nevidí.",
+   "diagram_generator": "zaver",
+   "diagram": "VÝPLATA 3: feed se smrskne na malý telefon a položí se. Kolem prázdno, nízko čára obzoru a postava se dívá před sebe.",
+   "anim": "animace",
+   "pause": 3.0
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "vrstva": "zaver",
+   "note": "Horní polovina pro prvky závěrečné obrazovky.",
+   "diagram_generator": "zaver",
+   "diagram": "Klidná deska, otázka v dolní polovině."
+  }
+ ]
+}

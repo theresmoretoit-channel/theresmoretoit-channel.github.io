@@ -1,0 +1,778 @@
+1
+00:00:00,400 --> 00:00:01,930
+Look at a map of the world.
+
+2
+00:00:02,660 --> 00:00:04,850
+You have seen this one a thousand times.
+
+3
+00:00:05,680 --> 00:00:08,990
+And you probably do not think
+there is anything strange about it.
+
+4
+00:00:09,673 --> 00:00:12,273
+Europe is here. Africa is here.
+
+5
+00:00:12,353 --> 00:00:14,673
+North America is here. And Greenland is...
+
+6
+00:00:14,753 --> 00:00:17,063
+...about the same size as Africa.
+
+7
+00:00:17,908 --> 00:00:20,798
+Except it isn't. Nowhere near it.
+
+8
+00:00:21,428 --> 00:00:24,318
+Africa is roughly fourteen
+times larger than Greenland.
+
+9
+00:00:25,325 --> 00:00:28,175
+Fourteen. So why does
+Greenland look so enormous?
+
+10
+00:00:29,027 --> 00:00:30,937
+Because the map is lying to you.
+
+11
+00:00:31,467 --> 00:00:33,177
+And here is the strange part.
+
+12
+00:00:35,637 --> 00:00:37,847
+Every flat map of the Earth has to lie.
+
+13
+00:00:37,977 --> 00:00:40,767
+Not by accident. By necessity.
+
+14
+00:00:41,753 --> 00:00:43,423
+The Earth is roughly a sphere.
+
+15
+00:00:43,553 --> 00:00:45,383
+A map is flat.
+
+16
+00:00:45,853 --> 00:00:48,703
+And that creates a problem
+which sounds almost trivial.
+
+17
+00:00:49,713 --> 00:00:53,703
+How do you turn a sphere into a flat
+sheet of paper without changing anything?
+
+18
+00:00:54,420 --> 00:00:55,620
+You can't.
+
+19
+00:00:56,181 --> 00:01:01,111
+Try peeling the skin off an orange and
+flattening it. It tears. Or it wrinkles.
+
+20
+00:01:02,124 --> 00:01:06,934
+And this is where most people assume it
+is a technical problem. Better maths.
+
+21
+00:01:07,044 --> 00:01:11,614
+Better printing. Someone will work
+it out eventually. They won't.
+
+22
+00:01:11,844 --> 00:01:14,274
+Because it isn't a
+problem. It's a theorem.
+
+23
+00:01:15,090 --> 00:01:18,670
+In 1827, Carl Friedrich
+Gauss proved that the
+
+24
+00:01:18,750 --> 00:01:21,720
+curvature of a surface
+belongs to the surface itself.
+
+25
+00:01:22,631 --> 00:01:24,561
+You cannot flatten it out of existence.
+
+26
+00:01:25,631 --> 00:01:30,421
+You can roll a sheet of paper into a tube,
+because its surface can still be unrolled.
+
+27
+00:01:31,371 --> 00:01:35,041
+But you cannot wrap it round a ball
+without stretching or tearing it.
+
+28
+00:01:36,023 --> 00:01:38,013
+Gauss called it his remarkable theorem.
+
+29
+00:01:38,863 --> 00:01:41,253
+And it is worth being
+precise about what it means.
+
+30
+00:01:41,903 --> 00:01:44,473
+It isn't that nobody has managed it yet.
+
+31
+00:01:44,743 --> 00:01:46,573
+It's that nobody can.
+
+32
+00:01:47,324 --> 00:01:51,174
+So cartographers stopped trying, and
+started hiding the wrinkles instead.
+
+33
+00:01:52,064 --> 00:01:53,734
+These are called map projections.
+
+34
+00:01:54,739 --> 00:02:00,009
+And every projection makes a choice. What
+do you want to preserve? Area? Shape?
+
+35
+00:02:00,399 --> 00:02:03,639
+Distance? Direction? You
+can keep some of them.
+
+36
+00:02:03,719 --> 00:02:05,309
+You can never keep all of them.
+
+37
+00:02:07,829 --> 00:02:11,249
+The most famous choice was made in 1569 by
+
+38
+00:02:11,329 --> 00:02:14,279
+a Flemish mapmaker
+called Gerardus Mercator.
+
+39
+00:02:15,029 --> 00:02:18,899
+On his map, a line of constant
+compass bearing is a straight line.
+
+40
+00:02:19,609 --> 00:02:21,539
+For a sailor, that is everything.
+
+41
+00:02:22,309 --> 00:02:26,439
+Draw a line between two ports, measure the
+angle, hold that bearing, and you arrive.
+
+42
+00:02:27,396 --> 00:02:29,246
+So the map is not simply wrong.
+
+43
+00:02:29,956 --> 00:02:31,906
+It is wrong in a very useful way.
+
+44
+00:02:32,296 --> 00:02:35,006
+But there is a price, and
+the price is arithmetic.
+
+45
+00:02:36,136 --> 00:02:39,846
+The further you go from the equator,
+the more the map stretches things.
+
+46
+00:02:40,856 --> 00:02:43,486
+And it stretches them in
+both directions at once.
+
+47
+00:02:44,383 --> 00:02:48,893
+Oslo sits far enough north that it covers
+four times the area it actually has.
+
+48
+00:02:49,883 --> 00:02:52,493
+The middle of Greenland? Ten times.
+
+49
+00:02:53,443 --> 00:02:55,303
+The northern tip of Greenland is stretched
+
+50
+00:02:55,383 --> 00:02:58,113
+more than eighty times
+beyond its real size.
+
+51
+00:02:59,065 --> 00:03:01,835
+Which is why Greenland is
+not what you think it is.
+
+52
+00:03:02,505 --> 00:03:03,955
+It is smaller than the Congo.
+
+53
+00:03:04,905 --> 00:03:06,355
+It is smaller than Algeria.
+
+54
+00:03:07,385 --> 00:03:11,655
+And South America, which on this map looks
+smaller, is more than eight times bigger.
+
+55
+00:03:12,436 --> 00:03:17,566
+Watch what happens if we slide Greenland
+down towards the equator. It shrinks.
+
+56
+00:03:18,116 --> 00:03:20,306
+Push it back north. It grows again.
+
+57
+00:03:21,091 --> 00:03:24,541
+Greenland hasn't changed. The map has.
+
+58
+00:03:25,029 --> 00:03:28,299
+And at the poles themselves,
+the stretching becomes infinite.
+
+59
+00:03:29,269 --> 00:03:32,819
+That is why a Mercator world
+map usually cuts the poles off.
+
+60
+00:03:33,629 --> 00:03:35,939
+The projection cannot actually reach them.
+
+61
+00:03:36,606 --> 00:03:39,576
+And yet this is the map most
+of us grew up looking at.
+
+62
+00:03:42,416 --> 00:03:43,926
+Fine. Let's fix it.
+
+63
+00:03:44,616 --> 00:03:48,906
+If the problem is area, let's
+preserve area instead. And it works.
+
+64
+00:03:50,036 --> 00:03:51,966
+Africa finally looks like Africa.
+
+65
+00:03:52,656 --> 00:03:54,086
+And Greenland stops pretending.
+
+66
+00:03:55,064 --> 00:03:56,264
+Problem solved.
+
+67
+00:03:57,141 --> 00:03:58,871
+Except now the shapes are wrong.
+
+68
+00:03:59,001 --> 00:04:01,591
+Africa is stretched tall and thin.
+
+69
+00:04:02,081 --> 00:04:03,911
+Everything looks slightly melted.
+
+70
+00:04:04,814 --> 00:04:09,324
+So we choose a projection that protects
+the shapes, and the areas go wrong again.
+
+71
+00:04:10,334 --> 00:04:12,294
+Or we protect distances
+from one particular
+
+72
+00:04:12,374 --> 00:04:14,644
+point, and everything else drifts.
+
+73
+00:04:15,429 --> 00:04:18,439
+And this is where it stops
+being a question about geometry.
+
+74
+00:04:21,539 --> 00:04:24,779
+In 2017, the public schools in Boston took
+
+75
+00:04:24,859 --> 00:04:27,369
+the Mercator maps off
+their classroom walls.
+
+76
+00:04:28,206 --> 00:04:30,046
+They replaced them with an equal-area map,
+
+77
+00:04:30,126 --> 00:04:32,976
+in the second, seventh
+and eleventh grades.
+
+78
+00:04:33,686 --> 00:04:36,916
+They were the first school
+district in the country to do it.
+
+79
+00:04:37,605 --> 00:04:39,595
+The argument was not about navigation.
+
+80
+00:04:40,825 --> 00:04:42,885
+It was that children
+spend years looking at a
+
+81
+00:04:42,965 --> 00:04:45,855
+world where some continents
+are quietly inflated.
+
+82
+00:04:46,765 --> 00:04:48,335
+It made headlines everywhere.
+
+83
+00:04:49,204 --> 00:04:51,614
+But the interesting part
+is not the argument.
+
+84
+00:04:52,384 --> 00:04:53,874
+It's what the new map does.
+
+85
+00:04:54,699 --> 00:04:56,809
+Because the new map is not the true one.
+
+86
+00:04:57,439 --> 00:04:59,069
+It is simply a different compromise.
+
+87
+00:05:00,139 --> 00:05:03,069
+It gets the sizes right by
+getting the shapes wrong.
+
+88
+00:05:03,802 --> 00:05:05,492
+So which of the two is correct?
+
+89
+00:05:06,562 --> 00:05:08,272
+None of them. And all of them.
+
+90
+00:05:10,862 --> 00:05:14,432
+It's a bit like asking which photograph
+of a person is the most accurate.
+
+91
+00:05:15,402 --> 00:05:19,572
+From the front? From the side?
+A thermal image? An X-ray?
+
+92
+00:05:20,735 --> 00:05:22,445
+They are all the same person.
+
+93
+00:05:23,155 --> 00:05:25,225
+They are just preserving
+different information.
+
+94
+00:05:28,145 --> 00:05:31,435
+But hang on. There is one map that
+doesn't have to do any of this.
+
+95
+00:05:31,945 --> 00:05:34,795
+It might be sitting on your
+desk. Or in a classroom.
+
+96
+00:05:35,773 --> 00:05:36,973
+A globe.
+
+97
+00:05:37,570 --> 00:05:42,570
+Nothing has been flattened, so nothing
+has been stretched. You can measure areas.
+
+98
+00:05:42,650 --> 00:05:44,060
+You can compare shapes.
+
+99
+00:05:44,870 --> 00:05:47,900
+Greenland doesn't get inflated
+just for being far north.
+
+100
+00:05:48,550 --> 00:05:50,060
+The poles are simply there.
+
+101
+00:05:50,728 --> 00:05:52,598
+So is the globe the honest map?
+
+102
+00:05:53,558 --> 00:05:55,148
+Well. Not entirely.
+
+103
+00:05:56,055 --> 00:05:59,325
+Start with the shape.
+The Earth isn't a sphere.
+
+104
+00:06:00,175 --> 00:06:03,065
+It bulges at the equator by
+about twenty-one kilometres.
+
+105
+00:06:04,315 --> 00:06:07,195
+On a school globe, that bulge
+would be half a millimetre.
+
+106
+00:06:07,275 --> 00:06:09,265
+So it simply isn't there.
+
+107
+00:06:10,026 --> 00:06:11,376
+Neither is the ground.
+
+108
+00:06:12,306 --> 00:06:16,196
+On that same globe, Everest would
+stand two tenths of a millimetre tall.
+
+109
+00:06:16,326 --> 00:06:20,416
+The highest place on the planet, and you
+could not feel it with your fingertips.
+
+110
+00:06:21,411 --> 00:06:22,611
+Then there is scale.
+
+111
+00:06:23,531 --> 00:06:27,261
+A globe like that is about forty
+million times smaller than the Earth.
+
+112
+00:06:27,571 --> 00:06:29,461
+So there are no streets on it.
+
+113
+00:06:30,031 --> 00:06:31,621
+No rivers you could follow.
+
+114
+00:06:32,331 --> 00:06:34,801
+Most cities are a dot,
+if they are there at all.
+
+115
+00:06:35,510 --> 00:06:37,580
+And then there is my favourite part.
+
+116
+00:06:38,270 --> 00:06:39,960
+How do you think a globe is made?
+
+117
+00:06:40,771 --> 00:06:42,081
+It is printed flat.
+
+118
+00:06:42,491 --> 00:06:46,541
+Usually on twelve tapered strips,
+which are then pasted onto a ball.
+
+119
+00:06:47,375 --> 00:06:49,405
+Which is the orange, running backwards.
+
+120
+00:06:50,435 --> 00:06:52,365
+The distortion never went away.
+
+121
+00:06:52,835 --> 00:06:55,015
+It was cut into pieces
+narrow enough for the
+
+122
+00:06:55,095 --> 00:06:57,705
+paper to absorb, and
+hidden along the seams.
+
+123
+00:06:58,640 --> 00:07:01,210
+So the globe does solve
+the problem of projection.
+
+124
+00:07:02,256 --> 00:07:04,606
+It does not solve the
+problem of representation.
+
+125
+00:07:08,066 --> 00:07:10,606
+And that distinction is
+the whole of this video.
+
+126
+00:07:10,686 --> 00:07:14,456
+Because the real question was
+never how to flatten a planet.
+
+127
+00:07:14,946 --> 00:07:17,096
+It was what we want a map to do.
+
+128
+00:07:17,830 --> 00:07:20,500
+Which brings us to one of
+the best maps ever drawn.
+
+129
+00:07:21,610 --> 00:07:25,010
+In 1933, London Underground
+published a diagram
+
+130
+00:07:25,090 --> 00:07:28,180
+by an engineering draughtsman
+called Harry Beck.
+
+131
+00:07:28,979 --> 00:07:30,849
+The stations are not where they are.
+
+132
+00:07:31,399 --> 00:07:34,469
+The distances are wrong.
+The angles are wrong.
+
+133
+00:07:35,259 --> 00:07:37,749
+The geography is almost
+entirely destroyed.
+
+134
+00:07:38,723 --> 00:07:40,053
+And nobody complains.
+
+135
+00:07:41,251 --> 00:07:44,581
+In fact, it works so well that
+it changes what people do.
+
+136
+00:07:45,451 --> 00:07:49,361
+Leicester Square and Covent Garden are
+two hundred and sixty metres apart.
+
+137
+00:07:50,291 --> 00:07:52,481
+It is the shortest gap
+on the whole network.
+
+138
+00:07:53,426 --> 00:07:55,526
+The train takes forty-five seconds.
+
+139
+00:07:55,606 --> 00:07:57,816
+Walking takes four minutes.
+
+140
+00:07:57,926 --> 00:08:00,466
+And people still take
+the train, because on
+
+141
+00:08:00,546 --> 00:08:03,256
+the map, those two
+stations look far apart.
+
+142
+00:08:03,873 --> 00:08:07,383
+That map is wrong about the city
+in almost every way it could be.
+
+143
+00:08:08,233 --> 00:08:11,643
+And it is still the right map,
+because it isn't describing the city.
+
+144
+00:08:12,473 --> 00:08:14,183
+It is describing the system.
+
+145
+00:08:15,002 --> 00:08:17,452
+Which is the thing we have
+been circling all along.
+
+146
+00:08:18,262 --> 00:08:21,232
+A map does not have to be
+faithful to physical reality.
+
+147
+00:08:22,042 --> 00:08:24,732
+It has to be faithful to
+the question you are asking.
+
+148
+00:08:27,742 --> 00:08:29,822
+And that is why the map in your pocket is
+
+149
+00:08:29,902 --> 00:08:32,672
+quietly stranger than
+any of the paper ones.
+
+150
+00:08:33,491 --> 00:08:35,101
+Because it is still Mercator.
+
+151
+00:08:35,871 --> 00:08:38,391
+Zoom in on your own street,
+and you are looking at
+
+152
+00:08:38,471 --> 00:08:41,121
+a projection designed for
+sixteenth century sailors.
+
+153
+00:08:42,101 --> 00:08:44,651
+But zoom out far enough,
+and something happens.
+
+154
+00:08:45,741 --> 00:08:49,051
+Since 2018, if you pull back
+far enough on a computer,
+
+155
+00:08:49,301 --> 00:08:51,671
+the map stops being a
+map and becomes a globe.
+
+156
+00:08:52,503 --> 00:08:55,613
+Greenland shrinks back to
+the size it has always been.
+
+157
+00:08:56,333 --> 00:08:58,523
+And that is a genuinely new idea.
+
+158
+00:08:59,233 --> 00:09:01,783
+A digital map does not
+have to be one projection.
+
+159
+00:09:02,767 --> 00:09:04,377
+It can use one for navigation.
+
+160
+00:09:05,327 --> 00:09:07,117
+Another for comparing areas.
+
+161
+00:09:07,267 --> 00:09:10,857
+Another for showing routes, or
+population, or flight paths.
+
+162
+00:09:11,741 --> 00:09:14,261
+Instead of one map pretending
+to be the world, we can
+
+163
+00:09:14,341 --> 00:09:17,691
+have many maps, each answering
+one question honestly.
+
+164
+00:09:21,211 --> 00:09:25,141
+So the next time you look at a world
+map, don't ask whether it is correct.
+
+165
+00:09:26,071 --> 00:09:28,021
+Ask what it is trying to get right.
+
+166
+00:09:28,840 --> 00:09:32,150
+Because the answer will also
+tell you what it is lying about.
+
+167
+00:09:32,989 --> 00:09:35,399
+There is no map that
+tells the whole truth.
+
+168
+00:09:35,969 --> 00:09:39,339
+There is only a map that tells you
+which truth it chose to preserve.
+
+169
+00:09:40,319 --> 00:09:43,069
+And perhaps that is the
+real reason maps lie.
+
+170
+00:09:43,914 --> 00:09:45,544
+Not because they are wrong.
+
+171
+00:09:46,421 --> 00:09:48,591
+But because they cannot
+show us everything.

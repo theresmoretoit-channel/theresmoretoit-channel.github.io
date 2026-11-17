@@ -1,0 +1,687 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Mem, ale BEZ nápisu. Recenzent chtěl nechat obrázek chvíli nevysvětlený. Zavádí se tu rozvržení: žena u racku vlevo, kolemjdoucí vpravo, mezi nimi prázdno, do kterého v S02 přistane nápis. To místo se do konce videa nesmí hnout.",
+      "diagram_generator": "mem",
+      "diagram": "žena sedící u serverového racku se dvěma monitory vlevo, postava procházející kolem vpravo, mezi nimi prázdné pásmo; na monitorech jen náznak textu, nic čitelného"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "BEAT. Jediná změna proti S01: do prázdna mezi postavami přistane nápis a kolemjdoucí zvedne ruku. Ne nový obrázek — jeden obraz, ve kterém se mění jedna věc.",
+      "diagram_generator": "mem",
+      "diagram": "totéž rozvržení jako S01, ale kolemjdoucí ukazuje na ženu a v prázdnu mezi nimi velký ambrový nápis YOU HACKED IT!",
+      "pause": 1.8
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Druhý beat téhož obrazu: nápis zešedne a vedle něj se objeví otazník. Odpověď „well... maybe\" je vizuálně pochybnost o tom nápisu, ne nová scéna.",
+      "diagram_generator": "mem",
+      "diagram": "totéž jako S02, ale nápis YOU HACKED IT! ztlumený a za ním velký ambrový otazník"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Dvě otázky videa vedle sebe. Druhá je ambrová, protože to je ta, kvůli které video je.",
+      "diagram_generator": "mem",
+      "diagram": "dvě otázky pod sebou uprostřed prázdné plochy: WHY DOES A TERMINAL LOOK LIKE HACKING? ztlumeně a WHAT DOES HACKING ACTUALLY LOOK LIKE? ambrově",
+      "pause": 2.4
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "ZAVÁDÍ TERMINÁLOVÝ RÁMEČEK — páteř celého videa. Vlevo okno s tlačítky, vpravo tentýž rámeček s promptem. Od téhle scény do konce leží rámeček vždycky na témže místě; kdyby se posunul, návraty v S16, S38 a S49 se nepoznají.",
+      "diagram_generator": "terminal",
+      "diagram": "vlevo grafické okno s titulkovým pruhem a třemi tlačítky, vpravo tmavý terminálový rámeček s jediným řádkem: dolar a kurzor; mezi nimi svislá dělicí čára"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Týž rámeček, do něj přistane příkaz. POZOR (factcheck.md): 'sudo userdel -r john' je JEN v obraze, Kokoro ho čte jako 'pseudo-userdle are John'.",
+      "diagram_generator": "terminal",
+      "diagram": "vlevo tlačítko s popiskem DELETE USER, vpravo v terminálovém rámečku příkaz sudo userdel -r john"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Dvojí čtení téhož řádku — první výskyt rozvržení, které se vrací v S21, S30 a S64. Vlevo zkušený uživatel, vpravo všichni ostatní.",
+      "diagram_generator": "terminal",
+      "diagram": "terminálový rámeček uprostřed s příkazem, od něj dvě šipky dolů: vlevo popisek PERFECTLY ORDINARY ztlumeně, vpravo ABOUT TO LAUNCH A MISSILE ambrově",
+      "pause": 2.2
+    },
+    {
+      "id": "S08",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S08.png",
+      "note": "Skutečný textový terminál. Konkrétní historický předmět, tedy archiv, ne model — 'dá se to vyfotit? pak to model kreslit nemá'.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "DEC VT100 terminal",
+        "pick": 4,
+        "grade": {
+          "fit": 0.9,
+          "tint_amount": 8,
+          "saturation": 80
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Fosfor. Barva obrazovky JE předmět scény, takže se tady potlačuje sepiový nádech z archive_grade (tint_amount 0, saturation 100) — jinak video o zeleném a ambrovém fosforu ukazuje hnědou. Doloženo ve factcheck.md. Výřez je nutný: na původní fotce je vedle terminálu moderní LCD, myš a papíry, což tvrzení o dobových terminálech podkopává.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "VT220",
+        "pick": 1,
+        "grade": {
+          "zoom": [
+            0.53,
+            0.05,
+            0.4,
+            0.3
+          ],
+          "tint_amount": 0,
+          "saturation": 100,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Film objevil, že to vypadá technicky. Rámeček se plní textem, ale čitelné jsou jen ty tři hollywoodské řádky.",
+      "diagram_generator": "historie",
+      "diagram": "terminálový rámeček zaplněný ztlumenými nečitelnými řádky, mezi nimi tři čitelné ambrové: ACCESSING MAINFRAME, BYPASSING SECURITY, DECRYPTING"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Verdikt mozku. Od rámečku šipka k jedinému slovu — a to slovo je závěr, ne popis.",
+      "diagram_generator": "historie",
+      "diagram": "tentýž zaplněný rámeček, pod ním šipka dolů k velkému ambrovému nápisu ILLEGAL",
+      "pause": 2.5
+    },
+    {
+      "id": "S12",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S12.png",
+      "note": "Atmosféra, ne schéma. Šest monitorů a nerozsvícená místnost. Text na monitorech bude nečitelný a to je v pořádku — scéna si z toho dělá legraci. [kolo 1 dalo prosluněný denní interiér u všech šesti scén — kotva stylu měla „warm amber accent\" a model si to přečetl jako denní světlo; navíc byla „hooded figure\" v negativu, ačkoli ji S59 potřebuje. Kolo 1 odloženo ve scratchpadu.]",
+      "prompt": "a single figure seen from behind, alone, sitting close to a bank of six computer monitors in a windowless room at night, the monitors are the only light in the picture, the rest of the room is almost black, cold blue screen glow on the back of the figure's head"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Rychlost psaní jako absurdita. Číslo je ve scénáři, takže smí být v obraze — ale NE srovnání s rekordy, to scénář netvrdí (factcheck.md to má doložené pro odpovědi v komentářích).",
+      "diagram_generator": "hollywood",
+      "diagram": "ruce nad klávesnicí naznačené několika čarami pohybu, nad nimi velký ambrový nápis 900 WPM s popiskem APPARENTLY"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Progress bar. Musí být čitelný, tedy diagram. Sedí v terminálovém rámečku, aby se poznalo, že je to pořád tatáž obrazovka.",
+      "diagram_generator": "hollywood",
+      "diagram": "v terminálovém rámečku vodorovný ukazatel průběhu vyplněný na 99 procent, pod ním čísla 97 98 99 a ambrové 100"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Pointa. Jen dvě slova v rámečku, nic jiného. Scéna má naveti kvůli TTS.",
+      "diagram_generator": "hollywood",
+      "diagram": "prázdný terminálový rámeček a v něm jediný velký ambrový řádek: I'M IN.",
+      "pause": 2.0,
+      "naveti": "The hacker leans back and says."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Totéž místo, jiná odpověď. Rámeček zůstal, změnil se řádek — to je celý argument scény.",
+      "diagram_generator": "realita",
+      "diagram": "tentýž terminálový rámeček, v něm příkaz ssh a pod ním červenavě ztlumené permission denied"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Beat. Přibyl druhý permission denied, nic víc.",
+      "diagram_generator": "realita",
+      "diagram": "tentýž rámeček se dvěma řádky permission denied pod sebou"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Kontrolní seznam, na jehož konci je banální příčina. Poslední položka ambrová.",
+      "diagram_generator": "realita",
+      "diagram": "svislý seznam odškrtnutých položek: PASSWORD, USERNAME, NETWORK, DOCUMENTATION, ERROR MESSAGE, a pod ním ambrově PASSWORD LOGINS TURNED OFF SIX MONTHS AGO"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Kapitulace. Prázdný rámeček a jedno slovo — zrcadlo S15.",
+      "diagram_generator": "realita",
+      "diagram": "prázdný terminálový rámeček a v něm jediné ztlumené slovo: RIGHT.",
+      "pause": 2.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Jeden znak v konfiguráku. Musí být vidět, KTERÝ — jinak scéna netvrdí nic.",
+      "diagram_generator": "realita",
+      "diagram": "blok konfiguračního souboru o pěti řádcích, v jednom z nich je jediný znak zvýrazněný ambrovým kroužkem, vedle popisek TWENTY MINUTES",
+      "pause": 2.4
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Rozdělená obrazovka. Tytéž nástroje na obou stranách — a je to týž terminálový rámeček dvakrát, ne dva různé.",
+      "diagram_generator": "rozhrani",
+      "diagram": "svislá dělicí čára uprostřed, nalevo nadpis SYSTEM ADMINISTRATOR, napravo HACKER, pod oběma tentýž seznam nástrojů: ssh, nmap, logs, tcpdump"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "K čemu terminál slouží. Výčet kolem rámečku, ne pod ním.",
+      "diagram_generator": "rozhrani",
+      "diagram": "terminálový rámeček uprostřed a kolem něj rozmístěné popisky: RUN A SERVER, READ LOGS, COPY FILES, INSTALL SOFTWARE, FIND WHAT BROKE"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Tytéž šipky, ale dvě míří jinam. Ambrová je jen ta poslední.",
+      "diagram_generator": "rozhrani",
+      "diagram": "tentýž rámeček, od něj dvě šipky doprava: SECURITY TESTING ztlumeně a AN ATTACK ambrově, mezi nimi popisek WITH PERMISSION / WITHOUT"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Šroubovák. Teze videa a jediná scéna, kde není terminál — právě proto, že je to analogie odjinud.",
+      "diagram_generator": "rozhrani",
+      "diagram": "šroubovák uprostřed, od něj dvě šipky: vlevo REPAIRS ztlumeně, vpravo DESTROYS ambrově, dole velký nápis THE SCREWDRIVER IS NOT THE CRIMINAL",
+      "pause": 2.6
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Slovo samo. Velké, uprostřed, nic jiného — zavádí čtvrtou kapitolu.",
+      "diagram_generator": "slovo",
+      "diagram": "jediné velké slovo HACKER uprostřed prázdné plochy, pod ním ztlumeně letopočtová osa bez čísel"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Původní význam. Dvě vlastnosti, ne definice.",
+      "diagram_generator": "slovo",
+      "diagram": "slovo HACKER nahoře, pod ním dvě větve: EXPLORES SYSTEMS a FINDS UNEXPECTED SOLUTIONS"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Posun významu. Šipka od původního k bezpečnostnímu.",
+      "diagram_generator": "slovo",
+      "diagram": "slovo HACKER a od něj ambrová šipka k popisku COMPUTER SECURITY, původní dvě větve ztlumené"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Čtyři dnešní významy vedle sebe. Poslední je vtip, takže ambrový.",
+      "diagram_generator": "slovo",
+      "diagram": "čtyři rámečky v řadě: SECURITY RESEARCHER, PENETRATION TESTER, ATTACKER, a ambrově KNOWS A LOT ABOUT LINUX",
+      "pause": 2.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "NÁVRAT K MEMU, potřetí a poprvé s vysvětlením. Totéž rozvržení jako S01, nápis je zpátky.",
+      "diagram_generator": "mem",
+      "diagram": "totéž rozvržení jako S02 s nápisem YOU HACKED IT!, ale kolem obou monitorů ambrový rámeček přiblížení"
+    },
+    {
+      "id": "S29b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29b.png",
+      "note": "Přiblížení na monitory. Tady poprvé vidíme, co na nich je. Text musí být čitelný, tedy diagram.",
+      "diagram_generator": "mem",
+      "diagram": "dva terminálové rámečky vedle sebe, v levém výstup příkazu nmap se seznamem portů, v pravém cesta /etc/passwd a pod ní pár řádků se jmény účtů"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Dvojí čtení, potřetí (po S07 a S21). Táž obrazovka, dvě čtení pod sebou.",
+      "diagram_generator": "mem",
+      "diagram": "uprostřed oba monitory ztlumeně, od nich dvě šipky: nahoru BREAKING INTO THE PENTAGON ambrově, dolů CHECKING THE NETWORK, READING A LIST OF ACCOUNTS ztlumeně"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Odpověď scény: možná dělá svou práci. Ambrová je ta nudná varianta, což je pointa.",
+      "diagram_generator": "mem",
+      "diagram": "žena u racku sama, bez kolemjdoucího, pod ní ambrový popisek SHE MIGHT JUST BE DOING HER JOB"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Co nmap je. Formulace je doslovná shoda s nmap.org (factcheck.md).",
+      "diagram_generator": "nmap",
+      "diagram": "nápis nmap nahoře a pod ním dva popisky: NETWORK DISCOVERY a SECURITY AUDITING"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Otázka, kterou nmap klade. Dva počítače a mezi nimi dotaz.",
+      "diagram_generator": "nmap",
+      "diagram": "dva rámečky počítačů vedle sebe, mezi nimi ambrová šipka doprava a nad ní otázka WHAT ARE YOU EXPOSING?"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Porty a služby. Čísla portů jsou v OBRAZE, ne v hlase — scénář je nevyslovuje.",
+      "diagram_generator": "nmap",
+      "diagram": "svislý sloupec portů: 22 SSH, 80 HTTP, 443 HTTPS, každý s ambrovým kroužkem OPEN, vedle popisek PORTS ARE SERVICES"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Analogie s budovou. Jediná scéna kapitoly bez terminálu.",
+      "diagram_generator": "nmap",
+      "diagram": "průčelí budovy s několika dveřmi, dvoje otevřené a ambrové, nad ním otázka WHICH DOORS ARE OPEN?"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Táž budova, jiný majitel. Rozdíl je v popisku, ne v kresbě.",
+      "diagram_generator": "nmap",
+      "diagram": "tatáž budova, vlevo popisek YOUR BUILDING ztlumeně, vpravo SOMEONE ELSE'S ambrově"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Beat po pauze. Jen popisek, obraz zůstává.",
+      "diagram_generator": "nmap",
+      "diagram": "tatáž budova ztlumená a přes ni ambrový nápis A DIFFERENT STORY",
+      "pause": 2.5
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Návrat k terminálovému rámečku. Mylné čtení jako první.",
+      "diagram_generator": "passwd",
+      "diagram": "terminálový rámeček s cestou /etc/passwd, nad ním bublina s textem SHE IS READING THE PASSWORD FILE a otazníkem"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Dva soubory a jejich oprávnění. Čísla jsou změřená na stroji (factcheck.md), takže je obraz smí tvrdit.",
+      "diagram_generator": "passwd",
+      "diagram": "dva rámečky pod sebou: /etc/passwd s popiskem READABLE BY EVERYONE a /etc/shadow ambrově s popiskem RESTRICTED, u druhého zámek"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Vyvrácení. Přeškrtnutá rovnice, škrt vodorovnou čarou přes text, ne křížek.",
+      "diagram_generator": "passwd",
+      "diagram": "rovnice SEEING /etc/passwd = EVERYONE'S PASSWORDS přeškrtnutá vodorovnou ambrovou čarou"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Co to doopravdy je. Prostý výpis.",
+      "diagram_generator": "passwd",
+      "diagram": "terminálový rámeček s několika řádky jmen účtů, pod ním ambrový popisek A LIST OF USERS"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Druhý hollywoodský ukazatel, záměrně skoro shodný s S14 — divák to má poznat jako opakování.",
+      "diagram_generator": "hollywood",
+      "diagram": "v terminálovém rámečku ukazatel průběhu s nápisem CRACKING PASSWORD a čísly 12, 64, 91, vedle ambrový popisek FOURTEEN SECONDS"
+    },
+    {
+      "id": "S43",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S43.png",
+      "note": "Sendvič. Nejlepší vtip kapitoly a patří mu vlastní obraz, ne schéma. [kolo 1 dalo prosluněný denní interiér u všech šesti scén — kotva stylu měla „warm amber accent\" a model si to přečetl jako denní světlo; navíc byla „hooded figure\" v negativu, ačkoli ji S59 potřebuje. Kolo 1 odloženo ve scratchpadu.]",
+      "prompt": "a person leaning right back in a chair with both hands holding a large sandwich, mouth full, not touching the keyboard at all, a computer screen glowing on the desk beside them doing the work, dark room at night, only the screen lights the scene",
+      "seed": 733419002
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Návrat k rychlému psaní. Týž nápis jako v S13, tedy vizuální rým.",
+      "diagram_generator": "hollywood",
+      "diagram": "tytéž ruce s čarami pohybu jako v S13, nad nimi nápis FASTER = MORE HACKING přeškrtnutý vodorovnou čarou"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Co dělají doopravdy. Svislý seznam, poslední položka ambrová.",
+      "diagram_generator": "psani",
+      "diagram": "svislý seznam: THINK, READ, STARE AT AN ERROR, každá položka s malým odsazením"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Jedenáct let stará odpověď. Číslo je ve scénáři, takže smí být v obraze.",
+      "diagram_generator": "psani",
+      "diagram": "rámeček odpovědi z internetového fóra se ztlumeným textem, vedle ambrový popisek ELEVEN YEARS AGO a šipka COPY"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Pointa kapitoly. Jediný nápis.",
+      "diagram_generator": "psani",
+      "diagram": "velký ambrový nápis THAT IS COMPUTER SCIENCE uprostřed prázdné plochy",
+      "pause": 2.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Nebezpečné není totéž co tajemné. Dva rámečky proti sobě.",
+      "diagram_generator": "prikazy",
+      "diagram": "vlevo rámeček MYSTERIOUS HACKING COMMAND s otazníkem, vpravo ambrový PERFECTLY LEGITIMATE"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Slavný příklad. Jen příkaz v rámečku, nic víc — beat.",
+      "diagram_generator": "prikazy",
+      "diagram": "terminálový rámeček a v něm jediný ambrový řádek: sudo rm -rf /"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "POZOR (factcheck.md): hláška se CITUJE PŘESNĚ, ne parafrázuje. Doslovné znění z tests/rm/r-root.sh.",
+      "diagram_generator": "prikazy",
+      "diagram": "tentýž rámeček, pod příkazem dva řádky odpovědi doslova: 'rm: it is dangerous to operate recursively on /' a 'rm: use --no-preserve-root to override this failsafe'"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Nudné příkazy, které opravdu ničí. Bez konkrétního příkazu — recenzent to výslovně nechtěl ukazovat.",
+      "diagram_generator": "prikazy",
+      "diagram": "dva ztlumené rámečky pod sebou s popisky A DELETE IN THE WRONG DIRECTORY a A DISK WRITTEN OVER THE WRONG DISK, u obou malý ambrový vykřičník"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Terminál nevaruje, protože neví. Otázka je jediné, co umí.",
+      "diagram_generator": "prikazy",
+      "diagram": "terminálový rámeček a v něm řádek ARE YOU ABSOLUTELY SURE?, kolem něj prázdno"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Pointa kapitoly. Odpověď a její důsledek.",
+      "diagram_generator": "prikazy",
+      "diagram": "tentýž rámeček s odpovědí YES a pod ním ambrový popisek IT MAY BELIEVE YOU",
+      "pause": 2.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Nejdůležitější tvrzení videa. Přeškrtnutá hollywoodská představa.",
+      "diagram_generator": "utok",
+      "diagram": "vlevo ztlumená ikona šesti monitorů přeškrtnutá, vpravo ambrový nápis A REAL ATTACK"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Výčet vektorů. Všechny stejně ztlumené — žádný není zvýrazněný, protože scénář neříká, který je nejčastější.",
+      "diagram_generator": "utok",
+      "diagram": "pět stejných rámečků pod sebou: STOLEN PASSWORD, PHISHING, UNPATCHED SERVER, LEAKED API KEY, REUSED PASSWORD"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Přihlašovací formulář. Nejnudnější obraz videa a to je záměr.",
+      "diagram_generator": "utok",
+      "diagram": "obyčejný přihlašovací formulář se dvěma poli USERNAME a PASSWORD a tlačítkem LOG IN, nic víc"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Co tam NENÍ. Tři přeškrtnuté položky.",
+      "diagram_generator": "utok",
+      "diagram": "tři ztlumené položky pod sebou, každá přeškrtnutá vodorovnou čarou: GREEN TEXT, MATRIX GRAPHICS, DRAMATIC MUSIC"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Beat. Jediný nápis na prázdné ploše.",
+      "diagram_generator": "utok",
+      "diagram": "velký ambrový nápis WHICH IS MUCH SCARIER uprostřed prázdné plochy",
+      "pause": 2.5
+    },
+    {
+      "id": "S59",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Stereotyp. Záměrně klišé, protože scéna ho vzápětí popírá. [kolo 1 dalo prosluněný denní interiér u všech šesti scén — kotva stylu měla „warm amber accent\" a model si to přečetl jako denní světlo; navíc byla „hooded figure\" v negativu, ačkoli ji S59 potřebuje. Kolo 1 odloženo ve scratchpadu.]",
+      "prompt": "a figure in a hood seen from behind at a desk in a completely dark windowless room, the only light is the faint glow of a keyboard from below, deliberately cliched, cold blue"
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S60.png",
+      "note": "Obyčejný člověk ve vlaku. Protiklad k S59 a musí být stejně dobře nakreslený, jinak scéna prohraje. [kolo 1 dalo prosluněný denní interiér u všech šesti scén — kotva stylu měla „warm amber accent\" a model si to přečetl jako denní světlo; navíc byla „hooded figure\" v negativu, ačkoli ji S59 potřebuje. Kolo 1 odloženo ve scratchpadu.]",
+      "prompt": "two passengers sitting in a dim railway carriage at night, one of them holding an open laptop on their knees, the laptop screen is the only bright thing in the picture, dark windows reflecting the interior"
+    },
+    {
+      "id": "S61",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Člověk před racky, který jen řeší, proč nejede databáze. Uzavírá trojici. [kolo 1 dalo prosluněný denní interiér u všech šesti scén — kotva stylu měla „warm amber accent\" a model si to přečetl jako denní světlo; navíc byla „hooded figure\" v negativu, ačkoli ji S59 potřebuje. Kolo 1 odloženo ve scratchpadu.]",
+      "prompt": "one person standing between two tall rows of server racks in a dark equipment room, holding a mug, lit only by the small indicator lights on the racks, looking tired rather than dramatic",
+      "pause": 2.4
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "NÁVRAT K MEMU počtvrté a naposled. Totéž rozvržení jako S01, plus otázka.",
+      "diagram_generator": "mem",
+      "diagram": "totéž rozvržení jako S02 s nápisem YOU HACKED IT!, pod ním ambrová otázka WAS SHE HACKING?"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Beat. Dvě odpovědi vedle sebe, obě stejně platné a stejně zvýrazněné.",
+      "diagram_generator": "mem",
+      "diagram": "dvě slova vedle sebe stejnou velikostí a stejnou barvou: MAYBE a MAYBE NOT, mezi nimi svislá čára",
+      "pause": 2.0
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Důkazy a jejich nulová průkaznost. Sloupec položek, pod ním jediný závěr.",
+      "diagram_generator": "mem",
+      "diagram": "svislý seznam A TERMINAL, NMAP, A LIST OF ACCOUNTS, A SERVER RACK, pod ním vodorovná čára a ambrový nápis PROVES NOTHING"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Pointa videa. Ambrový nápis, nic jiného.",
+      "diagram_generator": "mem",
+      "diagram": "velký ambrový nápis AND THAT IS THE JOKE uprostřed prázdné plochy",
+      "pause": 2.6
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Co rozdíl NENÍ. První dvě položky, přeškrtnuté.",
+      "diagram_generator": "zaver",
+      "diagram": "dvě přeškrtnuté položky pod sebou: THE COLOUR OF YOUR TERMINAL a HOW MANY MONITORS"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Zbylé dvě položky přeškrtnuté a pod nimi odpověď. Jediná ambrová věc je ta odpověď.",
+      "diagram_generator": "zaver",
+      "diagram": "další dvě přeškrtnuté položky HOW FAST YOU TYPE a A HOODIE, pod nimi vodorovná čára a ambrový nápis WHAT YOU ARE DOING, AND WHETHER YOU HAVE PERMISSION"
+    },
+    {
+      "id": "S68",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S68.png",
+      "note": "Návrat k úvodní situaci, ale zvenčí a klidně. Zrcadlí S01. [kolo 1 dalo prosluněný denní interiér u všech šesti scén — kotva stylu měla „warm amber accent\" a model si to přečetl jako denní světlo; navíc byla „hooded figure\" v negativu, ačkoli ji S59 potřebuje. Kolo 1 odloženo ve scratchpadu.]",
+      "prompt": "one small figure seen from far away, alone at a single desk in a vast open-plan office in the middle of the night, every other desk dark and empty, one small pool of light from a single desk lamp, the ceiling lights are off, deep shadow everywhere else",
+      "seed": 1120884517
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Odpověď na úvodní scénu. Jediný nápis.",
+      "diagram_generator": "zaver",
+      "diagram": "ambrový nápis THEY MIGHT JUST BE FIXING THE SERVER uprostřed prázdné plochy"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Vtip se vrací. Týž nápis jako v S13 a S44, potřetí — vizuální rým se zaplatí až tady.",
+      "diagram_generator": "zaver",
+      "diagram": "tytéž ruce s čarami pohybu jako v S13, nad nimi 900 WPM a bublina I'M IN!"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Závěrečná deska. Klidná, s textem NAHOŘE — dolní třetina a pravá strana zůstávají prázdné, protože tam YouTube klade karty a odkaz na další video.",
+      "diagram_generator": "zaver",
+      "diagram": "krátká věta THEN ASK WHAT THEY ARE DOING v horní třetině plátna, zbytek prázdný"
+    }
+  ]
+}

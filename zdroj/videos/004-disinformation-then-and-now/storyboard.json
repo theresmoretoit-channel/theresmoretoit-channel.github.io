@@ -1,0 +1,601 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Ustavující záběr. Prázdno kolem vesnice je obsah scény — odsud se nikam nedovoláš. Jediná scéna videa, kde je zoom na atmosféře v pořádku.",
+      "prompt": "a small medieval village at dusk, thatched roofs, muddy track, a few tiny figures, wide empty landscape beyond, no signage"
+    },
+    {
+      "id": "S02",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Iluminace z rukopisu „monstrózních ras“ — přesně ten žánr, který takové historky produkoval. POZOR na variantu se svatým Kryštofem: bývá zobrazován se psí hlavou a technicky by seděl, ale ukazovat světce, když vypravěčka říká „žere děti“, je záměna, které by si znalý divák všiml.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "monstrous races medieval",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Zrcadlí se v S54, kde jsou tytéž tři cesty otevřené. Popisky povinné — bez nich je to jen tři čáry.",
+      "diagram_generator": "overit",
+      "diagram": "tři cesty k ověření (ZEPTAT SE / DOHLEDAT / POROVNAT), všechny tři přeškrtnuté; dole popiska NO WAY TO CHECK"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Šíření bez ověření. Data v obraze od prvního snímku, ne nájezd — divák čte prázdné osy jako rozbitý graf.",
+      "diagram_generator": "sireni",
+      "diagram": "jeden bod vlevo, z něj větvící se kaskáda do ~40 bodů vpravo; vodorovná osa popsaná DAY 1 … DAY 7"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Konec úvodu, obě otázky videa vedle sebe. Po ní pauza.",
+      "diagram_generator": "karta",
+      "diagram": "dvě otázky pod sebou: WERE THEY MORE STUPID? / WAS THERE MORE NONSENSE?",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S06.png",
+      "note": "Kometa z roku 1066 na Bayeuxské tapiserii, čtená jako znamení. 4021×2583, public domain. První nález byl 277×288 — do 2560×1440 by se nafoukl na kaši.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Bayeux Tapestry comet",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S07",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S07.png",
+      "note": "Pohřbívání obětí moru v Tournai — rukopis Gillese li Muisit, kolem 1353, tedy dobové vyobrazení morové rány. Zamítnuty dvě lákavější varianty: Toggenburská bible zobrazuje EGYPTSKOU ránu, ne mor, a Bruegelův Triumf smrti je z roku 1562. U videa o dezinformacích se obrázek nesmí tvářit na něco, čím není.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Black Death 1349 miniature chronicle",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Teze celého bloku. Karta, ne ilustrace — tuhle větu má divák přečíst.",
+      "diagram_generator": "karta",
+      "diagram": "velké NOT STUPID uprostřed, pod ním menší JUST WITHOUT THE INFORMATION"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Tichá pošta. Vysvětluje, jak z ověřitelné události vznikne monstrum — a splácí to S02.",
+      "diagram_generator": "retez",
+      "diagram": "pět karet s toutéž větou o krok dál (A WOLF KILLED A SHEEP → A MONSTER EATS CHILDREN), barva plynule z bílé do jantarové",
+      "pause": 2.2
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Přepínač z nevědomosti na úmysl. Krátká karta, ať to odsýpá.",
+      "diagram_generator": "karta",
+      "diagram": "velké LYING IS OLDER THAN ALL OF IT"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Čtyři motivy. Každá dlaždice má popisku — poučení z třetího videa, kde čtyři nepopsané obdélníky nikdo nepřečetl. Barva jednotná, protože nic nerozlišuje.",
+      "diagram_generator": "motivy",
+      "diagram": "čtyři popsané dlaždice: RULERS → PROPAGANDA, POLITICIANS → WARS, NEIGHBOURS → RUMOURS, EPIDEMICS → SOMEONE TO BLAME"
+    },
+    {
+      "id": "S12",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Štrasburk, 14. února 1349. STATICKY a bez zoomu — je to vyobrazení masakru, ne atmosféra. Kdyby se nenašlo vhodné vyobrazení, radši prázdná karta s datem než nepatřičný záběr.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "burning of Jews Black Death 1349 manuscript",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Nejdůležitější diagram videa. Ukazuje, že vyvrácení bylo známé PŘEDEM a písemně. Barva tu něco znamená: jantarová = tvrzení, které se šíří; bílá = doklad, který se nešíří.",
+      "diagram_generator": "strasburk",
+      "diagram": "vlevo obvinění THEY POISONED THE WELLS (jantarově), vpravo doklad z papežské buly THE PLAGUE KILLS WHERE NO JEWS LIVE, mezi nimi datum 26 SEPTEMBER 1348 → 14 FEBRUARY 1349"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Že to jelo dál i po vyvrácení. Osa popsaná roky, body městy — žádný nepopsaný tvar.",
+      "diagram_generator": "strasburk",
+      "diagram": "časová osa 1348–1351 s body měst, na ní vyznačený Štrasburk"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Konec bloku. Po ní pauza.",
+      "diagram_generator": "karta",
+      "diagram": "velké NOT AN INVENTION OF THE INTERNET, pod ním THE INTERNET CHANGED SPEED AND REACH",
+      "pause": 2.6
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S16.png",
+      "note": "Lis. Pan po dílně dá scéně pohyb, který jinde v tomhle bloku není.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Gutenberg printing press",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Poznámka pod čarou je tu součástí obrazu: 28 000 je počet DOCHOVANÝCH vydání. Kdyby to v obraze nebylo, divák si to přečte jako počet vytištěných.",
+      "diagram_generator": "tisk",
+      "diagram": "mřížka drobných knižních hřbetů, nad ní číslo 28 000 a popiska EDITIONS THAT SURVIVE, dole SURVIVE — NOT PRINTED"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Navazuje na S17 týmž prvkem — řád, ne přesné číslo. Vědomě bez čísla, viz factcheck.",
+      "diagram_generator": "tisk",
+      "diagram": "táž mřížka, rozrostlá přes celé plátno do ztracena, popiska MILLIONS OF BOOKS a pod ní IN FIFTY YEARS"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Eskalace dosahu. Popisky u každého oblouku.",
+      "diagram_generator": "dosah",
+      "diagram": "tři soustředné oblouky rostoucího dosahu: NEWSPAPER — A REGION, RADIO — A COUNTRY, TELEVISION — MILLIONS AT ONCE"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Obě větve stejně silné — v tom je celá pointa. Kdyby byla jedna tlustší, obraz by lhal.",
+      "diagram_generator": "nasobic",
+      "diagram": "jedna vstupní šipka se za značkou × dělí na dvě stejně silné: KNOWLEDGE a NONSENSE"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Klíčový obraz videa, vrací se v S57. Po něm pauza.",
+      "diagram_generator": "nasobic",
+      "diagram": "velké × uprostřed, po stranách TRUTH a LIES stejně velké; dole popiska A MULTIPLIER",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Welles v roce 1938. Čtvercový snímek (2740×2729) — výchozí režim rám VYPLNÍ a uřízne čelo, což divák nahlásil. Proto \"fit\": celý snímek se vejde do 84 % rámu a okolí je rozostřená kopie. STATICKY: portrét se nezoomuje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Orson Welles 1938 press",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Filmový týdeník Universal z 31. října 1938, den po vysílání. Je to zároveň obraz mýtu i jeho pachatel. PŮVODNĚ slow_zoom_in — divák nahlásil, že se lidem při nájezdu postupně ořezávají hlavy. Zoom na skupinový portrét nepatří, stejně jako na jednotlivý.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Orson Welles 1938 press",
+        "pick": 4,
+        "grade": {
+          "fit": 0.92
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Zlom celého bloku. 1,7 s řeči a dlouhá pauza — obraz musí být tak prostý, aby se stihl přečíst.",
+      "diagram_generator": "karta",
+      "diagram": "velké EXCEPT THAT IT DIDN'T HAPPEN na prázdném plátně",
+      "pause": 2.8
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Dvě procenta jako plocha, ne jako číslo. Sto svítících teček z pěti tisíc je vidět na první pohled.",
+      "diagram_generator": "radio",
+      "diagram": "mřížka 5 000 teček, v rohu souvislý blok 10×10 svítící jantarově a orámovaný; popisky 5 000 HOUSEHOLDS ASKED THAT NIGHT a 2%"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Nula jako tvrdý údaj. Prázdné rámečky by byly nečitelné — proto je v každém vypsaná nula.",
+      "diagram_generator": "radio",
+      "diagram": "tři prázdné rámečky popsané VERIFIED DEATHS / VERIFIED INJURIES / HOSPITAL RECORDS, ve všech velká nula"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Motiv novin. Žádná křivka s vymyšlenými čísly — o vývoji inzerce nemám data, takže jen směr, ne hodnoty.",
+      "diagram_generator": "radio",
+      "diagram": "dvě protisměrné šipky mezi PRINT a RADIO, popsané ADVERTISING MONEY; šipka k rádiu silná, k tisku tenká"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Navazuje na S27 týmž schématem, aby divák viděl, že je to tentýž mechanismus.",
+      "diagram_generator": "radio",
+      "diagram": "titulek novin nad schématem z S27, popsaný A VERY CONVENIENT STORY"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Pointa bloku a nejlepší moment videa: nejslavnější příklad masové hysterie je sám dezinformace. Po něm pauza.",
+      "diagram_generator": "radio",
+      "diagram": "smyčka: OLDER MEDIUM → STORY ABOUT → NEWER MEDIUM, celé orámované popiskou DISINFORMATION",
+      "pause": 2.6
+    },
+    {
+      "id": "S30",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30.png",
+      "note": "Atmosférický předěl mezi historií a dneškem. Jediné místo, kde je zoom na SDXL scéně na místě.",
+      "prompt": "a dark plain at night densely covered with countless tiny warm glowing lights stretching to the horizon, like a vast city seen from above, painterly",
+      "seed": 30301
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Přesný protějšek S03 — tytéž tři cesty, teď průchozí. Divák to má poznat na první pohled.",
+      "diagram_generator": "overit",
+      "diagram": "tvrzení nahoře, pod ním tři otevřené cesty k ověření se zelenými fajfkami; dole NEVER BEEN EASIER"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Strážci brány. Vrací se prvek z S19, aby bylo vidět, že je to týž dosah — jen kdo k němu měl přístup.",
+      "diagram_generator": "dosah",
+      "diagram": "trychtýř: milion lidí vpravo, vlevo tři úzká hrdla NEWSPAPER / RADIO / TELEVISION"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Punkt scéna, 2,2 s. Jeden rozdíl proti S32 a nic víc.",
+      "diagram_generator": "dosah",
+      "diagram": "týž trychtýř bez hrdel, vlevo jediná ikona telefonu popsaná A PHONE AND AN ACCOUNT"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Nejlepší věta scénáře potřebuje oba obrazy naráz, jinak kontrast nevznikne. Proto kresba, ne SDXL.",
+      "diagram_generator": "knihovna",
+      "diagram": "plátno rozdělené na půl: vlevo regály popsané LARGEST LIBRARY IN HISTORY, vpravo změť bublin popsaná LARGEST PUB IN HISTORY"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Vědomé zopakování S04 s jiným měřítkem času — sedm dní proti jednomu večeru. Po něm pauza.",
+      "diagram_generator": "sireni",
+      "diagram": "táž kaskáda jako v S04, ale hustší a s osou popsanou HOURS místo DAYS",
+      "pause": 2.2
+    },
+    {
+      "id": "S36",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S36.png",
+      "note": "Proč nás senzace táhne. Atmosféra, ne schéma. POZOR: zářící jiskra v davu je proti kotvě stylu (muted desaturated) a model ji čtyřikrát utopil — funguje až kontrast tvarem a protisvětlem, tedy tmavé siluety otočené k jedinému světlému místu.",
+      "prompt": "a crowd of dark ink silhouettes seen from behind, every head turned towards one small bright pale opening of light in the distance, strong backlight, high contrast between the dark shapes and the pale glow",
+      "seed": 36611
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Rozdíl je ve velikosti a barvě, tedy v tom, co scéna říká. Barva tu něco znamená.",
+      "diagram_generator": "titulky",
+      "diagram": "dva titulky pod sebou: nudný drobným písmem a šedě, senzační velkým a jantarově; u každého popiska BORING / CLICK"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Parametry studie v obraze, ať je vidět, že to není dojem. Vypsat i zdroj klasifikace — je to nejčastější námitka v komentářích.",
+      "diagram_generator": "studie",
+      "diagram": "karta studie: 126 000 STORIES / 3 MILLION PEOPLE / TWITTER 2006–2017 / SIX FACT-CHECKING ORGANISATIONS"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Graf. STATICKY a s daty od prvního snímku — obě pravidla ze zpětné vazby k třetímu videu.",
+      "diagram_generator": "studie",
+      "diagram": "dva vodorovné sloupce: TRUE a FALSE, u FALSE popiska +70% MORE LIKELY TO BE SHARED; vedle druhá dvojice s popiskou TIME TO REACH 1 500 PEOPLE a poměrem 6×"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Osa musí být popsaná jako logaritmická, jinak divák čte poměr špatně. Horní hranice, ne typická hodnota — popiska UP TO.",
+      "diagram_generator": "studie",
+      "diagram": "logaritmická osa dosahu 100 → 100 000, na ní pás pravdy končící u 1 000 a pás lží sahající k 100 000"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Že se po odebrání botů nic nezměnilo, je celý obsah scény. Musí to být vidět jako „stejné před i po“, ne jako nový graf.",
+      "diagram_generator": "studie",
+      "diagram": "táž dvojice sloupců jako v S39, nad nimi odstraněná vrstva popsaná BOTS; sloupce se nezmění"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nejsilnější věta videa. Po ní pauza.",
+      "diagram_generator": "karta",
+      "diagram": "velké THE DIFFERENCE WAS US na prázdném plátně",
+      "pause": 2.8
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Symetrie je obsah — oba problémy jsou stejně velké, jen opačné. Po ní pauza.",
+      "diagram_generator": "prilis",
+      "diagram": "dva vodorovné pruhy INFORMATION AVAILABLE TO ONE PERSON: THE MIDDLE AGES krátký (TOO LITTLE), NOW přes celou šířku (TOO MUCH)",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Rozdíl mezi hledáním a vytvářením v jednom obrázku.",
+      "diagram_generator": "ai",
+      "diagram": "dvě šipky vedle sebe: INTERNET → FIND IT, AI → MAKE IT"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Dokonale naformulovaná odpověď. Text v obraze musí být nečitelná sazba, ne skutečná věta — jinak ji divák bude číst místo poslouchat.",
+      "diagram_generator": "ai",
+      "diagram": "otázka vlevo, vpravo hladký odstavec textu jako sazba; mezi nimi popiska A FEW SECONDS"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Navazuje týmž obrazem, aby bylo vidět, že se nezměnil tvar odpovědi, jen její pravdivost.",
+      "diagram_generator": "ai",
+      "diagram": "týž odstavec jako v S45, přes něj jantarová popiska CONFIDENT a pod ním WRONG"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Že text byl jen začátek. Popisky povinné.",
+      "diagram_generator": "ai",
+      "diagram": "tři popsané dlaždice IMAGES / VIDEO / VOICE vedle původního TEXT, které je proti nim malé"
+    },
+    {
+      "id": "S48",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "note": "Svědek, který neexistuje. ZÁMĚRNĚ malované a rozpadající se — fotorealistický obličej by překlopil odpověď na dotaz YouTube „byla použita AI“ na ano.",
+      "prompt": "a painted portrait of an anonymous face dissolving at one edge into loose brushstrokes and fragments, muted palette, clearly a painting"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Konec bloku o AI a nová otázka, kterou video pokládá. Po ní pauza.",
+      "diagram_generator": "ai",
+      "diagram": "dvě otázky pod sebou, druhá jantarově: IS THIS TRUE? / WHO OR WHAT MADE IT?",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Odpověď na otázku z S05. Pořadí obrácené — nejdřív odpověď, pak otázka.",
+      "diagram_generator": "karta",
+      "diagram": "velké PROBABLY NOT, pod ním drobně SO WERE THEY MORE STUPID?"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Zpřesnění S43. Týž prvek, aby divák viděl vývoj, ne nový diagram.",
+      "diagram_generator": "prilis",
+      "diagram": "tři pruhy přes celou šířku: KNOWLEDGE, NONSENSE, TOOLS TO MAKE MORE"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Přerámování, ke kterému celé video směřuje. Přeškrtnutí je nutné — bez něj to čte jako dvě otázky, ne jako výměna.",
+      "diagram_generator": "karta",
+      "diagram": "přeškrtnutá otázka WERE THERE MORE LIES? a pod ní jantarově HOW HARD WAS IT TO FIND OUT?"
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Návrat k pocestnému z úvodu. Staticky — je to ohlédnutí, ne nový nájezd.",
+      "prompt": "a lone traveller on an empty road at dusk seen from behind, bare landscape, no buildings, painterly"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Uzavírá trojici S03 → S31 → S54. Divák má poznat týž obrázek potřetí.",
+      "diagram_generator": "overit",
+      "diagram": "tytéž tři cesty jako v S03, všechny otevřené a popsané FIND SOURCES / COMPARE / TRACK DOWN THE DATA; dole IN MINUTES"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Krátká karta před hlavním souvětím závěru.",
+      "diagram_generator": "karta",
+      "diagram": "velké NOT MORE LIES THAN EVER"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Teze videa v jednom obrázku. Obojí stejně velké — v tom je ta věta. Po ní pauza.",
+      "diagram_generator": "vahy",
+      "diagram": "jediné váhy v celém videu, rameno VODOROVNÉ; obě misky přetížené, BEST TOOLS EVER BUILT FOR FINDING TRUTH a FOR MAKING NONSENSE",
+      "pause": 2.2
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Vrací násobičku ze S21 čtyřikrát za sebou. Osa popsaná, značky popsané.",
+      "diagram_generator": "casova-osa",
+      "diagram": "časová osa se čtyřmi body PRINTING / RADIO AND TV / INTERNET / AI, u každého malá značka × z S21"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Druhá půlka téhož obrázku. Každá technologie dala něco a zároveň otevřela novou skulinu.",
+      "diagram_generator": "casova-osa",
+      "diagram": "táž osa, u každého bodu přibyla druhá, tmavší větev popsaná A NEW WAY TO MISLEAD"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Příprava na pointu. Musí být krátká, ať pointa dopadne na prázdno.",
+      "diagram_generator": "karta",
+      "diagram": "přeškrtnuté KNOW EVERYTHING, pod ním NOT POSSIBLE ANYWAY"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Pointa celého videa. Nic jiného v obraze. Po ní pauza.",
+      "diagram_generator": "karta",
+      "diagram": "velké \"I DON'T KNOW. LET'S CHECK.\" na prázdném plátně",
+      "pause": 2.6
+    },
+    {
+      "id": "S61",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Monstrum se vrací — týž dotaz jako S02, jiný pick. POVINNĚ ověřit md5sum proti S02.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "monstrous races medieval",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Poslední obraz a poslední vtip. Bez popisky — tenhle jeden obrázek si divák přečte sám.",
+      "diagram_generator": "karta",
+      "diagram": "vyhledávací pole s dotazem dog-headed monster north a pod ním náznak výsledků; žádná popiska"
+    }
+  ]
+}

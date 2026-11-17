@@ -1,0 +1,891 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `pas()` poprvé: vlevo kazeta Spectra (`kazeta()` z 121), z ní vodorovně přes obraz pruh pásky v pásu y≈640–800 až k pravému okraji, kde mizí do tmy. Vpravo nahoře malý televizor s pruhy nahrávání. Ambrově nic, jen pruh lehce svítí.",
+   "note": "První obrazovka nese myšlenku: TÁŽ páska jako u dětské kazety vede někam dál, mimo obraz. Žádné SDXL. Pruh `pas()` leží VŽDY na týchž souřadnicích (S01–S03, S23, S25–S36, S51, S76–S77); v S76/S77 se vrací tatáž kompozice (výplata). Animace: cívky se točí, pruh běží doleva→doprava.",
+   "anim": "animace"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Týž pruh, na něm pulzy signálu Spectra (krátké/dlouhé jako v 121), nad tím ztlumeně miniatura náhledu videa 121 jako rámeček s popiskem EARLIER VIDEO.",
+   "note": "Odkaz na 121 výslovně (rozhodnutí uživatele). Miniatura = kresba rámečku, ne bitmapa cizího náhledu, ať nevzniká text navíc.",
+   "pause": 0.35
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Pruh pokračuje doprava a vbíhá do siluety serverové skříně s řadou kazet LTO; popisek DATA CENTRES · STILL ON TAPE.",
+   "note": "Poslední věta 121 jako obraz: kazeta vlevo, datacentrum vpravo, spojené týmž pruhem."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "Kazeta vlevo ztlumená (OP_TLUM), vpravo `lto()` kazeta ambrově, velká. Mezi nimi NOSTALGIA? přeškrtnuto (`text_skrtnuty`).",
+   "note": "Beat „It isn't.“ nese škrt přes slovo, ne obrázek.",
+   "pause": 1.4
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "gmail",
+   "diagram": "Okno pošty ve stylu Windows (`tlacitka_okna()` vpravo nahoře, z 134): INBOX, prázdný seznam, nahoře FEB 2011. Vedle ztlumeně ≈40,000 ACCOUNTS · 0.02 %.",
+   "note": "Okno má Windows záhlaví (minimalizovat/maximalizovat/zavřít vpravo), ŽÁDNÉ puntíky macOS. Žádné logo Gmailu (značka) — jen slovo INBOX. Číslo 40 000 je přepočet tisku, proto „≈“."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "gmail",
+   "diagram": "Ikona aktualizace (šipka do kruhu) a uvnitř ambrový brouk (bug). Popisek STORAGE SOFTWARE UPDATE.",
+   "note": "Chyba v softwaru, ne útok — žádná lebka, žádný hacker."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "gmail",
+   "diagram": "Tři datacentra (`budova_dc()`) vedle sebe, v každém kopie schránky (malá obálka). Brouk z S06 postupně ve všech třech (ambrově). Pod tím ONE MAILBOX · SEVERAL COPIES.",
+   "note": "Rozvržení tří budov je sdílené s S43 (callback) — `tri_kopie()` v `_kit.py`, souřadnice v registru invariantů. Brouk zasáhne kopie, které jsou ONLINE (scénář: reached those too).",
+   "anim": "animace"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "gmail",
+   "diagram": "Vpravo kazeta na polici (offline, bez kabelu), šipka zpět k oknu INBOX, které se zaplní. Popisek HOURS, NOT MILLISECONDS.",
+   "note": "Šipka míří Z pásky DO schránky (obnova). Okno = totéž jako S05, ať se pozná.",
+   "pause": 1.2
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "cern",
+   "diagram": "Obrys prstence LHC (kruh) s popiskem CERN · LARGE HADRON COLLIDER; z něj šipka k velkému 1 EXABYTE.",
+   "note": "Commons nemá použitelný snímek páskové knihovny CERNu (2026-11-14: jen exteriér budovy, CERN Computer Centre for LHC, CC BY-SA — nese místo, ne pásku). Proto diagram; kazety nese S10."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "cern",
+   "diagram": "1 EXABYTE = 1,000,000 TB nahoře; pod tím mřížka 600 políček (každé = 100 kazet), popisek ≈ 60,000 TAPES.",
+   "note": "assert 600 × 100 == 60 000. Mřížka nese data, ne ozdobu."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "otazka",
+   "diagram": "Tři ikony vedle sebe: pevný disk, SSD, oblak; pod nimi HARD DRIVES · SSDs · THE CLOUD.",
+   "note": "Rozvržení ikon sdílené s S49/S50 (`tri_uloziste()`)."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "otazka",
+   "diagram": "Tytéž tři ikony ztlumené, uprostřed velký pruh pásky (krátký úsek páteře) ambrově a otazník.",
+   "note": "Hlavní otázka videa jako obraz.",
+   "pause": 2.4
+  },
+  {
+   "id": "S13",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "ARCHIV vybraný z kontaktního listu 2026-11-14: 'UNIVAC 1 demo' (U.S. Census Bureau, public domain) — konzole UNIVAC I, v pozadí řada páskových jednotek UNISERVO s cívkami. Skupinová fotka → static, bez zoomu (ořezané hlavy), fit 0.9. Alternativa 'Uniservo I' (CC0) je cívka na bílém pozadí — do tmavého videa se nehodí.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "UNIVAC I tape drive",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "lto",
+   "diagram": "`lto()` kazeta velká uprostřed, vedle ztlumeně kazeta audio (menší), mezi nimi ≠. Pod LTO: LINEAR TAPE-OPEN.",
+   "note": "Motiv `lto()` — vždy týž tvar z `_kit.py` (S04, S14, S16–S20, S40–S41, S45–S48, S63, S69, S75, S77–S78)."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "lto",
+   "diagram": "Tři štítky HP · IBM · SEAGATE (text, žádná loga) → společný rámeček OPEN FORMAT · 1997–98.",
+   "note": "Bez log (značky). Rok jako rozpětí, protože specifikace 1998, práce od 1997."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "lto",
+   "diagram": "Kazeta `lto()` vlevo (na místě, kde v další scéně zůstane): LTO-1 · 2000 · 100 GB; pod ní jediný čtvereček plochy.",
+   "note": "Příprava na S17: kazeta i čtvereček na týchž souřadnicích jako levá polovina S17."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "lto",
+   "diagram": "Dvě kazety `lto()` stejné velikosti: vlevo LTO-1 · 2000 · 100 GB, vpravo LTO-10 · 2025 · 40 TB (ambrově). Pod každou plocha: 1 čtvereček vs mřížka 20×20 = 400.",
+   "note": "assert 20*20 == 400 == 40 TB / 100 GB. Kazety STEJNĚ velké — to je tvrzení scénáře (box of the same size). Animace: mřížka se plní. Za scénou výzva k odběru (~1:50): levý dolní roh prázdný.",
+   "anim": "animace",
+   "pause": 1.0,
+   "vyzva": true
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "lto",
+   "diagram": "Krabička kazety s nálepkou 100 TB*; hvězdička → 2.5 : 1 COMPRESSION; ikony fotky a videa s ✗ (už komprimované) → 40 TB ambrově.",
+   "note": "Škrt přes ikony, ne přes text."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "lto",
+   "diagram": "Ruka drží `lto()` kazetu; vedle 800,000,000 × kazeta Spectra 48K (ikona) .",
+   "note": "40e12 / 49 152 = 813,8 mil. — assert, popisek „> 800,000,000“."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "lto",
+   "diagram": "Mechanika (obdélník se štěrbinou) s kazetou, 400 MB/s; vedle ciferník 24 h a progress pruh, který přeteče přes 24 h → 27.8 HOURS.",
+   "note": "assert 40e12/400e6/3600 ≈ 27,8. Animace: pruh se plní, ručička obejde celý den.",
+   "anim": "animace"
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "lto",
+   "diagram": "Dva řádky: ZX SPECTRUM ≈ 1,400 BIT/S (ztlumeně), LTO-10 3,200,000,000 BIT/S (ambrově); pod tím × 2,300,000.",
+   "note": "Čísla, ne sloupce (poměr 2,3 mil. lineárně nakreslit nejde). assert 3.2e9/1364 > 2e6.",
+   "pause": 2.4
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "konstrukce",
+   "diagram": "Kazeta `lto()` průhledně (řez): uvnitř jedna cívka s páskou a vodicí čep.",
+   "note": "LTO má JEDNU cívku (druhá je v mechanice) — funkční správnost, ne dvě jako audiokazeta."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "konstrukce",
+   "diagram": "Pruh páteře se odvíjí z cívky doprava až za okraj; popisek > 1 KM · 1,035–1,337 m.",
+   "note": "Animace: odvíjení. Délky obou variant (30/40 TB).",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "konstrukce",
+   "diagram": "Řez páskou: šířka 12.65 mm (½ inch), tloušťka 4 µm; vedle průřez vlasu (kruh ~70 µm) ve STEJNÉM měřítku jako tloušťka pásky.",
+   "note": "assert poměr kruh/tloušťka = 70/4; měřítko jen pro tloušťku (šířka mimo měřítko, popsat). Vlas 50–100 µm, kreslen 70."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "stopy",
+   "diagram": "Pruh páteře: nejdřív jedna stopa uprostřed, pak se rozmnoží na hustý svazek; popisek 15,104 TRACKS.",
+   "note": "Animace: stopy přibývají. Nakreslit se dá ~150 čar, popisek nese skutečné číslo.",
+   "anim": "animace"
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "stopy",
+   "diagram": "Výřez (lupa) z pruhu: stopy jako pruhy, šířka < 0.001 mm.",
+   "note": "Výřez musí ukazovat, odkud je (spojnice k pruhu)."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "stopy",
+   "diagram": "Hlava nad pruhem zapisuje svazek 32 stop doprava, na konci pásky se posune o kousek a jede zpět doleva (serpentina). Popisek 32 TRACKS AT ONCE.",
+   "note": "Animace: hlava zůstává, páska se pohybuje (fyzikálně tak to je) — ALE pro čitelnost se hýbe hlava. Rozhodnout v animaci; v note obrazu uvést.",
+   "anim": "animace"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "stopy",
+   "diagram": "Celý pruh zaplněný serpentinou tam a zpět, popisek ≈ 470 PASSES.",
+   "note": "15 104 / 32 = 472 → „≈ 470“ (assert).",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "servo",
+   "diagram": "Pruh páteře se vlní a uhýbá do stran; hlava stojí.",
+   "note": "Animace: boční posun pásky (přehnaný, popsat EXAGGERATED).",
+   "anim": "animace"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "servo",
+   "diagram": "Hlava posunutá o jednu stopu: čte sousední stopu, ambrové ✗ a WRONG DATA.",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "servo",
+   "diagram": "Pruh se servo stopami (vzor šikmých čárek) mezi datovými pásy, popisek SERVO · WRITTEN AT THE FACTORY.",
+   "note": "Servo pásy jsou zapsané před prvním souborem; kreslit pět servo pásů a čtyři datové (LTO má 4 datové pásy) — ověřit ve factchecku obrázků."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "servo",
+   "diagram": "Hlava se servo čtečkami sleduje vzor, páska uhýbá a hlava ji dohání (track following).",
+   "note": "Animace: korekce v reálném čase.",
+   "anim": "animace"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "servo",
+   "diagram": "Pruh se smršťuje/roztahuje (šířka), hlava se natáčí, aby 32 čteček sedělo na stopách. Popisek HEAT · HUMIDITY.",
+   "note": "Funkčně: náklon zkracuje efektivní rozteč čteček (TDS kompenzace, IBM). Animace.",
+   "anim": "animace"
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "servo",
+   "diagram": "Dva výřezy částic: OLD CASSETTE · IRON OXIDE (jehličky, ztlumeně) a LTO · BARIUM FERRITE (šestiúhelníkové destičky, ambrově, menší a hustší).",
+   "note": "BaFe jsou hexagonální destičky, oxid železa jehlicovitý — tvar je tvrzení, drží se skutečnosti.",
+   "pause": 2.4
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "chyby",
+   "diagram": "Pruh páteře se rychle pohybuje pod hlavou (rozmazané stopy).",
+   "note": "Animace: rychlost. Krátká scéna.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "chyby",
+   "diagram": "Hlava: zapisovací prvek a hned za ním čtecí. Bloky na pásce: zapsán → zkontrolován ✓; jeden ✗ → zapsán znovu dál po pásce.",
+   "note": "Pořadí prvků ve směru pohybu pásky: nejdřív zápis, pak čtení (read-while-write). Animace.",
+   "anim": "animace"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "chyby",
+   "diagram": "Blok dat + ERROR-CORRECTING CODES (ambrově); část bloku poškozená (škrábanec), kódy ji dopočítají.",
+   "note": "Animace: poškozená část se doplní.",
+   "anim": "animace"
+  },
+  {
+   "id": "S37b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37b.png",
+   "diagram_generator": "chyby",
+   "diagram": "Dopočítaný blok z S37 ztlumeně, nad ním velký otazník a ERROR-CORRECTING CODES; pod tím A VIDEO OF ITS OWN.",
+   "note": "Zmínka o budoucím videu o samoopravných kódech (uživatel): v YT Studiu sem patří KARTA na to video, až bude zveřejněné. Konec bloku o spolehlivosti → pauza.",
+   "pause": 2.2
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "chyby",
+   "diagram": "LTO-9 SPEC: 1 UNREADABLE BIT / 12.5 EXABYTES.",
+   "note": "Výslovně LTO-9 a „spec“, ne LTO-10."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "chyby",
+   "diagram": "12 sloupců po 1 EB (každý jako stoh kazet, ikona CERN archivu z S10), u nich jediná ambrová tečka.",
+   "note": "assert 12 sloupců; „about twelve times“.",
+   "pause": 2.2
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "offline",
+   "diagram": "`lto()` kazeta s kabelem, kabel se odpojí (mezera).",
+   "note": "Animace: odpojení.",
+   "anim": "animace"
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "offline",
+   "diagram": "Knihovna (skříň se sloty) vlevo, kazeta vyjede ven a doputuje na polici vpravo, mimo skříň.",
+   "note": "Scénář: ne každá zapsaná, ale vyjmutá z knihovny. Animace.",
+   "anim": "animace"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "offline",
+   "diagram": "Kazeta na polici; vedle ikony blesku (power) a sítě, obě přeškrtnuté (přes ikony). Ztlumeně brouk a útočník, šipka k polici končí před ní.",
+   "note": "Šipka NEDOSÁHNE (končí před polici, čárkovaně) — kresba nesmí tvrdit, že útok dorazil.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "gmail",
+   "diagram": "Callback S07: tři datacentra s broukem (ztlumeně), vpravo kazety na polici bez brouka, ambrově. Popisek OFFLINE.",
+   "note": "Týž `tri_kopie()` jako S07 na týchž souřadnicích — výplata háčku."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "offline",
+   "diagram": "Budova s řadou disků, zámky (ransomware) se šíří z disku na disk (ambrově).",
+   "note": "Animace: šíření. Zámek = šifrování, žádná lebka.",
+   "anim": "animace"
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "offline",
+   "diagram": "Táž budova, vedle police s kazetami — bez zámku.",
+   "note": "Konec bloku o air gapu. Za scénou druhá výzva k odběru (~5:15): levý dolní roh prázdný.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "offline",
+   "diagram": "Kazeta se štítkem WORM · WRITE ONCE; postava správce s gumou, guma přeškrtnutá (přes ikonu).",
+   "note": ""
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "energie",
+   "diagram": "Vlevo řada disků s vlnkami tepla a bleskem (POWER · HEAT), vpravo police s kazetami 0 W.",
+   "note": "Animace: vlnky tepla nad disky, kazety stojí.",
+   "anim": "animace"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "energie",
+   "diagram": "Police s kazetou, časová osa 2026 → 2056, popisek ≈ 30 YEARS · IF STORED PROPERLY.",
+   "note": "Údaj výrobců — v obraze „RATED“.",
+   "pause": 1.0
+  },
+  {
+   "id": "S48b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48b.png",
+   "diagram_generator": "energie",
+   "diagram": "Kazeta `lto()` 30 TB a cenovka ≈ $260; pod tím < $10 / TB ambrově.",
+   "note": "Ceny orientační (10/2026), v obraze „≈“."
+  },
+  {
+   "id": "S48c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48c.png",
+   "diagram_generator": "energie",
+   "diagram": "Dva sloupce ceny za TB: TAPE ≈ $9 (ambrově) a HARD DRIVE ≈ $40; × 4+.",
+   "note": "assert poměr výšek 40/8.67. Sloupce v lineárním měřítku (poměr 4,6 jde nakreslit)."
+  },
+  {
+   "id": "S48d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48d.png",
+   "diagram_generator": "energie",
+   "diagram": "Mechanika `mechanika()` s cenovkou > $20,000, vedle knihovna se stovkami slotů: ONE DRIVE · THOUSANDS OF CARTRIDGES.",
+   "note": "Konec bloku výhod (pauza přesunuta z S48).",
+   "pause": 2.4
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "pristup",
+   "diagram": "Tři úložiště z S11 (`tri_uloziste()`) a páska, nad páskou otazník.",
+   "note": ""
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "pristup",
+   "diagram": "Pevný disk: rameno skočí na libovolnou stopu, ≈ 0.005 s; SSD bez pohybu.",
+   "note": "Animace: skok ramene.",
+   "anim": "animace"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "pristup",
+   "diagram": "Pruh páteře, soubor (ambrový blok) na vzdáleném konci; páska se převíjí, až blok dojede pod hlavu.",
+   "note": "Animace: převíjení. Pruh na souřadnicích páteře.",
+   "anim": "animace"
+  },
+  {
+   "id": "S51b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51b.png",
+   "diagram_generator": "pristup",
+   "diagram": "Kazeta (`kazeta()`) velká uprostřed, cívky se točí, nad ní ◀◀ a ▶▶; popisek FINDING THE RIGHT SONG · OR GAME.",
+   "note": "Callback na audiokazetu (uživatel): převíjení = sekvenční přístup. Animace: cívky.",
+   "anim": "animace"
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "pristup",
+   "diagram": "Dva údaje: HARD DRIVE ≈ 0.01 s, TAPE ≈ 60 s; × THOUSANDS.",
+   "note": "Bez sloupců v lineárním měřítku (nečitelné); čísla.",
+   "pause": 0.6
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "pristup",
+   "diagram": "Ikony: operační systém (okno), databáze (válec), tisíce drobných souborů — každá přeškrtnutá přes ikonu.",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "pristup",
+   "diagram": "Velký blok dat → WRITE ONCE → kazeta → READ RARELY (ztlumeně).",
+   "note": "",
+   "pause": 2.2
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S55.png",
+   "note": "ARCHIV místo SDXL (dá se to vyfotit): 'Closeup of robotic arm in StorageTek tape library at NERSC' (Derrick Coetzee, CC0), vybráno z kontaktního listu 2026-11-14 — řady slotů s kazetami a rameno robota. Na výšku byly Powderhorn (CC BY-SA 2.0) a NERSC aisle (CC0); vodorovný closeup sedí do 16:9 bez `fit`.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "tape library robot",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "knihovna",
+   "diagram": "Skříň se sloty zepředu, robot (vozík s chapadlem) jede po kolejnici, vytáhne kazetu a zasune ji do mechaniky.",
+   "note": "Animace: celý pohyb robota.",
+   "anim": "animace"
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "knihovna",
+   "diagram": "Mřížka slotů 140×140 ≈ 19,600 (ztlumeně), popisek LAWRENCE LIVERMORE · ≈ 20,000 SLOTS · 294 PB.",
+   "note": "assert 140*140 = 19 600 (≈ 19 620). Pásky jsou IBM TS1155, ne LTO — v obraze LTO nepsat."
+  },
+  {
+   "id": "S57b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57b.png",
+   "diagram_generator": "knihovna",
+   "diagram": "Velké ≈ 300,000,000 GB (ambrově), nad tím 300 PETABYTES ztlumeně.",
+   "note": "Pro diváka, který neví, co je petabajt (uživatel). assert 300e15/1e9 == 3e8."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "knihovna",
+   "diagram": "Celá skříň zmenšená do ikony disku s želvou / přesýpacími hodinami: ONE BIG, SLOW DISK.",
+   "note": "",
+   "pause": 2.4
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "slow_zoom_out",
+   "visual": "images/S59.png",
+   "diagram_generator": "sklep",
+   "diagram": "Kresba z ChatGPT (`art/S59-sklep.png`, čtvrtý zdroj vizuálu): tichá místnost datacentra v noci, řady tmavých skříní mizí do stínu, nad dveřmi jediné teplé ambrové světlo. Dokud obrázek není, kreslí `sklep.py` náhradu kódem.",
+   "note": "Původně SDXL; ComfyUI není k dispozici (2026-11-14), uživatel nechá nakreslit ChatGPT. Předěl před obratem, jiná kompozice než S55 (místnost, ne ulička). Pomalý odjezd zůstává (atmosférický předěl), v obraze žádný text."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "ai",
+   "diagram": "Uzly neuronové sítě (kruhy a spojnice), postupně ambrově svítí. Popisek ARTIFICIAL INTELLIGENCE.",
+   "note": "",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "ai",
+   "diagram": "Proudy ikon TEXT · IMAGES · VIDEO vtékají do sítě.",
+   "note": "Animace: tok ikon.",
+   "anim": "animace"
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "ai",
+   "diagram": "Hromada dat: malá část ambrově (USED DAILY), velká část ztlumeně (KEPT).",
+   "note": "Poměr bez čísla — scénář číslo neříká, kreslit neutrálně „most“."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "ai",
+   "diagram": "Ztlumená část z S62 putuje do kazet `lto()`.",
+   "note": ""
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "fujifilm",
+   "diagram": "FUJIFILM · 29 OCT 2026 (text, bez loga) a velké ¥10,000,000,000.",
+   "note": "Bez loga (značka).",
+   "pause": 0.25
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "fujifilm",
+   "diagram": "Dva sloupce kapacity výroby: FY2025 = 1, FY2028 = ≈ 5 (ambrově).",
+   "note": "assert poměr výšek 5:1. Kapacita, ne výroba. Animace: druhý sloupec roste.",
+   "anim": "animace"
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "fujifilm",
+   "diagram": "Citát v uvozovkách: “…THE SPREAD OF GENERATIVE AI”.",
+   "note": "Citát z tiskové zprávy, zkrácený — nesmí měnit smysl."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "fujifilm",
+   "diagram": "Televizor s pruhy nahrávání (z S01) vlevo ztlumeně → šipka → kazeta `lto()` a síť AI vpravo.",
+   "note": "Oblouk kazeta → AI jako obraz.",
+   "pause": 1.4
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "hustota",
+   "diagram": "Dva čtverce stejné plochy: TAPE (mřížka 10×10 buněk, velké bity) a HARD DRIVE (100×100?) — ne, 10×10 vs 100 buněk v jedné: vlevo 1 buňka = 1 bit pásky, vpravo táž plocha 10×10 = 100 bitů disku. Popisek ≈ 100× DENSER.",
+   "note": "assert 10*10 == 100. „Roughly“ → „≈“."
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "hustota",
+   "diagram": "Kazeta 40 TB (plná) vedle čárkované kazety 580 TB · LAB PROTOTYPE · 2020.",
+   "note": "Čárkovaně = hypotéza/prototyp (konvence kanálu). assert 580/40 = 14,5 — kazety stejně velké, rozdíl nese číslo.",
+   "pause": 2.6
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "kompat",
+   "diagram": "Kazeta a mechanika vedle sebe, mezi nimi malý otazník.",
+   "note": ""
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "kompat",
+   "diagram": "Časová osa: pruh kazety přes 30 let, pod ním mechaniky jako krátké na sebe navazující úseky, které končí.",
+   "note": ""
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "kompat",
+   "diagram": "Řada generací 1–10; od každé obloučky dozadu: do 7 dva oblouky čtení, 8 a 9 jeden, 10 žádný.",
+   "note": "Data z lto.org — assert počtu oblouků podle generace. Animace: oblouky se kreslí postupně.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "kompat",
+   "diagram": "LTO-10 a vedle LTO-9, LTO-8…: oblouky přeškrtnuté (skrtla_spojnice), ✗.",
+   "note": ""
+  },
+  {
+   "id": "S73b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73b.png",
+   "diagram_generator": "kompat",
+   "diagram": "Dva pruhy pásky nad sebou: OLDER TAPES se servo vzorem v mírném úhlu (ztlumeně), LTO-10 se strmějším vzorem a víc užšími stopami (ambrově).",
+   "note": "Nový formát servo stop v LTO-10 (factcheck S73b). Úhly kreslené schematicky, bez čísel."
+  },
+  {
+   "id": "S73c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73c.png",
+   "diagram_generator": "kompat",
+   "diagram": "Váhy (`vahy()`): na jedné misce BACKWARD COMPATIBILITY, na druhé 40 TB; převáží kapacita.",
+   "note": "Kompromis podle LTO Program: kompatibilita by stála kapacitu.",
+   "pause": 1.4
+  },
+  {
+   "id": "S73d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73d.png",
+   "diagram_generator": "kompat",
+   "diagram": "Kazeta LTO-10 uprostřed, kolem ní tři mechaniky s popisky MAKER A / B / C (ne značky), od každé šipka ✓ ke kazetě; vlevo ztlumeně rozbitá mechanika ✗.",
+   "note": "Otevřený formát: kazetu přečte kterákoli mechanika LTO-10. Bez log a jmen výrobců."
+  },
+  {
+   "id": "S73e",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73e.png",
+   "diagram_generator": "kompat",
+   "diagram": "Mechanika a velké 80,000 LOADS; vedle knihovna, z níž se vysouvá jedna mechanika a zasouvá nová (šipky).",
+   "note": "Údaj je LTO-9 (Quantum datasheet) — v obraze „LTO-9“."
+  },
+  {
+   "id": "S73f",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73f.png",
+   "diagram_generator": "kompat",
+   "diagram": "Řada generací (jako S72) ztlumeně; LTO-9 ambrově s obloukem k LTO-8 a štítkem STILL ON SALE; pod LTO-1…7 USED DRIVES · RESCUE SERVICES.",
+   "note": "Řada generací je táž `generace()` jako S72/S73 (registr).",
+   "pause": 1.4
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "kompat",
+   "diagram": "Řada starých kazet → šipky kopírování → nové kazety; EVERY FEW YEARS.",
+   "note": "Animace: data přetékají.",
+   "anim": "animace"
+  },
+  {
+   "id": "S74b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74b.png",
+   "diagram_generator": "kompat",
+   "diagram": "Časová osa 30 let: pruh životnosti kazety (ambrově) a pod ním migrace jako krátké šipky v nepravidelných rozestupech; popisek ON THE ARCHIVE'S SCHEDULE.",
+   "note": "Odpověď na diváckou otázku „k čemu 30 let, když mechanika nevydrží“ (uživatel). Intervaly migrací nekreslit jako číslo."
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "kompat",
+   "diagram": "Kazeta uprostřed jasně, kolem ní mechaniky postupně blednou a mizí.",
+   "note": "",
+   "pause": 3.0
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "zaver",
+   "diagram": "VÝPLATA PÁTEŘE: kompozice S01 na týchž souřadnicích — kazeta Spectra vlevo, pruh `pas()`, nad pruhem hlava, na pruhu magnetické domény (šipky N/S).",
+   "note": "Musí sedět na pixel s S01 (registr invariantů). Horní polovina už začíná být volná (okno závěrečné obrazovky)."
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "zaver",
+   "diagram": "Táž kompozice, kazeta Spectra vystřídána `lto()`; pod pruhem 48 KB → 40 TB. HORNÍ POLOVINA VOLNÁ.",
+   "note": "Okno závěrečné obrazovky (posledních 20 s): kresba jen v dolní polovině, nad titulkovým pásem."
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: robot zasouvá kazetu do mechaniky, na mechanice se rozsvítí ▶. Horní polovina volná.",
+   "note": "Animace JEN v dolní polovině (past 121/S70: animace přes celý rám zabrala místo závěrečné obrazovky).",
+   "anim": "animace"
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "zaver",
+   "diagram": "Klidná deska: otázka v dolní polovině — IF YOU HAD A TAPE DRIVE AT HOME, WHAT WOULD YOU PUT ON TAPE? Horní polovina volná.",
+   "note": "Otázka do komentářů (docs/cta.md), znění navrhl uživatel. Statická; ověřit snímkem z draftu.",
+   "pause": 2.0
+  }
+ ]
+}

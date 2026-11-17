@@ -1,0 +1,481 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "pokoj",
+   "diagram": "PÁTEŘ: místnost v dolní polovině plátna — terč na stěně, ambrová čára na podlaze, cena, dítě, v rohu ztlumená prázdná židle. Nad tím tři pravidla (1 · THROW FROM BEHIND THE LINE, 2 · USE YOUR OTHER HAND, 3 · KEEP YOUR BACK TO THE TARGET) a ambrově ALMOST IMPOSSIBLE TO WIN.",
+   "note": "První obrazovka nese myšlenku (hra je schválně skoro nevyhratelná, podvádět láká), ne atmosféru, a není SDXL. Tři pravidla podle factcheck S01, žádné „one rule“. Místnost je páteř: týž pokoj na týchž souřadnicích v S01–S06, S27 a S49, a celá leží v DOLNÍ polovině, protože S49 je v okně závěrečné obrazovky."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Týž pokoj. Výzkumník (silueta) ukazuje na židli, židle ambrově, na ní čárkovaně Alice s korunkou. Nahoře vpravo PRINCESS ALICE · FRIENDLY · INVISIBLE, vlevo BEFORE THE GAME: „SHE'S SITTING IN THAT CHAIR“.",
+   "note": "Alice je představena PŘED hrou (factcheck S02–S03). Čárkovaně = představa (konvence 2 v _kit.py)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Týž pokoj, výzkumník mizí ve dveřích (ztlumeně). Nad židlí „ALICE IS WATCHING“. Nahoře NOBODY ELSE IS THERE TO CHECK, vpravo nahoře kamera HIDDEN CAMERA · THE CHILD DOESN'T KNOW.",
+   "note": "Skutečná kamera plně, Alice čárkovaně — dvě různé míry existence v jednom obraze."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Vodorovné sloupce: doba do prvního podvodu ze 180 s — BELIEVED IN ALICE 169 s (ambrově), A REAL ADULT IN THE CHAIR 169 s, NOBODY 122 s (ztlumeně). Dole zdroj a poznámka SCEPTICS EXCLUDED.",
+   "note": "Měřila se DOBA vydržení, ne počet podvodníků, a shoda platí jen po vyřazení skeptiků (factcheck S04) — obojí je v obraze, aby graf netvrdil víc než studie. Čísla s assertem.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Týž pokoj BEZ Alice, nad židlí dlaň s pohybovými oblouky. Nahoře MOST SCEPTICS CHEATED a ambrově 5 OF 7 · BUT ONLY AFTER CHECKING THE CHAIR.",
+   "note": "Skeptici v Alici nevěřili, proto na židli není ani čárkovaná. 5 ze 7 (factcheck S05), assert."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Týž pokoj, Alice čárkovaně na židli. Nahoře AN INVISIBLE MIND (ambrově), INVENTED ONLY MINUTES EARLIER, FOR THE CHILDREN WHO BELIEVED: IT WORKED LIKE A REAL ONE.",
+   "note": "Konec bloku Alice, pauza 2,4. „Minutes earlier“ a omezení na věřící podle factcheck S06.",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S07.png",
+   "prompt": "a long wooden shelf crowded with small clay figurines, carved wooden spirit figures and weathered stone carvings from many different cultures, lamplit storeroom, wide shot",
+   "note": "První SDXL scéna až kolem 1:00, po myšlence. Atmosféra pro „almost every culture… spirits, ancestors or gods“. Bez dusk/dawn (teplý nádech, CLAUDE.md); teplo tu dělá lampa z kotvy stylu, což sedí."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "mysl",
+   "diagram": "Vysoký bůh (kruh s paprsky) se ZAVŘENÝM okem, vlevo THE GREATEST GODS, vpravo MORAL JUDGES?. Pod tím dva řádky WATCHING WHETHER YOU CHEATED / PUNISHING YOU FOR IT, každý s ambrovým PROBABLY NOT. Dole FOR MOST OF HUMAN HISTORY.",
+   "note": "„Probably“ se kreslí jako míra jistoty (PROBABLY NOT), ne škrtem. Zavřené oko = nehlídá (konvence 4), totéž znamení jako v S17–S20 a S25. Netvrdí, že by morálka v těch společnostech nebyla (notes v0.2)."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "otazky",
+   "diagram": "Nahoře ztlumeně TWO QUESTIONS, v DOLNÍ polovině dvě karty: 1 · WHY DO WE IMAGINE INVISIBLE MINDS SO EASILY? a 2 · WHEN DID THEY START WATCHING US?",
+   "note": "Konec úvodu. Výzva tu původně byla, ale po TTS by naskočila v 1:26, pod oknem 1:30–2:15 — přesunuta za S10. Karty jsou rým se S46–S48 a leží dole kvůli závěrečné obrazovce v S48.",
+   "pause": 2.4
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "mysl",
+   "diagram": "Nahoře ztlumeně AN EARLIER VIDEO a BRAINS ARE BUILT TO DETECT MINDS. Dole keř s dvojicí čárkovaných ambrových očí, vlevo ONE TOO MANY · BETTER (ambrově), vpravo ONE TOO FEW · WORSE (ztlumeně).",
+   "note": "Jediná scéna odkazem na 068, nic víc z něj. VÝZVA K ODBĚRU ZA TOUTO SCÉNOU (~1:37, docs/cta.md): mezi detekcí myslí a novou ingrediencí (S11 „But there's a stranger ingredient“). Levý dolní roh S10 i S11 prázdný, bez titulku.",
+   "pause": 1.6,
+   "vyzva": true
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "mysl",
+   "diagram": "Vlevo ztlumeně postava s myšlenkovým oblakem (WE DETECT MINDS), vpravo ambrový oblak bez těla, pod ním jen čárkovaný obrys trupu a NO BODY (WE IMAGINE A MIND).",
+   "note": "Nová ingredience proti 068: mysl bez těla. Čárkovaný obrys = tělo chybí."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "mysl",
+   "diagram": "Loutkové divadlo: rám jeviště se závěsy, náznak stromů, vlevo myška na tyčce (BABY MOUSE), vpravo aligátor s otevřenou tlamou na tyčce (ALLIGATOR).",
+   "note": "Bering & Bjorklund 2004, experiment 3 (factcheck §2). Loutky na tyčkách, protože šlo o loutkové divadlo (na videu)."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "mysl",
+   "diagram": "Myška čárkovaně nahoře, pod ní zdroj YOUNGEST GROUP · AGES 3 TO 6. Dva panely BODY | MIND, BODY rozsvícený: DOES IT STILL NEED TO EAT? → MOST SAID NO.",
+   "note": "Bez procent: 76 % je z jednoho experimentu a výsledek je křehký (factcheck S13 — nezesilovat), voiceover říká „most“. Panely jsou rým S13–S15.",
+   "pause": 0.6
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "mysl",
+   "diagram": "Tytéž panely, MIND rozsvícený: DOES IT STILL WANT TO GO HOME? / DOES IT STILL LOVE ITS MOTHER? → MOST SAID YES. BODY ztlumeně s odpovědí z S13.",
+   "note": "„Still thinking“ se nevrací (factcheck S14, jen 36 %).",
+   "pause": 0.6
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "mysl",
+   "diagram": "Tytéž panely: BODY → STOPPED (ztlumeně), MIND → MUCH OF IT CARRIED ON (ambrově).",
+   "note": "„Much of“ podle factcheck S15, ne celá mysl.",
+   "pause": 1.4
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "mysl",
+   "diagram": "Tři karty v řadě: SEES MINDS EVERYWHERE + A MIND NEEDS NO BODY = čárkovaná ambrová INVISIBLE BEINGS: ALMOST THE DEFAULT.",
+   "note": "Výsledek čárkovaně — je to úvaha videa, ne naměřené zjištění."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "mysl",
+   "diagram": "Vlevo čárkovaný duch AN INVISIBLE BEING, uprostřed ≠, vpravo bůh s OTEVŘENÝM ambrovým okem A GOD WHO WATCHES YOU · AND CARES WHETHER YOU LIE.",
+   "note": "Konec bloku o mysli, pauza 2,4 před sběrači.",
+   "pause": 2.4
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "sberaci",
+   "diagram": "Mřížka 10 × 10 společností lovců a sběračů: 58 čárkovaných čtverečků (žádný známý vysoký bůh) ambrově, 30 kroužků (bůh, který se nezajímá) a 12 kroužků s ambrovou tečkou (zajímá se) ztlumeně. Vpravo legenda s procenty, dole zdroj PEOPLES AND MARLOWE 2012 · SCCS „HIGH GODS“.",
+   "note": "S18–S19 je JEDNA klasifikace (notes, „v0.3 schválen“): kat. 1 = absent or not reported 58 %, kat. 1+2 = 88 % ≈ 7/8. Existence a zájem se kreslí ZVLÁŠŤ (tvar = existuje, tečka = zajímá se). Assert 58+30+12 = 100.",
+   "pause": 0.5
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "sberaci",
+   "diagram": "Táž mřížka, ambrově teď 58 + 30, nahoře ≈ 7 OF 8: NO HIGH GOD INTERESTED IN PEOPLE.",
+   "note": "„Took an interest“, ne „moral“ — morálního vysokého boha má asi 7–10 % (factcheck S19). Žádné tvrzení o Hadzech."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "sberaci",
+   "diagram": "Tři chýše, kolem nich tři čárkovaní duchové RAIN, SICKNESS, A BROKEN TABOO. Vpravo dole malý čárkovaný bůh se zavřeným okem a ALL-SEEING JUDGE? · USUALLY NOT.",
+   "note": "Duchové trestají tabu, ale „usually“ nejsou všeznalí soudci (factcheck S20).",
+   "pause": 1.2
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "sberaci",
+   "diagram": "Kruh deseti postav propojených tenkými čarami (drby), vpravo EVERYONE KNOWS EVERYONE a ambrově GOSSIP = SURVEILLANCE.",
+   "note": "Rým kruhu drbů se S23. Konec bloku malých společností, pauza 2,2.",
+   "pause": 2.2
+  },
+  {
+   "id": "S22",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S22.png",
+   "prompt": "a vast ancient walled city crowded with houses, temples and markets, roads full of tiny distant figures, seen from a far hillside, flat grey overcast sky, no sun, wide shot",
+   "note": "Předěl: společnosti rostou. Chlad počasím (overcast), ne denní dobou. Drobné vzdálené postavy, žádné tváře."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "sberaci",
+   "diagram": "Týž kruh drbů ztlumeně s čárkovanou ambrovou hranicí dosahu, za ní roztroušené tečky (lidé, které nikdy nepotkáš) a ambrová postava A STRANGER s otazníkem.",
+   "note": "Rým se S21: TÁŽ skupina na týchž souřadnicích, jen s hranicí.",
+   "pause": 1.4
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "bohove",
+   "diagram": "Vlevo velký bůh s otevřeným ambrovým okem, vpravo čárkovaný rámeček ONE PROPOSED ANSWER · BIG GODS · ARA NORENZAYAN · PSYCHOLOGIST · BOOK, 2013.",
+   "note": "Hypotéza, proto čárkovaný rámeček (konvence 2). Výslovnost Norenzayan ověřit po TTS."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "bohove",
+   "diagram": "Bůh s otevřeným ambrovým okem, vpravo tři zaškrtnuté vlastnosti: SEES EVERYTHING, EVEN IN PRIVATE · CARES HOW YOU TREAT STRANGERS · PUNISHES. Nahoře vpravo THE BIG GODS IDEA.",
+   "note": "Popis hypotézy, ne zjištění — označeno v rohu."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "bohove",
+   "diagram": "Vlevo YOU, vpravo A STRANGER s ambrovým myšlenkovým oblakem a okem boha uvnitř („I'M BEING WATCHED“). Mezi nimi čárkovaná čára, YOU DON'T KNOW THEM / ENOUGH TO TRUST THEM?",
+   "note": "Teorie (THE IDEA v rohu), čárkovaně. Žádná šipka víra → důvěra."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Týž pokoj z úvodu (ztlumeně) s Alicí na židli; nad ním siluety města a nad městem velké čárkované ambrové oko, vedle SCALED UP.",
+   "note": "Přirovnání, ne zjištění (factcheck S27) — proto čárkovaně. Páteř na týchž souřadnicích jako S01.",
+   "pause": 2.0
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "bohove",
+   "diagram": "A NEAT STORY. (ztlumeně), velké ambrové CAN IT BE TESTED?, pod tím lupa.",
+   "note": "Krátký předěl před testem.",
+   "pause": 1.4
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "hra",
+   "diagram": "Nahoře 591 PEOPLE · 8 COMMUNITIES, pod tím osm kroužků se skupinkou postav a jmény: INLAND TANNA, COASTAL TANNA (VANUATU), YASAWA, LOVU (FIJI), PESQUEIRO (BRAZIL), MAURITIUS, TYVA REPUBLIC (SIBERIA), HADZALAND (TANZANIA). Dole PURZYCKI ET AL. · NATURE · PUBLISHED 2016.",
+   "note": "Osm lokalit podle SI (factcheck S29), assert. „Published“ 2016, hrálo se 2013. Vanuatu poslechnout po TTS."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "hra",
+   "diagram": "Dva poháry YOURSELF a A DISTANT STRANGER · SAME RELIGION, nad nimi kostka (THE DIE SAYS WHICH CUP) a mince se šipkami do obou pohárů, vpravo nahoře ambrově NOBODY CHECKS THE ROLLS.",
+   "note": "Pravidla zjednodušená jako ve voiceoveru (factcheck S30). Poháry jsou rým se S33."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "hra",
+   "diagram": "Schematický graf: vodorovně HOW MUCH THEIR GOD KNOWS AND PUNISHES, svisle COINS TO THE DISTANT STRANGER, ambrová stoupající přímka bez bodů, v rohu SCHEMATIC.",
+   "note": "Korelace, ne příčina (pokyn uživatele k v0.3): „čím víc… tím víc“, žádná šipka víra → mince, žádné vymyšlené body.",
+   "pause": 0.5
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "hra",
+   "diagram": "Dva malé grafy s týmiž osami: A GOD WHO PUNISHES (ambrová stoupající přímka) a A GOD WHO REWARDS (plochá ztlumená přímka, DIDN'T EXPLAIN IT).",
+   "note": "Trest OR 1,34–1,40, odměna 1,00–1,02 (factcheck S32), jako tvar, ne čísla."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "hra",
+   "diagram": "Tytéž poháry, ve vzdáleném víc mincí, kolem obou čárkovaná ambrová elipsa THE CIRCLE OF TRUST: SAME RELIGION; vpravo ztlumená postava ANOTHER RELIGION · NOT IN THE GAME.",
+   "note": "Jinověrec ve hře NEBYL (factcheck S33), takže kresba netvrdí, že by dostal méně — jen že nebyl testován. VÝZVA K ODBĚRU ZA TOUTO SCÉNOU (~4:55, za pointou hry): levý dolní roh prázdný, bez titulku.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "spor",
+   "diagram": "Nahoře WHICH WAY ROUND?, dva čárkované řádky: BIG GODS → MADE BIG SOCIETIES POSSIBLE? a GROWING SOCIETIES → CAME UP WITH BIG GODS?",
+   "note": "Obě příčinné otázky jsou čárkovaně a s otazníkem — jsou to otázky, ne odpovědi. Výzva přechází přes začátek: levý dolní roh prázdný."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "spor",
+   "diagram": "Databáze Seshat: 414 teček ve 30 pásech regionů na ose 10,000 YEARS AGO → RECENT CENTURIES, nahoře SESHAT · 414 SOCIETIES · 30 REGIONS.",
+   "note": "414 a 30 podle factcheck S35, assert. Rozmístění teček je ilustrační, ale TÉŽ v S38 a S39 (rým)."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "spor",
+   "diagram": "Časová šipka EARLIER → LATER se dvěma kartami BIG SOCIETIES → MORALISING GODS, nad nimi ambrově THE 2019 CONCLUSION a citace „…ONLY AFTER SOCIETIES REACHED AROUND A MILLION PEOPLE“. Dole osa sporu, svítí 2019 · ORIGINAL STUDY.",
+   "note": "Tři hlasy sporu odděleně (notes): tohle je hlas 2019. Milion jako CITACE studie, ne práh na ose. Šipka je ČAS, ne příčina (konvence 3).",
+   "pause": 1.4
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "spor",
+   "diagram": "Táž scéna ztlumeně, přes ni ambrové razítko RETRACTED, na ose sporu svítí 2021.",
+   "note": "Razítko, ne škrt přes celý nápis (škrt by tvrdil „neplatí vůbec“; spor trvá).",
+   "pause": 1.6
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "spor",
+   "diagram": "Táž databáze, 61 % teček jako prázdné ambrové kroužky — hlavně vlevo (rané společnosti). Nahoře „UNKNOWN“: 61 % OF THE VALUES · MORALISING GODS?",
+   "note": "„Unknown“, ne „nobody knew“ (factcheck S38). 61 % Beheim a kol.; rozmístění neznámých ilustrační, ale přesně 253 ze 414 a zhuštěné u raných.",
+   "pause": 0.5
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "spor",
+   "diagram": "Táž databáze, prázdné kroužky se změnily na ambrové křížky; legenda „UNKNOWN“ → COUNTED AS ✕ „NO“.",
+   "note": "Na tomhle se obě strany shodují (factcheck S39), proto plně."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "spor",
+   "diagram": "Časová šipka s kartami prohozenými a čárkovanými: MORALISING GODS → BIG SOCIETIES, nad nimi CRITICS' REANALYSIS · BEHEIM ET AL. a COULD HAVE COME FIRST. Osa sporu, svítí 2021.",
+   "note": "„Could have“ = možnost, proto čárkovaně. Hlas kritiků, s jménem."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "spor",
+   "diagram": "Nahoře THE ARGUMENT ISN'T OVER, tři karty vedle sebe: 2019 · ORIGINAL STUDY (BIG SOCIETIES CAME FIRST), 2021 · CRITICS (GODS COULD HAVE COME FIRST), 2022 · ORIGINAL TEAM („UNKNOWN“ WAS OFTEN A MISLABELLED ABSENCE · SOCIETIES STILL FIRST · BIG GODS DIDN'T DRIVE GROWTH) ambrově. Dole osa sporu, svítí 2022.",
+   "note": "Tři oddělené hlasy, ne příběh „spletli se a opravili se“ (notes). Retake 2022 podle factcheck S41.",
+   "pause": 2.2
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "spor",
+   "diagram": "Plná karta BELIEF IN A WATCHING GOD CAN CHANGE HOW PEOPLE TREAT STRANGERS (THE COIN GAME, 2016), pod ní čárkovaná DID IT HELP BUILD THE FIRST GREAT SOCIETIES, OR ARRIVE AFTER? a ambrově WE DON'T KNOW YET.",
+   "note": "Doloženo plně × nevíme čárkovaně. Pauza 2,8 před obratem.",
+   "pause": 2.8
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "skandinavie",
+   "diagram": "Dva panely se sloupci. Vlevo „MOST PEOPLE CAN BE TRUSTED“: DENMARK 73.9, SWEDEN 62.8, NORWAY 72.1 %, ztlumeně UK 43.3 % (WVS / EVS · 2017–2022). Vpravo „I BELIEVE THERE IS A GOD“: DENMARK 31, SWEDEN 23, NORWAY 32 %, ztlumeně EU AVERAGE 52 % (EUROBAROMETER 225 · 2005).",
+   "note": "Dva zdroje a dva roky VE DVOU PANELECH (notes) — nejsou ze stejného šetření, takže žádný bodový graf ani spojnice. Čísla z factcheck S43, assert.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "skandinavie",
+   "diagram": "Čárkovaný rámeček NORENZAYAN'S EXPLANATION: plošina COURTS · CONTRACTS · POLICE s postavou nahoře, vedle odkopnutý čárkovaný ambrový žebřík RELIGION'S LADDER, dole citace „CLIMBED RELIGION'S LADDER… AND THEN KICKED IT AWAY“.",
+   "note": "Soudy a policie jako Norenzayanova INTERPRETACE, ne důsledek grafu S43 (notes) — proto samostatná scéna v čárkovaném rámečku. Citace doslova (factcheck S44).",
+   "pause": 2.4
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "otazky",
+   "diagram": "Nahoře ztlumeně NONE OF THIS TELLS US WHETHER ANY GOD EXISTS, dvě karty WHY WE BELIEVE SOMETHING ≠ WHETHER IT'S TRUE, pod nimi ambrově SEPARATE QUESTIONS.",
+   "note": "Jedna věta „původ víry ≠ pravdivost“, bez odkazu na jméno videa.",
+   "pause": 2.6
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "otazky",
+   "diagram": "Rým karet z S09 dole, karta 1 rozsvícená. Nad ní keř a ambrový oblak bez těla, PART OF THE ANSWER a A MIND THAT EASILY IMAGINES INVISIBLE MINDS, EVEN WITHOUT A BODY.",
+   "note": "„Part of“ — odpověď nad kartou, ne místo otázky.",
+   "pause": 0.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "otazky",
+   "diagram": "Karty dole, karta 2 rozsvícená. Nahoře WHY DID SOME BECOME MORAL JUDGES? / DID THEY HELP BUILD LARGE SOCIETIES? a ambrový otazník.",
+   "note": "Otevřené, proto otazník, ne odpověď."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "otazky",
+   "diagram": "Jen dolní polovina: obě karty čárkovaně, mezi nimi ≠, v každé NO COMPLETE ANSWER YET.",
+   "note": "Okno závěrečné obrazovky může začínat už tady — horní polovina prázdná.",
+   "pause": 1.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "pokoj",
+   "diagram": "Týž pokoj z úvodu, Alice čárkovaně na ambrové židli. Horní polovina PRÁZDNÁ.",
+   "note": "Návrat k obrazu z S01–S06 na týchž souřadnicích (páteř). V okně závěrečné obrazovky: dlaždice a kolečko odběru patří nahoru, tam nic není.",
+   "pause": 2.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "otazky",
+   "diagram": "Jen dolní polovina: IF NOBODY WOULD EVER FIND OUT…, ambrově WOULD YOU BEHAVE ANY DIFFERENTLY?, ztlumeně LET ME KNOW IN THE COMMENTS.",
+   "note": "Otázka do komentářů (docs/cta.md). Horní polovina prázdná pro závěrečnou obrazovku."
+  }
+ ]
+}

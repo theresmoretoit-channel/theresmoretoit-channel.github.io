@@ -1,0 +1,622 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Ustavující záběr a bookend k S69. Prázdnota a stejnost je obsah scény — dvě stě aut, z nichž si má divák jedno vybrat. Pozor: SDXL kreslí auta nespolehlivě; když vyjdou deformovaná, je to případ pro archiv (parkoviště se dá vyfotit).",
+      "prompt": "a vast open-air car park seen from a low angle, rows of parked cars receding into haze, pale concrete, overcast light, a single figure standing small among them"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Zavádí barevný kód celého videa: JANTAR = přídavné jméno, BÍLÁ = podstatné. Divák se ho naučí tady a nese ho pak sedmdesát scén. Barva něco znamená, takže si význam nevyrobí sama (poučení ze třetího videa).",
+      "diagram_generator": "poradi",
+      "diagram": "dvě řady nad sebou: RED (jantar) + CAR (bílá), pod tím CAR + RED; druhá řada mírně nakloněná a s tlumeným otazníkem vpravo"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Nastolení otázky, kterou video nakonec odmítne zodpovědět a nahradí lepší.",
+      "diagram_generator": "karta",
+      "diagram": "dvě otázky pod sebou: BEFORE THE NOUN? / AFTER THE NOUN?, pod nimi menším písmem AND IS ONE OF THEM BETTER?",
+      "pause": 2.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "První pár. Vzorec je stejný, takže se barvy zarovnají do sloupců — to je ta informace.",
+      "diagram_generator": "poradi",
+      "diagram": "dvojjazyčná tabulka: A RED CAR / EIN ROTES AUTO, obě s jantarovým přídavným jménem vlevo; vlevo dole popisky ENGLISH a GERMAN"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Švédština a norština jsou k nerozeznání a je to záměr (rozhodnuto uživatelem 2026-08-27) — příbuznost je součástí sdělení. Diagram to podpírá tím, že řádky vypadají skoro totožně.",
+      "diagram_generator": "poradi",
+      "diagram": "přibývají EN RÖD BIL a EN RØD BIL pod předchozí dva, popisky SWEDISH a NORWEGIAN; jantarové sloupce pořád zarovnané"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Vizuální pointa celé sekce: sloupce se prohodí. Divák to vidí dřív, než to slyší. Předchozí čtyři řádky zůstávají vybledlé nahoře, aby bylo proti čemu.",
+      "diagram_generator": "poradi",
+      "diagram": "UNE VOITURE ROUGE — pořadí se PŘEVRACÍ, bílé podstatné jméno vlevo, jantarové vpravo; nahoře vybledlé anglické A RED CAR pro srovnání"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Potvrzení, že francouzština nebyla výjimka.",
+      "diagram_generator": "poradi",
+      "diagram": "UN COCHE ROJO pod francouzštinou, stejné převrácené pořadí, popisek SPANISH"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "POZOR na poučení ze třetího videa: prázdné osy čte divák jako rozbitý graf. Tečky jsou v obraze od začátku, obarví se až v S09.",
+      "diagram_generator": "data",
+      "diagram": "pole 1367 malých teček, VŠECHNY viditelné od prvního snímku, zatím jednobarevné; titulek 1,367 LANGUAGES SURVEYED"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Barvy sedí na kód z S02, takže se nic nového neučí. 110 tlumených je kategorie „obojí, žádné převažující\" — vynechat je by graf zkreslilo.",
+      "diagram_generator": "data",
+      "diagram": "totéž pole, 879 teček bílých (NOUN FIRST) a 373 jantarových (ADJECTIVE FIRST), 110 tlumených; čísla vypsaná u obou skupin"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Obrat, na kterém video stojí: angličtina je menšina. Číslo přidané v převodu (WALS kap. 87), zdrojový scénář ho neměl.",
+      "diagram_generator": "data",
+      "diagram": "totéž pole, jantarová skupina zvýrazněná rámečkem s popiskem ENGLISH IS HERE, dole titulek THE RARER OF THE TWO"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Polština: přídavná jména obklopí podstatné. Kód barev to ukáže bez jediného slova navíc.",
+      "diagram_generator": "poradi",
+      "diagram": "CZARNE (jantar) BUTY (bílá) TURYSTYCZNE (jantar) — jantar z OBOU stran"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Doslovný překlad polské fráze potřebuje PŘEDMĚT, ne další schéma — S11 vedle už ukazuje pořadí se šipkami a S13 je textová karta, takže tři textové scény za sebou by blok připravily o oddech. Původně tu byla archivní fotka bot z Wikimedia; uživatel ji zamítl (ošoupané boty, čitelné logo výrobce). SDXL zkoušen se třemi seedy a dopadl stejně, protože kotva stylu videa je „weathered documentary\". Kresba kódem drží styl i čistotu — viz diagrams/gen/bota.py.",
+      "diagram_generator": "bota",
+      "diagram": "kreslená turistická bota z boku, pod ní doslovný překlad BLACK (jantar) BOOTS (bílá) TOURIST (jantar)"
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12b.png",
+      "note": "Důvod polského rozestavění — na přání uživatele. Kreslí se TÁŽ řada jako v S11, jen s jinými popisky: stejný obraz, nová informace. Test stupňovatelnosti (bardziej czarne ano, *bardziej turystyczne ne) je ve factcheck.md, ale do obrazu nejde — scénář ho neříká a obrázek nesmí tvrdit víc než scénář.",
+      "diagram_generator": "poradi",
+      "diagram": "CZARNE BUTY TURYSTYCZNE jako v S11, pod jantarovými slovy popisky „just a description\" a „what they are for\""
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Konec jazykového bloku. Vtip scénáře — pozor, není to definice: polština má pravidlo (charakteryzująca před, klasyfikująca za), viz factcheck.md.",
+      "diagram_generator": "karta",
+      "diagram": "velké WHY CHOOSE? v jantaru, pod tím drobně a polsky „czarne buty turystyczne\"",
+      "pause": 2.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Předěl. Odsud se video staví za noun-first, aby si to za deset scén samo vyvrátilo.",
+      "diagram_generator": "karta",
+      "diagram": "SO WHICH WAY IS BETTER? na prázdné ploše"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Zavádí druhý motiv: vodorovná osa = čas příchodu informace. Vrátí se v S28 obráceně.",
+      "diagram_generator": "poradi",
+      "diagram": "časová osa zleva doprava, na ní CAR (bílá) hned na začátku, RED (jantar) až za ním; popisek FIRST THING YOU HEAR u CAR"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Podstatné jméno jako společný uzel, přídavná jména jako přípojky. Tvar má popisky, takže neříká nic sám za sebe (poučení z druhé zpětné vazby).",
+      "diagram_generator": "poradi",
+      "diagram": "jedno CAR vlevo a tři jantarová slova pod sebou vpravo: RED / OLD / ENORMOUS, spojená tenkými linkami k CAR"
+    },
+    {
+      "id": "S17",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S17.png",
+      "note": "„There is a car outside.\" Nové jméno předmětu — proto atmosféra, ne diagram. Jedna ze sedmi pohyblivých scén videa.",
+      "prompt": "an ordinary residential street seen through a window at dusk, one parked car at the kerb, warm interior light, quiet suburban calm"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Dvě promluvy za sebou, ne jedna fráze — to je celý rozdíl proti S16.",
+      "diagram_generator": "kotva",
+      "diagram": "dvoukrok: nahoře A CAR (bílá) s odškrtnutím, pod tím IT IS RED (jantar); šipka shora dolů s popiskem THEN"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Metafora kotvy MUSÍ mít popisek, jinak je to jen tvar. Názornou ukázku téhož nese S38-S41, tady stačí myšlenka.",
+      "diagram_generator": "kotva",
+      "diagram": "velké bílé NOUN uprostřed jako kotevní bod, kolem něj jantarová políčka s popisky detailů; popisek SOMETHING TO ATTACH THINGS TO"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Největší obrat videa. Dlouhá pauza je tu proto, aby si divák stihl uvědomit, že mu argument berou zpátky.",
+      "diagram_generator": "karta",
+      "diagram": "PROBLEM SOLVED. velkým, pod tím jantarově a menším EXCEPT… NOT REALLY.",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S23.png",
+      "note": "Návrat na parkoviště z S01, ale shora — teď jde o množství, ne o atmosféru.",
+      "prompt": "a crowded car park from above, dense rows of identical parked cars filling the frame, muted colours, flat overcast light, no signage"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Scéna, která má být k ničemu — přesně jak říká text. Žádné auto nesvítí.",
+      "diagram_generator": "parkoviste",
+      "diagram": "mřížka dvou set stejných obrysů aut, VŠECHNY stejně tlumené, nic nezvýrazněno; titulek TAKE THE CAR"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Dvojče S24 a nejúčinnější obraz videa: identická mřížka, jedno slovo navíc, a divák okamžitě ví kam se dívat. Diagramy jsou statické, takže rozdíl nese jen ta barva.",
+      "diagram_generator": "parkoviste",
+      "diagram": "tatáž mřížka, JEDNO auto jantarové; titulek TAKE THE RED CAR"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Ukazatele mají popisek, takže to není graf bez údajů. Nejsou to naměřená data a nemají tak vypadat — proto ukazatel, ne osa s čísly.",
+      "diagram_generator": "parkoviste",
+      "diagram": "dva sloupce: CAR s téměř prázdným ukazatelem a RED s plným, popisky HOW MUCH THIS NARROWS IT DOWN"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Věta, kterou by divák z první poloviny videa nečekal.",
+      "diagram_generator": "karta",
+      "diagram": "GIVING US THE NOUN FIRST, pod tím jantarově CAN BE A WASTE OF TIME"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Vrací osu z S15, ale s opačným závěrem. Tentýž diagram, jiná data — to je ta pointa.",
+      "diagram_generator": "poradi",
+      "diagram": "dvě časové osy pod sebou: RED CAR (užitečné slovo přijde hned) a CAR RED (přijde až druhé); svislá čárka označuje okamžik rozhodnutí",
+      "pause": 2.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Otázka z titulku videa se škrtá. Musí být pořád čitelná, jen přeškrtnutá.",
+      "diagram_generator": "karta",
+      "diagram": "přeškrtnutá otázka WHICH WORD ORDER IS BETTER?"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Náhradní otázka. Od téhle scény je to jiné video, než jaké slibuje titulek.",
+      "diagram_generator": "karta",
+      "diagram": "jantarově WHICH INFORMATION DOES THE LISTENER ALREADY HAVE?"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Dvě situace, dvě různé odpovědi. Nutné popisky, jinak jsou to jen tvary.",
+      "diagram_generator": "kontext",
+      "diagram": "dvě situace vedle sebe: vlevo prázdno a jedno auto (NEW), vpravo řada aut (ALREADY KNOWN); pod každou to slovo, které je v ní důležité"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Doslovný výčet ze scénáře. „WHATEVER\" tam patří — je to tón vypravěčky.",
+      "diagram_generator": "kontext",
+      "diagram": "CAR vybledlé, pod ním čtyři jantarová slova COLOUR / SIZE / AGE / WHATEVER jako to, co zbývá",
+      "pause": 2.2
+    },
+    {
+      "id": "S33",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S33.png",
+      "note": "Sdílený prostor je obsah scény — proto lidé a věci, ne schéma.",
+      "prompt": "two people talking across a kitchen table in a shared room, everyday objects between them, soft daylight from one window, seen from the side"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Rozklad toho, co bylo na fotce v S33.",
+      "diagram_generator": "kontext",
+      "diagram": "seznam toho, co je sdílené: SAME ROOM / SAME THINGS IN SIGHT, každá položka s malou ikonou"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Vrstvení má popisky u každé vrstvy — bez nich by to byl jen pruhovaný obdélník.",
+      "diagram_generator": "kontext",
+      "diagram": "vrstvy nad sebou jako sedimenty: PREVIOUS SENTENCES / GESTURES / CONTEXT, každá popsaná"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Shannon bez vzorce. Scénář tvrdí jen podobnost, ne implementaci — obraz nesmí tvrdit víc (poučení z S39 třetího videa). Blokovou pauzu 2.6 s převzala po vyškrtnuté scéně — konec bloku se posunul sem.",
+      "diagram_generator": "kontext",
+      "diagram": "dvě zprávy vedle sebe: ALREADY KNOWN s téměř nulovým ukazatelem a NEW s plným; titulek INFORMATION THEORY",
+      "pause": 2.6
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "POZOR na pořadí: velikost PŘED stářím (LARGE NEW, ne NEW LARGE) — opraveno fact checkem, viz factcheck.md. Ve videu o pozici přídavných jmen by opačné pořadí byla ostudná chyba.",
+      "diagram_generator": "kotva",
+      "diagram": "šest jantarových slov v řadě LARGE / NEW / RED / GERMAN / ELECTRIC / SPORTS a na konci prázdné bílé místo s otazníkem"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Sourozenec S20 se čtyřmi jinými siluetami. Staccato výčet ve scénáři je krátký záměrně, takže obraz musí být okamžitě čitelný.",
+      "diagram_generator": "kotva",
+      "diagram": "velký otazník a pod ním čtyři tlumené siluety: auto, motorka, loď, letadlo"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Čekání jako vzdálenost. Šipka má popisek.",
+      "diagram_generator": "kotva",
+      "diagram": "tentýž řetěz šesti slov, pod ním vodorovná šipka s popiskem THE LISTENER IS STILL WAITING vedoucí až na konec"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Přímý protějšek S40 — táž slova, jiná pozice jednoho z nich, a šipka se scvrkne.",
+      "diagram_generator": "kotva",
+      "diagram": "CAR (bílá) přesunuto na ZAČÁTEK řady, šest jantarových slov za ním, šipka čekání zkrácená skoro na nulu"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Scéna byla původně 15,7 s, tedy mimo pravidlo 6-12 s. Rozdělena na S42 + S42b; číslování zbytku se nesahalo, protože lib.py bere i „S42b\".",
+      "diagram_generator": "karta",
+      "diagram": "BUT IN ORDINARY CONVERSATION, pod tím jantarově WE ALREADY KNOW MOST OF IT"
+    },
+    {
+      "id": "S42b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42b.png",
+      "note": "Druhá půlka rozdělené S42. Konec bloku o dlouhých popisech — vrací argument zpátky k adjective-first, takže dostává pauzu.",
+      "diagram_generator": "karta",
+      "diagram": "velké jantarové ADJECTIVE FIRST, pod tím CAN BE EXTREMELY USEFUL",
+      "pause": 2.4
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Nejhustší diagram videa a stojí za to: dva jazyky, tatáž věc, jiné rozestavění. Barevný kód z S02 tady vydělá nejvíc.",
+      "diagram_generator": "poradi",
+      "diagram": "dvě řady nad sebou: polsky CZARNE BUTY TURYSTYCZNE (jantar-bílá-jantar) a anglicky BLACK HIKING BOOTS (jantar-jantar-bílá); barvy se liší pozicí, ne významem"
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43b.png",
+      "note": "Druhý doklad téhož pravidla, na kterém S45 hned potom staví zobecnění: táž řeč umí obojí, jen u JINÉHO slovního druhu. Diagram proto nehýbe jantarem (přídavné jméno zůstává vpředu), ale tlumeným určovatelem — sloupec, ve kterém stojí MIN, je celé sdělení. Číslo S43b, ne S44: S44 je škrtnutá scéna vedená ve skrty.md a notes.md, a přečíslovat ji na tuhle by ta evidence začala ukazovat na cizí tvrzení.",
+      "diagram_generator": "poradi",
+      "diagram": "dvě řady: EN (tlumeně) RØD (jantar) BIL (bílá) a pod tím BILEN (bílá) MIN (tlumeně) — určovatel přeskočí přes podstatné jméno"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Zobecnění polského případu.",
+      "diagram_generator": "karta",
+      "diagram": "LANGUAGES DO NOT HAVE TO PICK ONE RULE"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Teaser. Krátká scéna, dlouhá pauza — ať to visí ve vzduchu.",
+      "diagram_generator": "karta",
+      "diagram": "AND THEN THERE IS FRENCH v jantaru, jinak prázdno",
+      "pause": 2.2
+    },
+    {
+      "id": "S47",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S47.png",
+      "note": "Atmosférický předěl. ZÁMĚRNĚ bez rozpoznatelné dominanty — konkrétní skutečné místo by překlopilo odpověď na dotaz YouTube „byla použita AI\" na ano.",
+      "prompt": "a narrow European street in soft grey daylight, shuttered windows, a café awning, worn stone paving, nobody in frame, no signage"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Klíčový diagram sekce a možná celého videa. Slova jsou totožná, mění se jen pozice a význam — což je přesně to, co barevný kód nedokáže ukázat, takže tady musí promluvit šipky a překlady.",
+      "diagram_generator": "poradi",
+      "diagram": "dvě řady: UN GRAND HOMME -> A GREAT MAN a UN HOMME GRAND -> A TALL MAN; obě mají táž dvě slova, jen prohozená, a šipka k jinému významu"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Shrnutí ve čtyřech úderech. První dva bílé, poslední dva jantarové — barva odděluje, co je stejné, od toho, co ne.",
+      "diagram_generator": "karta",
+      "diagram": "čtyři řádky pod sebou: SAME ADJECTIVE / SAME NOUN / DIFFERENT POSITION / DIFFERENT MEANING, poslední jantarově",
+      "pause": 2.2
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Druhý pár. Opakuje tvar z S48, aby divák poznal, že to není náhoda.",
+      "diagram_generator": "poradi",
+      "diagram": "UN PAUVRE HOMME -> AN UNFORTUNATE MAN, vedle malá ikona soucitu"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Protějšek S50. Ikona musí být jednoznačná — prázdná peněženka čte i ve 120 px, abstraktní symbol nouze ne.",
+      "diagram_generator": "poradi",
+      "diagram": "UN HOMME PAUVRE -> A MAN WITHOUT MONEY, vedle prázdná peněženka"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Angličtina a čeština jako kontrolní skupina: pozice se změní, význam ne. Obě šipky musí končit ve stejném bodě, jinak scéna netvrdí nic.",
+      "diagram_generator": "poradi",
+      "diagram": "BLACK SHOES a SHOES BLACK pod sebou, obě šipky vedou k témuž obrázku bot; popisek STILL THE SAME SHOES"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Francouzština jako mluvčí. Dvě repliky pod sebou, žádná grafika.",
+      "diagram_generator": "karta",
+      "diagram": "AH. YOU HAVE MOVED THE ADJECTIVE. jako replika, pod ní jantarově WE MEANT SOMETHING ELSE ENTIRELY."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Metafora skrytého pole. Bez popisku by to byl jen otevřený obdélník.",
+      "diagram_generator": "skryte",
+      "diagram": "slovní pořadí jako řádek políček, jedno z nich se otevírá a je v něm schovaný symbol významu; popisek AN EXTRA PIECE OF INFORMATION"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Pointa celé sekce a nejdelší pauza videa. Krátká scéna je tady záměr, ne opomenutí.",
+      "diagram_generator": "karta",
+      "diagram": "velké jantarové A LITTLE BIT NAUGHTY na prázdné ploše",
+      "pause": 2.8
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Prázdné místo je záměr — vítěz se nedoplní ani v S57, ani nikdy.",
+      "diagram_generator": "verdikt",
+      "diagram": "dva soupeři proti sobě: NOUN FIRST (bílá) a ADJECTIVE FIRST (jantar), mezi nimi prázdné místo na vítěze"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Každý tábor dostane vlastní větu, ne známku.",
+      "diagram_generator": "verdikt",
+      "diagram": "u NOUN FIRST se rozsvítí replika „I'LL TELL YOU WHAT WE ARE TALKING ABOUT FIRST.\""
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Obě naráz — to je ta odpověď. Prázdné místo na vítěze pořád prázdné. Blokovou pauzu 2.4 s převzala po vyškrtnuté scéně — konec bloku se posunul sem.",
+      "diagram_generator": "verdikt",
+      "diagram": "u ADJECTIVE FIRST se rozsvítí „I'LL TELL YOU WHAT MAKES IT DIFFERENT FIRST.\"; obě repliky teď svítí naráz",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Předěl k závěrečné myšlence.",
+      "diagram_generator": "karta",
+      "diagram": "LANGUAGES ARE NOT ENGINEERED SYSTEMS"
+    },
+    {
+      "id": "S61",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S61.png",
+      "note": "Nikdo si nesedl a nenavrhl angličtinu — proto prázdná zasedačka. Ironie obrazu nese větu líp než diagram.",
+      "prompt": "an empty committee room with a long table and empty chairs, a blank sheet of paper at one place, cold north light, nobody present"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Vývoj bez čísel. NENÍ to graf a nesmí tak vypadat — proto vějíř linek a popisky, žádné osy (poučení: prázdné osy čte divák jako rozbitý graf).",
+      "diagram_generator": "verdikt",
+      "diagram": "vějíř cest v čase: některé linky sílí, jiné slábnou a končí; popisky BECAME COMMON a DISAPPEARED"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "První tábor. Vlajky ne — jen názvy jazyků, ať se to nepoplete se zeměpisem.",
+      "diagram_generator": "verdikt",
+      "diagram": "sloupec ADJECTIVE FIRST s vlajkovými popisky ENGLISH / GERMAN / SWEDISH / CZECH"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Uzavření mapy. Polština i francouzština mají zvláštní status a musí být vidět, že nejsou v žádném sloupci úplně.",
+      "diagram_generator": "verdikt",
+      "diagram": "vedle přibude sloupec NOUN FIRST s FRENCH / SPANISH, dole POLISH s šipkou do obou a FRENCH s poznámkou ALSO CHANGES MEANING",
+      "pause": 2.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Odpověď, kterou video slíbilo neposkytnout a přece poskytlo.",
+      "diagram_generator": "karta",
+      "diagram": "velké IT DEPENDS na prázdné ploše"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Nejpoužitelnější obraz videa — tohle si má divák odnést.",
+      "diagram_generator": "verdikt",
+      "diagram": "dvouřádkové pravidlo: NOUN IS NEW -> NOUN FIRST, NOUN IS OBVIOUS -> ADJECTIVE FIRST"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Přechod od malé otázky k velké. Velikost písma nese ten přechod.",
+      "diagram_generator": "karta",
+      "diagram": "malá otázka RED CAR OR CAR RED? nahoře, pod ní roste velká"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Skutečná otázka videa. Tatáž jako v S30, ale teď už zaplacená.",
+      "diagram_generator": "karta",
+      "diagram": "jantarově a velké WHAT INFORMATION DOES THE LISTENER NEED RIGHT NOW?",
+      "pause": 2.2
+    },
+    {
+      "id": "S69",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S69.png",
+      "note": "Bookend k S01 — tentýž prostor, ale teď v něm divák to auto najde. Jediné barevné auto v celém videu.",
+      "prompt": "a car park in late afternoon light, one red car standing out among rows of muted grey and white cars, low angle, calm and ordinary"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Poslední obraz spojuje oba motivy videa: barevný kód a parkoviště. Podpis kanálu se nedopisuje — vyplyne to.",
+      "diagram_generator": "poradi",
+      "diagram": "RED (jantar) CAR (bílá) uprostřed, kolem vybledlá mřížka dvou set aut; dole drobně THERE ARE TWO HUNDRED OF THEM"
+    }
+  ]
+}

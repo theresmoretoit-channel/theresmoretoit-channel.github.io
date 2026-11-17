@@ -1,0 +1,770 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Hook. Čtyři akordové bloky, nic víc — obraz musí být tak prostý, jak zní text.",
+      "diagram_generator": "akordy",
+      "diagram": "čtyři stejné akordové bloky v řadě, pod nimi tenká čára beatu"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Opakovaný refrén proti obřímu číslu přehrání. Kontrast nese celý vtip scény.",
+      "diagram_generator": "opakovani",
+      "diagram": "pás CHORUS × 6 pod sebou, vpravo počítadlo přehrání rostoucí do ztracena"
+    },
+    {
+      "id": "S03",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S03.png",
+      "note": "Bachova vlastnoruční partitura. Rozbíjí dvanáct diagramů v řadě hned v úvodu a doloží „complicated chord changes\" líp než kresba. POZOR: první nález („Messe a Cappella con organo\") byla ručně psaná dedikace v próze, ne noty — věcně špatně, viz pravidlo „ověřuj i obrázky\".",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "orchestral score page",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Trojice otázek. Karta, ne ilustrace — divák je má přečíst, ne prohlížet.",
+      "diagram_generator": "karta",
+      "diagram": "tři otázky pod sebou: LESS TALENTED? / COMPUTERS? / AN ADVERT FOR THE CHORUS?"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Dvě osy — jednodušší v jednom, složitější v druhém. Teze videa v jednom obrázku.",
+      "diagram_generator": "dimenze",
+      "diagram": "dvě kolmé osy: NOTES (klesá) a SOUND (roste)"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Nastolení survivorship biasu. Vrací se v S47.",
+      "diagram_generator": "karta",
+      "diagram": "dvě nestejné hromádky proti sobě, otazník mezi nimi"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Titulní otázka. Rámující karta, konec introa.",
+      "diagram_generator": "karta",
+      "diagram": "IS IT ACTUALLY SIMPLER AT ALL?",
+      "pause": 1.6
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Definice: jednoduchost má víc rozměrů.",
+      "diagram_generator": "dimenze",
+      "diagram": "čtyři osy jednoduchosti: HARMONY / MELODY / RHYTHM / PRODUCTION"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Harmonie: čtyři akordy, někdy tři.",
+      "diagram_generator": "akordy",
+      "diagram": "čtyři akordy, pak varianta se třemi"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Smyčka — tentýž postup dokola celou stopou.",
+      "diagram_generator": "opakovani",
+      "diagram": "akordový postup jako uzavřená smyčka, šipka dokola"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Krátké fráze, opakované vzorce, chytlavý refrén.",
+      "diagram_generator": "melodie",
+      "diagram": "krátká melodická fráze opakovaná, rozsah zúžený do pásu"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Struktura písně. Klasický blokový diagram, čte se zleva doprava.",
+      "diagram_generator": "struktura",
+      "diagram": "VERSE / CHORUS / VERSE / CHORUS / BRIDGE / FINAL CHORUS"
+    },
+    {
+      "id": "S13",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13.png",
+      "note": "Oddech mezi diagramy. Jednoduché napsat je těžké — bez tváře, bez konkrétní osoby.",
+      "prompt": "a single hand resting on piano keys in a dim room, one shaft of warm light, most of the frame empty, painterly, cinematic wide"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "VÝTKA 2:01 „grafy nechápu“. Pravá strana byla chuchvalec čar bez měřítka. Potřebuje popisek s počtem vrstev, aby šlo poznat, co se srovnává.",
+      "diagram_generator": "srovnani",
+      "diagram": "vlevo tři pojmenované prvky kompozice, vpravo TÝŽ počet vrstev vypsaný číslem — ne beztvarý shluk; musí být vidět, že je jich řádově víc"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Desítky až stovky vrstev.",
+      "diagram_generator": "vrstvy",
+      "diagram": "stovky tenkých vodorovných stop nad sebou, pár zvýrazněných"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Výčet vrstev. Ten samý diagram s popiskami — SDXL text neumí.",
+      "diagram_generator": "vrstvy",
+      "diagram": "popsané stopy: SYNTHS / SAMPLES / VOCALS / FX / COMPRESSION"
+    },
+    {
+      "id": "S17",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S17.png",
+      "note": "Skutečný mixážní pult. Věcně správnější než cokoli generovaného.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "audio mixing console recording studio",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Klíčový přesun: z not do zvuku nahrávky. Konec bloku.",
+      "diagram_generator": "presun",
+      "diagram": "šipka od notového zápisu k tvaru vlny",
+      "pause": 1.6
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Tady video přiznává, že je to složitější. Karta, ne graf — graf přijde za dvě scény.",
+      "diagram_generator": "karta",
+      "diagram": "AND HERE'S WHERE IT GETS COMPLICATED"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Některé vzorce ubyly, jiné zdomácněly. Dvě křivky, ne jedna.",
+      "diagram_generator": "diverzita",
+      "diagram": "dvě křivky proti sobě: jeden harmonický vzorec klesá, druhý roste"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Slib divákovi. Splácí se v S51–S52 — obraz má být tentýž motiv rozmazaný.",
+      "diagram_generator": "karta",
+      "diagram": "náznak křivky diverzity, zatím bez os a bez čísel",
+      "pause": 1.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "VÝTKA 3:11 „co to zobrazuje?“. Čtyři jantarové obdélníky neříkaly, že jsou to akordy. Teď skutečné noty — řeší to i divákovu prosbu o víc not.",
+      "diagram_generator": "noty",
+      "diagram": "OSNOVA se čtyřakordovým postupem a akordovými značkami, pod ní žánrové štítky"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Ukázka zní pod scénou. V obraze musí být SKUTEČNÉ NOTY — divák si stěžoval, že diagramy o hudbě žádnou hudbu neukazují.",
+      "diagram_generator": "noty",
+      "diagram": "osnova se čtyřakordovým postupem, akordové značky nad ní, zvýrazněný právě znějící akord",
+      "pause": 8.0,
+      "example": {
+        "kind": "progression",
+        "bars": 4
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Napětí a rozvod — proč to funguje.",
+      "diagram_generator": "krivka-u",
+      "diagram": "křivka napětí stoupá a rozvádí se, vyznačený bod rozvodu"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "VÝTKA 3:30 „co to je?“. Oranžová klikyhák přes šedé krabice bez legendy. Teď doprovod a melodie jako dvě POPSANÉ vrstvy notace.",
+      "diagram_generator": "noty",
+      "diagram": "osnova s doprovodem vzadu, nad ní melodie hooku jako výrazná linka, obojí popsané"
+    },
+    {
+      "id": "S26",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S26.png",
+      "note": "Přirovnání k obrazu. Jednoduchá obloha, detailní popředí — obraz sám je ten argument.",
+      "prompt": "a painting with a vast plain empty sky and a single richly detailed figure in the foreground, muted palette, painterly, cinematic wide",
+      "pause": 1.5
+    },
+    {
+      "id": "S27",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S27.png",
+      "note": "Rok 1975: gramofon. Skutečný předmět, ne generovaný.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "vinyl record player turntable",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S28",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Poslech jako závazek. Pokoj, ne osoba.",
+      "prompt": "a dim living room in the nineteen seventies, record sleeve leaning against a shelf, warm lamp light, nobody present, painterly, cinematic wide"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Trpělivost posluchače jako časová osa jedné skladby.",
+      "diagram_generator": "skip",
+      "diagram": "časová osa skladby, zajímavé místo až v minutě, celá osa se dohraje"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "VÝTKA 4:08 „co to je?“. Scéna vypadala skoro stejně jako předchozí, takže rozdíl nebyl vidět.",
+      "diagram_generator": "skip",
+      "diagram": "tatáž osa jako v předchozí scéně, useknutá po 3 s, POD ní stoh dalších skladeb a šipka „další“; rozdíl proti předchozí scéně musí být na první pohled"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Nulová cena odchodu mění pobídky.",
+      "diagram_generator": "skip",
+      "diagram": "váhy: vlevo cena odchodu ≈ nula, vpravo konkurence všech nahrávek"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Diagram místo SDXL: abstraktní zadání model dvakrát minul a vrátil krajinu. Kreslí skip.py."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Nájezd na data. Následující tři scény jsou graf.",
+      "diagram_generator": "karta",
+      "diagram": "LONG INTROS HAVE BECOME LESS COMMON"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "VÝTKA 4:42 „graf bez údajů“. Prázdné osy jsem myslela jako nájezd; divák je čte jako rozbitý graf. Data musí být v obraze od prvního snímku.",
+      "diagram_generator": "intro-graf",
+      "diagram": "křivka introa UŽ VYKRESLENÁ, metodika jako popisek vedle ní"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Hlavní křivka: 20 s -> 5 s. Nejlépe doložené číslo videa.",
+      "diagram_generator": "intro-graf",
+      "diagram": "křivka délky introa klesá z 20 s na 5 s, vyznačen pokles o 78 %"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Druhá křivka: tempo +8 %. Tatáž osa, aby šlo srovnat.",
+      "diagram_generator": "intro-graf",
+      "diagram": "druhá křivka tempa mírně stoupá nad tou první",
+      "pause": 1.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Táž studie měřila i názvy. Graf klesajícího počtu slov v názvu.",
+      "diagram_generator": "nazvy",
+      "diagram": "klesající počet slov v názvu 1986–2015, dole rostoucí podíl jednoslovných"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Hook = název, tedy to, co se zpívá. Osnova s vyznačeným místem, kde vokál zazpívá název.",
+      "diagram_generator": "noty",
+      "diagram": "časová osa skladby, vyznačen nástup vokálu a okamžik, kdy zazní název; −18 %"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "nazvy",
+      "diagram": "instrumentálky v čele hitparád: hustě v 60. letech, pak skoro nic",
+      "note": "Doplněno po upřesnění diváka. POZOR: přesný počet instrumentálních jedniček je jen ze sekundárních zdrojů, scénář proto tvrdí SMĚR, ne počet — viz factcheck."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "nazvy",
+      "diagram": "výseč témat textů: láska, peníze, smutek, úterní odpoledne",
+      "note": "Dnes se zpívá ve všech žánrech a o čemkoli. Odpověď na divákovu připomínku."
+    },
+    {
+      "id": "S41",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S41.png",
+      "note": "Ne lenost, ale prostředí. Odjezd ukáže měřítko konkurence.",
+      "prompt": "a tall apartment block seen from outside at night, hundreds of dark identical windows, exactly one window lit warm amber, painterly documentary illustration, muted palette, no people, no text",
+      "seed": 20260826
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Telemetrie. Uživatel chtěl tenhle blok vizuálně hodně svižný — hutný diagram, žádný pohyb.",
+      "diagram_generator": "data-tok",
+      "diagram": "tok událostí: SKIP / REPLAY / STOP, tři proudy do jednoho uzlu"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Není to spiknutí, je to evoluce. Selekce, ne režie.",
+      "diagram_generator": "data-tok",
+      "diagram": "selekční nálevka: mnoho variant vstupuje, přežívá pár",
+      "pause": 1.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Patnáct sekund místo celé skladby.",
+      "diagram_generator": "struktura",
+      "diagram": "skladba jako pás, z ní vyříznutý krátký úsek"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Diagram místo SDXL: abstraktní zadání model dvakrát minul a vrátil krajinu. Kreslí hook.py."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Hook jako malé logo. Uzavírá blok o pozornosti.",
+      "diagram_generator": "hook",
+      "diagram": "hook zmenšený do podoby značky, opakovaný v mřížce",
+      "pause": 1.6
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Nejdůležitější otázka videa. Rámující karta.",
+      "diagram_generator": "karta",
+      "diagram": "WAS OLD MUSIC ACTUALLY BETTER?"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Survivorship bias pojmenován.",
+      "diagram_generator": "filtr",
+      "diagram": "schéma přeživších: vidíme jen to, co prošlo filtrem"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "VÝTKA 6:24 „proč jsou kapely různě barevné?“. Dvě byly jantarové, dvě bílé — čistě pro pestrost. Barva bez významu si význam vyrobí.",
+      "diagram_generator": "kapely",
+      "diagram": "čtyři názvy kapel JEDNOU barvou, kolem nich šeď bezejmenných titulů"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Zapomenuté písně. Bezejmenné bloky.",
+      "diagram_generator": "filtr",
+      "diagram": "mřížka stovek nepopsaných titulů, čtyři z nich svítí"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "VÝTKA 6:38 „co to je?“. Řádka modrých čtverečků jako síto nevypadala.",
+      "diagram_generator": "filtr",
+      "diagram": "skutečné SÍTO v řezu: nahoře hromada titulů, propadají skrz, dole zůstane hrstka; vše popsané slovy"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Nefér srovnání: průměr dneška proti nejlepšímu za šedesát let.",
+      "diagram_generator": "srovnani",
+      "diagram": "vlevo AVERAGE OF TODAY, vpravo BEST OF SIXTY YEARS, nestejné misky vah"
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S53.png",
+      "note": "Posluchač z roku 2076. Obrácení perspektivy.",
+      "prompt": "a distant future room lit by a single screen, listening to something long past, sparse, painterly, cinematic wide"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "VÝTKA 7:09 „co to je?“. Táž příčina jako S49.",
+      "diagram_generator": "filtr",
+      "diagram": "totéž síto, ale obrácené na dnešek: nahoře 2020s, dole hrstka; popsané",
+      "pause": 1.8
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Složitá hudba nezmizela, jen není v čele žebříčku.",
+      "diagram_generator": "srovnani",
+      "diagram": "žebříček shora dolů, složité tituly leží hluboko pod špičkou"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "VÝTKA 7:25 „graf bez dat“. Táž příčina jako S34.",
+      "diagram_generator": "diverzita",
+      "diagram": "křivka diverzity UŽ VYKRESLENÁ, metodika jako popisek"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Křivka: propad k 1984, návrat k maximu po roce 2000. Nejsilnější moment videa.",
+      "diagram_generator": "diverzita",
+      "diagram": "křivka diverzity klesá k minimu 1984 a stoupá k maximu v raných dvoutisících",
+      "pause": 1.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Kde složitost bydlela v různých žánrech.",
+      "diagram_generator": "kde-zije",
+      "diagram": "tři sloupce: CLASSICAL → harmony, PROG ROCK → time signatures, ELECTRONIC → ?"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Čtvrtý sloupec se vyplní: sound design, vrstvení, stavba beatu, práce s hlasem.",
+      "diagram_generator": "kde-zije",
+      "diagram": "čtvrtý sloupec doplněn: SOUND DESIGN / LAYERING / BEAT / VOICE"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Hodiny práce na dvou sekundách zvuku proti čtyřem akordům.",
+      "diagram_generator": "vrstvy",
+      "diagram": "dvě sekundy zvuku rozpitvané na desítky operací, vedle čtyři prosté akordy"
+    },
+    {
+      "id": "S61",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S61.png",
+      "note": "Studio už není zamčené. Ložnice místo studia.",
+      "prompt": "a small bedroom desk with a laptop glowing at night, headphones, no people, painterly, cinematic wide"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Studio se scvrklo do laptopu. Srovnání dvou objemů.",
+      "diagram_generator": "nastroje",
+      "diagram": "vlevo místnost plná racků, vpravo laptop, mezi nimi šipka"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Sto milionů stop na jedné službě. Oficiální údaj Spotify.",
+      "diagram_generator": "nastroje",
+      "diagram": "100 000 000 TRACKS, pod tím mřížka mizící do ztracena"
+    },
+    {
+      "id": "S64",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Vtip o tepelné smrti vesmíru. Krátký beat, ať pointa dosedne.",
+      "prompt": "an impossibly long corridor of identical doors receding into darkness, painterly, cinematic wide"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Nástroje nesou zabudované postupy. Pozor: NE „nahrazují zkušenost“ — viz factcheck.",
+      "diagram_generator": "nastroje",
+      "diagram": "preset jako krabička, uvnitř vrstvy postupů: EQ / COMPRESSION / REVERB"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Pointa přesunutého bloku: píseň smí být jednoduchá, protože zvuk kolem ní nemusí.",
+      "diagram_generator": "nastroje",
+      "diagram": "jednoduchá melodie nahoře, pod ní hustá vrstva nástrojů, která ji nese"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Tytéž čtyři akordy HOLÉ. Noty samotné, žádné vrstvy.",
+      "diagram_generator": "noty",
+      "diagram": "tytéž čtyři akordy jako v ukázce, nic víc, hodně prázdna",
+      "pause": 7.0,
+      "example": {
+        "kind": "progression",
+        "bars": 4,
+        "produced": false
+      }
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Tytéž akordy VYPRODUKOVANÉ. Táž osnova, kolem ní hustý stoh vrstev.",
+      "diagram_generator": "noty",
+      "diagram": "tatáž osnova, kolem ní desítky vrstev produkce",
+      "pause": 7.0,
+      "example": {
+        "kind": "progression",
+        "bars": 4,
+        "produced": true
+      }
+    },
+    {
+      "id": "S69",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S69.png",
+      "note": "Skutečný hodinový strojek. Fotografie je tu lepší než kresba.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "mechanical watch movement gears",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Telefon jako prostý obdélník. Protiklad strojku ze S60.",
+      "diagram_generator": "hodinky",
+      "diagram": "vlevo strojek plný koleček, vpravo hladký obdélník, pod ním jeho vnitřní složitost",
+      "pause": 1.5
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Odpověď starší než streaming. Vzorce, známost, opakování.",
+      "diagram_generator": "krivka-u",
+      "diagram": "tři slova jako základ: PATTERNS / FAMILIARITY / REPETITION"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Predikce a odměna. Obrácené U — doloženo Gold et al. 2019.",
+      "diagram_generator": "krivka-u",
+      "diagram": "obrácené U: osa PREDICTABILITY, osa PLEASURE, oba konce nízko"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Zóna mezi známým a novým. Vyznačený vrchol téže křivky.",
+      "diagram_generator": "krivka-u",
+      "diagram": "tatáž křivka s vyznačeným vrcholem: FAMILIAR ENOUGH / DIFFERENT ENOUGH"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Rekapitulace důvodů. Střídmě, ať to není druhé video ve videu.",
+      "diagram_generator": "karta",
+      "diagram": "dva důvody pod sebou: STREAMING REWARDS IMMEDIACY / SIMPLE HAS ALWAYS WORKED"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Obrat: ne jednodušší, ale optimalizovanější.",
+      "diagram_generator": "optimalizace",
+      "diagram": "přeškrtnuté SIMPLER, pod ním OPTIMISED"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Anafora „Optimised for…“. Čtyři řádky přibývají.",
+      "diagram_generator": "optimalizace",
+      "diagram": "ATTENTION / MEMORABILITY / REPLAY / SURVIVING"
+    },
+    {
+      "id": "S77",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S77.png",
+      "note": "Sedmnáctiminutová píseň pro dvanáct lidí. Odjezd na osamělost.",
+      "prompt": "one tiny lit room seen from very far away across a vast dark landscape, painterly, cinematic wide"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "VÝTKA 10:12 „co to je?“. Hvězdice bez jediného popisku.",
+      "diagram_generator": "dimenze",
+      "diagram": "paprsky z jednoho bodu, KAŽDÝ POPSANÝ jménem žánru nebo parametru"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Přeformulovaná otázka — podpis celého videa.",
+      "diagram_generator": "karta",
+      "diagram": "SIMPLE COMPARED TO WHAT?",
+      "pause": 1.6
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Nefér srovnání ještě jednou, teď už divák ví proč. Táž kompozice jako S47.",
+      "diagram_generator": "srovnani",
+      "diagram": "tytéž váhy jako v S47, teď popsané: AVERAGE vs GREATEST"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Nepříjemné zjištění se blíží.",
+      "diagram_generator": "srovnani",
+      "diagram": "tytéž váhy vyrovnané: průměr proti průměru"
+    },
+    {
+      "id": "S82",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S82.png",
+      "note": "Poslední obraz: zapomenuté písně. Odjezd do ztracena.",
+      "prompt": "countless faint shapes fading into darkness, a few still faintly glowing, painterly, cinematic wide"
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `osa()` poprvé jako věk vesmíru: vlevo BIG BANG, vpravo TODAY, nad osou 13.8 BILLION YEARS. Osa se protáhne zleva doprava na „entire age of the universe“. Vpravo malá ambrová značka a v lupě < 1 SECOND. Vlevo nahoře ikona hodin: A CLOCK IN BOULDER, COLORADO.",
+   "note": "První obrazovka nese myšlenku (nejistota pod sekundu za celý věk vesmíru), ne atmosféru. Žádná SDXL. Čísla: 0,35 s za 13,8 mld let (factcheck S01).",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Schodiště čtyř generací: PENDULUM, QUARTZ, CAESIUM, OPTICAL, každá výš. Svislá šipka PRECISION. Schody naskakují na „generation“.",
+   "note": "Pořadí generací je chronologické (1656, 1927, 1955, 2000s). Schody BEZ čísel — výška je jen pořadí, ne měřítko; graf s čísly by tvrdil víc než hlas.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Totéž schodiště ztlumené, nad posledním schodem čárkovaná šipka dál nahoru a velký ambrový otazník: HOW FAR CAN THIS GO?",
+   "note": "Čárkovaně = to, co nevíme (konvence 2).",
+   "anim": "animace"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dvě karty: vlevo hodiny THE CLOCK (na „isn't the clock“ ztlumí), vpravo ambrová osa TIME ITSELF? (naskočí na „time itself“).",
+   "note": "Otázka videa, ne odpověď — otazník zůstává.",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ: osa ideálního času tenká a rovná, popisek TIME: PERFECTLY SHARP; pod ní roztřesená stopa tiků OUR CLOCKS: CLUMSY (kreslí se zleva). Nahoře CLASSICAL PHYSICS.",
+   "note": "Ostrá osa je tvrzení klasické fyziky, roztřesené jsou hodiny, ne čas.",
+   "anim": "animace"
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Osa z S05 nahoře, uprostřed karta článku `clanek()`: FUNDAMENTAL LIMITS ON CLOCK PRECISION… · PHYSICAL REVIEW RESEARCH · 2025 · ROME · BUDAPEST. Na „crack“ dostane osa ambrovou čárkovanou trhlinu.",
+   "note": "Trhlina čárkovaně: článek je výpočet v rámci hypotézy, ne měření.",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Nahoře čárkovaný rámeček IF ONE IDEA ABOUT QUANTUM MECHANICS IS RIGHT, pod ním čárkovaná šipka a řada hodin; ručičky všech hodin se drobně náhodně chvějí.",
+   "note": "Podmínka čárkovaně, chvění je důsledek JEN té podmínky.",
+   "anim": "animace"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "Vlevo hodiny a BADLY BUILT? — přeškrtne se na „not“. Vpravo osa času se rozvlní čárkovaně ambrově: TIME ITSELF WOULD JITTER, menším IN THESE MODELS.",
+   "note": "Škrt přes text `text_skrtnuty()`. Rozvlnění osy je hypotéza, proto čárkovaně a se štítkem IN THESE MODELS.",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "uvod",
+   "diagram": "Troje hodiny vedle sebe, velké, střední a drobné, ztlumené; ambrově jen nápis THE TWIST.",
+   "note": "Úvod k S10, beze slova o tom, které hodiny."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "uvod",
+   "diagram": "MOTIV `twist()`: vlevo obyčejné levné hodiny THE CHEAPEST (na „aren't“ přeškrtnout), vpravo drobné hodiny v ambrovém kroužku THE SMALLEST (naskočí na „smallest“).",
+   "note": "Vrací se beze změny v S50 (pointa).",
+   "anim": "animace",
+   "pause": 1.6
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "uvod",
+   "diagram": "MOTIV `kusy()`: tři díly vedle sebe, naskakují na slova: 1 HOW A CLOCK WORKS (hodiny), 2 WHAT GRAVITY DOES TO TIME (planeta), 3 A VERY OLD QUANTUM PROBLEM (otazník).",
+   "note": "Konec úvodu. Tři díly se vrací v S22 (třetí svítí) a S37 (složí se).",
+   "anim": "animace",
+   "pause": 2.2,
+   "vycet": 0.3
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Sinusovka, pod ní počítadlo COUNT: 0001, 0002… — číslo přičte na každý vrchol vlny. Nadpis IT COUNTS SOMETHING THAT REPEATS.",
+   "note": "Číslice se mění, nehýbou se (text se nepohybuje).",
+   "anim": "animace"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Dva panely: kyvadlo se kývá (PENDULUM), křemenná ladička se chvěje (QUARTZ CRYSTAL).",
+   "note": "Souvislý pohyb přes celou scénu, kreslí se po dvou snímcích (`fps_okna`).",
+   "anim": "animace"
+  },
+  {
+   "id": "S14",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S14.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU (2026-11-09, dotaz „JILA strontium clock“, jila2): 3D mřížkové stronciové hodiny JILA, NIST, public domain. Je to stronciové hodiny JILA v Boulderu, ne nutně přesně ta rekordní z 2024 (Aeppli) — hlas říká „the clock in Boulder … strontium atoms“ a fotka nic víc netvrdí. Číslo 429 bilionů nese hlas a titulky.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "17jila003 3d strontium atomic clock",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92
+    }
+   }
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "hodiny",
+   "diagram": "PÁTEŘ osa: pod ní naskakují pravidelné tiky, na „a second“ se nad prvními ambrová závorka 1 SECOND. Dole dvě stopy tiků: STEADY → BETTER CLOCK (pravidelné, ambrově) a UNSTEADY (nepravidelné, šedě).",
+   "note": "VÝZVA K ODBĚRU za touto scénou (~1:50): levý dolní roh (x < 600, y > 1000) prázdný, stopy tiků začínají až od x 700.",
+   "anim": "animace",
+   "pause": 2.2,
+   "vyzva": true
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "hodiny",
+   "diagram": "MOTIV `planeta()`: oblouk povrchu planety dole, nad ním hodiny; na „gravity“ naskočí šipky gravitace dolů.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Planeta, dvoje hodiny: výš (HIGHER: FASTER) a níž (DEEPER: SLOWER); ručičky obou se točí, dolní pomaleji. Vpravo dvě stopy tiků, dolní řidší. Štítek EXAGGERATED.",
+   "note": "Rozdíl je přehnaný, proto EXAGGERATED (konvence 4).",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Stůl, dvoje atomové hodiny; jedny se na „raised“ zvednou, kóta 33 CM, ambrově RUNS FASTER. Nahoře 2010.",
+   "note": "Chou et al., Science 2010 (factcheck).",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Oblak atomů (tečky v elipse), vpravo kóta 1 MM, nahoře 2022 · ONE CLOUD OF ATOMS.",
+   "note": "Bothwell et al., Nature 2022.",
+   "anim": "animace"
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Týž oblak: horní polovina ambrově AGED FASTER, dolní šedě; pod tím ≈ 1 PART IN 10¹⁹ (ONE PART IN TEN BILLION BILLION).",
+   "note": "10 miliard miliard = 10¹⁹; poměr gΔh/c² ≈ 1,1e-19.",
+   "anim": "animace"
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "hodiny",
+   "diagram": "Planeta a hodiny, plné šipky gravitace; na „fluctuated“ se šipky rozkmitají čárkovaně ambrově a stopa tiků hodin se roztřese. Štítek IN SOME QUANTUM MODELS.",
+   "note": "Fluktuace gravitace jen v modelech → čárkovaně (konvence 2). Konec bloku o gravitaci.",
+   "anim": "animace",
+   "pause": 2.4
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "kvantum",
+   "diagram": "MOTIV `kusy()`: tři díly z S11, první dva ztlumené, třetí A VERY OLD QUANTUM PROBLEM ambrově.",
+   "pause": 0.6
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "kvantum",
+   "diagram": "PÁTEŘ `superpozice()`: jedna částice se na „superposition“ rozdělí na dvě poloprůhledné, HERE a THERE, nad nimi závorka SUPERPOSITION.",
+   "note": "Superpozice je doložená kvantová mechanika → plně, ne čárkovaně.",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Obě částice, od každé doprava roste stopa v čase (dvě rovnoběžné čáry) až k ∞; nápis THE EQUATIONS NEVER PICK AN ANSWER.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Oko nahoře uprostřed (WHENEVER WE LOOK); na „Here“ zůstane plná jen HERE, na „there“ jen THERE; NEVER BOTH.",
+   "anim": "animace",
+   "pause": 0.6,
+   "vycet": 0.3
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Dvě poloprůhledné částice, mezi nimi velký otazník, nadpis THE MEASUREMENT PROBLEM, pod ním 100 YEARS · STILL DISPUTED.",
+   "pause": 1.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Čárkovaný rámeček COLLAPSE MODELS; dvojice částic se sama zhroutí do jedné (bez oka: NOBODY WATCHING).",
+   "note": "Kolaps čárkovaně — je to hypotéza.",
+   "anim": "animace"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Jedna částice vlevo, doprava se protáhne čárkovaná časová osa a daleko vpravo jeden ambrový záblesk: ONE PIN-DOWN EVERY ~300 MILLION YEARS. Nahoře FIRST COMPLETE COLLAPSE MODEL · 1980s.",
+   "note": "GRW, λ = 1e-16 s⁻¹ → 3,2e8 let.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Sedící kočka zepředu (obrys s ostrýma ušima a ocasem, `kocka()`) vyplněná tečkami, tečky náhodně ambrově problikávají. ~10²⁷ PARTICLES · ~10¹¹ PIN-DOWNS PER SECOND.",
+   "note": "Kočka je jednoduchý obrys kódem (hlava, uši, tělo, ocas). Problikávání ilustruje četnost, počet záblesků netvrdí nic.",
+   "anim": "animace"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "kvantum",
+   "diagram": "Dva panely: vlevo atom v superpozici (dvě částice) ✓ TWO PLACES; vpravo kočka jen jednou, druhá poloha přeškrtnutá. Rám čárkovaný: IN THESE MODELS.",
+   "note": "Konec kvantového bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Dvě jmenné karty ROGER PENROSE a LAJOS DIÓSI, od obou čárkovaná šipka k WHERE DO COLLAPSES COME FROM?",
+   "note": "Portréty ne: Diósi na Commons fotku nemá a jeden portrét by z dvojice udělal hlavního a vedlejšího."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "gravitace",
+   "diagram": "`superpozice()`: pod každou z částic se prohne mřížka (gravitační jáma), dvě jámy naráz: TWO GRAVITATIONAL FIELDS AT ONCE.",
+   "anim": "animace"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Totéž, na „forces“ jedna poloha i její jáma zmizí; čárkovaně GRAVITY FORCES THE CHOICE · PENROSE.",
+   "note": "Penroseho návrh = hypotéza → čárkovaně.",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Karta článku `clanek()` s autory BORTOLOTTI · CURCEANU · DIÓSI · MANTI · PISCICCHIA, jméno DIÓSI ambrově."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Vlevo čárkovaně RANDOM NOISE IN COLLAPSE MODELS (roztřesená čára), uprostřed CAN BE READ AS, vpravo RANDOM FLUCTUATIONS OF GRAVITY (rozkmitané šipky dolů).",
+   "anim": "animace",
+   "pause": 0.4
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Dva sloupce: DIÓSI–PENROSE · ALREADY TIED TO GRAVITY a THE MOST STUDIED ONE (CSL) · NEVER WAS (ambrově); od obou šipka ke společnému GRAVITY.",
+   "note": "Konec bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "drift",
+   "diagram": "MOTIV `kusy()`: tři díly z S11 se na „together“ přisunou k sobě do jednoho celku.",
+   "anim": "animace",
+   "pause": 0.8
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "drift",
+   "diagram": "PÁTEŘ osa s ideálními tiky; pod ní tiky hodin, každý náhodně posunutý (čárkovaně): A TINY BIT FASTER ← → A TINY BIT SLOWER; štítek EXAGGERATED. Na „size“ vpravo malý ambrový nápis SIZE MATTERS: LATER.",
+   "note": "Posun tiků je hypotéza a je přehnaný.",
+   "anim": "animace",
+   "vycet": 0.3
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "drift",
+   "diagram": "Schodovitá čára TIME IN PIXELS, přeškrtne se; pod tím NO SMALLEST TICK.",
+   "note": "„Pixely“ jen jednou, jako oprava představy (notes).",
+   "anim": "animace"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "drift",
+   "diagram": "PÁTEŘ osa; z jejího levého konce se kreslí náhodná procházka (čárkovaně ambrově), krok za krokem: A RANDOM WALK.",
+   "anim": "animace"
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "drift",
+   "diagram": "Pět ztlumených procházek se rozbíhá, na „piles up“ naskočí čárkovaný trychtýř ±√t: THE UNCERTAINTY PILES UP.",
+   "note": "Trychtýř je √t (Δt = √(τt)); procházky mají krok A/√N, takže směrodatná odchylka na konci sedí s okrajem trychtýře (assert).",
+   "anim": "animace"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "drift",
+   "diagram": "Trychtýř; svislá kóta v čase 1 a v čase 4: ×4 TIME → ×2 DRIFT.",
+   "note": "Kóty jsou z √t, assert poměru 2.",
+   "anim": "animace"
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "drift",
+   "diagram": "Trychtýř a nad ním EVEN A FLAWLESS CLOCK; karty COLDER LAB a BETTER ENGINEERING se přeškrtnou.",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "drift",
+   "diagram": "Karta SHIELDING (přeškrtne se na „doesn't“), vedle SIZE ambrově se třemi kroužky hodin od velkého po malý.",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "velikost",
+   "diagram": "MOTIV `pole()`: mozaika buněk v čárkovaném rámu, jas buněk se pomalu náhodně mění. Kóta jedné buňky ≈ 10⁻⁷ m, ikona viru v buňce ≈ A VIRUS. Nahoře THE MOST STUDIED COLLAPSE MODEL.",
+   "note": "Pole čárkovaně (hypotéza). Buňka = korelační délka r_C ≈ 1e-7 m.",
+   "anim": "animace"
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "velikost",
+   "diagram": "Pole a drobné hodiny přes jednu buňku; vpravo ručkový ukazatel RATE, ručička kmitá naplno podle té buňky: FEELS THE FULL FLUCTUATION.",
+   "note": "Ručička čte skutečnou hodnotu buňky (týž výpočet jako jas).",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "velikost",
+   "diagram": "Pole a velký kruh přes mnoho buněk; ukazatel RATE kmitá jen nepatrně (průměr buněk pod kruhem): THEY MOSTLY AVERAGE OUT. Ztlumeně i malá ručička z S46 pro srovnání.",
+   "note": "Průměr je spočítaný z buněk pod kruhem, assert že kmitá méně.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "velikost",
+   "diagram": "Logaritmická stupnice velikostí: VIRUS ~10⁻⁷ m vlevo, PULSAR 20 KM vpravo; pulzar s rotujícími paprsky: ALMOST COMPLETELY IMMUNE.",
+   "note": "Pulzar se točí (paprsky), souvislý pohyb.",
+   "anim": "animace"
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "velikost",
+   "diagram": "Pole s jemnějšími buňkami: PENROSE'S VERSION · SCALE ~100× SMALLER (NOT TO SCALE); BIGGER CLOCKS STILL AVERAGE IT AWAY.",
+   "note": "Stokrát menší buňka nejde nakreslit doslova, proto NOT TO SCALE."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "velikost",
+   "diagram": "MOTIV `twist()` z S10 beze změny: THE CHEAPEST přeškrtnuté, THE SMALLEST ambrově.",
+   "note": "Pointa. VÝZVA K ODBĚRU za touto scénou: levý dolní roh prázdný.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "cisla",
+   "diagram": "PÁTEŘ osa s trychtýřem a velký ambrový otazník u jeho ústí: HOW BIG?",
+   "pause": 1.5,
+   "note": " Pauza 1,5 s (2026-11-10): uživatel slyšel schwu za „drift“, od 1,5 s tts.py přidá obětovanou větu."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "cisla",
+   "diagram": "Tři řádky podmínek naskakují: MOST STUDIED MODEL · STANDARD SETTINGS / CLOCK OF THE WORST-CASE SIZE / ONE YEAR; pak velké ambrové ≈ 10⁻²⁸ s.",
+   "note": "Rovnice (16) článku; přesně 4e-29 s/rok, článek zaokrouhluje na 1e-28.",
+   "anim": "animace"
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "cisla",
+   "diagram": "Nahoře 10⁻²⁸ s = 1/10,000 × 1/TRILLION × 1/TRILLION s. Dole logaritmická úsečka: ambrová značka STANDARD, čárkované pásmo ALLOWED BY EXPERIMENTS od ÷100 do ×300.",
+   "note": "Pásmo relativně ke standardní hodnotě (4e-31 až 1,3e-26 proti 4e-29), polohy z logaritmu.",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "cisla",
+   "diagram": "Karta TODAY'S BEST OPTICAL CLOCKS a pod ní ~10⁻¹⁷ s AFTER 1 SECOND (ORDINARY NOISE)."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "cisla",
+   "diagram": "Logaritmická osa sekund 10⁻³² … 10⁻¹²: ambrová značka PREDICTED EFFECT ~10⁻³⁰ s a šedá CLOCK NOISE ~10⁻¹⁵ s, obojí ZA DEN; mezi nimi šipka ≈ 10¹⁵ ×.",
+   "note": "Za den: šum 1e-17·√86400 = 2,9e-15 s, efekt 4e-29·√(1/365) = 2,1e-30 s, poměr 1,4e15.",
+   "anim": "animace"
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "cisla",
+   "diagram": "PÁTEŘ osa jako v S01 (BIG BANG → TODAY): ztlumeně stará lupa < 1 SECOND, nově ambrově lupa A FEW TRILLIONTHS OF A TRILLIONTH OF A SECOND.",
+   "note": "Rým s S01 — osa na týchž souřadnicích. 4,7e-24 s za 13,8 mld let.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "cisla",
+   "diagram": "Dva sloupce: MOST STUDIED MODEL ~10⁻²⁸ s/YEAR a PENROSE'S VERSION ~300× SMALLER (ambrově).",
+   "note": "√(τ_CSL/τ_DP) ≈ 320.",
+   "pause": 0.6
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "cisla",
+   "diagram": "Karta článku `clanek()` a přes ni razítko NEGLIGIBLE FOR EVERY CLOCK THAT EXISTS.",
+   "note": "Parafráze závěru článku, bez uvozovek.",
+   "pause": 2.6
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "zaver",
+   "diagram": "Hodiny s lupou a přeškrtnutým ukazatelem: NO CLOCK CAN MEASURE IT, velké WHY DOES IT MATTER?",
+   "pause": 0.6
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "zaver",
+   "diagram": "NOT A QUESTION ABOUT CLOCKS ztlumí a naskočí ambrově IS QUANTUM MECHANICS THE WHOLE STORY?",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "zaver",
+   "diagram": "Vidlice: nahoře COLLAPSE MODELS, dvě větve WRONG / RIGHT. Svítí WRONG: pod ním osa s trychtýřem, trychtýř zmizí: THE UNCERTAINTY DISAPPEARS.",
+   "anim": "animace",
+   "pause": 0.4
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "zaver",
+   "diagram": "Vidlice, svítí RIGHT: trychtýř zůstane a ztuhne, A LIMIT SET BY NATURE; NOT BY ENGINEERS přeškrtnuto.",
+   "anim": "animace",
+   "pause": 2.2
+  },
+  {
+   "id": "S63",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S63.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU (2026-11-09, dotaz „Corno Grande Gran Sasso“, gs12): Corno Grande, nejvyšší vrchol masivu Gran Sasso, pod kterým leží laboratoř LNGS. CC BY 4.0 — atribuce do popisu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Corno grande da campo imperatore",
+    "pick": 0,
+    "grade": {}
+   }
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "zaver",
+   "diagram": "Rámeček VERSIONS OF THE MODEL: bod THE SIMPLEST, NO ADJUSTABLE SETTINGS přeškrtnutý (RULED OUT 2020), zbytek čárkovaně STILL POSSIBLE; šipka EXPERIMENTS KEEP IMPROVING posune hranici vyloučeného.",
+   "note": "Kresba netvrdí žádné konkrétní parametry — jen bod a „zbytek“.",
+   "anim": "animace",
+   "pause": 2.6
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "zaver",
+   "diagram": "ZÁVĚREČNÉ OKNO, horní polovina prázdná. Dole HOW PRECISE CAN TIME ACTUALLY BE?",
+   "note": "Posledních ~20 s: S65–S68, nic nad y 640.",
+   "pause": 1.6
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "zaver",
+   "diagram": "Horní polovina prázdná. Dole osa (posunutá dolů) s drobným čárkovaným trychtýřem: MAYBE NOT INFINITELY PRECISE.",
+   "note": "Páteř smí v závěru sjet dolů (pravidlo 3).",
+   "pause": 0.6
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "zaver",
+   "diagram": "Horní polovina prázdná. Dole tenká čárkovaná osa s otazníkem a ambrová stopa dokonalých hodin, která se od ní pomalu odchyluje: EVEN A PERFECT CLOCK IS DRIFTING.",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "zaver",
+   "diagram": "Horní polovina prázdná. Dole WHAT IS A FLAWLESS CLOCK DRIFTING AWAY FROM? a menší LET ME KNOW IN THE COMMENTS.",
+   "note": "Otázka do komentářů, klidná deska.",
+   "pause": 3.0
+  }
+ ]
+}

@@ -1,0 +1,745 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "pole",
+   "diagram": "PÁTEŘ: číselné pole `pole()` uprostřed horní poloviny, pět buněk 9 9 9 | 9 9, mezi třetí a čtvrtou značka V (desetinná pozice, ne tečka). Nad polem malý popis pole mono písmem: BALANCE  PIC 9(3)V99, pod ním 3 DIGITS · 2 DIGITS. Vpravo od pole ambrově + 0.01.",
+   "note": "První obrazovka nese myšlenku: pole má PEVNÝ počet číslic a je skoro plné. Zadání uživatele: divák musí vidět, proč se výsledek nevejde, a že jde o konkrétní nastavení programu (PIC 9(3)V99), ne o běžné chování každého COBOL programu. Ne SDXL (pravidlo první scény). Pole je páteř videa: týž tvar na týchž souřadnicích v S01–S06, S11–S13, S24 a S70."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "pause": 1.2,
+   "diagram_generator": "pole",
+   "diagram": "Totéž pole, buňky teď 0 0 0 | 0 0 ambrově. Vlevo za okrajem pole ztlumená číslice 1, která se do pole nevešla, mírně pod úrovní buněk (padá ven), čárkovaně obrys čtvrté buňky, která v poli NENÍ. Pod polem RESULT: 1000.00 → STORED: 000.00.",
+   "note": "Přetečení je vidět jako jednička, pro kterou není místo, ne jako mazání peněz. Čárkovaná čtvrtá buňka = co by bylo potřeba (konvence: čárkovaně = neexistuje)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "vycet": 0.3,
+   "diagram_generator": "pole",
+   "diagram": "Pole 000|00 jako v S02. Pod ním dva ztlumené přeškrtnuté štítky vedle sebe: ERROR MESSAGE a CRASH (text_skrtnuty). Pod nimi řádek programu s šipkou ▶ NEXT INSTRUCTION, program jede dál.",
+   "note": "Škrtá se nápis, ne plocha. Šipka vede od pole k další instrukci: program pokračuje."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "pole",
+   "diagram": "Pole 999|99 zpátky, nad ním kódový panel mono písmem: ADD 0.01 TO BALANCE. a pod tím čárkovaně a ztlumeně řádek, který v programu chybí: ON SIZE ERROR  ... (NOT WRITTEN). Šipka od popisu PIC 9(3)V99 k poli: THE FIELD DECIDES.",
+   "note": "Vazba na zpětnou vazbu k v0.1/v0.2: přetečení plyne z velikosti pole a z toho, že program o varování nepožádal. Chybějící klauzule je čárkovaně (není v kódu), ne přeškrtnutá."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "pole",
+   "diagram": "Totéž místo páteře, menší pole PIC 9V99: buňky 2 | 3 4. Nad ním vstup 2.345. Pátá číslice 5 vypadne VPRAVO za okraj, ztlumená, a mezi buňkou 4 a pětkou svislá čára řezu (nůžky ne, jen čára). Pod polem TRUNCATED: 2.34.",
+   "note": "Zadání uživatele: vizuálně odlišit useknutí od zaokrouhlení, nejsilnější technická demonstrace videa. Useknutí = řez a číslice padá ven, nic se nepřičítá. Pole na téže ose jako v S01, jen s jiným počtem buněk (pole() bere počty číslic, poloha je konstanta v _kit)."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "pole",
+   "diagram": "Dvě pole pod sebou, stejná šířka buněk. Nahoře ztlumeně výsledek S05: COMPUTE X = 2.345 → 2|34 s řezem. Dole ambrově COMPUTE X ROUNDED = 2.345 → 2|35, nad poslední buňkou malé +1 a pětka se do ní vlévá šipkou (zaokrouhlení PŘIČÍTÁ). Slovo ROUNDED v kódu ambrově.",
+   "note": "Řez × šipka +1: dva různé mechanismy, každý svým tvarem. Rozestup polí odvozený z výšky pole a popisku (MEZERA_POPISEK), ať popisek horního nepatří dolnímu."
+  },
+  {
+   "id": "S07",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S07.png",
+   "pause": 1.4,
+   "prompt": "a long quiet row of large mainframe cabinets in a bank data centre at night, cool fluorescent light, a single warm amber status light, no people, wide shot",
+   "note": "První SDXL scéna kolem 0:35, po myšlence. Atmosféra pro „many of the world's banks still run on rules like these“. Studené světlo: noc a zářivky, NE dawn/dusk (CLAUDE.md, teplý nádech)."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "Vodorovná časová osa 1959 → 2026 přes celou šířku. Na začátku ambrový bod COBOL 1959 (THE LANGUAGE). Nad osou rozptýlené malé obdélníky programů v různých letech (1975, 1988, 2003, 2019…) ztlumeně s popiskem PROGRAMS: ANY YEAR SINCE.",
+   "note": "Upřesnění titulu (rozhodnutí uživatele): z roku 1959 je jazyk, ne každý program. Programy po celé ose jsou ilustrace rozložení, žádná data, proto bez čísel u jednotlivých programů."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "vycet": 0.3,
+   "diagram_generator": "uvod",
+   "diagram": "Uprostřed otázka WHY HAVEN'T BANKS REPLACED IT? Pod ní dvě ikony se štítky: MONEY ✓ a ENGINEERS ✓.",
+   "note": "Hlavní otázka videa v obraze. Fajfky = mají to, co by k náhradě potřebovali."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "pause": 1.2,
+   "diagram_generator": "uvod",
+   "diagram": "RÝM tří karet `tri_karty()`: tři stejné karty vedle sebe s čísly 1 2 3. Karta 1: A BANK TRIES TO LEAVE. Karta 2: A BANK MANAGES IT. Karta 3: EVERYONE BLAMES COBOL. Bez jmen bank (ta přijdou v S34, S47, S56).",
+   "note": "Slib tří případů místo odpovědi v háčku. Karty jsou sdílený tvar na pevných souřadnicích: vrátí se v S33 (rozsvícená 1), S46 (2), S55 (3) a S64 (shrnutí). Jména zatím ne, ať karta netvrdí výsledek dřív než voiceover."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "pole",
+   "diagram": "Pole PIC 9V99 se vstupem 2.345 přesně jako v S05 (řez, pětka vypadlá vpravo), pětka teď ambrově se štítkem HALF A PENNY.",
+   "note": "Návrat k páteři po slibu případů, týž obraz jako S05, jen akcent přeskočí na ztracenou pětku."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "prepis",
+   "diagram": "Dva sloupce: vlevo OLD (COBOL), vpravo NEW (MODERN LANGUAGE). Dva řádky: OVERFLOW (999.99 + 0.01): vlevo 000.00, vpravo ERROR. HALF A PENNY (2.345): vlevo 2.34, vpravo 2.35. Pravý sloupec ambrově (o něm je řeč), levý ztlumeně.",
+   "note": "Hypotetický přepis, jak říká voiceover (Say you rewrite…). Hodnoty z ověřených běhů (factcheck S01–S06)."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "vycet": 0.3,
+   "diagram_generator": "prepis",
+   "diagram": "Tabulka ze S12, mezi sloupci v řádku HALF A PENNY ambrové ≠. Nad pravým sloupcem malé CLEANER ✓ SAFER ✓, pod tabulkou DISAGREES WITH THE OLD ONE.",
+   "note": "≠ jen v řádku půl pence, protože scénář mluví o půl penci (wherever half a penny turns up). U přetečení rozdíl taky je, ale voiceover ho tu nejmenuje."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "prepis",
+   "diagram": "Kódový panel Java mono: new BigDecimal(\"2.345\") s fajfkou EXACT DECIMAL. Pod ním řádek .setScale(2, ?) s ambrovým otazníkem a štítkem ROUNDING RULE: YOUR CHOICE.",
+   "note": "Netvrdit, že Java neumí peníze (factcheck A2e). setScale bez režimu je skutečně výjimka, otazník je proto doslovný."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "pause": 0.5,
+   "diagram_generator": "prepis",
+   "diagram": "Dva řádky pod sebou: RoundingMode.HALF_UP → 2.35, RoundingMode.HALF_EVEN → 2.34. Oba s fajfkou CORRECT. Vpravo ztlumeně OLD COBOL: 2.34 (TRUNCATED) a ambrová šipka k řádku, který s ním souhlasí, se štítkem ONLY ONE MATCHES.",
+   "note": "Pozor na tvrzení kresby: HALF_EVEN se starým programem shoduje u 2.345 jen pro tenhle vstup (useknutí a bankéřské zaokrouhlení se jinde rozcházejí, např. 2.355). Pod štítkem proto malé (FOR THIS NUMBER), ať kresba netvrdí, že HALF_EVEN = COBOL obecně."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "pause": 0.8,
+   "diagram_generator": "prepis",
+   "diagram": "Velký kódový řádek mono: 0.1 + 0.2 a pod ním výsledek 0.30000000000000004, koncová 4 ambrově. Malý štítek DOUBLE (BINARY FLOATING POINT).",
+   "note": "Výsledek spuštěný v Pythonu i Javě (factcheck A2e). Pauza 0,5: S17 začíná So, pokračuje myšlenka."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "pause": 2.4,
+   "vyzva": true,
+   "diagram_generator": "prepis",
+   "diagram": "Stěna kódu: dlouhý sloupec ztlumených řádků (abstraktní, mono čárky), v nich několik ambrových vlaječek RULE. Vpravo nadpis NOT TRANSLATION · KEEP EVERY RULE EXACTLY. Levá dolní čtvrtina (x < 22 %, y > 75 %) PRÁZDNÁ.",
+   "note": "VÝZVA K ODBĚRU ZA TOUTO SCÉNOU (~2:00, docs/cta.md): levý dolní roh prázdný, kód začíná až od x = 22 %. Konec bloku „proč nejde přeložit“, pauza 2,4."
+  },
+  {
+   "id": "S18",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S18.png",
+   "pause": 1.0,
+   "prompt": "a 1950s office computing room, rows of punched card cabinets and a large early computer console, flat grey overcast light through high windows, no people, wide shot",
+   "note": "Předěl do historie. Chlad počasím (overcast), ne denní dobou. Žádný konkrétní stroj, jen atmosféra doby."
+  },
+  {
+   "id": "S19",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S19.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Pentagon aerial 1950s",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 90,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-25), dotaz „Pentagon aerial 1950s“ pick 0: 1950s Pentagon Postcard.jpg, public domain, 3285×2090. Jediný výsledek dotazu; dobová pohlednice, sedí k roku 1959."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "historie",
+   "diagram": "Tři různé obrysy počítačů vedle sebe, každý s jiným symbolem jazyka. Nad prvním děrný štítek PAYROLL s fajfkou, u dalších dvou týž štítek ztlumeně s křížkem.",
+   "note": "Zjednodušení motivace CODASYL (factcheck S20 ⚠️): obchodní programy nebyly přenositelné. Křížek je na ploše štítku, ne přes nápis."
+  },
+  {
+   "id": "S21",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "pause": 0.5,
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Grace Hopper",
+    "pick": 1,
+    "grade": {
+     "fit": 0.72,
+     "saturation": 90,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-25), dotaz „Grace Hopper“ pick 1: Grace Hopper and UNIVAC.jpg, CC BY 2.0, jen 513×450: Hopper s TÝMEM u konzole UNIVAC, tedy přesně „Grace Hopper's team at Remington Rand“. Nízké rozlišení, proto fit 0.72 (menší zvětšení). Záloha: pick 0 téhož dotazu (oficiální portrét 1984, PD, 2400×3000), ale je z jiné doby. PORTRÉT/SKUPINA: static, žádný zoom."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "historie",
+   "diagram": "Jeden programový štítek COBOL uprostřed nahoře, z něj dvě šipky dolů ke dvěma počítačům: RCA a REMINGTON RAND UNIVAC, oba s fajfkou. Nad tím 6–7 DEC 1960. U štítku malé ESSENTIALLY THE SAME PROGRAM.",
+   "note": "Model UNIVAC nedoložen (factcheck A1d), proto jen výrobce. „Essentially the same“ i v obraze."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "pause": 0.5,
+   "diagram_generator": "historie",
+   "diagram": "Velký kódový panel mono: ADD PAYMENT TO ACCOUNT-BALANCE. Pod ním ztlumeně překlad do obyčejné řeči není, jen ambrový podtrh pod ADD a TO.",
+   "note": "Čitelnost je pointa, proto žádné vysvětlivky. Pauza 0,5: S24 začíná And."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "pole",
+   "diagram": "Pole páteře, sedm + dvě buňky s penězi 0 0 1 2 4 5 0 | 9 9 a značkou V. Nad ním popis pole mono: 05 BALANCE PIC 9(7)V99. Šipka od V v popisu ke značce mezi buňkami, štítek THE DESCRIPTION SAYS WHERE THE POINT GOES. Pod polem: STORED: 001245099 (bez tečky).",
+   "note": "Zpětná vazba k v0.1: tečka se ukládat NEMUSÍ, polohu určuje popis pole (DISPLAY/COMP-3, factcheck A2a). Uložené číslice jsou doslova bez tečky."
+  },
+  {
+   "id": "S25",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S25.png",
+   "pause": 0.5,
+   "archive": {
+    "provider": "wikimedia",
+    "query": "IBM System/360",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-25), dotaz „IBM System/360“ pick 0: IBM System 360 model 30 profile.agr.jpg, CC BY-SA 3.0, 4032×3024: červený Model 30 z profilu, bez textu. Model 40 (pick 1) má japonskou cedulku, odmítnuto."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "pause": 0.5,
+   "diagram_generator": "historie",
+   "diagram": "Časová osa 1964 → 2025 s obrysy sálových počítačů: SYSTEM/360 (1964) … z17 (2025), mezi nimi ztlumené generace bez jmen. Nad osou popisek DESIGNED FOR COMPATIBILITY. Jeden programový štítek jede po ose čárkovaně s popiskem MANY OLDER PROGRAMS CAN STILL RUN.",
+   "note": "Zpětná vazba k v0.2: ne absolutně. Čárkovaná trasa štítku = „can“, ne „always“; DESIGNED FOR = záměr, ne záruka (zpětná vazba ke storyboardu). Mezigenerace bez jmen a let, ať kresba netvrdí řadu modelů."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "pause": 2.2,
+   "diagram_generator": "historie",
+   "diagram": "Programový blok, který po vrstvách roste zdola nahoru, každá vrstva se štítkem: NEW PRODUCTS, NEW TAXES, NEW REGULATIONS, NEW EXCEPTIONS (nejvyšší ambrově). Vedle blok s rokem a šipkou EVERY YEAR.",
+   "note": "Konec historického bloku, pauza 2,2. Vrstvy jsou ilustrace, ne data."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "pause": 0.5,
+   "diagram_generator": "rozsah",
+   "diagram": "Nahoře čárkovaný otazník COBOL WORLDWIDE: NOT COUNTED. Pod ním mřížka 50 ikon bank (10 × 5), 45 ambrově. Nadpis 45 OF THE WORLD'S 50 BIGGEST BANKS USE IBM MAINFRAMES, pod tím malý zdroj: IBM'S OWN FIGURE.",
+   "note": "assert 45 z 50. Tvrzení IBM (10-K FY2022), proto atribuce v obraze. Mainframe ≠ COBOL: nápis nesmí říct COBOL."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "rozsah",
+   "diagram": "Velké číslo 60,000,000+ LINES OF COBOL, pod ním malé US SOCIAL SECURITY ADMINISTRATION, 2017. Za číslem ztlumený sloupec kódových čárek.",
+   "note": "Vlastní údaj SSA (factcheck A4c), s rokem."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "rozsah",
+   "diagram": "Jedenáct stejných obdélníků systémů v řadě, nad nimi US GOVERNMENT AUDITORS (GAO), 2025 a MOST IN NEED OF REPLACEMENT.",
+   "note": "assert 11. Bez jmen systémů (voiceover je nejmenuje)."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "pause": 1.4,
+   "diagram_generator": "rozsah",
+   "diagram": "Tytéž systémy ze S30, pod nimi jedna vodorovná škála stáří 0–60 let s ambrovým úsekem 23 ↔ 60 YEARS OLD. Vpravo ~$754M A YEAR TO RUN.",
+   "note": "NEkreslit stáří po systémech (GAO uvádí jen rozsah a některé hodnoty), jen rozsah. Částka přesně podle GAO, voiceover zaokrouhluje na 750."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "rozsah",
+   "diagram": "Tři řádky s fajfkami: OLD ✓, EVERYWHERE ✓, RULES NOBODY WROTE DOWN ✓. Pod nimi čárkovaně (hypotéza): THE DANGER IS IN KEEPING IT?",
+   "note": "Čárkovaně = domněnka, kterou video za chvíli zpochybní. Míra jistoty kresby = míra jistoty věty (Surely…)."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "pause": 2.4,
+   "diagram_generator": "uvod",
+   "diagram": "Rým tří karet ze S10, karta 1 rozsvícená ambrově (A BANK TRIES TO LEAVE), karty 2 a 3 ztlumené.",
+   "note": "Vstup do TSB přes rým karet. Pauza 2,4 před hlavním případem."
+  },
+  {
+   "id": "S34",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S34.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "TSB Bank branch",
+    "pick": 5,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-25), dotaz „TSB Bank branch“ pick 5: TSB Newcastle.jpg, CC BY-SA 3.0, 4680×3456: pobočka TSB s logem a plakáty. Ostatní výsledky jsou Lloyds TSB (stará značka před 2013) nebo malé."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "pause": 0.5,
+   "diagram_generator": "tsb",
+   "diagram": "Vlevo blok TSB, vpravo blok LLOYDS BANKING GROUP se štítkem COMPETITOR. Mezi nimi platforma (vrstva) patřící Lloyds, TSB na ní stojí, šipka plateb od TSB k Lloyds se štítkem FEES ↑ (ambrově).",
+   "note": "Důvody odchodu podle S&M §2.8: konkurent a rostoucí poplatek. Šipka peněz vede od TSB k Lloyds (kdo platí komu)."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "pause": 0.5,
+   "diagram_generator": "tsb",
+   "diagram": "Platforma LLOYDS vlevo ztlumeně, vpravo nová platforma NEW PLATFORM · SABADELL ambrově, velká šipka EVERYTHING od staré k nové. Nad tím ~5 MILLION CUSTOMERS.",
+   "note": "Pauza 0,5: S37 navazuje (One weekend in April)."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "pause": 1.2,
+   "diagram_generator": "tsb",
+   "diagram": "PÁTEŘ BLOKU TSB: časová osa `osa_tsb()` přes šířku obrazu, zatím viditelný jen první úsek SUN 22 APR · MON 23 · … THU 26. Na neděli ambrový bod SWITCHED ON 18:00.",
+   "note": "Zadání uživatele: TSB jako časová osa, ne generické záběry banky. Osa na pevných souřadnicích v S37–S44, zbytek osy (až do 10 DEC) se odkrývá v S40."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "tsb",
+   "diagram": "Osa TSB, bod na MON 23 APR. Nad ním ~900,000 LOGIN ATTEMPTS a deset ikon přihlášení, jedna ambrově s fajfkou, devět ztlumeně s křížkem: ~1 IN 10 INTERNET BANKING LOGINS SUCCEEDED.",
+   "note": "assert 1 z 10. Pokusy, ne lidé (FCA §4.9). Mobilní aplikaci (65–80 %) voiceover nezmiňuje, proto popisek výslovně INTERNET BANKING."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "tsb",
+   "diagram": "Osa TSB beze změny. Nad pondělím dva štítky: PAYMENTS FAILED (karta s křížkem) a SAW OTHER PEOPLE'S ACCOUNTS (okno účtu s cizím jménem ztlumeně).",
+   "note": "Bez procent, voiceover je neříká. 440 potvrzených případů (FCA) jen v factchecku."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "tsb",
+   "diagram": "Osa TSB se odkryje celá: od 22 APR přes ambrový úsek WORST: ~1 WEEK (do 26 APR) dál zlomenou osou (//) až k 10 DEC 2018 BUSINESS AS USUAL.",
+   "note": "Zlom osy (//) označuje vynechaný čas, ať týden a osm měsíců nejsou ve stejném měřítku a kresba netvrdí poměr."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "pause": 1.2,
+   "diagram_generator": "tsb",
+   "diagram": "Osa TSB, za 10 DEC 2018 přidán štítek £330M COST IN 2018, a za dalším zlomem 2022: £48.65M FINES (FCA + PRA).",
+   "note": "£330,2 mil. jsou náklady + ušlé příjmy 2018 (factcheck B1e), pokuty zvlášť a o čtyři roky později."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "pause": 0.5,
+   "diagram_generator": "tsb",
+   "diagram": "Osa TSB ztlumená. Uprostřed válec dat CUSTOMER DATA s ambrovou fajfkou ARRIVED INTACT, pod ním malé FCA · INDEPENDENT REVIEW.",
+   "note": "Obě primární zprávy (factcheck B1c). Pauza 0,5: S43 pokračuje."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "pause": 0.5,
+   "diagram_generator": "tsb",
+   "diagram": "Válec dat ze S42 vlevo malý s fajfkou. Vpravo nová platforma: dvě datová centra vedle sebe, jedno ambrově SET UP DIFFERENTLY. Nad jedním z nich TESTED, nad druhým čárkovaně NOT TESTED. Pod tím ukazatel cíle zátěže se šipkou dolů TARGET LOWERED AFTER TESTS DIDN'T PASS.",
+   "note": "Jen exekutivní shrnutí S&M §2.43 (factcheck S43). Kresba netvrdí víc: žádná příčina navíc, žádná procenta."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "pause": 1.4,
+   "diagram_generator": "tsb",
+   "diagram": "Stará platforma LLOYDS vlevo, nová vpravo, data už na nové. Šipka zpět od nové ke staré čárkovaně a přeškrtnutá. Pod ní citace „ESSENTIALLY IMPOSSIBLE“ — FCA.",
+   "note": "Škrt přes šipku (plochu), citace čitelná."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "pause": 2.6,
+   "vyzva": true,
+   "diagram_generator": "tsb",
+   "diagram": "Stará platforma LLOYDS s fajfkou IT RAN. Dva štítky důvodu odchodu: WHO OWNED IT · WHAT IT COST. Ambrově osa TSB zmenšená v horní části s bodem 22 APR: THE DANGEROUS PART. Levá dolní čtvrtina PRÁZDNÁ.",
+   "note": "Pointa TSB. DRUHÁ VÝZVA K ODBĚRU za touto scénou (za hlavní pointou, ~5:40): levý dolní roh prázdný. Pauza 2,6 = konec bloku."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "pause": 1.2,
+   "diagram_generator": "uvod",
+   "diagram": "Rým tří karet, karta 2 rozsvícená (A BANK MANAGES IT), karta 1 ztlumená s malým FAILED, karta 3 ztlumená.",
+   "note": "Otázka „is leaving always a disaster?“ přes rým karet."
+  },
+  {
+   "id": "S47",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S47.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Commonwealth Bank branch Australia",
+    "pick": 2,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-25), dotaz „Commonwealth Bank branch Australia“ pick 2: Commonwealth Bank branch office.jpg, CC BY-SA 4.0, 5113×3409: vchod s logem zblízka."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "cba",
+   "diagram": "PÁTEŘ BLOKU CBA: časová osa `osa_cba()` 2008–2013 ve STEJNÉM stylu a výšce jako osa TSB. Čárkovaně plán: bar 2008 → 2012 PLAN: 4 YEARS, štítek A$580M.",
+   "note": "Plán čárkovaně (záměr, ne skutečnost). Osa CBA leží na téže y jako osa TSB, aby kontrast v S50 šel vidět."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "pause": 0.5,
+   "diagram_generator": "cba",
+   "diagram": "Osa CBA, pod čárkovaným plánem plný bar 2008 → 2013 ACTUAL: 5 YEARS. Štítek ~A$1.1B, pod ním malé PRESS REPORTS · PROJECT EXPANDED.",
+   "note": "Zpětná vazba k v0.1: 1,1 mld. připsat tisku, i v obraze. Žádný poměr „2×“."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "cba",
+   "diagram": "Nahoře zmenšená osa TSB se JEDNÍM skokem ONE WEEKEND. Dole osa CBA se TŘEMI schody: 2010 DEPOSITS, 2011 BUSINESS, 2012 LOANS, každý schod ambrově jen když o něm voiceover mluví (všechny tři, poslední nejsilněji).",
+   "note": "Zadání uživatele: kontrastní rytmus, etapy místo jednoho přepnutí. Etapy jen ze sekundárního zdroje (factcheck S50 ⚠️)."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "cba",
+   "diagram": "Tři schody CBA, mezi nimi smyčka WATCH · CHECK · LEARN (malá kruhová šipka) před každým dalším schodem.",
+   "note": "Interpretace postupné migrace (factcheck ⚠️ rétorika), kresba netvrdí konkrétní testy."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "cba",
+   "diagram": "Konec osy CBA 2013: ambrový štítek REAL-TIME BANKING · 24/7, pod ním malé THE BANK'S OWN CLAIM.",
+   "note": "Tvrzení banky (P7), atribuce v obraze."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "pause": 1.2,
+   "diagram_generator": "cba",
+   "diagram": "Celá osa CBA ztlumeně a pod ní tři štítky: 5 YEARS · A MUCH BIGGER BILL · PATIENCE.",
+   "note": "Bez čísla poměru (v0.2)."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "pause": 2.4,
+   "diagram_generator": "cba",
+   "diagram": "Uprostřed přeškrtnutý štítek A PURCHASE (text_skrtnuty), vedle ambrově A PROJECT · WITH ITS OWN RISKS.",
+   "note": "Konec bloku CBA, pauza 2,4."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "pause": 1.2,
+   "diagram_generator": "uvod",
+   "diagram": "Rým tří karet, karta 3 rozsvícená (EVERYONE BLAMES COBOL), karty 1 a 2 ztlumené s malým FAILED a SUCCEEDED.",
+   "note": "Vstup do NJ přes rým karet."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "nj",
+   "diagram": "Dva svislé sloupce NEW UNEMPLOYMENT CLAIMS · NEW JERSEY: týden do 14 MAR 9,467 (nízký), týden do 21 MAR 155,815 (ambrově, vysoký). Výšky v poměru dat.",
+   "note": "assert poměr výšek = 155 815 / 9 467. Data NJ DOL (P9)."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "nj",
+   "diagram": "Sloupce ze S56 ztlumené, přes ně velké ambrové ~16× IN 7 DAYS. Vpravo dole obrys přepážky úřadu s frontou ikon.",
+   "note": "Fronta = úřad nestíhá (ne „systém“), shodně s v0.1 opravou textu."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "nj",
+   "diagram": "Štítek VOLUNTEERS WANTED (NJ GOVERNOR, APRIL 2020) a pod ním dva řádky: HEALTH WORKERS, COBOL PROGRAMMERS (ambrově). Vedle menší „40+ YEARS OLD“ s malým THE GOVERNOR SAID.",
+   "note": "Parafráze, ne doslovná citace (factcheck B3: oficiální přepis nenalezen). Stáří je jeho výrok, proto atribuce v obraze."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "pause": 1.4,
+   "diagram_generator": "nj",
+   "diagram": "Obecná karta zprávy (bez loga a názvu média) čárkovaně: ANCIENT CODE COLLAPSED, s otazníkem.",
+   "note": "Čárkovaně = tvrzení, které video zpochybní. Žádný skutečný titulek ani logo média (neimitovat konkrétní zdroj)."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "nj",
+   "diagram": "TŘI SLOUPCE `tri_sloupce()` na pevných souřadnicích: THE AUDITOR · REPORTERS · WHY COBOL. Svítí jen první: lupa a text NO EVIDENCE THE DELAYS WERE CAUSED BY THE COMPUTER SYSTEMS — STATE AUDITOR, 2022. Ostatní dva sloupce prázdné, jen nadpisy ztlumeně.",
+   "note": "Zadání uživatele: jasně oddělit auditora, novináře a důvod potřeby COBOLu. Formulace NO EVIDENCE (ne „IT WAS NOT THE CAUSE“): neprokázáno ≠ vyloučeno."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "nj",
+   "diagram": "Tři sloupce, první ztlumený s textem, svítí druhý REPORTERS: dvě vrstvy nad sebou, nahoře WEBSITE (JAVA) s několika výstražnými trojúhelníky, dole COBOL BACKEND s ambrovou fajfkou KEPT RUNNING. Štítek MANY ERRORS TRACED HERE u webové vrstvy.",
+   "note": "MANY, ne ALL (v0.2). Novinářské zjištění odděleno sloupcem od závěru auditora. Akcent je jediný, ambrový: fajfka u COBOLu je o čem je řeč (běžel), výstrahy ztlumeně-bílé."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "nj",
+   "diagram": "Svítí třetí sloupec WHY COBOL: CONGRESS → NEW RULES (NEW BENEFITS · NEW AMOUNTS · WHO QUALIFIES) → INTO THE CODE, se stopkami FAST.",
+   "note": "CARES Act jen ze sekundárního zdroje (factcheck S62 ⚠️), proto obecně CONGRESS, bez názvu zákona."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "pause": 2.6,
+   "diagram_generator": "nj",
+   "diagram": "Tři sloupce všechny ztlumeně, pod nimi pruh THE BOTTLENECK: FEW PEOPLE WHO COULD CHANGE IT · PHONE LINES · STAFF. Nahoře přeškrtnutý štítek THE PROBLEM: OLD CODE (text_skrtnuty).",
+   "note": "Konec bloku NJ, pauza 2,6. Škrtá se tvrzení o PŘÍČINĚ (THE PROBLEM: OLD CODE), ne stáří kódu — kód starý je. Znění štítku sleduje voiceover (The problem wasn't that the code was old)."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "pause": 2.2,
+   "diagram_generator": "uvod",
+   "diagram": "Rým tří karet se všemi výsledky: 1 LEFT A WORKING SYSTEM → THE MIGRATION FAILED, 2 LEFT CAREFULLY → SUCCEEDED, 3 OLD CODE BLAMED → CAUSE NOT SHOWN (čárkovaně).",
+   "note": "Zpětná vazba k v0.2: „nobody could show it was the cause“ = neprokázáno, ne vyloučeno. Proto čárkovaně CAUSE NOT SHOWN, ne NOT THE CAUSE."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "pause": 0.5,
+   "diagram_generator": "zaver",
+   "diagram": "Stará platforma (týž tvar jako v S35/S44) s fajfkou a vedle tři ztlumené tlaky: COST ↑, PEOPLE RETIRING, WAITING HAS A COST.",
+   "note": "Staré systémy padají taky (rozhodnutí uživatele: netvrdit opak). GAO a SSA ve factchecku."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "vycet": 0.3,
+   "pause": 1.4,
+   "diagram_generator": "zaver",
+   "diagram": "Vodorovná čára přes obraz. Nad ní jediné slovo AGE (vidět). Pod ní ambrově tři položky: RULES NOBODY WROTE DOWN · KNOWLEDGE IN A FEW HEADS · THE SWITCH-OVER.",
+   "note": "Viditelné nad čarou, skutečná rizika pod ní. Ne ledovec (klišé)."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "pause": 0.5,
+   "diagram_generator": "zaver",
+   "diagram": "Zleva telefon s aplikací NEW → obal (vrstva) → uvnitř starý blok CORE ztlumeně. Šipka od aplikace dovnitř: TALKS TO SOMETHING OLDER.",
+   "note": "„Many banks“, „may be talking“: kresba ukazuje princip, ne konkrétní banku."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "pause": 0.5,
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ ZÁVĚRU `fikovnik()`: starý blok OLD SYSTEM uprostřed jako kmen, kolem něj první úponek fíkovníku (jednoduchá kresba). Vpravo malé STRANGLER FIG · MARTIN FOWLER, 2004.",
+   "note": "Zadání uživatele: strangler fig jako diagram postupného nahrazování, ne generovaný obrázek. Tentýž tvar ve S68–S69 na týchž souřadnicích."
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "pause": 1.6,
+   "diagram_generator": "zaver",
+   "diagram": "Starý blok rozdělený na čtyři funkce, tři už přešly do nových bloků kolem (ambrově), čtvrtá ještě ve starém. Úponky kolem silnější. Starý blok čárkovaně se štítkem UNTIL NOTHING DEPENDS ON IT.",
+   "note": "Postupnost uvnitř jedné scény: tři ze čtyř (ONE JOB AT A TIME). Pokud bude chtít uživatel animaci, je to kandidát na anim_s69."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "pause": 1.6,
+   "diagram_generator": "pole",
+   "diagram": "PÁTEŘ ZNOVU, přesně jako S05: pole PIC 9V99, vstup 2.345, řez a vypadlá pětka, pod polem 2.34. Navíc malé DECIDED DECADES AGO u popisu pole. Horní polovina obrazu pole obsahuje — POZOR, S70 může zasahovat do posledních 20 s, ověřit po TTS (zaver_check).",
+   "note": "Zadání uživatele: návrat ke stejnému motivu, stejná částka a stejné pole. Pokud S70 spadne do okna závěrečné obrazovky, posunout pole níž je ZAKÁZÁNO (páteř se hýbe jen v závěrečné desce) — pak zkrátit okno pauzami S71–S73, ne posunem."
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "pause": 1.4,
+   "diagram_generator": "zaver",
+   "diagram": "Teze v DOLNÍ polovině: THE OLD SYSTEM ISN'T NECESSARILY WHAT FAILS. a pod tím ambrově SOMETIMES, IT'S WHAT REPLACES IT. Horní polovina PRÁZDNÁ.",
+   "note": "Okno závěrečné obrazovky (posledních 20 s): prvky YouTube patří do HORNÍ poloviny, dole je titulek — text teze proto nad pásem titulku (pod 75 % výšky), ale pod polovinou."
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "pause": 2.0,
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: zmenšená osa TSB s jediným ambrovým bodem A SINGLE WEEKEND IN APRIL a nad ní RISK: MOVED, NOT REMOVED. Horní polovina PRÁZDNÁ.",
+   "note": "Callback na S37 (osa TSB). Okno závěrečné obrazovky."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "pause": 3.0,
+   "diagram_generator": "zaver",
+   "diagram": "Klidná deska, otázka v dolní polovině: IF A SYSTEM HAS WORKED FOR 40 YEARS, WHEN IS THE RIGHT TIME TO REPLACE IT? Horní polovina PRÁZDNÁ.",
+   "note": "Otázka do komentářů (docs/cta.md): poslední scéna, klidná deska, horní polovina pro závěrečnou obrazovku."
+  }
+ ]
+}

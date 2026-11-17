@@ -1,0 +1,837 @@
+1
+00:00:00,000 --> 00:00:02,460
+Nine hundred and ninety-nine pounds
+and ninety-nine pence.
+
+2
+00:00:02,690 --> 00:00:04,820
+Add one penny.
+
+3
+00:00:05,493 --> 00:00:07,113
+The answer is zero.
+
+4
+00:00:08,272 --> 00:00:10,652
+No error message. No crash.
+
+5
+00:00:10,732 --> 00:00:13,632
+Just zero,
+written quietly into the account.
+
+6
+00:00:14,301 --> 00:00:17,801
+In COBOL, when the field for a result
+is too small to hold it,
+
+7
+00:00:17,881 --> 00:00:20,481
+the extra digit can simply disappear.
+
+8
+00:00:21,481 --> 00:00:25,441
+Unless the program asks to be warned,
+the calculation carries on.
+
+9
+00:00:26,026 --> 00:00:27,666
+It doesn't round, either.
+
+10
+00:00:28,286 --> 00:00:30,146
+Two pounds, thirty-four and a half pence,
+
+11
+00:00:30,376 --> 00:00:32,206
+stored to the penny,
+becomes two thirty-four.
+
+12
+00:00:33,441 --> 00:00:38,016
+Write one extra word, ROUNDED,
+and it becomes two thirty-five.
+
+13
+00:00:38,316 --> 00:00:39,436
+Neither of these is a bug.
+
+14
+00:00:39,666 --> 00:00:41,416
+They're rules.
+
+15
+00:00:41,556 --> 00:00:45,336
+And many of the world's banks
+still run on rules like these.
+
+16
+00:00:46,696 --> 00:00:49,896
+COBOL is a programming language from 1959.
+
+17
+00:00:50,556 --> 00:00:53,436
+Not every program written
+in it is that old.
+
+18
+00:00:53,756 --> 00:00:56,496
+But the language is,
+and so are its habits.
+
+19
+00:00:57,313 --> 00:01:00,833
+So why haven't banks replaced it?
+They have the money.
+
+20
+00:01:01,133 --> 00:01:02,433
+They have the engineers.
+
+21
+00:01:03,343 --> 00:01:05,923
+To find out,
+we'll look at three real cases.
+
+22
+00:01:06,963 --> 00:01:09,283
+A bank that tried to leave its old system,
+
+23
+00:01:09,383 --> 00:01:13,203
+one that managed it,
+and a crisis where everyone blamed COBOL.
+
+24
+00:01:14,081 --> 00:01:16,401
+But first, that missing half penny.
+
+25
+00:01:17,100 --> 00:01:20,300
+Say you rewrite that banking program
+in a modern language.
+
+26
+00:01:20,420 --> 00:01:22,740
+You'd probably fix those rules.
+
+27
+00:01:23,340 --> 00:01:25,200
+Overflow becomes an error.
+
+28
+00:01:25,840 --> 00:01:27,880
+Half a penny gets rounded up.
+
+29
+00:01:28,402 --> 00:01:30,242
+Cleaner. Safer.
+
+30
+00:01:30,602 --> 00:01:35,102
+And now, wherever half a penny turns up,
+your program disagrees with the old one.
+
+31
+00:01:35,605 --> 00:01:38,685
+Modern languages can do
+exact decimal maths.
+
+32
+00:01:39,125 --> 00:01:41,465
+Java has a type built for it.
+
+33
+00:01:41,865 --> 00:01:44,345
+But even there,
+the rounding rule is a choice.
+
+34
+00:01:45,070 --> 00:01:48,690
+One common setting rounds the half up:
+two thirty-five.
+
+35
+00:01:48,890 --> 00:01:54,250
+Another rounds to the nearest even digit:
+two thirty-four. Both are correct.
+
+36
+00:01:54,570 --> 00:01:55,930
+Only one matches.
+
+37
+00:01:56,371 --> 00:01:58,031
+And with ordinary floating point,
+
+38
+00:01:58,111 --> 00:02:01,771
+the kind most code uses by default,
+it gets stranger.
+
+39
+00:02:02,491 --> 00:02:06,891
+Zero point one plus zero point two
+isn't zero point three.
+
+40
+00:02:07,477 --> 00:02:09,837
+So replacing COBOL isn't translation.
+
+41
+00:02:10,837 --> 00:02:14,057
+It's finding every rule like this,
+in millions of lines,
+
+42
+00:02:14,137 --> 00:02:16,457
+and keeping each one exactly as it was.
+
+43
+00:02:19,107 --> 00:02:21,487
+How did it end up there
+in the first place?
+
+44
+00:02:22,411 --> 00:02:27,971
+In May 1959, the US Department of Defense
+called a meeting at the Pentagon.
+
+45
+00:02:29,311 --> 00:02:30,831
+Computer makers, government agencies
+
+46
+00:02:31,061 --> 00:02:34,451
+and big companies came,
+all with the same problem.
+
+47
+00:02:35,074 --> 00:02:37,514
+Every computer had its own language.
+
+48
+00:02:38,194 --> 00:02:41,694
+A payroll program written for one machine
+was useless on another.
+
+49
+00:02:42,255 --> 00:02:45,095
+A committee designed a common language
+for business.
+
+50
+00:02:45,955 --> 00:02:50,975
+Its biggest influence was FLOW-MATIC, from
+Grace Hopper's team at Remington Rand.
+
+51
+00:02:51,418 --> 00:02:55,318
+And in December 1960,
+essentially the same COBOL program
+
+52
+00:02:55,548 --> 00:02:58,318
+ran on two computers
+from rival manufacturers.
+
+53
+00:02:59,458 --> 00:03:01,038
+That was the whole point.
+
+54
+00:03:01,692 --> 00:03:04,232
+It was designed so people could follow it.
+
+55
+00:03:04,812 --> 00:03:06,922
+ADD PAYMENT TO ACCOUNT-BALANCE.
+
+56
+00:03:07,292 --> 00:03:09,392
+You can probably guess what that does.
+
+57
+00:03:09,727 --> 00:03:13,387
+And it stored money the way people
+write it: as decimal digits.
+
+58
+00:03:14,347 --> 00:03:17,067
+The decimal point
+doesn't even have to be stored.
+
+59
+00:03:17,767 --> 00:03:21,907
+The field's description says where it
+goes: the last two digits are pence.
+
+60
+00:03:22,563 --> 00:03:27,033
+In 1964, IBM launched the System/360.
+
+61
+00:03:27,683 --> 00:03:31,003
+Its design included instructions
+for decimal arithmetic.
+
+62
+00:03:31,641 --> 00:03:36,221
+And IBM has designed its mainframes
+to stay compatible ever since.
+
+63
+00:03:37,181 --> 00:03:41,581
+Many older programs can still run on
+today's machines without being rewritten.
+
+64
+00:03:42,020 --> 00:03:45,200
+So there was rarely a moment
+that forced anyone to move.
+
+65
+00:03:45,580 --> 00:03:50,140
+Every year the code kept working,
+and every year it collected more rules.
+
+66
+00:03:50,500 --> 00:03:54,140
+New products, new taxes, new regulations,
+new exceptions.
+
+67
+00:03:56,730 --> 00:04:00,130
+Nobody has counted how much COBOL
+is still running worldwide.
+
+68
+00:04:01,230 --> 00:04:04,250
+But IBM says forty-five
+of the world's fifty biggest banks
+
+69
+00:04:04,480 --> 00:04:06,150
+still use its mainframes.
+
+70
+00:04:06,597 --> 00:04:08,397
+And some owners have counted.
+
+71
+00:04:09,377 --> 00:04:12,657
+In 2017,
+America's Social Security Administration
+
+72
+00:04:12,887 --> 00:04:17,337
+said its systems held
+over sixty million lines of COBOL.
+
+73
+00:04:17,767 --> 00:04:20,807
+In 2025, US government auditors
+
+74
+00:04:21,037 --> 00:04:24,587
+listed the eleven federal systems
+most in need of replacement.
+
+75
+00:04:25,437 --> 00:04:28,197
+They were between twenty-three
+and sixty years old,
+
+76
+00:04:28,277 --> 00:04:32,257
+and cost about seven hundred and fifty
+million dollars a year to run.
+
+77
+00:04:33,450 --> 00:04:37,890
+So the code is old, it's everywhere,
+and it's full of rules nobody wrote down.
+
+78
+00:04:38,390 --> 00:04:40,950
+Surely the danger is in keeping it.
+
+79
+00:04:41,505 --> 00:04:43,825
+Let's see what happens when a bank leaves.
+
+80
+00:04:46,365 --> 00:04:49,165
+In 2018, a British bank called TSB
+
+81
+00:04:49,395 --> 00:04:52,645
+had about five million customers,
+and a problem.
+
+82
+00:04:53,245 --> 00:04:55,585
+Its systems were rented
+from Lloyds Banking Group,
+
+83
+00:04:55,815 --> 00:04:59,365
+a competitor,
+and the fees were set to rise sharply.
+
+84
+00:04:59,697 --> 00:05:03,277
+So TSB decided to move everything
+onto a new platform,
+
+85
+00:05:03,357 --> 00:05:06,357
+built by its new owner,
+the Spanish bank Sabadell.
+
+86
+00:05:07,173 --> 00:05:09,013
+One weekend in April.
+
+87
+00:05:09,613 --> 00:05:12,353
+On Sunday evening,
+the new system was switched on.
+
+88
+00:05:13,346 --> 00:05:17,306
+On Monday, there were about
+nine hundred thousand attempts to log in.
+
+89
+00:05:17,746 --> 00:05:21,586
+Only about one internet banking login
+in ten succeeded.
+
+90
+00:05:22,255 --> 00:05:23,495
+Payments failed.
+
+91
+00:05:24,135 --> 00:05:27,195
+Some customers logged in
+and saw other people's accounts.
+
+92
+00:05:28,027 --> 00:05:30,087
+The worst lasted about a week.
+
+93
+00:05:30,767 --> 00:05:34,287
+TSB didn't get back to business as usual
+until December.
+
+94
+00:05:35,059 --> 00:05:39,979
+The fallout cost around three hundred
+and thirty million pounds in 2018 alone.
+
+95
+00:05:40,439 --> 00:05:44,619
+Regulators later added
+nearly forty-nine million in fines.
+
+96
+00:05:45,861 --> 00:05:47,681
+And here's the strange part.
+
+97
+00:05:48,201 --> 00:05:50,461
+The customer data arrived intact.
+
+98
+00:05:51,121 --> 00:05:53,261
+Both official reports say so.
+
+99
+00:05:53,511 --> 00:05:56,151
+What failed was the new
+platform around it.
+
+100
+00:05:56,831 --> 00:05:59,431
+Two data centres, set up differently.
+
+101
+00:06:00,111 --> 00:06:01,951
+Performance tested on only one of them,
+
+102
+00:06:02,181 --> 00:06:05,031
+with the targets lowered
+after the tests didn't pass.
+
+103
+00:06:05,386 --> 00:06:07,026
+And there was no going back.
+
+104
+00:06:07,626 --> 00:06:10,826
+Once the data had moved,
+returning to the old system was,
+
+105
+00:06:11,056 --> 00:06:14,126
+in the regulator's words,
+"essentially impossible".
+
+106
+00:06:15,599 --> 00:06:18,359
+TSB wasn't escaping a broken system.
+
+107
+00:06:19,019 --> 00:06:22,619
+It was leaving one that ran,
+because of who owned it and what it cost.
+
+108
+00:06:23,459 --> 00:06:25,559
+Leaving was the dangerous part.
+
+109
+00:06:28,119 --> 00:06:30,279
+So is leaving always a disaster?
+
+110
+00:06:31,580 --> 00:06:36,580
+In 2008, Australia's Commonwealth Bank
+set out to replace core systems
+
+111
+00:06:36,810 --> 00:06:39,860
+that had served it
+for more than forty-five years.
+
+112
+00:06:40,465 --> 00:06:42,705
+The plan: about five hundred and eighty
+million
+
+113
+00:06:42,935 --> 00:06:45,285
+Australian dollars, and four years.
+
+114
+00:06:45,959 --> 00:06:47,239
+It took five.
+
+115
+00:06:47,759 --> 00:06:49,139
+Press reports later put the total
+
+116
+00:06:49,369 --> 00:06:53,039
+at roughly one point one billion,
+as the project expanded.
+
+117
+00:06:53,479 --> 00:06:55,939
+But it didn't move everything
+in one weekend.
+
+118
+00:06:56,739 --> 00:06:59,499
+Deposit accounts went first, in 2010.
+
+119
+00:07:00,419 --> 00:07:04,239
+Business accounts followed in 2011,
+and loans in 2012.
+
+120
+00:07:04,907 --> 00:07:07,127
+Each step was something the bank
+could watch,
+
+121
+00:07:07,207 --> 00:07:10,167
+check and learn from
+before it bet on the next one.
+
+122
+00:07:10,678 --> 00:07:14,678
+At the end, the bank says,
+it became the first major Australian bank
+
+123
+00:07:14,908 --> 00:07:17,698
+with real-time banking, around the clock.
+
+124
+00:07:18,390 --> 00:07:20,870
+So it can be done.
+But look at what it took.
+
+125
+00:07:21,410 --> 00:07:24,010
+Five years, a much bigger bill,
+and patience.
+
+126
+00:07:25,224 --> 00:07:27,344
+Modernisation isn't a purchase.
+
+127
+00:07:28,004 --> 00:07:30,364
+It's a project, with risks of its own.
+
+128
+00:07:32,764 --> 00:07:35,984
+Now for the crisis
+where everyone blamed COBOL.
+
+129
+00:07:36,908 --> 00:07:38,328
+March 2020.
+
+130
+00:07:39,428 --> 00:07:43,248
+As the pandemic shut down New Jersey,
+new unemployment claims jumped
+
+131
+00:07:43,478 --> 00:07:47,949
+from under ten thousand in a week
+to over a hundred and fifty-five thousand.
+
+132
+00:07:48,249 --> 00:07:50,969
+Sixteen times as many, in seven days.
+
+133
+00:07:51,649 --> 00:07:53,989
+The unemployment office couldn't keep up.
+
+134
+00:07:54,576 --> 00:07:57,336
+In early April, the governor
+asked for volunteers.
+
+135
+00:07:58,336 --> 00:08:01,436
+Not only health workers,
+but people who knew COBOL.
+
+136
+00:08:01,616 --> 00:08:05,356
+The state's systems, he said,
+were more than forty years old.
+
+137
+00:08:05,940 --> 00:08:07,800
+The story spread fast.
+
+138
+00:08:08,320 --> 00:08:10,940
+Ancient code had collapsed
+under the pandemic.
+
+139
+00:08:12,227 --> 00:08:15,907
+But when the state auditor
+looked into it later, it found no evidence
+
+140
+00:08:16,137 --> 00:08:19,247
+that the delays had been caused
+by the computer systems.
+
+141
+00:08:20,046 --> 00:08:23,266
+Separately, reporters who looked
+at the error messages people were seeing
+
+142
+00:08:23,496 --> 00:08:26,126
+traced many of them
+to the website in front,
+
+143
+00:08:26,266 --> 00:08:28,766
+written in a much newer language, Java.
+
+144
+00:08:29,746 --> 00:08:31,926
+The old code behind it kept running.
+
+145
+00:08:32,581 --> 00:08:35,201
+So why did the state
+need COBOL programmers?
+
+146
+00:08:36,021 --> 00:08:38,541
+Because Congress was changing the rules.
+
+147
+00:08:38,761 --> 00:08:42,021
+New benefits, new amounts,
+new people who qualified,
+
+148
+00:08:42,241 --> 00:08:44,681
+and every change had to go
+into the code, fast.
+
+149
+00:08:45,417 --> 00:08:47,837
+The problem wasn't that the code was old.
+
+150
+00:08:48,437 --> 00:08:50,597
+It was that few people could change it,
+
+151
+00:08:50,677 --> 00:08:54,037
+and that the phone lines and the staff
+were overwhelmed as well.
+
+152
+00:08:56,867 --> 00:08:58,067
+Three cases.
+
+153
+00:08:58,567 --> 00:09:02,447
+A bank that left a system that still ran,
+and whose migration failed.
+
+154
+00:09:02,827 --> 00:09:05,527
+A bank that left carefully, and succeeded.
+
+155
+00:09:06,347 --> 00:09:08,187
+And a crisis where the old
+code was blamed,
+
+156
+00:09:08,417 --> 00:09:10,607
+and nobody could show it was the cause.
+
+157
+00:09:13,047 --> 00:09:15,647
+That doesn't mean old systems never fail.
+
+158
+00:09:16,407 --> 00:09:20,527
+They do. They get expensive,
+the people who understand them retire,
+
+159
+00:09:20,757 --> 00:09:23,087
+and waiting has a cost of its own.
+
+160
+00:09:23,343 --> 00:09:26,503
+But age is easy to see,
+and the real risks aren't.
+
+161
+00:09:27,043 --> 00:09:28,863
+Rules nobody wrote down.
+
+162
+00:09:29,023 --> 00:09:31,043
+Knowledge in a few people's heads.
+
+163
+00:09:31,563 --> 00:09:33,323
+And the moment you switch over.
+
+164
+00:09:34,498 --> 00:09:37,958
+That's why many banks don't replace
+the old core in one go.
+
+165
+00:09:38,398 --> 00:09:39,598
+They wrap it.
+
+166
+00:09:39,878 --> 00:09:44,258
+The app on your phone is new, but it
+may be talking to something much older.
+
+167
+00:09:44,623 --> 00:09:46,663
+And they replace it piece by piece.
+
+168
+00:09:47,703 --> 00:09:52,943
+In 2004, the software writer Martin Fowler
+named this after the strangler fig,
+
+169
+00:09:53,023 --> 00:09:57,843
+a rainforest plant that grows around
+a tree until it can stand on its own.
+
+170
+00:09:58,075 --> 00:10:01,535
+The old system keeps working
+while the new one grows around it,
+
+171
+00:10:01,615 --> 00:10:05,315
+one job at a time,
+until nothing depends on the old one.
+
+172
+00:10:07,025 --> 00:10:09,285
+Which brings us back to that half penny.
+
+173
+00:10:09,925 --> 00:10:11,965
+Somewhere, a program may still drop it,
+
+174
+00:10:12,045 --> 00:10:14,845
+because someone decided it should,
+decades ago.
+
+175
+00:10:15,345 --> 00:10:19,085
+Replacing that program means knowing that,
+and everything like it.
+
+176
+00:10:20,765 --> 00:10:23,645
+The old system isn't necessarily
+what fails.
+
+177
+00:10:24,325 --> 00:10:26,785
+Sometimes, it's what replaces it.
+
+178
+00:10:27,884 --> 00:10:31,824
+Because replacing the technology
+isn't the same as removing the risk.
+
+179
+00:10:32,544 --> 00:10:36,484
+Sometimes it just moves the risk
+into a single weekend in April.
+
+180
+00:10:38,674 --> 00:10:40,534
+So here's a question for you.
+
+181
+00:10:40,854 --> 00:10:45,254
+If a system has worked for forty years,
+when is the right time to replace it?
+
+182
+00:10:45,334 --> 00:10:48,414
+And have you ever had
+to replace one yourself?
+
+183
+00:10:48,894 --> 00:10:50,144
+Let me know in the comments.

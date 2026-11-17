@@ -1,0 +1,603 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook je MÍSTO, ne schéma — divák má napřed sedět v té firmě. Žádná čitelná obrazovka (pseudotext by prošel i s 'no text' v negativu), jen šero a jedna lampa. Dvacet let provozu se kreslí opotřebením, ne datem.",
+      "prompt": "a wide dim open-plan office late in the day, rows of worn desks and old chairs, stacks of paper and cable trays, one desk lamp lit, long service and quiet routine"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Zavádí PÁTEŘ 5 a ta se vrací v S36, S37, S48, S57 a S58. Rozvržení rámečku se mezi výskyty NESMÍ hnout, jinak se callback v S48 (tytéž čtyři řádky) nepozná. Scéna netvrdí, že je něco špatně — všechno je odškrtnuté, to je ta pointa.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 5 (seznam) se zavádí: rámeček se čtyřmi odškrtnutými řádky — WHAT TECHNICAL DEBT IS / WHAT OUTDATED MEANS / SUPPORT ENDS / IT WILL NEED UPGRADING. Všechny čtyři fajfky ambrové, nic přeškrtnuté"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Vtip scény je opakování, ne neznalost. Šipka se proto vrací do sebe. Postava musí být malá a bez obličeje — je to role, ne osoba.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž seznam ustoupí a před něj se postaví malá postava u tabule s jediným nápisem WHY WE SHOULD UPGRADE; od tabule vede ambrová šipka v kruhu zpátky k tabuli"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Zavádí PÁTEŘ 6 — kartu citátu. Vrací se v S19, S45, S46, S56 a hlavně v S59, kde se táž karta objeví naposledy. Musí mít VŽDY totéž rozvržení a tutéž velikost písma, jinak se závěrečný callback nepozná. NIC se tu neškrtá: scéna s tou větou souhlasí.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 6 (citát) se zavádí: velká karta s uvozovkami a nápisem BUT IT WORKS uprostřed, pod ní tlumené AND YES. IT DOES."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Tři panely, ne fotky: je to VÝČET, a výčet je práce diagramu. Fajfky musí být stejné jako v S02, protože to je tentýž typ tvrzení. Pozor podle fact checku: telefon z roku 2008 se rozsvítí, ale síť už nemusí být — do obrazu proto nepatří signál ani hovor, jen přístroj.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři panely vedle sebe, každý s ambrovou fajfkou: WINDOWS XP, A PHONE FROM 2008, A TWENTY-YEAR-OLD CAR. V každém panelu jednoduchý obrys předmětu"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Prohnutí, ne zlomení — scéna říká 'doesn't NECESSARILY mean', tedy varování, ne katastrofa. Přeškrtnuté panely by tvrdily víc než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "Tytéž tři panely se zmenší na základy a na ně se položí zjevně těžký blok THE NEXT TEN YEARS OF YOUR BUSINESS; základy se pod ním prohýbají, ale nelámou"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Nosný obraz celého videa. Vrací se v S08, S31–S34, S47 a S61 — a v S34 je jeho vrchol, takže rozvržení kruhu se od téhle scény do konce videa nesmí pohnout. Klíč je, že nápis přesahuje jádro: to je celé tvrzení scény a nikde se nevyslovuje.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 (jádro a okolí) se zavádí: uprostřed rámeček YOUR SOFTWARE, kolem něj v kruhu šest tlumených bloků bez popisků. Nápis IT WORKS je vysázený PŘES jádro i přes celý kruh, ne jen do jádra. Dole tlumené TODAY",
+      "pause": 2.2
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Šest bloků odpovídá šesti položkám ve scénáři — počet musí sedět, jinak obraz tvrdí jiný výčet než hlas. Šipky naznačují pohyb, ale ještě se nic nevzdaluje; vzdalování přijde až v S34 a nesmí se vystřílet dřív.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 s popisky: šest bloků kolem jádra dostane názvy LANGUAGES, FRAMEWORKS, LIBRARIES, OPERATING SYSTEMS, DATABASES, SERVERS a u každého je malá ambrová šipka naznačující pohyb"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "První REÁLNÝ příklad videa, takže musí být konkrétní: ne abstraktní kruh, ale přístroj a stožár. Fact check: scénář nejmenuje operátora ani datum, tak je nesmí jmenovat ani obraz. Souvisí s osmnáctým videem kanálu (2G) — odkaz patří do popisku, ne do obrazu.",
+      "diagram_generator": "voda",
+      "diagram": "Malý přístroj na zdi (výtahové tlačítko / alarm) svítí ambrově, nad ním stožár vysílače s obloučky signálu a štítkem 2G. Vedle cedule operátora: 2G IS GOING AWAY"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Mizení se kreslí PRŮHLEDNOSTÍ, ne škrtem — škrt znamená 'neplatí', kdežto scéna říká 'skončilo'. Jsou to různá tvrzení. Přístroj se nesmí ani o pixel hnout, jinak zmizí pointa, že vada není v něm.",
+      "diagram_generator": "voda",
+      "diagram": "Týž obraz. Stožár i obloučky signálu vybledly skoro do pozadí, přístroj svítí dál beze změny. Nic není přeškrtnuté",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Přechod z reálného do absurdního. Oznámení musí vypadat jako úřední cedule, ne jako bublina — absurdita je v tom, že je to napsané vážně. Potrubí se pak nemění až do S14.",
+      "diagram_generator": "voda",
+      "diagram": "PÁTEŘ 2a (potrubí): řez domem s jednoduchým rozvodem vody, umyvadlo a záchod. Na dveřích visí úřední oznámení vodárny: STARTING NEXT YEAR — WATER 2.0"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Tentýž typ fajfky jako v S02 a S05 — je to potřetí totéž tvrzení a divák to má poznat. Rozvržení domu se od S11 nemění.",
+      "diagram_generator": "voda",
+      "diagram": "Totéž potrubí, tři ambrové fajfky u trubek, umyvadla a záchodu, dole EVERYTHING IS FINE"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Ani jedna větev není přeškrtnutá ani zvýrazněná — scéna žádnou nedoporučuje, jen je vypisuje. Slovo FOREVER nese celý vtip, takže patří do obrazu.",
+      "diagram_generator": "voda",
+      "diagram": "Trubky dostanou štítek WATER 1.0. Z domu vede rozcestí na dvě větve: REPLACE YOUR PLUMBING a PAY EXTRA FOREVER; druhá větev má u sebe malou ikonu opakovaného účtu"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Převod metafory na téma. Funguje jen tehdy, když se rozcestník NEHNE — pohyblivá část je dům, ne rozhodnutí. Tohle je jediná scéna, kde se potrubí mění.",
+      "diagram_generator": "voda",
+      "diagram": "Týž rozcestník, ale dům se prolne do vrstveného softwarového stohu; rozcestí zůstane beze změny na stejném místě"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Šipka mezi kroky je tvrzení o příčině a tady je oprávněná — scénář ten sled výslovně popisuje. Účtový štítek připravuje PÁTEŘ 4, která se naplno zavede v S21.",
+      "diagram_generator": "voda",
+      "diagram": "Řetěz tří kroků shora dolů: OLD VERSIONS UNSUPPORTED -> NEW SOFTWARE STOPS WORKING -> YOU PAY EXTRA. Poslední krok má u sebe tentýž účtový štítek jako S13",
+      "pause": 2.2
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Zavádí PÁTEŘ 3. Vrací se v S17–S20, pak jako CALLBACK v S51 (prázdná židle) a S60. Obě židle musí být kreslené stejným rukopisem — kdyby Chair 6 vypadala rozbitě, obraz by tvrdil, že nefunguje, což je přesně opak scénáře.",
+      "diagram_generator": "kreslo",
+      "diagram": "PÁTEŘ 3 (židle): vpravo nová židle s velkým ambrovým 8, vlevo starší židle s tlumeným 6. Obě nakreslené stejně pečlivě, žádná není karikatura"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Počtvrté tentýž typ fajfky. Scénář má dvě vlastnosti (nohy, opěradlo), takže dvě fajfky — ne tři, jinak obraz vypisuje něco, co hlas neřekl.",
+      "diagram_generator": "kreslo",
+      "diagram": "Jen Chair 6, zvětšená, se dvěma ambrovými fajfkami u nohou a opěradla: FOUR LEGS, A BACKREST. Dole EVERYTHING IS FINE"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Přes NÁPIS se škrtá vodorovnou čarou (skrt_text), ne křížkem — pod křížkem se to nepřečte. Razítko je průsvitné, aby židle zůstala vidět: neztratila se, jen ztratila podporu. Fact check: stůl ani kolečka se tu NEZMIŇUJÍ, ta přijdou jako objev v S20.",
+      "diagram_generator": "kreslo",
+      "diagram": "Přes Chair 6 razítko OUT OF SUPPORT (nakloněné, ambrové, průsvitné). Vedle dva řádky s vodorovným škrtem přes text: REPLACEMENT PARTS, SAFETY FIXES"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Táž karta jako v S04 — stejné rozvržení, stejná velikost. FAIR ENOUGH je tlumené, protože scénář námitce dává za pravdu; kdyby bylo přeškrtnuté, obraz by se s hlasem hádal.",
+      "diagram_generator": "kreslo",
+      "diagram": "PÁTEŘ 6 (citát) nad židlí: karta s WHY SHOULD WE BUY NEW CHAIRS? THESE ONES WORK! a pod ní tlumené FAIR ENOUGH"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Tady se stůl a kolečka objevují POPRVÉ — proto je to objev, ne opakování oznámení. Prázdná židle připravuje callback v S51, takže musí být kreslená týmž tvarem jako Chair 6.",
+      "diagram_generator": "kreslo",
+      "diagram": "Tři objevy vedle sebe, každý jako malá scéna: nový stůl, ke kterému židle nepasuje; prázdná přihrádka s popiskem WHEELS; a prázdná židle s cedulkou RETIRED FIVE YEARS AGO"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Zavádí PÁTEŘ 4 a je to nejdůležitější soustava videa, protože v S24–S28 se do TÉŽE karty vepíšou skutečná čísla. Rozvržení karty (hlavička, linky, částka vpravo dole) se od téhle scény nesmí hnout — na tom stojí věta 'when the invoice is real'.",
+      "diagram_generator": "kreslo",
+      "diagram": "PÁTEŘ 4 (účet) se zavádí: úřední karta s hlavičkou ENTERPRISE EXTENDED CHAIR SUPPORT, linkami formuláře a prázdnou částkou"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Vyplňuje se karta ze S21, nekreslí se nová. Částka je slovy, ne číslicí — je to fikce a číslice by ji tvářily jako údaj.",
+      "diagram_generator": "kreslo",
+      "diagram": "Táž karta vyplněná: položka REPLACEMENT WHEELS, částka SEVERAL MILLION, perioda PER YEAR. Vedle karty obrys obsolete židle"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Škrtá se jen slovo CHAIR, ne celý nápis — jde o záměnu, ne o neplatnost. Tohle je poslední scéna absurdní části a pauza za ní je dělicí čára celého videa.",
+      "diagram_generator": "kreslo",
+      "diagram": "Velké slovo CHAIR s vodorovným škrtem a vedle něj nepřeškrtnuté SOFTWARE; pod tím tlumené AND SUDDENLY NOBODY FINDS IT STRANGE",
+      "pause": 2.4
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Klíčový obrat videa a stojí a padá s tím, že je to TÁŽ karta jako u židlí — mění se obsah, ne tvar. Fact check: datum 8. 4. 2014 je doložené primárním zdrojem (dopis DH/CCS z toho dne).",
+      "diagram_generator": "xp",
+      "diagram": "TÁŽ karta jako S21/S22, ale hlavička se přepíše na CUSTOM SUPPORT AGREEMENT a doplní se datum 8 APRIL 2014 a řádek WINDOWS XP. Nahoře nad kartou tlumené EXCEPT THIS PART IS NOT A JOKE"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "TVRDÉ OMEZENÍ z fact checku: tahle částka se NESMÍ nijak spojit s britskou smlouvou v S26 — jsou to dva různé ceníky a vynásobením by vyšel nesmyslný počet strojů. Žádná šipka, žádné rovnítko, žádný součet mezi S25 a S26. Do obrazu taky nepatří strop 250 000 dolarů: scénář ho neříká.",
+      "diagram_generator": "xp",
+      "diagram": "Do karty se doplní dva řádky ceny: FIRST YEAR — 200 DOLLARS PER DEVICE a SECOND YEAR — 400 DOLLARS PER DEVICE; druhá částka ambrová"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Musí to být vlastní karta se svým rámečkem, ne další řádek v kartě ze S25 — viz omezení výš. Číslo se píše zaokrouhleně slovy jako ve scénáři; přesné 5,548 mil. £ do obrazu nepatří, prameny se rozcházejí v poslední číslici.",
+      "diagram_generator": "xp",
+      "diagram": "SAMOSTATNÁ druhá karta, zřetelně oddělená: UK PUBLIC SECTOR / 5.5 MILLION POUNDS / TWELVE MONTHS OF SECURITY UPDATES"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "TVRDÉ OMEZENÍ z fact checku: ŽÁDNÁ šipka ani osa nesmí pokračovat za rok 2015 — WannaCry v roce 2017 šel drtivě přes Windows 7, ne přes XP, a šipka je tvrzení o příčině. Stroje se nesmí obarvit na červeno; scéna říká 'byly tam pořád', ne 'stalo se neštěstí'.",
+      "diagram_generator": "xp",
+      "diagram": "Přes britskou kartu razítko NOT RENEWED (týž tvar razítka jako OUT OF SUPPORT v S18). Pod kartou řada malých strojů, všechny beze změny a pořád tam"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Jedna ze TŘÍ vět, které uživatel označil za nosné — obraz tu má udělat půlku práce. Síla je v tom, že karty jsou identické; kdyby se lišilo rozvržení, vtip se rozpadne na dva nesouvisející obrázky.",
+      "diagram_generator": "xp",
+      "diagram": "Obě karty vedle sebe ve stejném rozvržení: vlevo ENTERPRISE EXTENDED CHAIR SUPPORT, vpravo CUSTOM SUPPORT AGREEMENT. Dole velké IT JUST STOPS BEING FUNNY WHEN THE INVOICE IS REAL",
+      "pause": 2.8
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "BEAT 1 ze tří. Scéna se rozdělila, protože pauzu za otázkou nešlo vložit řezem — naměřeno 60 ms u 'A new button?' a 130 ms u 'A technology upgrade?', kdežto u 'A new feature?' se pauza vložit povedla a má 500 ms. `scene_pause` se PŘIDÁVÁ, ne řeže, takže ho pojistka nemá jak odmítnout. Vizuálně je to JEDEN obraz, ve kterém přibývá jeden řádek — ne tři různé obrázky.",
+      "diagram_generator": "nic",
+      "diagram": "Karta s otázkou WHAT WILL THE UPGRADE ACTUALLY GIVE US, pod ní první hotový řádek A NEW FEATURE -> USERS SEE IT a z druhého jen levý rámeček A NEW BUTTON",
+      "pause": 0.35
+    },
+    {
+      "id": "S29b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29b.png",
+      "note": "BEAT 2 ze tří. Doplní se USERS SEE IT k druhému řádku a objeví se levý rámeček třetího (A TECHNOLOGY UPGRADE). Nic jiného se nehne.",
+      "diagram_generator": "nic",
+      "diagram": "Druhý řádek hotový, ze třetího jen levý rámeček A TECHNOLOGY UPGRADE",
+      "pause": 0.35
+    },
+    {
+      "id": "S29c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29c.png",
+      "note": "BEAT 3 ze tří a pointa: třetí řádek dostane vpravo PRÁZDNÝ rámeček. Prázdno, ne nula a rozhodně ne křížek — křížek by znamenal 'neplatí', kdežto scéna říká 'není vidět'. Věta 'And that is exactly the point.' se sem přesunula z S30, protože patří k tomu prázdnému rámečku, a S29c tím není jednosekundový záblesk.",
+      "diagram_generator": "nic",
+      "diagram": "Všechny tři řádky, třetí s prázdným rámečkem vpravo"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Celé tvrzení scény je v tom, co se NEZMĚNILO — horní část musí být pixel po pixelu táž. Změna patří jen do základu.",
+      "diagram_generator": "nic",
+      "diagram": "Nahoře obrazovka aplikace, před i po naprosto stejná. Dole základ pod ní: vlevo tlumený a prasklý, vpravo celistvý a ambrový. Nápis NOTHING HAPPENS"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Návrat páteře musí být DOSLOVNÝ, jinak se nepozná, že jde o týž obraz. Žádný symbol poruchy — scéna výslovně říká, že se nic nekazí.",
+      "diagram_generator": "nic",
+      "diagram": "PÁTEŘ 1 se vrací přesně v podobě ze S08: jádro a šest popsaných bloků. Nic nehoří, nic nebliká, nic není přeškrtnuté. Dole tlumené RARELY FAILS BY CRASHING"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "ZMĚNA PROTI PRVNÍ ROZVAZE: nejsou to bloky kruhu. Kruh by na čtyři různé způsoby selhání musel měnit popisky bloků, a tím by přestal být týž obraz jako v S08 — a právě na tom stojí S34. Fact check: nepodporovaná technologie je doložitelně NÁLEZ V AUDITU (PCI DSS 4.0, požadavek 12.3.4 žádá roční revizi a plán nápravy schválený vedením). Do obrazu ale nepatří jméno normy ani procento — scénář nic z toho neříká a byl by to údaj navíc.",
+      "diagram_generator": "nic",
+      "diagram": "Dvě vinětky vedle sebe ve shodném rámečku: vlevo auditní zpráva s ambrovým nálezem, vpravo dvě rozhraní, jejichž konektory do sebe nezapadají"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Prázdná židle je záměrně TÁŽ jako v S20 a S51 — je to třetí ze čtyř výskytů a divák si ji má stihnout spojit. Mizení serveru je průhledností, ne škrtem. Žádné číslo o nedostatku lidí: scénář je nemá.",
+      "diagram_generator": "nic",
+      "diagram": "Tytéž dvě vinětky: vlevo tři serverové skříně, z nichž třetí bledne, s razítkem RETIRED; vpravo prázdná židle a inzerát, ke kterému nikdo nejde"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Vrchol PÁTEŘE 1 a podle uživatele nejsilnější věta scénáře — obraz jí má dát prostor, takže žádné další popisky. Jádro se od S07 nesmí hnout ani o pixel; celý účinek je v tom, že se pohnulo VŠECHNO OSTATNÍ.",
+      "diagram_generator": "nic",
+      "diagram": "Všech šest bloků je odvrácených a odsunutých od jádra; jádro je uprostřed nedotčené a jako jediné svítí. Dole velké THE WORLD SIMPLY STOPPED WAITING FOR YOU",
+      "pause": 2.8
+    },
+    {
+      "id": "S35",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S35.png",
+      "note": "Skutečná fotka údržby, ne kresba — po sedmi diagramech za sebou je změna materiálu sama o sobě předěl a scéna je metafora ze světa, který se dá vyfotit. Dotaz míří na LITÍ oleje, ne na kontrolu měrky: scénář říká 'changing the oil'. Ověřeno --search, že Commons takové snímky má; před přijetím kontaktní list.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "pouring engine oil to motor",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Týž rámeček jako v S02, a půl prázdného místa v něm je záměr — v S37 se do TÉHOŽ rámečku vejde dvakrát tolik. Bez shodného rámečku nebude srovnání fungovat.",
+      "diagram_generator": "dluh",
+      "diagram": "PÁTEŘ 5 (seznam) se vrací: rámeček se čtyřmi řádky UPDATE A FEW DEPENDENCIES / FIX A FEW INCOMPATIBILITIES / RUN THE TESTS / DONE. Rámeček je z poloviny prázdný"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Přetečení přes hranu je celé tvrzení scény, takže se rámeček NESMÍ zvětšit. Poslední řádek je ambrový, protože na něm scéna končí.",
+      "diagram_generator": "dluh",
+      "diagram": "Týž rámeček, ale řádků je šest a přetékají přes spodní hranu: UPDATE THE PLATFORM / REPLACE HALF THE LIBRARIES / UPGRADE THE FRAMEWORK / REWRITE THAT ANCIENT COMPONENT / ... / DON'T TOUCH THAT CLASS (ambrově). Nahoře WAIT FIVE YEARS"
+    },
+    {
+      "id": "S38",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S38.png",
+      "note": "Doslovná archeologie a přesně to scéna říká — model tady nemusí nic abstrahovat. Bez lidí: scéna mluví o práci, ne o pracovnících. Žádné nápisy ani značky.",
+      "prompt": "an archaeological excavation trench at dusk, layered strata in the cut earth, a work lamp on a tripod, brushes and a wooden measuring stick, dust in the air, nobody in frame"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Bublina má ocásek jako OTEVŘENOU lomenou čáru, ne uzavřený trojúhelník — jinak vede hrana přes ústí a po zamazání zbydou dva pahýly (CLAUDE.md). Čtyři bubliny, ne pět: druhá půlka dialogu se ve v0.2 škrtla.",
+      "diagram_generator": "dluh",
+      "diagram": "Dialog ve čtyřech bublinách střídavě zleva a zprava: LOOK! I FOUND A DEPENDENCY FROM 2014! / DON'T TOUCH IT. / WHY? / WE DON'T KNOW WHAT IT DOES."
+    },
+    {
+      "id": "S40",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S40.png",
+      "note": "Strach se nedá nakreslit diagramem, ale zdržená ruka ano. Klíčové je, že se ruka NEDOTÝKÁ — jakmile se dotkne, obraz mluví o zásahu místo o obavě. Štítky musí být rozostřené, jinak z nich model udělá pseudotext.",
+      "prompt": "a hand hovering just above an old dusty electrical switch panel in a dim room, not touching it, close view, single warm lamp, cables and faded labels out of focus",
+      "pause": 2.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Zavádí obraz, který nese thumbnail i závěr (S63). Kopyto musí být čitelné jako kopyto i v malém — na to je kontaktní list. Hromádka podkov je zjevně velká, kopyto jedno: poměr je tvrzení.",
+      "diagram_generator": "kovar",
+      "diagram": "PÁTEŘ 7 (podkova): vlevo hromádka hotových podkov, vpravo bosé kopyto. Mezi nimi nápis THE BLACKSMITH'S HORSE GOES BAREFOOT"
+    },
+    {
+      "id": "S42",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S42.png",
+      "note": "Skutečný podkovář — konkrétní řemeslo se jménem, tedy přesně to, na co je archiv silný (a difuzní model slabý: ruce, nástroj a kopyto naráz). Ověřeno --search: Commons má i public domain snímek od BLMUtah. Kontaktní list: hledá se práce u kopyta, ne portrét koně; barokní malbu Wouwermana nepoužívat, čte se jako historie, a scéna mluví o dnešku.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "farrier puts shoe on horse",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Shodné rozvržení obou panelů JE to tvrzení — proto se kreslí jednou funkcí. Fact check: obě podoby přísloví jsou doložené (Wiktionary uvádí českou 'kovářova kobyla chodí bosa' jmenovitě mezi ekvivalenty ševcových dětí), takže žádná z nich není 'ta správná' a ani jedna nesmí být zvýrazněná na úkor druhé.",
+      "diagram_generator": "kovar",
+      "diagram": "Dva panely vedle sebe se stejným rozvržením: vlevo kůň bez podkov, vpravo dětské boty, které nikdo neobul. Pod nimi DIFFERENT TRADE. SAME BLIND SPOT."
+    },
+    {
+      "id": "S44",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S44.png",
+      "note": "Scéna obrací prst na nás — vlastní firma, ne zákazník. PRVNÍ KOLO ZAMÍTNUTO: model dal širokou kancelář, která byla skoro k nerozeznání od S01 o 43 scén dřív, a callback by se četl jako opakování obrázku. Druhé kolo míří na JEDEN starý stroj v rohu pod plachtou, tedy na to, co scéna doopravdy říká. `seed` je zapsaný, protože samotné --force dá tutéž kompozici.",
+      "prompt": "a lone server cabinet in the corner of a dim office at night, a dust sheet half covering it, a few small indicator lights still on, coiled cables on the floor, close view, nobody in frame",
+      "seed": 4471
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Karty se STOHUJÍ, nepřepisují — v S46 přibudou další dvě do téhož sloupce a růst hromádky je tvrzení scény. Roky se nečíslují, scénář žádný neříká.",
+      "diagram_generator": "kovar",
+      "diagram": "PÁTEŘ 6 (citát): dvě karty pod sebou, obě ve stejném rozvržení jako S04 — WE DON'T HAVE TIME RIGHT NOW a pod ní NEXT YEAR: STILL NOT A PRIORITY"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Velikost tu nese tvrzení, takže poslední karta musí být zjevně větší. Nic se neškrtá — všechny čtyři výmluvy pořád 'platí', to je ta past.",
+      "diagram_generator": "kovar",
+      "diagram": "Týž sloupec, přibudou dvě karty: A PRETTY BIG UPGRADE a TOO BIG TO UPGRADE. Poslední je největší a ambrová, sloupec se pod ní prohýbá",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Kóta je jediné nové v obraze; jádro i bloky se kreslí týmiž tvary jako v S34. Mezera se NESMÍ vyplnit ničím — je to prázdno, ne překážka.",
+      "diagram_generator": "past",
+      "diagram": "PÁTEŘ 1 rozstřižená: jádro YOUR SYSTEM stojí vlevo na svém místě, kruh bloků se odsunul doprava a mezi nimi je okótovaná mezera. U kóty ambrové MORE EXPENSIVE EVERY YEAR"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Musí to být DOSLOVNĚ týž seznam jako v S02, včetně pořadí a pozice fajfek — celý smysl scény je 'tohle jste viděli na začátku'. Kdyby se cokoli přeskládalo, callback se ztratí a scéna vypadá jako nové tvrzení.",
+      "diagram_generator": "past",
+      "diagram": "CALLBACK na S02: tentýž rámeček s týmiž čtyřmi odškrtnutými řádky, jen dole přibude IT IS A BUSINESS DECISION"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Táž karta jako u židlí a XP, potřetí — divák ji už zná, takže stačí dvě slova. Pravá karta nemá číslo záměrně: scénář říká 'somewhere in the future'.",
+      "diagram_generator": "past",
+      "diagram": "PÁTEŘ 4 (účet) podruhé: dvě karty vedle sebe. Vlevo ostrá s datem DNES a částkou, vpravo vybledlá, bez data a s prázdnou částkou"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Postava je role, ne osoba — bez obličeje, jako v S03. Scéna nikoho neobviňuje, takže žádný červený prvek ani vykřičník.",
+      "diagram_generator": "past",
+      "diagram": "Levá karta se přiblíží, má podpisový řádek a u něj malou postavu; nad podpisem tlumené NOTHING VISIBLE IN RETURN"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Nejlepší callback videa a vznikl při psaní sám. Židle MUSÍ být tvarem shodná s Chair 6, jinak je to jen obecná židle a vtip zmizí. Prázdná, nikdo v ní.",
+      "diagram_generator": "past",
+      "diagram": "Pravá, vybledlá karta a pod ní PRÁZDNÁ ŽIDLE — tvarem přesně Chair 6 ze S16. Popisek IN A YEAR WHEN SOMEBODY ELSE WILL BE SITTING IN THAT CHAIR"
+    },
+    {
+      "id": "S52",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S52.png",
+      "note": "Odkládání problému do budoucnosti. Bedna musí být zjevně těžká a cesta musí pokračovat za ni — jinak obraz říká 'zbavili se toho', ne 'posunuli to'.",
+      "prompt": "a heavy wooden crate pushed along an empty road toward a low horizon at dusk, long shadows, flat landscape, nobody visible, the road continuing past the crate"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Tři stavy, ne graf: data pro křivku nejsou a graf by tvrdil víc než scénář (CLAUDE.md, video o hudbě). Bez osy je to obraz, s osou by to byl údaj.",
+      "diagram_generator": "past",
+      "diagram": "Hromada dluhu, která povyrostla mezi třemi stavy zleva doprava, poslední ambrový. Nápis IT GROWS. Žádná osa a žádná čísla",
+      "pause": 2.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Pojistka proti tomu, aby video působilo jako 'UPGRADE EVERYTHING NOW'. Fajfka je táž jako v S02 a S05 — tady poprvé znamená 'a je to v pořádku', což je celé tvrzení scény.",
+      "diagram_generator": "udrzba",
+      "diagram": "Stroj s cedulkou SWITCHED OFF NEXT YEAR a vedle něj ambrová fajfka. Nic přeškrtnutého, nic varovného"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Jediné místo videa, kde smějí být číslice — jsou to čísla verzí, ne údaje, a scénář o nich mluví jako o číslech. Váha musí být prázdná, ne nakloněná.",
+      "diagram_generator": "udrzba",
+      "diagram": "Sloupec verzí, který sám od sebe roste (7.1, 7.2, 8.0...), a vedle něj prázdná váha. Popisek NOT AN ARGUMENT ON ITS OWN"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Podle uživatele lepší kritérium než 'je to latest' — obraz to má postavit vedle sebe, ne proti sobě šipkou. Škrt jde přes text (skrt_text), ne křížkem.",
+      "diagram_generator": "udrzba",
+      "diagram": "PÁTEŘ 6 (citát): karta IS THIS THE LATEST? s vodorovným škrtem přes text, a pod ní druhá, nepřeškrtnutá a ambrová: WHEN THIS BREAKS, WILL ANYONE STILL BE ABLE TO FIX IT?"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "TVRDÉ ZADÁNÍ od uživatele: tahle scéna NESMÍ vypadat jako další slide 'technical debt is bad'. Po přetékajícím rámečku ze S37 se vrací tentýž rámeček skoro prázdný — je to úmyslný ANTI-VRCHOL a nudnost je pointa. Žádná ambrová záře, žádný vykřičník.",
+      "diagram_generator": "udrzba",
+      "diagram": "PÁTEŘ 5 potřetí: TÝŽ rámeček jako v S36, zase z poloviny prázdný, dva řádky — A FEW DEPENDENCIES EVERY RELEASE / ONE FRAMEWORK VERSION AT A TIME"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Velikost je obrácená schválně: přeškrtnutá slova jsou velká, to zbylé malé. Kdyby bylo MAINTENANCE největší, scéna by křičela — a přesně to dělat nemá.",
+      "diagram_generator": "udrzba",
+      "diagram": "Vedle klidného rámečku tři velká slova s vodorovným škrtem: A PROJECT, A MIGRATION, A TWO-YEAR PROGRAMME. Pod nimi malé JUST MAINTENANCE",
+      "pause": 2.2
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Musí to být tatáž karta ve stejné velikosti a na stejném místě jako S04 — celý závěr stojí na tom, že se otázka vrátila nezměněná, kdežto divák už je jinde.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ 6 naposledy: TÁŽ karta jako v S04, doslova, jen text WHY SHOULD WE UPGRADE? IT STILL WORKS."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Tři callbacky naráz, takže tvary MUSÍ být shodné se S09, S11 a S16 — jinak to není vzpomínka, ale tři nové obrázky. Velikost stejná, žádná není zvýrazněná.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři malé ikony v řadě, každá s popiskem: stožár 2G, kohoutek WATER 2.0, židle CHAIR 6. Všechny kreslené přesně tak jako ve svých scénách"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Otazník je jediné místo videa, kde je na místě — scénář to jako otázku formuluje. Jádro se pořád nesmí hnout, je to jeho poslední výskyt.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě data vedle sebe pod jádrem z PÁTEŘE 1: WORKING TODAY (ambrové, ostré) a STILL WORKING IN FIVE YEARS (tlumené, s otazníkem)"
+    },
+    {
+      "id": "S62",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S62.png",
+      "note": "Třetí z nosných vět uživatele — 'We are maintaining a museum.' Klíč je, že muzeum musí být PĚKNÉ a pečlivě udržované, ne opuštěné: pointa je, že se o to někdo stará, jen to už neslouží. Žádné cedulky s textem.",
+      "prompt": "a quiet museum hall, a single old machine on a low plinth behind a velvet rope, soft overhead light, polished floor, no visitors, dust motes in the beam",
+      "pause": 2.6
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "PŮVODNĚ SDXL, PŘEKRESLENO. Model scénu netrefil TŘIKRÁT: dílna bez koně, kůň stojící uprostřed výhně nad ohněm, prázdný dvůr s postavou místo koně. Slova 'forge' a 'fire' táhnou model dovnitř, a když se vypustí, zmizí s nimi i kůň. Scéna přitom potřebuje OBĚ půlky naráz (podkovy versus bosé kopyto) a to difuzní model do jednoho záběru nedostane — platí pravidlo z CLAUDE.md, že po druhém minutí nejde o prompt, ale o špatný zdroj. Jako kresba je to navíc doslovný callback na S41.",
+      "diagram_generator": "kovar",
+      "diagram": "TÁŽ kompozice jako S41: hromada podkov vlevo, bosé kopyto vpravo. Hromada je ale větší (dvanáct podkov proti devíti) a kopyto pořád bosé — nic se nezměnilo, jen se přidělalo"
+    }
+  ]
+}

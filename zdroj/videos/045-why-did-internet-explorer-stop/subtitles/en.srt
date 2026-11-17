@@ -1,0 +1,1027 @@
+1
+00:00:00,400 --> 00:00:05,250
+In August 2001, Microsoft
+released Internet Explorer 6.
+
+2
+00:00:06,240 --> 00:00:09,610
+The next version of the browser
+came out in October 2006.
+
+3
+00:00:11,058 --> 00:00:12,728
+Five years and two months.
+
+4
+00:00:13,618 --> 00:00:15,878
+In between, no new version
+arrived for the browser
+
+5
+00:00:15,958 --> 00:00:18,468
+that almost everyone
+in the world was using.
+
+6
+00:00:21,028 --> 00:00:23,238
+And it wasn't because nobody complained.
+
+7
+00:00:24,348 --> 00:00:27,528
+By the middle of that gap there
+were whole websites devoted to what
+
+8
+00:00:27,608 --> 00:00:31,578
+was wrong with it, and a small
+industry of people working around it.
+
+9
+00:00:32,262 --> 00:00:35,772
+The strange part is that Microsoft
+never hid what was happening.
+
+10
+00:00:36,642 --> 00:00:39,952
+They announced it, in public,
+and almost nobody noticed.
+
+11
+00:00:40,829 --> 00:00:45,319
+This is part four. Part one was
+how one browser became a platform.
+
+12
+00:00:46,129 --> 00:00:49,379
+Part two was what that did to
+the people building for it.
+
+13
+00:00:49,769 --> 00:00:52,579
+Part three was why nobody
+could switch it off.
+
+14
+00:00:53,369 --> 00:00:55,739
+This one is the gap underneath all three.
+
+15
+00:00:56,469 --> 00:00:58,659
+Not what the browser did. Why it stopped.
+
+16
+00:01:01,309 --> 00:01:02,509
+Start at the top.
+
+17
+00:01:03,489 --> 00:01:08,609
+In 2001, Internet Explorer 6
+arrived with Windows XP, and within
+
+18
+00:01:08,689 --> 00:01:11,959
+a couple of years it had more
+than ninety percent of the market.
+
+19
+00:01:12,777 --> 00:01:16,167
+Now ask the question that almost
+never gets asked about winning.
+
+20
+00:01:17,177 --> 00:01:19,967
+What do you build next, when
+there is nothing left to beat?
+
+21
+00:01:22,467 --> 00:01:26,037
+There was one obvious answer in the
+room, and it had been there for years.
+
+22
+00:01:26,647 --> 00:01:27,847
+The courts.
+
+23
+00:01:28,645 --> 00:01:33,395
+In May 1998, the American government
+and twenty states sued Microsoft.
+
+24
+00:01:34,305 --> 00:01:38,655
+The heart of the case was this browser,
+and how it arrived on your computer.
+
+25
+00:01:39,602 --> 00:01:43,592
+In 2000, a judge ordered the
+company to be broken into two.
+
+26
+00:01:44,327 --> 00:01:48,367
+And in June 2001, an appeals
+court kept the finding that
+
+27
+00:01:48,447 --> 00:01:51,857
+Microsoft held a monopoly,
+and threw out the breakup.
+
+28
+00:01:52,701 --> 00:01:55,591
+Eight weeks later, Internet
+Explorer 6 shipped.
+
+29
+00:01:58,491 --> 00:02:02,061
+The settlement that followed was
+about how Windows had to behave.
+
+30
+00:02:02,951 --> 00:02:05,901
+Let other people's software
+sit in the same places.
+
+31
+00:02:06,671 --> 00:02:08,881
+Let a computer maker hide the icon.
+
+32
+00:02:09,727 --> 00:02:14,437
+Nowhere in any of it was there a line that
+said: and the browser has to get better.
+
+33
+00:02:15,327 --> 00:02:17,347
+So the threat of a
+breakup ended in the same
+
+34
+00:02:17,427 --> 00:02:20,397
+season that Internet Explorer 6 arrived.
+
+35
+00:02:21,167 --> 00:02:23,637
+And then the company said
+what it planned to do next.
+
+36
+00:02:26,327 --> 00:02:30,187
+In an online chat in May
+2003, a program manager
+
+37
+00:02:30,267 --> 00:02:32,677
+on the browser team explained the future.
+
+38
+00:02:33,484 --> 00:02:37,574
+Internet Explorer 6 would be the last
+version you could install on its own.
+
+39
+00:02:38,324 --> 00:02:41,994
+From then on, the browser would
+arrive only as part of Windows.
+
+40
+00:02:42,990 --> 00:02:46,300
+Say that slowly, because it
+isn't a company admitting defeat.
+
+41
+00:02:46,510 --> 00:02:50,080
+It's a company saying this
+is no longer a product.
+
+42
+00:02:50,970 --> 00:02:53,220
+It is a feature of the operating system.
+
+43
+00:02:53,991 --> 00:02:56,661
+Which is exactly what part
+one said had happened.
+
+44
+00:02:57,131 --> 00:03:01,421
+The difference is that here, they said
+it out loud, and put a date on it.
+
+45
+00:03:02,111 --> 00:03:04,531
+And once the browser is
+part of the system, the
+
+46
+00:03:04,611 --> 00:03:07,221
+browser can only improve
+when the system does.
+
+47
+00:03:08,151 --> 00:03:10,741
+So the next question is
+what the system was doing.
+
+48
+00:03:13,251 --> 00:03:15,461
+The next Windows was going to be enormous.
+
+49
+00:03:16,551 --> 00:03:18,641
+A new way to draw everything on screen.
+
+50
+00:03:19,491 --> 00:03:21,081
+A new way to store files.
+
+51
+00:03:21,931 --> 00:03:24,301
+A new way to write the
+applications on top.
+
+52
+00:03:25,065 --> 00:03:26,895
+It was late. Then it was later.
+
+53
+00:03:28,065 --> 00:03:31,265
+In 2004 the whole project was
+restarted from a different
+
+54
+00:03:31,345 --> 00:03:34,475
+codebase, and pieces of
+it were quietly dropped.
+
+55
+00:03:35,296 --> 00:03:38,596
+It finally shipped in 2007, more than five
+
+56
+00:03:38,676 --> 00:03:41,126
+years after the browser
+we're talking about.
+
+57
+00:03:41,984 --> 00:03:45,694
+So the browser was waiting for a
+system that was itself being rebuilt.
+
+58
+00:03:48,574 --> 00:03:50,144
+But where did the people go?
+
+59
+00:03:50,834 --> 00:03:54,084
+We don't have to guess, because one
+of them wrote it down afterwards.
+
+60
+00:03:54,987 --> 00:04:00,077
+An engineer called Chris Wilson had
+worked on Internet Explorer since 1995.
+
+61
+00:04:00,527 --> 00:04:04,077
+Every major release, all
+the way to version 6.
+
+62
+00:04:04,855 --> 00:04:08,005
+Afterwards he moved onto the
+rethink of that Windows platform.
+
+63
+00:04:08,755 --> 00:04:12,845
+In his words, that is what most
+of them moved over to work on.
+
+64
+00:04:13,551 --> 00:04:17,421
+And he gives a list of reasons,
+which is more honest than giving one.
+
+65
+00:04:18,169 --> 00:04:21,779
+Rich applications inside a
+browser hadn't taken off yet.
+
+66
+00:04:22,609 --> 00:04:24,259
+The dot com bubble had burst.
+
+67
+00:04:25,269 --> 00:04:28,499
+Security problems were eating
+enormous amounts of effort.
+
+68
+00:04:29,129 --> 00:04:31,959
+They were getting stuck in their
+own backwards compatibility.
+
+69
+00:04:33,077 --> 00:04:35,337
+And they were, in his words, pretty far
+
+70
+00:04:35,417 --> 00:04:37,807
+ahead of the competition's
+released product.
+
+71
+00:04:38,655 --> 00:04:41,625
+Then he writes the sentence
+this whole video is about.
+
+72
+00:04:42,485 --> 00:04:47,015
+Microsoft does seem to work best with
+strong competition motivating it.
+
+73
+00:04:47,594 --> 00:04:50,844
+That is someone who had led
+major parts of Internet Explorer,
+
+74
+00:04:51,134 --> 00:04:53,984
+saying the browser stopped
+because nothing was pushing it.
+
+75
+00:04:57,044 --> 00:04:59,904
+And here is where the story
+gets uncomfortable, because
+
+76
+00:04:59,984 --> 00:05:02,994
+at that exact moment
+Microsoft had another browser.
+
+77
+00:05:04,384 --> 00:05:06,294
+A different one, with a different engine.
+
+78
+00:05:07,126 --> 00:05:11,736
+In March 2000, the company released
+Internet Explorer 5 for the Macintosh.
+
+79
+00:05:12,966 --> 00:05:14,976
+It did not run the engine from Windows.
+
+80
+00:05:15,926 --> 00:05:19,916
+It ran one called Tasman, written
+to follow the standards of the day.
+
+81
+00:05:20,666 --> 00:05:22,039
+Better support for stylesheets.
+
+82
+00:05:22,119 --> 00:05:24,696
+And no box model bug.
+
+83
+00:05:25,479 --> 00:05:27,169
+That's the one from part one.
+
+84
+00:05:28,039 --> 00:05:30,739
+The argument about whether the
+width of a box includes its
+
+85
+00:05:30,819 --> 00:05:34,389
+border, the disagreement that
+cost a decade of workarounds.
+
+86
+00:05:34,919 --> 00:05:37,289
+This browser simply didn't have it.
+
+87
+00:05:38,016 --> 00:05:41,666
+It also introduced the trick that
+modern browsers still use today.
+
+88
+00:05:42,596 --> 00:05:45,336
+Look at the very first
+line of a page, and decide
+
+89
+00:05:45,416 --> 00:05:48,246
+from it how strictly to
+treat everything underneath.
+
+90
+00:05:49,186 --> 00:05:52,526
+Two modes. One for pages
+written to the standards, one
+
+91
+00:05:52,606 --> 00:05:55,256
+for the pile of pages already out there.
+
+92
+00:05:56,186 --> 00:05:59,996
+Invented by the team building a
+Microsoft browser for Apple computers.
+
+93
+00:06:00,889 --> 00:06:03,339
+So Microsoft could build
+a standards browser.
+
+94
+00:06:04,289 --> 00:06:05,759
+We know, because they did.
+
+95
+00:06:06,577 --> 00:06:10,957
+In June 2003 they ended its
+development, six weeks after announcing
+
+96
+00:06:11,037 --> 00:06:14,807
+that Internet Explorer 6 was
+the last standalone version.
+
+97
+00:06:15,297 --> 00:06:18,187
+Two browsers, one company, one summer.
+
+98
+00:06:21,117 --> 00:06:23,587
+Which changes the story we usually tell.
+
+99
+00:06:24,217 --> 00:06:26,307
+It isn't Microsoft couldn't fix it.
+
+100
+00:06:26,937 --> 00:06:29,447
+It's Microsoft no longer had a reason to.
+
+101
+00:06:32,557 --> 00:06:34,177
+By the way, if you'd like to see where the
+
+102
+00:06:34,257 --> 00:06:37,107
+next question takes us,
+consider subscribing.
+
+103
+00:06:37,997 --> 00:06:39,467
+It really helps the channel.
+
+104
+00:06:40,249 --> 00:06:42,919
+And while the browser stood
+still, the web did not.
+
+105
+00:06:43,749 --> 00:06:46,159
+Here's the part I find genuinely strange.
+
+106
+00:06:47,131 --> 00:06:49,311
+A lot of what the web became next was
+
+107
+00:06:49,391 --> 00:06:51,861
+already sitting inside
+that frozen browser.
+
+108
+00:06:52,795 --> 00:06:54,915
+Go back to the late nineties.
+
+109
+00:06:55,515 --> 00:06:57,635
+A team at Microsoft is
+building a version of the
+
+110
+00:06:57,715 --> 00:07:01,225
+company's email software
+that runs inside a browser.
+
+111
+00:07:02,216 --> 00:07:05,906
+They want a page that can fetch new
+mail without loading itself again.
+
+112
+00:07:06,696 --> 00:07:08,566
+Nothing on the web could do that.
+
+113
+00:07:09,216 --> 00:07:11,666
+Pages arrived whole, or not at all.
+
+114
+00:07:12,343 --> 00:07:14,663
+So they shipped a small
+component that let a page
+
+115
+00:07:14,743 --> 00:07:18,033
+make a request on its own
+and get the answer back.
+
+116
+00:07:18,839 --> 00:07:22,979
+It arrived as an ActiveX component,
+which tells you everything about where
+
+117
+00:07:23,059 --> 00:07:27,709
+it came from, and it was named after a
+format that was fashionable that year.
+
+118
+00:07:28,407 --> 00:07:31,707
+That component sat inside
+Internet Explorer 5.
+
+119
+00:07:31,787 --> 00:07:34,927
+Then inside Internet Explorer 6.
+
+120
+00:07:35,007 --> 00:07:38,757
+Then it sat there for five
+years, while nothing happened.
+
+121
+00:07:39,536 --> 00:07:41,906
+Everyone else eventually built their own.
+
+122
+00:07:42,716 --> 00:07:44,916
+Other browsers copied the idea, kept the
+
+123
+00:07:44,996 --> 00:07:47,826
+name, and it is now part
+of the standard web.
+
+124
+00:07:48,615 --> 00:07:51,465
+And then other people picked
+it up and built things with it.
+
+125
+00:07:52,275 --> 00:07:54,825
+A mail service that
+never reloaded the page.
+
+126
+00:07:55,615 --> 00:07:57,425
+A map you could drag with the mouse.
+
+127
+00:07:58,273 --> 00:08:01,193
+The technique got a name,
+and for about three years you
+
+128
+00:08:01,273 --> 00:08:05,543
+couldn't go near anything about
+the web without hearing it. AJAX.
+
+129
+00:08:06,691 --> 00:08:11,101
+The X in the middle stands for a
+format almost nobody ended up using.
+
+130
+00:08:11,711 --> 00:08:15,801
+The rest of it came out of a component
+built for company email in the nineties.
+
+131
+00:08:18,450 --> 00:08:21,190
+So the browser everybody
+was cursing was also
+
+132
+00:08:21,270 --> 00:08:24,180
+carrying the piece that made
+the next web feel alive.
+
+133
+00:08:25,031 --> 00:08:26,741
+And it wasn't the only piece.
+
+134
+00:08:27,709 --> 00:08:30,879
+The property that lets a script
+throw away a chunk of a page
+
+135
+00:08:31,069 --> 00:08:34,839
+and put new markup in its place
+came from Internet Explorer.
+
+136
+00:08:35,729 --> 00:08:38,999
+Every framework since is
+a descendant of that idea.
+
+137
+00:08:39,817 --> 00:08:42,077
+The switch that turns part
+of a page into something
+
+138
+00:08:42,157 --> 00:08:44,847
+you can type into came
+from Internet Explorer.
+
+139
+00:08:45,957 --> 00:08:49,747
+Every rich text editor you have
+ever typed in sits on top of it.
+
+140
+00:08:50,433 --> 00:08:52,763
+And the smallest one is my favourite.
+
+141
+00:08:53,273 --> 00:08:56,593
+When a line of text is too long
+for its box, and it ends in three
+
+142
+00:08:56,673 --> 00:09:00,243
+quiet dots instead of being chopped
+off, that came from here too.
+
+143
+00:09:02,713 --> 00:09:04,513
+Then there is the joke you can check right
+
+144
+00:09:04,593 --> 00:09:07,503
+now, on the device you
+are watching this on.
+
+145
+00:09:08,249 --> 00:09:10,779
+Open any browser and ask it what it is.
+
+146
+00:09:11,409 --> 00:09:13,139
+Chrome will tell you it is Mozilla.
+
+147
+00:09:14,049 --> 00:09:17,559
+Then that it is like Gecko, which
+is the engine inside Firefox.
+
+148
+00:09:18,529 --> 00:09:19,959
+Then it will mention Safari.
+
+149
+00:09:21,001 --> 00:09:23,391
+Everything except what it actually is.
+
+150
+00:09:24,191 --> 00:09:27,911
+Every browser spent the nineties
+claiming to be the popular one, so that
+
+151
+00:09:27,991 --> 00:09:32,021
+websites would hand it the good page
+instead of the stripped down one.
+
+152
+00:09:32,713 --> 00:09:34,963
+Internet Explorer did it to Netscape.
+
+153
+00:09:35,453 --> 00:09:37,633
+Everyone did it back to Internet Explorer.
+
+154
+00:09:37,713 --> 00:09:40,903
+And nobody has dared to stop since.
+
+155
+00:09:41,773 --> 00:09:44,553
+Your browser is still lying
+about who it is, because
+
+156
+00:09:44,633 --> 00:09:47,543
+of arguments that were
+settled twenty five years ago.
+
+157
+00:09:50,263 --> 00:09:52,633
+So that is one half of those five years.
+
+158
+00:09:53,523 --> 00:09:57,313
+The web quietly built itself out
+of parts that browser already had.
+
+159
+00:09:58,023 --> 00:10:00,633
+The other half is what came
+in through the same door.
+
+160
+00:10:01,350 --> 00:10:03,220
+Part two ended with a crash.
+
+161
+00:10:04,230 --> 00:10:06,430
+A broken tag in a web
+page could shut a window
+
+162
+00:10:06,510 --> 00:10:09,080
+that was listing files
+on your own computer.
+
+163
+00:10:09,981 --> 00:10:14,851
+Because the browser was not a program
+sitting on the system. It was part of it.
+
+164
+00:10:15,481 --> 00:10:17,831
+Now run that forwards for five years.
+
+165
+00:10:20,221 --> 00:10:22,831
+Internet Explorer had a way to extend it.
+
+166
+00:10:23,701 --> 00:10:26,141
+A small piece of code could
+load itself into every
+
+167
+00:10:26,221 --> 00:10:29,571
+browser window and watch
+everything that happened there.
+
+168
+00:10:30,239 --> 00:10:31,919
+It was built for useful things.
+
+169
+00:10:31,999 --> 00:10:33,729
+Reading tools.
+
+170
+00:10:33,919 --> 00:10:35,589
+Download managers.
+
+171
+00:10:35,859 --> 00:10:39,409
+And it ran with everything you were
+allowed to do on your own machine.
+
+172
+00:10:40,283 --> 00:10:43,073
+So by 2004 this was an industry.
+
+173
+00:10:44,027 --> 00:10:46,947
+Search toolbars. Shopping toolbars.
+
+174
+00:10:47,027 --> 00:10:48,947
+Weather toolbars.
+
+175
+00:10:49,027 --> 00:10:52,767
+Machines with four of them stacked
+above the page, eating a third
+
+176
+00:10:52,847 --> 00:10:56,337
+of the screen, and nobody in the
+house remembers installing one.
+
+177
+00:10:56,993 --> 00:11:00,283
+Some of them were paid for by
+whoever wanted your search box.
+
+178
+00:11:00,953 --> 00:11:04,223
+Some came bundled with something
+free you actually wanted.
+
+179
+00:11:05,173 --> 00:11:07,403
+And some needed no installing at all.
+
+180
+00:11:08,079 --> 00:11:11,049
+You didn't click anything.
+You visited a page.
+
+181
+00:11:13,869 --> 00:11:15,879
+And there was nowhere to upgrade to.
+
+182
+00:11:16,689 --> 00:11:18,949
+No newer browser was
+coming, because the browser
+
+183
+00:11:19,029 --> 00:11:22,199
+was part of Windows now,
+and Windows was late.
+
+184
+00:11:23,055 --> 00:11:24,775
+Which is why the fix, when it finally
+
+185
+00:11:24,855 --> 00:11:28,105
+arrived, came in the
+strangest possible shape.
+
+186
+00:11:28,847 --> 00:11:30,557
+August 2004.
+
+187
+00:11:30,707 --> 00:11:32,377
+Not a new browser.
+
+188
+00:11:33,187 --> 00:11:35,337
+A service pack for the operating system.
+
+189
+00:11:36,115 --> 00:11:38,285
+Inside it, a blocker for pop-up windows.
+
+190
+00:11:38,635 --> 00:11:41,545
+A manager for all those add-ons.
+
+191
+00:11:41,895 --> 00:11:45,585
+A bar across the top that told
+you when a page wanted something.
+
+192
+00:11:46,055 --> 00:11:48,895
+And a browser that finally
+asked before certain
+
+193
+00:11:48,975 --> 00:11:51,265
+web controls could reach into the machine.
+
+194
+00:11:52,089 --> 00:11:53,699
+Sit with that for a second.
+
+195
+00:11:54,669 --> 00:11:58,779
+To make the browser safer, Microsoft
+had to update the operating system.
+
+196
+00:11:59,590 --> 00:12:03,100
+That is the moment part one stops
+being an argument about strategy.
+
+197
+00:12:04,070 --> 00:12:06,460
+The browser really had
+become part of Windows.
+
+198
+00:12:07,430 --> 00:12:09,260
+The proof is in the shape of the repair.
+
+199
+00:12:12,480 --> 00:12:15,610
+And it landed exactly the
+way part three would predict.
+
+200
+00:12:16,720 --> 00:12:19,260
+Company applications that had
+been written for a browser
+
+201
+00:12:19,340 --> 00:12:22,820
+that trusted everything started
+asking for permission, and
+
+202
+00:12:22,900 --> 00:12:25,810
+the complaints came in from
+the people who had built on it.
+
+203
+00:12:26,487 --> 00:12:30,607
+Three months later, Firefox reached
+version 1, and people who had
+
+204
+00:12:30,687 --> 00:12:34,217
+never chosen a browser in their
+lives started downloading one.
+
+205
+00:12:34,925 --> 00:12:39,565
+Three months after that, in
+February 2005, Bill Gates stood up
+
+206
+00:12:39,645 --> 00:12:43,135
+at a security conference and
+announced a new Internet Explorer.
+
+207
+00:12:43,959 --> 00:12:49,159
+The reason he gave was security.
+Not standards. Not the pixels.
+
+208
+00:12:49,239 --> 00:12:51,109
+Not ten years of developer complaints.
+
+209
+00:12:52,038 --> 00:12:56,578
+Internet Explorer 7 arrived
+in October 2006, into a web
+
+210
+00:12:56,658 --> 00:12:59,728
+that had spent five years
+learning to work without it.
+
+211
+00:13:02,638 --> 00:13:03,928
+So why did it stop?
+
+212
+00:13:06,128 --> 00:13:08,958
+Not because Microsoft couldn't
+build a better browser.
+
+213
+00:13:09,968 --> 00:13:11,868
+There was one, in the same company, in the
+
+214
+00:13:11,948 --> 00:13:14,938
+same year, with the
+famous bug already fixed.
+
+215
+00:13:15,869 --> 00:13:17,819
+It stopped because it had already won.
+
+216
+00:13:18,709 --> 00:13:21,879
+The competition that had driven
+the first browser war was gone.
+
+217
+00:13:22,569 --> 00:13:24,079
+The court case was over.
+
+218
+00:13:24,729 --> 00:13:26,819
+The people had been moved
+onto the next thing.
+
+219
+00:13:29,219 --> 00:13:33,409
+And that is the part worth keeping
+from four videos about an old browser.
+
+220
+00:13:34,371 --> 00:13:37,141
+A product with nothing left
+to beat stops changing.
+
+221
+00:13:40,331 --> 00:13:43,781
+And everything it already has becomes
+the ceiling for everyone else.

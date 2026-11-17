@@ -1,0 +1,106 @@
+{
+  "title": "What Makes a Battery Catch Fire?",
+  "slug": "049-what-makes-a-battery-catch-fire",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly documentary illustration, muted desaturated palette of cool steel grey, deep slate blue-black and pale bone white, one restrained muted amber accent and nothing more, flat grey overcast light or a single dim indicator lamp, no sun, deep shadows, visible brush and ink texture, subtle film grain, restrained detail, ordinary domestic and workshop interiors, hallways, stairwells and kerbsides, ordinary human scale, cinematic composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, logo, watermark, signature, user interface, chart, graph, photorealistic, photograph, glossy render, 3d render, product photography, advertising render, holographic display, floating hologram, blue neon glow, cyberpunk, sci-fi, futuristic, matrix code rain, binary digits, circuit board pattern, glowing data streams, dramatic lighting, lens flare, neon rim light, dawn, dusk, golden hour, sunlight, sunlit, warm daylight, sunset, oversaturated, neon, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs, duplicate face, white background, paper white background, bright room, high key, overexposed, washed out, server rack, keyboard closeup, smartphone, laptop, modern minimalist office"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 827,
+    "music_sections": []
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "archive_grade": {
+    "levels": "6%,94%",
+    "saturation": 55,
+    "tint": "#c98f4e",
+    "tint_amount": 20,
+    "contrast": "-6x-10",
+    "vignette": true,
+    "vignette_edge": "#a8a8a8"
+  },
+  "pronounce": {
+    "1991": "nineteen ninety-one",
+    "2010": "twenty ten",
+    "2016": "twenty sixteen",
+    "2023": "twenty twenty-three",
+    "2025": "twenty twenty-five"
+  },
+  "thumbnail": {
+    "source": "thumbnail/c4-kapsa.png",
+    "out": "render/thumbnail.jpg",
+    "note": "hotový fotorealistický obrázek od ChatGPT (uživatel), ne kreslený kódem — viz thumbnail/PUVOD.md. Porovnán ve 150 px se třemi kreslenými koncepty (c1-clanek, c2-praskla, c3-rez) a vyhrál: téma je situace, ne ikona. Upraven jen převodem na přesných 1280x720, jinak beze změny.",
+    "kreslene_koncepty": [
+      "thumbnail/c1-clanek.svg",
+      "thumbnail/c2-praskla.svg",
+      "thumbnail/c3-rez.svg"
+    ],
+    "original": "thumbnail/c4-kapsa.png"
+  }
+}

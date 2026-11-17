@@ -1,0 +1,1016 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU, ne atmosféru — proto NENÍ sdxl. Divák vidí paradox videa dřív, než ví, o čem video je: tři stejně široké pruhy a jeden je skoro prázdný. Popisky schválně chybí, ty přijdou až v S03. Zavedení PÁTEŘE: od téhle scény se PAS_Y ani PAS_X nesmí pohnout až do S103.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři vodorovné pruhy na pevných souřadnicích, BEZ popisků. Horní hustě posetý drobnými značkami, prostřední středně, spodní skoro prázdný."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Tři hry ukazují NA TÝŽ obraz — to je to tvrzení: rozdělení rolí je jim společné. Štítky jsou MUTED, ne ambrové: nejsou téma scény, jen doklad. Ambrová patří tomu, o čem se právě mluví.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad pruhy tři drobné štítky WORLD OF WARCRAFT / FINAL FANTASY XIV / THE ELDER SCROLLS ONLINE, všechny ztlumené (MUTED), spojené k témuž trojpruhu."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Tady se geometrie pojmenuje a divák si ji zapamatuje. Hustota značek se v téhle scéně NEMĚNÍ — kdyby se měnila naráz s popisky, nebylo by poznat, co znamená co.",
+      "diagram_generator": "uvod",
+      "diagram": "Pruhy dostanou popisky vlevo: DPS, HEALER, TANK. Jak je voiceover jmenuje, rozsvítí se popisek ambrově a zase zhasne na INK."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Doslovný překlad věty: všichni ostatní se velmi snaží nestát tam. Boss je JEN v pruhu TANK a nikde jinde v celém videu — kdyby zasahoval do ostatních pruhů, scéna by tvrdila, že mlátí i je.",
+      "diagram_generator": "uvod",
+      "diagram": "V pruhu TANK jediná postava. U pravého kraje pruhu velký tmavý tvar (boss). Ostatní dva pruhy mají značky stažené doleva, pryč od něj."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Věta zní „the one nobody wants to be\", tedy o OCHOTĚ, ne o počtech (viz factcheck.md, S05). Obraz proto ukazuje prázdné místo, ne statistiku. Žádné číslo se nikde neobjeví.",
+      "diagram_generator": "uvod",
+      "diagram": "Pruh TANK je PRÁZDNÝ — postava z S04 v něm chybí. Horní dva pruhy přeplněné. Nad prázdným místem ambrový otazník."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Paradox naplno: nejdůležitější a přitom prázdný. Rámeček je ambrový, protože o tom je řeč — ne proto, že by to bylo „dobré\".",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdný pruh TANK dostane ambrový rámeček a popisek VERY IMPORTANT. Ostatní dva pruhy ztlumené."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "ŠIPKA MÍŘÍ NA TANKA, ne na skupinu — poznávací znak z CLAUDE.md „scéna, ve které něco míří na někoho\". Podmět věty je boss, cíl je tank. Tenké čáry zezhora jsou „depending on you\", jsou MUTED, aby se nepletly se šipkou útoku.",
+      "diagram_generator": "uvod",
+      "diagram": "Postava zpátky v pruhu TANK, od bosse k ní ambrová šipka. Z horních dvou pruhů vedou k téže postavě tenké čáry MUTED."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Dva stavy vedle sebe, ne dvě scény — rozdíl mezi nimi je celý obsah věty. Asymetrie se sem zavádí poprvé a vrací se v S48–S51.",
+      "diagram_generator": "uvod",
+      "diagram": "Dvojice: vlevo zhasne jedna značka v pruhu DPS (someone might die), vpravo zhasnou VŠECHNY tři pruhy naráz (everyone might die)."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Wipe. Ambrová značka je „everyone knows whose fault it is\" — vina svítí, když všechno ostatní zhaslo. Je to jediné místo videa, kde ambrová znamená něco nepříjemného, a proto k ní patří popisek.",
+      "diagram_generator": "uvod",
+      "diagram": "Všechny tři pruhy tmavé (DIM), popisky sotva čitelné. V pruhu TANK jediná ambrová značka, která ještě svítí."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Očekávání, ne tvrzení. Nápis je přes pruh, ne přes celý obraz — mluví se o té roli, ne o hře.",
+      "diagram_generator": "uvod",
+      "diagram": "Pruh TANK s velkým ambrovým nápisem DIFFICULT přes celou šířku."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Přes NÁPIS se škrtá vodorovnou čarou, nikdy křížkem — pod křížkem se nápis nepřečte a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic. Na text i se škrtem najednou je `text_skrtnuty()`.",
+      "diagram_generator": "uvod",
+      "diagram": "Nápis DIFFICULT vodorovně přeškrtnutý (skrt_text, ne křížek) a pod ním prázdný pruh TANK.",
+      "pause": 2.6
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Od téhle scény do S16 se pruhy plní POSTUPNĚ a přírůstek je pokaždé vidět — jinak si divák hustoty nevšimne, protože se změní naráz. Hustota pruhu se v celém bloku NEMĚNÍ — je to vlastnost role zavedená v S01. Postupnost nese AMBROVÁ: rozsvěcejí se značky, o kterých je zrovna řeč, a je jich pokaždé víc. Kdyby hustota v polovině videa kolísala, přestala by být tvrzením.",
+      "diagram_generator": "role",
+      "diagram": "Pruh DPS se plní: hustá řada drobných značek zleva doprava, pod ním popisky ROTATION, TIMING. Pruhy HEALER a TANK ztlumené."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Popisky jsou v pruhu, ne pod obrazem — všechno, co scéna tvrdí, se musí odehrát uvnitř páteře, jinak se páteř stane pozadím.",
+      "diagram_generator": "role",
+      "diagram": "Do pruhu DPS přibudou dvě další vrstvy značek: RESOURCES, BUFFS AND DEBUFFS. Pruh je teď vizuálně přeplněný."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Scéna říká DVĚ věci najednou, takže obraz musí nést obojí. Dřív tu byla jen tmavá pole a šipka k bossovi visela až o scénu dál, kde se mluví o healerovi.",
+      "diagram_generator": "role",
+      "diagram": "V pruhu DPS tmavá pole (nebezpečná místa), kterým se značky vyhýbají, a k tomu tenká šipka vzhůru k bossovi s popiskem WHILE WATCHING THE BOSS."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Hlas tu přechází na healera, takže se ambrová musí přepnout TADY. Dřív zůstávala na DPS a kresba tvrdila něco jiného než voiceover — nahlásil uživatel při poslechu draftu.",
+      "diagram_generator": "role",
+      "diagram": "Pruh HEALER se rozsvítí ambrově, pod pruhem KEEP EVERYONE ALIVE · HEALTH BARS."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Druhá půlka healerova výčtu. Čárkovaně znamená v tomhle videu zatím ne, takže anticipace se kreslí tím, ne popiskem. Zároveň se tím S16 liší od S15 — dvě scény s týmž obrazem vypadají jako zaseknuté video.",
+      "diagram_generator": "role",
+      "diagram": "Pruh HEALER dál ambrový, navíc ČÁRKOVANÁ šipka od bosse = rána, která teprve přijde. Pod pruhem RESOURCES · AND WHAT COMES NEXT."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Pointa celého bloku a první výplata páteře. Kontrast musí být vidět bez čtení: dva pruhy k prasknutí, třetí prázdný.",
+      "diagram_generator": "role",
+      "diagram": "Oba horní pruhy ztlumené a plné. Pruh TANK ambrový a PRÁZDNÝ, jediná postava uprostřed.",
+      "pause": 2.2,
+      "dovetek": "So let us look at it again."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "ODCHYLKA OD PŮVODNÍHO NÁVRHU: žádné přiblížení páteře. Původně se měl pruh TANK zvětšit na celou plochu; jakmile by ale jedna scéna kreslila pruhy jinde, přestane platit věta, na které celá páteř stojí — že se poloha za 103 scén nezměnila. A protože každá zvětšená scéna vypadá sama o sobě dobře, nikdo by si toho nevšiml až do S103. Mechanika se vejde i tak.",
+      "diagram_generator": "tank",
+      "diagram": "Mechanika UVNITŘ pruhu TANK (1760 x 236 px), popisky kroků WALK / TAUNT / STAND v pásu pod spodním pruhem. Ostatní dva pruhy ztlumené, ale na svých souřadnicích."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "„That's it.\" Beat, který uživatel označil za nosný. Jeden obraz, mění se JEDNA věc — proto samostatná scéna, ne nový střih.",
+      "diagram_generator": "tank",
+      "diagram": "Týž obraz, kroky WALK a TAUNT zhasnou, zůstane STAND. Nic jiného.",
+      "pause": 2.2
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "„Well, not quite.\" Změna je záměrně nepatrná: kdyby se obraz překreslil, vtip ze dvou scén zmizí.",
+      "diagram_generator": "tank",
+      "diagram": "Pod STAND se objeví drobné ALE ztlumeně, nic víc.",
+      "dovetek": "That is worth sitting with."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "FACING: šipka míří PRYČ od horních dvou pruhů. Kdyby mířila k nim, kresba by tvrdila opak věty.",
+      "diagram_generator": "tank",
+      "diagram": "Tři úkoly jako drobné ikony v pruhu TANK: FACING (šipka od bosse pryč od skupiny), BLOCK (štít), a mezi nimi postava."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Pět položek je strop — víc už je výčet, který divák nepřečte. Rozestupy se odvozují z šířky ikon, nepíšou se napevno (MEZERA_POPISEK, past z videa 037).",
+      "diagram_generator": "tank",
+      "diagram": "Přibudou MOVE (přerušovaná dráha) a ADDS (tři drobné značky u kraje). Dohromady pět ikon."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "„An astonishing amount of nothing happening.\" Prázdno je obsah scény, takže se do něj nesmí nic doplnit „aby to nebylo prázdné\".",
+      "diagram_generator": "tank",
+      "diagram": "Pruh TANK skoro prázdný, jediná postava, kolem ní nic. Popisek NOTHING HAPPENING ztlumeně."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Opakování je záměr věty, takže i obrazu. Takty jsou stejně velké a stejně daleko od sebe — nepravidelnost by tvrdila, že se něco děje.",
+      "diagram_generator": "tank",
+      "diagram": "Čtyři takty nad postavou: HIT, BLOCK, HIT, BLOCK. Rytmus."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Konec cyklu je WAIT, ne akce. To je celý smysl bloku.",
+      "diagram_generator": "tank",
+      "diagram": "Kolečko cooldownu se doplní, postava ho stiskne, kolečko se vyprázdní a zbyde WAIT."
+    },
+    {
+      "id": "S26",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S26.png",
+      "note": "JEDINÁ archivní scéna první poloviny. Klavírní koncert má vlastní jméno a dá se vyfotit, tedy přesně to, na co je archiv. PICK VYBRÁN Z KONTAKTNÍHO LISTU ze 36 stažených náhledů, ne od stolu — a rozhodla FUNKCE scény, ne shoda s dotazem: vybraný snímek má ruce ROZMAZANÉ pohybem, takže nese „performing what looks like a small piano recital\", kdežto tři ostří favorité (statická ruka, dětské ruce při cvičení) nesou „někdo hraje na klavír\". Dotaz zúžen tak, aby cíl vycházel jako pick=0 — pořadí výsledků Commons se mění i mezi dvěma voláními, takže doklad je otisk v archive-raw/, ne pick.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "flying across the keyboard",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Chyba se stane VIDITELNĚ v pruhu DPS a pruh TANK se nemění — to je příprava na S29. Zároveň návrat k páteři po archivní odbočce.",
+      "diagram_generator": "chyba",
+      "diagram": "Zpátky tři pruhy; v pruhu DPS jedna značka vjede do tmavého pole a zhasne. Pod pruhem THEY STOOD IN SOMETHING."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Otázka. Mění se JEDINÁ věc — kam se dívá ambrová. Otazník tu schválně není: ten je vyhrazený třem scénám o tom, že roli nikdo nechce (S05, S51b, S52), a čtvrtý výskyt by callback rozředil.",
+      "diagram_generator": "chyba",
+      "diagram": "Týž obraz jako S27, jen pruh TANK ambrový. Pod pruhem AND THE TANK?",
+      "dovetek": "And that is the whole point."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "„Usually... nothing.\" Nezměněný pruh JE odpověď. Kdyby se v něm cokoli pohnulo, scéna by tvrdila opak.",
+      "diagram_generator": "chyba",
+      "diagram": "Pruh TANK beze změny, postava stojí. Nad ní ambrový popisek NOTHING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Vzkříšení je vidět jako obnovení značky. Šipka útoku se přitom ANI NEHNE — to je věcné jádro scény.",
+      "diagram_generator": "chyba",
+      "diagram": "Šipka od bosse pořád na tankovi. Zhasnutá značka v DPS se rozsvítí zpátky, od pruhu HEALER k ní vede krátká čára."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Chyby jako průběžný jev, ne událost. Proto víc značek, ne jedna.",
+      "diagram_generator": "chyba",
+      "diagram": "V pruhu DPS zhasínají a rozsvěcejí se značky sem tam, pruh TANK beze změny. Popisek OTHER PEOPLE MAKE MISTAKES."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Připraveno pro srovnání v S33. Levá půlka se mezi scénami NESMÍ posunout, jinak se srovnání nepozná.",
+      "diagram_generator": "chyba",
+      "diagram": "Dvojice vedle sebe: DEAD DPS (jedna zhasnutá značka v horním pruhu) a prázdné místo vpravo, které se zaplní až v S33."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Šipka bez cíle je celé tvrzení scény — boss nemá koho mlátit. Ověřit, že šipka opravdu v obraze JE (`sipka()` vrací seznam, bez `o +=` se tiše nenakreslí, past z videa 050).",
+      "diagram_generator": "chyba",
+      "diagram": "Vpravo přibude DEAD TANK: pruh TANK prázdný a šipka od bosse končí v prázdnu, bez cíle."
+    },
+    {
+      "id": "S34",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S34.png",
+      "note": "Jediná atmosférická scéna první poloviny a nádech před obratem (and that is when things become interesting). PŮVODNĚ BYLA NA S35 — tam ale hlas říká konkrétní tvrzení o healerovi, takže obraz mlčel přesně tam, kde měl tvrdit. Páteř tu chybí schválně; v S35 se vrátí a je to znát.",
+      "prompt": "a vast dim stone chamber seen from a low angle, an enormous unlit shape half swallowed by shadow at the far end, the floor empty, no figures, deep negative space, no text",
+      "pause": 2.2
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Škrt přes SPOJNICI, ne přes pruh: přeškrtnutý pruh by znamenal, že tank neexistuje, což scéna netvrdí. Spojnice vede od postavy do pruhu, ne jen přes mezeru mezi pruhy — ta měří 44 px.",
+      "diagram_generator": "kontrola",
+      "diagram": "Tři pruhy zpátky. Od postavy v pruhu TANK vede k pruhu HEALER PŘEŠKRTNUTÁ spojnice — tank NEudržuje ostatní naživu."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Ambrová se přesune na healera, protože o něm je půl věty, a pak se vrací k tankovi. Jedna barva, jeden význam.",
+      "diagram_generator": "kontrola",
+      "diagram": "Táž spojnice vede nově od pruhu HEALER (ambrově). V pruhu TANK popisek CONTROL THE ENCOUNTER."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Dvě RŮZNÁ tvrzení (natočení a poloha), proto dvě ikony.",
+      "diagram_generator": "kontrola",
+      "diagram": "Boss v pruhu TANK otočený k postavě; dvě ikony LOOKING AT YOU a STANDING WHERE YOU WANT."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "KRITICKÉ: ani jedna šipka nesmí zasáhnout horní dva pruhy.",
+      "diagram_generator": "kontrola",
+      "diagram": "Od bosse vycházejí tři ambrové šipky ven ze spodní hrany pruhu, tedy pryč od obou pruhů, ve kterých stojí skupina."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Nová scéna obrazu — rozjezd k replice v S40. Čárkovaně znamená, že rána ještě nedopadla, takže S40 může tutéž šipku ukázat plnou.",
+      "diagram_generator": "kontrola",
+      "diagram": "Boss se nabírá k ráně: tlustá ČÁRKOVANÁ šipka k postavě, která stojí na místě. Pod pruhem SOMETHING PARTICULARLY UNPLEASANT."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Jediná replika ve videu, která má bublinu. Bublina má ocásek ke správné postavě — detektory to nechytnou, kontroluje se na kontaktním listu.",
+      "diagram_generator": "kontrola",
+      "diagram": "Postava v pruhu TANK, proti ní velká šipka od bosse. Nad postavou bublina „GO AHEAD.\"",
+      "pause": 2.4
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Vtip stojí na kontrastu s pruhy nad ním, které se nezklidnily. Kdyby se zklidnily taky, scéna by tvrdila, že je klid všude.",
+      "diagram_generator": "kontrola",
+      "diagram": "Pruh TANK ambrový a klidný, popisek RELAXING. Horní dva pruhy pořád hustě zaplněné."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Tvar dráhy nese tvrzení; pravidelnost se kreslí pravidelně. Obě věty scény jsou v jednom obraze.",
+      "diagram_generator": "kontrola",
+      "diagram": "Dvě dráhy vedle sebe: nahoře KILL IT FAST (klikatá), dole PREDICTABLE (rovná, pravidelná) s popiskem MUCH EASIER TO SURVIVE."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Abstraktní teze videa, vyslovená poprvé. Škrtá se SPOJNICE mezi nimi, ne jeden z rámečků — scéna netvrdí, že role není složitá, nýbrž že jedno z druhého neplyne. Připravuje stroj v S44.",
+      "diagram_generator": "kontrola",
+      "diagram": "Dva rámečky: ambrový IMPORTANT a ztlumený COMPLICATED, mezi nimi PŘEŠKRTNUTÁ spojnice.",
+      "pause": 2.2
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "TOHLE JE DŮVOD, PROČ UŽIVATEL VYBRAL PÁTEŘ B. Metafora se překlopí z her na stroj, ale geometrie zůstane — divák nemusí nic přeučovat. Počet kol se v kódu SPOČÍTÁ a zajistí assertem: devět + jedno, protože scénář říká deset a devět. Obrázek nesmí tvrdit víc ani míň. V pruzích jsou v téhle kapitole KOLEČKA místo značek. Kdyby se kreslilo obojí, nedá se počet součástek spočítat — a scéna přitom tvrdí deset a devět.",
+      "diagram_generator": "stroj",
+      "diagram": "Tři pruhy se PŘEČTOU JAKO STROJ: v horních dvou se otáčejí drobná ozubená kola (devět celkem), ve spodním leží jedno nehybné. Souřadnice pruhů beze změny."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Zastavení musí být vidět na všech devíti naráz. Ambrová zůstává vyhrazená tomu, o čem je řeč — porucha se kreslí zhasnutím, ne druhou barvou.",
+      "diagram_generator": "stroj",
+      "diagram": "Nehybné kolo ve spodním pruhu zčervená… tedy zhasne (DIM) a VŠECHNA ostatní kola se zastaví."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Prázdné místo je připravené pro S47. Poloha štítku se mezi scénami nesmí posunout, jinak se výplata nepozná.",
+      "diagram_generator": "stroj",
+      "diagram": "Vedle nehybného kola dva štítky: COMPLICATED (přeškrtnutý) a prázdné místo pro druhý."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Teze videa vyslovená naplno a poprvé. Jediná změna proti S46 je ten štítek — proto je vidět.",
+      "diagram_generator": "stroj",
+      "diagram": "Do prázdného místa se vsadí ambrový štítek CRITICAL.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "VÝZVA K ODBĚRU podle docs/cta.md. `visual` ukazuje schválně na images/S47.png, tedy na obrázek PŘEDCHOZÍ scény: prolínačka mezi dvěma identickými obrázky není vidět, takže divák nezaznamená střih. Do diagramu se nekreslí NIC — nápis klade render.py ze sdílené vrstvy branding/cta-overlay.png. `effect: static` je povinný (zoom by se u nové scény počítal od začátku a v místě střihu by skočil zpátky) a předchozí scéna musí být taky statická — S47 je diagram, sedí. Umístění: za pointou 'It means it's critical.', ne na konci (za úzkým hrdlem) a ne v závěrečném běhu S99-S103, kde by rozbila vrchol — to je chyba, kvůli které CTA vypadla z videa 052.",
+      "cta": true
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Návrat z metafory ke hře na týchž souřadnicích. Hustoty musí sedět s S16–S17, jinak si divák všimne, že se něco změnilo.",
+      "diagram_generator": "nasobek",
+      "diagram": "Zpátky tři pruhy v základní poloze. V pruhu TANK málo značek, v DPS mnoho — a u tanka popisek FEWER."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Ne všechny značky — jen některé. „Some of those things\" je v té větě podstatné a obraz to musí odlišit.",
+      "diagram_generator": "nasobek",
+      "diagram": "Několik málo značek v pruhu TANK dostane ambrový kroužek a popisek ENORMOUS CONSEQUENCES."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Malý následek se kreslí malý. Měřítko je tvrzení.",
+      "diagram_generator": "nasobek",
+      "diagram": "Vlevo DPS: zhasne jedna značka, vedle drobný ubývající sloupeček SOME DAMAGE."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Asymetrie z S08 se vrací a teprve tady se vyplácí. Obě půlky musí být vidět naráz, jinak je to jen další wipe.",
+      "diagram_generator": "nasobek",
+      "diagram": "Vpravo TANK: zhasne jedna značka a vzápětí zhasnou VŠECHNY tři pruhy. Levá půlka ze S50 zůstává na místě."
+    },
+    {
+      "id": "S51b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51b.png",
+      "note": "Vědomý callback na S05 přes padesát scén. Callback se pozná JEDINĚ podle shodného rozvržení, takže otazník kreslí funkce z _kit.py, ne ruční souřadnice.",
+      "diagram_generator": "odmeny",
+      "diagram": "Tři pruhy, TANK prázdný jako v S05. Nad ním se vrátí týž ambrový otazník na TÝCHŽ souřadnicích."
+    },
+    {
+      "id": "S51c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51c.png",
+      "note": "Krátký beat, jedna změna. Odtud do S51f se přechází od dojmu k dokladu, takže od téhle scény jsou v obraze konkrétní jména.",
+      "diagram_generator": "odmeny",
+      "diagram": "Prázdný pruh TANK, nad ním ambrový popisek GAMES HAVE NOTICED.",
+      "dovetek": "And that is the whole point."
+    },
+    {
+      "id": "S51d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51d.png",
+      "note": "POZOR NA PŘESNOST: odměna míří do pruhu, KTERÉHO SE ZROVNA NEDOSTÁVÁ, ne natvrdo na TANK. Call to Arms odměňuje 'least represented role', ať je to která chce (factcheck.md, primární zdroj: poznámky k patchi 4.1). Pravidlo říká POPISEK, kresba ukazuje jen ten konkrétní případ — přesně tak, jak je psaný scénář. Jméno hry je v titulku, protože v pruhu DPS leželo přes jeho značky.",
+      "diagram_generator": "odmeny",
+      "diagram": "Pytel odměn leží v PRÁZDNÉM pruhu TANK, pod pruhem popisek WHICHEVER ROLE THE QUEUE IS SHORT OF. Jméno hry nese titulek."
+    },
+    {
+      "id": "S51e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51e.png",
+      "note": "Hromadění je to tvrzení: dvě hry, tentýž nápad. Kdyby scéna jen překreslila obraz S51d, jsou to dvě identické scény za sebou a divák vidí zaseknuté video — shodné rozvržení má znamenat 'tentýž mechanismus', ne 'tentýž snímek'.",
+      "diagram_generator": "odmeny",
+      "diagram": "Druhý pytel PŘIBUDE vedle prvního; první zůstane ztlumený. Popisek THE SAME IDEA, IN ANOTHER GAME."
+    },
+    {
+      "id": "S51f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51f.png",
+      "note": "Shrnutí. „Bribe\" je vtip a do obrazu se NEPÍŠE — text v obraze musí unést fact check, kdežto voiceover si smí dovolit sarkasmus.",
+      "diagram_generator": "odmeny",
+      "diagram": "Obě hry ztlumené, přes obě jeden ambrový nápis REWARD SYSTEMS a pod ním prázdný pruh.",
+      "pause": 2.2
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Otázka bloku. Otazník je týž prvek jako v S05 a S51b — potřetí a naposledy.",
+      "diagram_generator": "strach",
+      "diagram": "Prázdný pruh TANK, nad ním ambrový otazník a popisek INTIMIDATING."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Nenápadnost se kreslí nenápadně. Kdyby byla chyba zvýrazněná, scéna by tvrdila opak.",
+      "diagram_generator": "strach",
+      "diagram": "Pruh DPS: jedna značka zhasne uprostřed hustoty a je prakticky k nerozeznání. Popisek QUIETLY."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Viditelnost se kreslí řetězem následků, ne popiskem. Je to jediná scéna kromě S34, kde útok míří na skupinu — a tady je to chyba.",
+      "diagram_generator": "strach",
+      "diagram": "Pruh TANK: jedna chyba a hned se otočí boss, šipka sjede k hornímu pruhu a zasáhne značku."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Doslovný návrat obrazu ze S09 na týchž souřadnicích. Vina jako jediné, co svítí, se tím stává motivem, ne jednorázovým nápadem.",
+      "diagram_generator": "strach",
+      "diagram": "Všechny tři pruhy zhasnou (wipe jako v S09), v pruhu TANK zůstane svítit jedna ambrová značka."
+    },
+    {
+      "id": "S56",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S56.png",
+      "note": "Atmosféra tam, kde páteř nemá co říct: „I don't want to be responsible for this.\" Postava je odvrácená a malá. Žádný obličej — v negativu je `visible face` i `portrait`.",
+      "prompt": "a single small armoured figure seen from behind standing at the edge of a vast empty stone hall, turned away from the dark depth of the room, cold overcast light from a high window, deep negative space, no text"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Škrt přes text zase čarou, ne křížkem (`text_skrtnuty()`).",
+      "diagram_generator": "strach",
+      "diagram": "Prázdný pruh TANK, nad ním nápis PERFECT přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Uživatel označil tuhle větu za nosnou. Výměna na TÝCHŽ souřadnicích, aby se četla jako oprava, ne jako nová informace.",
+      "diagram_generator": "strach",
+      "diagram": "Na místě škrtnutého PERFECT ambrový nápis RELIABLE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Počty se v kódu SPOČÍTAJÍ a zajistí assertem — pět a dvacet říká scénář. Obrázek nesmí tvrdit víc ani míň.",
+      "diagram_generator": "strach",
+      "diagram": "Vlevo pět ambrových značek pravidelně, vpravo dvacet drobných nepravidelně a v nich jedna zhasnutá."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Obrys je nový prvek a od téhle scény znamená odolnost. Zavádí se právě tady, ne dřív.",
+      "diagram_generator": "sklo",
+      "diagram": "Pruh TANK, postava dostane silný obrys. Popisek BUILT TO SURVIVE."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Pět vrstev odpovídá pěti položkám scénáře. Odsazení popisků se odvozuje z poloměru vrstvy (`pod_hlavou()`), nikdy se neodhaduje.",
+      "diagram_generator": "sklo",
+      "diagram": "Kolem postavy pět soustředných vrstev s popisky HEALTH, RESISTANCES, MITIGATION, SHIELDS, BLOCKING."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Opak se kreslí jako nepřítomnost obrysu, ne jako jiná barva. Barva má v tomhle videu jediný význam.",
+      "diagram_generator": "sklo",
+      "diagram": "Vedle toho postava z pruhu DPS: BEZ obrysu, zato obklopená hustými značkami poškození."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "PUNCHLINE, kterou si uživatel vyžádal jako samostatnou scénu. Jeden obraz, jedna věc, žádné pruhy — jediná scéna videa, kde páteř ustoupí kvůli důrazu.",
+      "diagram_generator": "sklo",
+      "diagram": "Jediný prvek na ploše: postava DPS s tenkou popraskanou linkou místo obrysu, nad ní ambrový nápis GLASS CANNON.",
+      "pause": 2.4
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Výměna se kreslí jako přesun, ne jako dvě nezávislé veličiny. Šipka míří z obrany DO poškození, ne obráceně.",
+      "diagram_generator": "sklo",
+      "diagram": "Šipka z vrstvy obrany do sloupce poškození: obrana se přelévá v damage."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Táž chyba, dva následky. Levá a pravá půlka musí být zrcadlově stejně velké, jinak srovnání nesedí.",
+      "diagram_generator": "sklo",
+      "diagram": "Vlevo tank: ubude jedna vrstva z pěti, zůstanou čtyři. Vpravo DPS: táž chyba a linka praská."
+    },
+    {
+      "id": "S66",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S66.png",
+      "note": "„and suddenly they're a corpse.\" Odvrácené a vzdálené, žádná krev ani detail — styl videa je malovaná ilustrace, ne fotorealismus, což drží odpověď „ne\" na otázku YouTube o AI.",
+      "prompt": "a fallen suit of armour lying on worn flagstones in an enormous empty stone hall, seen from a distance and above, cold flat overcast light, no figures standing, deep negative space, no text",
+      "dovetek": "So let us look at it again."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Obě misky na téže straně je celý vtip scény. Miska se kreslí s `close=True`, jinak to není miska — vada, kterou detektor nenajde.",
+      "diagram_generator": "sklo",
+      "diagram": "Váhy: na jedné misce RESPONSIBILITY (těžší u tanka), na druhé ROOM FOR ERROR (taky těžší u tanka)."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Návrat k páteři po bloku s postavami.",
+      "diagram_generator": "sklo",
+      "diagram": "Pruh TANK ambrově, popisek LOOKS THE MOST DANGEROUS."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Uživatel označil tenhle mini-beat jako přípravu na „But there is a catch.\" Výměna na místě, ne nový obraz.",
+      "diagram_generator": "sklo",
+      "diagram": "Nápis se vymění za MOST FORGIVING na týchž souřadnicích.",
+      "pause": 2.6
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "note": "„But there is a catch.\" Obrat videa. Sdxl proto, že páteř by tady musela něco tvrdit, a scéna schválně nic netvrdí — jen otevírá druhou půlku.",
+      "prompt": "a narrow dark doorway at the far end of a vast stone hall, the room beyond it unlit and unreadable, worn flagstones, cold flat overcast light, no figures, deep negative space, no text",
+      "dovetek": "And that is the whole point."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "ZLOM PÁTEŘE. Od S01 byl spodní pruh prázdný; tady se to poprvé mění a je to jediná scéna, ve které se ta změna začne. Nesmí přijít dřív ani se opakovat.",
+      "diagram_generator": "slozitost",
+      "diagram": "Tři pruhy. Pruh TANK, dosud prázdný, se poprvé začne plnit — zatím jen pár značek."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "První položka výčtu. Od téhle scény do S76 pruh houstne POSTUPNĚ — přírůstek musí být pokaždé vidět. Mřížka leží VEDLE bosse a vede k ní šipka. Kreslená přes něj ho překryla a boss z obrazu zmizel.",
+      "diagram_generator": "slozitost",
+      "diagram": "V pruhu TANK přibude POSITION: boss a k němu mřížka přesných pozic."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Pět položek naráz je hodně, ale tak je psaná i věta — rychlý výčet. Popisky jsou drobné, čitelnost se ověřuje na kontaktním listu ve zmenšenině, ne v plné velikosti.",
+      "diagram_generator": "slozitost",
+      "diagram": "Přibude pět dalších položek: MOVE, ADDS, INTERRUPT, RESOURCES, WEAPONS. Pruh TANK je teď hustý jako DPS."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Konkrétní mechanika, doložená ve factcheck.md. Stohování se kreslí jako přibývající řada, ne jako jedna ikona s číslem.",
+      "diagram_generator": "slozitost",
+      "diagram": "Dva tanci vedle sebe, mezi nimi šipka výměny; na prvním stohující se značky debuffu, po výměně přestanou přibývat."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Jedinečnost se kreslí jako NEPŘÍTOMNOST téhož prvku jinde, ne popiskem UNIQUE.",
+      "diagram_generator": "slozitost",
+      "diagram": "Pruh TANK plný; jedna značka je ambrová a v pruzích DPS a HEALER nemá obdobu."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Protiklad k S23, kde kolem téže postavy nebylo nic. Callback je v ROZVRŽENÍ: táž postava, tytéž souřadnice, jiné okolí.",
+      "diagram_generator": "slozitost",
+      "diagram": "Pruh TANK plný, kolem postavy tři drobné šipky činnosti. Pod pruhem NOT JUST STANDING THERE."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "„The tank is planning.\" Beat. Čára míří DOPŘEDU v čase, tedy doprava — konvence osy z S75 musí platit dál.",
+      "diagram_generator": "slozitost",
+      "diagram": "Pruh TANK, postava a nad ní dopředná čára k tomu, co teprve přijde. Popisek PLANNING.",
+      "pause": 2.2
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Protiklad dvou směrů na téže ose. Zpětná šipka je MUTED, dopředná ambrová — o té je řeč.",
+      "diagram_generator": "slozitost",
+      "diagram": "Dvě dráhy: REACTING (šipka zpět k tomu, co se stalo) a THINKING AHEAD (šipka vpřed)."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Schodiště vyrůstá Z pruhu TANK, ne odnikud — kotví se k páteři, past z videa 052, kde stupně stály osaměle u kraje.",
+      "diagram_generator": "urovne",
+      "diagram": "Tři stupně nad sebou, zatím prázdné, ukotvené ke spodnímu pruhu."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "První úroveň je ta, na kterou video celou dobu ukazovalo — rozvržení proto odpovídá S21.",
+      "diagram_generator": "urovne",
+      "diagram": "První stupeň ambrově, popisek DON'T LET THE BOSS ATTACK EVERYONE ELSE, vedle něj drobné SURPRISINGLY EASY."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Ikony jsou tytéž tvary jako v S72–S73. Callback přes rozvržení, ne přes popisek.",
+      "diagram_generator": "urovne",
+      "diagram": "Druhý stupeň, popisek CONTROL THE BATTLEFIELD a tři drobné ikony POSITION, ADDS, SAFE DAMAGE."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Zatím bez obsahu — ten přijde v S83.",
+      "diagram_generator": "urovne",
+      "diagram": "Třetí stupeň, popisek UNDERSTAND THE ENTIRE ENCOUNTER."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Tři řádky odpovídají třem větám scénáře po škrtu v0.2 (čtvrtá se škrtla, takže ani v obraze být nesmí).",
+      "diagram_generator": "urovne",
+      "diagram": "Na třetím stupni se objeví tři řádky: WHAT'S COMING, WHERE THE BOSS NEEDS TO BE, WHEN THEY NEED HELP."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "„The first level doesn't have to be terrifying just because the third one is difficult.\" Ambrová na prvním, protože o něm je řeč.",
+      "diagram_generator": "urovne",
+      "diagram": "Všechny tři stupně vidět naráz; první je ambrový, třetí ztlumený."
+    },
+    {
+      "id": "S85",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S85.png",
+      "note": "Druhá a poslední archivní scéna. PICK Z KONTAKTNÍHO LISTU. Vybrán START ZÁVODU (chumel vozů v první zatáčce), ne osamocené auto: scénář říká „a Formula One race\", a jedno auto závod neznamená. Zároveň to nenadržuje jedné stáji. POZOR, past z kontaktního listu: mezi kandidáty byl i „Formel3 racing car\", tedy Formule 3 — obraz by tvrdil něco jiného než text.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Malaysian GP opening lap",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Návrat k páteři a zároveň odpověď: začíná se dole. Postava je táž jako v pruhu TANK.",
+      "diagram_generator": "urovne",
+      "diagram": "Zpátky schodiště, na prvním stupni stojí postava. Horní dva stupně ztlumené.",
+      "pause": 2.2
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Návrat hustoty na výchozí hodnotu. Je to jediné místo, kde se pruh TANK vrací — po S71 zhoustl, teď se zas uklidní.",
+      "diagram_generator": "cas",
+      "diagram": "Tři pruhy v základní poloze. Pruh TANK se vyprázdní zpátky do stavu ze S17."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "VÝPLATA PÁTEŘE. Prázdno, které je od S01 vlastností obrazu, se teprve tady pojmenuje. Proto se tenhle popisek nesmí objevit v žádné dřívější scéně.",
+      "diagram_generator": "cas",
+      "diagram": "Prázdná část pruhu TANK poprvé dostane popisek: ambrové TIME.",
+      "pause": 2.8
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Čas se utrácí za pozorování. Čáry míří k bossovi, ne ke skupině.",
+      "diagram_generator": "cas",
+      "diagram": "Z prázdna vycházejí tři tenké čáry k bossovi: LOOK, OBSERVE, UNDERSTAND.",
+      "dovetek": "And that is the whole point."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Ukazatel uprostřed neznamená „hůř\" — popisek CONTROL to musí říct, jinak si divák doplní, že tank podává horší výkon. Pruhy jsou tu PRÁZDNÉ rámy: scéna srovnává míru úsilí, ne počet úkolů, a ukazatel kreslený přes značky se s nimi slil.",
+      "diagram_generator": "cas",
+      "diagram": "Vedle sebe: pruh DPS s ukazatelem vytočeným na maximum (EVERY LAST PERCENT) a pruh TANK s ukazatelem uprostřed (CONTROL)."
+    },
+    {
+      "id": "S91",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S91.png",
+      "note": "„You can sometimes just stand there.\" Poslední atmosférická scéna videa. Postava je ve středu a nehýbe se — zoom je pomalý a ven, aby se ukázalo, kolik je kolem ní místa.",
+      "prompt": "a single small armoured figure standing still at the centre of an enormous empty stone chamber, seen from behind and far away, worn flagstones stretching away, cold flat overcast light, no other figures, deep negative space, no text"
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Doslovný návrat obrazu ze S24, jen v celé páteři. Rozvržení musí sedět, jinak to není callback.",
+      "diagram_generator": "cas",
+      "diagram": "Tři pruhy: horní dva se hýbou, spodní ne. Takty HIT, BLOCK jako v S24."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Druhá a poslední bublina videa (první je S40). Ocásek ke správné postavě.",
+      "diagram_generator": "cas",
+      "diagram": "Nad postavou bublina „IS THIS REALLY MY JOB?\""
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "„Yes. It is.\" Jedna změna, jeden obraz.",
+      "diagram_generator": "cas",
+      "diagram": "Bublina zmizí, zůstane ambrové YES v prázdném pruhu.",
+      "pause": 2.6,
+      "dovetek": "And that is the whole point."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Předpoklad, který video vyvrací. Zapisuje se jako rovnice, aby se dal v S96 přeškrtnout.",
+      "diagram_generator": "pointa",
+      "diagram": "Tři pruhy, nad nimi nápis MOST IMPORTANT = BUSIEST se znaménkem rovná se."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "ŠKRTÁ SE ZNAMÉNKO, ne nadpis. Přeškrtnutý celý nápis by znamenal „neplatí to vůbec\" místo „neplatí to takhle\" — konvence z _kit.py.",
+      "diagram_generator": "pointa",
+      "diagram": "Znaménko rovná se přeškrtnuté (jen ono, ne celý nápis)."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Přes tabulku se škrtá po řádcích jedině tehdy, když neplatí každý zvlášť — a tady je to tenhle případ.",
+      "diagram_generator": "pointa",
+      "diagram": "Tři přeškrtnuté řádky: KILL THE BOSS, HEAL EVERYONE, PREVENT EVERY MISTAKE."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Zbytek po škrtu je odpověď. Tři slova pod sebou odpovídají třem větám scénáře.",
+      "diagram_generator": "pointa",
+      "diagram": "Zůstane jediný nepřeškrtnutý řádek: MAKE THE FIGHT MANAGEABLE, pod ním PREDICTABLE a CONTROLLED."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "ZAČÍNÁ OKNO ZÁVĚREČNÉ OBRAZOVKY (posledních ~20 s, tedy S99–S103). Prvky YouTube patří do HORNÍ poloviny, protože dole sedí ambrový titulek ze `svgkit.title()` na 82,6 % výšky. Ověří `tools/zaver_check.py` po prvním buildu.",
+      "diagram_generator": "pointa",
+      "diagram": "Tři pruhy, všechny klidné a pravidelné. V pruhu TANK skoro nic. HORNÍ POLOVINA obrazu je od téhle scény volná."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Začátek výplaty. Zhasínání jde shora dolů, tedy od nejhlučnějšího pruhu k nejtiššímu. ODCHYLKA: hasnou OBA horní pruhy naráz, ne DPS teď a HEALER v S101. Tohle je první scéna okna závěrečné obrazovky a prvky YouTube potřebují volnou HORNÍ polovinu; rozsvícený pruh HEALER by jim vzal jediné místo, kam se vejdou. Výplata má proto čtyři kroky jinak: pruhy zhasnou, zmizí značky, zmizí popisky, zhasne i pruh TANK.",
+      "diagram_generator": "pointa",
+      "diagram": "Pruh DPS zhasne. Horní polovina zůstává volná."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "„You aren't carrying the entire group.\" Skupina zmizela a tank pořád stojí — obraz říká pravý opak nesení.",
+      "diagram_generator": "pointa",
+      "diagram": "Zhasne i pruh HEALER. Zůstane jediný pruh TANK s postavou."
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Šipka je táž jako v S07. Poloha postavy se za 102 scén nezměnila ani o pixel — to je celá páteř a tady se to vyplácí.",
+      "diagram_generator": "pointa",
+      "diagram": "Pruh TANK sám, postava na TÝCHŽ souřadnicích jako v S01. Od bosse k ní jediná ambrová šipka."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "„And making sure... it's you.\" Poslední scéna: konstrukce zmizí a zbyde ten jediný bod. Horní polovina volná pro závěrečnou obrazovku, `static`, delší doznění nese `timing.tail`.",
+      "diagram_generator": "pointa",
+      "diagram": "Zhasne i pruh TANK. Zůstane jen šipka a v jejím cíli postava.",
+      "dovetek": "And that is the whole point."
+    }
+  ]
+}

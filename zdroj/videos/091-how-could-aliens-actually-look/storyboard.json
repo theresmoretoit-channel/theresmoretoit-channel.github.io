@@ -1,0 +1,923 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "páteř: klasická silueta mimozemšťana uprostřed, velká hlava, dvě oči; nic dalšího",
+   "note": "První scéna nese myšlenku (ne SDXL): mimozemšťan, jak si ho představujeme, je vlastně člověk. Zavádí páteř `silueta()` na pevných souřadnicích.",
+   "pause": 0.5
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "táž silueta; popisky naskakují postupně, jak je hlas jmenuje: 2 ARMS (S02), 2 LEGS (S02b), HEAD (S02c), 2 EYES (S02d), MOUTH (S02e); nejnovější ambrově",
+   "note": "Výčet = popisky na páteři, žádný nový tvar. Rozděleno na pět beatů po poslechu draftu: větné pauzy uvnitř jedné scény tts.py vynechal (u řezu zněla řeč), mezi scénami se pauza PŘIDÁVÁ. Poslech draftu 2: Emma doříkává schwu za posledním slovem (af_heart OK). Návětí se nenašlo kde uříznout, proto místo něj ořez schwy — koncovka -s/-z není na seznamu rizikových (docs/hlas-pauzy-mereni.md), ořez slovo neukousne.",
+   "pause": 0.45,
+   "orez_schwy": true
+  },
+  {
+   "id": "S02b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02b.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz S02 — přibude jeden popisek",
+   "note": "Beat výčtu S02 (rozděleno po poslechu draftu). Návětí = text předchozího beatu: intonace pokračování a krátká promluva bez cizího /s/. Poslech draftu 2: Emma doříkává schwu za posledním slovem (af_heart OK). Návětí se nenašlo kde uříznout, proto místo něj ořez schwy — koncovka -s/-z není na seznamu rizikových (docs/hlas-pauzy-mereni.md), ořez slovo neukousne. Ořez schwy pojistka odmítla (−8/−10 dB, nejspíš kus slova) → obětovaná věta. Vyzkoušeny 4 znění × 2 tempa: řez v mezeře vyšel jen s „Well, that much is obvious to everyone.“ (S02b navíc speed 0.84).",
+   "pause": 0.45,
+   "dovetek": "Well, that much is obvious to everyone.",
+   "speed": 0.84
+  },
+  {
+   "id": "S02c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02c.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz S02 — přibude jeden popisek",
+   "note": "Beat výčtu S02 (rozděleno po poslechu draftu). Návětí = text předchozího beatu: intonace pokračování a krátká promluva bez cizího /s/.",
+   "naveti": "When we imagine aliens, we usually imagine something strangely familiar. Two legs.",
+   "pause": 0.45
+  },
+  {
+   "id": "S02d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02d.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz S02 — přibude jeden popisek",
+   "note": "Beat výčtu S02 (rozděleno po poslechu draftu). Návětí = text předchozího beatu: intonace pokračování a krátká promluva bez cizího /s/.",
+   "naveti": "When we imagine aliens, we usually imagine something strangely familiar. A head.",
+   "pause": 0.45
+  },
+  {
+   "id": "S02e",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02e.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz S02 — přibude jeden popisek",
+   "note": "Beat výčtu S02 (rozděleno po poslechu draftu). Návětí = text předchozího beatu: intonace pokračování a krátká promluva bez cizího /s/.",
+   "naveti": "When we imagine aliens, we usually imagine something strangely familiar. Two eyes."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "silueta zelená / šedá / s prsty navíc; pod ní ztlumeně obrys člověka, který do ní přesně zapadne",
+   "note": "„underneath they are still people\" — obrys člověka je tentýž tvar jako silueta.",
+   "pause": 0.5
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "silueta ztlumeně, vedle velký otazník; ztlumené štítky ANOTHER WORLD: GRAVITY / AIR / SUNLIGHT",
+   "note": "Hlavní otázka videa (titul).",
+   "pause": 0.8
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "silueta zmizí; nápis EARTH HAS ALREADY BUILT IT a obrys Země",
+   "note": "Ústřední teze videa. Průběžný motiv: malá ikona Země v rohu u každého pozemského příkladu.",
+   "pause": 1.2
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "smysly",
+   "diagram": "žlutý květ (kresba), nápis WHAT YOU SEE",
+   "note": "Květ kreslený kódem, ať S07 ukáže TENTÝŽ květ v UV — fotka by srovnání neudržela."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "smysly",
+   "diagram": "tentýž květ v pohledu včely: tmavý terč uprostřed, šipka k nektaru; nápis WHAT A BEE SEES",
+   "note": "Polovina obrazu viditelné / polovina UV. Terč je tvar, ne data."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "smysly",
+   "diagram": "spektrum: pás viditelného světla, vlevo od něj UV ambrově; ikona včely nad UV",
+   "note": "Hranice pásem z konstant (380/700 nm) s assert.",
+   "pause": 0.5
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "smysly",
+   "diagram": "spektrum, UV ambrově, ostatní ztlumeně; nápis ONE EXTRA COLOUR",
+   "note": "Krátký beat.",
+   "pause": 0.6
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "had",
+   "diagram": "hlava zmije ve tmě, jamka mezi okem a nozdrou ambrově; vpravo myš jako teplá skvrna, mezi nimi čárkovaně tepelné záření",
+   "note": "Původně archiv; na Commons se jamka nečte (jediné ostré snímky mají vkreslené šipky nebo 700 px), takže kresba — a ta navíc ukáže TEPLO myši, o které věta je."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "smysly",
+   "diagram": "žralok nad pískem, pod pískem zahrabaná ryba (jen obrys), kolem ní slabé siločáry elektrického pole",
+   "note": "Siločáry čárkovaně — schéma, ne měření."
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Gnathonemus petersii“: Gnathonemus petersii, boční pohled, čisté pozadí (1568 px).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Gnathonemus petersii",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "smysly",
+   "diagram": "dvě ryby, mezi nimi série pulzů jako křivka; štítky COURTSHIP / WARNING / TERRITORY",
+   "note": "Pulzy jsou schéma.",
+   "pause": 0.6
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "smysly",
+   "diagram": "vlevo pták a čáry magnetického pole, vpravo netopýr s vlnami a ozvěnou",
+   "note": "Dva smysly v jedné scéně, symetricky."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "smysly",
+   "diagram": "páteř silueta uprostřed, kolem ní ikony smyslů (UV, teplo, elektřina, magnet, sonar), pak všechny ztlumené",
+   "note": "„all of these. Or none of them.\" Konec bloku smyslů.",
+   "pause": 2.2
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "barva",
+   "diagram": "spektrum jako v S08, nápis COLOUR?",
+   "note": "Přechod do bloku barvy.",
+   "pause": 0.6
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "barva",
+   "diagram": "list: červená a modrá šipka do listu (pohlceno), zelená se odráží",
+   "note": "Chlorofyl. Šipky = směr světla.",
+   "pause": 0.6
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "barva",
+   "diagram": "Slunce vedle menšího červeného trpaslíka; křivka vyzařování posunutá do červené a IR",
+   "note": "Scénář říká jen „most stars\", počet do obrazu nepsat. Velikosti jsou schéma."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "barva",
+   "diagram": "list pohlcující celé spektrum — všechny šipky dovnitř, žádná ven",
+   "note": "Stejná kompozice jako S17, ať je rozdíl vidět bez čtení."
+  },
+  {
+   "id": "S20",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S20.png",
+   "prompt": "an alien forest of black leaves under a dim deep red sun low on the horizon, dark trunks, faint red light on the foliage, quiet, no animals, no text",
+   "note": "SDXL atmosféra: černý les. Hypotéza („could be\") — obraz je malba, ne fotka.",
+   "pause": 2.4
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "oci",
+   "diagram": "oko (kresba) s otazníkem; nápis WHY HAVE EYES AT ALL?",
+   "note": "Opačná otázka k bloku barvy.",
+   "pause": 0.6
+  },
+  {
+   "id": "S22",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Mexican tetra cave“: povrchová a jeskynní forma téhož druhu na jednom snímku (oči vs. kůže). Jen 810 px, proto static a S23 má vlastní ostřejší snímek.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Mexican tetra cave",
+    "pick": 3,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S23",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S23.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „blind cave fish Astyanax“: jeskynní forma zblízka, kůže místo očí (3079 px), nájezd na hlavu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "blind cave fish Astyanax",
+    "pick": 4,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S24",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S24.png",
+   "prompt": "view from deep underwater looking straight up at the underside of a thick ice ceiling, faint pale light seeping through cracks in the ice far above, dark blue water below, no sky, no horizon, no creatures, no text",
+   "note": "SDXL: oceán pod ledem. „may exist\" — žádný konkrétní měsíc v obraze. Kolo 1 (bez seedu) dalo otevřené moře s ledovci — pohled zespodu nebyl; prompt upraven na pohled zdola na ledový strop.",
+   "seed": 24091
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "oci",
+   "diagram": "ikona oka přeškrtnutá pod vrstvou ledu",
+   "note": "Krátký beat, konec podbloku.",
+   "pause": 0.7
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "oci",
+   "diagram": "sluneční ikona přeškrtnutá; dolů šipka do hlubin",
+   "note": "Přechod k průduchům.",
+   "pause": 0.5
+  },
+  {
+   "id": "S27",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S27.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Riftia pachyptila hydrothermal vent“: Riftia u průduchu, bílé trubice s červenými chocholy na tmavém pozadí (Ifremer, CC BY 4.0).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Riftia pachyptila hydrothermal vent",
+    "pick": 6,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "oci",
+   "diagram": "obrys rourovky (trubice, červený chochol); škrtnuté popisky MOUTH / STOMACH / GUT",
+   "note": "`text_skrtnuty()` na každý nápis zvlášť.",
+   "pause": 0.5
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "oci",
+   "diagram": "řez rourovkou: uvnitř tečky bakterií; šipka CHEMICALS FROM THE VENT → bakterie → FOOD",
+   "note": "Šipka = směr látky."
+  },
+  {
+   "id": "S30",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S27.png",
+   "note": "Návrat k fotce rourovek: „And it's here.\"",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Riftia pachyptila hydrothermal vent",
+    "pick": 6,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 2.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "gravitace",
+   "diagram": "páteř silueta, nad ní šipka dolů g",
+   "note": "Přechod.",
+   "pause": 0.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "gravitace",
+   "diagram": "dvě postavy: malá a 2× vyšší; popisky HEIGHT ×2, WEIGHT ×8, BONE STRENGTH ×4",
+   "note": "Čísla z konstant: 2**3, 2**2, assert."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "gravitace",
+   "diagram": "silueta nohou slona (sloupy) vedle gazely (tenké nohy), v témže měřítku výšky",
+   "note": "Kresba proporcí, ať jde srovnat tloušťku."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "gravitace",
+   "diagram": "páteř: táž silueta stlačená (HEAVY WORLD) a natažená (LIGHT WORLD)",
+   "note": "Páteř se deformuje, ale stojí na téže zemi z `silueta()`.",
+   "pause": 0.6
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "gravitace",
+   "diagram": "páteř normálně; SENSES / COLOURS / PROPORTIONS odškrtnuté jako změněné, BODY WITH A HEAD ambrově",
+   "note": "Konec bloku.",
+   "pause": 2.2
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "hlava",
+   "diagram": "páteř silueta, hlava ambrově s otazníkem",
+   "note": "Otázka bloku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S37",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Octopus vulgaris“: celá chobotnice na skalách, ramena i hlava čitelné.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Octopus vulgaris",
+    "pick": 2,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "hlava",
+   "diagram": "obrys chobotnice: tečky neuronů, většina v ramenou; popisek ~500 MILLION NEURONS",
+   "note": "Podíl teček ramena/hlava z konstanty (2/3) s assert; tečky = podíl, ne počet."
+  },
+  {
+   "id": "S39",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Asterias rubens“: hvězdice shora, pět ramen, bez přední a zadní strany. POZOR: archive.py pak pod pickem 5 stáhl jiný snímek (pořadí Commons se mezi voláními změnilo) — „Asterias rubens 179263747“, prohlédnuto okem 2026-10-06, taky hvězdice shora s pěti rameny, ponecháno. Evidence je .orig + SHA-256.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Asterias rubens",
+    "pick": 5,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S40",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S40.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Physarum polycephalum“: žlutá síť plasmodia na kmeni — čte se jako síť.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Physarum polycephalum",
+    "pick": 1,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "hlava",
+   "diagram": "bludiště, dva body jídla u východů, žlutá trasa nejkratší cestou",
+   "note": "Schéma podle Nakagaki 2000."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "hlava",
+   "diagram": "schématická mapa: body měst kolem Tokia, žlutá síť hlenky vedle šedé železniční sítě",
+   "note": "Schéma, NE přesná mapa — malý popisek SCHEMATIC."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "hlava",
+   "diagram": "NO BRAIN · NO NEURONS, pod tím žlutá síť",
+   "note": "„surprisingly efficient routes\".",
+   "pause": 0.5
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "hlava",
+   "diagram": "páteř silueta; hlava čárkovaně; nápis ONE SOLUTION, NOT A RULE",
+   "note": "Čárkovaně = není nutné.",
+   "pause": 2.4
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "kolonie",
+   "diagram": "páteř silueta se rozpadne na mnoho malých teček",
+   "note": "Otázka bloku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S46",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S46.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Physalia physalis“: Physalia vyplavená na písku, měchýř i chapadla.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Physalia physalis",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "kolonie",
+   "diagram": "obrys měchýřovky rozdělený na části: FLOATING (měchýř), STINGING, EATING",
+   "note": "Části z jednoho obrysu."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "kolonie",
+   "diagram": "části od sebe čárkovaně (samy nepřežijí), pak spojené v jeden tvar",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "kolonie",
+   "diagram": "ONE? nebo MANY? nad obrysem",
+   "note": "Otevřená otázka, žádná odpověď v obraze."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "kolonie",
+   "diagram": "obrys měchýřovky a vedle páteř silueta rozpadlá na kolonii, otazník",
+   "note": "Konec bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "velikost",
+   "diagram": "malá páteř silueta vedle obřího měřítka",
+   "note": "Přechod. Dovětek kvůli schwě za „size“ (poslech draftu).",
+   "pause": 0.6,
+   "dovetek": "And that changes a great deal."
+  },
+  {
+   "id": "S52",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S52.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Pando aspen clone aerial“: letecký pohled s vyznačeným obrysem klonu — obrys sám říká „jeden organismus“.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Pando aspen clone aerial",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "velikost",
+   "diagram": "řez: kmeny nahoře, pod zemí jeden propojený kořenový systém ambrově",
+   "note": ""
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "velikost",
+   "diagram": "mnoho kmenů → jedna ikona DNA; ~47,000 TRUNKS / ONE GENETIC INDIVIDUAL",
+   "note": ""
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "velikost",
+   "diagram": "nápis PANDO, ~6,000 TONNES",
+   "note": ""
+  },
+  {
+   "id": "S56",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S56.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Pando Fishlake National Forest“: Pando zevnitř porostu, mezi kmeny (CC0).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Pando Fishlake National Forest",
+    "pick": 6,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "velikost",
+   "diagram": "dva čtverce: PANDO 0.43 km² a HONEY FUNGUS 9.65 km² ve správném poměru plochy",
+   "note": "Plochy z konstant s assert (poměr ~22×)."
+  },
+  {
+   "id": "S58",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Armillaria ostoyae“: trs plodnic Armillaria ostoyae na hrabance (public domain).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Armillaria ostoyae",
+    "pick": 7,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 2.2
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "velikost",
+   "diagram": "časová osa sekundy → roky",
+   "note": "Přechod.",
+   "pause": 0.6
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "velikost",
+   "diagram": "jepice (kresba) a stopky < 5 MIN",
+   "note": "Kresba, ne fotka — obecná jepice z Commons by tvrdila jiný druh."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "velikost",
+   "diagram": "čtyři ikonky v řadě FLY · MATE · LAY EGGS · DIE na krátké ose",
+   "note": ""
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "velikost",
+   "diagram": "hodiny s rozmazanou ručičkou; malá páteř silueta",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "velikost",
+   "diagram": "obří pomalá silueta; lidský život jako krátký záblesk na její ose",
+   "note": "Konec bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "planeta",
+   "diagram": "páteř silueta stojící na čáře povrchu; povrch čárkovaně zmizí",
+   "note": "Otázka bloku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S65",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S65.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06 pod dotazem „Jupiter Cassini true color“: Jupiter v pravých barvách, celý kotouč (NASA, public domain).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Jupiter Cassini true color",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S66",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S66.png",
+   "prompt": "enormous translucent living creatures shaped like jellyfish gas bags with trailing tendrils, floating high inside an endless sea of banded orange and cream clouds of a gas giant, clouds above and clouds below, no land, no water, no trees, no horizon, no baskets, no balloons, vast scale, soft light, no text",
+   "note": "SDXL: myšlenkový experiment Sagana a Salpetera, ne zobrazení skutečnosti. Kolo 1 (bez seedu) dalo horkovzdušné balóny s koši — čte se jako lidský stroj, ne tvor; prompt upraven na organické medúzovité vaky. Kolo 2 (seed 66091) dalo medúzovité tvory, ale nad jezerem a lesem — odporuje „there isn't one“ (žádná zem); kolo 3 žádá jen mraky nahoře i dole.",
+   "seed": 66092
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "planeta",
+   "diagram": "nápis THOUGHT EXPERIMENT, SAGAN & SALPETER, 1976",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "planeta",
+   "diagram": "páteř silueta na skále ztlumeně; nápis NOT SHOWN TO BE IMPOSSIBLE",
+   "note": "Konec bloku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "zaver",
+   "diagram": "prázdný rám s jedinou tečkou",
+   "note": "Přechod k největšímu problému.",
+   "pause": 0.8
+  },
+  {
+   "id": "S70",
+   "source": "sdxl",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "prompt": "a barren alien landscape of grey rocks, dust and low hills under a flat grey overcast sky, no sun, nothing moving, no plants, no creatures, no text",
+   "note": "SDXL krajina (počasí místo denní doby, ať je chladná). Rozděleno na S70/S70b/S70c po poslechu draftu: pauzy Dust→Hills a Hills→Nothing tts.py vynechal. Beaty jsou static, ať se zoom při každém střihu neresetuje.",
+   "pause": 0.6
+  },
+  {
+   "id": "S70b",
+   "source": "sdxl",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "prompt": "a barren alien landscape of grey rocks, dust and low hills under a flat grey overcast sky, no sun, nothing moving, no plants, no creatures, no text",
+   "note": "Beat „Hills.“ — táž krajina.",
+   "naveti": "Imagine landing on another world. You see rocks. Dust.",
+   "pause": 0.6
+  },
+  {
+   "id": "S70c",
+   "source": "sdxl",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "prompt": "a barren alien landscape of grey rocks, dust and low hills under a flat grey overcast sky, no sun, nothing moving, no plants, no creatures, no text",
+   "note": "Beat „Nothing moves.“ — táž krajina. Poslech draftu 2: Emma doříkává schwu za posledním slovem (af_heart OK). Návětí se nenašlo kde uříznout, proto místo něj ořez schwy — koncovka -s/-z není na seznamu rizikových (docs/hlas-pauzy-mereni.md), ořez slovo neukousne. Ořez schwy pojistka odmítla (−8/−10 dB, nejspíš kus slova) → obětovaná věta. Vyzkoušeny 4 znění × 2 tempa: řez v mezeře vyšel jen s „Well, that much is obvious to everyone.“ (S02b navíc speed 0.84).",
+   "dovetek": "Well, that much is obvious to everyone."
+  },
+  {
+   "id": "S71",
+   "source": "sdxl",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Táž krajina, static: „There's no life here.\"",
+   "prompt": "a barren alien landscape of grey rocks, dust and low hills under a flat grey overcast sky, no sun, nothing moving, no plants, no creatures, no text",
+   "pause": 0.8
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "zaver",
+   "diagram": "tři ikony vedle sebe: Pando (les = jeden), měchýřovka, hlenka",
+   "note": "Rekapitulace dokladů."
+  },
+  {
+   "id": "S73",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S70.png",
+   "note": "Táž krajina, pomalý nájezd.",
+   "prompt": "a barren alien landscape of grey rocks, dust and low hills under a flat grey overcast sky, no sun, nothing moving, no plants, no creatures, no text"
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "zaver",
+   "diagram": "obrys krajiny, přes ni tenká čárkovaná síť a časová osa 1,000 YEARS",
+   "note": "Čárkovaně = hypotéza."
+  },
+  {
+   "id": "S75",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S70.png",
+   "note": "Táž krajina, odjezd.",
+   "prompt": "a barren alien landscape of grey rocks, dust and low hills under a flat grey overcast sky, no sun, nothing moving, no plants, no creatures, no text",
+   "pause": 3.0
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "zaver",
+   "diagram": "páteř silueta s otazníkem",
+   "note": "Návrat k titulu.",
+   "pause": 0.8
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "zaver",
+   "diagram": "WE DON'T KNOW",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "zaver",
+   "diagram": "malá Země, kolem ní miniatury příkladů z videa",
+   "note": ""
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "zaver",
+   "diagram": "obsah v dolní polovině: HISTORY / GRAVITY / SUNLIGHT ztlumeně",
+   "note": "Horní polovina volná — začínají poslední scény (závěrečná obrazovka).",
+   "pause": 0.6
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "zaver",
+   "diagram": "páteř silueta v dolní polovině, vedle ní řada obrysů, jak se mění",
+   "note": "Výplata páteře: „start with a human and change the shape\". Horní polovina volná."
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "zaver",
+   "diagram": "dolní polovina: obrys siluety čárkovaně",
+   "note": "Horní polovina volná."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "diagram_generator": "zaver",
+   "diagram": "dolní polovina: obrys krajiny z S70 bez siluety, malý nápis WOULD WE RECOGNISE ONE?",
+   "note": "Poslední scéna, klidná, horní polovina volná.",
+   "pause": 2.0
+  }
+ ]
+}

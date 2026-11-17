@@ -1,0 +1,693 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "ZADNA OBRAZOVKA. Pokoj je tmavy lampou, ne monitorem — jinak si scena vezme pointu S75.",
+      "prompt": "a tired person stepping into a dim flat in the evening, coat still on, seen from behind, the room lit only by a weak hallway lamp, no screens anywhere, painterly, figure small in the frame"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "ZACATEK ZAVORKY. Tentyz kod jako S75, lisi se jediny prepinac. Proto svg a ne sdxl — SDXL tentyz pokoj podruhe nenakresli.",
+      "diagram_generator": "pokoj",
+      "diagram": "POKOJ, svetlo ZAPNUTE: stul, monitor, sedici postava zezadu; zare monitoru je jediny zdroj svetla"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Zavadi slovnik mericek. Vraci se v S46, kde k nim pribydou alternativy.",
+      "diagram_generator": "vecer",
+      "diagram": "dve merice USILI vedle sebe: SOMETHING NEW vysoko, THE GAME YOU KNOW skoro na nule"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Zavadi checklist. Zadne UI konkretni hry — obecne tvary.",
+      "diagram_generator": "vecer",
+      "diagram": "seznam s odskrtavacimi ctverecky: DAILY QUESTS / COLLECTING REWARDS / LEVELLING / UPGRADING"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Prvni vyskyt pruhu. 'moving progress bars' je pointa vety, tak at jsou videt.",
+      "diagram_generator": "vecer",
+      "diagram": "seznam pokracuje FARMING / ACHIEVEMENTS, pod nim se radi tri pruhy postupu"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Vtip sceny je jeji vlastni. Prazdny ctverecek nesmi byt skrtnuty ani zaskrtnuty.",
+      "diagram_generator": "vecer",
+      "diagram": "vsechny ctverecky odskrtnute, uplne dole jeden PRAZDNY se stitkem FUN?"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Ne opakovat FUN? z S06 — tady jde o to, cim se vecer vyplnil.",
+      "diagram_generator": "vecer",
+      "diagram": "vecer jako jeden dlouhy pruh rozdeleny na ukoly; cast oznacena DIDN'T REALLY WANT TO"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Ctyri duvody, ne ctyri ukoly. Vsechny miri na jeden objekt.",
+      "diagram_generator": "vecer",
+      "diagram": "ctyri stitky pripnute k temuz ukolu: THEY WERE THERE / UNFINISHED / PART OF YOUR ROUTINE / YOU'D LOSE SOMETHING"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Teze videa. Text nese cely obraz, nic jineho v zaberu.",
+      "diagram_generator": "vecer",
+      "diagram": "velka otazka pres cele platno: WHY DO WE KEEP PLAYING WHEN WE'RE NO LONGER ENJOYING IT?",
+      "pause": 2.6
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Tvar, ktery S11 zopakuje. Musi byt jednoduchy, aby snesl druhe cteni.",
+      "diagram_generator": "konec",
+      "diagram": "primka START -> END s vlajkou na konci, postava na ceste"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "TYZ tvar jako S10, zmenila se jen pozice postavy. Stejny princip jako S30.",
+      "diagram_generator": "konec",
+      "diagram": "TATAZ primka, postava stoji az u vlajky, stitek I'M DONE"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Kontrast k S10. Konec nesmi byt videt ani naznakem.",
+      "diagram_generator": "konec",
+      "diagram": "primka bez konce, mizi z platna; po ceste odbocuji desitky kratkych cilu"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Vsech devet od prvniho snimku — nenajizdet. Vycet se zaroven rika nahlas kvuli titulkum.",
+      "diagram_generator": "konec",
+      "diagram": "devet stitku pod sebou: LEVELS GEAR COLLECTIONS ACHIEVEMENTS SKILLS REPUTATION RANKS QUESTS SEASONAL REWARDS"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "'You never really reach the end.' Konec bloku.",
+      "diagram_generator": "konec",
+      "diagram": "splneny cil zhasina, hned za nim se rozsveci dalsi, a za nim dalsi; konec cesty mimo platno",
+      "pause": 2.4
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Scena je pochvala, ne varovani. Barva at je ta tepla.",
+      "diagram_generator": "progres",
+      "diagram": "stoupajici krivka od nuly, teple, stitek PROGRESS"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Vraci se v S65 jako ustupek pred obratem. Proto uz tady musi mit popisky.",
+      "diagram_generator": "progres",
+      "diagram": "tri odskrtnute momenty: NEW ABILITY / COLLECTION COMPLETE / BOSS DEFEATED"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Obrat celeho videa. Cinnost je tataz, meni se duvod.",
+      "diagram_generator": "progres",
+      "diagram": "dva stitky u teze cinnosti, prvni ztlumeny: BECAUSE I ENJOY IT -> BECAUSE IT'S UNFINISHED",
+      "pause": 2.4
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Ustredni objekt videa. Vraci se v S56 jako vedome nedokonceny.",
+      "diagram_generator": "bar",
+      "diagram": "velky pruh postupu zaplneny na SEVENTY-THREE PER CENT"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Tyz pruh jako S18, jen se prehodilo, co sviti. Nekreslit novy.",
+      "diagram_generator": "bar",
+      "diagram": "TYZ pruh, ale rozsvicena je PRAZDNA cast se stitkem TWENTY-SEVEN PER CENT MISSING"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Cisla jsou ilustrace, ne udaj o hre (viz factcheck.md).",
+      "diagram_generator": "bar",
+      "diagram": "pruh ve ctyrech stavech pod sebou: 73, 82, 94, 100 — posledni se stitkem DONE"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Prechod z odmeny do nekonecna. Druhy pruh jeste nemusi mit cislo.",
+      "diagram_generator": "bar",
+      "diagram": "zaplneny pruh, a hned pod nim se objevuje dalsi"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "'Empty. And behind it, more.' Beat, dlouha pauza.",
+      "diagram_generator": "bar",
+      "diagram": "prazdny pruh v popredi, za nim v hloubce dalsi a dalsi",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Vraci se v S62 jako preskrtnute. Proto stejne rozlozeni.",
+      "diagram_generator": "tahy",
+      "diagram": "ctyri stitky odmen: EXPERIENCE POINTS / LOOT / VIRTUAL CURRENCY / COSMETICS"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Zavadi slovnik TAHU. Sila tahu = tloustka sipky.",
+      "diagram_generator": "tahy",
+      "diagram": "postava, k ni vede jedna silna sipka REWARD; vedle ni tenka, tlumena sipka bez popisku"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Nedokoncenost dostava tvar. Sipka zustava tenka — je to slaby tah.",
+      "diagram_generator": "tahy",
+      "diagram": "tri napul vyplnene tvary: TASK AT WORK / UNREAD MESSAGE / HALF-FINISHED PROJECT, k nim tenka sipka"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "'On its own, that pull is fairly weak.' Scenar to rika nahlas, obraz to musi ukazat.",
+      "diagram_generator": "tahy",
+      "diagram": "napul precetena kniha odlozena, tenka kratka sipka, ktera nedosahne k postave"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "KLICOVA SCENA. Pet bodu druhe poloviny se na tenhle diagram odkazuje jeden po druhem (viz notes.md).",
+      "diagram_generator": "tahy",
+      "diagram": "PATERNI DIAGRAM: nedokoncena vec, a vedle ni REWARD, DEADLINE, ROUTINE — ctyri sipky slozene do jedne silne; pod nimi cislo",
+      "pause": 2.6
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Spojuje S27 s pruhem z S18. 'It doesn't have to tell you: keep playing.'",
+      "diagram_generator": "tahy",
+      "diagram": "pruh se stitkem EIGHTY-SEVEN PER CENT, k nemu silna slozena sipka z S27"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tentyz princip prehozeneho stitku jako S17.",
+      "diagram_generator": "udrzba",
+      "diagram": "dve otazky pod sebou, prvni ztlumena: WHAT DO I WANT TO DO TONIGHT? -> WHAT AM I SUPPOSED TO DO TONIGHT?"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "KLICOVA SCENA (oznacil uzivatel). Kruh se NESMI lisit — meni se jen pozice postavy a existence vychodu. Oba panely od prvniho snimku, nenajizdet.",
+      "diagram_generator": "udrzba",
+      "diagram": "dva panely, V OBOU TYZ kruh ukolu. PLAYING: postava uvnitr, sipka ven k cili. MAINTAINING: postava venku, ruka na obvodu, zadny vychod",
+      "pause": 2.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Az tady prijde seznam. Kdyby byl uz v S30, sebral by ji obsah.",
+      "diagram_generator": "udrzba",
+      "diagram": "k obvodu kruhu z praveho panelu pripnute ukoly DAILIES / META / CHARACTER / RESOURCES"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Zadny novy tvar. Dusledek S30, ne nova metafora.",
+      "diagram_generator": "udrzba",
+      "diagram": "pravy panel z S30 SAM na platne, postava venku ho porad otaci",
+      "pause": 2.2
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Prvni z dvou mluvenych nadpisu (viz notes.md).",
+      "diagram_generator": "past",
+      "diagram": "stitek v uvozovkach BUT I WANT TO FINISH EVERYTHING, pod nim skrt a slovo TRAP"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Sada roste smerem ven z platna.",
+      "diagram_generator": "past",
+      "diagram": "uzavrena sada vsech polozek, a k ni pribyva dalsi rada: NEW ITEMS / ACHIEVEMENTS / LEVELS / SYSTEMS / REWARDS"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Nesplnitelny ukol jako pohyb, ne jako text. Konec diagnozy.",
+      "diagram_generator": "past",
+      "diagram": "postava se blizi ke znacce 100 %, ktera pred ni ustupuje",
+      "pause": 2.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Skrt pres NAPIS musi byt cara, ne krizek (CLAUDE.md).",
+      "diagram_generator": "vule",
+      "diagram": "stitek JUST USE MORE SELF-CONTROL prekryty vodorovnym skrtem"
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S37.png",
+      "note": "Atmosfericka pauza uprostred vykladu. PRVNI POKUS SELHAL: model nakreslil prazdne kreslo bez cloveka a skoro se kryl s S49. Scena musi nest UNAVU, tedy postavu. Zadna obrazovka, aby to nekolidovalo se zavorkou S02/S75.",
+      "prompt": "a tired person sitting slumped forward at a kitchen table in a dim flat at night, head low, elbows on the table, seen from behind and slightly to the side, one weak ceiling lamp, painterly, no screen anywhere, face not visible"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Nejsou to tahy z S27 — jsou to podminky vecera. Jinak barevne odliseno.",
+      "diagram_generator": "vule",
+      "diagram": "tri slozky vedle sebe: LOW ENERGY / A FAMILIAR HABIT / AN IMMEDIATE REWARD"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Pomer velikosti nese vetu. Beat.",
+      "diagram_generator": "vule",
+      "diagram": "maly stitek I'M NOT GOING TO PLAY TONIGHT proti trem velkym slozkam z S38"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Prechod do prakticke poloviny.",
+      "diagram_generator": "vule",
+      "diagram": "sipka miri od postavy k PROSTREDI, ne k postave; stitek CHANGE THE ENVIRONMENT",
+      "pause": 2.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Dulezity je zacatek osy, ne prubeh.",
+      "diagram_generator": "start",
+      "diagram": "casova osa veceru; oznaceny NENI bod ve dvou hodinach hrani, ale bod rozhodnuti hned na zacatku"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Sipky z originalu scenare; mluvi se jako vycet, kresli se jako retez.",
+      "diagram_generator": "start",
+      "diagram": "retez sipek COME HOME -> SIT AT THE COMPUTER -> LAUNCH THE GAME"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Tyz retez jako S42, jen prestrizeny. Nekreslit novy.",
+      "diagram_generator": "start",
+      "diagram": "tyz retez, prerusen; u prerusenych clanku REMOVE THE SHORTCUT / TURN OFF NOTIFICATIONS / LOG OUT"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "'Don't let the game constantly remind you.'",
+      "diagram_generator": "start",
+      "diagram": "zhasnute upozorneni; stitek SOMETHING IS WAITING FOR YOU ztlumeny"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "'Not one alternative. Several.' Pocet je pointa.",
+      "diagram_generator": "start",
+      "diagram": "nekolik alternativ vedle sebe, ne jedna: A GAME YOU'VE PLAYED / A SHORT GAME / A BOOK / A MOVIE"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "CALLBACK na S03. 'isn't the only effortless option' — o to jde, ne o novy konicek.",
+      "diagram_generator": "start",
+      "diagram": "mericka USILI z S03, ted s nekolika nizkymi sloupci vedle THE GAME YOU KNOW",
+      "pause": 2.2
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Odstraneni, ne zakaz. Tyz retez potreti.",
+      "diagram_generator": "experiment",
+      "diagram": "hra vyjmuta z rutiny — v retezu z S42 zeje prazdne misto"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Prerámovani, ktere si vyzadal uzivatel. Slovo EXPERIMENT musi byt to nejvic videt.",
+      "diagram_generator": "experiment",
+      "diagram": "tri preskrtnute stitky NOT A PUNISHMENT / NOT A PERMANENT DECISION, vedle rozsviceny JUST AN EXPERIMENT; pod tim TWO WEEKS"
+    },
+    {
+      "id": "S49",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S49.png",
+      "note": "'The first few days may feel strange.' Prazdne misto po rutine, ne smutek.",
+      "prompt": "an empty armchair in a quiet living room in the evening, a book left face down on the arm, warm lamp, no screen, painterly, calm and slightly unfamiliar"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Payoff experimentu. Uzivatel: otazka se nesmi ohlasit driv, tady se doruci.",
+      "diagram_generator": "experiment",
+      "diagram": "dve otazky, druha rozsvicena: DO I MISS THE GAME? / DO I MISS THE ROUTINE?",
+      "pause": 2.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Naléhavost jako cas, ne jako text. Zadny konkretni titul.",
+      "diagram_generator": "fomo",
+      "diagram": "ctyri odpocty bezici k nule, vsechny naraz"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Rozepsani S51. Popisky nesou vyznam, cisla ne.",
+      "diagram_generator": "fomo",
+      "diagram": "ctyri stitky s odpocty: A REWARD EXPIRES / AN EVENT ENDS / A SEASON IS ALMOST OVER / A DAILY BONUS IS WAITING"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Zavadi vahy, ktere S54 doplni.",
+      "diagram_generator": "fomo",
+      "diagram": "tyz ctyri veci polozene na misku vah, druha miska prazdna; stitek WHAT EXACTLY AM I GOING TO LOSE?"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "TYTEZ vahy jako S53. Zmenila se jen jedna miska.",
+      "diagram_generator": "fomo",
+      "diagram": "tytez vahy, do prazdne misky prijde jediny stitek TIME — a prevazi"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "'The real cost is outside the game.'",
+      "diagram_generator": "fomo",
+      "diagram": "hranice hry: uvnitr utracene penize a cas, vne stitek WHAT YOU DON'T SPEND YOUR TIME ON",
+      "pause": 2.4
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "CALLBACK na S18 — tyz pruh, ted vedome opusteny. Druhy mluveny nadpis.",
+      "diagram_generator": "nedokonceno",
+      "diagram": "pruh z S18 na sedmdesati trech procentech, vedle nej ruka, ktera odchazi; stitek LEARN TO LEAVE THINGS UNFINISHED"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Vycet se rika nahlas kvuli titulkum, i kdyz je na platne.",
+      "diagram_generator": "nedokonceno",
+      "diagram": "tri nedokoncene veci vedle sebe: ACHIEVEMENT / COLLECTION / QUEST, pres vsemi LOG OUT"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Uzivatel: tahle scena je silnejsi BEZ psychologicke nalepky. Zadny vyklad v obraze.",
+      "diagram_generator": "nedokonceno",
+      "diagram": "svet bezi dal: postava pryc, nedokoncena vec presne tak, jak byla; stitek PROBABLY NOTHING"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Opakovani jako mechanismus. Ne 'the only way' — jedna z cest (viz factcheck.md).",
+      "diagram_generator": "nedokonceno",
+      "diagram": "tataz nepohoda nekolikrat za sebou, pokazde slabsi"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "'You just have to prove to yourself that you can walk away.' Vaze se na S30.",
+      "diagram_generator": "nedokonceno",
+      "diagram": "postava odchazi od kruhu z S30, kruh se toci dal a nic se nedeje",
+      "pause": 2.4
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Payoff celeho videa v jedne otazce.",
+      "diagram_generator": "otazka",
+      "diagram": "otazka pres platno: IF THERE WERE NO PROGRESS FOR THIS, WOULD I STILL WANT TO DO IT?"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "CALLBACK na S23. Stejne rozlozeni, jen zhasnute.",
+      "diagram_generator": "otazka",
+      "diagram": "stitky odmen z S23, vsechny ztlumene a preskrtnute; zbyde prazdne misto"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Rozvetveni, ne zebricek. Zadna z vetvi neni obvineni.",
+      "diagram_generator": "otazka",
+      "diagram": "rozvetveni: YES -> YOU'RE PLAYING, NO -> YOU'RE JUST COMPLETING",
+      "pause": 2.6
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Coda zacina odvolanim, ne shrnutim.",
+      "diagram_generator": "coda",
+      "diagram": "dva stitky, oba preskrtnute: GAMES ARE BAD / PROGRESS IS BAD"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "CALLBACK na S16. Uzivatel rozhodl scenu PONECHAT: je to ustupek, ktery dela obrat ferovym.",
+      "diagram_generator": "coda",
+      "diagram": "tri odskrtnute momenty z S16, znovu a teple: COLLECTING / GETTING BETTER / DIFFICULT GOALS"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Cara mezi nimi je pointa. Prvni neni chyba.",
+      "diagram_generator": "coda",
+      "diagram": "dva stitky pod sebou, druhy rozsviceny: I WANT TO FINISH SOMETHING / I CAN'T STOP EVEN THOUGH I DON'T WANT TO CONTINUE"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "'That's the line worth paying attention to.'",
+      "diagram_generator": "coda",
+      "diagram": "tenka cara mezi obema stitky z S66, na ni stitek THE LINE",
+      "pause": 2.2
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "PREVEDENO ZE SDXL NA DIAGRAM. Model dostal 'wander around, no destination' a nakreslil cestu s ubeznikem, tedy pravy opak; kotva stylu je nocni interier, takze venkovni zaber proti ni prohrava (tataz past jako S36 ctvrteho videa). Diagram to navic umi lip: dokonci slovnik CAR z S10 a S12.",
+      "diagram_generator": "coda",
+      "diagram": "treti cteni teze cary: S10 mela cil, S12 nemela konec, tahle se MOTA bez cile i bez konce; vedle sebe vsechny tri se stitky TOWARDS A GOAL / A DIFFICULT ACHIEVEMENT / SOMEWHERE POINTLESS"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Pointu 'No reward.' si nechava az tato scena (viz notes.md).",
+      "diagram_generator": "coda",
+      "diagram": "tri preskrtnute stitky NO PROGRESS / NO OPTIMISATION / NO REWARD, pod nimi rozsvicene JUST BECAUSE IT'S FUN"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Prvni scena, kde zmizi cela vybava videa. Priprava na S74.",
+      "diagram_generator": "coda",
+      "diagram": "hraci plocha bez jedineho pruhu, cisla ani ctverecku; stitek WITHOUT HAVING TO ACCOMPLISH ANYTHING",
+      "pause": 2.4
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Zrcadlo k S03 — tam 'you don't have to' svadelo, tady osvobozuje. Nerozbit.",
+      "diagram_generator": "zaver",
+      "diagram": "tri ztlumene povinnosti: ONE HUNDRED PER CENT / COLLECT EVERYTHING / EVERY REWARD, pred kazdou YOU DON'T HAVE TO"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Pokracovani S71, tytez tvary.",
+      "diagram_generator": "zaver",
+      "diagram": "tri dalsi ztlumene povinnosti: EVERY QUEST / EVERY UPDATE / EVERY DAY"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Pomer, ne zakaz.",
+      "diagram_generator": "zaver",
+      "diagram": "mala teple oznacena cast proti celemu volnemu casu; stitky SOMETHING VALUABLE / ALL OF YOUR FREE TIME"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "KLICOVA SCENA (oznacil uzivatel). Argumentem je prazdnota. MUSI ZUSTAT SVETLA — kdyby uz byla tmava, S75 nema kam jit.",
+      "diagram_generator": "zaver",
+      "diagram": "vlevo otazka WHAT IS LEFT TO COMPLETE? obklopena pruhy, procenty a ctverecky z celeho videa; vpravo WHAT DO I ACTUALLY WANT TO DO? uplne SAMA na prazdne, ale ROZSVICENE plose",
+      "pause": 2.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "KONEC ZAVORKY. Tentyz generator i souradnice jako S02, lisi se jediny prepinac.",
+      "diagram_generator": "pokoj",
+      "diagram": "POKOJ z S02, TYZ zaber, svetlo VYPNUTE: zare monitoru zhasla, zustava obrys pokoje"
+    }
+  ]
+}

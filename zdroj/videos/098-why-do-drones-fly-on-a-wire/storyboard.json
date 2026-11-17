@@ -1,0 +1,752 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "fiber-optic drone",
+        "pick": 0
+      },
+      "note": "Skutečná fotka místo rozjezdu: FPV dron v letu nízko nad polem, pod ním kanystr s cívkou a z něj visí vlákno — myšlenka videa je v obraze dřív, než ji hlas řekne. ArmyInform, CC BY 4.0 (UA fiber-optic FPV drone 02). PICK 0 ZKONTROLOVÁN NA KONTAKTNÍM LISTU 2026-10-08 pod tímto dotazem; po stažení ověřit ořez 3:2 → 16:9 (vlákno pod kanystrem nesmí odříznout).",
+      "pause": 0.6
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `krajina()`: zem, vlevo pilot, vpravo dron nízko nad zemí s cívkou; od cívky ambrové vlákno dolů k zemi a po zemi až k pilotovi",
+      "note": "Zavedení páteře (S02–S05, S10–S12, S14, S16–S17, S21, S23, S37, S39, S41, S47, S54, S61, S63–S64, S72–S74). Ambrová = VLÁKNO, nic jiného (konvence 1).",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "mikroskopické srovnání: dva KRÁTKÉ válcové segmenty vedle sebe ve STEJNÉM měřítku, každý s oválným příčným řezem na čele (vlákno: sklo uvnitř, obal kolem; struna: plný kov). Vlevo FIBRE 0.26 MM (ambrově), vpravo THINNEST GUITAR STRING 0.25 MM (INK); mezi nimi ≈. Nad oběma společná kóta tloušťky, aby bylo vidět, že jsou stejně tlusté.",
+      "note": "Pointa „stejně tenké“ musí být vidět bez čtení čísel: dva stejně tlusté válečky vedle sebe, ne dvě čáry. Čísla z factchecku (Ptashka G.657.A2 0,26 mm; struna E .010″ = 0,254 mm). Průměry v obraze se počítají z mm jedním měřítkem a assert hlídá poměr ±5 %. Uživatel 2026-10-08.",
+      "pause": 0.5
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `krajina()` bez detailu; pod zemí pravítko 0 — 20 KM (plně) a čárkované prodloužení do 40 KM",
+      "note": "Plně = běžné, čárkovaně = „some are now“ (konvence 3: čárkovaně = méně jisté/ne všechny). 40 km je deklarace ministra, ne měření.",
+      "pause": 1.0
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `krajina()`; mezi pilotem a dronem ve vzduchu čárkované rádiové oblouky přeškrtnuté (NO RADIO), vlákno ambrově se štítkem GLASS",
+      "note": "Modrošedá = RÁDIO (konvence 2). Škrt přes oblouky, ne přes nápis.",
+      "pause": 1.0
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "horní polovina oblohy plná modrošedých bezdrátových značek (satelit, wifi oblouky, vysílače); dole páteř se svým jediným ambrovým vláknem; otazník nad dronem",
+      "note": "Kontrast „wireless everything“ × jeden drát. Otázka videa.",
+      "pause": 1.8
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "ruseni",
+      "diagram": "velké počítadlo s maskovanými číslicemi ??,??? / MONTH, čárkovaný rámeček",
+      "note": "Beat: S07 a S08 mají totéž rozvržení, v S08 se číslice odkryjí.",
+      "pause": 0.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "ruseni",
+      "diagram": "totéž počítadlo: ~10,000 DRONES A MONTH; pod tím menším písmem UKRAINE · RUSI ESTIMATE, 2023",
+      "note": "RUSI Meatgrinder s. iii. Tilda = odhad. Žádné ikony dronů v počtu (tvrdily by přesnost).",
+      "pause": 0.5
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "ruseni",
+      "diagram": "dvě karty vedle sebe: GUNS (ztlumeně) a JAMMING (modrošedě, rámeček plný); bez sloupců a procent",
+      "note": "RUSI říká jen „contributing“ — proto žádný poměr ani velikost, jen co je řeč (factcheck S09).",
+      "pause": 1.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "ruseni",
+      "diagram": "PÁTEŘ `krajina()` BEZ vlákna: pilot s ovladačem, dron ve vzduchu; dvě modrošedé šipky-vlnovky: VIDEO od dronu k pilotovi, COMMANDS od pilota k dronu",
+      "note": "Šipky míří podle podmětu: video jde BACK k pilotovi, povely FORWARD k dronu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "ruseni",
+      "diagram": "jako S10; vpravo dole rušička (stožár) a z ní mohutné modrošedé šrafované vlny přes celou oblohu, které přehluší obě šipky (ty ztlumené)",
+      "note": "Rušička nic „nehackuje“ — žádný zámek ani kód v obraze, jen hluk na stejném pásmu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "ruseni",
+      "diagram": "dron se ztlumeným pilotem; z pozice dronu tři čárkované dráhy: DRIFTS (do strany), LANDS (dolů na zem), FALLS (strmý pád)",
+      "note": "Betaflight failsafe — tři možnosti, čárkovaně, protože nevíme, která nastane.",
+      "pause": 1.0
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "ruseni",
+      "diagram": "frekvenční pás (vodorovná osa FREQUENCY): tři řádky pod sebou = tři kola; v každém kanál dronu (INK) a pás rušení (modrošedý) — rušení vždy dožene kanál",
+      "note": "Kočka a myš. Bez čísel frekvencí (taktický detail — notes: princip, ne použití).",
+      "pause": 1.0
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "ruseni",
+      "diagram": "PÁTEŘ `krajina()` BEZ vlákna, dron a pilot; celý vzduch mezi nimi čárkovaně přeškrtnutý jedním škrtem; otazník",
+      "note": "„didn't use the air at all“ — hypotéza, proto čárkovaně.",
+      "pause": 1.6
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "vlakno",
+      "diagram": "podélný řez vláknem přes celou šířku: skleněné jádro, ambrové světelné pulzy klikatě odrážené od stěn; štítky GLASS a LIGHT",
+      "note": "Totální odraz jako popularizační zjednodušení (factcheck S15). Světlo ambrově = patří k vláknu.",
+      "pause": 0.8
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "vlakno",
+      "diagram": "PÁTEŘ `krajina()`; nad vláknem dvě ambrové šipky po jeho délce: COMMANDS → k dronu, ← VIDEO k pilotovi",
+      "note": "Rým s S10: tytéž dva signály, tytéž směry, ale v jednom vlákně místo ve vzduchu.",
+      "pause": 0.8
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "vlakno",
+      "diagram": "PÁTEŘ `krajina()`; rušička z S11 na stejném místě, celá obloha šrafovaná modrošedým hlukem — ale vlákno a dron jasné, hluk vlákno nepřekrývá",
+      "note": "Výplata S11: stejný hluk, nic se nezměnilo kromě drátu.",
+      "pause": 2.2
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "vlakno",
+      "diagram": "PÁTEŘ `krajina()` ztlumeně; nad vláknem otazník",
+      "pause": 0.5
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "vlakno",
+      "diagram": "naivní představa ČÁRKOVANĚ: dron táhne za sebou po zemi dlouhý kabel (šipka tahu dozadu), štítky 20 KM a A FEW KG",
+      "note": "Čárkovaně = to, co si divák představí, ne skutečnost (konvence 3).",
+      "pause": 1.0
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "vlakno",
+      "diagram": "totéž jako S19, šipka tahu přeškrtnutá",
+      "note": "Škrt přes šipku, ne přes nápis.",
+      "pause": 0.6,
+      "dovetek": "That is how it works.",
+      "naveti": "There's just one part that sounds impossible."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "vlakno",
+      "diagram": "PÁTEŘ `krajina()` se zvětšeným výřezem cívky na dronu: vlákno se z ní odvíjí; položená část na zemi se štítkem LIES STILL; dron se štítkem SPOOL RIDES HERE",
+      "note": "Funkční nákres: cívka je NA dronu, vlákno nikde neklouže po zemi. Ověřit, že nákres neukazuje cívku u pilota jako jedinou.",
+      "pause": 0.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "vlakno",
+      "diagram": "vlevo pavouk spouštějící se na vlákně z větve, vpravo dron s vláknem — oba rovnoběžně, tentýž tvar; štítek LAYS IT DOWN",
+      "note": "Zavádí pavoučí vlákno pro rým v S65 (pavučina).",
+      "pause": 0.8
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "vlakno",
+      "diagram": "PÁTEŘ `krajina()` celá, klidná: vlákno od pilota k dronu bez přerušení",
+      "note": "Statická, aby na ni mohla navázat CTA S23b (dědí obraz).",
+      "pause": 0.8
+    },
+    {
+      "id": "S23b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "cta": true,
+      "note": "CTA podle docs/cta.md: dědí obraz S23, static. Za první porcí výplat (číslo, mechanismus, „neví se, jak to přežije“ zodpovězeno), před historií.",
+      "pause": 2.4
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "historie",
+      "diagram": "časová osa přes šířku obrazu 1970 — 1980s — 2025, zatím prázdná, čárky roků",
+      "note": "Osa = registr, stejné souřadnice S24–S28, S33.",
+      "pause": 0.5
+    },
+    {
+      "id": "S25",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S25.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "TOW missile launch wire",
+        "pick": 0
+      },
+      "note": "Skutečná střela TOW v letu po výstřelu z vozidla, US Army, public domain. Konkrétní objekt se jménem → archiv. Rozepsaná zkratka (Wire-guided) je ve voiceoveru; obraz dokládá, že to existuje. PICK 0 ZKONTROLOVÁN NA KONTAKTNÍM LISTU 2026-10-08 pod tímto dotazem (Humvee, střela s kouřem vlevo).",
+      "pause": 0.8
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "historie",
+      "diagram": "osa ztlumeně nahoře; obrys střely z boku s kamerou v nose (ambrový čočkový kroužek? NE — kamera INK) a za ní ambrové vlákno; štítky CAMERA a FIBRE; rok 1980s zvýrazněn",
+      "note": "FOG-M: vlákno místo drátu, kamera v nose (GAO, designation-systems). Vlákno ambrově i tady.",
+      "pause": 0.5
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "historie",
+      "diagram": "řez krajinou: vlevo operátor za kopcem s obrazovkou, vpravo za kopcem cíl (obdélník), nad kopcem oblouk dráhy střely; po ní zpět k operátorovi ambrové vlákno; na obrazovce malý obrys cíle",
+      "note": "Factcheck S27: operátor cíl VIDĚL, kamerou. Proto cíl na obrazovce — ne „naslepo“. Šipka obrazu jde od střely k operátorovi.",
+      "pause": 1.0
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "historie",
+      "diagram": "osa; nad úsekem 1980s–1990s tři razítka za sebou: CANCELLED (1991), REVIVED (1992), CANCELLED (2002); pod nimi TOO EXPENSIVE",
+      "note": "Roky z GAO: terminace 1/1991, EFOGM 1992, ukončení financování 6/2002. „Mostly“ — proto podtitul bez vykřičníku.",
+      "pause": 1.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "cena",
+      "diagram": "dvě cenovky vedle sebe, prázdné, s otazníky: FIBRE a DRONE",
+      "pause": 0.5
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "cena",
+      "diagram": "cívka ambrového vlákna a nápis HUNDREDS OF MILLIONS OF KM / YEAR; menším TELECOM INDUSTRY",
+      "note": "CRU 557 mil. fibre-km (2024). Bez obrázku Země/Slunce — srovnání ve scénáři není.",
+      "pause": 0.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "cena",
+      "diagram": "závodní dron (stejná kresba jako páteř) a cenovka A FEW HUNDRED $",
+      "pause": 0.5
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "cena",
+      "diagram": "rovnice: cívka + dron = jednorázový let (ONE FLIGHT); vedle ztlumeně střela s nápisem TOO EXPENSIVE",
+      "note": "„too expensive for a missile programme“ × „cheap enough to throw away“.",
+      "pause": 1.2
+    },
+    {
+      "id": "S33",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S33.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "fiber-optic drone",
+        "pick": 2
+      },
+      "note": "Ukrajinský FPV dron s kanystrem vlákna v rukou vojáka, ArmyInform CC BY 4.0 (UA fiber-optic FPV drone 01). Konec historie: ze střely z 80. let je kus vybavení, které se drží v ruce. Tvář není v záběru. PICK 2 ZKONTROLOVÁN NA KONTAKTNÍM LISTU 2026-10-08.",
+      "pause": 2.4
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "vyhody",
+      "diagram": "seznam výhod: 1 UNJAMMABLE s fajfkou, řádky 2 a 3 čárkovaně prázdné",
+      "note": "Registr: tentýž seznam v S34 a S40.",
+      "pause": 0.8
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "vyhody",
+      "diagram": "pilot a dron (páteř, bez vlákna); z OBOU vycházejí modrošedé vlny do okolí (TRANSMITTING)",
+      "pause": 0.5
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "vyhody",
+      "diagram": "tentýž výjev ztlumeně; tři jednoduché čárkované směrové linie z okrajů obrazu (bez přijímačů jako techniky, jen malé tečky), které se ilustrativně sbíhají u pilota",
+      "note": "„traced back to where it came from“ — ilustrace, ne triangulace jako systém: žádné antény, úhly, mřížka ani přesný průsečík s kroužkem. Linie vedou ke zdroji (pilot). Uživatel 2026-10-08.",
+      "pause": 0.8
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "vyhody",
+      "diagram": "PÁTEŘ `krajina()` s vláknem; tytéž tři tečky na okrajích, ale linie z nich nevedou nikam (krátké čárkované pahýly) a nad pilotem nic nevysílá; štítek SILENT u pilota",
+      "note": "Rým s S36 na týchž souřadnicích.",
+      "pause": 0.8
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "vyhody",
+      "diagram": "tři překážky vedle sebe: kopec, les, betonová zeď; přes každou modrošedá vlna, která za ní slábne (ztlumená)",
+      "pause": 0.5
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "vyhody",
+      "diagram": "PÁTEŘ `krajina()` upravená: vlákno vede přes kopec a vchází do budovy, dron uvnitř budovy (výřez)",
+      "note": "Vlákno kopíruje terén — jde, kam dron.",
+      "pause": 1.0
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "vyhody",
+      "diagram": "seznam z S34 hotový: UNJAMMABLE, SILENT, WORKS BEHIND HILLS AND INSIDE BUILDINGS — tři fajfky",
+      "pause": 2.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "vyhody",
+      "diagram": "PÁTEŘ `krajina()` ztlumeně; přes ni velký nápis SO WHY ISN'T EVERY DRONE ON A WIRE?",
+      "note": "Hlavní obrat videa ~4:00; dlouhá pauza.",
+      "pause": 2.8
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "seznam nevýhod: 1 WEIGHT (INK), dál prázdné čárkované řádky 2–4",
+      "note": "Registr: týž seznam v S42, S46, S49, S53. Bez ambrové — ta patří vláknu.",
+      "pause": 0.5,
+      "orez_schwy": true
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "vlákno (ambrově) s dvěma štítky nad ním: DATA ✓ a POWER ✗; u dronu baterie se štítkem OWN BATTERY",
+      "note": "Funkční: vlákno nevede proud, baterie je v dronu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "cívka zvětšeně pod dronem; štítek 10 KM ≈ 1 KG",
+      "note": "Factcheck S44: 0,95–1,1 kg vč. modulu; assert na text.",
+      "pause": 0.8
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "dron s cívkou; vedle čárkovaný obrys nákladu, který se nevejde (NOT CARRIED); zleva šipky větru a dron mírně nakloněný: SLUGGISH, PUSHED BY WIND",
+      "note": "Bez sloupcového rozpočtu hmotnosti — poměr nemáme doložený.",
+      "pause": 1.6
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "seznam: 1 WEIGHT ztlumeně, 2 LENGTH (INK)",
+      "pause": 0.5
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "PÁTEŘ `krajina()`: vlákno celé vymotané, cívka prázdná; za dronem svislá čárkovaná čára END OF LEASH",
+      "pause": 0.5
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "cívka se šipkou navíjení (zpět) přeškrtnutou; štítek LAID ONCE",
+      "pause": 1.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "seznam: 1, 2 ztlumeně, 3 THE TAIL (INK)",
+      "pause": 0.5
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "les z boku (kmeny a koruny); dron proplétá mezi stromy, za ním ambrové vlákno po celé jeho dráze",
+      "pause": 0.5
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "tři výřezy: vlákno zachycené o větev, o drát, o roh budovy; v každém místo zachycení kroužkem",
+      "note": "Factcheck S51: dráty a budovy, ne ploty/střechy.",
+      "pause": 0.8
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "výřez lesa: dron proletí mezerou mezi větvemi (plně), vlákno za ním musí touž mezerou (ambrově) — dva štítky CAN THE DRONE GET THERE? a AND CAN THE FIBRE?",
+      "pause": 1.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "nevyhody",
+      "diagram": "seznam: 1–3 ztlumeně, 4 IT POINTS (INK)",
+      "pause": 0.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "stopa",
+      "diagram": "PÁTEŘ `krajina()`; po vláknu od dronu k pilotovi ztlumená šipka podél celé délky; pilot zakroužkovaný",
+      "note": "„the thread points“ — šipka míří k pilotovi, podmět je vlákno.",
+      "pause": 0.5
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S55.png",
+      "note": "SDXL vlákno nenakreslí (3 kola, art/PUVOD.md), archiv nic nemá → hybrid, schválil uživatel 2026-10-09. Vlákno světle zlaté se září (lesk ve slunci), ne čistě ambrové. Pohyb ponechán — je to obraz, ne diagram s textem.",
+      "pause": 1.2,
+      "diagram_generator": "lesk",
+      "diagram": "HYBRID: SDXL pozadí art/S55-pozadi.png (klasy trávy v nízkém slunci) + kódem jedno dlouhé prověšené vlákno se září a odlesky, za ním slabší vzdálené"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "stopa",
+      "diagram": "nápis THE DEFENCE CHANGED TOO nad ztlumeným výjevem rušičky z S11 (vypnutá)",
+      "pause": 0.5
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "stopa",
+      "diagram": "dron v letu, před ním fyzická překážka (síť) zvýrazněná; rušička vedle přeškrtnutá",
+      "note": "Bez zbraní v obraze (konvence 5).",
+      "pause": 0.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "stopa",
+      "diagram": "silnice v perspektivě mizející k obzoru, nad ní tunel ze sítě po celé délce; štítek KILOMETRES",
+      "note": "Obě strany — žádné vlajky ani symboly stran.",
+      "pause": 0.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "stopa",
+      "diagram": "pohled do tunelu ze sítě zevnitř/zpředu; nebe nad ním s modrošedými vlnami ztlumeně",
+      "pause": 2.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "stopa",
+      "diagram": "dvě karty se šipkou mezi nimi: PROBLEM → PROBLEM (posunutý, ne zmizelý); nadpis MOVED, NOT SOLVED",
+      "pause": 0.6
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "stopa",
+      "diagram": "vlevo ztlumeně rádiový spoj (modrošedé vlny, štítek JAMMED); šipka; vpravo PÁTEŘ `krajina()` se třemi štítky na vláknu: TANGLED, CUT, FOLLOWED",
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "zem",
+      "diagram": "pole v perspektivě (horizont s linií stromů, brázdy); jedno ztlumené vlákno přes pole; nahoře THE GROUND ITSELF",
+      "pause": 1.0,
+      "note": "Nový pohled: krajina místo páteře — vlákno ‚přes celou krajinu‘ se z boku nakreslit nedá (leželo by na jedné čáře). Páteř se vrací v S72–S74."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "zem",
+      "diagram": "totéž pole, jedno vlákno jasně ambrově (týž seed jako v S62/S64) se štítkem KILOMETRES OF FIBRE",
+      "note": "Rým se S62/S64: tatáž kresba pole, týž seed vlákna.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "zem",
+      "diagram": "totéž pole, desítky ztlumených vláken křížem krážem po poli; vlákno z S63 jasně",
+      "note": "Počet vláken nemá významovou hodnotu — žádné číslo, jen „mnoho“.",
+      "pause": 0.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S65.png",
+      "note": "Uživatel: NE celé údolí pokryté vlákny — vlákna v trávě a stromech, pavučinový dojem. Hybrid jako S55 (art/PUVOD.md). slow_zoom_out = od detailu k šíři.",
+      "pause": 1.0,
+      "diagram_generator": "lesk",
+      "diagram": "HYBRID: SDXL pozadí art/S65-pozadi.png (okraj pole, stromořadí) + kódem vlákna přes trávu v popředí, tenčí ve středním plánu, pár ve větvích stromu"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "zem",
+      "diagram": "zvětšený příčný řez vláknem: GLASS uprostřed, PLASTIC COATING kolem; vedle DOESN'T ROT; čárkovaná šipka k drobným úlomkům se štítkem AT MOST: MICROPLASTIC",
+      "note": "Uživatel: obraz nesmí být kategoričtější než text — mikroplast čárkovaně (konvence 3) a menší.",
+      "pause": 2.2
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "hnizdo",
+      "diagram": "rámeček fotografie (prázdný, jen obrys a roh) se štítkem JUNE 2026 · EASTERN UKRAINE; od něj ztlumené šipky do stran (sdílení)",
+      "note": "Skutečnou fotku NEMÁME (licence X) — proto rámeček, ne napodobenina fotky.",
+      "pause": 0.5
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "hnizdo",
+      "diagram": "kresba hnízda: miska z trávy (olivové/ztlumené tahy) a protkaná ambrovými vlákny; štítky GRASS a DRONE FIBRE",
+      "note": "Kresba, ne rekonstrukce té fotky: hnízdo obecně, poměr trávy a vlákna bez nároku na přesnost.",
+      "pause": 0.8
+    },
+    {
+      "id": "S69",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S69.png",
+      "note": "Skutečná fotka hnízda ze sbírky War Museum v Kyjevě (článek 10. 6. 2026) — na přání uživatele 2026-10-09 místo kresby dvou vitrín. Sedí přesně na text S69 (muzeum); v S68 zůstává kresba, protože tohle je JINÉ hnízdo (Chorne, Kupjanský okres), ne to shozené bombou z fotky Malčenka.\nPŮVOD: stránka muzea, ne Commons — provider `manual`, originál leží v archive-raw/ a záznam v sources.json je ruční. Licence webu CC BY-NC-SA 4.0 „unless otherwise noted“; autor snímku na stránce neuveden.\nGRADE bez viněty: hnízdo je na černém pozadí.",
+      "archive": {
+        "provider": "manual",
+        "query": "warmuseum.kyiv.ua — A Bird’s Nest Made of Fibre Optic Cable (10 June 2026), první snímek",
+        "pick": 1,
+        "grade": {
+          "vignette": false
+        }
+      },
+      "pause": 1.0
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "prompt": "an owl perched on a bare branch at the edge of a field, several fine gossamer silk strands tangled among the twigs around it, glinting, overcast, still, nobody present",
+      "note": "Neukazovat zamotanou/mrtvou sovu — text říká „nobody knows yet how much harm“; obraz naznačí riziko, nevyhlásí ho. Druhé kolo promptu (gossamer strands) — vlákna model nenakreslil, sova sama funkci nese; přijato 2026-10-09.",
+      "pause": 2.6
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "zaver",
+      "diagram": "jen DOLNÍ polovina: řada ikon — telefon, síť, letadlo — u každé přestřižený kabel; na konci WIRELESS",
+      "note": "Konec videa: horní polovina volná pro koncovou obrazovku (S71–S74).",
+      "pause": 0.6
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ `krajina()` posunutá jen do DOLNÍ poloviny: hustá modrošedá rádiová vlna nízko nad zemí, uprostřed dron na ambrovém vlákně",
+      "note": "Horní polovina prázdná (koncová obrazovka).",
+      "pause": 1.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "zaver",
+      "diagram": "jen DOLNÍ polovina: zem, dvě ztlumené rušičky se slábnoucími čárkovanými kruhy, vlákno ambrově po celé zemi; bez dronu a pilota",
+      "pause": 1.4
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "zaver",
+      "diagram": "jen DOLNÍ polovina: zem a tři ambrová vlákna — žádný dron, pilot ani rušička",
+      "note": "Výplata páteře: z celé kresby zbylo jen to, co bylo od začátku ambrové.",
+      "pause": 3.0
+    }
+  ]
+}

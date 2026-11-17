@@ -1,0 +1,831 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU, NE ATMOSFÉRU: nepoměr deseti románů a šesti a půl tuny je to, co dělá téma zajímavým, a je tam dřív, než divák ví, o čem video je. Záměrně NENÍ sdxl.",
+      "diagram_generator": "pratchett",
+      "diagram": "ZAVEDENÍ PÁTEŘE. Vlevo malý obdélník disku s popiskem TEN UNFINISHED NOVELS, nad ním hmota válce 6.5 TONNES. Prostřední a pravý slot řetězu jsou zatím prázdné, jen tečkované obrysy."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat sdílí obraz s S01 — mění se jediná věc, stav disku. Ne nový střih.",
+      "diagram_generator": "pratchett",
+      "diagram": "Táž kompozice, disk se rozpadá na střepy; pod ním druhý stupeň, drtič."
+    },
+    {
+      "id": "S03",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S03.png",
+      "note": "Skutečný parní válec na steam fair. PICK VYBRÁN Z KONTAKTNÍHO LISTU (12 kandidátů, prohlédnuto): [0] View of a steam roller traction engine in the St. Albans Steam… (Robert Lamb, CC BY-SA 2.0). Z dvanácti kandidátů jediný čistý bok válce na trávě při rallye: buben vepředu, pozadí bez nápisů. Zamítnuty ulice s vývěsními štíty ([07], [10]) kvůli textu v obraze a snímky proti oranžovému kontejneru ([01], [03]) kvůli pozadí. Index Commons je nestabilní mezi voláními, takže doklad je archive-raw/*.orig a jeho otisk, ne pick.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "steam roller road roller traction engine",
+        "pick": 0,
+        "grade": {
+          "fit": 0.92,
+          "saturation": 80
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Beat „Nobody will ever read them.\" Sdílí obraz s S02, ubyla jediná věc.",
+      "diagram_generator": "pratchett",
+      "diagram": "Prázdné místo po disku, jen obrys. Nic víc.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Plná čára = doloženo. Fact check vyhodil „in writing\", takže štítek NESMÍ vypadat jako citace závěti — je to štítek, ne dokument.",
+      "diagram_generator": "pratchett",
+      "diagram": "Nad diskem se rozsvítí ambrový štítek HE ASKED FOR THIS, plnou čarou (doloženo)."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Tady se páteř poprvé ukáže celá a je to pointa bloku. Postava je ambrová, protože o ní je řeč — ne proto, že by byla „dobrá\".",
+      "diagram_generator": "pratchett",
+      "diagram": "VÝPLATA ZAVEDENÍ: prostřední slot řetězu se poprvé vyplní — postava, ambrově. Vlevo disk, vpravo střepy. Nad postavou popisek SOMEBODY ELSE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Týž tvar, jiný obsah — divák ho pozná. Tečkovaný střed = nikdo zatím nerozhodl.",
+      "diagram_generator": "martin",
+      "diagram": "Řetěz znovu, ale vlevo místo disku vysoký sloupec stran s popiskem THE WINDS OF WINTER a vedle FIFTEEN YEARS. Prostřední slot tečkovaný, prázdný."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Beat. Sdílí obraz s S07.",
+      "diagram_generator": "martin",
+      "diagram": "Nad sloupcem stran ambrový štítek IT WON'T BE FINISHED, vedle něj malá ikona pokynu."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Škrtá se konkrétní obsazení slotu, ne celý slot. Přeškrtnutí celého nadpisu by znamenalo „neplatí to vůbec\".",
+      "diagram_generator": "martin",
+      "diagram": "Prostřední slot se ambrově orámuje a přeškrtne jediná možnost — silueta Martina samotného.",
+      "pause": 1.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Kreslí se kódem, ne SDXL: konkrétní objekt s textem na obrazovce je přesně to, co difuzní model neumí. Snímek WordStaru navíc není pod volnou licencí.",
+      "diagram_generator": "martin",
+      "diagram": "Dva monitory vedle sebe. Levý s ikonami sítě a pošty, pravý prázdný s jediným kurzorem a popiskem WORDSTAR 4.0."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Plná čára, protože to je doložené a scénář to výslovně odlišuje od fámy.",
+      "diagram_generator": "martin",
+      "diagram": "Na pravém monitoru naroste sloupec ~1100 STRAN; vedle něj plná čára a štítek SAID PUBLICLY."
+    },
+    {
+      "id": "S12",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S12.png",
+      "note": "Jediné místo první půlky, kde je atmosféra na místě: scénář sám říká, že tohle NIKDO neví. SDXL tu nekreslí konkrétní objekt ani text. Zoom in, protože se zaostřuje na jednu věc.",
+      "prompt": "a single closed door of a small room seen from the outside in a dim empty corridor, nothing visible beyond it, dust in still air, quiet and ordinary, no text"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Šipka znamená směr v rukopise, ne příčinu. Hlídat, ať nevypadá jako „vede to k\".",
+      "diagram_generator": "martin",
+      "diagram": "Sloupec stran se rozpadne na vrstvy: DRAFTS, TWO ENDINGS, ABANDONED SCENES, NOTES. Poslední vrstva má šipku dopředu přes 300 PAGES."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Škrtá se špatná otázka, aby uvolnila místo správné.",
+      "diagram_generator": "martin",
+      "diagram": "Velká otázka WHO FINISHES THE BOOK? ztlumeně (MUTED), přeškrtnutá."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Ústřední otázka videa. Řetěz je pod ní, takže je vidět, že otázka míří na ten prostřední slot.",
+      "diagram_generator": "martin",
+      "diagram": "Na jejím místě ambrově WHO DECIDES WHAT HAPPENS TO THE FILES?, a pod ní prázdný prostřední slot řetězu.",
+      "pause": 2.8
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Kafkův portrét, volné dílo. PORTRÉT: fit, CELÁ HLAVA S ODSTUPEM, ŽÁDNÝ ZOOM — divák u 004 hlásil uříznuté čelo. Jméno se dopisuje ve vrstvě generátoru, ne ořezem. PICK VYBRÁN Z KONTAKTNÍHO LISTU (12 kandidátů, prohlédnuto): [3] Franz Kafka, 1923 (neznámý fotograf, volné dílo). Nejostřejší a nejznámější portrét, přímý pohled, rok před smrtí — tedy z doby lístku Brodovi. Zamítnut [00] se sepií a podpisem (text v obraze) a [02]/[09] jako celé postavy. Index Commons je nestabilní mezi voláními, takže doklad je archive-raw/*.orig a jeho otisk, ne pick.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Franz Kafka portrait photograph",
+        "pick": 3,
+        "grade": {
+          "fit": 0.84,
+          "saturation": 60
+        }
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Beat „Brod didn't.\" Škrtá se VÝSLEDEK, ne rozhodnutí. Sdílí obraz s S18.",
+      "diagram_generator": "kafka",
+      "diagram": "Řetěz: vlevo hromada papírů BURN EVERYTHING / UNREAD, uprostřed postava BROD, vpravo oheň — a oheň je ztlumený a přeškrtnutý.",
+      "pause": 1.2
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Tři hřbety, protože fact check doložil, že posmrtné jsou VŠECHNY TŘI romány. Dva by tvrdily míň, než co je doložené.",
+      "diagram_generator": "kafka",
+      "diagram": "Vpravo místo ohně tři hřbety knih: THE TRIAL, THE CASTLE, AMERIKA. Nad nimi EVERY NOVEL."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Obě čáry plné — obojí je doložené. Směr druhé čáry je důležitý: Kafka papíry dal PO tom, co věděl. Kdyby šipky vedly opačně, kresba by tvrdila opak.",
+      "diagram_generator": "kafka",
+      "diagram": "Od postavy BROD vede plná čára zpět k postavě KAFKA s popiskem I WILL REFUSE; druhá čára od Kafky k papírům, popisek LEFT THEM ANYWAY."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "TEZE VIDEA vyslovená páteří. Ambrová tu znamená „o tomhle je řeč\" — hlídat, ať se nečte jako „tenhle je ten správný\".",
+      "diagram_generator": "kafka",
+      "diagram": "Řetěz se ztlumí celý, ambrový zůstane JEN prostřední slot. Nad ním THEY ASK WHOEVER IS HOLDING IT.",
+      "pause": 2.8
+    },
+    {
+      "id": "S20b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "cta": true,
+      "note": "Výzva k odběru. NOVÝ SLOT podle docs/cta.md (změna 2026-09-21): brzy a ZA VÝPLATOU, ne za hlavní pointou. Sedí za S20, tedy za tezí videa „They ask whoever is holding it.\" ve 2:17 — skoro přesně slot videa 062 (2:22) — a S21 navazuje „Martin has already answered…\", což je ten beat „so let's find out\". Dědí obrázek S20, žádný nový diagram a žádný střih.",
+      "diagram_generator": "kafka",
+      "diagram": "tentýž obraz jako S20"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Letopočet číslicí; do pronounce patří jako „nineteen ninety-two\".",
+      "diagram_generator": "archiv",
+      "diagram": "Časová osa vlevo, na ní jediná značka 1992."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Čára je cesta, ne příčina — hlídat, ať hrot šipky netvrdí nevyhnutelnost.",
+      "diagram_generator": "archiv",
+      "diagram": "Od značky vede vodorovná čára z bodu SANTA FE do bodu TEXAS, na ní obdélník nákladu."
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Detail skládaného papíru s trhacími perforovanými okraji. PICK VYBRÁN Z KONTAKTNÍHO LISTU (12 kandidátů). Původně byl vybraný svázaný výpis „Bound computer printout\" — má naráz text, perforace i stoh — ale po prohlédnutí ve velkém je na něm ČITELNÝ VÝPIS FORTRANU. Obraz by tvrdil „počítačový kód\", zatímco hlas říká „nejstarší stránky A Game of Thrones\": tvrzení obrazem, které v popisku není. Tenhle detail říká jen „staré skládané papírové pásmo\", což je přesně to, o čem věta je. Dotaz je zúžený na název souboru, aby posun pořadí Commons nevrátil něco jiného.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Endlospapier fan-fold paper",
+        "pick": 0,
+        "grade": {
+          "fit": 0.94,
+          "saturation": 70
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Mřížka nese počet. Ikony jsou ilustrace rozsahu, ne výčet — ať se nečte jako „a nic jiného tam není\".",
+      "diagram_generator": "archiv",
+      "diagram": "Mřížka krabic, 200+, a u okraje drobné ikony: desková hra, meč, svazek."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "POMĚR PLOCH NESE TVRZENÍ. Zavřená část musí být zřetelně menší — fact check ukázal, že divák si jinak dosadí nedopsaný rukopis. Popisek to říká výslovně.",
+      "diagram_generator": "archiv",
+      "diagram": "Mřížka se rozdělí: velká světlá část OPEN TO ANY RESEARCHER, malá tmavá část PRIVATE CORRESPONDENCE."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Dopis se zavádí tady a vyplácí se v S85. Musí být na pevných souřadnicích jako páteř, jinak se výplata tiše rozpadne.",
+      "diagram_generator": "archiv",
+      "diagram": "Z tmavé části vede čára k obrysu dopisu (ZAVEDENÍ DRUHÉ LINKY). V dopise prázdný podpisový řádek."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Beat. Jediná změna proti S26.",
+      "diagram_generator": "archiv",
+      "diagram": "Na podpisovém řádku se ambrově objeví GEORGE R. R. MARTIN.",
+      "pause": 1.6
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "ČÁRKOVANĚ, protože je to úvaha o budoucnosti, ne doložený fakt. Plná čára by tvrdila víc než scénář.",
+      "diagram_generator": "archiv",
+      "diagram": "Pod dopisem se rozsvítí ONE DAY: IMPOSSIBLE TO SATISFY, čárkovaně."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Klíčový beat videa. Zámek musí být vidět jako odemčený, jinak kresba tvrdí opak věty.",
+      "diagram_generator": "archiv",
+      "diagram": "Dveře na pevných souřadnicích, zavřené, zámek zřetelně ODEMČENÝ."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Druhá půlka beatu. Kdyby se dveře posunuly, beat se změní v střih.",
+      "diagram_generator": "archiv",
+      "diagram": "Týž obraz, jen za dveřmi zmizí silueta. Dveře se nehnou o pixel.",
+      "pause": 3.0
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Připomenutí tvaru před dvěma případy.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Řetěz potřetí, prázdný, nad ním THIRD ANSWER: PUBLISH THE MESS."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Dvanáct hřbetů se POČÍTÁ z proměnné, nekreslí od oka — assert na dvanáct.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Vlevo hromada papírů, vpravo dvanáct hřbetů knih vedle sebe. Uprostřed postava CHRISTOPHER TOLKIEN."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Rozpor musí být vidět ze struktury (dvě různá znění téhož odstavce), ne jen z popisku.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Zvětšenina dvou stránek vedle sebe, které si odporují; v okraji poznámky a škrty."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Nabokov. Škrtá se pokyn, ne lístky.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Řetěz počtvrté: vlevo svazek kartotéčních lístků, uprostřed postava, vpravo kniha. Nad levým slotem přeškrtnuté DESTROY."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Kreslí se kódem. Skutečné lístky jsou chráněné a SDXL text neumí.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Jeden lístek zvětšený: rukopisné tahy a přeškrtnutá slova, pod ním přepis strojovým písmem."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Návrat k mřížce z S24 na TÝCHŽ souřadnicích, aby bylo poznat, že je to týž archiv.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Krabice z texaské mřížky se otevře, uvnitř svazek s ambrovým štítkem DRAFT 7."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Tři, protože scénář říká tři. Assert.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Ze svazku vyjedou tři konce téže kapitoly vedle sebe, v okraji THIS DOESN'T WORK."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Hlídat, ať pořadí zleva doprava neříká „tahle je správná\" — nejnovější nesmí být zvýrazněná.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Přibude čtvrtá, pozdější verze, která si s oběma odporuje; okraj TRY AGAIN."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Jeden předmět, dva pohledy — struktura nese to, co říká voiceover.",
+      "diagram_generator": "fragmenty",
+      "diagram": "Týž svazek dvakrát: vlevo pod lupou s popiskem TREASURE, vpravo za sklem s popiskem TORTURE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Beat.",
+      "diagram_generator": "drood",
+      "diagram": "Řetěz popáté, prázdný, nad ním FOURTH ANSWER: FINISH IT.",
+      "pause": 1.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Plná čára: přirovnání je Martinovo vlastní, ne naše.",
+      "diagram_generator": "drood",
+      "diagram": "Vedle sebe dva hřbety: THE WINDS OF WINTER a THE MYSTERY OF EDWIN DROOD, spojené plnou čarou."
+    },
+    {
+      "id": "S42",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Dickensův portrét, volné dílo. PORTRÉT: fit, celá hlava s odstupem, ŽÁDNÝ ZOOM. PICK VYBRÁN Z KONTAKTNÍHO LISTU: pozdní portrét z Gurneyho sezení 1867/68, hlava a ramena, přímý pohled. DOTAZ JE ZÁMĚRNĚ ZÚŽENÝ na „Gurney\", protože při širším dotazu se pořadí Commons mezi dvěma voláními posunulo a pick 5 vrátil rytinu davu. Takhle je v prvních šesti výsledcích jen to Gurneyho sezení, takže posun pořadí už nemůže vrátit nepoužitelný snímek. Doklad je archive-raw/S42.orig a jeho otisk, ne pick.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Charles Dickens Gurney portrait",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "saturation": 60
+        }
+      }
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "PŘEDOBRAZ S63. Šest a šest se počítá z proměnné. Plná čára k životopisci = doloženo, přerušená k papíru = nenapsáno. Rozdíl mezi nimi je celá pointa scény.",
+      "diagram_generator": "drood",
+      "diagram": "Dvanáct sešitů v řadě, šest plných a šest prázdných. Vedle plnou čarou HOW IT ENDS -> FORSTER, a přerušovaně HOW IT ENDS -> PAPER."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Týž řetěz, pátý případ. NÁVĚTÍ (2026-09-21): divák nahlásil, že „seance\" zní divně a je za ní schwa. Změřeno — NENÍ to pravopisem: „seance\", „séance\" i „sayance\" přepisuje whisper stejně zkomoleně (`attisee | aunzi`), kdežto „It was at a seance.\" slyší čistě. Je to tedy vada KRÁTKÉ SAMOSTATNÉ PROMLUVY, na kterou je návětí. Použit skutečný text konce S43, takže nese i intonaci pokračování. Po opravě whisper slyší `at | a | seance` a znělý ocas za sykavkou (160 ms, těžiště 2 484 Hz) zmizel.",
+      "diagram_generator": "drood",
+      "diagram": "Prostřední slot se vyplní postavou A PRINTER IN VERMONT, vpravo nová kniha.",
+      "naveti": "He said Dickens had asked him to."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Beat „At a seance.\" Sdílí obraz s S44.",
+      "diagram_generator": "drood",
+      "diagram": "Kolem postavy kruh stolu a nad ní lístek s podpisem.",
+      "pause": 1.4
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Uvozovky, protože je to doslovná citace z Medium's Preface. Bez nich by to kresba tvrdila za nás.",
+      "diagram_generator": "drood",
+      "diagram": "Lístek se zvětší: podpis CHARLES DICKENS, pod ním text WORD FOR WORD, AS IT CAME TO ME v uvozovkách."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Fact check ukázal, že Conan Doyle hledal falzum JAZYKOVĚ a že to bylo 1927, ne 1873. Letopočet v obraze je tu proto, aby kresba sama opravila dojem současnosti, který by jinak vznikl. ŽÁDNÝ portrét Conan Doyla — scéna není o něm.",
+      "diagram_generator": "drood",
+      "diagram": "JAZYKOVÁ FORENZIKA, ne portrét. Dva sloupce slov vedle sebe: vlevo BRITISH (travellers, coals, basements), vpravo AMERICAN (prázdný). Nad tím DECEMBER 1927."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Beat „He found almost none.\"",
+      "diagram_generator": "drood",
+      "diagram": "Pravý sloupec zůstane prázdný, jen ambrová nula.",
+      "pause": 1.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Fajfky jsou Doylovy, ne naše — proto v uvozovkách i ten závěr. Kresba nesmí tvrdit, že to schválil celé.",
+      "diagram_generator": "drood",
+      "diagram": "Dvě fajfky u MANNER a TRICK OF THOUGHT, a pod nimi ztlumené DICKENS GONE FLAT v uvozovkách."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Struktura nese „povrch projde, vespod ne\". Hlídat, ať síto nevypadá jako filtr, který text ZASTAVIL.",
+      "diagram_generator": "drood",
+      "diagram": "Dvouvrstvý obraz: nahoře síto testů, kterými text projde, dole pod ním tmavý tvar příběhu, který neprojde."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Beat a zároveň most k AI. Letopočet číslicí.",
+      "diagram_generator": "drood",
+      "diagram": "Celý obraz se ztlumí až na letopočet 1873 uprostřed.",
+      "pause": 2.8
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Návrat k monitoru na týchž souřadnicích jako v S10.",
+      "diagram_generator": "ai",
+      "diagram": "Monitor z S10, z něj vyjede řada drobných obdélníků draftů seřazená do osy s daty."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Záměrně JEDNA šipka, aby S54 mohla tvrdit opak.",
+      "diagram_generator": "ai",
+      "diagram": "Z osy vede jediná šipka k jedinému konci."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Beat „It wouldn't produce one book.\" Jediná změna proti S53.",
+      "diagram_generator": "ai",
+      "diagram": "Táž šipka se rozdvojí.",
+      "pause": 1.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Větvení se generuje z proměnné, ne kreslí ručně.",
+      "diagram_generator": "ai",
+      "diagram": "Strom se větví o dvě patra, u dvou uzlů popisky ONE VAGUE NOTE a LATER DRAFTS."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Assert na počet listů. „Tisíc verzí\" je diagram, ne SDXL — abstraktní pojem model bere doslova.",
+      "diagram_generator": "ai",
+      "diagram": "Strom naroste do stovek listů; počet listů se počítá, ne kreslí od oka."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Ambrová = „o těchhle je řeč\", ne „tyhle jsou správné\". Musí být zřejmé, že výběr je libovolný.",
+      "diagram_generator": "ai",
+      "diagram": "Dva listy se ambrově označí, VERSION 37 a VERSION 814, zbytek ztlumený."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Šipky tu znamenají tlak, ne příčinu. Míří na týž list, což je to tvrzení.",
+      "diagram_generator": "ai",
+      "diagram": "Ke stromu se ze tří stran přidají šipky s popisky PUBLISHERS, FANS, RIGHTS HOLDERS, všechny mířící na jeden list."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Páteř se vrací dovnitř AI bloku — pointa je, že i tady rozhoduje člověk.",
+      "diagram_generator": "ai",
+      "diagram": "Uprostřed stromu se vyplní prostřední slot řetězu postavou a nad ní I CAN FINISH THIS.",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Předěl.",
+      "diagram_generator": "serial",
+      "diagram": "Ztlumený strom, přes něj ambrově WE ALREADY KNOW PART OF THE ENDING."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Letopočet číslicí. Scéna je o předání, ne o seriálu.",
+      "diagram_generator": "serial",
+      "diagram": "Rok 2013, stůl, na jedné straně Martin, na druhé dvě postavy PRODUCERS."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Prázdno mezi body je to tvrzení. Kdyby je cokoli spojovalo, kresba by tvrdila, že cesta je známá.",
+      "diagram_generator": "serial",
+      "diagram": "Tři body na prázdné ploše: HODOR, SHIREEN, THE THRONE. Mezi nimi NIC."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "VIZUÁLNÍ RÝM s S43 — divák má poznat, že je to týž vzorec o 143 let později. Rozvržení musí sedět, ne jen připomínat.",
+      "diagram_generator": "serial",
+      "diagram": "Táž tři místa se stanou body na mapě. VÝPLATA S43: stejné rozvržení plná/přerušovaná jako u Dickense a Forstera."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Jiná barva, ne ambrová — není to „ta správná\" cesta, je to jedna z možných.",
+      "diagram_generator": "serial",
+      "diagram": "Mezi body se dokreslí klikatá cesta jinou barvou (MUTED) s popiskem THE SERIES."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Tvrzení scény: stejné cíle, jiná kniha. Body se NESMÍ pohnout.",
+      "diagram_generator": "serial",
+      "diagram": "Druhá cesta mezi týmiž body, úplně jinudy. Oba konce sedí na týchž třech bodech.",
+      "pause": 2.6
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Předěl k pointě. Minimum prvků.",
+      "diagram_generator": "autor",
+      "diagram": "Prázdná plocha, uprostřed jediný ambrový obrys postavy autora."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Tři, protože scénář říká tři.",
+      "diagram_generator": "autor",
+      "diagram": "Kolem postavy tři úkony: 300 PAGES letí pryč, postava v příběhu přežívá, konec se přepisuje."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Před NO je výpustka, takže pauzu udělá tts.py sám — kresba to nemusí nést.",
+      "diagram_generator": "autor",
+      "diagram": "Postava se dívá na rekonstrukci a nad ní ambrové NO."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Škrtá se špatné vysvětlení, ne kniha.",
+      "diagram_generator": "autor",
+      "diagram": "Vedle sebe dvě vysvětlení, spodní (UNFINISHED) ztlumené a přeškrtnuté."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Beat.",
+      "diagram_generator": "autor",
+      "diagram": "Zůstane jediný řádek: CAN STILL SAY NO.",
+      "pause": 1.8
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Odlepující se štítek, ne přeškrtnutý — nepřestává to platit, mění se to v něco jiného.",
+      "diagram_generator": "autor",
+      "diagram": "Rukopis se štítkem INSTRUCTIONS, štítek se odlepuje."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Beat. Jediná změna proti S71.",
+      "diagram_generator": "autor",
+      "diagram": "Na jeho místě štítek EVIDENCE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "JÁDRO VIDEA. Plná versus přerušovaná nese rozdíl mezi důkazem a popisem — právě ta míra jistoty, kterou musí kresba držet stejně jako hlas.",
+      "diagram_generator": "autor",
+      "diagram": "Pod štítkem dva řádky: WHAT HE WAS TRYING TO DO plnou čarou, WHAT HE WOULD HAVE DONE přerušovaně a ztlumeně.",
+      "pause": 3.0
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Řetěz naposledy, vlevo krabice, vpravo nic. Od téhle scény se kresba postupně stahuje níž a řídne — okno závěrečné obrazovky začíná u S82, ale ocas na to musí být připravený dřív.",
+      "diagram_generator": "zaver",
+      "diagram": "Řetěz naposledy, vlevo krabice, vpravo nic. Nad ním LAST ANSWER."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Zapečetěná archivní krabice — TÁŽ, kterou v S84 někdo otevře, na týchž souřadnicích. Původně SDXL: model dvakrát po sobě vrátil opřený obrazový rám místo zavřené krabice (podruhé rám NA krabici), a dvakrát netrefená funkce scény je podle CLAUDE.md znamení, že scéna patří jinam, ne že je špatný prompt. Kresba navíc umí to, co difuzní model ze své podstaty nesvede: být v S84 prokazatelně týž předmět. Zamítnutá kola jsou ve scratchpadu. V OKNĚ ZÁVĚREČNÉ OBRAZOVKY není, ale kresba je pod ZAVER_TOP kvůli shodě s S84.",
+      "diagram_generator": "zaver",
+      "diagram": "Zavřená krabice s nasazeným víkem a ambrovou pečetí přes ni, vpravo popisek KEPT AND SEALED."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Tvrzení scény: i nicnedělání je rozhodnutí někoho jiného. Rám na prázdném slotu to nese.",
+      "diagram_generator": "zaver",
+      "diagram": "Zpátky k řetězu; prostřední slot se ambrově orámuje, ačkoli je výsledek vlevo nezměněný.",
+      "pause": 2.4
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Čtyři řádky se rozsvěcují postupně, jeden obraz. NE čtyři různé obrázky. Všechno v dolní polovině.",
+      "diagram_generator": "zaver",
+      "diagram": "VÝPLATA PÁTEŘE: čtyři řetězy pod sebou. První se doplní — PRATCHETT'S ESTATE, výsledek střepy."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Sdílí obraz s S77.",
+      "diagram_generator": "zaver",
+      "diagram": "Druhý řádek: BROD, výsledek tři hřbety knih."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Sdílí obraz s S77.",
+      "diagram_generator": "zaver",
+      "diagram": "Třetí řádek: CHRISTOPHER TOLKIEN, výsledek dvanáct hřbetů."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Chybějící čára je to tvrzení — nezeptal se nikoho.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtvrtý řádek: A PRINTER IN VERMONT, a jeho prostřední slot nemá k sobě žádnou příchozí čáru.",
+      "pause": 2.2
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Horní polovina zůstává volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Pátý řádek: vlevo Martinovy krabice, nad nimi štítek HE HAS SAID WHAT HE WANTS. Prostřední slot prázdný."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "MÍRA JISTOTY MUSÍ SEDĚT S HLASEM: „might not survive\" je přerušovaně, ARCHIVE a THEORIES plnou čarou — jinak kresba tvrdí víc než věta. PRVNÍ SCÉNA V OKNĚ ZÁVĚREČNÉ OBRAZOVKY (odhad 501,7 s z 521,6): horní polovina musí zůstat prázdná, protože YouTube tam pokládá dlaždici a kolečko. Tři výsledky vpravo proto patří dolů, ne do pravého horního rohu.",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdný slot se ambrově orámuje. Vpravo tři výsledky různé jistoty: FILES přerušovaně, ARCHIVE a THEORIES plnou čarou."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Poslední tři scény drží kresbu nízko a řídce. V OKNĚ ZÁVĚREČNÉ OBRAZOVKY — horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Všechno se ztlumí až na prázdný prostřední slot.",
+      "pause": 1.6
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Otevřený archiv, z něj vede čára k prázdnému slotu. VĚTA POKRAČUJE DO S85 — bez tečky. Dovětek je skutečné pokračování, aby řez padl do ticha a konec scény nezůstal vystavený. V OKNĚ ZÁVĚREČNÉ OBRAZOVKY — horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Otevřená krabice archivu, z ní čára k prázdnému prostřednímu slotu.",
+      "dovetek": "and asks for a letter that nobody can write.",
+      "pause": 1.2
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "VÝPLATA DRUHÉ LINKY: dopis z S26 se vrátí, podpisový řádek je PRÁZDNÝ. NÁVĚTÍ TU NEFUNGUJE A NEZKOUŠEJ HO ZNOVU: scéna je gramatickým pokračováním S84 a začíná spojkou „and\". Kokoro do spojky plyne bez mezery, takže tts.py nemá kde řezat — naměřeno 2026-09-20 dvakrát, s návětím zakončeným tečkou i výpustkou, pokaždé přesně 50 ms ticha a pokaždé se návětí tiše vyplo. Intonaci pokračování proto nese jen scene_pause 1,2 s za S84 a dovětek na S84, který ZABRAL. Jestli „and\" zní monotónně, musí to rozhodnout poslech draftu. V OKNĚ ZÁVĚREČNÉ OBRAZOVKY — horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dopis na týchž souřadnicích jako v S26, podpisový řádek prázdný."
+    }
+  ]
+}

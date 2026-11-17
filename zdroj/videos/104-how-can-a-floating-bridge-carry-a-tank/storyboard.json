@@ -1,0 +1,541 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S01.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Crossing the bridge 160801-Z-FP243-004",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. M1 Abrams čelem na ribbon bridge, vedle čluny, řeka a břeh — první obrazovka nese myšlenku (tank na plovoucím mostě), ne atmosféru; NE sdxl. Public domain (US Army)."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Zavádí páteř A — bokorys mostu na hladině. Kreslí `_kit.bokorys()`, souřadnice se v dalších scénách nesmí hnout (výplata v S41, S50, S52).",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A (bokorys): hladina řeky na pevné výšce VODA_Y, řada pontonů na hladině mezi dvěma břehy, pod nimi prázdné koryto až ke dnu. Dva štítky ztlumeně: NO PILLARS (u prázdného místa pod mostem), NO FOUNDATIONS (u dna).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "„…right up until the tank arrives.“ Napětí: tank ještě nenajel. Žádný text kromě titulku není potřeba.",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř A + silueta tanku na levém břehu, těsně před nájezdem; most zatím prázdný."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Hlavní otázka videa. Ambrová = o čem je řeč (hmotnost tanku).",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř A, tank uprostřed mostu, nad ním ambrově 60 t, vedle otazník."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Uživatel: musí být jasné, že jde o DODATEČNÝ výtlak způsobený tankem, ne o objem pontonů. Slovo EXTRA v obraze povinné; obě šipky stejně dlouhé (assert).",
+   "diagram_generator": "vztlak",
+   "diagram": "Páteř A, tank na mostě: šipka dolů +60 t (váha tanku, ambrová) a šipka nahoru +60 t z vody, popsaná EXTRA WATER PUSHED ASIDE."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "assert 10*6*1 == 60. Kvádr je voda (modrozelená výplň, ambrový obrys), ne ponton — jinak by obraz tvrdil, že ponton má 60 m³.",
+   "diagram_generator": "vztlak",
+   "diagram": "Ambrový kvádr vody v kosoúhlém promítání s kótami 10 m × 6 m × 1 m a výsledkem = 60 m³; pod ním drobně EXTRA WATER, NOT THE PONTOONS.",
+   "pause": 0.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "„That sounds like a lot. But a bridge is long.“ Měřítko spočítat (IRB bay ~6,9 m, most ~100 m), ne od oka.",
+   "diagram_generator": "vztlak",
+   "diagram": "Tentýž kvádr zmenšený vedle celého mostu v páteři A ve stejném měřítku — most je mnohonásobně delší.",
+   "pause": 0.4
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Uživatel: zatížení se přenáší do VÍCE sekcí, ale ne rovnoměrně — plátky nesmí vypadat jako stejné podíly, žádná čísla ani kóty, štítek SCHEMATIC. Žádné číslo poklesu.",
+   "diagram_generator": "vztlak",
+   "diagram": "Páteř A: kvádr rozdělený na plátky pod několika pontony v dosahu tanku; plátky NESTEJNĚ velké a bez kót, štítek SCHEMATIC."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Pokles je schematický a označený tak; neodvozovat z něj čísla.",
+   "diagram_generator": "vztlak",
+   "diagram": "Páteř A ve dvou stavech nad sebou: bez tanku / s tankem — pontony v druhém o kousek níž, šipky vztlaku delší. Drobně: SCHEMATIC."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Rovnováha se najde sama. Naklon vah 0.",
+   "diagram_generator": "vztlak",
+   "diagram": "Váhy (`vahy()`) v rovnováze: na jedné misce WEIGHT, na druhé BUOYANCY; pod nimi NO PUMPS · NO COMPUTER."
+  },
+  {
+   "id": "S11",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Domenico Fetti Archimedes 1620",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. Portrét Archiméda (Fetti, 1620), public domain — portrét: fit 0.84, žádný zoom, jméno vedle stačí hlasem. Když nevyjde, nahradit svg (trup lodi s týmiž šipkami jako S05)."
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S12.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Evergreen Point Floating Bridge eastbound from HOV lane",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. SR 520, provoz na plovoucím mostě, voda po obou stranách. CC BY-SA 4.0 — atribuce povinná. Délku ani počet pontonů do obrazu nepsat (stačí hlas).",
+   "pause": 1.2
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "„So floating is the easy part.“ Předěl — fyzika vyřízená.",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř A s tankem na mostě, v rohu fajfka FLOATING ✓; zbytek obrazu prázdný a ztlumený."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "assert 8*3 == 24. Data z army.mod.uk; „about thirty minutes“ — stopky bez vteřin.",
+   "diagram_generator": "cisla",
+   "diagram": "Řada 8 ikon vozidel M3 spojených v pruh s kótou 100 m; pod nimi 24 postav (3 na vozidlo); vpravo stopky na 30 MIN. Dole zdroj: BRITISH ARMY."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Zavádí páteř B — půdorys, kreslí `_kit.pudorys()`. Čárkovaně = hypotéza (otázka, ne zásah). Výplata v S43 a S51 (týž most z dronu).",
+   "diagram_generator": "otazka",
+   "diagram": "PÁTEŘ B (půdorys): řeka shora, přes ni pruh mostu na pevných souřadnicích; nad mostem čárkovaný zaměřovač a otazník.",
+   "pause": 0.6
+  },
+  {
+   "id": "S15b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "cta": true,
+   "pause": 2.4,
+   "note": "CTA podle docs/cta.md — dědí S15, ~1:10, hned za druhou otázkou."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Odklad otázky: „We'll get there.“ Otázka zůstává viset — proto zaměřovač ztlumeně, ne pryč.",
+   "diagram_generator": "otazka",
+   "diagram": "Páteř A s tankem, nad ní nápis FIRST: SURVIVE THE TANK; ztlumený zaměřovač z S15 v rohu."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Řez napříč, ne bokorys mostu — jiný pohled, jiný rám, aby se nepletl s páteří A.",
+   "diagram_generator": "stabilita",
+   "diagram": "Řez úzkou lodí s nákladním autem, loď převrácená na bok na hladině; štítek FLOATS — ON ITS SIDE."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Vratný moment. Šipka pod ponořenou stranou MUSÍ být delší než pod druhou (assert) — jinak kresba tvrdí opak.",
+   "diagram_generator": "stabilita",
+   "diagram": "Řez širokým pontonem: jedna hrana ponořená hlouběji, pod ní delší šipka vztlaku nahoru (ambrová) a obloukovitá šipka vracení.",
+   "pause": 0.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Roznesení zatížení. Počet zatížených sekcí stejný jako v S08 (sdílená konstanta).",
+   "diagram_generator": "stabilita",
+   "diagram": "Páteř A: spojené sekce, tank uprostřed, šipky jeho váhy se rozbíhají do několika sousedních sekcí; štítek RIBBON BRIDGE.",
+   "pause": 0.4
+  },
+  {
+   "id": "S20",
+   "source": "archive",
+   "effect": "pan_left",
+   "visual": "images/S20.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "132nd Multi-Role Bridge Company (29895493982)",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. Ribbon bridge na široké vodě v protisvětle, public domain. „rides the waves“ — fotka se hýbe, diagram ne.",
+   "pause": 0.4
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "„can weigh exactly the same, and still not be equally safe.“ Stejná hmotnost záměrně stejným písmem i barvou.",
+   "diagram_generator": "zatizeni",
+   "diagram": "Tank a nákladní auto vedle sebe na téže lince; nad oběma 60 t, mezi nimi = a pod tím ≠ SAME LOAD?"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Součet délek šipek u obou stejný (assert), liší se jen rozložení — přesně to scéna tvrdí.",
+   "diagram_generator": "zatizeni",
+   "diagram": "Tytéž dvě siluety: pod tankem dlouhý rovnoměrný pruh malých šipek (pás), pod autem tři soustředěné velké šipky (nápravy)."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "NEPSAT „70 t“ — MLC nejsou tuny. 70 = třída, kterou zvládne dvoumodulový M3 (army.mod.uk). Žlutá je tu jediná výjimka z palety, protože je to skutečná barva značky.",
+   "diagram_generator": "zatizeni",
+   "diagram": "Kulatá žlutá značka MLC s číslem 70 (jako skutečné značky u mostů), vedle MILITARY LOAD CLASSIFICATION a pod tím WEIGHT + HOW IT LOADS THE BRIDGE."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Čluny (BEB) skutečně drží most proti proudu, ~1 na 3–4 sekce — počet člunů z toho spočítat.",
+   "diagram_generator": "reka",
+   "diagram": "Páteř B: proud jako šipky po toku, most mírně prohnutý po proudu, kotvy na lanech proti proudu a malé čluny tlačící proti proudu."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "„enough buoyancy… and still fail“. Fajfka a křížek NA RŮZNÝCH věcech, ne obojí u mostu.",
+   "diagram_generator": "reka",
+   "diagram": "Páteř B: most odtlačený po proudu (čárkovaná původní poloha), fajfka BUOYANCY ✓ a křížek u kotev.",
+   "pause": 1.0
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Návrat k visící otázce, konec bloku stability.",
+   "diagram_generator": "otazka",
+   "diagram": "Páteř B s čárkovaným zaměřovačem jako v S15, nápis WHY RELY ON SOMETHING THIS DELICATE?",
+   "pause": 2.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "„a retreating defender will often blow up the bridges behind it“ — obecně, žádné konkrétní místo.",
+   "diagram_generator": "logistika",
+   "diagram": "Půdorys: kolona vozidel zastavená u řeky, opodál stálý most s vybouchnutým polem (mezera).",
+   "pause": 0.5
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "„So the attacker brings their own.“",
+   "diagram_generator": "logistika",
+   "diagram": "Kolona nákladních aut se složenými sekcemi míří k řece."
+  },
+  {
+   "id": "S29",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S29.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Exercise Hwang So-06",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. Sekce ribbon bridge sjíždí z nákladního auta do vody (cákance). CC BY 2.0 — atribuce povinná."
+  },
+  {
+   "id": "S30",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S30.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Two M3 Amphibious Rigs during AOH 2022 300522",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. Dvě M3 na řece s posádkou. CC BY-SA 4.0. Když nevyhoví (výšková zástavba v pozadí), záložní CC0 „M3 Amphibious Rig Moving on Keelung River 20150204“."
+  },
+  {
+   "id": "S31",
+   "source": "archive",
+   "effect": "pan_left",
+   "visual": "images/S31.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "2647983 Exercise Anakonda 2016 German and british M3 amphibious rigs in Chelmno",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. Anakonda 2016, Chełmno: řada M3 na Visle. Public domain. Vlajky jsou skutečné (snímek), negative SDXL se tu neuplatní."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "„assembly, not the operation“. Délky úseků nejsou data — čárkovaně, aby netvrdily poměr.",
+   "diagram_generator": "logistika",
+   "diagram": "Časová osa: krátký ambrový úsek ASSEMBLY ~30 MIN uvnitř dlouhé osy OPERATION, na níž ztlumeně TRANSPORT · APPROACHES · QUEUE."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Fronta zavedená tady, v S42–S43 se z ní stane cíl. Počet teček z konstanty.",
+   "diagram_generator": "logistika",
+   "diagram": "Páteř B: cesty k řece, nájezdy na obou březích, před mostem fronta vozidel (tečky)."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Konec bloku před Bilohorivkou.",
+   "diagram_generator": "logistika",
+   "diagram": "Páteř B, fronta ambrově zvýrazněná, zbytek ztlumený; nápis THE REAL WEAKNESS.",
+   "pause": 2.6
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Schéma, ne přesná mapa — štítek SCHEMATIC. Rusové od severu (les), vesnice na jihu; ověřit proti mapě před kreslením.",
+   "diagram_generator": "bilohorivka",
+   "diagram": "Schematická mapa: meandr Siverského Donce, na jižním břehu BILOHORIVKA, na severním les; drobný vložený rámeček EASTERN UKRAINE · MAY 2022."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Čárkovaně = očekávané místo (Witcomb: ukrajinští ženisté prověřovali terén od 7. 5.).",
+   "diagram_generator": "bilohorivka",
+   "diagram": "Táž mapa, na jižním břehu čárkovaný kruh EXPECTED CROSSING SITE."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Kouř a pálení stromů dle CEOBS. Stejné souřadnice mapy jako S35–S38 (sdílená funkce).",
+   "diagram_generator": "bilohorivka",
+   "diagram": "Táž mapa: kouř nad lesem na severním břehu, přes řeku rozestavěný most; ikona průzkumu (oko) a štítek CONFIRMED."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "„Artillery opened fire. Airstrikes followed.“ Pořadí: dělostřelectvo plnou čarou, letectvo druhé.",
+   "diagram_generator": "bilohorivka",
+   "diagram": "Táž mapa: oblouky dělostřelectva od jihu na místo přechodu, pak ikony letadel.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S39",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S39.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Форсування Сіверського Донця",
+    "pick": 0,
+    "grade": {
+     "saturation": 80
+    }
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. ArmyInform (zpravodajská agentura MO Ukrajiny), „Білогорівка, розбита переправа“, letecký snímek rozbitého přechodu s vraky, CC BY 4.0 — atribuce armyinform.com.ua povinná. Hlas od v0.4 „Images later showed“ (dřív „Satellite“ — nesoulad s leteckým snímkem, uživatel). Originál 1173×782, bude měkký."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Znění doslova, s výpustkou a atribucí — zachovat opatrnost hodnocení (uživatel). Žádné číslo ztrát v obraze.",
+   "diagram_generator": "bilohorivka",
+   "diagram": "Citační karta: \"…significant armoured manoeuvre elements of at least one battalion tactical group\" a pod ní UK DEFENCE INTELLIGENCE, 13 MAY 2022.",
+   "pause": 1.6
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Výplata páteře A: fyzika fungovala, přechod ne. Fajfka u pontonů, křížek u slova CROSSING — ne u mostu.",
+   "diagram_generator": "vztlak",
+   "diagram": "Páteř A: pontony na hladině s fajfkou FLOATED ✓, přes celý obraz ztlumený křížek u CROSSING."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "„one narrow point… wait its turn“. Fronta z S33 (týž počet a poloha teček).",
+   "diagram_generator": "cil",
+   "diagram": "Páteř B: fronta se zužuje do jediného místa — mostu; nálevka z teček."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Výplata zaměřovače z S15 — tam čárkovaně (otázka), tady plně.",
+   "diagram_generator": "cil",
+   "diagram": "Páteř B: plný ambrový zaměřovač přes most a frontu; nápis A TARGET WITH A QUEUE.",
+   "pause": 2.6
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "„So yes, the enemy can destroy it.“",
+   "diagram_generator": "cil",
+   "diagram": "Páteř B: most s vybouchnutou sekcí uprostřed (mezera)."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Čárkovaně = možnost, ne jistota.",
+   "diagram_generator": "cil",
+   "diagram": "Páteř B: tentýž přerušený most, ale šipka toku pokračuje: náhradní trasa čárkovaně jinde po řece; nápis ≠ CROSSING STOPPED."
+  },
+  {
+   "id": "S46",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S46.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "US Navy 051105-M-5426L-004 Republic of Korea American and Korean Improved Ribbon Bridge rafts",
+    "pick": 0,
+    "grade": {}
+   },
+   "note": "KANDIDÁT z kontaktního listu 2026-10-12 (scratchpad, kontakt.py nad Commons API, dotaz = přesný název souboru); pick ověřit `--search --provider wikimedia` a po stažení okem. Rafty z Improved Ribbon Bridge vezou tanky přes řeku Imjin/Yam Ha. Public domain. Doklad k „in some systems… rafts“.",
+   "pause": 0.5
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Závod. Ani jedna strana nevyhrává — kruhy stejně velké.",
+   "diagram_generator": "cil",
+   "diagram": "Dva protiběžné kruhy šipek: DISRUPT (ambrově) a RESTORE; mezi nimi FUEL · AMMUNITION · REINFORCEMENTS."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Opatření, ne záruka (uživatel).",
+   "diagram_generator": "cil",
+   "diagram": "Páteř B potemnělá (noc), kouřová oblaka nad mostem, dvě čárkovaná náhradní místa přechodu; dole NONE OF THAT GUARANTEES SAFETY."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "„one of its few protections“ — žádné ONLY.",
+   "diagram_generator": "cil",
+   "diagram": "Stopky SPEED vedle oka FOUND; mezi nimi šipka — rychlost platí, dokud ho nenajdou.",
+   "pause": 2.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Začátek závěrečného okna: HORNÍ polovina volná pro dlaždici a kolečko odběru (docs/storyboard-a-diagramy.md).",
+   "diagram_generator": "vztlak",
+   "diagram": "Páteř A ve spodní polovině: pontony malé s fajfkou FLOATING; nad nimi STAYING ALIVE větším písmem — vše pod polovinou výšky.",
+   "pause": 0.4
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Výplata: týž most, který na začátku vypadal jako zázrak, je z výšky viditelný cíl (uživatel). Horní polovina volná. „If…“ — čas nalezení otazníkem, ne číslem.",
+   "diagram_generator": "cil",
+   "diagram": "Páteř B ve spodní polovině, kolem mostu rohové závorky hledáčku dronu (pohled z výšky); vlevo drobně ~30 MIN TO BUILD vs ? MIN TO FIND."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "„a river becomes a road“. Závěrečná deska: horní polovina prázdná, static, dlouhá pauza.",
+   "diagram_generator": "vztlak",
+   "diagram": "Páteř A ve spodní polovině: tank uprostřed mostu, hladina pod mostem přechází v čárkovanou středovou čáru silnice.",
+   "vycet": 0.3,
+   "pause": 3.0
+  }
+ ]
+}

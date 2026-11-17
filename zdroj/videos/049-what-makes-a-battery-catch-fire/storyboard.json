@@ -1,0 +1,789 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ VIDEA se zavádí tady: _kit.clanek() na pevném středu. První scéna NENÍ sdxl a nese myšlenku, ne atmosféru — divák vidí přesně tu věc, o které je celé video, a vidí ji hořet dřív, než padne slovo lithium.",
+      "diagram_generator": "uvod",
+      "diagram": "Jediný článek uprostřed plátna, ambrový, z pojistného ventilu stoupá plamen. Kolem nic."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Článek se NEHÝBE a nemění, mění se jen nápis nad ním. Titulek je cizí tvrzení, ne naše — sází se do rámečku jako výstřižek, aby to bylo poznat.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad týmž článkem naskočí novinový titulek LITHIUM-ION BATTERIES ARE DANGEROUS."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Tentýž prvek, tři měřítka. Připravuje S13 a S57 — mezi nimi se liší jen velikost okolí, ne článek.",
+      "diagram_generator": "uvod",
+      "diagram": "Článek se zmenší do rohu tří obrysů: telefon, notebook, auto. V každém týž tvar článku."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Druhá půlka páteře: JMENOVATEL. Počet v mřížce je v kódu konstanta a zapsaný assertem, protože přesně tenhle obraz se vrací v S08, S55 a S81.",
+      "diagram_generator": "uvod",
+      "diagram": "Mřížka mnoha studených článků přes celé plátno, jeden jediný ambrový."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Žádná z variant nesmí být ambrová — ambrová znamená „o tomhle je řeč“, a tady se teprve ptáme. Kdyby jedna svítila, kresba by odpověděla dřív než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž mřížka, nad ní dvě protichůdná tvrzení ve dvou rámečcích, obě zatím bílá.",
+      "pause": 2.0
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zavádí ŘEZ, na kterém stojí S16–S22. Pointa scény je poloha: hořlavina je uvnitř obrysu článku, ne venku.",
+      "diagram_generator": "uvod",
+      "diagram": "Řez článkem: uvnitř ambrová plocha s popiskem FUEL, kolem ní obrys místnosti s popiskem AIR."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Dva stavy téhož článku vedle sebe, ne dvě různé kresby. Hodiny v pravém panelu nesou „an hour after you think it is out“.",
+      "diagram_generator": "uvod",
+      "diagram": "Dva panely: vlevo přikrývka přes hořící článek (marně), vpravo týž článek o hodinu později znovu hoří."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Přesný protipohyb k S04 na TÝCHŽ souřadnicích. Kdyby se mřížka posunula, divák si spojení nevšimne.",
+      "diagram_generator": "uvod",
+      "diagram": "Mřížka z S04, ambrový článek zhasne a splyne se zbytkem."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Konec úvodního bloku, otázka videa. Dlouhá pauza za ní je záměr — divák má mít vteřinu na to, aby si otázku položil sám.",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdné plátno s jedinou otázkou: WHAT HAS TO GO WRONG FIRST?",
+      "pause": 2.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Commons nemá použitelný snímek prvního článku ani Handycamu (hledáno 2026-09-16), takže historie je diagram. Letopočet je ČÍSLICÍ; výslovnost řeší pronounce v project.json.",
+      "diagram_generator": "historie",
+      "diagram": "Časová osa od 1991 doprava, na začátku bod SONY, dál jen prázdno."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Tvrzení scény je „lehké a hodně energie“, takže osa musí být na KILOGRAM. Kdyby byla na objem, kresba by tvrdila něco jiného než voiceover.",
+      "diagram_generator": "historie",
+      "diagram": "Sloupce hustoty energie na kilogram, lithiová soustava nejvyšší; vedle ní vážená ikona."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Data z BNEF, viz factcheck bod 1. Osa je za PACK, ne za článek — scénář to říká taky, a kdyby se to při škrtu zkrátilo na „cell“, kresba i věta by lhaly společně.",
+      "diagram_generator": "historie",
+      "diagram": "Křivka ceny packu 2010 → 2023, z přes 1 100 na 139 dolarů za kWh, popisek −88 %."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Callback na S03 se shodným rozvržením. Rozdíl je jen v měřítku okolí — to je celé tvrzení scény.",
+      "diagram_generator": "historie",
+      "diagram": "Týž článek ze S03 dvakrát: v obrysu telefonu a pod obrysem auta.",
+      "pause": 2.2
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Scéna říká „deeply boring“, takže obraz musí být opravdu prázdný. Žádné šipky, žádné popisky.",
+      "diagram_generator": "clanek",
+      "diagram": "Plochý stříbrný obdélník telefonní baterie, zvenčí, bez jediného popisku."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Náznak, ne hotový řez — ten přijde až v S16. Data v obraze od prvního snímku (poučení z videa 003: prázdné osy čte divák jako rozbitý graf), proto obrysy, ne prázdno.",
+      "diagram_generator": "clanek",
+      "diagram": "Týž obdélník, uvnitř se objeví slabounké obrysy vnitřní stavby."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Základní obraz celé kapitoly. Popisky se sázejí text_do() pod vrstvu, odsazení se odvozuje z výšky vrstvy, ne odhadem.",
+      "diagram_generator": "clanek",
+      "diagram": "Řez článkem se třemi popsanými vrstvami: kladná elektroda, elektrolyt, záporná elektroda."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Dvě šipky musí být rozlišené (plná = nabíjení, druhá ztlumená), jinak kresba tvrdí, že se obojí děje naráz.",
+      "diagram_generator": "clanek",
+      "diagram": "Do řezu přibudou ionty jako tečky a šipky oběma směry: nabíjení tam, vybíjení zpět."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Škrtá se PLOCHA elektrolytu, ne nápis — přes nápis se podle konvence kanálu škrtá vodorovnou čarou a jen když neplatí celý.",
+      "diagram_generator": "clanek",
+      "diagram": "Elektrolyt dostane přeškrtnutou cestu, elektrony jdou vnějším obvodem přes obrys telefonu."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Scéna, ve které něco míří na někoho: cíl šipky musí být PŘESNĚ separátor, ne mezera mezi elektrodami. Ověřit proti S20.",
+      "diagram_generator": "clanek",
+      "diagram": "Řez ztmavne, ambrová šipka míří do jeho středu."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Ambrová = „o tomhle je řeč“. Nikde jinde v tomhle bloku ambrová být nesmí, jinak se scéna čte jako „separátor je ten dobrý“.",
+      "diagram_generator": "clanek",
+      "diagram": "Separátor uprostřed řezu rozsvícený ambrově, s popiskem SEPARATOR."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "DATA V KRESBĚ: poměr šířek je spočítaný z čísel a zajištěný assertem. Kdyby se kreslil od oka, obraz by tvrdil jiný poměr než věta.",
+      "diagram_generator": "clanek",
+      "diagram": "Porovnání tloušťky: separátor pod 20 µm proti vlasu ~70 µm, obojí ve skutečném poměru."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Souhrn kapitoly. Tři štítky, ne čtyři — přesně to, co říká voiceover, včetně pořadí.",
+      "diagram_generator": "clanek",
+      "diagram": "Nad řezem tři štítky: A GREAT DEAL OF ENERGY, A FLAMMABLE LIQUID, A FILM."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Konec bloku o stavbě článku.",
+      "diagram_generator": "clanek",
+      "diagram": "Tytéž tři štítky, pod nimi dvě slova: USEFUL a NOT FORGIVING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Rámečky jsou prázdné schválně — naplní se v S25. Je to jediné místo, kde prázdný rámeček nese význam („něco se musí stát“), ne nedodělek.",
+      "diagram_generator": "porucha",
+      "diagram": "Klidný článek uprostřed, kolem prázdné rámečky čekající na příčiny."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Čtvrtá ikona (vada výroby) je ta, kterou video rozvine v S63 a v New Yorku — kreslí se proto stejným tvarem jako tam.",
+      "diagram_generator": "porucha",
+      "diagram": "Čtyři ikony v rámečcích: rozdrcení, přehřátí, přebití, vada výroby."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Vnitřní zkrat. Bod dotyku leží na souřadnicích, ze kterých vychází celá kaskáda S27–S32 — zapsat do _kit.py jako konstantu.",
+      "diagram_generator": "porucha",
+      "diagram": "Řez článkem, ve kterém se obě strany dotknou v jednom bodě."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Sbíhavost je celé tvrzení scény: energie CELÉHO článku přes JEDNO místo.",
+      "diagram_generator": "porucha",
+      "diagram": "Proudnice z celé plochy se sbíhají do toho jednoho bodu, bod se rozžhaví."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Teploměr je bez čísla. Konkrétní teplota ve scénáři záměrně není (factcheck bod 3), takže ji nesmí dodat ani kresba.",
+      "diagram_generator": "porucha",
+      "diagram": "Popisek separátoru: PLASTIC, s teploměrem vedle."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tři stavy TÉHOŽ místa, shodné rozvržení, mění se jen tvar filmu.",
+      "diagram_generator": "porucha",
+      "diagram": "Tři fáze vedle sebe: film celý, film smrštěný od horkého místa, díra."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Smyčka musí být uzavřená a šipky jednosměrné. Šipka nese nevyhnutelnost, a přesně to je pointa.",
+      "diagram_generator": "porucha",
+      "diagram": "Kruhová smyčka: větší díra → víc proudu → víc tepla → větší díra."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Přibývá zdroj tepla, nikoli nový cyklus. Kdyby se nakreslila druhá smyčka vedle, kresba by tvrdila dva nezávislé jevy.",
+      "diagram_generator": "porucha",
+      "diagram": "Do smyčky přibude druhý vstup: exotermní reakce, další šipka dovnitř."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Ambrová celá smyčka = „teď je řeč o ní“. Prázdno kolem je tvrzení: nic ji nezastaví.",
+      "diagram_generator": "porucha",
+      "diagram": "Táž smyčka celá ambrová, mimo ni nikde žádná brzda."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pojmenování jevu. Nejdelší pauza první poloviny videa.",
+      "diagram_generator": "porucha",
+      "diagram": "Smyčka ztmavne a přes plátno se vysází THERMAL RUNAWAY.",
+      "pause": 2.6
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Překlopení musí být na týchž souřadnicích jako baterie ze S24, aby bylo vidět, že je to tentýž předmět.",
+      "diagram_generator": "ohen",
+      "diagram": "Symbol baterie se překlopí na symbol topení, které samo do sebe vede šipku."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Ventil je na témže místě jako plamen v S01. Je to callback, ne nová kresba.",
+      "diagram_generator": "ohen",
+      "diagram": "Článek praská u ventilu, ven jde horký plyn."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "NEJRIZIKOVĚJŠÍ SCÉNA VIDEA. Čárkovaná čára = podmíněné tvrzení (konvence kanálu); pro LFP to neplatí a video LFP o čtyřicet scén dál chválí. Plná čára by udělala z výjimky pravidlo.",
+      "diagram_generator": "ohen",
+      "diagram": "Rozpadající se elektroda uvolňuje kyslík — celý výjev ČÁRKOVANĚ a se štítkem SOME CHEMISTRIES."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Rám se z S36 DĚDÍ. Jakmile by zmizel, zůstalo by tvrzení „baterie si nese vlastní vzduch“ bez podmínky.",
+      "diagram_generator": "ohen",
+      "diagram": "Plamen, do kterého vede ambrová šipka z kyslíku, pořád v čárkovaném rámu."
+    },
+    {
+      "id": "S38",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S38.png",
+      "note": "Jediná atmosférická scéna první poloviny. Je tu proto, že hašení není tvrzení k nakreslení, ale situace — a diagram by z ní udělal návod, což video dávat nechce.",
+      "prompt": "firefighters at night directing a hose at a smoking metal object on wet tarmac, seen from behind, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S39",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-09-16), ne od stolu: rozebraný notebookový pack — šest válcových článků vedle sebe a pod nimi ochranný obvod. Je to přesně to, co scéna říká ('shoulder to shoulder, in packs') a zároveň příprava na S59, kde se ta elektronika pojmenuje. Dotaz vrací jediný výsledek, takže je pick stabilní; doklad je stejně otisk .orig. Lead holder, CC BY-SA 3.0 — atribuce povinná. Grade je ztmavený proti výchozímu (levels 16–82 %, saturace 42): originál je fialové články na bílém milimetrovém papíře a ve výchozím gradu svítil proti zbytku videa.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "lithium ion laptop battery internals",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88,
+          "levels": "16%,82%",
+          "saturation": 42
+        }
+      }
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Gradient smí ubývat jen směrem OD horkého článku. Kdyby hřály oba sousedi stejně, kresba by tvrdila současné selhání celého packu.",
+      "diagram_generator": "ohen",
+      "diagram": "Řada článků v packu, jeden ambrový a horký, teplo prostupuje k sousedům."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Konec mechanismu a poslední scéna před výzvou k odběru. Musí být STATICKÝ DIAGRAM, protože S41b z něj dědí obraz — u pohybu nebo u sdxl by prolínačka skočila.",
+      "diagram_generator": "ohen",
+      "diagram": "Dvě strany vedle sebe: telefon s plamínkem, schodiště domu v plamenech. Táž chemie, jiný následek.",
+      "pause": 1.2
+    },
+    {
+      "id": "S41b",
+      "source": "svg",
+      "visual": "images/S41.png",
+      "effect": "static",
+      "cta": true,
+      "note": "Výzva k odběru podle docs/cta.md. Sedí za hlavní pointou (mechanismus je dopovězený, riziko ještě nezačalo) a je to 49 % stopáže, tedy uvnitř pásma 40–60 %. Dědí obraz S41, nekreslí se nic.",
+      "pause": 2.6
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Odpověď bez kliček. Ambrová, protože právě o ní je řeč.",
+      "diagram_generator": "riziko",
+      "diagram": "Přes celé plátno jediné slovo: YES."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Odpověď nezmizí, jen ztratí váhu. Přeškrtnutí by tvrdilo „není to pravda“, a to scénář neříká.",
+      "diagram_generator": "riziko",
+      "diagram": "Totéž YES, ztlumené do šedi, pod ním drobně: AND?"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Článek je v řadě jako třetí, ve stejné velikosti a stejným tahem. Kdyby byl větší nebo ambrový, kresba by tvrdila, že je nebezpečnější než pila.",
+      "diagram_generator": "riziko",
+      "diagram": "Tři ikony se štítkem DANGEROUS: řetězová pila, plynový sporák, článek baterie."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Přeškrtává se celý nápis, protože neplatí celá otázka — přesně ten případ z konvencí kanálu.",
+      "diagram_generator": "riziko",
+      "diagram": "Otázka CAN IT HURT YOU? se škrtne a nahradí ji HOW OFTEN?",
+      "pause": 1.4
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Nepoměr ploch JE tvrzení scény a je spočítaný, ne odhadnutý.",
+      "diagram_generator": "riziko",
+      "diagram": "Hromada titulků vlevo, mřížka článků vpravo; titulky zabírají skoro celé plátno."
+    },
+    {
+      "id": "S47",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S47.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-09-16) ze šesti kandidátů, a je to DRUHÁ volba: pick 0 byl telefon zepředu s černým displejem, který po gradu splynul s pozadím tak, že nešlo poznat, co to je. Pick 1 je zadní strana v modré barvě, tedy světlý objekt na tmavém poli. Pang Kakit, CC BY-SA 4.0 — atribuce povinná. Změna picku vyžaduje --force, jinak se znovu použije starý .orig a vznikne nový licenční záznam ke starým pixelům.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Samsung Galaxy Note 7",
+        "pick": 1,
+        "grade": {
+          "fit": 0.86,
+          "levels": "4%,88%"
+        }
+      }
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Verze 0.2 tu měla hodnotící soud „one of the most expensive product failures“; uživatel ho nahradil číslem. Kresba proto ukazuje jen to číslo a žádné srovnání s cizími kauzami, které bychom museli doložit.",
+      "diagram_generator": "riziko",
+      "diagram": "Číslo 5 300 000 000 dolarů jako sloupec, vedle drobná ikona telefonu."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "DATA V KRESBĚ: obojí je konstanta v kódu a zajištěné assertem. Ambrových teček musí být 92, i když je ve výsledku nikdo nespočítá — to, že je skoro nevidět, je celé sdělení scény.",
+      "diagram_generator": "riziko",
+      "diagram": "Čtverec z milionu teček, v něm 92 ambrových."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Přiblížení TÉHOŽ obrazu, ne nová kresba. Poměr 1 : 10 000 je spočítaný ze S49.",
+      "diagram_generator": "riziko",
+      "diagram": "Z téhož čtverce se vyřízne výřez deseti tisíc teček s jedinou ambrovou."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Obojí je doložené (factcheck bod 4). Nic třetího — verze 0.2 tu měla ještě peníze, ty se přesunuly do S48.",
+      "diagram_generator": "riziko",
+      "diagram": "Dva důsledky vedle sebe: konec modelu a zákaz na palubě.",
+      "pause": 2.2
+    },
+    {
+      "id": "S52",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S52.png",
+      "note": "Scéna říká „count the batteries around you“ — obyčejný pokoj je situace, ne tvrzení, takže sdxl. Prompt schválně NEjmenuje zařízení: kdyby je model vyjmenoval, spočítal by je za diváka. DRUHE KOLO (2026-09-16): prvni seed dal stary vyklizeny pokoj bez jedineho zarizeni, a scena pritom rika \"count the batteries around you\", takze prazdna mistnost funkci nenese. Prompt ted zminuje nabijeci kabel jako jedine voditko; zarizeni se porad nevyjmenovavaji, aby je model nespocital za divaka.",
+      "prompt": "a modern living room at night, sofa and low table with a few everyday objects and a charging cable, one lamp lit, seen from a doorway, painterly documentary illustration, no text",
+      "seed": 778201
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Kužel vede OD události k divákovi, ne obráceně. Scéna, ve které něco míří na někoho — ověřit směr.",
+      "diagram_generator": "riziko",
+      "diagram": "Letadlo a bytový dům, nad oběma ostrý kužel pozornosti."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Jediná scéna videa, která musí být vizuálně nudná. To je její funkce.",
+      "diagram_generator": "riziko",
+      "diagram": "Noční stolek, telefon na nabíječce, nic se neděje. Žádný zvýrazňovač."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "VÝPLATA PÁTEŘE a podle uživatele jádro celého videa („we never see the denominator“). Souřadnice mřížky musí být shodné s S04 a S08, jinak se výplata nepozná. Nejdelší pauza videa.",
+      "diagram_generator": "riziko",
+      "diagram": "Mřížka článků z S04 vyplní celé plátno; jediný ambrový nahoře, pod ním se rozsvítí celý zbytek.",
+      "pause": 2.8
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Nová otázka hned za pointou — tím se video vyhýbá vadě z Jet Fuel, kde po dopovězené pointě zbývaly tři minuty.",
+      "diagram_generator": "meritko",
+      "diagram": "Otázka SAFE ENOUGH FOR WHAT? na prázdném plátně."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "DATA V KRESBĚ: poměr ploch je spočítaný z Wh a zajištěný assertem. Odhadnutý poměr by tvrdil jinou násobnost než scénář.",
+      "diagram_generator": "meritko",
+      "diagram": "Plochy úměrné energii: telefon ~12 Wh, kolo ~500 Wh."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Pokračování S57 v TÉMŽE měřítku. Verze 0.2 tu měla ještě dálnici zavřenou na celý den — vypuštěno, nebyl k tomu doložený případ.",
+      "diagram_generator": "meritko",
+      "diagram": "Táž řada pokračuje autem v desítkách tisíc Wh; telefon je proti němu bod.",
+      "pause": 1.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Tady se z článku stává systém. Rámeček je vně článků, ne mezi nimi.",
+      "diagram_generator": "meritko",
+      "diagram": "Pack z článků, kolem něj rámeček elektroniky se senzory."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Spínač je nakreslený v poloze ROZPOJENO jen v okamžiku, kdy o tom scénář mluví — jinak by kresba tvrdila, že je baterie odpojená pořád.",
+      "diagram_generator": "meritko",
+      "diagram": "Tři měřené veličiny a spínač, který umí okruh rozpojit."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Přesně pět, v pořadí, v jakém je scénář jmenuje.",
+      "diagram_generator": "meritko",
+      "diagram": "Pět dílů systému v řadě: články, senzory, software, kryt, nabíječka."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Tvrzení je „kterýkoli“, ne „nejslabší“ — takže se nesmí zvýraznit jen jeden.",
+      "diagram_generator": "meritko",
+      "diagram": "Týž řetěz, každý článek řetězu se rozsvítí jako možné selhání."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Čtvrtá vada se kreslí jako PRÁZDNÉ místo v obvodu — chybějící součástka je tvrzení scény.",
+      "diagram_generator": "meritko",
+      "diagram": "Čtyři konkrétní vady: trhlina ve filmu, kovová třpytka v elektrodě, špatný svar, chybějící ochranný obvod."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Shoda musí být doslovná: obě kresby ze stejné funkce se stejnými parametry. Kdyby se lišily o pixel, scéna přestane platit.",
+      "diagram_generator": "meritko",
+      "diagram": "Dva packy vedle sebe, k nerozeznání, bez jediného rozlišujícího znaku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Jediná scéna videa s vlastním jménem místa. Žádná vlajka, žádná silueta Manhattanu jako pohlednice — jde o městskou regulaci, ne o turistiku.",
+      "diagram_generator": "newyork",
+      "diagram": "Nápis NEW YORK nad obrysem města, jinak prázdno."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Obojí doložené (factcheck bod 5). Čísla se sázejí ČÍSLICÍ v obraze, ačkoli voiceover je má slovy — titulek s letopočtem slovy vypadá strojově.",
+      "diagram_generator": "newyork",
+      "diagram": "Dva údaje za rok 2023: 268 požárů a 18 mrtvých."
+    },
+    {
+      "id": "S67",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S67.png",
+      "note": "Šedý trh je situace, ne schéma. Prompt míří na přebalený pack na ponku, ne na obchod — scénář mluví o packech přestavěných ze zachráněných článků.",
+      "prompt": "a cluttered back room workshop with rebuilt battery packs wrapped in tape on a bench, bare bulb, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Škrtá se pack BEZ štítku, tedy to, co se zakázalo prodávat. Ověřit, že škrt nesedí na certifikovaném — je to přesně ten typ chyby, kdy kresba tvrdí opak.",
+      "diagram_generator": "newyork",
+      "diagram": "Certifikační štítek na packu; vedle týž pack bez štítku a přeškrtnutý."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Značka zákona je na ose jako UDÁLOST, ne jako šipka vedoucí od zákona k poklesu. Scénář tvrdí souslednost, ne příčinu — kresba nesmí tvrdit víc (factcheck bod 5).",
+      "diagram_generator": "newyork",
+      "diagram": "Časová osa 2023 → 2025, sloupec 18 klesne na 1, mezi nimi značka zákona."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Dvojice „co se nezměnilo / co se změnilo“. Článek vlevo je doslova týž tvar jako v S01.",
+      "diagram_generator": "newyork",
+      "diagram": "Vlevo článek beze změny, vpravo se mění štítky na packech.",
+      "pause": 2.4
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Přechod, který uživatel označil za funkční. Nechat holý.",
+      "diagram_generator": "kompromis",
+      "diagram": "Otázka WHY NOT SIMPLY MAKE THEM SAFE? na prázdném plátně."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Sedm, ne šest — bezpečnost je jeden z požadavků, ne kategorie nad nimi. Přesně to je pointa scény.",
+      "diagram_generator": "kompromis",
+      "diagram": "Sedm požadavků kolem článku: malý, lehký, levný, výkonný, rychle nabitelný, dlouho živý, bezpečný."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Poměr náplně i poměr uvolnění se počítá z jednoho čísla, aby kresba netvrdila jinou násobnost.",
+      "diagram_generator": "kompromis",
+      "diagram": "Dvě krabice stejné velikosti, v jedné málo energie, ve druhé hodně; u druhé větší uvolnění."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Druhá nejsilnější myšlenka videa podle uživatele. Váhy musí být VYROVNANÉ — nakloněné by tvrdily, že jedna strana vyhrává, což scénář nikde neříká.",
+      "diagram_generator": "kompromis",
+      "diagram": "Váhy: na jedné misce užitečnost, na druhé následek selhání. Vyrovnané.",
+      "pause": 2.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Všechna čtyři stejnou vahou. Žádné z nich není průlom — to je smysl slova „mostly“.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Čtyři zlepšení na téže ose: separátory, chlazení, výrobní kontrola, detekce vad."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Obojí musí být vidět naráz, jinak scéna tvrdí buď „LFP je horší“, nebo „LFP je lepší“. Je to výměna, ne vítěz.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Dvě osy: energie na kilogram a tepelná stabilita. LFP níž na první, výš na druhé."
+    },
+    {
+      "id": "S77",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S77.png",
+      "note": "„A battery bolted to the ground does not care what it weighs.“ Úložiště je konkrétní typ místa, ale ne pojmenovaný objekt, takže sdxl. V promptu je flat overcast sky schválně: dawn a dusk dávají u SDXL vždycky zlaté světlo proti kotvě stylu. DRUHE KOLO (2026-09-16): prvni seed dal valcova sila, ktera se ctou jako zemedelske nadrze, ne jako uloziste energie. Prompt ted rika OBDELNIKOVE kontejnery na betonovych patkach, coz je i skutecna podoba bateriovych ulozist.",
+      "prompt": "wide distant view of a fenced compound with six identical grey steel battery container units standing side by side on concrete, empty field around, flat grey overcast sky, no sun, painterly documentary illustration, no text",
+      "seed": 902337
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Týž řez jako v S16, aby byl rozdíl vidět na jediné vrstvě.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Řez článkem, ve kterém se kapalný elektrolyt nahradí pevným; hořlavá plocha zmizí."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Čárkovaně = hypotéza, stejná konvence jako u kyslíku v S36. Bez ní scéna slibuje hotovou technologii.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Přes tentýž řez se položí ČÁRKOVANÝ rám a štítek IN PRINCIPLE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA začíná tady: od téhle scény musí zůstat volná HORNÍ polovina rámu, protože YouTube tam vkládá dlaždici a kolečko odběru a dole vždycky sedí titulek. Kontroluje zaver_check.py.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Návrat k obrazu z S05: dvě protichůdná tvrzení, mřížka pod nimi."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Poslední výplata páteře: „they became everywhere“. Nic dalšího v obraze být nesmí. Volná horní polovina.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Mřížka článků vyplní celé plátno beze zbytku, žádný ambrový.",
+      "pause": 2.2
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Návrat k S01 na TÝCHŽ souřadnicích, ale bez plamene. Volná horní polovina.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Jediný článek uprostřed, klidný, energie v něm naznačená ztlumeně.",
+      "pause": 2.2
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Závěrečná deska. Klidná, statická, s místem nahoře pro prvky závěrečné obrazovky.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Týž článek, pod ním poslední věta jako jediný nápis."
+    }
+  ]
+}

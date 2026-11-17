@@ -1,0 +1,842 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Hook. Nejobyčejnější možný obraz — teprve otázka ho zpochybní.",
+      "diagram_generator": "uvod",
+      "diagram": "ciferník obyčejných hodin, pod ním otázka WHAT IS TIME?"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Čas jako samozřejmost. Věci, které má divák doma.",
+      "diagram_generator": "uvod",
+      "diagram": "tři každodenní měřidla vedle sebe: nástěnné hodiny, kalendářová mřížka, displej telefonu"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Obrat. Samozřejmost se rozpadá; předměty zůstávají, jistota ne.",
+      "diagram_generator": "uvod",
+      "diagram": "tytéž tři předměty ztlumené, přes ně velký otazník"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Nosný obraz celého videa. Vrací se v S85 už vyplněný — musí být zapamatovatelný.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘNÍ DIAGRAM: vlevo TIME ITSELF jako nehybná osa událostí, vrapvo THE FEELING THAT IT FLOWS jako běžící značka"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Rozcestník. Divák má vědět, kam jdeme.",
+      "diagram_generator": "uvod",
+      "diagram": "cesta se čtyřmi zastávkami: CLOCKS, EINSTEIN, ENTROPY, THE BRAIN",
+      "pause": 2.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Co se vlastně stalo, když uběhla hodina.",
+      "diagram_generator": "hodiny",
+      "diagram": "událost ohraničená zleva doprava, pod ní řada tiků"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Tři měřidla, jeden princip. Popisky povinné — bez nich je to tři tvary.",
+      "diagram_generator": "hodiny",
+      "diagram": "tři oscilátory vedle sebe s vlastním počítadlem: ATOM, PENDULUM, PLANET"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Jádro kapitoly. Hodiny čas neplodí, jen porovnávají.",
+      "diagram_generator": "hodiny",
+      "diagram": "dva oscilátory porovnávané proti sobě, mezi nimi škrtnutá šipka CLOCKS DO NOT CREATE TIME"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Operační definice trvání.",
+      "diagram_generator": "hodiny",
+      "diagram": "pruh události nad řadou tiků, závorka TEN SECONDS"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Počítání změn místo plynutí.",
+      "diagram_generator": "hodiny",
+      "diagram": "tytéž tiky spočítané, číslo vypsané slovy"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Uzávěr kapitoly.",
+      "diagram_generator": "hodiny",
+      "diagram": "změna jako jediná cesta k času, ostatní vybledlé",
+      "pause": 2.2
+    },
+    {
+      "id": "S12",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Newtonův portrét. CELÁ HLAVA S ODSTUPEM (fit 0,84) a BEZ ZOOMU — obojí je nahlášená vada ze čtvrtého videa.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Isaac Newton portrait",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Absolutní čas na pozadí. Hodiny se dění nedotýkají — to je celý Newton.",
+      "diagram_generator": "newton",
+      "diagram": "dění dole (pohybující se objekty), nahoře oddělené univerzální hodiny tikající nezávisle"
+    },
+    {
+      "id": "S14",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S14.png",
+      "note": "Neviditelná řeka. Atmosféra, ne schéma — proto model.",
+      "prompt": "a vast slow river seen from above, flowing through empty dark space with no banks and no landscape around it, single warm brass glint on the water"
+    },
+    {
+      "id": "S15",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Einsteinův portrét, fit 0,84, bez zoomu. Nastupuje problém.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Albert Einstein 1921 portrait",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Druhý postulát. Klíčové je, že obě čísla jsou stejná.",
+      "diagram_generator": "svetlo",
+      "diagram": "dva pozorovatelé v různém pohybu, oba naměří na paprsku TÉŽE světlo touž rychlost c"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Různé intervaly, tytéž události.",
+      "diagram_generator": "svetlo",
+      "diagram": "dvoje hodiny, dva různé naměřené intervaly téže dvojice událostí"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Čas není jeviště, je herec.",
+      "diagram_generator": "svetlo",
+      "diagram": "čas přesunutý z kulisy dovnitř soustavy"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Nejdůležitější diagram relativistické části. Opravená věta z fact checku — vzájemnost musí být vidět, jinak obraz tvrdí, že jedna soustava je privilegovaná.",
+      "diagram_generator": "svetlo",
+      "diagram": "SYMETRIE: dva rámy vedle sebe, v každém vidí pozorovatel POMALEJŠÍ hodiny toho druhého, obě šipky ukazují ven"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Data v obraze od prvního snímku — ne prázdné osy. Čísla jsou ve factcheck.md.",
+      "diagram_generator": "svetlo",
+      "diagram": "Hafele–Keating: dvě letadla, naměřené hodnoty −59 ns na východ a +273 ns na západ proti předpovědím",
+      "pause": 2.4
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Minkowski.",
+      "diagram_generator": "casoprostor",
+      "diagram": "prostor a čas jako dva oddělené objekty splývající v jeden"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Ne vedle sebe, dohromady.",
+      "diagram_generator": "casoprostor",
+      "diagram": "nápis SPACE + TIME přeškrtnutý, pod ním SPACETIME"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Relativita současnosti.",
+      "diagram_generator": "casoprostor",
+      "diagram": "událost a otázka, co se stalo současně — dvě různé odpovědi podle pozorovatele"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Shoda na existenci, ne na pořadí.",
+      "diagram_generator": "casoprostor",
+      "diagram": "dvě události, na kterých se oba shodnou, že nastaly"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Není univerzální teď. Naklonění rovin je celá pointa — musí být zřetelné.",
+      "diagram_generator": "casoprostor",
+      "diagram": "dvě NAKLONĚNÉ roviny současnosti týmž časoprostorem, každá jinému pozorovateli",
+      "pause": 2.6
+    },
+    {
+      "id": "S26",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S26.png",
+      "note": "Tohle video právě sleduješ. Jediné místo, kde se mluví na diváka přímo.",
+      "prompt": "a lone silhouetted figure sitting in a dark room, face and hands lit only by the glow of a screen just off frame, quiet and still"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Neexistuje jediný řez celým vesmírem.",
+      "diagram_generator": "ted",
+      "diagram": "jedna univerzální rovina přítomnosti přeškrtnutá"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Moje teď není jeho teď.",
+      "diagram_generator": "ted",
+      "diagram": "moje TEĎ a TEĎ vzdáleného rychle letícího pozorovatele — dvě různé roviny"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Přechod k filozofii. Krátká scéna, jen předěl.",
+      "diagram_generator": "ted",
+      "diagram": "otevírající se možnost, cesta odbočující jinam"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Nosný diagram. Bez popisku by to byl jen kvádr — viz zpětná vazba u třetího videa.",
+      "diagram_generator": "ted",
+      "diagram": "BLOKOVÝ VESMÍR: kvádr událostí, všechny okamžiky přítomné naráz, popisek BLOCK UNIVERSE"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Poctivost videa je tady. Obraz musí říct totéž co text.",
+      "diagram_generator": "ted",
+      "diagram": "tentýž kvádr, přes něj varovný pruh RELATIVITY DOES NOT PROVE THIS"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Interpretace, ne důkaz.",
+      "diagram_generator": "ted",
+      "diagram": "kvádr s otazníkem, vedle něj vybledlá plynoucí značka",
+      "pause": 2.6
+    },
+    {
+      "id": "S33",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S33.png",
+      "note": "Napětí před rozbitím. Atmosféra, proto model.",
+      "prompt": "a single egg resting at the very edge of a bare table, long low raking light, deep shadow beneath, nothing else in frame"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Asymetrie. Obě řady musí být vidět naráz.",
+      "diagram_generator": "vajicko",
+      "diagram": "nahoře posloupnost celé vejce -> střepy, dole tatáž posloupnost pozpátku přeškrtnutá"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Statistika, ne zákaz.",
+      "diagram_generator": "vajicko",
+      "diagram": "málo uspořádaných stavů vlevo, obrovské pole neuspořádaných vpravo"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Jeden versus nespočet.",
+      "diagram_generator": "vajicko",
+      "diagram": "jeden konkrétní stav proti mřížce nesčetných uspořádání střepů"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Uzávěr entropické části.",
+      "diagram_generator": "vajicko",
+      "diagram": "šipka času vyrůstající z rozdílu počtu stavů, popisek THE ARROW OF TIME",
+      "pause": 2.2
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Námitka, kterou divák právě dostal. Přidáno po zpětné vazbě.",
+      "diagram_generator": "zivot",
+      "diagram": "stopka přes dosavadní vysvětlení, nápis BUT WAIT — ENTROPY DOES NOT INCREASE EVERYWHERE"
+    },
+    {
+      "id": "S39",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S39.png",
+      "note": "Hvězdy vznikají. Archivní snímek dá kapitole vizuální oddech uprostřed diagramů. POZOR: scéna je divákova NÁMITKA, ne tvrzení, že tu entropie klesá — vznik hvězdy ji zvyšuje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "star forming region nebula",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Otázka nahlas.",
+      "diagram_generator": "zivot",
+      "diagram": "složitá struktura života proti pozadí rozpadu, otázka HOW?"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Přesné znění druhého zákona. Formulace does not decrease, ne increases.",
+      "diagram_generator": "zivot",
+      "diagram": "ohraničená ISOLATED SYSTEM, uvnitř klesající ostrůvek, celková bilance přesto roste"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "První půlka klíčového diagramu.",
+      "diagram_generator": "zivot",
+      "diagram": "jeden tlustý žlutý paprsek ze Slunce dopadající na Zemi, popisek SAME ENERGY IN"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Druhá půlka. ZNĚNÍ JE ZÁVAZNÉ — nesmí tam být 23x vyšší entropie, ten poměr platí jen v modelu. Fotonový poměr drží, viz factcheck.md.",
+      "diagram_generator": "zivot",
+      "diagram": "z druhé strany Země 23 tenkých červených paprsků ven, popisky ABOUT TWENTY-THREE TIMES MORE PHOTONS OUT / MORE DISPERSED ENERGY / HIGHER ENTROPY",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Slovo almost nese celou větu, musí být vidět i v obraze.",
+      "diagram_generator": "symetrie",
+      "diagram": "rovnice se šipkou času tam i zpět, slovo ALMOST zvýrazněné"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Pozpátku to vypadá stejně.",
+      "diagram_generator": "symetrie",
+      "diagram": "planetární dráhy se šipkami oběhu, vedle nich tytéž dráhy se šipkami obrácenými, popisek PLAY IT IN REVERSE"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Rovnice směr neříkají.",
+      "diagram_generator": "symetrie",
+      "diagram": "rovnice mlčící o tom, kde je minulost a kde budoucnost"
+    },
+    {
+      "id": "S47",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S47.png",
+      "note": "Reliktní záření, mapa WMAP. NEJLEPŠÍ možný obraz nízkoentropického počátku, protože je HLADKÝ — přesně to fact check vyžaduje; úhledná mřížka by tvrdila pravý opak. POZOR: první nález na dotaz „cosmic microwave background all-sky map\" byla TITULNÍ KARTA videa COBE s logem NASA — a logo NASA volné není. Chytlo se to jen tím, že se obrázek prohlédl, v logu vypadal jako úspěch.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "cosmic microwave background",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Od hladkosti ke struktuře. Znovu: žádné srovnané kostky.",
+      "diagram_generator": "pocatek",
+      "diagram": "posloupnost zleva doprava: hladká plocha -> první hrudky -> struktury, pod tím rostoucí entropie"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Hlubší problém se otevírá.",
+      "diagram_generator": "pocatek",
+      "diagram": "druhý zákon vysvětlující růst, ale s prázdným místem na začátku"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Jen když už začneme ve zvláštním stavu.",
+      "diagram_generator": "pocatek",
+      "diagram": "zvýrazněný počáteční stav jako podmínka celého výkladu"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Vrchol videa. Otázka se vymění před divákovýma očima.",
+      "diagram_generator": "pocatek",
+      "diagram": "přeškrtnutá otázka WHY DOES ENTROPY INCREASE?, pod ní WHY WAS THE UNIVERSE EVER SO ORDERED?",
+      "pause": 2.8
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Návrat k hlavní otázce.",
+      "diagram_generator": "pocatek",
+      "diagram": "otázka WHAT IS TIME? ustupující do pozadí"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Druhý vrchol. Dlouhá pauza, ať to dosedne.",
+      "diagram_generator": "pocatek",
+      "diagram": "nová, větší otázka WHY DOES THE UNIVERSE HAVE A DIRECTION AT ALL?",
+      "pause": 2.8
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Přechod k mozku.",
+      "diagram_generator": "pamet",
+      "diagram": "entropie stranou, do popředí prožitek"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Jak to cítíme, ne jak to je.",
+      "diagram_generator": "pamet",
+      "diagram": "tři pole PAST / PRESENT / FUTURE tak, jak je cítíme"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Asymetrie paměti. Nosný diagram kapitoly.",
+      "diagram_generator": "pamet",
+      "diagram": "hustý svazek záznamů směrem do minulosti, prázdno směrem do budoucnosti"
+    },
+    {
+      "id": "S57",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S57.png",
+      "note": "Včerejší snídaně. Konkrétní vzpomínka proti abstraktnímu prázdnu.",
+      "prompt": "an ordinary breakfast table the morning after, half-empty cup and a plate left as they were, soft low window light, nobody in frame"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Zítřek nemá záznam.",
+      "diagram_generator": "pamet",
+      "diagram": "zítřejší snídaně jako prázdný obrys bez záznamu"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Prediktivní zpracování. Popisky povinné.",
+      "diagram_generator": "pamet",
+      "diagram": "čtyřkrokový cyklus TAKE IN -> STORE -> COMPARE -> PREDICT"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Z procesu vzniká pocit.",
+      "diagram_generator": "pamet",
+      "diagram": "z cyklu vystupující pocit I AM MOVING THROUGH TIME",
+      "pause": 2.2
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Okamžik je nedosažitelný.",
+      "diagram_generator": "vjem",
+      "diagram": "svět a vědomí, mezi nimi zeď matematického okamžiku"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Data v obraze. Čísla jsou ve factcheck.md.",
+      "diagram_generator": "vjem",
+      "diagram": "řetěz zpoždění s naměřenými časy: oko -> V1 asi 60 ms -> rozpoznání asi 150 ms"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Vjem až na konci řetězu.",
+      "diagram_generator": "vjem",
+      "diagram": "porovnávání s dalšími informacemi, teprve pak vjem"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Teď není bod.",
+      "diagram_generator": "vjem",
+      "diagram": "ostrý bod NOW rozmazaný do pásu"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Přítomnost je součást modelu, ne světa.",
+      "diagram_generator": "vjem",
+      "diagram": "model reality v mozku, uvnitř něj políčko THE PRESENT",
+      "pause": 2.2
+    },
+    {
+      "id": "S66",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S66.png",
+      "note": "Čekárna. Prázdnota musí být cítit.",
+      "prompt": "an empty hospital waiting room with rows of identical chairs, cold flat overhead light, one chair slightly out of line"
+    },
+    {
+      "id": "S67",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S67.png",
+      "note": "Hra. Protipól čekárny.",
+      "prompt": "a dark room late at night lit only by a screen, curtains drawn, a mug gone cold beside the keyboard"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Fyzika se nezměnila.",
+      "diagram_generator": "prozitek",
+      "diagram": "dvoje stejné hodiny nad oběma scénami, obojí naměřily totéž"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Čtyři činitele, všechny doložené. Popisky povinné.",
+      "diagram_generator": "prozitek",
+      "diagram": "čtyři popsané ovladače ATTENTION / EMOTION / NEW INFORMATION / MEMORY ovlivňující délku prožitku"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Prožívaný čas je model.",
+      "diagram_generator": "prozitek",
+      "diagram": "fyzikální čas a model času v mozku vedle sebe, různě dlouhé",
+      "pause": 2.2
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Varování před zkratkou.",
+      "diagram_generator": "iluze",
+      "diagram": "věta TIME IS JUST AN ILLUSION s varovným pruhem TOO EASY"
+    },
+    {
+      "id": "S72",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S72.png",
+      "note": "Atomové hodiny. Konkrétní přístroj, ne schéma — proto archiv.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "caesium atomic clock",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Spočítáno ve factcheck.md, takže to obraz smí tvrdit. Nejsilnější doklad, že relativistický čas je skutečný.",
+      "diagram_generator": "iluze",
+      "diagram": "družice s naměřenými posuny −7,2 µs/den (SR), +45,7 µs/den (GR), netto +38,4 µs/den a chybou 11,5 km za den"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Čas není výmysl.",
+      "diagram_generator": "iluze",
+      "diagram": "čas jako pevná součást teorií, ne výmysl"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Co iluze být může.",
+      "diagram_generator": "iluze",
+      "diagram": "dvě věci označené jako možná iluze: PLYNUTÍ a JEDNO UNIVERZÁLNÍ TEĎ",
+      "pause": 2.6
+    },
+    {
+      "id": "S76",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S76.png",
+      "note": "Etapy života. Chodba místo portrétů — bez konkrétních tváří.",
+      "prompt": "a long corridor of open doorways receding into distance, each doorway lit a little differently, worn floor, nobody in it"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Most mezi fyzikou a prožitkem. Uživatel rozhodl, že se tahle část neškrtá.",
+      "diagram_generator": "zivotopis",
+      "diagram": "celý život položený jako sled událostí v časoprostorovém kvádru"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Ne pohyb kvádrem, ale obsah vědomí.",
+      "diagram_generator": "zivotopis",
+      "diagram": "vědomí v jednom místě kvádru: drží záznamy zpět, vysílá očekávání vpřed"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Pocit, ne důkaz.",
+      "diagram_generator": "zivotopis",
+      "diagram": "z toho vznikající pocit plynutí, vedle něj otazník"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Přiznaná nejistota.",
+      "diagram_generator": "zivotopis",
+      "diagram": "otevřený problém na hranici FYZIKA / FILOZOFIE",
+      "pause": 2.4
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Skromnost jako závěr.",
+      "diagram_generator": "zaver",
+      "diagram": "skromná odpověď WE DO NOT ENTIRELY KNOW"
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Co čas ve fyzice je.",
+      "diagram_generator": "zaver",
+      "diagram": "struktura popisující události a vztahy mezi nimi"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Shrnutí obou fyzikálních půlek.",
+      "diagram_generator": "zaver",
+      "diagram": "dva sloupce: RELATIVITY — not universal, THERMODYNAMICS — arrow from rising entropy"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Třetí půlka: mozek.",
+      "diagram_generator": "zaver",
+      "diagram": "mozek stavějící z fyzikálních dějů prožitek minulosti, přítomnosti a budoucnosti"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Uzavření oblouku. Musí to být rozpoznatelně týž obraz jako S04.",
+      "diagram_generator": "zaver",
+      "diagram": "NÁVRAT PÁTEŘNÍHO DIAGRAMU z S04, teď vyplněný: PHYSICAL TIME a LIVED TIME vedle sebe",
+      "pause": 2.6
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Jediné místo, kde je ve videu číslice — a je v OBRAZE, ne v řeči. TTS by thirteen forty-two přečetlo těžkopádně.",
+      "diagram_generator": "zaver",
+      "diagram": "ciferník ukazující 13:42"
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Protipól S14. Řeka se ruší.",
+      "diagram_generator": "zaver",
+      "diagram": "přeškrtnutá řeka z S14, místo ní vztah mezi změnami"
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Co z toho dělá mozek.",
+      "diagram_generator": "zaver",
+      "diagram": "z hodin vystupující tři pocity: minulost, teď, budoucnost před námi"
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Poslední výměna otázky. Rým k S51.",
+      "diagram_generator": "zaver",
+      "diagram": "otázka KAM ČAS PLYNE přeškrtnutá, místo ní PROČ MÁME POCIT, ŽE PLYNE"
+    },
+    {
+      "id": "S90",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S90.png",
+      "note": "Poslední záběr. Ne že čas existuje, ale že ho dokážeme prožívat.",
+      "prompt": "a single figure standing still on an empty plain at dusk, immense quiet sky, long shadow stretching away behind them"
+    }
+  ]
+}

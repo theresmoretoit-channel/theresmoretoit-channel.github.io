@@ -1,0 +1,775 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Hook. Původně SDXL („divák má napřed vidět kus oceli, kterému věří“), jenže model to ve dvou kolech netrefil (plošinový vozík, pak prázdná hala bez tyče) a Commons na devět dotazů nevrátil jediný čistý snímek tyče. Podle pravidla „netrefí-li model funkci scény dvakrát, patří scéna jinam“ je to kresba: zavádí PÁTEŘ 1 v nejčistší podobě.",
+      "diagram_generator": "uvod",
+      "diagram": "holá vodorovná tyč přes celý obraz, pod ní popisek STEEL; žádná ruka ani šipka — ty přidá až S02, aby se dvojice četla jako rozjezd jednoho obrazu"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Zavádí PÁTEŘ 1: tyč jako vodorovný pruh, PUSH vlevo, otazník vpravo. Tenhle obraz se vrací v S06-S09, S13, S47, S54, S60. Klíč `dovetek` je zvukový: samostatně má scéna za „together...\" 460 ms ocasu na −8 dB, s dovětkem se uřízne v tichu před ním. Vlastní `pause` 0,27: ořez dovětku nechá ve scéně 1130 ms doběhu, takže výchozích 0,8 by dalo mezeru 1,93 s místo schválených 1,40 s.",
+      "diagram_generator": "uvod",
+      "diagram": "vodorovná tyč přes celý obraz; vlevo ruka a ambrová šipka PUSH, vpravo konec s otazníkem; pod tyčí popisek NEAR END / FAR END",
+      "dovetek": "yes?",
+      "pause": 0.27
+    },
+    {
+      "id": "S02b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02b.png",
+      "naveti": "It is steel, it is solid, the whole rod has to move together...",
+      "note": "Beat: otázka dopadne. Rozjezd je SKUTEČNÝ text S02, takže si „yes?\" udrží tázavou intonaci z kontextu — samostatně ji Kokoro přečte monotónně. Divák nahlásil přesně tohle.",
+      "diagram_generator": "uvod",
+      "diagram": "tatáž tyč jako S02, ale otazník u vzdáleného konce je velký a ambrový"
+    },
+    {
+      "id": "S02c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02c.png",
+      "naveti": "That is what most people assume.",
+      "note": "Zaváhání před odpovědí. Rozjezd je nutný: „Well...\" samostatně vyjde s vloženým /s/ (divák to slyšel jako „wellssnou\"). Obraz je nejtišší moment bloku — tyč bez jediného popisku.",
+      "diagram_generator": "uvod",
+      "diagram": "tatáž tyč, všechny popisky pryč, jen tyč a ruka; obraz se ztiší"
+    },
+    {
+      "id": "S02d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02d.png",
+      "naveti": "That is what most people assume.",
+      "note": "Odpověď. Škrtá se ŠIPKA okamžitého pohybu u vzdáleného konce, ne tyč — tyč platí dál, neplatí jen to, že se pohne hned.",
+      "diagram_generator": "uvod",
+      "diagram": "tatáž tyč; u vzdáleného konce přeškrtnutá šipka okamžitého pohybu a velké NO"
+    },
+    {
+      "id": "S02e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02e.png",
+      "pause": 1.4,
+      "note": "Přechod do videa. Čtyři slova, takže rozjezd nepotřebuje.",
+      "diagram_generator": "uvod",
+      "diagram": "tatáž tyč v rámečku přiblížení, šipka dovnitř; popisek LET'S DIG INTO IT"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Rychlost světla jako první kandidát na odpověď. NENÍ to špatná odpověď, jen ne ta zajímavá — obraz ji proto nesmí škrtat.",
+      "diagram_generator": "uvod",
+      "diagram": "vodorovná osa rychlosti; na pravém konci svislá bariéra s popiskem c a pod ní SPEED OF LIGHT; šipka zprava naráží do bariéry"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Číslo 3,34 s je ve factcheck.md ověřené a scénář ho po opravě říká jako 'just over three seconds'. Diagram smí ukázat 3,34, protože je přesnější než hlas, ne v rozporu s ním.",
+      "diagram_generator": "uvod",
+      "diagram": "tyč délky ONE MILLION KILOMETRES; nad ní ambrový paprsek světla přejíždí od konce ke konci, u něj 3.34 s; měřítko pod tyčí"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Předěl. Dvě otázky vedle sebe: zodpovězená a otevřená. Ta otevřená je ambrová, tedy 'tudy jde video'.",
+      "diagram_generator": "uvod",
+      "diagram": "dva rámečky vedle sebe: vlevo CAN IT BEAT LIGHT? s odpovědí NO, vpravo ambrově HOW FAST CAN STEEL RESPOND? s otazníkem",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zavádí PÁTEŘ 2: mřížka atomů s vazbami. Stlačení je vidět jen na levém sloupci — kdyby se stlačila celá, obraz by tvrdil přesně to, co video vyvrací.",
+      "diagram_generator": "vlna",
+      "diagram": "mřížka atomů spojených vazbami; vlevo šipka PUSH a první sloupec je znatelně blíž k druhému, zbytek mřížky netknutý"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Řetěz strkání. Postupné rozsvěcení sloupců zleva doprava nese 'jeden po druhém', ne 'všichni naráz'.",
+      "diagram_generator": "vlna",
+      "diagram": "táž mřížka; tři po sobě jdoucí sloupce ambrově zvýrazněné se šipkami mezi nimi, zbytek tlumený"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Vlna jako obálka přes mřížku. Tady se poprvé pojmenuje DISTURBANCE.",
+      "diagram_generator": "vlna",
+      "diagram": "táž mřížka, přes ni vlna hustoty postupující doprava, popisek DISTURBANCE a šipka směru"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Otázka na rychlost té vlny. Obraz je S08 s přidaným v = ?",
+      "diagram_generator": "vlna",
+      "diagram": "táž vlna jako S08, u ní velký ambrový popisek v = ?"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Škála 'docela dobrá, ale ne nekonečná'. Nesmí tvrdit konkrétní číslo, to přijde až v S11.",
+      "diagram_generator": "vlna",
+      "diagram": "vodorovná škála od 0 doprava k symbolu nekonečna; ukazatel STEEL je hodně vpravo, ale daleko od konce"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Číslo. Ověřeno ve factcheck.md jako TYČOVÁ rychlost, ne objemová — proto je v podtitulku 'in a long rod'.",
+      "diagram_generator": "vlna",
+      "diagram": "velké ambrové 5 KM/S uprostřed, pod ním SPEED OF SOUND IN STEEL a menším písmem in a long rod"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Srovnání měřítek. Vzdálenost Země-Měsíc 384 400 km je doložitelná kotva, aby milion kilometrů nebyl abstraktní.",
+      "diagram_generator": "vlna",
+      "diagram": "svislé srovnání délek: 5 km jako sotva viditelná čárka, pod ní EARTH TO MOON 384 400 km, pod ní ONE MILLION KM přes celou šířku"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Výpočet. Čísla jsou z factcheck.md.",
+      "diagram_generator": "vlna",
+      "diagram": "tyč s ukazatelem postupu asi v desetině; nad ní řádek 1 000 000 km / 5 km/s a pod ním velké 55 HOURS"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Pointa první části. Kalendář je konkrétnější než '55 hodin' a scénář si o něj sám řekl.",
+      "diagram_generator": "vlna",
+      "diagram": "sedm sloupců dnů MON až SUN; ambrový oblouk od MON morning k WED afternoon, oba konce označené PUSH a MOVES",
+      "pause": 2.6
+    },
+    {
+      "id": "S15",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S15.png",
+      "note": "Fyzická scéna, ne schéma — divák má vidět, že se ocel při úderu 'nemačká'. Kladivo a ocel jsou atmosféra, tedy práce pro model.",
+      "prompt": "a heavy hammer head striking a thick steel bar on an anvil, the instant of impact, a few sparks, dark workshop"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Závěsná otázka, vlastní obraz. Krátká scéna (2,4 s) záměrně.",
+      "diagram_generator": "vlna",
+      "diagram": "tyč jako jeden kus s otazníkem uprostřed; nad ní WHY NOT ALL AT ONCE?"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Přechod do mikrosvěta. Vnořené rámečky jsou nejjednodušší způsob, jak nakreslit 'zoom' bez animace.",
+      "diagram_generator": "vlna",
+      "diagram": "tři vnořené rámečky zvětšení, od tyče přes úsek povrchu k mřížce atomů; u posledního popisek ZOOM IN"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Mřížka bez zvýraznění — 'je to spousta atomů'. Počet atomů v obraze nesmí tvrdit číslo, takže se mřížka ořezává rámem.",
+      "diagram_generator": "tyc",
+      "diagram": "hustá mřížka atomů vyplňující celou plochu, tlumeně, bez popisků kromě ATOMS"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Škrtá se PŘEDSTAVA hromadného rozkazu, ne atomy. Křížek proto patří na bublinu s rozkazem, ne na mřížku.",
+      "diagram_generator": "tyc",
+      "diagram": "mřížka a nad ní bublina s nápisem MOVE, ze které vedou čáry ke VŠEM atomům naráz; celá ta rozvodná soustava přeškrtnutá křížkem"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "První sloupec posunutý, zbytek stojí. Velikost posunu nese tvrzení: musí být malá, jinak obraz říká, že se atom odstěhoval.",
+      "diagram_generator": "tyc",
+      "diagram": "mřížka; první sloupec vlevo posunutý doprava o kousek a ambrový, u něj popisek PUSHED FIRST"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Srovnání dvou modelů vedle sebe. Levý je ten, který video vyvrací, ale škrtá se jen jeho NADPIS, ne kresba.",
+      "diagram_generator": "tyc",
+      "diagram": "dva panely: vlevo RIGID BODY, celá tyč posunutá naráz, nadpis vodorovně škrtnutý; vpravo ambrově PROGRESSIVE, tyč po částech s vlnou",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Zavádí PÁTEŘ 3: atom. Kuličkový model se škrtá HNED, aby si ho divák nezafixoval.",
+      "diagram_generator": "atom",
+      "diagram": "vlevo kulička s nápisem TINY STEEL BALL, přeškrtnutá; vpravo ambrově atom s jádrem a rozostřeným oblakem, popisek QUANTUM SYSTEM"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "POZOR (factcheck): elektronový obal se kreslí jako rozostřený oblak, NIKDY jako kuličky na drahách. Planetární model by tvrdil zastaralou fyziku, kterou scénář o dvě věty dál vyvrací.",
+      "diagram_generator": "atom",
+      "diagram": "jeden atom velký přes půl obrazu: maličké ambrové jádro uprostřed, kolem něj měkký oblak klesající hustoty; popisky NUCLEUS a ELECTRONS"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "POZOR (factcheck): obal se kreslí VYPLNĚNÝ. Prázdný atom by tvrdil 'je to skoro vakuum', což S25 popírá. Poměr velikostí se nekreslí v měřítku (bylo by to 1:72 000), a diagram to musí přiznat.",
+      "diagram_generator": "atom",
+      "diagram": "atom s jádrem; vedle výřez s poznámkou NOT TO SCALE a údajem nucleus about 1/72 000 of the atom's radius; oblak zůstává plný"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Škrtá se model „natěsnané kuličky“. Škrt nadpisu se počítá z délky popisku, ne odhaduje — ruční odhad 660 px proti skutečným 858 nahlásil uživatel.",
+      "diagram_generator": "atom",
+      "diagram": "mřížka dokonale se dotýkajících plných koulí, přeškrtnutá; nadpis SOLID BALLS PACKED TIGHT vodorovně škrtnutý po celé délce"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Náhrada za škrtnutý model: soustava držená interakcemi. Vazby jsou tenké čáry, ne tyčky — tyčky by tvrdily pevnou vzdálenost. Poloměr oblaku je 78 při kroku 300, aby mezi atomy byla vidět mezera; při větším poměru to vypadalo jako natěsnané koule z S25.",
+      "diagram_generator": "atom",
+      "diagram": "atomy jako oblaky s ambrovými čarami interakcí mezi sousedy; nadpis HELD TOGETHER BY INTERACTIONS s odstupem od spodní řady"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Elektromagnetismus jako odpověď. Slovo MOSTLY je ve scénáři a musí být i v obraze, jinak diagram tvrdí víc.",
+      "diagram_generator": "atom",
+      "diagram": "dvojice nábojů plus a minus s čarami přitažlivosti; nadpis MOSTLY ELECTROMAGNETISM, slovo MOSTLY ambrově"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Jednotné číslo (nucleus) je záměrné, viz notes.md — Kokoro čte nuclei špatně.",
+      "diagram_generator": "atom",
+      "diagram": "dva sousední atomy; u každého ambrové plus v jádře a minus v oblaku; čáry uvnitř atomu i mezi atomy, popisky WITHIN a BETWEEN"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tři druhy vazby vedle sebe, stejnou vahou — scénář žádnou nepovyšuje.",
+      "diagram_generator": "atom",
+      "diagram": "tři stejně velké panely IONIC, COVALENT, METALLIC, v každém schematická dvojice či mřížka; nadpis DIFFERENT KINDS OF BONDING"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Elektronové moře. Ambrová mlha přes celou mřížku, ne jednotlivé kuličky putující po drahách.",
+      "diagram_generator": "atom",
+      "diagram": "mřížka kovových jader s ambrovou mlhou rozprostřenou přes všechna; popisek DE-LOCALISED ELECTRONS"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Problém stability. Otazník je nutný — obraz se ptá, neodpovídá.",
+      "diagram_generator": "jama",
+      "diagram": "dva atomy sbíhající se k sobě, šipky dovnitř; mezi nimi velký otazník a nápis WHY NOT COLLAPSE?"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Zavádí PÁTEŘ 4: potenciálová křivka. Osy jsou popsané od prvního snímku — prázdné osy čte divák jako rozbitý graf (zpětná vazba u třetího videa).",
+      "diagram_generator": "jama",
+      "diagram": "graf energie proti vzdálenosti; osy popsané SEPARATION a ENERGY, křivka nakreslená CELÁ tlumeně a zvýrazněná jen její pravá klesající část s popiskem ATTRACTION"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Táž křivka, zvýrazněná levá větev. Rozvržení se proti S32 nesmí hnout.",
+      "diagram_generator": "jama",
+      "diagram": "táž křivka; zvýrazněná strmě stoupající levá větev, popisek ENERGY RISES FAST a u malých vzdáleností dva překrývající se oblaky"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "POZOR (factcheck): Pauli a elektromagnetismus nejsou soupeři. Kreslí se jako DVĚ role, ne dvě síly různé váhy. Křížek přes obsazený stav se čte jako „tenhle stav neplatí“ — tvrzení je ale „další elektron se tam nedostane“, takže cestu šestého elektronu zastavuje ZARÁŽKA, ne škrt. Nahlásil uživatel.",
+      "diagram_generator": "jama",
+      "diagram": "řada kvantových stavů jako přihrádky, každá s jedním elektronem; nad poslední přilétá šestý elektron, šipku dolů mu zastaví silná vodorovná zarážka s popiskem NO ROOM"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Minimum křivky. Tady se poprvé objeví svislice rovnováhy, která zůstane i v S36 a S37.",
+      "diagram_generator": "jama",
+      "diagram": "táž křivka s vyznačeným minimem, svislice dolů k ose a popisek EQUILIBRIUM; vlevo od minima šipka PULL TOGETHER"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Tatáž křivka, opačná strana. Obě šipky musí mít STEJNOU velikost, jinak obraz tvrdí, že jedna strana vyhrává.",
+      "diagram_generator": "jama",
+      "diagram": "táž křivka a svislice; vpravo od minima šipka PUSH BACK stejné velikosti jako PULL TOGETHER v S35"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Pointa bloku. Z křivky se stane mřížka s pravidelným rozestupem.",
+      "diagram_generator": "jama",
+      "diagram": "dole mřížka s rovnoměrným rozestupem odvozeným od minima křivky nahoře; velký ambrový nadpis SOLID MATTER",
+      "pause": 2.6
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Kmitání. Nesmí to vypadat jako roztavená mřížka — výchylky jsou malé, kolem pevných poloh.",
+      "diagram_generator": "jama",
+      "diagram": "mřížka; u každého atomu drobná rozmazaná stopa kmitu kolem rovnovážné polohy, popisek ALWAYS VIBRATING"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Můstek zpět k tyči a dopředu ke stolu.",
+      "diagram_generator": "jama",
+      "diagram": "táž kmitající mřížka a zleva ambrová šipka PUSH, která do ní vstupuje; popisek YOU DISTURB THE SYSTEM"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Naivní obraz toho, čemu divák zatím věří. Původně SDXL, ale ruka je pro model riziko a dvě kola dala nejdřív tmavou žilnatou ruku, pak dlaň v jiném záběru. Kreslená ruka navíc umožní, aby S76 byla PŘESNÝ callback — kompozici sdílí funkce _dotek() ve stul.py.",
+      "diagram_generator": "stul",
+      "diagram": "ruka položená na plnou desku stolu z profilu, pod deskou popisek COMPLETELY SOLID; BEZ mřížky — tu zavádí až S42"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Zoom do styku. Škrtá se model dotýkajících se kuliček, ne stůl. Šířka škrtu se počítá z popisku (1 207 px, ne odhadnutých 1 080).",
+      "diagram_generator": "stul",
+      "diagram": "výřez rozhraní ruka/stůl; nahoře a dole řada dokonale se dotýkajících koulí, přeškrtnutá, nadpis NO MICROSCOPIC WALL škrtnutý po celé délce"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Dvě mřížky proti sobě. Mezera mezi nimi je tvrzení — nedotýkají se.",
+      "diagram_generator": "stul",
+      "diagram": "dvě mřížky atomů proti sobě s viditelnou mezerou; tenké čáry interakcí přes mezeru, popisky YOUR HAND a THE TABLE"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Síla, která zastaví ruku. Táž fyzika jako S34, takže se použije tentýž ambrový akcent.",
+      "diagram_generator": "stul",
+      "diagram": "táž dvojice mřížek; v mezeře řada ambrových šipek proti sobě a popisek THE FORCE THAT STOPS YOU"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Mikro -> makro. Šipka vede jedním směrem, protože scénář říká, že dotek JE důsledek interakcí, ne naopak.",
+      "diagram_generator": "stul",
+      "diagram": "vlevo hustá síť mikroskopických interakcí, ambrová šipka doprava, vpravo jediné slovo TOUCH"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Otázka. Vlastní obraz, ať má beat kam sednout.",
+      "diagram_generator": "stul",
+      "diagram": "velký nápis TOUCHING s otazníkem, pod ním tlumeně ruka na desce v profilu"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Dvě stejně velké šipky proti sobě — třetí Newtonův zákon. Nestejná velikost by byla věcná chyba.",
+      "diagram_generator": "stul",
+      "diagram": "profil ruky a desky, mezi nimi dvě stejně dlouhé ambrové šipky proti sobě, popisky YOU PUSH a IT PUSHES BACK",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Návrat k tyči. Musí to být TENTÝŽ obraz jako S02, jinak se callback nepozná.",
+      "diagram_generator": "tyc",
+      "diagram": "tyč jako v S02; nad ní tlumeně slovo SOLID s otazníkem, protože to není ta veličina, která rozhoduje"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Co doopravdy rozhoduje.",
+      "diagram_generator": "tyc",
+      "diagram": "tatáž tyč, přes ni postupující vlna a velký ambrový popisek HOW FAST THE DISTURBANCE TRAVELS"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Zavádí graf rychlostí. Osa je popsaná od prvního snímku.",
+      "diagram_generator": "rychlost",
+      "diagram": "vodorovná osa km/s od 0 do 40 s popiskem SPEED OF SOUND; zatím jen osa a jediný sloupec STEEL"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "POZOR (factcheck): diamant se kreslí jako PÁSMO 12 az 18,6 km/s, ne jako jeden sloupec. Rozptyl je součást tvrzení ('depending on the direction and type of wave').",
+      "diagram_generator": "rychlost",
+      "diagram": "táž osa; STEEL jako úzký sloupec u 5, DIAMOND jako široké pásmo od 12 do 18,6 s popiskem depending on direction"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Grafen nad diamantem a pak nekonečno škrtnuté. Škrtá se hodnota nekonečno, ne materiály.",
+      "diagram_generator": "rychlost",
+      "diagram": "táž osa doplněná o GRAPHENE kolem 21; úplně vpravo symbol nekonečna přeškrtnutý, popisek NONE ARE INFINITE"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Pointa bloku. Rozdíl mezi inženýrskou a fundamentální mezí.",
+      "diagram_generator": "rychlost",
+      "diagram": "dva rámečky: ENGINEERING LIMIT tlumeně a škrtnutě, vedle ambrově FUNDAMENTAL",
+      "pause": 2.6
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Zavedení myšlenkového experimentu. Hlavička _kit.py má výjimku pro čárkování napsanou jako „S53–S59“, takže scéna do bloku patřila od začátku a jen zůstala viset jako SDXL. Model ji dvakrát vzal doslova (recepční pult, měděná trubka) — učebnicové „abstraktní pojmy bere doslova“.",
+      "diagram_generator": "tuhost",
+      "diagram": "tyč jako v S02, ale ČÁRKOVANĚ (první výskyt konvence pro myšlenkový experiment), pod ní PERFECTLY RIGID; bez šipek a bez škrtu"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Ideální případ: oba konce naráz. Kreslí se BEZ škrtu — vyvrátí se to až v S59.",
+      "diagram_generator": "tuhost",
+      "diagram": "tyč jako v S02; obě šipky, na levém konci PUSH a na pravém MOVES, obě ambrové a stejné, popisek INSTANT"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Binární kanál, stav 1. S56 je tentýž obraz v druhém stavu, takže rozvržení musí sedět na pixel.",
+      "diagram_generator": "tuhost",
+      "diagram": "vlevo ruka tlačí do tyče, vpravo přijímač; nad tyčí velké ambrové 1 a popisek PUSH"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Stav 0. Jediný rozdíl proti S55 je, že ruka netlačí a číslo je 0.",
+      "diagram_generator": "tuhost",
+      "diagram": "tentýž obraz jako S55, ruka odtažená, nad tyčí tlumené 0 a popisek DON'T PUSH"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Zpráva prochází okamžitě. Ještě bez škrtu.",
+      "diagram_generator": "tuhost",
+      "diagram": "tyč, na levém konci řetězec 1 0 1 1 0, na pravém týž řetězec; mezi nimi popisek NO DELAY"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Relativita. Světelný kužel je nejpoctivější obraz — okamžitý signál leží mimo něj.",
+      "diagram_generator": "tuhost",
+      "diagram": "světelný kužel v souřadnicích prostor-čas; uvnitř ambrová dovolená dráha, vodorovná okamžitá dráha vede ven z kužele a je přeškrtnutá"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Závěr bloku: dokonale tuhé těleso neexistuje. Škrtá se NADPIS, ne kresba tyče.",
+      "diagram_generator": "tuhost",
+      "diagram": "tyč s nápisem PERFECTLY RIGID, nadpis vodorovně škrtnutý; pod ním menší CANNOT EXIST",
+      "pause": 2.6
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Návrat k číslu. Musí sedět s S04.",
+      "diagram_generator": "tuhost",
+      "diagram": "tyč ONE MILLION KILOMETRES jako v S04, paprsek světla a 3.34 s"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Hypotetický materiál na mezi. Mez 36 100 m/s je z factcheck.md, ale scénář ji neříká, takže se do obrazu NEPÍŠE jako číslo.",
+      "diagram_generator": "tuhost",
+      "diagram": "osa rychlosti jako v S51; ukazatel dojede až k pravé zarážce s popiskem THE ULTIMATE LIMIT, ale zarážka je pořád daleko od c"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Zbytkové zpoždění. Ambrový úsek je to, co zbývá.",
+      "diagram_generator": "tuhost",
+      "diagram": "tyč, na ní vyznačený ambrový úsek času s popiskem STILL A DELAY; vedle přeškrtnuté slovo INSTANTLY",
+      "pause": 2.4
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Zavádí PÁTEŘ 5: řetěz kroků. Rozsvěcuje se postupně přes S63-S66.",
+      "diagram_generator": "retez",
+      "diagram": "řada šesti rámečků STEEL ROD, MECHANICAL WAVES, ATOMS, ELECTROMAGNETISM, QUANTUM MECHANICS, STRUCTURE OF MATTER; svítí jen první"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Druhý krok.",
+      "diagram_generator": "retez",
+      "diagram": "týž řetěz, svítí první dva a šipka mezi nimi"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Kroky tři az pět.",
+      "diagram_generator": "retez",
+      "diagram": "týž řetěz, svítí prvních pět"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Celý řetěz a pointa. 'Someone pushed a stick' je nejlepší hláška bloku, takže patří do obrazu.",
+      "diagram_generator": "retez",
+      "diagram": "celý řetěz rozsvícený; pod ním malá kresba ruky strkající do klacku a popisek ALL BECAUSE SOMEONE PUSHED A STICK",
+      "pause": 2.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Slovo samo. Velké, ať má scéna klid.",
+      "diagram_generator": "zaver",
+      "diagram": "jediné velké slovo SOLID uprostřed, pod ním tlumeně A FUNDAMENTAL PROPERTY? s otazníkem"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Makro popis nad mikro skutečností. Šipka vede zdola nahoru — popis vzniká z chování, ne naopak.",
+      "diagram_generator": "zaver",
+      "diagram": "dole hustá mřížka kmitajících atomů, nahoře slovo SOLID v rámečku, mezi nimi šipka vzhůru s popiskem A MACROSCOPIC DESCRIPTION"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Čtyři popisky přesně podle čtyř vět scénáře, ve stejném pořadí.",
+      "diagram_generator": "zaver",
+      "diagram": "čtyři pole kolem dokola: ATOMS VIBRATE, ELECTRONS OCCUPY STATES, FIELDS INTERACT, ENERGY MOVES; uprostřed slovo DYNAMIC"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Mnoho -> jedno. Počet prvků nesmí tvrdit číslo, proto se mrak ořezává rámem — a končí 130 px nad spodní hranou, aby popisek neležel v kuličkách.",
+      "diagram_generator": "zaver",
+      "diagram": "vlevo obrovské množství drobných interakcí ořezané rámem, ambrová šipka doprava, vpravo hladká plocha s popiskem FEELS SOLID"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Čtyři ikony podle čtyř vět. Krátká scéna (1,9 s) záměrně, dostane pauzu.",
+      "diagram_generator": "zaver",
+      "diagram": "čtyři jednoduché ikony v řadě s popisky A TABLE, A ROCK, A WALL, YOUR HAND",
+      "pause": 2.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Týž zákon na obou stranách. Symetrie je tvrzení — obě půlky musí být stejně velké.",
+      "diagram_generator": "zaver",
+      "diagram": "vlevo stůl, vpravo ruka, obojí kreslené touž mřížkou; mezi nimi svislice a nad ní nápis THE SAME PHYSICAL LAWS"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Cesta signálu. Šipka jedním směrem, od ruky k mozku.",
+      "diagram_generator": "zaver",
+      "diagram": "profil ruky na desce, od ní ambrová linka vzhůru k obrysu hlavy; popisek DETECTS THE FORCES"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Signál -> zpracování -> zážitek. Tři kroky, poslední v uvozovkách, protože je to popis, ne fyzika.",
+      "diagram_generator": "zaver",
+      "diagram": "tři rámečky ELECTRICAL SIGNALS, PROCESSING, EXPERIENCE se šipkami; u posledního v uvozovkách the feeling of touching a solid object"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Pointa: pozorovatel je z téže hmoty. Obě siluety musí být kreslené TOUŽ mřížkou jako S72.",
+      "diagram_generator": "zaver",
+      "diagram": "obrys hlavy a deska stolu, obojí vyplněné touž mřížkou atomů; nadpis THE SAME KIND OF MATTER",
+      "pause": 2.6
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Callback na S40 přes 36 scén. Pozná se jen tehdy, když se rozvržení nehne ani o pixel — to SDXL ze své podstaty nesvede, kresba ano. Popisek nesmí říct „mostly empty space“: pravidlo 5 v _kit.py, S25 to výslovně popírá.",
+      "diagram_generator": "stul",
+      "diagram": "TÁŽ kompozice jako S40 (funkce _dotek), jen deska je vyplněná mřížkou atomů a popisek zní ATOMS, HELD APART"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Škrtá se nadpis RIGID BLOCK, ne kresba.",
+      "diagram_generator": "zaver",
+      "diagram": "vlevo deska jako plný blok s nadpisem RIGID BLOCK vodorovně škrtnutým; vpravo táž deska vyplněná mřížkou, ambrově, nadpis QUANTUM SYSTEM"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Poslední výskyt vlny. Táž vlna jako v S08, jen ve stole. Mřížka musí zůstat uvnitř desky VODOROVNĚ I SVISLE — hlídá to assert, protože spodní řada se poprvé vysypala pod dolní hranu a z kódu to vidět nebylo.",
+      "diagram_generator": "zaver",
+      "diagram": "deska stolu v profilu s mřížkou uvnitř, přes ni postupuje táž vlna jako v S08, popisek AS A WAVE"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Předěl do závěru. Pod známým povrchem něco cizího.",
+      "diagram_generator": "zaver",
+      "diagram": "hladký povrch desky nahoře, pod ním se rozevírá tlumená mřížka do hloubky; nadpis SOMETHING MUCH STRANGER"
+    },
+    {
+      "id": "S80",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S80.png",
+      "note": "Závěrečný obraz. Otevřený, ne uzavírající — scénář končí na 'it all holds together'.",
+      "prompt": "a vast dark field of faint interconnected points of light stretching to the horizon like a lattice seen from inside, quiet and steady, no figures"
+    }
+  ]
+}

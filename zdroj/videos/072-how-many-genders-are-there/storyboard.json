@@ -1,0 +1,483 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři stejně velké kartičky s otázkami 2? · 55? · HUNDREDS? nad prázdným seznamem s hlavičkou COUNTING WHAT?",
+      "note": "Úvod hned ukazuje chybějící definici. Čísla jsou citované možnosti s otazníkem, žádné není vyznačeno jako vítěz."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Ilustrační formulář: WOMAN · MAN · NON-BINARY; vedle přisunutá karta TRANS WOMAN a otázka ANOTHER CATEGORY? Malý štítek EXAMPLE.",
+      "note": "Hypotetické uživatelské rozhraní, ne skutečný dotazník ani vyčerpávající taxonomie. Zachovat souřadnice seznamu ze S01."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Široký rám WOMAN; uvnitř užší karta TRANS WOMAN. Vedle dvě kartičky odpovědí propojené s jednou neutrální značkou osoby.",
+      "note": "Vnoření představuje vztah popisů, nikoli proporce populace. Nevytvářet oddělené kruhy WOMAN a TRANS WOMAN.",
+      "pause": 1.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo schématická spermie a vajíčko s popisem REPRODUCTION; vpravo seznam ze S02 s popisem SELF-DESCRIPTION. Mezi nimi rozestup bez šipky.",
+      "note": "Dvě otázky vedle sebe, nikoli kauzální vztah nebo popření biologie. Gamety označit SCHEMATIC · NOT TO SCALE."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři karty stejné velikosti: REPRODUCTIVE ROLES · IDENTITIES · WORDS. Nad každou malý nevyplněný čítač.",
+      "note": "Různé předměty počítání. Nejde o tři druhy genderu. Páteř kartiček pokračuje.",
+      "pause": 1.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Dokumentační karta FACEBOOK · GERMAN INTERFACE · 4 SEPTEMBER 2014; velké 60 CUSTOM OPTIONS. Vedle jednoduchý obrys menu, označený ILLUSTRATION. Dole čitelná zdrojová patička Facebook announcement, 2014.",
+      "note": "Doloženo zdrojem A. Nekopírovat neověřený historický design, nevymýšlet šedesát názvů; menu má jen neutrální řádky."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Stejná karta a menu jako S06, nyní důraz na PROFILE OPTIONS; vedle dvojice gamet v samostatném panelu REPRODUCTION, mezi panely symbol ≠.",
+      "note": "Nerovnost porovnává počet možností s reprodukčními kategoriemi, ne platnost identit. Žádné škrtnutí slova gender.",
+      "pause": 0.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "Detail stejného ilustračního formuláře; vedle neutrální bublina HOW DO I DESCRIBE MYSELF? a otevřené místo pro odpověď.",
+      "note": "Přechod od počtu položek k účelu formuláře. Nepřiřazovat konkrétní identitu vzhledu postavy."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři rovnocenné listy BODY · EXPECTATIONS · IDENTITY v jedné složce QUESTIONS ABOUT A PERSON. Bez šipek.",
+      "note": "Orientační mapa, nikoli tři části mozku nebo biologická kauzalita. Horní levý roh volný pro případné pozdější CTA.",
+      "pause": 1.2
+    },
+    {
+      "id": "S09b",
+      "source": "svg",
+      "visual": "images/S09.png",
+      "effect": "static",
+      "cta": true,
+      "pause": 2.4,
+      "note": "Produkční CTA podle docs/cta.md, po příkladu Facebooku a mapě pojmů. Sdílí statický S09, vlevo nahoře volné místo."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "biologie",
+      "diagram": "Dvojice schématických gamet: SPERM a EGG, společný nadpis GAMETES. Vajíčko větší než hlavička spermie; štítek NOT TO SCALE.",
+      "note": "Dva typy reprodukčních buněk podle K; nekreslit třetí ani měřítko předstírající přesný poměr."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "biologie",
+      "diagram": "Tytéž gamety na stejných místech; přibudou popisy MALE REPRODUCTIVE ROLE pod SPERM a FEMALE REPRODUCTIVE ROLE pod EGG.",
+      "note": "Přiřazení reprodukčních rolí, nikoli přiřazení identity všem lidem. Stejná barva obou, bez růžové/modré.",
+      "pause": 1.2
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "biologie",
+      "diagram": "Dvě malé ilustrační karty CHILDHOOD a INFERTILITY, obě pod širším nadpisem REPRODUCTIVE ORGANISATION; oddělený ukazatel CURRENT FERTILITY.",
+      "note": "Žádné věkové hranice, data či diagram produkce spermií. Absence aktuální funkce neškrtá kategorii člověka."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "biologie",
+      "diagram": "Karta MENOPAUSE vedle dvojice samostatných štítků REPRODUCTIVE ORGANISATION a CURRENT FERTILITY; mezi štítky ≠.",
+      "note": "Stejný princip pro ženskou reprodukci. Žádná časová osa s univerzálním věkem menopauzy.",
+      "pause": 0.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "biologie",
+      "diagram": "Kartička CAN HAVE CHILDREN? a vedle oddělená kartička SEX CLASSIFICATION; spojení mezi nimi nahrazeno popiskem NOT A COMPLETE TEST.",
+      "note": "Nekřížkovat sex ani lidi. Omezujeme test plodnosti, ne platnost biologických kategorií.",
+      "pause": 0.4
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "biologie",
+      "diagram": "Pět stejně výrazných položek v dossieru: CHROMOSOMES · GENES · GONADS · HORMONES · TISSUE RESPONSE, každá s jednoduchou ikonou.",
+      "note": "Více složek vývoje. Bez lineárního řetězce pěti příčin, který by zamlčel jejich vztahy; jde o přehled, ne mechanismus."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "biologie",
+      "diagram": "Dvě řádky pod společným nadpisem TYPICAL PATTERNS: XY / TESTES / TYPICALLY MALE ANATOMY a XX / OVARIES / TYPICALLY FEMALE ANATOMY. Oddělovače bez šipek.",
+      "note": "TYPICAL musí být velké a čitelné. Tabulka ukazuje obvyklé souběhy; nesmí vypadat jako univerzální diagnostický test.",
+      "pause": 1.2
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "biologie",
+      "diagram": "Přiblížení jedné karty z dossieru: COMPLETE ANDROGEN INSENSITIVITY, pod ní CAIS; vedle ikona signálu a cílové buňky, zatím bez závěru.",
+      "note": "Nový konkrétní případ. CAIS není další gender. Celý název zalomit do čitelných řádků.",
+      "pause": 0.6
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "biologie",
+      "diagram": "Panel CAIS: malé štítky XY a TESTES; od TESTES vede popsaná šipka ANDROGENS k cílové buňce. Signál dorazí k buňce, u její odpovědi nápis NO ANDROGEN RESPONSE.",
+      "note": "Schéma signalizace podle D/L. Nezablokovat tvorbu či cestu hormonu; problém je reakce buňky. Chybějící odpověď označuje text; na přívodní šipce není závora, která by naznačovala nedostatek hormonu. XY není šipkou přímo spojeno s identitou.",
+      "pause": 0.35
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "biologie",
+      "diagram": "Dva jasně oddělené řádky CAIS: NO ANDROGEN RESPONSE → TYPICALLY FEMALE EXTERNAL GENITALS; TESTES → AMH → NO UTERUS DEVELOPMENT. Pod AMH menší DIFFERENT HORMONE; dole SAME CHROMOSOMES ≠ FULL ANATOMICAL DESCRIPTION.",
+      "note": "Dvě nezávisle popsané hormonální větve podle D. Žádná šipka od blokovaného androgenového receptoru k absenci dělohy. Bez anatomického obrázku, který by předstíral kompletní tělo s CAIS.",
+      "pause": 1.2
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "biologie",
+      "diagram": "Nadpis VARIATIONS IN SEX CHARACTERISTICS, pod ním různorodé malé složky dossieru se zvýrazněnou různou položkou; společný štítek INTERSEX.",
+      "note": "Ilustrační zvýraznění aspektů, ne vymyšlené klinické profily či četnosti. Bez jediné univerzální intersex siluety a bez třetího reprodukčního boxu."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "biologie",
+      "diagram": "Nahoře dvojice gamet ze S10; níže samostatný vějíř dossierů VARIATION IN DEVELOPMENT. Obě vrstvy spojeny jen společnou závorkou TWO LEVELS OF DESCRIPTION.",
+      "note": "Variace znaků nepřidává gametu. Nekreslit kontinuum spermie→intersex→vajíčko. Srovnání různých úrovní, bez šipky z genotypu na identitu.",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "gender",
+      "diagram": "Ze složky S09 se zvýrazní EXPECTATIONS. Kolem neutrální siluety vnější bubliny TOUGH? · CARING? · MASCULINE? · FEMININE?",
+      "note": "Bubliny představují otázky a očekávání okolí; nesmí být uvnitř těla jako vrozené vlastnosti."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "gender",
+      "diagram": "Dvě stejně velké scény sociálního prostředí PLACE A a PLACE B; kolem nich různě uspořádané bubliny EXPECTATIONS. Malé označení ILLUSTRATION.",
+      "note": "Bez názvů konkrétních kultur a bez tvrzení, že někde všichni zastávají jednu roli. Změna rozložení ilustruje proměnlivost, ne data.",
+      "pause": 1.0
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "gender",
+      "diagram": "Dva jednoduché ilustrativní výjevy: rodič pečuje o dítě; vedle člověk volí kalhoty místo šatů. Společný popisek BREAKING A STEREOTYPE ≠ CHANGING IDENTITY.",
+      "note": "Neodvozovat gender z oděvu ani tvaru postav; význam příkladů dodá narace. Neškrtat žádnou postavu či oblečení.",
+      "pause": 1.2
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "gender",
+      "diagram": "Zvýrazněný list IDENTITY ze S09; vedle neutrální obrys člověka s bublinou MY SENSE OF GENDER a druhý oddělený štítek SEX ASSIGNED AT BIRTH.",
+      "note": "Subjektivní zkušenost a klasifikace při narození jsou dvě informace. Bez mozkového skenu či představy identity jako orgánu."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "gender",
+      "diagram": "Dvě stejně velké vztahové karty CISGENDER a TRANSGENDER. Každá porovnává SEX ASSIGNED AT BIRTH s GENDER IDENTITY; text ALIGNS / DIFFERS, neutrální barvy.",
+      "note": "Nezobrazovat cis jako správně a trans jako chybu. Žádný červený kříž, žádná třetí gameta. Schéma pojmů, nikoli diagnóza osoby."
+    },
+    {
+      "id": "S26b",
+      "source": "svg",
+      "visual": "images/S26.png",
+      "effect": "static",
+      "note": "Zpětná vazba 0.4: epistemická brzda — definice neříká, odkud identita pochází. Sdílí statický S26, žádný nový obraz."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "gender",
+      "diagram": "Široký rám NON-BINARY; uvnitř několik abstraktních kartiček bez vymyšlených názvů. Podtitul NOT EXCLUSIVELY MAN OR WOMAN.",
+      "note": "Označit SCHEMATIC, nejde o počet podkategorií či četnosti. Nedělat jeden třetí box rovnocenný dvěma homogenním identitám.",
+      "pause": 1.2
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "gender",
+      "diagram": "Vlevo jednoduchá ikona sukně s popisem CLOTHING; vpravo dva zavřené listy CHROMOSOMES a IDENTITY. Mezi oblečením a listy text NOT ENOUGH INFORMATION.",
+      "note": "Nezakreslovat šipku od oblečení k biologii. Z absence informace neplyne, že projev nikdy nic nekomunikuje; jde o nedostatečný samostatný test.",
+      "pause": 0.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "gender",
+      "diagram": "Tři otázkové karty SOCIAL EXPECTATIONS? · IDENTITY? · PRESENTATION? v témže rozvržení jako S05.",
+      "note": "Kontextová orientace před návratem k seznamům. Stejná velikost a váha, nejde o tři oddělené druhy lidí.",
+      "pause": 2.2
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Rám WOMAN na stejném místě jako S03; uvnitř karty CISGENDER WOMAN a TRANSGENDER WOMAN. U každého ze tří názvů malý stejný index 1, 2, 3; nad rámem THREE LABELS. Indexy počítají napsaná označení.",
+      "note": "Už v této scéně viditelný překryv, aby samotné tři karty na okamžik netvrdily tři nezávislé gendery. Karty nejsou skupiny lidí."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Rám WOMAN ze S30 zůstává na místě; uvnitř dvě menší karty CISGENDER WOMAN a TRANSGENDER WOMAN. Pod tím THREE LABELS ≠ THREE SEPARATE GENDERS.",
+      "note": "Vnoření, ne tři disjunktní množiny. Karty mají stejnou velikost pro čitelnost, ne podle velikosti skupin. Nejde o vyčerpávající rozdělení všech žen na dvě sociologické množiny.",
+      "pause": 0.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Seznam kartiček a vedle dva nezávislé čítače ENTRIES a DISTINCT CATEGORIES. U prvního 55? jako citace otázky, u druhého DEFINE THE RULE.",
+      "note": "Nevytvářet reálný seznam 55 identit. Čítače nerozsvítit jako dvě známá naměřená čísla. Jedna karta může překrývat jinou.",
+      "pause": 0.4
+    },
+    {
+      "id": "S32b",
+      "source": "svg",
+      "visual": "images/S32.png",
+      "effect": "static",
+      "pause": 1.2,
+      "note": "Zpětná vazba 0.4: žádné obecně uznávané pravidlo, kde končí jedna nálepka; připravuje S44. Sdílí statický S32 (čítač DEFINE THE RULE)."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Otevřený slovní seznam zakončený prázdnou linkou; vedle dvě karty OPEN-ENDED VOCABULARY a MEASURED INFINITY se symbolem ≠.",
+      "note": "Neškrtat nebinární identity ani nekonečno obecně. Jen rozlišení otevřenosti pojmenování a matematického tvrzení."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Tři barevné vzorky BLUE · TURQUOISE · GREEN; pod nimi dvě různé ukázkové závorky seskupení a nápis NAMING COLOURS.",
+      "note": "Barevnost pouze v tomto příkladu; žádné přiřazení odstínu k pohlaví či identitě. Vzorky a seskupení ilustrují otázku, ne univerzální jazyková pravidla.",
+      "pause": 0.4
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Barevné vzorky uzavřeny do menšího rámu NAMING ANALOGY. Vedle samostatný prázdný list BIOLOGICAL MODEL s nápisem NOT ESTABLISHED BY THIS ANALOGY.",
+      "note": "Nesmí vzniknout duha označená muž/intersex/žena. Nepřeškrtnout všechny biologické modely; omezujeme pouze důkazní sílu metafory.",
+      "pause": 1.2
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Ilustrační výpis BANK BALANCE a vedle obálka RENT bez částek, log a měny. Vpravo karta SOCIAL MEANING oddělená od karty REPRODUCTIVE CATEGORY.",
+      "note": "Analogie společenských pravidel, nikoli přirovnání identity k penězům či tvrzení, že si lze identitu koupit. Bez šipky peníze→gender."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "kategorie",
+      "diagram": "Jedna karta TERM pod lupou; dvě otázky WHAT DOES IT INCLUDE? a WHAT QUESTION DOES IT HELP ANSWER?",
+      "note": "Vrací výklad k užitečnosti definice. Samotné pojmenování není důkaz, žádné škrtnutí všech termínů.",
+      "pause": 0.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "definice",
+      "diagram": "Velká otázka WHAT MAKES SOMEONE A WOMAN? a pod ní dvě zatím rovnocenné karty SEX-BASED DEFINITION / GENDER IDENTITY.",
+      "note": "Vymezuje dvě použití slova, nevytváří dvě třídy žen. Ani jednu kartu neoznačit jako jedinou legitimní definici.",
+      "pause": 0.4
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "definice",
+      "diagram": "Rozvržení S38; zvýrazněna SEX-BASED DEFINITION a její vnořená otázka HOW IS FEMALE DEFINED AND APPLIED?",
+      "note": "Bez zkratky female=XX, která by popřela CAIS blok. Druhá karta zůstává čitelná a neutrální, nikoli škrtnutá.",
+      "pause": 0.4
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "definice",
+      "diagram": "Stejné rozvržení; zvýrazněna GENDER IDENTITY a otázka HOW DOES THIS PERSON UNDERSTAND THEIR GENDER? Malý oddělený dokument CHROMOSOME RESULT označen DIFFERENT VARIABLE.",
+      "note": "Nepopírá vypovídací hodnotu chromozomů pro biologii; ukazuje změnu otázky. Neschovávat biologii jako nepotřebnou.",
+      "pause": 1.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "definice",
+      "diagram": "Dvě neutrální postavy sdílejí stejné dvě pojmové karty, ale každá má jinou bublinu WHICH CATEGORY MATTERS HERE? s jiným zvýrazněním.",
+      "note": "Porozumění pojmům nevylučuje skutečný nesouhlas. Žádné stranické symboly, soutěže ani vítězný tábor.",
+      "pause": 1.2
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "definice",
+      "diagram": "Na stole společný slovníček, vedle stále otevřená otázka WHICH QUESTION ARE WE ANSWERING? Obě bubliny ze S41 zůstávají oddělené.",
+      "note": "Slovníček umožňuje přesnější debatu, ne automatické rozřešení. Neukazovat podání rukou nebo vyřešený spor.",
+      "pause": 1.4
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě gamety v panelu REPRODUCTIVE ROLES; pod ním několik neutrálních dossierů SEX CHARACTERISTICS s popisem VARIATION. Souhrn rozvržení S21.",
+      "note": "S43 v naraci není univerzální test osob. Nezaměnit dvě buňky za dvě úplné anatomické šablony a nedoplnit procenta.",
+      "pause": 1.2
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "zaver",
+      "diagram": "Vrátí se vnořené karty z S31 a širší otevřený seznam IDENTITIES; vedle text NO UNIVERSALLY AGREED COUNT. Veškerý obsah v dolním středním pásu.",
+      "note": "Nebinární označení nejsou drobné výjimky mezi dvěma konci osy. Již zde rezervovat horní polovinu pro závěrečné prvky; žádná nekonečná číselná stupnice.",
+      "pause": 1.2
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "zaver",
+      "diagram": "Malý ilustrační formulář uprostřed dolní poloviny: tři neutrální řádky s velkou závorkou 3 ENTRIES IN THIS EXAMPLE. Pod tím A FORM IS NOT A SPECIES.",
+      "note": "Přesný počet jen v konkrétním viditelném příkladu, nikoli počet genderů. Tři řádky nejsou názvy identit. Celá horní polovina prázdná.",
+      "pause": 1.2
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "zaver",
+      "diagram": "Tři související karty BODIES · IDENTITIES · SOCIAL RULES uprostřed dolní poloviny; nad nimi jedna malá otázková karta ONE NUMBER?",
+      "note": "Závěrečný návrat motivu. Horní polovina prázdná pro end screen, žádný další závěr či CTA.",
+      "pause": 1.2
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "zaver",
+      "diagram": "Na stejném místě jako závěrečné karty zůstane velké HOW MANY... OF WHAT? a malý obrys prázdné kartičky. Horní polovina čistá.",
+      "note": "Klidná závěrečná deska, žádná nová scéna. Páteř kartiček se uzavírá otázkou. Výdrž podle skutečné délky TTS a tail, nepřidávat dlouhé ticho naslepo.",
+      "pause": 2.4
+    }
+  ]
+}

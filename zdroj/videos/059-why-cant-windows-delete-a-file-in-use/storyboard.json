@@ -1,0 +1,812 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "[ZNÁMÁ SITUACE] PRVNÍ OBRAZOVKA NESE MYŠLENKU. Divák vidí známý dialog, ale pod ním už leží PÁTEŘ videa vybledlá — jméno, objekt a program — takže mechanismus vidí dřív, než ví, o čem video je. Žádné SDXL (pravidlo kanálu).",
+      "diagram_generator": "uvod",
+      "diagram": "Nahoře dialogové okno s hláškou 'The file is open in another program.' Pod ním ztlumeně (OP_TLUM) páteř: destička movie.mp4 vlevo, rámeček objektu vpravo, program dole, a mezi programem a objektem ambrový otazník místo šipky."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "[MECHANISMUS] Páteř se zavádí NAPLNO a na PEVNÝCH souřadnicích z pater(). Od téhle scény se do konce videa nesmí pohnout — jinak se výplata v S43 a S65 nepozná.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ TADY. Vlevo destička 'movie.mp4', vpravo rámeček 'OBJECT / the actual data', šipka jméno->objekt. Dole program s ambrovou šipkou nahoru k objektu, na šipce velký otazník. Nadpis: WHAT DOES IT MEAN TO OPEN A FILE?"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "[ZNÁMÁ SITUACE] Známá situace podruhé, ale dvakrát vedle sebe. Tohle je jediná scéna, kde stojí dva systémy proti sobě jako obrazy — dál už se srovnávají mechanismem.",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě okna vedle sebe, stejný soubor. Vlevo červený křížek a hláška, vpravo prázdný výpis adresáře a zaškrtnutí. Nad oběma týž nápis 'movie.mp4'."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "[MECHANISMUS] Konec úvodního bloku. Pauza 2,4 s, než video sáhne po první otázce.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři řádky pod sebou: SAME FILE / SAME ACTION, a pod nimi rozdvojená ambrová šipka na dva různé výsledky.",
+      "pause": 2.4
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S05.png",
+      "note": "[ZNÁMÁ SITUACE] Jediná scéna videa s pohybem, a nese ho významem: kamera najíždí na frázi 'another program'. Všude jinde je static, protože 85 scén z 85 je kresba s textem a text se hýbat nemá.",
+      "diagram_generator": "vinik",
+      "diagram": "Celý dialog z S01, ambrový rámeček kolem fráze 'another program'. Kompozice počítá s nájezdem: fráze je ve středu rámu, kolem ní volno."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "[MECHANISMUS] MECHANISMUS: systém tu informaci má. Scénář říká 'It could name it.' — kresba tedy NESMÍ tvrdit, že ji Explorer schválně tají.",
+      "diagram_generator": "vinik",
+      "diagram": "Uvnitř obrysu jádra je kolečko 'handle', od něj plná čára k destičce s procesem a jeho PID. Vedle ven vede čára k dialogu, a tam už jen prázdné místo místo jména."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "[ZNÁMÁ SITUACE] Známá situace: seznam procesů, ve kterém divák nic nepozná. Sloupec je ZÁMĚRNĚ nečitelná změť ztlumených řádků, ne čitelná tabulka.",
+      "diagram_generator": "vinik",
+      "diagram": "Okno Správce úloh, dlouhý sloupec ztlumených řádků s obecnými názvy procesů, žádný zvýrazněný. Lupa nad ním s otazníkem."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "[ZNÁMÁ SITUACE] Historická scéna. Rok 2005 a éra XP; jméno nástroje padne jednou a v minulém čase (viz factcheck: rok je jediné tvrzení ze sekundárního zdroje).",
+      "diagram_generator": "vinik",
+      "diagram": "Časová osa vlevo doprava: 2005 s ikonou stahovaného nástroje, za ní ztlumený pruh 'Windows XP'. Nadpis: YOU DOWNLOADED A TOOL."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "[ZNÁMÁ SITUACE] Resource Monitor jako okno, ne jako diagram. Tři prvky: záložka CPU, seznam Associated Handles, vyhledávací pole.",
+      "diagram_generator": "vinik",
+      "diagram": "Okno Resource Monitoru: pruh záložek s ambrově zvýrazněnou 'CPU', pod ním sekce 'Associated Handles' a prázdné vyhledávací pole. V rohu ztlumeně 'Windows 7, 2009'."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "[POKUS] VÝPLATA PRVNÍ MINUTY. Do vyhledávacího pole se napsalo jméno souboru a vypadl konkrétní proces. Tohle je scéna, kterou si divák odnese jako použitelnou věc. Pauza 2,6 s.",
+      "diagram_generator": "vinik",
+      "diagram": "Totéž okno, ve vyhledávacím poli 'movie.mp4', a v seznamu JEDEN ambrový řádek: jméno programu a PID. Šipka od pole k řádku.",
+      "pause": 2.6
+    },
+    {
+      "id": "S10b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10b.png",
+      "note": "[ZNÁMÁ SITUACE] Doplněno po prvním poslechu: proč lidé u cizích nástrojů zůstali. Resource Monitor jen REFERUJE, kdežto Unlocker a spol. uměly handle zavřít — to je věcný rozdíl, ne dojem, a scéna ho musí ukázat, ne jen říct.",
+      "diagram_generator": "vinik",
+      "diagram": "Dvě destičky vedle sebe. Vlevo ztlumeně 'Resource Monitor' s popiskem 'tells you who', vpravo ambrově 'the separate tool' s popiskem 'closes the handle'. Pod pravou ambrová šipka k zámku, který se rozpadá.",
+      "pause": 1.4
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "[MECHANISMUS] Návrat k páteři ze S02, TYTÉŽ souřadnice. Otazník je pořád na šipce od programu.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Páteř beze změny proti S02, jen nadpis jiný: WHAT DID IT ACQUIRE? Otazník na šipce program->objekt zůstává ambrový."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "[MECHANISMUS] Zavádí se dvoupolíčkový formulář otevření. Je to prvek, který žije do S22.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Vlevo destička movie.mp4. Vpravo formulář se dvěma řádky: '1. what I want to do' a '2. what others may do'. Druhý řádek ambrový."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "[MECHANISMUS] První políčko, to nezajímavé. Ztlumené, aby bylo vidět, že se jde dál.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Týž formulář, zvýrazněn první řádek, pod ním dvě zaškrtnutá políčka READ a WRITE. Druhý řádek ztlumený."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "[MECHANISMUS] Druhé políčko. Od téhle scény je ambrová jen druhá polovina formuláře.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Týž formulář, teď ambrový druhý řádek, první ztlumený. Pod druhým řádkem prázdné místo, které vyplní S15."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "[MECHANISMUS] POZOR: tři NEZÁVISLÉ přepínače, ne čtyřpolohový volič. V draftu 0.1 to bylo nakreslené i řečené špatně (viz factcheck, oddíl A).",
+      "diagram_generator": "kontrakt",
+      "diagram": "Tři samostatné páčkové přepínače pod sebou, každý se svým popiskem, všechny v poloze vypnuto. Nad nimi nadpis: WHAT MAY OTHERS DO?"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "[MECHANISMUS] Tytéž tři přepínače, postupně zapnuté. Beat S16b je TÝŽ OBRAZ, jen všechny tři vypnuté.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Tři přepínače zapnuté, popisky: READ IT / WRITE TO IT / DELETE OR RENAME IT. Třetí ambrový."
+    },
+    {
+      "id": "S16b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16b.png",
+      "note": "[MECHANISMUS] BEAT, sdílí obraz s S16 — mění se jediná věc: všechny přepínače padnou do nuly. Nepočítá se jako střih.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Tytéž tři přepínače, všechny vypnuté, kolem nich ambrový rámeček. Popisek pod nimi: NOBODY TOUCHES THIS.",
+      "pause": 1.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "[MECHANISMUS] Pojmenování třetího přepínače. Jediná zkratka, která ve videu ZAZNÍ nahlas.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Výřez na třetí přepínač, vedle něj velký nápis FILE_SHARE_DELETE, pod ním ztlumeně 0x00000004."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "[DESKA S CITACÍ] DESKA s citací Microsoftu, doslova. Uvozovky a zdroj ztlumeně pod textem.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Prostý citační panel: 'Delete access allows both delete and rename operations.' Pod ním ztlumeně: Microsoft, CreateFileW documentation."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "[MECHANISMUS] Důsledek, ne zobecnění. Kresba musí ukázat, že je to JEDEN přepínač pro obě operace — ne dva svázané.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Jeden přepínač, od něj dvě větve k nápisům DELETE a RENAME. Obě větve stejnou barvou. Přepínač vypnutý, obě větve přeškrtnuté vodorovnou čarou (skrt_text, ne křížek).",
+      "pause": 2.2
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "[MECHANISMUS] Páteř s uzamčenou šipkou. Tohle je windowsí varianta páteře a vrátí se v S51.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Páteř na pevných souřadnicích, ale na šipce jméno->objekt leží ambrový zámek. Druhý program vlevo dole se o šipku pokouší a naráží."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "[ZNÁMÁ SITUACE] Přejmenování chyby. Scéna, ve které se škrtá NÁPIS — použít text_skrtnuty(), ne skrt_text() (viz docs: tři holé čárky u videa 026).",
+      "diagram_generator": "kontrakt",
+      "diagram": "Dialog z S01, ale jeho text je přeškrtnutý vodorovnou čarou a nad ním ambrově skutečný název chyby: ERROR_SHARING_VIOLATION. Slovo SHARING zvýrazněné."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "[MECHANISMUS] Konec windowsího bloku. Pauza 2,6 s.",
+      "diagram_generator": "kontrakt",
+      "diagram": "Jen nápis ERROR_SHARING_VIOLATION uprostřed, pod slovem SHARING ambrová podtrhávací čára a šipka dolů k nápisu: THE ANSWER.",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "[POKUS] Přechod na Linux. Od téhle scény do S35 je páteř terminál — POKUS, ne diagram.",
+      "diagram_generator": "objekt",
+      "diagram": "Terminálové okno na tmavém pozadí, prompt, běžící přehrávač v horní části okna."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "[POKUS] Příkaz se napíše. Beat S24b je TÝŽ terminál o řádek dál.",
+      "diagram_generator": "objekt",
+      "diagram": "Týž terminál, na promptu napsáno: rm movie.mp4"
+    },
+    {
+      "id": "S24b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24b.png",
+      "note": "[POKUS] BEAT, sdílí obraz s S24. WTF moment číslo dvě. Pauza 2,4 s, ať to dosedne.",
+      "diagram_generator": "objekt",
+      "diagram": "Týž terminál, příkaz prošel bez hlášky, a nad ním přehrávač pořád hraje — ambrový indikátor přehrávání.",
+      "pause": 2.4
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "[MECHANISMUS] Zpět k páteři, otazník se vrací.",
+      "diagram_generator": "objekt",
+      "diagram": "Páteř, destička jména je přeškrtnutá, ale šipka programu k objektu drží. Na ní otazník."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "[MECHANISMUS] Teze videa vysázená jako nápis. Jediná scéna, kde je text hlavní kresbou.",
+      "diagram_generator": "objekt",
+      "diagram": "Velký nápis uprostřed: THE NAME IS NOT THE FILE. Nad ním destička jména, pod ním rámeček objektu, mezi nimi mezera."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "[MECHANISMUS] Adresář jako seznam řádků. Zavádí prvek, který S29 přeřízne.",
+      "diagram_generator": "objekt",
+      "diagram": "Vlevo rámeček 'DIRECTORY' se třemi řádky, prostřední 'movie.mp4' ambrový. Od něj plná šipka doprava do rámečku OBJECT."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "[MECHANISMUS] NEJDŮLEŽITĚJŠÍ DIAGRAM VIDEA. Šipka od programu MUSÍ mířit na OBJEKT, ne na jméno. Když ji nakreslíš obráceně, diagram tvrdí přesný opak scénáře a žádný detektor to nenajde (táž past jako ambrová šipka u S11 videa 020). assert na koncový bod šipky.",
+      "diagram_generator": "objekt",
+      "diagram": "Páteř. Od procesu dole vede tlustá ambrová šipka zakončená přímo na rámečku OBJECT. Vedle ní čárkovaná šedá šipka k destičce jména, PŘEŠKRTNUTÁ. Popisek u ambrové: file descriptor."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "[MECHANISMUS] rm přeřízne levou půlku páteře. Objekt i šipka procesu zůstávají beze změny.",
+      "diagram_generator": "objekt",
+      "diagram": "Táž páteř, šipka jméno->objekt přeříznutá ambrovým řezem, destička jména vybledlá. Šipka procesu k objektu netknutá a plná."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "[DESKA S CITACÍ] DESKA s citací manuálu. Pauza 2,4 s před pokusem.",
+      "diagram_generator": "objekt",
+      "diagram": "Citační panel: 'The file will remain in existence until the last file descriptor referring to it is closed.' Pod ním ztlumeně: man 2 unlink.",
+      "pause": 2.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "[POKUS] ZAČÁTEK SOUVISLÉHO POKUSU. S31 az S35 je JEDEN pokus, ve kterém se mění hodnoty — ne pět různých ilustrací. Tři měřidla (ls, du, df) se zavádějí tady a do S35 se nesmí pohnout.",
+      "diagram_generator": "pokus",
+      "diagram": "Terminál nahoře, pod ním tři měřicí destičky vedle sebe: ls / du / df. Hodnoty: soubor app.log, du 500 MB, df 1865 MB. Vpravo ikona procesu držícího soubor."
+    },
+    {
+      "id": "S31b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31b.png",
+      "note": "[POKUS] BEAT, týž obraz. Změní se JEDINÁ věc: přibude příkaz.",
+      "diagram_generator": "pokus",
+      "diagram": "Týž obraz, v terminálu přibyl řádek: rm app.log"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "[POKUS] Dvě z tří měřidel spadla na nulu. Třetí se zatím nehýbe.",
+      "diagram_generator": "pokus",
+      "diagram": "Tytéž tři destičky. ls: prázdno. du: 0 MB. df: pořád 1865 MB, ztlumené."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "[POKUS] Třetí měřidlo se ambrově zvýrazní. Tohle je ten rozpor.",
+      "diagram_generator": "pokus",
+      "diagram": "Tytéž destičky, df teď ambrové a zvýrazněné: 1865 MB. Mezi du a df ambrový vykřičník."
+    },
+    {
+      "id": "S33b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33b.png",
+      "note": "[POKUS] BEAT, týž obraz. Nejsilnější moment videa — pauza 2,8 s.",
+      "diagram_generator": "pokus",
+      "diagram": "Tytéž destičky, pod nimi dva nápisy: AN EMPTY FOLDER a HALF A GIGABYTE GONE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "[POKUS] lsof +L1 patří do OBRAZU, ve scénáři se nevyslovuje (zpětná vazba k factchecku si to vyžádala jmenovitě).",
+      "diagram_generator": "pokus",
+      "diagram": "Terminál, příkaz 'lsof +L1' a pod ním jediný výstupní řádek s ambrovým '(deleted)' na konci. Zbytek řádku ztlumený."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "[POKUS] Konec pokusu: třetí měřidlo se srovná. Rozdíl 1865-1365 = přesně 500 MB, a to musí z obrazu jít odečíst.",
+      "diagram_generator": "pokus",
+      "diagram": "Tytéž tři destičky, df spadlo na 1365 MB. Vedle ambrově rozdíl: -500 MB. Ikona procesu zhasla.",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "[MECHANISMUS] Zpět k mechanismu. Přejmenování mění destičku jména, nic víc.",
+      "diagram_generator": "presun",
+      "diagram": "Páteř, destička jména se mění z movie.mp4 na movie-old.mp4 (ambrová), šipka i objekt beze změny."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "[DESKA S CITACÍ] DESKA s citací manuálu.",
+      "diagram_generator": "presun",
+      "diagram": "Citační panel: 'Open file descriptors for oldpath are also unaffected.' Pod ním ztlumeně: man 2 rename."
+    },
+    {
+      "id": "S37b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37b.png",
+      "note": "[MECHANISMUS] BEAT, týž obraz jako S37 s jedním doplňkem.",
+      "diagram_generator": "presun",
+      "diagram": "Pod citací přibyl ambrový nápis: IT WAS NEVER USING THE NAME.",
+      "pause": 2.2
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "[MECHANISMUS] Omezení. Zavádí se ikona běžícího programu, kterou S40 rozdvojí.",
+      "diagram_generator": "presun",
+      "diagram": "Program běžící z objektu 'program v1'. Na objekt míří ambrová šipka zápisu, zakončená nárazem do stěny."
+    },
+    {
+      "id": "S38b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38b.png",
+      "note": "[POKUS] BEAT: tentokrát terminál, ne diagram. Chybová hláška doslova, včetně čísla (ověřeno měřením: errno 26).",
+      "diagram_generator": "presun",
+      "diagram": "Terminál, jediný řádek chyby: 'Text file busy', vedle ztlumeně errno 26.",
+      "pause": 2.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "[MECHANISMUS] Odpojení jména. Připravuje rozdvojení v S40.",
+      "diagram_generator": "presun",
+      "diagram": "Destička jména se odpojuje od starého objektu a připojuje k novému rámečku 'program v2'."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "[MECHANISMUS] DRUHÝ KRITICKÝ DIAGRAM. Starý proces MUSÍ viset na starém OSIŘELÉM objektu (bez jména), nové jméno na novém objektu. Dvě šipky, dva různé cíle. assert, že se koncové body liší.",
+      "diagram_generator": "presun",
+      "diagram": "Dole vlevo starý proces s plnou ambrovou šipkou na objekt 'v1', který NEMÁ žádnou destičku jména — místo ní prázdné místo. Vpravo destička 'program' se šipkou na nový objekt 'v2'. Pod ním ztlumeně: anything started later."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "[MECHANISMUS] Konec linuxového bloku. Formulace je po zpětné vazbě zmírněná ('many things', ne 'almost anything') a kresba to nesmí přehnat zpátky. Pauza 2,6 s.",
+      "diagram_generator": "presun",
+      "diagram": "Páteř se dvěma objekty z S40, nad nimi nadpis: REPLACE WITHOUT TOUCHING THE OBJECT IN PLACE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S41b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41b.png",
+      "note": "[MECHANISMUS] Doplněno po prvním poslechu: důsledek pro aktualizace, který ze scény S40 neplyne sám od sebe. Dva pruhy pod sebou — běžící proces drží starou verzi, dokud se nerestartuje.",
+      "diagram_generator": "presun",
+      "diagram": "Vodorovná časová osa. Nahoře pruh 'running process' se starou verzí, který pokračuje přes okamžik aktualizace. Dole ambrová svislice 'update' a za ní pruh 'after restart' s novou verzí. Popisek: the update lands, the process does not notice.",
+      "pause": 2.2
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "[MECHANISMUS] Zavádějí se VÁHY. Vrátí se v S65 az S71 a mezi výskyty se tvar nesmí pohnout, jinak se výplata nepozná.",
+      "diagram_generator": "oboji",
+      "diagram": "VÁHY SE ZAVÁDĚJÍ TADY. Vodorovné vahadlo v nulovém náklonu, vlevo miska WINDOWS, vpravo UNIX. Nad tím otazník."
+    },
+    {
+      "id": "S42b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42b.png",
+      "note": "[MECHANISMUS] BEAT, týž obraz. Změní se jediná věc: přibude odpověď.",
+      "diagram_generator": "oboji",
+      "diagram": "Tytéž váhy, nad nimi velké ambrové NO.",
+      "pause": 1.4
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "[MECHANISMUS] TWIST. Páteř se vrací, ale na windowsí straně — a chová se jako linuxová.",
+      "diagram_generator": "oboji",
+      "diagram": "Páteř s windowsím rámováním. Destička jména odpojená, šipka procesu k objektu drží. Nadpis: WINDOWS."
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43b.png",
+      "note": "[MECHANISMUS] BEAT, týž obraz. Pojmenování. Verze Windows patří do OBRAZU ztlumeně, ve scénáři nezazní (viz factcheck: MS minimální verzi neuvádí).",
+      "diagram_generator": "oboji",
+      "diagram": "Týž obraz, přibyl ambrový nápis POSIX DELETE a ztlumeně pod ním: on NTFS, Windows 10."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "[DESKA S CITACÍ] DESKA, první polovina citace Microsoftu.",
+      "diagram_generator": "oboji",
+      "diagram": "Citační panel: 'The link is removed from the visible namespace...'"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "[DESKA S CITACÍ] DESKA, druhá polovina. Pokračování téže citace — týž panel, přibývá text.",
+      "diagram_generator": "oboji",
+      "diagram": "Týž panel, pokračování: '...but applications that already had the file open can still use their handle, even though the name they used to open it is gone.' Pod ním ztlumeně: Microsoft, FILE_DISPOSITION_INFORMATION_EX."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "[MECHANISMUS] Výplata twistu. Pauza 2,6 s.",
+      "diagram_generator": "oboji",
+      "diagram": "Tři řádky pod sebou, každý ambrový: THE UNIX BEHAVIOUR / ON NTFS / DOCUMENTED BY MICROSOFT.",
+      "pause": 2.6
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "[MECHANISMUS] Obě strany umějí obojí. Váhy se vrací v nulovém náklonu.",
+      "diagram_generator": "oboji",
+      "diagram": "Váhy z S42 v nulovém náklonu, na obou miskách tytéž dva symboly (zámek a odpojené jméno). Pod vahadlem nápis: WHAT DIFFERS IS THE DEFAULT."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "[MECHANISMUS] TĚŽIŠTĚ VIDEA. Ve factchecku vedeno jako záměrné zjednodušení — kresba ho proto nesmí vyhrotit na 'Linux zámky nemá'. Pauza 2,8 s.",
+      "diagram_generator": "oboji",
+      "diagram": "Dvě destičky vedle sebe: vlevo WINDOWS -> A CONTRACT, vpravo UNIX -> A REFERENCE TO AN OBJECT. Obě stejně velké, stejnou barvou, žádná zvýrazněná.",
+      "pause": 2.8
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "[MECHANISMUS] Přemostění k restartům.",
+      "diagram_generator": "restart",
+      "diagram": "Ztlumený diagram páteře vzadu, přes něj ambrový rámeček s otazníkem: WHO CARES?"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "[ZNÁMÁ SITUACE] Známá situace, druhá nejsilnější ve videu. Pauza 2,2 s.",
+      "diagram_generator": "restart",
+      "diagram": "Celoobrazovkové okno aktualizace: 'Please restart your computer to finish installing updates.' Nic jiného.",
+      "pause": 2.2
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "[MECHANISMUS] Windowsí páteř ze S20, jen s DLL místo videa. Týž zámek na téže šipce.",
+      "diagram_generator": "restart",
+      "diagram": "Páteř: destička 'library.dll', objekt, běžící proces s ambrovou šipkou, a na šipce jméno->objekt zámek ze S20."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "[MECHANISMUS] Pokus o výměnu naráží.",
+      "diagram_generator": "restart",
+      "diagram": "Nový objekt 'v2' se pokouší nahradit starý, šipka naráží do zámku. Ambrový nápis: SOMETHING HAS TO LET GO."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "[MECHANISMUS] Tři cesty ven. Třetí se rozvine v S54.",
+      "diagram_generator": "restart",
+      "diagram": "Tři větve od zámku: QUIT THE APPLICATION / STOP THE SERVICE / RESTART MANAGER. Třetí ambrová."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "[MECHANISMUS] Pořadí vypínání podle dokumentace. POZOR: MS píše 'GUI applications', scénář 'Windows applications' — ve factchecku vedeno jako drobné zjednodušení.",
+      "diagram_generator": "restart",
+      "diagram": "Číslovaný sloupec, první dvě položky vysázené a ambrové: 1 Windows applications, 2 Console programs. Zbylé dvě ztlumené."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "[MECHANISMUS] Dokončení pořadí a zpětné spuštění. Šipka zpět musí být ZŘETELNĚ jiná (čárkovaná), aby se nečetla jako pátý krok.",
+      "diagram_generator": "restart",
+      "diagram": "Týž sloupec, teď všechny čtyři: 3 Services, 4 Windows Explorer. Vedle čárkovaná šipka zpět nahoru s popiskem: and back again."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "[MECHANISMUS] Přemostění k citaci.",
+      "diagram_generator": "restart",
+      "diagram": "Ztlumený sloupec z S55, přes něj ambrová šipka k prázdnému citačnímu panelu."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "[DESKA S CITACÍ] DESKA, první polovina Microsoftovy věty. Je to nejsilnější doklad videa, takže panel musí být čitelný a bez ozdob.",
+      "diagram_generator": "restart",
+      "diagram": "Citační panel: 'The primary reason that software installation and updates require a system restart...'"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "[DESKA S CITACÍ] DESKA, druhá polovina. Týž panel, přibývá text. Pauza 2,8 s.",
+      "diagram_generator": "restart",
+      "diagram": "Týž panel, pokračování: '...is that some of the files being updated are currently in use by a running application or service.' Pod ním ztlumeně: Microsoft, About Restart Manager.",
+      "pause": 2.8
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "[MECHANISMUS] BRZDA. Bez tohohle bloku by video skončilo lákavou, ale přehnanou tezí.",
+      "diagram_generator": "brzda",
+      "diagram": "Ambrový nápis NOT THE ONLY REASON, pod ním tři ztlumené odbočky bez popisků."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "[MECHANISMUS] Jádro pod sebou vyměnit nejde. Kresba nesmí naznačit, že je to totéž jako soubor v užívání.",
+      "diagram_generator": "brzda",
+      "diagram": "Vrstvený obrys: dole běžící jádro, nad ním systém. Ambrová šipka se pokouší jádro vyměnit a naráží zevnitř."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "[POKUS] Linux má týž problém, a i ten má výjimku. Místo dalšího diagramu je to SKUTEČNÝ STROJ: /sys/kernel/livepatch na tomhle notebooku existuje (ověřeno, viz factcheck), takže scéna ukazuje doklad, ne ilustraci. Rozbíjí řadu šestnácti diagramů v závěru videa.",
+      "diagram_generator": "brzda",
+      "diagram": "Terminál: výpis 'ls /sys/kernel/livepatch' a pod ním jméno jádra. Vedle ztlumeně schéma jádra z S60 a čárkovaná (tedy 'někdy') ambrová šipka obcházející restart. Popisek: live patching."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "[MECHANISMUS] Poctivá verze proti lákavé. Pauza 2,4 s.",
+      "diagram_generator": "brzda",
+      "diagram": "Dvě destičky nad sebou: nahoře větší ztlumená THE SATISFYING VERSION, pod ní menší ambrová THE HONEST VERSION. Velikost tu nese tvrzení, takže musí být zřetelně různá.",
+      "pause": 2.4
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "[MECHANISMUS] Záměrně slabá formulace — 'contributed', ne 'caused'. Kresba to musí udržet: tenká šipka, ne tlustá.",
+      "diagram_generator": "brzda",
+      "diagram": "Několik vstupních šipek do nápisu RESTART, jedna z nich ambrová a popsaná 'files in use'. Ambrová NENÍ nejtlustší."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "[MECHANISMUS] Přemostění k závěrečným vahám. Pauza 2,2 s.",
+      "diagram_generator": "brzda",
+      "diagram": "Prostý nápis: EVERY DESIGN CHOICE HAS A CONSEQUENCE SOMEWHERE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "[MECHANISMUS] VÝPLATA VAH. Tvar i souřadnice z S42. Formulace po zpětné vazbě opravená — Windows NEGARANTUJE nedotknutelnost, nechává rozhodnout program.",
+      "diagram_generator": "vahy",
+      "diagram": "Váhy ze S42, levá miska WINDOWS ambrová. Na ní symbol tří přepínačů ze S15. Popisek: the opening program decides."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "[MECHANISMUS] Cena windowsí strany. Musí být navázaná na PŘÍČINU, ne jen konstatovaná.",
+      "diagram_generator": "vahy",
+      "diagram": "Pod levou miskou přibyl ztlumený závěsný štítek: CANNOT DELETE YOUR OWN FILE, a pod ním menším: because another program has not allowed it."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "[MECHANISMUS] Unixová strana. Vahadlo se pořád nesmí naklonit.",
+      "diagram_generator": "vahy",
+      "diagram": "Váhy, teď ambrová pravá miska UNIX, na ní symbol odpojeného jména z S29. Popisek: name and object kept apart."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "[POKUS] Cena unixové strany je CALLBACK na pokus, takže se vrací jeho měřidlo, ne nový diagram. Druhý zlom v závěrečné řadě diagramů. Pauza 2,4 s.",
+      "diagram_generator": "vahy",
+      "diagram": "Pod pravou miskou vah visí destička df z S33 — TÁŽ kresba, tytéž rozměry — a ukazuje 1865 MB. Vedle ní ambrový štítek: HALF A GIGABYTE THAT BELONGS TO NO FILE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "[MECHANISMUS] Řešení na windowsí straně. Scénář říká 'one way out' — kresba nesmí tvrdit, že je to jediná cesta.",
+      "diagram_generator": "vahy",
+      "diagram": "Pod levou miskou ambrová větev QUIT THE PROGRAM, vedle ní ještě jedna ztlumená bezejmenná větev (tedy: cest je víc)."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "[MECHANISMUS] Řešení na unixové straně, tvarově SHODNÉ s S69, aby se symetrie poznala.",
+      "diagram_generator": "vahy",
+      "diagram": "Pod pravou miskou ambrová větev RESTART THE SERVICE, vedle ztlumená bezejmenná. Tvar i rozměr přesně jako v S69."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "[MECHANISMUS] VÝPLATA. Vahadlo zůstává vodorovné — video netvrdí, že je jeden systém lepší. Pauza 2,8 s.",
+      "diagram_generator": "vahy",
+      "diagram": "Celé váhy, obě misky, obě větve. Mezi nimi ambrový oblouk spojující obě řešení. Nadpis: DIFFERENT CAUSES. Pod vahadlem: SOMETIMES, THE SAME REMEDY.",
+      "pause": 2.8
+    },
+    {
+      "id": "S71b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "[MECHANISMUS] CTA. Dědí obrázek S71, statická, nápis vypálí render.py ze sdílené vrstvy.",
+      "diagram_generator": "vahy",
+      "diagram": "Dědí obraz S71 beze změny; nápis vypálí render.py ze sdílené vrstvy.",
+      "cta": true,
+      "pause": 1.2
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "[MECHANISMUS] ZÁVĚREČNÁ OBRAZOVKA ZAČÍNÁ TADY. S72 az S75b musí mít volnou HORNÍ polovinu — dole sedí ambrový titulek ze svgkit.title(). Ověří zaver_check.py, až bude work/timing.json.",
+      "diagram_generator": "zaver",
+      "diagram": "Ztlumená páteř POSUNUTÁ DO SPODNÍ POLOVINY, nad ní volno. Otazník ze S02 se vrací ambrový."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "[MECHANISMUS] Odpověď na otázku ze S02. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodní polovině dvě dlaně, každá drží jiný tvar: vlevo svitek se třemi přepínači, vpravo šipku mířící na objekt. Nad nimi volno."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "[ZNÁMÁ SITUACE] Dialog se vrací potřetí a naposled. Ve spodní polovině.",
+      "diagram_generator": "zaver",
+      "diagram": "Dialog z S01 posazený dole, jeho text ztlumený až na frázi 'cannot be completed', která je přeškrtnutá vodorovnou čarou."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "[ZNÁMÁ SITUACE] Přepis hlášky do toho, co doopravdy říká.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž dialog, text vyměněný za ambrový: THE PROGRAM THAT OPENED IT DID NOT AGREE TO LET YOU."
+    },
+    {
+      "id": "S75b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75b.png",
+      "note": "[ZNÁMÁ SITUACE] Poslední beat. Sdílí obraz s S75, přibývá jediná věc.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž dialog, v jeho spodním rohu přibyla malá ambrová destička se jménem programu a PID — tedy to, co tam od začátku chybělo."
+    }
+  ]
+}

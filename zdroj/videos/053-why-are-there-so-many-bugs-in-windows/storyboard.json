@@ -1,0 +1,1080 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY. Stoh leží na týchž souřadnicích po celé video a jádro je odspodu vždycky nejtmavší. Divák z prvního obrazu vidí, že se láme NAHOŘE — což je teze celého videa, řečená dřív, než ji vysloví hlas. První scéna proto NENÍ sdxl a nenese atmosféru, nýbrž myšlenku.",
+      "diagram_generator": "vlna",
+      "diagram": "STOH: svislý stoh vrstev Windows na pevných souřadnicích, odspodu jádro (MUTED), nad ním pásy ovladačů, služeb, rámců a povrchu. Čtyři pásy nahoře ambrově prasklé."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Pojmenování se dopisuje do TÉHOŽ stohu, nevzniká nový obraz. Ambrová znamená 'o tomhle je teď řeč', ne 'to je špatné'.",
+      "diagram_generator": "vlna",
+      "diagram": "Tři z těch čtyř pásů se pojmenují: AUDIO, REMOTE DESKTOP, SHARED FOLDERS. Ambrová jen na nich."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Ustřižená vazba, ne rozbitý počítač — scénář říká, že stroj běží, jen mu síť přestala věřit. Kresba nesmí tvrdit, že spadl.",
+      "diagram_generator": "vlna",
+      "diagram": "Čtvrtý pás: DOMAIN TRUST. K němu ustřižená čára mezi počítačem a sítí a přeškrtnuté přihlášení."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Konec úvodního bloku. Ověřeno, že 8. 9. 2026 opravdu bylo úterý (factcheck.md) — kdyby se to změnilo, musí se změnit i tahle scéna.",
+      "diagram_generator": "vlna",
+      "diagram": "Pod stohem jediné datum a čtyři značky pod ním. Text: ONE BATCH. ONE TUESDAY.",
+      "pause": 2.4
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Zmenšení stohu je první pohyb páteře a je záměrný: přecházíme od jedné vlny k otázce o vzorci.",
+      "diagram_generator": "vlna",
+      "diagram": "Stoh se zmenší doprava, vlevo vyroste otazník: 'just another bad update?'"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Beat. Minimum prvků, žádná kresba. DOVĚTEK kvůli doříkávané schwě: 'It isn't.' je krátká samostatná promluva a Kokoro za ní nechává schwu (nahlásil divák). Dovětek promluvu prodlouží a řeže se v mezeře mezi větami, kde artefakt není.",
+      "diagram_generator": "vlna",
+      "diagram": "Jediné slovo uprostřed prázdna: IT ISN'T.",
+      "dovetek": "That is what the record shows."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Tvar značky je týž jako v S04 — divák pozná, že každá je jedna várka. Osa času je druhý prvek, který se ve videu vrací (S27, S37).",
+      "diagram_generator": "vlna",
+      "diagram": "Vodorovná osa času, na ní se rozsvěcují další a další značky stejného tvaru jako v S04."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Otázka celého videa. Vrací se doslova v S101, kde se odpovídá — tam musí mít TOTOŽNOU sazbu, jinak se callback nepozná.",
+      "diagram_generator": "vlna",
+      "diagram": "Ústřední otázka velkým písmem: WHAT EXACTLY IS THEIR QA DOING?"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Měřítko firmy proti jedinému updatu. Počet čtverečků NIC netvrdí — Microsoft počet inženýrů nezveřejňuje (factcheck.md), takže je to textura, ne data.",
+      "diagram_generator": "vlna",
+      "diagram": "Velmi velká firma jako plocha mnoha drobných čtverečků, proti ní jediná ambrová šipka updatu ven.",
+      "pause": 2.2
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Návrat ke stohu, aby bylo vidět, že příklad je jeho součástí, ne nový námět.",
+      "diagram_generator": "kurzor",
+      "diagram": "Ze čtyř pásů z S02 se jeden zvětší; popisek: THE SMALLEST ONE."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Lišta je schéma, ne snímek obrazovky. Skutečné snímky Windows nejsou pod volnou licencí — proto v tomhle videu není ani jedna archivní scéna (viz notes.md).",
+      "diagram_generator": "kurzor",
+      "diagram": "Lišta Windows schematicky, nad ní šipka updatu, pod ní ambrově zvýrazněné 'cursor settings'."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Dva kurzory vedle sebe, ne jeden 'po'. Rozdíl nese scénu.",
+      "diagram_generator": "kurzor",
+      "diagram": "Vlastní kurzor vlevo, ambrová šipka doprava na obrovskou bílou šipku. Pod ní letopočet 1998."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Přes NÁPIS se škrtá čarou, ne křížkem. Druhý škrt je na zpětné šipce: scénář říká, že vrátit to nešlo.",
+      "diagram_generator": "kurzor",
+      "diagram": "Vlastní kurzor přeškrtnutý vodorovnou čarou (text_skrtnuty, ne křížek), zpětná šipka k němu taky přeškrtnutá."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Záměrně bez ambrové — tahle scéna nic netvrdí, jen připouští. Kdyby něco svítilo, vypadalo by to jako výtka.",
+      "diagram_generator": "kurzor",
+      "diagram": "Prázdná plocha s drobnými tečkami: 'every piece of software has bugs'. Nic zvýrazněného."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Váhy se vrací v S16. Levá miska je vždycky 'vzácná chyba', pravá 'zjevná' — pořadí se nesmí prohodit.",
+      "diagram_generator": "kurzor",
+      "diagram": "Váhy, na levé misce dlouhý popis vzácné chyby drobným písmem."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Kratší text a přesto těžší — to je celá pointa. Ambrová na pravé misce.",
+      "diagram_generator": "kurzor",
+      "diagram": "Tytéž váhy, pravá miska: krátká věta o myši. Miska klesne."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Tři kroky, ne pět. Každý je něco, co udělá každý uživatel — obraz musí být banální, jinak argument nefunguje.",
+      "diagram_generator": "kurzor",
+      "diagram": "Tři kroky pod sebou: INSTALL / LOG IN / MOVE THE MOUSE, každý se zatržítkem, a pod nimi přeškrtnuté NOT ENOUGH.",
+      "pause": 2.0
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Prázdné místo místo ikony ticha — chybějící prvek řekne 'no sound' líp než symbol.",
+      "diagram_generator": "zvuk",
+      "diagram": "Tři kroky v řadě: UPDATE / REBOOT / ticho. Třetí místo prázdné."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Hláška je citace z evidence Microsoftu a vrací se v S38. Musí být sázená stejně, jinak se shoda nepozná.",
+      "diagram_generator": "zvuk",
+      "diagram": "USB zvukové zařízení schematicky, u něj hláška v rámečku: THIS DEVICE CANNOT START."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Zvuk zařazený mezi úplné základy — to je argument scény, ne ilustrace.",
+      "diagram_generator": "zvuk",
+      "diagram": "Seznam základních věcí, které OS umí: spustit program, otevřít soubor, připojit se k síti, vydat zvuk. Poslední ambrově."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Beat, minimum prvků.",
+      "diagram_generator": "zvuk",
+      "diagram": "Jediná otázka uprostřed: CAN THE COMPUTER STILL MAKE A SOUND?"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Drobná změna proti S21, ne nový obraz — je to beat téhož záběru.",
+      "diagram_generator": "zvuk",
+      "diagram": "Táž otázka, k ní přibyde malý vlnovkový signál, který se láme.",
+      "pause": 1.8
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Ztlumené barvy schválně: scénář říká, že doma to člověk přežije. Míra jistoty v obraze musí sedět s hlasem.",
+      "diagram_generator": "zvuk",
+      "diagram": "Domácí stůl schematicky: legrační kurzor a tichý reproduktor, obojí ztlumeně. Popisek: ANNOYING."
+    },
+    {
+      "id": "S24",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S24.png",
+      "note": "Jediná lidská scéna první poloviny. Funkce: 'somebody is having a very bad morning' — dopad na člověka, ne na techniku. Přijímá se podle FUNKCE, ne podle shody s promptem.",
+      "prompt": "early morning open-plan office, one person alone at a desk lit by a single monitor, phone ringing off the hook, empty chairs around, cold overcast light through blinds, tired posture, no text",
+      "pause": 2.4
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Přechod od jednotlivostí ke vzorci. Čára je hypotéza, proto ČÁRKOVANÁ — potvrdí se až v S27.",
+      "diagram_generator": "vzorec",
+      "diagram": "Hromádka drobných historek vlevo se sloučí do jediné vzestupné čáry vpravo."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Čísla KB do obrazu nepatří (nikdo je neposlouchá a v titulcích čtrnácti jazyků jsou šum), ale forma seznamu ano — nese to, že evidenci vede sám Microsoft.",
+      "diagram_generator": "vzorec",
+      "diagram": "Stránka seznamu známých problémů schematicky: měsíc, číslo updatu, popis. Bez skutečných čísel KB."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Čárkovaná -> plná je tvrzení: z hypotézy se stal doklad. Konvence z _kit.py, drží se celým videem.",
+      "diagram_generator": "vzorec",
+      "diagram": "Osa času přes dvanáct měsíců, na ní stejné značky jako v S04/S07. Čára z S25 je teď plná."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Šest měsíců se rozdělí do tří scén po dvou, aby se každý stihl přečíst. Osa zůstává na týchž souřadnicích.",
+      "diagram_generator": "vzorec",
+      "diagram": "Leden a únor na ose: zvuk + webkamera, točící se kurzor."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "'Modrá obrazovka' se kreslí jako tvar, ne barevný odkaz — paleta videa modrou nemá a nesmí se kvůli jedné scéně rozbít.",
+      "diagram_generator": "vzorec",
+      "diagram": "Březen a duben: modrá obrazovka a uvízlá instalace, přeškrtnuté přihlášení obličejem."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Smyčka zpět do sebe je předobraz S31 — tam se pojmenuje.",
+      "diagram_generator": "vzorec",
+      "diagram": "Květen a říjen: Průzkumník bez odezvy, přerušená smyčka zpět do téhož počítače."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "POZOR, scéna, ve které něco na něco míří: přeškrtnout se smí JEN smyčka do sebe. Kdyby se přeškrtla i cesta ven, kresba by tvrdila opak scénáře.",
+      "diagram_generator": "vzorec",
+      "diagram": "Tentýž počítač, šipka ven do internetu přeškrtnutá NENÍ, šipka zpět do sebe ambrově přeškrtnutá. Popisek: THIS MACHINE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Zvětšení = důležitost. Je to konvence kitu a nesmí znamenat nic jiného.",
+      "diagram_generator": "vzorec",
+      "diagram": "Z dvanácti značek na ose se dvě zvětší."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "U klávesnice a myši MUSÍ být vidět USB konektor — Microsoft hlásí právě USB zařízení, Bluetooth a PS/2 fungovaly. Fact check tuhle větu opravoval, obraz ji nesmí rozšířit zpátky.",
+      "diagram_generator": "vzorec",
+      "diagram": "Dvě tlačítka: RESET THIS PC a obrazovka obnovy s USB myší a klávesnicí. Obojí přeškrtnuté."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Beat. Nic víc v obraze být nesmí.",
+      "diagram_generator": "vzorec",
+      "diagram": "Prázdná plocha, jediná věta: READ THAT AGAIN."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Nástroj na opravu rozbitý tím, co má opravovat. Šipka updatu je týž tvar jako v S01 — callback přes 34 scén.",
+      "diagram_generator": "vzorec",
+      "diagram": "Symbol opravného nástroje, a přes něj tatáž šipka updatu z S01. Popisek: TWICE IN THREE MONTHS.",
+      "pause": 2.0
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Zmenšená a stranou: ještě není pointa, jen se připomíná.",
+      "diagram_generator": "vzorec",
+      "diagram": "Návrat hlášky z S19, zmenšené, s otazníkem."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Dvacet měsíců je ověřený výpočet (factcheck.md), ne odhad. Rozpětí musí být čitelné, jinak scéna netvrdí nic.",
+      "diagram_generator": "vzorec",
+      "diagram": "Osa času, dvě značky vzdálené o dvacet měsíců, mezi nimi rozpětí."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Shoda se pozná JEN při totožné sazbě. Kdyby se druhá vykreslila jinak, celá scéna se rozpadne.",
+      "diagram_generator": "vzorec",
+      "diagram": "Dvě totožné hlášky vedle sebe, obě sázené jako v S19. Pod nimi: SAME SYMPTOM / SAME DEVICE / SAME MESSAGE."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Punchline videa. Za scénou je pauza 2,5 s — uživatel si ji vyžádal jmenovitě a sentence_pause na to nestačí, ta působí uvnitř scény.",
+      "diagram_generator": "vzorec",
+      "diagram": "Dvě tvrzení nad sebou: 'writing bad code' přeškrtnuté, 'TESTING' ambrově.",
+      "pause": 2.5
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Protažení TÉŽE osy, ne nová. Blok má ukázat, že vzorec je delší než dvanáct měsíců.",
+      "diagram_generator": "historie",
+      "diagram": "Osa času se protáhne doleva, za rok 2025, až k roku 2018."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Přeškrtnutá je cesta k Linuxu, ne Linux — update zabránil zavedení, nic nesmazal.",
+      "diagram_generator": "historie",
+      "diagram": "Dvojí zavádění systému: Windows a Linux, druhá cesta přeškrtnutá po updatu."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Citace je doslovná a ověřená; plné znění je delší, ale tenhle úsek v něm je (factcheck.md). Nesmí se přepsat 'hezčeji'.",
+      "diagram_generator": "historie",
+      "diagram": "Rámeček hlášky, v něm doslovná citace: SOMETHING HAS GONE SERIOUSLY WRONG."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Vtip scény. Ambrová na zatržítku.",
+      "diagram_generator": "historie",
+      "diagram": "Tatáž hláška, k ní zatržítko a popisek ACCURATE."
+    },
+    {
+      "id": "S44",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S44.png",
+      "note": "KOLO 2. První pokus (seed 1249223731) dal stůl ZAVALENÝ papíry — tedy přesný opak funkce scény, která má nést 'your documents are gone'. Prompt mluvil o 'empty document trays' a model se chytil slova 'document'. Nový prompt žádá prázdnotu čtyřikrát a slovo 'document' v něm není. Zamítnuté kolo je ve scratchpadu.",
+      "prompt": "an empty wooden desk seen from above, bare surface, one drawer pulled open and empty, a single unlit desk lamp, nothing on the desk at all, quiet domestic interior, cold flat overcast light, a sense of something missing, no text",
+      "pause": 2.6
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Závěr se NESMÍ škrtnout hned — scénář ho nejdřív nechá platit. Škrt přijde až v S47.",
+      "diagram_generator": "mimo",
+      "diagram": "Jednoduchý závěr v rámečku: MICROSOFT ISN'T VERY GOOD AT SOFTWARE. Zatím bez škrtu."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Výčet pod závěrem, ne vedle — vizuálně z něj plyne.",
+      "diagram_generator": "mimo",
+      "diagram": "Pod závěrem výčet, co by vysvětlil: bugy, regrese, updaty, co opraví jedno a rozbijí druhé."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Tady se závěr ruší. Přes NADPIS se škrtá čarou — plný křížek by ho udělal nečitelným.",
+      "diagram_generator": "mimo",
+      "diagram": "Rámeček ze S45 přeškrtnutý vodorovnou čarou. Vedle stoh Windows a vedle něj další, jiné stohy."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Různá výška = různé stáří a složitost. Barevně JEDNOTNÉ — barva bez významu si význam vyrobí (zpětná vazba od diváka u třetího videa).",
+      "diagram_generator": "mimo",
+      "diagram": "Pět dalších produktů jako samostatné stohy, každý jinak vysoký: Office, Visual Studio, Exchange, Teams, cloud."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Tentýž tvar prasklin jako v S01 — shoda tvaru je celý argument scény.",
+      "diagram_generator": "mimo",
+      "diagram": "V každém z těch stohů se objeví stejné praskliny jako ve Windows v S01."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Výška = stáří. Zavedeno tady a platí do S52.",
+      "diagram_generator": "mimo",
+      "diagram": "Vedle sebe vysoký starý stoh (třicet let) a nízký nový."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Ambrová na novém stohu, protože o něm je řeč. Starý zůstává ztlumený.",
+      "diagram_generator": "mimo",
+      "diagram": "Nízký nový stoh se popíše: postavený nedávno, lidmi, kteří věděli, co staví."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Pointa bloku: mládí nechrání. Pauza za scénou.",
+      "diagram_generator": "mimo",
+      "diagram": "V nízkém novém stohu se objeví tatáž prasklina.",
+      "pause": 2.0
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Přemostění, bez kterého by následující vrstvy vypadaly jako couvnutí k výmluvě.",
+      "diagram_generator": "mimo",
+      "diagram": "Slovo OLD CODE přeškrtnuté, pod ním SCALE ambrově."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Návrat k páteři, přechod do vrstvového bloku.",
+      "diagram_generator": "mimo",
+      "diagram": "Ze skupiny stohů se jeden (Windows) zvětší."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "POZOR NA FORMULACI: architektura, ne 'kód z roku 1993'. Fact check to opravoval ve scénáři a obraz to nesmí vrátit — spodní pás se NEPOPISUJE letopočtem a NEKRESLÍ jako jeden balík kódu.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Stoh z S01 v plné velikosti, spodní pás popsaný: ARCHITECTURE FROM THE EARLY NINETIES."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Přibývání shora dolů by bylo proti smyslu — vrstvy rostou NAHORU.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Nad spodním pásem přibývají další: rozhraní, vrstvy kompatibility, ovladače, služby."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Světlost roste nahoru — tím se z toho stane vrstevnatý řez i bez popisků.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Další dva pásy rámců a dva pásy povrchu, každý o něco světlejší."
+    },
+    {
+      "id": "S58",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S58.png",
+      "note": "Ústřední metafora videa. 'flat grey overcast sky, no sun' je tam schválně: dawn a dusk dávají u SDXL vždycky zlaté světlo, které přebije barevnou kotvu (naměřeno u videa 020). slow_zoom_out, protože se svět rozšiřuje.",
+      "prompt": "an archaeological excavation seen from the side, neat horizontal strata of earth and stone, older layers deeper down, wooden walkways and ladders between levels, quiet overcast daylight, flat grey sky, no sun, no text"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Odkaz na video 046. Obraz musí ukázat DŮVOD (někdo na tom stojí), ne mechanismus — mechanismus je v 046.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Stoh, spodní část ambrově ohraničená, k ní popisek: BUSINESSES DEPEND ON THIS."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Vazby, ne pásy — scéna je o rozhraních mezi vrstvami.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Mezi každými dvěma pásy tenká vazba; všechny vazby zvýrazněné."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "POZOR, scéna, ve které něco na něco míří: vlna jde SHORA DOLŮ. Obrácený směr by tvrdil, že chyby vznikají v jádře.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Změna v horním pásu, a ambrová vlna po vazbách dolů až k pásu, který nikdo roky neotevřel.",
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Předěl: blok není o chybách, ale o chování firmy.",
+      "diagram_generator": "treti",
+      "diagram": "Stoh se odsune, doprostřed přijde nový, prázdný rámeček."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Kruh, ne řada — je to opakující se vzorec. Dlouhá šipka u 'reconsider' nese ty roky.",
+      "diagram_generator": "treti",
+      "diagram": "Čtyři kroky v kruhu: REMOVE / COMPLAIN / RECONSIDER (dlouhá šipka) / ..."
+    },
+    {
+      "id": "S64",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S64.png",
+      "note": "Protiváha k obrovské firmě z S09 a S70. Jeden člověk, klid, žádné hrdinství.",
+      "prompt": "a single person working late at a small desk in a dim room, one lamp, tools and parts laid out neatly, patient concentration, worn domestic interior, no text"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Jmenovat je jde, jsou to veřejné projekty. Barevně JEDNOTNÉ — dva z nich jsou placené, takže žádné odlišení 'komunitní vs. placený' se kreslit nesmí, scénář to nerozlišuje.",
+      "diagram_generator": "treti",
+      "diagram": "Čtyři jmenované nástroje jako rovnocenné rámečky."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Věta zůstává nedokončená, pointa je v S67.",
+      "diagram_generator": "treti",
+      "diagram": "Rámeček s nápisem MAKE WINDOWS BEHAVE MORE LIKE..."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Beat. Jediná změna proti S66 — jinak by z vtipu byly dva střihy. NÁVĚTÍ kvůli poškozenému hlasu: 'well... Windows.' je táž vada jako dokumentované 'Well... no.' — v krátké samostatné promluvě Kokoro mezi ta dvě slova vkládá artefakt. Návětí promluvu prodlouží a uřízne se v tichu před prvním skutečným slovem.",
+      "diagram_generator": "treti",
+      "diagram": "Tentýž rámeček, doplněné slovo: WINDOWS.",
+      "naveti": "People install these tools for one reason."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Schémata, ne snímky obrazovky (licence).",
+      "diagram_generator": "treti",
+      "diagram": "Tři obnovené věci: starší Start menu, lišta, chování Průzkumníka."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Délka = míra kontroly. Rozdíl musí být čitelný, jinak scéna netvrdí nic.",
+      "diagram_generator": "treti",
+      "diagram": "Dvě posuvné škály ovládání vedle sebe: Windows a nástroj třetí strany. Druhá je delší."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Callback na S09 — tatáž textura, tentokrát proti jednomu člověku. Konec bloku, pauza.",
+      "diagram_generator": "treti",
+      "diagram": "Velká plocha drobných čtverečků (firma) z S09 a proti ní jediný čtvereček s ambrovou lištou.",
+      "pause": 2.4
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "AI jen u PRVNÍHO článku. Kdyby byla u všech, obraz by tvrdil něco, co scénář výslovně netvrdí.",
+      "diagram_generator": "ai",
+      "diagram": "Řetěz vývoje: napsat -> zkontrolovat -> vydat. Nad prvním článkem přibude AI."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Číslo je ověřený citát (Nadella, LlamaCon, 29. 4. 2025). Podíl v obraze musí odpovídat — assert v generátoru.",
+      "diagram_generator": "ai",
+      "diagram": "Sloupec kódu, z něj dvacet až třicet procent ambrově."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Záměrně optimistická scéna. Nic přeškrtnutého — obrat přijde až v S74.",
+      "diagram_generator": "ai",
+      "diagram": "Šipky vzhůru: víc kódu, víc oprav, rychleji."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Zrychlení jen u psaní.",
+      "diagram_generator": "ai",
+      "diagram": "Týž řetěz jako v S71, první článek se zrychlí (ambrově)."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Hrdlo vzniká rozdílem šířek, ne popiskem. Čitelné i bez textu.",
+      "diagram_generator": "ai",
+      "diagram": "Druhý článek řetězu (testování) zůstává stejně široký, teď je z něj hrdlo."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Přetlak, ne prasklina — scénář tady ještě netvrdí následek.",
+      "diagram_generator": "ai",
+      "diagram": "Do hrdla se tlačí víc změn, než jím projde."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Týž tvar prasklin potřetí (S01, S49, S77) — to je ta nitka, která drží video pohromadě.",
+      "diagram_generator": "ai",
+      "diagram": "Za hrdlem vypadávají tytéž prasklinky jako v S01."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "FACT-CHECK POJISTKA, uživatel na ni upozornil jmenovitě. Obraz MUSÍ ukázat, že to číslo patří celé firmě, ne Windows — velikostí, ne popiskem. Tuhle scénu nikdy neškrtat.",
+      "diagram_generator": "ai",
+      "diagram": "Dvě ohraničení: velké MICROSOFT a v něm malé WINDOWS. Vedle ambrově: NOT SHOWN."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Škrtá se OBVINĚNÍ, ne AI.",
+      "diagram_generator": "ai",
+      "diagram": "Tvrzení 'AI made them worse at testing' přeškrtnuté."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Rozdíl mezi 'způsobila' a 'zrychlila' musí být vidět v obraze, ne jen slyšet.",
+      "diagram_generator": "ai",
+      "diagram": "Pod škrtnutým tvrzením: THE EXISTING PROBLEM, a u něj šipka zrychlení.",
+      "pause": 2.8
+    },
+    {
+      "id": "S80b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Výzva k odběru. Dědí obrázek S80 (prolínačka dvou shodných obrázků není vidět) a MUSÍ být static, jinak by zoom v místě střihu skočil. Sedí za hlavní pointou bloku o AI a před obratem k jádru, tedy mezi dvěma myšlenkami, ne dovnitř jedné.",
+      "cta": true
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Poprvé je vidět, že spodní pás praskliny NEMÁ — a nikdo to zatím neřekl. Obraz jde půl scény před hlasem, což je tady záměr.",
+      "diagram_generator": "jadro",
+      "diagram": "Shrnutí dosavadního: stoh s prasklinami ve všech horních pásech, spodní pás beze změny."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Osa druhé poloviny videa. Pauza 2,6 — je to obrat.",
+      "diagram_generator": "jadro",
+      "diagram": "Otázka: WHY MIGHT THE KERNEL BE DIFFERENT?",
+      "pause": 2.6
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Ohraničení, ne zvýraznění jednotlivostí.",
+      "diagram_generator": "jadro",
+      "diagram": "Stoh, horní pásy ambrově orámované jako 'všechno dosavadní'."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Všech pět je z dřívějších scén a má se kreslit TÝMŽ tvarem, jinak se callback nepozná.",
+      "diagram_generator": "jadro",
+      "diagram": "Uvnitř toho ohraničení se vyjmenuje: kurzor, lišta, Start menu, nastavení, obrazovka obnovy."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "VÝPLATA PÁTEŘE. Stoh se poprvé rozdělí. Souřadnice spodního pásu se od S01 nesměly pohnout, jinak se to nepozná.",
+      "diagram_generator": "jadro",
+      "diagram": "Ohraničená horní část se zvedne a odhalí spodní pás, který zůstane sám.",
+      "pause": 2.4
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Tři funkce, ne pět — scénář jmenuje tři. Obraz nesmí tvrdit víc než scénář.",
+      "diagram_generator": "jadro",
+      "diagram": "Spodní pás zevnitř: rozvrhování na jádra procesoru, přidělování paměti, cesta k hardwaru."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Prázdné místo se vyplní až v S88.",
+      "diagram_generator": "jadro",
+      "diagram": "Vedle sebe legrační kurzor (malý, ztlumený) a prázdné místo pro následek dole."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Tři následky proti jednomu kurzoru. Poměr velikostí nese scénu.",
+      "diagram_generator": "jadro",
+      "diagram": "Do prázdného místa: zastavený stroj, poškozená data, tichý průnik."
+    },
+    {
+      "id": "S88b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88b.png",
+      "note": "Nový argumentační blok, ne natažení předchozí scény — uživatel na to upozornil. Sevření je nový vizuální prvek, který horní pásy nemají.",
+      "diagram_generator": "jadro",
+      "diagram": "Spodní pás sevřený mezi dvě pevné hrany. Popisek: HARD CONSTRAINTS."
+    },
+    {
+      "id": "S88c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88c.png",
+      "note": "POZOR, scéna, ve které něco na něco míří: škrtá se VLIV povrchu na jádro, ne jádro.",
+      "diagram_generator": "jadro",
+      "diagram": "Přeškrtnutá šipka od přepracovaného Start menu k rozvrhovači."
+    },
+    {
+      "id": "S88d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88d.png",
+      "note": "Dvě myšlenky v jedné scéně, protože ani jedna sama neunese celou scénu.",
+      "diagram_generator": "jadro",
+      "diagram": "Dvě přeškrtnuté zkratky: 'modernizace posunutím tlačítka' a 'hardware se zachová hezky'."
+    },
+    {
+      "id": "S88e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88e.png",
+      "note": "Kontrast dvou pásů TÉHOŽ stohu, ne dvou různých obrazů.",
+      "diagram_generator": "jadro",
+      "diagram": "Horní pás schová chybu za stránku nastavení; spodní pás nemá kam."
+    },
+    {
+      "id": "S88f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88f.png",
+      "note": "ČÁRKOVANÉ ohraničení, protože je to podezření, ne doklad. Plná čára by tvrdila víc než scénář a S89 by pak neměla co dělat.",
+      "diagram_generator": "jadro",
+      "diagram": "Spodní pás oddělený od zbytku, popisek: A DIFFERENT ENGINEERING STORY. Ohraničení čárkované."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Šev celé druhé poloviny. Prázdná plocha se plní v S90-S95 a teprve pak čára ztvrdne.",
+      "diagram_generator": "dukazy",
+      "diagram": "Čárkované ohraničení z S88f zůstává, vedle něj prázdná plocha nadepsaná EVIDENCE."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Stáří jako hloubka, ne jako letopočet — viz poznámka u S55.",
+      "diagram_generator": "dukazy",
+      "diagram": "Spodní pás a pod ním hloubka let."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Souvislá čára pod všemi generacemi je tvrzení scény. Správně NEZAHRNUJE 95/98/ME — ty na NT nestály (factcheck.md).",
+      "diagram_generator": "dukazy",
+      "diagram": "Řada generací: 2000, XP, Vista, 7, 8, 10, 11, a pod nimi jedna souvislá spodní čára."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Růst nahoře, klid dole. Tentýž tvar jako S91.",
+      "diagram_generator": "dukazy",
+      "diagram": "Čtyři veličiny rostou: jádra procesoru, paměť, virtualizace, a pod tím táž čára beze změny."
+    },
+    {
+      "id": "S93",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S93.png",
+      "note": "Jediná scéna s pan_right v celém videu — pohyb tady nese to 'all over the world'. Bez lidí schválně: scéna je o měřítku.",
+      "prompt": "long row of server racks receding into the distance, dim cool interior, cable runs overhead, no people, quiet industrial scale, flat even light, no text"
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Barevně jednotné, žádný z nich není důležitější.",
+      "diagram_generator": "dukazy",
+      "diagram": "Čtyři druhy zátěže jako rovnocenné bloky nad toutéž čarou."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Argument z nepřítomnosti: kdyby to bylo rozbité, bylo by to vidět. Prasklina je ČÁRKOVANÁ, je hypotetická.",
+      "diagram_generator": "dukazy",
+      "diagram": "Hypotetická prasklina ve spodním pásu a nad ní obrovský účet."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Epistemická brzda. Obraz musí být čistý — uživatel si to vyžádal jmenovitě.",
+      "diagram_generator": "zaver",
+      "diagram": "Spodní pás zavřený, přes něj mříž. Popisek: WE CAN'T READ THIS."
+    },
+    {
+      "id": "S96b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96b.png",
+      "note": "Předěl k uniklému zdrojáku. Menší pás = starší generace; velikost tu znamená stáří, ne důležitost.",
+      "diagram_generator": "zaver",
+      "diagram": "Zavřený spodní pás z S96, a vedle něj druhý, menší a starší, se štěrbinou."
+    },
+    {
+      "id": "S96c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96c.png",
+      "note": "Letopočty se v obraze PÍŠÍ, protože jsou to konkrétní doklady, ne 'nedávno'. Podíl musí být vidět jako zlomek, jinak scéna tvrdí, že unikl celý.",
+      "diagram_generator": "zaver",
+      "diagram": "Starší pás otevřený, u něj dva letopočty: 2000 jako původ a 2004 jako únik. Vedle podíl, kolik z něj uniklo."
+    },
+    {
+      "id": "S96d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96d.png",
+      "note": "Šestnáct let je NAMĚŘENÝ průměr z toho auditu, ne odhad. Osa je táž jako v S37 — divák ji zná jako 'takhle dlouho to trvalo'.",
+      "diagram_generator": "zaver",
+      "diagram": "Vodorovná osa šestnácti let, na jejím začátku chyba a na konci záplata."
+    },
+    {
+      "id": "S96e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96e.png",
+      "note": "POJISTKA. Šipka je ČÁRKOVANÁ, protože z auditu roku 2000 na dnešní jádro usuzovat nejde. Bez téhle scény by dvě předchozí tvrdily, že dnešní kernel je špatný — a to ten audit neříká.",
+      "diagram_generator": "zaver",
+      "diagram": "Vedle sebe starý pás (ambrově, otevřený) a dnešní jádro (zavřené, ztlumené). Mezi nimi čárkovaná šipka.",
+      "pause": 2.2
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Škrtá se rovnítko, ne slova.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě slova vedle sebe: SURVIVED a EXCELLENT, mezi nimi přeškrtnuté rovnítko."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Minimum prvků.",
+      "diagram_generator": "zaver",
+      "diagram": "BRILLIANT přeškrtnuté."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "VÝPLATA ŠVU z S89: podezření se stalo dokladem. Je to táž konvence jako S25->S27, jen přes dvacet scén. Pauza 2,8.",
+      "diagram_generator": "zaver",
+      "diagram": "COMPETENT ambrově, pod tím čárkovaná čára z S89, která se tady mění na plnou.",
+      "pause": 2.8
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Jednoduchý závěr proti složitému. Ambrová na stohu.",
+      "diagram_generator": "zaver",
+      "diagram": "Nálepka 'WINDOWS BAD' přeškrtnutá, vedle ní složitější obraz stohu."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "CALLBACK NA S08. Sazba musí být bit po bitu stejná, jinak se to nepozná — proto je otázka v _kit.py jako jedna funkce.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka z S08 v TOTOŽNÉ sazbě, pod ní odpověď: NOT 'THEY CAN'T WRITE SOFTWARE'."
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Nelze zahodit staré — tatáž myšlenka jako S59, ale tady jako závěr, ne jako odkaz.",
+      "diagram_generator": "zaver",
+      "diagram": "Stoh znovu, a šipka, která nesmí nic odspodu odebrat."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Poslední je pointa, proto jediná ambrová.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři vlastnosti stohu: enormous, powerful, compatible, a čtvrtá ambrově: ridiculous."
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Poslední návrat tvaru prasklin. Kruh se uzavírá.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři drobné poruchy nahoře ve stohu, znovu týmž tvarem jako v S01."
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "BYLA TO SDXL SCÉNA A TŘIKRÁT NEPROŠLA. Kolo 1 dalo chaotickou změť, kolo 2 čitelná soukolí na SVĚTLÉM pozadí a kolo 3 soukolí přes celý rám — pokaždé s horní polovinou světlejší než dolní, ačkoli prompt žádal opak. `zaver_check.py` scénu odmítl: kresba na 44,5 % plochy a ani jeden roh pro dlaždici či kolečko odběru, a to je scéna v posledních dvaceti sekundách.\nPlatí pravidlo z CLAUDE.md: když model funkci scény netrefí dvakrát, nepatří to jinam v promptu, ale jinam ve zdroji. Jako diagram je to navíc VĚCNĚ lepší — funkce scény ('něco dole tiše rozhoduje, co poběží') JE spodní pás, tedy páteř videa. Zamítnutá kola jsou ve scratchpadu.",
+      "diagram_generator": "zaver",
+      "diagram": "Celý stoh slabě, spodní pás zřetelný, a v něm tři drobné značky práce: co poběží, přidělená paměť, cesta k hardwaru. Horní polovina rámu prázdná."
+    },
+    {
+      "id": "S106",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: horní polovina musí zůstat volná ve VŠECH posledních čtyřech scénách. Dole sedí titulek, takže prvky YouTube patří nahoru.",
+      "diagram_generator": "zaver",
+      "diagram": "Spodní pás sám, klidný, horní polovina obrazu prázdná."
+    },
+    {
+      "id": "S107",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S107.png",
+      "note": "Beat. Horní polovina dál volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, k pásu drobný otazník.",
+      "pause": 1.8
+    },
+    {
+      "id": "S108",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S108.png",
+      "note": "Poslední obraz videa, minimalistický — uživatel si to vyžádal. Horní polovina volná kvůli závěrečné obrazovce.",
+      "diagram_generator": "zaver",
+      "diagram": "Lišta nahoře zřetelná, spodní pás pod čarou nezřetelný. Popisek: WE CAN'T SEE IT."
+    }
+  ]
+}

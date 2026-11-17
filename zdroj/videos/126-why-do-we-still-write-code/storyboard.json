@@ -1,0 +1,640 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese myšlenku: šest slov, která vypadají hotově. Není SDXL. Karta leží na souřadnicích páteře, ze kterých se nikdy nepohne (kromě S65).",
+   "diagram_generator": "veta",
+   "diagram": "PÁTEŘ: karta věty A USER CAN CANCEL AN ORDER. v dolní polovině vlevo (VETA_BOX). Nad ní malý štítek A COMPLETE REQUIREMENT. Zbytek páteře (mezera, kód) ještě není."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Assert: věta má právě šest slov.",
+   "diagram_generator": "veta",
+   "diagram": "Karta věty; nad šesti slovy šest drobných čárek (6 WORDS). Vpravo nahoře dvě postavy: DEVELOPER s fajfkou (kývne), CUSTOMER s podpisovou čárou a fajfkou."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Otázky bydlí v poli mezery už od začátku, aby S05 jen pojmenovalo, co divák vidí.",
+   "diagram_generator": "veta",
+   "diagram": "Karta věty, slovo CANCEL ambrově. Do pole mezery (MEZERA_BOX) naskočí dvě ambrové otázky AFTER THE INVOICE? a AFTER SHIPPING?, čárkovaně spojené se slovem CANCEL."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Čtyři otázky na pevných místech (OTAZKY), protože se vracejí v S27, S30–S35.",
+   "diagram_generator": "veta",
+   "diagram": "Totéž, předchozí dvě otázky ztlumené, nové ambrově: SUPPLIER RESERVATION? a TWO PEOPLE, SAME SECOND?"
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Zavedení celé páteře. Kód je ilustrativní, ne skutečný jazyk; řádky odpovídají otázkám ve stejném pořadí (assert).",
+   "diagram_generator": "veta",
+   "diagram": "Celá páteř: karta věty | mezera se čtyřmi otázkami | panel KÓD vpravo (neproporcionální pseudokód, který na každou otázku odpovídá). Nad mezerou ambrová složená závorka a WHAT PROGRAMMERS ARE PAID FOR.",
+   "pause": 2.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Teze z 044 jednou větou. AI je obecný čip bez značky.",
+   "diagram_generator": "napad",
+   "diagram": "Tok zleva doprava: stoh dokumentů (WRITE · REVIEW · VERSION) → čip AI → panel kódu. Dokumenty ambrově, kód ztlumeně."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Kresba tvrdí jen ‚role se posune o patro‘, ne že assembler zmizel.",
+   "diagram_generator": "napad",
+   "diagram": "Dva sloupce vrstev. TODAY: SOURCE CODE (read by people) nad ASSEMBLY (runs, nobody reads). THE IDEA: SPECIFICATION nad CODE, kód ztlumený a s popiskem RUNS, NOBODY READS. Šipka ukazuje posun o patro."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Konec úvodního bloku (~1:05) — do 1:10 už divák dostal konkrétní příklad i úhel videa.",
+   "diagram_generator": "napad",
+   "diagram": "Dvě věty pod sebou: IT IS A GOOD IDEA. (bílá) a IT IS ALSO NOT A NEW ONE. (ambrová).",
+   "pause": 2.2
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Stupně zatím bez jmen; nástroje i cíle se lišily (scénář), takže schody nejsou ‚týž slib‘, jen směr.",
+   "diagram_generator": "schody",
+   "diagram": "MOTIV 2, schody abstrakce: pět prázdných stupňů zleva dole doprava nahoru, nad nimi šipka LEVEL AT WHICH WE TELL COMPUTERS WHAT TO DO. Dole ztlumeně NEARLY 70 YEARS. Šedá šipka práce PEOPLE → MACHINES."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Titul se čte, protože se k němu vrací S60.",
+   "diagram_generator": "schody",
+   "diagram": "První stupeň svítí: 1957. Vedle karta titulu článku: THE FORTRAN AUTOMATIC CODING SYSTEM, slova AUTOMATIC CODING SYSTEM ambrově. Pod tím IBM · 1957."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Instrukce jsou schematické (SCHEMATIC), ne skutečný kód IBM 704.",
+   "diagram_generator": "schody",
+   "diagram": "Vlevo vzorec (Y = A*X + B), šipka do stroje, vpravo sloupec strojových instrukcí neproporcionálně. Nad instrukcemi: WRITTEN BY HAND → PRODUCED BY THE MACHINE."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "VÝZVA K ODBĚRU za touto scénou (~1:45): levý dolní roh prázdný, scéna bez titulku. Konec FORTRANu, další scéna otevírá 80. léta.",
+   "diagram_generator": "schody",
+   "diagram": "Karta titulu z S10, AUTOMATIC CODING SYSTEM přeškrtnuto (text_skrtnuty), pod tím ambrově TODAY: CODE.",
+   "vyzva": true,
+   "pause": 1.6
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "‚Much of the application‘ — kresba nesmí ukázat celou aplikaci vygenerovanou.",
+   "diagram_generator": "schody",
+   "diagram": "Druhý stupeň svítí: 1980s · CASE TOOLS · 4GL. Vedle: diagram + formulář → vygenerovaná aplikace (většina dílů ambrově, MUCH OF IT GENERATED)."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "",
+   "diagram_generator": "schody",
+   "diagram": "Třetí stupeň: 2001. Karta MODEL DRIVEN ARCHITECTURE, pod ní OBJECT MANAGEMENT GROUP · THE BODY BEHIND UML."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Platformy schválně bez jmen — tvrzení je ‚pro jakoukoli platformu‘.",
+   "diagram_generator": "mda",
+   "diagram": "Jeden model nahoře (MODEL · INDEPENDENT OF ANY TECHNOLOGY, ambrově) → TOOLS GENERATE → tři platformy dole (PLATFORM A/B/C)."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Rým se S49 (stejné souřadnice modelu a platforem).",
+   "diagram_generator": "mda",
+   "diagram": "Totéž: model plnou čarou SAME BUSINESS RULES, platformy čárkovaně REPLACEABLE TECHNOLOGY.",
+   "pause": 0.6
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "",
+   "diagram_generator": "schody",
+   "diagram": "Čtvrtý stupeň: 2014 · FORRESTER · LOW-CODE. Pod ním AS LITTLE HAND-WRITTEN CODE AS POSSIBLE."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "",
+   "diagram_generator": "schody",
+   "diagram": "Všechny čtyři stupně ztlumené, nad nimi velký otazník DID ANY OF IT WORK?",
+   "pause": 1.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Whittle a kol. 2014 (factcheck S19).",
+   "diagram_generator": "mde",
+   "diagram": "Mřížka 450 teček (assert), nad ní PARTLY. a LANCASTER UNIVERSITY · 2014 · 450 PEOPLE USING MODEL-DRIVEN DEVELOPMENT."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Studie říká ‚key parts‘ — kresba nesmí tvrdit podíl v procentech.",
+   "diagram_generator": "mde",
+   "diagram": "Obrys systému z dílů: KEY PARTS ambrově (GENERATED), zbytek ztlumeně (BUILT OTHER WAYS). Nad tím RARELY A WHOLE SYSTEM."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Velikost tu záměrně nese důležitost (‚biggest obstacles‘).",
+   "diagram_generator": "mde",
+   "diagram": "Tři štítky překážek: PEOPLE a ORGANISATIONS velké, TOOLS menší ztlumený. Pod nimi ambrově + A TECHNICAL LIMIT.",
+   "pause": 1.0
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Vtip se nepřipisuje (factcheck).",
+   "diagram_generator": "mde",
+   "diagram": "A SPECIFICATION PRECISE ENOUGH TO GENERATE THE WHOLE PROGRAM FROM… = CODE (ambrově, neproporcionálně).",
+   "pause": 1.2
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "",
+   "diagram_generator": "mde",
+   "diagram": "Model (rámeček diagramu) se plní: EVERY STATE · EVERY EXCEPTION · “WHAT IF TWO PEOPLE DO IT AT ONCE” — uvnitř houstne spleť."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "‚Often harder‘ — štítky ztlumeně, ne jako zákon.",
+   "diagram_generator": "mde",
+   "diagram": "Hustý diagram s nálepkou STILL PROGRAMMING; vedle tři štítky HARDER TO READ · TO COMPARE · TO REVIEW.",
+   "pause": 2.2
+  },
+  {
+   "id": "S25",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Portrét Edsgera Dijkstry, celá hlava s odstupem. PICK VYBRAT Z KONTAKTNÍHO LISTU. Portrét: fit 0.84, static, žádný zoom. Jméno a titul poznámky nese S26.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Edsger Wybe Dijkstra",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Citát doslova z EWD 667 (factcheck S26).",
+   "diagram_generator": "dijkstra",
+   "diagram": "Nahoře ztlumeně EDSGER W. DIJKSTRA · ON THE FOOLISHNESS OF “NATURAL LANGUAGE PROGRAMMING” · LATE 1970s. Uprostřed citát ambrově: AN AMAZINGLY EFFECTIVE TOOL FOR RULING OUT ALL SORTS OF NONSENSE."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Callback na S01 — stejné souřadnice karty i otázek.",
+   "diagram_generator": "veta",
+   "diagram": "Páteř: karta věty, za ní/kolem ní čtyři otázky z S04 skoro neviditelné (op 0.15). Nad kartou IT HIDES IT.",
+   "pause": 2.6
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Čárkovaně = zatím jen slib.",
+   "diagram_generator": "schody",
+   "diagram": "Všechny čtyři stupně ztlumené, pátý čárkovaně SPEC + AI s otazníkem: WHY TRY AGAIN?",
+   "pause": 1.0
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Původně SDXL (terminál a laptop). Dvě kola zamítnuta: 1) dva stejné moderní monitory, skoro fotorealistické; 2) malované, ale jen staré počítače bez laptopu. Funkci ‚tohle je jinak‘ nenesla ani jedno, proto kresba — zároveň uvádí stroj a čip z S30/S31.",
+   "pause": 1.2,
+   "diagram_generator": "veta",
+   "diagram": "Vlevo ztlumeně starý generátor (krabice s kolečkem) OLD GENERATORS, vpravo ambrově čip AI, mezi nimi ≠. Nad tím ONE THING REALLY IS DIFFERENT."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Opatrně (scénář 0.3): starší generátor pravidlo sám nedoplnil, nebyl to vždycky pád.",
+   "diagram_generator": "veta",
+   "diagram": "Páteř: věta → OLD GENERATOR → kód. V panelu kódu čárkovaná díra s otazníkem SHIPPED ORDER: ?; nad mezerou THE GAP WAS STILL THERE — AND YOU COULD FIND IT. Postava s popiskem SOMEONE ADDS THE RULE."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "",
+   "diagram_generator": "veta",
+   "diagram": "Páteř: věta → čip AI → kód. Všechny čtyři otázky v mezeře mají odpověď (řádky kódu naplněné). Nad tím AN AI DOESN'T STOP."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Pokyn uživatele: přesvědčivý kód s ‚passed‘ a vedle chybné rozhodnutí. Paleta zelenou nemá — passed je fajfka INK. Rozhodnutí jsou ILUSTRATIVNÍ neschválená volba (INVOICE → KEPT je navíc opak toho, co chce zákazník v S42), proto popisek NOT APPROVED BY ANYONE.",
+   "diagram_generator": "veta",
+   "diagram": "Panel kódu přesvědčivý (neproporcionální řádky), nad ním fajfka 12 TESTS PASSED · TESTS WRITTEN BY THE SAME AI. Vlevo tři čárkovaná rozhodnutí: SHIPPED ORDER → CAN BE CANCELLED · INVOICE → KEPT · SUPPLIER → NOT INFORMED, každé s DECIDED BY: —. Pod nimi ambrově THE AI'S GUESSES · NOT APPROVED BY ANYONE."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Ilustrace rizika, ne vlastnost každého modelu (zpětná vazba 0.3).",
+   "diagram_generator": "veta",
+   "diagram": "USEFUL a DANGEROUS vedle sebe nahoře; dole A PLAUSIBLE GUESS ≠ A BUSINESS DECISION (≠ ambrově).",
+   "pause": 1.4
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Pauza za touto scénou (zpětná vazba 0.3), pak odhalení.",
+   "diagram_generator": "veta",
+   "diagram": "Páteř: mezera, v ní čtyři čárkované díry označené ERROR (ztlumeně červeně ne — INK s křížkem). Nad tím THE GAPS USED TO BE ERRORS.",
+   "pause": 1.6
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Vrchol první půlky; dlouhá pauza (blok končí).",
+   "diagram_generator": "veta",
+   "diagram": "Táž kompozice, díry vyplněné ambrovými bloky DECISION, každý s prázdným DECIDED BY: —. Nad tím NOBODY NOTICED THEM BEING MADE.",
+   "pause": 3.0
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "",
+   "diagram_generator": "repo",
+   "diagram": "Jedna stránka se třemi přátelskými odstavci, malá a ztlumená; vedle ambrově CAN'T BE A FEW FRIENDLY PARAGRAPHS."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Repozitář na pevných souřadnicích (REPO), vrací se v S38–S41, S43, S57, S59.",
+   "diagram_generator": "repo",
+   "diagram": "MOTIV 3, repozitář: strom souborů. Svítí orders.md (EVERY STATE) a approvals.md (WHO APPROVES, WHO CANCELS)."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "",
+   "diagram_generator": "repo",
+   "diagram": "Týž strom, svítí invoices.md (ISSUED · REVERSED) a accounting.md (INCL. WHEN IT'S DOWN)."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Stavy jsou příklad, ne úplný model.",
+   "diagram_generator": "repo",
+   "diagram": "Otevřený dokument: řádky prózy (ztlumeně) a v nich ambrový blok: stavový diagram (CREATED → APPROVED → SHIPPED → DELIVERED, CANCELLED), schéma a pravidlo.",
+   "pause": 0.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "",
+   "diagram_generator": "repo",
+   "diagram": "Vedle dokumentu soubor acceptance tests: GIVEN / WHEN / THEN neproporcionálně."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "",
+   "diagram_generator": "repo",
+   "diagram": "Celý strom v rámečku GIT; fajfka REVIEWED; tenké čáry od požadavků k testům (TRACED).",
+   "pause": 2.2
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Začátek příkladu změny S42–S47 (pokyn uživatele: názorně).",
+   "diagram_generator": "zmena",
+   "diagram": "Karta změny od zákazníka: SHIPPED, NOT YET DELIVERED → CAN BE CANCELLED · THEN THE INVOICE MUST BE REVERSED."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "",
+   "diagram_generator": "zmena",
+   "diagram": "Vlevo dokument orders.md, jeden řádek pravidla ambrově (shipped & !delivered → cancel ok), pod ním postava DEVELOPER. Vpravo BACKEND ztlumeně se zámkem: NOBODY OPENS IT.",
+   "pause": 0.6
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Výčet — `vycet`.",
+   "diagram_generator": "zmena",
+   "diagram": "Od změněného pravidla vedou čáry ke čtyřem položkám: ORDER STATES · INVOICE RULES · CANCELLING TESTS · SUPPLIER RESERVATION.",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Pokyn uživatele: AI se ZASTAVÍ u rezervace dodavatele.",
+   "diagram_generator": "zmena",
+   "diagram": "Čára k SUPPLIER RESERVATION končí čárkovaně a otazníkem; AI STOPS. Šipka zpět k postavě: A DECISION → BACK TO A PERSON."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Scénář říká ‚should pass‘ — testy jsou požadovaná kontrola, ne zaručený výsledek, proto políčka bez fajfky.",
+   "diagram_generator": "zmena",
+   "diagram": "SPECIFICATION → čip AI (GENERATE) → NEW IMPLEMENTATION s dvěma PRÁZDNÝMI políčky: NEW RULE · ITS TESTS MUST PASS (ambrově) a EVERY OTHER TEST · MUST STILL PASS, UNCHANGED. Pod tím CHECKED IN BOTH DIRECTIONS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Pokyn uživatele: odlišit ‚testy prošly‘ od ‚testy stačí‘.",
+   "diagram_generator": "zmena",
+   "diagram": "Svítilna testů osvětluje jen část plochy kódu: PASSING TESTS ≠ ENOUGH TESTS · ONLY SHOWS WHAT THE TESTS CHECK."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Rozložení jako S15–S16 (rým), specifikace na místě modelu.",
+   "diagram_generator": "mda",
+   "diagram": "Jedna specifikace nahoře → PHP TODAY (plně) a SOMETHING ELSE TOMORROW (čárkovaně).",
+   "pause": 0.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "VÝZVA K ODBĚRU č. 2 za touto scénou (~7:30): konec bloku, další scéna otevírá ověřování. Levý dolní roh prázdný, bez titulku.",
+   "diagram_generator": "mda",
+   "diagram": "Rým S16: MODEL DRIVEN ARCHITECTURE · 2001 nad modelem; generátor mezi tím = čip AI, čárkovaně, MIGHT BE GOOD ENOUGH.",
+   "vyzva": true,
+   "pause": 2.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "",
+   "diagram_generator": "overeni",
+   "diagram": "Velká otázka: HOW DO YOU KNOW THE AI FOLLOWED THE SPECIFICATION?"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "",
+   "diagram_generator": "overeni",
+   "diagram": "Velká plocha běžných situací (mřížka s fajfkami, ztlumeně) a drobné okrajové buňky ambrově bez fajfky: THE CASES NOBODY THINKS TO TEST.",
+   "pause": 1.2
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Žádné logo.",
+   "diagram_generator": "overeni",
+   "diagram": "AMAZON · 2014 · ITS OWN CLOUD SYSTEMS; PRECISE, MATHEMATICAL DESCRIPTIONS OF DESIGNS; TLA+ neproporcionálně ambrově."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Pokyn uživatele: model vizuálně oddělit od skutečné služby, nesmí vzniknout dojem, že nástroj prošel všechny stavy skutečné služby.",
+   "diagram_generator": "overeni",
+   "diagram": "Vlevo čárkovaný rámeček MODEL OF THE DESIGN · FIXED SIZE, v něm strom všech pořadí (výpadek/obnova); vpravo velká ztlumená REAL SERVICE · REAL CODE, mezi nimi svislá čára NOT THE CODE."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "",
+   "diagram_generator": "overeni",
+   "diagram": "Týž strom, jedna větev ambrově končí DATA LOSS; nad rámečkem DYNAMODB (DESIGN)."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Nejkratší stopa 35 kroků (factcheck S55). Kroky jsou stopa v MODELU návrhu, ne operace produkční DynamoDB — proto rámeček a popisek modelu.",
+   "diagram_generator": "overeni",
+   "diagram": "Čárkovaný rámeček MODEL OF THE DESIGN · THE SHORTEST ERROR TRACE: 35 STEPS (jako model v S53). Uvnitř cesta 35 kroků (assert) hadem, poslední ambrově DATA LOSS; prochází třemi čárkovanými hranicemi DESIGN REVIEWS · CODE REVIEWS · TESTING.",
+   "pause": 2.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "‚Checks it‘, ne ‚proves it right‘ (scénář 0.3).",
+   "diagram_generator": "veta",
+   "diagram": "Páteř: věta → AI → kód; vedle samostatný rámeček INDEPENDENT CHECK s šipkou na kód. Přeškrtnuto AND WE TRUST IT.",
+   "pause": 2.2
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "",
+   "diagram_generator": "repo",
+   "diagram": "Strom repozitáře z S41 celý, nad ním WHAT WE'VE BUILT.",
+   "pause": 1.0
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Výčet — `vycet`.",
+   "diagram_generator": "repo",
+   "diagram": "Checklist vedle stromu: PRECISE STATES · FORMAL RULES · CHECKABLE TESTS · VERSIONED, REVIEWED, IN A REPOSITORY.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "",
+   "diagram_generator": "repo",
+   "diagram": "Strom repozitáře, nad ním ambrově SOURCE CODE; pod tím PROGRAMMING, IN A NEW LANGUAGE.",
+   "pause": 1.0
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Rým se S09/S10/S12: tytéž souřadnice stupňů. ‚Automatic → code‘ jen u FORTRANu — u CASE, MDA a low-code by to tvrdilo, že se z nich staly běžné jazyky.",
+   "diagram_generator": "schody",
+   "diagram": "Schody z S28, svítí jen FORTRAN; vpravo FORTRAN: “AUTOMATIC CODING” → CODE. Pod tím EACH TIME: WHAT (postava, ambrově) nahoře, HOW (stroj) dole, šipka nahoru.",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Výčet — `vycet`.",
+   "diagram_generator": "zaver",
+   "diagram": "NOT TYPING (přeškrtnuté) · DECIDING (ambrově); pod tím tři rozhodnutí: WHAT HAPPENS TO A SHIPPED ORDER · WHO MAY TOUCH WHICH DATA · WHAT THE SYSTEM MUST NEVER DO.",
+   "vycet": 0.3,
+   "pause": 2.2
+  },
+  {
+   "id": "S62",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S62.png",
+   "note": "Prázdný stůl s laptopem a stohy papírových specifikací, šedé světlo. Předěl k závěru; druhá a poslední SDXL.",
+   "prompt": "an empty office desk with an open laptop and neat stacks of printed documents with handwritten notes, a chair pushed back, flat grey window light, overcast, no sun, no text",
+   "pause": 0.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Možná už v okně závěrečné obrazovky — horní polovina prázdná.",
+   "diagram_generator": "zaver",
+   "diagram": "V DOLNÍ POLOVINĚ: postava → UNDERSTAND THE PROBLEM → SAY EXACTLY WHAT → počítač → CHECK THAT IT DID (smyčka zpět)."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Okno závěrečné obrazovky, horní polovina prázdná.",
+   "diagram_generator": "zaver",
+   "diagram": "V DOLNÍ POLOVINĚ: páteř beze změny polohy — karta věty a ztlumený panel kódu, nad ním WRITING A PROGRAM.",
+   "pause": 0.6
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Výplata páteře: tatáž karta na týchž souřadnicích jako S01. Okno závěrečné obrazovky, horní polovina prázdná.",
+   "diagram_generator": "veta",
+   "diagram": "V DOLNÍ POLOVINĚ: páteř beze změny polohy — karta věty s ambrovým rámečkem a nad ní DESCRIBING ONE; kód ztlumený, nad ním WRITING ONE.",
+   "pause": 3.0
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Otázka do komentářů; okno závěrečné obrazovky, horní polovina prázdná.",
+   "diagram_generator": "otazka",
+   "diagram": "V DOLNÍ POLOVINĚ: IF YOU WRITE A SPECIFICATION PRECISE ENOUGH FOR A MACHINE TO BUILD FROM… / …ARE YOU STILL PROGRAMMING? (ambrově) / YOUR ANSWER IN THE COMMENTS.",
+   "pause": 2.4
+  }
+ ]
+}

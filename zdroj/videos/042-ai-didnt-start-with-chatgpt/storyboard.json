@@ -1,0 +1,725 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ VIDEA se zavádí hned tady: prázdné textové pole s blikajícím kurzorem, kreslené _kit.okno() na PEVNÝCH souřadnicích. Vrací se v S06 (ELIZA 1966), S47 (ChatGPT 2022) a S58 (sekretářka) — celý argument videa je, že je to POŘÁD TOTÉŽ OKNO. Nesmí se hnout ani o pixel, jinak se výplata nepozná. A první scéna schválně NENÍ sdxl: nese myšlenku (prázdné pole, do kterého se dá napsat cokoli), ne atmosféru.",
+      "diagram_generator": "okno",
+      "diagram": "Prázdné textové pole uprostřed na pevných souřadnicích, tenký ambrový kurzor vlevo. Nad ním malý popisek NOVEMBER 2022. Nic jiného."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Výčet schopností. Čtyři popisky kolem téhož okna, ne čtyři obrázky — okno drží, mění se jen to, co z něj leze. Popisky jsou ztlumené (MUTED), protože scéna o nich jen vypočítává; ambrová patří oknu.",
+      "diagram_generator": "okno",
+      "diagram": "Totéž okno, z něj vycházejí čtyři tenké linky k popiskům EMAIL / MATHEMATICS / TRANSLATION / CODE."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Konec hooku. Pod oknem přibude druhá bublina, tedy odpověď — poprvé to vypadá jako rozhovor. Ambrová jde na slovo CONVERSATION. Delší pauza uzavírá blok.",
+      "diagram_generator": "okno",
+      "diagram": "Okno a pod ním odpověď stroje; obojí propojené tak, že to vypadá jako dialog. Popisek CHATGPT, pod ním malé 2022.",
+      "pause": 2.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Obrat videa. Časová osa se poprvé objeví a šipka míří DOZADU — to je celé tvrzení scény. Osa je vodorovná v pevné výšce a vrací se v S53b.",
+      "diagram_generator": "osa",
+      "diagram": "Vodorovná časová osa s jediným bodem 2022 vpravo a ambrovou šipkou mířící doleva do prázdna."
+    },
+    {
+      "id": "S04b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04b.png",
+      "note": "Beat. Táž osa, jen se vlevo rozsvítí druhý bod. Je to jeden obraz se S04, ve kterém se mění jediná věc — ne nový střih (CLAUDE.md, „beat se vyrábí rozdělením scény\").",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa, vlevo přibyl ambrový bod 1966 a mezi body je popisek 56 YEARS."
+    },
+    {
+      "id": "S05",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Weizenbaum. Portrét se podle pravidla kanálu vsazuje CELÝ s odstupem (grade.fit), ne oříznutý na obličej, a NEZOOMUJE se — divák u čtvrtého videa hlásil uříznuté čelo. PICK SE MUSÍ VYBRAT Z KONTAKTNÍHO LISTU, tenhle dotaz je návrh.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Weizenbaum 1982",
+        "pick": 0,
+        "grade": {
+          "fit": 0.82
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "PRVNÍ VÝPLATA PÁTEŘE: totéž okno jako v S01, jen s popiskem 1966. Přepis je DOSLOVNÁ CITACE z Weizenbaumova článku (viz factcheck.md) a odpovědi stroje musí být VERZÁLKAMI, protože tak jsou v článku vysázené — dobový detail zadarmo.",
+      "diagram_generator": "okno",
+      "diagram": "Okno na týchž souřadnicích, popisek 1966. Uvnitř dvě repliky: uživatel malými písmeny, odpověď ELIZY verzálkami I AM SORRY TO HEAR YOU ARE DEPRESSED."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Tři škrty. Text se škrtá VODOROVNOU čarou přes text_skrtnuty(), ne křížkem — pod křížkem se nápis nepřečte a scéna, ve které divák nepřečte co se škrtá, netvrdí nic.",
+      "diagram_generator": "eliza",
+      "diagram": "Tři přeškrtnuté nápisy pod sebou: INTELLIGENT, NEURAL NETWORK, UNDERSTANDING."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Jak to doopravdy fungovalo. Klíčové slovo se v replice zvýrazní ambrovou, šipka ukáže, jak se zbytek věty otočí do otázky. POZOR: scéna nesmí tvrdit, že ELIZA něčemu rozumí — proto žádná krabička s nápisem jako 'význam', jen mechanická náhrada.",
+      "diagram_generator": "eliza",
+      "diagram": "Věta uživatele s ambrovým klíčovým slovem DEPRESSED, pod ní šablona a z ní složená odpověď. Vpravo tenký sloupek pravidel jako stránka přílohy."
+    },
+    {
+      "id": "S08b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08b.png",
+      "note": "Beat. Týž obraz, jen se mechanismus ztlumí a zůstane věta. Hlásí obrat od 'jak to funguje' k 'a stejně na to lidi skočili'.",
+      "diagram_generator": "eliza",
+      "diagram": "Mechanismus ze S08 ztlumený do DIM, přes něj ambrový nápis PEOPLE TALKED TO IT ANYWAY."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Sekretářka. Kreslená postava (_kit.postava), ne fotka — konkrétní osoba, o které nemáme snímek, a archiv na obecnou 'ženu u terminálu' nic nemá (viz past z patnáctého videa). Vedle ní okno z páteře, ale menší a stranou; hlavní je ta postava.",
+      "diagram_generator": "sekretarka",
+      "diagram": "Postava sedící u terminálu, nad ní bublina se slovy SHE KNEW EXACTLY WHAT IT WAS. Weizenbaum stojí opodál."
+    },
+    {
+      "id": "S09b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09b.png",
+      "note": "Výplata scény. Týž obraz, ale Weizenbaumova postava je pryč a zůstala jen ona a okno. Ta prázdnota po něm JE to tvrzení — proto se nesmí doplnit šipkou ke dveřím ani ničím jiným. Pauza drží ticho.",
+      "diagram_generator": "sekretarka",
+      "diagram": "Táž scéna bez Weizenbaumovy postavy; na jeho místě jen prázdno.",
+      "pause": 2.6
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Rozjezd k otázce videa.",
+      "diagram_generator": "otazka",
+      "diagram": "Prázdné plátno, jen tenká ambrová linka vedoucí zleva doprava a mizící v okraji."
+    },
+    {
+      "id": "S10b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10b.png",
+      "note": "OTÁZKA VIDEA, @1:30. Jediný nápis na plátně, nic jiného — je to jediné místo videa, kde se má divák zastavit. Nejdelší pauza první poloviny.",
+      "diagram_generator": "otazka",
+      "diagram": "Jediná věta uprostřed plátna: HOW LITTLE DOES A MACHINE NEED TO SEEM INTELLIGENT?",
+      "pause": 2.8
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Turing. Zase celý portrét s odstupem a bez zoomu. Commons má Turinga bezpečně, ale PICK PODLE KONTAKTNÍHO LISTU — u tohohle jména vrací hledání i sochy a pamětní desky.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Alan Turing 1951 crop",
+        "pick": 0,
+        "grade": {
+          "fit": 0.82
+        }
+      }
+    },
+    {
+      "id": "S11b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11b.png",
+      "note": "Citace jako první řádek stránky časopisu, ne jako nápis — je to citát a vizuální forma to má říct. Pod ním drobně Mind, October 1950. NAVETI: bez něj Kokoro za 'think' doříká schwu a whisper promluvu přepíše jako 'Can machines think HER?' (naměřeno: zbytek na -8 dB vůči tělu). Promluva má 1,45 s, tedy pásmo, kde obětovaná věta selhává — CLAUDE.md na to má 'u promluvy kolem sekundy sáhni po naveti'. Návětí je text předchozí scény, takže zároveň dá otázce tázavou intonaci z kontextu. Návětí se nikdy neozve.",
+      "diagram_generator": "turing",
+      "diagram": "Stránka s jediným řádkem CAN MACHINES THINK? a drobnou patičkou MIND, OCTOBER 1950.",
+      "naveti": "Alan Turing opened a paper with a question."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Turingův tah: otázku odloží a nahradí jinou. Škrtnutá otázka a vedle ní nová — ambrová je NOVÁ, protože o té je řeč.",
+      "diagram_generator": "turing",
+      "diagram": "Přeškrtnutá otázka CAN MACHINES THINK? a pod ní ambrová CAN YOU TELL WHICH IS WHICH?"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Imitační hra. POZOR NA MÍRU JISTOTY: scénář popisuje test jako člověk versus stroj, což je vědomé zjednodušení (factcheck.md) — diagram tedy taky kreslí dva protějšky a soudce, a NEDOPLŇUJE nic o muži a ženě. Kdyby přidal, tvrdí víc než scénář.",
+      "diagram_generator": "turing",
+      "diagram": "Uprostřed postava soudce se dvěma okny; za jedním člověk, za druhým stroj, oba skryté za přepážkou. Popisky A a B, ne HUMAN a MACHINE."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Spoj, který dodaný text neměl: ELIZA je Turingův argument vzatý doslova. Šipka vede od testu k ELIZE, tedy VE SMĚRU času i argumentu.",
+      "diagram_generator": "turing",
+      "diagram": "Schéma testu ze S13 ztlumené, z něj ambrová šipka k malému oknu ELIZY."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Pointa bloku. Za oknem je prázdno — a to prázdno je celé tvrzení, takže se tam nesmí nakreslit otazník ani nic jiného, co by naznačovalo skrytý obsah.",
+      "diagram_generator": "turing",
+      "diagram": "Okno ELIZY zepředu, za ním odhalený prázdný prostor. Popisek NOTHING BEHIND IT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "ORIGINÁLNÍ STROJOPIS z 31. 8. 1955, nalezený na návrh uživatele — sken záhlaví i s ručně dopsaným 'June 17 - Aug. 16'. Je to ta stránka, na které fráze 'artificial intelligence' stojí poprvé. Zdroj a licence v art/PUVOD.md; POZOR, do CREDITS.md se to nedostane automaticky, protože to nestahoval archive.py. FAKTICKÁ PAST PLATÍ DÁL, jen jinak: k dokumentu se NEPÍŠE rok 1956 (je z 1955, konference je 1956). Popisek proto říká jen datum dokumentu. Nepoužívá se archive_grade — sepie by z listu papíru udělala dobovou fotografii, a scéna potřebuje, aby se text dal přečíst.",
+      "diagram_generator": "dartmouth",
+      "diagram": "Výřez záhlaví originálního strojopisu: 'A Proposal for the / DARTMOUTH SUMMER RESEARCH PROJECT ON ARTIFICIAL INTELLIGENCE', ručně psaná poznámka perem, první odstavec. Pod ním 31 AUGUST 1955."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Ambice: popsat inteligenci dost přesně a naprogramovat ji. Šipka jde od popisu ke stroji — tedy SHORA DOLŮ, od pravidel k chování. V S20b se ta šipka otočí a to je celý smysl obou scén.",
+      "diagram_generator": "dartmouth",
+      "diagram": "Nahoře blok DESCRIBE IT PRECISELY ENOUGH, šipka dolů do stroje, z něj popisek INTELLIGENCE."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Předěl ke druhé cestě. Časová osa ze S04 se vrací a bod 1943 leží VLEVO od 1956, aby bylo vidět, že je starší.",
+      "diagram_generator": "osa",
+      "diagram": "Časová osa s body 1943, 1950, 1956; ambrová je 1943 a šipka od ní míří opačným směrem než u ostatních."
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18b.png",
+      "note": "Beat. Dvě jména a jejich obory — neurofyziolog a logik, tedy ani jeden informatik. To je ten detail, kvůli kterému fact check tuhle scénu vyrobil.",
+      "diagram_generator": "neuron",
+      "diagram": "Dvě jmenovky: WARREN McCULLOCH — NEUROPHYSIOLOGIST a WALTER PITTS — LOGICIAN, mezi nimi 1943."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "NEJHLÍDANĚJŠÍ DIAGRAM VIDEA (factcheck.md). Model z roku 1943 má váhy PEVNÉ: u každého vstupu je konkrétní číslo a NESMÍ tam být žádná zpětná šipka, nápis LEARNING ani nic, co by naznačovalo, že se váhy mění. Učení přichází až v S20. Kdyby to S19 nakreslila, vrátí do videa přesně tu chybu, kterou jsme vyškrtli z textu. Čísla vah v kódu spočítat a assertem ověřit, že součet překročí práh.",
+      "diagram_generator": "neuron",
+      "diagram": "Neuron: tři vstupy s pevnými čísly vah, sumační uzel, práh, výstup FIRE / DON'T FIRE. Váhy jsou vysázené jako konstanty."
+    },
+    {
+      "id": "S19b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19b.png",
+      "note": "Beat. Týž neuron zmenšený a osamocený na plátně — ta prázdnota kolem je to tvrzení.",
+      "diagram_generator": "neuron",
+      "diagram": "Neuron ze S19 zmenšený na desetinu, sám uprostřed prázdného plátna."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Přepnutí, které fact check vyrobil. Vlevo tentýž neuron s pevnými vahami a nápisem FIXED BY HAND, vpravo tentýž s ambrovou zpětnou šipkou. TEPRVE TADY smí být učení. Rok 1958 je odvozený (dva roky po Dartmouthu), takže diagram ho smí napsat.",
+      "diagram_generator": "neuron",
+      "diagram": "Dva neurony vedle sebe: vlevo pevné váhy, vpravo ambrová zpětná šipka měnící je. Popisky FIXED BY HAND a 1958 — LEARNED."
+    },
+    {
+      "id": "S20b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20b.png",
+      "note": "Protipól S17 a musí být na TÝCHŽ souřadnicích, aby se ta otočka poznala. Tam šipka mířila shora dolů (pravidla do stroje), tady zdola nahoru (chování ze systému). Konec bloku.",
+      "diagram_generator": "dartmouth",
+      "diagram": "Rozvržení ze S17, ale obrácené: dole spousta jednoduchých propojených uzlů, ambrová šipka nahoru, nahoře INTELLIGENCE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Obrat. Jediný nápis a přes něj škrt — ale škrtá se to, co NEFUNGOVALO, ne ta myšlenka; proto se škrtne stroj, ne idea.",
+      "diagram_generator": "zed",
+      "diagram": "Nápis NONE OF IT WORKED, pod ním dvě krabičky: IDEAS bez škrtu, MACHINES přeškrtnutá."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Tři meze doby. Bez čísel — scénář žádná neuvádí a diagram nesmí tvrdit víc. Sloupce jsou proto relativní, ne měřítkové.",
+      "diagram_generator": "zed",
+      "diagram": "Tři krátké sloupce vedle sebe: SPEED, MEMORY, DATA, všechny sražené k nule. Vedle přeškrtnuté TRAINING A LARGE NETWORK."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Nůžky mezi aritmetikou a vším ostatním. Vlevo strmě nahoru, vpravo u nuly — a je to schválně bez os a čísel, protože je to rétorická hyperbola, ne měření (factcheck.md).",
+      "diagram_generator": "zed",
+      "diagram": "Dva sloupce bez os: ARITHMETIC vysoko, EVERYTHING ELSE u země."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Pětiletý versus stroj. Postava dítěte a vedle terminál; ambrová je na dítěti, protože o něm je řeč.",
+      "diagram_generator": "zed",
+      "diagram": "Malá postava dítěte vlevo, terminál vpravo, mezi nimi tatáž úloha."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "PES — SETUP CALLBACKU, který se vyplatí v S36 a S39. Musí být rozpoznatelně týž obraz jako tam, jinak se výplata nepozná. Rámeček fotky a v něm silueta psa; vedle dvě odpovědi: člověk hned, stroj nic.",
+      "diagram_generator": "pes",
+      "diagram": "Rámeček fotografie se siluetou psa, vedle dvě odpovědi: HUMAN — INSTANT, COMPUTER — přeškrtnuto."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "FAKTICKÁ PAST: AI winters se datují 1974–1980 a 1987–1993, ale vyprávění je tu dřív, takže scénář je schválně NEDATUJE. Diagram tedy nesmí napsat žádný rok. Křivka peněz padá, osa je bez popisků.",
+      "diagram_generator": "zed",
+      "diagram": "Klesající křivka bez číselné osy, popisek FUNDING. Pod ní ambrový nápis AI WINTERS."
+    },
+    {
+      "id": "S27",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S27.png",
+      "note": "Jediná atmosférická scéna první poloviny. Prázdná laboratoř po zrušeném projektu — 'nezmizelo to, jen to přestalo být zajímavé'. Zoom out otevírá prázdnotu. Konec bloku.",
+      "prompt": "an empty university computer laboratory at night, rows of switched-off machines under dust sheets, one abandoned desk with papers, nobody there, quiet and unremarkable, no text",
+      "pause": 2.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Co se změnilo: ne nápad, ale okolnosti. Dvě stoupající křivky, obě ztlumené — ambrová přijde až v S29 na data, protože to je ta rozhodující.",
+      "diagram_generator": "data",
+      "diagram": "Dvě stoupající křivky SPEED a STORAGE, nad nimi přeškrtnutý nápis A BRILLIANT NEW IDEA."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Data. Pět druhů jako pět dlaždic, které plátno zaplní — hustota JE to tvrzení, takže se generuje kódem podle hustoty, ne ručně rozmístěná (past z třináctého videa: obrázek nesmí nést data proti scénáři).",
+      "diagram_generator": "data",
+      "diagram": "Plátno postupně zaplněné drobnými dlaždicemi: WEB PAGES, PHOTOGRAPHS, SCANNED BOOKS, VIDEO, TEXT."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Přechod k otočené otázce.",
+      "diagram_generator": "data",
+      "diagram": "Hromada dat ze S29 ztlumená, z ní ambrová šipka do stroje."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Otočka. Dvě schémata nad sebou: shora pravidla do stroje (přeškrtnuto), zdola data ze kterých pravidla vypadnou. Je to TŘETÍ výskyt téhož obratu (S17, S20b, tady) a musí být poznat, že je to tentýž tvar.",
+      "diagram_generator": "data",
+      "diagram": "Nahoře přeškrtnuté RULES → MACHINE, dole ambrové DATA → MACHINE → RULES.",
+      "pause": 2.2
+    },
+    {
+      "id": "S32",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Deep Blue. Stroj má vlastní jméno a dá se vyfotit, takže archiv. PICK Z KONTAKTNÍHO LISTU, ne od stolu — tři kola: 'IBM Deep Blue at Computer History Museum' dalo skříň malou uprostřed muzejní haly s obrazovkou, plakáty a závěsem; tenhle snímek je z blízka a čte se z něj IBM i RS6000 SP. Třetí kolo zkusilo zoom [0,0.12,1,0.78] a bylo HORŠÍ — ořez sebral přesně to logo a typové označení, podle kterých divák stroj pozná. Proto bez zoomu, jen fit 0.95. Snímek je na výšku, takže okolí vyplní rozostřená kopie; bez zoomu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Say hello to Deep Blue",
+        "pick": 0,
+        "grade": {
+          "fit": 0.95
+        }
+      }
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Co Deep Blue neuměl. Tři škrty vodorovnou čarou; prostřední je PES ze S25, takže se callback připomene ještě než se vyplatí. Silueta psa musí být táž.",
+      "diagram_generator": "deepblue",
+      "diagram": "Tři přeškrtnuté schopnosti: CONVERSATION, silueta psa, LEARNING."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Souběh dvou protikladů. Vlevo okno ELIZY (z páteře, zmenšené), vpravo Deep Blue. Nad každým osa 'jak to vypadá' a 'co to je' — a obě šipky ukazují opačným směrem. Rozvržení musí být zrcadlové, jinak se ta symetrie nepozná.",
+      "diagram_generator": "deepblue",
+      "diagram": "Vlevo ELIZA: LOOKED INTELLIGENT ano, WAS ne. Vpravo DEEP BLUE: SUPERHUMAN ano, WAS ne."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Společný závěr obou. Jediná věta a přes ni škrt — škrtá se PŘEDPOKLAD, ne ta věta, takže popisek pod škrtem musí říct ASSUMPTION. Konec bloku, delší pauza.",
+      "diagram_generator": "deepblue",
+      "diagram": "Přeškrtnutá věta LOOKS LIKE THINKING = IS THINKING, pod ní drobně ASSUMPTION.",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "VÝPLATA PSA. Rámeček ze S25 se vrací na TÝCHŽ souřadnicích, ale tentokrát ho stroj rozpozná. Kolem přibudou drobné rámečky jako zbytek datové sady. Kdyby se rámeček posunul, callback se nepozná.",
+      "diagram_generator": "pes",
+      "diagram": "Rámeček se psem ze S25 na týchž souřadnicích, kolem něj mřížka dalších drobných snímků. Popisek ALEXNET, 2012."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Nebyl to nový nápad. Časová osa se vrací a ukáže, jak daleko vlevo leží 1943 a 1958 od 2012. Je to táž osa jako S04, S04b a S18.",
+      "diagram_generator": "osa",
+      "diagram": "Časová osa s body 1943, 1958 a 2012; mezi nimi zřetelná mezera."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Tři věci, které se změnily kolem. Jsou to TYTÉŽ tři sloupce jako v S22, ale teď vysoké — proto musí být na týchž souřadnicích a se stejnými popisky. To srovnání je celé tvrzení scény.",
+      "diagram_generator": "zed",
+      "diagram": "Tři sloupce ze S22 (DATA, COMPUTE, TRAINING) na týchž místech, tentokrát vysoké."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "O kolik vyhrál. Doklad je v factcheck.md (15,3 % proti 26,2 %), ale ve scénáři číslo NENÍ — proto ho diagram smí ukázat jako dva sloupce chybovosti, ale nesmí tvrdit nic, co scénář neříká. Ambrová na nižším sloupci.",
+      "diagram_generator": "pes",
+      "diagram": "Dva sloupce chybovosti vedle sebe, nižší ambrový, popisky bez roku."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Čtvrtá otočka otázky. Tentýž tvar jako S12 a S31 — škrtnutá stará otázka, ambrová nová. Konec bloku.",
+      "diagram_generator": "otazka",
+      "diagram": "Přeškrtnuté CAN NEURAL NETWORKS WORK? a pod tím ambrové HOW FAR DO THEY GO?",
+      "pause": 2.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Transformer. Diagram NESMÍ vysvětlovat pozornost — video o tom nic neříká a kresba by tvrdila víc než scénář. Je to titulní strana článku a pod ní jméno architektury, nic víc.",
+      "diagram_generator": "transformer",
+      "diagram": "Titulní strana článku s nadpisem ATTENTION IS ALL YOU NEED, pod ní drobně 2017 a ambrové TRANSFORMER."
+    },
+    {
+      "id": "S41b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41b.png",
+      "note": "Co transformer dela - doplneno 2026-09-13 na dotaz uzivatele. TEPRVE TED smi diagram kreslit mechanismus pozornosti: dokud o nem scenar nemluvil, byla by to kresba tvrdici vic nez text. Vlastni beat proto, ze S41 by s tou vetou mela 17,6 s, tedy daleko pres pasmo 6-12 s.",
+      "diagram_generator": "transformer",
+      "diagram": "Veta rozlozena na slova, mezi souvisejicimi dvojicemi ambrove obloucky ruzne sily. Zadne vzorce ani cisla - scenar zadna neuvadi."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Co na tom stojí. Čtyři jména jako větve z jednoho kořene; VŠECHNY stejnou barvou, protože barva bez významu si význam vyrobí (zpětná vazba u třetího videa). Poslední věta scény je předěl, takže vpravo zůstává prázdno.",
+      "diagram_generator": "transformer",
+      "diagram": "Z kořene TRANSFORMER čtyři větve: GPT, BERT, CLAUDE, GEMINI. Kolem prázdno."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Tři generace jako rostoucí krabičky. HLAS JE UŽ NEJMENUJE — na tvůj pokyn 2026-09-13 vypadlo 'GPT-1. GPT-2. GPT-3.' ze scénáře, protože tři jednoslovné promluvy za sebou zněly jako výčet čísel. Obraz je ukáže sám a S45 pak jmenuje GPT-3, tedy tu jedinou, na které záleží. Pauza 2,2 s dá obrazu čas, aby se přečetl. Poměr velikostí NENÍ podle počtu parametrů — scénář žádná čísla neuvádí, takže jsou to tři stupně. Assert hlídá, že rostou.",
+      "diagram_generator": "gpt",
+      "diagram": "Tři krabičky rostoucí zleva doprava: GPT-1, GPT-2, GPT-3.",
+      "pause": 2.2
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Ten trik. Rozepsaná věta, ze které chybí poslední slovo, a stroj ho doplňuje. Je to nejlevnější možné vysvětlení autoregresivního modelu a víc scénář neříká.",
+      "diagram_generator": "gpt",
+      "diagram": "Nedokončená věta s prázdným místem na konci a ambrovým kurzorem; pod ní tři kandidáti na další slovo."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Co z toho vzniklo. Čtyři schopnosti kolem stroje — je to záměrně TÝŽ tvar jako S02 (čtyři popisky kolem okna), aby bylo vidět, že technologie už tam byla. Rozdíl je, že tady je místo okna API.",
+      "diagram_generator": "gpt",
+      "diagram": "Rozvržení ze S02, ale uprostřed místo okna technický blok; čtyři popisky ANSWER, ARGUE, ESSAY, CODE."
+    },
+    {
+      "id": "S45b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45b.png",
+      "note": "Beat. Týž obraz ztlumený a přes něj jediná věta. Obrat od schopností k nedostupnosti.",
+      "diagram_generator": "gpt",
+      "diagram": "Obraz ze S45 ztlumený, přes něj ambrové AND ALMOST NOBODY USED IT."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Metafora dveří, kterou sis pochválil. Technologie za zavřenými dveřmi a před nimi tři překážky. POZOR: dveře musí být na týchž souřadnicích jako okno z páteře, protože v S47 se otevřou právě v ně. Konec bloku, dlouhá pauza.",
+      "diagram_generator": "gpt",
+      "diagram": "Zavřené dveře na souřadnicích okna, před nimi tři drobné překážky ACCOUNT, DOCUMENTATION, A REASON. Za dveřmi ambrová záře.",
+      "pause": 2.6
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "DRUHÁ VÝPLATA PÁTEŘE a vrchol videa. Dveře ze S46 se otevřely a je za nimi TOTÉŽ OKNO jako v S01 a S06, na týchž souřadnicích, jen s popiskem 2022. Celý argument videa je v tomhle jediném střihu — proto se okno nesmí hnout.",
+      "diagram_generator": "okno",
+      "diagram": "Okno na pevných souřadnicích, popisek 30 NOVEMBER 2022. Obrys dveří kolem něj ztlumený do DIM."
+    },
+    {
+      "id": "S47b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47b.png",
+      "note": "Beat. Týž obraz, pryč jsou i obrysy dveří. Zůstane holé okno — tedy přesně obraz ze S01.",
+      "diagram_generator": "okno",
+      "diagram": "Holé okno bez popisků, shodné se S01."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Tři škrty. Vodorovnou čarou, ne křížkem.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři přeškrtnuté nápisy: A NEW KIND OF AI, THE FIRST NEURAL NETWORK, THE FIRST CHATBOT."
+    },
+    {
+      "id": "S48b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48b.png",
+      "note": "Beat. Třetí škrt se rozsvítí a pod ním se objeví okno z roku 1966 — tedy páteř potřetí, tentokrát drobně.",
+      "diagram_generator": "zaver",
+      "diagram": "Poslední škrtnutý nápis ambrově, pod ním zmenšené okno s popiskem 1966."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Co se opravdu změnilo. Ne schopnost, ale to, co divák musí umět — proto se škrtá požadavek, ne technologie.",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnuté YOU HAD TO UNDERSTAND IT, pod tím dva řádky: YOU TYPED. IT ANSWERED."
+    },
+    {
+      "id": "S49b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49b.png",
+      "note": "Beat s číslem. FAKTICKÁ PŘESNOST: jsou to ÚČTY, ne 'lidé, co to zkusili' (factcheck.md), takže popisek musí být SIGNED UP, ne TRIED IT. Zároveň je to údaj od OpenAI, takže žádná aureola důkazu.",
+      "diagram_generator": "zaver",
+      "diagram": "Jediné velké číslo 1 000 000 a pod ním SIGNED UP IN FIVE DAYS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Přirovnání ke Googlu. Dvě rovnice pod sebou, obě přeškrtnuté — a je to jediná scéna videa, kde se mluví o něčem jiném než o AI, takže rozvržení má být zřetelně jiné.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě přeškrtnuté rovnice: AI = CHATGPT a THE INTERNET = GOOGLE."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Rozjezd k seznamu. Okno z páteře a pod ním prázdná místa, která se v S52 zaplní.",
+      "diagram_generator": "zaver",
+      "diagram": "Okno nahoře, pod ním šest prázdných řádků."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "POINTA VIDEA. Šest položek, které video jednu po druhé vyprávělo, a u každé rok jejího vzniku — tady se teprve ukáže, že rozpětí je osmdesát let. Poslední (rozhraní) je ambrová, protože to je ta, která chyběla do listopadu 2022. Konec bloku.",
+      "diagram_generator": "zaver",
+      "diagram": "Šest řádků seznamu: COMPUTING POWER, DATA, NEURAL NETWORKS, TRAINING, TRANSFORMERS, A SIMPLE INTERFACE. Poslední ambrová.",
+      "pause": 2.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Otázka nadpisu se vrací.",
+      "diagram_generator": "otazka",
+      "diagram": "Jediná věta SO WHEN DID IT ACTUALLY BEGIN? uprostřed."
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "note": "Osa počtvrté, s odpověďmi. ROZDĚLENO 2026-09-13 NA TŘI BEATY: Kokoro četlo celou trojici slitě a pauzy nešlo vložit — po '2017?' nenechalo ticho vůbec (0 ms) a po 'Not really.' 240 ms, tedy pod prahem 250 ms. Mezi scénami se pauza PŘIDÁVÁ, ne řeže, takže ji nemá co odmítnout (CLAUDE.md, 'beat se vyrobí rozdělením scény'). Vizuálně je to JEDEN obraz, ve kterém přibývá jedna věc — ne tři různé obrázky.",
+      "diagram_generator": "osa",
+      "diagram": "Osa s body 2022, 2017, 1956, 1943; přeškrtnuté 2022, ostatní ztlumené.",
+      "pause": 1.2
+    },
+    {
+      "id": "S53c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53c.png",
+      "note": "Druhý beat téhož obrazu: přibude škrt u 2017. Nic jiného se nemění.",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa, přeškrtnuté 2022 i 2017.",
+      "pause": 1.2
+    },
+    {
+      "id": "S53d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53d.png",
+      "note": "Třetí beat: u 1956 se rozsvítí ambrové CLOSER. MÍRA JISTOTY: ne fajfka — scénář říká 'closer', ne 'tady to začalo'. Osa vlevo pokračuje do prázdna, protože ani 1943 není začátek.",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa; 2022 a 2017 přeškrtnuté, u 1956 ambrové CLOSER.",
+      "pause": 0.8
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Ani 1956 není začátek. Dva dříve zavedené prvky se vracejí zmenšené: neuron ze S19 a Turingova stránka ze S11b.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo zmenšený neuron s popiskem 1943, vpravo zmenšená stránka CAN MACHINES THINK? s popiskem 1950."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Příběhy o umělých myslích dávno před počítači. PŮVODNĚ SDXL A NEVYŠLO TO DVAKRÁT: první kolo dílna bez figury (kulisa bez predmetu), druhé kolo skutečný člověk u ponku, ačkoli prompt říkal 'nobody present' — to už tvrdí opak. Obě kola jsou ve scratchpadu. Překresleno kódem: pouhý OBRYS postavy znamená 'tahle věc neexistuje, je to představa' (konvence z videa 041). Statické, protože diagram se nehýbe.",
+      "diagram_generator": "zaver",
+      "diagram": "Nevyplněný obrys lidské postavy s konstrukčními čarami kolem — představa, ne bytost. Žádný konkrétní mýtus."
+    },
+    {
+      "id": "S55b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55b.png",
+      "note": "Beat a odpověď na otázku z S53. Osa bez jediného bodu — 'není první den' se kreslí tím, že se nedá kam ukázat. TEXT PŘEFORMULOVÁN 2026-09-13: 'There probably is not a day' se vztahovalo k otázce, která padla o tři scény dřív, a ta vazba se ztratila. Nové znění 'There is probably no first day' ji nese samo. Delší pauza.",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa, ale zcela bez bodů; mizí do obou okrajů.",
+      "pause": 3.0
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "POSLEDNÍ VÝPLATA PÁTEŘE. Sekretářka ze S09b se vrací na TÝCHŽ souřadnicích a s TÝMŽ oknem; šedesát let mezi S06 a S47 se tím uzavře. Horní polovina musí zůstat volná pro závěrečnou obrazovku, takže postava i okno patří dolů. POZOR: od 2026-09-13 je tohle PRVNÍ scéna závěrečného bloku — S56 a S57 (meta-moment o syntetickém hlasu) uživatel odstranil, takže se sem 'Which brings us back' nemělo čím vracet a věta se přepsala na 'Think about that secretary'.",
+      "diagram_generator": "sekretarka",
+      "diagram": "Obraz ze S09b zmenšený do spodní poloviny, popisek MIT, 1966. Horní polovina prázdná."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Dvě věty proti sobě. Stroje nahoru, my vodorovně — a ta vodorovná čára je celé tvrzení. Kreslí se ve spodní polovině.",
+      "diagram_generator": "hlas",
+      "diagram": "Ve spodní polovině strmě stoupající křivka MACHINES a pod ní plochá vodorovná US.",
+      "pause": 2.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Předposlední deska. Horní polovina volná pro závěrečnou obrazovku.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodní polovině dva řádky: NOT THE BEGINNING. THE MOMENT EVERYBODY NOTICED."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Závěrečná deska. Poslední otázka videa a naposledy okno z páteře — drobně, ve spodní části, s kurzorem. HORNÍ POLOVINA ZŮSTÁVÁ PRÁZDNÁ pro dlaždici dalšího videa a kolečko odběru; hlídat zaver_check.py, až budou obrázky. Delší pauza, ať deska drží.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodní polovině otázka HOW LONG UNTIL WE WORK OUT WHAT WE HAVE BUILT? a pod ní drobné okno s kurzorem. Horní polovina prázdná.",
+      "pause": 3.0
+    }
+  ]
+}

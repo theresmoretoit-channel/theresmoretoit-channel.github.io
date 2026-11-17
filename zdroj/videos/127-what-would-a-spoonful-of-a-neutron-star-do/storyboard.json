@@ -1,0 +1,741 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese myšlenku, ne atmosféru: lžička s hmotou neutronové hvězdy, totéž co náhled. Není SDXL. Lžička leží na souřadnicích páteře a do S69 se z nich nepohne.",
+   "diagram_generator": "hak",
+   "diagram": "PÁTEŘ: čajová lžička (LZICKA) vlevo od středu, v ní hustě zářící hmota (ambrová). Štítek 1 TEASPOON · 5 ml a pod ním NEUTRON-STAR MATTER."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Jen „billions“, žádné konkrétní číslo (factcheck: 1,35–2,5 mld. t podle hustoty).",
+   "diagram_generator": "hak",
+   "diagram": "Lžička na místě; vpravo od ní ambrový údaj BILLIONS OF TONNES a pod ním drobně ON EARTH."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Assert v kódu: lžička (1,35 mld. t) / lidstvo (0,51 mld. t) ≥ 2,6, takže sklon vah nesmí tvrdit víc než „several times“. Žádný násobek v obraze.",
+   "diagram_generator": "hak",
+   "diagram": "Váhy (vahy z kitu): na levé misce lžička, na pravé blok postav ALL 8 BILLION PEOPLE ≈ 0.4–0.5 BILLION t. Lžička převáží, nápis IN ONE TEASPOON.",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Karty otázek leží na pevných místech, vracejí se v S33 (odškrtnutá 1), S34 (2) a S44–S45 (nová 3).",
+   "diagram_generator": "hak",
+   "diagram": "Lžička; vpravo karta otázky 1 (OTAZKA_1) HOW DOES IT FIT? ambrově, pod ní zatím prázdné místo karty 2.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Konec háčku.",
+   "diagram_generator": "hak",
+   "diagram": "Totéž, karta 1 ztlumená, karta 2 ambrově WHAT WOULD IT DO HERE?",
+   "pause": 2.2
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Výčet s tečkami → vycet. Ikony čárové, bez textury.",
+   "diagram_generator": "atom",
+   "diagram": "Tři ikony vedle sebe ve stejné výšce: kámen, kus železa (kvádr se štítkem Fe), ruka. Popisky A ROCK · IRON · YOUR HAND.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Přiblížení se kreslí rámečky, NE zoomem kamery (diagram je static).",
+   "diagram_generator": "atom",
+   "diagram": "Ruka vlevo malá; z ní řada tří rámečků přiblížení (každý z výřezu předchozího): kůže → mřížka atomů. Poslední rámeček ATOMS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Obal jako mrak teček, ne planetární dráhy (zjednodušení S08 v factchecku).",
+   "diagram_generator": "atom",
+   "diagram": "Jeden atom přes celý obraz: drobné ambrové jádro uprostřed, kolem rozmazaný elektronový obal (řídké tečky), mezi nimi prázdno. Popisky NUCLEUS, ELECTRONS, a do prázdna ztlumeně ALMOST NOTHING.",
+   "pause": 0.6
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Assert: poměr velikosti stadionu (~250 m) a hrášku (~8 mm) leží v pásmu 20 000–60 000 (factcheck S09). Hrášek se kreslí aspoň 6 px, takže je přiznaně ve zvětšení — doplnit drobně (pea not to scale).",
+   "diagram_generator": "atom",
+   "diagram": "Půdorys fotbalového stadionu (ovál tribun, hřiště s čarami). Uprostřed výkopového kruhu hrášek se šipkou PEA = NUCLEUS. Vlevo nahoře ATOM ≈ STADIUM.",
+   "pause": 0.6
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Číslo z factchecku (99,95 % u vodíku).",
+   "diagram_generator": "atom",
+   "diagram": "Totéž, hrášek ambrově zvýrazněný, vedle údaj > 99.9 % OF THE MASS."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Čárkovaná šipka = myšlenkový pokus („If you could squeeze“), konvence 2. Assert: 0,41–0,51 mld. t / 2,7×10¹⁷ kg/m³ = 1,5–1,9 cm³.",
+   "diagram_generator": "atom",
+   "diagram": "Vlevo blok postav ALL OF HUMANITY, čárkovaná šipka IF SQUEEZED doprava ke kostce cukru ≈ 1.5 cm³.",
+   "anim": "animace"
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Atom se NEškrtá křížkem: věta říká „no longer exist“ v té hvězdě, ne že atomy neexistují. Proto šipka a nápis, ne škrt.",
+   "diagram_generator": "atom",
+   "diagram": "Vlevo atom (z S08, zmenšený) se ztlumeným štítkem ORDINARY ATOMS, šipka doprava k malému zářícímu kotouči NEUTRON STAR, nad šipkou ambrově ATOMS CAN'T EXIST HERE."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Přechod do bloku o jádře.",
+   "diagram_generator": "jadro",
+   "diagram": "Atom z S08 vlevo, rámeček přiblížení na jádro, vpravo jádro rozkreslené na kuličky (zatím bez rozlišení protonů a neutronů).",
+   "pause": 1.0
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "KONVENCE CELÉHO VIDEA: proton = INK s +, neutron = MUTED bez znaménka. Ambrová se na nukleony nepoužívá (je to „o tomhle je řeč“).",
+   "diagram_generator": "jadro",
+   "diagram": "Jádro z kuliček: PROTON (kostní běl se znaménkem +) a NEUTRON (ocelová šeď, bez znaménka), legenda pod ním."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Šipky míří ven od každého protonu — kontrola „co míří na koho“.",
+   "diagram_generator": "jadro",
+   "diagram": "Dva protony od sebe, mezi nimi dvě šipky ven a nápis REPEL. Vpravo hlouček protonů s šipkami ven SHOULD FLY APART.",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Výčet s tečkami → vycet. Assert počtů nukleonů v jádrech (C 6p+6n, O 8p+8n).",
+   "diagram_generator": "jadro",
+   "diagram": "Tři položky vedle sebe: jádro uhlíku C (6+6), jádro kyslíku O (8+8), postava YOU. Nad nimi ambrově … AND YET.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Silná interakce mezi nukleony (reziduální), ne mezi kvarky — v obraze žádné kvarky.",
+   "diagram_generator": "jadro",
+   "diagram": "Jádro z S14; mezi nukleony krátké ambrové vazby (lepidlo) STRONG INTERACTION, přes ně slabší šipky elektrického odpuzování ELECTRIC REPULSION ztlumeně.",
+   "pause": 0.6
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Křivky se POČÍTAJÍ: Yukawa e^(−r/1,4 fm)/r, Coulomb 1/r², šířka protonu 1,7 fm. Osa y bez čísel, jen „strength“. Prázdné osy divák čte jako rozbitý graf.",
+   "diagram_generator": "jadro",
+   "diagram": "Graf síly podle vzdálenosti, osa x v šířkách protonu 0–6. Ambrová křivka STRONG (přitažlivá, prudce klesá k nule do ~2 šířek), ztlumená ELECTRIC (pomalý pokles 1/r²). Data od prvního snímku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Most k bloku o kolapsu. ZA scénou výzva k odběru č. 1 (odhad ~2:04, okno 1:30–2:15). Následuje SDXL S20 — vlevo dole nesmí být výrazný detail (hlídat při přejímce obrázku).",
+   "diagram_generator": "jadro",
+   "diagram": "Dva nukleony daleko od sebe, mezi nimi čárkovaný dosah síly, který na druhý nedosáhne; nápis MUST GET CLOSER.",
+   "pause": 2.2,
+   "vyzva": true,
+   "anim": "animace"
+  },
+  {
+   "id": "S20",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S20.png",
+   "note": "První SDXL ve videu (~2:30, dávno po prvních 20 s). Atmosférický předěl: velká hvězda. Levý dolní roh tmavý a prázdný (výzva z S19 přes začátek).",
+   "prompt": "a huge luminous blue supergiant star in deep space, glowing layered atmosphere, painterly, seen from a distance, dim star field, the star in the upper right, dark empty space in the lower left",
+   "seed": 1271
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Vrstvy nejsou v měřítku (jádro by bylo neviditelné) — doplnit drobně not to scale. Čísla z factchecku (Sukhbold & Woosley 2014, Woosley & Janka 2005).",
+   "diagram_generator": "kolaps",
+   "diagram": "Řez hvězdou jako cibule: vrstvy H, He, C, O, Si a uprostřed ambrové jádro Fe. Popisek jádra IRON CORE · 1.4–2 SUNS · ≈ EARTH-SIZED."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Body grafu ze skutečných hodnot (AME2020: ⁴He 7,07, ¹²C 7,68, ¹⁶O 7,98, ²⁸Si 8,45, ⁵⁶Fe 8,79, ²³⁸U 7,57 MeV). Assert maxima u Fe.",
+   "diagram_generator": "kolaps",
+   "diagram": "Graf vazebné energie na nukleon podle hmotnostního čísla (H, He, C, O, Si, Fe, U), vrchol u Fe ambrově; vlevo šipka FUSION RELEASES ENERGY, u železa DEAD END."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Assert měřítka: poloměr ~6 000 km → ~30 km je 200:1, bod se kreslí v tom poměru (s minimem 6 px, které se přizná).",
+   "diagram_generator": "kolaps",
+   "diagram": "Velký kruh EARTH-SIZED CORE (obrys) a uprostřed ambrový bod CITY-SIZED, mezi nimi šipky dovnitř. Nahoře < 1 SECOND.",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Neutrino čárkovaně, protože „ghostly“ — POZOR, tím porušuje konvenci 2 (čárkovaně = hypotéza). Raději plnou tenkou čarou ve ztlumené barvě.",
+   "diagram_generator": "kolaps",
+   "diagram": "Rovnice ve třech prvcích: PROTON + ELECTRON → NEUTRON + NEUTRINO, symboly konvence z S14; neutrino jako malá čárkovaná jiskra odlétající ven.",
+   "anim": "animace"
+  },
+  {
+   "id": "S25",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S25.png",
+   "note": "Druhá SDXL. Klimax kolapsu; neutrina nejsou vidět, nesou je slova.",
+   "prompt": "a supernova explosion in deep space, a brilliant shell of glowing gas blasting outward from a tiny bright core, painterly, cool tones with a single warm glow",
+   "pause": 1.4
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Assert: ve vzorku vpravo je protonů 4–5 % (factcheck S26) a elektronů stejně.",
+   "diagram_generator": "hvezda",
+   "diagram": "Vlevo běžné atomy (jádra s obaly), šipka doprava ke hmotě z neutronů s řídkými protony a elektrony. Popisek NO ORDINARY ATOMS a ELECTRONS: MOSTLY GONE."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Kóta 25 km = typický průměr (v0.5), obrys města obecný, bez jména.",
+   "diagram_generator": "hvezda",
+   "diagram": "Kotouč neutronové hvězdy nad obrysem města v témže měřítku; kóta ≈ 25 km, štítky MOSTLY NEUTRONS a ≈ NUCLEAR DENSITY."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Škrt na text vodorovnou čarou, ne křížkem.",
+   "diagram_generator": "hvezda",
+   "diagram": "Kotouč hvězdy; přes něj nápis ONE GIANT NUCLEUS? přeškrtnutý vodorovnou čarou (text_skrtnuty).",
+   "pause": 0.6
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Průřez se kreslí jednou funkcí v kitu (PRUREZ), S29 a S30 jen přesouvají zvýraznění.",
+   "diagram_generator": "hvezda",
+   "diagram": "PRŮŘEZ HVĚZDOU (výseč): kůra jako mřížka jader, pod ní jaderné těstoviny (kuličky → špagety → plátky). Vrstvy CRUST a NUCLEAR PASTA ambrově, hlubší vrstvy ztlumeně."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Čárkovaně = nevíme (konvence 2).",
+   "diagram_generator": "hvezda",
+   "diagram": "Týž průřez; ambrově NEUTRON FLUID a střed vyplněný otazníkem CENTRE: UNKNOWN (čárkovaný obrys)."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Šipky gravitace i tlaku stejně dlouhé: rovnováha.",
+   "diagram_generator": "hvezda",
+   "diagram": "Kotouč hvězdy, šipky dovnitř GRAVITY (ztlumeně) proti šipkám ven PRESSURE (ambrově), u nich dva štítky QUANTUM EFFECT a STRONG REPULSION.",
+   "pause": 0.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Mez se kreslí jako pás, ne čára — závisí na stavové rovnici (factcheck S32). Nejtěžší změřená 2,08 M☉ jako bod.",
+   "diagram_generator": "hvezda",
+   "diagram": "Vodorovná osa hmotnosti ve Sluncích 1–3: hvězdy jako body do ~2,1, pak pás ≈ 2–2.3 (čárkovaně, mez nejistá) a za ním BLACK HOLE.",
+   "pause": 1.2
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Výplata první otázky. Karty na souřadnicích z S04–S05.",
+   "diagram_generator": "hak",
+   "diagram": "Lžička na místě páteře a karta 1 HOW DOES IT FIT? s fajfkou; pod ní drobně ATOMS CRUSHED TO NUCLEAR DENSITY.",
+   "pause": 2.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Druhá otázka.",
+   "diagram_generator": "zeme",
+   "diagram": "Lžička na místě páteře, pod ní vodorovná čára země a obrys krajiny; karta 2 WHAT WOULD IT DO HERE? ambrově."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Tlak „podmínkami uvnitř hvězdy“, ne lisem (recenze 0.2) — šipky z okolí, ne píst.",
+   "diagram_generator": "zeme",
+   "diagram": "Lžička na místě páteře uvnitř výseče hvězdy, kolem šipky tlaku dovnitř; štítek ONLY STABLE IN HERE."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Čárkovaně: myšlenkový pokus. Žádný hřib, žádný výbuch konkrétní velikosti.",
+   "diagram_generator": "zeme",
+   "diagram": "Lžička na místě páteře nad zemí, kolem ní čárkované soustředné kruhy rozpínání DECOMPRESSES.",
+   "anim": "animace"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Rozhodnutí uživatele (zpětná vazba storyboard): ukázat násobek. ≈ 1,000× platí PROTI REFERENČNÍMU ODHADU ~10²³ J (Morgan a kol. 2022), ne proti všem publikovaným — proto ta poznámka pod lištami. Délky schematické, přerušení // a „≈“ to přiznávají; skutečný poměr 1000:1 se nekreslí. EVEN THE MINIMUM = nejkonzervativnější výpočet (konec jako vodík), DINOSAUR ASTEROID = srovnávací měřítko. Podklad: factcheck S37.",
+   "diagram_generator": "zeme",
+   "diagram": "Dvě vodorovné lišty pod sebou, SCHEMATICKÉ délky: horní ztlumená DINOSAUR ASTEROID (krátká), spodní ambrová EVEN THE MINIMUM (n → H: 0.78 MeV EACH), přerušená znakem // (není v měřítku). Vedle spodní lišty výrazně ≈ 1,000×, pod lištami drobně VS. A TYPICAL ESTIMATE (~10²³ J). Žádná osa.",
+   "pause": 3.0
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Číslice, ne slovy (konvence).",
+   "diagram_generator": "srazka",
+   "diagram": "Ambrové datum 17 AUGUST 2017 uprostřed, pod ním ztlumeně NOT A THOUGHT EXPERIMENT.",
+   "pause": 0.6
+  },
+  {
+   "id": "S39",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S39.png",
+   "note": "Třetí a poslední SDXL. Ilustrace, ne pozorování — žádný popisek „snímek“.",
+   "prompt": "only two small white-hot stars locked close together, spiralling into each other, bright glowing trails curving around a shared centre, faint ripples spreading through a dark star field, painterly",
+   "seed": 1271
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Chirp je stylizovaný, frekvence roste; 1,7 s a ~70 observatoří z factchecku. Část observatoří ve vesmíru, proto i tečky nad glóbem.",
+   "diagram_generator": "srazka",
+   "diagram": "Časová osa zleva: tvar signálu (chirp) LIGO · VIRGO → +1.7 s GAMMA RAYS → ≈ 70 OBSERVATORIES (tečky po glóbu a na oběžné dráze).",
+   "anim": "animace"
+  },
+  {
+   "id": "S41",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S41.png",
+   "note": "Skutečný snímek kilonovy AT 2017gfo v NGC 4993 (Hubble/ESO). Licence ESA/Hubble bývá CC BY 4.0 → atribuce do popisu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "NGC 4993 kilonova Hubble",
+    "pick": 2,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Míra jistoty v obraze = ve scénáři: Sr plně (ale „most likely“), Au a Pt čárkovaně. Assert pozic prvků v tabulce (skupina, perioda).",
+   "diagram_generator": "srazka",
+   "diagram": "Výřez periodické tabulky: Sr plným rámečkem s nápisem MOST LIKELY, Au a Pt čárkovaně MODELS SUGGEST, ostatní ztlumené."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Čárkovaně: „may have been“. Za scénou výzva k odběru č. 2 (za pointou titulu).",
+   "diagram_generator": "srazka",
+   "diagram": "Zlatý prsten / nuget (ambrově) na Zemi, čárkovaná křivka od něj k dávné srážce; nápis SOME OF IT · MAYBE.",
+   "vyzva": true,
+   "pause": 2.6
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Nová otázka za pointou. Karta 3 se pojmenuje v S45. Levý dolní roh prázdný (výzva z S43 přes začátek): lžička páteře nesmí zasahovat pod 75 % výšky.",
+   "diagram_generator": "hak",
+   "diagram": "Lžička na místě páteře, karty 1 a 2 ztlumené s fajfkami, nová karta 3 ambrově (zatím bez textu, jen …).",
+   "pause": 0.6
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "„Not why it's so dense“ — škrt textu vodorovnou čarou.",
+   "diagram_generator": "hak",
+   "diagram": "Karta 3 WHY DOES IT WEIGH ANYTHING? ambrově; nad ní ztlumeně přeškrtnuté WHY SO DENSE? (text_skrtnuty).",
+   "pause": 2.0
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Tři valenční kvarky (zjednodušení, factcheck S46). Assert složení uud / udd.",
+   "diagram_generator": "hmota",
+   "diagram": "Proton (velký kruh) se třemi kvarky u, u, d a neutron se třemi u, d, d vedle. Popisky PROTON, NEUTRON, QUARKS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Váhy z kitu (tytéž jako S03).",
+   "diagram_generator": "hmota",
+   "diagram": "Váhy: na levé misce proton, na pravé tři kvarky a otazník; nápis ADD THEM UP."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Assert: (2·2,16 + 4,70)/938,27 = 0,96 % → 1 čtverec ze 100.",
+   "diagram_generator": "hmota",
+   "diagram": "Mřížka 10 × 10 čtverců = hmotnost protonu; jeden čtverec ambrově QUARKS ≈ 1 %.",
+   "pause": 1.4,
+   "anim": "animace"
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Rým s S48 — mřížka na stejných souřadnicích.",
+   "diagram_generator": "hmota",
+   "diagram": "Táž mřížka; zbylých 99 čtverců ambrově ENERGY 99 %, kvarkový čtverec ztlumeně.",
+   "anim": "animace"
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Pole jako vlnky/pružiny, ne čáry s šipkou (šipka = příčina).",
+   "diagram_generator": "hmota",
+   "diagram": "Proton zevnitř: tři kvarky s šipkami pohybu (MOVING AT NEARLY c) a mezi nimi vlnité gluonové pole GLUON FIELDS ambrově.",
+   "anim": "animace"
+  },
+  {
+   "id": "S51",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Portrét Einsteina (Schmutzer 1921, public domain). Celá hlava s odstupem, fit 0.84, žádný zoom (pravidlo o portrétu).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Albert Einstein 1921 Ferdinand Schmutzer",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Higgs dává hmotnost kvarkům, ne protonu — šipka míří JEN na kvarkový čtverec.",
+   "diagram_generator": "hmota",
+   "diagram": "Mřížka z S48: ambrový čtverec kvarků s šipkou od HIGGS FIELD; zbytek mřížky ztlumeně NOT FROM THE HIGGS.",
+   "pause": 1.0
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Nejsilnější moment videa (věta uživatele). Minimum prvků.",
+   "diagram_generator": "hmota",
+   "diagram": "Silueta člověka uprostřed, uvnitř jemné vlnky polí; pod ní MOSTLY FIELD ENERGY.",
+   "pause": 2.0
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Rým s S02, táž poloha údaje.",
+   "diagram_generator": "hak",
+   "diagram": "Lžička na místě páteře, BILLIONS OF TONNES jako v S02, pod tím ambrově ≈ 99 % STRONG-INTERACTION ENERGY."
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Superpočítač; Dürr a kol. 2008 počítali na JUGENE (Jülich). Když Commons nevrátí použitelný snímek, nahradit kresbou mřížky (lattice QCD).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "JUGENE supercomputer",
+    "pick": 0
+   },
+   "pause": 0.8
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Vstupy čárkovaně (hodnota z teorie neplyne).",
+   "diagram_generator": "cisla",
+   "diagram": "Rámeček výpočtu QCD → PROTON MASS; do něj vedou zleva dva prázdné vstupy se štítkem NOT PREDICTED.",
+   "pause": 0.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Výčet otázek s tečkami → vycet.",
+   "diagram_generator": "cisla",
+   "diagram": "Tytéž vstupy vyplněné: STRONG-INTERACTION STRENGTH a QUARK MASSES, nad každým MEASURED, šipka PUT IN BY HAND.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Motiv, vrací se v S67, S71 a S73. Assert 19 posuvníků (bez hmot neutrin, factcheck S58).",
+   "diagram_generator": "cisla",
+   "diagram": "PANEL NASTAVENÍ (NASTAVENI v kitu): 19 vodorovných posuvníků s jezdci v různých polohách, nadpis THE STANDARD MODEL · ≈ 20 NUMBERS.",
+   "pause": 2.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "",
+   "diagram_generator": "cisla",
+   "diagram": "Velké číslo 299,792,458 m/s, nad ním SPEED OF LIGHT · EXACTLY.",
+   "pause": 0.6
+  },
+  {
+   "id": "S60",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Mètre-étalon na rue de Vaugirard v Paříži (veřejný mramorový etalon z let 1796–97), tedy metr definovaný předmětem; od 1983 ho nahrazuje definice přes rychlost světla. Původní platino-iridiová tyč zamítnuta uživatelem (sytě červené pozadí), US No. 27 má jen 350×300 px.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Mètre étalon",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Assert přepočtu na stopy (/0,3048). Mimozemská jednotka čárkovaně.",
+   "diagram_generator": "cisla",
+   "diagram": "Tři řádky pod sebou: 299,792,458 m/s · 983,571,056 ft/s · ◇△◇ alien units; vpravo jeden paprsek světla SAME SPEED.",
+   "pause": 1.2
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "",
+   "diagram_generator": "cisla",
+   "diagram": "Ambrový štítek NO UNITS uprostřed, vedle ztlumeně m/s přeškrtnuté (text_skrtnuty)."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "",
+   "diagram_generator": "cisla",
+   "diagram": "Elektron a fotonová vlnovka, v místě setkání ambrově α; popisek FINE-STRUCTURE CONSTANT · HOW STRONGLY CHARGES COUPLE TO LIGHT."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Čáry ne šipkami (pomáhá určovat, ne jediná příčina).",
+   "diagram_generator": "cisla",
+   "diagram": "Atom (z S08) a vedle molekula s vazbou; od α čáry k obojímu: ATOMS · CHEMICAL BONDS."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Konstanty jsou číslicí (odchylka v notes).",
+   "diagram_generator": "cisla",
+   "diagram": "Velké ambrové α ≈ 1/137, pod ním tři sloupky METRES · FEET · ALIEN UNITS, pod každým totéž 1/137."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Hodnota CODATA 2022.",
+   "diagram_generator": "cisla",
+   "diagram": "α⁻¹ = 137.035 999 177 drobně a přesně, pod ním velký ambrový WHY THIS VALUE?",
+   "pause": 2.4
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Čárkovaně a s otazníky: „some calculations suggest… could“.",
+   "diagram_generator": "cisla",
+   "diagram": "Panel nastavení z S58, jeden posuvník posunutý čárkovaně; vpravo čárkovaně NO STABLE STARS? / NO COMPLEX CHEMISTRY?",
+   "anim": "animace"
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "Tři možnosti rovnocenně, žádná barevně (barva = „tahle vyhrála“).",
+   "diagram_generator": "cisla",
+   "diagram": "Tři karty vedle sebe: LUCK? · A DEEPER THEORY? · MANY UNIVERSES?, pod nimi ambrově NOBODY KNOWS.",
+   "pause": 3.0
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Návrat páteře.",
+   "diagram_generator": "zaver",
+   "diagram": "Lžička na místě páteře, BILLIONS OF TONNES OF CRUSHED MATTER."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Rekapitulace sestupu. Ikony úrovní tytéž jako v S08, S14, S46, S50.",
+   "diagram_generator": "zaver",
+   "diagram": "Svislý žebřík úrovní uprostřed: ATOMS → NUCLEI → NEUTRONS → QUARKS & FIELDS, šipky dolů, lžička malá nahoře.",
+   "pause": 0.6
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "",
+   "diagram_generator": "zaver",
+   "diagram": "Žebřík z S70, na dně panel nastavení z S58 zmenšený, ambrově A HANDFUL OF NUMBERS · TAKEN AS GIVEN.",
+   "pause": 2.0
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "ZAVĚREČNÁ OBRAZOVKA začíná tady: horní polovina obrazu prázdná (S72–S74).",
+   "diagram_generator": "zaver",
+   "diagram": "Pod panelem nastavení čárkovaný rámeček A DEEPER THEORY? a pod ním ambrově WHY THAT THEORY? — celé v dolní polovině obrazu nad pásem titulku.",
+   "pause": 1.4
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "Horní polovina prázdná.",
+   "diagram_generator": "zaver",
+   "diagram": "Panel nastavení jen jako čárkovaný obrys s otazníkem uprostřed, v dolní polovině.",
+   "pause": 2.0
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "Poslední deska, static, klidná.",
+   "diagram_generator": "zaver",
+   "diagram": "Otázka do komentářů v dolní polovině: 1/137 → SOMETHING DEEPER? a pod tím ANSWER, OR ONE LEVEL DOWN? Horní polovina prázdná pro dlaždici a kolečko odběru."
+  }
+ ]
+}

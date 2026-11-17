@@ -1,0 +1,766 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook musí být OBRAZ, ne schéma — divák má napřed vidět tu samozřejmost, kterou video vzápětí rozebere. Čekárna, ne pacient: scéna mluví o dostupnosti, ne o nemoci.",
+      "prompt": "a quiet empty waiting room in a small clinic, rows of simple chairs, a closed consulting room door, morning light through a high window, nobody present"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Tři tření, žádné z nich není překážka. Musí být VIZUÁLNĚ STEJNĚ VELKÁ — kdyby jedna vyčnívala, obraz by řekl, že zrovna ta je ten problém, a scéna říká pravý opak.",
+      "diagram_generator": "uvod",
+      "diagram": "tři drobné ikony v řadě pod sebou zleva doprava: mince, hodiny, formulář; každá s krátkým popiskem PAY / WAIT / PAPERWORK, všechny šedé a stejně velké"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Klíčové slovo scény je claim. Plná šipka zpátky = nárok se uplatní. Ambrová je jen ta jedna věc, o kterou tu jde.",
+      "diagram_generator": "uvod",
+      "diagram": "postava u přepážky podává kartičku; nad tím ambrově NÁROK / CLAIM; z přepážky vede plná šipka zpět k postavě"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "PÁTEŘ 1 videa: časová osa dějin s tenkým proužkem na konci. Vrací se v S69 a definitivně v S71, kde teprve dostane popisek „a hundred and fifty years“. Tady ještě ČÍSLO NEMÁ — scénář ho v S04 neříká a obraz nesmí tvrdit víc než hlas. Rozvržení osy se mezi S04, S69 a S71 nesmí hnout.",
+      "diagram_generator": "uvod",
+      "diagram": "dlouhá vodorovná osa DĚJIN zleva doprava, popisky HUMAN HISTORY; úplně vpravo tenký ambrový proužek na konci, zatím bez čísla"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Návrat v čase. Táž osa jako S04 — divák má poznat, že je to týž obraz, jen se po něm jede zpátky.",
+      "diagram_generator": "uvod",
+      "diagram": "táž osa jako v S04, ale ambrová šipka míří zprava DOLEVA k bodu označenému EIGHTEEN HUNDRED; cíl je zvýrazněný kroužkem"
+    },
+    {
+      "id": "S06",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S06.png",
+      "note": "Atmosféra, ne konkrétní osoba. Dílna kolem roku 1800 — scénář říká „imagine you are“, takže tvář nemá být čitelná; kdyby byla, divák se ptá, kdo to je.",
+      "prompt": "the inside of a modest early nineteenth century workshop, hand tools on a bench, a single figure seen from behind at work, low light from one small window"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "První kauzální řetěz videa. Ambrový je až poslední článek, protože o něj tu jde — ne o nemoc, ale o příjem.",
+      "diagram_generator": "rok1800",
+      "diagram": "řetěz tří rámečků se šipkami: SERIOUSLY ILL -> CAN'T WORK -> NO WAGES; poslední rámeček ambrový"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Škrtá se ČAROU PŘES TEXT, ne křížkem — pod plným křížkem nejde nápis přečíst (naměřeno u devátého videa) a scéna, ve které divák nepřečte, co chybí, netvrdí nic.",
+      "diagram_generator": "rok1800",
+      "diagram": "tři položky pod sebou, každá přeškrtnutá vodorovnou čarou přes text: NATIONAL HEALTH SERVICE / INSURANCE CARD / A DOCTOR NEARBY"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Obě větve ČÁRKOVANĚ a stejně silné. Plná čára u jedné by řekla „tahle byla ta normální“, a scénář netvrdí, která byla častější.",
+      "diagram_generator": "rok1800",
+      "diagram": "jedna postava, z níž vedou dvě větve: vlevo HAVE MONEY -> TREATMENT, vpravo POOR -> CHARITY; obě čárkovaně, ani jedna zvýrazněná"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Payoff bloku a první dlouhá pauza. Scéna neříká „je nemocný“, říká „přišel o příjem“ — proto graf peněz, ne postava.",
+      "diagram_generator": "rok1800",
+      "diagram": "graf příjmu v čase: vodorovná stabilní čára, pak strmý pád k nule a dlouhá nulová část s popiskem MONTHS; pod grafem ambrově LOST INCOME",
+      "pause": 2.6
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Zavádí PÁTEŘ 2: SPOLEČNÁ NÁDOBA. Nejdůležitější opakující se obraz videa — vrací se v S14, S15, S19, S20, S28, S31 a naposled v S76. Rozvržení (nádoba uprostřed, přispěvatelé kolem) se mezi výskyty NESMÍ hnout, jinak přestane fungovat jako rým.",
+      "diagram_generator": "solidarita",
+      "diagram": "osm malých postav v kruhu, každá vhazuje jednu minci do společné nádoby uprostřed"
+    },
+    {
+      "id": "S12",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Ověřeno `--search`: nález je nápis se stanovami spolku (collegium tibicinum, Musei Capitolini), tedy přesně to, o čem scéna mluví. CC BY 2.5, takže atribuce je POVINNÁ — `CREDITS.md` ji vygeneruje. STATICKY: je to nápis.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Roman collegium inscription",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S13.png",
+      "note": "Ověřeno `--search`. Nález je *Mariegola* — stanovová kniha benátské scuoly, tedy přímo cechovní dokument, ne jen dobová iluminace. Původní dotaz `medieval guild illumination craftsmen` vracel náboženské výjevy.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "medieval guild illumination",
+        "pick": 2,
+        "grade": {}
+      }
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "JÁDRO CELÉHO VIDEA. Definice pojištění jedním obrazem: mnoho malých dovnitř, jedna velká ven. Tenhle přesný tvar se vrací v S31 jako Bismarckův model a v S76 jako pointa.",
+      "diagram_generator": "solidarita",
+      "diagram": "táž nádoba jako v S11; osm šipek dovnitř s popiskem A LITTLE EACH, z nádoby jedna silná ambrová šipka ven k jedné postavě označené MISFORTUNE"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Táž nádoba, ale s hranicí. ČÁRKOVANÁ kružnice = dobrovolné členství (konvence videa: plná = povinné, čárkovaná = dobrovolné, zavádí se tady a vybírá v S27). Šedé postavy venku musí být VÝRAZNĚ POČETNĚJŠÍ.",
+      "diagram_generator": "solidarita",
+      "diagram": "táž nádoba, kolem ní čárkovaná kružnice ohraničující jen šest postav; venku mnoho dalších šedých postav bez spojení; popisky SMALL / VOLUNTARY / LIMITED",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S16.png",
+      "note": "Ověřeno `--search`: „Workmen in locomotive fitting shop\" z Powerhouse Museum, public domain. Dotaz na `nineteenth century factory interior workers` vracel americké obytné interiéry z Library of Congress — učebnicový případ toho, proč se dotaz nesmí psát od stolu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "factory workers industrial revolution engraving",
+        "pick": 1,
+        "grade": {}
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Vizuální struktura tu nese celé tvrzení: v levé půlce jsou SPOJNICE, v pravé žádná. Ta osamocená postava vpravo je ten samý člověk. Nekreslit ji menší — jde o vazby, ne o velikost.",
+      "diagram_generator": "prumysl",
+      "diagram": "dvě poloviny vedle sebe: vlevo VILLAGE — hrstka domů a čtyři postavy blízko sebe spojené čarami; vpravo CITY — mřížka domů a jedna postava bez jediné čáry"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Návrat obrazu z S10 o patro dál: tam pád příjmu, tady díra v pravidelné mzdě. Sloupce musí být zjevně STEJNÉ, aby díra byla ta jediná odchylka.",
+      "diagram_generator": "prumysl",
+      "diagram": "sloupcový graf týdenní mzdy, sedm stejných sloupců, jeden uprostřed chybí; nad mezerou ambrově ILLNESS a pod ní NO WAGE"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Rým s S11 — táž nádoba, teď třikrát a s vlastním jménem. Čárkovaná kružnice drží konvenci „dobrovolné“ zavedenou v S15.",
+      "diagram_generator": "prumysl",
+      "diagram": "tři nádoby vedle sebe, tvarem shodné s nádobou z S11; popisky MUTUAL AID SOCIETIES / FRIENDLY SOCIETIES / SICKNESS FUNDS; kolem každé čárkovaná kružnice"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Dvě výplaty, ne jedna — scénář říká „money, or sometimes pay for treatment“. Slovo sometimes se do obrazu promítne tak, že šipka TREATMENT je tenčí.",
+      "diagram_generator": "prumysl",
+      "diagram": "jedna z těch nádob zvětšená; pravidelné malé šipky dovnitř s popiskem REGULARLY, ven dvě ambrové šipky s popisky MONEY a TREATMENT"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Poprvé se kreslí POKRYTÍ jako podíl populace. Tenhle pruh se vrací v S28 (Bismarck: plná hranice) a v S53 (americká slátanina). Poměr NEKVANTIFIKOVAT přesně — scénář žádné číslo neříká, takže obraz nesmí vypadat jako graf s daty.",
+      "diagram_generator": "prumysl",
+      "diagram": "vodorovný pruh představující celou populaci; ambrově vybarvená jen menší část, zbytek šedý; kolem vybarvené části čárkovaný okraj; popisky VOLUNTARY / DIDN'T COVER EVERYONE",
+      "pause": 2.6
+    },
+    {
+      "id": "S22",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S22.png",
+      "note": "Německo jako průmyslová velmoc. **Druhý pokus.** První dotaz (`Sozialistengesetz`, karikatura z Pucku) vypadal v logu úspěšně — public domain, dobový, tematicky přesný. Po stažení se ukázalo, že je to STOCKOVÁ FOTKA S VODOZNAKEM: dvakrát „alamy\" přes kresbu a dole patička s ID a adresou. Nepoužitelné, a pozná se to JEDINĚ pohledem — v titulu, kreditu ani licenci o tom nic není.\n\nNáhrada Krupp 1880 je navíc lepší volba věcně: scéna říká „Germany was a great industrial power\" a Krupp je ikona přesně té doby. Karikatura byla navíc hodnotící obraz a video má zůstat popisné.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Krupp factory 1880",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Portrét. CELÁ HLAVA S ODSTUPEM a STATICKY — zpětná vazba k prvnímu i čtvrtému videu hlásila uříznutá čela a zoom na obličej. Proto `fit` 0,84.\n\n**Druhý pokus.** Nejdřív tu byl Lenbachův malovaný portrét (public domain, krásný) — jenže je to MALBA proti Beveridgeově FOTOGRAFII v S38, a video má jen tyhle dva portréty. Naměřeno: samotný portrét měl jas 49 proti Beveridgeovým 97, tedy poloviční. Zesvětlení gradingem nepomohlo (23 → 29 přes celý rám), protože u `fit` je většina plochy záměrně ztmavené pozadí. Dobová fotografie sedí k druhému portrétu i jasem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Bismarck portrait photograph",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "zoom": [
+            0.311,
+            0.105,
+            0.62,
+            0.554
+          ]
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Přidáno ve v0.4 a uživatel to výslovně potvrdil. Rok musí být VELKÝ, protože S27 se na něj odvolá dovětkem „Five years after the ban“. Škrt čarou, ne křížkem.",
+      "diagram_generator": "bismarck",
+      "diagram": "rok EIGHTEEN SEVENTY-EIGHT velkým písmem; pod ním tři glyfy organizací (shromáždění, noviny, spolek), všechny přeškrtnuté vodorovnou čarou"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Motivace, ne hodnocení. Obraz nesmí pyramidu kreslit ani jako správnou, ani jako zlou — je to popis toho, co Bismarck chtěl udržet.",
+      "diagram_generator": "bismarck",
+      "diagram": "pyramida společenského řádu se třemi patry, kolem ní ochranné kruhové pouzdro; popisek EXISTING ORDER, pod tím PRESERVE"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "POZOR, tady vizuální struktura málem tvrdí víc než scénář: houpačka je kauzální tvrzení. Proto je celá UVNITŘ MYŠLENKOVÉ BUBLINY — je to jeho úvaha, ne doložený mechanismus. Ocásek bubliny musí být OTEVŘENÁ LOMENÁ ČÁRA, ne uzavřený trojúhelník (uzavřený nechá po vymazání dva pahýly, past z CLAUDE.md).",
+      "diagram_generator": "bismarck",
+      "diagram": "myšlenková bublina s ocáskem vedoucím od siluety vlevo; uvnitř bubliny houpačka: vlevo klesá PROTECTION, vpravo stoupá... naopak — PROTECTION nahoře, REASON FOR REVOLUTION dole"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Payoff S24. Svorka s „FIVE YEARS“ je to, co z dvou letopočtů dělá jeden příběh. Obraz staví data vedle sebe a NEKRESLÍ mezi nimi šipku příčiny — scénář tvrdí sled, ne prokázanou kauzalitu.",
+      "diagram_generator": "bismarck",
+      "diagram": "krátká časová osa se dvěma body: vlevo 1878 THE BAN, vpravo 1883 COMPULSORY SICKNESS INSURANCE; mezi nimi ambrová svorka s popiskem FIVE YEARS"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Táž nádoba, ale hranice je poprvé PLNÁ — konvence z S15 se tím vybírá: povinné. To je celý rozdíl proti cechům a spolkům a divák ho pozná bez popisku. Podíly příspěvků (dvě třetiny / jedna třetina) se NEKRESLÍ — scénář je neříká.",
+      "diagram_generator": "bismarck",
+      "diagram": "nádoba z S11, poprvé s PLNOU kružnicí kolem; dovnitř dvě odlišené skupiny šipek s popisky WORKERS a EMPLOYERS, ven dvě šipky TREATMENT a SICKNESS BENEFITS"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Věcné jádro videa v jednom obraze. Škrtá se jen horní rámeček a jen čarou.",
+      "diagram_generator": "bismarck",
+      "diagram": "dva rámečky pod sebou: horní NOT FREE HEALTHCARE přeškrtnutý čarou přes text, dolní ambrový INSURANCE bez škrtu"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Vyvrácená představa. Škrtá se CELÝ ÚTVAR jednou vodorovnou čarou, ne po částech — škrt přes jeden článek by řekl „skoro to platí“.",
+      "diagram_generator": "bismarck",
+      "diagram": "rámeček GOVERNMENT, z něj tlustá šipka k davu postav s popiskem EVERYONE'S HEALTHCARE; přes celý útvar vodorovný škrt a popisek NOT THIS"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Rým dovršen. Divák tady má poznat obraz z S14 — proto se rozvržení nesmí lišit ani o pixel. Rozdíl proti S14 je JEDINÝ: plná kružnice. To je celý Bismarck.",
+      "diagram_generator": "bismarck",
+      "diagram": "přesně tentýž obraz jako S14: nádoba, mnoho šipek dovnitř, jedna ambrová ven k postavě; navíc plná kružnice z S28 a popisek THE COVERED GROUP"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Pojmenování. Zmenšená ikona se stane ZKRATKOU, kterou video používá v S41, S43 a S45 — od téhle scény dál stačí ikona místo celého diagramu.",
+      "diagram_generator": "bismarck",
+      "diagram": "prostý štítek uprostřed plochy: THE BISMARCK MODEL, pod ním zmenšená ikona nádoby s plnou kružnicí",
+      "pause": 2.8
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Vliv, ne dobývání. Vlny, ne šipky do konkrétních zemí — jmenovité země přijdou až v S34 a obraz je nemá předbíhat.",
+      "diagram_generator": "sireni",
+      "diagram": "ikona Bismarckova modelu uprostřed, z ní soustředné vlny ven do všech stran"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Rozestupy na ose musí odpovídat SKUTEČNÝM odstupům — nestejné mezery jsou samy o sobě tvrzení a tady je to tvrzení pravdivé (tři rychle za sebou, pak dvacet let). Rakousko a Uhry zvlášť, protože scénář říká Austria-Hungary a fact check ukázal, že to byly dva zákony.",
+      "diagram_generator": "sireni",
+      "diagram": "časová osa se čtyřmi body: 1883 GERMANY, 1888 AUSTRIA, 1891 HUNGARY, 1911 BRITAIN; rozestupy odpovídají skutečným odstupům let"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Česká odbočka. Šipka je PLNÁ, protože převzetí je doložené. Popisek 1924 je tam proto, že Československo systém nejen zdědilo, ale sjednotilo — fact check to má jako klíčový detail. Zvážit archiv (dobová nemocenská pojišťovna), ale Commons to nejspíš neunese; diagram je jistota.",
+      "diagram_generator": "sireni",
+      "diagram": "vlevo blok AUSTRIA-HUNGARY před rokem 1918, vpravo blok CZECHOSLOVAKIA po něm; mezi nimi plná šipka s popiskem INHERITED; pod pravým blokem drobně 1924 UNIFIED"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Pruh z S21, ale poprvé celý. Vrací se naposled jako kontrast v S53.",
+      "diagram_generator": "sireni",
+      "diagram": "velký pruh populace celé země, celý plný; nad ním popisek COLLECTIVE RISK",
+      "pause": 2.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "KRITICKÉ ROZHODNUTÍ O STRUKTUŘE: druhý model NESMÍ vycházet z prvního. Kdyby z Bismarcka vedla šipka do Beveridge, obraz by řekl „vylepšení“ — a scénář v S68 výslovně tvrdí, že nikdo nevymyslel ten správný. Dvě dráhy ze společného problému, vedle sebe, stejně silné.",
+      "diagram_generator": "beveridge",
+      "diagram": "dvě SAMOSTATNÉ svislé dráhy vedle sebe, obě začínají nahoře u téhož popisku THE SAME PROBLEM; levá už má ikonu Bismarckova modelu, pravá je zatím prázdná s otazníkem a popiskem BRITAIN"
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Ověřeno `--search`: Howard Coster, public domain. POZOR na past — `pick` 3 je *biskup* William Beveridge, tedy úplně jiný člověk. Stejné zacházení jako u S23 (`fit`, staticky), aby jeden z dvojice portrétů nevypadal důležitěji než druhý.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "William Beveridge",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Rozdíl je v CESTĚ PENĚZ, ne v tom, kdo je dobrý. Bismarckova cesta je vedle bledá a označená INSTEAD OF — není přeškrtnutá jako chybná.",
+      "diagram_generator": "beveridge",
+      "diagram": "peníze putují od postav nahoru přes rámeček TAXATION do rámečku GOVERNMENT a odtud šipkou k nemocnici; vedle bledě ta samá cesta přes FUND, přeškrtnutá popiskem INSTEAD OF"
+    },
+    {
+      "id": "S40",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S40.png",
+      "note": "Ověřeno `--search`: dobový leták „National Health Service leaflet, May 1948\", public domain — přesně to, co scéna potřebuje. Je to DOKUMENT, ne fotka, takže grading bez zežloutnutí a vinětace a se zoomem, aby byl nadpis čitelný. Výřez se nastaví AŽ PO POHLEDU na stažený leták — `zoom` je relativní ořez [x, y, š, v], ne měřítko, a naslepo by uřízl nadpis místo bílého okraje. PO STAŽENÍ: leták je na výšku (800x1198) a výchozí ořez mu vzal spodní část. `fit` 0,92 ukáže celý list i se schématem FAMILY DOCTOR a nadpisem CHOOSE YOUR DOCTOR NOW, což je nejcennější věc na celém nálezu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "National Health Service 1948",
+        "pick": 0,
+        "grade": {
+          "tint_amount": 0,
+          "vignette": false,
+          "saturation": 100,
+          "fit": 0.92
+        }
+      }
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Levá půlka dvojobrazu. Pravá zůstává PRÁZDNÁ, ne zašedlá — divák má vidět, že tam něco přijde.",
+      "diagram_generator": "beveridge",
+      "diagram": "levá polovina plochy: ikona Bismarckova modelu z S32, pod ní popisek YOU PAY INTO HEALTH INSURANCE FUNDS; pravá polovina prázdná"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Obě poloviny STEJNĚ VELKÉ, stejně sytě, bez šipky mezi nimi a bez pořadí naznačeného velikostí. Rozvržení se přebírá z S41 beze změny.",
+      "diagram_generator": "beveridge",
+      "diagram": "táž plocha, teď obě poloviny: vlevo Bismarck beze změny, vpravo ikona Beveridge (daně -> stát -> nemocnice) s popiskem YOU PAY TAXES"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Symetrie je celé tvrzení. Kdyby byl jeden štítek jinde nebo jinak velký, obraz by vybral vítěze.",
+      "diagram_generator": "beveridge",
+      "diagram": "týž dvojobraz, nad každou polovinou ambrový štítek POLITICAL CHOICE; pod oběma společný popisek NEITHER APPEARED NATURALLY"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Uzavírá evropskou půlku videa. Sbíhavá kompozice je záměrná: tři fakta, jeden problém — a ten problém je týž, ze kterého v S37 vyšly obě dráhy.",
+      "diagram_generator": "beveridge",
+      "diagram": "tři rámečky sbíhající se do jednoho: MEDICINE IS EXPENSIVE / ILLNESS IS UNPREDICTABLE / NOBODY CAN SAVE ENOUGH -> THE SAME PROBLEM",
+      "pause": 2.8
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Otevření americké části. Třetí místo je POD dvojicí, ne vedle — vedle by to vypadalo jako třetí rovnocenný model, a scénář říká, že USA si nevybraly ani jeden.",
+      "diagram_generator": "amerika",
+      "diagram": "dvojobraz z S42 zmenšený nahoru; pod ním třetí prázdné místo s velkým otazníkem a popiskem THE UNITED STATES"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Uživatel si tuhle scénu ve zpětné vazbě sám ohlídal: „did not choose either model“ může znít, jako by v USA k žádným politickým rozhodnutím nedošlo. Obraz to proto koriguje — pole jsou PRÁZDNÁ, ne přeškrtnutá, a spleť dole VZNIKÁ, tedy někdo ji staví. Zaznamenáno i ve `factcheck.md`.",
+      "diagram_generator": "amerika",
+      "diagram": "oba modely nahoře, u každého prázdné zaškrtávací pole; dole místo jednoho úhledného modelu začíná vznikat spleť překrývajících se obdélníků"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "PÁTEŘ 3: SLÁTANINA jako mřížka, která se plní. Klíčové je, že jednotlivé dlaždice SE NEDOTÝKAJÍ a nemají mezi sebou spojnice — to je to slovo patchwork.",
+      "diagram_generator": "amerika",
+      "diagram": "mřížka šesti míst, zaplněná zatím dvě: PRIVATE INSURANCE a EMPLOYER-SPONSORED; zbylá čtyři místa prázdná"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Popisky u Medicare a Medicaidu musí nést to omezení — „mainly“ a „eligible“ jsou přesně slova, na kterých stojí správnost celé scény podle fact checku.",
+      "diagram_generator": "amerika",
+      "diagram": "táž mřížka, přibyly MEDICARE (popisek MAINLY OLDER) a MEDICAID (popisek ELIGIBLE, RULES VARY BY STATE)"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Šesté místo je záměrně PRÁZDNÉ a přesto popsané — lidé, kteří platí sami, nejsou systém. Konkrétní číslo nepojištěných se NEKRESLÍ: mění se rok od roku a video má vydržet (fact check to má jako vědomé rozhodnutí).",
+      "diagram_generator": "amerika",
+      "diagram": "táž mřížka, přibyla VETERANS HEALTH ADMINISTRATION; poslední místo zůstává prázdné a je označené ambrově PAYING THEMSELVES"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Škrtá se TVRZENÍ, ne dlaždice. Dlaždice zůstávají celé — soukromé pojištění existuje, nepravdivá je jen ta věta.",
+      "diagram_generator": "amerika",
+      "diagram": "táž mřížka; ambrově zvýrazněné jen dlaždice soukromého pojištění, přes celý obraz štítek AMERICA HAS PRIVATE HEALTHCARE s vodorovným škrtem"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Přesné zrcadlo předchozí scény, aby dvojice fungovala jako beat. Uživatel si tuhle dvojici výslovně chválil, takže se s ní nehýbe.",
+      "diagram_generator": "amerika",
+      "diagram": "zrcadlo S50: zvýrazněné jen veřejné dlaždice, štítek AMERICA HAS PUBLIC HEALTHCARE rovněž přeškrtnutý"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Rozřešení dvojice. Nic se nepřidává ani neubírá, jen se zvýrazní všechno — obraz tím říká, že data byla celou dobu na stole.",
+      "diagram_generator": "amerika",
+      "diagram": "táž mřížka, zvýrazněné VŠECHNY dlaždice; nahoře ambrově BOTH"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Uzavření americké mapy a návrat pruhu populace ze S21/S36 — tam byl dělený dobrovolností, pak celý, tady roztříštěný. Kusy musí být NESTEJNÉ; stejné by vypadaly jako úhledný systém.",
+      "diagram_generator": "amerika",
+      "diagram": "celá mřížka odtažená a nakřivo poskládaná; pod ní pruh populace jako v S21 a S36, ale rozdělený na nestejné kusy různých barev; popisek A GIANT HISTORICAL PATCHWORK",
+      "pause": 2.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Zavádí obraz, který se v S55 obrátí. Pojištění je připnuté k člověku — proto se s ním hýbe.",
+      "diagram_generator": "prace",
+      "diagram": "postava přechází ze zaměstnání JOB A do JOB B; ikona pojištění je připnutá k POSTAVĚ a putuje s ní; popisek EUROPE"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Přesně týž obraz jako S54 s JEDNOU změnou: kam je ikona připnutá. Celý rozdíl mezi Evropou a Amerikou v jednom pixelu posunu — proto se rozvržení nesmí lišit.",
+      "diagram_generator": "prace",
+      "diagram": "táž postava a tytéž dva zaměstnavatelé, ale ikona pojištění je připnutá k rámečku JOB A, ne k postavě; popisek UNITED STATES"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Původně archiv, ale `--search` na `wage stabilization war 1943 poster` ani na `War Labor Board` nevrátil NIC použitelného — Commons má válečné plakáty hojně, ale ne k mzdové regulaci. Přechod na diagram byl ve storyboardu předepsaný jako záloha už při jeho zakládání, takže to není improvizace. Obraz musí říct STROP, ne nízkou mzdu: sloupce pod čarou jsou různě vysoké, ale žádný ji nepřekročí.",
+      "diagram_generator": "prace",
+      "diagram": "ruka státu zamyká vodorovnou čáru mzdového stropu; pod čarou sloupce mezd, nad ní prázdno; popisky WARTIME a WAGES FROZEN"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Mechanismus obcházení stropu. Blok NAD čarou musí být zjevně jiná kategorie (jiná výplň), ne prostě vyšší mzda — to je celá pointa.",
+      "diagram_generator": "prace",
+      "diagram": "sloupec mzdy narážející do vodorovné čáry označené WAGE FREEZE; nad čarou se místo mzdy staví druhý, jinak vybarvený blok s ikonou pojištění"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Poměr musí být PŘESNĚ 3:1 a hlídat ho assert v generátoru. Doklad je doslovná citace „health coverage had tripled“ (IOM/NCBI) a obraz nesmí tvrdit ani víc, ani míň — je to táž past jako u slona plněného tečkami ve třináctém videu.",
+      "diagram_generator": "prace",
+      "diagram": "vlevo malý blok označený BEFORE, vpravo blok PŘESNĚ TŘIKRÁT VĚTŠÍ označený BY THE END OF THE WAR; nad nimi popisky NOT WAGES / NOT TAXED"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Uživatel označil tuhle větu za jednu z hlavních tezí videa. Prázdný podpisový řádek to řekne beze slov.",
+      "diagram_generator": "prace",
+      "diagram": "prázdný formulář NATIONAL HEALTH POLICY s nevyplněnými poli a nepodepsaným řádkem; přes to ambrově NOBODY CHOSE THIS"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Důsledek S55. Mezera mezi člověkem a ikonou je celý obsah scény.",
+      "diagram_generator": "prace",
+      "diagram": "postava odchází od rámečku JOB; ikona pojištění zůstává viset u rámečku a mezi ní a postavou se otevírá mezera; popisky CHANGE JOBS / LOSE YOUR JOB"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Setrvačnost jako sediment. Vrstvy musí být RŮZNĚ TLUSTÉ a mírně nepravidelné — pravidelné by vypadaly jako plán, a scénář říká pravý opak.",
+      "diagram_generator": "prace",
+      "diagram": "vodorovné vrstvy nad sebou jako geologické souvrství, každá s jedním drobným popiskem rozhodnutí a letopočtem; nahoře DECADES",
+      "pause": 2.6
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Prázdno kolem té otázky je funkční — v S63 a S64 se zaplní. Rámeček musí být na TÉŽE pozici ve všech třech scénách.",
+      "diagram_generator": "otazky",
+      "diagram": "jedna jediná otázka v rámečku uprostřed prázdné plochy: WHERE CAN I GET TREATMENT?; nahoře drobně EUROPE"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Hromadění. Nové otázky se PŘIDÁVAJÍ pod tu první, nic se nepřekresluje.",
+      "diagram_generator": "otazky",
+      "diagram": "táž otázka nahoře, pod ní přibyly dvě další: IS THE DOCTOR IN MY NETWORK? a DOES MY INSURANCE COVER THIS?; nahoře UNITED STATES"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Šest otázek proti jedné. Kumulace je celé sdělení, takže žádná se nesmí vypustit kvůli místu — radši zmenšit písmo přes `text_do()`.",
+      "diagram_generator": "otazky",
+      "diagram": "táž hromada, přibyly HAVE I REACHED MY DEDUCTIBLE?, HOW MUCH WILL THE HOSPITAL CHARGE? a HOW MUCH WILL I ACTUALLY PAY?; poslední ambrově"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Vstup stejný, výstup různý. Postavy i rámeček léčby musí být DOSLOVA identické, jinak divák hledá rozdíl v nich. Na účtech NEJSOU čísla — scénář žádné neříká.",
+      "diagram_generator": "otazky",
+      "diagram": "dvě identické postavy, u obou týž rámeček SAME TREATMENT; od každé vede šipka k účtu, ale účty jsou nápadně různě velké",
+      "pause": 2.6
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Vícepříčinnost. Šipky musí být STEJNĚ SILNÉ — silnější šipka by řekla, která příčina rozhodla, a scénář říká, že jednoduchá odpověď není.",
+      "diagram_generator": "proc",
+      "diagram": "několik šipek z různých směrů sbíhajících se k jednomu rozcestí; popisky HISTORY a INSTITUTIONS; u rozcestí velký otazník"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Setrvačnost jako srostlost. Čar musí být hodně a musí být propletené — úhledné paprsky by vypadaly jako dobře navržený systém.",
+      "diagram_generator": "proc",
+      "diagram": "systém uprostřed a kolem něj hustě narostlé drobné prvky (lidé, nemocnice, pojišťovny) propojené s ním mnoha čarami; popisky TIMING MATTERS a CHANGING IT LATER"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "NEJDŮLEŽITĚJŠÍ ZÁKAZ CELÉHO VIDEA: tady se nesmí objevit vítěz. Žádná barva navíc, žádná fajfka, žádná tlustší čára. Scénář říká „nobody invented the correct system“ a obraz to musí říct taky — jinak si video samo odporuje.",
+      "diagram_generator": "proc",
+      "diagram": "dva různé výchozí body vlevo, z každého jiná cesta doprava k jinému cíli; obě cesty stejně silné, žádná zvýrazněná, žádná fajfka ani křížek",
+      "pause": 2.8
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Návrat páteře 1. Rozvržení osy shodné s S04 a S71 — divák má poznat týž obraz.",
+      "diagram_generator": "zaver",
+      "diagram": "osa dějin ze S04, tentokrát celá a bez zvýraznění; popisek MUST HAVE ALWAYS EXISTED s vodorovným škrtem"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Shrnutí celého videa jedním dechem. Ikony musí být DOSLOVA tytéž tvary jako dřív, jinak to není rekapitulace, ale nová informace.",
+      "diagram_generator": "zaver",
+      "diagram": "pět zmenšených ikon v řadě, každá převzatá ze scény, kde se poprvé objevila: rodina, komunita, charita (S09), cech (S13), nádoba spolku (S19)"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "PAYOFF PÁTEŘE 1, na který video čekalo od S04. Číslo se objevuje POPRVÉ a přesně v okamžiku, kdy ho hlas říká. Proporce proužku ke zbytku osy musí být přiměřená — sto padesát let z dějin lidstva je opticky skoro nic a tak to má vypadat.",
+      "diagram_generator": "zaver",
+      "diagram": "osa dějin ze S04 a S69; ambrový proužek na konci teď dostává popisek A HUNDRED AND FIFTY YEARS a svorku"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Nový druh problému. Postava zůstává STÁT — není nemohoucí, to je celý vtip. Hroutí se peníze, ne člověk.",
+      "diagram_generator": "zaver",
+      "diagram": "postava označená PERFECTLY ABLE TO WORK; z boku do ní naráží jediná šipka ILLNESS a pod postavou se hroutí sloupec rodinných financí"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Otázka mířená na jednotlivce. Pozice otázky i postavy se v S74 nezmění, změní se jen komu je určená.",
+      "diagram_generator": "zaver",
+      "diagram": "jedna postava a nad ní otázka mířící jen na ni: CAN THIS PERSON AFFORD TO BE SICK?"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Přesun otázky z jednotlivce na skupinu. Původní postava zůstává na místě a jen se kolem ní objeví ostatní — obraz tím říká, že se nezměnil člověk, ale kdo se ptá.",
+      "diagram_generator": "zaver",
+      "diagram": "táž postava, ale otázka je teď rozprostřená nad celou skupinou: CAN ALL OF US SHARE THE RISK OF BECOMING SICK?; ambrově"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Dvě vyvrácení a prázdné místo, které vyplní S76. Škrt čarou přes text, ne křížkem.",
+      "diagram_generator": "zaver",
+      "diagram": "dva rámečky přeškrtnuté čarou přes text: FREE HEALTHCARE a GOVERNMENT-OWNED HOSPITALS; pod nimi prázdné ambrové místo"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "TEZE CELÉHO VIDEA a poslední výskyt páteře 2. Obraz musí ukázat PŘEVOD: vlevo jedna prudká křivka, vpravo mnoho mělkých. Součet je stejný — to je to, co dělá z pojištění pojištění, a assert v generátoru to má hlídat.",
+      "diagram_generator": "zaver",
+      "diagram": "nádoba z S11, S14 a S31 naposled; vlevo jedna postava s prudce klesající křivkou označenou UNPREDICTABLE INDIVIDUAL DISASTER, vpravo mnoho postav s mírným rovnoměrným zatížením COLLECTIVE FINANCIAL RISK"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Rozmanitost bez žebříčku. Tvary různé, velikosti stejné.",
+      "diagram_generator": "zaver",
+      "diagram": "několik zemí jako různé, ale rovnocenné tvary vedle sebe; popisek DIFFERENT SYSTEMS bez jakéhokoli hodnocení"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Obrat pointy. Nic se nepřidává — jen se rozsvítí to, co tam už bylo. To je přesně ten posun perspektivy, o kterém scénář mluví.",
+      "diagram_generator": "zaver",
+      "diagram": "tytéž tvary, teď všechny ambrově zvýrazněné najednou; popisek WE EVER MANAGED TO CREATE SYSTEMS AT ALL"
+    },
+    {
+      "id": "S79",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S79.png",
+      "note": "Závěrečný obraz a rám k S01. Tam prázdná čekárna jako samozřejmost, tady osamocený člověk jako to, co bylo předtím. Zoom OUT, ne in — video se od tématu odtahuje.",
+      "prompt": "a single figure sitting alone on the step of a plain stone cottage at dusk, empty landscape behind, no other people anywhere, cold fading light"
+    }
+  ]
+}

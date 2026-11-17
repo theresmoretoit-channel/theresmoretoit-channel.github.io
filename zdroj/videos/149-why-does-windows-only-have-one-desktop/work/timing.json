@@ -1,0 +1,429 @@
+{
+  "total": 549.578,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 7.467,
+      "end": 7.967,
+      "dur": 7.817,
+      "text": "Picture switching on a Windows PC and finding no taskbar, no Start button, and not a single icon on the desktop."
+    },
+    {
+      "id": "S02",
+      "start": 7.967,
+      "speech_end": 15.434,
+      "end": 16.234,
+      "dur": 8.267,
+      "text": "Instead there's a thin bar along the top, a menu that pops up wherever you click, and four virtual desktops side by side."
+    },
+    {
+      "id": "S03",
+      "start": 16.234,
+      "speech_end": 24.238,
+      "end": 25.038,
+      "dur": 8.804,
+      "text": "It looks like Linux. But your programs, your drivers and your files are exactly where you left them. It's still Windows."
+    },
+    {
+      "id": "S04",
+      "start": 25.038,
+      "speech_end": 30.48,
+      "end": 31.28,
+      "dur": 6.242,
+      "text": "Only the desktop has changed. And the switch that changes it is a single setting."
+    },
+    {
+      "id": "S05",
+      "start": 31.28,
+      "speech_end": 39.282,
+      "end": 40.082,
+      "dur": 8.802,
+      "text": "Windows keeps it in the registry, in a value called Shell. On almost every Windows PC, it says explorer.exe."
+    },
+    {
+      "id": "S06",
+      "start": 40.082,
+      "speech_end": 49.343,
+      "end": 50.143,
+      "dur": 10.061,
+      "text": "Write the name of a different program there, sign out and sign back in, and Windows starts that program instead. Whatever it draws becomes your desktop."
+    },
+    {
+      "id": "S07",
+      "start": 50.143,
+      "speech_end": 64.013,
+      "end": 64.513,
+      "dur": 14.371,
+      "text": "And this isn't a trick someone found last year. In 1990, Windows 3.0 had the same switch in a plain text file called system.ini. One line: shell=progman.exe."
+    },
+    {
+      "id": "S08",
+      "start": 64.513,
+      "speech_end": 70.145,
+      "end": 71.145,
+      "dur": 6.632,
+      "text": "If you changed that name, Program Manager, the window full of icon groups, never appeared at all."
+    },
+    {
+      "id": "S09",
+      "start": 71.145,
+      "speech_end": 79.635,
+      "end": 82.035,
+      "dur": 10.89,
+      "text": "So the question isn't whether Windows can have a different desktop. It always could. The question is why almost nobody has seen one."
+    },
+    {
+      "id": "S10",
+      "start": 82.035,
+      "speech_end": 91.595,
+      "end": 92.395,
+      "dur": 10.359,
+      "text": "Start with what that line actually points to. The taskbar, the desktop icons, the little tray by the clock: all of that is one program, Explorer."
+    },
+    {
+      "id": "S11",
+      "start": 92.395,
+      "speech_end": 100.226,
+      "end": 101.026,
+      "dur": 8.631,
+      "text": "Yes, the same Explorer you open to look through your files. It does two jobs, and most people only ever notice one."
+    },
+    {
+      "id": "S12",
+      "start": 101.026,
+      "speech_end": 110.737,
+      "end": 111.537,
+      "dur": 10.511,
+      "text": "That second job has a name: the shell. It's the layer you touch. Underneath it sit the kernel, the drivers, and the services that keep Windows running."
+    },
+    {
+      "id": "S13",
+      "start": 111.537,
+      "speech_end": 121.608,
+      "end": 122.408,
+      "dur": 10.871,
+      "text": "None of them need a taskbar. End Explorer in Task Manager, and the taskbar and icons vanish... but Notepad, your browser, every other window keeps working."
+    },
+    {
+      "id": "S14",
+      "start": 122.408,
+      "speech_end": 130.118,
+      "end": 132.318,
+      "dur": 9.91,
+      "text": "Start it again, and the desktop comes back. That's about the clearest proof there is that the desktop is just another program."
+    },
+    {
+      "id": "S14b",
+      "start": 132.318,
+      "speech_end": 145.591,
+      "end": 146.791,
+      "dur": 14.473,
+      "text": "If you've ever changed the launcher on an Android phone, you've seen a similar idea. Android makes it a normal setting. Windows has the mechanism too, but never gave ordinary users a simple button for it."
+    },
+    {
+      "id": "S15",
+      "start": 146.791,
+      "speech_end": 162.968,
+      "end": 163.768,
+      "dur": 16.977,
+      "text": "Three words get mixed up here. The shell is what you launch things from: the taskbar, the menus, the desktop. A window manager controls how windows are positioned, stacked and focused. A desktop environment brings the whole experience together."
+    },
+    {
+      "id": "S16",
+      "start": 163.768,
+      "speech_end": 175.548,
+      "end": 177.948,
+      "dur": 14.18,
+      "text": "On Linux, these pieces can be combined in many different ways. On Windows, replacing the shell doesn't replace the system's window management, or the way applications draw their window frames."
+    },
+    {
+      "id": "S17",
+      "start": 177.948,
+      "speech_end": 185.886,
+      "end": 186.686,
+      "dur": 8.738,
+      "text": "That didn't stop people from trying. By the early nineties, you could walk into a shop and buy a replacement for Program Manager."
+    },
+    {
+      "id": "S18",
+      "start": 186.686,
+      "speech_end": 195.027,
+      "end": 195.827,
+      "dur": 9.141,
+      "text": "Norton Desktop for Windows gave you its own desktop, its own file tools and its own launcher, on top of the same Windows underneath."
+    },
+    {
+      "id": "S19",
+      "start": 195.827,
+      "speech_end": 205.664,
+      "end": 206.864,
+      "dur": 11.037,
+      "text": "Some computer makers replaced it before the customer ever switched on. Packard Bell's Navigator greeted buyers with a house you could walk through, room by room."
+    },
+    {
+      "id": "S20",
+      "start": 206.864,
+      "speech_end": 218.004,
+      "end": 220.204,
+      "dur": 13.34,
+      "text": "Then Windows 95 handed the job to Explorer, and the line in system.ini simply changed to explorer.exe. The switch stayed exactly where it was."
+    },
+    {
+      "id": "S21",
+      "start": 220.204,
+      "speech_end": 226.926,
+      "end": 227.726,
+      "dur": 7.522,
+      "text": "In the late nineties, a whole community grew up around that switch. The best-known project was LiteStep."
+    },
+    {
+      "id": "S22",
+      "start": 227.726,
+      "speech_end": 236.195,
+      "end": 236.995,
+      "dur": 9.269,
+      "text": "It borrowed its look from AfterStep, a Unix window manager modelled on NeXTSTEP, from the company Steve Jobs founded after leaving Apple."
+    },
+    {
+      "id": "S23",
+      "start": 236.995,
+      "speech_end": 246.853,
+      "end": 247.653,
+      "dur": 10.658,
+      "text": "LiteStep had no Start menu unless you built one. Everything was a module: a dock here, a clock there, a menu that opened wherever you right-clicked."
+    },
+    {
+      "id": "S24",
+      "start": 247.653,
+      "speech_end": 257.899,
+      "end": 258.699,
+      "dur": 11.045,
+      "text": "Its themes were shared like wallpapers. Some looked futuristic. Some looked like a Unix workstation. Some left almost nothing on the screen at all."
+    },
+    {
+      "id": "S25",
+      "start": 258.699,
+      "speech_end": 268.002,
+      "end": 268.802,
+      "dur": 10.103,
+      "text": "Blackbox for Windows went the other way. It copied Blackbox, a minimalist Unix window manager, down to a single plain menu and a slim toolbar."
+    },
+    {
+      "id": "S26",
+      "start": 268.802,
+      "speech_end": 274.114,
+      "end": 274.914,
+      "dur": 6.112,
+      "text": "Its successor, bbLean, kept that idea alive on Windows 2000 and XP."
+    },
+    {
+      "id": "S27",
+      "start": 274.914,
+      "speech_end": 282.957,
+      "end": 284.357,
+      "dur": 9.443,
+      "text": "Emerge Desktop broke the shell into separate parts: a launcher, a tray, a task list, each one a small program you could keep or drop."
+    },
+    {
+      "id": "S28",
+      "start": 284.357,
+      "speech_end": 295.627,
+      "end": 296.427,
+      "dur": 12.07,
+      "text": "Why go to all that trouble? Partly because the look of XP was easy to recognise and hard to change. Themes changed the colours and buttons. The layout stayed."
+    },
+    {
+      "id": "S29",
+      "start": 296.427,
+      "speech_end": 303.831,
+      "end": 304.431,
+      "dur": 8.005,
+      "text": "Partly memory. On a machine with a hundred and twenty-eight megabytes, a lighter shell promised more room for everything else."
+    },
+    {
+      "id": "S30",
+      "start": 304.431,
+      "speech_end": 311.281,
+      "end": 312.681,
+      "dur": 8.25,
+      "text": "And partly Linux. There, choosing your desktop was normal, and some Windows users wanted the same choice."
+    },
+    {
+      "id": "S31",
+      "start": 312.681,
+      "speech_end": 323.544,
+      "end": 325.944,
+      "dur": 13.263,
+      "text": "Most of those projects are gone now. LiteStep's last release was a preview from 2014, still marked alpha. Emerge Desktop and SharpEnviro stopped too."
+    },
+    {
+      "id": "S32",
+      "start": 325.944,
+      "speech_end": 335.655,
+      "end": 336.455,
+      "dur": 10.511,
+      "text": "Small volunteer teams were part of the reason. But Windows changed too. Over the years, its desktop became much more than one executable."
+    },
+    {
+      "id": "S33",
+      "start": 336.455,
+      "speech_end": 347.294,
+      "end": 348.094,
+      "dur": 11.639,
+      "text": "The desktop experience is now spread across multiple processes, system components and packaged applications. Even the Start menu runs as a program of its own."
+    },
+    {
+      "id": "S34",
+      "start": 348.094,
+      "speech_end": 359.744,
+      "end": 362.144,
+      "dur": 14.05,
+      "text": "Replacing Explorer doesn't mean replacing everything that makes up the modern Windows interface. And that's one reason why building a complete alternative desktop is harder than it used to be."
+    },
+    {
+      "id": "S35",
+      "start": 362.144,
+      "speech_end": 368.674,
+      "end": 369.474,
+      "dur": 7.33,
+      "text": "And yet it still works. Cairo Desktop, an open-source project, runs on Windows 11 today."
+    },
+    {
+      "id": "S36",
+      "start": 369.474,
+      "speech_end": 375.981,
+      "end": 376.781,
+      "dur": 7.307,
+      "text": "It brings its own menu bar along the top, its own taskbar, and folders you can pin to the bar as stacks."
+    },
+    {
+      "id": "S37",
+      "start": 376.781,
+      "speech_end": 387.343,
+      "end": 388.743,
+      "dur": 11.962,
+      "text": "It can run alongside Explorer, or take over as the shell. In that second mode, parts of Windows 11 can misbehave, Settings and Windows Security among them."
+    },
+    {
+      "id": "S38",
+      "start": 388.743,
+      "speech_end": 401.227,
+      "end": 402.027,
+      "dur": 13.284,
+      "text": "Seelen UI goes about it differently. It doesn't replace Explorer. It hides the taskbar and brings its own pieces: a dock, a bar, widgets, and a window manager that tiles your windows."
+    },
+    {
+      "id": "S39",
+      "start": 402.027,
+      "speech_end": 409.967,
+      "end": 412.567,
+      "dur": 10.54,
+      "text": "The result can look nothing like Windows. But underneath, Explorer is still running. It's a new face, not a new shell."
+    },
+    {
+      "id": "S40",
+      "start": 412.567,
+      "speech_end": 421.403,
+      "end": 422.203,
+      "dur": 9.636,
+      "text": "And Microsoft? It actually has an official feature for this. It's called Shell Launcher, and it's designed for devices like kiosks."
+    },
+    {
+      "id": "S41",
+      "start": 422.203,
+      "speech_end": 430.827,
+      "end": 431.627,
+      "dur": 9.424,
+      "text": "You've probably used something like it without knowing. The ticket machine at a station. A self-service checkout. A cash machine."
+    },
+    {
+      "id": "S42",
+      "start": 431.627,
+      "speech_end": 442.103,
+      "end": 442.703,
+      "dur": 11.077,
+      "text": "Many of them are Windows PCs whose whole shell is one application. An administrator names the program, and after sign-in, that program is the whole desktop."
+    },
+    {
+      "id": "S43",
+      "start": 442.703,
+      "speech_end": 448.101,
+      "end": 448.701,
+      "dur": 5.997,
+      "text": "But it's only available in the Enterprise, Education and IoT Enterprise editions."
+    },
+    {
+      "id": "S44",
+      "start": 448.701,
+      "speech_end": 457.941,
+      "end": 460.941,
+      "dur": 12.24,
+      "text": "And the older registry mechanism is still part of Windows. Microsoft just never turned it into a normal desktop setting for ordinary users."
+    },
+    {
+      "id": "S45",
+      "start": 460.941,
+      "speech_end": 469.551,
+      "end": 472.351,
+      "dur": 11.41,
+      "text": "So why does Windows only seem to have one desktop? Not because it can't have another. Because the desktop is the product."
+    },
+    {
+      "id": "S46",
+      "start": 472.351,
+      "speech_end": 482.488,
+      "end": 483.288,
+      "dur": 10.937,
+      "text": "On Linux, the desktop is a choice. Some distributions ask you to pick one while you're still installing. KDE Plasma, GNOME, Xfce, Cinnamon..."
+    },
+    {
+      "id": "S47",
+      "start": 483.288,
+      "speech_end": 495.258,
+      "end": 496.058,
+      "dur": 12.77,
+      "text": "On Windows, the desktop is what Microsoft shows in every advert, every screenshot and every support page. One desktop means one set of instructions for more than a billion machines."
+    },
+    {
+      "id": "S48",
+      "start": 496.058,
+      "speech_end": 506.088,
+      "end": 508.488,
+      "dur": 12.43,
+      "text": "That's a real advantage. When something breaks, the screen in the help article looks like yours. The cost is that most people never learn there was a choice."
+    },
+    {
+      "id": "S49",
+      "start": 508.488,
+      "speech_end": 517.962,
+      "end": 518.762,
+      "dur": 10.274,
+      "text": "People were swapping the Windows desktop before Windows 95 even existed. They built docks, bare menus, and desktops that looked like nothing else."
+    },
+    {
+      "id": "S50",
+      "start": 518.762,
+      "speech_end": 527.918,
+      "end": 529.318,
+      "dur": 10.556,
+      "text": "Most of those projects are gone. The idea isn't. Under every taskbar you've ever clicked, there's still that one setting, waiting for a different name."
+    },
+    {
+      "id": "S51",
+      "start": 529.318,
+      "speech_end": 534.428,
+      "end": 536.028,
+      "dur": 6.71,
+      "text": "The desktop is just another piece of software. And software can be replaced."
+    },
+    {
+      "id": "S52",
+      "start": 536.028,
+      "speech_end": 547.578,
+      "end": 549.578,
+      "dur": 13.55,
+      "text": "So here's a question for you. If Windows let you pick your desktop while installing, the way some Linux distributions do, would you switch, or keep the one you know? Let me know in the comments."
+    }
+  ]
+}

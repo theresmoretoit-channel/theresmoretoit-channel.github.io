@@ -1,0 +1,681 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Jediná scéna videa, kde je vidět běžný den. Záměrně PO snídani a bez lidí — scénář mluví o tom, co se už nestává, takže obraz ukazuje stopu, ne děj. Pohyb smí, je to atmosférická scéna.",
+      "prompt": "an ordinary kitchen table just after breakfast, an empty cup and a folded newspaper, morning light through a window on a flat grey overcast day, nobody in the room, the chair pushed back as if someone has just left, no text"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Tady se poprvé kreslí páteř celého videa a od téhle scény se UŽ NIKDY NEPOSUNE. Ambrová tečka je ta událost, o kterou jde; značka DNES je místo, kde stojí divák. Výplata je až v S72, kde ze všeho zbude jen ta tečka.",
+      "diagram_generator": "otazka",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ: vodorovná osa v OSA_Y, ambrová tečka UDALOST vlevo (popisek YESTERDAY) a světlá značka DNES vpravo (popisek NOW). Mezi nimi nic."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Obě možnosti jsou čárkované, protože obě jsou hypotézy — plná čára by jedné z nich dala převahu, kterou scénář nedává. Konvence plná/čárkovaná drží celým videem.",
+      "diagram_generator": "otazka",
+      "diagram": "Táž osa. Nad tečkou UDALOST otazník; ztlumeně dvě možnosti: šipka pryč z obrazu („gone?\") a šipka nikam („somewhere?\"). Obě ČÁRKOVANĚ."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Titulní otázka na souřadnicích, na které se video vrátí v S65. Obě scény musí sázet nadpis na TÉŽE pozici, jinak se návrat nepozná.",
+      "diagram_generator": "otazka",
+      "diagram": "Osa s tečkou; nad ní název videa jako otázka: DOES THE PAST STILL EXIST?",
+      "pause": 2.4
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Velikost tu nese tvrzení: scénář říká „we need a much smaller question first\", takže menší otázka je vizuálně menší, ale je uprostřed. Pořadí důležitosti dělá pozice, ne velikost.",
+      "diagram_generator": "otazka",
+      "diagram": "Velká otázka z S04 se zmenší do rohu a doprostřed nastoupí menší: WHAT DOES IT MEAN FOR SOMETHING TO EXIST?"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Fotografie sedí u DNES, ne uprostřed — je to předmět přítomnosti. Tentýž obdélník na týchž souřadnicích se vrací v S52.",
+      "diagram_generator": "stopa",
+      "diagram": "Na ose u značky DNES vyroste světlý obdélník = fotografie. Popisek THE PHOTOGRAPH, pod ním EXISTS NOW."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Dutá tečka = „už se to neděje\". Ambrová výplň se vrátí až tam, kde scénář tvrdí, že se to stalo (S14). Šipka míří OD fotografie K události, protože fotka na událost ukazuje, ne naopak — scéna, ve které něco míří na někoho.",
+      "diagram_generator": "stopa",
+      "diagram": "Od fotografie u DNES vede tenká šipka zpět k tečce UDALOST, která je teď DUTÁ (obrys, ne výplň). Popisek u tečky: THAT MOMENT."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Klíčový snímek první třetiny. Totéž rozvržení se vrací v S25 a S53 — je to vizuální refrén, tak se nesmí překreslit jinak.",
+      "diagram_generator": "stopa",
+      "diagram": "Fotografie vlevo, tečka vpravo, mezi nimi velké ≠. Pod tím THE PHOTOGRAPH IS NOT THE PAST."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "FACT CHECK D1: fosilie se NEKRESLÍ jako odlitek ani otisk. Permineralizace zaplní póry minerálem a část původního hydroxyapatitu v kosti zůstává, takže správná ilustrace je kost prostoupená minerálem, ne kámen ve tvaru kosti. FACT CHECK D2: popel je jemná hromádka BEZ struktury — žádné zuhelnatělé poleno s letokruhy, z dřevěného uhlí se totiž rod určit dá a obraz by tvrdil opak popisku.",
+      "diagram_generator": "stopa",
+      "diagram": "Tři řádky ≠ pod sebou: fosilie ≠ dinosaurus, popel ≠ strom, vzpomínka ≠ včerejšek."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Sesypání je to tvrzení: všechny tři jsou táž věc. Slovo musí přistát přesně na souřadnicích fotografie z S06, jinak se nepozná, že je to totéž místo.",
+      "diagram_generator": "stopa",
+      "diagram": "Tři dvojice z S09 se sesypou do jediného slova TRACE, které sedí u značky DNES."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "FACT CHECK D2 znovu: hromádka je jemný popel bez struktury. Škrt jde přes NÁPIS vodorovnou čarou; křížek by nápis udělal nečitelným a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "stopa",
+      "diagram": "Vlevo plný strom, vpravo malá šedá hromádka popela. Mezi nimi seznam toho, co se ztratilo: WHICH TREE / HOW TALL / THE LIGHT UNDERNEATH — všechny tři vodorovně přeškrtnuté (text_skrtnuty, ne skrt_text)."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Scéna kreslí DATA („most of what happens leaves nothing at all\"), takže se počty spočítají v kódu a zajistí assertem. Poměr musí být jasně menšinový — kdyby vyšel půl na půl, obraz tvrdí opak scénáře.",
+      "diagram_generator": "stopa",
+      "diagram": "Na ose hodně teček (události). Jen tři z nich mají šipku dopředu ke značce DNES. ASSERT na počty: kolik teček a kolik šipek."
+    },
+    {
+      "id": "S13",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S13.png",
+      "note": "Zadání zní „nezapamatovatelné\", a to je pro difuzní model nezvyklý cíl — scéna má být fádní.\nTŘETÍ KOLO. Kolo 1 (seed 1283336306) dalo hvězdnou noc, kolo 2 (seed 771402) soumrak, ve kterém jsou pořád vidět hvězdy. Příčina není v promptu, ale v `sdxl.style`: kotva toho videa obsahuje *„flat grey overcast light OR THE DARK OF A CLEAR NIGHT\"*, takže model má noc povolenou u každé scény a u „obyčejné oblohy\" po ní sáhne sám. Prompt proto musí kotvu přebít: obloha je jmenovaná jako BÍLÁ a zabírá horní polovinu rámu, `daytime` je tam třikrát a `no stars` dvakrát.\nKdyby neuspělo ani tohle, scéna nepatří SDXL — platí pravidlo „když model netrefí funkci dvakrát, patří scéna jinam\".",
+      "prompt": "a bright white featureless overcast sky filling the upper half of the frame, high noon, strong flat daylight, a row of plain suburban rooftops along the bottom edge, pale washed-out colours, daytime, daytime, daytime, no stars, no night sky, no dark sky, nothing remarkable happening, no text",
+      "seed": 2288104
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Ambrová výplň se sem vrací schválně: scénář tvrdí, že se to stalo, jen po tom nic nezbylo. Kdyby tečky zůstaly duté jako v S07, obraz by říkal „nestalo se\" — tedy opak. Nekreslit žádný škrt: znění je „there MAY be no trace\", ne „není\".",
+      "diagram_generator": "stopa",
+      "diagram": "Dvě tečky na ose, obě PLNĚ ambrové. Žádná šipka dopředu. Popisek BOTH REALLY HAPPENED."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Zešednutí, ne škrt. Ztlumení znamená „je to pořád tam, jen se o tom nemluví\", kdežto škrt znamená „neplatí\" — a scénář tady nabízí možnost, ne závěr. Konec prvního tematického bloku.",
+      "diagram_generator": "stopa",
+      "diagram": "Celá osa vlevo od DNES zešedne do pozadí a zbudou jen malé světlé čtverečky stop u DNES. Popisek: MAYBE ONLY THIS IS LEFT.",
+      "pause": 2.6
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S16.png",
+      "note": "Vybráno z kontaktního listu ze tří variant gradu, ne od stolu. BEZ `fit`: snímek má kolem sebe vesmír, takže rozostřená kopie z něj dělá šmouhy jako druhé slunce (táž vada jako u Blue Marble, docs/archiv-a-licence.md) — a hlavně `fit` nechá v obraze vypálený údaj SDO/AIA 171 2025-09-10 15:55:22 UT. Výplň rámu ho ořízne a Slunce je přes celý obraz. Na obrázku nesmí být dopsané číslo vzdálenosti — to patří do diagramu v S17.",
+      "archive": {
+        "provider": "nasa",
+        "query": "solar dynamics observatory",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "FACT CHECK D3: osm minut je stáří světla od fotosféry, ne stáří energie — ta se z jádra prodírá statisíce let. Kdyby šipka začala v jádře, diagram by tvrdil něco, co scénář neříká a co je navíc o pět řádů vedle. ASSERT na 8 min 19 s.",
+      "diagram_generator": "svetlo",
+      "diagram": "Slunce vlevo, Země vpravo, mezi nimi světelný balíček a údaj 8 MIN 19 S. Šipka vychází z POVRCHU Slunce, ne z jádra."
+    },
+    {
+      "id": "S18",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S18.png",
+      "note": "Vybráno z kontaktního listu, ne od stolu. Hubbleovo hluboké pole. BEZ `fit` ze stejného důvodu jako S16 — `fit` nechal kolem čtvercový rám a jednotlivé galaxie byly moc malé. Výplň rámu je čitelná. K obrázku NESMÍ přijít popisek s konkrétní vzdáleností: galaxie v hlubokém poli jsou řádově dál než miliarda světelných let a scénář miliardu uvádí jako příklad, ne jako údaj o tomhle snímku.",
+      "archive": {
+        "provider": "nasa",
+        "query": "hubble deep field galaxies",
+        "pick": 0,
+        "grade": {
+          "tint_amount": 6,
+          "saturation": 85
+        }
+      }
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Jeden foton, ne svazek: pointa je, že dorazila ta samá věc, ne její obraz. Škrtnuté nápisy jsou vodorovným škrtem přes text.",
+      "diagram_generator": "svetlo",
+      "diagram": "Galaxie vlevo, oko vpravo, mezi nimi JEDEN foton na dlouhé dráze. Nad dráhou A BILLION YEARS. Vedle ztlumeně přeškrtnuté NOT A PICTURE / NOT A RECORDING."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Celé tvrzení scény je, že jsou to tatáž osa. Dvě samostatné osy vedle sebe by říkaly opak, i kdyby popisky byly správně.",
+      "diagram_generator": "svetlo",
+      "diagram": "Jedna osa popsaná ZÁROVEŇ jako vzdálenost a jako čas — dvě řady popisků nad a pod toutéž čarou."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Čísla jsou dopočítaná ve fact checku a v kódu se spočítají znovu, ne opíšou. Zeď musí být vizuálně jasně dál — poměr je 8×, takže se to na obraze pozná.",
+      "diagram_generator": "svetlo",
+      "diagram": "Řez místností: divák, obrazovka 0,5 m (1,7 ns), vzdálená zeď 4 m (13,3 ns). ASSERT na obě čísla z c = 299 792 458 m/s."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Pozor na pořadí scén: tahle pracuje s KAŽDODENNÍM pojmem přítomnosti, který video teprve v S29 podkope. Není to spor, je to stavba — ale scény se kvůli tomu nesmí přehodit.",
+      "diagram_generator": "svetlo",
+      "diagram": "Na ose je VŠECHNO, co divák kdy viděl, vlevo od značky DNES. Vpravo od DNES prázdno. Popisek YOU HAVE NEVER SEEN THE PRESENT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S23",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S23.png",
+      "note": "Nadechnutí po dvou hustých diagramech. Jediný teplý bod drží akcent videa, ale nic netvrdí — je to atmosféra, ne údaj.",
+      "prompt": "a clear night sky dense with stars above a dark empty landscape, cold pale starlight, no moon, a single faint warm point among the cold ones, no text"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Čtvereček musí být TENTÝŽ tvar jako stopa z S10 a S15. Tím obraz sám řekne, že světlo z galaxie je stopa jako fotografie, aniž by to musel říct popisek.",
+      "diagram_generator": "svetlo",
+      "diagram": "Světlo z S19 dorazí ke značce DNES a stane se z něj malý světlý čtvereček — táž značka jako stopa v S15. Popisek A SIGNAL IN THE PRESENT."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Refrén. Souřadnice se přebírají z téže funkce v _kit.py jako S08 — kdyby se překreslily ručně a posunuly, návrat se nepozná a scéna vypadá jako nová.",
+      "diagram_generator": "svetlo",
+      "diagram": "Rozvržení z S08 BEZE ZMĚNY: vlevo světlo, vpravo tečka UDALOST, mezi nimi ≠. Pod tím INFORMATION ABOUT THE PAST IS NOT THE PAST.",
+      "pause": 2.6
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Čárkovaně od začátku: scénář tu svislici zavádí jen proto, aby ji vzápětí zpochybnil. Plná čára by tvrdila, že existuje.",
+      "diagram_generator": "ted",
+      "diagram": "Osa DNES se protáhne do svislé čáry přes celý obraz — „tady a teď v celém vesmíru\" — a ta čára je ČÁRKOVANÁ s otazníkem."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Planeta je obecná, ne konkrétní — scénář žádnou nejmenuje. Keplerovy planety v téhle vzdálenosti existují (fact check B), takže to není smyšlený příklad, ale obraz nemá předstírat portrét konkrétního tělesa.",
+      "diagram_generator": "ted",
+      "diagram": "Vlevo Země, vpravo planeta, mezi nimi 1 000 LIGHT YEARS. Nad planetou otazník."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "POZOR na nejčastější chybu populárních výkladů: prohodit se dá pořadí jen u MIMOCHODNĚ oddělených událostí, u kauzálně spojených je pořadí invariantní. Kresba proto nesmí naznačit světelný kužel mezi A a B ani šipku od A k B.",
+      "diagram_generator": "ted",
+      "diagram": "Dvě mimochodně oddělené události A a B. Skrz ně vedou DVĚ různě skloněné čáry současnosti, každá v jiné barvě pozorovatele. U obou popisek NEITHER IS WRONG."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Ani jedna nesmí být ambrová. Ambrová znamená „o tomhle je řeč\", ale kdyby padla na jednu z těch čar, obraz by ji zvolil za tu pravou — tedy přesně to, co scénář popírá.",
+      "diagram_generator": "ted",
+      "diagram": "Z jednoho bodu na ose vyjde vějíř několika různě skloněných čar současnosti. Žádná není zvýrazněná."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Nekreslit rozmazanou ani přerušovanou hranici. Chybějící hranice je tvrzení; rozmazaná by říkala „je neostrá\", což je něco jiného.",
+      "diagram_generator": "ted",
+      "diagram": "Osa z S02, ale dělicí čára mezi minulostí a přítomností CHYBÍ — je tam mezera a otazník. Popisek WHAT SEPARATES THEM?",
+      "pause": 2.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Slovo POSSIBLE je v nadpisu schválně a zůstává v obraze po celý blok — pojistka proti tomu, aby se z interpretace stalo fyzikální faktum.",
+      "diagram_generator": "blok",
+      "diagram": "Nadpis ONE POSSIBLE ANSWER a pod ním THE BLOCK UNIVERSE."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Tmavý neznamená neexistující — proto tmavý, ne chybějící. Rozdíl mezi „nevidíš to\" a „není to\" je celý tenhle blok.",
+      "diagram_generator": "blok",
+      "diagram": "Filmový pás, z něhož je osvětlené JEDNO okénko; zbytek pásu tmavý. Popisky BEGINNING / MIDDLE / END."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Musí to být doslova tentýž pás na týchž souřadnicích jako S32, jen jinak nasvícený. Nový pás by z toho udělal dva různé předměty.",
+      "diagram_generator": "blok",
+      "diagram": "Týž pás, celý osvětlený. Popisek THE WHOLE STRIP IS THERE."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Páteř se tu nemění, jen tloustne. Tečka UDALOST zůstává na svých souřadnicích uvnitř bloku.",
+      "diagram_generator": "blok",
+      "diagram": "Osa z S02 se rozšíří do vodorovného bloku — z čáry je pás s výškou. Popisek ONE FOUR-DIMENSIONAL STRUCTURE."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Stejná sytost všech tří je to tvrzení. A šipka „pohybu časem\" tam nesmí být vůbec — scénář výslovně říká „nothing has to move through it\".",
+      "diagram_generator": "blok",
+      "diagram": "Blok rozdělený na tři pásma PAST / PRESENT / FUTURE, všechna stejně plná. Žádná šipka pohybu."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "První výplata páteře: tečka, která byla v S07 dutá, je zase plná — a je na témž místě jako v S02. Tím obraz řekne „nikam se nepohnula\" bez popisku.",
+      "diagram_generator": "blok",
+      "diagram": "V bloku svítí ambrová tečka UDALOST na svých původních souřadnicích. Popisek YOUR CHILDHOOD IS STILL A PART OF IT."
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S37.png",
+      "note": "Jediná scéna videa, která má být nepříjemná. Postava zezadu, ne obličej — scéna mluví o „tomorrow's version of you\" a konkrétní tvář by z toho udělala cizího člověka. DRUHÉ KOLO: první pokus (seed 1620535020) byl technicky pěkný, ale BEZ POSTAVY a ve světlé modrošedé — chodba sama říká „něco dál už je\", ale ne „ten někdo jsi ty\". Prompt teď postavu jmenuje jako první a přitvrzuje chlad.",
+      "prompt": "a lone figure seen from behind in silhouette standing at the near end of a long corridor of identical doorways receding into cold blue shadow, one distant doorway faintly lit, flat grey light, deep indigo walls, unsettling stillness, no text",
+      "seed": 440915
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Nejdůležitější pojistka scénáře a fact check ji doložil o SEP. Čárkovaný blok = hypotéza; od téhle scény dál se blokový vesmír NIKDY nekreslí plnou čarou.",
+      "diagram_generator": "blok",
+      "diagram": "Celý blok překreslený ČÁRKOVANĚ. Vedle dva řádky: RELATIVITY MAKES IT ATTRACTIVE (plně) / RELATIVITY DOES NOT PROVE IT (plně).",
+      "pause": 2.8
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Stejná velikost od začátku. Velikost a pořadí samy nesou důležitost, takže kdyby byl jeden větší, video by si vybralo dřív, než tři pozice vůbec vyloží.",
+      "diagram_generator": "pozice",
+      "diagram": "Tři prázdné rámečky vedle sebe, stejně velké."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Prázdné, ne ztlumené — presentismus tvrdí, že minulost neexistuje, ne že se o ní nemluví. Tady je rozdíl ztlumení/prázdno věcný.",
+      "diagram_generator": "pozice",
+      "diagram": "První rámeček: PRESENTISM. Pás s osou, plný jen TENKÝ PROUŽEK u DNES; minulost i budoucnost prázdné."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Otázka je opravená formulace z 0.2 a je vůči presentismu férová: neptá se, který pozorovatel má pravdu, ale co ten pojem vlastně je. Obraz to musí unést — žádný z proužků nesmí být zvýrazněný.",
+      "diagram_generator": "pozice",
+      "diagram": "Týž proužek nakreslený v několika různých sklonech přes sebe. Otázka WHAT EXACTLY IS THE PRESENT?"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Tentýž pás na týchž souřadnicích jako S40. Tři pozice se porovnávají jen tehdy, když se liší jedinou věcí — výplní.",
+      "diagram_generator": "pozice",
+      "diagram": "Druhý rámeček: ETERNALISM. Týž pás, plný CELÝ včetně budoucnosti."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Ambrová je tu správně: řez je to, o čem scéna mluví. Šipka je jednosměrná, protože námitka je právě o směru.",
+      "diagram_generator": "pozice",
+      "diagram": "Plný pás, v něm jeden ambrový TENKÝ řez a k němu jednosměrná šipka. Popisek WHY ONLY ONE SLICE, AND ALWAYS THE SAME WAY?"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Drží se rozvržení tří rámečků z S39.",
+      "diagram_generator": "pozice",
+      "diagram": "Třetí rámeček: THE GROWING BLOCK, zatím prázdný."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Šipka růstu je jediný pohyb povolený v celém bloku tří pozic — u rostoucího bloku je růst definiční znak, ne ozdoba.",
+      "diagram_generator": "pozice",
+      "diagram": "Pás plný od začátku po DNES, za DNES prázdno. Malá šipka růstu doprava."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Úmyslně stejný vizuální prostředek jako S41: SEP potvrzuje, že rostoucí blok naráží na TÝŽ problém jako presentismus. Kdyby se to nakreslilo jinak, divák by nepoznal, že je to táž námitka.",
+      "diagram_generator": "pozice",
+      "diagram": "Hrana pásu nakreslená v několika sklonech, jako proužek v S41. Popisek WHERE IS THE EDGE?"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Nic se neškrtá a nic není ambrové. Scénář říká „it did not settle the argument\" — jakékoli zvýraznění by z fact-checkem doloženého sporu udělalo verdikt.",
+      "diagram_generator": "pozice",
+      "diagram": "Tři rámečky vedle sebe, všechny tři vyplněné, ANI JEDEN přeškrtnutý."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Prázdnota druhého sloupce je tvrzení a je doložená: obě hesla SEP končí sporem, ne verdiktem.",
+      "diagram_generator": "pozice",
+      "diagram": "Dva sloupce: WHAT PHYSICS SETTLES (no universal now) a WHAT IT DOES NOT (what „exist\" means). Druhý sloupec je viditelně prázdnější.",
+      "pause": 2.8
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Návrat na páteř po dvou abstraktních blocích. Tečka je na týchž souřadnicích jako v S02 — bez toho se návrat nepozná.",
+      "diagram_generator": "existence",
+      "diagram": "Zpátky osa z S02, ambrová tečka UDALOST, popisek YESTERDAY'S BREAKFAST."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Čtyři řádky, žádná odpověď. Zaškrtnutí ani křížek se sem nekreslí — přijdou až v S51, a tam ne jako křížek.",
+      "diagram_generator": "existence",
+      "diagram": "Čtyři otázky pod sebou: IS IT SOMEWHERE IN SPACE? / CAN WE GO THERE? / CAN WE MEASURE IT? / CAN ANYTHING ABOUT IT CHANGE?"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "NESMÍ tam být křížky u otázek. Znění 0.2 je „Not in any way we can access\", tedy o dosahu, ne o fyzikálním verdiktu — křížek by scénu vrátil k zamítnuté formulaci „No. To every one of those.\"",
+      "diagram_generator": "existence",
+      "diagram": "Od všech čtyř otázek jedna společná šipka, která míří na malý světlý čtvereček stopy u DNES. Popisek ONLY WHAT WE CAN REACH TODAY."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Doslovný návrat. Souřadnice z téže funkce v _kit.py, ne přepsané.",
+      "diagram_generator": "existence",
+      "diagram": "Obdélník fotografie se vrátí na PŘESNĚ tytéž souřadnice jako v S06."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Scéna, ve které něco míří na někoho — ověřit, že cíl odpovídá podmětu: všechny tři stopy ukazují na událost, ne naopak. Je to obrácení S09, kde mezi nimi stálo ≠; tady ≠ platí dál, ale přidává se šipka.",
+      "diagram_generator": "existence",
+      "diagram": "Rozvržení tří řádků z S09, ale tentokrát ze všech tří vedou šipky k JEDNÉ ambrové tečce UDALOST. Popisek THEY ALL POINT AT SOMETHING THAT HAPPENED.",
+      "pause": 2.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Slepené, ne vedle sebe — scénář říká „we normally keep glued together\". Rozdělení přijde až v S63 a tam musí být vidět, že je to totéž dvojslovo.",
+      "diagram_generator": "evidence",
+      "diagram": "Jeden rámeček, ve kterém jsou slepené dva nápisy EXISTS a EVIDENCE, a mezi nimi se rýsuje svislá dělicí čára."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Čtyři stopy odpovídají čtyřem řádkům scénáře v S56, takže se tady musí zavést všechny čtyři — jinak by v S56 zmizelo něco, co divák nikdy neviděl.",
+      "diagram_generator": "evidence",
+      "diagram": "Značka DNES obklopená čtyřmi stopami: fotografie, dokument, hlava se vzpomínkou, atom. Zatím všechny svítí."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Zhasnutí, ne škrt: stopy zmizely, ne že by byly nepravdivé. Škrt by tvrdil, že fotografie lhala.",
+      "diagram_generator": "evidence",
+      "diagram": "Tytéž čtyři stopy, všechny ZHASNUTÉ (obrys bez výplně). Osa jinak beze změny."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Nejsilnější beat videa. Tečka SVÍTÍ dál — kdyby zhasla, obraz by odpověděl dřív, než se scénář zeptá, a zbytek videa by neměl co dělat.",
+      "diagram_generator": "evidence",
+      "diagram": "Ambrová tečka UDALOST zůstává, kolem ní prázdno a nad ní velký otazník. Popisek WOULD YESTERDAY HAVE STOPPED EXISTING?",
+      "pause": 2.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Obě otázky na týchž souřadnicích za sebou. Nemá to být rozcestník se dvěma větvemi — scénář je klade po sobě, ne vedle sebe.",
+      "diagram_generator": "evidence",
+      "diagram": "Táž scéna, otazník vystřídá druhá možnost: OR DID IT STILL HAPPEN?"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Slovo ASSUME, ne BELIEVE — v 0.2 se to měnilo schválně, protože „believe\" zobecňuje na všechny lidi. Obraz to znění musí držet.",
+      "diagram_generator": "evidence",
+      "diagram": "Nadpis WE ALREADY ASSUME THIS a pod ním prázdné místo pro příklad."
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S60.png",
+      "note": "Rekonstrukce, ne fotografie — takové sídliště se vyfotit nedá, takže je to správně úloha pro model, ne pro archiv. Postavy jsou daleko a bez tváří: scénář nemluví o konkrétních lidech.",
+      "prompt": "a small bronze age settlement of thatched round huts on a hillside in the evening, low firelight between the huts, two distant figures sitting outside one of them, overcast sky, painted reconstruction, no text"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Jediné místo videa, kde se něco škrtá jako neplatné, a je to schválně: scénář tu opravdu jeden závěr zamítá. Škrt přes nápis vodorovnou čarou (text_skrtnuty).",
+      "diagram_generator": "evidence",
+      "diagram": "Dva závěry pod sebou: IT NEVER TOOK PLACE — vodorovně přeškrtnutý; WE CANNOT REACH IT — plný."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Musí to být tentýž rámeček na týchž souřadnicích, jinak to není rozlomení, ale dva nové rámečky.",
+      "diagram_generator": "evidence",
+      "diagram": "Slepený rámeček z S54 se rozlomí na dvě poloviny."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Žádná šipka ani rovnítko — celé tvrzení scény je, že spolu nesouvisí tak, jak si myslíme. Jakákoli spojnice by to popřela.",
+      "diagram_generator": "evidence",
+      "diagram": "Dvě oddělené krabice: WHETHER THE PAST EXISTS a WHETHER THERE IS EVIDENCE. Mezi nimi mezera, žádná šipka."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Rovnítko je ZTLUMENÉ, protože je to náš nevyslovený předpoklad, ne tvrzení videa. Plné rovnítko by video podepsalo pod něco, co právě rozebírá.",
+      "diagram_generator": "evidence",
+      "diagram": "Tytéž dvě krabice, přes ně ztlumeně slepené rovnítko a nad ním nápis MOST OF WHAT FEELS OBVIOUS ASSUMES THIS.",
+      "pause": 2.8
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Doslovný návrat k S04. Odtud dál se obraz postupně vyprazdňuje — od téhle scény se drží HORNÍ polovina rámu volná kvůli závěrečné obrazovce YouTube.",
+      "diagram_generator": "zaver",
+      "diagram": "Titulní otázka z S04 na PŘESNĚ týchž souřadnicích: DOES THE PAST STILL EXIST?"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Tentýž tvar jako S40, jen menší — je to připomenutí, ne nový výklad. Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Pás presentismu z S40, malý, v dolní třetině. Popisek MAYBE NOT."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Střídání na týchž souřadnicích, aby šly porovnat. Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Pás eternalismu z S42 na témž místě jako S66. Popisek MAYBE IT DOES."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Nic ambrového, nic škrtnutého. Horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Oba pásy přes sebe, ani jeden zvýrazněný, mezi nimi žádné rozhodnutí."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Nejklidnější scéna videa. Prázdno je tu obsah, ne nedodělek.",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdný obraz, uprostřed dole WE DON'T KNOW.",
+      "pause": 2.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Začátek výplaty páteře. Horní polovina rámu je od téhle scény do konce úplně prázdná — `zaver_check.py` musí u S70–S73 projít.",
+      "diagram_generator": "zaver",
+      "diagram": "Osa a na ní jen ambrová tečka UDALOST, nic jiného."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Popisek se sází POD osu, ne nad ni — nahoře musí zůstat místo pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž tečka, k ní popisek THEY DO NOT HAVE TO KEEP HAPPENING TO BE REAL."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Celé video se sem sbíhá. Tečka MUSÍ být přesně tam, kde byla v S02 — kdyby se o pixel pohnula, výplata se nepozná a scéna vypadá jen jako hezký konec. DOVĚTEK: divák nahlásil, že za „They happened.\" Emma ještě něco vysloví. Změřeno: za posledním slovem zbývá 440 ms energie na úrovni těla promluvy, což je spolu s S31 nejvíc z celého videa (medián krátkých scén je 280 ms). `cisty_konec` se sám nezapne, protože pauza je 0,8 a práh je 1,5 — vlastní `dovetek` ho zapne. Vybrán měřením ze šesti kandidátů: dá 220 ms a whisper pořád čte „happened.\" celé. Kandidáty, které ořezaly koncové /d/ na „happen.\", nebo u kterých pojistka řez odmítla, jsem zamítl.",
+      "diagram_generator": "zaver",
+      "diagram": "VÝPLATA PÁTEŘE: jediná ambrová tečka na souřadnicích z S02, všechno ostatní pryč. Popisek THEY HAPPENED.",
+      "dovetek": "That is what we can say."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Závěrečná deska. Statická, prázdná nahoře, dlouhá pauza za sebou.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž tečka, pod ní AND PERHAPS THAT IS ENOUGH.",
+      "pause": 3.0
+    }
+  ]
+}

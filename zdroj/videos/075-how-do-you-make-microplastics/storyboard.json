@@ -1,0 +1,814 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA není sdxl a nese myšlenku: odpad, jak ho všichni znají — a prázdné místo pro to, co v tom výčtu chybí.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo koš, do něj padají čtyři pojmenované věci (BOTTLES, PACKAGING, PLASTIC BAGS, BROKEN TOYS). Pravá polovina prázdná, ztlumeně jen tenký otazník. Nadpis WHAT YOU THROW AWAY."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat v témže obraze: druhá cesta vedle koše. Páteř = oter() v _kit.py. Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, koš ztlumený. Vpravo PÁTEŘ poprvé: obecný předmět (EVERYDAY OBJECT) s ohlazenou hranou a ambrovým prachem pod ní. Nadpis JUST BY USING IT?",
+      "pause": 0.4
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Zavedení páteře na pevných souřadnicích (OTER_XY). Původní obrys MUTED plnou tenkou čarou — NE čárkovaně, čárkování v tomhle videu znamená neznámé. Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ uprostřed: předmět, tence MUTED jeho původní obrys, rozdíl ambrově drolí do prachu pod ním. Popisky WORN AWAY → TINY PLASTIC PARTICLES.",
+      "pause": 0.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Beat, mění se jen štítek.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, prach o něco hustší, štítek RIGHT NOW.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Odkaz na 012. Pneumatika sedí na OTER_XY, aby bylo vidět, že je to týž děj. ONE OF, ne THE — viz fact check / v0.3.",
+      "diagram_generator": "uvod",
+      "diagram": "Pneumatika (tvar z 012) s ojetým běhounem a prachem pod ní — v poloze páteře. Nadpis IN ANOTHER VIDEO: TYRES, podtitul ONE OF THE BIGGEST SOURCES."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Změna měřítka: od silnice k ruce.",
+      "diagram_generator": "uvod",
+      "diagram": "Pneumatika zmenšená a ztlumená vlevo, šipka doprava k řadě kuchyňských a koupelnových obrysů (houbička, prkénko, kartáček). Nadpis MUCH CLOSER.",
+      "pause": 1.6
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "houba",
+      "diagram": "Houbička (žlutá pěna + drsná vrstva) na páteři, vedle talíř. Tři slovesa malým písmem: SQUEEZE · SCRUB · RINSE. Nadpis A KITCHEN SPONGE.",
+      "pause": 0.4,
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Páteř s houbičkou.",
+      "diagram_generator": "houba",
+      "diagram": "Táž houbička, hrana ohlazená, MUTED původní obrys, ambrový prach. Nadpis WORN AWAY."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "houba",
+      "diagram": "Karta studie: 2026 · KITCHEN SPONGES · NORMAL USE · MICROPLASTIC RELEASE."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "assert na hranice úseku. Rozsah, žádný bod uprostřed — studie dává rozsah podle typu. Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "houba",
+      "diagram": "Vodorovná stupnice 0–5 g, ambrový úsek 0,7–4,2 g. Popisek PER PERSON PER YEAR, pod ním DEPENDING ON THE SPONGE TYPE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Beat.",
+      "diagram_generator": "houba",
+      "diagram": "Táž stupnice ztlumená, velký nápis …UNTIL YOU REMEMBER."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Šipky míří ve směru toku materiálu. Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "houba",
+      "diagram": "Řetěz zleva doprava: houbička (MADE PARTLY OF PLASTIC) → talíř (YOUR DISHES) → výlevka s odtokem, pod ní ambrové částice. Nadpis DOWN THE DRAIN.",
+      "pause": 0.5
+    },
+    {
+      "id": "S13",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13.png",
+      "note": "KONTAKTNÍ LIST 2026-09-30: pick 1 = bílý blok MagicEraser (CC BY-SA 3.0). Scéna S13 ho ukáže, S14 ho pojmenuje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "melamine foam",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Vlákna jako tahy: konvence videa — tečka = částice, tah = vlákno.",
+      "diagram_generator": "houba",
+      "diagram": "Melaminový blok, z hrany se uvolňují ambrová VLÁKNA (krátké tahy, ne tečky). Velké číslo ≈ 6.5 MILLION FIBRES, pod ním PER GRAM WORN AWAY."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Statická, protože následuje CTA se zděděným obrazem.",
+      "diagram_generator": "houba",
+      "diagram": "Houbička na páteři ve třech velikostech za sebou (nová → ojetá → zbytek), MUTED obrys nové přes všechny. Popisky CLEANING a DISAPPEARING."
+    },
+    {
+      "id": "S15b",
+      "source": "svg",
+      "visual": "images/S15.png",
+      "effect": "static",
+      "cta": true,
+      "note": "Výzva k odběru (docs/cta.md) za prvním číslem a koncem bloku houbiček, ~1:45. Dědí statický obraz S15. Blokový předěl je za ní.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "prkenko",
+      "diagram": "Vlevo ztlumeně výlevka, vpravo linka s prkénkem a jídlem. Šipka zleva doprava. Nadpis FROM THE SINK TO THE COUNTER."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "prkenko",
+      "diagram": "Plastové prkénko shora, nůž nad ním, první škrábance. Nadpis A PLASTIC CUTTING BOARD."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Řez povrchem je nákres, jak něco funguje — zkontrolovat, že částice jsou NAD povrchem u rýh, ne uvnitř materiálu.",
+      "diagram_generator": "prkenko",
+      "diagram": "Řez povrchem prkénka: rýhy po noži, zdrsněný povrch, nad ním ambrové částice. Popisky GROOVES · ROUGHER · PARTICLES."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Obě stejná míra prachu — scénář nesrovnává, kolik které pouští. Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "prkenko",
+      "diagram": "Dvě prkénka vedle sebe: POLYETHYLENE a POLYPROPYLENE, u obou ambrové částice. Nadpis MEASURED DURING CHOPPING.",
+      "pause": 0.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Šipka od prkénka k masu (podmět: particles transferred from boards onto meat).",
+      "diagram_generator": "prkenko",
+      "diagram": "Ojeté prkénko → kus masa, na mase několik ambrových částic. Popisek DETECTED ON MEAT."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "text_skrtnuty: neplatí „jen kosmetické“, ne že rýhy nejsou.",
+      "diagram_generator": "prkenko",
+      "diagram": "Prkénko pokryté stovkami tenkých rýh. Škrtnutý nápis JUST COSMETIC."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Tentýž řez jako S18 (stejné souřadnice).",
+      "diagram_generator": "prkenko",
+      "diagram": "Řez povrchem jako v S18: MUTED plná čára původního povrchu, pod ní skutečný zdrsněný; mezi nimi ambrově vyplněno REMOVED.",
+      "pause": 2.4
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "mycka",
+      "diagram": "Myčka zepředu, zavřená. Nadpis THE DISHWASHER."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "mycka",
+      "diagram": "Myčka otevřená, uvnitř obyčejné nádobí (sklenice, talíře). Popisek CLEANS THE DISHES.",
+      "pause": 0.4,
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "mycka",
+      "diagram": "Týž obraz, kolem čtyři štítky: HOT WATER · DETERGENTS · WATER JETS · MECHANICAL FORCES (poslední ambrově)."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "mycka",
+      "diagram": "Karta studie: CONTAINERS & UTENSILS · SEVERAL COMMON POLYMERS · DOMESTIC DISHWASHERS."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Nano nekreslit jen jako zmenšené kuličky.",
+      "diagram_generator": "mycka",
+      "diagram": "Nádoba, z ní dvě velikosti: MICROPLASTICS (tečky) a NANOPLASTICS (drobné tečky a tenké útržky)."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "mycka",
+      "diagram": "Nádoba: šipka dovnitř TO GET CLEAN, šipka ven s částicemi SHEDS MATERIAL.",
+      "pause": 1.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "pracka",
+      "diagram": "Myčka ztlumeně vlevo, pračka vpravo. Nadpis YOUR WASHING MACHINE."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "pracka",
+      "diagram": "Tři kusy oblečení s vlákny: POLYESTER · NYLON · ACRYLIC."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "pracka",
+      "diagram": "Detail tkaniny (osnova a útek), šipky STRETCHED · BENT · RUBBED."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "pracka",
+      "diagram": "Pračka s odpadní hadicí, v proudu ambrová vlákna. Popisek WITH THE WASTEWATER."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Výšky jsou ilustrativní a obraz to musí říct (SCHEMATIC) — žádná čísla, která ve scénáři nejsou.",
+      "diagram_generator": "pracka",
+      "diagram": "Pět sloupců STUDY 1–5 zcela různé výšky, na ose BEZ čísel, štítek SCHEMATIC. Nadpis VERY DIFFERENT NUMBERS."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "pracka",
+      "diagram": "Čtyři vstupy do jednoho výsledku: FABRIC · MACHINE · WASHING PROGRAMME · HOW FIBRES ARE COUNTED.",
+      "pause": 0.5,
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Konec domácí části.",
+      "diagram_generator": "pracka",
+      "diagram": "Nahoře škrtnutý nápis ONE MAGIC NUMBER, pod ním plnou čarou řetěz SYNTHETIC TEXTILES → MICROFIBRES → WASTEWATER.",
+      "pause": 2.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S36.png",
+      "note": "Předěl dům → zahrada. Původně SDXL (a quiet suburban back garden with an unmown lawn edge along a wooden fence, flat grey overcast sky, no sun, painterly, no people, no text); SDXL dal posečený trávník do pruhů a fotorealismus, nahrazeno obrázkem od uživatele 2026-09-30.",
+      "diagram_generator": "sekacka",
+      "diagram": "Hotový obrázek art/S36.png (ChatGPT, viz art/PUVOD.md) přes celý rám: neposečený pás u dřevěného plotu, zataženo."
+    },
+    {
+      "id": "S37",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S37.png",
+      "note": "KONTAKTNÍ LIST 2026-09-30: pick 1 = hlava sekačky v trávě s červenou strunou (CC BY-SA 4.0) — struna je to, o čem se mluví.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "string trimmer",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "sekacka",
+      "diagram": "Hlava sekačky shora, rotující struna, kolem čtyři cíle: GRASS · WEEDS · STONES · FENCES.",
+      "pause": 0.4,
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "sekacka",
+      "diagram": "Konec struny roztřepený, odlomené kousky ambrově. Popisek WEARS AWAY · BREAKS OFF."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "ESTIMATED, ne measured (fact check v0.2).",
+      "diagram_generator": "sekacka",
+      "diagram": "Karta: TESTED · ESTIMATED: THOUSANDS OF MICROPLASTIC PARTICLES PER MINUTE."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Beat.",
+      "diagram_generator": "sekacka",
+      "diagram": "Táž karta ztlumená, pod ní NANOPLASTICS a otazník."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nano jako útržky i tečky — část má pod 1 µm jen šířku (notes v0.3). Poměr hustot neodpovídá skutečnosti a netvrdí ho; jen „řádově víc“.",
+      "diagram_generator": "sekacka",
+      "diagram": "Dvě pole: THOUSANDS (řídké tečky) vs BILLIONS (hustá mlha drobných teček a tenkých útržků). Pod tím UNDER TEST CONDITIONS."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "sekacka",
+      "diagram": "Velké BILLIONS, pod ním malé stéblo trávy: CUTTING GRASS."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Odkaz na koš z S01, tatáž kresba.",
+      "diagram_generator": "sekacka",
+      "diagram": "Vlevo ztlumený koš (THROWN AWAY), vpravo sekačka s fajfkou USED AS INTENDED, z ní prach.",
+      "pause": 2.4
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "boty",
+      "diagram": "Bota z boku. Nadpis YOUR SHOES."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "boty",
+      "diagram": "Táž bota, štítky LEATHER · FABRIC · RUBBER. Podtitul PROTECTS YOUR FEET.",
+      "pause": 0.5,
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "boty",
+      "diagram": "Podrážka v řezu: POLYURETHANE · SYNTHETIC RUBBER, spodní hrana ohlazená, MUTED původní."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "boty",
+      "diagram": "Řada stop, u každé pár ambrových zrnek. Popisek EVERY STEP."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "boty",
+      "diagram": "Karta: FOOTWEAR ABRASION · MICROPLASTIC PARTICLES · MEASURED."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Konvence tečka/tah se tu vyplatí.",
+      "diagram_generator": "boty",
+      "diagram": "Lupa nad vzorkem ven­kovní půdy: úlomky podrážky (tečky) vedle vláken z oblečení (tahy). Popisky SHOE SOLES · CLOTHING FIBRES."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "boty",
+      "diagram": "Jedna stopa, jediné zrnko. Popisek A TINY WEAR EVENT.",
+      "pause": 0.4,
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Žádné číslo výsledku — scénář ho neříká.",
+      "diagram_generator": "boty",
+      "diagram": "× THOUSANDS OF STEPS × MILLIONS OF PEOPLE × YEARS → hromádka. Popisek A SOURCE OF POLLUTION.",
+      "pause": 2.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "kartacek",
+      "diagram": "Zubní kartáček. Nadpis YOUR TOOTHBRUSH."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "kartacek",
+      "diagram": "Štětiny ohnuté, TWICE A DAY, konce štětin roztřepené."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "kartacek",
+      "diagram": "Karta: 2025 · SIMULATED BRUSHING · COMMERCIAL TOOTHBRUSHES · PARTICLES FROM BRISTLES."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "assert 39. Žádné sloupce ostatních značek — jejich hodnoty ve scénáři nejsou. Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "kartacek",
+      "diagram": "Mřížka 39 ambrových teček. Popisek WORST BRUSH · ~39 PARTICLES A DAY · ON AVERAGE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "kartacek",
+      "diagram": "Táž mřížka ztlumená, přes ni škrtnutý nápis 39 DANGEROUS PARTICLES SWALLOWED, pod ním NOT ESTABLISHED."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "kartacek",
+      "diagram": "Kartáček, pod ním pár částic. Popisek ORDINARY USE.",
+      "pause": 0.4,
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "kartacek",
+      "diagram": "Škrtnuté A FAILURE, pod ním fajfka DOING WHAT IT WAS DESIGNED TO DO.",
+      "pause": 2.6
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "travnik",
+      "diagram": "Malý dům vlevo → velký obdélník hřiště vpravo. Nadpis A MUCH LARGER SCALE."
+    },
+    {
+      "id": "S61",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S61.png",
+      "note": "KONTAKTNÍ LIST 2026-09-30: pick 0 = hřiště s rohovým praporkem a čarami (CC BY-SA 4.0).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "artificial turf football",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "travnik",
+      "diagram": "Stébla jako vlákna (SYNTHETIC FIBRES), nad nimi RUNNING · TURNING · SLIDING · JUMPING."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "travnik",
+      "diagram": "Čtyři stavy jednoho vlákna: BEND · STRETCH · RUB · BREAK AWAY (poslední ambrově)."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "travnik",
+      "diagram": "Karta: ARTIFICIAL TURF · MECHANICAL ACTIVITY → RELEASE AND MOVEMENT OF FIBRES AND OTHER PLASTICS.",
+      "pause": 0.5,
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Čárkovaně = neznámé.",
+      "diagram_generator": "travnik",
+      "diagram": "Hřiště, u něj ČÁRKOVANÝ rámeček ? PER PITCH. Nadpis STILL DEVELOPING."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "travnik",
+      "diagram": "Tři proměnné: TURF SYSTEM · INFILL · WEATHERING, SUNLIGHT, MAINTENANCE.",
+      "pause": 0.5,
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "travnik",
+      "diagram": "Vlákno + podrážka, tření, šipka ven z hranice hřiště: LEAVES THE PITCH.",
+      "pause": 2.8
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Tatáž miniatura páteře u každého předmětu (usad()).",
+      "diagram_generator": "vzorec",
+      "diagram": "Mřížka 4×2, horní řada: SPONGE · CUTTING BOARD · DISHWASHER CONTAINERS · CLOTHES, každý s prachem páteře. Dolní řada prázdná."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "vzorec",
+      "diagram": "Dolní řada doplněna: STRING TRIMMER · SHOE · TOOTHBRUSH · ARTIFICIAL GRASS."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Výplata páteře.",
+      "diagram_generator": "vzorec",
+      "diagram": "Týž obraz, všechny předměty ztlumené, prach pod nimi ambrově. Nadpis ALL WORN.",
+      "pause": 1.4
+    },
+    {
+      "id": "S71",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S71.png",
+      "note": "Klidný předěl před hlavním obratem.",
+      "prompt": "fine pale dust drifting in a soft shaft of light in an empty quiet kitchen, flat grey daylight, painterly documentary, no people, no text"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "vzorec",
+      "diagram": "Řetěz nahoře: THROWN AWAY → BREAKS DOWN → SMALLER → MICROPLASTICS."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Obě cesty končí v témže (částice), liší se začátkem.",
+      "diagram_generator": "vzorec",
+      "diagram": "Horní řetěz ztlumený, pod ním ambrově: PLASTIC → FRICTION → WEAR → PARTICLES."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "vzorec",
+      "diagram": "Škrtnuté nápisy BOTTLE IN A RIVER a BAG ON A BEACH, pod nimi NOT NEEDED."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "vzorec",
+      "diagram": "Páteř s obecným předmětem, fajfka WORKING PERFECTLY, pod ním prach.",
+      "pause": 0.6,
+      "note": "Pause 0.6: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "vzorec",
+      "diagram": "Škrtnuté USED INCORRECTLY."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Hlavní obrat.",
+      "diagram_generator": "vzorec",
+      "diagram": "USED CORRECTLY ambrově, pod ním prach páteře.",
+      "pause": 3.0
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "zaver",
+      "diagram": "Lupa nad částicemi. FOUND ≠ WHAT THEY DO."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Čárkovaná hranice = nevíme, kde je. Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "zaver",
+      "diagram": "Pneumatika z 012 malá vlevo; osa EXPOSURE s čárkovanou hranicí HARMFUL FROM? Nadpis STILL UNKNOWN.",
+      "pause": 0.5
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "zaver",
+      "diagram": "Škrtnuté A TOOTHBRUSH POISONING YOU a A CUTTING BOARD MAKING YOU SICK.",
+      "pause": 2.2
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "zaver",
+      "diagram": "Blok materiálu, popisek EXTREMELY DURABLE.",
+      "pause": 0.4,
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check)."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "zaver",
+      "diagram": "Pět sloves pod sebou: RUB · WASH · CUT · WALK · SPIN, pod nimi ambrově EVERY SINGLE DAY."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo pneumatika (012), vpravo řada předmětů z videa, nad oběma tatáž otázka WHERE DID THE MISSING MATERIAL GO?",
+      "pause": 1.4
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Začátek závěrečné obrazovky — prvky patří nahoru, kresba jen v dolní polovině.",
+      "diagram_generator": "zaver",
+      "diagram": "Řada částic zmenšujících se zleva doprava, poslední jen tence obkroužená. INVISIBLE ≠ GONE. Horní polovina volná.",
+      "pause": 1.6
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Závěrečná obrazovka. Pause 0.6: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: řada předmětů ztlumeně. Horní polovina prázdná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Závěrečná obrazovka, horní polovina pro dlaždici a kolečko. Pause 2.4: za otázkou začíná epilog.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: HOW MUCH ARE WE CREATING — WITHOUT REALISING? Horní polovina prázdná.",
+      "pause": 2.4
+    },
+    {
+      "id": "S86b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86b.png",
+      "note": "Epilog (návrh uživatele po draftu 1). Závěrečná obrazovka, horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: WHAT CAN WE ACTUALLY DO — ABOUT IT? Horní polovina prázdná.",
+      "pause": 1.0
+    },
+    {
+      "id": "S86c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86c.png",
+      "note": "Epilog. Závěrečná obrazovka.",
+      "diagram_generator": "zaver",
+      "diagram": "Totéž co S86b, pod tím ztlumeně A QUESTION FOR ANOTHER VIDEO."
+    }
+  ]
+}

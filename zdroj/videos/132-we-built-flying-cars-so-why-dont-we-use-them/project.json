@@ -1,0 +1,121 @@
+{
+ "title": "We Built Flying Cars. So Why Don't We Use Them?",
+ "slug": "132-we-built-flying-cars-so-why-dont-we-use-them",
+ "languages": [
+  "en",
+  "cs",
+  "sv",
+  "es",
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "pl",
+  "id",
+  "tr",
+  "uk",
+  "vi",
+  "fi"
+ ],
+ "resolution": [
+  1920,
+  1080
+ ],
+ "fps": 25,
+ "voice": {
+  "engine": "kokoro",
+  "name": "bf_emma",
+  "speed": 0.88,
+  "lang": "en-gb"
+ },
+ "timing": {
+  "scene_pause": 0.8,
+  "lead_in": 0.15,
+  "tail": 1.2,
+  "sentence_pause": 0.45,
+  "min_sentence_words": 1
+ },
+ "video": {
+  "transition": "dissolve",
+  "transition_dur": 0.6,
+  "source_resolution": [
+   2560,
+   1440
+  ],
+  "supersample": 3,
+  "supersample_draft": 2,
+  "crf": 18,
+  "preset": "slow"
+ },
+ "sdxl": {
+  "checkpoint": "sd_xl_base_1.0.safetensors",
+  "steps": 30,
+  "cfg": 6.5,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "hires_denoise": 0.45,
+  "style": "painterly editorial illustration, retro-futurist aviation and city life, small aircraft, rooftops and roads seen from above, muted palette of slate blue, concrete grey and warm sand with a single soft amber accent, flat grey overcast light, subtle film grain, restrained detail, calm editorial composition, no text",
+  "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, faces, close-up of people, oversaturated, neon, blurry, low quality, deformed"
+ },
+ "audio": {
+  "target_lufs": -14.0,
+  "music": "audio/music.wav",
+  "music_gain_db": -36,
+  "duck": {
+   "threshold": 0.03,
+   "ratio": 6,
+   "attack": 20,
+   "release": 900
+  },
+  "music_root": 146.83,
+  "music_seed": 132,
+  "music_sections": [
+   [
+    "S01",
+    "S08"
+   ],
+   [
+    "S21",
+    "S26"
+   ],
+   [
+    "S38",
+    "S40"
+   ],
+   [
+    "S51",
+    "S53"
+   ],
+   [
+    "S64",
+    "S65"
+   ],
+   [
+    "S72",
+    "S75"
+   ],
+   [
+    "S84",
+    "S92"
+   ]
+  ]
+ },
+ "subtitles": {
+  "max_chars": 42,
+  "burn_in": false,
+  "lead_in": 0.15,
+  "frazovani": true
+ },
+ "pronounce": {
+  "1947": "nineteen forty-seven",
+  "1949": "nineteen forty-nine",
+  "1956": "nineteen fifty-six",
+  "2022": "twenty twenty-two",
+  "2023": "twenty twenty-three"
+ },
+ "archive_grade": {
+  "saturation": 95,
+  "tint_amount": 0,
+  "vignette": false
+ }
+}

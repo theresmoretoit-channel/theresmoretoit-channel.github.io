@@ -1,0 +1,816 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `cedule()`: americká značka SPEED LIMIT / 65 uprostřed na sloupku, pod ní krajnice silnice v perspektivě.",
+      "note": "První obrazovka nese myšlenku: číslo bez jednotky. Zavádí páteř — značka na pevných souřadnicích, vrací se v S02, S03, S07, S08, S14, S62, S67 a S70 (registr invariantů v `_kit.py`)."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: táž značka, kolem tři čárkované rámečky KILOMETRES PER HOUR? · METRES? · BANANAS?",
+      "note": "Čárkovaně = hádání. Banán jako vtip scénáře, ne ikona navíc.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: značka 65, pod ní ambrově MPH; vpravo ztlumeně ≈ 105 KM/H.",
+      "note": "Čísla ze scénáře, `assert round(65*1.609344)==105`."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Teploměr uprostřed: ambrově 86 °F; vedle čárkovaně přeškrtnuté 86 °C (s vlnkami horka nad silnicí) a ztlumeně ≈ 30 °C.",
+      "note": "Scénář 86 °C výslovně odmítá → přeškrtnutý nápis smí. 30 °C je přepočet (assert)."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři předměty v řadě: váha s nápisem LB, odměrný hrnek CUP + lžíce TBSP, šroubek s měřítkem IN. Ambrová ta, o které je věta.",
+      "note": "Jeden obraz pro celý výčet, ne tři střihy.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Zmenšená americká značka 65 uprostřed, kolem ní v elipse deset ztlumených kulatých značek s KM/H (30–130).",
+      "note": "„Almost every other country“ — kulaté evropské/světové značky bez vlajek. Britskou mph značku sem NEDÁVAT, přijde až v S67."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: značka 65 a pod ní velký ambrový otazník; nadpis WHY NOT JUST SWITCH?",
+      "note": "Hlavní otázka videa (~0:45).",
+      "pause": 1.2
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "paradox",
+      "diagram": "PÁTEŘ: značka 65 ztlumená; přes ni ambrově razítko-štítek ALREADY METRIC? čárkovaně (otázka, rozřeší S09–S11).",
+      "note": "„In a way, it already has.“ Čárkovaně, protože tvrzení teprve přijde.",
+      "pause": 0.5
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "paradox",
+      "diagram": "Dvě pravítka nad sebou ve stejném měřítku: nahoře palec (1 IN), dole milimetry 0–30; ambrová svislá čára spojuje konec palce s 25,4 MM. Nápis 1 INCH = 25.4 MM · EXACTLY · SINCE 1959.",
+      "note": "Data: měřítko spočítané, `assert` délka palce = 25,4 × délka mm. Rok ze scénáře."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "paradox",
+      "diagram": "Rovnoramenné váhy v rovnováze: vlevo 1 LB, vpravo 0.45359237 KG (ambrově, všech osm číslic).",
+      "note": "Vtip scény je délka čísla — musí být celé a čitelné.",
+      "pause": 0.5
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S11.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "prototype metre bar 27 NIST",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "note": "PICK 0 z `--search` 2026-10-11 pod tímto dotazem: US National Length Meter (prototyp metru č. 27), public domain. Kandidát: americký národní prototyp metru č. 27 (NIST, platinoiridiová tyč), podle něj se od 1893 definuje yard. Když Commons nic nevrátí, nahradit svg (pravítko yardu zavěšené na metru). Originál jen 350×300 px, bude měkký — uživatel 2026-10-11: nechat.",
+      "pause": 0.5
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "paradox",
+      "diagram": "Svislé metrové pravítko s desetinnými dílky a na něm ambrový kovbojský klobouk; vlevo THE METRIC SYSTEM, vpravo ambrově AMERICAN UNITS.",
+      "note": "Vtip; klobouk kreslený, ne SDXL."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "paradox",
+      "diagram": "Karta příspěvku (bez loga): kolečko avataru, ambrově “I DON’T USE THE INTERNET.”, dole srdíčko.",
+      "note": "Žádné logo Facebooku — konvence kanálu: platformy jsou jména, ne loga."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "paradox",
+      "diagram": "PÁTEŘ: značka 65 plně; vpravo ambrově SO WHY / STILL 65?",
+      "note": "Přebití otázky (~1:31)."
+    },
+    {
+      "id": "S14b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "cta": true,
+      "pause": 2.4,
+      "note": "CTA podle docs/cta.md — dědí S14 (statický diagram), ~1:37, za první výplatou."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "imperial",
+      "diagram": "Nadpis IMPERIAL v uvozovkách, pod ním šipka na štítek US UNITS — a mezi nimi ≠ ambrově.",
+      "note": "≠, ne přeškrtnutí: imperiální soustava existuje, jen to není ta americká."
+    },
+    {
+      "id": "S16",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S16.png",
+      "prompt": "an 18th century colonial carpenter's workshop near a harbour, wooden rulers, a brass balance scale and iron weights on a workbench, a tall sailing ship visible through the open door, warm afternoon light, no people",
+      "note": "„The colonists brought English units with them.“ Atmosférický předěl do historie; lidé ne (obličeje).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "imperial",
+      "diagram": "Osa: ENGLISH UNITS → INDEPENDENCE, tam se rozvětví: nahoru ambrově 1824 IMPERIAL SYSTEM · BRITAIN, dolů ztlumeně AMERICA · NO CHANGE.",
+      "note": "Rok 1824 ze scénáře. Rozvětvení = „drifted apart“ už tady.",
+      "pause": 0.5
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "imperial",
+      "diagram": "Dva kanystry/džbány vedle sebe, objem úměrný: US GALLON ≈ 3.8 L a UK GALLON ≈ 4.5 L (ambrová ta americká).",
+      "note": "DATA: plocha siluet v poměru 3,785 : 4,546, `assert`. Rozestup popisků podle MEZERA_POPISEK."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "imperial",
+      "diagram": "Rodokmen: ENGLISH UNITS nahoře, dvě větve — IMPERIAL (UK, 1824) vpravo ztlumeně, US CUSTOMARY vlevo ambrově s popiskem OLDER.",
+      "note": "Uzavírá blok.",
+      "pause": 2.2
+    },
+    {
+      "id": "S20",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S20.png",
+      "prompt": "eighteenth century French surveyors on a hilltop measuring the land with a large brass surveying instrument on a wooden tripod, rolling fields and a distant church spire, small figures seen from behind, flat grey overcast sky, wide landscape",
+      "note": "„In the 1790s, France was building something new.“ Měření poledníku (Delambre a Méchain) jako obraz, ne doklad — v textu není. Počasí místo denní doby (dawn/dusk zbarví vše dozlatova)."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "metr",
+      "diagram": "Žebřík desítek: 1 M → 10 → 100 → 1000 M = 1 KM; vedle 1000 G = 1 KG. Každý stupeň ×10.",
+      "note": "Jedna struktura, žádné ikony navíc."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "metr",
+      "diagram": "Neproporcionálním písmem 1250 M nad 1.250 KM, desetinná tečka ambrově a šipka, jak přeskočí tři místa; dole SIMPLE · ELEGANT · BORING.",
+      "note": "ČÁRKY + 0,3 s ticha do mezer (uživatel 2026-10-11 vybral variantu C, „pauzy trochu větší“); recept zvuk/S22.py.",
+      "vycet": 0.3,
+      "pause": 0.6,
+      "zvuk": {
+        "bf_emma": "zvuk/S22.flac"
+      }
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Thomas Jefferson Rembrandt Peale",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "note": "PICK 0 z `--search` 2026-10-11 pod tímto dotazem: Rembrandt Peale, Thomas Jefferson, public domain. Portrét: nikdy přes celý obraz, žádný zoom (zpětná vazba diváků)."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "jefferson",
+      "diagram": "Vlevo ambrově $1 = 100 ¢ · AMERICA, vpravo ztlumeně £1 = 240 d · BRITAIN · DECIMAL IN 1971.",
+      "note": "Rok 1971 ze scénáře; staré libry/šilinky jen jako kontrast, ne doklad navíc. Fact check: britská desetinná měna 15. 2. 1971."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "jefferson",
+      "diagram": "Nadpis v čárkovaném rámečku: “PIRATES STOPPED AMERICA GOING METRIC” — uvozovky a čárkování = historka, ne fakt.",
+      "note": "Konvence: čárkovaně = to, co se tvrdí, ne co je doložené."
+    },
+    {
+      "id": "S26",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S26.png",
+      "prompt": "an eighteenth century merchant sailing ship on a rough grey Caribbean sea being chased by a smaller armed privateer ship with dark sails, heavy storm clouds, high waves, no people visible",
+      "note": "Dombey 1794. Atmosféra, ne rekonstrukce — konkrétní loď neznáme. Seed z ID: na stěžni vlaje cosi jako americká vlajka, přestože negative má `flags`. Dombeyova loď nemusela být americká — rozhodne uživatel / fact check, případně nový seed. Uživatel 2026-10-11: nechat."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "jefferson",
+      "diagram": "Tentýž čárkovaný nadpis jako S25, teď přeškrtnutý `text_skrtnuty()`; pod ním NOT THE REASON ambrově.",
+      "note": "Scénář historku výslovně odmítá → přeškrtnutí smí."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "jefferson",
+      "diagram": "Časová osa: 1866 METRIC LEGAL IN THE US · 1875 TREATY OF THE METRE; nad rokem 1875 sedmnáct teček (signatáři), jedna ambrová = USA.",
+      "note": "DATA: `assert len(tecky)==17`.",
+      "pause": 0.5
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "jefferson",
+      "diagram": "Dva sloupce: NEVER AGAINST METRIC (fajfka) / NEVER STOPPED USING THE OLD (ambrově).",
+      "note": "Konec historie.",
+      "pause": 1.0
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "sit",
+      "diagram": "Síť: uprostřed jednotka INCH, kolem šest uzlů TOOLS · HOUSES · PARTS · ROADS · SCHOOLS · LAWS propojených mezi sebou; nadpis INFRASTRUCTURE.",
+      "note": "Druhý motiv videa: `sit()` na pevných souřadnicích, S30–S32."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "sit",
+      "diagram": "Táž síť; uzly TOOLS, HOUSES, PARTS, SCHOOLS ambrově (o nich je výčet), ROADS a LAWS ztlumeně.",
+      "note": "",
+      "vycet": 0.3
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "sit",
+      "diagram": "Táž síť, všechny hrany ambrově; středová jednotka čárkovaně se šipkou ven „CHANGE ONE…“ a všechny uzly s otazníkem.",
+      "note": "„Changing the whole network at once.“",
+      "pause": 0.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "sit",
+      "diagram": "Postava na silnici, nad úsekem závorka 1 MILE a pod ní ≈ 20 MINUTES ON FOOT.",
+      "note": "„A twenty-minute walk“ — při ~3 mph; fact check."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "sit",
+      "diagram": "Půdorys domu, uvnitř ambrově 167 M² a pod tím velký otazník.",
+      "note": "Data: 1800 sq ft = 167,2 m², `assert`."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "sit",
+      "diagram": "Tentýž půdorys, uvnitř ambrově 1,800 SQ FT, fajfka; 167 m² ztlumeně v rohu.",
+      "note": "Konec bloku setrvačnosti.",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S36.png",
+      "prompt": "a quiet 1970s American suburban street, large station wagons parked in driveways, single storey houses with lawns, telephone poles, late summer, flat light, no people",
+      "note": "„By the 1970s… America finally decided to try.“ Předěl do bloku 1975–1982."
+    },
+    {
+      "id": "S37",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Gerald Ford presidential portrait",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "note": "PICK 1 z `--search` 2026-10-11 pod tímto dotazem: David Hume Kennerly, Gerald Ford presidential portrait (necropnutý), public domain. Portrét s odstupem, jméno vedle; když je fotka podpisu Metric Conversion Act, je lepší než portrét."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "pokus",
+      "diagram": "List zákona METRIC CONVERSION ACT · 1975 a přes něj ambrové razítko VOLUNTARY.",
+      "note": "„And there was a catch.“"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "pokus",
+      "diagram": "Dvě bubliny: GOVERNMENT „Metric is probably a good idea.“ / AMERICA „No, thanks.“ (ambrová).",
+      "note": "Bublina = co kdo řekl (parafráze scénáře, ne citát)."
+    },
+    {
+      "id": "S40",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S40.png",
+      "archive": {
+        "provider": "openverse",
+        "query": "b85e3459-c301-47d9-b984-9802df509f4c",
+        "pick": 0,
+        "grade": {
+          "mask": [
+            [
+              0.163,
+              0.712,
+              0.085,
+              0.065
+            ],
+            [
+              0.367,
+              0.652,
+              0.045,
+              0.05
+            ],
+            [
+              0.5,
+              0.628,
+              0.03,
+              0.03
+            ],
+            [
+              0.578,
+              0.642,
+              0.037,
+              0.035
+            ]
+          ],
+          "mask_blur": 14,
+          "mask_feather": 8,
+          "mask_co": "registrační značky aut"
+        }
+      },
+      "note": "VYBRÁNO Z KONTAKTNÍHO LISTU 2026-10-11 (uživatel: „500 m“ na původní fotce nemluví o kilometrech): ossguy, „I-19 metric: El Paso, Phoenix - 3 km (exits 101A-B), Ajo Way - 1 km“, Flickr, CC BY-SA 2.0 — atribuce povinná. Adresováno ID z Openverse (provider `openverse` v archive.py), ne hledáním. Předchozí Commons „Metric Interstate 19“ (500 m) odložen. SPZ rozostřené maskou (uživatel 2026-10-11).",
+      "pause": 0.6
+    },
+    {
+      "id": "S40b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40b.png",
+      "diagram_generator": "pokus",
+      "diagram": "Skutečná informační tabule z I-19 překreslená kódem: zelená deska METRIC SIGNS / IN USE ON a štít INTERSTATE 19.",
+      "note": "Na přání uživatele (2026-10-11) — doklad, že metrické značky na I-19 stojí dodnes. Předloha Commons „Metric Signs In Use On Interstate 19.svg“ (public domain, ADOT). Krátká samostatná promluva → `naveti` = text S40 (CLAUDE.md, „Krátká samostatná promluva“).",
+      "naveti": "Interstate 19 in Arizona got its distance signs in kilometres."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "pokus",
+      "diagram": "Čtyři štítky MILE · GALLON · POUND · FAHRENHEIT a přes ně čárkované razítko OBSOLETE? — čárkovaně, protože jde o pocit, ne o fakt.",
+      "note": "",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "pokus",
+      "diagram": "Váhy METRIC vs US UNITS, nápis IS METRIC WORSE? a pod ním NO.",
+      "note": "„It isn't.“"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "pokus",
+      "diagram": "Štítek US UNITS s fajfkou a nápisem WORKS WELL ENOUGH ambrově.",
+      "note": "Nejsilnější argument proti přechodu."
+    },
+    {
+      "id": "S44",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Official Portrait of President Reagan 1981",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "note": "PICK 0 z `--search` 2026-10-11 pod tímto dotazem: Michael Evans, Official Portrait of President Reagan 1981, public domain. Portrét; rok 1982 a Metric Board v titulku diagramu ne — stačí hlas.",
+      "pause": 1.4
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "hybrid",
+      "diagram": "Časová osa 1975 → 1982 (deska zrušena, plná čára končí), za ní čárkovaně pokračuje METRIC dál doprava.",
+      "note": "„But not the end of metric.“"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "hybrid",
+      "diagram": "Čtyři ikony: zkumavka SCIENCE · KILOGRAMS, lékovka MEDICINE · MILLIGRAMS, mapa s mřížkou THE ARMY · KILOMETRES “KLICKS”, láhev 2 L DRINKS · LITRES.",
+      "note": "",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "hybrid",
+      "diagram": "Zeměkoule (obrys) uprostřed, kolem ní ambrově MILLIMETRES, KILOGRAMS, LITRES, NEWTONS.",
+      "note": "„Hard to avoid“ — žádné absolutní tvrzení v obraze.",
+      "pause": 0.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "hybrid",
+      "diagram": "Obraz rozdělený svisle: vlevo METRIC (věda, medicína, armáda, průmysl), vpravo US CUSTOMARY (silnice, recepty, počasí, domy).",
+      "note": "Výplata hybridu; vrátí se v S71–S72.",
+      "pause": 0.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "mars",
+      "diagram": "Dvě ozubená kola se špatnou roztečí (METRIC / US), která do sebe nezapadají; ambrová jiskra na styku.",
+      "note": "„Running two systems has a price.“"
+    },
+    {
+      "id": "S50",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S50.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Mars Climate Orbiter",
+        "pick": 0,
+        "grade": {}
+      },
+      "note": "PICK 0 z `--search` 2026-10-11 pod tímto dotazem: Mars Climate Orbiter 2 (NASA/JPL/Corby Waste), public domain. NASA/JPL, umělecká představa — public domain."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "mars",
+      "diagram": "Dva rámečky se šipkou: CONTRACTOR SOFTWARE → „POUND-FORCE SECONDS“ → NASA NAVIGATION (čeká „NEWTON SECONDS“, ambrově ≠).",
+      "note": "Kdo komu poslal co — směr šipky = směr dat. Ověřit ve factchecku (Lockheed Martin, SM_FORCES).",
+      "pause": 0.5
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "mars",
+      "diagram": "Oblouk Marsu dole a čárkovaná atmosféra nad ním; plánovaná dráha čárkovaně obletí planetu nad atmosférou, skutečná ambrově se do ní vnoří; nahoře 1 POUND-FORCE SECOND = 4.45 NEWTON SECONDS.",
+      "note": "Data: faktor 4,448 (`assert`). Výšky drah jen schematicky, bez čísel, dokud je fact check nepotvrdí."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "mars",
+      "diagram": "Časová osa letu LAUNCH → ARRIVAL, nad ní ≈ 9 MONTHS, podél drobné ambrové značky narůstající chyby; dole NOBODY TRACKED IT DOWN.",
+      "note": "Fact check: nesrovnalosti si lidé všimli (od dubna 1999), jen je nedořešili — proto ne „nobody caught it“.",
+      "pause": 0.6
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "diagram_generator": "mars",
+      "diagram": "Dva dokumenty vedle sebe: NASA POLICY · 1991 → METRIC PREFERRED a SPACECRAFT SPECIFICATION → NEWTON SECONDS, oba s ambrovou fajfkou.",
+      "note": "Na návrh uživatele 2026-10-11 (NASA a metrická soustava). Fact check: NMI 8010.2A z 11. 6. 1991 „preferred system“; MIB Phase I: SIS požadovala N·s. NE „NASA používá metriku“ — ISS a část hardwaru jsou v palcích.",
+      "pause": 2.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "mars",
+      "diagram": "Monitor s řádkem IMPULSE = 12.6 a OK (bez jednotek); vedle šedá čárkovaná bublina WHICH UNITS? — otázka, kterou počítač nepoloží.",
+      "note": "Uzavírá blok."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "hloupi",
+      "diagram": "Nápis ARE AMERICANS STUPID? a pod ním ambrově NO.",
+      "note": ""
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "hloupi",
+      "diagram": "Obrys hlavy z profilu (bez obličeje) s čísly 10, 12, 3, 16 uvnitř; vpravo seznam 10 MILLIMETRES IN A CENTIMETRE / 12 INCHES IN A FOOT / 3 FEET IN A YARD / 16 OUNCES IN A POUND.",
+      "note": "Bez obličeje: obrys hlavy z profilu."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "hloupi",
+      "diagram": "Dvě dětské postavy: vlevo 100 CM = 1 M, vpravo 12 IN = 1 FT, obě s fajfkou; mezi nimi čárkovaně letadlo/šipka TRAVEL.",
+      "note": ""
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "hloupi",
+      "diagram": "Čárkovaná (hypotetická) kulatá značka s přeškrtnutým KM a pod ní FURLONGS.",
+      "note": "Celá scéna je „imagine“ → čárkovaně."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "hloupi",
+      "diagram": "Postava uprostřed, kolem čtyři čárkované rámečky MAPS? · SPEEDOMETERS? · RECIPES? · YOUR OWN HEIGHT?",
+      "note": ""
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "hloupi",
+      "diagram": "Nahoře ztlumeně přeškrtnuté WHICH SYSTEM IS BETTER, uprostřed velké ambrové SWITCHING COST.",
+      "note": "Hlavní pointa (~7:30).",
+      "pause": 2.6
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "zeme",
+      "diagram": "Tři čárkované rámečky IRELAND · AUSTRALIA · BRITAIN s otazníky.",
+      "note": "Nová otázka za pointou."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "zeme",
+      "diagram": "PÁTEŘ vlevo ztlumeně (US 65), vpravo irská kulatá značka 100 km/h s ambrovým prstencem; titulek IRELAND · 20 JANUARY 2005, podtitulek AT MIDNIGHT · NEARLY 60,000 SIGNS.",
+      "note": "Fact check: přepnutí o půlnoci, značky se instalovaly dny předem — proto ne „overnight“. RTÉ 20. 1. 2005: „nearly 60,000“. v0.5 (Codex): „kilometres per hour“, a „new signs, put up in advance, took effect at once“."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "zeme",
+      "diagram": "Časová osa Austrálie: 1970s START → 1974 ROAD SIGNS → ABOUT A DECADE: ESSENTIALLY DONE (fajfka).",
+      "note": "„Within about a decade“ — čárkovaný konec, je to přibližné."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "zeme",
+      "diagram": "Velký nápis BRITAIN, nic víc.",
+      "note": "Beat před ironií.",
+      "pause": 1.0
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "zeme",
+      "diagram": "Časová osa Británie: 1965 DECIDES TO GO METRIC → SCHOOLS, MOST PACKAGED FOOD → 1980 METRICATION BOARD ABOLISHED (ambrově), dál jen čárkovaně.",
+      "note": "Rým s S45 (US 1975 → 1982): stejný tvar osy.",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "zeme",
+      "diagram": "Tři položky: PETROL · LITRES (fajfka) / ROAD SIGNS · MILES / BEER · PINTS — rozdělené čárou HALFWAY.",
+      "note": "",
+      "vycet": 0.3,
+      "pause": 0.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "zeme",
+      "diagram": "PÁTEŘ vlevo (US 65), = , vpravo britská kulatá značka 70 bez jednotky a vedle ambrově MPH.",
+      "note": "Britská ironie; britské značky mph nepíšou, jednotka je pod značkou jako popisek."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "zeme",
+      "diagram": "Tabulka čtyř zemí: IRELAND, AUSTRALIA → SET A DATE → FINISHED (ambrová); BRITAIN, USA → VOLUNTARY → MIXTURE.",
+      "note": "Zobecnění ze čtyř případů — fact check (Kanada).",
+      "pause": 0.5
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "zeme",
+      "diagram": "Řádek USA · 1975 → LEFT TO CHOICE (ambrově) → A MIXTURE; pod tím VOLUNTARY FROM THE START.",
+      "note": "",
+      "pause": 0.5
+    },
+    {
+      "id": "S69b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69b.png",
+      "diagram_generator": "zeme",
+      "diagram": "Dvě kulaté značky (irská 100 km/h, australská 100) a pod nimi IRELAND: ONE NIGHT / AUSTRALIA: ABOUT TEN YEARS.",
+      "note": ""
+    },
+    {
+      "id": "S69c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69c.png",
+      "diagram_generator": "zeme",
+      "diagram": "Kalendářní list s prázdným čárkovaným datem a nápisem THE DAY THE MILE ENDS; pod ním ztlumeně NO PRESIDENT HAS SET IT.",
+      "note": "Čárkovaně = neexistuje.",
+      "pause": 2.6
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ: značka 65 a otazník, jako S07.",
+      "note": "Rým s hlavní otázkou."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dva panely z S48 jen v DOLNÍ polovině: METRIC ambrově (LABS, HOSPITALS, THE ARMY, EVERY INCH), US CUSTOMARY ztlumeně.",
+      "note": "Kreslit jen do DOLNÍ poloviny — koncová obrazovka."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "zaver",
+      "diagram": "Tytéž panely, teď ambrově US CUSTOMARY (ROAD SIGNS, RECIPES, THE WEATHER FORECAST), METRIC ztlumeně. Jen dolní polovina.",
+      "note": "Jen dolní polovina.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "zaver",
+      "diagram": "V dolní polovině malý čárkovaný kalendář s otazníkem a ambrově 340 MILLION / PEOPLE KEEPING TO IT.",
+      "note": "Jen dolní polovina.",
+      "pause": 1.0
+    },
+    {
+      "id": "S74",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S74.png",
+      "prompt": "oil painting with visible brush strokes, an empty straight two-lane American highway vanishing into a hot desert plain in midsummer, very low horizon in the lower third, heat haze shimmering above the empty asphalt, a vast pale cloudless sky filling the upper two thirds of the image, distant mesas, deserted, no cars, no vehicles",
+      "note": "„Eighty-six degrees.“ Poslední scéna: horní polovina je obloha — místo pro dlaždici a kolečko odběru. Bez značek (SDXL by psal pseudotext). Kolo 1 (seed z ID, bez „no vehicles“ v popředí) dalo auto uprostřed silnice a oblohu jen v horní čtvrtině — zamítnuto. Kolo 2 (seed 7402, nízký horizont) funkčně OK, ale skoro fotografie (riziko pro „byla použita AI“). Kolo 3 = kolo 2 + „oil painting with visible brush strokes“ ← použito. Kola 1 a 2 ve scratchpadu sezení.",
+      "pause": 3.0,
+      "seed": 7402
+    }
+  ]
+}

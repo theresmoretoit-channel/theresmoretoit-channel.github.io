@@ -1,0 +1,930 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. ZAVEDENÍ. Celé video je o tom, že ten rámeček je nakreslený moc nízko. Výplň se od téhle scény až do S14 NESMÍ pohnout ani o pixel — reveal v S14 stojí na tom, že se změní jen obrys.",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed svislý rámeček s popiskem THE SUBJECT, vyplněný ambrovou skoro až k hornímu okraji, popisek výplně WHAT I KNOW."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Jediná změna proti S01 jsou ty tři štítky — beat, ne nový obraz. Šipky míří DO výplně, protože scéna mluví o tom, čím se plnila.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo tři ztlumené štítky VIDEOS, ARTICLES, TRIED IT MYSELF, od každého tenká šipka do ambrové výplně. Sloupec beze změny."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Výplň je u stropu — obraz tvrdí totéž co věta. Nápis je v uvozovkách jako replika, ne jako tvrzení videa.",
+      "diagram_generator": "uvod",
+      "diagram": "Ambrová výplň dosahuje horního okraje rámečku, nad ním nápis I GET IT."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Konvence kanálu: plná čára = doloženo, čárkovaná = domněnka. Tady se poprvé zpochybní, že strop je opravdu strop. Je to beat na jediné změně, přesně podle pravidla 'jeden obraz, ve kterém se mění jediná věc'.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž kompozice, ale horní hrana rámečku je nově ČÁRKOVANÁ. Nic jiného se nemění."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Ústřední otázka videa (0:17). Pole je ZTLUMENÉ a bez popisku záměrně — divák nemá vědět, co v něm je, protože o tom scéna právě mluví. Otazník je legenda, aby to nebyl abstraktní tvar bez významu.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad čárkovanou hranou se objeví velké ztlumené pole s otazníkem uprostřed. Sloupec pod ním beze změny."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Pojmenování. Nadpis přes svgkit.title(), tedy na obvyklém místě kanálu.",
+      "diagram_generator": "uvod",
+      "diagram": "Celá kompozice dostane nadpis THE DUNNING–KRUGER EFFECT."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Populární křivka se ukáže ZTLUMENĚ a NEPŘEŠKRTNUTÁ — škrtá se až v S53, kde to scénář říká. Kdyby se škrtla tady, obraz by tvrdil víc než voiceover. Vrací se v S53 a S56 na týchž souřadnicích.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo ztlumeně hrubá křivka POPULAR INTERNET VERSION (vrchol vlevo, propad, vzestup). Vpravo ambrově náš sloupec. Mezi nimi svislá dělicí čára.",
+      "pause": 2.2
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Kód se kreslí jako proužky, ne jako čitelný text — scéna mluví o 'a few lines of code', ne o konkrétním jazyce. Ambrový proužek je ten, o kterém je řeč.",
+      "diagram_generator": "programovani",
+      "diagram": "Postava vlevo, vpravo pět krátkých vodorovných proužků jako řádky kódu, jeden ambrový."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Dvě věci, dva rámečky. Obě ambrové, protože scéna mluví o obou — ambrová znamená 'o tomhle je řeč', ne 'tohle je dobré'.",
+      "diagram_generator": "programovani",
+      "diagram": "Dva rámečky vedle sebe: VARIABLE a LOOP, oba ambrové."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Návrat rozvržení z S03 na TÝCHŽ souřadnicích, jen s jiným popiskem. Divák má poznat, že je to stejný obraz — proto se nesmí posunout.",
+      "diagram_generator": "programovani",
+      "diagram": "Sloupec se vrací, popisek rámečku je teď PROGRAMMING, ambrová výplň opět u stropu."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Ambrová je u začátečníka, protože o něm scéna mluví. Profesionálové jsou ztlumení — nejsou předmětem věty.",
+      "diagram_generator": "programovani",
+      "diagram": "Vlevo malá postava s ambrovou fajfkou, vpravo tři ztlumené postavy s popiskem PROFESSIONALS, mezi nimi otazník."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Doslovné zopakování beatu z S04, o kapitolu dál. Je to záměr: divák má poznat tvar 'a teď se ukáže, že strop není strop'.",
+      "diagram_generator": "programovani",
+      "diagram": "Táž kompozice jako S10, horní hrana rámečku se mění na čárkovanou."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Tři pojmy, tři rámečky — víc jich scénář po zkrácení nemá. Leží NAD hranou, tedy mimo to, co postava považovala za celý obor.",
+      "diagram_generator": "programovani",
+      "diagram": "Nad čárkovanou hranou vyskočí tři rámečky: DATA STRUCTURES, CONCURRENCY, MEMORY MANAGEMENT."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. VÝPLATA PÁTEŘE a zároveň místo, kde video 'začne platit' (1:07, tedy uvnitř okna 0:50–1:10). Kritické: ambrová výplň se NEPŘEKRESLUJE, jen se změní obrys kolem ní — jinak se nepozná, že se nezměnilo, co člověk umí, nýbrž co ví o rozsahu oboru. assert v generátoru hlídá, že souřadnice výplně jsou shodné s S01.",
+      "diagram_generator": "programovani",
+      "diagram": "REVEAL: obrys rámečku vyroste přes celou výšku obrazu, ambrová výplň zůstane přesně tam, kde byla — teď je to úzký proužek u dna. Prostor nad ním zaplní přibližně čtyřicet ztlumených rámečků bez popisků."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Klidný beat na hotovém obraze. Zvýrazňuje se HRANICE, ne výplň — pointa je o tom, že člověk nezná rozsah, ne o tom, že málo umí.",
+      "diagram_generator": "programovani",
+      "diagram": "Táž kompozice, kolem hranice mezi ambrovou výplní a prázdnem ambrový obrys, popisek THE KEY.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (12 náhledů), ne od stolu. Zvolena PRÁZDNÁ POSLUCHÁRNA Uris Hall — budovy katedry psychologie Cornellu, tedy adresy z té práce. Ostatní nálezy byly exteriéry modernistické budovy, které bez popisku nečte nikdo jako univerzitu; řady prázdných sedadel ano, a scéna se navíc chystá mluvit o studentech a testech. Popisková vrstva ze svgkit pořád chybí, takže snímek musí fungovat sám. Bez zoomu — je to předěl, ne klimax. POZOR: pick NENÍ doklad, pořadí výsledků Commons se mění; dokladem je archive-raw/S16.orig a jeho otisk.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Cornell University Uris Hall",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Scéna mluví o schopnosti hodnotit SAM SEBE, proto bublina (vnitřní), ne šipka zvenčí.",
+      "diagram_generator": "studie",
+      "diagram": "Postava, nad ní myšlenková bublina s posuvníkem HOW WELL DID I DO? a ambrovým jezdcem."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Tři domény přesně podle KD1999 ('humor, grammar, and logic') — viz factcheck.md. Pořadí je jako ve scénáři, ne jako v práci. Scéna dodává kontext před čísly, což je důvod, proč zůstala.",
+      "diagram_generator": "studie",
+      "diagram": "Tři rámečky v řadě: LOGICAL REASONING, GRAMMAR, HUMOUR. Pod nimi šipka dolů a otázka HOW WELL DID YOU DO?"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Kvalitativní tvrzení PŘED čísly. Čísla přijdou v S21–S22 a musí být na týchž dvou pozicích, aby se pozná, že jde o týž obraz.",
+      "diagram_generator": "studie",
+      "diagram": "Dvě postavy: u jedné ambrový výsledek nízko a bublina s vysokým odhadem; obojí zatím bez čísel."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Sloupec se mění na percentilovou škálu. POZOR: osa NESMÍ být prázdná — divák čte prázdné osy jako rozbitý graf (naměřeno u třetího videa). Proto je ambrová značka v obraze od prvního snímku.",
+      "diagram_generator": "studie",
+      "diagram": "Svislá percentilová osa 0–100 na pevných souřadnicích sloupce, na ní zatím jen ambrová značka aktuálního výkonu dole. Nadpis THE NUMBERS."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Dutá značka = odhad, plná ambrová = naměřený výkon. Konvence platí i v S56 a S61.",
+      "diagram_generator": "studie",
+      "diagram": "Na téže ose přibude dutá značka na 62. percentilu, popisek THEY THOUGHT: 62nd PERCENTILE."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Čísla ověřená doslova proti abstraktu KD1999 (12. a 62.) — viz factcheck.md. Dvojšipka je ta mezera, o které je celé video.",
+      "diagram_generator": "studie",
+      "diagram": "Ambrová značka na 12. percentilu se zvýrazní, popisek IN REALITY: 12th. Mezi značkami svislá dvojšipka."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Beat na jediné změně. Popisek pojmenovává mezeru, ne značky — tvrzení scény je o rozdílu.",
+      "diagram_generator": "studie",
+      "diagram": "Mezera dostane popisek WRONG ABOUT HOW WRONG. Zbytek beze změny.",
+      "pause": 2.2
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Vnořenost nese tvrzení: vidět chyby je širší úloha než je dělat. Čárkovaný vnější rámeček, protože to je ta chybějící schopnost.",
+      "diagram_generator": "studie",
+      "diagram": "Dva soustředné rámečky: vnitřní MAKING MISTAKES, vnější SEEING THEM. Vnější je větší a čárkovaný."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Předěl mezi popisem studie a mechanismem. Klidná scéna záměrně — po číslech potřebuje divák nadechnout.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Prázdnější obraz, uprostřed ambrový otazník v kroužku, pod ním A PECULIAR SITUATION."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Dual burden z KD1999. Obě šipky vycházejí z TÉHOŽ zdroje — to je celé tvrzení scény a nesmí být nakreslené jako dva zdroje.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Uprostřed ambrová zásobárna KNOWLEDGE, z ní dvě šipky doprava: horní do rámečku DO THE TASK, dolní do rámečku JUDGE YOUR RESULT."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Jediná změna je velikost. Obě šipky slábnou stejně, protože scénář neříká, že by jedna trpěla víc — obraz nesmí tvrdit víc než věta.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Táž kompozice, zásobárna je výrazně menší a obě šipky tenčí."
+    },
+    {
+      "id": "S28",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S28.png",
+      "note": "Atmosférický předěl před nejtěžší částí videa. SDXL, protože tady nejde o žádný konkrétní předmět ani data — je to nádech. Denní doba se nežádá (CLAUDE.md: dawn/dusk vždycky zezlátne a přebije kotvu stylu), chlad se žádá počasím.",
+      "prompt": "a single closed door in a bare wall of a quiet empty room, plain floor, flat grey overcast daylight from off-frame, nobody present, calm and ordinary, no text"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Fajfka je ambrová, protože scéna mluví o tom přesvědčení — ne proto, že by odpověď byla správná. To je přesně místo, kde by ambrová v druhém významu obrátila smysl celého videa.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Vlevo rámeček A COMPLICATED PROBLEM, šipka doprava do rámečku YOUR ANSWER, u něj velká ambrová fajfka a popisek CERTAIN."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Beat na jediné změně.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Táž kompozice, fajfka se změní na otazník, nadpis HOW CAN YOU TELL?"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Šipky míří VEN z odpovědi — všechny čtyři kontroly jsou vnější. To je tvrzení, které se v S33 zruší.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Z rámečku YOUR ANSWER vedou dvě šipky ven k rámečkům AN EXPERT a REALITY."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Beat, přidávají se jen dva rámečky. Celkem čtyři vnější kontroly, přesně jak je vyjmenovává scénář.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Přibudou další dvě vnější šipky: COUNTEREXAMPLES a MEASUREMENT."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Škrtá se VODOROVNOU čarou přes nápis, ne křížkem — pod křížkem nejde nápis přečíst a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic (naměřeno na ONE ABILITY). Použít text_skrtnuty(), ne skrt_text().",
+      "diagram_generator": "mechanismus",
+      "diagram": "Všechny čtyři vnější rámečky ztlumené a přeškrtnuté vodorovnou čarou přes nápis. Zůstane jediná šipka, která se vrací do YOUR OWN JUDGEMENT."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Smyčka je to tvrzení. Musí být VIDITELNĚ uzavřená, protože v S91 se tatáž smyčka rozetne vnější šipkou — a bez shodného rozvržení se ten callback nepozná.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Kruhová ambrová šipka: KNOWLEDGE → ANSWER → JUDGEMENT → zpět do KNOWLEDGE. Uzavřená smyčka."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Nejsilnější obraz videa. Klíč je ČÁRKOVANÝ A PRÁZDNÝ, protože věta říká 'an answer key it doesn't have' — plný nebo plnou čarou by tvrdil opak.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Zkouškový arch s ambrovou rukou, která ho známkuje. Vedle čárkovaný prázdný rámeček ANSWER KEY.",
+      "pause": 2.8
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Dvě OSY, ne jedna — tvrzení scény je, že to nejsou tytéž veličiny. Kdyby to byla jedna osa, obraz by tvrdil opak.",
+      "diagram_generator": "expert",
+      "diagram": "Dvě samostatné vodorovné osy pod sebou: horní CONFIDENCE, dolní EXPERTISE. Na každé ambrová značka, na jiném místě."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Replika v uvozovkách. Postava vlevo, expert bude vpravo — pozice se drží až do S42.",
+      "diagram_generator": "expert",
+      "diagram": "Vlevo postava BEGINNER s bublinou THIS IS EASY."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Beat, přidává se jen pravá strana. Obě bubliny stejně velké a stejně ambrové — scéna zatím nesoudí, která má pravdu.",
+      "diagram_generator": "expert",
+      "diagram": "Vpravo přibude postava EXPERT s bublinou IT DEPENDS."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Popisek je ztlumený, protože je to to, co scéna VYLUČUJE, ne co tvrdí.",
+      "diagram_generator": "expert",
+      "diagram": "Mezi postavami velký ambrový otazník, pod ním ztlumeně NOT LESS CONFIDENT."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Počet je DATA, takže se v generátoru počítá a jistí assertem — obraz nesmí tvrdit víc ani míň než 'sees more variables'.",
+      "diagram_generator": "expert",
+      "diagram": "U experta se rozsvítí sedm drobných teček s tenkými čarami k jeho hlavě, u začátečníka jedna."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Čistý obraz pro čistou větu.",
+      "diagram_generator": "expert",
+      "diagram": "Vlevo jediný rámeček THE PROBLEM, ambrový."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Rámeček se nesmí posunout — pointa je, že expert vidí TÝŽ problém a k tomu ještě něco. Větve jsou čárkované: jsou to způsoby, jak by to mohlo dopadnout, ne co se stalo.",
+      "diagram_generator": "expert",
+      "diagram": "Týž rámeček na TÝCHŽ souřadnicích, z něj vějíř tenkých čárkovaných větví k drobným ztlumeným rámečkům bez popisků."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Předěl do konkrétního příkladu. Střed obrazu, protože z něj bude v S47–S49 růst strom.",
+      "diagram_generator": "expert",
+      "diagram": "Rámeček A BROKEN COMPUTER uprostřed."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Jedna šipka = jedno řešení. Tlustá a ambrová, protože o ní je řeč.",
+      "diagram_generator": "expert",
+      "diagram": "Z rámečku jediná tlustá ambrová šipka doprava do JUST REINSTALL."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Scénář to řešení NEZESMĚŠŇUJE ('sometimes, that's exactly right'), takže obraz taky ne. Popisek je ztlumený, protože je to výhrada, ne pointa.",
+      "diagram_generator": "expert",
+      "diagram": "U šipky přibude malá ambrová fajfka a ztlumený popisek SOMETIMES."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Otazníky zatím bez textu — plní se v následujících třech scénách. Rozvržení vějíře se od téhle scény nesmí měnit.",
+      "diagram_generator": "expert",
+      "diagram": "Vedle rámečku postava ADMINISTRATOR, z ní vějíř prázdných otazníků."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Beat: jen se doplní text do už existujících větví, nekreslí se nový obraz.",
+      "diagram_generator": "expert",
+      "diagram": "První tři větve dostanou popisky: HARDWARE HEALTHY? FILESYSTEM CORRUPTED? DISK FAILING?"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Beat.",
+      "diagram_generator": "expert",
+      "diagram": "Další tři větve: BACKUP? ACTUALLY SOFTWARE? NETWORK?"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Beat. Tyhle dvě jsou nakreslené o patro níž, protože scénář je klade jako otázky druhého řádu.",
+      "diagram_generator": "expert",
+      "diagram": "Poslední dvě větve, hlouběji: DESTROY EVIDENCE? WHAT CAUSED IT?"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Vedle sebe, protože scéna je srovnává. Vlevo je doslova obraz z S44, vpravo z S49.",
+      "diagram_generator": "expert",
+      "diagram": "Rozdělený obraz: vlevo jediná šipka ONE SOLUTION, vpravo celý strom A DECISION TREE."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Popisek je ZTLUMENÝ a nad stromem, ne v něm — je to dojem diváka, ne vlastnost stromu.",
+      "diagram_generator": "expert",
+      "diagram": "Nad stromem přibude ztlumený popisek LOOKS LIKE UNCERTAINTY.",
+      "pause": 2.2
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Předěl. Tvarově se rýmuje s S25 (týž kroužek, jiný znak), protože obě scény dělají v oblouku totéž.",
+      "diagram_generator": "karikatura",
+      "diagram": "Prázdnější obraz, ambrový vykřičník v kroužku, pod ním AN IMPORTANT CATCH."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Kresba tvrdí víc než scénář, a je to doložené: v KD1999 se horní kvartil hodnotil VÝŠ než dolní (72. proti 68.), takže populární verze je v přímém rozporu s primárními daty (factcheck.md, S53). Čísla jsou DATA, tedy assert v generátoru. Škrt vodorovnou čarou přes nápis, ne křížkem.",
+      "diagram_generator": "karikatura",
+      "diagram": "Vlevo ztlumená populární křivka z S07 na TÝCHŽ souřadnicích, pod ní nápis THE LESS INTELLIGENT YOU ARE, THE MORE CONFIDENT přeškrtnutý vodorovnou čarou. Vpravo dva ambrové sloupečky ze skutečných dat: BOTTOM QUARTILE 68th, TOP QUARTILE 72nd."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Ta poznámka je tam schválně. Studie SKUTEČNĚ našla, že se horní kvartil v žebříčku podceňuje, a je to nejpravděpodobnější komentář pod videem. Ztlumená a malá, protože scénář to nerozvíjí — ale zamlčet to by znamenalo, že obraz tvrdí víc jistoty než doklad.",
+      "diagram_generator": "karikatura",
+      "diagram": "Přibude druhý přeškrtnutý nápis EXPERTS ARE ALWAYS INSECURE. Vedle drobná ztlumená poznámka: TOP QUARTILE DID UNDERESTIMATE THEIR RANK."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Záměrná dvojice s S52 — scénář má ty dvě věty vědomě paralelní ('important catch' / 'another problem') a obraz to má nést taky. Rozestup je 16 s, což je krátké, takže se rýmovat MUSÍ, jinak to vypadá jako omyl.",
+      "diagram_generator": "kritika",
+      "diagram": "Týž kroužek jako v S52, ale s dvojitým vykřičníkem, pod ním ANOTHER PROBLEM."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "KLÍČOVÁ SCÉNA PRO PŘESNOST. Kreslí se graf Z PRÁCE (perceived a actual přes kvartily), NE internetová křivka 'Mount Stupid' — ta je v S07 a S53 a je to jiná věc. Kdyby se tady objevila ta z internetu, video by kritizovalo něco jiného, než o čem mluví. Tvar obou čar odpovídá číslům z factcheck.md.",
+      "diagram_generator": "kritika",
+      "diagram": "SKUTEČNÝ graf z původní práce: vodorovná osa čtyři kvartily, dvě čáry — ambrová PERCEIVED skoro vodorovná kolem 60–70 a ztlumená ACTUAL stoupající po diagonále."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Šipka míří na TVAR, ne na data — námitka se týká toho, jak vzniká obrázek, ne toho, že by čísla byla vymyšlená.",
+      "diagram_generator": "kritika",
+      "diagram": "Pod grafem přibude ambrový štítek STATISTICAL EFFECTS s šipkou nahoru ke tvaru křivek."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Tři jmenované příčiny přesně podle zdrojů (factcheck.md, S57–S58). Třetí je zapsaná vzorcem, protože přesně takhle ji Nuhfer 2017 pojmenovává — a je to ta, kvůli které se scénář ve verzi 0.4 opravoval.",
+      "diagram_generator": "kritika",
+      "diagram": "Tři rámečky pod sebou: REGRESSION TO THE MEAN, ALMOST EVERYONE THINKS THEY'RE ABOVE AVERAGE, (y − x) PLOTTED AGAINST (x)."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Krátký beat před nejsilnějším argumentem sekce. Klidná deska, ne nový obsah.",
+      "diagram_generator": "kritika",
+      "diagram": "Obraz ztmavne až na ambrový nápis THE SURPRISING PART."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Popisek je formulován přesně podle opravy z fact checku: NE 'random data where scores mean nothing', nýbrž data bez zabudovaného efektu. Tečky mají mít slabý vztah, ne žádný — čistý čtvercový mrak by tvrdil silnější verzi, než jde doložit.",
+      "diagram_generator": "kritika",
+      "diagram": "Bodový graf: rozptýlená mračna teček bez jakéhokoli tvaru, popisek SIMULATED DATA — NO EFFECT BUILT IN."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Nejsilnější scéna videa. Musí být v TÉMŽ měřítku a se stejnými osami, jinak srovnání netvrdí nic. Pravý graf se počítá z týchž teček jako S60, ne kreslí od oka — assert na to, že vstupní tečky jsou tatáž sada.",
+      "diagram_generator": "kritika",
+      "diagram": "Vedle sebe dva grafy v témž měřítku: vlevo původní z S56, vpravo tytéž simulované tečky zprůměrované po kvartilech — a vyjde skoro týž tvar."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "NEŠKRTAT. Scénář říká 'needs to be interpreted carefully', ne 'je to špatně' — přeškrtnutý graf by tvrdil, že efekt byl vyvrácen, což je přesně ta chyba, které se video vyhýbá.",
+      "diagram_generator": "kritika",
+      "diagram": "Přes oba grafy ambrový obrys a popisek INTERPRET CAREFULLY. Nic se neškrtá.",
+      "pause": 2.4
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Rovnováha je tvrzení: ani jedna strana nevyhrála. Misky musí být opravdu ve stejné výšce.",
+      "diagram_generator": "kritika",
+      "diagram": "Ambrová váha (misky) v rovnováze, pod ní NOT SETTLED."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Doslovný doklad věty 'responses to those criticisms, and responses to those responses' — řetěz je ověřený a rozepsaný ve factcheck.md. Letopočty v obraze jsou v pořádku, mluvené slovo je nemá.",
+      "diagram_generator": "kritika",
+      "diagram": "Časová osa se šipkami tam i zpět: 1999 → 2002 námitka → 2002 odpověď → 2016 a 2017 → 2020 → 2023 komentář."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Návrat na hlavní kolej. Rozvržení otázky se doslova zopakuje v S73 — to je záměrná ozvěna scénáře a musí být na týchž souřadnicích, jinak se nepozná.",
+      "diagram_generator": "kritika",
+      "diagram": "Obraz se vyprázdní až na velkou otázku HOW DO YOU KNOW YOU'RE RIGHT?",
+      "pause": 2.8
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Přisouzení autorům je v obraze i ve zvuku (scénář má 'Dunning and Kruger's own claim'). Po celé odbočce do kritiky je to návrat k tomu, co se vlastně tvrdilo.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Rámeček s opatrnou formulací: DIFFICULTY EVALUATING YOUR OWN COMPETENCE — ESPECIALLY WITHOUT THE SKILLS TO EVALUATE THE TASK. Nad ním drobně DUNNING & KRUGER."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Ambrová postava je 'kdokoli', ne 'ten hloupý'. Proto je uprostřed mřížky a ničím se nevymyká kromě barvy.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Mřížka mnoha drobných ztlumených postav, jedna ambrová."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Beat na hotovém obraze.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Ambrový vykřičník nad mřížkou, popisek DANGEROUS."
+    },
+    {
+      "id": "S69",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S69.png",
+      "note": "Vstup do nového oboru. SDXL, protože je to nálada, ne konkrétní místo — a scéna nemá co tvrdit daty. Bez lidí, aby divák nedosazoval konkrétní osobu.",
+      "prompt": "a person-sized opening into a very large empty hall seen from the doorway, plain concrete floor and far walls, flat grey overcast light from high windows, nobody present, quiet and vast, no text"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Callback na S14. Sloupec je záměrně MENŠÍ než v S14, protože tady není předmětem scény, jen odkazem.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Sloupec z páteře, malý, s ambrovou výplní u dna, vedle něj popisek EVERY EXPERT STARTED HERE."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Tři ambrové, ne jeden — věta říká 'areas' v množném čísle. Počet je tvrzení, takže assert.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Mřížka rámečků s doménami, tři z nich ambrové a s otazníkem."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Nádech před otázkou. Prázdno je záměr — na obrazovce nemá být nic, co by odvádělo od S73.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Obraz se vyprázdní, zůstane ztlumené AND HERE'S THE REALLY UNCOMFORTABLE QUESTION."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Doslovná ozvěna S65 na TÝCHŽ souřadnicích. Rozdíl je jen v textu — o to jde. Nejsilnější místo videa (6:42).",
+      "diagram_generator": "kdokoli",
+      "diagram": "Táž kompozice jako S65, ale otázka zní HOW DO YOU KNOW YOU'RE NOT DOING IT RIGHT NOW?",
+      "pause": 3.2
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. Divák vidí týž obraz jako v S03 ('I get it'), jen s jiným nápisem. To je ta past, o které scéna mluví.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Sloupec z páteře s ambrovou fajfkou a nápisem I UNDERSTAND THE EFFECT."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Beat na jediné změně. Škrtá se fajfka, ne nápis — nápis platí.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Fajfka se přeškrtne vodorovnou čarou, nápis DOESN'T MAKE YOU IMMUNE."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Postupné rozsvěcování jedné domény za druhou přes tři scény. Mřížka se nesmí přeskládat.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Mřížka domén, ambrová je ECONOMICS."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Beat, jen tři další políčka téže mřížky.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Rozsvítí se MEDICINE, PROGRAMMING, HISTORY."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Závěr výčtu: nakonec svítí všechno. Tím se výčet uzavírá obrazem, ne jen slovem.",
+      "diagram_generator": "kdokoli",
+      "diagram": "Rozsvítí se PHYSICS, POLITICS a nakonec celá mřížka včetně políčka ANYTHING ELSE.",
+      "pause": 2.0
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Třetí kroužek téhož tvaru (S25, S52, S79) — značí obrat v oblouku. Divák to nemusí vědomě poznat, ale rytmus to drží.",
+      "diagram_generator": "realita",
+      "diagram": "Ambrový otazník v kroužku, pod ním WHAT CAN WE DO?"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Zatím NEPŘEŠKRTNUTÝ. Scénář ho hned nezavrhuje ('humility is useful').",
+      "diagram_generator": "realita",
+      "diagram": "Rámeček BE MORE HUMBLE, ambrový."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Osy jsou dvě a kolmé, protože tvrzení scény je, že spolu nesouvisejí. POZOR na past z třetího videa: osy nesmí zůstat prázdné — proto se značka doplní hned v S82, ne později.",
+      "diagram_generator": "realita",
+      "diagram": "Dvě nezávislé osy: vodorovná HUMBLE, svislá RIGHT. Prázdné pole mezi nimi zatím bez značky."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Jedna značka, jasně umístěná. Kvadrant je tvrzení, takže popisek u něj musí být.",
+      "diagram_generator": "realita",
+      "diagram": "Do pole přibude ambrová značka v rohu 'velmi pokorný, ale mimo'."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Šipka přichází ZVENČÍ rámu — to je celý rozdíl proti smyčce z S34 a musí být vidět, že nezačíná uvnitř.",
+      "diagram_generator": "realita",
+      "diagram": "Zvenčí do obrazu vede tlustá ambrová šipka s popiskem FEEDBACK FROM REALITY."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Rámečky visí na vnější šipce, ne na postavě — všechno to jsou vnější kontroly.",
+      "diagram_generator": "realita",
+      "diagram": "Tři rámečky napojené na tu šipku: TEST YOUR ASSUMPTIONS, LOOK FOR COUNTEREXAMPLES, MEASURE THINGS."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Beat.",
+      "diagram_generator": "realita",
+      "diagram": "Přibudou dva: ASK PEOPLE WHO KNOW MORE, PREDICT BEFORE IT HAPPENS."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Doslovný protiobraz S34: tam byla smyčka uzavřená, tady je proražená. Souřadnice smyčky musí sedět s S34, jinak se callback nepozná.",
+      "diagram_generator": "realita",
+      "diagram": "V uzavřeném obrysu z S34 se otevře mezera, kterou vede šipka dovnitř. Popisek MAKE IT POSSIBLE TO FIND OUT.",
+      "pause": 2.0
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Šipka míří OD testů K člověku, ne obráceně — odpověď dává realita, ne on. Tentýž směr drží S88 a S90.",
+      "diagram_generator": "realita",
+      "diagram": "Vlevo postava PROGRAMMER s ambrovým pocitem jistoty, vpravo rámeček TESTS, mezi nimi šipka od testů zpět k programátorovi."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Záměrně shodné rozvržení jako S87 — tři profese, jeden tvar. Opakování je tady tvrzení: je to systém, ne osobní ctnost.",
+      "diagram_generator": "realita",
+      "diagram": "Táž stavba: SCIENTIST a EVIDENCE."
+    },
+    {
+      "id": "S89",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (11 náhledů), ne od stolu. Zvolen DETAIL KONSTRUKCE zespoda (příhradoví nosníci nad pilířem), ne pohlednicový pohled na celý most — scéna mluví o tom, že se to spočítalo a změřilo, takže má být vidět konstrukce, ne silueta. Most je STOJÍCÍ a v provozu: zřícený most by tvrdil opak věty ('I'm pretty sure this bridge will hold' je to, co inženýr NEŘÍKÁ, protože počítá). Public domain, tedy bez atribuční zátěže. Červený suřík po archive_grade sedne do ambrového akcentu videa. Bez zoomu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Forth Bridge Scotland",
+        "pick": 4
+      }
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Ambrový je poslední, protože je to ten, který scénář klade jako pointu ('and build in safety margins').",
+      "diagram_generator": "realita",
+      "diagram": "Čtyři rámečky v řadě: CALCULATE, MEASURE, TEST, SAFETY MARGINS. Poslední ambrový."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Callback na S34 a na S86. Sdílený tvar patří do _kit.py, ne do souseda — import cizího generátoru by znovu vyrobil všechna jeho SVG.",
+      "diagram_generator": "realita",
+      "diagram": "Uzavřená smyčka z S34 na TÝCHŽ souřadnicích, proťatá tlustou vnější šipkou."
+    },
+    {
+      "id": "S92",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S92.png",
+      "note": "Klidný předěl před závěrem. Předmět, na kterém je vidět, že odpověď dala fyzika, ne názor. DRUHÉ KOLO: první prompt žádal 'a simple plumb line' a SDXL nakreslil VODOROVNÝ drát natažený mezi dvěma kamennými zídkami v mlze — tedy plot, ne olovnici. Scéna tím nenesla nic. Druhý pokus popisuje předmět doslova (kovové závaží, napnutá SVISLÁ šňůra, pohled ze strany), protože 'plumb line' je pro model příliš pojmenovaná věc. Seed zapsán natvrdo — samotné --force by dalo tutéž kompozici.",
+      "prompt": "a small pointed metal plumb bob hanging on a taut perfectly vertical string, close to a plain plastered wall, seen from the side, the string straight and upright, soft shadow on the wall, flat grey overcast daylight, nobody present, quiet and matter-of-fact, no text",
+      "pause": 2.2,
+      "seed": 4402
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Deska. Od téhle scény dál se drží pravidlo pro závěrečnou obrazovku — kompozice v horní části obrazu.",
+      "diagram_generator": "zaver",
+      "diagram": "Nadpis THE MOST USEFUL LESSON, pod ním prázdné místo."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Škrtá se karikatura pokory, ne pokora. Proto jen tenhle jeden nápis.",
+      "diagram_generator": "zaver",
+      "diagram": "Nápis MAYBE I'M WRONG ABOUT EVERYTHING přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Pointa videa. Ambrová, protože je to to, o čem se mluví.",
+      "diagram_generator": "zaver",
+      "diagram": "Ambrový nápis HOW WOULD I FIND OUT IF I WERE WRONG?"
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Výška nese tvrzení 'a much stronger form'. Musí být zřetelně nad, ne vedle.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě vodorovné úrovně: dole ztlumeně DOUBT, nad ní ambrově KNOWING HOW YOU'D FIND OUT."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Ztlumená, protože je to ta slabší varianta.",
+      "diagram_generator": "zaver",
+      "diagram": "Bublina I'M PROBABLY RIGHT, ztlumená."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: od téhle scény musí zůstat volný souvislý pruh (spodní třetina) — YouTube tam vkládá dlaždici 0,33 šířky a kolečko 0,16 šířky. Kontroluje zaver_check.py po buildu.",
+      "diagram_generator": "zaver",
+      "diagram": "Ambrová bublina WHAT EVIDENCE WOULD CONVINCE ME I'M WRONG? na místě té předchozí.",
+      "pause": 2.2
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: kompozice v horní části, spodní třetina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Ambrová fajfka u té bubliny, popisek THAT'S ALREADY SOMETHING."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: horní část obrazu. Čárkovaný je ten druhý, protože je to ta neviditelná neznalost — konvence plná/čárkovaná drží celým videem.",
+      "diagram_generator": "zaver",
+      "diagram": "Dva rámečky nad sebou: NOT KNOWING SOMETHING (ztlumený) a NOT KNOWING THAT YOU DON'T KNOW IT (ambrový, čárkovaný).",
+      "pause": 2.6
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "PÁTEŘ: sloupec THE SUBJECT na pevných souřadnicích (_kit.sloupec()), ambrová výplň WHAT I KNOW zdola. VÝPLATA PÁTEŘE. V S01 měl sloupec strop a byl skoro plný; tady nemá strop vůbec. Je to jediné místo, kde se páteř smí posunout — podle pravidla ze storyboard-a-diagramy.md. ZÁVĚREČNÁ OBRAZOVKA: sloupec sedí v levé polovině, pravá polovina zůstává volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Sloupec z páteře naposledy: ambrová výplň u dna, obrys BEZ HORNÍ HRANY, otevřený nahoru. Popisek HOW MUCH THERE IS LEFT TO LEARN."
+    }
+  ]
+}

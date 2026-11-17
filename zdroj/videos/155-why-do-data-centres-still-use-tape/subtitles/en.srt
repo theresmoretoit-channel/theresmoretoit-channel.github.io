@@ -1,0 +1,859 @@
+1
+00:00:00,000 --> 00:00:01,200
+You press play.
+
+2
+00:00:01,680 --> 00:00:04,120
+A cassette starts to squeal,
+and five minutes later,
+
+3
+00:00:04,350 --> 00:00:06,380
+a game appears on the television.
+
+4
+00:00:07,095 --> 00:00:10,615
+In an earlier video,
+we took that sound apart, bit by bit.
+
+5
+00:00:10,915 --> 00:00:13,315
+And it ended with a strange claim:
+
+6
+00:00:13,549 --> 00:00:17,289
+that the world's data centres
+still keep their archives on tape.
+
+7
+00:00:17,933 --> 00:00:21,133
+That sounds like nostalgia. It isn't.
+
+8
+00:00:22,321 --> 00:00:26,081
+In February 2011,
+around forty thousand Gmail users
+
+9
+00:00:26,311 --> 00:00:28,901
+opened their inbox and found it empty.
+
+10
+00:00:29,500 --> 00:00:32,360
+A software update at Google
+had a bug in it.
+
+11
+00:00:32,903 --> 00:00:37,333
+Google keeps several copies of every
+mailbox, in different data centres.
+
+12
+00:00:37,743 --> 00:00:39,463
+The bug reached those too.
+
+13
+00:00:40,062 --> 00:00:41,922
+Every message was recovered.
+
+14
+00:00:42,622 --> 00:00:46,402
+It took hours instead of milliseconds,
+because it came back from tape.
+
+15
+00:00:47,472 --> 00:00:49,112
+And Google isn't unusual.
+
+16
+00:00:50,032 --> 00:00:52,072
+CERN, the particle physics lab,
+
+17
+00:00:52,152 --> 00:00:55,412
+has stored an exabyte of data
+from the Large Hadron Collider.
+
+18
+00:00:56,231 --> 00:00:57,931
+That's a million terabytes.
+
+19
+00:00:58,591 --> 00:01:01,431
+Most of it sits
+on about sixty thousand tapes.
+
+20
+00:01:02,175 --> 00:01:03,675
+So here's the question.
+
+21
+00:01:04,235 --> 00:01:06,935
+We have hard drives, SSDs and the cloud.
+
+22
+00:01:07,713 --> 00:01:11,913
+Why would the people with the most data
+still trust a strip of magnetic tape?
+
+23
+00:01:14,553 --> 00:01:17,073
+Tape is actually older
+than the hard drive.
+
+24
+00:01:17,533 --> 00:01:23,353
+In 1951, the UNIVAC I computer
+stored its data on reels of metal tape.
+
+25
+00:01:23,933 --> 00:01:26,873
+The first hard drive
+came five years later.
+
+26
+00:01:27,581 --> 00:01:30,141
+The tape they use today
+isn't a music cassette.
+
+27
+00:01:30,941 --> 00:01:33,601
+It's called LTO,
+short for Linear Tape-Open.
+
+28
+00:01:34,868 --> 00:01:39,208
+HP, IBM and Seagate
+developed it in the late 1990s,
+
+29
+00:01:39,288 --> 00:01:42,968
+as an open format
+that anyone could build drives for.
+
+30
+00:01:43,433 --> 00:01:47,688
+The first cartridge, in 2000,
+held one hundred gigabytes.
+
+31
+00:01:47,988 --> 00:01:51,828
+The newest generation, LTO-10,
+holds up to forty terabytes.
+
+32
+00:01:52,058 --> 00:01:56,348
+Four hundred times as much,
+in a box of the same size.
+
+33
+00:01:57,246 --> 00:01:59,879
+The box often says one hundred.
+
+34
+00:01:59,966 --> 00:02:03,866
+That number assumes your data
+can be squeezed two and a half times.
+
+35
+00:02:04,146 --> 00:02:08,966
+Photos and video are already compressed,
+so forty is the honest figure.
+
+36
+00:02:09,570 --> 00:02:12,410
+You can hold it in one hand,
+and it holds more than
+
+37
+00:02:12,640 --> 00:02:16,190
+eight hundred million games
+for a forty-eight kilobyte Spectrum.
+
+38
+00:02:16,791 --> 00:02:19,871
+The drive writes four hundred megabytes
+every second.
+
+39
+00:02:20,551 --> 00:02:23,811
+Even so, filling one cartridge
+takes more than a day.
+
+40
+00:02:24,420 --> 00:02:28,060
+A ZX Spectrum loaded
+about fourteen hundred bits a second.
+
+41
+00:02:28,740 --> 00:02:31,220
+This drive writes more than three billion.
+
+42
+00:02:31,720 --> 00:02:33,640
+Over two million times faster.
+
+43
+00:02:36,390 --> 00:02:38,550
+How does all of that fit on tape?
+
+44
+00:02:39,281 --> 00:02:40,521
+First, length.
+
+45
+00:02:41,001 --> 00:02:44,361
+Inside is a single reel
+with more than a kilometre of tape.
+
+46
+00:02:44,989 --> 00:02:48,889
+It's half an inch wide,
+and many times thinner than a human hair.
+
+47
+00:02:49,544 --> 00:02:49,944
+Then, tracks.
+
+48
+00:02:50,174 --> 00:02:53,084
+The drive doesn't write
+one stripe along the tape.
+
+49
+00:02:53,724 --> 00:02:55,224
+It writes more than fifteen thousand.
+
+50
+00:02:56,469 --> 00:02:59,829
+Each one is less than
+a thousandth of a millimetre wide.
+
+51
+00:03:00,490 --> 00:03:04,370
+The head writes thirty-two at once,
+runs to the end of the tape,
+
+52
+00:03:04,450 --> 00:03:07,650
+shifts over by a hair's breadth,
+and comes back the other way.
+
+53
+00:03:08,223 --> 00:03:11,303
+Hundreds of passes, back and forth,
+over the same kilometre.
+
+54
+00:03:12,901 --> 00:03:15,801
+Now, the problem. Tape is flexible.
+
+55
+00:03:16,421 --> 00:03:19,161
+It stretches,
+and it wanders sideways as it moves.
+
+56
+00:03:19,870 --> 00:03:23,910
+At these widths, drifting by a single
+track means hitting the wrong data.
+
+57
+00:03:24,338 --> 00:03:26,798
+So the tape carries its own guide rails.
+
+58
+00:03:27,278 --> 00:03:30,278
+At the factory,
+servo patterns are written onto it
+
+59
+00:03:30,508 --> 00:03:32,638
+before it ever holds a single file.
+
+60
+00:03:33,332 --> 00:03:36,092
+The drive follows those patterns
+the whole time,
+
+61
+00:03:36,172 --> 00:03:38,332
+steering the head to stay on its track.
+
+62
+00:03:39,017 --> 00:03:43,297
+In LTO-10, the head even tilts slightly,
+to make up for the tape
+
+63
+00:03:43,527 --> 00:03:46,057
+shrinking and swelling
+with heat and humidity.
+
+64
+00:03:46,772 --> 00:03:48,532
+The coating changed too.
+
+65
+00:03:49,132 --> 00:03:52,492
+Instead of the iron oxide
+of old cassettes, modern tape uses tiny,
+
+66
+00:03:52,722 --> 00:03:55,752
+carefully shaped particles
+of barium ferrite.
+
+67
+00:03:58,352 --> 00:04:00,092
+All of this sounds fragile.
+
+68
+00:04:00,772 --> 00:04:03,894
+A kilometre of plastic,
+racing past a head.
+
+69
+00:04:03,974 --> 00:04:06,294
+But the drive checks itself as it writes.
+
+70
+00:04:07,234 --> 00:04:11,794
+Just behind the write head sits a read
+head, checking every block a moment later.
+
+71
+00:04:12,454 --> 00:04:16,254
+If it doesn't come back right,
+the drive writes it again further along.
+
+72
+00:04:16,938 --> 00:04:20,438
+On top of that, every block
+carries error-correcting codes,
+
+73
+00:04:20,738 --> 00:04:24,358
+so the drive can rebuild the data
+even when part of it is damaged.
+
+74
+00:04:25,162 --> 00:04:28,042
+Rebuilding data you can't read
+sounds impossible.
+
+75
+00:04:28,742 --> 00:04:30,722
+It deserves a video of its own.
+
+76
+00:04:32,932 --> 00:04:38,352
+The LTO-9 specification allows one
+unreadable bit in every twelve exabytes.
+
+77
+00:04:39,577 --> 00:04:43,637
+That's about twelve times everything
+CERN has stored, for a single error.
+
+78
+00:04:45,997 --> 00:04:48,997
+But the real advantage
+is something tape doesn't do.
+
+79
+00:04:49,577 --> 00:04:51,177
+It doesn't stay connected.
+
+80
+00:04:51,919 --> 00:04:54,759
+For real protection,
+a written cartridge is taken out
+
+81
+00:04:54,989 --> 00:04:57,799
+of the library altogether
+and put on a shelf.
+
+82
+00:04:58,543 --> 00:05:00,403
+No power. No network.
+
+83
+00:05:00,823 --> 00:05:03,923
+Nothing that a bug, or an attacker,
+can reach through a cable.
+
+84
+00:05:04,593 --> 00:05:07,193
+That's what saved Gmail in 2011.
+
+85
+00:05:07,913 --> 00:05:10,093
+The bug reached the copies
+that were online.
+
+86
+00:05:10,793 --> 00:05:12,113
+The tapes weren't.
+
+87
+00:05:12,607 --> 00:05:15,767
+Today, the same idea
+protects against ransomware.
+
+88
+00:05:16,547 --> 00:05:19,147
+Malware can encrypt every disk
+in a building.
+
+89
+00:05:19,831 --> 00:05:22,531
+It can't encrypt
+a cartridge sitting on a shelf.
+
+90
+00:05:25,051 --> 00:05:27,671
+Some cartridges can be written only once.
+
+91
+00:05:28,151 --> 00:05:33,151
+After that, nobody can erase them,
+not even the person who runs the system.
+
+92
+00:05:33,746 --> 00:05:35,946
+And sitting on a shelf costs nothing.
+
+93
+00:05:36,326 --> 00:05:38,286
+Large disk archives often keep
+
+94
+00:05:38,516 --> 00:05:42,226
+thousands of drives spinning,
+using power and making heat.
+
+95
+00:05:42,926 --> 00:05:45,746
+A cartridge on a shelf
+uses no power at all.
+
+96
+00:05:46,305 --> 00:05:50,845
+Makers rate the cartridges for around
+thirty years, if they're stored properly.
+
+97
+00:05:51,678 --> 00:05:53,198
+Tape is also cheap.
+
+98
+00:05:53,898 --> 00:05:57,838
+A thirty-terabyte cartridge costs
+around two hundred and sixty dollars.
+
+99
+00:05:57,918 --> 00:06:00,278
+That's under ten dollars a terabyte.
+
+100
+00:06:00,843 --> 00:06:04,623
+A large new hard drive
+costs around forty dollars a terabyte,
+
+101
+00:06:04,783 --> 00:06:06,683
+more than four times as much.
+
+102
+00:06:07,339 --> 00:06:09,199
+The catch is the drive itself.
+
+103
+00:06:10,139 --> 00:06:13,879
+A new LTO-10 drive costs
+more than twenty thousand dollars.
+
+104
+00:06:13,959 --> 00:06:17,979
+So tape pays off when one drive serves
+thousands of cartridges.
+
+105
+00:06:20,829 --> 00:06:22,989
+So why don't we use tape for everything?
+
+106
+00:06:23,509 --> 00:06:27,189
+Even if we ignore the price,
+tape still has one big weakness.
+
+107
+00:06:27,967 --> 00:06:30,127
+It can't jump straight to your data.
+
+108
+00:06:30,887 --> 00:06:34,947
+A hard drive moves its head to any file
+in a few thousandths of a second.
+
+109
+00:06:35,574 --> 00:06:37,034
+Tape has to travel.
+
+110
+00:06:37,774 --> 00:06:40,634
+If your file is at the far end
+of a kilometre of tape,
+
+111
+00:06:40,714 --> 00:06:43,114
+the drive has to spool all the way there.
+
+112
+00:06:43,651 --> 00:06:47,951
+It's just like rewinding a cassette
+to find the right song, or the right game.
+
+113
+00:06:48,611 --> 00:06:51,051
+Finding a file can take around a minute.
+
+114
+00:06:51,671 --> 00:06:54,251
+Thousands of times slower
+than a hard drive.
+
+115
+00:06:54,823 --> 00:06:57,303
+That rules tape out
+for running a computer,
+
+116
+00:06:57,443 --> 00:07:00,203
+a database, or millions of tiny files.
+
+117
+00:07:00,735 --> 00:07:02,995
+But it's perfect for the opposite job.
+
+118
+00:07:03,575 --> 00:07:06,995
+Huge amounts of data, written once,
+and rarely needed again.
+
+119
+00:07:09,365 --> 00:07:11,705
+The cartridges sit in tape libraries:
+
+120
+00:07:11,965 --> 00:07:15,225
+cabinets the length of a room,
+with thousands of slots inside.
+
+121
+00:07:16,160 --> 00:07:19,160
+A robot runs along a rail,
+picks out the right cartridge,
+
+122
+00:07:19,390 --> 00:07:21,380
+and slides it into a drive.
+
+123
+00:07:22,144 --> 00:07:25,024
+At Lawrence Livermore,
+a laboratory in California,
+
+124
+00:07:25,364 --> 00:07:28,064
+one library has
+nearly twenty thousand slots,
+
+125
+00:07:28,344 --> 00:07:30,724
+and room for about
+three hundred petabytes.
+
+126
+00:07:31,392 --> 00:07:33,052
+That's three hundred million gigabytes.
+
+127
+00:07:34,389 --> 00:07:37,989
+To the software, it all looks like
+one enormous, rather slow disk.
+
+128
+00:07:40,608 --> 00:07:43,208
+For decades, that was the whole story.
+
+129
+00:07:43,648 --> 00:07:45,868
+Tape was the quiet basement
+of the data centre.
+
+130
+00:07:47,085 --> 00:07:50,665
+And then, something changed.
+Artificial intelligence.
+
+131
+00:07:52,391 --> 00:07:57,491
+Training a large AI model takes enormous
+collections of text, images and video.
+
+132
+00:07:58,119 --> 00:08:00,999
+Once it's collected,
+that data is worth keeping.
+
+133
+00:08:01,759 --> 00:08:03,959
+But most of it isn't needed every day.
+
+134
+00:08:04,595 --> 00:08:07,655
+That's exactly the kind of data
+tape was made for.
+
+135
+00:08:08,254 --> 00:08:13,034
+In October 2026, Fujifilm,
+one of the biggest makers of tape,
+
+136
+00:08:13,194 --> 00:08:15,754
+announced it would spend
+about ten billion yen
+
+137
+00:08:15,843 --> 00:08:20,143
+so it could make roughly five times
+as much data tape within three years.
+
+138
+00:08:20,760 --> 00:08:24,020
+The reason it gave?
+The spread of generative AI.
+
+139
+00:08:25,061 --> 00:08:26,221
+The thing we used to wait for
+
+140
+00:08:26,451 --> 00:08:28,801
+in front of the television
+is growing again,
+
+141
+00:08:28,881 --> 00:08:31,341
+because of the newest technology we have.
+
+142
+00:08:32,562 --> 00:08:34,622
+And tape still has room to grow.
+
+143
+00:08:35,282 --> 00:08:37,702
+Its bits are packed roughly
+a hundred times less densely
+
+144
+00:08:37,932 --> 00:08:39,782
+than on the newest hard drives.
+
+145
+00:08:40,553 --> 00:08:44,533
+In 2020, IBM and Fujifilm
+showed a test tape in the lab
+
+146
+00:08:44,763 --> 00:08:48,273
+that could fit five hundred and eighty
+terabytes on a single cartridge.
+
+147
+00:08:48,793 --> 00:08:50,633
+It isn't a product yet.
+
+148
+00:08:50,713 --> 00:08:53,793
+But it shows how far tape can go.
+
+149
+00:08:56,403 --> 00:08:57,863
+There's one catch, though.
+
+150
+00:08:57,943 --> 00:08:59,843
+And it's a strange one.
+
+151
+00:09:00,405 --> 00:09:04,045
+The tape lasts for decades.
+The drives don't.
+
+152
+00:09:04,578 --> 00:09:09,198
+For years, a new LTO drive could still
+handle tapes two generations old.
+
+153
+00:09:09,278 --> 00:09:12,378
+From LTO-8, only one.
+
+154
+00:09:12,632 --> 00:09:15,832
+And an LTO-10 drive
+can't read any of them.
+
+155
+00:09:16,332 --> 00:09:18,352
+Not a single older cartridge.
+
+156
+00:09:19,173 --> 00:09:20,013
+Why break it?
+
+157
+00:09:20,093 --> 00:09:22,073
+Remember the guide rails
+written at the factory?
+
+158
+00:09:22,303 --> 00:09:28,093
+LTO-10 changed their pattern, so the head
+could follow even thinner tracks.
+
+159
+00:09:28,849 --> 00:09:30,969
+Older tapes carry the old pattern,
+
+160
+00:09:31,049 --> 00:09:33,689
+and staying compatible
+would have cost capacity.
+
+161
+00:09:35,199 --> 00:09:38,259
+So what if a drive breaks? Not much.
+
+162
+00:09:38,879 --> 00:09:42,419
+LTO is an open format,
+so any LTO-10 drive,
+
+163
+00:09:42,649 --> 00:09:44,979
+from any maker, reads the same cartridge.
+
+164
+00:09:45,816 --> 00:09:47,936
+And the drives are built for hard work.
+
+165
+00:09:48,716 --> 00:09:52,916
+An LTO-9 drive is rated
+for eighty thousand cartridge loads.
+
+166
+00:09:53,656 --> 00:09:57,396
+In a library, a worn-out drive
+is simply swapped for a new one.
+
+167
+00:09:57,927 --> 00:09:59,787
+Older drives haven't vanished either.
+
+168
+00:10:00,017 --> 00:10:05,377
+LTO-9 drives are still on sale,
+and they read LTO-8.
+
+169
+00:10:05,807 --> 00:10:08,007
+For anything older, there are used drives,
+
+170
+00:10:08,237 --> 00:10:11,147
+and companies that rescue
+old tapes for a living.
+
+171
+00:10:12,301 --> 00:10:14,741
+So archives don't just keep their tapes.
+
+172
+00:10:15,601 --> 00:10:18,561
+Every few years,
+they copy everything onto new ones.
+
+173
+00:10:19,183 --> 00:10:21,343
+So why rate them for thirty years?
+
+174
+00:10:22,003 --> 00:10:24,663
+Because the tape is never
+the reason to move.
+
+175
+00:10:25,263 --> 00:10:27,523
+Archives copy on their own schedule,
+
+176
+00:10:27,603 --> 00:10:31,123
+and if a move runs late,
+the data is still safe on the shelf.
+
+177
+00:10:31,827 --> 00:10:35,207
+The tape can outlive
+every machine that knows how to play it.
+
+178
+00:10:38,317 --> 00:10:40,377
+Which brings us back to that cassette.
+
+179
+00:10:41,157 --> 00:10:44,257
+A strip of tape, a head,
+and patterns of magnetism.
+
+180
+00:10:44,858 --> 00:10:48,278
+More than forty years later,
+the idea hasn't changed.
+
+181
+00:10:48,878 --> 00:10:51,338
+Only the numbers and the technology have.
+
+182
+00:10:52,039 --> 00:10:53,239
+Somewhere right now,
+
+183
+00:10:53,319 --> 00:10:55,579
+a robot is pulling a cartridge
+off a shelf,
+
+184
+00:10:55,659 --> 00:10:58,439
+pushing it into a drive,
+and pressing play.
+
+185
+00:10:59,068 --> 00:11:00,948
+So here's a question for you.
+
+186
+00:11:01,528 --> 00:11:04,408
+If you had a tape drive at home,
+what would you put on tape?
+
+187
+00:11:04,848 --> 00:11:06,098
+Let me know in the comments.

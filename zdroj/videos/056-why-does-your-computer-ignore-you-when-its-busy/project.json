@@ -1,0 +1,131 @@
+{
+  "title": "Why Does Your Computer Ignore You When It's Busy?",
+  "slug": "056-why-does-your-computer-ignore-you-when-its-busy",
+  "kind": "explainer",
+  "channel": "theres-more-to-it",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "muted documentary illustration, deep indigo blue and cold slate, pale bone highlights, a single warm amber accent, flat even night light, no sun, quiet empty interiors and machine rooms, visible ink and brush texture, restrained detail, patient human scale, cinematic composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, user interface, screen content, desktop icons, glowing monitor, watermark, signature, logo, brand, chart, graph, photorealistic, photograph, oversaturated, neon, glossy advertising render, golden hour, warm sunset light, dawn, dusk, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 1009,
+    "music_sections": [
+      [
+        "S01",
+        "S04"
+      ],
+      [
+        "S13",
+        "S19"
+      ],
+      [
+        "S22",
+        "S27"
+      ],
+      [
+        "S30",
+        "S32"
+      ],
+      [
+        "S36",
+        "S41"
+      ],
+      [
+        "S48",
+        "S52"
+      ],
+      [
+        "S56",
+        "S61"
+      ],
+      [
+        "S63",
+        "S69"
+      ],
+      [
+        "S72",
+        "S77"
+      ],
+      [
+        "S84",
+        "S89"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "pronounce": {
+    "1997": "nineteen ninety-seven",
+    "1950s": "nineteen fifties"
+  },
+  "thumbnail": {
+    "source": "thumbnail/9e3df205-c8a4-4a3a-91f0-a910dd99d663.png",
+    "out": "render/thumbnail.jpg",
+    "note": "Fotorealistický náhled dodal uživatel (ChatGPT) podle šablony z docs/thumbnail-styl.md — viz thumbnail/PUVOD.md. Předmět je počítačová myš, CLICK / DID IT HEAR YOU?. Ze tří dodaných konceptů vybrán ten, u kterého předmět POJMENUJE TÉMA: hodiny (C2) neříkají počítač a čekací kolečko (C3) se jako fyzický předmět dá přečíst jako pneumatika — táž vada, kvůli které má Microplastics nejhorší CTR kanálu. Měření o výběru nerozhodlo, všechny tři leží těsně u sebe i u 046. Agent obrázek jen ořízl na přesný poměr 16:9 (1664x936, protože 1670x940 dalo 1279 px na šířku) a zmenšil na 1280x720."
+  }
+}

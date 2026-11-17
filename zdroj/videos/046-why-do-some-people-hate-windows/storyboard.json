@@ -1,0 +1,953 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY a do S95 se nepohne ani o pixel — kreslí ji `_kit.krabice()`, nikdy ručně. Není to sdxl a není to atmosféra: první obrazovka nese myšlenku videa doslova. Ta krabice má VÍKO, a celé video je o tom, kdo ho smí otevřít; divák to ale zjistí až v S65. `docs/storyboard-a-diagramy.md`, kapitola o první scéně.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ. Uprostřed plátna KRABICE (počítač) na pevných souřadnicích, ztlumená, víko zavřené, kontrolka zhasnutá. Pod ní řada drobných postaviček. Nic víc, žádný popisek kromě otázky v titulku."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Číslo se schválně nekreslí. `factcheck.md` říká, že zdroje se liší (1,4 az 1,6 mld.) a scénář proto říká 'more than a billion' — kresba musí mít TUTÉŽ míru jistoty jako věta, jinak tvrdí víc než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž krabice, kontrolka se rozsvítí. Pod ní se řada postaviček rozroste přes celou šířku a spodní okraj se ztratí v ztlumené mřížce — ne spočitatelný dav, ale 'víc než miliarda'. ŽÁDNÉ ČÍSLO v obraze."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Jeden obraz, mění se jediná věc — postup podle tvé připomínky, aby ze 102 scén nebyla slideshow 102 obrázků.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž krabice a dav. Nad krabicí naskočí čtyři drobné ikonky vedle sebe: prohlížeč, přehrávač, dokument, ovladač. Ambrová jen na nich."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Kresba říká 'nikdo na to nemyslí' tím, že krabice zmizí z pozornosti, ne tím, že by ji někdo přeškrtl. Víko splývá schválně — v S53 se vrátí.",
+      "diagram_generator": "uvod",
+      "diagram": "Ikonky zůstávají. Krabice se ZTLUMÍ do pozadí (kontrolka svítí dál) a víko splyne s tělem, takže není vidět, že tam nějaké je."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Bublina je nečitelná schválně: scéna neříká, CO ten člověk vyčítá, to přijde až za deset minut. Kdyby v bublině byl text, obraz by tvrdil víc než věta.",
+      "diagram_generator": "uvod",
+      "diagram": "Z davu se vyčlení JEDNA postavička, ambrová, s bublinou plnou drobných čárek místo textu. Zbytek davu ztlumený."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Třetí nemá štítek, protože scénář neříká, co ten člověk používá — říká, že nemá rád Microsoft. Kdybych jí dal štítek WINDOWS, kresba by tvrdila něco, co ve větě není.",
+      "diagram_generator": "uvod",
+      "diagram": "Z jedné ambrové postavičky jsou tři, každá se svým štítkem: LINUX, MAC, a třetí bez štítku jen s přeškrtnutým srdíčkem."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Konec hooku. Otazník leží PŘESNĚ tam, kde bude v S65 stát otázka 'who decides' — je to první výskyt páteřního místa, aniž by ho divák musel poznat.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři ambrové postavičky, dav za nimi, a mezi ně a krabici se vsadí prázdné místo s otazníkem na pevné ose páteře.",
+      "pause": 2.6
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Předěl. Video tady přestává být úvodem a začíná platit — `CLAUDE.md`, kapitola 'Druhá branka je kolem první minuty'.",
+      "diagram_generator": "uvod",
+      "diagram": "Krabice sama, víko zavřené, ambrová šipka mířící DOVNITŘ. Nic jiného."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "FACT-CHECK PŘENESENÝ DO OBRAZU. `factcheck.md` říká, že věta platí jen se slovem 'some': 32bitové aplikace běží přes WOW64, 16bitové na 64bitových Windows nejdou vůbec a doplnit to nelze. Kdyby v řadě svítilo všech osm, kresba by tvrdila nepravdu, kterou scénář schválně netvrdí. Poměr 5:3 je ilustrativní, ne měřený — proto v obraze NENÍ žádné procento.",
+      "diagram_generator": "uvod",
+      "diagram": "Řez krabicí. V ní řada osmi ikonek starých programů. PĚT z nich svítí (běží), TŘI jsou ztlumené a přeškrtnuté. Nad řadou popisek 'written in the 1990s', pod ní 'SOME of them still run'."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "'Almost nothing else you own' — proto TŘI a proto 'almost': jedna z nich zůstane nepřeškrtnutá a ztlumená, aby obraz nedělal z 'almost' 'nothing'.",
+      "diagram_generator": "uvod",
+      "diagram": "Vedle krabice se objeví tři ztlumené siluety jiných přístrojů z domácnosti, všechny s přeškrtnutou stejnou ikonkou starého programu."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Jeden obraz, dvě čtení. Tohle je celá myšlenka kotvy a je vidět na jediném snímku — nekreslí se dvě scény vedle sebe.",
+      "diagram_generator": "uvod",
+      "diagram": "Zpátky na krabici s osmi programy. Táž kresba dostane druhý popisek, ambrový, na opačné straně: 'a mess'."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Svorka, ne šipka: šipka by tvrdila příčinu jedním směrem, kdežto věta říká, že je to TÁŽ VĚC. `docs/storyboard-a-diagramy.md`: šipka si sama vyrobí příčinu a směr.",
+      "diagram_generator": "uvod",
+      "diagram": "Oba popisky ('greatest strength' a 'a mess') se spojí ambrovou svorkou do jednoho bodu na páteřní ose. Krabice ztlumená.",
+      "pause": 2.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Krátká scéna, jediný úkol je uvolnit plátno. Krabice se NESMÍ posunout ze své osy — jen ztmavne a zmenší se na místě.",
+      "diagram_generator": "uvod",
+      "diagram": "Krabice ztlumená do rohu. Uprostřed prázdno."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Pračka je kreslená kódem, ne z SDXL: je to jednoduchý tvar a v S15 se do ní musí dokreslit zdrojový kód, což difuzní model neudělá. `CLAUDE.md`: 'SDXL negeneruje text'.",
+      "diagram_generator": "uvod",
+      "diagram": "Pračka kreslená kódem: obdélník, kruhové dvířka, tři ovladače. Postupně se rozsvítí zástrčka, pak jeden ovladač, pak dvířka s otáčejícím se prádlem."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Škrtá se VODOROVNOU ČAROU přes nápis, ne křížkem — `docs/storyboard-a-diagramy.md`: pod křížkem nejde text přečíst a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic. Použij `text_skrtnuty()`, ne `skrt_text()` samotné.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž pračka. Nad ni se vysune panel se ztlumenými řádky kódu a přeškrtne se vodorovnou čárou. Pod pračkou ambrová hromádka čistého prádla."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Výplata metafory na jediném snímku: pračka a počítač na týchž souřadnicích. Proto se pračka v S14 kreslila na páteřní osu, ne kamkoli.",
+      "diagram_generator": "uvod",
+      "diagram": "Pračka se ztlumí a na jejím místě se prolne KRABICE zpátky na páteřní osu, kontrolka svítí. Pod ní jediné slovo: WORKS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Tady se víko poprvé ukáže jako samostatný prvek. Zapsáno v hlavičce `_kit.py` jako součást páteře — objevuje se v S01, S04, S17, S53, S56, S57, S65, S81–S83, S100.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Krabice, víko se poprvé zvýrazní ambrovou linkou. Šipka od ambrové postavičky k víku."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "ŽÁDNÉ LETOPOČTY na ose. Scénář říká 'more than forty years' a `factcheck.md` to má jako těsné (Windows 1.01 = 20. 11. 1985, dnes 40 let a 10 měsíců). Konkrétní roky v obraze by udělaly z hedge přesné tvrzení.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Řez krabicí. Odspodu nahoru se naskládá pět vrstev různé výšky, nejstarší dole, každá jiného odstínu ztlumené. Vlevo svislá osa bez letopočtů, jen šipka času."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Popisek se sází `pod_hlavou()`-stylem z výšky vrstvy, ne napevno — `docs/storyboard-a-diagramy.md`, kapitola o rozvržení. Vrstvy mají různou výšku, takže napevno zapsaný odstup by u tenké vrstvy spadl do sousedky.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Táž hromada vrstev. Úplně spodní vrstva se rozsvítí ambrově a dostane popisek MS-DOS. Nad ní se rozsvítí druhá, tenká, s popiskem 'graphical shell'."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Svorka drží VŠECHNY vrstvy, ne jen tu spodní — kompatibilita je omezení celé stavby, ne jednoho patra.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Celá hromada vrstev se sevře do svorky vlevo s jediným ambrovým slovem COMPATIBILITY."
+    },
+    {
+      "id": "S21",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S21.png",
+      "note": "Jedna ze čtyř sdxl scén videa. Atmosféra je tu na místě: scéna říká 'imagine a building', tedy míří na představu, ne na tvrzení, a žádný konkrétní dům to být nemá. POZOR na `dawn`/`dusk` — u dvacátého videa z nich vyšla teplá poušť proti kotvě stylu, proto `flat grey overcast`. Přijímá se PODLE FUNKCE scény, ne podle shody s promptem.\n\nPŘIJATO PODLE FUNKCE, ne podle shody s promptem (seed 2052489276, odvozený z ID scény, takže `--force` dá tutéž kompozici). Fasáda má nesourodé omítky, přilepené schodiště a různě staré části — scéna říká „a building repaired and extended for thirty years\" a tohle to nese. Jas 118,8 proti 20,9 u diagramů, tedy 5,7× — uvnitř pásma kanálu (4,0 az 6,3×), takže se na `sdxl.style` nesahá.",
+      "prompt": "a narrow apartment building whose facade has been patched and extended many times, mismatched brickwork and rendering, an added upper storey in a different style, exposed pipes and cables running across the wall, flat grey overcast sky, no sun, quiet empty street, no text",
+      "seed": 2052489276
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Přechod z fotky do kresby je záměrný: od téhle scény se s domem něco DĚLÁ (trubky, patro, výtah), a to difuzní model neudrží mezi scénami stejné. `CLAUDE.md`: 'scéna s tvarem něco DĚLÁ, takže potřebuje tvar, ne fotografii'.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Řez týmž domem kreslený kódem: tři patra, mezi nimi trubky vedoucí nesmyslně napříč, jedna ambrová. Vlevo přeškrtnutý nápis 'today you would design it differently'."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Škrt přes bourací stroj je jediný křížek ve videu, který je na PLOŠE bez písma — tam je křížek v pořádku.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Týž řez domem. V bytech se rozsvítí drobné postavičky a v přízemí ambrový štítek obchodu. Vlevo přeškrtnutá ikonka bouracího stroje."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Zámek, ne škrt: trubky se nesmí odstranit, ne že by byly špatně. Kdyby byly přeškrtnuté, kresba by tvrdila 'jsou k ničemu', což scénář neříká.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Týž řez. Nahoru přibude patro jiného odstínu, vpravo svislá šachta výtahu. Staré trubky zůstanou ambrové a dostanou zámek."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Výplata metafory. Funguje jen tehdy, když se vrstvy v S18 a tady kreslí TOUŽ funkcí z `_kit.py` — jinak si divák shody nevšimne. To je přesně to, co `docs/storyboard-a-diagramy.md` míní 'páteř se nikdy nekreslí ručně'.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Dům se ztlumí a přes něj se prolne KRABICE s vrstvami z S18 na týchž souřadnicích, vrstva po vrstvě ve stejném pořadí."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Tři zoubky, protože scénář jmenuje tři věci. Kdyby jich bylo pět, obraz by tvrdil víc než věta. Na počet je `assert` v generátoru.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Jedna stará vrstva se rozsvítí a vyjedou z ní tři zoubky do tvaru zámku: INTERFACE, BEHAVIOUR, FILE FORMAT."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Jedna budova, ne dav: scénář říká 'a company', v jednotném čísle a jako možnost ('may still'). Čára je proto tenká a ztlumená, ne tučná šipka.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Od té vrstvy vede ambrová čára ven z krabice k jediné drobné budově s popiskem 'somewhere in the world'."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Vědomé zopakování kompozice z S12 — tentokrát vysvětlené. Souřadnice bodu musí být TYTÉŽ, počítají se z páteře, ne zapsané znovu.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Celá krabice s vrstvami. Zleva ambrový popisek 'greatest strength', zprava 'technological patchwork', obojí svorkou do téhož bodu na páteřní ose.",
+      "pause": 2.8
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Prázdná osa je tu v pořádku, protože je to VÝČET, který se hned plní — ne graf. `CLAUDE.md`: prázdné osy čte divák jako rozbitý graf, ale to pravidlo míří na data, ne na seznam.",
+      "diagram_generator": "povest",
+      "diagram": "Krabice ztlumená. Nad ni naskočí prázdná vodorovná osa s pěti prázdnými místy."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "ŽÁDNÉ LOGO ANI SNÍMEK OBRAZOVKY — `factcheck.md`. Jen sázený text, což je zároveň důvod, proč je to diagram a ne SDXL: difuzní model do obrazu naplácá pseudotext i s 'no text' v negativu.",
+      "diagram_generator": "povest",
+      "diagram": "Do prvních tří míst se vepíšou WINDOWS 95, WINDOWS 98, WINDOWS ME, všechny ambrové. Zbylá dvě zůstanou prázdná."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "MODRÁ OBRAZOVKA SE KRESLÍ KÓDEM, ne bere z archivu — `factcheck.md`: snímky BSOD na Commons bývají fotografie cizí obrazovky s nejistou licencí. Modrá je tu JEDINÉ místo videa mimo paletu a je to schválně; nesmí se z ní stát druhý akcent vedle ambrové.",
+      "diagram_generator": "povest",
+      "diagram": "Kolem té trojice se vysypou ikonky: ozubené kolečko (drivery), dva křížící se blesky (konflikty), vykřičník, kroužící šipka (restarty). A přes střed obdélník jednolité modré s pár řádky ztlumeného textu."
+    },
+    {
+      "id": "S32",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "Jediná archivní scéna videa. Prošla testem z `CLAUDE.md`: dá se to vyfotit A má to vlastní jméno. Difuzní model tohle neumí — „konkrétní objekty\" jsou jeho známá slepá ulička.\n\nPICK VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: staženo 24 náhledů na tři dotazy (ISA karta, propojky, rozšiřující karta) a prohlédnuto vedle sebe. Vyhrál snímek, na kterém je karta POSPOLU S disketami s ovladači a uživatelským manuálem — scéna říká „installing a new piece of hardware could feel like a small engineering project\", a tohle je ta věta jako obrázek. Samotná karta na bílém pozadí (Sound Blaster AWE64, CC0) je hezčí fotka, ale nenese funkci scény.\n\nDotaz je ZÚŽENÝ na název souboru, aby cíl vycházel na `[0]` — pořadí výsledků Commons se mění i mezi dvěma voláními minutu po sobě, takže `pick` nic nedokládá. Doklad je `archive-raw/S32.orig` a jeho otisk; ověř `archive.py --evidence`.\n\nFotka se smí hýbet (`CLAUDE.md`: diagram staticky, fotka se hýbe); žádný portrét tu není, takže zoom je v pořádku.\n\nGRADE ZTMAVEN PROTI VÝCHOZÍMU. Snímek je vyfocený na světlém pozadí, takže s výchozím `levels` vyšel jas 173 proti 26 u diagramů, tedy 6,6× — nad pásmem kanálu (4,0 az 6,3×, naměřeno napříč osmi videi). Vlastní `levels` a nižší saturace ho vrátily dovnitř pásma. Měř, než sáhneš na grade: dojem „vyčnívá to\" je u tohohle kanálu často vlastnost, ne vada.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Tekram DC-300B Fast SCSI ISA controller",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9,
+          "levels": "16%,80%",
+          "saturation": 72,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Razítka, ne bubliny: scénář říká, že si to Windows 'vysloužily', tedy že to o nich říká okolí. Bublina by z toho udělala jejich vlastní tvrzení.",
+      "diagram_generator": "povest",
+      "diagram": "Krabice, a přes ni tři ambrové nápisy pod sebou jako razítka: BUGGY, CRASHES, NEEDS REINSTALLING."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Tady se kreslí přesně ta oprava z fact checku: NT je PARALELNÍ řada, ne nástupce, a spojily se až v XP. Kdyby NT navazovalo shora, kresba by zopakovala chybu, kterou `factcheck.md` právě opravil. Windows 2000 se v obraze NEJMENUJE — scénář ho po opravě neříká a doplnit ho by znamenalo vrátit tam otázku pořadí.",
+      "diagram_generator": "povest",
+      "diagram": "Vedle hromady vrstev z S18 se zleva vysune DRUHÁ, čistá hromada bez nesourodých vrstev, s popiskem WINDOWS NT. Nahoře se obě spojí do jedné s popiskem WINDOWS XP a letopočtem 2001."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Razítka se NESMÍ škrtnout: scénář říká, že pověst zůstala, ne že přestala platit. Ztlumení znamená 'už to není pravda, ale pořád to tam je'.",
+      "diagram_generator": "povest",
+      "diagram": "Spojená hromada se rozsvítí a zklidní. Razítka z S33 zůstanou viset ztlumená nad ní, nepřeškrtnutá."
+    },
+    {
+      "id": "S36",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S36.png",
+      "note": "Druhá ze čtyř sdxl scén. Restaurace je atmosféra a vzpomínka, ne tvrzení — přesně to, na co difuzní model je. Prázdná a nevýrazná schválně: scénář říká, že je dnes výborná, ale divák si má pamatovat ten guláš.\n\nPŘIJATO PODLE FUNKCE (seed 603909017). Prázdný interiér se stoly a velkými okny. Že to není na první pohled restaurace, VADÍ MÍŇ, než kdyby byla plná a veselá: funkce scény je vzpomínka na místo, kam se člověk vrátil po deseti letech, a tu prázdný sál nese. Restauraci pojmenuje hlas. Jas 127,3, poměr 6,1× — v pásmu.",
+      "prompt": "an empty restaurant interior seen from a doorway, one table laid with a clean cloth, chairs stacked at the back, flat grey overcast light through a window, still air, worn floor, quiet and unremarkable, no text",
+      "seed": 603909017
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Bublina má mít ocásek kreslený jako otevřená křivka, ne uzavřený trojúhelník — `docs/storyboard-a-diagramy.md` to jmenuje jako vadu, kterou nechytne žádný detektor.",
+      "diagram_generator": "povest",
+      "diagram": "Prázdný talíř kreslený kódem na páteřní ose, nad ním ambrová myšlenková bublina s jediným slovem GOULASH.",
+      "pause": 2.6
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Nový prvek nad páteří, ne místo ní. Od téhle scény do S42 je ve videu poprvé řeč o firmě, ne o systému, a kresba to musí oddělit.",
+      "diagram_generator": "firma",
+      "diagram": "Krabice ztlumená, a nad ní se poprvé objeví druhý tvar: prázdný obdélník s popiskem MICROSOFT, výš než krabice."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "ŽÁDNÉ PROCENTO. `factcheck.md`: zdroje se liší o 14 bodů (56,6 az 70 %), takže video říká jen 'dominant'. Poměr v obraze je zjevně ilustrativní — pár ztlumených krabic tam je právě proto, aby se to nečetlo jako 100 %.",
+      "diagram_generator": "firma",
+      "diagram": "Pod obdélníkem MICROSOFT se rozprostře řada krabic, většina ambrová, pár ztlumených. Z obdélníku dolů tlustá ambrová šipka s popiskem POWER."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "ŠIPKA MÍŘÍ SPRÁVNÝM SMĚREM — `docs/storyboard-a-diagramy.md` jmenuje 'scéna, ve které něco míří na někoho' jako past, kterou nenajde žádný detektor. Podmětem věty je Microsoft, cílem Netscape. Kladívko je ztlumené, protože scénář neuvádí ani jedno datum sporu a rozsudek nepopisuje; `factcheck.md` ta data má, do obrazu nepatří.",
+      "diagram_generator": "firma",
+      "diagram": "Vedle obdélníku MICROSOFT menší obdélník NETSCAPE. Z Microsoftu k němu vede ambrová šipka přes ikonku prohlížeče s popiskem INTERNET EXPLORER. Pod tím ztlumené soudcovské kladívko."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Škrtá se cesta, ne příčina: scénář neříká, že Windows nepadaly — říká, že TENHLE člověk je nemá rád z jiného důvodu.",
+      "diagram_generator": "firma",
+      "diagram": "Dvě cesty k téže ambrové postavičce: jedna od krabice s ikonkou pádu, PŘEŠKRTNUTÁ. Druhá od obdélníku MICROSOFT, nepřeškrtnutá."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Dělicí čára je jediné tvrzení scény a je to tvrzení scénáře doslova: technika a firma jsou dvě různé věci.",
+      "diagram_generator": "firma",
+      "diagram": "Krabice a obdélník MICROSOFT vedle sebe, mezi nimi svislá dělicí čára. Ambrová postavička stojí u firmy, ne u krabice.",
+      "pause": 2.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Předěl do jádra videa. Od S43 do S65 se řeší kontrola a důvěra — podle tvé zpětné vazby je tohle část s největší vizuální energií.",
+      "diagram_generator": "auto",
+      "diagram": "Krabice sama na páteřní ose, víko ambrové. Pod ní šipka mířící DOLŮ hlouběji."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Auto je kreslené kódem, ne z archivu ani z SDXL: vrací se v S45–S48, S51, S55, S56 a S61, tedy přes sedmnáct scén, a callback se pozná jedině při SHODNÉM rozvržení. `CLAUDE.md`: 'callback přes 36 scén se pozná jen při shodném rozvržení, což difuzní model ze své podstaty nesvede'. Kreslí ho `_kit.auto()`.",
+      "diagram_generator": "auto",
+      "diagram": "Auto kreslené kódem z boku, jednoduchý obrys, na pevných souřadnicích. Nad ním ambrový popisek YOURS."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Mění se JEDNA ikonka, ne celé auto — věta říká 'some of its functions'.",
+      "diagram_generator": "auto",
+      "diagram": "Totéž auto. Shora do něj přiletí ambrová šipka s ikonkou aktualizace a jedna z jeho funkcí (ikonka uvnitř) změní tvar."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Spárování se kreslí jako dvě zapadající poloviny, ne jako zámek — zámek už nese S47 a znamenal by 'nesmíš', kdežto tady jde o 'musí se to spárovat'.",
+      "diagram_generator": "auto",
+      "diagram": "Totéž auto. Vedle něj náhradní díl, mezi ním a autem ambrový symbol spárování (dvě zapadající poloviny)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Zámek patří VÝROBCI, ne autu — bublina to přiřazuje. Bez ní by kresba říkala 'auto to neumí', kdežto věta říká 'nedovolili jsme to'.",
+      "diagram_generator": "auto",
+      "diagram": "Totéž auto. Třetí ikonka uvnitř je ztlumená a má zámek. Nad ní bublina od výrobce: 'we decided'."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Kapota je vizuální rým s víkem krabice a je to schválně. V S53 se ten rým vyplatí.",
+      "diagram_generator": "auto",
+      "diagram": "Auto ztlumené, kapota zavřená. Před ním dav drobných postaviček, žádná ambrová."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Ruka je ztlumená a NEDRŽÍ auto — scénář se ptá, kdo tady komu co dovoluje, a odpověď přijde až v S65. Kdyby ruka auto svírala, obraz by odpověděl dřív než scénář.",
+      "diagram_generator": "auto",
+      "diagram": "Jedna postavička ambrová, u kapoty, s bublinou: 'I bought this.' Nad autem ztlumená ruka výrobce."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Bublina je PRÁZDNÁ schválně: scénář neříká, co ten člověk na to řekne, říká, že ten pocit zesílí. Text v bublině by odpověděl za scénář.",
+      "diagram_generator": "auto",
+      "diagram": "Totéž auto. Jedna ikonka uvnitř zhasne úplně a od výrobce přijde oznámení. Postavička ambrová, bublina prázdná."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Škrt přes NÁPIS je vodorovná čára, ne křížek — `text_skrtnuty()`. První dvě cesty nejsou přeškrtnuté, protože jdou; jen nevedou k cíli, a to říká jejich ztlumení.",
+      "diagram_generator": "auto",
+      "diagram": "Tři cesty od postavičky: stížnost (ztlumená), jiné auto (ztlumené), a třetí ke zdrojovému kódu — ta je PŘEŠKRTNUTÁ vodorovnou čarou přes nápis."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Prázdný panel schválně: scénář říká, že tady ta filozofie ZAČÍNÁ, ne co obsahuje. Naplní se v S58.",
+      "diagram_generator": "auto",
+      "diagram": "Auto se ztlumí, na páteřní ose se rozsvítí prázdný panel s nadpisem FREE SOFTWARE a pod ním nic.",
+      "pause": 2.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Výplata rýmu z S48: kapota auta a víko krabice na týchž souřadnicích. Šrouby jsou tu poprvé a zůstanou až do S57.",
+      "diagram_generator": "zdroj",
+      "diagram": "KRABICE zpátky na páteřní ose. Víko je ambrové a přišroubované čtyřmi šrouby. Popisek CLOSED SOURCE."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Program je venku, kód uvnitř. Kód není přeškrtnutý — existuje, jen k němu nevede cesta.",
+      "diagram_generator": "zdroj",
+      "diagram": "Krabice s přišroubovaným víkem. Vedle ní ambrová ikonka hotového programu, a od ní ztlumená čára k svazku zdrojového kódu, který je ZA víkem."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Tytéž šrouby jako na krabici — je to jediný prvek, který obě metafory spojuje, takže se kreslí jednou funkcí a nesmí se lišit.",
+      "diagram_generator": "zdroj",
+      "diagram": "Auto z S44 se vrátí na své souřadnice, kapota přišroubovaná týmiž čtyřmi šrouby. Bublina od výrobce: 'trust us'."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Ruka LEŽÍ na kapotě, nesahá pod ni — 'never open up'. Je to protiváha k S57, kde se jedna postavička podívat chce; obě scény mají mít touž kompozici, aby se rozdíl poznal.",
+      "diagram_generator": "zdroj",
+      "diagram": "Dav postaviček před autem, kapota zavřená, nikdo se k ní nenatahuje. Jedna ztlumená ruka spočívá na kapotě, ne pod ní."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Lupa, ne šroubovák: věta říká 'I'd like to look', ne 'chci to rozebrat'. Šroubovák by tvrdil víc, než scénář v tuhle chvíli říká.",
+      "diagram_generator": "zdroj",
+      "diagram": "Jedna ambrová postavička u kapoty s lupou. Kapota pořád přišroubovaná."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Pátý řádek je čárkovaný a ostatní plné — `docs/storyboard-a-diagramy.md`: plná versus čárkovaná čára je doloženo versus podmíněno. `factcheck.md` na té podmínce trvá: copyleft i permisivní licence to dovolují, ale ne každá 'source available' licence je open source.",
+      "diagram_generator": "zdroj",
+      "diagram": "Panel FREE SOFTWARE z S52 se naplní: READ, STUDY, CHANGE, FIX a pátý řádek BUILD YOUR OWN, který má vedle sebe ČÁRKOVANÝ rámeček s popiskem 'if the licence allows it'."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Škrtá se celý nadpis, protože neplatí celý. `docs/storyboard-a-diagramy.md`: přeškrtnutí celého nadpisu znamená 'neplatí to vůbec', kdežto škrt jednoho řádku 'neplatí to takhle' — a tady jde opravdu o to první.",
+      "diagram_generator": "zdroj",
+      "diagram": "Krabice s přišroubovaným víkem. Nadpis 'cannot be checked at all' PŘEŠKRTNUTÝ vodorovnou čarou."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Tři cesty, protože scénář jmenuje tři. Jsou ztlumené, ne přeškrtnuté — fungují, jen jsou dražší, a to říká až S61.",
+      "diagram_generator": "zdroj",
+      "diagram": "Od zavřené krabice vedou tři ztlumené cesty ven: sledování chování, síťový provoz, a rozebrání binárky až na řádky instrukcí."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Manuál je ZAVŘENÝ a ztlumený, ne přeškrtnutý jako předmět — nepřístupný, ne neexistující. Přeškrtnutá je CESTA k němu.",
+      "diagram_generator": "zdroj",
+      "diagram": "Vedle sebe: vlevo auto s rozebranou kapotou a díly kolem, vpravo ztlumený zavřený manuál. Mezi nimi ambrová šipka směrem k autu a přeškrtnutá cesta k manuálu."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Misky vah se musí kreslit s `close=True`, jinak vyjdou jako otevřené křivky — `docs/storyboard-a-diagramy.md` to jmenuje mezi vadami, které nechytne detektor.",
+      "diagram_generator": "zdroj",
+      "diagram": "Dvě misky vah: IN THEORY (ambrová, lehká) a IN PRACTICE (těžká, ztlumená). Váhy se přiklánějí k praxi."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Obdélník MICROSOFT se vrací na SVÉ souřadnice z S38. Kdyby se posunul, návrat se nepozná.",
+      "diagram_generator": "zdroj",
+      "diagram": "Krabice s přišroubovaným víkem, a od ní k obdélníku MICROSOFT (z S38, na týchž souřadnicích) ambrová čára s popiskem TRUST."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "'far more than any crash' — velikost a pořadí si samy vyrobí důležitost, takže poměr je tady obsah, ne estetika. Do generátoru patří `assert` na ten poměr.",
+      "diagram_generator": "zdroj",
+      "diagram": "Vedle sebe dvě ikonky: ikonka pádu (ztlumená, malá) a čára TRUST (ambrová, tlustá). Poměr velikostí je tvrzení scény."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "POINTA VIDEA. Nápis leží na souřadnicích otazníku z S07 — to je výplata páteře a musí se počítat z téže konstanty, ne zapsat znovu. Obě ruce jsou stejně velké a ani jedna víko nedrží: scénář na otázku neodpovídá a kresba nesmí odpovědět za něj.",
+      "diagram_generator": "zdroj",
+      "diagram": "Krabice, víko ambrové. Nad víkem se potkají DVĚ ruce — jedna od postavičky, druhá od obdélníku MICROSOFT. Mezi nimi na páteřní ose, přesně tam, kde byl v S07 otazník, nápis WHO DECIDES.",
+      "pause": 3.0
+    },
+    {
+      "id": "S65b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "cta": true,
+      "note": "VÝZVA K ODBĚRU podle `docs/cta.md`. `visual` ukazuje na obrázek PŘEDCHOZÍ scény, takže prolínačka mezi dvěma identickými obrázky není vidět a divák žádný střih nezaznamená. `effect: static` je nutnost — zoom by se u nové scény počítal od začátku a v místě střihu by skočil zpátky. S65 je diagram, tedy statická, což je podmínka z `docs/cta.md`.\n\nPauza je krátká schválně: velké ticho patří za pointu (S65), ne za výzvu — ta má být mimochodná poznámka, ne přerušení.",
+      "pause": 1.2
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Přeškrtnutý je NÁPIS, ne krabice — vodorovnou čarou přes text. Scénář říká, že Linux není Windows zadarmo, ne že Linux nefunguje.",
+      "diagram_generator": "linux",
+      "diagram": "Dvě krabice vedle sebe na společné ose. Levá s přišroubovaným víkem, pravá s víkem odklopeným. Pod pravou přeškrtnutý nápis 'Windows for free'."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Táž bublina i souřadnice jako v S55 ('trust us'), jen jiný text. Vědomé zopakování: Windows mluví ve videu potřetí týmž způsobem.",
+      "diagram_generator": "linux",
+      "diagram": "Levá krabice sama, víko přišroubované, bublina: 'this is how we designed it'."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Nástroje, ne hotový systém — to je celý rozdíl scény. Podle tvé zpětné vazby patří tahle scéna mezi ty, kterým se má dát největší vizuální energie.",
+      "diagram_generator": "linux",
+      "diagram": "Pravá krabice sama, víko odklopené, a uvnitř místo hotového systému přihrádky s nástroji. Bublina: 'here is the toolbox'."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "V každé přihrádce je vybraná JINÁ pozice, aby bylo vidět, že si vybírá člověk. Kdyby byly všechny ambrové stejně, četlo by se to jako výchozí nastavení.",
+      "diagram_generator": "linux",
+      "diagram": "Z otevřené krabice se vytáhnou čtyři přihrádky vedle sebe: DISTRIBUTION, DESKTOP, PROGRAMS, THE SYSTEM ITSELF — každá s několika ztlumenými možnostmi a jednou ambrovou."
+    },
+    {
+      "id": "S69b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69b.png",
+      "note": "PŘIDÁNO PO ZPĚTNÉ VAZBĚ 0.2. Původní blok tvrdil, že Linux je skládačka, na které je spousta práce — a to dnes neplatí. Tahle scéna je protiváha: TÝŽ obraz voleb jako v S69, ale všechny přihrádky sbalené do jedné hotové volby a vedle přeškrtnutý terminál.\n\nTerminál se škrtá schválně: je to jediná ikona, kterou si divák s Linuxem spojí, a scéna říká, že se mu vyhnout LZE. Škrtá se NÁPIS vodorovnou čarou, ne plocha křížkem.",
+      "diagram_generator": "linux",
+      "diagram": "Tytéž čtyři přihrádky voleb jako v S69, ale každá má vybranou položku a ostatní zmizely — zbyde jedna hotová sestava. Vedle přeškrtnutý nápis TERMINAL."
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "note": "Třetí ze čtyř sdxl scén. Tři hodiny hledání, proč to nefunguje — to je nálada, ne tvrzení, a je to jediná vtipná scéna videa. Prázdná židle schválně: divák si tam má dosadit sebe. Scéna obsahuje výpustku `...` ve scénáři, takže jí `tts.py` udělá vlastní pauzu; do `pause` proto nic navíc.\n\nPŘIJATO PODLE FUNKCE (seed 711231602). Model vrátil DENNÍ světlo místo žádané noční lampy — a přesto scéna funguje: nese ji zavalený stůl, změť kabelů a odsunutá židle, tedy ten nepořádek, do kterého se člověk dostane. „Tři hodiny\" a „v noci\" řekne hlas. Přegenerovat obrázek jen proto, že se liší od promptu, je přesně to, co `CLAUDE.md` zakazuje. Jas 120,7, poměr 5,8× — v pásmu.",
+      "prompt": "a cluttered desk at night lit only by a single lamp, an open notebook covered in scribbled notes, a cold mug, a chair pushed back, nobody in the frame, tangled cables across the desk, quiet domestic room, no text",
+      "seed": 711231602
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Rozebraný nástroj se NESMÍ škrtat: scénář to nepovažuje za vadu, nýbrž za součást téže věci.",
+      "diagram_generator": "linux",
+      "diagram": "Otevřená krabice s nástroji, jeden nástroj leží rozebraný vedle ní. Popisek 'an option, not the price of entry'."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Mírně, ne úplně: scénář říká 'for some people', ne 'je to lepší'. Sklon vah je tady míra jistoty a musí odpovídat větě.",
+      "diagram_generator": "linux",
+      "diagram": "Dvě misky vah: FREEDOM (ambrová) a CONVENIENCE (ztlumená). Přiklání se k FREEDOM, ale jen mírně.",
+      "pause": 2.4
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Osa se zavádí tady a vrátí se v S94 a S97 na TÝCHŽ souřadnicích. Je to druhá, kratší páteř videa — patří do `_kit.py`, ne do tohohle modulu.",
+      "diagram_generator": "apple",
+      "diagram": "Vodorovná osa se dvěma póly: vlevo CONTROL, vpravo CONVENIENCE. Zatím prázdná, žádná krabice na ní."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Applovská krabice NEMÁ viditelné víko — to je celý její znak a vydrží až do S82. Žádné logo ani nakousnuté jablko: `factcheck.md` zakazuje loga a je to i zbytečné.",
+      "diagram_generator": "apple",
+      "diagram": "Na osu se posadí dvě krabice: Linux blízko CONTROL, třetí tvar (jiný, hladší, bez viditelného víka) blízko CONVENIENCE."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Jeden obrys kolem obojího je tvrzení scény ('under one roof'). U ostatních krabic ve videu ten obrys není.",
+      "diagram_generator": "apple",
+      "diagram": "Hladká krabice v řezu: hardware a software jako dva díly, které do sebe přesně zapadají, jedním ambrovým obrysem kolem obojího."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Ke ztlumené hromádce detailů NEVEDE žádná čára, a to je celé tvrzení scény — existují, ale uživatel k nim nemusí. Kdyby byla přeškrtnutá, kresba by říkala, že žádné nejsou.",
+      "diagram_generator": "apple",
+      "diagram": "Tři ozubená kolečka do sebe zapadající, všechna ambrová, pod nimi ztlumená hromádka technických detailů, ke které nevede žádná čára."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Škrt přes ADMINISTRATOR je autorský, ne hodnotící — a scénář to tak myslí: ten člověk tu roli NECHCE. Ambrová na USER znamená 'o tomhle je řeč', ne 'tohle je správně'. `docs/storyboard-a-diagramy.md`: jakmile ambrová dostane druhý význam, celé video se čte obráceně.",
+      "diagram_generator": "apple",
+      "diagram": "Postavička u hladké krabice. Nad ní dvě role: ADMINISTRATOR (přeškrtnutá vodorovnou čarou) a USER (ambrová)."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Součet musí být konstantní — to je přesně to, co věta říká. Do generátoru patří `assert`, že se obě části sečtou na tutéž výšku jako v předchozím kroku; `docs/storyboard-a-diagramy.md`, kapitola '`assert` místo důvěry'.",
+      "diagram_generator": "apple",
+      "diagram": "Svislý sloupec rozdělený na dvě části: horní DECISIONS BY THE MAKER roste, spodní DECISIONS LEFT TO YOU se o tutéž výšku zmenšuje."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Tvary jsou TOTOŽNÉ a nápis je pokaždé stejný — v tom je celý vtip scény a je to jediné, co obraz tvrdí.",
+      "diagram_generator": "apple",
+      "diagram": "Vodorovná řada pěti totožných hladkých tvarů, nad každým ambrový nápis REVOLUTIONARY."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Dvě postavičky stejně velké: scénář dává oběma stranám stejnou váhu a kresba nesmí jednu upřednostnit. Přeškrtnutý LIFESTYLE patří té pravé, takže musí být zjevně blíž k ní — jinak si ho divák přiřadí oběma.",
+      "diagram_generator": "apple",
+      "diagram": "Táž řada. Zleva k ní ambrová postavička s bublinou 'fun', zprava druhá s přeškrtnutým srdíčkem. Pod řadou přeškrtnutý nápis LIFESTYLE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Vrstvy jsou tytéž jako v S18 a S25, kreslené toutéž funkcí. Tři krabice vedle sebe se od S81 do S84 nepohnou.",
+      "diagram_generator": "tri",
+      "diagram": "Tři krabice vedle sebe na společné základně. První (Windows) má víko přišroubované a vespod hromadu vrstev z S18. Ambrová jen ona, popisek COMPATIBILITY."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Hladká krabice nemá viditelné víko (znak zavedený v S74) a uvnitř má díly, které do sebe zapadají — ne nástroje jako Linux a ne vrstvy jako Windows. Tři krabice se od S81 do S84 nepohnou.",
+      "diagram_generator": "tri",
+      "diagram": "Tytéž tři. Ambrová je prostřední (Apple), hladká, bez víka, uvnitř díly dokonale zapadající. Popisek WE DECIDE HOW."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Popisek se po zpětné vazbě 0.2 změnil z „SOME OF THE WORK IS YOURS\" na „AS MUCH AS YOU LIKE\". Původní tvrdil, že práce je podmínka; scénář i skutečnost říkají, že je to volba.",
+      "diagram_generator": "tri",
+      "diagram": "Tytéž tři. Ambrová je třetí (Linux), víko odklopené, uvnitř nástroje. Popisek AS MUCH AS YOU LIKE."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Všechny tři stejně jasné je tvrzení scény. Kdyby zůstala jedna světlejší, kresba by odpověděla na otázku, kterou video nechává otevřenou.",
+      "diagram_generator": "tri",
+      "diagram": "Všechny tři ambrové stejně, žádná zvýrazněná. Pod nimi přeškrtnutý nápis THE RIGHT ONE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Škrt tady znamená 'o tomhle to teď nebude', ne 'neplatí to'. Proto je hromada ztlumená ještě před škrtem — dvojí signál, aby se to nečetlo jako popření předchozích deseti minut.",
+      "diagram_generator": "dnesek",
+      "diagram": "Krabice na páteřní ose. Vlevo ztlumená hromada vrstev z S18, PŘEŠKRTNUTÁ. Vpravo prázdné místo."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Jedna, ne šest. Šest přijde v S87 a rozdíl mezi jednou a šesti je celý obsah téhle dvojice scén.",
+      "diagram_generator": "dnesek",
+      "diagram": "Z krabice vyskočí jedna bublina s nabídkou a čeká."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Bubliny smí krabici PŘEKRÝT — je to jediná scéna videa, kde je překryv záměr, takže `prekryv_check.py` tady nález ohlásí a je v pořádku. Jmenuje se jen to, co divák vidí na obrazovce; `factcheck.md` výslovně říká, že video netvrdí nic o tom, co telemetrie dělá.",
+      "diagram_generator": "dnesek",
+      "diagram": "Šest bublin se překrývá přes celou krabici: UPDATES, ONEDRIVE, ACCOUNT, EDGE, NOTIFICATIONS, a šestá prázdná s popiskem 'you never asked for'."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Vědomý rým s S49 ('I bought this.') — táž kompozice, jiný předmět. Musí sedět souřadnice postavičky, jinak se rým nepozná.",
+      "diagram_generator": "dnesek",
+      "diagram": "Postavička pod hromadou bublin, bublina: 'I bought this computer.'"
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Všechny čtyři stejně ztlumené, včetně MONEY. Kdyby byla ambrová jen ta, kresba by tvrdila, že o peníze jde především — což scénář neříká.",
+      "diagram_generator": "dnesek",
+      "diagram": "Za krabicí se objeví obdélník MICROSOFT (souřadnice z S38) a z něj ke krabici čtyři ztlumené čáry: CLOUD, SECURITY, ONE ECOSYSTEM, MONEY."
+    },
+    {
+      "id": "S90",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S90.png",
+      "note": "Čtvrtá a poslední sdxl scéna. 'Just let me use my computer' je únava, tedy nálada — přesně to, na co difuzní model je. `no screens visible` je v promptu schválně: obrazovka by znamenala pseudotext, což je známá slepá ulička SDXL. Přijímá se PODLE FUNKCE scény, ne podle shody s promptem.\n\nDRUHÉ KOLO. První pokus (seed 1194078465) neměl na stole ŽÁDNÝ POČÍTAČ — v promptu stálo `no screens visible`, abych se vyhnul pseudotextu, a s vaničkou vyletělo i dítě. Scéna říká „Just let me use my computer\", takže obraz bez počítače FUNKCI NENESE, i kdyby byl sebehezčí. Nahlásil uživatel z draftu.\n\nŘešení není vrátit obrazovku čelem, nýbrž ji OTOČIT: monitor zády k divákovi a bedna vedle stolu dají počítač bez jediného pixelu textu. Zamítnuté kolo leží ve scratchpadu, ať jde obojí porovnat na jednom kontaktním listu — `images/` je mimo git a snapshoty jsou hodinové.",
+      "prompt": "a person seen from behind sitting at a desk in a small room, shoulders lowered, an old desktop computer tower beside the desk and a bulky monitor turned away from us so its screen is not visible, a single desk lamp, plain wall, closed curtains, flat even light, quiet and ordinary, no text",
+      "pause": 2.6,
+      "seed": 1194078465
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Otazník na téže ose jako v S07 a S65. Třetí a poslední výskyt.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři krabice z S81–S84 zpátky na svých souřadnicích, nad nimi otazník na páteřní ose."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Mezera je obsah scény: nehádají se o totéž. Kdyby se bubliny dotýkaly, kresba by tvrdila spor.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě postavičky proti sobě, každá s bublinou. Bubliny se NEPŘEKRÝVAJÍ a mezi nimi je zjevná mezera."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Dvě věty, dvě bubliny, žádná ambrová víc než druhá.",
+      "diagram_generator": "zaver",
+      "diagram": "Tytéž dvě postavičky. Do bublin se vepíše 'I just want it to work' a 'I want to know how it works'."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Návrat druhé páteře. Souřadnice se počítají z `_kit.py`, ne zapisují znovu.",
+      "diagram_generator": "zaver",
+      "diagram": "Osa CONTROL–CONVENIENCE z S73 se vrátí na TYTÉŽ souřadnice. Obě postavičky se na ni postaví, každá na svůj konec.",
+      "pause": 2.4
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Dav není ani na jednom konci osy — 'most people want neither'. Krabice se vrací naposledy a od téhle scény do konce už se nepohne.",
+      "diagram_generator": "zaver",
+      "diagram": "Osa zůstane, ale obě postavičky z ní zmizí a doprostřed se posadí DAV. Nad davem KRABICE na páteřní ose, kontrolka svítí."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Kresba tady musí nechat HORNÍ POLOVINU volnou — od S96 dál běží posledních zhruba dvacet sekund a YouTube tam vkládá dlaždici dalšího videa (0,33 šířky, 16:9) a kolečko odběru (0,16 šířky). `docs/storyboard-a-diagramy.md`: prvky patří do HORNÍ poloviny, protože dole je vždycky titulek. Hlídá `python tools/zaver_check.py`.",
+      "diagram_generator": "zaver",
+      "diagram": "Krabice. Nad ní přeškrtnutá otázka WHICH ONE IS BEST."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Kresba v dolní polovině, horní volná — závěrečná obrazovka.",
+      "diagram_generator": "zaver",
+      "diagram": "Krabice v dolní části plátna, nad ní jediná ambrová otázka WHAT DO YOU WANT. Horní třetina prázdná."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Žádné ambrové: scénář se ptá, neodpovídá. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři ztlumená slova v dolní části pod krabicí: CONVENIENCE, COMPATIBILITY, FREEDOM, CONTROL. Žádné zvýrazněné."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Ambrová je tady na místě — scénář tuhle možnost vyzdvihuje ('or do you just want'). Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Pátá možnost se přidá k té čtveřici, ambrová a s ikonkou ovladače. Pořád vše v dolní části."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "VÝPLATA PÁTEŘE. Víko, o které šlo celé video, není vidět — protože pro většinu lidí na něm nezáleží. Táž kresba jako S04, jen bez ikonek: divák ji má poznat, aniž by věděl proč. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Jen KRABICE na páteřní ose, kontrolka svítí, víko splývá s tělem jako v S04. Nic jiného v obraze."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Poslední scéna. 'at least for most people' — ta jedna postavička je celé to 'at least'. Je drobná a v DOLNÍM rohu, takže horní polovina zůstává volná pro závěrečnou obrazovku.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž krabice. V rohu se rozsvítí jediná drobná ambrová postavička, která se na víko dívá."
+    }
+  ]
+}

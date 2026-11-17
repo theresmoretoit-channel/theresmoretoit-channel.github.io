@@ -1,0 +1,846 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese MYŠLENKU, ne atmosféru: firma, ze které vede čára ven k něčemu, co jí nepatří. Ještě se to neříká, jen to v obraze je. Není SDXL ani fotka. Animace: budova vyroste po patrech, nakonec se natáhne čára k uzlu.",
+   "diagram_generator": "hak",
+   "diagram": "Vlevo silueta vysoké kancelářské budovy bez loga s nápisem YOUR COMPANY. Vpravo, mimo budovu, malý ztlumený uzel páteře (prázdný kruh). Z budovy k němu vede tenká čára.",
+   "anim": "animace"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Rým s S01, mění se jen výplň. Žádné konkrétní číslo, scénář žádné neříká. Animace: tečky se rozsvěcují v oknech.",
+   "diagram_generator": "hak",
+   "diagram": "Tatáž budova, okna vyplněná tečkami (inženýři). Vedle dva údaje: THOUSANDS OF ENGINEERS · BILLIONS OF DOLLARS. Uzel a čára jako v S01, ztlumené.",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Ambrová = o tomhle je řeč. Postava stojí MIMO budovu, aby kresba tvrdila „nepracuje pro vás“. Animace: patro zezlátne, čára dorazí, postava se objeví.",
+   "diagram_generator": "hak",
+   "diagram": "Tatáž budova; jedno patro uvnitř ambrově (YOUR INFRASTRUCTURE). Čára od něj k uzlu vpravo, v uzlu teď postava. Pod ní DOESN'T WORK FOR YOU.",
+   "anim": "animace"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Škrt přes NÁPIS vodorovnou čarou (text_skrtnuty), ne křížkem — jinak nejde přečíst, co se škrtá. Platí z pohledu JEDNÉ firmy (factcheck S04).",
+   "diagram_generator": "hak",
+   "diagram": "Postava z S03 větší, vedle dva přeškrtnuté nápisy (text_skrtnuty): FIRE HIM · OVERRULE HIM."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Zavádí PÁTEŘ: uzel vpravo je místo, kde se kód potkává. Háček zjednodušuje cestu (factcheck S03–S05); skutečnou cestu přes správce ukáže S39–S42 — tam MUSÍ mezi budovou a uzlem přibýt mezistupně. Animace: obálky putují po čáře.",
+   "diagram_generator": "hak",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Budova vlevo, od inženýrů letí obálky po čáře k postavě v uzlu. U uzlu přesýpací hodiny / tři tečky: WAITING FOR HIS ANSWER.",
+   "anim": "animace"
+  },
+  {
+   "id": "S06",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-02: Pick 1 = „LinuxCon Europe Linus Torvalds 03 (cropped)“ (Krd / Von Sprat, CC BY-SA 4.0), hlava a ramena, úsměv, 975×1357; proti starým snímkům v polokošili (malé rozlišení) a celé postavě na pohovce (obličej by byl malý). Portrét: static, fit 0.84, žádný zoom. Jméno řekne hlas a ukáže S07 v uzlu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Linus Torvalds",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Jen jména, ne loga. Všech pět posílá kód (factcheck S07: Amazon 49 a Microsoft 10 změn ve 7.3 — málo, ale posílají). Čáry stejně silné, kresba netvrdí, kdo posílá víc. Animace: čáry naskakují jedna po druhé.",
+   "diagram_generator": "hak",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Pět štítků firem vlevo pod sebou: GOOGLE, MICROSOFT, INTEL, AMAZON, META (jen jména, žádná loga). Od každého čára do uzlu, v uzlu LINUS TORVALDS a pod ním LINUX.",
+   "anim": "animace"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Titulní otázka, rým s S80 (stejné rozvržení). Konec bloku → pauza.",
+   "diagram_generator": "hak",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Totéž jako S07 ztlumené, nahoře velká otázka WHY HASN'T BIG TECH REPLACED HIM?",
+   "pause": 2.4
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "500 / 500 od listopadu 2017 (factcheck S09). Animace: osa se natáhne z 1991 do dneška, ikony vyskočí postupně s hlasem.",
+   "diagram_generator": "rozsah",
+   "diagram": "Časová osa zleva doprava. Vlevo tečka 1991 · A STUDENT'S HOBBY · HELSINKI. Vpravo TODAY a tři ikony: telefon (ANDROID PHONES), serverová skříň (CLOUD SERVERS), superpočítač s 500 / 500 (FASTEST SUPERCOMPUTERS).",
+   "anim": "animace"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Čísla z LWN pro 7.3 (18 765 / 3 021 / 232), zaokrouhleně jako hlas. ⚠ PŘEOVĚŘIT před zveřejněním (7.4 v lednu 2027) — číslo verze je v obraze, takže se mění i diagram.",
+   "diagram_generator": "rozsah",
+   "diagram": "Tři velká čísla vedle sebe: ~19,000 CHANGES · ~3,000 DEVELOPERS · 200+ COMPANIES. Nad nimi LINUX 7.3 — THE LATEST RELEASE.",
+   "pause": 0.6
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Počet teček = 18 765, hlídá assert. Rým s S36.",
+   "diagram_generator": "rozsah",
+   "diagram": "Pole 18 765 drobných teček (jedna = jedna změna ve 7.3), ztlumené. Pod ním otázka HOW MANY DID LINUS WRITE HIMSELF?"
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Beat videa (~1:05, pod brankou 1:10). Assert: 9 ambrových z 18 765. Animace: pole zhasíná, zůstane devět. NÁVĚTÍ (text předchozí scény): po poslechu draftu uživatel nahlásil sykavka („sss/chhh“) za „Nine.“; spektrogram potvrdil, návětí ho odstraní (obětovaná věta u S59 nechala zbytek dovětku).",
+   "diagram_generator": "rozsah",
+   "diagram": "Totéž pole; všechny tečky skoro zhasnou, svítí jen 9 ambrových. Velké NINE.",
+   "anim": "animace",
+   "pause": 1.0,
+   "naveti": "So how many of those changes did Linus write himself?"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "8 z 9 jsou commity „Linux 7.3-rcN“ / „Linux 7.3“ (factcheck S11–S13). Popisky rc1…rc7 + final musí odpovídat skutečnosti — ověřit v gitu při psaní generátoru.",
+   "diagram_generator": "rozsah",
+   "diagram": "Devět teček zvětšených v řadě: osm ztlumených se štítkem VERSION NUMBER (např. „Linux 7.3-rc1“…), jedna ambrová."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Počet čar = 240 (assert; skutečně 236 ve 7.3). Animace: čáry dorážejí do uzlu v průběhu scény.",
+   "diagram_generator": "rozsah",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Uzel páteře uprostřed vpravo s LINUS; zleva do něj ústí ~240 tenkých čar od drobných uzlů. Nahoře TWO WEEKS · ≈240 BATCHES OF CHANGES. Pod uzlem EACH FROM SOMEONE HE TRUSTS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Statické rozsvícení. S16 začíná „And“ → kratší pauza.",
+   "diagram_generator": "rozsah",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Totéž jako S14, uzel rozsvícený ambrově. Pod ním HE'S IN CHARGE BECAUSE THE CODE ENDS UP WITH HIM.",
+   "pause": 0.5
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Čárkovaně = možnost, ne fakt. Animace: čára se ohne. Konec bloku. ZA scénou VÝZVA K ODBĚRU (odhad ~1:25, ověřit po TTS, okno 1:30–2:15) → LEVÝ DOLNÍ ROH (x < 22 %, y > 75 %) PRÁZDNÝ: čáry vějíře začínají výš. S17 má krátký titulek „Linux is open source.“",
+   "diagram_generator": "rozsah",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Totéž jako S14; jedna čára (GOOGLE) se před uzlem čárkovaně ohne a jde kolem něj ven. Popisek COULD SIMPLY WALK AWAY.",
+   "anim": "animace",
+   "pause": 2.2,
+   "vyzva": true
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Animace: kopie vyjede z originálu.",
+   "diagram_generator": "fork",
+   "diagram": "Blok LINUX SOURCE CODE · OPEN SOURCE; z něj se vysune kopie YOUR OWN VERSION.",
+   "anim": "animace"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Zavádí druhý opakovaný tvar: hlavní čára a větev. Drží stejné souřadnice v S18–S32 a v S66–S67 (bcachefs se z hlavní čáry vyjímá jako Android v S21).",
+   "diagram_generator": "fork",
+   "diagram": "Vodorovná hlavní čára MAIN KERNEL (páteř bloku `vetev()` v _kit.py, pevné y); z ní šikmo nahoru odbočí větev FORK. Vedle NO PERMISSION NEEDED."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Krátký beat, jedna změna proti S18.",
+   "diagram_generator": "fork",
+   "diagram": "Totéž jako S18, větev ambrová a popsaná GOOGLE.",
+   "pause": 0.5
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Vysvětlení jádra (zjednodušení, factcheck S20). Ne celý nový Linux: větev začíná NA hlavní čáře.",
+   "diagram_generator": "fork",
+   "diagram": "Vlevo vrstvy pod sebou: ANDROID nahoře, KERNEL ambrově uprostřed (THE CORE THAT TALKS TO THE HARDWARE), HARDWARE dole. Vpravo hlavní čára s větví ANDROID'S BRANCH."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Rým se S66 (bcachefs). Animace: blok vypadne z čáry.",
+   "diagram_generator": "fork",
+   "diagram": "Hlavní čára; blok ANDROID CODE na ní vypadne dolů. Popisek DEC 2009 · REMOVED FROM THE MAIN KERNEL.",
+   "anim": "animace"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Věta je doslovná (factcheck S22: „In short, no one cared about the code, so it was removed.“), takže smí být v uvozovkách. S23 začíná „So“ → kratší pauza. Portrét Grega až v S73.",
+   "diagram_generator": "fork",
+   "diagram": "Panel e-mailu / blogu: GREG KROAH-HARTMAN · SENIOR MAINTAINER a text NO ONE CARED ABOUT THE CODE, SO IT WAS REMOVED.",
+   "pause": 0.5
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Animace: větev se odklání.",
+   "diagram_generator": "fork",
+   "diagram": "Hlavní čára a větev ANDROID, která se od ní postupně vzdaluje; mezera roste.",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Animace: vrstvy dosedají jedna na druhou.",
+   "diagram_generator": "fork",
+   "diagram": "Na větvi ANDROID přibývají vrstvy: CHIP MAKERS, PHONE MAKERS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "„As much as 50 %“ = horní mez → popisek UP TO, assert 50 %.",
+   "diagram_generator": "fork",
+   "diagram": "Pruh A PHONE'S KERNEL: polovina ambrově FROM OUTSIDE THE MAIN KERNEL, polovina ztlumeně MAIN KERNEL. Nad tím UP TO HALF · BY GOOGLE'S OWN ACCOUNT.",
+   "pause": 0.6
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Animace: štít se kopíruje do větví jedna po druhé, s narůstajícím zpožděním.",
+   "diagram_generator": "fork",
+   "diagram": "Hlavní čára se štítem SECURITY FIX; od něj šipky do mnoha větví (různé telefony), každá šipka nese kopii štítu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Doslova z dokumentace GKI (factcheck S26–S27).",
+   "diagram_generator": "fork",
+   "diagram": "Citace „PROHIBITIVELY EXPENSIVE“ velkým písmem, pod ní GOOGLE'S DOCUMENTATION."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Jde o LTS vydání (factcheck S28 ⚠); v obraze stačí NEW KERNEL RELEASE jako hlas. Animace: pruh se pomalu plní. Konec pododdílu → pauza.",
+   "diagram_generator": "fork",
+   "diagram": "Osa NEW KERNEL RELEASE → PHONE, mezi nimi pruh UP TO 18 MONTHS.",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Commit 30. 11. 2011. Rým s S21 obráceně. Animace: blok vyjede nahoru na čáru.",
+   "diagram_generator": "fork",
+   "diagram": "Hlavní čára jako v S21; blok ANDROID CODE se vrací zpátky na čáru. Popisek 2011 · PUT BACK.",
+   "anim": "animace"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Doslovná citace (factcheck S29–S30). Stejný panel jako S22, ať se pozná, že mluví týž člověk. S31 začíná „And“ → kratší pauza.",
+   "diagram_generator": "fork",
+   "diagram": "Panel commitu: GREG KROAH-HARTMAN · 2011 a citace “TURNS OUT I WAS WRONG, WE WANT THESE IN THE TREE.”",
+   "pause": 0.6
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Povinnost jen pro zařízení s jádrem 5.10+ (factcheck S31). Neříkat „všechny nové telefony“.",
+   "diagram_generator": "fork",
+   "diagram": "Mnoho rozbíhavých větví telefonů se sbíhá do jedné: GENERIC KERNEL IMAGE · FROM GOOGLE. Nad tím SINCE ANDROID 12 · PHONES LAUNCHING ON KERNEL 5.10+."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Uživatel: neříkat, že se Google „vrátil ke společnému jádru“ — vrstva je oddělená, jen blízko čáry.",
+   "diagram_generator": "fork",
+   "diagram": "Hlavní čára; těsně nad ní tenká vrstva GKI = LINUX + ANDROID'S OWN CHANGES. Z hlavní čáry nahoru šipky FIXES."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Pointa bloku. Délka pruhů je výklad, ne data → bez stupnice.",
+   "diagram_generator": "fork",
+   "diagram": "Dva pruhy pod sebou: MAKING YOUR OWN VERSION — krátký, EASY; KEEPING IT ALIVE — dlouhý, ambrový, EXPENSIVE.",
+   "pause": 1.4
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Návrat k páteři: kód jde do uzlu.",
+   "diagram_generator": "fork",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Uzel páteře MAIN KERNEL; do něj ústí čáry od štítků firem (rým s S07)."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Výklad, ne číslo (factcheck S35 ⚠) → tečky bez počtu. Animace: tečky se sesypou kolem uzlu. Konec bloku.",
+   "diagram_generator": "fork",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Totéž, kolem uzlu se objeví mnoho drobných postav / teček: EVERYONE ELSE HELPS LOOK AFTER IT. Nahoře NOT AS A FAVOUR.",
+   "anim": "animace",
+   "pause": 2.4
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Rým s S11 (totéž pole na týchž souřadnicích).",
+   "diagram_generator": "spravci",
+   "diagram": "Pole 18 765 teček jako v S11, vpravo postava LINUS malá. Popisek NOBODY COULD READ IT ALL."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Velikost oblastí NEnese data (nemáme počty po oblastech) → stejné dlaždice. Animace: dělicí čáry se dokreslí.",
+   "diagram_generator": "spravci",
+   "diagram": "Totéž pole rozdělené čarami na oblasti s nápisy: NETWORKING · MEMORY · FILE SYSTEMS · GRAPHICS DRIVERS · x86 · ARM · RISC-V …",
+   "anim": "animace"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "~3 400 záznamů k 2. 11. 2026 (factcheck S37–S38).",
+   "diagram_generator": "spravci",
+   "diagram": "Totéž, v každé oblasti drobná postava správce. Popisek THE MAINTAINERS FILE · ≈3,500 ENTRIES."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Tady začíná skutečná cesta kódu (pokyn uživatele 1). Animace: tečka doputuje.",
+   "diagram_generator": "spravci",
+   "diagram": "Strom NALEŽATO (kód teče zleva do uzlu páteře, ať uzel nemusí jinam): vlevo oblak změn, sloupec správců oblastí, sloupec 100+ správců nejvyšší úrovně, uzel ztlumeně. Ambrová tečka (A CHANGE) putuje k jednomu správci oblasti (THE RIGHT MAINTAINER).",
+   "anim": "animace"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Smyčka, žádná šipka ven — tu přidá S41.",
+   "diagram_generator": "spravci",
+   "diagram": "Detail správce: kolem něj čtyři kroky v kruhu REVIEW · ARGUE · ASK FOR FIXES · COLLECT.",
+   "pause": 0.6
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Krátký beat. Animace: balík vyjede nahoru. NÁVĚTÍ (text předchozí scény): po poslechu draftu uživatel nahlásil schwa za „up“; spektrogram potvrdil, návětí ho odstraní (obětovaná věta u S59 nechala zbytek dovětku).",
+   "diagram_generator": "spravci",
+   "diagram": "Strom jako S39 (naležato); od správce šipka s balíkem změn ke sloupci správců nejvyšší úrovně.",
+   "anim": "animace",
+   "naveti": "They review it, argue about it, ask for fixes, and collect what's ready."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Tohle je obraz, který opravuje zjednodušení háčku (S05): mezi kódem a Linusem jsou dvě vrstvy správců. „More than a hundred“ → popisek 100+, počet čar k uzlu ≥ 101 (assert). Animace: balíky stoupají stromem.",
+   "diagram_generator": "spravci",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Celý strom naležato: změny → správci oblastí → sloupec 100+ TOP-LEVEL (104 teček, assert > 100) → 104 čar do uzlu páteře LINUS vpravo.",
+   "anim": "animace"
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Konec bloku.",
+   "diagram_generator": "spravci",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Totéž jako S42 v celku: dole BUILT EVERYWHERE, u uzlu COMES TOGETHER IN ONE PLACE.",
+   "pause": 2.4
+  },
+  {
+   "id": "S44",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S44.png",
+   "note": "Předěl do bloku o firmách; jediná z mála SDXL. Žádná loga (negativ). Kotva stylu tlumená modrošedá.",
+   "prompt": "glass office towers of rival corporations seen from street level, several tall buildings side by side, flat grey overcast sky, no sun, wet pavement, no logos, no text"
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Šipky obousměrné, žádná firma nevyčnívá.",
+   "diagram_generator": "nadace",
+   "diagram": "Pět štítků firem do kruhu, mezi nimi zkřížené šipky soupeření."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Šipka míří od MICROSOFT k softwaru Googlu — podmět věty je Microsoft, který by rozhodoval. Čárkovaně = hypotéza.",
+   "diagram_generator": "nadace",
+   "diagram": "Štítek MICROSOFT a čárkovaná šipka DECIDES do bloku WHAT RUNS ON GOOGLE'S SERVERS; nad šipkou otazník."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Žádná čára od firem k Linusovi. S48 začíná „So“ → kratší pauza.",
+   "diagram_generator": "nadace",
+   "diagram": "Pět štítků firem v oblouku; postava LINUS stranou. Popisek DOESN'T WORK FOR ANY OF THEM.",
+   "pause": 0.5
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Krátký beat, otázka.",
+   "diagram_generator": "nadace",
+   "diagram": "Postava LINUS, nad ní WHO PAYS HIM?"
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Šipka míří od LF k Linusovi (LF platí). Částka záměrně NENÍ (rozhodnutí uživatele). Animace: blok se objeví, šipka dorazí.",
+   "diagram_generator": "nadace",
+   "diagram": "Blok THE LINUX FOUNDATION a šipka PAYS od něj k postavě LINUS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Kresba tvrdí „není vně korporátního světa“ — blok musí být celý uvnitř oblasti.",
+   "diagram_generator": "nadace",
+   "diagram": "Velká oblast THE CORPORATE WORLD; blok LINUX FOUNDATION leží UVNITŘ ní, ne vedle."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "501(c)(6) — obchodní sdružení (factcheck S50–S51). Animace: dlaždice se složí do bloku.",
+   "diagram_generator": "nadace",
+   "diagram": "Blok LINUX FOUNDATION složený z dlaždic firem: AN ASSOCIATION OF COMPANIES.",
+   "anim": "animace"
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "POKYN UŽIVATELE 2: šipky firem KONČÍ U LF, ne u jádra ani Linuse. Firmy mají vliv na nadaci, žádná sama neurčuje, co Linus přijme. Platinových 14, strop 20 křesel (factcheck S52).",
+   "diagram_generator": "nadace",
+   "diagram": "Nahoře šest štítků GOOGLE, MICROSOFT, INTEL, META, AMAZON, OTHERS. Od každého šipka TOP-TIER MEMBERSHIP do bloku LINUX FOUNDATION a v bloku řada křesel BOARD (jedno křeslo na firmu). Jádro / Linus stranou, BEZ šipky od firem."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Atribuce v obraze (THE FOUNDATION SAYS), ať kresba netvrdí víc než hlas.",
+   "diagram_generator": "nadace",
+   "diagram": "Blok LF a šipka k postavě LINUS; u šipky SO HE CAN STAY INDEPENDENT a menší THE FOUNDATION SAYS."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Míra jistoty: záruku jsme nenašli (factcheck S54 ⚠) → čárkovaný rámeček, ne škrt.",
+   "diagram_generator": "nadace",
+   "diagram": "Dva rámečky vedle sebe: STATED PURPOSE (plný, ✓) a PUBLISHED GUARANTEE (čárkovaný, prázdný, NONE FOUND)."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "2,95 % prognózy výdajů 2025 (factcheck S55) → assert 3 % ± 0,1. S56 začíná „So“ → kratší pauza.",
+   "diagram_generator": "nadace",
+   "diagram": "Mřížka 1 000+ drobných čtverečků (projekty LF). Pod ní pruh rozpočtu: ≈3 % ambrově THE KERNEL.",
+   "pause": 0.5
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "„Not putting one of their own at the top“ — na vrcholu je Linus, ne zástupce firmy.",
+   "diagram_generator": "nadace",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Uzel páteře nahoře (THE TOP) prázdný od firem; štítky firem dole, žádný z nich nahoře."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Žádná firma barevně (ambrová = o tom je řeč — tady uzel). Konec bloku, hlavní pointa (proč to firmy nepřevezmou). ZA scénou DRUHÁ VÝZVA K ODBĚRU (~5:04) → LEVÝ DOLNÍ ROH PRÁZDNÝ: štítky firem v horní a pravé části kruhu, vlevo dole nic.",
+   "diagram_generator": "nadace",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Uzel uprostřed jako společný stůl, kolem něj pět štítků firem ve stejné vzdálenosti: WORK TOGETHER · NONE OF THEM IN CHARGE.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Otázka bloku.",
+   "diagram_generator": "bcachefs",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Uzel LINUS, nad ním THE FINAL WORD?"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Krátký beat; S60 tentýž disk rozsvítí. NÁVĚTÍ (text předchozí scény): po poslechu draftu uživatel nahlásil schwa za „looks like“; spektrogram potvrdil, návětí ho odstraní (obětovaná věta u S59 nechala zbytek dovětku).",
+   "diagram_generator": "bcachefs",
+   "diagram": "Ikona disku se štítkem BCACHEFS, ztlumeně. Popisek ONE CASE.",
+   "pause": 0.5,
+   "naveti": "But does Linus really have the final word?"
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Sloučen v 6.7, vyšlo 7. 1. 2024 (factcheck S60). Stejná hlavní čára jako u Androidu.",
+   "diagram_generator": "bcachefs",
+   "diagram": "Hlavní čára MAIN KERNEL (tvar `vetev()` z bloku forku); na ni dosedne blok BCACHEFS · 2024 s ikonou disku. Popisek A NEW WAY OF STORING FILES ON A DISK."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Délky úseků podle skutečného cyklu (2 týdny + ~7 týdnů rc). Tvar osy se opakuje v S62.",
+   "diagram_generator": "bcachefs",
+   "diagram": "Osa jednoho vydání: první úsek ambrově MERGE WINDOW · 2 WEEKS · NEW FEATURES, zbytek ztlumeně ONLY FIXES (rc1…rc7)."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Animace: bloky dopadají do zóny oprav.",
+   "diagram_generator": "bcachefs",
+   "diagram": "Tatáž osa; do úseku ONLY FIXES dopadají velké bloky LARGE CHANGES od BCACHEFS DEVELOPER.",
+   "anim": "animace"
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Uvozuje citaci; rým s panely Grega (S22, S30).",
+   "diagram_generator": "bcachefs",
+   "diagram": "Panel e-mailu (LKML): LINUS TORVALDS · AUGUST 2024, tělo zatím prázdné.",
+   "pause": 0.4
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Doslovná citace, zkrácený začátek (factcheck S63–S64). Animace: text se objeví po řádcích s hlasem (text se nehýbe, jen naskočí).",
+   "diagram_generator": "bcachefs",
+   "diagram": "Tentýž panel, v těle citace “AT SOME POINT, FIX SOMETHING JUST TURNS INTO DEVELOPMENT. AND THIS IS THAT POINT.”",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Bubliny bez textu, jen počet jako náznak — netvrdí konkrétní počet zpráv.",
+   "diagram_generator": "bcachefs",
+   "diagram": "Osa AUG 2024 → AUG 2025 a podél ní řada bublin (spor)."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Rým s S21 (Android vypadl z téže čáry). Animace: blok vyjede.",
+   "diagram_generator": "bcachefs",
+   "diagram": "Hlavní čára jako v S60; blok BCACHEFS z ní vyjede ven. Popisek 2025 · TAKEN OUT OF THE KERNEL.",
+   "anim": "animace"
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "DKMS modul (factcheck S67). Neškrtat — pořád existuje.",
+   "diagram_generator": "bcachefs",
+   "diagram": "Blok BCACHEFS stranou od hlavní čáry, živý (ne přeškrtnutý): SEPARATE ADD-ON. Na čáře prázdné místo: NOT IN THE SHARED VERSION.",
+   "pause": 1.0
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "POKYN UŽIVATELE 3: bez grafů a statistik, nechat doznít. Konec bloku.",
+   "diagram_generator": "bcachefs",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Jednoduchý obraz bez čísel: uzel LINUS a do něj čáry od drobných postav; čáry jemně ambrové. Popisek POWER COMES FROM TRUST.",
+   "pause": 2.6
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Prázdný uzel = otázka nástupnictví; čárkovaně = hypotéza.",
+   "diagram_generator": "bez",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Uzel páteře prázdný, čárkovaný kruh; čáry do něj dál vedou. Popisek WHAT IF HE'S GONE?",
+   "pause": 1.0
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Krátký beat, uvozuje S71. NÁVĚTÍ (text předchozí scény): po poslechu draftu uživatel nahlásil „sss“ za „little“; spektrogram potvrdil, návětí ho odstraní (obětovaná věta u S59 nechala zbytek dovětku).",
+   "diagram_generator": "bez",
+   "diagram": "Časová osa s jedinou tečkou SEPTEMBER 2018, zatím bez popisu.",
+   "pause": 0.5,
+   "naveti": "So what happens when Linus is gone?"
+  },
+  {
+   "id": "S71",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S71.png",
+   "note": "„Linus stepped away“ — prázdná židle, žádná osoba (žádná imitace skutečného člověka). Druhá a poslední SDXL scéna.",
+   "prompt": "an empty office chair pushed back from a desk with a closed laptop, a mug and stacked papers, by a window, flat grey overcast light, no sun, quiet and still, no people, no text"
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Parafráze (doslova „My flippant attacks in emails…“), proto BEZ uvozovek.",
+   "diagram_generator": "bez",
+   "diagram": "Panel jako u citací, bez uvozovek: HE APOLOGISED FOR ATTACKING PEOPLE IN HIS EMAILS · TOOK TIME TO CHANGE HOW HE BEHAVED."
+  },
+  {
+   "id": "S73",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-02: Pick 0 = „Greg-Kroah-Hartman.jpeg“ (Sebastian Oliva, CC BY-SA 3.0), sedící, světlé pozadí, 2480×3307; proti snímkům u řečnického pultu (logo LinuxCon) a rozmazanému 240 px. Portrét: static, fit 0.84, žádný zoom. Hlas ho pojmenuje i připomene Android.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Greg Kroah-Hartman",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "4.19 podepsal Greg 22. 10. 2018, Linus zpět 26. 10. (factcheck S73–S74). Čára se nepřeruší = Linux kept going.",
+   "diagram_generator": "bez",
+   "diagram": "Hlavní čára 2018 bez přerušení: úsek GREG ambrově, na něm tečka 4.19 (OCT 2018), za ním LINUS IS BACK.",
+   "pause": 1.4
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "Zařazen 25. 1. 2026 (v6.19).",
+   "diagram_generator": "bez",
+   "diagram": "Dokument conclave.rst: A WRITTEN PLAN · SINCE 2026.",
+   "pause": 0.6
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "Animace: ručička oběhne ciferník, postavy se rozsvítí.",
+   "diagram_generator": "bez",
+   "diagram": "Hodiny 72 HOURS a kruh postav SENIOR MAINTAINERS u stolu: WHO TAKES OVER?",
+   "anim": "animace"
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "note": "Netvrdí jméno. S78 začíná „So“ → kratší pauza.",
+   "diagram_generator": "bez",
+   "diagram": "Dokument se dvěma řádky: SUCCESSOR — prázdné místo (čárkovaně); HOW TO FIND ONE — ✓.",
+   "pause": 0.6
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "note": "S79 začíná „What it can't…“ — pokračování → kratší pauza.",
+   "diagram_generator": "bez",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Čáry dál ústí do prázdného uzlu a pokračují za něj: LINUX CAN SURVIVE WITHOUT LINUS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "note": "POKYN UŽIVATELE 3: bez grafů a statistik. Hlavní obrat před závěrem → delší pauza.",
+   "diagram_generator": "bez",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Jednoduchý obraz: jen uzel páteře rozsvícený ambrově, nápis TRUST, čáry k němu ztlumené.",
+   "pause": 3.0
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "note": "Rým s S08.",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. Rozvržení jako S08: otázka WHY HASN'T BIG TECH REPLACED LINUS TORVALDS?",
+   "pause": 1.0
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "note": "S82 navazuje „It's…“ → kratší pauza.",
+   "diagram_generator": "zaver",
+   "diagram": "Postava s nápisem A PROGRAMMER, nápis přeškrtnutý (text_skrtnuty).",
+   "pause": 0.6
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "note": "Bez čísel (pokyn 3). Totéž rozvržení jako S07, aby výplata šla poznat.",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ `soutok()` (_kit.py): jeden uzel na pevných souřadnicích, do kterého ústí čáry kódu. VÝPLATA PÁTEŘE: pět štítků firem a od každé čára do jednoho uzlu; uzel ambrový, u něj postava (strážce). Popisek LOOKED AFTER BY SOMEONE NONE OF THEM OWNS."
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "note": "Posledních 20 s: horní polovina MUSÍ zůstat volná pro dlaždici a kolečko odběru (spodní okraj = titulek). Bez grafů (pokyn 3).",
+   "diagram_generator": "zaver",
+   "diagram": "Jednoduchý obraz v DOLNÍ polovině: brána / koruna a vedle ní postava strážce. Horní polovina prázdná.",
+   "pause": 2.0
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "note": "Otázka do komentářů. Horní polovina volná (závěrečná obrazovka).",
+   "diagram_generator": "zaver",
+   "diagram": "Dole dvě volby vedle sebe: jedna postava (ONE PERSON?) a skupina postav (OR A GROUP?). Horní polovina prázdná.",
+   "pause": 1.0
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "note": "Horní polovina volná. Poslední deska.",
+   "diagram_generator": "zaver",
+   "diagram": "Totéž jako S84, pod tím LET ME KNOW IN THE COMMENTS."
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Radiobudík `budik()` vpravo od středu na polici, displej 10:47. Vlevo ambrově NOBODY HAS EVER SET IT, pod tím ztlumeně malá ikona vlny nad budíkem.",
+      "note": "První obrazovka nese myšlenku (hodiny, které nikdo nenařídil), žádné SDXL. `budik()` je motiv videa: S01–S05, S26–S27, S47–S48, S51, S55, S57, S67 — vždy na týchž souřadnicích, jen S51/S67 jinde (dva budíky)."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Týž budík. Vlevo dva řádky: POWER CUT → displej dál správně; 02:00 → 03:00 (posun času) s malým měsícem.",
+      "note": "Displej ukazuje čas po změně; žádné konkrétní datum, scénář ho neříká."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Týž budík, vedle tři ikony přeškrtnuté jednotlivě (Wi-Fi, GPS satelit, telefon s aplikací) — škrt přes ikony, ne přes text (popisky NO WI-FI / NO GPS / NO APP čitelné).",
+      "note": "Škrt přes plochu bez písma, popisky zůstanou čitelné (pravidlo `skrt_text`)."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Budík zprůhledněný, uvnitř malý přijímač (obdélník s anténní tyčinkou). Vodorovně přes obraz poprvé PÁTEŘ `signal()`: ztlumená čára nosné vlny, na ní jediný ambrový pokles, popisek 1 PULSE · EVERY SECOND.",
+      "note": "Zavedení páteře: `signal()` leží VŽDY v pásu y≈560–760 (S04, S07–S10, S13–S15, S29–S33, S62–S63). Nekreslit ručně.",
+      "anim": "animace"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo páteř s pulzy (jeden ambrový), šipka doprava ke displeji budíku: 10:47 · WED · 11 NOV 2026 a velký otazník mezi nimi.",
+      "note": "Otázka videa jako obraz: jeden pulz → celé datum. Datum je ilustrativní (den natáčení), ne tvrzení.",
+      "pause": 1.6
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "mapa",
+      "diagram": "`mapa_atlantik()`: USA vlevo a Evropa vpravo, dvě mapy ve STEJNÉM měřítku (1 px ≈ 6,2 km) v dolní polovině, mezi nimi Atlantik. DCF77 · NEAR FRANKFURT a WWVB · COLORADO s obloučky; nahoře DIFFERENT TRANSMITTERS · THE SAME IDEA.",
+      "note": "Jedna kuželová mapa přes celý Atlantik vycházela s drobnou Evropou a obří Afrikou — proto dva panely se společným měřítkem (`_spolecne_meritko`). Páteř se vrací v S58, S64, S65 a S68 (výplata) na týchž souřadnicích; horní polovina volná."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "modulace",
+      "diagram": "Páteř `signal()`: souvislá nosná (hustá sinusovka v obálce), na začátku každé sekundy obálka krátce klesne (na ~15 %, scénář číslo neříká, v obraze bez čísla). Nad tím značky sekund 0, 1, 2, 3. Popisek DCF77 · DAY AND NIGHT.",
+      "note": "Kandidát na animaci (vlna běží zleva doprava). Pokles = snížení amplitudy, NE vypnutí — nosná se nikdy nezastaví (proto ve scénáři dip/gap, ne silence).",
+      "anim": "animace"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "modulace",
+      "diagram": "Přiblížený jeden pokles na páteři, závorka nad jeho délkou s ambrovým otazníkem: HOW LONG?",
+      "pause": 0.5
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "modulace",
+      "diagram": "Dva poklesy vedle sebe na páteři: 0.1 s → 0 a 0.2 s → 1 (číslice velké, ambrově); délky v poměru 1:2 přesně (assert).",
+      "note": "Fact check: PTB 100 ms = 0, 200 ms = 1. Délka čárky v obraze úměrná délce poklesu — hlídá assert.",
+      "anim": "animace"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "modulace",
+      "diagram": "Páteř s osmi sekundami, pod každým poklesem 0 nebo 1. Vlevo nahoře škrtnuté ikonky NO PACKETS · NO NETWORK (ztlumeně).",
+      "note": "Konec bloku „jak se kóduje bit“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "minuta",
+      "diagram": "PÁTEŘ 3 `telegram()`: řada 60 políček 0–59 (pás y≈420), plní se zleva; popisek 1 BIT · EVERY SECOND a 60 SECONDS = 60 BITS?",
+      "note": "`telegram()` leží VŽDY v témž pásu (S11–S20, S22–S25, S34–S42, S66). Políčko = sekunda.",
+      "pause": 0.5,
+      "anim": "animace"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "minuta",
+      "diagram": "Telegram: políčka 0–58 vyplněná, políčko 59 prázdné, ambrově 59.",
+      "pause": 0.5
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "minuta",
+      "diagram": "Pod telegramem páteř `signal()`: v sekundě 59 pokles CHYBÍ (nosná jde rovně), místo ambrově zakroužkované, popisek NO DIP.",
+      "note": "Ne „ticho“: nosná v 59. sekundě běží dál, chybí jen pokles (fact check).",
+      "pause": 0.5
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "minuta",
+      "diagram": "Totéž, za mezerou další pokles ambrově: NEW MINUTE · SECOND 0.",
+      "anim": "animace"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "minuta",
+      "diagram": "Dvě mezery (dvě minuty po sobě) jako tečky za větou; mezi nimi závorka ONE COMPLETE SENTENCE. Levý dolní roh prázdný (výzva).",
+      "note": "Za scénou výzva k odběru (konec úvodního bloku, ~2 min). Levý dolní roh x<22 %, y>75 % prázdný, nadpis diagramu na střed nebo vpravo.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "obsah",
+      "diagram": "Telegram, nad ním 59 BITS → ? (ambrový otazník)."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "obsah",
+      "diagram": "Telegram s vyznačenými úseky: MINUTE (21–27), HOUR (29–34), DAY (36–41), WEEKDAY (42–44), MONTH (45–49), YEAR (50–57). Každý úsek se rozsvítí, ostatní políčka ztlumená.",
+      "note": "Rozsahy bitů podle PTB (factcheck). Kandidát na animaci (postupné rozsvícení po větách).",
+      "anim": "animace",
+      "vycet": 0.3,
+      "zvuk": {
+        "bf_emma": "zvuk/S17.flac"
+      }
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "obsah",
+      "diagram": "Detail úseku minut pro 47: na drátě nejdřív JEDNOTKY (bity 21–24 = 7, váhy 1·2·4·8 → 1 1 1 0), pak DESÍTKY (25–27 = 4, váhy 10·20·40 → 0 0 1). Nahoře 47 → 4 | 7.",
+      "note": "Pořadí na drátě: jednotky (7) před desítkami (4), uvnitř číslice od váhy 1 (pokyn z fact checku). assert, že součet vah = 47."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "obsah",
+      "diagram": "Dvě skupiny: 4 BITS → 0–9 (políčka s vahami 1 2 4 8) a 3 BITS → 0–5 (10 20 40) pro desítky minut.",
+      "pause": 0.5
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "obsah",
+      "diagram": "Úsek roku (50–57): YEAR = 26; vedle ztlumeně 20 doplněné budíkem (ikona budíku) → 2026.",
+      "note": "Konec bloku „co se vejde“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "parita",
+      "diagram": "Páteř `signal()` s jedním poklesem rozmazaným (šum); kolem ikonky MOTOR · PHONE CHARGER · LED BULB ztlumeně, rušení ambrově.",
+      "pause": 0.5
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "parita",
+      "diagram": "Telegram: TŘI bloky (MINUTE | HOUR | DATE), za každým jedno ambrové políčko P1 (28), P2 (35), P3 (58).",
+      "note": "Tři bloky a tři paritní bity, ne šest (pokyn z fact checku).",
+      "pause": 0.6,
+      "anim": "animace"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "parita",
+      "diagram": "Blok minut pro 47 + P1: jedničky spočítané 4 → EVEN ✓.",
+      "note": "assert: počet jedniček včetně P1 je sudý.",
+      "pause": 0.5
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "parita",
+      "diagram": "Týž blok, jeden bit převrácený (ambrově): 5 → ODD ✗ · ERROR DETECTED.",
+      "pause": 0.5,
+      "anim": "animace"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "parita",
+      "diagram": "Dva bity převrácené: 4 → EVEN ✓ — ale ztlumeně WRONG MINUTE, chyba proklouzla.",
+      "note": "Fajfka u parity a zároveň špatné číslo: obraz musí říct „kontrola prošla, výsledek je špatně“, ne „v pořádku“.",
+      "anim": "animace"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "parita",
+      "diagram": "Budík a vedle dvě po sobě jdoucí minuty: 10:47 ✓ a 10:48 ✓ (navazují) → SET.",
+      "note": "„another valid one“ — vlastnost přijímače, ne protokolu (notes).",
+      "pause": 0.5
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "parita",
+      "diagram": "Budík s ukazatelem průběhu: SEVERAL MINUTES · ON A BAD DAY, MUCH LONGER.",
+      "note": "Konec bloku parity.",
+      "pause": 1.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "oznameni",
+      "diagram": "Prázdný tmavý obraz, uprostřed jen páteř `signal()` ztlumená a malý ambrový otazník.",
+      "note": "Beat před hlavní hádankou videa.",
+      "pause": 1.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "oznameni",
+      "diagram": "Časová osa: minuta 10:47 (rámeček přes 60 s), pod ní telegram se plní textem 10:48. Nad osou budík ukazuje 10:47.",
+      "note": "Zpráva se minutu VYSÍLÁ, necestuje (v0.3)."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "oznameni",
+      "diagram": "Hranice minut zvýrazněná ambrovým otazníkem: WHEN DOES IT CHANGE?",
+      "pause": 0.5
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "oznameni",
+      "diagram": "Telegram s nápisem: “AT THE NEXT MINUTE, IT WILL BE 10:48” (uvozovky = ohlášení)."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "oznameni",
+      "diagram": "Páteř: telegram přečtený → mezera (59) → další pokles ambrově, svislá čára 10:48:00.",
+      "note": "Kandidát na animaci (čtecí hlava jede po signálu).",
+      "anim": "animace"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "oznameni",
+      "diagram": "Dva řádky: BITS → WHAT (ztlumeně), DIP → WHEN (ambrově); pod nimi telegram a ambrový pokles.",
+      "note": "Hlavní pointa videa. Za ní druhá výzva; levý dolní roh prázdný.",
+      "pause": 2.8,
+      "vyzva": true
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "bity",
+      "diagram": "Telegram: rozsvícené už známé úseky ztlumeně, zbývající políčka 0–20 ambrově obtažená: MORE WORDS."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "bity",
+      "diagram": "Políčka 17 a 18: Z1 = SUMMER TIME (CEST), Z2 = WINTER TIME (CET).",
+      "note": "Z1 = CEST, Z2 = CET (PTB).",
+      "pause": 0.5
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "bity",
+      "diagram": "Políčko 16 (A1) ambrově = 1, nad ním hodina před změnou: 01:00 → 02:00 · WARNING.",
+      "pause": 0.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "bity",
+      "diagram": "Telegram pro 01:59 SEČ v neděli 29. 3. 2026 (A1 = 1, Z1 = 0, Z2 = 1 ambrově, úseky času rozsvícené). Pod ním 01:59 · SUNDAY 29 MARCH 2026 · WINTER TIME, varování a NO RULE INSIDE THE CLOCK · IT'S SIMPLY TOLD.",
+      "note": "Hodnoty bitů z fact checku. Kalendář nesmí vyznačit konkrétní neděli jako „naučenou“."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "bity",
+      "diagram": "Políčko A1 navždy 0 — ztlumené, popisek IF EUROPE STOPS CHANGING THE CLOCKS (podmínka, ne fakt).",
+      "note": "Navazuje na video 119. Podmíněné tvrzení → čárkovaně (konvence: čárkovaná = hypotéza).",
+      "pause": 2.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "bity",
+      "diagram": "Políčko 19 (A2) → LEAP SECOND; vedle minuta s 61 políčky (poslední ambrově), nadpis v minulém čase USED TO.",
+      "note": "Minulý čas (v0.4)."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "bity",
+      "diagram": "Časová osa: 31 DEC 2016 · LAST LEAP SECOND → OCT 2026 · CGPM ENDS THEM → 20 MAY 2027 · UTC RUNS CONTINUOUSLY.",
+      "note": "BIPM Resolution 5 (28. CGPM). Při vydání po 20. 5. 2027 přepsat i obraz (has run).",
+      "pause": 2.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "bity",
+      "diagram": "Telegram: políčko 0 zvlášť jako MINUTE MARKER, políčka 1–14 ambrově: NOT ABOUT TIME.",
+      "note": "Bity 1–14, bit 0 zvlášť (fact check, varianta a).",
+      "pause": 0.6
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "bity",
+      "diagram": "Bity 1–14 → zámek → meteostanice; SINCE 2006 · ENCRYPTED · COMPATIBLE STATIONS ONLY.",
+      "pause": 0.5
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "bity",
+      "diagram": "Dvě ikony: budík (čas) a cizí meteostanice s deštěm a nápisem THU; mezi nimi jeden signál.",
+      "note": "Žádný nápis o stavu služby (mimo provoz od 30. 6. 2026) — obraz by tvrdil stav ke dni vydání. Před vydáním znovu zkontrolovat (notes).",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S44.png",
+      "note": "Atmosférický noční předěl k bloku „noc“. Kolo 1 (výchozí seed) zamítnuto — okna s denním světlem. Kolo 2 (seed 154044) přijato podle funkce: jednoznačně noc (měsíc, hvězdy), budík model nenakreslil ani napodruhé — třetí seed ne, budík nesou diagramy S45–S48. Kdyby vadilo, náhrada je kresba `budik()` s měsícem, ne další seed.",
+      "prompt": "close view of a wooden nightstand in a dark bedroom at night, a small bedside radio alarm clock with a softly glowing amber display is the only light, faint cold moonlight through a window behind, black night sky outside, bed edge in deep shadow, quiet, nobody visible",
+      "pause": 0.8,
+      "seed": 154044
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "noc",
+      "diagram": "Řez: zakřivená Země, vlevo stožár, vpravo budík. Přízemní vlna podél země (plná) a prostorová vlna odražená od horní vrstvy (oblouk). Dvě poloviny: DAY (horní cesta ztlumená, krátká) | NIGHT (odraz výš, dosah dál, ambrově).",
+      "note": "Opatrně jako scénář: „často dál“, ne „vždy“. Vrstva bez písmen D/E (scénář je nejmenuje).",
+      "pause": 0.5
+    },
+    {
+      "id": "S46",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S46.png",
+      "note": "Funkce: noc bez rušení. Kolo 1 přijato podle funkce, ne podle promptu: místo kuchyně spící dvůr a domy s měsícem a stožárem v pozadí — nese „ve tři ráno je klid“ a vazbu na vysílač; dvě rozsvícená okna nevadí.",
+      "prompt": "a dark quiet kitchen at three in the morning, every appliance switched off, no lamps on, a window looking out over sleeping rooftops and, far away on the horizon, a single tall radio mast with a small amber light under a night sky"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "noc",
+      "diagram": "Graf: odchylka hodin (y) v čase (x, dny): od nuly lineárně roste ~1 s za den, popisek QUARTZ · ~1 S / DAY.",
+      "note": "Pilovitý průběh se dokončí v S48 — stejné osy."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "noc",
+      "diagram": "Tentýž graf: v noci check-in (ambrová svislá čárka) srazí odchylku na nulu → pila; jedna noc ztlumeně MISSED (pokračuje do dalšího dne).",
+      "note": "„next successful check-in“ — proto jedna vynechaná noc.",
+      "pause": 2.2,
+      "anim": "animace"
+    },
+    {
+      "id": "S49",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S49.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-11: „Low cost DCF77 receiver“ (Jahoe, public domain) — tyčka feritu s měděným vinutím a modul, čisté pozadí. Alternativa „Inside radio clock“ (pick 3) ukazuje tyčku uvnitř hodin, ale malou.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "DCF77 receiver",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "anteny",
+      "diagram": "Pohled shora: šipka TO TRANSMITTER. Vlevo tyč NAPŘÍČ šipkou (90°) ✓ STRONG, vpravo tyč PODÉL šipky (0°) ✗ SIGNAL CAN VANISH.",
+      "note": "Tyč napříč směrem k vysílači = příjem, podélně = ztráta. assert úhlů 90° a 0° (fact check: opačný obraz by tvrdil nepravdu).",
+      "pause": 0.5
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "anteny",
+      "diagram": "Dva stejné budíky: vlevo na polici ✓, vpravo 2 m dál za betonovou zdí s výztuží (šrafovaná stěna s pruty) ✗ NEVER SETS.",
+      "note": "Konec bloku přijímač.",
+      "pause": 2.6
+    },
+    {
+      "id": "S52",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S52.png",
+      "note": "Předěl k otázce „odkud vysílač bere čas“. Obecné stožáry, ne konkrétní Mainflingen — proto SDXL (ilustrace), ne fotka s nárokem. Kolo 1 přijato (soumrak místo noci, funkci nese).",
+      "prompt": "tall radio masts with long guy wires standing on flat open countryside at night, seen from far away across dark fields, a single small amber warning light on top of each mast, long low hills, calm clear night sky",
+      "pause": 0.8
+    },
+    {
+      "id": "S53",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S53.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-11: „Atomuhr-CS2 part2“ — laboratoř PTB s cesiovými hodinami CS2, na šířku. Alternativa CS4 (pick 0) je na výšku. Video 151 snímky PTB nepoužilo. Sken má bílý okraj ~20 px vpravo a ~16 px dole → `zoom` ho ořízne; bez `fit`, laboratoř smí vyplnit rám.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "PTB Atomuhr",
+        "pick": 2,
+        "grade": {
+          "zoom": [
+            0.01,
+            0.01,
+            0.975,
+            0.975
+          ]
+        }
+      }
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "cas",
+      "diagram": "Ztlumený atom cesia (jádro + oblak), z něj vlnka; velké číslo 9,192,631,770 ambrově = 1 SECOND.",
+      "note": "Zjednodušení definice (fact check, nechat). Cesium jen jednou (navazuje 151).",
+      "pause": 0.6
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "cas",
+      "diagram": "Budík na nočním stolku (osobní měřítko), nad ním řetěz ztlumeně: CAESIUM → PTB → DCF77 → YOUR CLOCK.",
+      "note": "S55 = osobní měřítko, S68 = geografické (pokyn uživatele, notes v0.4). Nesmí vypadat jako S68.",
+      "pause": 2.2
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "cas",
+      "diagram": "Vodorovná úsečka 1,000 KM → ≈ 3.3 MS (zaokrouhleno na ~3 ms, jako scénář: ABOUT 3 MS).",
+      "note": "1000 km / c = 3,34 ms; assert.",
+      "anim": "animace"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "cas",
+      "diagram": "Budík zobrazuje sekundy 10:48:07; pod ním měřítko jedné sekundy, na něm sotva viditelná ambrová čárka DELAY (few ms) — v měřítku.",
+      "note": "Šířka čárky úměrná (~5 ms z 1 s) — ukáže, proč na tom nezáleží. Nesmí slibovat milisekundovou přesnost budíku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "vysilace",
+      "diagram": "`mapa()`, DCF77 s kruhem ~2,000 KM (ambrově obrys), popisek MOST OF EUROPE.",
+      "note": "Kruh v měřítku mapy (assert poloměru z km). Island a Nordkapp mimo, Moskva na hraně."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "vysilace",
+      "diagram": "`mapa()` přiblížená na Evropu: tečka HBG · SWITZERLAND (ztlumeně, škrt přes tečku) · UNTIL 2011, šipka ke DCF77.",
+      "note": "Alternativa: archivní fotka vysílače Prangins, když se najde (pak `source` změnit a evidenci projít)."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "vysilace",
+      "diagram": "Čtyři štítky v řadě: BRITAIN · FRANCE · JAPAN · CHINA, každý s malou anténou ✓.",
+      "note": "Bez volacích znaků, scénář je neříká. Japonsko má dvě stanice — štítek země, ne počet.",
+      "pause": 0.8
+    },
+    {
+      "id": "S61",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S61.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-11: „WWVB Towers“ (NIST, public domain) — stožáry v prérii u Fort Collins, barevně. Alternativa pick 0 je bouřková obloha.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "WWVB antenna",
+        "pick": 2
+      }
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "wwvb",
+      "diagram": "Dvě páteře nad sebou: DCF77 (0 = 0.1 s, 1 = 0.2 s) a WWVB (0 = 0.2 s, 1 = 0.5 s); délky v měřítku (assert).",
+      "note": "Codex: S62 NENÍ rozpor se S09 — obraz musí postavit DCF77 a WWVB vedle sebe, ať je vidět „different dialect“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "wwvb",
+      "diagram": "WWVB minuta: značky 0.8 s každých 10 s (čárky ambrově jako čárky ve větě), dvě značky po sobě (59 a 0) = NEW MINUTE.",
+      "pause": 1.0
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "vysilace",
+      "diagram": "`mapa()`: Evropa podbarvená ztlumeně — CENTRAL EUROPEAN TIME (CET / CEST).",
+      "note": "„much of the continent“ — podbarvit jen pásmo SEČ, ne Británii a Portugalsko.",
+      "pause": 0.5
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "wwvb",
+      "diagram": "`mapa_atlantik()`: WWVB · SENDS UTC · 18:00 nad USA, pod tím čtyři pásma 10:00 / 11:00 / 12:00 / 13:00 (PACIFIC … EASTERN) s tečkovanými vodítky do mapy; vpravo YOU TELL THE CLOCK WHERE YOU ARE.",
+      "pause": 0.6,
+      "note": "11. 11. platí standardní čas: UTC 18:00 = ET 13, CT 12, MT 11, PT 10."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "wwvb",
+      "diagram": "Přeškrtnuté THE MONTH; osa 1–366 s ambrovým bodem 315 = 11 NOVEMBER 2026; JUST THE DAY OF THE YEAR.",
+      "note": "assert: 11. 11. 2026 = 315. den (nepřestupný rok)."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dva budíky v dolní polovině: GERMAN CLOCK ✗ ← signál z Colorada. Horní polovina prázdná.",
+      "note": "Posledních ~20 s: S67–S69 mají horní polovinu volnou pro závěrečnou obrazovku.",
+      "pause": 2.0
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "zaver",
+      "diagram": "Výplata `mapa_atlantik()`: tytéž souřadnice jako S06, kolem obou vysílačů slábnoucí soustředné vlny a bílé tečky měst (budíky). Žádné kruhy dosahu a žádný text — horní polovina prázdná.",
+      "note": "Geografický pohled (S68 ≠ S55). Kruh dosahu se u WWVB nekreslí, není k němu doložené číslo; evropská města mají assert < 2 000 km od DCF77.",
+      "pause": 2.6
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka do komentářů v dolní polovině: IF EVERY TIME SIGNAL DISAPPEARED TONIGHT, WOULD YOU NOTICE? Horní polovina prázdná.",
+      "note": "Závěrečná deska, statická, klidná."
+    }
+  ]
+}

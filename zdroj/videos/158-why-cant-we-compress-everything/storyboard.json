@@ -1,0 +1,862 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "pruh",
+      "diagram": "Stoh listů scénáře (náznak, tlumeně) a pod ním PÁTEŘ: plný pruh 158 SCRIPTS · 1,490,115 BYTES.",
+      "note": "PÁTEŘ = PRUH SOUBORU (pruh() v _kit.py): vodorovný pruh na pevných souřadnicích PRUH_*, plná délka = původní velikost, ambrová část = po kompresi, délky SPOČÍTANÉ z bajtů (assert). První obrazovka nese myšlenku: tohle je skutečný soubor, který se za chvíli zmenší. Čísla z mereni/vysledky.txt. Pruh se vrací v S02–S07, S54, S84; tytéž souřadnice i pro Wikipedii (S56–S58) a π (S73–S76)."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "pruh",
+      "diagram": "Páteř: pruh ztlumený, ambrově jeho zbytek 508,111 B (34,1 %) zarovnaný vlevo; nad ním štítek GZIP.",
+      "note": "Délka ambrové části = 508111/1490115 (assert). Text v obraze bez ‚two thirds gone‘, to řekne hlas.",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "pruh",
+      "diagram": "Ambrový pruh 508,111 B → šipka UNPACK → plný pruh 1,490,115 B a pod ním IDENTICAL (fajfka).",
+      "note": "Bezeztrátovost ukazuje obraz: zpět přesně původní délka. Rozbaleno bajt po bajtu ověřeno (vysledky.txt)."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "pruh",
+      "diagram": "Ambrový pruh 508,111 B, nad ním znovu GZIP s otazníkem.",
+      "note": "Krátká samostatná promluva → naveti = text S03.",
+      "naveti": "Unpack the file, and every script comes back, letter for letter.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "pruh",
+      "diagram": "Ambrový pruh a za jeho pravým koncem drobná červenooranžová špička +98 B (zvětšená lupou, ať je vidět).",
+      "note": "98 B je 0,02 % — na měřítku pruhu neviditelné, proto výřez lupou se zachovaným měřítkem uvnitř lupy (assert). Žádná nová barva bez významu: přírůstek = AMBER s čárkovaným obrysem, jinak paleta.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "pruh",
+      "diagram": "Tabulka kol: ROUND 2 +98 · ROUND 3 +98 · ROUND 4 +98 vedle lupy ze S05.",
+      "note": "Jen kola 2–4, NE ‚every time‘ (7. kolo +93, factcheck). Čísla z vysledky.txt.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "pruh",
+      "diagram": "Dva řádky: ROUND 1 −982,004 B (velká ambrová šipka dolů) a ROUND 2 +98 B; pod tím ambrový otazník.",
+      "note": "Konec háčku, otázka z titulu bez prozrazení příčiny.",
+      "pause": 2.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "bloky",
+      "diagram": "Druhý soubor rozložený na 16 obdélníků za sebou (STORED), šířky podle skutečných délek bloků; nápis NO COMPRESSION.",
+      "note": "Délky bloků z mereni/bloky.py a vysledky.txt (16 bloků, poslední kratší). Ne z hlavy."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "bloky",
+      "diagram": "Tytéž bloky; před každým ambrová značka 5 B, vlevo HEADER 10 B, vpravo FOOTER 8 B; součet 10 + 16×5 + 8 = 98.",
+      "note": "assert 10 + 16*5 + 8 == 98. Značky bloků jsou ‚label‘ ze scénáře.",
+      "pause": 0.6
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "bloky",
+      "diagram": "Schéma: DATA beze změny + tenký ambrový okraj INSTRUCTIONS TO UNDO.",
+      "note": "Obecná věta o režimu ‚stored‘. Bez slova ‚waste‘."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "bloky",
+      "diagram": "Zase S07 zmenšeně nahoře, dole dvě otázky: WHY NOTHING? · A CLEVERER PROGRAM?",
+      "note": "Konec úvodu.",
+      "pause": 2.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "lz",
+      "diagram": "Výřez skutečného script.md (monospace): tři značky <!-- Sxx --> a opakovaná slova ambrově podtržená.",
+      "note": "Text = skutečný výřez z některého script.md kanálu, ne vymyšlený."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "lz",
+      "diagram": "Týž výřez; druhý výskyt opakování nahrazen ambrovým rámečkem a obloukovou šipkou ZPĚT k prvnímu výskytu. Vlevo nahoře ZIV & LEMPEL 1977.",
+      "note": "Šipka míří ZPĚT do textu, ne do slovníku (LZ77, ne LZ78 — factcheck, výhrada 1)."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "lz",
+      "diagram": "Oblouková šipka nad textem, štítek (BACK 300, COPY 11); pod tím 11 znaků → 3 B.",
+      "note": "Skutečný odkaz z korpusu (data.py): ‚ perhaps the‘ ve scénáři 032, PŘESNĚ 300 znaků zpět, délka 12, jediný výskyt v okně 32 KB. Délka 11 na 300 jednoznačná neexistuje → scénář změněn na ‚twelve‘ (2026-11-15). Velikost odkazu ‚a few bytes‘ podle factchecku. VÝZVA (za úvodem, ~1:40; za S11 by vyšla na ~1:15, pod oknem 1:30–2:15): levý dolní roh (x < 22 %, y > 75 %) prázdný v S14 i na začátku S15.",
+      "pause": 2.2,
+      "vyzva": true
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "huffman",
+      "diagram": "Abeceda podle skutečné četnosti v našich scénářích: E, T, A… s krátkými kódy (ambrově), Z, Q, X s dlouhými.",
+      "note": "Četnosti a délky kódů SPOČÍTAT Huffmanem z korpusu script.md (assert). Žádná Morseovka (škrtnuta v0.1). Levý dolní roh prázdný (doběh výzvy)."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S16.png",
+      "note": "ČTVRTÝ ZDROJ (CLAUDE.md): SDXL není k dispozici, kresbu dodá uživatel z ChatGPT podle zadání v art/PUVOD.md; ladí se k sdxl.style (malovaná ilustrace, ne fotorealismus). Bez osoby, bez čitelného textu. Atmosféra rozhodnutí ‚zkouška nebo seminárka‘. Bez osoby (negativ ‚faces‘). Nesmí to vypadat jako MIT konkrétně — je to obecný obraz, ne doklad. Druhá SDXL scéna videa, první je až tady (~1:50).",
+      "prompt": "1950s university study room at night, wooden desk with a stack of exam papers and an open notebook, desk lamp, blackboard with faint chalk marks in the background, empty chair",
+      "diagram_generator": "obrazy",
+      "diagram": "Kresba z ChatGPT přes celý obraz (art/S16.png): Huffman 1951: zkouška, nebo seminární práce."
+    },
+    {
+      "id": "S17",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Portrét Roberta Fana, BEZ zoomu, fit 0.84, jméno popiskem v rohu. PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-15 (Robert Fano 2012-03-13, CC BY 3.0).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Robert Fano",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "popisek": "ROBERT FANO"
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "huffman",
+      "diagram": "Kalendář/řada týdnů přeškrtávaná šedě, na konci odbočka STUDY FOR EXAM a ambrová žárovka.",
+      "note": "‚For months‘ — bez konkrétního data. Ne koš s papíry (to je novinářova parafráze, factcheck S18)."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "huffman",
+      "diagram": "Skutečné stavění Huffmanova stromu na malé abecedě (5–6 symbolů): dva nejvzácnější se slijí, opakovat, až zbude jeden strom.",
+      "note": "Strom SPOČÍTANÝ (heapq), ne nakreslený od oka; tytéž symboly a četnosti v S22."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "huffman",
+      "diagram": "Citát ve dvou řádcích: “THE MOST SINGULAR MOMENT OF MY LIFE” — DAVID HUFFMAN.",
+      "note": "Citát doslovně podle factchecku.",
+      "pause": 1.0
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "huffman",
+      "diagram": "Dva štítky FANO a SHANNON, mezi nimi SHANNON–FANO CODE; pod ním drobně ‚not optimum‘ (Huffmanova slova).",
+      "note": "Nezveličovat konflikt (pokyn uživatele): žádné ‚porazil profesora‘, jen že o tom nevěděl."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "huffman",
+      "diagram": "Tatáž abeceda jako S19: průměrná délka kódu SHANNON–FANO vs HUFFMAN (spočítaná), Huffman ambrově kratší; OPTIMAL FOR CODES OF THIS KIND.",
+      "note": "Čísla SPOČÍTAT na abecedě ze S19 tak, aby Shannon–Fano vyšel opravdu hůř (assert >). Optimalita jen ‚of its kind‘ (prefixové kódy po symbolech).",
+      "pause": 2.2
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "huffman",
+      "diagram": "Dvě větve LZ77 (1977) a HUFFMAN (1952) se slévají do DEFLATE → ZIP · GZIP. Pod tím PHIL KATZ.",
+      "note": "Spojnice = ‚oba triky dohromady‘, ne časová osa vynálezu. Data podle factchecku (early 1990s)."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "pruh",
+      "diagram": "Ambrový pruh 508,111 B a nad ním dva nástroje gzipu: REPEATS a COMMON LETTERS, oba s USED UP.",
+      "note": "NEKRESLIT výstup gzipu jako náhodný šum (recenze v0.2, factcheck). Tvrdí se jen: gzipovy vzory jsou vyčerpané."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "pruh",
+      "diagram": "Týž pruh přes lupu: bajty jako hex čísla bez zvýraznění; nad tím štítek TO GZIP: NOTHING TO FIND.",
+      "note": "Text v obraze ‚to gzip‘, ne ‚random‘. Hex = skutečné bajty z druhého kola (prvních ~48).",
+      "pause": 2.2
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Rámeček CLEVERER PROGRAM?: vlevo ANY FILE, vpravo SMALLER, čárkovaně (hypotéza).",
+      "note": "Čárkovaně = hypotéza (konvence _kit).",
+      "pause": 1.4
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Velké NO. přes rámeček ze S26 (škrtnutá šipka, ne celý rámeček).",
+      "note": "Škrt jen šipky ‚→ SMALLER for any file‘, ne celého nápadu (konvence škrtu)."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Osm 3bitových souborů ve sloupci: 000 … 111.",
+      "note": "Kreslí se z range(8) (assert 8). Rozvržení drží S28–S31 na týchž souřadnicích."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Vpravo sedm přihrádek: 00 01 10 11 · 0 1 · (EMPTY).",
+      "note": "assert 4+2+1 == 7. Prázdný soubor = přihrádka s nápisem EMPTY, ne vynechaná."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Holubník, nad pravým sloupcem velké SEVEN.",
+      "note": "Beat ‚Seven.‘: jen SEVEN; krátká promluva → naveti = konec S29.",
+      "pause": 0.6,
+      "naveti": "Four two-bit files, two one-bit files, and one empty file."
+    },
+    {
+      "id": "S30b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30b.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Mezi sloupci 8 → 7; velká čísla EIGHT / SEVEN nad sloupci.",
+      "pause": 0.5
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Dvě šipky ze dvou souborů do téže přihrádky (ambrově), z přihrádky zpět šipka s otazníkem WHICH ONE?",
+      "note": "Scéna, kde něco míří na něco: obě šipky končí v TÉŽE přihrádce, zpáteční šipka z ní.",
+      "pause": 1.0
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Obecně: 2ⁿ FILES OF n BITS vs 2ⁿ − 1 SHORTER; holubí přihrádky jen jako rám (bez holubů v textu, nese obraz).",
+      "note": "Součet 1+2+…+2ⁿ⁻¹ = 2ⁿ − 1 (factcheck).",
+      "pause": 0.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Mapa kompresoru: soubory vlevo, vpravo část kratší (ambrově) a část delší (šedě, +).",
+      "note": "Platí pro kompresor nad VŠEMI soubory (S33 v0.3). Delší šedě, ne červeně — není to chyba programu.",
+      "pause": 1.0
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "bloky",
+      "diagram": "Řada 16 bloků ze S09 zmenšeně, režie 98 B ambrově a štítek THE PRICE.",
+      "note": "Callback S09, tytéž souřadnice bloků v měřítku."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Mřížka 16 × 16 = 256 políček, jedno ambrově; FEWER THAN 1 IN 255 · −1 BYTE.",
+      "note": "assert: podíl < 1/255 pro soubory v bajtech (factcheck S35). Text ‚fewer than 1 in 255‘, ne ‚1 in 256‘.",
+      "pause": 1.0
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "holubnik",
+      "diagram": "Tři ikony TEXT · PICTURES · PROGRAMS, každá s viditelným vzorem (opakované řádky, plochy barvy, smyčky).",
+      "note": "Konec bloku holubníku.",
+      "pause": 1.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "podvod",
+      "diagram": "Prázdný reklamní leták s hvězdičkou ‘NEW!’ ztlumeně.",
+      "note": "Přechod; bez názvu firmy (ten přijde v S38).",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "podvod",
+      "diagram": "Leták: WEB TECHNOLOGIES 1992 · ANY DATA → UNDER 1 KB · smyčka šipky AGAIN AND AGAIN.",
+      "note": "Formulace z comp.compression FAQ (factcheck S38). Smyčka = vlastní výstup znovu."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "podvod",
+      "diagram": "Citát “NOT SUBJECT TO THE LAWS OF INFORMATION THEORY” a přes leták razítko NEVER SHIPPED.",
+      "note": "VÝZVA (druhá, za pointou holubníku): levý dolní roh prázdný v S39 i na začátku S40.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "ztratova",
+      "diagram": "Dvě ikony PHOTO a MUSIC s tenkými pruhy velikosti, výrazně kratšími než u textu.",
+      "note": "Levý dolní roh prázdný (doběh výzvy).",
+      "pause": 0.6
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "ztratova",
+      "diagram": "Fotka vlevo ORIGINAL, vpravo táž po JPEG kompresi CLOSE ENOUGH; mezi nimi ≈ (ne =).",
+      "note": "Fotka ledňáčka z Commons (art/foto.*, evidence v art/PUVOD.md, atribuce do popisu videa ručně — není v sources.json). JPEG VYROBEN SAMI z originálu (magick, nízká kvalita). Symbol ≈ je tvrzení scény."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "ztratova",
+      "diagram": "Výřez téže JPEG fotky zvětšený nearest-neighbour: viditelné bloky 8×8 a rozmazané hrany.",
+      "note": "Skutečné artefakty z vlastního souboru (factcheck S41/S42), žádná simulace kresbou."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "ztratova",
+      "diagram": "Dva sloupce: LOSSY (≈, šedě) | LOSSLESS (=, ambrově, THIS VIDEO).",
+      "note": "Ambrová = ‚o tomhle je řeč‘, ne ‚lepší‘.",
+      "pause": 2.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "shannon",
+      "diagram": "Páteř: pruh 508,111 B a pod ním čárkovaná podlaha s otazníkem BOTTOM?",
+      "note": "Čárkovaně = ještě nevíme, kde je.",
+      "pause": 1.0
+    },
+    {
+      "id": "S45",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Portrét Shannona, BEZ zoomu, fit 0.84. Tentýž snímek jako 157/S39 (wikimedia, pick 4) — PŘEVZATO archive-raw/S39.orig ze 157 i s evidencí (sha256 shodné), nehledat znovu — obrázek jen --regrade. Odkaz na video 157 — karta jen pokud 157 vyjde dřív (factcheck S45).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Claude Shannon",
+        "pick": 4,
+        "grade": {
+          "fit": 0.84,
+          "popisek": "CLAUDE SHANNON"
+        }
+      },
+      "karta": "157-how-can-you-recover-data-that-never-arrived"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "shannon",
+      "diagram": "Zrcadlo: vlevo zpráva + ADDED REDUNDANCY (video 157), vpravo zpráva − REMOVED REDUNDANCY (this video); osa uprostřed 1948.",
+      "note": "Obě strany stejným tvarem, liší se jen směrem; levá ztlumeně (minulé video)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "shannon",
+      "diagram": "Text ‘THE QUICK BROWN F_’ a pod mezerou sloupcový graf pravděpodobnosti dalšího písmene; nápis ENTROPY = HOW HARD TO GUESS.",
+      "note": "Rozdělení SPOČÍTAT z korpusu (písmeno po daném kontextu), ne od oka."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "shannon",
+      "diagram": "Podlaha ENTROPY plnou čarou; kódy jako body klesající k ní, žádný pod ní; ON AVERAGE.",
+      "note": "Mez platí pro MODEL ZDROJE (recenze v0.2, factcheck S48) — v obraze ‚for this source‘ drobně.",
+      "pause": 2.2
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S49.png",
+      "note": "ČTVRTÝ ZDROJ (CLAUDE.md): SDXL není k dispozici, kresbu dodá uživatel z ChatGPT podle zadání v art/PUVOD.md; ladí se k sdxl.style (malovaná ilustrace, ne fotorealismus). Bez osoby, bez čitelného textu. Atmosféra Shannonova pokusu 1951 — obecná kancelář, ne doklad. Bez osoby.",
+      "prompt": "1950s office at Bell Labs style, typewriter on a wooden desk with a single sheet of paper, stack of printed pages, desk lamp, quiet evening light from a window",
+      "diagram_generator": "obrazy",
+      "diagram": "Kresba z ChatGPT přes celý obraz (art/S49.png): Shannonova hádací hra 1951."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "hra",
+      "diagram": "Řádek textu, který ještě nikdo neviděl: odkrytých prvních ~20 písmen, zbytek jako prázdná políčka.",
+      "note": "Ilustrační anglická věta, ne Shannonova pasáž; obraz netvrdí žádné číslo.",
+      "pause": 0.5
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "hra",
+      "diagram": "Políčko s pokusy: Q ✗, A ✗, E ✓ → pod ním 3 GUESSES.",
+      "note": "Druhý Shannonův pokus: hádá se do správné odpovědi (factcheck S51)."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "hra",
+      "diagram": "Velké ≈ 1 BIT PER LETTER; drobně WITH 100 LETTERS OF CONTEXT · RANGE 0.6–1.3.",
+      "note": "Experimentální odhad z lidí, ne mez angličtiny (recenze v0.2) — proto rozsah drobně."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "hra",
+      "diagram": "Dva pruhy pod sebou: COMPUTER 8 BITS (plný) a HUMAN READER ~1 (osmina, ambrově).",
+      "note": "Poměr délek 1/8 (assert).",
+      "pause": 0.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "pruh",
+      "diagram": "Páteř: stupnice 8 → 1 bit/znak; značka GZIP 2.73 mezi nimi, mezera k 1 vyšrafovaná ROOM.",
+      "note": "2,728 bitu/znak naměřeno (vysledky.txt) → ‚under three bits‘. Callback háčku na týchž souřadnicích.",
+      "pause": 2.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "hra",
+      "diagram": "Zbylá mezera mezi 2.73 a 1 s otazníkem MACHINE?",
+      "pause": 1.0
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "hutter",
+      "diagram": "Páteř přebarvená: plný pruh ENWIK9 · 1,000,000,000 BYTES OF WIKIPEDIA; nahoře HUTTER PRIZE.",
+      "note": "Tytéž souřadnice jako scripts v S01 — divák pozná ‚tentýž pokus, větší soubor‘."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "hutter",
+      "diagram": "Na pruhu značky GZIP 32 % a XZ 20 % (everyday).",
+      "note": "LTCB: gzip -9 32,3 %, xz 19,7 % (factcheck). ‚a third‘ / ‚about a fifth‘."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "hutter",
+      "diagram": "Ambrová značka RECORD 7/2026 · 100.4 MB = A TENTH.",
+      "note": "Rekord 100,4 MB (factcheck). Délka spočítaná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "hutter",
+      "diagram": "Výsledný pruh rozdělený: COMPRESSED DATA + DECOMPRESSOR, součet = TOTAL.",
+      "note": "Pravidlo ceny: velikost programu se počítá. Poměr částí podle skutečného rekordu, pokud ho factcheck má; jinak bez čísel.",
+      "pause": 1.0
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "hutter",
+      "diagram": "€500,000 FUND · 1 % BETTER = €5,000.",
+      "note": "Podle pravidel ceny (factcheck)."
+    },
+    {
+      "id": "S61",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Portrét Marcuse Huttera, BEZ zoomu, fit 0.84, jméno popiskem. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-15 (vlastní snímek Huttera, CC BY-SA 4.0). Citát nese hlas.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Marcus Hutter",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "popisek": "MARCUS HUTTER"
+        }
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "predikce",
+      "diagram": "Dvě cesty: HUNT FOR REPEATS (šedě, škrtnutá šipka) vs PREDICT (ambrově).",
+      "note": "S62 začíná ‚Because‘ a navazuje na citát — krátká pauza za S61."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "predikce",
+      "diagram": "Další znak: sloupce pravděpodobností, nejvyšší ambrově; pod ním cena −log₂ p v bitech (např. p = 0.9 → 0.15 BIT).",
+      "note": "Čísla SPOČÍTANÁ (assert ≈ −log2 p)."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "predikce",
+      "diagram": "Shannonovo políčko ze S51 a vedle neuronová síť (uzly a vrstvy) se šipkou NEXT?",
+      "note": "Táž kresba hádání jako S51 (sdílená funkce v _kit)."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "predikce",
+      "diagram": "JPEG soubor: pruh 100 % → ambrový 77 % (LEPTON, DROPBOX 2016).",
+      "note": "NSDI ’17: průměr 77 % → ‚over a fifth smaller‘."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "predikce",
+      "diagram": "Fajfka BIT FOR BIT a pod ní 46 PB SAVED BY 2017.",
+      "note": "Číslo podle factchecku S66.",
+      "pause": 2.2
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "modely",
+      "diagram": "Rámeček LARGE LANGUAGE MODEL → COMPRESSOR; DEEPMIND 2023.",
+      "note": "Bez loga firmy."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "modely",
+      "diagram": "Dva pruhy: PNG 58 % a LLM 48 % (ambrově); nadpis IMAGENET · SMALL GREYSCALE PATCHES.",
+      "note": "Dataset musí být v obraze (factcheck S68). Délky z % (assert)."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "modely",
+      "diagram": "Dva pruhy: FLAC 30 % a LLM 21 %; nadpis LIBRISPEECH · READ SPEECH.",
+      "note": "Tytéž souřadnice jako S68."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "modely",
+      "diagram": "Pruh LLM s připočtenou velikostí modelu utíká z obrazu doprava, šipka →→ a ×140 WITH THE MODEL.",
+      "note": "140× = 14 008–14 101 % (factcheck S70). Pruh nesmí skončit v obraze (to by tvrdilo menší číslo).",
+      "pause": 1.2
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "modely",
+      "diagram": "Rovnice DESCRIPTION = PROGRAM + DATA, pruh ze S59 znovu.",
+      "note": "Most k Kolmogorovovi.",
+      "pause": 2.6
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S72.png",
+      "diagram_generator": "pi",
+      "diagram": "Stěna skutečných číslic π drobným monospace, začíná 3.14159…",
+      "note": "Číslice z mereni/pi.py, ne z hlavy (assert prvních 20)."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "pi",
+      "diagram": "Páteř: pruh 1,000,000 DIGITS; čtyři značky GZIP 470k · XZ 436k · BZIP2 431k · ZSTD 426k (ambrově).",
+      "note": "Čísla z vysledky.txt.",
+      "pause": 0.6
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "pi",
+      "diagram": "Tytéž čtyři značky pro RANDOM DIGITS hned pod π — skoro totožné; ±0.06 %.",
+      "note": "Náhodné číslice ze secrets (factcheck S74).",
+      "pause": 1.0
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "pi",
+      "diagram": "Výpis programu mereni/pi.py v okně editoru (záhlaví Windows: minimalizovat/maximalizovat/zavřít vpravo).",
+      "note": "Kód PŘESNĚ z mereni/pi.py (factcheck S75), počet bajtů musí sedět. tlacitka_okna() ze 134, žádné puntíky macOS."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "pi",
+      "diagram": "Páteř: pruh 1,000,000 B a pod ním program 362 B — tenká ambrová čárka; ×2,700 SHORTER.",
+      "note": "362 B na měřítku pruhu je pod pixel → čárka minimální šířky a lupa. 1 000 000 / 362 = 2 762 (‚over two thousand‘).",
+      "pause": 1.0
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "pi",
+      "diagram": "Kompresor (rámeček s lupou) vidí jen číslice; pravidlo π za ním čárkovaně a skryté.",
+      "note": "Bez antropomorfismu: ‚sees only digits‘.",
+      "pause": 2.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "kolmogorov",
+      "diagram": "PROGRAM → OUTPUT; pod programem pravítko HOW SHORT?",
+      "note": "‚One way to measure‘ — žádné ‚THE measure‘ v obraze.",
+      "pause": 0.5
+    },
+    {
+      "id": "S79",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Portrét Kolmogorova, BEZ zoomu, fit 0.84, jméno popiskem. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-15 (Konrad Jacobs, CC BY-SA 2.0 de).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Andrey Kolmogorov",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "popisek": "ANDREY KOLMOGOROV"
+        }
+      }
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "kolmogorov",
+      "diagram": "Holubník znovu (styl S29): málo krátkých programů nahoře, mnoho souborů dole; NOT ENOUGH SHORT PROGRAMS.",
+      "note": "Tvar převzatý ze S29–S32 (sdílená funkce), divák má poznat callback."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "kolmogorov",
+      "diagram": "Dvě dvojice: RANDOM DIGITS → program ≈ stejně dlouhý; PI → program 362 B.",
+      "note": "‚very likely‘ = drobně LIKELY u náhodných číslic (míra jistoty jako hlas)."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "kolmogorov",
+      "diagram": "Rámeček SHORTEST PROGRAM FINDER s nápisem FOR EVERY FILE přeškrtnutým (text_skrtnuty) a PROVEN IMPOSSIBLE.",
+      "note": "Škrtá se ‚for every file‘, ne celý nápad (dolní meze u konkrétních dat jdou)."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "kolmogorov",
+      "diagram": "Schody délek programů klesající (plně), pod nimi čárkovaná podlaha s otazníkem — nikdy ji nevidíš.",
+      "note": "Horní meze plně, dolní mez neznámá čárkovaně.",
+      "pause": 3.0
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "zaver",
+      "diagram": "Páteř posunutá do DOLNÍ poloviny (ZAVER_Y): pruh scripts 1,490,115 → 508,111; HORNÍ polovina prázdná.",
+      "note": "Závěrečná obrazovka: posledních ~20 s = S84–S86, horní polovina volná pro dlaždici a kolečko odběru. Páteř se smí pohnout jen tady."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "zaver",
+      "diagram": "V dolní polovině: PREDICT → UNDERSTAND? (otazník, ne rovnítko).",
+      "note": "Dojem, ne tvrzení — otazník nese míru jistoty hlasu."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "zaver",
+      "diagram": "V dolní polovině otázka: WOULD YOU SAY IT UNDERSTANDS? Horní polovina prázdná.",
+      "note": "Otázka do komentářů (docs/cta.md).",
+      "pause": 3.0
+    }
+  ]
+}

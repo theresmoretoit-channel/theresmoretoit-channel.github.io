@@ -1,0 +1,711 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY a do S50 se nepohne. Není to sdxl a není to atmosféra: první obrazovka nese myšlenku videa doslova — je to ta mapa, o které se bude tvrdit, že lže. `docs/storyboard-a-diagramy.md`, kapitola o první scéně.",
+      "diagram_generator": "uvod",
+      "diagram": "RÁMEC se zavádí. Mercatorova mapa světa, všechny pevniny ztlumené, nic zvýrazněného, žádný popisek. Prázdná mapa, na kterou se divák dívá."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Jména se sázejí k tvaru, ne do legendy — divák musí poznat, o čem je řeč, bez přeskakování očima. Grónsko přijde POSLEDNÍ, protože na něm stojí hook.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž mapa. Postupně se rozsvítí Evropa, Afrika, Severní Amerika a nakonec Grónsko — každá jménem u svého tvaru."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "TVRZENÍ NESE KRESBA: na Mercatoru vychází Grónsko 1,08× Afriky, tedy o chlup větší. Změřeno z dat (over_plochy), nekreslí se od oka. Kdyby se Grónsko nakreslilo menší, hook by nefungoval.",
+      "diagram_generator": "uvod",
+      "diagram": "Grónsko a Afrika ambrové, zbytek ztlumený. Vedle rámce sloupec se skutečnými plochami: 2 166 000 km² a 30 370 000 km²."
+    },
+    {
+      "id": "S03b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03b.png",
+      "note": "Beat, ne střih. Číslo je jediné, co přibývá.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, přes něj velké ambrové 14×."
+    },
+    {
+      "id": "S03c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03c.png",
+      "note": "Beat. Konec hooku.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, 14× zůstává, mapa se ztlumí a přes ni se položí slovo LYING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Poprvé se ukáže koule — MOTIV, který se vrátí v S32, S38b a S50. Kreslí ji koule(), takže má všude týž poloměr a callback se pozná.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Koule a vedle ní prázdný obdélník rámce. Mezi nimi šipka. Pod tím tři slova: NOT BY ACCIDENT / BY NECESSITY."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Otázka se klade obrazem, ne jen hlasem.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Koule vlevo, rámec vpravo, mezi nimi otazník. Popisek: HOW DO YOU TURN A SPHERE INTO A FLAT SHEET?"
+    },
+    {
+      "id": "S05b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05b.png",
+      "note": "Beat „You can't.“ Jedna měnící se věc, ne nový obraz.\n\nNÁVĚTÍ kvůli SLABICE NAVÍC. Divák nahlásil zvuk za \"can't\"; rozhodl to\nwhisper — v promluvě dlouhé 1,045 s slyší „You can't DO.\", tedy slovo\nnavíc v 0,70–0,82 s. V obálce je tam hrb na −7 az −13 dB vůči tělu,\ntedy NE doznívající schwa (ta má −11 az −13 dB a 375 ms plošiny).\nJe to tatáž vada jako „Probably not to.\" u videa 026.\n\nObětovaná věta tu nepomůže: `tts.py` ji zapíná při `pause >= 1.5`\na tahle scéna má 0,8 — a jak ukázalo video 026, v promluvě kolem\nsekundy se stejně nenajde kde řezat. NEOPRAVUJ to zvýšením pauzy.\n\nNávětí je záměrně text OTÁZKY z S05, ne obecná věta: „You can't\" je\nodpověď, takže si tím udrží i tázavě-odpovědní intonaci. Ve scénáři\nse nic nemění a návětí se nikdy neozve.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Týž obraz, otazník se změní v přeškrtnutou šipku.",
+      "naveti": "How do you turn a sphere into a flat sheet of paper?"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "TOHLE JE ZÁRODEK CALLBACKU V S38b. Kreslí to `pasy()`, tedy TÁŽ FUNKCE, která v S38 kreslí globusové pásy — proto se to v S38b pozná. Pomeranč se schválně nekreslí jako sdxl: kdyby byl malovaný a pásy v S38 kreslené kódem, divák by spojitost neviděl.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Pomeranč: koule rozdělená na dvanáct pásů, a vedle táž kůra sloupnutá a položená na plocho — pásy se rozestoupí a mezi nimi zůstanou klínové mezery."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Dvě možnosti, obě špatně — a je to vidět naráz, ne po sobě.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Dva pokusy vedle sebe: vlevo kůra roztržená (TEARS), vpravo zmačkaná (WRINKLES). Obojí popsané."
+    },
+    {
+      "id": "S08",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: Jensenův portrét z roku 1840, public domain, je to TA podobizna Gausse, kterou člověk zná. Dotaz je zúžený tak, aby cíl vycházel první — `pick` sám o sobě nic nedokládá, protože pořadí výsledků Commons se mění i mezi dvěma voláními minutu po sobě. Doklad je `archive-raw/S08.orig` a jeho otisk.\nPortrét = `fit`, celá hlava s odstupem, a ŽÁDNÝ ZOOM (divák u čtvrtého videa hlásil uříznuté čelo). Jediná lidská tvář videa a sedí na místo, kde se z dojmu stává důkaz.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Portrait of Carl Friedrich Gauss Jensen",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "saturation": 60,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "POZOR, tahle scéna se opravovala kvůli věcné chybě: válec zakřivený JE, nulovou má jen Gaussovu křivost. Kresba proto netvrdí „trubka není zakřivená“, nýbrž „trubka jde rozvinout“. Slovo CURVED se v obraze nesmí objevit.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Papír svinutý do trubky (zelená fajfka) a papír přikládaný ke kouli, kde se krčí (křížek). Popisky CAN BE UNROLLED a CANNOT WITHOUT STRETCHING OR TEARING."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Škrtá se `text_skrtnuty()`, ne `skrt_text()` — ta kreslí jen čáru a u videa 026 z toho byly holé čárky bez nápisu. Přes nápis vodorovně, ne křížkem.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Nápis NOBODY HAS MANAGED IT YET přeškrtnutý vodorovnou čarou a pod ním NOBODY CAN."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Poprvé je vidět, že projekcí je víc než jedna. Všechny tři se kreslí ze SKUTEČNÝCH dat týmiž funkcemi, takže se liší přesně tak, jak se liší doopravdy.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Koule, z ní vycházejí tři různé ploché mapy (Mercator, plochojevná, rovnoběžná). Popisek MAP PROJECTIONS."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "KONVENCE 1: ambrová znamená „tohle si projekce nechala“, ne „tohle je dobré“. Které dva svítí je libovolné — je to ukázka volby, ne konkrétní projekce; musí to být vidět z popisku YOU CAN KEEP SOME.",
+      "diagram_generator": "koule_plocha",
+      "diagram": "Čtyři štítky v řadě: AREA, SHAPE, DISTANCE, DIRECTION. Dva se rozsvítí ambrově, dva zůstanou ztlumené a jsou přeškrtnuté.",
+      "pause": 2.4
+    },
+    {
+      "id": "S13",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S13.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU. Složenina všech osmnácti listů mapy z roku 1569, public domain, autor Gerardus Mercator. Je to jediné místo videa, kde divák uvidí ORIGINÁL — kreslené mapy kolem jsou naše rekonstrukce a tohle je doklad, že mluvíme o skutečné věci.\n`fit`, protože mapa je širší než rám a ořez by uřízl půlku světa — a scéna má ukázat, že je to celá mapa.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Mercator 1569 world map composite",
+        "pick": 0,
+        "grade": {
+          "fit": 0.92,
+          "saturation": 70,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "KRESBA MUSÍ TVRDIT TOTÉŽ CO VĚTA: čára je LOXODROMA (stálý kurz), ne nejkratší cesta. Nesmí se u ní objevit slovo SHORTEST — ortodroma na Mercatoru přímka není a scénář to netvrdí.",
+      "diagram_generator": "mercator",
+      "diagram": "Rámec s Mercatorem. Z Lisabonu do Karibiku vede rovná ambrová čára a u ní opakovaně týž úhel kompasu. Popisek CONSTANT COMPASS BEARING."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Přechod. Slovo PRICE zůstane na týchž souřadnicích i v S16, aby se vědělo, že další tři scény jsou odpověď na ně.",
+      "diagram_generator": "mercator",
+      "diagram": "Týž rámec. Nápis WRONG přeškrtnutý a pod ním WRONG IN A VERY USEFUL WAY. Vpravo dole se objeví slovo PRICE."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "TOHLE JE TEN POCTIVÝ OBRAZ. Naivní čtverec „dva stupně na dva“ by dal sec φ, ne sec²φ — naměřeno, u mysu Morris Jesup 5,8× místo 82×, tedy čtrnáctkrát vedle. Kreslí to `flek()`, který rozsah v délce dělí kosinem, takže plocha NA ZEMI zůstává stejná. Použij 300 000 km²: na rovníku je to ~20 px, u 71,6° ~63 px, a chyba proti vzorci je pod 1 %.",
+      "diagram_generator": "mercator",
+      "diagram": "Rámec s vodorovnými rovnoběžkami po 30°. U každé je malý čtvereček o TÉŽE skutečné ploše — a je vidět, jak nahoře roste."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "ČÍSLA SE NEPÍŠOU, POČÍTAJÍ SE: `sec2(OSLO_LAT)` a `sec2(STRED_GRONSKA_LAT)`. Scéna si je ověří `over_plochy()`/`assert`em proti nakresleným flekům.",
+      "diagram_generator": "mercator",
+      "diagram": "Týž obraz. U Osla (59,9°) popisek 4× a u středu Grónska (71,6°) popisek 10×."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "ZADÁNO UŽIVATELEM: musí být vizuálně jasné, ČEHO se „more than eighty times“ týká. Proto křivka — číslo je BODOVÁ hodnota na 83,66°, ne průměr přes tvar. NENÍ TO CELÝ OSTROV: celé Grónsko je nafouknuté 16,5× a část nad 83° jen 77,5× (změřeno). Kdyby se ambrově obtáhl celý ostrov a připsalo 82×, kresba by tvrdila něco jiného než scénář. Označ BOD, ne plochu.",
+      "diagram_generator": "mercator",
+      "diagram": "Vpravo od rámce svislá osa zeměpisné šířky a na ní křivka sec²φ, která u pólu utíká z obrazu. Na mapě je ambrovým bodem označený mys Morris Jesup a u něj 82×."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "TVRZENÍ NESE KRESBA, HLÍDAT: na Mercatoru je Jižní Amerika 0,58× Grónska, tedy VIDITELNĚ MENŠÍ — proto scénář říká „which on this map looks smaller“. Původní verze říkala „looks about the same“ a data ukázala, že to není pravda. Nakreslené plochy si scéna ověří `over_plochy('mercator', ...)`.",
+      "diagram_generator": "mercator",
+      "diagram": "Rámec s Mercatorem. Ambrové Grónsko a vedle něj ve stejném měřítku Kongo, Alžírsko a Jižní Amerika. U každého skutečná rozloha."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "ZKRESLENÍ SE NEKRESLÍ, POČÍTÁ SE: `posun()` přičte stupně k zeměpisné šířce a tvar se projektuje znovu, takže plocha vyjde sama. Naměřeno: na rovníku 0,23× dnešní velikosti. POZOR — to NENÍ 10× ani 82×, protože Grónsko se táhne přes 24 stupňů šířky a čísla z S17 a S18 jsou bodová. Do obrazu proto NEPIŠ žádný násobek, jinak si scéna odporuje s předchozími dvěma.",
+      "diagram_generator": "mercator",
+      "diagram": "Grónsko sjíždí po mapě k rovníku a zmenšuje se; pak zpátky na sever a zase roste. Jeho původní obrys zůstane čárkovaně na místě."
+    },
+    {
+      "id": "S20b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20b.png",
+      "note": "Beat. Ambrová je na druhém řádku, protože o mapě je řeč.",
+      "diagram_generator": "mercator",
+      "diagram": "Týž obraz zastavený u rovníku. Pod ním GREENLAND HASN'T CHANGED (ztlumeně) a THE MAP HAS (ambrově)."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Tvrzení „nekonečné“ se kreslí tím, že se nedá kam ukázat — obraz musí z rámce utéct. Rámec se přitom NESMÍ pohnout: to, že mapa končí, je právě to, o čem scéna mluví.",
+      "diagram_generator": "mercator",
+      "diagram": "Rámec, a nad jeho horní hranou svislá osa, která pokračuje za okraj obrazu se šipkou a nápisem ∞. Horní hrana rámce je ambrová."
+    },
+    {
+      "id": "S21b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21b.png",
+      "note": "Beat a zároveň návrat k S01. Vizuálně TOTÉŽ co první obrazovka — divák si má uvědomit, že se vrátil tam, kde začal.",
+      "diagram_generator": "mercator",
+      "diagram": "Týž rámec, celá mapa ztlumená do jednoho tónu, bez popisků. Vypadá jako mapa ve třídě.",
+      "pause": 2.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "PÁTEŘ: rámec se nezměnil, obsah ano. Naměřeno: plochojevná vyjde 1444 × 855 px, takže v rámci 1444 × 980 zůstane mezera — a to je vidět, aniž by se to muselo říct. Ověř `over_plochy('plocha', ...)`: Afrika / Grónsko musí vyjít 13,7×, tedy shodně se skutečností.",
+      "diagram_generator": "oprava",
+      "diagram": "Týž rámec, ale mapa v něm je PLOCHOJEVNÁ — nižší pás, nahoře i dole zbude prázdno. Afrika ambrová."
+    },
+    {
+      "id": "S22b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22b.png",
+      "note": "Beat. Záměrně vypadá jako konec — a hned v S23 se to sebere.",
+      "diagram_generator": "oprava",
+      "diagram": "Týž obraz, přes něj PROBLEM SOLVED.",
+      "naveti": "Africa is the size it should be."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "KONVENCE 2: čárkovaně je porovnání, plně je to, o čem scéna mluví. Protažení do výšky je u rovníkové pevniny SPRÁVNÉ chování plochojevné válcové projekce, nekresli to od oka — vyjde to z dat samo.",
+      "diagram_generator": "oprava",
+      "diagram": "Týž rámec. Afrika zvýrazněná a vedle ní tentýž tvar z Mercatoru čárkovaně, aby bylo vidět protažení do výšky."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Tvrzení scény je, že se nedá vyhrát. Musí to být vidět jako SOUSTAVA, ne jako tři obrázky za sebou.",
+      "diagram_generator": "oprava",
+      "diagram": "Rámec rozdělený na tři pole vedle sebe: SHAPE / AREA / DISTANCE. V každém táž mapa jinou projekcí a u každé přeškrtnutá dvě ze čtyř vlastností."
+    },
+    {
+      "id": "S24b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24b.png",
+      "note": "Beat a předěl do Bostonu. Cyklus se zastaví — to je ta 'stops being a question about geometry'.",
+      "diagram_generator": "oprava",
+      "diagram": "Všechny tři mapy zešednou a zůstane jediné slovo: GEOMETRY, přeškrtnuté.",
+      "pause": 2.6
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Kreslené, ne archiv: fotka bostonské třídy z roku 2017 je pod copyrightem a Commons obecnou třídu nemá (u patnáctého videa nevyšel ani jeden ze 47 stažených snímků na obecný předmět).",
+      "diagram_generator": "boston",
+      "diagram": "Třída: tabule, na ní zavěšená Mercatorova mapa, a ruka ji sundává. Vlevo nahoře BOSTON, 2017."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Ročníky jsou doložené (viz factcheck) a jsou to konkrétní čísla, která scéně dodají váhu. Jméno GALL-PETERS se v obraze NEOBJEVÍ — scénář ho schválně nemá, aby si video neříkalo o tu debatu.",
+      "diagram_generator": "boston",
+      "diagram": "Na téže tabuli visí plochojevná mapa. Vedle tři štítky s ročníky: 2ND / 7TH / 11TH GRADE."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Motiv scény je doložitelný fakt, ne názor: Evropa je na Mercatoru nafouknutá. Kresba tedy tvrdí přesně to, co scénář, a ani o stupeň víc.",
+      "diagram_generator": "boston",
+      "diagram": "Dvě mapy nad sebou, u obou zvýrazněná Evropa a Afrika a jejich nakreslená plocha. Popisek QUIETLY INFLATED u té horní."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "POZNÁVACÍ ZNAK Z CLAUDE.md: scéna, ve které něco míří na někoho. Šipka musí ukazovat na NOVOU mapu, ne na starou — podmět věty je 'what the new map does'.",
+      "diagram_generator": "boston",
+      "diagram": "Obě mapy ztlumené, mezi nimi velká ambrová šipka mířící na tu NOVOU. Popisek WHAT DOES THE NEW MAP DO?"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Dvě tvrzení v jednom obraze a obě musí být pravdivá naráz. Plochy si scéna ověří `over_plochy` v obou projekcích.",
+      "diagram_generator": "boston",
+      "diagram": "Plochojevná mapa, Afrika ambrová a vedle ní tatáž Afrika z Mercatoru čárkovaně. Popisky SIZES RIGHT a SHAPES WRONG."
+    },
+    {
+      "id": "S29b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29b.png",
+      "note": "Beat. Ani jedna není ambrová — to je celá pointa otázky.",
+      "diagram_generator": "boston",
+      "diagram": "Obě mapy vedle sebe, stejně velké, obě ztlumené, mezi nimi otazník.",
+      "dovetek": "None of them, and all of them."
+    },
+    {
+      "id": "S29c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29c.png",
+      "note": "Beat. Obě ambrové ZÁROVEŇ, ne po sobě — kdyby se rozsvěcely postupně, kresba by tvrdila, že jedna je první.",
+      "diagram_generator": "boston",
+      "diagram": "Obě se rozsvítí naráz. Pod nimi NONE OF THEM a AND ALL OF THEM.",
+      "pause": 2.6,
+      "dovetek": "It depends what you want it for."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Kreslené schematicky, ne fotorealisticky — čtyři fotky téhož člověka by musely být čtyři skutečné snímky jedné osoby a to Commons nemá. Hlava je táž `hlava_postavy()` ve všech čtyřech, jinak tvrzení 'the same person' padá.",
+      "diagram_generator": "foto",
+      "diagram": "Čtyři podobizny téže hlavy vedle sebe: zepředu, z profilu, termokamerou (obrys s teplotními pásy), rentgenem (lebka)."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Štítky nesou tvrzení 'preserving different information'. Bez nich jsou to čtyři obrázky hlavy — a podle druhé zpětné vazby 'abstraktní tvar bez legendy neříká nic'.",
+      "diagram_generator": "foto",
+      "diagram": "Táž čtveřice, pod každou jiný štítek: SHAPE / OUTLINE / HEAT / BONE. Nad nimi SAME PERSON.",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "Jedna ze tří sdxl scén videa. Atmosféra je tu na místě — scéna říká 'might be sitting on your desk', tedy míří na vzpomínku, ne na tvrzení. POZOR na `dawn`/`dusk`: u dvacátého videa z nich vyšla teplá poušť proti kotvě stylu. Proto `flat grey overcast`.\n\nPŘIJATO PODLE FUNKCE, ne podle shody s promptem (seed 533808702, odvozený z ID scény, takže `--force` dá tutéž kompozici). Globus na dřevěném stole u okna, prázdná židle, otevřený sešit — scéna má vyvolat vzpomínku na školní globus a dělá to. Globus je BEZ PEVNIN a je to dobře: scéna mluví o předmětu, ne o mapě.\nPaleta vyšla sepiová místo indigové; jas 137, tedy 6,5× proti diagramům — o chlup nad pásmem kanálu (4,0–6,3×), ale ne odlehlá hodnota. Než na to sáhneš, změř poměr proti hotovým videím.",
+      "prompt": "a small school globe standing on a plain wooden desk beside a closed notebook, seen slightly from above, empty quiet classroom behind it out of focus, flat grey overcast light from a window, no sun, no text"
+    },
+    {
+      "id": "S32b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32b.png",
+      "note": "MOTIV se vrací. Poloměr je týž jako u pomeranče v S06 — kreslí `koule()`, nikdy vlastní kružnice. Rámec je pořád na svém místě a je to poprvé, co v něm není mapa.",
+      "diagram_generator": "globus",
+      "diagram": "Rámec zůstává prázdný a doprostřed něj se posadí koule.",
+      "naveti": "It might be sitting on your desk."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Poprvé za celé video vyjdou plochy správně — a je to vidět na týchž dvou tvarech jako v hooku. Ortografická projekce plochy nezachovává, ale u tvarů blízko středu je odchylka malá; scéna proto NESMÍ psát násobek, jen fajfky.",
+      "diagram_generator": "globus",
+      "diagram": "Koule, Grónsko a Afrika ambrové ve správném poměru. Vedle popisky AREAS / SHAPES / POLES, všechny s fajfkou."
+    },
+    {
+      "id": "S33b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33b.png",
+      "note": "Beat. Divák má na chvíli uvěřit, že vyhrál.",
+      "diagram_generator": "globus",
+      "diagram": "Táž koule, nad ní otazník. IS THE GLOBE THE HONEST MAP?",
+      "dovetek": "Not entirely, as it turns out."
+    },
+    {
+      "id": "S33c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33c.png",
+      "note": "Beat. Nic se nebourá, jen se přidá jedno slovo — a to je celý obrat.",
+      "diagram_generator": "globus",
+      "diagram": "Týž obraz, otazník se zmenší a vedle něj přibude WELL.",
+      "naveti": "So is the globe the honest map?"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "MĚŘÍTKO SE MUSÍ PŘIZNAT: rozdíl 21 km je na kouli neviditelný, takže se kreslí zveličeně — a u kresby musí stát, že je zveličená, jinak obraz tvrdí, že je Země viditelně placatá. Číslo 0,5 mm platí pro globus 30 cm.",
+      "diagram_generator": "globus",
+      "diagram": "Průřez Zemí: dokonalá kružnice čárkovaně a přes ni skutečný zploštělý tvar plně, rozdíl zveličený. Vedle NA GLOBU: 0,5 mm."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Tatáž past jako v S34, obráceně: tady se NESMÍ zveličovat, protože pointa je, že to nenahmatáš. Kresba musí být v měřítku.",
+      "diagram_generator": "globus",
+      "diagram": "Výřez povrchu globusu v řezu, na něm Everest jako čárka 0,2 mm vysoká, vedle ní špička prstu pro měřítko."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Scéna tvrdí, že se na globus nevejdou ulice. Musí to být vidět jako ŘETĚZ měřítek, ne jako dva obrázky.",
+      "diagram_generator": "globus",
+      "diagram": "Globus a vedle něj tatáž oblast zvětšovaná: stát, město, ulice — a u globusu je všechno jen tečka. Popisek 1 : 40 000 000."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Předěl. Nejlepší věc videa se ohlašuje otázkou, ne tvrzením.",
+      "diagram_generator": "globus",
+      "diagram": "Koule a nad ní otázka HOW IS A GLOBE MADE?"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "JEDINÉ ČÍSLO SCÉNY A JE VYSLOVENÉ: dvanáct, ne 'nějaké proužky'. Kreslí `pasy(n=12)` a má na to `assert`. Pásy nesou skutečnou mapu (clipPath), takže je to opravdu rozebraný globus, ne ozdoba.",
+      "diagram_generator": "globus",
+      "diagram": "Dvanáct pásů rozložených na plocho, se skutečnými obrysy pevnin uvnitř. Nad nimi TWELVE STRIPS."
+    },
+    {
+      "id": "S38b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38b.png",
+      "note": "VÝPLATA CALLBACKU PŘES ŠEST A PŮL MINUTY. Musí to být TÝŽ tvar jako v S06, tedy `pasy()` s týmiž parametry. Kdyby se pomeranč v S06 nakreslil jinak, tenhle beat tiše přestane fungovat — přesně před tím varuje `docs/storyboard-a-diagramy.md` u páteře.",
+      "diagram_generator": "globus",
+      "diagram": "Táž dvanáctka pásů, ale místo mapy je v nich kůra pomeranče z S06 — a šipka běží opačným směrem, od plochy ke kouli.",
+      "dovetek": "The distortion never went away."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Zkreslení nezmizelo, jen se schovalo — to musí být vidět na švech, ne jen napsáno.",
+      "diagram_generator": "globus",
+      "diagram": "Pásy nalepené na kouli, švy ambrově zvýrazněné. Popisek HIDDEN ALONG THE SEAMS."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "První půlka pivotu videa.",
+      "diagram_generator": "globus",
+      "diagram": "Koule, u ní zelená fajfka a nápis PROBLEM OF PROJECTION."
+    },
+    {
+      "id": "S40b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40b.png",
+      "note": "DRUHÁ PŮLKA PIVOTU A NEJSILNĚJŠÍ MÍSTO SCÉNÁŘE (tvoje slova). Jeden obraz, dva řádky — kdyby to byly dvě scény s různým obrazem, protiklad se ztratí. Fajfka a křížek musí být stejně velké a stejně výrazné.",
+      "diagram_generator": "globus",
+      "diagram": "Týž obraz, pod ním druhý řádek s křížkem: PROBLEM OF REPRESENTATION.",
+      "pause": 2.8
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Rámec je poprvé prázdný a nese jenom otázku. Je to příprava na to, že se v S50 rozpadne.",
+      "diagram_generator": "metro",
+      "diagram": "Prázdný rámec a v něm jediná věta: WHAT DO WE WANT A MAP TO DO? Pod rámcem ztlumeně přeškrtnuté HOW TO FLATTEN A PLANET."
+    },
+    {
+      "id": "S42",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S42.png",
+      "note": "Druhá ze tří sdxl scén. Metro je atmosféra a divák ho zná; schéma přijde hned v S43. Prázdný nástupiště schválně — scéna mluví o mapě, ne o lidech.\n\nPŘIJATO (seed 672921989). Prázdné nástupiště se stojícím vlakem, perokresba, na voze je i kus indigové z kotvy stylu. Nikdo na nástupišti — scéna mluví o mapě, ne o lidech. Jas 118, tedy 5,6× proti diagramům, uvnitř pásma kanálu.",
+      "prompt": "an empty underground railway platform late in the evening, tiled wall, a row of dark windows of a stopped train, nobody on the platform, flat even artificial light, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "KRESLÍ SE VLASTNÍ SCHÉMA, NE SKUTEČNÁ MAPA TfL. Beckova mapa z roku 1933 je pořád chráněná (Beck zemřel 1974) a roundel je ochranná známka. Vlastní schéma je navíc přesnější pro tvrzení scény.",
+      "diagram_generator": "metro",
+      "diagram": "Schematická mapa metra: rovné čáry, úhly po 45°, stanice jako čárky. Vedle ní táž síť v pravdivé geografii — křivá a nečitelná."
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43b.png",
+      "note": "Beat.",
+      "diagram_generator": "metro",
+      "diagram": "Týž obraz, přes něj AND NOBODY COMPLAINS."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "TVRZENÍ NESE KRESBA: na schématu musí být ZŘETELNĚ dál od sebe než na pravdivém výřezu, jinak scéna nedává smysl. Měřítko 260 m se kreslí s měřítkovou čárou, ne odhadem.",
+      "diagram_generator": "metro",
+      "diagram": "Výřez schématu: Leicester Square a Covent Garden daleko od sebe na schématu, a pod tím tytéž dvě stanice v měřítku — 260 m."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "KONVENCE 1 NARUBY, HLÍDAT: ambrová je tu u vlaku proto, že o něm je řeč ('people still take the train'), NE proto, že je to lepší volba. Ve scéně musí být vidět, že vlak je ta hloupější možnost.",
+      "diagram_generator": "metro",
+      "diagram": "Dvě dráhy vedle sebe: vlakem 45 s (podzemní čára) a pěšky 4 min (povrch). U vlaku ambrová postavička, u chůze ztlumená."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Rytmus wrong -> right, o kterém jsi psal ve zpětné vazbě na 0.2.",
+      "diagram_generator": "metro",
+      "diagram": "Schéma metra ambrově, pod ním dva řádky: WRONG ABOUT THE CITY (přeškrtnuté) a DESCRIBING THE SYSTEM (ambrově)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Zobecnění o patro výš než S46. Schválně jiný obraz — je to abstrakce, ne pokračování metra, a proto se vrací PRÁZDNÝ RÁMEC.",
+      "diagram_generator": "metro",
+      "diagram": "Rámec, v něm nic. Nad ním FAITHFUL TO PHYSICAL REALITY (přeškrtnuté) a FAITHFUL TO THE QUESTION YOU ARE ASKING (ambrově).",
+      "pause": 2.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Telefon se kreslí, ne generuje — ruka držící telefon je u SDXL past (deformované prsty) a scéna ji nepotřebuje.",
+      "diagram_generator": "digital",
+      "diagram": "Obrys telefonu a v jeho displeji výřez mapy. Rámec videa je kolem, ztlumený."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "CALLBACK NA S13. Tvrzení 'designed for sixteenth century sailors' se kreslí spojnicí, ne jen napsáním roku.",
+      "diagram_generator": "digital",
+      "diagram": "Výřez ulic v telefonu, a od něj čárkovaná čára zpátky k Mercatorově mapě z S13. Popisek 1569."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "VÝPLATA PÁTEŘE. Obdélník, který v obraze stál od S01, poprvé a naposledy ustoupí. Slova ON A COMPUTER v obraze být MUSÍ — na mobilu zůstal Mercator a bez toho upřesnění by scéna lhala.",
+      "diagram_generator": "digital",
+      "diagram": "RÁMEC SE ROZPADNE: jeho hrany se rozevřou a mapa uvnitř se stočí do koule. Popisek 2018 a ON A COMPUTER."
+    },
+    {
+      "id": "S50b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50b.png",
+      "note": "Uzavírá se hook. Čárkovaný obrys je TÝŽ tvar jako v S03 — to je poslední callback videa a musí sedět na velikost.",
+      "diagram_generator": "digital",
+      "diagram": "Táž koule, Grónsko ambrové a malé. Vedle čárkovaně jeho velikost z Mercatoru."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Digitální mapa jako volba, ne jako jedna pravda.",
+      "diagram_generator": "digital",
+      "diagram": "Koule uprostřed a kolem ní tři ztlumené ploché mapy, z nichž se vždy jedna rozsvítí."
+    },
+    {
+      "id": "S51b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51b.png",
+      "note": "Čtyři, protože scénář jmenuje čtyři. Víc ani míň — obraz nesmí tvrdit ani o jednu možnost víc než hlas.",
+      "diagram_generator": "digital",
+      "diagram": "Čtyři výřezy vedle sebe: NAVIGATION / AREA / ROUTES / POPULATION, každý jinou projekcí a jinou náplní."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Protiklad jedné a mnoha. Vpravo musí být zřetelně VÍC než tři, aby to byla 'many maps'.",
+      "diagram_generator": "digital",
+      "diagram": "Vlevo jediná mapa s nápisem PRETENDING TO BE THE WORLD (ztlumená), vpravo řada malých map, každá s jednou otázkou.",
+      "pause": 2.8
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "ZAČÍNÁ POSLEDNÍCH 20 SEKUND. Prvky závěrečné obrazovky YouTube patří do HORNÍ poloviny (dole je vždycky titulek), takže od téhle scény musí být nahoře souvislý volný pruh. Hlídá `python tools/zaver_check.py`.",
+      "diagram_generator": "zaver",
+      "diagram": "Rámec s mapou, nahoře hodně volného místa. Dva řádky dole: IS THIS MAP CORRECT? přeškrtnuté, WHAT IS IT TRYING TO GET RIGHT? ambrově."
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "note": "Beat. Nahoře pořád volno.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, přibude třetí řádek: AND WHAT IT IS LYING ABOUT."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Rámec i koule naposledy vedle sebe — celé video v jednom obraze. Horní polovina je záměrně prázdná kvůli závěrečné obrazovce.",
+      "diagram_generator": "zaver",
+      "diagram": "Závěrečná deska: rámec a v něm koule, obojí ztlumené, spodní třetina na text. Horní polovina PRÁZDNÁ."
+    },
+    {
+      "id": "S54b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54b.png",
+      "note": "Beat.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, dole NO MAP TELLS THE WHOLE TRUTH."
+    },
+    {
+      "id": "S54c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54c.png",
+      "note": "Beat.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, řádek se ztlumí a pod ním NOT BECAUSE THEY ARE WRONG."
+    },
+    {
+      "id": "S54d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54d.png",
+      "note": "Poslední obraz videa. Delší pauza, ať deska drží.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, poslední řádek: BUT BECAUSE THEY CANNOT SHOW US EVERYTHING.",
+      "pause": 3.2
+    }
+  ]
+}

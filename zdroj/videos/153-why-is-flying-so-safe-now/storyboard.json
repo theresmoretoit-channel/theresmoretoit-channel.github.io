@@ -1,0 +1,835 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Palubní lístek `listek()` vlevo: EARLY 1970s · RISK OF DYING ON THE FLIGHT · 1 IN 350,000 (číslo ambrově).",
+      "note": "První obrazovka nese číslo a myšlenku, žádné SDXL. Lístek je motiv, vrací se v S02, S03 a S77.",
+      "anim": "animace"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Vedle druhý lístek TODAY · 1 IN 14,000,000; první ztlumený.",
+      "anim": "animace"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Dva sloupce z lístků: 1970s vysoký, TODAY o 40× nižší (poměr 350 000 / 14 000 000 hlídá assert). ~40× SAFER · ONE LIFETIME.",
+      "note": "Sloupec = riziko, ne bezpečnost; nadpis to říká. Číslo z Barnetta (factcheck S01–S03).",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři ikony postupně: motor ENGINES STILL FAIL, sonda s ledem SENSORS STILL FREEZE, postava PILOTS STILL MAKE MISTAKES.",
+      "note": "Ikony se vrací v S78 (callback), proto v _kit.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři ikony ztlumené, nad nimi WHAT ACTUALLY CHANGED?",
+      "pause": 1.5,
+      "note": "Pauza 1,5 kvůli obětované větě: poslech draftu 2026-11-11 našel schwu za „changed“."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `stoh()`: osm šikmých plátů v řadě na pevných souřadnicích, všechny tlumeně šedé, bez popisků a bez děr. Zleva do nich míří tenká šipka letu. EVERY RULE · SAME REASON.",
+      "note": "Páteř videa. Pláty = pravidla/lekce; každý případ rozsvítí svůj (S18, S24, S29, S36, S39, S56, S66), v S67 dostanou díry (Swiss cheese), v S75 dva zeslábnou, v S80 svítí všechny. Kreslí se jen `stoh()` v _kit.",
+      "anim": "animace"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `stoh()`: pláty ztlumené skoro do pozadí, uprostřed SOMEBODY, SOMEWHERE, DIED.",
+      "note": "Beat, pak S08 začíná „But“ — záměrná pauza.",
+      "pause": 1.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě dráhy pod sebou: letadlo s ~40× SAFER, auto s NOT ANYTHING LIKE 40×. Bez sloupců a bez čísla u silnic.",
+      "note": "Číslo u silnic je ve factchecku z paměti (~3×), proto v obraze žádná výška ani číslo — obraz netvrdí víc než věta.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "uvod",
+      "diagram": "WHETHER IT LEARNS (tlumeně, `text_skrtnuty`) → HOW IT LEARNS SO WELL (ambrově).",
+      "note": "Hlavní otázka videa; odpověď až v S57–S68.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S10.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-11. Snímek letounu Model 299 (USAAC, PD). Pod tím štítek 30 OCT 1935 by se musel dokreslit — necháme bez textu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Boeing Model 299 b299",
+        "pick": 0
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S11.png",
+      "note": "Skutečný kokpit Model 299 (USAF, PD) nese „far more switches“ líp než kresba; čtyři motory a podvozek ukazuje S10.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Boeing Model 299 cockpit",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "model299",
+      "diagram": "Profil letu: rozjezd, strmé stoupání, STALL, pád (dráha se kreslí). Vpravo pět postav, dvě ztlumené: 2 OF 5 DIED.",
+      "note": "Pět postav, dvě ztlumené — assert na počty.",
+      "anim": "animace"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "model299",
+      "diagram": "Ocasní plochy s ambrovým zámkem CONTROL LOCK · STILL ENGAGED; řídicí páka se nepohne (čárkovaný obrys pokusu).",
+      "note": "Funkční nákres: zámek drží kormidla na zemi, ne motor. Ověřit proti factchecku S13 (jeden zámek).",
+      "anim": "animace"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "model299",
+      "diagram": "Výstřižek novin (obecný, bez titulu skutečných novin) s citátem “TOO MUCH AIRPLANE FOR ONE MAN TO FLY”.",
+      "note": "Citát doložen jen přes Gawandeho, uživatel 2026-11-11 rozhodl nechat. Žádné jméno novin v obraze."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "model299",
+      "diagram": "Kartička CHECKLIST, řádky se odškrtávají jeden po druhém: BEFORE TAKEOFF · BEFORE LANDING.",
+      "note": "Páteř scénáře (uživatel): „It was a card.“ — kartička velká, sama, nic dalšího.",
+      "anim": "animace"
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S16.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-11. B-17 za letu (USAAF, PD).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "B-17G Flying Fortress Duxford Flying",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "model299",
+      "diagram": "Kokpitový checklist: řádek LANDING GEAR ..... DOWN se odškrtne; vedle štítek CAPTAIN · 20,000 HOURS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "model299",
+      "diagram": "PÁTEŘ `stoh()`: rozsvítí se plát 1 CHECKLIST · 1935. Nadpis krátký: KNOWING ≠ DOING.",
+      "note": "Výzva k odběru za S18 (~2:00): levý dolní roh volný — popisky plátů NAD pláty, nadpis krátký.",
+      "anim": "animace",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S19",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S19.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-11. Comet 1 v barvách BOAC (PD/CC, ověřit licenci).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "De Havilland Comet 1 BOAC Heathrow 1953",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "comet",
+      "diagram": "Mapa Středomoří, dva body EARLY 1954 · WITHIN 3 MONTHS; pod tím tři přeškrtnuté štítky NO STORM · NO COLLISION · NO WARNING.",
+      "note": "Místa a data bodů z factchecku S20.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "comet",
+      "diagram": "Trup Cometu v nádrži s vodou, manometr pulzuje PRESSURISE / RELEASE.",
+      "note": "Funkční nákres: tlakuje se KABINA zevnitř, voda zvenku jen tlumí (factcheck S21).",
+      "anim": "animace"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "comet",
+      "diagram": "Totéž, počítadlo cyklů doběhne na ~3,000 FLIGHTS a trup se roztrhne.",
+      "note": "Číslo z factchecku S22.",
+      "anim": "animace"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "comet",
+      "diagram": "Detail: roh otvoru v trupu, každým cyklem se kov natáhne, z rohu roste trhlina. METAL FATIGUE.",
+      "note": "Trhlina z ROHU otvoru, ne ze středu plochy.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "comet",
+      "diagram": "PÁTEŘ `stoh()`: rozsvítí se plát 2 DESIGN · 1954. Nadpis DESIGNED AGAINST FATIGUE.",
+      "note": "Ne „tolerance poškození“ — to je 1978 (factcheck S24).",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S25",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-11. Warren s prototypem ARL Flight Memory Unit; když Commons nic nemá, nahradit kresbou (postava + AUSTRALIA).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Dave Warren with BlackBox Prototype",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "comet",
+      "diagram": "Vyšetřovatelé u trosek, nad kokpitem dva otazníky WHAT DID THEY SEE? · WHAT DID THEY SAY?",
+      "pause": 0.6
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "comet",
+      "diagram": "Skříňka se dvěma vstupy INSTRUMENTS a VOICES (do ní tečou křivky), kolem štít SURVIVES THE CRASH.",
+      "anim": "animace"
+    },
+    {
+      "id": "S28",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S28.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-11. Oranžový zapisovač (CC, ověřit).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Fdr sidefront",
+        "pick": 0
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "comet",
+      "diagram": "PÁTEŘ `stoh()`: rozsvítí se plát 3 RECORDERS. Nadpis NOT IN THE MACHINE.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S30",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30.png",
+      "note": "Funkce: mlha tak hustá, že posádky jedna druhou neviděly. Kolo 1 (výchozí seed) zamítnuto — letadla jasně vidět, jedno ve vzduchu. Kolo 2 (seed 153030) přijato.",
+      "prompt": "dense grey fog over an airport runway, visibility almost zero, a row of runway edge lights fading into the fog, the faint ghostly tail fin of one airliner barely visible in the mist, everything else swallowed by fog, flat grey overcast, no sun, empty, quiet",
+      "seed": 153030
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Dráha shora v mlze: KLM se rozjíždí z konce dráhy, PAN AM pojíždí proti němu; mlha zakrývá, co je dál než pár set metrů.",
+      "note": "Funkční nákres: obě na TÉŽE dráze, Pan Am jede směrem ke KLM (factcheck S30–S31).",
+      "anim": "animace"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Kapitán KLM, čárkovaná bublina (= jen to, co si myslel) CLEARED TO TAKE OFF, přeškrtnutá; HE HADN'T."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Rádiová křivka: “OK” čitelně, pak “STAND BY FOR TAKEOFF”, přes který se přelije druhá křivka a překryje ho.",
+      "note": "Přeslech: druhé volání PŘES druhou půlku, ne místo první (factcheck S32–S33).",
+      "anim": "animace"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Tři sedadla kokpitu: inženýr “IS HE NOT CLEAR, THAT PAN AMERICAN?”, kapitán “OH, YES.” Bubliny naskočí podle slov.",
+      "note": "Kdo mluví komu: bublina inženýra míří na kapitána.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "tenerife",
+      "diagram": "583 velkým písmem, pod tím DEADLIEST ACCIDENT IN AVIATION HISTORY.",
+      "pause": 2.2
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "tenerife",
+      "diagram": "PÁTEŘ `stoh()`: přibudou obrysy plátů 4 a 5, rozsvítí se 4 RADIO WORDS · 1977. TWO THINGS CHANGED.",
+      "anim": "animace"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Dvě karty: DEPARTURE (do povolení) → TAKEOFF (jen s povolením), ambrová je TAKEOFF.",
+      "anim": "animace"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Kapitán velký se štítkem HEAD OF 747 TRAINING, inženýr malý s jedinou bublinou; pak ONCE.",
+      "note": "Velikost = autorita; tady to tvrzení dělá záměrně.",
+      "anim": "animace"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "tenerife",
+      "diagram": "PÁTEŘ `stoh()`: rozsvítí se plát 5 CREW · CRM. Pod ním tlumeně TENERIFE · OTHER CRASHES · NASA RESEARCH.",
+      "note": "CRM nepřipisovat jen Tenerife (zpětná vazba k v0.1).",
+      "anim": "animace"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "tenerife",
+      "diagram": "Kapitán a první důstojník; bublina “I THINK THAT'S WRONG”; CHALLENGING AUTHORITY přeškrtnuto (`text_skrtnuty`), DOING THEIR JOB ambrově.",
+      "pause": 0.6
+    },
+    {
+      "id": "S41",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S41.png",
+      "note": "Předěl k UA232, atmosféra.",
+      "prompt": "airliner cockpit at night seen from behind the two pilot seats, glowing instruments, dark windscreen, two pilots in silhouette, no faces",
+      "pause": 2.2
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "ua232",
+      "diagram": "Bokorys DC-10 (tři motory, třetí v ocase) nad pruhy polí IOWA · 19 JULY 1989; ocasní motor se roztrhne.",
+      "note": "DC-10 = dva motory pod křídly + jeden v kýlu; ne MD-11, ne 727.",
+      "anim": "animace"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "ua232",
+      "diagram": "Tři hydraulické okruhy 1 · 2 · 3 vedou od motorů trupem k ocasu; úlomky je přeseknou a tlak ve všech třech spadne (čáry vyblednou). NO CONTROL SURFACES.",
+      "note": "Funkční nákres: každý motor pohání svůj okruh; přeseknuto v ocase (factcheck S42–S44).",
+      "anim": "animace"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "ua232",
+      "diagram": "Totéž, lupa na ocas: všechny tři čáry se sbíhají v jednom malém místě. 3 SYSTEMS · 1 SMALL PART OF THE TAIL.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "ua232",
+      "diagram": "Půdorys: levý motor dlouhá šipka MORE, pravý krátká LESS, letadlo zatáčí doprava (oblouk).",
+      "note": "Fyzika: víc tahu VLEVO → stáčí se DOPRAVA. Zkontrolovat směr.",
+      "anim": "animace"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "ua232",
+      "diagram": "Řez kabinou: postava z kabiny jde do kokpitu, štítek DC-10 INSTRUCTOR · PASSENGER, ruce na páky tahu.",
+      "anim": "animace"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "ua232",
+      "diagram": "Přiblížení k dráze SIOUX CITY; dráha letu se u země rozláme (přerušovaná, rozlámaná čára), bez kresby trosek.",
+      "note": "Žádné SDXL ani foto nehody (skutečná událost; fotky jsou chráněné).",
+      "pause": 1.0
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "ua232",
+      "diagram": "Mřížka 296 teček, 184 ambrových: 184 OF 296 SURVIVED.",
+      "note": "Počty hlídá assert.",
+      "anim": "animace"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "ua232",
+      "diagram": "Čtyři postavy v kokpitu spojené oblouky: THE FOUR OF THEM WORKED TOGETHER; dole štítek CREW RESOURCE MANAGEMENT.",
+      "note": "„the four of them“ = tři členové posádky + instruktor.",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "af447",
+      "diagram": "Dvě dráhy letu: ruční mírně vlnitá, autopilot hladká; SMOOTHER · SAFER, pak tlumeně A NEW KIND OF PROBLEM.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S51",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S51.png",
+      "note": "Atmosféra nočního Atlantiku. Kolo 1 zamítnuto — západ slunce nízko nad mořem, ne noc. Kolo 2 (seed 153051) přijato: šeré nebe nad mraky, noc nevyjde ani tak; třetí seed ne — kdyby nestačilo, nahradit mapou Rio → Paříž.",
+      "prompt": "a small airliner seen from far away flying high at night above a black ocean, moonless pitch dark sky, towering thunderstorm clouds ahead lit from inside by lightning, cold blue and black, no sun, no moon, no horizon glow",
+      "seed": 153051
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "af447",
+      "diagram": "Řetěz: pitotova trubice s krystalky ledu → AIRSPEED ??? → AUTOPILOT OFF → FLYING BY HAND.",
+      "note": "Funkční nákres: krystalky ucpou pitotovu trubici (rychlost), ne výškoměr.",
+      "anim": "animace"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "af447",
+      "diagram": "Bokorys: nos nahoru, dráha stoupá, rychloměr klesá, STALL.",
+      "anim": "animace"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "af447",
+      "diagram": "Letadlo s nosem nahoru, ale dráha (čárkovaná šipka vektoru) míří strmě dolů; opakované STALL, časovač > 3 MIN.",
+      "note": "Funkční nákres: náklon nahoru, pohyb dolů — to je celá pointa obrazu.",
+      "anim": "animace"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "af447",
+      "diagram": "Hloubkový profil oceánu: hladina, zapisovač u dna ~3,900 M; 228 · FOUND ~2 YEARS LATER.",
+      "note": "Čísla z factchecku S55.",
+      "pause": 1.2
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "af447",
+      "diagram": "PÁTEŘ `stoh()`: rozsvítí se plát 6 TRAINING · 2009. Nadpis UNDERSTAND THE AUTOMATION.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "PÁTEŘ `stoh()`: svítí pláty 1–6, každý s malým letopočtem; EVERY LESSON SO FAR COST LIVES.",
+      "note": "S58 začíná „But“ — záměrný beat před hlavním obratem.",
+      "pause": 0.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "PÁTEŘ `stoh()`: pláty 1–6 ztlumené, ambrově se nakreslí obrysy 7 a 8: MOST LESSONS DON'T.",
+      "note": "Hlavní obrat videa, odpověď na S09.",
+      "anim": "animace",
+      "pause": 3.0
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "Profil přiblížení: správná sestupová čára (tlumeně) a ambrová čára TWA, která klesne dřív a narazí do hřebene. 1 DEC 1974 · 92 DIED.",
+      "anim": "animace"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "Týž profil: o šest týdnů dřív čára UNITED klesne stejně, ale těsně nad hřebenem se zvedne: CAUGHT IT · REPORTED IT.",
+      "note": "Stejný profil na týchž souřadnicích jako S59.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "Hlášení jde do krabice UNITED PILOTS ONLY; šipka k TWA přeškrtnutá.",
+      "anim": "animace"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "Dvě oddělené krabice: REGULATOR (tlumeně) a NASA s REPORTING SYSTEM · 1976; mezi nimi stěna."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "PILOTS · CONTROLLERS · MECHANICS → formulář; štít IN MOST CASES · NOT USED TO PUNISH.",
+      "note": "„in most cases“ musí být v obraze — míra jistoty (factcheck S63).",
+      "anim": "animace"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "Hromada hlášení roste, počítadlo doběhne na 2,000,000+; vyletí tři štítky CLOSE CALLS · CONFUSING CHARTS · EASY-TO-MISREAD CHECKLIST.",
+      "note": "Číslo z factchecku S64.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "PREVENT THE NEXT ACCIDENT ambrově; DECIDE WHO'S TO BLAME přeškrtnuto; malý štítek INTERNATIONAL RULES · ICAO.",
+      "anim": "animace"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "hlaseni",
+      "diagram": "PÁTEŘ `stoh()`: rozsvítí se pláty 7 REPORTING · 1976 a 8 INVESTIGATION · ICAO. Nadpis ONLY IF NOT AFRAID.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "syr",
+      "diagram": "PÁTEŘ `stoh()`: do všech plátů se prořežou díry; postupně se zvýrazní DESIGN, CHECKLIST, CREW, TRAINING podle slov. SWISS CHEESE MODEL.",
+      "note": "Výplata páteře. Díry na pevných místech (`DIRY` v _kit), ať S68 a S75 sedí.",
+      "anim": "animace"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "syr",
+      "diagram": "PÁTEŘ `stoh()`: díry se srovnají do řady, šipka nebezpečí projde všemi: ACCIDENT; pak jedna díra se zmenší a šipka se zastaví.",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "syr",
+      "diagram": "PÁTEŘ `stoh()`: za pláty postavy, které je drží; RUN BY PEOPLE · WEAKENED FROM THE INSIDE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S70",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-11-11. Obecný 737 MAX (CC), ne letoun z nehody.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Boeing 737-8 MAX",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "maxx",
+      "diagram": "Dvě karty: INDONESIA · OCT 2018 a ETHIOPIA · MAR 2019, mezi nimi < 5 MONTHS; pod tím 346 DIED.",
+      "note": "Data z factchecku S70–S71.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "maxx",
+      "diagram": "Jeden snímač náběhu (AoA) ambrově vadný → SOFTWARE → stabilizátor tlačí nos dolů, opakovaně; tlumeně MANY PILOTS HADN'T BEEN TOLD.",
+      "note": "Jméno MCAS ani v obraze (scénář ho záměrně nemá). Funkční nákres: jeden snímač, ne dva.",
+      "anim": "animace"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "maxx",
+      "diagram": "Časová osa: EVENING BEFORE · SAME PROBLEM · SWITCHED IT OFF → NEXT MORNING · FLEW AGAIN → (prázdné místo havárie).",
+      "pause": 1.6
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "maxx",
+      "diagram": "Tři krabice daleko od kokpitu: DESIGN · CERTIFICATION · REGULATOR → MANUFACTURER (šipka předání kontroly).",
+      "note": "Šipka míří od regulátora K výrobci — „left to the manufacturer“."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "maxx",
+      "diagram": "PÁTEŘ `stoh()`: všechny pláty stojí, DESIGN a TRAINING se ztenčí. STILL THERE · MADE THINNER.",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "maxx",
+      "diagram": "PÁTEŘ `stoh()`: ztenčené pláty znovu zesílí; nahoře GROUNDED ~20 MONTHS.",
+      "note": "Výzva k odběru č. 2 za S76: levý dolní roh volný, nadpis nahoře.",
+      "anim": "animace",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dlouhé pravítko DECADES, na koncích lístky z S01/S02 (1970s · 1 IN 350,000 a TODAY · 1 IN 14,000,000); nad kouskem pravítka štítek ONE YEAR s titulky zpráv.",
+      "note": "Žádná vymyšlená roční data — jen dva doložené body a měřítko.",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "zaver",
+      "diagram": "Callback ikon z S04: motor, sonda, postava, každá STILL; nadpis WHY SO SAFE NOW?",
+      "note": "S79 pokračuje „But because“ — krátká pauza.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "zaver",
+      "diagram": "Řetěz: FAILURE · NEAR MISS → TAKEN APART → WRITTEN DOWN → SHARED WITH EVERYONE WHO FLIES.",
+      "anim": "animace"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ `stoh()`: svítí všech osm plátů; pod nimi tlumeně řada jmen MODEL 299 · COMET · TENERIFE · UA232 · AF447 · TWA 514 · LION AIR 610 · ETHIOPIAN 302.",
+      "note": "Jména bez přiřazení k plátům (CRM nemá jedinou nehodu).",
+      "pause": 1.6
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "zaver",
+      "diagram": "Spodní polovina: NOT BY NEVER MAKING MISTAKES (tlumeně) / BY REFUSING TO MAKE THE SAME ONE TWICE (ambrově). Horní polovina prázdná.",
+      "note": "Okno závěrečné obrazovky: prvky nahoru.",
+      "pause": 3.0
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná deska, spodní polovina: WHERE ELSE DO WE NEED THAT MOST? Horní polovina prázdná.",
+      "note": "Otázka do komentářů; okno závěrečné obrazovky."
+    }
+  ]
+}

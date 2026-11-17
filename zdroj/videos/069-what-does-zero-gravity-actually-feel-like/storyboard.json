@@ -1,0 +1,1042 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ #1 — KABINA + G-METR (kabina(), gmetr(g) v _kit.py, pevné souřadnice). První scéna schválně NENÍ sdxl a nese myšlenku: člověk ležící na podlaze a ručička na 1,8 g. VEDLE g-metru je vždy malá ztlumená šipka dolů EARTH'S PULL — konstantní v každé scéně s kabinou. To je teze videa (S07, S08, S81): gravitace se nemění, mění se jen to, co cítíš. Šipka se nikdy nesmí zkrátit ani zmizet.",
+      "diagram_generator": "uvod",
+      "diagram": "Bokorys úseku kabiny (podlaha, oblouk stropu, dvě okénka). Na podlaze postava vleže, přitlačená. Vpravo nahoře g-metr, ručička ambrově na 1.8 g, pod ním velké 1.8 g. Vedle ztlumeně šipka dolů EARTH'S PULL."
+    },
+
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "pause": 0.5,
+      "note": "Táž kabina a g-metr (1,8 g). Paže a hlava postavy s drobnými šipkami dolů — tíha končetin, ne celého těla.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz jako S01, u zvednuté paže a hlavy postavy krátké ambrové šipky dolů. Popisek HEAVY ARM, HEAVY HEAD."
+    },
+
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Kontrast k S01 na týchž souřadnicích: g-metr 0 g, postava se vznáší nad podlahou. Šipka EARTH'S PULL beze změny — to je ten paradox, který video pojmenuje v S07.",
+      "diagram_generator": "uvod",
+      "diagram": "Kabina, postava vznášející se v půli výšky, mezera pod chodidly zvýrazněná. G-metr ambrově 0 g. Šipka EARTH'S PULL stejná jako v S01."
+    },
+
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "pause": 0.5,
+      "note": "Postava se odrazila a letí napříč kabinou. Čárkovaná dráha = pohyb, ne tvrzení.",
+      "diagram_generator": "uvod",
+      "diagram": "Kabina, 0 g. Postava vpravo v letu, za ní čárkovaná dráha od podlahy vlevo."
+    },
+
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "pause": 1.4,
+      "note": "Postupný návrat tíhy: ručička mezi 0 a 1 g, postava klesá k podlaze. 'gradually' je oprava z v0.2 — ručička nesmí být rovnou na 1,8.",
+      "diagram_generator": "uvod",
+      "diagram": "Kabina, postava nízko nad podlahou, z podlahy krátké šipky vzhůru (FLOOR PUSHES BACK). G-metr kolem 0.5 g, ambrový oblouk od 0 k ručičce."
+    },
+
+    {
+      "id": "S06",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "pause": 0.5,
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-09-28: [1] 'View of Zero-G training for astronauts' — široký záběr kabiny KC-135, několik lidí ve vzduchu. ROLE: důkaz, že je to skutečné. Static: skupinový snímek, zoom by ořezával hlavy.",
+      "archive": {"provider": "nasa", "query": "KC-135 weightless training", "pick": 1, "grade": {"fit": 0.9}}
+    },
+
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "pause": 1.2,
+      "note": "Teze videa jedním obrazem: letadlo pořád v dosahu gravitace. Planeta dole, letadlo nad ní, šipka gravitace na letadlo plná. Letadlo NESMÍ být kresleno jako na orbitě — výška 8 km je proti Zemi nerozeznatelná, proto jen oblouk horizontu.",
+      "diagram_generator": "uvod",
+      "diagram": "Dole oblouk povrchu Země, těsně nad ním silueta letadla. Od letadla dolů plná šipka GRAVITY STILL HERE. Nahoře ambrově NEVER LEAVES EARTH'S GRAVITY."
+    },
+
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "pause": 0.5,
+      "note": "Vypínač gravitace, který nejde otočit — přeškrtnutý. Šipka na letadlo stejně dlouhá jako v S07 ('just as strongly as ever').",
+      "diagram_generator": "princip",
+      "diagram": "Vlevo vypínač GRAVITY v poloze ON, přes něj škrt (nejde vypnout). Vpravo letadlo a plná šipka dolů téže délky jako v S07."
+    },
+
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "pause": 1.0,
+      "note": "Otázka a odpověď. 'You let them fall' ambrově — pointa bloku, na kterou divák čeká.",
+      "diagram_generator": "princip",
+      "diagram": "Nahoře HOW DO YOU FEEL WEIGHTLESS?, pod tím velkým ambrovým písmem LET THEM FALL."
+    },
+
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Skok ze židle: postava a předměty kolem padají spolu — ČÁRY POHYBU stejně dlouhé (ne šipky: šipka dolů je v tomhle videu síla). Kdyby byly různé, tvrdila by kresba, že těžší padá rychleji.",
+      "diagram_generator": "princip",
+      "diagram": "Židle, nad ní postava v pádu a vedle dva drobné předměty (klíče, míč). Nad všemi třemi stejně dlouhé čáry pohybu. Popisek FALLING TOGETHER."
+    },
+
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "PÁTEŘ #2 — GRAF PARABOLY (parabola_graf() v _kit.py, pevné osy: výška 5–9 km, čas). Tady se zavádí jen tvar oblouku bez čísel; čísla přijdou v S14–S18 a S44–S60. Letadlo na oblouku.",
+      "diagram_generator": "princip",
+      "diagram": "Osy (výška × čas) bez hodnot, ambrový balistický oblouk, na něm silueta letadla. Popisek BALLISTIC TRAJECTORY."
+    },
+
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "pause": 1.2,
+      "note": "Pojmenování oblouku ze S11 — TENTÝŽ graf (páteř #2), jen se přidá jméno. Původně SDXL letadlo nad mraky; zamítnuto při kontrole storyboardu, protože hned za ním jde fotka skutečného A310 (S13) a dvě letadla za sebou by svedla ke srovnání malby s fotkou.",
+      "diagram_generator": "princip",
+      "diagram": "Graf jako v S11, oblouk ambrově, nad ním velkým písmem PARABOLIC FLIGHT."
+    },
+
+    {
+      "id": "S13",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13.png",
+      "pause": 0.6,
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-09-28: [0] 'Airbus A310 - F-WNOV AirZeroG' za letu nad lesem. ROLE: nástroj — letadlo zvenku. Licenci ověřit v LICENSES.md (Commons, pravděpodobně CC BY-SA → atribuce do popisu).",
+      "archive": {"provider": "wikimedia", "query": "Airbus A310 Zero G", "pick": 0, "grade": {"fit": 0.9}}
+    },
+
+    {
+      "id": "S13b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13b.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU 2026-09-28: [0] 'Airbus A-300 ZERO-G.jpg' — předchůdce dnešního A310, čistý boční pohled na pojížděcí dráze. ROLE: historie letadla (voiceover: nahradilo starší A300). Přidáno po zpětné vazbě diváka (která letadla). Licenci ověřit v LICENSES.md.",
+      "archive": {"provider": "wikimedia", "query": "Airbus A300 Zero-G", "pick": 0, "grade": {"fit": 0.92}}
+    },
+
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "pause": 0.5,
+      "note": "Graf paraboly s osami a hodnotami poprvé: vodorovný úsek v 6 km, 1 g. Fáze se v S15–S18 rozsvěcují jedna po druhé na TÉMŽE grafu — geometrie z parabola_graf(), nikdy ručně.",
+      "diagram_generator": "faze",
+      "diagram": "Graf výška/čas, značky 6 / 7.6 / 8.5 km. Ambrově rozsvícen jen vodorovný úsek v 6 km, nad ním štítek 1 g. Zbytek křivky ztlumeně."
+    },
+
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "pause": 0.5,
+      "note": "Rozsvícen úsek přitažení (stoupání z 6 do 7,6 km), štítek 1.8 g. Vedle malý g-metr — tentýž tvar jako v kabině, zmenšený (mimo registr páteře).",
+      "diagram_generator": "faze",
+      "diagram": "Týž graf, ambrově úsek stoupání 6 → 7.6 km, štítek PULL-UP 1.8 g."
+    },
+
+    {
+      "id": "S15b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15b.png",
+      "note": "Tři piloti naráz (zpětná vazba diváka: jak se stát pilotem). Třetí pilot je SCHVÁLNĚ 'steady sideways', ne 'roll' ani 'yaw' — Air Zero G píše roll, eoPortal yaw; formulace platí pro obojí. Nekreslit konkrétní osu třetího pilota jako náklon.",
+      "diagram_generator": "faze",
+      "diagram": "Tři postavy vedle sebe (piloti), nad každou symbol toho, co řídí: šipka nahoru/dolů NOSE, šipky do stran STEADY SIDEWAYS, páka ENGINES. Nahoře THREE PILOTS AT ONCE, dole TEST PILOTS."
+    },
+
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Vstup do volného pádu v 7,6 km — bod zlomu, ambrová tečka. Oblouk zatím ztlumený.",
+      "diagram_generator": "faze",
+      "diagram": "Týž graf, ambrová tečka v 7.6 km, popisek FREE FALL BEGINS."
+    },
+
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "pause": 0.5,
+      "note": "Celý balistický oblouk rozsvícen — stoupání, vrchol 8,5 km i klesání. Důležité už tady: 0 g platí přes CELÝ oblouk, ne jen na vrcholu (video to pak rozvádí v S46 a S58). Štítek ~20 s.",
+      "diagram_generator": "faze",
+      "diagram": "Týž graf, ambrově celý oblouk 7.6 → 8.5 → 7.6 km, štítek 0 g · ~20 s."
+    },
+
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Vybrání a opakování: rozsvícen úsek pod obloukem, štítek 1.8 g, za ním ztlumeně začátek další paraboly. Scéna MUSÍ zůstat static — navazuje na ni CTA S18b se zděděným obrazem.",
+      "diagram_generator": "faze",
+      "diagram": "Týž graf, ambrově úsek vybrání 7.6 → 6 km se štítkem PULL-OUT 1.8 g, vpravo ztlumeně druhá parabola (REPEAT)."
+    },
+
+    {
+      "id": "S18b",
+      "source": "svg",
+      "visual": "images/S18.png",
+      "effect": "static",
+      "cta": true,
+      "pause": 2.4
+    },
+
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "pause": 0.5,
+      "note": "Dvě váhy/podlahy vedle sebe: 1 g a 1,8 g. Šipka síly podlahy vpravo 1,8× delší než vlevo — počítáno v kódu, assert.",
+      "diagram_generator": "tiha",
+      "diagram": "Dvě stojící postavy na podlaze. Pod levou šipka vzhůru délky 1 (1 g), pod pravou ambrová šipka 1.8× delší (1.8 g)."
+    },
+
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Hmotnost se nemění, síla ano. Dva štítky: MASS 80 kg (beze změny) a FEELS LIKE 144 kg. 80 × 1,8 = 144, assert.",
+      "diagram_generator": "tiha",
+      "diagram": "Postava, vedle dva štítky pod sebou: MASS 80 kg (ztlumeně, nezměněno) a ambrově FEELS LIKE 144 kg."
+    },
+
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Kabina (páteř) v 1,8 g, postava se snaží zvednout hlavu, šipky dolů u paže, nohou i hlavy.",
+      "diagram_generator": "tiha",
+      "diagram": "Kabina, g-metr 1.8 g. Postava vsedě, ambrové šipky dolů u paže, nohou a hlavy."
+    },
+
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "pause": 2.2,
+      "note": "Kabina v 1,8 g, dvě postavy vleže na podlaze. Konec bloku o 1,8 g.",
+      "diagram_generator": "tiha",
+      "diagram": "Kabina, g-metr 1.8 g, dvě postavy vleže na podlaze, popisek LIE DOWN."
+    },
+
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S23.png",
+      "pause": 1.4,
+      "note": "Beat 'something extraordinary happens'. Původně SDXL; nahrazeno 2026-09-28 (rozhodl uživatel), video tak nemá žádnou difuzní scénu. PICK Z KONTAKTNÍHO LISTU: NASA 'Microgravity' — letadlo ve strmém stoupání nad mraky, okamžik před vstupem do paraboly. ROLE: předěl, obraz nese napětí; jiná role než S13 (letadlo na přistání, nástroj) i S06/S27 (lidé v kabině). Není to postava, takže zoom smí.",
+      "archive": {"provider": "nasa", "query": "parabolic flight weightless", "pick": 2, "grade": {"fit": 0.9}}
+    },
+
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "pause": 0.5,
+      "note": "Kabina (páteř #1) jako celek padá. POZOR: žádná druhá šipka dolů — vedle konstantní EARTH'S PULL by dvě šipky tvrdily dvojnásobnou sílu. Pád se ukazuje ČARAMI POHYBU nad kabinou i nad postavou (stejně dlouhé = padají spolu). G-metr 0 g.",
+      "diagram_generator": "tiha",
+      "diagram": "Kabina s postavou uvnitř, nad kabinou i nad postavou stejné čáry pohybu (padá), popisek FALLING TOGETHER. G-metr 0 g, EARTH'S PULL beze změny."
+    },
+
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Proč beztíže: podlaha už netlačí. Šipka síly podlahy z S19 přeškrtnutá/čárkovaně nula. Gravitační šipka zůstává — kresba nesmí tvrdit, že gravitace zmizela.",
+      "diagram_generator": "tiha",
+      "diagram": "Postava nad podlahou, pod ní obrys šipky FLOOR PUSH vyškrtnutý (0). Šipka EARTH'S PULL plná. Popisek = WEIGHTLESSNESS."
+    },
+
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Zvednutí paže: dvě malé postavy vedle sebe — normálně (velká šipka síly svalu) a v 0 g (skoro žádná).",
+      "diagram_generator": "tiha",
+      "diagram": "Dvě paže/postavy: vlevo 1 g s dlouhou šipkou MUSCLE, vpravo 0 g s drobnou ambrovou šipkou."
+    },
+
+    {
+      "id": "S27",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "pause": 2.2,
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-09-28: [4] 'View of Astronaut Jon McBride during Zero-G' — jeden člověk v letu s roztaženýma rukama uprostřed kabiny. ROLE: zážitek ('suddenly you're flying'). Static, protože je to postava — zoom na portrét nepatří. Snímky s Christou McAuliffe záměrně vynechány.",
+      "archive": {"provider": "nasa", "query": "parabolic flight weightless", "pick": 4, "grade": {"fit": 0.9}}
+    },
+
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Mozek zvyklý na jedna pravidla: silueta hlavy s mozkem, vlevo 'celý život' (šipka dolů = věci padají), vpravo otazník.",
+      "diagram_generator": "smysly",
+      "diagram": "Profil hlavy, v ní mozek. Vlevo štítek A LIFETIME OF 1 g, vpravo ambrový otazník NEW INFORMATION."
+    },
+
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "PROFIL HLAVY (hlava_smysly() v _kit.py) — tentýž obraz nese S29–S36. Tři systémy jako tři ikony kolem hlavy, zatím ztlumeně.",
+      "diagram_generator": "smysly",
+      "diagram": "Profil hlavy uprostřed, kolem tři ztlumené štítky: EYES, MUSCLES & JOINTS, INNER EAR, spojené čarami k mozku."
+    },
+
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "pause": 0.5,
+      "note": "Ambrově oči a svaly/klouby, vnitřní ucho ztlumeně. Kresba musí ukazovat oko skutečně v oku a klouby v těle, ne jen štítky.",
+      "diagram_generator": "smysly",
+      "diagram": "Týž profil, ambrově EYES (oko) a MUSCLES & JOINTS (krk/rameno), INNER EAR ztlumeně."
+    },
+
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "pause": 0.5,
+      "note": "Vnitřní ucho ambrově — KONTROLA FUNKČNÍHO SMYSLU: vestibulární ústrojí sedí v uchu uvnitř lebky, za bubínkem, ne na povrchu. Tři polokruhovité kanálky naznačené.",
+      "diagram_generator": "smysly",
+      "diagram": "Týž profil, ambrově detail vnitřního ucha (tři polokruhovité kanálky) s popiskem VESTIBULAR SYSTEM · MOVEMENT & ORIENTATION."
+    },
+
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "pause": 1.4,
+      "note": "Normálně se shodují: tři fajfky, všechny tři šipky 'UP' míří stejným směrem.",
+      "diagram_generator": "smysly",
+      "diagram": "Týž profil, u každého ze tří systémů zelená fajfka a malá šipka UP, všechny tři stejným směrem. Nahoře THEY AGREE."
+    },
+
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Kabina (páteř) v 0 g, postava vzhůru nohama, g-metr 0 g.",
+      "diagram_generator": "smysly",
+      "diagram": "Kabina, postava otočená hlavou dolů uprostřed, čárkovaná oblouková šipka rotace. G-metr 0 g."
+    },
+
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "pause": 0.5,
+      "note": "Tři osy pohybu kolem postavy; podlaha ztlumená a bez fajfky (chodidla o ní nic neřeknou).",
+      "diagram_generator": "smysly",
+      "diagram": "Postava v kabině s trojicí os X/Y/Z kolem těla, podlaha ztlumeně, u chodidel otazník WHERE IS THE FLOOR?"
+    },
+
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "pause": 0.5,
+      "note": "Nesoulad: profil hlavy, šipka UP od očí míří jinam než šipka od vnitřního ucha. Obě šipky musí být u SVÉHO orgánu.",
+      "diagram_generator": "smysly",
+      "diagram": "Profil hlavy, od oka šipka UP jedním směrem, od vnitřního ucha šipka jiným směrem, ambrově. Mezi nimi ≠."
+    },
+
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "pause": 2.2,
+      "note": "Nesoulad → nevolnost. Profil hlavy nazelenalý (tlumeně, žádná karikatura), ambrově MOTION SICKNESS. Konec bloku o smyslech.",
+      "diagram_generator": "smysly",
+      "diagram": "Profil hlavy s ≠ mezi okem a uchem, šipka k nápisu SENSORY MISMATCH → MOTION SICKNESS."
+    },
+
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Lákadlo pohybu: kabina v 0 g, postava s roztaženými pažemi.",
+      "diagram_generator": "smysly",
+      "diagram": "Kabina, g-metr 0 g, postava roztažená uprostřed, kolem čárkované šipky do všech směrů."
+    },
+
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "pause": 0.5,
+      "note": "Výčet čtyř pohybů jako čtyři malé postavy v řadě, každá s popiskem.",
+      "diagram_generator": "smysly",
+      "diagram": "Čtyři drobné postavy v řadě: TURN AROUND, LOOK BEHIND, FLIP (salto), PUSH ACROSS."
+    },
+
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Hlava je nejhorší: profil hlavy, pohyb hlavy (oblouková šipka) a vnitřní ucho ambrově.",
+      "diagram_generator": "smysly",
+      "diagram": "Profil hlavy s obloukovou šipkou otočení, vnitřní ucho ambrově, popisek HEAD MOVEMENTS = STRONGEST SIGNAL."
+    },
+
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "pause": 0.5,
+      "note": "Dvě rady jako dva štítky: pohybuj se opatrně, léky proti nevolnosti (pilulka). 'may also be used' — štítek s léky ztlumeně, ne jako povinnost.",
+      "diagram_generator": "smysly",
+      "diagram": "Dva štítky: ambrově MOVE CAREFULLY · KEEP YOUR HEAD STILL, ztlumeně ANTI-NAUSEA MEDICATION s ikonou pilulky."
+    },
+
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "pause": 2.8,
+      "note": "Pointa s humorem: 20 s zábavy vs žaludek. Konec první poloviny, dlouhá pauza před 'Here's the really interesting part'.",
+      "diagram_generator": "smysly",
+      "diagram": "Vlevo 20 SECONDS OF FUN, vpravo ikonka žaludku s ambrovým NO. Mezi nimi UNTIL…"
+    },
+
+    {
+      "id": "S41b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S41b.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU 2026-09-28: [2] 'Boeing KC-135A Stratotanker N930NA' — NASA KC-135A v barvách NASA, TEN stroj s přezdívkou Vomit Comet. ROLE: pointa k nevolnosti (S41) + historie. Ne portrét, zoom smí.",
+      "archive": {"provider": "wikimedia", "query": "NASA KC-135A reduced gravity", "pick": 2, "grade": {"fit": 0.92}}
+    },
+
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Otázka odbočky. Graf paraboly (páteř #2) s ambrovým čárkovaným prodloužením oblouku a otazníkem — čárkovaně, protože je to hypotéza.",
+      "diagram_generator": "draha",
+      "diagram": "Graf paraboly, za skutečným obloukem čárkované prodloužení se štítkem A WHOLE MINUTE?"
+    },
+
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "pause": 1.2,
+      "note": "Odpověď dvěma slovy, velké písmo.",
+      "diagram_generator": "draha",
+      "diagram": "Uprostřed velkým ambrovým písmem HEIGHT & SPEED."
+    },
+
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Graf paraboly: bod vstupu do volného pádu 7,6 km, štítek 650 km/h, šipka rychlosti míří ŠIKMO VZHŮRU ('still climbing'). Čísla z factcheck.md. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, značka 6 km (start), ambrová tečka 7.6 km se šipkou rychlosti šikmo vzhůru, štítek ~650 km/h · STILL CLIMBING."
+    },
+
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Vrchol 8,5 km, šipka rychlosti vodorovná. Pak klesání. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, ambrová tečka na vrcholu 8.5 km s vodorovnou šipkou rychlosti, odtud začíná klesající část."
+    },
+
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Na celém oblouku tři malé g-metry (stoupání / vrchol / klesání), všechny 0 g. Kresba nesmí zvýraznit jen vrchol. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, na třech místech oblouku drobný g-metr s 0 g: CLIMBING, TOP, DESCENDING."
+    },
+
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "pause": 1.4,
+      "note": "Oblouk ambrově se závorkou 20–22 s, na konci začátek vybrání. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, nad obloukem závorka 20–22 s, na klesající větvi značka PULL OUT."
+    },
+
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "pause": 1.2,
+      "note": "Myšlenkový experiment: prodloužený oblouk čárkovaně (hypotéza), štítek 60 s. Graf se tu musí rozšířit dolů pod 6 km — jiná geometrie os než páteř, zapsat do registru jako výjimku. V rohu stálý štítek WHAT IF (táž poloha S48–S52). Skutečná dráha včetně vybrání zůstává PLNÁ ztlumeně, hypotetické pokračování čárkovaně ambrově — nikdy obráceně.",
+      "diagram_generator": "draha",
+      "diagram": "Graf s osou výšky až k 0, skutečný oblouk plně, prodloužení čárkovaně ambrově, štítek WHAT IF: 60 SECONDS?"
+    },
+
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Tři body na čárkovaném prodloužení: stoupá, vrchol, klesá. Šipky rychlosti rostou (faster and faster) — délky spočítané z balistiky, assert. V rohu stálý štítek WHAT IF (táž poloha S48–S52). Skutečná dráha včetně vybrání zůstává PLNÁ ztlumeně, hypotetické pokračování čárkovaně ambrově — nikdy obráceně.",
+      "diagram_generator": "draha",
+      "diagram": "Týž rozšířený graf, na prodloužení šipky rychlosti rostoucí dolů."
+    },
+
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "36 s: zpátky v 6 km a >900 km/h. Čísla MUSÍ sedět s factcheck.md (svisle 222 m/s, vodorovně 124 m/s → 916 km/h). Bod na křivce dopočítaný z téže balistiky, ne umístěný od oka. V rohu stálý štítek WHAT IF (táž poloha S48–S52). Skutečná dráha včetně vybrání zůstává PLNÁ ztlumeně, hypotetické pokračování čárkovaně ambrově — nikdy obráceně.",
+      "diagram_generator": "draha",
+      "diagram": "Týž rozšířený graf, ambrová tečka v 6 km na čárkované větvi, štítek 36 s · 6 km · 900+ km/h."
+    },
+
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "60 s: čárkovaná křivka protne linku terénu a pokračuje pod ni, štítek nadzvukově. Pod nulou čárkovaně a ztlumeně — 'ends up below ground level' je výpočet, ne děj. V rohu stálý štítek WHAT IF (táž poloha S48–S52). Skutečná dráha včetně vybrání zůstává PLNÁ ztlumeně, hypotetické pokračování čárkovaně ambrově — nikdy obráceně.",
+      "diagram_generator": "draha",
+      "diagram": "Týž rozšířený graf, linka GROUND, čárkovaná křivka pod ni, štítek 60 s · SUPERSONIC."
+    },
+
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "pause": 0.6,
+      "note": "Realita dřív: na klesající větvi značka SPEED LIMIT dávno nad zemí. Nesmí tvrdit konkrétní rychlost limitu, factcheck ho neudává číslem. V rohu stálý štítek WHAT IF (táž poloha S48–S52). Skutečná dráha včetně vybrání zůstává PLNÁ ztlumeně, hypotetické pokračování čárkovaně ambrově — nikdy obráceně.",
+      "diagram_generator": "draha",
+      "diagram": "Týž graf, na čárkované větvi výrazná příčná značka SPEED LIMIT, zbytek křivky pod ní ztlumeně."
+    },
+
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "pause": 0.5,
+      "note": "Vybrání není okamžité: oblouk vybrání s výškovou závorkou >1 km. Závorka spočítaná (poloměr při 1,8 g z rychlosti), ne od oka. Zpátky ve skutečnosti: štítek WHAT IF zmizí, čára plná.",
+      "diagram_generator": "draha",
+      "diagram": "Detail klesající větve přecházející obloukem do vodorovného letu, svislá závorka 1+ km, popisek PULL-OUT AT 1.8 g."
+    },
+
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "pause": 2.8,
+      "note": "Pointa odbočky (uživatel ji chce přesně v tomhle znění): přeškrtnuto GRAVITY, ambrově FALLING MAKES YOU FASTER a NEED ROOM TO STOP. Škrt přes nápis = text_skrtnuty(), ne křížek.",
+      "diagram_generator": "draha",
+      "diagram": "Nahoře přeškrtnutě THE PROBLEM: GRAVITY, pod tím ambrově FALLING KEEPS MAKING YOU FASTER, pod tím … AND YOU NEED ROOM TO STOP."
+    },
+
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "pause": 0.5,
+      "note": "Rekapitulace na grafu paraboly — geometrie SHODNÁ s S14–S18 (páteř #2). Rozsvěcí se postupně: start 6 km → 7,6 km. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf paraboly, ambrově úsek 6 → 7.6 km se značkami."
+    },
+
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "pause": 0.5,
+      "note": "Týž graf, přidán oblouk k 8,5 km a začátek klesání. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, ambrově oblouk 7.6 → 8.5 km → klesání."
+    },
+
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Týž graf, na klesající větvi značka PULL OUT. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, na klesající větvi značka PULL OUT."
+    },
+
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "pause": 0.5,
+      "note": "Celý balistický oblouk ambrově a pod ním závorka FREE FALL přes celou šířku oblouku — ne jen přes vrchol. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, celý oblouk ambrově, pod ním závorka od začátku do konce FREE FALL = WHOLE ARC."
+    },
+
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Tři slova = tři šipky podél oblouku. Jeden obraz, žádné tři střihy. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, podél oblouku tři ambrové šipky UP, OVER, DOWN."
+    },
+
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "pause": 2.2,
+      "note": "Ne pár sekund na vrcholu, ale ~20 s přes celý oblouk: malá závorka na vrcholu přeškrtnutá, velká závorka přes oblouk ambrově. Orientace: právě vysvětlovaná část ambrově, zbytek oblouku ztlumeně; geometrie z parabola_graf().",
+      "diagram_generator": "draha",
+      "diagram": "Graf, na vrcholu malá závorka A FEW SECONDS přeškrtnutá, přes celý oblouk ambrová závorka ~20 s."
+    },
+
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Přechod 0 → 1,8 g není skok: vypínač přeškrtnutý, vedle plynulá rampa.",
+      "diagram_generator": "prechod",
+      "diagram": "Vlevo schod (skok 0 → 1.8) přeškrtnutý, vpravo ambrová plynulá rampa 0 → 1.8 g."
+    },
+
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "pause": 0.5,
+      "note": "KŘIVKA ZATÍŽENÍ (g_krivka() v _kit.py) — g v čase přes celou parabolu, sdílená S62–S67 a S71. Tady rozsvícen začátek růstu po oblouku.",
+      "diagram_generator": "prechod",
+      "diagram": "Graf g v čase: 1 → 1.8 → 0 → 1.8 → 1. Ambrově úsek, kde g roste z 0."
+    },
+
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Kabina (páteř #1): postava se vznáší, pod ní slabé šipky od podlahy, g-metr těsně nad nulou.",
+      "diagram_generator": "prechod",
+      "diagram": "Kabina, postava vznášející se nízko, pod ní drobná šipka vzhůru. G-metr ~0.1 g."
+    },
+
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "pause": 0.5,
+      "note": "Kabina, postava na podlaze, g-metr přesně 1 g.",
+      "diagram_generator": "prechod",
+      "diagram": "Kabina, postava stojí na podlaze, g-metr 1 g, šipka od podlahy normální délky."
+    },
+
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "pause": 0.6,
+      "note": "Kabina, g-metr 1,8 g, postava si lehá.",
+      "diagram_generator": "prechod",
+      "diagram": "Kabina, g-metr 1.8 g, postava vleže, šipka od podlahy 1.8× delší."
+    },
+
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "pause": 0.5,
+      "note": "Čtyři g-metry v řadě: 1/3, 2/3, 1, 1,8. Přesně ve slovech voiceoveru ('a third, two thirds, normal, heavier still').",
+      "diagram_generator": "prechod",
+      "diagram": "Vlevo přeškrtnuté 0 → BANG → 1.8. Pod tím řada čtyř malých g-metrů 0.33 · 0.67 · 1 · 1.8, poslední ambrově."
+    },
+
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "pause": 2.2,
+      "note": "Křivka zatížení (S62), rozsvícen úsek 1,8 g po oblouku se závorkou ~20 s.",
+      "diagram_generator": "prechod",
+      "diagram": "Graf g v čase, ambrově úsek 1.8 g po vybrání, závorka ~20 s ALMOST TWICE AS HEAVY."
+    },
+
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "pause": 0.5,
+      "note": "Cyklus znovu v kabině. Začátek: 1 g, postava stojí.",
+      "diagram_generator": "prechod",
+      "diagram": "Kabina, postava stojí, g-metr 1 g."
+    },
+
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "pause": 0.5,
+      "note": "Kabina, 1,8 g, postava vleže. Totéž rozvržení jako S01 — záměrný rým se začátkem videa.",
+      "diagram_generator": "prechod",
+      "diagram": "Totéž jako S01: kabina, postava vleže, g-metr 1.8 g."
+    },
+
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "pause": 0.5,
+      "note": "Kabina, 0 g, postava se vznáší. Rým s S03.",
+      "diagram_generator": "prechod",
+      "diagram": "Totéž jako S03/S04: kabina, postava ve vzduchu, g-metr 0 g."
+    },
+
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "pause": 0.5,
+      "note": "Tři g-metry 0 · 1 · 1,8 v řadě — slova voiceoveru.",
+      "diagram_generator": "prechod",
+      "diagram": "Tři malé g-metry v řadě: 0, 1, 1.8."
+    },
+
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "pause": 0.5,
+      "note": "Křivka zatížení opakovaná několikrát za sebou, štítek DOZENS. Počet period je ilustrační, ne číslo — nekreslit konkrétní počet, který by tvrdil '31'.",
+      "diagram_generator": "prechod",
+      "diagram": "Graf g v čase s pěti opakováními téže vlny, poslední mizí do ztracena, štítek DOZENS OF PARABOLAS."
+    },
+
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Dvě prostředí vedle sebe: kabina 1,8 g a kabina 0 g, mezi nimi obousměrná šipka.",
+      "diagram_generator": "prechod",
+      "diagram": "Dvě zmenšené kabiny vedle sebe (1.8 g vleže / 0 g ve vzduchu), mezi nimi ⇄."
+    },
+
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "pause": 2.4,
+      "note": "Konec bloku: tatáž dvojice kabin, mezi nimi ikona žaludku (rým s S41).",
+      "diagram_generator": "prechod",
+      "diagram": "Totéž jako S73, uprostřed tlumeně ikona žaludku z S41."
+    },
+
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Jiné světy: g-metr s ručičkou mezi 0 a 1 (ne na nule).",
+      "diagram_generator": "svety",
+      "diagram": "Velký g-metr, ambrová oblast mezi 0 a 1, popisek NOT JUST ZERO."
+    },
+
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Graf paraboly (páteř #2) + druhý, plošší oblouk.",
+      "diagram_generator": "svety",
+      "diagram": "Graf, plně ztlumeně 0 g parabola, ambrově plošší oblouk PARTIAL GRAVITY."
+    },
+
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "G-metr se dvěma značkami MOON 0.16 g a MARS 0.38 g. Značky na správném místě stupnice, assert.",
+      "diagram_generator": "svety",
+      "diagram": "Velký g-metr, značky MOON 0.16 g a MARS 0.38 g, vedle malé kotouče Měsíce a Marsu."
+    },
+
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Delší trvání: tři časové pruhy 0 g / Měsíc / Mars. POZOR NA FUNKČNÍ SMYSL: MARS je NEJDELŠÍ (letadlo zrychluje dolů nejméně), Měsíc prostřední, 0 g nejkratší. Délky z factcheck.md: 0 g 20–22 s, Měsíc ~25 s, Mars ~35 s (Novespace). Čísla žijí JEN tady (u pruhu: jméno, g drobně, trvání). S79 už bez čísel.",
+      "diagram_generator": "svety",
+      "diagram": "Tři vodorovné pruhy: ZERO G ~22 s (ztlumeně), MOON 0.16 g ~25 s (INK), MARS 0.38 g ~35 s (ambrově, nejdelší)."
+    },
+
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "pause": 0.5,
+      "note": "Tři oblouky na grafu (páteř #2): 0 g nejstrmější, Měsíc plošší, Mars nejplošší a nejdelší. Tvary spočítané z a = (1 − f)·g, ne od oka — kresba nesmí ukázat Měsíc plošší než Mars. Bez čísel, jen tvar. Barvy jako v S78: 0 g ztlumeně, Měsíc INK, Mars ambrově.",
+      "diagram_generator": "svety",
+      "diagram": "Graf se třemi oblouky ze stejného bodu: ZERO G, MOON, MARS; ambrově nejplošší (MARS), popisek GENTLER = LONGER."
+    },
+
+    {
+      "id": "S80",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "pause": 0.8,
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-09-28: [3] 'Astronaut Alan Shepard with Modular Equipment Transporter' — skafandr v kabině KC-135 při simulaci měsíční gravitace. ROLE: jiný svět. Static (postava).",
+      "archive": {"provider": "nasa", "query": "Apollo lunar gravity simulation aircraft", "pick": 3, "grade": {"fit": 0.9}}
+    },
+
+    {
+      "id": "S80b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80b.png",
+      "pause": 2.4,
+      "note": "K čemu a kdo (zpětná vazba diváka). Fotka z natáčení Apolla 13 volně není (autorská práva filmu), proto čtyři ikony v řadě, rozsvěcené ve slovech voiceoveru — tady všechny naráz. Konec bloku, pauza přesunutá sem z S80.",
+      "diagram_generator": "svety",
+      "diagram": "Čtyři ikony v řadě s popisky: baňka SCIENCE, postava v kombinéze ASTRONAUT TRAINING, filmová klapka FILMS (pod ní drobně APOLLO 13), vstupenka YOU CAN BUY A SEAT (akcent)."
+    },
+
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Otázka 'je to opravdu nulová gravitace?' — kabina (páteř #1) v 0 g a šipka EARTH'S PULL tady poprvé AMBROVĚ: o té je teď řeč. Výplata toho, že celou dobu ležela beze změny. Mění se JEN BARVA šipky; délka, poloha i tloušťka jsou z registru páteře (assert proti S01), jinak by zesílení akcentu četl divák jako silnější gravitaci. Popisek STILL THERE, ne STRONGER.",
+      "diagram_generator": "zaver",
+      "diagram": "Kabina, postava ve vzduchu, g-metr 0 g, šipka EARTH'S PULL ambrově, popisek GRAVITY IS STILL THERE."
+    },
+
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Letadlo i člověk s plnými gravitačními šipkami, obě padají spolu. Rým s S24.",
+      "diagram_generator": "zaver",
+      "diagram": "Letadlo a v něm postava, u obou ambrová šipka dolů, popisek FALLING TOGETHER."
+    },
+
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Normálně: podlaha drží, její síla vzhůru = to, co cítíš jako váhu. Rým s S19.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava na podlaze, šipka vzhůru od podlahy ambrově s popiskem FLOOR FORCE = YOUR WEIGHT, gravitační šipka ztlumeně dolů."
+    },
+
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "pause": 1.2,
+      "note": "Síla podlahy odstraněna (čárkovaně, 0), gravitační šipka zůstává.",
+      "diagram_generator": "zaver",
+      "diagram": "Totéž jako S83, šipka podlahy čárkovaně přeškrtnutá, postava odlepená, popisek WEIGHTLESS."
+    },
+
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "pause": 2.6,
+      "note": "Terminologie: ZERO GRAVITY přeškrtnuto (text_skrtnuty), pod tím FREE FALL ambrově, MICROGRAVITY ztlumeně.",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnutě ZERO GRAVITY, pod tím velkým ambrovým písmem FREE FALL, pod tím MICROGRAVITY."
+    },
+
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "pause": 0.6,
+      "note": "Začátek závěru: 'věci padají'. STROBOSKOPICKÁ ŘADA: pomeranč v několika polohách pod sebou, rozestupy ROSTOU (volný pád zrychluje: poloha ∝ t², assert). Jediný teplý akcent videa. Původně SDXL — zamítnuto, protože statický snímek padajícího předmětu se čte jako vznášející se, a SDXL by dvakrát nenakreslil tentýž pomeranč.",
+      "diagram_generator": "zaver",
+      "diagram": "Podlaha dole, nad ní svislá řada 6 poloh oranžového pomeranče, starší polohy ztlumeně, mezery se směrem dolů zvětšují. Popisek THINGS FALL DOWN."
+    },
+
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Rým s S86 na TÝCHŽ souřadnicích a tímtéž tvarem pomeranče (pomeranc() v _kit.py): teď uvnitř obrysu kabiny a všechny 'stroboskopické' polohy splývají v jednu — předmět se nehýbe. Divák to pochopí bez komentáře, protože se změní jen rozestup.",
+      "diagram_generator": "zaver",
+      "diagram": "Obrys kabiny, pomeranč uprostřed ve vzduchu, jeho ztlumené duchy na téže poloze (žádný posun). G-metr 0 g."
+    },
+
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "pause": 0.6,
+      "note": "Kabina (páteř #1), 0 g, postava se zvednutou rukou, odrazem a otočením — tři drobné akce kolem jedné postavy, ne tři postavy.",
+      "diagram_generator": "zaver",
+      "diagram": "Kabina, g-metr 0 g, postava ve vzduchu otočená, u ruky a chodidel drobné čárkované dráhy. Popisek WHICH WAY IS DOWN?"
+    },
+
+    {
+      "id": "S88b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "pause": 0.6,
+      "note": "BEAT vyrobený ROZDĚLENÍM SCÉNY (uživatel po poslechu: před 'You turn around…' musí být malá pauza). Kokoro to místo říká slitě, tts.py pauzu nevložil (u řezu řeč −1 dB); scene_pause se přidává, ne vyřezává. Dědí obraz S88, takže střih není vidět."
+    },
+
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "pause": 0.5,
+      "note": "Kabina, g-metr stoupá přes 1 g, postava klesá k podlaze. Rým s S05/S63.",
+      "diagram_generator": "zaver",
+      "diagram": "Kabina, postava těsně nad podlahou, g-metr ~1 g, šipka od podlahy vzhůru."
+    },
+
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "pause": 2.2,
+      "note": "Kabina 1,8 g, postava vleže — rým s S01. Poslední výskyt páteře v plné velikosti.",
+      "diagram_generator": "zaver",
+      "diagram": "Totéž jako S01: kabina, postava vleže, g-metr 1.8 g, malý štítek ~20 s."
+    },
+
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "pause": 0.8,
+      "note": "OCAS VIDEA (posledních ~20 s, S91–S93): prvky závěrečné obrazovky patří do HORNÍ poloviny, takže kresba jen ve spodní polovině nad pásem titulku. Vypínač GRAVITY OFF přeškrtnutý (rým s S08). Kresba jen v pásu 48–78 % výšky; nic nad 45 % (dlaždice a kolečko) ani do pásu titulku. Ověřit zaver_check.py po TTS.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodní polovině obrazu vypínač GRAVITY OFF přeškrtnutý. Horní polovina prázdná."
+    },
+
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "pause": 1.4,
+      "note": "Ocas: jen oblouk paraboly (páteř #2) ve spodní polovině, ambrově, s letadlem. Horní polovina prázdná pro dlaždici a kolečko. Kresba jen v pásu 48–78 % výšky; nic nad 45 % (dlaždice a kolečko) ani do pásu titulku. Ověřit zaver_check.py po TTS.",
+      "diagram_generator": "zaver",
+      "diagram": "Spodní polovina: ambrový balistický oblouk s letadlem, popisek GRAVITY MAKES IT FALL. Nahoře nic."
+    },
+
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Poslední deska, klidná: týž oblouk, uvnitř letadla drobná vznášející se postava, štítek ~20 s. Horní polovina prázdná. Konec videa drží tail. Kresba jen v pásu 48–78 % výšky; nic nad 45 % (dlaždice a kolečko) ani do pásu titulku. Ověřit zaver_check.py po TTS.",
+      "diagram_generator": "zaver",
+      "diagram": "Spodní polovina: oblouk s letadlem, v něm drobná vznášející se postava, štítek ~20 SECONDS. Horní polovina prázdná."
+    }
+  ]
+}

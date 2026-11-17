@@ -1,0 +1,918 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Jediný atmosférický vstup videa. Postava je malá a hala prázdná, aby hned od první vteřiny platilo, že jde o prázdno mezi dvěma místy — to je téma páteře, kterou hned v S02 přebírá kresba.",
+      "prompt": "a lone small figure seen from behind stepping into a tall narrow doorway of pale light at the end of a vast empty concrete hall, flat grey overcast light, no sun, painterly, no text"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Zavedení páteře do S02, jak žádá docs/storyboard-a-diagramy.md (do S01–S06). Desky kreslí VÝHRADNĚ _kit.deska() a od téhle scény se jejich souřadnice do konce videa nesmí hnout — jinak se nepozná výplata v S63 a S100. Škrtá se přes NÁPISY, tedy skrt_text(), ne křížek.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ: dvě naprosto shodné desky, levá v x=560, pravá v x=2000, obě na y=1080, mezi nimi prázdná mezera. Postava stojí na pravé. V prázdnu nad mezerou tři škrtnuté nápisy AEROPLANE / ROCKET / ROAD."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "První otázka videa. Otazník sedí NAD mezerou, ne nad postavou — ptáme se na to, co se stalo v mezeře, ne na to, kdo tam stojí.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž dvojice desek, postava na pravé, nad mezerou velký otazník."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Všechny tři čárkovaně, protože všechny tři jsou zatím hypotézy — konvence plná/čárkovaná se zavádí tady a platí celým videem. Ambrová se v téhle scéně NEPOUŽIJE: jakmile by jedna větev byla ambrová, obraz odpoví na otázku, kterou hlas klade.",
+      "diagram_generator": "uvod",
+      "diagram": "Z mezery vedou tři ČÁRKOVANÉ větve s popisky TRAVELLED / COPIED / DESTROYED AND REBUILT. Žádná není zvýrazněná."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Čtvrtá možnost: zmizí vzdálenost, ne člověk. Důležité je, že se hýbe PROSTOR, ne desky — ty jsou páteř a stojí.",
+      "diagram_generator": "uvod",
+      "diagram": "Mezera mezi deskami se skládá — prostor mezi nimi je nakreslený jako harmonika, která se stlačuje. Desky zůstávají na svých souřadnicích."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Konec úvodního bloku. Pět cest odpovídá pěti mechanismům, které video probere; jsou čárkované a nepopsané, aby nepředjímaly.",
+      "diagram_generator": "uvod",
+      "diagram": "Slovo TELEPORTATION nahoře, pod ním se rozpadá do pěti čárkovaných cest vedoucích do prázdna.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Otevření prvního mechanismu. Oblouk je zatím čárkovaný.",
+      "diagram_generator": "portal",
+      "diagram": "Nadpis THE PORTAL, pod ním dvě desky s obloukem mezi nimi."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Škrt přes nápisy vodorovnou čarou (skrt_text), ne křížkem — pod plným křížkem se nápis nepřečte a scéna, ve které divák nepřečte co se škrtá, netvrdí nic.",
+      "diagram_generator": "portal",
+      "diagram": "Tři škrtnuté nápisy DISASSEMBLE / SCAN / TRANSMIT a pod nimi plnou čarou CONNECT TWO LOCATIONS."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Sem se přesunulo to, co bylo v dodaném scénáři jako ASCII kresba a co jsem z mluveného textu vyndal — hlas u toho říká jen 'looks like this' a 'we create a shortcut'. Bez tohohle diagramu ta věta nemá na co ukázat.",
+      "diagram_generator": "portal",
+      "diagram": "Přesně ta dvě schémata, která jsou ve zdrojovém scénáři jako ASCII: nahoře A ---------- B (dlouhá tenká čára), dole A ========== B (krátká tlustá). Postava prochází dolním."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "První výskyt dvojice postav. Tady je shoda ještě neproblematická (je to táž osoba před a po), ale kreslí se už tím mechanismem, který bude v S63–S67 povinný.",
+      "diagram_generator": "portal",
+      "diagram": "Postava na levé i na pravé desce, mezi nimi zkratka. Obě postavy kreslí TÁŽ funkce s týmiž parametry. Vedle plnou čarou NOT COPIED / NOT RECONSTRUCTED."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Pointa portálu: není to teleportace. Škrtá se jedno slovo, ne celý řádek.",
+      "diagram_generator": "portal",
+      "diagram": "Nápis TELEPORTATION škrtnutý, pod ním DISTANCE REMOVED plnou čarou."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Legenda konvence se zavádí právě tady, protože je to první scéna, kde na rozdílu záleží. Trychtýř MUSÍ být čárkovaný — plný by tvrdil, že červí díra existuje. Viz kontrolní seznam ve factcheck.md.",
+      "diagram_generator": "portal",
+      "diagram": "ČÁRKOVANÝ trychtýř červí díry spojující dvě desky. V rohu legenda: plná čára = doloženo, čárkovaná = hypotéza."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "factcheck.md: průchozí červí díra vyžaduje exotickou hmotu porušující nulovou energetickou podmínku. Scéna to nevysvětluje, jen říká, že to neumíme — obraz nesmí naznačit řešení.",
+      "diagram_generator": "portal",
+      "diagram": "Dvě otázky u čárkovaného trychtýře: HOW TO CREATE? a HOW TO KEEP OPEN? Obě s otazníkem, žádná odpověď."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Nejčistší použití konvence v celém videu: rovnice to dovolují (doloženo, plná), postavit to neumíme (hypotéza, čárkovaná). Mezera mezi nimi je obsah scény.",
+      "diagram_generator": "portal",
+      "diagram": "Vlevo PLNOU čarou GENERAL RELATIVITY ALLOWS THIS (zakřivená geometrie), vpravo ČÁRKOVANĚ A PRACTICAL DOORWAY. Mezi nimi široká mezera."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Jedna nepříjemná otázka místo čtyř, které měl původní scénář — zbytek se vyškrtal. Zůstala ta nejnázornější.",
+      "diagram_generator": "portal",
+      "diagram": "Postava uprostřed čárkovaného průchodu, průchod se zavírá."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Sloupec musí odejít z rámu — kdyby měl konec, obraz by tvrdil konkrétní hodnotu, kterou scénář nezná a factcheck nemá čím doložit.",
+      "diagram_generator": "portal",
+      "diagram": "Svislá stupnice energie: sloupec pro elektrárnu, pro hvězdu, a nad nimi ČÁRKOVANÝ sloupec mizící z rámu s popiskem BEND SPACETIME."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Jediná scéna portálového bloku, kde se něco tvrdí kladně.",
+      "diagram_generator": "portal",
+      "diagram": "Zaškrtnutá výhoda: NO RECONSTRUCTION. Postava celá, neporušená."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Konec bloku. Rozdíl velikostí je tu záměrné tvrzení — scénář říká 'even more ridiculous', takže velikost tu nese význam a smí.",
+      "diagram_generator": "portal",
+      "diagram": "Vedle výhody z S17 se objeví protiváha: MANIPULATE SPACETIME, ČÁRKOVANĚ, podstatně větší.",
+      "pause": 2.6
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Otevření druhého mechanismu. Desky jsou pořád na týchž souřadnicích.",
+      "diagram_generator": "sken",
+      "diagram": "Nadpis THE CLASSIC TRANSPORTER, dvě desky, na každé strojek."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Klíčové pro celý zbytek videa: přes mezeru jde informace, ne atomy. V S53 se z toho stane celý argument, takže se to tady musí nakreslit poctivě už napoprvé.",
+      "diagram_generator": "sken",
+      "diagram": "Řetěz nad mezerou: postava -> sken -> proud dat přes mezeru -> rekonstrukce. Hmota mezeru NEPŘEKRAČUJE."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Tohle je to, co bylo ve zdrojovém scénáři jako SCAN -> DATA -> TRANSMIT -> REBUILD. V hlase to zůstalo jako čtyři beaty, tady to divák vidí.",
+      "diagram_generator": "sken",
+      "diagram": "Čtyři rámečky vedle sebe: SCAN / DATA / TRANSMIT / REBUILD."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Předěl mezi 'zní to proveditelně' a zbytkem bloku.",
+      "diagram_generator": "sken",
+      "diagram": "Za čtvrtým rámečkem stěna s nápisem THE FIRST PROBLEM."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "assert na počet nul: obraz tady tvrdí totéž číslo jako hlas, takže se nesmí rozejít. factcheck.md to má spočítané ze složení těla (6,66e27).",
+      "diagram_generator": "sken",
+      "diagram": "Číslo 7 a pod ním ŘADA NUL. Generátor je počítá a assertem hlídá, že jich je přesně 27. Popisek ATOMS IN A HUMAN BODY."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Ambrová znamená 'o tomhle je teď řeč', ne 'tohle je správně'.",
+      "diagram_generator": "sken",
+      "diagram": "Vlevo mřížka bodů s popiskem WHERE THEY ARE, vpravo tytéž body se šipkami pohybu a popiskem WHAT THEY ARE DOING. Vpravo ambrově."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Poslední je čárkovaná, protože scénář se u ní ptá 'how much matters' — tedy netvrdí, že na kvantovém stavu záleží.",
+      "diagram_generator": "sken",
+      "diagram": "Tři otázky pod sebou: MOLECULES? / ELECTRICAL STATES? / QUANTUM STATE? Poslední čárkovaně."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Zpětná vazba k třetímu videu: prázdné osy divák čte jako rozbitý graf. Křivka je tam hned. Odchází z rámu, protože scénář žádnou mez nezná.",
+      "diagram_generator": "sken",
+      "diagram": "Dvě rostoucí osy: ACCURACY vodorovně, INFORMATION svisle, křivka stoupá z rámu ven. Data jsou v obraze od prvního snímku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S27",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S27.png",
+      "note": "Druhá a poslední atmosférická scéna první poloviny. Socha je konkrétní objekt, který model umí, a scéna ji potřebuje jako protiklad k živému mozku v S28 — proto sem nepatří diagram.",
+      "prompt": "a pale marble statue of a standing human figure alone in a vast empty gallery, cold grey overcast light from high windows, no sun, painterly, no text"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Doložená fyziologie, tedy plné čáry. Statická scéna kreslící pohyb — pohyb nese kresba, ne kamera.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Tři pásy nad sebou, každý s vlastním pohybem: NEURONS FIRING, IONS MOVING, MEMBRANE POTENTIALS. Vše plnou čarou."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Návaznost na S28 přesně týmiž pásy na týchž souřadnicích. Kdyby se překreslily jinak, řez ztratí smysl.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Ty tři pásy z S28 proťaté jedinou svislou čarou ONE EXACT MOMENT."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Ztichlé pásy jsou tentýž tvar jako v S28 a S29 — to je ten argument.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Ty tři pásy z S28 ztichlé do rovných čar, pod nimi čtyři kroky: FREEZE / STOP / MEASURE / REBUILD."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Dvousekundový beat. Jeden obraz, jedna změna — nesmí to být nový výjev, jinak z toho je AI-slop střih.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Zaškrtnutí u čtyř kroků z S30, pod tím výpustka."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Pointa bloku: zastavením mozku se ničí právě to, co se měří.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Ty tři pásy ztichlé, a přes ně otazník s popiskem THE INFORMATION YOU WANTED TO PRESERVE."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Text v obraze je tu shodný s hlasem, protože je to citace. Cedule potřebuje neprůhledný podklad, ať se čte.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Cedule na stroji s celou větou z hlasu, v uvozovkách."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Pointa se drží na TÉMŽE obraze jako S33 — mění se jediná věc. Konec bloku.",
+      "diagram_generator": "mozek_snimek",
+      "diagram": "Táž cedule, pod ní malý nápis NOT EXACTLY GREAT MARKETING.",
+      "pause": 2.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Otevření bloku o množství informace.",
+      "diagram_generator": "informace",
+      "diagram": "Silueta člověka a vedle ní prázdný rámeček HOW MUCH DATA?"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Škrtá se jedno slovo, ne celý řádek — 'neplatí to takhle', ne 'neplatí to vůbec'.",
+      "diagram_generator": "informace",
+      "diagram": "Tabulka atom / x / y / z se třemi řádky a mnohotečkou, vedle škrtnutý nápis ENOUGH."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Základ trojice S37–S39. Mřížka musí být na TÉŽE siluetě, aby se rozdíl jemnosti dal porovnat.",
+      "diagram_generator": "informace",
+      "diagram": "Silueta rozdělená hrubou mřížkou s popiskem MILLIMETRE. Generátor počítá počet buněk a píše ho pod mřížku."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "assert: počet buněk musí růst s třetí mocninou zjemnění, jinak obraz tvrdí jiný řád než scénář.",
+      "diagram_generator": "informace",
+      "diagram": "Táž silueta, mřížka jemnější, popisky MICROMETRE a NANOMETRE, počty buněk spočítané v kódu."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Scénář říká 'the numbers become absurd' — číslo tedy odchází z rámu místo aby se dopsalo.",
+      "diagram_generator": "informace",
+      "diagram": "Řada čísel, každé o mnoho řádů větší, poslední mizí z rámu."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Nejcitlivější diagram videa. Mřížka pixelů MUSÍ být škrtnutá — nakreslená bez škrtu tvrdí přesně ten omyl, který scéna vyvrací (factcheck.md, kontrolní seznam). Exponent 103 je spočítaný: 0,070 m3 / (1,616e-35 m)^3 = 1,66e103.",
+      "diagram_generator": "informace",
+      "diagram": "Nahoře ŠKRTNUTÁ mřížka pixelů s popiskem PLANCK LENGTH IS NOT THIS. Dole číslo 10 s exponentem 103 a popiskem CUBES IN A BODY."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Konec bloku o informaci: jemnější rastr neříká, co v něm je.",
+      "diagram_generator": "informace",
+      "diagram": "Jedna buňka mřížky zvětšená a prázdná, v ní otazník WHAT GOES IN HERE?",
+      "pause": 2.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Prázdný seznam by tvrdil 'vlastnosti nemá'. Nečitelný říká to správné: není to seznam, který by šel přečíst.",
+      "diagram_generator": "kvanta",
+      "diagram": "Částice a vedle ní seznam vlastností, jehož hodnoty jsou nečitelné / rozostřené, ne prázdné."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "PLNÁ čára, protože tohle je doložená věta (Wootters a Zurek, Nature 299, 802, 1982; Dieks 1982) — na rozdíl od skoro všeho ostatního ve videu. Škrtá se ŠIPKA, ne nápis.",
+      "diagram_generator": "kvanta",
+      "diagram": "Jeden kvantový stav vlevo, šipka ke druhému, a přes šipku škrt. Popisek NO-CLONING THEOREM. Plnou čarou."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Nejdůležitější oprava, kterou video dělá. Musí být vidět, že částice NEPŘEKROČÍ mezeru a že klasický kanál je nutný — tím scéna sama říká, že to není nadsvětelný přenos.",
+      "diagram_generator": "kvanta",
+      "diagram": "Dvě desky (páteř), mezi nimi DVA kanály: propletená dvojice ENTANGLEMENT a plná čára CLASSICAL CHANNEL. Částice zůstává na levé desce."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Důsledek no-cloningu z S43. Konec bloku.",
+      "diagram_generator": "kvanta",
+      "diagram": "Na pravé desce jeden stav, na levé stav ŠKRTNUTÝ. Vedle škrtnutý nápis TWO PERFECT COPIES.",
+      "pause": 2.4
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Krátký oddechový blok — scénář tu dělá ústupek, aby mohl otevřít druhou polovinu problému.",
+      "diagram_generator": "stavba",
+      "diagram": "Hotový plán člověka na levé desce, zaškrtnutý."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Nastražení. Otazník je malý, aby S48 mohla být rána.",
+      "diagram_generator": "stavba",
+      "diagram": "Plán letí přes mezeru na pravou desku. Nad tím RIGHT?"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Zlom celé druhé poloviny videa: máme data a nemáme člověka. Prázdná deska je tu tvrzení — proto na ní nesmí nic být.",
+      "diagram_generator": "stavba",
+      "diagram": "Velké NO a pod tím prázdná pravá deska.",
+      "pause": 2.8
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Otevření výrobního bloku, který si vyžádala zpětná vazba k 0.3.",
+      "diagram_generator": "stavba",
+      "diagram": "Pravá deska a vedle ní prázdný zásobník s popiskem MATTER."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Zásobníky musí být stejně velké. Kdyby se kreslily podle podílu, obraz by tvrdil poměr — a musel by se rozhodnout, jestli hmotnostní (kyslík 65 %) nebo početní (vodík 63 %), což jsou dvě různé odpovědi. Viz factcheck.md.",
+      "diagram_generator": "stavba",
+      "diagram": "Šest zásobníků s popisky CARBON / HYDROGEN / OXYGEN / NITROGEN a dva prázdné s AND MANY OTHERS. Všechny STEJNĚ VELKÉ."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Odvozený tvar: souřadnice stupňů se počítají z výšky prvního, ne píšou napevno — jinak posun jednoho znamená projít pět scén ručně. Šířka se odvozuje OD ZÁKLADNY: v prvním průchodu rostla nahoru a pyramida stála na špičce, čímž obraz tvrdil, že mozků je víc než atomů.",
+      "diagram_generator": "stavba",
+      "diagram": "Pyramida zdola nahoru: ATOMS -> MOLECULES -> PROTEINS -> ORGANS -> BRAIN. Nejširší je ZÁKLADNA (atomy), vrchol je nejužší."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Hromada versus uspořádání. Sedmdesát kilogramů je táž hodnota, ze které vychází počet atomů v S23 — kdyby se měnila, musí se změnit obě.",
+      "diagram_generator": "stavba",
+      "diagram": "Vlevo beztvará hromada s popiskem SEVENTY KILOGRAMS, vpravo táž hmota uspořádaná. Mezi nimi otazník."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Nosná scéna celého přidaného bloku a přímá návaznost na S20. To, že přes mezeru nejde hmota, se tu poprvé stává argumentem, ne detailem kresby.",
+      "diagram_generator": "stavba",
+      "diagram": "PÁTEŘ, výplata: přes mezeru jde jen tenký proud dat. Atomy jsou nakreslené VÝHRADNĚ na pravé desce jako sklad tříděný po prvcích. Přes mezeru nepřechází ani jeden atom."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "assert na poměr: obraz tvrdí totéž číslo jako hlas. Výpočet je ve factcheck.md — 7e27/1e9 = 7e18 s = 222 mld let proti 13,8 mld let.",
+      "diagram_generator": "stavba",
+      "diagram": "Vodorovná osa času. Krátká značka UNIVERSE (13,8 mld let) a mnohem delší pruh ASSEMBLY AT A BILLION ATOMS PER SECOND. Poměr délek 16:1 je spočítaný v kódu a hlídaný assertem."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Musí být na TÉŽE ose jako S54, jinak se zrychlení tisíckrát nepozná.",
+      "diagram_generator": "stavba",
+      "diagram": "Táž osa, pruh zkrácený na 200 milionů let, stále mnohem delší než lidský život, který je na téže ose neviditelný."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "factcheck.md: formulace v hlase je 'MOST proteins', protože vnitřně neuspořádané proteiny fungují bez sbalení. Obraz proto ukazuje JEDEN protein jako příklad, ne všechny proteiny jako pravidlo.",
+      "diagram_generator": "stavba",
+      "diagram": "Vlevo hromada atomů proteinu, vpravo týž protein sbalený a funkční. Pod tím buňka nefunkční / za běhu. Popisek NOT A STRUCTURE. A PROCESS."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Ocásek jako uzavřený trojúhelník má horní hranu přes ústí, ta se musí mazat čarou v barvě pozadí a ta ukousne kus obrysu — výsledkem jsou dva pahýly. Naměřeno na dřívějším videu, viz docs.",
+      "diagram_generator": "stavba",
+      "diagram": "Bublina od stroje s citací z hlasu. Ocásek bubliny je OTEVŘENÁ lomená čára, ne uzavřený trojúhelník."
+    },
+    {
+      "id": "S58",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S58.png",
+      "note": "Vrchol výrobního bloku a jediné místo, kde se vyplatí atmosféra místo schématu: scénář říká 'the most advanced factory in the universe' a továrna je přesně to, co difuzní model umí. Odjezd kamery kvůli měřítku.",
+      "prompt": "vast dim industrial hall filled with rows of identical machines receding into haze, cold graphite grey and slate blue, flat overcast light from high windows, no sun, a single tiny human figure for scale, painterly, no text",
+      "pause": 2.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Ambrová tu znamená 'o tomhle je řeč', ne 'tady je chyba, kterou odsuzujeme'. Scéna se ptá, ne soudí.",
+      "diagram_generator": "mozek",
+      "diagram": "Síť neuronů, jediná synapse ambrová a jinak zapojená. Popisek ONE SYNAPSE."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Žádné číslo o celkovém počtu synapsí se nekreslí — scénář ho netvrdí. Kdyby se poměr dokresloval, musí sedět řád 1e14 z factcheck.md.",
+      "diagram_generator": "mozek",
+      "diagram": "Táž síť, teď je jinak zapojených mnoho spojů. Popisek A MILLION SYNAPSES?"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Rozdíl mezi strukturou a stavem — příprava na celou druhou polovinu.",
+      "diagram_generator": "mozek",
+      "diagram": "Vlevo zaškrtnuté MEMORIES, vpravo otazník u EXACT STATE."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Nejdelší pauza první poloviny. Klidná deska před jádrem videa.",
+      "diagram_generator": "mozek",
+      "diagram": "Prázdná plocha a jediná věta THE STRANGEST PROBLEM OF ALL.",
+      "pause": 3.0
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Tady se vyplácí to, že desky od S02 nezměnily souřadnice. TVRDÉ PRAVIDLO: obě postavy vznikají jedním voláním a jedním posunem, takže je konstrukčně nemožné jednu zvýraznit. Hlídá to assert porovnáním obou podstromů SVG.",
+      "diagram_generator": "identita",
+      "diagram": "PÁTEŘ, hlavní výplata: obě desky obsazené. Na levé postava s popiskem EARTH, na pravé postava s popiskem MARS. OBĚ POSTAVY KRESLÍ TÁŽ FUNKCE S TÝMIŽ PARAMETRY, liší se jen posunem v x."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Jediná scéna bloku, kde je asymetrie správná — hlas mluví jen o Mars-you. Asymetrie je ve VZPOMÍNKÁCH, ne v kresbě postavy.",
+      "diagram_generator": "identita",
+      "diagram": "Nad postavou MARS čtyři vzpomínky jako drobné ikony. Postava EARTH beze změny."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Bublina má stejný tvar a velikost jako ta v S66. Vzniká toutéž funkcí.",
+      "diagram_generator": "identita",
+      "diagram": "Bublina od postavy MARS: OKAY. I'M ON MARS."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Obě bubliny naráz a naprosto shodné. Kdyby se jedna kreslila jinak (větší, ambrová, výš), obraz by řekl, která má pravdu.",
+      "diagram_generator": "identita",
+      "diagram": "Bublina od postavy EARTH: NO. I'M ON EARTH. Bublina z S65 zůstává."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "NEJCITLIVĚJŠÍ SCÉNA VIDEA. Zpětná vazba k 0.4 to má jako tvrdé pravidlo: obraz smí vysvětlovat mechanismus, ale nesmí rozhodovat otázky, které scénář nechává otevřené. Zakázáno: zvýraznění, šipka jen k jedné, rozdíl velikosti, jedna první v kompozici. Hlídá assert.",
+      "diagram_generator": "identita",
+      "diagram": "Obě postavy, obě bubliny, mezi nimi WHICH ONE IS YOU? Naprostá symetrie: žádná ambrová, žádná šipka, žádný rozdíl velikosti ani pořadí.",
+      "pause": 3.2
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Obě větve stejně dlouhé, stejně silné, stejné barvy. Rozdvojení je symetrické — to je celý obsah scény.",
+      "diagram_generator": "identita",
+      "diagram": "Jedna společná časová osa, která se v bodě RECONSTRUCTION rozdvojuje do dvou SHODNÝCH větví."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Destruktivní varianta. Rozklad se kreslí jako ubývání, ne jako exploze — scénář nikde neříká, že to je násilné.",
+      "diagram_generator": "identita",
+      "diagram": "Levá deska: postava se rozkládá. Pravá: postava se skládá."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Zvenčí je všechno v pořádku — to scéna tvrdí a víc ne.",
+      "diagram_generator": "identita",
+      "diagram": "Pravá deska, hotová postava, popisek IDENTICAL."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Zaškrtnutí jsou tu na místě, protože scénář opravdu tvrdí, že to sedí.",
+      "diagram_generator": "identita",
+      "diagram": "Čtyři zaškrtnuté položky u pravé postavy: LOOKS / TALKS / REMEMBERS / KNOWS."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Čárkovaný rámeček je tu povinný. Hlas říká 'there MAY have been no journey' — kdyby obraz kreslil konec plnou čarou, tvrdil by, že originál prokazatelně zemřel. Zpětná vazba k 0.4 to jmenuje výslovně.",
+      "diagram_generator": "identita",
+      "diagram": "Pohled 'zevnitř' původního vědomí: časová osa, která v bodě rekonstrukce prostě končí. Celý výjev je v ČÁRKOVANÉM rámečku s popiskem ONE INTERPRETATION."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Zůstává UVNITŘ čárkovaného rámečku ze S72 — mění se obsah, ne rámeček. Tím obraz drží tutéž míru jistoty jako hlas.",
+      "diagram_generator": "identita",
+      "diagram": "Týž čárkovaný rámeček, uvnitř dvě věty: YOU DIED. / SOMEBODY ELSE WOKE UP."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Obojí je interpretace téhož stroje, takže obojí čárkovaně a stejně výrazně. Kdyby byl horní ambrový, video by rozhodlo za diváka.",
+      "diagram_generator": "identita",
+      "diagram": "Dva řetězy pod sebou, OBA čárkované: SCAN -> KILL -> COPY a SCAN -> TRAVEL. Ani jeden není zvýrazněný."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Přechod z techniky do filozofie. Konec bloku.",
+      "diagram_generator": "identita",
+      "diagram": "Škrtnutý nápis TECHNICAL QUESTION, pod ním plnou čarou PERSONAL IDENTITY.",
+      "pause": 2.4
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Táž konstrukce jako S63, jen obě kopie na jedné desce.",
+      "diagram_generator": "identita",
+      "diagram": "Pravá deska, na ní DVĚ postavy. Obě toutéž funkcí, jen posunuté."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "assert na shodu obou podstromů — stejné pravidlo jako v S63.",
+      "diagram_generator": "identita",
+      "diagram": "Obě postavy se shodnými vzpomínkami, shodně nakreslenými."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Druhá scéna, kde obraz nesmí odpovědět. Táž pravidla jako S67.",
+      "diagram_generator": "identita",
+      "diagram": "WHICH ONE IS THE REAL YOU? mezi dvěma naprosto shodnými postavami.",
+      "pause": 2.6
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Která z dvojice zmizí, je vizuálně libovolné — proto musí být obě otázky stejně velké a stejně blízko. Jinak obraz vybere jednu.",
+      "diagram_generator": "identita",
+      "diagram": "Jedna z dvojice zmizí. Nad tím dvě otázky: DID WE KILL YOU? / OR YOUR IDENTICAL TWIN? Obě stejně velké."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Vyvážené váhy jsou tu tvrzení: odpověď není. Miska bez close=True nemá levou stěnu a vypadá nedodělaně — naměřená past z docs. Konec bloku.",
+      "diagram_generator": "identita",
+      "diagram": "Váhy s prázdnými miskami, obě ve stejné výšce. Misky kreslené path() s close=True.",
+      "pause": 2.4
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Otevření třetí varianty. Mezera a desky jsou pořád tytéž.",
+      "diagram_generator": "mysl",
+      "diagram": "Postava, z ní se odděluje obrys mozku a putuje přes mezeru. Tělo zůstává."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Všechny tři jsou hypotézy a žádná není pravděpodobnější — proto čárkovaně a stejně velké.",
+      "diagram_generator": "mysl",
+      "diagram": "Tři cíle vedle sebe, VŠECHNY čárkovaně: BIOLOGICAL BRAIN / SYNTHETIC BRAIN / ROBOT. Stejně velké."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Otázka, na kterou obraz neodpovídá.",
+      "diagram_generator": "mysl",
+      "diagram": "Mozek uvnitř stroje, nad tím ARE YOU STILL YOU?"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Opět povinná symetrie. Táž konstrukce jako S63 a S77.",
+      "diagram_generator": "mysl",
+      "diagram": "Dva shodné stroje, v každém táž mysl, obě běží. Mezi nimi WHICH ONE IS CONSCIOUS?"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "factcheck.md: bez téhle scény by blok naznačoval, že kopírování vědomí prostě jde. Nevyškrtávat.",
+      "diagram_generator": "mysl",
+      "diagram": "Nad oběma stroji tři možnosti stejně velké a všechny čárkované: BOTH / NEITHER / NOT COPYABLE. Pod tím WE DON'T CURRENTLY KNOW.",
+      "pause": 2.4
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Čárkovaný obrys nese to, co scénář říká slovy 'science fiction has another trick' — je to označené jako sci-fi hned v obraze.",
+      "diagram_generator": "faze",
+      "diagram": "Postava napůl ve zdi, obrys postavy čárkovaný. Nahoře OUT OF PHASE v uvozovkách."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Zpětná vazba k 0.4 tuhle scénu jmenuje jako nejlépe převoditelnou do diagramu: sci-fi schopnost se přijme a hned rozbije důsledkem.",
+      "diagram_generator": "faze",
+      "diagram": "Tři svislé sloupce: WALL (postava neinteraguje), AIR (interaguje?), FLOOR (interaguje?). U prvního škrt, u dalších dvou otazník."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Konec bloku mechanismů.",
+      "diagram_generator": "faze",
+      "diagram": "Škrtnutý nápis SIMPLE, pod ním A COMPLETELY NEW KIND OF PHYSICS, čárkovaně.",
+      "pause": 2.4
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Dvouřádkový pant, který ze shrnutí zbyl po škrtech. Výčet se nevyslovuje, proto jsou piktogramy drobné a nepopsané — obraz nesmí říct víc než hlas.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři drobné piktogramy mechanismů v řadě, všechny stejně velké."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Jádro závěru: obtížnost si neodpovídá. Body jsou v protilehlých rozích, což je to tvrzení.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě osy proti sobě: EASY TO EXPLAIN vodorovně, EASY TO BUILD svisle. Dva body, každý v jiném rohu."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Zaškrtnutí u toho, co portál dává; čárkovaně to, co by vyžadoval.",
+      "diagram_generator": "zaver",
+      "diagram": "Bod PORTAL: zaškrtnuté PHYSICAL CONTINUITY, čárkovaně CONTROL OVER SPACETIME."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Otazník, ne škrt: scénář neříká, že to není ty — říká, že to nevíme. Škrt by odpověděl.",
+      "diagram_generator": "zaver",
+      "diagram": "Bod TRANSPORTER: zaškrtnuté EASIER TO IMAGINE, a velký otazník u IS IT YOU? Ne škrt, otazník."
+    },
+    {
+      "id": "S93",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S93.png",
+      "note": "Poslední atmosférická scéna. Závěr videa je osobní otázka, takže se z diagramů na chvíli vystoupí. Dveře jsou obyčejné a prázdné, aby nesugerovaly odpověď.",
+      "prompt": "a single plain doorway standing alone in an empty pale room, one small human figure standing in front of it at a distance, flat even overcast light, no sun, calm, painterly, no text"
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Vše, co o stroji platí. Připravuje S95.",
+      "diagram_generator": "zaver",
+      "diagram": "Řada zaškrtnutí a pod nimi A MILLION TESTS / PERFECTLY SAFE."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Klidná deska před závěrečnou otázkou.",
+      "diagram_generator": "zaver",
+      "diagram": "Jediná věta EXCEPT FOR ONE THING na prázdné ploše.",
+      "pause": 3.0
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Škrtá se DŮKAZ, ne vědomí. Kdyby se škrtalo vědomí, obraz by tvrdil, že tam žádné není.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava vstupující a postava vystupující, mezi nimi mezera a v ní přeškrtnutý nápis PROOF."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Otázka na diváka. Desky prázdné — místo je jeho.",
+      "diagram_generator": "zaver",
+      "diagram": "WOULD YOU USE IT? nad prázdnými dvěma deskami.",
+      "pause": 3.0
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Ztlumená, ne škrtnutá — scénář neříká, že je ta otázka špatná, říká, že není ta největší.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka HOW DO WE MOVE A HUMAN? v rámečku, rámeček ztlumený."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Jediné místo závěru, kde ambrová něco zvýrazňuje — a je to otázka, ne odpověď.",
+      "diagram_generator": "zaver",
+      "diagram": "Druhá otázka plnou čarou a ambrově: HOW DO WE KNOW IT IS THE SAME PERSON?"
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Deska pro karty a závěrečnou obrazovku YouTube — ty sedí vpravo a dole. Není to scéna navíc, je to poslední scéna scénáře navržená jako klidná. Zároveň poslední výplata páteře: video končí týmiž dvěma deskami a touž mezerou, kterými začalo v S02, a mezera zůstala prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "ZÁVĚREČNÁ DESKA: obě desky páteře a prázdná mezera mezi nimi, nic víc. Kompozice v horní dvou třetinách a vlevo. Dolní třetina a pravá část rámu PRÁZDNÉ.",
+      "pause": 3.5
+    }
+  ]
+}

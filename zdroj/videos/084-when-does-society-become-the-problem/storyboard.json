@@ -1,0 +1,982 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První scéna nese MYŠLENKU: „způsob, jakým tě svět vidí, se stal problémem“. Zavádí PÁTEŘ mistnost() — táž geometrie jako 083 (a konec 082), série tak drží jeden obraz. Návraty S02–S03, S18, S28, S41, S86, S91, S92, S99, výplata S100 (místnost v zrcadle).",
+      "diagram_generator": "uvod",
+      "diagram": "MÍSTNOST z 083 (mistnost(), geometrie beze změny): rám dveří a v něm postava, šest pozorovatelů do hloubky s ČÁRKOVANÝMI ambrovými pohledy k její hlavě; nad pozorovateli plné bubliny „…“, nad postavou prázdná čárkovaná. Žádný nadpis.",
+      "pause": 0.5
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Škrt, protože scénář plně popírá („Not because…“). Věta pokračuje do S03 → krátká pauza.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž místnost; v pásu nad ní dva PŘEŠKRTNUTÉ nápisy (text_skrtnuty): HURT ANYONE · DONE ANYTHING WRONG.",
+      "pause": 0.4
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Pozorovatelé = „the people around you“; očekávání nesou jejich plné bubliny.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž místnost; v pásu nad ní THE WAY YOU LOOK · THE WAY YOU SOUND · WHO YOU KNOW YOURSELF TO BE, pod tím ambrově DOESN'T FIT THE EXPECTATIONS."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Obyčejný den a k němu neviditelná vrstva navíc (čárkovaně = zvenčí nevidět). Výčet → vycet.",
+      "diagram_generator": "uvod",
+      "diagram": "Pět stejných dlaždic v řadě (sloty): GET DRESSED · GO TO WORK · BUY GROCERIES · TALK TO FAMILY · ANSWER QUESTIONS. Pod nimi čárkovaný pás přes celou šířku: + WHAT MOST PEOPLE NEVER NEED TO CONSIDER.",
+      "pause": 0.6,
+      "vycet": 0.3
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Tvar rýmuje s 083 S07 (sloupec otázek), příklady ale jiné než v 083 (doklady, formulář, jméno — ne zírání a bezpečí). Pokračuje do S06.",
+      "diagram_generator": "uvod",
+      "diagram": "Sloupec tří rámečků s otázkami: AN ID THAT NO LONGER MATCHES ME? · A BOX ON A FORM THAT DOESN'T FIT? · A NAME THAT HURTS? a pod nimi čtvrtý prázdný čárkovaný.",
+      "pause": 0.5
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Pauza 1,0 je beat před prvním číslem videa (rozhodnutí k v0.1: číslo po lidské scéně).",
+      "diagram_generator": "uvod",
+      "diagram": "Týž sloupec; první tři ztlumené, čtvrtý plný a ambrový: WILL I GET TO SIMPLY BE MYSELF TODAY? Pod sloupcem drobně PART OF EVERYDAY LIFE.",
+      "pause": 1.0
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Dvě SKUPINY vedle sebe, žádné postavičky — obraz nesmí tvrdit individuální riziko (notes, výhrada k dánskému číslu). Žádné číslo, které scénář neříká: „four decades“, ne 1980–2021 (ty zazní až v S45). Rámečky se stejnou šířkou, aby velikost netvrdila velikost skupiny.",
+      "diagram_generator": "dansko",
+      "diagram": "Nahoře DENMARK, pod ním NATIONAL RECORDS · FOUR DECADES. Pod tím dva stejně velké rámečky vedle sebe: vlevo THE REST OF THE POPULATION, vpravo ambrově TRANSGENDER PEOPLE (pořadí jako u sloupců od S08); mezi nimi čára s „VS“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Sloupce jsou SAZBY skupin, ne lidé. Měřítko 1× je sdílené se S46–S48 (registr invariantů), assert poměru 3,5. Pauza 1,4: číslo musí dosednout.",
+      "diagram_generator": "dansko",
+      "diagram": "sazby(): dva sloupce na společné základně, vlevo THE REST OF THE POPULATION (výška 1×, MUTED), vpravo TRANSGENDER PEOPLE (3,5×, ambrově). Nad nimi RATE OF DEATH BY SUICIDE, u pravého sloupce ABOUT 3.5×.",
+      "pause": 1.4
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Číslo je jeden dílek, ostatní dílky zatím prázdné. Pokračuje do S10 („Because…“).",
+      "diagram_generator": "dansko",
+      "diagram": "Sloupce z S08 zmenšené do jedné čárkované dlaždice; vedle ní tři prázdné čárkované dlaždice. Pod řadou ONE PART OF THE STORY.",
+      "pause": 0.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Dva panely po jedné postavě, NE řada s vyznačenou částí — řada by tvrdila poměr, který scénář neříká.",
+      "diagram_generator": "uvod",
+      "diagram": "Dva panely vedle sebe, v každém jedna postava. Levý plný: SOME ARE HAPPY AND COMFORTABLE WITH THEMSELVES. Pravý prázdný čárkovaný.",
+      "pause": 0.4
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Obě větve stejnou barvou kresby (konvence 1: rozcestí se nebarví jako vítěz); ambrová jen nápis té, o které je řeč.",
+      "diagram_generator": "uvod",
+      "diagram": "Tytéž dva panely; pravý plný: OTHERS STRUGGLE FOR YEARS, pod tím drobně IDENTITY · BODY · HOW THE WORLD TREATS THEM."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Rým s koncem 083 (THE EXPERIENCE ITSELF / HOW SOCIETY RESPONDS) — 084 odpovídá na otázku, kterou 083 nechala na vahách. Váhy ZŮSTÁVAJÍ VODOROVNĚ celým videem: náklon by tvrdil, která bolest je větší, a to scénář netvrdí. Motiv se vrací v S69, S77 a výplata v S96.",
+      "diagram_generator": "vahy",
+      "diagram": "VÁHY z teaseru 083 (vahy_paterni(), geometrie 083 S89–S90: střed 1280/820, s 0,9, rameno 800), VODOROVNĚ. Levá miska THE PAIN WITHIN, pravá ambrově THE PAIN OTHERS ADD.",
+      "pause": 0.5
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Ovál přes obě misky = nejdou od sebe oddělit. Musí být statická (následuje CTA). Za ní výzva k odběru (`vyzva`, docs/cta.md, od 2026-10-24 místo mluvené S13b); levý dolní roh S13 i S14 prázdný.",
+      "diagram_generator": "vahy",
+      "diagram": "Tytéž váhy; nápisy obou misek ztlumené a obě misky obtažené jedním čárkovaným ambrovým oválem. Nad vahami ALMOST IMPOSSIBLE TO SEPARATE.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Kapitolová deska, jako 080–083. Krátká samostatná promluva — kandidát na naveti, rozhodne poslech.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): „WHEN YOUR OWN BODY FEELS WRONG“, pod ním mistnost() ztlumeně."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Pojem jako slovo, bez kresby těla.",
+      "diagram_generator": "telo",
+      "diagram": "Velké GENDER DYSPHORIA uprostřed, pod ním drobně HARDER TO SEE FROM THE OUTSIDE."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Konvence 082/083: čárkovaný ambrový obrys = kdo člověk je, zvenčí nevidět. „Can“ → čárkovaně.",
+      "diagram_generator": "telo",
+      "diagram": "Postava (plně, INK) a přes ni posunutý čárkovaný ambrový obrys (prozivani()). Popisky: u postavy THE BODY, u obrysu EXPERIENCED GENDER; mezi nimi čárkovaně CAN CAUSE PROFOUND DISTRESS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "„It may involve“ → čárkovaně (konvence 2). Žádná kresba těla.",
+      "diagram_generator": "telo",
+      "diagram": "Tři ČÁRKOVANÉ dlaždice: PHYSICAL CHARACTERISTICS · THE CHANGES OF PUBERTY · BEING PERCEIVED AS ANOTHER GENDER. Nad nimi MAY INVOLVE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Druhý zdroj distresu = svět kolem → návrat páteře.",
+      "diagram_generator": "telo",
+      "diagram": "Místnost (mistnost()), pohledy čárkované; v pásu nad ní HOW THEY ARE TREATED OR RECOGNISED."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Zavádí motiv zrcadla, který se vyplatí v S100. Výčet → vycet.",
+      "diagram_generator": "zrcadlo",
+      "diagram": "ZRCADLO (zrcadlo(), sdílený tvar): postava vlevo, vpravo svislý rám zrcadla a v něm odraz postavy ztlumeně. U odrazu A FACE · A BODY · A PERSON GETTING READY FOR THE DAY a pod tím WHAT OTHERS SEE.",
+      "pause": 0.5,
+      "vycet": 0.3
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Tentýž obraz, jiný prožitek — rozdíl nese jen obrys.",
+      "diagram_generator": "zrcadlo",
+      "diagram": "Totéž zrcadlo; odraz má navíc čárkovaný ambrový obrys (prozivani()) a u něj ALIENATION · GRIEF · DISTRESS. Nápisy z S19 pryč."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Čárkovaná šipka s otazníkem = domněnka postavy, ne příčina.",
+      "diagram_generator": "zrcadlo",
+      "diagram": "Zrcadlo ztlumeně; nahoře TRY HARDER TO FIT IN → čárkovaná šipka → THE FEELING DISAPPEARS? (otazník ambrově).",
+      "pause": 0.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Rysky bez čísel — scénář říká jen „years“.",
+      "diagram_generator": "zrcadlo",
+      "diagram": "Dlouhá vodorovná čára s pravidelnými ryskami (roky, bez čísel), na jejím konci postava a nad ní čárkovaná bublina IS SOMETHING WRONG WITH ME?",
+      "pause": 0.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Fact check: ICD-11 kapitola 17, ne 6 — čísla kapitol scénář neříká, takže v obraze nejsou. Žádné logo WHO.",
+      "diagram_generator": "telo",
+      "diagram": "Nahoře WHO · ICD-11. Dva oddělené rámečky vedle sebe: vlevo MENTAL AND BEHAVIOURAL DISORDERS (ztlumeně), vpravo ambrově GENDER INCONGRUENCE; mezi nimi mezera a pod ní CLASSIFIED SEPARATELY.",
+      "pause": 0.5
+    },
+    {
+      "id": "S23b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23b.png",
+      "note": "Most mezi „dysforií“ celé série a „nesouladem“ z ICD-11. Fact check: APA, DSM-5 fact sheet Gender Dysphoria — podstatou je klinicky významné trápení, nesoulad sám porucha není. Škrt = „not the identity“.",
+      "diagram_generator": "telo",
+      "diagram": "Nahoře AMERICAN PSYCHIATRIC MANUAL · DSM-5, pod tím velké GENDER DYSPHORIA, drobně DESCRIBES a dole vedle sebe ambrově THE DISTRESS a přeškrtnuté THE IDENTITY."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "≠ místo škrtu (konvence 3: „není totéž“).",
+      "diagram_generator": "telo",
+      "diagram": "nerovno(): A PERSON'S IDENTITY ≠ AN ILLNESS TO BE CURED."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "„Some“ — žádná dlaždice zvýrazněná, nejsou to stupně ani doporučení.",
+      "diagram_generator": "telo",
+      "diagram": "Nahoře REAL DISTRESS → REAL CARE (ambrově). Pod tím tři dlaždice: PSYCHOLOGICAL SUPPORT · SOCIAL TRANSITION · MEDICAL TRANSITION, nad nimi drobně SOME.",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Plný pohled = jen vidí; obrys = co vidět není. Konec kapitoly.",
+      "diagram_generator": "telo",
+      "diagram": "Vlevo pozorovatel, PLNÁ pohledová čára k postavě vpravo; postava má čárkovaný ambrový obrys (prozivani()). Nahoře SEEING A BODY ≠ UNDERSTANDING SUFFERING.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Kapitolová deska; kandidát na naveti.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): „THE WORLD ADDS ITS OWN WEIGHT“, pod ním mistnost() ztlumeně."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Most z 083 (hlas). Návrat páteře.",
+      "diagram_generator": "svet",
+      "diagram": "Místnost; jen jeden pozorovatel má čárkovaný pohled a nad sebou plnou bublinu, ostatní ztlumení bez pohledů. V pásu nad místností YOU SPEAK — SOMEONE LAUGHS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Jiný příklad než v 083 (tam záchod). Cizí člověk na internetu.",
+      "diagram_generator": "svet",
+      "diagram": "Postava vlevo, vpravo rám obrazovky se dvěma ztlumenými řádky příspěvků a ambrovou bublinou LET ME EXPLAIN WHAT YOU REALLY ARE; pod ní drobně A STRANGER WHO HAS NEVER MET YOU.",
+      "pause": 0.6
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Jiný příklad než v 083 (tam lékař). Zaváhání nesou tři tečky, ne jméno — staré jméno se nepíše.",
+      "diagram_generator": "svet",
+      "diagram": "Nahoře THE REGISTER, pod tím list se sedmi ztlumenými řádky jmen (jen čáry); čtvrtý řádek v ambrovém rámečku YOUR NAME a za ním tři ambrové tečky.",
+      "pause": 0.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Banka po telefonu (v 083 rodina; zprávy zamítnuty, blížily se 083 S66). Čárkovaně = nedůvěra/nejistota.",
+      "diagram_generator": "svet",
+      "diagram": "Postava vlevo, čárkovaná linka k rámečku THE BANK (uvnitř drobně DOESN'T BELIEVE IT'S YOURS), nad bankou čárkovaná ambrová bublina YOUR ACCOUNT?",
+      "pause": 0.5
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "Atmosféra „nic dramatického se nestane“ — obyčejnost je pointa, ne osamělost (zpětná vazba ke storyboardu: každodennost, ne ilustrace utrpení). Ne „dawn/dusk“ (zlaté světlo přebije kotvu). První SDXL scéna až kolem 4:00.",
+      "prompt": "an ordinary open-plan office in the afternoon, a few people working at desks seen from a distance, nothing remarkable happening, soft overcast daylight through tall windows, muted colours, everyday routine"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Počet teček v kódu, assert 200 ≤ n < 1000 („hundreds“). Blok čárkovaně, protože „not always“ není popření.",
+      "diagram_generator": "svet",
+      "diagram": "Vlevo jeden velký čárkovaný blok ONE TERRIBLE EVENT (ztlumeně); vpravo pole stovek drobných teček, nad ním ambrově HUNDREDS OF SMALL EXPERIENCES.",
+      "pause": 0.5
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Výčet → vycet.",
+      "diagram_generator": "svet",
+      "diagram": "Tři malé karty: A REMARK YOU CAN'T FORGET · A CONVERSATION YOU REHEARSE · A PLACE YOU AVOID.",
+      "pause": 0.4,
+      "vycet": 0.3
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Skrytá část = obrys za stěnou.",
+      "diagram_generator": "svet",
+      "diagram": "Postava; její čárkovaný ambrový obrys (prozivani()) z poloviny zakrývá svislá stěna/panel. U něj KEPT HIDDEN."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Nová myšlenka kapitoly (kumulace), proto vlastní obraz a delší pauza. Tečky tytéž jako v S33 (velikost, barva).",
+      "diagram_generator": "svet",
+      "diagram": "Vodorovná osa MONTHS → YEARS (bez čísel); nad ní se drobné tečky z S33 hromadí do rostoucí kupy zleva doprava. Nahoře THEY DON'T RESET.",
+      "pause": 1.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Pojem jako slovo.",
+      "diagram_generator": "svet",
+      "diagram": "Velké MINORITY STRESS uprostřed, pod ním drobně A FRAMEWORK IN PSYCHOLOGY.",
+      "pause": 0.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Břemeno doslova; „may not“ → čárkovaně.",
+      "diagram_generator": "svet",
+      "diagram": "Postava a na jejích ramenou sloupec čtyř rámečků: STIGMA · DISCRIMINATION · EXPECTED REJECTION · A WORLD THAT MAY NOT ACCEPT YOU (poslední čárkovaně). Nahoře EXTRA BURDEN."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Souvislost, ne příčina → žádná šipka. assert 85 čtverečků.",
+      "diagram_generator": "svet",
+      "diagram": "Vlevo mřížka 85 malých čtverečků se štítkem 2022 · 85 STUDIES; od ní ROVNÉ ČÁRY BEZ HROTU (zakaz_sipky) se štítkem ASSOCIATED WITH ke třem rámečkům DEPRESSION · SUICIDAL THOUGHTS · SUICIDE ATTEMPTS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Ostatní faktory scénář nejmenuje → prázdné rámečky, ne vymyšlené popisky. „Among“ → není jediný ani největší, proto není větší než ostatní.",
+      "diagram_generator": "svet",
+      "diagram": "Nahoře EUROPEAN RESEARCH · 2024 REVIEW. Pod tím šest ztlumených štítků rizikových faktorů beze jmen (čárkované prázdné rámečky) a mezi nimi jeden plný ambrový DISCRIMINATION, u něj drobně AMONG THE MOST CONSISTENTLY DOCUMENTED."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Prostředí = lidé kolem → páteř.",
+      "diagram_generator": "svet",
+      "diagram": "Místnost, pohledy čárkované; v pásu nad ní THE ENVIRONMENT IS NOT IRRELEVANT.",
+      "pause": 0.5
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Mostová otázka na STEJNÉM místě jako v 083. Konec kapitoly — pauza ZA otázkou.",
+      "diagram_generator": "svet",
+      "diagram": "otazka(): DEFENDING THE RIGHT TO EXIST AS THEMSELVES?",
+      "pause": 2.4
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Kapitolová deska; kandidát na naveti.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): „THE NUMBERS BEHIND THE PAIN“, pod ním mistnost() ztlumeně."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Rým s S07 — návrat k číslu z úvodu.",
+      "diagram_generator": "dansko",
+      "diagram": "Rozvržení S07 (DENMARK nahoře, dva stejné rámečky skupin) ztlumeně, DENMARK ambrově. Pod tím drobně LET'S LOOK CAREFULLY."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Plocha úměrná počtu: 3 800 / 6,5 mil. = 0,06 % → strana čtverečku ~2,4 % strany velkého, assert v kódu. Čísla jen ta, co zazní.",
+      "diagram_generator": "dansko",
+      "diagram": "Velký čtverec 6.5 MILLION+ PEOPLE (MUTED obrys) a v jeho rohu plošně úměrný ambrový čtvereček ≈3,800 se štítkem a vodicí čarou. Nahoře 1980–2021.",
+      "pause": 0.5
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Měřítko 1× sdílené se S08 (registr). assert 7,7 a 3,5 podle factchecku. Popisky skupin pod základnou jednou pro obě dvojice.",
+      "diagram_generator": "dansko",
+      "diagram": "Dvě dvojice sloupců sazby() na téže základně a v tomtéž měřítku jako S08: vlevo RECORDED SUICIDE ATTEMPTS (1× / NEARLY 8×), vpravo DEATH BY SUICIDE (1× / ABOUT 3.5×). Referenční sloupce MUTED, sloupce trans skupiny ambrově.",
+      "pause": 0.6
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Notes: v S47 musí být vidět INTERVAL, ne jen bod 3,5. Vous 2,0–6,3 podle factchecku, popisky „about“ podle scénáře.",
+      "diagram_generator": "dansko",
+      "diagram": "Jen dvojice DEATH BY SUICIDE ze S46 (na témže místě), ambrový sloupec ztlumený; přes něj svislý interval (vous, INK) od 2,0× do 6,3× a u konců ABOUT 2× · ABOUT 6×. Vlevo velké ambrové 12 a pod ním DEATHS. Legenda skupin dole.",
+      "pause": 1.0
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Výšky podle factchecku 5,4 a 2,8 (assert), čísla v obraze nejsou — scénář je neříká, ani letopočty období.",
+      "diagram_generator": "dansko",
+      "diagram": "Dvě dvojice sazby() v témže měřítku, nahoře DEATH BY SUICIDE, pod základnou EARLIER DECADES · MORE RECENT DECADES; druhý ambrový sloupec nižší, ale nad referencí. Čárkovaně dřívější úroveň, u druhé dvojice závorka a štítky NARROWED · DID NOT DISAPPEAR."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Šipky tu znamenají „cesta do dat“, ne příčinu.",
+      "diagram_generator": "dansko",
+      "diagram": "Velký rámeček IN THE DATA; vedou do něj dvě cesty: HOSPITAL CARE RELATED TO GENDER IDENTITY · LEGAL GENDER CHANGE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Čárkovaně = v datech nevidět. Fact check: přesněji populace narozená v Dánsku 15+ — do komentářů, ne do obrazu.",
+      "diagram_generator": "dansko",
+      "diagram": "Týž rámeček; vně něj čárkované obrysy postav se štítkem NOT IN THE DATA. Dole AN ENTIRE POPULATION ≠ A SURVEY."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Jediná výhrada k příčinnosti ve videu (rozhodnutí k v0.1). ≠, ne škrt.",
+      "diagram_generator": "dansko",
+      "diagram": "nerovno(): A DIFFERENCE ≠ THE CAUSE; nad levou stranou drobně SHOWS, nad pravou DOES NOT SHOW.",
+      "pause": 1.2
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Příprava S53 — faktory zatím beze jmen.",
+      "diagram_generator": "priciny",
+      "diagram": "Uprostřed kruh A SUICIDE ATTEMPT, k němu ze všech stran sedm čárkovaných čar bez popisků."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Žádný faktor zvýrazněný — DISCRIMINATION není ambrově, scénář ho staví na roveň ostatním.",
+      "diagram_generator": "priciny",
+      "diagram": "Týž kruh; na koncích čar popisky MENTAL HEALTH · FAMILY CONFLICT · ISOLATION · TRAUMA · FINANCIAL INSECURITY · ACCESS TO CARE · DISCRIMINATION, všechny stejnou barvou a velikostí; sousední popisky se dotýkají překrývajícími se ztlumenými oválky (CAN OVERLAP)."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Statistika skupiny se nepřenáší na jednotlivce — vizuálně pojistka k dánskému číslu.",
+      "diagram_generator": "priciny",
+      "diagram": "Vlevo zmenšené sloupce z S08 (A STATISTIC), vpravo jedna postava; spojnice mezi nimi přeškrtnutá (skrtla_spojnice). Nahoře THE CAUSE OF ONE PERSON'S SUFFERING.",
+      "pause": 0.6
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Vzorec 083 S79 (ztlumená otázka nad ambrovou).",
+      "diagram_generator": "priciny",
+      "diagram": "Nahoře ztlumeně DOES EVERY PROBLEM HAVE ONE CAUSE?, pod tím ambrově ARE WE WILLING TO TAKE EVERY RELEVANT CAUSE SERIOUSLY?"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Rým s 083 S41 (pole teček bez měřítka). Jméno organizace textem, žádné logo.",
+      "diagram_generator": "trevor",
+      "diagram": "Husté pole drobných teček (bez měřítka) a nad ním THE TREVOR PROJECT · 2024 · 18,000+ LGBTQ+ YOUNG PEOPLE · UNITED STATES.",
+      "pause": 0.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Pruhy, ne řady postaviček (stejná výhrada jako u Dánska). assert 46 a 14.",
+      "diagram_generator": "trevor",
+      "diagram": "Nahoře TRANSGENDER AND NON-BINARY RESPONDENTS · PAST YEAR. Dva vodorovné podílové pruhy (podil()): SERIOUSLY CONSIDERED SUICIDE 46 % · ATTEMPTED 14 %; vyplněná část ambrově, zbytek DIM.",
+      "pause": 0.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Rým s 083 S43.",
+      "diagram_generator": "trevor",
+      "diagram": "S57 ztlumeně v čárkovaném rámečku; štítky ONLINE SURVEY · NOT A RANDOM SAMPLE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Číslo ustupuje člověku. Pauza před větou o pomoci.",
+      "diagram_generator": "trevor",
+      "diagram": "Velké 46% ztlumeně a za ním (pod ním) jedna postava plně; nahoře SOMEONE WHO HAD TO LIVE THROUGH IT.",
+      "pause": 1.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Doporučení WHO pro média: odkaz na pomoc. Žádné logo, žádná ikona telefonu. Konec kapitoly — dlouhá pauza, aby věta dozněla.",
+      "diagram_generator": "trevor",
+      "diagram": "Klidná deska: FREE, CONFIDENTIAL SUPPORT · LINKS IN THE DESCRIPTION, pod tím findahelpline.com. Nic dalšího.",
+      "pause": 2.4
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Kapitolová deska.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): „WHAT HAPPENS WHEN PEOPLE ARE ACCEPTED?“, pod ním mistnost() ztlumeně."
+    },
+    {
+      "id": "S62",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S62.png",
+      "note": "Obrat kapitoly („find strength in them“) — opora okolí. TŘI lidé, ne dvojice: dvojice na lavičce by se četla jako romantická fotka (zpětná vazba ke storyboardu). Bez tváří, zezadu.",
+      "prompt": "a small group of three friends walking together along a riverside path seen from behind at a distance, relaxed and talking, an ordinary afternoon, soft overcast daylight, calm everyday life"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "První řádek škrt (plné popření „cannot magically eliminate“), druhý ≠ („not a substitute“).",
+      "diagram_generator": "prijeti",
+      "diagram": "Dva řádky: SUPPORTIVE FAMILY — přeškrtnutá spojnice — ELIMINATES EVERY FORM OF DYSPHORIA; pod tím ACCEPTANCE ≠ PROFESSIONAL CARE."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Fact check: 20 % / 8 % jsou za všechny LGBTQ+ respondenty, ne jen trans — obraz to musí říct, scénář to netvrdí jinak.",
+      "diagram_generator": "prijeti",
+      "diagram": "Vodorovná osa (stupnice) od VERY UNACCEPTING vlevo po VERY ACCEPTING vpravo, nad ní THEIR LOCAL COMMUNITIES. Pod osou drobně ALL LGBTQ+ RESPONDENTS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "podil() svisle, sdílené měřítko se S66. assert 20.",
+      "diagram_generator": "prijeti",
+      "diagram": "Táž osa; nad levým koncem svislý podílový sloupec 20 % ambrově, štítek ATTEMPTED SUICIDE · PAST YEAR.",
+      "pause": 0.4
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Mezistupně (13, 10 %) scénář neříká → nekreslí se. assert 8.",
+      "diagram_generator": "prijeti",
+      "diagram": "Táž osa; levý sloupec 20 % ztlumeně, nad pravým koncem sloupec 8 % ambrově."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Čísla (20/17/11 %, 9/15 %) scénář neříká → v obraze nejsou.",
+      "diagram_generator": "prijeti",
+      "diagram": "Nahoře LOWER RATES OF SUICIDE ATTEMPTS WHEN: a pod tím dvě dlaždice EVERYONE THEY LIVE WITH RESPECTS THEIR PRONOUNS · A GENDER-NEUTRAL BATHROOM AT SCHOOL."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "„Challenge the idea“ ≠ vyvrátit → ne škrt, otazník.",
+      "diagram_generator": "prijeti",
+      "diagram": "CORRELATION ≠ PROOF nahoře; pod tím ztlumeně v uvozovkách “THE ENVIRONMENT MAKES NO DIFFERENCE” v čárkovaném rámečku a vedle ambrový otazník."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "TEZE videa (zavedena jen tady, výplata v S96). Váhy dál vodorovně.",
+      "diagram_generator": "vahy",
+      "diagram": "Váhy z S12 (vodorovně, táž geometrie): levá miska ztlumeně WE CAN'T REMOVE EVERY SOURCE, pravá ambrově WE CAN CHOOSE NOT TO ADD.",
+      "pause": 1.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Rým s 083 S14–S17 (plnící se sloty). Dvě krátké věty výčtu → vycet.",
+      "diagram_generator": "prijeti",
+      "diagram": "Čtyři sloty, plné první dva: LISTEN WITHOUT RIDICULE · RESPECT PRIVACY; třetí a čtvrtý prázdné čárkované.",
+      "pause": 0.5,
+      "vycet": 0.3
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "prijeti",
+      "diagram": "Tytéž sloty, třetí plný: ALLOW CARE WITHOUT A PUBLIC SPECTACLE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "prijeti",
+      "diagram": "Tytéž sloty, čtvrtý plný: DISAGREE WITHOUT MAKING SOMEONE A TARGET. Pod řadou drobně SMALL?",
+      "pause": 0.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Konec kapitoly. Za ní druhá výzva k odběru (`vyzva`), mezi pointou „nezhoršovat to“ a kapitolou S74; roh S73 i S74 prázdný.",
+      "diagram_generator": "prijeti",
+      "diagram": "Sloty ztlumeně nahoře; pod nimi postava s čárkovanými pohledy kolem a štítkem EXPECTING REJECTION EVERY DAY; sloty ambrově obtažené.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Kapitolová deska.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): „WHO IS RESPONSIBLE?“, pod ním mistnost() ztlumeně."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Námitka hlasem někoho jiného — bublina, ne nápis videa.",
+      "diagram_generator": "odpovednost",
+      "diagram": "Postava (MUTED) s velkou bublinou WHY SHOULD SOCIETY BE RESPONSIBLE FOR SOMEONE ELSE'S MENTAL HEALTH?",
+      "pause": 0.6
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "odpovednost",
+      "diagram": "Tři řádky pod sebou: NOBODY GETS THROUGH LIFE WITHOUT PAIN · WE CAN'T MAKE EVERYONE HAPPY · WE CAN'T FORCE EVERYONE TO AGREE."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "„All of that is true“ = fajfky; „the distinction“ = váhy. Váhy na pevné geometrii (registr).",
+      "diagram_generator": "vahy",
+      "diagram": "Tytéž tři řádky ztlumeně nahoře, u každého fajfka; pod nimi váhy z S12 (vodorovně) s popisky misek THE PAIN WITHIN · THE PAIN OTHERS ADD."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Otázka, ne tvrzení → čárkovaná šipka s otazníkem.",
+      "diagram_generator": "odpovednost",
+      "diagram": "OUR WORDS AND ACTIONS → čárkovaná šipka → DISCRIMINATION · MISUNDERSTANDING · CONFLICT a u nich ambrově MORE COMMON?",
+      "pause": 0.4
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Ptá se, proč by na sobě měly záviset — otazník, ne škrt.",
+      "diagram_generator": "odpovednost",
+      "diagram": "Ambrově DIGNITY; čárkovaná spojnice s otazníkem uprostřed k EASY FOR THE MAJORITY TO UNDERSTAND."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "odpovednost",
+      "diagram": "Dva panely: BASIC RESPECT — DOESN'T REQUIRE AGREEING WITH EVERY DECISION · REJECTING CRUELTY — DOESN'T REQUIRE ABANDONING YOUR QUESTIONS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "≠ (konvence 3).",
+      "diagram_generator": "odpovednost",
+      "diagram": "Dva řádky: AGREEMENT ≠ RESPECT · QUESTIONS ≠ CRUELTY.",
+      "pause": 1.0
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Rým s 083 S31 (postava mimo rámečky). Rámečky beze jmen — nejde o muže/ženy, ale o „kategorie, kterým rozumíme“.",
+      "diagram_generator": "odpovednost",
+      "diagram": "Dva úzké rámečky kategorií s postavami uvnitř; jedna postava mimo ně. Nad ní ambrově MAKES US UNCOMFORTABLE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Pokračuje do S84.",
+      "diagram_generator": "odpovednost",
+      "diagram": "Ztlumeně v uvozovkách “TRADITION” · “COMMON SENSE”; pod tím ambrově WHAT DO OUR ACTIONS ACCOMPLISH?",
+      "pause": 0.4
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Rozcestí se nebarví jako vítěz (konvence 1). Konec kapitoly.",
+      "diagram_generator": "odpovednost",
+      "diagram": "Ambrový uzel OUR ACTIONS, z něj dvě větve stejnou barvou: HELP SOMEONE WHO IS STRUGGLING? · MAKE SOMEONE'S LIFE MORE PAINFUL?",
+      "pause": 2.4
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Kapitolová deska; dvě slova → silný kandidát na naveti (krátká promluva).",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): „THE MIRROR“, pod ním mistnost() ztlumeně."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Návrat k S01. Výčet krátkých vět → vycet.",
+      "diagram_generator": "zaver",
+      "diagram": "Místnost: postava ve dveřích, pozorovatelé ztlumeně BEZ pohledových čar. V pásu nad ní THE PERSON FROM THE BEGINNING.",
+      "pause": 0.5,
+      "vycet": 0.3
+    },
+    {
+      "id": "S87",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S87.png",
+      "note": "Obyčejný den té postavy MEZI lidmi — ne osamělý člověk v depresivním světě (zpětná vazba ke storyboardu). Ne „morning/dawn“ (zlaté světlo).",
+      "prompt": "an ordinary busy city street on a weekday, people going about their day, one person with a small backpack walking among them seen from behind at a distance, shops and a cyclist, soft overcast daylight, muted colours, everyday life"
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Obrys = to, co zvenčí nevidíme; plný pohled = díváme se, nesoudíme.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava s čárkovaným ambrovým obrysem (prozivani()); vlevo pozorovatel s PLNÝM pohledem. Nahoře WE MAY NEVER FULLY UNDERSTAND.",
+      "pause": 1.0
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Rozloučení se sérií: za každou kartou člověk. Výčet → vycet.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři ztlumené karty vedle sebe THE APPEARANCE · THE ARGUMENTS · THE STATISTICS, za každou (vykukuje nad ni) postava plně. Nahoře BEYOND THE SURFACE.",
+      "pause": 0.4,
+      "vycet": 0.3
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Žádná postava označená trans/cis (konvence 6) — rozdíl nese jen obrys.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě stejně velké postavy stejnou barvou, mezi nimi znak = ; jedna má čárkovaný ambrový obrys DIFFERENT LIFE. Pod nimi NOT LESS HUMAN.",
+      "pause": 1.4
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Návrat páteře: soud ve formě požadavků. Výčet → vycet.",
+      "diagram_generator": "zaver",
+      "diagram": "Místnost s čárkovanými ambrovými pohledy a plnými bublinami nad pozorovateli; v pásu nad ní EXPLAIN · JUSTIFY · DEFEND · PROVE.",
+      "pause": 0.6,
+      "vycet": 0.3
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Otázka se otáčí na pozorovatele — kresba přesouvá pozornost, aniž by se cokoli posunulo.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž místnost, ale obráceně zvýrazněná: postava ztlumeně, pozorovatelé plně v INK bez pohledů. V pásu nad ní ambrově WHAT DOES OUR RESPONSE REVEAL ABOUT US?",
+      "pause": 0.5
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Pokračuje do S94 („Or…“).",
+      "diagram_generator": "zaver",
+      "diagram": "Uzel OUR RESPONSE, jedna větev ambrově: OFFER UNDERSTANDING — EVEN WITHOUT FULLY UNDERSTANDING? Druhá větev prázdná čárkovaná.",
+      "pause": 0.3
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Ambrová jen „o tomhle je řeč“, ne „špatně“.",
+      "diagram_generator": "zaver",
+      "diagram": "Tentýž uzel; první větev INK, druhá ambrově DEMAND THEY MAKE US COMFORTABLE FIRST?"
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Podmětem je společnost, ne divák (rozhodnutí k v0.2). Výčet → vycet.",
+      "diagram_generator": "zaver",
+      "diagram": "Nahoře HOW A SOCIETY TREATS…; pod tím tři řádky PEOPLE WITH LESS POWER · PEOPLE WHO ARE MISUNDERSTOOD · PEOPLE WHO CHALLENGE WHAT'S “NORMAL”.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Výplata teze z S69. Pravá miska čárkovaně = to, co ještě není dané, je to volba. Váhy se nenaklání ani tady.",
+      "diagram_generator": "vahy",
+      "diagram": "VÝPLATA VAH: táž geometrie, vodorovně; levá miska ztlumeně FREE FROM PAIN?, pravá miska čárkovaně a ambrově ANOTHER SOURCE OF PAIN? a nad ní A CHOICE.",
+      "pause": 1.2
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Okno závěrečné obrazovky (posledních 20 s) — prvky YouTube patří NAHORU, dole je titulek. Ztlumeně, protože „not only“.",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: ztlumeně HOW DOES A PERSON LEARN TO LIVE IN A WORLD THAT DOESN'T UNDERSTAND THEM? Horní polovina prázdná."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Okno závěrečné obrazovky.",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: ambrově WHAT KIND OF WORLD ARE WE CHOOSING TO BUILD? Horní polovina prázdná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Okno závěrečné obrazovky: horní pás nad místností volný. Pauza 1,0 je beat před výplatou.",
+      "diagram_generator": "zaver",
+      "diagram": "Místnost (je celá pod MISTNOST_VRSEK) s PLNÝMI tenkými pohledy (jen se dívají), bez bublin a bez nápisu. Horní pás prázdný.",
+      "pause": 1.0
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "VÝPLATA PÁTĚŘE a zrcadla zároveň: místnost, ve které se celou sérii soudilo, je odraz — pozorovatelé jsme my. Okno závěrečné obrazovky: rám nesmí zasáhnout do horního pásu (ověřit zaver_check po TTS). Konec série.",
+      "diagram_generator": "zaver",
+      "diagram": "VÝPLATA: místnost z S99 beze změny a kolem ní rám zrcadla (zrcadlo() ve velikosti místnosti), bez nápisu. Horní pás nad rámem prázdný.",
+      "pause": 3.0
+    }
+  ]
+}

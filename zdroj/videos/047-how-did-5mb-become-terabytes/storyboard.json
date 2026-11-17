@@ -1,0 +1,778 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU, ne atmosféru, a NENÍ sdxl (pravidlo z docs). Paradox je vidět dřív, než ho hlas dopoví: obrovská skříň, nepatrný obsah. Postava je měřítko, ne postava — bez obličeje.",
+      "diagram_generator": "paradox",
+      "diagram": "Silueta skříně v lidském měřítku a v ní JEDINÝ ambrový čtvereček s 5 MB."
+    },
+    {
+      "id": "S02",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S02.png",
+      "note": "Skutečný stroj, protože RAMAC je konkrétní pojmenovaný objekt - přesně to, co má kreslit archiv a ne difuzní model. PICK VYBRÁN Z KONTAKTNÍHO LISTU (6 kandidátů), ne od stolu: dva byly propojovací pole (jiný předmět), jeden detail mechaniky přes muzejní sklo s odrazy. Ze tří použitelných vyhrál tenhle, protože u konzole sedí JEDNA operátorka a stroj se za ní táhne přes celý záběr - scéna říká doslova 'taller than the person operating it'. Ostatní dva mají čtyři pózující muže, nebo je postava malá a daleko. Licence CC BY-SA 4.0 (Norsk Teknisk Museum), takže UVEDENÍ AUTORA JE POVINNÉ a musí být uvnitř bloku Popis v youtube.md.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "IBM 305 RAMAC",
+        "pick": 2,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Recenzent 0.2 upozornil, že tohle je CELKOVA KAPACITA jednoho stroje, kdežto S39-S40 mluví o HUSTOTE na ploše. Obraz to musí odlišit: tady je nadpis ONE MACHINE, tam ONE SQUARE INCH. Bez toho vypadají obě čísla jako rozpor.",
+      "diagram_generator": "paradox",
+      "diagram": "Vlevo ambrový čtvereček z S01 s popiskem ONE PHOTO, vpravo dnešní disk v obrysu dlaně a nad ním 10 MILLION x MORE. Dvě věci vedle sebe, žádná třetí."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Beat. Obraz se skoro nemění, mění se jediná věc - to je ten rytmus, kterým se beat dělá, ne pět střihů za sebou.",
+      "diagram_generator": "paradox",
+      "diagram": "Prázdno mezi dvěma obrysy z S03, uprostřed jediný otazník.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Prázdný sloupec se cte jako 'tady neco bude', ne jako rozbity obraz - proto ma ramecek a nadpis, ne holou diru. Vada z videa 003.",
+      "diagram_generator": "paradox",
+      "diagram": "Dva sloupce: THE OBVIOUS ANSWER (menší a menší krabice) a THE OTHER HALF, zatím prazdny a ztlumeny."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zavedení páteře do S01-S06, jak žádá docs. Rám čtverečního palce od téhle scény LEŽÍ POŘÁD NA TÝCHŽ SOUŘADNICÍCH a vrací se v 15 scénách; pohnout se smí jedině v S82. Zároveň je to ten vizuální motiv, který chtěl recenzent: ONE MACHINE proti ONE SQUARE INCH.",
+      "diagram_generator": "paradox",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ: vlevo silueta stroje s 1000x LIGHTER, vpravo rám jednoho čtverečního palce (_kit.palec()) s 1 BILLION x DENSER."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Sloupky musí být ve SPRÁVNÉM poměru, ne dekorativní - kreslí se logaritmicky a assert hlídá, že miliarda je zřetelně vyšší než tisíc. Velikost sama nese tvrzení.",
+      "diagram_generator": "paradox",
+      "diagram": "Tytéž dva prvky, mezi nimi ambrová mezera s popiskem THE GAP. Měřítko obou čísel naznačené výškou sloupku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Přechod do bloku. Osa je prázdná jen tvarem, ne významem - má popisky obou konců, takže není 'rozbitý graf'.",
+      "diagram_generator": "paska",
+      "diagram": "Nadpis WHAT WAS IT FOR? a pod ním prázdná osa, na které se v dalších scénách staví."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Páska jako FRONTA je tvrzení té scény, takže je nakreslená jako jediná dlouhá linie, ne jako cívka z boku. Tvar sám nese myšlenku.",
+      "diagram_generator": "paska",
+      "diagram": "Cívka pásky rozvinutá zleva doprava jako jedna dlouhá stopa, na ní řada bloků dat. Vedle stoh děrných štítků."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Ambrová je cíl, ne 'dobré'. Šipka nese nevyhnutelnost - proto vede přes všechny bloky, ne vedle nich.",
+      "diagram_generator": "paska",
+      "diagram": "Táž páska, hledaný blok až na konci ambrově, a přes celou délku před ním šipka tam a zpět s popiskem EVERYTHING BEFORE IT."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Protiklad k S10 MUSÍ mít stejné rozvržení, jinak se nepozná, že jde o tutéž úlohu jinak vyřešenou.",
+      "diagram_generator": "paska",
+      "diagram": "Páska ztlumená, nad ní stoh plotem a jedna přímá ambrová šipka rovnou na cílovou stopu. Popisek RANDOM ACCESS."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Počet plotem se KRESLÍ, ne jen popisuje - assert hlídá 50, protože scéna čísla vyslovuje a obraz je nesmí popřít.",
+      "diagram_generator": "stroj",
+      "diagram": "Řez RAMACem z boku: 50 plotem nad sebou, mezi ně zajíždí rameno, na jeho konci hlava. Popisky 50 DISKS, 24 INCHES, 20 TURNS A SECOND."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Jedna změna proti předchozí scéně. 'Bordered on magic' nese pauza a prázdnota, ne další prvek.",
+      "diagram_generator": "stroj",
+      "diagram": "Táž kresba ztlumená, přes ni jediný ambrový oblouk dráhy ramene a popisek UNDER A SECOND.",
+      "pause": 1.6
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Od téhle scény se drží JEDNO měřítko řezu (_kit.rez()) až do S25, jinak se nepozná, že se mezera zmenšuje. Souřadnice povrchu jsou fixní.",
+      "diagram_generator": "hlava",
+      "diagram": "Velký řez povrchem plotny zblízka: plotna dole, hlava nad ní, mezi nimi mezera. Popisek MUST NOT TOUCH."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Dvě selhání proti sobě, obě stejně nakreslená. Kdyby jedno bylo ambrové, obraz by tvrdil 'tohle je to správné' - a scéna říká, že špatná jsou obě.",
+      "diagram_generator": "hlava",
+      "diagram": "Táž kresba, dvě varianty vedle sebe: příliš nízko = škrábanec na plotně, příliš vysoko = nic neslyší."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Kóta se odvozuje z rozměru mezery v kresbě, ne z odhadu - a mezera musí být v poměru, který dovolí S25 ukázat trojnásobné přiblížení.",
+      "diagram_generator": "hlava",
+      "diagram": "Týž řez, pod hlavou ambrový vzduchový klín z trysek, kóta 20 MICROMETRES."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Klíčový beat z notes: tuna z toho je kus stroje, který jen fouká vzduch. Kompresor musí být VELKÝ vůči skříni, protože poměr 200:785 je celé tvrzení.",
+      "diagram_generator": "hlava",
+      "diagram": "Odzoomované: vedle skříně stojí kompresor, hadice vede k hlavě. Kompresor ambrově, kóta 200 KG OF THAT TON.",
+      "pause": 2.2
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Video přiznává vlastní titulek. Číslo v titulu se ZPŘESŇUJE, ne popírá - proto zůstává velké a rozklad je pod ním, ne místo něj.",
+      "diagram_generator": "megabajt",
+      "diagram": "Nápis 5 MB velký, pod ním rozklad: 5 000 000 CHARACTERS x 6 BITS."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Na NÁPIS patří vodorovná čára, ne křížek - pod křížkem ho nikdo nepřečte a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "megabajt",
+      "diagram": "Z rozkladu vyjde 3.75 MB, staré 5 MB ztlumené a přeškrtnuté vodorovnou čarou (text_skrtnuty, ne křížek).",
+      "pause": 1.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Anticipace. Prázdné místo je ohraničené a popsané, takže se čte jako 'sem přijde číslo', ne jako chyba renderu.",
+      "diagram_generator": "megabajt",
+      "diagram": "Obě předchozí čísla ztlumená a odsunutá ke kraji, uprostřed prázdné ambrové místo.",
+      "pause": 1.6
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "45 x 45 = 2025, tedy 'dva tisíce' bez lhaní. Scéna kreslí DATA, takže to hlídá assert. Rám je na týchž souřadnicích jako v S06.",
+      "diagram_generator": "palec",
+      "diagram": "PÁTEŘ: rám čtverečního palce vyplněný mřížkou 45 x 45 teček. Popisek 2,000 BITS."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Nelze nakreslit dva biliony teček a nemá se to předstírat - proto je vpravo plná plocha a pod ní číslo. Obraz nesmí tvrdit víc, než umí ukázat.",
+      "diagram_generator": "palec",
+      "diagram": "Týž rám vedle sebe dvakrát: vlevo řídká mřížka z S21, vpravo plocha, která je tak hustá, že splývá. Popisky 2,000 a 2,000,000,000,000.",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Vrací se přesně tentýž kompresor na týchž souřadnicích, jinak se nepozná, že jde o tu věc z S17.",
+      "diagram_generator": "hlava",
+      "diagram": "Kompresor z S17 ambrově orámovaný, k němu šipka FIRST TO GO."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Mechanismus, ne ilustrace: proudnice musí vycházet z plotny, ne z trysky, jinak obraz tvrdí, že vzduch pořád přichází zvenčí.",
+      "diagram_generator": "hlava",
+      "diagram": "Týž řez jako S14-S16: hlava má teď profil křídla, pod ní proudnice od otáčející se plotny. Popisek 1961."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Tohle je celá teze videa předvedená na jednom stroji: blíž letící hlava -> menší bit -> víc dat. Poměr kót i poměr mřížek se POČÍTÁ, ne kreslí od oka - assert na 3,2x a 13x.",
+      "diagram_generator": "hlava",
+      "diagram": "Dvě kóty nad sebou v jednom měřítku: 800 a 250, a k tomu rám čtverečního palce, ve kterém mřížka zhoustla 13x."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "hlava",
+      "diagram": "Řez uzavřenou sestavou: plotny a hlavy z předchozích scén, kolem nich souvislý obrys krytu. Zvenčí šipky prachu, které o kryt narážejí a dovnitř se nedostanou. Popisek 1973 a SEALED.",
+      "note": "ARCHIV VYŘAZEN PO POHLEDU NA KONTAKTNÍ LIST. Commons má na Winchester jediný výsledek - samostatnou 14\" plotnu na bílém pozadí (muzejní katalogový snímek). Scéna ale tvrdí 'sealed the disks and the heads into one clean assembly', takže volná ploténka by tvrdila skoro opak; bílé pozadí by navíc v paletě videa vyčnívalo. Kresba je lepší než špatná fotka. Vedlejší zisk: S26 je první čistě technický diagram a přechod z historie do fyziky je tím zřetelnější. Řez je TÝŽ jako v S14-S16 (_kit.plotna(), _kit.hlava()), jen odzoomovaný - jinak to není uzavření téhož stroje.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Šev po škrtu S27-S30 z verze 0.1. Obraz musí ten skok vysvětlit sám: krabice odchází, palec zůstává. Zároveň se tím páteř vrací do středu pozornosti.",
+      "diagram_generator": "zrno",
+      "diagram": "Vlevo ztlumená silueta stroje přeškrtnutá, vpravo ambrový rám čtverečního palce. Nadpis NOT THE BOX."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Zrna jsou NEPRAVIDELNÁ schválně - pravidelná mřížka by tvrdila, že bit má pevné hranice, což je přesně to, co o pár scén dál přestane platit.",
+      "diagram_generator": "zrno",
+      "diagram": "Lupa z rámu palce do zrn: nepravidelná zrna magnetického filmu, jedna skupina obtažená jako jeden bit."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Poměr zrn v obou variantách se počítá, ne odhaduje. Kdyby spodní pár měl stejně zrn, obraz by popíral větu 'use fewer grains'.",
+      "diagram_generator": "zrno",
+      "diagram": "Dva sousední bity, šipky zrn nahoru a dolů, popisky 0 a 1. Pod tím týž pár s polovičním počtem zrn."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Tři osy pokroku vedle sebe, stejně velké - žádná není zvýrazněná, protože scéna netvrdí, že jedna rozhodla.",
+      "diagram_generator": "zrno",
+      "diagram": "Tři generace vedle sebe: zrno, šířka stopy, přesnost ramene - u každé šipka dolů. Vpravo prázdné místo s popiskem BUT."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Amplituda křivky MUSÍ být v poměru 2:1, protože to scéna vyslovuje. Tady se dá nejsnáz vyrobit obraz, který tvrdí něco jiného než hlas.",
+      "diagram_generator": "zrno",
+      "diagram": "Nahoře velký bit a silný signál, dole poloviční bit a poloviční signál. Křivka signálu vedle obou.",
+      "pause": 1.6
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S32.png",
+      "note": "Předěl mezi 'problém' a 'řešení'. Jedna ze tří sdxl scén videa a leží až v půlce, ne na začátku. Pohyb je tu předěl, ne výchozí stav.",
+      "prompt": "a dim physics laboratory bench at night, thin stacked metal foils under a glass bell jar, one small indicator lamp, cold grey overcast light from a high window, nobody present, stillness and settled dust"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Portrét by podle pravidel kanálu nesměl mít zoom a stejně by nic nevysvětlil. Jména jako popisky, ne jako tváře.",
+      "diagram_generator": "gmr",
+      "diagram": "Dvě laboratoře vedle sebe, každá se jménem a rokem 1988, mezi nimi rovnítko. Žádné portréty."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Dvě varianty musí mít TOTOŽNÉ rozvržení a lišit se jedinou věcí, jinak divák nepozná, co je proměnná.",
+      "diagram_generator": "gmr",
+      "diagram": "Řez stohem: magnetická vrstva, tenká vrstva kovu, magnetická vrstva. Dvě varianty - šipky souhlasně a proti sobě."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Poměr malý vstup / velký výstup je celý jev. Velikost šipky proti výšce sloupce to musí ukázat, ne popsat.",
+      "diagram_generator": "gmr",
+      "diagram": "K oběma variantám z S34 měřidlo odporu: nízký a vysoký. Vstupní magnetické pole naznačené drobnou šipkou, výstup velkým sloupcem."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Skoky křivky se musí krýt s hranicemi oblastí pod ní - obojí vychází z jedněch souřadnic, ne ze dvou odhadů.",
+      "diagram_generator": "gmr",
+      "diagram": "Hlava nad plotnou, pod ní ubíhající magnetické oblasti, nad ní skoková křivka odporu."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "OPRAVA VĚCNÉ CHYBY ZE ZADÁNÍ, která má vlastní oddíl ve factcheck.md. Tři data, ne jedno - a obraz je ta nejrychlejší cesta, jak to divákovi ukázat.",
+      "diagram_generator": "gmr",
+      "diagram": "Časová osa se třemi zářezy: 1988 DISCOVERY, 1997 FIRST HEAD, 2007 NOBEL PRIZE."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Řada je NEURČITÁ schválně: konkrétní počet disků s GMR se nepodařilo doložit, takže ho obraz nesmí tvrdit. Neurčitá řada ano, spočitatelná mřížka ne.",
+      "diagram_generator": "gmr",
+      "diagram": "Mezi 1997 a 2007 ambrový pás, pod ním řada drobných obrysů běžných počítačů.",
+      "pause": 1.8
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Nadpis ONE SQUARE INCH je ten rozdíl proti S03 (ONE MACHINE), o který žádal recenzent. Bez něj působí 10 milionu a miliarda jako rozpor.",
+      "diagram_generator": "palec",
+      "diagram": "Rám čtverečního palce, v něm obě čísla nad sebou: 2,000 (1956) a 1,800,000,000,000 (today). Nadpis ONE SQUARE INCH."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Odpověď na otázku z titulku, tedy pointa první poloviny. Statický diagram - musí být, protože hned za ním je výzva k odběru a ta nesmí skočit.",
+      "diagram_generator": "palec",
+      "diagram": "Týž rám, přes něj velké A BILLION TIMES, a pod ním jedním řádkem: THAT IS HOW FIVE MEGABYTES BECAME TERABYTES.",
+      "pause": 2.8
+    },
+    {
+      "id": "S40b",
+      "source": "svg",
+      "visual": "images/S40.png",
+      "effect": "static",
+      "cta": true,
+      "note": "Výzva k odběru podle docs/cta.md: dědí obrázek S40, static, a předchozí scéna je taky statický diagram. Leží na 50 % stopáže a je to PRVNÍ scéna za pointou z titulku - přesně pásmo 40-60 %, které docs žádá. Nápis vypaluje render.py ze sdílené vrstvy, do diagramu se nekreslí.",
+      "pause": 1.4
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Zeď se zavádí jako tvar, který se drží do S48. Křivka MUSÍ mít data od prvního snímku, ne prázdné osy - vada z videa 003.",
+      "diagram_generator": "zed",
+      "diagram": "Křivka hustoty stoupající od 1956, na pravém konci naráží do svislé zdi."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Energetická bariéra jako jamka je jediný obraz, který dovolí S43 a S44 měnit JEDINOU věc - hloubku. Proto se zavádí tady.",
+      "diagram_generator": "zed",
+      "diagram": "Zrno jako jamka s kuličkou uvnitř, výška okraje jamky = energie potřebná k překlopení."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Mělčí jamka se musí odvodit z menšího zrna, ne nakreslit nezávisle - jinak obraz netvrdí příčinu, jen dva stavy.",
+      "diagram_generator": "zed",
+      "diagram": "Táž jamka menší a mělčí, kolem ní drobné šipky tepelných nárazů."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Jediná změna proti S43. Tohle je mechanismus, o kterém celý blok je.",
+      "diagram_generator": "zed",
+      "diagram": "Kulička přepadává přes okraj mělké jamky na druhou stranu."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Beat. Obrácený bit musí být zřetelně jeden, ne skupina - scéna říká 'the bit flips', jednotné číslo.",
+      "diagram_generator": "zed",
+      "diagram": "Řada bitů, jeden uprostřed obrácený, nad ním ambrový popisek NOBODY WROTE THIS.",
+      "pause": 2.4
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Dvě jména pro jednu věc. Závorka to říká líp než šipka, protože šipka by tvrdila příčinu.",
+      "diagram_generator": "zed",
+      "diagram": "Dva popisky téhož jevu nad sebou: SUPERPARAMAGNETIC LIMIT a RUNNING OUT OF ATOMS, spojené závorkou."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Číslo na křivce sedí na tutéž osu jako S41, ne na novou. Rám palce v rohu drží páteř přítomnou i uprostřed jiné kresby.",
+      "diagram_generator": "zed",
+      "diagram": "Křivka z S41 se zářezem u 100 BILLION BITS PER SQUARE INCH, dál vodorovně do zdi. V rohu rám čtverečního palce, plný."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Předznamenání dvou cest. Obě mezery jsou stejně velké - obraz nesmí napovídat, která je důležitější, protože scéna to neříká.",
+      "diagram_generator": "zed",
+      "diagram": "Křivka končí u zdi, za zdí prázdno, v prázdnu dvě ambrové mezery s popisky CHEAT ONE a CHEAT TWO.",
+      "pause": 2.0
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Hloubka je ztlumená, ne prázdná - 'nobody had been using it' znamená, že tam byla, ne že neexistovala.",
+      "diagram_generator": "kolmo",
+      "diagram": "Plotna z boku, vodorovná plocha zaplněná, a pod povrchem nevyužitá hloubka ztlumeně."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Přirovnání ke slovu na stránce je ve scénáři, takže v obraze musí být řádek, ne jen obdélníčky.",
+      "diagram_generator": "kolmo",
+      "diagram": "Bity ležící naplocho podél stopy jako písmena na řádku. Vedle zúžená verze: tenčí a nižší."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Otočení je jediná změna. Oblouk ukazuje, že jde o tentýž objekt, ne o jiný.",
+      "diagram_generator": "kolmo",
+      "diagram": "Týž bit otočený o 90 stupňů, magnetizace míří dolů do plotny. Oblouk otočení naznačený."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Formulace recenzenta 'we started standing the bits upright' patří VÝHRADNĚ ke kolmému zápisu, ne k SMR - to je nález B ve factcheck.md. Počet bitů v obou řadách se počítá.",
+      "diagram_generator": "kolmo",
+      "diagram": "Řada stojících bitů v plotně, nad nimi popisek UPRIGHT. Vedle ztlumeně původní ležící řada, jichž se do stejné šířky vejde míň."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Objem je to, o co jde - 'narrow and still deep'. Šrafa musí být u obou stejná, jinak porovnání nic neznamená.",
+      "diagram_generator": "kolmo",
+      "diagram": "Jeden stojící bit v řezu: úzký nahoře, hluboký dolů. Objem vyšrafovaný, vedle něj ležící bit s menším objemem."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Pás je souvislý až ke kraji rámu, tedy 'dodnes'. Kdyby končil, tvrdil by, že to skončilo.",
+      "diagram_generator": "kolmo",
+      "diagram": "Osa s rokem 2005 a za ním souvislý pás až doprava. Popisek EVERY DRIVE SINCE.",
+      "pause": 2.0
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Vrací se jamka z S42 ve stejném tvaru - druhý cheat se vysvětluje týmž obrazem jako zeď, takže divák nemusí nic nového číst.",
+      "diagram_generator": "laser",
+      "diagram": "Materiál jako velmi hluboká jamka z S42, kulička úplně dole, nad ní zápisové pole, které nestačí. Vedle symbol ohřevu."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "BEAT, KTERÝ SI RECENZENT VÝSLOVNĚ VYŽÁDAL. Minimum prvků - jeden stroj, jeden kužel. Pauza za ním to nese.",
+      "diagram_generator": "laser",
+      "diagram": "Hlava v řezu, uvnitř ní laserová dioda, z ní kužel světla na jeden bod plotny. Nic jiného.",
+      "pause": 2.2
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Obě kóty se vážou k jednomu bodu, ne k obrázku obecně - proto vedou odkazovou čarou přesně do skvrny.",
+      "diagram_generator": "laser",
+      "diagram": "Týž řez, na plotně ambrová horká skvrna s kótami 450 C a 1 NANOSECOND."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Tři fáze v jedné řadě a v témž měřítku. Kdyby byly pod sebou, četlo by se to jako tři různé mechanismy.",
+      "diagram_generator": "laser",
+      "diagram": "Tři fáze v řadě: horko a zápis, chladnutí, zamrzlý bit."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Odzoomování zpátky na obyčejný disk je ta pointa: absurdní věc uvnitř běžného výrobku. Proto je laser malý, ne dominantní.",
+      "diagram_generator": "laser",
+      "diagram": "Celý disk z nadhledu, uvnitř drobná ambrová tečka laseru. Popisek NOT A LABORATORY.",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "flash",
+      "diagram": "Křivka hustoty z S41 pokračuje ke zdi, ale v jednom bodě se z ní odděluje DRUHÁ cesta a míří jinam. Popisky MAGNETIC u původní a A DIFFERENT QUESTION u odbočky.",
+      "note": "SDXL VYŘAZENO PO DVOU KOLECH. Prompt žádal holou desku plošných spojů; první kolo vrátilo celou zelenou dílnu (slovo 'green' obarvilo místnost, ne předmět), druhé kolo šedý plechový panel na zdi. `CLAUDE.md` na to má pravidlo: když model funkci scény netrefí dvakrát, obvykle to není chyba promptu, ale znamení, že scéna patří jinam — a deska plošných spojů je KONKRÉTNÍ PŘEDMĚT, tedy případ pro archiv nebo kresbu, ne pro difuzní model. Kresba navíc nese myšlenku místo atmosféry: odbočka z křivky PŘIPRAVUJE dvě křivky v S65, takže scéna přestala být předělem a stala se stavbou. Vedlejší zisk: video přestalo mít tři sdxl scény, které by všechny byly prázdná místnost.",
+      "pause": 1.2
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Škrtá se po JEDNOM nápisu vodorovnou čarou, ne jeden křížek přes celý stroj - přes celek by se četlo 'disky neplatí vůbec'.",
+      "diagram_generator": "flash",
+      "diagram": "Řez diskem z S12 s přeškrtnutými díly: PLATTER, ARM, HEAD. Vedle prázdné místo, kde nic nezbylo."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Od téhle scény drží buňka jedno měřítko a jedny souřadnice až do S73, stejně jako řez hlavou v první polovině.",
+      "diagram_generator": "flash",
+      "diagram": "Řez buňkou: řídicí elektroda, izolant, past na náboj, kanál. Uvnitř pasti pár teček náboje."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Osa napětí se zavádí TADY, ať v S69 stačí přidat značky. Nová osa v půlce bloku by se četla jako nové téma.",
+      "diagram_generator": "flash",
+      "diagram": "Táž buňka dvakrát: prázdná a nabitá, vedle nich osa prahového napětí s dvěma značkami."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Stejná délka šipek je celé tvrzení 'every cell is equally near' - a callback na rameno z S12 drží první polovinu videa přítomnou.",
+      "diagram_generator": "flash",
+      "diagram": "Mřížka buněk, ke každé stejně dlouhá šipka od čtečky. Vedle ztlumené rameno RAMACu přeškrtnuté.",
+      "pause": 1.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Tvar zdi je TENTÝŽ jako v S41 - paralela se zavádí obrazem dřív, než ji hlas vysloví. Ale zeď tu znamená STEJNÝ DRUH PROBLÉMU, ne stejný fyzikální mechanismus: magnetická zeď je tepelná stabilita zrna, flashová je počet elektronů v buňce. Proto mají křivky vlastní popisky a nesdílejí osu y. Scénář to říká až v S75 ('Different materials. Different physics.'), takže obraz to tady nesmí popřít.",
+      "diagram_generator": "flash",
+      "diagram": "Dvě křivky v jedné soustavě, každá s vlastním popiskem MAGNETIC a FLASH, obě stoupají a obě narazí do zdi TÉHOŽ tvaru. Zeď je jedna, křivky jsou dvě a jsou popsané."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Tečky jsou spočitatelné schválně - scéna říká 'it is a number of electrons', tedy obraz musí jít spočítat.",
+      "diagram_generator": "elektrony",
+      "diagram": "Past na náboj zvětšená, uvnitř spočitatelné tečky elektronů."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Únik a sblížení značek musí být JEDEN mechanismus na jednom obraze, ne dvě kresby - jinak divák nespojí příčinu s následkem.",
+      "diagram_generator": "elektrony",
+      "diagram": "Menší buňka s méně tečkami, několik teček uniká přes izolant, na ose napětí se obě značky sbližují."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Krátká scéna, jeden prvek. Připravuje S69, kde se to rozpadne na hladiny.",
+      "diagram_generator": "elektrony",
+      "diagram": "Jedna buňka, v ní čtyři bity jako čtyři číslice."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Šestnáct značek se KRESLÍ a hlídá assertem - scéna to číslo vyslovuje. Osa je tatáž jako v S63, jen hustší.",
+      "diagram_generator": "elektrony",
+      "diagram": "Osa napětí z S63 s šestnácti značkami natěsno, mezery popsané FEW HUNDRED MILLIVOLTS."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Tentýž tvar zdi potřetí. Opakování tvaru je to, co z paralely dělá pointu a ne jen informaci.",
+      "diagram_generator": "elektrony",
+      "diagram": "Šestnáct značek se překrývá, přes ně táž zeď jako v S41 a S65.",
+      "pause": 2.2
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Beat a zároveň odpověď obrazem dřív než slovem. Svislá šipka se ZAVÁDÍ tady a vrací se v S74 jako flashová půlka paralely - proto musí být nakreslená jednou funkcí v _kit.py, ne dvakrát podobně.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Prázdné místo za zdí, v něm jediná svislá šipka vzhůru."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "24 vrstev se kreslí a hlídá assertem. Buňka je TÁŽ jako v S62, jen zmenšená - jinak to není stohování téhož.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Buňky z S62 naskládané na sebe, 24 vrstev, popisek 2013."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Stejná šířka je celé tvrzení 'the chip did not get wider, it got taller'. Kdyby šířka kolísala, obraz by to popřel.",
+      "diagram_generator": "vrstvy",
+      "diagram": "Tři stohy vedle sebe: 24, stovky, tisíc. Šířka všech tří stejná, roste jen výška.",
+      "pause": 2.0
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "NEJSILNĚJŠÍ MÍSTO VIDEA podle recenzenta, takže se storyboarduje jako vizuální výplata, ne jako další informace. Rozvržení obou sloupců je TOTOŽNÉ - tím se paralela pozná bez čtení. ALE GESTO NE: magnetický bit se skutečně otočí o 90 stupňů, kdežto buňky se neotáčejí, nýbrž vrství. Kdyby obě strany otočil týž oblouk, obraz by tvrdil paralelu, která neplatí - a byla by to přesně ta vada, kterou docs popisuje jako 'kresba tvrdí i to, co v popisku není'. Společné je, že obě sáhly po svislém prostoru. Svislá šipka je táž jako v S71, kde se zavádí.",
+      "diagram_generator": "paralela",
+      "diagram": "Dva sloupce v jednom rozvržení. Vlevo magnetický bit: naplocho -> nastojato, otočení naznačené obloukem 90 stupňů. Vpravo buňky: řada vedle sebe -> sloupec nad sebou, pohyb naznačený SVISLOU ŠIPKOU, tou z S71. Společný je SMĚR, ne gesto: nad oběma sloupci jeden nadpis HORIZONTAL SPACE -> VERTICAL SPACE."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Jeden prvek navíc proti S74 a nic jiného. Oblouk musí přes oba sloupce, ne mezi ně.",
+      "diagram_generator": "paralela",
+      "diagram": "Tytéž dva sloupce, popisky rozdílů ztlumené, a přes oba jeden ambrový oblouk THE SAME MOVE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Poměr se kreslí přesně devět ku jedné a hlídá assertem - je to doložené číslo (přes 90 %), ne dojem. A NEŘÍKÁ 'nic není levnější', jen 'levnější než flash' - páska je levnější, viz factcheck.",
+      "diagram_generator": "zaver",
+      "diagram": "Deset dílků kapacity datacentra, devět ambrových jako disky, jeden ztlumený. Pod tím cena za bajt."
+    },
+    {
+      "id": "S77",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S77.png",
+      "note": "Poslední sdxl a poslední pohyb videa. Předěl do závěru; od S78 dál je všechno statické a klidné kvůli závěrečné obrazovce. DRUHÉ KOLO: první pokus vrátil PLOCHOU STĚNU skříněk zepředu, bez uličky a bez hloubky — a četlo se to jako šatna, ne strojovna. Nový prompt žádá perspektivu výslovně ('narrow aisle', 'one-point perspective', 'low viewpoint'). Zároveň tím přestanou být všechny tři sdxl scény videa 'prázdná místnost zepředu'.",
+      "prompt": "a narrow aisle between two tall rows of dark grey machine cabinets receding into deep shadow, strong one-point perspective, low viewpoint, one small cold indicator lamp far down the aisle, flat grey overcast light from above, no people, still air",
+      "pause": 2.0
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "ZAČÍNÁ OKNO ZÁVĚREČNÉ OBRAZOVKY. Horní třetina musí zůstat volná - dole sedí titulek ze svgkit.title(), takže prvky YouTube patří nahoru (docs). Hlídá zaver_check.py.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři kroky v řadě: SHRANK, HIT THE FLOOR, BUILT UPWARDS. Třetí je svislá šipka z S71.",
+      "pause": 2.0
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Bookend k S01. Kresba patří do DOLNÍ poloviny, horní zůstává volná pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole silueta stroje z S01 se všemi díly popsanými: 50 disks, motor, compressor, room."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Tečka musí být opravdu nepatrná, ne 'malá' - jinak scéna netvrdí to, co říká. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Vedle stroje nepatrná ambrová tečka s odkazem ELECTRON MICROSCOPE. Poměr obou je celé tvrzení."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Páteř naposled ve svých souřadnicích, těsně před tím, než se v S82 smí pohnout. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Rám čtverečního palce z páteře, prázdný, a v něm jediná tečka. Nadpis NOT THE MACHINE."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Jediné místo, kde se páteř smí pohnout (pravidlo 3 z docs). Je to doslovný obraz poslední věty videa a zároveň spojení obou technologií. Horní polovina volná pro závěrečnou obrazovku.",
+      "diagram_generator": "zaver",
+      "diagram": "VÝPLATA PÁTEŘE: rám čtverečního palce se poprvé naklopí a získá hloubku - z plochy je stoh. Nadpis ANOTHER DIRECTION."
+    }
+  ]
+}

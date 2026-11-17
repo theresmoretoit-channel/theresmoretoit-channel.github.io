@@ -1,0 +1,1128 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU, ne atmosféru, a NENÍ sdxl. Rámec se od téhle scény NESMÍ pohnout — na tom stojí sedm dveří i výplata v S84b.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: RAMEC na pevných souřadnicích, uvnitř postava a telefon. Zatím bez dveří."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat vlastnictví. Mění se JEDINÁ věc: telefon se rozsvítí.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž rámec, telefon ambrově. Bez popisků."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Dveře se od téhle scény POČÍTAJÍ. Je jich sedm a přibývají po jedněch, takže divák vidí hranici růst dřív, než ji video pojmenuje — přesně to si uživatel vyžádal.",
+      "diagram_generator": "uvod",
+      "diagram": "PRVNÍ DVEŘE na stěně rámce, zavřené, popisek WHAT MAY RUN."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Ambrová na třetím: scéna říká, že nejde o bezpečnost, nýbrž o schválení.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři štítky u dveří: DANGEROUS a BROKEN ztlumené, NOT APPROVED ambrový."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "DŮLEŽITÁ SCÉNA PRO TÓN: „The phone is superb.\" Bez ní je to anti-Apple video. Kresba musí být jednoznačně kladná.",
+      "diagram_generator": "uvod",
+      "diagram": "Telefon uprostřed, kolem něj fajfky."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Otázka, kterou video táhne až do konce. Žádná odpověď v obraze.",
+      "diagram_generator": "uvod",
+      "diagram": "Otázka WHO DOES IT BELONG TO? nad rámcem.",
+      "pause": 2.6
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Slib divákovi: bude jich víc. Obrysy jsou ZTLUMENÉ, teprve se otevřou.",
+      "diagram_generator": "uvod",
+      "diagram": "Rámec, a na stěnách se naznačí obrysy dalších šesti dveří.",
+      "pause": 1.6
+    },
+    {
+      "id": "S07b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07b.png",
+      "diagram_generator": "uvod",
+      "diagram": "Táž kompozice jako S07 (rámec s obrysy dveří), přibude postava VNĚ rámce.",
+      "note": "Propojuje cold open s TITULEM videa. Do téhle chvíle nepadlo slovo o lidech, kterým to vadí — divák přišel na „proč někteří Apple nesnášejí\" a dostával úvahu o vlastnictví. Je to jedna věta, ne úvod: kanál žádné video s rozjezdem nemá a v tom okně odchází 88 % diváků.",
+      "pause": 2.0
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Chybějící věc se kreslí jako PRÁZDNÉ MÍSTO, ne jako přeškrtnutý konektor. Scéna mluví o odebrání.",
+      "diagram_generator": "porty",
+      "diagram": "Telefon z boku, na hraně chybí kroužek jacku — prázdné místo ambrově."
+    },
+    {
+      "id": "S09",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Konkrétní předmět s vlastním jménem, tedy archiv. Snímek už je stažený a ověřený (Evan-Amos, public domain, 2260x1480). Zoom NE — jeden malý předmět.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "audio connector TRS",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86
+        }
+      }
+    },
+    {
+      "id": "S09b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09b.png",
+      "note": "Tři místa, kde ten konektor byl. Kroužek musí být u všech STEJNÝ — to je celé tvrzení scény.",
+      "diagram_generator": "porty",
+      "diagram": "Tři siluety: gramofon, opěradlo letadlového sedadla, telefon. U všech týž kroužek jacku."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Připravuje beat S10b.",
+      "diagram_generator": "porty",
+      "diagram": "Pódium a postava u pultu."
+    },
+    {
+      "id": "S10b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10b.png",
+      "note": "Beat. Dědí kompozici S10. OBĚTOVANÁ VĚTA VYPNUTA: u jednoslovného beatu zplošťuje intonaci. Naměřeno F0 uvnitř slova (af_heart): holé 261/270/221/185/189 (−27,5 %), s obětovanou větou 303/275/270/273/270 (plochá) — a dodaný soubor se shodoval s tou druhou. Divák to slyšel jako „vysokým hlasem bez intonace\". Holé „Courage.\" přitom schwu nemá vůbec, takže se nic neztrácí.",
+      "diagram_generator": "porty",
+      "diagram": "Jediné slovo COURAGE, velké, uprostřed.",
+      "pause": 2.2,
+      "cisty_konec": false
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Divák nahlásil, že nechápe, proč po slově „Courage\" následuje „Apple měl pravdu\" — chyběl mezikrok. „Courage\" není důvod, a teprve když se to řekne nahlas, dává „a stejně měl pravdu\" smysl jako PŘIPUŠTĚNÍ, ne jako obhajoba toho slova.",
+      "diagram_generator": "porty",
+      "diagram": "Táž kompozice jako S10b, ale COURAGE je přeškrtnuté a pod ním stojí SLOGAN."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Nejdůležitější věta bloku podle uživatele: bez ní je video mrtvé. NÁVĚTÍ: promluva „Apple was right.\" má 1,39 s a obětovaná věta u ní selhala dvakrát, takže zůstal vystavený konec. Návětí je skutečná předchozí věta (S11) — dá 260 ms ticha na řez a drží návaznost.",
+      "diagram_generator": "porty",
+      "diagram": "Tři slova APPLE WAS RIGHT, ambrově.",
+      "naveti": "And here's the uncomfortable part."
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12b.png",
+      "note": "Poměr 54:46 je ČÍSLO ZE ZDROJE (NPD, červen 2016) — generátor musí mít assert. Značka na ose je PŘED uvedením telefonu, ne po něm; to je pointa.",
+      "diagram_generator": "porty",
+      "diagram": "Vodorovný pruh rozdělený 54:46 ve prospěch WIRELESS, vedle značka na ose času tři měsíce před uvedením."
+    },
+    {
+      "id": "S12c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12c.png",
+      "note": "Bez tohohle druhého pruhu by scéna tvrdila, že většina lidí už bezdrátová měla — a to nebyla pravda. Oba pruhy musí být stejně široké, liší se jen dělením.",
+      "diagram_generator": "porty",
+      "diagram": "Týž pruh podruhé, ale v KUSECH: 17:83. Vedle sebe s předchozím.",
+      "pause": 2.4
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Podle uživatele jeden z nejlepších momentů scénáře. Obě bubliny stejně velké.",
+      "diagram_generator": "porty",
+      "diagram": "Postava, nad ní dvě bubliny: I DIDN'T WANT THIS a ... I DID NEED IT.",
+      "pause": 2.6
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Navazuje na S08 na týchž souřadnicích.",
+      "diagram_generator": "porty",
+      "diagram": "Spodní hrana telefonu, v ní jiný konektor."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Letopočet číslicí, pronounce ho přečte.",
+      "diagram_generator": "porty",
+      "diagram": "Osa času, značka 2012, popisek APPLE'S OWN CONNECTOR."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Délka pásu je tvrzení — assert na to, že sahá od 2012 do 2023.",
+      "diagram_generator": "porty",
+      "diagram": "Táž osa, ambrový pás dlouhý jedenáct let."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Sbíhání, ne šipky — je to postupná shoda, ne příkaz.",
+      "diagram_generator": "porty",
+      "diagram": "Pod osou druhá linka: zbytek odvětví se sbíhá k jednomu konektoru."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Konec ambrového pásu.",
+      "diagram_generator": "porty",
+      "diagram": "Na ose značka 2023."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Scéna NETVRDÍ příčinu, jen dá letopočty za sebe — dokázat pohnutku nejde, časovou shodu ano. Kresba proto nesmí mít šipku od zákona k přechodu.",
+      "diagram_generator": "porty",
+      "diagram": "O rok dřív než 2023 druhá značka: EU LAW. Mezi nimi mezera jednoho roku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Druhé z sedmi. Rámec na týchž souřadnicích.",
+      "diagram_generator": "dvere",
+      "diagram": "DRUHÉ DVEŘE na rámci, popisek THE SOCKET."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Dva shodné díly — proto musí být nakreslené IDENTICKY.",
+      "diagram_generator": "opravy",
+      "diagram": "Prasklý displej a vedle něj shodný displej z druhého telefonu."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Funguje. Scéna je o tom, že fyzicky je všechno v pořádku.",
+      "diagram_generator": "opravy",
+      "diagram": "Displej vsazený, svítí."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Obrat bloku.",
+      "diagram_generator": "opravy",
+      "diagram": "Telefon s hláškou UNKNOWN PART."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "ČTYŘI díly, přesně ty, které uvádí zdroj — ne „a další senzory\". Generátor musí mít assert na počet, protože obraz tvrdí úplnost výčtu.",
+      "diagram_generator": "opravy",
+      "diagram": "Rozložený telefon, u čtyř dílů (displej, baterie, fotoaparát, Face ID) štítek se sériovým číslem."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Čáry, ne šipky: je to vazba, ne děj.",
+      "diagram_generator": "opravy",
+      "diagram": "Od každého štítku čára k základní desce, na ní zámek."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Škrtá se ČÁRA, ne díl — díl je v pořádku.",
+      "diagram_generator": "opravy",
+      "diagram": "Díl vyměněný za jiný, čára k desce přeškrtnutá."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Scéna kreslí, JAK to funguje — projít zvlášť: Face ID je nahoře u sluchátka, ne v displeji jako takovém.",
+      "diagram_generator": "opravy",
+      "diagram": "Telefon, displej v pořádku, ale modul Face ID zhasnutý."
+    },
+    {
+      "id": "S27b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27b.png",
+      "note": "Beat. Dědí kompozici S27.",
+      "diagram_generator": "opravy",
+      "diagram": "Dva popisky: NOT THE SCREEN ztlumeně, FACE ID ambrově.",
+      "pause": 2.6
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Rozjezd k absurditě.",
+      "diagram_generator": "opravy",
+      "diagram": "Postava s telefonem, bublina THEN I'LL DO IT APPLE'S WAY."
+    },
+    {
+      "id": "S29",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S29.png",
+      "note": "Atmosféra „oficiální cesta\". Obrázek je PŘEVZATÝ z kola, které jsi schválil ve verzi 0.2 (tehdy S35) — je odložený ve scratchpadu a jen se přejmenuje, negeneruje se znovu.",
+      "prompt": "the inside of a small electronics repair shop, a workbench under a lamp, a laptop lying open with its back panel lifted off beside it, tiny screws in a dish, fine screwdrivers and tweezers laid in a row, drawers of spare parts behind, flat grey overcast light, no people, no text",
+      "seed": 20550035
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Připravuje měřítko.",
+      "diagram_generator": "opravy",
+      "diagram": "Objednávka: malá baterie v košíku."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "TOHLE JE WTF VRCHOL VIDEA. Poměr 36 kg : 30 g je tisícinásobek — kresba ho nemůže vzít doslova, ale MUSÍ být zjevně nesouměřitelný. Generátor má assert na poměr ploch, ať se to nerozjede.",
+      "diagram_generator": "opravy",
+      "diagram": "Dvě velké přepravní bedny vedle drobné baterie. Poměr ploch odpovídá poměru hmotností."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Čísla se NEPÍŠOU číslicí (množství slovem, viz CLAUDE.md). Poměr si divák spočítá sám — scéna ho neříká.",
+      "diagram_generator": "opravy",
+      "diagram": "Popisky: THIRTY-SIX KILOS u beden, THIRTY GRAMS u baterie.",
+      "pause": 2.8
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Apple to uvolnil. Scéna musí být smířlivá, ne ironická.",
+      "diagram_generator": "opravy",
+      "diagram": "Bedny ztlumené, u baterie fajfka a popisek GENUINE USED."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Předěl.",
+      "diagram_generator": "opravy",
+      "diagram": "Prázdná plocha, jen nadpis."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "TEZE VIDEA: „it changes when somebody pushes\". Tlačí se na RÁMEC, ne na Apple jako firmu.",
+      "diagram_generator": "opravy",
+      "diagram": "Tři ruce zvenčí tlačící na rámec: LAWSUITS, REGULATORS, PRESS.",
+      "pause": 2.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Dvoje naráz — parts pairing i sada jsou tatáž hranice.",
+      "diagram_generator": "dvere",
+      "diagram": "TŘETÍ a ČTVRTÉ DVEŘE, popisky THE PART a THE REPAIR."
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S37.png",
+      "note": "Nostalgie po otevíratelném počítači. Obrázek PŘEVZATÝ ze schváleného kola 0.2 (tehdy S31), jen se přejmenuje.",
+      "prompt": "an old desktop computer case standing open on a cluttered workbench, expansion cards and ribbon cables visible inside, screwdriver and loose screws beside it, warm dust in flat overcast daylight, no text"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Šířka rámečku se odvozuje z nejširšího nápisu, ne napevno.",
+      "diagram_generator": "pamet",
+      "diagram": "Čtyři výměnné díly v paticích: MEMORY, DRIVE, GRAPHICS CARD, BATTERY."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Scéna kreslí, JAK je to složené — projít zvlášť. Paměť je na SPOLEČNÉM pouzdře s procesorem, ne uvnitř procesoru a ne v patici vedle.",
+      "diagram_generator": "pamet",
+      "diagram": "Řez pouzdrem čipu: procesor a paměť na TÉMŽE pouzdře, bez patice."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Škrtá se vodorovnou čarou (text_skrtnuty), ne křížkem.",
+      "diagram_generator": "pamet",
+      "diagram": "Tři přeškrtnuté nápisy: NO SLOT, NO STICK, NOTHING TO OPEN."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Připravuje beat.",
+      "diagram_generator": "pamet",
+      "diagram": "Osa života počítače, ambrové je jen jediné místo úplně vlevo."
+    },
+    {
+      "id": "S41b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41b.png",
+      "note": "Beat, dědí kompozici S41.",
+      "diagram_generator": "pamet",
+      "diagram": "Táž osa, popisek BEFORE YOU BUY IT u toho jediného místa.",
+      "pause": 2.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Páté ze sedmi.",
+      "diagram_generator": "dvere",
+      "diagram": "PÁTÉ DVEŘE, popisek THE MEMORY."
+    },
+    {
+      "id": "S42b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42b.png",
+      "diagram_generator": "dvere",
+      "diagram": "Táž hranice, ale PRVNÍ dveře chybí — na Macu ta hranice není.",
+      "note": "Divák nahlásil, že se telefony a počítače v téhle části mísí. Třicet procent a rozhodování o tom, jestli se aplikace k někomu dostane, je iPhone a iPad; na Macu jde software distribuovat mimo App Store úplně. Bez téhle koncese si divák přečte S43 jako tvrzení o Macu, a to by bylo nepravdivé.",
+      "pause": 0.8
+    },
+    {
+      "id": "S42c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42c.png",
+      "diagram_generator": "dvere",
+      "diagram": "První dveře zpátky a s popiskem — táž hranice, jiné zařízení.",
+      "note": "Vrací nás k telefonu před blok o App Storu a zároveň zavírá oblouk k S03: ty první dveře jsou ty, kterými video začalo.",
+      "pause": 2.0
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "ZKRÁCENO ze šesti scén na tři — spor o třicet procent je obecně známý a za 34 s byl předražený. Zůstává jako krátký doklad, že mechanismus platí i mimo hardware.",
+      "diagram_generator": "obchod",
+      "diagram": "Vývojář, jediná branka, zařízení. U branky ambrový díl 30 %."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Nasčítání. Divák tu poprvé vidí všech šest hranic naráz — to je ta „desítka konkrétních dveří\" ještě před místností.",
+      "diagram_generator": "dvere",
+      "diagram": "ŠESTÉ DVEŘE, a vedle nich všechny dosavadní: THE SHOP, THE MEMORY, THE REPAIR, THE PART, THE SOCKET, WHAT MAY RUN."
+    },
+    {
+      "id": "S45b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45b.png",
+      "note": "Beat. Dědí kompozici S45.",
+      "diagram_generator": "dvere",
+      "diagram": "Pod rámcem jediná věta AND IT'S YOUR COMPUTER.",
+      "pause": 2.8
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Předěl před nejsilnějším případem.",
+      "diagram_generator": "baterie",
+      "diagram": "Prázdná plocha, jen nadpis."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Klíčový detail: telefon se vypíná, i když baterii má. Kdyby byl ukazatel prázdný, scéna by netvrdila nic.",
+      "diagram_generator": "baterie",
+      "diagram": "Telefon, který zhasl. Ukazatel baterie přitom NENÍ prázdný."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Beat, dědí kompozici S47.",
+      "diagram_generator": "baterie",
+      "diagram": "Dva popisky: NOT RUNNING OUT ztlumeně, SWITCHING OFF ambrově."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Scéna kreslí FYZIKU — projít zvlášť: špička je v odběru, strop je schopnost baterie ho dodat. Špička musí strop PŘEKROČIT.",
+      "diagram_generator": "baterie",
+      "diagram": "Křivka odběru s krátkou špičkou, pod ní klesající strop staré baterie."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Navazuje na S49 na týchž souřadnicích.",
+      "diagram_generator": "baterie",
+      "diagram": "Táž křivka, v místě překročení telefon zhasne."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Oprava se kreslí jako snížení stropu, ne jako zpomalení času. Třetí scéna na týchž osách — tvoří to malý příběh.",
+      "diagram_generator": "baterie",
+      "diagram": "Táž křivka, ale strop procesoru se SNÍŽÍ tak, že špička pod strop baterie klesne."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Video tu explicitně uznává, že řešení bylo dobré. Bez toho je to rant.",
+      "diagram_generator": "baterie",
+      "diagram": "Fajfka u schématu, popisek SENSIBLE."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Připravuje beat.",
+      "diagram_generator": "baterie",
+      "diagram": "Zařízení a nad ním aktualizace, která do něj vstupuje."
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "note": "Prázdná bublina = mlčení. Beat, dědí kompozici S53.",
+      "diagram_generator": "baterie",
+      "diagram": "Táž kresba, k aktualizaci prázdná bublina bez textu.",
+      "pause": 2.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Měřítko mlčení.",
+      "diagram_generator": "baterie",
+      "diagram": "Osa roku, po celé délce ambrová, popisek A YEAR."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Odhalení přišlo zvenčí, ne od Apple. To je pointa.",
+      "diagram_generator": "baterie",
+      "diagram": "Graf s naměřenými body a šipka ven — někdo to zveřejnil."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Slovo FOR ONE YEAR je věcná nutnost: sleva platila jen rok 2018, pak Apple zvedl na 49. Bez něj kresba tvrdí trvalou změnu.",
+      "diagram_generator": "baterie",
+      "diagram": "Cenovka 79 přeškrtnutá, vedle 29, u ní popisek FOR ONE YEAR."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Připravuje závěrečný beat bloku.",
+      "diagram_generator": "baterie",
+      "diagram": "Dva sloupce: ENGINEERING s fajfkou."
+    },
+    {
+      "id": "S57b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57b.png",
+      "note": "Beat. Tohle je celý verdikt videa o Batterygate a musí být vidět, že se liší JEN v druhém sloupci.",
+      "diagram_generator": "baterie",
+      "diagram": "Týž obraz, druhý sloupec SILENCE s křížkem.",
+      "pause": 3.0
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Poslední dveře. Od téhle chvíle je hranice kompletní a video se může obrátit.",
+      "diagram_generator": "dvere",
+      "diagram": "SEDMÉ DVEŘE, popisek THE UPDATE. Rámec má teď všech sedm."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Začátek obratu. Nic se nepřidává, mění se pohled.",
+      "diagram_generator": "obrat",
+      "diagram": "Rámec se sedmi dveřmi, ale zvenčí se k nim natáčí světlo."
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S60.png",
+      "note": "Atmosférický nádech před výčtem ekosystému — jediná nová sdxl scéna. Zařízení právě vybalené, nic se neděje.",
+      "prompt": "a single anonymous rectangular device lying on a clean pale table beside its opened empty box, soft even daylight from one side, nothing else in the frame, painterly, no text",
+      "seed": 20550060
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "První ze čtyř. Všechny čtyři na TÝCHŽ souřadnicích, mění se jen dvojice.",
+      "diagram_generator": "obrat",
+      "diagram": "Sluchátka a telefon, mezi nimi spoj, který se udělá sám."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Druhá ze čtyř.",
+      "diagram_generator": "obrat",
+      "diagram": "Telefon a notebook, fotka už na obou."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Třetí ze čtyř.",
+      "diagram_generator": "obrat",
+      "diagram": "Dvě zařízení, mezi nimi schránka."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Čtvrtá ze čtyř.",
+      "diagram_generator": "obrat",
+      "diagram": "Telefon a hodinky, na hodinkách zvoní hovor."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Nasčítání, jako S45 u dveří.",
+      "diagram_generator": "obrat",
+      "diagram": "Všechny čtyři dvojice naráz, popisek NOT MAGIC."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "„Apple owns both ends\" — jádro celého videa podle uživatele. Symbol musí být na obou koncích shodný, jinak scéna netvrdí nic.",
+      "diagram_generator": "obrat",
+      "diagram": "Každý spoj má na OBOU koncích týž symbol.",
+      "pause": 2.4
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Připravuje nejdůležitější beat videa.",
+      "diagram_generator": "obrat",
+      "diagram": "Jedny z dveří (THE PART) a od nich čára."
+    },
+    {
+      "id": "S67b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67b.png",
+      "note": "TOHLE JE TA VĚTA: „stejná kontrola, dvě legitimní perspektivy\". Jedna čára spojuje zavřené dveře s funkčním spojem — musí být zjevně TÁŽ čára.",
+      "diagram_generator": "obrat",
+      "diagram": "Táž čára pokračuje ke spoji sluchátek.",
+      "pause": 2.8
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Rovnítko, ne váhy.",
+      "diagram_generator": "obrat",
+      "diagram": "Dveře a spoj, mezi nimi rovnítko."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Návrat dvojice.",
+      "diagram_generator": "obrat",
+      "diagram": "Dvě postavy proti sobě, mezi nimi táž věc."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Scéna, ve které něco míří na něco — ověřit, že obě šipky končí ve stejném bodě.",
+      "diagram_generator": "obrat",
+      "diagram": "Popisky COMPLAINT a COMPLIMENT míří na TÝŽ prvek.",
+      "pause": 2.6
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Předěl.",
+      "diagram_generator": "identita",
+      "diagram": "Prázdná plocha, jen nadpis."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Zkráceno na tři scény — v 0.2 to bylo šest a působilo to jako „a teď si povíme, že Apple má fanoušky\".",
+      "diagram_generator": "identita",
+      "diagram": "Zařízení, nad ním A WAY OF THINKING."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Schválně nudné — kontrast k S74.",
+      "diagram_generator": "identita",
+      "diagram": "Fádní řádek HERE IS A TELEPHONE, malým písmem."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Kontrast velikosti proti S73 je celé tvrzení dvojice.",
+      "diagram_generator": "identita",
+      "diagram": "Tři řádky velkým písmem: THIS CHANGES EVERYTHING / THIS IS THE FUTURE / THINK DIFFERENT.",
+      "pause": 2.2
+    },
+    {
+      "id": "S75",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Fronta před obchodem jako doklad, že lidé o tom mluví. Snímek už je stažený a ověřený (David Boyle, CC BY 2.0). Zoom NE — na skupinovou fotku nepatří.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "queue outside Apple Store",
+        "pick": 4,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S75b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75b.png",
+      "diagram_generator": "identita",
+      "diagram": "Věta ALMOST LIKE A RELIGION v uvozovkách, nad ní ztlumené SOME CRITICS SAY.",
+      "note": "Uvozovky a přisouzení jsou VĚCNÁ nutnost: video to netvrdí, cituje kritiky. Bez nich by se z toho stalo tvrzení kanálu."
+    },
+    {
+      "id": "S75c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75c.png",
+      "diagram_generator": "identita",
+      "diagram": "Obrys kostela, přeškrtnutý. Vedle NOT LITERALLY.",
+      "note": "Vtip scény a zároveň pojistka proti tomu, aby se metafora brala doslova. Uživatel si u storyboardu vyžádal, aby náboženství bylo IRONICKÉ, ne kult — přeškrtnutý kostel je popření, ne obraz kultu."
+    },
+    {
+      "id": "S75d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75d.png",
+      "diagram_generator": "identita",
+      "diagram": "Čtyři štítky: A FOUNDER / EVENTS EVERY YEAR / BELIEVERS / SCEPTICS.",
+      "note": "BELIEVERS a SCEPTICS musí být stejně velké a stejně barevné — kdyby byla jedna skupina výraznější, scéna by si vybrala stranu. Fronta se ve výčtu NEJMENUJE, protože ji divák vidí o dvě scény dřív v S75.",
+      "pause": 2.2
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Vtip scény. Bublina je PRÁZDNÁ — nikdo o pračce nic neříká.",
+      "diagram_generator": "identita",
+      "diagram": "Pračka, nad ní prázdná bublina."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Předěl k místnosti.",
+      "diagram_generator": "identita",
+      "diagram": "Prázdná plocha, jen nadpis."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Dvě stejně velké věty jsou ten rozpor. Žádná šipka, žádný komentář.",
+      "diagram_generator": "identita",
+      "diagram": "Dva řádky stejně velké: THINK DIFFERENT a THE APPLE WAY."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Připravuje beat.",
+      "diagram_generator": "identita",
+      "diagram": "Otazník mezi nimi."
+    },
+    {
+      "id": "S79b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79b.png",
+      "note": "Beat: ubere se. Dědí kompozici S79. NÁVĚTÍ: promluva „It isn't.\" má 1,02 s, takže obětovaná věta selhala dvakrát. Whisper base.en na holé scéně slyšel „If it isn't A...\" — tedy artefakt na ZAČÁTKU i na konci. Ze čtyř zkoušených návětí dává tohle 330 ms ticha na řez (nejvíc při zachování smyslu) a drží návaznost na S79.",
+      "diagram_generator": "identita",
+      "diagram": "Otazník zmizí.",
+      "pause": 2.4,
+      "naveti": "Which really does sound like a contradiction."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Škrtá se vodorovnou čarou.",
+      "diagram_generator": "mistnost",
+      "diagram": "Přeškrtnuté slovo FREEDOM."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Výplata začíná. Kreslí to `mistnost()` z kitu a TÁŽ funkce se použije v S82 — rozdíl smí být jen v popisku.",
+      "diagram_generator": "mistnost",
+      "diagram": "PÁTEŘ: týž RAMEC, poprvé zevnitř jako obyvatelný prostor."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Uvnitř to MUSÍ vypadat příjemně, jinak video přestane být vyvážené.",
+      "diagram_generator": "mistnost",
+      "diagram": "Týž prostor, popisky EVERYTHING PLACED WELL / NOTHING IN YOUR WAY."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Milionům lidí to vyhovuje. Postavy se musí do rámce vejít — hlídá `vejde_se_dovnitr()`.",
+      "diagram_generator": "mistnost",
+      "diagram": "Týž prostor, uvnitř mnoho spokojených postav."
+    },
+    {
+      "id": "S83b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83b.png",
+      "diagram_generator": "mistnost",
+      "diagram": "Táž místnost jako S83, u pohovky přibude obousměrná šipka.",
+      "note": "Beat: dědí kompozici S83, mění se JEDINÁ věc. Scéna vyslovuje rozdíl, na kterém stojí celá metafora — nábytek posunout JDE, stěny ne. Bez ní si ho divák musí domyslet a „move the walls\" pak zní jako jediné tvrzení místo jako pointa."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Připravuje výplatu.",
+      "diagram_generator": "mistnost",
+      "diagram": "Ruce zevnitř tlačící do stěny."
+    },
+    {
+      "id": "S84b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84b.png",
+      "note": "Souřadnice se nesmí lišit od S01 ani o pixel. Příčky se v celém videu objeví POUZE tady — proto je to překvapení. NÁVĚTÍ: promluva „...you can't.\" má 1,17 s. Whisper base.en na holé scéně slyšel „Are you COUNTING?\" — can't se rozpadlo úplně. Tohle návětí dává 410 ms ticha, nejvíc ze čtyř zkoušených, a whisper po něm dělá TEČKU (\"...the walls. You can't.\"), tedy nejčistší hranici. Drží i gramatickou návaznost na S84.",
+      "diagram_generator": "mistnost",
+      "diagram": "VÝPLATA: týž rámec, ve stěnách se objeví příčky. Popisek YOU CAN'T.",
+      "pause": 3.0,
+      "naveti": "Suppose you decide to move the walls."
+    },
+    {
+      "id": "S84c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84c.png",
+      "diagram_generator": "mistnost",
+      "diagram": "Táž klec, nad rámcem ambrové DESIGN místo YOU CAN'T.",
+      "note": "Divák si vyžádal, aby se pojmenoval vzorec, kterým Apple vydává nemožnost nastavení za záměr. Video pro to mělo materiál od první minuty („Courage\"), ale nikde ten vzorec nevyslovilo. Patří to AŽ SEM: dřív je to obvinění, tady je to shrnutí toho, co divák viděl.",
+      "pause": 0.8
+    },
+    {
+      "id": "S84d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84d.png",
+      "diagram_generator": "mistnost",
+      "diagram": "Táž klec, pod rámcem přibude AND ONCE, COURAGE.",
+      "note": "Callback přes osm minut na S10b. Vzorec se nedokládá novým případem, nýbrž tím, který divák zná.",
+      "pause": 1.2
+    },
+    {
+      "id": "S84e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84e.png",
+      "diagram_generator": "mistnost",
+      "diagram": "Táž klec, pod rámcem přeškrtnuté A FAULT -> šipka -> A PREFERENCE.",
+      "note": "Jádro námitky: když je stěna vydávaná za záměr, stížnost se překlasifikuje na věc vkusu a nedá se o ní vést spor. S88 („neither of them is wrong\") to pak výslovně odmítne.",
+      "pause": 2.4
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Souřadnice postav sedí s S01.",
+      "diagram_generator": "dva",
+      "diagram": "Dvě postavy, mezi nimi jeden totožný počítač."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "",
+      "diagram_generator": "dva",
+      "diagram": "U levé postavy tři přání."
+    },
+    {
+      "id": "S86b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86b.png",
+      "note": "Beat, dědí kompozici S86.",
+      "diagram_generator": "dva",
+      "diagram": "Táž kompozice, u levé postavy se rozsvítí rámec jako MÍSTNOST."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Zrcadlí S86.",
+      "diagram_generator": "dva",
+      "diagram": "U pravé postavy tři přání."
+    },
+    {
+      "id": "S87b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87b.png",
+      "note": "Druhá půlka výplaty: týž tvar, dva popisky. Oba stejně velké a ani jeden ambrový.",
+      "diagram_generator": "dva",
+      "diagram": "Táž kompozice, u pravé postavy týž rámec, ale s příčkami — KLEC.",
+      "pause": 2.4
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Rovnítko, ne váhy — váhy vyrábějí vítěze.",
+      "diagram_generator": "dva",
+      "diagram": "Obě postavy, mezi nimi rovnítko, popisek NEITHER IS WRONG."
+    },
+    {
+      "id": "S88b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "VÝZVA K ODBĚRU podle docs/cta.md. `visual` ukazuje na obrázek PŘEDCHOZÍ scény: prolínačka dvou shodných obrázků není vidět, takže divák nezaznamená střih. `static` je nutný.",
+      "cta": true
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: od téhle scény musí zůstat volná HORNÍ polovina rámu.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě přeškrtnuté dvojice: APPLE vs ANDROID, MAC vs WINDOWS."
+    },
+    {
+      "id": "S89b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89b.png",
+      "note": "Teze videa v jednom tvaru. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Rámec ve spodním pásu, zvenčí CONTROL, zevnitř CONVENIENCE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě otázky ve středním pásu."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Rámec, uvnitř mnoho postav."
+    },
+    {
+      "id": "S91b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91b.png",
+      "note": "Beat, dědí kompozici S91. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž rámec, vně několik postav.",
+      "pause": 2.4
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Zařízení, nad ním AN IDEA."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Poslední beat. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdný rámec.",
+      "pause": 1.2
+    },
+    {
+      "id": "S93b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93b.png",
+      "note": "Konec. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž prázdný rámec, pod ním jediný řádek."
+    }
+  ]
+}

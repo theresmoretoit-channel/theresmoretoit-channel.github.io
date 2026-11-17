@@ -1,0 +1,898 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První scéna nese myšlenku (dvojí význam), ne atmosféru. Páteř se zavádí tady.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). Jen pravé pole: tři řádky serverového logu (čas, zpráva), slovo LOG nahoře. Levé pole prázdné, ztlumený rámeček.",
+      "pause": 0.5
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "„And so is this.“ — beat na obraze, rozsvítí se levé pole. Rovnítko ani šipku nekreslit: tvrdilo by vztah dřív, než ho video ukáže (šipka až S03).",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ slovo() z _kit.py (viz S01). Totéž + v levém poli dřevěné poleno (kreslené, letokruhy na čele). Obě pole vedle sebe, nic mezi nimi.",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Čárkovaná/tečkovaná = cesta, kterou teprve ukážeme (konvence: plná = doloženo).",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). Obě pole, mezi nimi tečkovaná šipka zleva doprava s otazníkem.",
+      "pause": 0.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Slib pointy, ne její vyzrazení — žádné vysvětlení mechanismu.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři malé ikony v řadě: loď, lano, ruka počítající uzly. Pod nimi tečkovaná linie dál k ikoně logu.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Slova odpovídají voiceoveru 1:1 (S05 opraveno z Window).",
+      "diagram_generator": "uvod",
+      "diagram": "Mřížka čtyř slov MOUSE / DESKTOP / CLOUD / BUG, každé s malou ikonou původního předmětu (myš, stůl, mrak, brouk)."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Mapa videa; třetí sloupec ztlumený nejvíc (zapomenuté).",
+      "diagram_generator": "uvod",
+      "diagram": "Tři sloupce: OBVIOUS / CHOSEN / FORGOTTEN, v každém ztlumeně slova, která přijdou (mouse | cloud, packet | log, boot, bug).",
+      "pause": 2.2
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Předěl aktu.",
+      "diagram_generator": "mys",
+      "diagram": "Nadpis aktu I: THE OBVIOUS ONES, pod tím ikona myši."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Fact check: kabel vycházel na prvním prototypu vzadu.",
+      "diagram_generator": "mys",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO MOUSE; vlevo myš (zvíře) s ocáskem, vpravo raná počítačová myš s kabelem ze ZADU (ne zepředu).",
+      "pause": 0.5
+    },
+    {
+      "id": "S09",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. První prototyp myši (dřevěné pouzdro). Bez jména autora jména myši — nikdo neví, kdo to řekl.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Replica of prototype Engelbart mouse circa 1964 Computer History Museum",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "„It just looked like a mouse.“",
+      "diagram_generator": "mys",
+      "diagram": "Obrys počítačové myši s kabelem a přes něj tenký obrys myši zvířete — siluety se kryjí.",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Zdroj koše viz S12.",
+      "diagram_generator": "desktop",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO DESKTOP; vlevo psací stůl se šanony a košem, vpravo plocha monitoru s ikonami složek a koše."
+    },
+    {
+      "id": "S12",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Fotka Xerox Alto (PARC, 70. léta). Věta o Apple a koši jen v hlase + malý štítek APPLE LISA 1983 by tvrdil víc — NEdávat.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Xerox Alto I 1973 Computer History Museum",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "pause": 0.4
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Slovník, který lidé už znali.",
+      "diagram_generator": "desktop",
+      "diagram": "Čtyři slova v řadě DESK · FOLDER · DOCUMENT · BIN, každé nad ikonou."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "„There's no tiny bin.“",
+      "diagram_generator": "desktop",
+      "diagram": "Monitor s plochou, v rohu malá ikona koše; vedle přeškrtnutý skutečný drátěný koš (škrt přes plochu, ne přes text).",
+      "pause": 0.8
+    },
+    {
+      "id": "S14b",
+      "source": "svg",
+      "visual": "images/S14.png",
+      "effect": "static",
+      "cta": true,
+      "note": "CTA podle docs/cta.md, ~1:40, mezi aktem I a II. Dědí obraz S14.",
+      "pause": 2.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Předěl aktu.",
+      "diagram_generator": "cloud",
+      "diagram": "Nadpis aktu II: PICTURES OF THE INVISIBLE. Vlevo oko + předmět, vpravo prázdný tečkovaný rámeček."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "",
+      "diagram_generator": "cloud",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO CLOUD; vlevo mrak na obloze, vpravo prázdné pole.",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Vizuálně: tolik čar, že to nejde číst — proto mrak.",
+      "diagram_generator": "cloud",
+      "diagram": "Síťový diagram: vlevo a vpravo počítače, uprostřed hustá změť uzlů a čar (to, co nechtěli kreslit).",
+      "pause": 0.4
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Mrak = „tady je toho hodně, nemusíš vědět co“.",
+      "diagram_generator": "cloud",
+      "diagram": "Týž diagram, změť nahrazená obrysem mraku na STEJNÝCH souřadnicích, počítače vlevo a vpravo zůstávají."
+    },
+    {
+      "id": "S19",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S19.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Řady serverových skříní (datové centrum). Jen generická fotka, žádné logo firmy.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Racks Amravati Data Center",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "„The part you're not supposed to see.“",
+      "diagram_generator": "cloud",
+      "diagram": "Mrak z S18 na stejném místě, uvnitř ztlumeně řady serverů (průhled).",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Berners-Lee: decentralised, anything to anything. Žádný centrální uzel nekreslit.",
+      "diagram_generator": "web",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO WEB; vpravo síť dokumentů (obdélníčky) propojených čarami bez středu a bez okraje — čáry utíkají za kraj obrazu."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S22.png",
+      "note": "Atmosféra + vtip o třech hodinách. Ne první scéna. Kolo 1 (seed z ID) vyšlo fotorealisticky → přidán malířský styl, seed 2201. 2026-10-05: pavučina vlevo nebyla přichycená, uživatel ji opravil v ChatGPT → art/S22.png (PUVOD.md), scéna je teď svg s obrázkem.",
+      "prompt": "painterly illustration with visible brush strokes, a spider web between two bare branches with dew drops, flat grey overcast sky, no sun",
+      "pause": 2.2,
+      "seed": 2201,
+      "diagram_generator": "web",
+      "diagram": "Hotová malba z art/S22.png přes celé plátno (SDXL seed 2201, opraveno v ChatGPT)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "",
+      "diagram_generator": "packet",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO PACKET; vlevo malý balíček se štítkem, vpravo zatím prázdné.",
+      "pause": 0.5
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Fact check: slovo 1966, idea 1965 → v obraze jen MID-1960s.",
+      "diagram_generator": "packet",
+      "diagram": "Jméno DONALD DAVIES a pod ním NPL · MID-1960s. Silueta bez tváře."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "„partly because“ — obraz netvrdí, že to byl jediný důvod; žádné „because“ v textu.",
+      "diagram_generator": "packet",
+      "diagram": "Slovo PACKET a kolem něj tytéž tvary v několika jazycích (PAQUET, PAKET, PACCHETTO, PAQUETE).",
+      "pause": 0.4
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Číslo spočítané ve factcheck.md (1080p, 5 Mbit/s). assert na výpočet v generátoru.",
+      "diagram_generator": "packet",
+      "diagram": "Proud stovek malých balíčků (mřížka teček) od serveru k obrazovce, každý se štítkem. Pod tím ~250 000 PACKETS / 10 MIN VIDEO.",
+      "pause": 1.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "",
+      "diagram_generator": "naklad",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO LOAD; vlevo náklad na korbě, vpravo zatím prázdné."
+    },
+    {
+      "id": "S28",
+      "source": "sdxl",
+      "effect": "pan_left",
+      "visual": "images/S28.png",
+      "note": "Atmosféra „náklad“. Kamion bez nápisů (negativ už má text, logo). Kolo 1 vyšlo fotorealisticky i se SPZ → malířský styl, kamion zdálky, seed 2801 — kolo 2 kamion zmizel v dálce → z boku přes střed záběru, seed 2802.",
+      "prompt": "painterly illustration with visible brush strokes, side view of a plain lorry without markings carrying a covered load on a country road, the lorry fills the middle of the frame, flat grey overcast sky, no sun, wide shot",
+      "seed": 2802
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Ambrová = o čem je řeč.",
+      "diagram_generator": "naklad",
+      "diagram": "Kamion v řezu: palivo, řidič, kamion — ztlumené; náklad na korbě ambrově se štítkem PAY LOAD → PAYLOAD.",
+      "pause": 0.5
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Data spočítaná ve factcheck.md; assert na poměry v generátoru.",
+      "diagram_generator": "naklad",
+      "diagram": "Raketa jako sloupcový řez podle hmotnosti: 89 % palivo (ztlumené), náklad nahoře 4 % (ambrově). Štítek FALCON 9."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Rým s S29: tatáž barva = tatáž role.",
+      "diagram_generator": "naklad",
+      "diagram": "Síťový paket jako obálka: hlavička (ADDRESS, DELIVERY) ztlumeně, tělo PAYLOAD ambrově.",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Předěl.",
+      "diagram_generator": "voda",
+      "diagram": "Nadpis přechodu: silnice → vlna vody (dvě ikony a šipka)."
+    },
+    {
+      "id": "S33",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S33.png",
+      "note": "Atmosféra „stream“.",
+      "prompt": "a small clear stream flowing over rocks in a forest, flat grey overcast sky, no sun"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "",
+      "diagram_generator": "voda",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO STREAM; vpravo přehrávač s pruhem: odehraná část, načtená část, zbytek tečkovaně „on the way“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "",
+      "diagram_generator": "voda",
+      "diagram": "Nerovnoměrný přítok: kapky/balíčky v nepravidelných rozestupech, přehrávač má být plynulý."
+    },
+    {
+      "id": "S36",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Nárazníky železničního vagonu, detail. Slovo BUFFER až v S37.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "intitle:\"Puffer-01\"",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Žádná šipka „odvozeno od vagonu“ — scénář to netvrdí (fact check).",
+      "diagram_generator": "voda",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO BUFFER; vlevo dva nárazníky s pružinou, vpravo zásobník (sloupec balíčků), který vyrovnává nerovný přítok na rovný odtok.",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "",
+      "diagram_generator": "voda",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO PIPELINE; vpravo tři stupně za sebou spojené trubkami.",
+      "pause": 0.4
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Citát doslova z memo 1964 (factcheck.md); v hlase parafráze.",
+      "diagram_generator": "voda",
+      "diagram": "Citát v rámečku: “coupling programs like garden hose” — DOUG McILROY, BELL LABS, 1964. Pod tím zahradní hadice se spojkami."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "",
+      "diagram_generator": "voda",
+      "diagram": "Souhrn: tok → zásobník → trubky jako instalatérský rozvod.",
+      "pause": 2.4
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "",
+      "diagram_generator": "padding",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO PADDING; vlevo prošívaná vycpávka, vpravo zatím prázdné."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "",
+      "diagram_generator": "padding",
+      "diagram": "Tři ikony: prošívaná bunda, bublinková obálka, polstrovaná židle."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Fact check: padding je mezi okrajem a obsahem.",
+      "diagram_generator": "padding",
+      "diagram": "Tlačítko (button) s textem a kolem něj ambrově vyznačená vnitřní mezera PADDING od okraje boxu k textu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "",
+      "diagram_generator": "padding",
+      "diagram": "Tentýž box; vně ztlumeně MARGIN. Vedle tištěná stránka s okraji na stejných proporcích.",
+      "pause": 2.2
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "„You can see the picture behind them.“",
+      "diagram_generator": "prechod",
+      "diagram": "Mřížka dosavadních slov, každé s ikonou svého předmětu (průhledná, čitelná)."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Hlavní obrat videa.",
+      "diagram_generator": "prechod",
+      "diagram": "Tatáž mřížka, ikony vybledlé; přichází tři slova bez ikon: LOG · BOOT · BUG.",
+      "pause": 3.0
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Callback — stejné souřadnice jako S01–S03.",
+      "diagram_generator": "log",
+      "diagram": "Návrat na rozvržení S02 (PÁTEŘ, slovo LOG, obě pole).",
+      "pause": 0.8
+    },
+    {
+      "id": "S48",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "note": "Atmosféra „no speedometer, just the sea“. Ne dawn/dusk (teplé světlo).",
+      "prompt": "a wooden sailing ship on an open grey sea, flat grey overcast sky, no sun, wide shot",
+      "pause": 0.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "KRESBA FUNKCE: dřevo stojí, loď jede — šipka pohybu jen u lodi.",
+      "diagram_generator": "log",
+      "diagram": "Řez: záď lodi, z ní lano k dřevěné výseči plovoucí na hladině, loď se vzdaluje (šipka u lodi, ne u dřeva)."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Uzly „later“ — v obraze žádný letopočet.",
+      "diagram_generator": "log",
+      "diagram": "Lano s uzly v pravidelných rozestupech, ruka, přesýpací hodiny 28 s.",
+      "pause": 0.4
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "",
+      "diagram_generator": "log",
+      "diagram": "Počet uzlů = rychlost: 6 KNOTS. Pod tím rychloměr lodi v uzlech.",
+      "pause": 1.2
+    },
+    {
+      "id": "S52",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Stránka historického lodního deníku (rukopis). Fit, žádný zoom do textu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "HMS Dolphin Log Book 3",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "",
+      "diagram_generator": "log",
+      "diagram": "Kniha deníku se sloupci SPEED · WEATHER · POSITION · EVENTS.",
+      "pause": 0.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Tytéž řádky logu jako S01.",
+      "diagram_generator": "log",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). Návrat do páteře: vlevo deník, vpravo serverový log (řádky s časy).",
+      "pause": 0.5
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Výplata háčku: tečkovaná šipka z S03 je teď plná (doloženo).",
+      "diagram_generator": "log",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO LOG; vlevo poleno, vpravo log; mezi nimi teď PLNÁ čára přes lano, deník → log.",
+      "pause": 2.4
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "",
+      "diagram_generator": "boot",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO BOOT; vlevo bota, vpravo prázdné.",
+      "pause": 0.5
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Poutka nahoře, ne vzadu.",
+      "diagram_generator": "boot",
+      "diagram": "Holínka s poutky NAHOŘE (fact check), poutka ambrově."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Nemožné → škrt přes šipku, ne přes postavu.",
+      "diagram_generator": "boot",
+      "diagram": "Postava tahá za vlastní poutka, nohy na zemi, nad ní tečkovaná šipka nahoru přeškrtnutá.",
+      "pause": 0.8
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Paradox.",
+      "diagram_generator": "boot",
+      "diagram": "Prázdná paměť počítače (prázdné buňky); smyčka: program → načíst → program.",
+      "pause": 0.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Funkce: malý načte větší.",
+      "diagram_generator": "boot",
+      "diagram": "Tři rostoucí bloky kódu, každý načítá větší (šipky zleva doprava), poslední = celý systém."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "",
+      "diagram_generator": "boot",
+      "diagram": "Táž postava z S58, ale teď počítač s poutky; BOOTSTRAP → BOOT."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "",
+      "diagram_generator": "boot",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO BOOT; vlevo bota, vpravo vypínač/obrazovka při startu.",
+      "pause": 2.2
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "",
+      "diagram_generator": "bug",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO BUG; vlevo brouk, vpravo prázdné.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "",
+      "diagram_generator": "bug",
+      "diagram": "HARVARD MARK II · 1947; schéma relé, v něm silueta můry."
+    },
+    {
+      "id": "S65",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S65.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Stránka deníku s nalepenou můrou (US Navy, PD). Zoom pomalu na můru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "First Computer Bug, 1947",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Callback na log.",
+      "diagram_generator": "bug",
+      "diagram": "Táž stránka jako vektor: nadpis LOG BOOK ambrově.",
+      "pause": 0.8
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "",
+      "diagram_generator": "bug",
+      "diagram": "Citát “First actual case of bug being found.” se zvýrazněným ACTUAL.",
+      "pause": 0.4
+    },
+    {
+      "id": "S68",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Portrét Edisona, PD. fit 0.84, žádný zoom (portrét). Popisek THOMAS EDISON · 1878.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Edison and phonograph edit2",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "pause": 0.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Obraz nesmí tvrdit, že můra dala slovo.",
+      "diagram_generator": "bug",
+      "diagram": "Časová osa: 1878 EDISON „BUGS“ → 1947 MOTH. Můra až na konci osy.",
+      "pause": 2.2
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Rohy se v S72 škrtnou.",
+      "diagram_generator": "daemon",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO DAEMON; vlevo zatím ztlumený rohatý démon (záměrně falešná stopa), vpravo prázdné.",
+      "pause": 0.5
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "",
+      "diagram_generator": "daemon",
+      "diagram": "Okno procesů: řádky mail, printer, clock běžící v pozadí (ztlumeně, malé)."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "",
+      "diagram_generator": "daemon",
+      "diagram": "Rohatý démon z S70 přeškrtnutý (škrt přes plochu), vedle MIT · 1960s a odkaz na fyziku."
+    },
+    {
+      "id": "S73",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Vybráno z kontaktního listu 2026-10-04. Portrét Maxwella, PD. fit 0.84, žádný zoom. Hlas (0.4) říká i „later called Maxwell's demon“ — jméno v obraze až v S74 u bytosti, ne pod portrétem (portrét = Maxwell, ne démon).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "James-Clerk-Maxwell-1831-1879",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "KRESBA FUNKCE: jedna nádoba, třídění OBĚMA směry (fact check). Štítek MAXWELL'S DEMON doplněn kvůli 0.4 (S73) — spojuje S72 „borrowed from physics“ s S75. Rohatého démona z S70 sem nekreslit: tahle bytost rohy nemá.",
+      "diagram_generator": "daemon",
+      "diagram": "Nádoba plynu rozdělená přepážkou s dvířky; rychlé molekuly (ambrové) jedním směrem, pomalé (ztlumené) druhým; malá bytost u dvířek se štítkem MAXWELL'S DEMON.",
+      "pause": 0.5
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "„Tireless little helper.“",
+      "diagram_generator": "daemon",
+      "diagram": "Bytost u dvířek vedle procesu v pozadí — rým.",
+      "pause": 0.4
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "",
+      "diagram_generator": "daemon",
+      "diagram": "Řecky ΔΑΙΜΩΝ a pod tím GUARDIAN SPIRIT; postava s ochrannou siluetou za zády.",
+      "pause": 2.2
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "",
+      "diagram_generator": "worm",
+      "diagram": "PÁTEŘ slovo() z _kit.py: nahoře SLOVO velkými písmeny na pevných souřadnicích, pod ním dvě pole oddělená svislou čarou na x=1280 — vlevo PŘEDTÍM (fyzický předmět, kresba inkoustem s ambrovým akcentem), vpravo V POČÍTAČI (petrolejová, monospace). SLOVO WORM; vlevo žížala/tasemnice, vpravo prázdné.",
+      "pause": 0.5
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "",
+      "diagram_generator": "worm",
+      "diagram": "Síť počítačů, program se kopíruje z jednoho do druhého (ambrová cesta)."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "",
+      "diagram_generator": "worm",
+      "diagram": "Titul knihy v rámečku: THE SHOCKWAVE RIDER · JOHN BRUNNER · 1975 (vlastní sazba, NE obálka — autorská práva)."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Fact check: >100 Alto; „a few years later“.",
+      "diagram_generator": "worm",
+      "diagram": "Řada počítačů Alto propojených sítí, ambrová cesta wormu; štítek XEROX PARC."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Callback na akt I.",
+      "diagram_generator": "worm",
+      "diagram": "Návrat k obrazu desktopu z S11 (pravé pole) vedle wormu — tatáž laboratoř.",
+      "pause": 2.4
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Výčet v obraze.",
+      "diagram_generator": "zaver",
+      "diagram": "Pět řádků pod sebou: LOG ← wood · BOOT ← joke · BUG ← older than computers · DAEMON ← physicist's helper · WORM ← novel.",
+      "pause": 1.2
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Titul videa WHY IS COMPUTER STUFF CALLED THAT? ztlumeně.",
+      "pause": 0.8
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Posledních ~20 s: prvky závěrečné obrazovky patří nahoru (docs).",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdná obrazovka se ztlumenými tečkovanými obrysy packet / buffer / cloud — neviditelné. HORNÍ POLOVINA VOLNÁ.",
+      "pause": 0.4
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Závěrečná obrazovka.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: řada ikon DESK · RIVER · TRUCK · PARCEL · ROPE WITH KNOTS. HORNÍ POLOVINA VOLNÁ.",
+      "pause": 1.2
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Tytéž ikony vyblednou do slov. HORNÍ POLOVINA VOLNÁ.",
+      "pause": 1.2
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Páteř se smí v závěrečné desce posunout (docs) — sem dolů. Pauza 3,0 → 1,2: za S87 přibyla S88 (další díl).",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ naposledy: LOG — poleno vlevo, log vpravo, dole. HORNÍ POLOVINA VOLNÁ.",
+      "pause": 1.2
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "pause": 3.0,
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: čtyři prázdné čárkované karty s otazníkem. HORNÍ POLOVINA VOLNÁ. Titulek MORE WORDS NEXT TIME.",
+      "note": "Pozvánka na další díl (požadavek uživatele 2026-10-05). Závěrečná obrazovka: horní polovina volná. Karty prázdné — neslibovat konkrétní slova."
+    }
+  ]
+}

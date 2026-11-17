@@ -1,0 +1,905 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První scéna nese MYŠLENKU, ne atmosféru: ze sta stejných postav nejde poznat, která je trans. Žádná postava NESMÍ být zvýrazněná — kresba by tvrdila, že to poznat jde. Dav je páteř videa: S02–S04, S30–S33, S44, S54, S58, S70, S74, S76–S79. Kreslí ho výhradně dav() v _kit.py.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: dav() — 100 stejných postav v mřížce 20×5 na pevných souřadnicích, všechny stejně ztlumené. Nad davem velký ambrový otazník a nadpis HOW DO YOU KNOW?"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Výčet z voiceoveru na páteři. Štítky neškrtat — škrt by četl ‚tyhle vlastnosti trans lidé nemají‘; tvrzení je, že podle nich nic nepoznáš.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř; nad davem řada štítků LOOK · PERSONALITY · VOICE · JOB · ORIENTATION, každý se znaménkem ≠ k davu (ne přeškrtnutý)."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "‚Some talk openly, others never tell anyone.‘ Bubliny nesou jen ‚mluví‘, ne ‚je trans‘ — zbytek davu zůstává nerozlišitelný. Bubliny se vrátí v S74.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř; u tří až čtyř náhodně rozmístěných postav bublina (mluví o tom), ostatní beze změny.",
+      "pause": 0.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "‚Spend their entire lives hiding it.‘ Čárkovaná = skryté. Postava sama se nezvýrazňuje barvou, jen linkou.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř; pod jednou postavou dlouhá čárkovaná linka celého života (BIRTH → OLD AGE) se zámkem.",
+      "pause": 0.6
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "‚Perhaps the first question isn't…‘ — titulní otázka se odsune na druhé místo, neškrtá se (video na ni odpoví).",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě karty otázek nad sebou: horní pozice 1 prázdná (čárkovaný rámeček), na pozici 2 ztlumeně WHY ARE THERE SUDDENLY SO MANY?",
+      "pause": 0.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Výplata S05 na stejném rozvržení — beat bez střihu.",
+      "diagram_generator": "uvod",
+      "diagram": "Tytéž karty; na pozici 1 ambrově WHO ARE TRANSGENDER PEOPLE?, pozice 2 dál ztlumená.",
+      "pause": 2.2
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis WHAT DOES TRANSGENDER MEAN? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Terminologie podle 072 (sex assigned at birth). Žádná růžová/modrá — barva by si vyrobila význam.",
+      "diagram_generator": "pojmy",
+      "diagram": "Ikona novorozence, šipka k štítku SEX ASSIGNED AT BIRTH; pod šipkou drobně BASED ON PHYSICAL CHARACTERISTICS."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Rozvržení dvou sloupců je pevné pro S09–S10 (funkce dvojice() v _kit), mění se jen znak mezi nimi.",
+      "diagram_generator": "pojmy",
+      "diagram": "Dva sloupce: SEX ASSIGNED AT BIRTH | GENDER IDENTITY, mezi nimi = ; pod tím štítek CISGENDER. Pomocná značka MOST PEOPLE."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Beat k S09 — stejné souřadnice, jiný znak.",
+      "diagram_generator": "pojmy",
+      "diagram": "Totéž rozvržení, mezi sloupci ≠ ; pod tím štítek TRANSGENDER (TRANS). Značka SOME PEOPLE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "‚Not the same thing‘ — dvě osy nesmí být spojené čárou ani šipkou.",
+      "diagram_generator": "pojmy",
+      "diagram": "Dvě samostatné osy bez spojení: GENDER IDENTITY a SEXUAL ORIENTATION; pod orientací GAY · LESBIAN · BISEXUAL · HETEROSEXUAL.",
+      "pause": 0.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Beat k S11.",
+      "diagram_generator": "pojmy",
+      "diagram": "Tytéž dvě osy; pod první WHO YOU ARE, pod druhou WHO YOU'RE ATTRACTED TO."
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12b.png",
+      "note": "Přidáno ve v0.5 na žádost uživatele: definice dřív, než padne orientace. Levé destičky na týchž souřadnicích jako S13–S14 (registr trans_radky), ať je S13 beat bez střihu.",
+      "diagram_generator": "pojmy",
+      "diagram": "Tytéž dvě destičky TRANS WOMAN / TRANS MAN na souřadnicích S13; vpravo od každé A WOMAN · ASSIGNED MALE AT BIRTH a A MAN · ASSIGNED FEMALE AT BIRTH.",
+      "pause": 0.4
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Žádná možnost zvýrazněná — jinak by kresba tvrdila ‚tahle je typická‘.",
+      "diagram_generator": "pojmy",
+      "diagram": "Dva řádky: TRANS WOMAN → HETEROSEXUAL · LESBIAN · BISEXUAL · ASEXUAL; TRANS MAN → HETEROSEXUAL · GAY · BISEXUAL · ASEXUAL. Všechny možnosti stejně jasné."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Uzavírá definici. Statický diagram — CTA S14b dědí jeho obraz.",
+      "diagram_generator": "pojmy",
+      "diagram": "Totéž jako S13 ztlumeně, přes to ambrově NO PARTICULAR ORIENTATION."
+    },
+    {
+      "id": "S14b",
+      "source": "svg",
+      "visual": "images/S14.png",
+      "effect": "static",
+      "cta": true,
+      "note": "CTA podle docs/cta.md: za první výplatou (definice hotová, ~1:55), před blokem o dysforii. Dědí obraz S14, předchozí scéna je statický diagram.",
+      "pause": 2.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis WHAT DOES IT FEEL LIKE? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S16",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S16.png",
+      "note": "Blok lidské zkušenosti otevírá SDXL: člověk zezadu, žádná tvář. Počasí místo denní doby, ať nepřebije paletu.",
+      "prompt": "a person seen from behind standing at a rainy window in a quiet flat, looking out at a grey street, flat grey overcast light"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "‚Some‘ musí být v obraze — uživatel chce hlídat, ať dysforie nevypadá jako zkušenost všech.",
+      "diagram_generator": "dysforie",
+      "diagram": "Pojem GENDER DYSPHORIA velkým písmem, pod ním drobně SOME TRANSGENDER PEOPLE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Míra jistoty ‚can involve‘ i v kresbě: nadpis CAN, ne IS.",
+      "diagram_generator": "dysforie",
+      "diagram": "Dva tvary, které do sebe nezapadají: EXPERIENCED GENDER | BODY · HOW OTHERS SEE YOU; mezera mezi nimi označená DISTRESS. Nadpis CAN INVOLVE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "‚This is not simply…‘ — znak ≠, citát se neškrtá (není nepravdivý, jen není totéž).",
+      "diagram_generator": "dysforie",
+      "diagram": "Citát “I DON'T LIKE MY BODY.” a pod ním ≠ GENDER DYSPHORIA.",
+      "pause": 0.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Dvě oddělené skupiny bez šipky mezi nimi.",
+      "diagram_generator": "dysforie",
+      "diagram": "Vlevo shluk ztlumených štítků NOSE · WEIGHT · HAIR · HEIGHT, vpravo oddělený rámeček MORE FUNDAMENTAL."
+    },
+    {
+      "id": "S21",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S21.png",
+      "note": "Lidská zkušenost: ‚feel profoundly wrong‘. Zezadu, z odstupu.",
+      "prompt": "a person seen from behind sitting on the edge of an unmade bed in a dim bedroom, shoulders slightly hunched, soft grey window light"
+    },
+    {
+      "id": "S22",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "‚Looking in the mirror can be difficult.‘ Odraz MUSÍ být rozmazaný (zamlžené zrcadlo) — žádná tvář. Zkontrolovat na kontaktním listu. Kolo 1 (seed 878274388, chodba se siluetou ve dveřích) zamítnuto: zrcadlo v obraze nebylo vůbec — scéna ho nese voiceoverem. Kolo 2 (seed 22022): prázdné zamlžené zrcadlo nad umyvadlem, žádný odraz — přijato, nese ‚mirror‘ a tvář v něm není.",
+      "prompt": "a small bathroom mirror above a washbasin, the glass fogged by steam, a vague shapeless blurred reflection of a person in it, no face visible, towel on a hook, soft diffuse light",
+      "seed": 22022
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "‚Increasingly incompatible‘ — rozestup roste, ne skok.",
+      "diagram_generator": "dysforie",
+      "diagram": "Časová osa věku; od bodu PUBERTY se rozcházejí dvě čáry: BODY (plná) a HOW THEY UNDERSTAND THEMSELVES (plná, ambrová). Rozestup roste.",
+      "pause": 0.4
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "‚Difficult to imagine for someone who has never had it.‘ Pozorovatel zůstává vně.",
+      "diagram_generator": "dysforie",
+      "diagram": "Obrys postavy čárkovaně (cizí zkušenost) a vedle pozorovatel plnou čarou mimo něj.",
+      "pause": 0.4
+    },
+    {
+      "id": "S25",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S25.png",
+      "note": "‚Imagine waking up every morning.‘ Pomalý nájezd — jediný ‚představ si‘ moment videa.",
+      "prompt": "a person seen from behind sitting on a bed in the morning, a plain bedroom, curtains half open, flat grey overcast sky outside",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Výhrada k analogii musí být v obraze — jinak obraz tvrdí víc než voiceover.",
+      "diagram_generator": "dysforie",
+      "diagram": "Citát “JUST ACCEPT YOUR BODY.”, pod ním DOESN'T NECESSARILY SOLVE IT; v rohu drobně ANALOGY ≠ EXPERIENCE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Stupnice bez čísel, ať netvrdí měřitelnost.",
+      "diagram_generator": "dysforie",
+      "diagram": "Vodorovná stupnice DEGREE bez čísel, prázdná, s nadpisem NOT THE SAME FOR EVERYONE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Třetí štítek není na stupnici — je to jiná osa (léčba), ne míra.",
+      "diagram_generator": "dysforie",
+      "diagram": "Táž stupnice; tři štítky: SEVERE DISTRESS (vysoko), PERSISTENT SENSE IT DOESN'T FIT (níž) a oddělený NO MEDICAL TREATMENT AT ALL.",
+      "pause": 2.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis THERE ISN'T ONE KIND uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Návrat páteře: ‚not a uniform group‘ — dav pořád nerozlišený.",
+      "diagram_generator": "ruznost",
+      "diagram": "PÁTEŘ dav; nad ním štítky YOUNG · OLD."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Uživatel chce pointu ‚není automaticky v politickém táboře‘ — oba póly stejně jasné.",
+      "diagram_generator": "ruznost",
+      "diagram": "PÁTEŘ dav; štítky RELIGIOUS · NOT · MARRIED, WITH CHILDREN · CONSERVATIVE · PROGRESSIVE."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Výčet ‚Some… Some don't‘ jako jedna tabulka, ne šest střihů.",
+      "diagram_generator": "ruznost",
+      "diagram": "Tabulka tří řádků HORMONES / SURGERY / NAME & APPEARANCE, ve dvou sloupcích SOME WANT · SOME DON'T, oba sloupce stejně jasné.",
+      "pause": 0.4,
+      "vycet": 0.3
+    },
+    {
+      "id": "S32b",
+      "source": "svg",
+      "visual": "images/S32.png",
+      "effect": "static",
+      "note": "Oddělené ze S32: za 'appearance.' (6 slov, mimo dosah vycet) Kokoro nenechal pauzu (~100 ms). Dědí obraz S32, návětí = skutečný text předchozí věty kvůli intonaci.",
+      "naveti": "Some change their name and appearance.",
+      "pause": 0.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Uzavření bloku.",
+      "diagram_generator": "ruznost",
+      "diagram": "PÁTEŘ dav; nadpis NO SINGLE TRANSGENDER EXPERIENCE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis WHAT IS TRANSITION? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně.",
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Škrtá se představa ‚jedna operace‘ — ta je opravdu mylná.",
+      "diagram_generator": "tranzice",
+      "diagram": "Štítek ONE OPERATION přeškrtnutý (text_skrtnuty), pod ním SEVERAL DIFFERENT THINGS."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Panely BEZ šipek a bez čísel — pořadí by tvrdilo povinné kroky (S39). Rozvržení panelů pevné S36–S41.",
+      "diagram_generator": "tranzice",
+      "diagram": "Tři panely vedle sebe SOCIAL · LEGAL · MEDICAL bez šipek; rozsvícený SOCIAL: NAME, PRONOUNS, CLOTHING, APPEARANCE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "‚Where the law allows‘ musí být i v obraze.",
+      "diagram_generator": "tranzice",
+      "diagram": "Tytéž panely; rozsvícený LEGAL: NAME, GENDER MARKER ON DOCUMENTS, drobně WHERE THE LAW ALLOWS.",
+      "pause": 0.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Čárkovaně = jen pro někoho.",
+      "diagram_generator": "tranzice",
+      "diagram": "Tytéž panely; rozsvícený MEDICAL: HORMONE THERAPY, a čárkovaně SURGERY (FOR SOME).",
+      "pause": 0.5
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Škrtá se pořadí, ne panely.",
+      "diagram_generator": "tranzice",
+      "diagram": "Tytéž panely, mezi nimi přeškrtnuté šipky 1 → 2 → 3; nadpis NOT MANDATORY STEPS."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Přes tabulku jeden škrt celé, ne po řádcích (docs).",
+      "diagram_generator": "tranzice",
+      "diagram": "Seznam se zaškrtávacími políčky (prázdnými) a nadpis “REAL”?, celé přeškrtnuté jednou čarou jako tabulka.",
+      "pause": 0.5
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Návrat rozvržení S36 — nic nerozsvícené.",
+      "diagram_generator": "tranzice",
+      "diagram": "Tytéž tři panely jako S36, všechny ztlumené; vedle nich jedna postava a štítek NO TRANSITION AT ALL.",
+      "pause": 0.4
+    },
+    {
+      "id": "S42",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S42.png",
+      "note": "‚Completely ordinary life‘ — rodina zezadu, z dálky.",
+      "prompt": "a family of four walking along a park path away from the viewer, small figures in the distance, ordinary weekend, flat grey overcast sky",
+      "pause": 0.4
+    },
+    {
+      "id": "S43",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S43.png",
+      "note": "‚The person sitting next to you at work.‘ Nikdo nesmí být zvýrazněný.",
+      "prompt": "an open-plan office seen from the back of the room, people small at their desks seen from behind, soft diffuse daylight, plants, ordinary",
+      "pause": 0.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Dav pořád nerozlišený — nikoho se neukazuje prstem.",
+      "diagram_generator": "tranzice",
+      "diagram": "PÁTEŘ dav; nadpis PRIVATE, pod ním ztlumeně ≠ DECEIVING.",
+      "pause": 2.6
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis IS IT A FASHION? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Pravdivá tvrzení dostanou plné zatržítko — video je uznává.",
+      "diagram_generator": "moda",
+      "diagram": "Tři tvrzení se zatržítkem: YOUNG PEOPLE INFLUENCE EACH OTHER ✓ · SOCIAL MEDIA SPREADS IDEAS ✓ · PEOPLE CAN MISREAD THEIR FEELINGS ✓.",
+      "pause": 0.5
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Nesouhlasí se s premisami, ale s ZÁVĚREM — šipka (závěr) je ta přerušená.",
+      "diagram_generator": "moda",
+      "diagram": "Tři tvrzení ztlumeně vlevo, čárkovaná šipka doprava ke štítku SIMPLY A FASHION TREND, šipka přerušená otazníkem."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Cena identity, kterou uživatel výslovně nechal jako jádro argumentu proti ‚módě‘.",
+      "diagram_generator": "moda",
+      "diagram": "Váhy (vahy()): na jedné misce YEARS OF SUPPRESSION, FAMILY REJECTION; druhá miska prázdná.",
+      "pause": 0.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "‚Some eventually decide‘ — FOR SOME musí být vidět; váhy nevyvažovat přesvědčivě na jednu stranu.",
+      "diagram_generator": "moda",
+      "diagram": "Tytéž váhy; přibude RELATIONSHIPS, JOBS, SOCIAL TIES; na druhé misce LIVING OPENLY, štítek FOR SOME.",
+      "pause": 0.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Bez škrtů, bez barev — poctivé výhrady, ne protiargument.",
+      "diagram_generator": "moda",
+      "diagram": "Tři výhrady jako klidný seznam: NOT EVERYONE WHO QUESTIONS IS TRANS · NOT EVERY DECISION IS RIGHT · SOME CHANGE THEIR MIND."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "NEŠKRTAT celý citát — ‚probably not enough‘ ≠ ‚neplatí vůbec‘.",
+      "diagram_generator": "moda",
+      "diagram": "Citát “THEY'RE JUST DOING IT BECAUSE IT'S FASHIONABLE”, pod ním NOT ENOUGH TO EXPLAIN IT ALL."
+    },
+    {
+      "id": "S51b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51b.png",
+      "note": "v0.5. Variace = postavy se LIŠÍ — schválně proti páteři, kde jsou všechny stejné. Nic nesvítí ambrově: žádná postava není ‚ta trans‘.",
+      "diagram_generator": "moda",
+      "diagram": "Řada postav různé výšky a šířky (žádné dvě stejné), nad nimi štítky BODIES · BRAINS · DEVELOPMENT · SENSES."
+    },
+    {
+      "id": "S51c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51c.png",
+      "note": "v0.5. Čárkovaně = zatím skryté (konvence 3).",
+      "diagram_generator": "moda",
+      "diagram": "Časová osa BIRTH · CHILDHOOD · PUBERTY · ADULTHOOD; u BIRTH plná značka OBVIOUS, u ostatních čárkované značky DISCOVERED LATER.",
+      "pause": 0.5
+    },
+    {
+      "id": "S51d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51d.png",
+      "note": "v0.5. Řečnická otázka — kresba netvrdí příčinu, jen klade genderovou identitu do téže řady variací s otazníkem.",
+      "diagram_generator": "moda",
+      "diagram": "Štítky z S51b ztlumeně v řadě, mezi nimi ambrově GENDER IDENTITY a nad ním otazník AN EXCEPTION?"
+    },
+    {
+      "id": "S51e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51e.png",
+      "note": "v0.5. Ambrová = o tomhle je řeč (ten překvapivější předpoklad), ne ‚špatně‘. Neškrtá se.",
+      "diagram_generator": "moda",
+      "diagram": "Dvě karty nad sebou: ztlumeně SOME PEOPLE EXPERIENCE THEIR GENDER DIFFERENTLY, ambrově IT COULD NEVER HAPPEN AT ALL, nadpis THE MORE SURPRISING ASSUMPTION.",
+      "pause": 0.5
+    },
+    {
+      "id": "S52",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S52.png",
+      "note": "‚Human beings are more complicated than that.‘ Dav jako skutečná ulice — rým k páteři.",
+      "prompt": "a busy pedestrian street seen from above at a distance, many small people walking in different directions, flat grey overcast light",
+      "pause": 2.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis ARE THERE MORE NOW? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Páteř se poprvé ‚vyplatí‘ číslem: 1 ze 100 = jedna postava. assert: přesně 1 zvýrazněná. Která to je, je náhodné — neodpovídá žádné postavě z S03/S04.",
+      "diagram_generator": "data",
+      "diagram": "PÁTEŘ dav 20×5, právě JEDNA postava ambrová; nadpis ≈ 1 IN 100, štítky USA · AGED 13+ · INCL. MANY NON-BINARY, zdroj WILLIAMS INSTITUTE, 2025.",
+      "pause": 0.4
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Souhrnná čísla 2,72 / 0,26, ne zaokrouhlená z Table 1 (factcheck). Výšky sloupců spočítat z dat, assert poměr. Pořadí sloupců podle věku (mladší vlevo).",
+      "diagram_generator": "data",
+      "diagram": "Sloupcový graf, data OD PRVNÍHO SNÍMKU: 65+ 0,26 % a 18–24 2,72 %, čárkovaná referenční čára ALL 13+ ≈1 %; popisky ≈1 IN 400 a ≈3 IN 100. Zdroj WILLIAMS INSTITUTE 2025.",
+      "pause": 0.4
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Beat k S55 — stejné souřadnice. assert 2,72/0,26 zaokrouhleno = 10.",
+      "diagram_generator": "data",
+      "diagram": "Týž graf; svorka mezi sloupci ≈ 10×.",
+      "pause": 0.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "‚These numbers don't show that‘ — netvrdit ani ‚ne‘, ani ‚ano‘.",
+      "diagram_generator": "data",
+      "diagram": "Týž graf ztlumeně; otázka BORN DIFFERENTLY? a pod ní NOT SHOWN BY THESE NUMBERS.",
+      "pause": 0.4
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Zavedení rozlišení existence × viditelnost na páteři; výplata v S76. Počet postav v obou polovinách STEJNÝ (assert).",
+      "diagram_generator": "data",
+      "diagram": "PÁTEŘ dvakrát vedle sebe (zmenšený dav): vlevo EXIST — všechny postavy stejné; vpravo VISIBLE — jen některé rozsvícené."
+    },
+    {
+      "id": "S59",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S59.png",
+      "note": "‚Search the internet‘ — obrazovka nesmí nést čitelný text. Kolo 1 (seed 1815103318) zamítnuto: profil s čitelnou tváří. Kolo 2 (seed 59059): zezadu, tvář nečitelná, obrazovka bez textu — přijato.",
+      "prompt": "a young person seen from directly behind, back of the head and shoulders only, sitting at a desk in a small dark room at night, a laptop screen glowing softly in front of them, cosy",
+      "seed": 59059
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "pan_left",
+      "visual": "images/S60.png",
+      "note": "‚Grew up without any of that.‘ Malované, ne fotka — není to konkrétní místo ani událost.",
+      "prompt": "a small town street in the 1950s, children small in the distance, old cars, flat grey overcast sky, nostalgic"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Čárkovaně = hypotéza (konvence). Hranice mezi částmi nesmí sedět na konkrétní hodnotě — číslo neexistuje.",
+      "diagram_generator": "data",
+      "diagram": "Týž graf jako S55; rozdíl mezi sloupci rozdělený ČÁRKOVANĚ na dvě části s otazníky: VISIBILITY? · SOMETHING ELSE?",
+      "pause": 0.5
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Most do historie.",
+      "diagram_generator": "data",
+      "diagram": "Časová osa odzadu: TODAY vpravo, šipka doleva k 1919, nadpis NOT THE FIRST TIME.",
+      "pause": 2.6
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis WERE THEY AROUND IN THE PAST? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S64",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Hirschfeld, portrét ve stoje, PD. Portrét Hirschfelda, PD (File:Magnus Hirschfeld (1928).jpg). Portrét: fit 0.84, žádný zoom.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Magnus Hirschfeld 1928",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S65",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S65.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). INTERIÉR institutu (chodba se sochou Antinoa, stěna fotografií), ne budova zvenku. PD. Budova institutu, PD (factcheck).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Albani Antinous Institut für Sexualwissenschaft",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S66",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Lili Elbe na lavičce s knihou, 1930, CC BY 4.0 Wellcome → atribuce. Alternativa [1] ‚Lili Elbe 1930b‘ (ve stoje). PD alternativa: portréty od Gerdy Wegener ([2]–[5]), malby. Lili Elbe, CC BY 4.0 Wellcome → atribuce v popisu. Portrét: fit 0.84, žádný zoom.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Lili Elbe 1930",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Žádné rovnoměrné tečky — tvrdily by data zákroků, která nemáme. ‚Most likely‘ u příčiny smrti v obraze nepsat vůbec.",
+      "diagram_generator": "historie",
+      "diagram": "Úsečka MARCH 1930 → 1931 se svorkou 16 MONTHS a štítkem 4 OPERATIONS (bez teček za jednotlivé zákroky); pod ní ONE OF THE BEST-KNOWN EARLY CASES."
+    },
+    {
+      "id": "S68",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S68.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Plenění 6. 5. 1933: muži s páskou SA třídí hromady knih uvnitř institutu. PD. Druhý výsledek ‚NAZI reading before burning…‘ nebrán. Plenění 6. 5. 1933, PD. POZOR na záměnu s pálením 10. 5. — ověřit stránku souboru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Institut für Sexualwissenschaft Bibliothek 1933",
+        "pick": 0
+      },
+      "pause": 0.4
+    },
+    {
+      "id": "S69",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S69.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Opernplatz 10. 5. 1933, PD (Historia). Snímek je tmavý a hrubý; kdyby nesl málo, náhrada Bundesarchiv Bild 102-14597 (CC BY-SA 3.0 de, Georg Pahl → atribuce). Pálení na Opernplatz 10. 5. 1933, PD varianta (Historia). Obecné pálení, ne konkrétně knihy institutu — voiceover to netvrdí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Berlin Opernplatz Bücherverbrennung Historia",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Rým k S58: zhasla viditelnost, ne lidé — počet postav stejný (assert).",
+      "diagram_generator": "historie",
+      "diagram": "PÁTEŘ dvakrát vedle sebe: 1930 — část postav rozsvícená; 1933 — tytéž postavy, všechny zhaslé. Nadpis A PLACE TO BE SEEN.",
+      "pause": 3.0
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Karty kultur na pevných souřadnicích S71–S71b (registr karty_kultur). V S71 ještě bez jmen, ta přijdou s voiceoverem v S71b.",
+      "diagram_generator": "historie",
+      "diagram": "Dvě karty SOUTH ASIA · NORTH AMERICA, pod nimi THEIR OWN WAYS OF UNDERSTANDING.",
+      "pause": 0.4
+    },
+    {
+      "id": "S71b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71b.png",
+      "note": "v0.6 na žádost uživatele: příklady zpět (ve v0.2 sloučené). TWO-SPIRIT s poznámkou MODERN TERM — slovo je z roku 1990 (factcheck), kresba nesmí tvrdit starobylý termín. Žádná karta neříká ‚trans‘.",
+      "diagram_generator": "historie",
+      "diagram": "Tytéž karty; pod SOUTH ASIA ambrově HIJRA · CENTURIES OF HISTORY, pod NORTH AMERICA ambrově TWO-SPIRIT · MODERN TERM.",
+      "pause": 0.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Postavy po celé ose, ne až od internetu.",
+      "diagram_generator": "historie",
+      "diagram": "Dlouhá časová osa staletí s drobnými postavami po celé délce; INTERNET jako malá značka až úplně vpravo. Nadpis NOT A NEW INVENTION.",
+      "pause": 2.4
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Mluvený nadpis sekce. Všechny desky kreslí jedna funkce kapitola() v _kit.py, ať se střídání bloků pozná na první pohled.",
+      "diagram_generator": "kapitoly",
+      "diagram": "Kapitolová deska: nadpis WHY DO WE NOTICE THEM NOW? uprostřed, pod ním úzký pruh PÁTEŘE (dav) ztlumeně."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Callback S03 — přibylo mluvení, ne lidí.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ dav; bubliny u mnohem více postav než v S03.",
+      "pause": 0.4
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Znak ≠, žádný škrt.",
+      "diagram_generator": "zaver",
+      "diagram": "“I AM TRANSGENDER” ≠ MORE PEOPLE BECAME TRANSGENDER."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "VÝPLATA páteře — přesně souřadnice S58.",
+      "diagram_generator": "zaver",
+      "diagram": "Rozvržení S58: EXIST | VISIBLE, nadpis VISIBILITY ≠ EXISTENCE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "‚The real change isn't in the people‘ — assert stejného počtu.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ dvakrát: THEN | NOW, postavy v obou totožné, liší se jen počet rozsvícených."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Polovina THEN zvětšená: všechny zhaslé; štítky A ROLE EXPECTED OF THEM · NEVER TOLD ANYONE."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Polovina NOW: některé rozsvícené; MORE POSSIBILITIES, pod tím ≠ EASY.",
+      "pause": 2.8
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Háček na 081.",
+      "diagram_generator": "teaser",
+      "diagram": "Otázka HOW DOES A PERSON FIGURE IT OUT? a štítek NEXT.",
+      "pause": 0.4
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Rozvržení osy pevné S81–S82.",
+      "diagram_generator": "teaser",
+      "diagram": "Osa života (věk) v dolní polovině; značky VERY EARLY a úsek YEARS WONDERING.",
+      "pause": 0.4
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Závěrečná obrazovka: prvky patří nahoru.",
+      "diagram_generator": "teaser",
+      "diagram": "Táž osa; přibude FAILING TO BE THE MAN OR WOMAN EXPECTED a DECADES LATER. HORNÍ POLOVINA PRÁZDNÁ.",
+      "pause": 0.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Závěrečná obrazovka.",
+      "diagram_generator": "teaser",
+      "diagram": "Otázka HOW DOES SOMEONE DISCOVER IT? v dolní polovině (nad pásem titulku). Horní polovina prázdná."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Závěrečná obrazovka; dědí obraz S83 (otázka zůstává, hlas ji jen odkládá na příště)."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Závěrečná obrazovka, rým s koncem 081–083 (poslední scéna = titul dalšího dílu). static, pauza 3,0.",
+      "diagram_generator": "teaser",
+      "diagram": "Klidná deska: v dolní třetině „NEXT“ a „HOW DO YOU KNOW YOU'RE TRANS?“, horní polovina prázdná.",
+      "pause": 3.0
+    }
+  ]
+}

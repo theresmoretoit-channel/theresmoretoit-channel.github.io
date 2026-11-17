@@ -1,0 +1,710 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Jediná scéna, kde je zoom na atmosféře v pořádku — ustavující záběr. Postava zezadu, ne obličej: divák si má dosadit sebe.",
+      "prompt": "a lone figure seen from behind at a window at night, faint city below, vast star field above, painterly, muted indigo"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Otázka celého videa v jednom obraze. Šipka MUSÍ mít otazník, jinak diagram tvrdí, že spojení existuje.",
+      "diagram_generator": "otazka",
+      "diagram": "MARS VENUS JUPITER vlevo, silueta člověka vpravo, mezi nimi tlustá šipka s velkým otazníkem"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "PLANTUJE otázku, kterou video splácí dvakrát: v S18 (systémy se neshodnou) a v S57-S59 (astrologové se neshodnou). Bez téhle scény ten oblouk nikdo nezachytí.",
+      "diagram_generator": "neshoda",
+      "diagram": "jedno datum narození nahoře, pod ním dva astrologové, každý říká jiné znamení; velký otazník"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Amber = vymyšlený úhledný systém. Prvních šest jmen se rozsvěcí postupně? NE — statické, data od prvního snímku (zpětná vazba k 3. videu).",
+      "diagram_generator": "zvirokruh",
+      "diagram": "kruh dvanácti stejných výsečí, prvních šest popsaných (ARIES..VIRGO), amber"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Úhlednost je tady obsah scény, ne dekorace. Musí vypadat uspokojivě, aby S10 fungovalo jako kontrast.",
+      "diagram_generator": "zvirokruh",
+      "diagram": "týž kruh, všech dvanáct popsaných, dole titulek NICE AND TIDY"
+    },
+    {
+      "id": "S06",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S06.png",
+      "note": "Hadonoš v historickém hvězdném atlasu. Urania's Mirror (1824) je public domain a má rytinu s hadem. Kdyby nevyšlo: 'Hevelius Ophiuchus' nebo 'Ophiuchus constellation Bode'.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Urania's Mirror Ophiuchus",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Okno je 18 dní podle EarthSky (vstup 30. 11., délka 18 dní). Wikipedie uvádí 29. 11. - 18. 12., tedy 20 dní; prameny se liší o dva dny. Diagram proto ukazuje UŽŠÍ z obou variant — kdyby se někdo přepočítával, nesmí nás chytit při nadsazení. Okno je viditelně užší než znamení, a to je správně.",
+      "diagram_generator": "ophiuchus_okno",
+      "diagram": "pás roku s dvanácti znameními, v něm vyznačené okno 30 NOVEMBER - 17 DECEMBER popsané OPHIUCHUS"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Třetí možnost amber a výraznější — je to ta 'zakázaná'.",
+      "diagram_generator": "tri_moznosti",
+      "diagram": "tři možnosti vedle sebe: SCORPIO / SAGITTARIUS / THE THIRTEENTH, každá s otazníkem"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "KLÍČOVÝ diagram videa. Odsud se odvíjí celý zbytek. Symbol ≠ musí být velký — je to pointa, ne interpunkce.",
+      "diagram_generator": "znameni_nerovna_souhvezdi",
+      "diagram": "vlevo kruh dvanácti stejných výsečí (SIGNS, amber), vpravo nepravidelný pás souhvězdí (CONSTELLATIONS, ink), mezi nimi velké ≠",
+      "pause": 2.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "ŠÍŘKY MUSÍ SEDĚT NA DOLOŽENOU TABULKU, ne na odhad — je ve factcheck.md a sama se kontroluje (stupně dávají přesně 360,00). Panna 44 dní / 43,65°, Štír 7 dní / 6,90°, tedy poměr 6,3:1. Ten kontrast je celý argument scény a je v datech, ne v kresbě.",
+      "diagram_generator": "skutecna_ekliptika",
+      "diagram": "vodorovný pás ekliptiky, třináct souhvězdí v šířce podle skutečného rozsahu ekliptikální délky, u každého počet dní"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Dvojče k S10. Obě statické, oba obrazy musí jít porovnat okem.",
+      "diagram_generator": "idealni_zvirokruh",
+      "diagram": "dokonalý kruh dvanácti výsečí po 30°, u každé 30°; dole WONDERFULLY NEAT vs WHAT THE SKY DOES",
+      "pause": 2.2
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Definice tropického zvěrokruhu. Nulový bod musí být jasně ukotvený k jaru, ne ke hvězdě — na tom stojí S15.",
+      "diagram_generator": "znameni_je_uhel",
+      "diagram": "kruh s vyznačeným nulovým bodem FIRST DAY OF SPRING, z něj odměřená výseč 30°, popsaná ARIES"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Jediný diagram videa, kde je pohyb v obraze na místě — ale statický, pohyb naznačí kužel a šipka, ne Ken Burns.",
+      "diagram_generator": "precese",
+      "diagram": "Země s nakloněnou osou, osa opisuje kužel, popiska 26 000 YEARS"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Číslo spočítané ve factcheck.md: 360/25772 = 71,6 roku na stupeň. Zaokrouhleno na 72, což je i klasická hodnota.",
+      "diagram_generator": "posun_jarniho_bodu",
+      "diagram": "oblouk oblohy, jarní bod ve dvou polohách, mezi nimi popiska 1° / 72 YEARS"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Protiargument se říká NAHLAS a obraz ho musí podpořit, ne shodit. Znamení tu vypadají v pořádku — protože jsou.",
+      "diagram_generator": "zapad_nevadi",
+      "diagram": "kruh znamení připnutý k ročním obdobím (SPRING/SUMMER/AUTUMN/WINTER), hvězdy za ním posunuté a ztlumené"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Zrcadlo S15. Stejná kompozice, opačné ukotvení — rozdíl musí být čitelný z porovnání, ne z popisky.",
+      "diagram_generator": "indie_naopak",
+      "diagram": "týž kruh, ale ukotvený ke hvězdám; šipka korekce zpět; popiska TIED TO THE STARS"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Doloženo: Lahiri 24°13' pro 2026, standard Indian Astronomical Ephemeris. Kontrast 24 : 30 musí být vidět jako 'skoro celé'.",
+      "diagram_generator": "ajanamsa",
+      "diagram": "dvě kružnice přes sebe, posunuté o 24°; vyznačený úhel 24° proti výseči 30°"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Splátka otázky z S03. Kompozice musí S03 připomenout — dva astrologové, dvě odpovědi, teď s konkrétními jmény.",
+      "diagram_generator": "lev_nebo_rak",
+      "diagram": "jedno narození nahoře, dvě mapy pod ním; vlevo WESTERN -> LEO, vpravo INDIAN -> CANCER"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "81 ze 100, ne 80 — spočítáno 80,7 %. Podíl jako plocha, ne jako číslo (mrizka z _kit).",
+      "diagram_generator": "ctyri_z_peti",
+      "diagram": "mřížka sto teček, 81 rozsvícených amber, 19 ztlumených; popiska FOUR IN FIVE"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Konec bloku. Prázdno kolem výseče je obsah — zbylo z toho jen tohle.",
+      "diagram_generator": "co_je_znameni",
+      "diagram": "samotná výseč 30° uprostřed prázdna, popiska WHY SHOULD THIRTY DEGREES DESCRIBE A PERSON?",
+      "pause": 2.6
+    },
+    {
+      "id": "S21",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S21.png",
+      "note": "Astroláb je KONKRÉTNÍ PŘEDMĚT — dá se vyfotit, takže ho model kreslit nemá (CLAUDE.md, „Tři zdroje vizuálů“). Předěl k výpočtu horoskopu: krásná, poctivá, stará řemeslná práce. Kdyby první nález byl malý nebo ošklivý: 'astrolabe Persian' nebo 'planispheric astrolabe'.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "astrolabe",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Zatím bez hodnocení — tahle část je poctivá a obraz to má říct.",
+      "diagram_generator": "tri_vstupy",
+      "diagram": "tři vstupy DATE / TIME / PLACE, šipka, výstup BIRTH CHART"
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S23.png",
+      "note": "Alfonsinské tabulky v rukopise (BnF 7432) — skutečná tabulka poloh s řádky čísel a červenými rubrikami. Doklad, že astronomická část astrologie je stará a poctivá řemeslná práce, odvedená rukou.\n\nPOZOR, PAST NA DVA POKUSY: dotaz 'ephemeris' vrátil 'Ephemeris 1790', což vypadalo dokonale — jenže to jsou ŘECKÉ NOVINY vydávané ve Vídni, protože řecky 'efimeris' znamená deník. Druhý pokus ('Alfonsine tables', pick 3) dal titulní stranu, tedy latinský text bez jediného čísla. Teprve pick 1 je tabulka. Ani jednu z těch vad nebylo možné poznat z názvu souboru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Alfonsine tables",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Konzervativně formulováno — DE440 umí miliúhlové vteřiny, viz factcheck.md. Diagram nesmí tvrdit víc než scénář.",
+      "diagram_generator": "presnost",
+      "diagram": "číselná osa přesnosti, značka na zlomku úhlové vteřiny; popiska A FRACTION OF A SECOND OF ARC"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "VÝZNAMY MUSÍ BÝT DOSLOVNĚ Z CITOVATELNÉHO ZDROJE, jinak si video staví slaměného panáka a astrolog právem řekne 'tohle Mars neznamená'. Všech šest slov je doslova z Wikipedie 'Planets in astrology', která se opírá o Manilia (1. stol.). Původní návrh měl DRIVE a DISCIPLINE — obojí je běžný moderní opis, ale ani jedno v tom seznamu není. TADY vstupuje amber do hry a je to zlom videa: vlevo měření, vpravo význam.",
+      "diagram_generator": "planeta_vyznam",
+      "diagram": "tři planety vlevo (ink): MARS / VENUS / SATURN, tři významy vpravo (amber): ENERGY, AMBITION / LOVE, BEAUTY / STRUCTURE, AUTHORITY; mezi nimi šipky"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Přibývání vrstev je obsah — každá vrstva ink dole, výsledek amber nahoře.",
+      "diagram_generator": "vrstvy",
+      "diagram": "natální mapa, na ni se přidávají vrstvy HOUSES / ASPECTS / ASCENDANT, výsledek PERSONALITY PROFILE"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Nejčistší shrnutí celého videa. Fajfka u prvních dvou je důležitá — video není proti astronomii.",
+      "diagram_generator": "tri_radky",
+      "diagram": "tři řádky: THE PLANETS ARE REAL (ink, fajfka) / THE CALCULATIONS ARE REAL (ink, fajfka) / THE INTERPRETATION (amber, otazník)"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Doloženo: 1,20-1,66 mld. km, tedy 'víc než miliarda' platí vždy.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "úsečka Země-Saturn s popiskou MORE THAN A BILLION KILOMETRES, na konci otazník směrem k siluetě člověka"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Šipka je záměrně prázdná. Scéna netvrdí, že síla je slabá (to by byla nepravda, viz factcheck.md), ale že v ní nic není.",
+      "diagram_generator": "gravitace_je_gravitace",
+      "diagram": "Jupiter, šipka síly k novorozenci, na šipce jen popiska FORCE — nic víc"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Přeškrtnutí je nutné — bez něj obraz tvrdí opak.",
+      "diagram_generator": "zadna_zprava",
+      "diagram": "tatáž šipka, u ní dvě bubliny THIS ONE WILL BE OPTIMISTIC / THAT ONE AMBITIOUS, obě přeškrtnuté"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Šipky musí být viditelně identické — v tom je celý argument: i kdyby síla zprávu nesla, nevysvětlí to PŘIŘAZENÍ různých významů. Jupiter 'growth, expansion' je z téhož zdroje jako zbytek, viz S25.",
+      "diagram_generator": "stejna_sila_jine_vyznamy",
+      "diagram": "čtyři planety, ze všech vychází VIDITELNĚ IDENTICKÁ šipka síly; u každé jiný význam: MARS ENERGY / VENUS LOVE / JUPITER GROWTH / SATURN STRUCTURE, u každého otazník",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Předěl na nový blok.",
+      "diagram_generator": "otazka_okamziku",
+      "diagram": "velké otazníkové WHY THE EXACT MOMENT OF BIRTH?, pod ním osa času"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Ciferníky, ne číslice ve scénáři — v obraze číslice smí být, jen TTS je nesmí číst.",
+      "diagram_generator": "dve_hodiny",
+      "diagram": "dvoje hodiny vedle sebe, 23:59 a 00:01, pod nimi dvě různé mapy"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Scénář dva z nich vyškrtl kvůli délce, diagram je smí ukázat všechny — obraz unese víc položek než řeč.",
+      "diagram_generator": "kandidati",
+      "diagram": "osa času s kandidátskými okamžiky: CONCEPTION / IMPLANTATION / FIRST HEARTBEAT / BIRTH / WRITTEN DOWN"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Doslovný obraz z textu. Musí být vtipný, ne posměšný.",
+      "diagram_generator": "vypinac",
+      "diagram": "vypínač s popiskou PERSONALITY: CALCULATE NOW, přeškrtnutý, popiska NOT FOUND IN NATURE",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S36.png",
+      "note": "Předěl k Barnumovi. Noviny, protože horoskop se čte v novinách — a Forerův text byl doslova z novinového sešitu (S41).",
+      "prompt": "an open newspaper page on a table under warm lamplight, columns of text, a small circular symbol, painterly, shallow depth of field",
+      "seed": 53601
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Text musí být ČITELNÝ a musí se dát přečíst za dobu scény. Nic jiného v obraze.",
+      "diagram_generator": "horoskop_text",
+      "diagram": "dvě věty barnumovského textu vysázené velkým písmem na tmavém pozadí"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Pokračování S37 — stejná kompozice, aby bylo jasné, že je to jeden text.",
+      "diagram_generator": "horoskop_text2",
+      "diagram": "další dvě věty téhož textu, stejná sazba"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Pointa Barnuma v jednom obraze.",
+      "diagram_generator": "psano_pro_kohokoli",
+      "diagram": "týž text uprostřed, z něj šipky k mnoha siluetám lidí"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Titulková karta jména. Krátká scéna, jediná funkce je pojmenovat jev.",
+      "diagram_generator": "forer_1948",
+      "diagram": "popiska THE BARNUM EFFECT / THE FORER EFFECT, rok 1948"
+    },
+    {
+      "id": "S41",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Tištěná horoskopová stránka — přesně ten žánr, ze kterého Forer text složil. Dotaz 'astrology magazine 1940s' nevrátil nic; zkráceno na 'horoscope', pick 0 = 'Horoscope 1792' (C. Heydon, public domain). POZOR: S23 je taky tištěná stránka z 18. stol. — po stažení porovnat okem, aby to nebyly dva skoro stejné záběry (CLAUDE.md, past se stejným pickem).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "horoscope",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nejsilnější číslo bloku, doloženo z Forer 1949. Škála musí mít oba konce popsané, jinak 4,26 neznamená nic.",
+      "diagram_generator": "znamka_426",
+      "diagram": "škála 0 až 5, na ní značka na 4,26; popiska THIRTY-NINE STUDENTS, THE SAME TEXT"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Konec bloku.",
+      "diagram_generator": "ale_to_jsem_ja",
+      "diagram": "tentýž text, kolem něj bubliny BUT THAT IS ME",
+      "pause": 2.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Video tady astrologii brání a obraz to musí říct taky.",
+      "diagram_generator": "zadne_tlacitko",
+      "diagram": "tlačítko RANDOM HOROSCOPE, přeškrtnuté"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Bez ironie. Ta přijde až v S46.",
+      "diagram_generator": "pravidla",
+      "diagram": "vrstvy pravidel nad vypočtenou mapou, popiska AN ELABORATE SET OF RULES"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Celá stavba stojí na jednom bloku. Ten blok je jediný amber v obraze.",
+      "diagram_generator": "predpoklad",
+      "diagram": "stavba z bloků, spodní blok amber s popiskou THESE POSITIONS MEAN SOMETHING ABOUT A PERSON; šipka NEEDS EVIDENCE"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Musí vypadat jako stroj, ne jako výčet.",
+      "diagram_generator": "generator",
+      "diagram": "tři sloty generátoru: A TENDENCY / SOME AMBIGUITY / A TOPIC, pod nimi výstupní pole"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Stejná sazba jako S37 je pointa — divák nemá poznat rozdíl.",
+      "diagram_generator": "vygenerovana_veta",
+      "diagram": "vygenerovaná věta vysázená stejně jako horoskop v S37"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Konec bloku, přechod k testování.",
+      "diagram_generator": "zadny_mars",
+      "diagram": "tatáž věta, nad ní přeškrtnuté MARS a popiska I JUST WROTE IT",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Formulace testovatelné otázky. Otazník povinný.",
+      "diagram_generator": "lepsi_nez_nahoda",
+      "diagram": "natální mapa vlevo, silueta člověka vpravo, mezi nimi šipka s popiskou BETTER THAN CHANCE?"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Tuhle škálu si divák musí zapamatovat, protože se vrátí v S53 a S54. Obě čáry popsané.",
+      "diagram_generator": "vlastni_latka",
+      "diagram": "vodorovná škála 0-100 %, na ní čára CHANCE 33 % (ink) a čára ASTROLOGERS' OWN PREDICTION 50 % (amber)"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Doslovný popis části 2 Carlsonovy studie z primárního zdroje.",
+      "diagram_generator": "test_setup",
+      "diagram": "natální mapa, pod ní tři profily A B C, otazník; popiska WHICH ONE?"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Výsledek sedí na čáře náhody a hluboko pod vlastním slibem. To musí být vidět bez čtení popisek.",
+      "diagram_generator": "vysledek",
+      "diagram": "tatáž škála jako S51, na ní navíc sloupec výsledku na 34,5 %; popiska FORTY OUT OF A HUNDRED AND SIXTEEN"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "POZOR, JINÁ VELIČINA. Ertelův přepočet slučuje první a druhou volbu, kde náhoda čeká 2/3, ne 1/3. Kdyby se to nakreslilo na TUTÉŽ škálu jako S53, obraz by lhal — vypadalo by to jako skok ze 34 % na 74 %. Vlastní škála s vlastní čárou náhody je jediný poctivý způsob. Signál tam JE a nesmí se zesměšnit: 74 % proti 67 %, p = 0,054.",
+      "diagram_generator": "spor",
+      "diagram": "samostatná menší škála vedle té z S53: vlastní čára náhody na 67 % (první NEBO druhá volba), naměřeno 74 %; popiska p = 0.054, ON THE EDGE"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Nejlepší věta videa. Obraz má být skoro prázdný, aby vynikla.",
+      "diagram_generator": "jedna_studie",
+      "diagram": "jedna tečka uprostřed prázdna, popiska ONE EXPERIMENT; pod tím INCLUDING THIS ONE"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "ŽÁDNÁ CHYBOVÁ ÚSEČKA. Dean & Kelly uvádějí 0,051 se 'standard deviation' 0,118 — přepočteno, jejich p = 0,66 vychází přesně z podílu 0,051/0,118, takže s tím číslem pracují jako s nejistotou průměru. Kreslit to jako úsečku by ale vizuálně tvrdilo interval spolehlivosti, a ten je jiný (±0,231). Škála 0-1 je navíc TATÁŽ jako v S58 a S59, takže effect size 0,051 a shoda 0,101 se dají porovnat okem — z toho je dvojice, ne dva nesouvisející grafy. Škála MUSÍ mít popsané oba konce.",
+      "diagram_generator": "metaanalyza",
+      "diagram": "vodorovná škála effect size od 0 (NO EFFECT) do 1 (PERFECT); na ní jediná značka na 0,051, tedy těsně u nuly; popisky 40+ STUDIES / 700 ASTROLOGERS / 1150 CHARTS a p = 0.66"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Vrací kompozici S03 potřetí a naposled. Teď už bez otazníku — teď se to měří.",
+      "diagram_generator": "dva_astrologove",
+      "diagram": "jedna mapa, dva astrologové, dvě různé odpovědi"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Připravuje S59. Sama o sobě nic neříká — proto hned následuje srovnání.",
+      "diagram_generator": "shoda_01",
+      "diagram": "škála 0 až 1, značka na 0,1; popiska TWENTY-FIVE STUDIES"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Nejtvrdší číslo videa a je imunní vůči sporu o Carlsona. Obě značky na JEDNÉ škále, jinak se to nedá porovnat.",
+      "diagram_generator": "shoda_01_vs_08",
+      "diagram": "tatáž škála, na ní 0,1 (amber) a 0,8 (ink, popsané WHAT PSYCHOLOGISTS REQUIRE)"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Rozlišení výklad vs. předpověď.",
+      "diagram_generator": "zni_presvedcive",
+      "diagram": "bublina s výkladem, u ní popiska SOUNDS CONVINCING, otazník"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Měřítko celého videa. Tenhle diagram zároveň vyřizuje Ertela — viz factcheck.md.",
+      "diagram_generator": "predem",
+      "diagram": "dvě osy času: vlevo PREDICTION -> ANSWER (ink, fajfka), vpravo ANSWER -> EXPLANATION (amber, otazník)",
+      "pause": 2.6
+    },
+    {
+      "id": "S62",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S62.png",
+      "note": "Lidé, kteří věří astrologii, nejsou hloupí — obraz nesmí být posměšný.",
+      "prompt": "a crowd of people seen from above at night, warm scattered lights, painterly, muted, no faces",
+      "seed": 56201
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Body musí být OPRAVDU náhodné — kdyby se 'pomohlo', scéna o hledání vzorců by sama vyráběla vzorec. Seed je ale PEVNÝ a zapsaný (6301), aby se obraz nezměnil při každém běhu: bez toho může nechtěně vzniknout rozložení, které vypadá strukturovaně, a nikdo si toho nevšimne, protože každý render vypadá jinak.",
+      "diagram_generator": "hledani_vzorcu",
+      "diagram": "náhodné body z pevného seedu, přes ně vykreslený tvar; popiska FINDING PATTERNS",
+      "seed": 6301
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Klasický obraz konfirmačního zkreslení. Poměr musí být realistický, ne karikatura.",
+      "diagram_generator": "trefy_a_minely",
+      "diagram": "řada výsledků, trefy rozsvícené amber, minely ztlumené; popisky REMEMBERED / FORGOTTEN"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Konkrétní příklad ze scénáře.",
+      "diagram_generator": "ctvrtek",
+      "diagram": "týden po dnech, ve čtvrtek rozsvícená značka; nad tím věta z horoskopu"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Nevyvratitelnost jako obraz: všechno pasuje.",
+      "diagram_generator": "neda_se_vyvratit",
+      "diagram": "věta A PERIOD OF EMOTIONAL UNCERTAINTY, pod ní mnoho různých událostí, všechny se šipkou k ní",
+      "pause": 2.4
+    },
+    {
+      "id": "S67",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S67.png",
+      "note": "Návrat na začátek. Záměrně bez postavy — kontrast k S01.",
+      "prompt": "a night sky full of stars above a quiet empty landscape, painterly, deep indigo, no figures",
+      "seed": 56701
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Rekapitulace první poloviny. Odkazuje zpátky na S09, S10 a S18 — použij tytéž tvary, ať to divák pozná.",
+      "diagram_generator": "shrnuti_obloha",
+      "diagram": "tři body shrnutí: SIGNS ≠ CONSTELLATIONS / THIRTEEN, NOT TWELVE / TWO SCHOOLS DISAGREE"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Rekapitulace druhé poloviny, tytéž tvary jako S28-S30 a S39.",
+      "diagram_generator": "shrnuti_mechanismus",
+      "diagram": "dva body: NO KNOWN FORCE (šipka Saturn -> porodnice, přeškrtnutá) / WRITTEN FOR EVERYBODY"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Video výslovně netvrdí podvod. Přeškrtnutí je nutné, aby obraz neříkal opak.",
+      "diagram_generator": "potrebuji_doklad",
+      "diagram": "přeškrtnuté EVERY ASTROLOGER IS A FRAUD, pod tím THE CLAIMS NEED EVIDENCE"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Poslední věcné tvrzení videa. Opatrná formulace se musí projevit i v obraze — žádné vítězné gesto.",
+      "diagram_generator": "netrefuje",
+      "diagram": "souhrn testů: všechny výsledky na úrovni náhody",
+      "pause": 2.6
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Zrcadlo S02 — tatáž kompozice, teď s odpovědí.",
+      "diagram_generator": "mars_ne",
+      "diagram": "Mars, přeškrtnutá šipka k siluetě člověka"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Přesun z planet do hlavy. Odsud už je video o mozku.",
+      "diagram_generator": "to_jsem_ja",
+      "diagram": "silueta hlavy, uvnitř bublina THAT IS ME, kolem ní vágní věty"
+    },
+    {
+      "id": "S74",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S74.png",
+      "note": "Pareidolie doslova. Tvář musí být NAZNAČENÁ, ne nakreslená — kdyby byla zřetelná, obraz by přestal být příkladem.",
+      "prompt": "clouds at dusk forming a suggestion of a face, soft light, painterly, muted, ambiguous",
+      "seed": 57401
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Byla to SDXL scéna. Model DVAKRÁT vrátil noční krajinu — podruhé i přes prompt, který horizont a krajinu výslovně zakazoval. Kotva stylu ('cinematic wide composition') prompt přebila; totéž se stalo u S36 čtvrtého videa. Pravidlo projektu říká, že po dvou minutích nejde o prompt, ale o špatný zdroj.\n\nJako diagram je to navíc LEPŠÍ: je to záměrná ozvěna S63. Tam 'hledáme vzorce', tady 'vidíme tvary v šumu' — týž obraz, hustší šum. A hlavně to přestalo být třetí noční obloha v řadě (S67, S74, S75).",
+      "diagram_generator": "zaver",
+      "diagram": "husté pole náhodných bodů z pevného seedu, mezi nimi vykreslený tvar; popiska AND SHAPES IN RANDOM NOISE"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Poslední obraz videa a celý jeho smysl je ve SMĚRU šipky. Vzhůru, ne dolů.",
+      "diagram_generator": "zprava",
+      "diagram": "obloha nahoře, silueta hlavy dole, šipka VZHŮRU (ne dolů), popiska YOUR BRAIN"
+    }
+  ]
+}

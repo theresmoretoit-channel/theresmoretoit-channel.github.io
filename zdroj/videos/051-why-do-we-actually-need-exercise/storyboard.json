@@ -1,0 +1,720 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ SCÉNA NENÍ SDXL a nese myšlenku, ne atmosféru: divák za pět vteřin vidí celou otázku videa, ne rozjezd. Rovnítko s otazníkem je hotová teze i její zpochybnění naráz — dřív, než je jasné, o čem video bude.",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed velký nápis EXERCISE = HEALTH. Přes rovnítko je posazený ambrový otazník. Pod tím malá sedící postava v nízkém křesle, ztlumená. Žádný nadpis."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Táž kompozice, jen se rovnítko ztratí a otazník zůstane sám a zvětší se. Scéna nepřidává nový obraz — přidává důraz, protože voiceover jen opakuje otázku podrobněji.",
+      "diagram_generator": "uvod",
+      "diagram": "Rovnítko zmizelo, na jeho místě je velký ambrový otazník. Nápis je teď EXERCISE ? HEALTH. Postava beze změny."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "ZDE SE ZAVÁDÍ PÁTEŘ VIDEA — vodorovná LAŤKA v pevném y (_kit.latka). Je to 'kolik toho den po těle chce' a bude ležet na týchž souřadnicích po celé video (S03, S04, S05, S16, S22, S30, S42, S53, S55, S56, S69, S72, S76). Tady klesá ve čtyřech schodech, jeden na každý řádek scénáře, v tom pořadí, v jakém zaznějí. VĚDOMĚ je tu zatím JEN linka nároku, ne linka kapacity — ta se přidá až v S16, kde to voiceover řekne. Kresba nesmí tvrdit dřív než text.",
+      "diagram_generator": "uvod",
+      "diagram": "Vodorovná osa zleva doprava. Ambrová schodovitá čára klesá ve čtyřech stupních, každý stupeň má pod sebou popisek: WATER, FOOD, WORK, TV. Vlevo začíná vysoko, vpravo končí těsně nad dnem."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Rozpor je celý v obraze: laťka leží na dně a jediná ambrová šipka míří proti ní nahoru. Scéna nic nevysvětluje, jen postaví radu lékaře proti tvaru dne. Šipka se VRACÍ jako seznam (sipka() vrací prvek, viz docs) — ověřit, že v obraze opravdu je.",
+      "diagram_generator": "uvod",
+      "diagram": "Laťka z S03 na pevných souřadnicích, dole. Nad ní ambrová šipka mířící vzhůru s popiskem MOVE MORE. Vlevo drobná ikona lékaře (postava se stetoskopem), ztlumená."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Poslední scéna před tvrdými daty. Zůstane holá laťka na dně a otazník — tedy přesně stav, do kterého vstoupí dallaská studie. Pauza 2,4 s dělá předěl mezi otázkou a důkazem.",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdné plátno, jen laťka dole na svých pevných souřadnicích a nad ní jediný ambrový otazník.",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Začátek nejdůležitějšího bloku první třetiny. Pět postav je pět, ne 'skupina' — počet je ve scénáři a v obraze musí sedět (assert na počet).",
+      "diagram_generator": "dallas",
+      "diagram": "Vlevo velký ambrový letopočet 1966. Vpravo pět stejných stojících postav vedle sebe, pod nimi popisek FIVE HEALTHY YOUNG MEN, AGED TWENTY."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Tytéž postavy se otočí naležato — je to táž pětice, ne nové postavy, takže si divák udrží, že jde pořád o ty samé lidi. 'Not ill. Not injured.' je v obraze jako dvě přeškrtnutá slova; škrtá se VODOROVNOU ČAROU přes text (text_skrtnuty), ne křížkem.",
+      "diagram_generator": "dallas",
+      "diagram": "Pět postav leží vodorovně nad sebou na lůžkách. Nad nimi ambrový popisek 3 WEEKS. Vedle přeškrtnuté nápisy ILL a INJURED."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Zavádí se měřidlo, které v příští scéně spadne. Svislý sloupec je plný a je označený tak, jak ho popisuje voiceover — tedy OPISEM, ne zkratkou VO2max, protože to slovo ve scénáři není a obraz nesmí tvrdit víc než text.",
+      "diagram_generator": "dallas",
+      "diagram": "Svislý sloupec vyplněný ambrovou po celé výšce. Vedle popisek OXYGEN USED AT FULL EFFORT a značka 100 % nahoře."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "JEDEN ZE DVOU ČÍSELNÝCH VRCHOLŮ VIDEA — číslo musí být okamžitě čitelné, ne utopené v grafu (vyžádal uživatel ve zpětné vazbě 0.2). Proto jediný sloupec, jediné číslo a nic jiného na plátně. Ubraná část zůstane jako ztlumený obrys, aby byl vidět rozdíl, ne jen nová výška.",
+      "diagram_generator": "dallas",
+      "diagram": "Týž sloupec, vyplněná část končí na 73 %. Odebraná horní čtvrtina je ponechaná jako čárkovaný obrys. Vpravo obrovský ambrový nápis −27 %, pod ním malé IN THREE WEEKS.",
+      "pause": 1.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Mechanismus, ne další číslo. Tepový objem se kreslí jako DVĚ kapky vedle sebe, druhá o čtvrtinu menší — a BEZ mililitrů, protože scénář žádné neuvádí (104 → 75 ml je ve factcheck.md, ne v obraze).",
+      "diagram_generator": "dallas",
+      "diagram": "Vlevo obrys srdce, z něj vychází šipka k dvojici kapek: první plná a větší, druhá ambrová a o čtvrtinu menší. Popisky BEFORE a AFTER, nad nimi A QUARTER LESS PER BEAT."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Scéna je celá o čase, takže obraz je čas. Prázdný úsek mezi dvěma letopočty musí být opravdu prázdný — to prázdno je pointa ('It waited').",
+      "diagram_generator": "dallas",
+      "diagram": "Vodorovná časová osa. Vlevo značka 1966, vpravo značka 1996, mezi nimi dlouhý prázdný úsek s ambrovým popiskem 30 YEARS uprostřed."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Návrat téže pětice, teď stojící a starší. Druhý sloupec se měří TOUTÉŽ stupnicí jako v S08–S09, jinak by se dvě čísla nedala porovnat — a porovnání je celý smysl příští scény.",
+      "diagram_generator": "dallas",
+      "diagram": "Pět postav stojí, vedle nich popisek AGED FIFTY. Vpravo týž svislý sloupec jako v S08, vyplněný do 88 %, s ambrovým popiskem −12 % OVER THIRTY YEARS."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "ÚSTŘEDNÍ OBRAZ CELÉHO VIDEA a pravděpodobně jediný, který si divák zapamatuje (vyžádal uživatel v obou zpětných vazbách). Není to graf — jsou to dva sloupce vedle sebe, u nichž je vidět, že KRATŠÍ doba udělala VĚTŠÍ díru. Na plátně nesmí být nic jiného. Delší pauza, ať to chvíli drží.",
+      "diagram_generator": "dallas",
+      "diagram": "Dva svislé sloupce vedle sebe na téže stupnici. Vlevo 3 WEEKS s dírou −27 %, vpravo 30 YEARS s dírou −12 %. Levá díra je viditelně hlubší. Ambrová je na levém sloupci, tedy na tom, o kterém je řeč.",
+      "pause": 2.8
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Přechod od konkrétního experimentu k tezi. Číslo z S13 se zmenší do rohu a plátno uvolní obrysu těla — vizuálně to říká 'tohle číslo bylo jen dveře'.",
+      "diagram_generator": "merak",
+      "diagram": "Vlevo nahoře zmenšený sloupcový pár z S13, ztlumený. Uprostřed se otevírá jednoduchý obrys lidského těla, zatím prázdný."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Negace se kreslí KŘÍŽKEM přes plochu bez písma (ne přes nápis — přes nápis by se škrtalo vodorovnou čarou). Kámen je záměrně netělesný tvar, aby se nepletl s obrysem z S14.",
+      "diagram_generator": "merak",
+      "diagram": "Vlevo hrubý kamenný kvádr, přes něj ambrový křížek. Vpravo obrys těla z S14. Mezi nimi nápis NOT THIS."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "PÁTEŘ SE DOPLŇUJE: k lince nároku z S03 přibývá druhá, linka kapacity — a to přesně tady, protože teprve teď to voiceover říká ('a system that keeps asking one question'). Obě leží na pevných souřadnicích _kit.latka. Ambrová je na lince nároku, protože otázka zní, kolik se toho po těle chce.",
+      "diagram_generator": "merak",
+      "diagram": "Laťka na pevných souřadnicích, teď dvě čáry: ambrová linka nároku (ASKED) a pod ní tenčí ztlumená linka kapacity (KEPT). Vlevo obrys těla s bublinou HOW MUCH AM I BEING ASKED TO DO?"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "'It gets taken apart' není totéž co 'it shrinks' — rozklad se kreslí jako odebírané dílky, ne jako zmenšený tvar. Ztlumené dílky odcházejí pryč.",
+      "diagram_generator": "merak",
+      "diagram": "Svalový snopec složený z dílků. Nad ním zmizelé závaží (čárkovaný obrys). Tři dílky se odpojily a plavou stranou, ztlumené. Popisek MUSCLE."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Scéna kreslí DATA, takže se počítají v kódu a jistí assertem: čtrnáct sloupečků, každý o půl procenta níž. Obraz nesmí tvrdit víc než scénář — proto žádný součet za dva týdny, který ve scénáři není.",
+      "diagram_generator": "merak",
+      "diagram": "Řada čtrnácti klesajících sloupečků zleva doprava, každý o půl procenta nižší než předchozí. Ambrový popisek ROUGHLY HALF A PER CENT A DAY, pod osou BED REST."
+    },
+    {
+      "id": "S19",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S19.png",
+      "note": "Kost v beztíži je věc, která se dá VYFOTIT a má vlastní jméno — tedy archiv, ne difuzní model ani kresba; NASA snímky jsou public domain. PICK VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: z devíti výsledků byl jediný celopostavový a čitelný ve zmenšenině. Běžící kosmonaut je záměrná volba proti prostě plovoucímu — divák se po scéně ptá 'tak to běhání tomu pomáhá?' a přesně na to odpovídá S20–S22 ('tělo měří, kam jde zátěž'). Snímek je na výšku (2:3), takže bez fit by ořez do 16:9 uřízl běžce; fit 0.9 vsadí celý do rámu a okolí doplní rozostřenou kopií. Zoom ven, protože se scéna otevírá z těla do orbity; není to portrét, takže pohyb je v pořádku.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "astronaut exercising treadmill International Space Station",
+        "pick": 6,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Připravuje nerovnoměrnost. Kostra je zatím celá v jedné barvě — rozdíl přijde až v příští scéně, jinak by obraz vyzradil pointu dřív než hlas.",
+      "diagram_generator": "merak",
+      "diagram": "Zjednodušený obrys kostry (lebka, páteř, pánev, končetiny) v jedné ztlumené barvě. Nad ním ambrový nápis NOT EVENLY."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "POZOR NA MÍRU JISTOTY: obě části kost ztrácejí, jen různě. Paže proto NESMÍ vypadat nedotčeně — dostanou slabý úbytek, ne nulový. Ve v0.1 tu scénář tvrdil 'hold up fairly well' a bylo to silnější, než zdroj nese; kresba to nesmí vrátit zpátky. Popisky se sázejí odvozeně od tvaru (pod_hlavou / text_do), ne na odhadnutou vzdálenost.",
+      "diagram_generator": "merak",
+      "diagram": "Táž kostra. Paže mají slabý ambrový úbytek a popisek LOSE MUCH LESS. Kyčle a páteř mají výrazný ambrový úbytek a popisek LOSE MUCH MORE. Mezi nimi svislý předěl."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Konec bloku a nejdůležitější věta kapitoly. Laťka se vrací potřetí: linka kapacity se PŘISUNULA k lince nároku, tedy tělo změřilo, kolik se po něm chce, a nastavilo se. Ambrová přechází na linku kapacity, protože o ní je teď řeč.",
+      "diagram_generator": "merak",
+      "diagram": "Laťka na pevných souřadnicích. Ambrová linka kapacity se zvedla/klesla těsně k lince nároku, mezi nimi malá měřicí značka. Nápis NOT DECAYING. MEASURING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Předěl od extrémů k běžnému životu. Obě ikony se škrtají KŘÍŽKEM (jsou to plochy, ne nápisy). Je to nejlevnější způsob, jak divákovi říct 'teď přijde něco, co se týká tebe'.",
+      "diagram_generator": "kroky",
+      "diagram": "Vlevo lůžko, vpravo raketa, obojí ztlumené a přeškrtnuté ambrovým křížkem. Pod nimi nápis NONE OF THIS NEEDED."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Deset postav je deset (assert). Jediný pokyn je v obraze jako jediný nápis — scéna má být prázdná, aby vynikl rozsah zásahu v příští scéně.",
+      "diagram_generator": "kroky",
+      "diagram": "Deset stejných stojících postav ve dvou řadách po pěti. Nad nimi jediný ambrový nápis WALK LESS."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "DRUHÝ ČÍSELNÝ VRCHOL VIDEA. Sloupce musí být na téže stupnici, aby byl vidět propad na osminu — tohle je scéna, kde divák pochopí, že se nemluví o sportovcích.",
+      "diagram_generator": "kroky",
+      "diagram": "Dva svislé sloupce na téže stupnici. Vlevo vysoký s popiskem 10,000 STEPS A DAY, vpravo krátký ambrový s popiskem 1,300. Pod nimi FOR TWO WEEKS."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Kresba, jak něco funguje — tedy scéna, u které se musí zkontrolovat SMĚR toku (viz docs: ionty podél elektrod místo napříč). Cukr jde Z KRVE DO SVALU, šipka tedy míří dovnitř svalu, ne ven.",
+      "diagram_generator": "kroky",
+      "diagram": "Průřez cévou vlevo a svalem vpravo. Mezi nimi šipky s kolečky cukru mířící z cévy do svalu. Část šipek je ztlumená a přerušená. Popisek PULLING SUGAR OUT OF THE BLOOD."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Tři nálezy, ale JEN JEDEN má číslo — scénář kvantifikuje pouze citlivost. Druhé dva dostanou šipku dolů bez hodnoty. Kdyby dostaly číslo, obraz by tvrdil víc než text.",
+      "diagram_generator": "kroky",
+      "diagram": "Tři řádky, každý se šipkou dolů. První SUGAR UPTAKE s ambrovým −1/6, druhý FITNESS bez čísla, třetí LEG LEAN MASS bez čísla."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Konec bloku. Deset postav z S24 se vrací nezměněných — nikdo není nemocný, nikdo neleží. Jediné, co zmizelo, jsou cesty pod nimi. Pauza dělí tvrdá data od evoluce.",
+      "diagram_generator": "kroky",
+      "diagram": "Deset postav z S24 beze změny. Pod nimi vybledlé čárkované stopy cest, které vedou nikam. Přeškrtnuté nápisy ILL a IN BED.",
+      "pause": 2.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Otočka od 'co se stane' k 'proč to tak je'. Jediný otazník nad obrysem těla, tedy táž kompozice jako S05 — záměrný rým, aby bylo poznat, že video otevírá druhou otázku.",
+      "diagram_generator": "predtim",
+      "diagram": "Obrys těla z S14 uprostřed, nad ním jediný velký ambrový otazník. Nic dalšího."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Laťka počtvrté a tentokrát jako protiklad S03: čára je vysoko a VODOROVNÁ, žádné schody dolů. 'There was no way to opt out' je v obraze tím, že pod čarou není kam jít.",
+      "diagram_generator": "predtim",
+      "diagram": "Laťka na pevných souřadnicích, ale vysoko a rovně přes celé plátno. Pod ní ztlumená šrafovaná plocha s přeškrtnutým nápisem OPT OUT."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Vzdálenost je tvrzení scény, takže musí být v obraze doopravdy velká. Postava je malá a vlevo, cíle daleko vpravo.",
+      "diagram_generator": "predtim",
+      "diagram": "Vlevo malá postava. Daleko vpravo dvě ikony: jídlo a místo. Mezi nimi dlouhá čárkovaná cesta s ambrovým popiskem HAD TO GET THERE."
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S32.png",
+      "note": "Jediná atmosférická scéna první poloviny. Výčet činností by jako diagram byl čtyři ikony vedle sebe, tedy seznam místo pocitu — a pocit je tu to, co scéna dělá. Postavy jsou malé a zezadu, aby to nesklouzlo k pravěké ilustraci z učebnice. Zoom ven, svět se otevírá.",
+      "prompt": "small distant human figures crossing a wide dry open grassland, one carrying a bundle on the shoulder, another climbing a low rocky outcrop, seen from far away and from behind, painterly documentary illustration, flat grey overcast sky, no sun, muted cool clay grey and deep ink teal, no text"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Konec bloku a jeho teze. Slovo EXERCISE se škrtá VODOROVNOU ČAROU přes text (text_skrtnuty — skrt_text kreslí jen čáru, ne písmo), protože křížek přes nápis ho udělá nečitelným a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "predtim",
+      "diagram": "Dva nápisy pod sebou. Nahoře přeškrtnuté EXERCISE, pod ním ambrové JUST WHAT A DAY LOOKED LIKE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S34",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Skuteční lidé, ne difuzní model — Hadzové mají vlastní jméno, takže Commons snímek má, a vygenerovaná 'lovecko-sběračská scéna' by byla stereotyp. PICK VYBRÁN Z KONTAKTNÍHO LISTU: dotaz vrátil jen dva snímky a oba jsou přesně to, co scéna potřebuje — skupina jdoucí husím pochodem ZEZADU. Pohled zezadu je dvojí výhra: žádné obličeje, takže to není portrét a nehrozí 'uříznuté čelo', a zároveň to není pózovaný etnografický snímek. Obraz říká 'chůze byla tvar dne', ne 'ušlechtilý divoch' — a to je důležité, protože S43–S49 ten jednoduchý příběh záměrně rozbíjí. STATIC schválně. Snímek je 3:2, tedy blízko 16:9 — fit se nedává, ořez je zanedbatelný.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Hadza people Tanzania walking bush",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Čas se kreslí jako den, ne jako sloupec — divák má vidět podíl z celku. Ambrový výsek je 2 h 15 min z 24 h, tedy 9,4 %; spočítat v kódu a jistit assertem.",
+      "diagram_generator": "hadza",
+      "diagram": "Kruh rozdělený na 24 hodin. Ambrový výsek odpovídající dvěma a čtvrt hodině. Popisek MODERATE TO VIGOROUS, EVERY DAY."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Aby šlo obojí porovnat, musí být na TÉŽE jednotce. Proto sedm týchž kruhů jako v S35 a doporučení jako výsek rozprostřený přes celý týden.",
+      "diagram_generator": "hadza",
+      "diagram": "Sedm malých kruhů v řadě, jeden na každý den týdne. Ambrový výsek 150 minut rozložený přes týden. Popisek THE GUIDELINE: 150 MINUTES A WEEK."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Pointa bloku, a je to srovnání, ne číslo. Dva hadzovské kruhy z S35 se postaví proti celému týdnu z S36 a jsou větší.",
+      "diagram_generator": "hadza",
+      "diagram": "Vlevo dva plné kruhy s ambrovými výseky a popiskem TWO DAYS. Vpravo sedm kruhů z S36 s popiskem ONE WEEK. Mezi nimi znaménko větší než.",
+      "pause": 2.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "POZOR: tahle scéna je jediné místo, kde by video mohlo sklouznout k 'primitivní zdraví lidé versus moderní nemocní' — a příští blok to záměrně rozbíjí. Proto se kreslí JEN dvě čísla kroků a žádné hodnocení: nic tu není ambrově 'dobré' a ztlumeně 'špatné', obě hodnoty mají tutéž barvu, ambrová je jen na tom, o čem je právě řeč.",
+      "diagram_generator": "hadza",
+      "diagram": "Dva sloupce kroků na téže stupnici. Vlevo hadzovský, vpravo globální průměr s popiskem ABOUT 5,000 A DAY a drobným 700,000 PHONES. Žádné hodnoticí značky."
+    },
+    {
+      "id": "S39",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "note": "Vstup do všedního dne. Diagram by z toho udělal schéma, a scéna má být to, co divák zná z okna. Zoom dovnitř zaostřuje na jednu věc, tedy na ten den. Bez lidí zblízka, aby nevznikly deformované obličeje.",
+      "prompt": "an ordinary suburban street on a flat grey overcast morning, a row of parked cars along the kerb in the foreground, closed front doors, one small figure far away walking towards a car, painterly documentary illustration, no sun, muted cool clay grey and pale bone white, no text",
+      "seed": 20510391
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Rytmus dne se kreslí OPAKOVÁNÍM TÉHOŽ tvaru, ne čtyřmi různými ikonami — stejnost je celá pointa. Postavy sedí na téže výškové ose, aby řada vypadala jako jedna nekončící.",
+      "diagram_generator": "den",
+      "diagram": "Řada stejných sedících postav zleva doprava, všechny v téže poloze a výšce. Popisky pod nimi: CAR, WORK, SCREEN. Nad řadou tenká časová osa dne."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Pokračování téže řady, tytéž souřadnice — nová scéna nesmí řadu posunout, jinak se zlomí dojem, že je to jeden souvislý den.",
+      "diagram_generator": "den",
+      "diagram": "Řada pokračuje dalšími třemi stejnými sedícími postavami. Popisky LUNCH, CAR, SCREEN. Časová osa nad nimi pokračuje do večera."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Laťka popáté a je to shrnutí celého bloku: přes celý den se linka nároku ani jednou nezvedne. 'Capable of anything' je v obraze prázdnem nad čarou. Pauza uzavírá první polovinu videa.",
+      "diagram_generator": "den",
+      "diagram": "Laťka na pevných souřadnicích, po celé šířce dne u dna, dokonale rovná. Nad ní velké prázdno s ambrovým čárkovaným popiskem NOTHING ASKED UP HERE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Video tady mění směr proti sobě samému, a to musí být vidět. Rozcestí je nejjednodušší tvar, který to řekne.",
+      "diagram_generator": "komplikace",
+      "diagram": "Cesta, která se rozdvojuje. Jedna větev čárkovaná a ztlumená, druhá plná a ambrová. Bez popisků — ty přijdou v příští scéně."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Zjednodušený příběh se napřed napíše celý, jinak se nedá škrtnout. Je záměrně vysázený velkým písmem jako heslo.",
+      "diagram_generator": "komplikace",
+      "diagram": "Dva řádky velkým písmem pod sebou: OLD = GOOD a NEW = BAD. Zatím neškrtnuté."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Škrtá se PŘES OBA ŘÁDKY NAJEDNOU, ne po řádcích — jedna čára přes jeden řádek by se četla jako 'neplatí jen ten'. Tři protiváhy dostanou tutéž váhu, žádná není zdůrazněná.",
+      "diagram_generator": "komplikace",
+      "diagram": "Oba řádky z S44 přeškrtnuté jednou společnou vodorovnou čarou. Pod nimi tři stejné ambrové štítky vedle sebe: INFECTION, INJURY, CHILDBIRTH."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Krátká přechodová scéna. Nic nového nekreslí, jen otevírá místo pro měření v S47.",
+      "diagram_generator": "komplikace",
+      "diagram": "Prázdné plátno s jediným ambrovým nápisem AND ONE MORE RESULT a tenkou čarou pod ním."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Tohle je nejdůležitější scéna bloku a její celý smysl je, že OBA SLOUPCE JSOU STEJNĚ VYSOKÉ. Musí být měřené touž stupnicí a nesmí být ani jeden ambrový víc než druhý — jinak kresba tvrdí vítěze tam, kde žádný není.",
+      "diagram_generator": "komplikace",
+      "diagram": "Dva svislé sloupce vedle sebe, přesně stejně vysoké. Popisky HADZA a US. Nad nimi ENERGY BURNED IN A DAY. Assert v kódu, že mají shodnou výšku."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Doplňuje podmínku, kterou zdroj má a bez které by to bylo zavádějící: srovnává se po korekci na velikost těla. Chůze navíc se kreslí jako přírůstek, který na sloupci NENÍ vidět.",
+      "diagram_generator": "komplikace",
+      "diagram": "Tytéž dva sloupce. Pod nimi popisek SAME BODY SIZE. Vlevo ambrová šipka ALL THAT WALKING mířící k sloupci a končící u jeho stávající výšky, bez přírůstku."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Teze druhé poloviny videa. Sloupce se překreslí na dva stejně velké rozpočty s ROZDÍLNÝM vnitřním dělením — stejný součet, jiné rozdělení. Nejdelší pauza první poloviny.",
+      "diagram_generator": "komplikace",
+      "diagram": "Dva stejně vysoké sloupce, každý rozdělený vodorovnými pruhy na části. Pruhy jsou v každém sloupci jinak veliké. Ambrový popisek NOT MORE. DIFFERENTLY.",
+      "pause": 2.8
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Otevírá nejzajímavější blok videa. Táž kompozice jako S05 a S29 — otazník nad tělem. Je to potřetí a záměrně: tři otázky videa mají týž obraz.",
+      "diagram_generator": "poplach",
+      "diagram": "Obrys těla uprostřed, nad ním velký ambrový otazník. Pod tělem drobný nápis WHY DOES IT NOT FEEL LIKE IT?"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Tři poplachy jsou tři stejné tvary — stejnost je důležitá, protože čtvrtý slot v S53 bude prázdný a musí být poznat, že tam něco chybí.",
+      "diagram_generator": "poplach",
+      "diagram": "Tři stejné rámečky vedle sebe, v každém ikona zvonku a popisek: HUNGER, THIRST, SLEEP. Všechny ambrové."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Vysvětluje, PROČ ty tři poplach mají: následek přijde rychle. Časová osa je krátká, aby to bylo vidět.",
+      "diagram_generator": "poplach",
+      "diagram": "Krátká časová osa s popiskem DAYS. Tři šipky od rámečků z S51 dopadají blízko začátku osy."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Čtvrtý rámeček je PRÁZDNÝ — žádný zvonek. A zároveň se vrací laťka: linka nároku klesla a linka kapacity ji tiše následuje. Dvě tvrzení v jednom obraze, obě jsou ve scénáři.",
+      "diagram_generator": "poplach",
+      "diagram": "Čtyři rámečky: tři z S51 se zvonky, čtvrtý s popiskem NOT MOVING a prázdným místem po zvonku. Pod nimi laťka na pevných souřadnicích, obě linky klesají spolu.",
+      "pause": 2.2
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Vysvětlení, proč se kapacita pouští. Kreslí se jako cena, kterou něco stojí každý den — ne jako poškození.",
+      "diagram_generator": "poplach",
+      "diagram": "Sloupec kapacity, z něj každý den odkapává drobné ambrové množství s popiskem COST OF KEEPING IT. Vpravo ruka, která pouští část sloupce."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Jádro celé kapitoly: 'v pohodě' je NULOVÁ MEZERA mezi tím, co se chce, a tím, co tělo umí — ne vysoká kapacita. Ambrová patří té mezeře, protože o ní je řeč.",
+      "diagram_generator": "poplach",
+      "diagram": "Laťka na pevných souřadnicích. Obě linky leží nízko a těsně u sebe. Mezi nimi ambrový nápis FINE a oboustranná šipka téměř nulové délky."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Konec bloku. Jediný špičatý tvar v celém videu — požadavek, který vystřelí nad sníženou kapacitu. Obě popisky jsou ze scénáře doslova.",
+      "diagram_generator": "poplach",
+      "diagram": "Táž laťka. Zleva doprava jede plochá linka nároku a pak náhle vyskočí ostrá špička vysoko nad linku kapacity. U špičky popisky TWO FLIGHTS OF STAIRS a A RUN FOR A BUS.",
+      "pause": 2.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Krátká scéna, která jen otáčí. Nic nevysvětluje.",
+      "diagram_generator": "pud",
+      "diagram": "Prázdné plátno, ambrový nápis AND THE SECOND HALF a pod ním tenká otáčející se šipka."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Dvě šipky proti sobě z jednoho těla. Obě jsou stejně silné — video netvrdí, že jedna je pravá a druhá vada.",
+      "diagram_generator": "pud",
+      "diagram": "Obrys těla uprostřed, z něj vedou dvě stejně silné ambrové šipky: vlevo EVOLVED TO MOVE, vpravo EVOLVED TO AVOID MOVING."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Rozpočet energie, tentýž tvar jako v S49 — záměrný callback přes deset scén. Kreslí se z _kit, ne znovu ručně.",
+      "diagram_generator": "pud",
+      "diagram": "Sloupec energie rozdělený na části. Ambrová část s popiskem WALKING FOR NO REASON se odebírá a mizí, zbytek nese popisek STAYING ALIVE."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Konec bloku a jeho pointa: pud není vada. Bublina má mít ocásek nakreslený jako otevřený tvar, ne jako uzavřený trojúhelník (viz docs, seznam věcí, které detektory nechytnou).",
+      "diagram_generator": "pud",
+      "diagram": "Sedící postava s bublinou NOT TODAY. K bublině vede ambrová čára ke štítku AN OLD INSTINCT THAT USED TO BE RIGHT.",
+      "pause": 2.8
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "ZAVÁDÍ SE ČÁRKOVANÝ RÁMEC, který drží celý blok S61–S66. Konvence kanálu: plná čára = doloženo, čárkovaná = hypotéza. Uživatel si výslovně vyžádal, aby blok působil jako myšlenkový experiment, ne jako předpověď budoucího člověka — rámec je to, co to zajistí, protože je vidět v každém záběru.",
+      "diagram_generator": "sedens",
+      "diagram": "Přes celé plátno čárkovaný rámeček s ambrovým štítkem v rohu: THOUGHT EXPERIMENT. Uvnitř zatím prázdno."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Tři měřítka času pod sebou, každé zřetelně delší. Je to příprava na S67, kde se ukáže, že skutečnost je ta nejkratší z nich.",
+      "diagram_generator": "sedens",
+      "diagram": "Uvnitř čárkovaného rámce tři vodorovné úsečky různé délky pod sebou: DECADES (krátká), A FEW GENERATIONS (delší), HUNDREDS OF THOUSANDS OF YEARS (přes celou šířku, ambrová)."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Tři podmínky myšlenkového světa. Všechno uvnitř rámce a čárkované, aby ani jedna ikona nevypadala jako tvrzení o skutečnosti.",
+      "diagram_generator": "sedens",
+      "diagram": "Uvnitř rámce tři čárkované ikony vedle sebe: jídlo na dosah, dopravní prostředek, obrazovka s informací. Popisky WITHIN REACH, EVERYWHERE, INFORMATION."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Evoluce jako pomalá čárkovaná šipka — pomalost je tvrzení scény, takže šipka musí být dlouhá a tenká, ne krátká a tučná.",
+      "diagram_generator": "sedens",
+      "diagram": "Uvnitř rámce velmi dlouhá tenká čárkovaná šipka přes celou šířku s popiskem ENOUGH TIME."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Tři 'maybe' jsou tři čárkované rámečky, žádný není zvýrazněný — video žádnou z těch možností nepreferuje.",
+      "diagram_generator": "sedens",
+      "diagram": "Uvnitř rámce tři čárkované štítky pod sebou: MUSCLE, SKELETON, ENERGY. Před každým čárkované slovo MAYBE."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Nejdůležitější scéna bloku, protože je to disclaimer. Silueta budoucího člověka je ČÁRKOVANÁ A PRÁZDNÁ — obraz nesmí nabídnout žádnou konkrétní podobu, jinak si ji divák zapamatuje jako předpověď.",
+      "diagram_generator": "sedens",
+      "diagram": "Uvnitř rámce čárkovaný prázdný obrys postavy bez jediného detailu, uvnitř velký ambrový otazník. Popisek WE DO NOT KNOW.",
+      "pause": 2.4
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "RÁMEC ZMIZÍ — spekulace skončila a je to vidět dřív, než to hlas dořekne. Zůstane jen srovnání dvou skutečných měřítek, a to kratší je naše.",
+      "diagram_generator": "sedens",
+      "diagram": "Čárkovaný rámec je pryč. Dvě plné vodorovné úsečky pod sebou: dlouhá EVOLUTION a vedle ní velmi krátká ambrová THREE GENERATIONS."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Dva světy, TÁŽ postava — to je celé tvrzení scény. Kdyby to byly dvě různé postavy, kresba by říkala, že se změnil člověk, a scénář říká pravý opak.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě poloviny plátna oddělené svislou čarou. V obou táž postava. Vlevo kolem ní vysoká laťka a popisek UNAVOIDABLE, vpravo laťka u dna a popisek OPTIONAL."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Laťka posedmé: tělocvična, běh a kolo se přidávají jako tři ambrové přírůstky NAD nízkou linku nároku. Vizuálně tím vzniká to, co říká scénář — musíme si ten nárok dodělat ručně.",
+      "diagram_generator": "zaver",
+      "diagram": "Nízká laťka na pevných souřadnicích. Nad ní tři malé ambrové sloupečky ručně přistavené, s ikonami: činka, běžec, kolo. Popisek JUST TO KEEP IT WORKING.",
+      "pause": 2.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Věta se kreslí jako šipka, protože 'wrong shape' je tvrzení o tvaru. Šipka od cvičení ke zdraví je tenká a ztlumená, aby bylo kam přidat opravu v S72.",
+      "diagram_generator": "zaver",
+      "diagram": "Nápis EXERCISE, od něj ztlumená šipka k nápisu HEALTH. Nad šipkou ambrový popisek THE WRONG SHAPE."
+    },
+    {
+      "id": "S71",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S71.png",
+      "note": "Poslední atmosférická scéna. Běh je ve videu poprvé konkrétní, a má vypadat jako obyčejný čtvrteční večer, ne jako reklama na fitness — proto ulice, ne posilovna, a postava malá a daleko. Zoom ven otevírá do závěru.",
+      "prompt": "a lone runner in running clothes seen from far behind, mid-stride with one leg lifted and arms bent, running away down an ordinary empty street beside low houses, flat grey overcast light, no sun, wet pavement, painterly documentary illustration, muted cool clay grey and deep ink teal, no text",
+      "seed": 20510711
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "ZAČÍNÁ VÝPLATA PÁTEŘE. Šipka z S70 se otočí: nejde od cvičení ke zdraví, ale od pohybu zpátky do těla. A pod tím se linka nároku poprvé v celém videu zvedá k lince kapacity.",
+      "diagram_generator": "zaver",
+      "diagram": "Šipka z S70 otočená: od nápisu MOVEMENT zpět do obrysu těla, ambrová a plná. Pod tím laťka, linka nároku stoupá zpět k lince kapacity. Popisek THE ONE INPUT."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "ZAČÁTEK PÁSMA ZÁVĚREČNÉ OBRAZOVKY (posledních ~20 s, tedy S73–S76b). Dlaždice dalšího videa a kolečko odběru patří do HORNÍ poloviny obrazu, protože dole vždycky sedí titulek — kresba je proto sražená do spodních dvou třetin a horní třetina zůstává prázdná. Stará otázka se škrtá vodorovnou čarou přes text.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodních dvou třetinách přeškrtnutý nápis WHY IS EXERCISE HEALTHY? Horní třetina plátna zcela prázdná."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Pásmo závěrečné obrazovky — horní třetina zůstává prázdná. Lepší otázka je jediná věc na plátně a je sázená na tři řádky, aby se vešla bez zmenšení písma.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve spodních dvou třetinách ambrový nápis na tři řádky: WHY WOULD WE EXPECT A BODY BUILT FOR MOVEMENT TO WORK WITHOUT IT? Horní třetina prázdná."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "HLAVNÍ POINTA VIDEA a druhá půlka výplaty páteře: slovo MOVEMENT není šipka mířící na tělo zvenčí, nýbrž leží UVNITŘ obrysu těla. Přeškrtnutá varianta vedle ukazuje, co se tím popírá. Pásmo závěrečné obrazovky — horní třetina prázdná. Nejdelší pauza videa.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo ztlumeně: obrys těla a k němu zvenčí míří přeškrtnutá šipka s nápisem MOVEMENT. Vpravo ambrově: týž obrys těla a nápis MOVEMENT leží uvnitř něj. Horní třetina prázdná.",
+      "pause": 3.2
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Poslední obraz videa a poslední výskyt páteře: laťka je zpátky na své původní výšce z počátku S03, tedy tam, kde byla, než se z ní staly čtyři schody dolů. Popisek NORMAL je celý závěr. Pásmo závěrečné obrazovky — horní třetina prázdná, ať mají karty kam.",
+      "diagram_generator": "zaver",
+      "diagram": "Laťka na pevných souřadnicích, zvednutá zpět na výchozí výšku z S03, obě linky u sebe. Ambrový popisek NORMAL. Horní třetina plátna prázdná."
+    },
+    {
+      "id": "S76b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Výzva k odběru podle docs/cta.md. Dědí obraz S76, nekreslí se nic. UMÍSTĚNÍ JE ODCHYLKA OD STANDARDU KANÁLU: docs/cta.md ji předepisuje za hlavní pointu a před závěr, tady je až úplně poslední. Rozhodl uživatel ve zpětné vazbě 0.1 a potvrdil v 0.2 s odůvodněním, že výzva mezi pointou a codou pointu zabíjí. Předchozí scéna je statický diagram, takže prolínačka dvou identických obrazů není vidět.",
+      "cta": true,
+      "pause": 2.6
+    }
+  ]
+}

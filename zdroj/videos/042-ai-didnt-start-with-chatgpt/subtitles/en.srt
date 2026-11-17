@@ -1,0 +1,734 @@
+1
+00:00:00,400 --> 00:00:05,410
+At the end of November 2022, a web
+page appeared with a small box on it.
+
+2
+00:00:06,220 --> 00:00:09,510
+You typed a question.
+And a computer answered.
+
+3
+00:00:10,356 --> 00:00:14,516
+Not with a pre-written reply. With
+a sentence. It could write an email.
+
+4
+00:00:14,596 --> 00:00:18,546
+Explain mathematics.
+Translate a page. Write code.
+
+5
+00:00:19,352 --> 00:00:22,822
+And it could hold something that felt
+uncomfortably like a conversation.
+
+6
+00:00:23,732 --> 00:00:25,572
+It was called ChatGPT.
+
+7
+00:00:26,272 --> 00:00:30,562
+And for millions of people, this was the
+moment artificial intelligence began.
+
+8
+00:00:33,352 --> 00:00:36,442
+Except a computer had done
+something like this before.
+
+9
+00:00:37,624 --> 00:00:39,054
+Fifty-six years earlier.
+
+10
+00:00:39,901 --> 00:00:43,821
+In 1966, a researcher at MIT called Joseph
+
+11
+00:00:43,901 --> 00:00:46,831
+Weizenbaum published a
+program called ELIZA.
+
+12
+00:00:47,528 --> 00:00:50,718
+You could type: "My boyfriend says
+I'm depressed much of the time."
+
+13
+00:00:51,388 --> 00:00:54,718
+And ELIZA would answer: "I am
+sorry to hear you are depressed."
+
+14
+00:00:55,568 --> 00:00:58,378
+And you could carry on.
+And so would the program.
+
+15
+00:00:59,342 --> 00:01:01,112
+ELIZA was not intelligent.
+
+16
+00:01:01,762 --> 00:01:03,312
+It was not a neural network.
+
+17
+00:01:04,082 --> 00:01:05,672
+It understood nothing at all.
+
+18
+00:01:06,375 --> 00:01:10,425
+It matched keywords in what you typed
+and handed the rest back as a question.
+
+19
+00:01:11,375 --> 00:01:14,485
+The whole script fitted in the
+appendix of a journal paper.
+
+20
+00:01:15,327 --> 00:01:17,077
+People talked to it anyway.
+
+21
+00:01:18,804 --> 00:01:21,054
+Weizenbaum's own secretary
+had watched him build it.
+
+22
+00:01:21,644 --> 00:01:23,534
+She knew exactly what it was.
+
+23
+00:01:24,353 --> 00:01:27,623
+After a few exchanges with it,
+she asked him to leave the room.
+
+24
+00:01:28,193 --> 00:01:30,083
+She wanted to be alone with it.
+
+25
+00:01:32,743 --> 00:01:36,753
+Which leaves a question that the
+next half century kept walking into.
+
+26
+00:01:37,553 --> 00:01:40,603
+How little does a machine
+actually need to seem intelligent?
+
+27
+00:01:43,793 --> 00:01:46,483
+Somebody had already
+asked a version of that.
+
+28
+00:01:47,053 --> 00:01:48,443
+Sixteen years earlier.
+
+29
+00:01:49,453 --> 00:01:54,343
+In 1950, the British mathematician Alan
+Turing opened a paper with a question.
+
+30
+00:01:55,179 --> 00:01:56,529
+"Can machines think?"
+
+31
+00:01:57,349 --> 00:01:59,099
+And then he did something clever.
+
+32
+00:01:59,909 --> 00:02:01,729
+He decided the question was too vague to
+
+33
+00:02:01,809 --> 00:02:04,199
+answer, and swapped it
+for a different one.
+
+34
+00:02:04,871 --> 00:02:08,121
+Put a person and a machine at
+the far end of a conversation.
+
+35
+00:02:09,231 --> 00:02:11,491
+If you cannot tell which
+is which, does it still
+
+36
+00:02:11,571 --> 00:02:13,941
+matter whether the machine
+is really thinking?
+
+37
+00:02:14,740 --> 00:02:16,590
+It is an elegant argument.
+
+38
+00:02:16,800 --> 00:02:20,090
+And ELIZA is what happens
+when you take it literally.
+
+39
+00:02:20,939 --> 00:02:26,169
+Because ELIZA convinced people in 1966,
+and there was nothing behind it at all.
+
+40
+00:02:28,859 --> 00:02:31,279
+Six years after Turing's paper, a group of
+
+41
+00:02:31,359 --> 00:02:33,949
+scientists spent the summer
+at Dartmouth College.
+
+42
+00:02:34,639 --> 00:02:38,349
+Their proposal used a phrase that
+nobody had written down before.
+
+43
+00:02:39,159 --> 00:02:40,409
+Artificial intelligence.
+
+44
+00:02:41,653 --> 00:02:43,523
+And their ambition was enormous.
+
+45
+00:02:44,553 --> 00:02:46,453
+If we could describe human
+intelligence precisely
+
+46
+00:02:46,533 --> 00:02:50,103
+enough, we could program
+a machine to reproduce it.
+
+47
+00:02:50,732 --> 00:02:55,322
+A second idea had been around even
+longer, and it pointed the opposite way.
+
+48
+00:02:56,161 --> 00:02:59,781
+In 1943, a neurophysiologist
+and a logician
+
+49
+00:02:59,861 --> 00:03:03,071
+wrote down a simple model
+of a biological neuron.
+
+50
+00:03:03,916 --> 00:03:05,326
+It took a few numbers in.
+
+51
+00:03:05,416 --> 00:03:08,216
+Gave each one a weight. Added them up.
+
+52
+00:03:08,296 --> 00:03:10,486
+And decided whether to fire.
+
+53
+00:03:11,376 --> 00:03:13,526
+On its own it can do almost nothing.
+
+54
+00:03:14,373 --> 00:03:16,163
+Its weights were fixed by hand.
+
+55
+00:03:16,693 --> 00:03:18,913
+Two years after Dartmouth, a psychologist
+
+56
+00:03:18,993 --> 00:03:21,483
+built one that could
+work them out for itself.
+
+57
+00:03:22,386 --> 00:03:24,556
+And the idea underneath that was this.
+
+58
+00:03:24,766 --> 00:03:27,876
+Maybe we do not program
+intelligence at all.
+
+59
+00:03:28,226 --> 00:03:32,776
+Maybe we build enough simple units, wire
+them together, and let the system learn.
+
+60
+00:03:35,306 --> 00:03:38,996
+None of it worked. Not
+because the ideas were wrong.
+
+61
+00:03:39,106 --> 00:03:41,876
+Because the machines
+were nowhere near ready.
+
+62
+00:03:42,638 --> 00:03:43,988
+Computers were slow.
+
+63
+00:03:44,138 --> 00:03:45,478
+Memory was tiny.
+
+64
+00:03:45,558 --> 00:03:47,988
+And there was almost
+nothing to learn from.
+
+65
+00:03:48,378 --> 00:03:52,128
+Training a large network was not
+difficult. It was impossible.
+
+66
+00:03:53,042 --> 00:03:57,592
+And there was a second problem, which was
+worse, because nobody had predicted it.
+
+67
+00:03:58,282 --> 00:04:02,412
+A computer could do arithmetic faster
+than every human who had ever lived.
+
+68
+00:04:03,188 --> 00:04:05,448
+But ask it to do something
+a five-year-old does
+
+69
+00:04:05,528 --> 00:04:08,338
+without thinking about
+it, and it fell apart.
+
+70
+00:04:10,023 --> 00:04:15,513
+Recognise a dog in a photograph. For a
+person, instant. For a computer, hopeless.
+
+71
+00:04:16,504 --> 00:04:19,924
+Eventually the money
+noticed. Funding was cut.
+
+72
+00:04:20,004 --> 00:04:21,414
+The excitement faded.
+
+73
+00:04:22,224 --> 00:04:25,044
+The field went through long
+stretches that later earned a name.
+
+74
+00:04:25,124 --> 00:04:27,194
+AI winters.
+
+75
+00:04:27,977 --> 00:04:30,467
+Artificial intelligence did not disappear.
+
+76
+00:04:31,137 --> 00:04:32,707
+It just stopped being interesting.
+
+77
+00:04:35,637 --> 00:04:38,307
+What changed was not a brilliant new idea.
+
+78
+00:04:39,157 --> 00:04:44,147
+From the 1990s onwards, computers got
+dramatically faster and storage got cheap.
+
+79
+00:04:44,908 --> 00:04:50,138
+And the world began producing enormous
+amounts of digital data. Web pages.
+
+80
+00:04:50,228 --> 00:04:53,778
+Photographs. Scanned books. Video. Text.
+
+81
+00:04:54,587 --> 00:04:57,677
+For the first time there was
+something for a machine to learn from.
+
+82
+00:04:57,927 --> 00:05:00,537
+And the question quietly turned over.
+
+83
+00:05:01,255 --> 00:05:04,325
+Not: "How do we program all of
+the rules into the computer?"
+
+84
+00:05:04,895 --> 00:05:08,565
+But: "What if we hand it the data
+and let it work out the rules?"
+
+85
+00:05:11,115 --> 00:05:16,985
+In 1997, a machine called Deep Blue beat
+Garry Kasparov, the world chess champion.
+
+86
+00:05:17,803 --> 00:05:19,173
+It was enormous news.
+
+87
+00:05:19,723 --> 00:05:22,573
+And it is worth being
+precise about what it proved.
+
+88
+00:05:23,263 --> 00:05:25,433
+Deep Blue could not hold a conversation.
+
+89
+00:05:25,983 --> 00:05:28,173
+It could not recognise a dog.
+
+90
+00:05:28,623 --> 00:05:29,973
+It could not learn anything.
+
+91
+00:05:30,771 --> 00:05:33,721
+It was extraordinarily
+good at exactly one thing.
+
+92
+00:05:34,391 --> 00:05:36,581
+ELIZA looked intelligent and was not.
+
+93
+00:05:37,371 --> 00:05:39,861
+Deep Blue was superhuman
+and still was not.
+
+94
+00:05:40,685 --> 00:05:42,755
+Both of them broke the same assumption.
+
+95
+00:05:43,225 --> 00:05:46,735
+That if something looks like thinking,
+there must be thinking behind it.
+
+96
+00:05:49,175 --> 00:05:53,955
+Now, the dog. In 2012, a neural
+network called AlexNet was
+
+97
+00:05:54,035 --> 00:05:56,205
+pointed at more than
+a million photographs.
+
+98
+00:05:57,251 --> 00:05:58,861
+It was not a new idea.
+
+99
+00:05:59,571 --> 00:06:02,981
+Neural networks were older than
+most of the people working on them.
+
+100
+00:06:03,664 --> 00:06:07,134
+What was new was everything
+around it. Enough data.
+
+101
+00:06:07,284 --> 00:06:08,714
+Enough computing power.
+
+102
+00:06:09,084 --> 00:06:10,974
+Better ways to train it.
+
+103
+00:06:11,679 --> 00:06:12,949
+It did not just win.
+
+104
+00:06:13,719 --> 00:06:17,209
+It won by a margin that made the
+older approaches look finished.
+
+105
+00:06:18,299 --> 00:06:20,039
+The thing a five-year-old could do and a
+
+106
+00:06:20,119 --> 00:06:23,269
+computer could not, a
+computer could suddenly do.
+
+107
+00:06:24,003 --> 00:06:25,673
+And the question changed again.
+
+108
+00:06:26,363 --> 00:06:28,053
+Not "can neural networks work?"
+
+109
+00:06:28,303 --> 00:06:30,233
+But "how far do they go?"
+
+110
+00:06:32,443 --> 00:06:36,313
+In 2017, a paper came out
+of Google with an odd title.
+
+111
+00:06:37,243 --> 00:06:38,773
+"Attention Is All You Need."
+
+112
+00:06:39,583 --> 00:06:43,413
+It described a new architecture for
+neural networks, called the transformer.
+
+113
+00:06:44,233 --> 00:06:46,823
+It let a model read a
+whole sentence at once,
+
+114
+00:06:46,993 --> 00:06:49,423
+and work out which words
+belonged with which.
+
+115
+00:06:50,260 --> 00:06:56,740
+Almost everything you have heard of since
+then is built on it. GPT. BERT. Claude.
+
+116
+00:06:56,820 --> 00:07:01,630
+Gemini. And still, outside the
+field, nobody had noticed anything.
+
+117
+00:07:02,351 --> 00:07:06,121
+OpenAI began building a
+family of models called GPT.
+
+118
+00:07:08,821 --> 00:07:12,011
+Each one was larger than the last
+and better at the same trick.
+
+119
+00:07:12,521 --> 00:07:15,171
+Given some text, guess what comes next.
+
+120
+00:07:16,045 --> 00:07:20,315
+By GPT-3 that trick had turned into
+something nobody quite expected.
+
+121
+00:07:21,305 --> 00:07:27,835
+It could answer a question. Finish an
+argument. Write an essay. Generate code.
+
+122
+00:07:28,757 --> 00:07:30,707
+And almost nobody used it.
+
+123
+00:07:31,477 --> 00:07:32,847
+It was a research tool.
+
+124
+00:07:33,457 --> 00:07:36,407
+You needed an account, some
+documentation, and a reason.
+
+125
+00:07:37,177 --> 00:07:40,467
+The technology was
+there. The door was not.
+
+126
+00:07:42,737 --> 00:07:48,307
+On the 30th of November 2022,
+OpenAI put a text box on a web page.
+
+127
+00:07:49,105 --> 00:07:50,895
+That is close to the whole story.
+
+128
+00:07:51,803 --> 00:07:54,373
+It was not a new kind of
+artificial intelligence.
+
+129
+00:07:55,383 --> 00:07:57,373
+It was not the first neural network.
+
+130
+00:07:57,583 --> 00:08:00,433
+And it certainly was
+not the first chatbot.
+
+131
+00:08:01,162 --> 00:08:04,352
+ELIZA was doing that job
+fifty-six years earlier.
+
+132
+00:08:05,119 --> 00:08:10,169
+What changed was that you no longer
+had to understand any of it. You typed.
+
+133
+00:08:10,699 --> 00:08:11,899
+It answered.
+
+134
+00:08:12,366 --> 00:08:15,276
+Five days later, a million
+people had signed up.
+
+135
+00:08:17,676 --> 00:08:21,336
+When people say AI started
+with ChatGPT, it is a
+
+136
+00:08:21,416 --> 00:08:25,826
+little like saying the internet
+started with Google. It did not.
+
+137
+00:08:26,416 --> 00:08:29,326
+Google just made it
+enormously easier to use.
+
+138
+00:08:30,149 --> 00:08:34,939
+And underneath ChatGPT there is a list,
+and every item on it took decades.
+
+139
+00:08:36,005 --> 00:08:40,145
+Computing power. Huge amounts
+of data. Neural networks.
+
+140
+00:08:40,225 --> 00:08:43,045
+Better ways of training
+them. Transformers.
+
+141
+00:08:43,125 --> 00:08:44,935
+And finally, a simple interface.
+
+142
+00:08:47,775 --> 00:08:50,825
+So when did artificial
+intelligence actually begin?
+
+143
+00:08:51,669 --> 00:08:53,459
+2022? No.
+
+144
+00:08:54,746 --> 00:08:56,716
+2017? Not really.
+
+145
+00:08:57,951 --> 00:09:00,101
+1956? Closer.
+
+146
+00:09:01,034 --> 00:09:04,764
+But even in 1956 nobody
+was starting from nothing.
+
+147
+00:09:05,634 --> 00:09:08,344
+The models of neurons
+were already written down.
+
+148
+00:09:08,914 --> 00:09:11,804
+Turing had already asked
+whether the question made sense.
+
+149
+00:09:12,697 --> 00:09:14,497
+And people had been telling stories about
+
+150
+00:09:14,577 --> 00:09:18,147
+artificial minds for a
+very long time before that.
+
+151
+00:09:18,830 --> 00:09:20,840
+There is probably no first day.
+
+152
+00:09:23,970 --> 00:09:28,410
+Think about that secretary
+at MIT in 1966, asking to
+
+153
+00:09:28,490 --> 00:09:31,360
+be left alone with a few
+pages of pattern matching.
+
+154
+00:09:32,173 --> 00:09:34,883
+The machines have become
+unimaginably better.
+
+155
+00:09:35,553 --> 00:09:37,703
+We have not become much
+harder to convince.
+
+156
+00:09:40,323 --> 00:09:44,093
+So perhaps ChatGPT was not the
+beginning of the age of AI.
+
+157
+00:09:44,883 --> 00:09:48,393
+Perhaps it was simply the moment
+everybody finally noticed.
+
+158
+00:09:49,338 --> 00:09:53,128
+And perhaps the interesting question
+was never when we invented this.
+
+159
+00:09:53,918 --> 00:09:56,728
+It is how long it takes us to
+work out what we have built.

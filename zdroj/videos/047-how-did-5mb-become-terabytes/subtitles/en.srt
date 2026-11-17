@@ -1,0 +1,807 @@
+1
+00:00:00,400 --> 00:00:04,130
+In 1956, IBM shipped the first hard drive.
+
+2
+00:00:04,660 --> 00:00:06,850
+It held about five megabytes.
+
+3
+00:00:07,709 --> 00:00:11,049
+The machine was taller than the
+person operating it, and with
+
+4
+00:00:11,129 --> 00:00:14,519
+the compressor that kept it
+running, it weighed more than a ton.
+
+5
+00:00:15,293 --> 00:00:18,343
+Five megabytes is one
+photograph from a modern phone.
+
+6
+00:00:19,353 --> 00:00:23,823
+Today you can hold a drive in one hand
+that stores nearly ten million times more.
+
+7
+00:00:24,521 --> 00:00:26,151
+So what happened in between?
+
+8
+00:00:27,556 --> 00:00:31,146
+The obvious answer is that we got
+better at building small machines.
+
+9
+00:00:32,016 --> 00:00:33,486
+That answer isn't wrong.
+
+10
+00:00:34,076 --> 00:00:35,566
+It's just the boring half.
+
+11
+00:00:36,445 --> 00:00:39,335
+Because the machine got about
+a thousand times lighter.
+
+12
+00:00:40,145 --> 00:00:42,915
+The storage got about
+a billion times denser.
+
+13
+00:00:43,562 --> 00:00:45,292
+A thousand against a billion.
+
+14
+00:00:45,862 --> 00:00:49,212
+Everything interesting about
+storage is hiding in that gap.
+
+15
+00:00:51,902 --> 00:00:54,222
+To see where the billion
+came from, you have to
+
+16
+00:00:54,302 --> 00:00:56,952
+start with what a hard
+drive was actually for.
+
+17
+00:00:57,673 --> 00:01:01,843
+Before it, computers kept their data
+on punched cards and on magnetic tape.
+
+18
+00:01:02,293 --> 00:01:05,283
+Tape works. But tape is a queue.
+
+19
+00:01:06,285 --> 00:01:10,735
+If the thing you want sits at the end,
+you travel through everything before it.
+
+20
+00:01:11,325 --> 00:01:15,095
+A machine could spend its afternoon
+winding backwards and forwards.
+
+21
+00:01:15,983 --> 00:01:18,053
+The new machine could go straight to it.
+
+22
+00:01:18,643 --> 00:01:23,333
+That was the whole point of it, and it
+is what the name says. Random access.
+
+23
+00:01:24,339 --> 00:01:29,209
+Fifty metal disks, sixty centimetres
+across, spinning twenty times a second.
+
+24
+00:01:30,219 --> 00:01:33,729
+An arm moved between them and put a
+magnetic head over the right track.
+
+25
+00:01:34,485 --> 00:01:37,095
+It could find any piece
+of data in under a second.
+
+26
+00:01:37,985 --> 00:01:41,275
+In 1956, that bordered on magic.
+
+27
+00:01:42,555 --> 00:01:45,125
+And it came with a problem
+that has never gone away.
+
+28
+00:01:45,895 --> 00:01:47,445
+The head must not touch the disk.
+
+29
+00:01:48,519 --> 00:01:51,749
+Touch it, and you scrape away
+the data and the head together.
+
+30
+00:01:52,539 --> 00:01:55,669
+But it has to stay near enough
+to feel one magnetic patch.
+
+31
+00:01:56,575 --> 00:01:59,745
+IBM's answer was to float
+it on compressed air.
+
+32
+00:02:00,695 --> 00:02:03,465
+The head hovered twenty
+micrometres above the surface.
+
+33
+00:02:04,374 --> 00:02:06,774
+Which is why the machine
+needed its own air compressor.
+
+34
+00:02:06,854 --> 00:02:12,004
+Two hundred kilograms of that ton
+was a pump, blowing air under a head.
+
+35
+00:02:14,464 --> 00:02:17,814
+And that five megabytes needs a
+footnote, because it wasn't five.
+
+36
+00:02:18,184 --> 00:02:21,514
+It was five million
+characters of six bits each.
+
+37
+00:02:22,306 --> 00:02:25,176
+In today's money, three and
+three quarter megabytes.
+
+38
+00:02:26,693 --> 00:02:30,223
+But here is the number that
+matters, and nobody ever quotes it.
+
+39
+00:02:32,033 --> 00:02:34,953
+On that disk, one square
+centimetre held three hundred bits.
+
+40
+00:02:35,033 --> 00:02:37,462
+Three hundred.
+
+41
+00:02:37,912 --> 00:02:42,482
+A modern drive puts nearly three hundred
+billion into the same square centimetre.
+
+42
+00:02:43,292 --> 00:02:45,172
+That is where the billion came from.
+
+43
+00:02:45,252 --> 00:02:48,282
+Not from the box. From the bit.
+
+44
+00:02:50,992 --> 00:02:55,122
+The box did shrink, of course, and the
+first thing to go was that compressor.
+
+45
+00:02:56,187 --> 00:03:00,707
+In 1961, IBM shaped the
+head like a tiny wing, so
+
+46
+00:03:00,787 --> 00:03:03,497
+that the spinning disk made
+its own cushion of air.
+
+47
+00:03:04,219 --> 00:03:05,869
+No pump. No plumbing.
+
+48
+00:03:05,979 --> 00:03:08,739
+And the head could now
+fly three times nearer the
+
+49
+00:03:08,819 --> 00:03:11,609
+surface, which bought
+thirteen times the density.
+
+50
+00:03:12,509 --> 00:03:15,919
+In 1973 came a drive nicknamed Winchester.
+
+51
+00:03:17,029 --> 00:03:18,789
+It sealed the disks and the heads into one
+
+52
+00:03:18,869 --> 00:03:21,559
+clean assembly, so that
+nothing could get in.
+
+53
+00:03:24,059 --> 00:03:26,489
+What made storage grow was never the box.
+
+54
+00:03:27,339 --> 00:03:30,949
+It was making the bit smaller.
+So what is a bit, physically?
+
+55
+00:03:31,903 --> 00:03:35,353
+The disk is coated with a
+magnetic film made of tiny grains.
+
+56
+00:03:36,063 --> 00:03:40,173
+A bit is a patch of those
+grains, magnetised the same way.
+
+57
+00:03:40,875 --> 00:03:45,685
+Point them one way for a zero, and the
+other way for a one. Want more capacity?
+
+58
+00:03:46,755 --> 00:03:48,865
+Then use fewer grains for each bit.
+
+59
+00:03:49,679 --> 00:03:54,969
+Every generation did exactly that.
+Smaller grains. Narrower tracks.
+
+60
+00:03:55,119 --> 00:03:58,509
+Arms that could aim more
+precisely. But there is a price.
+
+61
+00:03:59,422 --> 00:04:01,202
+A smaller patch makes a weaker signal.
+
+62
+00:04:01,282 --> 00:04:05,472
+Halve the patch, and the head
+has half as much to listen to.
+
+63
+00:04:06,082 --> 00:04:08,432
+By the late eighties, it was getting thin.
+
+64
+00:04:10,162 --> 00:04:13,792
+Then physics handed the industry
+something it had not asked for.
+
+65
+00:04:14,461 --> 00:04:17,761
+In 1988, Albert Fert and Peter Grünberg
+
+66
+00:04:17,841 --> 00:04:20,431
+independently found the
+same strange effect.
+
+67
+00:04:21,298 --> 00:04:24,928
+Stack thin magnetic layers with
+a sliver of metal between them,
+
+68
+00:04:25,218 --> 00:04:28,848
+and the resistance of the stack
+depends on how the layers line up.
+
+69
+00:04:29,501 --> 00:04:31,231
+A small magnetic field.
+
+70
+00:04:31,861 --> 00:04:35,531
+A large change in resistance. They
+called it giant magnetoresistance.
+
+71
+00:04:37,579 --> 00:04:38,909
+Which is a read head.
+
+72
+00:04:39,659 --> 00:04:43,729
+A magnetic patch goes past the sensor,
+and the sensor's resistance jumps.
+
+73
+00:04:44,939 --> 00:04:46,709
+Small signals stop being a problem.
+
+74
+00:04:47,514 --> 00:04:50,704
+IBM shipped the first one in 1997.
+
+75
+00:04:51,674 --> 00:04:54,704
+The Nobel Prize for the
+discovery came in 2007.
+
+76
+00:04:56,081 --> 00:05:00,151
+By then the effect had been sitting
+inside ordinary computers for a decade.
+
+77
+00:05:02,421 --> 00:05:04,041
+And the numbers it unlocked are absurd.
+
+78
+00:05:04,121 --> 00:05:08,591
+Three hundred bits per
+square centimetre in 1956.
+
+79
+00:05:09,181 --> 00:05:11,171
+Nearly three hundred billion now.
+
+80
+00:05:11,885 --> 00:05:15,475
+Roughly a billion times more data
+on the same piece of surface.
+
+81
+00:05:16,305 --> 00:05:19,135
+That is how five megabytes
+became terabytes.
+
+82
+00:05:22,225 --> 00:05:23,845
+By the way, if you'd like to see where the
+
+83
+00:05:23,925 --> 00:05:26,795
+next question takes us,
+consider subscribing.
+
+84
+00:05:27,705 --> 00:05:29,135
+It really helps the channel.
+
+85
+00:05:30,517 --> 00:05:32,587
+Except that isn't the end of the story.
+
+86
+00:05:33,417 --> 00:05:35,627
+It's the point where
+the story hits a wall.
+
+87
+00:05:36,461 --> 00:05:39,331
+Because you cannot keep
+taking grains away from a bit.
+
+88
+00:05:40,241 --> 00:05:43,611
+A grain holds its direction
+because flipping it costs energy.
+
+89
+00:05:44,473 --> 00:05:46,603
+Shrink the grain, and that cost falls.
+
+90
+00:05:46,793 --> 00:05:49,403
+And a disk is not a quiet place.
+
+91
+00:05:50,033 --> 00:05:52,943
+Room temperature is atoms
+shoving each other about.
+
+92
+00:05:53,832 --> 00:05:56,032
+Make the grain small
+enough, and an ordinary
+
+93
+00:05:56,112 --> 00:05:58,642
+thermal nudge is enough to turn it over.
+
+94
+00:05:59,347 --> 00:06:00,927
+The bit flips. On its own.
+
+95
+00:06:01,007 --> 00:06:02,417
+Nobody wrote anything.
+
+96
+00:06:04,925 --> 00:06:07,815
+Physicists call it the
+superparamagnetic limit.
+
+97
+00:06:08,445 --> 00:06:10,995
+Engineers had a blunter way to put it.
+
+98
+00:06:11,545 --> 00:06:13,055
+They were running out of atoms.
+
+99
+00:06:14,071 --> 00:06:17,531
+Around the turn of the century,
+the old way of recording ran into
+
+100
+00:06:17,611 --> 00:06:21,881
+it, somewhere near fifteen billion
+bits per square centimetre.
+
+101
+00:06:22,465 --> 00:06:25,595
+For the first time in forty years,
+the curve was about to stop.
+
+102
+00:06:26,085 --> 00:06:28,575
+So the industry cheated. Twice.
+
+103
+00:06:30,925 --> 00:06:32,805
+The first cheat was to notice that the
+
+104
+00:06:32,885 --> 00:06:35,675
+disk has a dimension
+nobody had been using.
+
+105
+00:06:36,461 --> 00:06:39,041
+Until then, each bit lay
+flat, stretched along
+
+106
+00:06:39,121 --> 00:06:41,791
+its track, like a word printed on a page.
+
+107
+00:06:42,561 --> 00:06:45,091
+Flat things get thin when you shrink them.
+
+108
+00:06:45,775 --> 00:06:47,915
+So the magnetisation was
+turned through ninety
+
+109
+00:06:47,995 --> 00:06:51,185
+degrees, to point down
+into the disk instead.
+
+110
+00:06:51,994 --> 00:06:54,224
+When there was no more
+room on the surface,
+
+111
+00:06:54,374 --> 00:06:56,364
+we started standing the bits upright.
+
+112
+00:06:57,317 --> 00:06:59,947
+A standing bit can be
+narrow and still be deep,
+
+113
+00:07:00,237 --> 00:07:02,827
+so it keeps enough material
+to hold its direction.
+
+114
+00:07:03,990 --> 00:07:06,940
+Drives started shipping that way in 2005.
+
+115
+00:07:07,750 --> 00:07:10,480
+Every hard drive you have
+bought since works like this.
+
+116
+00:07:12,710 --> 00:07:14,420
+The second cheat is stranger.
+
+117
+00:07:15,170 --> 00:07:18,120
+If the material is too stable
+to write, heat it first.
+
+118
+00:07:19,037 --> 00:07:20,787
+So they put a laser in the head.
+
+119
+00:07:23,147 --> 00:07:25,379
+It heats one spot on
+the disk to about four
+
+120
+00:07:25,459 --> 00:07:28,757
+hundred and fifty degrees
+for a single nanosecond.
+
+121
+00:07:29,537 --> 00:07:31,767
+Hot, the spot is soft enough to write.
+
+122
+00:07:32,637 --> 00:07:36,807
+A nanosecond later it has cooled, and
+the bit is frozen where it was put.
+
+123
+00:07:37,613 --> 00:07:40,433
+There is a laser inside
+the hard drive, melting the
+
+124
+00:07:40,513 --> 00:07:43,403
+problem out of the way a few
+hundred degrees at a time.
+
+125
+00:07:44,133 --> 00:07:47,683
+This is not a laboratory. You can buy it.
+
+126
+00:07:50,223 --> 00:07:53,233
+Meanwhile, somebody else was
+asking a different question.
+
+127
+00:07:54,123 --> 00:07:56,193
+What if we take the disk out entirely?
+
+128
+00:07:57,484 --> 00:08:01,404
+No platter. No arm. No head.
+Nothing that has to fly.
+
+129
+00:08:01,484 --> 00:08:02,854
+Nothing that has to spin.
+
+130
+00:08:03,662 --> 00:08:05,742
+Flash memory stores a
+bit as trapped electric
+
+131
+00:08:05,822 --> 00:08:09,892
+charge, sealed behind an
+insulator inside a cell.
+
+132
+00:08:10,627 --> 00:08:14,177
+Put charge in, and the cell needs
+a higher voltage to switch on.
+
+133
+00:08:15,007 --> 00:08:17,497
+Measure that voltage, and
+you know what was stored.
+
+134
+00:08:18,341 --> 00:08:20,831
+Nothing moves, so nothing has to be found.
+
+135
+00:08:21,461 --> 00:08:23,151
+Every cell is equally near.
+
+136
+00:08:23,961 --> 00:08:27,471
+The seek time the RAMAC was built
+around simply stops existing.
+
+137
+00:08:29,481 --> 00:08:33,641
+And flash ran the same race.
+Smaller cells. More of them.
+
+138
+00:08:33,721 --> 00:08:36,051
+And it hit the same kind of wall.
+
+139
+00:08:36,835 --> 00:08:39,725
+Because the charge in a cell
+is not really a quantity.
+
+140
+00:08:40,595 --> 00:08:42,005
+It is a number of electrons.
+
+141
+00:08:43,013 --> 00:08:46,453
+Shrink the cell, and that
+number falls, until a handful of
+
+142
+00:08:46,533 --> 00:08:49,983
+electrons leaking away is the
+difference between a one and a zero.
+
+143
+00:08:50,725 --> 00:08:52,925
+And it got worse, because the industry had
+
+144
+00:08:53,005 --> 00:08:55,715
+started storing more than
+one bit in each cell.
+
+145
+00:08:56,431 --> 00:08:59,411
+Four bits means sixteen different
+charge levels inside one
+
+146
+00:08:59,491 --> 00:09:03,401
+cell, and the gaps between them
+are a few hundred millivolts.
+
+147
+00:09:04,015 --> 00:09:06,265
+Smaller cells make those gaps smaller.
+
+148
+00:09:07,175 --> 00:09:09,475
+So the same wall arrived,
+in a technology with
+
+149
+00:09:09,555 --> 00:09:12,225
+no moving parts, for
+entirely different reasons.
+
+150
+00:09:14,885 --> 00:09:17,335
+And in 2013 the answer arrived.
+
+151
+00:09:18,025 --> 00:09:19,435
+It was the same answer.
+
+152
+00:09:20,231 --> 00:09:22,651
+Samsung stopped making
+the cells smaller and
+
+153
+00:09:22,731 --> 00:09:24,611
+started stacking them
+on top of each other.
+
+154
+00:09:24,691 --> 00:09:28,081
+Twenty-four layers, in the first one.
+
+155
+00:09:28,756 --> 00:09:32,466
+Today the count is in the hundreds,
+and the roadmaps talk about a thousand.
+
+156
+00:09:33,276 --> 00:09:36,666
+The chip did not get wider. It got taller.
+
+157
+00:09:38,846 --> 00:09:41,376
+Put the two technologies side by side.
+
+158
+00:09:42,066 --> 00:09:44,776
+The bit cannot get any
+smaller, so stand it upright.
+
+159
+00:09:45,786 --> 00:09:48,536
+The cell cannot get any
+smaller, so stack the cells.
+
+160
+00:09:49,485 --> 00:09:54,175
+Different materials. Different physics.
+Different companies. The same move.
+
+161
+00:09:57,175 --> 00:10:00,625
+And the old technology
+did not die. It moved.
+
+162
+00:10:01,495 --> 00:10:04,595
+More than nine tenths of the
+storage in cloud data centres is
+
+163
+00:10:04,675 --> 00:10:08,345
+still spinning disks, because
+per byte it is still far cheaper.
+
+164
+00:10:09,179 --> 00:10:13,129
+So the seventy-year story of storage is
+not really a story about miniaturisation.
+
+165
+00:10:15,979 --> 00:10:20,019
+We shrank things. We reached the
+floor of what matter will put up with.
+
+166
+00:10:20,099 --> 00:10:21,729
+And then we built upwards.
+
+167
+00:10:24,219 --> 00:10:27,099
+Five million characters
+once needed fifty disks,
+
+168
+00:10:27,239 --> 00:10:30,369
+a motor, a compressor, and
+a room to keep them in.
+
+169
+00:10:31,035 --> 00:10:33,795
+The same data now sits
+in a patch of film you
+
+170
+00:10:33,875 --> 00:10:36,325
+could not see without
+an electron microscope.
+
+171
+00:10:37,147 --> 00:10:39,317
+What got smaller was never the machine.
+
+172
+00:10:40,247 --> 00:10:43,637
+It was the amount of matter we need
+in order to remember one thing.
+
+173
+00:10:44,370 --> 00:10:46,690
+And every time physics
+told us that was as small
+
+174
+00:10:46,770 --> 00:10:50,300
+as it goes, we found another
+direction to build in.

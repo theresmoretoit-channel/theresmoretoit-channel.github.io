@@ -1,0 +1,718 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `den()` poprvé: vodorovný pás 24 hodin (0–24, popisky po třech hodinách) na pevných souřadnicích. Noc DIM, denní světlo světlý pás od východu do západu (Seattle, 21. 6., letní čas). Nad pásem ambrový posun celé stupnice o 1 HOUR šipkou doprava, pod ním čárkovaně ‚duch‘ stupnice před posunem. Nahoře TWICE A YEAR.",
+   "note": "První obrazovka nese myšlenku: hodiny se posouvají proti světlu, které stojí. Páteř je stupnice hodin nad pásem světla; zavádí se tady a vrací se celým videem (S08–S15, S24, S28–S30, S40, S46–S53, S61, S64–S70). Ne SDXL (pravidlo první scény). Pás se POČÍTÁ (sun.py ze scratchpadu fact checku), nekreslí od oka."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Rok jako vodorovná osa JAN–DEC. Na druhé neděli v březnu ambrová značka −1 HOUR (‚MARCH: WE LOSE AN HOUR‘), na první neděli v listopadu značka +1 HOUR (‚NOVEMBER: THE HOUR COMES BACK‘). Úsek mezi nimi světlejší.",
+   "note": "Data od prvního snímku. Data přechodu podle 15 U.S.C. 260a (factcheck). Spánek se nekreslí — S02 říká, že se vrací HODINA, ne spánek."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Tři bubliny `bublina()` různé velikosti, bez postav: IT'S BAD FOR OUR HEALTH · IT'S POINTLESS · JUST PICK ONE TIME AND KEEP IT.",
+   "note": "Hádka bez tváří a bez stran — tři hlasy jsou si podobné, žádná bublina ambrově (nikdo zatím nemá pravdu). Rozděleno po draftu (v0.4): mezi „health.“ a „It's pointless.“ se větná pauza nevložila, S03b dědí obraz.",
+   "pause": 0.5,
+   "naveti": "And every time, the same argument starts."
+  },
+  {
+   "id": "S03b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "pause": 0.6,
+   "note": "Druhý beat S03, obraz zděděný."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "zakon",
+   "diagram": "Motiv `cesta_zakona()` poprvé: tři rámečky SENATE → HOUSE → PRESIDENT spojené šipkami. Řádek 2022: S.623 SUNSHINE PROTECTION ACT, SENATE zatržené ambrově s popiskem PASSED · NO OBJECTION, HOUSE a PRESIDENT prázdné.",
+   "note": "Vynechaný krok musí být vidět: šipka SENATE → HOUSE plná, ale HOUSE prázdný. ‚Without a single objection‘ = unanimous consent (factcheck S04), ne ‚100–0‘ — žádné číslo hlasování."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "zakon",
+   "diagram": "Týž motiv. Řádek 2022 ztlumený, u HOUSE MUTED ‚WENT NOWHERE‘. Pod ním řádek 2026: H.R. 139, HOUSE zatržené (PASSED 308–117), šipka do SENATE končí čárkovaně a SENATE ambrově s ‚STUCK‘. PRESIDENT prázdný v obou řádcích.",
+   "note": "Pořadí komor je ve 2026 obrácené (sněmovna první) — rámečky zůstávají na stejných místech, mění se jen směr šipky; jinak by obraz tvrdil, že návrh prošel stejnou cestou. 308–117 podle BILLSTATUS (factcheck). PŘED NAHRÁNÍM OVĚŘIT, že Senát pořád nehlasoval."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Velký nadpis WHY IS IT SO DIFFICULT TO STOP? nad pásem z S01 (týž pás, bez šipky posunu).",
+   "note": "Titulní otázka videa; pás pod ní připomíná páteř.",
+   "pause": 1.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Osa roku 1974 (JAN–DEC). Ambrový pruh od 6. ledna do 27. října s popiskem NO CLOCK CHANGES, za ním otazník. Nahoře USA 1974.",
+   "note": "Teaser bez prozrazení důvodu (tmavá rána přijdou v S33). Data podle Pub. L. 93-182 a 93-434 (factcheck). ‚Didn't last a year‘ — pruh končí viditelně před koncem osy."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: prázdný pás 24 hodin, bez světla a bez rozvrhu, jen stupnice a nad ní THE PROBLEM.",
+   "note": "Předěl: od teď se na pás bude kreslit. Konec úvodu.",
+   "pause": 2.4
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()` dvakrát pod sebou na pevných souřadnicích: horní DECEMBER, dolní JUNE (Seattle, ale bez jména — to přijde v S11). Přes oba pásy svislý ambrový blok rozvrhu 8:00–17:00 na STEJNÉM místě stupnice.",
+   "note": "Celá teze videa v jednom obraze: světlo se mění, blok rozvrhu stojí. Dvojice pásů DECEMBER/JUNE je druhá polovina páteře a rýmuje se v S53, S65 a S68."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()` jako S09, blok rozvrhu rozdělený na SCHOOL 8:00 a WORK 9:00 (dva začátky), v obou pásech na stejném místě.",
+   "note": "‚In June and in December alike‘ — totožná poloha bloků v obou pásech je tvrzení obrazu; hlídá `assert`."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: dvojice pásů pro SEATTLE, 21. 12. (8.4 h) a 21. 6. (16.0 h), délka světla vepsaná do pásu. Vpravo malá mapa USA s tečkou Seattle.",
+   "note": "Čísla spočítaná (factcheck: 8,42 h / 15,99 h); popisek ~8½ HOURS a 16 HOURS jako hlas. Pásy ve standardním čase, ať je porovnání se S12 férové."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: dvojice pásů pro MIAMI (10.5 h / 13.7 h), na stejných souřadnicích jako S11; mapa USA s tečkami Seattle (ztlumeně) a Miami (ambrově).",
+   "note": "Rozdíl mezi S11 a S12 musí být vidět bez čtení — stejné měřítko stupnice. 13,75 h = ‚not quite fourteen‘."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()` zjednodušená pro mobil: JEDNA společná stupnice hodin nahoře, pod ní tři tenké pásy JUNE (Miami, Boston, Seattle) a mezera a tři DECEMBER (táž města), bez vlastních stupnic. Jména měst malá vlevo, ambrový blok rozvrhu 8:00–17:00 přes všech šest na jednom místě.",
+   "note": "‚Stretches and shrinks around a schedule that never moves‘ — vějíř délek kolem pevného bloku. Zpětná vazba storyboard: osm pásů hrozí přeplněním, proto tři města místo čtyř (Atlanta pryč) a jedna stupnice; rozdíl délek nese obraz, ne popisky. Čitelnost ověřit na kontaktním listu ve zmenšení. Sever nahoře.",
+   "pause": 1.0
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: BOSTON, 14. 6., STANDARD TIME. Pás světla začíná 4:07; úsek 4:07–7:00 ambrově šrafovaný s popiskem DAYLIGHT WHILE WE SLEEP.",
+   "note": "4:07 EST spočítáno (factcheck S14). ‚Almost everyone is asleep‘ nese popisek, ne postavy."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: dva pásy Boston, červen — STANDARD TIME (4:07–19:22) a DAYLIGHT SAVING TIME (5:07–20:22). Ambrová šipka odebírá hodinu z rána a přidává ji večer; stupnice hodin stejná.",
+   "note": "‚Not by changing the Sun. By changing what we call the hour.‘ — Slunce (pás) se posune vůči STUPNICI, ne naopak; obraz nesmí ukázat posunuté Slunce na obloze."
+  },
+  {
+   "id": "S15b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "pause": 2.4,
+   "cta": true,
+   "note": "Výzva k odběru (docs/cta.md): obraz zděděný z S15, static. ~1:47, za první výplatou (Seattle–Miami, Boston 4:07), mezi bloky problém a historie."
+  },
+  {
+   "id": "S16",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-20: pohlednice „Deutsche Sommerzeit 1916“ s kalendářem 30. dubna (Commons, CC BY-SA 4.0 — atribuce povinná). Původní zadání: dobový německý plakát nebo vyhláška o letním čase 1916 (public domain). Když nic, svg karta 1916 s motivem uhlí. Zpětná vazba storyboard: dohledat skutečnou položku a licenci před renderem; když dobrý dobový materiál nebude, náhradní SVG karta, ne náhodný ‚historicky vypadající‘ obrázek.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Postkarte Einführung der Sommerzeit Deutschland 30. April 1916",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "historie",
+   "diagram": "Motiv `osa_let()` poprvé: vodorovná osa 1900–2030 na pevných souřadnicích (sdílí ji S17–S22, S32, S35, S39, S43, S45). Ambrově 1916: GERMANY · 30 APRIL · TO SAVE COAL a o kousek dál BRITAIN · 21 MAY.",
+   "note": "Datum a motiv uhlí z tz `europe` a factchecku. Rakousko-Uhersko tentýž den se nekreslí — hlas říká Germany."
+  },
+  {
+   "id": "S18",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-20: plakát United Cigar Stores 1918 „Saving Daylight! Set the clock ahead one hour and win the war!“ (NMAH, public domain) — text sedí na válečné opatření a rok 1918. Původní zadání: americký plakát 1918 (Uncle Sam a hodiny), public domain. Pod něj v gradu nic nepsat; rok a zrušení 1919 nese hlas. Plakát je dobový — pokud na něm je text, je čitelný a pravdivý, ověřit, co říká. Text plakátu musí odpovídat scénáři (1918, zrušení 1919, odpor farmářů se na plakátu nečeká — ten nese hlas). Zpětná vazba storyboard: dohledat skutečnou položku a licenci před renderem; když dobrý dobový materiál nebude, náhradní SVG karta, ne náhodný ‚historicky vypadající‘ obrázek.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Saving Daylight Mobilize an extra hour of daylight",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "historie",
+   "diagram": "`osa_let()`: 1918–1919 úsek ztlumený (REPEALED 1919), ambrový pruh 1942–1945 WAR TIME · ALL YEAR ROUND.",
+   "note": "Data CRS (factcheck S19)."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "historie",
+   "diagram": "Schéma trasy: svislá čára STEUBENVILLE, OHIO nahoře → MOUNDSVILLE, WEST VIRGINIA dole, 35 MILES; na ní sedm ambrových značek hodin (malé ciferníky bez čísel) se střídavým +1/−1. Nahoře 1960s.",
+   "note": "Sedm změn podle Staggerse (Congressional Record 1966, factcheck S20); `assert len(zmeny) == 7`. Polohy značek nejsou skutečná místa — rozmístit rovnoměrně a NEpopisovat města, na trase je ‚sedm změn‘, ne mapa."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "historie",
+   "diagram": "`osa_let()`: ambrově 1966 UNIFORM TIME ACT. Pod osou karta se dvěma řádky: A STATE MAY OPT OUT — WHOLE ✓ · ITS OWN DATES ✗.",
+   "note": "Výjimka pro část státu až 1972 — v kartě není (factcheck S21).",
+   "pause": 0.5
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "historie",
+   "diagram": "`osa_let()` celá: 1916, 1918, 1942–45, 1966 ztlumeně, od 1966 do 2026 plná čára TWICE A YEAR. Nahoře A WARTIME MEASURE, PART OF NORMAL LIFE.",
+   "note": "Konec bloku historie.",
+   "pause": 2.6
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "telo",
+   "diagram": "Silueta hlavy z profilu (`postava()` jen hlava), uvnitř malý ciferník bez čísel; zleva do oka paprsky světla. Popisek THE BODY CLOCK · SET MOSTLY BY LIGHT.",
+   "note": "NIGMS (factcheck S23). ‚Mostly‘ = světlo je hlavní, ne jediné — žádný jiný vstup se nekreslí, ale ani ‚ONLY‘.",
+   "pause": 0.5
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: v březnu po změně — budík na 7:00 stupnice, pod pásem druhá, ztlumená stupnice BODY posunutá o hodinu, kde stejný budík ukazuje 6:00.",
+   "note": "‚As far as our body is concerned‘ — druhá stupnice je tělo, ne Slunce. FOR DAYS se nekreslí jako graf (nemáme křivku)."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "telo",
+   "diagram": "Karta v ČÁRKOVANÉM rámu: SOME STUDIES · IN THE DAYS AFTER THE SPRING CHANGE · A BRIEF RISE IN CAR CRASHES · HEART ATTACKS. Bez čísel a bez grafu.",
+   "note": "Čárkovaně = sporné (factcheck S25: literatura smíšená, Sandhu přesun v rámci týdne). Obraz nesmí tvrdit víc než ‚some studies‘ — proto žádné procento.",
+   "pause": 2.2
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "volba",
+   "diagram": "PÁTEŘ `den()` s visacím zámkem přes stupnici a popiskem ONE TIME · ALL YEAR.",
+   "note": "‚Obvious answer‘."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "volba",
+   "diagram": "Dvě karty vedle sebe: PERMANENT STANDARD TIME | PERMANENT DAYLIGHT SAVING TIME, mezi nimi velký ambrový otazník.",
+   "note": "Karty stejně velké a stejnou barvou — obraz nevybírá vítěze (rozhodnutí uživatele 0.3). Rozděleno po draftu (v0.4): „Fine. But which one?“ bylo slité; S27b dědí obraz.",
+   "pause": 0.6,
+   "naveti": "Pick one time, and keep it all year."
+  },
+  {
+   "id": "S27b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "pause": 1.5,
+   "naveti": "Pick one time, and keep it all year.",
+   "note": "Druhý beat S27, obraz zděděný. Začíná ‚But‘ záměrně (beat). Pauza 1,5 (ne 1,4), aby se zapnula obětovaná věta — bez ní Kokoro za ‚one?‘ dosyčelo ‚ones‘."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: levá karta z S27 zmenšená nahoře; pás BOSTON, červen, standardní čas — východ 4:07, večer ztlumený úsek 19:22–20:22 LOST.",
+   "note": "‚In the north‘ — Boston je sever (factcheck S28). Popisek u východu ~4 AM, ne obecně v USA."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: pravá karta z S27 nahoře; pás BOSTON, prosinec, trvalý letní čas — východ 8:10, ráno do 8:10 tmavé ambrově ohraničené.",
+   "note": "Symetrie se S28 — stejné rozvržení, jiná karta."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: tři pásy, začátek ledna, trvalý letní čas: INDIANAPOLIS (východ 9:06), DETROIT (~9:01), SEATTLE (~8:58). Blok SCHOOL 8:00 přes všechny tři — celý v tmavé části.",
+   "note": "Čísla z factchecku S30. Popisky časů ve formě ~9:00 u Detroitu a Seattlu (hlas: ‚around nine‘), přesně 9:06 jen u Indianapolis (‚after nine‘).",
+   "pause": 0.5
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "historie",
+   "diagram": "`osa_let()`: ambrově 1974.",
+   "note": "Krátký předěl, návrat k teaseru z S07.",
+   "pause": 0.6
+  },
+  {
+   "id": "S32",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S32.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-20: benzinka v Oregonu, cedule EVEN NUMBERS ONLY, David Falconer, Documerica, únor 1974 (NARA 555489, public domain). Původní zadání: fronta u benzinky 1973/74 (NARA/Library of Congress, public domain). Kontaktní list, podívat se. Zpětná vazba storyboard: dohledat skutečnou položku a licenci před renderem; když dobrý dobový materiál nebude, náhradní SVG karta, ne náhodný ‚historicky vypadající‘ obrázek.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "State of Oregon first odd and even numbers gasoline",
+    "pick": 0
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S33",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S33.png",
+   "prompt": "children with school backpacks walking along a quiet suburban road before sunrise, dark navy sky, streetlights still on, seen from behind at a distance, small figures, frost on lawns",
+   "note": "Atmosféra ‚children walking to school before sunrise‘. Žádné úmrtí na Floridě (rozhodnutí: citlivé). Postavy zezadu a malé — negative hlídá tváře. SDXL až ve 3:40, ne v úvodu."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "anketa",
+   "diagram": "Dva sloupce: DEC 1973 79 % (INK) a FEB 1974 42 % (ambrově), pod nimi zdroj NORC · NEW YORK TIMES.",
+   "note": "Výšky sloupců z čísel (`assert`). ‚Four in five / two in five‘ v hlase, procenta v obraze — sedí."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "historie",
+   "diagram": "Osa 1974–1975: čárkovaný pruh PLANNED: 2 YEARS (6. 1. 1974 → duben 1975) a pod ním plný ambrový ACTUAL: 10 MONTHS (6. 1. → 27. 10. 1974), u konce OCTOBER: STANDARD TIME BACK.",
+   "note": "Plán čárkovaně (nikdy nenastal), skutečnost plně. 294 dní (factcheck).",
+   "pause": 1.4
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "mapa_usa",
+   "diagram": "Mapa USA po státech (Natural Earth admin-1, stáhnout): Arizona a Havaj ambrově s popiskem PERMANENT STANDARD TIME, ostatní MUTED. Navajo Nation se nevyznačuje.",
+   "note": "DATA: státy USA nejsou v repu, stáhnout Natural Earth 110m admin_1 (public domain). Aljaška a Havaj ve vsuvkách. Obraz nesmí rozlišovat Navajo — hlas ho nezmiňuje.",
+   "pause": 0.5
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "mapa_usa",
+   "diagram": "Táž mapa: 19 států s podmíněným zákonem o trvalém letním čase INK výrazně (AL, CO, DE, FL, GA, ID, LA, ME, MN, MS, MT, OK, OR, SC, TN, TX, UT, WA, WY), Arizona a Havaj dál ambrově ztlumeně. U Idaha a Oregonu vybarvit JEN část v pacifickém pásmu (průnik s Natural Earth 10m time_zones, UTC−8); zbytek obou států MUTED. Popisek 19 STATES · ONLY IF CONGRESS AGREES.",
+   "note": "Seznam států z factchecku S37; `assert len(...) == 19`. Zpětná vazba storyboard: celé ID a OR by bylo zavádějící. Rozsah obou zákonů PŘED KRESLENÍM ověřit z textu zákona (Idaho 2020, Oregon 2019 SB 320) a zapsat do factchecku. Když průnik s pásmy nepůjde (data, shapely), záloha: oba státy šrafovaně + drobná legenda SOME STATES: ONLY PART OF THE STATE."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "volba",
+   "diagram": "Dvě karty z S27 znovu, nad nimi společný nápis WE HATE THE SWITCH a mezi kartami nerozhodnuté ‚?‘.",
+   "note": "Rým s S27, konec amerického bloku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "historie",
+   "diagram": "`osa_let()`: ambrově 2011 RUSSIA: SUMMER TIME ALL YEAR, vpravo malá mapa Ruska (svet.json) s Moskvou.",
+   "note": "tz Europe/Moscow (factcheck)."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: MOSCOW, prosinec, UTC+4 — východ 9:57, dlouhá tma; pod ním na ose 2014 PERMANENT WINTER TIME.",
+   "note": "9:57 spočítáno. Moskva má v prosinci 7 h světla — pás to ukáže sám."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "eu",
+   "diagram": "Velké 84 % a pod ním 4.6 MILLION ANSWERS · EU · 2018; prstenec 84 % ambrově.",
+   "note": "Komise 31. 8. 2018 (factcheck)."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "eu",
+   "diagram": "Vodorovný pruh odpovědí rozdělený na GERMANY (~2/3) a ALL OTHER COUNTRIES; nad ním čárkovaně ONLINE · NOT A REPRESENTATIVE POLL.",
+   "note": "Podíl Německa DOPOČTENÝ (~68 %, factcheck S42) — kreslit 2/3 bez čísla v obraze; hlas říká jen ‚most‘."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "eu",
+   "diagram": "Mapa Evropy (svet.json): EU státy MUTED, nad mapou EUROPEAN PARLIAMENT · MARCH 2019 ✓; na každém státě drobný otazník WHICH TIME?",
+   "note": "‚The following spring‘ — datum v obraze 26. 3. 2019."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "eu",
+   "diagram": "Táž mapa, státy čárkovaně vybarvené třemi odstíny jako HYPOTHETICAL PATCHWORK, legenda tří časů.",
+   "note": "Čárkovaně = obava, ne skutečnost. Barvy znamenají ‚jiný čas‘ a mají legendu (pravidlo: barva bez významu si význam vyrobí). Rozložení odstínů nesmí kopírovat žádný skutečný návrh — náhodné, ale stálé (seed).",
+   "pause": 0.6
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "historie",
+   "diagram": "`osa_let()`: úsek 2019–2026 plný, na konci ambrově 25 OCTOBER 2026 · STILL CHANGING.",
+   "note": "Datum další změny v EU z factchecku.",
+   "pause": 2.8
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: pás s blokem rozvrhu a dvěma ambrovými otázkami: šipka nad stupnicí MOVE THE CLOCK? a šipka nad blokem MOVE THE DAY?",
+   "note": "Nová otázka za pointou (pravidlo ‚za pointou už nikdo nezůstane‘).",
+   "pause": 1.4
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "spanelsko",
+   "diagram": "Výřez západní Evropy (svet.json) se svislými poledníky: 0° LONDON, MADRID −3.7° (západně), 15° (poledník SEČ). Pásma podle Slunce jako svislé pruhy ±7,5°.",
+   "note": "Madrid leží v pásmu 0° — obraz to ukáže polohou, ne textem. Souřadnice z factchecku S47.",
+   "pause": 0.5
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "spanelsko",
+   "diagram": "Táž mapa: Španělsko, Francie a Německo stejnou barvou CENTRAL EUROPEAN TIME, popisek SINCE 1940 · THE TIME OF PARIS AND BERLIN.",
+   "note": "Žádná vazba na Německo 1940 v obraze (factcheck S48: cílem byla Francie, ‚gesto Hitlerovi‘ je mýtus).",
+   "pause": 0.5
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: MADRID, 21. 6., letní čas — pás 6:45–21:48, ambrová značka Slunce v nejvyšším bodě na 14:17.",
+   "note": "Uživatel: vysvětlit, že 14:15 na hodinách ≠ odpoledne. Spočítáno (factcheck S49)."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: Madrid; pod stupnicí CLOCK druhá stupnice SUN posunutá o ~2:15. Značky LUNCH 14:00 a DINNER 21:00 na hodinách, k nim TENKÉ NEUTRÁLNÍ (INK ztlumeně, bez šipek) svislé převodní čárky na ~11:45 a ~18:45 stupnice SUN.",
+   "note": "‚By the clock, that's late. By the Sun, it isn't.‘ Bez stereotypních záběrů jídla (uživatel 0.3). Posun stupnice SUN = sluneční poledne 14:17 − 12:00. Zpětná vazba storyboard: čárky jsou PŘEVOD mezi dvěma měřítky času, ne příčina — žádné šipky, žádná ambra, nic, co by tvrdilo, že Slunce určuje, kdy se jí."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: blok rozvrhu na pásu Madridu se posune po stupnici POZDĚJI, 9→11 (šipka; tak to Španělsko má, S50), stupnice stojí. Nahoře THE CLOCK ≠ THE SCHEDULE.",
+   "note": "Opak S15: tam se hýbala stupnice, tady blok. Konec bloku Španělsko.",
+   "pause": 0.6
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "volba",
+   "diagram": "Tři malé ikony v řadě: SUMMER HOURS · FLEXIBLE START · SHIFT WORK.",
+   "note": "Výčet s tečkami.",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: dvojice JUNE/DECEMBER z S09, ale blok rozvrhu je v červnu 7:00–15:00 a v prosinci 9:00–17:00, šipky mezi nimi.",
+   "note": "Rým s S09 — stejné souřadnice, liší se jen blok.",
+   "pause": 1.0
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "sit",
+   "diagram": "Jedna postava (`postava()`) s budíkem nad hlavou, uprostřed prázdného plátna.",
+   "note": "Začátek sítě: jeden uzel. Síť se v S55–S58 rozroste na týchž souřadnicích.",
+   "pause": 0.5
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "sit",
+   "diagram": "Motiv `sit()`: postava uprostřed, kolem ní uzly OFFICE, SCHOOL, BUS, DAYCARE, SHOP spojené čarami; každý nový uzel ambrově.",
+   "note": "Výčet ‚And their bus. And the daycare.‘",
+   "vycet": 0.3,
+   "pause": 0.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "sit",
+   "diagram": "`sit()` rozšířená: TRAIN TIMETABLE, COMPANY IN ANOTHER STATE.",
+   "note": "Uzly na pevných pozicích v `_kit.py`."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "sit",
+   "diagram": "`sit()`: všechny spojnice čárkovaně a u každého uzlu malý otazník.",
+   "note": "‚Agreed with everyone else‘ — nejistota každé vazby."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "sit",
+   "diagram": "`sit()`: uprostřed místo postavy jeden ciferník 2:00 → 3:00, plné ambrové spojnice ke všem uzlům najednou. Nahoře ONE STEP · SAME RULES.",
+   "note": "‚Everyone following the same rules‘ (oprava v0.2) — ne ‚celý svět‘, proto SAME RULES."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "sit",
+   "diagram": "Táž síť jako S58 a nad ní CLUMSY. BRUTALLY SIMPLE.",
+   "note": "Beat — stejný obraz, jen nápis.",
+   "pause": 1.4
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "software",
+   "diagram": "Okno editoru kódu s jednou řádkou a ambrovou poznámkou // ONE HOUR (bez skutečného kódu, který by se dal číst jako chybný).",
+   "note": "Přechod k softwaru. v0.4: ‚simple for people‘ → ‚simple to coordinate‘ — pro lidi to jednoduché není (spánek, S23–S25), jednoduchá je jen domluva."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: dva pásy stupnice — NOVEMBER: úsek 1:00–2:00 zdvojený (dva stejné dílky nad sebou) a MARCH: úsek 2:00–3:00 chybí (mezera).",
+   "note": "Z 15 U.S.C. 260a. Zdvojení a mezera musí být na stupnici, ne v pásu světla (jde o hodiny, ne o Slunce)."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "software",
+   "diagram": "Mřížka pěti ikon: CALENDAR, RECURRING MEETING, ALARM, PAYROLL, NIGHT SHIFT.",
+   "note": "Bez teček ve výčtu (čárky) — `vycet` netřeba.",
+   "pause": 0.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "software",
+   "diagram": "Výpis jako z tz NEWS: řádky ‚2016f — EGYPT CANCELS DST, THREE DAYS AHEAD‘ a ‚2026e — MANITOBA MOVES TO PERMANENT −05‘ a pod nimi ztlumené další řádky. Nahoře THE TIME ZONE DATABASE.",
+   "note": "Citace z NEWS (factcheck S63) — zkrácené, ne vymyšlené.",
+   "pause": 2.8
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "zaver",
+   "diagram": "Nadpis WHY DO WE STILL CHANGE THE CLOCKS? nad pásem z S01.",
+   "note": "Rým s S06.",
+   "pause": 1.4
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: dvojice DECEMBER/JUNE s pevným blokem — přesně S09.",
+   "note": "Výplata páteře: týž obraz, teď s odpovědí."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "den",
+   "diagram": "PÁTEŘ `den()`: přesně S53 (posunutý blok).",
+   "note": "Rým s S53."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: `sit()` zmenšená, všechny uzly a ciferník uprostřed.",
+   "note": "Koncová obrazovka začíná: S67–S70 kreslí jen do dolní poloviny nad pásem titulku; horní polovina prázdná pro dlaždici a kolečko (docs: prvky patří nahoru)."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: PÁTEŘ `den()` zmenšený — dvanáct tenkých pásů JAN–DEC POD SEBOU (ne přes sebe) se společnou stupnicí nahoře; světlo všech měsíců jednou barvou s jasným obrysem, takže okraje vytvoří tvar čočky (východy a západy během roku). Přes všech dvanáct jeden pevný ambrový blok rozvrhu.",
+   "note": "Výplata páteře: proměnlivé světlo, neměnný rozvrh. Zpětná vazba storyboard: průsvitné pásy přes sebe by se slily do skvrny a dvanáct barev nechceme — proto pod sebou, jedna barva, obrysy. Rým s S13 (pásy pod sebou). Horní polovina prázdná."
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: MAYBE THERE ISN'T ONE PERFECT SOLUTION.",
+   "note": "Klidná deska.",
+   "pause": 0.6
+  },
+  {
+   "id": "S69b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69b.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: deska S69 ztlumená a pod ní ambrově MAYBE THE LEAST BAD ONE.",
+   "note": "Přání uživatele po draftu (v0.4): střídání jako nejlepší z nejhorších řešení. Názor, ne fakt — proto ‚might just be‘ a v obraze otazník."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: vlevo malý ciferník s posunem o hodinu, vpravo `sit()` v miniatuře, mezi nimi EASIER THAN MOVING A SOCIETY.",
+   "note": "Poslední deska, static, horní polovina prázdná. v0.4: ‚the way an entire society lives‘ → ‚the daily schedule…‘ (Kokoro četlo lives jako /laɪvz/).",
+   "pause": 3.0
+  }
+ ]
+}

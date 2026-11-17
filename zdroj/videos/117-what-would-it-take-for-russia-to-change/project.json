@@ -1,0 +1,103 @@
+{
+ "title": "What Would It Take for Russia to Change?",
+ "slug": "117-what-would-it-take-for-russia-to-change",
+ "languages": [
+  "en",
+  "cs",
+  "sv",
+  "es",
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "pl",
+  "id",
+  "tr",
+  "uk",
+  "vi",
+  "fi"
+ ],
+ "resolution": [
+  1920,
+  1080
+ ],
+ "fps": 25,
+ "voice": {
+  "engine": "kokoro",
+  "name": "bf_emma",
+  "speed": 0.88,
+  "lang": "en-gb"
+ },
+ "timing": {
+  "scene_pause": 0.8,
+  "lead_in": 0.15,
+  "tail": 1.2,
+  "sentence_pause": 0.45,
+  "min_sentence_words": 1
+ },
+ "video": {
+  "transition": "dissolve",
+  "transition_dur": 0.6,
+  "source_resolution": [
+   2560,
+   1440
+  ],
+  "supersample": 3,
+  "supersample_draft": 2,
+  "crf": 18,
+  "preset": "slow"
+ },
+ "sdxl": {
+  "checkpoint": "sd_xl_base_1.0.safetensors",
+  "steps": 30,
+  "cfg": 6.5,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "hires_denoise": 0.45,
+  "style": "painterly editorial illustration, vast northern landscapes, wide open plains, birch forests, grey rivers and quiet post-Soviet streets under flat grey overcast sky, no sun, muted palette of deep slate blue, cold grey and birch white with a single warm amber accent, subtle film grain, restrained detail, calm editorial composition, no text",
+  "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, insignia, flags, markings on vehicles, diagram annotations, faces, explosions, gore, oversaturated, neon, blurry, low quality, deformed, national flags, emblems, uniforms with insignia, explosions, fire, blood, corpses"
+ },
+ "audio": {
+  "target_lufs": -14.0,
+  "music": "audio/music.wav",
+  "music_sections": [["S01", "S05"], ["S17", "S21"], ["S39", "S42"], ["S55", "S57"], ["S63", "S67"], ["S72", "S75"]],
+    "music_gain_db": -37.6,
+  "duck": {
+   "threshold": 0.03,
+   "ratio": 6,
+   "attack": 20,
+   "release": 900
+  },
+  "music_root": 146.83,
+  "music_seed": 117
+ },
+ "subtitles": {
+  "max_chars": 42,
+  "burn_in": false,
+  "lead_in": 0.15,
+  "frazovani": true
+ },
+ "pronounce": {
+  "1861": "eighteen sixty-one",
+  "1969": "nineteen sixty-nine",
+  "1970": "nineteen seventy",
+  "1984": "nineteen eighty-four",
+  "1990": "nineteen ninety",
+  "1991": "nineteen ninety-one",
+  "1993": "nineteen ninety-three",
+  "1994": "nineteen ninety-four",
+  "1997": "nineteen ninety-seven",
+  "2008": "two thousand and eight",
+  "2011": "twenty eleven",
+  "2018": "twenty eighteen",
+  "2020": "twenty twenty",
+  "2022": "twenty twenty-two",
+  "2023": "twenty twenty-three",
+  "2036": "twenty thirty-six"
+ },
+ "archive_grade": {
+  "saturation": 95,
+  "tint_amount": 0,
+  "vignette": false
+ }
+}

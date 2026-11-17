@@ -1,0 +1,1156 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU, NE ATMOSFÉRU a záměrně NENÍ sdxl: nepoměr mezi šířkou problému a šířkou odpovědi je to, co dělá téma zajímavým, a je v obraze dřív, než divák ví, o čem video je. ZAVEDENÍ PÁTEŘE.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo široký šedý blok popsaný THE PROBLEM, vpravo jediné úzké ambrové políčko THE ANSWER, mezi nimi rovnítko. Oba stojí na vodorovné LINCE DŮVĚRY v HLADINA_Y, která je zatím plná a vysoko."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat sdílí obraz s S01, mění se jediná věc — pod linkou naskočí postavy, zatím všechny šedé. Ne nový střih.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž kompozice. Pod linkou přibyde řada drobných postav, všechny tlumené. Žádný popisek.",
+      "pause": 0.45,
+      "naveti": "These politicians win elections."
+    },
+    {
+      "id": "S02b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02b.png",
+      "note": "Druhá půlka beatu na TÉMŽE obrazu: obarví se většina postav a naskočí popisek. Scéna vznikla rozdělením S02, protože větnou pauzu za „And it works.\" pojistka odmítla (v místě řezu zní řeč) — mezi scénami se scene_pause PŘIDÁVÁ, takže ji nemá co odmítnout.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž kompozice i tytéž postavy. Ambrově se vybarví většina z nich, popisek ENOUGH TO WIN."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Očekávání diváka dostane vlastní obraz, aby se dalo v S04 přeškrtnout.",
+      "diagram_generator": "uvod",
+      "diagram": "Linka vysoko a plná, nad ní štítek STAKES ARE LOW. Vpravo čárkovaná šipka k slotu s otazníkem — takhle by to podle očekávání mělo vypadat."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Škrtá se OČEKÁVÁNÍ, ne tvrzení — proto vodorovná čára přes nápis (text_skrtnuty), ne křížek přes celý obraz.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž kompozice, nápis STAKES ARE LOW přeškrtnutý vodorovnou čarou, čárkovaná šipka zšedne."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Teze videa. Linka poprvé klesá — od téhle scény je její výška nositelem argumentu a nesmí se hýbat nahodile.",
+      "diagram_generator": "uvod",
+      "diagram": "Linka se láme dolů a ztenčuje; nad ní popisek BELIEF THAT ANYONE IN CHARGE CAN FIX ANYTHING. Sloty nad ní se otevřou (tečkované obrysy).",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Beat. Tři sloty na PEVNÝCH souřadnicích SLOT_X — zavádí se tu motiv, který se vyplatí až v S116 („somebody else simply takes the slot\"). Žádná podobizna, žádný symbol strany: viz notes.md, kapitola o neutralitě.",
+      "diagram_generator": "trojice",
+      "diagram": "Tři prázdné rámečky v řadě na LINCE. V prvním nápis TRUMP, zbylé dva zatím prázdné.",
+      "naveti": "The first name is easy."
+    },
+    {
+      "id": "S06b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06b.png",
+      "note": "Beat, tentýž obraz, přibývá druhý nápis.",
+      "diagram_generator": "trojice",
+      "diagram": "Táž řada, ve druhém rámečku AfD."
+    },
+    {
+      "id": "S06c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06c.png",
+      "note": "Beat, tentýž obraz, přibývá třetí nápis.",
+      "diagram_generator": "trojice",
+      "diagram": "Táž řada, ve třetím rámečku FICO."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Shrnutí řady — pod každý slot přibyde země.",
+      "diagram_generator": "trojice",
+      "diagram": "Táž řada, pod rámečky USA / GERMANY / SLOVAKIA."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Čísla se kreslí, ne vypisují do věty. Datum je v obraze, protože scénář ho říká a divák si ho nemá pamatovat.",
+      "diagram_generator": "trojice",
+      "diagram": "První slot zvětšený. Vodorovný pruh lidového hlasu rozdělený 49.8 / 48.3, vedle počitadlo 312 : 226 a datum NOVEMBER 2024."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Dva sloupce vedle sebe, aby zdvojnásobení bylo vidět tvarem, ne textem.",
+      "diagram_generator": "trojice",
+      "diagram": "Druhý slot zvětšený. Dva sloupce: 2021 na 10.4 % a 2025 na 20.8 %, druhý ambrový, k němu štítek SECOND PLACE a datum FEBRUARY 2025."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Beat sdílí obraz s S09 — přidá se JEN měřítko, žádný nový obraz.",
+      "diagram_generator": "trojice",
+      "diagram": "Táž dvojice sloupců, mezi nimi svorka s nápisem ×2."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Třetí slot. Čtyři mandáty jako čtyři značky, ne jako číslo.",
+      "diagram_generator": "trojice",
+      "diagram": "Třetí slot zvětšený, pod ním čtyři značky na časové ose, poslední ambrová, popisek FOURTH TIME."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Ohlášení obratu — obraz se má na chvíli vyprázdnit.",
+      "diagram_generator": "trojice",
+      "diagram": "Tři sloty zmenšené zpátky do řady, mezi ně vstoupí čárkovaný svislý řez s otazníkem."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "NEJDŮLEŽITĚJŠÍ JEDNOTLIVÝ FAKT VIDEA (viz factcheck.md). Jméno strany musí být čitelné celé, proto přes dva řádky.",
+      "diagram_generator": "trojice",
+      "diagram": "Třetí slot, pod ním rámeček s nápisem DIRECTION — SOCIAL DEMOCRACY."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Minulý čas scénáře („sat\") nese obraz: linka k rodině je přerušená.",
+      "diagram_generator": "trojice",
+      "diagram": "Z rámečku vede čára do většího rámečku PARTY OF EUROPEAN SOCIALISTS; čára je přerušená a u přerušení štítek SUSPENDED 2023."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Výplata do 1:10. Osa levice–pravice je jediné místo videa, kde se politická osa vůbec kreslí — a kreslí se proto, aby se vzápětí ukázalo, že na ní nezáleží.",
+      "diagram_generator": "trojice",
+      "diagram": "Vodorovná osa LEFT — RIGHT. Značky TRUMP a AfD vpravo, FICO ambrově VLEVO. Nic jiného v obraze."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Tři popisky na téže ose, souměrně — viz kontrola souměrnosti.",
+      "diagram_generator": "trojice",
+      "diagram": "Táž osa, u každé značky zařazení: RADICAL RIGHT / REPUBLICAN / SOCIAL DEMOCRAT. Všechny tři stejnou velikostí a stejnou barvou."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Rozpory se kreslí jako rozestup, ne jako konflikt.",
+      "diagram_generator": "trojice",
+      "diagram": "Tři sloty daleko od sebe, mezi nimi tři přeškrtnuté spojnice s popiskem DISAGREE."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Obrat scény: nahoře různé, dole totéž. Tenhle dvoupatrový tvar se vrací v S40 a ve S110.",
+      "diagram_generator": "trojice",
+      "diagram": "Táž trojice nahoře, pod nimi jeden společný ambrový blok přes celou šířku s nápisem THE SAME MACHINERY.",
+      "pause": 1.2
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "VÝZVA K ODBĚRU. Umístění i znění podle rozhodnutí z 2026-09-21 (video 062): blízko začátku, za blok výplat a před „So let's find out\" beat, ne za hlavní pointou. Vychází na ~1:39, tedy za útesem 0:50–1:10. DĚDÍ obrázek S18 — statický diagram, takže v místě střihu nic neskočí. Nápis vypálí render.py ze sdílené vrstvy.",
+      "diagram_generator": "trojice",
+      "diagram": "tentýž obraz jako S18",
+      "cta": true,
+      "pause": 2.4
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Otázka dostane prázdný obraz, ať pauza není přes kresbu.",
+      "diagram_generator": "tvar",
+      "diagram": "Prázdný ambrový obrys stroje uprostřed, uvnitř otazník."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Zúžení pojmu se kreslí jako zúžení, ne jako definice.",
+      "diagram_generator": "tvar",
+      "diagram": "Široký šedý kruh EVERYDAY USE, uvnitř menší ambrový kruh RESEARCH SENSE; mezikruží ztlumené."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Škrtá se, čím populismus NENÍ. Vodorovná čára přes nápis.",
+      "diagram_generator": "tvar",
+      "diagram": "Seznam POLICY PROGRAMME / MANIFESTO / SET OF POLICIES, celý přeškrtnutý jednou vodorovnou čarou přes každý řádek."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Jedna věta, velké písmo, nic jiného.",
+      "diagram_generator": "tvar",
+      "diagram": "Uprostřed jediný nápis ONE CLAIM ABOUT WHO YOU ARE."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "POZOR, scéna, ve které něco míří na někoho: elita drží systém, ne lidi. Šipka musí končit u rámečku SYSTEM, ne u postav.",
+      "diagram_generator": "tvar",
+      "diagram": "Dole široká řada postav THE PEOPLE, nahoře malý rámeček THE ELITE, mezi nimi vodorovný pruh THE SYSTEM. Ambrová šipka od ELITE k pruhu."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Beat. Obraz se jen ztlumí a orámuje, žádný nový.",
+      "diagram_generator": "tvar",
+      "diagram": "Týž obraz jako S23, orámovaný a ztlumený, popisek THAT IS THE WHOLE IDEA."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Tenkost ideologie jako prázdné místo, do kterého se dosazuje.",
+      "diagram_generator": "tvar",
+      "diagram": "Týž tvar, ale rámeček THE ELITE je prázdný a čárkovaný, s popiskem FILL IN."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Dvě dosazení vedle sebe. Barva NESMÍ hodnotit — obě ambrové.",
+      "diagram_generator": "tvar",
+      "diagram": "Dvakrát týž tvar vedle sebe; v levém je do prázdného rámečku dosazeno BILLIONAIRES, v pravém BRUSSELS. Popisky LEFT-WING / RIGHT-WING."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Obě dosazení se slijí do jedné věty — přechod k S29.",
+      "diagram_generator": "tvar",
+      "diagram": "Oba tvary se sbíhají do jednoho prázdného řádku s podtržítky."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Ohlášení, obraz zůstává prázdný.",
+      "diagram_generator": "tvar",
+      "diagram": "Prázdný řádek s podtržítky, uprostřed obrazu."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tři řádky věty pod sebou, souměrnost se počítá, ne odhaduje.",
+      "diagram_generator": "tvar",
+      "diagram": "Tři řádky: YOU HAVE A PROBLEM. / THE PEOPLE IN CHARGE CAUSED IT. / I WILL END IT. Třetí ambrově."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Beat, první ze tří. Sdílí obraz s S30b a S30c.",
+      "diagram_generator": "tvar",
+      "diagram": "Tři prázdná políčka v řadě; v prvním nápis ONE PROBLEM.",
+      "naveti": "The move is always the same."
+    },
+    {
+      "id": "S30b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30b.png",
+      "note": "Beat, druhý.",
+      "diagram_generator": "tvar",
+      "diagram": "Táž řada, ve druhém ONE VILLAIN.",
+      "naveti": "The second move is always the same."
+    },
+    {
+      "id": "S30c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30c.png",
+      "note": "Beat, třetí. Tenhle obraz je nejcitovanější v celém videu.",
+      "diagram_generator": "tvar",
+      "diagram": "Táž řada, ve třetím ONE SOLUTION; všechna tři políčka ambrová.",
+      "pause": 2.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Očekávání znovu dostane vlastní obraz, ať jde v S32 obrátit.",
+      "diagram_generator": "realne",
+      "diagram": "Políčko ONE PROBLEM, v něm ambrový nápis INVENTED a čárkovaný obrys."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Obrat jedním tahem: čárkovaný obrys se změní na plný.",
+      "diagram_generator": "realne",
+      "diagram": "Totéž políčko, INVENTED přeškrtnuto vodorovnou čarou, pod ním plné REAL."
+    },
+    {
+      "id": "S33",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S33.png",
+      "note": "Jediná atmosférická scéna první poloviny. Reálný problém musí na chvíli vypadat jako ulice, ne jako rámeček — jinak je celý blok o „skutečných problémech\" jen další diagram. Bez lidí: negativ projektu blokuje obličeje a dav.",
+      "prompt": "a row of ordinary terraced houses on a quiet street, seen from across the road, empty pavement, closed doors, flat grey overcast sky, no people, no cars, no text"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Výčet problémů se NESMÍ oddělit od S36 — bez ní by to bylo tvrzení o stavu světa bez dokladu (viz factcheck.md).",
+      "diagram_generator": "realne",
+      "diagram": "Tři rámečky pod sebou: HOUSING / HEALTHCARE / WAGES, každý s drobným symbolem a šipkou nahoru u ceny."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Druhá půlka téhož výčtu, tatáž mřížka, aby to bylo jedno gesto.",
+      "diagram_generator": "realne",
+      "diagram": "Tři další rámečky v téže mřížce: INFRASTRUCTURE / BORDER / ECONOMY."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Rámující scéna: říká, že ty problémy jsou měřitelné, ne že v konkrétní zemi platí. Drží neutralitu celého bloku.",
+      "diagram_generator": "realne",
+      "diagram": "Šest rámečků z S34–S35 zmenšených do mřížky, přes ni ambrový štítek CAN BE MEASURED."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Rozdíl vymyslet / vysvětlit jako dvě různé šipky.",
+      "diagram_generator": "realne",
+      "diagram": "Vlevo přeškrtnutá šipka INVENT, vpravo plná ambrová šipka EXPLAIN, obě míří k témuž shluku šesti rámečků."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Nálevka: šest vstupů, jeden výstup.",
+      "diagram_generator": "realne",
+      "diagram": "Šest rámečků se sbíhá do nálevky, z ní vede jediný prázdný ambrový řádek na jedno slovo."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Šest slov se STEJNOU vahou a stejnou barvou. Kdyby jedno vyčnívalo, video by si vybralo viníka — přesně to, co popisuje jako trik.  Výčet jede na VÝPUSTKÁCH, ne na větných pauzách: min_sentence_words 4 slepí jednoslovné věty, takže se na hranicích nesčítají dvě pauzy a mezery vyjdou rovnoměrněji.",
+      "diagram_generator": "realne",
+      "diagram": "Šest štítků v kruhu kolem prázdného řádku: IMMIGRANTS / BRUSSELS / WASHINGTON / CORPORATIONS / BILLIONAIRES / THE ESTABLISHMENT.",
+      "min_sentence_words": 4
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Návrat dvoupatrového tvaru z S18: nahoře různé, dole totéž.",
+      "diagram_generator": "realne",
+      "diagram": "Nahoře šest štítků ztlumených, dole jeden ambrový blok THE SHAPE, spojnice od všech šesti k němu.",
+      "pause": 2.4
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Ohlášení měření — obraz se překlopí z metafor do dat.",
+      "diagram_generator": "algan",
+      "diagram": "Prázdná osa grafu, zatím bez dat, s popiskem A MEASUREMENT."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "DATA MUSÍ BÝT V OBRAZE OD PRVNÍHO SNÍMKU (poučka z druhé zpětné vazby: prázdné osy čte divák jako rozbitý graf). Proto se tu nekreslí prázdná mapa, ale rovnou posetá.",
+      "diagram_generator": "algan",
+      "diagram": "Obrys Evropy pokrytý 220 drobnými body, popisek 220 REGIONS a 2008–2016, zdroj ALGAN, GURIEV, PAPAIOANNOU, PASSARI (2017)."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Otázka studie jako popisek nad týmž obrazem.",
+      "diagram_generator": "algan",
+      "diagram": "Táž mapa, nad ní nápis WHAT MOVED THE VOTES?"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "První nález. Osa X nezaměstnanost, osa Y hlasy.",
+      "diagram_generator": "algan",
+      "diagram": "Bodový graf: vodorovně UNEMPLOYMENT, svisle ANTI-ESTABLISHMENT VOTE, mrak bodů se stoupající proložkou."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Beat, tentýž graf jen ztlumený.",
+      "diagram_generator": "algan",
+      "diagram": "Týž graf, proložka zšedne, štítek NOT SURPRISING."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Beat před obratem. Prázdno je tu záměr.",
+      "diagram_generator": "algan",
+      "diagram": "Prázdný ambrový rámeček, uvnitř nic.",
+      "naveti": "That part is not surprising."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Druhý nález: dvě klesající proložky vedle sebe.",
+      "diagram_generator": "algan",
+      "diagram": "Dva grafy vedle sebe, oba s klesající proložkou: TRUST IN NATIONAL PARLIAMENT a TRUST IN EU INSTITUTIONS."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Třetí nález je PLOCHÁ proložka. Musí být vidět, že je plochá, ne že graf chybí — proto stejné měřítko os jako u S44 a S47.",
+      "diagram_generator": "algan",
+      "diagram": "Třetí graf v téže mřížce: ATTITUDES TOWARDS IMMIGRANTS, proložka vodorovná, popisek FLAT."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Nejpřekvapivější údaj videa. Šipka směřuje mírně NAHORU a je ambrová, protože právě o tomhle je řeč.",
+      "diagram_generator": "algan",
+      "diagram": "Výřez třetího grafu, dílčí řada CULTURAL IMPACT s proložkou lehce stoupající, popisek SLIGHTLY MORE OPEN."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Beat — obraz se nemění, jen se orámuje to podstatné.",
+      "diagram_generator": "algan",
+      "diagram": "Tři proložky z S44, S47 a S48 vedle sebe v jedné řadě: stoupá, klesá, plochá.",
+      "dovetek": "And that is the whole point."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Co to NENÍ. Škrtá se vodorovnou čarou přes nápis.",
+      "diagram_generator": "algan",
+      "diagram": "Tatáž trojice, proložka IMMIGRANTS přeškrtnutá, popisek NOT THIS."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Co to je. Ambrově se vybarví prostřední.",
+      "diagram_generator": "algan",
+      "diagram": "Tatáž trojice, proložka INSTITUTIONS ambrová, popisek THIS."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Dva objekty vedle sebe, ne jeden nad druhým — scénář mluví o dvou různých věcech, ne o příčině a následku.",
+      "diagram_generator": "algan",
+      "diagram": "Dva oddělené rámečky: THE ARGUMENT a WHAT MOVED THE VOTES, mezi nimi mezera a přeškrtnuté rovnítko."
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "note": "FÉROVÁ BRZDA. Čárkovaný obrys znamená „doloženo jednou studií\", ne hypotéza — konvence se drží celým videem.",
+      "diagram_generator": "algan",
+      "diagram": "Předchozí obraz zmenšený do čárkovaného rámečku s popiskem ONE STUDY / ONE CONTINENT / ONE CRISIS."
+    },
+    {
+      "id": "S53c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53c.png",
+      "note": "Brzda se hned vyváží: pořád je to měření.",
+      "diagram_generator": "algan",
+      "diagram": "Týž rámeček, z něj vede ambrová šipka jedním konkrétním směrem, popisek POINTS SOMEWHERE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Předěl ke druhé polovině — vrací se sloty z S06.",
+      "diagram_generator": "duvera",
+      "diagram": "Řada slotů z S06 ztlumená, před ní rámeček ESTABLISHED PARTIES."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Hlasy jako přemístitelné body, ne jako čísla.",
+      "diagram_generator": "duvera",
+      "diagram": "Vlevo plný rámeček s body, vpravo prázdný slot; popisky WHERE THE VOTES ARE a WHERE THE POPULIST NEEDS THEM."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Mezi rámečky vznikne mezera, kterou musí něco překlenout.",
+      "diagram_generator": "duvera",
+      "diagram": "Táž dvojice, mezi nimi propast s čárkovaným mostem a otazníkem."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Ohlášení čtyř slov, prázdná políčka připravená.",
+      "diagram_generator": "duvera",
+      "diagram": "Čtyři prázdná políčka v řadě."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Nejsilnější věta první poloviny. Nic jiného v obraze.",
+      "diagram_generator": "duvera",
+      "diagram": "Čtyři políčka vyplněná: YOU / HAD / YOUR / CHANCE, ambrově.",
+      "pause": 2.8
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Ohlášení druhého měření, osa se ukáže i s rozsahem let.",
+      "diagram_generator": "duvera",
+      "diagram": "Osa let 1958 → 2025, zatím bez křivky, popisek TRUST IN THE GOVERNMENT IN WASHINGTON."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "DATA OD PRVNÍHO SNÍMKU: křivka je celá hned, jen se zvýrazňuje bod. Nájezd po částech vyráběl u minulých videí dojem rozbitého grafu.",
+      "diagram_generator": "duvera",
+      "diagram": "Celá Pewova křivka 1958–2025, ambrově zvýrazněný bod 1958 na 73 %."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Týž graf, druhý zvýrazněný bod. Žádný nový obraz.",
+      "diagram_generator": "duvera",
+      "diagram": "Táž křivka, zvýrazněný bod SEPTEMBER 2025 na 17 %."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Rozklad 17 na 2 + 15 jako dva pruhy, ne jako text.",
+      "diagram_generator": "duvera",
+      "diagram": "Výřez: sloupec 17 % rozdělený na 2 % JUST ABOUT ALWAYS a 15 % MOST OF THE TIME."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Časový oblouk je pointa scény, proto se ukáže celá řada najednou. Poslední scéna bloku — pod ní se LINKA DŮVĚRY z páteře poprvé ztotožní se skutečnými daty.",
+      "diagram_generator": "duvera",
+      "diagram": "Celá křivka přes sedmdesát let, pod ní LINKA DŮVĚRY z páteře ve stejném sklonu, popisek NEARLY SEVENTY YEARS."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Klesající linka otevře slot — návrat páteře z S05.",
+      "diagram_generator": "duvera",
+      "diagram": "Linka nízko, nad ní se otevře prázdný slot s čárkovaným obrysem."
+    },
+    {
+      "id": "S65",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S65.png",
+      "note": "Prázdný řečnický pult je jediný způsob, jak nakreslit „kandidáta, který by dřív neprošel\", aniž by se kreslil konkrétní člověk. Nikdo v obraze = nikdo se nedá poznat.",
+      "prompt": "an empty lectern alone on a bare stage, rows of empty chairs facing it, flat grey overcast light from high windows, dust in the air, nobody present, no text"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Co to NENÍ. Přeškrtnutý nápis, ne přeškrtnutá postava.",
+      "diagram_generator": "duvera",
+      "diagram": "Slot s nápisem BECAUSE THEY LOVE HIM, přeškrtnuto vodorovnou čarou."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Zrcadlo S57 — čtyři políčka podruhé.",
+      "diagram_generator": "duvera",
+      "diagram": "Čtyři prázdná políčka v řadě, na týchž souřadnicích jako v S57."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Zrcadlo S58. Obě věty musí sedět na stejném místě obrazu.",
+      "diagram_generator": "duvera",
+      "diagram": "Čtyři políčka vyplněná: WHAT DO WE HAVE TO LOSE?, ambrově.",
+      "pause": 2.8
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Co ta věta NEJE — argument pro někoho.",
+      "diagram_generator": "duvera",
+      "diagram": "Šipka mířící k slotu, přeškrtnutá, popisek NOT AN ARGUMENT FOR ANYONE."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "POZOR, scéna, ve které něco míří na někoho: šipka míří na ETABLOVANÉ strany, ne na kandidáta ve slotu.",
+      "diagram_generator": "duvera",
+      "diagram": "Ambrová šipka od voličů k rámečku EVERYONE ELSE, popisek AN ARGUMENT AGAINST."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Ohlášení jádra videa, obraz se vyprázdní.",
+      "diagram_generator": "duvera",
+      "diagram": "Prázdný obraz s jediným ambrovým rámečkem uprostřed."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "JÁDRO VIDEA, první půlka. Váhy jsou tu proto, že se v S74 překlopí.",
+      "diagram_generator": "duvera",
+      "diagram": "Váhy: na levé misce WILL THE SIMPLE SOLUTION WORK?, miska je těžká a dole, popisek HARD."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Proč je to těžké — protože se to dá ověřit.",
+      "diagram_generator": "duvera",
+      "diagram": "Nad levou miskou kontrolní značky, popisek SOLUTIONS CAN BE CHECKED."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "JÁDRO VIDEA, druhá půlka. Váhy se překlopí — tentýž tvar, jiný stav.",
+      "diagram_generator": "duvera",
+      "diagram": "Tytéž váhy, pravá miska HAS THE CURRENT ONE FAILED? klesá, ambrově, popisek EASIER."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Nejdůležitější scéna videa — jádro, které si vyžádal uživatel. Statický diagram, jako celý blok.",
+      "diagram_generator": "duvera",
+      "diagram": "Pravá miska úplně dole, pod ní ambrový podklad s nápisem QUITE OFTEN IT IS SIMPLY TRUE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Předěl, druhá výhoda dostane vlastní číslo.",
+      "diagram_generator": "slogan",
+      "diagram": "Dva rámečky pod sebou: 1. NO NEED TO BE RIGHT (ztlumený, hotový) a 2. prázdný ambrový."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Dva řečníci jako dva sloty, ne jako postavy s obličeji.",
+      "diagram_generator": "slogan",
+      "diagram": "Dvě prázdné bubliny vedle sebe, pod nimi POLITICIAN ONE a POLITICIAN TWO."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Šest položek se musí vejít CELÝCH — je to ukázka složitosti, takže zkrácený výčet by scénu popřel.",
+      "diagram_generator": "slogan",
+      "diagram": "Levá bublina plná: ZONING / CONSTRUCTION / INTEREST RATES / DEMOGRAPHICS / LOCAL OPPOSITION / DECADES OF SHORTFALL."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Pravá bublina má být PRÁZDNĚJŠÍ, to je celé tvrzení scény.",
+      "diagram_generator": "slogan",
+      "diagram": "Pravá bublina: THEY MADE HOUSING UNAFFORDABLE. I'LL FIX IT. Ambrově, velkým písmem, hodně volného místa kolem."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Otázka na diváka — obě bubliny vedle sebe, bez hodnocení.",
+      "diagram_generator": "slogan",
+      "diagram": "Obě bubliny vedle sebe, mezi nimi otazník."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Kontext jako nosná konstrukce pod větou.",
+      "diagram_generator": "slogan",
+      "diagram": "Vlevo věta na široké podnoži popsané CONTEXT, vpravo věta stojící sama."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Třicet sekund jako pruh, do kterého se tři políčka vejdou.",
+      "diagram_generator": "slogan",
+      "diagram": "Vodorovný pruh 0–30 s, v něm tři políčka PROBLEM / VILLAIN / SOLUTION a za nimi volné místo."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Týž pruh, jediná změna: nevejde se.",
+      "diagram_generator": "slogan",
+      "diagram": "Týž pruh, do něj se nevejde křivka nabídky — přesahuje ven, popisek SUPPLY CURVE."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Ohlášení pasti.",
+      "diagram_generator": "slogan",
+      "diagram": "Ambrový rámeček s nápisem THE TRAP, prázdný."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Čtyři problémy STEJNĚ velké. Kdyby jeden vyčníval, video by tvrdilo, který je hlavní — a to je přesně ta chyba, kterou popisuje.",
+      "diagram_generator": "slogan",
+      "diagram": "Čtyři stejně velké kruhy: IMMIGRATION / HOUSING / AGEING / WEAK GROWTH."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Vzájemné působení jako obousměrné šipky, ne jako řetěz.",
+      "diagram_generator": "slogan",
+      "diagram": "Tytéž čtyři kruhy propojené obousměrnými šipkami; u jedné dvojice štítek FIXING ONE CAN WORSEN ANOTHER."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Dvakrát přeškrtnutá jednička — proti S30/S30b/S30c.",
+      "diagram_generator": "slogan",
+      "diagram": "Dvě políčka z S30 zopakovaná: ONE VILLAIN a ONE SOLUTION, obě přeškrtnutá vodorovnou čarou."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Realita do sloganu nejde vtěsnat — obraz to ukáže přetečením.",
+      "diagram_generator": "slogan",
+      "diagram": "Shluk čtyř kruhů se nevejde do úzkého rámečku CAMPAIGN SLOGAN a přetéká přes okraje."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Obrácení: co se do sloganu nevejde, do PAMĚTI se vejde. Konec bloku.",
+      "diagram_generator": "slogan",
+      "diagram": "Vedle rámečku CAMPAIGN SLOGAN druhý, stejně úzký, popsaný MEMORY; do něj slogan hladce zapadne, kdežto shluk kruhů zůstane venku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Otázka dostane prázdný kruh, který se v S92 zaplní.",
+      "diagram_generator": "identita",
+      "diagram": "Prázdný kruhový cyklus se šipkou dokola, uvnitř otazník."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Beat, tentýž kruh jen s popiskem.",
+      "diagram_generator": "identita",
+      "diagram": "Týž kruh, uvnitř nápis THE CONDITIONS."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Pět kroků po obvodu, žádná fáze zvýrazněná.",
+      "diagram_generator": "identita",
+      "diagram": "Kruh s pěti zastávkami: PROBLEMS APPEAR / PARTIES PROMISE / REPAIRS TAKE LONGER / SOME WORK, SOME DON'T / NEW PROBLEMS."
+    },
+    {
+      "id": "S93",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S93.png",
+      "note": "Únava ze systému jako chodba úřadu. slow_zoom_out, protože se obraz otevírá do dalšího bloku — zoom dovnitř by naopak zaostřoval.",
+      "prompt": "a long empty corridor of a public building with worn floor and closed office doors receding into the distance, flat grey overcast light, nobody present, no text"
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Změna tématu jako výměna štítku na téže ose.",
+      "diagram_generator": "identita",
+      "diagram": "Osa s nápisem POLICY, který se odsouvá stranou a nahrazuje."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Politika jako věc, se kterou se dá přít.",
+      "diagram_generator": "identita",
+      "diagram": "Rámeček POLICY, k němu dvě protisměrné šipky ARGUE."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Důvěra jako věc, se kterou se přít nedá.",
+      "diagram_generator": "identita",
+      "diagram": "Rámeček TRUST, tytéž dvě šipky přeškrtnuté."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Ohlášení čísla — prázdné osy s rozsahem.",
+      "diagram_generator": "identita",
+      "diagram": "Osa 2024 → 2025, zatím dva prázdné body."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Dvě strany, DVĚ NEUTRÁLNÍ BARVY. Ani jedna nesmí být ambrová, jinak video jednu z nich upřednostní.",
+      "diagram_generator": "identita",
+      "diagram": "Dva body v roce 2024: 35 % a 11 %, popisky DEMOCRATS a REPUBLICANS, obě v ztlumené barvě."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Druhá dvojice bodů na téže ose.",
+      "diagram_generator": "identita",
+      "diagram": "Tytéž osy, body v roce 2025: 9 % a 26 %."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Křížení je celé tvrzení scény — čáry se musí protnout viditelně, ne jen skončit prohozeně.",
+      "diagram_generator": "identita",
+      "diagram": "Body spojené čarami, které se zřetelně kříží; v místě průsečíku ambrový bod, popisek SIXTEEN MONTHS."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "SAMOSTATNÝ VIZUÁLNÍ BEAT, vyžádaný uživatelem. Obraz se skoro vyprázdní, aby věta stála sama.",
+      "diagram_generator": "identita",
+      "diagram": "Graf ztlumený do pozadí, přes něj jediný ambrový nápis THE OCCUPANT CHANGED."
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "AHA moment. Štítek osy se vymění — týž graf, jiný význam.",
+      "diagram_generator": "identita",
+      "diagram": "Týž graf, svislá osa přejmenovaná: PERFORMANCE přeškrtnuto, pod ním ambrově IDENTITY."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Fakta narazí na štítek IDENTITY, ne na graf.",
+      "diagram_generator": "identita",
+      "diagram": "Šipka FACTS mířící na rámeček IDENTITY a odrážející se od něj."
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Podmínková věta, proto čárkovaný rámeček: je to odvozený závěr, ne citace (viz factcheck.md).",
+      "diagram_generator": "zaver",
+      "diagram": "Čárkovaný rámeček IF THE OTHER SIDE IS CORRUPT, z něj šipka k rámečku MEETING HALFWAY."
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "Jedno slovo, nic jiného.",
+      "diagram_generator": "zaver",
+      "diagram": "Rámeček COMPROMISE přeškrtnutý, pod ním ambrově SURRENDER.",
+      "pause": 2.8
+    },
+    {
+      "id": "S106",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106.png",
+      "note": "Otázka ve dvou políčkách, obě zatím prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě políčka: DISEASE a SYMPTOM, obě prázdná, mezi nimi otazník."
+    },
+    {
+      "id": "S107",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S107.png",
+      "note": "Beat. Ambrově se vybarví SYMPTOM.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž dvojice, políčko SYMPTOM ambrové."
+    },
+    {
+      "id": "S108",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S108.png",
+      "note": "Vysoká LINKA DŮVĚRY z páteře pohlcuje otřesy.",
+      "diagram_generator": "zaver",
+      "diagram": "Linka vysoko a silná, na ní naráží šipky DISAGREEMENT a nic se neděje."
+    },
+    {
+      "id": "S109",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S109.png",
+      "note": "Táž linka nízko — tytéž otřesy ji prorazí.",
+      "diagram_generator": "zaver",
+      "diagram": "Linka nízko a tenká, tytéž šipky ji prorážejí; štítky EVERY FAILURE IS EVIDENCE a EVERY COMPROMISE IS WEAKNESS."
+    },
+    {
+      "id": "S110",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S110.png",
+      "note": "Návrat dvoupatrového tvaru z S18 a S40, potřetí a naposled.",
+      "diagram_generator": "zaver",
+      "diagram": "Nahoře řada rámečků INSIDERS, všechny se štítkem SUSPECT; dole jeden otevřený slot OUTSIDER."
+    },
+    {
+      "id": "S111",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S111.png",
+      "note": "Ohlášení pointy. Obraz se vyprázdní před obratem.",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdný obraz, dole tenká linka, nic jiného."
+    },
+    {
+      "id": "S112",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S112.png",
+      "note": "POINTA VIDEA. Šipka NESMÍ vést od populisty k frustraci — to je přesně ten opačný směr, proti kterému věta je.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo frustrace jako klesající linka, vpravo slot s populistou; šipka od populisty k lince je přeškrtnutá."
+    },
+    {
+      "id": "S113",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S113.png",
+      "note": "Pořadí v čase: linka klesla dřív, populista přišel potom.",
+      "diagram_generator": "zaver",
+      "diagram": "Časová osa: nejdřív klesá linka, teprve pak se objeví postava ve slotu; mezi nimi zřetelná mezera, popisek AFTER.",
+      "pause": 2.4
+    },
+    {
+      "id": "S114",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S114.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: od téhle scény dál musí zůstat volná HORNÍ polovina obrazu (dole sedí titulek ze svgkit.title()).",
+      "diagram_generator": "zaver",
+      "diagram": "Klesající linka přes dlouhou časovou osu, kresba jen v dolní třetině; podél osy drobné značky IN PUBLIC a popisek OVER YEARS."
+    },
+    {
+      "id": "S115",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S115.png",
+      "note": "Škrtá se RADA, ne osoba. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole rámeček DON'T VOTE FOR HIM, přeškrtnutý vodorovnou čarou. Nad ním prázdno."
+    },
+    {
+      "id": "S116",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S116.png",
+      "note": "VÝPLATA PÁTEŘE: sloty z S06 se vracejí po deseti minutách na TÝCHŽ souřadnicích. Scénář říká „takes the slot\" — obraz to musí udělat doslova, jinak se callback nepozná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole řada slotů z S06; z prostředního odchází postava a druhá do něj vstupuje. Linka pod nimi se nemění. Horní polovina volná."
+    },
+    {
+      "id": "S117",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S117.png",
+      "note": "Otázka, která se škrtá, protože není ta správná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole nápis WHY DID THEY VOTE FOR HIM? přeškrtnutý vodorovnou čarou. Horní polovina volná."
+    },
+    {
+      "id": "S118",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S118.png",
+      "note": "POSLEDNÍ OBRAZ. Ukazuje čas PŘED propadem, ne po něm — to je celá pointa. Klidný, statický, horní polovina prázdná pro karty YouTube.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole časová osa, ambrově zvýrazněný úsek PŘED propadem linky, nad ním nápis WHAT HAPPENED BEFORE. Zbytek obrazu prázdný."
+    }
+  ]
+}

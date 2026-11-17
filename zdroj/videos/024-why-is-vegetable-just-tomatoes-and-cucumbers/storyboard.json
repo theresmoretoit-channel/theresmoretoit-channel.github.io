@@ -1,0 +1,659 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "ZAVÁDÍ TALÍŘ — motiv, na kterém stojí celé video. Od téhle scény se talíř NIKDY nehne (stejná role jako hranice() u dvacátého videa); kdyby se posunul, nepozná se výplata v S64. Bublina má ocásek jako OTEVŘENOU lomenou čáru, ne uzavřený trojúhelník.",
+   "diagram_generator": "talir",
+   "diagram": "prázdný talíř na PEVNÝCH souřadnicích uprostřed plátna, nad ním bublina s replikou YOU SHOULD EAT MORE VEGETABLES, na talíři jediný velký ambrový otazník"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "JEDEN obraz, mění se jediná věc — ne dva střihy. Tyhle tři tvary jsou vizuální slovník videa a musí být rozpoznatelné i ve 210 px, protože se vracejí v S32, S43, S63 a S64.",
+   "diagram_generator": "talir",
+   "diagram": "týž talíř na týchž souřadnicích, otazník nahradí tři plátky: kolečko rajčete, kolečko okurky a kroužek papriky; paprika je o odstín světlejší a menší"
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Trychtýř tvrdí „zúženo na tři“ — což je přesně to, co říká věta. Vějíř nahoře musí být zjevně nespočetný, jinak vtip nefunguje.",
+   "diagram_generator": "talir",
+   "diagram": "nahoře široký vějíř mnoha ztlumených siluet rostlin přes celou šířku, z něj se sbíhá trychtýř dolů do talíře se třemi plátky; popisek trychtýře REDUCED TO THREE"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Monotónnost se ukazuje opakováním, ne nápisem. Mřížka nesmí být tak hustá, aby plátky přestaly být čitelné.",
+   "diagram_generator": "talir",
+   "diagram": "mřížka dvaceti stejných malých talířů s týmiž třemi plátky, všechny identické, jeden uprostřed ohraničený ambrovým rámečkem; bez popisků"
+  },
+  {
+   "id": "S05",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S05.png",
+   "note": "První ze čtyř SDXL scén a zároveň ZAVEDENÍ kompozice, na kterou se v S55 udělá callback (týž pohled do uličky, jiná police). Konkrétní rajče se od modelu NEŽÁDÁ — jsou to bledé koule v bednách viděné z dálky, tedy atmosféra, ne objekt.",
+   "prompt": "long supermarket aisle seen from a distance, rows of identical pale spheres stacked in shallow open crates under a low ceiling, cold even artificial light, flat grey tones, a single small shopper far away with their back turned, empty polished floor"
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Rozděleno na beaty (S06 az S06d), protože „Crunchy? Yes. Refreshing? Sure.\" Kokoro přečte SLITĚ — naměřeno 1,53 s bez jediné mezery nad 40 ms a tts.py tam tři pauzy odmítl vložit, protože v místě řezu zní řeč. scene_pause se ale NEVKLÁDÁ řezem, nýbrž PŘIDÁVÁ, takže ho nemá co odmítnout. Vizuálně je to JEDEN obraz, ve kterém se mění jediná věc — karta se odškrtává řádek po řádku, ne čtyři různé obrázky.",
+   "diagram_generator": "talir",
+   "diagram": "hodnotící karta okurky, zatím VŠECHNY tři řádky prázdné: CRUNCHY, REFRESHING, TASTE OF ANYTHING; nad kartou plátek okurky"
+  },
+  {
+   "id": "S06b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06b.png",
+   "note": "Beat. Jediná změna proti S06: první fajfka.",
+   "diagram_generator": "talir",
+   "diagram": "táž karta, odškrtne se PRVNÍ řádek CRUNCHY plnou fajfkou",
+   "pause": 1.0
+  },
+  {
+   "id": "S06c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06c.png",
+   "note": "Beat. Jediná změna proti S06b: druhá fajfka.",
+   "diagram_generator": "talir",
+   "diagram": "táž karta, odškrtnutý je první i DRUHÝ řádek REFRESHING",
+   "pause": 1.0
+  },
+  {
+   "id": "S06d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06d.png",
+   "note": "Pointa scény: dvě fajfky a třetí kolonka prázdná. Prázdné políčko musí být ZJEVNĚ prázdné, ne rozmazané.",
+   "diagram_generator": "talir",
+   "diagram": "táž karta, třetí řádek TASTE OF ANYTHING zůstává prázdný a dostane ambrový otazník"
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Slib. Obrysy jsou POUZE kontury — kdyby byly hotové, S64 už nemá co ukázat. Konec komediální části, pauza nese předěl do dokumentárního režimu.",
+   "diagram_generator": "talir",
+   "diagram": "talíř se třemi plátky uprostřed, kolem něj u okrajů rámu vystupují ze tmy obrysy mnoha dalších druhů zeleniny, zatím jen slabé kontury bez popisků",
+   "pause": 2.4
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "PŘEPNUTÍ REŽIMU podle zpětné vazby: od téhle scény do S31 je video dokumentární. Změna se dělá tím, že se objeví mřížka a zmizí kulisy, ne nápisem „VĚDA“.",
+   "diagram_generator": "mereni",
+   "diagram": "jedno rajče uprostřed, na které se zvenčí snáší měřická mřížka a dvě měřítka s ryskami; kolem ubyla veškerá dekorace"
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Diagram JE ta data, ne jejich ilustrace — týž princip jako Baconova mřížka v S79 devátého videa. Počet 398 je doložený (Tieman 2017) a musí sedět na kus; assert v generátoru je součást scény, ne kosmetika.",
+   "diagram_generator": "mereni",
+   "diagram": "mřížka PŘESNĚ 398 malých značek rajčat (například 22 sloupců po 18 a jeden neúplný řádek), pod ní popisek 398 VARIETIES; generátor si počet ohlídá assertem"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "MUSÍ být vidět, že panely ochutnávaly PODMNOŽINU, ne všech 398 — abstrakt říká „a subset“ a scénář „a selection of them“. Kdyby diagram zvýraznil celou mřížku, tvrdí víc než zdroj.",
+   "diagram_generator": "mereni",
+   "diagram": "táž mřížka 398 značek, z nich je ambrově zvýrazněná jen menší část; od zvýrazněné podmnožiny vedou šipky k řadě sedících postav"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "POZOR — tady se nejsnáz vyrobí tvrzení navíc. Zdroj říká jen „significantly lower amounts of many“, tedy bez hodnot; osa nebo procenta by byla vymyšlená data jako graf z random.Random(6) u třetího videa. Rozdíl se ukazuje POČTEM značek, ne výškou sloupce.",
+   "diagram_generator": "mereni",
+   "diagram": "dva sloupce vedle sebe, OLDER VARIETIES a MODERN COMMERCIAL, každý jako svislá řada stejných značek chuťových látek; v pravém sloupci je citelně méně vyplněných značek, zbytek jsou prázdné obrysy; ŽÁDNÁ osa, žádná čísla, žádné jednotky",
+   "pause": 2.6
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Pohodlnost se ukazuje DÉLKOU cesty, ne nápisem. Obě cesty musí začínat na stejné svislici, jinak se rozdíl nepozná.",
+   "diagram_generator": "pohodli",
+   "diagram": "dvě cesty pod sebou: nahoře dlouhá WASH - PEEL - COOK - SEASON - SERVE s pěti kroky, dole krátká WASH - SLICE - DONE se třemi; dolní končí u talíře"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Pointa je STEJNOST napříč rámečky. Plátky musí být v každém rámečku na tomtéž místě, aby oko poznalo opakování a ne pět různých jídel.",
+   "diagram_generator": "pohodli",
+   "diagram": "mřížka pěti rámečků MEAT, SANDWICH, BURGER, SALAD, BREAKFAST, v každém tytéž dva plátky rajčete a okurky, pokaždé úplně stejně"
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Paprika je vědomě slabší — scénář ji má jako podmíněnou („in the better case“). Kdyby byla plná, obraz tvrdí, že je vždycky.",
+   "diagram_generator": "pohodli",
+   "diagram": "krabice jako produktové balení s nápisem DEFAULT VEGETABLE STARTER PACK, uvnitř plátek rajčete a okurky plně a kroužek papriky jen slabou konturou s poznámkou IF YOU ARE LUCKY"
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Čárkovaně schválně: věta je hedged („aren't necessarily“). Plná čára ani Vennův diagram s malým průnikem by tvrdily silněji, než scénář říká — obojí by znamenalo „skoro se nepřekrývají“.",
+   "diagram_generator": "pohodli",
+   "diagram": "dva rámečky vedle sebe, EASIEST TO EAT a MOST INTERESTING FLAVOUR; tři plátky leží v levém, pravý je plný nepopsaných tvarů; spojuje je ČÁRKOVANÁ čára s popiskem NOT NECESSARILY THE SAME"
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Referenční obraz „dobrého rajčete“. Délka paprsků se stane měřítkem pro S17 — proto musí být zapsaná v kitu, ne odhadnutá v každé scéně zvlášť.",
+   "diagram_generator": "cesta",
+   "diagram": "jedno rajče uprostřed, z něj vychází čtyři plné paprsky s popisky SWEET, ACIDIC, AROMATIC, FLAVOURFUL, všechny stejně dlouhé a syté"
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "JEDEN obraz, mění se jediná věc (délka paprsků). Popisky musí zůstat plné — mizí chuť, ne slova.",
+   "diagram_generator": "cesta",
+   "diagram": "týž obraz jako S16 na týchž souřadnicích, ale paprsky jsou zkrácené a bledé; popisky zůstávají čitelné"
+  },
+  {
+   "id": "S18",
+   "source": "sdxl",
+   "effect": "pan_right",
+   "visual": "images/S18.png",
+   "note": "Cesta rajčete jako atmosféra, ne jako schéma — pět stanic by tady bylo páté schéma v řadě. Model dostává KRAJINU a vozidlo z dálky, tedy scénu, ne konkrétní objekt. Bez cedulí, aby nevznikl pseudotext.",
+   "prompt": "a long straight road crossing an empty flat landscape, seen from high above and far behind, a single lorry with stacked crates receding into the distance, flat grey overcast sky with no sun, cold desaturated palette, no signage"
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Náklon je mírný schválně — scénář říká „sometimes that comes at the expense of“, ne „vždycky“. Misky se kreslí path() s close=True, jinak jim chybí stěna a vypadají nedodělaně (past z CLAUDE.md).",
+   "diagram_generator": "cesta",
+   "diagram": "váhy se dvěma miskami, levá DURABILITY dole, pravá FLAVOUR nahoře, náklon MÍRNÝ; nad vahami popisek SOMETIMES",
+   "pause": 2.2
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "KONTROLA CÍLE ŠIPKY: scénář říká, že sledujeme tu ztrátu, která nebyla obchod. Kdyby ambrová šipka mířila na levou větev, obraz tvrdí opak popisku — přesně vada z S11 dvacátého videa, kterou nenajde žádný detektor.",
+   "diagram_generator": "gen",
+   "diagram": "z uzlu LOSSES vedou dvě větve: levá do rámečku PAID FOR - DURABILITY, pravá do rámečku NOBODY ORDERED THIS; ambrová šipka pokračování míří na PRAVOU větev"
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Zelené rameno je klíčový tvar celého bloku a musí být jednoznačné — tmavá skvrna JEN kolem stopky, ne celá horní polovina.",
+   "diagram_generator": "gen",
+   "diagram": "dvě rajčata vedle sebe: levé s tmavě zeleným ramenem kolem stopky, pravé rovnoměrně světlé; pod nimi řádek pole, kde mají všechny plody týž odstín, s popiskem READY ON THE SAME DAY"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Kreslí se LOKUS na lince, ne DNA. Dvoušroubovice s vymyšlenými bázemi by byla ozdoba, která tvrdí přesnost, jakou scéna nemá.",
+   "diagram_generator": "gen",
+   "diagram": "rovnoměrně světlé rajče a vedle něj vodorovná linka s jediným vyznačeným místem a popiskem ONE GENE; žádná dvoušroubovice, žádné páry bází"
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Plná čára = doloženo (Powell 2012). Kdyby byla čárkovaná, obraz by z prokázaného mechanismu udělal hypotézu.",
+   "diagram_generator": "gen",
+   "diagram": "řez nezralým rajčetem, uvnitř dužiny rozseté zelené tečky chloroplastů, od značky genu z S22 k nim vede PLNÁ šipka; popisek BUILDS THIS"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "TA DRUHÁ CESTA JE POVINNÁ. Scénář říká „makes PART of its own sugar“ a factcheck to hlídá — bez přísunu z listu by obraz tvrdil, že si plod vyrábí cukr celý, což zdroj nedokládá.",
+   "diagram_generator": "gen",
+   "diagram": "týž řez jako S23; shora do plodu míří světlo, uvnitř vzniká malá značka cukru; ZÁROVEŇ zleva přichází z listu druhá, výrazně silnější cesta cukru do plodu"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Odškrtnuté je jen to, co si někdo objednal. Tenhle tik musí zůstat vidět i v S26, jinak se nepozná, že zbytek nikdo neobjednal.",
+   "diagram_generator": "gen",
+   "diagram": "značka genu z S22 s přepínačem v poloze OFF, vedle rovnoměrně zrající plod a odškrtnutý řádek objednávky EVEN RIPENING"
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Nejsilnější obraz videa — recenzent si větu „they chose the way it looks, and the sweetness quietly left with it“ výslovně přál nechat být. Vyblednutí, ne přeškrtnutí: cukr neubyl na nulu, jen ho je míň.",
+   "diagram_generator": "gen",
+   "diagram": "táž objednávka jako v S25: řádek EVEN RIPENING odškrtnutý a plný, pod ním dva řádky SUGAR a RED PIGMENT bez odškrtnutí a viditelně vybledlé, u nich poznámka NOBODY ORDERED THIS",
+   "pause": 2.8
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Dvanáct stupňů je doložené číslo (Zhang 2016), takže se popisuje jménem. Stupnice nesmí mít vymyšlené další hodnoty — jediná ryska, která něco tvrdí, je ta jedna.",
+   "diagram_generator": "lednice",
+   "diagram": "svislá teplotní stupnice s vyznačenou linkou TWELVE DEGREES, pásmo pod ní ztmavené a popsané FRIDGE; v tom pásmu sedí rajče a aroma značky nad ním řídnou"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "MÍRA JISTOTY: obnova je ČÁSTEČNÁ, ne nulová — „some genes recover, some do not“. Kdyby se nevrátila ani jedna značka, obraz tvrdí víc než zdroj i než scénář („doesn't FULLY come back“).",
+   "diagram_generator": "lednice",
+   "diagram": "časová osa se třemi úseky: BEFORE plná řada aroma značek, IN THE FRIDGE značky zmizí, BACK AT ROOM TEMPERATURE se část značek vrátí plná a část zůstane jen prázdným obrysem",
+   "pause": 2.4
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Ta jedna zůstávající kóduje slovo MOST z abstraktu (kurkubitaciny odrazují většinu škůdců, ne všechny). Bez ní obraz tvrdí „nic to nežere“. Alternativa archivní fotky plané okurky se zvažovala a zamítla — Commons je na obecný předmět slabý a fotka by tuhle nuanci neunesla.",
+   "diagram_generator": "okurka",
+   "diagram": "planá okurka s výstražnými značkami hořkosti, kolem ní čtyři drobné siluety zvířat odvrácené pryč a jedna, která zůstává"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Věcně nejdůležitější diagram bloku: vyšlechtěná je hořkost PLODU (Bt), ne rostliny — list hořký zůstal. Kdyby se vypnula celá rostlina, je to nepravda, kterou by nikdo v textu nenašel, protože scénář říká jen „in the fruit“.",
+   "diagram_generator": "okurka",
+   "diagram": "rostlina okurky: LIST nahoře pořád označený jako hořký, PLOD dole s přepínačem v poloze OFF a bez značek hořkosti; popisky BITTER LEAF a BITTER FRUIT"
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Vizuální punchline celé první poloviny — recenzent tuhle větu označil za jednu z hlavních. Řádek FLAVOUR nesmí být přeškrtnutý ani odškrtnutý: nikdy nebyl na seznamu, o to jde.",
+   "diagram_generator": "okurka",
+   "diagram": "objednávkový formulář s odškrtnutými řádky FIRM, EVEN, CHEAP, DOES NOT FIGHT BACK a s razítkem DELIVERED; úplně dole mimo seznam bledý řádek FLAVOUR bez políčka k odškrtnutí",
+   "pause": 2.8
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Talíř se nehýbe, mění se jen rámeček kolem něj. Těsnost rámečku je celý argument scény — „celá tvoje zkušenost“ je malá krabička.",
+   "diagram_generator": "svet",
+   "diagram": "talíř se třemi plátky na týchž souřadnicích jako v S02, ale sevřený těsným rámečkem s popiskem YOUR ENTIRE EXPERIENCE; kolem rámečku je prázdno"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Přes NÁPIS jde jen vodorovná čára (skrt_text), ne křížek — pod plným křížkem se slovo nepřečte a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+   "diagram_generator": "svet",
+   "diagram": "věta I DO NOT LIKE VEGETABLES velkým písmem, slovo VEGETABLES přeškrtnuté VODOROVNOU čarou a pod ním dopsané THESE TWO se dvěma plátky",
+   "pause": 2.4
+  },
+  {
+   "id": "S34",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S34.png",
+   "note": "REVEAL druhé poloviny: tady musí být SKUTEČNÁ fotka, protože zbytek videa stojí na tom, že ta zelenina existuje a není to naše kresba. Zoom OUT, protože se svět rozšiřuje. PICK 3 VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: pick 0 je obraz Pietera Aertsena ze 16. století (ne fotka), pick 7 jsou hlavně citrusy, tedy ovoce. Pick 3 je 8021x6016 a má na jednom záběru zelí, lilky, cukety, bylinky i rajčata — rozmanitost JE funkce téhle scény.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "vegetable market stall",
+    "pick": 3,
+    "grade": {
+     "saturation": 95,
+     "tint_amount": 6,
+     "vignette": false,
+     "levels": "4%,96%",
+     "contrast": "-3x-6"
+    }
+   }
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Rozdíl se ukazuje POČTEM značek, ne velikostí mrkve — mrkev se pečením nezvětší. Hrouda vpravo je nájezd na S36, ne samostatné tvrzení.",
+   "diagram_generator": "svet",
+   "diagram": "mrkev uprostřed se dvěma větvemi: RAW s několika chuťovými značkami a ROASTED s výrazně víc značkami; vpravo dole vstupuje do obrazu šedozelená beztvará hrouda s popiskem BOILED"
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Čtyři úpravy stačí; scénář jich vyjmenovává právě čtyři. Šipky míří VŠECHNY do jednoho rámečku, protože věta říká, že se z toho stane jedno jiné jídlo, ne čtyři.",
+   "diagram_generator": "svet",
+   "diagram": "brokolice uprostřed, kolem ní čtyři úpravy ROAST, GRILL, GARLIC, SPICES, z nich šipky do rámečku ENTIRELY DIFFERENT FOOD"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Nejjednodušší diagram bloku a to je v pořádku — po čtyřech hutných scénách potřebuje oko oddech. Popisky patří POD tvar, odsazené podle jeho rozměru, ne na pevných tři sta pixelech.",
+   "diagram_generator": "svet",
+   "diagram": "květák se dvěma popisky RICH a NUTTY, oba spojené s upečeným stavem"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Musí být poznat, že je to TÝŽ zelí — jinak to čte jako tři různé druhy a věta „and then there is cabbage“ ztratí smysl.",
+   "diagram_generator": "svet",
+   "diagram": "jedna hlávka zelí ve třech stavech v řadě: FRESH, COOKED, FERMENTED, pokaždé jiná textura, ale zjevně tatáž hlávka",
+   "pause": 2.2
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Prázdné bubliny jsou nájezd na S40. Ocásek bubliny se kreslí jako OTEVŘENÁ lomená čára; uzavřený trojúhelník má i horní hranu přes ústí a po jejím zamazání zbydou dva pahýly (past z CLAUDE.md).",
+   "diagram_generator": "hlasite",
+   "diagram": "pět druhů v řadě — ředkvička, cibule, česnek, křen, chilli — každý s PRÁZDNOU bublinou nad sebou"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "JEDEN obraz, mění se jediná věc. Text se sází text_do(), aby se zmenšil, když se do bubliny nevejde — HELLO. I HAVE A FLAVOUR. je dlouhé a pětkrát se opakuje.",
+   "diagram_generator": "hlasite",
+   "diagram": "týž obraz jako S39, bubliny se naplní textem HELLO. I HAVE A FLAVOUR."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Kontrast měřítka je celá pointa: chilli musí být zjevně maličké proti talíři. Kdyby bylo velké, věta „a tiny amount“ se rozejde s obrazem.",
+   "diagram_generator": "hlasite",
+   "diagram": "velký talíř s popiskem BORING a bledými značkami, do něj přibývá jediné drobné chilli a všechny značky na talíři se rozsvítí"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Scovilleho hodnoty se do obrazu nepíšou — nejsou ve factchecku a byl by to údaj vymyšlený kvůli tomu, že „graf potřebuje osu“.",
+   "diagram_generator": "hlasite",
+   "diagram": "řada chilli papriček zleva doprava s rostoucí intenzitou, popisky MILD a SMOKY u prvních dvou, poslední bez popisku a s výstražnou značkou; ŽÁDNÁ čísla Scovilleho stupnice",
+   "pause": 2.2
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Callback na S02. Uvnitř bubliny musí být plátky ve stejném rozvržení, jinak se nepozná, že jde o tutéž představu.",
+   "diagram_generator": "vareni",
+   "diagram": "myšlenková bublina, uvnitř přesně týž talíř se třemi plátky jako v S02"
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Dveře jsou čárkované, protože se teprve otevřou. Otazník patří k talíři, ne ke dveřím — jinak scéna zpochybňuje vaření místo syrové zeleniny.",
+   "diagram_generator": "vareni",
+   "diagram": "talíř se třemi plátky a nad ním otázka EXCITING?; vpravo od něj čárkovaně naznačené dveře s popiskem COOKING, zatím zavřené"
+  },
+  {
+   "id": "S45",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S45.png",
+   "note": "Druhá a poslední archivní scéna, moment „takhle to opravdu vypadá\" pro celý blok o vaření. PICK 5 VYBRÁN Z KONTAKTNÍHO LISTU: picky 0 az 4 mají na talíři KUŘE nebo STEAK, což je přímý opak věty „they are the food\". Pick 5 je jediný čistě zeleninový a na šířku (3264x2448).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "roasted vegetables",
+    "pick": 5,
+    "grade": {
+     "saturation": 95,
+     "tint_amount": 6,
+     "vignette": false,
+     "levels": "4%,96%",
+     "contrast": "-3x-6"
+    }
+   }
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Výplata talířového motivu v půlce videa. Aby fungovala, musí být ve všech dřívějších talířích ta prázdná plocha hlavního jídla skutečně vidět — patří proto do kitu, ne do jednotlivých scén.",
+   "diagram_generator": "vareni",
+   "diagram": "talíř na týchž souřadnicích: zelenina teď vyplňuje jeho STŘED a velké prázdné místo, kde dřív bylo hlavní jídlo, zmizelo; popisek THEY ARE THE FOOD",
+   "pause": 2.4
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Callback na S33, tedy tatáž kresba, jen s dopsanou příčinou. Šipka míří od věty k příčině, ne obráceně.",
+   "diagram_generator": "servirovani",
+   "diagram": "věta z S33 s přeškrtnutým slovem, od ní šipka do nového rámečku HOW THEY WERE SERVED"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Prázdno místo značek je to, co ta pole spojuje — vizuální gramatika chuťových značek se táhne od S16, takže jejich absence je čitelné tvrzení.",
+   "diagram_generator": "servirovani",
+   "diagram": "čtyři pole vedle sebe s popisky BOILED BROCCOLI, OVERCOOKED CAULIFLOWER, FROZEN SPINACH, THREE DAYS IN THE FRIDGE, všechna kreslená bez chuťových značek"
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Text je hlavní obsah scény, takže se sází text_do() a kontroluje se, že se vejde do plakátu i s prostrkáním — dlouhý nápis přeteče, když se velikost odhaduje.",
+   "diagram_generator": "servirovani",
+   "diagram": "plakát s nápisem YOU NEED TO EAT YOUR VEGETABLES, záměrně fádní, v rohu razítko MARKETING CAMPAIGN"
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Analogie musí být STRUKTURÁLNÍ — stejné rozvržení jako S48, jinak divák nepozná, že se s bramborou dělá totéž co se zeleninou.",
+   "diagram_generator": "servirovani",
+   "diagram": "brambora prochází týmiž třemi kroky ve stejném rozvržení jako pole v S48: NO SALT, NO SEASONING, LEFT UNTIL COLD"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Postava je malá a odvrácená — scéna je o odmítnutí, ne o dítěti. Popisek pod postavu se odsazuje z jejího rozměru, ne pevným číslem (pod_hlavou).",
+   "diagram_generator": "servirovani",
+   "diagram": "drobná postava odvrácená od studené brambory, mezi nimi přerušená čára odcházející z rámu; popisek NEVER AGAIN",
+   "pause": 2.4
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Jednoduchý obraz úlevy. Nesmí z něj vzniknout tvrzení „zeleninu jíst nemusíš“ — přerušená je šipka nucení, talíř zůstává.",
+   "diagram_generator": "volba",
+   "diagram": "tlustá šipka NUCENÍ mířící k talíři, uprostřed přerušená a odpadlá; vedle ní volné místo"
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Přes odstavec se škrtá CELÁ plocha, ne po řádcích — jedna vodorovná čára přes tři řádky padne na účaří prostředního a čte se jako „neplatí ten jeden řádek“. Proto razítko, ne škrt.",
+   "diagram_generator": "volba",
+   "diagram": "stránka jako paragraf zákona s textem EVERY HUMAN MUST CONSUME EXACTLY ONE CUCUMBER AND HALF A TOMATO EVERY EVENING, přes celý odstavec razítko NO SUCH LAW"
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Jména jsou tady OBSAH, ne popisek — pointa je, že je divák nezná. Proto kresba a ne fotka: fotka bez nápisu tu otázku nepoloží. Talíř slouží jako měřítko a připomínka, proti čemu se to srovnává.",
+   "diagram_generator": "volba",
+   "diagram": "tři siluety s popisky KOHLRABI, CELERIAC, ASPARAGUS ve velikosti, v jaké je divák neviděl, vedle nich pro měřítko malý talíř se třemi známými plátky"
+  },
+  {
+   "id": "S55",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S55.png",
+   "note": "CALLBACK na S05 — týž pohled do uličky, jiná police. Kdyby byla kompozice jiná, věta „in the same shop, a few steps away“ ztratí oporu. Model dostává „neznámé hrbolaté kořeny“, ne jmenovitý druh; konkrétní objekt by nakreslil špatně. [kolo 1 dalo doprostřed uličky ZVÍŘE (prase); prompt proto výslovně žádá prázdnou podlahu a zapsal se seed, protože samotné --force dá tutéž kompozici]",
+   "prompt": "one long deep supermarket aisle receding to a distant vanishing point, seen straight down the middle from far away, low shelves on both sides piled with unfamiliar knobbly root vegetables in shallow crates, cold even artificial light, flat grey tones, empty polished floor, no people, no animals",
+   "seed": 284119
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Šest cest z JEDNOHO tvaru, ne šest různých druhů — věta říká „any of them can be eaten“, tedy tentýž kus mnoha způsoby.",
+   "diagram_generator": "volba",
+   "diagram": "jeden neurčitý kořen uprostřed a kolem něj šest cest s popisky RAW, ROASTED, GRILLED, FERMENTED, PICKLED, STUFFED"
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Poctivost k druhé straně a je to vizuálně důležité: kdyby tu zůstaly bledé jako v S17, obraz by odporoval větě „a really good tomato? Fantastic.“",
+   "diagram_generator": "zaver",
+   "diagram": "rajče a okurka vedle sebe, obojí s PLNÝMI chuťovými značkami jako v S16"
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Prázdná stránka kolem hesla je tvrzení: definice se scvrkla. Heslo se sází na účaří dorovnané o půl výšky velkého písmena, jinak sedí o desetinu velikosti výš, než má.",
+   "diagram_generator": "zaver",
+   "diagram": "slovníkové heslo VEGETABLE, pod ním definice tvořená jen dvěma plátky a ničím jiným; kolem hesla prázdná stránka"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Vtip nese kompozice, ne nápis. Paprika musí být zjevně v POHYBU skrz rám, jinak to čte jako „paprika stojí u rámu“.",
+   "diagram_generator": "zaver",
+   "diagram": "regál se dvěma produkty, vedle bezpečnostní rám jako u východu z obchodu a jím právě prochází jediná paprika",
+   "pause": 2.4
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Callback na S01 uzavírá oblouk. Druhá větev je zatím prázdná — obsah dostane až v S61, aby to byl jeden obraz o dvou krocích, ne dva střihy.",
+   "diagram_generator": "zaver",
+   "diagram": "bublina YOU SHOULD EAT MORE VEGETABLES jako v S01, pod ní dvě odpovědi ve větvích: bledá OH NO. MORE CUCUMBER. a druhá větev zatím prázdná"
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Čtvrtý prázdný obrys je „something you have never even tried“ — musí zůstat nevyplněný, jinak scéna tvrdí, že odpověď známe.",
+   "diagram_generator": "zaver",
+   "diagram": "táž kresba jako S60, druhá větev se naplní otázkou WHAT VEGETABLES DO I ACTUALLY LIKE; kolem ní tři odpovědi ROASTED CARROTS, SPICY PEPPERS, SAUERKRAUT a čtvrtá jako prázdný obrys s otazníkem"
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Sklenice vody je callback na „described a tomato to water“ z S05. Bez ní je scéna jen přeškrtnuté slovo.",
+   "diagram_generator": "zaver",
+   "diagram": "slovo PUNISHMENT přeškrtnuté vodorovnou čarou, vedle odstavená sklenice s vodou z úvodního vtipu"
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Musí to být táž kompozice jako S02 — celá výplata v S64 stojí na tom, že divák tenhle obraz pozná. Proto talíř kreslí jediná funkce v kitu a ne dvě podobné.",
+   "diagram_generator": "zaver",
+   "diagram": "PŘESNĚ tentýž talíř se třemi plátky jako v S02, na týchž souřadnicích, bez jakéhokoli dalšího prvku"
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "VÝPLATA CELÉHO VIDEA. Funguje jen tehdy, když se talíř za celých šedesát čtyři scén ani jednou neposunul a když jsou obrysy z S07 tytéž tvary, jen teď vyplněné.",
+   "diagram_generator": "zaver",
+   "diagram": "týž talíř, ale zmenšený do rohu a označený rámečkem TUTORIAL; zbytek plátna vyplní hustý svět zeleniny, který byl v S07 jen slabými konturami a teď je celý plný",
+   "pause": 2.6
+  },
+  {
+   "id": "S65",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S65.png",
+   "note": "Poslední SDXL. Zoom OUT, protože poslední věta otevírá, nezavírá. Bez cedulí a nápisů — pseudotext by v závěru byl nejvíc vidět. [kolo 1 vyšlo teple béžové proti kotvě stylu — vinu nesl „small amber awning\" v promptu, tedy teplý prvek, který si scéna sama vyžádala. Nahrazen mokrou šedou dlažbou; past „teplý nádech nedělá prompt, ale denní doba\" má tedy i druhou půlku: dělá ho i teplý PŘEDMĚT v promptu]",
+   "prompt": "an open air street market seen from a distance, two long rows of low stalls piled high with vegetables under plain grey canvas covers, wet grey pavement, flat overcast sky with no sun, cold desaturated palette, a few people browsing between the stalls, open at the far end, no signage, no lettering",
+   "seed": 401877
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "DESKA PRO ZÁVĚREČNOU OBRAZOVKU A KARTY. Karty YouTube sedí vpravo a dole, takže tam nesmí být text ani nic, o co by divák přišel, kdyby to zakryly. Je to jediná scéna, kde se talíř smí posunout — už na něm nic nestojí. Delší pauza drží desku na 5 az 8 s.",
+   "diagram_generator": "zaver",
+   "diagram": "klidná deska: talíř posunutý do LEVÉ HORNÍ části plátna, dolní třetina a pravá polovina zůstávají prázdné; žádný nápis, žádné tvrzení",
+   "pause": 3.5
+  }
+ ]
+}

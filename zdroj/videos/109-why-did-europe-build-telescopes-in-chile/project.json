@@ -1,0 +1,100 @@
+{
+ "title": "Why Is Europe Building Telescopes in Chile?",
+ "slug": "109-why-did-europe-build-telescopes-in-chile",
+ "languages": [
+  "en",
+  "cs",
+  "sv",
+  "es",
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "pl",
+  "id",
+  "tr",
+  "uk",
+  "vi",
+  "fi"
+ ],
+ "resolution": [
+  1920,
+  1080
+ ],
+ "fps": 25,
+ "voice": {
+  "engine": "kokoro",
+  "name": "bf_emma",
+  "speed": 0.88,
+  "lang": "en-gb"
+ },
+ "timing": {
+  "scene_pause": 0.8,
+  "lead_in": 0.15,
+  "tail": 1.2,
+  "sentence_pause": 0.45,
+  "min_sentence_words": 1
+ },
+ "video": {
+  "transition": "dissolve",
+  "transition_dur": 0.6,
+  "source_resolution": [
+   2560,
+   1440
+  ],
+  "supersample": 3,
+  "supersample_draft": 2,
+  "crf": 18,
+  "preset": "slow"
+ },
+ "sdxl": {
+  "checkpoint": "sd_xl_base_1.0.safetensors",
+  "steps": 30,
+  "cfg": 6.5,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "hires_denoise": 0.45,
+  "style": "painterly editorial illustration, high desert mountains, observatory domes and radio dishes under a clear starry night sky, muted palette of deep indigo, slate grey and pale sand with a single warm amber accent, subtle film grain, restrained detail, calm editorial composition, no text",
+  "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, insignia, flags, markings on vehicles, diagram annotations, faces, explosions, gore, oversaturated, neon, blurry, low quality, deformed"
+ },
+ "audio": {
+  "target_lufs": -14.0,
+  "music": "audio/music.wav",
+  "music_gain_db": -36,
+  "duck": {
+   "threshold": 0.03,
+   "ratio": 6,
+   "attack": 20,
+   "release": 900
+  },
+  "music_root": 146.83,
+  "music_seed": 109
+ },
+ "subtitles": {
+  "max_chars": 42,
+  "burn_in": false,
+  "lead_in": 0.15
+ },
+ "pronounce": {
+  "1950s": "nineteen fifties",
+  "ELT": "E L T",
+  "1962": "nineteen sixty-two",
+  "1964": "nineteen sixty-four",
+  "1990": "nineteen ninety",
+  "2016": "twenty sixteen",
+  "2020": "twenty twenty",
+  "2021": "twenty twenty-one",
+  "2026": "twenty twenty-six",
+  "2029": "twenty twenty-nine",
+  "2030": "twenty thirty"
+ },
+ "archive_grade": {
+  "levels": "6%,94%",
+  "saturation": 55,
+  "tint": "#7f938c",
+  "tint_amount": 16,
+  "contrast": "-6x-10",
+  "vignette": true,
+  "vignette_edge": "#a8a8a8"
+ }
+}

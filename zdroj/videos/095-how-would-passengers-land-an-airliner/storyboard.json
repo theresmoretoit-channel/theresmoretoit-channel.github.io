@@ -1,0 +1,844 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `profil()`: letová hladina vodorovně v horní třetině, vlevo DUBAI, vpravo ranvej TEL AVIV na konci sestupové dráhy; na hladině letadlo z boku, kokpit zvýrazněný výřezem se dvěma sedadly (dvě tečky = dva piloti); vlevo nahoře SEP 2026 · BOEING 737",
+   "note": "První scéna nese myšlenku, ne atmosféru: kdo sedí v kokpitu. Zavádí páteř profilu (S03, S19–S23, S45–S48, S51, S53, S63, S77) i výřez kokpitu (motiv `kokpit()`). Žádné SDXL."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "výřez kokpitu zvětšený (motiv `kokpit()` shora): dvě sedadla; pravé sedadlo (co-pilot) ambrově, z něj ostrá čára ke kapitánovi; ikona sekery; štítek EMERGENCY AXE",
+   "note": "Nekreslit násilí detailně — ikona sekery a čára útoku. Šipka MUSÍ vést OD co-pilota KE kapitánovi (podmět věty = co-pilot)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "páteř profilu: letadlo z letové hladiny strmě dolů, svislá kóta > 4 KM, vodorovně ~1 MIN",
+   "note": "Fact check: „more than four kilometres in about a minute“ — kóta „> 4 km“, ne konkrétní číslo; měřítko kóty počítat z výšky hladiny (11 km = celá výška profilu), `assert`."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "kokpit shora: kapitán ležící na podlaze (vodorovná postava), dveře kokpitu otevřené (zámek odemčený), z kabiny vbíhají tři postavy",
+   "note": "Dveře jsou motiv celého bloku S15–S17 — kreslit je funkcí `dvere()` v `_kit.py` na pevném místě výřezu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "kabina shora: řady sedadel ztlumeně, dvě sedadla ambrově, u nich štítek SPARE PILOTS",
+   "note": "„Two spare flydubai pilots“ — fact check v0.3: posádka v kabině kvůli objížďce, ne náhodní cestující. Bez loga aerolinky.",
+   "pause": 0.6
+  },
+  {
+   "id": "S06",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S06.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "flydubai Boeing 737 MAX 8",
+    "pick": 4
+   },
+   "note": "FlyDubai, A6-FMA, Boeing 737-8 MAX — Anna Zvereva, CC BY-SA 2.0: boční pohled při pojíždění. Typ a aerolinka, NE letoun z incidentu (registrace neověřena). PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "kabina z S05: obě ambrová sedadla náhle prázdná (jen obrys čárkovaně), velký otazník",
+   "note": "„What if they hadn't been?“ — čárkovaně = hypotéza (konvence videa). Stejné souřadnice jako S05, mění se jediná věc.",
+   "pause": 0.6
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "kokpit z S04, oba piloti pryč; ve dveřích jen postavy cestujících; nápis HOW DO THEY GET IT DOWN?",
+   "note": "Hlavní otázka videa. Konec cold openu.",
+   "pause": 2.4
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "uvod",
+   "diagram": "řada sta postav (10 × 10), 46 ambrově; nadpis „I COULD LAND IT“ · US MEN · YOUGOV 2023; dole menší ONLY WITH AIR TRAFFIC CONTROL",
+   "note": "Data: 46 % mužů (fact check). Počet ambrových postav z procenta, `assert == 46`. Scénář říká „almost half“ — číslo v obraze je přesnější, nikoli v rozporu."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "uvod",
+   "diagram": "vlevo mřížka z S09 zmenšená se štítkem 46 %, vpravo postava pilota s čepicí a štítkem ≈ 0 %; mezi nimi BOTH RIGHT?",
+   "note": "„One airline pilot“ — bez jména (Patrick Smith je ve factchecku). „Almost zero“ → ≈ 0 %, ne 0 %."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "uvod",
+   "diagram": "postava cestujícího u řídicí páky; páka škrtnutá; štítek FLY IT ✗",
+   "note": "První polovina dílčí odpovědi. Škrt přes ikonu křížkem (bez textu), FLY IT čitelně.",
+   "pause": 0.5
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "uvod",
+   "diagram": "páteř profilu: letadlo samo po sestupové dráze na ranvej (ambrová stopa), nápis LANDS ITSELF · TODAY",
+   "note": "Dílčí odpověď ~1:15 (pravidlo „do 1:10 začni platit“). Ambrová stopa na sestupu je táž jako v S48 — tady jen naznačená.",
+   "pause": 0.6
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "uvod",
+   "diagram": "dva štítky pod sebou: LEARN TO FLY IT (`text_skrtnuty`) a MAKE IT FLY ITSELF (ambrově)",
+   "note": "Teze videa. Škrt jen čarou přes text, ať zůstane čitelný."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "uvod",
+   "diagram": "štítek MAKE IT FLY ITSELF ztlumeně nahoře, pod ním řada pěti prázdných kroků (rámečky), první zvýrazněný",
+   "note": "„That sounds simple. It isn't.“ — řada kroků je mapa videa; rámečky bez textu, nic nevyzradí.",
+   "pause": 1.2
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "dvere",
+   "diagram": "zavřené dveře kokpitu zepředu (motiv `dvere()`) velké uprostřed, zámek",
+   "note": "Jedna věta „It's a door.“ — obraz musí být jen dveře.",
+   "pause": 1.0
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "dvere",
+   "diagram": "tytéž dveře, zesílený rám (dvojitá linie), zámek uvnitř, štítky REINFORCED · LOCKED FROM INSIDE · SINCE 2001",
+   "note": "Stejné souřadnice jako S15.",
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "dvere",
+   "diagram": "dveře; vlevo klávesnice s kódem (CODE), stopky „SET DELAY“ s ručičkou pod půl minuty, větev v kokpitu DENY čárkovaně; dveře se pootevřou",
+   "note": "Fact check: „within a set time, often under half a minute“ — v obraze stopky bez přesného čísla, DENY čárkovaně (stane se jen když někdo zasáhne).",
+   "pause": 2.2
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "dvere",
+   "diagram": "otevřené dveře, uvnitř kokpit s rozsvícenými obrazovkami; postavy cestujících na prahu",
+   "note": "Most k bloku autopilota; obrazovky rozsvícené = „some good news“.",
+   "pause": 0.4
+  },
+  {
+   "id": "S19",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S19.png",
+   "prompt": "airliner cockpit at cruising altitude seen from behind the empty pilot seats, glowing instrument displays, bright sea of clouds through the windscreen, calm and still, nobody present",
+   "note": "Atmosférický předěl „at cruising altitude“, první SDXL až ~1:45. Prázdná sedadla jsou žádoucí (nikdo neřídí). Kokpit nesmí mít čitelné nápisy — kdyby SDXL naplácal pseudotext, zvolit jiný seed."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "autopilot",
+   "diagram": "páteř profilu: letadlo na letové hladině, nad ním tři štítky HEIGHT · SPEED · ROUTE s fajfkou; nápis AUTOPILOT",
+   "note": "Fact check v0.4: „holds its height and speed, follows its route“ — přesně tři položky, nic navíc.",
+   "pause": 0.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "autopilot",
+   "diagram": "velký nápis DON'T TOUCH ANYTHING, pod ním ruka zastavená před pákou",
+   "note": "Pravidlo, které „sounds the laziest“ — jediná věta v obraze."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "autopilot",
+   "diagram": "dva sloupce: KEEPS IT FLYING ✓ / MAKES DECISIONS ✗",
+   "note": "Autopilot není pilot. Ambrová jen u toho, o čem je řeč (KEEPS IT FLYING).",
+   "pause": 0.4
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "autopilot",
+   "diagram": "páteř profilu: letová hladina se natáhne doprava, nad ní hodiny; štítek TIME",
+   "note": "Konec bloku „autopilot dává čas“.",
+   "pause": 2.4
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S24.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Helios Airways Boeing 737 5B-DBY",
+    "pick": 3
+   },
+   "note": "Helios Airways Boeing 737-300 5B-DBY — Mila Daniel, CC BY-SA 4.0: přímo letoun letu 522 za letu. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "autopilot",
+   "diagram": "pohled shora: dráha letu přiletí k bodu ATHENS a krouží v ováném vyčkávacím obrazci (racetrack), opakované smyčky; štítek OVER AN HOUR",
+   "note": "Fact check: hold ~70 min → „over an hour“. Smyčky přesně stejné (autopilot krouží „perfectly“), počítat geometricky, ne ručně."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "autopilot",
+   "diagram": "táž vyčkávací smyčka ztlumená; palivoměr u nuly ambrově; dole 121 malým klidným písmem",
+   "note": "Důstojně: číslo obětí bez dramatizace, žádné trosky. „The fuel was running out“ — ukazatel u nuly, ne přesná hodnota.",
+   "pause": 1.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "autopilot",
+   "diagram": "dva štítky: TIME ✓ a PLAN (prázdný rámeček čárkovaně)",
+   "note": "Uzavření bloku; navazuje na S22 (stejné rozvržení dvou sloupců).",
+   "pause": 2.4
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "radio",
+   "diagram": "kokpit zepředu (motiv `kokpit()`): mezi sedadly rádiový panel ambrově, štítek RADIO",
+   "note": "Zavádí kokpit zepředu, pevné souřadnice pro S30–S31 a S39–S40."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "radio",
+   "diagram": "telefon vysoko nad zemí na svislé ose 11 KM, od země vysílač se signálem, který nedosáhne; ikona NO SIGNAL",
+   "note": "„Often has no signal“ — signál končí pod letadlem, ale ne „nikdy“: štítek OFTEN, ne NEVER. Osa výšky v témže měřítku jako páteř (11 km)."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "radio",
+   "diagram": "kokpit zepředu: řídicí sloupek, na rukojeti tlačítko vysílání ambrově, štítek PUSH TO TALK; rádio se štítkem LAST CONTROLLER (čárkovaně = pravděpodobně)",
+   "note": "Fact check: „probably still set to the last controller“ — čárkovaně, míra jistoty. Tlačítko musí sedět na sloupku, ne na panelu (funkčně správný nákres)."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "radio",
+   "diagram": "bublina řeči od sloupku: MAYDAY MAYDAY MAYDAY / PILOTS INCAPACITATED",
+   "note": "Text bubliny doslovně podle voiceoveru.",
+   "pause": 1.4
+  },
+  {
+   "id": "S32",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S32.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Cessna 208 Caravan",
+    "pick": 3
+   },
+   "note": "Cessna 208 Caravan D-FNDA (Portimão) — Robbie Klinkenberg, CC BY 4.0. Typ, ne letoun z incidentu (N333LD). PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "radio",
+   "diagram": "bublina s citací „I HAVE NO IDEA HOW TO FLY THE AIRPLANE.“ a pod ní DARREN HARRISON · 2022",
+   "note": "Citace doslovně z factchecku."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "radio",
+   "diagram": "postava se sluchátky: ROBERT MORGAN — CONTROLLER + FLIGHT INSTRUCTOR",
+   "note": "Bez fotky (portrét by nesl jen jméno).",
+   "pause": 0.4
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "radio",
+   "diagram": "páteř profilu, sestup rozdělený na krátké kroky (rysky), na konci ranvej PALM BEACH",
+   "note": "„Step by step“ = rysky na sestupové dráze. Malé letadlo (Cessna) na téže páteři — připraví srovnání v S36.",
+   "pause": 2.2
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "radio",
+   "diagram": "dvě siluety vedle sebe: CESSNA malá, 737 velká; pod nimi šipky rychlosti ≈ 2× a štítek hmotnosti ≈ 20×",
+   "note": "Data z factchecku. Siluety v měřítku skutečných rozměrů (rozpětí), poměry nesou jen štítky — plocha siluet NESMÍ vyjít jako poměr hmotností, to by obraz tvrdil něco jiného. Délka šipek z přistávacích rychlostí, `assert` ≈ 2."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "radio",
+   "diagram": "mřížka postav z S09 (46 ambrově) na sestupové dráze páteře; ambrová barva postav zhasíná směrem k ranveji",
+   "note": "„Where the optimism of that survey runs out“ — callback na S09.",
+   "pause": 2.4
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "radio",
+   "diagram": "rádiová vlna ze země do kokpitu; dva štítky TEACH TO FLY (`text_skrtnuty`) a USE THE AUTOMATION",
+   "note": "Stejná logika jako S13.",
+   "pause": 0.5
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "radio",
+   "diagram": "kokpit zepředu: jedna postava v sedadle s bublinou (TALKS), druhá za ní ukazuje na obrazovku (READS)",
+   "note": "Tým cestujících — souřadnice kokpitu z S28.",
+   "pause": 0.5
+  },
+  {
+   "id": "S39b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39b.png",
+   "diagram_generator": "radio",
+   "diagram": "kokpit zepředu z S39; třetí postava s telefonem zvednutým k obrazovkám, z telefonu čárkovaná vlna k aerolince; štítek VIDEO CALL?",
+   "note": "Hypotéza (žádný doložený případ) → čárkovaně a s otazníkem. Podmínka „if the plane has wi-fi“ musí být vidět.",
+   "pause": 0.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "radio",
+   "diagram": "přístrojová deska s pěti obrazovkami; svítí jen jedna, ostatní ztlumené; štítek ONE AT A TIME",
+   "note": "„One instrument at a time“ — svítí právě jedna obrazovka."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "radio",
+   "diagram": "na zemi řídící + přivolaný pilot (čepice) se štítkem SAME TYPE; rádiová vlna k letadlu",
+   "note": "Země vždy dole, letadlo nahoře — konvence vertikály podle páteře. Konec bloku rádio (S42 škrtnuta ve v0.5).",
+   "pause": 2.2
+  },
+  {
+   "id": "S43",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S43.png",
+   "prompt": "runway approach lights at night seen from a low approach, long rows of lights converging towards a dark runway, light rain, deep slate blue darkness, nobody present",
+   "note": "Předěl „the part most passengers don't know exists“. Noc je žádaná, ne `dusk`/`dawn`.",
+   "pause": 0.6
+  },
+  {
+   "id": "S44",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S44.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "ILS localizer antenna runway",
+    "pick": 2
+   },
+   "note": "London Heathrow ILS, October 2023 — DaHuzyBru, CC BY-SA 4.0: anténní řada kurzového majáku. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "ils",
+   "diagram": "páteř profilu: od ranveje dva paprsky — vodorovný směr (WHERE) shora vložený výřez, a sestupová rovina (ANGLE) z boku podél sestupové dráhy",
+   "note": "„Two things“ = přesně dva štítky. Funkčně: kurzový maják dává směr (shora), sestupový úhel (z boku) — nákres nesmí prohodit.",
+   "pause": 0.4
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "ils",
+   "diagram": "páteř: letadlo jede po sestupovém paprsku, ambrová stopa až k ranveji; štítek AUTOPILOT FOLLOWS",
+   "note": "„All the way down“.",
+   "pause": 0.5
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "ils",
+   "diagram": "detail konce sestupu nad ranvejí, stopa pokračuje přes práh (ztlumeně, zatím bez akce)",
+   "note": "Napětí — „it doesn't stop there“.",
+   "pause": 0.4
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "ils",
+   "diagram": "VÝPLATA PÁTEŘE: tentýž detail; tři kroky na stopě: NOSE UP (flare) · IDLE · TOUCHDOWN; kola na ranveji",
+   "note": "„Set up correctly“ — přesně tři položky z voiceoveru, nic navíc (podvozek/klapky/brzdy fact check vyřadil)."
+  },
+  {
+   "id": "S49",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S49.png",
+   "prompt": "airliner landing in thick fog, only the runway centreline lights visible through grey mist, low visibility, flat grey light, no sun",
+   "note": "„Built for fog“. Chlad počasím, ne denní dobou. Letadlo smí být nejasné — kdyby SDXL dělal deformovaný trup, nechat jen světla v mlze."
+  },
+  {
+   "id": "S50",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S50.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "BEA Hawker Siddeley Trident",
+    "pick": 0
+   },
+   "note": "BEA Hawker Siddeley Trident at London Heathrow Airport 1964 — Adrian Pingstone, public domain. Trident BEA z doby prvního autolandu (1965), ne nutně G-ARPR. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "ils",
+   "diagram": "celá páteř profilu s ambrovou stopou až na ranvej; velké YES, pod ním SINCE 1965",
+   "note": "Hlavní odhalení videa (~5:30).",
+   "pause": 3.0
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "ils",
+   "diagram": "táž páteř, stopa zhasne zpátky na čárkovanou; letadlo na hladině, nad ním otazník",
+   "note": "Druhá pointa. Čárkovaně = „umí, ale nezačne samo“. Draft v0.5: za „to“ doznívalo „uuu“ (nahlásil uživatel) → obětovaná věta, řez v mezeře za ní.",
+   "pause": 1.2,
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "ils",
+   "diagram": "táž páteř, od letadla čára dolů k postavě v kokpitu (výřez) se štítkem SOMEBODY TELLS IT",
+   "note": "Šipka míří OD člověka K letadlu (člověk říká letadlu).",
+   "pause": 2.4
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "ils",
+   "diagram": "dvě podmínky: RUNWAY · RIGHT EQUIPMENT ✓, PLANE · RIGHT SYSTEMS ✓; nadpis BEST CASE",
+   "note": "„Best case“ musí být v obraze.",
+   "pause": 0.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "ils",
+   "diagram": "tytéž dvě fajfky ztlumené, přes ně výstražná ikona IF ANYTHING GOES WRONG",
+   "note": "Konec bloku „autoland“. Ve v0.5 už není konec bloku — pokračuje S56b.",
+   "pause": 1.2
+  },
+  {
+   "id": "S56b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56b.png",
+   "diagram_generator": "ils",
+   "diagram": "páteř z boku čárkovaně, ambrová stopa NEPOKRAČUJE; štítek BY HAND",
+   "note": "Nejhorší případ: automatika nepřistane. Navazuje na S36–S37 (Cessna × 737).",
+   "pause": 0.6
+  },
+  {
+   "id": "S56c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56c.png",
+   "diagram_generator": "ils",
+   "diagram": "věž a rádiová vlna ke kokpitu; řídicí páka, na kterou vlna nedosáhne; štítky EXPLAIN ✓ / MOVE ✗",
+   "note": "Rádio vysvětlí, ale nepohne.",
+   "pause": 1.0
+  },
+  {
+   "id": "S56d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56d.png",
+   "diagram_generator": "ils",
+   "diagram": "karta zdroje WASHINGTON POST · 2023; pod ní čtyři postavy a sluchátka instruktora; AIRBUS SIMULATOR",
+   "note": "Experiment WaPo + UND, květen 2023 (factcheck). Čtyři postavy = čtyři dobrovolníci, assert.",
+   "pause": 0.6
+  },
+  {
+   "id": "S56e",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56e.png",
+   "diagram_generator": "ils",
+   "diagram": "tytéž čtyři postavy; dvě ambrově se štítkem AUTOPILOT OFF → CRASH",
+   "note": "Dva ze čtyř. Bez jmen.",
+   "pause": 0.8
+  },
+  {
+   "id": "S56f",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56f.png",
+   "diagram_generator": "ils",
+   "diagram": "třetí postava: OFF THE RUNWAY, čtvrtá: LAKE",
+   "note": "Vyjetí z dráhy (~70 mph) a volba jezera.",
+   "pause": 0.8
+  },
+  {
+   "id": "S56g",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56g.png",
+   "diagram_generator": "ils",
+   "diagram": "čtyři výsledky v řadě CRASH · CRASH · OFF RUNWAY · LAKE; pod nimi jediné GOOD LANDING s AFTER A RESTART + COACHING",
+   "note": "Jediné dobré přistání až po zastavení simulace a navedení — kresba nesmí tvrdit, že to někdo zvládl sám.",
+   "pause": 2.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "draha",
+   "diagram": "páteř: sestup se rozvětví — ranvej vpravo a čárkovaná větev k „něčemu měkkému“; štítek SOMETHING SOFT?",
+   "note": "Rozcestí, které se rozhodne v S63."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "draha",
+   "diagram": "tři ikony vedle sebe: FIELD · DESERT · SEA",
+   "note": "Pozor na S58 *desert* — ověřit poslechem (poušť). Ikony neutrálně, žádné hodnocení.",
+   "pause": 1.0
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "draha",
+   "diagram": "ranvej z ptačí perspektivy přes celou šíři; nápis FORGIVING",
+   "note": "Kontrast hard × forgiving je záměr (uživatel větu chtěl).",
+   "pause": 1.4
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "draha",
+   "diagram": "táž ranvej: kóta délky KILOMETRES, štítky FLAT · CLEAR, vedle hasičská vozidla; na konci volný úsek ROOM TO STOP",
+   "note": "Čtyři položky jako ve voiceoveru. Hasiči kreslení normálně (jistotu nese „can“ ve voiceoveru, ne kresba)."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "draha",
+   "diagram": "pole: příkop, plot, stromy; vedle hladina a letadlo pod strmým úhlem s ostrou čárou nárazu; štítek WRONG ANGLE",
+   "note": "„Can rip“ — nekreslit roztržené letadlo, stačí úhel.",
+   "pause": 0.5
+  },
+  {
+   "id": "S62",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S62.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "US Airways Flight 1549 Hudson River",
+    "pick": 3
+   },
+   "note": "US Airways Flight 1549 (N106US) na Hudsonu, cestující na křídlech — Greg L, CC BY 2.0. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "draha",
+   "diagram": "páteř z S57: čárkovaná větev zhasne, ambrová stopa vede na ranvej; štítek ALMOST ALWAYS THE RUNWAY",
+   "note": "MUSÍ být static — S63b z ní dědí obraz.",
+   "pause": 1.0
+  },
+  {
+   "id": "S63b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "cta": true,
+   "note": "CTA podle docs/cta.md: dědí obraz S63, static. Výjimka tohoto videa — ~6:50 místo 1:30–2:15 (rozhodl uživatel, viz notes.md).",
+   "pause": 2.4
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "budoucnost",
+   "diagram": "věž řízení na zemi, čárkovaná šipka k letadlu se štítkem TAKE OVER?",
+   "note": "Nová otázka za pointou. Čárkovaně = nápad, ne realita.",
+   "pause": 0.5
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "budoucnost",
+   "diagram": "táž čárkovaná šipka, na ní ikona zámku přeškrtnutá, štítek SECURITY RISK",
+   "note": "Šipka ze země k letadlu, ne obráceně.",
+   "pause": 1.4
+  },
+  {
+   "id": "S66",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S66.png",
+   "prompt": "painterly illustration with visible brush strokes, a lone plain white airliner with no markings, small in the frame, high above an endless sea of clouds, seen from far away, flat grey overcast light, no sun, calm, vast open sky",
+   "note": "„A plane that doesn't need one“ — zoom_out, svět se otevírá. Kolo 1 (seed z ID): pseudotext na trupu a logo na ocase → „plain white, no markings“ + seed 66095. Kolo 2 vyšlo fotorealisticky (riziko pro odpověď „AI: ne“) → „painterly illustration with visible brush strokes“. Kolo 3 přijato.",
+   "seed": 66095
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "budoucnost",
+   "diagram": "silueta malého letadla (Piper M600 / TBM), štítek EMERGENCY AUTOLAND · SINCE 2020",
+   "note": "Archiv by šel jen na typ letadla, ne na systém; kresba nese název. Bez loga Garminu."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "budoucnost",
+   "diagram": "velké kulaté tlačítko; od něj řada čtyř kroků: PICKS AIRPORT · TALKS TO ATC · FLIES THERE · LANDS & STOPS",
+   "note": "Kroky přesně podle voiceoveru (bez vypnutí motoru — není ve scénáři)."
+  },
+  {
+   "id": "S69",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S69.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Beechcraft King Air 200",
+    "pick": 2
+   },
+   "note": "Beechcraft 200 Super King Air G-BFOL (Bristow Helicopters) — Pedro Aragão, CC BY-SA 3.0. Typ, ne letoun z incidentu. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "budoucnost",
+   "diagram": "mapa Colorada schematicky: dráha letu k bodu DENVER, u letadla kyslíková maska ikonou; štítek EVERYONE WALKED AWAY · DEC 2025",
+   "note": "Fact check: přistání na KBJC (Rocky Mountain Metropolitan) u Denveru — v obraze jen „near Denver“ jako ve voiceoveru.",
+   "pause": 2.2
+  },
+  {
+   "id": "S71",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S71.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Airbus A350-1000",
+    "pick": 2
+   },
+   "note": "Airbus A350-1000 F-WMIL — New York-air, CC BY-SA 4.0: testovací letoun Airbusu v jeho barvách, přistání. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "budoucnost",
+   "diagram": "A350 silueta, tři kroky: PILOT INCAPACITATED (SIMULATED) · NEW ROUTE · TALKS TO ATC; nadpis FLIGHT TESTS",
+   "note": "„Simulated“ musí být v obraze — jinak kresba tvrdí skutečný incident.",
+   "pause": 2.6
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "zaver",
+   "diagram": "kokpit z S08 (cestující ve dveřích), nápis COULD PASSENGERS LAND IT?",
+   "note": "Callback na hlavní otázku.",
+   "pause": 1.2
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "zaver",
+   "diagram": "tytéž dva štítky jako S13: FLY IT (`text_skrtnuty`) / MAKE IT FLY ITSELF",
+   "note": "Callback na S13, stejné souřadnice.",
+   "pause": 0.5
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "zaver",
+   "diagram": "v DOLNÍ polovině tři fajfky: STABLE · AUTOPILOT ON · RADIO CONTACT",
+   "note": "Začíná okno koncové obrazovky (posledních ~20 s) — HORNÍ polovina volná."
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "zaver",
+   "diagram": "dole: kokpit s postavou (ruce, oči) spojený rádiovou vlnou s týmem na zemi; štítek HANDS AND EYES",
+   "note": "Horní polovina volná.",
+   "pause": 0.5
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "zaver",
+   "diagram": "páteř profilu posunutá do dolní poloviny (závěrečná deska): ambrová stopa po sestupu až na ranvej",
+   "note": "Poslední výplata páteře; posun je dovolený jen tady. Horní polovina volná.",
+   "pause": 1.4
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "zaver",
+   "diagram": "dole štítek NEVER NEEDS A PILOT (`text_skrtnuty`)",
+   "note": "Horní polovina volná.",
+   "pause": 0.5
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "zaver",
+   "diagram": "dole štítek KNOWS WHAT TO DO ambrově, pod ním malé letadlo na ranveji",
+   "note": "Závěrečná deska, horní polovina volná.",
+   "pause": 3.0
+  }
+ ]
+}

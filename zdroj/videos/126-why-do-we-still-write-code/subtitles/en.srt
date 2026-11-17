@@ -1,0 +1,764 @@
+1
+00:00:00,000 --> 00:00:03,420
+Here is a complete requirement
+for a piece of business software.
+
+2
+00:00:04,220 --> 00:00:06,180
+A user can cancel an order.
+
+3
+00:00:06,797 --> 00:00:09,197
+Six words. Any developer would nod.
+
+4
+00:00:09,737 --> 00:00:11,497
+Any customer would sign it.
+
+5
+00:00:12,015 --> 00:00:15,815
+So, can a user cancel an order
+after the invoice has gone out?
+
+6
+00:00:15,895 --> 00:00:17,955
+After it has been shipped?
+
+7
+00:00:18,662 --> 00:00:22,522
+Does cancelling it also cancel
+the reservation with the supplier?
+
+8
+00:00:23,402 --> 00:00:27,542
+And what if two people cancel and approve
+the same order in the same second?
+
+9
+00:00:28,147 --> 00:00:30,227
+The sentence answers none of that.
+
+10
+00:00:30,767 --> 00:00:32,667
+The code has to answer all of it.
+
+11
+00:00:32,747 --> 00:00:34,687
+And that gap, between the sentence
+
+12
+00:00:34,917 --> 00:00:38,187
+and the code, is what programmers
+are actually paid for.
+
+13
+00:00:38,367 --> 00:00:40,307
+At least they used to be.
+
+14
+00:00:42,787 --> 00:00:44,767
+Today there is a tempting idea.
+
+15
+00:00:44,847 --> 00:00:47,067
+Write only the sentences.
+
+16
+00:00:47,207 --> 00:00:50,567
+Keep them in documents,
+review them, version them.
+
+17
+00:00:50,647 --> 00:00:53,147
+And let an AI write the code.
+
+18
+00:00:53,769 --> 00:00:56,309
+The specification becomes the source code.
+
+19
+00:00:56,989 --> 00:00:59,369
+The code becomes what assembly is today:
+
+20
+00:00:59,449 --> 00:01:01,989
+something that runs,
+and that nobody reads.
+
+21
+00:01:02,720 --> 00:01:06,300
+It is a good idea.
+It is also not a new one.
+
+22
+00:01:08,200 --> 00:01:10,380
+For nearly seventy years,
+people have tried
+
+23
+00:01:10,610 --> 00:01:13,700
+to raise the level
+at which we tell computers what to do.
+
+24
+00:01:14,300 --> 00:01:17,180
+The tools were different,
+and so were their goals.
+
+25
+00:01:18,080 --> 00:01:21,060
+But each one moved more of the work
+from people to machines.
+
+26
+00:01:21,889 --> 00:01:27,109
+In 1957, a team at IBM
+published a paper about FORTRAN.
+
+27
+00:01:27,609 --> 00:01:30,809
+Its title called it
+an automatic coding system.
+
+28
+00:01:31,459 --> 00:01:33,699
+At the time, that was an accurate name.
+
+29
+00:01:34,419 --> 00:01:36,339
+You wrote formulas,
+and the machine instructions,
+
+30
+00:01:36,569 --> 00:01:40,939
+the part people had written by hand,
+were now produced by the machine.
+
+31
+00:01:41,627 --> 00:01:43,567
+Today we call FORTRAN code.
+
+32
+00:01:45,207 --> 00:01:47,027
+In the 1980s, CASE tools
+
+33
+00:01:47,257 --> 00:01:50,427
+and fourth-generation languages
+went a level higher.
+
+34
+00:01:51,047 --> 00:01:53,507
+Draw the diagrams, fill in the forms,
+
+35
+00:01:53,667 --> 00:01:56,547
+and much of the application
+is generated for you.
+
+36
+00:01:57,038 --> 00:02:00,138
+In 2001, the Object Management Group,
+
+37
+00:02:00,218 --> 00:02:04,158
+the body behind UML,
+announced Model Driven Architecture.
+
+38
+00:02:04,899 --> 00:02:06,619
+The pitch will sound familiar.
+
+39
+00:02:07,419 --> 00:02:11,739
+You describe the system once,
+as a model, independent of any technology.
+
+40
+00:02:12,619 --> 00:02:16,639
+Then tools generate the implementation
+for whatever platform you need.
+
+41
+00:02:17,223 --> 00:02:19,943
+Same business rules.
+Replaceable technology.
+
+42
+00:02:20,767 --> 00:02:23,547
+And in 2014, the analysts at Forrester
+
+43
+00:02:23,627 --> 00:02:26,347
+gave a name to platforms
+for building business applications
+
+44
+00:02:26,577 --> 00:02:29,487
+with as little hand-written code
+as possible.
+
+45
+00:02:30,267 --> 00:02:31,547
+They called it low-code.
+
+46
+00:02:32,641 --> 00:02:34,361
+So, did any of it work?
+
+47
+00:02:35,727 --> 00:02:40,547
+Partly. In 2014,
+researchers at Lancaster University
+
+48
+00:02:40,777 --> 00:02:43,447
+published a survey
+of four hundred and fifty people
+
+49
+00:02:43,677 --> 00:02:46,447
+who were actually using
+model-driven development.
+
+50
+00:02:47,110 --> 00:02:50,010
+It did work,
+more widely than many people thought.
+
+51
+00:02:50,110 --> 00:02:52,410
+But rarely for a whole system.
+
+52
+00:02:53,050 --> 00:02:56,610
+People used it for key parts,
+and built the rest in other ways.
+
+53
+00:02:57,279 --> 00:03:01,679
+The biggest obstacles they found
+were people and organisations, not tools.
+
+54
+00:03:02,499 --> 00:03:06,959
+But there is a technical limit too,
+and programmers have a joke about it.
+
+55
+00:03:07,689 --> 00:03:11,249
+A specification precise enough
+to generate the whole program from...
+
+56
+00:03:11,329 --> 00:03:14,529
+already has a name. It's called code.
+
+57
+00:03:15,718 --> 00:03:18,998
+To generate everything,
+the model had to say everything.
+
+58
+00:03:19,418 --> 00:03:23,858
+Every state, every exception,
+every "what if two people do it at once".
+
+59
+00:03:24,584 --> 00:03:27,024
+At that point
+you haven't escaped programming.
+
+60
+00:03:27,764 --> 00:03:29,144
+You've just moved it into a diagram,
+
+61
+00:03:29,374 --> 00:03:32,864
+which is often harder to read,
+to compare, and to review.
+
+62
+00:03:35,334 --> 00:03:37,154
+Back in the late 1970s,
+
+63
+00:03:37,384 --> 00:03:39,414
+Edsger Dijkstra put the other half of it
+
+64
+00:03:39,644 --> 00:03:41,994
+into a short note with a blunt title.
+
+65
+00:03:42,974 --> 00:03:45,654
+On the foolishness
+of natural language programming.
+
+66
+00:03:46,419 --> 00:03:50,399
+His point was that formal notation
+isn't a burden we put up with.
+
+67
+00:03:50,899 --> 00:03:55,559
+He called it an amazingly effective tool
+for ruling out all sorts of nonsense.
+
+68
+00:03:56,479 --> 00:03:58,179
+Plain English doesn't rule it out.
+
+69
+00:03:58,259 --> 00:04:01,819
+It hides it. A user can cancel an order.
+
+70
+00:04:04,269 --> 00:04:07,269
+So if none of that replaced code,
+why try again?
+
+71
+00:04:08,107 --> 00:04:10,327
+Because one thing really is different.
+
+72
+00:04:11,483 --> 00:04:14,503
+Older generators couldn't fill a gap
+on their own.
+
+73
+00:04:15,123 --> 00:04:17,983
+If the model didn't say what happens
+to a shipped order,
+
+74
+00:04:18,063 --> 00:04:20,343
+someone had to add that rule explicitly.
+
+75
+00:04:21,143 --> 00:04:24,943
+Until they did, the gap was still there,
+and you could find it.
+
+76
+00:04:25,513 --> 00:04:27,313
+An AI doesn't stop.
+
+77
+00:04:27,993 --> 00:04:29,313
+Give it the six-word requirement
+
+78
+00:04:29,543 --> 00:04:32,733
+and it will answer every question
+we asked at the start.
+
+79
+00:04:33,398 --> 00:04:36,018
+It will decide that a shipped order
+can be cancelled.
+
+80
+00:04:36,098 --> 00:04:37,998
+Or that it can't.
+
+81
+00:04:38,238 --> 00:04:41,438
+It will decide about the invoice,
+and about the supplier.
+
+82
+00:04:42,158 --> 00:04:44,618
+It will produce code that runs,
+looks reasonable,
+
+83
+00:04:44,848 --> 00:04:47,238
+and passes the tests it wrote itself.
+
+84
+00:04:48,007 --> 00:04:50,307
+That is exactly what makes it useful.
+
+85
+00:04:50,387 --> 00:04:53,187
+And exactly what makes it dangerous.
+
+86
+00:04:53,267 --> 00:04:56,747
+Because a plausible guess
+is not a business decision.
+
+87
+00:04:58,029 --> 00:04:59,689
+The gaps used to be errors.
+
+88
+00:05:01,339 --> 00:05:04,679
+Now they are decisions
+that nobody noticed being made.
+
+89
+00:05:07,799 --> 00:05:11,339
+So if the specification really is
+going to be the source code,
+
+90
+00:05:11,419 --> 00:05:13,759
+it can't be a few informal paragraphs.
+
+91
+00:05:14,637 --> 00:05:16,197
+Picture the repository.
+
+92
+00:05:16,917 --> 00:05:20,517
+One document describes orders
+and every state they can be in.
+
+93
+00:05:20,997 --> 00:05:24,397
+Another says who can approve them,
+and who can cancel them.
+
+94
+00:05:24,913 --> 00:05:29,213
+A third says when an invoice is issued,
+and when it has to be reversed.
+
+95
+00:05:30,253 --> 00:05:34,593
+Another describes the accounting system,
+including what happens when it's down.
+
+96
+00:05:35,187 --> 00:05:37,527
+Some of it is ordinary prose.
+
+97
+00:05:37,907 --> 00:05:41,687
+But wherever prose would be ambiguous,
+there is something stricter: a list
+
+98
+00:05:41,917 --> 00:05:46,167
+of states and the moves between them,
+a schema, a rule a machine can check.
+
+99
+00:05:46,647 --> 00:05:50,827
+And next to it, acceptance tests
+that say exactly what must happen.
+
+100
+00:05:51,394 --> 00:05:54,994
+All of it lives in Git.
+Changes are reviewed.
+
+101
+00:05:55,534 --> 00:05:58,674
+Every requirement can be traced
+to the test that checks it.
+
+102
+00:06:00,934 --> 00:06:02,974
+So what does a change look like?
+
+103
+00:06:03,374 --> 00:06:06,474
+Say the customer decides that a shipped
+order can still be cancelled,
+
+104
+00:06:06,704 --> 00:06:09,034
+as long as it hasn't been delivered.
+
+105
+00:06:10,034 --> 00:06:11,994
+And then the invoice must be reversed.
+
+106
+00:06:12,895 --> 00:06:15,355
+Nobody opens the backend.
+
+107
+00:06:15,695 --> 00:06:19,175
+A developer changes one rule
+in the document about orders.
+
+108
+00:06:19,705 --> 00:06:22,785
+Then the system goes looking
+for everything that rule touches.
+
+109
+00:06:23,425 --> 00:06:26,205
+The order states. The invoice rules.
+
+110
+00:06:26,645 --> 00:06:28,585
+The tests about cancelling.
+
+111
+00:06:28,745 --> 00:06:30,725
+The reservation with the supplier.
+
+112
+00:06:31,213 --> 00:06:33,413
+And there, it should stop and ask.
+
+113
+00:06:34,033 --> 00:06:37,033
+The specification never said
+what happens to a supplier reservation
+
+114
+00:06:37,263 --> 00:06:39,273
+once the goods are on the road.
+
+115
+00:06:39,953 --> 00:06:43,273
+That is a decision,
+so it goes back to a person.
+
+116
+00:06:43,921 --> 00:06:46,741
+Only then is the new implementation
+generated.
+
+117
+00:06:47,601 --> 00:06:49,821
+And it is checked in both directions.
+
+118
+00:06:50,661 --> 00:06:52,681
+The tests for the new rule should pass.
+
+119
+00:06:52,761 --> 00:06:55,961
+And every other test should still pass,
+unchanged.
+
+120
+00:06:56,836 --> 00:07:00,416
+Because a change to cancelling
+must not quietly change anything else.
+
+121
+00:07:00,496 --> 00:07:04,356
+Though passing tests only shows
+what the tests check.
+
+122
+00:07:05,019 --> 00:07:07,759
+And because the rules
+are not tied to the technology,
+
+123
+00:07:08,059 --> 00:07:11,599
+the same specification could produce
+a PHP application today,
+
+124
+00:07:11,829 --> 00:07:14,539
+and something else entirely tomorrow.
+
+125
+00:07:14,985 --> 00:07:16,025
+Which is precisely what
+
+126
+00:07:16,255 --> 00:07:19,585
+Model Driven Architecture promised
+twenty-five years ago.
+
+127
+00:07:20,265 --> 00:07:24,065
+The difference is that, this time,
+the generator might be good enough.
+
+128
+00:07:26,575 --> 00:07:28,675
+That leaves the hardest question.
+
+129
+00:07:29,335 --> 00:07:32,395
+How do you know the AI
+actually followed the specification?
+
+130
+00:07:33,371 --> 00:07:38,331
+Code that works in ordinary situations
+can still fail in unusual ones.
+
+131
+00:07:38,551 --> 00:07:42,851
+And the unusual ones are exactly
+the cases nobody thinks to test.
+
+132
+00:07:43,960 --> 00:07:46,760
+Amazon ran into this
+on its own cloud systems.
+
+133
+00:07:47,520 --> 00:07:51,820
+In 2014, its engineers described
+how they had started writing
+
+134
+00:07:52,050 --> 00:07:54,140
+precise, mathematical descriptions
+
+135
+00:07:54,370 --> 00:07:58,280
+of their designs,
+in a language called TLA+.
+
+136
+00:07:58,949 --> 00:08:01,069
+Not the code. The design itself.
+
+137
+00:08:02,109 --> 00:08:05,549
+A tool then took a model of the system,
+limited to a fixed size,
+
+138
+00:08:05,779 --> 00:08:09,729
+and tried every possible ordering
+of failures and recoveries.
+
+139
+00:08:10,225 --> 00:08:15,805
+In DynamoDB, Amazon's database service,
+it found a bug that could lose data.
+
+140
+00:08:16,487 --> 00:08:18,987
+The shortest way to trigger it
+took thirty-five steps,
+
+141
+00:08:19,217 --> 00:08:21,267
+in exactly the right order.
+
+142
+00:08:21,947 --> 00:08:25,107
+It had passed design reviews,
+code reviews, and testing.
+
+143
+00:08:27,857 --> 00:08:32,757
+So the honest version of the idea isn't
+that AI writes the code and we trust it.
+
+144
+00:08:33,337 --> 00:08:37,477
+It's that AI writes the code,
+and something independent checks it.
+
+145
+00:08:39,707 --> 00:08:41,567
+Now look at what we've built.
+
+146
+00:08:42,541 --> 00:08:46,321
+Precise states. Formal rules.
+Checkable tests.
+
+147
+00:08:46,401 --> 00:08:49,221
+Versioned, reviewed, kept in a repository.
+
+148
+00:08:50,001 --> 00:08:52,281
+That doesn't look like
+the end of programming.
+
+149
+00:08:52,981 --> 00:08:55,281
+It looks like programming,
+in a new language.
+
+150
+00:08:56,230 --> 00:08:58,510
+And that is what happened every time.
+
+151
+00:08:59,210 --> 00:09:02,630
+FORTRAN was automatic coding,
+until it became the code.
+
+152
+00:09:03,370 --> 00:09:07,170
+Each time the machine took over
+the how, people moved up to the what.
+
+153
+00:09:07,629 --> 00:09:09,609
+And the what was always the hard part.
+
+154
+00:09:09,849 --> 00:09:11,189
+Not typing, but deciding.
+
+155
+00:09:11,419 --> 00:09:14,269
+What happens to a shipped order.
+
+156
+00:09:14,569 --> 00:09:16,609
+Who is allowed to touch which data.
+
+157
+00:09:17,049 --> 00:09:19,049
+What the system must never do.
+
+158
+00:09:21,259 --> 00:09:25,839
+Maybe the programmer of the future
+won't write thousands of lines of code.
+
+159
+00:09:26,275 --> 00:09:29,255
+But someone will still have to understand
+a problem well enough to say
+
+160
+00:09:29,485 --> 00:09:33,595
+exactly what a computer must do,
+and to check that it did it.
+
+161
+00:09:34,115 --> 00:09:37,075
+And if the specification
+becomes the source code,
+
+162
+00:09:37,235 --> 00:09:39,675
+the most important skill
+might no longer be knowing
+
+163
+00:09:39,905 --> 00:09:41,315
+how to write a program.
+
+164
+00:09:41,797 --> 00:09:44,117
+It might be knowing how to describe one.
+
+165
+00:09:47,137 --> 00:09:50,297
+So here is the question
+I'd like to hear your answer to.
+
+166
+00:09:50,917 --> 00:09:54,477
+If you write a specification precise
+enough for a machine to build from...
+
+167
+00:09:54,557 --> 00:09:55,967
+are you still programming?

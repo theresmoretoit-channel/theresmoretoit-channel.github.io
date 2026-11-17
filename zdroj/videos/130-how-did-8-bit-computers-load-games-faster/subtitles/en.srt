@@ -1,0 +1,810 @@
+1
+00:00:00,000 --> 00:00:02,720
+This is a ZX Spectrum loading a program.
+
+2
+00:00:08,260 --> 00:00:12,840
+And this is the same program, on the same
+computer, from the same kind of cassette.
+
+3
+00:00:16,630 --> 00:00:18,450
+It finishes in half the time.
+
+4
+00:00:18,850 --> 00:00:20,730
+Nothing in the hardware changed.
+
+5
+00:00:21,070 --> 00:00:23,350
+No faster tape, no faster recorder.
+
+6
+00:00:24,153 --> 00:00:27,713
+The only thing that changed
+was the way the computer listened.
+
+7
+00:00:28,452 --> 00:00:31,852
+So how did 8-bit computers
+learn to load games faster?
+
+8
+00:00:32,752 --> 00:00:35,972
+And if it was that easy,
+why didn't they do it from the start?
+
+9
+00:00:37,742 --> 00:00:40,762
+In an earlier video,
+we saw how the Spectrum stores bits
+
+10
+00:00:40,992 --> 00:00:42,542
+as pulses on the tape.
+
+11
+00:00:43,150 --> 00:00:45,570
+A short pair of pulses means zero.
+
+12
+00:00:46,110 --> 00:00:48,250
+A pair twice as long means one.
+
+13
+00:00:48,516 --> 00:00:51,596
+That gives about fourteen hundred bits
+every second.
+
+14
+00:00:52,016 --> 00:00:56,576
+A game that fills the 48K memory
+takes around five minutes.
+
+15
+00:00:57,897 --> 00:01:00,337
+Now make every pulse half as long.
+
+16
+00:01:00,979 --> 00:01:03,479
+The computer still tells short from long.
+
+17
+00:01:04,179 --> 00:01:07,499
+But twice as many bits
+pass the tape head every second.
+
+18
+00:01:08,160 --> 00:01:10,680
+That's the whole trick
+behind a turbo loader.
+
+19
+00:01:11,340 --> 00:01:13,360
+And it isn't just a thought experiment.
+
+20
+00:01:14,189 --> 00:01:19,869
+In 1984, the game Skool Daze loaded its
+data at twice the Spectrum's normal speed.
+
+21
+00:01:22,699 --> 00:01:25,799
+So why didn't the Spectrum
+load that fast by itself?
+
+22
+00:01:26,571 --> 00:01:31,271
+The built-in loader is stored in the ROM,
+the memory chip the computer starts from.
+
+23
+00:01:31,811 --> 00:01:34,071
+It doesn't measure a pulse in seconds.
+
+24
+00:01:34,882 --> 00:01:39,062
+It counts. After each edge of the signal,
+it waits a moment,
+
+25
+00:01:39,162 --> 00:01:41,442
+then counts how long until the next one.
+
+26
+00:01:41,956 --> 00:01:46,316
+One single number in the ROM
+decides where zero ends and one begins.
+
+27
+00:01:46,765 --> 00:01:48,765
+And that number leaves a lot of room.
+
+28
+00:01:49,525 --> 00:01:53,945
+A zero can stretch by more than forty
+per cent and still be read as a zero.
+
+29
+00:01:54,265 --> 00:01:58,305
+That margin is what lets a worn tape
+on a cheap recorder still load.
+
+30
+00:01:59,569 --> 00:02:01,549
+And the computer wasn't the limit.
+
+31
+00:02:02,249 --> 00:02:06,369
+The Spectrum checks the tape signal
+about sixty thousand times a second.
+
+32
+00:02:07,027 --> 00:02:08,547
+The cassette was the limit.
+
+33
+00:02:09,327 --> 00:02:11,387
+Shorter pulses mean higher tones.
+
+34
+00:02:12,187 --> 00:02:15,787
+At double speed, a zero
+moves from two kilohertz to four.
+
+35
+00:02:15,921 --> 00:02:17,481
+And high tones are exactly what
+
+36
+00:02:17,711 --> 00:02:20,321
+a cheap recorder,
+or a slightly misaligned head,
+
+37
+00:02:20,551 --> 00:02:21,841
+loses first.
+
+38
+00:02:22,524 --> 00:02:25,184
+A Spectrum magazine in 1986 reckoned
+
+39
+00:02:25,414 --> 00:02:28,684
+most people could manage
+at least twice the normal speed.
+
+40
+00:02:29,244 --> 00:02:31,864
+How much further depended on the recorder.
+
+41
+00:02:34,514 --> 00:02:36,734
+But turbo had a stranger problem.
+
+42
+00:02:37,247 --> 00:02:40,027
+If the computer only knows
+the slow format,
+
+43
+00:02:40,207 --> 00:02:43,307
+how does it load the program
+that teaches it the fast one?
+
+44
+00:02:44,450 --> 00:02:46,570
+The answer is at the start of the tape.
+
+45
+00:02:47,290 --> 00:02:50,810
+The first part is recorded
+in the ordinary, slow format.
+
+46
+00:02:51,503 --> 00:02:54,683
+It's short, and the ROM loads
+it like any other program.
+
+47
+00:02:55,175 --> 00:02:57,455
+Then that little program takes over.
+
+48
+00:02:58,195 --> 00:03:00,355
+In the simplest case,
+it's a copy of the ROM's
+
+49
+00:03:00,585 --> 00:03:03,455
+own loading routine,
+with a few numbers changed.
+
+50
+00:03:04,254 --> 00:03:07,274
+In Skool Daze,
+the changes sit in three places.
+
+51
+00:03:08,094 --> 00:03:11,994
+A shorter wait, a new starting count,
+a new dividing line.
+
+52
+00:03:12,480 --> 00:03:16,360
+So the ROM loads the program
+that does the ROM's job, only faster.
+
+53
+00:03:17,099 --> 00:03:19,999
+It's a bit like downloading
+a faster downloader.
+
+54
+00:03:20,419 --> 00:03:22,339
+The slow step gets you the tool.
+
+55
+00:03:22,679 --> 00:03:24,179
+The tool does the rest.
+
+56
+00:03:26,739 --> 00:03:29,179
+Commercial games used the same idea.
+
+57
+00:03:29,979 --> 00:03:34,939
+One well-known example was Speedlock,
+first used by Ocean in 1984.
+
+58
+00:03:35,583 --> 00:03:38,143
+One of its authors said he wrote it
+because he was fed up
+
+59
+00:03:38,373 --> 00:03:40,443
+with how long the standard loader took.
+
+60
+00:03:41,162 --> 00:03:42,722
+But here's the surprise.
+
+61
+00:03:43,442 --> 00:03:46,622
+Speedlock was only about one and a half
+times as fast.
+
+62
+00:03:47,561 --> 00:03:49,621
+The first day
+of Daley Thompson's Decathlon
+
+63
+00:03:49,851 --> 00:03:53,721
+took three minutes twenty seconds,
+where the same data at normal speed
+
+64
+00:03:53,951 --> 00:03:55,421
+would take four minutes forty-seven.
+
+65
+00:03:56,703 --> 00:04:00,023
+Later versions were only about
+a fifth faster than the ROM.
+
+66
+00:04:00,103 --> 00:04:03,003
+Because speed wasn't the only job.
+
+67
+00:04:04,091 --> 00:04:07,811
+From 1983, copying programs
+could read a game's header
+
+68
+00:04:08,041 --> 00:04:10,751
+and copy the whole game onto another tape.
+
+69
+00:04:11,377 --> 00:04:14,797
+A custom format
+gave those programs nothing to read.
+
+70
+00:04:15,441 --> 00:04:19,241
+Early Speedlock even chopped
+its lead-in tone into short bursts,
+
+71
+00:04:19,581 --> 00:04:22,581
+so the ROM's own loader
+wouldn't recognise it at all.
+
+72
+00:04:22,931 --> 00:04:24,331
+And you could hear it.
+
+73
+00:04:24,751 --> 00:04:28,671
+A Speedlock tape loaded with clicks,
+and jerking stripes around the screen.
+
+74
+00:04:31,941 --> 00:04:35,221
+It didn't stop anyone copying
+a tape from one deck to another.
+
+75
+00:04:35,301 --> 00:04:39,581
+But it did give publishers
+a reason to write their own loaders.
+
+76
+00:04:42,181 --> 00:04:46,041
+On the Commodore 64,
+the reason to switch was much bigger.
+
+77
+00:04:46,715 --> 00:04:51,115
+Its built-in routine recorded
+everything twice, as a safety copy.
+
+78
+00:04:51,855 --> 00:04:55,035
+A forty-kilobyte game took
+about twelve and a half minutes.
+
+79
+00:04:55,551 --> 00:04:58,291
+And here, the recorder
+did almost nothing clever.
+
+80
+00:04:58,991 --> 00:05:01,891
+It just turned the sound
+into clean on and off pulses.
+
+81
+00:05:02,753 --> 00:05:06,013
+The computer timed every pulse itself,
+in software.
+
+82
+00:05:06,775 --> 00:05:09,515
+So a faster loader
+was just a different program.
+
+83
+00:05:10,684 --> 00:05:12,644
+In 1985, Compute!
+
+84
+00:05:12,874 --> 00:05:14,684
+magazine tested one called TurboTape.
+
+85
+00:05:15,943 --> 00:05:18,283
+Once it had found the program on the tape,
+
+86
+00:05:18,443 --> 00:05:21,323
+it loaded twelve kilobytes
+in twenty-eight seconds.
+
+87
+00:05:22,055 --> 00:05:25,875
+Commodore's own floppy disk drive
+needed thirty-four seconds.
+
+88
+00:05:26,567 --> 00:05:28,347
+A cassette, beating a floppy disk.
+
+89
+00:05:30,387 --> 00:05:33,627
+And because the computer was doing
+all the listening itself,
+
+90
+00:05:33,947 --> 00:05:35,927
+it could do other things in between.
+
+91
+00:05:36,648 --> 00:05:39,848
+Loaders such as Freeload
+gave reading the tape priority.
+
+92
+00:05:40,268 --> 00:05:46,068
+Whatever processor time was left went to
+music, smooth scrolling, even small games.
+
+93
+00:05:46,773 --> 00:05:48,643
+With Mastertronic's Invade-a-Load,
+
+94
+00:05:48,733 --> 00:05:52,313
+you played a Space Invaders clone
+while the real game loaded.
+
+95
+00:05:54,833 --> 00:05:57,953
+The Atari 8-bit computers
+were a different story.
+
+96
+00:05:58,683 --> 00:06:00,763
+Here, the recorder did the listening.
+
+97
+00:06:01,903 --> 00:06:04,403
+Inside it were two filters,
+one for each tone,
+
+98
+00:06:04,483 --> 00:06:07,943
+and a circuit that handed the computer
+finished ones and zeros.
+
+99
+00:06:08,637 --> 00:06:11,057
+The standard was six
+hundred bits a second,
+
+100
+00:06:11,137 --> 00:06:14,357
+and the filters limited
+how much faster it could go.
+
+101
+00:06:14,963 --> 00:06:19,643
+Clever software could nudge that up
+a little, at best to about twelve hundred.
+
+102
+00:06:19,723 --> 00:06:23,143
+But to go much faster,
+you had to open the recorder.
+
+103
+00:06:23,714 --> 00:06:26,334
+And in Czechoslovakia, people did.
+
+104
+00:06:26,973 --> 00:06:31,433
+A floppy drive there cost two to three
+times as much as the computer itself.
+
+105
+00:06:32,233 --> 00:06:34,833
+So most Atari owners
+there stayed with tape.
+
+106
+00:06:35,477 --> 00:06:41,617
+In 1987, a Prague student from the local
+Atari club designed Turbo 2000.
+
+107
+00:06:42,399 --> 00:06:44,639
+It added one new path for the signal.
+
+108
+00:06:45,519 --> 00:06:47,579
+A wire inside the recorder took the sound
+
+109
+00:06:47,809 --> 00:06:50,779
+straight from its amplifier,
+before the filters,
+
+110
+00:06:50,879 --> 00:06:54,179
+through one small chip,
+and onto the line to the computer.
+
+111
+00:06:54,977 --> 00:06:59,397
+A switch, flipped by the computer,
+chose between the old path and the new.
+
+112
+00:07:00,023 --> 00:07:02,503
+The computer now timed the pulses itself.
+
+113
+00:07:02,583 --> 00:07:05,803
+Around two thousand three hundred bits
+a second.
+
+114
+00:07:06,123 --> 00:07:08,303
+Almost four times as fast.
+
+115
+00:07:09,683 --> 00:07:12,203
+Turbo wasn't one universal format.
+
+116
+00:07:12,915 --> 00:07:14,955
+Sometimes you changed the program.
+
+117
+00:07:15,615 --> 00:07:17,795
+Sometimes, you had to change the machine.
+
+118
+00:07:20,805 --> 00:07:22,565
+And faster wasn't free.
+
+119
+00:07:23,221 --> 00:07:23,501
+Compute!
+
+120
+00:07:23,731 --> 00:07:27,061
+warned that a TurboTape recording
+would sometimes refuse to load
+
+121
+00:07:27,291 --> 00:07:31,101
+on a different recorder, with its head
+aligned slightly differently.
+
+122
+00:07:31,829 --> 00:07:35,969
+The standard save, it said,
+was much slower, but extremely reliable.
+
+123
+00:07:36,661 --> 00:07:39,941
+Recording everything twice
+wasn't Commodore being lazy.
+
+124
+00:07:40,641 --> 00:07:42,521
+It was the price of loading reliably.
+
+125
+00:07:45,101 --> 00:07:48,221
+But a different loader
+could also do something unexpected.
+
+126
+00:07:49,081 --> 00:07:51,641
+It could read a tape
+that the built-in one refused.
+
+127
+00:07:52,473 --> 00:07:56,353
+On the Sharp MZ-800,
+a computer that found its way
+
+128
+00:07:56,583 --> 00:08:02,093
+to Czechoslovakia in the late 1980s,
+owners knew a program called Turbo Copy.
+
+129
+00:08:02,767 --> 00:08:05,607
+A game would fail to load,
+with a checksum error.
+
+130
+00:08:06,187 --> 00:08:09,307
+Owners found Turbo Copy
+could often load it anyway.
+
+131
+00:08:09,769 --> 00:08:12,769
+Then you saved it at normal speed
+onto a fresh cassette,
+
+132
+00:08:13,189 --> 00:08:15,529
+and the computer loaded it normally again.
+
+133
+00:08:16,009 --> 00:08:18,709
+It felt like repairing a broken game.
+
+134
+00:08:19,760 --> 00:08:22,780
+So how could one loader read
+what the other couldn't?
+
+135
+00:08:23,912 --> 00:08:26,552
+The Sharp's ROM recorded
+every block twice,
+
+136
+00:08:26,832 --> 00:08:28,992
+at about twelve hundred bits a second.
+
+137
+00:08:29,383 --> 00:08:31,083
+And it never measured a pulse.
+
+138
+00:08:31,883 --> 00:08:35,623
+After each pulse began,
+it waited a fixed moment, and looked once.
+
+139
+00:08:36,350 --> 00:08:37,830
+Still high?
+
+140
+00:08:37,953 --> 00:08:39,153
+That's a one.
+
+141
+00:08:39,522 --> 00:08:40,722
+Already low?
+
+142
+00:08:40,869 --> 00:08:42,129
+That's a zero.
+
+143
+00:08:42,839 --> 00:08:44,899
+A stopwatch, set in advance.
+
+144
+00:08:46,073 --> 00:08:50,753
+On an old tape, or a different recorder,
+the pulses came back a little rounder.
+
+145
+00:08:51,113 --> 00:08:53,933
+Then that single look
+could see the wrong level.
+
+146
+00:08:54,513 --> 00:08:56,693
+One wrong bit spoils the checksum.
+
+147
+00:08:56,773 --> 00:08:59,553
+If both copies fail, the load fails.
+
+148
+00:09:00,528 --> 00:09:02,608
+Turbo Copy listened differently.
+
+149
+00:09:03,228 --> 00:09:06,268
+It timed every pulse
+with the computer's timer chip.
+
+150
+00:09:06,641 --> 00:09:10,001
+And before each block,
+it listened to the lead-in tone,
+
+151
+00:09:10,181 --> 00:09:13,841
+and set its dividing line
+from the pulses it was actually hearing.
+
+152
+00:09:14,481 --> 00:09:17,321
+Its stopwatch was set
+to the tape in front of it.
+
+153
+00:09:18,505 --> 00:09:20,945
+And the repair wasn't a copy of the sound.
+
+154
+00:09:21,545 --> 00:09:26,085
+Turbo Copy kept the bytes, and wrote
+a brand new, cleanly timed signal.
+
+155
+00:09:26,688 --> 00:09:28,348
+The data hadn't been lost.
+
+156
+00:09:28,988 --> 00:09:31,688
+The usual way of reading it
+just wasn't good enough.
+
+157
+00:09:32,628 --> 00:09:34,688
+Turbo Copy could also
+save the game with turbo,
+
+158
+00:09:34,918 --> 00:09:39,808
+at two or three times the normal speed,
+with its own small loader in front.
+
+159
+00:09:42,678 --> 00:09:44,978
+And that's what all of these
+have in common.
+
+160
+00:09:45,654 --> 00:09:47,534
+The cassette stayed the same.
+
+161
+00:09:47,914 --> 00:09:49,914
+What changed was the way it was read.
+
+162
+00:09:51,864 --> 00:09:54,444
+Today, we expect games to load instantly.
+
+163
+00:09:55,304 --> 00:09:57,924
+In the 1980s,
+loading was part of the game.
+
+164
+00:09:58,284 --> 00:10:02,504
+You listened to the tape.
+You watched the stripes. You waited.
+
+165
+00:10:03,316 --> 00:10:06,576
+And sometimes, a different loader
+made the same cassette behave
+
+166
+00:10:06,806 --> 00:10:08,856
+like a completely different machine.
+
+167
+00:10:09,913 --> 00:10:12,273
+The computer didn't need a faster tape.
+
+168
+00:10:12,773 --> 00:10:14,693
+It needed a better way to listen.
+
+169
+00:10:17,273 --> 00:10:19,113
+So here's a question for you.
+
+170
+00:10:19,653 --> 00:10:21,833
+Did you use turbo loaders back then?
+
+171
+00:10:22,093 --> 00:10:23,273
+How do you remember them?
+
+172
+00:10:23,353 --> 00:10:26,693
+Did they fail more often?
+Let me know in the comments.
+
+173
+00:10:27,445 --> 00:10:30,205
+And finally, the whole turbo tape,
+start to finish.
+
+174
+00:10:31,225 --> 00:10:33,505
+First the part at normal speed,
+then the turbo.
+
+175
+00:10:34,105 --> 00:10:37,085
+For a program this small,
+turbo doesn't pay off.
+
+176
+00:10:37,625 --> 00:10:40,065
+The loader takes longer
+than the time it saves.
+
+177
+00:10:40,845 --> 00:10:42,615
+For a whole game, it could save minutes.

@@ -1,0 +1,743 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "Citace článku 5 jako výřez smluvního textu: krémový list (papír) na tmavém pozadí, nahoře malé NORTH ATLANTIC TREATY · ARTICLE 5, pod tím věta „An armed attack against one or more of them … shall be considered an attack against them all“ velkým písmem; „against them all“ ambrově.",
+   "note": "První obrazovka nese myšlenku (slib všech všem), ne atmosféru. Žádná fotka podpisu smlouvy — v obraze nemají být politici (rozhodnutí uživatele 2026-10-17). Výpustka v citaci je poctivá: S01 větu zkracuje stejně jako voiceover."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ B `osa()` poprvé: vodorovná časová osa 1949 → 2026 na pevných souřadnicích, desetiletí drobnými ryskami. Nad osou ARTICLE 5 INVOKED a jediná ambrová ryska u roku 2001 s popiskem ONCE.",
+   "note": "Ryska u 2001 se počítá z roku (`assert` na x), nekreslí se od oka. Osa se vrací v S03, S04 a v S69 (zmenšeně)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "vycet": 0.3,
+   "diagram_generator": "uvod",
+   "diagram": "Táž osa (`osa()`), ryska 2001 ztlumená. Pod osou tři nápisy ve sloupci POLAND · THE BALTIC STATES · ANYONE IN EUROPE, každý s tlumenou nulou vpravo (0×).",
+   "note": "Nápisy se NEŠKRTAJÍ — škrt by tvrdil „tihle nejsou chráněni“. Scéna říká jen, že pro ně článek nikdy použit nebyl, proto 0×."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A `sit()` poprvé: uprostřed uzel THE US, kolem prstenec uzlů spojenců NATO z roku 2001 (18, `assert`), pojmenované jen CANADA, UK, DENMARK, NETHERLANDS, GERMANY, SPAIN, POLAND; ostatní beze jména. Od KAŽDÉHO spojence plná ambrová šipka DOVNITŘ k USA. Nahoře malé 12 SEPTEMBER 2001.",
+   "note": "Směr šipek je tvrzení: spojenci přišli na pomoc USA, ne naopak. Ověřit na kontaktním listu, že žádná šipka nemíří ven. Prstenec 18 = NATO 2001 bez USA; partneři mimo NATO (JAPAN, SOUTH KOREA, UKRAINE) tu NEJSOU, přibudou na vnějším oblouku až v S17.",
+   "pause": 1.0
+  },
+  {
+   "id": "S05",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S05.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [5] Dutch patrol Afghanistan August 2008 (PD) — nizozemská kolona z dálky, žádné tváře; spojenec, ne USA, což nese „followed the US“.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "ISAF patrol Afghanistan",
+    "pick": 5,
+    "grade": {
+     "saturation": 85
+    }
+   }
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Tři řady teček, jedna tečka = jeden padlý voják: UK 457, CANADA 158, DENMARK 44 (`assert` na počty). Dánská řada ambrová, pod ní drobně POPULATION ≈ 6 MILLION. Nahoře AFGHANISTAN, 2001–2021.",
+   "note": "Data se počítají (`assert` 457/158/44). Dánsko je ambrové, protože se k němu video vrací v S30 a S68 — tytéž tečky v témž rastru (`tecky_dansko()` v _kit.py).",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "pruzkum",
+   "diagram": "Otázka průzkumu v rámečku: HOW DO YOU SEE THE UNITED STATES? Pod ní drobně ECFR SURVEY · 15 EUROPEAN COUNTRIES · MAY 2026 · 19,481 PEOPLE. Vlevo časový údaj 2001 → 2026 (25 YEARS LATER).",
+   "note": "Detaily průzkumu z factchecku (ECFR, Home alone, 6/2026)."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "pruzkum",
+   "diagram": "Vodorovné pruhy: AN ALLY 11 % (ambrově), A NECESSARY PARTNER 50 % (nejdelší, INK), A RIVAL OR ADVERSARY 25 % (tlumeně). Délky pruhů z čísel (`assert`).",
+   "note": "Čísla z factchecku (ECFR: 11 %, „fully half“, 25 %). Zbytek do sta je „nevím“ — nekreslí se, osa nemá stovku, aby pruhy netvrdily úplné rozdělení.",
+   "pause": 0.5
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "pruzkum",
+   "diagram": "Váhy (`vahy()`): na jedné misce PROTECTION, na druhé COST · RISK; nad nimi NOT HATRED. CALCULATION.",
+   "note": "„An ally doing the maths“ = vážení, ne odpor. Váhy NEJSOU vychýlené na žádnou stranu — scéna netvrdí výsledek."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "sit",
+   "diagram": "Síť `sit()` (bez šipek, jen tenké plné spojnice spojenec–USA). Uzel THE US ambrově a velký otazník u něj. Uzly spojenců ztlumené. Titulek WHAT HAPPENS TO THE US?",
+   "note": "Hlavní otázka videa: ambrová je USA, ne spojenci („Not to them. To the United States.“).",
+   "pause": 2.4
+  },
+  {
+   "id": "S10b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png"
+  },
+  {
+   "id": "S22",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S22.png",
+   "prompt": "a long empty negotiating table in a quiet diplomatic hall, rows of empty chairs on both sides, documents and water glasses neatly placed, tall windows with grey daylight",
+   "note": "Předěl bloku: „důvěra jako pracovní nástroj“. Atmosféra, ne tvrzení — proto SDXL. Prázdné židle = bez lidí, bez vlajek (negativ v project.json)."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "stihacka",
+   "diagram": "Dvě země jako dva uzly COUNTRY A a COUNTRY B, mezi nimi obrys stíhačky složený ze dvou barevně odlišených půlek (díly do sebe zapadají). Pod tím časová lišta 10 YEARS a SHARED FACTORIES.",
+   "note": "Myšlenkový pokus, ne konkrétní program (FCAS, GCAP) — uzly záměrně bez jmen. Díly do sebe zapadají = „parts that only fit each other“.",
+   "pause": 0.5
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "stihacka",
+   "diagram": "Totéž, mezi A a B plná čára přes překážku NEXT ELECTION, u ní fajfka. Popisek THE PLAN MAKES SENSE.",
+   "note": "Plná = obě strany s partnerstvím počítají (konvence 2).",
+   "pause": 0.6
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "stihacka",
+   "diagram": "Totéž, čára mezi A a B se mění na ČÁRKOVANOU a u B otazník WILL THEY WALK AWAY?",
+   "note": "Čárkovaná = podmíněná, nejistá. B neodchází — jen A zvažuje, že by mohla; proto žádná šipka od B pryč.",
+   "pause": 0.6
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "vycet": 0.3,
+   "diagram_generator": "stihacka",
+   "diagram": "U uzlu A přibývají tři malé ikony s popisky: SECOND FACTORY AT HOME · TWO SUPPLIERS · BACKUP PLAN (ta čárkovaně). Stíhačka a čára k B zůstávají.",
+   "note": "Spolupráce s B NEZANIKÁ — to je pointa S27 („nobody leaves“). Čára k B musí v obraze zůstat."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "sit",
+   "diagram": "Síť `sit()`: všechny spojnice spojenec–USA dál plné (nikdo neodchází), ale od každého pojmenovaného spojence vede navíc krátký ČÁRKOVANÝ výběžek ven, do prázdna (plán pro případ, že tam USA nebudou). Titulek PLANNING FOR “WHAT IF”.",
+   "note": "Musí být statická — dědí ji CTA S27b. Výběžky vedou ven, ne k jiným spojencům: vzájemné spojnice spojenců přijdou až v S38+.",
+   "pause": 0.8
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "sit",
+   "diagram": "Síť `sit()` bez výběžků, ztlumená. Nadpis THE LAST FEW YEARS. Připraví se čtyři uzly, které se v S29–S31 rozsvítí: CANADA, DENMARK, UKRAINE (a S32–S33 Rusko MIMO síť).",
+   "note": "Přechod do bloku událostí. Žádné tváře, žádná jména politiků — události nesou uzly a krátké popisky."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "sit",
+   "diagram": "Síť `sit()`, ambrově jen CANADA. U ní dva štítky: TARIFFS a “THE 51ST STATE”. Vedle drobně připomínka z S06: 158 (tlumeně).",
+   "note": "„Which followed the US into Afghanistan“ nese tlumená 158 — tytéž číslice jako v S06. Uvozovky u 51ST STATE = citace, ne tvrzení."
+  },
+  {
+   "id": "S30",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S30.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [6] Nuuk, Greenland skyline aerial view (CC BY 4.0) — obydlené Grónsko, ne jen led: jde o něčí domov. Alternativa [3] město s kostelem.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Nuuk Greenland",
+    "pick": 6,
+    "grade": {
+     "saturation": 85
+    }
+   }
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "sit",
+   "diagram": "Trojúhelník karet THE US · EUROPE · UKRAINE (Ukrajina ambrově). Evropa → Ukrajina tlustá ambrová šipka LARGEST SOURCE OF MILITARY AID; Evropa → USA šipka PAYS FOR MANY US WEAPONS; USA → Ukrajina šipka US WEAPONS; pod tím čárkovaná cesta USA → Ukrajina přerušená štítkem INTELLIGENCE OFF · ONE WEEK.",
+   "note": "Páteř `sit()` se tu NEPOUŽÍVÁ (šipky mezi vzdálenými uzly by vedly přes prstenec). Ověřeno na kontaktním listu: každá šipka míří podle věty.",
+   "pause": 0.8
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "nafta",
+   "diagram": "Cenovka čerpací stanice DIESEL $6.00 /GAL (vlevo). Vpravo uzel RUSSIA MIMO síť a od něj ČÁRKOVANÁ šipka k uzlu THE US s popiskem SANCTIONS EASED.",
+   "note": "Čárkovaná = povoleno, ne nutně dodáno (S34: „even if all of it came“). Šipka vede od Ruska k USA — směr nafty. Cena $6 je hranice, kterou cena „passed“, ne přesná cena."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "nafta",
+   "diagram": "Síť `sit()` ztlumená, vpravo za ní svislá ambrová stěna BILLIONS TO DETER a za stěnou karta RUSSIA (ambrově). Rusko je karta, ne kroužek — prázdný kroužek znamená partnera mimo NATO (konvence 3).",
+   "note": "Stěna nemá vazbu na jednotlivé uzly — netvrdí „všichni“, jen „spojenci“ (scénář: many US allies)."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "nafta",
+   "diagram": "Kalendářní lišta US DIESEL DEMAND, 14 dní, na konci ryska 2 WEEKS; ambrově vyplněno 9 dní s popiskem EVEN IF ALL OF IT CAME. Pod tím dvě vodorovné šipky US EXPORTS a US IMPORTS v poměru délek 8 : 1, bez čísel.",
+   "note": "Factcheck: i se všemi podmíněnými dodávkami 9,2 dne (`assert` 9 < 14); EIA 1–7/2026 vývoz 1 449 vs. dovoz 177 tis. bbl/den ≈ 8× (`assert` na poměr). Čísla do obrazu nepsat, scénář je neříká."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "vycet": 0.3,
+   "diagram_generator": "vzorec",
+   "diagram": "Čtyři karty TARIFFS · GREENLAND · INTELLIGENCE · DIESEL vedle sebe, pod nimi volně tři tlumená vysvětlení A NEGOTIATING TACTIC · AN ELECTION · A PRICE AT THE PUMP.",
+   "note": "Vysvětlení NEJSOU přiřazená ke kartám — přiřazení by bylo tvrzení, které scénář nedělá. Karty jsou oddělené, spojí je až S36.",
+   "pause": 0.6
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "vzorec",
+   "diagram": "Tytéž čtyři kartičky, výmluvy ztlumené; přes kartičky vede jedna ambrová spojnice (vzorec). Nadpis EXPLANATIONS → PATTERNS.",
+   "note": "Ambrová spojnice = to, o čem je řeč (vzorec).",
+   "pause": 0.5
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "vzorec",
+   "diagram": "Smlouva/slib jako list s pečetí US PROMISE, z rohu ČÁRKOVANÁ šipka zpět s popiskem COULD BE TAKEN BACK. Nahoře malé THE LESSON ALLIES DREW.",
+   "note": "Připsáno spojencům (factcheck v0.4) — nadpis to musí říkat, jinak by obraz tvrdil, že to tvrdí video.",
+   "pause": 2.6
+  },
+  {
+   "id": "S38",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S38.png",
+   "prompt": "a large new factory hall under construction, steel frame and cranes, grey overcast daylight through the open roof, empty and quiet",
+   "note": "Předěl: „začali stavět záložní plán“. Atmosféra, ne konkrétní továrna — proto SDXL. Žádná loga, žádné zbraně v záběru."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "zajisteni",
+   "diagram": "Velký štítek EU · SAFE · €150 BN IN LOANS. Pod ním sloupec ceny dílů: ≥ 65 % ambrově EUROPE OR CLOSE PARTNERS, zbytek tlumeně OTHER (`assert` 65 %).",
+   "note": "Číslo z nařízení (EU) 2025/1106 (factcheck). Kresba nesmí tvrdit, že zbytek je americký — je to „other“."
+  },
+  {
+   "id": "S40",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S40.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [3] F-35A Lightning II descends toward the runway (PD, 6116×3860) — letoun nízko nad dráhou, minimum nápisů.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "F-35 runway",
+    "pick": 3,
+    "grade": {
+     "saturation": 85
+    }
+   }
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "zajisteni",
+   "diagram": "Řada 20 postaviček (`postava()`), 13 ambrově (65 %, `assert`), popisek SOUTH KOREA · WANT THEIR OWN NUCLEAR WEAPONS. Drobně GALLUP KOREA, AUGUST 2026.",
+   "note": "Gallup Korea 25.–27. 8. 2026: 65 % pro (factcheck). 13/20 přesně, ne odhad."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "zajisteni",
+   "diagram": "Uzel SOUTH KOREA pod obloukem deštníku US NUCLEAR UMBRELLA · 70 YEARS (plná čára). Vedle uzlu ČÁRKOVANĚ malá ikona vlastní bomby s otazníkem.",
+   "note": "Deštník zůstává celý — scéna netvrdí, že zmizel, jen že země přemýšlí o vlastní. Bomba čárkovaně = úvaha, ne program.",
+   "pause": 0.6
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "zajisteni",
+   "diagram": "Dva řádky pod sebou: WHO WILL PROTECT US? (tlumeně) → šipka dolů → HOW DO WE PROTECT OURSELVES? (ambrově).",
+   "note": "Otázka se mění, nic se neškrtá.",
+   "pause": 2.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "kanada",
+   "diagram": "Síť `sit()` ztlumená, CANADA ambrově a o něco větší. Nic dalšího.",
+   "note": "Krátká scéna (~1,5 s) — při TTS poslechnout kvůli artefaktu krátké promluvy; kdyby se ozval, `naveti`."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "kanada",
+   "diagram": "Sloupec CANADA'S EXPORTS: podíl TO THE US ambrově, zbytek REST OF THE WORLD. Pod tím drobně LONGEST BORDER ON EARTH · 8,891 KM.",
+   "note": "POZOR, ROZPOR S FACTCHECKEM: v0.4 říká „more than two thirds“, ale červenec 2026 je 66,35 % (= MÉNĚ než 2/3); 2025 celý rok 71,7 %. Do obrazu dát rok 2025 a 71,7 %, nebo scénář upravit — rozhodne uživatel.",
+   "pause": 0.6
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "kanada",
+   "diagram": "Štítek SAFE z S39 (týž tvar) a k němu z dálky připojený uzel CANADA s popiskem 2026 · FIRST COUNTRY OUTSIDE EUROPE.",
+   "note": "Rým s S39 — štítek `safe_stitek()` v _kit.py, na týchž souřadnicích.",
+   "pause": 0.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "kanada",
+   "diagram": "Pruh 100 % rozdělený: 57 % ambrově SUPPORT, AT LEAST SOMEWHAT; zbytek tlumeně. Nahoře otázka SHOULD CANADA BECOME A FULL MEMBER OF THE EU? Drobně NANOS FOR THE GLOBE AND MAIL, APRIL 2026.",
+   "note": "Číslo a zdroj z factchecku. „At least somewhat“ musí být v popisku — bez něj by obraz tvrdil silnější podporu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "kanada",
+   "diagram": "Dvě kolonky vedle sebe: GOVERNMENT: NOT ON THE TABLE (plně) a PUBLIC: WILLING TO ENTERTAIN IT (ambrově, 57 %). Mezi nimi otazník WHY?",
+   "note": "Obraz nesmí tvrdit, že Kanada do EU vstupuje. Odkaz na video 052 (Kanada a EU) přijde jako karta YouTube, ne do obrazu.",
+   "pause": 2.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "paradox",
+   "diagram": "Síť `sit()`, uzel THE US ambrově. Nadpis THE PART THAT STINGS.",
+   "note": "Návrat ke hlavní otázce z S10 — týž obraz, jen jiný nadpis (rým)."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "paradox",
+   "diagram": "Síť `sit()`: od USA ke spojencům tlumené bubliny SPEND MORE ON DEFENCE. Popisek FOR DECADES · A FAIR REQUEST.",
+   "note": "Směr je od USA ke spojencům (žádost).",
+   "pause": 0.6
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "paradox",
+   "diagram": "Sloupcový cíl 5 % OF GDP BY 2035 jako vodorovná ryska, pod ní tlumeně dřívější 2 % ryska. Nadpis NATO ALLIES AGREED.",
+   "note": "Haagská deklarace 25. 6. 2025 (factcheck). Žádné sloupce jednotlivých zemí — nebyly by v souladu s „aim for“."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "paradox",
+   "diagram": "Šipka peněz od spojenců: větší část jde k ikoně továrny EUROPE'S OWN INDUSTRY (ambrově), menší k US SUPPLIERS. Fajfka WHAT IT ASKED FOR u celkového objemu.",
+   "note": "„Some of that money… over time“ — obě šipky stejně silné, ambrová jen evropská (o ní je řeč); poměr peněz kresba netvrdí. Fajfka WHAT THE US ASKED FOR pod zdrojem peněz."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "paradox",
+   "diagram": "Dvě postavy nesou břemeno: vlevo CARRY MORE OF THE LOAD (dvě postavy nesou spolu), vpravo CARRY ALL OF IT (jedna postava sama, ta druhá odchází čárkovaně).",
+   "note": "Vpravo čárkovaně = „one day it may have to“ — možnost, ne skutečnost."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "paradox",
+   "diagram": "Tytéž dvě dvojice; pod levou STRONGER, pod pravou OPTIONAL (ambrově).",
+   "note": "Krátká scéna, druhá věta nese pointu.",
+   "pause": 0.4
+  },
+  {
+   "id": "S54b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "cta": true,
+   "pause": 1.6,
+   "note": "CTA podle docs/cta.md — dědí S27 (~3:55). Mimo standardní slot záměrně (rozhodnutí uživatele: výzva nemá přerušit blok S11–S21). Při poslechu ověřit, že před S28 nepůsobí jako dlouhá pauza."
+  },
+  {
+   "id": "S54c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "ucet",
+   "diagram": "PÁTEŘ C `ucet()` poprvé: dlouhý účet (paragon) s nadpisem WHAT THE US WAS PAYING FOR a prázdnými řádky. Zatím žádné položky.",
+   "note": "Účet se plní v S12–S20 a v S21 se ukáže, že platidlo je TRUST, ne peníze."
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S12.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [5] NARA 541683: buldozer Caterpillar z Marshallova plánu přijíždí do Francie 1949 „to help rebuild“ (PD). Bez politiků; plakát s vlajkami [0] zamítnut (vlajky, text).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Marshall Plan aid",
+    "pick": 5,
+    "grade": {
+     "saturation": 80
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "ucet",
+   "diagram": "Účet `ucet()`: první řádek NOT CHARITY. Pod čárou SUBTOTAL a místo částky tlumeně „—“ (RARELY ON A BILL).",
+   "note": "Nekreslí se žádná částka — scéna říká, že protihodnota na účtu nebývá."
+  },
+  {
+   "id": "S14",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S14.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [1] Landstuhl Regional Medical Center.jpg (PD, 2100×1400) — nápis LANDSTUHL REGIONAL MEDICAL CENTER nese „It was in Landstuhl, Germany“ bez popisku. Letecký snímek 2008 jen 700 px, zbytek výsledků očkování nebo celebrity.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "LRMC Landstuhl hospital",
+    "pick": 1,
+    "grade": {
+     "saturation": 85
+    }
+   }
+  },
+  {
+   "id": "S15",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S15.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [0] Ramstein Air Base, Germany 2008 (PD) — plocha s letouny za soumraku. Interiér evakuačního C-17 by nesl „flew them there“ líp, ale scéna jmenuje Ramstein.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Ramstein Air Base C-17",
+    "pick": 0,
+    "grade": {
+     "saturation": 85
+    }
+   }
+  },
+  {
+   "id": "S16",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S16.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-17: [0] ASML headquarters Veldhoven (PD) — fotka stroje na Commons není (jen grafy), sídlo firmy nese „It is Dutch“. fit 0.9, aby věž nebyla uříznutá.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "ASML headquarters Veldhoven",
+    "pick": 0,
+    "grade": {
+     "saturation": 90,
+     "fit": 0.9
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "sit",
+   "diagram": "Tři karty THE US · NETHERLANDS · JAPAN (NL a JP ambrově), od každé svislá čára dolů k téže vodorovné bariéře EXPORT RESTRICTIONS ON CHIPMAKING EQUIPMENT; pod ní tlumeně karta CHINA'S CHIP INDUSTRY.",
+   "note": "Páteř `sit()` se tu NEPOUŽÍVÁ: Japonsko by stálo mimo prstenec a spojnice by vedly přes celou síť. Žádná šipka od USA k NL/JP — „joined“, ne „because Washington asked“ (škrtnuto ve v0.3)."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "ucet",
+   "diagram": "Sloupec světových devizových rezerv rozdělený podle měn: US DOLLAR ambrově přes polovinu (56,7 %), zbytek OTHER CURRENCIES tlumeně. Pod tím šipka dolů u slova BORROWING COSTS. Drobně zdroj IMF COFER, Q2 2026.",
+   "note": "Podíl 56,7 % z factchecku (COFER), jen DEVIZOVÉ rezervy (bez zlata) — popisek to musí říct (FOREIGN CURRENCY RESERVES). Šipka dolů u nákladů nesmí mít číslo: scénář tvrdí jen „levněji, než by jinak mohly“."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "ucet",
+   "diagram": "Citace velkým písmem „AN EXORBITANT PRIVILEGE“ a pod ní A FRENCH FINANCE MINISTER, 1960s.",
+   "note": "Bez jména (Giscard d'Estaing) a bez portrétu — ve scénáři jméno není a politici v obraze být nemají."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "vycet": 0.3,
+   "diagram_generator": "ucet",
+   "diagram": "Účet `ucet()` vyplněný: BASES · HOSPITALS · EXPORT CONTROLS · SANCTIONS THAT BITE · AN ALLIANCE THAT WENT TO WAR. Sloupec cen zatím prázdný.",
+   "note": "Položky přesně podle voiceoveru, v témž pořadí."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "ucet",
+   "diagram": "Týž účet. Řádek PAID IN: škrtnuté MONEY (`text_skrtnuty`) a vedle ambrově TRUST.",
+   "note": "Výplata páteře C. Škrt na MONEY je správně — scéna tvrdí, že to peníze NEBYLY („almost none“: proto škrt jen u platidla, ne u položek).",
+   "pause": 1.0
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "neumi",
+   "diagram": "Uzel spojence (bez jména) se třemi spojnicemi: k THE US a ke dvěma jiným uzlům (OPTIONS). Nad ním ambrově velké NO.",
+   "note": "Spojnice k USA zůstává — spojenec má možnosti navíc, neodchází."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "vycet": 0.3,
+   "diagram_generator": "neumi",
+   "diagram": "Účet `ucet()` z S20 (týž tvar), u položek EXPORT CONTROLS · SANCTIONS · BASE · AIRSPACE · UN VOTE razítko NO.",
+   "note": "Callback na účet z S20: to, co USA dostávaly, je teď to, co může spojenec odmítnout. Razítka NO, ne škrty — položky dál existují."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "neumi",
+   "diagram": "Váhy z S09 (`vahy()`, týž tvar): na misce COST OF SAYING NO lehčí než dřív (tlumený obrys původní polohy misky čárkovaně). Nahoře NOT HOSTILITY.",
+   "note": "Rým se S09 (ally doing the maths). Čárkovaný obrys = jak to bylo dřív.",
+   "pause": 2.6
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "nevratnost",
+   "diagram": "Nahoře ambrová šipka doprava TRUST LOST, dole čárkovaná tlumená šipka zpět TRUST REGAINED přeškrtnutá křížkem.",
+   "note": "Krátký předěl."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "nevratnost",
+   "diagram": "Síť `sit()`, všechny spojnice USA–spojenci obnovené plnou čarou, u USA štítky APOLOGISES · RENEWS EVERY PROMISE. Nadpis SUPPOSE: THE NEXT GOVERNMENT.",
+   "note": "Hypotéza, ale v rámci myšlenkového pokusu se to „stane“ — čáry plné. Nadpis SUPPOSE nese podmíněnost."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "nevratnost",
+   "diagram": "Totéž, ale spojnice mezi spojenci (ze S38+) ZŮSTÁVAJÍ: u nich ikonky FACTORY BUILT · SUPPLIER TESTED · CONTRACTS SIGNED.",
+   "note": "Pointa: obnovené čáry k USA nic nesmažou.",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "nevratnost",
+   "diagram": "List slibu s pečetí z S37 (týž tvar), u pečeti ambrový štítek VALID UNTIL: THE NEXT ELECTION?",
+   "note": "Otazník: „may last only“ — scénář netvrdí, že tomu tak je, ale že s tím spojenci počítají.",
+   "pause": 0.6
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "nevratnost",
+   "diagram": "Pět kartiček DEAL zleva doprava, každá menší a tlumenější, pod každou ambrově EXPIRES.",
+   "note": "„Not one bad deal“ — žádná kartička se nevyznačuje jako jedna špatná.",
+   "pause": 2.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "vycet": 0.3,
+   "diagram_generator": "zaver",
+   "diagram": "Karta THE US ambrově nad třemi sloupy STRONGEST MILITARY · DEEPEST MARKETS · MOST IMPORTANT CURRENCY na společné základně.",
+   "note": "Teze videa podle uživatele: USA neztrácejí postavení, ztrácejí výhody spojenecké sítě. Sloupy jsou plné a stabilní.",
+   "pause": 0.7
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "zaver",
+   "diagram": "Síť `sit()`: USA plně uprostřed (WHAT IT CAN DO ALONE), kolem prstenec spojenců ambrově s popiskem WHAT OTHERS DID BECAUSE IT ASKED.",
+   "note": "Výplata páteře A: moc = uzel + síť, ne uzel sám."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "zaver",
+   "diagram": "Síť `sit()`: od všech uzlů plné šipky k USA (jako S04, týž tvar), popisek THE FIRST CALL. Drobně FOR EIGHTY YEARS.",
+   "note": "Rým se S04 — šipky dovnitř. Tentokrát „hovor“, ne vojáci.",
+   "pause": 1.4
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: síť `sit_dole()` zmenšeně, všechny spojnice k USA plné, drobně STILL TRADING · STILL TALKING.",
+   "note": "Začátek koncové obrazovky (posledních ~20 s): horní polovina prázdná pro dlaždici a kolečko. Spojnice k USA zůstávají plné — spojenci nejsou nepřátelé."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: táž zmenšená síť, navíc plné spojnice MEZI spojenci navzájem (OTHER NUMBERS). Spojnice k USA dál plné.",
+   "note": "Teze: síť se nerozpadá, jen přestává mít jediný střed."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: dánská řada 44 teček z S06 (týž rastr `tecky_dansko()`), ambrově. Drobně DENMARK · 44.",
+   "note": "Callback na S06 a S30.",
+   "pause": 1.2
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: časová osa z S02 zmenšeně s jedinou ambrovou ryskou 2001 a pod ní WASHINGTON.",
+   "note": "Výplata páteře B: jediné použití článku 5 — a volalo se z Washingtonu. Klidná deska pro koncovou obrazovku.",
+   "pause": 2.2
+  },
+  {
+   "id": "S69b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png"
+  },
+  {
+   "id": "S69c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png"
+  },
+  {
+   "id": "S69d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "pause": 3.0
+  }
+ ]
+}

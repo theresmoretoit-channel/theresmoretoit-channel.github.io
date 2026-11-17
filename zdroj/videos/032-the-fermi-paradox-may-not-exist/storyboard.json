@@ -1,0 +1,1089 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S01.png",
+      "note": "Studený otvírák. Bod vlevo dole je MOTIV celého videa — jediný datový bod, který máme. Leží na týchž souřadnicích jako v S15, S98 a v archivní S109 (Pale Blue Dot), takže se závěr pozná jako návrat. Zoom out, protože se svět otevírá.",
+      "prompt": "an immense empty void, one faint distant point of cold light near the lower left, nothing else, extreme negative space, no text"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Kreslený protějšek S01: tentýž bod, ale už naší paletou a na přesných souřadnicích z _kit.BOD. Odtud dál se s ním pracuje jako s prvkem, ne jako s obrázkem.",
+      "diagram_generator": "paradox",
+      "diagram": "Prázdné pole, v něm jediná ambrová tečka na souřadnicích motivu (BOD). Nic víc."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Hook videa. Prázdná mřížka říká 'místa jsou, obsazené není ani jedno' — to je celé zadání paradoxu. Mřížka se vrátí v S108.",
+      "diagram_generator": "paradox",
+      "diagram": "Týž bod, kolem něj se rozsvítí prázdná mřížka pozic, všechny neobsazené. Nadpis WHERE IS EVERYBODY?",
+      "pause": 2.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Čárkovaně, protože je to HYPOTÉZA, ne doloženo (konvence z _kit). Kdyby byla plná, obraz by tvrdil, že ke kolonizaci došlo.",
+      "diagram_generator": "paradox",
+      "diagram": "Mřížka z S03, přes ni čárkovaná šipka od bodu do všech směrů: kolonizace, která se nekonala."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "TADY SE ZAVÁDÍ GEOMETRIE PÁTEŘE (levý okraj, rozteč, velikost písma) — docs žádají zavedení do S01–S06. Obsah je ještě jiný, tvar už ten pravý, takže v S10 divák pozná, že se seznam vrátil.",
+      "diagram_generator": "paradox",
+      "diagram": "Čtyři řádky pod sebou v geometrii páteře: A SIGNAL / A SPACECRAFT / A MEGASTRUCTURE / ANYTHING. Všechny ztlumené."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Pojmenování. Dva řádky jsou v téže geometrii jako S05.",
+      "diagram_generator": "paradox",
+      "diagram": "Nadpis THE FERMI PARADOX, pod ním dva ztlumené řádky: THE UNIVERSE IS OLD / THERE ARE A LOT OF STARS."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Výpustkový pár S07/S08 — obraz se mezi nimi NEMĚNÍ, mění se jen text. Kdyby to byly dva různé obrázky, z beatu se stane střih.",
+      "diagram_generator": "paradox",
+      "diagram": "Prázdné pole, jen mřížka z S03 a nic v ní. Bez nápisu."
+    },
+    {
+      "id": "S08",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Prázdná obloha. Jediná scéna videa, kde má být obraz doslova prázdný — je to odpověď na 'where are the aliens?'. Statická schválně: pohyb by naznačoval, že se něco děje.",
+      "prompt": "a vast empty starless sky, uniform deep void, nothing at all in frame, no text"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Nosná myšlenka videa: paradox není konflikt DVOU pozorování. Pravá strana zůstane prázdná až do S10 — to prázdno je tvrzení.",
+      "diagram_generator": "paradox",
+      "diagram": "Vlevo jediný plný rámeček WE HAVEN'T DETECTED ANYTHING (ambrově), vpravo prázdné místo pro druhou stranu."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "PÁTEŘ, první polovina. Kreslí ji _kit.predpoklady() — nikdy ručně, jinak se v S93 posune a přeznačení se nepozná.",
+      "diagram_generator": "paradox",
+      "diagram": "Do pravé prázdné strany naskočí první tři řádky páteře: BE COMMON / BECOME INTELLIGENT / DEVELOP TECHNOLOGY."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "ŠEST, ne sedm. Zdroj měl navíc 'expand relatively quickly', v 0.3 vypadlo (viz notes.md). Nedokresluj sedmý řádek — obraz by tvrdil víc než scénář.",
+      "diagram_generator": "paradox",
+      "diagram": "Doplní se zbylé tři řádky: SURVIVE / WANT TO EXPAND / LEAVE TRACES WE CAN RECOGNISE. Šest celkem."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Ukázka mechaniky, kterou pak video provádí. Škrtá se VODOROVNOU ČAROU, ne křížkem — křížek přes nápis ho udělá nečitelným (docs).",
+      "diagram_generator": "paradox",
+      "diagram": "Všech šest řádků, jeden z nich se škrtne vodorovnou čarou (text_skrtnuty). Nadpis IF EVEN ONE IS WRONG.",
+      "pause": 2.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Otvírák sekce. Ambrová = 'o tomhle je teď řeč', ne 'tohle je pravda'.",
+      "diagram_generator": "vzorek",
+      "diagram": "Páteř vpravo ztlumená, ambrově jen BE COMMON a BECOME INTELLIGENT. Vlevo tři vrstvy: microbial / multicellular / technological."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Otazník v popisku je nutný: scénář říká 'perhaps', takže obraz nesmí tvrdit, že úzká je. Míra jistoty musí sedět ve všech třech vrstvách.",
+      "diagram_generator": "vzorek",
+      "diagram": "Ty tři vrstvy, mezi poslední dvě se vsune velmi úzká branka. Popisek EXTRAORDINARILY UNLIKELY? s otazníkem."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Návrat motivu z S01/S02. Tady dostane význam: je to náš jediný potvrzený případ.",
+      "diagram_generator": "vzorek",
+      "diagram": "Prázdné pole s mřížkou z S03, v ní jediný obsazený bod na souřadnicích motivu, ambrově."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Beat 'Us. That's it.' — obraz se skoro nemění schválně, mění se jen štítek. Kandidát na naveti, ověřit whisperem po prvním TTS (0,7 s promluva).",
+      "diagram_generator": "vzorek",
+      "diagram": "Tentýž obraz, k bodu přibude jen popisek US."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Číslice 1 je jediné místo videa, kde je v obraze číslo — je to pointa sekce a scénář ji říká slovy.",
+      "diagram_generator": "vzorek",
+      "diagram": "Vedle bodu tři prázdné rámečky 10 PLANETS / 1000 / …, všechny přeškrtnuté, a pod nimi číslice 1."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Bublina má mít ocásek jako otevřenou křivku, ne uzavřený trojúhelník — vada, kterou žádný detektor nechytne (docs).",
+      "diagram_generator": "vzorek",
+      "diagram": "Bublina s citací INTELLIGENT LIFE PROBABLY EVOLVES LIKE THIS…, pod ní jediný bod jako celý podklad tvrzení."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Nejtišší obraz sekce, ať otázka dopadne. Zoom sem nepatří. Promluva 1,0 s před pauzou 1,8 s — pásmo, kde obětovaná věta selže a jen tiše varuje, proto naveti. Ověřit whisperem, ne existencí souboru.",
+      "diagram_generator": "vzorek",
+      "diagram": "Prázdné pole, uprostřed jen BASED ON WHAT?",
+      "pause": 1.8,
+      "naveti": "Statistically we simply do not have enough data to know."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Vodorovné vahadlo musí být přesné a zajištěné assertem — nakloněné by tvrdilo, že jedna možnost vede, což scénář neříká. Naopak: 'we simply don't have enough data'. Bez ruční pauzy: S19 o scénu dřív má 1,8 s a konec sekce unese sám otvírák S21.",
+      "diagram_generator": "vzorek",
+      "diagram": "Dva sloupce vah: EARTH IS TYPICAL vs EARTH IS A FREAK ACCIDENT. Vahadlo přesně vodorovné."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Přepnutí předpokladu. Fajfka NEznamená 'dokázáno' — znamená 'pro tuhle část argumentu to připouštíme'. Musí být v jiném odstínu než ambrová.",
+      "diagram_generator": "expanze",
+      "diagram": "Páteř: BE COMMON a BECOME INTELLIGENT dostanou fajfku (necháváme platit), ambrově naskočí WANT TO EXPAND."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Tvrzení scény je, že to NENÍ totéž. Přeškrtnuté rovnítko, ne šipka — šipka by tvrdila směr, který scénář neříká.",
+      "diagram_generator": "expanze",
+      "diagram": "Dvě oddělené bubliny INTELLIGENCE a EXPANSION, mezi nimi rovnítko přeškrtnuté."
+    },
+    {
+      "id": "S23",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S23.png",
+      "note": "Vyspělá civilizace, které nic nechybí. Atmosférická scéna — přesně to, na co je SDXL. Zoom in, protože se zaostřuje na tu jednu postavu.",
+      "prompt": "a single small seated figure inside a vast dim hall filled with rows of softly glowing flat panels, quiet and self-contained, one restrained pale gold glow, no text"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Vzdálenost mezi hvězdami v obraze musí být velká — je to podklad následujících tří scén.",
+      "diagram_generator": "expanze",
+      "diagram": "Bublina WE SHOULD SEND PEOPLE TO ANOTHER STAR, vedle ní ztlumená druhá hvězda daleko vpravo."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Cenovky, ne šipky. Šipka by naznačovala, že se to děje; scénář říká, co by to stálo.",
+      "diagram_generator": "expanze",
+      "diagram": "Tři cenovky na cestě ke druhé hvězdě: CENTURIES / ENORMOUS ENERGY / NOTHING USEFUL THERE."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Beat. Obraz drží, přibývá jen otázka.",
+      "diagram_generator": "expanze",
+      "diagram": "Cíl u druhé hvězdy zůstane prázdný, nad ním jediné WHY?"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "POZOR, scéna, ve které něco míří na někoho: šipka patří lidské figuře, protože předpoklad je NÁŠ. Kdyby vedla od mimozemské, obraz by tvrdil opak popisku.",
+      "diagram_generator": "expanze",
+      "diagram": "Vlevo lidská figura s šipkou ven, vpravo mimozemská s otazníkem místo šipky. Nadpis A VERY HUMAN ASSUMPTION."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Plná čára = doloženo (dějiny), čárkovaná = extrapolace ke hvězdám. Rozdíl plné a čárkované nese celé tvrzení scény.",
+      "diagram_generator": "expanze",
+      "diagram": "Vodorovný pás lidské expanze: continents / ships / oceans. Na konci pás pokračuje čárkovaně ke hvězdám."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Záměrně TÝŽ tvar v jiném měřítku: to je přesně ta extrapolace, o které scénář mluví.",
+      "diagram_generator": "expanze",
+      "diagram": "Týž pás, ale zvětšený na galaktické měřítko — stejný tvar, jiná osa."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Beat 'But maybe that's wrong.' Bez ruční pauzy — výchozích 0,8 s stačí, drobných předělů má video dost.",
+      "diagram_generator": "expanze",
+      "diagram": "Čárkovaná část pásu se přeškrtne."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Rovnocenná velikost je to tvrzení: proč cestovat, když totéž postavíš doma. Assert na shodnou plochu obou.",
+      "diagram_generator": "expanze",
+      "diagram": "Vlevo hvězda 100 sv. let daleko, vpravo tentýž objem postavený doma uvnitř rámečku. Obojí stejně velké."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Rozdíl velikostí nese 'much stronger claim'. Velikost sama o sobě je tvrzení (docs), a tady se to hodí.",
+      "diagram_generator": "expanze",
+      "diagram": "Páteř: WANT TO EXPAND se škrtne. Pod ní dva rámečky ALIENS EXIST vs ALIENS EXIST AND WANT TO EXPAND, druhý výrazně větší.",
+      "pause": 2.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Branka je NĚKDE v řetězu, ne u sebezničení — filtr je libovolný těžký krok. Tohle je scéna, kde mi zkrácení vyrobilo věcnou chybu (factcheck.md), takže obraz to musí držet správně.",
+      "diagram_generator": "filtr",
+      "diagram": "Páteř: ambrově SURVIVE. Vlevo řetěz kroků matter → life → cells → intelligence → civilisation, jeden krok je úzká branka."
+    },
+    {
+      "id": "S33b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33b.png",
+      "note": "Sebezničení je JEDEN z kandidátů. Vlastní scéna schválně, aby se nesplynulo s definicí filtru.",
+      "diagram_generator": "filtr",
+      "diagram": "Týž řetěz, u posledního kroku přibude jedna ambrová varianta: SELF-DESTRUCTION."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Poloha filtru se v obraze NESMÍ ukázat — scénář výslovně říká, že nevíme, kde je.",
+      "diagram_generator": "filtr",
+      "diagram": "Přes celý řetěz se položí ztlumený pás NO EVIDENCE a rámeček POSSIBLE EXPLANATION, vedle přeškrtnuté OBSERVATION.",
+      "pause": 2.2
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Otvírák nejdelší sekce videa.",
+      "diagram_generator": "hledani",
+      "diagram": "Páteř: ambrově LEAVE TRACES WE CAN RECOGNISE. Vlevo nadpis MAYBE WE'RE SEARCHING BADLY."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "ASSERT na poměr ploch. Wright, Kanodia & Lubar (2018): prohledané je jako vířivka proti oceánům. Nepatrný čtvereček musí být opravdu nepatrný, ne 'malý' — jinak obraz tvrdí míň než zdroj.",
+      "diagram_generator": "hledani",
+      "diagram": "Obří obdélník THE HAYSTACK, v něm nepatrný čtvereček SEARCHED. Poměr ploch podle Wright et al. 2018."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Osm rozměrů se nakreslit nedá; čtyři stačí a popisek nesmí tvrdit, že jsou všechny.",
+      "diagram_generator": "hledani",
+      "diagram": "Osy prohledávaného prostoru (frekvence, směr, čas, výkon), na každé ambrově jen tenký proužek."
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "ARCHIV, VYBRÁNO Z KONTAKTNÍHO LISTU 2026-09-07: 'Small spark gap transmitter and coherer receiver.jpg', Victor Hugo Laughter, public domain, 1141x557. NENÍ to Hertzův aparát — původní dotaz na Hertze vrátil JEDINÝ výsledek, a to Righiho oscilátor. Voiceover nikoho nejmenuje ('we didn't know radio existed'), takže konkrétní jméno není potřeba; potřeba je aparát, který divák NEUMÍ pojmenovat, a tenhle to je. Vybráno proti třem rytinám, protože je to skutečná fotografie a je tmavá — rytiny jsou na bílém a po gradu by zůstaly světlé, navíc jedna má v obraze popisky. fit 0.92, protože snímek je 2,05:1, tedy širší než rám, a výchozí vyplnění by uřízlo oba přístroje na krajích. Dotaz zúžen tak, aby cíl vycházel na indexu 0 ze čtyř — pořadí Commons se ale mění, takže doklad je archive-raw/S38.orig a jeho otisk, ne pick.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "small spark gap transmitter coherer receiver",
+        "pick": 0,
+        "grade": {
+          "fit": 0.92,
+          "saturation": 55,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Antický Říman. Kreslené schválně: SDXL by z 'Roman s radioteleskopem' udělal buď fotorealistickou kulisu, nebo nesmysl. Prázdná bublina (ne otazník) = nemá to v pojmovém aparátu vůbec.",
+      "diagram_generator": "hledani",
+      "diagram": "Postava v tóze u paraboly rádiového teleskopu, z paraboly jde plno signálů, postava má nad hlavou prázdnou bublinu."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Beat 'What does he conclude? Probably nothing.' — týž obraz, mění se jen množství signálu. Ne nový obrázek.",
+      "diagram_generator": "hledani",
+      "diagram": "Táž postava, bublina zůstane prázdná. Signály zesílí."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Prázdné místo v seznamu, ne přeškrtnutá položka. Přeškrtnutí by znamenalo 'věděl o tom a odmítl to'.",
+      "diagram_generator": "hledani",
+      "diagram": "Vedle postavy její pojmový aparát jako krátký seznam, ve kterém RADIO chybí — je tam prázdné místo."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Zrcadlo S39 na TÝCHŽ souřadnicích — v tom je pointa scény. Když se rozvržení liší, callback se nepozná.",
+      "diagram_generator": "hledani",
+      "diagram": "Tentýž tvar, ale role prohozené: my u paraboly, mimozemská aktivita jako signál, naše bublina prázdná."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Nejdůležitější rozlišení první poloviny videa. Škrtá se vodorovnou čarou přes text.",
+      "diagram_generator": "hledani",
+      "diagram": "Dva rámečky: ABSENCE OF A CIVILISATION přeškrtnuto, ABSENCE OF A SIGNAL WE CAN RECOGNISE ambrově.",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Jediné číslo v obraze v téhle sekci. POZOR: každý pohled na galaxii zvenčí je ilustrace, ne fotka — popisek to nesmí tvrdit jinak (factcheck.md).",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Kotouč Mléčné dráhy z boku s měřítkem 100 000 LIGHT-YEARS, náš bod na souřadnicích motivu."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Výpustkový pár S45/S46 — obraz se mezi nimi mění minimálně.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "V kotouči se rozsvítí druhý bod daleko od našeho. Kolem něj kroužek 'right now'."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Nedoražená fronta je celé tvrzení scény. Musí být zjevně nedoražená, ne 'skoro tam'.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Od druhého bodu vyrazí světelná fronta, která k našemu bodu NEDORAZÍ — zastaví se v půli."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Budoucí čárkovaně (hypotéza), vyhaslý plně (mohl existovat). Rozdíl plné a čárkované nese míru jistoty.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Časová osa galaxie: tři body v různých dobách — jeden vyhaslý v minulosti, náš teď, jeden budoucí čárkovaně."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Škrtá se celý nadpis, což znamená 'neplatí to vůbec' — a tady to tak je: galaxie není jeden okamžik.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Přeškrtnutý nadpis ONE MOMENT, pod ním kotouč rozvrstvený do hloubky jako historie."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Klíčový obraz sekce. Štítky nesmí vypadat jako data pozorování; jsou to různé hloubky pohledu.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Kotouč, kde každá část má vlastní časový štítek — různé části v různých dobách své minulosti.",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Tvrzení: naše představa je složená z nás. Ikony musí být rozpoznatelně lidské, jinak scéna nefunguje.",
+      "diagram_generator": "viditelnost",
+      "diagram": "Silueta mimozemské civilizace nakreslená z lidských dílků: stroje, energie, kolonie — všechno naše ikony."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Beat. Promluva 0,5 s před pauzou 2,0 s, tedy týž případ jako S99 — obětovaná věta tam nemá kde řezat. Naveti nasazeno, ověřit whisperem.",
+      "diagram_generator": "viditelnost",
+      "diagram": "Táž silueta, přes ni jediné BUT WHY?",
+      "pause": 2.0,
+      "naveti": "They build machines and they want things."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "DATA MUSÍ BÝT V OBRAZE OD PRVNÍHO SNÍMKU (zpětná vazba od diváka: prázdné osy se čtou jako rozbitý graf). Žádný nájezd na prázdné osy.",
+      "diagram_generator": "viditelnost",
+      "diagram": "Křivka hlasitosti civilizace v čase: prudký vzestup, krátký vrchol NOISY, dlouhý tichý ocas."
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S53.png",
+      "note": "Teenageři a odložené hračky — nejlepší obraz celého scénáře a atmosférická scéna, tedy práce pro SDXL. Zoom in na tu jednu věc.",
+      "prompt": "a single abandoned child's toy lying on an empty floor in a large quiet room, nobody present, cold pale light, deep shadow, no text",
+      "pause": 2.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Nájezd na název. Klidná deska, ať S55 dopadne.",
+      "diagram_generator": "les",
+      "diagram": "Prázdné pole, jen nadpis ONE OF THE MOST FAMOUS IDEAS."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Titulní odhalení. Promluva 1,0 s před pauzou 2,4 s — naveti, aby Kokoro na konci nedoříkávalo. Ověřit whisperem.",
+      "diagram_generator": "les",
+      "diagram": "Jediný nápis THE DARK FOREST uprostřed, jinak prázdno.",
+      "pause": 2.4,
+      "naveti": "Now we get to one of the most famous ideas."
+    },
+    {
+      "id": "S56",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S56.png",
+      "note": "Atmosféra, ne informace — přesně SDXL. Do promptu nepatří lovec ani postava: scénář je dodá slovem a model by z toho udělal ilustraci k fantasy.",
+      "prompt": "a dense dark forest of bare vertical trunks seen from within, deep shadow between them, nothing visible in the gaps, cold pale mist, no text"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Kreslený protějšek S56. Tři otazníky odpovídají třem větám scénáře — ani víc, ani míň.",
+      "diagram_generator": "les",
+      "diagram": "Schéma lesa: tečky lovců mezi kmeny, u každé tři otazníky (kdo / co chce / je silnější?)."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Nájezd na S59.",
+      "diagram_generator": "les",
+      "diagram": "Tytéž tečky, nad nimi jediné pravidlo v rámečku."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Pointa Dark Forest. Promluva 0,7 s před pauzou 2,6 s — naveti. Ověřit whisperem.",
+      "diagram_generator": "les",
+      "diagram": "V rámečku se objeví DON'T MAKE NOISE.",
+      "pause": 2.6,
+      "naveti": "So the safest strategy is this."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "POZOR, něco míří na někoho: šipky vedou OD ostatních K té, která vydala signál. Obráceně by scéna tvrdila opak.",
+      "diagram_generator": "les",
+      "diagram": "Jedna tečka vydá signál, ostatní se k ní obrátí; tečka zhasne. Zbytek ztichne."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Scénář ji tady bere vážně — obraz taky. Zpochybnění přijde až v S62.",
+      "diagram_generator": "les",
+      "diagram": "Nadpis THE DARK FOREST s fajfkou EXPLAINS THE PARADOX, vedle ztlumeně ELEGANT."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "HLAVNÍ OBRAT VIDEA. Nejdelší pauza scénáře; obraz musí být holý, aby otázka visela.",
+      "diagram_generator": "les",
+      "diagram": "Přes obraz jediná otázka HOW EXACTLY DO YOU HIDE A PLANET?",
+      "pause": 3.0
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Klíčové přepnutí měřítka: motiv, který byl celé video tečkou, se poprvé otevře. Souřadnice středu zůstávají tytéž.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Náš bod z motivu, ale poprvé zvětšený na planetu s tenkým prstencem atmosféry. Vedle přeškrtnuté DELIBERATE MESSAGES."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Tři, protože scénář jmenuje tři. Čtvrtá by byla tvrzení navíc.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Kolem planety tři ambrové vrstvy: MODIFIED ATMOSPHERE / ARTIFICIAL CHEMICALS / RADIO EMISSION."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Rozlišení, na kterém stojí celý zbytek sekce: pozorovatelná je i bez nás.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Planeta bez těch vrstev, jen ztlumený nápis ALREADY NATURALLY OBSERVABLE."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Škrtá se bublina, ne planeta. Tvrzení je 'tohle není potřeba'.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Bublina HELLO. WE ARE HUMANS. přeškrtnutá, vedle ní dalekohled mířící na planetu."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Nájezd na S68. Geometrie zákrytu musí být fyzikálně správná — světlo prochází ATMOSFÉROU, ne planetou.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Planeta v zákrytu před hvězdou, světlo prochází atmosférou do spektra."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Data od prvního snímku (zpětná vazba diváka o prázdných osách). Popisky doplní S69.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Spektrum s absorpčními čarami, zatím bez popisků, ale s daty."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "OVĚŘIT, KTERÉ PÁSMO PATŘÍ KTERÉ MOLEKULE — jinak diagram tvrdí něco, co v popisku není (factcheck.md). Čtyři, protože scénář jmenuje čtyři.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Do spektra se doplní čtyři popisky: H2O / CO2 / O2 / O3."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Škrtne se ŠIPKA, tedy ten závěr, ne kyslík. Kdyby se škrtl kyslík, obraz by tvrdil, že se nedetekuje.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Šipka od O2 k rámečku THERE ARE HUMANS HERE, celá šipka přeškrtnutá."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Slabší, ale platný závěr. Plná čára, protože tenhle scénář připouští.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Táž šipka vede k jinému rámečku: THIS PLANET IS INTERESTING. Plná."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Přesně to, co scénář říká o nároku Dark Forest — nepotřebuje identifikaci, stačí všimnutí.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Vedle sebe: KNOW EXACTLY WHAT WE ARE (přeškrtnuto) a NOTICE SOMETHING UNUSUAL (ambrově)."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Dotažení S72, ne nový obraz.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Táž dvojice, ambrový rámeček zvýrazněn a spojen s planetou."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Poměr musí být zajištěn assertem — je to tvrzení o tom, jak moc biologie atmosféru změnila.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Planeta rozdělená na dvě půlky: ROCK vs ATMOSPHERE SHAPED BY BIOLOGY. Druhá výrazně větší podíl."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Výpustkový pár S75/S76: klín je bezejmenný, pojmenuje ho až S76.",
+      "diagram_generator": "atmosfera",
+      "diagram": "K biologické půlce přibude tenký ambrový klín bez popisku."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Konec bloku o atmosféře.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Klín dostane popisek TECHNOLOGY.",
+      "pause": 2.4
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Nájezd na radar. Rozdíl velikostí je předzvěst čísel z S80.",
+      "diagram_generator": "radar",
+      "diagram": "Planeta z S63, kolem ní dvě různě velké obálky: slabá NORMAL LEAKAGE a mnohem větší NOT INTENDED FOR ANYONE."
+    },
+    {
+      "id": "S78",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S78.png",
+      "note": "ARCHIV, VYBRÁNO Z KONTAKTNÍHO LISTU 2026-09-07: 'Arecibo Site Visit (11341527963).jpg', National Science Foundation, public domain, 3264x2448. Vybráno ze dvanácti výsledků: je na něm ZÁVĚSNÁ PLOŠINA S VYSÍLAČEM nad mísou, ne jen mísa — a scéna mluví o vysílání, ne o příjmu. Public domain má přednost před šesti variantami pod CC BY-SA. BEZ fit: snímek je 4:3, výchozí vyplnění ubere po 12,5 % nahoře (mraky, nevadí) a dole (povrch mísy, dává měřítko) a full-bleed sedí scéně líp než rozostřené okraje; crop_y 0.5. Zoom out, protože se otevírá měřítko. Dotaz míří na číslo souboru, takže vrací JEDINÝ výsledek — ale doklad je stejně archive-raw/S78.orig a otisk, ne pick.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Arecibo Site Visit 11341527963",
+        "pick": 0,
+        "grade": {
+          "crop_y": 0.5,
+          "saturation": 60,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Jediná scéna videa s odbornou citací v obraze. Je to nejsilnější doklad druhé poloviny a divák se na něj bude ptát (factcheck.md).",
+      "diagram_generator": "radar",
+      "diagram": "Rámeček s citací: Sheikh et al. 2025, Astronomical Journal — EARTH DETECTING EARTH."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "ČÍSLA PODLE Sheikh et al. 2025, assert na poměry. Osa MUSÍ být logaritmická a označená jako taková — na lineární by 4 ly zmizely a obraz by tvrdil, že se detekuje všechno stejně.",
+      "diagram_generator": "radar",
+      "diagram": "Vodorovná logaritmická osa vzdálenosti s hodnotami: LTE 4 ly, Voyager 1 ly, DSN 65 ly, PLANETARY RADAR 12 000 ly."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Výhrada scénáře. Obraz nesmí naznačit, že to platí pro pasivní pohled — platí to pro radar zachycený SKA.",
+      "diagram_generator": "radar",
+      "diagram": "Bublina THERE ARE HUMANS ON EARTH přeškrtnutá, vedle ní jen ambrový proužek u 12 000 ly."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Tři, protože scénář po škrtu jmenuje tři (distance, direction, sensitivity). Nepřidávej frequency a duration ze zdroje.",
+      "diagram_generator": "radar",
+      "diagram": "Čtyři podmínky detekce jako závory: DISTANCE / DIRECTION / SENSITIVITY, jen některé otevřené."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Výpustkový pár S83/S84.",
+      "diagram_generator": "radar",
+      "diagram": "Osa z S80 ztlumená, na ní jediný ambrový bod."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Minimální změna, ne nový obrázek.",
+      "diagram_generator": "radar",
+      "diagram": "Týž obraz, bod se rozsvítí jasněji."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Pointa celé druhé poloviny videa.",
+      "diagram_generator": "radar",
+      "diagram": "Jediný nápis EARTH IS NOT PERFECTLY HIDDEN nad planetou.",
+      "pause": 2.6
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Konec bloku. ZÁMĚRNĚ bez ruční pauzy, ačkoli je to konec tematického bloku: S85 hned vedle má 2,6 s a dvě zastávky o scénu od sebe se čtou jako zadrhnutí. Otázku v S87 je lepší nechat dopadnout hned.",
+      "diagram_generator": "radar",
+      "diagram": "Planeta s obálkou technosignatur, vedle přeškrtnuté TRYING TO HIDE."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Jediný nadpis zdroje, který se dostal do mluveného textu (factcheck.md). Obraz to nese jako otázku, ne jako závěr.",
+      "diagram_generator": "paranoia",
+      "diagram": "Nadpis SO DOES THAT KILL THE DARK FOREST? a pod ním ztlumené NOT COMPLETELY."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Návrat lesa na TÝCHŽ souřadnicích jako S57 — jinak se nepozná, že jde o tutéž myšlenku.",
+      "diagram_generator": "paranoia",
+      "diagram": "Les z S57, jedna tečka se zabalí do stínu a zmizí. Vedle přibude nový rámeček: A NEW PROBLEM."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Geometrie páteře, ale JINÝ nadpis — jsou to podmínky Dark Forest, ne předpoklady paradoxu. Musí být vizuálně odlišitelné, jinak divák spojí dva různé seznamy.",
+      "diagram_generator": "paranoia",
+      "diagram": "Tři podmínky pod sebou: BE AFRAID (fajfka) / BE EXTREMELY GOOD AT HIDING / EVERY ONE INDEPENDENTLY."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Nájezd na S91.",
+      "diagram_generator": "paranoia",
+      "diagram": "Všechny tečky lesa ztlumené, jedna se rozsvítí ambrově."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Jediná scéna, kde signál dorazí až k okraji — protikladu k nedoražené frontě z S46.",
+      "diagram_generator": "paranoia",
+      "diagram": "Ta jedna tečka vyšle signál, který se šíří přes celý obraz. Bublina WE DON'T CARE. LET'S EXPAND."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Výpustkový pár se S92b.",
+      "diagram_generator": "paranoia",
+      "diagram": "Les už není tichý: víc rozsvícených teček."
+    },
+    {
+      "id": "S92b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92b.png",
+      "note": "Závěr celé Dark Forest linie: řešení paradoxu jen přidalo další podmínku. To je totéž, co video tvrdí o paradoxu samotném.",
+      "diagram_generator": "paranoia",
+      "diagram": "Do seznamu podmínek přibude poslední řádek ALMOST EVERYONE MUST BE PARANOID, ambrově.",
+      "pause": 2.8
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "ZÁMĚRNĚ vypadá jako návrat na začátek. Divák má na okamžik věřit, že video shrnuje. To je nájezd na překlopení v S94.",
+      "diagram_generator": "otazka",
+      "diagram": "Návrat mřížky a prázdna z S03 s nápisem WHERE IS EVERYBODY? — vizuálně shodné s S03."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "PŘEKLOPENÍ, první polovina: otázka nebyla pozorování, byl to tenhle seznam. Řádky MUSÍ ležet na týchž souřadnicích jako v S10–S12.",
+      "diagram_generator": "otazka",
+      "diagram": "Otázka z S93 se rozpadne a odhalí pod sebou šest řádků páteře — pořád s nadpisem THEY SHOULD…"
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "JÁDRO CELÉHO STORYBOARDU. Tohle je ta změna perspektivy: tytéž řádky, jiná hlavička — z tvrzení o mimozemšťanech se staly otázky na nás. Nic se nesmí pohnout, jinak se to čte jako nový seznam, ne jako přeznačení téhož.",
+      "diagram_generator": "otazka",
+      "diagram": "Nadpis THEY SHOULD… se přepíše na DO WE EXPECT…? a všech šest řádků dostane otazník. Souřadnice beze změny."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Jen dva, protože scénář po škrtu vysloví dva. Ostatní čtyři zůstávají viditelné jako otázky, ale ztlumené — obraz tak netvrdí víc než text.",
+      "diagram_generator": "otazka",
+      "diagram": "Ambrově se rozsvítí dva řádky, ke kterým scénář vysloví WHY?: …TO EXPAND? a …TO REMAIN DETECTABLE?"
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Scénář říká 'and most importantly'. Silnější zvýraznění tu míru důležitosti nese — je to jediné místo, kde se řádky páteře liší váhou.",
+      "diagram_generator": "otazka",
+      "diagram": "Rozsvítí se poslední řádek …THAT WE CAN RECOGNISE? a je zvýrazněn silněji než ostatní."
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Návrat motivu. Po dvanácti minutách hypotetických civilizací zpátky k jedinému datovému bodu — uživatel na tomhle callbacku trval (zpetna vazba 0.7.txt) a má pravdu, bez něj se konstrukce rozpadne.",
+      "diagram_generator": "otazka",
+      "diagram": "Páteř ztlumí a vrátí se mřížka z S03/S15 s jediným obsazeným bodem."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Beat 'One.' Jednoslovná promluva 0,2 s před pauzou 2,4 s — TOHLE JE případ z CLAUDE.md, kde obětovaná věta selže. Nasazeno naveti; po prvním TTS ověřit whisperem, ne existencí souboru.",
+      "diagram_generator": "otazka",
+      "diagram": "Týž obraz, u bodu jediná číslice 1.",
+      "pause": 2.4,
+      "naveti": "We have one example of a technological civilisation."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Nosná věta videa. Čárkovaně, protože je to extrapolace — plná čára by tvrdila, že ten závěr platí.",
+      "diagram_generator": "otazka",
+      "diagram": "Z toho jediného bodu vede čárkovaná extrapolace přes celou prázdnou mřížku. Nadpis SAMPLE SIZE OF ONE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Payoff. Poprvé za celé video je v mřížce někdo jiný, a to bez toho, abychom cokoli vysílali. POZOR na směr: pohled vede OD cizího bodu K našemu.",
+      "diagram_generator": "zaver",
+      "diagram": "Mřížka, ale poprvé se v ní rozsvítí CIZÍ bod — a dívá se na náš. Bez zprávy mezi nimi."
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Výpustkový pár S102/S103.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, spojnice mezi body se začne rozsvěcovat."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Uzavření druhé poloviny videa.",
+      "diagram_generator": "zaver",
+      "diagram": "Spojnice dokončena, náš bod září. Nápis DIFFICULT TO HIDE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Odstup, ne shrnutí. ŽÁDNÁ ambrová — scénář říká, že všechny jsou myslitelné, takže kdyby jedna svítila, obraz by vybíral odpověď, kterou video odmítá dát.",
+      "diagram_generator": "zaver",
+      "diagram": "Odstup zpátky na prázdnou mřížku z S03, kolem ní ztlumený výčet možností: RARE / COMMON / DON'T EXPAND / HIDING."
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "'That's precisely the problem' — problém je právě ta rovnocennost. Stejná intenzita všech položek je celé tvrzení scény a patří na ni assert, ne odhad.",
+      "diagram_generator": "zaver",
+      "diagram": "Tentýž výčet, ale všechny položky rozsvícené STEJNĚ silně."
+    },
+    {
+      "id": "S106",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106.png",
+      "note": "Návrat rámečku z S09 na týchž souřadnicích, jen s opačným obsazením — tam bylo plné vlevo a prázdno vpravo taky, ale plné byl NÁŠ jediný údaj. Tady je vlevo domněnka. Rozdíl musí být čitelný ze štítku.",
+      "diagram_generator": "zaver",
+      "diagram": "Rovnítko: vlevo rámeček THE UNIVERSE SHOULD BE FULL OF CIVILISATIONS, vpravo prázdno."
+    },
+    {
+      "id": "S106b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106b.png",
+      "note": "Výpustkový pár se S107.",
+      "diagram_generator": "zaver",
+      "diagram": "Levý rámeček ztlumí, zůstane jediné slovo UNCERTAINTY."
+    },
+    {
+      "id": "S107",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S107.png",
+      "note": "Doslovný obraz k 'wrapped inside a very catchy question'. Minimální změna proti S106b, ne nový obrázek.",
+      "diagram_generator": "zaver",
+      "diagram": "Kolem slova UNCERTAINTY se dokreslí obal ve tvaru otazníku."
+    },
+    {
+      "id": "S108",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S108.png",
+      "note": "Doslovný návrat na hook. Musí to být TÝŽ obraz, ne podobný — jinak se callback nepozná. Kreslí je táž funkce s týmiž parametry.",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdná mřížka z S03 a nad ní WHERE IS EVERYBODY? — přesně tentýž obraz jako S03.",
+      "pause": 2.6
+    },
+    {
+      "id": "S109",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S109.png",
+      "note": "ARCHIV, VYBRÁNO Z KONTAKTNÍHO LISTU 2026-09-07: 'Pale Blue Dot from Voyager 1 - PIA23645.png', NASA/JPL-Caltech, public domain, 5230x5175 (přepracování z r. 2020 původního snímku Voyageru 1 ze 14. 2. 1990). Skutečná fotografie toho, co bylo celé video kreslenou tečkou — největší výplata motivu. PICK 1, NE 0: index 0 je týž snímek jako .tiff, jehož náhled Commons vrací jako 424 kB ztrátový soubor, kdežto .png má 8 MB bezztrátově. U hladkého tmavého přechodu je to rozdíl mezi čistým obrazem a viditelným zbandováním. ZOOM je nutný: archive.py stahuje náhled o šířce 2560, ve kterém má Země ~5 px, a v celém čtvercovém snímku by ve videu zanikla. Země změřena na x=0,595 y=0,519 zdroje (jediný shluk 8x7 px výrazně jasnější než okolí); výřez 16:9 kolem ní dá zvětšení 2,03x, což je u snímku bez jemných detailů zdarma — ověřeno simulací. TINT_AMOUNT 0 A SATURATION 90: scéna říká 'that strange little blue planet', takže barva JE to tvrzení a výchozí teplé sjednocení by ji zabilo (docs/archiv-a-licence.md, 'výchozí grade umí zabít scénu, jejíž funkcí je barva'). Viněta vypnutá — okolí je vesmír, ne chybějící okraj. STATICKY: bod má zlomek pixelu a jakýkoli pohyb by ho rozmazal.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Pale Blue Dot from Voyager 1 PIA23645",
+        "pick": 1,
+        "grade": {
+          "zoom": [
+            0.3487,
+            0.379,
+            0.4925,
+            0.28
+          ],
+          "saturation": 90,
+          "tint_amount": 0,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S110",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S110.png",
+      "note": "Nájezd na poslední otázku.",
+      "diagram_generator": "zaver",
+      "diagram": "Prázdno, v něm ztlumeně WHY HAVEN'T WE FOUND ALIENS?"
+    },
+    {
+      "id": "S111",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S111.png",
+      "note": "Poslední škrt videa. Vodorovná čára přes text, ne křížek.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž otázka se přeškrtne vodorovnou čarou."
+    },
+    {
+      "id": "S112",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S112.png",
+      "note": "ZÁVĚREČNÁ DESKA — přes pravou a dolní část položí YouTube karty a závěrečnou obrazovku, takže tam nesmí být text ani nic, o co by divák přišel. Statická, delší doznění.",
+      "diagram_generator": "zaver",
+      "diagram": "Závěrečná deska: v horní části WOULD WE EVEN RECOGNISE THEM? a náš jediný bod. Dolní třetina a pravá strana prázdné.",
+      "pause": 3.2
+    }
+  ]
+}

@@ -1,0 +1,853 @@
+{
+  "total": 691.091,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 5.264,
+      "end": 6.064,
+      "dur": 5.664,
+      "text": "Imagine you had a computer program containing three billion characters of instructions."
+    },
+    {
+      "id": "S02",
+      "start": 6.064,
+      "speech_end": 11.717,
+      "end": 12.517,
+      "dur": 6.453,
+      "text": "Now imagine that every time you created a new process, you copied the entire program into it."
+    },
+    {
+      "id": "S02b",
+      "start": 12.517,
+      "speech_end": 13.447,
+      "end": 15.047,
+      "dur": 2.53,
+      "text": "Twice."
+    },
+    {
+      "id": "S03",
+      "start": 15.047,
+      "speech_end": 24.888,
+      "end": 25.688,
+      "dur": 10.641,
+      "text": "Not just the functions that process needs. The entire thing. Every module. Every dependency. Every piece of ancient legacy code."
+    },
+    {
+      "id": "S04",
+      "start": 25.688,
+      "speech_end": 32.154,
+      "end": 32.954,
+      "dur": 7.266,
+      "text": "And then the process simply ignored ninety-nine percent of it. That would be terrible software engineering."
+    },
+    {
+      "id": "S05",
+      "start": 32.954,
+      "speech_end": 33.829,
+      "end": 34.629,
+      "dur": 1.675,
+      "text": "And yet..."
+    },
+    {
+      "id": "S06",
+      "start": 34.629,
+      "speech_end": 36.783,
+      "end": 37.583,
+      "dur": 2.955,
+      "text": "...that's more or less what your cells do."
+    },
+    {
+      "id": "S07",
+      "start": 37.583,
+      "speech_end": 43.877,
+      "end": 44.677,
+      "dur": 7.093,
+      "text": "Almost every cell in your body that has a nucleus contains essentially the same complete copy of your genome."
+    },
+    {
+      "id": "S08",
+      "start": 44.677,
+      "speech_end": 52.363,
+      "end": 53.163,
+      "dur": 8.486,
+      "text": "A neuron has it. A liver cell has it. A skin cell has it. And yet they behave completely differently."
+    },
+    {
+      "id": "S09",
+      "start": 53.163,
+      "speech_end": 56.877,
+      "end": 57.677,
+      "dur": 4.514,
+      "text": "The code is there. Most of it simply isn't being used."
+    },
+    {
+      "id": "S10",
+      "start": 57.677,
+      "speech_end": 61.495,
+      "end": 62.295,
+      "dur": 4.619,
+      "text": "A gene can be thought of, very roughly, as a function or a module."
+    },
+    {
+      "id": "S11",
+      "start": 62.295,
+      "speech_end": 71.705,
+      "end": 72.505,
+      "dur": 10.21,
+      "text": "It contains information that can ultimately be used to produce a particular functional product, often a protein. So we can imagine something like this."
+    },
+    {
+      "id": "S12",
+      "start": 72.505,
+      "speech_end": 81.064,
+      "end": 81.864,
+      "dur": 9.359,
+      "text": "But having the function in the code doesn't mean it is running. Something has to activate it. And that's where biology gets interesting."
+    },
+    {
+      "id": "S13",
+      "start": 81.864,
+      "speech_end": 86.538,
+      "end": 87.338,
+      "dur": 5.474,
+      "text": "Because in a computer, I can simply write this. Or in machine code."
+    },
+    {
+      "id": "S14",
+      "start": 87.338,
+      "speech_end": 94.915,
+      "end": 95.715,
+      "dur": 8.377,
+      "text": "The processor knows exactly what to do. There is an instruction. There is an address. There is an instruction pointer."
+    },
+    {
+      "id": "S15",
+      "start": 95.715,
+      "speech_end": 101.262,
+      "end": 102.062,
+      "dur": 6.347,
+      "text": "But a cell doesn't have a CPU sitting there executing DNA instructions one by one."
+    },
+    {
+      "id": "S16",
+      "start": 102.062,
+      "speech_end": 102.873,
+      "end": 103.673,
+      "dur": 1.611,
+      "text": "So..."
+    },
+    {
+      "id": "S17",
+      "start": 103.673,
+      "speech_end": 105.333,
+      "end": 107.933,
+      "dur": 4.26,
+      "text": "...how does it know what to use?"
+    },
+    {
+      "id": "S18",
+      "start": 107.933,
+      "speech_end": 115.401,
+      "end": 116.201,
+      "dur": 8.269,
+      "text": "This is where the computer analogy starts getting weird. In a computer, you can jump to a specific memory address."
+    },
+    {
+      "id": "S19",
+      "start": 116.201,
+      "speech_end": 126.125,
+      "end": 126.925,
+      "dur": 10.724,
+      "text": "You can have access permissions. You can have processes. You can have configuration files. You can have events triggering specific pieces of code."
+    },
+    {
+      "id": "S20",
+      "start": 126.925,
+      "speech_end": 130.296,
+      "end": 131.096,
+      "dur": 4.171,
+      "text": "Biology has things that play surprisingly similar roles."
+    },
+    {
+      "id": "S21",
+      "start": 131.096,
+      "speech_end": 137.773,
+      "end": 138.573,
+      "dur": 7.477,
+      "text": "Transcription factors can bind to particular DNA sequences and influence whether a gene is transcribed."
+    },
+    {
+      "id": "S22",
+      "start": 138.573,
+      "speech_end": 149.583,
+      "end": 150.383,
+      "dur": 11.81,
+      "text": "Regulatory DNA sequences can affect when and where genes are expressed. The structure of chromatin affects how accessible particular regions of DNA are."
+    },
+    {
+      "id": "S23",
+      "start": 150.383,
+      "speech_end": 153.925,
+      "end": 154.725,
+      "dur": 4.341,
+      "text": "And cells constantly receive signals from their environment."
+    },
+    {
+      "id": "S24",
+      "start": 154.725,
+      "speech_end": 159.631,
+      "end": 160.431,
+      "dur": 5.707,
+      "text": "So instead of a CPU, an instruction pointer, a memory address, and execute..."
+    },
+    {
+      "id": "S25",
+      "start": 160.431,
+      "speech_end": 162.33,
+      "end": 163.13,
+      "dur": 2.699,
+      "text": "...you have something more like this."
+    },
+    {
+      "id": "S26",
+      "start": 163.13,
+      "speech_end": 169.105,
+      "end": 169.905,
+      "dur": 6.775,
+      "text": "There isn't one instruction pointer. There is an enormous network of molecular interactions."
+    },
+    {
+      "id": "S27",
+      "start": 169.905,
+      "speech_end": 176.755,
+      "end": 177.555,
+      "dur": 7.65,
+      "text": "The DNA is there. But different parts of it are more or less accessible to the molecular machinery that reads them."
+    },
+    {
+      "id": "S28",
+      "start": 177.555,
+      "speech_end": 188.775,
+      "end": 190.975,
+      "dur": 13.42,
+      "text": "So, having the code is not the same as having access to the code. A liver cell doesn't need to delete all the neuron related genes. It can simply regulate whether they're used."
+    },
+    {
+      "id": "S29",
+      "start": 190.975,
+      "speech_end": 196.695,
+      "end": 197.495,
+      "dur": 6.519,
+      "text": "Let's go back to our software project. Suppose you're developing a huge application."
+    },
+    {
+      "id": "S30",
+      "start": 197.495,
+      "speech_end": 203.193,
+      "end": 203.993,
+      "dur": 6.498,
+      "text": "You create a new module called finger. And instead of importing the few functions it needs..."
+    },
+    {
+      "id": "S31",
+      "start": 203.993,
+      "speech_end": 206.958,
+      "end": 207.758,
+      "dur": 3.765,
+      "text": "...you copy the entire human repository into it."
+    },
+    {
+      "id": "S32",
+      "start": 207.758,
+      "speech_end": 212.323,
+      "end": 213.123,
+      "dur": 5.365,
+      "text": "The brain. The liver. The heart. The immune system. The reproductive system. Everything."
+    },
+    {
+      "id": "S33",
+      "start": 213.123,
+      "speech_end": 214.617,
+      "end": 215.417,
+      "dur": 2.293,
+      "text": "And you do this again..."
+    },
+    {
+      "id": "S34",
+      "start": 215.417,
+      "speech_end": 216.697,
+      "end": 218.297,
+      "dur": 2.88,
+      "text": "...for every cell."
+    },
+    {
+      "id": "S35",
+      "start": 218.297,
+      "speech_end": 222.188,
+      "end": 222.988,
+      "dur": 4.691,
+      "text": "As a programmer, you would probably ask... Who designed this?"
+    },
+    {
+      "id": "S36",
+      "start": 222.988,
+      "speech_end": 224.148,
+      "end": 224.948,
+      "dur": 1.96,
+      "text": "And the answer is..."
+    },
+    {
+      "id": "S37",
+      "start": 224.948,
+      "speech_end": 226.143,
+      "end": 227.543,
+      "dur": 2.595,
+      "text": "Nobody."
+    },
+    {
+      "id": "S38",
+      "start": 227.543,
+      "speech_end": 229.656,
+      "end": 230.456,
+      "dur": 2.913,
+      "text": "Well... Not nobody. Evolution."
+    },
+    {
+      "id": "S39",
+      "start": 230.456,
+      "speech_end": 233.966,
+      "end": 236.366,
+      "dur": 5.91,
+      "text": "And evolution has a very different development philosophy."
+    },
+    {
+      "id": "S40",
+      "start": 236.366,
+      "speech_end": 242.233,
+      "end": 243.033,
+      "dur": 6.667,
+      "text": "Imagine opening a repository called human, with a commit history stretching back billions of years."
+    },
+    {
+      "id": "S41",
+      "start": 243.033,
+      "speech_end": 253.469,
+      "end": 254.269,
+      "dur": 11.236,
+      "text": "There was no architect sitting down and designing version one point zero. There was no clean rewrite. There was no human version two with a redesigned architecture."
+    },
+    {
+      "id": "S42",
+      "start": 254.269,
+      "speech_end": 260.054,
+      "end": 260.854,
+      "dur": 6.585,
+      "text": "Instead... Add feature. Patch bug. Duplicate module. Reuse old module."
+    },
+    {
+      "id": "S43",
+      "start": 260.854,
+      "speech_end": 268.175,
+      "end": 268.975,
+      "dur": 8.121,
+      "text": "Work around limitation. Add another workaround. Keep old API because something depends on it."
+    },
+    {
+      "id": "S44",
+      "start": 268.975,
+      "speech_end": 272.604,
+      "end": 273.404,
+      "dur": 4.429,
+      "text": "Again. And again. And again. For billions of years."
+    },
+    {
+      "id": "S45",
+      "start": 273.404,
+      "speech_end": 282.688,
+      "end": 283.488,
+      "dur": 10.084,
+      "text": "Evolution doesn't ask what the cleanest architecture is. It asks a much simpler question. Does this organism reproduce successfully?"
+    },
+    {
+      "id": "S46",
+      "start": 283.488,
+      "speech_end": 286.078,
+      "end": 288.278,
+      "dur": 4.79,
+      "text": "If the answer is yes, the code survives."
+    },
+    {
+      "id": "S47",
+      "start": 288.278,
+      "speech_end": 299.051,
+      "end": 299.851,
+      "dur": 11.573,
+      "text": "Imagine inheriting a software project that has been maintained by millions of programmers, over billions of years, with absolutely no possibility of rewriting the whole thing."
+    },
+    {
+      "id": "S48",
+      "start": 299.851,
+      "speech_end": 305.793,
+      "end": 306.593,
+      "dur": 6.741,
+      "text": "You discover something and ask... Why does this exist? Because something depended on it."
+    },
+    {
+      "id": "S49",
+      "start": 306.593,
+      "speech_end": 310.072,
+      "end": 310.872,
+      "dur": 4.279,
+      "text": "Why is this API so weird? Legacy."
+    },
+    {
+      "id": "S50",
+      "start": 310.872,
+      "speech_end": 318.791,
+      "end": 319.591,
+      "dur": 8.719,
+      "text": "That is evolution. It is the ultimate legacy system. It doesn't refactor. It modifies what already exists."
+    },
+    {
+      "id": "S51",
+      "start": 319.591,
+      "speech_end": 321.553,
+      "end": 322.353,
+      "dur": 2.763,
+      "text": "And after billions of years..."
+    },
+    {
+      "id": "S52",
+      "start": 322.353,
+      "speech_end": 323.337,
+      "end": 326.137,
+      "dur": 3.784,
+      "text": "...you get us."
+    },
+    {
+      "id": "S53",
+      "start": 326.137,
+      "speech_end": 332.968,
+      "end": 333.768,
+      "dur": 7.631,
+      "text": "Modern software development has a fairly sensible idea. You make a change. Then you test it."
+    },
+    {
+      "id": "S54",
+      "start": 333.768,
+      "speech_end": 338.037,
+      "end": 338.837,
+      "dur": 5.069,
+      "text": "Commit. Build. Unit tests. Integration tests. Deployment."
+    },
+    {
+      "id": "S55",
+      "start": 338.837,
+      "speech_end": 343.767,
+      "end": 344.567,
+      "dur": 5.73,
+      "text": "Biology has something that looks vaguely similar. A mutation occurs."
+    },
+    {
+      "id": "S56",
+      "start": 344.567,
+      "speech_end": 349.369,
+      "end": 350.169,
+      "dur": 5.602,
+      "text": "And then... The organism either survives and reproduces. Or it doesn't."
+    },
+    {
+      "id": "S57",
+      "start": 350.169,
+      "speech_end": 353.989,
+      "end": 354.789,
+      "dur": 4.621,
+      "text": "There is no staging environment. There is no rollback."
+    },
+    {
+      "id": "S58",
+      "start": 354.789,
+      "speech_end": 365.588,
+      "end": 366.388,
+      "dur": 11.599,
+      "text": "And occasionally something much worse happens. A mutation can make a cell better at surviving and reproducing inside the organism. That can contribute to cancer."
+    },
+    {
+      "id": "S59",
+      "start": 366.388,
+      "speech_end": 374.378,
+      "end": 376.978,
+      "dur": 10.59,
+      "text": "So biology has a rather terrifying version of continuous integration. The tests are performed on the production system."
+    },
+    {
+      "id": "S60",
+      "start": 376.978,
+      "speech_end": 385.791,
+      "end": 386.591,
+      "dur": 9.613,
+      "text": "But this is where the software analogy becomes even more interesting. When you look at the human body, it's tempting to imagine something like this."
+    },
+    {
+      "id": "S61",
+      "start": 386.591,
+      "speech_end": 393.057,
+      "end": 393.857,
+      "dur": 7.266,
+      "text": "But that's not really how the system works. There is no central server sending instructions to every cell."
+    },
+    {
+      "id": "S62",
+      "start": 393.857,
+      "speech_end": 404.401,
+      "end": 405.201,
+      "dur": 11.345,
+      "text": "Your cells constantly monitor their local environment. They receive chemical signals. They interact with neighbouring cells. They respond to hormones."
+    },
+    {
+      "id": "S63",
+      "start": 405.201,
+      "speech_end": 407.505,
+      "end": 408.305,
+      "dur": 3.104,
+      "text": "A cell doesn't receive a message saying..."
+    },
+    {
+      "id": "S64",
+      "start": 408.305,
+      "speech_end": 415.895,
+      "end": 417.695,
+      "dur": 9.39,
+      "text": "...cell number seven million, three hundred and ninety-two thousand, one hundred and eighty-four. Please express gene X now."
+    },
+    {
+      "id": "S65",
+      "start": 417.695,
+      "speech_end": 424.119,
+      "end": 424.919,
+      "dur": 7.223,
+      "text": "If you're a programmer, there's another concept that suddenly becomes useful. Distributed systems."
+    },
+    {
+      "id": "S66",
+      "start": 424.919,
+      "speech_end": 436.511,
+      "end": 437.311,
+      "dur": 12.392,
+      "text": "Your cells are effectively enormous numbers of individual agents. Each one has its own state. Its own sensors. Its own inputs. Its own responses."
+    },
+    {
+      "id": "S67",
+      "start": 437.311,
+      "speech_end": 447.557,
+      "end": 448.357,
+      "dur": 11.046,
+      "text": "There isn't one giant loop telling every cell what to do. That's closer to a multi-agent system. Or a swarm. Or a cellular automaton."
+    },
+    {
+      "id": "S68",
+      "start": 448.357,
+      "speech_end": 450.028,
+      "end": 450.828,
+      "dur": 2.471,
+      "text": "Simple local rules..."
+    },
+    {
+      "id": "S69",
+      "start": 450.828,
+      "speech_end": 454.538,
+      "end": 456.938,
+      "dur": 6.11,
+      "text": "...producing astonishingly complicated global behaviour."
+    },
+    {
+      "id": "S70",
+      "start": 456.938,
+      "speech_end": 464.151,
+      "end": 464.951,
+      "dur": 8.013,
+      "text": "Here's another thing that would be unacceptable in normal software. Your body has been running continuously for decades."
+    },
+    {
+      "id": "S71",
+      "start": 464.951,
+      "speech_end": 467.745,
+      "end": 468.545,
+      "dur": 3.595,
+      "text": "No reboot. No scheduled maintenance window."
+    },
+    {
+      "id": "S72",
+      "start": 468.545,
+      "speech_end": 477.341,
+      "end": 478.141,
+      "dur": 9.595,
+      "text": "And yet the system is constantly changing. Cells die. New cells are created. Proteins are produced and destroyed."
+    },
+    {
+      "id": "S73",
+      "start": 478.141,
+      "speech_end": 482.836,
+      "end": 483.636,
+      "dur": 5.495,
+      "text": "DNA is copied. Damage is repaired. Components are replaced."
+    },
+    {
+      "id": "S74",
+      "start": 483.636,
+      "speech_end": 489.526,
+      "end": 490.326,
+      "dur": 6.69,
+      "text": "The system doesn't shut down so that maintenance can happen. It performs maintenance while running."
+    },
+    {
+      "id": "S75",
+      "start": 490.326,
+      "speech_end": 496.235,
+      "end": 497.035,
+      "dur": 6.709,
+      "text": "It's almost as if you had a server that could replace parts of itself while the server was processing requests..."
+    },
+    {
+      "id": "S76",
+      "start": 497.035,
+      "speech_end": 498.955,
+      "end": 499.755,
+      "dur": 2.72,
+      "text": "...without ever going offline."
+    },
+    {
+      "id": "S77",
+      "start": 499.755,
+      "speech_end": 511.109,
+      "end": 511.909,
+      "dur": 12.153,
+      "text": "Cells have their own machinery. They communicate. They respond. They regulate one another. They form tissues. Tissues form organs. Organs form systems. And systems form an organism."
+    },
+    {
+      "id": "S78",
+      "start": 511.909,
+      "speech_end": 516.559,
+      "end": 519.159,
+      "dur": 7.25,
+      "text": "And there is no single component holding the entire architecture in its head."
+    },
+    {
+      "id": "S79",
+      "start": 519.159,
+      "speech_end": 520.375,
+      "end": 521.175,
+      "dur": 2.016,
+      "text": "And somehow..."
+    },
+    {
+      "id": "S80",
+      "start": 521.175,
+      "speech_end": 522.152,
+      "end": 523.552,
+      "dur": 2.377,
+      "text": "...it works."
+    },
+    {
+      "id": "S81",
+      "start": 523.552,
+      "speech_end": 525.899,
+      "end": 526.699,
+      "dur": 3.147,
+      "text": "Not perfectly. Far from perfectly."
+    },
+    {
+      "id": "S82",
+      "start": 526.699,
+      "speech_end": 531.095,
+      "end": 531.895,
+      "dur": 5.197,
+      "text": "But well enough to build eyes. Hearts. Immune systems. Brains."
+    },
+    {
+      "id": "S83",
+      "start": 531.895,
+      "speech_end": 537.885,
+      "end": 540.685,
+      "dur": 8.79,
+      "text": "And organisms capable of writing software to complain about how badly the system is designed."
+    },
+    {
+      "id": "S84",
+      "start": 540.685,
+      "speech_end": 550.995,
+      "end": 551.795,
+      "dur": 11.11,
+      "text": "We've been calling DNA code. And the analogy is useful. Genes look a bit like functions. Mutations look a bit like changes to source code."
+    },
+    {
+      "id": "S85",
+      "start": 551.795,
+      "speech_end": 557.515,
+      "end": 558.315,
+      "dur": 6.519,
+      "text": "But there is an important difference. DNA isn't actually a complete blueprint for a human."
+    },
+    {
+      "id": "S86",
+      "start": 558.315,
+      "speech_end": 563.465,
+      "end": 564.265,
+      "dur": 5.95,
+      "text": "There isn't literally a line saying... Create arm. Create eye. Create heart."
+    },
+    {
+      "id": "S87",
+      "start": 564.265,
+      "speech_end": 574.547,
+      "end": 575.347,
+      "dur": 11.083,
+      "text": "Instead, DNA participates in a gigantic system of interactions involving molecules, cells, physical forces, chemical gradients, timing and environment."
+    },
+    {
+      "id": "S87b",
+      "start": 575.347,
+      "speech_end": 577.779,
+      "end": 578.579,
+      "dur": 3.232,
+      "text": "The organism emerges from all of this."
+    },
+    {
+      "id": "S88",
+      "start": 578.579,
+      "speech_end": 584.83,
+      "end": 585.63,
+      "dur": 7.051,
+      "text": "So DNA is perhaps better thought of as a set of instructions and rules embedded in a physical system..."
+    },
+    {
+      "id": "S89",
+      "start": 585.63,
+      "speech_end": 591.29,
+      "end": 593.69,
+      "dur": 8.06,
+      "text": "...rather than a complete source code listing for a human. And that's actually much stranger."
+    },
+    {
+      "id": "S90",
+      "start": 593.69,
+      "speech_end": 598.255,
+      "end": 599.055,
+      "dur": 5.365,
+      "text": "We can sequence a human genome, identify genes and measure proteins."
+    },
+    {
+      "id": "S91",
+      "start": 599.055,
+      "speech_end": 604.901,
+      "end": 605.701,
+      "dur": 6.645,
+      "text": "But we still can't take the DNA from one ordinary human cell, put it into a computer, press run..."
+    },
+    {
+      "id": "S92",
+      "start": 605.701,
+      "speech_end": 607.706,
+      "end": 608.506,
+      "dur": 2.805,
+      "text": "...and watch that human develop."
+    },
+    {
+      "id": "S93",
+      "start": 608.506,
+      "speech_end": 612.446,
+      "end": 615.446,
+      "dur": 6.94,
+      "text": "We have the genome. But the genome isn't the whole machine."
+    },
+    {
+      "id": "S94",
+      "start": 615.446,
+      "speech_end": 622.255,
+      "end": 623.055,
+      "dur": 7.609,
+      "text": "And that's where we end up. We started with a familiar idea. DNA is like computer code."
+    },
+    {
+      "id": "S95",
+      "start": 623.055,
+      "speech_end": 629.905,
+      "end": 630.705,
+      "dur": 7.65,
+      "text": "And the analogy turns out to be surprisingly useful. But the deeper we look, the stranger the system becomes."
+    },
+    {
+      "id": "S96",
+      "start": 630.705,
+      "speech_end": 636.491,
+      "end": 637.291,
+      "dur": 6.585,
+      "text": "There is no CPU. There is no operating system. There is no central server."
+    },
+    {
+      "id": "S97",
+      "start": 637.291,
+      "speech_end": 648.39,
+      "end": 649.19,
+      "dur": 11.899,
+      "text": "There is no programmer. There is no GitHub. There is no code review. There is no staging environment. There is no rollback. There is barely even a clean architecture."
+    },
+    {
+      "id": "S98",
+      "start": 649.19,
+      "speech_end": 654.886,
+      "end": 655.686,
+      "dur": 6.496,
+      "text": "There are trillions of tiny agents, each following local rules, communicating with their neighbours,"
+    },
+    {
+      "id": "S99",
+      "start": 655.686,
+      "speech_end": 663.119,
+      "end": 663.919,
+      "dur": 8.233,
+      "text": "using a gigantic, ancient, continuously modified repository... And somehow producing a functioning organism."
+    },
+    {
+      "id": "S100",
+      "start": 663.919,
+      "speech_end": 665.967,
+      "end": 666.767,
+      "dur": 2.848,
+      "text": "So if biology is software..."
+    },
+    {
+      "id": "S101",
+      "start": 666.767,
+      "speech_end": 671.887,
+      "end": 672.687,
+      "dur": 5.92,
+      "text": "...it may be the oldest, messiest, most overengineered legacy system imaginable."
+    },
+    {
+      "id": "S102",
+      "start": 672.687,
+      "speech_end": 682.165,
+      "end": 682.965,
+      "dur": 10.278,
+      "text": "A system with billions of years of commits. Almost no refactoring. No central administrator. And absolutely no reboot."
+    },
+    {
+      "id": "S103",
+      "start": 682.965,
+      "speech_end": 684.181,
+      "end": 684.981,
+      "dur": 2.016,
+      "text": "And somehow..."
+    },
+    {
+      "id": "S104",
+      "start": 684.981,
+      "speech_end": 688.091,
+      "end": 691.091,
+      "dur": 6.11,
+      "text": "...it's been running in production for billions of years."
+    }
+  ]
+}

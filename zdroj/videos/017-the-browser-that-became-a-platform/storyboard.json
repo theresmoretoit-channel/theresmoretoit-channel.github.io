@@ -1,0 +1,795 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook musí být MÍSTO, ne schéma — divák má napřed sedět v té židli. Model kreslí atmosféru, ne konkrétní software: žádná čitelná obrazovka (to by byl pseudotext i s 'no text' v negativu), jen záře CRT v šeru.",
+      "prompt": "a lone web developer seen from behind at a desk in a dim office at night, the glow of a bulky cathode ray monitor lighting the desk, papers and a keyboard, early two thousands"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Zavádí PÁTEŘ 1 — okno prohlížeče. Vrací se v S03, S24, S36, S37, S42–S45, S55, S70. Rozvržení oken se mezi výskyty nesmí hnout, jinak se callback nepozná. Tři fajfky jsou ambrové, čtvrté okno NENÍ přeškrtnuté — obsah je rozsypaný, což je tvrzení scény.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 (okno prohlížeče) se zavádí hned: čtyři okna v řadě, tři s ambrovou fajfkou (NETSCAPE, OPERA, FIREFOX), čtvrté IE s rozsypaným obsahem"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "HARD CONSTRAINT z fact checku: mezera po zalomení řádku NENÍ vada IE — dělají ji všechny prohlížeče podle specifikace. Popisek proto smí říct WHITESPACE, ale NESMÍ ji přiřadit Exploreru (žádná šipka od loga IE, žádné 'IE only'). Ostatní tři vady IE skutečně měl a přiřazené být smějí.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž čtyři okna zmizí a zbude JEDNO velké okno IE se čtyřmi popisky vad: LAYOUT, BUTTONS, PNG a mezera mezi dvěma obrázky; mezera má popisek WHITESPACE bez zmínky o IE"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Obrat scény je 'wasn't SIMPLY a terrible browser' — tedy ne 'nebyl špatný'. Škrtá se proto slovo SIMPLY, ne celý nápis; přeškrtnutí celého nadpisu by tvrdilo 'neplatí to vůbec' místo 'neplatí to takhle' (CLAUDE.md).",
+      "diagram_generator": "uvod",
+      "diagram": "Titulní karta: velké IE6 uprostřed, pod ním přeškrtnuté TERRIBLE BROWSER a vedle nepřeškrtnuté SOMETHING ELSE"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Scéna říká 'one enormous advantage'. Velikost tu nese tvrzení, takže blok WINDOWS musí být zřetelně větší — ale konkurence nesmí být přeškrtnutá, ta nezmizela.",
+      "diagram_generator": "uvod",
+      "diagram": "Váha nebo miska: na jedné straně tři loga konkurence, na druhé jediný blok WINDOWS, který je zjevně těžší"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zavádí PÁTEŘ 4 — vrstvený stack, nosný obraz celého videa. Vrací se v S14–S17, S21, S44, S45, S63–S65. Tady jen NAZNAČÍ růst; obsah dostane až u ActiveX, jinak by scéna tvrdila víc než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 4 (vrstvy) se zavádí: spodní široká vrstva WINDOWS, nad ní BROWSER, a rámeček prohlížeče se ambrovou šipkou roztahuje ven za svůj obrys",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "PÁTEŘ 5 (pruh podílu) se zavádí. Popisek MID, ne LATE — oprava z fact checku (1996 mělo Netscape ~86 %, koncem 1997 už jen 51 %). Pruh se vrací v S09 a S26.",
+      "diagram_generator": "uvod",
+      "diagram": "Podíl trhu jako vodorovný pruh: velká část NETSCAPE, malý proužek ostatní; nad tím popisek MID NINETEEN NINETIES"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Dvě věci scény jsou 'bylo to tam' a 'nic to nestálo'. Škrtá se PLOCHA (šipka stahování), ne nápis, takže křížek je v pořádku.",
+      "diagram_generator": "uvod",
+      "diagram": "Krabice WINDOWS, ze které rovnou vyčnívá ikona prohlížeče; vedle cenovka s nulou a přeškrtnutá šipka DOWNLOAD"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Callback na S07 — rozvržení pruhu se nesmí hnout, jinak se překlopení nepozná. Číslo 'more than ninety percent' je doložené (vrchol 95,4 % v červenci 2003, viz factcheck.md), takže ho obraz smí ukázat.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž pruh podílu jako v S07, ale překlopený: ambrová část přes devadesát procent je INTERNET EXPLORER, zbytek tenký proužek"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Jediná časová osa ve videu, a je bezpečná — obě data jsou z téhož roku a doložená (IE6 24. 8. 2001, XP 25. 10. 2001). Pořadí se nekreslí, jen společný rok.",
+      "diagram_generator": "uvod",
+      "diagram": "Časová osa jediného roku: dva body vedle sebe, IE SIX a WINDOWS XP, oba TWO THOUSAND AND ONE; kolem nich prázdno",
+      "pause": 1.6
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Prázdno kolem je tvrzení scény ('the web was extremely limited'), ne kompoziční chyba. Vrstvy musí být VIZUÁLNĚ TENKÉ.",
+      "diagram_generator": "platforma",
+      "diagram": "Tři úzké vrstvy nad sebou s popisky HTML — DISPLAY, CSS — STYLE, JAVASCRIPT — INTERACT; kolem nich hodně prázdna"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Callback na S11 o scénu dřív. Rám je 'the limits of the browser' — musí být zjevně těsný, jinak scéna netvrdí nic.",
+      "diagram_generator": "platforma",
+      "diagram": "Týž tříblokový stack, ale ohraničený rámem; věci mimo rám narážejí do jeho stěny"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Scénář jmenuje právě tři věci, takže jich smí být na obraze právě tři. Ikony musí být jednoznačné i v malém (CLAUDE.md o anténě, která byla nejdřív trojzubec).",
+      "diagram_generator": "platforma",
+      "diagram": "Tři ikony vně rámu: skener, čipová karta, obecné zařízení s konektorem; každá s otazníkem, žádná nemá cestu dovnitř"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Klíčový obraz videa. Můstek je ambrový, protože je to to, o čem se právě mluví. Šipka směřuje OD prohlížeče DO systému — obrácený směr by tvrdil něco jiného.",
+      "diagram_generator": "platforma",
+      "diagram": "PÁTEŘ 4: mezi vrstvou BROWSER a vrstvou WINDOWS se objeví ambrový můstek s popiskem ACTIVEX; tři ikony z S13 po něm procházejí dovnitř"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Scéna je autorova otázka, ne tvrzení — text v obraze je proto taky otázka.",
+      "diagram_generator": "platforma",
+      "diagram": "Týž můstek, k němu popiska: WHY RESTRICT THE PAGE TO THE BROWSER? a pod ní NATIVE WINDOWS COMPONENTS"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Kontrast dělá SVĚTLOST a velikost, ne barva navíc. Bledý blok HTML nesmí být přeškrtnutý — HTML nepřestalo platit.",
+      "diagram_generator": "platforma",
+      "diagram": "Okno prohlížeče, ze kterého ambrově vystupují nástroje systému; obyčejné HTML je vedle jako bledý tenký blok",
+      "pause": 2.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Plná čára = doloženo. Tohle je doložené (podstata ActiveX jako COM v prohlížeči), takže plná čára je správně. Čtyři cíle odpovídají čtyřem jmenovaným ve scénáři.",
+      "diagram_generator": "platforma",
+      "diagram": "PÁTEŘ 4 rozkreslená: z můstku ACTIVEX vedou čtyři plné čáry k FILES, APPLICATIONS, HARDWARE, OPERATING SYSTEM"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Scéna obrací hodnocení, ne fakta. Kresba proto musí zůstat TÁŽ na obou stranách — kdyby se lišila, obraz by tvrdil, že se změnil ActiveX, a ne pohled na něj.",
+      "diagram_generator": "platforma",
+      "diagram": "Týž obraz rozdělený svisle: vlevo TODAY s varovným tónem, vpravo TWO THOUSANDS s klidným; táž kresba, jiný popisek"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Ambrová = to, o čem scéna mluví. Firmy chtěly pravou stranu.",
+      "diagram_generator": "platforma",
+      "diagram": "Vlevo bledý statický dokument s popiskem DOCUMENT VIEWER, vpravo okno s ovládacími prvky a popiskem APPLICATION; ambrová je pravá strana"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Doložené (factcheck.md), ale POZOR na rozsah: scénář říká 'originally', protože verze 3 vybírala na klientu, kdežto verze 4 posílala inventuru na servery. Obraz proto nesmí kreslit server — jen prohlížeč, systém a zpětnou cestu.",
+      "diagram_generator": "platforma",
+      "diagram": "Okno WINDOWS UPDATE, z něj šipka dolů do systému a zpět nahoru seznam aktualizací; u šipky ambrový štítek ACTIVEX"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Přes NÁPIS patří vodorovný škrt (skrt_text), ne křížek — pod křížkem by nešel přečíst a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "platforma",
+      "diagram": "Přeškrtnutý nápis STUPID MISTAKE a vedle nepřeškrtnutý EARLY ATTEMPT; pod tím vrstvený stack z S06 s popiskem APPLICATION PLATFORM"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Scéna neříká 'byl to omyl', říká 'bylo toho moc'. Tvrzení proto nese ŠÍŘKA, ne přeškrtnutí.",
+      "diagram_generator": "platforma",
+      "diagram": "Vrstvený stack s velmi širokým můstkem ACTIVEX; šířka můstku je ambrová a popsaná jako HOW MUCH POWER",
+      "pause": 2.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Odbočky musí mířit JINAM než osa, protože to je celé tvrzení bloku (Microsoft web nerozšiřoval po ose standardu, ale vlastním směrem). Právě tři — scénář jmenuje tři.",
+      "diagram_generator": "rozsireni",
+      "diagram": "Vodorovná osa THE WEB, z ní tři ambrové odbočky s popisky VBSCRIPT, DHTML a CSS EXPRESSION mířící stranou od osy"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Zavádí PÁTEŘ 2 — kódový panel. Kód je POINTA scény, ne ilustrace, takže potřebuje čas na přečtení (proto vlastní pause). Písmo musí být čitelné i v náhledu 210 px.",
+      "diagram_generator": "rozsireni",
+      "diagram": "PÁTEŘ 2 (kódový panel): v okně prohlížeče panel s kódem width: expression(document.body.clientWidth / 2); pod ním malý popisek CSS",
+      "pause": 2.4
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Callback na S24 — panel se nesmí posunout. Prázdno v ostatních oknech je 'none of it was guaranteed to work anywhere else'.",
+      "diagram_generator": "rozsireni",
+      "diagram": "Týž kódový panel, kolem něj tři bledá okna ostatních prohlížečů, ve kterých je na tomtéž místě prázdno"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Spojuje PÁTEŘ 5 s odbočkami z S23 — teprve podíl trhu z odboček dělá směr. Pruh musí být týž jako v S09.",
+      "diagram_generator": "rozsireni",
+      "diagram": "Osa THE WEB se pod tíhou odboček ohýbá ambrovým směrem; vedle pruh podílu z S09 s popiskem NINETY PERCENT",
+      "pause": 2.4
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Zavádí PÁTEŘ 3. Rozvržení krabice se mezi S27–S30 NESMÍ hnout, jinak se rozdíl obou modelů nepozná — to je celá scéna.",
+      "diagram_generator": "boxmodel",
+      "diagram": "PÁTEŘ 3 (box model): obdélník s vyznačeným obsahem 200, paddingem 20 na každé straně a rámečkem 5; kóty jsou popsané"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Číslo je spočítané, ne převzaté (factcheck.md). Je to punch beat, takže na obraze musí být jen ten součet, nic dalšího.",
+      "diagram_generator": "boxmodel",
+      "diagram": "Táž krabice, pod ní součet 200 + 40 + 10 = 250 a velké ambrové 250 PX"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "HARD CONSTRAINT z fact checku: popisek MUSÍ říct QUIRKS MODE. IE6 ve standards mode počítal box model SPRÁVNĚ a bez toho slova by obraz tvrdil, že ho měl rozbitý vždycky.",
+      "diagram_generator": "boxmodel",
+      "diagram": "Vedle sebe TÁŽ krabice dvakrát: vlevo STANDARD s celkem 250, vpravo QUIRKS MODE s celkem 200 a vnitřním obsahem 150; nahoře popisek OLDER IE — QUIRKS MODE"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Scéna obrací hodnocení: totéž chování dnes chceme. Kresba proto zůstává TÁŽ jako v S29, mění se jen popisek a barva.",
+      "diagram_generator": "boxmodel",
+      "diagram": "Pravá krabice z S29 dostane ambrový rámeček a pod ní kódový panel box-sizing: border-box;"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Ne 'IE se pletl', ale 'lišily se'. Žádné okno proto nesmí být zvýrazněné jako viník.",
+      "diagram_generator": "boxmodel",
+      "diagram": "Čtyři okna prohlížečů, v každém táž krabice, ale se čtyřmi různými celkovými šířkami; pod tím ambrově THE DEVELOPER HAD TO CARE",
+      "pause": 1.6
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "hasLayout musí být vizuálně JINÁ KATEGORIE, ne jen další řádek seznamu — to je celé sdělení scény.",
+      "diagram_generator": "csshell",
+      "diagram": "Seznam CSS vlastností s fajfkami, a pod čarou hasLayout bez fajfky, jiným tvarem rámečku a s popiskem NOT A CSS PROPERTY / NOT IN THE STANDARD"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Doloženo primárním zdrojem (Microsoft [MS-CSS21]: zoom, trigger any, reset normal), takže plná čára od zoom k hasLayout je v pořádku.",
+      "diagram_generator": "csshell",
+      "diagram": "Rozbité rozvržení, vedle něj kódový panel s jediným řádkem zoom: 1; a ambrová šipka k přepínači hasLayout, který se překlopí; rozvržení se srovná"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Obě vady doložené. U select je pointa, že vysoký z-index nepomůže — číslo proto musí být na obraze vidět, jinak scéna netvrdí nic.",
+      "diagram_generator": "csshell",
+      "diagram": "Dvě půlky: vlevo PNG s šedivým obdélníkem místo průhlednosti, vpravo rozbalený select ležící PŘES popup, u kterého svítí z-index: 9999"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Scéna obrací, co je vlastně práce. Ambrová je pravá strana, protože o té se mluví.",
+      "diagram_generator": "csshell",
+      "diagram": "Vlevo bledý výkres návrhu, vpravo ambrový seznam vad konkrétního enginu; šipka vede zprava doleva",
+      "pause": 2.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "HARD CONSTRAINT: popisek NOT AN IE BUG je povinný a je to zároveň nová věta scénáře. Bez něj obraz zdědí tvrzení z hooku, že za mezeru může IE.",
+      "diagram_generator": "mezera",
+      "diagram": "Kódový panel se dvěma <img> na JEDNOM řádku, pod ním výsledek: dva obrázky natěsno. Nad panelem popisek NOT AN IE BUG"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Callback na S36 — panel i výsledek se nesmí posunout, jinak se nepozná, že se změnilo JEN zalomení. Mezera je ambrová, protože je to ta jediná změna.",
+      "diagram_generator": "mezera",
+      "diagram": "Týž panel, ale tagy na dvou řádcích; pod ním týž výsledek s ambrovou mezerou mezi obrázky a kótou"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Vtip scény je 'Thank you, Microsoft', ale míří na formátovač, ne na engine — obraz proto ukazuje nástroj, ne prohlížeč.",
+      "diagram_generator": "mezera",
+      "diagram": "Ikona formátovače kódu se šipkou do stránky, která se tím rozbije; pod tím drobně VISUAL STUDIO",
+      "pause": 1.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Jediný hack, který ve videu zůstal celý. Kód je pointa, ne ilustrace — potřebuje čas na přečtení.",
+      "diagram_generator": "hacky",
+      "diagram": "Kódový panel s conditional comments: <!--[if IE 6]> <link rel=stylesheet href=ie6.css> <![endif]-->",
+      "pause": 2.2
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Markup nemá být čitelný — má vypadat divně. Čitelný by sváděl k luštění.",
+      "diagram_generator": "hacky",
+      "diagram": "Blok deformovaného markupu, kolem něj ambrový rámeček a popisek ONLY TO MAKE ONE BROWSER BEHAVE"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Přes nápis vodorovný škrt, ne křížek. Obrat sympatie — nejdůležitější beat bloku.",
+      "diagram_generator": "hacky",
+      "diagram": "Přeškrtnutý nápis BAD PROGRAMMER a nepřeškrtnutý THE BROWSER FORCED YOU TO",
+      "pause": 2.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Doloženo: v IE7 a starších shodil jediný pád celý prohlížeč se všemi záložkami (izolaci přinesl až IE8 s LCIE). Prázdná okna, ne zavřená — pád, ne úklid.",
+      "diagram_generator": "pad",
+      "diagram": "Mřížka dvaceti oken prohlížeče; jedno má rozbitý obsah a všechna ostatní jsou v témž okamžiku prázdná"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Callback na S42 — mřížka se nesmí hnout. Bublina má být OTEVŘENÁ lomená čára s ocáskem, ne uzavřený trojúhelník (CLAUDE.md: jinak vzniknou dva pahýly).",
+      "diagram_generator": "pad",
+      "diagram": "Táž mřížka, nad ní bublina HEY, CHECK OUT THIS LINK a pod ní drobně AND EVERYONE KNOWS WHO SENT IT"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Návrat vrstveného stacku z S06 v dnešní podobě. Stěna je ta jediná nová věc.",
+      "diagram_generator": "pad",
+      "diagram": "PÁTEŘ 4: dnešní prohlížeč — stránka uzavřená v rámečku se zámkem, pod ní systém, mezi nimi silná stěna; bublina THIS WEBSITE IS UNTRUSTED. I'LL ISOLATE IT."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Callback na S44 — rozvržení TOTOŽNÉ, chybí jen stěna. To je celý vtip a zároveň payoff ActiveX z S17.",
+      "diagram_generator": "pad",
+      "diagram": "Týž stack, ale stěna chybí a z prohlížeče vede otevřená cesta rovnou do systému; bublina YOU'RE A WEB PAGE? SURE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S46",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S46.png",
+      "note": "Obrat sympatie potřebuje ČLOVĚKA, ne schéma — po čtyřech blocích technického pekla je to první scéna, která mluví o důvodech. Model kreslí atmosféru únavy, ne konkrétní obrazovku.",
+      "prompt": "a tired developer alone in an office late at night, head in one hand, the glow of a cathode ray monitor from the side, cold empty desks behind, early two thousands"
+    },
+    {
+      "id": "S47",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S47.png",
+      "note": "Pět set stejných počítačů je obraz uniformity, tedy práce pro model. Bez čitelných obrazovek — jde o řadu, ne o software.",
+      "prompt": "a large open plan office in the early two thousands seen from one side, long rows of identical desks each with a bulky cathode ray monitor, fluorescent ceiling light, nobody in the room"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "PÁTEŘ: rozcestník. S48 a S49 musí mít TOTOŽNÉ rozvržení, jinak se nepozná, že se porovnávají dvě cesty jednoho rozhodnutí.",
+      "diagram_generator": "volba",
+      "diagram": "Rozcestí: vlevo OPTION ONE — jedna krátká šipka k jedinému oknu prohlížeče, nad ní EVERYONE ALREADY HAS IT"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Callback na S48. Pravá větev musí být zjevně dražší — počet šipek je tvrzení scény. Ani jedna větev NESMÍ být přeškrtnutá, obě byly legitimní.",
+      "diagram_generator": "volba",
+      "diagram": "Táž kresba, ale pravá větev: OPTION TWO — čtyři šipky ke čtyřem oknům, ke každé ikona testu, a navíc šipka k IT DEPARTMENT"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Druhý obrat sympatie. Vodorovný škrt přes nápis.",
+      "diagram_generator": "volba",
+      "diagram": "Přeškrtnutý nápis BECAUSE THEY LOVED MICROSOFT a nepřeškrtnutý BECAUSE IT SOLVED THE PROBLEM",
+      "pause": 2.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Nová vrstva je odpověď na browser chaos — musí být VODOROVNÁ a překrývat všechna okna stejně, jinak by tvrdila, že něco řeší líp než jiné.",
+      "diagram_generator": "jquery",
+      "diagram": "Čtyři okna prohlížečů, přes ně položená jediná vodorovná vrstva s popiskem JQUERY; rozdíly pod ní zšednou"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Kontrast dělá POČET řádků, ne barva. Horní útržky nemusí být čitelné, dolní musí.",
+      "diagram_generator": "jquery",
+      "diagram": "Nahoře tři různé kódové útržky pro tři prohlížeče, dole jediný řádek $(\"#button\").click(handler);"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Callback na S52 — vrstva se nesmí posunout. Různá jména dole jsou to, co vrstva schovává.",
+      "diagram_generator": "jquery",
+      "diagram": "Táž vrstva, pod ní tři různě pojmenované krabičky AJAXu, nad ní jediné $.ajax"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Scénář výslovně říká, že IE nezmizelo — okno proto NESMÍ být přeškrtnuté ani pryč, jen ztlumené.",
+      "diagram_generator": "jquery",
+      "diagram": "Okno IE zůstává, ale je bledé a schované za vrstvou; popisek EASIER TO PRETEND IT DIDN'T EXIST",
+      "pause": 2.4
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "HARD CONSTRAINT z fact checku: ŽÁDNÁ ČASOVÁ OSA. Safari (1/2003) je starší než Firefox 1.0 (11/2004), takže sled shora dolů ani zleva doprava by kreslil nepravdu. Kruh pořadí netvrdí.",
+      "diagram_generator": "standardy",
+      "diagram": "Čtyři okna prohlížečů rozmístěná do KRUHU kolem středu, každé se svým jménem; žádná osa, žádné pořadí, žádné číslo"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Data pro přesná čísla nejsou, takže sloupce NESMÍ mít osu s hodnotami — jen relativní nízko/vysoko. Jinak by z toho byl graf bez údajů (poučení ze třetího videa).",
+      "diagram_generator": "standardy",
+      "diagram": "Dva sloupce ukazatelů: JAVASCRIPT ENGINES nízko a pak vysoko, vedle HTML FIVE jako nová vrstva"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Nájezd na výčet v S58. Dílky musí být PRÁZDNÉ, popisky dostanou až v S58.",
+      "diagram_generator": "standardy",
+      "diagram": "Prohlížeč, do kterého se zvenčí vsouvají dílky, které dřív ležely mimo něj jako zásuvné moduly"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Callback na S57 — rozvržení dílků TOTOŽNÉ, přibývají jen popisky. Sedm položek podle scénáře, ani o jednu víc.",
+      "diagram_generator": "standardy",
+      "diagram": "Týž prohlížeč, dílky uvnitř dostanou popisky VIDEO, AUDIO, CANVAS, SVG, WEBGL, WEBSOCKETS, WEBRTC; pod tím AN APPLICATION PLATFORM"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Nejdůležitější tvrzení videa: týž CÍL, jiná CESTA. Tvar proto musí být TOTOŽNÝ s S14, jinak se rovnítko nečte.",
+      "diagram_generator": "standardy",
+      "diagram": "Vlevo bledý můstek ACTIVEX z S14, vpravo tentýž tvar, ale s popiskem OPEN STANDARDS; mezi nimi rovnítko",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Doloženo, ale s rozsahem: Silverlight nesl Netflix od 27. 10. 2008, NE od spuštění v lednu 2007 (tam byl Windows Media). Obraz proto nesmí kreslit žádné datum ani slovo FIRST.",
+      "diagram_generator": "silverlight",
+      "diagram": "Zásuvný modul zvenčí do prohlížeče, na něm SILVERLIGHT a drobně C# / .NET; vedle popiska EVEN NETFLIX"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Přes nápis vodorovný škrt. Telefon je ikona, ne konkrétní model — konkrétní zařízení je práce pro archiv, ne pro kresbu, a scéna ho nepotřebuje.",
+      "diagram_generator": "silverlight",
+      "diagram": "Nahoře přeškrtnuté BROWSER + PLUGIN, dole nepřeškrtnuté THE BROWSER ITSELF; vlevo drobně telefon bez zásuvného modulu"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Mizení se kreslí PRŮHLEDNOSTÍ, ne přeškrtnutím — přeškrtnutí by znamenalo 'neplatí', kdežto scéna říká 'skončilo'.",
+      "diagram_generator": "silverlight",
+      "diagram": "Čtyři štítky SILVERLIGHT, FLASH, ACTIVEX, INTERNET EXPLORER, všechny ztlumené na okraj čitelnosti",
+      "pause": 2.6
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Návrat stacku z S06 — teprve tady dostane popisek, který S06 jen naznačila.",
+      "diagram_generator": "vyhra",
+      "diagram": "PÁTEŘ 4 v plné podobě: široká vrstva BROWSER, nad ní APPLICATION PLATFORM, pod ní systém; celé ambrové"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Pozor: levá cesta NESMÍ být přeškrtnutá ani vést jinam — scéna říká, že mířila na týž cíl, jen tam nedošla.",
+      "diagram_generator": "vyhra",
+      "diagram": "Dvě cesty ke stejnému vrcholu: bledá levá s popiskem PROPRIETARY končí dřív, ambrová pravá STANDARDS dojde nahoru"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Vyhrálo tím, že zesílilo — tvrzení nese OBSAH, ne velikost rámu.",
+      "diagram_generator": "vyhra",
+      "diagram": "Okno prohlížeče z roku dva tisíce jedna vedle dnešního, obě stejně velká, ale dnešní má uvnitř všechny dílky z S58",
+      "pause": 2.4
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Nejdůležitější teze videa. Váhy musí být VYROVNANÉ — kdyby se naklonily, obraz by odpověděl místo diváka. Miska se kreslí s close=True, jinak nemá levou stěnu.",
+      "diagram_generator": "padouch",
+      "diagram": "Otázka WAS MICROSOFT THE VILLAIN? a pod ní váhy, které zůstávají v rovnováze"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Callback na S66 — váhy se nesmí posunout. Tady se plní jedna miska.",
+      "diagram_generator": "padouch",
+      "diagram": "Tři ambrové položky na jedné misce: BRILLIANT ENGINEERS, ENORMOUS RESOURCES, AHEAD OF ITS TIME"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Teprve tady se váhy hýbou, a hýbe s nimi jediná věc. To je celé sdělení bloku.",
+      "diagram_generator": "padouch",
+      "diagram": "Na druhou misku přibude jediná těžká položka OVERWHELMING MARKET POSITION a váhy se nakloní"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Obojí jsou otázky pokušení, ne autorova tvrzení — v obraze proto zůstávají otázkami.",
+      "diagram_generator": "padouch",
+      "diagram": "Dvě otázky jako nápisy: WHY WAIT FOR STANDARDS? a WHY NOT IMPLEMENT YOUR OWN? pod nimi ambrově FOR A WHILE, THAT WORKED",
+      "pause": 2.6
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Callback na PÁTEŘ 1. Pět různých produktů — rozdílnost je tady tvrzení, takže rámy smějí být různé. Žádná osa ani čísla podílů.",
+      "diagram_generator": "chromium",
+      "diagram": "Pět oken prohlížečů vedle sebe s popisky CHROME, EDGE, OPERA, BRAVE, VIVALDI; každé s jinou barvou rámu, žádné pořadí"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Callback na S70 — okna se nesmí hnout. Vrstva pod nimi je ta jediná nová věc.",
+      "diagram_generator": "chromium",
+      "diagram": "Táž pětice, pod všemi jediná společná vrstva CHROMIUM"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "HARD CONSTRAINT z fact checku: kontrast ONE BROWSER → ONE ENGINE ano, ale ŽÁDNÉ procento a žádné 'všichni'. Chromium nemá monopol jako kdysi IE a S75 to vzápětí říká nahlas. Věta je otázka, obraz musí zůstat otázkou.",
+      "diagram_generator": "chromium",
+      "diagram": "Vlevo ONE BROWSER EVERYONE HAD TO SUPPORT (jediné okno IE), vpravo ONE ENGINE EVERYONE BUILDS ON (pět oken nad jednou vrstvou); mezi nimi šipka"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Nájezd. Jen jeden důsledek, další přibudou v S74.",
+      "diagram_generator": "chromium",
+      "diagram": "Vrstva enginu, ze které vede jediná plná šipka nahoru k HOW WEBSITES ARE DISPLAYED"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Callback na S73 — první šipka se nesmí posunout. Čtyři důsledky podle scénáře. Plná čára je tu na místě: je to tvrzení o mechanismu, ne hypotéza.",
+      "diagram_generator": "chromium",
+      "diagram": "Táž vrstva, ale šipek je čtyři: WHAT DEVELOPERS BUILD, WHICH TECHNOLOGIES, WHICH APIS, WHAT THE WEB BECOMES",
+      "pause": 2.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Pojistka proti S72. Musí být zjevné, že enginy jsou TŘI a nezávislé — to je jediné, co brání tomu, aby video tvrdilo monopol.",
+      "diagram_generator": "rozdil",
+      "diagram": "Tři samostatné bloky enginů: GECKO, WEBKIT, CHROMIUM — každý svůj, žádný nad ostatními; u Chromia štítek OPEN SOURCE"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Rok je doložený jako popis situace, ne jako událost — proto ztlumeně a bez šipky na osu.",
+      "diagram_generator": "rozdil",
+      "diagram": "Šipka aktualizace kroužící kolem prohlížeče; vedle ztlumený kalendář TWO THOUSAND AND THREE"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Scéna otázku nezodpovídá a obraz taky nesmí. Prázdno je záměr.",
+      "diagram_generator": "rozdil",
+      "diagram": "Velká otázka HOW MUCH INFLUENCE SHOULD ONE COMPANY HAVE? bez odpovědi, pod ní prázdný prostor",
+      "pause": 2.6
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Scéna odpovídá 'Yes'. Tady se nic neškrtá, to přijde vzápětí.",
+      "diagram_generator": "zaver",
+      "diagram": "Velké IE6 a pod ním ambrové TERRIBLE — bez škrtu"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Callback na S78 — první řádek se nesmí hnout. Oba řádky STEJNĚ VELKÉ, jinak by obraz rozhodl, který platí víc.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž nápis, ale přibude druhý řádek A PRODUCT OF ITS TIME stejně velký"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Poslední návrat PÁTEŘE 5. Pruh musí být týž jako v S07, S09 a S26.",
+      "diagram_generator": "zaver",
+      "diagram": "Pruh podílu z S09 znovu, a z něj šipka k nápisu DEFINE THE RULES"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Vědomě jen tři — je to ohlédnutí, ne katalog. Sepjaté ruce jsou 'and they prayed' a musí být zjevně vtip, ne patos.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři drobné ikony vedle sebe: hasLayout, zoom: 1 a sepjaté ruce; všechny ztlumené"
+    },
+    {
+      "id": "S82",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S82.png",
+      "note": "Doznění potřebuje atmosféru, ne schéma. Opuštěný stroj v šeru — bez čitelné obrazovky a bez konkrétního loga.",
+      "prompt": "a single abandoned cathode ray monitor and keyboard under a dust sheet in an empty office, cold daylight from one high window, dust in the air"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Vodorovný škrt přes nápis. Poslední vyslovení teze.",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnuté REJECTED a nepřeškrtnuté BUILT A BETTER VERSION; pod tím drobně vrstvený stack"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Textová karta. Nic dalšího — je to jedna ze dvou pointových vět videa.",
+      "diagram_generator": "zaver",
+      "diagram": "Jediná věta na prázdném obraze: TECHNOLOGY DOESN'T BECOME A STANDARD JUST BECAUSE IT'S GOOD"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Callback na S84 — sazba a pozice TOTOŽNÁ, mění se jen text. Dvojice se má číst jako jedna myšlenka ve dvou krocích.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž karta, ale druhá věta: SOMETIMES IT BECOMES A STANDARD BECAUSE ONE COMPANY HAS ENOUGH POWER"
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Vizuální gag na úplný konec — rozhodnutí uživatele, že se NEDABUJE a nejde do titulků. Text je proto jen tady ve storyboardu. Dlouhá pauza je nutná, jinak se gag nestihne přečíst; uživatel si vyžádal, ať visí opravdu dlouho.",
+      "diagram_generator": "zaver",
+      "diagram": "TOLKIENOVSKÁ KARTA: ONE ENGINE TO RULE THEM ALL, pod tím drobněji ONE ENGINE TO RENDER THEM / AND IN THE DARKNESS, NPM FINDS THEM",
+      "pause": 7.0
+    }
+  ]
+}

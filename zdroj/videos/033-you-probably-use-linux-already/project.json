@@ -1,0 +1,94 @@
+{
+  "title": "Linux — You Probably Use It Already",
+  "slug": "033-you-probably-use-linux-already",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "pronounce": {},
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly conceptual illustration, muted desaturated palette of deep slate blue-grey, cool charcoal and pale bone white, one restrained warm amber highlight and nothing more, flat even light under a grey overcast sky, no sun, visible brush and ink texture, subtle film grain, restrained detail, ordinary everyday object observed quietly from a slight distance, calm matter-of-fact mood, cinematic composition, no text",
+    "negative": "text, letters, words, numbers, code, source code, caption, label, logo, watermark, signature, user interface, terminal window, command prompt, green glowing text, matrix code rain, hacker in a hoodie, cyberpunk, neon, penguin, mascot, chart, graph, photorealistic, photograph, glossy render, product shot, lens flare, neon rim light, dawn, dusk, golden hour, sunlight, sunlit, warm daylight, oversaturated, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs, duplicate face",
+    "style_note": "Kotva je VŠEDNOST a chlad: obyčejný předmět v tlumeném denním světle, ne technologická podívaná. Denní doba je v negativu záměrně (CLAUDE.md: dawn/dusk u SDXL vždycky zezlátne a přebije barevnou kotvu), proto se chlad žádá počasím — 'grey overcast sky'. V negativu jsou navíc čtyři klišé, která SDXL u slova Linux vyrábí samo: zelený terminál, matrix, hacker v mikině a tučňák."
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 419
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "archive_grade": {
+    "levels": "6%,94%",
+    "saturation": 55,
+    "tint": "#c98f4e",
+    "tint_amount": 20,
+    "contrast": "-6x-10",
+    "vignette": true,
+    "vignette_edge": "#a8a8a8"
+  },
+  "thumbnail": {
+    "source": "thumbnail/c-kapsa-telefon-v-ruce.png",
+    "out": "render/thumbnail.jpg",
+    "note": "hotový bitmapový náhled dodaný uživatelem, ne kreslený kódem — viz thumbnail/PUVOD.md",
+    "varianty": [
+      "thumbnail/a-blok.svg",
+      "thumbnail/b-mars.svg",
+      "thumbnail/c-kapsa.svg"
+    ]
+  }
+}

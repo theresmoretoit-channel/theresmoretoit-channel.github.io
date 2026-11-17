@@ -1,0 +1,911 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "vrstva": "sestka",
+      "note": "První obrazovka nese myšlenku, ne atmosféru. Není sdxl. PÁTEŘ 1: číselná řada na pevných souřadnicích.",
+      "diagram_generator": "sestka",
+      "diagram": "Řada 1 až 10 velkým písmem. Na slově exists šestka vybledne, zůstane mezera.",
+      "anim": "animace"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "vrstva": "sestka",
+      "diagram_generator": "sestka",
+      "diagram": "Táž řada s mezerou, bez obrysu šestky."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "vrstva": "sestka",
+      "note": "Čísla na listu jsou ilustrace, ne zadání z pokusu.",
+      "diagram_generator": "sestka",
+      "diagram": "Značka krokuje 1 až 5 a přeskočí na 7. Pak naskočí list se součty plný šestek.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "vrstva": "sestka",
+      "note": "Dělicí čára a sloupce jednou funkcí _kit.sloupce(), pevné souřadnice. Bez počtů, ty neznáme.",
+      "diagram_generator": "sloupce",
+      "diagram": "PÁTEŘ 2: dva sloupce s dělicí čárou, postava HYPNOTISED a postava FAKING. Malý popisek F. EVANS AND COLLEAGUES."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "vrstva": "sestka",
+      "diagram_generator": "sloupce",
+      "diagram": "Sloupec FAKING: 6 + 3 se přepíše na 7 + 3, další šestka na nulu. Sloupec HYPNOTISED ztlumený.",
+      "anim": "animace"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "vrstva": "sestka",
+      "note": "Míra jistoty: tended, proto popisek, ne absolutní tvrzení.",
+      "diagram_generator": "sloupce",
+      "diagram": "Sloupec HYPNOTISED: šestky v příkladu zmizí, zůstane prázdné místo. Popisek TENDED TO.",
+      "anim": "animace"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "vrstva": "sestka",
+      "note": "Výklad, proto seems.",
+      "diagram_generator": "sloupce",
+      "diagram": "Oba sloupce: A PUZZLE vlevo proti SEEMS MISSING vpravo."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "vrstva": "sestka",
+      "diagram_generator": "sloupce",
+      "diagram": "Sloupce ztlumené, velký otazník HOW FAR?",
+      "pause": 0.6
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "vrstva": "sestka",
+      "diagram_generator": "otazky",
+      "diagram": "Tři karty vedle sebe: A COMMAND, DO WHAT YOU'D REFUSE, CHANGE A MEMORY, každá s otazníkem."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "vrstva": "sestka",
+      "diagram_generator": "otazky",
+      "diagram": "Tři karty ztlumené nahoře, dole sloupec FAKING se štítkem TEST THE FAKERS TOO.",
+      "pause": 1.6
+    },
+    {
+      "id": "S10b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S10b.png",
+      "vrstva": "film",
+      "note": "Kabinet doktora Caligariho (1920), dobová lobby card: Caligari otvírá skříň s náměsíčníkem Cesarem. Vybráno z kontaktního listu 12 snímků Commons (první pick, pouliční záběr, náměsíčníka neukazoval). Fotka se hýbe, diagram ne.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "intitle:\"Cabinet of Dr Caligari 1920 Lobby Card\"",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9,
+          "vignette": false
+        }
+      },
+      "diagram": "Filmový záběr z Caligariho."
+    },
+    {
+      "id": "S10c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10c.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Filmové okénko s perforací: hypnotizér s houpajícími se hodinkami, oběť jako loutka na čárkovaných provázcích (jen ve filmu), Z z. Pod tím OBEYS, REMEMBERS NOTHING, WAITS FOR THE SNAP. Titulek THE FILM VERSION.",
+      "anim": "animace"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "vrstva": "uvod",
+      "diagram_generator": "uvod",
+      "diagram": "Houpající se kapesní hodinky, přeškrtnou se. Vedle otevřené oko a AWAKE, NOT ASLEEP.",
+      "anim": "animace"
+    },
+    {
+      "id": "S11b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11b.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Jezdec na rotopedu, šlape (pedály se točí). Vpravo otevřené oko, EYES OPEN, PEDALLING, STILL HYPNOTISED. Titulek NO RELAXATION NEEDED.",
+      "anim": "animace",
+      "note": "Netvrdí „stejně dobře jako relaxace“: výsledky Bányai & Hilgard 1976 nečteny."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "vrstva": "uvod",
+      "diagram_generator": "uvod",
+      "diagram": "Hodně teček se zúží do jednoho paprsku. Pak dva řádky: YOUR ARM IS GETTING HEAVY, THIS WATER TASTES SWEET.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12b.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Postava s nataženou ambrovou rukou, ruka pomalu klesá; z ruky visí čárkované závaží (sugerované). IT SEEMS TO HAPPEN BY ITSELF; A SUGGESTION, NOT AN INSTRUCTION.",
+      "anim": "animace",
+      "vyzva": true,
+      "note": "VÝZVA K ODBĚRU č. 1, ~2:05 (přesunuto z S14). Levý dolní roh prázdný i v S12c."
+    },
+    {
+      "id": "S12c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12c.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Magnetofon s točícími se cívkami. Nahoře A STANDARD RESEARCH TEST, dole THE VOICE: A RADIO ANNOUNCER, NO TRAINING IN PSYCHOLOGY OR HYPNOSIS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12d.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Vlevo malý tlumený magnetofon THE HYPNOTIST, vpravo velká ambrová postava THE PERSON BEING HYPNOTISED, nad ní NEARLY ALL THE ACTION. Titulek IN THE LAB, AT LEAST.",
+      "pause": 1.2
+    },
+    {
+      "id": "S12e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12e.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Místnost se žárovkou, magnetofon na stole, dva dobrovolníci, otevřené dveře. Na „went out“ žárovka zhasne a místnost ztmavne, výzkumník odejde dveřmi. Titulek 1971: A STAGED POWER CUT.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12f.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Páteř HYPNOTISED / FAKING, šest a šest postav. Simulanti: pět otevře oči (oko na hlavě), na „footsteps“ je zase zavřou. EYES OPEN WITHIN SECONDS, SHUT AGAIN AT THE FOOTSTEPS. Hypnotizovaní tlumeně a BEZ očí (5 ze 6 a jeden neprobraný ve dvou studiích: oči by tvrdily víc, než víme).",
+      "anim": "animace"
+    },
+    {
+      "id": "S12g",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12g.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Páteř: hypnotizovaní svítí, pod nimi hodiny, ručička doběhne na 16,5 min (ambrová výseč). EYES OPEN AFTER ~16 MIN, ON AVERAGE. Simulanti tlumeně se zavřenýma očima.",
+      "anim": "animace",
+      "pause": 1.8
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "vrstva": "uvod",
+      "note": "Záměrně bez zvonové křivky: tvar rozložení je sporný (factcheck). assert 1+6+1=8.",
+      "diagram_generator": "uvod",
+      "diagram": "Řada osmi postav: 1 ambrová STRONG, 6 tlumených, 1 šedá BARELY. Titulek ON STANDARD TESTS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S13c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13c.png",
+      "vrstva": "film",
+      "diagram_generator": "film",
+      "diagram": "Vlevo kniha a noty, ABSORPTION, GETTING LOST IN A BOOK OR MUSIC; vpravo tlumené bubliny řeči BEING PERSUADED; nahoře MORE CLOSELY LINKED TO, uprostřed THAN TO. Titulek NOT THE SAME AS GULLIBLE."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "vrstva": "uvod",
+      "note": "Táž řada. Výzva k odběru přesunuta na S12b (v0.6).",
+      "diagram_generator": "uvod",
+      "diagram": "Táž řada, svítí jen horní skupina a popisek MOST OF WHAT FOLLOWS. Postavy až od x > 25 %.",
+      "pause": 2.2
+    },
+    {
+      "id": "S15",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S15.png",
+      "vrstva": "had",
+      "note": "Konkrétní živočich: dá se vyfotit, archiv. Dotaz je návrh, vybírá se z kontaktního listu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "intitle:\"Crotalus atrox USFWS\"",
+        "pick": 0
+      },
+      "diagram": "Fotka chřestýše."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "vrstva": "had",
+      "diagram_generator": "had",
+      "diagram": "Bedna z boku, svislá tabule skla čárkovaně. Ruka se natáhne a zastaví o sklo. Čtyři tečky, tři ambrové. Popisek 1 TOLD: A COIL OF ROPE.",
+      "anim": "animace",
+      "pause": 0.7
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "vrstva": "had",
+      "note": "assert 42. Co přesně udělal ten jeden, zdroj neříká, proto jen blíž, ne na bedně.",
+      "diagram_generator": "had",
+      "diagram": "42 teček daleko od bedny, jedna blíž. Popisek 42 ORDINARY PEOPLE."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "vrstva": "had",
+      "diagram_generator": "had",
+      "diagram": "Bedna, velký nápis HYPNOSIS SWITCHES OFF FEAR? s otazníkem.",
+      "pause": 1.4
+    },
+    {
+      "id": "S19",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S19.png",
+      "vrstva": "had",
+      "note": "Dnešní snímek, proto popisek jen místo, BEZ roku 1960 (rok říká hlas). Pick z kontaktního listu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "intitle:\"Main Quadrangle, University of Sydney\"",
+        "pick": 0,
+        "grade": {
+          "saturation": 80,
+          "vignette": false,
+          "popisek": "UNIVERSITY OF SYDNEY"
+        }
+      },
+      "diagram": "Fotka University of Sydney, hlavní nádvoří, s popiskem SYDNEY, 1960."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "vrstva": "had",
+      "note": "Akcent na minci. Nekreslit ruku v kyselině (žádný návod ani šok).",
+      "diagram_generator": "kyselina",
+      "diagram": "Kádinka s dýmem, mince se v ní zmenšuje, ruka nad ní. Štítky REAL NITRIC ACID, BARE HAND.",
+      "anim": "animace"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "vrstva": "had",
+      "note": "Scéna, ve které něco míří na někoho: cíl = asistent. Divák musí vidět výměnu dřív než hod.",
+      "diagram_generator": "kyselina",
+      "diagram": "Dvě stejné kádinky se vymění, štítek HARMLESS LIQUID. Šipka míří od kádinky na asistenta.",
+      "anim": "animace"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "vrstva": "had",
+      "note": "Tatáž funkce sloupce() jako S04. assert 5 ze 6.",
+      "diagram_generator": "skore",
+      "diagram": "Sloupec HYPNOTISED: šest koleček, pět plných. 5 OF 6."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "vrstva": "had",
+      "diagram_generator": "skore",
+      "diagram": "Přibude sloupec FAKING, šest prázdných koleček, CAN'T BE HYPNOTISED."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "vrstva": "had",
+      "diagram_generator": "skore",
+      "diagram": "FAKING se zaplní: 6 OF 6.",
+      "pause": 0.5
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "vrstva": "had",
+      "note": "Štítek říká, co se počítalo: u AWAKE jen kyselina, dva z pěti odmítli hada.",
+      "diagram_generator": "skore",
+      "diagram": "Přibude třetí sloupec AWAKE: 5 OF 6, pod ním BOTH ACID TASKS."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "vrstva": "had",
+      "diagram_generator": "skore",
+      "diagram": "Bublina IT'S AN EXPERIMENT. IT MUST BE SAFE. Pod ní dvě menší: DEFANGED?, NOT REALLY ACID?"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "vrstva": "had",
+      "note": "Bez čísla, zdroj ho neuvádí.",
+      "diagram_generator": "skore",
+      "diagram": "Kolegové: řada postav bez koleček, jednotně REFUSED, EVERY TIME."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "vrstva": "had",
+      "diagram_generator": "skore",
+      "diagram": "Kolem všech tří sloupců se nakreslí obrys místnosti, štítek THE SETTING.",
+      "anim": "animace"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "vrstva": "had",
+      "note": "Stejná míra jistoty jako hlas: žádné „hypnóza je neškodná“.",
+      "diagram_generator": "skore",
+      "diagram": "Obrys místnosti, dole dva řádky: NOT PROOF IT CAN'T BE MISUSED, THIS TEST CAN'T TELL.",
+      "pause": 2.4
+    },
+    {
+      "id": "S30",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "vrstva": "had",
+      "note": "Plakát Herberta L. Flinta, Hypnotic Skirt Dance: hypnotizovaní muži v šatech, přesně to, o čem scéna mluví. PD. Fit, aby se četl celý.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "intitle:\"Show poster for hypnotist Herbert L. Flint\"",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9,
+          "saturation": 95,
+          "vignette": false
+        }
+      },
+      "diagram": "Dobový plakát jevištního hypnotizéra.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "vrstva": "had",
+      "diagram_generator": "jeviste",
+      "diagram": "Reflektor, na pódiu postava s bublinou CLUCK. Vedle ve tmě postava na ulici s otazníkem.",
+      "pause": 1.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "vrstva": "had",
+      "diagram_generator": "jeviste",
+      "diagram": "Jedna postava, otazník, NOT QUITE.",
+      "pause": 1.0
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "vrstva": "celo",
+      "diagram_generator": "celo",
+      "diagram": "Postava, na slově forehead se jí zvedne ruka k čelu. Nad ní slovo EXPERIMENT a 48 HOURS. Vedle 17 teček.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "vrstva": "celo",
+      "note": "assert 17 a 14.",
+      "diagram_generator": "sloupce",
+      "diagram": "Páteř: HYPNOTISED 17 teček, FAKING 14 teček. Dole FORGOTTEN."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "vrstva": "celo",
+      "diagram_generator": "celo",
+      "diagram": "Půdorys čekárny: stůl, sekretářka, dveře. Štítek THE REAL TEST."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "vrstva": "celo",
+      "note": "Věty přesně ze studie, viz factcheck.",
+      "diagram_generator": "celo",
+      "diagram": "Dvě bubliny od sekretářky, slovo EXPERIMENT ambrově: DAY 1, DAY 2."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "vrstva": "celo",
+      "note": "Tři reagovali první den, takže tečky NESMÍ zhasnout: kresba by tvrdila „nikdo nikdy“. Zpětná vazba ke storyboardu.",
+      "diagram_generator": "sloupce",
+      "diagram": "Sloupec FAKING: 14 neutrálních teček zůstane svítit, vedle velké 0 a RESPONDED ON BOTH DAYS."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "vrstva": "celo",
+      "diagram_generator": "sloupce",
+      "diagram": "Sloupec HYPNOTISED: 5 ze 17 ambrově, u nich malá ruka u čela. 5 OF 17.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "vrstva": "celo",
+      "diagram_generator": "celo",
+      "diagram": "Čekárna ze S35, za dveřmi prázdno. HYPNOTIST NOT IN THE ROOM."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "vrstva": "celo",
+      "diagram_generator": "celo",
+      "diagram": "Velká řada 17 teček, 5 ambrových. PICKED FOR RESPONDING WELL.",
+      "pause": 0.6
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "vrstva": "celo",
+      "note": "Záměrně nová řada, ne vyhasnutí z S40: zdroj neříká, že ti dva patřili k pěti.",
+      "diagram_generator": "celo",
+      "diagram": "Nová řada 17 teček, 2 ambrové. NEAR THE END."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "vrstva": "celo",
+      "note": "VÝZVA K ODBĚRU č. 2, ~5:05. Text přeškrtnout přes text_skrtnuty().",
+      "diagram_generator": "celo",
+      "diagram": "Krabice INSTALLED PROGRAM přeškrtnutá. Vedle NOT GUARANTEED. Vpravo, levý dolní roh prázdný.",
+      "pause": 2.6,
+      "vyzva": true
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "vrstva": "stroop",
+      "diagram_generator": "stroop",
+      "diagram": "Na tmavém pozadí jen TRY THIS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "vrstva": "stroop",
+      "note": "Jediné místo s barvami mimo paletu: barva je tady obsah. Pauza 6 s na vyzkoušení (zpětná vazba 0.2). assert, že slovo nikdy nesouhlasí s barvou. Hlas: pauzy před „Not the word“ a „The colour“ (poslech draftu). Dovětek se tu nedá uříznout a při tom selhání se ztratily i větné pauzy, proto cisty_konec false.",
+      "diagram_generator": "stroop",
+      "diagram": "Mřížka barevných slov, slovo a barva nesouhlasí: RED modře, BLUE zeleně, GREEN červeně, YELLOW fialově, a dál. Bez nadpisu.",
+      "pause": 6.0,
+      "vycet": 0.3,
+      "vycet_slov": 6,
+      "cisty_konec": false
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "vrstva": "stroop",
+      "diagram_generator": "stroop",
+      "diagram": "Táž mřížka ztlumená, přes ni READING GETS IN THE WAY."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "vrstva": "stroop",
+      "note": "Text se nehýbe, jen se prolíná. Znaky nejsou skutečné písmo.",
+      "diagram_generator": "stroop",
+      "diagram": "Slova se prolnou do řad nesmyslných znaků, barva inkoustu zůstane.",
+      "anim": "animace"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "vrstva": "stroop",
+      "note": "Bez sloupcového grafu: v přečteném abstraktu nejsou milisekundy. assert 16 a 16.",
+      "diagram_generator": "stroop",
+      "diagram": "Dvě řady po 16 postavách. Nahoře HIGHLY SUGGESTIBLE: DELAY GONE. Dole LESS SUGGESTIBLE: DELAY STILL THERE."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "vrstva": "stroop",
+      "note": "Přední cingulum (ACC) leží na vnitřní straně hemisféry, z boku není vidět, proto střední řez (zpětná vazba). Zrakové oblasti: extrastriatální, Raz 2005.",
+      "diagram_generator": "stroop",
+      "diagram": "Hlava z profilu a v ní střední řez mozkem: záhyby, kalózní těleso, talamus, mozeček, kmen. CONFLICT nad přední částí kalózního tělesa, VISUAL v týlu."
+    },
+    {
+      "id": "S48b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48b.png",
+      "vrstva": "stroop",
+      "note": "Reduced, ne gone: Raz 2006 říká partially. 12 je skupina bez hypnózy; počet ze zpětné vazby, celkových 25 potvrzeno sekundárně, viz factcheck. Číslo se nepíše.",
+      "diagram_generator": "stroop",
+      "diagram": "Řada 12 postav bez popisku počtu, velké NO HYPNOSIS, DELAY REDUCED."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "vrstva": "stroop",
+      "diagram_generator": "stroop",
+      "diagram": "Postava, smyčka vychází od ramene, oběhne a šipka míří do hlavy. Nikdo jiný v obraze. HOW? STILL DEBATED.",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S50.png",
+      "vrstva": "pamet",
+      "note": "Předěl. Nutné herní PC, jinak placeholder.",
+      "prompt": "a messy pile of many old faded family snapshot photographs with white borders scattered on a dark table, the images in them bleached and blurred, seen from above, flat grey overcast light, no bottles, no glass, no text",
+      "diagram": "Rozházené vybledlé fotografie na stole, flat grey light.",
+      "seed": 146050
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "vrstva": "pamet",
+      "note": "Kresba musí tvrdit totéž co hlas: nezhasínat PAST.",
+      "diagram_generator": "pamet",
+      "diagram": "Pás času: PAST, SESSION, NOW. Přeškrtnuté ERASED nad pásem, zhasne jen úsek SESSION. Klíč CUE ho rozsvítí."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "vrstva": "pamet",
+      "diagram_generator": "pamet",
+      "diagram": "Prázdný rámeček, otazník, RECOVERING WHAT YOU FORGOT?",
+      "pause": 1.2
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "vrstva": "pamet",
+      "note": "assert 26+1. Přívěs pod zemí, ne výkop nad ním, pořadí viz factcheck.",
+      "diagram_generator": "pamet",
+      "diagram": "Řez zemí: pod zemí přívěs, v něm 27 teček. Nad tím značka 1976, CHOWCHILLA."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "vrstva": "pamet",
+      "note": "NEVYMÝŠLET číslice, skutečné značky neznáme. Políčka, ne čísla.",
+      "diagram_generator": "pamet",
+      "diagram": "Poznávací značka s prázdnými políčky, doplňují se tečkami, jedno zůstane otazník.",
+      "anim": "animace"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "vrstva": "pamet",
+      "note": "Šipka = příčina. Štítek helped, viz factcheck.",
+      "diagram_generator": "pamet",
+      "diagram": "Značka, šipka ke třem postavám. HELPED POLICE."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "vrstva": "pamet",
+      "diagram_generator": "pamet",
+      "diagram": "Hlava, v ní kotouče magnetofonu, točí se. A RECORDING? s otazníkem.",
+      "anim": "animace",
+      "pause": 1.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "vrstva": "pamet",
+      "note": "Čárkovaně = neexistuje. Konvence z hlavičky _kit.py.",
+      "diagram_generator": "pamet",
+      "diagram": "Spící postava v posteli, čárkované zvukové vlny. Noční okno. 27 PEOPLE."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "vrstva": "pamet",
+      "diagram_generator": "pamet",
+      "diagram": "Táž scéna, vlny přes ni nápis INVENTED.",
+      "pause": 0.5,
+      "dovetek": "Now listen to it closely.",
+      "note": "Dovětek kvůli schwě za invented (poslech draftu): ocas po slově z 5 rámců kolem −27 dB na 2 kolem −30 dB. Návětí bylo horší."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "vrstva": "pamet",
+      "note": "assert 13 z 27.",
+      "diagram_generator": "pamet",
+      "diagram": "27 teček, 13 ambrových. IT REALLY HAPPENED.",
+      "pause": 0.5
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "vrstva": "pamet",
+      "diagram_generator": "pamet",
+      "diagram": "Tatáž řada, velké 13 OF 27.",
+      "pause": 1.4
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "vrstva": "pamet",
+      "note": "Doslovně ze zdroje, na rozdíl od hlasu říká nonhypnotic. Horní citace, ne celý abstrakt.",
+      "diagram_generator": "pamet",
+      "diagram": "Citát: „LESS RELIABLE THAN NONHYPNOTIC RECALL“. Zdroj AMA COUNCIL, JAMA 1985."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "vrstva": "pamet",
+      "diagram_generator": "pamet",
+      "diagram": "Vlevo značka s fajfkou CAN BE CHECKED. Vpravo mnoho vzpomínek s otazníky CAN'T. Dole NOT PROOF HYPNOSIS IMPROVES MEMORY."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "vrstva": "pamet",
+      "diagram_generator": "pamet",
+      "diagram": "Dílky vzpomínky se skládají do rámečku, jeden ambrový SUGGESTION zapadne mezi ně.",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "vrstva": "klinika",
+      "diagram_generator": "klinika",
+      "diagram": "Velké YES na tmavém pozadí.",
+      "pause": 0.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "vrstva": "klinika",
+      "note": "assert 85.",
+      "diagram_generator": "klinika",
+      "diagram": "85 políček v mřížce. Pod tím HEALTHY VOLUNTEERS, INDUCED PAIN."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "vrstva": "klinika",
+      "note": "Výšky z dat, assert. Osa od nuly.",
+      "diagram_generator": "klinika",
+      "diagram": "Tři sloupce rostou: HIGH 42 %, MEDIUM 29 %, LOW 17 %. Popisek WITH DIRECT SUGGESTION.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "vrstva": "klinika",
+      "note": "Nerovnoměrné skupiny, ne falešná symetrie. 105/95 ze zpětné vazby, plný text nečten, viz factcheck. Čísla skupin se nepíšou, assert 105+95=200.",
+      "diagram_generator": "klinika",
+      "diagram": "200 teček se rozdělí v poměru 105 : 95 na 15 MIN OF HYPNOSIS a SOMEONE WHO LISTENS."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "vrstva": "klinika",
+      "note": "assert: 22,43 a 47,83.",
+      "diagram_generator": "klinika",
+      "diagram": "Stupnice bolesti 0 až 100: 22 proti 48 rostou. Pod tím $772 AVERAGE, MOSTLY SHORTER SURGERY.",
+      "anim": "animace"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "vrstva": "klinika",
+      "note": "Hypnóza jako vrstva navíc, ne náhrada.",
+      "diagram_generator": "klinika",
+      "diagram": "Vrstvy: ANAESTHESIA, nad ní HYPNOSIS. Vpravo drobně PATIENTS KNEW THEIR GROUP."
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S70.png",
+      "vrstva": "klinika",
+      "note": "Předěl před závěrem. Nikdo v obraze: nikdo nikoho neovládá.",
+      "prompt": "empty quiet hospital corridor with a single chair by a window, flat grey overcast light, no people, no text",
+      "diagram": "Klidná chodba nemocnice, prázdná, flat grey light.",
+      "pause": 2.4
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "vrstva": "zaver",
+      "diagram_generator": "zaver",
+      "diagram": "Dálkový ovladač přeškrtnutý. NO REMOTE CONTROL. Obsah v dolní polovině."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "vrstva": "zaver",
+      "note": "Callback tvarů z S38, S57 a S02, kreslit týmiž funkcemi. Horní polovina volná, závěrečná obrazovka.",
+      "diagram_generator": "zaver",
+      "diagram": "V dolní polovině tři ikony vedle sebe: ruka u čela, noc s čárkovanými vlnami, řada bez šestky.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "vrstva": "zaver",
+      "note": "Pauza a obraz bez komentáře před otázkou (zpětná vazba 0.2). Nejdůležitější scéna videa.",
+      "diagram_generator": "zaver",
+      "diagram": "VÝPLATA PÁTEŘE: jedna postava v dolní polovině, žádná dělicí čára, žádný štítek. Text jen v titulku.",
+      "pause": 3.5
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "vrstva": "zaver",
+      "note": "Horní polovina pro dlaždici a kolečko. Bez animace.",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná deska, otázka v dolní polovině: WHAT'S A MEMORY YOU'D SWEAR BY?",
+      "pause": 3.0
+    }
+  ]
+}

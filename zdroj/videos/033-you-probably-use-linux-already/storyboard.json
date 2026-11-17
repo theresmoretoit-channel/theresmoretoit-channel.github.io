@@ -1,0 +1,892 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). ZAVEDENÍ. Divák zatím neví, co blok je — dozví se to až v S23. První a poslední záběr videa je týž blok (S94), a celé video je o tom, co to je.",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdné tmavé pole, uprostřed malý ambrový blok. Nad ním otazník. Blok NENÍ pojmenovaný."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Otázka je adresovaná té vpravo. Ambrová je u programátora, protože o něm se právě mluví — ne proto, že by byl lepší.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo postava s popiskem PROGRAMMER a ambrovou fajfkou, vpravo postava s otazníkem. Blok mezi nimi."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Rozvržení se doslova vrací v S86 (zrcadlo závěru), takže se nesmí přesunout ani o pixel.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři ztlumené rámečky vedle sebe: WINDOWS, IPHONE, NEVER SEEN IT. Blok pod nimi beze změny."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Blok je pod rámečkem vidět jen slabě. Rámeček se v S05 vyplní terminálem.",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdný obrysový rámeček s otazníkem — místo pro představu, která teprve přijde."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). PRVNÍ POUZDRO, ale divák to tak nečte — myslí si, že vidí Linux. Až zpětně (S64) se ukáže, že terminál je jen jedno pouzdro z mnoha. Řádky se kreslí jako obdélníčky, NE jako písmena — pseudotext je přesně to, čemu se projekt u SDXL vyhýbá.",
+      "diagram_generator": "uvod",
+      "diagram": "Okno terminálu nakreslené KOLEM bloku: titulní lišta, kurzor, řádky pseudotextu jako obdélníčky."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Popisky jsou ztlumené, ne ambrové — je to cizí názor, ne tvrzení videa.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž terminál, kolem něj tři popisky: COMPLICATED, WEIRD, FOR PROGRAMMERS."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Příprava obratu: pouzdro slábne, obsah zůstává. Beze slov říká pointu celého videa.",
+      "diagram_generator": "uvod",
+      "diagram": "Terminál zeslábne na pouhý obrys, blok uvnitř zůstane ambrový."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). HLAVNÍ OTÁZKA VIDEA. Táž kompozice se doslova opakuje v S20 a S27 — musí to být tentýž generátor s parametrem, ne tři ručně kreslené scény, jinak se callback nepozná.",
+      "diagram_generator": "otazka",
+      "diagram": "Hlavní otázka velkým písmem uprostřed, blok pod ní. Nic jiného."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Jediná změna proti S08 je ten popisek — beat, ne nový obraz.",
+      "diagram_generator": "otazka",
+      "diagram": "Táž kompozice, pod otázkou přibude ztlumené SURPRISED.",
+      "pause": 2.2
+    },
+    {
+      "id": "S10",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S10.png",
+      "note": "Předěl do minulosti. SDXL, protože je to atmosféra, ne konkrétní stroj — kdyby scéna měla ukázat KONKRÉTNÍ Torvaldsův počítač, patří to do archivu.",
+      "prompt": "a small beige personal computer with a bulky monitor on a plain wooden desk in a dim student room, curtains half drawn, flat grey overcast daylight from a single window, nobody present, quiet and ordinary, no text"
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "ARCHIV, protože je to pojmenovaná osoba. PICK VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: ze sedmi kandidátů je [1] jediný čistý portrét na jednobarevném pozadí. [4] má vypálený titulek 'Linus Torvalds' a logo Linux Foundation, [2] a [6] jsou celopostavové, [5] má grimasu. Portrét nesmí být přes celý obraz (fit 0.84) a ZOOM NA PORTRÉT NEPATŘÍ — divák u videa 004 hlásil uříznuté čelo. Jméno se sází vedle.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Linus Torvalds",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 1
+      }
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "SVG, ne archiv: je to text a musí být ČITELNÝ. Skenovaný výpis Usenetu by byl nečitelný a SDXL text neumí. Citát je doslovný — viz factcheck S12. Vrací se v S79.",
+      "diagram_generator": "historie",
+      "diagram": "Citát z oznámení 25. 8. 1991 vysázený jako text: „just a hobby, won't be big and professional like gnu\". Pod ním datum a comp.os.minix."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Šipky VEN od bloku = uvolnění. V S14 se směr obrátí.",
+      "diagram_generator": "historie",
+      "diagram": "Blok uprostřed, z něj šipky ven ke třem prázdným rukám/rámečkům. Popisek SOURCE CODE RELEASED."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Obrácení šipek proti S13 je celé tvrzení scény: nejdřív se rozdal, pak se začal vracet.",
+      "diagram_generator": "historie",
+      "diagram": "Tytéž šipky obrácené dovnitř, kolem bloku přibývají tečky přispěvatelů."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Počet teček vpravo se generuje a je zajištěný assertem, aby obraz netvrdil víc ani míň než scénář.",
+      "diagram_generator": "historie",
+      "diagram": "Vlevo jedna tečka s popiskem ONE STUDENT, vpravo hustý roj teček. Mezi nimi šipka."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Všechny čtyři stejně velké a stejně barevné — scénář žádnou nenadřazuje, takže je nesmí nadřadit ani kresba.",
+      "diagram_generator": "historie",
+      "diagram": "Čtyři popsané skupiny kolem bloku: COMPANIES, UNIVERSITIES, INDEPENDENT DEVELOPERS, VOLUNTEERS."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "KOTVA (factcheck S17). Číslo je v obraze číslicí, ve scénáři slovy — to je v pořádku, TTS čte scénář. POZOR: číslo STÁRNE, jádro vychází každých ~10 týdnů; před nahráním ověřit na LWN a případně přegenerovat i tenhle diagram.",
+      "diagram_generator": "cisla",
+      "diagram": "Velké číslo 2 479 a pod ním DEVELOPERS, vedle ONE RELEASE / TEN WEEKS."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Hedge 'one of' musí být vidět i v obraze — proto ŽÁDNÝ žebříček a žádné první místo. Kdyby kresba ukázala Linux na vrcholu seznamu, tvrdila by víc než věta.",
+      "diagram_generator": "cisla",
+      "diagram": "Týž blok, kolem něj ztlumeně roj teček z S15. Popisek ONE OF THE LARGEST.",
+      "pause": 2.4
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Callback na S08 — tentýž generátor.",
+      "diagram_generator": "otazka",
+      "diagram": "Táž kompozice jako S08, zatím jen ztlumená."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). DOSLOVNÉ zopakování S08. Když se kompozice liší, připomenutí otázky se nepozná a scéna nemá důvod existovat.",
+      "diagram_generator": "otazka",
+      "diagram": "Přesně S08, plnou sytostí."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Přechodová scéna, ne nový obraz.",
+      "diagram_generator": "jadro",
+      "diagram": "Blok uprostřed, kolem něj se rozsvítí obrys — příprava na pojmenování."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Na text se škrtá VODOROVNOU ČAROU, ne křížkem (křížek udělá nápis nečitelný a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic). Použít text_skrtnuty(), NE skrt_text() — ta kreslí jen čáru.",
+      "diagram_generator": "jadro",
+      "diagram": "Nápis OPERATING SYSTEM přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). KLÍČOVÁ SCÉNA PÁTEŘE. Od S01 je blok bezejmenný; tady se pojmenuje. Nic jiného se v obraze nemění — beat nese jediný popisek.",
+      "diagram_generator": "jadro",
+      "diagram": "Blok konečně dostane jméno: KERNEL.",
+      "pause": 1.4
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Blok drží tytéž souřadnice jako v S01 — proto je 'mezi' doslova vidět. Popisky se odsazují funkcí odvozenou z rozměru vrstvy, nikdy odhadem.",
+      "diagram_generator": "jadro",
+      "diagram": "Tři vodorovné vrstvy: SOFTWARE nahoře, KERNEL (blok) uprostřed na svých pevných souřadnicích, HARDWARE dole. Vpravo tři popisky: PROCESSORS, MEMORY, DEVICES."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Tvrzení scény je 'stejné jádro, různé systémy', takže blok musí být ve všech čtyřech identický. Kdyby se lišil velikostí, kresba by tvrdila opak. Vrací se to v S58 a S90.",
+      "diagram_generator": "jadro",
+      "diagram": "Kolem téhož bloku čtyři různá pouzdra vedle sebe: DESKTOP, SERVER, EMBEDDED DEVICE, SUPERCOMPUTER. Blok je ve všech STEJNĚ VELKÝ."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "ČÁRKOVANÁ ZNAMENÁ NEJASNÉ, ne hypotézu — je to 'věc, kterou zatím neumíme pojmenovat'. Konvence patří do hlavičky _kit.py.",
+      "diagram_generator": "jadro",
+      "diagram": "Páté pouzdro, čárkované a bez popisku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Třetí a poslední výskyt kompozice otázky.",
+      "diagram_generator": "otazka",
+      "diagram": "Přesně S08 potřetí."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Jediná změna: otazník → dvojtečka. Otevření odpovědi jedním znakem.",
+      "diagram_generator": "otazka",
+      "diagram": "Táž kompozice, otazník se změní v dvojtečku."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Návěs na S30.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Prázdný obrys pouzdra, které se teprve vyplní."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). PRVNÍ SKUTEČNÁ ODPOVĚĎ VIDEA (3:00). Pouzdro se kreslí kolem bloku na jeho pevných souřadnicích.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys telefonu kolem bloku."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Vrstvy, ne vedle sebe — 'underneath' je prostorové tvrzení a musí být vidět svisle.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Telefon ve dvou vrstvách: ANDROID nahoře, blok dole."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "KOTVA (factcheck S32). Obě hedge ('more than', 'over') musí být v obraze taky, tedy znaménko + u obou čísel — jinak kresba tvrdí přesnost, kterou zdroj nedává.",
+      "diagram_generator": "cisla",
+      "diagram": "Velké 3 000 000 000+ a pod ním ACTIVE ANDROID DEVICES, vedle 190+ COUNTRIES."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Scéna tvrdí rozdíl NAHOŘE a shodu DOLE. Blok proto musí být u obou identický a horní vrstvy zjevně různé.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Vlevo UBUNTU a FEDORA jako plné sloupce nad blokem, vpravo ANDROID jako jiný sloupec nad TÝMŽ blokem."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Beat před refrénem.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Telefon, blok uvnitř ztlumený, otazník."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). REFRÉN. Táž kompozice se opakuje v S41 — musí to být tentýž generátor s parametrem tvaru pouzdra, jinak se refrén nepozná.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Týž telefon, blok se rozsvítí ambrově. Nic víc.",
+      "pause": 2.2
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Otevírá řadu. Zmenšený telefon zůstává vlevo nahoře po zbytek 'domácí' části.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Telefon se zmenší do rohu, uprostřed zůstane prázdné místo pro další pouzdra."
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S37.png",
+      "note": "SDXL, protože je to nálada 'rozhlédni se doma', ne konkrétní předmět. Bez lidí a bez značek. Pohyb ven, protože se svět rozšiřuje.",
+      "prompt": "an ordinary living room corner seen from a doorway, a low shelf, a thin cable running along the skirting board, flat grey overcast daylight, nobody present, calm and unremarkable, no text"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Druhé pouzdro. Tentýž generátor jako S30.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys routeru s anténami kolem bloku."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Hedge 'many' musí být v obraze — tedy NE 'všechny routery'. Část routerů běží na BSD nebo VxWorks (factcheck S39).",
+      "diagram_generator": "pouzdra",
+      "diagram": "Router, uvnitř blok, kolem popisky PLASTIC BOX a MANY ROUTERS RUN LINUX."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Škrtá se vodorovnou čarou přes text (text_skrtnuty). Blok je schválně skoro neviditelný — scéna tvrdí, že ho není vidět.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Nahoře symbol Wi-Fi a slovo CONNECT, pod ním tři přeškrtnuté položky: TERMINAL, PACKAGES, KNOWING IT'S THERE. Blok dole ztlumený."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). REFRÉN, přesně jako S35, jen jiné pouzdro.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Týž router, blok se rozsvítí ambrově.",
+      "pause": 2.2
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Třetí pouzdro.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys televize kolem bloku, vedle přeškrtnuté slovo TELEVISION a nahrazené COMPUTER WITH A SCREEN."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Hedge 'many' opět: ne všechny televize, proto jsou některá pouzdra bez bloku.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Televize a kolem ní ztlumená menší pouzdra spotřebičů, ve všech týž blok."
+    },
+    {
+      "id": "S44",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S44.png",
+      "note": "SDXL na náladu, ne na předmět. Konec 'domácího' bloku — proto delší pauza.",
+      "prompt": "an ordinary living room, a low sofa facing a large flat television standing on a plain cabinet, the television screen dark and empty, a remote control lying on the armrest, bare wall, nobody in the room, no text",
+      "pause": 2.4
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Předěl měřítka. Táž osa se vrací v S52 opačným směrem.",
+      "diagram_generator": "internet",
+      "diagram": "Měřítko: malá pouzdra vlevo, velká šipka doprava do prázdna."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Prázdno pod nadpisem je záměr — vyplní se v S47.\nNÁVĚTÍ doplněno 2026-09-08 po kontrole whisperem: whisper slyšel [The Interneter.] — doříkávaná schwa na konci krátké promluvy (1,17 s). Obětovaná věta u promluvy kolem sekundy selže a jen TIŠE varuje — ověřuje se whisperem, ne existencí souboru. Návětí schválně neobsahuje první slovo scény ('the'), jinak by scene_s_navetim() řez netrefila.",
+      "diagram_generator": "internet",
+      "diagram": "Slovo INTERNET, pod ním zatím nic.",
+      "naveti": "Now we make a much bigger jump."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Škrtnutí obláčku je pointa scény: cloud NENÍ místo. Přes tvar bez písma smí být křížek, přes nápis jen vodorovná čára.",
+      "diagram_generator": "internet",
+      "diagram": "Nahoře obláček se slovem THE CLOUD přeškrtnutý, pod ním řady obdélníků serverů."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Čtvrté pouzdro. Výčet je ve scénáři tříčlenný, takže i v obraze tři — ne pět.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys serverové skříně kolem bloku, tři popisky: WEB SERVERS, DATABASES, CONTAINERS."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Scéna, ve které něco míří na někoho: čára vede OD diváka K serveru, tedy směrem dotazu. Ověřit, že nemíří obráceně.",
+      "diagram_generator": "internet",
+      "diagram": "Postava u obrazovky, od ní čára k serverové skříni s blokem. Blok ztlumený."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Beat, ne nový obraz.",
+      "diagram_generator": "internet",
+      "diagram": "Týž obraz, jen se rozšíří rám a ukáže, že skříní je víc."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Tvrzení 'infrastruktura pod tím' nese PRUH, ne zvětšený blok. Blok si drží velikost i polohu — kdyby se tady roztáhl, podkopalo by to S25, S58 a S90, kde je shodná velikost bloku celý argument.",
+      "diagram_generator": "internet",
+      "diagram": "Vodorovný pruh přes celou šířku s popiskem INFRASTRUCTURE, procházející blokem v jeho obvyklé velikosti. Na pruhu stojí ztlumené tvary webů a služeb.",
+      "pause": 2.4
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Callback na S45. Bez shodné osy se protiklad nepozná.",
+      "diagram_generator": "internet",
+      "diagram": "Táž osa měřítka jako S45, ale šipka míří na opačnou stranu."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Páté pouzdro. Blok STEJNĚ VELKÝ jako v telefonu — o tom je S58.\nDOVETEK doplnen 2026-09-08: uzivatel slysel za slovem [Supercomputers] schwu. Merenim potvrzeno — ocas poslednich 300 ms byl na -14,8 dB vuci telu, tedy v pasmu doricavane schwy, a whisper z toho delal [A supercomputer is a...]. Scena ma pauzu 0,8 s, takze se `cisty_konec` VUBEC NEZAPNUL (prah je 1,5) — zadany `dovetek` ho zapina bez ohledu na pauzu. Vychozi DOVETEK selhal (nenasel kde rezat), vlastni srazil ocas na -19,3 dB a whisper slysi ciste [Supercomputers.]",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys skříně superpočítače kolem bloku, vysoký a úzký.",
+      "dovetek": "These machines are enormous indeed."
+    },
+    {
+      "id": "S54",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S54.png",
+      "note": "ARCHIV: sál superpočítače je vyfotitelný. PICK VYBRÁN Z KONTAKTNÍHO LISTU: [2] je dlouhá ustupující řada skříní, tedy měřítko — [0] a [1] jsou rybí oko s vidtelným 'IBM' a '575', [3] a [4] mají přes celou skříň nápis KRAKEN, resp. TAIWANIA 3. Volné dílo, takže atribuce není povinná — uvádí se stejně.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "supercomputer",
+        "pick": 2
+      }
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "assert na PŘESNĚ 500 značek — obraz nesmí tvrdit víc ani míň. Formulace 'someone publishes a list' je ve scénáři schválně: TOP500 je sebedeklarační žebříček, ne skutečnost (factcheck S55–S57).",
+      "diagram_generator": "cisla",
+      "diagram": "Mřížka 500 malých značek, všechny ztlumené. Nadpis TOP FIVE HUNDRED, popisek TWICE A YEAR."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "KOTVA. Jediná změna proti S55 je barva — beat vyrobený jedním obrazem, ne novým. assert, že se rozsvítily všechny.",
+      "diagram_generator": "cisla",
+      "diagram": "Táž mřížka, VŠECH 500 značek ambrových. Velké 500 / 500."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Dva ztlumené sloupečky vlevo jsou doklad, že to KDYSI neplatilo — bez nich by 'od roku 2017' nemělo význam. Data z factchecku: 6/2017 a 11/2016 mají 498.",
+      "diagram_generator": "cisla",
+      "diagram": "Časová osa seznamů od 2016 doprava, sloupečky; od listopadu 2017 dál všechny ambrové, dva před ním ztlumené.",
+      "pause": 2.2
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). VÝPLATA PÁTEŘE. Celá scéna stojí na tom, že blok je v obou identický; kdyby se lišil, tvrdila by opak. assert na shodnou velikost.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Vlevo nejmenší pouzdro, vpravo největší. V obou TENTÝŽ blok o téže velikosti."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Callback na S12 — musí být tentýž vysázený citát, ne přepsaný jinak.",
+      "diagram_generator": "historie",
+      "diagram": "Vlevo citát 'just a hobby' z S12 ztlumeně, vpravo skříň superpočítače. Mezi nimi šipka.",
+      "pause": 2.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Předěl.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Budova ztlumeně, vedle ní tři pouzdra na kolech / v pohybu."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). POZOR, VĚCNÁ PODMÍNKA: kresba nesmí tvrdit, že Linux řídí brzdy. Bezpečnostně kritické jednotky musí být v obraze viditelně bez bloku, jinak diagram tvrdí to, co scénář schválně netvrdí (factcheck S61).",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys auta, blok umístěný u palubní desky s popiskem INFOTAINMENT. Brzdy a řízení označené zvlášť a BEZ bloku."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Šest pouzder podle šesti položek výčtu ve scénáři. Ani o jedno víc.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Mřížka malých pouzder: ROBOTICS, DRONES, CAMERAS, STORAGE, NETWORK EQUIPMENT, INDUSTRIAL. V každém týž blok."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Jediná změna proti S62 je sytost pouzder — beat.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Táž mřížka, pouzdra zeslábnou na obrysy, bloky zůstanou."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). CALLBACK NA S05: přeškrtnutý terminál je týž tvar, kterým video začalo. Škrtá se vodorovnou čarou (text_skrtnuty).",
+      "diagram_generator": "pouzdra",
+      "diagram": "Tři přeškrtnuté položky: DESKTOP, TERMINAL, SCREEN. Vpravo blok, pořád ambrový."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Nejtišší obraz videa, záměrně skoro prázdný. Delší pauza před vesmírem.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Blok sám v prázdném poli, bez pouzdra. Ztlumený popisek QUIETLY.",
+      "pause": 2.6
+    },
+    {
+      "id": "S66",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S66.png",
+      "note": "Přechod na archiv po DVOU nezdařených kolech SDXL (kolo 1 i 2 nakreslila krajinu, ne horizont planety) — CLAUDE.md: když model netrefí funkci dvakrát, scéna patří jinam. Horizont Země se dá vyfotit, takže ho model kreslit nemá.",
+      "archive": { "provider": "nasa", "query": "Earth limb", "pick": 3 }
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Šesté pouzdro.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys družice/sondy kolem bloku."
+    },
+    {
+      "id": "S67b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67b.png",
+      "note": "PAPETR: ambrovy blok na pevnych souradnicich (_kit.jadro()). Scena doplnena 2026-09-08 na navrh uzivatele. VECNA PRESNOST JE TU PODSTATNA: na Linux se v roce 2013 prevedly NOTEBOOKY site OpsLAN, ktere pouziva posadka — NE ridici pocitace stanice. Obraz proto ukazuje notebook, ne modul stanice, a popisek rika CREW LAPTOPS. Kdyby kresba naznacila, ze na Linuxu bezi rizeni ISS, tvrdila by vic nez scenar i nez zdroj (factcheck S67b).",
+      "diagram_generator": "pouzdra",
+      "diagram": "Obrys notebooku s blokem uvnitr. Nad nim tlumena silueta stanice se solarnimi panely. Popisek CREW LAPTOPS a rok."
+    },
+    {
+      "id": "S68",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S68.png",
+      "note": "ARCHIV, provider `nasa` (ne wikimedia — pick je vybraný z výsledků NASA a s jiným providerem by se stáhl JINÝ snímek, přičemž log by vypadal úspěšně). PICK VYBRÁN Z KONTAKTNÍHO LISTU: [3] je otevřená marsovská krajina s kopci a stopami kol. [0] je ILUSTRACE (rendering), ne fotka; [4] má vypálené popisky; [1] je čistý prostor na Zemi; [7] černobílý orbitální snímek.",
+      "archive": {
+        "provider": "nasa",
+        "query": "Mars surface Jezero crater Perseverance",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S69",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "ARCHIV a je to DOKLAD, ne ilustrace — jediný stroj, o kterém scénář tvrdí, že na Marsu běžel na Linuxu (factcheck S69). Statický, bez zoomu.\nPROVIDER ZMĚNĚN Z `nasa` NA `wikimedia`, protože dotaz do NASA vracel z osmi výsledků ILUSTRACI [0] a pětkrát fotky prototypu v muzeu na Zemi — ani jednu fotku na Marsu. Je to přesně případ z CLAUDE.md: 'nic nenalezeno' může znamenat špatně zvolený dotaz.\nPICK VYBRÁN Z KONTAKTNÍHO LISTU: [3] 'Mastcam-Z Gives Ingenuity a Close-up' — vrtulník zblízka na marsovském povrchu, volné dílo. [1] a [2] jsou studiové výřezy na průhledném pozadí, [4] čistý prostor.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Ingenuity Mars Helicopter",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "assert na přesně 5. Rozvržení musí být totéž jako v S71, aby se rozdíl poznal.",
+      "diagram_generator": "cisla",
+      "diagram": "Pět značek letů v řadě, popisek DESIGNED FOR."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "KOTVA. assert na přesně 72 a na to, že prvních pět je odlišených — poměr 5 : 72 je celé tvrzení scény.",
+      "diagram_generator": "cisla",
+      "diagram": "Sedmdesát dva značek v téže mřížce, prvních pět ztlumených, zbytek ambrových. Velké 72.",
+      "pause": 2.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Blok se NEHÝBE — planety přibývají kolem něj. Od téhle scény do S78 je to JEDEN obraz, ve kterém se pokaždé mění jediná věc.",
+      "diagram_generator": "planety",
+      "diagram": "Blok uprostřed na svých souřadnicích. Vlevo od něj Země, vpravo Mars, obě zatím ztlumené. Od bloku k oběma vede tenká čára."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Beat rozdělením scény, ne nový obraz.",
+      "diagram_generator": "planety",
+      "diagram": "Týž obraz, obě planety ztlumené, popisek TECHNICALLY."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Mění se jediná věc proti S73. Blok zůstává, kde byl.\nNÁVĚTÍ doplněno 2026-09-08 po kontrole whisperem: whisper slyšel [...on earthy.] (1,83 s). Obětovaná věta u promluvy kolem sekundy selže a jen TIŠE varuje — ověřuje se whisperem, ne existencí souboru. Návětí schválně neobsahuje první slovo scény ('linux'), jinak by scene_s_navetim() řez netrefila.",
+      "diagram_generator": "planety",
+      "diagram": "Rozsvítí se Země a čára k ní od bloku.",
+      "naveti": "Here is a simple way of putting it."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Beat. Kokoro na konci promluvy klesá, takže 'And...' nese obraz a pauza, ne intonace.",
+      "diagram_generator": "planety",
+      "diagram": "Beze změny, jen ztlumené AND mezi planetami."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Zrcadlo S74 přes svislou osu bloku. Bez shodného rozvržení se paralela 'Earth / Mars' nepozná.",
+      "diagram_generator": "planety",
+      "diagram": "Rozsvítí se i Mars a čára k němu. Kompozice je zrcadlem S74."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Prázdná hodnota je návěs na S78. POZOR: scéna NESMÍ tvrdit rekord — původní verze scénáře tvrdila, že Linux je v počtu planet první, a to je nepravda (VxWorks je na tom stejně, factcheck S77).",
+      "diagram_generator": "planety",
+      "diagram": "Popisek PLANETS a za ním prázdné místo na hodnotu."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Jediná změna proti S77. Žádné 'nejvíc', žádné pořadí.",
+      "diagram_generator": "planety",
+      "diagram": "Do prázdného místa se doplní 2, pod tím EARTH a MARS."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Třetí a poslední výskyt citátu (S12, S59, S79). Vrchol videa, proto nejdelší pauza.",
+      "diagram_generator": "historie",
+      "diagram": "Citát 'just a hobby' z S12 znovu, pod ním obě planety maličké.",
+      "pause": 2.8
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Návěs. Scéna schválně tvrdí to, co S81 vyvrátí.",
+      "diagram_generator": "zaver",
+      "diagram": "Nápis JUST AN OPERATING SYSTEM, EVERYWHERE, zatím nepřeškrtnutý."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Jediná změna proti S80. text_skrtnuty(), ne skrt_text().",
+      "diagram_generator": "zaver",
+      "diagram": "Týž nápis přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Druhé pojmenování bloku po S23 — a je to teze videa.",
+      "diagram_generator": "zaver",
+      "diagram": "Blok sám, popisek BUILDING BLOCK."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). VÝPLATA PÁTEŘE. Funguje jen tehdy, když všechna pouzdra po celé video ležela na týchž souřadnicích — proto se kreslí jednou funkcí, ne ručně v každé scéně.",
+      "diagram_generator": "zaver",
+      "diagram": "Všechna pouzdra videa najednou, ztlumeně, kolem téhož bloku: telefon, router, televize, server, superpočítač, auto, sonda."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Hedge 'probably' musí být vidět: proto NE ve všech. Obraz nesmí tvrdit víc než 'dozens'.",
+      "diagram_generator": "zaver",
+      "diagram": "Mřížka slabých obrysů běžných předmětů, v některých blok, v některých ne.",
+      "pause": 2.4
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Rám videa se zavírá. Musí to být tentýž generátor jako S01.\nNÁVĚTÍ doplněno 2026-09-08 po kontrole whisperem: whisper slyšel [...do you use linuxer?] (1,64 s). Obětovaná věta u promluvy kolem sekundy selže a jen TIŠE varuje — ověřuje se whisperem, ne existencí souboru. Návětí schválně neobsahuje první slovo scény ('so'), jinak by scene_s_navetim() řez netrefila.",
+      "diagram_generator": "uvod",
+      "diagram": "Přesně kompozice S01: blok, otazník.",
+      "naveti": "Let us come back where we began."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Zrcadlo S03. Shodné rozvržení je celý vtip.",
+      "diagram_generator": "uvod",
+      "diagram": "Přesně S03: tři rámečky, jen popisky NO LINUX INSTALLED, NEVER OPENED A TERMINAL, DON'T EVEN LIKE IT."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "PÁTEŘ: ambrový blok na pevných souřadnicích (_kit.jadro()). Jediná změna proti S86.",
+      "diagram_generator": "zaver",
+      "diagram": "Tytéž tři rámečky, pod nimi se rozsvítí blok. Popisky POSSIBLY TODAY, DOZENS OF TIMES."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Callback na S15, tentýž generátor.",
+      "diagram_generator": "historie",
+      "diagram": "Malá tečka s popiskem ONE STUDENT, HELSINKI — ztlumený návrat kompozice S15."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: scéna padá do posledních 20 s, takže na ni YouTube může položit dlaždici dalšího videa (0,33 šířky, 16:9) nebo kolečko odběru (0,16 šířky). Kresba proto drží HORNÍ DVĚ TŘETINY a spodní třetina zůstává prázdná. Ověřit `tools/zaver_check.py`, až budou PNG. Proti S51 je pruh ZKRÁCENÝ a kompozice zvednutá. Je to jediná úmyslná odchylka od 'doslovného návratu S51' a je kvůli závěrečné obrazovce, ne kvůli významu — blok si drží polohu i velikost.",
+      "diagram_generator": "zaver",
+      "diagram": "Pruh INFRASTRUCTURE procházející blokem, ale zkrácený — nesahá k okrajům. Nad ním ztlumeně svět. Vše v horních dvou třetinách."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: scéna padá do posledních 20 s, takže na ni YouTube může položit dlaždici dalšího videa (0,33 šířky, 16:9) nebo kolečko odběru (0,16 šířky). Kresba proto drží HORNÍ DVĚ TŘETINY a spodní třetina zůstává prázdná. Ověřit `tools/zaver_check.py`, až budou PNG. Návrat S58. Shodná velikost bloku v obou pouzdrech zůstává — mění se jen svislé usazení dvojice.",
+      "diagram_generator": "pouzdra",
+      "diagram": "Vlevo telefon, vpravo superpočítač, v obou týž blok. Obojí posazené výš, spodní třetina rámu prázdná."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: scéna padá do posledních 20 s, takže na ni YouTube může položit dlaždici dalšího videa (0,33 šířky, 16:9) nebo kolečko odběru (0,16 šířky). Kresba proto drží HORNÍ DVĚ TŘETINY a spodní třetina zůstává prázdná. Ověřit `tools/zaver_check.py`, až budou PNG. Doslovný návrat S74 co do rozvržení vlevo–vpravo, jen výš.\nNÁVĚTÍ doplněno 2026-09-08 po kontrole whisperem: whisper slyšel [be from Earth.] — artefakt na ZAČÁTKU promluvy (1,02 s). Obětovaná věta u promluvy kolem sekundy selže a jen TIŠE varuje — ověřuje se whisperem, ne existencí souboru. Návětí schválně neobsahuje první slovo scény ('from'), jinak by scene_s_navetim() řez netrefila.\nNAVETI VYMENENO 2026-09-08 po mereni pres skutecnou cestu tts.scene_s_navetim(): Prvni navrh (And it ended up in two places.) nechal pred slovem [from] jen 60 ms ticha, tedy pod prahem 80 ms, a scena se vyrobila BEZ naveti. Kandidati se merili PREPISEM vysledneho zvuku, ne jeho delkou — delka nedokazuje, ze artefakt zmizel.",
+      "diagram_generator": "planety",
+      "diagram": "Země s čárou k bloku, kompozice S74 zvednutá nad spodní třetinu.",
+      "naveti": "Consider its unusual travel history, then."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: scéna padá do posledních 20 s, takže na ni YouTube může položit dlaždici dalšího videa (0,33 šířky, 16:9) nebo kolečko odběru (0,16 šířky). Kresba proto drží HORNÍ DVĚ TŘETINY a spodní třetina zůstává prázdná. Ověřit `tools/zaver_check.py`, až budou PNG. Doslovný návrat S76 co do rozvržení, jen výš.\nNÁVĚTÍ doplněno 2026-09-08 po kontrole whisperem: whisper slyšel [It s a marzi.] — artefakt na obou koncích, nejhorší z pěti (1,00 s). Obětovaná věta u promluvy kolem sekundy selže a jen TIŠE varuje — ověřuje se whisperem, ne existencí souboru. Návětí schválně neobsahuje první slovo scény ('to'), jinak by scene_s_navetim() řez netrefila.\nNAVETI VYMENENO 2026-09-08 po mereni pres skutecnou cestu tts.scene_s_navetim(): Nejtezsi scena videa: promluva 1,00 s zacinajici neprizvucnym [to]. Zkouseno OSM navetich a sest selhalo — ctyri nechaly artefakt (whisper slysel [Tamars]) a dve nedaly dost ticha na rez. Toto je jedine, po kterem whisper slysi ciste [to Mars]. Kandidati se merili PREPISEM vysledneho zvuku, ne jeho delkou — delka nedokazuje, ze artefakt zmizel.",
+      "diagram_generator": "planety",
+      "diagram": "Mars s čárou k bloku, kompozice S76 zvednutá nad spodní třetinu.",
+      "pause": 2.2,
+      "naveti": "There was a second place as well."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: scéna padá do posledních 20 s, takže na ni YouTube může položit dlaždici dalšího videa (0,33 šířky, 16:9) nebo kolečko odběru (0,16 šířky). Kresba proto drží HORNÍ DVĚ TŘETINY a spodní třetina zůstává prázdná. Ověřit `tools/zaver_check.py`, až budou PNG. Ztlumená verze S83, ALE ne přes celý rám — S83 rozsypává pouzdra do všech stran, tady se vejdou jen nahoru. Popisek nesmí do spodní třetiny.",
+      "diagram_generator": "zaver",
+      "diagram": "Blok a kolem něj ztlumeně pouzdra, ale jen v horní části rámu. Popisek YOU DON'T HAVE TO CHOOSE hned pod blokem, ne dole."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: scéna padá do posledních 20 s, takže na ni YouTube může položit dlaždici dalšího videa (0,33 šířky, 16:9) nebo kolečko odběru (0,16 šířky). Kresba proto drží HORNÍ DVĚ TŘETINY a spodní třetina zůstává prázdná. Ověřit `tools/zaver_check.py`, až budou PNG. ZÁVĚREČNÁ DESKA. Blok je uprostřed a spíš nahoře, dole a vpravo NIC — tady je místa nejvíc, protože scéna je skoro prázdná. Rám videa: první a poslední záběr je týž blok, jen už víme, co to je.",
+      "diagram_generator": "uvod",
+      "diagram": "Blok sám v prázdném tmavém poli. Přesně S01, ale bez otazníku.",
+      "pause": 3.0
+    }
+  ]
+}

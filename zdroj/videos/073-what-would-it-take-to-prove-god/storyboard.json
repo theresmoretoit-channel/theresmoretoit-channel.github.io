@@ -1,0 +1,1021 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU a záměrně NENÍ sdxl: tvrzení stojí nad zavřenou krabicí, tedy nad tím, co by se muselo otevřít, aby se ověřilo. Krabice = páteř celého videa (spára víka = testovatelné; zapečetěná bez spáry = netestovatelné). Kreslí ji jediná funkce krabice() v _kit.py.",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed na pevných souřadnicích PÁTEŘ: zavřená KRABICE s viditelnou spárou víka (= dá se otevřít). Nad ní ambrová citační karta “GOD EXISTS.” Zatím nic dalšího."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat v témže obraze: mění se jen přibylá otázka. Krabice se nehýbe.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Pod kartou tlumeně druhá, menší karta “HOW DO YOU KNOW?” a od ní tenká šipka ke krabici.",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Odpověď „mám důkaz“ = nálepka na krabici, ne otevřená krabice. Obraz tím už naznačuje, že štítek není obsah.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Na čelní stěně krabice přibude štítek PROOF.",
+      "pause": 0.5
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Čárkovaně = hypotéza (konvence videa). Otazník patří k obsahu krabice, ne k tvrzení nad ní.",
+      "diagram_generator": "uvod",
+      "diagram": "Štítek PROOF zůstává, uvnitř obrysu krabice čárkovaně velký ambrový otazník — co by tam muselo být?",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Obě tvrzení mají stejnou váhu i velikost — obraz nesmí žádnou stranu upřednostnit. Míří na jednu krabici: jde o tentýž předmět sporu.",
+      "diagram_generator": "uvod",
+      "diagram": "Vedle první karty přibude druhá citační karta “GOD DOES NOT EXIST.” (stejná velikost). Obě ukazují na TUTÉŽ krabici. Pod druhou malé COULD THEY PROVE IT?"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Symetrie: ani jedna šipka nedojde do krabice.",
+      "diagram_generator": "uvod",
+      "diagram": "Obě karty, mezi nimi a krabicí dvě šipky, obě končí otazníkem. Nadpis: PROVE EITHER ONE?"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Přeostření: z otázky „existuje?“ na otázku „co by byl důkaz“. Spára víka je to, o čem je celé video — tady se jí poprvé věnuje pozornost.",
+      "diagram_generator": "uvod",
+      "diagram": "Karty ztlumeny na MUTED. Ambrově zvýrazněná jen spára víka krabice a popisek u ní: WHAT WOULD COUNT AS OPENING IT?",
+      "pause": 2.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Vizuální rým s S01: TATÁŽ krabice, jen tvrzení je banální. Divák má vidět, že tvar otázky je stejný.",
+      "diagram_generator": "dukaz",
+      "diagram": "Krabice na pevných souřadnicích, víko pootevřené, nad ní karta “THERE IS AN APPLE IN THIS BOX.”",
+      "pause": 0.5
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Plná čára = pozorováno. Tři ikony přesně podle tří sloves scénáře (photograph, weigh, let others examine) — nic navíc.",
+      "diagram_generator": "dukaz",
+      "diagram": "Víko otevřené, uvnitř jablko. Kolem tři ikony: fotoaparát, váha, dvě postavy (další lidé). Pod krabicí štítek A CLAIM WE CAN TEST. První sloupec budoucí trojice nadepsán OBSERVE."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Tři druhy dokazování vedle sebe jako jedna struktura, ať se nerozpadnou na tři nesouvislé kartičky. Malá krabice v prvním sloupci je ikona, NE páteř (páteř je jen v plné velikosti na pevných souřadnicích).",
+      "diagram_generator": "dukaz",
+      "diagram": "Tabule tří sloupců OBSERVE | DERIVE | TEST. První sloupec (krabice s jablkem, malá) tlumený, druhý DERIVE rozsvícený ambrově a zatím prázdný."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Logický řetěz: šipka = nutnost, což je přesně tvrzení scény.",
+      "diagram_generator": "dukaz",
+      "diagram": "Týž obraz. Ve sloupci DERIVE řetěz DEFINITIONS → RULES → CONCLUSION, šipky plné, u závěru MUST FOLLOW."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Data v obraze od prvního snímku (prázdné osy se čtou jako rozbitý graf).",
+      "diagram_generator": "dukaz",
+      "diagram": "Týž obraz, rozsvícen třetí sloupec TEST: graf s čárou PREDICTION a body OBSERVATION kolem ní.",
+      "pause": 0.5
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Čárkovaně = MOŽNÉ pozorování, ne naměřené. Scéna mluví o tom, že vyvrácení musí být možné, ne že nastalo.",
+      "diagram_generator": "dukaz",
+      "diagram": "Týž graf, jeden možný bod daleko od čáry čárkovaně ambrově s popiskem COULD SHOW IT'S WRONG.",
+      "pause": 2.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Zavádí trojici pojetí, která se pak vrací v S42 a S78. Tři karty na pevných souřadnicích (konstanta v _kit.py).",
+      "diagram_generator": "pojeti",
+      "diagram": "Karta “GOD EXISTS.” se rozdělí do tří karet vedle sebe, zatím prázdných, s nadpisem WHICH GOD?"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Jediné pojetí, u kterého se v obraze objeví šipka do fyzického světa.",
+      "diagram_generator": "pojeti",
+      "diagram": "První karta rozsvícená: ACTS IN THE WORLD — ikony modlitby → odpověď, uzdravení. Ostatní tlumené."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Scéna říká „some philosophers“ — štítek nesmí tvrdit, že je to jediný filozofický výklad.",
+      "diagram_generator": "pojeti",
+      "diagram": "Rozsvíceny karty 2 a 3: OUTSIDE SPACE AND TIME (rámeček s osami prostoru a času, karta stojí mimo něj) a GROUND OF BEING (základ pod vším)."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Škrt přes celou větu tady znamená „takhle to říct nejde“, ne „věda Boha našla“ — škrt vodorovnou čarou, nápis zůstane čitelný.",
+      "diagram_generator": "pojeti",
+      "diagram": "Tři karty, mezi nimi znaménko ≠. Pod nimi přeškrtnutá věta “SCIENCE HASN'T FOUND GOD.” (text_skrtnuty)."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Uzavírá úvodní blok otázkou. Statický diagram — dědí ho S18b (CTA).",
+      "diagram_generator": "pojeti",
+      "diagram": "Tři karty, nad každou lupa s otazníkem: WHAT ARE WE LOOKING FOR?",
+      "pause": 1.2
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "visual": "images/S18.png",
+      "effect": "static",
+      "cta": true,
+      "note": "Výzva k odběru (docs/cta.md, slot za úvodem před vlastním výkladem, ~1:55). Dědí statický obraz S18, žádný střih. Blokový předěl je až za ní.",
+      "pause": 2.4
+    },
+    {
+      "id": "S19",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU (2026-09-30): [2] celý Crivelliho obraz (2813×4226), ne výřez hlavy. Staletá tradice argumentů; Akvinský má kosmologický argument mezi Pěti cestami. Portrét: fit 0.84, žádný zoom.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Saint Thomas Aquinas Carlo Crivelli",
+        "pick": 2,
+        "grade": {
+          "fit": 0.84,
+          "saturation": 60
+        }
+      }
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Uživatel chtěl dvě premisy jako EXPLICITNÍ strukturu. Rámečky na pevných souřadnicích drží S20–S24.",
+      "diagram_generator": "kalam",
+      "diagram": "Struktura argumentu jako tři řádky pod sebou: PREMISE 1 / PREMISE 2 / CONCLUSION. Rozsvícen jen PREMISE 1: THE UNIVERSE BEGAN TO EXIST. Ostatní řádky prázdné rámečky.",
+      "pause": 0.5
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Plná čára pod premisami = odvození.",
+      "diagram_generator": "kalam",
+      "diagram": "PREMISE 2: EVERYTHING THAT BEGINS TO EXIST HAS A CAUSE. Pod čarou CONCLUSION: ? → WHAT CAUSED THE UNIVERSE?",
+      "pause": 0.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Závěr argumentu je plný (plyne z premis), krok k „God“ čárkovaný — pojmenování, ne odvození. Tohle je jádro S23–S24.",
+      "diagram_generator": "kalam",
+      "diagram": "Závěr vyplněn: A CAUSE OUTSIDE THE UNIVERSE. Od něj čárkovaná šipka ke štítku “GOD”.",
+      "pause": 0.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Beat „notice something important“ — mění se jen zvýraznění.",
+      "diagram_generator": "kalam",
+      "diagram": "Týž obraz, čárkovaný krok k “GOD” ambrově zvýrazněn.",
+      "pause": 0.6
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Ukazuje, co v mezeře chybí. Otazníky a čárkovaně — obraz netvrdí, že ty vlastnosti vyvráceny, jen že neplynou.",
+      "diagram_generator": "kalam",
+      "diagram": "Mezi FIRST CAUSE a štítkem GOD mezera se třemi čárkovanými rámečky PERSONAL? / ALL-POWERFUL? / PERFECTLY GOOD? a štítek ANOTHER ASSUMPTION.",
+      "pause": 1.4
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Most mezi dvěma argumenty. Krátká scéna.",
+      "diagram_generator": "ladeni",
+      "diagram": "Týž tvar struktury z S20 zmenšený vlevo, vpravo nový nadpis FINE-TUNING. Mezi nimi = SAME PROBLEM."
+    },
+    {
+      "id": "S26",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S26.png",
+      "note": "Původně sdxl; herní PC nejelo, nahrazeno volným snímkem (2026-09-30). PICK Z KONTAKTNÍHO LISTU: Webbův „Cosmic Cliffs“ v mlhovině Carina — hvězdy se tam rodí, tedy přesně „allow stars, chemistry, planets“. Grade zlehčen (sytost 85, tint 8): funkcí scény je barva.",
+      "pause": 1.2,
+      "archive": {
+        "provider": "nasa",
+        "query": "carina nebula",
+        "pick": 0,
+        "grade": {
+          "saturation": 85,
+          "tint_amount": 8,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Uživatel: ČTYŘI interpretace. Všechna čtyři pole stejně velká — velikost ani pořadí nesmí napovídat pořadí pravděpodobnosti.",
+      "diagram_generator": "ladeni",
+      "diagram": "Čtyři pole 2×2 (čtyři interpretace). Rozsvíceno první: CHANCE (kostky)."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Pozorovatel jen v jedné bublině = výběrový efekt, přesně podle „we happen to live in one that permits observers“.",
+      "diagram_generator": "ladeni",
+      "diagram": "Rozsvíceno druhé: MANY UNIVERSES — řada malých bublin, jedna s drobným pozorovatelem.",
+      "pause": 0.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Čárkovaně — hypotéza, zákon neexistuje v žádném dokladu.",
+      "diagram_generator": "ladeni",
+      "diagram": "Rozsvíceno třetí: A DEEPER LAW — rovnice/ozubení s otazníkem, NOT YET DISCOVERED.",
+      "pause": 0.6
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Stejná velikost, stejná barva jako ostatní tři. Rozsvícení = „o tomhle je řeč“, ne „tohle vyhrálo“.",
+      "diagram_generator": "ladeni",
+      "diagram": "Rozsvíceno čtvrté: DESIGN — rýsovací úhelník / plán.",
+      "pause": 0.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Pozorování je jedno, interpretací čtyři. Škrt jen na citaci jako na výroku pozorování samotného.",
+      "diagram_generator": "ladeni",
+      "diagram": "Uprostřed nad čtyřmi poli rámeček OBSERVATION (plná čára); ke každému poli čárkovaná šipka INTERPRETATION. Přeškrtnutá citace “GOD DID THIS.” nad pozorováním.",
+      "pause": 0.5
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Uzavírá blok filozofických argumentů. Argument není zesměšněn — obě karty stejně výrazné.",
+      "diagram_generator": "ladeni",
+      "diagram": "Dvě karty vedle sebe: ARGUMENT (logický řetěz) ≠ EMPIRICAL PROOF (otevřená krabice s jablkem, malá ikona).",
+      "pause": 2.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Návrat páteře: teď jde o tvrzení, které se otevřít dá.",
+      "diagram_generator": "zazrak",
+      "diagram": "Páteř: krabice se spárou, spára ambrová. Nadpis SOMETHING WE COULD TEST."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Tvrzení v uvozovkách = cizí výrok, video ho netvrdí.",
+      "diagram_generator": "zazrak",
+      "diagram": "Citační karta: “GOD HEALED AN INCURABLE DISEASE.”"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Checklist se plní po řádcích v S35–S36.",
+      "diagram_generator": "zazrak",
+      "diagram": "Krabice otevřená, kolem ní checklist: MEDICAL RECORDS ✓ / ALTERNATIVE EXPLANATIONS ✓."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Postup vyšetřování, bez výsledku.",
+      "diagram_generator": "zazrak",
+      "diagram": "Checklist dál: CASES WITHOUT PRAYER / COMPARE MANY CASES.",
+      "pause": 0.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Pozor na míru jistoty: obraz tvrdí jen „nevíme“, ne „nebyl to Bůh“. Škrt je přes ŠIPKU UNEXPLAINED → GOD (neplatný krok), ne přes slovo God. Diagram tvrdí i to, co v popisku není.",
+      "diagram_generator": "zazrak",
+      "diagram": "Výsledek checklistu: rámeček UNEXPLAINED → šipka → WE DON'T KNOW WHAT CAUSED IT. Přeškrtnutá alternativa → GOD (text_skrtnuty)."
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S38.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: jediný výsledek, litografie Currier & Ives (1876). Zoom odřízne spodní tištěný popisek s letopočtem — obraz nemá nic tvrdit, jen ilustrovat blesk jako kdysi záhadu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Franklin kite experiment Currier Ives",
+        "pick": 0,
+        "grade": {
+          "zoom": [
+            0.06,
+            0.03,
+            0.88,
+            0.8
+          ],
+          "saturation": 60
+        }
+      }
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Symetrický s S37 na týchž souřadnicích — obě chyby vypadají stejně, protože jsou stejného tvaru.",
+      "diagram_generator": "zazrak",
+      "diagram": "Zrcadlo S37: NATURAL EXPLANATION → přeškrtnutá šipka → GOD DOESN'T EXIST."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Rovnítko přeškrtnuté (≠), ne jedna z karet.",
+      "diagram_generator": "zazrak",
+      "diagram": "Dvě citační karty vedle sebe: “THERE'S A NATURAL EXPLANATION” ≠ “GOD DOESN'T EXIST”.",
+      "pause": 2.6
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Otočení směru: teď se hledá vyvrácení. Tatáž krabice.",
+      "diagram_generator": "zlo",
+      "diagram": "Páteř: krabice. Tentokrát popisek DISPROOF? a karta “GOD IS IMPOSSIBLE.”",
+      "pause": 0.5
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Callback na S14 — proto sdílená funkce a tytéž souřadnice.",
+      "diagram_generator": "zlo",
+      "diagram": "Tři karty pojetí ze S14 na týchž souřadnicích, nad nimi WHICH GOD?",
+      "pause": 1.0
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S43.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: [4] Le Bas, ruiny kostela S. Nicolau po zemětřesení 1755 (kolorovaná rytina). Zvolena místo slavné černobílé rytiny [0] (998 px, tonoucí lodě a lidé) — čitelnější a bez detailu obětí. Scénář Lisabon nejmenuje, obraz jen ilustruje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "1755 Lisbon earthquake engraving",
+        "pick": 4,
+        "grade": {
+          "fit": 0.9,
+          "saturation": 55
+        }
+      }
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Bez ikonek a bez ilustrací utrpení — výčet nese hlas. Jeden obraz na celý beat.",
+      "diagram_generator": "zlo",
+      "diagram": "Čtyři slova pod sebou, vážně a bez ikon: WARS / DISEASES / EARTHQUAKES / CHILDREN DYING FROM ILLNESS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Klasická podoba problému zla jako napětí tří vrcholů. Žádná strana přeškrtnutá — scéna jen klade otázku.",
+      "diagram_generator": "zlo",
+      "diagram": "Trojúhelník: ALL-POWERFUL — PERFECTLY GOOD — SUFFERING EXISTS, uprostřed WHY?"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Odpovědi věřícího jako rovnocenné položky seznamu, čárkovaně (návrhy).",
+      "diagram_generator": "zlo",
+      "diagram": "Trojúhelník vlevo zmenšený, vpravo sloupec odpovědí: FREE WILL / A GREATER GOOD."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Doplnění seznamu, nic se nehodnotí.",
+      "diagram_generator": "zlo",
+      "diagram": "Sloupec dál: LIMITS OF HUMAN KNOWLEDGE / A DIFFERENT IDEA OF GOOD."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Otazník — scéna říká „might find“, ne „jsou nepřesvědčivé“.",
+      "diagram_generator": "zlo",
+      "diagram": "Týž sloupec, u každé položky prázdné zaškrtávátko s otazníkem: UNCONVINCING?",
+      "pause": 0.5
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Vzdálenost karet nese tvrzení „velmi odlišné“.",
+      "diagram_generator": "zlo",
+      "diagram": "Dvě karty: “THIS DOESN'T CONVINCE ME” vs “THIS IS LOGICALLY IMPOSSIBLE”, mezi nimi velká mezera."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Beat v témže obraze.",
+      "diagram_generator": "zlo",
+      "diagram": "Týž obraz, mezera zvýrazněna dvojšipkou VERY DIFFERENT CLAIMS.",
+      "pause": 2.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Čárkovaná krabice = předpoklad, ne tvrzení.",
+      "diagram_generator": "skryti",
+      "diagram": "Páteř: krabice čárkovaně (hypotéza), karta SUPPOSE GOD EXISTS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S52",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S52.png",
+      "note": "Původně sdxl; nahrazeno volným snímkem (2026-09-30). PICK Z KONTAKTNÍHO LISTU: paprsky v mlze mezi stromy, samotný zdroj světla vidět NENÍ — přesně „reasons to believe, but never conclusive proof“. Výchozí grade kanálu.",
+      "pause": 0.5,
+      "archive": {
+        "provider": "wikimedia",
+        "query": "fog sunbeams forest",
+        "pick": 1,
+        "grade": {}
+      }
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Místo vah ukazatel: mezera k důkazu je změřená (assert), u vah by šlo jen o dojem „skoro“.",
+      "diagram_generator": "skryti",
+      "diagram": "Vodorovný ukazatel: výplň REASONS TO BELIEVE sahá do 82 %, na konci svislá ambrová čára CONCLUSIVE PROOF, mezera mezi nimi čárkovaně.",
+      "pause": 0.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Pojmenování problému, obraz beze změny.",
+      "diagram_generator": "skryti",
+      "diagram": "Týž ukazatel, nadpis DIVINE HIDDENNESS.",
+      "pause": 1.0
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Tři řádky S55–S57 na pevných pozicích.",
+      "diagram_generator": "skryti",
+      "diagram": "Tři otázky jako řádky, rozsvícen první: IF HE WANTS TO BE KNOWN — WHY IS IT UNCLEAR?"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "„genuinely search“ — postava hledá, obraz ji nesmí ukázat jako lhostejnou.",
+      "diagram_generator": "skryti",
+      "diagram": "Rozsvícen druhý: SINCERE SEEKERS REMAIN UNCONVINCED — postava s lupou.",
+      "pause": 0.5
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Žádný konkrétní symbol náboženství — neutrálně, stejné velikosti, aby žádné nebylo „to správné“.",
+      "diagram_generator": "skryti",
+      "diagram": "Rozsvícen třetí: MANY RELIGIONS, DIFFERENT CLAIMS — řada různých stejně velkých symbolů/rámečků bez konkrétních náboženských značek."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Scéna mluví o KONKRÉTNÍM pojetí, ne o Bohu obecně — to musí stát ve štítku.",
+      "diagram_generator": "skryti",
+      "diagram": "Tři řádky, pod nimi štítek A PARTICULAR CONCEPT OF GOD vs THE WORLD WE OBSERVE, mezi nimi napětí (nesedící dílky).",
+      "pause": 2.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Poprvé zapečetěná krabice: tohle je vizuální jádro druhé poloviny videa. Rozdíl proti S01 je jediný — chybí spára.",
+      "diagram_generator": "drak",
+      "diagram": "Páteř: krabice ZAPEČETĚNÁ — bez spáry víka, hladká. Popisek IMPOSSIBLE TO OBSERVE?"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Pět vlastností podle pěti bodů scénáře, psané jako negace (NOT…), bez škrtu.",
+      "diagram_generator": "drak",
+      "diagram": "Kolem zapečetěné krabice pět škrtnutých vlastností: NOT IN SPACE / NOT IN TIME / NO PHYSICAL LAWS / NO TRACES / CAN'T BE DISPROVED."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Věda nemá kam vstoupit.",
+      "diagram_generator": "drak",
+      "diagram": "Lupa/přístroj u zapečetěné krabice, šipka se odrazí: NOT REALLY.",
+      "pause": 0.6
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Přechodový beat, krátký.",
+      "diagram_generator": "drak",
+      "diagram": "Týž obraz ztlumený, nahoře malé ambrové BUT…",
+      "pause": 0.6
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Klíčová otázka videa — stejná pozice karty jako v S01, aby se rým četl.",
+      "diagram_generator": "drak",
+      "diagram": "Zapečetěná krabice, nad ní karta “IT EXISTS.” a pod ní čárkovaná otázka WHAT WOULD THAT CLAIM MEAN?",
+      "pause": 1.4
+    },
+    {
+      "id": "S64",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: [0] „Sagan large.jpg“, NASA/JPL, Sagan u modelu landeru Viking v Death Valley (3678×2468, PD). Portréty Planetary Society mají jen 328 px. Celá postava, fit 0.9, žádný zoom.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Carl Sagan Viking lander",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9,
+          "saturation": 60
+        }
+      }
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S65.png",
+      "note": "HLAVNÍ MOMENT VIDEA (zadání uživatele). Herní PC nejelo, kresbu dodal uživatel z ChatGPT (2026-09-30), původ v art/PUVOD.md. Drak NENÍ vidět a obraz ho nesmí naznačit (žádný stín, šupina, stopa). slow_zoom_in: fotka/ilustrace se hýbe, diagram ne.",
+      "pause": 1.0,
+      "diagram_generator": "drak",
+      "diagram": "Hotová kresba art/S65.png přes celý obraz: prázdná garáž v noci, otevřená vrata, jedna holá žárovka, prach ve světle, prázdná podlaha uprostřed."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Rým: garáž je krabice z S01 — a spárou (vraty) jde otevřít, jen se nic nenajde. Výsledky jako pomlčky/nuly, ne křížky, ať to nečte jako „test selhal“, ale „nic nenaměřeno“.",
+      "diagram_generator": "drak",
+      "diagram": "Garáž nakreslená jako páteř: TATÁŽ geometrie krabice, víko = vrata. Nad ní karta “AN INVISIBLE DRAGON IN MY GARAGE.” Kolem čtyři testy, každý s prázdným výsledkem: SEE — / HEAR — / WEIGH 0 kg / FOOTPRINTS —.",
+      "pause": 0.5
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Přístroje jsou Saganovy vlastní (The Demon-Haunted World: mouka, infrakamera, barva ve spreji). Oblouk = výmluva, čárkovaně. Karta odpadla, nad obloukem pro ni není místo.",
+      "diagram_generator": "drak",
+      "diagram": "Garáž, bez karty. Vlevo INFRARED CAMERA a FLOUR ON THE FLOOR, vpravo SPRAY PAINT; čárkovaný ambrový oblouk krabici obtéká, nahoře IT AVOIDS DETECTION."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Uzavřený test: vyvrácení nemožné.",
+      "diagram_generator": "drak",
+      "diagram": "Nad garáží velká otázka HOW COULD YOU PROVE IT ISN'T THERE? a pod ní ambrově YOU COULDN'T."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Drak se nikde nekreslí, ani čárkovaně — obraz nesmí tvrdit, že tam „možná je“.",
+      "diagram_generator": "drak",
+      "diagram": "Týž obraz, pod ním: CAN'T DISPROVE ≠ IT'S THERE. Garáž prázdná.",
+      "pause": 0.5
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Nejdůležitější princip videa. Delší pauza před obratem.",
+      "diagram_generator": "drak",
+      "diagram": "Princip jako deska: THE INABILITY TO DISPROVE A CLAIM / IS NOT / EVIDENCE THAT IT IS TRUE. Garáž malá pod ní.",
+      "pause": 3.0
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Struktura na pevných souřadnicích drží S71–S80.",
+      "diagram_generator": "otazky",
+      "diagram": "Tři očíslované rámečky 1 / 2 / 3 vedle sebe, prázdné."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Beat.",
+      "diagram_generator": "otazky",
+      "diagram": "Rámeček 1 rozsvícen: CAN WE PROVE GOD EXISTS?",
+      "pause": 0.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "„alleged“ musí ve štítku zůstat.",
+      "diagram_generator": "otazky",
+      "diagram": "V rámečku 1 tři štítky: PHILOSOPHICAL / HISTORICAL / ALLEGED EMPIRICAL — pro FOR PARTICULAR CONCEPTS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Negace jako text, bez křížku přes rámeček (škrt celého nadpisu by tvrdil víc).",
+      "diagram_generator": "otazky",
+      "diagram": "Pod rámečkem 1 výsledek: NO UNIVERSAL, INDISPUTABLE PROOF."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Stejná velikost jako rámeček 1 — symetrie tvrzení.",
+      "diagram_generator": "otazky",
+      "diagram": "Rámeček 2 rozsvícen: CAN WE PROVE GOD DOESN'T EXIST? — JUST AS DIFFICULT.",
+      "pause": 0.5
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Callback na zapečetěnou krabici z S59.",
+      "diagram_generator": "otazky",
+      "diagram": "V rámečku 2 zapečetěná krabice (ikona) a štítek COMPATIBLE WITH EVERY OBSERVATION → NO EXPERIMENT RULES IT OUT.",
+      "pause": 0.5
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Třetí otázka je jiného druhu — rámeček ambrově orámovaný.",
+      "diagram_generator": "otazky",
+      "diagram": "Rámeček 3 rozsvícen: CAN WE EVEN BUILD A TEST?",
+      "pause": 0.6
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Třetí callback na trojici pojetí.",
+      "diagram_generator": "otazky",
+      "diagram": "Pod rámečkem 3 tři karty pojetí ze S14 (zmenšené) a štítek IT DEPENDS ON THE DEFINITION.",
+      "pause": 0.5
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Scéna: „some claims may be testable“ — štítek nesmí slíbit víc.",
+      "diagram_generator": "otazky",
+      "diagram": "Páteř, krabice SE SPÁROU (ambrová). Vlevo IF GOD ACTS IN SPECIFIC, PREDICTABLE WAYS, vpravo SOME CLAIMS MAY BE TESTABLE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Rozdíl mezi S79 a S80 je JEN spára — tentýž obraz, jedna změna.",
+      "diagram_generator": "otazky",
+      "diagram": "Táž krabice ZAPEČETĚNÁ. Vlevo IF GOD IS BEYOND ANY POSSIBLE OBSERVATION, vpravo SCIENCE HAS NO WAY TO TEST IT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Postavy stejně velké, stejná barva. Nikdo není karikován.",
+      "diagram_generator": "absence",
+      "diagram": "Dvě postavy proti sobě (ATHEIST vlevo, BELIEVER vpravo), mezi nimi prázdný prostor. Nadpis A COMMON MISTAKE."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Citace v uvozovkách.",
+      "diagram_generator": "absence",
+      "diagram": "Bublina levé postavy: “NO PROOF → GOD DOESN'T EXIST.”"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Zrcadlově k S82, stejná délka bubliny.",
+      "diagram_generator": "absence",
+      "diagram": "Bublina pravé postavy: “NO DISPROOF → GOD EXISTS.”"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Škrt přes krok úvahy, ne přes závěr — obraz netvrdí, že Bůh existuje ani neexistuje.",
+      "diagram_generator": "absence",
+      "diagram": "Obě šipky v bublinách přeškrtnuté (škrt přes ŠIPKU, ne přes text): NEITHER WORKS BY ITSELF."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Krabice otevřená, prázdná — samotná prázdnota ještě nic nedokazuje.",
+      "diagram_generator": "absence",
+      "diagram": "Levá polovina: ABSENCE OF EVIDENCE ≠ PROOF OF ABSENCE, prázdná otevřená krabice.",
+      "pause": 0.5
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Klíčová myšlenka uživatele (očekávaný důkaz). „THAT hypothesis“ — ne Bůh obecně. Čárkovaně = očekávání.",
+      "diagram_generator": "absence",
+      "diagram": "Tatáž krabice, v ní čárkovaně obrysy toho, co by TAM MĚLO BÝT (EXPECTED EVIDENCE); popisek CONSISTENTLY MISSING → EVIDENCE AGAINST THAT HYPOTHESIS."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Míra jistoty: důkaz proti ≠ důkaz neexistence. Beat.",
+      "diagram_generator": "absence",
+      "diagram": "Týž obraz, štítek STILL NOT AUTOMATIC PROOF."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Symetrie s S85.",
+      "diagram_generator": "absence",
+      "diagram": "Pravá polovina (zrcadlo S85): ABSENCE OF DISPROOF ≠ EVIDENCE OF EXISTENCE, zapečetěná krabice."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Dvě pravdivé věty naráz — spojené AND, ne proti sobě.",
+      "diagram_generator": "absence",
+      "diagram": "Dvě citační karty vedle sebe, OBĚ platné (bez škrtu): “I DON'T HAVE SUFFICIENT REASON TO BELIEVE THIS.” + “I DON'T HAVE PROOF THAT IT IS IMPOSSIBLE.”"
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Uzavírá blok.",
+      "diagram_generator": "absence",
+      "diagram": "Týž obraz, mezi kartami ambrově NO CONTRADICTION, dole THE LIMITS OF WHAT WE KNOW.",
+      "pause": 2.8
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Rám videa se uzavírá — divák má poznat první obraz.",
+      "diagram_generator": "zaver",
+      "diagram": "Callback S01: krabice se spárou na pevných souřadnicích, nad ní karta “GOD EXISTS.”"
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Beat „Yes. Or no.“ v témže obraze. Obě tlačítka stejná.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, pod kartou dvě tlačítka YES / NO, obě prázdná."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Scéna říká, že evidence to nedovolí, ne že odpověď neexistuje.",
+      "diagram_generator": "zaver",
+      "diagram": "Tlačítka ztlumená, přes ně jemně NOT SO SIMPLE.",
+      "pause": 1.0
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Výčet toho, co se zkoumat dá, bez hodnocení.",
+      "diagram_generator": "zaver",
+      "diagram": "Kolem krabice první tři nástroje: THE UNIVERSE / THE BRAIN / ALLEGED MIRACLES."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Pět nástrojů kolem krabice.",
+      "diagram_generator": "zaver",
+      "diagram": "Přibudou další dva: PHILOSOPHICAL ARGUMENTS / RELIGIONS COMPARED.",
+      "pause": 0.5
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Odkaz na S86 (očekávaný důkaz).",
+      "diagram_generator": "zaver",
+      "diagram": "Nad krabicí čárkované obrysy WHAT WOULD WE EXPECT TO SEE?"
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Výplata páteře: obě podoby krabice vedle sebe poprvé. Tady se páteř smí pohnout (závěrečné desky). Hranice nesmí být hodnotící — obě strany stejně jasné.",
+      "diagram_generator": "zaver",
+      "diagram": "HRANICE: svislá čára obrazem, vlevo krabice SE SPÁROU (CAN BE TESTED), vpravo ZAPEČETĚNÁ (INTERPRETATION / PERSONAL BELIEF).",
+      "pause": 1.2
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Začíná okno závěrečné obrazovky — kresba jen ve spodní polovině nad pásem titulku.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole dvě ztlumené karty “GOD EXISTS.” / “GOD DOESN'T EXIST.” vedle sebe, obě na MUTED."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Závěrečná obrazovka: nic důležitého nahoře.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole obě krabice z S97 (se spárou / zapečetěná) a mezi nimi ambrově IT DEPENDS ON WHAT WE MEAN.",
+      "pause": 1.0
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Klidná deska.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole jen zapečetěná krabice uprostřed, klid.",
+      "pause": 1.0
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Pointa má SEDNOUT, ne se vysvětlovat (uživatel: nepřecpat). Tvrzení nese hlas; obraz je klidná deska pro závěrečnou obrazovku.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Jen zapečetěná krabice na pozici ze S100, žádný text, žádný otazník. Prakticky stejný obraz jako S100."
+    }
+  ]
+}

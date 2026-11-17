@@ -1,0 +1,733 @@
+{
+  "total": 656.061,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 7.083,
+      "end": 7.883,
+      "dur": 7.733,
+      "text": "On the nineteenth of July, 2024, a security company called CrowdStrike sent out a routine update."
+    },
+    {
+      "id": "S02",
+      "start": 7.883,
+      "speech_end": 11.81,
+      "end": 12.61,
+      "dur": 4.727,
+      "text": "Not a new program. Just a small configuration file."
+    },
+    {
+      "id": "S03",
+      "start": 12.61,
+      "speech_end": 17.41,
+      "end": 18.21,
+      "dur": 5.6,
+      "text": "Within hours, eight and a half million Windows computers had stopped on a blue screen."
+    },
+    {
+      "id": "S04",
+      "start": 18.21,
+      "speech_end": 24.655,
+      "end": 25.455,
+      "dur": 7.245,
+      "text": "Airlines grounded flights. Hospitals cancelled operations. A news channel went off the air."
+    },
+    {
+      "id": "S05",
+      "start": 25.455,
+      "speech_end": 33.843,
+      "end": 34.643,
+      "dur": 9.188,
+      "text": "And the mistake behind it was an ordinary one. The program expected twenty pieces of data. The update gave it twenty-one."
+    },
+    {
+      "id": "S06",
+      "start": 34.643,
+      "speech_end": 41.493,
+      "end": 42.293,
+      "dur": 7.65,
+      "text": "Your games and apps make mistakes like that all the time. When they do, the game closes, and you start it again."
+    },
+    {
+      "id": "S07",
+      "start": 42.293,
+      "speech_end": 48.697,
+      "end": 49.497,
+      "dur": 7.204,
+      "text": "Same kind of bug. One closes a window. The other stops eight and a half million machines."
+    },
+    {
+      "id": "S08",
+      "start": 49.497,
+      "speech_end": 53.574,
+      "end": 54.374,
+      "dur": 4.877,
+      "text": "The difference isn't the mistake. It's where the code was running."
+    },
+    {
+      "id": "S09",
+      "start": 54.374,
+      "speech_end": 58.918,
+      "end": 61.318,
+      "dur": 6.944,
+      "text": "So why can't one program take over your computer... and why could this one?"
+    },
+    {
+      "id": "S10",
+      "start": 61.318,
+      "speech_end": 63.323,
+      "end": 64.123,
+      "dur": 2.805,
+      "text": "It hasn't always been like this."
+    },
+    {
+      "id": "S11",
+      "start": 64.123,
+      "speech_end": 74.067,
+      "end": 74.867,
+      "dur": 10.743,
+      "text": "On a PC running DOS in the 1980s, nothing in the processor stopped a program. It could write into any part of memory, and talk straight to the hardware."
+    },
+    {
+      "id": "S12",
+      "start": 74.867,
+      "speech_end": 80.947,
+      "end": 81.747,
+      "dur": 6.88,
+      "text": "One program writing somewhere it shouldn't could overwrite the operating system, and the whole machine froze."
+    },
+    {
+      "id": "S13",
+      "start": 81.747,
+      "speech_end": 86.739,
+      "end": 88.139,
+      "dur": 6.392,
+      "text": "The fix was to stop trusting programs, and to make the processor do the distrusting."
+    },
+    {
+      "id": "S14",
+      "start": 88.139,
+      "speech_end": 95.968,
+      "end": 96.768,
+      "dur": 8.629,
+      "text": "In 1982, Intel's 80286 processor introduced protected mode, with four levels of privilege."
+    },
+    {
+      "id": "S15",
+      "start": 96.768,
+      "speech_end": 100.053,
+      "end": 100.853,
+      "dur": 4.085,
+      "text": "They're usually drawn as four rings, one inside another."
+    },
+    {
+      "id": "S16",
+      "start": 100.853,
+      "speech_end": 105.101,
+      "end": 105.601,
+      "dur": 4.747,
+      "text": "Ring zero is in the centre. Ring three is on the outside."
+    },
+    {
+      "id": "S17",
+      "start": 105.601,
+      "speech_end": 110.765,
+      "end": 111.765,
+      "dur": 6.165,
+      "text": "And the numbering runs backwards. The lower the number, the more the code is allowed to do."
+    },
+    {
+      "id": "S18",
+      "start": 111.765,
+      "speech_end": 121.239,
+      "end": 122.039,
+      "dur": 10.274,
+      "text": "Ring zero belongs to the kernel, the core of the operating system. It hands out memory, decides which program runs next, and talks to the hardware."
+    },
+    {
+      "id": "S19",
+      "start": 122.039,
+      "speech_end": 128.313,
+      "end": 129.113,
+      "dur": 7.074,
+      "text": "Ring three is where your browser, your games and your text editor run. This is called user mode."
+    },
+    {
+      "id": "S19b",
+      "start": 129.113,
+      "speech_end": 136.326,
+      "end": 137.126,
+      "dur": 8.013,
+      "text": "Windows, macOS and Linux all divide the work this way. The kernel in ring zero, your apps in ring three."
+    },
+    {
+      "id": "S19c",
+      "start": 137.126,
+      "speech_end": 148.309,
+      "end": 149.709,
+      "dur": 12.583,
+      "text": "Phones and Apple's newer Macs use ARM chips instead. There, the levels are called exception levels. Different name, same split: one for the kernel, one for your apps."
+    },
+    {
+      "id": "S20",
+      "start": 149.709,
+      "speech_end": 154.297,
+      "end": 155.097,
+      "dur": 5.389,
+      "text": "The processor always knows which ring it's running in. And it checks."
+    },
+    {
+      "id": "S21",
+      "start": 155.097,
+      "speech_end": 162.438,
+      "end": 162.938,
+      "dur": 7.841,
+      "text": "Some instructions only work in ring zero. Switching off interrupts, for example, or changing how memory is mapped."
+    },
+    {
+      "id": "S22",
+      "start": 162.938,
+      "speech_end": 172.412,
+      "end": 173.212,
+      "dur": 10.274,
+      "text": "When a program in ring three tries one, the processor refuses. It raises an exception and hands control to the kernel, which usually ends the program."
+    },
+    {
+      "id": "S23",
+      "start": 173.212,
+      "speech_end": 179.614,
+      "end": 180.414,
+      "dur": 7.202,
+      "text": "Memory gets the same treatment. Every page of memory is marked as either user or supervisor."
+    },
+    {
+      "id": "S24",
+      "start": 180.414,
+      "speech_end": 186.517,
+      "end": 187.317,
+      "dur": 6.903,
+      "text": "A program in ring three that touches a supervisor page doesn't get the data. It gets stopped."
+    },
+    {
+      "id": "S25",
+      "start": 187.317,
+      "speech_end": 198.116,
+      "end": 198.716,
+      "dur": 11.399,
+      "text": "Your browser and your game both run in ring three. What keeps them apart is that each one gets its own map of memory. The other program's memory simply isn't on it."
+    },
+    {
+      "id": "S26",
+      "start": 198.716,
+      "speech_end": 206.376,
+      "end": 208.576,
+      "dur": 9.86,
+      "text": "So when a game crashes, the damage stays inside the game. The kernel cleans up. Everything else carries on."
+    },
+    {
+      "id": "S27",
+      "start": 208.576,
+      "speech_end": 214.167,
+      "end": 214.967,
+      "dur": 6.391,
+      "text": "Now look at CrowdStrike again. Its driver ran in ring zero, right next to the kernel."
+    },
+    {
+      "id": "S28",
+      "start": 214.967,
+      "speech_end": 218.274,
+      "end": 218.874,
+      "dur": 3.907,
+      "text": "Nothing above ring zero can catch a mistake like that."
+    },
+    {
+      "id": "S29",
+      "start": 218.874,
+      "speech_end": 227.623,
+      "end": 228.423,
+      "dur": 9.549,
+      "text": "So Windows did the only safe thing left. It stopped the whole machine, on purpose, rather than carry on with memory it could no longer trust."
+    },
+    {
+      "id": "S30",
+      "start": 228.423,
+      "speech_end": 230.193,
+      "end": 230.793,
+      "dur": 2.371,
+      "text": "That's what the blue screen is."
+    },
+    {
+      "id": "S31",
+      "start": 230.793,
+      "speech_end": 236.333,
+      "end": 238.933,
+      "dur": 8.14,
+      "text": "And because the driver started every time Windows did, every restart brought the crash back."
+    },
+    {
+      "id": "S32",
+      "start": 238.933,
+      "speech_end": 247.063,
+      "end": 248.063,
+      "dur": 9.13,
+      "text": "But this raises a question. If your browser can't touch the hardware, how does it ever save a file, or send anything over the network?"
+    },
+    {
+      "id": "S33",
+      "start": 248.063,
+      "speech_end": 249.121,
+      "end": 250.121,
+      "dur": 2.058,
+      "text": "It asks."
+    },
+    {
+      "id": "S34",
+      "start": 250.121,
+      "speech_end": 258.19,
+      "end": 258.69,
+      "dur": 8.569,
+      "text": "The program puts its request into the processor's registers. Which file. Where the data should go. How much of it."
+    },
+    {
+      "id": "S35",
+      "start": 258.69,
+      "speech_end": 263.876,
+      "end": 264.676,
+      "dur": 5.986,
+      "text": "Then it runs one special instruction. On a modern PC, it's called SYSCALL."
+    },
+    {
+      "id": "S36",
+      "start": 264.676,
+      "speech_end": 268.665,
+      "end": 268.965,
+      "dur": 4.289,
+      "text": "In that instant, the processor switches from ring three to ring zero..."
+    },
+    {
+      "id": "S37",
+      "start": 268.965,
+      "speech_end": 275.559,
+      "end": 276.359,
+      "dur": 7.394,
+      "text": "but it doesn't jump wherever the program wants. It jumps to one entry point the kernel chose in advance."
+    },
+    {
+      "id": "S38",
+      "start": 276.359,
+      "speech_end": 283.337,
+      "end": 284.137,
+      "dur": 7.778,
+      "text": "The kernel checks the request, does the work, and drops back to ring three. The program never touched the disk itself."
+    },
+    {
+      "id": "S39",
+      "start": 284.137,
+      "speech_end": 287.209,
+      "end": 288.009,
+      "dur": 3.872,
+      "text": "This is a system call, and it happens constantly."
+    },
+    {
+      "id": "S40",
+      "start": 288.009,
+      "speech_end": 293.281,
+      "end": 294.081,
+      "dur": 6.071,
+      "text": "We counted them on a laptop. A program that does nothing at all still makes thirty."
+    },
+    {
+      "id": "S41",
+      "start": 294.081,
+      "speech_end": 303.766,
+      "end": 304.566,
+      "dur": 10.485,
+      "text": "Firefox, starting up and loading one Wikipedia page, made about six hundred and seventy thousand in twenty seconds... even with our counting slowing it down."
+    },
+    {
+      "id": "S42",
+      "start": 304.566,
+      "speech_end": 307.526,
+      "end": 309.926,
+      "dur": 5.36,
+      "text": "Every one of them is a trip through the wall and back."
+    },
+    {
+      "id": "S43",
+      "start": 309.926,
+      "speech_end": 314.152,
+      "end": 314.952,
+      "dur": 5.026,
+      "text": "Which leaves something odd. Four rings, and we've only needed two."
+    },
+    {
+      "id": "S44",
+      "start": 314.952,
+      "speech_end": 316.979,
+      "end": 317.779,
+      "dur": 2.827,
+      "text": "What happened to rings one and two?"
+    },
+    {
+      "id": "S45",
+      "start": 317.779,
+      "speech_end": 325.994,
+      "end": 326.794,
+      "dur": 9.015,
+      "text": "The idea of rings is older than the PC. Multics, an operating system from the late 1960s, had eight of them."
+    },
+    {
+      "id": "S46",
+      "start": 326.794,
+      "speech_end": 335.095,
+      "end": 335.895,
+      "dur": 9.101,
+      "text": "The idea was layers of trust. The core of the system in the middle, less trusted services around it, and programs on the outside."
+    },
+    {
+      "id": "S46b",
+      "start": 335.895,
+      "speech_end": 346.672,
+      "end": 347.472,
+      "dur": 11.577,
+      "text": "Intel drew the same picture. Rings one and two were meant for the layers in between, like drivers and system services. Trusted more than your apps, less than the kernel."
+    },
+    {
+      "id": "S47",
+      "start": 347.472,
+      "speech_end": 349.2,
+      "end": 350.2,
+      "dur": 2.728,
+      "text": "Two things got in the way."
+    },
+    {
+      "id": "S48",
+      "start": 350.2,
+      "speech_end": 356.088,
+      "end": 356.488,
+      "dur": 6.288,
+      "text": "First, systems like Unix and Windows NT were designed to run on many kinds of processor."
+    },
+    {
+      "id": "S49",
+      "start": 356.488,
+      "speech_end": 362.826,
+      "end": 363.626,
+      "dur": 7.138,
+      "text": "And the one split every processor offered was two levels. One for the kernel, one for everything else."
+    },
+    {
+      "id": "S50",
+      "start": 363.626,
+      "speech_end": 372.91,
+      "end": 373.71,
+      "dur": 10.084,
+      "text": "Second, the x86 processor itself. When it maps memory, each page knows only two states. User, or supervisor."
+    },
+    {
+      "id": "S51",
+      "start": 373.71,
+      "speech_end": 383.015,
+      "end": 383.815,
+      "dur": 10.105,
+      "text": "Rings one and two count as supervisor. So a driver in ring one could still touch the kernel's memory. The extra ring wouldn't protect much."
+    },
+    {
+      "id": "S51b",
+      "start": 383.815,
+      "speech_end": 391.967,
+      "end": 392.467,
+      "dur": 8.651,
+      "text": "A few systems used them anyway. OS/2 let some programs step into ring two, just to talk to the hardware directly."
+    },
+    {
+      "id": "S51c",
+      "start": 392.467,
+      "speech_end": 402.685,
+      "end": 403.485,
+      "dur": 11.019,
+      "text": "And before processors had help for running virtual machines, Xen and VirtualBox moved the guest's kernel into ring one, so the system underneath could keep ring zero to itself."
+    },
+    {
+      "id": "S52",
+      "start": 403.485,
+      "speech_end": 408.2,
+      "end": 409.0,
+      "dur": 5.515,
+      "text": "In 2023, Intel proposed removing rings one and two altogether."
+    },
+    {
+      "id": "S53",
+      "start": 409.0,
+      "speech_end": 416.34,
+      "end": 418.94,
+      "dur": 9.94,
+      "text": "In December 2024, it dropped the plan. They're still in your processor. Almost nothing uses them."
+    },
+    {
+      "id": "S54",
+      "start": 418.94,
+      "speech_end": 425.022,
+      "end": 426.422,
+      "dur": 7.482,
+      "text": "So far, this sounds reassuring. The rules are in the hardware, and the hardware checks every access."
+    },
+    {
+      "id": "S55",
+      "start": 426.422,
+      "speech_end": 432.011,
+      "end": 432.811,
+      "dur": 6.389,
+      "text": "In 2017, three teams of researchers, working separately, found a way through that wall."
+    },
+    {
+      "id": "S56",
+      "start": 432.811,
+      "speech_end": 438.488,
+      "end": 439.288,
+      "dur": 6.477,
+      "text": "They called it Meltdown. And to follow it, you need one trick that modern processors play."
+    },
+    {
+      "id": "S57",
+      "start": 439.288,
+      "speech_end": 447.802,
+      "end": 448.302,
+      "dur": 9.014,
+      "text": "A processor doesn't wait for one instruction to finish before starting the next. It runs ahead, on instructions it will probably need."
+    },
+    {
+      "id": "S58",
+      "start": 448.302,
+      "speech_end": 452.505,
+      "end": 453.705,
+      "dur": 5.403,
+      "text": "If it guessed wrong, it throws the results away, as if nothing had happened."
+    },
+    {
+      "id": "S59",
+      "start": 453.705,
+      "speech_end": 460.021,
+      "end": 460.321,
+      "dur": 6.617,
+      "text": "Here's the flaw. On affected Intel chips, a program in ring three could ask for a byte of kernel memory..."
+    },
+    {
+      "id": "S60",
+      "start": 460.321,
+      "speech_end": 467.084,
+      "end": 467.884,
+      "dur": 7.563,
+      "text": "and the processor would fetch it and pass it on to the next instructions before it had finished checking whether that was allowed."
+    },
+    {
+      "id": "S61",
+      "start": 467.884,
+      "speech_end": 471.193,
+      "end": 471.993,
+      "dur": 4.109,
+      "text": "The check did fail. The result was thrown away."
+    },
+    {
+      "id": "S62",
+      "start": 471.993,
+      "speech_end": 479.694,
+      "end": 480.294,
+      "dur": 8.301,
+      "text": "But those next instructions had already used the secret byte to pull one piece of the program's own memory into the processor's cache."
+    },
+    {
+      "id": "S63",
+      "start": 480.294,
+      "speech_end": 484.027,
+      "end": 485.027,
+      "dur": 4.733,
+      "text": "And the cache doesn't forget, just because the result was cancelled."
+    },
+    {
+      "id": "S64",
+      "start": 485.027,
+      "speech_end": 492.709,
+      "end": 493.509,
+      "dur": 8.482,
+      "text": "So the program times how fast each piece of its memory answers. The one that comes back fast gives away the secret byte."
+    },
+    {
+      "id": "S65",
+      "start": 493.509,
+      "speech_end": 503.149,
+      "end": 505.349,
+      "dur": 11.84,
+      "text": "One byte at a time, an ordinary program could read the kernel's memory, and whatever secrets were sitting in it. Passwords and encryption keys included."
+    },
+    {
+      "id": "S66",
+      "start": 505.349,
+      "speech_end": 509.765,
+      "end": 510.565,
+      "dur": 5.216,
+      "text": "Meltdown affected Intel processors going back to 1995."
+    },
+    {
+      "id": "S67",
+      "start": 510.565,
+      "speech_end": 513.957,
+      "end": 514.757,
+      "dur": 4.192,
+      "text": "It was made public on the third of January, 2018."
+    },
+    {
+      "id": "S68",
+      "start": 514.757,
+      "speech_end": 519.943,
+      "end": 520.443,
+      "dur": 5.686,
+      "text": "The fix couldn't change the silicon. So operating systems changed the map."
+    },
+    {
+      "id": "S69",
+      "start": 520.443,
+      "speech_end": 527.997,
+      "end": 528.797,
+      "dur": 8.354,
+      "text": "While your program runs, the kernel's memory is now taken off its map almost entirely. There's nothing there to fetch."
+    },
+    {
+      "id": "S70",
+      "start": 528.797,
+      "speech_end": 534.666,
+      "end": 535.466,
+      "dur": 6.669,
+      "text": "But remember those system calls. Every trip through the wall now has to swap the map as well."
+    },
+    {
+      "id": "S71",
+      "start": 535.466,
+      "speech_end": 544.62,
+      "end": 545.42,
+      "dur": 9.954,
+      "text": "Red Hat measured the patches for Meltdown and a related flaw, Spectre. Under one percent on some work... up to nineteen on busy databases."
+    },
+    {
+      "id": "S72",
+      "start": 545.42,
+      "speech_end": 549.98,
+      "end": 552.98,
+      "dur": 7.56,
+      "text": "The rule was right all along. The processor just checked it too late."
+    },
+    {
+      "id": "S73",
+      "start": 552.98,
+      "speech_end": 556.351,
+      "end": 557.151,
+      "dur": 4.171,
+      "text": "Which brings us back to CrowdStrike, and a harder question."
+    },
+    {
+      "id": "S74",
+      "start": 557.151,
+      "speech_end": 560.671,
+      "end": 561.271,
+      "dur": 4.12,
+      "text": "Why was a security program in ring zero in the first place?"
+    },
+    {
+      "id": "S75",
+      "start": 561.271,
+      "speech_end": 570.683,
+      "end": 571.483,
+      "dur": 10.212,
+      "text": "Because from there, it sees everything. It starts before other software does. And malware with administrator rights has a harder time switching it off."
+    },
+    {
+      "id": "S76",
+      "start": 571.483,
+      "speech_end": 576.669,
+      "end": 577.469,
+      "dur": 5.986,
+      "text": "Microsoft's own list ends with a warning. They come at the cost of resilience."
+    },
+    {
+      "id": "S77",
+      "start": 577.469,
+      "speech_end": 583.57,
+      "end": 584.37,
+      "dur": 6.901,
+      "text": "After the outage, Microsoft started building a way for antivirus software to run outside the kernel."
+    },
+    {
+      "id": "S78",
+      "start": 584.37,
+      "speech_end": 592.4,
+      "end": 594.6,
+      "dur": 10.23,
+      "text": "By autumn 2026, it's still in test versions of Windows. And the kernel hasn't been closed to security companies."
+    },
+    {
+      "id": "S79",
+      "start": 594.6,
+      "speech_end": 596.755,
+      "end": 597.555,
+      "dur": 2.955,
+      "text": "Your games face the same dilemma."
+    },
+    {
+      "id": "S80",
+      "start": 597.555,
+      "speech_end": 602.333,
+      "end": 602.933,
+      "dur": 5.379,
+      "text": "Cheats that run in the kernel are invisible to an anti-cheat that runs in ring three."
+    },
+    {
+      "id": "S81",
+      "start": 602.933,
+      "speech_end": 615.268,
+      "end": 616.068,
+      "dur": 13.135,
+      "text": "So the anti-cheat moved in too. Riot's Vanguard, used by Valorant, puts a driver into ring zero. On most PCs, it loads as Windows starts... even if you never open the game."
+    },
+    {
+      "id": "S82",
+      "start": 616.068,
+      "speech_end": 624.298,
+      "end": 626.898,
+      "dur": 10.83,
+      "text": "That doesn't make it faulty. But it sits in the same place the CrowdStrike driver did, where one mistake stops the whole machine."
+    },
+    {
+      "id": "S83",
+      "start": 626.898,
+      "speech_end": 629.863,
+      "end": 630.463,
+      "dur": 3.565,
+      "text": "So why can't one program take over your computer?"
+    },
+    {
+      "id": "S84",
+      "start": 630.463,
+      "speech_end": 636.33,
+      "end": 637.13,
+      "dur": 6.667,
+      "text": "Because the processor keeps almost every program out of the centre, and checks them every time they knock."
+    },
+    {
+      "id": "S85",
+      "start": 637.13,
+      "speech_end": 644.001,
+      "end": 645.401,
+      "dur": 8.271,
+      "text": "But the processor can't decide who gets let in. People decide that... every time they install a driver."
+    },
+    {
+      "id": "S86",
+      "start": 645.401,
+      "speech_end": 654.061,
+      "end": 656.061,
+      "dur": 10.66,
+      "text": "So here's a question for the comments. Who should decide which programs get into ring zero: you, Microsoft, or the companies that make them?"
+    }
+  ]
+}

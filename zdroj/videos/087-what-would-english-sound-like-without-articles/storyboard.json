@@ -1,0 +1,771 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První scéna nese myšlenku: rozbitá věta, mezery jsou vidět dřív, než je divák pojmenuje. Ne SDXL. Páteř se zavádí tady.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Věta I WENT TO _ STORE AND BOUGHT _ BOOK. a pod ní BOOK WAS EXPENSIVE, BUT _ STORE WAS CROWDED. Čárkované prázdné sloty tam, kde chybí člen. Nic dalšího."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "‚sounds wrong… but you understood every word' — obraz říká ‚slova prošla', ne ‚věta je špatně'.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Táž věta, ztlumená; vedle drobné ✓ u každého slova (rozuměl jsi), sloty dál prázdné."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Tři chybějící slova pojmenovaná. Ambrová = o tomhle je řeč (členy) celým videem.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Sloty se rozsvítí ambrově; pod větou tři velké dlaždice A · AN · THE.",
+   "pause": 0.4
+  },
+  {
+   "id": "S03b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Beat po slovech: Kokoro čte ‚A, an, and the' slitě (ani při speed 0.72 a ellipsis_pause nevzniklo ticho ≥100 ms), takže pauza jde jen mezi scény. Návětí s dlouhým tichem za ‚words.'.",
+   "naveti": "All that's missing are three tiny words.",
+   "pause": 0.35
+  },
+  {
+   "id": "S03c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Beat po slovech: Kokoro čte ‚A, an, and the' slitě (ani při speed 0.72 a ellipsis_pause nevzniklo ticho ≥100 ms), takže pauza jde jen mezi scény. Návětí s dlouhým tichem za ‚words.'.",
+   "naveti": "All that's missing are three tiny words.",
+   "pause": 0.35
+  },
+  {
+   "id": "S03d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Beat po slovech: Kokoro čte ‚A, an, and the' slitě (ani při speed 0.72 a ellipsis_pause nevzniklo ticho ≥100 ms), takže pauza jde jen mezi scény. Návětí s dlouhým tichem za ‚words.'.",
+   "naveti": "All that's missing are three tiny words."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Tvrdé číslo do 1:10. Žebříček nesmí tvrdit víc než ‚top five' — přesná pozice A jen podle zdroje ve factchecku.",
+   "diagram_generator": "uvod",
+   "diagram": "Žebříček nejčastějších anglických slov 1–5, THE na prvním místě ambrově, A ambrově mezi prvními pěti; ostatní ztlumeně. Pořadí a slova dle factcheck.md (korpus), assert na pořadí."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "‚roughly a third' — mřížka nesmí ukázat polovinu ani pětinu. Data v obraze od prvního snímku.",
+   "diagram_generator": "uvod",
+   "diagram": "Mřížka teček = jazyky světa (WALS), třetina ztlumená/prázdná = bez členů, zbytek obrys. Jedna tečka označená ČEŠTINA. Poměr spočítaný z čísel ve factcheck.md, assert."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Konec úvodního bloku, otázka videa.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Dlaždice A · AN · THE nad větou z S01, u nich otazník; obraz se ptá ‚proč je mít / co bez nich'.",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Minimální dvojice, jediný rozdíl je ten slot.",
+   "diagram_generator": "urcitost",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Dvě věty pod sebou: I SAW [A] DOG. / I SAW [THE] DOG. Členy ambrově.",
+   "pause": 0.5
+  },
+  {
+   "id": "S07b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Beat rozdělením S07 (pauza mezi ‚a dog' a ‚the dog' po poslechu draftu), obraz zděděný.",
+   "naveti": "I saw a dog."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "‚The difference isn't about the dog' — pes musí být v obou větách identický, jinak kresba tvrdí opak.",
+   "diagram_generator": "urcitost",
+   "diagram": "Totéž; vpravo u obou vět táž ikona psa (stejná kresba), rozdíl zvýrazněn jen u slotů. Pod tím malá bublina posluchače ‚co už víš?'."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Nové × dohledatelné. Kresba nesmí vybrat psa u A DOG.",
+   "diagram_generator": "urcitost",
+   "diagram": "Vlevo A DOG: řada pěti psů, žádný vybraný (otazník). Vpravo THE DOG: týž pes jeden vybraný ambrovým rámečkem."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Tři cesty, jak se pes stane ‚the'. Panely stejně velké — žádná není důležitější.",
+   "diagram_generator": "urcitost",
+   "diagram": "Tři malé panely vedle sebe: (1) bublina s dřívější zmínkou psa, (2) dvě postavy hledí na jednoho psa, (3) jediný pes v prázdné krajině. Každý s krátkým popiskem MENTIONED / SHARED VIEW / ONLY ONE.",
+   "pause": 0.4
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Pointa bloku. Škrt přes nápis vodorovnou čarou, ne křížkem.",
+   "diagram_generator": "urcitost",
+   "diagram": "Dvojice dlaždic: zleva šedá ‚CO EXISTUJE' přeškrtnutá vodorovně (text_skrtnuty), vpravo ambrová ‚JAK TO NAJÍT' se šipkou-ukazovátkem. Anglicky: WHAT EXISTS / HOW TO FIND IT.",
+   "pause": 2.4
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Druhý experiment. SOME je skutečné slovo, ne slot — nesmí být ambrové.",
+   "diagram_generator": "urcitost",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Tři řádky bez členů: YESTERDAY I WENT TO _ SUPERMARKET. / I BOUGHT _ BOTTLE OF WINE AND SOME BREAD. / _ WINE WAS SURPRISINGLY GOOD. Prázdné čárkované sloty."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Jednoduchý beat, žádná nová informace v obraze.",
+   "diagram_generator": "urcitost",
+   "diagram": "Tytéž tři řádky ztlumeně, uprostřed velký otazník ‚MISUNDERSTOOD?' a pod ním NOTHING.",
+   "pause": 0.6
+  },
+  {
+   "id": "S13b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Beat rozdělením S13 (pauza po poslechu draftu), obraz zděděný.",
+   "naveti": "But what did you actually misunderstand?"
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Šipka MUSÍ mířit z ‚the wine' na víno, které koupila (řádek 2), ne na chléb.",
+   "diagram_generator": "urcitost",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Tytéž řádky; sloty se doplní tečkovaně (rekonstruováno): A SUPERMARKET, A BOTTLE, THE WINE. Šipka od THE WINE zpět k WINE ve druhém řádku."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "‚you worked out what was new and what was already mentioned'.",
+   "diagram_generator": "urcitost",
+   "diagram": "Totéž, ale nová slova (supermarket, bottle) mají štítek NEW, víno ve 3. řádku štítek ALREADY MENTIONED."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Členy = správa společného základu. Kresba nesmí ukazovat, že posluchač ví víc než mluvčí.",
+   "diagram_generator": "urcitost",
+   "diagram": "Dvě postavy (mluvčí, posluchač), mezi nimi společná bublina/oblast SHARED se psem, supermarketem, vínem. Členy jako ambrové štítky na hranici té oblasti."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Výčet; tempo může být mírně svižnější.",
+   "diagram_generator": "urcitost",
+   "diagram": "Tři otázky pod sebou jako checklist: NEW? / MENTIONED? / OBVIOUS FROM THE SITUATION? s prázdnými zaškrtávátky.",
+   "pause": 0.5,
+   "naveti": "They keep track of what the speaker and the listener already share."
+  },
+  {
+   "id": "S17b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Beat rozdělením S17 (pauza po poslechu draftu), obraz zděděný."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "‚one compact tool… not the only tool' — připravuje blok nástrojů.",
+   "diagram_generator": "urcitost",
+   "diagram": "Vlevo jediný ambrový nástroj (dlaždice A/THE jako ‚klíč'), vpravo za ním ztlumeně další nástroje se otazníky.",
+   "pause": 2.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Tady člen NECHYBÍ — proto žádný prázdný slot (ten by tvrdil chybu).",
+   "diagram_generator": "nastroje",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Tři věty: I LIKE MUSIC. / WATER IS IMPORTANT. / DOGS ARE INTELLIGENT. Žádný slot — místo před podst. jménem prázdné bez čárkovaného obrysu."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Nulový člen pojmenovaný.",
+   "diagram_generator": "nastroje",
+   "diagram": "Totéž; před MUSIC, WATER, DOGS malý ambrový symbol Ø a nadpis ZERO ARTICLE.",
+   "pause": 0.4
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Ukázat, že MY obsadí totéž místo, kde by byl člen.",
+   "diagram_generator": "nastroje",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). I BOUGHT [MY] BOOK. Slot zabraný slovem MY (jiná barva než člen, INK). Pod tím MY THE BOOK přeškrtnuto (text_skrtnuty)."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Výčet nástrojů, všechny na stejné pozici = tatáž práce.",
+   "diagram_generator": "nastroje",
+   "diagram": "Čtyři dlaždice na tomtéž slotu před BOOK pod sebou: MY → WHOSE, ONE → HOW MANY, SOME → AMOUNT OPEN, THIS → WHICH.",
+   "pause": 0.4
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "‚Articles are just one of them' — velikost členů stejná jako ostatních, ne větší.",
+   "diagram_generator": "nastroje",
+   "diagram": "Panel ‚jak číst podstatné jméno': řada nástrojů (Ø, MY, ONE, SOME, THIS, A, THE), členy A a THE ambrově jako dva z mnoha.",
+   "pause": 0.4
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Generické A (v0.6: ‚dogs in general', ne ‚every dog'). Kresba nesmí ukázat jednoho psa ani tvrdit ‚všichni bez výjimky' (žádné ∀, žádné počítání).",
+   "diagram_generator": "nastroje",
+   "diagram": "A DOG HAS FOUR LEGS. Vedle ne jeden pes, ale celá smečka různých obrysů psů s popiskem DOGS IN GENERAL."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Generické THE.",
+   "diagram_generator": "nastroje",
+   "diagram": "THE LION IS A DANGEROUS ANIMAL. Pod tím řada lvích siluet, popisek LIONS IN GENERAL; jeden lev v rámečku přeškrtnutý vodorovně (ne konkrétní lev).",
+   "pause": 0.4
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Táž slova, tři významy.",
+   "diagram_generator": "nastroje",
+   "diagram": "Tři sloupce: NEW (A), KNOWN (THE), A WHOLE KIND (A i THE nad smečkou/druhem). Tytéž dvě dlaždice ve všech třech.",
+   "pause": 0.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "‚often one of the last things to fall into place' — křivka nesmí tvrdit kvantitu, kterou zdroj nemá; osa bez hodnot.",
+   "diagram_generator": "nastroje",
+   "diagram": "Křivka učení: osa ‚čas učení', jednotlivé jevy jako body, ARTICLES ambrově mezi posledními. Popisek CZECH · CHINESE · JAPANESE SPEAKERS. Bez čísel na ose (zdroj je kvalitativní).",
+   "pause": 2.4
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Čeština JEN V OBRAZE (Emma česky neumí). Diakritika ověřit v PNG.",
+   "diagram_generator": "cestina",
+   "diagram": "Česká věta VČERA JSEM VIDĚL PSA. / PES BĚŽEL PŘES PARK. velkým písmem, malým pod ní anglický význam.",
+   "pause": 0.5,
+   "naveti": "They're often one of the last things to fall into place."
+  },
+  {
+   "id": "S28b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Beat rozdělením S28 (pauza po poslechu draftu), obraz zděděný."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Každé české slovo má svou anglickou dlaždici; sloty jsou místa, kam čeština nic nedává.",
+   "diagram_generator": "cestina",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Pod českou větou doslovný překlad slovo po slově šipkami dolů: YESTERDAY I SAW _ DOG. _ DOG RAN ACROSS _ PARK. Prázdné sloty."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Callback na S01: musí vypadat stejně (páteř).",
+   "diagram_generator": "cestina",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Doslovný překlad vedle věty z S01 (ztlumeně, menší) — tentýž vzhled slotů. Pod tím IN CZECH: PERFECTLY CLEAR (vedle česká věta z S28)."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Šipka z druhého ‚pes' na první, ne opačně.",
+   "diagram_generator": "cestina",
+   "diagram": "PES ve druhé větě s šipkou zpět k PSA v první; popisek CONTEXT. Vpravo ztlumeně krabička nástrojů (otevírá S32)."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Čeština jen v obraze; obraz česky, hlas anglicky.",
+   "diagram_generator": "cestina",
+   "diagram": "Čtyři české tvary pod sebou: MŮJ PES / JEDEN PES / NĚJAKÝ PES / TEN PES, vedle anglicky MY / ONE / SOME… OR OTHER / THAT.",
+   "pause": 0.5,
+   "naveti": "Czech reaches for the other tools."
+  },
+  {
+   "id": "S32b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Beat rozdělením S32 (pauza po poslechu draftu), obraz zděděný.",
+   "pause": 0.5,
+   "naveti": "My dog."
+  },
+  {
+   "id": "S32c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Beat rozdělením S32 (pauza po poslechu draftu), obraz zděděný.",
+   "pause": 0.5,
+   "naveti": "One dog."
+  },
+  {
+   "id": "S32d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Beat rozdělením S32 (pauza po poslechu draftu), obraz zděděný.",
+   "naveti": "Some dog or other."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Úkoly splněné, slovo chybí.",
+   "diagram_generator": "cestina",
+   "diagram": "Tytéž čtyři úkoly se zaškrtnutím ✓; nahoře prázdný ambrový slot s popiskem NO DEDICATED WORD."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Slovosled je TENDENCE (v0.6 ‚usually') — štítky to musí nést taky. Štítek NEW u věty s mužem NA KONCI — ověřit, neprohodit.",
+   "diagram_generator": "cestina",
+   "diagram": "Dvě české věty: DO POKOJE VEŠEL MUŽ. (MUŽ na konci, štítek USUALLY NEW) / MUŽ VEŠEL DO POKOJE. (MUŽ na začátku, štítek USUALLY KNOWN). Pod každou anglicky A MAN CAME… / THE MAN CAME…",
+   "pause": 2.4
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Předěl do zátěžového testu.",
+   "diagram_generator": "pribeh",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Prázdný řádek dlaždic se sloty, nadpis CAN ENGLISH SURVIVE WITHOUT ARTICLES?"
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Vyvrcholení. Ikony bez spojnic — divák neví, kdo je kdo.",
+   "diagram_generator": "pribeh",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Čtyři řádky bez členů: I WENT TO _ SUPERMARKET / AND SAW _ MAN TALKING TO _ WOMAN. / _ WOMAN GAVE _ MAN _ KEY. / _ MAN OPENED _ DOOR. Vpravo malé ikonky muže, ženy, klíče, dveří bez vazeb."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Krátký beat.",
+   "diagram_generator": "pribeh",
+   "diagram": "Tytéž řádky ztlumeně, nad nimi ikonka ‚námahy' (kolečka/ozubená), popisek YOU CAN FOLLOW IT — BUT YOU'RE WORKING.",
+   "pause": 0.4
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Nejistota v obraze = čárkovaně (hypotéza).",
+   "diagram_generator": "pribeh",
+   "diagram": "Ikony dveří a ženy každá ve dvou variantách s otazníkem: SEEN BEFORE? / SOME DOOR? · SAME WOMAN? / ANOTHER?",
+   "pause": 0.5,
+   "naveti": "But now you're working."
+  },
+  {
+   "id": "S38b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Beat rozdělením S38 (pauza po poslechu draftu), obraz zděděný."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Postupné doplnění — první polovina.",
+   "diagram_generator": "pribeh",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Tytéž řádky, sloty se plní: THE SUPERMARKET, A MAN, A WOMAN. Zbylé dva řádky ztlumeně a prázdné."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Spojnice MUSÍ jít žena dává klíč muži, muž otevírá dveře — podmět věty = počátek šipky.",
+   "diagram_generator": "pribeh",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Doplněno všechno: THE WOMAN, THE MAN, A KEY, THE MAN, THE DOOR. Ikony vpravo teď spojené (žena→klíč→muž→dveře)."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "v0.6: ‚the' = identifikovatelné, ne ‚už zmíněné'. Kresba NESMÍ tvrdit, že supermarket a dveře už zazněly. Ověřit cíl každé šipky.",
+   "diagram_generator": "pribeh",
+   "diagram": "Tytéž věty z S40: každé A má šipku ‚dovnitř' (něco nového vstupuje: man, woman, key). Každé THE míří na to, KTERÉ je míněno: the woman / the man zpět na první zmínku, the supermarket a the door na ikonu v situaci (ne na dřívější zmínku — žádná nebyla)."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Členy nejsou jediné, jen nejpřesnější na tohle.",
+   "diagram_generator": "pribeh",
+   "diagram": "Čtyři nástroje vedle sebe: PRONOUNS, WORD ORDER, CONTEXT ztlumeně, ARTICLES ambrově; u členů ikonka ‚sledování' (stopa)."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Malost a přesnost — dlaždice malá.",
+   "diagram_generator": "pribeh",
+   "diagram": "Jedna malá ambrová dlaždice THE přesně v mezeře věty, kolem ní hodně tmy. Popisek A TINY AMOUNT OF INFORMATION.",
+   "pause": 0.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Závěr bloku ‚would work, just harder'.",
+   "diagram_generator": "pribeh",
+   "diagram": "Dvě misky vah / dva sloupce: WITHOUT ARTICLES: IT WORKS ✓ · MORE EFFORT; WITH: EASY TO TRACK.",
+   "pause": 1.2
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Callback S05 — musí sdílet funkci z _kit.py.",
+   "diagram_generator": "puvod",
+   "diagram": "Mapa světa jako mřížka teček z S05 (táž geometrie), dvě skupiny: s členy / bez. Velký otazník WHY NOT EVERY LANGUAGE?",
+   "pause": 0.4
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Předěl do historie. Původně SDXL (knihovna), změněno 2026-10-04: SDXL není k dispozici a fotka rukopisu by se zdvojila se S47. Diagram nese otázku scény místo atmosféry.",
+   "diagram_generator": "puvod",
+   "diagram": "Dlaždice THE a A z páteře vpravo, od nich doleva časová osa, která bledne do čárkovaného ‚?'. Žádný letopočet (ten přijde až v S47).",
+   "pause": 2.6
+  },
+  {
+   "id": "S47",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S47.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-04 pod dotazem ‚Beowulf manuscript': [1] A portion of the Beowulf manuscript (úvodní HWÆT WE GARDE…), Cotton Vitellius A XV, ~975–1025, public domain. ‚About a thousand years ago' sedí.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Beowulf manuscript",
+    "pick": 1,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Tvary staroangličtiny opsat přesně z factcheck.md, ne z paměti.",
+   "diagram_generator": "puvod",
+   "diagram": "Dvě vývojové linie: OLD ENGLISH ‚THAT' (tvar dle factcheck.md) → THE; OLD ENGLISH ‚ONE' (ān) → A/AN. Šipky zleva doprava, letopočty jen pokud jsou ve factchecku."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Směr: AN je původní, A odvozené. Šipka z AN do A, nikdy obráceně.",
+   "diagram_generator": "puvod",
+   "diagram": "AN nahoře; dvě větve: AN + samohláska (AN APPLE) zůstává, AN + souhláska → A (A BOOK), ‚n' odpadá (ztlumené, padající).",
+   "pause": 0.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Pravopis starých tvarů přesně dle factcheck.md.",
+   "diagram_generator": "puvod",
+   "diagram": "Dvě dvojice dlaždic: A NAPRON → AN APRON, A NADDER → AN ADDER; ambrové ‚n' se přesouvá přes mezeru."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Mechanismus: posluchač slyší souvislý proud.",
+   "diagram_generator": "puvod",
+   "diagram": "Detail: zvuková vlna ‚anapron' bez mezer, dvě možná dělení A NAPRON / AN APRON, ambrové N jako hranice."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "‚stops counting, just introduces something new'.",
+   "diagram_generator": "puvod",
+   "diagram": "Vlevo ONE DOG = jeden pes vybraný ze skupiny + počitadlo ‚1'; vpravo A DOG = pes vstupuje do scény, počitadlo ztlumené/přeškrtnuté vodorovně.",
+   "pause": 0.4
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "‚stops pointing, just marks something you can identify' — rým se S52, tytéž souřadnice.",
+   "diagram_generator": "puvod",
+   "diagram": "Vlevo THAT DOG s ukazujícím prstem/šipkou; vpravo THE DOG, šipka zmizela, jen značka (ambrový štítek)."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Britský pravopis v obraze.",
+   "diagram_generator": "puvod",
+   "diagram": "Jedna linka času: plné slovo (THAT, ONE) → postupně menší, světlejší → gramatická značka (THE, A). Nadpis GRAMMATICALISATION.",
+   "pause": 1.0
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S55.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-04 pod dotazem ‚Trajan column base inscription': [2] Base columna trajana — nápis na podstavci Trajánova sloupu (113 n. l.), římské kapitály, latina bez členů. CC BY-SA 3.0 → atribuce povinná.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Trajan column base inscription",
+    "pick": 2,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 0.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Strom: latina bez členů, dcery se členy.",
+   "diagram_generator": "puvod",
+   "diagram": "LATINA nahoře, tři větve dolů: FRENCH, SPANISH, ITALIAN (jako dcery ve stromu)."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Assert na shodu s factcheck; italské ‚uno/un' ověřit.",
+   "diagram_generator": "puvod",
+   "diagram": "Tabulka: latinské ILLE → LE / EL / IL; UNUS → UN / UN / UN(O). Tvary přesně dle factcheck.md.",
+   "pause": 0.4
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Závěr historického bloku.",
+   "diagram_generator": "puvod",
+   "diagram": "Velký prázdný ‚atom' přeškrtnutý vodorovně (NOT FUNDAMENTAL PARTICLES) vedle starého slova s novou cedulkou (OLD WORDS, NEW JOB).",
+   "pause": 1.2
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Předěl.",
+   "diagram_generator": "jinde",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Slot pro člen se uvolní a posune — naznačení, že ‚práce' může sedět jinde."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Švédština jen v obraze. Koncovka -en ambrově.",
+   "diagram_generator": "jinde",
+   "diagram": "ŠVÉDSKY: EN BIL (dvě dlaždice) = A CAR; BILEN (jedna dlaždice, -EN ambrově) = THE CAR."
+  },
+  {
+   "id": "S60b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60b.png",
+   "note": "Norština: člen na konci jako švédština a navíc přivlastnění za určitým tvarem (boka mi = the book my). Zdroj ve factchecku.",
+   "diagram_generator": "jinde",
+   "diagram": "_dvojice NORWEGIAN: BOK^A = THE BOOK, BOK^A {MI} = MY BOOK; dole LITERALLY: “THE BOOK MY”."
+  },
+  {
+   "id": "S60c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60c.png",
+   "note": "Návrat k S21 (‚Nobody says my the book'): v norštině je to zhruba normální tvar.",
+   "diagram_generator": "jinde",
+   "diagram": "Nahoře ENGLISH {MY} [THE] BOOK přeškrtnuté (jako S21), dole NORWEGIAN BOK^A {MI}, pod tím “THE BOOK MY”."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Cyrilice — ověřit, že Inkscape font ji má. Tvar dle factcheck.md.",
+   "diagram_generator": "jinde",
+   "diagram": "BULHARSKY cyrilicí: КНИГА / КНИГАТА (-ТА ambrově) = BOOK / THE BOOK. Vedle malá mapa slovanských jazyků s CZECH i BULGARIAN."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Ani jedna větev nesmí být ambrová víc než druhá — žádný vítěz.",
+   "diagram_generator": "jinde",
+   "diagram": "Dvě větve ze slovanského kořene: BULGARIAN → člen (-TA), CZECH → bez členu (Ø). Nadpis SAME PROBLEM, DIFFERENT SOLUTION.",
+   "pause": 0.4
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "‚neither is missing anything' — stejné velikosti.",
+   "diagram_generator": "jinde",
+   "diagram": "Tři jazyky (ENGLISH, SWEDISH, CZECH) a u každého, KDE informace sedí: před jménem / na konci / v kontextu a slovosledu.",
+   "pause": 2.6
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Výplata páteře: stejné místo jako S01.",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Věta z S01 na stejných souřadnicích jako v S01, sloty prázdné, štítek INCOMPLETE?"
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Zrcadlo S64. Text ze zdroje uživatele (původně v úvodu, po poslechu draftu přesunut sem): mluvčí bez členů slyší ‚English without the complications'.",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ veta() z _kit.py: řádek slovních dlaždic na pevné výšce, místa pro člen jako ambrové sloty (prázdný = čárkovaný obrys, plný = ambrová dlaždice). Táž věta, sloty plné, ale ambrové členy zvýrazněné jako ‚nepořádek' (CLUTTER?)."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Závěrečná obrazovka: horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Obě verze věty pod sebou ve spodní polovině, mezi nimi ‚=' ; horní polovina prázdná."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Klidné, static.",
+   "diagram_generator": "zaver",
+   "diagram": "Ve spodní polovině dvě odpovědi (dvě věty) ke stejnému otazníku; horní polovina volná."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "Poslední deska: ‚get another to imagine the same thing'. Místo pro dlaždici a kolečko nahoře.",
+   "diagram_generator": "zaver",
+   "diagram": "Dvě postavy ve spodní třetině, mezi jejich hlavami táž ikona (pes) v obou bublinách. Horní polovina prázdná.",
+   "pause": 3.0
+  }
+ ]
+}

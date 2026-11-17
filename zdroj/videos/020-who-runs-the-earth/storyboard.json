@@ -1,0 +1,858 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook je SCÉNA, ne schéma. Divák musí napřed vidět, co se stalo, aby otázka „a kdo je nad nimi?“ měla o čem být. Žádné insignie ani vlajky — konkrétní válka by video posunula jinam.  [kolo 1 dalo jediný obrněnec na cestě v teplé pískové paletě — proti kotvě stylu a bez viditelné hranice; odloženo ve scratchpadu]",
+      "prompt": "a column of military vehicles driving in single file across a flat open plain, seen from high above and far away, a straight fence line and a raised barrier marking the border they are crossing, flat grey overcast sky, no sun, cold desaturated palette, no insignia, no flags",
+      "seed": 448190
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Otázka. Tři státy vedle sebe a nad nimi PRÁZDNÉ pásmo s otazníkem — tady se ZAVÁDÍ rozvržení, které video nese celé: dole lidé, uprostřed státy, nahoře nic. To prázdné pásmo musí být od téhle scény pořád na tomtéž místě, jinak se v S37 a S74 nepozná, že se do něj něco vsadilo.",
+      "diagram_generator": "uvod",
+      "diagram": "tři stejné rámečky států v řadě uprostřed plátna, nad nimi široké prázdné pásmo ohraničené jen čárkovanou linkou a s velkým ambrovým otazníkem uprostřed; popisek pásma WHO?"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Odpověď. Táž kresba jako S02, jen otazník nahradí slovo NOBODY — je to JEDEN obraz, ve kterém se mění jediná věc, ne dva střihy. Pauza za scénou nese beat.",
+      "diagram_generator": "uvod",
+      "diagram": "totéž rozvržení jako S02, ale místo otazníku velký ambrový nápis NOBODY v prázdném pásmu",
+      "pause": 2.5
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Výčet toho, co existuje. Všechny čtyři stejně velké a všechny UVNITŘ pásma států, ne nad ním — to je celé tvrzení scény a v popisku není napsané.",
+      "diagram_generator": "uvod",
+      "diagram": "v pásmu států čtyři menší rámečky s popisky UNITED NATIONS, COURTS, TREATIES, ORGANISATIONS; prázdné pásmo nahoře zůstává prázdné"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Co v tom pásmu chybí. Dvě ikony (policie, armáda) v prázdném pásmu, obě ČÁRKOVANĚ a ztlumené — čárkovaná = neexistuje. Kdyby byly plné, obraz by tvrdil opak scénáře.",
+      "diagram_generator": "uvod",
+      "diagram": "v prázdném horním pásmu čárkovaně a ztlumeně ikona policejního odznaku a ikona štítu s popisky OWN POLICE a OWN MILITARY, přes obojí ambrový křížek"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Definice. Dvě sloupce vedle sebe: HIERARCHY (uvnitř státu, plná šipka odshora dolů) a ANARCHY (mezi státy, žádná šipka). Slovo ANARCHY musí být hned vedle vysvětlení, ne samo — jinak si divák dosadí „chaos“.",
+      "diagram_generator": "uvod",
+      "diagram": "dva sloupce: vlevo nadpis INSIDE A COUNTRY s plnou svislou šipkou shora dolů a slovem HIERARCHY, vpravo BETWEEN COUNTRIES se třemi rámečky vedle sebe bez jakékoli šipky a slovem ANARCHY; pod tím drobně not chaos — no one above"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Weberova věta rozložená na tři podmínky. Třetí (monopol na sílu) ambrová, protože o ní scéna mluví.",
+      "diagram_generator": "uvod",
+      "diagram": "tři řádky pod sebou jako podmínky: A HIGHER AUTHORITY / ABOVE SOVEREIGN STATES / WITH A MONOPOLY ON FORCE; u každého řádku vlevo prázdné zaškrtávací políčko, třetí řádek ambrový"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Titulní karta bloku a jediná čistě typografická scéna první poloviny. Pauza za ní odděluje úvod.",
+      "diagram_generator": "uvod",
+      "diagram": "titulní karta: velký nápis WHO RUNS THE EARTH?, pod ním tenká vodorovná čára a drobně why there is no government above governments",
+      "pause": 2.6
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Přechod dolů, do spodního pásma. Jedna postava a nad ní pásmo státu — tatáž geometrie jako S02, jen o patro níž. Divák se rozvržení učí podruhé, což je záměr.",
+      "diagram_generator": "stat",
+      "diagram": "dole jedna postava, nad ní široké pásmo s popiskem THE STATE; z postavy nahoru bublina s textem I won't follow this law"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Dvě situace vedle sebe, obě se šipkou VZHŮRU do pásma státu a odpovědí zpět. Plná čára, protože tohle skutečně funguje.",
+      "diagram_generator": "stat",
+      "diagram": "dva sloupce: BREAKS THE LAW → POLICE, HAS A DISPUTE → COURT; u obou plná šipka od postavy nahoru do pásma státu a plná šipka zpět dolů"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Třetí případ, a jediný, kde stát sáhne po síle. Ambrová jen na šipce síly.",
+      "diagram_generator": "stat",
+      "diagram": "postava útočí na druhou postavu, z pásma státu vede dolů silná ambrová šipka s popiskem FORCE, která útok zastaví"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Weber. Nápis do rámečku uprostřed pásma státu, ne přes obraz — je to definice, ne komentář.",
+      "diagram_generator": "stat",
+      "diagram": "uprostřed pásma státu rámeček s nápisem MONOPOLY ON THE LEGITIMATE USE OF FORCE, pod ním drobně Max Weber, 1919"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Nesouhlas neruší autoritu. Tři postavy dole, dvě s přeškrtnutým srdíčkem u zákona, a přesto šipka autority shora platí pro všechny tři stejně.",
+      "diagram_generator": "stat",
+      "diagram": "tři postavy dole, nad každou drobně DISAGREES nebo AGREES, a přes všechny tři vede z pásma státu jedna společná plná šipka dolů s popiskem ENFORCED ANYWAY"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Závěr bloku. Husté pole drobných postav pod jedním pásmem — poměr nese tvrzení „millions of people under one system“. Pauza za scénou.",
+      "diagram_generator": "stat",
+      "diagram": "husté pole drobných postav přes celou šířku dole, nad nimi jediné široké pásmo THE STATE; drobně pod polem millions of people, one system",
+      "pause": 2.4
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Táž otázka o patro výš — a tady se rozvržení ze S02 a ze S09 spojí do JEDNOHO obrazu: lidé, státy, prázdno. Od téhle scény je to kompletní páteř videa.",
+      "diagram_generator": "nad",
+      "diagram": "tři pásma nad sebou: dole postavy, uprostřed státy, nahoře prázdné pásmo; ve středním pásmu jeden stát ambrový se šipkou k sousednímu a popiskem ATTACKS; z horního pásma nevede dolů nic, jen slovo NOBODY"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Druhý stupeň eskalace. Táž kresba, jen ambrový stát je větší a nese popisek CHINA — velikost tu VÝJIMEČNĚ něco znamená a scéna to říká slovy, takže se to nečte jako hodnocení.",
+      "diagram_generator": "nad",
+      "diagram": "totéž rozvržení, ambrový stát je nápadně větší a nese popisek CHINA; horní pásmo pořád prázdné, slovo NOBODY"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Třetí stupeň. Největší rámeček, popisek UNITED STATES, a nad ním pořád nic. Do prázdna se vsadí bublina s příkazem Stop. Fix this immediately. — a nemá odesílatele.",
+      "diagram_generator": "nad",
+      "diagram": "totéž rozvržení, ambrový stát největší s popiskem UNITED STATES; v prázdném horním pásmu čárkovaná bublina s textem Stop. Fix this immediately. bez odesílatele"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Doklad k „no world police force“. Přeškrtnutý odznak v horním pásmu — křížek smí být, protože pod ním není písmo.",
+      "diagram_generator": "nad",
+      "diagram": "v horním pásmu čárkovaný policejní odznak s ambrovým křížkem a popiskem NO WORLD POLICE; dole beze změny"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Výčet toho, co existuje, teď rozepsaný. Všechny čtyři zase UVNITŘ pásma států — callback na S04 s tímtéž rozvržením, aby se poznal.",
+      "diagram_generator": "nad",
+      "diagram": "v pásmu států čtyři rámečky vedle sebe: COURTS, UNITED NATIONS, SANCTIONS, COALITIONS"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Od čeho ty čtyři visí. Z každého vede čárkovaná čára DOLŮ ke státům, ne nahoru — to je celá pointa scény a v žádné větě to napsané není.",
+      "diagram_generator": "nad",
+      "diagram": "z každého ze čtyř rámečků vede čárkovaná čára dolů k pásmu států s popiskem DEPEND ON; horní pásmo zůstává prázdné"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Kruh. Státy tvoří pravidla a státy je vymáhají — kruhová šipka uvnitř pásma států, která nikam nevede ven. Pauza za scénou uzavírá blok.",
+      "diagram_generator": "nad",
+      "diagram": "uvnitř pásma států kruhová šipka spojující MAKE THE RULES a ENFORCE THE RULES; šipka se uzavírá do sebe a z pásma nevede nikam",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "ZAVÁDÍ SE ČÁRKOVANÁ KONVENCE: od téhle scény je všechno navržené kresleno čárkovaně. Do prázdného horního pásma se poprvé něco vsadí — ale čárkovaně, takže obraz netvrdí, že to je.",
+      "diagram_generator": "vlada",
+      "diagram": "do prázdného horního pásma se čárkovaně vsadí rámeček WORLD GOVERNMENT; od každého státu k němu vede čárkovaná šipka nahoru s popiskem GIVES SOME POWERS; vlevo dole drobná legenda: plná čára = exists, čárkovaná = proposed"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Čtyři složky, všechny čárkované a stejně velké.",
+      "diagram_generator": "vlada",
+      "diagram": "uvnitř čárkovaného rámečku WORLD GOVERNMENT čtyři menší čárkované rámečky: PARLIAMENT, COURT, POLICE, MILITARY"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Jak by to mělo fungovat. Šipka shora dolů na problémový stát — poprvé v celém videu vede něco Z horního pásma DOLŮ, a je čárkovaná.",
+      "diagram_generator": "vlada",
+      "diagram": "z čárkovaného rámečku WORLD GOVERNMENT vede čárkovaná šipka dolů na jeden ambrový stát; u šipky popisek INTERVENES, pod obrazem drobně problem solved"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Zkouška. Šipka míří na největší rámeček (UNITED STATES) s příkazem na hranici.",
+      "diagram_generator": "vlada",
+      "diagram": "čárkovaná šipka z WORLD GOVERNMENT dolů na velký stát UNITED STATES; u jeho hranice čárkovaná svislá čára s popiskem YOUR MILITARY CANNOT CROSS THIS BORDER"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Beat. Táž kresba, jen šipka je přeškrtnutá a ze státu vyjde jediné slovo NO. Znovu jeden obraz s jednou změnou, ne nový střih. Pauza nese beat.",
+      "diagram_generator": "vlada",
+      "diagram": "totéž jako S25, ale čárkovaná šipka je přeškrtnutá a z rámečku UNITED STATES vychází velká ambrová bublina se slovem NO",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "První větev. Bez vlastní síly je z příkazu návrh — nápis ORDER se ztenčí na SUGGESTION.",
+      "diagram_generator": "vlada",
+      "diagram": "vlevo čárkovaný rámeček WORLD GOVERNMENT bez ikony štítu, s popiskem NO FORCE OF ITS OWN; vpravo bublina, v níž je slovo ORDER přeškrtnuté a pod ním ambrově SUGGESTION"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Druhá větev, a je nepříjemná: aby to fungovalo, musí ta síla stačit na největší stát. Dvě ikony štítu, ta horní musí být viditelně větší.",
+      "diagram_generator": "vlada",
+      "diagram": "nahoře čárkovaný štít WORLD FORCE, dole plný štít největšího státu; horní musí být zřetelně větší, mezi nimi svislá čára s popiskem MUST BE ABLE TO OUTMATCH"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Závěr bloku a přesná formulace podmínky. Pauza za scénou.",
+      "diagram_generator": "vlada",
+      "diagram": "prázdné horní pásmo, do něj vsazený čárkovaný rámeček s nápisem ACTUALLY ABOVE THE COUNTRIES; pod ním drobně not beside them",
+      "pause": 2.5
+    },
+    {
+      "id": "S30",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30.png",
+      "note": "Historická odbočka potřebuje jinou fakturu než diagramy — atmosféra, ne schéma. Žádná konkrétní vlajka ani insignie: video mluví o mocenském uspořádání, ne o jedné zemi.",
+      "prompt": "an empty parade ground at dusk after a ceremony has ended, a bare flagpole with nothing on it, long shadows across cracked concrete, a distant monumental building, cold light, nobody there"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Čtyři přívlastky jako čtyři sloupce srovnávacího grafu. VŠECHNY bez čísel — scénář žádné neuvádí a graf s vymyšlenou stupnicí by tvrdil víc než scénář (past z videa o hudbě).",
+      "diagram_generator": "hegemon",
+      "diagram": "čtyři ikony v řadě s popisky ECONOMY, MILITARY, BASES, ALLIES; u každé jeden velký ambrový tvar a vedle něj skupinka drobných šedých; žádná osa, žádná čísla"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Slovo, které se tehdy začalo používat. Jeden ambrový stát ve středu, ostatní kolem — ale POŘÁD ve stejném pásmu, ne nad ním. To je rozdíl, který scéna teprve vysloví.",
+      "diagram_generator": "hegemon",
+      "diagram": "v pásmu států jeden nápadně větší ambrový rámeček uprostřed a kolem něj menší šedé; nad obrazem nápis UNIPOLAR; horní pásmo pořád prázdné"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Rozdíl mezi hegemonem a vládou, a je to celý smysl kapitoly: hegemon je VE stejném pásmu, vláda by byla NAD ním. Dvě kresby vedle sebe, jinak identické.",
+      "diagram_generator": "hegemon",
+      "diagram": "dvě kresby vedle sebe se stejnými pásmy: vlevo HEGEMON — velký rámeček uvnitř pásma států, vpravo WORLD GOVERNMENT — čárkovaný rámeček v pásmu nad státy; rozdíl je jen ve výšce"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Vliv ano, pravomoc ne. Tenké plné čáry vlivu do stran versus přeškrtnutá čárkovaná čára autority shora.",
+      "diagram_generator": "hegemon",
+      "diagram": "z ambrového státu vedou do stran tenké plné čáry k ostatním s popiskem INFLUENCE; z horního prázdného pásma dolů čárkovaná čára s popiskem LEGAL AUTHORITY, přeškrtnutá"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Otočení otázky. Šipka míří VZHŮRU z ambrového státu do prázdna a končí v ničem.",
+      "diagram_generator": "hegemon",
+      "diagram": "z ambrového státu vede ambrová šipka vzhůru do prázdného pásma, kde končí v prázdnu; nad ní otázka WHO CONTROLS THIS ONE? a pod ní odpověď NOBODY ABOVE IT"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Zobecnění: každý hegemon má tenhle problém. Řetěz „kdo zastaví koho“ končí otazníkem. Pauza za scénou.",
+      "diagram_generator": "hegemon",
+      "diagram": "řetěz tří rámečků zleva doprava spojený šipkami STOPS: A stops B, B stops C, a před prvním rámečkem prázdné místo s velkým ambrovým otazníkem",
+      "pause": 2.6
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Do prázdného pásma se vsadí FEDERATION OF EARTH — na TOTÉŽ místo, kde od S02 nic není. Čárkovaně. Tohle je vizuální výplata rozvržení zavedeného na začátku.",
+      "diagram_generator": "federace",
+      "diagram": "v horním pásmu čárkovaný rámeček FEDERATION OF EARTH, pod ním beze změny pásmo států a pásmo lidí"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Státy zůstávají. Tři pojmenované rámečky BRAZIL / FRANCE / JAPAN — všechny STEJNĚ VELKÉ a stejně světlé, protože scéna neříká o žádném nic navíc. Rozvržení se doslova zopakuje v S52, jinak se callback nepozná.",
+      "diagram_generator": "federace",
+      "diagram": "v pásmu států tři stejné rámečky s popisky BRAZIL, FRANCE, JAPAN; nad nimi čárkovaný rámeček federace"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Výčet přenesených pravomocí. Pět položek stoupá ze států nahoru do federace. Delší scéna, obraz roste s textem — proto smí být přes dvanáct sekund.",
+      "diagram_generator": "federace",
+      "diagram": "pět čárkovaných šipek ze států nahoru do federace s popisky WARS BETWEEN COUNTRIES, WEAPONS OF MASS DESTRUCTION, INTERNATIONAL AGGRESSION, GLOBAL ENVIRONMENT, GLOBAL COMMONS"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Tři složky federace, a třetí ambrová, protože scéna říká „and most importantly“.",
+      "diagram_generator": "federace",
+      "diagram": "uvnitř čárkovaného rámečku federace tři čárkované rámečky COURTS, POLICE a ambrový ARMED FORCES; poslední zřetelně větší"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Rozdíl mezi půjčenou a vlastní armádou. Vlevo šipky OD států nahoru s popiskem LENT, přeškrtnuté; vpravo štít uvnitř federace. Pauza za scénou.",
+      "diagram_generator": "federace",
+      "diagram": "dvě kresby vedle sebe: vlevo štít složený z dílků, které mají šipky zpět dolů ke státům, popisek LENT BY COUNTRIES, celé přeškrtnuté; vpravo jeden celistvý čárkovaný štít uvnitř federace s popiskem ITS OWN",
+      "pause": 2.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Modelová situace. Táž útočná šipka jako v S15 — tentokrát ale nad ní někdo je.",
+      "diagram_generator": "zmena",
+      "diagram": "v pásmu států jeden stát se šipkou ATTACKS k sousedovi; nad tím čárkovaný rámeček federace, z něhož vede dolů čárkovaná bublina THIS IS AGGRESSION"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Dvě odpovědi vedle sebe: dnešní (sankce, bez konce) a navržená (lhůta). Vlevo plná čára, vpravo čárkovaná — konvence platí i tady.",
+      "diagram_generator": "zmena",
+      "diagram": "vlevo plný rámeček TODAY s textem another round of sanctions… a třemi tečkami pokračování; vpravo čárkovaný rámeček s ambrovým textem WITHDRAW YOUR FORCES WITHIN FORTY-EIGHT HOURS"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Co následuje. Šipka federace tlačí agresora zpět za hranici — a pod tím tři přeškrtnuté řádky toho, co by dnes následovalo místo toho.",
+      "diagram_generator": "zmena",
+      "diagram": "nahoře čárkovaná šipka z federace dolů, která tlačí ambrový stát zpět za hranici; pod tím tři vodorovně škrtnuté řádky MONTHS OF NEGOTIATIONS, WAITING WHO WILL JOIN, NO AGREEMENT IN THE SECURITY COUNCIL"
+    },
+    {
+      "id": "S45",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S45.png",
+      "note": "Jediné místo, kde scénář jmenuje konkrétní existující instituci — a je vyfotitelná, takže ji model kreslit nemá. Sál Rady bezpečnosti je navíc okamžitě poznatelný. Pozor na licenci: většina snímků OSN volná NENÍ, ověřit přes --search.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "United Nations Security Council chamber",
+        "pick": 5,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Analogie zpátky dolů, do pásma lidí. Je to TÁŽ kresba jako S10, jen o patro výš posunutá — divák si to spojí, protože rozvržení zná. Pauza za scénou uzavírá blok.",
+      "diagram_generator": "zmena",
+      "diagram": "dvě kresby nad sebou se stejnou geometrií: dole STATE → INDIVIDUAL s plnou šipkou a popiskem you cannot do this, nahoře FEDERATION → COUNTRY s čárkovanou šipkou; u obou vpravo drobná ikona policie",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Obrat. Týž čárkovaný rámeček federace, ale poprvé ambrový a větší — velikost tu znamená moc a scéna to říká slovy („enormous power“), takže obraz netvrdí nic navíc.",
+      "diagram_generator": "riziko",
+      "diagram": "čárkovaný rámeček federace nápadně zvětšený a ambrový, pod ním drobné státy; nad obrazem otázka WHAT IF IT GOES WRONG?"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Čtyři dnešní únikové cesty, všechny PLNOU čarou, protože existují. Šipky vedou ven z jednoho státu do okolí — to je ta vlastnost, kterou by světová vláda zrušila.",
+      "diagram_generator": "riziko",
+      "diagram": "jeden tmavý stát uprostřed a z něj čtyři plné šipky ven do okolí s popisky PEOPLE CAN LEAVE, OVERTHROW IT, OTHER COUNTRIES BALANCE, DEMOCRATIC ALLIES"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "BEAT. Tytéž čtyři šipky jako v S48, ale všechny narazí na rám. Scéna KONČÍ otázkou — pointa je až v S49b, aby před ní byla pauza. Vkládat ji do řeči nešlo: Kokoro spojilo konec do jednoho intonačního celku (whisper slyší „it, Mars?“ s čárkou) a v místě řezu zní řeč na −11 dB, takže ji pojistka odmítla. Mezi scénami se scene_pause PŘIDÁVÁ, ne vyřezává, takže ji nemá co odmítnout.",
+      "diagram_generator": "riziko",
+      "diagram": "tytéž čtyři šipky jako v S48, ale všechny narazí na čárkovaný rámeček, který obepíná celé plátno; vpravo dole drobně a ambrově Mars?",
+      "pause": 1.6
+    },
+    {
+      "id": "S49b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49b.png",
+      "note": "Pointa. TÝŽ obraz jako S49, jediná změna je nápis vpravo dole — je to beat, ne nový střih. Text je celá věta, ne jednoslovné „Mars?“: Kokoro nese tázavý průběh frází přes několik slov a jednoslovná otázka mu vždycky spadne (naměřeno −22 %, a stejně klesají i kontrolní „Really?“ a „Seriously?“). Uživatel vybral po poslechu šesti variant.",
+      "diagram_generator": "riziko",
+      "diagram": "totéž co S49, navíc vpravo dole ambrový nápis Mars?"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Řešení, které scéna nabízí. Váhy: na jedné misce POWER, na druhé CHECKS — a musí být v rovnováze, ne převážené. Miska se kreslí uzavřenou cestou, jinak vypadá nedodělaně. Pauza za scénou.",
+      "diagram_generator": "riziko",
+      "diagram": "váhy s dvěma miskami v rovnováze, na levé nápis POWER, na pravé CHECKS AND BALANCES; obě misky stejně vysoko",
+      "pause": 2.4
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Federace jen s vyjmenovanými pravomocemi. Rámeček federace se ZMENŠÍ na proužek, pásmo států zůstane velké — poměr ploch je to tvrzení.",
+      "diagram_generator": "riziko",
+      "diagram": "čárkovaný rámeček federace zúžený na tenký proužek nahoře s popiskem ONLY CLEARLY DEFINED POWERS; pásmo států pod ním zabírá většinu plátna s popiskem EVERYTHING ELSE"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Callback na S38 a MUSÍ mít doslova totéž rozvržení, jinak se nepozná. Tytéž tři státy, jen s jinými popisky pravomocí.",
+      "diagram_generator": "riziko",
+      "diagram": "tři stejné rámečky BRAZIL, FRANCE, JAPAN jako v S38, pod každým drobně SCHOOLS, ROADS, HEALTHCARE"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Hranice. Táž útočná šipka jako v S15 a S42, ale tentokrát vystoupí z pásma států nahoru — to je to jediné, co federaci patří.",
+      "diagram_generator": "riziko",
+      "diagram": "útočná šipka mezi dvěma státy, která protne vodorovnou hranici mezi pásmem států a federací; u průsečíku ambrový popisek NO LONGER ITS OWN BUSINESS"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Kritérium. Vodorovná čára s popiskem po obou stranách: pod ní NATIONAL, nad ní GLOBAL, a na čáře jediný důvod — válka ohrožuje celek. Pauza za scénou.",
+      "diagram_generator": "riziko",
+      "diagram": "vodorovná dělicí čára přes celé plátno; pod ní popisek NATIONAL a ikony školy, silnice, nemocnice; nad ní GLOBAL a ikona války; na čáře drobně can threaten the whole planet",
+      "pause": 2.5
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Naivní představa, výslovně označená jako ta, která se nestane. Přeškrtnutá bublina — škrt přes NÁPIS je vodorovná čára, ne křížek.",
+      "diagram_generator": "tlak",
+      "diagram": "kruh drobných postav, nad nimi bublina A WORLD GOVERNMENT WOULD BE NICE s vodorovným ambrovým škrtem; pod tím drobně not how it happens"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Mechanismus. Kruh problému je VĚTŠÍ než rámeček jednotky, která ho má řešit — poměr ploch je celé tvrzení a v popisku není napsané. Pauza za scénou.",
+      "diagram_generator": "tlak",
+      "diagram": "malý plný rámeček POLITICAL UNIT a přes něj mnohem větší ambrový kruh PROBLEM, který z rámečku výrazně přesahuje na všechny strany",
+      "pause": 2.6
+    },
+    {
+      "id": "S57",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S57.png",
+      "note": "Atmosféra, ne schéma. Radioteleskop v noci je konkrétní objekt, ale běžný — model ho zvládne, protože nejde o věrnost jedné observatoře, ale o noc a naslouchání.",
+      "prompt": "a large radio telescope dish tilted up at a clear night sky, seen from a distance across empty high ground, faint stars, a single small lit window at the base, cold blue night, no people"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Vyloučení dvou možností. Tři průběhy signálu pod sebou: šum, přírodní jev, a třetí zjevně pravidelný a ambrový.",
+      "diagram_generator": "kontakt",
+      "diagram": "tři vodorovné průběhy pod sebou s popisky NOISE, NATURAL PHENOMENON a ARTIFICIAL; první dva ztlumené a nepravidelné, třetí ambrový a zřetelně periodický, u prvních dvou vpravo drobný křížek"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Zpráva dorazí a otázka je adresní: komu? Šipka z hvězdy míří na Zemi a končí otazníkem.",
+      "diagram_generator": "kontakt",
+      "diagram": "vpravo nahoře hvězda, z ní vede ambrová šipka doleva dolů k malé kouli Země a končí velkým otazníkem; pod tím WHO ANSWERS?"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Výčet kandidátů. Šest rámečků kolem koule, VŠECHNY stejně velké a všechny se šipkou k téže zprávě — a žádný z nich ji nemá. Delší scéna, obraz roste s výčtem.",
+      "diagram_generator": "kontakt",
+      "diagram": "kolem koule Země šest stejných rámečků: PRESIDENT OF THE UNITED STATES, PRESIDENT OF CHINA, UN SECRETARY-GENERAL, EUROPEAN UNION, INDIA, EVERYONE AT ONCE; od každého čárkovaná šipka ke zprávě, žádná není zvýrazněná"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Přeformulovaná scéna. Vlevo otázka, kterou nepoloží, přeškrtnutá; vpravo ta, kterou položí. Obě jako bubliny z téže hvězdy, aby bylo jasné, kdo se ptá.",
+      "diagram_generator": "kontakt",
+      "diagram": "z hvězdy vedou dvě bubliny: horní WHO RUNS ONE COUNTRY? s vodorovným škrtem, dolní ambrová WHO REPRESENTS PLANET EARTH?"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Odpověď je prázdné místo. Rámeček s popiskem, kde má být jméno, a v něm nic. Pauza za scénou uzavírá blok.",
+      "diagram_generator": "kontakt",
+      "diagram": "koule Země a nad ní prázdný čárkovaný rámeček s popiskem SPEAKS FOR EARTH; rámeček je viditelně prázdný, uvnitř drobně —",
+      "pause": 2.5
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Mírnější tvrzení než světová vláda: tlak, ne instituce. Šipky států se sbíhají, ale nikam nevedou — zatím.",
+      "diagram_generator": "kontakt",
+      "diagram": "státy v pásmu, z nich se ambrové šipky sbíhají k jednomu bodu nahoře; v tom bodě zatím jen shluk, žádný rámeček; popisek PRESSURE TO COORDINATE"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Tři konkrétní potřeby, všechny čárkované.",
+      "diagram_generator": "kontakt",
+      "diagram": "tři čárkované rámečky v řadě: COMMON DIPLOMATIC PROTOCOL, JOINT SCIENTIFIC TEAMS, COMMON DEFENCE STRATEGY"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Ten shluk ze S63 se konečně srazí do jednoho rámečku — a je z něj jedna bublina.",
+      "diagram_generator": "kontakt",
+      "diagram": "sbíhající se šipky ze S63 nyní končí v jednom čárkovaném rámečku, z něhož vede jediná ambrová bublina THIS IS THE OFFICIAL POSITION OF HUMANITY"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Otázka a odpověď vedle sebe. Ta otázka je z první poloviny videa — teď má odpověď. Pauza za scénou.",
+      "diagram_generator": "kontakt",
+      "diagram": "vlevo otázka WHY SHOULD WE HAVE SOME KIND OF WORLD AUTHORITY?, vpravo ambrová odpověď SOMEONE HAS TO SPEAK FOR EARTH; mezi nimi vodorovná plná šipka",
+      "pause": 2.4
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Zobecnění. Hvězda ze S59 se nahradí obecným tvarem hrozby, ale zbytek kresby zůstane — callback, který říká „to nebylo o mimozemšťanech“.",
+      "diagram_generator": "tlak",
+      "diagram": "táž kompozice jako S59, ale místo hvězdy je ambrový tvar s popiskem ANOTHER GLOBAL THREAT; šipka k Zemi zůstává"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Výčet čtyř hrozeb, VŠECHNY stejně velké. Původně tu byl archivní snímek asteroidu — jenže fotka jedné z položek by řekla, že zrovna ta je ten případ, a scéna je vyjmenovává jako rovnocenné. Tentýž důvod, proč jsou v S06 druhého videa všechny ikony stejné.",
+      "diagram_generator": "tlak",
+      "diagram": "čtyři stejně velké čárkované rámečky v řadě: ASTEROID, PANDEMIC, TECHNOLOGICAL CATASTROPHE, SOMETHING WE CANNOT PREDICT; poslední má místo popisku otazník"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Proč jich bude přibývat. Síť států, jejíž spoje houstnou zleva doprava, a s hustotou roste i počet ambrových uzlů problémů.",
+      "diagram_generator": "tlak",
+      "diagram": "síť uzlů přes celé plátno, vlevo řídká, vpravo hustá; s hustotou přibývá ambrových uzlů; popisek zleva doprava MORE INTERCONNECTED → MORE SHARED PROBLEMS"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "První z dvou možností. Dvě stě drobných rámečků a mezi nimi změť čar — hustota je tvrzení. Počet se generuje, ne kreslí ručně, ať odpovídá slovu two hundred.",
+      "diagram_generator": "tlak",
+      "diagram": "dvě stě drobných rámečků v mřížce a mezi nimi hustá změť tenkých čar; nahoře popisek EVERY TIME SOMETHING HAPPENS"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Druhá možnost, a je to táž kresba, jen se změť čar nahradí jedním pásmem nad mřížkou. Pauza za scénou.",
+      "diagram_generator": "tlak",
+      "diagram": "táž mřížka dvou set rámečků jako v S70, ale změť čar zmizí a nad mřížkou je jedno čárkované pásmo s popiskem A HIGHER LEVEL",
+      "pause": 2.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Historické patro po patře. Pět vrstev NAD SEBOU, ne vedle sebe — tvar musí odpovídat myšlence přidávání, jinak to čte jako výčet. Delší scéna, roste s textem.",
+      "diagram_generator": "vrstvy",
+      "diagram": "pět vodorovných pásem nad sebou, odspodu SMALL COMMUNITIES, CITIES, KINGDOMS, NATION-STATES, INTERNATIONAL ORGANISATIONS; každé přibude nad předchozí, žádné nemizí"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Nad tou hromadou je problém, který ji přesahuje — a přeškrtnutá varianta „zrušit státy“. Škrt přes nápis je vodorovný.",
+      "diagram_generator": "vrstvy",
+      "diagram": "nad pěti pásmy velký ambrový kruh PLANETARY PROBLEMS, který je přesahuje; vedle toho bublina GET RID OF COUNTRIES s vodorovným škrtem"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Klíčová věta videa a vizuální výplata celé stavby: do prázdného pásma, které je prázdné od S02, se vsadí šesté patro. Beat, pauza za scénou.",
+      "diagram_generator": "vrstvy",
+      "diagram": "k pěti pásmům přibude nahoře šesté, čárkované a ambrové, s popiskem ANOTHER LAYER; ostatních pět zůstává beze změny",
+      "pause": 2.2
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Analogie, jednou. Šipka ukazuje na spodní pásmo, které při přidání horních nezmizelo. Pauza za scénou uzavírá blok.",
+      "diagram_generator": "vrstvy",
+      "diagram": "táž šestipatrová kresba, ambrově zvýrazněné nejspodnější pásmo SMALL COMMUNITIES a šipka k němu s popiskem STILL HERE",
+      "pause": 2.4
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Dvě misky, tentokrát nevyvážené směrem k plusu — a obě položky jsou navržené, tedy čárkované.",
+      "diagram_generator": "zaver",
+      "diagram": "váhy nakloněné doleva; na levé misce dvě čárkované položky END WARS BETWEEN COUNTRIES a HANDLE GLOBAL PROBLEMS, pravá miska zatím prázdná"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Na druhou misku dosedne jediná položka a váhy se překlopí. Je větší než obě dohromady.",
+      "diagram_generator": "zaver",
+      "diagram": "tytéž váhy, na pravou misku dosedne jediný velký ambrový blok THE MOST POWERFUL POLITICAL INSTITUTION IN HISTORY a váhy se překlopí doprava"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Podmínka je návrh, ne jistota. Rozcestí: jedna větev čárkovaná dolů k horšímu světu.",
+      "diagram_generator": "zaver",
+      "diagram": "rozcestí ze společného bodu: vlevo čárkovaná větev BUILT WELL, vpravo čárkovaná větev BUILT BADLY končící ambrovým tvarem WORSE THAN TODAY"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Špatně položená otázka, přeškrtnutá vodorovně.",
+      "diagram_generator": "zaver",
+      "diagram": "bublina DO WE NEED A WORLD GOVERNMENT? s vodorovným škrtem; pod ní prázdné místo pro tu správnou"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Skutečná otázka jako dvě protichůdné podmínky na jedné ose. Ukazatel musí být v úzkém pásu mezi nimi, ne uprostřed obecně — ta úzkost je tvrzení.",
+      "diagram_generator": "zaver",
+      "diagram": "vodorovná osa, vlevo TOO WEAK TO STOP COUNTRIES, vpravo STRONG ENOUGH TO ENSLAVE HUMANITY; mezi nimi úzké ambrové pásmo s popiskem THE ONLY WORKABLE BAND"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Beat. Táž osa, jen to úzké pásmo je zvýrazněné a nad ním jediné slovo. Pauza za scénou.",
+      "diagram_generator": "zaver",
+      "diagram": "táž osa jako S80, ambrové pásmo zvýrazněné a nad ním velký nápis A HELL OF A PROBLEM",
+      "pause": 2.8
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Návrat k páteři. Přesně to rozvržení ze S15: dole lidé s plnou autoritou nad sebou, nahoře nic. Divák ho po devadesáti scénách zná a čte hned.",
+      "diagram_generator": "zaver",
+      "diagram": "tři pásma jako v S15: dole lidé s plnou šipkou od států dolů a popisky LAWS, COURTS, POLICE; nahoře prázdné pásmo s popiskem ANARCHY"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Co státy umí — čtyři plné šipky VODOROVNĚ, mezi sebou. Žádná nesměřuje nahoru.",
+      "diagram_generator": "zaver",
+      "diagram": "čtyři plné vodorovné šipky mezi státy s popisky NEGOTIATE, SIGN TREATIES, CREATE ORGANISATIONS, IMPOSE SANCTIONS; horní pásmo prázdné"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Co neumí. Do prázdného pásma se vsadí jediné slovo ENOUGH — a je čárkované a ztlumené, protože to nikdo neřekne.",
+      "diagram_generator": "zaver",
+      "diagram": "v prázdném horním pásmu velký čárkovaný a ztlumený nápis ENOUGH; pod ním drobně nobody with the ultimate authority to say it"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Dvě možnosti na časové ose, obě čárkované, obě stejně silné — video netvrdí, která.",
+      "diagram_generator": "zaver",
+      "diagram": "časová osa doprava, na ní dvě čárkované větve stejné tloušťky: jedna dlouhá s popiskem HUNDREDS OF YEARS, druhá krátká s popiskem A SINGLE DECADE"
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Tři spouštěče, všechny stejně velké — scénář žádný nepreferuje.",
+      "diagram_generator": "zaver",
+      "diagram": "tři stejné čárkované rámečky v řadě: A CATASTROPHE, A TECHNOLOGICAL BREAKTHROUGH, A COMMON THREAT"
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Beat a návrat k hvězdě. Táž kompozice jako S59, ale šipka teď míří OD Země ke hvězdě — odpověď. Pauza za scénou.",
+      "diagram_generator": "kontakt",
+      "diagram": "táž kompozice jako S59, ale ambrová šipka míří od Země ke hvězdě; pod tím drobně someone will answer",
+      "pause": 2.4
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Škrtnutý výčet jmen. Škrty jsou vodorovné, protože jsou to nápisy — a jsou to táž jména, která video používalo, takže se čte jako uzavření, ne jako nový výčet.",
+      "diagram_generator": "zaver",
+      "diagram": "čtyři nápisy pod sebou UNITED STATES, CHINA, EUROPE, THE COUNTRIES WE ARGUE ABOUT, všechny s vodorovným škrtem a ztlumené"
+    },
+    {
+      "id": "S89",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S89.png",
+      "note": "Klimax. Země z vesmíru je vyfotitelná a NASA ji má ve volném díle — kreslit ji nemá ani model, ani my. STATICKY: scéna trvá pár sekund a najíždění by z ní udělalo efekt místo výplaty.",
+      "archive": {
+        "provider": "nasa",
+        "query": "Blue Marble Earth",
+        "pick": 0,
+        "grade": {
+          "fit": 0.98,
+          "tint_amount": 0,
+          "vignette": false,
+          "saturation": 85,
+          "fit_bg": "#0c1220"
+        }
+      },
+      "pause": 2.8
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Poslední obraz je otázka, ne odpověď. Prázdný rámeček ze S62 se vrátí — pořád prázdný.",
+      "diagram_generator": "zaver",
+      "diagram": "koule Země a nad ní tentýž prázdný čárkovaný rámeček jako v S62, pod obrazem velký nápis WHO SPEAKS FOR HUMANITY?"
+    }
+  ]
+}

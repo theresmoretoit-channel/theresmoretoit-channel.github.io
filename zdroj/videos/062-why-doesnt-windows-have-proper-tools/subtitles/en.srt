@@ -1,0 +1,948 @@
+1
+00:00:00,400 --> 00:00:04,770
+Microsoft has the source code
+to Windows. They wrote the APIs.
+
+2
+00:00:05,520 --> 00:00:07,610
+They know exactly how it works inside.
+
+3
+00:00:08,850 --> 00:00:11,270
+They have had thirty years,
+and some of the largest
+
+4
+00:00:11,350 --> 00:00:13,960
+engineering teams in
+the history of software.
+
+5
+00:00:15,150 --> 00:00:16,460
+And yet.
+
+6
+00:00:17,809 --> 00:00:21,219
+Watch what a serious Windows
+user does on a brand new machine.
+
+7
+00:00:22,419 --> 00:00:24,469
+They install a different file manager.
+
+8
+00:00:24,599 --> 00:00:26,569
+A different search tool.
+
+9
+00:00:27,119 --> 00:00:28,689
+A different archive program.
+
+10
+00:00:29,623 --> 00:00:32,253
+Image viewer. Video player. Music player.
+
+11
+00:00:33,132 --> 00:00:35,762
+PDF reader. Text editor.
+
+12
+00:00:36,672 --> 00:00:37,982
+And the list goes on...
+
+13
+00:00:39,032 --> 00:00:42,022
+Before they do any actual
+work, they rebuild the toolbox.
+
+14
+00:00:43,142 --> 00:00:44,672
+So here is the question.
+
+15
+00:00:45,542 --> 00:00:49,192
+Why doesn't Windows come with the tools
+you need the moment the work gets harder?
+
+16
+00:00:52,302 --> 00:00:53,892
+Start with the file manager.
+
+17
+00:00:54,932 --> 00:00:56,712
+If you only want to open a folder and
+
+18
+00:00:56,792 --> 00:00:59,782
+double-click a document,
+File Explorer is fine.
+
+19
+00:01:01,092 --> 00:01:02,882
+But if you need to do more with files...
+
+20
+00:01:04,322 --> 00:01:06,552
+Compare two folders and sync them.
+
+21
+00:01:07,202 --> 00:01:09,592
+Rename three hundred files by a pattern.
+
+22
+00:01:10,362 --> 00:01:13,092
+See folder sizes without opening each one.
+
+23
+00:01:14,012 --> 00:01:18,002
+And you discover a program that has
+been doing all of that since 1993.
+
+24
+00:01:19,057 --> 00:01:23,267
+Two panels. Keyboard shortcuts.
+Synchronise. Compare. Rename. Archive.
+
+25
+00:01:24,231 --> 00:01:25,311
+Written by one developer.
+
+26
+00:01:25,391 --> 00:01:27,941
+In Switzerland. Called Christian Ghisler.
+
+27
+00:01:29,169 --> 00:01:31,859
+And here is the part that says
+more than the feature list.
+
+28
+00:01:32,979 --> 00:01:36,049
+For the first nine years, it
+was not called Total Commander.
+
+29
+00:01:37,339 --> 00:01:38,949
+It was called Windows Commander.
+
+30
+00:01:40,099 --> 00:01:44,549
+Then in the summer of 2002, a letter
+arrived from a firm of lawyers.
+
+31
+00:01:45,909 --> 00:01:49,679
+They represented, in their own words,
+the owner of the trademark Windows.
+
+32
+00:01:51,019 --> 00:01:53,229
+So Microsoft did not build that tool.
+
+33
+00:01:53,959 --> 00:01:56,049
+Microsoft made it change its name.
+
+34
+00:01:58,659 --> 00:02:01,039
+And before you decide that
+nobody in Redmond ever
+
+35
+00:02:01,119 --> 00:02:04,149
+had the idea of a proper
+two-panel file manager...
+
+36
+00:02:05,829 --> 00:02:07,779
+They did have it. They shipped it.
+
+37
+00:02:09,149 --> 00:02:10,329
+DOS Shell, 1988.
+
+38
+00:02:10,409 --> 00:02:13,379
+Left panel, right panel. In the box.
+
+39
+00:02:14,301 --> 00:02:16,031
+Microsoft removed it.
+
+40
+00:02:18,581 --> 00:02:20,711
+So the question sharpens immediately.
+
+41
+00:02:21,501 --> 00:02:23,531
+This isn't a gap nobody noticed.
+
+42
+00:02:24,621 --> 00:02:27,951
+By the way, if you like videos
+like this, consider subscribing.
+
+43
+00:02:28,721 --> 00:02:30,171
+It really helps the channel.
+
+44
+00:02:31,511 --> 00:02:33,601
+Keep going, because the pattern repeats.
+
+45
+00:02:34,801 --> 00:02:36,011
+Finding a file.
+
+46
+00:02:36,761 --> 00:02:40,531
+For years, the reliable answer was
+a tiny program called Everything.
+
+47
+00:02:41,751 --> 00:02:43,101
+You type three letters.
+
+48
+00:02:43,631 --> 00:02:45,181
+The results are already there.
+
+49
+00:02:45,921 --> 00:02:50,511
+No waiting. No wondering whether the
+index has got round to your folder yet.
+
+50
+00:02:51,581 --> 00:02:55,051
+And this one deserves a fair hearing,
+because the trick is not magic.
+
+51
+00:02:56,171 --> 00:03:01,321
+On an NTFS drive there is a master file
+table, a list of everything on the disk.
+
+52
+00:03:02,368 --> 00:03:05,088
+Everything reads that list
+once, then follows the
+
+53
+00:03:05,168 --> 00:03:07,878
+change journal the filesystem
+is already keeping.
+
+54
+00:03:08,858 --> 00:03:10,568
+That is why it feels instant.
+
+55
+00:03:11,748 --> 00:03:14,978
+Windows Search is slower because
+it is doing a harder job.
+
+56
+00:03:16,058 --> 00:03:20,228
+It reads inside your documents, and it
+respects who is allowed to see which file.
+
+57
+00:03:21,228 --> 00:03:22,938
+So that one is not a failure.
+
+58
+00:03:23,728 --> 00:03:25,558
+It's a different question being answered.
+
+59
+00:03:26,618 --> 00:03:28,928
+Hold on to that, because
+it is the exception.
+
+60
+00:03:31,778 --> 00:03:33,428
+Where did the disk space go?
+
+61
+00:03:34,318 --> 00:03:37,868
+Windows tells you that you have
+used nine hundred gigabytes.
+
+62
+00:03:38,318 --> 00:03:39,518
+Where?
+
+63
+00:03:39,950 --> 00:03:42,900
+And you end up installing a
+program that draws you a map.
+
+64
+00:03:44,030 --> 00:03:45,680
+And what about copying files?
+
+65
+00:03:46,710 --> 00:03:50,660
+Historically, if one file failed,
+Explorer cancelled the whole copy.
+
+66
+00:03:51,780 --> 00:03:53,190
+Which files made it?
+
+67
+00:03:53,920 --> 00:03:57,090
+Where do I pick it up?
+Can I skip just that one?
+
+68
+00:03:57,910 --> 00:03:59,730
+So people installed
+something that would skip
+
+69
+00:03:59,810 --> 00:04:02,320
+it, carry on, and tell
+them what it skipped.
+
+70
+00:04:03,600 --> 00:04:05,470
+Deleting has a different mystery.
+
+71
+00:04:06,260 --> 00:04:08,370
+That one has a whole video of its own.
+
+72
+00:04:09,290 --> 00:04:13,040
+What about archives?
+Windows opens a zip file.
+
+73
+00:04:13,825 --> 00:04:16,355
+But there is a difference
+between supporting a format...
+
+74
+00:04:17,815 --> 00:04:20,005
+...and giving someone a good tool for it.
+
+75
+00:04:20,895 --> 00:04:24,245
+Screenshots. Print screen,
+open Paint, paste, crop.
+
+76
+00:04:25,205 --> 00:04:27,515
+You had to do that for about twenty years.
+
+77
+00:04:28,615 --> 00:04:32,065
+And uninstalling software is
+where it gets genuinely strange.
+
+78
+00:04:33,325 --> 00:04:35,285
+Programs left files behind.
+
+79
+00:04:35,365 --> 00:04:37,325
+Registry entries.
+
+80
+00:04:37,405 --> 00:04:39,795
+Folders nobody would ever find.
+
+81
+00:04:40,545 --> 00:04:42,275
+So people installed better uninstallers.
+
+82
+00:04:44,012 --> 00:04:47,502
+But some of those uninstallers
+had a stranger job than that.
+
+83
+00:04:48,572 --> 00:04:49,772
+They watched.
+
+84
+00:04:50,716 --> 00:04:54,706
+You ran them first, then you ran the
+installer, and they recorded what changed.
+
+85
+00:04:55,976 --> 00:04:57,386
+Think about what that means.
+
+86
+00:04:58,966 --> 00:05:02,576
+You installed a program to watch
+another program install itself.
+
+87
+00:05:03,726 --> 00:05:06,536
+Because Windows itself
+did not necessarily know.
+
+88
+00:05:09,586 --> 00:05:11,616
+Which brings us to the sharpest case.
+
+89
+00:05:12,716 --> 00:05:13,916
+Not responding.
+
+90
+00:05:14,606 --> 00:05:17,216
+Task Manager knows. It
+says so on the screen.
+
+91
+00:05:18,296 --> 00:05:21,386
+But if you want to know why,
+you install Process Explorer.
+
+92
+00:05:22,176 --> 00:05:23,376
+Threads.
+
+93
+00:05:23,500 --> 00:05:24,700
+Handles.
+
+94
+00:05:24,910 --> 00:05:27,080
+Which file the program is waiting on.
+
+95
+00:05:27,570 --> 00:05:29,320
+Which process started it.
+
+96
+00:05:30,090 --> 00:05:32,880
+And Process Explorer came from
+a company called Sysinternals.
+
+97
+00:05:34,453 --> 00:05:35,963
+Microsoft bought them.
+
+98
+00:05:36,743 --> 00:05:37,943
+That was in 2006.
+
+99
+00:05:39,431 --> 00:05:41,241
+And they got the man who wrote it.
+
+100
+00:05:42,191 --> 00:05:46,221
+Mark Russinovich. Today,
+he is the CTO of Azure.
+
+101
+00:05:47,181 --> 00:05:51,231
+Microsoft has owned that tool, and the
+person who wrote it, for twenty years.
+
+102
+00:05:52,391 --> 00:05:54,101
+They host the download themselves.
+
+103
+00:05:55,431 --> 00:05:57,181
+And it is still not in Windows.
+
+104
+00:06:00,241 --> 00:06:03,111
+So the answer cannot be
+that Microsoft couldn't.
+
+105
+00:06:03,851 --> 00:06:06,881
+Which means the real question
+was never why they failed.
+
+106
+00:06:07,991 --> 00:06:09,741
+It's why they chose not to.
+
+107
+00:06:12,771 --> 00:06:14,061
+There are three explanations.
+
+108
+00:06:15,223 --> 00:06:19,213
+Only one of them has court
+records. Keep an eye on which.
+
+109
+00:06:20,057 --> 00:06:22,587
+The first is the one
+everybody already knows.
+
+110
+00:06:23,747 --> 00:06:25,657
+Windows was sold as a platform.
+
+111
+00:06:26,757 --> 00:06:30,587
+Microsoft did not want to own
+every application on your computer.
+
+112
+00:06:31,217 --> 00:06:33,567
+They wanted to own the
+floor it all stood on.
+
+113
+00:06:34,517 --> 00:06:37,397
+Need a file manager?
+Somebody will build one.
+
+114
+00:06:37,477 --> 00:06:38,417
+Need a disk tool?
+
+115
+00:06:38,497 --> 00:06:40,747
+Somebody will build one.
+
+116
+00:06:41,437 --> 00:06:43,207
+And that worked spectacularly.
+
+117
+00:06:43,740 --> 00:06:46,460
+But on its own it explains
+nothing, because Apple sells
+
+118
+00:06:46,540 --> 00:06:49,510
+a platform too, and Apple
+ships a screenshot tool.
+
+119
+00:06:52,210 --> 00:06:55,380
+So here is the second reason,
+and this one has court dates.
+
+120
+00:06:56,620 --> 00:07:00,850
+In 1998, the American government
+took Microsoft to court.
+
+121
+00:07:02,080 --> 00:07:03,830
+Not for writing a bad browser.
+
+122
+00:07:04,990 --> 00:07:06,420
+For putting it in Windows.
+
+123
+00:07:08,770 --> 00:07:11,420
+A judge ordered the
+company to be split in two.
+
+124
+00:07:12,430 --> 00:07:16,900
+That order was thrown out on appeal,
+and the case settled in 2001.
+
+125
+00:07:17,970 --> 00:07:20,430
+And the question underneath
+it, whether putting the browser
+
+126
+00:07:20,510 --> 00:07:24,280
+in Windows was legal at all,
+was never actually answered.
+
+127
+00:07:27,320 --> 00:07:32,290
+Then in 2004, the European Commission
+fined them nearly half a billion euros.
+
+128
+00:07:33,710 --> 00:07:37,760
+And ordered them to ship a version of
+Windows with the media player taken out.
+
+129
+00:07:38,920 --> 00:07:40,590
+Look at that sentence again.
+
+130
+00:07:41,530 --> 00:07:45,180
+A regulator required Microsoft
+to remove a tool from Windows.
+
+131
+00:07:48,290 --> 00:07:50,200
+And this is not ancient history.
+
+132
+00:07:51,280 --> 00:07:55,340
+Starting in 2016, an antivirus
+company complained to
+
+133
+00:07:55,420 --> 00:07:59,130
+regulators in Russia, then
+in Germany, then in Brussels.
+
+134
+00:08:00,600 --> 00:08:03,170
+Because Windows had
+started defending itself.
+
+135
+00:08:04,310 --> 00:08:09,820
+They withdrew the complaints in 2017, once
+Microsoft agreed to change how it behaved.
+
+136
+00:08:11,830 --> 00:08:13,880
+So put yourself in that meeting room.
+
+137
+00:08:14,920 --> 00:08:17,200
+Somebody proposes shipping
+the best archive tool
+
+138
+00:08:17,280 --> 00:08:20,230
+on the market, for free,
+to a billion machines.
+
+139
+00:08:21,380 --> 00:08:23,530
+There is a market for archive tools.
+
+140
+00:08:24,540 --> 00:08:28,810
+Shipping the best possible tool is the
+most expensive thing Microsoft can do.
+
+141
+00:08:31,860 --> 00:08:33,230
+And only for Microsoft.
+
+142
+00:08:34,100 --> 00:08:37,750
+A smaller company could ship
+exactly the same tool and be fine.
+
+143
+00:08:38,950 --> 00:08:43,340
+Once you are dominant, competition law
+limits how you can use that position.
+
+144
+00:08:44,250 --> 00:08:46,670
+And replacing the very companies
+that built their business
+
+145
+00:08:46,750 --> 00:08:50,160
+on your platform can start to
+look a lot like abusing it.
+
+146
+00:08:51,230 --> 00:08:53,620
+Microsoft was trapped by its own success.
+
+147
+00:08:54,890 --> 00:08:57,260
+And the third reason is the quietest one.
+
+148
+00:08:58,250 --> 00:09:02,040
+Putting something in Windows means
+supporting it for the next twenty years.
+
+149
+00:09:03,190 --> 00:09:06,040
+It has to keep working.
+It can never be removed.
+
+150
+00:09:06,650 --> 00:09:09,320
+It becomes somebody's
+whole workflow by Thursday.
+
+151
+00:09:10,590 --> 00:09:14,580
+Which is why, in 1996, Microsoft
+did something revealing.
+
+152
+00:09:15,800 --> 00:09:18,870
+They released a set of their own
+Windows utilities called PowerToys.
+
+153
+00:09:20,440 --> 00:09:23,780
+Written by Microsoft engineers.
+Downloaded separately.
+
+154
+00:09:23,860 --> 00:09:25,950
+And officially unsupported.
+
+155
+00:09:27,130 --> 00:09:28,780
+We made these. They're good.
+
+156
+00:09:29,250 --> 00:09:30,820
+We are not putting them in the box.
+
+157
+00:09:33,550 --> 00:09:36,520
+And that same rule explains
+the biggest gap of all.
+
+158
+00:09:37,510 --> 00:09:39,690
+Twenty programs. Twenty updaters.
+
+159
+00:09:39,770 --> 00:09:41,540
+One checks at startup.
+
+160
+00:09:41,770 --> 00:09:43,900
+One installs a service.
+
+161
+00:09:44,870 --> 00:09:47,050
+You log in on a Monday
+and six of them want
+
+162
+00:09:47,130 --> 00:09:49,640
+your attention before
+you have opened anything.
+
+163
+00:09:50,770 --> 00:09:52,800
+Linux solved this decades ago.
+
+164
+00:09:53,610 --> 00:09:55,420
+One command updates everything.
+
+165
+00:09:56,360 --> 00:09:57,670
+So why couldn't Windows?
+
+166
+00:09:58,463 --> 00:10:01,433
+Because that command works
+for a reason people forget.
+
+167
+00:10:02,573 --> 00:10:05,503
+A Linux distribution
+builds the software itself.
+
+168
+00:10:06,273 --> 00:10:09,463
+It compiles it, packages
+it, and knows what is in it.
+
+169
+00:10:10,323 --> 00:10:12,553
+Microsoft does not build your software.
+
+170
+00:10:13,583 --> 00:10:15,373
+Windows is not a distribution.
+
+171
+00:10:16,383 --> 00:10:18,853
+It is a floor that anyone
+may put anything on.
+
+172
+00:10:19,923 --> 00:10:23,713
+Which is exactly why that
+installer-watching program existed.
+
+173
+00:10:24,883 --> 00:10:27,173
+Nobody had the list. Not even Windows.
+
+174
+00:10:30,273 --> 00:10:31,683
+So that is the answer.
+
+175
+00:10:32,693 --> 00:10:35,563
+Platform, lawsuits, and the weight
+of anything you put in the box.
+
+176
+00:10:38,363 --> 00:10:39,993
+Except something has changed.
+
+177
+00:10:41,843 --> 00:10:44,153
+Because Windows now has a package manager.
+
+178
+00:10:45,203 --> 00:10:46,993
+It arrived in 2021.
+
+179
+00:10:47,843 --> 00:10:50,033
+One command, and your programs update.
+
+180
+00:10:50,913 --> 00:10:53,953
+Windows has a proper
+terminal now. It runs Linux.
+
+181
+00:10:54,033 --> 00:10:58,523
+PowerToys came back in 2019, open source.
+
+182
+00:10:59,413 --> 00:11:00,613
+So why now?
+
+183
+00:11:01,245 --> 00:11:03,935
+Partly because the thing
+being protected has moved.
+
+184
+00:11:05,135 --> 00:11:08,749
+Windows is not where Microsoft
+makes its money any more.
+
+185
+00:11:09,199 --> 00:11:12,289
+It now sits in the smallest of
+the company's three divisions.
+
+186
+00:11:13,539 --> 00:11:16,409
+That division brings in less
+than a fifth of the revenue.
+
+187
+00:11:17,199 --> 00:11:18,869
+It also contains the Xbox.
+
+188
+00:11:20,179 --> 00:11:22,949
+And nobody is going to court
+over a screenshot tool.
+
+189
+00:11:23,989 --> 00:11:27,719
+The fight moved to browsers, then
+to phones, then to the data centre.
+
+190
+00:11:29,035 --> 00:11:31,785
+The desktop is no longer
+the thing being defended.
+
+191
+00:11:33,795 --> 00:11:35,545
+But look closely at what shipped.
+
+192
+00:11:37,014 --> 00:11:38,424
+PowerToys, you download yourself.
+
+193
+00:11:39,134 --> 00:11:41,114
+Process Explorer, you download yourself.
+
+194
+00:11:41,194 --> 00:11:44,184
+Sysinternals, you download yourself.
+
+195
+00:11:45,144 --> 00:11:50,034
+Thirty years later, Microsoft still keeps
+its best tools one step outside Windows.
+
+196
+00:11:53,524 --> 00:11:55,394
+So the strange result stands.
+
+197
+00:11:56,434 --> 00:11:58,934
+Microsoft built a platform
+so successful that
+
+198
+00:11:59,014 --> 00:12:01,584
+other people built
+everything missing from it.
+
+199
+00:12:02,644 --> 00:12:05,564
+And because those tools
+existed, Microsoft never had to.
+
+200
+00:12:05,644 --> 00:12:09,494
+And for years, doing too
+much carried legal risk.
+
+201
+00:12:10,485 --> 00:12:12,605
+Windows turned out to
+be extraordinarily good
+
+202
+00:12:12,685 --> 00:12:15,215
+at hosting the tools it
+never shipped itself.
+
+203
+00:12:18,075 --> 00:12:24,105
+The user paid for that in complexity.
+A better file manager. A better search.
+
+204
+00:12:24,855 --> 00:12:26,745
+Every one of them updating separately.
+
+205
+00:12:27,865 --> 00:12:32,035
+Which means the real Windows experience
+was never install it and you're done.
+
+206
+00:12:33,255 --> 00:12:34,945
+It was: install Windows.
+
+207
+00:12:35,702 --> 00:12:38,892
+Then build your own operating
+environment around it.
+
+208
+00:12:39,812 --> 00:12:43,222
+And the strangest part isn't
+that Microsoft couldn't do it.
+
+209
+00:12:43,872 --> 00:12:46,372
+It's that for twenty years,
+being brilliant at this
+
+210
+00:12:46,452 --> 00:12:48,802
+was the one thing Windows
+could not afford to be.

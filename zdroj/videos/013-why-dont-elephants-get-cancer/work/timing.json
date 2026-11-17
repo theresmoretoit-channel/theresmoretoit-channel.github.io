@@ -1,0 +1,845 @@
+{
+  "total": 936.057,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 11.284,
+      "end": 12.084,
+      "dur": 11.684,
+      "text": "You have around thirty trillion cells. Every single one of them contains DNA. And every time one of those cells divides, there is a chance that something goes wrong."
+    },
+    {
+      "id": "S02",
+      "start": 12.084,
+      "speech_end": 17.398,
+      "end": 18.198,
+      "dur": 6.114,
+      "text": "A mutation. Most mutations are harmless. Some are repaired. Some are simply irrelevant."
+    },
+    {
+      "id": "S03",
+      "start": 18.198,
+      "speech_end": 29.253,
+      "end": 30.053,
+      "dur": 11.855,
+      "text": "But occasionally, a mutation gives a cell the ability to grow when it shouldn't. To ignore the body's instructions. To keep dividing. And eventually, to become cancer."
+    },
+    {
+      "id": "S04",
+      "start": 30.053,
+      "speech_end": 39.911,
+      "end": 40.711,
+      "dur": 10.658,
+      "text": "Now here's the strange part. You might expect that the biggest animals, with the most cells and the longest lifespans, would have the most cancer. But they don't."
+    },
+    {
+      "id": "S05",
+      "start": 40.711,
+      "speech_end": 46.087,
+      "end": 46.887,
+      "dur": 6.176,
+      "text": "And one of the most fascinating examples is standing right in front of us. An elephant."
+    },
+    {
+      "id": "S06",
+      "start": 46.887,
+      "speech_end": 55.209,
+      "end": 56.009,
+      "dur": 9.122,
+      "text": "An African elephant can weigh several tonnes and can live for many decades. Compared with a human, it has an enormous number of cells."
+    },
+    {
+      "id": "S07",
+      "start": 56.009,
+      "speech_end": 60.233,
+      "end": 61.033,
+      "dur": 5.024,
+      "text": "And every one of those cells is another potential starting point for cancer."
+    },
+    {
+      "id": "S08",
+      "start": 61.033,
+      "speech_end": 67.838,
+      "end": 68.638,
+      "dur": 7.605,
+      "text": "So if every cell had roughly the same probability of becoming cancerous, elephants should be walking cancer factories."
+    },
+    {
+      "id": "S09",
+      "start": 68.638,
+      "speech_end": 77.385,
+      "end": 78.185,
+      "dur": 9.547,
+      "text": "But observations across mammals don't show the simple relationship we might expect between body size, lifespan, and cancer mortality."
+    },
+    {
+      "id": "S10",
+      "start": 78.185,
+      "speech_end": 83.243,
+      "end": 84.043,
+      "dur": 5.858,
+      "text": "This is known as Peto's paradox. And it raises a remarkable question."
+    },
+    {
+      "id": "S11",
+      "start": 84.043,
+      "speech_end": 92.171,
+      "end": 92.971,
+      "dur": 8.928,
+      "text": "How did evolution allow huge animals to live for so long without cancer becoming an inevitable consequence of having so many cells?"
+    },
+    {
+      "id": "S12",
+      "start": 92.971,
+      "speech_end": 101.091,
+      "end": 103.491,
+      "dur": 10.52,
+      "text": "Elephants appear to have evolved several layers of protection. And one of the most famous involves something called TP53."
+    },
+    {
+      "id": "S13",
+      "start": 103.491,
+      "speech_end": 108.867,
+      "end": 109.667,
+      "dur": 6.176,
+      "text": "But before we talk about TP53, we need to understand what a gene actually is."
+    },
+    {
+      "id": "S14",
+      "start": 109.667,
+      "speech_end": 115.235,
+      "end": 116.035,
+      "dur": 6.368,
+      "text": "When people hear the word gene, they often imagine a tiny piece of DNA with a label on it."
+    },
+    {
+      "id": "S15",
+      "start": 116.035,
+      "speech_end": 121.624,
+      "end": 122.424,
+      "dur": 6.389,
+      "text": "But a gene isn't really a little object sitting inside the cell with a job description attached."
+    },
+    {
+      "id": "S16",
+      "start": 122.424,
+      "speech_end": 133.583,
+      "end": 134.383,
+      "dur": 11.959,
+      "text": "DNA is a huge molecular information system. And a gene is a particular region of that DNA, containing information the cell can use to produce a functional product."
+    },
+    {
+      "id": "S17",
+      "start": 134.383,
+      "speech_end": 141.743,
+      "end": 142.543,
+      "dur": 8.16,
+      "text": "Often, that product is a protein. And proteins are the machines of the cell. They build things. Transport things. Send signals."
+    },
+    {
+      "id": "S18",
+      "start": 142.543,
+      "speech_end": 151.742,
+      "end": 152.542,
+      "dur": 9.999,
+      "text": "So here's a useful simplification. DNA is the information. A gene is a specific instruction encoded in that information."
+    },
+    {
+      "id": "S19",
+      "start": 152.542,
+      "speech_end": 162.677,
+      "end": 163.477,
+      "dur": 10.935,
+      "text": "A protein is often the molecular machine produced from that instruction. And this distinction becomes extremely important when we talk about TP53."
+    },
+    {
+      "id": "S20",
+      "start": 163.477,
+      "speech_end": 171.117,
+      "end": 173.317,
+      "dur": 9.84,
+      "text": "Because TP53 is the gene. And p53 is the protein produced from it. They are not the same thing."
+    },
+    {
+      "id": "S21",
+      "start": 173.317,
+      "speech_end": 181.127,
+      "end": 181.927,
+      "dur": 8.61,
+      "text": "Inside your cells is a protein called p53. It is one of the most important tumour-suppressing proteins we know."
+    },
+    {
+      "id": "S22",
+      "start": 181.927,
+      "speech_end": 186.706,
+      "end": 187.506,
+      "dur": 5.579,
+      "text": "You can think of it as one of the cell's security systems. Imagine a factory."
+    },
+    {
+      "id": "S23",
+      "start": 187.506,
+      "speech_end": 196.191,
+      "end": 196.991,
+      "dur": 9.485,
+      "text": "If one of the machines starts behaving dangerously, someone has to stop the production line. That's roughly what p53 can help do."
+    },
+    {
+      "id": "S24",
+      "start": 196.991,
+      "speech_end": 204.372,
+      "end": 205.172,
+      "dur": 8.181,
+      "text": "When a cell experiences serious stress, including DNA damage, the p53 pathway can become activated."
+    },
+    {
+      "id": "S25",
+      "start": 205.172,
+      "speech_end": 217.315,
+      "end": 218.115,
+      "dur": 12.943,
+      "text": "p53 can then switch on genes that stop the cell cycle. Genes that give the cell time to repair its DNA. Or, if the damage is too severe, genes that trigger apoptosis."
+    },
+    {
+      "id": "S26",
+      "start": 218.115,
+      "speech_end": 224.453,
+      "end": 225.253,
+      "dur": 7.138,
+      "text": "Apoptosis is essentially programmed cell death. The cell deliberately dismantles itself."
+    },
+    {
+      "id": "S27",
+      "start": 225.253,
+      "speech_end": 230.01,
+      "end": 230.81,
+      "dur": 5.557,
+      "text": "Not because the organism has failed. Quite the opposite. It's a sacrifice."
+    },
+    {
+      "id": "S28",
+      "start": 230.81,
+      "speech_end": 236.01,
+      "end": 238.41,
+      "dur": 7.6,
+      "text": "One damaged cell dies so that the organism doesn't have to deal with a tumour later."
+    },
+    {
+      "id": "S29",
+      "start": 238.41,
+      "speech_end": 244.897,
+      "end": 245.697,
+      "dur": 7.287,
+      "text": "Now imagine what happens when this security system stops working. A cell acquires mutations."
+    },
+    {
+      "id": "S30",
+      "start": 245.697,
+      "speech_end": 253.998,
+      "end": 254.798,
+      "dur": 9.101,
+      "text": "Normally, damage-control systems should detect the problem. But suppose the cell also loses an important tumour-suppressor mechanism."
+    },
+    {
+      "id": "S31",
+      "start": 254.798,
+      "speech_end": 264.509,
+      "end": 265.309,
+      "dur": 10.511,
+      "text": "Now the cell can continue dividing. More divisions create more mutations. Some of those mutations make the cell even better at surviving."
+    },
+    {
+      "id": "S32",
+      "start": 265.309,
+      "speech_end": 271.602,
+      "end": 272.402,
+      "dur": 7.093,
+      "text": "Eventually, you can get a population of cells that no longer behaves like normal tissue. That's cancer."
+    },
+    {
+      "id": "S33",
+      "start": 272.402,
+      "speech_end": 279.293,
+      "end": 280.093,
+      "dur": 7.691,
+      "text": "And TP53 is so important that mutations affecting it occur in a huge fraction of human cancers."
+    },
+    {
+      "id": "S34",
+      "start": 280.093,
+      "speech_end": 293.393,
+      "end": 295.793,
+      "dur": 15.7,
+      "text": "The National Cancer Institute estimates that roughly half of human cancers have TP53 mutations or deletions. So p53 is one of the central guardians against cancer in our cells."
+    },
+    {
+      "id": "S35",
+      "start": 295.793,
+      "speech_end": 301.981,
+      "end": 302.781,
+      "dur": 6.989,
+      "text": "So how many TP53 genes do humans have? Here's where the story gets interesting."
+    },
+    {
+      "id": "S36",
+      "start": 302.781,
+      "speech_end": 310.657,
+      "end": 311.457,
+      "dur": 8.676,
+      "text": "A typical human cell has two copies of TP53. One inherited from your mother. One from your father."
+    },
+    {
+      "id": "S37",
+      "start": 311.457,
+      "speech_end": 318.284,
+      "end": 319.084,
+      "dur": 7.627,
+      "text": "So when people say that elephants have twenty copies of TP53 while humans have one, that's misleading."
+    },
+    {
+      "id": "S38",
+      "start": 319.084,
+      "speech_end": 325.004,
+      "end": 327.204,
+      "dur": 8.12,
+      "text": "Humans have one TP53 gene location, but normally two copies, or two alleles."
+    },
+    {
+      "id": "S39",
+      "start": 327.204,
+      "speech_end": 333.156,
+      "end": 333.956,
+      "dur": 6.752,
+      "text": "African elephants, on the other hand, have a remarkable expansion of the TP53 family."
+    },
+    {
+      "id": "S40",
+      "start": 333.956,
+      "speech_end": 340.527,
+      "end": 341.327,
+      "dur": 7.371,
+      "text": "The original studies identified about twenty TP53-related copies in the elephant genome."
+    },
+    {
+      "id": "S41",
+      "start": 341.327,
+      "speech_end": 350.971,
+      "end": 351.771,
+      "dur": 10.445,
+      "text": "That includes the normal TP53 gene plus numerous retrogenes. Additional copies derived from an RNA-based copying process."
+    },
+    {
+      "id": "S42",
+      "start": 351.771,
+      "speech_end": 357.361,
+      "end": 358.161,
+      "dur": 6.389,
+      "text": "And some of these elephant TP53-related sequences are transcriptionally active."
+    },
+    {
+      "id": "S43",
+      "start": 358.161,
+      "speech_end": 370.067,
+      "end": 370.867,
+      "dur": 12.706,
+      "text": "More importantly, elephant cells show a striking response to DNA damage. They are much more likely than normal human cells to undergo apoptosis after serious DNA damage."
+    },
+    {
+      "id": "S44",
+      "start": 370.867,
+      "speech_end": 380.019,
+      "end": 380.819,
+      "dur": 9.952,
+      "text": "In one experimental study, elephant lymphocytes showed substantially higher rates of apoptosis following DNA damage than human lymphocytes."
+    },
+    {
+      "id": "S45",
+      "start": 380.819,
+      "speech_end": 383.559,
+      "end": 386.359,
+      "dur": 5.54,
+      "text": "But there's a catch. A very important catch."
+    },
+    {
+      "id": "S46",
+      "start": 386.359,
+      "speech_end": 396.24,
+      "end": 397.04,
+      "dur": 10.681,
+      "text": "For years, the popular explanation was essentially this. Elephants are huge. Huge animals have more cells. More cells should mean more cancer."
+    },
+    {
+      "id": "S47",
+      "start": 397.04,
+      "speech_end": 407.263,
+      "end": 408.063,
+      "dur": 11.023,
+      "text": "So evolution gave elephants twenty copies of TP53. Problem solved. It's a great story. But biology is rarely that convenient."
+    },
+    {
+      "id": "S48",
+      "start": 408.063,
+      "speech_end": 420.118,
+      "end": 420.918,
+      "dur": 12.855,
+      "text": "Some of the extra elephant TP53 copies are retrogenes, and many of them are truncated. They are not simply twenty identical copies of the normal human TP53 gene."
+    },
+    {
+      "id": "S49",
+      "start": 420.918,
+      "speech_end": 431.757,
+      "end": 432.557,
+      "dur": 11.639,
+      "text": "A twenty twenty-two evolutionary analysis argued something different. Many of these retrogenes may have accumulated largely through duplication and genetic drift."
+    },
+    {
+      "id": "S50",
+      "start": 432.557,
+      "speech_end": 438.317,
+      "end": 439.117,
+      "dur": 6.56,
+      "text": "Not because natural selection specifically favoured every one of them as an anti-cancer defence."
+    },
+    {
+      "id": "S51",
+      "start": 439.117,
+      "speech_end": 444.515,
+      "end": 445.315,
+      "dur": 6.197,
+      "text": "That doesn't mean the elephant TP53 system is irrelevant. Quite the opposite."
+    },
+    {
+      "id": "S52",
+      "start": 445.315,
+      "speech_end": 453.229,
+      "end": 454.029,
+      "dur": 8.715,
+      "text": "Other experiments indicate that some elephant TP53-related sequences can influence the DNA-damage response."
+    },
+    {
+      "id": "S53",
+      "start": 454.029,
+      "speech_end": 462.541,
+      "end": 463.341,
+      "dur": 9.312,
+      "text": "But it means we shouldn't say that scientists proved that twenty copies of TP53 are the reason elephants don't get cancer. They haven't."
+    },
+    {
+      "id": "S54",
+      "start": 463.341,
+      "speech_end": 469.311,
+      "end": 471.711,
+      "dur": 8.37,
+      "text": "The real story is more interesting. We are still figuring out exactly what evolution did."
+    },
+    {
+      "id": "S55",
+      "start": 471.711,
+      "speech_end": 478.369,
+      "end": 479.169,
+      "dur": 7.458,
+      "text": "And then there's the zombie gene. Elephants have another fascinating trick. It's called LIF6."
+    },
+    {
+      "id": "S56",
+      "start": 479.169,
+      "speech_end": 486.956,
+      "end": 487.756,
+      "dur": 8.587,
+      "text": "At some point in the evolutionary history of elephants, a copy of an old gene that had become inactive appears to have been repurposed."
+    },
+    {
+      "id": "S57",
+      "start": 487.756,
+      "speech_end": 499.961,
+      "end": 500.761,
+      "dur": 13.005,
+      "text": "When p53 detects serious cellular damage, LIF6 can be activated. The resulting protein can contribute to mitochondrial damage and push the cell toward apoptosis."
+    },
+    {
+      "id": "S58",
+      "start": 500.761,
+      "speech_end": 511.092,
+      "end": 511.892,
+      "dur": 11.131,
+      "text": "In other words, p53 says one thing. This cell is damaged. And LIF6 turns that warning into something stronger. Then kill the cell."
+    },
+    {
+      "id": "S59",
+      "start": 511.892,
+      "speech_end": 522.492,
+      "end": 524.892,
+      "dur": 13.0,
+      "text": "It's a beautiful example of evolution reusing old genetic material. A gene that had effectively become dormant was recruited into a new biological system."
+    },
+    {
+      "id": "S60",
+      "start": 524.892,
+      "speech_end": 531.443,
+      "end": 532.243,
+      "dur": 7.351,
+      "text": "But elephants don't have one magic anti-cancer gene. And this is probably the most important lesson."
+    },
+    {
+      "id": "S61",
+      "start": 532.243,
+      "speech_end": 536.512,
+      "end": 537.312,
+      "dur": 5.069,
+      "text": "Elephants aren't cancer-proof. They can and do develop cancer."
+    },
+    {
+      "id": "S62",
+      "start": 537.312,
+      "speech_end": 545.184,
+      "end": 545.984,
+      "dur": 8.672,
+      "text": "The famous estimate from one large study was that cancer accounted for around four point eight per cent of recorded elephant mortality."
+    },
+    {
+      "id": "S63",
+      "start": 545.984,
+      "speech_end": 553.837,
+      "end": 554.637,
+      "dur": 8.653,
+      "text": "That is far below the fraction recorded for humans in the dataset used by that study. But we should be careful with those numbers."
+    },
+    {
+      "id": "S64",
+      "start": 554.637,
+      "speech_end": 565.307,
+      "end": 566.107,
+      "dur": 11.471,
+      "text": "Comparing cancer rates between wild animals and humans is extremely difficult. Animals aren't monitored the same way. Their deaths aren't always investigated."
+    },
+    {
+      "id": "S65",
+      "start": 566.107,
+      "speech_end": 573.384,
+      "end": 574.184,
+      "dur": 8.077,
+      "text": "Some tumours are never detected. And veterinary records are nowhere near as complete as human medical records."
+    },
+    {
+      "id": "S66",
+      "start": 574.184,
+      "speech_end": 577.704,
+      "end": 578.504,
+      "dur": 4.32,
+      "text": "So the claim that elephants never get cancer is simply wrong."
+    },
+    {
+      "id": "S67",
+      "start": 578.504,
+      "speech_end": 587.805,
+      "end": 588.605,
+      "dur": 10.101,
+      "text": "The scientifically interesting statement is that elephants appear to experience less cancer than we would expect from their enormous size and long lifespan."
+    },
+    {
+      "id": "S68",
+      "start": 588.605,
+      "speech_end": 591.135,
+      "end": 593.735,
+      "dur": 5.13,
+      "text": "And that is the real Peto's paradox."
+    },
+    {
+      "id": "S69",
+      "start": 593.735,
+      "speech_end": 599.455,
+      "end": 600.255,
+      "dur": 6.519,
+      "text": "So why don't humans simply copy the elephant? This is where things get really exciting."
+    },
+    {
+      "id": "S70",
+      "start": 600.255,
+      "speech_end": 609.473,
+      "end": 610.273,
+      "dur": 10.018,
+      "text": "Imagine we could somehow make human cells behave more like elephant cells. More sensitive to DNA damage. More willing to stop dividing."
+    },
+    {
+      "id": "S71",
+      "start": 610.273,
+      "speech_end": 617.741,
+      "end": 618.541,
+      "dur": 8.269,
+      "text": "More willing to destroy themselves when something goes badly wrong. Wouldn't that make us resistant to cancer? Maybe."
+    },
+    {
+      "id": "S72",
+      "start": 618.541,
+      "speech_end": 629.02,
+      "end": 629.82,
+      "dur": 11.279,
+      "text": "But biology immediately throws another problem at us. Your body doesn't only need to destroy damaged cells. It also needs to keep healthy cells alive."
+    },
+    {
+      "id": "S73",
+      "start": 629.82,
+      "speech_end": 638.656,
+      "end": 639.456,
+      "dur": 9.636,
+      "text": "Every day, cells are damaged. Every day, cells are replaced. Your tissues need to regenerate. Your immune system needs to function."
+    },
+    {
+      "id": "S74",
+      "start": 639.456,
+      "speech_end": 650.767,
+      "end": 651.567,
+      "dur": 12.111,
+      "text": "Your wounds need to heal. Your organs need to maintain themselves. If we simply made p53 permanently hyperactive, we could destroy perfectly useful cells."
+    },
+    {
+      "id": "S75",
+      "start": 651.567,
+      "speech_end": 656.945,
+      "end": 657.745,
+      "dur": 6.178,
+      "text": "So cancer protection is a balancing act. Too little control, and you get cancer."
+    },
+    {
+      "id": "S76",
+      "start": 657.745,
+      "speech_end": 667.185,
+      "end": 669.585,
+      "dur": 11.84,
+      "text": "Too much control, and you get damaged tissue, impaired regeneration, or other biological problems. Evolution has to find the sweet spot."
+    },
+    {
+      "id": "S77",
+      "start": 669.585,
+      "speech_end": 675.709,
+      "end": 676.509,
+      "dur": 6.925,
+      "text": "And humans are already trying to manipulate this system. This isn't just theoretical biology."
+    },
+    {
+      "id": "S78",
+      "start": 676.509,
+      "speech_end": 689.525,
+      "end": 690.325,
+      "dur": 13.815,
+      "text": "Scientists are actively studying the p53 pathway as a target for cancer treatment. One strategy is to restore or reactivate p53 in cancer cells where the pathway has been damaged."
+    },
+    {
+      "id": "S79",
+      "start": 690.325,
+      "speech_end": 698.689,
+      "end": 699.489,
+      "dur": 9.165,
+      "text": "Another is to manipulate proteins that regulate p53. One particularly important regulator is MDM2."
+    },
+    {
+      "id": "S80",
+      "start": 699.489,
+      "speech_end": 709.689,
+      "end": 710.489,
+      "dur": 10.999,
+      "text": "MDM2 normally helps keep p53 under control. And researchers are investigating how the human and elephant versions of this regulator differ."
+    },
+    {
+      "id": "S81",
+      "start": 710.489,
+      "speech_end": 716.483,
+      "end": 717.283,
+      "dur": 6.795,
+      "text": "Recent experiments have even tested elephant MDM2 variants in human cellular models."
+    },
+    {
+      "id": "S82",
+      "start": 717.283,
+      "speech_end": 723.214,
+      "end": 724.014,
+      "dur": 6.731,
+      "text": "So the elephant isn't necessarily going to donate a single magical anti-cancer gene to humanity."
+    },
+    {
+      "id": "S83",
+      "start": 724.014,
+      "speech_end": 730.484,
+      "end": 732.684,
+      "dur": 8.67,
+      "text": "Instead, it may give scientists something more valuable. New ideas about how to control the system."
+    },
+    {
+      "id": "S84",
+      "start": 732.684,
+      "speech_end": 740.793,
+      "end": 741.593,
+      "dur": 8.909,
+      "text": "And here's where we can return to Peto's paradox. Elephants aren't the only animals that have evolved unusual cancer defences."
+    },
+    {
+      "id": "S85",
+      "start": 741.593,
+      "speech_end": 751.111,
+      "end": 751.911,
+      "dur": 10.319,
+      "text": "Different long-lived and large-bodied species have found different solutions. Some alter DNA repair. Some change cell-cycle control."
+    },
+    {
+      "id": "S86",
+      "start": 751.911,
+      "speech_end": 761.321,
+      "end": 762.121,
+      "dur": 10.21,
+      "text": "Some appear to have unusual mechanisms for eliminating damaged cells. Some have evolved changes in metabolism or tissue organisation."
+    },
+    {
+      "id": "S87",
+      "start": 762.121,
+      "speech_end": 771.201,
+      "end": 773.601,
+      "dur": 11.48,
+      "text": "Evolution has been running a gigantic experiment for hundreds of millions of years. There isn't necessarily one universal solution to cancer."
+    },
+    {
+      "id": "S88",
+      "start": 773.601,
+      "speech_end": 783.504,
+      "end": 784.304,
+      "dur": 10.703,
+      "text": "And perhaps this is the deepest part of the story. Cancer isn't really an external enemy. It's a consequence of something fundamental about life."
+    },
+    {
+      "id": "S89",
+      "start": 784.304,
+      "speech_end": 792.244,
+      "end": 793.044,
+      "dur": 8.74,
+      "text": "Your body is made of trillions of cells. Those cells have to divide. They have to copy enormous amounts of DNA."
+    },
+    {
+      "id": "S90",
+      "start": 793.044,
+      "speech_end": 802.84,
+      "end": 803.64,
+      "dur": 10.596,
+      "text": "They have to survive. They have to respond to their environment. And every time a cell reproduces, evolution is happening on a microscopic scale."
+    },
+    {
+      "id": "S91",
+      "start": 803.64,
+      "speech_end": 807.48,
+      "end": 810.08,
+      "dur": 6.44,
+      "text": "Cancer is essentially evolution happening inside your body."
+    },
+    {
+      "id": "S92",
+      "start": 810.08,
+      "speech_end": 816.077,
+      "end": 816.877,
+      "dur": 6.797,
+      "text": "A cell acquires a mutation. Then another. A cell that grows faster gets an advantage."
+    },
+    {
+      "id": "S93",
+      "start": 816.877,
+      "speech_end": 826.203,
+      "end": 827.003,
+      "dur": 10.127,
+      "text": "A cell that ignores a signal gets an advantage. A cell that avoids death gets an advantage. And eventually, the result can become a tumour."
+    },
+    {
+      "id": "S94",
+      "start": 827.003,
+      "speech_end": 836.583,
+      "end": 838.783,
+      "dur": 11.78,
+      "text": "Our bodies therefore have to fight an evolutionary process occurring inside us. And p53 is one of the mechanisms we have evolved to fight it."
+    },
+    {
+      "id": "S95",
+      "start": 838.783,
+      "speech_end": 848.684,
+      "end": 849.484,
+      "dur": 10.701,
+      "text": "So could we become more like elephants? Maybe. But probably not by simply inserting nineteen extra copies of TP53 into every human cell."
+    },
+    {
+      "id": "S96",
+      "start": 849.484,
+      "speech_end": 862.203,
+      "end": 863.003,
+      "dur": 13.519,
+      "text": "The future is likely to be much more subtle. We might learn how elephant p53 interacts with MDM2. We might discover completely different anti-cancer mechanisms in other animals."
+    },
+    {
+      "id": "S97",
+      "start": 863.003,
+      "speech_end": 870.898,
+      "end": 871.698,
+      "dur": 8.695,
+      "text": "And eventually, we might combine several of these ideas into new forms of cancer prevention or treatment. But we're not there yet."
+    },
+    {
+      "id": "S98",
+      "start": 871.698,
+      "speech_end": 877.458,
+      "end": 878.258,
+      "dur": 6.56,
+      "text": "And perhaps the most exciting thing is that we don't even know all the tricks nature has already invented."
+    },
+    {
+      "id": "S99",
+      "start": 878.258,
+      "speech_end": 884.34,
+      "end": 885.14,
+      "dur": 6.882,
+      "text": "The elephant has changed the question. For a long time, the question was, why do we get cancer?"
+    },
+    {
+      "id": "S100",
+      "start": 885.14,
+      "speech_end": 891.606,
+      "end": 892.406,
+      "dur": 7.266,
+      "text": "But Peto's paradox gives us another question. Why don't elephants get as much cancer as they should?"
+    },
+    {
+      "id": "S101",
+      "start": 892.406,
+      "speech_end": 902.072,
+      "end": 902.872,
+      "dur": 10.466,
+      "text": "And that question is incredibly powerful. Because nature has already produced animals that are enormous, long-lived, and remarkably resistant to cancer."
+    },
+    {
+      "id": "S102",
+      "start": 902.872,
+      "speech_end": 910.343,
+      "end": 911.143,
+      "dur": 8.271,
+      "text": "We don't have to invent the idea from scratch. We can study them. We can understand what evolution changed."
+    },
+    {
+      "id": "S103",
+      "start": 911.143,
+      "speech_end": 917.521,
+      "end": 918.321,
+      "dur": 7.179,
+      "text": "And perhaps one day, we will be able to borrow some of those solutions. Not to turn humans into elephants."
+    },
+    {
+      "id": "S104",
+      "start": 918.321,
+      "speech_end": 927.271,
+      "end": 928.071,
+      "dur": 9.749,
+      "text": "But to make our own cells a little better at one of life's oldest problems. Knowing when to repair themselves... and knowing when it's time to die."
+    },
+    {
+      "id": "S105",
+      "start": 928.071,
+      "speech_end": 934.857,
+      "end": 936.057,
+      "dur": 7.986,
+      "text": "Nature may have already solved parts of the cancer problem. We just haven't figured out all of its solutions yet."
+    }
+  ]
+}

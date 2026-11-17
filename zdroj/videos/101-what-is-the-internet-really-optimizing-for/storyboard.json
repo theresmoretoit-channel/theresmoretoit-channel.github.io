@@ -1,0 +1,712 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `dvojice()`: dvě karty videa na pevných souřadnicích. Levá (DLOUHÉ) ambrově: uvnitř checklist RESEARCH / FACT-CHECK / SCRIPT / VISUALS, všechno odškrtnuté; pod ní počítadlo VIEWS s ambrovým otazníkem. Pravá karta jen čárkovaně, prázdná",
+   "note": "První obrazovka nese myšlenku: viditelná práce, neviditelný výsledek (otazník u zhlédnutí). Zavádí páteř — dvě karty, které se vrátí v S09, S13, S16–S19, S25–S31, S48, S51, S57 a v závěru S67–S68. Bez čísel: scénář je hypotetický („Imagine…“).",
+   "vycet": 0.3,
+   "pause": 0.5
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ: pravá karta (KRÁTKÉ) se objeví, uvnitř svislý obdélník shortu; počítadlo pod ní ambrově HUNDREDS OF VIEWS · IN A FEW HOURS. Levá ztlumená",
+   "note": "Žádné konkrétní číslo ani logo TikToku — scénář říká jen „hundreds“."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ: levá karta znovu plně, její počítadlo tlumeně STRUGGLES TO FIND ANYONE; pravá zůstává s ambrovým počítadlem",
+   "note": "Kontrast, na kterém stojí otázka videa."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ ztlumená; pod ní tři čárkované karty: ONE EXAMPLE · MAYBE MORE APPEALING · MAYBE A DIFFERENT AUDIENCE",
+   "note": "Výhrady jsou hypotézy → čárkovaně (konvence 2). Nic není ambrové, ještě se nic netvrdí."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ ztlumená, nad ní velká otázka WHAT IS THE INTERNET REWARDING? ambrově",
+   "note": "Hlavní otázka videa. Konec úvodního bloku.",
+   "pause": 2.2
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ: levá karta čárkovaně posunutá výš s odznakem #1, nad tím IF IT REWARDED QUALITY OR EFFORT…",
+   "note": "Podmiňovací věta = hypotéza → čárkovaně. Posun karty je jediná výjimka z pevné geometrie v těle videa a je čárkovaný, takže se čte jako „kdyby“, ne jako stav. Karta na pevných souřadnicích zůstává ztlumeně pod ní."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "zleva tvůrci (tři siluety, tlumeně), uprostřed rámeček THE SYSTEM ambrově s okem, vpravo dav MILLIONS; šipky tvůrci → systém → dav",
+   "note": "Šipky jdou ve směru obsahu: od tvůrců přes systém k divákům. Podmět věty („the system deciding what millions get to see“) je systém, proto je ambrový on, ne tvůrci.",
+   "pause": 0.5
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "system",
+   "diagram": "rámeček THE SYSTEM s okem nahoře; pod ním karta videa, jejíž obsah je zakrytý čárkovaným otazníkem; nápis IT CAN'T SEE WHAT A VIDEO IS WORTH",
+   "note": "`system()` (rámeček s okem) zavedený v S07 se vrací tady a v S31, S44, S52, S54, S64, S65."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "system",
+   "diagram": "PÁTEŘ: levá karta CAREFUL EXPLANATION, pravá POINTLESS STUNT; mezi nimi čárkovaná váha s otazníkem MORE VALUABLE?; nad tím `system()` s přeškrtnutým okem",
+   "note": "Systém nerozhodne, která je cennější → otazník, ne odpověď."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "system",
+   "diagram": "PÁTEŘ ztlumená; pod kartami řada pěti signálů ambrově: CLICK · WATCH TIME · SKIP · LIKE · SHARE (kurzor, stopky, šipka, srdce, šipka ven)",
+   "note": "Signály ze scénáře, nic navíc (factcheck S08–S10: Goodrow 2021; SKIP jako obecný příklad).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "system",
+   "diagram": "nahoře lupa s čísly (EVERY NUMBER IS A CLUE) ≠ čárkovaný rámeček WHAT PEOPLE VALUE; dole ambrová lupa → šipka → terč, pod tím THE CLUE BECOMES THE GOAL",
+   "note": "„Clue ≠ value“ a „clue becomes the goal“. Terč (`terc()`) se vrátí v Goodhartovi S32 a v S65.",
+   "pause": 1.0
+  },
+  {
+   "id": "S11b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "cta": true,
+   "pause": 2.4,
+   "note": "CTA podle docs/cta.md — dědí S11 (statický diagram), konec úvodní porce výplat (~1:35), hned před YouTube 2012."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "youtube",
+   "diagram": "velký kurzor s nápisem CLICKS ambrově na vahách, které se kloní k němu; nahoře YOUTUBE · BEFORE 2012",
+   "note": "Bez loga YouTube (jen jméno). „Leaned heavily on clicks“ = váha převážená na stranu kliků — táž `vahy()`, která se v S14 překlopí.",
+   "pause": 0.5
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "youtube",
+   "diagram": "PÁTEŘ: pravá karta s kurzorem na náhledu; vedle ✓ THE TITLE WORKED · ✓ THE THUMBNAIL WORKED, pod tím čárkovaně THE VIDEO? s otazníkem",
+   "note": "Klik dokazuje jen náhled a titul (factcheck S13, YouTube 2012).",
+   "pause": 0.5
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "youtube",
+   "diagram": "`vahy()` jako v S12, ale překlopené k WATCH TIME (stopky ambrově); CLICKS na lehčí straně zůstávají (tlumeně); nahoře 2012",
+   "note": "„Shifted its weight“, ne „switched“ — kliky na vahách ZŮSTÁVAJÍ (factcheck S14). Proto váha a ne přeškrtnutí."
+  },
+  {
+   "id": "S14b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14b.png",
+   "diagram_generator": "youtube",
+   "diagram": "karta zdroje: DEEP NEURAL NETWORKS FOR YOUTUBE RECOMMENDATIONS · COVINGTON, ADAMS, SARGIN · GOOGLE · RECSYS 2016; pod ní doslovný citát „RANKING BY CLICK-THROUGH RATE OFTEN PROMOTES DECEPTIVE VIDEOS THAT THE USER DOES NOT COMPLETE“; dole ambrově CLICKBAIT",
+   "note": "Citát doslovně z PDF (factcheck S14b), včetně „often“. Text v diagramu, ne snímek PDF."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "youtube",
+   "diagram": "stopky WATCH TIME; vpravo ✓ A BETTER CLUE · ✓ HARDER TO FAKE; dole WATCH TIME ≠ QUALITY",
+   "note": "„≠“ místo přeškrtnutí: doba sledování není špatně, jen to není kvalita.",
+   "pause": 1.4
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: levá karta s atomem NUCLEAR FUSION ambrově; pod ní řada tří kroků THE PROBLEM → THE PHYSICS → WHY CARE; pravá karta prázdná čárkovaná",
+   "note": "„It has to stop you leaving“: kroky = minuty, než se video rozjede."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: pravá karta s melounem a šipkou dolů (padá ze střechy) ambrově, pod ní NO INTRODUCTION; levá s fúzí ztlumená",
+   "note": "Meloun je motiv „snadného“ obsahu celým videem (S19, S57)."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: pravá karta s melounem; pod ní tři řádky: BACKGROUND KNOWLEDGE — NONE · TO REMEMBER — NOTHING · WAIT — NOT LONG",
+   "note": "Výčet z voiceoveru doslova.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: obě karty; pod levou čárkovaně a tlumeně MATTERS MORE?, pod pravou ambrově EASIER TO CONSUME",
+   "note": "Meloun nevyhrává tím, že je důležitější (čárkovaně = to neplatí), ale tím, že je snazší."
+  },
+  {
+   "id": "S20",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S20.png",
+   "prompt": "a person lying in bed in a dark bedroom at night, seen from behind and above, face not visible, the only light is the cold glow of a smartphone screen held above them, light spilling on the pillow, deep shadows, quiet and lonely",
+   "note": "„Picture yourself scrolling.“ Atmosférický předěl do bloku o feedu; obličej záměrně ne (negative `faces`), displej bez UI. Kolo 2 (seed 2011, ležící na zádech s telefonem nad hlavou) dalo rozsvícenou lampu a žádný telefon — zamítnuto; ponechán seed 267773434 z kola 1 (schoulený člověk s telefonem v posteli u okna).",
+   "seed": 267773434
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "feed",
+   "diagram": "PÁTEŘ BLOKU `telefon_feed()`: svislý telefon uprostřed, v něm karta s grafem A DEFINITION AND A GRAPH · THE CLIMATE; vlevo YOU COULD LEARN SOMETHING, vpravo ambrově EFFORT FIRST",
+   "note": "Telefon na týchž souřadnicích v S21–S24 a S44, mění se jen obsah karty."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "feed",
+   "diagram": "telefon: karta se spícím psem (Z Z Z), šipka SWIPE nahoru; vpravo ambrově INSTANT REWARD",
+   "note": "Pes kreslený siluetou, ne fotka."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "feed",
+   "diagram": "telefon: tři karty nad sebou ujíždějí nahoru — AN ABSURD STUNT · AN ARGUMENT · SOMETHING UNBELIEVABLE, mezi nimi SWIPE",
+   "note": "Výčet = tři karty, nic víc. ANIMACE (poslech draftu 2026-10-11): na každé „Swipe.“ odjede karta nahoru a zdola přijede další — pes (z S22) → stunt → argument → unbelievable. Klip vyrábí diagrams/gen/anim_s23.py podle work/words.json; po každém tts+align pustit znovu. images/S23.png je jen statická náhrada.",
+   "vycet": 0.3,
+   "anim": "anim_s23"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "feed",
+   "diagram": "telefon: spodem vykukuje další karta ONE SWIPE AWAY; vlevo TRYING SOMETHING NEW — FREE, vpravo LEAVING — FREE (ambrově)",
+   "note": "„And so does leaving“ je pointa, proto ambrově."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: obě karty, nad každou čárkovaný štítek (SHORT · BRILLIANT? / LONG · TERRIBLE?); uprostřed přeškrtnutý nápis LENGTH",
+   "note": "Výhrada: délka není to podstatné. Přeškrtnutý NÁPIS, ne křížek přes karty."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: levá karta COMPLICATED IDEA s dlouhou stopkovou výsečí NEEDS TIME; nahoře ambrové stopky s tenkou výsečí A FEW SECONDS",
+   "note": "Stopky = čas, který tvůrce dostane (ambrově, o tom je řeč)."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "meloun",
+   "diagram": "PÁTEŘ: pravá karta s velkým vykřičníkem A SHOCKING IMAGE ambrově, pod ní INTERESTING INSTANTLY; pod levou tlumeně INTERESTING LATER",
+   "note": "Otázka „Guess which one has the easier job“ — odpověď je v obraze, a to je záměr: scéna ji říká taky.",
+   "pause": 2.4
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "pozornost",
+   "diagram": "tři rámečky v řadě YOU · PLATFORM · ADVERTISERS; nahoře šipky ATTENTION zleva doprava (ambrově), dole šipka MONEY zprava doleva",
+   "note": "Směr šipek odpovídá skutečnosti: pozornost od diváka k inzerentům, peníze od inzerentů k platformě. Nepřisuzuje „all“: factcheck S28 „most“."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "pozornost",
+   "diagram": "PÁTEŘ: levá karta CAREFUL EXPLANATION ambrově, nad ní stopky 20 MIN; pod ní SOMETHING FINALLY MAKES SENSE",
+   "note": "Dvě dvacetiminutovky na týchž kartách páteře.",
+   "pause": 0.5
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "pozornost",
+   "diagram": "PÁTEŘ: pravá karta vyplněná mřížkou drobných karet (A FEW HUNDRED CLIPS), několik ambrových, většina skoro zmizelá — MOSTLY FORGOTTEN",
+   "note": "Většina mřížky ztlumená = zapomenuté.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "pozornost",
+   "diagram": "PÁTEŘ: obě karty, pod každou ENGAGEMENT a mezi nimi =; pod levou navíc ambrově TAUGHT YOU SOMETHING",
+   "note": "Systém vidí rovnost, divák rozdíl.",
+   "pause": 2.4
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "goodhart",
+   "diagram": "nahoře GOODHART'S LAW ambrově; pod tím věta WHEN A MEASURE BECOMES A TARGET, IT STOPS BEING A GOOD MEASURE; dole lupa → terč",
+   "note": "Citát NENÍ podepsaný Goodhartem — je to populární formulace (Strathernová), factcheck S32. Proto bez uvozovek a bez jména pod ním.",
+   "pause": 1.0
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "goodhart",
+   "diagram": "TABULKA `goodhart_tabulka()`: tři řádky CLICKS / WATCH TIME / REACTIONS, sloupce AS A MEASURE / AS A TARGET; rozsvícený řádek CLICKS: A FAIR SIGN OF INTEREST → TITLES WRITTEN TO WIN THEM",
+   "note": "Tabulka na pevných souřadnicích S33, S34, S40 — každá scéna doplní jeden řádek.",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "goodhart",
+   "diagram": "tabulka: řádek CLICKS hotový tlumeně, rozsvícený WATCH TIME: A FAIR SIGN OF ENGAGEMENT → WAS IT WELL SPENT?",
+   "note": "Otazník: doba sledování to nepozná, netvrdí se, že to bylo zbytečné.",
+   "pause": 1.0
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "goodhart",
+   "diagram": "komentářová bublina REACTIONS uprostřed, z ní dvě čárkované větve: IT MATTERS TO PEOPLE · IT MADE THEM FURIOUS",
+   "note": "Obě větve čárkovaně — z reakce se nepozná, která platí."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "facebook",
+   "diagram": "nahoře FACEBOOK · 2018; řádek feedu se dvěma pruhy: LIKES (tlumeně, kratší) a COMMENTS & REACTIONS (ambrově, delší) se šipkou nahoru FAVOURED",
+   "note": "Délky pruhů NEJSOU data — jen „víc“ proti „míň“; proto bez čísel a bez osy."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "facebook",
+   "diagram": "dvě bubliny nad sebou: ITS OWN RESEARCHERS — THE CHANGE WAS REWARDING OUTRAGE · PUBLISHERS — OUR MOST DIVISIVE POSTS SPREAD; dole tlumeně WALL STREET JOURNAL · FACEBOOK FILES · 2021",
+   "note": "Bubliny = co kdo řekl (konvence 4), ne naše tvrzení. Bez loga BuzzFeedu i Facebooku."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "facebook",
+   "diagram": "čárkovaná bublina (A POLISH PARTY, BY ITS OWN ESTIMATE); v ní dva čárkované pruhy BEFORE ~50 % a AFTER ~80 % NEGATIVE",
+   "note": "Odhad strany, ne měření (factcheck S38, Batorski) → čárkovaně a uvnitř bubliny. Čísla s assertem.",
+   "pause": 0.5
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "facebook",
+   "diagram": "bublina strany BECAUSE OF THE CHANGE TO THE FEED; v ní THE FEED CHANGE · 2018 → čárkovaně ABOUT 80 % NEGATIVE",
+   "note": "Příčinu tvrdí strana, ne my (factcheck S39) — šipka je proto uvnitř její bubliny.",
+   "pause": 1.0
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "goodhart",
+   "diagram": "tabulka: rozsvícený řádek REACTIONS: A SIGN THAT IT MATTERS → IT CHANGED WHAT THEY POSTED; nahoře ambrově AT FULL STRENGTH",
+   "note": "Výplata tabulky z S33–S34.",
+   "pause": 2.6
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "publikum",
+   "diagram": "dav siluet; nad ním čárkovaná karta ARE PEOPLE GETTING STUPIDER?, pod ní tlumeně PROBABLY WRONG",
+   "note": "Otázka = čárkovaně. Dav bez obličejů."
+  },
+  {
+   "id": "S42",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S42.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Pollice Verso Gerome",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "note": "PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-11 pod tímto dotazem: Gérôme, Pollice Verso (1872), celý obraz s gladiátorem v aréně, public domain. Pick 1 (výřez tribuny s vestálkami) zamítnut — gladiátor v něm není."
+  },
+  {
+   "id": "S42b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42b.png",
+   "diagram_generator": "publikum",
+   "diagram": "silueta zlaté rybky v kruhovém akváriu; vedle v uvozovkách čárkovaně „HUMANS: 8 SECONDS · GOLDFISH: 9 SECONDS“ s otazníkem",
+   "note": "Rybí údaj NESMÍ vypadat jako fakt (factcheck S42b): uvozovky, čárkovaně, otazník."
+  },
+  {
+   "id": "S42c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42c.png",
+   "diagram_generator": "publikum",
+   "diagram": "karta zdroje MICROSOFT CANADA · ATTENTION SPANS · 2015; pod ní čárkovaný prázdný rámeček THE STUDY BEHIND IT — NOT FOUND; rybka tlumeně čárkovaně",
+   "note": "„Or the goldfish.“ — rybka je čárkovaná, tedy ani ona nemá doklad.",
+   "pause": 2.2
+  },
+  {
+   "id": "S43",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "family watching television 1950s",
+    "pick": 1,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "note": "PICK 1 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-11: Evert F. Baumgardner, Family watching television (1958), NARA, public domain — „A broadcaster used to choose what was on tonight.“ Na výšku → `fit`; static, protože u skupinového snímku zoom ořezává hlavy."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "feed",
+   "diagram": "telefon jako v S21–S24; nad ním `system()`; smyčka šipek WHAT YOU JUST DID → system → THE NEXT THING, popisek EVERY FEW SECONDS",
+   "note": "Kruh šipek = zpětná vazba; telefon je týž jako v bloku feedu."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "feed",
+   "diagram": "dvě řady: tlumeně YOU → ENTERTAINMENT (přeškrtnutý nápis SEARCH), ambrově ENTERTAINMENT → YOU",
+   "note": "Obrácená šipka nese celou větu."
+  },
+  {
+   "id": "S46",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S46.png",
+   "prompt": "a vast apartment city at night under a black sky, no moon, cold deep blue darkness, thousands of small windows each lit by the cold blue-white glow of a single screen, a few warm amber windows, enormous scale, seen from far above",
+   "note": "„Across millions of people… a cultural force.“ Atmosférický obraz měřítka, bez lidí. Kolo 1 (seed bez zápisu, původní prompt) dalo teplé město při západu — proti funkci; kolo 2 s „black sky, no moon, cold blue“ sedí.",
+   "seed": 4601
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "publikum",
+   "diagram": "dav siluet uvnitř velkého rámečku THE ENVIRONMENT ambrově; nad davem přeškrtnutý nápis ARE PEOPLE STUPID?",
+   "note": "Rámeček = prostředí; ambrová patří jemu, ne lidem.",
+   "pause": 2.4
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "publikum",
+   "diagram": "PÁTEŘ: obě karty; pod levou LOW VIEW COUNT ≠ GOOD, pod pravou HIGH VIEW COUNT ≠ BAD",
+   "note": "Symetricky — ani jedna strana nevyhrává.",
+   "pause": 0.5
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "publikum",
+   "diagram": "svislý žebříček pěti řádků: nahoře dva ambrové EASIEST TO CONSUME, pod nimi tři tlumené a čím níž, tím slabší — EVERYTHING ELSE",
+   "note": "Pořadí = viditelnost, ne hodnota (konvence: velikost a pořadí tvrdí důležitost — tady záměrně).",
+   "pause": 2.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "reseni",
+   "diagram": "nahoře ambrově SO WHAT'S THE ANSWER?; pod tím dvě čárkované karty BAN SHORT VIDEOS? · BLAME THE VIEWERS?",
+   "note": "Otázky = čárkovaně; odpověď „No“ přijde v S51."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "reseni",
+   "diagram": "rozvržení S50, obě čárkované otázky přeškrtnuté (BAN SHORT VIDEOS? · BLAME PEOPLE FOR WATCHING SILLY CLIPS?)",
+   "note": "Beat rozdělením scény (poslech draftu 2026-10-11): za „No.“ chyběla pauza, Kokoro slil „No. Sometimes…“. Obraz = S50 s přeškrtnutými otázkami — scénář je výslovně odmítá (konvence 3). Návětí je poslední otázka S50, aby „No.“ znělo jako odpověď.",
+   "naveti": "Blame people for watching silly clips?",
+   "pause": 0.7
+  },
+  {
+   "id": "S51b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51b.png",
+   "diagram_generator": "reseni",
+   "diagram": "PÁTEŘ: levá karta s planetou a hvězdami ASTROPHYSICS, pravá s robotí kočkou A CAT LIKE A BROKEN ROBOT; pod obě ✓, nahoře BOTH ARE FINE",
+   "note": "Obě karty plně, obě se zatržítkem — žádná nevyhrává."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "reseni",
+   "diagram": "velký rámeček dveří THE MAIN DOORWAY, nad ním `system()`; uvnitř dveří číslo, které systém honí, ≠ WHAT WE VALUE",
+   "note": "≠ místo přeškrtnutí: číslo není špatně, jen není totéž."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "reseni",
+   "diagram": "pět hvězd 1–5 (YOUTUBE SURVEYS), pod tím ambrově VALUED WATCH TIME · TIME PEOPLE SAY WAS WELL SPENT",
+   "note": "Goodrow 2021 (factcheck S53). Hvězdy prázdné — žádné hodnocení se nevymýšlí."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "reseni",
+   "diagram": "✓ A BETTER CLUE; čárkovaná karta STILL A GUESS ABOUT WHAT YOU VALUE; vedle `system()` s popiskem PAID BY YOUR ATTENTION",
+   "note": "Odhad = čárkovaně (factcheck S54, model předpovídá odpovědi).",
+   "pause": 1.4
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "reseni",
+   "diagram": "MOST POPULAR ≠ BEST, velké, uprostřed",
+   "note": "Jediná věta scény, jediný tvar.",
+   "pause": 0.5
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "reseni",
+   "diagram": "dvě karty nad sebou: WHAT DO PEOPLE WANT TO WATCH RIGHT NOW? · WHAT DO WE WANT TO STILL BE THERE IN TEN YEARS? (ambrově)",
+   "note": "Druhá otázka je o čem je řeč → ambrově."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "reseni",
+   "diagram": "PÁTEŘ: obě karty plně (fúze ambrově, meloun) na společné vodorovné čáře; pod nimi IDEAS THAT TAKE AN HOUR · TEN-SECOND DISTRACTIONS",
+   "note": "Výplata páteře v těle videa: meloun a fúze vedle sebe, ani jedna neodchází.",
+   "pause": 3.0
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "fermi",
+   "diagram": "hvězdné pole (deterministické tečky), uprostřed 13.8 BILLION YEARS, pod tím HUNDREDS OF BILLIONS OF STARS · IN OUR GALAXY ALONE",
+   "note": "Čísla z factcheck S58, s assertem. Hvězdy jsou tečky z `hvezdy()` — téže funkce v S59, S62–S63.",
+   "pause": 0.5
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "fermi",
+   "diagram": "hvězdné pole tlumeně, uprostřed ambrově WHERE IS EVERYBODY?, nad tím THE FERMI PARADOX",
+   "note": ""
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "fermi",
+   "diagram": "tři čárkované karty: THEY DESTROY THEMSELVES · TOO FAR APART · LIFE IS RARE; hvězdné pole tlumeně",
+   "note": "„Maybe“ → čárkovaně.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "fermi",
+   "diagram": "čárkované kroky SMARTPHONES → RECOMMENDATION ALGORITHMS → INCREASINGLY RIDICULOUS VIDEOS, poslední ambrově",
+   "note": "Vtip, ale hypotetický → čárkovaně.",
+   "pause": 1.0
+  },
+  {
+   "id": "S62",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S62.png",
+   "prompt": "an abandoned observatory dome on a hilltop at night under a vast starry sky, the dome shutter half open, a large telescope covered in dust and cobwebs, beside it an unfinished rocket on a rusted launch gantry, overgrown, silent",
+   "note": "„Their spaceships stay unfinished. Their telescopes gather dust.“ Přesně kotva stylu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "fermi",
+   "diagram": "hvězdné pole, vpravo vzdálená hvězda a planeta; vlevo velká obrazovka s bazénem a padajícími gumovými kachnami (A THOUSAND RUBBER DUCKS) ambrově",
+   "note": "Kachny kreslené kódem — SDXL by vtip nedotáhl.",
+   "pause": 2.2
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "fermi",
+   "diagram": "nahoře tlumeně NO EVIDENCE; uprostřed `system()` neutrálně (ne ambrově), pod ním přeškrtnutý nápis EVIL",
+   "note": "Systém není ambrový ani výrazný — nemá působit jako padouch."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "fermi",
+   "diagram": "`system()` míří šipkou do terče DOING WHAT IT WAS BUILT TO DO (ambrově); pod tím přeškrtnutý nápis HATE SCIENCE",
+   "note": "Terč z S11 a S32 — teď zasažený.",
+   "pause": 2.6
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "zaver",
+   "diagram": "v DOLNÍ polovině široká řada drobných karet (mřížka) — knihovna všeho; nahoře nic",
+   "note": "Závěrečná obrazovka: posledních ~20 s kreslí jen pod H/2.",
+   "pause": 1.4
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ ZMENŠENÁ (0,75) do dolní poloviny: levá karta s hvězdami ambrově, pravá s UP NEXT tlumeně; nadpis TO UNDERSTAND THE UNIVERSE…",
+   "note": "Páteř se smí pohnout jen v závěrečné desce; tady se zmenší a sjede dolů, aby nahoře bylo místo pro dlaždici a odběr.",
+   "pause": 0.5
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ ZMENŠENÁ: levá tlumeně, pravá karta UP NEXT s odpočtem ambrově; nadpis …OR TO PASS THE TIME",
+   "note": "„Until the next video begins“ — a dlaždice dalšího videa YouTube se objeví přesně tady.",
+   "pause": 3.0
+  }
+ ]
+}

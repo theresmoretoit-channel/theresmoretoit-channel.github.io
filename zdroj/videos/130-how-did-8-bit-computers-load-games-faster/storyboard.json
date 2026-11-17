@@ -1,0 +1,958 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "pause": 5.4,
+   "example": {
+    "zvuk": "zvuk/S01.flac",
+    "gain_db": -8
+   },
+   "anim": "anim_s01",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `cesta()`: vlevo magnetofon, uprostřed páska se skutečným signálem programu (pulzy ROM, 855/1710 T), vpravo televizor se Spectrem. Nad páskou malý štítek STANDARD LOADER. V pauze na obrazovce běží pruhy nahrávání ze snímků emulátoru (anim_s01.py).",
+   "note": "První obrazovka nese myšlenku, ne atmosféru (ne SDXL): týž program se tu nahraje dvakrát. Zvuk v pauze: konec úvodního tónu + data programu ze 121 rychlostí ROM (`zvuk/ukazky.py`, výřez jako `121/zvuk/ukazky.s01_vyrez()`). Pulzy na pásce kreslí `prubeh()` z týchž T-stavů, ze kterých vzniká zvuk. Pod ukázkou nehraje hudba (S01 není v music_sections)."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "pause": 3.4,
+   "example": {
+    "zvuk": "zvuk/S02.flac",
+    "gain_db": -8
+   },
+   "anim": "anim_s02",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř beze změny, týž magnetofon, kazeta a televizor. Na pásce tytéž bity, pulzy poloviční délky (426/839 T jako Skool Daze), tedy hustší. Štítek nad páskou: SAME PROGRAM · SAME COMPUTER · SAME CASSETTE se třemi fajfkami. V pauze pruhy z emulátoru, užší.",
+   "note": "Zvuk v pauze: týž úvodní tón a táž data přes náš turbo loader 2× (kopie LD-BYTES se změněnými konstantami jako Skool Daze, factcheck-zaklad §1f), OVĚŘENO v emulátoru `zx` (program se po nahrání vykreslí). Štítek zatím nevyzrazuje rychlost, to dělá S03. Turbo pruhy kreslí náš loader, ne ROM, takže barvy musí odpovídat tomu, co loader skutečně přepíná (kopie ROM = modrá/žlutá)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "vycet": 0.3,
+   "diagram_generator": "uvod",
+   "diagram": "Dva vodorovné časové pruhy pod sebou ve stejném měřítku: STANDARD (data programu, X s) a TURBO přesně poloviční, ambrově. Vpravo HALF THE TIME. Pod nimi ikony kazety a magnetofonu, každá s rovnítkem: SAME.",
+   "note": "Délky pruhů se berou ze ZMĚŘENÝCH délek datových bloků S01.flac a S02.flac, assert 2:1. Pruh je jen DATA: úvodní tón má turbo stejně dlouhý (Skool Daze nechal pilot ROM), takže celé nahrávání není přesně poloviční — zapsat do factcheck.md. Pozor na rozpor s Atari (Turbo 2000 magnetofon upravoval): S03 mluví o téhle ukázce, ne o všech strojích."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ v plném tvaru: MAGNETOFON → páska → POČÍTAČ (televizor se Spectrem). U počítače ambrová ikona ucha a nápis THE WAY IT LISTENS. Magnetofon a páska ztlumené.",
+   "note": "Zavedení osy videa: KDE se signál poslouchá (dekóduje). Ucho je sdílený tvar `ucho()` a sedí vždy na jednom ze dvou pevných míst páteře (u magnetofonu / u počítače). Vrátí se v S43–S44 (C64), S54 (Atari), S60–S62 (Turbo 2000), S86 a S89 (výplata)."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "pause": 1.6,
+   "diagram_generator": "uvod",
+   "diagram": "Dvě otázky pod sebou. Nahoře velká HOW DID THEY LOAD FASTER?, pod ní menší WHY NOT FROM THE START? a vedle malé stopky.",
+   "note": "Hlavní otázka v obraze. Druhá se splatí v S13–S22 (ROM má rezervu, limit je kazeta)."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "pulzy",
+   "diagram": "Páska se skutečným signálem (rým ze 121), ztlumená. Nad ní malá karta EARLIER VIDEO s miniaturou tvaru ze 121 (páska + magnetofon), pod páskou BITS AS PULSES.",
+   "note": "Odkaz na 121 jen obrazem a jednou větou; závěrečná obrazovka nabídne 121 jako další video."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "pulzy",
+   "diagram": "RÝM `dvojice()` ze 121: vlevo krátká dvojice pulzů (855 + 855 T) s velkou 0, vpravo dlouhá (1 710 + 1 710 T) s velkou 1. Obě vidět od prvního snímku, jedno měřítko PX_NA_T.",
+   "note": "Assert 2:1 z T-stavů. Barevně nic nevyhrává: obě dvojice INK, ambrová až v S09 pro nové pulzy.",
+   "pause": 0.5
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "pause": 1.4,
+   "diagram_generator": "pulzy",
+   "diagram": "Nahoře velké ≈ 1,400 BITS / SECOND. Pod tím stopky s ≈ 5:00 a popisek TYPICAL 48K GAME.",
+   "note": "Čísla ze 121 (≈1 364 bit/s, ~5 min na 48K hru). „About“ / „around“ = ≈."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "pulzy",
+   "diagram": "Tytéž dvě dvojice na týchž souřadnicích jako v S07, ale čárkovaně ztlumené (původní délka), a přes ně ambrové pulzy POLOVIČNÍ délky začínající na stejném místě. Nad tím ½.",
+   "note": "Čárkovaně = to, co tam bylo, ne hypotéza; v hlavičce _kit.py zapsat výjimku konvence (čárkovaný OBRYS ztlumeně = původní stav). Assert: nové = původní / 2."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "pulzy",
+   "diagram": "Dva pásy pod sebou, oba dlouhé přesně JEDNU SEKUNDU (kóta 1 SECOND nad nimi): nahoře pulzy ROM (ztlumeně), dole poloviční pulzy (ambrově), dvakrát víc bitů. U spodního ×2 BITS. Vlevo malá krátká a dlouhá dvojice nové rychlosti s 0 a 1: pořád 1:2.",
+   "note": "Kreslí se výřez, ne celá sekunda (1 400 bitů by byla šeď): kóta říká časový úsek a počet pulzů v obou pásech se počítá z téže délky, assert poměru 2:1."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "pulzy",
+   "diagram": "Uprostřed TURBO LOADER = SHORTER PULSES, pod tím malá ambrová hustá páska.",
+   "note": "Odpověď na titul v jedné desce do ~0:55. Druhá věta scény (není to jen úvaha) míří na S12."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "pause": 2.4,
+   "diagram_generator": "pulzy",
+   "diagram": "Karta hry: SKOOL DAZE · 1984 (jen text, žádný obal). Pod ní dvě řady pulzů ze ZMĚŘENÝCH délek: ROM 855 / 1 710 T a SKOOL DAZE 426 / 839 T, vpravo velké 2×.",
+   "note": "Délky změřené z originální TZX (factcheck-zaklad §3g). Obal ani snímek hry ne: autorské právo, a scéna stojí na čísle. Konec bloku „platí se“ (~1:05), proto delší pauza."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "rom",
+   "diagram": "Obrys Spectra (`spectrum_obrys()` ze 121), nad ním velký otazník a WHY NOT BY ITSELF?",
+   "note": "Otevírá blok „proč to ROM neudělala sama“ (S13–S22)."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "rom",
+   "diagram": "Zjednodušená deska Spectra s jedním ambrovým čipem ROM a popiskem ROM · THE LOADER LIVES HERE. Vedle stopky s přeškrtnutým nápisem SECONDS (text_skrtnuty).",
+   "note": "Deska je schéma, ne fotka: jen obrys a pouzdra, ROM na správném místě není nutné, ale nesmí tvrdit nic jiného (žádné popisky dalších čipů). Škrtá se nápis, ne stopky."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "rom",
+   "diagram": "Jedna dvojice pulzů na časové ose. Od každé hrany šrafovaný úsek WAIT (pevné čekání) a za ním řada drobných čárek = počítadlo, jedna čárka na průchod smyčkou (58 T). Pod tím COUNT: 1, 2, 3 … a součet průchodů pro tuto dvojici.",
+   "note": "Délky z ROM: čekání 358 T (+ režie, celkem 465 T na hranu), průchod 58 T, dvojice nuly 1 710 T. Počet čárek se SPOČÍTÁ (assert), ne nakreslí od oka."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "pause": 0.5,
+   "diagram_generator": "rom",
+   "diagram": "RÝM `osa_prahu()`: vodorovná osa délky dvojice (T-stavy) s ambrovou svislou DĚLICÍ ČAROU, vlevo pásmo ZERO, vpravo ONE. Na ose značky skutečné nuly (1 710 T) a jedničky (3 420 T). U čáry ONE NUMBER IN THE ROM.",
+   "note": "Dělicí čára = konstanta $CB ⇒ 2 438 T (factcheck-zaklad §1c). Osa prahu je druhý rým videa: vrátí se v S17, S18, S28 (Skool Daze posune čáru) a v MZ-800 S75–S82 (pevný okamžik × čára podle pásky). Kratší pauza, S17 navazuje spojkou."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "rom",
+   "diagram": "Osa prahu beze změny. Úsek od značky nuly k dělicí čáře ambrově vybarvený, nad ním +43 %.",
+   "note": "Assert: (2 438 − 1 710) / 1 710 = 0,43. Hlas říká „more than forty per cent“, obraz přesné číslo.",
+   "pause": 0.5
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "pause": 1.4,
+   "diagram_generator": "rom",
+   "diagram": "Osa prahu ztlumená v horní části. Pod ní ošoupaná kazeta a levný magnetofon a natažená nula, která pořád leží v pásmu ZERO, fajfka a STILL LOADS.",
+   "note": "Rezerva je argument z KÓDU, ne z úmyslu autorů ROM (factcheck-zaklad §2a: výrok autorů neexistuje). Obraz proto neříká DESIGNED FOR, jen STILL LOADS. VÝZVA K ODBĚRU ZA TOUTO SCÉNOU: podle odhadu stopáže končí řeč S18 v ~1:58 (S22 až ~2:32, mimo okno 1:30–2:15). Levý dolní roh (x < 563, y > 1080) prázdný v S18 i v S19.",
+   "vyzva": true
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "rom",
+   "diagram": "Dvojice pulzů nuly a pod ní hustá řada teček = okamžiky, kdy procesor kouká na signál. Nahoře ≈ 60,000 CHECKS A SECOND, vedle CPU: NOT THE LIMIT.",
+   "note": "Tečky po 58 T (assert počtu na dvojici ≈ 29). 3 500 000 / 58 ≈ 60 300. Výzva ze S18 přechází přes první ~3,5 s: levý dolní roh prázdný."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "pause": 0.4,
+   "diagram_generator": "rom",
+   "diagram": "Dva řádky obdélníkového průběhu v témže časovém měřítku: nahoře nuly ROM 2 kHz, dole nuly turba 4 kHz (ambrově). Vlevo CASSETTE: THE LIMIT. Šipka 2 kHz → 4 kHz.",
+   "note": "Frekvence z celého cyklu nuly: 3 500 000 / 1 710 = 2 047 Hz, turbo 2× 4 094 Hz (factcheck-zaklad §2d). Kratší pauza, S21 navazuje spojkou."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "rom",
+   "diagram": "Magnetofonová hlava mírně šikmo proti stopě (úhel přehnaný, popisek 0.2°). Vpravo dva sloupce ztráty: 2 kHz −0.7 dB, 4 kHz −3.1 dB, delší ambrově.",
+   "note": "Čísla jsou SPOČÍTANÁ (sinc vzorec, 1,5 mm stopa, 4,76 cm/s, factcheck-zaklad §2d), ne změřená: pod sloupci malé COMPUTED · HEAD 0.2° OFF. Úhel v kresbě přehnaný a popsaný číslem, ne kreslený v měřítku."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "pause": 2.4,
+   "diagram_generator": "rom",
+   "diagram": "Stupnice rychlosti 1× až 3× vodorovně uprostřed. U 2× ambrová značka MOST PEOPLE, za ní pásmo ERRORS čárkovaně. Nahoře karta zdroje YOUR SINCLAIR · MAY 1986. Levá dolní čtvrtina prázdná.",
+   "note": "YS 5/1986 (Turboloader): „most of you should be able to run at a minimum of 3100 baud“ ≈ 2,07× ROM. Pásmo chyb čárkovaně, protože hranice není jedno číslo (SC7: chyby od 2700 baud). Konec bloku."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "zavadec",
+   "diagram": "Uprostřed A STRANGER PROBLEM a malý otazník.",
+   "note": "Krátký beat před hlavní novou otázkou.",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "pause": 1.4,
+   "diagram_generator": "zavadec",
+   "diagram": "Smyčka: vlevo ROM (zná jen SLOW), vpravo krabička FAST LOADER, mezi nimi šipka LOAD s velkým otazníkem: kdo nahraje ten, který umí rychle?",
+   "note": "Šipka čárkovaně: zatím se neví, jestli jde. Splatí se v S29 plnou šipkou."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "zavadec",
+   "diagram": "RÝM `mapa_pasky()`: pruh pásky zleva doprava, první krátký úsek SLOW (řídké pulzy, ambrově), za ním dlouhý FAST (husté pulzy, ztlumeně).",
+   "note": "Mapa pásky je třetí rým (S25–S30, S36–S38, S42, S68, S74, S79). Délky úseků v poměru skutečného času, ne bajtů."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "zavadec",
+   "diagram": "Mapa pásky beze změny. Od úseku SLOW šipka k čipu ROM, nad šipkou LOADED LIKE ANY OTHER PROGRAM.",
+   "note": "Šipka míří od pásky k ROM, tedy ROM čte pásku (podmět věty = ROM).",
+   "pause": 0.6
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "zavadec",
+   "diagram": "Dva panely kódu vedle sebe neproporcionálním písmem: vlevo ROM LD-BYTES (ztlumeně), vpravo COPY IN RAM, řádek po řádku stejný, tři čísla ambrově jiná. Nad pravým IN THE SIMPLEST CASE.",
+   "note": "Výpis je SKUTEČNÝ úryvek LD-BYTES / LD-EDGE-1 (LD A,$16 · LD B,$B0 · LD A,$CB / CP B), zkrácený na ~8 řádků, ne vymyšlený asembler. Hodnoty vpravo z disassembly Skool Daze (Dymond). Zdroj v obraze malým písmem."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "zavadec",
+   "diagram": "Tabulka tří řádků SKOOL DAZE, 1984: A SHORTER WAIT 22 → 11 · A NEW STARTING COUNT 176 → 225 · A NEW DIVIDING LINE 203 → 237. Pod ní osa prahu se dvěma čarami: stará čárkovaně, nová ambrově.",
+   "note": "Hodnoty ze SkoolKit disassembly (factcheck-zaklad §1f). Osa prahu tu má JINÉ měřítko (počet průchodů, ne T-stavy), proto ji nekreslit na souřadnicích S16 — rým jen tvarem, ne polohou; v hlavičce _kit.py zapsat."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "zavadec",
+   "diagram": "Smyčka ze S24 dořešená: ROM → (plná šipka LOADS) → TURBO LOADER (kopie ROM, malý panel kódu) → (plná ambrová šipka LOADS FAST) → GAME.",
+   "note": "Výplata S24 na týchž souřadnicích."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "pause": 2.4,
+   "diagram_generator": "zavadec",
+   "diagram": "Dvoudílný pruh: krátký úsek THE TOOL (pomalu) a dlouhý THE REST (rychle), nad ním ikonka stahování se šipkou. Mapa pásky ve stejném rozvržení jako S25, jiné popisky.",
+   "note": "Analogie, ne nový fakt. Konec bloku."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "speedlock",
+   "diagram": "Karta SPEEDLOCK, pod tím OCEAN · 1984 a malý zámek.",
+   "note": "Zámek předznamenává S35 (rychlost nebyla jediný úkol). Prvně na Daley Thompson's Decathlon (CRASH #10, 11/1984)."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "speedlock",
+   "diagram": "Karta citátu: “I'd been getting more and more frustrated because of the time the standard one took” — DAVID AUBREY-JONES, CRASH #44, 1987.",
+   "note": "Citát v obraze DOSLOVNĚ (hlas parafrázuje „fed up“). Jen jeden autor, druhý (Looker) se nejmenuje (Codex v0.2)."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "pause": 1.0,
+   "diagram_generator": "speedlock",
+   "diagram": "Tři vodorovné sloupce rychlosti: ROM 1×, SPEEDLOCK ≈ 1.5× (ambrově), SKOOL DAZE 2× (ztlumeně).",
+   "note": "Změřeno z TZX: Speedlock 1 564/1129 T = 1,52×. Skool Daze jako srovnání, ať je „only“ vidět."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "speedlock",
+   "diagram": "Dva časové pruhy DALEY THOMPSON'S DECATHLON: SPEEDLOCK 3:20 (plně, ambrově) a SAME DATA AT ROM SPEED 4:47 (čárkovaně = přepočet).",
+   "note": "4:47 je PŘEPOČET týchž bajtů na pulzy ROM, ne změřená páska (Codex v0.2). Čárkovaně = spočítáno, konvence. Assert poměru délek."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "pause": 1.2,
+   "diagram_generator": "speedlock",
+   "diagram": "Dva body v čase: SPEEDLOCK 1 · 1984 · 1.5× a SPEEDLOCK 7 · 1988 · 1.2×, vodorovná čára ROM 1×. Vpravo zámek ambrově a SPEED WASN'T THE ONLY JOB.",
+   "note": "Spojnice dvou bodů jen jako krok, ne trend (dva body). 1,52× a 1,20× z TZX."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "speedlock",
+   "diagram": "Mapa pásky standardní hry: HEADER (ambrově) + DATA. Nad hlavičkou ikona kopírovacího programu s lupou, šipka COPY na druhou kazetu. Nahoře FROM 1983: COPY PROGRAMS.",
+   "note": "CRASH #24: klony od začátku 1983 čtou hlavičku a podle ní zbytek. Šipka míří od pásky ke kopii."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "speedlock",
+   "diagram": "Mapa pásky vlastního formátu: bez hlavičky, jiné pulzy. Kopírovací program s otazníkem, šipka COPY přeškrtnutá. NOTHING TO READ.",
+   "note": "Rým s S36 na týchž souřadnicích; mění se jen hlavička a šipka."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "speedlock",
+   "diagram": "Dva řádky úvodního tónu: nahoře ROM souvislý, s kótou ROM NEEDS 256 PAIRS IN A ROW; dole SPEEDLOCK nasekaný na 8 krátkých dávek, mezi nimi cvaknutí. Každá dávka kratší než kóta.",
+   "note": "Změřeno: dávky ~220 pulzů = 110 dvojic < 256 (factcheck-zaklad §3b, 1d). Assert. „Early“ = Speedlock 1 a 2; v obraze SPEEDLOCK 1.",
+   "pause": 0.6
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "pause": 3.0,
+   "example": {
+    "zvuk": "zvuk/S39.flac",
+    "gain_db": -8
+   },
+   "diagram_generator": "speedlock",
+   "diagram": "Televizor s okrajem v trhaných pruzích: pruhy úvodního tónu přerušené po dávkách (výšky z délek pulzů). Vedle reproduktor a CLICK · CLICK · CLICK.",
+   "note": "Zvuk v pauze: nasekaný úvodní tón Speedlocku 1 a začátek dat SYNTETIZOVANÝ ze změřených délek (8 dávek po ~220 pulzech 2 165 T, cvaknutí 2 × 714 T, sync 2 × 3 153 T, data 564/1129 T), `zvuk/ukazky.py`. Není to nahrávka originální kazety: v obraze ani v hlase se to netvrdí. Pruhy v okraji se v pauze hýbou se zvukem (anim_s39.py, kreslené z týchž délek půlvln, ne z emulátoru); barvy červená/azurová podle SC7. Mimo music_sections.",
+   "anim": "anim_s39"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "pause": 2.6,
+   "diagram_generator": "speedlock",
+   "diagram": "Dvojitý kazetový magnetofon (dvě šachty), šipka z jedné kazety do druhé s fajfkou: DECK-TO-DECK STILL WORKED. Pod tím menší PUBLISHERS: OWN LOADERS.",
+   "note": "CRASH #24: přepis kazeta–kazeta ochrana nezastavila. Bez odbočky k pirátství (rozhodnutí uživatele): žádné postavy, žádné „ilegální“. Konec bloku Spectra."
+  },
+  {
+   "id": "S41",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S41.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Commodore 64 external power supply 1530 Datasette",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "Vybráno z kontaktního listu 2026-11-01: C64 s Datasettem 1530 vedle sebe na bílém pozadí (Xavier Caballe, CC BY-SA 2.0). Dotaz zúžen, jediný výsledek je ten vybraný."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "pause": 0.6,
+   "diagram_generator": "commodore",
+   "diagram": "Mapa pásky C64: každý blok dvakrát (COPY 1, COPY 2, druhá ztlumeně s popiskem SAFETY COPY). Vpravo stopky ≈ 12½ MIN a 40 KB.",
+   "note": "Ze 121 (KERNAL ~55 B/s). Rým se S68 (táž mapa, jiný nadpis). Kratší pauza, S43 navazuje spojkou."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "commodore",
+   "diagram": "PÁTEŘ: magnetofon → kabel → počítač (obrys C64). Uvnitř magnetofonu vlevo hladká vlna, vpravo z něj vychází čistý obdélník ON / OFF. Popisek u magnetofonu ONLY CLEANS THE SIGNAL. Ucho zatím nikde.",
+   "note": "Servisní manuál Datassette: zesilovač, omezovač a spínač, žádný tónový filtr (factcheck-zaklad C64 §1a). Kresba nesmí ukazovat filtry ani dekodér v magnetofonu."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "commodore",
+   "diagram": "Páteř beze změny, ucho ambrově u počítače, pod ním TIMED IN SOFTWARE a malé stopky.",
+   "note": "KERNAL čte čas mezi hranami z časovače CIA 1 (§1b). Ucho na pevném místě „u počítače“, jako v S04."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "pause": 1.2,
+   "diagram_generator": "commodore",
+   "diagram": "FASTER LOADER = A DIFFERENT PROGRAM, pod tím dvě ikonky programu (list s řádky), druhá ambrově, a hardware (magnetofon) s rovnítkem SAME.",
+   "note": "Turbo jako běžný soubor, žádný zásah do hardwaru (§1d)."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "commodore",
+   "diagram": "Karta zdroje COMPUTE! · JANUARY 1985 a pod ní velké TURBOTAPE.",
+   "note": "Compute! #56, test TurboTape. Logo časopisu ne, jen text."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "commodore",
+   "diagram": "Časová osa v sekundách. Pruh TURBOTAPE · 12 KB: 28 s ambrově se sdíleným tvarem kazety. Nad začátkem pruhu malá poznámka FROM THE HEADER ON.",
+   "note": "Řádek pro disketu tu NENÍ (prázdný řádek čte divák jako rozbitý graf), přibude v S48 a pruh kazety se nehne. 28 s od nalezení hlavičky, 44 s od převinuté pásky (Compute! #56): v obraze přesně tahle výhrada."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "commodore",
+   "diagram": "Totéž a pod tím druhý pruh DISK DRIVE 1541 · 12 KB: 34 s se sdíleným tvarem diskety, ztlumeně.",
+   "note": "Assert délek 28:34 v jednom měřítku. Pruh kazety na týchž souřadnicích jako v S47."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "pause": 1.6,
+   "diagram_generator": "commodore",
+   "diagram": "Kazeta a disketa vedle sebe na stupních vítězů: kazeta výš, ambrově. Pod tím malé AS FAST, SOMETIMES FASTER.",
+   "note": "Compute! sám: „as fast as 1541 disks — sometimes even faster“. Obraz drží tutéž míru jistoty jako zdroj. Rychlejší než disketa se ve videu říká jen u C64."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "commodore",
+   "diagram": "Časová osa procesoru: úzké ambrové špičky u každé hrany signálu (EDGE), mezi nimi široké prázdné úseky FREE TIME.",
+   "note": "Bez čísel a bez měřítka: z délek pulzů nejde poctivě odvodit, jak dlouho obsluha hrany trvá, takže poměr špiček a mezer je schematický (§4d). Pod osou malé NOT TO SCALE."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "commodore",
+   "diagram": "Žebříček přednosti FREELOAD · OCEAN: nahoře 1. READING THE TAPE (ambrově), pod tím menší MUSIC · SCROLLING TEXT · SMALL GAMES ze zbylého času.",
+   "note": "Paul Hughes (remix64): přerušení vždy vyhrají boj o CPU, volná smyčka na hudbu, scrolling, jednoduché hry."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "pause": 2.6,
+   "diagram_generator": "commodore",
+   "diagram": "Televizor s jednoduchými vetřelci (kresba kódem, 3 řady po 6) a dělem dole, pod obrazovkou ukazatel postupu MAIN GAME LOADING… Nahoře INVADE-A-LOAD · MASTERTRONIC.",
+   "note": "Vetřelci jsou naše čárová kresba, ne snímek hry. Konec bloku C64."
+  },
+  {
+   "id": "S53",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S53.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Atari 800XL XC12",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "Vybráno z kontaktního listu 2026-11-01: Atari 800 XL s monitorem a XC12 na černém (winkelnkemper, CC BY-SA 2.0). Oba výsledky dotazu jsou týž snímek (plný a oříznutý), pick 0 = plný."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "atari",
+   "diagram": "PÁTEŘ, ale magnetofon zvětšený do řezu: HLAVA → ZESILOVAČ → dva filtry 3,995 Hz a 5,327 Hz → KOMPARÁTOR → datový vodič k počítači, po něm 1 0 1 1. Ucho ambrově U MAGNETOFONU (u filtrů).",
+   "note": "Funkční nákres (CLAUDE.md: kudy teče signál): z hlavy přes předzesilovač do dvou paralelních pásmových propustí, usměrnění, komparátor, budicí tranzistor (ANTIC 2/1983, schéma XC12). Do počítače jdou HOTOVÉ bity. Rozvržení řezu je sdílené se S55–S56 a S60–S62 (`rez_magnetofonu()`)."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "atari",
+   "diagram": "Řez magnetofonu ze S54, filtry ambrově. U datového vodiče 600 BITS / SECOND. U filtrů malé FILTERS LIMIT THE SPEED.",
+   "note": "Codex v0.2: 600 je standard, filtry rychlost jen omezují (De Re Atari: OS zvládne 318–1 407 baud). Obraz neříká FIXED."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "pause": 0.6,
+   "diagram_generator": "atari",
+   "diagram": "Stupnice rychlosti: 600 STANDARD, ≈ 1,200 CLEVER SOFTWARE (ambrově), za tím čárkované pásmo FASTER → OPEN THE RECORDER se šroubovákem.",
+   "note": "Softwarová zrychlení ~760–1 200 baud (SITRE, Turbo 2600, §2d). Kratší pauza, S57 navazuje spojkou."
+  },
+  {
+   "id": "S57",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S57.png",
+   "naveti": "But to go much faster, you had to open the recorder.",
+   "prompt": "close-up of a portable cassette tape recorder lying open on a workbench, its back cover removed and set aside, exposed green circuit board and tape mechanism inside, a soldering iron resting on a stand next to it, a small screwdriver and loose screws, warm desk lamp light, evening, no people",
+   "note": "Atmosférický předěl (jediná SDXL scéna v první polovině, ne v úvodu). Žádný text, žádné konkrétní místo (ani mapa, ani vlajka): Československo říká hlas a S58. Návětí = text předchozí scény kvůli intonaci krátké promluvy (5 slov). Zkontrolovat, že model nedá do pouzdra nesmyslné součástky v popředí — přijímá se podle funkce (otevřený magnetofon, domácí dílna). Kolo 2026-11-01: první seed i tři další s promptem na otevřené pouzdro, kotva stylu (CRT) táhne k televizoru; vybrán 130572 (odkryté desky, nářadí) k potvrzení uživatelem, záloha = překreslit jako svg rez_magnetofonu().",
+   "seed": 130572
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "atari",
+   "diagram": "Dva sloupce ceny: COMPUTER (1) a DISK DRIVE (2–3×, vrchol sloupce jako čárkované rozpětí). Malé TUZEX PRICES. Vpravo kazeta ambrově a MOST STAYED WITH TAPE.",
+   "note": "Zdroje se rozcházejí (CNEWS 1,9×, Pecher ~3×), proto rozpětí čárkovaně a „two to three times“ (§2l). Bez konkrétních cen v TK, ať obraz netvrdí víc než hlas."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "atari",
+   "diagram": "Karta TURBO 2000 · 1987, pod ní PRAGUE ATARI CLUB a menší JIŘÍ RICHTER, CTU STUDENT.",
+   "note": "Jméno jen v obraze (rozhodnutí: Kokoro by ho vyslovil špatně). TURGEN §29.1.1. ČVUT anglicky CTU (Czech Technical University)."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "atari",
+   "diagram": "Řez magnetofonu ze S54, původní cesta ztlumená. Nová ambrová cesta odbočí ZA zesilovačem a PŘED filtry, vede přes jeden malý čip (popisek ONE SMALL CHIP) a připojí se na datový vodič k počítači.",
+   "note": "Richterovo schéma: odbočka z výstupu předzesilovače (bod A), tvarování MAA741, přepínání hradly MH7403 na datový vodič. ŽÁDNÝ nový kabel do počítače, jede po stávajícím SIO (§2f) — kresba proto nesmí ukazovat druhý kabel. Funkční kontrola: signál prochází zesilovačem, ne filtry."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "atari",
+   "diagram": "Totéž a na spojení obou cest přepínač (symbol páčky) s ambrovou šipkou od počítače COMMAND: počítač volí OLD / NEW.",
+   "note": "Šipka míří OD počítače K přepínači (podmět: switch flipped by the computer). Přepínač řízený COMMAND (OldComp, TURGEN)."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "pause": 1.4,
+   "diagram_generator": "atari",
+   "diagram": "Páteř: ucho se přesunulo z magnetofonu k počítači (ambrově u počítače, na místě u magnetofonu ztlumený obrys). Pod tím dva sloupce 600 a ≈ 2,300 BITS/S, vedle ≈ 3.8×.",
+   "note": "TURGEN ~2 270 baud, spočítáno 2 262 bit/s, 3,8× (§2g). Assert poměru sloupců."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "osa",
+   "diagram": "Tři sloupce SPECTRUM · COMMODORE 64 · ATARI, v každém mini páteř (magnetofon → počítač) s uchem na správném místě: u počítače, u počítače, u magnetofonu.",
+   "note": "Shrnutí osy. Mini páteř je `cesta(s=0.4)`, ne ručně kreslená."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "pause": 2.8,
+   "vyzva": true,
+   "diagram_generator": "osa",
+   "diagram": "Tytéž tři sloupce. Pod Spectrem a C64 společně CHANGE THE PROGRAM (ikona programu), pod Atari CHANGE THE MACHINE (šroubovák), ambrově. Levá dolní čtvrtina prázdná: sloupce posunuté doprava.",
+   "note": "HLAVNÍ POINTA osy videa. DRUHÁ VÝZVA K ODBĚRU za touto scénou (~6:15): levý dolní roh x < 563, y > 1080 prázdný, titulek krátký (*Sometimes, you had to change the machine.*)."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "naveti": "Sometimes you changed the program. Sometimes, you had to change the machine.",
+   "diagram_generator": "spolehlivost",
+   "diagram": "Váhy (`vahy()`) nakloněné: na jedné misce SPEED, na druhé RELIABILITY. Nad tím FASTER ≠ FREE.",
+   "note": "Krátká promluva (4 slova): návětí = text předchozí scény kvůli intonaci."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "spolehlivost",
+   "diagram": "Dva magnetofony vedle sebe, hlavy kresleně mírně různě natočené (úhel přehnaný). Z prvního kazeta TURBOSAVED se šipkou do druhého a tam křížek: REFUSES TO LOAD. Karta COMPUTE! · 1985.",
+   "note": "Compute! #56: „will sometimes be unable to Turboload if a program was TSAVEd using a different cassette drive … out of alignment“. Hlas říká „sometimes“, křížek jen u jednoho přenosu."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "spolehlivost",
+   "diagram": "Karta citátu: “Although the standard SAVE is much slower, it is extremely reliable.” — COMPUTE!, JANUARY 1985.",
+   "note": "Doslovně z Compute! #56."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "pause": 2.4,
+   "diagram_generator": "spolehlivost",
+   "diagram": "Mapa pásky C64 ze S42 na týchž souřadnicích (COPY 1, COPY 2), teď obě kopie INK a nad nimi THE PRICE OF LOADING RELIABLY.",
+   "note": "Rým se S42: tentýž tvar, opačné čtení (dřív zdržení, teď pojistka). Konec bloku."
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "sharp",
+   "diagram": "Jedna kazeta uprostřed. Vlevo BUILT-IN LOADER s křížkem, vpravo A DIFFERENT LOADER s fajfkou (ambrově).",
+   "note": "Otevírá blok MZ-800."
+  },
+  {
+   "id": "S70",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S70.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Sharp MZ-821",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "Vybráno z kontaktního listu 2026-11-01: MZ-821, tedy MZ-800 s vestavěným magnetofonem (Superandi73, CC BY-SA 3.0). Dotaz na MZ-800 vrací jen tenhle snímek a úvodní obrazovku."
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "sharp",
+   "diagram": "Dvě obrazovky vedle sebe: vlevo hláška ROM CHECK SUM ER. (skutečný řetězec z ROM, neproporcionálním písmem), vpravo TURBO COPY a OK. Nad levou malé MZ-800 ROM. Malý popisek MICHAL KREIDL, 1987 pod pravou.",
+   "note": "„CHECK SUM ER.“ je doslova v ROM 1Z-013B (§1e). Jméno autora jen v obraze. „Often“ v hlase = vzpomínka uživatele, písemně nedoložená (§5a): obraz neukazuje statistiku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "pause": 1.2,
+   "diagram_generator": "sharp",
+   "diagram": "Postup vlevo doprava: stará kazeta → TURBO COPY → SAVE AT NORMAL SPEED → nová kazeta → ROM LOADS IT ✓. Nad tím REPAIRED?",
+   "note": "Otazník u REPAIRED: „it felt like repairing“, ne že by se oprava stala. Krok SAVE AT NORMAL SPEED nese podmínku (Codex v0.2)."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "pause": 1.4,
+   "diagram_generator": "sharp",
+   "diagram": "Kazeta uprostřed, dvě šipky ke dvěma loaderům ROM a TURBO COPY a mezi nimi velký otazník.",
+   "note": "Otázka bloku; odpověď S74–S82."
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "sharp",
+   "diagram": "Mapa pásky MZ-800: každý blok dvakrát (COPY 1, COPY 2). Vpravo ≈ 1,200 BITS / SECOND.",
+   "note": "Rým s mapou C64 (S42) na týchž souřadnicích: oba stroje zapisují dvakrát. ROM $0512 = 2 (§1f).",
+   "pause": 0.5
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "sharp",
+   "diagram": "Osa prahu ve verzi MZ: jeden pulz na časové ose v µs, od náběžné hrany šrafované čekání do 379 µs a tam jedno oko / jedna tečka LOOK ONCE. Ambrově okamžik pohledu.",
+   "note": "ROM 1Z-013B: EDGE, DLY3, jedno čtení (§2a, 2b). Čekání 379 µs (TRM). Tentýž tvar jako osa prahu Spectra, jiný mechanismus: tam se počítá, tady se jednou kouká."
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "sharp",
+   "diagram": "Čtyři beaty jedné kresby (S76–S76d, rozděleno 2026-11-01, uživatel: za otázkou i odpovědí malá pauza; Kokoro za otázkou mezeru nenechá v žádném zápisu, 40–60 ms). Dva pulzy pod sebou se společnou svislou čarou 379 µs: dlouhý (vysoká půlka 470 µs) → 1, krátký (240 µs) → 0. S76: tečka čtení na horním pulzu, S76b: + bit 1, S76c: + tečka na dolním, S76d: + bit 0.",
+   "note": "Délky vysokých půlek z TRM: dlouhý 470 µs, krátký 240 µs. Assert, že 240 < 379 < 470.",
+   "pause": 0.3,
+   "naveti": "After each pulse began, it waited a fixed moment, and looked once."
+  },
+  {
+   "id": "S76b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76b.png",
+   "pause": 0.6,
+   "naveti": "The level was still high.",
+   "diagram_generator": "sharp",
+   "diagram": "Beat kresby S76, viz S76.",
+   "note": "Návětí končí TEČKOU: s otázkou před sebou (text předchozího beatu) nechá Kokoro jen 50–70 ms ticha a tts.py návětí vypne (naměřeno 2026-11-01)."
+  },
+  {
+   "id": "S76c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76c.png",
+   "pause": 0.3,
+   "naveti": "Then the next pulse.",
+   "diagram_generator": "sharp",
+   "diagram": "Beat kresby S76, viz S76.",
+   "note": "Návětí končí TEČKOU: s otázkou před sebou (text předchozího beatu) nechá Kokoro jen 50–70 ms ticha a tts.py návětí vypne (naměřeno 2026-11-01)."
+  },
+  {
+   "id": "S76d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76d.png",
+   "naveti": "The level was already low.",
+   "diagram_generator": "sharp",
+   "diagram": "Beat kresby S76, viz S76.",
+   "note": "Návětí končí TEČKOU: s otázkou před sebou (text předchozího beatu) nechá Kokoro jen 50–70 ms ticha a tts.py návětí vypne (naměřeno 2026-11-01)."
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "pause": 1.2,
+   "naveti": "Already low? That's a zero.",
+   "diagram_generator": "sharp",
+   "diagram": "Velké stopky s pevně nastavenou ručičkou a 379 µs, nápis SET IN ADVANCE.",
+   "note": "Metafora scénáře (stopky nastavené předem). Návětí = text S76c–S76d kvůli krátké promluvě."
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "sharp",
+   "diagram": "Dlouhý pulz dvakrát: nahoře ostrý (čárkovaný obrys), dole ZAOBLENÝ, jeho vysoká půlka zkrácená pod 379 µs. Na čáře 379 µs u zaobleného křížek WRONG LEVEL → 0.",
+   "note": "Mechanismus spočítaný (§2d): dlouhý se přečte jako 0, když vysoká půlka zkrátí o víc než 91 µs. Zaoblení je ilustrace tvaru, ne měření konkrétní pásky: popisek OLD TAPE / OTHER RECORDER, žádné číslo navíc."
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "pause": 1.0,
+   "diagram_generator": "sharp",
+   "diagram": "Mapa pásky MZ ze S74, v COPY 1 jeden ambrový špatný bit a křížek, v COPY 2 taky. Vpravo CHECK SUM ER.",
+   "note": "ROM zkusí druhou kopii a chybu hlásí až po obou (§1f)."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "sharp",
+   "diagram": "Týž zaoblený pulz jako v S78, ale místo jednoho pohledu kóta přes CELOU vysokou půlku napojená na čip TIMER (8253). TURBO COPY: TIMES EVERY PULSE.",
+   "note": "TC 1.22 $EB92: start čítače 0 na náběžné hraně, odečet na sestupné (§4a). Kóta přes celou půlku, ne do pevného bodu.",
+   "pause": 0.5
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "sharp",
+   "diagram": "Řada pulzů úvodního tónu, nad nimi kóty změřených délek, šipka do průměru AVERAGE a z něj dělicí čára = 1.5 × AVERAGE (ambrově) na ose prahu.",
+   "note": "TC 1.22 $E8EC–$E928: 384 pulzů tónu, práh = 384/256 = 1,5 × průměr krátkého pulzu, přepočítává se po každých 384 pulzech (§4b). Navazuje na S80 spojkou, proto má S80 kratší pauzu."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "pause": 1.4,
+   "diagram_generator": "sharp",
+   "diagram": "Dvoje stopky vedle sebe: ROM s pevnou ručičkou 379 µs (ztlumeně, SET IN ADVANCE) a TURBO COPY s ručičkou nastavenou podle pásky (ambrově, SET TO THE TAPE).",
+   "note": "Rým se S77 (týž tvar stopek, týž rozměr)."
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "diagram_generator": "sharp",
+   "diagram": "Nahoře přeškrtnutá šipka kazeta → kazeta (COPY OF THE SOUND, text_skrtnuty). Dole: kazeta → řádek bajtů v paměti (hex) → nový čistý obdélníkový signál → nová kazeta, ambrově.",
+   "note": "TC drží dekódované bajty v RAM a zapíše nově vygenerovaný signál (§4f). Hex bajty jsou skutečné bajty našeho programu ze 121, ne vymyšlené."
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "pause": 0.9,
+   "diagram_generator": "sharp",
+   "diagram": "Řádek bajtů z S83 uprostřed s fajfkou DATA: STILL THERE, pod ním ztlumené stopky ROM a THE READING WASN'T GOOD ENOUGH.",
+   "note": "Konec bloku MZ-800. TC kontrolní součet neignoruje (§4e): obraz netvrdí, že TC přijal vadná data."
+  },
+  {
+   "id": "S84b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84b.png",
+   "pause": 2.6,
+   "diagram_generator": "sharp",
+   "diagram": "Mapa pásky (mapa_pasky, rým se S25–S30): HEADER a LOADER normální rychlostí (bílé, řídké čárky), pak GAME turbem (ambrově, husté čárky) v jediném úseku. Nad nimi NORMAL SPEED a SAVE SPEED 2× OR 3×, pod mapou WRITING LOADER.",
+   "note": "Přidáno po draftu 2 na návrh uživatele. TC 1.22: volby Save speed?/Loader?, hláška Writing loader (factcheck-zaklad MZ §3d), rychlosti 2/1 a 3/1 (§3e), před daty normální hlavička a 90bajtový zavaděč (§3f). Pauza konce bloku MZ-800 přesunuta sem ze S84 (S84b navazuje)."
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "diagram_generator": "zaver",
+   "diagram": "Čtyři malé ikony strojů v řadě (SPECTRUM, C64, ATARI, MZ-800) ztlumeně, nad nimi IN COMMON.",
+   "note": "Most k závěru."
+  },
+  {
+   "id": "S86",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S86.png",
+   "pause": 2.0,
+   "diagram_generator": "zaver",
+   "diagram": "VÝPLATA PÁTEŘE: magnetofon → páska → počítač na souřadnicích S04, kazeta s nápisem THE SAME, ucho ambrově a THE WAY IT WAS READ.",
+   "note": "Callback S04 na týchž souřadnicích (`cesta()`)."
+  },
+  {
+   "id": "S87",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S87.png",
+   "vycet": 0.3,
+   "prompt": "a child's bedroom in the evening, a CRT television on a low table showing coloured horizontal loading stripes around the screen border, a portable cassette recorder connected by coiled cables to a home computer keyboard on the carpet, a cassette case open beside it, warm lamp light, seen from behind a small bed",
+   "note": "Atmosférická scéna závěru (výčet You listened. You watched. You waited. — vycet 0.3). Pruhy na televizi model nakreslí jako abstraktní barevné pásy, což stačí; čitelný text ani logo nesmí být. Ne v posledních 20 s."
+  },
+  {
+   "id": "S88",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "pause": 1.2,
+   "diagram_generator": "zaver",
+   "diagram": "V DOLNÍ polovině jedna kazeta a z ní tři šipky ke třem různým loaderům (STANDARD, TURBO, TURBO COPY). Horní polovina prázdná.",
+   "note": "Okno závěrečné obrazovky (posledních 20 s) může začít už tady: horní polovina volná."
+  },
+  {
+   "id": "S89",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S89.png",
+   "pause": 2.4,
+   "diagram_generator": "zaver",
+   "diagram": "Páteř zmenšená a posunutá do DOLNÍ poloviny: magnetofon → páska → počítač, ucho ambrově a velké A BETTER WAY TO LISTEN. Horní polovina prázdná.",
+   "note": "Páteř se smí pohnout jen v závěrečné desce (docs: páteř). Horní polovina pro dlaždici dalšího videa (121) a kolečko odběru."
+  },
+  {
+   "id": "S90",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S90.png",
+   "diagram_generator": "zaver",
+   "diagram": "Klidná deska v DOLNÍ polovině: vlevo TWICE AS FAST, SOMETIMES FAILS, vpravo SLOWER, ALMOST ALWAYS WORKS, mezi nimi OR? a pod tím malé LET ME KNOW IN THE COMMENTS. Horní polovina prázdná.",
+   "note": "Otázka do komentářů (docs/cta.md). Celá v okně závěrečné obrazovky: nic v horní polovině, žádná animace."
+  },
+  {
+   "id": "S91",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S91.png",
+   "pause": 29.5,
+   "example": {
+    "zvuk": "zvuk/turbo.flac",
+    "gain_db": -8
+   },
+   "anim": "anim_s91",
+   "diagram_generator": "zaver",
+   "diagram": "Jen v DOLNÍ polovině: vlevo televizor s obrazovkou Spectra (film z emulátoru celé pásky turbo.flac: pruhy, Program: TURBO, Bytes: turbo, pak data turbem a kreslení kazety), vpravo mapa celé pásky v ČASOVÉM měřítku: HEADER, AUTORUN, HEADER, LOADER rychlostí ROM, pak úvodní tón (stejný) a GAME turbem ambrově; nad nimi NORMAL SPEED / TURBO, po mapě jede ambrový jezdec podle zvuku.",
+   "note": "Na přání uživatele po draftu 2, obdoba S70 ve 121: v pauze zazní CELÁ turbo páska (24,6 s) bez podkresu a obrazovka ukazuje skutečné snímky emulátoru (work/anim/turbo-film, spectrum_film.py). Úvodní tón turbo bloku je STEJNÝ jako u ROM (Skool Daze, factcheck-zaklad §1f) — mapa ho kreslí stejně. Pauza 29,5 s: páska od speech_end+0,35, program dokreslí 27,5 s po startu pásky. Horní polovina volná pro závěrečnou obrazovku. Po každém tts.py pustit anim_s91.py znovu."
+  }
+ ]
+}

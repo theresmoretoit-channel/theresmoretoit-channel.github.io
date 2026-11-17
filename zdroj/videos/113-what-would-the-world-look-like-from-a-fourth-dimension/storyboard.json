@@ -1,0 +1,634 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A `pudorys()` poprvé: půdorys bytu shora na pevných souřadnicích — obvodová zeď plnou čarou, dveře se zámkem (ikona visacího zámku, LOCKED), dvě okna dvojitou čarou (SHUT). Uvnitř obýváku ambrová postava shora (kolečko s rameny) a velký otazník.",
+   "note": "První obrazovka nese myšlenku (někdo je uvnitř zamčeného bytu), ne atmosféru. Půdorys shora je záměrně TOTÉŽ, co dům v Plochozemi (S06) — divák to zatím neví, výplata v S11 a S58.",
+   "pause": 0.6,
+   "vycet": 0.3
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Týž půdorys (`pudorys()`). Zámek s fajfkou INTACT, zeď s fajfkou INTACT. Z venku dovnitř vede ambrová ČÁRKOVANÁ oblouková dráha, která zeď nepřekročí, ale přeskočí ji jako most (stín pod obloukem naznačuje, že vede MIMO rovinu výkresu). Popisek A ROUTE YOU CAN'T TAKE.",
+   "note": "Čárkovaně = hypotéza (konvence 2). Oblouk nesmí protínat čáru zdi v rovině — jinak kresba tvrdí „prošel zdí“, což S02 výslovně popírá.",
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Osový kříž tří směrů s popisky LEFT · FORWARD · UP (plné šipky, INK). Z počátku čtvrtá šipka ambrově ČÁRKOVANĚ s popiskem ONE MORE DIRECTION? Vpravo dva škrtnuté nápisy NOT TIME, NOT ANOTHER UNIVERSE (`text_skrtnuty`).",
+   "note": "Čtvrtá šipka nesmí vypadat jako úhlopříčka mezi třemi (to by tvrdilo „je to jen kombinace“) — vede z počátku do volného místa, čárkovaně a s otazníkem.",
+   "vycet": 0.3,
+   "pause": 1.0
+  },
+  {
+   "id": "S04",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-16: [3] Flatland-1st-0007.jpg, titulní list 1. vydání (Seeley 1884), „by the Author, A SQUARE“ — titulní list sám představí vypravěče ze S05. PD. fit_bg = BG diagramů: rozostřená kopie dělala z písmen šmouhy kolem listu (kontaktní list).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Flatland Abbott title page",
+    "grade": {
+     "fit": 0.84,
+     "saturation": 90,
+     "fit_bg": "#0c1118"
+    },
+    "pick": 3
+   }
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "plocha",
+   "diagram": "PÁTEŘ B `rovina()` poprvé: rovina v perspektivě (lichoběžník papíru) na pevných souřadnicích. Na ní čtverec-vypravěč (s okem na hraně, Abbottova konvence). Nad rovinou ambrová čárkovaná šipka UP s otazníkem. Nahoře malý titulek EDWIN ABBOTT · FLATLAND, 1884.",
+   "note": "Šipka UP je čárkovaná a s otazníkem: čtverec o ní neví. Rovina `rovina()` se vrací v S10, S50–S52, S57."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "plocha",
+   "diagram": "Pohled shora na Plochozemi: dům jako uzavřený PĚTIÚHELNÍK (tvar domů z knihy), uvnitř čtverec. Popisky A HOUSE = A CLOSED OUTLINE a A LINE = A WALL (šipka na hranu).",
+   "note": "Pětiúhelník je z knihy (domy v Plochozemi jsou pětiboké). Měřítko a tloušťka čáry stejné jako zeď v `pudorys()` — vizuální rým se S01.",
+   "pause": 0.6
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "plocha",
+   "diagram": "Týž pětiúhelník (`dum_plochozeme()`), uvnitř čtverec a jeho žena (v knize úsečka). Uprostřed místnosti ambrový KRUH s otazníkem: A STRANGER APPEARS. Žádná šipka zvenku dovnitř.",
+   "note": "Kruh nesmí mít stopu příchodu přes zeď. Žena jako úsečka odpovídá knize; v popisku ji nejmenovat, ať to nepotřebuje výklad."
+  },
+  {
+   "id": "S07b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07b.png",
+   "diagram_generator": "plocha",
+   "diagram": "PÁTEŘ C `prurez_bok()` poprvé: rovina z boku jako vodorovná čára (FLATLAND), koule v pěti polohách projíždí shora dolů (ztlumeně kromě aktuální). Pod tím řada toho, co vidí čtverec: tečka → malý kruh → velký kruh → malý kruh → tečka (ambrově). Popisek WHAT THE SQUARE SEES.",
+   "note": "Poloměry kruhů se POČÍTAJÍ z výšky řezu (r = √(R² − h²)), assert. Pořadí odpovídá textu: zmenší se do tečky, zmizí, vyroste zpátky — řada proto začíná i končí prázdnem s tečkou.",
+   "pause": 0.6
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "plocha",
+   "diagram": "Pohled shora na Plochozemi: tři pětiboké domy, zamčená truhla (obdélník se zámkem) s mincemi uvnitř, a čtverec s naznačenými vnitřnostmi (tečky/orgány uvnitř obrysu). Všechno je vidět, nic nezakrývá. Nahoře ambrové oko koule: SEEN FROM ABOVE.",
+   "note": "Výčet „Every house. Every locked chest. Even the square's own insides.“ — každá položka má v obraze svůj prvek ve stejném pořadí.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "plocha",
+   "diagram": "Rovina v perspektivě (`rovina()`), na ní čtverec s vnitřnostmi. Shora se ambrová koule dotkne místa UVNITŘ obrysu čtverce, aniž by obrys protnula. Popisek FROM THE INSIDE.",
+   "note": "Bod dotyku leží uvnitř obrysu a koule se roviny dotýká jen v jednom bodě (nad rovinou, ne skrz).",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "plocha",
+   "diagram": "Rovina v perspektivě (`rovina()`), prázdný pětiúhelník domu a nad rovinou čtverec zvednutý vzhůru, ambrová plná šipka UP od obrysu domu ke čtverci. Popisek A DIRECTION HIS WORLD DOESN'T HAVE.",
+   "note": "Šipka je teď plná (v příběhu se to stalo), na rozdíl od čárkované v S05.",
+   "pause": 0.8
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "uvod",
+   "diagram": "VÝPLATA PÁTEŘE A: půdorys bytu z S01 (`pudorys()`) na stejných souřadnicích, ale teď nakreslený na listu papíru (obrys listu kolem). Nad ním ambrová čárkovaná šipka 4TH DIRECTION?. Popisek WE ARE THE FLAT ONES.",
+   "note": "Byt ze S01 a pětiúhelník ze S06 mají stejnou čáru zdi — divák pozná, že náš byt je dům v Plochozemi. Konec bloku před CTA.",
+   "pause": 1.2
+  },
+  {
+   "id": "S11b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "cta": true,
+   "pause": 1.6,
+   "note": "CTA podle docs/cta.md — dědí S11 (~1:50), za pointou „We are the flat ones“."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Trezor v řezu: tlustostěnný čtverec (STEEL ON EVERY SIDE) s penězi uvnitř a zámkem na dvířkách.",
+   "note": "Klidný úvod bloku; trezor `trezor()` se vrací v S13.",
+   "pause": 0.5
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Dva panely: vlevo čtverec nakreslený na papíře s mincí uvnitř a oko shora (YOU, FROM ABOVE); vpravo trezor z S12 a ambrové oko „odjinud“ (A 4D BEING). Pod trezorem peníze venku, trezor stále zamčený (zámek s fajfkou).",
+   "note": "Analogie musí být v obou panelech stejně postavená (oko → otevřený tvar), jinak se nečte jako „totéž o rozměr výš“.",
+   "pause": 1.2
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Tři hřbety knih vedle sebe: THE THREE-BODY PROBLEM, THE DARK FOREST, DEATH'S END (ambrově, ostatní ztlumené). Nad nimi LIU CIXIN. Vedle malá loď vplouvající do čárkovaně ohraničené oblasti 4D SPACE.",
+   "note": "Kreslené kódem, ne fotka obálky (licence). 4D oblast čárkovaně = fikce. Pořadí dílů odpovídá trilogii."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Uzavřená schránka (kapsle) nakreslená plnou čarou, a přes ni průhled dovnitř — obsah je vidět, přestože obal je celý. Popisek SEALED — AND STILL SEEN INSIDE.",
+   "note": "Obraz netvrdí nic o konkrétní scéně knihy (S15 je záměrně obecná, viz factcheck).",
+   "pause": 0.6
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Nahoře ztlumená otevřená kniha FICTION, pod ní ambrově drátěný průřez geometrie (koule a rovina z S07b zmenšeně) s popiskem THE GEOMETRY IS REAL.",
+   "note": "Zmenšená `prurez_bok()` jako ikona — připomíná, že geometrie je ta z Plochozemě.",
+   "pause": 1.4
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "PÁTEŘ C znovu (`prurez_bok()`), ale pás roviny je teď popsaný OUR SPACE a projíždějící tvar 4D OBJECT je čárkovaný (nelze nakreslit). Ambrově jen řez, který leží v pásu. Malá vsuvka vlevo: koule a rovina z S07b jako připomínka.",
+   "note": "Stejné souřadnice jako S07b, aby se analogie četla bez vysvětlování. 4D objekt čárkovaně — nikdo ho nevidí celý.",
+   "pause": 0.6
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Řada pěti oken v rozložení S07b: tečka → malá koule → velká koule → menší koule → tečka (stínované koule), nad tím YOUR ROOM. Popisek A 4D BALL PASSING THROUGH.",
+   "note": "Poloměry počítané stejně jako u S07b (r = √(R² − h²)), assert. Rozložení řady totožné s S07b. BEZ `vycet` (poslech 2026-10-16): s ním práh ticha 0,06 s chytil uzávěr hlásky k a pauza padla do „shrin|k“. Bez něj řez za výbuchem k."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Řada řezů teseraktem kolmo na hlavní úhlopříčku: malý čtyřstěn → větší čtyřstěn → osekaný čtyřstěn → OSMISTĚN (ambrově) → osekaný → čtyřstěn → nic. Drátěné modely.",
+   "note": "Řezy se POČÍTAJÍ: vrcholy {0,1}⁴, nadrovina Σx = t, průsečíky hran, konvexní obal, promítnutí. Assert počtu vrcholů: 4 (t<1), 12 (1<t<2), 6 (t=2). Žádné ruční kreslení tvarů.",
+   "pause": 0.6
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "ctyrd",
+   "diagram": "Dva panely: TO US — řada řezů z S19 zmenšeně jako „tvar, který se mění“; TO THE OBJECT — jediná rovná ambrová šipka.",
+   "note": "Konec bloku tvarů.",
+   "pause": 2.2
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "zrcadlo",
+   "diagram": "Levá bota (obrys shora) a kolem ní tři otočené kopie (ztlumeně), u každé kroužek rotace. Vpravo pravá bota s nápisem NEVER.",
+   "note": "Bota `bota()` sdílená S21, S22, S25 — musí být stejná, aby se zrcadlení dalo porovnat okem.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "zrcadlo",
+   "diagram": "Levá a pravá bota zrcadlově podle svislé čárkované osy MIRROR. Mezi nimi škrtnutá šipka rotace: NO ROTATION IN 3D.",
+   "note": "Pravá bota je PŘESNÉ zrcadlo levé (transform scale(-1,1)), ne ručně překreslená.",
+   "pause": 0.8
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "zrcadlo",
+   "diagram": "Tři okna na stole: papírové R posunuté a pootočené (pořád R) → R zvednuté nad stůl s ambrovou obloukovou šipkou → na stole zrcadlové Я.",
+   "note": "Zrcadlové R transformací, ne znakem Я (jiný tvar). Oblouk nad stůl je ambrově plný — tohle se opravdu dá udělat.",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-16: [1] August Ferdinand Möbius.jpg, rytina, PD. fit 0.84, statický (žádný zoom na portrét).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "August Ferdinand Möbius",
+    "grade": {
+     "fit": 0.84
+    },
+    "pick": 1
+   }
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "zrcadlo",
+   "diagram": "Rozvržení S23, ale s botou: levá bota → ambrová ČÁRKOVANÁ oblouková šipka INTO THE 4TH DIRECTION → pravá bota.",
+   "note": "Rým se S23 (stejné rozvržení). Čárkovaně: tohle je myšlenkový pokus, u R to bylo plně.",
+   "pause": 1.0
+  },
+  {
+   "id": "S26",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-16: [3] H. G. Wells Daily Mirror.jpg, mladší Wells (blíž roku 1896 než portrét z 1938), PD — ověřit podmínky na stránce souboru. fit 0.84, statický.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "H. G. Wells portrait",
+    "grade": {
+     "fit": 0.84
+    },
+    "pick": 3
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "zrcadlo",
+   "diagram": "Obrys trupu zepředu, srdce ambrově NA PRAVÉ straně těla (z pohledu postavy). Vedle ruka a zrcadlově převrácený nápis (transform scale(-1,1)) s popiskem RIGHT TO LEFT, LEFT HAND.",
+   "note": "„Right side of his body“ = vpravo z pohledu POSTAVY, tedy vlevo z pohledu diváka — ověřit při kontrole, je to přesně ten typ chyby, který detektor nenajde.",
+   "pause": 2.4
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Seznam tří „superschopností“ s fajfkami: SEE INSIDE ANYTHING · STEP PAST WALLS · FLIP A SHOE. Pod tím ambrově BUT…",
+   "note": "Rekapitulace bloku, ať je obrat zřetelný.",
+   "pause": 1.0
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Malá postava a malé předměty (kámen, světlo) ve 3D „krabici“; ze všeho se rozlévají čárkované šipky do čtvrtého směru. Ambrově gravitační siločáry, které se rozlévají taky: INCLUDING GRAVITY.",
+   "note": "Čárkovaně = hypotetický čtvrtý směr.",
+   "pause": 0.8
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "gravitace",
+   "diagram": "PÁTEŘ D `slunce()` poprvé: Slunce vlevo na pevných souřadnicích, planeta ve vzdálenosti r a 2r. U r šipka síly délky L, u 2r délky L/4 (ambrově). Popisek 2× FARTHER → 4× WEAKER.",
+   "note": "Délky šipek z 1/r², assert."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "gravitace",
+   "diagram": "`slunce()`, z něj paprsky siločar do všech směrů a soustředné kružnice (povrch rostoucí koule).",
+   "note": "Počet paprsků konstantní na všech kružnicích — to je pointa.",
+   "pause": 0.4
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Klasický obrázek zákona převrácených čtverců: z bodu svazek siločar procházejících čtvercem 1×1 ve vzdálenosti r a 2×2 = 4 čtverci ve 2r. Popisky 1 a 4, SAME PULL, 4× THINNER.",
+   "note": "Počet políček = (2)², assert. Siločáry na obou plochách TYTÉŽ.",
+   "pause": 0.8
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Rozvržení S32, ale ve 2r místo 2×2 čtverců krychle 2×2×2 = 8 (ambrově): 4D SPHERE — SURFACE GROWS WITH r³.",
+   "note": "Assert 2³ = 8. Krychle jako „plocha“ 4D koule je zjednodušení (povrch 3-sféry je trojrozměrný) — přesně to tvrdí i hlas.",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Tabulka DISTANCE | OUR SPACE | WITH A 4TH DIRECTION: 2× | 4× weaker | 8× weaker; 10× | 100× weaker | 1,000× weaker. Sloupec 4D ambrově, náš ztlumeně.",
+   "note": "Hodnoty z n², n³, assert. Náš sloupec přidán kvůli srovnání; hlas říká jen 4D čísla, ale 4× z S30 zazní."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Táž tabulka ztlumeně a přes ni velké ambrové NOT A DETAIL.",
+   "note": "Krátká scéna, beat před Ehrenfestem.",
+   "pause": 1.4
+  },
+  {
+   "id": "S36",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-16: [1] Paul Ehrenfest.jpg, PD. fit 0.84, statický.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Paul Ehrenfest",
+    "grade": {
+     "fit": 0.84
+    },
+    "pick": 1
+   }
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "gravitace",
+   "diagram": "`slunce()` a planeta na kruhové dráze. Dvě šipky na planetě: dovnitř GRAVITY PULLS IN (INK), ven ITS MOTION CARRIES IT OUT (ztlumeně). Vodorovná váha / rovnítko BALANCE.",
+   "note": "Šipka ven je ztlumená, ne ambrová: Codex upozornil, že to není druhá skutečná síla — obraz ji nemá přidávat váhu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "gravitace",
+   "diagram": "PÁTEŘ E `odchylka()` poprvé: `slunce()` a kruhová dráha, planeta na dráze (plně) a táž planeta POSTRČENÁ kousek ven (čárkovaně). U obou poloh dvojice sloupců GRAVITY a OUTWARD; na dráze stejně vysoké, ve vnější poloze OUTWARD výrazně nižší než GRAVITY. Od postrčené planety ambrová šipka zpět k dráze PULLED BACK. Popisek THE ORBIT CORRECTS ITSELF.",
+   "note": "Zpětná vazba ke storyboardu: místo grafu křivek ukázat přímo PORUCHU dráhy. Výšky sloupců se POČÍTAJÍ: gravitace ∝ 1/r², odstředivý člen ∝ 1/r³ při zachovaném momentu hybnosti, na dráze se rovnají (assert), ve vnější poloze vyjde poměr OUTWARD/GRAVITY = r0/r < 1. Bez číselných os.",
+   "pause": 0.8
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Totéž rozvržení `odchylka()` jako S38 na týchž souřadnicích. Ve vnější poloze jsou oba sloupce zmenšené STEJNÝM poměrem a zůstávají stejně vysoké, ŽÁDNÁ šipka zpět (na jejím místě slabý obrys a otazník). Popisek BOTH FADE AT THE SAME RATE · NOTHING PULLS IT BACK, drobně IN NEWTON'S SIMPLE PICTURE.",
+   "note": "Zpětná vazba: graf dvou rovnoběžných křivek 1/r³ by se četl jako „parametry se netrefily“, ne jako chybějící stabilita. Tady se porovnává totéž co v S38 — co se stane po malém postrčení. Sloupce: obě ∝ 1/r³, poměr ve vnější poloze = 1 (assert). Drobný popisek drží míru jistoty S36/S39.",
+   "pause": 1.0
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Dva panely: A LITTLE TOO SLOW — spirála do hvězdy; A LITTLE TOO FAST — spirála pryč. Obě spirály ambrově čárkovaně.",
+   "note": "Spirály schematické (čárkovaně), neříkají nic o časové škále.",
+   "pause": 1.0
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Atom: jádro a kolem něj neostrý elektronový oblak (NE klasická dráha ani spirála do jádra). Nad ním otázka STABLE ATOMS? a pod ním drobně LATER CHECKED WITH QUANTUM MECHANICS · ASSUMING ELECTRICITY AS WE KNOW IT.",
+   "note": "Zpětná vazba: obraz nesmí tvrdit klasický pád elektronu po spirále, ani hotový důkaz nemožnosti atomů. Proto oblak, otazník a předpoklad v popisku — míra jistoty jako hlas („argued“, „at least with electricity as we know it“).",
+   "pause": 0.8
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Sluneční soustava (`slunce()` + dráhy) a atom vedle sebe, obojí čárkovaně a ztlumeně, nad tím A BIG 4TH DIMENSION COULD TAKE AWAY…",
+   "note": "Čárkovaně = „could“.",
+   "pause": 0.6
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Seznam superschopností z S28 ztlumeně, přes něj ambrová lupa: IT'S A CLUE.",
+   "note": "Konec bloku, hlavní obrat videa.",
+   "pause": 2.6
+  },
+  {
+   "id": "S44",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S44.png",
+   "note": "Atmosférický předěl po obratu (první SDXL scéna až ve ~6:40). Zoom ven = svět se rozšiřuje. Druhé kolo (seed 4401, prompt bez krajiny): Země a vzdálené Slunce; první kolo dalo papírové hory (kotva stylu táhne krajinu).",
+   "prompt": "planet Earth seen from deep space, a small blue and white globe with clouds, a distant glowing sun at the edge of the frame, black starry space, wide view",
+   "vycet": 0.3,
+   "pause": 0.5,
+   "seed": 4401
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "skryta",
+   "diagram": "Rámeček se třemi podmínkami pod sebou: A LARGE 4TH DIMENSION · MATTER CAN MOVE THROUGH IT · GRAVITY SPREADS INTO IT, šipka → IN SHARP CONFLICT WITH WHAT WE SEE (ambrově).",
+   "note": "Všechny tři podmínky MUSÍ být v obraze — závěr platí jen pro jejich kombinaci (factcheck, rozhodnutí v notes.md).",
+   "pause": 2.4
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "skryta",
+   "diagram": "Dva čárkované otvory/dveře vedle sebe: 1 · CURLED UP SMALL a 2 · WE CAN'T STEP INTO IT. Nad tím AT LEAST TWO PLACES IT COULD HIDE.",
+   "note": "Čárkovaně = hypotézy. Rozcestník pro S47–S55.",
+   "pause": 0.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "skryta",
+   "diagram": "Mřížka 4×4 políček EINSTEIN (1915) a vedle mřížka 5×5, kde je přidaný řádek i sloupec ambrově: +1 DIRECTION OF SPACE · KALUZA, 1921.",
+   "note": "Mřížka = metrický tenzor (4×4 → 5×5), což je doslova to, co Kaluza udělal. Rok Einsteina 1915 ověřit ve factchecku, nebo nepsat.",
+   "pause": 0.5
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "skryta",
+   "diagram": "Vodorovná čára (náš prostor) a lupa na jeden bod: v lupě z bodu vyrůstá malý kroužek — každý bod je ve skutečnosti malá kružnice. Popisek CURLED UP INTO A CIRCLE · KLEIN, 1926 a FAR TOO SMALL TO SEE.",
+   "note": "Kroužek čárkovaně = hypotéza.",
+   "pause": 0.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "SDXL dvakrát nenakreslil hadici (louka, pak zelené pruhy) — konkrétní předmět, takže kresba. Rozvržení lupy rýmuje se S48 (Klein), ať se analogie čte bez výkladu.",
+   "pause": 1.6,
+   "diagram_generator": "skryta",
+   "diagram": "Louka jako široký pás, přes ni hadice jako tenká čára. Lupa ve stejném rozvržení jako S48: zblízka trubka s kruhovým průřezem (ambrově). Popisky FROM ACROSS THE FIELD: A LINE / UP CLOSE: ROUND."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "skryta",
+   "diagram": "PÁTEŘ B `rovina()`: list v perspektivě, na něm inkoustem nakreslený náš svět (ikonky hvězd, planeta, postava). Kolem listu velký čárkovaný kvádr LARGE EXTRA DIRECTION. Popisek LIKE INK ON A PAGE.",
+   "note": "Svět leží V rovině listu (inkoust), nic nad ní.",
+   "pause": 0.6
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "skryta",
+   "diagram": "`rovina()` a na ní čtverec z Plochozemě, nad ním šipka UP (plná, existuje) — ale čtverec je k rovině „přilepený“ (stejná barva jako inkoust, žádný stín). Popisek THE DIRECTION EXISTS. YOU STILL CAN'T STEP INTO IT.",
+   "note": "Callback S05/S10: tentokrát směr existuje, a přesto se nezvedne.",
+   "pause": 0.6
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "skryta",
+   "diagram": "`rovina()` s ikonami ATOMS · LIGHT · PEOPLE přilepenými na listu (INK), a z listu ven do prostoru se lijí ambrové čárkované siločáry GRAVITY LEAKS OUT?",
+   "note": "„maybe“ → otazník a čárkovaně.",
+   "pause": 1.2
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "skryta",
+   "diagram": "Pravítko 0–5 mm, úsek pod 1 mm šrafovaný: GRAVITY NOT YET MEASURED HERE (1998). Nad pravítkem drobně EXTRA DIMENSIONS COULD BE THIS LARGE.",
+   "note": "Factcheck S53 uzavřen: ADD 1998 sami píší, že slabost gravitace je pozorovaná na vzdálenostech ≳ 1 mm a měření pod milimetrem jsou teprve plánovaná; Hoyle et al. 2001 zlepšili dřívější krátkodosahová omezení až 1000×. Šrafovat proto úsek POD 1 mm s popiskem NOT YET MEASURED (1998); jiné číslo než 1 MM do obrazu nepsat.",
+   "pause": 0.6
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "skryta",
+   "diagram": "Totéž pravítko, šrafovaný úsek se zmenšil daleko pod tloušťku lidského vlasu (průřez vlasu jako kruh na téže stupnici). Popisek TESTED BELOW THE WIDTH OF A HAIR · STILL HOLDS.",
+   "note": "Žádné číslo 52 µm (rozhodnutí v notes.md). Tloušťka vlasu na stupnici ze střední hodnoty (~70 µm), assert, že hranice testu je pod ní.",
+   "pause": 0.8
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "skryta",
+   "diagram": "Schéma srážky: dva svazky se srazí, viditelné dráhy (plně, INK) a jedna ambrová čárkovaná šipka MISSING ENERGY? ven z obrazu. Dole NO CONVINCING EVIDENCE SO FAR. Nahoře LARGE HADRON COLLIDER.",
+   "note": "Schéma, ne fotka: scéna mluví o chybějící energii, fotka detektoru by ji neukázala.",
+   "pause": 2.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "skryta",
+   "diagram": "Dva řádky: A BIG 4TH DIMENSION YOU COULD WALK INTO — ✗ DOESN'T FIT; A SMALL OR HIDDEN ONE — ? OPEN, AND TESTABLE (ambrově).",
+   "note": "Shrnutí s mírou jistoty: první řádek ✗, druhý otazník, ne fajfka.",
+   "pause": 2.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: pětiboký dům z S06 se čtvercem uvnitř a ambrový kruh-návštěvník (S07) zmenšeně.",
+   "note": "Koncová obrazovka: horní polovina prázdná pro dlaždici a kolečko.",
+   "pause": 1.0
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: VÝPLATA PÁTEŘE A — půdorys bytu z S01 zmenšeně, obývák PRÁZDNÝ (žádná postava), drobně NOT THAT WE'VE NOTICED.",
+   "note": "Rým s S01: tentokrát nikdo uvnitř.",
+   "pause": 1.0
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "zaver",
+   "diagram": "JEN DOLNÍ POLOVINA: WHY HAVEN'T WE FOUND IT? a menší ambrově NEXT.",
+   "note": "Klidná deska, háček na 2. díl.",
+   "pause": 3.0
+  }
+ ]
+}

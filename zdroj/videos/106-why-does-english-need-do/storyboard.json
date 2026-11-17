@@ -1,0 +1,625 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese myšlenku (dvě stejná slova, dvě role), NE sdxl. Zavádí páteř — čára vět se do S58 nehne.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `veta()`: dlaždice WHY · DO · YOU · DO · THAT? na pevné čáře; obě DO ambrově.",
+   "pause": 0.5
+  },
+  {
+   "id": "S01b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "Rozdělení S01 na přání uživatele (poslech draftu 2026-10-13): mezi „that?“ a „It's“ chtěl pauzu; jako větná pauza nešla vložit (u řezu −2 dB řeč). Týž obraz jako S01."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Kresba musí přiřadit popisky správně: první do = pomocné, druhé = činnost.",
+   "diagram_generator": "uvod",
+   "diagram": "Táž věta. Pod druhým DO popisek THE THING YOU DO (INK), pod prvním DO ambrově … DOING NOTHING.",
+   "pause": 0.6
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Otázka, ne výklad pravidla.",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: DO · YOU · LIKE · COFFEE? — LIKE popsané THE VERB, nad DO ambrový otazník."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Netvrdit „špatně“ natrvalo — další scéna říká, že se to říkalo.",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: LIKE · YOU · COFFEE? — LIKE přeskočí dopředu (oblouková šipka), místo po DO čárkovaně prázdné; malým ztlumeně SOUNDS BROKEN."
+  },
+  {
+   "id": "S05",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "KANDIDÁT — dotaz od stolu, napřed `--search` a kontaktní list. Droeshoutův portrét z First Folia (1623), public domain. „Not just anyone“ — jméno zazní až v S08. Portrét: fit 0,84, BEZ zoomu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Droeshout portrait of William Shakespeare 1623",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Citát Folger 4.1.153 („Weïrd“ v edici; ve videu weird). Ambrová = sloveso, o kterém je řeč.",
+   "diagram_generator": "shakespeare",
+   "diagram": "Páteř: SAW · YOU · THE WEIRD SISTERS? — SAW ambrově, šipka z místa za YOU dopředu; pod tím MACBETH · c. 1606 · NO “DO”.",
+   "pause": 0.5
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Hamlet 2.2.208–209.",
+   "diagram_generator": "shakespeare",
+   "diagram": "Páteř: WHAT · DO · YOU · READ, MY LORD? — DO ambrově; pod tím HAMLET · c. 1600 · POLONIUS · WITH “DO”."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Smíšený stav, ne vítěz — žádná karta ambrově celá, ambrová jen slova SAW a DO.",
+   "diagram_generator": "shakespeare",
+   "diagram": "Dvě karty vedle sebe: vlevo SAW YOU THE WEIRD SISTERS? (MACBETH), vpravo WHAT DO YOU READ, MY LORD? (HAMLET); pod oběma jedno SAME WRITER."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Data s `assert` proti tabulce v podklady-historie.md. Formulace „three questions in four“ podle factchecku.",
+   "diagram_generator": "shakespeare",
+   "diagram": "Graf: podíl ano/ne otázek s DO, 1475–1700, skutečné body z Ellegårda (Kroch 1989, tab. 3); bod 1575 ambrově se štítkem ~3 IN 4. Zdroj malým dole.",
+   "pause": 0.6
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Otevírá hlavní otázku. Statické — dědí ho CTA.",
+   "diagram_generator": "shakespeare",
+   "diagram": "Páteř: DO YOU LIKE COFFEE? — DO ambrově, nad ním WHERE FROM? a WHY “DO”?",
+   "pause": 0.6
+  },
+  {
+   "id": "S10b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "cta": true,
+   "pause": 2.4,
+   "note": "CTA podle docs/cta.md — dědí S10, ~1:20, hned za první výplatou."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Commons Colloquy nemá (hledáno: Aelfric Colloquy, Cotton Tiberius A III — jiné části rukopisu by tvrdily, že je to ta učebnice). Proto schéma glosy: latinské řádky jako ŠEDÉ PRUHY bez textu (latinské znění jsem neověřil), nad nimi drobně staroanglická glosa z Wikisource. SCHEMATIC.",
+   "diagram_generator": "stara",
+   "diagram": "Schéma meziřádkové glosy: tři šedé pruhy LATIN, nad prvním drobně ambrově hwæt sægest þu yrþlingc; štítek OLD ENGLISH GLOSS · 11TH CENTURY; SCHEMATIC."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Hlas čte modernizovaně, originál jen v obraze (Kokoro by ho zkomolil). Glosa je anonymní, ne Ælfric.",
+   "diagram_generator": "stara",
+   "diagram": "Velký staroanglický řádek Hwæt sægest þu, yrþlingc? — sægest ambrově; pod ním WHAT SAYEST THOU, PLOUGHMAN?; malým OLD ENGLISH GLOSS · 11TH CENTURY."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Mechanismus starých otázek: pohyb slovesa.",
+   "diagram_generator": "stara",
+   "diagram": "Páteř: THOU · SAYEST → SAYEST · THOU? — oblouková šipka, sloveso ambrově."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Němčina se nečte nahlas, jen v obraze.",
+   "diagram_generator": "stara",
+   "diagram": "Páteř: DU · MAGST · KAFFEE → MAGST · DU · KAFFEE?; pod tím glosa LIKE YOU COFFEE?; štítek GERMAN, TODAY."
+  },
+  {
+   "id": "S15",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S15.png",
+   "note": "KANDIDÁT — dotaz od stolu, napřed `--search` a kontaktní list. Titulní list King James Bible 1611, public domain.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "King James Bible 1611 title page",
+    "pick": 0
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Starý pohyb přežívá u pomocných sloves.",
+   "diagram_generator": "stara",
+   "diagram": "Tři karty: IS SHE HAPPY? · CAN YOU SWIM? · HAVE YOU SEEN IT? — IS, CAN, HAVE ambrově.",
+   "vycet": 0.3,
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "`text_skrtnuty()`, ne `skrt_text()`.",
+   "diagram_generator": "stara",
+   "diagram": "Páteř: HOW · DARE · YOU? — DARE ambrově; pod tím ztlumeně přeškrtnuté HOW DO YOU DARE?"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "„Never fully learned“ — obě podoby existují, žádná se neškrtá.",
+   "diagram_generator": "stara",
+   "diagram": "Dlaždice DARE se štítkem OLD ENGLISH durran; pod ní dvě věty vedle sebe: I DARE NOT · I DON'T DARE — obě platné.",
+   "pause": 2.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Zavádí druhý opakovaný prvek; stupně se odkrývají v S20–S29.",
+   "diagram_generator": "zapor",
+   "diagram": "Žebřík pěti stupňů záporu na pevných souřadnicích (`zebrik()`), zatím jen rám a SAYING NO."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Staroanglicky jen v obraze.",
+   "diagram_generator": "zapor",
+   "diagram": "Stupeň 1: ic ne secge — ne ambrově; glosa I NOT SAY; štítek OLD ENGLISH.",
+   "pause": 0.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Kresba tvrdí jen „slábne ve výslovnosti“.",
+   "diagram_generator": "zapor",
+   "diagram": "Stupeň 1, NE opakované zmenšující se a blednoucí (WEARS OUT)."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Etymologie podle factchecku.",
+   "diagram_generator": "zapor",
+   "diagram": "Stupeň 2: I NE SEYE NOT — NOT ambrově; karta nāwiht = NO WHIT · NOTHING AT ALL.",
+   "pause": 0.5
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "",
+   "diagram_generator": "zapor",
+   "diagram": "Řetěz nāwiht → nought → NOT, poslední ambrově; NOT = NOTHING."
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Rytíř z Ellesmerova rukopisu (c. 1400–1410), public domain. Chaucerův popis rytíře = S25. Dotaz zúžen tak, aby pick 0 byl ten portrét. Originál je 590×864 a výchozí ořez 16:9 uřízl rytíře (vidět jen kopyta) → fit 0,92, celá stránka.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Ellesmere Manuscript Knight Portrait",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92
+    }
+   }
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Riverside text. Hlas říká modernizovaně („roughly, in modern words“).",
+   "diagram_generator": "zapor",
+   "diagram": "Chaucerův řádek v originále (He nevere yet no vileynye ne sayde / In al his lyf unto no maner wight) se čtyřmi zápory ambrově; pod ním ztlumeně modernizovaná glosa; GENERAL PROLOGUE, 70–71."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "",
+   "diagram_generator": "zapor",
+   "diagram": "Čtyři ambrové dlaždice NEVERE · NO · NE · NO = NEVER, EVER, NOT ONCE.",
+   "pause": 1.0
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "",
+   "diagram_generator": "zapor",
+   "diagram": "Stupeň 3: I · KNOW · NOT — NE zmizelo (čárkovaný prázdný slot), NOT ambrově za slovesem."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Callback na S07.",
+   "diagram_generator": "zapor",
+   "diagram": "Citát I KNOW NOT ‘SEEMS’ — HAMLET 1.2; vedle malá ztlumená karta WHAT DO YOU READ? (2.2)."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Žádná šipka „plánu“ — jen pořadí.",
+   "diagram_generator": "zapor",
+   "diagram": "Celý žebřík: I DO NOT KNOW, I DON'T KNOW ambrově; nad žebříkem EACH STEP: CENTURIES."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Etymologie pas podle factchecku.",
+   "diagram_generator": "zapor",
+   "diagram": "NE … PAS — PAS ambrově, pod ním stopa a A STEP; štítek FRENCH.",
+   "pause": 2.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Návrat k hlavní otázce.",
+   "diagram_generator": "puvod",
+   "diagram": "Páteř: DO YOU LIKE COFFEE? — DO ambrově, WHERE FROM?"
+  },
+  {
+   "id": "S32",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S32.png",
+   "note": "Místo SDXL (herní PC nedostupné a archiv tvrdí víc): mapa Británie Matthewa Paris, c. 1250 — tedy právě 13. století, kdy se objevují první prázdná do. Public domain. Pomalý nájezd (dokument, ne portrét).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Map of Britain (c.1250) - Matthew Paris - STC255189",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92
+    }
+   }
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Zdroj a datum podle factchecku (Ellegård s. 56).",
+   "diagram_generator": "puvod",
+   "diagram": "Středoanglický řádek his sclauyn he dude dun legge — dude ambrově; glosa HIS CLOAK HE DID DOWN LAY = HE LAID DOWN HIS CLOAK; zdroj malým."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Rým legge/rigge doložen (factcheck S34); ostatní rukopisy mají gan/gon doun legge.",
+   "diagram_generator": "puvod",
+   "diagram": "Skutečné dva verše King Horn 1137–38: His sclauyn he dude dun legge, / And tok hit on his rigge. — legge a rigge ambrově, END OF LINE → RHYME.",
+   "pause": 0.5
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Plná = doloženo, čárkovaná = nevíme.",
+   "diagram_generator": "puvod",
+   "diagram": "Dvě karty: WHY POETS LIKED IT (plná) · WHERE IT CAME FROM (čárkovaná, otazník)."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Čárkovaně = hypotéza (konvence).",
+   "diagram_generator": "puvod",
+   "diagram": "Čárkovaná karta HYPOTHESIS 1: HE DID BUILD A HOUSE = HE HAD IT BUILT → význam bledne."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Spojnice čárkovaná a BEZ šipky — směr vlivu není doložen.",
+   "diagram_generator": "puvod",
+   "diagram": "Schéma: karta ENGLISH a vedle ní WELSH · CORNISH · BRETON, čárkovaná spojnice."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Bretonština jen v obraze.",
+   "diagram_generator": "puvod",
+   "diagram": "Bretonsky LENN · A · RAN s glosami READING · — · I DO; dole = I READ; štítek BRETON."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Ani jedna ambrově celá — žádná nevyhrála.",
+   "diagram_generator": "puvod",
+   "diagram": "Obě čárkované karty hypotéz vedle sebe, u keltské NO DIRECT EVIDENCE.",
+   "pause": 2.4
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "v0.3: „questions weren't its only home“ — oznamovací do existovalo od 13. stol. (S33), jen vzácně; kresba to nesmí popřít prázdnou přihrádkou.",
+   "diagram_generator": "oznam",
+   "diagram": "Tři přihrádky QUESTIONS · NEGATIVES · STATEMENTS; DO v prvních dvou, ve STATEMENTS drobné ztlumené DO (bylo tam i dřív, vzácně)."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "",
+   "diagram_generator": "oznam",
+   "diagram": "Přihrádky; DO ve STATEMENTS zvětšené a ambrové (FAR MORE COMMON); pod tím NO EMPHASIS · NO EXTRA MEANING."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Znění podle KJV, modernizovaný pravopis.",
+   "diagram_generator": "oznam",
+   "diagram": "Citát Genesis 3:6 (KJV 1611) — DID EAT dvakrát ambrově; GENESIS 3:6 · KING JAMES BIBLE, 1611."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Tyndalovo znění ověřit doslova.",
+   "diagram_generator": "oznam",
+   "diagram": "Dva sloupce: TYNDALE, 1530 — …AND ATE … AND HE ATE; KING JAMES, 1611 — …AND DID EAT … AND HE DID EAT."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Osa do 10 % napsaná zřetelně, ať 8 % nevypadá jako většina.",
+   "diagram_generator": "oznam",
+   "diagram": "Graf: podíl oznamovacích vět s prázdným DO 1390–1700 (Kroch 1989, tab. 8), osa 0–10 %; vrchol 1550–75 ambrově ~1 IN 12."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Táž geometrie grafu jako S44 (invariant).",
+   "diagram_generator": "oznam",
+   "diagram": "Týž graf, sestup ambrově, poslední bod UNDER 1 IN 100."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "",
+   "diagram_generator": "oznam",
+   "diagram": "Přihrádky: STATEMENTS prázdné, QUESTIONS a NEGATIVES s DO, čtvrtá čárkovaná přihrádka s otazníkem.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "",
+   "diagram_generator": "oznam",
+   "diagram": "Dvě bubliny: DO YOU ACTUALLY LIKE COFFEE? / I DO LIKE COFFEE! — DO v odpovědi velké ambrové."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "",
+   "diagram_generator": "oznam",
+   "diagram": "Páteř: I · DO · LIKE · COFFEE! — DO ambrově, popisek ONLY WHEN YOU MEAN IT."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Rým s S01–S02 (tatáž čára).",
+   "diagram_generator": "oznam",
+   "diagram": "Páteř: I · DO · DO · THAT! — první DO ambrově IT'S TRUE!, druhé INK THE ACTION.",
+   "pause": 0.6,
+   "naveti": "Which makes this a perfectly good sentence."
+  },
+  {
+   "id": "S49b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "pause": 2.6,
+   "note": "Rozdělení S49 na přání uživatele: pauzička před „One do is…“; větná pauza nešla vložit (−7 dB). S49 je krátká samostatná promluva → `naveti` = skutečný text S48 (i kvůli intonaci). Týž obraz jako S49."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Podle factchecku: přesné kontexty, ve kterých platil constant rate effect.",
+   "diagram_generator": "proc",
+   "diagram": "Graf šíření DO v několika kontextech (Kroch 1989), osa let 1400–1700; čáry se objevují."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Nestavět na procentní ose — rovnoběžnost platí v logitu; buď popsat osu, nebo SCHEMATIC.",
+   "diagram_generator": "proc",
+   "diagram": "Týž graf, rovnoběžné sklony zvýrazněné do 1575; SAME SPEED · KROCH 1989."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Hypotéza = čárkovaně.",
+   "diagram_generator": "proc",
+   "diagram": "Páteř: THOU SAYEST → SAYEST THOU, šipka skoku čárkovaně a ztlumeně; čárkovaný rámeček LEADING EXPLANATION.",
+   "pause": 0.5
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "",
+   "diagram_generator": "proc",
+   "diagram": "Dvě věty s prázdným čárkovaným slotem: [ ? ] YOU LIKE COFFEE? a YOU [ ? ] NOT LIKE COFFEE.",
+   "pause": 0.6
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "",
+   "diagram_generator": "proc",
+   "diagram": "Tytéž věty, sloty vyplněné ambrovým DO; pod tím SHORT · COMMON · ALMOST MEANINGLESS."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "",
+   "diagram_generator": "proc",
+   "diagram": "Dva řádky: FITS THE NUMBERS ✓ a WHAT CHANGED ✓ · WHY ? (otazník čárkovaně).",
+   "pause": 3.0
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Pruhy s rozmazaným koncem — žádné ostré datum.",
+   "diagram_generator": "zaver",
+   "diagram": "Časová osa 1200–1900: pruh QUESTIONS (většinou do ~1700), pruh NEGATIVES (o století později)."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "`text_skrtnuty()`.",
+   "diagram_generator": "zaver",
+   "diagram": "Přeškrtnuté COMMITTEE a GRAMMAR BOOK; pod tím GRAMMAR BOOKS: DESCRIBED IT, AFTERWARDS."
+  },
+  {
+   "id": "S58",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S58.png",
+   "pause": 2.2,
+   "note": "Místo SDXL: Bruegel, Nizozemská přísloví, 1559 — dav lidí, obraz ze samotného jazyka (přísloví), a z období vrcholu prázdného do. Public domain (fotografie Google Art Project). Pomalý odjezd = svět se rozšiřuje.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Pieter Bruegel the Elder - The Dutch Proverbs - Google Art Project",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Koncová obrazovka: kreslí se jen do dolní poloviny.",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř DOLE (`veta(dole=True)`): WHY · DO · YOU · DO · THAT? Horní polovina prázdná."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Horní polovina prázdná.",
+   "diagram_generator": "zaver",
+   "diagram": "Táž věta dole; pod druhým DO WHAT YOU DID, pod prvním ambrově A 700-YEAR HABIT."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Závěrečná deska, horní polovina prázdná.",
+   "diagram_generator": "zaver",
+   "diagram": "Táž věta dole, ztlumená; nad ní (pořád v dolní polovině) DO YOU REALLY THINK ENGLISH CARES?",
+   "pause": 3.0
+  }
+ ]
+}

@@ -1,0 +1,1007 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "páteř HRANICE: svislá čára na x=1180, vlevo těleso Unie, vpravo prázdno. PRVNÍ OBRAZOVKA NESE MYŠLENKU, ne atmosféru: divák má hned vidět, že něco chce překročit hranici, která vypadá neprůchodně. Proto NE sdxl.",
+      "diagram_generator": "uvod",
+      "diagram": "Páteř poprvé: svislá čára, vlevo blok UNION, vpravo daleko ambrový bod KANADA. Nad bodem šipka mířící přes čáru doleva."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat: obraz se nemění, mění se jediná věc (škrt). Nesmí to být nový obrázek — jinak z beatu vznikne střih.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž kresba, přes šipku přeškrtnutí; pod bodem popisek vzdálenosti přes Atlantik."
+    },
+    {
+      "id": "S03",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Skutečná událost potřebuje skutečný snímek: projev o stavu Unie před europoslanci. PORTRÉT SE NEHÝBE a záběr je celý sál, ne obličej přes plátno (stížnost diváka u videa 004). PICK VYBRAT Z KONTAKTNÍHO LISTU, ne od stolu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "European Parliament hemicycle Strasbourg plenary",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Úderný beat na dvě slova. Ambrová je tu 'o tomhle je řeč', ne 'dobré'.",
+      "diagram_generator": "uvod",
+      "diagram": "Prázdná plocha, jediný nápis POLICY tam, kde v S02 byl škrt."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Čárkovaná = hypotéza. Tahle konvence platí celým videem a nese tvrzení: status zatím neexistuje.",
+      "diagram_generator": "uvod",
+      "diagram": "Na čáře se poprvé objeví štěrbina s otazníkem a popiskem ASSOCIATE MEMBER; pod ním čárkovaně 'does not exist yet'.",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zavádí 'halfway in' geometricky, ne slovy. Poloha bodu se odteď mění jen tam, kde to scénář říká.",
+      "diagram_generator": "uvod",
+      "diagram": "Kanadský bod se posune blíž k čáře; za ním čárkovaná stopa, kudy přišel."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Osa má DATA OD PRVNÍHO SNÍMKU (poučení z druhé zpětné vazby: prázdné osy divák čte jako rozbitý graf).",
+      "diagram_generator": "uvnitr",
+      "diagram": "Časová osa zdola nahoru; nejvyšší značka FEBRUARY 2026 – SAFE ambrově."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Scéna kreslí ČÍSLO, takže hodnotu i popisek jistí assert. Obrázek nesmí tvrdit víc než scénář.",
+      "diagram_generator": "uvnitr",
+      "diagram": "Sloupec 150 BILLION EUR rozdělený na půjčky; popisek LOANS, NOT GRANTS."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Tady se páteř poprvé vyplácí: 'první mimoevropská' je vidět z polohy, ne z popisku.",
+      "diagram_generator": "uvnitr",
+      "diagram": "Seznam účastníků SAFE, Kanada jediná vpravo od páteře."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Táž osa jako S07, jen jiná značka ambrově. Souřadnice osy se DĚDÍ z _kit, nekreslí se znovu.",
+      "diagram_generator": "uvnitr",
+      "diagram": "Časová osa o stupeň níž: SUMMER 2025 – SECURITY AND DEFENCE PARTNERSHIP."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Šipka míří na peníze, ne na členství — mířidlo musí odpovídat podmětu věty (vada S11 videa 020).",
+      "diagram_generator": "uvnitr",
+      "diagram": "Osa níž: 2024 – HORIZON EUROPE. Vedle malá ikona laboratoře s šipkou přes čáru doleva."
+    },
+    {
+      "id": "S12",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S12.png",
+      "note": "Jediný dech v úvodním bloku. Obchod je atmosféra, ne schéma — a scéna po čtyřech diagramech za sebou.",
+      "prompt": "wide cold container port at the edge of a grey ocean, stacked containers, gantry cranes, low flat horizon, thin northern daylight, overcast, no text"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Výplata bloku: spád je vidět jako řada, ne jako výčet. Tady končí tematický blok.",
+      "diagram_generator": "uvnitr",
+      "diagram": "Celá osa najednou: 2017, 2024, 2025, 2026 — čtyři značky, všechny ambrové.",
+      "pause": 2.6
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Otázka 'jak daleko to jde' se ptá geometricky.",
+      "diagram_generator": "smlouva",
+      "diagram": "Kanadský bod těsně u čáry, čára beze štěrbiny."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Od téhle scény je páteř zároveň citací ze smlouvy.",
+      "diagram_generator": "smlouva",
+      "diagram": "Čára dostane popisek: čtyři slova ANY EUROPEAN STATE ambrově."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Plné znění se ukáže dřív, než se zkrátí — jinak by zkrácená citace ve videu nikde neměla oporu.",
+      "diagram_generator": "smlouva",
+      "diagram": "Rámeček s celým zněním článku 49, zmenšený, uprostřed."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Zkrácení citace je VIDĚT: ztlumený text zůstává v obraze, takže divák pozná, co se vypustilo. Výpustka v textu i v kresbě.",
+      "diagram_generator": "smlouva",
+      "diagram": "Z plného znění zůstanou svítit jen slova ANY EUROPEAN STATE ... MAY APPLY; zbytek ztlumený."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Beat. Týž obraz jako S17 se vším ostatním zhasnutým — ne nová kresba.",
+      "diagram_generator": "smlouva",
+      "diagram": "Jen tři slova, velká, uprostřed."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Škrtá se jedno slovo, ne celý nápis: 'neplatí to takhle', ne 'neplatí to vůbec'.",
+      "diagram_generator": "smlouva",
+      "diagram": "Kanadský bod u čáry, nad ním škrt přes slovo EUROPEAN v popisku čáry.",
+      "pause": 2.2
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Obrat scény. Lupa je jediná změna.",
+      "diagram_generator": "smlouva",
+      "diagram": "Táž kresba, přibude malá lupa u slova MEMBERSHIP."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Klíčový rozdíl celého videa dostává vlastní geometrii.",
+      "diagram_generator": "smlouva",
+      "diagram": "Popisek čáry se rozdělí: MEMBERSHIP nahoře ambrově, PROGRAMMES dole ztlumeně."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Letopočty jsou data, takže se jistí assertem proti factcheck.md. Vchody sedí NÍŽ než hlavní brána — programy nejsou členství.",
+      "diagram_generator": "smlouva",
+      "diagram": "V čáře se otevřou tři malé postranní vchody s vlaječkovými popisky ISRAEL 2021, NEW ZEALAND 2023, CANADA 2024."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Pointa bloku a nejsilnější nový argument videa. Nesmí být vidět jako 'obcházení pravidel' — vchody jsou legální, proto stejná barva kresby, ne varovná.",
+      "diagram_generator": "smlouva",
+      "diagram": "Hlavní brána zavřená a hlídaná, postranní vchody otevřené.",
+      "pause": 2.6
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Otevírá blok. Dveře leží NA páteři, aby se nestaly druhým motivem.",
+      "diagram_generator": "dvere",
+      "diagram": "Čára, v ní dvoje zavřené dveře, obě ztlumené."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": " DOVĚTEK: Kokoro na konci téhle krátké promluvy doříkávalo artefakt (divák slyšel schwu, u S83 navíc 's' a u S86 't'). Obětovaná věta promluvu prodlouží a řez padne do ticha mezi větami.",
+      "diagram_generator": "dvere",
+      "diagram": "Dvoje dveře, popisky FULL MEMBERSHIP a ORDINARY PARTNER.",
+      "dovetek": "Behind the first one, full membership."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Sedadlo je tu podřízený motiv páteře, ne konkurenční tvar — objeví se jen tady a v S75.",
+      "diagram_generator": "dvere",
+      "diagram": "První dveře pootevřené, za nimi stůl se sedadly, jedno prázdné; popisky SEAT, VOTE, VETO, OBLIGATIONS."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Na nápis vodorovná čára, ne křížek (křížek dělá nápis nečitelný — naměřeno na ONE ABILITY).",
+      "diagram_generator": "dvere",
+      "diagram": "První dveře zavřené, přes ně vodorovná čára přes popisek."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Zpětný odkaz na S13 — tytéž tři popisky, táž barva.",
+      "diagram_generator": "dvere",
+      "diagram": "Druhé dveře dokořán, za nimi to, co Kanada už má: CETA, HORIZON, SAFE."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Kresba tvrdí 'nikam to nevede'. Šipka musí končit tam, kde začala, jinak scéna tvrdí opak věty.",
+      "diagram_generator": "dvere",
+      "diagram": "Za druhými dveřmi je táž strana čáry, ze které se vyšlo; šipka se vrací obloukem zpátky."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Čárkovaná = neexistuje. Tatáž konvence jako S05, tedy divák ji už zná.",
+      "diagram_generator": "dvere",
+      "diagram": "Mezi dvoje dveře se čárkovaně vkreslí třetí, užší."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Nájezd na výčet — ale prázdné štítky, ne prázdné osy. Popisky přijdou v S32. Dva sloupce, ne tři: napravo od páteře zbývá 1 240 px a ve třech sloupcích se „ARTIFICIAL INTELLIGENCE\" zmenšilo pod mez čitelnosti ve 150px náhledu.",
+      "diagram_generator": "dvere",
+      "diagram": "Kolem třetích dveří se objeví šest ztlumených štítků bez textu."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Seznam je ověřený proti tomu, co von der Leyenová jmenovala (factcheck.md, S32). Arktida je výš, protože se k ní video vrátí v S55.",
+      "diagram_generator": "dvere",
+      "diagram": "Štítky se popíšou: DEFENCE, ENERGY, CRITICAL MINERALS, AI, QUANTUM, CYBER a nad nimi ARCTIC.",
+      "pause": 2.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Kóta je slib: na tuhle otázku video odpoví teprve v S81, a to tak, že neodpoví.",
+      "diagram_generator": "dvere",
+      "diagram": "Třetí dveře s kótou šířky a otazníkem místo čísla."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Čtyři otázky drží JEDNO rozvržení a mění se jen ikona vlevo — jinak z toho budou čtyři střihy.",
+      "diagram_generator": "hlas",
+      "diagram": "Otázka 1 ze čtyř: výsek jednotného trhu jako koláč, ambrový výsek s otazníkem."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "",
+      "diagram_generator": "hlas",
+      "diagram": "Otázka 2: štos pravidel se šipkou přes čáru doprava."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Váhy musí být v rovnováze — scéna se ptá, netvrdí.",
+      "diagram_generator": "hlas",
+      "diagram": "Otázka 3: dvě zboží na vahách, kanadské a německé."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "",
+      "diagram_generator": "hlas",
+      "diagram": "Otázka 4: mince padající přes čáru doleva."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Beat před hlavní otázkou bloku.",
+      "diagram_generator": "hlas",
+      "diagram": "Prázdná plocha, jediná ambrová čára doprostřed."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Sedadlo se vrací z S26 na TÝCHŽ souřadnicích — jinak se callback nepozná.",
+      "diagram_generator": "hlas",
+      "diagram": "Pátá otázka větší než ostatní: WOULD CANADA GET A SAY? a pod ní prázdné hlasovací sedadlo."
+    },
+    {
+      "id": "S39b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39b.png",
+      "note": "Beat: mění se jediná věc.",
+      "diagram_generator": "hlas",
+      "diagram": "Táž kresba, přes otazník se objeví nápis TODAY."
+    },
+    {
+      "id": "S39c",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39c.png",
+      "note": "Uhlíkové clo potřebuje skutečnou huť, ne ikonu. PRVNÍ VOLBA ZAMÍTNUTA: snímek voestalpine měl přes celý obraz LOGO VÝROBCE — táž vada jako turistické boty u videa 006. Zoom povolen (není to portrét).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "cement plant kiln industry",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S39d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39d.png",
+      "note": "Dvě šipky opačným směrem na týchž souřadnicích: povinnost jde doprava, hlas nikam.",
+      "diagram_generator": "hlas",
+      "diagram": "Kanadský podnik vpravo od čáry, formulář putuje doleva, pravidlo se vrací doprava."
+    },
+    {
+      "id": "S39e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39e.png",
+      "note": "Nejtvrdší beat videa. Škrtá se slovo VOTES, ne celý řádek.",
+      "diagram_generator": "hlas",
+      "diagram": "Dvě slova pod sebou: PAYS ambrově, VOTES přeškrtnuté.",
+      "pause": 2.8
+    },
+    {
+      "id": "S41",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Výsledek referenda po krajích. PRVNÍ VOLBA ZAMÍTNUTA: mapa měla popisky NĚMECKY (Nein/Ja) a legendu přes půl obrazu. BEZ ZOOMU — je to mapa s popisky, zoom by je uřízl.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Norwegian EU membership referendum 1994 result by counties",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Norsko dostává tutéž geometrii jako Kanada — to je celý smysl bloku.",
+      "diagram_generator": "norsko",
+      "diagram": "Norsko jako bod TĚSNĚ u čáry, uvnitř většiny jednotného trhu, ale vpravo od ní."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Všechny tři plnou čarou: je to doložený stav, ne hypotéza.",
+      "diagram_generator": "norsko",
+      "diagram": "Tři šipky volně přes čáru: GOODS, CITIZENS, MONEY."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Scéna kreslí DATA: výška sloupce se počítá z čísla a jistí assertem (13 000 ověřeno, factcheck.md S41–S46).",
+      "diagram_generator": "norsko",
+      "diagram": "Sloupec předpisů, výška odpovídá 13 000; popisek SINCE 1994."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Třetí návrat sedadla. Prázdné, ne přeškrtnuté — Norsko hlas nemá, ne že by o něj přišlo.",
+      "diagram_generator": "norsko",
+      "diagram": "Nad čárou hlasovací sál, v něm norské sedadlo prázdné a ztlumené."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Uvozovky v obraze jsou nutné: je to cizí posměšek, ne tvrzení videa.",
+      "diagram_generator": "norsko",
+      "diagram": "Fax vydávající nekonečný pás pravidel, popisek FAX DEMOCRACY v uvozovkách.",
+      "pause": 2.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "",
+      "diagram_generator": "schodiste",
+      "diagram": "Čára a vedle ní dva stupně: IN a OUT."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Schodiště je opřené o páteř, ne samostatný tvar. Švýcarsko zůstává jako STUPEŇ, i když se blok o něm škrtl — tady nese jen polohu.",
+      "diagram_generator": "schodiste",
+      "diagram": "Mezi ně se dokreslí celé schodiště: EEA, SWITZERLAND, CANDIDATE, PARTNER."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": " Těleso Unie se nekreslí: po ukotvení schodiště k páteři zabírá tutéž plochu.",
+      "diagram_generator": "schodiste",
+      "diagram": "Všechny stupně stojí vlevo od čáry, na evropské straně."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Výplata prvního poločasu. Musí být na týchž souřadnicích jako kanadský bod z S06. Těleso Unie ustoupilo schodišti ze stejného důvodu jako v S51.",
+      "diagram_generator": "schodiste",
+      "diagram": "Jeden stupeň se objeví vpravo od čáry, ambrový, popisek CANADA.",
+      "pause": 2.2
+    },
+    {
+      "id": "S52b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "cta": true,
+      "note": "Výzva k odběru dědí obrázek S52 (prolínačka mezi dvěma stejnými obrázky není vidět) a musí být statická, jinak by zoom skočil zpátky. Předchozí scéna je diagram, tedy taky statická — podmínka z docs/cta.md splněna. Nápis vypálí render.py ze sdílené vrstvy, do diagramu se NEKRESLÍ."
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S53.png",
+      "note": "Předěl do druhé půlky. Žádné denní světlo v promptu — 'dawn'/'dusk' u SDXL vždycky vyrobí zlatou paletu proti kotvě stylu (naměřeno u videa 020).",
+      "prompt": "vast empty cold plain meeting a grey ocean, low flat horizon, pack ice at the waterline, flat grey overcast sky, no sun, a single small figure seen from behind at a distance, no text"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Páteř se NEZMENŠUJE ani neposouvá, ačkoli to původní návrh chtěl: její poloha drží registr invariantů a s ním výplatu v S101. Glóbus proto přibývá vedle ní.",
+      "diagram_generator": "arktida",
+      "diagram": "Páteř zůstává, vpravo od ní se objeví obrys severní polokoule shora."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Mapa shora je tu argument, ne ilustrace: přes pól jsou od sebe blíž než přes Atlantik.",
+      "diagram_generator": "arktida",
+      "diagram": "Pohled na pól: Kanada a Evropa proti sobě přes Severní ledový oceán."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Číslo se ZÁMĚRNĚ nekreslí — CIA a WRI se liší (202 080 vs 265 523 km) a vysvětlovat proč by byla odbočka. Pořadí je jednoznačné.",
+      "diagram_generator": "arktida",
+      "diagram": "Kanadské pobřeží zvýrazněné, popisek LONGEST COASTLINE ON EARTH."
+    },
+    {
+      "id": "S57",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S57.png",
+      "note": "Tenčící se led jako skutečný snímek. Zoom out povolen, není to portrét.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Arctic sea ice melt",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Obě strany téhož oceánu na jedné kresbě — to je celý argument scény.",
+      "diagram_generator": "arktida",
+      "diagram": "Tentýž pohled na pól, na evropské straně se rozsvítí severní pobřeží.",
+      "pause": 2.4
+    },
+    {
+      "id": "S59",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S59.png",
+      "note": "Předěl k surovinám. Řez zemí je atmosféra, ne schéma — konkrétní kovy kreslí až S60.",
+      "prompt": "cross section of cold bedrock under a thin layer of snow, layered rock strata, dark mineral veins, no machinery, no text"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Šipky míří z kovu do výrobku, ne obráceně. Scéna, ve které něco na něco míří — ověřit směr proti větě.",
+      "diagram_generator": "suroviny",
+      "diagram": "Čtyři kovy jako značky, z každé šipka do výrobku: baterie, turbína, střela."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Páteř tu nese nerovnováhu bez jediného slova navíc.",
+      "diagram_generator": "suroviny",
+      "diagram": "Vlevo od čáry továrny, vpravo hornina. Nic nepřechází."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Dodavatel se ZÁMĚRNĚ nejmenuje — scénář ho nejmenuje taky, a kresba nesmí tvrdit víc než text.",
+      "diagram_generator": "suroviny",
+      "diagram": "Jedna trubka od jediného dodavatele, na ní ventil; popisek ONE SUPPLIER.",
+      "pause": 2.2
+    },
+    {
+      "id": "S63",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S63.png",
+      "note": "Otočení pohledu. Jediná scéna z kanadské strany.",
+      "prompt": "wide empty government office interior at night, tall windows, a long table, cold overcast light from outside, seen from behind, no text"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Data v obraze OD PRVNÍHO SNÍMKU. Hodnota 76,4 % ověřená (factcheck.md S64–S65), assert na součet.",
+      "diagram_generator": "ottawa",
+      "diagram": "Koláč vývozu: 76 % jeden ambrový výsek, zbytek ztlumený."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Beat: mění se jediná věc — přibude nápis. DOVĚTEK: Kokoro na konci téhle krátké promluvy doříkávalo artefakt (divák slyšel schwu, u S83 navíc 's' a u S86 't'). Obětovaná věta promluvu prodlouží a řez padne do ticha mezi větami.",
+      "diagram_generator": "ottawa",
+      "diagram": "Popisek výseku: UNITED STATES.",
+      "dovetek": "That is not a trading relationship."
+    },
+    {
+      "id": "S66",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S66.png",
+      "note": "Dlouhá hranice jako skutečné místo. Pan doprava, ať je délka cítit.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Canada United States border crossing",
+        "pick": 1,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "",
+      "diagram_generator": "ottawa",
+      "diagram": "Táž hranice schematicky, přes ni podmínky obchodu jako proměnlivé kóty."
+    },
+    {
+      "id": "S67b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67b.png",
+      "note": "Návrat páteře po archivní odbočce.",
+      "diagram_generator": "ottawa",
+      "diagram": "Páteř zpátky, vlevo od ní evropská strana, nad ní stoupající sloupec výdajů na obranu."
+    },
+    {
+      "id": "S67c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67c.png",
+      "note": "",
+      "diagram_generator": "ottawa",
+      "diagram": "Sloupec s popiskem DEFENCE SPENDING a otazníkem nad ním."
+    },
+    {
+      "id": "S67d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67d.png",
+      "note": "Symetrie je tvrzení scény — obě strany musí být kresleny týmž způsobem.",
+      "diagram_generator": "ottawa",
+      "diagram": "Obě strany počítají: na obou stranách čáry tentýž ztlumený výpočet.",
+      "pause": 2.2
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Škrtá se šipka, ne Evropa — scéna říká 'nenahradí', ne 'nevyplatí se'.",
+      "diagram_generator": "ottawa",
+      "diagram": "Váhy: USA těžké, Evropa lehká. Šipka 'replace' přeškrtnutá."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Konec bloku. 'Less alone in the room' je doslovná kresba a to je tady v pořádku.",
+      "diagram_generator": "ottawa",
+      "diagram": "Místnost se dvěma partnery místo jednoho; kanadská postava uprostřed.",
+      "pause": 2.6
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Vyprázdněná plocha po hustém bloku. Nic dalšího.",
+      "diagram_generator": "otazky",
+      "diagram": "Zpomalení: páteř sama, bez prvků."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Callback drží TYTÉŽ souřadnice jako S34–S37, jinak se nepozná.",
+      "diagram_generator": "otazky",
+      "diagram": "Čtyři otazníky z S34–S37 se vrátí ztlumené."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "",
+      "diagram_generator": "otazky",
+      "diagram": "Evropský předpis padá na kanadský podnik vpravo od čáry."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Tentýž pár jako S39e, na týchž souřadnicích — tady už jako obecné pravidlo, ne jako jeden případ.",
+      "diagram_generator": "otazky",
+      "diagram": "Pod podnikem dva řádky: FOLLOWS ambrově, VOTED přeškrtnuté."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Zrcadlení je beat i argument zároveň. Musí to být TÁŽ kresba, jen obrácená.",
+      "diagram_generator": "otazky",
+      "diagram": "Celá kresba zrcadlena kolem čáry."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Čtvrtý a poslední návrat sedadla. Teď je obsazené — to je ta změna.",
+      "diagram_generator": "otazky",
+      "diagram": "Kanadské sedadlo v evropském sále, ambrové."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Postava je malá a vzadu, jako v celém kanálu. Míří pohledem, ne šipkou.",
+      "diagram_generator": "otazky",
+      "diagram": "Portugalský volič vpravo dole se dívá na to sedadlo."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Překryv je tu ZÁMĚR a musí se zapsat do note, jinak ho příští agent 'opraví' podle prekryv_check.py.",
+      "diagram_generator": "otazky",
+      "diagram": "Schodiště z S50 s příliš mnoha stupni, popisky se překrývají."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "",
+      "diagram_generator": "otazky",
+      "diagram": "Prázdná plocha, jediná věta."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Konec bloku a zároveň odpověď na kótu z S33 — video přiznává, že odpověď nemá.",
+      "diagram_generator": "otazky",
+      "diagram": "Dvě otázky pod sebou: WHO IS IN? WHO DECIDES?",
+      "pause": 3.0
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Začátek výplaty celé páteře. Slova sedí NAD čarou a jejich poloha se do konce videa nemění.",
+      "diagram_generator": "unie",
+      "diagram": "Páteř, nad ní dvě slova: EUROPEAN UNION."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": " DOVĚTEK: Kokoro na konci téhle krátké promluvy doříkávalo artefakt (divák slyšel schwu, u S83 navíc 's' a u S86 't'). Obětovaná věta promluvu prodlouží a řez padne do ticha mezi větami.",
+      "diagram_generator": "unie",
+      "diagram": "Táž dvě slova, větší.",
+      "dovetek": "We hear those two words in one direction."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Tady kresba ukazuje, jak to čteme MY — ne jak to je. Musí být zřetelně 'čtení', proto šipka, ne rovnítko.",
+      "diagram_generator": "unie",
+      "diagram": "Šipka od slova EUROPEAN dolů k čáře, ta se rozsvítí jako hranice."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "",
+      "diagram_generator": "unie",
+      "diagram": "Šipka zhasne, rozsvítí se slovo UNION."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Beat. DOVĚTEK: Kokoro na konci téhle krátké promluvy doříkávalo artefakt (divák slyšel schwu, u S83 navíc 's' a u S86 't'). Obětovaná věta promluvu prodlouží a řez padne do ticha mezi větami. NAVĚTÍ i DOVĚTEK: samotný dovětek se u jednoslovné promluvy nenašel kde uříznout (1,3 s je pod hranicí). Návětí je skutečný text předchozí scény, takže drží i intonaci.",
+      "diagram_generator": "unie",
+      "diagram": "Jediné slovo uprostřed.",
+      "dovetek": "A union is not a place.",
+      "naveti": "But look at what the second word is doing."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Protiklad k S84 na týchž souřadnicích: jednou zeměpis, podruhé dohoda.",
+      "diagram_generator": "unie",
+      "diagram": "Od slova UNION dolů ne k čáře, ale k dohodě dvou stran — dvě ruce nad textem."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Prázdné štítky jako v S31 — a popíšou se hned.",
+      "diagram_generator": "unie",
+      "diagram": "Šest ztlumených štítků kolem slova UNION."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Dvacet sedm zemí u STANDARDS je číslo — assert.",
+      "diagram_generator": "unie",
+      "diagram": "Štítky popsané: RULES, MARKET, COURTS, MONEY, STANDARDS, INSTITUTIONS."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Nejdůležitější tvrzení videa nesmí být nový obraz. Je to táž kresba, ze které se něco odebere.",
+      "diagram_generator": "unie",
+      "diagram": "Přes všech šest štítků se objeví ztlumené slovo EUROPEAN a zhasne."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Symetrie přes páteř — shodné štítky na obou stranách. A poprvé ZTLUMENÁ ČÁRA: od téhle scény přestává být páteř dominantní, aby výplata v S101–S102 měla kam růst. Ztlumení je postupné (S91 → S96 → S101), ne skok.",
+      "diagram_generator": "unie",
+      "diagram": "Vpravo od čáry se rozsvítí tytéž tři štítky jako vlevo; sama čára je poprvé ztlumená na úroveň druhotné kresby.",
+      "pause": 2.6
+    },
+    {
+      "id": "S92",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Podpis Pařížské smlouvy. BEZ ZOOMU — skupinová fotka, u videa 004 se při zoomu ořezávaly hlavy.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "1951 CECA ECSC",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Strop čárkovaně, protože je to otázka, ne tvrzení.",
+      "diagram_generator": "zaver",
+      "diagram": "Šest bodů vlevo u čáry, nad nimi strop jako vodorovná čárkovaná čára."
+    },
+    {
+      "id": "S94",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S94.png",
+      "note": "Návrat na zem. Nic není dohodnuté — proto prázdná chodba, ne jednací sál.",
+      "prompt": "long empty institutional corridor with glass walls, closed doors, cold overcast light from a far window, one small figure at the end seen from behind, no text"
+    },
+    {
+      "id": "S94b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94b.png",
+      "note": "Čárkovaně = teprve se stane. Rozdíl PROPOSAL × AGREEMENT musí být v obraze vidět, jinak závěr působí, že status už existuje.",
+      "diagram_generator": "zaver",
+      "diagram": "Kalendář s jedinou značkou OCTOBER a čárkovaným rámečkem kolem ní."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Poctivá varianta 'nic z toho nebude' dostává vlastní obraz, ne jen větu.",
+      "diagram_generator": "zaver",
+      "diagram": "Třetí dveře z S30 se zmenší na štěrbinu velikosti obchodní dohody."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Uvolňuje plochu pro závěrečnou obrazovku: ZBÝVAJÍCÍ SCÉNY MAJÍ MÍT VOLNOU HORNÍ POLOVINU (dole sedí ambrový nadpis z svgkit.title(), viz zaver_check.py).",
+      "diagram_generator": "zaver",
+      "diagram": "Štěrbina zhasne, zůstane jen ztlumená čára a nad ní prázdno."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Začátek výplaty. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Popisek čáry ANY EUROPEAN STATE se rozsvítí a slovo EUROPEAN zbledne."
+    },
+    {
+      "id": "S98",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S98.png",
+      "note": "Poslední SDXL scéna. Volná horní polovina — je v ní jen obloha.",
+      "prompt": "two distant shorelines across a wide calm grey sea, seen from high above the water, no land bridge, thin northern daylight, flat overcast sky, no text"
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Závěrečná obrazovka: značky patří do DOLNÍ poloviny, horní zůstává prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo od čáry sedmdesát pět let integrace jako řada značek, otázka pod nimi."
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Táž řada, ale otázka se přesune napravo od čáry."
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "VÝPLATA PÁTEŘE. Slova sedí na týchž souřadnicích jako v S82, jen mnohem větší. Zhasnutí jednoho slova je jediná změna — nesmí to být nová kresba.",
+      "diagram_generator": "zaver",
+      "diagram": "Nad čárou obrovské EUROPEAN UNION; slovo EUROPEAN zhasíná, UNION zůstává."
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Poslední obraz a JEDINÁ vizuální změna v celém videu, která se nikde jinde neopakuje — proto ji nesmí předběhnout žádná dřívější scéna: čára se do S101 nikdy nerozpadá, jen ztlumuje. Kanadský bod tu původně měl zůstat, ale seděl by u písmene U a v horní polovině, kterou poslední scény drží volnou pro dlaždici dalšího videa a kolečko odběru. Pauza 3,2 s, ať deska drží.",
+      "diagram_generator": "zaver",
+      "diagram": "Zůstane samotné UNION. Svislá čára se rozpadne na řadu bodů a ty se rozestoupí — přestane být hranicí. Kanadský bod zůstane, kde byl, ale už není 'za' ničím.",
+      "pause": 3.2
+    }
+  ]
+}

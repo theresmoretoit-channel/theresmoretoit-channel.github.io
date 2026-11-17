@@ -1,0 +1,543 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "saturn",
+   "diagram": "PÁTEŘ: Saturn V NALEŽATO v dolní polovině (y 804–996), přední část vpravo. Nad ním JULY 1969 a ambrově ≈ 2,900 TONNES ON THE LAUNCH PAD.",
+   "note": "První obrazovka nese myšlenku (obří raketa), není SDXL. Raketa leží, aby se páteř vešla do dolní poloviny i v okně závěrečné obrazovky (S51) a aby stupně mohly ‚odpadávat‘ dozadu doleva. Délky dílů zhruba v měřítku, bez čísel."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "saturn",
+   "diagram": "Táž raketa ztlumeně, jen velitelský modul ambrově. Nad ním 8 DAYS LATER a WHAT CAME HOME: JUST UNDER 5 TONNES, se šipkou ke kapsli.",
+   "note": "Délka kapsle v obraze NENÍ její podíl na hmotnosti (3 % délky, 0,17 % hmotnosti) — proto podíl hmotnosti nese až S03 mřížkou, ne délka."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "saturn",
+   "diagram": "Mřížka 40 × 15 = 600 políček (celá raketa), jedno ambrové (kapsle). ≈ 1 PART IN 600 a otazník WHERE DID THE REST GO?",
+   "note": "Data s assertem: 2 923 t / 4,932 t = 593 ≈ 600 (factcheck S03). Mřížka místo délek rakety, protože délka by tvrdila 1 : 30.",
+   "pause": 1.4
+  },
+  {
+   "id": "S04",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S04.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (dotaz „Apollo 11 liftoff“, nasa, 2026-10-25): [3] KSC-69P-446, klasický start Apolla 11 s plamenem. [0] (kamera na věži) je dramatičtější, ale čte se hůř. NASA public domain; fotka se hýbe.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Apollo 11 liftoff",
+    "pick": 3
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "saturn",
+   "diagram": "Páteř: první stupeň (S-IC) INK, horní stupně ambrově s popiskem PROPELLANT LIFTED BY THE FIRST STAGE. Nahoře FUEL + OXYGEN = „FUEL“ FROM HERE ON.",
+   "note": "Kvalitativní tvrzení S05 (factcheck): horní stupně jsou z větší části propelent, který musí S-IC zvednout. Nekreslí se podíl číslem.",
+   "pause": 2.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "palivo",
+   "diagram": "Malá raketa (kapsle + nádrž) a vedle ní táž s druhou nádrží: + MORE FUEL → FASTER?",
+   "note": "Začátek paradoxu. Kapsle = užitečný náklad, vždycky ambrová v tomhle bloku; palivo INK.",
+   "pause": 0.6
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "palivo",
+   "diagram": "Táž raketa se dvěma nádržemi, nad přidanou nádrží FUEL HAS MASS a šipka vzad: IT MUST BE CARRIED AND SPED UP TOO.",
+   "note": "Šipka = musí se urychlit, ne příčina.",
+   "pause": 0.6
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "palivo",
+   "diagram": "Řetěz: náklad ← palivo ← palivo pro palivo ← palivo pro to palivo, každá nádrž větší. Popisky FUEL FOR THE FUEL.",
+   "note": "Nádrže rostou zleva, aby bylo vidět, že přírůstek není lineární — bez čísel, označeno SCHEMATIC."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "palivo",
+   "diagram": "Táž řada, nádrže přerostly obraz, kapsle drobná ambrová. Nahoře STOPS SOLVING THE PROBLEM… / …STARTS BECOMING IT.",
+   "note": "Konec paradoxu, předěl bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S10",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S10.png",
+   "prompt": "an old wooden schoolroom desk with handwritten pages of mathematics, an oil lamp and a small brass telescope, flat grey overcast light through a tall window, quiet interior",
+   "note": "Předěl k rovnici (atmosféra). Bez dusk/dawn, světlo zatažené (CLAUDE.md). Žádný text na papírech — SDXL ho stejně neumí, ať je to jen tvar."
+  },
+  {
+   "id": "S11",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU (dotaz „Tsiolkovsky 1924“, wikimedia): [1] portrét 1924 bez paspartu, PD. Dotaz „Konstantin Tsiolkovsky portrait“ vracel posádku Sojuzu, „Tsiolkovsky“ rodinné foto a vzducholodě. Portrét: fit 0.84, BEZ zoomu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Tsiolkovsky 1924",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Časová osa: 1813 · WILLIAM MOORE · MILITARY ROCKETS — 1903 · TSIOLKOVSKY · REACHING SPACE (ambrově). Bez titulku.",
+   "note": "Za scénou výzva k odběru (~1:45 podle odhadu): levý dolní roh prázdný, kresba nad y 1000, žádný title(). Konec historického bloku.",
+   "pause": 2.2,
+   "vyzva": true
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "rovnice",
+   "diagram": "PÁTEŘ ROVNICE celá v INK, nic nesvítí, nad ní THE ROCKET EQUATION. Dole prázdno.",
+   "note": "Beat „Here it is.“ (uživatel k draftu 1: malá pauza). Pauza uvnitř scény nešla vložit (řeč u řezu −1 dB), proto rozdělení scény. Krátká samostatná promluva → naveti = poslední věta S12 (intonace navazuje). Výzva k odběru přechází přes S13 i začátek S13b — levý dolní roh prázdný.",
+   "naveti": "Tsiolkovsky used it to work out how we might reach space.",
+   "pause": 0.7
+  },
+  {
+   "id": "S13b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13b.png",
+   "diagram_generator": "rovnice",
+   "diagram": "PÁTEŘ ROVNICE: Δv = vₑ · ln(m₀ / m₁) neproporcionálním písmem nahoře (y 360). Δv ambrově, pod ním vodorovná šipka a CHANGE IN SPEED.",
+   "note": "Týž obraz jako S13, rozsvítí se jen Δv. Konvence: RYCHLOST = vodorovná šipka, HMOTNOST = svislý sloupec. Drží se v S13–S27 a S46–S47, aby se poměr hmotností, změna rychlosti a počáteční hmotnost nepletly (pokyn uživatele k S18–S20). Výzva přechází přes začátek scény — levý dolní roh prázdný."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice, vₑ ambrově. Pod ní raketa vyhazuje dozadu hmotu (tečky) se šipkou EXHAUST SPEED; dopředu menší šipka raketa.",
+   "note": "Šipka hybnosti dozadu a raketa dopředu — směry musí sedět s větou (hází DOZADU, dostává zpátky DOPŘEDU).",
+   "pause": 0.6
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice, m₀ / m₁ ambrově. Pod ní dva sloupce: FULL (START) vysoký a EMPTY (END) nízký, rozepsaný ENGINES · EMPTY TANKS · STRUCTURE · PAYLOAD.",
+   "note": "Hmotnost = svislý sloupec (konvence). Sloupce bez měřítka, SCHEMATIC.",
+   "pause": 0.6
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice, ln ambrově, ostatní ztlumeně. THE PART THAT MAKES IT SO HARD.",
+   "note": "—",
+   "pause": 1.6
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "pomer",
+   "diagram": "Dva sloupce raket A a B se stejným motorem (SAME ENGINE). Nahoře oddíl MASS RATIO · FULL ÷ EMPTY: dvojice sloupců 4 : 1 a 8 : 1 v měřítku.",
+   "note": "Pokyn uživatele: odlišit POMĚR hmotností (dvojice svislých sloupců), ZMĚNU RYCHLOSTI (vodorovná šipka, až od S18) a POČÁTEČNÍ HMOTNOST (S20, sloupce nad osou rychlosti). Oddíl rychlosti tu ještě není — žádná prázdná osa."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "pomer",
+   "diagram": "Totéž + dolní oddíl DELTA-V · SPEED GAINED: šipky A a B v měřítku ln 4 : ln 8. U B čárkovaně EXPECTED ×2, plně ambrově +50 %.",
+   "note": "assert ln8/ln4 = 1,5. Čárkovaně = očekávání (konvence), ne skutečnost.",
+   "pause": 1.2
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "pomer",
+   "diagram": "Přibude raketa C (16 : 1) a její šipka: +33 % proti B, čárkovaně očekávané ×2. Dole EVERY EXTRA TONNE OF FUEL BUYS LESS SPEED.",
+   "note": "assert ln16/ln8 = 1,333."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "pomer",
+   "diagram": "JINÝ graf: vodorovná osa EXTRA SPEED (km/s, 1–10), nad ní sloupce STARTING MASS při stejné konečné hmotnosti (čárkovaná hladina END MASS). Ambrově EACH +1 KM/S: ×1.25.",
+   "note": "Počáteční hmotnost = sloupce NAD OSOU RYCHLOSTI, tedy obráceně než S17–S19 — tím se liší od poměru. Výška e^(Δv/4,5) s assertem; motor z S23 (4,5 km/s) uveden drobně.",
+   "pause": 2.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "orbita",
+   "diagram": "Oblouk Země dole, nad ním dráha, loď s ambrovou vodorovnou šipkou 7.8 KM/S · SIDEWAYS. LOW EARTH ORBIT.",
+   "note": "Šipka po tečně dráhy, ne nahoru — o tom je ta věta."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "orbita",
+   "diagram": "Rozpočet rychlosti: vodorovný pruh 7.8 ORBITAL SPEED (INK) + GRAVITY + AIR (MUTED), nad celkem ambrově ≈ 9.4 KM/S.",
+   "note": "Rychlost = vodorovně (konvence). Ztráty bez vlastního čísla, jen rozdíl v měřítku (factcheck: 1,1–1,65)."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "orbita",
+   "diagram": "Tryska motoru, z ní šipka EXHAUST 4.5 KM/S. Popisky HYDROGEN + OXYGEN a čárkovaně AS IF IN A VACUUM (GENEROUS).",
+   "note": "Čárkovaně = velkorysý předpoklad, ne skutečnost u země."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice nahoře, pod ní dosazení 9.4 = 4.5 · ln(m₀ / m₁) a ambrově m₀ / m₁ ≈ 8.",
+   "note": "assert e^(9,4/4,5) = 8,08. Návrat páteře rovnice."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "pomer",
+   "diagram": "Dva svislé sloupce v měřítku: 100 T ON THE PAD a 12 T REACHES ORBIT (ambrově).",
+   "note": "assert 100/8,08 = 12,4.",
+   "pause": 0.6
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "pomer",
+   "diagram": "Sloupec 12 t zvětšený: ENGINES · EMPTY TANKS · STRUCTURE, nahoře čárkovaně malý díl PAYLOAD = WHATEVER'S LEFT.",
+   "note": "Bez podílů, SCHEMATIC — scénář žádné nedává."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "pomer",
+   "diagram": "FALCON 9: sloupce v měřítku 549 T AT LAUNCH a 22.8 T MAX TO LOW ORBIT (ambrově), ≈ 4 %.",
+   "note": "assert 22,8/549 = 4,2 % (factcheck S27). Sloupce týmž stylem jako S25.",
+   "pause": 1.4
+  },
+  {
+   "id": "S28",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S28.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU (dotaz „Apollo stage separation“, nasa): [1] třetí stupeň (S-IVB) Apolla 8 po oddělení lodi, NASA PD. Není to odhoz ‚on the way up‘, ale obraz tvrdí jen ‚stupně se odhazují‘, a to sedí. Dotaz „Saturn V interstage separation“ nevrátil nic.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Apollo stage separation",
+    "pick": 1
+   }
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "saturn",
+   "diagram": "Páteř celá, stupně popsané 1ST STAGE · 2ND STAGE · 3RD STAGE · SPACECRAFT. Nahoře THAT'S WHERE THE REST WENT.",
+   "note": "Callback na S03. Táž geometrie jako S01 (registr invariantů).",
+   "pause": 1.2
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "saturn",
+   "diagram": "První stupeň odpojený, čárkovaně odsunutý dozadu dolů, popisky 5 ENGINES · EMPTY TANKS a < 3 MIN · INTO THE ATLANTIC. Zbytek rakety na místě.",
+   "note": "Odpadlý díl čárkovaně (už není součástí letu), zbytek páteře se NEPOSOUVÁ."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "saturn",
+   "diagram": "Odpadne i druhý stupeň (čárkovaně), třetí ambrově: ALMOST TO ORBIT · THEN TOWARDS THE MOON.",
+   "note": "—"
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "stupne",
+   "diagram": "Dva schematické grafy nad sebou se společnou časovou osou: SPEED roste ve třech úsecích, MASS skáče dolů při každém odhozu. SCHEMATIC.",
+   "note": "Rychlost a hmotnost odděleně, každá na svém grafu (konvence)."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "stupne",
+   "diagram": "Tři samostatné rakety vedle sebe = táž trojice postavená na sebe. Ambrově THEY ARE.",
+   "note": "—",
+   "pause": 1.0
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice nahoře; pod ní tři menší kopie STAGE 1 / 2 / 3 a součet Δv = Δv₁ + Δv₂ + Δv₃. Ambrově EVERY STAGE OBEYS IT.",
+   "note": "Stupně rovnici neporazí — kresba nesmí naznačit, že ji obcházejí jinak než sčítáním.",
+   "pause": 2.2
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "apollo",
+   "diagram": "Oblouk Měsíce dole. Spodní polovina landeru na povrchu (MUTED, LEFT ON THE MOON), horní polovina šipkou vzhůru k dráze a čárkovaně CAST OFF IN LUNAR ORBIT.",
+   "note": "Eagle jen „cast off in lunar orbit“ — že dopadl, nedoloženo (Meador 2021)."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "saturn",
+   "diagram": "Páteř celá čárkovaně (odhozeno), jen velitelský modul ambrově; servisní modul těsně před ním MUTED: DROPPED BEFORE RE-ENTRY. Nahoře THE ONE PIECE THAT HAD TO COME HOME.",
+   "note": "Rým s S02 a S51. Za scénou výzva k odběru (za pointou stupňů): levý dolní roh prázdný, bez title().",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice, vₑ ambrově: FASTER EXHAUST → LESS FUEL.",
+   "note": "Výzva přechází přes začátek scény — levý dolní roh prázdný."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "motory",
+   "diagram": "Vodorovná osa EXHAUST SPEED (km/s, 0–35). Chemické motory do ~4.5, za nimi stěna CHEMICAL ENERGY LIMIT.",
+   "note": "Osa rovnou do 35, aby S42 a iontový motor (30,4 km/s) měly kam — ale v S38 jen chemie, žádná prázdná značka."
+  },
+  {
+   "id": "S39",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S39.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU (dotaz „ion engine test xenon“, nasa): [1] iontový motor Deep Space 1 při zkoušce (NASA/JPL PD). Je to NSTAR, tentýž typ, jaký nesl Dawn — věta mluví o iontových motorech obecně, takže obraz netvrdí víc.",
+   "archive": {
+    "provider": "nasa",
+    "query": "ion engine test xenon",
+    "pick": 1
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "motory",
+   "diagram": "List papíru na dlani se šipkou dolů: DAWN'S PUSH ≈ THE WEIGHT OF A SHEET OF PAPER (≈ 0.09 N).",
+   "note": "91 mN (factcheck S40)."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "motory",
+   "diagram": "Tachometr 0 → 60 MPH a ambrově 4 DAYS AT FULL POWER. Dole přeškrtnutá šipka vzhůru: CAN'T LIFT OFF THE GROUND.",
+   "note": "—"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "motory",
+   "diagram": "Dvě osy: vodorovně EXHAUST SPEED (EFFICIENCY), svisle THRUST (BRUTE FORCE). Chemický motor vlevo nahoře, iontový vpravo dole, pravý horní roh čárkovaně NO ENGINE WE'VE FLOWN. SCHEMATIC.",
+   "note": "Konec bloku motorů.",
+   "pause": 2.6
+  },
+  {
+   "id": "S43",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S43.png",
+   "prompt": "the curve of the Earth seen from very high altitude, thin blue atmosphere, a tiny distant rocket climbing on a thin vapour trail, flat grey cloud deck below, no sun, wide shot",
+   "note": "Předěl k nové otázce („the price is set by Earth“). Chlad počasím, žádné dusk/dawn. Funkce místo promptu: místo zakřivení Země vyšla raketa na skalnaté rampě pod šedou oblohou; ponecháno (uživatel k draftu 1). RUČNÍ RETUŠ 2026-10-25 na pokyn uživatele: vzdálená věžička vpravo dole od středu (x 1394–1424, y 908–992 v 2560×1440) nahrazena oblohou posunutou o 34 px doleva, okraj masky Gauss 5 px, 0,14 % plochy. Po přegenerování images.py (--force) se věžička vrátí a retuš se musí zopakovat."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "planety",
+   "diagram": "RÝM PLANET: Země a větší planeta vedle sebe na pevných souřadnicích, šipky gravitace. Ambrově MORE SPEED → THE BILL MULTIPLIES.",
+   "note": "Callback na S20 slovem, ne kresbou. Planety ve všech S44–S49 na týchž místech (registr).",
+   "pause": 1.4
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "planety",
+   "diagram": "Tytéž planety: EARTH a 10 × EARTH'S MASS · 1.7 × AS WIDE. Nahoře HIPPKE, 2018.",
+   "note": "Poloměry 1 : 1,7 v měřítku (assert)."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "planety",
+   "diagram": "Z planet vodorovné šipky ESCAPE SPEED v měřítku: 11.2 KM/S a 27 KM/S (ambrově).",
+   "note": "Rychlost vodorovně (konvence). factcheck S46: 11,2 a 27,1."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "planety",
+   "diagram": "Mřížky čtverečků, 1 čtvereček = prázdná raketa (ambrově): 26 vs 2 700. SIMPLIFIED SINGLE-STAGE ROCKET.",
+   "note": "Poměr hmotností jako počet čtverečků (jinak by sloupec 26 vedle 2 700 nebyl vidět). assert 60 × 45 = 2 700."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "planety",
+   "diagram": "136 malých Saturnů V v mřížce proti jednomu: ≈ 400,000 T · MORE THAN A HUNDRED SATURN Vs.",
+   "note": "assert 400 000 / 2 941 ≈ 136 (factcheck S48).",
+   "pause": 1.4
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "planety",
+   "diagram": "Řada planet: EARTH ✓, 10 × ✓ CHEMICAL ROCKETS STILL WORK, třetí větší čárkovaně: HEAVIER ROCKY WORLDS · FUEL COULD BECOME PROHIBITIVE.",
+   "note": "Nepodávat jako hranici obyvatelnosti ani nemožnost úniku (rozhodnutí uživatele). Čárkovaně = odhad.",
+   "pause": 1.2
+  },
+  {
+   "id": "S49b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49b.png",
+   "diagram_generator": "planety",
+   "diagram": "Rým planet + Mars vlevo (poloměr 0,53 Země, ambrově). Nahoře řádky únikové rychlosti v měřítku: MARS 5 KM/S (ambrově), EARTH 11 KM/S, 10 × EARTH 27 KM/S (ztlumeně). Pod Marsem 1/10 OF EARTH'S MASS.",
+   "note": "Protipříklad na návrh uživatele k draftu 1. Mars 5,03 km/s, 0,107 M⊕ (NASA fact sheet). Rychlost vodorovně (konvence 3), stejné měřítko jako S46."
+  },
+  {
+   "id": "S49c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49c.png",
+   "diagram_generator": "planety",
+   "diagram": "Čtverečky jako S47: MARS ≈ 4 a EARTH ≈ 26, první čtvereček ambrově = prázdná raketa. SAME SIMPLIFIED SINGLE-STAGE ROCKET.",
+   "note": "Spočteno týmž zjednodušením jako Hippke (Isp 350 s, úniková rychlost): e^(5,03/3,43) = 4,3; Země 26,0 sedí s jeho číslem. Je to NÁŠ přepočet, proto „in the same simplified calculation“.",
+   "pause": 2.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "rovnice",
+   "diagram": "Rovnice SAMA v dolní polovině: NEVER FORBIDS ANYTHING · ONLY NAMES THE PRICE.",
+   "note": "Patrně v okně závěrečné obrazovky — horní polovina prázdná; rovnice se proto jedině tady smí posunout dolů (závěr).",
+   "pause": 2.0
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "saturn",
+   "diagram": "Páteř čárkovaně, kapsle ambrově (jako S36). Nad ní nic — horní polovina pro závěrečnou obrazovku.",
+   "note": "Okno závěrečné obrazovky.",
+   "pause": 1.6
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "otazka",
+   "diagram": "Otázka do komentářů v dolní polovině: COULD INTELLIGENT LIFE ON A MUCH HEAVIER PLANET… / …EVER REACH SPACE? / LET ME KNOW IN THE COMMENTS.",
+   "note": "Okno závěrečné obrazovky, horní polovina prázdná. Otázku formuloval uživatel po draftu 2 (v0.6).",
+   "pause": 2.4
+  }
+ ]
+}

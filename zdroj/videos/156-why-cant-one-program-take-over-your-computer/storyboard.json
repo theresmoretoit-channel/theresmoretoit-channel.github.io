@@ -1,0 +1,908 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Malá ikona souboru uprostřed (list s ohnutým rohem), pod ní CHANNEL FILE 291; nad ní ztlumeně datum 19 JUL 2024 a slovo UPDATE. Hodně prázdného místa kolem.",
+      "note": "První obrazovka nese myšlenku: drobný soubor, velký následek. Žádné SDXL, žádné logo CrowdStriku (značka) — jen jméno souboru, které je doložené (RCA)."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Týž soubor na týchž souřadnicích; vlevo PROGRAM přeškrtnuto (`text_skrtnuty`), vpravo ambrově CONFIGURATION FILE.",
+      "note": "Beat „Not a new program“ nese škrt slova, ne obrázek.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "pady",
+      "diagram": "Mřížka malých obrazovek (např. 20 × 10), postupně modrají zleva doprava; dole počítadlo k 8,500,000 a ztlumeně < 1 % OF ALL WINDOWS PCs.",
+      "note": "ANIMACE: obrazovky modrají v rytmu slov „eight and a half million“. Počet obrazovek je symbol, ne měřítko — popisek to musí říct (každá obrazovka ≠ N strojů, žádné „1 = 42 500“). `assert` na text počítadla = 8 500 000.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S04.png",
+      "note": "Skutečné prostředí výpadku (zpětná vazba 0.2): fotka modrých obrazovek na letišti LaGuardia, CC BY-SA 4.0. PICK OVĚŘIT Z KONTAKTNÍHO LISTU.",
+      "vycet": 0.3,
+      "archive": {
+        "provider": "wikimedia",
+        "query": "CrowdStrike outage blue screen",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "pady",
+      "diagram": "Řada 20 políček EXPECTED (ztlumená), pod ní řada 21 políček UPDATE; 21. políčko ambrově přečnívá za konec horní řady a ukazuje do prázdna — OUT OF BOUNDS.",
+      "note": "Data: `assert` 20 a 21 políček. Kresba nesmí tvrdit víc než RCA (čtení mimo meze, ne „přepsání“)."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "zed",
+      "diagram": "PÁTEŘ `zed()` poprvé: vodorovná zeď přes celý obraz v pevné výšce; NAD ní okno hry (Windows záhlaví `tlacitka_okna()`), v něm ambrový brouk (`brouk()`), okno se zavírá ×, vedle šipka restartu. Pod zdí zatím tma bez popisku.",
+      "note": "Zeď leží VŽDY na týchž souřadnicích (S06–S08, S20, S27, S32–S42, S54–S55, S59–S61, S70, S72–S73, S82). Brouk je tentýž tvar jako v S07 (stejná chyba)."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "zed",
+      "diagram": "Táž zeď. Nad ní okno hry s broukem → jedno okno zavřeno. Pod zdí tentýž brouk v rámečku DRIVER → od něj ambrová vlna přes celou spodní polovinu → 8,500,000 MACHINES.",
+      "note": "Stejný brouk nahoře i dole (`brouk()` jedna funkce) — vizuálně „same kind of bug“."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "zed",
+      "diagram": "Táž kompozice, brouci ztlumeni; zeď ambrově, popisek u zdi WHERE THE CODE RAN.",
+      "note": "Rozdíl nese zeď, ne brouk."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď ztlumená, nad ní velký nápis WHY CAN'T ONE PROGRAM TAKE OVER YOUR COMPUTER?, pod zdí ambrově … AND WHY COULD THIS ONE? u ztlumeného brouka.",
+      "note": "Otázka videa (titul) jako text; konec úvodního bloku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S10.png",
+      "note": "Skok do 80. let historickou fotkou (zpětná vazba 0.2: DOS dobová atmosféra). IBM PC 5150 s monitorem. PICK OVĚŘIT Z KONTAKTNÍHO LISTU (kandidáti [1], [2]).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "IBM PC 5150",
+        "pick": 2,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "dos",
+      "diagram": "Svislá mapa paměti jako jeden nerozdělený sloupec: dole DOS, nad ním PROGRAM A, PROGRAM B, nahoře VIDEO · HARDWARE; vedle obrazovka s C:\\> . Mezi oblastmi ŽÁDNÉ čáry hranic; procesor stranou s popiskem NO CHECKS.",
+      "note": "Absence hranic je tvrzení scény — mezi oblastmi nesmí být oddělovací čáry (kreslit jen odstíny)."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "dos",
+      "diagram": "Tatáž mapa: šipka z PROGRAM A sjede dolů a přepíše oblast DOS (ambrově rozsypané bloky); obrazovka zamrzne (ztlumí se, kurzor stojí).",
+      "note": "ANIMACE: zápis přetéká dolů, pak zamrznutí. Text se nehýbe.",
+      "anim": "animace"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "dos",
+      "diagram": "Tatáž mapa, ale mezi programy a DOS/hardware se postaví procesor jako strážce (čip s rukou/závorou); popisek THE PROCESSOR DOES THE DISTRUSTING.",
+      "note": "Předěl k ringům.",
+      "pause": 1.4
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S14.png",
+      "note": "Konkrétní čip — dá se vyfotit a má jméno. 80286, CC BY 4.0 (Atsushi Nunome). PICK OVĚŘIT.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Intel 80286 processor",
+        "pick": 0,
+        "grade": {
+          "zoom": [
+            0.24,
+            0.335,
+            0.5,
+            0.43
+          ]
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "kruhy",
+      "diagram": "MOTIV `kruhy()` poprvé: čtyři soustředné prstence uprostřed, bez popisků, tence.",
+      "note": "Prstence leží vždy na týchž souřadnicích (S15–S19, S43–S46, S51–S53, S74–S81, S83). Žádný text, jen tvar."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Tytéž prstence s čísly 0 (střed) … 3 (vnějšek).",
+      "note": "",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Tytéž prstence, šipka zvenčí ke středu MORE PRIVILEGE; čísla zůstávají.",
+      "note": "Šipka míří DOVNITŘ (nižší číslo = víc moci). Výzva k odběru ZA touto scénou: levý dolní roh prázdný (prstence uprostřed), titulek krátký.",
+      "pause": 1.0,
+      "vyzva": true
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Ring 0 ambrově, uvnitř KERNEL; vedle tři štítky MEMORY · SCHEDULING · HARDWARE.",
+      "note": "Na začátku scény doznívá výzva k odběru: levý dolní roh (x < 22 %, y > 75 %) PRÁZDNÝ."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Ring 3 ambrově, na něm tři malé ikony (prohlížeč, gamepad, dokument) a popisek USER MODE; ringy 1 a 2 ztlumeně.",
+      "note": "Ringy 1 a 2 ztlumené už tady — připravuje S43."
+    },
+    {
+      "id": "S19b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19b.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence s čísly, ring 0 a 3 ambrově; vpravo tři názvy systémů textem WINDOWS · MACOS · LINUX (bez log) a pod nimi KERNEL → RING 0, APPS → RING 3.",
+      "note": "Připomínka uživatele k draftu 1: zdůraznit, že to platí pro všechny OS. Jen text, žádná loga (značky)."
+    },
+    {
+      "id": "S19c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19c.png",
+      "diagram_generator": "zed",
+      "diagram": "Páteř `zed()` s popisky RING 3 · USER / RING 0 · KERNEL vlevo; vpravo u téže zdi druhá dvojice popisků ARM: EL0 · APPS nahoře a ARM: EL1 · KERNEL dole, u ní telefon. Uprostřed nad zdí DIFFERENT NAME · SAME SPLIT.",
+      "note": "Připomínka uživatele k draftu 1: ARM má totéž, jen jinak pojmenované. Zeď tu nese obě pojmenování na týchž souřadnicích — tvrzení „stejné rozdělení“. Opačné číslování (EL0 = aplikace) kresba ukazuje, scénář ho neříká.",
+      "pause": 1.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď; nad ní popisek RING 3 · USER, pod ní RING 0 · KERNEL. Na zdi malý ukazatel procesoru NOW RUNNING: RING 3.",
+      "note": "Od téhle scény má zeď trvalé popisky (projekce prstenců: nahoře 3, dole 0)."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "zed",
+      "diagram": "Pod zdí dvě karty instrukcí: CLI — INTERRUPTS OFF a MOV CR3 — MEMORY MAP, štítek RING 0 ONLY.",
+      "note": "Mnemoniky jsou skutečné (Intel SDM), stručné popisky pro diváka.",
+      "pause": 0.5
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "zed",
+      "diagram": "Program nad zdí pošle kartu CLI dolů, karta se o zeď odrazí, na zdi blesk EXCEPTION, řízení přejde ke kernelu, okno programu se zavře.",
+      "note": "ANIMACE: odraz od zdi a ukončení programu. Šipka musí končit u PROGRAMU (kernel ukončí program, ne sebe).",
+      "anim": "animace"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "pameti",
+      "diagram": "Mřížka stránek paměti (např. 8 × 4); každá má štítek U nebo S; S stránky v dolní části a ambrově orámované. Legenda U = USER, S = SUPERVISOR.",
+      "note": "`assert`: každá stránka má právě jeden štítek."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "pameti",
+      "diagram": "Tatáž mřížka; šipka od programu v ringu 3 na S stránku zastavená ✕, popisek PAGE FAULT · STOPPED.",
+      "note": "Šipka končí PŘED stránkou (data nedostane)."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "pameti",
+      "diagram": "Dva programy (prohlížeč, hra) nahoře, každý s vlastní malou mapou stránek; mapy se nepřekrývají, na mapě hry stránky prohlížeče chybí (prázdná místa, ne přeškrtnutá).",
+      "note": "Druhá zeď, která NENÍ z prstenců — proto tu prstence ani zeď nejsou, jen mapy. Chybějící = prázdné, ne zakázané.",
+      "pause": 0.6
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "pameti",
+      "diagram": "Mapa hry ztlumená s broukem a ×; mapa prohlížeče dál svítí; malý popisek KERNEL CLEANS UP.",
+      "note": "Konec bloku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď s popisky; pod zdí vedle rámečku KERNEL rámeček DRIVER s ambrovým broukem (týž jako S07).",
+      "note": "Návrat ke CrowdStriku přes páteř. Kompozice se vrací v S73 na týchž souřadnicích."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "zed",
+      "diagram": "Dvě úrovně ve sloupcích: vlevo program nad zdí, pod ním síť (KERNEL CATCHES IT); vpravo driver pod zdí a pod ním nic — NOTHING BELOW.",
+      "note": "„Nothing above ring zero“ jako chybějící záchranná síť. Pozor na směr: síť je pod padajícím.",
+      "pause": 0.6
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "modra",
+      "diagram": "Celá obrazovka modrá ve stylu stop obrazovky (velké :( a text WINDOWS STOPPED ON PURPOSE), bez loga Windows.",
+      "note": "Vlastní kresba obrazovky, ne screenshot. Text tvrdí to, co scénář: zastavení je záměr."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "modra",
+      "diagram": "Tatáž modrá obrazovka zmenšená do rámečku monitoru; vedle popisek THE BLUE SCREEN = THE KERNEL STOPPING ITSELF.",
+      "note": "Spojuje výklad s obrazem z S03/S04.",
+      "pause": 0.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "modra",
+      "diagram": "Kruh šipek BOOT → DRIVER LOADS → CRASH → BOOT, v CRASH malá modrá obrazovka.",
+      "note": "ANIMACE: běh dokola dvakrát. Konec velkého bloku CrowdStrike.",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "zed",
+      "diagram": "Nad zdí okno prohlížeče, pod zdí ikony DISK a NETWORK; mezi nimi otazník přes zeď.",
+      "note": "",
+      "pause": 1.0
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "zed",
+      "diagram": "Totéž, z prohlížeče bublina s jedním slovem REQUEST.",
+      "note": "Beat „It asks.“ — jedna změna v obraze.",
+      "pause": 1.0,
+      "naveti": "If your browser can't touch the hardware, how does it ever save a file, or send anything over the network?"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "syscall",
+      "diagram": "Tři registry jako krabičky vedle sebe: FILE · WHERE · HOW MUCH; plní se hodnotami (fd 3, buffer, 4096).",
+      "note": "Hodnoty jsou ilustrační, ale typické pro read(); bez předstírané přesnosti.",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "syscall",
+      "diagram": "Velká karta instrukce SYSCALL ambrově, pod ní ON A MODERN PC (x86-64).",
+      "note": ""
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "zed",
+      "diagram": "Karta SYSCALL u zdi; ukazatel NOW RUNNING se přepne z RING 3 na RING 0.",
+      "note": "ANIMACE: přepnutí ukazatele a průchod zdí. Pauza krátká, věta pokračuje v S37 („but it doesn't jump…“).",
+      "anim": "animace",
+      "pause": 0.3
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď se dveřmi na jediném místě (ENTRY POINT · SET BY THE KERNEL); šipka programu míří jinam, je ztlumená a přeškrtnutá, skutečná cesta vede dveřmi.",
+      "note": "Dveře zůstanou na týchž souřadnicích v S38–S42 a S70 (`dvere()`)."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "zed",
+      "diagram": "Pod zdí kernel vezme z disku data a pošle je dveřmi nahoru programu; ukazatel zpět RING 3. Disk nikdy nespojen s programem přímo.",
+      "note": "ANIMACE: cesta tam a zpět dveřmi.",
+      "anim": "animace"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď s dveřmi, nad ní hustý proud malých šipek tam a zpět; popisek SYSTEM CALL.",
+      "note": ""
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "mereni",
+      "diagram": "Okno terminálu (Windows záhlaví `tlacitka_okna()`): $ strace -c true … a poslední řádek ambrově 30 total.",
+      "note": "Skutečný výstup měření (factcheck-zaklad), zkrácený na řádek součtu. Okno Windows stylu (vpravo tlačítka), žádné puntíky macOS."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "mereni",
+      "diagram": "Totéž okno: $ strace -f -c firefox … ; počítadlo naběhne k 669,861 za 20 s; pod tím malý popisek MEASURED WITH strace, WHICH SLOWS PROGRAMS DOWN.",
+      "note": "ANIMACE: počítadlo běží s časovou osou 0–20 s. `assert` konečné číslo = 669 861.",
+      "anim": "animace"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď s dveřmi, šipky tam a zpět tak husté, že tvoří pruh; 669,861 TRIPS.",
+      "note": "Konec bloku system call; S70 se k téhle kompozici vrací.",
+      "pause": 2.4
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence; 0 a 3 svítí, 1 a 2 čárkovaně.",
+      "note": "Čárkovaně = nepoužívané, ne neexistující (popisek v S53)."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Totéž, u ringů 1 a 2 otazníky.",
+      "note": ""
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "historie",
+      "diagram": "Časová osa: vlevo MULTICS · LATE 1960s (ambrově, s malými osmi prstenci), vpravo ztlumeně IBM PC · 1981. Popisek OLDER THAN THE PC.",
+      "note": "Archiv zamítnut: Commons má od Multicsu jen bloková schémata GE-645 a screenshoty emulátoru z 2020 (přihlašovací obrazovka ban.ai) — ta by k „late 1960s“ tvrdila jinou dobu. IBM PC 1981 = uvedení 5150."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Osm soustředných prstenců (Multics), uvnitř CORE, kolem SERVICES, venku PROGRAMS; popisek MULTICS · 8 RINGS.",
+      "note": "`assert` 8 prstenců. Střed na souřadnicích motivu, poloměry jiné."
+    },
+    {
+      "id": "S46b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46b.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Čtyři prstence (motiv), ringy 1 a 2 ambrově; vpravo popisky s vodítky: 0 KERNEL · 1–2 DRIVERS, SYSTEM SERVICES · 3 APPS; pod tím ztlumeně INTEL'S PICTURE.",
+      "note": "Připomínka uživatele k draftu 1: divák nepochopil, k čemu ringy 1 a 2 jsou. Odpovídá obrázku Protection Rings v Intel SDM (kernel / OS services / applications)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Týž obraz ztlumený, nad ním dvě čísla 1 a 2 jako dvě překážky.",
+      "note": "",
+      "pause": 1.0
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "procesory",
+      "diagram": "Řada čipů s nápisy x86 · MIPS · ALPHA · POWERPC, nad nimi jeden systém (UNIX · WINDOWS NT) se šipkami ke všem.",
+      "note": "Jména procesorů jsou ta, na kterých NT skutečně běžel (factcheck), Unix obecně.",
+      "pause": 0.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "procesory",
+      "diagram": "Tytéž čipy, u každého dvě úrovně; společné jsou jen KERNEL / USER (ambrově), ostatní ztlumené.",
+      "note": "NEtvrdit, že čipy měly jen dva režimy (Alpha 4, MIPS 3) — kresba ukazuje, že SPOLEČNÉ jsou dva."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "pameti",
+      "diagram": "Jedna položka stránkové tabulky jako řádek bitů; ambrově jediný bit U/S s dvěma stavy USER | SUPERVISOR.",
+      "note": "Skutečně jeden bit (Intel SDM)."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence: 0, 1 a 2 společně zabarvené SUPERVISOR, 3 USER; driver v ringu 1 s šipkou do paměti kernelu ✓ ALLOWED.",
+      "note": "Šipka od driveru K paměti kernelu a fajfka = povoleno (to je ten problém)."
+    },
+    {
+      "id": "S51b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51b.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence, ring 2 ambrově; vpravo OS/2 · RING 2 a pod tím PROGRAMS TALKING TO HARDWARE PORTS.",
+      "note": "Skutečné použití ringu 2 (IOPL segmenty OS/2). Ne drivery — ty v OS/2 běží v ringu 0.",
+      "pause": 0.5
+    },
+    {
+      "id": "S51c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51c.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence, ring 1 ambrově s popiskem GUEST KERNEL, ring 0 HOST / HYPERVISOR; vpravo XEN · VIRTUALBOX a ztlumeně BEFORE HARDWARE VIRTUALISATION.",
+      "note": "Xen PV (32bit) a VirtualBox raw mode: kernel hosta ve VM v ringu 1. Konec bloku o ringech 1 a 2 před X86S."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence, 1 a 2 čárkovaně přeškrtnuté; štítek INTEL X86S · 2023 · REMOVE RINGS 1 & 2.",
+      "note": ""
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence zpět celé, 1 a 2 ztlumeně; štítek PLAN DROPPED · DEC 2024 · STILL THERE, RARELY USED.",
+      "note": "Konec bloku.",
+      "pause": 2.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď plná, pevná, s fajfkou HARDWARE CHECKS EVERY ACCESS.",
+      "note": "Zeď, kterou S55 rozbije.",
+      "pause": 1.4
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "zed",
+      "diagram": "Tatáž zeď s puklinou; nad ní tři štítky GOOGLE PROJECT ZERO · CYBERUS · TU GRAZ, každý se samostatnou šipkou k puklině.",
+      "note": "Tři nezávislé šipky = nezávislé týmy."
+    },
+    {
+      "id": "S56",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Logo Meltdownu bez textu (Natascha Eibl, CC0). Pozor: obecný dotaz „Logo Meltdown“ vrátil jako [0] album Nialla Horana — dotaz zúžen na autorku.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Meltdown Natascha Eibl",
+        "pick": 1,
+        "grade": {
+          "fit": 0.6,
+          "fit_bg": "#000000"
+        }
+      }
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "spekulace",
+      "diagram": "Pás instrukcí zleva doprava jako karty; procesor (blok) už pracuje na kartách daleko vpředu, ty jsou čárkovaně (SPECULATIVE).",
+      "note": "ANIMACE: karty jedou, procesor předbíhá. Čárkovaně = ještě nepotvrzené.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "spekulace",
+      "diagram": "Čárkované karty vpředu zmizí (rozplynou se); popisek AS IF NOTHING HAPPENED.",
+      "note": "",
+      "pause": 1.2
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď s puklinou; program nad zdí sahá po bajtu pod zdí (ambrově tečka SECRET BYTE v paměti kernelu).",
+      "note": "Začátek tří okamžiků Meltdownu (zpětná vazba 0.2): 1 načte bajt.",
+      "pause": 0.3
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "spekulace",
+      "diagram": "Časová osa: FETCH SECRET ▸ NEXT INSTRUCTIONS USE IT ▸ … a teprve pak dorazí CHECK. Ambrová tečka bajtu putuje do dalších karet dřív, než doběhne pruh kontroly.",
+      "note": "ANIMACE: okamžik 2 — pořadí na ose je tvrzení scény (Project Zero: kontrola až po předání). Pruh CHECK musí skončit AŽ ZA kartami.",
+      "anim": "animace"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "spekulace",
+      "diagram": "CHECK ✕ FAILED; karty s bajtem zešednou a zmizí; RESULT THROWN AWAY.",
+      "note": ""
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "cache",
+      "diagram": "Mřížka cache (16 × 16 = 256 řádků pro hodnoty bajtu); jeden řádek se rozsvítí ambrově — ten, na který ukázal tajný bajt.",
+      "note": "ANIMACE: rozsvícení. `assert` 256 buněk. Okamžik 3 začíná.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "cache",
+      "diagram": "Tatáž mřížka: karty vlevo pryč (zahozené), ale ambrový řádek dál svítí; THE CACHE DOESN'T FORGET.",
+      "note": "Klíčová scéna triku: výsledek zmizel, stopa zůstala — oboje v jednom obraze.",
+      "pause": 1.0
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "cache",
+      "diagram": "Graf 256 sloupců doby přístupu; všechny vysoké, jeden nízký (FAST) — pod ním hodnota bajtu.",
+      "note": "ANIMACE: sloupce se měří postupně, nízký vyjde. `assert` přesně jeden nízký sloupec a jeho index = zobrazená hodnota.",
+      "anim": "animace"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "cache",
+      "diagram": "Řádek hex výpisu se plní bajt po bajtu, nad ním KERNEL MEMORY; popisek PASSWORDS · ENCRYPTION KEYS · WHATEVER IS THERE.",
+      "note": "Výpis je ilustrační (žádné skutečné heslo); netvrdit víc než „whatever secrets were sitting in it“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "historie",
+      "diagram": "Časová osa 1995 → 2018, řada stylizovaných čipů INTEL podél ní; popisek INTEL PROCESSORS SINCE 1995 (OUT-OF-ORDER).",
+      "note": "Osa začíná 1995 (meltdownattack.com)."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "historie",
+      "diagram": "Na konci osy datum 3 JAN 2018 · MADE PUBLIC.",
+      "note": ""
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "mapa",
+      "diagram": "Mapa paměti programu (stránky), v ní dole oblast KERNEL; fix: oblast se vymaže gumou/zmizí.",
+      "note": "Křemík se nemění — mění se mapa.",
+      "pause": 0.5
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "mapa",
+      "diagram": "Mapa programu s prázdnou oblastí kernelu, jen malý ambrový proužek ENTRY CODE; NOTHING TO FETCH.",
+      "note": "„Almost entirely“: proužek vstupního kódu musí zůstat (dokumentace PTI)."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "zed",
+      "diagram": "Kompozice S42 (zeď s dveřmi); u dveří při každém průchodu výměna mapy (dvě mapy se přepnou).",
+      "note": "ANIMACE: callback na S42 — tytéž souřadnice dveří. Každý průchod = výměna.",
+      "anim": "animace"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "naklady",
+      "diagram": "Sloupcový graf Red Hat: MINIMAL < 1 % · SMALL 2–5 % · MODEST 3–7 % · MEASURABLE 8–19 % (OLTP DATABASES); poznámka MELTDOWN + SPECTRE PATCHES, RED HAT 2018.",
+      "note": "Čísla doslova z Red Hat (původní hodnoty před retpoline). `assert` pořadí a hodnoty. Graf má data od prvního snímku (zpětná vazba diváků: prázdné osy = rozbitý graf)."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď s puklinou; hodiny/pruh CHECK přicházející pozdě; RIGHT RULE · CHECKED TOO LATE.",
+      "note": "Výplata Meltdownu. Výzva k odběru ZA touto scénou: levý dolní roh prázdný, titulek krátký.",
+      "pause": 3.0,
+      "vyzva": true
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "zed",
+      "diagram": "Kompozice S27 na týchž souřadnicích: DRIVER s broukem vedle KERNELu pod zdí.",
+      "note": "Callback na S27. Na začátku scény doznívá výzva k odběru: levý dolní roh (x < 22 %, y > 75 %) PRÁZDNÝ."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence, ve středu štít (security software) s otazníkem.",
+      "note": "",
+      "pause": 0.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Kolem středu tři ikony: oko SEES EVERYTHING, šipka startu STARTS FIRST, zámek HARD TO SWITCH OFF.",
+      "note": "Tři důvody Microsoftu (factcheck S75)."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "citat",
+      "diagram": "Citát v rámečku: “…AT THE COST OF RESILIENCE.” — MICROSOFT, JULY 2024.",
+      "note": "Doslovná citace (Microsoft Security blog 2024-07-27)."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence: štít ze středu, čárkovaná šipka ven do ringu 3 (PLAN).",
+      "note": "Čárkovaně = plán, ne hotová věc."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Totéž, štít v ringu 3 čárkovaně; ring 0 zůstává otevřený (bez zámku); štítek TEST VERSIONS · AUTUMN 2026.",
+      "note": "Kresba nesmí naznačit, že kernel je zavřený.",
+      "pause": 2.2
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S79.png",
+      "note": "Původně SDXL; ComfyUI není k dispozici (2026-11-14), uživatel nechá nakreslit ChatGPT. Herní kontext (zpětná vazba 0.2), daleko od začátku. Žádné značky, žádné logo hry. Původní prompt: a gaming desk at night in a dark bedroom, a glowing monitor and keyboard, a game controller, light of the screen on the walls, seen from behind the chair, no people, no text, no logos",
+      "diagram_generator": "hry",
+      "diagram": "Kresba z ChatGPT (`art/S79-hry.png`, čtvrtý zdroj vizuálu): herní stůl v noci v tmavém pokoji, zářící monitor a klávesnice, gamepad, světlo obrazovky na zdech, pohled zpoza židle, bez lidí, textu a log. Dokud obrázek není, kreslí `hry.py` náhradu kódem."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence: CHEAT v ringu 0, ANTI-CHEAT v ringu 3 s přeškrtnutým okem (nevidí dovnitř).",
+      "note": "Šipka/pohled od anti-cheatu MÍŘÍ dovnitř a je zablokovaná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Anti-cheat (štítek VANGUARD DRIVER) se přesune do ringu 0; vedle časová osa WINDOWS STARTS → DRIVER LOADS a ztlumená ikona hry GAME NOT OPEN; malý popisek ON MOST PCs.",
+      "note": "ANIMACE: přesun do středu. „On most PCs“ musí být v obraze (režim On-Demand, factcheck).",
+      "anim": "animace"
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "zed",
+      "diagram": "Pod zdí vedle KERNELu dva rámečky: DRIVER (ztlumený, bez brouka — připomínka S27) a ANTI-CHEAT DRIVER; společný popisek SAME PLACE.",
+      "note": "Anti-cheat BEZ brouka (zpětná vazba 0.1: nedémonizovat) — tvrdí jen „stejné místo“.",
+      "pause": 2.6
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "kruhy",
+      "diagram": "Prstence celé jako v S16, otázka titulu malým písmem nad nimi.",
+      "note": "Začátek ocasu videa; od S84 je horní polovina volná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: zeď posunutá níž (jediná výjimka páteře), nad ní řada programů, jeden „klepe“ (malé vlnky) na dveře. HORNÍ POLOVINA VOLNÁ.",
+      "note": "Okno závěrečné obrazovky (posledních 20 s): kresba jen dole, nad titulkovým pásem. Páteř se smí pohnout jen tady."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: táž zeď, dveře otevřené klíčem; vedle malé okno INSTALL DRIVER? s tlačítkem YES. HORNÍ POLOVINA VOLNÁ.",
+      "note": "Okno instalace ve stylu Windows (tlačítka vpravo).",
+      "pause": 1.4
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná deska: otázka v dolní polovině — WHO DECIDES · WHAT GETS INTO · RING 0? (pod tím menší YOU · MICROSOFT · THE COMPANIES)",
+      "note": "Otázka do komentářů (docs/cta.md). Statická. Ověřit snímkem z draftu, ne jen `zaver_check.py`.",
+      "pause": 2.0
+    }
+  ]
+}

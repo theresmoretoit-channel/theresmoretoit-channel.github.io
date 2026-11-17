@@ -1,0 +1,636 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A `mapa()` poprvé: Atlantik, Evropa vpravo nahoře, Jižní Amerika vlevo dole (Natural Earth 110m, `svet.json` převzatý z 043). Evropa ztlumeně vyplněná, v Atacamě ambrová tečka s malou kopulí a štítkem ELT · LARGEST OPTICAL TELESCOPE EVER. Mezi Evropou a tečkou nic — prázdný oceán je ta otázka.",
+   "note": "První obrazovka nese PARADOX (evropský dalekohled na druhé straně světa), ne atmosféru — NE sdxl. Titulek WHY HERE? Mapa je páteř: vrací se v S03, S16, S21, S28 a závěrem v S60."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Zrcadlo 39 m postavené na hranu (kruh v měřítku) vedle obrysu dvanáctipatrové budovy (12 × 3 m = 36 m) a postavy pro měřítko. Kóty 39 m a 12 STOREYS ≈ 36 m.",
+   "note": "PÁTEŘ B `zrcadlo()` poprvé — jedno měřítko metrů na pixel pro celé video (S02, S30 nekreslí, S46, S52, S57). assert 36 < 39: zrcadlo MUSÍ vyčnívat nad budovu, jinak obraz tvrdí opak věty.",
+   "pause": 0.6
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ A: táž mapa; v Chile čtyři tečky La Silla, Paranal, ALMA (Chajnantor) a ELT (Armazones) — ELT ambrově, ostatní INK. Z Garchingu tenká oblouková čára do Paranalu se štítkem > 10 000 km.",
+   "note": "Vzdálenost se POČÍTÁ z ortodromy Garching (48,25 N, 11,67 E) → Paranal (24,63 S, 70,40 W) a assertuje > 10 000. „From home“ = sídlo ESO v Garchingu (factcheck)."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "Nápis EUROPEAN SOUTHERN OBSERVATORY ve třech řádcích, SOUTHERN ambrově, ostatní INK; pod SOUTHERN malý otazník.",
+   "note": "Háček, který se vyplácí v S14–S22. Otazník je jen u SOUTHERN — nic jiného se tu nezpochybňuje.",
+   "pause": 1.4
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C `sloupec()` poprvé: vpravo dole kopule dalekohledu na zemi, nad ní pás atmosféry; od hvězdy vlevo nahoře k dalekohledu dlouhý paprsek. Cesta prostorem přerušená značkou ≈ (není v měřítku), pás atmosféry ambrově: THE LAST FEW KILOMETRES.",
+   "note": "Sloupec je druhá páteř (S05–S10, S12, S13, S42, S48, S51). Kopule i pás leží VŽDY na týchž souřadnicích; přerušení dráhy musí být vidět, jinak kresba tvrdí, že atmosféra je třetina cesty."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: paprsek z galaxie; dlouhý úsek prostorem ztlumeně se štítkem BILLIONS OF YEARS · ALMOST NOTHING IN THE WAY, krátký úsek v pásu ambrově: THE LAST THOUSANDTH OF A SECOND.",
+   "note": "100 km / 300 000 km/s ≈ 0,3 ms < 1 ms — „poslední tisícina“ sedí s rezervou.",
+   "pause": 0.5
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: v pásu teplé (ambrové) a chladné (břidlicové) bubliny vzduchu, paprsek jimi prochází klikatě. Štítek THAT'S WHY STARS TWINKLE.",
+   "note": "Ohyb kreslit mírný — „bend slightly“. Barva bublin tu nese teplotu, ne „o tomhle je řeč“: v hlavičce `_kit.py` jako výjimka, legenda WARMER / COOLER u bublin."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "Dva panely: vlevo TO THE EYE — hvězda se zářivými paprsky (třpyt), vpravo TO A TELESCOPE — místo ostrého bodu (čárkovaný obrys, kde by měl být) rozmazaná skvrna.",
+   "note": "Druhá půlka scény je pointa (rozmazání), proto diagram, ne sdxl noční obloha — ta by nesla jen „looks lovely“.",
+   "pause": 0.6
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: v pásu kapky páry, infračervený paprsek v nich končí (INFRARED, WATER VAPOUR); nad pásem mrak, u země záře města. Tři štítky WATER VAPOUR · CLOUDS · CITY LIGHTS.",
+   "note": "Infračervený paprsek se v páře ZASTAVÍ (pohlcení), viditelný projde — jinak kresba tvrdí, že pára blokuje všechno."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C ztlumeně, přes ni otázka: WHERE ON EARTH DOES THE SKY GET IN THE WAY THE LEAST?",
+   "note": "Otázka, na kterou S11 odpoví fotkou.",
+   "pause": 1.2
+  },
+  {
+   "id": "S11",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S11.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Atacama Desert Landscape iced moment 870-CC",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0 pod tímto dotazem: Atacama Desert Landscape (iced moment, ESO, CC BY 4.0) — prázdná pustá krajina. V první šestici jen jpg a tiff téhož snímku. Po stažení ověřit okem."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: kopule teď na hoře; v pásu jen pár kapek páry, mrak přeškrtnutý, záře města malá na kraji obrazu. Štítky VERY LITTLE WATER VAPOUR · CLOUDS ARE RARE · CITIES FAR AWAY · ABOVE PART OF THE AIR.",
+   "note": "Táž páteř jako S09, aby bylo vidět, co z S09 zmizelo. Hora zvedá kopuli do pásu — výška hory a pásu ze stejného měřítka jako S13.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: kopule PARANAL · 2 635 m na hoře; vedle svislý sloupec ATMOSPHERE BY MASS, spodní část ambrově MORE THAN A QUARTER BELOW.",
+   "note": "Podíl se POČÍTÁ z tlaku: 1 − 743,5/1013,25 = 26,6 % (factcheck), assert > 25 %. Sloupec je podle HMOTNOSTI, ne výšky — popisek to musí říct. Statický diagram: dědí ho CTA S13b.",
+   "pause": 1.2
+  },
+  {
+   "id": "S13b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "cta": true,
+   "pause": 2.4,
+   "note": "CTA podle docs/cta.md — dědí S13 (statický diagram), ~2:01, za výplatou „proč poušť“ a před zlomem na jih. Blokový předěl je za CTA, ne za S13."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "jih",
+   "diagram": "Dva řádky: DESERT — EXPLAINED (ztlumeně, s fajfkou) a SOUTHERN — ? (ambrově).",
+   "note": "Navazuje na otazník z S04 na TÝCHŽ souřadnicích slova SOUTHERN."
+  },
+  {
+   "id": "S15",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S15.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Roque de los Muchachos ORM WHT DOT GOTO",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: Roque de los Muchachos, La Palma — řada kopulí na hřebeni (CC BY-SA 3.0, atribuce povinná). V první šestici jen dvě varianty téhož záběru.",
+   "pause": 0.6
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "jih",
+   "diagram": "PÁTEŘ A: mapa s rovníkem; tečky evropských observatoří a Kanárských ostrovů, severní polokoule jemně tónovaná. Štítek ALL IN THE NORTHERN HEMISPHERE.",
+   "note": "Tečky jen u míst jmenovaných ve scénáři nebo ve factchecku (Kanáry, Garching jako sídlo) — nevymýšlet seznam observatoří."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "jih",
+   "diagram": "PÁTEŘ D `koule()` poprvé: Země jako kruh, pozorovatel na 48° s. š. s tečnou obzoru; část oblohy za jižním pólem šrafovaně ALWAYS BELOW THE HORIZON.",
+   "note": "Skrytá čepička = deklinace pod −(90 − 48,25) = −41,75°, počítá se. Koule je čtvrtá páteř (S17, S20, S22, S35)."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "jih",
+   "diagram": "Polokoule oblohy nad CENTRAL EUROPE: dráha středu Galaxie nízko nad obzorem, nejvýš 13°; paprsek k pozorovateli šikmo a dlouhou cestou vzduchem (callback S05).",
+   "note": "Výška se POČÍTÁ: 90 − 48,25 − 29,0 = 12,7°. Delší dráha vzduchem, NE hustší vzduch (oprava v0.5)."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "jih",
+   "diagram": "Táž polokoule vlevo ztlumeně, vpravo druhá FROM PARANAL: dráha středu Galaxie téměř v zenitu (86°).",
+   "note": "90 − |−24,63 − (−29,0)| = 85,6°. Obě polokoule stejně velké a na stejné výšce, ať je srovnání férové."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "jih",
+   "diagram": "PÁTEŘ D: koule se skrytou čepičkou; v ní MAGELLANIC CLOUDS a ALPHA CENTAURI. Štítek NEVER SEEN FROM EUROPE.",
+   "note": "Počítá se z nejjižnějšího bodu Evropy (Kréta 34,8° s. š.): skryté pod −55,2°; LMC −69,8°, α Cen −60,8° → assert obojí pod mezí."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "jih",
+   "diagram": "PÁTEŘ A ve stavu 1950s: čtyři ambrové tečky dalekohledů ≥ 2 m s průměry — PALOMAR 5.1 m, LICK 3.0 m, MT WILSON 2.5 m, McDONALD 2.1 m, všechny na severu; na jihu dva ztlumené kroužky 1.9 m (Radcliffe, Stromlo). Nadpis 1950s: MIRRORS OF 2 m OR MORE.",
+   "note": "Data z factcheck.md, „Podklady pro diagramy / S21“: v 50. letech měly ≥ 2 m právě tyhle čtyři (Krym 1961 a Tautenburg 1960 už ne). Generátor má seznam jako data a assert, že žádný ≥ 2 m není na jihu. Nadpis netvrdí víc než tabulka. Po vykreslení zkontrolovat (zpětná vazba storyboardu)."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "jih",
+   "diagram": "PÁTEŘ D: koule se dvěma pozorovateli — Evropa a Chile; skrytá čepička Evropy ambrově, nad Chile otevřená. Titulek THAT'S WHAT SOUTHERN MEANS.",
+   "note": "Výplata háčku z S04.",
+   "pause": 1.0
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "centrum",
+   "diagram": "Elipsa dráhy hvězdy S2 kolem středu (ohnisko) s tečkami pozorovaných poloh; okolo slabší dráhy dalších hvězd. Štítek DECADES OF TRACKING FROM CHILE.",
+   "note": "Elipsa s ohniskem v černé díře, ne se středem — excentricita S2 0,88 (factcheck, „S23“). Tečky jen jako ilustrace sledování, bez letopočtů."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "centrum",
+   "diagram": "Totéž, ve středu tmavý kotouč s ambrovým lemem a štítek ≈ 4 MILLION × THE MASS OF THE SUN.",
+   "note": "Kotouč nesmí být v měřítku dráhy (byl by neviditelný) — malý symbol, ne poloměr.",
+   "pause": 0.6
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "centrum",
+   "diagram": "Karta NOBEL PRIZE IN PHYSICS 2020 rozdělená na polovinu PENROSE (teorie) a dvě čtvrtiny GENZEL · ESO TELESCOPES IN CHILE (ambrově) a GHEZ · KECK, HAWAII (ztlumeně).",
+   "note": "„A share“ = Genzelova čtvrtina. Ghez pozorovala z Havaje — nesmí svítit jako práce z Chile.",
+   "pause": 2.6
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "spoluprace",
+   "diagram": "Dva ztlumené rámečky FRANCE ALONE? · GERMANY ALONE? a pod nimi ambrový EUROPE, TOGETHER.",
+   "note": "Bez vlajek (konvence kanálu, ani v diagramu)."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "spoluprace",
+   "diagram": "Tři sdílené hromádky: THE COST · THE ENGINEERS · THE OBSERVING TIME, do každé vedou čárky z mnoha států.",
+   "note": "Pořadí = pořadí ve větě."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "spoluprace",
+   "diagram": "PÁTEŘ A přiblížená na Evropu: 16 členských států vyplněných, pět zakladatelů 1962 ambrově (BE, FR, DE, NL, SE); vložená mapka Chile HOST.",
+   "note": "Seznam 16 členů z eso.org (factcheck, „S28“) v generátoru, assert len == 16 a zakladatelé ⊂ členové. Chile jen jako HOST, Austrálie (strategický partner) se nekreslí. Výčet je s čárkami, ne s tečkami, takže `vycet` se tu neuplatní."
+  },
+  {
+   "id": "S29",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S29.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "La Silla Aerial View",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: La Silla Aerial View (ESO, CC BY 4.0) — vrchol s kopulemi shora. Robustnost první šestice ověřit při stažení."
+  },
+  {
+   "id": "S30",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S30.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Paranal and the Pacific at sunset dsc4088",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: Paranal and the Pacific at sunset (ESO/G. Hüdepohl, CC BY 4.0) — čtyři kopule VLT zřetelně vedle sebe = „It's four.“ Všechny tři výsledky jsou varianty téhož snímku. Ultraširoké panorama (dotaz „Very Large Telescope…“) zamítnuto.",
+   "pause": 2.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "diagram_generator": "espresso",
+   "art": "art/S31.png = SDXL z promptu níž (seed z ID) upravené v ChatGPT, viz art/PUVOD.md",
+   "effect": "slow_zoom_in",
+   "visual": "images/S31.png",
+   "prompt": "high desert ridge at night with several observatory domes, the Milky Way arching overhead, dry rocky ground, cold clear air, single warm amber light from an open dome slit, no people",
+   "note": "Atmosférický předěl ke druhé polovině („So what does all of this actually see?“). Generické kopule, ne konkrétní observatoř."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "espresso",
+   "diagram": "Štítek ESPRESSO · ON THE VLT; vlevo přeškrtnutá ikonka snímku planety NO PICTURES OF PLANETS, vpravo hvězda se šipkami tam a zpět WATCHES STARS MOVE.",
+   "note": "Křížek přes ikonku (plochu), ne přes nápis."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "espresso",
+   "diagram": "Hvězda a planeta obíhají společné těžiště (křížek); hvězda opisuje malý kroužek. Štítek SHARED CENTRE OF MASS.",
+   "note": "Těžiště musí ležet mezi nimi, blíž hvězdě — poměr vzdáleností = poměr hmotností (ilustrativně, ale směrem správně)."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "espresso",
+   "diagram": "Pozorovatel vlevo, hvězda vpravo; dvě spektra se čarami: TOWARDS US — čáry posunuté k modré, AWAY — k červené. Štítek ESPRESSO MEASURES THE SHIFT.",
+   "note": "Modrá při pohybu K NÁM — ověřit směr šipky proti větě. Jediné místo videa, kde barva nese fyziku (spektrum), v `_kit.py` jako výjimka."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "espresso",
+   "diagram": "PÁTEŘ D: koule se skrytou čepičkou Evropy, v ní PROXIMA CENTAURI. Štítek FROM EUROPE, IT NEVER RISES.",
+   "note": "Proxima δ −62,7° < −55,2° (Kréta) → assert."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "espresso",
+   "diagram": "Časová osa: 2016 DISCOVERED · HARPS · LA SILLA a 2020 CONFIRMED · ESPRESSO · PARANAL; nad ní PROXIMA b.",
+   "note": "HARPS je v La Silla, ESPRESSO na VLT v Paranalu — dvě různá místa, dva různé přístroje."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "espresso",
+   "diagram": "Graf rychlosti hvězdy: sinusovka s periodou 11,2 dne, amplituda ≈ 1,2–1,4 m/s, osa v metrech za sekundu a dnech. Štítek ≈ WALKING PACE.",
+   "note": "Data v obraze od prvního snímku (osy ne prázdné). Perioda a amplituda z factchecku, assert."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "espresso",
+   "diagram": "Malá kráčející postava vedle vzdálené hvězdy, mezi nimi čára 40 TRILLION KM.",
+   "note": "4,24 ly × 9,461·10¹² km = 4,0·10¹³ km, počítá se.",
+   "pause": 0.6
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "espresso",
+   "diagram": "Sloupce rychlostí ve stejném měřítku: PROXIMA b ≈ 1.3 m/s, ESPRESSO LIMIT ≈ 0.1 m/s (ambrově), EARTH → SUN ≈ 0.09 m/s.",
+   "note": "Lineární měřítko, assert poměrů; Země → Slunce 29,78 km/s × 3,003·10⁻⁶ = 8,9 cm/s.",
+   "pause": 2.2
+  },
+  {
+   "id": "S40",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S40.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Nineteen ALMA antennas Chajnantor eso1137h",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: Nineteen ALMA antennas on the Chajnantor plateau (ESO, CC BY 4.0) — řada antén na pláni. První šestice = jpg a tiff téhož snímku."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "alma",
+   "diagram": "Pás spektra: úzké okno VISIBLE LIGHT ztlumeně, vpravo ambrově MILLIMETRE · SUBMILLIMETRE; pod ním oblak COLD GAS AND DUST se šipkou → RAW MATERIAL OF STARS AND PLANETS.",
+   "note": "Pořadí vlnových délek ve spektru musí být správné (viditelné kratší vlevo).",
+   "pause": 0.6
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C dvakrát vedle sebe: DAMP SITE — milimetrová vlna se v páře zastaví; CHAJNANTOR · 5 000 m — suchý pás, vlna projde.",
+   "note": "Callback na S09: táž kresba páry. Na vlhkém místě NEARLY BLIND, ne „slepá“ úplně."
+  },
+  {
+   "id": "S43",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "HL Tau protoplanetary disk",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84,
+     "fit_bg": "#000000"
+    }
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: HL Tau protoplanetary disk (ALMA (ESO/NAOJ/NRAO), CC BY 4.0) — verze BEZ popisků. První šestice NENÍ robustní (anotovaná verze, umělecká představa) — při stažení ověřit, že přišla neanotovaná fotka; jinak zúžit dotaz. STAŽENO 2026-10-14: přišla neanotovaná verze (1800×1800). Okolí plnou černou (`fit_bg`), ne rozostřenou kopií — kolem čtvercového snímku dělala viditelný rám (docs/archiv-a-licence.md).",
+   "pause": 2.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "elt",
+   "diagram": "PÁTEŘ B: kruh zrcadla VLT 8,2 m a kolem něj velký čárkovaný obrys; otázka WHY BUILD AN EVEN BIGGER ONE?",
+   "note": "Čárkovaně = ještě neexistuje (konvence)."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "elt",
+   "diagram": "Jasná hvězda s drobnou slabou tečkou vedle (SMALL PLANETS NEXT TO BRIGHT STARS) a slabá rozmazaná skvrnka (THE VERY FIRST GALAXIES).",
+   "note": "Planeta musí být skoro ztracená v záři — to je pointa.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "elt",
+   "diagram": "PÁTEŘ B: ELT 39 m (se středovým otvorem) a jedno zrcadlo VLT 8,2 m ve stejném měřítku; štítek NEARLY 20 × THE LIGHT.",
+   "note": "Poměr ploch s otvorem 18,5× (factcheck), assert 18 < poměr < 20. NE žebříček kvality — jen sběr světla. Po vykreslení zkontrolovat poměr ploch v pixelech (zpětná vazba storyboardu)."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "elt",
+   "diagram": "Šestiúhelníková mozaika zrcadla, jeden segment ambrově; štítek 798 SEGMENTS · ONE SURFACE.",
+   "note": "Počet segmentů se generuje a assertuje == 798 — obraz nesmí tvrdit jiné číslo.",
+   "pause": 0.6
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: rozkmitaný paprsek z pásu dopadá na deformovatelné zrcadlo s řadou pístů; odráží se rovný a končí ostrým bodem. Štítky 5 000+ ACTUATORS · UP TO 1 000 × A SECOND.",
+   "note": "Callback na S07/S08: rozmazání vzniklo v pásu, tady se ruší."
+  },
+  {
+   "id": "S49",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S49.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Extremely Large Telescope dome construction 2025",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: A massive mirror in a dramatic dome (DJI 0101, ESO, CC BY 4.0) — kopule ELT ve stavbě v poušti. Celá první šestice je stavba kopule 2024–25, každý výsledek přijatelný. Data first light jsou v hlase, ne v obraze.",
+   "pause": 2.6
+  },
+  {
+   "id": "S50",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S50.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "View of Hubble after Being Released from the Shuttle Atlantis",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: Hubble po vypuštění z Atlantisu (NASA, public domain)."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "atmosfera",
+   "diagram": "PÁTEŘ C: nad pásem atmosféry dva teleskopy HUBBLE · 1990 a WEBB · 2021; infračervený paprsek k Webbu pásem neprochází, takže páru ani teplý vzduch nepotkává.",
+   "note": "Teleskopy nad pásem, ne v něm. Webb „mostly infrared“ — štítek INFRARED u jeho paprsku."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "vesmir",
+   "diagram": "PÁTEŘ B: obrys kapotáže Ariane 5 se štítkem USABLE WIDTH ≈ 4.6 m a uvnitř Webbovo zrcadlo 6,5 m SLOŽENÉ (boční křídla sklopená); vedle rozložený kruh 39 m, který se do kapotáže zdaleka nevejde.",
+   "note": "Měřítko z `zrcadlo()`. Kreslí se VYUŽITELNÁ šířka 4,57 m (ne nominálních 5,4 m) a tak se i značí — factcheck „S52“. assert 6,5 > 4,57 (proto složené) a 39 > 9 (Starship). Po vykreslení zkontrolovat měřítko.",
+   "pause": 0.6
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "vesmir",
+   "diagram": "Dvě karty: ON THE GROUND — nákladní auto, IN SPACE — raketa a štítek SPACE MISSION.",
+   "note": "Auto ambrově (o něm je řeč)."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "vesmir",
+   "diagram": "Jeden objekt (galaxie) uprostřed, k němu dvě šipky: WEBB — WHAT THE GROUND CAN'T SEE a ELT — MORE LIGHT, FINER DETAIL WHERE THE AIR LETS LIGHT THROUGH. Titulek NOT A CONTEST.",
+   "note": "Ne žebříček: obě šipky stejně silné, žádná barevně „vítězná“.",
+   "pause": 2.4
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S55.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Nancy Grace Roman Space Telescope Launch NHQ202608300016",
+    "pick": 0
+   },
+   "note": "KONTAKTNÍ LIST 2026-10-14 (scratchpad), pick 0: start Romana 30. 8. 2026, Falcon Heavy (NASA, public domain) — vodorovný záběr s palmami. Ostatní záběry startu jsou na výšku."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "vesmir",
+   "diagram": "Slunce – Země – bod L2 v řadě, L2 1.5 MILLION KM beyond Earth; kolem L2 smyčky drah ROMAN a WEBB. Štítek NOT TO SCALE.",
+   "note": "Vzdálenosti nejsou v měřítku (Slunce by bylo 100× dál) — štítek povinný."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "vesmir",
+   "diagram": "Dvě stejná zrcadla 2.4 m (HUBBLE · ROMAN), pod nimi zorná pole: malý čtverec Hubble a ~100× větší plocha Roman.",
+   "note": "Plocha 100×, ne strana — assert."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "vesmir",
+   "diagram": "Řetěz tří kroků: ROMAN SPOTS (široké pole, jedna ambrová tečka) → WEBB LOOKS CLOSER → ELT SPLITS THE LIGHT (spektrum).",
+   "note": "„Might“ — šipky čárkovaně (možná spolupráce, ne plán).",
+   "pause": 2.8
+  },
+  {
+   "id": "S59",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S59.png",
+   "prompt": "wide view of a remote desert mountain at night with observatory domes on the summit, vast clear starry sky, flat dark ground, cold air, single warm amber glow, no people",
+   "note": "Předěl k závěrečné otázce. Ověřit `zaver_check.py`, jestli už padá do posledních 20 s; jestli ano, potřebuje prázdnou oblohu nahoře."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ A v dolní polovině: mapa zmenšená, Chile ambrově a nad ním jižní obloha; dva řádky THE SKY IT WANTED: SOUTH · ONE OF THE CLEAREST VIEWS: CHILE.",
+   "note": "Odpověď na titulní otázku. Páteř se tu smí posunout (závěrečná deska). Nic nad y = 600.",
+   "pause": 1.2
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: čtyři štítky SPACE · GROUND · BIG · WIDE, pod nimi jedna linka SAME STORY.",
+   "note": "Koncová obrazovka — nic nad y = 600.",
+   "pause": 1.0
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: dlouhý vodorovný paprsek od slabé galaxie vlevo přes celý obraz doprava, konec zatím mimo.",
+   "note": "Věta končí výpustkou a pokračuje v S63, proto krátká pauza.",
+   "pause": 0.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: paprsek dopadá na zrcadlo v kopuli v poušti, vedle drobná postava (BUILT BY PEOPLE).",
+   "note": "Poslední deska, klidná; nic nad y = 600."
+  }
+ ]
+}

@@ -1,0 +1,991 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Otevírací záběr. Atmosféra, ne definice — mřížka buněk se vrací jako DIAGRAM v S32, S89 a S92, takže tady smí být měkká. Jediné světlo je ta jedna dělící se buňka.",
+      "prompt": "vast dense field of translucent rounded cells seen from above like an aerial landscape, one single point of pale light among thousands, soft haze, painterly, no faces, no text"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Pás DNA se kreslí jako PÁS SE ZÁŘEZY, ne jako dvoušroubovice — šroubovice je klišé a hůř se na ní ukazuje 'úsek'. Tentýž pás nese celý blok o genu (S16, S18) i retrogeny (S41, S48).",
+      "diagram_generator": "uvod",
+      "diagram": "dlouhý informační pás DNA s hustými zářezy; čtyři mutace: dvě ztlumené (HARMLESS), jedna sešitá (REPAIRED), jedna ambrová (IRRELEVANT); popisky u každé"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Čtyři věty scénáře = čtyři články. Divák si je má přečíst, ne uhodnout.",
+      "diagram_generator": "uvod",
+      "diagram": "řetěz čtyř stavů jedné buňky zleva doprava: GROWS WHEN IT SHOULDN'T -> IGNORES INSTRUCTIONS -> KEEPS DIVIDING -> CANCER; poslední článek ambrový"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "PÁTEŘNÍ GRAF videa, vrací se v S09, S10, S67, S68 a S84. Zpětná vazba z třetího videa: prázdné osy čte divák jako rozbitý graf, takže data musí být v obraze hned.",
+      "diagram_generator": "uvod",
+      "diagram": "graf: vodorovně BODY SIZE, svisle CANCER; stoupající ČÁRKOVANÁ čára s popiskem WHAT YOU'D EXPECT; osy popsané, čára v obraze od prvního snímku"
+    },
+    {
+      "id": "S05",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Slona jde vyfotit, takže ho model kreslit nemá. STATIC a fit — zpětná vazba k prvnímu i čtvrtému videu: na zvíře se nenajíždí, jinak se uříznou hlavy. Střih sám je ten reveal.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "elephant Amboseli adult",
+        "pick": 4,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S06.png",
+      "note": "Hmota a stáří. Boční pohled na jednoho býka ukáže 'several tonnes' a délku klů líp než stádo. Pomalý pan podél těla, ne zoom — je to zvíře.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Loxodonta africana bull elephant tusks side view",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Převod 'enormous number of cells' na počitatelný obraz. Tečky nejsou data, jsou to jednotky — proto popisek říká, co tečka znamená.",
+      "diagram_generator": "uvod",
+      "diagram": "silueta člověka a silueta slona vedle sebe, obě vyplněné tečkami buněk; u slona jich je řádově víc; popisek EVERY DOT IS A PLACE CANCER COULD START"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Scéna staví hypotézu, kterou video vzápětí zboří. Rovnice musí být čitelná, aby šla v S09 vyvrátit.",
+      "diagram_generator": "uvod",
+      "diagram": "naivní rovnice: CELLS x RISK PER CELL = EXPECTED CANCER; u člověka malé číslo, u slona obrovské; pod tím ambrový popisek WALKING CANCER FACTORIES"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Konvence celého videa: ČÁRKOVANĚ = očekávání/hypotéza, PLNĚ = naměřeno. Zavádí se tady a platí dál (S49, S54, S97). Body jsou schematické, ne konkrétní druhy — nesmí tvrdit víc než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "týž graf jako S04: stoupající ČÁRKOVANÁ čára EXPECTED a vedle ní PLNÉ body naměřených druhů, které leží skoro vodorovně; popisek OBSERVED"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Pojem se zavádí jako MEZERA MEZI DVĚMA ČARAMI, ne jako nápis. Divák si ho pak vybaví tvarem.",
+      "diagram_generator": "uvod",
+      "diagram": "týž graf, mezera mezi čárkovanou a plnou čarou vyplněná ambrovým pruhem s popiskem PETO'S PARADOX"
+    },
+    {
+      "id": "S11",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S11.png",
+      "note": "Otázka bloku. Zvíře je ZÁMĚRNĚ daleko a nečitelné — SDXL neumí sloní anatomii zblízka (negativ má extra tusks/trunks) a scéna stejně potřebuje náladu, ne popis. PŘEGENEROVÁNO: první pokus dal malou antilopu, tedy pravý opak toho, co scéna říká o obřích zvířatech. Zvíře z promptu vyřazeno úplně — scéna potřebuje náladu před otázkou, ne konkrétní druh.",
+      "prompt": "empty vast savannah plain at dusk, thick golden dust hanging in the air, long low light raking across dry grass, distant flat horizon, no animals, no figures, painterly, muted, no text",
+      "seed": 4412
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Slovo TP53 padne poprvé. Ostatní slupky jsou schválně bez popisku — video je nejmenuje, takže by obraz tvrdil víc než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "soustředné slupky kolem buňky, zvenku dovnitř, popisek LAYERS OF PROTECTION; nejvnitřnější slupka rozsvícená a popsaná TP53, ostatní ztlumené a bez popisku",
+      "pause": 2.4
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Předěl. Video si samo řekne, že couvá — obraz to má potvrdit, ne přeskočit.",
+      "diagram_generator": "gen",
+      "diagram": "nápis TP53 odsunutý stranou a ztlumený, uprostřed velká otázka WHAT IS A GENE, ANYWAY?"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "SCHVÁLNĚ NAIVNÍ OBRÁZEK: tohle je ta chybná představa, kterou scénář popisuje. Visačka na provázku je čitelná i v malém a v S15 se dá přeškrtnout.",
+      "diagram_generator": "gen",
+      "diagram": "cihlička s papírovou visačkou na provázku, na visačce ručně napsané GENE; kolem prázdno"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "CLAUDE.md: přes NÁPIS vodorovná čára (skrt_text), křížek jen na plochy bez písma. Kdyby byl křížek přes visačku, nešlo by přečíst, co se vlastně vyvrací.",
+      "diagram_generator": "gen",
+      "diagram": "tatáž cihlička s visačkou, přes visačku VODOROVNÝ ŠKRT a přes cihličku křížek"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Oprava představy z S14. Pás musí ubíhat za okraje — 'huge molecular information system' se pozná tím, že se do rámu nevejde. Tentýž pás je v S02 a vrací se v S18.",
+      "diagram_generator": "gen",
+      "diagram": "velmi dlouhý informační pás DNA přes celou šířku, ubíhající za oba okraje, hustě zářezovaný; jeden jeho úsek sevřený svorkou a rozsvícený, popisek A REGION OF IT"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Klíčová scéna proti 'prezentaci o textu'. 'Proteins are the machines of the cell' se kreslí jako SKUTEČNÉ STROJKY, ne jako klubíčko. Ty tři se vracejí v S19 a S21 jako p53.",
+      "diagram_generator": "gen",
+      "diagram": "tři malé stroje vedle sebe, každý jinak: ramenem staví, vozíkem veze náklad, anténkou vysílá signál; popisky BUILD, TRANSPORT, SIGNAL"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Páteř celého videa. Vrací se v S19, S20, S41, S48 a naposledy v S95, takže rozvržení se od téhle scény už nesmí měnit — jinak se callbacky nepoznají.",
+      "diagram_generator": "gen",
+      "diagram": "PÁTEŘNÍ TŘÍPÁSMOVÝ DIAGRAM, horní dvě pásma: nahoře dlouhý pás INFORMATION, pod ním vyňatý úsek INSTRUCTION; třetí pásmo MACHINE zatím jen naznačené a ztlumené"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Doplnění třetího pásma. Strojek je tentýž jako v S17, ne nový tvar — shoda tvaru nese návaznost.",
+      "diagram_generator": "gen",
+      "diagram": "týž třípásmový diagram, teď kompletní: třetí pásmo MACHINE rozsvícené, je v něm jeden ze strojků z S17; šipky INFORMATION -> INSTRUCTION -> MACHINE"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Payoff celého bloku a jediné místo, kde video opravuje nejčastější chybu populárních textů. Rozdíl musí být vidět POLOHOU na diagramu, ne jen textem.",
+      "diagram_generator": "gen",
+      "diagram": "týž třípásmový diagram, na pásmu INSTRUCTION popisek TP53, u strojku popisek p53, mezi nimi velké znaménko nerovnosti a popisek NOT THE SAME THING",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Strojek se stěhuje do buňky. Tvar zůstává, mění se kontext.",
+      "diagram_generator": "p53",
+      "diagram": "obrys buňky, uvnitř strojek p53 z S19, popisek p53 a pod ním TUMOUR SUPPRESSOR"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Analogie se zavádí obrazem. Uživatel škrtl scénu s inspektory, takže inspektor musí být vidět TADY nebo v S23, ne v hlase.",
+      "diagram_generator": "p53",
+      "diagram": "tatáž buňka překreslená jako tovární hala: pás výrobní linky, na něm tři stroje, nahoře popisek THE CELL AS A FACTORY"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Sem se přesouvá vyškrtnutá věta o inspektorech — přesně jak uživatel navrhl, vizuálně a bez TTS.",
+      "diagram_generator": "p53",
+      "diagram": "výrobní linka, jeden stroj ambrově označený jako nebezpečný, u linky postava inspektora u páky, páka stažená, linka stojí; popisek STOP THE LINE"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Spouštěč. Poškození se kreslí jako zlomy v TOMTÉŽ pásu, který video používá od S02.",
+      "diagram_generator": "p53",
+      "diagram": "informační pás s poškozením (zlomy v zářezech), z něj signál nahoru ke strojku p53, který se rozsvěcí; popisek DNA DAMAGE -> p53 ACTIVATED"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Druhá páteř videa. Vrací se rozbitá v S30, s LIF6 v S57 a naposledy v S104, takže rozvržení je od téhle scény pevné.",
+      "diagram_generator": "p53",
+      "diagram": "PÁTEŘNÍ TROJVĚTVENÍ: z p53 tři popsané větve — STOP THE CYCLE, REPAIR THE DNA, APOPTOSIS; třetí větev ambrová"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Apoptóza NENÍ exploze. Uspořádanost je celý rozdíl proti nekróze a nese ji obraz, ne hlas.",
+      "diagram_generator": "p53",
+      "diagram": "tři fáze rozebrání buňky vedle sebe: celá, rozpadlá na uspořádané díly, uklizená; popisek PROGRAMMED CELL DEATH"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "'Quite the opposite' — obraz musí ukázat, že okolí je v pořádku, jinak scéna vyzní jako selhání.",
+      "diagram_generator": "p53",
+      "diagram": "pole zdravých buněk, jediná uprostřed tmavá a rozebraná; okolí nedotčené; popisek A SACRIFICE"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Bilanční obraz bloku. Dvě větve, obě popsané — bez popisků by to byl jen abstraktní tvar.",
+      "diagram_generator": "p53",
+      "diagram": "dvě budoucnosti vedle sebe: vlevo ONE CELL DIES -> zdravá tkáň, vpravo CELL SURVIVES -> nádor; levá ambrová",
+      "pause": 2.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Návrat do S23 s jedinou změnou. Divák pozná, co chybí, protože obraz je jinak identický.",
+      "diagram_generator": "p53",
+      "diagram": "táž tovární hala, ale páka je ulomená a ztlumená, linka běží dál; popisek THE STOP LEVER IS GONE"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Rozbitá páteř. Větve MUSÍ zůstat popsané, jinak scéna netvrdí, co se ztratilo.",
+      "diagram_generator": "p53",
+      "diagram": "trojvětvení z S25, celé ztlumené, uzel p53 přeškrtnutý křížkem; větve zůstávají popsané"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Klonální evoluce poprvé. Tentýž strom se vrací v S92 už jako výběr.",
+      "diagram_generator": "p53",
+      "diagram": "dělící se strom buněk ve třech generacích, v každé přibývá značek mutací; jedna linie tučnější a ambrová; popisek MORE DIVISIONS, MORE MUTATIONS"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Callback na otevírací záběr. Pravidelnost okolí je to, co dělá skvrnu čitelnou.",
+      "diagram_generator": "p53",
+      "diagram": "mřížka buněk jako v S01, uprostřed neuspořádaná ambrová skvrna prorůstající pravidelnou tkání; popisek NO LONGER NORMAL TISSUE"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Přechod k číslu. Rámečky jsou typy, ne data — přesné číslo přijde až v S34.",
+      "diagram_generator": "p53",
+      "diagram": "řada malých rámečků s názvy běžných typů nádorů, velká část z nich ambrově označená; popisek MUTATIONS AFFECTING TP53"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Nejsilnější číslo první poloviny. Sto čtverečků je počitatelné, takže tvrzení jde ověřit okem. Zdroj patří do obrazu — je to atribuce, ne ozdoba.",
+      "diagram_generator": "p53",
+      "diagram": "sto čtverečků v mřížce deset krát deset, zhruba polovina rozsvícená; velký popisek ABOUT HALF a pod ním zdroj NATIONAL CANCER INSTITUTE",
+      "pause": 2.4
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Otevření revealu. Otázka v obraze, odpověď v S36.",
+      "diagram_generator": "kopie",
+      "diagram": "pár chromozomů, na každém jeden ambrový proužek, nad tím velká otázka HOW MANY?"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "První polovina opravy mýtu. Musí být vidět, že proužky jsou na DVOU chromozomech téhož páru.",
+      "diagram_generator": "kopie",
+      "diagram": "pár chromozomů, jeden popsaný FROM YOUR MOTHER, druhý FROM YOUR FATHER, na každém rozsvícený proužek TP53; velký popisek TWO COPIES"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Škrtá se NÁPIS, tedy vodorovnou čarou. Křížek by tvrzení znečitelnil a scéna by přestala tvrdit, co vyvrací (past z devátého videa).",
+      "diagram_generator": "kopie",
+      "diagram": "populární tvrzení vysázené velkým písmem: ELEPHANT 20 versus HUMAN 1, přes celé tvrzení VODOROVNÝ ŠKRT, pod tím popisek MISLEADING"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Druhá polovina opravy a podle uživatele jedno ze dvou míst, která video odlišují od běžných populárních článků. Kreslí se rozdíl MÍSTO versus KOPIE, ne dvě čísla.",
+      "diagram_generator": "kopie",
+      "diagram": "týž chromozomový pár, popisky ONE GENE LOCATION a TWO ALLELES, mezi nimi jasně vidět, že jde o TOTÉŽ místo na obou chromozomech",
+      "pause": 2.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Rozmnožení jako děj, ne jako hotový stav. Konečný počet ukazuje až S40.",
+      "diagram_generator": "kopie",
+      "diagram": "sloní chromozomová oblast, z jednoho proužku se rojí další a další kopie do stran; popisek AN EXPANSION OF THE FAMILY"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Vrchol revealu. Proužky musí jít SPOČÍTAT, jinak je 'dvacet' jen slovo. Tentýž obraz se vrací v S48 překreslený na zkrácené kopie a v S95 naposledy.",
+      "diagram_generator": "kopie",
+      "diagram": "srovnání vedle sebe: vlevo DVA lidské proužky, vpravo asi DVACET sloních, všechny spočitatelné; popisky HUMAN a AFRICAN ELEPHANT a čísla 2 a ABOUT 20"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Mechanismus, ne jen jméno. Bez tohohle obrázku je 'retrogene' prázdné slovo a S48 by neměla na čem stavět.",
+      "diagram_generator": "kopie",
+      "diagram": "tři kroky retrogenu: úsek DNA -> RNA přepis -> zpětné vložení do DNA na jiném místě; popisek RETROGENE, u prostředního kroku AN RNA-BASED COPY"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Scénář říká SOME. Obraz proto NESMÍ rozsvítit všechny — jinak tvrdí víc než text.",
+      "diagram_generator": "kopie",
+      "diagram": "dvacet sloních proužků, z několika vychází šipka přepisu, ostatní jsou ztlumené a beze šipky; popisek SOME ARE TRANSCRIBED"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Stejné poškození je celý vtip srovnání, proto je to napsané. Rozdíl je v reakci, ne v zásahu.",
+      "diagram_generator": "kopie",
+      "diagram": "dvě buňky vedle sebe se STEJNÝM poškozením DNA: lidská pokračuje dál, sloní se už rozebírá; popisky HUMAN CELL a ELEPHANT CELL, dole SAME DAMAGE"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "SKUTEČNÁ DATA z fact checku, ne ilustrace. Pořadí LFS < člověk < slon je zároveň doklad, že to jde s dávkou TP53. Hodnoty i zdroj v obraze, ať se dá ověřit.",
+      "diagram_generator": "kopie",
+      "diagram": "sloupcový graf tří naměřených hodnot apoptózy lymfocytů: Li-Fraumeni 2.71 %, HUMAN 7.17 %, ELEPHANT 14.64 %; hodnoty vypsané u sloupců, dole zdroj ABEGGLEN ET AL. 2015"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Dramaturgický předěl do revizní kapitoly, uživatel ho výslovně chtěl zachovat. Scéna je 2,9 s, takže obraz musí být čitelný na první pohled — proto typografie, ne tvar.",
+      "diagram_generator": "kopie",
+      "diagram": "skoro prázdný obraz, uprostřed ambrový nápis BUT THERE'S A CATCH",
+      "pause": 2.8
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Populární verze se staví jako řetěz, aby se v S50 dal přetrhnout na konkrétním místě.",
+      "diagram_generator": "kopie",
+      "diagram": "řetěz tří článků: ELEPHANTS ARE HUGE -> MORE CELLS -> MORE CANCER; čtvrtý článek prázdný"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Vrchol populární verze. Razítko je záměrně samolibé — video ho vzápětí sundává.",
+      "diagram_generator": "kopie",
+      "diagram": "týž řetěz, čtvrtý článek doplněný: 20 COPIES OF TP53, přes celý řetěz razítko PROBLEM SOLVED; razítko ambrové a mírně natočené"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Payoff třípásmové páteře i revealu z S40. Podle Nunneyho 2022 jsou zkrácené všechny retrogeny (předek 390 -> 157 aminokyselin, 14 z 19 na 88 a míň), takže délky proužků jsou doložené, ne dekorace. Scénář říká opatrněji 'many of them', obraz proto většinu, ne všechny.",
+      "diagram_generator": "kopie",
+      "diagram": "dvacet sloních kopií z S40 překreslených podle skutečnosti: jedna plná délka, ostatní ZKRÁCENÉ, většina velmi krátká; popisky FULL-LENGTH GENE a TRUNCATED RETROGENES"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "OPRAVENO podle zpětné vazby. Původně byl drift kreslený PLNĚ a selekce čárkovaně, což podle konvence videa (plná = doloženo) říkalo 'drift je prokázaný, selekce vyvrácená'. To Nunney netvrdí: našel NEPŘÍTOMNOST dokladu o selekci a to, že přírůstek kopií SEDÍ na neutrální model. Obojí je pořád hypotéza, takže obě větve jsou čárkovaně a liší se jen tím, pro kterou ta práce argumentuje. Rámeček říká ARGUES FOR, ne PROVES.",
+      "diagram_generator": "kopie",
+      "diagram": "dvě vysvětlení téhož nálezu vedle sebe, OBĚ ČÁRKOVANĚ a stejně silně: vlevo NATURAL SELECTION, vpravo DUPLICATION AND DRIFT; vpravo navíc ambrový rámeček s popiskem ONE 2022 ANALYSIS ARGUES FOR THIS; nad oběma společný nadpis TWO WAYS TO EXPLAIN THE SAME NINETEEN COPIES; dole zdroj NUNNEY 2022"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "OPRAVENO podle zpětné vazby. Původně se škrtal celý nápis NATURAL SELECTION, což je přesně to 'definitivní vyvrácení', které scénář netvrdí. Scénář škrtá jen 'favoured EVERY ONE OF THEM as an anti-cancer defence', takže škrt patří na ten dovětek. Dovětek NO EVIDENCE EITHER WAY je doslova Nunneyho závěr o těch 88 kodonech — žádná průkazná pozitivní ANI negativní selekce.",
+      "diagram_generator": "kopie",
+      "diagram": "větev NATURAL SELECTION zůstává celá čitelná, přeškrtnutý je jen dovětek FAVOURED EVERY ONE OF THEM; pod škrtem menším písmem NO EVIDENCE EITHER WAY"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Protiváha. Bez ní by blok vyzněl jako 'tak to byl nesmysl', což scénář netvrdí.",
+      "diagram_generator": "kopie",
+      "diagram": "nápis IRRELEVANT přeškrtnutý, vedle rozsvícený sloní systém TP53; popisek QUITE THE OPPOSITE"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Doložený protipříklad k driftu (retrogen 9, apoptóza na mitochondriích, Preston 2023). Kreslí se PLNĚ — na rozdíl od S49 je tohle naměřené, ne hypotéza, a ten rozdíl v čáře je celý smysl konvence. Napojení na trojvětvení z S25 drží obraz videa pohromadě.",
+      "diagram_generator": "kopie",
+      "diagram": "jeden ze sloních retrogenů se šipkou napojený na trojvětvení odpovědi na poškození DNA; popisek SOME OF THEM DO SOMETHING, dole zdroj PRESTON ET AL. 2023"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Nejpřesnější formulace celého videa. Škrtá se JEDNO slovo, ne celá věta — rozdíl mezi 'není prokázáno' a 'není to tak' je celý smysl bloku.",
+      "diagram_generator": "kopie",
+      "diagram": "věta SCIENTISTS PROVED THAT 20 COPIES ARE THE REASON vysázená velkým písmem, slovo PROVED přeškrtnuté; pod tím THEY HAVEN'T"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Legenda konvence, kterou video používá od S09, se tady vysloví nahlas. Vrací se v S97 a S98.",
+      "diagram_generator": "kopie",
+      "diagram": "rozdělaný diagram: část nakreslená plně, část čárkovaně a prázdná; legenda SOLID = SHOWN, DASHED = STILL OPEN",
+      "pause": 2.4
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Druhý reveal videa. Přichází ve chvíli, kdy divák už ví, že TP53 není jednoduchá odpověď — dostane tedy další mechanismus, ne další opakování.",
+      "diagram_generator": "lif6",
+      "diagram": "tmavý, zjevně mrtvý úsek genu, který se rozsvěcí; velký popisek LIF6 a pod ním THE ZOMBIE GENE"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Refunkcionalizace jako děj na ose. Bez prostředního mrtvého stavu je slovo 'zombie' nesrozumitelné.",
+      "diagram_generator": "lif6",
+      "diagram": "časová osa tří stavů téhož genu: WORKING GENE -> BROKEN COPY (pseudogene) -> REPURPOSED; prostřední stav ztlumený, poslední ambrový"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Napojení na páteř. LIF6 nezavádí nový systém, jen tlačí na větev, kterou divák zná od S25 — a přesně to scénář říká.",
+      "diagram_generator": "lif6",
+      "diagram": "řetěz: p53 detekuje poškození -> LIF6 -> mitochondrie -> APOPTOSIS; řetěz ústí do TŘETÍ VĚTVE trojvětvení z S25, které je vidět v pozadí"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Scénář to má jako dialog, takže obraz taky. Kratší a tvrdší druhá replika nese ten stupňující efekt.",
+      "diagram_generator": "lif6",
+      "diagram": "dvě bubliny nad sebou: p53 říká THIS CELL IS DAMAGED, LIF6 na to THEN KILL IT; druhá bublina ambrová a důraznější"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Uzavření bloku obrazem, ne textem. 'Evoluce recykluje' se dá nakreslit doslova.",
+      "diagram_generator": "lif6",
+      "diagram": "rozbitý díl vytažený ze šrotu a zasazený do nového funkčního mechanismu; popisky DORMANT a RECRUITED INTO A NEW SYSTEM",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Nejdůležitější poučení videa podle scénáře. Poslední položka je schválně OTHERS UNKNOWN — video nesmí předstírat úplný seznam.",
+      "diagram_generator": "data",
+      "diagram": "dárkový balíček s nápisem ONE MAGIC ANTI-CANCER GENE, nápis přeškrtnutý; vedle několik menších popsaných mechanismů: TP53 COPIES, LIF6, OTHERS UNKNOWN"
+    },
+    {
+      "id": "S61",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Nejstřízlivější věta videa dostává nejstřízlivější záběr — stádo odcházející po cestě. Hrdinský portrét by scéně odporoval. STATIC.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "African elephant herd walking",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86
+        }
+      }
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Interval spolehlivosti je v obraze schválně: video o opatrnosti s daty nesmí ukázat holé číslo. Hodnoty jsou z fact checku.",
+      "diagram_generator": "data",
+      "diagram": "jedno velké číslo 4.8 % s popiskem OF RECORDED ELEPHANT MORTALITY a pod ním rozsah spolehlivosti 3.1 – 6.5 %; dole zdroj ABEGGLEN ET AL. 2015"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Lidská hodnota JE rozsah, takže se tak i kreslí. Kdyby byla jako jedno číslo, obraz by tvrdil přesnost, kterou zdroj nemá.",
+      "diagram_generator": "data",
+      "diagram": "dva sloupce vedle sebe: ELEPHANT 4.8 % a HUMAN 11 – 25 %; lidský sloupec kreslený jako rozsah, ne jako jedna hodnota"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Vysvětlení, PROČ se ta čísla nedají srovnat. Díry v potrubí jsou ten argument.",
+      "diagram_generator": "data",
+      "diagram": "dvě evidenční potrubí vedle sebe: lidské husté a souvislé, zvířecí děravé a přerušované; popisky HUMAN RECORDS a WILD ANIMAL RECORDS"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Konkretizace S64. Dvě jmenované příčiny mají popisek, aby scéna netvrdila jen 'je to horší'.",
+      "diagram_generator": "data",
+      "diagram": "dva štosy záznamů: lidský plný, veterinární s velkými mezerami; popisky SOME TUMOURS ARE NEVER DETECTED a DEATHS NOT ALWAYS INVESTIGATED"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Korekce vlastního titulku videa. Uživatel to označil za důležité místo.",
+      "diagram_generator": "data",
+      "diagram": "věta ELEPHANTS NEVER GET CANCER vysázená velkým písmem a přeškrtnutá; pod tím SIMPLY WRONG"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Rozdíl mezi 'nemají' a 'mají míň, než by odpovídalo' je celé jádro. Graf v pozadí ho ukazuje.",
+      "diagram_generator": "data",
+      "diagram": "přesná formulace v rámečku: LESS CANCER THAN WE WOULD EXPECT FROM THEIR SIZE AND LIFESPAN; v pozadí ztlumený graf z S04"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Uzavření páteřního grafu. Tentýž obraz jako S10, jen teď mu divák rozumí.",
+      "diagram_generator": "data",
+      "diagram": "graf z S04 naposledy: čárkovaná EXPECTED, plné OBSERVED, mezi nimi rozsvícená mezera s popiskem PETO'S PARADOX",
+      "pause": 2.6
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Otázka bloku. Otazník je v obraze, protože odpověď zní 'ne tak jednoduše'.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "sloní buňka a lidská buňka, mezi nimi šipka s otazníkem a popiskem JUST COPY IT?"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Knoflík je nosný tvar celého bloku — vrací se v S71, S74 a S76. Jedna veličina, jedna stupnice.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "otočný knoflík se stupnicí SENSITIVITY TO DNA DAMAGE, ručička posunutá výš; vedle dva popisky MORE SENSITIVE a MORE WILLING TO STOP"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Maximum vypadá jako řešení. Scéna to schválně nechává vyznít, protože S72 to hned zboří.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "týž knoflík otočený na maximum, u něj otazník a popisek RESISTANT TO CANCER?"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Konflikt se zavádí jako DVA POŽADAVKY, ne jako problém — proto obě strany popsané a stejně silné.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "dva požadavky proti sobě na jedné ose: DESTROY THE DAMAGED a KEEP THE HEALTHY ALIVE"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Kolotoč, ne seznam. Scéna má ukázat, že obnova běží pořád.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "denní koloběh: poškozené buňky odcházejí, nové přicházejí; kolem popisky REGENERATE, IMMUNE SYSTEM, EVERY SINGLE DAY"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Cena maxima. Bez tohohle obrázku by divák nechápal, proč evoluce knoflík nezatočila naplno sama.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "knoflík na maximu a pod ním následek: rozebírají se i ZDRAVÉ buňky; popisek PERFECTLY USEFUL CELLS DESTROYED"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Váhy jsou třetí a poslední tvar bloku. Nastupují až tady, kdy má divák obě strany.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "váhy vychýlené na jednu stranu, na té straně popisek TOO LITTLE CONTROL a pod ní CANCER"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Obě vychýlení i rovnováha v jednom obraze, aby scéna nesla celý závěr bloku.",
+      "diagram_generator": "rovnovaha",
+      "diagram": "tytéž váhy vychýlené na druhou stranu s popiskem TOO MUCH CONTROL a následky DAMAGED TISSUE, IMPAIRED REGENERATION; uprostřed vyznačená ambrová poloha THE SWEET SPOT",
+      "pause": 2.4
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Přechod od biologie k medicíně. Zásah zvenku do známého diagramu.",
+      "diagram_generator": "lecba",
+      "diagram": "trojvětvení p53 z S25 a do něj zvenku zasahující nástroj; popisek NOT JUST THEORY"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "První strategie doslova: mutovaný p53 se 'přeskládá'. Odpovídá doloženým látkám typu rezatapopt (fact check, bod 13).",
+      "diagram_generator": "lecba",
+      "diagram": "poškozený, pokroucený p53 vedle správně složeného; šipka mezi nimi a popisek STRATEGY ONE: RESTORE OR REACTIVATE"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "MDM2 se zavádí jako TVAR, který něco drží. Ten úchop se pak v S80 porovnává.",
+      "diagram_generator": "lecba",
+      "diagram": "p53 držený dolů druhou bílkovinou; ta popsaná MDM2; popisek STRATEGY TWO: WORK ON THE REGULATOR"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Doložený rozdíl (substituce T63A oslabuje potlačení p53, Palefsky 2025). Rozdíl je vidět VÝŠKOU p53, ne barvou.",
+      "diagram_generator": "lecba",
+      "diagram": "dvě varianty téhož úchopu vedle sebe: HUMAN MDM2 drží p53 pevně, ELEPHANT MDM2 volněji, takže sloní p53 je výš; popisek A WEAKER GRIP"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Nejsilnější posun videa z 'zajímavý fakt' na 'už se to zkouší'. Zdroj v obraze, protože to bylo jedno ze dvou nejrizikovějších tvrzení scénáře.",
+      "diagram_generator": "lecba",
+      "diagram": "miska s lidskými buňkami, do níž se vkládá sloní varianta MDM2; popisky ELEPHANT MDM2 a HUMAN CELLS, dole zdroj PALEFSKY ET AL. 2025"
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Vědomý callback na S60. Tentýž obraz uzavírá tutéž myšlenku na jiné úrovni.",
+      "diagram_generator": "lecba",
+      "diagram": "týž dárkový balíček jako v S60, znovu přeškrtnutý; popisek NOT A GENE TO DONATE"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Náhrada za balíček. Tři ovladače odpovídají třem větvím z S25, takže obraz drží soustavu.",
+      "diagram_generator": "lecba",
+      "diagram": "místo balíčku sada popsaných ovladačů: WHEN TO STOP, WHEN TO REPAIR, WHEN TO DIE; popisek NEW IDEAS ABOUT HOW TO CONTROL IT",
+      "pause": 2.2
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Návrat páteřního grafu potřetí. Slon se zmenšuje na jeden případ z mnoha — přesně to scénář říká.",
+      "diagram_generator": "druhy",
+      "diagram": "graf z S04 s vynesenými několika druhy; slon je jen jeden z bodů pod očekávanou čarou; popisek NOT ONLY ELEPHANTS"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Jediné místo, kde jsou ostatní druhy pojmenované. Doloženo Seluanov a kol. 2018 (fact check, bod 14). Bez popisků by to byly jen zvířecí obrysy — 'abstraktní tvar bez legendy neříká nic'.",
+      "diagram_generator": "druhy",
+      "diagram": "čtyři siluety druhů s popsanými mechanismy: ELEPHANT / TP53 COPIES, NAKED MOLE-RAT / CELL-CYCLE CONTROL, BOWHEAD WHALE / DNA REPAIR, BAT / METABOLISM"
+    },
+    {
+      "id": "S86",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S86.png",
+      "note": "Změna textury po dlouhé řadě diagramů a zároveň doklad, že ty druhy existují. Popisky nese S85, takže fotka nemusí nic vysvětlovat. Pomalý pan, ne zoom — je to zvíře.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nacktmull Heterocephalus",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Pointa bloku je v tom, že žádná větev nevyhrává. Kdyby byla jedna ambrová, obraz by tvrdil opak.",
+      "diagram_generator": "druhy",
+      "diagram": "dlouhá časová osa s mnoha paralelními větvemi, každá končí jiným popsaným mechanismem, žádná není zvýrazněná; popisek NO SINGLE SOLUTION",
+      "pause": 2.4
+    },
+    {
+      "id": "S88",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S88.png",
+      "note": "Nádech před nejsilnější myšlenkou videa. Po třiceti diagramech za sebou je změna textury sama o sobě předěl.",
+      "prompt": "quiet vast interior landscape of soft translucent biological structures receding into haze, warm dust light from one side, no figures, no faces, painterly, no text"
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Čtyři sloty se plní přes dvě scény. Prázdné sloty musí mít popisek už tady, jinak se čtou jako chybějící obrázek — zpětná vazba ze třetího videa.",
+      "diagram_generator": "evoluce",
+      "diagram": "mřížka buněk jako v S01, u ní první dva ze čtyř požadavků: THEY HAVE TO DIVIDE, THEY HAVE TO COPY DNA; zbylé dva sloty prázdné, ale POPSANÉ"
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Jádro celého bloku: ty čtyři podmínky JSOU podmínky přírodního výběru. Scéna to má ukázat tím, že se seznam nezmění, jen dostane jiný nadpis.",
+      "diagram_generator": "evoluce",
+      "diagram": "táž mřížka, všechny čtyři požadavky doplněné: DIVIDE, COPY DNA, SURVIVE, RESPOND; pod nimi popisek THAT IS ALSO A RECIPE FOR EVOLUTION"
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Teze videa. Uživatel označil tenhle přechod za jednu z nejsilnějších částí scénáře, takže obraz musí být jednoduchý — jedno slovo, žádný nový tvar.",
+      "diagram_generator": "evoluce",
+      "diagram": "tytéž čtyři požadavky se slévají do jediného velkého slova EVOLUTION, pod ním HAPPENING INSIDE YOUR BODY",
+      "pause": 2.6
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Návrat stromu, teď už jako výběr. Tvar je tentýž, mění se jen popisek.",
+      "diagram_generator": "evoluce",
+      "diagram": "strom dělení z S31, v něm jedna linie rychlejší a širší; popisek GROWS FASTER = AN ADVANTAGE"
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Tři výhody jako tři porušená pravidla. Nádor je důsledek vpravo, ne čtvrtá položka výčtu.",
+      "diagram_generator": "evoluce",
+      "diagram": "tři pravidla vedle sebe, každé přeškrtnuté buňkou, která je porušila: IGNORES A SIGNAL, AVOIDS DEATH, GROWS FASTER; vpravo z nich vyrůstá nádor"
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Symetrie je celý argument scény. p53 stojí přesně mezi nimi.",
+      "diagram_generator": "evoluce",
+      "diagram": "dvě evoluce proti sobě: vlevo rychlá uvnitř těla, vpravo pomalá, která vybavila tělo obranou; uprostřed p53; popisky EVOLUTION INSIDE US a EVOLUTION THAT BUILT US",
+      "pause": 2.2
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Poslední návrat počítacího obrazu z S40 a S48. Divák ho už zná ze dvou předchozích významů, takže tady stačí ukázat, co s ním NEJDE udělat.",
+      "diagram_generator": "zaver",
+      "diagram": "devatenáct sloních kopií z S40 nacpaných do lidské buňky, celý výjev přeškrtnutý; popisek PROBABLY NOT LIKE THIS"
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Konvence plná/čárkovaná ze S54. Obě cesty jsou otevřené, takže obě čárkovaně.",
+      "diagram_generator": "zaver",
+      "diagram": "dvě otevřené cesty vedle sebe: ELEPHANT p53 AND MDM2 a COMPLETELY DIFFERENT MECHANISMS IN OTHER ANIMALS; obě čárkovaně, protože ani jedna není hotová"
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Čárkovaný poslední úsek nese větu 'we're not there yet' beze slov.",
+      "diagram_generator": "zaver",
+      "diagram": "několik čar se sbíhá do jedné, poslední úsek k cíli je ČÁRKOVANÝ a prázdný; popisky COMBINE THESE IDEAS a NOT THERE YET"
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Poměr ploch je to tvrzení. Známé musí být zřetelně menší.",
+      "diagram_generator": "zaver",
+      "diagram": "malá plná plocha popsaná WHAT WE KNOW a kolem ní mnohem větší čárkovaná plocha WHAT NATURE HAS ALREADY INVENTED"
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Předěl finále. Dvě otázky ve dvou scénách, aby byla vidět výměna.",
+      "diagram_generator": "zaver",
+      "diagram": "stará otázka v rámečku: WHY DO WE GET CANCER?"
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Výměna otázky je titulek videa. Stará zůstává vzadu, aby byl vidět posun, ne náhrada.",
+      "diagram_generator": "zaver",
+      "diagram": "nová otázka nastupující na místo staré, stará ztlumená vzadu: WHY DON'T ELEPHANTS GET AS MUCH CANCER AS THEY SHOULD?"
+    },
+    {
+      "id": "S101",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "PŘESUNUTO ZE SDXL DO ARCHIVU. Scéna říká „animals that are enormous, long-lived and remarkably resistant to cancer\", a model to netrefil dvakrát za sebou: napoprvé pakoně, napodruhé zvířata MENŠÍ než stromy vedle nich, tedy pravý opak měřítka, o které jde. Podle pravidla projektu je dvojí minutí funkce signál, že scéna patří jinam — a slon v krajině se dá vyfotit, takže ho model kreslit nemá. STATIC, protože na zvíře se nenajíždí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "elephants Amboseli Kilimanjaro",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Rozdíl mezi vymyslet a nastudovat je celá pointa scény.",
+      "diagram_generator": "zaver",
+      "diagram": "slovo INVENT přeškrtnuté, vedle rozsvícené STUDY THEM; pod tím UNDERSTAND WHAT EVOLUTION CHANGED"
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Půjčit si mechanismus, ne zvíře. Velikostní poměr slona a dílku to říká sám.",
+      "diagram_generator": "zaver",
+      "diagram": "z velké siluety slona se vyjímá jediný malý mechanismus a putuje k lidské buňce; vedle přeškrtnutý nápis TURN HUMANS INTO ELEPHANTS"
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Poslední návrat páteře. Video končí na tomtéž diagramu, kterým začalo vysvětlovat p53 — jen teď mu divák rozumí a zbyly jen dvě větve, o kterých mluví závěrečná věta.",
+      "diagram_generator": "zaver",
+      "diagram": "trojvětvení z S25 naposledy, ztišené, rozsvícené jen dvě větve: REPAIR THEMSELVES a KNOW WHEN TO DIE"
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "Koncová karta. Čistá typografie, žádný nový tvar.",
+      "diagram_generator": "zaver",
+      "diagram": "závěrečná karta: NATURE MAY HAVE ALREADY SOLVED PARTS OF THE CANCER PROBLEM, pod tím menším písmem WE JUST HAVEN'T FIGURED OUT ALL OF ITS SOLUTIONS YET"
+    }
+  ]
+}

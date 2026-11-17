@@ -1,0 +1,649 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s01()",
+      "note": "První scéna nese myšlenku, ne atmosféru (ne SDXL): celý večer najednou, film, kvůli kterému divák pustil televizi, leží až za reklamami. Páteř 1 (`rozvrh()`) se zavádí tady.",
+      "pause": 0.4
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s02()",
+      "note": "Bloky před filmem s popisky; film ztlumeně."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s03()",
+      "note": "Film zatím jako souvislé dvě hodiny (8:00–10:00) — přestávky přijdou až v S04, takže se film viditelně natáhne."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s04()",
+      "note": "Tři přestávky (scénář: break, another, another one) natáhnou film do 10:45. Délky přestávek jsou schéma (konvence 5), součet sedí na konec z factchecku.",
+      "pause": 0.4
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s05()",
+      "note": "Konec, který divák neviděl, je ČÁRKOVANĚ (konvence 2). Budík 6:00 jen jako nápis.",
+      "pause": 1.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s06()",
+      "note": "Rým s S21: tytéž řádky na týchž místech, tady přeškrtnuté.",
+      "pause": 0.5
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s07()",
+      "note": "Zmeškaný začátek vyznačen čárkovaným rámečkem, příští uvedení „?“."
+    },
+    {
+      "id": "S07b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07b.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s07b()",
+      "note": "Námitka diváka (zpětná vazba k draftu): nahrávání. Pod programem z páteře 1 nahrávka zarovnaná na tytéž časy, reklamy v ní přetočené (>>). Délky přestávek dál schéma.",
+      "pause": 0.5
+    },
+    {
+      "id": "S07c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07c.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s07c()",
+      "note": "Program vysílatele ztlumeně, nahrávka ambrově — o ní je řeč. Od 0.8 bez „own copy“ (PVR nemusí dělat kopii) a bez „not really watching the broadcast“ (zpětná vazba diváka 2). Připravuje S20.",
+      "pause": 1.0
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s08()",
+      "note": "Šipka po ose = lineární. Otázka scénáře je v titulku nepřímo — odpověď přijde v S09. Od 0.7 začíná „The broadcast itself…“ — návrat od nahrávky (S07b–c) k vysílání.",
+      "pause": 1.2
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s09()",
+      "note": "Dav je schéma, ne počet (konvence 5).",
+      "pause": 0.6
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s10()",
+      "note": "Data Nielsen The Gauge 05/2025 z factchecku, sloupce od nuly, poměr z konstant. Ambrová = streaming, o kterém je řeč."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s11()",
+      "note": "Tytéž sloupce, ambrová přejde na vysílání + kabel („still holds almost half“).",
+      "pause": 0.6
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "uvod",
+      "diagram": "viz uvod.py, funkce s12()",
+      "note": "Hlavní otázka = titul videa. MUSÍ být statický diagram (dědí ho CTA S12b). Rým s S51.",
+      "pause": 0.4
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "cta": true,
+      "note": "CTA za první výplatou (Nielsen) a hlavní otázkou, ~1:30. Dědí obrázek S12.",
+      "pause": 2.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s13()",
+      "note": "Páteř 2: vysílač vlevo, mřížka přijímačů vpravo, JEDEN vějíř signálu přes všechny. Zrcadlo je síť v S28–S30 na týchž souřadnicích."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s14()",
+      "note": "Mřížka 24 obrazovek je schéma „milionů“ (konvence 5)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s15()",
+      "note": "Všechny obrazovky svítí stejně = totéž ve stejnou chvíli."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s16()",
+      "note": "Otázka vysílání u vysílače, přeškrtnutá otázka streamingu nad diváky."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s17()",
+      "note": "Dva panely; ambrová je jediné rozhodnutí diváka."
+    },
+    {
+      "id": "S18",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S18.png",
+      "prompt": "a 1970s living room at evening, a wooden cabinet television set glowing in the corner, an empty armchair facing it, patterned wallpaper, a single lamp, quiet and still, no text",
+      "note": "SDXL atmosféra: dřívější obývák, jediná obrazovka, žádná alternativa. Ne první scéna videa. Kolo 1 (seed 831221680) PŘIJATO 2026-10-05: obývák 70. let, jediná televize.",
+      "pause": 1.0,
+      "seed": 831221680
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s19()",
+      "note": "Krátký beat (jedna věta). Síť jako náhodný graf (seed pevný), bez tvrzení o topologii. Dovětek kvůli schwě za „happened“ (poslech draftu 0.5).",
+      "pause": 0.5,
+      "dovetek": "That changed everything for everyone."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s20()",
+      "note": "Dvě promluvy — vysílání ztlumeně, streaming ambrově."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s21()",
+      "note": "Rým s S06: tytéž řádky, teď s fajfkou, plus nové (zvuk, titulky, pokračovat zítra) — titulky a dabing doplněny po poslechu draftu.",
+      "pause": 0.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s22()",
+      "note": "Škrt jen přes nápis COMMERCIALS (konvence 4)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s23()",
+      "note": "Push/pull: u vysílání šipka od zdroje k divákovi; u streamingu napřed šipka od diváka do knihovny (ztlumeně), pak obsah k němu.",
+      "pause": 0.6
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "vysilani",
+      "diagram": "viz vysilani.py, funkce s24()",
+      "note": "Fajfka a „streaming wins“ — konec bloku o kontrole.",
+      "pause": 1.2
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s25()",
+      "note": "Dav je schéma, číslo 10 milionů je ze scénáře (hypotetické finále, ne statistika)."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s26()",
+      "note": "Páteř 2 jako S13. Žádné číslo o nákladech, jen „stejný signál“."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s27()",
+      "note": "Pointa vysílání. Konec bloku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s28()",
+      "note": "ZRCADLO S26/S27: na místě vysílače server, keše, a ke každé obrazovce VLASTNÍ linka. Factcheck: netvrdí, že Internet živé video neumí, jen že každý divák potřebuje vlastní proud."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s29()",
+      "note": "Keše ambrově (inženýři to umí), linky zůstávají — problém nezmizel."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s30()",
+      "note": "Směr obrácený: šipky od diváků k síti („asking the network for the same thing“). Obrazovky zhasnuté, dokud se nedočkají."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s31()",
+      "note": "Rozděleno po poslechu draftu: mezi „Sport.“ a „Breaking news.“ nešla vložit větná pauza (u řezu zněla řeč, +5 dB), scene_pause se přidává. Návětí = poslední věta S30 (krátká samostatná promluva). Obraz společný s S31b a S31c — výčet má tři beaty po stejné scene_pause.",
+      "pause": 0.6,
+      "naveti": "And when it's happening right now, nobody can download it in advance."
+    },
+    {
+      "id": "S31b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "„Breaking news.“ — vlastní scéna, protože po rozdělení na dvě zmizela pauza před „Election night“. Návětí se vypnulo (60 ms ticha) a zůstala schwa → dovětek (poslech draftu 0.6). Týž obraz. Dovětek vybrán zkouškou pěti znění: jen tenhle se dal uříznout (ostatní: konec by padl do slova); whisper small.en přečte celé „Breaking News.“.",
+      "pause": 0.6,
+      "dovetek": "And then, a little later, something else entirely."
+    },
+    {
+      "id": "S31c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Konec výčtu S31, týž obraz.",
+      "pause": 0.5
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "finale",
+      "diagram": "viz finale.py, funkce s32()",
+      "note": "Návrat k páteři vysílání. Konec bloku.",
+      "pause": 0.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s33()",
+      "note": "Rovnítko, které si divák dosud myslel."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s34()",
+      "note": "Totéž s ≠ a popisky ze scénáře.",
+      "pause": 1.2
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s35()",
+      "note": "Anténa ČÁRKOVANĚ = už není potřeba (konvence 2), ostatní cesty plně."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s36()",
+      "note": "Jen to, co tvrdí scénář: „víc než polovina“ — žádný sloupec, protože přesné číslo se neříká. Zdroj EAO z factchecku.",
+      "pause": 0.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s37()",
+      "note": "2 domy z 5 s anténou, `assert` v kitu. RSPG/EBU z factchecku.",
+      "pause": 0.6
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s38()",
+      "note": "Tytéž domy; bez antény ztlumené. Žádný graf poklesu — scénář neříká číslo.",
+      "pause": 0.8
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "medium",
+      "diagram": "viz medium.py, funkce s39()",
+      "note": "Callback na reklamy z úvodu. Konec bloku.",
+      "pause": 2.0
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s40()",
+      "note": "Předěl."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s41()",
+      "note": "Nápis nese paradox; podává se jako zkušenost (factcheck), ne objektivní důvod.",
+      "pause": 1.0
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S42.png",
+      "note": "Dvě kola SDXL zamítnuta (1: stará CRT, 2: krajina na obrazovce, skoro fotorealismus) → obrázek z ChatGPT podle zadání uživatele (`art/S42-nabidka.png`, `art/PUVOD.md`), vložený přes celý rám. Atmosférická scéna, proto pohyb a bez nadpisu.",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s42()"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s43()",
+      "note": "Mřížka dlaždic + posuvník + čas ze scénáře."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s44()",
+      "note": "Obrazovka už svítí."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s45()",
+      "note": "Rádio kreslené, škrt jen přes nápis."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s46()",
+      "note": "Dva škrty přes nápisy, ambrová pointa. Konec bloku.",
+      "pause": 2.0
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s47()",
+      "note": "Páteř 2 ztlumeně — předěl k poslednímu důvodu."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s48()",
+      "note": "Síť z S28 na týchž souřadnicích, linky čárkovaně a obrazovky zhasnuté. Bonusový argument, citlivý na factcheck — nic víc než výčet ze scénáře."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "volba",
+      "diagram": "viz volba.py, funkce s49()",
+      "note": "Vysílač s baterií, obrazovky svítí. „Even a battery radio“ jen v popisku."
+    },
+    {
+      "id": "S50",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S50.png",
+      "prompt": "a tall lattice radio transmitter mast on a hill above a small dark town, heavy storm clouds, rain, a few warm lit windows, the mast's red warning light on, no text",
+      "note": "SDXL: stožár nad městem za bouře. Konec bloku. Kolo 1 (seed 815612011) PŘIJATO 2026-10-05: stožár nad krajinou pod bouřkovými mraky.",
+      "pause": 2.6,
+      "seed": 815612011
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s51()",
+      "note": "Rým s S12: tatáž obrazovka s otazníkem.",
+      "pause": 1.0
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s52()",
+      "note": "Program z úvodu ztlumeně, přeškrtnuté důvody čekat.",
+      "pause": 0.5
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s53()",
+      "note": "Páteř 2 jako S13."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s54()",
+      "note": "Výplata páteře: tytéž popisky jako v S14, teď s „elegantní“.",
+      "pause": 1.6
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s55()",
+      "note": "Starší technologie ambrově, protože o ní je řeč (nezmizela), ne protože je „lepší“."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s56()",
+      "note": "Konec bloku.",
+      "pause": 1.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s57()",
+      "note": "Otázka videa v nové podobě.",
+      "pause": 1.0
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s58()",
+      "note": "Tabulka se plní po řádcích (S58–S60), předchozí ztlumeně."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s59()"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s60()",
+      "note": "Konec bloku před závěrem.",
+      "pause": 1.2
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s61()",
+      "note": "Posledních ~20 s: obsah v DOLNÍ polovině, horní volná pro závěrečnou obrazovku."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s62()",
+      "note": "Dolní polovina; ambrová = miliony, kteří se dívají na totéž."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "zaver",
+      "diagram": "viz zaver.py, funkce s63()",
+      "note": "Závěrečná deska: páteř vysílání zmenšená do dolní poloviny (smí se pohnout jen tady). Delší pauza.",
+      "pause": 3.0
+    }
+  ]
+}

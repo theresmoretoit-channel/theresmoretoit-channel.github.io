@@ -1,0 +1,865 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA není sdxl a nese myšlenku: tohle všechno známe. Žádné logo Microsoftu ani Windows (ochranná známka). Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "uvod",
+      "diagram": "Monitor s myší uprostřed horní poloviny, na obrazovce okno, ikony a rozbalené menu. Čtyři popisky se šipkou na svůj prvek: WINDOWS, ICONS, MENUS, A MOUSE. Nadpis WHAT A COMPUTER LOOKS LIKE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat v témže obraze, mění se jen štítky. Konkrétní autory k prvkům NEPSAT — scéna říká jen ‚už to postavili jiní‘, atribuce přijde postupně ve videu.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Ambrový štítek 1985 · FIRST WINDOWS v rohu obrazovky, u každého ze čtyř popisků malá ambrová značka ALREADY BUILT BEFORE 1985. Nadpis ALMOST NONE OF IT NEW."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "PÁTEŘ osa() z _kit.py na pevných souřadnicích ve SPODNÍ polovině: dva pruhy nad společnou osou let 1965–1996 — horní THE IDEA (kdo měl nápad kdy), dolní ON PEOPLE'S DESKS (kudy se to dostalo k lidem). Horní polovina obrazu patří ilustraci scény. Data v obraze od prvního snímku (prázdné osy = rozbitý graf), jen ztlumená.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ poprvé. Dolní pruh: v 90. letech široký ambrový blok MICROSOFT · MOST DESKS. Horní pruh: ambrová značka 1985 WINDOWS 1.0. Vše před 1985 ztlumené s otazníkem. Nahoře otázka HOW DID WINDOWS END UP ON MOST DESKS?"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Položení páteře videa: u každé zastávky se vrátíme na tuhle osu s odpovědí ‚proč nevyhráli‘.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž osa, v horním pruhu přibudou tři ztlumené značky před 1985: 1968 ENGELBART, 1973 XEROX, 1984 APPLE. Dolní pruh pod nimi otazníky. Nadpis WHO GOT THERE FIRST — AND WHY DIDN'T THEY WIN?",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:SRI Douglas Engelbart 1968.jpg (CC BY-SA 3.0) — Engelbart 1968 u stolu s myší. Není to pódium, ale je to rok a člověk ze scény. Portrét → static, fit 0.84.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas Engelbart",
+        "pick": 2,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S07.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: Replika prototypu myši z roku 1964 (CC BY 2.0): dřevěná krabička, kabel. Cedulka v pozadí je drobná a rozmazaná; kdyby byla v renderu čitelná, oříznout (grade.crop_y). Ořez zoom odřízne cedulku s rokem 1964 (VO mluví o 1968) — vyžádáno při schválení výběru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "first computer mouse Engelbart",
+        "pick": 2,
+        "grade": {
+          "zoom": [
+            0.04,
+            0.34,
+            0.92,
+            0.62
+          ]
+        }
+      }
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Obě věty scény jsou dvě věci — odkazy (vlevo) a společná editace (přes vzdálenost).",
+      "diagram_generator": "engelbart",
+      "diagram": "Dvě obrazovky vedle sebe, mezi nimi čára s popiskem ~30 MILES. Na levé obrazovce bloky textu propojené tenkými odkazy, na obou TÝŽ dokument s dvěma kurzory. Popisky LINKED TEXT a EDITING TOGETHER."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Odpověď č. 1 na ‚proč nevyhráli‘. Škrtá se NÁPIS, ne počítač.",
+      "diagram_generator": "engelbart",
+      "diagram": "OSA: ambrová značka 1968 ENGELBART, v dolním pruhu tečka ONE RESEARCH SYSTEM a vedle NOT FOR SALE. Nad 1968 velký počítač. Nadpis NOBODY COULD BUY IT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Přechod, kreslený beat na páteři místo fotky budovy.",
+      "diagram_generator": "xerox",
+      "diagram": "OSA: počítače průkopníků nad 1968 a 1973 (ztlumeně), závorka 1968–1973 FIVE YEARS LATER."
+    },
+    {
+      "id": "S13",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:Xerox Alto I, 1973, Computer History… (CC BY-SA 4.0): monitor na výšku, klávesnice, myš i keyset.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Xerox Alto",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Obrazovka Alta byla na výšku — kreslit ji tak. Mřížka: assert, že písmeno je opravdu z teček mřížky.",
+      "diagram_generator": "xerox",
+      "diagram": "Vlevo zvětšená mřížka pixelů, každý zvlášť zapnutý (písmeno složené z teček). Vpravo obrazovka na výšku: dva řezy písma, malý obrázek, zarovnaný text jako na papíře. Popisek EVERY DOT ITS OWN. Nadpis A BITMAP SCREEN."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Menu kreslit u kurzoru (pop-up), ne jako lištu nahoře — rozbalovací lišta je Lisa/Mac. Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "xerox",
+      "diagram": "Obrazovka na výšku (táž jako S14): dvě PŘEKRÝVAJÍCÍ se okna, u kurzoru vyskočené menu, vedle myš. Popisky MOUSE, OVERLAPPING WINDOWS, POP-UP MENU.",
+      "pause": 0.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Počet NEkreslit jako data — počet ikon by tvrdil poměr. Číslo nese nápis. Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "xerox",
+      "diagram": "Řada ikonek Alta (stylizovaně, ne 2 000 kusů) s nápisem AROUND 2,000 BUILT. Pod ní tři ikonky činností: WRITE, DRAW, EMAIL.",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "MUSÍ zůstat static diagram — S17b z něj dědí obraz (docs/cta.md).",
+      "diagram_generator": "xerox",
+      "diagram": "OSA: ambrová značka 1973 XEROX ALTO, závorka v horním pruhu MID-1970s · MUCH OF THE MODERN DESKTOP a druhá závorka k 1985 A DECADE BEFORE WINDOWS."
+    },
+    {
+      "id": "S17b",
+      "source": "svg",
+      "visual": "images/S17.png",
+      "effect": "static",
+      "cta": true,
+      "note": "CTA, dědí obraz S17 (docs/cta.md). Slot za první výplatou (Alto, dekáda před Windows), před otázkou S18.",
+      "pause": 1.0
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "",
+      "diagram_generator": "xerox",
+      "diagram": "Velká otázka WHY AREN'T WE ALL USING XEROX COMPUTERS? nad ztlumenou ikonou Alta.",
+      "pause": 1.0
+    },
+    {
+      "id": "S19",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S19.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:Xerox Star 8010.jpg (CC BY 2.0): stanice s TMAVOU obrazovkou, takže žádný koš. Barevné snímky Staru (pick 4, 6) zamítnuty — barevná obrazovka je pozdější software/emulace.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Xerox Star 8010",
+        "pick": 2
+      }
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "ŽÁDNÝ KOŠ — Star 1981 ho neměl (factcheck, rozhodnutí uživatele). Ikony až od Staru, ne od Alta.",
+      "diagram_generator": "xerox",
+      "diagram": "Kreslená plocha Staru: ikony DOCUMENT, FOLDER, PRINTER, IN-TRAY s popisky, nic dalšího. Nadpis THE DESKTOP."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Metafora v obraze. Na stole taky žádný koš, ať obraz nepřidává, co Star neměl. Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "xerox",
+      "diagram": "Vlevo obrazovka Staru se čtyřmi ikonami (THE SCREEN), rovnítko, vpravo kancelářský stůl se stejnými věcmi (AN OFFICE DESK). Štítek ON SALE 1981. Žádný koš.",
+      "pause": 0.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "xerox",
+      "diagram": "Ikona Staru s velkou ambrovou cenovkou MORE THAN $16,000 · PER WORKSTATION.",
+      "pause": 0.4
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Plat NEUVÁDĚT číslem (není ve scénáři ani factchecku) — jen poměr ‚víc než‘.",
+      "diagram_generator": "xerox",
+      "diagram": "Vlevo: cenovka $16,000+ proti ztlumenému pruhu A YEAR'S PAY FOR MANY (cenovka delší). Vpravo: síť — několik stanic Star propojených s tiskárnou a souborovým serverem, popisek SOLD TO OFFICES AS A WHOLE SYSTEM."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Ambrová = o tomhle je řeč, ne hodnocení.",
+      "diagram_generator": "xerox",
+      "diagram": "Dvě razítka pod sebou: ENORMOUSLY INFLUENTIAL (INK) a COMMERCIAL FAILURE (ambrově)."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Odpověď č. 2.",
+      "diagram_generator": "xerox",
+      "diagram": "OSA: horní pruh 1973 XEROX ambrově (FIRST WITH THE IDEAS). Dolní pruh: tenká krátká čára od 1981 OFFICES ONLY · $16,000+. Nadpis THE IDEAS — NOT THE PRICE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Přechod.",
+      "diagram_generator": "apple",
+      "diagram": "OSA: v horním pruhu se rozsvítí značka APPLE (zatím bez data, ztlumené 1984). Šipka od 1973 XEROX dál doprava."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Postavy přes postava(), ne portréty.",
+      "diagram_generator": "apple",
+      "diagram": "Budova s nápisem XEROX PARC, 1979. Zleva přichází skupina postav s popiskem STEVE JOBS + APPLE ENGINEERS."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "SMĚR ŠIPEK OVĚŘIT: Xerox dostal možnost KOUPIT akcie Apple — akcie jdou od Apple k Xeroxu; prohlídka jde od Apple do PARC.",
+      "diagram_generator": "apple",
+      "diagram": "Dvě krabice APPLE a XEROX. Šipka APPLE → PARC: A LOOK INSIDE. Šipka APPLE → XEROX: SHARES IN APPLE · BEFORE IT WENT PUBLIC."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Škrtá se nápis, ne šipka.",
+      "diagram_generator": "apple",
+      "diagram": "PARC → APPLE šipka PEOPLE HIRED FROM PARC. V krabici Apple kruhová šipka YEARS OF REWORKING. Nápis A SIMPLE COPY přeškrtnutý."
+    },
+    {
+      "id": "S30",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:Apple Lisa Computer.jpg (CC BY-SA 4.0): Lisa se zapnutou obrazovkou a myší. Pick 6 (CC0) je Lisa 2 z 1984, proto ne.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Apple Lisa",
+        "pick": 1
+      },
+      "pause": 0.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "",
+      "diagram_generator": "apple",
+      "diagram": "Ikona Lisy s cenovkou NEARLY $10,000 a razítkem FAILED TOO."
+    },
+    {
+      "id": "S32",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:Computer macintosh 128k, 1984 (CC BY 3.0): Mac s klávesnicí a myší na tmavém pozadí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Macintosh 128K",
+        "pick": 2
+      }
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Cenovky musí sedět se S31 a se scénářem.",
+      "diagram_generator": "apple",
+      "diagram": "Lisa a Mac vedle sebe ve správném poměru velikosti. Cenovky ≈ $10,000 a ≈ $2,500. Pod Macem malý rámeček obrazovky TV SUPER BOWL AD, 1984."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "apple",
+      "diagram": "Mac uvnitř obrysu domu. Nadpis THE GUI AS A CONSUMER PRODUCT.",
+      "pause": 0.5
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "",
+      "diagram_generator": "apple",
+      "diagram": "OSA: horní pruh 1984 APPLE MACINTOSH ambrově. Nahoře nápis SURELY APPLE?",
+      "pause": 1.0
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "",
+      "diagram_generator": "apple",
+      "diagram": "Mac a k němu jediná cesta: jediná šipka z krabice APPLE. Nadpis ONE CATCH."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "apple",
+      "diagram": "Krabice APPLE, uvnitř dvě menší: HARDWARE a SOFTWARE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Odpověď č. 3. Čára jednou tloušťkou — tloušťka by tvrdila tržní podíl. Pause 1.0: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "apple",
+      "diagram": "OSA: dolní pruh Apple — jedna čára od 1984 ONLY MACHINES APPLE MADE. Nadpis AS FAST AS APPLE COULD SELL IT.",
+      "pause": 1.0
+    },
+    {
+      "id": "S39",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "note": "Předěl: odbočka od GUI do roku 1980. Jediná sdxl scéna, daleko od začátku. Bez lidí (negativ v project.json). KOLO 2 (2026-10-01): kolo 1 bylo skoro fotorealistické a s plochým monitorem — uživatel chtěl méně fotorealismu a starší monitory. Prompt 'gouache painting… bulky beige CRT terminals', ze seedů 3911/3922/3933 vybrán 3922.",
+      "prompt": "gouache painting of an empty open-plan office in 1980, visible brush strokes, simplified shapes, bulky beige cathode ray tube computer terminals with deep boxy cases and chunky keyboards on wooden desks, green phosphor glow on the small curved screens, filing cabinets, venetian blinds, flat grey overcast light through windows, no people, no text",
+      "pause": 1.4,
+      "seed": 3922
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Čárkovaně = chybí/neznámé (konvence _kit.py).",
+      "diagram_generator": "ibm",
+      "diagram": "Krabice IBM, v ní obrys osobního počítače PERSONAL COMPUTER · 1980 a prázdné čárkované místo OPERATING SYSTEM?"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "",
+      "diagram_generator": "ibm",
+      "diagram": "Šipka od velké krabice IBM k malé krabici MICROSOFT. Velikost krabic = velikost firem tehdy."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Data podle factchecku. Jméno 86-DOS / SCP do obrazu nedávat, scénář ho neříká.",
+      "diagram_generator": "ibm",
+      "diagram": "MICROSOFT / NO OPERATING SYSTEM; řetěz AN EXISTING SYSTEM → LICENSED 1980 → BOUGHT 1981 → ADAPTED FOR IBM, nad prvním článkem FROM ANOTHER SEATTLE COMPANY."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "",
+      "diagram_generator": "ibm",
+      "diagram": "Obrys IBM PC, na obrazovce PC DOS."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Beat: zaostření na smlouvu.",
+      "diagram_generator": "ibm",
+      "diagram": "Týž obraz, vedle dokument IBM–MICROSOFT CONTRACT zvýrazněný ambrově."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Nevýhradní smlouva 1981 (factcheck). NEkreslit ‚prodej IBM a pak peníze z každého PC‘ — to jsou licence z konce 80. let, S73.",
+      "diagram_generator": "ibm",
+      "diagram": "Smlouva, od krabice MICROSOFT vedou šipky k několika krabicím OTHER MANUFACTURERS, smlouva je nezastaví. Štítek NOT EXCLUSIVE."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Beat téhož obrazu.",
+      "diagram_generator": "ibm",
+      "diagram": "Jeden systém se dělí: PC DOS → IBM, MS-DOS → OTHER MANUFACTURERS (prázdné krabice)."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "",
+      "diagram_generator": "ibm",
+      "diagram": "Týž obraz, krabice ostatních výrobců s otazníky. Nadpis WHO ELSE WOULD NEED IT?",
+      "pause": 1.4
+    },
+    {
+      "id": "S48",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:Ibm computer pc 5150 (6049156797).jpg (public domain), graf na zelené obrazovce. Původní volba File:IBM PC 5150.jpg zamítnuta: Commons nemá vyplněného autora (je jen v textu: Boffy b / Dpbsmith) a obrazovka podle popisu ukazuje MS-DOS 5.0 z roku 1991.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "IBM PC 5150",
+        "pick": 6
+      }
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Uživatel: obraz musí odlišit IBM BIOS. Podstatné je, že ho nesměli zkopírovat (v0.3), ne kdo ho napsal.",
+      "diagram_generator": "ibm",
+      "diagram": "Rozložené IBM PC: díly ztlumeně s popiskem PARTS ANYONE COULD BUY (procesor, paměť, mechaniky, karty). Jediný čip ambrově: IBM BIOS · IBM'S OWN CODE · COULDN'T LEGALLY BE COPIED."
+    },
+    {
+      "id": "S50",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S50.png",
+      "note": "KONTAKTNÍ LIST 2026-10-01, pick platí pro TENHLE dotaz: File:Compaq portable.jpg (public domain): původní Compaq Portable. Pick 0 je 486c, pozdější model.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Compaq Portable",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Požadavek uživatele: clean-room, NE ‚Compaq okopíroval IBM‘. Kontrola: žádná čára nesmí vést z IBM BIOS do COMPAQ BIOS.",
+      "diagram_generator": "ibm",
+      "diagram": "Vlevo čip IBM BIOS, vpravo čip COMPAQ BIOS · WRITTEN FROM SCRATCH. Mezi nimi zeď NO CODE COPIED — žádná šipka z jednoho do druhého. Nad oběma táž krabice SAME SOFTWARE se šipkami do obou čipů."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Compaq nebyl první klon (factcheck v0.3) — v řadě ho nedávat na začátek. Jiné značky nevymýšlet.",
+      "diagram_generator": "ibm",
+      "diagram": "Řada mnoha PC různých tvarů, každé s nepojmenovaným štítkem MAKER, Compaq mezi nimi (ne první v řadě). Nadpis DOZENS OF IBM-COMPATIBLE PCs."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Beat. Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "ibm",
+      "diagram": "Táž řada, nad ní tři štítky soupeření PRICE · SPEED · FEATURES.",
+      "pause": 0.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "‚almost all‘ — assert, že aspoň jedno PC je bez MS-DOS a většina s ním. Pause 0.6: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "ibm",
+      "diagram": "Táž řada, na téměř všech obrazovkách MS-DOS ambrově, jedno nebo dvě PC ztlumené bez nápisu.",
+      "pause": 0.6
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Klíčový obraz videa: distribuce dřív než nápad.",
+      "diagram_generator": "ibm",
+      "diagram": "OSA: dolní pruh Microsoft — čára od 1981 se větví do mnoha čar (IBM, COMPAQ, MANY MAKERS), horní pruh Microsoftu je do 1985 prázdný. Nadpis BEFORE WINDOWS ARRIVED."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Škrtá se nápis.",
+      "diagram_generator": "ibm",
+      "diagram": "Táž osa. Nápis A BETTER INTERFACE přeškrtnutý, pod ním ambrově A PLACE ON COMPUTERS IT DIDN'T MAKE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "SKUTEČNÝ SCREENSHOT z art/ (PUVOD.md): celý, neupravený, jen zvětšený, BEZ viněty — podmínky Microsoftu. Do popisu videa: „Used with permission from Microsoft.“",
+      "diagram_generator": "windows",
+      "diagram": "Screenshot Windows 1.01 (MS-DOS Executive) z art/, štítek 1985 · WINDOWS 1.0."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Beat.",
+      "diagram_generator": "windows",
+      "diagram": "Táž obrazovka ztlumená, štítek NOT VERY GOOD."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "windows",
+      "diagram": "Dlaždice obrysované ambrově s popiskem SIDE BY SIDE, LIKE TILES. Vedle malé schéma překrytých oken s nápisem OVERLAP přeškrtnutým.",
+      "pause": 0.5
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "",
+      "diagram_generator": "windows",
+      "diagram": "Vrstvy zdola: THE PC YOU ALREADY HAVE → DOS → WINDOWS. Vedle dvě fajfky NO NEW COMPUTER a YOUR OLD PROGRAMS STILL RUN."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "SKUTEČNÝ SCREENSHOT z art/ (PUVOD.md): celý, neupravený, jen zvětšený, BEZ viněty — podmínky Microsoftu. Do popisu videa: „Used with permission from Microsoft.“ Snímek naklikal uživatel.",
+      "diagram_generator": "windows",
+      "diagram": "Screenshot Windows/386 2.01 s překrývajícími se okny (Executive, Clock, Write) z art/, štítek 1987 · WINDOWS 2.0.",
+      "pause": 0.8
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Šipka žaloby od Apple k Microsoftu.",
+      "diagram_generator": "soud",
+      "diagram": "Dvě krabice APPLE a MICROSOFT proti sobě, mezi nimi 1988 · LAWSUIT."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "soud",
+      "diagram": "Schematická obrazovka Macu a schematická obrazovka Windows vedle sebe, nad oběma závorka LOOK AND FEEL.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Směr: licenci dává Apple Microsoftu.",
+      "diagram_generator": "soud",
+      "diagram": "Dokument 1985 AGREEMENT, šipka od APPLE k MICROSOFT: LICENCE TO USE PARTS OF THE MAC'S VISUAL DESIGN."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "DATA: 179 ze 189 prvků licencováno (factcheck, soudce Walker 1992) — počty ikon přesně v tom poměru nebo bez počtu; assert.",
+      "diagram_generator": "soud",
+      "diagram": "Sporné prvky (malé ikonky) roztříděné do dvou přihrádek: COVERED BY THE 1985 LICENCE (velká, většina) a COULDN'T BE PROTECTED (zbytek)."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "",
+      "diagram_generator": "soud",
+      "diagram": "Obrys okna s popiskem THE IDEA OF A WINDOW, vedle odemčený zámek NOBODY CAN OWN IT."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "",
+      "diagram_generator": "soud",
+      "diagram": "OSA: v horním pruhu závorka 1988–1994 LAWSUIT · SIX YEARS. Dolní pruh Microsoftu pod ní ambrově MEANWHILE…",
+      "pause": 2.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "SKUTEČNÝ SCREENSHOT z art/ (PUVOD.md): celý, neupravený, jen zvětšený, BEZ viněty — podmínky Microsoftu. Do popisu videa: „Used with permission from Microsoft.“",
+      "diagram_generator": "windows",
+      "diagram": "Screenshot Windows 3.0 (Program Manager) z art/, štítek 1990 · WINDOWS 3.0."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Řada PC sdílená se S52 (_kit.py).",
+      "diagram_generator": "windows",
+      "diagram": "Windows 3.0 nad řadou PC ze S52, všechna se rozsvítí. Popisek GOOD ENOUGH · RUNS ON PCs ALREADY OUT THERE."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "licence",
+      "diagram": "Továrna PC MAKER → nové PC s předinstalovanými WINDOWS → obchod. Štítek INSTALLED BEFORE SALE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Beat.",
+      "diagram_generator": "licence",
+      "diagram": "Týž obraz, cesta s Windows ambrově a široká, nápis THE EASY CHOICE."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Data: poplatek u VŠECH PC včetně těch s jiným systémem (DOJ CIS 94-1564). assert: počet poplatků = počet PC. ‚Under some of its licences‘ — ne všechny. Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "licence",
+      "diagram": "Továrna expeduje řadu PC s týmž procesorem (štítek SAME PROCESSOR). Většina má MS-DOS/WINDOWS, několik OTHER OS. Od KAŽDÉHO PC vede poplatek do krabice MICROSOFT. Nadpis PER-PROCESSOR LICENCE. Štítek SOME LICENCES, LATE 1980s–1994.",
+      "pause": 0.5
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "",
+      "diagram_generator": "licence",
+      "diagram": "Detail jednoho PC s OTHER OS: dva poplatky — MICROSOFT FEE a RIVAL'S FEE. Nadpis PAYING TWICE."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Souhlasná dohoda (consent decree), NE rozsudek. Nepsat ‚court ruled‘. Pause 0.6: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "licence",
+      "diagram": "1994 · U.S. GOVERNMENT → dokument, pod ním přeškrtnutý NÁPIS PER-PROCESSOR LICENCES; vpravo MICROSOFT AGREED TO STOP.",
+      "pause": 0.6
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Beat před výkladem smyčky.",
+      "diagram_generator": "smycka",
+      "diagram": "Kruh smyčky ztlumeně, už v pohybu (šipky po obvodu), bez popisků. Nadpis ALREADY RUNNING."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Táž geometrie kruhu ve S76–S80 (_kit.py).",
+      "diagram_generator": "smycka",
+      "diagram": "Polovina smyčky: SOFTWARE COMPANIES → PLATFORM WITH THE MOST USERS."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Druhá polovina: USERS → PLATFORM WITH THE MOST PROGRAMS. Smyčka uzavřena."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Pause 0.5: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "smycka",
+      "diagram": "Celá smyčka ambrově: MORE USERS → MORE PROGRAMS → MORE USERS, uprostřed WINDOWS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "",
+      "diagram_generator": "smycka",
+      "diagram": "Smyčka a mimo ni krabice ANYONE ELSE, její šipka dovnitř se odrazí. Nadpis HARD TO GET IN.",
+      "pause": 2.6
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "SKUTEČNÝ SCREENSHOT z art/ (PUVOD.md): celý, neupravený, jen zvětšený, BEZ viněty — podmínky Microsoftu. Do popisu videa: „Used with permission from Microsoft.“",
+      "diagram_generator": "w95",
+      "diagram": "Screenshot Windows 95 (plocha, hlavní panel) z art/, štítek 1995 · WINDOWS 95."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "SKUTEČNÝ SCREENSHOT z art/ (PUVOD.md): celý, neupravený, jen zvětšený, BEZ viněty — podmínky Microsoftu. Do popisu videa: „Used with permission from Microsoft.“",
+      "diagram_generator": "w95",
+      "diagram": "Screenshot Windows 95 s otevřeným Start menu vpravo, vlevo výčet A START BUTTON / A TASKBAR / LONG FILE NAMES. Žádné šipky přes snímek.",
+      "pause": 0.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Kresba místo sdxl — negativ projektu vylučuje lidi.",
+      "diagram_generator": "w95",
+      "diagram": "Fronta postav před osvětleným obchodem v noci, hodiny 00:00. Nadpis QUEUING AT MIDNIGHT."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Údaj Microsoftu — v obraze to musí být řečeno stejně jako ve voiceoveru.",
+      "diagram_generator": "w95",
+      "diagram": "Velké číslo 7,000,000 COPIES · FIRST FIVE WEEKS, pod ním menší ACCORDING TO MICROSOFT.",
+      "pause": 3.0
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "OSA celá ztlumeně, nahoře otázka HOW DID WINDOWS WIN WITHOUT INVENTING THE GUI?",
+      "pause": 1.4
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Výplata páteře 1/3. Pause 0.6: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "zaver",
+      "diagram": "OSA: v horním pruhu ambrově 1968 ENGELBART, 1970s XEROX, 1984 APPLE, Microsoft 1985 ztlumeně až za nimi. Nadpis NOT BY BEING FIRST.",
+      "pause": 0.6
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Táž osa, nad ní Mac a Windows vedle sebe, Mac výš. Nadpis NOT BY BEING THE BEST."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Začátek okna závěrečné obrazovky — horní polovina volná (zaver_check). Pause 0.4: další scéna pokračuje souvětím (pauzy_check).",
+      "diagram_generator": "zaver",
+      "diagram": "OSA: dolní pruh Microsoftu ambrově od 1981 s větvemi k mnoha výrobcům, závorka A DECADE ON OTHER PEOPLE'S COMPUTERS. Horní polovina obrazu PRÁZDNÁ.",
+      "pause": 0.4
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Výplata páteře: distribuce byla na místě dřív než poptávka. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "OSA: svislá ambrová čára v roce 1990 přes oba pruhy — nahoře GUI WANTED BY EVERYONE, dole MICROSOFT ALREADY THERE. Horní polovina obrazu PRÁZDNÁ."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Neříkat, že GUI vynalezl jeden subjekt — nesmí tam svítit jediná značka.",
+      "diagram_generator": "zaver",
+      "diagram": "OSA: horní pruh jako schodiště mnoha malých kroků 1968–1990, popisek BUILT IN STEPS, BY MANY PEOPLE. Horní polovina obrazu PRÁZDNÁ."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Závěrečná deska, smí se pohnout páteř (jediná výjimka). Horní polovina volná pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "OSA: oba pruhy, dolní ambrově plný až k pravému okraji, popisek THE IDEA → ONTO MOST DESKS. Horní polovina obrazu PRÁZDNÁ.",
+      "pause": 3.0
+    }
+  ]
+}

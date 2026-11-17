@@ -1,0 +1,641 @@
+1
+00:00:00,000 --> 00:00:04,720
+In July 1969, the rocket that carried
+the crew of the first Moon landing
+
+2
+00:00:04,950 --> 00:00:08,700
+weighed about two thousand
+nine hundred tonnes on the launch pad.
+
+3
+00:00:09,269 --> 00:00:13,689
+Eight days later, what came back to Earth
+was a capsule with three people inside.
+
+4
+00:00:14,409 --> 00:00:16,269
+It weighed just under five tonnes.
+
+5
+00:00:17,069 --> 00:00:20,549
+About one part in six hundred
+of that rocket came home.
+
+6
+00:00:21,129 --> 00:00:22,709
+So where did the rest go?
+
+7
+00:00:23,996 --> 00:00:28,076
+Most of it was propellant:
+fuel, and the oxygen to burn it.
+
+8
+00:00:28,716 --> 00:00:31,996
+More than two thousand tonnes of it
+burnt in under three minutes.
+
+9
+00:00:32,534 --> 00:00:34,394
+And here's the strange part.
+
+10
+00:00:35,034 --> 00:00:37,274
+Much of it wasn't there
+to lift the spacecraft.
+
+11
+00:00:38,014 --> 00:00:40,154
+It was there to lift more propellant.
+
+12
+00:00:40,734 --> 00:00:44,254
+To keep things simple,
+we'll call all of it fuel from here on.
+
+13
+00:00:46,774 --> 00:00:49,134
+Imagine you want a rocket to go faster.
+
+14
+00:00:49,814 --> 00:00:51,814
+The obvious answer is more fuel.
+
+15
+00:00:52,325 --> 00:00:53,825
+But fuel has mass.
+
+16
+00:00:54,305 --> 00:00:56,825
+Before the rocket can burn it,
+it has to carry it,
+
+17
+00:00:57,055 --> 00:00:59,305
+and speed it up along
+with everything else.
+
+18
+00:00:59,754 --> 00:01:02,494
+So the extra fuel needs fuel of its own.
+
+19
+00:01:02,754 --> 00:01:04,994
+And that fuel needs fuel too.
+
+20
+00:01:05,612 --> 00:01:08,132
+At some point, adding fuel
+stops solving the problem...
+
+21
+00:01:08,362 --> 00:01:10,652
+and starts becoming the problem.
+
+22
+00:01:13,222 --> 00:01:17,062
+This problem has an equation,
+and it's more than a century old.
+
+23
+00:01:17,734 --> 00:01:21,649
+In 1903, a schoolteacher
+from the Russian town of Kaluga,
+
+24
+00:01:21,879 --> 00:01:24,474
+Konstantin Tsiolkovsky,
+published the formula
+
+25
+00:01:24,704 --> 00:01:27,074
+that every rocket still has to obey.
+
+26
+00:01:27,750 --> 00:01:29,590
+He wasn't the first to do the maths.
+
+27
+00:01:30,510 --> 00:01:34,410
+In 1813, a British mathematician,
+William Moore, had worked out
+
+28
+00:01:34,640 --> 00:01:37,670
+how a rocket speeds up as it loses mass,
+for military rockets.
+
+29
+00:01:37,900 --> 00:01:42,350
+Tsiolkovsky used it to work
+out how we might reach space.
+
+30
+00:01:44,800 --> 00:01:46,060
+Here it is.
+
+31
+00:01:46,613 --> 00:01:50,813
+On the left is delta-v: the change
+in speed the rocket can achieve.
+
+32
+00:01:51,615 --> 00:01:53,895
+On the right, first, the exhaust speed.
+
+33
+00:01:54,815 --> 00:01:57,075
+A rocket has nothing to push against.
+
+34
+00:01:57,815 --> 00:02:01,435
+It moves by throwing mass backwards,
+and the faster it throws it,
+
+35
+00:02:01,515 --> 00:02:06,155
+the more momentum each kilogram carries
+off, and the more the rocket gets back.
+
+36
+00:02:06,577 --> 00:02:10,217
+Then the ratio of two masses:
+the rocket full of fuel at the start,
+
+37
+00:02:10,447 --> 00:02:12,637
+and what's left when the fuel is gone.
+
+38
+00:02:13,317 --> 00:02:15,577
+Engines, empty tanks, structure...
+
+39
+00:02:15,897 --> 00:02:18,257
+and the payload
+you actually wanted to send.
+
+40
+00:02:18,741 --> 00:02:21,521
+And wrapped around that ratio,
+a logarithm.
+
+41
+00:02:21,781 --> 00:02:24,241
+That's the part that makes it so hard.
+
+42
+00:02:25,761 --> 00:02:28,101
+Take two rockets with the same engine.
+
+43
+00:02:28,841 --> 00:02:32,601
+The first starts four times heavier
+than it will be with its tanks empty.
+
+44
+00:02:33,341 --> 00:02:35,441
+The second, eight times heavier.
+
+45
+00:02:36,059 --> 00:02:37,659
+Twice the mass ratio.
+
+46
+00:02:38,039 --> 00:02:39,779
+You'd expect twice the speed.
+
+47
+00:02:40,379 --> 00:02:42,439
+It gets about fifty percent more.
+
+48
+00:02:43,492 --> 00:02:48,012
+Double it again, from eight to sixteen,
+and you get only about a third more.
+
+49
+00:02:48,592 --> 00:02:52,692
+Every extra tonne of fuel buys less speed
+than the tonne before it.
+
+50
+00:02:53,211 --> 00:02:55,371
+Turn that around, and it looks worse.
+
+51
+00:02:56,451 --> 00:03:00,331
+Each extra kilometre per second
+doesn't add to the rocket's starting mass.
+
+52
+00:03:00,831 --> 00:03:02,351
+It multiplies it.
+
+53
+00:03:04,801 --> 00:03:07,021
+So how much speed does orbit take?
+
+54
+00:03:07,821 --> 00:03:10,121
+In low Earth orbit, a spacecraft travels
+
+55
+00:03:10,351 --> 00:03:13,621
+at about seven point eight kilometres
+per second, sideways.
+
+56
+00:03:14,499 --> 00:03:18,019
+On the way up, the rocket also fights
+gravity and the air.
+
+57
+00:03:18,519 --> 00:03:22,679
+Altogether, it needs around
+nine point four kilometres per second.
+
+58
+00:03:23,323 --> 00:03:27,623
+Now give it the best chemical engine,
+burning hydrogen and oxygen.
+
+59
+00:03:28,523 --> 00:03:32,343
+And let's be generous: assume
+it performs as it would in a vacuum,
+
+60
+00:03:32,423 --> 00:03:35,543
+with exhaust at four and a half
+kilometres per second.
+
+61
+00:03:36,178 --> 00:03:39,558
+Put those numbers into the equation,
+and the rocket has to start
+
+62
+00:03:39,788 --> 00:03:42,078
+about eight times heavier than it ends.
+
+63
+00:03:42,802 --> 00:03:45,062
+A hundred tonnes on the launch pad...
+
+64
+00:03:45,142 --> 00:03:48,102
+and only about twelve tonnes
+allowed to reach orbit.
+
+65
+00:03:48,629 --> 00:03:50,569
+And those twelve tonnes aren't payload.
+
+66
+00:03:51,409 --> 00:03:55,509
+They're the engines, the empty tanks,
+the whole structure that held the fuel.
+
+67
+00:03:56,089 --> 00:03:58,469
+Whatever's left after that
+is the satellite.
+
+68
+00:03:59,267 --> 00:04:01,887
+In real rockets, that leftover is small.
+
+69
+00:04:02,687 --> 00:04:06,367
+A Falcon 9 weighs about
+five hundred and fifty tonnes at launch.
+
+70
+00:04:07,247 --> 00:04:10,807
+Its maximum payload to low orbit
+is around twenty-three tonnes.
+
+71
+00:04:11,407 --> 00:04:13,267
+Up to about four percent.
+
+72
+00:04:14,369 --> 00:04:19,149
+So rockets that reach orbit shed
+stages or other hardware on the way up.
+
+73
+00:04:19,671 --> 00:04:22,351
+That's where the rest
+of the Saturn V went.
+
+74
+00:04:23,431 --> 00:04:27,991
+Its first stage burned for less than three
+minutes, then fell away into the Atlantic.
+
+75
+00:04:28,711 --> 00:04:31,491
+Five engines and enormous empty tanks...
+
+76
+00:04:31,651 --> 00:04:34,391
+that the rest of the flight
+no longer had to carry.
+
+77
+00:04:34,985 --> 00:04:38,485
+The second stage took it almost to orbit,
+and fell away too.
+
+78
+00:04:39,005 --> 00:04:43,545
+The third finished the job, and later
+pushed the spacecraft towards the Moon.
+
+79
+00:04:44,149 --> 00:04:48,129
+Each stage does part of the work,
+and then stops being dead weight.
+
+80
+00:04:48,949 --> 00:04:52,629
+The stages above it never have to carry
+its empty tanks and engines.
+
+81
+00:04:53,442 --> 00:04:55,102
+That's why so many rockets look like
+
+82
+00:04:55,332 --> 00:04:57,762
+several rockets stacked
+on top of each other.
+
+83
+00:04:58,302 --> 00:04:59,502
+They are.
+
+84
+00:05:00,097 --> 00:05:02,497
+But staging doesn't beat
+the rocket equation.
+
+85
+00:05:03,317 --> 00:05:05,517
+Every stage obeys it on its own.
+
+86
+00:05:06,017 --> 00:05:09,837
+It just stops us paying for the same
+empty tank over and over again.
+
+87
+00:05:12,317 --> 00:05:14,477
+Apollo kept doing it all the way.
+
+88
+00:05:14,877 --> 00:05:17,517
+The lander left its lower
+half on the Moon.
+
+89
+00:05:18,077 --> 00:05:22,377
+Its upper half brought the astronauts
+back up, and was cast off in lunar orbit.
+
+90
+00:05:23,105 --> 00:05:26,525
+The service module was dropped
+just before re-entry.
+
+91
+00:05:26,885 --> 00:05:29,785
+What came home was the one piece
+that had to.
+
+92
+00:05:31,965 --> 00:05:34,125
+So why not just build a better engine?
+
+93
+00:05:35,045 --> 00:05:37,325
+Remember the exhaust
+speed in the equation.
+
+94
+00:05:38,125 --> 00:05:40,925
+The faster the exhaust,
+the less fuel you need.
+
+95
+00:05:41,537 --> 00:05:44,077
+Chemical rockets can't go much faster.
+
+96
+00:05:44,757 --> 00:05:48,897
+Their exhaust speed is limited by the
+energy released in chemical reactions.
+
+97
+00:05:49,891 --> 00:05:53,151
+Ion engines throw their propellant out
+several times faster.
+
+98
+00:05:53,381 --> 00:05:56,971
+NASA's Dawn probe used them
+to change its own speed
+
+99
+00:05:57,201 --> 00:06:00,091
+by more than eleven kilometres per second.
+
+100
+00:06:00,541 --> 00:06:02,141
+But their push was tiny.
+
+101
+00:06:02,221 --> 00:06:05,821
+About the weight of a sheet of paper
+resting on your hand.
+
+102
+00:06:06,506 --> 00:06:10,826
+At full power, Dawn would have needed
+four days to reach sixty miles an hour.
+
+103
+00:06:11,606 --> 00:06:14,526
+An engine like that
+can't lift anything off the ground.
+
+104
+00:06:15,201 --> 00:06:17,481
+To leave the ground, you need brute force.
+
+105
+00:06:18,301 --> 00:06:20,781
+To travel efficiently,
+you need fast exhaust.
+
+106
+00:06:21,601 --> 00:06:24,021
+No engine we've ever flown
+is good at both.
+
+107
+00:06:26,791 --> 00:06:28,671
+Which leaves one more question.
+
+108
+00:06:29,391 --> 00:06:33,631
+We've been treating that nine point four
+kilometres per second as a fixed price.
+
+109
+00:06:33,711 --> 00:06:36,191
+But the price is set by Earth.
+
+110
+00:06:36,875 --> 00:06:38,855
+A heavier planet pulls harder.
+
+111
+00:06:39,415 --> 00:06:41,215
+Escaping it takes more speed...
+
+112
+00:06:41,555 --> 00:06:44,395
+and in the rocket equation,
+more speed doesn't add to the bill.
+
+113
+00:06:44,475 --> 00:06:45,955
+It multiplies it.
+
+114
+00:06:47,067 --> 00:06:50,087
+In 2018,
+the German researcher Michael Hippke
+
+115
+00:06:50,167 --> 00:06:54,347
+did the calculation
+for a rocky planet ten times Earth's mass,
+
+116
+00:06:54,587 --> 00:06:57,287
+and about one point seven times as wide.
+
+117
+00:06:57,979 --> 00:07:02,259
+To escape Earth, a rocket needs
+about eleven kilometres per second.
+
+118
+00:07:03,019 --> 00:07:04,779
+There, it would need about twenty-seven.
+
+119
+00:07:06,055 --> 00:07:08,615
+In his simplified single-stage rocket,
+
+120
+00:07:08,895 --> 00:07:10,755
+the mass ratio jumps from about twenty-six
+
+121
+00:07:10,835 --> 00:07:13,723
+to about two thousand seven hundred.
+
+122
+00:07:14,023 --> 00:07:16,123
+A mission like Apollo, he estimated,
+
+123
+00:07:16,583 --> 00:07:20,163
+would need a rocket of around
+four hundred thousand tonnes.
+
+124
+00:07:20,243 --> 00:07:22,823
+More than a hundred Saturn Vs.
+
+125
+00:07:24,001 --> 00:07:26,281
+His calculation suggests
+that chemical rockets
+
+126
+00:07:26,511 --> 00:07:29,001
+could still escape a planet like this.
+
+127
+00:07:29,821 --> 00:07:31,621
+But on heavier rocky worlds,
+
+128
+00:07:31,721 --> 00:07:35,121
+a chemical rocket's fuel needs
+could become prohibitive.
+
+129
+00:07:36,083 --> 00:07:38,003
+It works the other way, too.
+
+130
+00:07:38,503 --> 00:07:40,823
+Mars has about a tenth of Earth's mass.
+
+131
+00:07:41,523 --> 00:07:45,583
+To escape it, a rocket needs
+only about five kilometres per second.
+
+132
+00:07:46,210 --> 00:07:48,370
+In the same simplified calculation,
+
+133
+00:07:48,790 --> 00:07:52,290
+the mass ratio drops from about twenty-six
+to about four.
+
+134
+00:07:54,455 --> 00:07:57,075
+The rocket equation
+never forbids anything.
+
+135
+00:07:57,555 --> 00:07:59,135
+It only names the price.
+
+136
+00:08:01,235 --> 00:08:04,575
+On Earth, that price is a rocket
+that throws away almost all of itself
+
+137
+00:08:04,805 --> 00:08:07,095
+to bring one small capsule home.
+
+138
+00:08:07,755 --> 00:08:11,935
+On a heavier world, it might be a price
+nobody would ever choose to pay.
+
+139
+00:08:13,725 --> 00:08:15,625
+So here's a question for you.
+
+140
+00:08:16,085 --> 00:08:20,005
+Do you think intelligent life on a much
+heavier planet could ever reach space?
+
+141
+00:08:20,505 --> 00:08:22,075
+Let me know in the comments.

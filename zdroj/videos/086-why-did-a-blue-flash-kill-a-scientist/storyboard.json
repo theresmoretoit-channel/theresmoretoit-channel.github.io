@@ -1,0 +1,937 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První scéna nese myšlenku: nenápadná kovová koulička — to, co vypadá neškodně, je hlavní hrdina. Ne SDXL. Páteř se zavádí tady.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Jen koule jádra na stole, bez skořepin, kovově šedá, klidná. Žádný nápis kromě malého štítku nic. Tma kolem."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "‚No fire. No explosion. No warning siren.‘ Ikony neškrtat křížkem — ≠ jako ‚nic z toho tu není‘.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž koule; tři ztlumené ikony v řadě nad ní: plamen, výbuch, siréna, každá s ≠ (ne škrt). Modrý záblesk zatím ne — ten až S03."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Azurová (ZABLESK) je v celém videu vyhrazená JEN pro modrý záblesk. ‚Something has happened that you cannot see‘ — záblesk je jediné viditelné.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž koule, celé pozadí prozářené azurovým zábleskem (radiální přechod od koule), jinak nic."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Nejbližší postava = Slotin, ale bez jména (jméno až S05). Postavy z postava() v kitu, žádné tváře.",
+   "diagram_generator": "uvod",
+   "diagram": "Siluety: postava nejblíž kouli s rukou u ní, další postavy dál od stolu, ztlumené. Koule na pozici páteře.",
+   "pause": 0.4
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "‚Everyone runs for the door‘ — fact check: utekli sami, Slotin je nevyháněl, takže šipky nevycházejí od něj.",
+   "diagram_generator": "uvod",
+   "diagram": "Stejné rozvržení jako S04, ostatní postavy posunuté ke dveřím (šipky ke kraji obrazu), nejbližší zůstává. Nápis 9 DAYS LATER.",
+   "pause": 0.4
+  },
+  {
+   "id": "S06",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Portrét Slotina (LANL, PD) s popiskem LOUIS SLOTIN; jméno zazní na konci S05, ‚Demon Core‘ nad portrétem. Portrét: fit 0.84, žádný zoom.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Louis Slotin",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "pause": 0.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Dvě otázky videa. Konec úvodního bloku.",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule, nad ní dva otazníky: u koule ‚WHAT HAPPENED?‘ a u azurového kroužku ‚WHERE DID THE BLUE LIGHT COME FROM?‘",
+   "pause": 2.4
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Uvede dvojici varování. Žádné jméno, které ještě nezaznělo.",
+   "diagram_generator": "varovani",
+   "diagram": "Deska: nadpis HE HAD BEEN WARNED, pod ním dvě prázdná místa pro jména (vyplní S09, S10) ztlumeně."
+  },
+  {
+   "id": "S09",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Portrét Fermiho, PD. Text v obraze NESMÍ citovat ‚dead within a year‘ v uvozovkách — výrok je z druhé ruky (‚reportedly‘), obraz nesmí tvrdit víc než hlas. Jen jméno.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Enrico Fermi",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S10",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Feynmanova legitimace z Los Alamos, PD. Pozor: přirovnání se týkalo Frischova pokusu, ne Slotinova — žádný nápis ‚Slotin‘ v obraze.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Richard Feynman Los Alamos ID badge",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "pause": 0.4
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "‚Not experimental plutonium… a bomb core.‘ Ambrová = o tomhle je řeč.",
+   "diagram_generator": "varovani",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule jádra; vedle ztlumeně zkumavka/vzorek škrtnutý jako LAB SAMPLE (≠), nápis BOMB CORE ambrově u koule.",
+   "pause": 0.4
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "‚Made for the third atomic bomb.‘ NEPSAT Hiroshima/Nagasaki pod první dvě (Little Boy nebyl plutoniový — kresba by tvrdila, že všechny tři byly stejné jádra). Jen pořadí.",
+   "diagram_generator": "varovani",
+   "diagram": "Tři kolečka jader v řadě: první dvě ztlumená s popisky 1 a 2, třetí na pozici páteře ambrové s popiskem 3 — THIS ONE."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Zaučování nástupce, fact check OK (Hempelmann).",
+   "diagram_generator": "varovani",
+   "diagram": "Dvě postavy u stolu s koulí: Slotin (INK) a nástupce (MUTED) s popiskem SUCCESSOR. Jméno Graves NE (nezaznívá)."
+  },
+  {
+   "id": "S13b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13b.png",
+   "note": "Pokus improvizovaný, jako ukázka. Táž kompozice jako S13 (beat, ne nový obraz).",
+   "diagram_generator": "varovani",
+   "diagram": "Táž dvojice; nad nimi kalendářový lístek s nápisem NOT SCHEDULED a pod ním DEMONSTRATION."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Schválený postup = podložky. Čárkovaně = to, co tam mělo být a není (konvence).",
+   "diagram_generator": "varovani",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Sestava v řezu: spodní skořepina, koule, horní skořepina zvednutá na dvou podložkách (SPACERS); podložky pak přeškrtnuté jako ‚Slotin took them out‘ — ve stejné scéně dvě fáze nejde, proto: podložky ČÁRKOVANĚ (odstraněné) s popiskem SPACERS — REMOVED."
+  },
+  {
+   "id": "S14b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14b.png",
+   "note": "Šroubovák je od teď hlavní rekvizita; vždy ambrový, vždy stejný tvar (sroubovak() v kitu).",
+   "diagram_generator": "varovani",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž sestava, místo podložek šroubovák v mezeře, ambrový.",
+   "pause": 0.4
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Otázka, kterou blok končí. Předchozí scéna statická → CTA může dědit obraz.",
+   "diagram_generator": "varovani",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž sestava se šroubovákem, velký otazník nad ním.",
+   "pause": 1.0
+  },
+  {
+   "id": "S15b",
+   "source": "svg",
+   "visual": "images/S15.png",
+   "effect": "static",
+   "cta": true,
+   "note": "CTA podle docs/cta.md: za otázku se šroubovákem (~1:50), před fyzikální blok. Dědí obraz S15 (statický diagram).",
+   "pause": 2.2
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Řetěz zleva doprava. Počet neutronů na štěpení obrazový (3), nikde se nepíše — scénář číslo neříká.",
+   "diagram_generator": "fyzika",
+   "diagram": "Řetězová reakce: jedno jádro atomu (kolečko) → tři neutrony (tečky se šipkami) → tři další jádra štěpící se. Dvě generace, ne víc.",
+   "pause": 0.4
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "‚Self-sustaining… critical.‘ Stejná šířka generací = rovnováha.",
+   "diagram_generator": "fyzika",
+   "diagram": "Táž řada generací, každá generace stejně velká (1 → 1 → 1 … jako pás), nápis CRITICAL ambrově.",
+   "pause": 0.4
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "‚But if the number grows‘ — vpravo rychlý růst. Bez osy a bez čísel.",
+   "diagram_generator": "fyzika",
+   "diagram": "Dvě větve vedle sebe: vlevo generace se zužují do ničeho (DIES OUT, MUTED), vpravo se rozšiřují vějířem (GROWS, ambrově).",
+   "pause": 0.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S19.png",
+   "note": "Atmosféra Los Alamos, bez lidí (negativ). Ne skutečná konkrétní budova — malovaná ilustrace, otázka AI = ne. SDXL nebyl 2026-10-03 k dispozici → ChatGPT, původ v art/PUVOD.md.",
+   "diagram_generator": "obrazy",
+   "diagram": "Obraz z ChatGPT přes celý rám (art/S19.png), zadání v art/ZADANI.md. Původní prompt SDXL: 1940s wooden laboratory buildings on a high desert mesa at night, pine trees, distant mountains, a single lit window, flat cold moonlight, wide establishing shot"
+  },
+  {
+   "id": "S19b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19b.png",
+   "note": "Otázka diváka (v0.7, uživatel): nebylo to nebezpečné i bez šroubováku?",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava(), holá koule na stojánku (bez skořepin = bez reflektoru), velký ambrový otazník."
+  },
+  {
+   "id": "S19c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19c.png",
+   "note": "Bez reflektoru je jádro podkritické — neutrony unikají ven. Skořepiny se nekreslí, ty jsou reflektor.",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava(), holá koule, neutronové šipky ven z koule, žádná se nevrací."
+  },
+  {
+   "id": "S19d",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19d.png",
+   "note": "Alfa částice zastaví niklový povlak (dolet ~9 µm proti 127 µm, factcheck). Šipky alfa jsou INK (neviditelné záření), povlak ambrově = o tomhle je řeč.",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava(), holá koule, tenký kroužek povlaku NICKEL, krátké šipky alfa zevnitř končící na povlaku."
+  },
+  {
+   "id": "S19e",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19e.png",
+   "note": "Most k S20: nebezpečí = vracející se neutrony.",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava(), holá koule, šipky ven a ambrově zpět (bez vykresleného reflektoru — ten přijde v S20).",
+   "pause": 0.4
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Reflektor vrací neutrony. Odraz kreslit jako lomenou šipku ven a zpět.",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule jádra a kolem ní ztlumený rozpracovaný kruh reflektoru (BERYLLIUM); několik neutronových šipek vylétá z koule a odráží se zpět od reflektoru."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Zmenšená páteř se smí, tvar stejný (sestava(scale=)).",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Dva stavy vedle sebe ve zmenšené páteři: vlevo reflektor blízko (MORE REACTIVE, ambrově), vpravo daleko (LESS REACTIVE, MUTED).",
+   "pause": 0.4
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "‚Even a tiny gap made all the difference.‘ Konec bloku fyziky.",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Plná sestava: spodní a horní skořepina skoro uzavřené, mezi nimi úzká mezera zvýrazněná ambrově s popiskem A TINY GAP.",
+   "pause": 0.4
+  },
+  {
+   "id": "S22b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22b.png",
+   "note": "Proč ručně: spolehlivé dálkové ovládání tehdy nebylo (Hempelmann). Konec fyzikálního bloku.",
+   "diagram_generator": "fyzika",
+   "diagram": "PÁTEŘ sestava() s palcem v otvoru a mezerou; vlevo štítek NO REMOTE CONTROL YET.",
+   "pause": 2.4
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Datová deska; letopočet číslicí. Stejný typ desky se vrátí v S63–S64.",
+   "diagram_generator": "nehoda",
+   "diagram": "Datum MAY 21, 1946 velkým písmem, pod ním LOS ALAMOS."
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S24.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Dobová fotka laboratoře v Los Alamos, PD (LANL). Pozor, ať to není Trinity ani Hirošima.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Los Alamos laboratory 1946",
+    "pick": 1
+   }
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Geometrie podle fact checku: spodní ležela, horní spouštěl palcem levé ruky v otvoru na vrcholu.",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Řez sestavou: koule ve spodní skořepině na stole, horní skořepina nad ní, palec (zjednodušený obrys ruky) v otvoru na vrcholu."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Mezera je jediné, co dělí bezpečí od nehody.",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž sestava, horní skořepina těsně nad spodní, mezera s kótou.",
+   "pause": 0.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Šroubovák z sroubovak() — tentýž tvar jako S14b.",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž sestava, do mezery vsunutý ambrový šroubovák, rukojeť ven.",
+   "pause": 0.4
+  },
+  {
+   "id": "S28",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S28.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Rekonstrukce Slotinova pokusu (LANL, PD) — skutečná ruka se šroubovákem pod skořepinou. ‚Literally a screwdriver in Slotin's hand.‘ Pokud snímek na Commons není, kresba: ruka drží šroubovák. Pauza 1,0 před „Then— the screwdriver slipped.“ je záměrný beat.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Tickling the Dragons Tail",
+    "pick": 0
+   },
+   "pause": 1.0
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "‚Then— the screwdriver slipped.‘ Beat; obraz se mění jen v šroubováku.",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Táž sestava jako S27, šroubovák vychýlený/vyklouznutý (pootočený, pohybové čárky).",
+   "pause": 0.4
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Uzavřená sestava. Stejné souřadnice — divák vidí jen zmizení mezery.",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Horní skořepina dosedla, mezera nulová, šroubovák pod úhlem mimo."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Fact check: ‚supercritical‘ v S31 OK (prompt critical je podmnožina).",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Uzavřená sestava, nápis SUPERCRITICAL nad ní ambrově.",
+   "pause": 0.4
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Záblesk se vrací — callback S03, stejný přechod (zablesk() v kitu).",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Uzavřená sestava a azurový záblesk přes celý obraz (týž přechod jako S03)."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "‚Flipped the upper shell off.‘ Ne ‚odhodil vybavení‘ přes celou místnost.",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Horní skořepina odklopená stranou (na stole vedle), koule ve spodní, záblesk zmizel."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Konec bloku nehody.",
+   "diagram_generator": "nehoda",
+   "diagram": "Časová osa: dlouhý pás, na něm nepatrný azurový výsek s popiskem A FRACTION OF A SECOND.",
+   "pause": 2.6
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "‚No nuclear explosion.‘ ≠, ne škrt přes hřib.",
+   "diagram_generator": "nehoda",
+   "diagram": "Dvě kolonky: vlevo atomový hřib (MUTED) s ≠, vpravo sestava s vlnovkami záření.",
+   "pause": 0.4
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Záření neviditelné — vlny tenké, ne azurové (azurová jen pro viditelný záblesk).",
+   "diagram_generator": "nehoda",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Sestava, kolem ní soustředné vlny záření (INK), žádný oheň."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "‚Faster than any human could react‘ — kresba nesmí uvádět čísla, scénář je neříká.",
+   "diagram_generator": "nehoda",
+   "diagram": "Táž časová osa jako S34, nad výsekem šipka rychlosti a vedle ruka/reakční doba lidského oka jako delší úsek (HUMAN REACTION).",
+   "pause": 0.4
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Fact check: v místnosti bylo osm lidí (Slotin + sedm). Počet teček = 8 (assert). Půdorys se vrátí v S42b.",
+   "diagram_generator": "nehoda",
+   "diagram": "Půdorys místnosti: stůl se sestavou, osm teček-lidí v různé vzdálenosti.",
+   "pause": 0.4
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Dávka klesá se vzdáleností.",
+   "diagram_generator": "nehoda",
+   "diagram": "Týž půdorys, tečka nejblíž stolu ambrová (SLOTIN), soustředné kruhy dávky od stolu."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Žádná čísla dávek — scénář je neříká.",
+   "diagram_generator": "nehoda",
+   "diagram": "Týž půdorys, ostatní tečky v ztlumených vzdálenějších kruzích."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Beat.",
+   "diagram_generator": "nehoda",
+   "diagram": "Týž půdorys, ambrová tečka Slotin zvýrazněná."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Doložený výrok (Schreiber 1993). Jméno nepsat, scénář ho neříká.",
+   "diagram_generator": "nehoda",
+   "diagram": "Citace v uvozovkách: \"HE KNEW HE HAD HAD IT AT THAT TIME.\" a pod ní — A COLLEAGUE IN THE ROOM."
+  },
+  {
+   "id": "S42b",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S42b.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03. Plánek ze zprávy o nehodě (PD, LANL): osm lidí se vzdálenostmi od stolu — vznikl z polohy lidí, kterou Slotin po nehodě zakreslil; NENÍ to jeho ruční skica (ta na Commons není, ‚Slotin criticality drawing‘ je pozdější překreslení). Voiceover netvrdí, že je to ta skica, takže sedí.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Slotin accident sketch",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Konec bloku.",
+   "diagram_generator": "nehoda",
+   "diagram": "Silueta postavy (Slotin) MUTED, nad ní nápis 9 DAYS.",
+   "pause": 2.4
+  },
+  {
+   "id": "S44",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S44.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Modrá záře v reaktoru ATR (INL, PD). ‚The flash looked like Cherenkov radiation.‘ Grade bez tintu — barva je funkce scény (docs/archiv-a-licence.md).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Advanced Test Reactor core Cherenkov",
+    "pick": 1,
+    "grade": {
+     "saturation": 100,
+     "tint_amount": 0
+    }
+   },
+   "pause": 0.4
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Čerenkov ve vodě je SKUTEČNÉ modré světlo — tady azurová smí (viditelné světlo).",
+   "diagram_generator": "zablesk",
+   "diagram": "Řez bazénem reaktoru: palivové tyče pod vodou, azurová záře kolem nich, popisek WATER."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Princip Čerenkova. Kužel kreslit správně: vlnoplochy kruhy, částice před nimi.",
+   "diagram_generator": "zablesk",
+   "diagram": "Částice (tečka) letí doleva → doprava rychleji než vlnoplochy světla v materiálu; kužel (Machův) za ní, popisky PARTICLE a LIGHT IN WATER.",
+   "pause": 0.4
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "‚But there was a problem. This happened in air.‘",
+   "diagram_generator": "zablesk",
+   "diagram": "Táž kresba, ale prostředí změněné na AIR (bez vody), částice zaostává za vlnoplochami, kužel chybí.",
+   "pause": 0.4
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Rozdíl je 0,03 % — ve skutečném měřítku neviditelný, proto stejné délky. Kresba nesmí rozdíl přehánět.",
+   "diagram_generator": "zablesk",
+   "diagram": "Dva pruhy rychlosti LIGHT IN A VACUUM a LIGHT IN AIR stejně dlouhé, popisek ALMOST THE SAME."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Excitovaný vzduch vyzařuje. Fact check: dusík, Hempelmann ‚ionized air‘.",
+   "diagram_generator": "zablesk",
+   "diagram": "Molekuly vzduchu (dvojice teček N–N) kolem sestavy, některé azurově svítí.",
+   "pause": 0.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "‚The blue flash wasn't the thing that killed Slotin.‘ Žádná lebka ani symbol radiace.",
+   "diagram_generator": "zablesk",
+   "diagram": "Sestava; azurový kroužek záblesku ≠ tenké neviditelné vlny záření (INK), které vedou k ambrové siluetě.",
+   "pause": 0.4
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Klíčová věta videa. Vizuál = viditelná stopa něčeho neviditelného.",
+   "diagram_generator": "zablesk",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Sestava: neviditelné vlny záření tence (INK) a malý azurový kroužek jako jediná viditelná stopa, popisek THE WARNING.",
+   "pause": 2.8
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S52.png",
+   "note": "Nemocnice bez lidí. Atmosféra. SDXL nebyl 2026-10-03 k dispozici → ChatGPT, původ v art/PUVOD.md.",
+   "pause": 0.4,
+   "diagram_generator": "obrazy",
+   "diagram": "Obraz z ChatGPT přes celý rám (art/S52.png), zadání v art/ZADANI.md. Původní prompt SDXL: an empty 1940s hospital corridor at night, metal hospital beds, a single lamp, long shadows, flat cold light"
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "‚Fatally damaged cells‘ — fact check: ne zničené všude, dávka nerovnoměrná; vyhaslé tečky proto víc vlevo a na rukou.",
+   "diagram_generator": "nemocnice",
+   "diagram": "Jednoduchá silueta těla, uvnitř tečky buněk, část z nich ztlumená/vyhaslá (ne všechny)."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S54.png",
+   "note": "Bez lidí. SDXL nebyl 2026-10-03 k dispozici → ChatGPT, původ v art/PUVOD.md.",
+   "diagram_generator": "obrazy",
+   "diagram": "Obraz z ChatGPT přes celý rám (art/S54.png), zadání v art/ZADANI.md. Původní prompt SDXL: a hospital window at night, 1940s, rain on the glass, distant desert lights, an empty bedside chair, flat cold light"
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Rok narození fact check OK (1. 12. 1910).",
+   "diagram_generator": "nemocnice",
+   "diagram": "Deska: LOUIS SLOTIN 1910–1946 ztlumeně a vedle 9 DAYS.",
+   "pause": 2.8
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "v0.7: „And this wasn't even the first time.\" místo „Wait.\" (af_heart ho četla stoupavě). Odhalení. Návrat koule na páteřní pozici.",
+   "diagram_generator": "daghlian",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule jádra sama, nad ní nápis NOT THE FIRST TIME.",
+   "pause": 0.4
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Táž koule — tentýž objekt.",
+   "diagram_generator": "daghlian",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule, vedle ní dvě čárky jako zářezy (1 již dříve)."
+  },
+  {
+   "id": "S58",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Portrét Daghliana (LANL, PD).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Harry Daghlian",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S59",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S59.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03 (pořadí Commons se mění — evidence je .orig + SHA-256). Rekonstrukce Daghlianovy sestavy z wolframkarbidových cihel (LANL, PD). Když chybí, kresba: koule obložená cihlami.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Daghlian tungsten carbide",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "‚Slipped from his hand and fell onto the assembly.‘ Fact check: cihla vyklouzla a dopadla na sestavu.",
+   "diagram_generator": "daghlian",
+   "diagram": "Koule obložená cihlami (WC), jedna cihla padající shora na sestavu."
+  },
+  {
+   "id": "S60b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60b.png",
+   "note": "Doklad, že světlo bylo ve vzduchu. Strážný ZÁDY (šipka pohledu od stolu). Vzdálenost kótou nepsat — scénář říká ‚a few metres‘.",
+   "diagram_generator": "daghlian",
+   "diagram": "Půdorys: stůl s cihlovou sestavou, strážný zády ke stolu ve 3–4 m, noviny v jeho rukou azurově osvětlené."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "",
+   "diagram_generator": "daghlian",
+   "diagram": "Táž cihlová sestava, cihla odebraná stranou.",
+   "pause": 0.4
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Rytmus s S43 (9 DAYS) — stejná kompozice.",
+   "diagram_generator": "daghlian",
+   "diagram": "Silueta MUTED, nápis 25 DAYS.",
+   "pause": 2.2
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "",
+   "diagram_generator": "daghlian",
+   "diagram": "Dvě datové desky vedle sebe (týž typ jako S23): 21 · AUG 1945 a 21 · MAY 1946, číslo 21 ambrově v obou."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Beat, stejný obraz se změnou zvýraznění.",
+   "diagram_generator": "daghlian",
+   "diagram": "Táž deska, zvýrazněné měsíce/roky."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Ambrová zhasne: náhoda nic neznamená.",
+   "diagram_generator": "daghlian",
+   "diagram": "Táž deska, číslo 21 zpět do INK (ztlumení ambry) — ‚meant nothing scientifically‘.",
+   "pause": 1.2
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Čárkovaně = ještě ne. Škrt by tvrdil, že se tak nejmenovalo nikdy.",
+   "diagram_generator": "daghlian",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule, popisek DEMON CORE čárkovaně (jméno ještě neexistuje), pod ním 1946."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Jméno přišlo později, po dvou nehodách.",
+   "diagram_generator": "daghlian",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule s plným nápisem DEMON CORE a dvěma zářezy."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "",
+   "diagram_generator": "daghlian",
+   "diagram": "Tři řádky textu pod sebou: ONE CORE · TWO SCIENTISTS · TWO ACCIDENTS, vedle koule a dvě siluety.",
+   "pause": 0.4
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Konec bloku.",
+   "diagram_generator": "daghlian",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule a dva malé azurové kroužky (dva záblesky) s popiskem TOO LATE.",
+   "pause": 2.4
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S70.png",
+   "note": "Prázdná laboratoř bez lidí — konec jedné éry. Atmosféra. SDXL nebyl 2026-10-03 k dispozici → ChatGPT, původ v art/PUVOD.md.",
+   "diagram_generator": "obrazy",
+   "diagram": "Obraz z ChatGPT přes celý rám (art/S70.png), zadání v art/ZADANI.md. Původní prompt SDXL: an empty 1940s physics laboratory at night, a bare metal table, scattered instruments, a covered window, flat cold light"
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "Škrtá se celý postup — scénář to popírá naplno.",
+   "diagram_generator": "dopad",
+   "diagram": "Ruka u sestavy přeškrtnutá (celý piktogram, ne text) a nápis HANDS-ON: BANNED."
+  },
+  {
+   "id": "S71b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71b.png",
+   "note": "Commons fotku budovy Kiva nemá. Fact check: čtvrt míle (402 m), televizní kamery, od dubna 1947 (‚eventually‘).",
+   "diagram_generator": "dopad",
+   "diagram": "Půdorys: řídicí budova vlevo s televizní obrazovkou, vpravo budova se sestavou, mezi nimi kóta ABOUT 400 M."
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "‚Much more cautious‘ — obecné, bez čísel.",
+   "diagram_generator": "dopad",
+   "diagram": "Řada opatření: vzdálenost, štít, obrazovka — jednoduché ikony."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "Callback S12. Kandidát na sloučení se S74 (notes) — rozhodnout po draftu.",
+   "diagram_generator": "dopad",
+   "diagram": "Tři jádra jako S12, třetí ambrové.",
+   "pause": 0.4
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "",
+   "diagram_generator": "dopad",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule s vlnami radioaktivity, popisek TOO RADIOACTIVE."
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "Fotka Bakeru by k větě ‚that test was cancelled‘ tvrdila opak (vypadá, že test proběhl). Jádro se Able ani Baker neúčastnilo (fact check).",
+   "diagram_generator": "dopad",
+   "diagram": "Tři štítky testů Operation Crossroads, Bikini 1946: ABLE, BAKER (ztlumeně, proběhly) a CHARLIE ambrově přeškrtnutý jednou čarou s popiskem CANCELLED; koule jádra u CHARLIE."
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "Konec ruční éry.",
+   "diagram_generator": "dopad",
+   "diagram": "Ruka u sestavy MUTED, mizící (průhlednost klesá)."
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "note": "Přetavení; datum nepsat (fact check: nejisté).",
+   "diagram_generator": "dopad",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Koule se rozpouští dolů do kelímku (kapky), MUTED.",
+   "pause": 0.4
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "note": "‚The sphere no longer exists.‘ Čárkovaně = už není.",
+   "diagram_generator": "dopad",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Prázdné místo na pozici páteře — jen čárkovaný obrys koule.",
+   "pause": 2.4
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "note": "Callback. Páteř se smí pohnout jen v závěru. Horní polovina volná (závěrečná obrazovka).",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Sestava a azurový záblesk (jako S32), ale celá kompozice posunutá do DOLNÍ poloviny."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "note": "Callback S02. Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: ikony výbuchu a plamene s ≠ (jako S02)."
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "note": "Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: azurový kroužek ≠ neviditelné vlny (jako S50)."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "note": "Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Dolní polovina: neviditelné vlny a azurová stopa (jako S51).",
+   "pause": 1.2
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "note": "Poslední obraz = šroubovák. Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ sestava() z _kit.py, pevné souřadnice. Dolní polovina: sestava se šroubovákem v mezeře (jako S27), mezera s kótou A FEW MILLIMETRES.",
+   "pause": 3.0
+  }
+ ]
+}

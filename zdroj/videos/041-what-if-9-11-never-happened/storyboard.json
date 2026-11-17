@@ -1,0 +1,670 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Otvírák. Nejobyčejnější možné ráno — celé video stojí na tom, že se NIC nestalo. Televize je vidět ZBOKU a bez obsahu obrazovky (ta je v negativu), takže se divák nemá čeho chytit. Jediná scéna s nájezdem v úvodu.",
+      "prompt": "an ordinary empty living room early in the morning, a switched-on television seen from the side, a chair, a cup on the table, pale light through a window, nobody present, flat grey overcast sky outside, no text"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Scéna mluví o TŘECH NEGACÍCH, takže obraz musí ukázat nepřítomnost, ne událost. Tady se poprvé objeví páteř. PÁTEŘ: vodorovná osa dějin v y=740 a svislá ambrová značka toho rána v x=1280. Obojí kreslí _kit.osa() a _kit.znacka(), nikdy ručně — kdyby se mezi scénami pohnuly, výplata v S64 se nepozná. Vědomě se tu NEKRESLÍ letadla ani věže — zadání zní, že video nesmí vypadat jako video o katastrofě.",
+      "diagram_generator": "osa",
+      "diagram": "Vodorovná osa dějin, na ní tři tiché šedé body s popisky World Trade Center / Pentagon / Pennsylvania. Žádná událost, žádná ambrová. Body jsou stejně velké jako kterýkoli jiný den."
+    },
+    {
+      "id": "S03",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "„New York looks completely normal.“ Obyčejná ulice. Statická schválně — je to obraz normálnosti, a pohyb by z toho udělal předěl.",
+      "prompt": "an ordinary quiet city street on a weekday morning, parked cars, a shop front, a few distant figures walking, flat grey overcast sky, no sun, no text"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Tady se páteř ukotví nadobro: značka rána vlevo, dnešek vpravo. PÁTEŘ: vodorovná osa dějin v y=740 a svislá ambrová značka toho rána v x=1280. Obojí kreslí _kit.osa() a _kit.znacka(), nikdy ručně — kdyby se mezi scénami pohnuly, výplata v S64 se nepozná.",
+      "diagram_generator": "osa",
+      "diagram": "Osa dějin. Ambrová svislá značka toho rána vlevo, od ní šipka doprava k popisku „twenty twenty-six“ na pravém konci osy."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "„…where September the eleventh never happened.“ Jediná změna proti S04 je, že značka zmizí a čára projde. To je celý tvar videa v jednom obraze — vrátí se v S59 a v S65.",
+      "diagram_generator": "osa",
+      "diagram": "Táž osa, ale ambrová značka zeslábne do ztracena a čára pokračuje skrz ni nepřerušeně dál doprava."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Otázka videa. Konvence, která platí celým videem: PLNÁ = doloženo, ČÁRKOVANÁ = hypotéza. Ambrová znamená „o tomhle je řeč“, ne „ta dobrá“.",
+      "diagram_generator": "osa",
+      "diagram": "Od značky rána se doprava rozbíhá svazek tenkých větví, všechny končí u dneška. Jedna je plná a ambrová (naše), ostatní čárkované a ztlumené.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Škrtá se NÁPIS, takže vodorovná čára přes text (text_skrtnuty), ne křížek — pod křížkem by nápis nešel přečíst a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Osa, kousek vpravo od značky rána bod „October two thousand and one — invasion of Afghanistan“, přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Dvě tvrzení v jedné scéně, obě doložená ve factchecku: Tálibán držel před invazí 90–95 % území, bin Ládin byl obviněn 4. 11. 1998 a na seznamu FBI od 7. 6. 1999. Letopočet u štítku je nosný — je to první doklad toho, že leccos běželo UŽ PŘED značkou. Commons plakát FBI nemá (hledáno, nula výsledků), proto kresba.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Mapa Afghánistánu rozdělená na ambrovou část 90 % (Tálibán) a ztlumených 10 % na severovýchodě (Severní aliance). Vedle menší štítek „wanted by the United States — since nineteen ninety-nine“."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Rozsah, ne podívaná. Zadání: video nesmí vypadat jako video o katastrofě ani o válce.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Za značkou rána vyroste na ose široký plný blok s popiskem „the military campaign“. Žádné zbraně, žádné postavy."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "ZÁMĚRNĚ BEZ ČÍSEL. Scénář tu čísla nemá, protože se ukázala jako nedoložitelná (viz factcheck, věta o afghánských obětech). Obraz nesmí tvrdit víc než scénář — kdyby tu byl graf, vyrobí tvrzení, které text vědomě neudělal.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Týž blok, pod ním dva ztlumené štítky: „soldiers sent“ a „a very different human toll“. Bez čísel."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Křížek je tu v pořádku — škrtá se PLOCHA bez písma, ne nápis.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Velká zahnutá šipka zpět (symbol „zpět“/undo) přeškrtnutá křížkem."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "První velká výplata páteře: věci, které už existovaly, leží VLEVO od značky. Divák to pochopí bez vysvětlení, protože osu zná od S02.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Osa. VLEVO od značky rána tři plné ambrové body: „Al-Qaeda“, „Taliban shelters bin Laden“, „an unstable region“."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "„Removing it doesn't mean terrorism disappears. It means one particular chain of events never begins.“ Pozor: zmizet smí JEN jeden řetěz. Kdyby zhaslo všechno, obraz tvrdí opak věty.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Značka rána zmizí. Jeden řetěz navazujících bodů vpravo zešedne a rozpadne se; tři body vlevo a ostatní řetězy zůstanou plné."
+    },
+    {
+      "id": "S13b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13b.png",
+      "note": "Beat. Jeden obraz, mění se jediná věc — ne nový obrázek.",
+      "diagram_generator": "afghanistan",
+      "diagram": "Týž obraz, jediná změna: ten rozpadlý řetěz se obtáhne ambrově a dostane popisek „one chain“.",
+      "pause": 2.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Čárkovaná od začátku, protože přímá souvislost doložená není. Konvence z S06 tu nese celé tvrzení.",
+      "diagram_generator": "irak",
+      "diagram": "Osa, vpravo bod „two thousand and three — Iraq“. Od značky rána k němu vede ČÁRKOVANÁ čára s otazníkem."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Rozdíl, na kterém scéna stojí: přímá odpovědnost NE (škrt), změněné prostředí ANO (pole). Factcheck: Komise pro 11. září neshledala operativní vztah Iráku a al-Káidy.",
+      "diagram_generator": "irak",
+      "diagram": "Táž čárkovaná čára přeškrtnutá. Pod ní se rozprostře široké ztlumené pole „the political environment“, které oba body obsahuje."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Velikost sama nese tvrzení „největší“. VĚDOMĚ BEZ POČTU OBĚTÍ — počet přijde až v S49, kde je pointou. Kdyby byl tady, vystřílí se dřív.",
+      "diagram_generator": "irak",
+      "diagram": "Na ose jediná velmi vysoká ambrová svislice u značky rána, kolem ní nízké šedé svislice ostatních let. Popisek „the largest in the country's history“. Žádná čísla obětí."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Text_skrtnuty, ne skrt_text — ta kreslí jen čáru a nechala by holou čárku bez nápisu.",
+      "diagram_generator": "irak",
+      "diagram": "Nápis „hypothetical“ přeškrtnutý vodorovnou čarou."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Otázka scény.",
+      "diagram_generator": "irak",
+      "diagram": "Osa s bodem Iráku, na místě spojnice velký otazník."
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18b.png",
+      "note": "Beat „Maybe. Maybe not.“ Obě větve MUSÍ být stejné — kdyby byla jedna silnější, obraz odpoví na otázku, na kterou scénář odpovědět odmítá.",
+      "diagram_generator": "irak",
+      "diagram": "Týž obraz; z otazníku vyrostou dvě stejně silné čárkované větve, ani jedna zvýrazněná."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Druhá výplata páteře, týž tvar jako S12. Iraq Liberation Act se ve scénáři NEJMENUJE (uživatel to zvážil a zamítl), ale v obraze jako popisek bodu unese doložený letopočet, aniž by ho vypravěč musel vyslovit.",
+      "diagram_generator": "irak",
+      "diagram": "Osa. Vlevo od značky rána dva plné body: „Iraq Liberation Act, nineteen ninety-eight“ a „concerns about Saddam Hussein“."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Třetí bod vlevo od značky uzavírá důkaz, že v Iráku běželo ledacos už před rokem 2001. Posun krajiny vpravo je ta druhá půlka věty („a different political landscape“) a musí být vidět jako posun TÉHOŽ, ne jako nová kresba.",
+      "diagram_generator": "irak",
+      "diagram": "Vlevo přibude třetí bod „voices in Washington“. Vpravo se celá krajina bodů ztlumí a posune — „a different political landscape“."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Postupné změkčování jistoty. Plná → čárkovaná je celovideová konvence.",
+      "diagram_generator": "irak",
+      "diagram": "Řetěz invaze → okupace → povstání. První článek zůstane plný, další dva se postupně změní na čárkované."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "KRITICKÉ. Šipka z invaze do Islámského státu by tvrdila „invaze ho vytvořila“, což je podle factchecku nepravda — Zarkávího skupina vznikla už 1999. Scénář říká „helped create the environment in which it emerged“ a obraz to musí říct stejně opatrně: bod leží V poli, nic na něj nemíří. Tohle je přesně ta scéna, kde by kresba mohla tvrdit víc než text.",
+      "diagram_generator": "irak",
+      "diagram": "Široké čárkované pole s popiskem „the environment“, uvnitř pole bod „Islamic State“. ŽÁDNÁ šipka z invaze do toho bodu."
+    },
+    {
+      "id": "S22b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22b.png",
+      "note": "Beat.",
+      "diagram_generator": "irak",
+      "diagram": "Týž obraz, jediná změna: slovo „Perhaps“ se zvětší a zambrovatí."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Doslovný obraz věty. Je to zabudované přiznání nejistoty a podle factchecku se při škrtání nesmí obětovat.",
+      "diagram_generator": "irak",
+      "diagram": "Okno do zdi, za ním jiný svět — celé přeškrtnuté. Vedle ambrový popisek „an educated guess“.",
+      "pause": 2.6
+    },
+    {
+      "id": "S24",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S24.png",
+      "note": "Předěl do druhé části. Nájezd, protože se scéna otevírá do nového prostoru.",
+      "prompt": "an ordinary airport terminal concourse seen from a distance, rows of empty seats, large windows with flat grey overcast daylight, a few small distant figures, calm and uneventful, no text"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Klidná řada kroků, schválně krátká — je to jen příprava na beat S25b, ve kterém se jediná věc změní.",
+      "diagram_generator": "letiste",
+      "diagram": "Vodorovná řada kroků kontroly: check in → queue → screening → gate. Klidná, krátká."
+    },
+    {
+      "id": "S25b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25b.png",
+      "note": "Beat „But probably not this annoying.“ Mění se jediná věc.",
+      "diagram_generator": "letiste",
+      "diagram": "Týž obraz, jediná změna: fronta mezi kroky se několikanásobně prodlouží."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Doloženo ve factchecku: směrnice FAA zakazovaly čepele od čtyř palců výš, oborová příručka nože pod čtyři palce výslovně připouštěla. Letopočet v obraze je nutný, jinak by diagram tvrdil, že to platí dnes.",
+      "diagram_generator": "letiste",
+      "diagram": "Nůž s popiskem délky čepele a dvě pásma: „under four inches — permitted“ (ambrové) a „four inches and over — prohibited“ (ztlumené). Pod tím letopočet „before two thousand and one“."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Tvar, ne fotka. Doklad je v datu: standard FAA z 11. 1. 2002, instalace do 9. 4. 2003.",
+      "diagram_generator": "letiste",
+      "diagram": "Řez dveřmi kokpitu ve dvou stavech vedle sebe: tenká linka „before“ a silná linka „after two thousand and two“."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "„The enormous security infrastructure.“ Rozsah nese opakování, ne detail.",
+      "diagram_generator": "letiste",
+      "diagram": "Z jednoho kroku kontroly z S25 vyroste celá stavba vrstev — pruh za pruhem, s popisky. Působivá hromada."
+    },
+    {
+      "id": "S28b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28b.png",
+      "diagram_generator": "letiste",
+      "diagram": "Osa. VLEVO od značky rána prázdný rámeček kreslený POUZE OBRYSEM s popiskem „Transportation Security Administration“ — nic v něm není. Kousek VPRAVO od značky týž rámeček, už vyplněný, s datem „nineteen November, two thousand and one“ a drobným popiskem „two months and eight days later“.",
+      "note": "ARCHIV ZAMÍTNUT PO KONTAKTNÍM LISTU, ne od stolu. Commons na dotaz „Aviation and Transportation Security Act“ vrátil čtyři použitelné nálezy a ani jeden neprošel:\n  [0] Boxerová na tiskovce, 133x99 — nepoužitelně malé;\n  [1] Bush mluví před podpisem ATSA, 600x420;\n  [4] samotný podpis, 340x226;\n  [5] emblém sovětského letectva — šum.\nČtyři důvody, v pořadí podle váhy. (1) FUNKCE: scéna říká, že ta věc NEEXISTOVALA, a fotka politika za pultíkem nenese nepřítomnost, nýbrž politiku. (2) PORTRÉT: jsou to skupinové portréty, a na portrét v tomhle kanálu nepatří ani zoom, ani plné plátno — divák hlásil uříznutá čela. (3) ROZLIŠENÍ: nejlepší nález má 600x420 proti předloze 2560x1440, tedy přes trojnásobné zvětšení. (4) REJSTŘÍK: uživatel chce video maximálně střízlivé a nepolitické; Bushova tvář na plátně to mění. Schválně je i v S18 („would George Bush still have invaded Iraq?“) otazník, ne portrét.\nKresba to navíc umí líp: obrys = neexistuje (táž konvence jako rodiny v S51 a věci v S61) a datum vpravo od značky ukáže, jak rychle to vzniklo. Doloženo ve factchecku: ATSA, Public Law 107-71, podepsán 19. 11. 2001."
+    },
+    {
+      "id": "S29",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Rituál, který PLATÍ i dnes — boty už v něm nejsou (viz factcheck). Statická: je to obraz normálnosti.",
+      "prompt": "a security tray on a conveyor belt with a laptop and a small transparent bag, flat even light, muted grey and pale blue, a scanner arch out of focus behind it, no people, no text"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Nová scéna z opravy factchecku, a nese teď celou tezi videa: opatření vzniklo, zevšednělo a zmizelo. Úsek MUSÍ mít oba konce vidět — divák má vidět, že to začalo i skončilo. Podkres tu nehraje (music_sections končí na S29), takže poslední věta padne do ticha.",
+      "diagram_generator": "letiste",
+      "diagram": "Na ose úsek od „two thousand and one“ do „two thousand and twenty-five“ s popiskem „take off your shoes“. V roce 2025 úsek prostě končí. Pod ním dva popisky: ambrový „the scanners got better“ a ztlumený „the fear did not“.",
+      "pause": 2.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Teze videa, vyslovená hned po důkazu z S30.",
+      "diagram_generator": "letiste",
+      "diagram": "Osa: značka rána, z ní plná šipka do dneška, na ní popisek „a response to history“. Vedle ztlumeně a přeškrtnutě „inevitable“."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Náběh za značkou musí začínat NA ose, ne ve vzduchu — scéna říká „after“, takže růst patří napravo od značky a nalevo od ní nesmí být nic.",
+      "diagram_generator": "odposlech",
+      "diagram": "Od značky rána doprava prudce narůstající plná plocha s popiskem „collect and analyse“."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Velikost a pořadí samy nesou důležitost — konvence z _kit.py.",
+      "diagram_generator": "odposlech",
+      "diagram": "Tři plné bloky pod sebou s popisky „the Patriot Act“, „agencies“, „mass surveillance“, každý širší než předchozí."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Snowden je štítek s letopočtem, ne portrét. Na portrét v tomhle videu nesahat: divák u videa 004 hlásil uříznuté čelo a u skupinových fotek postupně ořezané hlavy.",
+      "diagram_generator": "odposlech",
+      "diagram": "Týž obraz, přes něj ambrový štítek „two thousand and thirteen — Edward Snowden“ a velký otazník s popiskem „would it have happened anyway?“"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "POZOR: data musí být v obraze OD PRVNÍHO SNÍMKU, i ztlumená. Prázdné osy čte divák jako rozbitý graf, ne jako napětí — naměřeno u videa 003. Zároveň je to třetí výplata páteře: trendy běžely před značkou.",
+      "diagram_generator": "odposlech",
+      "diagram": "Tři křivky (technika, internet, výkon počítačů), které ROSTOU UŽ VLEVO od značky rána a pokračují skrz ni."
+    },
+    {
+      "id": "S36",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "VÝSLOVNÉ ZADÁNÍ UŽIVATELE: žádná generická ilustrace odposlechu, ale skutečný dokument. Titulní strana zprávy Evropského parlamentu A5-0264/2001 o systému ECHELON, datovaná 11. 7. 2001 — dva měsíce před útoky; usnesení plénum schválilo 5. 9. 2001, šest dní před nimi.\nPŮVOD: PDF stáhl uživatel z prohlížeče, protože europarl.europa.eu i eur-lex.europa.eu jsou za bot-ochranou AWS WAF (HTTP 202, x-amzn-waf-action: challenge) a `archive.py` přes ni neprojde. Provider je proto `manual` — soubor se NESTAHUJE, leží v archive-raw/.\nZNÁMÉ OMEZENÍ: `archive.py --evidence` u téhle scény nepůjde, dokud ta ochrana trvá — ověřuje tak, že si nález stáhne znovu a porovná bajt po bajtu. Doklad nese otisk SHA-256 originálu v sources.json.\nVÝŘEZ vybrán pohledem ze dvou variant: celá stránka vsazená do rámu je ve videu jen bílý obdélník, kdežto pás 27–67 % výšky nese datum, číslo dokumentu, slovo REPORT i celý předmět čitelně.\nGRADE bez tónování a viněty — dokument má vypadat jako dokument, ne jako stará fotografie.",
+      "archive": {
+        "provider": "manual",
+        "query": "A5-0264/2001 PAR1 — Report on the ECHELON interception system",
+        "pick": 1,
+        "grade": {
+          "zoom": [
+            0.0,
+            0.274,
+            1.0,
+            0.398
+          ],
+          "saturation": 100,
+          "tint_amount": 0,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Pásmo místo čáry, protože scéna mluví o rozsahu možností.",
+      "diagram_generator": "odposlech",
+      "diagram": "Táž křivka jako v S35, ale za značkou rána se rozšíří do čárkovaného pásma možností — pomaleji, jinak, přísněji."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Uzavření bloku. Je to zmenšenina celého videa, takže se kreslí týmiž funkcemi z _kit.py jako velké scény — ne nová kresba „něco jako osa“.",
+      "diagram_generator": "odposlech",
+      "diagram": "Celý obraz videa v malém: osa, větve, a přes to ambrový nápis „we don't know“.",
+      "pause": 2.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Poslední čárkovaně, protože scénář říká „possibly remove“.",
+      "diagram_generator": "blizky_vychod",
+      "diagram": "Tři body na ose se postupně odeberou: „September the eleventh“, „Afghanistan“, „Iraq“ — poslední čárkovaně."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Přeškrtnuté „peace“ je nápis, takže vodorovná čára (text_skrtnuty), ne křížek.",
+      "diagram_generator": "blizky_vychod",
+      "diagram": "Krajina bodů se přeskládá do jiného tvaru. Nad tím ztlumený, přeškrtnutý nápis „peace“."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "POZOR, zadání uživatele: Sýrie NESMÍ být zobrazena obrazem občanské války ani Asadovým režimem. Asadův režim padl 8. 12. 2024 a v roce 2026 běží přechodné období — věta platí dál, ale svět za ní je jiný. Popisky bez fotografií ten problém obcházejí úplně a zároveň jsou správný tvar: scéna je o tom, co ZŮSTÁVÁ.",
+      "diagram_generator": "blizky_vychod",
+      "diagram": "Čtyři popisky, které zůstávají na svých místech: Iran, Saudi Arabia, Israel and Palestine, Syria."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "„Stejně, ale jinde“ je celé tvrzení scény. Počet bodů je tvrzení, takže se v generátoru zajistí assertem, ne nakreslí od oka.",
+      "diagram_generator": "blizky_vychod",
+      "diagram": "Kolem popisků se objeví další body: wars, terrorism, revolutions, political disasters — jinde než v naší ose, ale je jich stejně."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Nejdůležitější obraz tématického bloku. Kdyby byla alternativní osa hladší, obraz tvrdí „bez 11. září by byl mír“, tedy přesně opak scénáře.",
+      "diagram_generator": "blizky_vychod",
+      "diagram": "Dvě osy pod sebou: naše a alternativní. Obě stejně rozházené, ani jedna hladká. Ambrový popisek „a different history“.",
+      "pause": 2.8
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Váhy musí být doopravdy v rovnováze — je to scéna, která odmítá odpovědět.",
+      "diagram_generator": "nejistota",
+      "diagram": "Váhy, na obou miskách totéž, jazýček přesně uprostřed. Popisky „better“ a „worse“."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Škrtá se NÁPIS i čára, takže text_skrtnuty na popisek.",
+      "diagram_generator": "nejistota",
+      "diagram": "Jedna jediná přímá čára od minulosti k dnešku s popiskem „inevitable“, celá přeškrtnutá."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Data: počet bodů se v generátoru spočítá a zajistí assertem. Obraz nesmí tvrdit víc ani míň než „billions“. Žádný z bodů není zvýrazněný — to je úkol až pro S47.",
+      "diagram_generator": "nejistota",
+      "diagram": "Husté pole drobných bodů přes celé plátno, všechny stejné a ztlumené."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Jediná změna proti S46, a je to celá pointa. Pole MUSÍ být na týchž souřadnicích jako v S46, jinak se posun nepozná.",
+      "diagram_generator": "nejistota",
+      "diagram": "Totéž pole, jediný bod zambrovatí — a všechno vpravo od něj se posune.",
+      "pause": 2.8
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Vizuální sestup z geopolitiky k člověku. Odtud dál se obraz podle zadání uživatele postupně ZJEDNODUŠUJE — čím blíž konci, tím míň historického dokumentu a víc obyčejného života.",
+      "diagram_generator": "lide",
+      "diagram": "Ikony států a válek z předchozích scén zeslábnou a zmizí; zůstane jediná malá postava."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "DATA. Počet se spočítá v kódu a zajistí assertem — 2 977 podle factchecku (2 753 + 184 + 40). Tady se konečně vyplatí, že S16 počet obětí neukázala.",
+      "diagram_generator": "lide",
+      "diagram": "Pole bodů, kde počet odpovídá počtu obětí. Popisek „nearly three thousand“."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Bez tváří schválně: obličeje jsou u SDXL nespolehlivé a u kresby by odváděly. Nese to tvar, ne portrét.",
+      "diagram_generator": "lide",
+      "diagram": "Z několika bodů vyrostou drobné větvičky — svatba, dítě, živnost, vnoučata. Bez tváří."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "POINTA CELÉHO VIDEA podle uživatele. Obrys místo výplně je celé tvrzení: ty rodiny v naší časové ose neexistují. Souřadnice pole musí sedět s S49 a S50, jinak se to nepřečte jako totéž pole.",
+      "diagram_generator": "lide",
+      "diagram": "Totéž pole, ale kolem bodů se objeví rodiny nakreslené POUZE OBRYSEM, nevyplněné.",
+      "pause": 3.0
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Vějíř vychází z JEDNOHO bodu na ose — je to táž osa jako celým videem. Popisek „millions“ nesmí být podložený spočítanými čarami, protože jich nakreslíme desítky; množství tu nese tvar, ne počet.",
+      "diagram_generator": "lide",
+      "diagram": "Jediný bod na ose, z něj se rozbíhá hustý vějíř tenkých čar do všech stran. Popisek „millions of private histories“."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Výčet. Žádný z nich není ambrový — ani jeden není důležitější.",
+      "diagram_generator": "lide",
+      "diagram": "Pět krátkých ztlumených popisků pod sebou: met different people, moved, joined, changed careers, lost the people they loved."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Dvě patra větvení stačí. Třetí by scénu změnilo v strom, a ten přijde až v S55 — kdyby byl už tady, výplata se spálí o scénu dřív.",
+      "diagram_generator": "lide",
+      "diagram": "Z jednoho rozhodnutí vyjdou tři, z každého další tři. Dvě patra větvení."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Doslovný obraz věty „an enormous tree of consequences“. Kořen sedí na značce rána z páteře.",
+      "diagram_generator": "lide",
+      "diagram": "Velký strom důsledků přes celé plátno, kořen u značky rána.",
+      "pause": 2.6
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Návrat k páteři. Jediná změna je posun o den zpět.",
+      "diagram_generator": "desaty",
+      "diagram": "Osa. Ambrová značka je o jeden dílek doleva, popisek „September the tenth“."
+    },
+    {
+      "id": "S57",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S57.png",
+      "note": "Obyčejný den. Panorama doprava, protože scéna vypočítává běžné dění.",
+      "prompt": "an ordinary street with slow traffic on a weekday morning, a bus, parked cars, people walking, seen from across the road, flat grey overcast daylight, calm and uneventful, no text"
+    },
+    {
+      "id": "S58",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S58.png",
+      "note": "„Someone bought a coffee.“ Nejmenší možný detail hned po panoramatu ulice — sestup od světa k jednotlivosti.",
+      "prompt": "a paper coffee cup on a counter beside a folded newspaper and a set of keys, warm interior light kept muted, shallow depth of field, painterly, nobody present, no text"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Přesně týž obraz jako S05, teď ale po devíti minutách. Musí být na TÝCHŽ souřadnicích, jinak se callback nepozná — to je celý smysl toho, že páteř kreslí _kit.",
+      "diagram_generator": "osa",
+      "diagram": "Osa. Značka rána zhasne a čára jde rovně dál."
+    },
+    {
+      "id": "S59b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59b.png",
+      "note": "Beat „nobody notices“. Mění se jediná věc.",
+      "diagram_generator": "osa",
+      "diagram": "Týž obraz; zmizí i poslední stopa po značce. Zbude čistá čára.",
+      "pause": 3.0
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Nepřítomnost, potřetí a naposled — týž tvar jako S02.",
+      "diagram_generator": "osa",
+      "diagram": "Čistá čára, kolem ní ztlumeně a přeškrtnuté tři popisky: breaking news, emergency broadcast, „where you were“."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Obrys = neexistuje, táž konvence jako u rodin v S51.",
+      "diagram_generator": "desaty",
+      "diagram": "Osa až k dnešku, nad ní obrysy věcí, které v naší ose vznikly, nakreslené čárkovaně a bez výplně."
+    },
+    {
+      "id": "S62",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "„You don't miss a history you never lived.“ Nejobyčejnější možný obraz. Statická, klidná — začíná ocas videa.",
+      "prompt": "an ordinary kitchen table seen from above with a half-finished breakfast, a newspaper, a chair pushed back, pale flat daylight from a window, nobody present, painterly, no text"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: odtud dál musí být volné místo v HORNÍ polovině obrazu — dole sedí ambrový nadpis z svgkit.title() na 82,6 % výšky a každý dole ukotvený prvek YouTube přes něj přejede. Kontrola: python tools/zaver_check.py videos/041-what-if-9-11-never-happened",
+      "diagram_generator": "osa",
+      "diagram": "Osa a nad ní řídce rozeseté další, skoro neviditelné osy jiných možných dějin."
+    },
+    {
+      "id": "S63b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63b.png",
+      "note": "Beat „the one we happened to get“. Volné místo nahoře.",
+      "diagram_generator": "osa",
+      "diagram": "Týž obraz, jediná změna: naše osa se obtáhne ambrově."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "VÝPLATA PÁTEŘE. Svazek z S06 se vrací, ale mnohem hustší — divák ho zná z třetí scény videa. Volné místo nahoře kvůli závěrečné obrazovce.",
+      "diagram_generator": "osa",
+      "diagram": "Ze značky rána se rozbíhá velké množství tenkých čárkovaných větví, všechny stejně tiché. Popisek „only one event away“."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Závěrečná deska. Klidná, statická, delší pauza; volné místo nahoře pro dlaždici a kolečko odběru. Poslední věta scénáře je „just another Tuesday“ a obraz nesmí dodávat nic navíc.",
+      "diagram_generator": "osa",
+      "diagram": "Jediná čistá vodorovná čára, procházející místem, kde značka bývala. Nic víc.",
+      "pause": 3.2
+    }
+  ]
+}

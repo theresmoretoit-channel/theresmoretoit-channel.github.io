@@ -1,0 +1,1193 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První obrazovka nese myšlenku, ne atmosféru, a není SDXL. Prázdný pruh KRESLÍ tvrzení věty: zdroj existuje, přijímač existuje, a nic mezi nimi neletí. Páteř videa se tím zavádí hned a její souřadnice se do závěru nesmí pohnout.",
+      "diagram_generator": "mechanismus",
+      "diagram": "PÁTEŘ, ZAVEDENÍ. Vlevo na ZDROJ_X kapka na kůži, vpravo na CIL_X nos, mezi nimi prázdný pruh PRUH_Y. V pruhu NENÍ nic."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Zostření S01 na zdroj. Mění se jediná věc (přiblížení ke kapce), ne celý obraz.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Detail kapky u ZDROJ_X, popisek FRESH SWEAT. Pruh pořád prázdný."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Věta posouvá děj v ČASE, ne v prostoru, takže okno leží nad pruhem a nic v pruhu se zatím nepohne.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Nad pruhem se rozsvítí ambrové okno AFTERWARDS mezi zdrojem a nosem — čas, ne místo."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Škrtá se PŮVODCE, ne existence pachu. Škrtnout celý nápis by znamenalo „pach neexistuje“ (viz konvence v _kit.py). Fact check: myšleno je, že tělo nevyrábí PACH — prekurzor ano.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Od siluety těla vede k pruhu čárkovaná šipka a je PŘEŠKRTNUTÁ. Škrtne se jen šipka, ne tělo."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Zavádí dvojici, na které stojí celý první akt. Ambrová = „o tomhle je řeč“, ne „tahle je ta správná“.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Řez kůží: hustě rozseté drobné ekrinní žlázy po celé ploše, ambrová je celá skupina."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Poměr se kreslí z dat, ne od oka — 99 % voda. Obrázek nesmí tvrdit víc ani míň než scénář.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Táž kůže, u ekrinní žlázy kapka rozložená na složky: velká plocha WATER, úzký proužek SALTS. ASSERT na poměr 99:1."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Přesun ambrové je celé sdělení scény: pozornost jde od ekrinních k apokrinním. Kresba kůže zůstává na týchž souřadnicích, aby byl vidět přesun, ne střih.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Táž kresba kůže, ambrová se přesune na apokrinní žlázy v podpaží a tříslech; u nich značka PUBERTY."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Poměr je spočítaný: prekurzor 292,4 g/mol proti odorantu 148,3 g/mol. „Large, heavy“ je doloženo, viz factcheck.md.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Z apokrinní žlázy vyjde velký tvar molekuly. Vedle drobný odorant pro měřítko, ASSERT na poměr ploch 1,97:1."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Pozor při každé úpravě: netěkavost NEDĚLÁ hmotnost, nýbrž ten obal (polarita dipeptidu). Kresba to musí říkat obalem, ne velikostí — viz factcheck.md, S08–S09.",
+      "diagram_generator": "mechanismus",
+      "diagram": "BALÍČEK — páteřní tvar: ambrová kulička síry uvnitř obalu z dvou aminokyselin. Obal je zavřený."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Pravidlo páteře vyslovené nahlas: přijímač je vpravo, takže se musí přeletět. Balíček leží a to je ta pointa.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Balíček položený do pruhu u zdroje. Nehýbe se. Nad pruhem popisek A SMELL HAS TO TRAVEL."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Obrat scény. Jeden tvar navíc, nic jiného se nemění.",
+      "diagram_generator": "mechanismus",
+      "diagram": "K balíčku se od okraje blíží jediná bakterie."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Tři nástroje odpovídají třem krokům v S13 a v realitě: PepTSh, PepV, PatB. Počet nesmí být dekorativní.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Bakterie u balíčku, kolem ní tři drobné nástroje (transportér a dva enzymy) jako ikonky."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Pořadí je ověřené: nejdřív dipeptidáza odštěpí glycin, teprve pak β-lyáza rozetne vazbu C–S. Prohodit to nelze.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Dva kroky vedle sebe: vlevo odštěpený glycin z obalu, vpravo přeťatá vazba C–S. Ambrová je vždy jen právě prováděný řez."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Tohle je okamžik, kvůli kterému je páteř prázdná od S01. Pruh ani jeho souřadnice se nesmí změnit, jinak se výplata nepozná.",
+      "diagram_generator": "mechanismus",
+      "diagram": "PÁTEŘ, PRVNÍ VÝPLATA: síra se uvolní a poprvé letí pruhem od ZDROJ_X k CIL_X."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Upřesňuje S04. Scénář sám sebe koriguje z „tělo to nedělá“ na „tělo dělá polotovar“, takže to musí být vidět jako dvojice, ne jako oprava.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Dva výrobní kroky nad sebou: tělo → součástka, bakterie → hotový pach."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Jediná změna proti S15 jsou popisky. Ambrová na SUPPLIER, protože věta míří na diváka.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Táž dvojice, popisky SUPPLIER u těla a FACTORY u bakterie.",
+      "pause": 2.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Přechod z mechanismu do citlivosti. Táž páteř, jiná otázka.",
+      "diagram_generator": "mechanismus",
+      "diagram": "Pruh v celé šířce, jedna ambrová molekula daleko od zdroje."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Tečky se sypou funkcí s hustotou, ne pevným počtem — miliarda se nakreslit nedá a předstírat ji nesmíme.",
+      "diagram_generator": "citlivost",
+      "diagram": "Pruh vyplněný velmi slabými tečkami vzduchu, mezi nimi hrstka ambrových. Popisek PARTS PER BILLION."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Fact check si vynutil „a few molecules“, ne „one molecule“. Assert to hlídá i v kresbě, aby obraz netvrdil víc než hlas.",
+      "diagram_generator": "citlivost",
+      "diagram": "Táž mřížka, vedle ní zlomek: nahoře pár ambrových teček, dole nápis BILLION. ASSERT, že ambrových je víc než jedna."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Slib divákovi. Týž obraz se vrací v S97–S98, takže poloha té tečky je závazek.",
+      "diagram_generator": "citlivost",
+      "diagram": "Mřížka zšedne a zůstane svítit jediná ambrová tečka — záložka do závěru.",
+      "pause": 2.6
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Dechová scéna mezi bloky. Záměrně skoro prázdná.",
+      "diagram_generator": "citlivost",
+      "diagram": "Prázdný rám s jediným otazníkem nad pruhem."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Kresba musí vyjádřit „výdej bez návratu“, tedy šipky VEN. Pozor na past se směrem šipky.",
+      "diagram_generator": "citlivost",
+      "diagram": "Tělo vlevo, z něj ven šipky do prázdna kolem dokola; nic se nevrací."
+    },
+    {
+      "id": "S23",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S23.png",
+      "note": "Jediná atmosférická scéna prvního aktu. Hloubka času se diagramem nekreslí. Bez denní doby v promptu — `dawn`/`dusk` u SDXL vždycky vyrobí zlaté světlo proti kotvě stylu.",
+      "prompt": "a single weathered stone worn smooth by water, lying alone on cracked dry ground, flat grey overcast sky, no sun, deep time, quiet emptiness, no text"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Nepoměr je celé tvrzení — a je doložený (factcheck.md, S23). Osa musí být lineární, jinak by zkreslila v náš prospěch.",
+      "diagram_generator": "citlivost",
+      "diagram": "Časová osa přes celou šířku: čich úplně vlevo, mýdlo, města a slova namačkaná u pravého okraje."
+    },
+    {
+      "id": "S24b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "VÝZVA K ODBĚRU podle `docs/cta.md` **ve znění z 2026-09-21**: nové je jak znění (tři řádky místo čtyř, ~5 s místo 8,1 s), tak SLOT. Do 061 byla výzva za hlavní pointou; nově patří na **1:30 az 2:15** a tahle scéna sedí na **2:01**.\n\nProč zrovna sem: S24 uzavírá blok „proč to tělo vůbec dělá\" větou *„It was the message.\"* a S25 otevírá vlastní vysvětlování (*„Watch almost any other animal.\"*) — je to tedy šev mezi dvěma myšlenkami, ne uvnitř jedné, a přesně ten beat „So let's find out\", který `docs/cta.md` popisuje.\n\nNespadá ani do jednoho ze čtyř zakázaných míst: není do 0:45, není v útesu 0:50 az 1:10, není na konci a video už v S18–S19 zaplatilo (jednotky miliardtin).\n\nDědí OBRAZ S24 (proto `images/S24.png` — prolínačka dvou shodných obrázků není vidět), `static`, do diagramu se nekreslí nic, nápis klade `render.py` ze sdílené vrstvy.",
+      "cta": true,
+      "pause": 1.6
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Tři otázky, tři v S26 — dohromady šest, přesně jak je říká hlas. Počet není dekorace.",
+      "diagram_generator": "informace",
+      "diagram": "Zvíře u pruhu, z něj tři ambrové otázky WHO / WHERE / DO YOU BELONG."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Ambrová na ILL připraví Joy Milne. Ostatní zůstanou ztlumené.",
+      "diagram_generator": "informace",
+      "diagram": "Táž kresba, tři další otázky READY / FOOD / ILL. Poslední je ambrová."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Čárkovaně = zatím hypotéza. V S28 se čárkování změní na plné, a to je celý ten beat.",
+      "diagram_generator": "informace",
+      "diagram": "Otázka ILL sama v rámu, vedle ní čárkovaný otazník."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Beat vyrobený rozdělením scény, ne pauzou — pauza se sem vložit nedá. Nesmí to být nový obrázek.",
+      "diagram_generator": "informace",
+      "diagram": "TÝŽ obraz, jediná změna: čárkovaný otazník zmizí a rámeček ILL se vyplní.",
+      "pause": 2.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Bez portrétu. Joy Milne je žijící osoba a archivní fotka by byla licenčně i esteticky špatně.",
+      "diagram_generator": "informace",
+      "diagram": "Postava u okna, vedle ní druhá postava se slabým ambrovým oparem."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Ztlumená šeď = informace, kterou nikdo nepřečetl. Táž barva se vrací v S39.",
+      "diagram_generator": "informace",
+      "diagram": "Dva popisky WOODY a MUSKY u oparu, pod nimi ztlumené NOTHING CAME OF IT."
+    },
+    {
+      "id": "S30b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30b.png",
+      "note": "Beat rozdělením scény, protože mezi dvěma jednoslovnými větami nejde vložit pauzu (změřeno, 0 ms). Obraz se NEMĚNÍ, přibývá jediný nápis — jinak by z beatu byly tři střihy.",
+      "diagram_generator": "informace",
+      "diagram": "Totéž co S30, jen přibude druhý popisek MUSKY vpravo."
+    },
+    {
+      "id": "S30c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30c.png",
+      "note": "Ztlumení je to tvrzení: informace tam byla a nikdo ji nepřečetl. Táž šeď se vrací v S39.",
+      "diagram_generator": "informace",
+      "diagram": "Oba popisky ztlumené do MUTED, pod nimi NOTHING CAME OF IT."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Dvanáct dílků, ne „nějaká osa“ — číslo je ověřené a kreslí se přesně.",
+      "diagram_generator": "informace",
+      "diagram": "Časová osa dvanácti let, na konci značka DIAGNOSIS."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Shodný odstín je to tvrzení: poznala TÝŽ pach, ne podobný.",
+      "diagram_generator": "informace",
+      "diagram": "Místnost plná postav, všechny se slabým ambrovým oparem téhož odstínu."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Data v obraze od prvního snímku, ne nájezd — divák čte prázdnou mřížku jako rozbitý graf.",
+      "diagram_generator": "informace",
+      "diagram": "Dvanáct triček ve dvou řadách po šesti; šest s oparem, šest bez. ASSERT na 6 a 6."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Jediná změna proti S33.",
+      "diagram_generator": "informace",
+      "diagram": "Týž rošt, šest triček s oparem dostane ambrovou fajfku."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Nejdůležitější scéna bloku. Sedmé tričko musí být zjevně z druhé řady, jinak se pointa ztratí.",
+      "diagram_generator": "informace",
+      "diagram": "Týž rošt, ambrová fajfka přibude na sedmém tričku, které opar nemá."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Zdánlivá chyba. Křížek je ztlumený, ne ambrový — ambrová patří v S37 datu.",
+      "diagram_generator": "informace",
+      "diagram": "U sedmého trička se objeví křížek a nápis NO PARKINSON'S."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Devět měsíců, ne „za necelý rok“ — fact check to opravil proti sekundárním zdrojům.",
+      "diagram_generator": "informace",
+      "diagram": "Křížek se změní na fajfku, vedle ambrový popisek NINE MONTHS LATER."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Anatomicky konkrétní: horní část zad, ne obecně kůže.",
+      "diagram_generator": "informace",
+      "diagram": "Silueta zad zezadu, ambrová ploška na horní části zad, popisek SEBUM."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Vrací šeď z S30. Informace tam byla celou dobu — to je pointa bloku, ne ta schopnost.",
+      "diagram_generator": "informace",
+      "diagram": "Tričko s ambrovým oparem, přes něj ztlumený nápis NOBODY COULD READ IT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Převádí výjimku na pravidlo. Opary se musí lišit tvarem, ne velikostí, jinak by to tvrdilo „někdo smrdí víc“.",
+      "diagram_generator": "informace",
+      "diagram": "Vedle sebe silueta Joy Milne a řada běžných postav, všechny s vlastním slabým oparem."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "„Slightly different“, ne „unique“ — mřížky se musí z velké části překrývat. Tvrzení o jednoznačné identifikaci by fact check neunesl.",
+      "diagram_generator": "informace",
+      "diagram": "Tři postavy, každá s jinak poskládanou mřížkou teček nad sebou."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Dva zdroje ze tří, zbytek v S43. Nedělit jinak, než jak to říká hlas.",
+      "diagram_generator": "informace",
+      "diagram": "Táž trojice, u jedné se rozloží podíl: vlastní chemie a kožní bakterie."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Pět podílů dohromady. Velikosti záměrně nestejné, ale bez čísel — přesné podíly doložené nejsou.",
+      "diagram_generator": "informace",
+      "diagram": "Přibudou tři další podíly: strava, prostředí, oblečení."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Metafora, kterou říká hlas, tedy smí být v obraze. Ambrová na SIGNATURE.",
+      "diagram_generator": "informace",
+      "diagram": "Mřížka teček se přepíše do tvaru podpisu, popisek SIGNATURE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S44b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44b.png",
+      "note": "Callback na páteř s vyměněným příjemcem — proto `cil=False` a `pes()` na týchž souřadnicích. Že je to tentýž pruh, nese celý smysl scény: podpis, který jsme právě popsali, někdo čte.",
+      "diagram_generator": "psi",
+      "diagram": "Táž páteř, ale na CIL_X stojí PES místo člověka. V pruhu letí síra."
+    },
+    {
+      "id": "S44c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44c.png",
+      "note": "Čárkovaně = hypotéza, a prázdno uvnitř je celé tvrzení. Scéna NEŘÍKÁ, že feromony neexistují — říká, že se žádný nenašel.",
+      "diagram_generator": "psi",
+      "diagram": "Prázdný čárkovaný rámeček s nápisem PHEROMONE, pod ním NONE FOUND IN HUMANS."
+    },
+    {
+      "id": "S44d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44d.png",
+      "note": "Škrtá se RÁMEČEK, ne pes: nepotřebnost slova, ne popření psa.",
+      "diagram_generator": "psi",
+      "diagram": "Týž rámeček ztlumený a přeškrtnutý, vedle něj pes s oparem."
+    },
+    {
+      "id": "S44e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44e.png",
+      "note": "Že jsou z JEDNÉ postavy, je to podstatné — bez toho by pokus nedokládal nic (viz factcheck). Proto z ní vedou obě čáry.",
+      "diagram_generator": "psi",
+      "diagram": "Jedna postava a od ní dva vzorky: CALM a UNDER PRESSURE."
+    },
+    {
+      "id": "S44f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44f.png",
+      "note": "Pruh je vyplněný OD PRVNÍHO SNÍMKU, ne nájezdem — divák by prázdnou osu četl jako rozbitý graf (zpětná vazba u videa 049).",
+      "diagram_generator": "psi",
+      "diagram": "Velké 94 % a pod ním 720 TRIALS, vedle pruh vyplněný z 94 %."
+    },
+    {
+      "id": "S44g",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44g.png",
+      "note": "Jiné tvrzení než S44f: tam rozpoznání, tady přenos. Šipka míří OD psa K majiteli, tedy tam, kam pes jde.",
+      "diagram_generator": "psi",
+      "diagram": "Křivka tepu, vlevo klidná, vpravo hustší. Pes a ambrová šipka od něj k postavě majitele."
+    },
+    {
+      "id": "S44h",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44h.png",
+      "note": "Křížek jde přes tvář, ne přes nápis — přes písmo by byl nečitelný. Scéna říká, že vjem byl chemický, ne zrakový.",
+      "diagram_generator": "psi",
+      "diagram": "Ztlumená lidská hlava přeškrtnutá křížkem, pes vedle s oparem."
+    },
+    {
+      "id": "S44i",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44i.png",
+      "note": "Jediná scéna bloku bez škrtu a bez čísla — to je ta pointa. Rýmuje se s S87c „None of it was an accusation.",
+      "diagram_generator": "psi",
+      "diagram": "Pes a opar, obojí klidné a ambrové. Popisek JUST TODAY. Nic přeškrtnutého.",
+      "pause": 2.2
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Škrtá se „jen my“, ne „člověk a zvíře to nedělají“. Prázdné místo vpravo drží napětí pro S46.",
+      "diagram_generator": "rostliny",
+      "diagram": "Dvě ztlumené ikony člověk a zvíře, obě přeškrtnuté, vedle prázdné místo."
+    },
+    {
+      "id": "S46",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S46.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: staženo šest náhledů a prohlédnuto. **Všech šest je skutečný pelyněk**, takže dotaz vyhovuje pravidlu „přijatelný musí být každý výsledek v první šestici“ — `pick` je volba kompozice, ne správnosti.\n\nPrvní volba byla portrétní snímek s `fit: 0.9`. Po vygenerování se ukázalo, že u snímku na výšku sežere rozostřené okolí půl rámu — `fit` je řešení pro portréty lidí, ne pro krajinu. Nahrazeno snímkem NA ŠÍŘKU bez `fit`, takže vyplní rám.\n\nEvidence je otisk `archive-raw/S46.orig`, ne `pick` — pořadí výsledků Commons se mění i mezi dvěma voláními.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Artemisia tridentata sagebrush",
+        "grade": {
+          "saturation": 58
+        },
+        "pick": 0
+      }
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Trojice, ne dvojice: bez kontrolní rostliny nelze nakreslit „measurably less“. Rozdíl v okusu je tvrzení, takže se počítá, ne odhaduje.",
+      "diagram_generator": "rostliny",
+      "diagram": "Vlevo pelyněk s přistřiženým listem, vpravo tabák. Mezi nimi pruh páteře. Na tabáku méně okusu než na kontrolním keři vpravo dole."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Jeden úder, jedna změna.",
+      "diagram_generator": "rostliny",
+      "diagram": "Nad tabákem se rozsvítí ambrový vykřičník."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Páteř znovu, a tentokrát mezi rostlinami. Je to nejsilnější scéna bloku a formulace „molekula opouští jeden organismus a mění druhý“ je doslova popis té páteře.",
+      "diagram_generator": "rostliny",
+      "diagram": "Tři přeškrtnuté ikony NERVES / BRAIN / NOSE, pod nimi pruh s jedinou molekulou."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Patnáct, ne šedesát: šedesát platí vnitrodruhově pelyněk↔pelyněk, tahle scéna je mezidruhová. Opraveno ve verzi 0.1, viz factcheck.md.",
+      "diagram_generator": "rostliny",
+      "diagram": "Pruh se zkrátí na patnáct centimetrů s měřítkem. Původní délka zůstane ztlumeně za ním."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Škrtá se řeč, ne sdělení. Motiv slov se vrací v S103.",
+      "diagram_generator": "rostliny",
+      "diagram": "Krátký pruh s molekulou, nad ním přeškrtnutá bublina s textem.",
+      "pause": 2.6
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Obrat videa z mechanismu do významu.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Molekula v pruhu a proti ní odvrácená tvář z profilu."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Poloha nápisu je celé tvrzení scény. Kdyby ležel u molekuly, kresba by tvrdila opak hlasu.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Molekula zvětšená, kolem ní prázdné popisky; nápis REVOLTING leží AŽ u hlavy, ne u molekuly."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Tři, přesně jak je jmenuje hlas.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Tři ambrové ikony ROT / WASTE / INFECTION mířící k hlavě."
+    },
+    {
+      "id": "S54b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54b.png",
+      "note": "Beat; obraz týž, přibývá jediná šipka.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Přibude ROT a jeho šipka."
+    },
+    {
+      "id": "S54c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54c.png",
+      "note": "Beat; obraz týž.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Přibude WASTE a jeho šipka."
+    },
+    {
+      "id": "S54d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54d.png",
+      "note": "Beat; obraz týž. Hroty se rozestupují, jinak splynou v kaňku.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Přibude INFECTION a jeho šipka. Teprve teď jsou všechny tři."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Šipka míří OD jídla — scéna říká „nejez to“, ne „jdi k tomu“.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Zkažené jídlo a od něj odvrácená ruka, ambrová šipka pryč od jídla."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Kladná funkce znechucení. Bez čísel, protože žádné doložené nemáme.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Štít mezi zdrojem a člověkem, na něm popisek WARNING SYSTEM."
+    },
+    {
+      "id": "S57",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S57.png",
+      "note": "Zlom videa. Atmosféra se diagramem nekreslí. Prompt nesmí obsahovat denní dobu.",
+      "prompt": "a brass bottle stopper lying on a bare tiled shelf, a faint chalk outline where something used to stand, flat diffuse overcast light, no sun, dry matte surfaces, quiet domestic emptiness, no text",
+      "pause": 2.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Callback na S56 na TÝCHŽ souřadnicích. Mění se jediné slovo — to je ta věta.",
+      "diagram_generator": "znechuceni",
+      "diagram": "Týž štít jako v S56, ale přepsaný z WARNING SYSTEM na RULE OF MANNERS."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Nastavuje očekávání pro S60–S61. Pole se vyplní až tam.",
+      "diagram_generator": "reklama",
+      "diagram": "Prázdná deska s dvěma prázdnými poli WHO a WHEN."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Rok číslicí, viz `pronounce` v project.json. Odorono je aluminium-chloridový roztok, ne moderní deodorant — kreslit lahvičku s pipetou, ne sprej.",
+      "diagram_generator": "reklama",
+      "diagram": "Deska: rok 1919, agentura J. WALTER THOMPSON, klient ODORONO."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Jméno opravené fact checkem z „James Young“. Křivka je schéma, ne datová řada — žádná čísla na ose.",
+      "diagram_generator": "reklama",
+      "diagram": "Klesající křivka prodejů a u ní jméno JAMES WEBB YOUNG."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Zjištění průzkumu: produkt nikomu nechyběl.",
+      "diagram_generator": "reklama",
+      "diagram": "Řada postav, nad každou ztlumené NO."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Nejdůležitější scéna bloku a doslovný obraz věty. Ambrová jen na pravé polici.",
+      "diagram_generator": "reklama",
+      "diagram": "Dvě police: z levé zmizí lahvička, na pravé se rozsvítí nápis THE PROBLEM."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "PŮVODNĚ ARCHIVNÍ SCÉNA, PŘEKRESLENA. **Commons sken inzerátu „Within the Curve of a Woman’s Arm“ z roku 1919 nemá** — má jen Odorono reklamy z Photoplay 1929. Ukázat jiný inzerát, zatímco hlas jmenuje konkrétní titulek z roku 1919, by znamenalo, že obraz tvrdí něco jiného než voiceover; to je vada, kterou žádný detektor nenajde. Scéna proto kreslí MÍSTO, kde inzerát vyšel, a znění nechává na S65.",
+      "diagram_generator": "reklama",
+      "diagram": "Rozevřený časopis, na pravé straně blok inzerátu. Nadpis LADIES’ HOME JOURNAL. Text inzerátu se tady NEČTE — ten je až v S65."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Doslovné znění, protože je to citát. Kreslené, aby se dal ovládat kontrast — na skenu by podtitul ve 150 px zanikl.",
+      "diagram_generator": "reklama",
+      "diagram": "Titulek a pod ním podtitul vysázené jako v inzerátu, ambrová na slově FRANK."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Počet se kreslí přesně. Ve factcheck.md je to označené ⚠️ jako Youngova vlastní vzpomínka — do scénáře se to neředí, ale evidence to ví.",
+      "diagram_generator": "reklama",
+      "diagram": "Dvě stě drobných siluet, ambrové se odvracejí. ASSERT na 200."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Jediné tvrdé číslo bloku a nese celý argument. Výška sloupce musí odpovídat 2,12×, ne „nějak víc“ — ASSERT.",
+      "diagram_generator": "reklama",
+      "diagram": "Sloupec prodejů se zdvojnásobí a o kus přeroste, popisek +112 %.",
+      "pause": 2.2
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Oprava, kterou si vynutila zpětná vazba k 0.1: 1919 NENÍ okamžik vzniku studu. Osa musí pokračovat výrazně doleva.",
+      "diagram_generator": "reklama",
+      "diagram": "Časová osa doleva za rok 1919, na ní starší značky."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Bez letopočtů — doložené jsou řádově, ne přesně, a osa je schematická.",
+      "diagram_generator": "reklama",
+      "diagram": "Tři ambrové značky na té ose: lázně, parfém, mýdlo."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Přesné vymezení: prodej, ne stud. Ambrová jen na téhle značce.",
+      "diagram_generator": "reklama",
+      "diagram": "Na ose se rozsvítí jediná značka 1919 s popiskem THE SALE."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Vágní se mění v prodejné. Cenovka bez konkrétní částky.",
+      "diagram_generator": "reklama",
+      "diagram": "Mlhavý obláček WORRY vlevo se vpravo mění v krabičku s cenovkou."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "„Není kde přestat“ — schodiště musí odcházet z rámu, ne končit.",
+      "diagram_generator": "reklama",
+      "diagram": "Schodiště bez horního konce, na prvním schodu postava."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Čtyři, přesně jak je jmenuje hlas.",
+      "diagram_generator": "reklama",
+      "diagram": "Čtyři ikony v řadě: mytí, holení, deodorant, parfém."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Stříbro v textilu je doložené (factcheck.md, S74). Kreslit jako částečky ve vlákně, ne jako nápis.",
+      "diagram_generator": "reklama",
+      "diagram": "Košile s jediným nošením a ponožka s ambrovými částečkami stříbra."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Miska s prázdnem musí být viditelně prázdná, ne lehká — tvrzení je „za nic“, ne „za málo“.",
+      "diagram_generator": "reklama",
+      "diagram": "Váhy: na jedné misce hromada času a peněz, na druhé prázdno s popiskem NOTHING."
+    },
+    {
+      "id": "S76",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S76.png",
+      "note": "Konec bloku o průmyslu. Lahvička bez etikety — jakýkoli pseudotext by SDXL naplácal a scéna je právě o tom, že obsah nemá jméno.",
+      "prompt": "a single plain glass bottle standing alone on a wide empty shelf, soft dust in the air, flat diffuse overcast light, no sun, dry matte surfaces, muted palette, no text",
+      "pause": 2.4
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Callback na TYTÉŽ souřadnice jako první akt. Bez toho se „remember the pump“ nepozná.",
+      "diagram_generator": "pumpa",
+      "diagram": "Řez apokrinní žlázou z S07–S08, ambrová na pumpě ve stěně."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Shrnuje první akt jedním obrazem. Nic nového se nezavádí.",
+      "diagram_generator": "pumpa",
+      "diagram": "Pumpa vytlačuje balíček ven, za ním čeká bakterie."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Scénář vědomě NEJMENUJE gen — ten patří dalšímu videu. Kresba proto taky ne: žádné písmeno alely, žádný název. Rozbor v notes.md.",
+      "diagram_generator": "pumpa",
+      "diagram": "Táž pumpa ztlumená a skoro nehybná, vedle značka dědičnosti."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Třetí věta scény je důležitá: přeškrtnuté mytí brání tomu, aby si divák vyložil scénu jako „tihle jsou čistotnější“.",
+      "diagram_generator": "pumpa",
+      "diagram": "Pruh páteře skoro prázdný, u zdroje ztlumený obrys balíčku. Vedle přeškrtnutá ikona mytí."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Většina, ne všichni — a poměr musí být jasně většinový, protože přesná čísla (Tokio ~79 %) video záměrně neříká.",
+      "diagram_generator": "pumpa",
+      "diagram": "Řada postav, u většiny prázdný pruh, u menšiny balíček. ASSERT na většinu.",
+      "pause": 2.6
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Dechová scéna před argumentem.",
+      "diagram_generator": "pumpa",
+      "diagram": "Prázdná deska s nápisem THE TEST.",
+      "pause": 1.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Čárkovaně = zatím hypotéza. V S84 se ukáže, že realita je jiná.",
+      "diagram_generator": "pumpa",
+      "diagram": "Podmínka ve dvou polích: skoro žádný pach → žádná potřeba léku. Druhé pole čárkované."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Rozpor, na kterém stojí celý závěr. Bez konkrétního čísla — růst trhu fact check neunesl (Mandom je výrobce deodorantů).",
+      "diagram_generator": "pumpa",
+      "diagram": "Čárkované pole se vyplní regálem plným lahviček."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Japonština v obraze, ne v hlase — Kokoro by znaky nepřečetl. `pronounce` má „Sumehara\" jako „soo-meh-hara\". **A v obraze je latinka, ne katakana:** výchozí písmo kanálu (DejaVu Sans) japonské znaky nemá a vysázelo by prázdné rámečky — poznalo by se to teprve na PNG.",
+      "diagram_generator": "pumpa",
+      "diagram": "Nápis SUMEHARA a pod ním SMELL HARASSMENT. Latinkou, ne katakanou."
+    },
+    {
+      "id": "S85b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85b.png",
+      "note": "Mechanismus se schválně NEKRESLÍ — gen je téma příštího videa a tahle scéna na něj jen ukazuje.",
+      "diagram_generator": "pumpa",
+      "diagram": "Pumpa z S77 ztlumená a pod ní jediná ambrová značka ONE GENE."
+    },
+    {
+      "id": "S85c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85c.png",
+      "note": "Šipky ukazují na kartu YouTube nahoře a na popis dole, tedy na místa mimo obraz. Rámeček je čárkovaný, protože video v době renderu ještě nemusí být venku.",
+      "diagram_generator": "pumpa",
+      "diagram": "Čárkovaný rámeček 16:9 s nápisem NEXT VIDEO, nad ním šipka nahoru a pod ním šipka dolů.",
+      "pause": 2.2
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Nejpřesnější vyjádření teze videa. Biologická osa musí být dokonale rovná.",
+      "diagram_generator": "pumpa",
+      "diagram": "Dvě osy nad sebou: biologie beze změny, pravidlo se v roce 1919 zlomí."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Výplata předchozí scény. Odchod z rámu, ne zastavení.",
+      "diagram_generator": "pumpa",
+      "diagram": "Pravidlo přeroste biologii a odchází z rámu vpravo.",
+      "pause": 2.8
+    },
+    {
+      "id": "S87b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87b.png",
+      "note": "Měřítko je to tvrzení — silueta je zmenšená proti postavám zbytku videa.",
+      "diagram_generator": "zaver",
+      "diagram": "Malá silueta dítěte vlevo dole, zbytek rámu prázdný."
+    },
+    {
+      "id": "S87c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87c.png",
+      "note": "Stejná barva u všech tří je celé tvrzení: zatím se nerozlišuje. Kdyby jeden byl jiný, kresba by tvrdila opak hlasu.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž silueta a kolem ní tři opary, všechny stejně ambrové. Žádný popisek, žádný škrt."
+    },
+    {
+      "id": "S87d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87d.png",
+      "note": "Teprve tady se barva rozdělí — to je ten okamžik, kdy se to dítě naučilo. Třetí bez popisku drží, že se to nikdy nedoučí celé.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, ale jeden opar dostane LOVELY a druhý přeškrtnuté NOT. Třetí zůstane bez popisku.",
+      "pause": 2.0
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Pojistka proti výkladu „nemyjte se“. Musí být kladná a nepřeškrtnutá — to je celý smysl scény.",
+      "diagram_generator": "zaver",
+      "diagram": "Ikona mytí BEZ přeškrtnutí, ambrová."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Šev je to tvrzení: slepili je lidé, nejsou to tytéž věci.",
+      "diagram_generator": "zaver",
+      "diagram": "Dva svařené bloky HYGIENE a ODOUR, mezi nimi ambrový šev."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Půlka dvojice. Druhá je v S91 a musí být na týchž souřadnicích.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo molekula s popiskem SMELL a bez výstražné značky."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Zrcadlo S90. Prázdno je tu nositelem tvrzení.",
+      "diagram_generator": "zaver",
+      "diagram": "Vpravo prázdné místo s výstražnou značkou a bez molekuly."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Plyn se nesmí obarvit ani naznačit obláčkem — scéna říká, že ho není jak poznat. Je to nejtěžší kresba videa právě proto.",
+      "diagram_generator": "zaver",
+      "diagram": "Ložnice, bezbarvý plyn bez jakékoli značky, popisek CARBON MONOXIDE."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Poctivá výhrada. Kdyby se šev škrtl, video by tvrdilo, že pravidlo je nesmysl.",
+      "diagram_generator": "zaver",
+      "diagram": "Šev z S89, nepřeškrtnutý, ztlumený."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Ústupek divákovi. Bez karikatury — jakmile by postava byla směšná, scéna ztratí poctivost.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě postavy vedle sebe na lavici, mezi nimi zřetelný odstup."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Pásmo musí být viditelně široké, protože věta říká „a great deal of room“.",
+      "diagram_generator": "zaver",
+      "diagram": "Úsečka mezi dvěma krajnostmi, uprostřed široké ambrové pásmo ROOM.",
+      "pause": 2.2
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Význam se připíná, není uvnitř. Táž myšlenka jako S53, teď jako závěr.",
+      "diagram_generator": "zaver",
+      "diagram": "Molekula a vedle ní dvě různé cedulky, obě připnuté zvenčí."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Splnění slibu z S20. Souřadnice té tečky je závazek — kdyby se posunula, návrat se nepozná.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ, NÁVRAT: mřížka z S18–S20 se vrátí i s tou jedinou ambrovou tečkou na TÉŽE souřadnici.",
+      "pause": 2.2
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Jediná změna proti S97.",
+      "diagram_generator": "zaver",
+      "diagram": "Tečky se dají do pomalého driftu pruhem."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Dvě reakce, přesně jak je jmenuje hlas.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž mřížka, u dvou teček reakce: hlad a couvnutí."
+    },
+    {
+      "id": "S100",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S100.png",
+      "note": "Vzpomínka vyvolaná pachem se diagramem nakreslit nedá. Bez lidí — divák si tam má dosadit vlastní kuchyň.",
+      "prompt": "an empty domestic kitchen from decades ago, worn enamel surfaces and a single chair, soft dust in still air, flat diffuse overcast light through a plain window, no sun, muted palette, no people, no text"
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Nepoměr je pointa. Váhy musí být zjevně převážené na stranu té tečky.",
+      "diagram_generator": "zaver",
+      "diagram": "Váhy: na jedné misce jediná tečka, na druhé celá silueta člověka. Miska s tečkou je dole."
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Poslední výskyt páteře v plné podobě. Popisek je to, co se za celé video změnilo.",
+      "diagram_generator": "zaver",
+      "diagram": "Pruh páteře mezi dvěma postavami, po něm letí jediná molekula; nad ní popisek INFORMATION, ne SMELL."
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Callback na S24 a na S51. Signál nesmí mít mezeru — věta říká, že to nikdy nepřestalo.",
+      "diagram_generator": "zaver",
+      "diagram": "Časová osa z S24, na ní čich a daleko vpravo slova. Nad osou běží signál bez přerušení."
+    },
+    {
+      "id": "S104",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S104.png",
+      "note": "Poslední atmosférická scéna. Odtud dál začíná okno závěrečné obrazovky, takže od S107 už jen klidné diagramy.",
+      "prompt": "a freshly laundered white shirt hanging alone against a plain pale wall, soft folds, fine dust in still air, flat diffuse overcast light, no sun, dry matte surfaces, muted palette, no text"
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "Kresba patří do DOLNÍ poloviny — od téhle scény se blíží závěrečná obrazovka a prvky YouTube patří nahoru.",
+      "diagram_generator": "zaver",
+      "diagram": "Košile ztlumená, pod ní v dolní části rámu slabý ambrový signál.",
+      "pause": 2.4
+    },
+    {
+      "id": "S106",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: horní polovina musí zůstat volná, viz docs/storyboard-a-diagramy.md. Kontrola `zaver_check.py`.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě postavy nízko v rámu, mezi nimi pruh. Horní polovina rámu prázdná."
+    },
+    {
+      "id": "S107",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S107.png",
+      "note": "Škrtá se slovo, ne molekuly. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Nízko v rámu přeškrtnutý nápis BAD a vedle něj hrstka teček. Horní polovina prázdná."
+    },
+    {
+      "id": "S108",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S108.png",
+      "note": "Poslední callback na reklamní blok. Rok číslicí kvůli `pronounce`.",
+      "diagram_generator": "zaver",
+      "diagram": "Tečky nízko v rámu a mezi nimi ztlumená značka 1919. Horní polovina prázdná."
+    },
+    {
+      "id": "S108b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S108b.png",
+      "note": "Je v posledních dvaceti sekundách, takže horní polovina musí zůstat volná pro kartu a kolečko odběru (`hlidej_zaver`).",
+      "diagram_generator": "zaver",
+      "diagram": "Nízko v rámu tečky, nad nimi ambrový nápis ONE LESS THING TO CARRY. Horní polovina prázdná."
+    },
+    {
+      "id": "S109",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S109.png",
+      "note": "Předposlední úder. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Silueta člověka ztlumená skoro do pozadí, nízko v rámu."
+    },
+    {
+      "id": "S110",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S110.png",
+      "note": "Závěrečná deska. Klidná, statická, s volnou horní polovinou pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Zůstanou jen tečky, nízko v rámu. Silueta zmizela."
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese MYŠLENKU: počítač ti řekne přesně, co se stalo. Zavádí páteř (terminál). Bez SDXL.",
+   "diagram_generator": "hak",
+   "diagram": "První obrazovka nese MYŠLENKU: počítač ti řekne přesně, co se stalo. Zavádí páteř (terminál). Bez SDXL.",
+   "anim": "animace"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Rozsvítí se přesný řádek chyby. Rým: u těla v S04 tohle chybí.",
+   "diagram_generator": "hak",
+   "diagram": "Rozsvítí se přesný řádek chyby. Rým: u těla v S04 tohle chybí."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Tělo poprvé na místě monitoru. Ambrové terče jen tam, kde to bolí; EXHAUSTED nemá terč, není to místo.",
+   "diagram_generator": "hak",
+   "diagram": "Tělo poprvé na místě monitoru. Ambrové terče jen tam, kde to bolí; EXHAUSTED nemá terč, není to místo.",
+   "anim": "animace"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Tělo a terminál vedle sebe: stejný formát logu, nulová informace. Jediná scéna, kde je text hláškou i hlasem.",
+   "diagram_generator": "hak",
+   "diagram": "Tělo a terminál vedle sebe: stejný formát logu, nulová informace. Jediná scéna, kde je text hláškou i hlasem.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "ZÁSTAVA: `whoami` → `admin`. Vyplácí S51. Mozek ambrově, protože je o něm řeč.",
+   "diagram_generator": "hak",
+   "diagram": "ZÁSTAVA: `whoami` → `admin`. Vyplácí S51. Mozek ambrově, protože je o něm řeč."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Otázka bez odpovědi, kurzor čeká. Žádné permission denied, to patří až do S51.",
+   "diagram_generator": "hak",
+   "diagram": "Otázka bez odpovědi, kurzor čeká. Žádné permission denied, to patří až do S51.",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Hřebík skrz botu, hlavička na prkně. Měřítko 15 CM jen jako popisek, kresba není v měřítku. Zdroj BMJ 1995 viz factcheck ⚠.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Hřebík skrz botu, hlavička na prkně. Měřítko 15 CM jen jako popisek, kresba není v měřítku. Zdroj BMJ 1995 viz factcheck ⚠."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "PAIN plné, INJURY s otazníkem: divák ještě neví. Měřiče jsou poměrové, bez čísel.",
+   "diagram_generator": "hrebiky",
+   "diagram": "PAIN plné, INJURY s otazníkem: divák ještě neví. Měřiče jsou poměrové, bez čísel.",
+   "pause": 0.9
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Obrat. Celé chodidlo shora, hřebík v mezeře mezi palcem a druhým prstem, INJURY nula. Pauza drží překvapení.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Obrat. Celé chodidlo shora, hřebík v mezeře mezi palcem a druhým prstem, INJURY nula. Pauza drží překvapení.",
+   "pause": 1.6
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Zatím bez hřebíku, divák musí mít tutéž nevědomost jako on. Měřič malý, INJURY otazník.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Zatím bez hřebíku, divák musí mít tutéž nevědomost jako on. Měřič malý, INJURY otazník."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Šest dní jako šest polí: právě délka dělá z případu pointu.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Šest dní jako šest polí: právě délka dělá z případu pointu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Rentgen: hřebík ústy do mozku podle AP a TIME. Měřiče obráceně proti S09. Není to skutečný snímek, a nesmí tak působit: kresba.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Rentgen: hřebík ústy do mozku podle AP a TIME. Měřiče obráceně proti S09. Není to skutečný snímek, a nesmí tak působit: kresba.",
+   "pause": 1.4,
+   "anim": "animace"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Oba případy na týchž souřadnicích, obrácené měřiče. Nejsilnější obraz bloku.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Oba případy na týchž souřadnicích, obrácené měřiče. Nejsilnější obraz bloku."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Totéž ztlumené a nápis. Spodní pás volný: za touto scénou je výzva k odběru.",
+   "diagram_generator": "hrebiky",
+   "diagram": "Totéž ztlumené a nápis. Spodní pás volný: za touto scénou je výzva k odběru.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Čtyři šipky z pěti nahoru = ~80 % (assert). Bloudivý nerv ambrově, z mozku přes srdce a plíce do střev.",
+   "diagram_generator": "nerv",
+   "diagram": "Čtyři šipky z pěti nahoru = ~80 % (assert). Bloudivý nerv ambrově, z mozku přes srdce a plíce do střev.",
+   "anim": "animace"
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "60 teček, 5 svítí: ilustrace, ne data, proto bez čísla.",
+   "diagram_generator": "nerv",
+   "diagram": "60 teček, 5 svítí: ilustrace, ne data, proto bez čísla."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Pokus: delší pauza a stopky. Srdce se NESMÍ animovat tepem, to by byla nápověda. Rozhodne se v draftu.",
+   "diagram_generator": "nerv",
+   "diagram": "Pokus: delší pauza a stopky. Srdce se NESMÍ animovat tepem, to by byla nápověda. Rozhodne se v draftu.",
+   "pause": 6.0,
+   "anim": "animace"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Řady srdcí. Poměr 8/12 je ilustrace, zdroj říká jen 'většina napočítá málo', proto bez čísla. Nesmí tvrdit víc.",
+   "diagram_generator": "nerv",
+   "diagram": "Řady srdcí. Poměr 8/12 je ilustrace, zdroj říká jen 'většina napočítá málo', proto bez čísla. Nesmí tvrdit víc.",
+   "pause": 1.2
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Jedno číslo přes celý obraz, s výhradou o krvi přímo pod ním.",
+   "diagram_generator": "nerv",
+   "diagram": "Jedno číslo přes celý obraz, s výhradou o krvi přímo pod ním.",
+   "pause": 0.5
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Trychtýř, výslovně NOT TO SCALE a ONE RECENT ESTIMATE (1 Gbit proti 10 bitům se v měřítku nakreslit nedá).",
+   "diagram_generator": "nerv",
+   "diagram": "Trychtýř, výslovně NOT TO SCALE a ONE RECENT ESTIMATE (1 Gbit proti 10 bitům se v měřítku nakreslit nedá).",
+   "pause": 0.5
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Terminál je příliš úzký: čáry z těla vcházejí, projdou tři řádky. Výplata věty 'The terminal is too narrow'.",
+   "diagram_generator": "nerv",
+   "diagram": "Terminál je příliš úzký: čáry z těla vcházejí, projdou tři řádky. Výplata věty 'The terminal is too narrow'.",
+   "pause": 2.4
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Doslovný citát ze SRE Book, kap. 6.",
+   "diagram_generator": "alarm",
+   "diagram": "Doslovný citát ze SRE Book, kap. 6."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Dvě větve téhož zvonku. Vysvětluje, co je 'page'.",
+   "diagram_generator": "alarm",
+   "diagram": "Dvě větve téhož zvonku. Vysvětluje, co je 'page'.",
+   "pause": 1.2
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Výčet: `vycet` 0.3 kvůli pauzám mezi položkami. Každý příznak = akce.",
+   "diagram_generator": "alarm",
+   "diagram": "Výčet: `vycet` 0.3 kvůli pauzám mezi položkami. Každý příznak = akce.",
+   "vycet": 0.3,
+   "anim": "animace"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Bolest ve skupině s hladem a žízní, zrak a sluch mimo: přesně Wallovo srovnání. Spodní věta je náš výklad.",
+   "diagram_generator": "alarm",
+   "diagram": "Bolest ve skupině s hladem a žízní, zrak a sluch mimo: přesně Wallovo srovnání. Spodní věta je náš výklad.",
+   "pause": 1.2
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "12 postav, 4 svítí (1/3), 2 z nich s otazníkem (skoro polovina). assert.",
+   "diagram_generator": "alarm",
+   "diagram": "12 postav, 4 svítí (1/3), 2 z nich s otazníkem (skoro polovina). assert."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "45 srdcí ze 100 (317/703 = 45,1 %). assert. Ztlumená jen obrysem.",
+   "diagram_generator": "alarm",
+   "diagram": "45 srdcí ze 100 (317/703 = 45,1 %). assert. Ztlumená jen obrysem.",
+   "pause": 1.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Hypotéza ČÁRKOVANĚ (konvence 2), a slovem. Tlakoměry a léky jsou úplný konec osy.",
+   "diagram_generator": "alarm",
+   "diagram": "Hypotéza ČÁRKOVANĚ (konvence 2), a slovem. Tlakoměry a léky jsou úplný konec osy.",
+   "pause": 1.2
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Hlásič nahoře, levný a drahý omyl pod ním. Toast a dům jsou naše ilustrace, Nesse je nejmenuje.",
+   "diagram_generator": "alarm",
+   "diagram": "Hlásič nahoře, levný a drahý omyl pod ním. Toast a dům jsou naše ilustrace, Nesse je nejmenuje."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Spodní pás volný: za touto scénou je druhá výzva k odběru. Ne později: S36 je o nemocných a S51 je pointa.",
+   "diagram_generator": "alarm",
+   "diagram": "Spodní pás volný: za touto scénou je druhá výzva k odběru. Ne později: S36 je o nemocných a S51 je pointa.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "CO₂ silné vedení ke zvonku, O₂ slabé: kyslíkové čidlo existuje, proto ne žádné vedení (factcheck S31).",
+   "diagram_generator": "dech",
+   "diagram": "CO₂ silné vedení ke zvonku, O₂ slabé: kyslíkové čidlo existuje, proto ne žádné vedení (factcheck S31).",
+   "pause": 0.5
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Táž kresba: O₂ klesá, CO₂ nízko, zvonek ztlumený a ne přeškrtnutý. BARELY, ne NEVER.",
+   "diagram_generator": "dech",
+   "diagram": "Táž kresba: O₂ klesá, CO₂ nízko, zvonek ztlumený a ne přeškrtnutý. BARELY, ne NEVER."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Profil letu ze zprávy AAIASB: skutečná data, ne skica. Houkačka ve 12 040 ft. Fotka letadla záměrně není.",
+   "diagram_generator": "dech",
+   "diagram": "Profil letu ze zprávy AAIASB: skutečná data, ne skica. Houkačka ve 12 040 ft. Fotka letadla záměrně není.",
+   "pause": 0.8,
+   "anim": "animace"
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Doslovné výroky ze zprávy (výpověď technika, viz factcheck). Americký pravopis PRESSURIZATION je citace. 121 mrtvých bez efektu.",
+   "diagram_generator": "dech",
+   "diagram": "Doslovné výroky ze zprávy (výpověď technika, viz factcheck). Americký pravopis PRESSURIZATION je citace. 121 mrtvých bez efektu.",
+   "pause": 2.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Rym s S31–S32: tatáž vedení, přerušená.",
+   "diagram_generator": "dech",
+   "diagram": "Rym s S31–S32: tatáž vedení, přerušená."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Lůžko a ventilátor, bez obličeje. Klidně, žádná dramatizace nemoci.",
+   "diagram_generator": "dech",
+   "diagram": "Lůžko a ventilátor, bez obličeje. Klidně, žádná dramatizace nemoci.",
+   "pause": 2.6
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Dvě nezávislé věci vedle sebe: tělo (infarkt → ruka, čelist) a hlava z profilu (patro → čelo). Čárkovaně = kudy se bolest přenáší, ne cesta nervu.",
+   "diagram_generator": "adresa",
+   "diagram": "Dvě nezávislé věci vedle sebe: tělo (infarkt → ruka, čelist) a hlava z profilu (patro → čelo). Čárkovaně = kudy se bolest přenáší, ne cesta nervu."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Schéma: signál jde OD orgánu a kůže KE stejnému neuronu a dál k mozku. Směr ověřen. 'Best-known explanation', ne jistota.",
+   "diagram_generator": "adresa",
+   "diagram": "Schéma: signál jde OD orgánu a kůže KE stejnému neuronu a dál k mozku. Směr ověřen. 'Best-known explanation', ne jistota.",
+   "pause": 0.6
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Mozek svede signál na kůži: čárkovaná šipka je mylné přisouzení, ne fyzická cesta (konvence 6).",
+   "diagram_generator": "adresa",
+   "diagram": "Mozek svede signál na kůži: čárkovaná šipka je mylné přisouzení, ne fyzická cesta (konvence 6).",
+   "pause": 1.2
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Pojistka: nesmí vyznít, že bolest nic neznamená. Jen text a srdce, nic dalšího.",
+   "diagram_generator": "adresa",
+   "diagram": "Pojistka: nesmí vyznít, že bolest nic neznamená. Jen text a srdce, nic dalšího.",
+   "pause": 1.2
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Tkáň mozku ambrově a bez receptorů. Záměrně bez operačního sálu.",
+   "diagram_generator": "adresa",
+   "diagram": "Tkáň mozku ambrově a bez receptorů. Záměrně bez operačního sálu."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Ambrový prstenec = tkáně kolem. Mozek ztlumený. Rým s S41, stejné souřadnice.",
+   "diagram_generator": "adresa",
+   "diagram": "Ambrový prstenec = tkáně kolem. Mozek ztlumený. Rým s S41, stejné souřadnice.",
+   "pause": 2.4
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "OBRAT: terminál se vrací a tentokrát má co ukázat. Pořadí podle dalších scén.",
+   "diagram_generator": "logy",
+   "diagram": "OBRAT: terminál se vrací a tentokrát má co ukázat. Pořadí podle dalších scén.",
+   "pause": 1.0,
+   "anim": "animace"
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "206 teček, 10 svítí (assert). Rozptýlené, aby se to nečetlo jako pořadí.",
+   "diagram_generator": "logy",
+   "diagram": "206 teček, 10 svítí (assert). Rozptýlené, aby se to nečetlo jako pořadí."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Vlas od kořínku doprava, po měsících. Rovnoměrné tečky: hladinu neznáme, kresba ji nesmí tvrdit.",
+   "diagram_generator": "logy",
+   "diagram": "Vlas od kořínku doprava, po měsících. Rovnoměrné tečky: hladinu neznáme, kresba ji nesmí tvrdit."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "150 teček (assert). Odhad z nádorů, proto ESTIMATED v textu.",
+   "diagram_generator": "logy",
+   "diagram": "150 teček (assert). Odhad z nádorů, proto ESTIMATED v textu."
+  },
+  {
+   "id": "S47",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Skutečná fotka: 'jeden log si přečteš sám', takže musí být skutečný nehet. Public domain. Vybrat z kontaktního listu. Fotka jen během věty o rýze (uživatel: nenechávat ji tak dlouho): předtím obraz z S46, potom terminál z S48 bez textu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Beau's lines fingernails",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "anim": "animace",
+      "pause": 1.2
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "EMOČNÍ VRCHOL. Dlouhá pauza, klidný obraz, žádná animace. `you → not listed`.",
+   "diagram_generator": "logy",
+   "diagram": "EMOČNÍ VRCHOL. Dlouhá pauza, klidný obraz, žádná animace. `you → not listed`.",
+   "pause": 3.0
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Pět přístrojů. Spodní věta chystá S50.",
+   "diagram_generator": "logy",
+   "diagram": "Pět přístrojů. Spodní věta chystá S50.",
+   "pause": 0.5
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Totéž číslo dvakrát na týchž pozicích, jiný význam.",
+   "diagram_generator": "logy",
+   "diagram": "Totéž číslo dvakrát na týchž pozicích, jiný význam.",
+   "pause": 2.4
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "VÝPLATA PÁTEŘE, rým s S05: `admin` se škrtne na slově aren't. Krátká pauza a S51b nese ránu.",
+   "diagram_generator": "zaver",
+   "diagram": "VÝPLATA PÁTEŘE, rým s S05: `admin` se škrtne na slově aren't. Krátká pauza a S51b nese ránu.",
+   "pause": 1.1,
+   "anim": "animace"
+  },
+  {
+   "id": "S51b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51b.png",
+   "anim": "animace",
+   "note": "Tentýž obraz, sudo selže na slově root. Hláška sudoers je doslovná (i s gramatikou 'you is'), vtip pro lidi z IT. Vlastní scéna kvůli pauze, viz zaver.py. Návětí kvůli krátké promluvě.",
+   "diagram": "Terminál: admin škrtnutý, sudo cat body.log, not in the sudoers file.",
+   "diagram_generator": "zaver",
+   "pause": 2.8,
+   "naveti": "That is what it looked like from the inside."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Palubní deska na hrudi, tři kontrolky. 'Built to make you act' je úsudek (factcheck S51–S54).",
+   "diagram_generator": "zaver",
+   "diagram": "Palubní deska na hrudi, tři kontrolky. 'Built to make you act' je úsudek (factcheck S51–S54).",
+   "pause": 1.2
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Táž silueta dvakrát a lupa: měříš sám sebe jako cizího.",
+   "diagram_generator": "zaver",
+   "diagram": "Táž silueta dvakrát a lupa: měříš sám sebe jako cizího.",
+   "pause": 1.4
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Posledních 20 s: horní polovina prázdná. Dvě siluety, lupa.",
+   "diagram_generator": "zaver",
+   "diagram": "Posledních 20 s: horní polovina prázdná. Dvě siluety, lupa.",
+   "pause": 2.8
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Otázka do komentářů, dolní polovina (docs/cta.md).",
+   "diagram_generator": "zaver",
+   "diagram": "Otázka do komentářů, dolní polovina (docs/cta.md).",
+   "pause": 3.0
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+1
+00:00:00,000 --> 00:00:03,960
+Somewhere in your home, there
+might be a clock that nobody has ever set.
+
+2
+00:00:04,576 --> 00:00:06,336
+It survives power cuts.
+
+3
+00:00:07,056 --> 00:00:11,176
+It changes for daylight saving time
+on its own, in the middle of the night.
+
+4
+00:00:11,778 --> 00:00:13,738
+It has no internet connection.
+
+5
+00:00:13,998 --> 00:00:17,578
+No Wi-Fi, no GPS, no app on your phone.
+
+6
+00:00:18,212 --> 00:00:20,732
+All it has is a tiny radio receiver.
+
+7
+00:00:20,812 --> 00:00:24,192
+And once every second,
+it hears a single pulse.
+
+8
+00:00:24,945 --> 00:00:27,105
+So how does a clock
+turn one pulse per second
+
+9
+00:00:27,335 --> 00:00:30,805
+into the exact time, the date,
+and even the day of the week?
+
+10
+00:00:32,535 --> 00:00:37,055
+In Europe, those pulses come
+from DCF77, near Frankfurt.
+
+11
+00:00:37,875 --> 00:00:41,075
+In America, from WWVB, in Colorado.
+
+12
+00:00:42,135 --> 00:00:44,395
+Different transmitters, the same idea.
+
+13
+00:00:45,029 --> 00:00:46,509
+Take the German one.
+
+14
+00:00:47,109 --> 00:00:49,989
+It sends a steady radio wave,
+day and night.
+
+15
+00:00:50,729 --> 00:00:54,189
+And at the start of every second,
+it briefly turns that wave down.
+
+16
+00:00:54,815 --> 00:00:57,135
+The trick is how long it stays down.
+
+17
+00:00:57,491 --> 00:01:00,211
+A dip of a tenth of a second means zero.
+
+18
+00:01:00,891 --> 00:01:02,871
+A dip of two tenths means one.
+
+19
+00:01:03,477 --> 00:01:07,197
+That's the whole idea.
+No packets, no network.
+
+20
+00:01:07,557 --> 00:01:11,157
+Just a radio wave that dips
+for a short time, or a longer one.
+
+21
+00:01:13,387 --> 00:01:14,947
+One bit every second.
+
+22
+00:01:15,027 --> 00:01:18,907
+Which means it would take a whole minute
+to send just sixty bits.
+
+23
+00:01:19,371 --> 00:01:21,331
+And in fact, it sends only fifty-nine.
+
+24
+00:01:22,325 --> 00:01:26,085
+In the last second of every minute,
+the wave doesn't dip at all.
+
+25
+00:01:26,745 --> 00:01:30,745
+And that missing dip is the most
+important part of the entire signal.
+
+26
+00:01:31,125 --> 00:01:35,505
+Because when the next dip arrives, the
+clock knows a new minute has just begun.
+
+27
+00:01:36,235 --> 00:01:38,235
+The gap works like a full stop.
+
+28
+00:01:38,795 --> 00:01:41,915
+Everything between two gaps
+is one complete sentence.
+
+29
+00:01:44,645 --> 00:01:47,465
+So what fits into a sentence
+of fifty-nine bits?
+
+30
+00:01:48,175 --> 00:01:49,915
+The minute. The hour.
+
+31
+00:01:50,215 --> 00:01:53,295
+The day of the month, the day of the week,
+the month, and the year.
+
+32
+00:01:53,927 --> 00:01:55,687
+Most numbers are sent digit by digit.
+
+33
+00:01:55,917 --> 00:01:59,757
+Forty-seven minutes
+isn't sent as forty-seven.
+
+34
+00:01:59,987 --> 00:02:03,507
+It's sent as two separate digits,
+a four and a seven.
+
+35
+00:02:04,073 --> 00:02:07,233
+Four bits are enough for any digit
+from zero to nine.
+
+36
+00:02:07,633 --> 00:02:11,693
+The tens of minutes never go past five,
+so they get only three.
+
+37
+00:02:11,999 --> 00:02:13,919
+And the year gets just two digits.
+
+38
+00:02:14,739 --> 00:02:19,429
+As far as the transmitter is concerned,
+2026 is simply twenty-six.
+
+39
+00:02:19,779 --> 00:02:22,239
+The clock supplies the century itself.
+
+40
+00:02:24,659 --> 00:02:26,819
+But radio isn't a clean channel.
+
+41
+00:02:27,419 --> 00:02:30,639
+A motor, a phone charger,
+a cheap LED bulb...
+
+42
+00:02:30,819 --> 00:02:32,639
+any of them can smudge a dip.
+
+43
+00:02:32,884 --> 00:02:37,504
+So after each block of numbers
+comes one extra bit, called a parity bit.
+
+44
+00:02:37,964 --> 00:02:42,244
+It's chosen so that the number of ones
+in the block always comes out even.
+
+45
+00:02:42,496 --> 00:02:44,776
+If interference flips a single bit,
+
+46
+00:02:44,856 --> 00:02:48,396
+the count turns odd, and the clock knows
+something went wrong.
+
+47
+00:02:48,649 --> 00:02:52,769
+But if two bits flip, the count is even
+again, and the mistake slips through.
+
+48
+00:02:53,375 --> 00:02:56,235
+That's why many clocks
+don't trust a single minute.
+
+49
+00:02:56,875 --> 00:02:58,815
+They wait for another valid one.
+
+50
+00:02:59,039 --> 00:03:01,939
+And that's why setting itself
+can take several minutes,
+
+51
+00:03:02,019 --> 00:03:04,059
+and on a bad day, much longer.
+
+52
+00:03:05,261 --> 00:03:07,241
+Which leaves a strange problem.
+
+53
+00:03:08,381 --> 00:03:12,201
+The clock spends a whole minute
+collecting the time for ten forty-eight.
+
+54
+00:03:12,421 --> 00:03:15,981
+But while it's collecting that message,
+it's still ten forty-seven.
+
+55
+00:03:17,289 --> 00:03:19,249
+So when does it actually change?
+
+56
+00:03:19,752 --> 00:03:21,772
+Because the message is an announcement.
+
+57
+00:03:22,612 --> 00:03:25,472
+It says what the time will be
+when the next minute begins.
+
+58
+00:03:26,271 --> 00:03:29,771
+The clock reads the whole sentence,
+waits out the missing dip,
+
+59
+00:03:29,871 --> 00:03:33,271
+and when the next dip arrives,
+that dip is the exact moment.
+
+60
+00:03:33,962 --> 00:03:36,282
+The bits tell the clock what time it is.
+
+61
+00:03:36,962 --> 00:03:38,342
+The dip tells it when.
+
+62
+00:03:40,992 --> 00:03:44,312
+But the sentence has a few more words
+than just the time.
+
+63
+00:03:44,907 --> 00:03:48,827
+Two bits say whether Germany
+is on winter time or summer time.
+
+64
+00:03:49,097 --> 00:03:50,777
+And a third one is a warning.
+
+65
+00:03:50,857 --> 00:03:54,737
+For a whole hour before the clocks change,
+it's switched to one.
+
+66
+00:03:54,997 --> 00:03:57,197
+So your clock doesn't need to know
+which Sunday in March
+
+67
+00:03:57,427 --> 00:04:01,357
+the clocks go forward,
+or which Sunday in October they go back.
+
+68
+00:04:01,877 --> 00:04:03,957
+Nobody ever taught it the rule.
+
+69
+00:04:04,577 --> 00:04:06,917
+It's simply told, an hour in advance.
+
+70
+00:04:07,747 --> 00:04:12,187
+If Europe ever stops changing the clocks,
+the warning will simply never come again.
+
+71
+00:04:14,707 --> 00:04:19,387
+Another bit used to warn of a leap second,
+an extra second added now and then,
+
+72
+00:04:19,467 --> 00:04:22,807
+because the Earth's rotation
+doesn't keep perfect time.
+
+73
+00:04:23,387 --> 00:04:25,967
+That minute could have sixty-one seconds.
+
+74
+00:04:26,816 --> 00:04:29,516
+The last one was added at the end of 2016.
+
+75
+00:04:30,096 --> 00:04:36,076
+But in October 2026, the world's metrology
+authorities decided to end leap seconds.
+
+76
+00:04:36,936 --> 00:04:41,416
+From 20 May 2027,
+UTC will run continuously.
+
+77
+00:04:44,136 --> 00:04:47,856
+And the first fourteen bits
+of every minute aren't about time at all.
+
+78
+00:04:48,213 --> 00:04:50,673
+Since 2006, they've also been used
+
+79
+00:04:50,903 --> 00:04:55,073
+to carry encrypted weather forecasts,
+for compatible weather stations.
+
+80
+00:04:55,604 --> 00:04:58,284
+So the signal that sets your alarm clock
+could also tell
+
+81
+00:04:58,514 --> 00:05:01,844
+someone else's weather station
+whether it would rain on Thursday.
+
+82
+00:05:04,594 --> 00:05:07,654
+And yet most of these clocks
+don't listen all the time.
+
+83
+00:05:08,294 --> 00:05:13,294
+Listening costs battery, so many of them
+try once a night, in the early hours.
+
+84
+00:05:13,951 --> 00:05:17,111
+Long waves reach a clock in two ways:
+along the ground,
+
+85
+00:05:17,341 --> 00:05:19,531
+and bounced off the upper atmosphere.
+
+86
+00:05:20,071 --> 00:05:24,811
+After dark, that upper path changes,
+and the signal often carries further.
+
+87
+00:05:25,183 --> 00:05:28,363
+And at three in the morning,
+fewer machines, chargers and lights
+
+88
+00:05:28,593 --> 00:05:31,143
+are usually running
+nearby to drown it out.
+
+89
+00:05:31,701 --> 00:05:35,181
+Between those check-ins,
+the clock runs on a quartz crystal,
+
+90
+00:05:35,341 --> 00:05:37,901
+which can drift by a second or so a day.
+
+91
+00:05:38,474 --> 00:05:42,074
+At the next successful check-in,
+the radio corrects that drift.
+
+92
+00:05:44,634 --> 00:05:46,674
+Even where it listens matters.
+
+93
+00:05:47,214 --> 00:05:50,314
+The antenna is a small rod of ferrite,
+wrapped in wire.
+
+94
+00:05:51,004 --> 00:05:52,824
+It hears best when the rod lies across
+
+95
+00:05:53,054 --> 00:05:56,404
+the direction of the transmitter,
+not pointing at it.
+
+96
+00:05:56,744 --> 00:06:00,744
+Turn the clock around,
+and a weak signal can vanish completely.
+
+97
+00:06:01,191 --> 00:06:05,251
+Which is why one clock works on a shelf,
+and the same clock, two metres away,
+
+98
+00:06:05,481 --> 00:06:08,991
+behind a reinforced concrete wall,
+never sets itself.
+
+99
+00:06:11,791 --> 00:06:14,571
+So where does the transmitter
+get its time from?
+
+100
+00:06:15,173 --> 00:06:20,733
+From PTB, Germany's national metrology
+institute, which runs atomic clocks.
+
+101
+00:06:21,477 --> 00:06:24,517
+The second itself is defined
+by caesium atoms.
+
+102
+00:06:25,597 --> 00:06:34,717
+One second is exactly
+9,192,631,770 oscillations
+
+103
+00:06:34,947 --> 00:06:36,737
+of the radiation they give off.
+
+104
+00:06:37,119 --> 00:06:40,519
+So a cheap alarm clock on a bedside table
+is, quite literally,
+
+105
+00:06:40,599 --> 00:06:43,959
+following a time standard
+defined by caesium atoms.
+
+106
+00:06:46,549 --> 00:06:48,149
+Not perfectly, though.
+
+107
+00:06:48,809 --> 00:06:51,849
+The signal travels at the speed of light,
+and even that takes
+
+108
+00:06:52,079 --> 00:06:54,649
+about three milliseconds
+for every thousand kilometres.
+
+109
+00:06:55,969 --> 00:06:59,969
+The receiver adds a delay of its own,
+and your clock corrects for none of it.
+
+110
+00:07:00,369 --> 00:07:01,889
+It doesn't need to.
+
+111
+00:07:02,189 --> 00:07:03,749
+It only shows seconds.
+
+112
+00:07:06,139 --> 00:07:09,079
+From one site near Frankfurt,
+the signal reaches clocks
+
+113
+00:07:09,309 --> 00:07:11,879
+up to about two thousand kilometres away.
+
+114
+00:07:12,739 --> 00:07:14,199
+That's most of Europe.
+
+115
+00:07:14,877 --> 00:07:20,077
+Switzerland had its own transmitter,
+called HBG, until the end of 2011.
+
+116
+00:07:21,057 --> 00:07:24,757
+Its antennas needed replacing,
+too few people used it,
+
+117
+00:07:24,837 --> 00:07:27,857
+and Swiss clocks could simply listen
+to Germany instead.
+
+118
+00:07:28,586 --> 00:07:33,966
+Others kept theirs. Britain, France,
+Japan and China all run their own.
+
+119
+00:07:34,529 --> 00:07:37,809
+And in North America, WWVB has broadcast
+
+120
+00:07:38,039 --> 00:07:43,369
+from Fort Collins since 1963,
+with a time code since 1965.
+
+121
+00:07:44,353 --> 00:07:46,333
+Same principle, different dialect.
+
+122
+00:07:47,173 --> 00:07:49,713
+A zero is a dip of two tenths of a second.
+
+123
+00:07:50,373 --> 00:07:52,113
+A one lasts half a second.
+
+124
+00:07:52,473 --> 00:07:54,233
+And instead of one gap per minute,
+
+125
+00:07:54,313 --> 00:07:58,273
+a longer marker comes every ten seconds,
+like commas in the sentence.
+
+126
+00:07:59,313 --> 00:08:01,033
+Two in a row mean a new minute.
+
+127
+00:08:01,923 --> 00:08:04,323
+The biggest difference
+is which time it sends.
+
+128
+00:08:05,003 --> 00:08:10,083
+Germany broadcasts Central European civil
+time, shared by much of the continent.
+
+129
+00:08:10,639 --> 00:08:13,679
+But the United States
+spans several time zones.
+
+130
+00:08:14,719 --> 00:08:20,639
+So WWVB sends universal time, UTC,
+and you tell the clock where you are.
+
+131
+00:08:20,947 --> 00:08:22,767
+It doesn't even send the month.
+
+132
+00:08:23,167 --> 00:08:27,380
+Just the day of the year,
+from one to three hundred and sixty-six.
+
+133
+00:08:27,680 --> 00:08:30,580
+None of these stations
+speak the same language.
+
+134
+00:08:31,160 --> 00:08:34,260
+A clock built for Germany
+can't make sense of Colorado.
+
+135
+00:08:36,670 --> 00:08:40,530
+But on both sides of the Atlantic,
+it's the same quiet routine.
+
+136
+00:08:41,330 --> 00:08:44,610
+Night after night, a small receiver
+lines itself up with an atomic
+
+137
+00:08:44,840 --> 00:08:48,710
+time standard,
+hundreds or thousands of kilometres away.
+
+138
+00:08:51,620 --> 00:08:53,520
+So here's a question for you.
+
+139
+00:08:54,180 --> 00:08:58,040
+If every radio time signal disappeared
+tonight, would you even notice?
+
+140
+00:08:58,480 --> 00:09:00,110
+Let me know in the comments.

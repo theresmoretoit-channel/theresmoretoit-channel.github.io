@@ -1,0 +1,653 @@
+1
+00:00:00,000 --> 00:00:02,260
+You press play on a cassette recorder.
+
+2
+00:00:02,700 --> 00:00:04,400
+And this comes out of the speaker.
+
+3
+00:00:09,960 --> 00:00:13,440
+It isn't music.
+And it isn't a game's soundtrack.
+
+4
+00:00:14,303 --> 00:00:15,543
+It is the game.
+
+5
+00:00:15,943 --> 00:00:19,903
+Every squeal is part of a program,
+and the computer is listening to it.
+
+6
+00:00:20,439 --> 00:00:22,539
+The cassette player has no idea.
+
+7
+00:00:23,119 --> 00:00:25,259
+As far as it knows, it's playing a song.
+
+8
+00:00:25,913 --> 00:00:28,233
+So how do you turn a song into a game?
+
+9
+00:00:28,653 --> 00:00:32,093
+And why could one wrong note
+throw away five minutes of waiting?
+
+10
+00:00:33,459 --> 00:00:36,039
+Here's the trick,
+on one particular machine:
+
+11
+00:00:36,319 --> 00:00:40,199
+the ZX Spectrum,
+a British home computer from 1982.
+
+12
+00:00:41,192 --> 00:00:42,992
+It uses two kinds of pulse.
+
+13
+00:00:43,752 --> 00:00:46,012
+A short pair of pulses means zero.
+
+14
+00:00:47,802 --> 00:00:50,462
+A one is the same pair,
+with each pulse twice as long,
+
+15
+00:00:50,692 --> 00:00:52,822
+so its tone sits an octave lower.
+
+16
+00:00:55,692 --> 00:00:58,612
+Send around fourteen hundred bits
+every second,
+
+17
+00:00:58,692 --> 00:01:00,772
+and you get the noise you just heard.
+
+18
+00:01:01,420 --> 00:01:05,240
+It also means a program full of zeros
+loads faster than one full of ones.
+
+19
+00:01:05,470 --> 00:01:09,000
+Every one takes twice as long to send.
+
+20
+00:01:11,530 --> 00:01:15,370
+Now, if you grew up in America,
+you may never have heard it at all.
+
+21
+00:01:15,678 --> 00:01:18,858
+Which is odd,
+because the idea itself was American.
+
+22
+00:01:19,657 --> 00:01:25,477
+In 1975, at a meeting in Kansas City,
+computer hobbyists agreed on a way
+
+23
+00:01:25,707 --> 00:01:29,017
+to store data as sound
+on ordinary audio cassettes.
+
+24
+00:01:29,673 --> 00:01:32,213
+A one was eight quick cycles
+of a high tone,
+
+25
+00:01:32,293 --> 00:01:34,573
+a zero four slower cycles of a low one.
+
+26
+00:01:34,803 --> 00:01:37,173
+Three hundred bits a second.
+
+27
+00:01:38,075 --> 00:01:41,068
+Early machines like the Apple II
+and the TRS-80
+
+28
+00:01:41,298 --> 00:01:45,095
+saved their programs
+on everyday tape recorders.
+
+29
+00:01:45,638 --> 00:01:48,418
+But American home computing
+moved on quickly.
+
+30
+00:01:49,190 --> 00:01:55,690
+In 1983, one magazine reported a survey:
+nine in ten new Commodore 64 owners
+
+31
+00:01:55,920 --> 00:01:58,670
+were buying a disk drive
+together with the computer.
+
+32
+00:01:59,905 --> 00:02:02,545
+In Britain, the story went the other way.
+
+33
+00:02:03,001 --> 00:02:03,961
+The Spectrum cost a hundred
+
+34
+00:02:04,191 --> 00:02:08,161
+and twenty-five pounds,
+and it came with no storage at all.
+
+35
+00:02:08,881 --> 00:02:11,861
+You used whatever cassette player
+you already had.
+
+36
+00:02:12,200 --> 00:02:14,420
+So for millions of kids across Europe,
+
+37
+00:02:14,500 --> 00:02:17,300
+this noise was the sound
+of a game about to start.
+
+38
+00:02:20,770 --> 00:02:24,850
+After enough loads, you could even tell
+which game it was just from the screech.
+
+39
+00:02:27,280 --> 00:02:30,480
+So let's follow one game
+from the tape into the computer.
+
+40
+00:02:31,301 --> 00:02:34,001
+You type LOAD, press enter,
+and press play.
+
+41
+00:02:34,640 --> 00:02:39,580
+First comes a steady hum, eight hundred
+cycles a second, for about five seconds.
+
+42
+00:02:40,261 --> 00:02:42,201
+It carries no data at all.
+
+43
+00:02:42,761 --> 00:02:46,621
+It's there so the computer can find
+the signal and lock onto its rhythm.
+
+44
+00:02:47,029 --> 00:02:49,469
+Then two quick pulses, the sync.
+
+45
+00:02:49,549 --> 00:02:51,589
+They mean: from here on, it's data.
+
+46
+00:02:52,353 --> 00:02:54,813
+The first thing to arrive
+is a short header.
+
+47
+00:02:55,533 --> 00:02:58,613
+Nineteen bytes:
+a name of up to ten letters,
+
+48
+00:02:58,693 --> 00:03:01,613
+what kind of file it is,
+and how long it's going to be.
+
+49
+00:03:02,001 --> 00:03:06,281
+Then a second, shorter hum, two seconds
+this time, and then the game itself.
+
+50
+00:03:07,046 --> 00:03:08,866
+Every byte is eight of those notes,
+
+51
+00:03:08,946 --> 00:03:12,306
+one after another,
+with no gaps between bytes at all.
+
+52
+00:03:12,559 --> 00:03:14,839
+And the computer doesn't hear notes.
+
+53
+00:03:15,379 --> 00:03:18,599
+It times the gap between one edge
+of the signal and the next.
+
+54
+00:03:19,035 --> 00:03:20,815
+A short pair is a zero.
+
+55
+00:03:21,255 --> 00:03:22,915
+A long pair is a one.
+
+56
+00:03:23,206 --> 00:03:25,006
+That's the whole decoder.
+
+57
+00:03:26,313 --> 00:03:29,573
+And the noise at the start of this video
+isn't a sound effect.
+
+58
+00:03:30,433 --> 00:03:35,413
+We generated it from exactly these rules,
+and a real Spectrum program is inside.
+
+59
+00:03:36,451 --> 00:03:38,491
+We'll play all of it at the very end.
+
+60
+00:03:38,871 --> 00:03:41,251
+Record it, and a Spectrum will load it.
+
+61
+00:03:43,641 --> 00:03:47,761
+Most games showed a picture first,
+and it loaded in a strange order.
+
+62
+00:03:48,387 --> 00:03:50,947
+Thin stripes appeared, eight lines apart,
+
+63
+00:03:51,027 --> 00:03:54,807
+then filled in, line by line,
+one third of the screen at a time.
+
+64
+00:03:55,607 --> 00:03:58,847
+And the colours came last,
+sweeping down over everything.
+
+65
+00:03:59,315 --> 00:04:01,895
+That picture alone
+took about forty seconds.
+
+66
+00:04:02,595 --> 00:04:04,695
+The whole game, around five minutes.
+
+67
+00:04:06,455 --> 00:04:08,955
+And at the end of each block
+comes one more byte.
+
+68
+00:04:09,721 --> 00:04:12,321
+While saving, the Spectrum runs
+every byte of the block
+
+69
+00:04:12,551 --> 00:04:17,441
+through a simple rule called XOR,
+and records the result as one more byte.
+
+70
+00:04:18,051 --> 00:04:20,531
+While loading, it repeats the calculation.
+
+71
+00:04:21,491 --> 00:04:24,251
+If the results agree,
+the block arrived intact.
+
+72
+00:04:24,618 --> 00:04:26,938
+If they don't, the Spectrum says this.
+
+73
+00:04:27,594 --> 00:04:31,374
+Five minutes of waiting, and one
+byte decides it was all for nothing.
+
+74
+00:04:32,054 --> 00:04:33,814
+Rewind, and start again.
+
+75
+00:04:36,024 --> 00:04:38,964
+Oddly, a broken header
+gets no error at all.
+
+76
+00:04:39,604 --> 00:04:43,164
+The Spectrum simply ignores it,
+and keeps listening for the next one.
+
+77
+00:04:45,564 --> 00:04:47,704
+Other computers made other bets.
+
+78
+00:04:48,476 --> 00:04:51,676
+The Commodore 64 recorded
+every block twice,
+
+79
+00:04:52,056 --> 00:04:55,516
+so a damaged spot in one copy
+could be rescued from the other.
+
+80
+00:04:56,081 --> 00:04:57,561
+Safer, but slow.
+
+81
+00:04:58,481 --> 00:05:01,381
+With Commodore's built-in routine,
+a forty-kilobyte program
+
+82
+00:05:01,611 --> 00:05:03,621
+took about twelve and a half minutes.
+
+83
+00:05:04,071 --> 00:05:07,071
+So game publishers wrote
+their own faster loaders,
+
+84
+00:05:07,151 --> 00:05:09,471
+some of them up to about ten times faster.
+
+85
+00:05:12,091 --> 00:05:14,171
+And then there was the cassette player.
+
+86
+00:05:14,961 --> 00:05:17,821
+Too quiet,
+and the edges sink into the hiss.
+
+87
+00:05:18,081 --> 00:05:20,621
+Too loud, and they smear into each other.
+
+88
+00:05:21,160 --> 00:05:23,120
+A tape running slightly fast or slow
+
+89
+00:05:23,350 --> 00:05:27,260
+stretches every pulse,
+and the computer is measuring time.
+
+90
+00:05:27,869 --> 00:05:31,289
+Worst of all was the azimuth,
+the angle of the tape head.
+
+91
+00:05:32,009 --> 00:05:35,469
+A tape recorded on one machine
+might not line up with another.
+
+92
+00:05:35,831 --> 00:05:39,631
+So people pushed a tiny screwdriver
+into a hole next to the head,
+
+93
+00:05:39,711 --> 00:05:42,071
+and turned it a fraction at a time,
+listening.
+
+94
+00:05:42,754 --> 00:05:46,354
+It looked like superstition.
+It was signal tuning.
+
+95
+00:05:48,944 --> 00:05:51,924
+But notice what the cassette player
+never had to do.
+
+96
+00:05:52,496 --> 00:05:54,616
+It never understood a single bit.
+
+97
+00:05:55,216 --> 00:05:57,476
+It recorded sound, and played it back.
+
+98
+00:05:57,841 --> 00:06:00,541
+Which means a program
+didn't really need a cassette.
+
+99
+00:06:01,381 --> 00:06:04,161
+Anything that could carry sound
+could carry software.
+
+100
+00:06:04,893 --> 00:06:08,653
+It also meant that copying a game
+was as easy as copying an album.
+
+101
+00:06:09,333 --> 00:06:11,353
+Two cassette decks and a cable.
+
+102
+00:06:13,053 --> 00:06:15,413
+Atari used both stereo tracks.
+
+103
+00:06:16,153 --> 00:06:18,573
+The program on one,
+and a voice on the other,
+
+104
+00:06:18,653 --> 00:06:21,493
+talking to you through the TV
+while the game loaded.
+
+105
+00:06:22,111 --> 00:06:27,131
+In Yugoslavia, a show on Radio Belgrade
+broadcast programs over the air.
+
+106
+00:06:27,690 --> 00:06:29,170
+Listeners recorded them on tape,
+
+107
+00:06:29,400 --> 00:06:34,450
+around a hundred and fifty programs
+between 1983 and 1986.
+
+108
+00:06:35,445 --> 00:06:37,925
+In Czechoslovakia, it was television.
+
+109
+00:06:38,385 --> 00:06:41,545
+A program played as sound
+under the closing credits.
+
+110
+00:06:42,412 --> 00:06:45,112
+And in 1983, the singer Pete Shelley
+
+111
+00:06:45,342 --> 00:06:48,292
+hid a Spectrum program
+at the end of a vinyl album.
+
+112
+00:06:48,929 --> 00:06:53,409
+Copy it to tape, load it, and the lyrics
+appeared on screen in time with the songs.
+
+113
+00:06:56,069 --> 00:06:57,369
+But there was a catch.
+
+114
+00:06:58,379 --> 00:07:02,159
+The radio could carry the sound
+to every computer in the country.
+
+115
+00:07:02,739 --> 00:07:05,159
+Only the right one could understand it.
+
+116
+00:07:05,688 --> 00:07:09,488
+Play a Spectrum game to a Commodore,
+and the Commodore hears noise.
+
+117
+00:07:10,308 --> 00:07:13,708
+The bits only mean something
+to a machine that knows the format.
+
+118
+00:07:14,205 --> 00:07:16,565
+So Dutch radio tried to fix that.
+
+119
+00:07:17,285 --> 00:07:21,785
+In 1982, it created BASICODE:
+one sound format,
+
+120
+00:07:21,865 --> 00:07:25,085
+with a small translator program
+for each kind of computer.
+
+121
+00:07:25,759 --> 00:07:27,799
+And that problem never went away.
+
+122
+00:07:28,199 --> 00:07:31,579
+A file is only useful
+if something can still read it.
+
+123
+00:07:34,049 --> 00:07:35,709
+Cassettes lost, of course.
+
+124
+00:07:36,389 --> 00:07:39,549
+Floppy disks were faster,
+then hard drives, then flash.
+
+125
+00:07:40,033 --> 00:07:42,393
+Except that tape never actually left.
+
+126
+00:07:43,073 --> 00:07:46,533
+Data centres still keep
+their archives on magnetic tape.
+
+127
+00:07:47,193 --> 00:07:51,133
+One modern LTO-9 cartridge
+holds eighteen terabytes.
+
+128
+00:07:51,854 --> 00:07:55,154
+Converted to Spectrum speed,
+that capacity would fill roughly
+
+129
+00:07:55,384 --> 00:07:56,694
+twenty-nine million cassettes,
+
+130
+00:07:56,924 --> 00:07:59,974
+and take more than three thousand
+years to load.
+
+131
+00:08:01,904 --> 00:08:03,624
+Still the same idea, though.
+
+132
+00:08:03,704 --> 00:08:08,424
+Patterns on a moving strip of tape, turned
+back into numbers when you need them.
+
+133
+00:08:10,694 --> 00:08:15,234
+So next time you hear that screech,
+remember what it is. Not noise.
+
+134
+00:08:15,314 --> 00:08:17,274
+A program, travelling as sound.
+
+135
+00:08:18,539 --> 00:08:20,299
+And somewhere in 1985,
+
+136
+00:08:20,519 --> 00:08:22,399
+a kid is sitting in front of a television,
+
+137
+00:08:22,629 --> 00:08:24,259
+waiting for it to stop.
+
+138
+00:08:24,899 --> 00:08:26,999
+Because when it does, the game begins.
+
+139
+00:08:30,279 --> 00:08:32,159
+So here's a question for you.
+
+140
+00:08:32,719 --> 00:08:36,499
+If you ever loaded a game from a cassette,
+what do you remember most about it?
+
+141
+00:08:36,899 --> 00:08:38,439
+Let me know in the comments.
+
+142
+00:08:40,249 --> 00:08:42,369
+And as promised, here's that program.
+
+143
+00:08:43,209 --> 00:08:46,779
+Just like Czechoslovak television,
+we've put it under the closing credits.

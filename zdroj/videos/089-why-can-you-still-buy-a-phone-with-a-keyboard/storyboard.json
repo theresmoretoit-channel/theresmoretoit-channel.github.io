@@ -1,0 +1,643 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz uvod.py, funkce s01()",
+   "note": "První scéna nese myšlenku (parametry současného telefonu), ne atmosféru; ne SDXL. Páteř: místo hlavního telefonu vlevo. Fotka: oficiální produktová fotka Unihertz (`art/titan2.png`, původ a licence v `art/PUVOD.md`). Klávesnice se v textu ještě neříká — přijde v S02.",
+   "pause": 0.4
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz uvod.py, funkce s02()",
+   "note": "Pointa úvodu: klávesnice. Parametry ztlumeně, ambrový popisek vede do spodní části fotky (tam je u Titanu 2 klávesnice — po dodání fotky ověřit polohu vodiče)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz uvod.py, funkce s03()",
+   "note": "Škrtá se NÁPIS (deset let starý BlackBerry), ne telefon."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz uvod.py, funkce s04()",
+   "note": "Hlavní otázka do 0:30. Jediný telefon s klávesami mezi skleněnými.",
+   "pause": 0.4
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "viz uvod.py, funkce s05()",
+   "note": "Teaser osobní pointy, splacený v S61–S62 (tatáž kompozice v S61).",
+   "pause": 2.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s06()",
+   "note": "Návrat k BlackBerry; páteř ztlumeně."
+  },
+  {
+   "id": "S07",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S07.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "BlackBerry Bold",
+    "pick": 3,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "Archiv: BlackBerry Bold 9650 (Evan-Amos, PD) — konkrétní věc se jménem. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-04 (dotaz „BlackBerry Bold“, pick 3)."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s08()",
+   "note": "Schéma BlackBerry: malý displej, plná klávesnice."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s09()",
+   "note": "Prsty přes displej vs. displej volný."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s10()",
+   "pause": 1.2,
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S11.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "iPhone 2G",
+    "pick": 5,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "Archiv: první iPhone zepředu, displej (Carl Berkeley, CC BY-SA 2.0). PICK Z KONTAKTNÍHO LISTU 2026-10-04 (dotaz „iPhone 2G“, pick 5); pick 3 (CC0) byl zadní strana v ruce — scéna mluví o displeji."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s12()",
+   "note": "Softwarová klávesnice: jazyk, rozložení, schovat. Obrysy, ne ambrová (není fyzická).",
+   "pause": 0.4
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s13()",
+   "note": "Celé čelo je displej.",
+   "pause": 0.5
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s14()",
+   "note": "Časová osa se zavádí; roky z factcheck.md (iPhone 2007, BlackBerry 2016)."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s15()",
+   "note": "OnwardMobility 2020–2022 čárkovaně = nevyšlo (konvence 2)."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "blackberry",
+   "diagram": "viz blackberry.py, funkce s16()",
+   "note": "Konec bloku; „THE END?“ s otazníkem — scénář říká „looked like“.",
+   "pause": 1.2
+  },
+  {
+   "id": "S17",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S17.png",
+   "prompt": "rows of identical black glass smartphones lying face up on a long grey table, all the same shape, soft overcast light, minimal, no logos",
+   "note": "SDXL: atmosféra „všichni dělají stejné skleněné obdélníky“. Ne konkrétní model — bez log. Kolo 1 (seed 1212222813) PŘIJATO 2026-10-04: řady stejných telefonů nesou funkci.",
+   "seed": 1212222813
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s18()",
+   "note": "Odbočka: pár malých firem dělá něco jiného."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s19()",
+   "note": "FOTKA Titan + Titan Pocket od uživatele VLASTNÍ FOTKA UŽIVATELE 2026-10-05 (`art/titan-a-pocket.png`, rámeček na šířku)."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s20()",
+   "note": "Rovnice: smartphone + klávesnice."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s21()",
+   "note": "Titan 2 na místě páteře; fotka jako S01.",
+   "pause": 0.4
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s22()",
+   "note": "Titan 2 Elite — oficiální produktová fotka Unihertz (`art/titan2-elite.png`, viz `art/PUVOD.md`)."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s23()",
+   "note": "Klávesnice jako touchpad: tah = kurzor/posun, klávesa = zkratka.",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s24()",
+   "pause": 1.2,
+   "note": ""
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s25()",
+   "note": ""
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s26()",
+   "note": "Astro Slide: mechanismus kódem (volná fotka na Commons není)."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s27()",
+   "note": "Zvláštní znaky českého, švédského, dánského rozložení (factcheck S27)."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s28()",
+   "note": "Pro1 X: mechanismus kódem (na Commons jen prototyp Pro1)."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s29()",
+   "note": "Osa: Titan 2019, Pro1 X 2022 (factcheck).",
+   "pause": 0.4
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s30()",
+   "note": "Clicks Communicator: oficiální fotka Clicks (art/PUVOD.md, bez výslovné licence, rozhodnutí uživatele). Popisek ANNOUNCED nese to, co dřív čárkovaná kresba — zatím se neprodává (factcheck S30).",
+   "pause": 0.6
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "nika",
+   "diagram": "viz nika.py, funkce s31()",
+   "note": "Konec bloku. Poměr kruhů je schéma → NOT TO SCALE.",
+   "pause": 1.2
+  },
+  {
+   "id": "S31b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "cta": true,
+   "note": "CTA. Historie: S05b (0:32, okno odchodu 88 % diváků) → S24b (2:50, uživateli při poslechu přišla nepatřičná uprostřed výčtu výrobců) → S31b: konec bloku „kdo je dělá“, před novým oddílem „But why?“, ~3:50.",
+   "pause": 2.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s32()",
+   "note": ""
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s33()",
+   "note": "Průřez: klávesy mají tvar, prst ho cítí.",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s34()",
+   "note": "Sklo je všude stejné → musíš se dívat."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s35()",
+   "pause": 0.4,
+   "note": ""
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s36()",
+   "pause": 1.2,
+   "note": ""
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s37()",
+   "note": ""
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s38()",
+   "note": "Otázka, kterou nikdo neklade: bublina čárkovaně.",
+   "pause": 0.4
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s39()",
+   "pause": 1.0,
+   "note": ""
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s40()",
+   "note": ""
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s41()",
+   "pause": 0.6,
+   "note": ""
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s42()",
+   "note": ""
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s43()",
+   "note": "Páteř: displej = moderní systém, klávesy = staré rozhraní.",
+   "pause": 2.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "hmat",
+   "diagram": "viz hmat.py, funkce s44()",
+   "note": "Nová otázka za pointou „hmat“; jen text.",
+   "pause": 1.2
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s45()",
+   "note": ""
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s46()",
+   "note": "Displej a tělo se odvozují v kódu (assert): větší telefon má TÝŽ displej, menší displej má TOTÉŽ tělo."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s47()",
+   "pause": 1.2,
+   "note": ""
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s48()",
+   "note": ""
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s49()",
+   "note": "ЙЦУКЕН jako zástupce cyrilice — voiceover říká jen „Cyrillic“."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s50()",
+   "note": ""
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s51()",
+   "pause": 1.2,
+   "note": ""
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s52()",
+   "pause": 2.4,
+   "note": ""
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s53()",
+   "note": "Davy jsou schéma → NOT TO SCALE.",
+   "pause": 0.4
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s54()",
+   "note": "Totéž, keyboard skupina malá — „far fewer“, bez čísla."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s55()",
+   "note": "Čárkovaný telefon = ten telefon neexistuje.",
+   "pause": 0.5
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "problem",
+   "diagram": "viz problem.py, funkce s56()",
+   "pause": 2.6,
+   "note": ""
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s57()",
+   "note": ""
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Regál obchodu se skleněnými telefony, čárkovaně prázdné místo po BlackBerry. Původně SDXL — dvě kola 2026-10-04 dala kancelář s monitory a zdeformované telefony na stole, funkci nenesla → kresba.",
+   "pause": 0.4,
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s58()"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s59()",
+   "note": ""
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s60()",
+   "pause": 3.0,
+   "note": ""
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s61()",
+   "pause": 1.2,
+   "note": ""
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s62()",
+   "note": "VÝPLATA PÁTEŘE: na místě schématu fotka uživatelova vlastního telefonu. VLASTNÍ FOTKA UŽIVATELE 2026-10-05 (`art/muj-titan.png`). Fotit na tmavém pozadí se zapnutým displejem.",
+   "pause": 1.6
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s63()",
+   "note": "Posledních ~20 s: obsah v DOLNÍ polovině, horní volná pro závěrečnou obrazovku. Fotka obou telefonů vlastní fotka uživatele 2026-10-05 (`art/oba-titany.png`)."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s64()",
+   "note": "Závěr, horní polovina volná.",
+   "pause": 0.6
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "zaver",
+   "diagram": "viz zaver.py, funkce s65()",
+   "note": "Závěrečná deska, horní polovina volná, delší pauza.",
+   "pause": 3.0
+  }
+ ]
+}

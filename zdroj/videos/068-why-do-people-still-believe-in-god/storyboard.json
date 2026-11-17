@@ -1,0 +1,489 @@
+{
+  "scenes": [
+    { "id": "S01", "source": "svg", "effect": "static", "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU, NE ATMOSFÉRU a záměrně NENÍ sdxl. ZAVEDENÍ PÁTEŘE: ostrov světla = to, co věda vysvětlila; kolem v temnotě pevně umístěné otázky PROČ, které se za celé video nikdy nerozsvítí. Tady je ostrov už velký (galaxie, DNA, stroje) — divák hned vidí nepoměr: světla spousta, a přesto temnota kolem.",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed jasný kruh (ostrov vysvětleného) na pevném středu, uvnitř tři rozsvícené fasety: galaxie, dvojšroubovice DNA, ikona stroje/čipu. Kolem v temném poli SLABĚ naznačené štítky WHY IS THERE ANYTHING? / MEANING / DEATH / PURPOSE / MORALITY — zatím tlumené." },
+
+{ "id": "S02", "source": "svg", "effect": "static", "visual": "images/S02.png",
+      "note": "Obrat: ostrov beze změny, ale otázky PROČ v temnotě kolem začnou zřetelně svítit. To je napětí videa.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž ostrov. Štítky v temném prstenci (WHY IS THERE ANYTHING? / MEANING / DEATH / PURPOSE / MORALITY) se rozsvítí ambrově — poprvé jsou čitelné.",
+      "pause": 1.0 },
+
+    { "id": "S02b", "source": "svg", "effect": "static", "visual": "images/S02b.png",
+      "note": "Jednoslovný beat. POZOR: jednoslovnou otázku Kokoro tázavou neudělá (CLAUDE.md) — tázavost nese OBRAZ a pauza, ne hlas. naveti řeší /s/ artefakt krátké samostatné promluvy a musí projít base.en (ověřit při TTS).",
+      "diagram_generator": "uvod",
+      "diagram": "Ostrov ztlumí, přes celý temný prstenec zůstane jediné velké ambrové WHY?",
+      "pause": 2.4,
+      "naveti": "And yet billions of people still believe in God." },
+
+    { "id": "S03", "source": "svg", "effect": "static", "visual": "images/S03.png",
+      "note": "Dvě cesty k odpovědi; druhá předjímá tezi videa (špatná otázka). Čárkovaná = hypotéza.",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě větve od WHY?: (1) plná čára 'SCIENCE FAILED TO REPLACE IT', (2) čárkovaná 'WE ASKED THE WRONG QUESTION'. Druhá se lehce zvýrazní.",
+      "pause": 2.4 },
+
+    { "id": "S04", "source": "svg", "effect": "static", "visual": "images/S04.png",
+      "note": "Flashback do minulosti: ostrov se SMRSKNE na drobný bod — kdysi bylo vysvětleno skoro nic, temnota všude. Táž páteř, jiný stav.",
+      "diagram_generator": "historie",
+      "diagram": "Ostrov jen jako malý doutnající bod uprostřed rozlehlé temnoty plné otazníků." },
+
+    { "id": "S05", "source": "sdxl", "effect": "slow_zoom_in", "visual": "images/S05.png",
+      "note": "Atmosférický předěl (jedna z mála sdxl scén). Bouře jako boží hněv — malované, ne fotorealistické (kotva stylu drží odpověď 'AI: ne').",
+      "prompt": "a dark dramatic storm over an ancient landscape, towering black clouds lit from within, a lone small figure looking up, painterly, ominous, sense of a watching presence, no text" },
+
+    { "id": "S06", "source": "svg", "effect": "static", "visual": "images/S06.png",
+      "note": "Kladná i záporná událost přisouzená vůli. Ikony, ne text přes celý obraz.",
+      "diagram_generator": "historie",
+      "diagram": "Dva panely: klas obilí se štítkem BLESSING, a znak nemoci/lebka se štítkem PUNISHMENT." },
+
+    { "id": "S07", "source": "svg", "effect": "static", "visual": "images/S07.png",
+      "note": "Pointa historické části: default vysvětlení = někdo to chtěl. Šipka od události k oku/vůli.",
+      "diagram_generator": "historie",
+      "diagram": "Otazník nad událostí, od něj šipka k velkému oku/siluetě vůle nahoře; dole vysází SOMEONE WANTED IT TO HAPPEN." },
+
+    { "id": "S08", "source": "svg", "effect": "static", "visual": "images/S08.png",
+      "note": "Přechod: věda začíná rozebírat. Od téhle scény ostrov ROSTE.",
+      "diagram_generator": "historie",
+      "diagram": "Malý ostrov světla, k jeho okraji míří 'nástroj' (čočka/skalpel světla), který rozsvěcuje první kus temnoty." },
+
+    { "id": "S09", "source": "svg", "effect": "static", "visual": "images/S09.png",
+      "note": "Tři konkrétní převody záhady na přírodní jev. Každý rozsvítí faset na ostrově. Beat-výčet (min_sentence_words=1).",
+      "diagram_generator": "historie",
+      "diagram": "Tři dvojice se šipkou →: LIGHTNING→ELECTRICITY, DISEASE→BIOLOGY, LIFE→EVOLUTION; každá přibude jako rozsvícená faseta ostrova." },
+
+    { "id": "S10", "source": "archive", "effect": "slow_zoom_out", "visual": "images/S10.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-09-27: NASA Abell 1689, zlatá hustá galaktická kupa (public domain, US Gov). Sedí k teplé svíčkové paletě; slow_zoom_out = otevírání času/prostoru.",
+      "archive": { "provider": "nasa", "query": "galaxy cluster Abell", "pick": 0,
+                   "grade": { "fit": 1.0, "saturation": 90, "vignette": true } } },
+
+    { "id": "S11", "source": "svg", "effect": "static", "visual": "images/S11.png",
+      "note": "Shrnutí růstu: ostrov je teď velký. 'One by one' — fasety naskákaly.",
+      "diagram_generator": "historie",
+      "diagram": "Ostrov výrazně větší než v S04–S08, plný rozsvícených faset; temnota kolem ustoupila, ale prstenec otázek PROČ zůstává." },
+
+    { "id": "S12", "source": "svg", "effect": "static", "visual": "images/S12.png",
+      "note": "Očekávání: když je vysvětleno tolik, náboženství mělo zmizet.",
+      "diagram_generator": "historie",
+      "diagram": "Nad velkým ostrovem čárkovaně naznačené mizející náboženské symboly (blednou)." },
+
+    { "id": "S12b", "source": "svg", "effect": "static", "visual": "images/S12b.png",
+      "note": "Přebití očekávání. Krátký beat — naveti pro intonaci a proti artefaktu.",
+      "diagram_generator": "historie",
+      "diagram": "Symboly znovu naskočí plné a pevné; ostrov je velký, a ony pořád tady. Štítek EXCEPT IT DIDN'T.",
+      "pause": 2.4,
+      "naveti": "So perhaps religion should have disappeared." },
+
+{ "id": "S14", "source": "svg", "effect": "static", "visual": "images/S14.png",
+      "note": "Klíčové rozlišení HOW × WHY. Dvě osy, ne dvě fáze.",
+      "diagram_generator": "hranice",
+      "diagram": "Dvě kolmé osy z jednoho bodu: vodorovná HOW (plná, měřitelná), svislá WHY (mizí do tmy). Ne totéž." },
+
+    { "id": "S15", "source": "svg", "effect": "static", "visual": "images/S15.png",
+      "note": "Příklad 1: vesmír. HOW uvnitř ostrova, WHY venku v temnotě jako pevný marker.",
+      "diagram_generator": "hranice",
+      "diagram": "Uvnitř ostrova 'EVOLUTION OF THE UNIVERSE' (rozsvíceno). Venku v tmě pevný marker WHY IS THERE A UNIVERSE AT ALL? — nedosažitelný." },
+
+    { "id": "S16", "source": "svg", "effect": "static", "visual": "images/S16.png",
+      "note": "Příklad 2: smrt. Tentýž tvar jako S15 — vizuální rým. WHY-marker DEATH je pevný a nerozsvítí se.",
+      "diagram_generator": "hranice",
+      "diagram": "Uvnitř ostrova 'WHAT HAPPENS TO THE BODY' (rozsvíceno). Venku pevný marker DOES DEATH MEAN ANYTHING? v temnotě." },
+
+    { "id": "S17", "source": "svg", "effect": "static", "visual": "images/S17.png",
+      "note": "Nejsou to nezodpovězené vědecké otázky, jsou JINÉHO DRUHU. Rozlišení tvaru, ne jen polohy.",
+      "diagram_generator": "hranice",
+      "diagram": "Dvě značky vedle sebe: kruh (vědecká otázka, uvnitř dosahu) vs. jiný tvar/barva (DIFFERENT KIND OF QUESTION), mimo dosah světla." },
+
+    { "id": "S18", "source": "svg", "effect": "static", "visual": "images/S18.png",
+      "note": "Závěr bloku HOW/WHY. Konec tematického bloku → delší pauza.",
+      "diagram_generator": "hranice",
+      "diagram": "Ostrov roste dál, ale prstenec WHY-markerů zůstává celý venku a nedotčený — přežije, i když stará vysvětlení zmizí.",
+      "pause": 2.4 },
+
+    { "id": "S19", "source": "svg", "effect": "static", "visual": "images/S19.png",
+      "note": "Nová linie: možná je ve hře ještě něco (psychologie). Odbočka od páteře k mysli.",
+      "diagram_generator": "mysl",
+      "diagram": "Silueta hlavy/mozku vstupuje do obrazu, ostrov ustupuje do pozadí ztlumený." },
+
+    { "id": "S20", "source": "svg", "effect": "static", "visual": "images/S20.png",
+      "note": "Mozek hledá vzorce a příčiny — obvykle užitečné.",
+      "diagram_generator": "mysl",
+      "diagram": "Hlava, z ní se rozbíhají spojnice k tečkám, které se skládají do vzorce; štítek PATTERNS & CAUSES." },
+
+    { "id": "S21", "source": "svg", "effect": "static", "visual": "images/S21.png",
+      "note": "Konkrétní příklad — bezpečnější předpoklad predátora. Kresba, ne fotka (obecná scéna).",
+      "diagram_generator": "mysl",
+      "diagram": "Křoví, v něm pohyb (naznačené oči), nad ním dvě možnosti: PREDATOR (ambrová, zvýrazněná) vs. JUST THE WIND (tlumená)." },
+
+    { "id": "S22", "source": "svg", "effect": "static", "visual": "images/S22.png",
+      "note": "První instinktivní otázka.",
+      "diagram_generator": "mysl",
+      "diagram": "Nad událostí velké WHAT CAUSED THIS?" },
+
+    { "id": "S23", "source": "svg", "effect": "static", "visual": "images/S23.png",
+      "note": "Krok dál — od 'co' k 'kdo'. Táž kompozice jako S22, mění se jediné slovo.",
+      "diagram_generator": "mysl",
+      "diagram": "Táž kompozice, WHAT přeškrtnuto/nahrazeno WHO CAUSED THIS? — posun k agentovi." },
+
+    { "id": "S24", "source": "svg", "effect": "static", "visual": "images/S24.png",
+      "note": "Detekce agenta jako jedna z INGREDIENCÍ, ne důkaz. Míra jistoty musí být v obraze.",
+      "diagram_generator": "mysl",
+      "diagram": "'Miska' s ingrediencemi intuitivní víry; jedna z nich ambrová AGENCY DETECTION, ostatní naznačené." },
+
+    { "id": "S25", "source": "svg", "effect": "static", "visual": "images/S25.png",
+      "note": "BRZDA před přehnaným závěrem — důležité. 'may' zvýraznit; psychologie nedokazuje, že Bůh není.",
+      "diagram_generator": "mysl",
+      "diagram": "Velké slovo MAY zvýrazněné; pod ním přeškrtnuté PROOF THAT GOD IS IMAGINARY (škrt vodorovnou čarou, text_skrtnuty)." },
+
+    { "id": "S26", "source": "svg", "effect": "static", "visual": "images/S26.png",
+      "note": "Uvedení experimentu — 'ještě podivnější možnost'. Otázka: musí být víra vědomá?",
+      "diagram_generator": "experiment",
+      "diagram": "Rozdělený člověk: nahoře 'CONSCIOUS' (co říká), dole 'BODY' (co dělá); mezi nimi otazník." },
+
+    { "id": "S27", "source": "svg", "effect": "static", "visual": "images/S27.png",
+      "note": "Popis experimentu bez přehánění. 'one small experiment' — malý vzorek přiznán (viz factcheck).",
+      "diagram_generator": "experiment",
+      "diagram": "Postava s elektrodami na prstech čte kartu s výzvou; štítek naznačí obsah bez drastického textu." },
+
+    { "id": "S28", "source": "svg", "effect": "static", "visual": "images/S28.png",
+      "note": "Vědomé popření.",
+      "diagram_generator": "experiment",
+      "diagram": "Nad hlavou bublina 'I DON'T BELIEVE A WORD OF IT.', klidná plochá linka." },
+
+    { "id": "S29", "source": "svg", "effect": "static", "visual": "images/S29.png",
+      "note": "Tělo reaguje — a stejně jako věřící. Linka kožního odporu vyskočí. assert: obě křivky stejná amplituda (kresba nesmí tvrdit víc než factcheck).",
+      "diagram_generator": "experiment",
+      "diagram": "Graf kožního odporu: dvě křivky (ATHEIST, BELIEVER) vyskočí do stejné výšky při 'GOD' podnětu. Osy s daty od začátku (ne prázdné)." },
+
+    { "id": "S30", "source": "svg", "effect": "static", "visual": "images/S30.png",
+      "note": "Rozpor vědomí × tělo. To je celá pointa scény.",
+      "diagram_generator": "experiment",
+      "diagram": "Nahoře 'THIS MEANS NOTHING' (klid), dole tatáž postava s vysokým signálem těla — nesoulad." },
+
+    { "id": "S31", "source": "svg", "effect": "static", "visual": "images/S31.png",
+      "note": "MANTINEL (viz factcheck): NEDOKAZUJE skrytou víru. Nutné, aby video netvrdilo víc než studie.",
+      "diagram_generator": "experiment",
+      "diagram": "Přeškrtnuté tvrzení ATHEISTS SECRETLY BELIEVE (text_skrtnuty)." },
+
+    { "id": "S31b", "source": "svg", "effect": "static", "visual": "images/S31b.png",
+      "note": "Co to UKAZUJE: cítění ≠ deklarace. Konec bloku → silná pauza.",
+      "diagram_generator": "experiment",
+      "diagram": "Dvě oddělené dráhy WHAT WE FEEL a WHAT WE SAY WE BELIEVE, které se nepotkávají.",
+      "pause": 2.8 },
+
+    { "id": "S32", "source": "svg", "effect": "static", "visual": "images/S32.png",
+      "note": "Smrt jako nejtěžší problém. DEATH marker z prstence páteře se sem přiblíží.",
+      "diagram_generator": "smrt",
+      "diagram": "Pevný marker DEATH zvětšený do popředí, kolem ztmavlý prstenec." },
+
+    { "id": "S33", "source": "svg", "effect": "static", "visual": "images/S33.png",
+      "note": "Věda smrt popisuje — tři kroky. Beat-výčet (min_sentence_words=1). Uvnitř ostrova.",
+      "diagram_generator": "smrt",
+      "diagram": "Tři fáze uvnitř dosahu vědy: CELLS STOP → BRAIN STOPS → BODY BREAKS DOWN, jako biologická sekvence." },
+
+    { "id": "S34", "source": "svg", "effect": "static", "visual": "images/S34.png",
+      "note": "Biologie nevyřeší EXISTENČNÍ problém — ten zůstává venku.",
+      "diagram_generator": "smrt",
+      "diagram": "Biologická sekvence rozsvícená uvnitř ostrova, ale nad ní pevný nerozsvícený marker THE EXISTENTIAL PROBLEM v temnotě." },
+
+    { "id": "S35", "source": "svg", "effect": "static", "visual": "images/S35.png",
+      "note": "Osobní obrat: víš, že zemřeš, a není konvenční řešení.",
+      "diagram_generator": "smrt",
+      "diagram": "Jednotlivá postava před temným markerem; štítek NO CONVENTIONAL SOLUTION." },
+
+    { "id": "S36", "source": "svg", "effect": "static", "visual": "images/S36.png",
+      "note": "Náboženství nabízí řešení. Krátký beat — naveti pro intonaci.",
+      "diagram_generator": "smrt",
+      "diagram": "K temnému markeru se poprvé natáhne jiné světlo než vědecké (teplejší) se štítkem RELIGION OFFERS ONE.",
+      "naveti": "There is no conventional solution." },
+
+    { "id": "S37", "source": "sdxl", "effect": "slow_zoom_in", "visual": "images/S37.png",
+      "note": "Atmosférický předěl (sdxl). 'Jiný svět / někdo čeká' — malované, snové, ne fotorealistické.",
+      "prompt": "a soft luminous doorway of warm light in vast darkness, a distant silhouette waiting, ethereal, painterly, hopeful and uncertain, no text" },
+
+    { "id": "S38", "source": "svg", "effect": "static", "visual": "images/S38.png",
+      "note": "Ty ideje nejsou pokus vysvětlit biologii — jsou odpovědí na emoční problém. Konec bloku → pauza.",
+      "diagram_generator": "smrt",
+      "diagram": "Dvě odlišené role vedle sebe: EXPLAINING BIOLOGY (chladné) vs. ANSWERING AN EMOTIONAL PROBLEM (teplé), náboženství patří k druhé.",
+      "pause": 2.8 },
+
+    { "id": "S39", "source": "svg", "effect": "static", "visual": "images/S39.png",
+      "note": "Náboženství = i sociální systém, ne jen tvrzení. Nová vrstva.",
+      "diagram_generator": "socialni",
+      "diagram": "Vlevo 'SUPERNATURAL CLAIMS' (malý uzel), vpravo se otevírá širší síť SOCIAL SYSTEM." },
+
+    { "id": "S40", "source": "svg", "effect": "static", "visual": "images/S40.png",
+      "note": "Výčet sedmi prvků. Beat-výčet — každé slovo dostane pauzu (min_sentence_words=1). Ne sedm střihů: jeden obraz, prvky naskakují do sítě.",
+      "diagram_generator": "socialni",
+      "diagram": "Síť uzlů, do níž postupně naskakují: FAMILY, COMMUNITY, RITUALS, TRADITIONS, HOLIDAYS, MARRIAGE, FUNERALS." },
+
+    { "id": "S41", "source": "archive", "effect": "static", "visual": "images/S41.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-09-27: shromáždění v lavicích čelem k oltáři (Puerto Princesa). 'Místo, kde se lidé scházejí' — komunita. Bez zoomu (na skupinu se zoom neořezává hlavy). Licenci ověřit po stažení.",
+      "archive": { "provider": "wikimedia", "query": "cathedral interior people mass", "pick": 0,
+                   "grade": { "fit": 0.92, "saturation": 85, "vignette": true } } },
+
+    { "id": "S42", "source": "svg", "effect": "static", "visual": "images/S42.png",
+      "note": "Náboženství se dědí, nevybírá po zvážení důkazů. Ironický kontrast formální věty a reality.",
+      "diagram_generator": "socialni",
+      "diagram": "Nahoře nabubřelá 'rozhodovací' bublina (dlouhá věta v uvozovkách), přeškrtnutá; dole prostá šipka INHERITED." },
+
+    { "id": "S43", "source": "svg", "effect": "static", "visual": "images/S43.png",
+      "note": "Prostě do toho vyrosteš.",
+      "diagram_generator": "socialni",
+      "diagram": "Malá postava uvnitř sítě z S40, štítek GREW UP WITH IT." },
+
+    { "id": "S44", "source": "svg", "effect": "static", "visual": "images/S44.png",
+      "note": "Když to miliony berou jako normu, stává se to identitou.",
+      "diagram_generator": "socialni",
+      "diagram": "Mnoho postav, jedna zvýrazněná; síť se překlápí do štítku CULTURE & IDENTITY." },
+
+    { "id": "S45", "source": "svg", "effect": "static", "visual": "images/S45.png",
+      "note": "Přežije, i když jednotlivá víra slábne. Konec bloku → pauza.",
+      "diagram_generator": "socialni",
+      "diagram": "Slábnoucí (blednoucí) symbol víry, ale síť kolem drží pevná — persistence.",
+      "pause": 2.2 },
+
+    { "id": "S46", "source": "svg", "effect": "static", "visual": "images/S46.png",
+      "note": "Není to jen dávné společnosti — most k BSG.",
+      "diagram_generator": "bsg",
+      "diagram": "Časová šipka od 'ANCIENT' k 'NOW / FUTURE'; napětí, že se nic nemění." },
+
+    { "id": "S47", "source": "svg", "effect": "static", "visual": "images/S47.png",
+      "note": "BSG — POZOR: NELZE archiv (chráněné záběry). Konceptuální kresba: loď + drobná svatyňka. Krátký beat → naveti.",
+      "diagram_generator": "bsg",
+      "diagram": "Silueta sci-fi lodi, uvnitř ní malá zářící svatyňka/oltář — nakresleno, žádný odkaz na konkrétní seriál.",
+      "naveti": "And this isn't just something that happens in ancient societies." },
+
+    { "id": "S48", "source": "svg", "effect": "static", "visual": "images/S48.png",
+      "note": "Výčet čtyř náboženských prvků v sci-fi. Beat-výčet (min_sentence_words=1).",
+      "diagram_generator": "bsg",
+      "diagram": "Do siluety lodi naskákají ikony: GODS, PROPHECY, PRAYER, DESTINY." },
+
+    { "id": "S49", "source": "svg", "effect": "static", "visual": "images/S49.png",
+      "note": "Reakce části diváků. Uvozovky inline, ne přes celý obraz.",
+      "diagram_generator": "bsg",
+      "diagram": "Komentářová bublina diváka 'religious crap.' u obrazovky." },
+
+    { "id": "S50", "source": "svg", "effect": "static", "visual": "images/S50.png",
+      "note": "Obrat: právě to je zajímavé.",
+      "diagram_generator": "bsg",
+      "diagram": "Tatáž bublina, ale zvýrazní se jako THAT'S THE INTERESTING PART." },
+
+    { "id": "S51", "source": "sdxl", "effect": "slow_zoom_out", "visual": "images/S51.png",
+      "note": "Atmosférický předěl (sdxl): sci-fi svět s technologií daleko za naší. Malované, ne fotorealistické. Do dalších scén se vrací kresba.",
+      "prompt": "a vast futuristic spacefaring civilisation, enormous starships and glowing technology, painterly sci-fi, awe and scale, muted palette, no text" },
+
+    { "id": "S52", "source": "svg", "effect": "static", "visual": "images/S52.png",
+      "note": "Pointa BSG: lepší technika nezruší lidství. Klíčová věta.",
+      "diagram_generator": "bsg",
+      "diagram": "Rovnice-negace: 'BETTER TECHNOLOGY' → ≠ → 'STOPPED BEING HUMAN'; lidská silueta zůstává." },
+
+    { "id": "S53", "source": "svg", "effect": "static", "visual": "images/S53.png",
+      "note": "Sloučeno s bývalou S54: není to nerealistické → i mnohem vyspělejší civilizace by nesla tytéž otázky/strach/potřebu smyslu.",
+      "diagram_generator": "bsg",
+      "diagram": "Vyspělá civilizace (jasná fasetová koule), a přesto nese s sebou tři pevné markery QUESTIONS / FEARS / NEED FOR MEANING." },
+
+    { "id": "S55", "source": "svg", "effect": "static", "visual": "images/S55.png",
+      "note": "Nejsilnější obraz bloku: potomci mezi hvězdami se pořád ptají po Bohu. Ozvěna páteře (ostrov obří, WHY pořád venku). Konec bloku → silná pauza.",
+      "diagram_generator": "bsg",
+      "diagram": "Postavy mezi hvězdami s náznaky (cestování, umělé mysli), a nad tím pořád svítící pevný marker IS THERE A GOD? v temnotě.",
+      "pause": 2.8 },
+
+    { "id": "S56", "source": "svg", "effect": "static", "visual": "images/S56.png",
+      "note": "Představa dějin jako pochodu pryč od pověry.",
+      "diagram_generator": "march",
+      "diagram": "Přímá šipka SUPERSTITION → SCIENCE → (očekávaně) NO GODS, čistá lineární cesta." },
+
+{ "id": "S58", "source": "svg", "effect": "static", "visual": "images/S58.png",
+      "note": "Přebití: realita je složitější. Přímá šipka se láme.",
+      "diagram_generator": "march",
+      "diagram": "Ta přímá šipka se zkroutí/rozvětví; štítek MORE COMPLICATED." },
+
+    { "id": "S59", "source": "svg", "effect": "static", "visual": "images/S59.png",
+      "note": "Modernizace může zesvětštit — částečná pravda.",
+      "diagram_generator": "march",
+      "diagram": "Graf: vzdělanost/technika ↑, religiozita ↓ u některých společností (ale ne u všech — naznačit rozptyl)." },
+
+    { "id": "S60", "source": "svg", "effect": "static", "visual": "images/S60.png",
+      "note": "ALE technika nevyrábí ateismus automaticky. Přechod k datům vědců.",
+      "diagram_generator": "march",
+      "diagram": "Přeškrtnutá rovnice TECHNOLOGY = ATHEISM (text_skrtnuty)." },
+
+    { "id": "S61", "source": "svg", "effect": "static", "visual": "images/S61.png",
+      "note": "Uvození překvapení #1/#2 — jedna z NEJLEPŠÍCH částí videa (viz notes/factcheck).",
+      "diagram_generator": "vedci",
+      "diagram": "Otevření datového panelu DOESN'T FIT THE SIMPLE STORY." },
+
+    { "id": "S62", "source": "svg", "effect": "static", "visual": "images/S62.png",
+      "note": "Údaj 1914. Letopočet číslicí (pronounce). assert na výšku sloupce = 42 %.",
+      "diagram_generator": "vedci",
+      "diagram": "Sloupec/podíl: 1914 — 42% believe in a personal God (American scientists surveyed). Ambrová = 'o tomhle je řeč'." },
+
+    { "id": "S62b", "source": "svg", "effect": "static", "visual": "images/S62b.png",
+      "note": "Údaj 1997 vedle 1914 — skoro se nehnul. Táž osa jako S62 (vizuální srovnání). assert 39 %.",
+      "diagram_generator": "vedci",
+      "diagram": "Přibude druhý sloupec: 1997 — 39%, prakticky stejná výška jako 1914. Štítek BARELY MOVED." },
+
+    { "id": "S63", "source": "svg", "effect": "static", "visual": "images/S63.png",
+      "note": "Elita (NAS) — DRAMATICKY níž. Jiný vzorek! (factcheck: nesmí se slít s běžnými vědci). assert 7 %.",
+      "diagram_generator": "vedci",
+      "diagram": "Třetí, výrazně nižší sloupec: NATIONAL ACADEMY OF SCIENCES — 7%. Vizuálně oddělený od prvních dvou (jiná skupina)." },
+
+    { "id": "S64", "source": "svg", "effect": "static", "visual": "images/S64.png",
+      "note": "Vztah vědy a víry není prostý.",
+      "diagram_generator": "vedci",
+      "diagram": "Tři sloupce spolu; nad nimi NOT SO SIMPLE." },
+
+    { "id": "S65", "source": "svg", "effect": "static", "visual": "images/S65.png",
+      "note": "Pivot: zajímavé není JESTLI věří, ale PROČ se skupiny liší. Klíčová věta (zachovat).",
+      "diagram_generator": "vedci",
+      "diagram": "Přeškrtnuté DO SCIENTISTS BELIEVE?, zvýrazněné WHY DO GROUPS DIFFER?" },
+
+    { "id": "S66", "source": "svg", "effect": "static", "visual": "images/S66.png",
+      "note": "Věřící přijímají evoluci a kosmologii.",
+      "diagram_generator": "vedci",
+      "diagram": "Postava s oběma štítky FAITH + ACCEPTS EVOLUTION & COSMOLOGY vedle sebe, bez konfliktu." },
+
+{ "id": "S68", "source": "svg", "effect": "static", "visual": "images/S68.png",
+      "note": "Teze: nebojují o TOTÉŽ území. Návrat páteře — ostrov (HOW) a prstenec WHY se nepřekrývají. Konec bloku → pauza.",
+      "diagram_generator": "vedci",
+      "diagram": "Ostrov (SCIENCE / HOW) a oddělené pole (RELIGION / WHY) — jen malý průnik, ne totéž území.",
+      "pause": 2.6 },
+
+    { "id": "S69", "source": "svg", "effect": "static", "visual": "images/S69.png",
+      "note": "Poctivá výhrada: ne každé náboženské tvrzení je slučitelné s vědou.",
+      "diagram_generator": "testovani",
+      "diagram": "Štítek NOT EVERY CLAIM IS COMPATIBLE; do ostrova zasahuje část náboženských tvrzení." },
+
+    { "id": "S70", "source": "svg", "effect": "static", "visual": "images/S70.png",
+      "note": "Konkrétní tvrzení o fyzickém světě jdou testovat.",
+      "diagram_generator": "testovani",
+      "diagram": "Tvrzení o fyzickém světě vstupuje do dosahu vědy (uvnitř ostrova) a je testováno (fajfka/křížek)." },
+
+    { "id": "S71", "source": "svg", "effect": "static", "visual": "images/S71.png",
+      "note": "Historicky mnoho nadpřirozeného nahrazeno přírodním — to je reálné.",
+      "diagram_generator": "testovani",
+      "diagram": "Několik markerů přešlo z temnoty dovnitř ostrova (SUPERNATURAL→NATURAL); štítek THAT'S REAL." },
+
+    { "id": "S72", "source": "svg", "effect": "static", "visual": "images/S72.png",
+      "note": "Ale ne každá otázka je proto vědecká.",
+      "diagram_generator": "testovani",
+      "diagram": "Vedle přesunutých markerů zůstávají jiné, které do ostrova NEPATŘÍ (jiný tvar)." },
+
+    { "id": "S73", "source": "svg", "effect": "static", "visual": "images/S73.png",
+      "note": "A tady je argument nejtěžší. Konec bloku → pauza.",
+      "diagram_generator": "testovani",
+      "diagram": "Hranice ostrova a temnoty se ztluští/zamlží; štítek THIS IS WHERE IT GETS HARD.",
+      "pause": 2.2 },
+
+    { "id": "S74", "source": "svg", "effect": "static", "visual": "images/S74.png",
+      "note": "Další důvod: lidé nechtějí jen vysvětlení.",
+      "diagram_generator": "vyznam",
+      "diagram": "Přeškrtnuté ONLY EXPLANATIONS; otevře se širší seznam potřeb." },
+
+    { "id": "S75", "source": "svg", "effect": "static", "visual": "images/S75.png",
+      "note": "Stories / meaning / belonging. Beat-výčet.",
+      "diagram_generator": "vyznam",
+      "diagram": "Tři naskakující štítky STORIES, MEANING, BELONGING." },
+
+    { "id": "S76", "source": "svg", "effect": "static", "visual": "images/S76.png",
+      "note": "Rituály pro chvíle, kdy běžný život nestačí. Beat-výčet pěti (min_sentence_words=1).",
+      "diagram_generator": "vyznam",
+      "diagram": "Řada mezníků života: BIRTH, MARRIAGE, DEATH, GRIEF, HOPE." },
+
+    { "id": "S77", "source": "svg", "effect": "static", "visual": "images/S77.png",
+      "note": "I nevěřící chápe hodnotu těch věcí. Neutrální, nesoudící.",
+      "diagram_generator": "vyznam",
+      "diagram": "Postava se štítkem DOESN'T BELIEVE, a přesto rozumí hodnotě mezníků (spojnice k nim)." },
+
+    { "id": "S78", "source": "svg", "effect": "static", "visual": "images/S78.png",
+      "note": "Proto je náboženství těžší odstranit než mylné vysvětlení blesku. Zpětný odkaz na S09 (lightning). Konec bloku → pauza.",
+      "diagram_generator": "vyznam",
+      "diagram": "Vlevo snadno odškrtnutý LIGHTNING EXPLANATION, vpravo pevně zapuštěný uzel potřeb, který nejde jen vyškrtnout.",
+      "pause": 2.4 },
+
+    { "id": "S79", "source": "svg", "effect": "static", "visual": "images/S79.png",
+      "note": "Sloučeno s bývalou S80: otázka + 'Maybe' + rozdělení, že některé společnosti světštějí a jiné ne.",
+      "diagram_generator": "zmizi",
+      "diagram": "Velké WILL IT DISAPPEAR? a pod ním MAYBE; dvě skupiny SOME MORE SECULAR (blednou) / OTHERS NOT (drží)." },
+
+    { "id": "S81", "source": "svg", "effect": "static", "visual": "images/S81.png",
+      "note": "Není prostá rovnice více vědy = méně náboženství. Přeškrtnout rovnici.",
+      "diagram_generator": "zmizi",
+      "diagram": "Rovnice MORE SCIENCE = LESS RELIGION přeškrtnutá (text_skrtnuty)." },
+
+    { "id": "S82", "source": "svg", "effect": "static", "visual": "images/S82.png",
+      "note": "Lidé nejsou stroje, co po nové informaci aktualizují světonázor. Jedna z hlavních tezí.",
+      "diagram_generator": "zmizi",
+      "diagram": "Přeškrtnutý obraz člověka jako stroje s 'INPUT→UPDATE'." },
+
+    { "id": "S83", "source": "svg", "effect": "static", "visual": "images/S83.png",
+      "note": "Jsme biologičtí, sociální tvorové.",
+      "diagram_generator": "zmizi",
+      "diagram": "Lidská silueta, štítek BIOLOGICAL & SOCIAL." },
+
+    { "id": "S84", "source": "svg", "effect": "static", "visual": "images/S84.png",
+      "note": "Zkráceno na tři (light trim). Beat-výčet (min_sentence_words=1).",
+      "diagram_generator": "zmizi",
+      "diagram": "Tři naskakující: INHERIT BELIEFS, FEAR DEATH, SEARCH FOR MEANING (rým s dřívějšími scénami)." },
+
+    { "id": "S85", "source": "svg", "effect": "static", "visual": "images/S85.png",
+      "note": "A vyprávíme příběhy o původu a směřování.",
+      "diagram_generator": "zmizi",
+      "diagram": "Šipka WHERE WE CAME FROM → WHERE WE'RE GOING, kolem ní 'příběh'." },
+
+    { "id": "S86", "source": "svg", "effect": "static", "visual": "images/S86.png",
+      "note": "Věda mění OBSAH příběhů, ne potřebu příběhů. Konec bloku před finále → pauza.",
+      "diagram_generator": "zmizi",
+      "diagram": "Prázdná 'nádoba na příběh' zůstává; věda mění jen to, co je uvnitř.",
+      "pause": 2.4 },
+
+    { "id": "S87", "source": "svg", "effect": "static", "visual": "images/S87.png",
+      "note": "Finále — přerámování otázky. Stará otázka přeškrtnuta.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka WHY BELIEVE WHEN WE HAVE SCIENCE? přeškrtnutá (text_skrtnuty)." },
+
+    { "id": "S88", "source": "svg", "effect": "static", "visual": "images/S88.png",
+      "note": "Lepší otázka. Klíčový přerámovací beat.",
+      "diagram_generator": "zaver",
+      "diagram": "Zvýrazněné WHAT WERE WE EXPECTING SCIENCE TO REPLACE?" },
+
+    { "id": "S89", "source": "svg", "effect": "static", "visual": "images/S89.png",
+      "note": "Kdyby náboženství bylo jen primitivní vysvětlení — věda ho z velké části nahradila.",
+      "diagram_generator": "zaver",
+      "diagram": "Do ostrova se přesunula část 'THUNDER & DISEASE' (rozsvíceno) — REPLACED." },
+
+    { "id": "S90", "source": "svg", "effect": "static", "visual": "images/S90.png",
+      "note": "Ale je-li i pokusem o odpověď na smysl/smrtelnost/morálku/existenci — nehráli tutéž hru. Silná věta.",
+      "diagram_generator": "zaver",
+      "diagram": "Pevné markery MEANING / MORTALITY / MORALITY / EXISTENCE mimo ostrov; štítek NEVER THE SAME GAME." },
+
+    { "id": "S91", "source": "svg", "effect": "static", "visual": "images/S91.png",
+      "note": "Věda říká JAK. ZAČÁTEK ZÁVĚREČNÉHO OKNA (posledních ~20 s) — volné místo NAHOŘE pro karty YouTube, titulek dole. zaver_check.",
+      "diagram_generator": "zaver",
+      "diagram": "Ostrov jako HOW: stars form / life evolves / brains function — vše uvnitř. Horní polovina záměrně prázdná (karty)." },
+
+    { "id": "S92", "source": "svg", "effect": "static", "visual": "images/S92.png",
+      "note": "Ale purpose/meaning/beyond zůstávají otevřené. Závěrečné okno — volno nahoře.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři pevné markery PURPOSE? / MEANING? / SOMETHING BEYOND? v temnotě, štítek REMAIN OPEN. Horní polovina prázdná." },
+
+    { "id": "S93", "source": "svg", "effect": "slow_zoom_out", "visual": "images/S93.png",
+      "note": "VÝPLATA PÁTEŘE: ostrov obrovský (AI, genetika, galaxie), a prstenec WHY pořád celý venku v temnotě → GOD HASN'T DISAPPEARED. Jediný pohyb (odjezd) na klimaxu. Závěrečné okno — volno nahoře.",
+      "diagram_generator": "zaver",
+      "diagram": "Zoom out na obří zářící ostrov (AI, genetika, galaxie) obklopený nedotčeným prstencem WHY-markerů; dole GOD HASN'T DISAPPEARED. Karty se vejdou nahoru.",
+      "pause": 3.0 },
+
+    { "id": "S94", "source": "svg", "effect": "static", "visual": "images/S94.png",
+      "note": "Poslední obrat myšlenky. Závěrečné okno — klidná deska, volno nahoře.",
+      "diagram_generator": "zaver",
+      "diagram": "Text: SURPRISING ISN'T THAT WE STILL BELIEVE. Klidná kompozice, horní polovina volná." },
+
+    { "id": "S95", "source": "svg", "effect": "static", "visual": "images/S95.png",
+      "note": "Pointa videa: po tisících let se pořád ptáme na tytéž ohromné otázky. POSLEDNÍ DESKA — klidná, delší pauza, volno nahoře pro dlaždici i kolečko odběru. zaver_check.",
+      "diagram_generator": "zaver",
+      "diagram": "Malá lidská silueta pod obřím prstencem věčných WHY-otázek; štítek STILL ASKING THE SAME ENORMOUS QUESTIONS. Horní polovina prázdná.",
+      "pause": 3.2 }
+  ]
+}

@@ -1,0 +1,1082 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese myšlenku (absurdní cena dat), ne atmosféru; není SDXL. Číslo se schválně neprozrazuje, přijde v S04. Telefon leží na souřadnicích TELEFON a drží je celým videem.",
+   "diagram_generator": "hak",
+   "diagram": "Vlevo PÁTEŘNÍ telefon (TELEFON z kitu: tlačítkový mobil z počátku 2000. let, monochromní displej) s obálkou zprávy na displeji. Vpravo cenovka DATA, EARLY 2000s a pod ní ambrově PRICE PER MEGABYTE: ? — otazník, žádné číslo."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Škrt jen vodorovnou čarou přes nápis, ne křížkem (čitelnost).",
+   "diagram_generator": "hak",
+   "diagram": "Telefon na místě. Vpravo NOT MOBILE INTERNET přeškrtnuto (text_skrtnuty) a pod tím ambrově TEXT MESSAGES; na displeji telefonu bublina SMS."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Zavedení páteře. PASKA se kreslí jen funkcí v _kit.py, souřadnice se do S103 nemění. Animace: pás se plní zleva doprava, text jen naskočí. „at most“ musí být v obraze (factcheck S03/S55).",
+   "diagram_generator": "hak",
+   "diagram": "PÁTEŘ: pás 140 buněk (PASKA z kitu, 14 × 10 políček = 140 bajtů) na pevných souřadnicích; buňky se postupně plní, nápis ONE TEXT MESSAGE = AT MOST 140 BYTES.",
+   "anim": "animace"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Čísla z factchecku S04: desítkový MB, 7 142,9 → 7 143 zpráv, 714 USD; voiceover říká „more than seven hundred“, obraz to nesmí přestřelit (žádných 749). assert v kódu: 1e6/140*0.10 > 700. Animace: kopie pásu se skládají do bloku, čísla jen naskočí.",
+   "diagram_generator": "hak",
+   "diagram": "Pás 140 B zmenšený vlevo nahoře, z něj sloupec kopií skládající se do bloku 1 MB. Výpočet: 1 MB ÷ 140 B ≈ 7,143 TEXTS; × 10¢ = $714 (ambrově).",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Factcheck S05: „billions“ platí od poloviny dekády; konkrétní číslo by tvrdilo víc. Animace: obálky proudí, nápis stojí.",
+   "diagram_generator": "hak",
+   "diagram": "Proud drobných obálek zleva doprava přes celou šířku, nahoře BILLIONS OF TEXTS A DAY. Žádné konkrétní číslo.",
+   "anim": "animace"
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Karty otázek leží na pevných místech a vracejí se: karta 2 v S24 odškrtnutá, karta 1 v S52/S64 a S104.",
+   "diagram_generator": "hak",
+   "diagram": "Karta otázky 1 (OTAZKA_1, pevné místo vpravo): HOW DID A SIDE FEATURE BECOME A GOLD MINE? ambrově; vlevo telefon.",
+   "pause": 0.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Konec háčku.",
+   "diagram_generator": "hak",
+   "diagram": "Totéž, karta 1 ztlumená, pod ní karta 2 ambrově WHY EXACTLY 160 CHARACTERS?",
+   "pause": 2.4
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Strom dvou rodičů je stejný v S08, S13 a S14 (RODICE v kitu), mění se jen to, která karta svítí.",
+   "diagram_generator": "rodice",
+   "diagram": "Uprostřed velké 160 (ambrově), pod ním dvě větve ke dvěma prázdným kartám: vlevo PARENT 1, vpravo PARENT 2 (zatím bez obsahu)."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Commons portrét Hillebranda nemá (archive.py --search 2026-10-31 vrátil jen „SMS test“), proto kresba, ne vymyšlená tvář. Tentýž stroj a papír jako v S10.",
+   "diagram_generator": "psaci",
+   "diagram": "Psací stroj z S10 s prázdným papírem; vpravo FRIEDHELM HILLEBRAND · BONN, 1985."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Animace: řádky se objevují po jednom a počítadlo u každého naskočí. Věty vymyšlené, ale realistické („Running late, see you at 8?“). Žádná nesmí přesáhnout 160 (assert).",
+   "diagram_generator": "psaci",
+   "diagram": "Psací stroj (čárově) a papír, na kterém přibývají běžné věty a otázky; vedle každé počítadlo znaků (např. 38, 71, 112…), všechna pod 160.",
+   "anim": "animace"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "„Almost all“ = jeden výjimečný sloupec za čarou musí v obraze být, jinak kresba tvrdí „všechny“.",
+   "diagram_generator": "psaci",
+   "diagram": "Histogram délek vět z S10: skoro všechny sloupce vlevo od svislé čáry 160, jediný drobný vpravo. Popisek ALMOST ALL FIT INTO 160."
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S12.png",
+   "note": "Pick 0 vrátil při stahování „Yoseph Burg teleprinter 1956“, ne Siemens T100 z --search (pořadí Commons se mění). Přijato okem: dálnopis v provozu, bez obličeje. Pohlednice nese voiceover.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "telex machine teleprinter",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Konec lidské půlky.",
+   "diagram_generator": "rodice",
+   "diagram": "Strom z S08, karta PARENT 1 vyplněná a ambrová: postavička s bublinou, HUMAN: ENOUGH TO SAY MOST THINGS.",
+   "pause": 1.4
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Krátká scéna, obraz sdílený se S08/S13.",
+   "diagram_generator": "rodice",
+   "diagram": "Strom, karta 1 ztlumená, karta PARENT 2 ambrová: stožár, THE NETWORK."
+  },
+  {
+   "id": "S15",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Pick 1 = „Nokia 1011“ (Jkbw, CC BY 3.0); Nokia 1011 (1992) jako obraz prvního sériového GSM telefonu. Snímek je na výšku, proto fit 0.84 (bez fit zbyl jen detail klávesnice).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Nokia 1011",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Animace: pulzy putují mezi telefonem a stožárem. Rozvržení telefon–stožár sdílí S16–S19 (SIT_ROZVRZENI).",
+   "diagram_generator": "sit",
+   "diagram": "Vlevo telefon (TELEFON), vpravo stožár; mezi nimi tenká čára kanálu a po ní tam a zpět drobné signalizační pulzy.",
+   "anim": "animace"
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Výčet s tečkami → vycet. Bubliny naskakují s větami. Factcheck S16–S17: popularizační zkratka (buňka vs. oblast), obraz ji nesmí zpřesňovat ani zhoršovat.",
+   "diagram_generator": "sit",
+   "diagram": "Totéž; u pulzů tři bubliny po sobě: I'M HERE. · I'VE MOVED TO ANOTHER CELL. · A CALL IS COMING IN.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Animace: sloty jedou zprava doleva, plné jsou řídké. Poměr plných/prázdných nesmí vypadat jako „úplně prázdné“ (scénář: almost empty).",
+   "diagram_generator": "sit",
+   "diagram": "Kanál nakreslený jako dlouhá vodorovná trubka/pás časových slotů: většina slotů prázdná (DIM), jen občas jeden plný. Nápis SIGNALLING · MOSTLY EMPTY.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Animace navazuje na S18: obálky zaplní některé prázdné sloty, plné signalizační zůstanou.",
+   "diagram_generator": "sit",
+   "diagram": "Totéž, do prázdných slotů nastupují ambrové obálky SMS. Nápis RIDE IN THE SPARE CAPACITY?",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Pás je tentýž objekt jako v S03, ne nový tvar.",
+   "diagram_generator": "bity",
+   "diagram": "PÁTEŘ PASKA (140 buněk) na svých souřadnicích, nad ní obrys signalizační zprávy, z níž PASKA zabírá vymezený díl; nápis ROOM FOR TEXT: 140 BYTES."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "assert 140*8 == 1120. Animace: buňky se rozpadnou na bity.",
+   "diagram_generator": "bity",
+   "diagram": "Pás 140 B a pod ním každá buňka rozbalená na 8 teček → 1,120 BITS (140 × 8).",
+   "anim": "animace"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Animace: přeskupení po osmi → po sedmi.",
+   "diagram_generator": "bity",
+   "diagram": "Bity se přeskupí ze skupin po 8 do skupin po 7; nápis GSM: 7 BITS PER CHARACTER.",
+   "anim": "animace",
+   "pause": 0.4
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "assert 1120/7 == 160. Animace: políčka se dopočítají do 160 a číslo naskočí.",
+   "diagram_generator": "bity",
+   "diagram": "Pás teď ukazuje 160 políček znaků (každé 7 bitů), ambrově 1,120 ÷ 7 = 160.",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Factcheck S24: 160 byl CÍL a síť se natahovala; šipka natažení jde od 146 k 160, ne naopak. assert 128*8//7 == 146. Animace: horní pás se natáhne do spodního. ZA scénou výzva k odběru (levý dolní roh prázdný, S25 má krátký první titulek).",
+   "diagram_generator": "bity",
+   "diagram": "Rám páteře se natáhne ze 128 B (146 znaků) na 140 B (160 znaků); čárkovaná značka u 128 B, nahoře FIRST DESIGN: 128 BYTES ≈ 146 CHARACTERS a ambrově STRETCHED TO 140 BYTES = 160. Karta 2 z háčku pod páskou odškrtnutá.",
+   "pause": 2.4,
+   "vyzva": true,
+   "anim": "animace"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Mřížka abecedy je sdílená S25–S27 (ABECEDA v kitu). assert 2**7 == 128. Obsah políček ze skutečné tabulky TS 23.038, ne vymyšlený.",
+   "diagram_generator": "bity",
+   "diagram": "Mřížka 8 × 16 = 128 políček (tabulka GSM 7bit), nápis 7 BITS = 128 CHARACTERS.",
+   "pause": 0.4
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Jen písmena, která v tabulce opravdu jsou (seznam ve factchecku S25–S31).",
+   "diagram_generator": "bity",
+   "diagram": "Mřížka, ambrově zvýrazněná anglická písmena a hrstka písmen s diakritikou (é è ü ñ å ø …).",
+   "pause": 0.4
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "POZOR: maďarské ő (dvojitá čárka), NIKDY ö — ö v tabulce JE a obraz by tvrdil opak. Při kontaktním listu zkontrolovat glyf zvětšeně. Cyrilici zastupuje jedno písmeno (Д).",
+   "diagram_generator": "bity",
+   "diagram": "Vedle mřížky čtyři znaky, které v ní nejsou: ř · ł · ő · Д, každý se štítkem CZECH / POLISH / HUNGARIAN / CYRILLIC a přeškrtnutou šipkou do mřížky.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Animace: vstoupí ř, políčka 7bit se slijí po dvou bajtech.",
+   "diagram_generator": "bity",
+   "diagram": "Pás 140 B; jedna buňka ambrově ř, a všechna políčka se zdvojí na 16 bitů — nápis 16 BITS PER CHARACTER.",
+   "anim": "animace",
+   "pause": 0.4
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "assert 140//2 == 70. Animace: počítadlo 160 → 70.",
+   "diagram_generator": "bity",
+   "diagram": "Tentýž pás, teď jen 70 políček; ambrově 140 B ÷ 2 = 70 CHARACTERS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Factcheck S30: úbytek 56 % (zbývá 43,75 %); obraz nesmí tvrdit „polovinu“, scénář říká „more than half“.",
+   "diagram_generator": "bity",
+   "diagram": "Dva pruhy pod sebou: 160 a 70 (délky v poměru), u kratšího −56 %.",
+   "pause": 0.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Konec bloku diakritiky. Česká ukázka je záměr (S27 jmenuje češtinu); text krátký a čitelný ve 150 px.",
+   "diagram_generator": "bity",
+   "diagram": "Displej telefonu se zprávou bez háčků: „Prijdu v osm, cekej u nadrazi“ — a vedle škrtnutá verze s háčky.",
+   "pause": 2.4
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Jednoduchá titulková deska bloku, žádná dekorace.",
+   "diagram_generator": "prvni",
+   "diagram": "Velké SMS a pod ním SHORT MESSAGE SERVICE, v rohu malá obálka.",
+   "pause": 0.5
+  },
+  {
+   "id": "S33",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S33.png",
+   "note": "Předěl: „nikdo nečekal, že se tím budou lidé bavit“. Žádné postavy ani obličeje.",
+   "prompt": "a quiet residential street at night in the early 2000s, rows of apartment windows glowing, a mobile phone mast on a distant rooftop, empty pavement, wide view"
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Factcheck S34: JAKO pager, ne PRO pagery — obraz nesmí kreslit šipku z telefonu do pageru.",
+   "diagram_generator": "prvni",
+   "diagram": "Pager (čárově, s jednořádkovým displejem) a vedle telefon; nápis A SHORT NOTE FOR SOMEONE ON THE MOVE.",
+   "pause": 1.2
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Jen „British network“ jako ve scénáři, bez jména operátora v obraze (není ve voiceoveru).",
+   "diagram_generator": "prvni",
+   "diagram": "Kalendářní list 3 DEC 1992 a pod ním mapka Británie s jedním bodem; FIRST TEXT MESSAGE."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Krátká scéna; obraz drží i do S37–S38 jako motiv (stejný displej).",
+   "diagram_generator": "prvni",
+   "diagram": "Monochromní displej s textem MERRY CHRISTMAS, velký, uprostřed."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Šipka míří Z počítače NA telefon (podmět: zpráva napsaná na počítači).",
+   "diagram_generator": "prvni",
+   "diagram": "Vlevo počítač z počátku 90. let (monitor + klávesnice, čárově) s MERRY CHRISTMAS na obrazovce, šipka k telefonu vpravo."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Commons Orbitel 901 nemá (--search 2026-10-31 nic), proto kresba. Factcheck S38: telefon neuměl text zadat.",
+   "diagram_generator": "prvni",
+   "diagram": "Telefon bez značky s displejem MERRY CHRISTMAS; RECEIVE ✓ a přeškrtnutá šipka zpět REPLY ✗.",
+   "pause": 2.2
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Rozvržení odesílatel–centrum–příjemce sdílí S39–S44 (POSTA_ROZVRZENI).",
+   "diagram_generator": "posta",
+   "diagram": "Ikona poštovní přihrádky/budovy uprostřed, vlevo odesílatel, vpravo příjemce (dva telefony). Nápis LIKE A POST OFFICE."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Animace: obálka doputuje do centra a zastaví.",
+   "diagram_generator": "posta",
+   "diagram": "Totéž, budova uprostřed pojmenovaná SMS CENTRE; obálka putuje z levého telefonu do centra.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Animace: obálka v centru tiše pulzuje.",
+   "diagram_generator": "posta",
+   "diagram": "Pravý telefon zhasnutý (OFF), obálka čeká v přihrádce centra, nápis WAITING.",
+   "anim": "animace"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Sdílí obraz se S41, mění se jen stav příjemce.",
+   "diagram_generator": "posta",
+   "diagram": "Pravý telefon s přeškrtnutým signálem (NO COVERAGE), obálka dál čeká.",
+   "pause": 0.5
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Animace: rozsvícení a doručení.",
+   "diagram_generator": "posta",
+   "diagram": "Pravý telefon se rozsvítí, obálka doputuje z centra k němu; ✓ DELIVERED.",
+   "anim": "animace"
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Výčet s tečkami → vycet. Škrty čarou přes jednotlivé nápisy.",
+   "diagram_generator": "posta",
+   "diagram": "Nadpis STORE AND FORWARD; pod ním přeškrtnuté NO INTERNET · NO ACCOUNT · NO APP a ambrově JUST A MOBILE SIGNAL.",
+   "vycet": 0.3,
+   "pause": 2.4
+  },
+  {
+   "id": "S45",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S45.png",
+   "note": "Předěl: lidé objevili, co autoři nečekali. Ruka zezadu, žádná tvář.",
+   "prompt": "a bus stop at night in the early 2000s, a single small glowing phone screen held in a gloved hand seen from behind, rain on the shelter glass, city lights blurred"
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Osy sdílí S46–S49 (CASOVA_OSA). Animace: blok hovoru se vysune přes oba řádky.",
+   "diagram_generator": "psani",
+   "diagram": "Časová osa: dva řádky (PERSON A, PERSON B), hovor jako jeden blok, který musí ležet na obou řádcích ZÁROVEŇ; nápis A CALL: BOTH AT ONCE.",
+   "anim": "animace"
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Animace: šipka zprávy šikmo dopředu v čase.",
+   "diagram_generator": "psani",
+   "diagram": "Táž osa: zpráva odeslaná v jednom čase na řádku A, přijatá o kus dál na řádku B; A TEXT DOESN'T.",
+   "anim": "animace"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Text bubliny přesně jako ve scénáři.",
+   "diagram_generator": "psani",
+   "diagram": "Osa, na řádku A bublina WHERE ARE YOU? a za ní řádek A pokračuje jinými činnostmi (ikony)."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Čárkovaně, protože jde o dvě možnosti, ne o dvě odpovědi.",
+   "diagram_generator": "psani",
+   "diagram": "Osa, na řádku B dvě možné odpovědi: za minutu a za hodinu (čárkovaně = možnost), obě platné."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Factcheck S50: 7 a 9 mají ČTYŘI písmena, 0 a 1 žádné. Animace: mačkání kláves (počet stisků odpovídá multi-tapu), text naskakuje po písmenech.",
+   "diagram_generator": "psani",
+   "diagram": "Klávesnice telefonu 3 × 4 podle ITU-T E.161 (2 ABC … 7 PQRS … 9 WXYZ); ambrově se rozsvěcují klávesy při psaní slova multi-tapem, nad klávesnicí přibývá text.",
+   "anim": "animace"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Konec bloku.",
+   "diagram_generator": "psani",
+   "diagram": "Telefon (TELEFON) a u něj místo sluchátka ikona bublin; nápis PERSONAL MESSAGING DEVICE.",
+   "pause": 1.4
+  },
+  {
+   "id": "S52",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S52.png",
+   "note": "Předěl do ekonomického bloku; jediná ambrová skvrna = zlatý důl. Karta 1 se vrací až v S64.",
+   "prompt": "a mobile phone mast on a dark hill above a sleeping city at night, a warm amber glow at the foot of the mast like a lantern at a mine entrance, flat grey overcast sky, no sun",
+   "pause": 2.0
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Stránka (UCET v kitu) se plní v S54–S55 a v S56 se vedle ní objeví PRICE.",
+   "diagram_generator": "dul",
+   "diagram": "Účetní stránka COST TO THE NETWORK OF ONE TEXT, zatím prázdné řádky."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Factcheck S53–S54: zjednodušení, mezní náklad je malý, ne nulový — v obraze proto NE „$0“.",
+   "diagram_generator": "dul",
+   "diagram": "Stránka: TOWERS — ALREADY THERE, SIGNALLING CHANNELS — ALREADY THERE (zaškrtnuto, ztlumeně).",
+   "pause": 0.4
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "„at most“ povinně (factcheck S55).",
+   "diagram_generator": "dul",
+   "diagram": "Stránka + třetí řádek DATA: AT MOST 140 BYTES s miniaturou PASKY.",
+   "pause": 0.6
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Dvě strany vah: náklad (bajty) × cena (zpráva). Bez konkrétních čísel.",
+   "diagram_generator": "dul",
+   "diagram": "Vedle stránky nákladu cenovka PRICE: PER MESSAGE; bajty přeškrtnuté.",
+   "pause": 0.4
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Bez konkrétního počtu v balíku.",
+   "diagram_generator": "dul",
+   "diagram": "Cenovka se rozdělí: PER MESSAGE · OR A BUNDLE OF A FEW HUNDRED A MONTH."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Mapa sdílená S58–S60 (MAPA v kitu). Cenovky bez hodnot, jinak by tvrdily konkrétní ceny. Místo mapy dvě oblasti (EUROPE, UNITED STATES) s visačkami různé velikosti bez čísel — obrysy kontinentů kódem nevycházejí a nic netvrdí.",
+   "diagram_generator": "dul",
+   "diagram": "Mapa světa (zjednodušené obrysy), na několika zemích různě vysoké cenovky bez čísel."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc. Místo mapy dvě oblasti (EUROPE, UNITED STATES) s visačkami různé velikosti bez čísel — obrysy kontinentů kódem nevycházejí a nic netvrdí.",
+   "diagram_generator": "dul",
+   "diagram": "Mapa, Evropa ambrově: PAY FOR EVERY TEXT."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Factcheck S60: doložené je „platil i příjemce“ a „přišlo později“, nic o neomezených tarifech. Místo mapy dvě oblasti (EUROPE, UNITED STATES) s visačkami různé velikosti bez čísel — obrysy kontinentů kódem nevycházejí a nic netvrdí.",
+   "diagram_generator": "dul",
+   "diagram": "Mapa, USA ambrově: LATER START, a telefon s šipkou dovnitř s cenovkou: PAY TO RECEIVE, TOO."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "dul",
+   "diagram": "Rovnice přes celou šířku: TINY DATA × PRICE PER MESSAGE, jednotná pro všechny cenovky z mapy."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "dul",
+   "diagram": "Malá PASKA vlevo, šipka do krabičky se štítkem SOLD AS A SEPARATE SERVICE.",
+   "pause": 0.4
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Rým s S05 (týž proud, teď jako zboží). Animace: proud krabiček.",
+   "diagram_generator": "dul",
+   "diagram": "Krabička se množí: počitadlo × BILLIONS A DAY, krabičky proudí jako obálky v S05.",
+   "anim": "animace"
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Factcheck S64: superlativ jen v rámci operátorů — „operators“ musí být v obraze. Konec bloku zlatého dolu. ZA scénou druhá výzva k odběru (levý dolní roh prázdný, S65 má krátký titulek).",
+   "diagram_generator": "dul",
+   "diagram": "Karta otázky 1 z háčku se vrací, ambrově: ONE OF THE MOST PROFITABLE THINGS OPERATORS EVER SOLD.",
+   "pause": 2.8,
+   "vyzva": true
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Okno prohlížeče sdílí S65–S69 (PROHLIZEC v kitu).",
+   "diagram_generator": "brany",
+   "diagram": "Prázdné okno prohlížeče (rámeček s lištou) uprostřed, nic víc."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Bez loga operátora.",
+   "diagram_generator": "brany",
+   "diagram": "Okno prohlížeče: formulář NUMBER [____] MESSAGE [____] [SEND], nahoře FREE SMS."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Animace: smyčka vyplňuje formulář znovu a znovu.",
+   "diagram_generator": "brany",
+   "diagram": "Okno + vedle něj okno terminálu se smyčkou (pseudokód FOR EACH MESSAGE: FILL FORM, SEND) a šipkou do formuláře.",
+   "anim": "animace"
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "Animace: obálky po trase. Šipky jdou od počítače k telefonu.",
+   "diagram_generator": "brany",
+   "diagram": "Počítač (z S37) → okno brány → stožár → telefon; obálky proudí po trase. Popisek THROUGH THE OPERATORS' OWN GATEWAYS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Pointa „one window away“: obě okna těsně vedle sebe.",
+   "diagram_generator": "brany",
+   "diagram": "Rozdělená deska: vlevo telefon s cenovkou PAID PER TEXT, vpravo okno prohlížeče FREE; mezi nimi jen tenká mezera.",
+   "pause": 2.4
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Páteř se vrací jako „mez“.",
+   "diagram_generator": "mms",
+   "diagram": "PASKA s 160 políčky a vedle ní obrázek, který se do ní nevejde (přetéká přes hranu)."
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "mms",
+   "diagram": "Totéž, nad obrázkem otazník WHAT ABOUT A PICTURE?"
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Rým s S32: tatáž titulková deska, jiný obsah.",
+   "diagram_generator": "mms",
+   "diagram": "Velké MMS a pod tím MULTIMEDIA MESSAGING SERVICE (stejná sazba jako S32)."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "Čárky ve scénáři, ne tečky → bez vycet.",
+   "diagram_generator": "mms",
+   "diagram": "Čtyři ikony: obrázek, nota, filmový pás, odstavec textu; PICTURES · SOUND · SHORT VIDEOS · LONGER TEXT."
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "Rozvržení tras sdílí S74–S77.",
+   "diagram_generator": "mms",
+   "diagram": "Dvě trasy pod sebou: SMS (rovně telefon→telefon přes centrum) a MMS (zatím otazník)."
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "Čárkovaná = skrytá, uživatel ji nevidí (factcheck S74–S76). Animace: příchod notifikace.",
+   "diagram_generator": "mms",
+   "diagram": "Trasa MMS krok 1: drobná skrytá zpráva (čárkovaná obálka) dorazí do telefonu, bublina A PICTURE IS WAITING FOR YOU.",
+   "anim": "animace",
+   "pause": 0.4
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "Šipka stahování míří ZE serveru DO telefonu. Animace: progress bar.",
+   "diagram_generator": "mms",
+   "diagram": "Krok 2: telefon se připojí k serveru MMS a stahuje; progress bar se plní.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "mms",
+   "diagram": "Telefon se štítkem MOBILE DATA: REQUIRED."
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "note": "Pole nastavení skutečná (factcheck S77–S78).",
+   "diagram_generator": "mms",
+   "diagram": "Telefon s obrazovkou nastavení (APN, MMSC, PROXY) a štítkem SETTINGS FROM YOUR OPERATOR.",
+   "pause": 0.5
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "note": "Factcheck S79: Image Basic 160×120 / 30 kB. Animace: smrštění a rozmazání.",
+   "diagram_generator": "mms",
+   "diagram": "Ostrá fotka (kreslená krajinka) se zmenší na rozmazaný obdélníček 160 × 120; štítek SIZE LIMIT.",
+   "anim": "animace"
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "mms",
+   "diagram": "Cenovka (vyšší než u SMS, bez čísla) a obálka s otazníkem NOT DELIVERED."
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "note": "Konec bloku MMS.",
+   "diagram_generator": "mms",
+   "diagram": "Časová řada SMS → MMS → ?; MMS uprostřed ztlumeně a nakřivo (awkward).",
+   "pause": 0.6
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "note": "Navazuje na S81, tatáž řada.",
+   "diagram_generator": "data",
+   "diagram": "Časová řada z S81, otazník se rozsvítí: THE INTERNET ON YOUR PHONE.",
+   "pause": 1.4
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "data",
+   "diagram": "Dvě trasy: horní přes SMS CENTRE operátora (ztlumená, přeškrtnutá), dolní přímo přes DATA (ambrová)."
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "note": "Animace: pakety v potrubí.",
+   "diagram_generator": "data",
+   "diagram": "Zpráva rozložená na datové pakety putující potrubím DATA.",
+   "anim": "animace"
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "note": "Žádná loga aplikací (jména zazní jen ve voiceoveru).",
+   "diagram_generator": "data",
+   "diagram": "Do téhož potrubí vstupují text, obrázek, hlasová zpráva (vlnka), video — vše jako pakety. Popisek MESSAGING APPS."
+  },
+  {
+   "id": "S86",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S86.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "data",
+   "diagram": "Velký symbol obrácení (dvě šipky) a THE ECONOMICS FLIPPED.",
+   "pause": 0.5
+  },
+  {
+   "id": "S87",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S87.png",
+   "note": "Scéna je první půlka souvětí pokračujícího v S88 → krátká pauza.",
+   "diagram_generator": "data",
+   "diagram": "Vlevo: jedna obálka = jedna mince. ONE MESSAGE, ONE CHARGE.",
+   "pause": 0.3
+  },
+  {
+   "id": "S88",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "note": "Animace: obálky se slijí do proužku. Proužek odpovídá řádu (1 000 × ~1 kB ≈ 1 MB proti tarifu v GB) — assert na poměr.",
+   "diagram_generator": "data",
+   "diagram": "Vpravo: tisíce drobných obálek se slijí do tenkého proužku uvnitř velkého sloupce DATA PLAN: ROUNDING ERROR.",
+   "anim": "animace"
+  },
+  {
+   "id": "S89",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S89.png",
+   "note": "Factcheck S89: obraz pro kanál, ne pro tržby — žádný graf tržeb.",
+   "diagram_generator": "data",
+   "diagram": "Ikona dolu (vchod) a kolem něj obchvat-šipka; IT WAS SIMPLY BYPASSED.",
+   "pause": 2.8
+  },
+  {
+   "id": "S90",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S90.png",
+   "note": "Předěl: SMS nezmizela; osamělý stožár = „jen signál“.",
+   "prompt": "a lone mobile phone mast on a bare hillside in remote countryside at night, a single small farmhouse window glowing below, flat grey overcast sky, no sun, wide empty landscape",
+   "pause": 0.4
+  },
+  {
+   "id": "S91",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S91.png",
+   "note": "Stavové řádky sdílí S91–S93 (STAV v kitu).",
+   "diagram_generator": "nouze",
+   "diagram": "Telefon a vedle něj tři stavové řádky zatím prázdné (MOBILE SIGNAL, WI-FI, MOBILE DATA)."
+  },
+  {
+   "id": "S92",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S92.png",
+   "note": "Výčet s tečkami → vycet. Animace: ikony naskakují s větami.",
+   "diagram_generator": "nouze",
+   "diagram": "Řádky se vyplní: MOBILE SIGNAL ✓ · WI-FI ✗ · MOBILE DATA ✗.",
+   "vycet": 0.3,
+   "anim": "animace"
+  },
+  {
+   "id": "S93",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S93.png",
+   "note": "Animace: průchod obálky.",
+   "diagram_generator": "nouze",
+   "diagram": "Obálka SMS projde ze stožáru do telefonu: SMS STILL WORKS ✓ (ambrově).",
+   "anim": "animace"
+  },
+  {
+   "id": "S94",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S94.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "nouze",
+   "diagram": "Telefon a kolem tři štítky zatím prázdné, nadpis CAN'T WAIT FOR A GOOD CONNECTION."
+  },
+  {
+   "id": "S95",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S95.png",
+   "note": "Factcheck S95: ŽÁDNÉ celoplošné nouzové varování v obraze (to je Cell Broadcast). Výčet → vycet.",
+   "diagram_generator": "nouze",
+   "diagram": "Tři štítky: LOGIN CODE (123 456), BANK ALERT, DELIVERY UPDATE — jako drobné notifikace na displeji.",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S96",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S96.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "nouze",
+   "diagram": "Displej s jedinou zprávou CALL ME.",
+   "pause": 2.4
+  },
+  {
+   "id": "S97",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S97.png",
+   "note": "Táž řada jako S81–S82.",
+   "diagram_generator": "rcs",
+   "diagram": "Časová řada SMS → MMS → … s novou položkou na konci, zatím jen obrys."
+  },
+  {
+   "id": "S98",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S98.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "rcs",
+   "diagram": "Položka se pojmenuje: RCS · RICH COMMUNICATION SERVICES."
+  },
+  {
+   "id": "S99",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S99.png",
+   "note": "Výčet → vycet. Reakce jsou ve standardu od UP 2.7 (factcheck S99), obraz to nerozlišuje, stačí.",
+   "diagram_generator": "rcs",
+   "diagram": "Chat na displeji: tři tečky psaní, ✓✓ přečteno, skupina, fotka, reakce — pět prvků a k nim popisky.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S100",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S100.png",
+   "note": "Bez konkrétních letopočtů, jen „dřív“ šipkou na ose.",
+   "diagram_generator": "rcs",
+   "diagram": "Táž výbava vlevo (RCS) a vpravo (MESSAGING APPS) se stejnými ikonami, u aplikací letopočty dřív."
+  },
+  {
+   "id": "S101",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S101.png",
+   "note": "Sdílí obraz s okolními scénami bloku, mění se jen jedna věc.",
+   "diagram_generator": "rcs",
+   "diagram": "RCS se štítkem NEEDS AN INTERNET CONNECTION.",
+   "pause": 0.4
+  },
+  {
+   "id": "S102",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S102.png",
+   "note": "Factcheck S102: „can fall back“ — popisek CAN FALL BACK, ne „always“. Animace: výměna bubliny.",
+   "diagram_generator": "rcs",
+   "diagram": "Data zmizí (ikona přeškrtnutá), bublina RCS zešedne a místo ní nastoupí obálka SMS; FALLBACK.",
+   "pause": 2.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S103",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S103.png",
+   "note": "Pás přesně na souřadnicích z S03 (kontrola registrem invariantů).",
+   "diagram_generator": "zaver",
+   "diagram": "VÝPLATA PÁTEŘE: PASKA na původních souřadnicích, 160 políček, nad ní 1985 · SQUEEZED INTO SIGNALLING GAPS · 160 CHARACTERS."
+  },
+  {
+   "id": "S104",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S104.png",
+   "note": "Callback na titul (v0.3). Karta otázky 1 tu NENÍ: na páteři by ležela přes pásku.",
+   "diagram_generator": "zaver",
+   "diagram": "Tentýž pás se zbarví ambrově (zlato), pod ním A GOLD MINE."
+  },
+  {
+   "id": "S105",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S105.png",
+   "note": "Rým s S89.",
+   "diagram_generator": "zaver",
+   "diagram": "Pás a kolem něj obchvat-šipka z S89: BYPASSED BY THE INTERNET.",
+   "pause": 0.5
+  },
+  {
+   "id": "S106",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S106.png",
+   "note": "Klidná scéna před ocasem.",
+   "diagram_generator": "zaver",
+   "diagram": "Telefon (TELEFON, původní souřadnice) s jedinou čárkou signálu a obálkou SMS; WHEN NOTHING ELSE WORKS.",
+   "pause": 3.0
+  },
+  {
+   "id": "S107",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S107.png",
+   "note": "Posledních ~20 s: prvky závěrečné obrazovky patří NAHORU, horní polovina musí být volná (S107–S110). Žádná animace.",
+   "diagram_generator": "zaver",
+   "diagram": "Spodní polovina: RCS s malou zápletkou (otazník). Horní polovina prázdná."
+  },
+  {
+   "id": "S108",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S108.png",
+   "note": "Bez loga a bez jména výrobce (to je téma 129). Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Spodní polovina: obrys telefonu bez značky a štítek RCS s otazníkem; FOR YEARS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S109",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S109.png",
+   "note": "Až 129 vyjde, dát ho do závěrečné obrazovky (notes.md). Horní polovina volná.",
+   "diagram_generator": "zaver",
+   "diagram": "Spodní polovina: NEXT VIDEO → (šipka nahoru doprava, kam patří dlaždice).",
+   "pause": 1.4
+  },
+  {
+   "id": "S110",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S110.png",
+   "note": "Otázka do komentářů. Horní polovina volná pro dlaždici a odběr.",
+   "diagram_generator": "zaver",
+   "diagram": "Spodní polovina: PASKA ve zmenšenině a otázka HANDICAP OR REASON IT CAUGHT ON? Horní polovina volná."
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "scenes": [
+  {
+   "id": "S01", "source": "svg", "effect": "static", "visual": "images/S01.png",
+   "pause": 5.4,
+   "example": { "zvuk": "zvuk/S01.flac", "gain_db": -8 },
+   "anim": "anim_s01",
+   "diagram_generator": "uvod",
+   "diagram": "Vlevo obrys přenosného magnetofonu s reproduktorem. Z reproduktoru vede doprava PÁTEŘ: páska přes celou šířku obrazu a na ní skutečný průběh signálu (konec úvodního tónu, synchronizace, první bajty programu) jako obdélníkové pulzy. Nad magnetofonem malé ▶ PLAY. Vpravo nad páskou televizor ze S03; v pauze na jeho obrazovce běží pruhy nahrávání ze snímků emulátoru (anim_s01.py, po poslechu 2026-10-23).",
+   "note": "První obrazovka nese myšlenku: z magnetofonu nejde hudba, jdou z něj hranaté pulzy. Ne SDXL (pravidlo první scény). Pulzy kreslí `pasky_signal()` z týchž T-stavů, ze kterých `zvuk/spectrum.py` vyrábí zvuk, takže obraz a zvuk jsou tentýž signál. V pauze zazní výňatek 4,65 s: 0,8 s úvodního tónu a 3,8 s dat programu (`zvuk/ukazky.py`)."
+  },
+  {
+   "id": "S02", "source": "svg", "effect": "static", "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř beze změny, televizor ze S01 staticky. Nad páskou dva přeškrtnuté nápisy pod sebou: MUSIC a A GAME'S SOUNDTRACK (text_skrtnuty).",
+   "note": "Škrtá se nápis, ne plocha, ať jde přečíst, co se škrtá."
+  },
+  {
+   "id": "S03", "source": "svg", "effect": "static", "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř. Vpravo na jejím konci televizor se Spectrem, u počítače ikona ucha a LISTENING. Nad páskou ambrově IT IS THE GAME.",
+   "note": "Šipka směru vede od pásky k počítači: počítač poslouchá, magnetofon jen hraje. Program se tu ještě neukazuje, to je výplata S70."
+  },
+  {
+   "id": "S04", "source": "svg", "effect": "static", "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "Týž magnetofon jako v S01 na téže pozici, nad ním myšlenková bublina se dvěma notami ♪♪ a nápisem JUST A SONG. Páteř ztlumená.",
+   "note": "Magnetofon je sdílený tvar `magnetofon()`, týž v S01, S04, S48, S49. Bublina patří magnetofonu, ne počítači."
+  },
+  {
+   "id": "S05", "source": "svg", "effect": "static", "visual": "images/S05.png",
+   "pause": 1.4,
+   "diagram_generator": "uvod",
+   "diagram": "Dvě otázky pod sebou. Nahoře HOW DO YOU TURN A SONG INTO A GAME?, dole menší: ONE WRONG NOTE, a stopky s 5:00 přeškrtnutými.",
+   "note": "Hlavní otázka videa v obraze. Druhá otázka (ztracených pět minut) se splatí v S35–S36, stopky jsou tentýž tvar jako v S36."
+  },
+  {
+   "id": "S06", "source": "archive", "effect": "slow_zoom_in", "visual": "images/S06.png",
+   "archive": { "provider": "wikimedia", "query": "ZX Spectrum 48K", "pick": 3,
+                "grade": { "fit": 0.86, "saturation": 95, "vignette": false } },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-23): Nico Kaiser, Sinclair ZX Spectrum 48k (7160143184), CC BY 2.0, šikmý pohled na klávesnici s duhovým pruhem na bílém pozadí. Konkrétní stroj s vlastním jménem, proto archiv. První fotka ve videu kolem 0:30."
+  },
+  {
+   "id": "S07", "source": "svg", "effect": "static", "visual": "images/S07.png",
+   "pause": 1.8,
+   "example": { "zvuk": "zvuk/S07.flac", "gain_db": -8 },
+   "diagram_generator": "pulzy",
+   "diagram": "DVĚ DVOJICE PULZŮ vedle sebe ve stejném měřítku: vlevo krátká dvojice (855 + 855 T), vpravo dlouhá (1 710 + 1 710 T). Krátká ambrově a pod ní velká 0, dlouhá ztlumeně bez popisku. Pod nimi časová osa v milisekundách.",
+   "note": "Zadání uživatele: v obraze přímo dvě dvojice pulzů, ne frekvence. Obě jsou vidět od prvního snímku (prázdná místa čte divák jako rozbitý graf). Šířky se počítají z T-stavů ROM jedním měřítkem `PX_NA_T`, assert 2:1. V pauze zazní nuly (`zvuk/S07.py`)."
+  },
+  {
+   "id": "S08", "source": "svg", "effect": "static", "visual": "images/S08.png",
+   "pause": 2.6,
+   "example": { "zvuk": "zvuk/S08.flac", "gain_db": -8 },
+   "diagram_generator": "pulzy",
+   "diagram": "Tytéž dvě dvojice na týchž souřadnicích. Teď ambrová dlouhá s velkou 1 a kótou 2× nad jedním pulzem; krátká ztlumená s 0. Pod oběma malé 2 047 Hz a 1 023 Hz, mezi nimi ONE OCTAVE LOWER.",
+   "note": "Rým se S07 a S28 (`dvojice()`, registr invariantů). Hz jen jako vedlejší údaj, hlavní je délka. V pauze zazní nula a pak jednička (`zvuk/S08.py`), aby byla oktáva slyšet."
+  },
+  {
+   "id": "S09", "source": "svg", "effect": "static", "visual": "images/S09.png",
+   "diagram_generator": "pulzy",
+   "diagram": "Páteř se skutečnými pulzy prvních dvou bajtů programu, pod každou dvojicí její bit 0/1. Nad páskou velké ≈ 1 400 BITS EVERY SECOND.",
+   "note": "Bity pod pulzy se čtou ze skutečných bajtů programu (`spectrum.bloky()`), ne vymyšlené. „Around“ = ≈."
+  },
+  {
+   "id": "S09b", "source": "svg", "effect": "static", "visual": "images/S09b.png",
+   "pause": 2.4,
+   "diagram_generator": "pulzy",
+   "diagram": "Dva vodorovné pruhy pod sebou: 1 000 ZEROS a 1 000 ONES, délka úměrná času nahrávání, spodní přesně dvakrát delší. Vpravo u spodního ×2.",
+   "note": "Assert poměru 2:1 z T-stavů. Konec bloku „platí se“, proto delší pauza."
+  },
+  {
+   "id": "S10", "source": "svg", "effect": "static", "visual": "images/S10.png",
+   "pause": 0.5,
+   "diagram_generator": "kansas",
+   "diagram": "Dva sloupce: vlevo USA, vpravo BRITAIN (zatím ztlumený). Pod USA reproduktor s otazníkem: NEVER HEARD IT?",
+   "note": "Sloupce USA/BRITAIN jsou rým bloku S10–S18 (`dva_sloupce()`). Rozdíl výrazný, ne absolutní: otazník, ne škrt."
+  },
+  {
+   "id": "S11", "source": "svg", "effect": "static", "visual": "images/S11.png",
+   "diagram_generator": "kansas",
+   "diagram": "Tytéž dva sloupce. Ve sloupci USA ambrově THE IDEA a pod tím malá kazeta.",
+   "note": "Krátký beat před Kansas City."
+  },
+  {
+   "id": "S12", "source": "svg", "effect": "static", "visual": "images/S12.png",
+   "diagram_generator": "kansas",
+   "diagram": "Kazeta uprostřed, nad ní KANSAS CITY, 1975, pod ní DATA AS SOUND ON ORDINARY CASSETTES.",
+   "note": "Kazeta je sdílený tvar `kazeta()`."
+  },
+  {
+   "id": "S12b", "source": "svg", "effect": "static", "visual": "images/S12b.png",
+   "pause": 1.0,
+   "diagram_generator": "kansas",
+   "diagram": "Dva řádky sinusovek stejné šířky: nahoře 1 = osm cyklů 2 400 Hz, dole 0 = čtyři cykly 1 200 Hz. Vpravo 300 BITS A SECOND.",
+   "note": "Assert: 8/2400 = 4/1200 = 1/300 s, takže oba bity jsou stejně dlouhé, na rozdíl od Spectra. Sinusovka, ne pulzy: tak to standard popisuje."
+  },
+  {
+   "id": "S13", "source": "archive", "effect": "slow_zoom_in", "visual": "images/S13.png",
+   "archive": { "provider": "wikimedia", "query": "Apple II computer 1977", "pick": 5,
+                "grade": { "fit": 0.9, "saturation": 90, "vignette": false } },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-23): „Apple II, TRS-80 Model I (edited image)“, CC BY 4.0, oba stroje ze scénáře vedle sebe na jedné fotce. Pozor, pořadí výsledků Commons se mění, ověřit SHA-256 po stažení."
+  },
+  {
+   "id": "S14", "source": "svg", "effect": "static", "visual": "images/S14.png",
+   "diagram_generator": "kansas",
+   "diagram": "Sloupec USA: kazeta → šipka → disketa. Sloupec BRITAIN ztlumený a prázdný.",
+   "note": "Šipka = vývoj v čase. Disketa je sdílený tvar `disketa()` (vrátí se v S62)."
+  },
+  {
+   "id": "S15", "source": "svg", "effect": "static", "visual": "images/S15.png",
+   "pause": 1.2,
+   "diagram_generator": "kansas",
+   "diagram": "Deset ikon nových majitelů C64 v řadě, devět z nich s disketovou mechanikou ambrově, jedna bez. Nad tím 9 IN 10, pod tím malý zdroj: ONE SURVEY · COMPUTE!'S GAZETTE, DEC 1983.",
+   "note": "Zadání uživatele: v obraze připsat JEDNOMU dobovému průzkumu, ne jako statistiku všech Američanů. Assert 9 z 10."
+  },
+  {
+   "id": "S16", "source": "svg", "effect": "static", "visual": "images/S16.png",
+   "pause": 0.6,
+   "diagram_generator": "kansas",
+   "diagram": "Dva sloupce jako v S10. Teď svítí BRITAIN, USA ztlumené. Ve sloupci BRITAIN kazeta a šipka, která se otočí zpátky ke kazetě.",
+   "note": "Rým s S10/S14."
+  },
+  {
+   "id": "S17", "source": "svg", "effect": "static", "visual": "images/S17.png",
+   "pause": 0.6,
+   "diagram_generator": "kansas",
+   "diagram": "Obrys Spectra, vedle cenovka £125 a pod ní 16K. Pod tím dvě řádky: STORAGE: NONE (NONE ambrově) a YOUR OWN CASSETTE PLAYER s magnetofonem.",
+   "note": "£125 je cena 16K modelu (factcheck #8b); scénář model neříká, obraz ho připisuje (zpětná vazba ke storyboardu), ať divák necení zobrazený stroj obecně."
+  },
+  {
+   "id": "S18", "source": "svg", "effect": "static", "visual": "images/S18.png",
+   "pause": 3.3,
+   "example": { "zvuk": "zvuk/S18.flac", "gain_db": -8 },
+   "anim": "anim_s18",
+   "diagram_generator": "kansas",
+   "diagram": "Uprostřed vpravo televizor, obraz bílý s nápisem Program: MORE TO IT, okraj (border) v modrých a žlutých vodorovných pruzích jako při nahrávání dat. Vedle magnetofon. Nad tím THE SOUND OF A GAME ABOUT TO START. Levá dolní čtvrtina prázdná.",
+   "note": "Původně SDXL (dětský pokoj v noci): dvě kola (seed 831221680, 1821) vyšla jako DENNÍ pokoj a v levém dolním rohu, kam naskakuje výzva, byly předměty na světlé podlaze. Kotva stylu přebila „night“, proto změna zdroje, ne další seed (CLAUDE.md). Pruhy v okraji: ROM při nahrávání dat přepíná border modrá/žlutá na každé hraně, výšky pruhů jsou z délek skutečných pulzů. VÝZVA K ODBĚRU ZA TOUTO SCÉNOU: levý dolní roh (x < 563, y > 1080) prázdný."
+  },
+  {
+   "id": "S18b", "source": "svg", "effect": "static", "visual": "images/S18b.png",
+   "pause": 2.4, "vyzva": true,
+   "anim": "anim_s18",
+   "diagram_generator": "kansas",
+   "diagram": "Obraz S18 beze změny, jen nadpis: YOU COULD TELL WHICH GAME BY EAR. Levá dolní čtvrtina prázdná.",
+   "note": "Po poslechu 2026-10-23 (uživatel): za S18 krátká ukázka skřípění (S18 má v pauze zvuk a pruhy z emulátoru, anim_s18.py) a věta, že se hra dala poznat podle zvuku. VÝZVA K ODBĚRU přesunuta sem ze S18: levý dolní roh (x < 563, y > 1080) prázdný."
+  },
+  {
+   "id": "S19", "source": "svg", "effect": "static", "visual": "images/S19.png",
+   "diagram_generator": "kansas",
+   "diagram": "Mapa bloku (`mapa_bloku()`) jako cestovní plán: PILOT · SYNC · HEADER · PILOT · DATA · CHECK v jedné řadě, vlevo od ní kazeta, vpravo televizor. Všechno v horní polovině obrazu.",
+   "note": "Zavádí rým bloku S19–S37 (mapa bloku na pevných souřadnicích, registr invariantů). Výzva k odběru ze S18 přejíždí přes začátek téhle scény, takže levý dolní roh je prázdný: obsah jen nad y = 900."
+  },
+  {
+   "id": "S20", "source": "svg", "effect": "static", "visual": "images/S20.png",
+   "diagram_generator": "nahravani",
+   "diagram": "Obrazovka Spectra (bílý papír, černý okraj) s textem LOAD \"\" písmem Spectra, pod ní dvě klávesy: ENTER a ▶ PLAY na magnetofonu.",
+   "note": "Obrazovka Spectra je sdílený tvar `obrazovka()` (S20, S29, S30, S35, S56, S70)."
+  },
+  {
+   "id": "S21", "source": "svg", "effect": "static", "visual": "images/S21.png",
+   "diagram_generator": "nahravani",
+   "diagram": "Nahoře mapa bloku, svítí PILOT. Dole páteř se skutečnými pulzy úvodního tónu (2 168 T), stejné šířky. Popisek 807 HZ · ABOUT 5 SECONDS.",
+   "note": "Mapa bloku není v měřítku, v rohu SCHEMATIC. Pulzy na pásce v měřítku jsou (`PX_NA_T`, stejné jako S07)."
+  },
+  {
+   "id": "S22", "source": "svg", "effect": "static", "visual": "images/S22.png",
+   "pause": 0.6,
+   "diagram_generator": "nahravani",
+   "diagram": "Páteř s úvodním tónem, pod každou hranou krátká svislá ryska počítače, která sedí přesně na hranu. Nad tím NO DATA, pod tím LOCKING ONTO THE RHYTHM.",
+   "note": "Rysky = počítač se chytá rytmu. NO DATA bez škrtu."
+  },
+  {
+   "id": "S23", "source": "svg", "effect": "static", "visual": "images/S23.png",
+   "diagram_generator": "nahravani",
+   "diagram": "Mapa bloku, svítí SYNC. Na pásce konec úvodního tónu, pak dva kratší pulzy (667 a 735 T) ambrově, pak první datové pulzy. Nad synchronizací FROM HERE ON, IT'S DATA.",
+   "note": "Délky pulzů z ROM, ne od oka."
+  },
+  {
+   "id": "S24", "source": "svg", "effect": "static", "visual": "images/S24.png",
+   "pause": 0.6,
+   "diagram_generator": "nahravani",
+   "diagram": "Mapa bloku, svítí HEADER. Pod ní řada 19 buněk skutečné hlavičky: FLAG, TYPE, deset buněk jména M O R E _ T O _ I T, LENGTH (2), dvě pole po 2, CHECK. Ambrově TYPE, NAME, LENGTH, ostatní ztlumené. Nad tím 19 BYTES.",
+   "note": "Bajty se čtou ze `spectrum.bloky()[0]`, assert délky 19. Jméno MORE TO IT je skutečné jméno našeho programu."
+  },
+  {
+   "id": "S25", "source": "svg", "effect": "static", "visual": "images/S25.png",
+   "diagram_generator": "nahravani",
+   "diagram": "Mapa bloku, svítí druhý PILOT (2 s) a DATA. Popisek pod mapou 2 SECONDS · THEN THE GAME.",
+   "note": "Rým mapy bloku."
+  },
+  {
+   "id": "S26", "source": "svg", "effect": "static", "visual": "images/S26.png",
+   "pause": 0.5,
+   "diagram_generator": "nahravani",
+   "diagram": "Páteř se dvěma skutečnými bajty programu za sebou, nad každým bajtem závorka BYTE a jeho osm bitů. Mezi bajty svislá čárkovaná značka NO GAP.",
+   "note": "Bajty ze `spectrum.bloky()[1]`."
+  },
+  {
+   "id": "S27", "source": "svg", "effect": "static", "visual": "images/S27.png",
+   "pause": 0.5,
+   "diagram_generator": "nahravani",
+   "diagram": "Páteř, u každé hrany signálu svislá ryska. Mezi dvěma ryskami kóta s ikonou stopek: EDGE TO EDGE. Přeškrtnutá nota ♪ vlevo nahoře.",
+   "note": "„The computer doesn't hear notes“: škrt přes notu (ikonu), ne přes text."
+  },
+  {
+   "id": "S28", "source": "svg", "effect": "static", "visual": "images/S28.png",
+   "pause": 0.5,
+   "diagram_generator": "pulzy",
+   "diagram": "Tytéž dvě dvojice jako v S07–S08 na týchž souřadnicích, obě plně: SHORT PAIR → 0, LONG PAIR → 1.",
+   "note": "Výplata rýmu S07/S08 (`dvojice()`). Rozděleno po poslechu draftu: pauza před S28a uvnitř scény nešla vložit (u řezu zněla řeč)."
+  },
+  {
+   "id": "S28a", "source": "svg", "effect": "static", "visual": "images/S28a.png",
+   "pause": 1.4,
+   "naveti": "A short pair is a zero. A long pair is a one.",
+   "diagram_generator": "pulzy",
+   "diagram": "Obraz S28 beze změny, jen pod ním přibude ambrově THAT'S THE WHOLE DECODER.",
+   "note": "Beat rozdělením scény. Návětí = skutečný text S28 (intonace pokračování, bez /s/ artefaktu krátké promluvy)."
+  },
+  {
+   "id": "S28b", "source": "svg", "effect": "static", "visual": "images/S28b.png",
+   "diagram_generator": "uvod",
+   "diagram": "Přesně obraz S01 (magnetofon a páteř se týmž průběhem), jen nad páskou: GENERATED FROM THESE RULES a pod ní ambrově A REAL SPECTRUM PROGRAM INSIDE.",
+   "note": "Callback na S01: musí být identický průběh na identických souřadnicích, jinak se callback nepozná."
+  },
+  {
+   "id": "S28c", "source": "svg", "effect": "static", "visual": "images/S28c.png",
+   "pause": 2.4,
+   "diagram_generator": "uvod",
+   "diagram": "Magnetofon s červenou tečkou REC → šipka → Spectrum s televizorem. Nad tím ▶ AT THE VERY END.",
+   "note": "Slib, který se splní v S70. Tvrzení „a Spectrum will load it“ je ověřené v emulátoru (factcheck S28b), na zvuku z YouTube se ověří před zveřejněním (notes.md)."
+  },
+  {
+   "id": "S29", "source": "svg", "effect": "static", "visual": "images/S29.png",
+   "diagram_generator": "obrazek",
+   "diagram": "Obrazovka Spectra s hotovým nahrávacím obrázkem (kazeta a nápis kreslené v rozlišení 256×192 a barvách Spectra).",
+   "note": "Obrázek je vlastní, ne převzatý z cizí hry. Vyrábí ho `obrazek.py` do `diagrams/obr/`."
+  },
+  {
+   "id": "S30", "source": "svg", "effect": "static", "visual": "images/S30.png",
+   "pause": 0.6,
+   "diagram_generator": "obrazek",
+   "diagram": "Čtyři malé obrazovky v řadě, stavy téhož obrázku během nahrávání: 1) v horní třetině řádky po osmi, 2) horní třetina hotová, prostřední začíná, 3) celá bitmapa černobíle, 4) barvy dojely do poloviny. Pod každou číslo kroku.",
+   "note": "⚠ z factchecku: stavy se SIMULUJÍ přepočtem adres obrazové paměti Spectra (táž funkce jako `zvuk/spectrum_test.py: obrazovka()`), bajty se plní v pořadí adres. Assert: po 1/24 bitmapy jsou v horní třetině jen řádky 0, 8, 16, …"
+  },
+  {
+   "id": "S31", "source": "svg", "effect": "static", "visual": "images/S31.png",
+   "pause": 1.6,
+   "diagram_generator": "obrazek",
+   "diagram": "Dva pruhy pod sebou v jednom měřítku: PICTURE ≈ 40 s (krátký, ambrově) a WHOLE GAME ≈ 5 MIN (dlouhý).",
+   "note": "Assert 6 912 B / 170,6 B/s = 40,5 s; 5 min = 300 s."
+  },
+  {
+   "id": "S32", "source": "svg", "effect": "static", "visual": "images/S32.png",
+   "pause": 0.6,
+   "diagram_generator": "kontrola",
+   "diagram": "Mapa bloku, svítí CHECK na konci. Pod ní jedna buňka bajtu ambrově: + ONE MORE BYTE.",
+   "note": "Rým mapy bloku."
+  },
+  {
+   "id": "S33", "source": "svg", "effect": "static", "visual": "images/S33.png",
+   "pause": 0.5,
+   "diagram_generator": "kontrola",
+   "diagram": "SAVE: sloupec skutečných bajtů hlavičky ve dvojkové soustavě (prvních pět a … ), vlevo FLAG + 17 HEADER BYTES, pod nimi čára a XOR, výsledek ambrově, šipka k pásce: RECORDED AS ONE MORE BYTE.",
+   "note": "XOR počítá kód ze `spectrum.bloky()[0]`, assert, že výsledek je poslední bajt bloku."
+  },
+  {
+   "id": "S34", "source": "svg", "effect": "static", "visual": "images/S34.png",
+   "pause": 0.4,
+   "diagram_generator": "kontrola",
+   "diagram": "LOAD: tentýž výpočet znovu, vlevo výsledek z pásky, vpravo spočítaný, mezi nimi = a fajfka: INTACT.",
+   "note": "Rým se S33 (tytéž bajty)."
+  },
+  {
+   "id": "S35", "source": "svg", "effect": "static", "visual": "images/S35.png",
+   "diagram_generator": "kontrola",
+   "diagram": "Skutečná obrazovka z emulátoru: R Tape loading error, 0:1, vsazená do rámu obrazovky Spectra.",
+   "note": "Obrazovka z `zvuk/spectrum_test.py` na signálu s 20 ms ticha v 8,45 s (negativní kontrola), uložená v `art/rtape.png`. Skutečná hláška ROM, ne kresba."
+  },
+  {
+   "id": "S36", "source": "svg", "effect": "static", "visual": "images/S36.png",
+   "pause": 2.2,
+   "diagram_generator": "kontrola",
+   "diagram": "Stopky 5:00 (tytéž jako v S05), vedle jedna ambrová buňka bajtu, pod tím ⏪ REWIND.",
+   "note": "Splacení druhé otázky z S05."
+  },
+  {
+   "id": "S37", "source": "svg", "effect": "static", "visual": "images/S37.png",
+   "pause": 2.4, "vyzva": true,
+   "diagram_generator": "kontrola",
+   "diagram": "Mapa bloku: HEADER čárkovaně ztlumený s popiskem IGNORED · NO ERROR, šipka zpátky na PILOT: KEEPS LISTENING. U DATA malý popisek ERROR ONLY HERE.",
+   "note": "Zadání uživatele: obraz nesmí naznačit, že Spectrum chyby v hlavičce OPRAVUJE. Žádná fajfka, žádné „fixed“; hlavička se zahodí a čeká se na další. VÝZVA K ODBĚRU ZA TOUTO SCÉNOU (konec bloku Spectra, ~4:40): obsah jen v horních třech čtvrtinách, levý dolní roh prázdný."
+  },
+  {
+   "id": "S38", "source": "svg", "effect": "static", "visual": "images/S38.png",
+   "diagram_generator": "commodore",
+   "diagram": "Tři obrysy počítačů v řadě (SPECTRUM, COMMODORE 64, ATARI), Spectrum ztlumené, nad nimi OTHER BETS.",
+   "note": "Výzva ze S37 přejíždí přes začátek: levý dolní roh prázdný, obsah ve střední výšce."
+  },
+  {
+   "id": "S39", "source": "svg", "effect": "static", "visual": "images/S39.png",
+   "diagram_generator": "commodore",
+   "diagram": "Dvě kopie téhož bloku za sebou na pásce (COPY 1, COPY 2). V první kopii poškozené místo (škrt), šipka z odpovídajícího místa druhé kopie: RESCUED.",
+   "note": "Šipka vede z druhé kopie do první: záchrana jde odtud."
+  },
+  {
+   "id": "S40", "source": "svg", "effect": "static", "visual": "images/S40.png",
+   "pause": 0.5,
+   "diagram_generator": "commodore",
+   "diagram": "Dva pruhy v jednom měřítku pro 40 KB: SPECTRUM ≈ 4 MIN (ztlumeně) a COMMODORE 64, BUILT-IN ROUTINE ≈ 12½ MIN (ambrově).",
+   "note": "Assert 40 960 B / 170,6 B/s ≈ 240 s a 12,5 min z factchecku (#10b). Spectrum je srovnání, ve scénáři se neříká, proto ztlumeně."
+  },
+  {
+   "id": "S41", "source": "svg", "effect": "static", "visual": "images/S41.png",
+   "pause": 2.2,
+   "diagram_generator": "commodore",
+   "diagram": "Pruh C64 12½ MIN ze S40 na stejném místě a pod ním čárkovaný pruh FAST LOADERS: UP TO ~10× FASTER (desetina délky).",
+   "note": "Čárkovaně, protože „up to about“ (factcheck #10d: TurboTape ~8×)."
+  },
+  {
+   "id": "S42", "source": "archive", "effect": "slow_zoom_in", "visual": "images/S42.png",
+   "archive": { "provider": "wikimedia", "query": "cassette recorder 1980s", "pick": 0,
+                "grade": { "fit": 0.9, "saturation": 70, "vignette": false } },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-23): Tensai CRE-113 cassette recorder (Kecko, CC BY 4.0), typický přenosný magnetofon. Saturace dolů kvůli červenému ubrusu."
+  },
+  {
+   "id": "S43", "source": "svg", "effect": "static", "visual": "images/S43.png",
+   "diagram_generator": "magnetofon",
+   "diagram": "Páteř rozdělená na dvě poloviny. Vlevo TOO QUIET: malé pulzy utopené v šumu. Vpravo TOO LOUD: pulzy ořezané a s rozmazanými hranami, které do sebe přecházejí.",
+   "note": "Pulzy z téhož průběhu, mění se jen amplituda a hrany."
+  },
+  {
+   "id": "S44", "source": "svg", "effect": "static", "visual": "images/S44.png",
+   "diagram_generator": "magnetofon",
+   "diagram": "Nahoře dvojice pulzů ve správné délce, pod ní tatáž dvojice natažená. Vpravo stopky. Svislá čárkovaná čára PRAH mezi krátkou a dlouhou dvojicí.",
+   "note": "Ukazuje, proč na tempu záleží: počítač měří čas. Natažení je zveličené a v rohu SCHEMATIC."
+  },
+  {
+   "id": "S45", "source": "svg", "effect": "static", "visual": "images/S45.png",
+   "pause": 0.6,
+   "diagram_generator": "magnetofon",
+   "diagram": "Detail pásky s nahranými magnetickými proužky skloněnými pod úhlem a přes ni hlava se štěrbinou pod jiným úhlem. Kóta úhlu: AZIMUTH.",
+   "note": "Funkční nákres: stopa je na pásce, hlava se dotýká pásky, štěrbina hlavy má být rovnoběžná s proužky. Kreslí to, jak to funguje, takže ověřit samostatným průchodem."
+  },
+  {
+   "id": "S46", "source": "svg", "effect": "static", "visual": "images/S46.png",
+   "diagram_generator": "magnetofon",
+   "diagram": "Magnetofon s otevřenou kazetovou šachtou, u hlavy malá dírka a do ní šroubovák. Oblouková šipka otáčení a ucho: A FRACTION AT A TIME.",
+   "note": "Dírka je vedle hlavy (Sinclair User #43, #86)."
+  },
+  {
+   "id": "S47", "source": "svg", "effect": "static", "visual": "images/S47.png",
+   "pause": 2.6,
+   "diagram_generator": "magnetofon",
+   "diagram": "SUPERSTITION přeškrtnuté (text_skrtnuty), pod ním ambrově SIGNAL TUNING.",
+   "note": "Konec bloku, dlouhá pauza."
+  },
+  {
+   "id": "S48", "source": "svg", "effect": "static", "visual": "images/S48.png",
+   "diagram_generator": "magnetofon",
+   "diagram": "Magnetofon jako v S01, sám uprostřed, se ztlumenou páteří. Nad ním malý otazník.",
+   "note": "Předěl k obratu."
+  },
+  {
+   "id": "S49", "source": "svg", "effect": "static", "visual": "images/S49.png",
+   "pause": 0.5,
+   "diagram_generator": "magnetofon",
+   "diagram": "Magnetofon: vlevo do něj vchází vlna SOUND IN, vpravo vychází táž vlna SOUND OUT. Nad ním ztlumené bity 0 1 1 0 s přeškrtnutím: NEVER UNDERSTOOD.",
+   "note": "Vstupní a výstupní vlna jsou tatáž křivka (identita)."
+  },
+  {
+   "id": "S50", "source": "svg", "effect": "static", "visual": "images/S50.png",
+   "diagram_generator": "magnetofon",
+   "diagram": "Uprostřed táž vlna, kolem ní pět ikon nosičů zvuku: kazeta, rádio, gramodeska, televize, telefon. Nad tím ANYTHING THAT CARRIES SOUND.",
+   "note": "Teze druhé půlky videa."
+  },
+  {
+   "id": "S50b", "source": "svg", "effect": "static", "visual": "images/S50b.png",
+   "pause": 1.6,
+   "diagram_generator": "magnetofon",
+   "diagram": "Dva magnetofony vedle sebe spojené kabelem, mezi nimi táž vlna. Nad tím COPY A GAME = COPY AN ALBUM.",
+   "note": "Bez čísla, jen princip."
+  },
+  {
+   "id": "S51", "source": "svg", "effect": "static", "visual": "images/S51.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Páska se DVĚMA ODDĚLENÝMI stopami nad sebou: horní DATA s pulzy, spodní VOICE s nepravidelnou křivkou řeči. Šipka z DATA do počítače, šipka z VOICE do reproduktoru televize. Nad tím ATARI.",
+   "note": "Zadání uživatele: Atari jako dvě oddělené zvukové stopy (data / hlas). Stopy se nesmí křížit ani sdílet čáru."
+  },
+  {
+   "id": "S52", "source": "svg", "effect": "static", "visual": "images/S52.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Vysílač s vlnami, z něj páteřní signál. Nad tím RADIO BELGRADE, pod tím YUGOSLAVIA.",
+   "note": "Vysílač je sdílený tvar `vysilac()` (S52, S58)."
+  },
+  {
+   "id": "S53", "source": "svg", "effect": "static", "visual": "images/S53.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Mřížka 150 malých kazet (15 × 10), pod ní ≈ 150 PROGRAMS · 1983–1986.",
+   "note": "Assert 150. „Around“ = ≈."
+  },
+  {
+   "id": "S54", "source": "svg", "effect": "static", "visual": "images/S54.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Televizor se závěrečnými titulky (několik řádků ztlumeného textu bez čitelného obsahu), pod obrazem vlna signálu. Nad tím CZECHOSLOVAK TELEVISION.",
+   "note": "Rým s S70: titulky a vlna ve stejném rozvržení (`titulky_tv()`)."
+  },
+  {
+   "id": "S55", "source": "svg", "effect": "static", "visual": "images/S55.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Gramodeska s drážkami, poslední pás drážek u středu ambrově. Vedle PETE SHELLEY · XL1 · 1983.",
+   "note": "Bez obalu desky (autorské právo). Program je za koncem poslední písně."
+  },
+  {
+   "id": "S56", "source": "svg", "effect": "static", "visual": "images/S56.png",
+   "pause": 2.2,
+   "diagram_generator": "vysilani",
+   "diagram": "Gramodeska → kazeta → obrazovka Spectra se třemi řádky textu (ztlumené pruhy, ne skutečný text písně). Pod obrazovkou IN TIME WITH THE SONGS.",
+   "note": "Text písně se nekreslí (autorské právo a nemáme ho ověřený), jen řádky."
+  },
+  {
+   "id": "S57", "source": "svg", "effect": "static", "visual": "images/S57.png",
+   "pause": 1.0,
+   "dovetek": "Now listen to it closely.",
+   "diagram_generator": "vysilani",
+   "diagram": "Uprostřed velký nápis BUT. a nic jiného.",
+   "note": "Beat. Krátká scéna, krátký obraz."
+  },
+  {
+   "id": "S58", "source": "svg", "effect": "static", "visual": "images/S58.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Vysílač z S52 vlevo, vpravo pět různých počítačů, ke všem vlna. Jen jeden (Spectrum) ambrově s fajfkou, ostatní ztlumené.",
+   "note": "Vlna dojde ke všem (zvuk dorazí), rozumí jen jeden."
+  },
+  {
+   "id": "S59", "source": "svg", "effect": "static", "visual": "images/S59.png",
+   "pause": 0.6,
+   "diagram_generator": "vysilani",
+   "diagram": "Pulzy Spectra vlevo → šipka → Commodore 64. U Commodoru bublina s šumem (nepravidelná čára) a NOISE. Pod tím THE BITS NEED THE FORMAT.",
+   "note": "Šipka míří na Commodore, podmět věty."
+  },
+  {
+   "id": "S60", "source": "svg", "effect": "static", "visual": "images/S60.png",
+   "diagram_generator": "vysilani",
+   "diagram": "Uprostřed rámeček BASICODE (ONE FORMAT), z něj pět větví, každá přes malý rámeček TRANSLATOR do jiného počítače. Nahoře DUTCH RADIO, 1982.",
+   "note": "Překladač je u každého počítače zvlášť, formát je jeden."
+  },
+  {
+   "id": "S61", "source": "svg", "effect": "static", "visual": "images/S61.png",
+   "pause": 2.6,
+   "diagram_generator": "vysilani",
+   "diagram": "Ikona souboru, vedle čtečka s otazníkem. Pod tím ONLY USEFUL IF SOMETHING CAN READ IT.",
+   "note": "Konec bloku o formátu, dlouhá pauza."
+  },
+  {
+   "id": "S62", "source": "svg", "effect": "static", "visual": "images/S62.png",
+   "pause": 0.5,
+   "diagram_generator": "paska",
+   "diagram": "Řada nosičů zleva doprava: kazeta (ztlumená), disketa, pevný disk, flash. Šipka dopředu nad nimi.",
+   "note": "Kazeta ztlumená, ne škrtnutá: prohrála, ale v S63 se vrátí."
+  },
+  {
+   "id": "S63", "source": "archive", "effect": "slow_zoom_in", "visual": "images/S63.png",
+   "archive": { "provider": "wikimedia", "query": "Tape library StorageTek", "pick": 3,
+                "grade": { "fit": 1.0, "saturation": 90, "vignette": false } },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-23): Jorge Franganillo, „The architecture of memory - inside the StorageTek tape library“, CC BY 4.0, chodba mezi regály pásek."
+  },
+  {
+   "id": "S64", "source": "svg", "effect": "static", "visual": "images/S64.png",
+   "diagram_generator": "paska",
+   "diagram": "Obrys kazety LTO, vedle velké 18 TB a malé LTO-9.",
+   "note": "Kresba, ne fotka: obecná fotka LTO by nebyla LTO-9."
+  },
+  {
+   "id": "S65", "source": "svg", "effect": "static", "visual": "images/S65.png",
+   "pause": 1.6,
+   "diagram_generator": "paska",
+   "diagram": "Dvě velká čísla pod sebou: ≈ 29 MILLION C60 CASSETTES (s ikonou kazety) a > 3 000 YEARS TO LOAD (se stopkami). Malé AT SPECTRUM SPEED nahoře.",
+   "note": "Kazeta C60 = 2 × 30 min, v obraze výslovně C60. Assert: 18e12 / (1800 · 170,6 · 2) = 29,3 mil.; 18e12 / 170,6 / roky = 3 343 let."
+  },
+  {
+   "id": "S66", "source": "svg", "effect": "static", "visual": "images/S66.png",
+   "pause": 2.2,
+   "diagram_generator": "paska",
+   "diagram": "Páteř na stejném místě jako v S01, na ní teď hustší vzorek (magnetizace) a pod ní šipka → čísla 0 1 1 0 1 …",
+   "note": "Výplata páteře: tatáž páska, jiná doba."
+  },
+  {
+   "id": "S67", "source": "svg", "effect": "static", "visual": "images/S67.png",
+   "pause": 1.4,
+   "diagram_generator": "paska",
+   "diagram": "Obraz S01 (magnetofon, páteř, týž průběh). Nad páskou přeškrtnuté NOISE, pod ní ambrově A PROGRAM, TRAVELLING AS SOUND.",
+   "note": "Callback na S01 a S28b."
+  },
+  {
+   "id": "S68", "source": "sdxl", "effect": "slow_zoom_in", "visual": "images/S68.png",
+   "pause": 3.0,
+   "prompt": "a child seen from behind sitting cross-legged on a carpet in front of an old television in a dim 1980s living room, the television screen glowing with colourful horizontal stripes on its border, a cassette recorder on the floor beside the child, quiet anticipation, no faces",
+   "note": "Závěrečný obraz dítěte u televize. Dítě zezadu (negativ má faces). Pokud SDXL nevrátí pruhy na okraji obrazovky, nevadí, funkcí je čekání."
+  },
+  {
+   "id": "S69", "source": "svg", "effect": "static", "visual": "images/S69.png",
+   "pause": 1.6,
+   "diagram_generator": "zaver",
+   "diagram": "Jen v dolní polovině: kazeta a ambrový otazník, pod nimi WHAT DO YOU REMEMBER? Horní polovina prázdná. (Po poslechu draftu: otázka na vzpomínky na nahrávání z kazet místo ukládání na 40 let.)",
+   "note": "Poslední 20 s: horní polovina volná pro závěrečnou obrazovku (docs/storyboard-a-diagramy.md)."
+  },
+  {
+   "id": "S70", "source": "svg", "effect": "static", "visual": "images/S70.png",
+   "pause": 18.0,
+   "example": { "zvuk": "zvuk/spectrum.flac", "gain_db": -8 },
+   "anim": "anim_s70",
+   "diagram_generator": "zaver",
+   "diagram": "Rozvržení S54 (televizní titulky) v dolní polovině: vlevo sloupec skutečných titulků videa (VOICE, MUSIC, PICTURES, SIGNAL: GENERATED FROM ZX SPECTRUM ROM TIMING), vpravo obrazovka Spectra se skutečným výsledkem programu z emulátoru (kazeta kreslená PLOT/DRAW/CIRCLE a THERE'S MORE TO IT). Horní polovina prázdná.",
+   "note": "Splněný slib ze S28c. V pauze zazní CELÝ signál (12,9 s) bez podkresu, S70 proto není v music_sections. Obrazovka z emulátoru je `art/program.png` (čistý signál, md5 ae779f948d9a634eaf5077a00bb4ea01): kazeta a THERE'S MORE TO IT. Horní polovina volná pro závěrečnou obrazovku. ANIMACE (poslech druhého draftu 2026-10-23): obrazovka ukazuje skutečné snímky emulátoru během nahrávání (pruhy v okraji, Program: MORE TO IT, kreslení kazety), `zvuk/spectrum_film.py` + `diagrams/gen/anim_s70.py`; po každém tts.py pustit anim_s70.py znovu. Pauza 18 s, aby program stihl dokreslit (15,6 s po startu pásky)."
+  }
+ ]
+}

@@ -1,0 +1,545 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Úvod hned ukáže paradox: existence planety neznamená oddělený obraz.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo hvězda a sotva patrný bod planety, vpravo pozorování slité v jediný bod. Popisky SYSTEM / OBSERVATION."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Očekávání je výslovně označené; nepředstírat skutečnou fotografii.",
+      "diagram_generator": "uvod",
+      "diagram": "Stejný systém a vedle ideální oddělené body v rámečku EXPECTATION; skutečný pozorovaný bod pod ním s popiskem USUALLY."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Jasový kontrast a úhlová separace jsou dvě různé překážky; rozměry schematické.",
+      "diagram_generator": "uvod",
+      "diagram": "Stejná dvojice, hvězdná záře překrývá slabý bod. Dvě samostatné značky: FAINT a CLOSE TO THE STAR."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Otázka vyrůstá z problému předchozích obrazů, bez nové kulisy.",
+      "diagram_generator": "uvod",
+      "diagram": "Pozorovaný bod a otázka HOW DO WE FIND IT? Prázdné místo pro měřený signál.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Zavést páteř systém → signál, zatím bez seznamu všech metod.",
+      "diagram_generator": "uvod",
+      "diagram": "Od stejného systému vede vazba do okna signálu: jednoduchý pokles jasnosti. Popisek LOOK FOR ITS EFFECTS.",
+      "pause": 1.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Ilustrace mechanismu, nikoli detekce konkrétní planety; blokování není dokonalé.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "V okně pozorování dvě srovnatelné varianty bez potlačení a s potlačením hvězdy; slabý bod zůstane vedle zakrytého středu."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Výběrové zvýhodnění, nikoli definice všech přímo zobrazených planet.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "Zvýrazněná planeta a tři krátké atributy LARGE / YOUNG / HOT, společný popisek FAVOURED TARGETS."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Teplo z formování; žádný oheň ani odraz viditelného světla jako příčina infračerveného záření.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "Planeta vysílá tepelné záření označené INFRARED; hvězda zůstává v obraze dominantní."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Schéma, ne technický řez konkrétního přístroje. Světlo planety musí mít cestu mimo masku. Levý horní roh volný pro CTA.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "Princip koronografu: hvězda a planeta, optický systém s maskou v obrazové rovině, detektor s potlačeným středem a slabým bodem vedle."
+    },
+    {
+      "id": "S09b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Jediné CTA, text kreslí sdílená vrstva renderu; žádný střih ani vlastní nápis.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "Beze změny podržet obraz S09.",
+      "cta": true
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "pause": 0.4,
+      "note": "PICK VYBRÁN PO PROHLÉDNUTÍ náhledu a kontaktního listu /tmp/exoplanet-review/contact-selected.jpg; finalista prohlédnut i v plném rozlišení. HIP 65426 b: skutečná nerozlišená planeta ve čtyřech infračervených filtrech JWST, nikoli povrch. Horní pole je DSS; bílé hvězdičky ve výřezech označují polohu potlačené hvězdy. Barvy jsou přiřazené infračerveným pásmům, ne přirozená barva planety. Ponechat originální popisky, neutrální barvy a celé okraje; žádná retuš. Ověřit po stažení přesný identifikátor File:Webb Takes Its First Exoplanet Image (HIP-65426b).jpeg. Kredit NASA/ESA/CSA, A Carter (UCSC), ERS 1386 team, A. Pagan (STScI), CC BY 4.0.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "HIP 65426 Webb",
+        "pick": 1,
+        "grade": {
+          "fit": 0.7,
+          "fit_bg": "#0c1220",
+          "levels": null,
+          "saturation": 100,
+          "tint_amount": 0,
+          "contrast": null,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Jde o světlo planety, nikoli hvězdy. Graf nesmí předstírat naměřené spektrum HIP 65426 b.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "Z bodu planety do spektra s několika absorpčními pásy. Osa WAVELENGTH a malé ILLUSTRATIVE.",
+      "pause": 0.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Možnost charakterizace, ne automaticky známé složení každé detekované planety.",
+      "diagram_generator": "zobrazeni",
+      "diagram": "Stejný bod a spektrum; dvě úrovně informace PLANET a POSSIBLE ATMOSPHERIC COMPOSITION.",
+      "pause": 1.2
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Obrat od vlastního světla planety k úbytku světla hvězdy.",
+      "diagram_generator": "tranzit",
+      "diagram": "Stejný systém natočený do tranzitní geometrie, planeta se blíží k disku hvězdy; okno signálu čeká.",
+      "pause": 2.2
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Planeta je mezi hvězdou a pozorovatelem, nikoli za hvězdou.",
+      "diagram_generator": "tranzit",
+      "diagram": "Pohled od pozorovatele na hvězdný disk a dráhu planety přes něj; malá boční vložka hvězda–planeta–pozorovatel."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Svislé vodicí značky musí odpovídat příslušným fázím. Hloubka názorně zvětšená a označená.",
+      "diagram_generator": "tranzit",
+      "diagram": "Tři fáze tranzitu a propojená křivka relativní jasnosti proti času; pokles a návrat."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Poměr ploch spočítat v generátoru, žádná obří Země bez označení změny měřítka; svislá osa grafu zvětšená.",
+      "diagram_generator": "tranzit",
+      "diagram": "Disky Země a Slunce v poměru poloměrů 6371/695700; detail křivky s hodnotou ~0.008% a vztahem depth ≈ (Rp/R★)²."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Obě zaokrouhlení odpovídají stejnému poměru, nejde o další nezávislé měření.",
+      "diagram_generator": "tranzit",
+      "diagram": "Podržet stejný pokles, přidat ekvivalent ABOUT 1 IN 12,000; velký detail nepatrné změny.",
+      "pause": 0.4
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Periodicita sama nepotvrzuje planetu. Alternativa není automaticky vyloučená křížkem.",
+      "diagram_generator": "tranzit",
+      "diagram": "Tři pravidelné poklesy, nad nimi PLANET CANDIDATE; vedle malá možnost ECLIPSING BINARY se symbolem kontroly."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Oddělit čas a relativní velikost; hloubka není přímo absolutní poloměr.",
+      "diagram_generator": "tranzit",
+      "diagram": "Na téže křivce vodorovná závorka PERIOD mezi středy poklesů a svislá DEPTH; vedle Rp/R★.",
+      "pause": 0.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Tvar nese geometrickou informaci, nikoli jediné řešení bez modelu hvězdy.",
+      "diagram_generator": "tranzit",
+      "diagram": "Detail jednoho poklesu s délkou tranzitu a vstupem/výstupem; dva schematické průchody různými tětivami disku."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Ukázat princip hromadné fotometrie; bez vymyšlených fotografií či technických siluet sond.",
+      "diagram_generator": "tranzit",
+      "diagram": "Pole hvězd a několik malých světelných křivek, jedna se zvýrazněným poklesem. Text KEPLER / TESS."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Netranzitující planeta nezmizí; absence poklesu není absence planety.",
+      "diagram_generator": "tranzit",
+      "diagram": "Dva sklony oběžné roviny, stejné stanoviště pozorovatele: jeden průchod přes disk, druhý mimo něj.",
+      "pause": 1.2
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Přechod k pohybu hvězdy, zatím nepředbíhat hmotnost a hustotu.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Vrátit netranzitující systém a zvýraznit hvězdu, okno signálu přechází na spektrum.",
+      "pause": 2.2
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Neškrtnout celé obíhání planety; opravuje se pouze nehybná hvězda.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Dvě schémata: představa pevné hvězdy označená SIMPLIFIED a obě tělesa kolem společného bodu."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Vzdálenosti splňují M★ r★ = Mp rp; barycentrum není automaticky ve středu hvězdy. Pohyb zvětšený a označený.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Barycentrum označené křížkem, hvězda i planeta na protilehlých stranách, malé a velké orbitální kružnice.",
+      "pause": 0.4
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Měří se složka pohybu podél pohledu; obrázek nesmí zaměnit RV za astrometrii.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Detail malé dráhy hvězdy u barycentra, linka pohledu k pozorovateli a okno spektrografu.",
+      "pause": 1.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Čáry jsou ve spektru, nikoli fyzické pruhy na povrchu hvězdy.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Hvězdné světlo vstupuje do schematického spektrografu a vzniká vodorovné spektrum s temnými čarami; osa WAVELENGTH roste doprava.",
+      "pause": 0.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Celý vzor se posune; neměnit vzdálenosti čar svévolně. Kratší vlevo, delší vpravo.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Tři zarovnaná spektra se stejným vzorem čar: TOWARDS US vlevo od referenčních čar, REST uprostřed, AWAY FROM US vpravo.",
+      "pause": 0.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Opakovaný posun není sám důkaz planety; nepřidávat jednoznačné potvrzení.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Tři fáze oběhu a odpovídající posuny čar kolem referenční polohy; popisek POSSIBLE PLANET."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "K je od střední hodnoty k maximu, nikoli peak-to-peak. Sinus výslovně kruhový model.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Ilustrativní sinusová RV křivka kolem nuly, osa TIME a RADIAL VELOCITY; závorky PERIOD a SEMI-AMPLITUDE K.",
+      "pause": 0.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Neznámý sklon nesmí vést k jedinému přesnému Mp; vztah platí v aproximaci Mp ≪ M★.",
+      "diagram_generator": "rychlosti",
+      "diagram": "Stejná křivka, známá hmotnost hvězdy a sklon i vstupují do odhadu; prominentní MINIMUM MASS: Mp sin i.",
+      "pause": 1.2
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Začátek hlavního vyústění: stejná planeta, nikoli dva nesouvisející příklady.",
+      "diagram_generator": "spojeni",
+      "diagram": "Zavést společnou kartu planety u pevného systému. Tranzitní křivka a známé R★ vyplní první údaj RADIUS. Ostatní místa zatím prázdná."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Hmotnost potřebuje i parametry hvězdy a sklon; nevydávat minimum z S31 bez vysvětlení za skutečnou hmotnost.",
+      "diagram_generator": "spojeni",
+      "diagram": "Na stejné kartě přibude MASS z RV a sklonu z tranzitu; oba údaje vedou na DENSITY, ρ = M / (4πR³/3)."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Podmíněná interpretace. Žádný údajný portrét objeveného světa ani modrozelený povrch.",
+      "diagram_generator": "spojeni",
+      "diagram": "Karta zůstává; vedle neutrální schematický řez kompaktní planetou s popiskem HIGH DENSITY: COULD BE ROCKY."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Bez ostré hranice hustoty rock/gas; stejné měření dovoluje různé modely, řezy jsou hypotézy.",
+      "diagram_generator": "spojeni",
+      "diagram": "Dvě možné schematické struktury vedle téže karty: malé jádro a objemný obal; větší podíl vody a jiný obal. POSSIBLE INTERIORS / NOT UNIQUE."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Dílčí vrchol videa: fyzický popis vznikne propojením měření, není to seznam metod.",
+      "diagram_generator": "spojeni",
+      "diagram": "Souhrnný obraz: tranzit → poloměr, RV + sklon → hmotnost, oba → hustota → možné složení. Stejná karta plná, otazník u složení.",
+      "pause": 2.6
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Mění se měřená hvězda: světelný signál pochází z pozadí.",
+      "diagram_generator": "cocka",
+      "diagram": "Původní systém doplní vzdálená hvězda v pozadí; signálové okno prázdné pro zesílení jejího světla.",
+      "pause": 1.2
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Hvězda nefunguje jako skleněná čočka uvnitř povrchu; paprsky procházejí kolem ní, rozměry nejsou v měřítku.",
+      "diagram_generator": "cocka",
+      "diagram": "Boční geometrie zdroj–čočka–pozorovatel; paprsky se ohýbají v gravitačním poli hvězdy v popředí."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Nekreslit rozlišený Einsteinův prstenec jako běžný pozorovaný obraz mikročočky.",
+      "diagram_generator": "cocka",
+      "diagram": "Tatáž geometrie a jediný hladký kopec zesílení jasnosti zdroje, osa TIME / MAGNIFICATION."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Ilustrativní kladná anomálie je příklad, ne univerzální tvar ani vždy menší amplituda; referenční křivka označena STAR ONLY.",
+      "diagram_generator": "cocka",
+      "diagram": "K hvězdě čočky přibude planeta. Přes referenční hladkou křivku jde křivka s krátkou anomálií, zvýrazněný detail."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Nedoplňovat nepodložené počty nebo tvrzení o všech vzdálenostech; komplementarita metod.",
+      "diagram_generator": "cocka",
+      "diagram": "Podržet anomálii a vazbu na planetu čočky, jednoduchý název MICROLENSING."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Končí příhodné zarovnání, nikoli existence planety nebo její oběh.",
+      "diagram_generator": "cocka",
+      "diagram": "Tři časové polohy zdrojové hvězdy vůči čočce, poslední mimo zákryt; křivka se vrací k základnímu jasu.",
+      "pause": 0.4
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Srovnání opakovatelnosti; neprohlašovat, že žádná anomálie nikdy nemůže mít další strukturu.",
+      "diagram_generator": "cocka",
+      "diagram": "Dvě časové osy: pravidelné tranzity nahoře, jedna mikročočková událost dole; stejné grafické jednotky bez falešného číselného měřítka.",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Přechod od detekce k charakterizaci; atmosféra je viditelná schematicky.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Vrátit známou tranzitní geometrii. Okolo neprůsvitného disku planety tenký prstenec atmosféry, zvýraznit jen jej."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Většina světla nejde atmosférou, žádný paprsek neprojde neprůsvitným jádrem; tloušťka atmosféry zvětšená a označená.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Tři svazky: mimo planetu k pozorovateli, skrz atmosférický okraj oslabený, do pevného disku ukončený. Detail prstence."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Pouhé vykreslení hlubších čar bez celkového tranzitního zeslabení by bylo zavádějící. Ilustrativní data, nikoli spektrum konkrétní planety.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Spektrum OUT OF TRANSIT a IN TRANSIT na stejné ose; pod nimi rozdílový detail. Spektrum v tranzitu celkově slabší, některé pásy o trochu více."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Seznam možných detekcí napříč planetami; nepřipsat všechny jednomu smyšlenému spektru ani nevymyslet polohy čar.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Vedle spektrálního otisku krátký seznam POSSIBLE SPECIES: H₂O, CO₂, CH₄, Na."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Rozdíl spekter nese informaci bez rozlišené fotografie, ale detekce není zaručená pro každý systém.",
+      "diagram_generator": "atmosfera",
+      "diagram": "Neoddělený hvězdný bod v okně obrazu, vedle zvětšený malý rozdíl spekter s popiskem ATMOSPHERIC CLUES.",
+      "pause": 2.2
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Vizuální návrat k úvodní otázce; nepřikreslit náhle detailní povrch.",
+      "diagram_generator": "navrat",
+      "diagram": "Vrátit přesně kompozici S01 a S05. Prázdné okno teď obsahuje nalezený signál, slabá planeta zůstává stejným bodem."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Čtyři možnosti napříč systémy, ne tvrzení, že u jedné planety byly použity všechny metody.",
+      "diagram_generator": "navrat",
+      "diagram": "U stejného systému čtyři jednoduché signály: pokles, RV, mikročočková anomálie, rozdíl spekter."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Obrys představuje odvozenou existenci, ne skutečné prostorové rozlišení.",
+      "diagram_generator": "navrat",
+      "diagram": "Signály se spojují s obrysem planety a popiskem DETECTING WITHOUT DIRECTLY SEEING.",
+      "pause": 0.4
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Od této scény rezervovat stejné horní pozice pro obě karty; žádný nový fotorealistický svět.",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná závěrečná kompozice v dolní střední oblasti: jednoduchý obrys planety a vedle skutečný typ důkazu, světelná křivka. Horní polovina prázdná."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Rekapitulace zachovaná, bez nového diagramu v prostoru karet.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve stejném dolním pásu čtyři drobné, ale čitelné znaky signálů z S50; nahoře beze změny prázdno.",
+      "pause": 0.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Metafora rekonstrukce není úplný portrét ani seznam známý pro každou planetu.",
+      "diagram_generator": "zaver",
+      "diagram": "Ve stejném pásu obrys světa a údaje ORBIT / SIZE / MASS / DENSITY, ATMOSPHERE? odděleně jako možnost."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Klidný konec, žádné druhé CTA ani další scéna; nevyjadřovat univerzální detekovatelnost.",
+      "diagram_generator": "zaver",
+      "diagram": "Podržet obrys planety spojený s drobným signálem; krátký závěrečný titulek WORLDS WE CANNOT SEE, horní polovina prázdná.",
+      "pause": 3.0
+    }
+  ]
+}

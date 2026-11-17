@@ -1,0 +1,699 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA není sdxl a nese myšlenku: koupené věci na polici. KONVENCE VIDEA: PLNÁ čára = vlastníš, ČÁRKOVANÁ = máš přístup. Čtvrtá přihrádka je pevný disk (koupené úložiště; uživatel po draftu: chyběl tam obrázek) — v S03 se tentýž disk změní na čárkované STORAGE, nic se nepřeskládá.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ poprvé: police na POLICE_XY, v přihrádkách PLNĚ gramodeska, VHS, krabice programu, pevný disk, herní pouzdro. Nad policí BOUGHT ONCE. Nadpis BOUGHT = OWNED."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat v témže obraze, štítky v pořadí scénáře. Pause 1.2: S03 'Today' je obrat.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Předměty dostanou štítky RECORD, TAPE, DISC, SOFTWARE; pod krabicí programu ambrově NO BILL NEXT MONTH.",
+      "pause": 1.2
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Obrat celého videa jednou změnou stylu čáry; nic se nepřeskládá. Pause 0.5: S03b 'And' výčet dokončuje.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž police, tytéž předměty na týchž místech, ale ČÁRKOVANĚ: MUSIC, FILMS, SOFTWARE, STORAGE (týž disk), GAMES, pod každým ambrově / MONTH. Nad policí PAID EVERY MONTH. Nadpis TODAY.",
+      "pause": 0.5
+    },
+    {
+      "id": "S03b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03b.png",
+      "note": "Výčet pokračuje mimo polici: 'more and more things'. Pause 1.4 před ekonomikou.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, vpravo od police navíc řada drobných čárkovaných krabiček, které mizí do ztracena, štítek AND MORE… Nadpis BOUGHT → SERVICE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Druhý opakovaný tvar (vrátí se v S35). Data jsou v grafu od prvního snímku — prázdné osy čte divák jako rozbitý graf. Osa už teď do 1200, aby se v S05 nic nepřeměřovalo. assert na hodnoty.",
+      "diagram_generator": "uvod",
+      "diagram": "PENÍZE poprvé (penize() v _kit.py, PENIZE_XY): graf, vodorovně YEARS 0–10, svisle DOLLARS 0–1200. Plná vodorovná čára na 100 přes celých deset let, štítek ONCE: $100."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Výplata ekonomiky do ~1:00 (rozhodnutí uživatele). Přímka spočítaná v kódu (10×12×roky), assert 120 a 1200. Pause 1.4: beat po 'twelve hundred'.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž graf. Přibude ambrová rostoucí přímka $10 / MONTH: v roce 1 bod $120, v roce 10 bod $1,200 (štítky u obou bodů).",
+      "pause": 1.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Otázka z titulu. Rozvržení karty (OTAZKA_XY) se vrátí v S36–S37 — callback druhé otázky.",
+      "diagram_generator": "uvod",
+      "diagram": "Otázková karta: velce WHAT DO YOU ACTUALLY BUY WHEN YOU SUBSCRIBE? Pod tím menší a ztlumeně COULD YOU LIVE WITHOUT SUBSCRIPTIONS?",
+      "pause": 1.2
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "NEŠKRTAT nápis: scénář říká 'not quite', ne 'není pravda' — přeškrtnutí by tvrdilo víc. Proto čárkovaná šipka + NOT QUITE. Konec úvodu.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo rámeček COMPANIES, vpravo skupinka postav US, mezi nimi ČÁRKOVANÁ šipka PUSHED IT ON US a pod ní ambrově NOT QUITE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S08",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S08.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (18 náhledů ze tří dotazů): [4] 'Fuji DR Type 1 Compact Cassette', CC BY-SA 4.0 — jedna kazeta zepředu, čistý tvar, cívky vidět; čte se jako 'kazeta' i ve 150 px. Značka FUJI je na předmětu, ne branding videa. Zamítnuto: TDK Head Cleaner (fotoelasticita, duhové barvy — čte se jako efekt), VHS+minikaseta (tři formáty, ne jedna kazeta), dva snímky na dřevěné desce (malé, DAT vedle). Záloha: 'Very 1980s (7205011482)', CC BY 2.0 — hudební kazety s názvy alb, čb.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Compact cassette 1980s",
+        "pick": 4,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S09.png",
+      "note": "První SDXL (~1:20), atmosféra 'put it on a shelf and forget about it for twenty years'. Nesmí být první scéna videa — není.",
+      "prompt": "a quiet living room seen from a distance, a wooden shelf holding rows of old cassette tapes and a few records, a thin layer of dust, an empty armchair, soft diffuse window light, a sense of years passing, nobody in the room, no text"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Šipky míří NA kazetu, ale nedosáhnou — kresba tvrdí 'nikdo nemohl', ne 'někdo to udělal'. Ověř, že konec šipek leží VNĚ kruhu. Pause 0.5: S11 'And' výčet dokončuje.",
+      "diagram_generator": "kazeta",
+      "diagram": "Uprostřed kazeta v plném kruhu YOURS. Zvenku na kruh míří tři ČÁRKOVANÉ šipky, které se o něj zastaví: ikona vypínače SWITCH IT OFF REMOTELY, špendlík na mapě REMOVE IT FROM YOUR REGION, listina CHANGE THE TERMS. Nad nimi NOBODY COULD.",
+      "pause": 0.5
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Text e-mailu musí jít přečíst — žádný křížek přes nápis (text_skrtnuty jen kdyby bylo nutné škrtat).",
+      "diagram_generator": "kazeta",
+      "diagram": "Týž obraz, čtvrtá šipka: obálka e-mailu s čitelným textem YOUR SUBSCRIPTION HAS EXPIRED, i ona se zastaví o kruh."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Rým s S01 na týchž souřadnicích. Statický diagram, protože za ním je CTA (docs/cta.md).",
+      "diagram_generator": "kazeta",
+      "diagram": "PÁTEŘ: táž police, PLNĚ TAPES, BOOKS, CDs, DVDs, SOFTWARE. Nad policí tři kroky se šipkami YOU BOUGHT IT → YOU TOOK IT HOME → IT WAS YOURS (poslední ambrově).",
+      "pause": 1.0
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "visual": "images/S12.png",
+      "effect": "static",
+      "cta": true,
+      "note": "CTA podle docs/cta.md (~1:45), za kazetovou pasáží a před 'Then computers became common'. Dědí obraz S12. Pause = konec bloku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S13",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13.png",
+      "note": "Předěl do éry počítačů. Obrazovka bez obsahu (negativ zakazuje UI).",
+      "prompt": "a small home study in the late 1990s, a beige desktop computer with a bulky monitor on a wooden desk, a figure seen from behind sitting at it, the screen only a soft blank glow, a desk lamp, a shelf of CDs beside the desk, no text"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Fyzické věci kresleny plně, soubory taky PLNĚ — soubor na vlastním disku je pořád vlastnictví (konvence videa).",
+      "diagram_generator": "pocitace",
+      "diagram": "Dvě řady: vlevo stoh mnoha CD → šipka → počítač se složkou THOUSANDS OF SONGS; pod tím police DVD → šipka → disk FILMS ON A HARD DRIVE. Dole tři slovesa COPY · BACK UP · MOVE."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Problém je v lidech, ne v souborech — soubory zůstávají plně a v pořádku.",
+      "diagram_generator": "pocitace",
+      "diagram": "Týž počítač se soubory, vedle postava odvrácená od něj. Nadpis MOST PEOPLE DIDN'T WANT TO DEAL WITH THEM."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Celý strom vidět od prvního snímku (výčet se čte rychle). Strom se vrátí ztlumený v S17.",
+      "diagram_generator": "pocitace",
+      "diagram": "Strom: DRIVES → FOLDERS → FILES, stranou BACKUPS; v hloubce stromu jeden soubor ambrově s otazníkem. Nadpis WHERE DID I SAVE THAT THING?"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Bez log a bez napodobení skutečného UI. Strom POD panelem zůstává (soubory nezmizely, jen nejsou vidět).",
+      "diagram_generator": "pocitace",
+      "diagram": "Týž strom ztlumený, přes něj zaoblený panel PHOTOS (obecná dlaždice bez loga). Nad tím obyčejným textem MICROSOFT · APPLE. Štítek HIDING THE COMPLEXITY."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Bez ironie: scénář to myslí vážně. Konec bloku.",
+      "diagram_generator": "pocitace",
+      "diagram": "Panel PHOTOS, před ním dav drobných postav. Nadpis A GENUINE IMPROVEMENT.",
+      "pause": 2.2
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Mrak je místo, kde soubory jsou — zatím PLNĚ, zlom 'access' přijde až v S21.",
+      "diagram_generator": "cloud",
+      "diagram": "Počítač se soubory, šipka nahoru do obrysu mraku THE CLOUD; soubory jsou už v mraku."
+    },
+    {
+      "id": "S19b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19b.png",
+      "note": "Beat v témže obraze.",
+      "diagram_generator": "cloud",
+      "diagram": "Týž mrak, od něj spojnice k telefonu, notebooku a tabletu; u každého malé ikonky PHOTOS a DOCUMENTS. Štítek EVERYWHERE."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Křížek přes IKONY, popisky čitelné (text_skrtnuty jen přes popisky, pokud vůbec).",
+      "diagram_generator": "cloud",
+      "diagram": "Nový telefon, šipka LOG IN, na něm všechno. Vedle tři ztlumené ikony se škrtem: kopírování, obnova zálohy, starý disk (NO COPYING · NO RESTORING · NO DIGGING).",
+      "pause": 1.2
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Zavedení konvence nahlas: plná = mám, čárkovaná = přístup. Musí sedět s policí z S01/S03.",
+      "diagram_generator": "cloud",
+      "diagram": "Dvě karty vedle sebe: vlevo PLNÁ ikona souboru I HAVE THE FILE, šipka, vpravo ČÁRKOVANÁ ikona souboru s klíčem I HAVE ACCESS TO THE FILE (ambrově).",
+      "pause": 1.0
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Jména služeb obyčejným textem, žádná loga ani barvy značek.",
+      "diagram_generator": "cloud",
+      "diagram": "Nahoře: PLNÉ CD → A THING. Dole: ČÁRKOVANÁ dlaždice hudební služby (trojúhelník play, bez loga) s textem SPOTIFY → ACCESS."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Beat: druhý řádek tabulky. Pause 0.5: S25 'And catalogues change.'",
+      "diagram_generator": "cloud",
+      "diagram": "Týž rozvrh o řádek níž: PLNÉ DVD → A COPY; ČÁRKOVANÁ mřížka dlaždic NETFLIX → ACCESS TO A CATALOGUE. Řádek s CD ztlumeně nahoře zůstává.",
+      "pause": 0.5
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Tři změny v pořadí scénáře. Pause 0.5: S26 'And if you stop paying'.",
+      "diagram_generator": "cloud",
+      "diagram": "Mřížka katalogu zvětšená: jedna dlaždice chybí (prázdný čárkovaný otvor) A FILM CAN DISAPPEAR; cenovka se šipkou nahoru THE PRICE; listina s jedním přepsaným řádkem THE TERMS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Šipka návratu peněz: škrtá se ŠIPKA, ne nápis.",
+      "diagram_generator": "cloud",
+      "diagram": "Řada měsíčních mincí k mřížce katalogu; v jednom místě je řada přerušená, mřížka za tím ztlumená a prázdná. Šipka zpátky k mincím přeškrtnutá: THE MONEY DOESN'T COME BACK."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Jeden z nejsilnějších obrazů videa — uživatel 2026-10-02: nepřeplácat textem. 'You paid for the time you had access' nese hlas, obraz jen výsledek. Kontrast s S38, kde se táž police znovu plní. Konec bloku.",
+      "diagram_generator": "cloud",
+      "diagram": "MINIMUM PRVKŮ: jen PRÁZDNÁ police na POLICE_XY (páteř, obrysy přihrádek bez předmětů) a pod ní jediný štítek OWNED: NOTHING. Žádná časová osa, žádné další nápisy.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27b.png",
+      "note": "Řádky tabulky na pevných souřadnicích, aby S27c jen přidal dva další.",
+      "diagram_generator": "pohodli",
+      "diagram": "Tabulka tří řádků, vidět je jen první: vlevo PLNÁ sbírka desek DON'T WANT TO BUY A RECORD COLLECTION?, šipka, vpravo ČÁRKOVANÁ dlaždice SPOTIFY a ambrově FINE."
+    },
+    {
+      "id": "S27c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27c.png",
+      "note": "Pause 0.6: S28 'And none of this' je pointa výčtu.",
+      "diagram_generator": "pohodli",
+      "diagram": "Táž tabulka, první řádek ztlumený, přibudou dva: police DVD → NETFLIX · FINE; krabice programu s ozubeným kolem INSTALL AND MAINTAIN → CLOUD SERVICE · FINE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Škrt přes celý nápis je tady správně: scénář říká, že trik to NENÍ.",
+      "diagram_generator": "pohodli",
+      "diagram": "Nahoře přeškrtnutý nápis A TRICK? (text_skrtnuty), pod ním ambrově THEY SOLVE REAL PROBLEMS."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tlačítko obecný trojúhelník v kruhu, bez UI služby. Rozvržení se vrátí v S30? Ne — S30 je SDXL.",
+      "diagram_generator": "pohodli",
+      "diagram": "Vlevo sloupec desek, který roste po letech 1…10 (TEN YEARS BUILDING A COLLECTION), vpravo jedno velké ambrové tlačítko PLAY."
+    },
+    {
+      "id": "S30",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S30.png",
+      "note": "Druhé 'press Play' jako obraz, ne další diagram — beat odpočinku. Obrazovka bez obsahu.",
+      "prompt": "a quiet living room in the evening, a figure seen from behind on a sofa facing a television, the screen only a soft warm glow with no image, a lamp, a cup on a low table, no text"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Váhy se vrátí v S47–S48 a S58 na týchž souřadnicích (VAHY_XY) — tam se teprve nakloní. Tady rovnováha: lidé za pohodlí rádi platí, nic se neláme. Konec bloku.",
+      "diagram_generator": "pohodli",
+      "diagram": "Váhy (vahy() z kitu): na jedné misce CONVENIENCE, na druhé mince; váhy v rovnováze. Nadpis CONVENIENCE IS VALUABLE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Osa od prvního snímku celá.",
+      "diagram_generator": "software",
+      "diagram": "Časová osa 1998 → 2008. Na začátku PLNÁ krabice programu s CD INSTALLED FROM A CD, po ose plný úsek USED FOR TEN YEARS."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Firma a web čárkovaně = 'might disappear' (možnost), ne přeškrtnuté.",
+      "diagram_generator": "software",
+      "diagram": "Táž osa. Nad ní ČÁRKOVANĚ a ztlumeně THE COMPANY a THE WEBSITE (mohly zmizet), dole PLNÝ program na disku a ambrově STILL RAN."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Míra jistoty: 'may' — ztlumit, nekřížkovat.",
+      "diagram_generator": "software",
+      "diagram": "Dnešek: program jako ČÁRKOVANÁ služba s řadou měsíčních plateb; za přerušením plateb je program ztlumený se štítkem MAY STOP WORKING."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Graf kreslí táž funkce penize() — nesmí se posunout, jinak se rým nepozná. Konec bloku.",
+      "diagram_generator": "uvod",
+      "diagram": "CALLBACK S05: týž graf PENÍZE na PENIZE_XY, ambrový bod $1,200 zvýrazněný, $100 ztlumeně. Nadpis REMEMBER THE HUNDRED DOLLARS?",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Pauza před S36 je dlouhá a S36 začíná 'So' — záměrně, je to návrat k otázce z úvodu.",
+      "diagram_generator": "bez",
+      "diagram": "Otázková karta na OTAZKA_XY (rým s S06): velce a ambrově COULD YOU LIVE WITHOUT SUBSCRIPTIONS?"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Výhrada musí být v obraze stejně jako v hlase.",
+      "diagram_generator": "bez",
+      "diagram": "Táž karta, pod otázkou YES ambrově a menší AT LEAST FOR MOST THINGS."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Výplata páteře a malý 'aha' moment: police prázdná v S27 se tady znovu plní — 'bez předplatného' neznamená 'bez technologií'. Bez log (LibreOffice/Linux obyčejným textem).",
+      "diagram_generator": "bez",
+      "diagram": "PÁTEŘ znovu plná: táž police na POLICE_XY, v přihrádkách PLNĚ LINUX + FREE PROGRAMS, LIBREOFFICE, MUSIC FILES, FILMS ON DISCS, OFFLINE GAMES."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "AI model jen jako štítek na vlastním počítači, žádná ikona značky. Pause 0.5: S40 'And once'.",
+      "diagram_generator": "bez",
+      "diagram": "Obrys domu, uvnitř PLNĚ: disky s fotkami YOUR OWN PHOTOS, skříňka HOME SERVER, počítač s AI MODEL.",
+      "pause": 0.5
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "'doesn't have to be' — možnost, proto čárkovaný účet. Pause 1.2: S41 'But there is a price' je kontrast, ne nový blok.",
+      "diagram_generator": "bez",
+      "diagram": "Časová osa: na začátku jeden sloupec HARDWARE (zaplaceno jednou), dál vodorovná nula s ČÁRKOVANÝM přeškrtnutým účtem / MONTH. Štítek NO MONTHLY BILL.",
+      "pause": 1.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Peníze neškrtat ('not necessarily'), jen ztlumit.",
+      "diagram_generator": "cena",
+      "diagram": "Velká cenovka: nahoře ztlumeně MONEY?, dole ambrově EFFORT."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Celý seznam vidět od prvního snímku.",
+      "diagram_generator": "cena",
+      "diagram": "Obrys domu z S39 na týchž souřadnicích, kolem čtyři úkoly s ikonami: MAKE BACKUPS, REPLACE FAILING DISKS, MOVE OLD FILES TO NEW FORMATS, REMEMBER WHERE THINGS ARE."
+    },
+    {
+      "id": "S42b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42b.png",
+      "note": "Vlastnictví má práci — tatáž police jako v S38.",
+      "diagram_generator": "cena",
+      "diagram": "PÁTEŘ: police plná (filmy, hudba, software), u přihrádek slovesa STORE, ORGANISE, INSTALL & UPDATE YOURSELF."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Škrt přes 'NOT STORAGE' NE — ten nápis už je zápor. Zobrazit jen jako ztlumený text. Pointa bloku.",
+      "diagram_generator": "cena",
+      "diagram": "Úkoly z S42 se přesunuly do obrysu mraku, nad ním ambrově SOMEONE ELSE WORRIES ABOUT IT; vedle přeškrtnuté NOT STORAGE.",
+      "pause": 1.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Sloupce na pevných souřadnicích; pravý se vyplní v S45. Oba sloupce stejně velké — nic se dopředu nevybírá.",
+      "diagram_generator": "cena",
+      "diagram": "Dva sloupce. Vlevo OPTION ONE: domov s HOME SERVER, THREE BACKUPS, LOCAL COPIES, ORGANISE, MAINTAIN a ambrový štítek A WHOLE SATURDAY FIXING SOMETHING. Vpravo prázdný rámeček OPTION TWO."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "$20 jako SOUČET víc předplatných (v0.5), ne jeden balík: v rámečku několik malých dlaždic s jednou cenou nad nimi.",
+      "diagram_generator": "cena",
+      "diagram": "Týž obraz, pravý sloupec OPTION TWO: $20 / MONTH IN SUBSCRIPTIONS, ikony EVERYTHING SYNCS, PHOTOS, DOCUMENTS, MUSIC, FILMS."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Video nerozhoduje za diváka: zvýraznit, ne zamítnout druhou možnost.",
+      "diagram_generator": "cena",
+      "diagram": "Týž obraz, OPTION TWO s ambrovým rámem PROBABLY MORE CONVENIENT, OPTION ONE beze změny (neškrtat). Nadpis A RATIONAL CHOICE.",
+      "pause": 1.0
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "TEZE videa (~6:40), schválená uživatelem. Škrtá se nápis 'forced us' celý — scénář to tvrdí kategoricky. Pause 1.2: S48 'At least' je dovětek.",
+      "diagram_generator": "cena",
+      "diagram": "Váhy na VAHY_XY (rým s S31): OWNERSHIP vs CONVENIENCE, pohodlí převáží. Nad tím přeškrtnutá šipka COMPANIES FORCED US (text_skrtnuty). Nadpis WE GAVE UP OWNERSHIP FOR CONVENIENCE.",
+      "pause": 1.2
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Čárkovaně = možnost, ne stav. Pause 0.8: S49 'Because' navazuje na S48, blok o zmizení otevírá až otázka.",
+      "diagram_generator": "cena",
+      "diagram": "Týž obraz, k vahám přibude ČÁRKOVANÝ obrys ramene nakloněného opačně a štítek UNTIL IT STOPS BEING WORTH IT.",
+      "pause": 0.8
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Beat v témže obraze.",
+      "diagram_generator": "zmizi",
+      "diagram": "ČÁRKOVANÁ dlaždice služby, nadpis WHAT HAPPENS IF THE SERVICE DISAPPEARS TOMORROW?"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Policí se odpovídá: plné věci zůstanou.",
+      "diagram_generator": "zmizi",
+      "diagram": "PÁTEŘ: police na POLICE_XY, PLNĚ DVD, BOOK, FILE ON YOUR OWN DISK; nad policí dlaždice služby ztlumená a pryč. U každé věci STILL THERE."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Beat v témže obraze.",
+      "diagram_generator": "zmizi",
+      "diagram": "ČÁRKOVANÁ dlaždice předplatného, pod ní ambrově IT DEPENDS."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "'Maybe' — čárkovaně, nic neškrtat. Pause 0.6: S52b 'And this isn't just theoretical'.",
+      "diagram_generator": "zmizi",
+      "diagram": "Tři ČÁRKOVANÉ možné ztráty vedle sebe, rostoucí velikostí: A FILM CATALOGUE, YEARS OF PHOTOS, SOFTWARE YOU NEED FOR WORK. Nad nimi MAYBE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S52b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52b.png",
+      "note": "Bez obalu hry a bez loga Ubisoftu (jméno obyčejným textem). Fakta podle factcheck.md: vypnuto 31. 3. 2024, v obraze jen 2024.",
+      "diagram_generator": "zmizi",
+      "diagram": "Krabice hry PLNĚ s textem THE CREW · BOUGHT, spojnice ke skříni SERVERS; skříň přeškrtnutá a štítek 2024 · SHUT DOWN; hra za tím ztlumená STOPPED RUNNING."
+    },
+    {
+      "id": "S52c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52c.png",
+      "note": "'No general refund' (factcheck: plošná náhrada nebyla), ne 'no refund'. Konec příkladu; pause 1.0, protože S52d začíná „And“.",
+      "diagram_generator": "zmizi",
+      "diagram": "Seznam her v účtu (obecné řádky), řádek THE CREW ČÁRKOVANĚ se štítkem REMOVED. Pod tím NO OFFLINE VERSION · NO GENERAL REFUND.",
+      "pause": 1.0
+    },
+    {
+      "id": "S52d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52d.png",
+      "note": "Přidáno po poslechu draftu (uživatel: online služby fungují, dokud funguje internet). Dlaždice služeb ČÁRKOVANĚ (přístup), spojené se signálem. Pause 0.6: S52e pokračuje.",
+      "diagram_generator": "zmizi",
+      "diagram": "Nahoře tři čárkované dlaždice služeb (hudba, filmy, fotky), od každé spojnice dolů k ambrovému symbolu signálu. Štítek AS LONG AS YOUR INTERNET WORKS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S52e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52e.png",
+      "note": "Týž obraz, spojnice přeškrtnuté (škrtá se SPOJENÍ, ne služba — služba dál existuje), dlaždice ztlumené. 'much of what you pay for', ne 'everything': offline stažené věci existují, proto ne 'nothing'. Konec bloku.",
+      "diagram_generator": "zmizi",
+      "diagram": "Týž rozvrh, signál ztlumený, tři spojnice přeškrtnuté, dlaždice ztlumené. Nad tím STORM · CUT CABLE · NO SIGNAL, dole ambrově OUT OF REACH.",
+      "pause": 1.6
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "'Good or bad' neškrtat — scénář říká, že to není ta otázka, ne že je špatně. Pause 1.0: S54 'And' navazuje.",
+      "diagram_generator": "zmizi",
+      "diagram": "Nahoře ztlumeně GOOD OR BAD?, dole velce ambrově WHO IS IN CONTROL?",
+      "pause": 1.0
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Celý seznam od prvního snímku (scéna je dlouhá, ~20 s). Poslední řádek nese konvenci videa.",
+      "diagram_generator": "deti",
+      "diagram": "Malá postava dítěte. Nahoře ztlumeně NOT: THE CLOUD IS BAD · EVERYONE NEEDS A SERVER. Pod tím čtyři řádky: WHAT A FILE IS, WHERE THEIR PHOTOS LIVE, WHO CONTROLS THEIR ACCOUNT, OWNING vs BEING ALLOWED TO USE (poslední ambrově, plná vs čárkovaná ikona)."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Obě volby jsou správně (zatržítko), ne varování. Pause 1.2: S56 'And that may be the strangest part' otevírá závěr, ale začíná spojkou.",
+      "diagram_generator": "deti",
+      "diagram": "Táž postava, dvě volby se zatržítkem: NETFLIX — THEY LIKE IT, CLOUD STORAGE — A SERVER ISN'T WORTH THEIR TIME. Dole THEY'LL KNOW WHAT THEY'RE BUYING.",
+      "pause": 1.2
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Úvod závěrečné pasáže, obraz se teprve naplní v S56b.",
+      "diagram_generator": "zaver",
+      "diagram": "Ztlumená police (páteř) a nadpis THE STRANGEST PART."
+    },
+    {
+      "id": "S56b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56b.png",
+      "note": "Pause 0.7: S57 'And yet…'.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři dlaždice: ALMOST UNLIMITED STORAGE, PERFECT COPIES, INSTANT DISTRIBUTION, ACCESS FROM ANYWHERE.",
+      "pause": 0.7
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Hřbetů spočítaných v kódu několik set (assert 200–500), sto milionů jen textem — kreslit je nejde a tečky by tvrdily špatný poměr. Výplata videa.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo PÁTEŘ na POLICE_XY přecpaná stovkami drobných PLNÝCH hřbetů CD, štítek 1995 · OWNED: HUNDREDS. Vpravo ČÁRKOVANÝ mrak 2026 · ACCESS: 100,000,000+ SONGS a pod ním ambrově OWNED: 0.",
+      "pause": 1.2
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Rým s S31/S47. 'Maybe' — video nerozhoduje, rameno nenaklánět plně. Pause 0.6: S59 'Because'.",
+      "diagram_generator": "zaver",
+      "diagram": "Váhy na VAHY_XY: CONVENIENCE vs OWNERSHIP, rameno ČÁRKOVANĚ (není rozhodnuto). Nadpis RECOGNISE THE TRADE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Posledních 20 s začíná kolem S59–S60 — horní polovina musí být volná (zaver_check). Pause 1.0: S60 'And maybe' navazuje.",
+      "diagram_generator": "zaver",
+      "diagram": "ZÁVĚREČNÁ OBRAZOVKA: horní polovina PRÁZDNÁ. V dolní polovině nad pásem titulku dvě věty vedle sebe: PLNĚ I HAVE IT | ČÁRKOVANĚ I CAN USE IT, AS LONG AS SOMEONE LETS ME.",
+      "pause": 1.0
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Jediné místo, kde se páteř smí pohnout (závěrečná deska). 'Doesn't have to be one or the other' — oboje vedle sebe.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole zmenšená PÁTEŘ (police_mini na MINI_XY) s pěti PLNÝMI předměty THINGS THAT MATTER, vedle ČÁRKOVANÝ mrak SERVICES a mezi nimi ambrové +."
+    },
+    {
+      "id": "S60b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60b.png",
+      "note": "Pause 0.6: S60c 'Or books…' je dovětek k téže myšlence.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole jeden PLNÝ ambrový soubor na disku a štítek NOBODY CAN TAKE IT AWAY.",
+      "pause": 0.6
+    },
+    {
+      "id": "S60c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60c.png",
+      "note": "Přidáno po poslechu draftu (uživatel). ZÁVĚREČNÁ OBRAZOVKA: horní polovina PRÁZDNÁ. Pause 1.0: S61 'Because sometimes' je dovětek.",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole PLNĚ řada knih a stoh gramodesek, štítky BOOKS ON YOUR OWN SHELVES a VINYL RECORDS.",
+      "pause": 1.0
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Poslední deska, klidná, statická. Rým s S01 (táž police, zmenšená).",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina PRÁZDNÁ. Dole zmenšená páteř z S60 PLNĚ, nadpis OWN YOUR OWN STUFF."
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese myšlenku (barva bubliny), ne atmosféru; není SDXL. TEL_L, TEL_R a PRŮJEZD se kreslí jen funkcemi kitu a souřadnice drží do S95. Animace: bublina jede zleva doprava, text se nehýbe.",
+   "diagram_generator": "hak",
+   "diagram": "PÁTEŘ: dva telefony na pevných souřadnicích (TEL_L vlevo, TEL_R vpravo, z kitu). Oba popsané iPHONE. Mezi nimi PRŮJEZD (pás, kudy jede bublina). Modrá bublina „See you at 7?“ vyjede z levého telefonu, přejede průjezd a usadí se na displeji pravého.",
+   "anim": "animace"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Barvy BUBLIN jsou v tomhle videu předmětem výkladu: modrá = zprávu nesl Apple, zelená = nesl ji někdo jiný (S29–S30). Nikde jinde se modrá ani zelená nepoužijí. Animace: bublina jede, uprostřed průjezdu se přebarví.",
+   "diagram_generator": "hak",
+   "diagram": "Týž obraz, pravý telefon se vymění za ANDROID (jiný obrys, bez loga). Tatáž bublina tentýž text vyjede znovu a cestou zezelená.",
+   "anim": "animace"
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Výčet: mezi položkami pauza přes `vycet`. Animace: řádky jen naskočí, nic se nepohybuje.",
+   "diagram_generator": "hak",
+   "diagram": "Dvě bubliny se stejným textem vedle sebe, modrá a zelená. Pod nimi tři řádky, každý naskočí se svou větou: SAME WORDS ✓, SAME APP ✓, DIFFERENT COLOUR (ambrově).",
+   "anim": "animace",
+   "vycet": 0.3
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Factcheck S04: DOJ ¶ 90 „pixelated and grainy“. Animace: video se zpixeluje, řetěz se přetrhne. „For years“ = minulost, nadpis v minulém čase.",
+   "diagram_generator": "hak",
+   "diagram": "Zelená bublina s videem, které se rozpadne na hrubé pixely (BLURRY VIDEOS), a vedle skupinový chat, ve kterém se řetěz bublin přetrhne (BROKEN GROUP CHATS).",
+   "anim": "animace",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Factcheck S05: RCS v iOS 18, září 2024. Zkratka RCS v obraze smí být, ve voiceoveru zazní až v S69. Animace: most se natáhne zleva doprava. S06 začíná „And“, proto kratší pauza.",
+   "diagram_generator": "hak",
+   "diagram": "Páteř: oba telefony (iPhone vlevo, Android vpravo). Průjezdem se natáhne nový most s nápisem SAME STANDARD AS ANDROID — RCS a rokem 2024.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Pointa háčku je rozpor: nový standard, stará barva. Bublina musí být přesně tatáž zelená jako v S02.",
+   "diagram_generator": "hak",
+   "diagram": "Týž most, po něm přijede bublina a je ZELENÁ. Nápis STILL GREEN ambrově."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Konec háčku, blokový předěl. Krátká samostatná promluva, proto `naveti` (intonace navazuje na S06).",
+   "diagram_generator": "hak",
+   "diagram": "Zelená bublina uprostřed, místo textu velký otazník.",
+   "pause": 2.4,
+   "naveti": "And the bubbles are still green."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Škrt vodorovnou čarou přes nápis, ne křížkem. Škrtá se štítek, ne bublina — neplatí jen to, že zelená je pro Android.",
+   "diagram_generator": "puvod",
+   "diagram": "Zelená bublina se štítkem ANDROID USERS, štítek přeškrtnutý (text_skrtnuty). Nad tím FIRST SURPRISE."
+  },
+  {
+   "id": "S09",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S09.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-31 (dotaz „IPhone First Generation 8GB“, pick 0 = Carl Berkeley, přední strana, CC BY-SA 2.0). V první pětici jsou jen snímky první generace, jeden zezadu s logem. Obraz netvrdí nic o barvách, to nese S10. Bez `fit`: bílé produktové foto vsazené do rozmazaného rámu vypadalo jako chyba, plný rám je čistší.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "IPhone First Generation 8GB",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Factcheck S09: zeleně se kreslily ODESLANÉ zprávy, přijaté šedě; kreslí se jen odchozí bubliny jednoho odesílatele. Animace: bubliny přibývají.",
+   "diagram_generator": "puvod",
+   "diagram": "Časová osa 2007 → 2011 (OSA z kitu, pevné souřadnice do S13). Nad 2007 dva iPhony a mezi nimi vršící se ZELENÉ bubliny, popisek EVEN iPHONE → iPHONE.",
+   "anim": "animace"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "iMessage s iOS 5, 12. 10. 2011. Animace: ukazatel osy dojede k 2011, modrá bublina se rozsvítí.",
+   "diagram_generator": "puvod",
+   "diagram": "Osa dojede k roku 2011, tam se poprvé objeví MODRÁ bublina a štítek iMESSAGE.",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Animace: zelený pás roste od 2007, modrý se přidá od 2011 — délka pásů je čas, ne obliba.",
+   "diagram_generator": "puvod",
+   "diagram": "Osa celá: dlouhý zelený pás od 2007 do dneška, modrý pás začíná až 2011. U zeleného ORIGINAL.",
+   "anim": "animace"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Krátká pointa, drobný předěl.",
+   "diagram_generator": "puvod",
+   "diagram": "Týž obraz, u modrého pásu ambrově THE EXCEPTION.",
+   "pause": 0.8
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Barva nepopisuje telefon na druhém konci. S15 navazuje, proto kratší pauza.",
+   "diagram_generator": "puvod",
+   "diagram": "Páteř: TEL_L a TEL_R, pravý telefon zakrytý otazníkem (WHICH PHONE?), štítek přeškrtnutý.",
+   "pause": 0.6
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Klíčová metafora videa. Animace: cesta se vykreslí, bublina po ní projede.",
+   "diagram_generator": "puvod",
+   "diagram": "Páteř: PRŮJEZD mezi telefony se rozsvítí jako cesta (ROAD z kitu, zatím jedna, bez jména); bublina po ní jede. Popisek THE ROAD IT TOOK.",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Zavedení obou cest. Horní bude internet a Apple, spodní mobilní síť. Animace: cesta se rozdělí.",
+   "diagram_generator": "puvod",
+   "diagram": "Cesta se rozdvojí na HORNÍ a SPODNÍ (CESTA_HORNI, CESTA_DOLNI z kitu, pevné souřadnice do S95), obě zatím bez popisku, ztlumené.",
+   "anim": "animace"
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Horní cesta zůstává ztlumená. Vysílač je ikona sítě, ne konkrétního operátora.",
+   "diagram_generator": "cesty",
+   "diagram": "Spodní cesta se rozsvítí, uprostřed ní vysílač, popisek MOBILE NETWORK."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Jen popisky pruhů, cesta se nemění.",
+   "diagram_generator": "cesty",
+   "diagram": "Na spodní cestě dva pruhy: SMS — TEXT a MMS — PICTURES & VIDEO."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Factcheck S19: vědomá zkratka, operátoři SMS provozují, standard nevlastní; obraz nesmí tvrdit víc (žádné „OWNED BY“).",
+   "diagram_generator": "cesty",
+   "diagram": "Spodní cesta, k vysílači vedou telefony všech druhů (tlačítkový, véčko, iPhone, Android). Popisek BELONGS TO THE NETWORK, NOT THE PHONE MAKERS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Callback na páteř 128 (tam 140 bajtů = 160 znaků). assert 160 políček. S21 navazuje „And“, proto kratší pauza. Animace: políčka se plní zleva.",
+   "diagram_generator": "cesty",
+   "diagram": "Pás 160 políček (PASKA, rým s videem 128), plní se písmeny jedné zprávy. Popisek 160 CHARACTERS.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Factcheck S21: u velkých operátorů kolem 1 MB, u menších 600/300 KB; obraz nesmí uvést jiné číslo. Animace: video se zmenšuje a zrní.",
+   "diagram_generator": "cesty",
+   "diagram": "Rámeček videa se mačká do malé krabičky s nápisem OPERATOR LIMIT ≈ 1 MB OR LESS a cestou se zpixeluje.",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Táž geometrie jako S16.",
+   "diagram_generator": "cesty",
+   "diagram": "Horní cesta se rozsvítí, popisek THE INTERNET. Spodní ztlumená."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Factcheck S22–S23: iMessage přes servery Applu (APNs). Animace: bublina projede serverem.",
+   "diagram_generator": "cesty",
+   "diagram": "Na horní cestě uprostřed krabice APPLE'S SERVERS (bez loga), modrá bublina projede přes ni jako DATA.",
+   "anim": "animace"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Factcheck S24: limit MMS není z 90. let, proto „flip-phone era“ a ne letopočet.",
+   "diagram_generator": "cesty",
+   "diagram": "Horní cesta, nad ní dva přeškrtnuté štítky: OPERATOR a FLIP-PHONE SIZE LIMITS."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Výčet → `vycet`. Seznam se vrátí v S81 na téže pozici (rým SEZNAM v kitu).",
+   "diagram_generator": "cesty",
+   "diagram": "Seznam čtyř funkcí s fajfkami, každá naskočí se svou větou: READ RECEIPTS, TYPING INDICATORS, FULL-QUALITY PHOTOS, GROUP CHATS THAT WORK.",
+   "vycet": 0.3,
+   "pause": 0.7
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Factcheck S26. Závora = nepustí, ne „rozbité“.",
+   "diagram_generator": "cesty",
+   "diagram": "Server Applu, z něj vedou cesty jen k iPhonu, iPadu a Macu (obrysy bez loga); k Androidu cesta končí závorou.",
+   "pause": 0.5
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Minulý čas (do iOS 18). S28 dopovídá větu, proto krátká pauza.",
+   "diagram_generator": "cesty",
+   "diagram": "Páteř: iPhone vlevo, Android vpravo. Na horní cestě před Androidem závora, bublina se na ní zastaví.",
+   "pause": 0.5
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "KLÍČOVÁ ANIMACE videa (fallback). Přebarví se v okamžiku sjezdu, ne dřív.",
+   "diagram_generator": "cesty",
+   "diagram": "Bublina sjede z horní cesty dolů na spodní a cestou zezelená; dojede k Androidu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Barva cesty = kdo ji nese. Spodní cesta ztlumená.",
+   "diagram_generator": "cesty",
+   "diagram": "Páteř s oběma cestami. Horní cesta modrá s modrou bublinou, popisek APPLE CARRIED IT.",
+   "pause": 0.6
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Factcheck S30: „someone else“, ne „the network“ (RCS často provozuje Google, S72). ZA scénou VÝZVA K ODBĚRU (~2:20, konec technické odpovědi): levý dolní roh (x < 22 %, y > 75 %) prázdný, popisek nadpisu krátký a na střed, S31 začíná krátkým titulkem.",
+   "diagram_generator": "cesty",
+   "diagram": "Spodní cesta zelená se zelenou bublinou, popisek SOMEONE ELSE DID. Horní ztlumená modrá.",
+   "pause": 1.4,
+   "vyzva": true
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Shrnutí bloku. Levý dolní roh prázdný (výzva přechází přes začátek scény).",
+   "diagram_generator": "cesty",
+   "diagram": "Obě cesty vedle sebe zmenšené, nápis THE TECHNICAL ANSWER s fajfkou."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Konec bloku. Krátká promluva → `naveti` (předchozí věta).",
+   "diagram_generator": "cesty",
+   "diagram": "Fajfka u THE TECHNICAL ANSWER se změní na trojtečku: … IT DOESN'T END THERE.",
+   "pause": 1.8,
+   "naveti": "And it would be a boring story, if it ended there."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Spojka „Because“ navazuje na S32 po dlouhé pauze záměrně (beat).",
+   "diagram_generator": "skupina",
+   "diagram": "Chat mezi dvěma telefony, bubliny na spodní cestě postupně ztrácejí kvalitu (fotka zrní, reakce mizí)."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Rámeček kolem všech, ne kolem Androidu — o tom věta je.",
+   "diagram_generator": "skupina",
+   "diagram": "Skupinový chat: čtyři iPhony a jeden Android, kolem všech pěti ambrový rámeček EVERYONE IN THE CHAT."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Factcheck S35: platilo před RCS (minulý čas). Animace: přidá se pátý telefon, pak se přebarví všechny bubliny naráz.",
+   "diagram_generator": "skupina",
+   "diagram": "Čtyři iPhony v kruhu, mezi nimi modré bubliny. Přibude Android a všechny bubliny ve skupině zezelenají, popisek WHOLE GROUP → MMS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Factcheck S36. Výčet → `vycet`. Animace: srdíčko se rozpadne na text.",
+   "diagram_generator": "skupina",
+   "diagram": "Vlevo video jako šmouha, vpravo reakce srdíčko, která se promění v textovou bublinu „Liked an image“.",
+   "anim": "animace",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Pozor na šipky: věta říká, že to tak VYPADALO (DOJ ¶ 90: příčinou je Apple). Proto čárkovaně a s otazníkem; šipky míří na telefon, ne na člověka. Konec podbloku.",
+   "diagram_generator": "skupina",
+   "diagram": "Android uprostřed skupiny, ostatní na něj ukazují čárkovanými šipkami s nápisem THE PROBLEM?",
+   "pause": 2.2
+  },
+  {
+   "id": "S38",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S38.png",
+   "note": "Jediný předěl s atmosférou v první polovině. Lidé zezadu, žádné obličeje, žádné čitelné displeje. Není v prvních 20 s.",
+   "prompt": "american high school hallway after class, teenagers seen from behind holding smartphones, lockers, soft overcast window light, quiet mood, no faces, no text"
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Citace titulku článku s atribucí, ne napodobenina stránky novin (žádné logo, žádná sazba WSJ).",
+   "diagram_generator": "skupina",
+   "diagram": "Citační karta: „Teens Dread the Green Text Bubble“ — THE WALL STREET JOURNAL, JANUARY 2022."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Factcheck S40: jen to, co WSJ doslova napsal; žádné „left out of group chats“. Americký pravopis uvnitř citace je správně.",
+   "diagram_generator": "skupina",
+   "diagram": "Pod kartou úryvek: „some reporting being ostracized or singled out after switching away from iPhones“."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Factcheck S41: Piper Sandler, podzim 2022. assert 87 zvýrazněných ze 100. Animace: postavičky se rozsvěcují.",
+   "diagram_generator": "skupina",
+   "diagram": "Sto postaviček teenagerů v mřížce 10 × 10, 87 z nich ambrově s iPhonem. Popisek 87 % OF US TEENS OWNED AN iPHONE — SURVEY, FALL 2022.",
+   "anim": "animace",
+   "pause": 0.6
+  },
+  {
+   "id": "S42",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S42.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-31 (pick 3 = APK, CC BY 4.0, budova za slunce z nároží). POZOR: na pozici 4 je interiér knihovny, při posunu pořadí ověřit stažený snímek okem. Věta pokračuje v S43, proto krátká pauza.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Robert F. Kennedy Department of Justice Building",
+    "pick": 3
+   },
+   "pause": 0.3
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Factcheck S43: DOJ ¶ 90, citát doslovně. Zelený zvýrazňovač jen pod slovy green bubble (zelená tu = zelená bublina, ne jiný význam).",
+   "diagram_generator": "skupina",
+   "diagram": "Stránka žaloby (kresba, ne sken): UNITED STATES v. APPLE INC., 2024, ¶ 90, zvýrazněný úryvek „the text appears to the iPhone user as a green bubble“.",
+   "pause": 0.6
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Shrnutí bloku, konec. Karty jsou zmenšeniny S39, S41, S43 na stejných pozicích pořadí.",
+   "diagram_generator": "skupina",
+   "diagram": "Tři důkazní karty vedle sebe (WSJ 2022, 87 %, DOJ 2024) a pod nimi ambrově IN AMERICA, THE COLOUR MATTERED.",
+   "pause": 2.6
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Zavedení mapy bloku. Mapa světa z Commons (PD, BlankMap-World s ISO kódy zemí) uložená do art/ s PUVOD.md, vkládá se přes _kit.obrazek() a země se barví podle kódu. MAPA má pevné souřadnice S45–S57.",
+   "diagram_generator": "svet",
+   "diagram": "MAPA světa ztlumená, jen USA rozsvícené se zelenou bublinou.",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Factcheck S46: „barely registered“ je ZMÍRNĚNÉ znění; obraz nesmí tvrdit „nikdo“ (žádná nula).",
+   "diagram_generator": "svet",
+   "diagram": "Táž mapa, zbytek světa zesvětlá, bez bublin, nápis BARELY REGISTERED."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Factcheck S47.",
+   "diagram_generator": "svet",
+   "diagram": "Na mapě se rozsvítí Německo, Brazílie a Indie, nad každou bublina s otazníkem.",
+   "pause": 0.7
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Factcheck S48: „a big part of the reason“ — jedna z příčin, ne jediná. Žádná šipka „příčina → následek“ přes celý obraz.",
+   "diagram_generator": "svet",
+   "diagram": "Cenovka u SMS bubliny: PRICE OF A TEXT MESSAGE."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Factcheck S49: domácí ceny po zemích nedoložené, proto žádné číslo ani měna. Animace: zprávy odcházejí, ke každé mince.",
+   "diagram_generator": "svet",
+   "diagram": "Evropa přiblížená, z telefonu odcházejí SMS a ke každé cinkne mince (PER MESSAGE). Bez konkrétní částky.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Táž geometrie cest jako páteř. Animace: bubliny přeskočí nahoru.",
+   "diagram_generator": "svet",
+   "diagram": "Páteř se dvěma Androidy: šedé bubliny se přesunou ze spodní cesty (SMS · PAID PER TEXT) na horní (APPS OVER DATA). Bez serverů Applu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Krátká promluva → `naveti` (předchozí věta). Jméno značky jen jako slovo.",
+   "diagram_generator": "svet",
+   "diagram": "Nápis WHATSAPP velkým písmem, bez loga.",
+   "naveti": "So when smartphones arrived, people jumped to apps that sent messages over data.",
+   "pause": 0.6
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Šedé bubliny, aby modrá a zelená zůstaly vyhrazené jen pro iMessage/ostatní.",
+   "diagram_generator": "svet",
+   "diagram": "Dva telefony (iPhone, Android) se stejným chatem, bubliny NEUTRÁLNĚ ŠEDÉ, popisek SAME ON BOTH."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Výčet → `vycet`. Škrtá se SYMBOL (modrá bublina, zelená bublina, sjezd), ne nápis: přeškrtnuté „NO BLUE“ by tvrdilo opak.",
+   "diagram_generator": "svet",
+   "diagram": "Tři symboly vedle sebe, každý přeškrtnutý křížkem: modrá bublina (NO BLUE), zelená bublina (NO GREEN), šipka sjezdu (NO FALLBACK).",
+   "vycet": 0.3,
+   "pause": 1.4
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Factcheck S54: Verizon/AT&T 2012 neomezené SMS.",
+   "diagram_generator": "svet",
+   "diagram": "Mapa, USA rozsvícené, cenovka TEXTING: UNLIMITED.",
+   "pause": 0.5
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Bez loga Applu ani Googlu.",
+   "diagram_generator": "svet",
+   "diagram": "Telefon s ikonou vestavěné aplikace zpráv, kolem ní ambrový rámeček BUILT-IN APP."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Factcheck S56 (OPRAVIT → přepsáno): iPhone přesáhl 50 % v USA až 2021/22. Obraz NESMÍ ukázat většinu; poměr se zastaví na 10 z 20, žádné procento. Animace: telefony se přepínají jeden po druhém.",
+   "diagram_generator": "svet",
+   "diagram": "Řada dvaceti telefonů v USA, postupně se jich víc mění na iPhony; skončí kolem poloviny.",
+   "anim": "animace"
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Závěr bloku: podmínky jsou DVĚ (factcheck S57). Konec bloku.",
+   "diagram_generator": "svet",
+   "diagram": "Dvě kola přes sebe (Venn): CHEAP TEXTING a MANY iPHONES, v průniku zelená bublina a GREEN BUBBLE PROBLEM.",
+   "pause": 2.8
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Čárkovaně = nestalo se.",
+   "diagram_generator": "apple",
+   "diagram": "Páteř: iPhone vlevo, Android vpravo; z horní cesty k Androidu čárkovaná šipka iMESSAGE ON ANDROID?"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Factcheck S59: Cueův e-mail z dubna 2013 (výpověď, cit. 9to5Mac).",
+   "diagram_generator": "apple",
+   "diagram": "Citační karta: „We really need to bring iMessage to Android.“ — EDDY CUE, APPLE, 2013."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Factcheck S60: Epic FFCL ¶ 58a. Kresba e-mailů, ne skeny.",
+   "diagram_generator": "apple",
+   "diagram": "Hromádka e-mailů s razítkem EXHIBIT a nápisem EPIC v. APPLE — EMAILS FROM 2013.",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Factcheck S61: PX407, doslovně. Dlouhý citát: zalomit text_do do karty, písmo aspoň 40 px.",
+   "diagram_generator": "apple",
+   "diagram": "Citační karta: „iMessage on Android would simply serve to remove [an] obstacle to iPhone families giving their kids Android phones.“ — CRAIG FEDERIGHI, 2013."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Modrý kruh = iMessage (týž význam modré). Animace: kruh se kolem rodiny uzavře.",
+   "diagram_generator": "apple",
+   "diagram": "Rodina telefonů (dva velké iPhony, dva malé) uvnitř modrého kruhu iMESSAGE; kruh se zavře jako ohrada, nápis A REASON TO STAY.",
+   "anim": "animace",
+   "pause": 0.7
+  },
+  {
+   "id": "S63",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-10-31 (pick 3 = „Tim Cook March 2026 (cropped 2)“, hlava s odstupem). Fotka je z roku 2026, ne z Code Conference 2022; obraz to netvrdí, žádný popisek s datem. fit 0.84, static, žádný zoom (portrét). Věta pokračuje v S64, proto krátká pauza.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Tim Cook March 2026 cropped",
+    "pick": 3,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "pause": 0.4
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Factcheck S64: doslovně (DOJ ¶ 92). ZA scénou VÝZVA K ODBĚRU (~5:15, konec bloku Applu): karta jen ve středu, levý dolní roh prázdný; S65 začíná krátkým titulkem.",
+   "diagram_generator": "apple",
+   "diagram": "Citační karta na středu: „Buy your mom an iPhone.“ — TIM COOK, 2022.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Obrat k Androidu. Levý dolní roh prázdný (doběh výzvy).",
+   "diagram_generator": "google",
+   "diagram": "Páteř: iPhone vlevo, Android vpravo; Android strana se rozsvítí ambrově, nápis NOT ONLY APPLE."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Čárkovaně = neexistuje.",
+   "diagram_generator": "google",
+   "diagram": "Android telefon s prázdným rámečkem ANDROID'S iMESSAGE? (čárkovaně)."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Factcheck S67: roky spuštění. Výčet → `vycet`. Animace: dlaždice naskakují.",
+   "diagram_generator": "google",
+   "diagram": "Tři dlaždice aplikací v řadě, každá naskočí se svým jménem: TALK 2005, HANGOUTS 2013, ALLO 2016.",
+   "anim": "animace",
+   "vycet": 0.3,
+   "pause": 0.4
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "Factcheck S68 (Talk definitivně 2022, Allo 2019-03, Hangouts 2022-11). Animace: dlaždice šednou jedna po druhé, v pořadí z obrazu, ne podle data (věta říká „one after another“).",
+   "diagram_generator": "google",
+   "diagram": "Tytéž dlaždice zešednou a dostanou rok konce: TALK 2022, HANGOUTS 2022, ALLO 2019.",
+   "anim": "animace",
+   "pause": 1.2
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "RCS je prostřední cesta páteře (CESTA_RCS). Čárkovaně = ještě neexistuje v provozu (konvence 4); plnou čarou se stane až v S72.",
+   "diagram_generator": "google",
+   "diagram": "Páteř: mezi telefony prostřední cesta RCS ČÁRKOVANĚ (standard, který ještě nikdo nezapnul) s nápisem RCS — RICH COMMUNICATION SERVICES; dole síť operátora."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Factcheck S70: GSMA od 2008.",
+   "diagram_generator": "google",
+   "diagram": "U pruhu RCS štítek DESIGNED BY THE MOBILE INDUSTRY (GSMA), LATE 2000s.",
+   "pause": 0.6
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "Factcheck S71. Animace: vypínače se zkoušejí, většina zůstane vypnutá.",
+   "diagram_generator": "google",
+   "diagram": "Pruh RCS rozdělený na úseky operátorů, u každého vypínač; většina zůstane OFF, jen pár naskočí ON.",
+   "anim": "animace"
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Factcheck S72: „much of it“, tedy krabice nepokrývá celý pruh. Konec bloku.",
+   "diagram_generator": "google",
+   "diagram": "Pod pruhem RCS krabice GOOGLE'S SERVERS (JIBE), pruh se rozsvítí přes ni.",
+   "pause": 2.4
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "Factcheck S73: 16. 11. 2023.",
+   "diagram_generator": "obrat",
+   "diagram": "Kalendářní list NOVEMBER 2023 a megafon APPLE ANNOUNCEMENT."
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "Navazuje na S73.",
+   "diagram_generator": "obrat",
+   "diagram": "iPhone a vedle fajfka iPHONE + RCS."
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "Factcheck S75 (OPRAVIT → přepsáno): Apple důvod uvedl, neřekl jen proč teď. Obraz proto „WHY NOW?“, ne „WHY?“.",
+   "diagram_generator": "obrat",
+   "diagram": "Velký nápis WHY NOW?"
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "Factcheck S76: souvislost, ne příčina → čárkovaně (konvence: čárkování = domněnka).",
+   "diagram_generator": "obrat",
+   "diagram": "Od WHY NOW? vede ČÁRKOVANÁ čára ke kruhu dvanácti hvězd s nápisem EU INVESTIGATION (DMA), SEPT 2023."
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "note": "Factcheck S77: návrh MIIT, domněnka Grubera; obě hypotézy vedle sebe stejně silné, žádná ambrová.",
+   "diagram_generator": "obrat",
+   "diagram": "Druhá ČÁRKOVANÁ čára k nápisu CHINA: DRAFT RULE — NEW 5G PHONES TO SUPPORT RCS."
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "note": "Factcheck S78. Jediné místo, kde modrá bublina dojede k Androidu. Animace: bublina jede po horní cestě až k Androidu.",
+   "diagram_generator": "obrat",
+   "diagram": "Páteř: Android vpravo se napojí na HORNÍ cestu přes malou krabičku BEEPER MINI, DEC 5, 2023; modrá bublina dojede až k Androidu.",
+   "anim": "animace"
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "note": "Factcheck S79. Animace: závora spadne, bublina se odrazí. Konec podbloku.",
+   "diagram_generator": "obrat",
+   "diagram": "Na horní cestě před Androidem spadne závora (táž jako S27), nápis BLOCKED, DEC 8.",
+   "anim": "animace",
+   "pause": 2.2
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "note": "Factcheck S80: iOS 18, září 2024. Prostřední cesta (CESTA_RCS) je tentýž most jako v S05. Animace: cesta RCS se natáhne.",
+   "diagram_generator": "obrat",
+   "diagram": "Páteř: horní cesta modrá se zámkem APPLE ONLY; mezi horní a spodní se natáhne prostřední cesta RCS, 2024.",
+   "anim": "animace"
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "note": "Rým se S25 (SEZNAM z kitu). Factcheck S81: jen u podporujících operátorů — obraz netvrdí „všude“.",
+   "diagram_generator": "obrat",
+   "diagram": "Seznam ze S25 na téže pozici (SEZNAM z kitu), nadpis iPHONE ↔ ANDROID · RCS, tři položky s fajfkami: READ RECEIPTS, TYPING INDICATORS, PROPER PHOTOS."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "note": "Factcheck S82: beta a podmínka operátora musí být v obraze; čárkovaný zámek = teprve se zavádí.",
+   "diagram_generator": "obrat",
+   "diagram": "Na cestě RCS zámek, čárkovaný: ENCRYPTION 2026 — BETA, SOME OPERATORS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "note": "Konec bloku. Animace: dlaždice.",
+   "diagram_generator": "obrat",
+   "diagram": "Cesta RCS se vydláždí (dlaždice se skládají zleva doprava), nápis FINALLY PAVED.",
+   "anim": "animace",
+   "pause": 2.4
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "note": "Návrat na začátek: přesně tytéž souřadnice jako S02 (proto páteř z kitu).",
+   "diagram_generator": "odpoved",
+   "diagram": "Páteř ve stavu z S02: iPhone vlevo, Android vpravo, mezi nimi zelená bublina."
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "note": "Rým s S07.",
+   "diagram_generator": "odpoved",
+   "diagram": "Zelená bublina s otazníkem jako v S07, nápis WHY STILL GREEN?",
+   "pause": 1.4
+  },
+  {
+   "id": "S86",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S86.png",
+   "note": "Factcheck S86.",
+   "diagram_generator": "odpoved",
+   "diagram": "Nápis RCS ≠ iMESSAGE, pod ním obě cesty: prostřední RCS a horní iMessage."
+  },
+  {
+   "id": "S87",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S87.png",
+   "note": "Factcheck S87: RCS je standard GSMA, ne Applu.",
+   "diagram_generator": "odpoved",
+   "diagram": "Prostřední cesta RCS se štítkem NEWER ✓, BETTER ✓, APPLE'S? ✗."
+  },
+  {
+   "id": "S88",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "note": "Factcheck S88.",
+   "diagram_generator": "odpoved",
+   "diagram": "Horní cesta modrá, uprostřed APPLE'S SERVERS, popisek BLUE = MESSAGES APPLE CARRIES ITSELF.",
+   "pause": 0.6
+  },
+  {
+   "id": "S89",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S89.png",
+   "note": "Škrt přes nápis vodorovnou čarou (text_skrtnuty).",
+   "diagram_generator": "odpoved",
+   "diagram": "Zelená bublina a pod ní přeškrtnutý štítek “THIS PHONE IS WORSE”."
+  },
+  {
+   "id": "S90",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S90.png",
+   "note": "Odpověď na titul, hlavní pointa. Animace: starý štítek zmizí, nový naskočí. Velká pauza.",
+   "diagram_generator": "odpoved",
+   "diagram": "Tatáž zelená bublina, pod ní ambrově “THIS MESSAGE ISN'T OURS”. Starý přeškrtnutý štítek odpluje.",
+   "anim": "animace",
+   "pause": 2.8
+  },
+  {
+   "id": "S91",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S91.png",
+   "note": "Původně SDXL (dva telefony na stole); zamítnuto po dvou kolech 2026-10-31: kolo 1 mělo pseudotext a ikony na displeji, kolo 2 nakreslilo TŘI telefony. Podle pravidla kanálu (model dvakrát mine funkci → jiný zdroj) přešlo na diagram. Otázka připravuje S92–S94.",
+   "diagram_generator": "odpoved",
+   "diagram": "Páteř se všemi třemi cestami ztlumená, uprostřed ambrově WHO OWNS THE ROAD?"
+  },
+  {
+   "id": "S92",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S92.png",
+   "note": "Rým s S19. Factcheck S92: vědomá zkratka. Kresba v DOLNÍ polovině obrazu — od S93 začíná okno závěrečné obrazovky.",
+   "diagram_generator": "odpoved",
+   "diagram": "Spodní cesta (síť operátorů) široká a otevřená, napojují se na ni telefony všech druhů. Popisek SMS: THE OPERATORS' ROAD — EVERYONE."
+  },
+  {
+   "id": "S93",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S93.png",
+   "note": "Okno závěrečné obrazovky (posledních 20 s): HORNÍ POLOVINA PRÁZDNÁ, kresba jen dole. Factcheck S93.",
+   "diagram_generator": "odpoved",
+   "diagram": "Tři cesty dole vedle sebe, každá se jménem vlastníka: APPLE, META, GOOGLE.",
+   "pause": 0.6
+  },
+  {
+   "id": "S94",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S94.png",
+   "note": "Horní polovina prázdná. Závora je táž jako v S27 a S79.",
+   "diagram_generator": "odpoved",
+   "diagram": "Na jedné z cest dole závora s nápisem OWNER DECIDES WHO GETS ON.",
+   "pause": 0.4
+  },
+  {
+   "id": "S95",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S95.png",
+   "note": "Horní polovina prázdná, animace jen v dolní polovině (viz past u 121 v docs/storyboard-a-diagramy.md). Animace: přebarvení v závoře.",
+   "diagram_generator": "odpoved",
+   "diagram": "Bublina projede závorou a za ní zezelená; nápis … AND WHAT COLOUR YOU ARE.",
+   "anim": "animace",
+   "pause": 2.0
+  },
+  {
+   "id": "S96",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S96.png",
+   "note": "Otázka do komentářů (docs/cta.md). Horní polovina prázdná pro dlaždici a kolečko odběru; static, bez animace.",
+   "diagram_generator": "odpoved",
+   "diagram": "Klidná deska: v dolní polovině otázka IF EVERY BUBBLE TURNED THE SAME COLOUR, WOULD ANYONE SWITCH PHONES? a pod ní modrá a zelená bublina vedle sebe."
+  }
+ ]
+}

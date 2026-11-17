@@ -1,0 +1,133 @@
+{
+  "title": "Could We Make Acceleration Impossible to Feel?",
+  "slug": "021-could-we-turn-off-inertia",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly documentary illustration, muted desaturated palette, deep slate blue and cabin grey with a single warm amber instrument-light accent, low cinematic side light, visible brush and ink texture, restrained detail, quiet human scale, sense of stillness inside something moving, no text",
+    "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, chart, graph, diagram, photorealistic, photograph, oversaturated, neon, glossy advertising render, lens flare, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 149,
+    "music_sections": [
+      [
+        "S01",
+        "S03"
+      ],
+      [
+        "S09",
+        "S10"
+      ],
+      [
+        "S15",
+        "S16"
+      ],
+      [
+        "S22",
+        "S23"
+      ],
+      [
+        "S27",
+        "S28"
+      ],
+      [
+        "S33",
+        "S36"
+      ],
+      [
+        "S37",
+        "S38"
+      ],
+      [
+        "S42",
+        "S44"
+      ],
+      [
+        "S51",
+        "S54"
+      ],
+      [
+        "S59",
+        "S61"
+      ],
+      [
+        "S66",
+        "S70"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "archive_grade": {
+    "levels": "5%,95%",
+    "saturation": 68,
+    "tint": "#7fa8c8",
+    "tint_amount": 8,
+    "contrast": "-5x-8",
+    "vignette": true,
+    "vignette_edge": "#9aa6ad"
+  },
+  "thumbnail": {
+    "background": "none",
+    "overlay": "thumbnail/c1-feel-nothing.svg",
+    "out": "render/thumbnail.jpg"
+  }
+}

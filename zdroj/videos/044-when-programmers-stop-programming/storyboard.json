@@ -1,0 +1,768 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NENÍ SDXL A NESE MYŠLENKU: divák hned vidí, že video je o kódu A o člověku, který ho čte. Tím se zavádí páteř (kod_a_ctenar) — blok i postava drží souřadnice celé video a vyplácejí se v S69.",
+      "diagram_generator": "uvod",
+      "diagram": "Páteř: blok kódu na pevných souřadnicích vlevo, čtenářská postava vpravo u něj. Nad blokem ambrově RACE CONDITION a NULL jako dva popisky ukazující do kódu."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Závorka je vizuální motiv, který se vrátí v S42. Nesmí být nakreslená ručně podruhé — jde o tutéž funkci z _kit.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž blok. Ambrově zvýrazněná složená závorka, vedle dvě varianty umístění a mezi nimi obousměrná šipka."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "PŘEPSÁNO ZE SDXL: původně tu byla atmosférická scéna, jenže vycházela na 0:19–0:26, tedy přesně do dvacetivteřinového okna, ve kterém si divák podle docs/storyboard-a-diagramy.md odpovídá na otázku 'je tohle hromadná výroba?'. Prázdný blok páteře to navíc řekne líp než generovaný stůl — je to týž blok jako v S01, jen bez obsahu.",
+      "diagram_generator": "uvod",
+      "diagram": "Blok kódu z páteře na týchž souřadnicích jako v S01, ale PRÁZDNÝ. Čtenářská postava stojí vedle a nemá do čeho koukat.",
+      "pause": 1.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Stroj se poprvé objevuje jako zdroj kódu. Čtenářská postava zůstává na svém místě, jen je ztlumená — to je celé tvrzení scény.",
+      "diagram_generator": "uvod",
+      "diagram": "Blok kódu prázdný, vedle strojová skříňka. Z ní do bloku vede šipka. Nad ní replika 'build me an API'."
+    },
+    {
+      "id": "S04b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04b.png",
+      "note": "BEAT, ne nový obraz: mění se JEDINÁ věc (přibývají vrstvy). Jinak by z toho byl AI-slop rytmus.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, jen se do bloku přidávají další vrstvy: authentication, tests, bugfix. Postava pořád ztlumená."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Otočená šipka je celé tvrzení: role se obrátila ze psaní na čtení.",
+      "diagram_generator": "uvod",
+      "diagram": "Postava se rozsvítí a dívá se na hotový blok. Šipka od postavy ke kódu je otočená — čte, nepíše."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Pointa úvodu. Škrt přes nápis je vodorovná čára (skrt_text), ne křížek. ROLE OPRAVENA: bylo 'project manager', což je věcně jiná práce — projektový manažer plánuje termíny a rozpočet, ale nedělá code review, a scéna ukazuje přesně review. Video navíc v S32 vyjmenuje tu cestu přesně (team leader, architect, engineering manager) a projektový manažer v ní není. U videa, jehož pointa zní 'the job got renamed', je nedbalý název profese drahý.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad postavou přibude ambrový štítek PROJECT MANAGER. Pod ním přeškrtnutý řádek se mzdou.",
+      "pause": 1.2
+    },
+    {
+      "id": "S06b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06b.png",
+      "note": "BEAT: mění se JEDINÁ věc — vedle čtenáře se objeví řada strojů tam, kde v S04 a S08 stojí ten jeden. Obraz je jinak shodný s S06, takže se přechod čte jako doplnění, ne jako střih na jiný obrázek. Pointa 'Not one of them is human' dostává vlastní scénu, protože potřebuje ticho za sebou.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz jako S06, navíc řada tří strojů vlevo s popiskem YOUR TEAM",
+      "pause": 2.0
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Tady se páteř poprvé vyplácí významem: kód je most mezi dvěma lidmi.",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě postavy u téhož bloku: jedna píše, druhá čte. Mezi nimi ambrová šipka s popiskem READABLE."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "TVOJE POINTA. Kresba musí tvrdit přesně to co text: kód vzniká, čtenář chybí. Obrys, ne prázdno — divák musí poznat, že tam někdo chyběl.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz, jen píšící postava nahrazena strojem a čtenářská postava je ODEŠLÁ — zbyl po ní jen obrys."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Brána videa. Tenhle obraz se doslova vrátí v S67 — tehdy s odpovědí. Souřadnice se nesmí pohnout.",
+      "diagram_generator": "uvod",
+      "diagram": "Blok kódu sám, bez postav. Nad ním otázka WHAT WAS THE READABILITY FOR?",
+      "pause": 2.6
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Námitka je vyslovená někým, ne vypravěčem — proto bublina.",
+      "diagram_generator": "historie",
+      "diagram": "Bublina s replikou 'Programming has always been automated.' u postavy programátora."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Sloupce nesou tvrzení o ubývající práci. Výšky se počítají v kódu, ne odhadují (assert).",
+      "diagram_generator": "historie",
+      "diagram": "Vodorovná osa: strojové instrukce -> assembler -> vyšší jazyky. Pod každým stupněm ubývající sloupec 'co dělá člověk'."
+    },
+    {
+      "id": "S12",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S12.png",
+      "note": "VYBRÁNO Z KONTAKTNÍHO LISTU, ne od stolu: staženo dvanáct náhledů na dotaz 'IBM 704' a prohlédnuty vedle sebe. Rozhodly dvě věci. (1) Popis u téhle položky výslovně říká 'IBM type 704 electronic data processing machine, Langley NACA', takže je to doložitelně ten stroj, pro který FORTRAN vznikal. (2) Je na ní stroj I lidé, kteří na něm pracují — což je funkce scény, ne jen 'nějaký starý počítač'. Nejlíp vypadající alternativa (IBM 704 mainframe, LLNL) má jen 355x233 px, tedy nepoužitelné pro 2560x1440. Dotaz je zúžený tak, aby cíl vycházel na indexu 0 — pick NENÍ stabilní identifikátor, dokladem je otisk archive-raw/S12.orig. fit 0.88, protože snímek je 1,26:1 proti rámu 16:9 a plnicí ořez by uřízl půlku stroje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "IBM Electronic Data Processing Machine GPN-2000-001881",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "KRESLÍ SE, nenačítá se sken — licence na dokument IBM z roku 1954 není jasná a kresba stejně čte líp. Citát musí být DOSLOVA takhle, factcheck.md ho má ověřený proti originálu.",
+      "diagram_generator": "historie",
+      "diagram": "Stránka zprávy z roku 1954: hlavička IBM, datum, a v těle AMBROVĚ vysazená věta 'Since FORTRAN should virtually eliminate coding and debugging'. Vpravo dole číslo stránky 2.",
+      "pause": 1.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Škrt je vodorovný přes nápis. Rozestup na ose musí odpovídat 2,5 roku, ne 3 — to je oprava z fact checku.",
+      "diagram_generator": "historie",
+      "diagram": "Časová osa 1954 -> 1957 s rozestupem 2,5 roku. Pod rokem 1957 přeškrtnutý nápis CODING ELIMINATED a vedle plný FORTRAN PROGRAMMERS.",
+      "pause": 1.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "POZOR: formulace je doslova z fact checku. Nesmí tam být 'čitelné pro neprogramátory' — to není doložené.",
+      "diagram_generator": "historie",
+      "diagram": "Dva body dohody z roku 1959: MORE PEOPLE SHOULD BE ABLE TO PROGRAM a AS MUCH PLAIN ENGLISH AS POSSIBLE."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Páteř v jiné podobě: totéž místo, jiný obsah. Připravuje payoff v S58.",
+      "diagram_generator": "historie",
+      "diagram": "Blok kódu z páteře, ale v COBOLím anglickém zápisu, a vedle rozsvícená čtenářská postava."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "KRESLÍ SE, skutečná obálka je chráněná. Název musí být přesný, je to pointa scény.",
+      "diagram_generator": "historie",
+      "diagram": "Obálka knihy jako plochý obdélník s vysazeným názvem APPLICATION DEVELOPMENT WITHOUT PROGRAMMERS a rokem 1982."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Opakování napříč sedmdesáti lety je celé tvrzení scény.",
+      "diagram_generator": "historie",
+      "diagram": "Tři sliby pod sebou: 1954, 1959, 1982 — a u každého tatáž ambrová věta WITHOUT PROGRAMMERS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "PRÁZDNÉ OSY DIVÁK ČTE JAKO ROZBITÝ GRAF — data musí být v obraze od prvního snímku, klidně ztlumená. Naměřeno u třetího videa.",
+      "diagram_generator": "cisla",
+      "diagram": "Otázka nad prázdným grafem s popsanými osami a ztlumenými daty."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Obě čísla jsou PŘED zlomem klasifikace v roce 2003, proto smějí stát vedle sebe. Zdroj je sekundární, formulace proto 'more than' — viz factcheck.md.",
+      "diagram_generator": "cisla",
+      "diagram": "Sloupce 1980 (300k) a počátek 2000s (700k). Obojí ambrově, popisky s 'more than'."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Zlom je administrativní, ne datový — čára musí vypadat jako předěl v evidenci, ne jako propad křivky.",
+      "diagram_generator": "cisla",
+      "diagram": "Tentýž graf, a v roce 2003 svislá dělicí čára s popiskem 2003."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Scéna, ve které něco míří na někoho: ověř, že obě dráhy začínají V TÉŽE čáře 2003 a ani jedna nezačíná dřív.",
+      "diagram_generator": "cisla",
+      "diagram": "Z jedné dráhy se od té čáry rozbíhají dvě: COMPUTER PROGRAMMER a SOFTWARE ENGINEER, druhá s pozdějším popiskem SOFTWARE DEVELOPER."
+    },
+    {
+      "id": "S22b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22b.png",
+      "note": "ASSERT: poměr výšek se počítá z čísel, nekreslí se od oka. Obrázek nesmí tvrdit víc ani míň než scénář.",
+      "diagram_generator": "cisla",
+      "diagram": "Dva sloupce dnešního stavu: 380 000 a 2 250 000, ve správném poměru výšek."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Poměr 6:1 vychází z týchž dvou čísel. Počet postav se generuje z poměru, ne píše ručně.",
+      "diagram_generator": "cisla",
+      "diagram": "Šest postav vývojářů a jedna postava programátora, jedna řada."
+    },
+    {
+      "id": "S23b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23b.png",
+      "note": "STŘEDOVÁ POINTA VIDEA. Kresba musí tvrdit přejmenování, ne úbytek — pod štítkem zůstává táž hromada práce.",
+      "diagram_generator": "cisla",
+      "diagram": "Štítek COMPUTER PROGRAMMER se odlepuje a na jeho místo nasedá SOFTWARE DEVELOPER. Práce pod štítkem se nemění.",
+      "pause": 2.8
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Most mezi dějstvími. Vědomě recykluje tvar, aby divák poznal, že jde o totéž o patro dál.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Týž tvar jako S23b, jen zmenšený a označený NOW, vedle šipka s popiskem FASTER."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Ruka u KAŽDÉ příčky je to tvrzení: pořád se programovalo.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Žebřík úrovní abstrakce: ASSEMBLY -> C -> PYTHON. U každé příčky ambrová ikona ruky píšící kód."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Text v obraze je zadání, ne kód — to je celý rozdíl proti S25.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Rámeček se zadáním ve větách o e-mailové adrese. Žádný kód."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Šest výstupů se generuje ze seznamu, aby počet seděl se scénářem.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Z rámečku vychází šest výstupů: databáze, backend, API, front end, testy, dokumentace."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Nejdůležitější kresba dějství: tvrdí, že to NENÍ další příčka. Kdyby to bylo nakreslené jako vyšší příčka, obraz by popíral text.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Žebřík z S25 a vedle něj zadání z S26 — ale mimo žebřík, ne o příčku výš.",
+      "pause": 2.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Škrt vodorovnou čarou přes nápis, ne křížek.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Přechod: nápis PHILOSOPHY přeškrtnutý, vedle ARITHMETIC."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Rovnítko nese ekonomiku. Ambrová je ta strana, o které se mluví, ne ta 'lepší'.",
+      "diagram_generator": "abstrakce",
+      "diagram": "Pět postav vlevo, jedna postava plus stroj vpravo, mezi nimi rovnítko. Pod tím dvě firmy a šipka konkurence.",
+      "pause": 2.2
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Těžiště se posouvá: levá strana ztlumená, pravá ambrová.",
+      "diagram_generator": "remeslo",
+      "diagram": "Čtyři dvojice šipek: writing->instructing, implementation->review, programming->architecture, code->managing."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Schodiště existovalo vždycky — proto plná čára, ne čárkovaná.",
+      "diagram_generator": "remeslo",
+      "diagram": "Kariérní cesta jako schodiště: TEAM LEADER, ARCHITECT, ENGINEERING MANAGER."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Scéna, ve které něco míří na někoho: otočení postav je tvrzení, ověř směr proti textu.",
+      "diagram_generator": "remeslo",
+      "diagram": "Dvě skupiny postav u schodiště: jedna míří nahoru, druhá stojí a je otočená ke kódu."
+    },
+    {
+      "id": "S34",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S34.png",
+      "note": "Nejlidštější věta videa, kterou uživatel chránil. Sem patří atmosféra, ne schéma. SEDM KOL, a poučení jsou dvě.\n\n1) NEGATIV MŮŽE VZÍT PŘEDMĚT, NE JEN KLIŠÉ. Pět kol na stole chyběl počítač a hledal jsem to v promptu. Vinu nesl můj vlastní negativ: 'glowing screen, monitor glow' nepotlačilo jen svítící obrazovku, ale i MONITOR JAKO PŘEDMĚT. Zákaz klišé je teď formulovaný slovy, která monitor nejmenují: 'screen light on face, blue light on face, bright screen, lit display'.\n\n2) CO JE V PROMPTU PRVNÍ, VYHRAJE — třikrát po sobě. V kole 2 vytlačil popis místnosti postavu úplně, v kole 4 monitor vytlačil polohu, v kole 6 znovu. Podmět scény patří na začátek promptu.\n\nPřijaté kolo 7: poloha napřed, opravený negativ, jas 5,9x (pásmo kanálu 4,0 az 6,3). Zamítnutá kola jsou ve scratchpadu.",
+      "prompt": "a man leaning back in his chair with his chin resting on one hand, thinking hard, not typing, hands away from the keyboard, seen from the side, a dark switched-off computer monitor and keyboard on the desk in front of him, one small desk lamp, a dark room, deep shadow, no text",
+      "seed": 6604
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Opačný směr než S33. Ta dvojice scén nese celé dějství.",
+      "diagram_generator": "remeslo",
+      "diagram": "Postava od kódu tažená šipkou ke schodišti, proti své vůli — šipka ambrová, postava ztlumená.",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Smyčka musí být uzavřená, jinak netvrdí opakování.",
+      "diagram_generator": "remeslo",
+      "diagram": "Smyčka učení: try -> get it wrong -> take it apart, kolem dokola."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Payoff smyčky. Linka jde ze smyčky do hlavy, ne naopak.",
+      "diagram_generator": "remeslo",
+      "diagram": "Táž smyčka po roce: z ní vede ambrová linka do hlavy postavy s popiskem I HAVE HAD THIS BEFORE."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Prázdná smyčka je tvrzení o tom, co se nestalo.",
+      "diagram_generator": "remeslo",
+      "diagram": "Zkratka: od zadání rovnou k hotovému kódu, smyčka vedle je ztlumená a prázdná. Popisek TEN MINUTES."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Chybějící linka je táž linka jako v S37 — proto se musí kreslit touž funkcí, jinak se ztráta nepozná.",
+      "diagram_generator": "remeslo",
+      "diagram": "Postava před vlastním kódem s otazníkem. Linka do hlavy chybí."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Statický diagram, protože na něj hned navazuje výzva k odběru — ta dědí tenhle obraz.",
+      "diagram_generator": "remeslo",
+      "diagram": "Dvě křivky proti sobě: PRODUCTIVITY nahoru, ABILITY TO PROGRAM dolů.",
+      "pause": 1.2
+    },
+    {
+      "id": "S40b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "cta": true,
+      "note": "VÝZVA K ODBĚRU podle docs/cta.md: dědí obraz S40, effect static, cta true. Předchozí scéna JE diagram a je statická, takže na střihu nic neskočí. V celém videu smí být cta:true jen jednou.",
+      "pause": 1.2
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Návrat páteře po delší odmlce.",
+      "diagram_generator": "styl",
+      "diagram": "Blok kódu z páteře, kolem něj drobné popisky stylu."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "CALLBACK NA S02 — musí to být TÁŽ funkce a TÉŽ souřadnice, jinak se callback nepozná.",
+      "diagram_generator": "styl",
+      "diagram": "Závorka z S02 znovu, ambrová, a k ní tabs/spaces, two/four, CamelCase/snake_case."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Poměr délek je vtip scény, takže se počítá, ne odhaduje.",
+      "diagram_generator": "styl",
+      "diagram": "Vlákno diskuse delší než blok kódu vedle něj."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Velikostní poměr nese tvrzení.",
+      "diagram_generator": "styl",
+      "diagram": "Obrovský blok strojově psaného kódu, u něj maličká postava, která se nedívá."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Závorka se sem smí zmenšit — je to její poslední výskyt a tvrzení scény je právě to zmenšení.",
+      "diagram_generator": "styl",
+      "diagram": "Závorka zmenšená na ikonu vedle strojové skříňky, popisek IMPLEMENTATION DETAIL.",
+      "pause": 2.2
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "ŽÁDNÝ KONKRÉTNÍ SERIÁL: obecný obrys, žádné logo, žádná známá silueta. Rozhodnutí uživatele.",
+      "diagram_generator": "scifi",
+      "diagram": "Obrys kosmické lodi z boku, plochý, bez značky a bez konkrétního designu."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Počítač v centru je tvrzení o tom, že řídí všechno.",
+      "diagram_generator": "scifi",
+      "diagram": "Táž loď, uvnitř ambrově počítač a k němu rozvody k ENGINES, SENSORS, LIFE SUPPORT."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Plán se zavádí teď, aby v S49 šlo ukázat, co v něm CHYBÍ.",
+      "diagram_generator": "scifi",
+      "diagram": "Palubní plán: MEDICAL BAY, ENGINEERING DECK, BRIDGE — tři popsané místnosti."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Čárkovaně = neexistuje. POČET LIDÍ VYŠKRTNUT: v dodaném textu stálo '437 PROGRAMMERS' a nechal jsem to jako záměrnou fikci, jenže uživatel se při poslechu zeptal 'proč zrovna 437?'. Ve videu, které jinak hlídá čísla až k metodice statistického šetření, si vymyšlený údaj koleduje o otázku 'odkud to je' — a pointa scény je, že ta místnost neexistuje VŮBEC, ne kolik by v ní sedělo.",
+      "diagram_generator": "scifi",
+      "diagram": "Týž plán, a v něm prázdné místo s cedulí SOFTWARE ENGINEERING — 437 PEOPLE, čárkovaně."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Slovo 'transporter' bylo nahrazeno 'life support' — vázalo se na konkrétní seriál.",
+      "diagram_generator": "scifi",
+      "diagram": "Můstek, dvě postavy, a nad nimi přeškrtnuté bubliny o verzích knihoven a null pointeru."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "To 'mezi tím nic' je celá pointa — prázdné místo musí být vidět jako prázdné, ne jako mezera v kresbě.",
+      "diagram_generator": "scifi",
+      "diagram": "Replika ANALYSE THE ANOMALY a od počítače rovnou výsledek. Mezi tím nic."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Payoff sci-fi bloku.",
+      "diagram_generator": "scifi",
+      "diagram": "Palubní plán a v prázdném místě otazník, který se mění v ambrový vykřičník.",
+      "pause": 2.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Seznam se plní v S54, proto tady jen první řádek a zbytek ztlumeně.",
+      "diagram_generator": "zbyva",
+      "diagram": "Postava před strojem, v ruce seznam otázek. První řádek: WHAT SHOULD IT DO?"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Počet řádků musí sedět se scénářem — čtyři, ne pět (jeden vypadl při trimu).",
+      "diagram_generator": "zbyva",
+      "diagram": "Týž seznam, čtyři další řádky: must never do, security, data, failure."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Otázka je nadřazená seznamu, proto pod ním a větší, ne vedle.",
+      "diagram_generator": "zbyva",
+      "diagram": "Pod seznamem ambrová podtržená otázka HOW DO WE KNOW IT BUILT THE RIGHT THING?"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Váhy musí mít misky s close=True, jinak vypadají rozbitě. Naklonění je tvrzení.",
+      "diagram_generator": "zbyva",
+      "diagram": "Váhy: na jedné misce WRITING THE CODE, na druhé KNOWING IT IS RIGHT. Druhá je níž.",
+      "pause": 2.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Otázka scény, ne odpověď.",
+      "diagram_generator": "specifikace",
+      "diagram": "Stroj a nad ním otazník u nápisu PYTHON."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "PAYOFF COBOLU z S16: jazyky jsou tvarované kolem lidského čtenáře. Ikona oka musí být táž jako u čtenářské postavy páteře.",
+      "diagram_generator": "specifikace",
+      "diagram": "Tři jazyky a u každého ambrová ikona lidského oka."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Škrt přes ikonu, ne přes nápis.",
+      "diagram_generator": "specifikace",
+      "diagram": "Stroj s přeškrtnutou ikonou oka, vedle rámeček se specifikací: must always be true / must never happen."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Táž funkce vah jako v S56 — opakování tvaru je záměr.",
+      "diagram_generator": "specifikace",
+      "diagram": "Váhy: DIFF proti SPECIFICATION."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Čísla jsou ILUSTRACE převzatá z dodaného textu, netvrdí konkrétní commit. Škrt vodorovný přes celý blok, ne po řádcích.",
+      "diagram_generator": "specifikace",
+      "diagram": "Výpis diffu: 37 changed files, 4 821 added, 1 734 removed — ztlumeně a přeškrtnutě."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Počet sedí se scénářem.",
+      "diagram_generator": "specifikace",
+      "diagram": "Čtyři ambrové rámečky: specification, test scenarios, security rules, data model."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Kód jako výrobní prostředek — proto ztlumený a uprostřed, ne na konci.",
+      "diagram_generator": "specifikace",
+      "diagram": "Továrna: vstup specifikace, výstup šroub. Uprostřed ztlumená černá skříňka s popiskem CODE."
+    },
+    {
+      "id": "S63b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63b.png",
+      "note": "CALLBACK NA S25 a S28: týž žebřík abstrakce, o příčku výš. Nahoře přibude SPECIFICATION ambrově, spodní tři příčky se ztlumí — to je celé tvrzení scény: kód klesl tam, kde je dnes assembler. Žebřík proto bydlí v _kit.py, ne v abstrakce.py; kdyby si ho scéna nakreslila znovu, callback by se po deseti minutách nepoznal. Rozestup příček se dopočítává z jejich počtu, aby čtvrtá nehodila popisek nad pás.",
+      "diagram_generator": "specifikace",
+      "diagram": "Žebřík ASSEMBLY/C/PYTHON ztlumený, navrch ambrová příčka SPECIFICATION",
+      "pause": 2.2
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA SE BLÍŽÍ: od téhle scény dál drž HORNÍ polovinu volnou. Dole je titulek.",
+      "diagram_generator": "zaver",
+      "diagram": "Věta THIS WILL REPLACE PROGRAMMERS, přeškrtnutá vodorovnou čarou."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Sazba dole, horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Pod ní věta THIS WILL REPLACE PROGRAMMING AS THE MAIN THING PROGRAMMERS DO, ambrově."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Rým se S23b — odlepující se štítek je tentýž tvar, jen obráceně.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava zůstává, slovo PROGRAMMING se z jejího štítku odlepuje a odchází.",
+      "pause": 2.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "DOSLOVNÝ NÁVRAT S09. Souřadnice se nesmí lišit ani o pixel, jinak se návrat nepozná. Kreslí táž funkce.",
+      "diagram_generator": "zaver",
+      "diagram": "Přesně obraz S09: blok kódu sám a nad ním otázka WHAT WAS THE READABILITY FOR?"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Stroj to nepotřeboval — to je mezikrok před odpovědí.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, u kódu stroj s přeškrtnutou ikonou oka."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "VÝPLATA PÁTEŘE. Postava musí stát na týchž souřadnicích jako v S01 — proto je v _kit a nekreslí se ručně. Horní polovina volná kvůli závěrečné obrazovce.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtenářská postava z páteře se vrací na SVÉ PŮVODNÍ MÍSTO z S01, ambrová, a dívá se do bloku.",
+      "pause": 3.0
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "'Maybe you were one, once.' Obrys je tentýž tvar jako v S08.",
+      "diagram_generator": "zaver",
+      "diagram": "Tatáž postava, vedle ní ztlumený obrys druhé postavy (ten z S08)."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Kreslí se, ne SDXL: potřebujeme tutéž postavu a tentýž blok kódu jako v páteři.",
+      "diagram_generator": "zaver",
+      "diagram": "Mladá postava před archivem starých repozitářů, jeden otevřený."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "DIALOG ROZDĚLENÝ NA ČTYŘI SCÉNY. Původní jedna scéna přišla o všechny tři pauzy mezi replikami — v místě řezu zněla řeč (+2, -1 a -3 dB vůči tělu promluvy) a pojistka je odmítla; uživatel to v draftu slyšel jako 'All of it' dvakrát rychle za sebou. Mezi scénami se scene_pause PŘIDÁVÁ, ne vkládá řezem, takže ho nemá co odmítnout. Vizuálně je to JEDEN obraz, ve kterém přibývá jedna bublina — pozice se počítají ze všech pěti replik, ne z viditelných.",
+      "diagram_generator": "zaver",
+      "diagram": "Dialog jako čtyři repliky pod sebou, poslední WHY? ambrová."
+    },
+    {
+      "id": "S72b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72b.png",
+      "note": "Beat dialogu: přibyla replika 'All of it?'. Mění se JEDINÁ věc.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž sloupec bublin, odkrytý o jednu repliku dál: All of it?"
+    },
+    {
+      "id": "S72c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72c.png",
+      "note": "Beat dialogu: přibyla replika 'All of it.'. Mění se JEDINÁ věc.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž sloupec bublin, odkrytý o jednu repliku dál: All of it."
+    },
+    {
+      "id": "S72d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72d.png",
+      "note": "Beat dialogu: přibyla replika 'Why?'. Mění se JEDINÁ věc. SLEPÝ KONEC, ZMĚŘENO: promluva má 0,87 s, takže obětovaná věta nenajde kde řezat ('konec scény by padl do posledního slova') a návětí taky ne — Kokoro nechá před 'why' jen 40 ms ticha. Je to týž případ jako 'One.' a 'Zero.' u patnáctého videa: beat musí nést OBRAZ a rozdělení scény, ne zvuk, a to obojí tahle scéna má. Ocas je -22,5 dB vůči tělu; doložená slyšitelná schwa má podle CLAUDE.md -11 az -13 dB, tedy o deset hlasitěji, a whisper slyší čisté 'Why?' bez slova navíc. POZOR: neopravuj to zvýšením pauzy, CLAUDE.md to zakazuje.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž sloupec bublin, odkrytý o jednu repliku dál: Why?",
+      "pause": 2.0
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "POSLEDNÍ SCÉNA: pause 3.0 zapne obětovanou větu, takže konec nedostane schwu. Horní polovina musí zůstat prázdná pro dlaždici i kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Blok kódu a u něj obě postavy, klidný obraz. Dole titulek s odpovědí.",
+      "pause": 3.0
+    }
+  ]
+}

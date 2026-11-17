@@ -1,0 +1,733 @@
+{
+  "total": 600.255,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 3.158,
+      "end": 3.758,
+      "dur": 3.608,
+      "text": "Imagine you could send a message faster than light."
+    },
+    {
+      "id": "S02",
+      "start": 3.758,
+      "speech_end": 9.712,
+      "end": 10.212,
+      "dur": 6.454,
+      "text": "You send it to a friend on a distant spaceship. They read it and send a reply, just as fast."
+    },
+    {
+      "id": "S03",
+      "start": 10.212,
+      "speech_end": 13.199,
+      "end": 14.399,
+      "dur": 4.187,
+      "text": "And the reply reaches you before you've sent the message."
+    },
+    {
+      "id": "S04",
+      "start": 14.399,
+      "speech_end": 21.377,
+      "end": 22.577,
+      "dur": 8.178,
+      "text": "That's not a trick of the clocks, and it's not science fiction. It's what the equations of relativity say could happen."
+    },
+    {
+      "id": "S05",
+      "start": 22.577,
+      "speech_end": 31.201,
+      "end": 32.001,
+      "dur": 9.425,
+      "text": "In our last video, we asked what it would take to travel faster than light. Warp drives. Wormholes. Exotic matter."
+    },
+    {
+      "id": "S06",
+      "start": 32.001,
+      "speech_end": 38.021,
+      "end": 40.221,
+      "dur": 8.22,
+      "text": "This time, the harder question. Why do physicists think the universe might not allow it at all?"
+    },
+    {
+      "id": "S07",
+      "start": 40.221,
+      "speech_end": 46.113,
+      "end": 46.913,
+      "dur": 6.692,
+      "text": "First, the speed limit itself. Because it isn't a rule of thumb. It has been measured."
+    },
+    {
+      "id": "S08",
+      "start": 46.913,
+      "speech_end": 54.913,
+      "end": 55.413,
+      "dur": 8.5,
+      "text": "In 1964, at MIT, William Bertozzi fired electrons down a tube and timed them over about eight metres."
+    },
+    {
+      "id": "S09",
+      "start": 55.413,
+      "speech_end": 60.493,
+      "end": 61.293,
+      "dur": 5.879,
+      "text": "Then he gave them more energy. And more. In the end, thirty times as much."
+    },
+    {
+      "id": "S10",
+      "start": 61.293,
+      "speech_end": 66.733,
+      "end": 67.333,
+      "dur": 6.04,
+      "text": "At the lowest energy, the electrons moved at about eighty-seven per cent of the speed of light."
+    },
+    {
+      "id": "S11",
+      "start": 67.333,
+      "speech_end": 73.543,
+      "end": 74.343,
+      "dur": 7.01,
+      "text": "With thirty times the energy? So close to the speed of light that his timing couldn't tell the difference."
+    },
+    {
+      "id": "S11b",
+      "start": 74.343,
+      "speech_end": 82.046,
+      "end": 82.646,
+      "dur": 8.303,
+      "text": "Newton's physics had a different answer. By his rules, the fastest of them should have been moving several times faster than light."
+    },
+    {
+      "id": "S12",
+      "start": 82.646,
+      "speech_end": 90.501,
+      "end": 91.101,
+      "dur": 8.455,
+      "text": "And the energy hadn't gone missing. He caught the electrons in an aluminium disc and measured the heat. It was all there."
+    },
+    {
+      "id": "S13",
+      "start": 91.101,
+      "speech_end": 98.294,
+      "end": 99.094,
+      "dur": 7.993,
+      "text": "The extra energy went in. The electrons crept closer to light speed, and stopped short. That's the wall."
+    },
+    {
+      "id": "S13b",
+      "start": 99.094,
+      "speech_end": 104.784,
+      "end": 106.984,
+      "dur": 7.89,
+      "text": "By the way, if you like videos like this, consider subscribing. It really helps the channel."
+    },
+    {
+      "id": "S14",
+      "start": 106.984,
+      "speech_end": 111.082,
+      "end": 111.882,
+      "dur": 4.898,
+      "text": "But a wall isn't a reason. Why should there be a limit at all?"
+    },
+    {
+      "id": "S15",
+      "start": 111.882,
+      "speech_end": 115.722,
+      "end": 116.522,
+      "dur": 4.64,
+      "text": "The answer hides in something we never think about: the word \"now\"."
+    },
+    {
+      "id": "S16",
+      "start": 116.522,
+      "speech_end": 122.135,
+      "end": 122.935,
+      "dur": 6.413,
+      "text": "Picture a long train racing past a station. Lightning strikes both ends of it."
+    },
+    {
+      "id": "S17",
+      "start": 122.935,
+      "speech_end": 131.579,
+      "end": 132.579,
+      "dur": 9.644,
+      "text": "A woman on the platform stands halfway between the strikes. Both flashes reach her together. For her, the strikes were simultaneous."
+    },
+    {
+      "id": "S18",
+      "start": 132.579,
+      "speech_end": 139.279,
+      "end": 139.679,
+      "dur": 7.101,
+      "text": "A passenger sits in the middle of the train. But she's moving towards the front flash and away from the back one."
+    },
+    {
+      "id": "S19",
+      "start": 139.679,
+      "speech_end": 142.069,
+      "end": 142.469,
+      "dur": 2.789,
+      "text": "So the front flash reaches her first."
+    },
+    {
+      "id": "S20",
+      "start": 142.469,
+      "speech_end": 149.231,
+      "end": 150.031,
+      "dur": 7.563,
+      "text": "And because light travels at the same speed for everyone, the passenger concludes, correctly, that the front was struck first."
+    },
+    {
+      "id": "S21",
+      "start": 150.031,
+      "speech_end": 159.166,
+      "end": 160.566,
+      "dur": 10.535,
+      "text": "Neither of them is wrong. This was Einstein's own example. Whether two distant events happen at the same time depends on how you're moving."
+    },
+    {
+      "id": "S22",
+      "start": 160.566,
+      "speech_end": 165.069,
+      "end": 165.869,
+      "dur": 5.303,
+      "text": "That sounds dangerous. Could someone see an effect before its cause?"
+    },
+    {
+      "id": "S23",
+      "start": 165.869,
+      "speech_end": 167.683,
+      "end": 168.283,
+      "dur": 2.413,
+      "text": "No. And this is the key."
+    },
+    {
+      "id": "S24",
+      "start": 168.283,
+      "speech_end": 174.277,
+      "end": 174.677,
+      "dur": 6.395,
+      "text": "The order can only flip for events so far apart that not even light could get from one to the other in time."
+    },
+    {
+      "id": "S25",
+      "start": 174.677,
+      "speech_end": 178.56,
+      "end": 179.36,
+      "dur": 4.683,
+      "text": "If one event can affect the other, everyone agrees which came first."
+    },
+    {
+      "id": "S26",
+      "start": 179.36,
+      "speech_end": 183.92,
+      "end": 186.32,
+      "dur": 6.96,
+      "text": "In relativity, the light-speed limit is what keeps cause before effect."
+    },
+    {
+      "id": "S27",
+      "start": 186.32,
+      "speech_end": 187.73,
+      "end": 188.73,
+      "dur": 2.41,
+      "text": "Now let's break it."
+    },
+    {
+      "id": "S28",
+      "start": 188.73,
+      "speech_end": 196.519,
+      "end": 197.319,
+      "dur": 8.589,
+      "text": "Alice is on Earth. Bob is on a spaceship, one light-year away, flying further out at ninety per cent of the speed of light."
+    },
+    {
+      "id": "S29",
+      "start": 197.319,
+      "speech_end": 200.924,
+      "end": 201.724,
+      "dur": 4.405,
+      "text": "Alice sends him a message that travels at twice the speed of light."
+    },
+    {
+      "id": "S30",
+      "start": 201.724,
+      "speech_end": 208.297,
+      "end": 208.797,
+      "dur": 7.073,
+      "text": "For Alice, nothing strange happens. The message leaves, and almost eleven months later, it reaches Bob."
+    },
+    {
+      "id": "S31",
+      "start": 208.797,
+      "speech_end": 215.775,
+      "end": 216.575,
+      "dur": 7.778,
+      "text": "But the two events are so far apart that light couldn't connect them. So Bob and Alice don't have to agree on their order."
+    },
+    {
+      "id": "S32",
+      "start": 216.575,
+      "speech_end": 220.137,
+      "end": 221.537,
+      "dur": 4.963,
+      "text": "And in Bob's frame, the message arrives before Alice sent it."
+    },
+    {
+      "id": "S33",
+      "start": 221.537,
+      "speech_end": 224.931,
+      "end": 225.931,
+      "dur": 4.394,
+      "text": "That's unsettling. But it isn't a paradox yet."
+    },
+    {
+      "id": "S34",
+      "start": 225.931,
+      "speech_end": 231.587,
+      "end": 232.587,
+      "dur": 6.655,
+      "text": "Now Bob replies. Same kind of signal, twice the speed of light, measured from his ship."
+    },
+    {
+      "id": "S35",
+      "start": 232.587,
+      "speech_end": 237.643,
+      "end": 238.643,
+      "dur": 6.056,
+      "text": "Work it through, and his reply reaches Earth about five months before Alice sent her message."
+    },
+    {
+      "id": "S36",
+      "start": 238.643,
+      "speech_end": 241.992,
+      "end": 243.392,
+      "dur": 4.749,
+      "text": "Alice receives an answer to a question she hasn't asked yet."
+    },
+    {
+      "id": "S37",
+      "start": 243.392,
+      "speech_end": 252.525,
+      "end": 253.525,
+      "dur": 10.133,
+      "text": "Einstein himself noticed this in 1907. In 1970, three physicists gave it a name: the tachyonic antitelephone."
+    },
+    {
+      "id": "S38",
+      "start": 253.525,
+      "speech_end": 258.348,
+      "end": 259.348,
+      "dur": 5.823,
+      "text": "And here's the problem. Suppose the reply says: \"Don't send the message.\""
+    },
+    {
+      "id": "S39",
+      "start": 259.348,
+      "speech_end": 264.747,
+      "end": 265.547,
+      "dur": 6.199,
+      "text": "If Alice obeys, there's nothing for Bob to answer. So where did the reply come from?"
+    },
+    {
+      "id": "S40",
+      "start": 265.547,
+      "speech_end": 268.057,
+      "end": 269.857,
+      "dur": 4.31,
+      "text": "An effect has prevented its own cause."
+    },
+    {
+      "id": "S41",
+      "start": 269.857,
+      "speech_end": 277.623,
+      "end": 278.023,
+      "dur": 8.165,
+      "text": "Combine faster-than-light signals with the usual rules of relativity, and you can construct a message that arrives before it was sent."
+    },
+    {
+      "id": "S41a",
+      "start": 278.023,
+      "speech_end": 285.449,
+      "end": 285.849,
+      "dur": 7.826,
+      "text": "That is a serious problem for cause and effect. Not proof that every imaginable shortcut through spacetime must fail."
+    },
+    {
+      "id": "S41b",
+      "start": 285.849,
+      "speech_end": 296.169,
+      "end": 298.569,
+      "dur": 12.72,
+      "text": "And it doesn't matter what the signal is made of. Radio, particles, anything. All that counts is that it's faster than light, and that the usual rules hold."
+    },
+    {
+      "id": "S42",
+      "start": 298.569,
+      "speech_end": 304.544,
+      "end": 304.944,
+      "dur": 6.375,
+      "text": "Now, physics never proves that something is impossible. A new theory could change the rules."
+    },
+    {
+      "id": "S43",
+      "start": 304.944,
+      "speech_end": 309.275,
+      "end": 309.675,
+      "dur": 4.731,
+      "text": "But it would have to explain why relativity has passed every test we've given it."
+    },
+    {
+      "id": "S44",
+      "start": 309.675,
+      "speech_end": 316.887,
+      "end": 317.387,
+      "dur": 7.713,
+      "text": "And the tests are very good. Modern experiments have searched for any difference in the speed of light between different directions."
+    },
+    {
+      "id": "S45",
+      "start": 317.387,
+      "speech_end": 320.95,
+      "end": 321.95,
+      "dur": 4.563,
+      "text": "Down to about one part in a billion billion, they found none."
+    },
+    {
+      "id": "S46",
+      "start": 321.95,
+      "speech_end": 324.958,
+      "end": 325.758,
+      "dur": 3.808,
+      "text": "And once, it looked as though something had broken through."
+    },
+    {
+      "id": "S47",
+      "start": 325.758,
+      "speech_end": 335.87,
+      "end": 336.67,
+      "dur": 10.912,
+      "text": "In 2011, the OPERA experiment sent neutrinos from CERN, near Geneva, to a lab under a mountain in Italy, seven hundred and thirty kilometres away."
+    },
+    {
+      "id": "S48",
+      "start": 336.67,
+      "speech_end": 341.6,
+      "end": 342.6,
+      "dur": 5.93,
+      "text": "They arrived about sixty billionths of a second early. Faster than light."
+    },
+    {
+      "id": "S48b",
+      "start": 342.6,
+      "speech_end": 350.817,
+      "end": 351.617,
+      "dur": 9.017,
+      "text": "And it wasn't a fluke of statistics. The result was far too strong for that. Whatever was wrong was wrong every single time."
+    },
+    {
+      "id": "S49",
+      "start": 351.617,
+      "speech_end": 357.593,
+      "end": 358.393,
+      "dur": 6.775,
+      "text": "The team didn't claim a revolution. They published the result and asked others to find the mistake."
+    },
+    {
+      "id": "S50",
+      "start": 358.393,
+      "speech_end": 365.262,
+      "end": 365.862,
+      "dur": 7.469,
+      "text": "Within months, the investigation found problems in the timing system, including a faulty fibre-optic connection."
+    },
+    {
+      "id": "S51",
+      "start": 365.862,
+      "speech_end": 371.643,
+      "end": 372.443,
+      "dur": 6.581,
+      "text": "Once the timing was corrected and the measurement repeated, the faster-than-light result disappeared."
+    },
+    {
+      "id": "S52",
+      "start": 372.443,
+      "speech_end": 381.083,
+      "end": 383.483,
+      "dur": 11.04,
+      "text": "The lesson isn't that relativity can never be wrong. It's that an extraordinary result has to survive checking. This one didn't."
+    },
+    {
+      "id": "S53",
+      "start": 383.483,
+      "speech_end": 389.288,
+      "end": 390.088,
+      "dur": 6.605,
+      "text": "So signals can't simply outrun light. But in our last video, we met a different idea."
+    },
+    {
+      "id": "S54",
+      "start": 390.088,
+      "speech_end": 396.917,
+      "end": 397.417,
+      "dur": 7.329,
+      "text": "A wormhole. A shortcut between two places, where nothing has to outrun light, because the path is shorter."
+    },
+    {
+      "id": "S55",
+      "start": 397.417,
+      "speech_end": 403.475,
+      "end": 404.275,
+      "dur": 6.859,
+      "text": "And in 1988, Kip Thorne and two colleagues showed how a wormhole could be turned into a time machine."
+    },
+    {
+      "id": "S56",
+      "start": 404.275,
+      "speech_end": 406.494,
+      "end": 407.094,
+      "dur": 2.819,
+      "text": "It takes one trick we've already seen."
+    },
+    {
+      "id": "S57",
+      "start": 407.094,
+      "speech_end": 411.894,
+      "end": 412.694,
+      "dur": 5.6,
+      "text": "A clock that travels close to light speed runs slow compared with one that stays at home."
+    },
+    {
+      "id": "S58",
+      "start": 412.694,
+      "speech_end": 418.669,
+      "end": 419.469,
+      "dur": 6.775,
+      "text": "Start with a wormhole whose two mouths sit side by side. Through the tunnel, their clocks agree."
+    },
+    {
+      "id": "S59",
+      "start": 419.469,
+      "speech_end": 425.379,
+      "end": 426.179,
+      "dur": 6.709,
+      "text": "Now take one mouth on a long trip, at ninety-nine per cent of the speed of light, and bring it back."
+    },
+    {
+      "id": "S60",
+      "start": 426.179,
+      "speech_end": 431.45,
+      "end": 432.25,
+      "dur": 6.071,
+      "text": "On Earth, ten years have passed. For the travelling mouth, less than a year and a half."
+    },
+    {
+      "id": "S61",
+      "start": 432.25,
+      "speech_end": 435.514,
+      "end": 435.914,
+      "dur": 3.664,
+      "text": "But through the tunnel, the clocks at the two mouths still agree."
+    },
+    {
+      "id": "S62",
+      "start": 435.914,
+      "speech_end": 441.454,
+      "end": 443.054,
+      "dur": 7.14,
+      "text": "So step into the mouth that travelled, and you come out of the other one more than eight years earlier."
+    },
+    {
+      "id": "S63",
+      "start": 443.054,
+      "speech_end": 446.254,
+      "end": 446.654,
+      "dur": 3.6,
+      "text": "A time shift between the mouths isn't yet a time machine."
+    },
+    {
+      "id": "S64",
+      "start": 446.654,
+      "speech_end": 452.478,
+      "end": 452.878,
+      "dur": 6.224,
+      "text": "That happens when the shift is longer than light needs to get from one mouth to the other the ordinary way."
+    },
+    {
+      "id": "S65",
+      "start": 452.878,
+      "speech_end": 458.105,
+      "end": 459.505,
+      "dur": 6.627,
+      "text": "Then you can step out in the past, walk back to the first mouth, and arrive before you left."
+    },
+    {
+      "id": "S66",
+      "start": 459.505,
+      "speech_end": 465.587,
+      "end": 466.087,
+      "dur": 6.582,
+      "text": "None of this tells us how to build such a wormhole, or keep it open. It's a solution on paper."
+    },
+    {
+      "id": "S67",
+      "start": 466.087,
+      "speech_end": 473.477,
+      "end": 476.077,
+      "dur": 9.99,
+      "text": "But it shows that the paradox isn't only about signals. Any shortcut through spacetime may lead to the same place."
+    },
+    {
+      "id": "S68",
+      "start": 476.077,
+      "speech_end": 480.175,
+      "end": 481.375,
+      "dur": 5.298,
+      "text": "So does the universe forbid it? There are two famous answers."
+    },
+    {
+      "id": "S69",
+      "start": 481.375,
+      "speech_end": 488.201,
+      "end": 488.801,
+      "dur": 7.427,
+      "text": "In 1992, Stephen Hawking proposed that the laws of physics themselves prevent time machines from forming."
+    },
+    {
+      "id": "S70",
+      "start": 488.801,
+      "speech_end": 499.745,
+      "end": 500.345,
+      "dur": 11.544,
+      "text": "His idea was that as a wormhole came close to becoming a time machine, the restless energy of empty space would build up inside it without limit, and stop the time machine from forming."
+    },
+    {
+      "id": "S71",
+      "start": 500.345,
+      "speech_end": 503.183,
+      "end": 503.983,
+      "dur": 3.637,
+      "text": "He called it the chronology protection conjecture."
+    },
+    {
+      "id": "S72",
+      "start": 503.983,
+      "speech_end": 509.593,
+      "end": 510.593,
+      "dur": 6.611,
+      "text": "And he pointed out, half jokingly, that we have not been invaded by hordes of tourists from the future."
+    },
+    {
+      "id": "S73",
+      "start": 510.593,
+      "speech_end": 519.406,
+      "end": 520.606,
+      "dur": 10.013,
+      "text": "It was a joke, not a proof. In 2009, he threw a party for time travellers, and sent out the invitations only afterwards."
+    },
+    {
+      "id": "S74",
+      "start": 520.606,
+      "speech_end": 521.886,
+      "end": 524.086,
+      "dur": 3.48,
+      "text": "Nobody came."
+    },
+    {
+      "id": "S75",
+      "start": 524.086,
+      "speech_end": 527.371,
+      "end": 527.971,
+      "dur": 3.885,
+      "text": "The Russian physicist Igor Novikov answered differently."
+    },
+    {
+      "id": "S76",
+      "start": 527.971,
+      "speech_end": 531.214,
+      "end": 532.414,
+      "dur": 4.443,
+      "text": "Maybe the past can be visited, but it can't be changed."
+    },
+    {
+      "id": "S77",
+      "start": 532.414,
+      "speech_end": 540.565,
+      "end": 540.865,
+      "dur": 8.451,
+      "text": "The physicist Joseph Polchinski challenged the idea with a billiard ball. Send it into a wormhole, so that it comes out in the past"
+    },
+    {
+      "id": "S78",
+      "start": 540.865,
+      "speech_end": 546.907,
+      "end": 547.907,
+      "dur": 7.041,
+      "text": "and knocks its younger self off course. Then it never enters the wormhole. A paradox."
+    },
+    {
+      "id": "S79",
+      "start": 547.907,
+      "speech_end": 554.051,
+      "end": 554.651,
+      "dur": 6.744,
+      "text": "But when Thorne and two colleagues worked through the equations, they found that the collision could also happen differently."
+    },
+    {
+      "id": "S80",
+      "start": 554.651,
+      "speech_end": 560.199,
+      "end": 561.199,
+      "dur": 6.549,
+      "text": "A glancing blow. The younger ball is nudged, not stopped, and still enters the wormhole."
+    },
+    {
+      "id": "S81",
+      "start": 561.199,
+      "speech_end": 568.509,
+      "end": 570.709,
+      "dur": 9.51,
+      "text": "For every starting point they tried, they found at least one self-consistent history. For some, there was more than one."
+    },
+    {
+      "id": "S82",
+      "start": 570.709,
+      "speech_end": 577.967,
+      "end": 579.167,
+      "dur": 8.457,
+      "text": "Neither answer is proven. Hawking's is a conjecture. Novikov's is a principle, not an observation."
+    },
+    {
+      "id": "S83",
+      "start": 579.167,
+      "speech_end": 586.315,
+      "end": 587.715,
+      "dur": 8.549,
+      "text": "So for now, the speed of light isn't just a limit on our engines. It may be what keeps causes before their effects."
+    },
+    {
+      "id": "S84",
+      "start": 587.715,
+      "speech_end": 590.553,
+      "end": 591.153,
+      "dur": 3.437,
+      "text": "Either the universe never lets a time machine form..."
+    },
+    {
+      "id": "S85",
+      "start": 591.153,
+      "speech_end": 594.715,
+      "end": 595.915,
+      "dur": 4.763,
+      "text": "or it allows only histories that never contradict themselves."
+    },
+    {
+      "id": "S86",
+      "start": 595.915,
+      "speech_end": 597.855,
+      "end": 600.255,
+      "dur": 4.34,
+      "text": "We don't yet know which, if either."
+    }
+  ]
+}

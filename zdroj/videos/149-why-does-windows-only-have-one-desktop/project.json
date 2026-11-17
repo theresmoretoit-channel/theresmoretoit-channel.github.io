@@ -1,0 +1,121 @@
+{
+  "title": "Why Does Windows Only Have One Desktop?",
+  "slug": "149-why-does-windows-only-have-one-desktop",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.15,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly editorial illustration, quiet home offices and computer rooms, beige computers and modern monitors glowing in dim rooms, desks with keyboards and cables, muted palette of slate blue, charcoal and warm grey with a single soft amber accent, flat grey overcast light, subtle film grain, restrained detail, calm editorial composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, faces, close-up of people, oversaturated, neon, blurry, low quality, deformed"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -36,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 149,
+    "music_sections": [
+      [
+        "S01",
+        "S05"
+      ],
+      [
+        "S17",
+        "S24"
+      ],
+      [
+        "S35",
+        "S36"
+      ],
+      [
+        "S49",
+        "S52"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false,
+    "lead_in": 0.15,
+    "frazovani": true
+  },
+  "pronounce": {
+    "shell=progman.exe": "shell equals prog man dot E X E",
+    "shell=explorer.exe": "shell equals explorer dot E X E",
+    "explorer.exe": "explorer dot E X E",
+    "progman.exe": "prog man dot E X E",
+    "system.ini": "system dot I N I",
+    "shell=": "shell equals ",
+    "bbLean": "bee bee lean",
+    "Xfce": "X F C E",
+    "IoT": "I O T",
+    "NeXTSTEP": "next step",
+    "3.0": "three point oh",
+    "1990": "nineteen ninety",
+    "2014": "twenty fourteen",
+    "Windows 95": "Windows ninety-five",
+    "Windows 2000": "Windows two thousand",
+    "Windows 11": "Windows eleven",
+    "UI": "U I"
+  },
+  "archive_grade": {
+    "saturation": 95,
+    "tint_amount": 0,
+    "vignette": false
+  }
+}

@@ -1,0 +1,807 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S01.png",
+   "note": "Hook je SCÉNA, ne schéma. Zavádí motiv celého videa: zvenku nic, uvnitř snad něco. ŽÁDNÝ humanoidní robot a žádný modře zářící mozek — video tvrdí, že inteligence a vědomí spolu nemusí souviset, a robot s tváří tvrdí opak dřív, než začne hlas. [kolo 1 zamítnuto: model nakreslil řadu béžových skříní v osvětlené chodbě a ZÁŘE ZEVNITŘ tam nebyla vůbec — a právě ta je funkce scény. Prompt kolo 2 dělá ze záře podmět, ne přívlastek, a přidává, co ta záře DĚLÁ (pruh světla na podlaze). Zamítnutý pokus leží ve scratchpadu, viz notes.md.] [KOLO 3, JINÝ ZÁBĚR. Skříně v hale netrefil model dvakrát: kolo 1 dalo osvětlenou chodbu bez záře, kolo 2 dřevěné šatní skříně, u S64 navíc postavy, které prompt zakazuje. CLAUDE.md: „Když model funkci scény netrefí dvakrát, obvykle to není chyba promptu, ale znamení, že scéna patří jinam.\" Rozsvícené okno v tmavé budově je otázka videa v jednom obraze („je tam někdo?\") a je to zároveň to, co difuzní model umí — architektura a noc, ne konkrétní zařízení. S01 má JEDNO okno, S64 desítky: rým nese počet, ne kompozice.] ROZHODNUTO uživatelem: kolo 3 se ponechává. Dvojice S01/S64 nese rým MĚŘÍTKEM (jedna budova proti obří), ne počtem rozsvícených oken, jak byl původní záměr.",
+   "prompt": "a large plain dark concrete building at night seen from outside, every window black except one single window glowing warm amber, cold indigo night sky, nobody visible, quiet and still",
+   "seed": 3311
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "ZAVÁDÍ HLAVNÍ MOTIV videa: krabice, jejíž vstup a výstup vidíme, a jejíž vnitřek ne. Vrací se v S03, S30, S31, S34, S67 a S71 — pokaždé se změní JEN vnitřek. Musí být proto nakreslená tak, aby šla beze změny zopakovat.",
+   "diagram_generator": "uvod",
+   "diagram": "uprostřed velký zaoblený obdélník s tlustým obrysem, do něj zleva plná šipka s popiskem INPUT, zprava z něj plná šipka OUTPUT; uvnitř obdélníku jediný velký ambrový otazník; nad rámečkem drobně what we can see, uvnitř dole drobně what we cannot"
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Pořadí nese význam. Prožitek je PRVNÍ a sebe-vztah až druhý — verze 0.1 to měla obráceně („aware of itself\") a uživatel to označil za směšování vědomí a sebeuvědomění. Smyčka proto NESMÍ být větší ani výraznější než šipka prožitku.",
+   "diagram_generator": "uvod",
+   "diagram": "táž krabice jako S02, přiblížená; uvnitř dva prvky: zvenku dovnitř plná šipka končící u malého kruhu s popiskem EXPERIENCES THE WORLD, a z toho kruhu smyčka zpět do sebe s popiskem KNOWS IT IS EXPERIENCING; otazník z S02 zeslabený vzadu"
+  },
+  {
+   "id": "S03b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03b.png",
+   "note": "Beat. Jeden obraz, mění se JEDINÁ věc. Nesmí to být nová kompozice, jinak z beatu vzniknou dva střihy za sebou.",
+   "diagram_generator": "uvod",
+   "diagram": "TOTÉŽ jako S03, beze změny; jen doprostřed krabice přibude velký ambrový nápis I AM",
+   "pause": 1.6
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Námitka „je to jen matematika\" dostane plnou sílu — vnitřek je opravdu jen čísla. Mřížka musí být hustá a fádní, ne hezká; scéna má znít jako zavření otázky.",
+   "diagram_generator": "uvod",
+   "diagram": "táž krabice, rozevřená; celý vnitřek vyplněný hustou mřížkou drobných čísel a řeckých symbolů; pod ní tři popisky ALGORITHMS / PARAMETERS / STATISTICS; nápis I AM ani otazník tam už nejsou"
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Otočka intra. Obě krabice MUSÍ být stejně velké a stejně nakreslené — jakmile by hlava byla větší nebo teplejší, obraz předem odpoví na otázku, kterou video pokládá.",
+   "diagram_generator": "uvod",
+   "diagram": "dvě stejně velké krabice vedle sebe: vlevo AI vyplněná touž mřížkou čísel jako S04, vpravo obrys lidské hlavy z profilu, uvnitř PRÁZDNÝ s velkým ambrovým otazníkem; mezi nimi svislá dělicí čára",
+   "pause": 2.2
+  },
+  {
+   "id": "S06",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S06.png",
+   "note": "Jediné místo, kde se video obrací přímo na diváka. Postava ZEZADU — SDXL má potíže s obličeji a rukama, a záda navíc dovolí divákovi být tou postavou.",
+   "prompt": "a person seen from behind in a dark room, only the edge of their shoulder and hair lit by the glow of a screen in front of them, the screen itself out of frame, warm amber light, quiet interior"
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "PAST: čtvrtá věc není čtvrtý vstup. Kdyby „subjective experience\" byla nakreslená jako další šipka, obraz by tvrdil, že prožitek je další smyslový kanál — a celé video stojí na tom, že není. Musí to být obrys KOLEM všeho.",
+   "diagram_generator": "prozitek",
+   "diagram": "tři plné šipky zleva s popisky SEEING / HEARING / THINKING mířící do jednoho zaobleného tvaru; kolem CELÉHO tvaru pak samostatný ambrový obrys s popiskem and there is something it is like to be you"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Záměrně klinické a nudné. Scéna popisuje POUZE informaci — teprve S08b přidá to druhé. Prst kreslit jednoduše: SDXL by z ruky udělal šest prstů, ale i kresba musí být schematická, ne anatomická.",
+   "diagram_generator": "prozitek",
+   "diagram": "vodorovný řetěz: obrys prstu s drobným řezem, plná šipka, nerv, plná šipka, obrys mozku; na konci šedý technický výpis TISSUE DAMAGE DETECTED v rámečku; celé chladné a bez akcentu"
+  },
+  {
+   "id": "S08b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08b.png",
+   "note": "Beat na tomtéž obrazu. Kontrast šedé technické hlášky a ambrového nápisu nese celý rozdíl mezi informací a prožitkem.",
+   "diagram_generator": "prozitek",
+   "diagram": "TOTÉŽ jako S08; jen šedý výpis zůstane a přes celý obraz přibude velký ambrový nápis IT HURTS",
+   "pause": 1.6
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Skutečný a ověřený obsah, ne dekorace (factcheck, kap. 1). Křivky se MUSÍ výrazně překrývat — kdyby byly oddělené, obraz by tvrdil přesně to, co scéna popírá, tedy že oko měří vlnovou délku.",
+   "diagram_generator": "prozitek",
+   "diagram": "tři široké překrývající se křivky citlivosti čípků S, M, L nad vodorovnou osou vlnové délky; jedna svislá čára protínající VŠECHNY TŘI naráz, u každého průsečíku tečka; pod tím popisek one wavelength, three different responses"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Vysvětlovací propast nakreslená. Nosným prvkem je MEZERA, ne obě strany — musí být širší, než by kompozice chtěla.",
+   "diagram_generator": "prozitek",
+   "diagram": "vlevo měřitelný řetěz WAVELENGTH -> CONE RESPONSES -> NEURAL SIGNAL, celý plnými čarami a šipkami; vpravo za širokou prázdnou mezerou plná ambrová plocha s popiskem WHAT IT LOOKS LIKE; mezera je nejširší prvek obrazu"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Hard problem (Chalmers 1995, factcheck kap. 2). PAST: jakákoli šipka přes mezeru by řekla, že spojení známe a jen ho neumíme popsat. Otazník ano, šipka ne.",
+   "diagram_generator": "prozitek",
+   "diagram": "táž kompozice jako S10, jen popsaná: levá strana nadepsaná PHYSICAL PROCESSES, pravá SUBJECTIVE EXPERIENCE, uprostřed mezery velký ambrový otazník; ŽÁDNÁ šipka přes mezeru",
+   "pause": 2.2
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Prázdná mapa, do které S12b začne psát. **Je to profil HLAVY, ne obrys mozku** — mozek se nepodařilo nakreslit kódem tak, aby se poznal (tři pokusy: žárovka, bublina, bochník). Hlavu dělá rozpoznatelnou nos; mozek sulky, a ty kód nesvede. Kreslí `_kit.hlava(mozek=True)`.",
+   "diagram_generator": "mozek",
+   "diagram": "profil lidské hlavy čelem doleva, uvnitř tlumené oválné pole mozkovny, jinak prázdné, tenkou čarou"
+  },
+  {
+   "id": "S12b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12b.png",
+   "note": "Naivní očekávání se kreslí NAPLNO, včetně prostředního pole. Divák ho musí chvíli vidět jako samozřejmé, jinak nemá S13 co vyvracet. Je to jediná scéna videa, kde smí pole CONSCIOUSNESS stát nepřeškrtnuté.",
+   "diagram_generator": "mozek",
+   "diagram": "TÁŽ hlava; do pole mozkovny přibudou tři popisky VISION vzadu, MEMORY dole, CONSCIOUSNESS uprostřed; všechny tři stejně nakreslené plnou čarou",
+   "pause": 1.4
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Tři věci naráz, všechny povinné (factcheck kap. 4 a 21). ZA PRVÉ: názvy teorií se ve verzi 0.2 škrtly z hlasu a tvrdí je teď JEN tenhle diagram, takže musí být přesné — Global NEURONAL Workspace, ne Baarsova Global Workspace. ZA DRUHÉ: rámeček AND OTHERS je povinný, protože Butlin et al. jich uvádějí šest, ne čtyři. ZA TŘETÍ: žádná teorie nesmí být zvýrazněná barvou ani velikostí — COGITATE (Nature 2025) ukázala, že neobstála ANI JEDNA. Tady se zavádí legenda plná/čárkovaná pro celé video. VISION a MEMORY se sem už nekreslí: pletly se s polem mozkovny a scéna mluví o teoriích, ne o oblastech.",
+   "diagram_generator": "mozek",
+   "diagram": "táž hlava vlevo, v poli mozkovny nápis CONSCIOUSNESS PŘEŠKRTNUTÝ vodorovnou čarou; vpravo pod sebou stejně velké rámečky GLOBAL NEURONAL WORKSPACE / INTEGRATED INFORMATION / RECURRENT PROCESSING / HIGHER-ORDER THEORIES a čárkovaný AND OTHERS; vlevo dole legenda plná = established, čárkovaná = hypothesis"
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "PAST V PŘEKLADU I V OBRAZE: scéna říká „MUCH OF modern research\", ne „veškerý\" (factcheck kap. 5 a 20). Popisek proto musí obsahovat much of — bez toho obraz tvrdí víc než hlas a odporuje vlastnímu S13, kde je vypsaná Recurrent Processing Theory, která je naopak lokální.",
+   "diagram_generator": "mozek",
+   "diagram": "táž hlava, v poli mozkovny síť uzlů propojených čarami; ZVÝRAZNĚNÉ jsou čáry, uzly ztlumené; popisek u čar much of the research asks about THIS"
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Na text patří vodorovný škrt, ne křížek — pod křížkem se nápis nepřečte (CLAUDE.md).",
+   "diagram_generator": "mozek",
+   "diagram": "uprostřed velký nápis WHERE IS CONSCIOUSNESS? přeškrtnutý jednou vodorovnou čarou přes text"
+  },
+  {
+   "id": "S15b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15b.png",
+   "note": "Beat: špatná otázka / lepší otázka. Tuhle kompozici video ZOPAKUJE v S80 — je to rým, který zavírá oblouk, takže rozvržení se musí dát použít podruhé.",
+   "diagram_generator": "mozek",
+   "diagram": "TOTÉŽ jako S15; pod přeškrtnutou otázkou přibude ambrový nápis WHAT IS THE SYSTEM DOING AS A WHOLE?",
+   "pause": 2.2
+  },
+  {
+   "id": "S16",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S16.png",
+   "note": "Jediná archivní scéna videa. Orchestr je konkrétní vyfotitelná věc se jménem — přesně to, na co je archiv, a přesně to, co difuzní model kreslit nemá (CLAUDE.md). Zároveň je to jediné místo, kde se divák nadechne od schémat. DOTAZ ZE STORYBOARDU 0.1 NEVRÁTIL NIC — „symphony orchestra full ensemble stage\" dalo prázdný výsledek, takže je to znovu doklad, že dotaz psaný od stolu je návrh, ne zadání. Vybráno z kontaktního listu devíti náhledů: pick 1 (BBC Proms) zamítnut kvůli obřímu logu na obrazovkách, pick 2 vzat pro poměr 1,74:1 (skoro 16:9, takže minimální ořez) a pro to, že je vidět celý ansámbl bez rušivého popředí. Kdyby snímek nevyhověl, náhrada je diagram, NE druhý pokus SDXL.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "symphony orchestra concert",
+    "pick": 2
+   }
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Emergence poprvé. Popisek SYMPHONY se NESMÍ dotýkat ani jednoho uzlu — jakmile by z uzlu vedla čára k popisku, obraz řekne, že symfonie je vlastnost toho uzlu. Táž vizuální gramatika jako S14 (uzly a čáry) je záměrná: příště se přiloží k mozku.",
+   "diagram_generator": "orchestr",
+   "diagram": "hustá síť uzlů propojených čarami, tvarem připomínající rozsazení orchestru; kolem CELÉ sítě samostatný ambrový obrys s popiskem SYMPHONY, který se nedotýká žádného jednotlivého uzlu"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Analogie se přiloží doslova — obě sítě musí mít TÝŽ tvar, jinak je rým neviditelný. Přeškrtnutý je JEDEN uzel, ne celá síť.",
+   "diagram_generator": "orchestr",
+   "diagram": "vedle sebe dvě stejně tvarované sítě: vlevo ORCHESTRA, vpravo BRAIN; pod nimi jeden vyňatý uzel v kroužku, přeškrtnutý, s popiskem not a single component"
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Klíčová scéna celého mostu k AI. Uzlů musí být vlevo i vpravo STEJNĚ a musí být zjevně tytéž — jinak obraz tvrdí, že rozdíl je v součástkách, kdežto scéna tvrdí, že je v uspořádání.",
+   "diagram_generator": "orchestr",
+   "diagram": "dvakrát TÁŽ sada uzlů: vlevo propojená v určitém vzoru a kolem ní ambrová plocha, vpravo tytéž uzly propojené jinak nebo rozházené a ambrová plocha CHYBÍ; nad tím popisek same components, different organisation",
+   "pause": 2.2
+  },
+  {
+   "id": "S20",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S20.png",
+   "note": "Pohled pacienta těsně před usnutím. ŽÁDNÍ lidé v záběru — SDXL na rukou a obličejích selhává a lékař v masce by navíc scénu zdramatizoval, kdežto ona má být klidná.",
+   "prompt": "large round operating theatre lights seen directly from below, several bright circular lamps against a dark ceiling, edges of the frame softening and going out of focus, no people, no faces, cold clinical light with a faint warm centre"
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "PAST Z FACT CHECKU (kap. 7): horní dráha nesmí spadnout na nulu ANI zůstat rovná. Naměřeno −26 az −46 % metabolismu, tedy „běží dál\", ne „běží stejně\" — a právě rozdíl mezi těmi dvěma větami je celý fact check téhle scény.",
+   "diagram_generator": "anestezie",
+   "diagram": "dvě vodorovné dráhy nad společnou časovou osou; horní BRAIN ACTIVITY je souvislá celou dobu, uprostřed KLESNE zhruba na dvě třetiny a zase se vrátí, ale NIKDY nedosáhne nuly; dolní CONSCIOUS EXPERIENCE je plná, uprostřed ÚPLNĚ zmizí a pak se vrátí; svisle vyznačený úsek ANAESTHESIA"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "PAST Z FACT CHECKU (kap. 8 a 21): scéna říká „is ASSOCIATED with\", ne „causes\". Plná šipka mezi drahami by z korelace udělala příčinu, což doloženo NENÍ. Souběžnost musí nést samo rozvržení — dvě dráhy, které se hýbou spolu, a nic mezi nimi.",
+   "diagram_generator": "anestezie",
+   "diagram": "táž časová osa a tytéž dvě dráhy jako S21, přibude třetí dráha NETWORK INTEGRATION, která klesá a vrací se SOUBĚŽNĚ s dráhou vědomí; mezi drahami ŽÁDNÁ šipka"
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Obrácení S19. Všechny součástky v pořádku a přesto nic — háčky u uzlů jsou nutné, jinak divák přečte scénu jako „mozek je poškozený\".",
+   "diagram_generator": "anestezie",
+   "diagram": "síť uzlů, každý uzel rozsvícený a s malým háčkem u sebe, ale čáry mezi nimi PŘERUŠENÉ nebo čárkované; ambrová plocha kolem sítě CHYBÍ; popisek every part working"
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Inverze S23 a zároveň můstek. Krabice v rohu musí být MALÁ — je to ohlášení, ne pointa scény.",
+   "diagram_generator": "anestezie",
+   "diagram": "táž síť, teď ZVÝRAZNĚNÉ čáry v ambrové a uzly ztlumené, ambrová plocha zase kolem celku; v pravém dolním rohu drobně krabice z S02 s otazníkem a popiskem back to AI",
+   "pause": 2.6
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Odbiologizování. Uzly musí ztratit všechny neuronové znaky (žádné výběžky, žádné synapse) — tvar zůstane, obsah se vyprázdní. To je celý argument scény v jednom kroku.",
+   "diagram_generator": "substrat",
+   "diagram": "táž sestava uzlů a ambrové plochy jako S19 vlevo, ale uzly jsou teď NEUTRÁLNÍ tvary bez jakéhokoli biologického znaku; pod tím popisek a particular organisation of a physical system"
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Otázka míří na SOUČÁSTKU, ne na uspořádání. Vynášecí čára proto musí vycházet z jednoho uzlu, ne z celé sítě.",
+   "diagram_generator": "substrat",
+   "diagram": "táž sestava; od jednoho uzlu vede tenká vynášecí čára k popisku made of ...? a pod ním dvě možnosti NEURONS a otazník"
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Nosná scéna kapitoly. Propojení musí být do posledního uzlu totožné — kdyby se lišilo, obraz sám vyvrátí větu, kterou ilustruje. Třetí varianta (prázdné tvary) je důležitá: scéna říká „or some completely different physical substrate\", ne „nebo počítač\".",
+   "diagram_generator": "substrat",
+   "diagram": "třikrát TÁŽ sestava vedle sebe, malá: vlevo uzly jako neurony, uprostřed jako elektronické součástky, vpravo jako prázdné tvary; propojení je ve všech třech NAPROSTO IDENTICKÉ; pod nimi popisek same organisation, different substrate"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "PAST: škrtá se ŠIPKA, ne cíl. Kdyby byl přeškrtnutý rámeček CONSCIOUS, obraz by tvrdil „počítač vědomý být nemůže\" — což je opak toho, co video o dvě scény dřív připustilo. Škrt na šipce říká „samotná velikost nestačí\", a to je přesně věta scénáře.",
+   "diagram_generator": "substrat",
+   "diagram": "vlevo velmi velký rámeček s hustou mřížkou popsaný A VERY LARGE COMPUTER, z něj vede šipka doprava k ambrové ploše CONSCIOUS; šipka je PŘEŠKRTNUTÁ a u škrtu popisek size alone"
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Nejopatrnější místo scénáře (factcheck kap. 17). Symetrie je celý obsah — obě možnosti stejně velké, stejně světlé, obě nerozhodnuté. Jakýkoli háček nebo křížek u kterékoli z nich scénu rozbije.",
+   "diagram_generator": "substrat",
+   "diagram": "dvě stejně velká tvrzení pod sebou, obě v čárkovaném rámečku a obě zakončená otazníkem: SIZE MAKES IT CONSCIOUS? a IMPOSSIBLE OUTSIDE BIOLOGY?; ani jedno nemá háček ani křížek",
+   "pause": 2.2
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Návrat hlavního motivu, poprvé s obsahem. Vnějšek je ostrý a jistý, vnitřek pořád otazník — to je celá scéna. POZOR na kreslení bubliny: ocásek musí být OTEVŘENÁ lomená čára, ne uzavřený trojúhelník (CLAUDE.md), jinak z něj po smazání dna zbydou dva pahýly.",
+   "diagram_generator": "test",
+   "diagram": "krabice z S02, uvnitř otazník; zvenku k ní zleva bublina s otázkou ARE YOU IN PAIN? a zprava bublina s odpovědí YES. I FEEL PAIN.; obě bubliny ostré a dobře čitelné, vnitřek nezměněný"
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Nedourčenost nakreslená. Obě šipky musí mířit do JEDNOHO výstupu, ne do dvou stejných — sdílený cíl je ta pointa. Krabice stejně velké a stejně světlé.",
+   "diagram_generator": "test",
+   "diagram": "nahoře jeden výstup YES. I FEEL PAIN.; pod ním dvě stejně velké krabice vedle sebe, obě s plnou šipkou k TOMUTÉŽ výstupu: levá má uvnitř ambrovou plochu s popiskem something is felt, pravá mřížku s popiskem a fitting sentence is produced"
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Dva ukazatele vedle sebe nesou celou scénu: přesvědčivost roste, doklad ne. Druhý ukazatel musí být ÚPLNĚ prázdný, ne skoro prázdný.",
+   "diagram_generator": "test",
+   "diagram": "táž dvojice otázka-odpověď jako S30, pod ní druhá výměna ARE YOU AFRAID OF DEATH? / YES. I DON'T WANT TO STOP EXISTING.; vpravo dva svislé ukazatele: HOW CONVINCING vysoko zaplněný, WHAT WE KNOW ABOUT THE INSIDE prázdný"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "PAST, KTERÉ SE TU VYHÝBÁM ZÁMĚRNĚ: první nápad byl graf dvou křivek v čase. Data pro něj nejsou a divák čte prázdné osy jako rozbitý graf (zpětná vazba u třetího videa, CLAUDE.md). Týž obsah proto nese poměr — hustý vnějšek proti jedinému otazníku uvnitř.",
+   "diagram_generator": "test",
+   "diagram": "táž krabice, ale vnějšek je teď hustý — pět az šest replik nad sebou, drobných a čitelných; vnitřek naopak PRÁZDNÝ s jediným otazníkem nakresleným VĚTŠÍM než v S30; popisek the better it gets, the wider this gets"
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Vyvrcholení kapitoly a přímý rým na S31. Vnějšky musí být identické do posledního pixelu — jakýkoli rozdíl (jiný odstín, jiná tloušťka) tiše popře větu „perfectly imitate\".",
+   "diagram_generator": "test",
+   "diagram": "dvě krabice vedle sebe s NAPROSTO shodným vnějškem a shodným výstupním textem; levá má uvnitř ambrovou plochu, pravá je uvnitř prázdná; přes obě vede shora popisek from out here, identical",
+   "pause": 2.4
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Obrácení S34. Divák poprvé vidí vnitřek jako VYŘEŠENÝ a přesto tomu výstup odporuje — je to jediná scéna kapitoly, kde si obraz dovolí vědět víc než my.",
+   "diagram_generator": "lez",
+   "diagram": "krabice, uvnitř zřetelná ambrová plocha; výstupní bublina říká NO. I'M NOT CONSCIOUS.; mezi vnitřkem a výstupem drobný symbol nesouladu"
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Epistemologie v jedné tabulce. Všechny čtyři buňky jsou dosažitelné a žádná nesmí být zvýrazněná — jakmile by jedna svítila, obraz řekne, který případ nastal.",
+   "diagram_generator": "lez",
+   "diagram": "tabulka dva krát dva: řádky IS CONSCIOUS / IS NOT CONSCIOUS, sloupce SAYS YES / SAYS NO; všechny čtyři buňky vyplněné a stejně světlé, ŽÁDNÁ zvýrazněná"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "PAST: je to nejlákavější obraz videa a zároveň jediný, který může vypadat jako tvrzení. Čárkovaný obrys (legenda z S13) i popisek DOES NOT EXIST jsou proto oba povinné — jeden bez druhého nestačí. Kandidát na thumbnail, ale i tam s tou čárkovaností.",
+   "diagram_generator": "lez",
+   "diagram": "přístroj s displejem, celý v ČÁRKOVANÉM obrysu; na displeji ambrový nápis CONSCIOUSNESS: YES; pod přístrojem popisek does not exist"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Butlin et al. 2023 (factcheck kap. 10). Čar musí být VÍC než jedna — indikátory se odvozují z několika soupeřících teorií právě proto, že shoda není. Kdyby vedla jedna čára z jedné teorie, obraz by tvrdil, že jedna teorie vyhrála.",
+   "diagram_generator": "lez",
+   "diagram": "vlevo tytéž rámečky teorií jako v S13, z každého vede čárkovaná čára doprava; všechny se sbíhají do jednoho svislého seznamu s odškrtávacími políčky nadepsaného INDICATORS; vpravo od seznamu krabice systému; dole drobně still an active area of research",
+   "pause": 2.2
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Námitka dostane plný prostor a není zesměšněná. Ocásek bubliny opět jako otevřená lomená čára, ne uzavřený trojúhelník.",
+   "diagram_generator": "fyzika",
+   "diagram": "vlevo bublina s námitkou THAT'S NONSENSE. AI IS JUST MATHEMATICS.; vpravo pod ní ambrová protiotázka AND WHAT ARE HUMANS?"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Skutečná anatomie, ne ozdoba. Váčky patří PŘED štěrbinu, receptory ZA ni — kdyby to bylo prohozené, scéna, která má být učebnicově nesporná, by byla první chybou videa.",
+   "diagram_generator": "fyzika",
+   "diagram": "průřez synapsí: presynaptický knoflík s váčky, synaptická štěrbina, postsynaptická membrána s receptory; popisky ELECTRICAL SIGNAL na axonu a NEUROTRANSMITTERS u váčků"
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Rámeček kolem všeho je pointa: nic z toho nepřestává být fyzika. Musí obepínat celý obraz, ne stát vedle.",
+   "diagram_generator": "fyzika",
+   "diagram": "táž synapse, doplněná o průběh membránového napětí jako křivku vedle a o šipky pohybu iontů; kolem CELÉHO obrazu rámeček s jediným slovem PHYSICS"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "PAST: scéna říká „that's a perfectly legitimate position\". Jakékoli zesměšnění — pokřivený rámeček, ironická barva, menší sloupec — by obraz postavil proti hlasu. Oba sloupce stejně velké a stejně vážné.",
+   "diagram_generator": "fyzika",
+   "diagram": "dva sloupce stejné velikosti: HUMANS s háčkem u CONSCIOUS, COMPUTERS s křížkem; kresleno prostě, bez ironie a bez akcentu"
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Prázdný rámeček je celý obsah scény. Nesmí v něm být ani náznak odpovědi.",
+   "diagram_generator": "fyzika",
+   "diagram": "tytéž dva sloupce jako S42; mezi ně vložený PRÁZDNÝ rámeček s velkým ambrovým otazníkem a nadpisem THE DIFFERENCE",
+   "pause": 2.2
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Zase se škrtá šipka, ne cíl — scéna říká, že vědomí se do systému nevkládá, ne že v něm být nemůže.",
+   "diagram_generator": "emergence",
+   "diagram": "krabice systému a k ní zvenku míří šipka s nákladem popsaným CONSCIOUSNESS; šipka je PŘEŠKRTNUTÁ"
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Plocha ČÁRKOVANĚ, protože scéna říká „maybe\" (legenda z S13). Kdyby byla plná, obraz by tvrdil, že práh složitosti je doložený — a to není.",
+   "diagram_generator": "emergence",
+   "diagram": "tři sítě v řadě, zleva doprava s rostoucím počtem propojení; kolem té třetí se objevuje ČÁRKOVANÁ ambrová plocha; nad ní drobně maybe"
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Úhel a poměr velikostí musí sedět. Je to jediná scéna videa, kde je fyzika kreslená doslova, takže chyba by tu byla nejvíc vidět.",
+   "diagram_generator": "emergence",
+   "diagram": "jediná molekula vody, správně lomená pod úhlem zhruba sto pět stupňů, kyslík větší a dva vodíky menší; popisek NOT WET plnou čarou"
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Doložená polovina analogie, proto plná čára. Popisek WETNESS se nesmí dotýkat jednotlivé molekuly — tentýž zákaz jako u SYMPHONY v S17.",
+   "diagram_generator": "emergence",
+   "diagram": "mnoho molekul vody u sebe, mezi nimi naznačené vazby, na okraji zaoblený povrch kapky; ambrový popisek WETNESS připojený k CELÉMU souboru, ne k žádné molekule; všechno PLNOU čarou"
+  },
+  {
+   "id": "S47b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47b.png",
+   "note": "PAST Z FACT CHECKU (kap. 13 a 21): voda je doložená, vědomí je domněnka. Kdyby obě řady byly plnou čarou, obraz by tvrdil, že emergence vědomí je prokázaná stejně jako mokrost. Rozdělení S47/S47b vzniklo právě proto, aby čárkovaná půlka přišla až jako vlastní beat.",
+   "diagram_generator": "emergence",
+   "diagram": "TOTÉŽ jako S47 nahoře beze změny; dole přibude druhá řada ČÁRKOVANĚ: mnoho neuronů a k celku připojený čárkovaný popisek CONSCIOUSNESS; obě řady vedle sebe ve stejném rozvržení"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Nejjemnější škrt videa. Scéna říká „it isn't obvious that biological matter is NECESSARY\" — škrtá se tedy nutnost, ne biologie. Přeškrtnout celý rámeček by znamenalo „biologie s tím nemá co dělat\", což video netvrdí nikde.",
+   "diagram_generator": "emergence",
+   "diagram": "čárkovaná řada z S47b, pod ní podmínka v rámečku BIOLOGICAL MATTER, a slovo NECESSARY v ní PŘEŠKRTNUTÉ vodorovnou čarou přes text; samotné BIOLOGICAL MATTER zůstává nepřeškrtnuté",
+   "pause": 2.4
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Brzda. Bez ní by divák z emergence odvodil přesně to, co následujících sedm scén vyvrací.",
+   "diagram_generator": "model",
+   "diagram": "čárkovaný řetěz z předchozí kapitoly pokračuje zleva doprava a míří k rámečku TODAY'S LANGUAGE MODELS; spojení je zjevně PŘERUŠENÉ, v místě přerušení výrazná svislá závora"
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Poměr NESE tvrzení: matematika musí zabírat mnohonásobně víc plochy než konverzace. Kdyby byly stejně velké, scéna neřekne nic.",
+   "diagram_generator": "model",
+   "diagram": "nahoře úzký proužek s běžnou konverzací, pod ním NÁSOBNĚ větší blok hustých matic a vrstev zabírající většinu obrazu; popisek what it looks like nahoře, what it is dole"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Konkrétní a kontrolovatelné. Hranice tokenů musí být pravděpodobné — divák, který o tom něco ví, by si všiml, kdyby se slova dělila náhodně.",
+   "diagram_generator": "model",
+   "diagram": "jedna věta rozpadající se na podslovní tokeny, se skutečnými hranicemi například con|scious|ness a exper|ience; každý token ve vlastním rámečku"
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Čáry MUSÍ vést napříč mezi pozicemi, ne jen zdola nahoru — vztahy mezi tokeny jsou to jediné, co scéna tvrdí, a svislé čáry by z toho udělaly obyčejnou pipeline.",
+   "diagram_generator": "model",
+   "diagram": "vodorovná řada tokenů dole, nad ní několik vrstev nad sebou; mezi pozicemi tokenů vedou čáry pozornosti napříč, ne jen svisle; popisek relationships between tokens"
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Mechanismus, ne data — proto žádná číselná osa (past z třetího videa: obrázek nesmí tvrdit víc než scénář). Duchové nesou to trojí „And again.\" jedním obrazem místo tří střihů.",
+   "diagram_generator": "model",
+   "diagram": "vpravo svislý sloupec kandidátů na další token s různě dlouhými pruhy pravděpodobnosti a čitelnými slovy, BEZ číselné osy; kolem celého obrazu smyčka zpět na začátek, za ní dva ztlumené duchy téhož obrazu"
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Všechny čtyři stejně velké. Kdyby jeden vyčníval, obraz by tvrdil, že zrovna ten je ten sofistikovaný.",
+   "diagram_generator": "model",
+   "diagram": "ze smyčky se rozbíhají čtyři stejně velké výstupy: stránka textu, blok kódu, dvojjazyčná dvojice, a stavba argumentu; všechny stejně světlé"
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Nejlepší věta bloku podle uživatele. Postavička musí být čárkovaná i přeškrtnutá — a smyčka na jejím místě musí být zjevně funkční, jinak scéna říká „uvnitř není nic\", kdežto ona říká „uvnitř je tohle\".",
+   "diagram_generator": "model",
+   "diagram": "otevřený stroj; uvnitř tam, kde by divák čekal postavičku, běží smyčka tokenů z S53; postavička je nakreslená ČÁRKOVANĚ jako duch a PŘEŠKRTNUTÁ, u ní bublina OKAY, NOW I NEED TO ANSWER THIS GUY",
+   "pause": 2.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Zavádí obraz, na který video zavolá zpátky v S73. Rozvržení musí být takové, aby šlo zopakovat — callback se pozná jen při shodné kompozici (CLAUDE.md).",
+   "diagram_generator": "sachy",
+   "diagram": "dva kruhy, které byly dosud kreslené jako jeden: ČÁRKOVANÝ obrys společného kruhu vzadu s popiskem what we assumed, a před ním dva plné oddělené kruhy INTELLIGENCE a CONSCIOUSNESS odtahující se od sebe"
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Přímá dvojice k S32, kde byl plný ukazatel přesvědčivosti a prázdný ukazatel dokladu.",
+   "diagram_generator": "sachy",
+   "diagram": "krabice systému s vysoko zaplněným ukazatelem PROBLEM SOLVING vedle; vnitřek krabice prázdný"
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Číslo je ověřené a spíš podceněné (factcheck kap. 15: Stockfish jde na desítky milionů uzlů za sekundu). Šachovnice musí mít osm krát osm polí se správným střídáním — je to detail, který šachista pozná okamžitě.",
+   "diagram_generator": "sachy",
+   "diagram": "šachovnice osm krát osm se střídajícími se poli a několika figurami nahoře; pod ní široce se rozbíhající strom tahů, do hloubky i do šířky; popisek millions of positions every second"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Přímý vizuální rým na S55 — táž čárkovaná přeškrtnutá bublina, jiný stroj. Ten rým nese celý argument kapitoly.",
+   "diagram_generator": "sachy",
+   "diagram": "týž strom tahů; nad ním ČÁRKOVANÁ myšlenková bublina THIS IS GOING TO BE A DIFFICULT GAME. a PŘEŠKRTNUTÁ"
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "PAST (factcheck kap. 20): scéna říká „doesn't NECESSARILY require\". Kdyby se přeškrtla celá šipka, obraz by tvrdil, že inteligence vědomí vylučuje — to video netvrdí. Šipka proto zůstává, jen čárkovaná, a škrtá se nutnost.",
+   "diagram_generator": "sachy",
+   "diagram": "šipka z INTELLIGENCE do CONSCIOUSNESS, nakreslená ČÁRKOVANĚ; nad ní popisek NECESSARILY REQUIRES, ve kterém je slovo NECESSARILY přeškrtnuté"
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Pointa kapitoly, typografická karta. Ambrové MAY je povinné — bez něj je to jiné a silnější tvrzení, než scénář vyslovuje.",
+   "diagram_generator": "sachy",
+   "diagram": "velký typografický nápis přes celý obraz YOU MAY NOT NEED TO BE CONSCIOUS TO SOLVE SOME VERY DIFFICULT PROBLEMS., slovo MAY v ambrové",
+   "pause": 2.4
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "PAST (factcheck kap. 11 a 20): odpověď zní „probably not\", ne „no\". Obraz to musí říct zdůrazněním PROBABLY, protože to je slovo, které následující polovina videa rozebírá.",
+   "diagram_generator": "nevime",
+   "diagram": "uprostřed velký nápis PROBABLY NOT, ve kterém je PROBABLY ambrové a výrazné a NOT ztlumené"
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Rým na S37 — týž čárkovaný obrys pro to, co neexistuje. Dva chybějící nástroje vedle sebe.",
+   "diagram_generator": "nevime",
+   "diagram": "dva prázdné ČÁRKOVANÉ rámečky vedle sebe, popsané A COMPLETE THEORY OF CONSCIOUSNESS a A UNIVERSAL CONSCIOUSNESS DETECTOR; oba prázdné",
+   "pause": 2.2
+  },
+  {
+   "id": "S64",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S64.png",
+   "note": "Rým na S01, o dvacet až padesát let později — táž skříň, jen je jich teď celá hala. Začátek emocionálního vrcholu videa, proto jediná scéna kapitoly s pohybem. [kolo 1 zamítnuto: vyšla světlá oranžová chodba se skříňkami bez hloubky a bez vzdálené záře, takže z rýmu na S01 nezbylo nic. Kolo 2 tlačí na úběžník a na jediné světlo daleko vzadu.] [KOLO 3, JINÝ ZÁBĚR. Skříně v hale netrefil model dvakrát: kolo 1 dalo osvětlenou chodbu bez záře, kolo 2 dřevěné šatní skříně, u S64 navíc postavy, které prompt zakazuje. CLAUDE.md: „Když model funkci scény netrefí dvakrát, obvykle to není chyba promptu, ale znamení, že scéna patří jinam.\" Rozsvícené okno v tmavé budově je otázka videa v jednom obraze („je tam někdo?\") a je to zároveň to, co difuzní model umí — architektura a noc, ne konkrétní zařízení. S01 má JEDNO okno, S64 desítky: rým nese počet, ne kompozice.]",
+   "prompt": "the same kind of large plain dark concrete building at night seen from outside, now with dozens of windows glowing warm amber across the whole facade, cold indigo night sky, nobody visible, vast",
+   "seed": 3312
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Vnitřek se poprvé začíná plnit. Zbylé místo musí být viditelně volné, aby S66 mělo kam dostavět.",
+   "diagram_generator": "budouci",
+   "diagram": "krabice systému, uvnitř tři rozsvícené a popsané komponenty LONG-TERM MEMORY / A MODEL OF THE WORLD / PERCEPTION; zbytek vnitřku ještě prázdný"
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Trvalé vnitřní stavy jsou jediná z šesti položek, která je o čase — proto se kreslí jinak než ostatní. Právě ona dělá z příští scény problém.",
+   "diagram_generator": "budouci",
+   "diagram": "táž krabice, přibudou další tři komponenty PLANNING / LEARNING FROM EXPERIENCE / PERSISTENT INTERNAL STATES; poslední z nich nakreslená tak, že přetrvává v čase, například jako pruh táhnoucí se mimo rámec"
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "VRCHOL VIDEA podle uživatele. Otazník musí zůstat i přes plný vnitřek — systém má všechno, co jsme vyjmenovali, a pořád nevíme. Tahle scéna a S71 tvoří dvojici, která musí být kompozičně TOTOŽNÁ; liší se jen vnitřkem.",
+   "diagram_generator": "budouci",
+   "diagram": "táž plně osazená krabice; zvenku čtyři výstupní bubliny pod sebou I'M AFRAID. / I'M HAPPY. / I DON'T WANT TO DIE. / PLEASE DON'T TURN ME OFF.; uprostřed vnitřku přes všechny komponenty pořád velký ambrový OTAZNÍK"
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "Prázdný rámeček PROOF je táž figura jako S43 (THE DIFFERENCE) — záměrný rým: pokaždé, když video někoho odmítne, zůstane po tom díra.",
+   "diagram_generator": "budouci",
+   "diagram": "nahoře odbytá replika THOSE WORDS DON'T MEAN ANYTHING. IT'S JUST A PROGRAM.; pod ní prázdný rámeček nadepsaný PROOF a velký ambrový otazník v něm",
+   "pause": 2.8
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Prostá scéna, jen nastavuje měřítko pro výčet, který přijde.",
+   "diagram_generator": "naopak",
+   "diagram": "dvě úrovně nad sebou, dolní popsaná HUMAN, horní zřetelně výš popsaná THE SYSTEM"
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Tři, ne pět — dvě položky výčtu padly v cutu 0.2. Stejná velikost, aby žádná nevypadala jako ta hlavní.",
+   "diagram_generator": "naopak",
+   "diagram": "tři stejně velké panely vedle sebe: MATHEMATICS s rovnicí, SCIENTIFIC EXPERIMENTS se schématem pokusu, DISCOVERIES s grafem nálezu; všechny stejně světlé"
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "Druhá půlka zrcadla, kterou uživatel označil za nejsilnější symetrii videa. S67 a S71 musí být položené PŘES SEBE identicky — jakmile se změní i rozestup bublin, symetrie se ztratí a scéna je jen další obrázek.",
+   "diagram_generator": "naopak",
+   "diagram": "kompozičně TOTÉŽ jako S67: plně osazená krabice a čtyři výstupní bubliny; jediný rozdíl je vnitřek — otazník je PRYČ a na jeho místě je prázdno"
+  },
+  {
+   "id": "S71b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71b.png",
+   "note": "Beat na tomtéž obrazu. Popisky patří DOVNITŘ krabice, ne vedle ní — je to inventura vnitřku, ne komentář zvenku.",
+   "diagram_generator": "naopak",
+   "diagram": "TOTÉŽ jako S71; do prázdného vnitřku přibudou čtyři ztmavené popisky NO PAIN / NO PLEASURE / NO FEAR / NO SENSE OF SELF",
+   "pause": 1.6
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Důležitá oprava předchozí scény: „nothing inside\" neznamená prázdno, znamená chybějící prožitek. Bez téhle scény by video tvrdilo, že superinteligentní systém je uvnitř dutý, což je nesmysl.",
+   "diagram_generator": "naopak",
+   "diagram": "táž krabice; vnitřek teď NENÍ prázdný, ale vyplněný obří smyčkou zpracování z S53; ambrová plocha prožitku ale chybí; popisek processing, not experience"
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "Callback. Pozná se jen při shodné kompozici s S56, jinak je to nový obrázek — proto musí sedět rozvržení, ne jen prvky. Jediná dovolená změna je vzdálenost mezi kruhy.",
+   "diagram_generator": "naopak",
+   "diagram": "TOTÉŽ rozvržení jako S56: vzadu čárkovaný společný kruh what we assumed, před ním dva plné oddělené kruhy INTELLIGENCE a CONSCIOUSNESS, teď odtažené DÁL než v S56",
+   "pause": 2.6
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "Odpověď videa. Musí být tak velká a klidná, aby nevypadala jako vyhýbavost.",
+   "diagram_generator": "zaver",
+   "diagram": "nahoře otázka CAN AI HAVE CONSCIOUSNESS?, pod ní velký ambrový nápis WE DON'T KNOW"
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "Jediné dvě věci, které video prohlašuje za doložené — proto plnou čarou podle legendy z S13. Třetí řádek („žádné jedno místo\") padl v cutu 0.2, takže tu nesmí být.",
+   "diagram_generator": "zaver",
+   "diagram": "dva řádky pod nadpisem WHAT WE DO KNOW, oba PLNOU čarou a s háčkem: CLOSELY CONNECTED TO THE PHYSICAL BRAIN a CAN BE ALTERED, DISRUPTED OR SWITCHED OFF"
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "Callback na S11 přes celé video. Musí to být doslova tentýž obraz — právě to, že se za jedenáct minut vůbec nezměnil, je obsah scény.",
+   "diagram_generator": "zaver",
+   "diagram": "TÁŽ kompozice jako S11: vlevo PHYSICAL PROCESSES, vpravo SUBJECTIVE EXPERIENCE, mezi nimi široká mezera a velký otazník; beze změny"
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "note": "Nevyplnitelný obrys. Kdyby přes mezeru vedla byť čárkovaná čára, obraz by naznačil cestu, o které scéna říká, že ji nemáme.",
+   "diagram_generator": "zaver",
+   "diagram": "táž mezera; napravo od ní ČÁRKOVANÝ prázdný obrys s popiskem ANOTHER CONSCIOUS SYSTEM, do kterého nevede žádná čára přes mezeru"
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "note": "Všechny tři možnosti musí být stejně velké a stejně světlé (factcheck kap. 19) — video nechává otevřené všechny, včetně „jen biologie\". Třetí rámeček je připravený a čeká na S79.",
+   "diagram_generator": "zaver",
+   "diagram": "tři stejně velké ČÁRKOVANÉ rámečky vedle sebe; první dva popsané EXCLUSIVELY BIOLOGICAL a A KIND OF INFORMATION PROCESSING, třetí zatím prázdný"
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "note": "Doplnění třetí možnosti a jediné místo, kde se video dotkne přítomnosti. Šipka čárkovaně — „maybe we're already building\" je nejodvážnější věta scénáře a uživatel ji vědomě ponechal.",
+   "diagram_generator": "zaver",
+   "diagram": "tytéž tři rámečky, třetí teď popsaný MANY DIFFERENT PHYSICAL SYSTEMS; pod nimi drobně dnešní systémy a čárkovaná šipka mířící vzhůru k celé trojici"
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "note": "Zavření oblouku. Rým na S15/S15b, kde se poprvé vyměnila špatná otázka za lepší — tady se to děje naposled a s jinou dvojicí.",
+   "diagram_generator": "zaver",
+   "diagram": "TOTÉŽ rozvržení jako S15: nahoře otázka CAN AI THINK? přeškrtnutá vodorovnou čarou přes text, pod ní ambrová CAN AI EXPERIENCE?"
+  },
+  {
+   "id": "S80b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80b.png",
+   "note": "Poslední obraz videa. Podle uživatele je tahle otázka důvod, proč video vzniklo — musí být největší prvek celého záběru a nesmí ji nic doprovázet.",
+   "diagram_generator": "zaver",
+   "diagram": "TOTÉŽ jako S80; pod oběma otázkami přibude třetí, největší a ambrová: HOW WOULD WE KNOW?"
+  }
+ ]
+}

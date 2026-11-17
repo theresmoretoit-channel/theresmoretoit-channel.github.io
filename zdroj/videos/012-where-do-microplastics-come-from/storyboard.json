@@ -1,0 +1,726 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook je situace, ne definice. Drobné úlomky ve světle — atmosféra, kterou model umí. Žádný konkrétní předmět, ten přijde v S02 kresbou.",
+      "prompt": "shafts of pale light falling through still water, countless minute fragments suspended and drifting, no recognisable objects, painterly, wide composition, muted"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Obvyklí podezřelí. Kreslené ikony, ne fotky — v malém drží kontrast a nevznikne z toho stock.",
+      "diagram_generator": "uvod",
+      "diagram": "pět ikon v řadě: láhev, sáček, obal, tričko s uvolněnými vlákny, kelímek kosmetiky; pod každou popisek"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Tentýž obraz jako S02, jen ztlumený a s prázdným místem. Divák vidí, že se ptáme na šestý zdroj.",
+      "diagram_generator": "uvod",
+      "diagram": "týchž pět ikon ztlumených, vedle nich šestá prázdná silueta s otazníkem"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Zúžení na auto. Kresba, ne fotka — fotka auta by tahala pozornost ke značce.",
+      "diagram_generator": "uvod",
+      "diagram": "boční silueta auta, zvýrazněné kolo, popisek CLOSER THAN YOU THINK"
+    },
+    {
+      "id": "S05",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S05.png",
+      "note": "REVEAL. Tady musí být skutečná fotka — celé video stojí na tom, že pneumatika je hmatatelná věc. Zoom je tu záměrný, jinde u diagramů ne.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "tyre tread",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "pause": 2.6
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Diagram místo druhé fotky pneumatiky za sebou. Chybějící pruh je motiv, který se vrací v S25 a S72.",
+      "diagram_generator": "oter",
+      "diagram": "řez běhounem: nová hloubka vzorku vedle ojeté, kóty v milimetrech, mezi nimi šrafovaný chybějící pruh"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Otázka celého videa. Navazuje tvarově na S06, aby bylo vidět, že jde o týž materiál.",
+      "diagram_generator": "oter",
+      "diagram": "tentýž chybějící pruh, z něj šipka ven do prázdna a velký otazník"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Mechanismus. Kreslený detail, protože fotka stykové plochy za jízdy neexistuje.",
+      "diagram_generator": "oter",
+      "diagram": "detail stykové plochy pneumatiky a vozovky, smykové šipky, odletující drobné částice"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Tři cesty. Tenhle diagram se v S32 a S33 vrací s čísly — teď je bez nich schválně.",
+      "diagram_generator": "oter",
+      "diagram": "řez silnicí se třemi šipkami: zůstává na vozovce, do vzduchu, s deštěm do vpusti"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Velikost. Vlas jako etalon, protože ho má divák s čím srovnat.",
+      "diagram_generator": "oter",
+      "diagram": "měřítko: lidský vlas, zrnko soli, částice otěru, hranice viditelnosti okem",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Vyvrácení představy „je to guma“. Vyjmutý klín je názornější než popiskovaný řez.",
+      "diagram_generator": "pneu",
+      "diagram": "pneumatika s vyjmutým klínem, uvnitř vidět vrstvy, ne homogenní guma"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "ZÁMĚRNĚ BEZ ČÍSEL — přesné poměry jsou výrobní tajemství a factcheck je nemá. Obrázek nesmí tvrdit víc než scénář.",
+      "diagram_generator": "pneu",
+      "diagram": "složení běhounu jako pruhový graf bez čísel: přírodní kaučuk, syntetické polymery, saze a silika, aditiva"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Podmnožina, ne rovnost. Připravuje S16, kde se ta rovnost zpochybní.",
+      "diagram_generator": "pneu",
+      "diagram": "opotřebení dává částice, popisek TYRE WEAR PARTICLES; z nich podmnožina kroužkovaná jako MICROPLASTICS"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Klíčový obraz kapitoly. Že přírodní kaučuk roste na stromě, je pro diváka překvapení.",
+      "diagram_generator": "pneu",
+      "diagram": "dva sloupce: vlevo strom a nápis NATURAL RUBBER, vpravo rafinerie a SYNTHETIC RUBBER, oba vedou do jednoho běhounu"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "DIAGRAM Č. 1 Z FACTCHECKU. Doložený tvar i velikost (OECD 2020). Právě tenhle obraz vysvětluje, proč to není úlomek z lahve.",
+      "diagram_generator": "pneu",
+      "diagram": "anatomie částice: podlouhlý doutníkovitý tvar, jedna polovina běhoun, druhá minerál z vozovky, měřítko 70 az 100 mikrometru, popisek hustota 1,8"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Přejmenování. Škrtá se přes NÁPIS, takže vodorovnou čarou (skrt_text), ne křížkem — pod křížkem by to nešlo přečíst.",
+      "diagram_generator": "pneu",
+      "diagram": "nápis TYRE WEAR PARTICLES přeškrtnutý vodorovnou čarou, pod ním TYRE AND ROAD WEAR PARTICLES; vedle čárkovaně ohraničená oblast MICROPLASTICS s otazníkem"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Srovnání, které nese větu „not quite a fragment of a plastic bottle“.",
+      "diagram_generator": "pneu",
+      "diagram": "vedle sebe úlomek PET lahve a částice otěru, pod nimi dvě různé sady vlastností",
+      "pause": 2.2
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Předěl. Pozornost se přesouvá z tvaru částice na to, co nese.",
+      "diagram_generator": "chemie",
+      "diagram": "lupa nad částicí, ale šipka od lupy míří pryč, k baňce s chemikálií"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Stovky chemikálií jako sloupec políček — neoznačených, protože jejich seznam netvrdíme. Zvýrazněné je jen 6PPD.",
+      "diagram_generator": "chemie",
+      "diagram": "pneumatika a vedle ní dlouhý sloupec drobných neoznačených políček, jedno zvýrazněné a popsané 6PPD, popisek PROTECTS THE RUBBER FROM OZONE"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Pointa: chinon nevzniká navzdory ochraně, ale právě jí. To musí být v obraze vidět, ne jen v hlase.",
+      "diagram_generator": "chemie",
+      "diagram": "reakce: 6PPD + ozon, šipka, 6PPD-quinone; nad šipkou popisek THIS IS THE PROTECTION WORKING"
+    },
+    {
+      "id": "S21",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S21.png",
+      "note": "Skutečná ryba, ne kresba — konkrétní druh patří do archivu. Zoom povolen, je to fotka.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "coho salmon Oncorhynchus kisutch",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Dvě otázky vedle sebe. Druhá je ta, kterou video přidává.",
+      "diagram_generator": "chemie",
+      "diagram": "dvě otázky pod sebou v rámečcích: co se stane, když částice vstoupí do prostředí; co ta pneumatika cestou uvolňuje",
+      "pause": 2.4
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Jednoduchý obraz na jednu větu. Tečkovaná stopa se vrací v S26.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "auto na silnici, za ním tečkovaná stopa mizející v dálce"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Příprava na skok měřítka. Tečka musí být opravdu malá, jinak pointa v S25 nefunguje.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "jedno auto a u něj sotva viditelná tečka; vedle násobicí znaménko a symbol životnosti pneumatiky"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "DIAGRAM, KTERÝ SI UŽIVATEL VYŽÁDAL JAKO VIZUALIZACI. Rozpětí desetina az pětina je doložené (Kole et al. 2017), proto ne jedno číslo.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "pneumatika a vedle ní oddělená hromádka materiálu tvořící desetinu az pětinu její hmoty, kóta ABOUT ONE KILOGRAM"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Sada, ne jedna pneumatika. Silnice navazuje na tečkovanou stopu z S23.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "čtyři takové hromádky vedle sady čtyř pneumatik, pod tím dlouhá silnice mizející v dálce"
+    },
+    {
+      "id": "S27",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S27.png",
+      "note": "Přes miliardu vozidel se nekreslí, to se ukáže. Odjezd kamery ven je tu na místě. ZÁMĚRNĚ BEZ fit: u fotky plné aut je ořez v pořádku (na rozdíl od portrétu) a rám se má vyplnit, ne dopadovat. Předchozí dva pokusy neprošly: letecký snímek křižovatky ukazoval silnici místo aut, kolona v závěji četla jako počasí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "rush hour traffic",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "POZOR: žádná číselná osa. Factcheck kapitola 2 — podíly se mezi studiemi liší a graf by tvrdil přesnost, kterou nemáme.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "zdroje mikroplastů jako sloupce BEZ číselné osy, otěr pneumatik nejvyšší, pod grafem poznámka ESTIMATES VARY"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Rozptyl jako intervaly, ne body. Přesně tohle scénář říká slovy.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "tři studie, tři různě dlouhé intervaly na téže ose, všechny se překrývají vpravo"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Uzavření bloku. Po sporu o čísla zůstane tvrzení, které nikdo nezpochybňuje.",
+      "diagram_generator": "mnozstvi",
+      "diagram": "pneumatika, šipka, obrys krajiny; jediný jednoduchý vztah bez čísel",
+      "pause": 2.2
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Nesouhlas modelů je součástí sdělení, ne vada. OECD a Kole dávají jiná čísla — obraz to přiznává.",
+      "diagram_generator": "osud",
+      "diagram": "otázka WHERE DOES IT END UP a pod ní dva modely vedle sebe s různými čísly, spojené závorkou SAME SHAPE"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Návrat diagramu z S09, teď s váhou jednotlivých cest. Divák tvar poznává.",
+      "diagram_generator": "osud",
+      "diagram": "řez silnicí z S09, teď zvýrazněný asfalt a půda vedle vozovky, k tomu silná dešťová šipka do vpusti"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pointa bloku. Silueta, ne anatomie — žádná lékařská ilustrace, to by šlo proti stylu i proti tvrzení.",
+      "diagram_generator": "osud",
+      "diagram": "tentýž řez, zvýrazněná stoupající vzdušná cesta, ta pokračuje k siluetě člověka a plicím",
+      "pause": 2.4
+    },
+    {
+      "id": "S34",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S34.png",
+      "note": "Brzdový kotouč a třmen jsou konkrétní součástky, tedy archiv. Zoom povolen.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "brake rotor car",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Brzdný prach NENÍ mikroplast, to musí být v obraze jednoznačné. Škrt vodorovnou čarou přes nápis.",
+      "diagram_generator": "nevyfuk",
+      "diagram": "složení brzdného prachu jako oddělené skupiny: kovy, uhlíkové materiály, ostatní; vedle přeškrtnutý nápis JUST MICROPLASTIC"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Trojice ve scénáři je rytmická, obraz ji drží stejným tvarem třikrát.",
+      "diagram_generator": "nevyfuk",
+      "diagram": "tři sloupce s totožnou stavbou: TYRES WEAR, BRAKES WEAR, ROAD SURFACES WEAR"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Poměr velikostí je celé sdělení. Výfuk musí být viditelně nejmenší.",
+      "diagram_generator": "nevyfuk",
+      "diagram": "auto s malinkou výfukovou šipkou a třemi velkými nevýfukovými, k tomu vír zvířeného prachu za koly"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Pojmová karta. Termín, který si má divák odnést.",
+      "diagram_generator": "nevyfuk",
+      "diagram": "karta s pojmem NON-EXHAUST EMISSIONS a pod ním tři zdroje z S36",
+      "pause": 2.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Neutrální dokument, ZÁMĚRNĚ BEZ vlajky a bez znaku EU — video není o politice a znak by to zabarvil.",
+      "diagram_generator": "euro7",
+      "diagram": "obálka nařízení jako dokument s pořadovým číslem, kolem něj ikony vozidel"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Limit jako číslo na stupnici. Formulace ve scénáři je „Europe puts a number“, ne „first anywhere“ — viz factcheck 1e.",
+      "diagram_generator": "euro7",
+      "diagram": "ciferník s vyznačenou mezní hodnotou, popisek BRAKE PARTICLES, jednotka miligramy na kilometr"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Dvě čísla, doložená z tabulky 4 přílohy I. Vrací se v S52, takže tvar musí být zapamatovatelný.",
+      "diagram_generator": "euro7",
+      "diagram": "dva sloupce vedle sebe: tři miligramy pro bateriové vozidlo, sedm pro ostatní"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Kontrast plné a prázdné. Připravuje S43.",
+      "diagram_generator": "euro7",
+      "diagram": "vedle plného rámečku BRAKES prázdný rámeček TYRES s popiskem NOT WRITTEN YET"
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "SKUTEČNÁ STRÁNKA NAŘÍZENÍ, ne naše překreslení. Tvrzení „tabulka je prázdná\" unese jen originál — vlastní grafika by dokládala sama sebe. PDF strana 30 obsahuje POUZE tabulku 9, ale je na ní hodně bílého místa, takže se ořezává na pruh s tabulkou — jinak by nadpis ve videu nebyl čitelný. Provider eurlex adresuje dokument podle CELEX, netahá ho z vyhledávání, takže se za rok nemůže vrátit něco jiného. Barevné sjednocení je vypnuté — dokument má být čitelný, ne vypadat jako stará fotka.",
+      "archive": {
+        "provider": "eurlex",
+        "query": "32024R1257",
+        "pick": 30,
+        "grade": {
+          "zoom": [
+            0.0,
+            0.0,
+            1.0,
+            0.46
+          ],
+          "fit": 0.97,
+          "tint_amount": 0,
+          "saturation": 100,
+          "vignette": false,
+          "levels": "0%,100%",
+          "contrast": "0x0"
+        }
+      },
+      "pause": 2.2
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Nejdůležitější scéna bloku. Tři cesty a žádná předepsaná — přesně to nařízení dělá.",
+      "diagram_generator": "euro7",
+      "diagram": "cíl s vyznačenou hodnotou, k němu vedou tři různé cesty, žádná není zvýrazněná; popisek THE RULES SET A LIMIT, NOT A METHOD"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Vtip se má nakreslit doslova, jinak nefunguje. Vážná verze přijde hned v S46.",
+      "diagram_generator": "euro7",
+      "diagram": "obyčejný vysavač postavený vedle brzdového kotouče, měřítko schválně absurdní"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Schéma podle popisu systému TAMIC. Kreslí se PRINCIP, ne konkrétní výrobek — o značce video nemluví.",
+      "diagram_generator": "euro7",
+      "diagram": "princip odsávání: drážka v brzdové destičce, kanálek třmenem, podtlak, filtr"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Dvě sdělení naráz: funguje to na zkušebně, a povinné to není. Obojí je ve factchecku doložené.",
+      "diagram_generator": "euro7",
+      "diagram": "zkušební stav se záchytem větší části částic, vedle toho přeškrtnutý nápis REQUIRED"
+    },
+    {
+      "id": "S48",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "note": "Oddech po hutném bloku. Atmosféra, ne informace — po devíti diagramech za sebou to divák potřebuje.",
+      "prompt": "a narrow shaft of light in a dim workshop revealing fine dust hanging in the air, painterly, muted, no people, no text",
+      "pause": 2.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Očekávání, které scéna hned vyvrátí. Škrt přes nápis vodorovnou čarou.",
+      "diagram_generator": "elektro",
+      "diagram": "silueta elektromobilu a nad ní přeškrtnutý nápis PROBLEM SOLVED"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Dvě věci, které elektromobil opravdu řeší. Musí být vidět obě, jinak S53 vypadá jako útok.",
+      "diagram_generator": "elektro",
+      "diagram": "vlevo chybějící výfuk vyznačený prázdným místem, vpravo brzdová destička s popiskem BARELY USED"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Mechanismus rekuperace. Menší obláček nese to „well over half“ — bez čísla, protože rozpětí je 64 az 95 %.",
+      "diagram_generator": "elektro",
+      "diagram": "rekuperace: kolo, motor v roli generátoru, šipka energie zpět do baterie; vedle výrazně menší obláček částic"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Vědomý návrat obrazu z S41. Stejný tvar, jiný výklad — tím se čísla propojí s rekuperací.",
+      "diagram_generator": "elektro",
+      "diagram": "tytéž dva sloupce jako v S41, teď s popiskem THE REGULATOR ALREADY ASSUMES IT"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Předěl od brzd k pneumatikám. Táž silueta jako S49 a S50, aby bylo vidět, co zbylo.",
+      "diagram_generator": "elektro",
+      "diagram": "tentýž elektromobil, výfuk i brzdy ztlumené, zvýrazněné jen pneumatiky"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Hmotnost. Scénář říká „some electric vehicles“, takže ani obraz nesmí tvrdit, že to platí vždy — proto bez čísel.",
+      "diagram_generator": "elektro",
+      "diagram": "dvě vozidla na váze, bateriové těžší, pod koly silnější šipky zatížení"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Uzavření bloku. Odznak je pravdivý a částice taky — v tom je celá scéna.",
+      "diagram_generator": "elektro",
+      "diagram": "odznak ZERO TAILPIPE EMISSIONS a přesto stoupající částice od kol",
+      "pause": 2.2
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Výčet z hlasu jako tři rovnocenné rámečky.",
+      "diagram_generator": "reseni",
+      "diagram": "tři technická opatření vedle sebe: delší životnost, lepší materiály, menší otěr"
+    },
+    {
+      "id": "S57",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Dešťová vpusť je konkrétní věc, jde vyfotit. Statické, protože se na to divák dívá jako na schéma.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "road gully drain",
+        "pick": 1,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Kontrast proti S56 a S57. Po třech technologiích jedna jednoduchá věc.",
+      "diagram_generator": "reseni",
+      "diagram": "velká jednoduchá věta DON'T WEAR IT OUT jako protiváha předchozím technickým rámečkům"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Styl jízdy. Tři panely stejného tvaru, aby to nebylo kázání, ale mechanika.",
+      "diagram_generator": "reseni",
+      "diagram": "tři panely: prudká akcelerace, ostrá zatáčka, prudké brzdění, u každého šipky zatížení stykové plochy"
+    },
+    {
+      "id": "S60",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S60.png",
+      "note": "„It grips the road.“ Poslední scéna bloku a jediné místo, kde se vyplatí atmosféra místo schématu.",
+      "prompt": "extreme close view of rubber pressed against wet asphalt, water film and texture, painterly documentary, muted, no text, no vehicle visible",
+      "pause": 2.4
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Předěl do nejistoty. Silueta, žádná anatomie.",
+      "diagram_generator": "zdravi",
+      "diagram": "silueta člověka a nad ní otazník, kolem drobné částice"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Jen NÁLEZ, nikde ani náznak účinku. Přesně to scénář tvrdí.",
+      "diagram_generator": "zdravi",
+      "diagram": "čtyři místa nálezu vedle sebe: voda, jídlo, vzduch, lidská tkáň"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Návrat měřítka z S10, teď o patro níž.",
+      "diagram_generator": "zdravi",
+      "diagram": "měřítko z S10 protažené o řád níž, mikroplast versus nanoplast"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Přítomnost není příčina. Škrtá se ŠIPKA, tedy plocha bez písma — tam smí být křížek.",
+      "diagram_generator": "zdravi",
+      "diagram": "nález a nemoc jako dva rámečky, šipka mezi nimi přeškrtnutá s popiskem NOT PROVEN"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Dvě neznámé, které scénář jmenuje. Osy jsou ZÁMĚRNĚ prázdné, protože data nejsou — a scéna to říká.",
+      "diagram_generator": "zdravi",
+      "diagram": "dvě otevřené osy bez hodnot: dávka a čas, obě končí otazníkem"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Callback na S16 a na blok o 6PPD. Jedno slovo, tři různé věci — proto může být zavádějící.",
+      "diagram_generator": "zdravi",
+      "diagram": "slovo MICROPLASTICS a pod ním rozpad na tři různé věci: úlomek plastu, částice otěru, chemická látka",
+      "pause": 2.4
+    },
+    {
+      "id": "S67",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S67.png",
+      "note": "Sto let motorismu se dokládá dobovou fotkou, ne kresbou. Zoom povolen.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "vintage automobile 1920s road",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86
+        }
+      }
+    },
+    {
+      "id": "S68",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S68.png",
+      "note": "Návrat k obrazu z S05, teď jako důkaz. Zoom povolen.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "bald tyre",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Doslovný návrat otázky z S07. Divák má poznat, že jsme se vrátili na začátek.",
+      "diagram_generator": "zaver",
+      "diagram": "tatáž otázka jako v S07, tentokrát vysázená velkým písmem přes celou plochu"
+    },
+    {
+      "id": "S70",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S70.png",
+      "note": "Rozptýlení do krajiny. Atmosféra, protože žádné schéma tuhle větu neunese.",
+      "prompt": "fine pale dust settling over a wide quiet landscape at dusk, soft haze, painterly documentary, muted, no text, no vehicles"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Třetí a poslední užití měřítka. Prázdné pole na konci je pointa.",
+      "diagram_generator": "zaver",
+      "diagram": "měřítko z S10 a S63 dotažené za hranici viditelnosti, poslední pole prázdné",
+      "pause": 2.2
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Spojení dvou motivů: chybějící pruh z S06 a rozptýlení z S70. Uzavírá obraz videa.",
+      "diagram_generator": "zaver",
+      "diagram": "nová a ojetá pneumatika vedle sebe, chybějící pruh z S06 překreslený jako obláček rozptýlený do okolí"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Otevřená otázka, ne odpověď. Ani jedna cesta nesmí být graficky upřednostněná.",
+      "diagram_generator": "zaver",
+      "diagram": "rozcestí se dvěma popsanými směry: CATCH THE PARTICLES a CHANGE THE TYRE, ani jeden zvýrazněný"
+    }
+  ]
+}

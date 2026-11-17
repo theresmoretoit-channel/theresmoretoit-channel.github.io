@@ -1,0 +1,748 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "micius",
+      "diagram": "PÁTEŘ 1 — STANICE: družice MICIUS · 2016 nahoře uprostřed, dva paprsky dolů ke dvěma observatořím na oblouku Země: DELINGHA vlevo, LIJIANG vpravo. Na paprscích dvojice fotonů (dvě tečky téže barvy).",
+      "note": "PÁTEŘ 1 = rozvržení zdroj nahoře/uprostřed, levá a pravá stanice na pevných x (ALICE_X, BOB_X v _kit.py). Táž místa pak zaujmou Alice a Bob (S11–S13), Mermin (S20–S27), pokus o zprávu (S31–S44), hra a PR box (S59–S68) a návrat v S73. První obrazovka nese myšlenku: jeden pár, rozdělený daleko od sebe. Žádné SDXL na začátku."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "micius",
+      "diagram": "Totéž, fotony dorazily ke stanicím; mezi stanicemi kótovací šipka 1,200 KM.",
+      "note": "1 203 km (Yin 2017) zaokrouhleno jako ve scénáři. Kóta vodorovně mezi stanicemi, ne po oblouku."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "micius",
+      "diagram": "Vně každé kopule sloupec šesti výsledků (0/1), sloupce se v jednom řádku liší. Dole PÁTEŘ 2 — STUPNICE poprvé: šedé pásmo ANYTHING ORDINARY končí svislou čárou, za ní ambrová značka MICIUS.",
+      "note": "PÁTEŘ 2 = STUPNICE skóre (stupnice() v _kit.py, pevné souřadnice). Zatím BEZ čísel — hra se vysvětlí až v S59; poloha značek je ale už teď spočítaná v procentech výher: hranice 75 %, Micius (S+4)/8 = 79,6 % (S = 2,37), assert. Sloupce výsledků NESMÍ být shodné řádek po řádku — Micius neměl dokonalou shodu, scénář říká jen ‚linked more tightly than anything ordinary allows'. Spojnice mezi řádky vypuštěny (generátor): křížily by paprsky a tvrdily by míru shody, kterou scénář neříká."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "zeneva",
+      "diagram": "Schematická mapka okolí Ženevy: zdroj v Ženevě, vlákna do vesnic SATIGNY a JUSSY, kóta 18 KM, rok 2008. Mezi vesnicemi čárkovaná šipka s otazníkem.",
+      "note": "Čárkovaná = hypotéza (konvence videa): ‚něco mezi nimi putuje?' Rozvržení vesnic na x stanic z páteře 1, ať je vidět, že jde o tutéž otázku jako u Miciusu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "zeneva",
+      "diagram": "Táž mapka; nad čárkovanou šipkou AT LEAST 10,000 × LIGHT, nad tím podmínka v rámečku: IF a preferred frame exists, and Earth moves slowly in it.",
+      "note": "Podmínka musí být v obraze stejně silně jako číslo (Salart 2008: soustava, vůči níž se Země pohybuje < 10⁻³ c). ‚AT LEAST' = dolní mez, ne změřená rychlost."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "zeneva",
+      "diagram": "Táž mapka, šipka zůstává čárkovaná; pod číslem štítek A LIMIT ON SOMETHING HYPOTHETICAL — NOT A MEASURED SPEED.",
+      "note": "Míra jistoty: hlas i obraz říkají, že nic naměřeno nebylo.",
+      "pause": 1.0
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "mars",
+      "diagram": "Páteř 1 přenesená: vlevo Země s postavou (YOU), vpravo Mars s postavou (FRIEND), zdroj páru uprostřed, každému jeden foton.",
+      "note": "Táž x jako stanice Miciusu a později Alice/Bob.",
+      "pause": 0.6
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "mars",
+      "diagram": "Dvě cesty Země → Mars: nahoře plná vlnovka RADIO · UP TO 22 MIN, dole čárkovaná linka ENTANGLED · INSTANT? s otazníkem.",
+      "note": "Rádio je doložené (plná), provázání jako telefon je hypotéza (čárkovaná). 22 min = konjunkce, ‚up to'."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "mars",
+      "diagram": "Totéž, spodní čárkovaná linka přeškrtnutá; k ní NOT EVER (AS FAR AS PHYSICS KNOWS).",
+      "note": "Škrtá se linka, ne celý obraz — neplatí ten nápad, ne rádio. ‚As far as physics knows' v obraze, ať obraz netvrdí víc než hlas.",
+      "pause": 0.6
+    },
+    {
+      "id": "S10",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S10.png",
+      "note": "Předěl za háčkem (~1:10): jediná atmosférická scéna úvodu, ‚the reason is stranger than the link'. Pozemní stanice Miciusu skutečně svítí laserem k družici. Ne jako první scéna (pravidlo SDXL).",
+      "prompt": "remote mountain observatory dome at night, open slit, a thin green laser beam rising straight up into a star-filled sky, distant second observatory on a far ridge, cold thin air, no people",
+      "pause": 2.4
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "par",
+      "diagram": "Páteř 1 v laboratorní podobě: zdroj uprostřed, vlevo ALICE (postava a detektor), vpravo BOB. Dvě částice letí od zdroje k nim.",
+      "note": "Alice a Bob na x stanic z S01 (ALICE_X, BOB_X)."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "par",
+      "diagram": "Každý detektor má displej s výsledkem 0 nebo 1; nad oběma TWO ANSWERS: 0 OR 1. Pod Bobovým detektorem drobně, tlumeně: BOB'S LABELS ARE SWAPPED.",
+      "note": "Přiznání konvence (notes, v0.2 → v0.3): u singletu jsou výsledky při stejném nastavení OPAČNÉ, scénář je kvůli Merminovi zve ‚match'. Řekne to drobný popisek, ne hlas."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "par",
+      "diagram": "Pod Alicí a Bobem sloupce výsledků 0 1 1 0 1 0 0 1, oba náhodné a navzájem shodné; mezi nimi SAME SETTING → SAME ANSWER a ideální případ EVERY TIME.",
+      "note": "Tady (na rozdíl od S03) shoda řádek po řádku: scénář říká ‚in the ideal case, every time'. Posloupnost pevná (seed), assert shody."
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "PICK Z --search (2026-11-15): [0] ‚Albert Einstein Head cleaned‘, Orren Jack Turner, public domain — Turnerův portrét z roku 1947, tedy rok dopisu Bornovi. Dotaz s rokem nevracel nic. Portrét bez zoomu, fit 0.84. Ideálně snímek z let kolem dopisu Bornovi (1947). Za scénou VÝZVA K ODBĚRU: levý dolní roh je tu rozostřené okolí fotky, bez kresby — pokud tam vyjde světlé místo, přesunout výzvu jinam nebo zmenšit fit.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Albert Einstein",
+        "grade": {
+          "fit": 0.84,
+          "popisek": "ALBERT EINSTEIN"
+        },
+        "pick": 0
+      },
+      "pause": 1.6,
+      "vyzva": true
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "par",
+      "diagram": "Sloupce výsledků z S13 ztlumené, nad nimi velký ambrový otazník.",
+      "note": "Námitka diváka. LEVÝ DOLNÍ ROH PRÁZDNÝ (výzva z S14 přechází přes začátek této scény, x < 22 %, y > 75 %)."
+    },
+    {
+      "id": "S16",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "PICK Z --search (2026-11-15): [0] ‚John bell 2‘, CERN, CC BY 4.0 (atribuce povinná). Portrét bez zoomu, fit 0.84. Bertlmann zazní jen hlasem, jeho ponožky nese S17.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "John Bell physicist",
+        "grade": {
+          "fit": 0.84,
+          "popisek": "JOHN BELL"
+        },
+        "pick": 0
+      }
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "ponozky",
+      "diagram": "Na místech Alice a Boba dvě ponožky: levá růžová, pravá schovaná pod kartou; šipka ‚see one' → karta se odhalí NOT PINK. Dole NOTHING SPOOKY.",
+      "note": "Růžová je tu jediná ‚cizí' barva palety a nese význam (ta ponožka je růžová). Ponožky kreslené kódem — jednoduchý tvar."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "ponozky",
+      "diagram": "Částice místo ponožek, každá s visačkou s předem napsanou odpovědí; visačky čárkovaně, nad tím ANSWERS CARRIED FROM THE START?",
+      "note": "Hypotéza lokálních skrytých hodnot = čárkovaně. Visačka je tentýž tvar jako instrukční karta v S23 (karta_instrukci() v _kit.py).",
+      "pause": 0.8
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "ponozky",
+      "diagram": "Titulní karta článku: BERTLMANN'S SOCKS AND THE NATURE OF REALITY · J. S. BELL · 1981, vedle malé ponožky.",
+      "note": "Skutečný název článku (Journal de Physique 1981), ne přepis.",
+      "pause": 1.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "mermin",
+      "diagram": "Vlevo a vpravo (x páteře 1) dvě Merminovy krabičky, mezi nimi zdroj; nad nimi DAVID MERMIN'S BOXES. Do Alicina boxu dorazila částice, rozsvítila se červená.",
+      "note": "KLÍČOVÝ OBRAZ VIDEA (uživatel): musí být pochopitelný bez čtení tabulky. Krabička = merminova_krabicka() v _kit.py, kreslená všude stejně: přepínač jako ciferník se třemi ryskami po 120° (tři osy měření), polohy 1 2 3, nahoře dvě kontrolky R a G. Bobova krabička má u kontrolek drobné ‚wired in reverse' — konvence shody přiznaná obrazem.",
+      "pause": 0.6
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "mermin",
+      "diagram": "Ciferníky obou krabiček nastavené náhodně na různé polohy (Alice 1, Bob 3), mezi krabičkami svislá stěna NO CONTACT, u každého ciferníku kostka.",
+      "note": "Nezávislá náhodná volba je předpoklad Bellova testu — tady je zavedena obrazem.",
+      "pause": 0.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "mermin",
+      "diagram": "Obě na téže poloze (2 a 2), obě kontrolky svítí stejně; SAME POSITION → ALWAYS THE SAME COLOUR, fajfka.",
+      "note": "‚Always' = při stejné poloze bez výjimky (ideální případ)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "mermin",
+      "diagram": "Ke každé částici páru připnutá instrukční karta: 1 → R, 2 → R, 3 → G, u obou stejná; karty čárkovaně, nadpis SUPPOSE: INSTRUCTIONS.",
+      "note": "Barvy na kartě jsou kolečka R/G, ne písmena — čte se okem. Čárkovaně = předpoklad, který se v S29 zboří."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "mermin",
+      "diagram": "Karta R R G vlevo, vpravo mřížka 3 × 3 všech nastavení (řádky = Alicina poloha, sloupce = Bobova); v každém políčku dvě kolečka barev, které by blikly; 5 políček se shodou orámováno ambrově. Velké 5 OF 9 MATCH.",
+      "note": "Mřížka se čte barvami (dvě stejná kolečka = shoda), ne čísly. Počet shod SPOČÍTANÝ z karty v kódu, assert == 5. Diagonála (stejná poloha) jsou 3 z těch 5.",
+      "pause": 0.6
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "mermin",
+      "diagram": "Osm karet (RRR … GGG), u každé malá mřížka 3 × 3 s orámovanými shodami a počtem (9, 5, 5, 5, 5, 5, 5, 9). Dole: INSTRUCTIONS → AT LEAST 5 OF 9.",
+      "note": "Všech osm seznamů spočítaných v kódu, assert min == 5. Malé mřížky jako vzor, ne k čtení po políčkách."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "mermin",
+      "diagram": "Vodorovná stupnice shody 0–100 %: šedé pásmo od 5/9 (56 %) doprava INSTRUCTIONS: AT LEAST HERE; ambrová značka QUANTUM: 1/2 vlevo od pásma, mimo něj.",
+      "note": "Stupnice shody (Mermin) je JINÝ prvek než páteř 2 (skóre hry) a leží jinde — nesmí se s ní plést. 1/2 = 1/3·1 + 2/3·1/4 (osy po 120°), assert.",
+      "pause": 2.0
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "mermin",
+      "diagram": "Táž stupnice; ke kvantové značce přibude EXPERIMENTS SINCE 1972 → THIS SIDE, ‚5/9 vs 1/2' velkým písmem.",
+      "note": "Experimenty testovaly podobné mezery (CHSH), ne přesně Merminovy krabičky — proto značka EXPERIMENTS jen ‚na této straně', ne bod na 50 %."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "nobel",
+      "diagram": "Časová osa: 1972 FIRST TEST · 2015 DELFT: TWO BIGGEST LOOPHOLES CLOSED · 2022 NOBEL PRIZE: CLAUSER · ASPECT · ZEILINGER.",
+      "note": "Nobel ‚for their own work', NE za Delft — na ose oddělené body, žádná šipka Delft → Nobel."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "mermin",
+      "diagram": "Instrukční karta R R G z S23, štítek LOCAL INSTRUCTIONS přeškrtnutý (text_skrtnuty). Pod tím drobně, tlumeně: assuming the settings are chosen freely.",
+      "note": "Škrtá se ‚lokální instrukce', ne celý pojem skrytých hodnot (‚at least not in any way that stays local'). Předpoklad svobodné volby v popisku (notes v0.2 → v0.3), ne hlasem.",
+      "pause": 0.5
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "par",
+      "diagram": "Páteř 1: Alice a Bob, mezi nimi NOT LOCAL ≠ A SIGNAL (rovna_se ne=True); u Alice obálka se zprávou, ztlumená.",
+      "note": "‚Doesn't mean' = neplyne z toho, ne ‚nikdy nesignalizuje' — proto nerovnítko, ne přeškrtnutá šipka. Obálka uvádí další blok.",
+      "pause": 2.4
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "zprava",
+      "diagram": "Alice s obálkou 1 BIT pro Boba; její detektor ukazuje otazník.",
+      "note": "Obálka = zpráva, celým videem tentýž tvar (obalka() v _kit.py)."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "zprava",
+      "diagram": "Alice chce poslat 1, detektor ukázal 0 (kostka: RANDOM); Bob má odpovídající 0. Popisek SHE CAN'T CHOOSE.",
+      "note": "Obraz musí ukázat, že výsledek nenese Alicin úmysl: chtěná 1 vedle náhodné 0.",
+      "pause": 0.5
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "zprava",
+      "diagram": "Bobův pohled: Alicina strana ztlumená za otazníkem MEASURED? Bob ji nevidí.",
+      "note": "Krátká scéna, navazuje na S32 (pauza 0,5 před ní)."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "bob1000",
+      "diagram": "Bobova mřížka 1 000 výsledků (40 × 25), zhruba půl svítí; ≈ 500 ZEROS · ≈ 500 ONES. U Alice nápis NOT MEASURED YET.",
+      "note": "Data generovaná se seedem, počty spočítané a vypsané přesně (assert, že leží 470–530)."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "bob1000",
+      "diagram": "Dvě Bobovy mřížky vedle sebe: BEFORE ALICE MEASURES / AFTER, obě ≈ 500 / 500.",
+      "note": "Obě poloviny skutečně náhodné, různé, se stejnou statistikou.",
+      "pause": 0.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "bob1000",
+      "diagram": "Obě mřížky, mezi nimi velké =; NOTHING CHANGES ON BOB'S SIDE.",
+      "note": "Krátká samostatná promluva → naveti se skutečným textem předchozí scény.",
+      "naveti": "Bob measures another thousand.",
+      "pause": 1.0
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "porovnani",
+      "diagram": "Alicin a Bobův záznam vedle sebe, vazba vidět až po spárování řádků; mezi nimi obálka letící šipkou ≤ SPEED OF LIGHT.",
+      "note": "Hlavní pointa první záhady (~4:50). Za scénou VÝZVA K ODBĚRU č. 2 — levý dolní roh prázdný.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "smer",
+      "diagram": "Alicina Merminova krabička (táž funkce jako S20), ciferník ambrově: SHE CHOOSES THE SETTING. Spojnice k Bobovu záznamu: ONLY SHOWS WHEN THEY COMPARE.",
+      "note": "LEVÝ DOLNÍ ROH PRÁZDNÝ (výzva z S37 přechází přes začátek scény).",
+      "pause": 0.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "smer",
+      "diagram": "Čárkovaná ‚šifrovací kniha': POSITION 1 = 0 · POSITION 2 = 1 ? s otazníkem.",
+      "note": "Hypotéza = čárkovaně.",
+      "pause": 0.8
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "smer",
+      "diagram": "Tři Aliciny možnosti (MEASURE · TURN · LEAVE ALONE) a u každé tatáž Bobova lišta HALF RED · HALF GREEN.",
+      "note": "Lišta 50/50 třikrát stejná, týmž prvkem — obraz říká ‚nic z toho Bob nepozná'."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "smer",
+      "diagram": "Karta NO-COMMUNICATION THEOREM · AROUND 1980.",
+      "note": "Eberhard 1978, Ghirardi–Rimini–Weber 1980 — proto ‚around'."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "vynutit",
+      "diagram": "Celé čárkovaně (hypotéza): IF ALICE COULD FORCE HER RESULT — Alice FORCE 0 → Bob 0, FORCE 1 → Bob 1, vazba zachovaná.",
+      "note": "Výčet krátkých vět → vycet.",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "vynutit",
+      "diagram": "Proud bitů 1 0 1 1 od Alice k Bobovi, u Boba přečtený tentýž; MESSAGE, FASTER THAN LIGHT (čárkovaně).",
+      "note": "Pořád hypotéza — čárkovaně, ať obraz netvrdí, že to jde.",
+      "pause": 1.0
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "vynutit",
+      "diagram": "Vynucená cesta přeškrtnutá; u Alice kostka ambrově: RANDOM RESULT · PART OF THE REASON THERE'S NO MESSAGE.",
+      "note": "‚Part of the reason', ne ‚ochrana kauzality' (rozhodnutí uživatele ke kroku 4).",
+      "pause": 2.4
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "weinberg",
+      "diagram": "Rámeček STANDARD QUANTUM MECHANICS, v jeho rohu drobná ambrová prasklina a … VERY SLIGHTLY WRONG?",
+      "note": "Otázka, ne tvrzení — prasklina čárkovaně."
+    },
+    {
+      "id": "S46",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "PICK Z --search (2026-11-15): [0] ‚Steven Weinberg 1983‘, Rob Croes / Anefo, CC0 — nejblíž roku 1989; snímky z 2010 jsou o generaci starší tvář, než o které scéna mluví. Portrét bez zoomu, fit 0.84. Nobel 1979 říká hlas, rok 1989 není potřeba psát do obrazu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Steven Weinberg 1983",
+        "grade": {
+          "fit": 0.84,
+          "popisek": "STEVEN WEINBERG"
+        },
+        "pick": 0
+      }
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "weinberg",
+      "diagram": "Rámeček QUANTUM MECHANICS + malý ambrový čárkovaný dílek TINY NONLINEAR CORRECTION; pod tím A FRAMEWORK TO TEST, NOT A CLAIM.",
+      "note": "Weinberg navrhl rámec k testování (factcheck), obraz to říká stejně jako hlas."
+    },
+    {
+      "id": "S48",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "note": "Předěl uprostřed Weinbergova bloku: přesné experimenty (Bollinger 1989, iontová past). Atmosféra, ne konkrétní přístroj.",
+      "prompt": "precision physics laboratory at night, a small vacuum chamber with round windows on a dark optical bench, thin laser beams crossing, a single amber indicator light, cold blue shadows, no people"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "gisin",
+      "diagram": "Štítek NICOLAS GISIN · 1990; páteř 1: od Alice k Bobovi ambrová ČÁRKOVANÁ šipka SIGNAL; pod tím WEINBERG'S THEORY + USUAL MEASUREMENT RULES.",
+      "note": "Čárkovaná = jen v té hypotetické teorii. Podmínka ‚with the usual rules of measurement' musí být v obraze.",
+      "pause": 0.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "gisin",
+      "diagram": "Táž šipka, nad ní INSTANTLY · ANY DISTANCE.",
+      "note": "Krátká promluva (~1,5 s) → naveti s koncem S49 (navazuje i intonačně).",
+      "naveti": "Weinberg's theory would let Alice signal Bob.",
+      "pause": 1.2
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "polchinski",
+      "diagram": "Štítek JOSEPH POLCHINSKI · 1991; šipka Alice → Bob zablokovaná závorou (BLOCKED), nad tím strom vlnové funkce se dvěma větvemi a mezi nimi čárkovaná linka.",
+      "note": "Zablokování ≠ přeškrtnutí celé myšlenky: závora na šipce. Větve kvantového stavu, NE paralelní vesmíry (notes).",
+      "pause": 0.5
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "polchinski",
+      "diagram": "Dvě větve: OUTCOME 0 a OUTCOME 1, v každé tentýž pozorovatel; mezi nimi telefon: THE EVERETT PHONE.",
+      "note": "Popisek BRANCHES OF THE WAVE FUNCTION, ne ‚universes'."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "pravidlo",
+      "diagram": "STANDARD QUANTUM MECHANICS → NO SIGNALLING (šipka = plyne z); vedle štítek AN EXTRA RULE přeškrtnutý. Drobně: not every nonlinear theory fails this way.",
+      "note": "Škrtá se představa ‚zvláštní pravidlo navíc', ne nelineární teorie vůbec — výhrada v drobném popisku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "callback",
+      "diagram": "Prostoročasový náčrt jako ve videu 112: zpráva rychlejší než světlo dorazí dřív, než byla odeslána; štítek OUR VIDEO: FASTER-THAN-LIGHT TRAVEL.",
+      "note": "Callback, ne nový výklad — tvar převzít z generátoru 112 (antitelefon), ať ho divák pozná.",
+      "karta": "112-why-cant-we-travel-faster-than-light"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "callback",
+      "diagram": "Světelný kužel kolem ALICE MEASURES; BOB MEASURES vně kužele (prostorupodobně). Mezi nimi čárkovaně CORRELATIONS ✓, nad tím šipka INFORMATION přeškrtnutá.",
+      "note": "Měření jsou prostorupodobně oddělená, takže korelace leží VNĚ kužele, ne uvnitř (původní popis by to tvrdil obráceně). Škrtá se informace, korelace zůstávají."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "callback",
+      "diagram": "Teleportace: Alice → Bob stav; vedle obálka 2 ORDINARY BITS po plné šipce ≤ SPEED OF LIGHT; štítek OUR VIDEO: TELEPORTATION.",
+      "note": "Callback na 027.",
+      "karta": "027-what-would-teleportation-take",
+      "pause": 0.5
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "callback",
+      "diagram": "Bez obálky: Bobův výsledek jako mřížka šumu (tatáž mřížka jako S34) · INDISTINGUISHABLE FROM NOISE.",
+      "note": "Rým s S34–S36: Bobova mřížka 50/50.",
+      "pause": 2.2
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "predel",
+      "diagram": "Dvě karty vedle sebe: MYSTERY 1 · WHY NO MESSAGE ✓ a MYSTERY 2 · HOW STRONG CAN THE LINK BE? Pod nimi páteř 2 (stupnice) ztlumeně.",
+      "note": "Obrat videa. Stupnice se vrací z S03 na stejných souřadnicích.",
+      "pause": 2.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "hra",
+      "diagram": "Alice a Bob, každý dostal kartičku s otázkou (0 nebo 1) a odpovídá 0 nebo 1.",
+      "note": "Alice a Bob na x páteře 1; tabulka pravidel = hra_pravidla() v _kit.py, 2 × 2 s ikonami = a ≠, kreslená ve všech scénách hry stejně."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "hra",
+      "diagram": "Mezi nimi stěna NO TALKING; tabulka 2 × 2 podle otázek: tři políčka =, políčko (1, 1) ≠. Nadpis WIN IF.",
+      "note": "Alice a Bob na x páteře 1; tabulka pravidel = hra_pravidla() v _kit.py, 2 × 2 s ikonami = a ≠, kreslená ve všech scénách hry stejně.",
+      "pause": 0.8
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "hra",
+      "diagram": "Tabulka s plánem ‚both always answer 0': tři fajfky, jeden křížek; páteř 2 — stupnice s ryskou 75 % BEST PLAN IN ADVANCE.",
+      "note": "75 % spočítáno v kódu přes všech 16 deterministických strategií (assert max == 3/4). Stupnice poprvé s čísly, na souřadnicích z S03."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "hra",
+      "diagram": "Stupnice: za 75 % ambrová značka QUANTUM ≈ 85 %; drobné značky EXPERIMENTS mezi 75 a 85 (Micius 79,6, Delft 80,3).",
+      "note": "Značky experimentů v SKUTEČNÝCH polohách (p = (S+4)/8), assert. ‚Keep beating three in four' — jsou nad 75, ne na 85.",
+      "pause": 0.5
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "hra",
+      "diagram": "Stupnice: na 85,4 % svislá zeď TSIRELSON, 1980 · QUANTUM MAXIMUM 85.4 %.",
+      "note": "85,4 = cos²(π/8) = (2+√2)/4, assert.",
+      "pause": 1.4
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "prbox",
+      "diagram": "Stupnice: pásmo 85,4–100 % prázdné s otazníkem WHY STOP HERE?; štítek SANDU POPESCU · DANIEL ROHRLICH · 1994.",
+      "note": "Otázka nad prázdným pásmem, žádná značka."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "prbox",
+      "diagram": "Mezi Alicí a Bobem čárkovaný PR BOX se čtyřmi fajfkami (mini tabulka 2 × 2) · MATHEMATICS, NOT A DEVICE; stupnice: značka na 100 % WINS EVERY TIME.",
+      "note": "KLÍČOVÝ OBRAZ VIDEA (uživatel): na první pohled 100 % výher a přesto žádná zpráva. PR box = čárkovaný (matematický model, ne zařízení) rámeček mezi Alicí a Bobem, pr_box() v _kit.py."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "prbox",
+      "diagram": "Totéž ztlumené, uprostřed velký otazník.",
+      "note": "KLÍČOVÝ OBRAZ VIDEA (uživatel): na první pohled 100 % výher a přesto žádná zpráva. PR box = čárkovaný (matematický model, ne zařízení) rámeček mezi Alicí a Bobem, pr_box() v _kit.py. Krátká promluva → naveti.",
+      "naveti": "It isn't a real device, just mathematics.",
+      "pause": 0.8
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "prbox",
+      "diagram": "Obraz rozdělený: vlevo TOGETHER: 100 % WINS (čtyři fajfky); vpravo BOB ALONE: dva řádky ALICE ASKS 0 → BOB 50 / 50 a ALICE ASKS 1 → BOB 50 / 50; pod tím obálka přeškrtnutá NO MESSAGE.",
+      "note": "KLÍČOVÝ OBRAZ VIDEA (uživatel): na první pohled 100 % výher a přesto žádná zpráva. PR box = čárkovaný (matematický model, ne zařízení) rámeček mezi Alicí a Bobem, pr_box() v _kit.py. Tohle je ta scéna: obě poloviny stejně velké, vlevo jistota, vpravo náhoda. Pravdivost: PR box má marginály 1/2 nezávislé na otázce druhé strany, assert v kódu na tabulce PR boxu."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "prbox",
+      "diagram": "Stupnice celá: 75 · 85,4 (QUANTUM) · 100 (PR BOX); pásmo 85,4–100 STRONGER THAN NATURE — STILL NO SIGNAL.",
+      "note": "Celé pásmo do 100 % je bez signálu — obraz nesmí naznačit, že nad 85,4 začíná signalizace.",
+      "pause": 2.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "proc",
+      "diagram": "Stupnice: 75 ✗ · 100 ✗ · 85.4 ? (velký otazník u zdi).",
+      "note": "Výčet krátkých vět → vycet.",
+      "vycet": 0.3,
+      "pause": 1.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "proc",
+      "diagram": "Stupnice s ryskou ≈ 91 %; nad ní dvě postavy a obrovský balík úloh, který se u rysky smrskne na 1 BIT: ABOVE ~91 %: HUGE COMMUNICATION TASKS → ONE BIT.",
+      "note": "Obraz podle uživatele: dva lidé, úloha s obří komunikací → jeden bit. 90,8 % = (3+√6)/6 (Brassard 2006), assert. Je to práh výsledku o komunikační složitosti, NE fyzikální mez — rýska tenká a čárkovaná, ne zeď jako u 85,4.",
+      "pause": 0.5
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "proc",
+      "diagram": "Stupnice: od štítku INFORMATION CAUSALITY · 2009 šipka přesně na zeď 85,4; pod tím BUT NOT ALL OF QUANTUM MECHANICS.",
+      "note": "Pawłowski 2009. Šipka míří na tutéž zeď jako Tsirelson (souřadnice z _kit.py).",
+      "pause": 0.6
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "proc",
+      "diagram": "Stupnice, zeď 85,4 a velký otazník; NO AGREED PRINCIPLE (YET).",
+      "note": "Otevřená otázka videa.",
+      "pause": 3.0
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "micius",
+      "diagram": "VÝPLATA PÁTEŘE: kompozice S01 beze změny (Micius, Delingha, Lijiang, 1,200 KM), mezi stanicemi 0 BITS; dole stupnice z S03, Micius 79,6 % pod zdí 85,4.",
+      "note": "Návrat na souřadnice S01 a S03 — tím se výplata pozná. Konec scény už spadá do posledních 20 s (jen pauza).",
+      "pause": 1.6
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě karty v DOLNÍ polovině nad pásem titulků: ✓ WHY NO MESSAGE: WE KNOW a ? WHY NOT STRONGER: WE DON'T. Horní polovina prázdná.",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: horní polovina volná pro dlaždici a kolečko (docs/storyboard-a-diagramy.md).",
+      "pause": 1.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "zaver",
+      "diagram": "Jedna karta s otázkou: A DEEPER RULE BEHIND 85 %? OR JUST HOW OUR UNIVERSE TURNED OUT? v dolní polovině nad titulky; horní polovina prázdná.",
+      "note": "Otázka do komentářů. Závěrečná obrazovka: horní polovina volná, statické."
+    }
+  ]
+}

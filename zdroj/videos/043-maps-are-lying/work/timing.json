@@ -1,0 +1,605 @@
+{
+  "total": 592.151,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 8.873,
+      "end": 9.673,
+      "dur": 9.273,
+      "text": "Look at a map of the world. You have seen this one a thousand times. And you probably do not think there is anything strange about it."
+    },
+    {
+      "id": "S02",
+      "start": 9.673,
+      "speech_end": 17.108,
+      "end": 17.908,
+      "dur": 8.235,
+      "text": "Europe is here. Africa is here. North America is here. And Greenland is... ...about the same size as Africa."
+    },
+    {
+      "id": "S03",
+      "start": 17.908,
+      "speech_end": 24.525,
+      "end": 25.325,
+      "dur": 7.417,
+      "text": "Except it isn't. Nowhere near it. Africa is roughly fourteen times larger than Greenland."
+    },
+    {
+      "id": "S03b",
+      "start": 25.325,
+      "speech_end": 28.227,
+      "end": 29.027,
+      "dur": 3.701,
+      "text": "Fourteen. So why does Greenland look so enormous?"
+    },
+    {
+      "id": "S03c",
+      "start": 29.027,
+      "speech_end": 33.237,
+      "end": 35.637,
+      "dur": 6.61,
+      "text": "Because the map is lying to you. And here is the strange part."
+    },
+    {
+      "id": "S04",
+      "start": 35.637,
+      "speech_end": 40.953,
+      "end": 41.753,
+      "dur": 6.116,
+      "text": "Every flat map of the Earth has to lie. Not by accident. By necessity."
+    },
+    {
+      "id": "S05",
+      "start": 41.753,
+      "speech_end": 53.62,
+      "end": 54.42,
+      "dur": 12.667,
+      "text": "The Earth is roughly a sphere. A map is flat. And that creates a problem which sounds almost trivial. How do you turn a sphere into a flat sheet of paper without changing anything?"
+    },
+    {
+      "id": "S05b",
+      "start": 54.42,
+      "speech_end": 55.381,
+      "end": 56.181,
+      "dur": 1.761,
+      "text": "You can't."
+    },
+    {
+      "id": "S06",
+      "start": 56.181,
+      "speech_end": 61.324,
+      "end": 62.124,
+      "dur": 5.943,
+      "text": "Try peeling the skin off an orange and flattening it. It tears. Or it wrinkles."
+    },
+    {
+      "id": "S07",
+      "start": 62.124,
+      "speech_end": 74.29,
+      "end": 75.09,
+      "dur": 12.966,
+      "text": "And this is where most people assume it is a technical problem. Better maths. Better printing. Someone will work it out eventually. They won't. Because it isn't a problem. It's a theorem."
+    },
+    {
+      "id": "S08",
+      "start": 75.09,
+      "speech_end": 81.831,
+      "end": 82.631,
+      "dur": 7.541,
+      "text": "In 1827, Carl Friedrich Gauss proved that the curvature of a surface belongs to the surface itself."
+    },
+    {
+      "id": "S09",
+      "start": 82.631,
+      "speech_end": 94.923,
+      "end": 95.723,
+      "dur": 13.092,
+      "text": "You cannot flatten it out of existence. You can roll a sheet of paper into a tube, because its surface can still be unrolled. But you cannot wrap it round a ball without stretching or tearing it."
+    },
+    {
+      "id": "S10",
+      "start": 95.723,
+      "speech_end": 106.524,
+      "end": 107.324,
+      "dur": 11.601,
+      "text": "Gauss called it his remarkable theorem. And it is worth being precise about what it means. It isn't that nobody has managed it yet. It's that nobody can."
+    },
+    {
+      "id": "S11",
+      "start": 107.324,
+      "speech_end": 113.939,
+      "end": 114.739,
+      "dur": 7.415,
+      "text": "So cartographers stopped trying, and started hiding the wrinkles instead. These are called map projections."
+    },
+    {
+      "id": "S12",
+      "start": 114.739,
+      "speech_end": 125.429,
+      "end": 127.829,
+      "dur": 13.09,
+      "text": "And every projection makes a choice. What do you want to preserve? Area? Shape? Distance? Direction? You can keep some of them. You can never keep all of them."
+    },
+    {
+      "id": "S13",
+      "start": 127.829,
+      "speech_end": 134.229,
+      "end": 135.029,
+      "dur": 7.2,
+      "text": "The most famous choice was made in 1569 by a Flemish mapmaker called Gerardus Mercator."
+    },
+    {
+      "id": "S14",
+      "start": 135.029,
+      "speech_end": 146.596,
+      "end": 147.396,
+      "dur": 12.367,
+      "text": "On his map, a line of constant compass bearing is a straight line. For a sailor, that is everything. Draw a line between two ports, measure the angle, hold that bearing, and you arrive."
+    },
+    {
+      "id": "S15",
+      "start": 147.396,
+      "speech_end": 155.336,
+      "end": 156.136,
+      "dur": 8.74,
+      "text": "So the map is not simply wrong. It is wrong in a very useful way. But there is a price, and the price is arithmetic."
+    },
+    {
+      "id": "S16",
+      "start": 156.136,
+      "speech_end": 163.583,
+      "end": 164.383,
+      "dur": 8.247,
+      "text": "The further you go from the equator, the more the map stretches things. And it stretches them in both directions at once."
+    },
+    {
+      "id": "S17",
+      "start": 164.383,
+      "speech_end": 172.643,
+      "end": 173.443,
+      "dur": 9.06,
+      "text": "Oslo sits far enough north that it covers four times the area it actually has. The middle of Greenland? Ten times."
+    },
+    {
+      "id": "S18",
+      "start": 173.443,
+      "speech_end": 178.265,
+      "end": 179.065,
+      "dur": 5.621,
+      "text": "The northern tip of Greenland is stretched more than eighty times beyond its real size."
+    },
+    {
+      "id": "S19",
+      "start": 179.065,
+      "speech_end": 191.636,
+      "end": 192.436,
+      "dur": 13.371,
+      "text": "Which is why Greenland is not what you think it is. It is smaller than the Congo. It is smaller than Algeria. And South America, which on this map looks smaller, is more than eight times bigger."
+    },
+    {
+      "id": "S20",
+      "start": 192.436,
+      "speech_end": 200.291,
+      "end": 201.091,
+      "dur": 8.655,
+      "text": "Watch what happens if we slide Greenland down towards the equator. It shrinks. Push it back north. It grows again."
+    },
+    {
+      "id": "S20b",
+      "start": 201.091,
+      "speech_end": 204.229,
+      "end": 205.029,
+      "dur": 3.938,
+      "text": "Greenland hasn't changed. The map has."
+    },
+    {
+      "id": "S21",
+      "start": 205.029,
+      "speech_end": 215.806,
+      "end": 216.606,
+      "dur": 11.577,
+      "text": "And at the poles themselves, the stretching becomes infinite. That is why a Mercator world map usually cuts the poles off. The projection cannot actually reach them."
+    },
+    {
+      "id": "S21b",
+      "start": 216.606,
+      "speech_end": 219.816,
+      "end": 222.416,
+      "dur": 5.81,
+      "text": "And yet this is the map most of us grew up looking at."
+    },
+    {
+      "id": "S22",
+      "start": 222.416,
+      "speech_end": 234.264,
+      "end": 235.064,
+      "dur": 12.648,
+      "text": "Fine. Let's fix it. If the problem is area, let's preserve area instead. And it works. Africa finally looks like Africa. And Greenland stops pretending."
+    },
+    {
+      "id": "S22b",
+      "start": 235.064,
+      "speech_end": 236.341,
+      "end": 237.141,
+      "dur": 2.077,
+      "text": "Problem solved."
+    },
+    {
+      "id": "S23",
+      "start": 237.141,
+      "speech_end": 244.014,
+      "end": 244.814,
+      "dur": 7.673,
+      "text": "Except now the shapes are wrong. Africa is stretched tall and thin. Everything looks slightly melted."
+    },
+    {
+      "id": "S24",
+      "start": 244.814,
+      "speech_end": 254.629,
+      "end": 255.429,
+      "dur": 10.615,
+      "text": "So we choose a projection that protects the shapes, and the areas go wrong again. Or we protect distances from one particular point, and everything else drifts."
+    },
+    {
+      "id": "S24b",
+      "start": 255.429,
+      "speech_end": 258.939,
+      "end": 261.539,
+      "dur": 6.11,
+      "text": "And this is where it stops being a question about geometry."
+    },
+    {
+      "id": "S25",
+      "start": 261.539,
+      "speech_end": 267.406,
+      "end": 268.206,
+      "dur": 6.667,
+      "text": "In 2017, the public schools in Boston took the Mercator maps off their classroom walls."
+    },
+    {
+      "id": "S26",
+      "start": 268.206,
+      "speech_end": 276.805,
+      "end": 277.605,
+      "dur": 9.399,
+      "text": "They replaced them with an equal-area map, in the second, seventh and eleventh grades. They were the first school district in the country to do it."
+    },
+    {
+      "id": "S27",
+      "start": 277.605,
+      "speech_end": 288.404,
+      "end": 289.204,
+      "dur": 11.599,
+      "text": "The argument was not about navigation. It was that children spend years looking at a world where some continents are quietly inflated. It made headlines everywhere."
+    },
+    {
+      "id": "S28",
+      "start": 289.204,
+      "speech_end": 293.899,
+      "end": 294.699,
+      "dur": 5.495,
+      "text": "But the interesting part is not the argument. It's what the new map does."
+    },
+    {
+      "id": "S29",
+      "start": 294.699,
+      "speech_end": 303.002,
+      "end": 303.802,
+      "dur": 9.103,
+      "text": "Because the new map is not the true one. It is simply a different compromise. It gets the sizes right by getting the shapes wrong."
+    },
+    {
+      "id": "S29b",
+      "start": 303.802,
+      "speech_end": 305.762,
+      "end": 306.562,
+      "dur": 2.76,
+      "text": "So which of the two is correct?"
+    },
+    {
+      "id": "S29c",
+      "start": 306.562,
+      "speech_end": 308.262,
+      "end": 310.862,
+      "dur": 4.3,
+      "text": "None of them. And all of them."
+    },
+    {
+      "id": "S30",
+      "start": 310.862,
+      "speech_end": 319.935,
+      "end": 320.735,
+      "dur": 9.873,
+      "text": "It's a bit like asking which photograph of a person is the most accurate. From the front? From the side? A thermal image? An X-ray?"
+    },
+    {
+      "id": "S31",
+      "start": 320.735,
+      "speech_end": 325.745,
+      "end": 328.145,
+      "dur": 7.41,
+      "text": "They are all the same person. They are just preserving different information."
+    },
+    {
+      "id": "S32",
+      "start": 328.145,
+      "speech_end": 334.973,
+      "end": 335.773,
+      "dur": 7.629,
+      "text": "But hang on. There is one map that doesn't have to do any of this. It might be sitting on your desk. Or in a classroom."
+    },
+    {
+      "id": "S32b",
+      "start": 335.773,
+      "speech_end": 336.77,
+      "end": 337.57,
+      "dur": 1.797,
+      "text": "A globe."
+    },
+    {
+      "id": "S33",
+      "start": 337.57,
+      "speech_end": 349.928,
+      "end": 350.728,
+      "dur": 13.158,
+      "text": "Nothing has been flattened, so nothing has been stretched. You can measure areas. You can compare shapes. Greenland doesn't get inflated just for being far north. The poles are simply there."
+    },
+    {
+      "id": "S33b",
+      "start": 350.728,
+      "speech_end": 352.758,
+      "end": 353.558,
+      "dur": 2.83,
+      "text": "So is the globe the honest map?"
+    },
+    {
+      "id": "S33c",
+      "start": 353.558,
+      "speech_end": 355.255,
+      "end": 356.055,
+      "dur": 2.497,
+      "text": "Well. Not entirely."
+    },
+    {
+      "id": "S34",
+      "start": 356.055,
+      "speech_end": 369.226,
+      "end": 370.026,
+      "dur": 13.971,
+      "text": "Start with the shape. The Earth isn't a sphere. It bulges at the equator by about twenty-one kilometres. On a school globe, that bulge would be half a millimetre. So it simply isn't there."
+    },
+    {
+      "id": "S35",
+      "start": 370.026,
+      "speech_end": 380.611,
+      "end": 381.411,
+      "dur": 11.385,
+      "text": "Neither is the ground. On that same globe, Everest would stand two tenths of a millimetre tall. The highest place on the planet, and you could not feel it with your fingertips."
+    },
+    {
+      "id": "S36",
+      "start": 381.411,
+      "speech_end": 394.71,
+      "end": 395.51,
+      "dur": 14.099,
+      "text": "Then there is scale. A globe like that is about forty million times smaller than the Earth. So there are no streets on it. No rivers you could follow. Most cities are a dot, if they are there at all."
+    },
+    {
+      "id": "S37",
+      "start": 395.51,
+      "speech_end": 399.971,
+      "end": 400.771,
+      "dur": 5.261,
+      "text": "And then there is my favourite part. How do you think a globe is made?"
+    },
+    {
+      "id": "S38",
+      "start": 400.771,
+      "speech_end": 406.575,
+      "end": 407.375,
+      "dur": 6.605,
+      "text": "It is printed flat. Usually on twelve tapered strips, which are then pasted onto a ball."
+    },
+    {
+      "id": "S38b",
+      "start": 407.375,
+      "speech_end": 409.635,
+      "end": 410.435,
+      "dur": 3.06,
+      "text": "Which is the orange, running backwards."
+    },
+    {
+      "id": "S39",
+      "start": 410.435,
+      "speech_end": 417.84,
+      "end": 418.64,
+      "dur": 8.205,
+      "text": "The distortion never went away. It was cut into pieces narrow enough for the paper to absorb, and hidden along the seams."
+    },
+    {
+      "id": "S40",
+      "start": 418.64,
+      "speech_end": 421.456,
+      "end": 422.256,
+      "dur": 3.616,
+      "text": "So the globe does solve the problem of projection."
+    },
+    {
+      "id": "S40b",
+      "start": 422.256,
+      "speech_end": 425.266,
+      "end": 428.066,
+      "dur": 5.81,
+      "text": "It does not solve the problem of representation."
+    },
+    {
+      "id": "S41",
+      "start": 428.066,
+      "speech_end": 437.03,
+      "end": 437.83,
+      "dur": 9.764,
+      "text": "And that distinction is the whole of this video. Because the real question was never how to flatten a planet. It was what we want a map to do."
+    },
+    {
+      "id": "S42",
+      "start": 437.83,
+      "speech_end": 448.179,
+      "end": 448.979,
+      "dur": 11.149,
+      "text": "Which brings us to one of the best maps ever drawn. In 1933, London Underground published a diagram by an engineering draughtsman called Harry Beck."
+    },
+    {
+      "id": "S43",
+      "start": 448.979,
+      "speech_end": 457.923,
+      "end": 458.723,
+      "dur": 9.745,
+      "text": "The stations are not where they are. The distances are wrong. The angles are wrong. The geography is almost entirely destroyed."
+    },
+    {
+      "id": "S43b",
+      "start": 458.723,
+      "speech_end": 460.451,
+      "end": 461.251,
+      "dur": 2.528,
+      "text": "And nobody complains."
+    },
+    {
+      "id": "S44",
+      "start": 461.251,
+      "speech_end": 472.626,
+      "end": 473.426,
+      "dur": 12.175,
+      "text": "In fact, it works so well that it changes what people do. Leicester Square and Covent Garden are two hundred and sixty metres apart. It is the shortest gap on the whole network."
+    },
+    {
+      "id": "S45",
+      "start": 473.426,
+      "speech_end": 483.073,
+      "end": 483.873,
+      "dur": 10.447,
+      "text": "The train takes forty-five seconds. Walking takes four minutes. And people still take the train, because on the map, those two stations look far apart."
+    },
+    {
+      "id": "S46",
+      "start": 483.873,
+      "speech_end": 494.202,
+      "end": 495.002,
+      "dur": 11.129,
+      "text": "That map is wrong about the city in almost every way it could be. And it is still the right map, because it isn't describing the city. It is describing the system."
+    },
+    {
+      "id": "S47",
+      "start": 495.002,
+      "speech_end": 505.142,
+      "end": 507.742,
+      "dur": 12.74,
+      "text": "Which is the thing we have been circling all along. A map does not have to be faithful to physical reality. It has to be faithful to the question you are asking."
+    },
+    {
+      "id": "S48",
+      "start": 507.742,
+      "speech_end": 512.691,
+      "end": 513.491,
+      "dur": 5.749,
+      "text": "And that is why the map in your pocket is quietly stranger than any of the paper ones."
+    },
+    {
+      "id": "S49",
+      "start": 513.491,
+      "speech_end": 521.301,
+      "end": 522.101,
+      "dur": 8.61,
+      "text": "Because it is still Mercator. Zoom in on your own street, and you are looking at a projection designed for sixteenth century sailors."
+    },
+    {
+      "id": "S50",
+      "start": 522.101,
+      "speech_end": 531.703,
+      "end": 532.503,
+      "dur": 10.402,
+      "text": "But zoom out far enough, and something happens. Since 2018, if you pull back far enough on a computer, the map stops being a map and becomes a globe."
+    },
+    {
+      "id": "S50b",
+      "start": 532.503,
+      "speech_end": 535.533,
+      "end": 536.333,
+      "dur": 3.829,
+      "text": "Greenland shrinks back to the size it has always been."
+    },
+    {
+      "id": "S51",
+      "start": 536.333,
+      "speech_end": 541.967,
+      "end": 542.767,
+      "dur": 6.434,
+      "text": "And that is a genuinely new idea. A digital map does not have to be one projection."
+    },
+    {
+      "id": "S51b",
+      "start": 542.767,
+      "speech_end": 550.941,
+      "end": 551.741,
+      "dur": 8.975,
+      "text": "It can use one for navigation. Another for comparing areas. Another for showing routes, or population, or flight paths."
+    },
+    {
+      "id": "S52",
+      "start": 551.741,
+      "speech_end": 558.411,
+      "end": 561.211,
+      "dur": 9.47,
+      "text": "Instead of one map pretending to be the world, we can have many maps, each answering one question honestly."
+    },
+    {
+      "id": "S53",
+      "start": 561.211,
+      "speech_end": 568.04,
+      "end": 568.84,
+      "dur": 7.629,
+      "text": "So the next time you look at a world map, don't ask whether it is correct. Ask what it is trying to get right."
+    },
+    {
+      "id": "S53b",
+      "start": 568.84,
+      "speech_end": 572.189,
+      "end": 572.989,
+      "dur": 4.149,
+      "text": "Because the answer will also tell you what it is lying about."
+    },
+    {
+      "id": "S54",
+      "start": 572.989,
+      "speech_end": 579.519,
+      "end": 580.319,
+      "dur": 7.33,
+      "text": "There is no map that tells the whole truth. There is only a map that tells you which truth it chose to preserve."
+    },
+    {
+      "id": "S54b",
+      "start": 580.319,
+      "speech_end": 583.114,
+      "end": 583.914,
+      "dur": 3.595,
+      "text": "And perhaps that is the real reason maps lie."
+    },
+    {
+      "id": "S54c",
+      "start": 583.914,
+      "speech_end": 585.621,
+      "end": 586.421,
+      "dur": 2.507,
+      "text": "Not because they are wrong."
+    },
+    {
+      "id": "S54d",
+      "start": 586.421,
+      "speech_end": 588.951,
+      "end": 592.151,
+      "dur": 5.73,
+      "text": "But because they cannot show us everything."
+    }
+  ]
+}

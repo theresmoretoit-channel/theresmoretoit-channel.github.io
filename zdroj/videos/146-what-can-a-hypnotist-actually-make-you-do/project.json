@@ -1,0 +1,124 @@
+{
+ "title": "What Can a Hypnotist Actually Make You Do?",
+ "slug": "146-what-can-a-hypnotist-actually-make-you-do",
+ "languages": [
+  "en",
+  "cs",
+  "sv",
+  "es",
+  "pt-BR",
+  "de",
+  "fr",
+  "it",
+  "pl",
+  "id",
+  "tr",
+  "uk",
+  "vi",
+  "fi"
+ ],
+ "resolution": [
+  1920,
+  1080
+ ],
+ "fps": 25,
+ "voice": {
+  "engine": "kokoro",
+  "name": "bf_emma",
+  "speed": 0.88,
+  "lang": "en-gb"
+ },
+ "timing": {
+  "scene_pause": 0.8,
+  "lead_in": 0.15,
+  "tail": 1.2,
+  "sentence_pause": 0.45,
+  "min_sentence_words": 1
+ },
+ "video": {
+  "transition": "dissolve",
+  "transition_dur": 0.6,
+  "source_resolution": [
+   2560,
+   1440
+  ],
+  "supersample": 3,
+  "supersample_draft": 2,
+  "crf": 18,
+  "preset": "slow"
+ },
+ "sdxl": {
+  "checkpoint": "sd_xl_base_1.0.safetensors",
+  "steps": 30,
+  "cfg": 6.5,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "hires_denoise": 0.45,
+  "style": "painterly editorial illustration, mid-century psychology laboratories, waiting rooms, wooden apparatus, glass beakers, paper forms, muted palette of slate blue, charcoal and warm grey with a single soft amber accent, flat grey overcast light, subtle film grain, restrained detail, calm editorial composition, no text",
+  "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, faces, close-up of people, oversaturated, neon, blurry, low quality, deformed"
+ },
+ "audio": {
+  "target_lufs": -14.0,
+  "music": "audio/music.wav",
+  "music_gain_db": -36,
+  "duck": {
+   "threshold": 0.03,
+   "ratio": 6,
+   "attack": 20,
+   "release": 900
+  },
+  "music_root": 146.83,
+  "music_seed": 146,
+  "music_sections": [
+   [
+    "S01",
+    "S10c"
+   ],
+   [
+    "S18",
+    "S18"
+   ],
+   [
+    "S29",
+    "S32"
+   ],
+   [
+    "S42",
+    "S43"
+   ],
+   [
+    "S49",
+    "S50"
+   ],
+   [
+    "S63",
+    "S64"
+   ],
+   [
+    "S70",
+    "S75"
+   ]
+  ]
+ },
+ "subtitles": {
+  "max_chars": 42,
+  "burn_in": false,
+  "lead_in": 0.15,
+  "frazovani": true
+ },
+ "pronounce": {
+  "1939": "nineteen thirty-nine",
+  "1960": "nineteen sixty",
+  "1968": "nineteen sixty-eight",
+  "2002": "two thousand and two",
+  "1976": "nineteen seventy-six",
+  "1983": "nineteen eighty-three",
+  "1985": "nineteen eighty-five",
+  "2019": "twenty nineteen"
+ },
+ "archive_grade": {
+  "saturation": 95,
+  "tint_amount": 0,
+  "vignette": false
+ }
+}

@@ -1,0 +1,730 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ VIDEA #1 — DISK MARSU na pevném MARS_C/MARS_R, kreslí ho jediná funkce mars_disk() v _kit.py. První scéna schválně NENÍ sdxl a nese myšlenku: jedna loď proti celé planetě a nikdo se nevrací. Loď je obecná silueta, ne věrná kresba Starship (nepředstírá přesnost, kterou nemá). Zrcadlo je S69, kde táž loď stojí zašedlá na obzoru.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: disk Marsu uprostřed (mars_disk). Na horním okraji drobná silueta lodi, vedle ní šipka zpět k Zemi přeškrtnutá. Nahoře malý štítek 2045."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Čárkovaně, protože město je záměr, ne fakt (konvence: plná = je, čárkovaná = hypotéza). Ikony drobné — měřítko planety musí zůstat vidět, jinak se ztratí pointa S01.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž disk a loď. Kolem lodi drobné ikony nákladu (bagr, reaktor, solární panel, továrna) a čárkovaný obrys budoucího města s nápisem THE FIRST CITY."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Otázka videa. Disk na týchž souřadnicích, loď zmizela — otázka se týká planety, ne lodi.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž disk bez ikon, nad ním ambrově WHO OWNS MARS?",
+      "pause": 1.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Muska NEKRESLIT, jen jméno (skutečná osoba). Čárkovaně = kandidáti, ne fakta. Všechny čtyři stejně velké a stejnou barvou — pořadí ani barva nesmí napovídat odpověď.",
+      "diagram_generator": "uvod",
+      "diagram": "Disk uprostřed, kolem něj čtyři nápisy s čárkovanou spojnicí k disku: ELON MUSK, THE UNITED STATES, SPACEX, NOBODY.",
+      "pause": 0.5
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "PÁTEŘ VIDEA #2 — SPOJNICE ZEMĚ–MARS (spojnice() v _kit.py, pevné ZEME_X, MARS_X, OSA_Y). Směr šipky na ní je v celém videu 'kdo vládne komu'. OSA_Y leží v dolní polovině obrazu, aby bubliny dialogů (S41–S43) měly místo nad ní. Tečky = hustota, ne spočítaný počet — 'millions' se nekreslí kusově.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ #2 se zavádí: vlevo malá modrá Země, vpravo disk Marsu zmenšený, mezi nimi vodorovná SPOJNICE. Mars poset hustými tečkami (lidé), štítek +50 YEARS. Nad spojnicí otazník.",
+      "pause": 0.5
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Konec úvodu. Bublina vychází z Marsu, ne ze Země (ověř ocásek — scéna, ve které něco míří na někoho).",
+      "diagram_generator": "uvod",
+      "diagram": "Spojnice; od Marsu bublina THANKS FOR THE HELP. / FROM NOW ON, WE GOVERN OURSELVES.",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU. Podpis Outer Space Treaty 27. 1. 1967 (Bílý dům / OSN), fotografie skupiny lidí → static, fit 0.84, žádný zoom (ořezal by hlavy). Kdyby Commons nic volného neměl, náhrada je diagram dokumentu (smlouva() z S12) se štítkem ARTICLE II.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Outer Space Treaty signing 1967",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 0
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Škrtá se tvrzení, proto vodorovná čára přes nápis, ne křížek. Logo SpaceX nekreslit, jen slovo.",
+      "diagram_generator": "smlouva",
+      "diagram": "Disk Marsu, na něm drobná vlajka s nápisem SPACEX (prostý praporek, žádné logo). Bublina I HEREBY DECLARE MARS PART OF THE UNITED STATES přeškrtnutá vodorovnou čarou (text_skrtnuty).",
+      "pause": 0.6
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "MUSÍ BÝT STATICKÝ DIAGRAM — dědí ho výzva k odběru S09b. Výplata první porce úvodu (~1:15).",
+      "diagram_generator": "smlouva",
+      "diagram": "Dva řádky pod sebou: MARS ≠ AMERICA a SPACEX ≠ A COUNTRY. Disk Marsu malý vlevo."
+    },
+    {
+      "id": "S09b",
+      "source": "svg",
+      "visual": "images/S09.png",
+      "effect": "static",
+      "cta": true
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "'Buried in them' — ambrový řádek je schválně nízko v dlouhé stránce. Šedé pruhy, ne vymyšlený text: kresba nesmí citovat, co ve smlouvě není.",
+      "diagram_generator": "starlink",
+      "diagram": "Stránka dokumentu STARLINK · TERMS OF SERVICE · 2020, řádky zastoupené šedými pruhy, jeden pruh v dolní třetině ambrový se slovem MARS."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Znění přesně podle factcheck.md (S11), včetně toho, že ACCEPT tam není. Citace je doklad, ne náš výrok — proto uvozovky a zdroj.",
+      "diagram_generator": "starlink",
+      "diagram": "Zvětšená citace v uvozovkách: “…RECOGNISE MARS AS A FREE PLANET” a pod ní “NO EARTH-BASED GOVERNMENT HAS AUTHORITY OR SOVEREIGNTY OVER MARTIAN ACTIVITIES.” Malý štítek STARLINK TERMS, 2020.",
+      "pause": 1.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Dokument smlouvy kreslí smlouva() v _kit.py a vrací se v S49 a S60 na týchž souřadnicích. Větší než Starlink, protože má přednost (mezinárodní právo nad smlouvou firmy).",
+      "diagram_generator": "smlouva",
+      "diagram": "Vlevo menší stránka STARLINK TERMS, vpravo větší dokument OUTER SPACE TREATY se záložkou ARTICLE VI."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Šipka vede OD státu K činnosti (stát povoluje a dohlíží), ne obráceně.",
+      "diagram_generator": "smlouva",
+      "diagram": "Řetěz tří rámečků: PRIVATE ACTIVITY ← AUTHORISED & CONTINUOUSLY SUPERVISED ← THE APPROPRIATE STATE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Spojnice na pevných souřadnicích (páteř #2). Šipka Země→Mars = odpovědnost/dohled, stejný směr jako 'vláda' později — to je záměr.",
+      "diagram_generator": "smlouva",
+      "diagram": "Spojnice Země–Mars: u Země štítek UNITED STATES, u Marsu malá základna SPACEX. Šipka od USA k základně, nad ní RESPONSIBILITY.",
+      "pause": 0.5
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Bez konkrétního čísla, scénář říká 'most of the time, hundreds of millions' (factcheck S15). Čárkovaná = dohled je jen formální.",
+      "diagram_generator": "smlouva",
+      "diagram": "Táž spojnice, šipka zčárkovaná a nad ní SUPERVISE?, pod ní HUNDREDS OF MILLIONS OF KM."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Škrtají se ikony, ne nápisy — ruší se předmět, ne tvrzení.",
+      "diagram_generator": "smlouva",
+      "diagram": "Konec spojnice u Marsu, tři přeškrtnuté ikony: kufřík (LAWYER), policejní čepice (POLICE), šerifská hvězda (SHERIFF).",
+      "pause": 2.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Tečky základen bydlí v _kit.py (ZAKLADNY) a jejich poloha se nesmí mezi S17–S21 a S62/S66 měnit.",
+      "diagram_generator": "ostrovy",
+      "diagram": "Disk Marsu (páteř #1, zpět na středu). Jedna tečka SPACEX, pak druhá."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Čárkovaně, protože 'maybe'. Žádné vlajky — jména stačí a vlajka by nesla národní barvu, která pak něco znamená.",
+      "diagram_generator": "ostrovy",
+      "diagram": "Týž disk, přibývají tečky CHINA, EUROPE, INDIA; dvě čárkované tečky PARTNERSHIPS a COMPANIES.",
+      "pause": 0.5
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Měřítko je tvrzení: tečky NESMÍ být velké, jinak obraz říká opak 'nobody is going to occupy the whole planet'.",
+      "diagram_generator": "ostrovy",
+      "diagram": "Týž disk, tečky zůstávají drobné, velká prázdná plocha. Štítek ISLANDS OF CIVILISATION."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Kóta přesně mezi tečkami, ne k okraji. Obecné pojmy, nic konkrétního.",
+      "diagram_generator": "ostrovy",
+      "diagram": "Výřez: tři tečky CITY, MINING, CHINESE SETTLEMENT; mezi CITY a MINING kóta 2,000 KM."
+    },
+    {
+      "id": "S21",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S21.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU. NASA/JPL, public domain. Pusté marťanské panorama bez roveru v záběru. Barva nese scénu (rezavá pustina) → grade zlehčený podle docs/archiv-a-licence.md. pan_right přes panorama = 'thousands of kilometres of nothing'. Originál je mozaika 10000×2848 s černými okraji a palubou roveru vlevo dole — zoom vybírá čistý výřez 16:9 v pravé části s dalekým plochým obzorem (\"thousands of kilometres of nothing\") (ověřeno na zmenšenině celého panoramatu).",
+      "archive": {
+        "provider": "nasa",
+        "query": "Curiosity rover panorama Mars landscape",
+        "grade": {
+          "saturation": 90,
+          "tint_amount": 6,
+          "vignette": false,
+          "zoom": [
+            0.61,
+            0.19,
+            0.245,
+            0.47
+          ]
+        },
+        "pick": 1
+      },
+      "pause": 2.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Osadu kreslí osada() v _kit.py na pevném OSADA_C — vrací se v S24–S31. Kdyby se posunula, bezpečnostní zóna z S28 nebude sedět.",
+      "diagram_generator": "puda",
+      "diagram": "Tvoje osada: budovy, reaktor, silueta města. U každé části fajfka a YOURS: CITY, BUILDINGS, REACTOR, EVERYTHING YOU BUILT."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Nešrtá se nic — půda není 'tvoje ne', ale 'ničí'. Přeškrtnutá fajfka by tvrdila, že patří někomu jinému.",
+      "diagram_generator": "puda",
+      "diagram": "Táž osada; zem pod ní šrafovaná a ambrově THE LAND: NOBODY'S. Fajfky zůstávají.",
+      "pause": 1.2
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Dlouhá scéna (~15 s), ale jeden obraz — rozdělit ji by znamenalo změnit značky ve 14 překladech. Loď zprava, ať se ví, odkud přichází 'ti druzí' i v S25–S29.",
+      "diagram_generator": "puda",
+      "diagram": "Osada s 100,000 PEOPLE, REACTOR, WATER. Zprava přilétá druhá loď s bublinou HI. WE'RE GOING TO BUILD OUR BASE RIGHT HERE."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Pokračování S24, proto krátká pauza před ní (S24 pause 0.4).",
+      "diagram_generator": "puda",
+      "diagram": "Druhá základna přistála těsně vedle osady. Od osady bublina UH... WE'D RATHER YOU DIDN'T."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "'Technically, they have a point' nese návrat ambrové zeminy z S23, ne nápis.",
+      "diagram_generator": "puda",
+      "diagram": "Bublina od druhé základny NOBODY OWNS THIS LAND. Šrafovaná zem z S23 znovu ambrová.",
+      "pause": 0.5
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Čárkovaně, protože 'could'. Šipky míří od prachu k vodě a k zařízení osady, ne k druhé základně.",
+      "diagram_generator": "puda",
+      "diagram": "Druhá loď při přistání zvedá mrak prachu; čárkované šipky k WATER a k EQUIPMENT, štítky DUST, CONTAMINATION, DAMAGE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "PÁTEŘ VIDEA #3 — KRUH ZÓNY (zona() v _kit.py, střed = OSADA_C). Čárkovaně = není to hranice. V S31 zplní, v S66 se z kruhů stanou hranice států. Škrt přes nápis vodorovnou čarou.",
+      "diagram_generator": "puda",
+      "diagram": "PÁTEŘ #3: kolem osady čárkovaný kruh SAFETY ZONE. Pod tím přeškrtnutý nápis THIS TERRITORY BELONGS TO US.",
+      "pause": 0.5
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Druhá základna MIMO kruh — obraz nesmí tvrdit zákaz vstupu (factcheck S29/S30: koordinace, ne zákaz).",
+      "diagram_generator": "puda",
+      "diagram": "Týž kruh; na jeho okraji štítek TALK TO US FIRST, druhá základna venku za kruhem."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Signatáři přesně podle factcheck.md (osm států, ne NASA). Seznam se v generátoru assertuje na 8.",
+      "diagram_generator": "artemis",
+      "diagram": "Dokument ARTEMIS ACCORDS · 2020. Pod nadpisem MOON · MARS · COMETS · ASTEROIDS, dál osm signatářů drobně (AUSTRALIA, CANADA, ITALY, JAPAN, LUXEMBOURG, UAE, UK, USA) a ambrový řádek SECTION 11: SAFETY ZONES."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Výplata kruhu zóny: čára se zplní, nic víc. Kruh na obou panelech týž poloměr, jinak to čte jako 'zóna roste'.",
+      "diagram_generator": "puda",
+      "diagram": "Dva panely se stejnou osadou: LEGALLY — čárkovaný kruh; PRACTICALLY — týž kruh plnou čarou s kolíky jako plot.",
+      "pause": 2.8
+    },
+    {
+      "id": "S32",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU. Dobová mapa Amerik (Ortelius 1570, public domain). 'Simply... available' z pohledu Evropanů — mapa je právě ten pohled.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Ortelius Americae sive novi orbis",
+        "grade": {
+          "saturation": 70,
+          "tint_amount": 10
+        },
+        "pick": 0
+      }
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pojistka proti terra nullius (notes 0.1, S42 tehdy). Tečky INK, ne ambrové — lidé nejsou 'téma scény', je jím omyl slova available.",
+      "diagram_generator": "historie",
+      "diagram": "Obrys pevniny (ztlumený), uvnitř hustě tečky. Nad ním v uvozovkách “AVAILABLE” přeškrtnuté vodorovnou čarou.",
+      "pause": 1.2
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Stejná posloupnost se vrátí v S50 u Marsu (generace → stát) — tvar postupnosti drž v _kit.py.",
+      "diagram_generator": "historie",
+      "diagram": "Čtyři ikony zleva doprava se šipkami: loď (SOMEONE ARRIVED), osada (SETTLEMENT), víc postav (MORE PEOPLE), budova (GOVERNMENT).",
+      "pause": 0.5
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Rámeček kolem VŠECH čtyř, ne jen kolem vlády.",
+      "diagram_generator": "historie",
+      "diagram": "Tytéž čtyři ikony orámované jedním velkým rámečkem A SOCIETY. Pod ním malý přeškrtnutý nápis A FEW PEOPLE FAR AWAY.",
+      "pause": 2.2
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "RÝM: táž spojnice jako Země–Mars, jen jiné štítky. Divák si toho nemá všimnout vědomě, ale S39 ho má 'cvaknout'. Konce spojnice bez planet — tečky/obrysy, ne glóbus.",
+      "diagram_generator": "historie",
+      "diagram": "SPOJNICE (páteř #2, tytéž souřadnice): vlevo BRITAIN, vpravo AMERICAN COLONIES. Šipka Británie→kolonie, bublina YOU ARE OUR SUBJECTS, štítek LEGALLY ✓.",
+      "pause": 0.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Sloupec kreslí vlastni() v _kit.py na pevném VLASTNI_X; táž funkce a místo v S47 a S54 (Mars) — rým 'their own…'.",
+      "diagram_generator": "historie",
+      "diagram": "Konec spojnice u kolonií: sloupec pěti štítků CITIES, ECONOMY, INSTITUTIONS, MILITARY, INTERESTS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU. John Trumbull, Declaration of Independence (1818), public domain. Skupina lidí → static, fit 0.84, žádný zoom. Otázka 'why should we be governed…' visí nad obrazem, který na ni odpověděl.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Declaration of Independence Trumbull",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 4
+      },
+      "pause": 2.4
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Výplata rýmu S36: VŠECHNO na týchž souřadnicích, mění se jen štítky a konce. Kdyby se spojnice o kus posunula, rým zmizí.",
+      "diagram_generator": "historie",
+      "diagram": "Spojnice, štítky přepsané: BRITAIN → EARTH, AMERICAN COLONIES → MARS; na koncích zpět Země a disk Marsu. Štítky 2150 a 10,000,000 PEOPLE."
+    },
+    {
+      "id": "S40",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S40.png",
+      "note": "Jediná atmosférická scéna první poloviny (~5:00). 'Never been to Earth' nese obraz dítěte, které se dívá ven — Země v záběru NENÍ, to je pointa. Postava zezadu, žádná tvář.",
+      "prompt": "a small child seen from behind standing at a large curved window of a habitat dome, looking out over an endless rust red desert under a pale dusty sky, empty space around, no faces",
+      "pause": 0.5
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Dialog S41–S43 je jeden obraz, mění se jen text bublin. Bubliny NAD spojnicí, ocásky ke správnému konci — ověř.",
+      "diagram_generator": "dialog",
+      "diagram": "Spojnice. Od Země bublina UNDER OUR LAWS, YOU ARE STILL OUR CITIZENS. Od Marsu bublina NO, WE'RE NOT."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Žádné jmenovky EARTH:/MARS: — mluvčího nese konec spojnice.",
+      "diagram_generator": "dialog",
+      "diagram": "Tytéž bubliny, text: YOU HAVE TO OBEY OUR LAWS. / AND WHY WOULD WE DO THAT?",
+      "pause": 0.5
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Konec dialogu.",
+      "diagram_generator": "dialog",
+      "diagram": "Tytéž bubliny: BECAUSE WE FOUNDED YOU. / THAT WAS A HUNDRED YEARS AGO.",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Ambrová jen na POWER TO ENFORCE — o tom je řeč.",
+      "diagram_generator": "moc",
+      "diagram": "Dva rámečky se znaménkem plus: LAW (list papíru) + POWER TO ENFORCE (prázdný rámeček se zvýrazněným okrajem) = A STATE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Čárkovaně = 'do you send…?', hypotéza.",
+      "diagram_generator": "moc",
+      "diagram": "Spojnice, od Země (WASHINGTON) čárkovaná šipka k Marsu; na ní ikonka policisty a štítek TRANSPORT TO ANOTHER PLANET."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Srovnání délek je tvrzení: krátká čára hranice vs. celá spojnice. Obě ikony tanku stejné.",
+      "diagram_generator": "moc",
+      "diagram": "Táž spojnice s ikonou tanku místo policisty, štítek INTERPLANETARY WAR. Vpravo nahoře malá vložka: tank přes krátkou čáru, A BORDER.",
+      "pause": 0.5
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Totéž místo a funkce jako S37 kolonie — rým.",
+      "diagram_generator": "moc",
+      "diagram": "Konec spojnice u Marsu, sloupec vlastni(): INDUSTRY, ENERGY, DEFENCES, pod ním rámeček INDEPENDENT POWER.",
+      "pause": 2.4
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Návrat na střed — nová otázka videa, stejný tvar jako otázka v S03.",
+      "diagram_generator": "mezera",
+      "diagram": "Disk Marsu (páteř #1) a nad ním ambrově A COUNTRY? Pod ním SPACE LAW: NO CLEAR ANSWER."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Prázdný řádek = smlouva o té otázce mlčí. Scéna pokračuje větou v S50, proto pause 0.3.",
+      "diagram_generator": "mezera",
+      "diagram": "Dokument OUTER SPACE TREATY (smlouva(), tytéž souřadnice jako S12): řádek YOU CANNOT CLAIM MARS s fajfkou, pod ním prázdný řádek s otazníkem.",
+      "pause": 0.3
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Tvar postupnosti z S34, poslední krok čárkovaně (otázka).",
+      "diagram_generator": "mezera",
+      "diagram": "Postupnost z S34 přenesená na Mars: GENERATIONS → A SOCIETY → čárkovaně ITS OWN STATE?",
+      "pause": 2.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "SPOILER ALERT, vyžádal uživatel 2026-09-25. Hlas řekne jen 'Two science-fiction shows illustrate this beautifully.' a pak pauza 4 s, aby divák stihl zareagovat. ČAS PŘESKOČENÍ se NEPÍŠE od oka: generátor ho čte z work/timing.json (začátek S57 'Let's go back to Elon'), zaokrouhlený DOLŮ. Po každé změně stopáže před S57 se musí přegenerovat.",
+      "diagram_generator": "serialy",
+      "diagram": "Nápis SPOILER ALERT, pod ním oba názvy seriálů (FOR ALL MANKIND, THE EXPANSE) a pokyn SKIP TO m:ss — “LET'S GO BACK TO ELON”.",
+      "pause": 4.0
+    },
+    {
+      "id": "S51b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51b.png",
+      "note": "Žádné snímky ze seriálu (autorská práva) — název jako text a vlastní kresba. Od 0.7 je to S51b: S51 je teď varování před spoilery.",
+      "diagram_generator": "serialy",
+      "diagram": "Titulek FOR ALL MANKIND (jen písmo, žádný záběr ze seriálu). Disk Marsu s tečkami USA a USSR, čárkovaně LATER: OTHERS."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Šipky ze Země — Mars jako prodloužení Země.",
+      "diagram_generator": "serialy",
+      "diagram": "Týž disk, od Země (malá vlevo) tři šipky k Marsu: A BASE, RESOURCES, FIRST. Štítek EARTH'S GEOPOLITICS, EXTENDED.",
+      "pause": 0.5
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Rozdíl proti S52 nese jen to, že šipky ze Země chybějí.",
+      "diagram_generator": "serialy",
+      "diagram": "Titulek THE EXPANSE. Disk Marsu sám, bez šipek ze Země, orámovaný A CIVILISATION OF ITS OWN."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Týž sloupec jako kolonie v S37 — nejsilnější místo rýmu, pět položek proti pěti.",
+      "diagram_generator": "serialy",
+      "diagram": "Sloupec vlastni() u Marsu: GOVERNMENT, MILITARY, ECONOMY, CULTURE, INTERESTS.",
+      "pause": 1.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "'Probably not in a hundred' = slabší škrt než u dvaceti let; míra jistoty musí sedět s hlasem.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Časová osa: NOW → +20 YEARS (přeškrtnuté) → +100 YEARS (ztlumené, přeškrtnuté čárkovaně) → čárkované pokračování.",
+      "pause": 0.5
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Škrt přes celé tvrzení 'forever'.",
+      "diagram_generator": "budoucnost",
+      "diagram": "Osa pokračuje: generace jako řada postav na Marsu; štítek A COLONY OF EARTH, FOREVER? přeškrtnutý vodorovně.",
+      "pause": 2.4
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Otazník a čárkovaně — 'might even be named'. Bez portrétu.",
+      "diagram_generator": "elon",
+      "diagram": "Disk Marsu, první tečka města se štítkem čárkovaně MUSK CITY?",
+      "pause": 0.5
+    },
+    {
+      "id": "S58",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S58.png",
+      "note": "Jediná atmosférická scéna druhé poloviny: 'a hundred and fifty years later'. slow_zoom_out — svět se rozšiřuje. KOLO 2: první kolo mělo modré nebe s kupovitými mraky — obraz tvrdil pozemskou oblohu, zamítnuto věcně. Oblohu žádá prompt výslovně, seed nový.",
+      "prompt": "a sprawling city of low domes and terraced habitats spread across a rust red plain, many small lit windows, hazy butterscotch dusty sky without clouds, vast empty sky, distant scale, painterly, no people visible up close",
+      "pause": 0.5,
+      "seed": 65058
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Na tabuli nic konkrétního (žádné logo), jen SPACEX jako slovo v bublině.",
+      "diagram_generator": "elon",
+      "diagram": "Třída: postava učitele u tabule, tři postavy žáků. Od jednoho žáka bublina WAIT, WHAT WAS SPACEX?",
+      "pause": 2.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Paradox je jedna dvojice scén: S60 vlevo, S61 vpravo, na týchž souřadnicích.",
+      "diagram_generator": "paradox",
+      "diagram": "Vlevo štítek 2045, bublina MARS IS MINE. přeškrtnutá; pod ní dokument smlouvy (smlouva()).",
+      "pause": 0.5
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Hlavní obrat videa.",
+      "diagram_generator": "paradox",
+      "diagram": "Obraz S60 zůstává ztlumený, vpravo štítek 2200 a bublina MARS IS OURS. — nepřeškrtnutá, smlouva pod ní chybí.",
+      "pause": 3.0
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Základny i kruhy ze _kit.py — musí sedět se S18 a S28.",
+      "diagram_generator": "zaver",
+      "diagram": "Disk Marsu se základnami z S17–S18 (tytéž souřadnice), kolem každé čárkovaný kruh zóny. Štítek STAGE 1 · FOR ALL MANKIND.",
+      "pause": 0.5
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Čárkovaně, protože 'might'.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž disk, šipky ze Země zmizely, kruhy ztlumené; čárkovaně STAGE 2 · THE EXPANSE?",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Škrt 'neplatí takhle': otázka se nahrazuje, ne ruší. Ambrová jen na nové otázce.",
+      "diagram_generator": "zaver",
+      "diagram": "Nahoře WHO OWNS MARS? přeškrtnuté vodorovnou čarou, pod ním ambrově WHO DECIDES HOW THE PEOPLE ON MARS ARE GOVERNED?",
+      "pause": 2.2
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Škrt tenčí a ztlumený, protože 'may never' — ne kategorické ne.",
+      "diagram_generator": "zaver",
+      "diagram": "Disk Marsu, kolem tři nápisy tlumeně přeškrtnuté: A SINGLE COUNTRY, SPACEX, HUMANITY AS A WHOLE."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "VÝPLATA PÁTEŘE #3: z bezpečnostních zón jsou hranice. Čárkovaně, protože 'maybe one day'. Bez jmen a bez barev států.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž disk, kruhy zón z S62 se rozrostly v nepravidelné čárkované hranice několika útvarů bez jmen.",
+      "pause": 1.4
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "ZAČÍNÁ OKNO ZÁVĚREČNÉ OBRAZOVKY (S67–S70 jsou jeden obraz). Horní polovina VOLNÁ až na bod Země, který sedí uprostřed mezi místy pro dlaždici a kolečko; bublina v dolní polovině NAD pásem titulku. Obrácení perspektivy proti S01 je výplata celého videa.",
+      "diagram_generator": "zaver_obzor",
+      "diagram": "Pohled z povrchu: dole linie marťanského obzoru, vysoko na obloze malý modrý bod Země. Bublina u obzoru SO OUR ANCESTORS REALLY CAME FROM THERE?",
+      "pause": 0.5
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Nic v horní polovině navíc.",
+      "diagram_generator": "zaver_obzor",
+      "diagram": "Týž obzor a bod Země. Dole malý řádek EARTH : THEM = EUROPE : THE AMERICAS.",
+      "pause": 1.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Zrcadlo S01: loď je teď kus historie, ne začátek. Stejná funkce lodi jako v S01. Věta pokračuje v S70, proto krátká pauza.",
+      "diagram_generator": "zaver_obzor",
+      "diagram": "Týž obzor, vlevo na něm zašedlá silueta lodi z S01, drobná.",
+      "pause": 0.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "POSLEDNÍ OBRAZ. Titulek v pásu svgkit.title(), horní polovina prázdná pro dlaždici a kolečko.",
+      "diagram_generator": "zaver_obzor",
+      "diagram": "Týž obzor a bod Země. Titulek dole WE ARE NOT YOUR COLONY."
+    }
+  ]
+}

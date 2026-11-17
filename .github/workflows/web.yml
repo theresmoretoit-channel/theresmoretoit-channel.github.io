@@ -1,0 +1,59 @@
+# Stavba webu na GitHubu. Zdroj je tools/web-github.yml v repu videí,
+# web_publikuj.sh ho kopíruje do .github/workflows/web.yml v repu GitHub Pages.
+#
+# Repo Pages obsahuje podklady (zdroj/: web.py, texty videí, časy zveřejnění)
+# a zmenšené obrázky (obrazky/), ne hotový web. Stavba běží
+#   - po každém pushi z web_publikuj.sh,
+#   - každou hodinu, ale jen když od minula vyšlo naplánované video
+#     (porovná `web.py --vydana` s /stav.json živého webu),
+#   - ručně (Actions -> Web -> Run workflow).
+# Takže naplánované video přibude na web do hodiny po zveřejnění, i když
+# počítač s repem videí neběží. Postup: docs/web.md.
+name: Web
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.nasazeni.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vyšlo od minula nějaké video?
+        id: kontrola
+        run: |
+          ma_byt=$(python zdroj/tools/web.py --vydana)
+          venku=$(curl -sf https://theresmoretoit-channel.github.io/stav.json \
+            | python -c 'import json,sys; print(json.dumps(sorted(json.load(sys.stdin)["vydana"])))' || echo nic)
+          if [ "$GITHUB_EVENT_NAME" != schedule ] || [ "$ma_byt" != "$venku" ]; then
+            echo "stavet=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "beze změny, nestavím"
+          fi
+      - name: Stavba
+        if: steps.kontrola.outputs.stavet
+        run: |
+          pip install --quiet pillow
+          python zdroj/tools/web.py --out _site --predchozi obrazky
+      - if: steps.kontrola.outputs.stavet
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: nasazeni
+        if: steps.kontrola.outputs.stavet
+        uses: actions/deploy-pages@v4

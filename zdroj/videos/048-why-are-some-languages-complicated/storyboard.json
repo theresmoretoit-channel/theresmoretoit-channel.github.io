@@ -1,0 +1,942 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ videa, zavedená hned v S01. Není to atmosféra, je to myšlenka: hloubka času. Konec NAHOŘE JE BEZ ŠIPKY schválně - šipka by znamenala směr a celé video tvrdí, že žádný není (S73). Kmen leží na týchž souřadnicích ve všech scénách generátoru strom.",
+      "diagram_generator": "strom",
+      "diagram": "Holý svislý kmen na x=1280, dole tečka a drobná postava, nahoře konec bez šipky. Popisek dole FIVE THOUSAND YEARS AGO, nahoře NOW."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Škrtá se ikona, ne nápis - skrt_text() je na text. Kmen zůstává na místě, ikony jsou vedle něj.",
+      "diagram_generator": "stari",
+      "diagram": "Tři přeškrtnuté ikony vedle kmene: žárovka, kniha, budova školy."
+    },
+    {
+      "id": "S03",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S03.png",
+      "note": "Jediná atmosférická scéna první třetiny a schválně AŽ TŘETÍ - docs/storyboard-a-diagramy.md zakazuje SDXL na S01. Prostý příbytek, žádné tváře zblízka (negativ má deformed hands). Počasí místo denní doby: 'overcast', ne 'dawn' - u SDXL je šikmé světlo vždycky zlaté a přebilo by kotvu stylu.",
+      "prompt": "a low turf and timber dwelling on an open plain, a few worn tools leaning by the doorway, distant figures small and turned away, flat grey overcast sky, no sun, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Popisek 'HOW WE IMAGINE IT' je nutný - bez něj kresba TVRDÍ, že takhle ti lidé mluvili, kdežto scénář říká, že to tak právě NENÍ. Ztlumená barva MUTED, ne AMBER.",
+      "diagram_generator": "stari",
+      "diagram": "Tři krátké řádky I HUNT / YOU HUNT / TOMORROW WE HUNT, sázené velkým rozpalem, pod nimi ztlumené HOW WE IMAGINE IT."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S04, mění se jediná věc. Přes tabulku se škrtá CELÁ, ne po řádcích - jedna čára přes tři řádky by se četla jako 'neplatí ten prostřední'.",
+      "diagram_generator": "stari",
+      "diagram": "Týž obraz jako S04, přes trojici vodorovná čára přes všechny tři řádky najednou."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Nese přesně to, co říká voiceover: ne 'víc gramatiky', ale MECHANISMUS, který moderní angličtina ztratila. Čtvrtý sloupec musí být viditelně prázdnější, ne přeškrtnutý - nic se neruší, jen tam nic není. Počty pádů se NEPÍŠOU (factcheck S37: prameny se liší podle zbytkového instrumentálu).",
+      "diagram_generator": "stari",
+      "diagram": "Čtyři sloupce: LATIN, OLD ENGLISH, OLD NORSE, MODERN ENGLISH. V prvních třech jedno slovo v několika tvarech pod sebou, ve čtvrtém jediný plochý tvar."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Předěl z dávnověku do dneška. Rámeček je tentýž tvar, do kterého v S08 přijde dvojice sloves.",
+      "diagram_generator": "went",
+      "diagram": "Kmen ustoupí do pozadí, doprostřed naskočí prázdný rámeček se třemi tečkami."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Ambrová je na WENT, protože o tom je řeč. Šipka tu znamená gramatický vztah, ne příčinu.",
+      "diagram_generator": "went",
+      "diagram": "Dvojice GO -> WENT, mezi nimi šipka s popiskem PAST TENSE."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S08 - mění se jediná věc. Bez sdíleného obrazu by z toho byly dva střihy za dvě vteřiny, tedy AI-slop rytmus.",
+      "diagram_generator": "went",
+      "diagram": "Týž obraz, nad WENT přibude velký otazník a ztlumené GOED s vodorovným škrtem.",
+      "pause": 1.8
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Odpojení, ne přesun kartičky. Uživatel to hlídal jmenovitě: metafora ano, 'někdo vzal štítek WENT a nalepil ho ke GO' ne.",
+      "diagram_generator": "went",
+      "diagram": "Šipka GO -> WENT se přeruší; WENT se odpojí a odsune doprava."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "WEND je teď ambrový, GO zešedne. Ambrová vždycky znamená 'o tomhle je řeč', nikdy 'tohle je správně'.",
+      "diagram_generator": "went",
+      "diagram": "Vlevo přibude druhé sloveso WEND s popiskem TO TURN, TO MAKE YOUR WAY."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Čárkovaná, protože je to rekonstruovaný historický proces, ne doložený jednotlivý akt. Plná čára by tvrdila víc, než factcheck unese.",
+      "diagram_generator": "went",
+      "diagram": "Dvě dvojice pod sebou: GO -> (prázdno), WEND -> WENT. Mezi nimi svislá čárkovaná dráha, po které WENT přechází nahoru."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "ĒODE je v obraze, ačkoli ve voiceoveru není - doloží 'Go lost its own past' a divák, který to zná, uvidí, že to není odbyté. Factcheck S10-S13 uvádí, že ēode samo mělo nejistý původ; obraz to netvrdí, jen ho ukáže jako starý tvar, který zmizel.",
+      "diagram_generator": "went",
+      "diagram": "Hotový stav: GO -> WENT plnou čarou, WEND -> WENDED. U GO ztlumeně a drobně ĒODE s vodorovným škrtem."
+    },
+    {
+      "id": "S13b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13b.png",
+      "note": "Přechod od historie k dnešku. Tvary jsou prosté a velké - je to to, co člověk zná, ne to, co se právě vysvětlilo.",
+      "diagram_generator": "went",
+      "diagram": "Obraz se zmenší do rohu, plátno vyplní tři tvary GO / WENT / GONE, jak se učí ve škole."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Tatáž konvence jako S02 (škrtá se ikona). Záměrný callback - týž tvar pro 'tohle se nestalo'.",
+      "diagram_generator": "went",
+      "diagram": "Tři přeškrtnuté ikony: hlasovací lístek, paragraf, komise u stolu."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Konec prvního bloku. Nic nového v obraze, jen zmenšení - scéna má doznít, ne přidat.",
+      "diagram_generator": "went",
+      "diagram": "Obraz S13 zmenšený doprostřed prázdného plátna, pod ním jediný ambrový řádek ONE IRREGULAR VERB.",
+      "pause": 2.6
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Škrtnuté rovnítko, ne škrtnuté ústa. Škrtá se to TVRZENÍ, ne jedna z věcí.",
+      "diagram_generator": "technologie",
+      "diagram": "Vlevo ozubené soukolí s popiskem TECHNOLOGY, vpravo ústa s popiskem LANGUAGE, mezi nimi rovnítko s vodorovným škrtem."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Šipka tu znamená vývoj v čase, a to je v pořádku - u strojů ta představa platí. Video ji vyvrací až pro jazyk.",
+      "diagram_generator": "technologie",
+      "diagram": "Dva stroje vedle sebe, vlevo prostý, vpravo složitý, mezi nimi šipka."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Žebřík je MYLNÝ model a čárkovaná čára ho podle konvence kanálu označuje jako hypotézu. Je to nasazení páteře do druhé role a vyplatí se v S77e, kde se příčky škrtnou a kmen se rozvětví.",
+      "diagram_generator": "strom",
+      "diagram": "Na kmeni se objeví příčky - žebřík. Vedle popisek VERSION 1, VERSION 2, VERSION 3, ČÁRKOVANĚ."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S18. Popisky jsou ztlumené, protože je to představa, ne zjištění.",
+      "diagram_generator": "strom",
+      "diagram": "Týž žebřík, příčky dostanou popisky PRIMITIVE SOUNDS / GRAMMAR / VOCABULARY."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Kreslí se přeškrtnutý NÁVRH, ne přeškrtnutý jazyk.",
+      "diagram_generator": "technologie",
+      "diagram": "Dvě přeškrtnuté cedule: NOBODY DESIGNED ENGLISH, NOBODY DESIGNED LATIN - respektive rýsovací prkno s přeškrtnutým výkresem."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Čárkovaně, protože ta komise nikdy neexistovala. Kdyby byla plnou čarou, obraz by ji tvrdil.",
+      "diagram_generator": "technologie",
+      "diagram": "Prázdný jednací stůl se šesti židlemi, na stole nerozbalený papír. Celé ztlumené, čárkované obrysy."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Ambrová na USED.",
+      "diagram_generator": "technologie",
+      "diagram": "Vlevo krabice se štítkem RELEASE a vodorovným škrtem, vpravo ruce a ústa s popiskem USED."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Změny musí být VIDĚT jako drobné - když budou nápadné, obraz bude tvrdit skok, kdežto scénář tvrdí nepatrnost.",
+      "diagram_generator": "technologie",
+      "diagram": "Vodorovný pás generací jako řada drobných postav; nad každou drobná změna téhož slova."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Konec bloku.",
+      "diagram_generator": "technologie",
+      "diagram": "Prázdné křeslo s popiskem IN CHARGE, přeškrtnuté.",
+      "pause": 2.2
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Návrat páteře - divák ji naposled viděl jako žebřík (S18/S19), teď je zase holá. Příčky jsou pryč bez komentáře.",
+      "diagram_generator": "strom",
+      "diagram": "Kmen se vrátí na své souřadnice, zatím jediný."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Odcházející polovina jde DOPRAVA a zůstávající zůstává u paty kmene - v S27 z toho vyroste pravá větev. Směr se musí shodovat, jinak se rozdvojení nečte jako důsledek téhle scény.",
+      "diagram_generator": "strom",
+      "diagram": "U paty kmene shluk postav; polovina se odděluje a odchází doprava."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Větve se MUSÍ dotýkat, jinak obraz tvrdí rozdíl dřív, než ho tvrdí scénář.",
+      "diagram_generator": "strom",
+      "diagram": "Kmen se rozdvojí, obě větve běží těsně vedle sebe a jsou zatím totožné."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Hora je mezi větvemi, ne pod nimi. Změněná značka je na LEVÉ větvi a zůstane tam po celý blok - je to první rozdíl a divák ho má umět najít i v S29.",
+      "diagram_generator": "strom",
+      "diagram": "Mezi větve se vsune obrys hory; na levé větvi se jedna značka změní, na pravé ne."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Značky přibývají po jedné a jsou drobné. Kdyby naskočily naráz, obraz by tvrdil zlom, kdežto scénář tvrdí hromadění.",
+      "diagram_generator": "strom",
+      "diagram": "Na obou větvích přibývají drobné rozdílné značky."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Škrtnutá šipka = kontakt ustal. Konvence: šipka znamená směr a vztah, škrt jeho konec.",
+      "diagram_generator": "strom",
+      "diagram": "Mezi větvemi přeškrtnutá obousměrná šipka."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Tři rysky (S31, S32, S33) leží na kmeni v rostoucí výšce a jsou to TYTÉŽ souřadnice ve všech třech scénách - rozestup větví je jediná měnící se věc.",
+      "diagram_generator": "strom",
+      "diagram": "Vodorovná ryska přes obě větve s popiskem A FEW GENERATIONS, rozestup větví malý."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S31: mění se jen výška rysky a rozestup větví. Popisky předchozích rysek zůstávají viditelné, aby byl vidět postup.",
+      "diagram_generator": "strom",
+      "diagram": "Druhá ryska výš, A FEW HUNDRED YEARS, rozestup větší."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Třetí a poslední ryska. Ikona tlumočníka je jediná nová věc v obraze.",
+      "diagram_generator": "strom",
+      "diagram": "Třetí ryska nejvýš, A THOUSAND, mezi větvemi ikona tlumočníka."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Konec bloku.",
+      "diagram_generator": "strom",
+      "diagram": "Celý dosavadní rozklad, u paty přeškrtnutá cedule DECISION.",
+      "pause": 2.6
+    },
+    {
+      "id": "S35",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S35.png",
+      "note": "Druhá atmosférická scéna. Obroušený kámen je konkrétní, fotografovatelný předmět - přesně to, co SDXL zvládne. Otázka scény ('proč se to prostě neobrousí do jednoduchosti') je v obraze doslova. POZOR NA SLOVO 'DOORSTEP': v prvním kole se model chytil části 'door' a vrátil monumentální vchod se sloupy - tedy 'reprezentativní vstup' místo 'obroušení'. Navíc jsou dveře v tomhle videu vyhrazená metafora (S46d: koncovky odešly jedněmi dveřmi, pomocná slovesa vešla druhými), takže nápadné dveře o čtyřicet scén dřív ten obraz předběhnou. Prompt proto slovo 'door' neobsahuje vůbec.",
+      "prompt": "a flight of old stone stairs seen close from the side, each step visibly hollowed and dished in the middle by centuries of footsteps, cold damp stone, flat grey overcast light, no sun, no architecture around them, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S36",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S36.png",
+      "note": "JEDINÁ archivní scéna videa. PICK VYBRÁN Z KONTAKTNÍHO LISTU (6 kandidátů stažených a prohlédnutých), ne od stolu: [0] je ořez téže stránky, [2] detail písmene, [3] cizí přepis. Vybrána celá stránka f. 132r - teplý pergamen sedí do palety videa a divák má poznat STRÁNKU, ne písmeno. Rámeček téhle scény se vrací v S57 jako PRÁZDNÝ (praindoevropština žádnou stránku nemá) - to je jediný důvod, proč je archivní scéna zrovna tady. Pozor: pick NENÍ stabilní identifikátor (pořadí Commons se mění mezi voláními), dotaz je proto zúžený na konkrétní folio a po stažení se musí ověřit archive.py --evidence proti SHA-256 v archive-raw/S36.orig.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Beowulf Cotton MS Vitellius A XV f. 132r",
+        "pick": 1,
+        "grade": {
+          "fit": 0.88,
+          "saturation": 85,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Tohle je diagramové tvrzení, ne fotografické - proto NENÍ archiv. Divák musí VIDĚT, že se koncovka mění. Počet pádů se nepíše (factcheck S37).",
+      "diagram_generator": "koncovky",
+      "diagram": "Staroanglické podstatné jméno v mřížce: sloupce podle role ve větě, řádky podle čísla; vedle tři značky rodu."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Zbytky se ukázat MUSÍ, jinak obraz tvrdí 'nemění se vůbec', kdežto scénář říká 'barely changes'.",
+      "diagram_generator": "koncovky",
+      "diagram": "Táž mřížka, políčka postupně zhasínají; zbude jediný tvar a vedle něj drobné -S a -'S."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Popisek 'HERE' nese celou výhradu scénáře ('in that corner of the grammar'). Bez něj kresba tvrdí, že se zjednodušila angličtina jako celek.",
+      "diagram_generator": "koncovky",
+      "diagram": "Prázdná mřížka s ambrovým popiskem SIMPLER - HERE, kolem ní obrys celého 'domu' gramatiky ztlumeně."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Šipka znamená přesun informace, cíl je zatím mimo obraz - dopadne až v S44.",
+      "diagram_generator": "koncovky",
+      "diagram": "Z mřížky vychází ambrová šipka mimo ni."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "PÁTEŘ TÉHLE TROJICE: slova leží na pevných souřadnicích a v S42 se jen prohodí. Kdyby se posunula i sazba, divák nepozná, že jsou to táž slova. DOVĚTEK: whisper slyšel v této scéně slovo navíc na konci (S41 'man's', S42 'doggy') - doříkávaný artefakt krátké promluvy. Obětovaná věta se zapíná při pause >= 1.5, jenže tahle scéna má 0.8; explicitní 'dovetek' ji vynutí (tts.py: cisty = pause >= 1.5 or bool(dovetek)). Dovětek se vyrenderuje a zase uřízne, do videa se nedostane.",
+      "diagram_generator": "koncovky",
+      "diagram": "Věta THE DOG BIT THE MAN, pod každým slovem prázdné políčko.",
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S41. Mění se jen pozice dvou slov; oblouk ukazuje, co se prohodilo. Sazba ani souřadnice ostatních slov se nesmí hnout. DOVĚTEK: whisper slyšel v této scéně slovo navíc na konci (S41 'man's', S42 'doggy') - doříkávaný artefakt krátké promluvy. Obětovaná věta se zapíná při pause >= 1.5, jenže tahle scéna má 0.8; explicitní 'dovetek' ji vynutí (tts.py: cisty = pause >= 1.5 or bool(dovetek)). Dovětek se vyrenderuje a zase uřízne, do videa se nedostane.",
+      "diagram_generator": "koncovky",
+      "diagram": "Táž věta s prohozenými DOG a MAN, prohození vyznačeno obloukem.",
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Ikony jsou nutné - bez nich se rozdíl čte jako pravopisná drobnost. Ambrová na tom, co se změnilo, tedy na pořadí.",
+      "diagram_generator": "koncovky",
+      "diagram": "Obě věty pod sebou, vpravo dvě drobné ikony: pes kouše člověka, člověk kouše psa.",
+      "pause": 1.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "POZOR, factcheck to označuje jako NEEDS NUANCE: obraz smí ukázat větší volnost, ale NESMÍ nakreslit šipku 'koncovky zmizely -> proto ztuhl slovosled'. Ta kauzalita je v literatuře sporná (nizozemština flexi taky ztratila a ztuhla na SOV, němčina si ji udržela a ztuhla na SOV taky). Dvě scény, dva samostatné stavy, mezi nimi ŽÁDNÁ šipka.",
+      "diagram_generator": "koncovky",
+      "diagram": "Staroanglická věta, slova volně přeházená, u každého vlaječka s koncovkou; vlaječky drží význam bez ohledu na pořadí."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Vedle sebe s S44 jako dva STAVY, ne jako dva kroky. Viz poznámka u S44.",
+      "diagram_generator": "koncovky",
+      "diagram": "Moderní věta bez vlaječek, pod ní pevná kolejnice s popiskem WORD ORDER."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Váhy jsou tu poprvé a vrátí se v S47 - je to obraz pro 'complexity moves'.",
+      "diagram_generator": "koncovky",
+      "diagram": "Dvoje váhy: na jedněch klesají koncovky, na druhých stoupá slovosled. Nad nimi přeškrtnutý nápis SIMPLER."
+    },
+    {
+      "id": "S46b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46b.png",
+      "note": "Uživatel si tenhle přechod vyžádal jako VELMI ČISTÝ - je to jediné tvrzení bloku, které fact check nechal beze změny co do směru.",
+      "diagram_generator": "koncovky",
+      "diagram": "Vpravo od mizejících koncovek naskakuje řada drobných pomocných sloves."
+    },
+    {
+      "id": "S46c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46c.png",
+      "note": "Ambrová jen na POMOCNÝCH slovesech, ne na celých větách - jinak se ztratí, co je ta přibývající věc.",
+      "diagram_generator": "koncovky",
+      "diagram": "Pět tvarů pod sebou: I GO / I AM GOING / I HAVE GONE / I HAD BEEN GOING / I AM GOING TO GO, pomocná slovesa ambrově."
+    },
+    {
+      "id": "S46d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46d.png",
+      "note": "Metafora ze scénáře doslova. NESMÍ mezi nimi vést šipka 'nahradilo' - factcheck S46d: je to typologické tvrzení o prostředcích, ne o náhradě. Dveře jsou dvoje a oddělené právě proto.",
+      "diagram_generator": "koncovky",
+      "diagram": "Dvoje dveře: z levých odcházejí koncovky, do pravých vcházejí pomocná slovesa."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "POINTA Z TITULKU, 49 % stopáže. Nic dalšího v obraze.",
+      "diagram_generator": "koncovky",
+      "diagram": "Váhy z S46 v klidu, nad nimi jediný ambrový řádek COMPLEXITY MOVES.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Výzva k odběru podle docs/cta.md. Dědí obrázek S47, static, předchozí scéna je taky statický diagram - podmínka na neviditelný střih splněna. Leží na 50 % stopáže, tedy uprostřed okna 40-60 %, a je to PRVNÍ scéna za pointou z titulku. Původně byla zapsaná jako S80b na 90 % stopáže, což je pásmo, které docs/cta.md výslovně zakazuje. Nápis vypaluje render.py ze sdílené vrstvy, do diagramu se nekreslí.",
+      "pause": 1.4,
+      "cta": true
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "S48 je nově OTÁZKA, ne pokračování S47 - proto nesmí být obrazem navázaná na váhy z S47. Nový tvar, nové plátno.",
+      "diagram_generator": "mereni",
+      "diagram": "Dva jazyky jako dva neprůhledné tvary a mezi nimi váhy, které se nepřiklánějí."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Číslo se v obraze píše ČÍSLICÍ (73 %), ve scénáři slovy - titulky i hlas mají svoje pravidlo, obraz jiné. Škrtá se ciferník, tedy ten nástroj měření.",
+      "diagram_generator": "mereni",
+      "diagram": "Velký ciferník s nápisem LANGUAGE COMPLEXITY a ručičkou na 73 %, celý přeškrtnutý."
+    },
+    {
+      "id": "S49b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49b.png",
+      "note": "Jazyky NESMÍ být seřazené ani stejně velké - řada by tvrdila pořadí a stejná velikost rovnost. Ani jedno scénář netvrdí.",
+      "diagram_generator": "mereni",
+      "diagram": "Šest štítků s názvy jazyků rozprostřených po plátně, každý jinak velký a jinak natočený."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Zavádí obraz domu, který se vyplatí v S53. Tvrzení nese NAPLNĚNOST místnosti, ne její velikost.",
+      "diagram_generator": "mereni",
+      "diagram": "Dům se dvěma místnostmi: MORPHOLOGY plná až po strop, WORD ORDER uklizená."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S50: tentýž dům, obrácená naplněnost. Místnosti si NESMÍ vyměnit polohu ani velikost - tvrzení nese jen to, jak jsou plné.",
+      "diagram_generator": "mereni",
+      "diagram": "Týž dům, naplněnost místností obrácená."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Třetí varianta téhož domu. Přibývá místnost EVIDENTIALITY, což připravuje S63.",
+      "diagram_generator": "mereni",
+      "diagram": "Týž dům, třetí místnost EVIDENTIALITY plná, TENSE prázdná."
+    },
+    {
+      "id": "S52b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52b.png",
+      "note": "Doloženo ve factchecku inuktitutským Tusaatsiarunnanngittualuujunga. Do obrazu se konkrétní slovo psát NEMUSÍ; když se napíše, musí to být tohle a s jazykem.",
+      "diagram_generator": "mereni",
+      "diagram": "Vlevo jedno velmi dlouhé slovo, vpravo půl věty s několika slovy; oba tvary stejně dlouhé."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Konec bloku a výplata domu z S50.",
+      "diagram_generator": "mereni",
+      "diagram": "Celý dům z nadhledu, jedna místnost ambrově, ostatní ztlumené. Popisek ONE ROOM.",
+      "pause": 2.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Návrat k úvodnímu obrazu - stejné souřadnice jako S01, jinak se callback nepozná.",
+      "diagram_generator": "stari",
+      "diagram": "Kmen z páteře se vrátí, u paty opět postava z S01."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Uživatel si to vyžádal jmenovitě: ukázat TŘI ZPŮSOBY POČÍTÁNÍ téhož, ne 'latina má 5-7 pádů'. To by změnilo význam věty. Rozdíl je ve vokativu (pátý/šestý) a zbytkovém lokativu (sedmý) - factcheck S55.",
+      "diagram_generator": "stari",
+      "diagram": "Tentýž latinský vzor třikrát vedle sebe, orámovaný jednou na šest pádů, jednou na pět, jednou na sedm. Popisky SIX / FIVE / SEVEN."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Čárkovaně, protože je to rekonstrukce. Směr čar je ZDOLA NAHORU, tedy od dokladů k závěru - obrácený směr by tvrdil, že předka známe a odvozujeme z něj.",
+      "diagram_generator": "stari",
+      "diagram": "Několik doložených jazyků dole, z nich vedou čárkované čáry vzhůru k jedinému uzlu."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Kvůli tomuhle je S36 archivní scéna. Uživatel zakázal vymyšlený 'praindoevropský rukopis' - prázdný rámec téhož tvaru řekne 'žádný text neexistuje' silněji než jakákoli kresba. Rámeček musí mít TYTÉŽ rozměry a souřadnice jako v S36.",
+      "diagram_generator": "stari",
+      "diagram": "Týž rámeček jako u archivní stránky v S36, ale PRÁZDNÝ, s popiskem PROTO-INDO-EUROPEAN."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Jediné místo scénáře, kde se explicitně říká, jak silný doklad za tvrzením stojí. Obraz to nesmí zostřit na 'víme, jak mluvili'.",
+      "diagram_generator": "stari",
+      "diagram": "Prázdný rámeček zůstává, pod ním ambrový popisek RECONSTRUCTION, a čárkované čáry z S56 do něj ústí.",
+      "pause": 2.2
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Krátký beat, vrací otázku.",
+      "diagram_generator": "stari",
+      "diagram": "Otazník nad postavou u paty kmene."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Nezávislost dvou os je celé tvrzení scény. Kdyby se osy protínaly v křivce, obraz by tvrdil vztah.",
+      "diagram_generator": "stari",
+      "diagram": "Dvě osy: vodorovná TECHNOLOGY od prázdna doprava, svislá SOCIAL LIFE plná po celé délce."
+    },
+    {
+      "id": "S61",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S61.png",
+      "note": "Třetí a poslední SDXL scéna. Břeh řeky je konkrétní místo, ne abstrakce. Postava je malá a odvrácená - tváře zblízka jsou u SDXL riziko a negativ je zakazuje. slow_zoom_out, protože se scéna otevírá do věty, která bude rozebraná v S62.",
+      "prompt": "a shallow river between low banks, reeds, a single small figure walking away along the far bank, a spear leaning against a rock in the foreground, flat grey overcast sky, no sun, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "stari",
+      "diagram": "Táž věta i štítky; svítí prvních 1 z pěti.",
+      "note": "ROZDĚLENO NA PĚT BEATŮ. Pauzy uvnitř původní scény nešlo vložit řezem: naměřeno pět variant (tečky a výpustky při 0.88, 0.72 a 0.65) a NEJDELŠÍ ticho v kterékoli z nich je 190 ms, kdežto práh je 250 ms. scene_pause se ale PŘIDÁVÁ, takže ho nemá co odmítnout. Pauza je 0.35 s, ne výchozích 0.8 - má to být beat, ne předěl. Je to JEDEN obraz, ve kterém naskakují štítky. NÁVĚTÍ: jednoslovný beat Kokoro komolí - bez návětí slyšel whisper u 'When.' text 'The wind.' a u 'Where.' text 'with'. Návětí promluvu prodlouží a samo se uřízne v tichu před prvním slovem.",
+      "naveti": "That sentence is doing a lot of work.",
+      "pause": 0.35
+    },
+    {
+      "id": "S62b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62b.png",
+      "diagram_generator": "stari",
+      "diagram": "Táž věta i štítky; svítí prvních 2 z pěti.",
+      "note": "Beat 2 z pěti, shodná kompozice s S62. NÁVĚTÍ: jednoslovný beat Kokoro komolí - bez návětí slyšel whisper u 'When.' text 'The wind.' a u 'Where.' text 'with'. Návětí promluvu prodlouží a samo se uřízne v tichu před prvním slovem.",
+      "naveti": "That sentence is doing a lot of work.",
+      "pause": 0.35
+    },
+    {
+      "id": "S62c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62c.png",
+      "diagram_generator": "stari",
+      "diagram": "Táž věta i štítky; svítí prvních 3 z pěti.",
+      "note": "Beat 3 z pěti, shodná kompozice s S62. NÁVĚTÍ: jednoslovný beat Kokoro komolí - bez návětí slyšel whisper u 'When.' text 'The wind.' a u 'Where.' text 'with'. Návětí promluvu prodlouží a samo se uřízne v tichu před prvním slovem.",
+      "naveti": "That sentence is doing a lot of work.",
+      "pause": 0.35
+    },
+    {
+      "id": "S62d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62d.png",
+      "diagram_generator": "stari",
+      "diagram": "Táž věta i štítky; svítí prvních 4 z pěti.",
+      "note": "Beat 4 z pěti, shodná kompozice s S62. NÁVĚTÍ: jednoslovný beat Kokoro komolí - bez návětí slyšel whisper u 'When.' text 'The wind.' a u 'Where.' text 'with'. Návětí promluvu prodlouží a samo se uřízne v tichu před prvním slovem.",
+      "naveti": "That sentence is doing a lot of work.",
+      "pause": 0.35
+    },
+    {
+      "id": "S62e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62e.png",
+      "diagram_generator": "stari",
+      "diagram": "Táž věta i štítky; svítí prvních 5 z pěti.",
+      "note": "Beat 5 z pěti, shodná kompozice s S62."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Voiceover zůstává obecný 'some languages', takže v obraze NESMÍ být jméno jazyka. Kdyby ho scéna chtěla, factcheck má doloženou dvojici Tariana a Tuyuca.",
+      "diagram_generator": "stari",
+      "diagram": "Dvě ikony nad toutéž větou: oko a ucho, mezi nimi volba."
+    },
+    {
+      "id": "S63b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63b.png",
+      "note": "Ambrová na tom, co platí, škrt na tom, co ne. Factcheck S63: v tuyucštině se evidenciály nikdy nevynechávají, takže to není nadsázka.",
+      "diagram_generator": "stari",
+      "diagram": "Věta bez té značky, vedle ní přeškrtnutý štítek IMPOLITE a ambrový UNGRAMMATICAL."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Callback na soukolí z S16, týž tvar.",
+      "diagram_generator": "stari",
+      "diagram": "Přeškrtnuté soukolí s popiskem FOR DESCRIBING TECHNOLOGY, vedle dvě postavy proti sobě."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Šest políček, ne jedno - výčet ve voiceoveru je šestidílný a obraz ho má unést celý.",
+      "diagram_generator": "stari",
+      "diagram": "Šest drobných výjevů v mřížce: slib, vyprávění, smlouvání, vzpomínka, drb, lež."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S65. Konec bloku.",
+      "diagram_generator": "stari",
+      "diagram": "Týž obraz, do rohu přibude přeškrtnutý telefon.",
+      "pause": 2.8
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Analogie, ne tvrzení o mechanismu - scénář ji tak i uvozuje ('makes language LOOK like'). Obraz proto nesmí napsat rovnítko.",
+      "diagram_generator": "evoluce",
+      "diagram": "Vlevo rýsovací prkno s čistým výkresem, vpravo větvící se tvar. Mezi nimi obrácená váha ve prospěch pravé strany."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Callback na přeškrtnutý návrh z S20 - týž tvar pro totéž tvrzení.",
+      "diagram_generator": "evoluce",
+      "diagram": "Přeškrtnuté rýsovací prkno, vedle ruka přepisující existující tvar."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Je to o evoluci, ne o jazyce - obraz nesmí použít jazykové značky, jinak scéna přeskočí analogii a začne tvrdit.",
+      "diagram_generator": "evoluce",
+      "diagram": "Tvar poskládaný ze záplat a kompromisů, u některých dílů drobná ztlumená ryska s datem."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Beat se SHODNOU KOMPOZICÍ jako S69: přibývají jen popisky. Tvar se nesmí překreslit, jinak se ztratí, že mluvíme o témž.",
+      "diagram_generator": "evoluce",
+      "diagram": "Týž tvar, u dílů popisky INHERITED / BENT / LOST / KEPT BY ACCIDENT."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "CALLBACK přes šedesát scén zpátky na blok went (S08-S15) - proto je ve stejném generátoru, ne v evoluce. WENT musí být vysázené TÝMŽ tvarem jako v S13, jinak se návrat motivu nepozná.",
+      "diagram_generator": "went",
+      "diagram": "Vitrína se třemi exponáty: WENT, tiché K ve slově KNIGHT, a nepravidelné sloveso. Popisek MUSEUM.",
+      "pause": 2.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Příprava na S73 - žebřík se musí objevit, aby bylo co popřít.",
+      "diagram_generator": "strom",
+      "diagram": "Kmen se vrátí, kolem něj ztlumeně obrysy žebříku z S18."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Nejkratší scéna videa a nese hlavní tezi. Konec kmene je BEZ ŠIPKY - tak, jak byl založený v S01. Tady se ta volba vyplácí.",
+      "diagram_generator": "strom",
+      "diagram": "Žebříkové příčky zmizí, na konci kmene je prázdno. Jediný ambrový řádek NO DIRECTION.",
+      "pause": 3.0
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Obě škrtnuté stejně silně - kdyby jedna byla slabší, obraz by naznačoval, že jedna z nich trochu platí.",
+      "diagram_generator": "strom",
+      "diagram": "Dvě přeškrtnuté cedule vedle kmene: SHOULD GET SIMPLER, SHOULD GET RICHER."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Bez jména konkrétního jazyka: uživatel si vyžádal 2026-09-16 odstranění 'Russian' z mimojazykových důvodů. Zobecnění je přitom VĚCNĚ SILNĚJŠÍ - pádovou flexi ztratily ze slovanských jazyků jen bulharština a makedonština, takže 'většina si ji udržela' je tvrzení o celé rodině.",
+      "diagram_generator": "strom",
+      "diagram": "Rozvětvení s uzlem PROTO-SLAVIC, levá větev MOST OF THEM s plnou mřížkou pádů."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "POZOR, factcheck NEEDS NUANCE: mezi zhasnutou mřížkou a členem NESMÍ vést šipka. Přímá kauzalita 'člen nahradil pády' je v literatuře sporná; doložená je souběžnost a protiváha. Jsou to dvě věci na téže větvi, ne příčina a následek.",
+      "diagram_generator": "strom",
+      "diagram": "Pravá větev BULGARIAN: mřížka pádů zhasne, na konci slova naskočí ambrová přípona členu."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Větve musí být stejně dlouhé a stejně silné, jinak obraz jednu z nich prohlásí za lepší.",
+      "diagram_generator": "strom",
+      "diagram": "Obě větve vedle sebe, mezi nimi přeškrtnutý nápis UPGRADE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S77b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77b.png",
+      "note": "Kmen se zmenšuje, ale zůstává na svých souřadnicích - je to týž strom, jen z většího odstupu. Tohle je první krok k výplatě v S77e.",
+      "diagram_generator": "strom",
+      "diagram": "Kmen se zmenší a kolem něj se objeví další podobná rozvětvení."
+    },
+    {
+      "id": "S77c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77c.png",
+      "note": "Rozvětvení přibývají, žádné není zvýrazněné. Kdyby jedna větev byla ambrová, obraz by tvrdil, že na ní záleží víc.",
+      "diagram_generator": "strom",
+      "diagram": "Rozvětvení se množí po celém plátně."
+    },
+    {
+      "id": "S77d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77d.png",
+      "note": "Šipka je obousměrná schválně - výpůjčka není jednosměrná a jednosměrná šipka by tvrdila, že jeden jazyk dává a druhý bere.",
+      "diagram_generator": "strom",
+      "diagram": "Mezi dvěma větvemi obousměrná šipka s popiskem BORROWING."
+    },
+    {
+      "id": "S77e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77e.png",
+      "note": "Největší obrazová scéna videa - uživatel ji označil za hlavní vizuální payoff. Kmen musí být na TÝCHŽ souřadnicích jako v S01, jinak se výplata nepozná a každá scéna zvlášť bude jen vypadat dobře. Konce větví jsou otevřené (bez šipek a bez teček), protože 'it is still growing'.",
+      "diagram_generator": "strom",
+      "diagram": "VÝPLATA PÁTEŘE: celé plátno je strom vyrostlý z kmene ze S01, konce větví otevřené a nerovné. Vlevo ztlumený a přeškrtnutý žebřík z S18.",
+      "pause": 3.2
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Latinský vzor musí být TÝŽ tvar jako v S55, jinak se nepozná, že se vrací. Škrtá se nápis SUPERIOR, ne ten vzor.",
+      "diagram_generator": "zaver",
+      "diagram": "Latinský vzor z S55, nad ním přeškrtnutý nápis SUPERIOR."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Zrcadlo S78 - stejná kompozice, druhý jazyk. Dvojice se čte jako jedno tvrzení jen tehdy, když jsou obrazy postavené shodně.",
+      "diagram_generator": "zaver",
+      "diagram": "Moderní anglická věta, nad ní přeškrtnutý nápis CLEVERER."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Zmenšený strom - od téhle scény se obraz už jen uklidňuje. Začíná posledních 20 s minus ocas; od S85 dál musí být volná HORNÍ polovina (docs: prvky závěrečné obrazovky patří nahoru, dole je vždycky titulek).",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě větve stromu vedle sebe, pod nimi jediný popisek DIFFERENT HISTORIES."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Otázka je vysázená TÝMŽ tvarem jako v titulku videa a kolem ní je schválně prázdno. Závěr se má zpomalovat, ne přidávat.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka z titulku vypsaná uprostřed, kolem prázdno."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Táž otázka na týchž souřadnicích, převrácená. Ambrová je až tady - v S81 je otázka ještě ztlumená, protože je to ta špatná.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka se převrátí: WHY DID WE EXPECT A SIMPLE ONE? Ambrově.",
+      "pause": 2.0
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Poslední výskyt konvence 'přeškrtnutá cedule' - v tomhle videu je to samostatný motiv (S02, S14, S20, S74, S78, S79).",
+      "diagram_generator": "zaver",
+      "diagram": "Tři přeškrtnuté cedule pod sebou: NO PLAN, NO FINAL VERSION, NO COMMITTEE."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Od téhle scény se obraz vyprazdňuje. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě postavy proti sobě, mezi nimi jednoduchá linka. Nic víc."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "ZÁVĚREČNÁ DESKA. Není to scéna navíc, je to poslední scéna scénáře navržená jako klidná. Horní dvě třetiny prázdné. Výhonek je jediná ambrová věc v obraze - 'it evolves towards whatever people keep using'.",
+      "diagram_generator": "strom",
+      "diagram": "Strom ze S77e, ztlumený a zmenšený do dolní třetiny; na jedné větvi jediný nový ambrový výhonek."
+    }
+  ]
+}

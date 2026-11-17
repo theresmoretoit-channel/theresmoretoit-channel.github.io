@@ -1,0 +1,888 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Páteř se zavádí první scénou a je to TÉŽ okno() jako v 017 a 028 — divák pozná pokračování obrazem. Prázdno pod oknem je záměr: celé video ho zaplňuje.",
+      "diagram_generator": "uvod",
+      "diagram": "Samotné okno prohlížeče uprostřed, ztlumené, bez obsahu; pod ním prázdno."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "okna_v_rade() z prvního dílu. Ambrová = o tomhle je řeč, tedy ty čtyři alternativy; naše okno je šedé, protože o něm se právě mluví jako o mrtvém.",
+      "diagram_generator": "uvod",
+      "diagram": "Kolem ztlumeného okna IE6 čtyři ambrová okna v řadě: FIREFOX, CHROME, IE7, IE8."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Odpočet je PREMISA hooku, ne blok — v díle 2 je vyplacený jako pointa, tady jen jedna věta. Kreslí se proto jinak než tam: pruh, ne mapa po zemích.",
+      "diagram_generator": "uvod",
+      "diagram": "Vodorovný pruh podílu na trhu s klesající ambrovou značkou a popiskem procent."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "mrizka() se svítícími poli. Počet svítících musí odpovídat 'more than one in ten' — assert v generátoru, obrázek nesmí tvrdit víc než scénář.",
+      "diagram_generator": "uvod",
+      "diagram": "Mřížka mnoha malých strojů, na každém totéž okno; ambrových je víc než desetina."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "První cihla věže. Šipka míří OD aplikace K prohlížeči, protože závisí aplikace na prohlížeči, ne naopak — scéna, ve které něco míří na někoho.",
+      "diagram_generator": "uvod",
+      "diagram": "Pod oknem se poprvé objeví vrstva APPLICATION a šipka od ní vzhůru k oknu."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zavedení druhé poloviny páteře. Je to vez() na pevných souřadnicích a od téhle scény se okno kreslí VŽDY na témž místě, jinak se výplata v S90 nepozná.",
+      "diagram_generator": "uvod",
+      "diagram": "Věž vrstev: okno klesne mezi ně a stane se jednou z vrstev, ne tím, co je nahoře."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Paradox celého videa v jednom obraze. Callback se vyplácí v S54 — obě scény musí kreslit tytéž dvě šipky ve stejném rozvržení.",
+      "diagram_generator": "uvod",
+      "diagram": "Ikona Microsoftu, z ní dvě šipky: jedna škrtá okno, druhá ho zespodu podpírá."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Orientace v trilogii. Držet pořadí zleva doprava, aby odkaz 'linked below' seděl s tím, co divák vidí.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři desky vedle sebe: PART ONE, PART TWO, PART THREE; třetí ambrová."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Hlavní otázka videa nad páteří, tedy nad tím, co na ni odpoví. Konec hooku.",
+      "diagram_generator": "uvod",
+      "diagram": "Nad věží ambrový nadpis s otázkou: co se stane, když se zastaralý software stane infrastrukturou.",
+      "pause": 2.6
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Stáří prohlížečů je tvrzení scénáře (nine, six, two) — kóty se počítají z osy, nepíšou se napevno.",
+      "diagram_generator": "aurora",
+      "diagram": "Časová osa 2001–2010 se značkami IE6, FIREFOX, CHROME a vedle pruh: víc než desetina pořád IE6."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Ambrová tady znamená 'o tomhle je řeč', ne 'dobré'. Vetřelec je UVNITŘ hranice, ne za ní — to je celá pointa scény.",
+      "diagram_generator": "aurora",
+      "diagram": "Síť propojených uzlů firmy, uvnitř jeden cizí ambrový uzel."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Škrt přes první položku je text_skrtnuty(), ne skrt_text() — jinak zbude holá čára bez nápisu.",
+      "diagram_generator": "aurora",
+      "diagram": "Seznam: přeškrtnutý DEFACED WEBSITE, pod ním SOURCE CODE, EMPLOYEE ACCOUNTS, ACTIVISTS' GMAIL."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Počet rámečků má assert na dvacet: 'at least twenty' je číslo ze scénáře a obraz ho nesmí přehánět.",
+      "diagram_generator": "aurora",
+      "diagram": "Dvacet malých rámečků firem, Google mezi nimi ambrový."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Okno se NEROZBÍJÍ jako v díle 2 — jen se ukáže, že je průchozí. Rozbité okno je vizuální jazyk 028 a tady by tvrdil něco jiného.",
+      "diagram_generator": "aurora",
+      "diagram": "Okno prohlížeče s trhlinou v rámu a šipkou zvenčí dovnitř; štítek IE6."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Doklad je v odstupu, ne v datu: mimořádnost se pozná tím, že bod není v řadě. Vzdálenost se odvozuje z rozteče úterků.",
+      "diagram_generator": "aurora",
+      "diagram": "Řada úterků v kalendáři, jeden ambrový bod stojí mimo řadu, o tři týdny dřív."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Škrt na ploše bez písma je křížek (skrtnout), na nápis by patřila vodorovná čára.",
+      "diagram_generator": "aurora",
+      "diagram": "Úřední deska, na ní vyobrazení prohlížeče se škrtem."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Dvě země, tentýž závěr — proto shodné rozvržení obou desek. Rozdílné by naznačovalo rozdílná doporučení.",
+      "diagram_generator": "aurora",
+      "diagram": "Dvě desky vedle sebe, GERMANY a FRANCE, obě se stejným doporučením."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Číslo dává smysl jen v poměru k běžnému stavu, jinak je to jen velké číslo. Sousední sloupec je proto povinný.",
+      "diagram_generator": "aurora",
+      "diagram": "Sloupec tří set tisíc stažení Firefoxu za jeden víkend vedle běžného týdne."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Datum je text v obraze, proto smí být číslicí — mluvené slovo je 'the first of March'.",
+      "diagram_generator": "aurora",
+      "diagram": "Ikony Google Docs a Google Sites s ambrovým datem 1 MARCH a škrtem nad oknem IE6."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Sbíhavá kompozice říká 'shodli se', což je přesně to, co scéna tvrdí.",
+      "diagram_generator": "aurora",
+      "diagram": "Tři šipky se sbíhají k oknu: SECURITY, GOVERNMENTS, GOOGLE."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Výplata bloku: tlak byl doložen, a přesto se nic nestalo. Ztlumení, ne škrt — ty věci nepřestaly platit.",
+      "diagram_generator": "aurora",
+      "diagram": "Totéž okno pořád stojí, kolem něj ztlumené všechno z předchozích scén.",
+      "pause": 2.8
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "text_skrtnuty() přes celou rovnici, ne po částech: neplatí celé tvrzení, ne jen jedna jeho půlka.",
+      "diagram_generator": "verze",
+      "diagram": "Rovnice WINDOWS XP = INTERNET EXPLORER 6, přeškrtnutá vodorovnou čarou přes celý nápis."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Klíčový obraz opravy z fact checku. Obě okna musí stát na TÉŽE vrstvě — kdyby sedmička stála výš, tvrdilo by to, že chtěla novější systém.",
+      "diagram_generator": "verze",
+      "diagram": "Vrstva WINDOWS XP, nad ní dvě okna vedle sebe: 6 a ambrové 7, obě stojí na téže vrstvě."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Mezera pod devítkou nese celé tvrzení: nebylo na čem stát. Křížek na ploše, ne na nápisu.",
+      "diagram_generator": "verze",
+      "diagram": "Přibude okno 8 na téže vrstvě; okno 9 stojí stranou nad vrstvou, s křížkem a mezerou pod sebou."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Šipka jde OD Microsoftu KE stroji — je to tlak výrobce, ne volba uživatele. To scéna říká doslova.",
+      "diagram_generator": "verze",
+      "diagram": "Windows Update jako zdroj, ambrová šipka od něj k oknu 7 na stroji, štítek CRITICAL UPDATE."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "kota() počítá rozestup z osy. Čtyři roky jsou tvrzení scénáře a nesmí vyjít jinak, než jak je osa dělená.",
+      "diagram_generator": "verze",
+      "diagram": "Časová osa s kótou od 2006 k 2010 a popiskem, kolik let to je."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Škrtá se PŘÍČINNÁ ŠIPKA, ne stroj ani okno. Kdyby se škrtl systém, tvrdilo by to, že XP zmizel.",
+      "diagram_generator": "verze",
+      "diagram": "Stroj s vrstvou XP a oknem 6; šipka od operačního systému k oknu je přeškrtnutá."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Hlavní obrat videa. Ambrová se poprvé přesouvá z prohlížeče na aplikaci a od téhle scény tam zůstává.",
+      "diagram_generator": "verze",
+      "diagram": "Věž: vrstva OPERATING SYSTEM ztlumená, vrstva APPLICATION ambrová.",
+      "pause": 3.0
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Okno drží pozici i uvnitř budovy — je to táž věc, jen viděná zvenčí. Kdyby se posunulo, přestala by být páteří.",
+      "diagram_generator": "aplikace",
+      "diagram": "Obrys firemní budovy, uvnitř malé okno prohlížeče na týchž souřadnicích jako vždy."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "ikona_zarizeni() z prvního dílu, kde ActiveX vznikl jako téma. Pět cílů je pět položek scénáře — ani o jednu víc.",
+      "diagram_generator": "aplikace",
+      "diagram": "Od okna vedou šipky k ikonám: soubory, tiskárna, skener, databáze, čtečka karet; štítek ACTIVEX."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Jediný cíl je doslovný obraz 'the only target anybody cared about'. Prázdno kolem je tvrzení, ne nedodělek.",
+      "diagram_generator": "aplikace",
+      "diagram": "Terč s jediným kruhem a nápisem IE6; kolem něj nic dalšího."
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "Jediná scéna bloku, kde jde o měřítko a ne o tvrzení: aplikaci používá každé ráno spousta lidí. Diagram by z toho udělal schéma, a ta scéna nemá být schéma. Pozor při přejímce: NESMÍ to být serverovna ani vývojářské pracoviště — to je obraz z dílu 2.",
+      "prompt": "an early two thousands open plan office on an ordinary working morning, rows of desks occupied by people at bulky CRT monitors, everyone facing their screen, routine and unremarkable, flat grey overcast daylight through the windows, painterly documentary illustration, no text"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "vahy() v rovnováze jsou tvrzení: scéna říká 'you are betting', tedy že se neví. Naklonit je by za diváka odpovědělo.",
+      "diagram_generator": "aplikace",
+      "diagram": "Okno vyměněné za novější, pod ním aplikace s otazníkem a vahami v rovnováze.",
+      "pause": 2.2
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Krátká spojka. Věž se kreslí toutéž funkcí, aby scéna nebyla nová informace, ale připomenutí.",
+      "diagram_generator": "blocker",
+      "diagram": "Ikona Microsoftu s pohledem na věž vrstev, kterou už divák zná."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Rozesílání je táž šipka jako v S25, jen z odstupu. Callback musí být poznat.",
+      "diagram_generator": "blocker",
+      "diagram": "Windows Update rozesílá IE7 na řadu strojů; nad firmou vykřičník."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "mrizka() s assertem na 10 000 polí: číslo je ve scénáři a obraz ho musí unést doslova. Poměr jedné šipky ku mřížce je celá pointa.",
+      "diagram_generator": "blocker",
+      "diagram": "Mřížka deseti tisíc strojů, pod ní jediná šipka jedné automatické aktualizace."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Zastavovaný objekt musí být jednoznačně TÝŽ tvar jako okno 7 z S23 a S25, jinak není poznat, co se blokuje.",
+      "diagram_generator": "blocker",
+      "diagram": "Microsoft podává nástroj, který zastavuje jeho vlastní nový prohlížeč před instalací."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Řetězec je text v obraze, proto se píše přesně tak, jak stojí v registru — je to doklad, ne ozdoba.",
+      "diagram_generator": "blocker",
+      "diagram": "Zábrana mezi Windows Update a strojem, na ní štítek s hodnotou DoNotAllowIE70."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Prázdné pole je silnější než nápis NEVER: divák si doplní sám. policko() se kreslí nezaškrtnuté.",
+      "diagram_generator": "blocker",
+      "diagram": "Políčko EXPIRES v rámečku, prázdné."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Čtyři, ne pět: desítka blocker neměla. Počet má assert, protože S41 na něm staví slovem 'four times'.",
+      "diagram_generator": "blocker",
+      "diagram": "Čtyři zábrany v řadě, popsané 7, 8, 9, 11."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Stejná tloušťka obou šipek je tvrzení — kdyby jedna byla slabší, obraz by naznačoval, kterou Microsoft myslel vážně.",
+      "diagram_generator": "blocker",
+      "diagram": "Z ikony Microsoftu dvě opačné šipky: UPGRADE a DON'T; obě stejně silné."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Obrácení směru je pointa scény: nebyl to tlak výrobce, byla to poptávka. Proto musí sedět rozvržení s S25.",
+      "diagram_generator": "blocker",
+      "diagram": "Šipka od firem k Microsoftu popsaná DEMAND, opačná než v S25."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Blokace kupuje čas, nezastavuje ho. Hodiny jsou skoro doběhlé, ne plné.",
+      "diagram_generator": "blocker",
+      "diagram": "Přesýpací hodiny nad strojem, ve spodní části téměř všechen písek.",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Výměna stroje, ne rozhodnutí — proto křížek na starém, ne škrt přes nápis.",
+      "diagram_generator": "medv",
+      "diagram": "Starý stroj s křížkem, vedle nový stroj se štítkem WINDOWS 7."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Prázdný obrys na TÝCHŽ souřadnicích, kde okno stálo od S01. Bez toho se neztratí nic — a scéna je právě o ztrátě.",
+      "diagram_generator": "medv",
+      "diagram": "Vrstva WINDOWS 7 a nad ní prázdné místo ve tvaru okna, obrys tečkovaný."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Obě cesty stejně široké. Kdyby jedna byla užší, obraz by rozhodl místo diváka.",
+      "diagram_generator": "medv",
+      "diagram": "Rozcestí se dvěma cestami: STAY ON XP a REPLACE THE APPLICATION, obě s cenou."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Ambrová = o tomhle je řeč. Třetí cesta se odděluje až tady, ne už v S46 — jinak zmizí překvapení.",
+      "diagram_generator": "medv",
+      "diagram": "Z rozcestí vede třetí, ambrová cesta."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Že se to kupovalo, je půlka tvrzení — proto štítek předplatného, ne jen jméno.",
+      "diagram_generator": "medv",
+      "diagram": "Krabice produktu s plným názvem Microsoft Enterprise Desktop Virtualization a štítkem SUBSCRIPTION."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Matrjoška. Vnitřní rám je ztlumený, protože scéna říká 'invisibly, in the background'.",
+      "diagram_generator": "medv",
+      "diagram": "Velký rám WINDOWS 7, uvnitř menší, ztlumený rám WINDOWS XP."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Třetí úroveň zanoření a návrat okna po pěti scénách. Ambrová sem patří: tohle je ta věc, kvůli které celý ten aparát existuje.",
+      "diagram_generator": "medv",
+      "diagram": "Uvnitř vnitřního rámu WINDOWS XP totéž okno prohlížeče, ambrové."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Šipka míří dovnitř, ne ven — přesměrování jde do starého prohlížeče. Opačný směr by tvrdil nesmysl.",
+      "diagram_generator": "medv",
+      "diagram": "Seznam adres vedle matrjošky, od jedné položky šipka dovnitř do starého okna."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Rozdíl mezi tím, co uživatel vidí (okno), a tím, co se stalo (celý systém), je celá pointa. Ztlumená vrstva se nesmí vypustit.",
+      "diagram_generator": "medv",
+      "diagram": "Kurzor klikne na odkaz, nahoře vyskočí okno; pod ním ztlumeně celá matrjoška."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Stejný rok na obou deskách je doklad, ne kompozice — proto se rok píše na obě.",
+      "diagram_generator": "medv",
+      "diagram": "Dvě desky téhož roku vedle sebe: veřejné IT HAS TO GO a prodejní KEEP IT RUNNING."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "VÝPLATA callbacku z S07. Musí to být tentýž obraz na týchž souřadnicích, jinak se odkaz přes dvanáct minut nepozná.",
+      "diagram_generator": "medv",
+      "diagram": "Ikona Microsoftu, z ní dvě šipky: jedna škrtá okno, druhá ho podpírá — totéž rozvržení jako v S07.",
+      "pause": 2.6
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Tvrzení scény doslova: ani ten, kdo věc vyrobil, nestojí mimo závislost. Vrstva MICROSOFT proto není nahoře, ale uvnitř.",
+      "diagram_generator": "medv",
+      "diagram": "Věž vrstev, ve které je jednou z vrstev i sám Microsoft."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Zpřesněno po fact checku: jsou to REŽIMY KOMPATIBILITY, ne celý starý prohlížeč uvnitř. Kresba proto nesmí ukazovat okno v okně jako v S49.",
+      "diagram_generator": "medv",
+      "diagram": "Nové okno IE11 s přepínačem režimů uvnitř; jeden režim popsaný jako osmičkový."
+    },
+    {
+      "id": "S56b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56b.png",
+      "note": "Důvod existence režimu. Táž ikona ActiveX jako v S30 — je to tatáž věc o deset let později.",
+      "diagram_generator": "medv",
+      "diagram": "Pod přepínačem staré interní aplikace a jejich ActiveX prvky."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Přímé srovnání s S49 na týchž souřadnicích. Scéna říká 'no longer a different machine, a setting inside the new one' a obraz to musí ukázat zmenšením, ne novým tvarem.",
+      "diagram_generator": "medv",
+      "diagram": "Matrjoška z S49 se scvrkne na jediný přepínač uvnitř nového okna.",
+      "pause": 2.4
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Shrnutí dosavadního výkladu, aby měl další blok co přebít.",
+      "diagram_generator": "korea",
+      "diagram": "Tři štítky vedle sebe: BAD SOFTWARE, CAUTIOUS MANAGERS, BUDGETS."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Měřítko se mění z firmy na zemi. Ztlumené štítky drží spojitost — nejsou vyvrácené, jen malé.",
+      "diagram_generator": "korea",
+      "diagram": "Obrys Jižní Koreje; tři štítky z předchozí scény ztlumené stranou."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Šifra jako zámek, který žádný prohlížeč neumí otevřít. Prohlížeče musí být VŠECHNY, ne jen jeden — scéna říká 'no browser supported it'.",
+      "diagram_generator": "korea",
+      "diagram": "Zámek s vlastním tvarem klíčové dírky, pod ním řada prohlížečů, žádný se do něj nehodí."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Dvě zúžení za sebou: jedna technologie, jeden prohlížeč. Kdyby byla nakreslena jen jedna, chyběla by půlka příčiny.",
+      "diagram_generator": "korea",
+      "diagram": "Jediná cesta k zámku vede přes ActiveX a ta vede jen do Internet Exploreru."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Společná vrstva je celé tvrzení scény. Sloupce musí být stejně široké — nejde o to, který je větší.",
+      "diagram_generator": "korea",
+      "diagram": "Tři sloupce BANKING, GOVERNMENT, SHOPPING, všechny stojí na jedné společné vrstvě."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Nejsilnější obraz bloku. 'Not by accident. By regulation.' je rozdíl mezi nehodou a rozhodnutím a štítek to musí nést.",
+      "diagram_generator": "korea",
+      "diagram": "Obrys země stojí na okně prohlížeče; pod tím štítek BY REGULATION."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Škrtá se JEN předpis. Kdyby zbledly i weby, tvrdilo by to opak toho, co scéna říká.",
+      "diagram_generator": "korea",
+      "diagram": "Předpis přeškrtnutý vodorovnou čarou, weby pod ním beze změny."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Rozdíl mezi vratným rozhodnutím a infrastrukturou. Tvar šipek nese tvrzení sám, i bez popisků.",
+      "diagram_generator": "korea",
+      "diagram": "Dvě šipky vedle sebe: jedna se stáčí zpět, druhá pokračuje a nelze ji otočit.",
+      "pause": 2.4
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Druhý sloupec zůstává zatím prázdný — naplní se až v S67, aby srovnání mělo beat.",
+      "diagram_generator": "mapa",
+      "diagram": "Dva sloupce vedle sebe, UNITED STATES pod jedním procentem, s datem leden 2012."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Dvě čísla v jednom sloupci: současný stav plně, dřívější ztlumeně. Ne dva sloupce, jinak by to vypadalo jako dvě země.",
+      "diagram_generator": "mapa",
+      "diagram": "Vedlejší sloupec CHINA vyplněný ze čtvrtiny, nad ním ztlumená značka třetiny z jara před tím."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Odpověď scény v obraze: prohlížeč je týž, liší se to, co na něm stojí. Věž se kreslí toutéž funkcí jako páteř.",
+      "diagram_generator": "mapa",
+      "diagram": "Pod oběma sloupci různě vysoké věže vrstev; sloupce samotné jsou stejné."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Poslední scéna bloku je zároveň první scéna dalšího tématu — proto sem patří obraz NHS, ne mapa.",
+      "diagram_generator": "mapa",
+      "diagram": "Přechod k Británii: obrys NHS a ambrový podíl osmdesáti pěti procent."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Podíl i celek v jednom obraze. Assert na 85 % svítících polí: obraz nesmí tvrdit víc ani míň než scénář.",
+      "diagram_generator": "nhs",
+      "diagram": "Mřížka osmi set tisíc strojů, z nich osmdesát pět procent ambrových."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Konec podpory je čára, ne propast — stroje běžely dál. To scénář říká o dvě scény později a obraz to nesmí předběhnout.",
+      "diagram_generator": "nhs",
+      "diagram": "Časová osa se značkou APRIL 2014 a koncem podpory za ní."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Obě čísla musí být v obraze: cena bez doby nic neříká.",
+      "diagram_generator": "nhs",
+      "diagram": "Smlouva mezi britskou vládou a Microsoftem, na ní částka pět a půl milionu liber a dvanáct měsíců."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "'Not to upgrade anything' je nejtvrdší věta bloku. Prázdné pole vedle ceny to nese bez popisku.",
+      "diagram_generator": "nhs",
+      "diagram": "Cenovka připnutá k prázdnému poli, kde nic nového není."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Cena se připíná ke konkrétní vrstvě, ne k celé věži — platí se za tu jednu závislost.",
+      "diagram_generator": "nhs",
+      "diagram": "Věž vrstev s cenovkou u vrstvy APPLICATION."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Zobecnění: jedno číslo je jediné, které je vidět, protože jinde ho nikdo nespočítal.",
+      "diagram_generator": "nhs",
+      "diagram": "Táž cenovka zmenšená, kolem ní řada dalších firem bez čísel."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Skříňka je zavřená, ne poloprůhledná: scéna říká, že se to teprve musí zjistit.",
+      "diagram_generator": "nhs",
+      "diagram": "Černá skříňka s otazníky uvnitř a seznamem toho, co se musí zjistit."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Ztlumené štítky = 'nobody knows what all of them are'. Nesmí být škrtnuté, protože platí dál — jen se na ně zapomnělo.",
+      "diagram_generator": "nhs",
+      "diagram": "Okno prohlížeče a kolem něj mnoho drobných štítků s předpoklady, část ztlumená do nečitelna.",
+      "pause": 2.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Odpověď 'not with a deadline' se musí objevit dřív, než přijde vysvětlení — jinak divák čeká datum celý blok.",
+      "diagram_generator": "konec",
+      "diagram": "Kalendář s výrazným datem, přeškrtnutý."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Datum je text v obraze, proto číslicí.",
+      "diagram_generator": "konec",
+      "diagram": "Deska DECEMBER 2011 s oznámením Microsoftu."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Táž šipka jako v S25, ale bez dotazu — to je celý rozdíl. Strop na osmičce je doložený a musí být vidět.",
+      "diagram_generator": "konec",
+      "diagram": "Šipka od Windows Update ke stroji bez otazníku; na XP končí u osmičky."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Odmítnout šlo, ale nikdo se neptal — proto kurzor mimo tlačítko, ne škrt přes něj.",
+      "diagram_generator": "konec",
+      "diagram": "Dialogové okno s volbou NO, kurzor stojí jinde."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Data v obraze od prvního snímku, žádný nájezd na prázdné osy — divák je čte jako rozbitý graf.",
+      "diagram_generator": "konec",
+      "diagram": "Křivka podílu klesá pod ambrovou čáru jednoho procenta."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Pořadí bodů je celé tvrzení scénáře: prohrál dřív, než přišel termín.",
+      "diagram_generator": "konec",
+      "diagram": "Osa se dvěma body: 2012 kdy prohlížeč prohrál a 2014 kdy skončila podpora, mezi nimi kóta dvou let."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Bod je ZA čarou, ne na ní. Kdyby ležel na ní, tvrdil by, že se termín dodržel.",
+      "diagram_generator": "konec",
+      "diagram": "Za koncovou čarou stojí ještě jeden ambrový bod, tři týdny za ní."
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Čtrnáct let je počítané, ne napsané: kóta se odvozuje z osy.",
+      "diagram_generator": "konec",
+      "diagram": "Dlouhá osa 2001–2016 s kótou čtrnácti let."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Poprvé od S01 okno není. Souřadnice zůstávají, aby bylo vidět, že chybí právě ono.",
+      "diagram_generator": "konec",
+      "diagram": "Okno prohlížeče zhasnuté, tečkovaný obrys, datum červen 2022."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Starý obrys je uvnitř nového okna, ne vedle — jinak by scéna tvrdila, že běží dvě věci. A není to celý IE6: je to režim, tedy obrys, ne plné okno.",
+      "diagram_generator": "konec",
+      "diagram": "Nové okno EDGE, uvnitř ztlumený obrys starého okna jako režim; štítek AT LEAST 2029."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Obě čísla se v kódu počítají z letopočtů a jsou zajištěná assertem — jsou to nejsilnější čísla videa.",
+      "diagram_generator": "konec",
+      "diagram": "Osa 2001–2029 s dvěma kótami: dvacet osm let od vydání, devatenáct od prohlášení za mrtvý.",
+      "pause": 2.8
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Rámuje video. Musí to být týž nadpis na týchž souřadnicích jako v S09.",
+      "diagram_generator": "finale",
+      "diagram": "Otázka z S09 znovu, tentokrát pod ní místo na odpověď."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "VÝPLATA PÁTEŘE. Vrstvy se stavěly od S05 po jedné a tady jsou poprvé všechny současně. Okno musí zůstat na týchž souřadnicích, jinak celé video přijde o svůj obraz.",
+      "diagram_generator": "finale",
+      "diagram": "Celá věž pěti vrstev naráz: BROWSER, PLATFORM, DEPENDENCY, INFRASTRUCTURE, TECHNICAL DEBT; okno je nejmenší část dole.",
+      "pause": 2.6
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "postava() se kreslí jako jedna skupina s průhledností na skupině, jinak svítí překryvy na krku a v rozkroku.",
+      "diagram_generator": "finale",
+      "diagram": "Dvě siluety u věže: jedna odchází pryč, druhá stojí u spodní vrstvy."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "'Being better is no longer enough' — proto je lepší věc nakreslená lépe a přesto k ní nevede jediná čára.",
+      "diagram_generator": "finale",
+      "diagram": "Vedle věže stojí zjevně lepší, ale osamocená věc; nikdo k ní nevede."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Punchline videa. Dva stavy téhož tvaru vedle sebe, ne dva různé tvary — jinak se pointa ztratí.",
+      "diagram_generator": "finale",
+      "diagram": "Vítězný tvar na stupínku a týž tvar jako překážka, přes kterou lidé přelézají.",
+      "pause": 3.0
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Horní polovina obrazu zůstává volná — od téhle scény běží posledních dvacet sekund a YouTube tam vkládá dlaždici a kolečko odběru.",
+      "diagram_generator": "finale",
+      "diagram": "Ikona Microsoftu odchází, okno stojí dál."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Odpojení, ne zbourání. Scéna neříká, že věci zanikly, ale že přestaly záviset.",
+      "diagram_generator": "finale",
+      "diagram": "Vrstvy věže se jedna po druhé odpojují od okna; poslední šipka mizí."
+    },
+    {
+      "id": "S96",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S96.png",
+      "note": "Závěrečná deska. Volný pruh NAHOŘE, protože dole vždycky sedí ambrový titulek z svgkit.title() a prvky závěrečné obrazovky přes něj přejedou. Chladná paleta bez denní doby: 'dawn' u SDXL vždycky přinese zlatý obzor, proto flat grey overcast.",
+      "prompt": "a wide quiet landscape with a single empty road receding to the horizon, low flat grey overcast sky filling the whole upper half of the frame, no sun, no glow on the horizon, no poles, no wires, cold muted grey palette, painterly documentary illustration, calm and unhurried, no text",
+      "pause": 2.0
+    }
+  ]
+}

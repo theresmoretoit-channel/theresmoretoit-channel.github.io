@@ -1,0 +1,947 @@
+1
+00:00:00,250 --> 00:00:02,510
+Imagine you have a crazy idea.
+
+2
+00:00:03,030 --> 00:00:04,790
+You want to build your own satellite.
+
+3
+00:00:05,550 --> 00:00:09,190
+Not a billion-dollar communications
+satellite. Something small.
+
+4
+00:00:10,040 --> 00:00:12,440
+A box about the size of a loaf of bread.
+
+5
+00:00:12,960 --> 00:00:19,340
+Inside: a computer, solar panels, a
+radio, a few sensors. Maybe even a camera.
+
+6
+00:00:20,180 --> 00:00:24,140
+You build it in your garage. And then
+somehow... you put it into orbit.
+
+7
+00:00:24,370 --> 00:00:26,760
+Sounds impossible. But it isn't.
+
+8
+00:00:27,254 --> 00:00:29,654
+People have been doing almost
+exactly this for years.
+
+9
+00:00:29,884 --> 00:00:32,014
+They're called CubeSats.
+
+10
+00:00:34,347 --> 00:00:35,847
+And the surprising part is that the
+
+11
+00:00:36,077 --> 00:00:38,107
+hardest thing isn't
+building the satellite.
+
+12
+00:00:38,427 --> 00:00:40,207
+It's everything else.
+
+13
+00:00:41,687 --> 00:00:45,507
+The basic unit is called 1U —
+roughly a ten-centimetre cube.
+
+14
+00:00:46,307 --> 00:00:50,227
+Stack units together and you
+get 2U, 3U, 6U and larger.
+
+15
+00:00:51,277 --> 00:00:56,337
+The idea is simple. Instead of designing
+a new spacecraft from scratch, you
+
+16
+00:00:56,567 --> 00:00:59,977
+reuse standardised sizes
+and standardised interfaces.
+
+17
+00:01:00,857 --> 00:01:02,517
+And suddenly, space is open to
+
+18
+00:01:02,747 --> 00:01:05,757
+universities, start-ups,
+and maybe even you.
+
+19
+00:01:07,057 --> 00:01:10,537
+By the way, if you like videos
+like this, consider subscribing.
+
+20
+00:01:11,157 --> 00:01:12,757
+It really helps the channel.
+
+21
+00:01:15,147 --> 00:01:17,847
+So what would our little
+satellite actually contain?
+
+22
+00:01:18,607 --> 00:01:20,207
+First, it needs a computer.
+
+23
+00:01:20,927 --> 00:01:25,207
+Something has to run the software, control
+the hardware, and decide what to do.
+
+24
+00:01:25,797 --> 00:01:29,417
+Then there's power. Solar
+panels make electricity.
+
+25
+00:01:30,337 --> 00:01:33,777
+Batteries store it for when the
+satellite slips into Earth's shadow.
+
+26
+00:01:34,407 --> 00:01:37,727
+Then communication. A radio. An antenna.
+
+27
+00:01:37,807 --> 00:01:41,047
+And, back on Earth, a
+ground station listening.
+
+28
+00:01:41,447 --> 00:01:43,147
+Then sensors. Temperature.
+
+29
+00:01:43,227 --> 00:01:47,187
+Voltage. Current.
+Acceleration. Magnetic field.
+
+30
+00:01:47,417 --> 00:01:50,607
+And some way of telling which
+way the satellite is pointing.
+
+31
+00:01:51,567 --> 00:01:54,667
+Because in orbit, saying
+"up" is surprisingly hard.
+
+32
+00:01:56,877 --> 00:01:59,497
+But before we build one,
+there's an awkward question.
+
+33
+00:02:00,237 --> 00:02:03,897
+How much does this little
+box cost? The answer is...
+
+34
+00:02:03,977 --> 00:02:05,997
+more than it looks like it should.
+
+35
+00:02:06,817 --> 00:02:09,397
+A simple 1U CubeSat
+can easily cost tens of
+
+36
+00:02:09,627 --> 00:02:15,797
+thousands of dollars — just in flight
+hardware. The power system. Solar panels.
+
+37
+00:02:16,177 --> 00:02:20,357
+Batteries. The computer. The radio.
+The attitude control. The structure.
+
+38
+00:02:20,437 --> 00:02:21,637
+And the payload.
+
+39
+00:02:22,107 --> 00:02:24,367
+Then come the things that
+aren't on the parts list.
+
+40
+00:02:24,447 --> 00:02:27,647
+Testing. Integration. Documentation.
+
+41
+00:02:27,877 --> 00:02:29,867
+Ground-station operations.
+
+42
+00:02:30,097 --> 00:02:33,567
+Licensing. And finally... the launch.
+
+43
+00:02:34,397 --> 00:02:37,357
+A rideshare for a tiny CubeSat
+can cost tens of thousands.
+
+44
+00:02:37,587 --> 00:02:42,257
+Bigger missions and bigger CubeSats
+reach hundreds of thousands.
+
+45
+00:02:43,057 --> 00:02:45,137
+And that's just getting
+the thing into space.
+
+46
+00:02:47,777 --> 00:02:50,237
+And now an even more ridiculous problem.
+
+47
+00:02:50,817 --> 00:02:52,457
+Remember all those parts?
+
+48
+00:02:53,137 --> 00:02:56,437
+How on earth does all of
+that fit inside one tiny box?
+
+49
+00:02:58,187 --> 00:03:01,407
+In space, there's no room for
+a random pile of electronics.
+
+50
+00:03:02,487 --> 00:03:07,727
+Every centimetre matters. Every
+gram matters. Every watt matters.
+
+51
+00:03:08,547 --> 00:03:09,947
+The satellite is a three-dimensional
+
+52
+00:03:10,027 --> 00:03:12,787
+puzzle that has to
+survive a rocket launch.
+
+53
+00:03:15,257 --> 00:03:17,137
+So where do you get all these parts?
+
+54
+00:03:17,837 --> 00:03:19,917
+You don't have to design
+everything yourself.
+
+55
+00:03:20,837 --> 00:03:24,057
+There's a whole industry selling
+components for small satellites:
+
+56
+00:03:24,297 --> 00:03:28,277
+computers, power systems, radios,
+antennas and solar panels.
+
+57
+00:03:29,097 --> 00:03:32,757
+There are even marketplaces built
+specifically for CubeSat parts.
+
+58
+00:03:33,737 --> 00:03:35,857
+And the parts are standardised, too.
+
+59
+00:03:36,597 --> 00:03:39,617
+Many share one board format
+and simply stack together,
+
+60
+00:03:39,697 --> 00:03:42,717
+so pieces from different
+makers fit into one unit.
+
+61
+00:03:43,137 --> 00:03:47,457
+Companies like EnduroSat and GomSpace
+sell them, and a single subsystem
+
+62
+00:03:47,687 --> 00:03:51,517
+can cost anywhere from a few thousand
+to tens of thousands of dollars.
+
+63
+00:03:52,517 --> 00:03:54,297
+And these aren't exotic processors.
+
+64
+00:03:55,417 --> 00:03:58,837
+One current CubeSat computer
+uses an ARM Cortex-M7,
+
+65
+00:03:58,917 --> 00:04:03,757
+with familiar interfaces
+— SPI, I²C, UART and CAN.
+
+66
+00:04:04,637 --> 00:04:06,717
+And it isn't a custom space chip.
+
+67
+00:04:07,077 --> 00:04:10,557
+It's a real, off-the-shelf board
+you could hold in your hand.
+
+68
+00:04:11,497 --> 00:04:13,857
+A spacecraft needs something
+more important than raw
+
+69
+00:04:14,087 --> 00:04:17,937
+speed: predictable behaviour,
+low power and reliability.
+
+70
+00:04:18,937 --> 00:04:23,797
+More demanding missions can use ARM
+Cortex-A processors — and even Linux.
+
+71
+00:04:24,897 --> 00:04:26,097
+But it isn't fast.
+
+72
+00:04:26,957 --> 00:04:30,837
+A typical CubeSat computer runs
+at a couple of hundred megahertz.
+
+73
+00:04:31,197 --> 00:04:35,037
+Your laptop runs at four or five
+gigahertz, with many more cores.
+
+74
+00:04:35,657 --> 00:04:38,537
+It trades raw speed for
+using almost no power.
+
+75
+00:04:39,397 --> 00:04:42,017
+And if you're a programmer, this
+is where it gets interesting.
+
+76
+00:04:42,897 --> 00:04:45,377
+You don't write some
+mysterious "space language".
+
+77
+00:04:45,797 --> 00:04:47,617
+You write embedded software.
+
+78
+00:04:47,697 --> 00:04:50,297
+Often in C or C++.
+
+79
+00:04:51,347 --> 00:04:54,347
+It might run directly on the
+hardware, or on a real-time
+
+80
+00:04:54,427 --> 00:04:58,807
+operating system like
+FreeRTOS, Zephyr or RTEMS.
+
+81
+00:04:59,467 --> 00:05:01,567
+There are even open frameworks
+built for spacecraft.
+
+82
+00:05:01,797 --> 00:05:05,567
+NASA's F Prime, for example,
+is a flight-software
+
+83
+00:05:05,647 --> 00:05:08,487
+framework for embedded
+and spaceflight systems.
+
+84
+00:05:09,647 --> 00:05:12,167
+So your code might look
+something like this.
+
+85
+00:05:13,657 --> 00:05:16,417
+But there's one huge difference
+from a normal computer.
+
+86
+00:05:17,137 --> 00:05:19,257
+You don't get to SSH into it.
+
+87
+00:05:19,497 --> 00:05:21,277
+You can't attach a debugger.
+
+88
+00:05:21,917 --> 00:05:23,617
+And if your software crashes...
+
+89
+00:05:24,177 --> 00:05:26,917
+your computer is a few
+hundred kilometres up.
+
+90
+00:05:27,807 --> 00:05:32,367
+So it needs watchdogs, safe modes,
+fault detection and automatic recovery.
+
+91
+00:05:33,267 --> 00:05:36,087
+It has to fix some problems
+without you there to help.
+
+92
+00:05:38,347 --> 00:05:40,987
+And one big reason it needs
+all that is radiation.
+
+93
+00:05:42,027 --> 00:05:46,447
+In space, cosmic rays can flip a bit
+in memory, or even knock out a chip.
+
+94
+00:05:47,047 --> 00:05:50,027
+There's no heavy shielding —
+that would weigh far too much.
+
+95
+00:05:50,647 --> 00:05:53,027
+Instead, the computer
+watches itself, corrects
+
+96
+00:05:53,257 --> 00:05:55,687
+errors, and resets when
+something goes wrong.
+
+97
+00:05:56,727 --> 00:05:58,547
+But if you actually want to launch it...
+
+98
+00:05:58,627 --> 00:06:00,467
+things get serious.
+
+99
+00:06:01,287 --> 00:06:04,907
+A part that works on your desk isn't
+automatically ready for a rocket.
+
+100
+00:06:05,587 --> 00:06:10,007
+It has to survive vibration, vacuum,
+temperature extremes and radiation.
+
+101
+00:06:12,677 --> 00:06:16,277
+Now, back to that problem of knowing
+which way the satellite is pointing.
+
+102
+00:06:17,037 --> 00:06:21,637
+Picture it tumbling through
+space. No floor. No ceiling.
+
+103
+00:06:22,177 --> 00:06:24,337
+GPS can tell you where you are...
+
+104
+00:06:24,417 --> 00:06:26,417
+but not which way you're facing.
+
+105
+00:06:27,547 --> 00:06:30,307
+So satellites combine
+gyroscopes, magnetometers
+
+106
+00:06:30,537 --> 00:06:33,287
+and sun sensors to work
+out their attitude.
+
+107
+00:06:33,507 --> 00:06:35,767
+And then they have to change it.
+
+108
+00:06:36,527 --> 00:06:38,127
+One common trick is a magnetorquer.
+
+109
+00:06:39,359 --> 00:06:43,669
+It pushes against Earth's magnetic
+field and makes a tiny torque.
+
+110
+00:06:43,919 --> 00:06:45,539
+It's not a rocket engine.
+
+111
+00:06:45,959 --> 00:06:49,199
+It doesn't move the
+satellite. It just turns it.
+
+112
+00:06:49,579 --> 00:06:52,939
+And that's enough to point the
+satellite exactly where you want.
+
+113
+00:06:55,209 --> 00:06:59,549
+But none of this is the reason we
+built the satellite. We need a mission.
+
+114
+00:07:00,009 --> 00:07:06,389
+That's the payload. Measure radiation.
+Photograph Earth. Study the atmosphere.
+
+115
+00:07:06,569 --> 00:07:10,569
+Test a new sensor. Or simply
+prove a new technology works.
+
+116
+00:07:11,539 --> 00:07:16,739
+The satellite itself is mostly there
+to keep the payload alive. Power it.
+
+117
+00:07:16,959 --> 00:07:21,139
+Point it. Keep it warm. Store
+its data. And send it home.
+
+118
+00:07:22,429 --> 00:07:24,849
+When your desktop locks
+up, you restart it.
+
+119
+00:07:25,129 --> 00:07:26,929
+When your satellite locks up...
+
+120
+00:07:27,209 --> 00:07:30,769
+you have a very expensive
+object silently orbiting Earth.
+
+121
+00:07:33,419 --> 00:07:36,979
+So let's say we built it. Everything
+works... The computer boots...
+
+122
+00:07:37,059 --> 00:07:40,039
+The radio talks. The panels
+make power. The payload runs...
+
+123
+00:07:40,269 --> 00:07:42,779
+Can we launch it? ...Not yet.
+
+124
+00:07:43,437 --> 00:07:48,377
+A satellite has to prove it can
+survive the launch. That means testing.
+
+125
+00:07:48,877 --> 00:07:50,077
+A lot of testing.
+
+126
+00:07:50,847 --> 00:07:53,167
+First, bolt it to a giant shaker.
+
+127
+00:07:53,527 --> 00:07:55,407
+Then shake it, hard...
+
+128
+00:07:55,707 --> 00:07:57,307
+That's vibration testing.
+
+129
+00:07:57,847 --> 00:08:00,067
+Rocket launches are not gentle.
+
+130
+00:08:00,567 --> 00:08:02,927
+It has to survive noise,
+vibration and shock
+
+131
+00:08:03,157 --> 00:08:07,347
+without anything coming loose or
+breaking. Every screw matters.
+
+132
+00:08:07,987 --> 00:08:11,007
+Every connector matters.
+Every piece of cable matters.
+
+133
+00:08:11,837 --> 00:08:15,817
+Then comes vacuum. On Earth,
+air carries heat away.
+
+134
+00:08:16,297 --> 00:08:18,017
+In space, there is no air.
+
+135
+00:08:18,557 --> 00:08:21,437
+One side can get extremely
+hot, another extremely cold,
+
+136
+00:08:21,667 --> 00:08:24,697
+and the electronics still have
+to stay inside their limits.
+
+137
+00:08:25,397 --> 00:08:28,117
+So the satellite needs
+thermal straps, coatings,
+
+138
+00:08:28,197 --> 00:08:35,221
+insulation and carefully chosen materials.
+Satellites don't have air conditioning.
+
+139
+00:08:35,451 --> 00:08:36,627
+They have physics.
+
+140
+00:08:36,707 --> 00:08:40,307
+And the battery gets interesting.
+Charge it with sunlight.
+
+141
+00:08:41,187 --> 00:08:42,747
+Then the satellite slips into Earth's
+
+142
+00:08:42,977 --> 00:08:45,147
+shadow, and the panels
+make almost nothing.
+
+143
+00:08:45,507 --> 00:08:50,927
+The battery keeps it alive. Then back
+into sunlight. Charge. Discharge. Charge.
+
+144
+00:08:51,007 --> 00:08:54,147
+Discharge. Again and again. For years.
+
+145
+00:08:54,227 --> 00:08:57,567
+One mistake in power could
+quietly end the mission.
+
+146
+00:08:59,987 --> 00:09:04,147
+And now, how do you talk to it?
+You need a radio. An antenna.
+
+147
+00:09:04,727 --> 00:09:08,987
+And a frequency you're legally
+allowed to use. And a ground station.
+
+148
+00:09:09,647 --> 00:09:11,407
+The satellite doesn't have the internet.
+
+149
+00:09:11,487 --> 00:09:13,787
+It just flies overhead and transmits.
+
+150
+00:09:14,687 --> 00:09:17,147
+Your ground station catches the signal.
+
+151
+00:09:17,467 --> 00:09:18,927
+The computer decodes it.
+
+152
+00:09:19,007 --> 00:09:22,147
+And suddenly you have data
+from your own spacecraft.
+
+153
+00:09:22,767 --> 00:09:25,867
+Imagine opening a
+terminal and seeing this.
+
+154
+00:09:26,247 --> 00:09:28,767
+Except the machine
+printing those numbers...
+
+155
+00:09:29,207 --> 00:09:31,767
+is hundreds of kilometres over your head.
+
+156
+00:09:33,977 --> 00:09:38,737
+So how do we actually get it up there? You
+could build a rocket... Please don't...
+
+157
+00:09:38,817 --> 00:09:43,537
+You don't need one. CubeSats
+fly as secondary payloads.
+
+158
+00:09:43,976 --> 00:09:47,516
+A rocket is already going
+up. It has spare room.
+
+159
+00:09:48,156 --> 00:09:51,296
+Your satellite rides along
+in a standard deployer.
+
+160
+00:09:51,456 --> 00:09:53,476
+No personal rocket required.
+
+161
+00:09:54,286 --> 00:09:57,546
+And now it's sitting on top of
+a rocket. You can't touch it.
+
+162
+00:09:57,846 --> 00:09:58,866
+You can't open the box.
+
+163
+00:09:58,996 --> 00:10:02,446
+You can't plug in a cable.
+The rocket launches.
+
+164
+00:10:03,626 --> 00:10:05,766
+About nine minutes later, you're in orbit.
+
+165
+00:10:06,546 --> 00:10:08,666
+The deployer releases your satellite.
+
+166
+00:10:09,306 --> 00:10:11,526
+It springs free and begins to tumble.
+
+167
+00:10:12,306 --> 00:10:13,813
+But how does it know it's out? ...
+
+168
+00:10:14,043 --> 00:10:17,286
+Spring-loaded switches, pressed
+in while it sat in the deployer,
+
+169
+00:10:17,516 --> 00:10:20,406
+pop free the moment it's
+ejected, and the computer boots.
+
+170
+00:10:21,246 --> 00:10:24,526
+Then, by the rules, it stays
+silent for about half an hour.
+
+171
+00:10:25,126 --> 00:10:27,186
+Only then does it power up its radio,
+
+172
+00:10:27,266 --> 00:10:31,766
+unfold its antennas, and finally
+call home. And somewhere on Earth...
+
+173
+00:10:32,186 --> 00:10:33,986
+your ground station hears it.
+
+174
+00:10:36,596 --> 00:10:40,816
+You built a machine. And now that
+machine is orbiting the planet.
+
+175
+00:10:43,446 --> 00:10:48,426
+Except, we're not done. A dead satellite
+can't just stay up there forever.
+
+176
+00:10:48,966 --> 00:10:51,926
+Left in orbit for centuries,
+it becomes space debris.
+
+177
+00:10:52,956 --> 00:10:54,916
+That means modern
+missions increasingly have
+
+178
+00:10:55,146 --> 00:10:57,476
+to plan for the end of
+the spacecraft's life.
+
+179
+00:10:58,336 --> 00:11:01,656
+Ideally, the thin upper
+atmosphere slowly drags it down.
+
+180
+00:11:01,756 --> 00:11:08,196
+Its orbit decays. It re-enters. And
+it burns up. The end of the mission...
+
+181
+00:11:08,426 --> 00:11:10,276
+is part of the mission.
+
+182
+00:11:12,976 --> 00:11:17,236
+So... could you build your own
+satellite? Technically, yes.
+
+183
+00:11:17,316 --> 00:11:20,716
+You don't need to be NASA. You
+don't need to own a rocket.
+
+184
+00:11:21,236 --> 00:11:23,836
+You don't even necessarily
+need a huge company.
+
+185
+00:11:24,926 --> 00:11:26,826
+The satellite has to survive launch.
+
+186
+00:11:26,906 --> 00:11:32,486
+Survive space. Communicate
+legally. Run on its own.
+
+187
+00:11:32,926 --> 00:11:35,186
+And, in the end, clear out of orbit.
+
+188
+00:11:35,386 --> 00:11:39,006
+All of that has to be proven
+before anyone puts it on a rocket.
+
+189
+00:11:41,496 --> 00:11:43,736
+CubeSats didn't make space easy.
+
+190
+00:11:44,096 --> 00:11:45,876
+They made it standardised.
+
+191
+00:11:46,496 --> 00:11:48,616
+Instead of building
+everything from scratch, you
+
+192
+00:11:48,846 --> 00:11:51,496
+can build something that
+fits an existing standard.
+
+193
+00:11:51,636 --> 00:11:54,176
+And that's a surprisingly big change.
+
+194
+00:11:55,696 --> 00:11:59,376
+So somewhere, right now, there
+are tiny machines orbiting Earth.
+
+195
+00:11:59,976 --> 00:12:03,836
+Built by universities, research
+teams, companies and students.
+
+196
+00:12:05,006 --> 00:12:08,286
+Some carry cameras.
+Some measure radiation.
+
+197
+00:12:08,926 --> 00:12:11,026
+Some test brand-new technology.
+
+198
+00:12:11,286 --> 00:12:13,606
+And some are just experiments asking one
+
+199
+00:12:13,836 --> 00:12:16,786
+question: "can we make
+this thing work in space?"
+
+200
+00:12:17,956 --> 00:12:21,176
+And that's what makes building
+your own satellite so fascinating.
+
+201
+00:12:22,056 --> 00:12:25,396
+Because the distance between you
+and space isn't a rocket anymore.
+
+202
+00:12:25,636 --> 00:12:26,576
+It might be...
+
+203
+00:12:26,806 --> 00:12:28,676
+a ten-centimetre box.
+
+204
+00:12:28,906 --> 00:12:30,806
+And a very, very long checklist.

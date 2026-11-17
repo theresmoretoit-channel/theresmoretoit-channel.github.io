@@ -1,0 +1,787 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ SCÉNA NENÍ SDXL a nese myšlenku, ne atmosféru: divák za dvacet vteřin vidí, co má diktátor v ruce, a tím i to, o co může přijít. Čtyři bloky jsou čtyři řádky scénáře v pořadí, v jakém zaznějí.",
+      "diagram_generator": "uvod",
+      "diagram": "Čtyři ambrové bloky (GOVERNMENT, ARMY, POLICE, PRESS) sevřené kolem jediné postavy uprostřed. Postava je ambrová, bloky ji obepínají ze čtyř stran. Žádný nadpis."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Návrh přichází ZVENČÍ sestavy moci — proto druhá postava stojí mimo čtyři bloky. Lístek je už tady tvarem volebního lístku, který bude páteří závěru (S71).",
+      "diagram_generator": "uvod",
+      "diagram": "K téže sestavě přijde zvenčí druhá, tenká postava a přinese lístek s nápisem FREE ELECTIONS. Bloky se nemění."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Předstupeň beatu. Ztlumením bloků se pozornost přesune na otázku, aniž by se cokoli přeskupilo — S03 a S03b musí být týž obraz s jedinou změnou.",
+      "diagram_generator": "uvod",
+      "diagram": "Ambrový otazník nad postavou uprostřed bloků; bloky ztlumené do MUTED."
+    },
+    {
+      "id": "S03b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03b.png",
+      "note": "Zavedení páteře videa (_kit.hrana / _kit.propast). Divák v 0:19 vidí celou otázku videa jako obraz: nahoře moc, dole neznámo. Hloubka propasti je od téhle chvíle JEDINÁ proměnná, která se v páteři mění.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ: pod postavou se objeví HRANA (vodorovná čára na HRANA_Y) a pod ní tma s otazníkem. Postava stojí na hraně. Otázka AND WHAT HAPPENS IF I LOSE? jako titulek.",
+      "pause": 1.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Čtyři ceny prohry v pořadí scénáře. Pořadí sestupně NESE TVRZENÍ (roste závažnost) — proto se nesmí přeházet kvůli rozvržení.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž hrana, propast dostane čtyři štítky sestupně: POSITION, MONEY, FREEDOM, LIFE. Nejhlubší je LIFE."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Obrys bez popisku schválně: jméno padne až v S05b, takže si divák na vteřinu sám odpoví. Tvar musí být rozpoznatelný i ve zmenšenině.",
+      "diagram_generator": "uvod",
+      "diagram": "Hrana zmizí do pozadí; uprostřed se rozsvítí ambrový obrys ostrova (Tchaj-wan) bez popisku."
+    },
+    {
+      "id": "S05b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05b.png",
+      "note": "Beat. Jediná změna proti S05 je nápis — žádný nový střih, žádná nová kompozice. NAVETI doplněno po TTS: v promluvě 1,05 s obětovaná věta selhala a whisper slyšel `the | Taiwan's.` místo `Taiwan.`. Znění návětí NENÍ libovolné — `tts.py` hledá v přepisu první slovo scény modelem `base.en`, a ten při návětí „Most people know it for something else entirely.\" slovo Taiwan z přepisu vypustil úplně (na modelu `small` se přitom přepsalo správně, takže ruční test lhal). Tohle znění projde.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obrys, přibude jediný popisek TAIWAN.",
+      "pause": 2.4,
+      "naveti": "It is a place you have heard of."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Šipka MÍŘÍ OD pevniny K ostrovu, tedy směr ústupu — u scény, kde něco míří na někoho, se kontroluje, že cíl odpovídá podmětu věty.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Mapa: pevnina vlevo ztlumená a ambrově přebarvená (1949), šipka od pevniny k ostrovu, u ostrova štítek REPUBLIC OF CHINA / KUOMINTANG. Letopočet 1949 v rohu."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "ČÁRKOVANĚ, protože je to představa diváka, ne doložený stav. Konvence čárkované čáry = hypotéza drží celým videem.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Ostrov s ambrovou aureolou a idylickými značkami (hvězdička, urna), nad ním čárkovaný rámeček s nápisem THE USUAL STORY."
+    },
+    {
+      "id": "S07b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07b.png",
+      "note": "Beat. Škrtá se NÁPIS, takže vodorovná čára (_kit.text_skrtnuty), ne křížek — pod křížkem by nápis nešel přečíst a scéna by netvrdila nic. NAVETI doplněno po poslechu: divák slyšel za „Not quite.\" schwu a whisper ji potvrdil jako SLOVO NAVÍC (`Not | quite | a`) o hlasitosti −16 dB vůči tělu. Obětovaná věta se tu ani nezkusí — `tts.py` ji zapíná při pause ≥ 1,5 a tahle scéna má 0,8. Návětí se nikdy neozve.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Týž obraz, čárkovaný rámeček THE USUAL STORY je přeškrtnutý vodorovnou čarou přes text.",
+      "naveti": "That is the story most people know."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Pás musí jít od kraje ke kraji — délka je tady tvrzení. Štítek říká HEAVILY RESTRICTED, ne BANNED: strany se zakazovaly jen nové a opozice běžela jako tang-wai (viz factcheck S08).",
+      "diagram_generator": "tchajwan",
+      "diagram": "Časová osa 1949–1987 přes celé plátno, celá vyplněná ambrovým pásem MARTIAL LAW, na konci štítek 38 YEARS. Pod osou dva ztlumené štítky: OPPOSITION HEAVILY RESTRICTED, PRESS CONTROLLED."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "ROZDÍL VELIKOSTÍ NESE ŘÁD, ne důležitost — proto se poměr počítá v kódu a jistí assertem. Scénář po fact checku říká dva různé řády a obraz je musí říct taky.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Táž osa, pod ní dvě čísla řádově odlišené velikosti: TENS OF THOUSANDS IMPRISONED velké, THOUSANDS EXECUTED menší, obě ambrová."
+    },
+    {
+      "id": "S10",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S10.png",
+      "note": "Jediná atmosférická scéna první třetiny. Diktatura jako každodenní chod úřadu, ne jako tanky — diagram by z toho udělal schéma a scéna má být pocit. Zoom dovnitř zaostřuje na jednu věc, tedy na konec chodby.",
+      "prompt": "an empty ministry corridor at night, one dim lamp far down the hall, closed doors on both sides, a single small figure walking away from the viewer, painterly documentary illustration, flat grey overcast light, no text",
+      "pause": 2.6
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Sloupce jsou schematické, BEZ číselné osy — scénář žádné číslo neříká a obraz nesmí tvrdit víc než scénář. Kdyby tam byla stupnice, divák ji čte jako data.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Čtyři stoupající sloupce vedle sebe: FACTORIES, EXPORTS, WAGES, SCHOOLS. Pod nimi silueta města, která roste zleva doprava."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Dvě vrstvy proto, že scénář říká „alongside the money, something less visible was growing\". Druhá vrstva je ZÁMĚRNĚ bez popisku — pojmenuje ji až S13.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Pod sloupci se rozsvítí široký ambrový pás MIDDLE CLASS. Vedle něj druhá, slabší a ztlumená vrstva bez popisku."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Čárkovaný rámeček u posledního štítku říká, že opozice fungovala NAVZDORY zákazu — to je přesně tang-wai. Plná čára by tvrdila, že strany povolené byly.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Ta druhá vrstva dostane čtyři štítky: ASSOCIATIONS, STUDENTS, JOURNALISTS, OPPOSITION POLITICIANS. U posledního čárkovaný rámeček se štítkem PARTIES BANNED."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Scéna tvrdí dvě věci naráz a obě musí být vidět: zásah je skutečný (štítek zmizí) a přitom neúčinný (přibývá jich víc). Dvojice siluet nese „easy to control only while it stays simple\".",
+      "diagram_generator": "tchajwan",
+      "diagram": "Ambrová ruka shora sebere jeden ze čtyř štítků; zbylé tři zůstanou a pod nimi přibudou další, drobnější. Napravo dvě siluety: jednoduchá (ztlumená) a spletitá (ambrová)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "PŮVODNĚ ARCHIV, ZAMÍTNUTO PO KONTAKTNÍM LISTU. Commons má ke „Grand Hotel Taipei\" osm snímků a všechny jsou lesklé turistické fotky jasně červeného paláce za slunečného dne (jediná dobová z roku 1981 je detail balkonů a budova se v ní nepozná). Scéna má nést tajný nezákonný akt — turistická pohlednice ho nese naopak. Platí „obrázek se přijímá podle funkce scény\": když fotka propadne kvůli tomu, jak vypadá, náhrada je kresba kódem, ne další dotaz.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Tmavá silueta hotelu, v ní jediné rozsvícené okno. V okně schematicky dav zvednutých rukou. Přes roh scény ambrové razítko ILLEGAL a datum SEPTEMBER 1986."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "NEJSILNĚJŠÍ SCÉNA VIDEA a fact check ji doložil silněji, než scénář tvrdí: seznam jmen k zatčení byl skutečně předložen půl hodiny po vyhlášení strany. Jména jsou nečitelné řádky — konkrétní jména bychom doložit nemohli.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Ambrový seznam jmen (řádky, ne čitelný text) s nadpisem NAMES, nad ním hodiny ukazující 30 MINUTES. Vlevo ztlumeně budova."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Beat, na kterém stojí celá tchajwanská část. Vizuálně se NIC nepřidává — kdyby sem přišel nový prvek (razítko, křížek), scéna by tvrdila, že se rozhodlo. Ono se nerozhodlo, ono se nic nestalo.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Týž seznam, beze změny. Jediné, co se stane: zhasne. Zůstane obrys na pozadí a prázdno okolo.",
+      "pause": 3.0
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Osa MUSÍ ležet na stejných souřadnicích jako v S08, jinak se nepozná, že pás skončil. Poslední štítek zůstává ztlumený, protože zákon o národní bezpečnosti část omezení zachoval — „gradually\" je ve scénáři schválně.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Časová osa z S08 na týchž souřadnicích: ambrový pás MARTIAL LAW končí v 1987. Za koncem tři štítky, které se rozsvěcejí postupně dál doprava: PARTIES, PRESS, ASSEMBLY, poslední ztlumený."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Prázdná značka je nájezd na beat. POZOR: podle divácké zpětné vazby nesmí být graf bez údajů — proto je osa i s 1996 plná a prázdná je jen ta jedna značka.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Táž osa prodloužená doprava: značka 1996 s popiskem FIRST DIRECT PRESIDENTIAL ELECTION, a dál doprava prázdná značka bez popisku."
+    },
+    {
+      "id": "S19b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19b.png",
+      "note": "Beat, jediná změna proti S19.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Prázdná značka dostane popisek 2000.",
+      "pause": 1.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Prohození barvy NESE CELÉ TVRZENÍ scény. Ambrová tu znamená „ten, o kom je řeč / kdo má moc\", ne „ten dobrý\" — jinak by se video od téhle scény četlo jako fandění.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Dva sloupce moci vedle sebe: vlevo ambrový KUOMINTANG s dovětkem 50 YEARS, vpravo ztlumený OPPOSITION. Barvy se prohodí — ambrová přeskočí doprava."
+    },
+    {
+      "id": "S20b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20b.png",
+      "note": "Beat. Tank je ZTLUMENÝ a škrtnutý, protože scénář mluví o tom, co se NESTALO. Kdyby byl ambrový, obraz by tvrdil, že tanky vyjely.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Týž obraz. Přes něj se ztlumeně objeví obrys tanku a hned je přeškrtnutý.",
+      "pause": 2.8
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Tři varianty, které se nestaly, jsou čárkované (hypotéza) A přeškrtnuté; jediná plná čára je to, co se stalo. Kombinace obou konvencí naráz je tu schválně.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Tři ztlumené čárkované rámečky vedle sebe, každý přeškrtnutý: ARMY OVERTURNS COUNT, RESULT MISINTERPRETED, POWER KEPT. Pod nimi jediný plný ambrový pruh: GOVERNMENT CHANGED HANDS."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "PRVNÍ VÝPLATA PÁTEŘE: propast z S03b se poprvé ukáže jako SCHOD. Hloubka je jediná proměnná páteře a tady je nejmenší možná — to je celý obsah scény.",
+      "diagram_generator": "tchajwan",
+      "diagram": "Sloupec KUOMINTANG sestoupí o JEDEN schod a stojí dál. Vedle časová značka 2008 a šipka zpátky nahoru."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Konec tchajwanského bloku a první formulace exit problemu bez jména (všiml si toho uživatel ve zpětné vazbě na v0.1). Dlouhá pauza, protože je to „sit with that\".",
+      "diagram_generator": "tchajwan",
+      "diagram": "Celá páteř: hrana, na ní strana, pod ní jediný schod, a na schodu táž strana pořád stojící. Titulek COULD LOSE POWER AND SURVIVE IT.",
+      "pause": 2.8
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Prázdné místo pro druhou odpověď je nájezd na S25 — ale rámeček je vidět, takže to není graf bez údajů.",
+      "diagram_generator": "vzorec",
+      "diagram": "Dvě čárkované odpovědi na otázku WHY?, obě přeškrtnuté: THE RULERS BECAME NICE a druhá zatím prázdná."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "KLÍČOVÉ: tahle odpověď se NESMÍ škrtnout, video ji zamítne až v čínském bloku. Škrtnutí by prozradilo pointu o pět minut dřív a divák by zbytek nepotřeboval.",
+      "diagram_generator": "vzorec",
+      "diagram": "Druhá odpověď se doplní: GETTING RICHER MAKES A COUNTRY DEMOCRATIC. NENÍ přeškrtnutá, jen dostane ambrový otazník a štítek HOLD THAT THOUGHT."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Tchaj-wan zůstává v obraze ztlumený po celý blok Korea/Chile/Španělsko — z toho se pozná, že jde o vzorec, ne o tři nezávislé historky.",
+      "diagram_generator": "vzorec",
+      "diagram": "Nový obrys země (Jižní Korea) vedle ztlumeného obrysu Tchaj-wanu. Pod korejským obrysem dva pásy: AUTHORITARIAN GOVERNMENTS a pod ním druhý, zatím prázdný."
+    },
+    {
+      "id": "S27",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S27.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu. Osm kandidátů na „June Struggle 1987 South Korea protest\"; tenhle je jediný, kde je vidět ROZSAH — dav vyplňující celou městskou třídu při pohledu shora, se siluetou Soulu v pozadí. Ostatní jsou buď pouliční detaily, nebo skeny negativů s převrácenými barvami. Dotaz je schválně přesný korejský název (smuteční pochod za I Han-jolem, červenec 1987), protože vrací JEDINÝ výsledek — `pick` sám o sobě nic nedokládá, pořadí Commons se mění mezi dvěma voláními. Evidence je archive-raw/S27.orig a jeho SHA-256. `slow_zoom_out`, protože se rozšiřuje svět; portrét to není, takže pohyb nevadí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "이한열 추모행진 집회",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "ZÁKAZ ŠIPKY je tu programový, ne kosmetický. Olympiáda tlak zesílila (zdroje to potvrzují), ale nebyla příčinou reforem — šipka by z „another pressure in the room\" udělala kauzalitu, kterou scénář po zpětné vazbě záměrně neříká.",
+      "diagram_generator": "vzorec",
+      "diagram": "Kalendář se dvěma značkami: 1987 PROTESTS (ambrová, velká) a 1988 SEOUL OLYMPICS (menší, ztlumená). Nad olympiádou ikona kamery. ŽÁDNÁ šipka mezi nimi."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Tady šipka smí být plná: deklarace přímou volbu skutečně slíbila. Urna je tentýž tvar jako lístek z S02 a jako závěr S71 — motiv, ne náhodná ikona.",
+      "diagram_generator": "vzorec",
+      "diagram": "Ambrový pás JUNE 29 DECLARATION, z něj vede plná šipka k ikoně volební urny s popiskem DIRECT PRESIDENTIAL ELECTIONS."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Scéna říká, čím to NENÍ, a teprve pak čím to je. Levá varianta je čárkovaná (hypotéza) i přeškrtnutá (neplatí) — táž dvojice konvencí jako v S21.",
+      "diagram_generator": "vzorec",
+      "diagram": "Dvě schémata vedle sebe. Vlevo čárkované a přeškrtnuté: dav svrhne postavu z hrany. Vpravo plné: postava na hraně sestupuje sama."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Váhy jsou z _kit a používají se jen tady a v S47 — dvakrát za video, vždy pro tutéž otázku „co je pro mocné levnější\". Kdyby se objevily i jinde, přestanou nést význam.",
+      "diagram_generator": "vzorec",
+      "diagram": "Váhy: na jedné misce KEEP THE OLD SYSTEM, na druhé CHANGE IT. Miska KEEP klesá a je označená dvěma štítky HARDER a MORE DANGEROUS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Okénko je UVNITŘ dokumentu, protože referendum bylo přechodným ustanovením té ústavy — vztah „v něm\" je tady tvrzení, ne rozvržení.",
+      "diagram_generator": "vzorec",
+      "diagram": "Obrys Chile vedle ztlumeného Tchaj-wanu a Koreje. Ambrový dokument s nadpisem CONSTITUTION 1980, uvnitř malé okénko s nápisem REFERENDUM."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Obě pole stejně ztlumená, aby beat v S33b měl co rozsvítit. Lístek je táž geometrie jako v S02 a S71.",
+      "diagram_generator": "vzorec",
+      "diagram": "Hlasovací lístek s otázkou SHOULD HE CONTINUE? a dvěma poli YES / NO, obě zatím stejně ztlumená. Nad lístkem ambrový štítek THE REGIME EXPECTED LEGITIMACY."
+    },
+    {
+      "id": "S33b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33b.png",
+      "note": "Beat, jediná změna.",
+      "diagram_generator": "vzorec",
+      "diagram": "Týž lístek, rozsvítí se pole NO."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "PŮVODNĚ ARCHIV, ZAMÍTNUTO PO KONTAKTNÍM LISTU. Commons k plebiscitu 1988 nabízí dobré snímky (černobílý mítink pod obřím nápisem NO, závěrečné shromáždění kampaně) — jenže všechny jsou z kampaně PŘED hlasováním, kdežto tahle scéna mluví o tom, co přišlo PO něm. Obraz by tvrdil jiný okamžik než hlas. Vyhledáno a zamítnuto 2026-09-16, ať se to nedělá znovu.",
+      "diagram_generator": "vzorec",
+      "diagram": "Časová osa 1988 → 1989 → 1990 se třemi značkami: PLEBISCITE, ELECTIONS, HANDOVER. Nad první značkou ambrový výsledek 55,99 : 44,01 jako dva nestejné pásy."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Osm let se nepíše slovem, čte se z DÉLKY pásu proti ose — proto musí být osa ocejchovaná oběma letopočty. Štítek říká obecně „remnants\": jmenovaní senátoři vznikali podle ústavních pravidel, ne výběrem, a zkratku uživatel zamítl.",
+      "diagram_generator": "vzorec",
+      "diagram": "Časová osa 1990–1998: prezidentský úřad končí v 1990, ale ambrový pás COMMANDER-IN-CHIEF pokračuje dál až do 1998. Pod osou ztlumený štítek REMNANTS OF THE OLD REGIME."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Druhá výplata páteře, tentokrát u cizí země. Hloubka je opět schod — tím se vzorec začíná skládat dřív, než ho S42b pojmenuje.",
+      "diagram_generator": "vzorec",
+      "diagram": "Páteř: postava na hraně, pod ní schod. Postava sestupuje. Titulek PUT HIS CONTINUATION IN OFFICE TO A VOTE — AND LOST.",
+      "pause": 2.4
+    },
+    {
+      "id": "S37",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S37.png",
+      "note": "Atmosférická scéna a jediná možná: „Spain did not collapse into revolution\" je NEPŘÍTOMNOST události, a nepřítomnost se diagramem nekreslí. `slow_zoom_out`, protože se otevírá svět — ulice, na které se nic neděje.",
+      "prompt": "an empty city street in the morning after, shutters down, a few small figures walking calmly past a closed government building, painterly documentary illustration, flat grey overcast sky, no sun, no text"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Mechanismus je UVNITŘ budovy, protože právě to je celé Španělsko: zákon o politické reformě musel zlikvidovat frankistický systém skrze frankistické Cortes. Kdyby mechanismus stál venku, obraz by tvrdil revoluci.",
+      "diagram_generator": "vzorec",
+      "diagram": "Ambrová budova s nápisem CORTES, uvnitř ní ozubený mechanismus, který sám rozebírá vlastní zdi. Kolem tři značky: PARTIES LEGALISED, ELECTIONS 1977, CONSTITUTION 1978."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Uzavření čtyř případů do jedné řady — divák tu poprvé vidí všechny čtyři pohromadě. Scéna je STATICKÁ a klidná, protože hned za ní běží výzva k odběru na zděděném obrazu.",
+      "diagram_generator": "vzorec",
+      "diagram": "Tři ztlumené obrysy zemí (Korea, Chile, Španělsko) a k nim Tchaj-wan, všechny na jedné řadě. Nad nimi dva přeškrtnuté čárkované štítky REVOLUTION a DESTRUCTION OF THE OLD ELITE, pod nimi jeden plný ambrový: TRANSITION."
+    },
+    {
+      "id": "S39b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Výzva k odběru podle docs/cta.md. Dědí obraz S39, nekreslí se nic. Sedí na 55 % stopáže, tedy uvnitř pásma 40–60 %, na hranici mezi čtyřmi příběhy a hledáním vzorce. Předchozí scéna je statický diagram, takže prolínačka dvou identických obrazů není vidět. Umístění schválil uživatel ve zpětné vazbě 0.2 (S23b výslovně zamítl jako rozbití nejcennějšího okamžiku první poloviny).",
+      "cta": true,
+      "pause": 2.6
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Navazuje na S39 beze změny rozvržení — mění se jen to, co se nad tím tvrdí. Škrtá se nápis, tedy vodorovná čára.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Čtyři obrysy zemí z S39 na týchž místech. Nad nimi čárkovaný přeškrtnutý štítek DICTATORS BECOME DEMOCRATS."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "NÁVRAT K S01 na týchž souřadnicích: čtyři bloky moci se od úvodu nepohnuly. Bublina musí mít ocásek jako plochu, ne jako uzavřený trojúhelník (zapsaná vada z docs).",
+      "diagram_generator": "exitproblem",
+      "diagram": "Bublina u ambrové postavy uvnitř čtyř bloků moci z S01, v ní přeškrtnutá otázka HOW DO WE HOLD ON FOREVER?"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Jediná změna proti S41 je text v bublině. Dvě otázky se nesmějí objevit naráz — kontrast je v čase, ne vedle sebe.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Táž bublina, v ní nová otázka HOW DO WE CHANGE THIS WITHOUT DESTROYING OURSELVES? ambrově a neškrtnutá."
+    },
+    {
+      "id": "S42b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42b.png",
+      "note": "Pojmenování mechanismu, na které video čekalo šest minut. Jediná scéna videa bez kresby — a je to schválně: jméno má dostat vlastní ticho a dlouhou pauzu.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Prázdné plátno, uprostřed jediný nápis THE EXIT PROBLEM.",
+      "pause": 3.0
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Rozvržení, na kterém stojí celý blok S43–S50. Obě strany musí být v S43 IDENTICKÉ, jinak scéna prozradí výsledek dřív, než ho divák spočítá sám.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Dvě páteře vedle sebe, obě zatím stejné: vlevo hrana se štítkem DICTATORSHIP 1, vpravo DICTATORSHIP 2. Pod oběma zatím tma bez hloubky."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Levá se vyplňuje, pravá čeká — pořadí ve scénáři je totéž. Štítky sedí na schodu, tedy POD hranou: je to popis toho, co člověk má po prohře, ne co má u moci.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Levá strana: propast se ukáže jako jediný schod a na něm čtyři štítky EXIST, HOUSES, BUSINESSES, NEXT ELECTION. Pravá strana beze změny (tma)."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Přesun pozornosti se dělá jasem, ne pohybem kamery — diagram zůstává statický. Levá strana v obraze zůstává, aby se daly porovnat.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Levá strana dostane titulek UNPLEASANT. NOT THE END. Pak se pozornost přesune doprava: pravá hrana se rozsvítí, pod ní pořád tma."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "HLOUBKA JE JEDINÁ PROMĚNNÁ PÁTEŘE a tady je největší. Poměr hloubek levé a pravé se počítá v kódu a jistí assertem — kdyby vyšel opačně, obraz by tvrdil opak scénáře.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Pravá propast se otevře hluboko dolů, ve stěně čtyři štítky sestupně: EVERYTHING TAKEN, FAMILIES PROSECUTED, ALLIES IMPRISONED, PRISON."
+    },
+    {
+      "id": "S46b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46b.png",
+      "note": "Beat. Nedopsaný štítek dělá „possibly worse\" — dopsat ho by znamenalo tvrdit něco, co scénář schválně neříká. NAVETI doplněno po poslechu: za „Possibly worse.\" slyšel divák schwu a whisper ji potvrdil jako slovo navíc (`Possibly | worse, | eh?`).",
+      "diagram_generator": "exitproblem",
+      "diagram": "Táž propast, dno se ztratí ve tmě a poslední štítek zůstane bez popisku.",
+      "naveti": "The list does not end there."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Druhé a poslední použití vah ve videu. Táž funkce z _kit, tedy táž geometrie — jinak se nepozná, že jde o totéž rozhodnutí u dvou různých režimů.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Váhy jako v S31, ale dvakrát: nad levou páteří se miska FREE ELECTION drží ve vodorovné poloze, nad pravou padá k HOLD ON."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Levá strana ODCHÁZÍ z obrazu — od téhle scény mluví scénář jen o té druhé. Kdyby zůstala, divák čte srovnání tam, kde už žádné není.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Pravá strana zůstane sama uprostřed. Kolem hrany ambrový obrys sevření (ruce držící okraj). Pod tím ztlumený štítek EVEN IF THE COUNTRY WOULD BE BETTER OFF."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Slovo „welded\" ze scénáře je tu doslova tvar: jedna silueta, ne dvě vedle sebe. Kdyby šlo o dva tvary spojené čarou, obraz by tvrdil spojenectví, ne srůst.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Postava a blok REGIME srostlé v jeden tvar ambrovým svarem; pod nimi táž hluboká propast."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Poslední scéna bloku a nejvyšší napětí videa. Lístek je týž tvar jako v S02, S29, S33 a S71 — po pěti výskytech ho divák čte bez popisku.",
+      "diagram_generator": "exitproblem",
+      "diagram": "Hlasovací lístek z S33 leží na hraně nad hlubokou propastí, nakloněný. Pod ním titulek A GAMBLE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Tchaj-wan a Čína vedle sebe, ale stejně velké a bez šipky mezi nimi: video je srovnává, netvrdí vztah. Velikostní rozdíl by sám od sebe nesl tvrzení o důležitosti.",
+      "diagram_generator": "cina",
+      "diagram": "Obrys Číny vedle ztlumeného obrysu Tchaj-wanu, oba stejně velké. Časová značka 1976."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "SHODNÉ ROZVRŽENÍ S S11 JE CELÉ TVRZENÍ SCÉNY. Kdyby se sloupce nakreslily jinak, divák nepozná, že Čína prošla stejným ekonomickým obrázkem — a čínský blok ztratí smysl.",
+      "diagram_generator": "cina",
+      "diagram": "Nad čínským obrysem rostou tytéž čtyři sloupce jako v S11 (Tchaj-wan), na týchž souřadnicích a v týchž barvách."
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S53.png",
+      "note": "Atmosférická scéna pro „deeply connected to the world economy\" — propojení se světem je situace, ne schéma. `slow_zoom_out`, protože se svět rozšiřuje. Pozor v promptu na „dusk\": v kombinaci s „flat grey overcast\" a „without sun\" nedělá zlaté světlo, ale kdyby ano, mění se na „overcast\" (naměřeno u videa 020).",
+      "prompt": "a container port at dusk without sun, rows of stacked containers and a distant cargo ship, seen from a high viewpoint, tiny figures for scale, painterly documentary illustration, flat grey overcast sky, no text"
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Tabulka dva krát dva, ve které chybí jediné políčko — divák si ho doplní sám dřív, než to řekne S54b. Fajfka u Tchaj-wanu ve spodní řadě je ČÁRKOVANÁ: scénář říká „had sometimes gone alongside\", ne „vedlo k\", a to je nejopatrnější tvrzení videa.",
+      "diagram_generator": "cina",
+      "diagram": "Pod oběma zeměmi dvě řady značek. Horní řada EKONOMIKA: u Tchaj-wanu i u Číny plná ambrová fajfka. Spodní řada POLITICAL LIBERALISATION: u Tchaj-wanu fajfka, u Číny zatím prázdné pole."
+    },
+    {
+      "id": "S54b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54b.png",
+      "note": "Beat. Škrtnutí, ne křížek přes nápis — pole je prázdné, takže se škrtá plocha.",
+      "diagram_generator": "cina",
+      "diagram": "Prázdné pole dostane škrtnutí, ne fajfku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Dva světy, které se nepotkávají — proto se sloupce kruhu NEDOTÝKAJÍ. Kdyby se dotýkaly, obraz by naznačoval tlak, který scénář netvrdí.",
+      "diagram_generator": "cina",
+      "diagram": "Ambrový blok NATIONAL POLITICAL POWER, kolem něj neporušený kruh s popiskem ONE PARTY. Vedle ztlumeně bohatnoucí sloupce z S52, které se kruhu ani nedotknou."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "VÝPLATA SCÉNY S25 přes pět minut. Souřadnice musí sedět přesně, jinak se callback nepozná — to je ta vada, kterou žádný detektor nechytí.",
+      "diagram_generator": "cina",
+      "diagram": "Odpověď z S25 (GETTING RICHER MAKES A COUNTRY DEMOCRATIC) se vrátí na TÉŽ souřadnice jako tehdy, ale přepsaná: CAN CREATE THE CONDITIONS."
+    },
+    {
+      "id": "S56b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56b.png",
+      "note": "Beat a hlavní teze videa vedle exit problemu.",
+      "diagram_generator": "cina",
+      "diagram": "Pod přepsanou odpovědí přibude jediný řádek: NOT INEVITABLE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Tři, ne šest — šest po sobě jdoucích abstraktních podstatných jmen je výčet, ne argument (proto se v0.2 škrtal). Třetí štítek je delší schválně, protože právě on míří zpátky na exit problem.",
+      "diagram_generator": "cina",
+      "diagram": "Tři ambrové štítky pod sebou: INSTITUTIONS, CIVIL SOCIETY, a třetí delší: OPPOSITION CAN ORGANISE, COMPETE, AND TAKE POWER — WITHOUT DESTROYING THE SYSTEM."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Shrnutí mechanismu jediným obrazem. Od téhle chvíle se páteř objeví už jen v závěru (S67b, S71, S72).",
+      "diagram_generator": "cina",
+      "diagram": "Páteř naposledy uprostřed: hrana, postava, a pod ní schod. Vedle titulek SOME REASON TO BELIEVE THAT LOSING WILL NOT DESTROY THEM."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Stejná tloušťka schválně: scénář neříká, která je častější. Kdyby jedna byla silnější, obraz by tvrdil četnost, kterou nemáme doloženou.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři cesty vedoucí od bloku REGIME pryč: OVERTHROWN, COLLAPSES, LOSES A WAR. Všechny tři plné, stejně silné."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Čtvrtá cesta nevede pryč, nýbrž ZEVNITŘ VEN: z pravé stěny bloku chybí kus a ambrová šipka k němu míří z vnitřku bloku. PŮVODNÍ VERZE MĚLA ŠIPKU ZVENČÍ NA BLOK a uživatel ji 2026-09-17 zpochybnil právem — scéna říká, že si režim odebírá díly sám, kdežto šipka mířící na něj se čte jako vnější zásah, tedy opak. Je to táž rodina jako ambrová šipka mířící na oběť místo na útočníka u videa 020. Škrtnutý SAINTS a plný ARITHMETIC vedle sebe drží tón scénáře: cynický, ale bez moralizování.",
+      "diagram_generator": "zaver",
+      "diagram": "Čtvrtá cesta, ambrová, vede od bloku dovnitř: režim si sám odebírá vlastní díly. Pod ní přeškrtnutý štítek SAINTS a plný ARITHMETIC."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Osa musí začínat diktaturou, ne demokracií — pořadí na ose je tvrzení scény („the dictatorship came first\").",
+      "diagram_generator": "zaver",
+      "diagram": "Přeškrtnutý čárkovaný nápis GOOD DEMOCRACY BEATS BAD DICTATORSHIP, pod ním časová osa Tchaj-wanu, na jejím ZAČÁTKU ambrový blok DICTATORSHIP."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Vztah „uvnitř\" je celé tvrzení. Kdyby pásy ležely za blokem, obraz by říkal, že se to stalo až po diktatuře — tedy opak scénáře.",
+      "diagram_generator": "zaver",
+      "diagram": "Na téže ose vyrostou uvnitř období diktatury dva pásy: ECONOMIC TRANSFORMATION a CIVIL SOCIETY. Oba jsou UVNITŘ ambrového bloku, ne za ním."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "TÁŽ BARVA JE TVRZENÍ: byli to produkty toho systému. Kdyby byly postavy jiné barvy, scéna by říkala, že přišly zvenčí.",
+      "diagram_generator": "zaver",
+      "diagram": "Z bloku diktatury vystoupí několik postav a začnou blok rozebírat zevnitř. Postavy mají tutéž ambrovou barvu jako blok."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Paradox jako uzavřený tvar. Smyčka se kreslí plnou čarou, protože to není hypotéza — je to popis toho, co se u čtyř zemí stalo.",
+      "diagram_generator": "zaver",
+      "diagram": "Kruh: DICTATORSHIP → CONDITIONS → DICTATORSHIP HARD TO KEEP → zpět. Uzavřená ambrová smyčka."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Dvě bubliny naráz jsou tady v pořádku (na rozdíl od S41/S42), protože scénář je staví proti sobě v jedné větě, ne v čase.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava na hraně, nad ní dvě bubliny: jedna přeškrtnutá s ikonou srdce a nápisem LOVE DEMOCRACY, druhá plná: BELIEVE I CAN SURVIVE LOSING."
+    },
+    {
+      "id": "S66",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S66.png",
+      "note": "Poslední atmosférická scéna. Fronta k volbám zezadu: lidé jsou anonymní a nikdo není hrdina, což odpovídá tomu, že scénář říká „that is half of it\". Zoom dovnitř na jednu věc.",
+      "prompt": "a long queue of ordinary people waiting quietly outside a plain civic building, seen from behind and slightly above, coats and bags, painterly documentary illustration, flat grey overcast light, no sun, no text"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Obě poloviny musí být v obraze naráz — dole lidé, nahoře mocní. Scéna tvrdí, že to je jeden jev, ne dva.",
+      "diagram_generator": "zaver",
+      "diagram": "Fronta lidí ztlumí a pozornost se přesune k hraně nahoře, kde stojí postava u moci. Nad ní ambrový štítek THE OTHER HALF."
+    },
+    {
+      "id": "S67b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67b.png",
+      "note": "UZAVŘENÍ KRUHU s S03b: táž hrana, tytéž souřadnice, jen otázka se změnila v konstatování. Nejdelší pauza videa vedle S42b.",
+      "diagram_generator": "zaver",
+      "diagram": "Zůstane jen hrana, postava a tři slova: THEY MIGHT LOSE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA: od téhle scény musí zůstat volná HORNÍ polovina obrazu, protože dole sedí titulek a YouTube klade dlaždici i kolečko nahoru. Kresba proto klesá pod hranu.",
+      "diagram_generator": "zaver",
+      "diagram": "Postava sestoupí ze schodu a dole se rozsvítí čtyři štítky: GO HOME, OPPOSITION PARTY, CRITICISE, CAMPAIGN AGAIN. Nad hranou zůstane VOLNO."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Poslední pohyb významu ve videu: cesta zpátky nahoru existuje. Prostor nahoře zůstává volný kvůli závěrečné obrazovce.",
+      "diagram_generator": "zaver",
+      "diagram": "Šipka od posledního štítku vede zpátky nahoru na hranu. Kruh se uzavře. Horní polovina jinak prázdná."
+    },
+    {
+      "id": "S69b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69b.png",
+      "note": "Beat s doslovným opakováním ve scénáři („That is the trick. That is the whole trick.\") — v obraze se neopakuje nic, opakování nese hlas.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, přibude jediný nápis dole: THE TRICK.",
+      "pause": 2.6
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "CALLBACK NA S16 přes padesát scén — seznam jmen musí mít TÉŽ geometrii jako tehdy, jinak se nepozná. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo ztlumeně seznam jmen z S16, vpravo ambrová volební urna. Mezi nimi žádná šipka, jen časová vzdálenost vyznačená na ose."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "VÝPLATA MOTIVU LÍSTKU a URNY (S02, S29, S33, S50). Vrchol obrazu je prázdný — poslední scény drží volné místo pro závěrečnou obrazovku.",
+      "diagram_generator": "zaver",
+      "diagram": "Dva přeškrtnuté čárkované štítky REVOLUTION a CIVIL WAR, a pod nimi jediná plná ambrová volební urna uprostřed dolní poloviny.",
+      "pause": 2.4
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "ZÁVĚREČNÁ DESKA. Není to přidaná scéna, je to poslední scéna scénáře navržená jako klidná. Prázdné dvě třetiny nahoře jsou jeden souvislý pruh, ne drobnosti po rozích — a páteř se tu naposledy vyplatí v nejmenší možné hloubce.",
+      "diagram_generator": "zaver",
+      "diagram": "Hrana a jediný schod, na schodu stojící postava, urna vedle ní. Vše v dolní třetině. Horní dvě třetiny prázdné."
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "První obrazovka nese paradox (auto s osvědčením k letu), ne atmosféru; není SDXL ani fotka, protože fotka sama paradox neřekne. Osvědčení je na JEDEN prototyp (factcheck S01) — na kartě žádné „type certificate“. Animace: razítko dopadne na kartu.",
+   "diagram_generator": "hak",
+   "diagram": "Vlevo silueta AirCaru v SILNIČNÍM režimu (křídla složená podél boku, kola na zemi) — čte se jako auto. Vpravo karta CERTIFICATE OF AIRWORTHINESS s razítkem a pod ní ambrově ALLOWED TO FLY.",
+   "anim": "animace"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "AirCar na Commons není (hledáno 2026-11-02 pěti dotazy) → kresba. Je to rým s S01: týž tvar, jen se rozloží křídla. Animace: křídla se vysunou, stroj se odlepí. Rok 2022 z factcheck S02 (ne 2023 z tiskovky KV).",
+   "diagram_generator": "hak",
+   "diagram": "Tentýž AirCar jako v S01, teď s rozloženými křídly ve vzduchu nad krajinou. Vpravo tři údaje: SLOVAKIA, 2022 · 70 HOURS IN THE AIR · 200+ TAKE-OFFS.",
+   "anim": "animace"
+  },
+  {
+   "id": "S03",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S03.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 0 = „Aerocar 2024.jpg“ (CC BY-SA 4.0): červený Aerocar v muzeu, křídlo vlevo nahoře. Vybráno z kontaktního listu 2026-11-02 proti N101D, AirVenture a širokému snímku s křídly (poměr 3:1).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Taylor Aerocar",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Počet aut je data → assert len == 6 (factcheck S04: HistoryNet 6; HistoryLink 5–7, držíme scénář).",
+   "diagram_generator": "hak",
+   "diagram": "Šest malých siluet Aerocaru v řadě (assert 6), pod nimi nápis SIX BUILT a ztlumeně NEVER WENT INTO PRODUCTION."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Roky jen ty, které jsou ve factcheck-zaklad.md (A) — co tam není, bez roku. Pořadí strojů assertem podle roku. Animace: stroje naskakují zleva po ose, osa se nekreslí znovu.",
+   "diagram_generator": "hak",
+   "diagram": "Časová osa vodorovně přes obraz, na ní pojmenované stroje v chronologickém pořadí (ConvAirCar, Airphibian, Aerocar, Transition, PAL-V, AirCar, Switchblade, Alef) jako drobné siluety; nadpis BUILT AGAIN AND AGAIN.",
+   "anim": "animace"
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Páteř videa: totéž panorama nese celé video — prázdné (S06), jeden stroj (S07, S51, S74), tisíce (S53+), plné (S75), pár tras (S78, S89–S90). Kreslí se JEN funkcí panorama() z _kit.py.",
+   "diagram_generator": "hak",
+   "diagram": "ZAVEDENÍ PÁTEŘE: PANORAMA města (silueta střech na pevných souřadnicích, zem v y = 1000) a nad ním prázdné nebe. Nahoře ambrově SO WHY DOESN'T ANYONE USE THEM?",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Jeden stroj nad městem = vyřešený problém. Žádné odškrtnutí „hotovo“, scéna říká „nebylo to to těžké“, ne „je to snadné“.",
+   "diagram_generator": "hak",
+   "diagram": "Panorama; nad ním JEDEN stroj (ambrový) a nápis BUILDING ONE: NEVER THE HARD PART."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Teze videa. Animace: stroje přibývají s větou „more than one“. Druhý stroj musí být vidět hned, jinak obraz tvrdí „jeden“.",
+   "diagram_generator": "hak",
+   "diagram": "Panorama; vedle prvního stroje naskočí druhý, třetí, … (ztlumeně, rozptýleně) a nápis THE HARD PART: MORE THAN ONE.",
+   "pause": 1.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Žebřík (zebrik() v _kit.py, pevná poloha vlevo nahoře) se objeví jen na předělech fází: S09, S52–S53, S65, S73. Krátká promluva → naveti.",
+   "diagram_generator": "stroj",
+   "diagram": "ŽEBŘÍK měřítka vlevo nahoře: ONE · THOUSANDS · MILLIONS, rozsvícený jen ONE. Uprostřed jeden stroj velký, z boku.",
+   "pause": 1.4,
+   "naveti": "The hard part starts the moment you have more than one."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Úvod srovnání; auto a letadlo jsou tytéž tvary jako v S11–S12.",
+   "diagram_generator": "stroj",
+   "diagram": "Dvě siluety proti sobě: auto vlevo, lehké letadlo vpravo, mezi nimi oboustranná šipka OPPOSITE."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Hlas i obraz srovnávají požadavky, ne hmotnost konkrétních strojů → bez čísel.",
+   "diagram_generator": "stroj",
+   "diagram": "Totéž; pod autem STRONG, HEAVY · SURVIVES A CRASH, pod letadlem AS LIGHT AS POSSIBLE. Pod autem tlustá, pod letadlem tenká konstrukční čára."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "SILNICE je sdílený tvar (silnice() v _kit.py) — vrací se v S33–S34 pod rotorem vrtulníku, měřítko m→px stejné. assert rozpětí > šířka silnice. Animace: křídla se roztáhnou přes krajnice.",
+   "diagram_generator": "stroj",
+   "diagram": "Půdorys: SILNICE (dva pruhy, pruh 3,5 m) a přes ni půdorys lehkého letadla, jehož křídla (≈ 10–11 m) přečnívají přes okraje silnice. Kóty LANE 3.5 m a WINGSPAN ~11 m.",
+   "anim": "animace"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Každý panel = skutečný případ z factcheck S13; jména strojů drobně pod panely. Animace: v prvním panelu se křídlo složí, ve druhém odjede, ve třetím zůstane stát.",
+   "diagram_generator": "stroj",
+   "diagram": "Tři malé panely vedle sebe: křídla se SKLÁDAJÍ (AirCar) / ODNÍMAJÍ (Aerocar s přívěsem) / ZŮSTANOU NA LETIŠTI (ConvAirCar); nahoře EVERY FLYING CAR IS A COMPROMISE.",
+   "anim": "animace"
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Měřítko dráhy a stroje assertem (180 m vs ~4 m). PAL-V je vírník (factcheck S14) → kreslit s rotorem nahoře, ne s křídly. Animace: stroj se rozjíždí po dráze.",
+   "diagram_generator": "stroj",
+   "diagram": "Vzletová dráha z boku, kóta 180 m, na začátku malá silueta vírníku PAL-V (délka ~4 m, ve stejném měřítku). Nápis ROAD-LEGAL, STILL NEEDS A RUNWAY.",
+   "anim": "animace"
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Ironie scény je v tom, že silniční úsek je první. Animace: tečka jede po trase.",
+   "diagram_generator": "stroj",
+   "diagram": "Schéma cesty: HOME → (silnice) → AIRFIELD → (let) → WORK; silniční úsek plný, letový čárkovaně obloukem.",
+   "pause": 1.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S16",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 0 = „William T. Piper.jpg“ (public domain), studiový portrét. Portrét: static, fit 0.84, žádný zoom; jméno nese S17.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "William T. Piper",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Citát doslova z factcheck S16–S17 (Private Flying: Today and Tomorrow, 1949). Uvozovky jen kolem doslovného znění.",
+   "diagram_generator": "historie",
+   "diagram": "Citátová karta: „NEITHER A GOOD PLANE / NOR A GOOD AUTOMOBILE“ a pod tím WILLIAM T. PIPER, 1949.",
+   "pause": 2.2
+  },
+  {
+   "id": "S18",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S18.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 11 = „23 0085093 Convair Negative Image“ (SDASM, public domain): ConvAirCar na zemi pod křídlem, letištní budovy. Postavy malé.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Convair 118",
+    "pick": 11
+   }
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Byl to NÁVRH obchodního modelu (factcheck S19) → nadpis THE PLAN, ne „how it was sold“.",
+   "diagram_generator": "historie",
+   "diagram": "ConvAirCar rozložený na dvě poloviny: dole auto s cenovkou BUY, nad ním odpojené křídlo s motorem a cenovkou RENT AT THE AIRPORT."
+  },
+  {
+   "id": "S20",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S20.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 1 = „Convair Model 118 ConvAirCar, Nov47.jpg“ (no restrictions): stroj ve vzduchu, listopad 1947. Jiný snímek než S18.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "ConvAirCar",
+    "pick": 1
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Mapka schematická, ne přesná (žádné souřadnice nepředstírat). Datum z factcheck S21. Animace: dráha letu se dokreslí a ručička paliva klesá.",
+   "diagram_generator": "historie",
+   "diagram": "Schematická mapka pobřeží u San Diega, šipka letu končí ambrovým křížkem NOUZOVÉ PŘISTÁNÍ na MUD FLATS; u ní ukazatel paliva na LOW. Datum 18 NOV 1947.",
+   "pause": 1.0,
+   "anim": "animace"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Čárkovaná = nedoložené (konvence _kit.py). Historka v primárních zdrojích není (factcheck S22), obraz ji nesmí podat jistěji než hlas.",
+   "diagram_generator": "historie",
+   "diagram": "Dva ukazatele paliva vedle sebe: CAR (plný, ambrově zvýrazněný — ten, na který se pilot díval) a PLANE (prázdný). Rámeček kolem je ČÁRKOVANÝ a nahoře THE STORY GOES."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "ZA scénou výzva k odběru (≈ 2:05) → levý dolní roh (x < 22 %, y > 75 %) PRÁZDNÝ, sloupce jen ve středu a vpravo. S24 začíná krátkým titulkem „So engineers had a better idea.“",
+   "diagram_generator": "historie",
+   "diagram": "Uprostřed jedna karoserie, z ní dva sloupce: ENGINE ×2, FUEL ×2, GAUGES ×2, CONTROLS ×2 (pro auto a pro letadlo). Nadpis TWO MACHINES, ONE BODY.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Panorama na pevných souřadnicích (páteř). Levý dolní roh prázdný i tady — výzva z S23 přesahuje 1 s do S24. Animace: stroj stoupá ze střechy.",
+   "diagram_generator": "vykon",
+   "diagram": "Panorama; ze střechy jednoho domu stoupá stroj svisle nahoru (šipka vzhůru), na silnici pod ním druhý připravený. Nápis SKIP THE RUNWAY.",
+   "anim": "animace"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Obecný tvar, žádná značka. Škrt jen vodorovnou čarou přes nápis.",
+   "diagram_generator": "vykon",
+   "diagram": "Velká čistá kresba obecného eVTOL (kabina pro 1–2, 4–8 malých rotorů) z boku. Nahoře přeškrtnutě CAR WITH WINGS (text_skrtnuty), pod tím ambrově SMALL AIRCRAFT THAT RISES VERTICALLY."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Most k hlavnímu argumentu; číslo dodá až S30.",
+   "diagram_generator": "vykon",
+   "diagram": "Účet / faktura s hlavičkou PHYSICS a jedinou položkou POWER — částka zatím otazník.",
+   "pause": 0.6
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Sloupce výkonu (vykon_sloupec() v _kit.py) mají JEDNO měřítko kW→px pro S27, S30, S32 — assert, že se nemění. Data od prvního snímku (prázdná osa = rozbitý graf). Animace: sloupec auta naroste.",
+   "diagram_generator": "vykon",
+   "diagram": "Graf VÝKONU: vodorovný sloupec CAR AT 100 KM/H ≈ 13 kW; pod ním ještě prázdné řádky pro další sloupce (ztlumené obrysy, ať osa není prázdná).",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "v0.4: „keep it moving“ (valivý odpor je třetina výkonu) — nápis nesmí říkat „air resistance only“.",
+   "diagram_generator": "vykon",
+   "diagram": "Auto z boku na silnici: šipky váhy dolů a stejně velké šipky silnice nahoru (ROAD CARRIES THE WEIGHT); malá šipka dozadu u kol ENGINE: KEEP IT MOVING."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Tentýž stroj jako S25. Animace: proud vzduchu pod rotory proudí dolů v smyčce.",
+   "diagram_generator": "vykon",
+   "diagram": "Vznášející se stroj: velká šipka váhy dolů, pod rotory proud vzduchu šipkami dolů (THROWING AIR DOWN), žádná silnice pod ním.",
+   "anim": "animace"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "HLAVNÍ ČÍSLO VIDEA. assert 20*13 a 40*13 v tomtéž měřítku; rozsah je rozsah (factcheck S30), proto dvoubarevný konec. Sloupec je tak dlouhý, že se měřítko musí zvolit už v S27, aby se sem vešel. Animace: sloupec roste přes celou šířku.",
+   "diagram_generator": "vykon",
+   "diagram": "Graf výkonu ze S27 (sloupec auta 13 kW na místě) + pod ním sloupec HOVERING, CAR-SIZED: 20× až 40×, tedy ~260–520 kW — plná část do 20×, čárkovaný rozsah do 40×.",
+   "anim": "animace"
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Kvalitativní (teorie hybnosti P ~ 1/√A) — výšky sloupků spočítat ze vzorce, ne od oka; bez čísel na ose.",
+   "diagram_generator": "vykon",
+   "diagram": "Tři rotory různé velikosti vedle sebe, pod každým potřebný výkon jako sloupek — čím menší rotor, tím vyšší sloupek. Nadpis SMALLER ROTORS, MORE POWER.",
+   "pause": 0.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Stejné měřítko jako S27 a S30 (assert). Animace: sloupec vrtulníku naroste.",
+   "diagram_generator": "vykon",
+   "diagram": "Graf výkonu ze S27/S30 + třetí sloupec HELICOPTER ≈ 10× (~130 kW), mezi autem a vznášejícím se strojem.",
+   "pause": 0.5,
+   "anim": "animace"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Rým se S12: silnice tentýž tvar i měřítko. assert 10 m > šířka dvou pruhů.",
+   "diagram_generator": "vykon",
+   "diagram": "Půdorys: rotor vrtulníku jako kruh o průměru 10 m nad SILNICÍ ze S12 (stejné měřítko m→px). Kóta ROTOR 10 m.",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Pointa bloku výkonu.",
+   "diagram_generator": "vykon",
+   "diagram": "Totéž; rotor přečnívá přes obě krajnice ambrově, nápis EFFICIENT BECAUSE IT COULD NEVER FIT ON A ROAD.",
+   "pause": 0.8
+  },
+  {
+   "id": "S34b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34b.png",
+   "pause": 1.6,
+   "note": "v0.5, přání uživatele po draftu 1: levné držení ve vzduchu by chtělo novou technologii, třeba antigravitaci — mimo dnešní možnosti. Konec bloku výkonu (pauza přešla ze S34). Auto vznášející se BEZ rotorů, pod ním čárkované „pole“: čárkovaně = hypotéza (konvence 2).",
+   "diagram_generator": "vykon",
+   "diagram": "Auto z boku vznášející se nad čárkovanou zemí, bez rotorů; pod ním čárkované vlnky pole. Nahoře v čárkovaném rámečku ANTIGRAVITY? a pod autem ztlumeně FAR BEYOND ANYTHING WE CAN BUILD."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Předěl.",
+   "diagram_generator": "baterie",
+   "diagram": "Baterie (článek) a symbol blesku, nadpis SECOND PROBLEM: BATTERIES.",
+   "pause": 0.6
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "assert 50 kostiček proti 1. „battery packs“ (celé moduly, ne články) — factcheck S36. Animace: kostičky benzínu naskakují po řadách.",
+   "diagram_generator": "baterie",
+   "diagram": "Dvě misky: 1 kg PETROL jako 50 kostiček energie, 1 kg BATTERY PACK jako 1 kostička. Nápis ~50× THE ENERGY.",
+   "anim": "animace"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "v0.3: „only about a fifteenth as much“. assert 15. Animace: ztracené kostičky zešednou (odpad tepla), zbude 15.",
+   "diagram_generator": "baterie",
+   "diagram": "Totéž, ale kostičky benzínu se ztlumí podle účinnosti motoru, zbude 15 užitečných proti 1 baterie. Nápis AFTER THE MOTOR: ~15× (1/15).",
+   "anim": "animace"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Animace: hladina v nádrži klesá a váhy se naklání. Konec bloku energie.",
+   "diagram_generator": "baterie",
+   "diagram": "Váhy: vlevo palivová nádrž, vpravo baterie. Nádrž se vyprazdňuje a její miska stoupá; miska baterie zůstává. FUEL TANK: LIGHTER AS IT EMPTIES / BATTERY: SAME WEIGHT.",
+   "pause": 2.4,
+   "anim": "animace"
+  },
+  {
+   "id": "S39",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S39.png",
+   "note": "Jediná scéna, kde je SDXL přirozený zdroj: „staré ilustrace“ slibované budoucnosti. Kotva stylu je retro-futuristická. Obličeje v negativu → postavy malé, zezadu nebo z dálky.",
+   "prompt": "retro-futurist 1950s magazine illustration of a smiling family in a small flying car above a tidy suburban town, rooftops and lawns below, flat grey overcast sky, no sun, no text",
+   "pause": 0.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Krátká otázka (0,7 s) → naveti s textem předchozí scény kvůli intonaci.",
+   "diagram_generator": "pilot",
+   "diagram": "Kokpit zezadu: prázdné sedadlo pilota s ambrovým otazníkem nad ním.",
+   "pause": 1.2,
+   "naveti": "Then there's the question the old illustrations never asked."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "v0.4: „at least forty hours“ bez Evropy. Plná × čárkovaná = minimum × typicky víc (konvence).",
+   "diagram_generator": "pilot",
+   "diagram": "Časová osa hodin: plný pás 40 HOURS IN THE AIR (minimum) a za ním čárkované prodloužení IN PRACTICE, USUALLY MORE."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "assert 1400 teček. Animace: mřížka se zaplní, pak se rozsvítí jedna.",
+   "diagram_generator": "pilot",
+   "diagram": "Mřížka 1 400 drobných postav řidičů (ztlumeně) a jedna ambrová — PILOT. Nadpis UNITED STATES: ~1,400 DRIVERS PER PRIVATE PILOT.",
+   "anim": "animace"
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "Beat rozdělený na scény S43–S48: JEDEN obraz, mění se jen rozsvícený sloupec (žádné nové kompozice).",
+   "diagram_generator": "pilot",
+   "diagram": "Tři sloupce s čísly 1 · 2 · 3, zatím prázdné rámečky; nadpis THREE WAYS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Krátká promluva → naveti.",
+   "diagram_generator": "pilot",
+   "diagram": "Sloupec 1 rozsvícený: postava s křídélky — EVERYONE LEARNS TO FLY.",
+   "pause": 0.6,
+   "naveti": "So there are really only three ways to give everyone a flying car."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "pilot",
+   "diagram": "Sloupec 1 ztlumený, 2 rozsvícený: postava u obrazovky na zemi, čárkovaná linka ke stroji — SOMEONE ON THE GROUND.",
+   "pause": 0.6
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Krátká promluva → naveti.",
+   "diagram_generator": "pilot",
+   "diagram": "Sloupce 1–2 ztlumené, 3 rozsvícený: stroj se symbolem procesoru — IT FLIES ITSELF.",
+   "pause": 1.4,
+   "naveti": "Someone on the ground flies it for them."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Tři stroje jsou výsledek JEDNÉ simulace (NASA–Wisk), ne obecný limit → štítek musí být v obraze (notes v0.2, factcheck S47). Animace: linky naskočí jedna po druhé.",
+   "diagram_generator": "pilot",
+   "diagram": "Sloupec 2 zvětšený: jedna postava u pultu a čárkované linky ke TŘEM strojům (assert 3). Štítek IN ONE NASA SIMULATION; nahoře RUNS OUT OF PEOPLE.",
+   "pause": 1.0,
+   "anim": "animace"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Krátká promluva → naveti.",
+   "diagram_generator": "pilot",
+   "diagram": "Návrat ke třem sloupcům; 1 a 2 ztlumené a přeškrtnuté čarou, 3 rozsvícený.",
+   "pause": 0.6,
+   "naveti": "One person on the ground could safely look after three aircraft."
+  },
+  {
+   "id": "S49",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S49.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 10 = „EHang 216-S au Salon du Bourget 2025.jpg“ (CC BY 4.0): právě certifikovaná verze -S. Nápisy EHANG na stánku v pozadí jsou skutečné, nevadí.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "EHang 216",
+    "pick": 10
+   }
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Factcheck S50 🔁 — přeověřit EHang Q3 (konec listopadu) PŘED nahráním; když se změní, mění se i tahle deska.",
+   "diagram_generator": "pilot",
+   "diagram": "Turniket / pokladna s počítadlem PAYING PASSENGERS: 0 a malým EH216 siluetou vedle."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Návrat k páteři, most do fáze tisíců.",
+   "diagram_generator": "pilot",
+   "diagram": "Panorama; nad ním jeden stroj s ikonou procesoru, pod ním drobné postavy v ulicích; nápis SOFTWARE WE'D TRUST WITH THE SKY ABOVE OUR HEADS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Předěl fáze 1 → 2. Od teď je obraz HUSTÝ a neklidný (roj), fáze 1 byla technická a čistá.",
+   "diagram_generator": "mesto",
+   "diagram": "Žebřík vlevo nahoře: ONE odškrtnuté, THOUSANDS rozsvícené. Panorama s jedním strojem.",
+   "pause": 1.4
+  },
+  {
+   "id": "S53",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S53.png",
+   "note": "Atmosférické otevření fáze tisíců (chaos nad městem) — jediné SDXL uprostřed videa. Když model nakreslí letadla jako ptáky nebo drony, přijmout podle funkce (přeplněné nebe), ne podle promptu. Kolo 1 (seed z ID) dalo válečná vrtulová letadla nad městem — čte se jako nálet, ne jako přeplněné nebe; prompt doplněn o civilní drony a „no military aircraft“. Kolo 2 (seed 5302): civilní multikoptéry nad městem, ale jen asi pět — „tisíce“ nese hlas a roj v S55+; pro draft přijato, k posouzení uživatelem.",
+   "prompt": "painterly view over a dense city of rooftops, the sky crowded with hundreds of small civilian passenger drones with four rotors, hovering at different heights, crowded airspace, flat grey overcast sky, no sun, no military aircraft, no text",
+   "pause": 1.4,
+   "seed": 5302
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Rým se SILNICÍ ze S12.",
+   "diagram_generator": "mesto",
+   "diagram": "Silnice z ptačí perspektivy, auto s výstražným trojúhelníkem stojí na odstavném pruhu: PULL OVER.",
+   "pause": 0.5
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Panorama, tentýž roj ztlumeně v pozadí.",
+   "diagram_generator": "mesto",
+   "diagram": "Panorama; stroj s výstražným symbolem ve vzduchu, pod ním jen střechy — NOWHERE TO PULL OVER.",
+   "pause": 0.6
+  },
+  {
+   "id": "S55b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55b.png",
+   "pause": 0.6,
+   "note": "v0.5, vtip uživatele: antigravitace by dovolila zastavit na „krajnici na nebi“. Tentýž obraz jako S55 (panorama, roj ztlumeně), jen místo stroje s výstrahou auto stojící na čárkované ambrové krajnici ve vzduchu s výstražným trojúhelníkem.",
+   "diagram_generator": "mesto",
+   "diagram": "Panorama, ztlumený roj; ve vzduchu čárkovaná ambrová vodorovná krajnice, na ní stojí auto s výstražným trojúhelníkem. Nahoře A HARD SHOULDER IN THE SKY."
+  },
+  {
+   "id": "S55c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55c.png",
+   "pause": 1.2,
+   "note": "Pointa vtipu jako samostatná scéna (beat). Týž obraz jako S55b + postavička u otevřených dveří auta nad prázdnem, pod ní čárkovaná šipka dolů.",
+   "diagram_generator": "mesto",
+   "diagram": "Totéž jako S55b; u auta postavička, která vystoupila na okraj krajnice, pod ní dlouhá čárkovaná šipka dolů k domům. Nahoře …BUT YOU CAN'T WALK HOME."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "„Per hour“ musí být v obraze (factcheck S56: srovnání jen na hodinu, ne na km). assert poměr 50. Animace: sloupec létání vyroste.",
+   "diagram_generator": "mesto",
+   "diagram": "Dva sloupce: DRIVING = 1, PRIVATE FLYING ≈ 50×; podtitul PER HOUR OF TRAVEL.",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "mesto",
+   "diagram": "Panorama s rojem; jeden stroj ambrově, kolem kabiny popisek PEOPLE ON BOARD.",
+   "pause": 0.4
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Ambrová přejde ze stroje na lidi dole (o nich je teď řeč). Animace: postavy se rozsvěcují po ulicích.",
+   "diagram_generator": "mesto",
+   "diagram": "Totéž; pod rojem v ulicích drobné postavy rozsvícené ambrově: EVERYONE UNDERNEATH — NEVER CHOSE TO FLY.",
+   "pause": 2.2,
+   "anim": "animace"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Krátká promluva → naveti.",
+   "diagram_generator": "mesto",
+   "diagram": "Panorama, nad ním vlnovky zvuku.",
+   "pause": 0.6,
+   "naveti": "It's everyone underneath, who never chose to fly at all."
+  },
+  {
+   "id": "S60",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S60.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 0 = „Joby Aviation S4 experimental eVTOL aircraft at Edwards AFB.jpg“ (public domain, USAF). Hlas říká jen „much quieter“, bez čísla (factcheck S60); fotka nenese žádné dB.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Joby Aviation",
+    "pick": 0
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "S61 je záměrně fragment — obraz nese skok „jeden tichý stroj ≠ tisíc“. Animace: kroužky přibývají, až splynou.",
+   "diagram_generator": "mesto",
+   "diagram": "Ulice v řezu mezi domy panoramatu; nad ní JEDEN tichý kroužek zvuku → ×1000 kroužků, které se překrývají a vyplní ulici. Štítky EVERY MORNING · EVERY EVENING.",
+   "pause": 1.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "mesto",
+   "diagram": "Panorama s rojem; od každého stroje čárkovaná svislá linka dolů na střechu s otazníkem — WHERE DO THEY LAND?",
+   "pause": 0.6
+  },
+  {
+   "id": "S63",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S63.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU: Pick 10 = „Helicoptero sobre a prefeitura de São Paulo.JPG“ (CC BY-SA 3.0): vrtulník přistává na střeše radnice. Čísla ~400 a ~260 nese hlas (factcheck S63: jediný zdroj, proto ne do obrazu).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "heliponto São Paulo",
+    "pick": 10
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Počet H a strojů jako data (assert poměr 260 : 400 přibližně); konec fáze tisíců.",
+   "diagram_generator": "mesto",
+   "diagram": "Panorama se střechami a ~260 symboly H (ztlumeně), nad nimi jen hrstka strojů; nadpis ALL THIS FOR A FEW HUNDRED MACHINES.",
+   "pause": 2.4
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Předěl na fázi milionů. Od teď obraz MĚŘÍTKA: hustá mřížka, velká čísla, celá planeta — panorama se vrátí až v odpovědi (S74).",
+   "diagram_generator": "miliony",
+   "diagram": "Žebřík vlevo nahoře: ONE a THOUSANDS odškrtnuté, MILLIONS rozsvícené, velkým písmem.",
+   "pause": 1.2,
+   "vycet": 0.3
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Legenda je nutná (tvar bez legendy neříká nic). Animace: mřížka se zaplňuje.",
+   "diagram_generator": "miliony",
+   "diagram": "Mřížka teček, každá = 10 000 aut, 260 teček (assert ≥ 250). Nadpis LONDON: 2.5+ MILLION CARS a legenda tečky.",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Jedna tečka mřížky je 10 000 aut, takže 1 % je 2,6 tečky — kreslit to jako ambrový úsek jedné řady s kótou, ne jako tečky (nesedělo by). assert 0.01*2.6e6 ≈ 26 000.",
+   "diagram_generator": "miliony",
+   "diagram": "Tatáž mřížka; zvýrazněná 1 ze 100 aut jako ambrový zlomek, a velké číslo 26,000+ FLYING CARS OVER ONE CITY.",
+   "pause": 0.6
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "v0.4 „about as many as“ — sloupce se nesmí lišit tak, aby obraz tvrdil „víc“ nebo „míň“; ≈ místo >.",
+   "diagram_generator": "miliony",
+   "diagram": "Dva stejně dlouhé sloupce: LONDON, 1 % OF CARS ≈ 26,000 a THE WHOLE PLANET, IN THE AIR AT ANY MOMENT ≈ 22–24,000; mezi nimi ≈.",
+   "pause": 1.4
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Silueta schematická. Animace: tečky letadel naskakují nad mapou.",
+   "diagram_generator": "miliony",
+   "diagram": "Silueta USA z teček letadel; nápis AT ITS BUSIEST: ~5,500 FLIGHTS AT ONCE. Pro srovnání malý sloupec 26,000 ze S68 vedle.",
+   "pause": 0.6,
+   "anim": "animace"
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Factcheck S70: celý stát a všechny směny — nadpis nesmí říkat „on duty at once“.",
+   "diagram_generator": "miliony",
+   "diagram": "Mřížka postav řídících, 1 postava = 100 lidí, 140 postav (assert). Nadpis 14,000 AIR TRAFFIC CONTROLLERS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "v0.3 „has an assigned route and altitude“ — proužek je atribut letu, ne činnost pilota.",
+   "diagram_generator": "miliony",
+   "diagram": "Letový proužek (flight strip) jako karta: ROUTE · ALTITUDE · FLIGHT PLAN FILED IN ADVANCE.",
+   "pause": 0.6
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Absurdní pointa fáze milionů. Konec bloku — dlouhá pauza před odpovědí.",
+   "diagram_generator": "miliony",
+   "diagram": "Tentýž letový proužek, ale cíl je nákupní košík: DESTINATION: SUPERMARKET. Za ním vějíř dalších proužků (tisíce).",
+   "pause": 2.6
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "Rekapitulace tří stupňů; krátká promluva → naveti.",
+   "diagram_generator": "odpoved",
+   "diagram": "Žebřík celý vlevo nahoře, ale tentokrát velký uprostřed: ONE ✓ · THOUSANDS · MILLIONS, nahoře SO THAT'S THE REAL ANSWER.",
+   "pause": 1.0,
+   "naveti": "A city full of flying cars would need all of that, for trips to the supermarket."
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "CHRÁNIT (notes v0.2). Výplata páteře: přesně kompozice S07.",
+   "diagram_generator": "odpoved",
+   "diagram": "Panorama s JEDNÍM strojem (jako S07), nápis A PERFECTLY GOOD IDEA FOR ONE PERSON.",
+   "pause": 0.8
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "CHRÁNIT. Hlavní pointa videa; ZA ní výzva k odběru č. 2 → levý dolní roh prázdný (panorama končí na y = 1000 = 69 %, nadpis krátký a na středu). Animace: nebe se zaplní.",
+   "diagram_generator": "odpoved",
+   "diagram": "Totéž panorama, nebe přeplněné stroji (roj z fáze tisíců, hustší), nápis IT STOPS WORKING WHEN EVERYONE HAS ONE.",
+   "pause": 3.0,
+   "vyzva": true,
+   "anim": "animace"
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "v0.4 „biggest companies“ — nadpis nesmí říkat „all companies“. Levý dolní roh prázdný (výzva z S75 sem přesahuje).",
+   "diagram_generator": "odpoved",
+   "diagram": "Šipka přesměrování: z FLYING CARS FOR EVERYONE ohyb do AIR TAXIS. Nadpis THE BIGGEST COMPANIES CHANGED THE PLAN.",
+   "pause": 0.6
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "odpoved",
+   "diagram": "NOT SELLING FLYING CARS (text_skrtnuty) / ambrově BUILDING AIR TAXIS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "note": "Panorama s trasami = budoucí výplata v S89. Trasy se kreslí funkcí trasy() v _kit.py (stejné v S78, S80, S89, S90). Animace: trasy se kreslí, stroje po nich jedou.",
+   "diagram_generator": "odpoved",
+   "diagram": "Panorama; tři až čtyři ambrové oblouky tras mezi několika přistávacími plochami na střechách, na každé trase jeden stroj; ikonka pilota v kabině. Štítky FEW AIRCRAFT · PROFESSIONAL PILOTS · CHOSEN ROUTES.",
+   "pause": 1.0,
+   "anim": "animace"
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "note": "Polohy z reálných souřadnic (přepočet), trasy ČÁRKOVANĚ — je to plán, provoz nezačal (factcheck S79 🔁 Joby Q3 4. 11.).",
+   "diagram_generator": "odpoved",
+   "diagram": "Schematická mapa Dubaje: pobřeží a čtyři body DXB AIRPORT (ambrově), AMERICAN UNIVERSITY IN DUBAI, ATLANTIS THE ROYAL, DUBAI MALL; mezi nimi čárkované trasy (plán)."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Panorama s trasami ze S78, celé ztlumené; nápis EVEN THIS IS HARD.",
+   "pause": 0.6
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "note": "Data z factcheck S81 (28. 10. a 26. 12. 2024, 59 dní). Žádná loga, jen jména.",
+   "diagram_generator": "taxi",
+   "diagram": "Dvě karty firem: LILIUM — INSOLVENCY, OCT 2024 a VOLOCOPTER — INSOLVENCY, DEC 2024; mezi nimi závorka WITHIN TWO MONTHS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "note": "Parafráze, ne citace → bez uvozovek (factcheck S82: „not mature“).",
+   "diagram_generator": "taxi",
+   "diagram": "Třetí karta: AIRBUS CITYAIRBUS NEXTGEN — PAUSED, 2025; pod ní BATTERY TECHNOLOGY NOT READY.",
+   "pause": 0.6
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "note": "🔁 Joby, Archer, EHang přeověřit před nahráním (factcheck S83). „like this“ = eVTOL, vrtulníky se nepočítají — štítek AIR TAXIS LIKE THESE malou siluetou eVTOL.",
+   "diagram_generator": "taxi",
+   "diagram": "Obrys světa (ztlumeně) a velké počítadlo AIR TAXIS CARRYING PAYING PASSENGERS: 0.",
+   "pause": 2.4
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "note": "Retro auto je tvarem tatáž silueta jako na časové ose S05.",
+   "diagram_generator": "taxi",
+   "diagram": "Dvě poloviny: vlevo ztlumeně retro létající auto (THE FUTURE WE WERE PROMISED), vpravo ambrově obrys vrtulníku (SOMETHING WE ALREADY HAVE).",
+   "pause": 0.5
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "note": "„maybe“ musí být v obraze — míra jistoty jako v hlasu.",
+   "diagram_generator": "taxi",
+   "diagram": "Vrtulník vpravo zvětšený na celou desku, pod ním HELICOPTER SERVICE a štítky QUIETER · MAYBE CHEAPER.",
+   "pause": 2.4,
+   "vycet": 0.3
+  },
+  {
+   "id": "S86",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S86.png",
+   "note": "Klidný předěl do závěru (hudba se vrací). Jeden vzdálený stroj = odpověď videa. Nekreslí se do něj nic.",
+   "prompt": "painterly wide view of quiet city rooftops, a single small aircraft crossing the sky far away, calm and spacious, flat grey overcast sky, no sun, no text",
+   "pause": 1.2
+  },
+  {
+   "id": "S87",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S87.png",
+   "note": "Představa, kterou závěr opouští.",
+   "diagram_generator": "zaver",
+   "diagram": "Garáž: v ní auto, nad ním šipka REPLACEMENT? k létajícímu autu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S88",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "diagram_generator": "zaver",
+   "diagram": "Totéž; šipka ztlumená a přeškrtnutá čarou, létající auto odplouvá ven z garáže k okraji obrazu.",
+   "pause": 0.8
+  },
+  {
+   "id": "S89",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S89.png",
+   "note": "ZAČÁTEK POSLEDNÍCH 20 s: horní ~40 % obrazu PRÁZDNÉ (dlaždice dalšího videa a kolečko odběru). Oblouky tras mají vrchol nejvýš v y = 620. Nadpis dole, krátký.",
+   "diagram_generator": "zaver",
+   "diagram": "VÝPLATA PÁTEŘE: panorama ze S06 a trasy ze S78 — hrstka ambrových oblouků mezi pár plochami; nápis NOT IN EVERY GARAGE · A HANDFUL OF ROUTES.",
+   "pause": 1.2
+  },
+  {
+   "id": "S90",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S90.png",
+   "note": "Horní polovina prázdná (závěrečná obrazovka).",
+   "diagram_generator": "zaver",
+   "diagram": "Totéž, nápis WE BUILT THEM — AND FOUND OUT WHAT THEY'RE GOOD FOR.",
+   "pause": 2.4
+  },
+  {
+   "id": "S91",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S91.png",
+   "note": "Horní polovina prázdná. Otázka do komentářů jen v dolní třetině.",
+   "diagram_generator": "zaver",
+   "diagram": "Totéž panorama s trasami, ztlumené; dole otázka WOULD YOU TRUST A FLYING CAR ABOVE YOUR CITY?",
+   "pause": 0.8
+  },
+  {
+   "id": "S92",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S92.png",
+   "note": "Poslední deska, horní polovina prázdná; kandidát na dlaždici je video 120.",
+   "diagram_generator": "zaver",
+   "diagram": "Totéž + pod otázkou drobně LET ME KNOW IN THE COMMENTS.",
+   "pause": 2.0,
+   "naveti": "So, would you actually trust a flying car above your city? And if not, what would it take?"
+  }
+ ]
+}

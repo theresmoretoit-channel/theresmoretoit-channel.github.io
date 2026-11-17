@@ -1,0 +1,733 @@
+{
+  "total": 668.688,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 6.445,
+      "end": 7.245,
+      "dur": 7.095,
+      "text": "You press play. A cassette starts to squeal, and five minutes later, a game appears on the television."
+    },
+    {
+      "id": "S02",
+      "start": 7.245,
+      "speech_end": 13.349,
+      "end": 13.699,
+      "dur": 6.453,
+      "text": "In an earlier video, we took that sound apart, bit by bit. And it ended with a strange claim:"
+    },
+    {
+      "id": "S03",
+      "start": 13.699,
+      "speech_end": 17.283,
+      "end": 18.083,
+      "dur": 4.384,
+      "text": "that the world's data centres still keep their archives on tape."
+    },
+    {
+      "id": "S04",
+      "start": 18.083,
+      "speech_end": 21.071,
+      "end": 22.471,
+      "dur": 4.389,
+      "text": "That sounds like nostalgia. It isn't."
+    },
+    {
+      "id": "S05",
+      "start": 22.471,
+      "speech_end": 28.85,
+      "end": 29.65,
+      "dur": 7.179,
+      "text": "In February 2011, around forty thousand Gmail users opened their inbox and found it empty."
+    },
+    {
+      "id": "S06",
+      "start": 29.65,
+      "speech_end": 32.253,
+      "end": 33.053,
+      "dur": 3.403,
+      "text": "A software update at Google had a bug in it."
+    },
+    {
+      "id": "S07",
+      "start": 33.053,
+      "speech_end": 39.412,
+      "end": 40.212,
+      "dur": 7.159,
+      "text": "Google keeps several copies of every mailbox, in different data centres. The bug reached those too."
+    },
+    {
+      "id": "S08",
+      "start": 40.212,
+      "speech_end": 46.422,
+      "end": 47.622,
+      "dur": 7.41,
+      "text": "Every message was recovered. It took hours instead of milliseconds, because it came back from tape."
+    },
+    {
+      "id": "S09",
+      "start": 47.622,
+      "speech_end": 55.581,
+      "end": 56.381,
+      "dur": 8.759,
+      "text": "And Google isn't unusual. CERN, the particle physics lab, has stored an exabyte of data from the Large Hadron Collider."
+    },
+    {
+      "id": "S10",
+      "start": 56.381,
+      "speech_end": 61.525,
+      "end": 62.325,
+      "dur": 5.943,
+      "text": "That's a million terabytes. Most of it sits on about sixty thousand tapes."
+    },
+    {
+      "id": "S11",
+      "start": 62.325,
+      "speech_end": 67.063,
+      "end": 67.863,
+      "dur": 5.538,
+      "text": "So here's the question. We have hard drives, SSDs and the cloud."
+    },
+    {
+      "id": "S12",
+      "start": 67.863,
+      "speech_end": 72.303,
+      "end": 74.703,
+      "dur": 6.84,
+      "text": "Why would the people with the most data still trust a strip of magnetic tape?"
+    },
+    {
+      "id": "S13",
+      "start": 74.703,
+      "speech_end": 86.931,
+      "end": 87.731,
+      "dur": 13.028,
+      "text": "Tape is actually older than the hard drive. In 1951, the UNIVAC I computer stored its data on reels of metal tape. The first hard drive came five years later."
+    },
+    {
+      "id": "S14",
+      "start": 87.731,
+      "speech_end": 94.218,
+      "end": 95.018,
+      "dur": 7.287,
+      "text": "The tape they use today isn't a music cassette. It's called LTO, short for Linear Tape-Open."
+    },
+    {
+      "id": "S15",
+      "start": 95.018,
+      "speech_end": 102.783,
+      "end": 103.583,
+      "dur": 8.565,
+      "text": "HP, IBM and Seagate developed it in the late 1990s, as an open format that anyone could build drives for."
+    },
+    {
+      "id": "S16",
+      "start": 103.583,
+      "speech_end": 107.338,
+      "end": 108.138,
+      "dur": 4.555,
+      "text": "The first cartridge, in 2000, held one hundred gigabytes."
+    },
+    {
+      "id": "S17",
+      "start": 108.138,
+      "speech_end": 116.396,
+      "end": 117.396,
+      "dur": 9.258,
+      "text": "The newest generation, LTO-10, holds up to forty terabytes. Four hundred times as much, in a box of the same size."
+    },
+    {
+      "id": "S18",
+      "start": 117.396,
+      "speech_end": 128.92,
+      "end": 129.72,
+      "dur": 12.324,
+      "text": "The box often says one hundred. That number assumes your data can be squeezed two and a half times. Photos and video are already compressed, so forty is the honest figure."
+    },
+    {
+      "id": "S19",
+      "start": 129.72,
+      "speech_end": 136.141,
+      "end": 136.941,
+      "dur": 7.221,
+      "text": "You can hold it in one hand, and it holds more than eight hundred million games for a forty-eight kilobyte Spectrum."
+    },
+    {
+      "id": "S20",
+      "start": 136.941,
+      "speech_end": 143.77,
+      "end": 144.57,
+      "dur": 7.629,
+      "text": "The drive writes four hundred megabytes every second. Even so, filling one cartridge takes more than a day."
+    },
+    {
+      "id": "S21",
+      "start": 144.57,
+      "speech_end": 154.14,
+      "end": 156.54,
+      "dur": 11.97,
+      "text": "A ZX Spectrum loaded about fourteen hundred bits a second. This drive writes more than three billion. Over two million times faster."
+    },
+    {
+      "id": "S22",
+      "start": 156.54,
+      "speech_end": 158.631,
+      "end": 159.431,
+      "dur": 2.891,
+      "text": "How does all of that fit on tape?"
+    },
+    {
+      "id": "S23",
+      "start": 159.431,
+      "speech_end": 164.339,
+      "end": 165.139,
+      "dur": 5.709,
+      "text": "First, length. Inside is a single reel with more than a kilometre of tape."
+    },
+    {
+      "id": "S24",
+      "start": 165.139,
+      "speech_end": 168.894,
+      "end": 169.694,
+      "dur": 4.555,
+      "text": "It's half an inch wide, and many times thinner than a human hair."
+    },
+    {
+      "id": "S25",
+      "start": 169.694,
+      "speech_end": 175.819,
+      "end": 176.619,
+      "dur": 6.925,
+      "text": "Then, tracks. The drive doesn't write one stripe along the tape. It writes more than fifteen thousand."
+    },
+    {
+      "id": "S26",
+      "start": 176.619,
+      "speech_end": 179.84,
+      "end": 180.64,
+      "dur": 4.021,
+      "text": "Each one is less than a thousandth of a millimetre wide."
+    },
+    {
+      "id": "S27",
+      "start": 180.64,
+      "speech_end": 187.573,
+      "end": 188.373,
+      "dur": 7.733,
+      "text": "The head writes thirty-two at once, runs to the end of the tape, shifts over by a hair's breadth, and comes back the other way."
+    },
+    {
+      "id": "S28",
+      "start": 188.373,
+      "speech_end": 191.851,
+      "end": 193.051,
+      "dur": 4.677,
+      "text": "Hundreds of passes, back and forth, over the same kilometre."
+    },
+    {
+      "id": "S29",
+      "start": 193.051,
+      "speech_end": 199.22,
+      "end": 200.02,
+      "dur": 6.969,
+      "text": "Now, the problem. Tape is flexible. It stretches, and it wanders sideways as it moves."
+    },
+    {
+      "id": "S30",
+      "start": 200.02,
+      "speech_end": 203.988,
+      "end": 204.488,
+      "dur": 4.468,
+      "text": "At these widths, drifting by a single track means hitting the wrong data."
+    },
+    {
+      "id": "S31",
+      "start": 204.488,
+      "speech_end": 212.682,
+      "end": 213.482,
+      "dur": 8.994,
+      "text": "So the tape carries its own guide rails. At the factory, servo patterns are written onto it before it ever holds a single file."
+    },
+    {
+      "id": "S32",
+      "start": 213.482,
+      "speech_end": 218.367,
+      "end": 219.167,
+      "dur": 5.685,
+      "text": "The drive follows those patterns the whole time, steering the head to stay on its track."
+    },
+    {
+      "id": "S33",
+      "start": 219.167,
+      "speech_end": 226.122,
+      "end": 226.922,
+      "dur": 7.755,
+      "text": "In LTO-10, the head even tilts slightly, to make up for the tape shrinking and swelling with heat and humidity."
+    },
+    {
+      "id": "S34",
+      "start": 226.922,
+      "speech_end": 236.102,
+      "end": 238.502,
+      "dur": 11.58,
+      "text": "The coating changed too. Instead of the iron oxide of old cassettes, modern tape uses tiny, carefully shaped particles of barium ferrite."
+    },
+    {
+      "id": "S35",
+      "start": 238.502,
+      "speech_end": 243.624,
+      "end": 244.124,
+      "dur": 5.622,
+      "text": "All of this sounds fragile. A kilometre of plastic, racing past a head."
+    },
+    {
+      "id": "S36",
+      "start": 244.124,
+      "speech_end": 256.288,
+      "end": 257.088,
+      "dur": 12.964,
+      "text": "But the drive checks itself as it writes. Just behind the write head sits a read head, checking every block a moment later. If it doesn't come back right, the drive writes it again further along."
+    },
+    {
+      "id": "S37",
+      "start": 257.088,
+      "speech_end": 264.512,
+      "end": 265.312,
+      "dur": 8.224,
+      "text": "On top of that, every block carries error-correcting codes, so the drive can rebuild the data even when part of it is damaged."
+    },
+    {
+      "id": "S37b",
+      "start": 265.312,
+      "speech_end": 270.882,
+      "end": 273.082,
+      "dur": 7.77,
+      "text": "Rebuilding data you can't read sounds impossible. It deserves a video of its own."
+    },
+    {
+      "id": "S38",
+      "start": 273.082,
+      "speech_end": 278.927,
+      "end": 279.727,
+      "dur": 6.645,
+      "text": "The LTO-9 specification allows one unreadable bit in every twelve exabytes."
+    },
+    {
+      "id": "S39",
+      "start": 279.727,
+      "speech_end": 283.947,
+      "end": 286.147,
+      "dur": 6.42,
+      "text": "That's about twelve times everything CERN has stored, for a single error."
+    },
+    {
+      "id": "S40",
+      "start": 286.147,
+      "speech_end": 291.269,
+      "end": 292.069,
+      "dur": 5.922,
+      "text": "But the real advantage is something tape doesn't do. It doesn't stay connected."
+    },
+    {
+      "id": "S41",
+      "start": 292.069,
+      "speech_end": 297.893,
+      "end": 298.693,
+      "dur": 6.624,
+      "text": "For real protection, a written cartridge is taken out of the library altogether and put on a shelf."
+    },
+    {
+      "id": "S42",
+      "start": 298.693,
+      "speech_end": 303.943,
+      "end": 304.743,
+      "dur": 6.049,
+      "text": "No power. No network. Nothing that a bug, or an attacker, can reach through a cable."
+    },
+    {
+      "id": "S43",
+      "start": 304.743,
+      "speech_end": 311.957,
+      "end": 312.757,
+      "dur": 8.015,
+      "text": "That's what saved Gmail in 2011. The bug reached the copies that were online. The tapes weren't."
+    },
+    {
+      "id": "S44",
+      "start": 312.757,
+      "speech_end": 319.181,
+      "end": 319.981,
+      "dur": 7.223,
+      "text": "Today, the same idea protects against ransomware. Malware can encrypt every disk in a building."
+    },
+    {
+      "id": "S45",
+      "start": 319.981,
+      "speech_end": 322.801,
+      "end": 325.201,
+      "dur": 5.22,
+      "text": "It can't encrypt a cartridge sitting on a shelf."
+    },
+    {
+      "id": "S46",
+      "start": 325.201,
+      "speech_end": 333.096,
+      "end": 333.896,
+      "dur": 8.695,
+      "text": "Some cartridges can be written only once. After that, nobody can erase them, not even the person who runs the system."
+    },
+    {
+      "id": "S47",
+      "start": 333.896,
+      "speech_end": 345.655,
+      "end": 346.455,
+      "dur": 12.559,
+      "text": "And sitting on a shelf costs nothing. Large disk archives often keep thousands of drives spinning, using power and making heat. A cartridge on a shelf uses no power at all."
+    },
+    {
+      "id": "S48",
+      "start": 346.455,
+      "speech_end": 350.828,
+      "end": 351.828,
+      "dur": 5.373,
+      "text": "Makers rate the cartridges for around thirty years, if they're stored properly."
+    },
+    {
+      "id": "S48b",
+      "start": 351.828,
+      "speech_end": 360.193,
+      "end": 360.993,
+      "dur": 9.165,
+      "text": "Tape is also cheap. A thirty-terabyte cartridge costs around two hundred and sixty dollars. That's under ten dollars a terabyte."
+    },
+    {
+      "id": "S48c",
+      "start": 360.993,
+      "speech_end": 366.689,
+      "end": 367.489,
+      "dur": 6.496,
+      "text": "A large new hard drive costs around forty dollars a terabyte, more than four times as much."
+    },
+    {
+      "id": "S48d",
+      "start": 367.489,
+      "speech_end": 378.579,
+      "end": 380.979,
+      "dur": 13.49,
+      "text": "The catch is the drive itself. A new LTO-10 drive costs more than twenty thousand dollars. So tape pays off when one drive serves thousands of cartridges."
+    },
+    {
+      "id": "S49",
+      "start": 380.979,
+      "speech_end": 387.317,
+      "end": 388.117,
+      "dur": 7.138,
+      "text": "So why don't we use tape for everything? Even if we ignore the price, tape still has one big weakness."
+    },
+    {
+      "id": "S50",
+      "start": 388.117,
+      "speech_end": 394.924,
+      "end": 395.724,
+      "dur": 7.607,
+      "text": "It can't jump straight to your data. A hard drive moves its head to any file in a few thousandths of a second."
+    },
+    {
+      "id": "S51",
+      "start": 395.724,
+      "speech_end": 403.001,
+      "end": 403.801,
+      "dur": 8.077,
+      "text": "Tape has to travel. If your file is at the far end of a kilometre of tape, the drive has to spool all the way there."
+    },
+    {
+      "id": "S51b",
+      "start": 403.801,
+      "speech_end": 407.961,
+      "end": 408.761,
+      "dur": 4.96,
+      "text": "It's just like rewinding a cassette to find the right song, or the right game."
+    },
+    {
+      "id": "S52",
+      "start": 408.761,
+      "speech_end": 414.373,
+      "end": 414.973,
+      "dur": 6.213,
+      "text": "Finding a file can take around a minute. Thousands of times slower than a hard drive."
+    },
+    {
+      "id": "S53",
+      "start": 414.973,
+      "speech_end": 420.285,
+      "end": 420.885,
+      "dur": 5.912,
+      "text": "That rules tape out for running a computer, a database, or millions of tiny files."
+    },
+    {
+      "id": "S54",
+      "start": 420.885,
+      "speech_end": 427.315,
+      "end": 429.515,
+      "dur": 8.63,
+      "text": "But it's perfect for the opposite job. Huge amounts of data, written once, and rarely needed again."
+    },
+    {
+      "id": "S55",
+      "start": 429.515,
+      "speech_end": 435.51,
+      "end": 436.31,
+      "dur": 6.795,
+      "text": "The cartridges sit in tape libraries: cabinets the length of a room, with thousands of slots inside."
+    },
+    {
+      "id": "S56",
+      "start": 436.31,
+      "speech_end": 441.494,
+      "end": 442.294,
+      "dur": 5.984,
+      "text": "A robot runs along a rail, picks out the right cartridge, and slides it into a drive."
+    },
+    {
+      "id": "S57",
+      "start": 442.294,
+      "speech_end": 450.742,
+      "end": 451.542,
+      "dur": 9.248,
+      "text": "At Lawrence Livermore, a laboratory in California, one library has nearly twenty thousand slots, and room for about three hundred petabytes."
+    },
+    {
+      "id": "S57b",
+      "start": 451.542,
+      "speech_end": 453.739,
+      "end": 454.539,
+      "dur": 2.997,
+      "text": "That's three hundred million gigabytes."
+    },
+    {
+      "id": "S58",
+      "start": 454.539,
+      "speech_end": 458.358,
+      "end": 460.758,
+      "dur": 6.219,
+      "text": "To the software, it all looks like one enormous, rather slow disk."
+    },
+    {
+      "id": "S59",
+      "start": 460.758,
+      "speech_end": 466.435,
+      "end": 467.235,
+      "dur": 6.477,
+      "text": "For decades, that was the whole story. Tape was the quiet basement of the data centre."
+    },
+    {
+      "id": "S60",
+      "start": 467.235,
+      "speech_end": 471.141,
+      "end": 472.541,
+      "dur": 5.306,
+      "text": "And then, something changed. Artificial intelligence."
+    },
+    {
+      "id": "S61",
+      "start": 472.541,
+      "speech_end": 477.469,
+      "end": 478.269,
+      "dur": 5.728,
+      "text": "Training a large AI model takes enormous collections of text, images and video."
+    },
+    {
+      "id": "S62",
+      "start": 478.269,
+      "speech_end": 483.945,
+      "end": 484.745,
+      "dur": 6.477,
+      "text": "Once it's collected, that data is worth keeping. But most of it isn't needed every day."
+    },
+    {
+      "id": "S63",
+      "start": 484.745,
+      "speech_end": 487.604,
+      "end": 488.404,
+      "dur": 3.659,
+      "text": "That's exactly the kind of data tape was made for."
+    },
+    {
+      "id": "S64",
+      "start": 488.404,
+      "speech_end": 495.743,
+      "end": 495.993,
+      "dur": 7.589,
+      "text": "In October 2026, Fujifilm, one of the biggest makers of tape, announced it would spend about ten billion yen"
+    },
+    {
+      "id": "S65",
+      "start": 495.993,
+      "speech_end": 500.11,
+      "end": 500.91,
+      "dur": 4.917,
+      "text": "so it could make roughly five times as much data tape within three years."
+    },
+    {
+      "id": "S66",
+      "start": 500.91,
+      "speech_end": 504.411,
+      "end": 505.211,
+      "dur": 4.301,
+      "text": "The reason it gave? The spread of generative AI."
+    },
+    {
+      "id": "S67",
+      "start": 505.211,
+      "speech_end": 511.312,
+      "end": 512.712,
+      "dur": 7.501,
+      "text": "The thing we used to wait for in front of the television is growing again, because of the newest technology we have."
+    },
+    {
+      "id": "S68",
+      "start": 512.712,
+      "speech_end": 519.903,
+      "end": 520.703,
+      "dur": 7.991,
+      "text": "And tape still has room to grow. Its bits are packed roughly a hundred times less densely than on the newest hard drives."
+    },
+    {
+      "id": "S69",
+      "start": 520.703,
+      "speech_end": 533.953,
+      "end": 536.553,
+      "dur": 15.85,
+      "text": "In 2020, IBM and Fujifilm showed a test tape in the lab that could fit five hundred and eighty terabytes on a single cartridge. It isn't a product yet. But it shows how far tape can go."
+    },
+    {
+      "id": "S70",
+      "start": 536.553,
+      "speech_end": 539.755,
+      "end": 540.555,
+      "dur": 4.002,
+      "text": "There's one catch, though. And it's a strange one."
+    },
+    {
+      "id": "S71",
+      "start": 540.555,
+      "speech_end": 543.928,
+      "end": 544.728,
+      "dur": 4.173,
+      "text": "The tape lasts for decades. The drives don't."
+    },
+    {
+      "id": "S72",
+      "start": 544.728,
+      "speech_end": 552.282,
+      "end": 552.782,
+      "dur": 8.054,
+      "text": "For years, a new LTO drive could still handle tapes two generations old. From LTO-8, only one."
+    },
+    {
+      "id": "S73",
+      "start": 552.782,
+      "speech_end": 558.523,
+      "end": 559.323,
+      "dur": 6.541,
+      "text": "And an LTO-10 drive can't read any of them. Not a single older cartridge."
+    },
+    {
+      "id": "S73b",
+      "start": 559.323,
+      "speech_end": 568.199,
+      "end": 568.999,
+      "dur": 9.677,
+      "text": "Why break it? Remember the guide rails written at the factory? LTO-10 changed their pattern, so the head could follow even thinner tracks."
+    },
+    {
+      "id": "S73c",
+      "start": 568.999,
+      "speech_end": 573.949,
+      "end": 575.349,
+      "dur": 6.349,
+      "text": "Older tapes carry the old pattern, and staying compatible would have cost capacity."
+    },
+    {
+      "id": "S73d",
+      "start": 575.349,
+      "speech_end": 585.166,
+      "end": 585.966,
+      "dur": 10.617,
+      "text": "So what if a drive breaks? Not much. LTO is an open format, so any LTO-10 drive, from any maker, reads the same cartridge."
+    },
+    {
+      "id": "S73e",
+      "start": 585.966,
+      "speech_end": 597.277,
+      "end": 598.077,
+      "dur": 12.111,
+      "text": "And the drives are built for hard work. An LTO-9 drive is rated for eighty thousand cartridge loads. In a library, a worn-out drive is simply swapped for a new one."
+    },
+    {
+      "id": "S73f",
+      "start": 598.077,
+      "speech_end": 611.051,
+      "end": 612.451,
+      "dur": 14.375,
+      "text": "Older drives haven't vanished either. LTO-9 drives are still on sale, and they read LTO-8. For anything older, there are used drives, and companies that rescue old tapes for a living."
+    },
+    {
+      "id": "S74",
+      "start": 612.451,
+      "speech_end": 618.533,
+      "end": 619.333,
+      "dur": 6.882,
+      "text": "So archives don't just keep their tapes. Every few years, they copy everything onto new ones."
+    },
+    {
+      "id": "S74b",
+      "start": 619.333,
+      "speech_end": 631.177,
+      "end": 631.977,
+      "dur": 12.644,
+      "text": "So why rate them for thirty years? Because the tape is never the reason to move. Archives copy on their own schedule, and if a move runs late, the data is still safe on the shelf."
+    },
+    {
+      "id": "S75",
+      "start": 631.977,
+      "speech_end": 635.467,
+      "end": 638.467,
+      "dur": 6.49,
+      "text": "The tape can outlive every machine that knows how to play it."
+    },
+    {
+      "id": "S76",
+      "start": 638.467,
+      "speech_end": 644.208,
+      "end": 645.008,
+      "dur": 6.541,
+      "text": "Which brings us back to that cassette. A strip of tape, a head, and patterns of magnetism."
+    },
+    {
+      "id": "S77",
+      "start": 645.008,
+      "speech_end": 651.389,
+      "end": 652.189,
+      "dur": 7.181,
+      "text": "More than forty years later, the idea hasn't changed. Only the numbers and the technology have."
+    },
+    {
+      "id": "S78",
+      "start": 652.189,
+      "speech_end": 658.418,
+      "end": 659.218,
+      "dur": 7.029,
+      "text": "Somewhere right now, a robot is pulling a cartridge off a shelf, pushing it into a drive, and pressing play."
+    },
+    {
+      "id": "S79",
+      "start": 659.218,
+      "speech_end": 666.688,
+      "end": 668.688,
+      "dur": 9.47,
+      "text": "So here's a question for you. If you had a tape drive at home, what would you put on tape? Let me know in the comments."
+    }
+  ]
+}

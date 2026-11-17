@@ -1,0 +1,676 @@
+1
+00:00:00,000 --> 00:00:05,200
+Four cars arrive at a crossroads at
+exactly the same moment. No lights.
+
+2
+00:00:05,320 --> 00:00:11,080
+No signs. Just the rule many countries
+use: give way to the car on your right.
+
+3
+00:00:11,706 --> 00:00:15,346
+Every driver looks right, and
+sees a car they have to wait for.
+
+4
+00:00:15,666 --> 00:00:17,426
+So every driver waits.
+
+5
+00:00:18,161 --> 00:00:20,021
+Nobody is breaking the rule.
+
+6
+00:00:20,541 --> 00:00:22,021
+Everybody is following it perfectly.
+
+7
+00:00:22,251 --> 00:00:24,981
+And nobody will ever move.
+
+8
+00:00:26,064 --> 00:00:28,484
+Computer scientists call this a deadlock.
+
+9
+00:00:28,564 --> 00:00:31,344
+And it doesn't only happen on roads.
+
+10
+00:00:32,024 --> 00:00:36,684
+It happens inside databases, operating
+systems and ordinary software.
+
+11
+00:00:37,385 --> 00:00:41,025
+Computers are often good at spotting
+a deadlock once it has happened.
+
+12
+00:00:41,865 --> 00:00:44,005
+But could a program read
+another program and tell
+
+13
+00:00:44,235 --> 00:00:47,245
+you, for certain, whether
+it will ever get stuck?
+
+14
+00:00:47,873 --> 00:00:49,713
+For many programs, yes.
+
+15
+00:00:49,933 --> 00:00:54,033
+But a method that works for every
+possible program can't exist.
+
+16
+00:00:54,493 --> 00:00:57,633
+And not because computers
+aren't fast enough yet.
+
+17
+00:00:58,033 --> 00:01:00,993
+No faster computer will ever change it.
+
+18
+00:01:03,483 --> 00:01:05,583
+Here's how a program gets stuck.
+
+19
+00:01:06,343 --> 00:01:10,123
+Imagine an online shop, with two
+tasks running at the same time.
+
+20
+00:01:10,706 --> 00:01:12,986
+Before a task changes anything, it takes a
+
+21
+00:01:13,216 --> 00:01:16,186
+lock on it, so that
+nobody else can touch it.
+
+22
+00:01:16,826 --> 00:01:19,066
+Like taking the only key to a room.
+
+23
+00:01:19,657 --> 00:01:23,757
+The first task locks a customer's
+account, then reaches for their order.
+
+24
+00:01:24,557 --> 00:01:27,557
+The second locks the order,
+then reaches for the account.
+
+25
+00:01:28,310 --> 00:01:30,890
+One holds the account
+and waits for the order.
+
+26
+00:01:31,570 --> 00:01:34,210
+The other holds the order
+and waits for the account.
+
+27
+00:01:34,970 --> 00:01:37,250
+Neither will let go of what it's holding.
+
+28
+00:01:37,903 --> 00:01:42,583
+And the strange part is, this code can
+run a million times without any trouble.
+
+29
+00:01:43,423 --> 00:01:48,603
+Only when the two tasks overlap in exactly
+the wrong order does everything stop.
+
+30
+00:01:49,180 --> 00:01:51,060
+The bug was there all along.
+
+31
+00:01:51,480 --> 00:01:53,540
+The timing just exposed it.
+
+32
+00:01:54,278 --> 00:01:57,758
+By the way, if you like videos
+like this, consider subscribing.
+
+33
+00:01:58,378 --> 00:01:59,978
+It really helps the channel.
+
+34
+00:02:02,368 --> 00:02:05,808
+Databases run into this all
+the time, so they keep watch.
+
+35
+00:02:06,248 --> 00:02:08,948
+They draw a map of who
+is waiting for whom.
+
+36
+00:02:09,506 --> 00:02:11,286
+The first waits for the second.
+
+37
+00:02:11,366 --> 00:02:13,746
+The second waits for the first.
+
+38
+00:02:14,206 --> 00:02:17,606
+When the arrows close into a loop,
+that's a deadlock. No guessing.
+
+39
+00:02:18,006 --> 00:02:19,586
+The loop is right there.
+
+40
+00:02:19,889 --> 00:02:22,269
+Then the database does something brutal.
+
+41
+00:02:22,929 --> 00:02:25,889
+It picks one of the tasks
+and throws its work away.
+
+42
+00:02:26,579 --> 00:02:30,019
+Microsoft's SQL Server even
+tells the loser that it has
+
+43
+00:02:30,249 --> 00:02:33,979
+been chosen as the deadlock
+victim, and should try again.
+
+44
+00:02:34,547 --> 00:02:38,507
+The other task carries on, and
+the victim can simply try again.
+
+45
+00:02:39,123 --> 00:02:43,723
+Notice what that does and
+doesn't fix. The jam is cleared.
+
+46
+00:02:44,323 --> 00:02:45,643
+But the code that caused it is still
+
+47
+00:02:45,873 --> 00:02:48,503
+there, waiting for the
+next unlucky moment.
+
+48
+00:02:49,500 --> 00:02:53,280
+So spotting a deadlock that has
+already happened is the easy part.
+
+49
+00:02:54,040 --> 00:02:56,180
+The hard question is a different one.
+
+50
+00:02:56,702 --> 00:03:00,922
+Not: is this program stuck right
+now? But: give it this input.
+
+51
+00:03:01,382 --> 00:03:02,842
+Could it ever get stuck?
+
+52
+00:03:03,458 --> 00:03:05,698
+The first is a photo of the present.
+
+53
+00:03:06,358 --> 00:03:07,898
+You can just look at it.
+
+54
+00:03:08,538 --> 00:03:11,698
+The second is a prediction
+about every possible future.
+
+55
+00:03:12,254 --> 00:03:17,774
+And programs make that very hard. They
+make decisions. They repeat things.
+
+56
+00:03:18,234 --> 00:03:22,074
+They can run calculations that
+take a second, or a thousand years.
+
+57
+00:03:22,723 --> 00:03:25,043
+A program might get stuck
+at once, after a million
+
+58
+00:03:25,273 --> 00:03:28,483
+steps, for one rare
+input, or never at all.
+
+59
+00:03:29,005 --> 00:03:30,845
+You could just run it and watch.
+
+60
+00:03:31,365 --> 00:03:34,985
+But if it hasn't got stuck after
+an hour, what does that tell you?
+
+61
+00:03:35,525 --> 00:03:38,905
+Nothing. It might get stuck
+in the next second, or never.
+
+62
+00:03:41,335 --> 00:03:45,855
+In 1936, a young mathematician
+called Alan Turing showed that
+
+63
+00:03:46,085 --> 00:03:50,235
+some questions about programs
+can't be answered by any program.
+
+64
+00:03:50,675 --> 00:03:53,215
+The most famous one sounds even simpler.
+
+65
+00:03:53,806 --> 00:03:55,966
+Take any program, and its input.
+
+66
+00:03:56,666 --> 00:03:59,766
+Will it eventually stop?
+Or will it run forever?
+
+67
+00:04:00,541 --> 00:04:02,041
+It's now called the halting problem.
+
+68
+00:04:02,271 --> 00:04:06,401
+And no program can answer
+it correctly in every case.
+
+69
+00:04:07,324 --> 00:04:10,284
+The idea behind the proof
+is surprisingly short.
+
+70
+00:04:10,984 --> 00:04:14,124
+Suppose someone hands you
+a perfect halting checker.
+
+71
+00:04:14,611 --> 00:04:17,091
+Now you write a contrary little program.
+
+72
+00:04:17,831 --> 00:04:21,031
+It asks the checker about itself,
+and then does the opposite.
+
+73
+00:04:21,535 --> 00:04:24,235
+If the checker says it will
+stop, it loops forever.
+
+74
+00:04:24,935 --> 00:04:28,095
+If the checker says it will
+run forever, it stops at once.
+
+75
+00:04:28,822 --> 00:04:31,722
+Whatever the checker says
+about it, the checker is wrong.
+
+76
+00:04:32,342 --> 00:04:34,462
+So a perfect checker can't exist.
+
+77
+00:04:37,132 --> 00:04:40,732
+So what does this have to do
+with deadlocks? Everything.
+
+78
+00:04:41,739 --> 00:04:45,359
+Imagine someone claims to have
+built a perfect deadlock predictor.
+
+79
+00:04:46,399 --> 00:04:49,419
+Give it any program and its
+input, and it always tells
+
+80
+00:04:49,649 --> 00:04:53,059
+you, correctly, whether that
+program will ever get stuck.
+
+81
+00:04:53,677 --> 00:04:56,117
+Let's use it to solve the halting problem.
+
+82
+00:04:57,024 --> 00:05:00,804
+Take any program you like, and
+wrap it inside a new program.
+
+83
+00:05:01,472 --> 00:05:06,012
+First, the new program simply runs the
+old one, step by step, on a single thread.
+
+84
+00:05:06,452 --> 00:05:08,872
+No locks. Nothing shared.
+
+85
+00:05:09,232 --> 00:05:11,092
+Nothing that could ever get stuck.
+
+86
+00:05:11,385 --> 00:05:15,405
+Then, if the old program ever
+finishes, the new one starts two tasks.
+
+87
+00:05:16,345 --> 00:05:18,825
+Each grabs one lock,
+waits until the other has
+
+88
+00:05:19,055 --> 00:05:21,565
+grabbed its own, and then
+reaches for the other's.
+
+89
+00:05:22,325 --> 00:05:24,765
+A deadlock, on purpose, every time.
+
+90
+00:05:25,330 --> 00:05:30,250
+If the old program never finishes, the
+new one never gets that far. No deadlock.
+
+91
+00:05:30,480 --> 00:05:31,680
+Ever.
+
+92
+00:05:32,113 --> 00:05:36,033
+So the new program gets stuck if,
+and only if, the old one stops.
+
+93
+00:05:38,383 --> 00:05:40,963
+Now ask the predictor
+about the new program.
+
+94
+00:05:41,723 --> 00:05:44,923
+Yes, it will deadlock,
+means the old program stops.
+
+95
+00:05:45,543 --> 00:05:47,183
+No means it runs forever.
+
+96
+00:05:47,913 --> 00:05:50,093
+We've just solved the halting problem.
+
+97
+00:05:50,173 --> 00:05:52,913
+And that's exactly what can't be done.
+
+98
+00:05:53,379 --> 00:05:56,679
+So the perfect deadlock
+predictor can't exist either.
+
+99
+00:05:57,293 --> 00:06:01,033
+The trouble isn't locks, or
+databases, or bad programmers.
+
+100
+00:06:01,713 --> 00:06:05,253
+A program can hide any calculation
+in front of a deadlock.
+
+101
+00:06:05,553 --> 00:06:08,653
+To predict the deadlock, you'd
+have to predict the calculation.
+
+102
+00:06:12,393 --> 00:06:16,013
+But hold on. A real
+computer isn't infinite.
+
+103
+00:06:16,633 --> 00:06:19,053
+Its memory has a limited number of states.
+
+104
+00:06:19,153 --> 00:06:21,453
+So couldn't you just check them all?
+
+105
+00:06:22,085 --> 00:06:25,405
+For a machine with a fixed amount
+of memory, in principle, yes.
+
+106
+00:06:26,065 --> 00:06:27,705
+In practice, count them.
+
+107
+00:06:28,252 --> 00:06:32,212
+The memory of a laptop with eight
+gigabytes can be arranged in so many
+
+108
+00:06:32,442 --> 00:06:37,172
+ways that just writing that number
+down takes about twenty billion digits.
+
+109
+00:06:37,969 --> 00:06:42,009
+The number of atoms in the
+observable universe has about eighty.
+
+110
+00:06:42,652 --> 00:06:45,132
+So on a real machine,
+checking everything is
+
+111
+00:06:45,362 --> 00:06:47,952
+possible in theory, and
+hopeless in practice.
+
+112
+00:06:48,921 --> 00:06:50,421
+But that's a different wall.
+
+113
+00:06:50,941 --> 00:06:53,441
+Turing's limit isn't
+about too many states.
+
+114
+00:06:54,201 --> 00:06:57,501
+It applies to programs that
+can always ask for more memory.
+
+115
+00:06:58,221 --> 00:07:02,141
+For those, no perfect predictor can
+exist, however big the computer.
+
+116
+00:07:05,171 --> 00:07:08,591
+Does that make deadlocks hopeless? No.
+
+117
+00:07:08,771 --> 00:07:11,191
+It means there's no perfect checker.
+
+118
+00:07:11,271 --> 00:07:14,771
+So programmers write programs
+that are easier to check.
+
+119
+00:07:15,428 --> 00:07:17,328
+The simplest trick is an order.
+
+120
+00:07:17,908 --> 00:07:20,888
+Every task must lock the
+account before the order.
+
+121
+00:07:21,588 --> 00:07:23,288
+Never the other way round.
+
+122
+00:07:23,655 --> 00:07:26,355
+If every task really sticks
+to that order, the loop
+
+123
+00:07:26,585 --> 00:07:29,835
+can't form, and this kind
+of deadlock can't happen.
+
+124
+00:07:30,764 --> 00:07:34,364
+Other systems give up after a
+timeout, take all their locks in
+
+125
+00:07:34,594 --> 00:07:38,744
+one go, or let the database pick
+a victim and simply try again.
+
+126
+00:07:39,151 --> 00:07:41,671
+And for small, carefully
+described designs,
+
+127
+00:07:41,751 --> 00:07:44,211
+tools can check every possible state.
+
+128
+00:07:45,211 --> 00:07:47,931
+Engineers at Amazon used
+one to find a bug that took
+
+129
+00:07:48,161 --> 00:07:51,891
+thirty-five steps, in exactly
+the right order, to appear.
+
+130
+00:07:52,739 --> 00:07:55,959
+These tools work because the
+problem has been made smaller.
+
+131
+00:07:56,839 --> 00:08:01,099
+They check a model of the system, not
+every program that could ever exist.
+
+132
+00:08:02,240 --> 00:08:04,200
+For real code, though, a checker that
+
+133
+00:08:04,430 --> 00:08:06,900
+takes any program has
+to give something up.
+
+134
+00:08:07,520 --> 00:08:10,040
+It may warn about deadlocks
+that can't happen, miss
+
+135
+00:08:10,270 --> 00:08:13,600
+some that can, or sometimes
+give no answer at all.
+
+136
+00:08:14,157 --> 00:08:17,737
+A checker that never cries wolf,
+never misses one, and always gives
+
+137
+00:08:17,967 --> 00:08:21,817
+an answer, for every program, is
+exactly what Turing ruled out.
+
+138
+00:08:24,737 --> 00:08:28,157
+Back at the crossroads, the four
+drivers don't sit there forever.
+
+139
+00:08:28,865 --> 00:08:34,385
+Somebody waves. One driver gives up their
+turn, and the jam is over in seconds.
+
+140
+00:08:35,528 --> 00:08:37,588
+That's what the database does, too.
+
+141
+00:08:38,228 --> 00:08:39,888
+It doesn't predict the jam.
+
+142
+00:08:40,568 --> 00:08:43,188
+It notices it, and makes someone give way.
+
+143
+00:08:44,399 --> 00:08:46,819
+Some problems need a faster computer.
+
+144
+00:08:47,479 --> 00:08:49,299
+Some need a better idea.
+
+145
+00:08:49,737 --> 00:08:52,977
+And some, like this one, have
+no perfect solution at all.
+
+146
+00:08:53,517 --> 00:08:55,907
+Only good rules, and
+someone ready to wave.

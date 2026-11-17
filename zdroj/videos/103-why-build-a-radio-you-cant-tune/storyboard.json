@@ -1,0 +1,658 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "NOČNÍ KOMPOZICE `noc()`: nahoře uprostřed mikrofon (ambrově), vlevo stožár vysílače, vpravo zeď s krabičkou — obojí ztlumeně, spojené s mikrofonem: vlevo vzduchem (oblouky vln), vpravo kabelem. Nahoře 21 AUGUST 1968 · 01:5x · PRAGUE.",
+   "note": "První obrazovka nese myšlenku: dvě cesty téhož hlasu už tady, ještě nerozlišené. Zavádí noční kompozici (vrací se S02–S05, S44, S46–S48, S63) — registr invariantů v `_kit.py`."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "`noc()`, u mikrofonu list prohlášení: FOREIGN ARMIES HAVE CROSSED THE BORDER / WITHOUT THE KNOWLEDGE OF THE COUNTRY'S OWN LEADERS.",
+   "note": "Text listu přesně podle hlasu, nic navíc."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "`noc()`: stožár vlevo škrtnutý, vlny vzduchem zhasnou (čárkovaně, ztlumeně), popisek SWITCHED OFF.",
+   "note": "Kdo vypnul, se řekne až v S46 — tady jen „someone“."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "`noc()`: pod stožárem tři přijímače se šumem (klikatá čára), vpravo krabička na zdi ambrově s vlnami zvuku; kabel od mikrofonu ambrově.",
+   "note": "Kresba tvrdí přesně tohle: vzduch šumí, drát mluví."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "`noc()` jako S04; u krabičky celý list prohlášení vyplněný až do konce, poslední řádek ambrově, popisek TO THE VERY LAST WORD.",
+   "note": "Konec studeného začátku.",
+   "pause": 1.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `krabicka()` zblízka uprostřed (dřevěná skříňka, mřížka reproduktoru, jeden knoflík). Kolem tři čárkované prázdné obrysy přeškrtnuté: TUNING DIAL · ANTENNA · STATION BUTTONS.",
+   "note": "Zavádí páteř — krabička na pevných souřadnicích, vrací se S07–S09, S15–S16, S28–S29, S31–S34, S50, S59, S61, S64 (a zmenšeně v S65).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ: tatáž krabička; ambrově popsané ONE CABLE (kabel ze spodku) · ONE VOLUME KNOB · ONE PROGRAMME.",
+   "note": "Popisky s odkazovými čarami na skutečnou část krabičky."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ: krabička, nad ní velký ambrový otazník; nadpis HOW DID THIS CARRY THE NEWS?",
+   "note": "Hlavní otázka (~0:54).",
+   "pause": 1.2
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "technika",
+   "diagram": "PÁTEŘ: krabička, nad ní oblouky rádiových vln čárkovaně a přeškrtnuté; popisek NOT A RADIO RECEIVER.",
+   "note": "Dílčí odpověď do 1:10 („začni platit“)."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Československý přístroj na Commons není (jen maďarské a rumunské) — cizí za náš nevydávat. Kresba páteře; když uživatel dodá vlastní fotku, do art/.",
+   "diagram_generator": "technika",
+   "diagram": "PÁTEŘ: krabička zblízka, nad ní ROZHLAS PO DRÁTĚ, pod ním ztlumeně BROADCASTING BY WIRE a „DRÁŤÁK“."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "technika",
+   "diagram": "Vlevo ztlumeně sloup s tlampači na návsi (přeškrtnutý), vpravo dům v řezu a v kuchyni krabička ambrově; popisky VILLAGE LOUDSPEAKERS / INDOORS.",
+   "note": "Odlišení od obecního rozhlasu."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "technika",
+   "diagram": "TRASA `trasa()`: vlevo CENTRAL STATION, kabel přes sloupy doprava do domu s krabičkou. Pod tím ztlumeně LIKE A PHONE CALL THAT NEVER ENDED.",
+   "note": "Zavádí trasu — jedna kompozice postupně doplňovaná v S13–S14, S17, S25–S26 (registr v `_kit.py`)."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "technika",
+   "diagram": "TRASA: u stanice ambrově AMPLIFIER · 120 V, kabel ambrově s popiskem KILOMETRES.",
+   "note": "Čísla ze scénáře (fact check: cs.wikipedie)."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "technika",
+   "diagram": "TRASA: 120 V ztlumeně; u domu ambrově TRANSFORMER · 30 V.",
+   "note": "Celá trasa 120 V → 30 V naráz v obraze.",
+   "pause": 0.5
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "technika",
+   "diagram": "PÁTEŘ v řezu: uvnitř krabičky TRANSFORMER, LOUDSPEAKER a KNOB s ryskami stupňů (ambrově, o něm je řeč naposled). Zbytek skříňky prázdný.",
+   "note": "„Almost nothing“ — prázdnota uvnitř musí být vidět.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "technika",
+   "diagram": "PÁTEŘ: krabička, vedle čárkovaný obrys stupnice ladění s prázdnou škálou — NOTHING TO TUNE INTO.",
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "technika",
+   "diagram": "TRASA + vlevo nad stanicí stožár škrtnutý (SWITCHED OFF), kabel pořád ambrově a krabička mluví; popisek 1968 · THE WIRE KEPT GOING.",
+   "note": "Uzavírá technický blok; rým s S03–S04.",
+   "pause": 1.2
+  },
+  {
+   "id": "S17b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "cta": true,
+   "pause": 1.0,
+   "note": "CTA podle docs/cta.md — dědí S17 (statický diagram), ~1:55, mezi technickým blokem a přebitím otázky S18. Krátké pauzy kolem (S17 1,2 s, S17b 1,0 s), ať nezabije zvědavost (uživatel 2026-10-12)."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "proc",
+   "diagram": "Dvě sítě nad jednou krajinou: nahoře stožár s pokrytím (vzduch), dole síť kabelů do domů — u ní ambrový otazník a nadpis WHY BUILD A SECOND NETWORK?",
+   "note": "Přebití otázky (~1:57).",
+   "pause": 1.2
+  },
+  {
+   "id": "S19",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S19.png",
+   "prompt": "rows of wooden telegraph poles with sagging wires crossing flat Bohemian fields towards a small 1950s town, a few low houses with tiled roofs, flat grey overcast sky, wide landscape, no people",
+   "note": "„The first lines went live in 1953.“ Atmosférický předěl do historie. Počasí, ne denní doba (dawn/dusk zbarví vše dozlatova)."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "proc",
+   "diagram": "Dva předměty vedle sebe: velký RADIO RECEIVER (ztlumeně, se stupnicí) a malý LOUDSPEAKER (ambrově) s popiskem FAR CHEAPER; nahoře USSR · 1920s.",
+   "note": "Bez cen v obraze — scénář žádné číslo neříká."
+  },
+  {
+   "id": "S21",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S21.png",
+   "note": "PICK 0 z hledání 2026-10-12 pod tímto dotazem: abonentní reproduktor „Čajka-3“ (SSSR 1954–56), Orské vlastivědné muzeum, CC BY-SA 3.0. Záloha: „Soviet wired radio loudspeaker“ pick 0 = EMZ 1952.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "радиоточка",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "proc",
+   "diagram": "Dva rámečky: CHEAP — A VOICE IN EVERY HOME (ztlumeně) a THE GOVERNMENT'S VOICE (ambrově).",
+   "note": "Druhý rámeček nese pointu věty.",
+   "pause": 0.5
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "proc",
+   "diagram": "Stožár vysílače uprostřed, kolem něj zaměřovací kříž; popisek BIG, OBVIOUS TARGET."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "proc",
+   "diagram": "Stožár a velký kruh pokrytí přes kraj s tečkami domů; stožár škrtnutý → celý kruh ztlumený, popisek A WHOLE REGION."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "proc",
+   "diagram": "TRASA rozšířená na síť: zesilovače, linky, domy; stožár nahoře škrtnutý, síť ambrově a krabičky mluví. Popisek NO SINGLE MAST.",
+   "note": "Kresba nesmí tvrdit „nezničitelné“ — to opraví S26."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "proc",
+   "diagram": "Táž síť: u zesilovače ikona zástrčky (NEEDS POWER), na jedné lince nůžky / přerušení (CAN BE CUT). Dole SPARE ROUTE, NOT A FORTRESS.",
+   "pause": 0.5
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "proc",
+   "diagram": "Tři položky v řadě: NO WEAK SIGNAL · NO INTERFERENCE · CHEAP RECEIVER, třetí s krabičkou.",
+   "note": "Konec bloku „proč“.",
+   "pause": 1.4
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "kontrola",
+   "diagram": "PÁTEŘ: krabička, pod ní čárkovaně ONE MORE CONSEQUENCE.",
+   "note": "Beat před pointou bloku.",
+   "pause": 1.0
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "kontrola",
+   "diagram": "PÁTEŘ: krabička, kabel ze spodku vede k jedinému zdroji; ambrově ONE CABLE · ONE VOICE."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "diagram_generator": "kontrola",
+   "art": "art/S30.png = SDXL z promptu níž (seed z ID) upravené v ChatGPT, viz art/PUVOD.md",
+   "effect": "slow_zoom_in",
+   "visual": "images/S30.png",
+   "prompt": "a modest 1950s Czechoslovak kitchen, a small cream bakelite loudspeaker box mounted on the wall above a wooden table, a pot on an enamel stove, a child's drawing pinned nearby, warm lamplight, calm everyday atmosphere, no people",
+   "note": "„Plenty of people left it on all day, just for company.“ Obyčejnost, ne propaganda. Bez lidí (obličeje).",
+   "pause": 0.5
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "kontrola",
+   "diagram": "PÁTEŘ: krabička; vedle ní čárkovaná stupnice s nápisy VIENNA a RADIO FREE EUROPE — obojí přeškrtnuté. Kabel ze spodku popsaný STATE-OWNED, END TO END."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "kontrola",
+   "diagram": "PÁTEŘ: krabička, knoflík ambrově s popiskem OFF SWITCH; vedle čárkovaně IS ANYONE LISTENING?",
+   "note": "Moc má meze — ambrová patří vypínači.",
+   "pause": 0.5
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "kontrola",
+   "diagram": "Kuchyňská zeď: krabička (PÁTEŘ, menší vlevo) a na poličce vpravo OBYČEJNÉ RÁDIO se stupnicí `radio()` — ambrově. Popisky KITCHEN / EVENING · WEST.",
+   "note": "Zavádí druhé rádio na pevných souřadnicích — výplata v S65.",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "kontrola",
+   "diagram": "PÁTEŘ: krabička, přes ni čárkované razítko CONTROL DEVICE?",
+   "note": "Čárkovaně = svádí to tak říct, ale hned se to rozbije.",
+   "pause": 0.8
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "jinde",
+   "diagram": "Tři ikony v řadě rezavě: hory SWITZERLAND, přijímač s tlačítky ITALY, řadové domky BRITAIN. Bez mapy (obrys Evropy kreslený od ruky by tvrdil hranice).",
+   "pause": 0.6
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "jinde",
+   "diagram": "Dva masivy a údolí; za levým hřbetem ztlumený stožár s vlnami čárkovaně; v popředí telefonní linka na sloupech rezavě do domu v údolí. Popisek TELEPHONE LINE.",
+   "note": "Švýcarsko odlišně: hory a telefonní linka (zpětná vazba 0.6)."
+  },
+  {
+   "id": "S37",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S37.png",
+   "note": "PICK 0 z hledání 2026-10-12 pod tímto dotazem: přijímač filodiffusione s tlačítky kanálů, Museo scienza e tecnologia Milano, CC BY-SA 4.0. Kontrast k dráťáku bez tlačítek. Výsledky 0/2/3 jsou týž přístroj.",
+   "pause": 0.5,
+   "archive": {
+    "provider": "wikimedia",
+    "query": "filodiffusione RAI apparecchio",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "jinde",
+   "diagram": "Řada dvou až tří městských řadových domů v řezu; v každém pokoji jednoduchý reproduktor, kabel vede podél fasády od domu k domu ambrově; nahoře BRITAIN · LATE 1920s · RENTED LOUDSPEAKERS. Bez lidí.",
+   "note": "Uživatel 2026-10-12: fotka štítku Rediffusion byla autentická, ale ukazovala přípojku, ne princip. Kresba nesmí tvrdit, že každý dům měl stejnou instalaci — reproduktory se smí lišit polohou. S37 = volba kanálů, S38 = drátový rozvod."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "jinde",
+   "diagram": "Tři panely vedle sebe, nad nimi jeden drát: ALPS · ITALY · CZECHOSLOVAKIA — zatím jen jména.",
+   "note": "Připravuje S40 na týchž souřadnicích.",
+   "pause": 0.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "jinde",
+   "diagram": "Tytéž panely doplněné: ALPS — BEAT THE MOUNTAINS / ITALY — CHOICE / CZECHOSLOVAKIA — SPARE ROUTE FOR WAR · ONE CHANNEL, CHOSEN BY THE STATE (ambrově)."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "jinde",
+   "diagram": "Vodorovný drát uprostřed, na obou koncích čárkovaný rámeček: THE NETWORK · THE PROGRAMME, nad tím WHO CONTROLS IT?",
+   "note": "Konec bloku.",
+   "pause": 1.0
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "jinde",
+   "diagram": "Stožár (ambrově s rukou na vypínači) a vedle drát, který pokračuje mimo jeho dosah; popisek NOT EVERY ROUTE.",
+   "note": "Přechod zpátky do noci.",
+   "pause": 2.6
+  },
+  {
+   "id": "S43",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S43.png",
+   "note": "PICK 2 z hledání 2026-10-12 pod tímto dotazem: „Praga 11“, dav obklopuje sovětské tanky v prvních dnech invaze, Praha (místo neurčené), Engramma.it, CC BY-SA 3.0. Den ani místo nejsou přesně doložené — scéna mluví o invazi obecně.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Invasion of Czechoslovakia 1968 Prague",
+    "pick": 2,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "noc",
+   "diagram": "`noc()` z S01, u mikrofonu VLADIMÍR FIŠER; list: WITHOUT THE KNOWLEDGE OF: THE PRESIDENT · PARLIAMENT · THE GOVERNMENT · THE PARTY'S FIRST SECRETARY.",
+   "note": "Návrat do kompozice úvodu. Výčet přesně podle S44 (v0.7).",
+   "pause": 0.5
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "noc",
+   "diagram": "Citát v uvozovkách přes střed: “A DENIAL OF THE BASIC NORMS OF INTERNATIONAL LAW”, pod ním drobně STATEMENT OF THE PARTY PRESIDIUM.",
+   "pause": 0.6
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "noc",
+   "diagram": "`noc()` s vypnutým stožárem; vypínač rezavě, nad ním KAREL HOFFMANN, čárkovaně ke stožáru; list prohlášení ztlumeně.",
+   "note": "Portrét Hoffmanna zkusit `--search`; když bude, jako archiv s fit 0,84, bez zoomu."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "noc",
+   "diagram": "`noc()` celá: stožár tmavý, kabel a krabička ambrově. Nahoře BUILT IN CASE ARMIES CAME.",
+   "note": "Ironie videa — rým s S04.",
+   "pause": 0.6
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "noc",
+   "diagram": "`noc()`: u krabičky celý list, ambrově IN FULL · ONLY BY WIRE."
+  },
+  {
+   "id": "S49",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S49.png",
+   "note": "PICK 1 z hledání 2026-10-12 pod tímto dotazem: František Dostál, tank na Vinohradské 21. 8. 1968 (kategorie Vinohradská, Photographs taken on 1968-08-21), CC BY-SA 4.0. Ulice rozhlasu a ten den — splňuje přísné kritérium uživatele.",
+   "pause": 0.6,
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Praha srpen 1968 okupace",
+    "pick": 1,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "noc",
+   "diagram": "PÁTEŘ: krabička zblízka jako v S06 (stejné souřadnice), ambrově mluví; pod ní THE BOX THAT COULDN'T CHOOSE.",
+   "note": "Pointa (~5:50). Výplata S06.",
+   "pause": 2.0
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "noc",
+   "diagram": "Schéma, ne mapa: čárkovaný rámec PRAGUE, vlevo ztlumeně budova s tečkami vojsk RADIO BUILDING · OCCUPIED, vpravo rezavě EMERGENCY STUDIO s mikrofonem a vlnami.",
+   "note": "Kresba, ne fotka: snímek budovy rozhlasu by předstíral, že ukazuje náhradní pracoviště (uživatel 2026-10-12). Jméno Jeseniova vynecháno i z obrazu."
+  },
+  {
+   "id": "S51b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51b.png",
+   "note": "Fotka budovy s vojsky na Commons není (jen Vinohradská obecně a pamětní deska). Kresba nic nepředstírá.",
+   "diagram_generator": "noc",
+   "diagram": "Budova rozhlasu v řezu: chodby s tečkami (TROOPS), uvnitř skrytá místnost ambrově HIDDEN STUDIO."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "noc",
+   "diagram": "Pět studií (rámeček s mikrofonem) v řadě, mezi nimi rezavé šipky štafety; nahoře STUDIOS ACROSS THE COUNTRY. Bez mapy a bez jmen měst.",
+   "note": "Fact check: štafeta obecně, ne konkrétní pořadí stanic."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "noc",
+   "diagram": "Vlevo rezavá krabička THE WIRE, vpravo tři siluety THE PEOPLE.",
+   "note": "Konec bloku 1968.",
+   "pause": 2.4
+  },
+  {
+   "id": "S54",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "PICK 0 z hledání 2026-10-12 pod tímto dotazem: Karel Hoffmann, Obrana lidu 29. 5. 1971 (Kramerius VÚA), PD Czechoslovakia anonymous. 1971 = vzestup, sedí na „He rose“. Portrét: fit 0,84, bez zoomu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Karel Hoffmann 1924",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "konec",
+   "diagram": "Časová osa 1968 THE ORDER · 1989 THE REGIME ENDS · 2003 CONVICTED OF SABOTAGE (rezavě), nad ní čárkovaný oblouk 35 YEARS."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "konec",
+   "diagram": "Osa ztlumeně do 2004 PRISON · AGE 80 (rezavě), pod tím OUT IN LESS THAN A MONTH.",
+   "note": "Konec Hoffmanna.",
+   "pause": 2.4
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "diagram_generator": "konec",
+   "art": "art/S57.png = SDXL z promptu níž (seed z ID) upravené v ChatGPT, viz art/PUVOD.md",
+   "effect": "slow_zoom_out",
+   "visual": "images/S57.png",
+   "prompt": "old wooden telegraph poles with slack broken wires along an overgrown country road at the edge of a small town, a disused cream bakelite loudspeaker box half hidden in tall grass, flat grey overcast sky, melancholic, no people",
+   "note": "„The wire outlived his career, but not by much.“ Předěl k zániku."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "konec",
+   "diagram": "Velké obyčejné rádio rezavě se šesti stanicemi na stupnici; vpravo CLEARER SOUND · SEVERAL STATIONS · NO CABLE.",
+   "note": "Výčet bez teček (čárky) — vycet ne."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "konec",
+   "diagram": "PÁTEŘ: krabička ztlumená vedle FM rádia; pod ní ONE PROGRAMME čárkovaně."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "konec",
+   "diagram": "`sit_kabelu()` ztlumeně, všechny domy kromě posledního zhaslé; poslední rezavě s 1999.",
+   "note": "Konec historie.",
+   "pause": 2.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "konec",
+   "diagram": "PÁTEŘ: krabička, přes ni čárkovaný štítek PROPAGANDA SPEAKER; za ní ztlumeně rámeček SYSTEM THAT DECIDED.",
+   "pause": 0.6
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "konec",
+   "diagram": "`panely3()` jen ALPS a ITALY, zmenšené do dolní poloviny a vycentrované.",
+   "note": "Ocas videa: horní polovina volná pro závěrečnou obrazovku.",
+   "pause": 0.5
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "konec",
+   "diagram": "`noc()` zmenšená do dolní poloviny: stožár tmavý, kabel a krabička rezavě.",
+   "note": "Jen dolní polovina."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "konec",
+   "diagram": "Krabička zmenšená v dolní polovině, kabel vede doleva a končí čárkovaně u otazníku.",
+   "note": "Jen dolní polovina.",
+   "pause": 0.6
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "konec",
+   "diagram": "`kuchyn()` zmenšená do dolní poloviny: krabička ztlumeně, rádio na poličce rezavě. Bez textu.",
+   "note": "Výplata S33. Poslední scéna — horní polovina prázdná pro dlaždici a kolečko odběru.",
+   "pause": 3.0
+  }
+ ]
+}

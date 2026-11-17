@@ -1,0 +1,589 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dva panely vedle sebe. Vlevo MUTED: rodina čtyř postav (dva dospělí, dvě děti) a JEDNO auto, nad tím NOT EVERY FAMILY. Vpravo ambrově: tytéž čtyři postavy a u každé její vlastní auto, včetně obou dětí, nad tím EVERY PERSON.",
+   "note": "První obrazovka nese myšlenku: auto na osobu, ne na rodinu, a to i dítě. Dítě s vlastním autem je zasazené tady a vyplatí se v S47 (tři z deseti lidí jsou děti). Ne SDXL (pravidlo první scény). Postavy a auta jsou sdílené tvary z _kit.py (postava(), auto() shora), ne ruční kresba."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dvě velká počítadla pod sebou: ikona postavy + 8,000,000,000 PEOPLE, ikona auta + 8,000,000,000 CARS (auto ambrově). Nic dalšího.",
+   "note": "Rým se S54: počítadla na pevných souřadnicích (pocitadla() v _kit.py), v závěru se vrátí beze změny. „No waiting for a bus / no lift“ se nekreslí, je to tón, ne údaj.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S03",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S03.png",
+   "pause": 1.0,
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Run Forest Run U.S. Route 163 Monument Valley",
+    "pick": 0,
+    "grade": {
+     "saturation": 90,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-21): prázdná US 163 k horizontu, modré nebe, CC BY-SA 2.0. Obraz svobody, jak ho zná americké publikum. Fotka se hýbe, diagram ne. Dotaz je zúžený tak, aby první dva výsledky byly tentýž záběr."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "pause": 1.4,
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `jeden_a_vsichni()` poprvé, v dolní polovině obrazu: vlevo jedna postava s jedním autem (ambrově) a pod nimi ONE PERSON; vpravo husté pole drobných aut shora až k okraji (MUTED) a pod ním EVERYONE?",
+   "note": "Páteř videa: jeden člověk proti všem. Leží celým videem na týchž souřadnicích a vyplatí se v S57 (great answer for one person / strange answer for eight billion). Dolní polovina schválně: v závěru musí zůstat horní polovina volná pro závěrečnou obrazovku. Pole aut je symbol, ne počet (bez čísla)."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "usa",
+   "diagram": "Piktogram `radek()`: nahoře řada deseti postav, pod ní osm aut (ambrově) a dvě prázdná místa. Vlevo štítek UNITED STATES, vpravo velké 8 PER 10.",
+   "note": "Rým S05–S09: tatáž řada deseti postav na týchž souřadnicích, mění se jen počet aut. 0,80 = 271,1 mil. lehkých vozidel / 339,1 mil. obyvatel (FHWA 2024). Vozidla = lehká vozidla, ne jen osobní auta; ikona je obecné auto."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "usa",
+   "diagram": "Tři vodorovné pruhy na společné ose od nuly: PEOPLE 339 M (MUTED), LIGHT VEHICLES 271 M — CARS, SUVS, PICKUPS (ambrově), DRIVING LICENCES 240 M (INK). Mezi koncem pruhu vozidel a licencí ambrová závorka +31 M. Dole drobně USA, 2024 · FHWA.",
+   "note": "Zadání uživatele: rychlé a jasné srovnání vozidla × lidé × řidičská oprávnění, tentýž zdroj a rok. Délky pruhů se POČÍTAJÍ z čísel (assert). Graf se vrací v S49 (lidé bez řidičáku), proto bars_usa() v _kit.py."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "usa",
+   "diagram": "Řada UNITED STATES z S05 nahoře (8 aut z 10). Pod ní nová řada WORLD: deset postav, pod nimi dvě auta (ambrově), osm prázdných míst. Vpravo 1.59 BILLION VEHICLES · ≈ 1 PER 5.",
+   "note": "1 na 5 = 2 na 10, aby obě řady měly tutéž jednotku a šly porovnat okem. OICA 2020: 1 590 mil., 209 na 1 000. Prázdná místa čárkovaně (nedostatek, ne hypotéza).",
+   "pause": 0.5
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "usa",
+   "diagram": "Totéž. Řada WORLD se doplní na 8 aut z 10: dvě původní plně, šest nových čárkovaně ambrově (hypotéza). Vpravo ≈ 6.6 BILLION VEHICLES a nad tím drobně EVERY COUNTRY AT THE US LEVEL.",
+   "note": "Čárkovaně = myšlenkový experiment (konvence _kit.py). 0,80 × 8,27 mld = 6,6 mld (factcheck S08)."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "pause": 2.2,
+   "diagram_generator": "usa",
+   "diagram": "Řada WORLD doplněná na 10 aut z 10 (poslední dvě čárkovaně), vpravo ROUND UP → 8 BILLION CARS. Řada USA zmizí, zůstane jen svět.",
+   "note": "Zaokrouhlení nahoru je přiznané v obraze (ROUND UP), stejně jako v hlase. Od téhle scény celé video počítá s 8 mld (rozhodnutí v notes.md). Konec bloku, pauza."
+  },
+  {
+   "id": "S10",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S10.png",
+   "prompt": "vast parking lot seen from directly above, endless identical rows of parked cars filling the frame to the horizon, painted white parking lines, flat grey overcast light, no people",
+   "note": "První SDXL scéna až v 1:03, po úvodu (pravidlo první scény). Atmosféra před výpočtem: nejdřív pocit, pak čísla v S11–S14. Zoom ven = svět se rozšiřuje. Prompt žádá počasí, ne denní dobu (dawn/dusk by přebily paletu)."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Jedno parkovací stání `stani()` shora, bílé čáry, v něm auto. Kótovací čáry 2.5 M (šířka) a 5 M (délka), vedle velké = 12.5 M².",
+   "note": "Stání je sdílený tvar (stani()), vrací se v S44 a S45 (elektrické auto potřebuje totéž místo). Rozměry v obraze jsou tytéž, které říká hlas; poměr stran se počítá z rozměrů 2,5 : 5."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Výpočet nahoře: 12.5 M² × 8 BILLION = 100,000 KM². Pod ním obrys Jižní Koreje (Natural Earth) a vedle ve STEJNÉM měřítku ambrový čtverec 100 000 km² (strana 316 km) vyplněný texturou aut. Štítky SOUTH KOREA 97,600 KM² a ALL 8 BILLION CARS, BUMPER TO BUMPER.",
+   "note": "První vizuální vrchol (zadání uživatele): nejdřív auta těsně vedle sebe. Čtverec i obrys v jednom měřítku z km² (assert na poměr ploch 1,02). Mapa se nekreslí od oka, obrys z dat (map_kit). Výpočet je v obraze, ne přes fotku.",
+   "pause": 0.5
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Dva výřezy shora vedle sebe. Vlevo auta natěsno bez mezer (MUTED) a pod tím NO WAY IN OR OUT. Vpravo skutečné parkoviště: dvě řady stání, mezi nimi jízdní ulička se šipkou a u aut prostor na dveře; ulička ambrově, pod tím A REAL CAR PARK.",
+   "note": "Vysvětluje, proč se plocha v S14 zdvojnásobí: ambrově je to, co v S12 chybělo (ulička). Šipka ukazuje směr jízdy v uličce, nic jiného.",
+   "pause": 0.5
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Nahoře 25–33 M² PER SPACE → 200,000–264,000 KM². Ve stejném měřítku jako S12: obrys Jižní Koreje dvakrát a třetí čárkovaně (2–3×), vedle obrys Velké Británie 242,000 KM² s ambrovou výplní. Štítek ≈ THE WHOLE UNITED KINGDOM.",
+   "note": "Totéž měřítko jako S12 (konstanta v _kit.py, ne parametr), jinak se srovnání nepozná. Rozsah 25–33 m² (Litman). Třetí Korea čárkovaně, protože 264 000 km² je 2,7×, ne 3× (assert). Uživatel: Korea pro samotná auta, s komunikacemi zvlášť.",
+   "pause": 0.6
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "pause": 0.5,
+   "diagram_generator": "parkovani",
+   "diagram": "Časová osa jednoho dne `den()` 0–24 h. Nad ní tři místa ikonou: HOME, WORK, SHOP. Jedno a TOTÉŽ auto (ambrově) stojí v noci u HOME, přes den u WORK, večer u SHOP; jeho cesta mezi nimi tenkou čarou. Na místech, kde zrovna není, stání čárkovaně prázdné.",
+   "note": "ZADÁNÍ UŽIVATELE: stání doma, v práci a u obchodu jsou v různých časech dne, ne tři stání vyhrazená naráz. Kresba NESMÍ naznačit trojnásobek plochy: žádné ×3, žádné tři mapy, jedno auto a jedna osa času. Osa je sdílená se S16."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Táž osa dne `den()`. Celý pruh MUTED s nápisem PARKED, jen dva krátké ambrové úseky (ráno a večer, dohromady ~5 % = 72 min) DRIVING. Nad tím velké ≈ 95% PARKED a zřetelně ON AVERAGE.",
+   "note": "ZADÁNÍ UŽIVATELE: 95 % je průměr, orientační statistika, ne konstanta pro každé auto. Proto ON AVERAGE a ≈ v obraze, žádný ciferník ani „každé auto“. Úseky jízdy se počítají z 5 % dne (assert), poloha ráno/večer je ilustrační."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Plánek městské čtvrti shora: bloky domů HOMES, SCHOOL, HOSPITAL, SHOPS, mezi nimi ulice; volné plochy jen tři malé: PARK, PLAYGROUND a prázdná parcela. Nad tím WHERE LAND IS ALREADY SCARCE.",
+   "note": "Plánek je sdílený se S18 (ctvrt() v _kit.py), v S18 se tytéž plochy změní na parkoviště. Ikony budov, ne fotky."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "parkovani",
+   "diagram": "Týž plánek. PARK, PLAYGROUND a parcela pro HOUSING jsou přeškrtnuté a místo nich šedá stání s písmenem P. Původní názvy přeškrtnutým textem (text_skrtnuty), ať jdou přečíst.",
+   "note": "Musí být static svg: S18b (CTA) dědí tenhle obrázek. Škrt přes nápis vodorovnou čarou, ne křížkem (konvence).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S18b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "cta": true,
+   "pause": 2.2,
+   "note": "Výzva k odběru podle docs/cta.md: dědí obraz S18, nápis vypálí render.py. Za ní začíná blok o silnicích, proto pauza."
+  },
+  {
+   "id": "S19",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S19.png",
+   "prompt": "wide multi-lane city motorway in heavy morning rush hour traffic, every lane in both directions packed with slow cars, red brake lights, seen from an overpass, green trees along the roadside, flat grey overcast sky, no sun",
+   "note": "Druhá SDXL scéna: atmosféra pondělního rána, před čísly o kapacitě pruhu. Brzdová světla jsou ten jediný teplý akcent kotvy stylu. Počasí, ne denní doba (morning ano, dawn ne). Seed 120193 vybral uživatel 2026-10-21 ze čtyř variant: původní seed (bez seedu, 381911901) měl levou půlku dálnice prázdnou jako staveniště a červený porost; prompt doplněn o „every lane in both directions packed“ a „green trees“.",
+   "seed": 120193
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "silnice",
+   "diagram": "Jeden jízdní pruh `pruh()` shora přes celou šířku, v něm tři auta (víc se do 1 000 px pruhu nevejde), v každém jedna tečka (člověk). Vpravo velké 600–1,600 a pod tím PEOPLE PER HOUR. Vlevo štítek CARS.",
+   "note": "ZADÁNÍ: čísla čitelná i na mobilu, proto jedno velké číslo na scénu. Pruh je sdílený tvar (pruh()), S21 ho zopakuje pod sebou třikrát na týchž x. NACTO."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "pause": 0.5,
+   "diagram_generator": "silnice",
+   "diagram": "Tři pruhy `pruh()` pod sebou, každý jiným druhem dopravy a jinou barvou: CARS 600–1,600 (MUTED, auta), BUSES · OWN LANE UP TO 8,000 (INK, autobusy), TRAMS UP TO 25,000 (ambrově, tramvaj). Vpravo u každého vodorovný pruh lidí za hodinu ve společném měřítku od nuly, čísla velkým písmem. Auta: plný úsek 0–600 a obrys 600–1 600, tedy rozsah; všechny tři pruhy JEDNO lineární měřítko od nuly (bx0..bx1 = 0..25 000).",
+   "note": "ZADÁNÍ: druhy dopravy jasně odlišené tvarem i barvou. Autobusy jen ve VYHRAZENÉM pruhu (NACTO, číslo pro smíšený provoz neověřeno), proto OWN LANE v obraze. Délky pruhů se počítají z horních mezí (assert). Uživatel 2026-10-21: jedno společné lineární měřítko, UP TO u autobusů i tramvají."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "pause": 1.4,
+   "diagram_generator": "silnice",
+   "diagram": "Tentýž úsek silnice ve stejném měřítku dvakrát pod sebou. Nahoře 30 LIDÍ v 30 autech v koloně (po jednom v autě, jako v experimentu), dlouhá řada přes skoro celou šířku. Dole titíž 30 lidí v jednom autobusu, krátký obdélník. Vlevo u obou 30 PEOPLE. Měřítko 9,5 px/m: 30 aut ≈ 208 m, autobus 12 m.",
+   "note": "„Geometrie“ ukázaná místo vyslovená. Délky z rozměrů v _kit.py (auto 4,5 m + 2,5 m odstup v koloně = 7 m na auto, autobus 12 m), assert na poměr. Obsazenost 1 je předpoklad experimentu (auto na osobu), ne průměr."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "silnice",
+   "diagram": "Schéma rozšiřování: úsek silnice shora se dvěma pruhy, vedle se čtyřmi, vedle s osmi; mezi nimi šipky. Nahoře SO WE BUILD MORE ROADS.",
+   "note": "Tvar rozšiřování se vrací v S26 (cyklus indukované poptávky). Žádné číslo, jen princip; čísla Houstonu nese S24–S25."
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S24.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Katy Freeway Houston Texas LCCN2011631051",
+    "pick": 0,
+    "grade": {
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-21): letecký snímek Carol M. Highsmith, Library of Congress, public domain; Katy Freeway vpravo jako široký pás k downtownu. Jediný snímek s názvem Katy Freeway, který dálnici ukazuje v celé šíři (ostatní jsou záběry z auta nebo cedule). Archiv místo SDXL podle zadání uživatele; láme řadu infografik."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "pause": 0.5,
+   "diagram_generator": "silnice",
+   "diagram": "Nahoře velké TRAVEL TIME a pod ním 2011 = 100. Dva páry svislých sloupců: MORNING COMMUTE 100 → 130 (+30%) a EVENING COMMUTE 100 → 155 (+55%), 2011 MUTED, 2014 ambrově. Titulek KATY FREEWAY, AFTER THE WIDENING.",
+   "note": "ZADÁNÍ: Houston jako časové srovnání 2011 → 2014. Obě období PO rozšíření (2008), ne před/po, a nejspíš různé trasy (factcheck S25), proto ráno a večer zvlášť a bez minut. Index 2011 = 100 je jen zobrazení procent. Uživatel 2026-10-21: TRAVEL TIME velké, aby se to nečetlo jako objem dopravy."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "silnice",
+   "diagram": "Kruh ze čtyř kroků se šipkami po směru: WIDER ROAD → DRIVING GETS EASIER → MORE PEOPLE DRIVE → LANES FILL UP → zpět na WIDER ROAD. Uprostřed INDUCED DEMAND ambrově.",
+   "note": "Šipka = příčina, tady oprávněně (je to mechanismus).",
+   "pause": 0.6
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "pause": 2.2,
+   "diagram_generator": "silnice",
+   "diagram": "Široká silnice zleva (osm pruhů) se zužuje do hrdla o dvou pruzích. U hrdla tři štítky jako tři konce: BRIDGE, JUNCTION, CITY CENTRE. Hrdlo ambrově.",
+   "note": "Hrdlo je místo, které rozšířit nejde. Konec bloku o silnicích, pauza.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "pause": 1.0,
+   "diagram_generator": "bezpecnost",
+   "diagram": "Prázdná dvoupruhová silnice v perspektivě, tlumeně MUTED, přerušovaná středová čára. Nic dalšího.",
+   "note": "Předěl ke střídmému bloku o bezpečnosti. ZADÁNÍ: žádné záběry nehod, žádné havarované auto ani symbol krve."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "bezpecnost",
+   "diagram": "Velké ≈ 1.2 MILLION a pod ním PEOPLE DIE IN ROAD CRASHES EVERY YEAR. Dole drobně WHO · 1.19 M (2021 DATA). Bez ikon.",
+   "note": "Střídmě: jen číslo a zdroj. ≈ 1,2 jako v hlase, přesné 1,19 drobně pro diváka, který si to ověří."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "bezpecnost",
+   "diagram": "Nahoře přeškrtnutý výpočet 1.2 M × 5 (text_skrtnuty). Pod ním IT DEPENDS ON: a čtyři štítky vedle sebe: HOW FAR · HOW FAST · WHAT ROADS · WHAT CARS.",
+   "note": "Uživatel: nenásobit lineárně. Škrt je vodorovná čára přes výpočet (neplatí takhle), ne křížek přes scénu. Čtyři štítky = čtyři části věty v hlase.",
+   "pause": 0.5
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "pause": 2.4,
+   "diagram_generator": "bezpecnost",
+   "diagram": "Dva pruhy vozového parku ve stejném měřítku: TODAY 1.59 BILLION (MUTED) a OUR WORLD 8 BILLION (ambrově čárkovaně, hypotéza), u něj ×5. Pod tím ROAD SAFETY: AN EVEN MORE IMPORTANT QUESTION.",
+   "note": "Obraz netvrdí počet mrtvých, jen pětinásobek aut (8 / 1,59 = 5,0, assert), tedy přesně tolik jako hlas. Konec bloku."
+  },
+  {
+   "id": "S32",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S32.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Production line car assembly line General Motors Manufacturing Poland Gliwice",
+    "pick": 0,
+    "grade": {
+     "saturation": 90,
+     "vignette": false
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-10-21): montážní linka GM v Gliwicích, karoserie s otevřenými dveřmi v řadě. Konkrétní věc s vlastním jménem → archiv. Otevírá druhý vizuální vrchol a láme řadu diagramů mezi S25 a S45. Licenci a autora ověří archive.py při stažení; první dva výsledky dotazu jsou tatáž linka."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "vyroba",
+   "diagram": "Velké 93 MILLION a pod ním VEHICLES BUILT IN 2024. Pod tím jeden pruh rozdělený: CARS 68 M (ambrově) a VANS, TRUCKS, BUSES 25 M (MUTED). Dole drobně OICA.",
+   "note": "Hlas říká „all together“, proto rozdělení v pruhu, aby se 93 mil. nečetlo jako osobní auta. 92,7 mil. celkem, 67,7 osobní (OICA)."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "vyroba",
+   "diagram": "VANA `vana()` poprvé: nádrž se stavem VEHICLES ON THE ROAD, nahoře přítok z kohoutku 93 M / YEAR (ambrově), dole odtok SCRAPPED. U nádrže ~17 YEARS (US CAR LIFETIME). Pod tím výpočet 93 M × 17 ≈ 1.6 BILLION.",
+   "note": "Vana je sdílený tvar (vana() v _kit.py), S35–S36 na týchž souřadnicích. 17 let je americký medián (Greene & Leard), proto US v obraze jako v hlase („In America“). 93 × 17 = 1 581 mil.",
+   "pause": 0.4
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "vyroba",
+   "diagram": "Táž vana. Hladina TODAY ≈ 1.59 BILLION. Vpravo ROUGHLY TODAY'S FLEET a ambrově AND IT'S STILL GROWING, pod tím ≈ +4% A YEAR (OICA 2015–2020).",
+   "note": "v0.3: věta „mostly replace“ škrtnuta — park roste ~4,4 %/rok (factcheck S34–S35). Odtok je jen ikona bez měřítka."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "pause": 2.2,
+   "diagram_generator": "vyroba",
+   "diagram": "Vana vedle sebe dvakrát ve stejném měřítku: vlevo TODAY (1.59 BILLION, přítok 93 M), vpravo OUR WORLD (8 BILLION, čárkovaně ambrově) s přítokem pětkrát širším ≈ 470 M / YEAR · 5× TODAY. Nad pravou nádrží šipka nahoru GETTING THERE: EVEN MORE.",
+   "note": "8 mld / 17 = 470 mil., 5,1× (assert). Šířka přítoku úměrná výrobě, výška hladiny úměrná parku. Uživatel: formulovat jako „nestačí“, ne „nikdy“ — obraz nic takového netvrdí. Konec bloku výroby. Uživatel 2026-10-21: ≈ 470 M / YEAR velkým písmem (60), přítok plný ambrový proud."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "energie",
+   "diagram": "Lišta předpokladů `predpoklady()` nahoře přes celou šířku: ASSUMED · 10,000 KM A YEAR (ambrově, zbylé položky zatím chybí). Pod ní tři vodorovné pruhy km za rok ve společném měřítku: OUR CAR 10,000 (ambrově), EU CAR ~11,000, US CAR ~17,000 (MUTED).",
+   "note": "ZADÁNÍ UŽIVATELE: předpoklad 10 000 km musí být v obraze, aby výsledek nepůsobil jako univerzální předpověď. Lišta předpokladů je na týchž souřadnicích S37–S42 a postupně se plní. US 17 360 (FHWA VM-1), EU ~10 900.",
+   "pause": 0.4
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "energie",
+   "diagram": "Lišta: 10,000 KM A YEAR · 7 L PER 100 KM (nová položka ambrově). Pod ní výpočet ve třech řádcích: 8 BILLION CARS × 10,000 KM × 7 L/100 KM = 5.6 TRILLION LITRES A YEAR = ≈ 96 MILLION BARRELS / OF PETROL A DAY (velké).",
+   "note": "Výpočet je v obraze jako výpočet, ne jako tvrzení. 5,6e12 l / 159 l / 365 = 96,4 mb/d (assert v kódu). Mezivýsledek litrů tam je, aby se dal přepočítat."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "pause": 1.6,
+   "diagram_generator": "energie",
+   "diagram": "Lišta beze změny. Dva vodorovné pruhy ve stejném měřítku: OUR CARS: PETROL 96 (ambrově) a WORLD: ALL OIL PRODUCTS 103 (INK), nadpis MILLION BARRELS A DAY. Pod pruhem světa PLANES · SHIPS · TRUCKS · HEATING · PLASTICS.",
+   "note": "IEA měří poptávku jako barely PRODUKTŮ, takže barely benzínu jsou srovnatelné objemem (factcheck S39). Popisky to říkají výslovně (v0.3, zpětná vazba diváka)."
+  },
+  {
+   "id": "S40",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S40.png",
+   "prompt": "row of electric cars plugged into charging posts along a quiet clean city street, trees, flat grey overcast sky, no sun, no people",
+   "note": "Třetí SDXL scéna: obrat „tak elektricky“ potřebuje nádech, ne další graf; láme řadu S33–S45. Riziko pseudotextu na nabíječkách: negativ ho má, při přejímce zkontrolovat okem.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "energie",
+   "diagram": "Lišta: 10,000 KM A YEAR · 0.2 KWH PER KM (nová položka ambrově, místo litrů). Výpočet: 10,000 KM × 0.2 KWH = 2,000 KWH A YEAR PER CAR; × 8 BILLION = 16,000 TWH. Pod tím pruh WORLD ELECTRICITY TODAY 30,900 TWH s ambrovým úsekem 52% · OUR CARS.",
+   "note": "Lišta předpokladů musí mít kWh, ne litry: tady se mění palivo, ne nájezd. 0,2 kWh/km včetně ztrát při nabíjení (factcheck). Podíl 16 000 / 30 856 = 52 % (assert).",
+   "pause": 0.6
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "energie",
+   "diagram": "Lišta: 10,000 KM A YEAR · 65 KWH BATTERY · 17-YEAR LIFE. Vlevo jeden ambrový čtvereček a pod ním TODAY: 0.95 TWH OF CAR BATTERIES A YEAR. Vpravo 32 čtverečků (8 × 4) a pod nimi NEEDED JUST FOR REPLACEMENTS ≈ 30× · ≈ 30.6 TWH A YEAR.",
+   "note": "8 mld × 65 kWh / 17 = 30,6 TWh/rok, / 0,95 = 32 (assert, počet čtverečků se počítá). Hlas říká „around thirty times“, proto ≈ 30× a 32 čtverečků. Předpoklady baterie i životnosti v liště. Legenda výslovně říká CAR BATTERIES: srovnává se jen výroba baterií do aut (IEA GEVO 2025, 950 GWh), ne všech baterií. Výpočet je ve factchecku S42."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "energie",
+   "diagram": "Tři ikony (baterie, větrník, měsíc) s popisky BATTERIES IMPROVE · CLEAN POWER GROWS · CHARGE AT NIGHT, vše INK. Titulek SOME OF THIS WOULD GET EASIER.",
+   "note": "Férová výhrada, proto neutrální barva, ne ambrová (ambrová = o čem je řeč, a tady je řeč o výjimkách). Bez čísel, hlas žádná neříká.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "energie",
+   "diagram": "Parkovací stání `stani()` ze S11 na týchž souřadnicích a ve stejné velikosti, v něm elektrické auto (ambrově, s bleskem). Vpravo STILL 12.5 M² a STILL NEEDS A ROAD.",
+   "note": "Rým se S11: týž tvar i poloha stání. Pruh se sem nekreslí — ve stejném měřítku jako stání by byl jiný než v S20 a rým by nesedl."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "pause": 2.6,
+   "diagram_generator": "energie",
+   "diagram": "Nahoře WE COULD CHANGE, pod tím tři řádky s fajfkou: THE ENGINE, THE FUEL, THE DRIVER (INK). Pod čarou ambrově THE GEOMETRY a STAYS THE SAME.",
+   "note": "Nejlepší věta zdroje dostane klidný obraz. „The driver“ = samořídící auta, obraz to nekreslí, hlas to říká. Konec bloku energie, delší pauza."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "lide",
+   "diagram": "Auta z S01 shora (čtyři, jedno pro každou postavu), sedadla řidiče zvýrazněná a prázdná, nad každým otazník. Nahoře WHO WILL DRIVE THEM?",
+   "note": "Callback na S01: tatáž čtyři auta včetně dětských. Otazník jen jeden na auto, bez dalšího textu."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "lide",
+   "diagram": "Mřížka 10 × 10 postaviček: 29 malých ambrových (děti) a 71 INK. Vpravo ≈ 3 IN 10 ARE CHILDREN · 2.4 BILLION · UNDER 18. Dole drobně UN WPP 2024.",
+   "note": "Výplata dítěte s autem z S01. 29,1 % (assert na počet 29). „Almost three in ten“ v hlase, proto ≈ 3 IN 10, ne „a third“.",
+   "pause": 0.6
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "lide",
+   "diagram": "Tři postavy vedle sebe s jednoduchým atributem: s holí TOO OLD TO DRIVE SAFELY, s bílou holí/brýlemi CAN'T SEE, bez atributu NEVER LEARNED. Vše INK, bez čísel.",
+   "note": "Hlas nemá čísla, obraz je taky nemá. Postavy důstojně, bez karikatury; atributy jen tolik, aby se skupiny rozlišily."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "lide",
+   "diagram": "Graf ze S06 (bars_usa) na týchž souřadnicích, jen PEOPLE 339 M a DRIVING LICENCES 240 M; rozdíl na konci pruhu lidí ambrově 99 M · ≈ 3 IN 10 WITHOUT A LICENCE. Pruh vozidel zmizel.",
+   "note": "Rým se S06: táž osa a tytéž pruhy, divák pozná, že je to tentýž zdroj (FHWA 2024). 1 − 239,8/339,1 = 29,3 %. Většinou děti, obraz netvrdí opak (nedělí rozdíl na skupiny)."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "lide",
+   "diagram": "Vlevo řada zaparkovaných aut MUTED s nápisem THEIR CARS WOULD SIT THERE. Vpravo jedno jedoucí auto, v něm řidič (INK) a pasažér (ambrově). Pod tím ambrově WHY DOES EVERY PASSENGER NEED ONE?",
+   "note": "Otázka v obraze je táž, kterou klade hlas; obraz na ni neodpovídá (odpověď je S51)."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "pause": 3.0,
+   "diagram_generator": "lide",
+   "diagram": "Dvě poloviny. Vlevo MUTED: jedno auto a pod ním MACHINES WE OWN. Vpravo ambrově: síť spojených bodů rozbíhající se od jednoho domova (místa, kam se dá dostat) a pod tím PLACES WE CAN REACH. Mezi nimi ≠. Nahoře FREEDOM OF MOVEMENT.",
+   "note": "Hlavní obrat videa. ≠ mezi polovinami je doslova věta hlasu (we confused freedom of movement with owning a machine). Síť nemá druh dopravy, jen dosah. Nejdelší pauza před koncem."
+  },
+  {
+   "id": "S52",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S52.png",
+   "prompt": "single car driving on a narrow rural road through open farmland, distant farmhouse, flat grey overcast sky, no sun, calm wide landscape",
+   "note": "Auto tam, kde je nezbytné (rural areas). Poslední SDXL scéna. ZADÁNÍ: MHD a sdílená auta jen obrazem, tady auto jako legitimní řešení, ne problém."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "pause": 2.2,
+   "diagram_generator": "lide",
+   "diagram": "Síť ze S51 (tytéž body a spoje), na šesti paprscích štítky BUS, TRAM, BIKE, WALK, SHARED CAR, CAR. Vlevo RELIABLE WAYS TO GET WHERE WE NEED TO GO.",
+   "note": "ZADÁNÍ UŽIVATELE: MHD a sdílená auta jen obrazem, hlas je nejmenuje. Vlastní auto mezi nimi zůstává (S52: cars are essential for some journeys). Konec bloku."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "pause": 1.2,
+   "diagram_generator": "zaver",
+   "diagram": "Počítadla ze S02 beze změny na týchž souřadnicích: 8,000,000,000 PEOPLE · 8,000,000,000 CARS.",
+   "note": "Rým se S02 (pocitadla()). ZADÁNÍ: od S54 zpomalit.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "pause": 1.8,
+   "diagram_generator": "zaver",
+   "diagram": "Tři řádky pod sebou s malou ikonou vlevo (zmenšené tvary z bloků): obrys UK → CAR PARKS ≈ THE UNITED KINGDOM · 95% OF THE TIME STANDING; rozšiřovaná silnice → ROADS FILL AS FAST AS WE WIDEN THEM; barel a zásuvka → ≈ 94% OF TODAY'S FUEL · OR 52% OF ELECTRICITY.",
+   "note": "ZADÁNÍ: čísla experimentu nechat krátce doznít, delší pauza. Ikony jsou tytéž tvary z bloků, ne nové. Text drží v dolních dvou třetinách; scéna může padnout do okna závěrečné obrazovky."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "pause": 1.4,
+   "diagram_generator": "zaver",
+   "diagram": "Pravá půlka páteře `jeden_a_vsichni()` (pole aut) na svém místě v dolní polovině, nad ním tři štítky SAME SOLUTION · SAME PLACES · SAME TIME. Horní polovina prázdná.",
+   "note": "Okno závěrečné obrazovky (posledních 20 s): horní polovina volná. Páteř na týchž souřadnicích jako v S04."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "pause": 3.2,
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ `jeden_a_vsichni()` celá, na souřadnicích z S04: vlevo jedna postava s autem a pod ní A GREAT ANSWER FOR ONE PERSON (ambrově), vpravo pole aut a pod ním A STRANGE ANSWER FOR EIGHT BILLION. Horní polovina prázdná.",
+   "note": "Výplata páteře. ZADÁNÍ: závěrečné větě dát prostor, delší pauza. Okno závěrečné obrazovky: nic v horní polovině."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "pause": 2.0,
+   "diagram_generator": "zaver",
+   "diagram": "V dolní polovině otázka ve dvou řádcích: IF YOU COULD GET ANYWHERE WITHOUT OWNING A CAR, / WOULD YOU STILL BUY ONE? Pod tím drobná ikona komentáře. Horní polovina prázdná.",
+   "note": "Závěrečná deska pro karty YouTube: celá horní polovina volná, static, žádné tvrzení, o které by divák přišel. Výzva k odběru na konci se nedělá (docs/cta.md)."
+  }
+ ]
+}

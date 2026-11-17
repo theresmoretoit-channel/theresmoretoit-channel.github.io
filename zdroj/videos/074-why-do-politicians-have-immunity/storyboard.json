@@ -1,0 +1,678 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA NESE MYŠLENKU a není sdxl: moc vstupuje dovnitř sněmovny. PÁTEŘ (prah() v _kit.py): stěna sněmovny se DVEŘMI na pevných souřadnicích, vlevo venku moc, vpravo uvnitř lavice. Král je uvnitř, vojáci venku — přesně podle scénáře (walked into / waited at the door).",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ poprvé: vpravo komora s lavicemi a křeslem Speakera, vlevo stěna se dveřmi. Postava s korunou těsně ZA prahem uvnitř, tři vojáci VENKU u dveří. Nahoře JANUARY 1642."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat v témže obraze, mění se jen pět míst.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Pět míst v lavicích ambrově, štítek FIVE MEMBERS · TREASON."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Čárkovaně = nepřítomní. Král míří na Speakera, ne na lavice (podmět věty: asked the Speaker).",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Pět míst čárkovaně prázdných, od krále tenká otázka ke křeslu Speakera."
+    },
+    {
+      "id": "S04",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU (2026-09-30): [0] Copleyho studie k obrazu „Charles I Demanding in the House of Commons the Five Impeached Members“ (2400×2007, PD). Copeův obraz je na Commons jen v 600 px, proto studie. Obraz dominantní (zpětná vazba storyboard): fit 0.94, jen aby se vešel celý; skupinová scéna → static.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Copley Charles I House of Commons",
+        "pick": 0,
+        "grade": {
+          "fit": 0.94
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Konec prologu. Poprvé je vidět, že práh něco znamená.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: král zpátky VENKU, šipka od dveří pryč. Z lavic ambrově PRIVILEGE! PRIVILEGE!",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Zobecnění z 1642 na otázku videa; táž geometrie jako S01, aby bylo vidět, že jde o týž problém.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ bez historie: venku štítek THOSE IN POWER, uvnitř THE PEOPLE MEANT TO CHECK THEM, šipka z venku ke dveřím s otazníkem."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Imunita = to, co stojí ve dveřích. Tahle konvence drží celé video.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: přes dveře ambrová závora, štítek PARLIAMENTARY IMMUNITY.",
+      "pause": 0.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Hlavní otázka videa. Váhy v rovnováze — obraz nesmí napovědět odpověď.",
+      "diagram_generator": "uvod",
+      "diagram": "Váhy (vahy() z kitu): vlevo PROTECTION FROM PERSECUTION, vpravo NOT ABOVE THE LAW, v rovnováze.",
+      "pause": 2.6
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Hypotetická vláda, žádná skutečná země ani čísla.",
+      "diagram_generator": "vlada",
+      "diagram": "PÁTEŘ: v komoře lavice rozdělené na vládu a opozici, nahoře CONTROVERSIAL LAW a těsný poměr (bez čísel), štítek CLOSE VOTE."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Šipka míří na OPOZIČNÍ místa (podmět: opposition members get arrested) — hlídat směr.",
+      "diagram_generator": "vlada",
+      "diagram": "PÁTEŘ: venku POLICE s vazbou na GOVERNMENT, přes dveře šipka ke třem opozičním místům, ta přeškrtnutá. Nahoře THE NIGHT BEFORE."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Vláda nevyhrála argument, jen odebrala hlasy — obraz ukazuje změnu poměru, ne debatu.",
+      "diagram_generator": "vlada",
+      "diagram": "Týž obraz, poměr se překlopí ve prospěch vlády, štítek LAW PASSES."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "První účel imunity. Táž závora jako S07, nikdy kreslená ručně.",
+      "diagram_generator": "vlada",
+      "diagram": "PÁTEŘ: závora ve dveřích z S07, policejní šipka se o ni zastaví. Štítek PARLIAMENT MUST BE ABLE TO WORK.",
+      "pause": 2.2
+    },
+    {
+      "id": "S13",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: [6] Fairburnovo vydání (1799) „THE BILL OF RIGHTS, Passed in 1689“, 2710×4653, PD — čitelný titul. Rukopis na Commons jen do 400 px. Výřez v poměru 16:9 (0.94×2710 : 0.31×4653) od horního okraje, ať je titul celý.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Bill of Rights 1689",
+        "pick": 6,
+        "grade": {
+          "zoom": [
+            0.03,
+            0.03,
+            0.94,
+            0.31
+          ]
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Karta na PEVNÝCH souřadnicích, protože se v S28 vrací vedle americké. Ambrová fráze = ta, která se vrátí.",
+      "diagram_generator": "listina",
+      "diagram": "Citační karta: “…ought not to be impeached or questioned in any court or place out of Parliament.” — BILL OF RIGHTS, 1689. Ambrově ‘questioned in any court or place’."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Beat „Remember that wording“ — jediná změna je podtržení.",
+      "diagram_generator": "listina",
+      "diagram": "Táž karta, ambrová fráze podtržená, zbytek ztlumený.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Hypotetická firma, bez loga a jména.",
+      "diagram_generator": "firma",
+      "diagram": "PÁTEŘ: uvnitř komory NEW LAW, venku budova firmy se štítkem −$10,000,000."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Poměr právníků ukazuje velikostí skupiny, ne číslem.",
+      "diagram_generator": "firma",
+      "diagram": "Týž obraz. Jedno místo v lavici ambrově YOU, u firmy řada postav s aktovkami proti jedné postavě.",
+      "pause": 0.4
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Šipka míří na poslance (ne na komoru) — podmět: sue YOU personally.",
+      "diagram_generator": "firma",
+      "diagram": "Týž obraz. Šipka LAWSUIT od firmy přes dveře k YOU. Nad YOU bublina IS THIS LAW GOOD FOR THE COUNTRY?"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Beat: mění se jen text bubliny.",
+      "diagram_generator": "firma",
+      "diagram": "Táž scéna, bublina vyměněná: WHAT WILL THIS VOTE COST ME?"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Druhý účel, táž závora.",
+      "diagram_generator": "firma",
+      "diagram": "PÁTEŘ: závora ve dveřích, žaloba se o ni zastaví. Štítek VOTES & SPEECHES IN THE CHAMBER."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Škrt nápisu přes text_skrtnuty(), ne křížkem.",
+      "diagram_generator": "firma",
+      "diagram": "PÁTEŘ: závora chrání celou komoru, venku za firmou VOTERS; škrtnutý nápis THE POLITICIAN, ambrově THE INSTITUTION.",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Uvedení druhého druhu. Čárkovaně = zatím jen ohlášené.",
+      "diagram_generator": "dve",
+      "diagram": "PÁTEŘ: závora ve dveřích značená 1, vedle čárkovaný obrys druhé ochrany kolem jedné postavy, značený 2 a otazníkem."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Rozlišení dvou imunit v jednom rozvržení S23–S25 (dvě karty na pevných místech). Pauza 0,3: S23→S24 je jedna věta rozdělená na dva beaty.",
+      "diagram_generator": "dve",
+      "diagram": "Karta 1: “YOU CAN'T PUNISH ME FOR HOW I VOTED” — ochrana kolem hlasovacího lístku.",
+      "pause": 0.3
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Druhá karta přibude, první ztlumená.",
+      "diagram_generator": "dve",
+      "diagram": "Vedle karta 2: “YOU CAN'T PROSECUTE ME, BECAUSE I'M AN MP” — ochrana kolem celé postavy."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Klíčový obraz videa: první chrání práci uvnitř, druhý člověka i venku.",
+      "diagram_generator": "dve",
+      "diagram": "PÁTEŘ: 1 = závora ve dveřích (THE JOB), 2 = štít kolem postavy, která stojí VENKU mimo sněmovnu (THE PERSON — even outside the job)."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Stupnice se vrací S31–S34; kreslí ji jedna funkce, pevné souřadnice.",
+      "diagram_generator": "dve",
+      "diagram": "Stupnice HOW MUCH OF THE SECOND? od NONE po FULL, zatím bez značek.",
+      "pause": 1.2
+    },
+    {
+      "id": "S26b",
+      "source": "svg",
+      "visual": "images/S26.png",
+      "effect": "static",
+      "cta": true,
+      "note": "Výzva k odběru (docs/cta.md), za rozlišením dvou imunit a před „Take the United States“ — rozhodl uživatel 2026-09-30. Dědí statický obraz S26. Blokový předěl je až za ní.",
+      "pause": 2.4
+    },
+    {
+      "id": "S27",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: [0] první strana Ústavy (NARA přes DPLA, 7258×8785, PD) s „We the People“ a Article I. Zoom na horní polovinu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Constitution of the United States page 1",
+        "pick": 0,
+        "grade": {
+          "zoom": [
+            0.04,
+            0.02,
+            0.92,
+            0.45
+          ]
+        }
+      }
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Výplata „Remember that wording“. Levá karta musí být pixel po pixelu S14, jen posunutá stejnou funkcí.",
+      "diagram_generator": "listina",
+      "diagram": "Dvě citační karty vedle sebe: vlevo BILL OF RIGHTS 1689 (táž jako S14), vpravo US CONSTITUTION 1787 “shall not be questioned in any other place”. Obě ambrové fráze stejnou barvou."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Široké čtení klauzule = hodně položek pod závorou.",
+      "diagram_generator": "usa",
+      "diagram": "PÁTEŘ (Kongres): závora ve dveřích, u ní VOTES · COMMITTEE WORK · REPORTS · MAKING LAWS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Senátor stojí mimo sněmovnu — běžný trestný čin nemá s prací nic společného.",
+      "diagram_generator": "usa",
+      "diagram": "PÁTEŘ: postava SENATOR venku, šipka CHARGED od POLICE přímo k ní, žádná brána. Štítek NOBODY ASKS CONGRESS."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Poloha je kvalitativní — žádná čísla na stupnici.",
+      "diagram_generator": "svet",
+      "diagram": "Stupnice z S26, značka USA u konce NONE. Pod ní PROTECT THE LAWMAKING. NOT THE LAWMAKER."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "UK a USA u sebe, ne na tomtéž bodě.",
+      "diagram_generator": "svet",
+      "diagram": "Stupnice: vedle USA značka UK. Štítek NO GENERAL IMMUNITY FROM PROSECUTION."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pás, ne body — scénář netvrdí nic o jednotlivých zemích.",
+      "diagram_generator": "svet",
+      "diagram": "Stupnice: široký ztlumený pás EUROPE přes celou délku, od ALMOST NOTHING po ARREST & PROSECUTION.",
+      "pause": 1.2
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "„Goes further“ = dál než USA/UK.",
+      "diagram_generator": "svet",
+      "diagram": "Stupnice: značka CZECH REPUBLIC ambrově dál ke konci FULL, s poznámkou VOTES & SPEECHES TOO.",
+      "pause": 0.5
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Česká druhá vrstva = brána, kterou otevírá komora. Brána se vrací S42–S47 a S55.",
+      "diagram_generator": "cesko",
+      "diagram": "PÁTEŘ: ve dveřích místo závory BRÁNA se zámkem, venku PROSECUTOR, štítek CONSENT OF THE CHAMBER."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Pruh mandátu kreslí jedna funkce, vrací se v S49.",
+      "diagram_generator": "cesko",
+      "diagram": "Týž obraz, u prokurátora výčet ANY CRIME (i nesouvisející s parlamentem), pod tím pruh mandátu BLOCKED UNTIL THE MANDATE ENDS."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Čárkovaně = vymyšlené, ne doložené.",
+      "diagram_generator": "cesko",
+      "diagram": "PÁTEŘ: venku GOVERNMENT s čárkovaným spisem INVENTED CHARGES, uvnitř OPPOSITION LEADER."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Argument PRO bránu.",
+      "diagram_generator": "cesko",
+      "diagram": "Týž obraz, šipka přes POLICE · PROSECUTORS, brána zavřená, ambrově THE CHAMBER'S VOTE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Problém brány. Neutrálně, bez jmen.",
+      "diagram_generator": "cesko",
+      "diagram": "PÁTEŘ: brána, klíč od ní drží lavice uvnitř; ambrově WHO DECIDES? POLITICIANS.",
+      "pause": 2.6
+    },
+    {
+      "id": "S40",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: [4] „Andrej Babiš 2025 (cropped)“, CC0 — neutrální formální portrét, nic od soudu (zpětná vazba storyboard). Portrét: fit 0.84, žádný zoom.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Andrej Babiš",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 4
+      }
+    },
+    {
+      "id": "S41",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S41.png",
+      "note": "PICK Z KONTAKTNÍHO LISTU: [0] budova Čapí hnízdo v Olbramovicích (CC BY-SA 3.0, 5184×3456) — neutrální dokumentární snímek místa. Pomalý pohyb ven.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Čapí hnízdo",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Čárkovaně = tvrzení obžaloby, ne fakt. Obraz nesmí tvrdit víc než „prosecutors say“.",
+      "diagram_generator": "kauza",
+      "diagram": "Tok: EU FUNDS FOR SMALL BUSINESSES → ~€2 MILLION → STORK'S NEST. Nad tím PROSECUTORS SAY, čárkovaně. Dole BABIŠ DENIES ANY WRONGDOING."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Stejná brána jako S35.",
+      "diagram_generator": "kauza",
+      "diagram": "PÁTEŘ + brána (CZECH LOWER HOUSE): pod ní tři otevření 2017 ✓ 2018 ✓ 2022 ✓."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Dvě stejné dvojice, žádná interpretace.",
+      "diagram_generator": "kauza",
+      "diagram": "Časová osa soudu: ACQUITTED → OVERTURNED, ACQUITTED → OVERTURNED."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "NEPSAT jen GUILTY — byl by to verdikt, který scénář netvrdí (factcheck S46→S45).",
+      "diagram_generator": "kauza",
+      "diagram": "Osa pokračuje: JUNE 2025 — APPEAL COURT: FIND BOTH GUILTY ON THE EVIDENCE HEARD (závazný pokyn, ne rozsudek).",
+      "pause": 1.2
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Počet křesel factcheck neověřoval → v obraze žádné číslo.",
+      "diagram_generator": "kauza",
+      "diagram": "PÁTEŘ: OCTOBER 2025, lavice přebarvené, ambrově HIS COALITION: MAJORITY. Bez počtu mandátů."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Čísla assertem proti factchecku.",
+      "diagram_generator": "kauza",
+      "diagram": "Brána ZAVŘENÁ, u ní hlasování 104 AGAINST · 81 FOR · 1 ABSTAINED, MARCH 2026.",
+      "pause": 0.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Hlídat, aby škrt nečetl jako „vinen“.",
+      "diagram_generator": "kauza",
+      "diagram": "Karta VERDICT přeškrtnutá čárou (text_skrtnuty), pod tím NOT INNOCENT · NOT GUILTY — NO VERDICT."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "",
+      "diagram_generator": "kauza",
+      "diagram": "Pruh mandátu z S36: případ PAUSED po celou dobu, na konci RESUMES.",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Srovnání — obě brány stejnou funkcí, stejné měřítko.",
+      "diagram_generator": "srovnani",
+      "diagram": "Dvě páteře vedle sebe zmenšené: vlevo CZECH LOWER HOUSE, vpravo EUROPEAN PARLIAMENT, mezi nimi jeden spis STORK'S NEST."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Bez portrétu Nagyové — nepotřebuje ho a licence by byla navíc.",
+      "diagram_generator": "srovnani",
+      "diagram": "Týž obraz, ve spisu dvě jména: BABIŠ a JANA NAGYOVÁ (FORMER AIDE)."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "",
+      "diagram_generator": "srovnani",
+      "diagram": "Pravá brána (EP) OTEVŘENÁ, APRIL 2025: IMMUNITY LIFTED."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Rozdělení až po českém hlasování (factcheck S54→S53).",
+      "diagram_generator": "srovnani",
+      "diagram": "Spis se rozdělí: NAGYOVÁ prochází pravou bránou dál, BABIŠ čeká u levé zavřené. Štítek MARCH 2026: CASES SPLIT."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Čísla assertem.",
+      "diagram_generator": "srovnani",
+      "diagram": "Výsledek na pravé straně: MAY 2026 GUILTY — SUBSIDY FRAUD · 3 YEARS SUSPENDED · CZK 500,000 (~€20,000) · AUGUST: UPHELD.",
+      "pause": 0.5
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Obraz nesmí naznačit, jak by jeho případ dopadl.",
+      "diagram_generator": "srovnani",
+      "diagram": "Levá strana: u Babišova spisu čárkovaný otazník, ztlumeně NO ANSWER.",
+      "pause": 0.5
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Hlavní výplata videa.",
+      "diagram_generator": "srovnani",
+      "diagram": "Obě brány vedle sebe: EP YES (otevřená) / CZ NO (zavřená). Nahoře SAME CASE. TWO PARLIAMENTS.",
+      "pause": 3.0
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S57.png",
+      "note": "Klidový předěl před závěrem po hutném bloku čísel. Původně sdxl; herní PC nebylo dostupné, kresbu dodal uživatel z ChatGPT (2026-09-30), původ v art/PUVOD.md. První verze zamítnuta jako fotorealistická. slow_zoom_in: ilustrace se hýbe, diagram ne.",
+      "pause": 1.4,
+      "diagram_generator": "zaver",
+      "diagram": "Hotová kresba art/S57.png přes celý obraz: prázdná jednací síň, lavice k předsednickému křeslu, šikmé světlo."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Odpověď na titul — první druh imunity.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ: závora ve dveřích, venku THE POWERFUL · THE GOVERNMENT, uvnitř VOTE AGAINST THEM.",
+      "pause": 0.5
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz: závora plná ambrově EASY TO DEFEND, za ní čárkovaně štít kolem postavy THE HARD PART.",
+      "pause": 0.5
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Tři otázky pod sebou: NOTHING TO DO WITH PARLIAMENT — STILL PROTECTED? · FOR HOW LONG? · WHO DECIDES?",
+      "pause": 2.4
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Callback prologu, táž funkce prah(), táž poloha.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ v geometrii S01, ztlumeně: král ve dveřích, štítek 1642."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Callback S39/S47.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ: česká brána, klíč u lavic, štítek STORK'S NEST."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "ZAČÁTEK ZÁVĚREČNÉHO OKNA (odhad; ověří zaver_check po TTS): horní polovina volná pro prvky YouTube.",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka WHAT EXACTLY SHOULD IT PROTECT? v DOLNÍ polovině, horní prázdná."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Závěrečné okno — horní polovina prázdná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole tři položky YOUR VOTE? · YOUR SPEECH? · YOUR RIGHT TO OPPOSE? "
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Závěrečné okno.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole ambrově OR YOURSELF… ACCUSED OF AN ORDINARY CRIME?"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Závěrečné okno.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole dva sloupce FREE TO DECIDE | ANSWER TO THE LAW."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Poslední deska: jediné místo, kde se páteř smí pohnout (zmenšit dolů). Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole zmenšená PÁTEŘ, ambrově jen práh (čára stěny) — THE LINE.",
+      "pause": 3.0
+    }
+  ]
+}

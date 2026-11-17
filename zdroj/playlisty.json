@@ -1,0 +1,302 @@
+{
+ "_": "Playlisty kanálu There's More To It. Zdroj pravdy pro tools/playlisty.py.",
+ "_poradi": "Pořadí videí v seznamu je pořadí v playlistu. PRVNÍ určuje miniaturu celého playlistu, takže tam patří video s prokázaným CTR. POZOR: tools/playlisty.py pořadí NEMĚNÍ — už vložené video nechává, kde leží, a cizí položku nemaže. Změna pořadí i vyřazení videa se dnes musí naklikat ve Studiu; totéž platí pro POPIS, ten se zapisuje jen při zakládání playlistu.",
+ "_pinterest": "Klíč „pinterest“ = jméno nástěnky na Pinterestu, která playlist zrcadlí (od 2026-10-17). Short jde na nástěnku playlistu svého rodiče; je-li rodič ve víc playlistech, na tu nejmenší (nejužší téma). Čte ji tools/pinterest.py, tools/playlisty.py ji ignoruje.",
+ "_ctr": "CTR v komentářích níž je z analytics/2026-09-18 (celé období, 4. 8. až 15. 9. 2026). Slouží jen k volbě PRVNÍHO videa, jinde se podle něj neřadí.",
+ "playlisty": [
+  {
+   "klic": "legacy",
+   "pinterest": "Legacy Tech",
+   "titul": "Legacy Tech — The Old Systems Still Running Everything",
+   "popis": "\"But it works\" is the most popular argument in IT, and it isn't wrong — it's just incomplete. Old software, old networks and old standards don't disappear; they end up holding up things nobody wants to touch. From 2G on a lift wall to Internet Explorer 6, from a 5 MB disk to the Linux you already use without knowing, to the code inside your own cells.",
+   "videa": [
+    "018-why-is-2g-still-everywhere",
+    "019-why-upgrade-something-that-works",
+    "017-the-browser-that-became-a-platform",
+    "028-ie6-the-bugs-that-had-names",
+    "039-the-browser-that-wouldnt-die",
+    "045-why-did-internet-explorer-stop",
+    "046-why-do-some-people-hate-windows",
+    "053-why-are-there-so-many-bugs-in-windows",
+    "066-why-is-software-still-so-full-of-bugs",
+    "059-why-cant-windows-delete-a-file-in-use",
+    "062-why-doesnt-windows-have-proper-tools",
+    "076-how-did-windows-win-without-inventing-the-gui",
+    "047-how-did-5mb-become-terabytes",
+    "033-you-probably-use-linux-already",
+    "133-why-hasnt-big-tech-replaced-linus-torvalds",
+    "030-is-your-body-legacy-code",
+    "079-why-is-this-90-year-old-airplane-still-flying",
+    "131-why-is-the-b-52-still-flying-70-years-later",
+    "090-why-hasnt-streaming-killed-tv",
+    "098-why-do-drones-fly-on-a-wire",
+    "102-why-doesnt-america-use-the-metric-system",
+    "119-why-do-we-still-change-the-clocks",
+    "089-why-can-you-still-buy-a-phone-with-a-keyboard",
+    "122-why-do-banks-still-run-on-60-year-old-code",
+    "128-how-did-a-160-character-message-become-a-gold-mine",
+    "129-why-are-iphone-texts-to-android-still-green",
+    "149-why-does-windows-only-have-one-desktop"
+   ]
+  },
+  {
+   "klic": "fyzika",
+   "pinterest": "Science & Physics",
+   "titul": "Physics That Sounds Simple Until You Ask",
+   "popis": "Questions with answers everybody assumes they know. What is a radio wave travelling through? What happens at the far end of a steel rod when you push it? What is time made of? None of them turn out to be simple.",
+   "videa": [
+    "008-what-is-time-actually",
+    "040-does-the-past-still-exist",
+    "001-what-is-a-wave-waving",
+    "015-how-fast-does-a-steel-rod-move",
+    "021-could-we-turn-off-inertia",
+    "027-what-would-teleportation-take",
+    "035-can-we-reach-another-star",
+    "086-why-did-a-blue-flash-kill-a-scientist",
+    "104-how-can-a-floating-bridge-carry-a-tank",
+    "113-what-would-the-world-look-like-from-a-fourth-dimension",
+    "114-why-havent-we-found-a-fourth-dimension",
+    "127-what-would-a-spoonful-of-a-neutron-star-do",
+    "154-how-does-your-clock-set-itself",
+    "159-why-cant-entanglement-send-messages"
+   ]
+  },
+  {
+   "klic": "lide",
+   "pinterest": "Psychology & Human Behavior",
+   "titul": "Why We Do What We Do",
+   "popis": "Habits, hobbies and beliefs that look irrational from the outside and make perfect sense from the inside — mushroom hunting, astrology, games you can't put down, and the stories we tell about hackers.",
+   "videa": [
+    "007-why-do-people-go-mushroom-hunting",
+    "005-why-do-we-believe-in-astrology",
+    "011-why-is-it-so-hard-to-quit-some-games",
+    "054-why-does-the-most-important-player-do-almost-nothing-in-mmos",
+    "003-why-is-modern-music-so-simple",
+    "023-does-a-terminal-make-you-a-hacker",
+    "034-the-dunning-kruger-effect",
+    "057-why-do-we-believe-before-we-check",
+    "058-how-do-you-sell-a-mystery",
+    "068-why-do-people-still-believe-in-god",
+    "073-what-would-it-take-to-prove-god",
+    "085-if-god-exists-what-is-god",
+    "135-where-did-the-idea-of-hell-come-from",
+    "146-what-can-a-hypnotist-actually-make-you-do",
+    "147-why-cant-you-stop-scrolling",
+    "152-why-do-humans-keep-inventing-drugs"
+   ]
+  },
+  {
+   "klic": "spolecnost",
+   "pinterest": "Society, Politics & Economics",
+   "titul": "How Society Actually Runs",
+   "popis": "Who decides, who pays and who enforces it. Rules, money and institutions that feel permanent, traced back to the moment somebody had to invent them.",
+   "videa": [
+    "041-what-if-9-11-never-happened",
+    "025-how-does-a-war-economy-work",
+    "050-how-does-a-dictatorship-become-a-democracy",
+    "020-who-runs-the-earth",
+    "077-what-makes-a-state-a-state",
+    "016-where-did-health-insurance-come-from",
+    "004-disinformation-then-and-now",
+    "026-does-copyright-hold-back-progress",
+    "036-what-gdp-doesnt-tell-you",
+    "038-can-you-sell-what-you-dont-own",
+    "044-when-programmers-stop-programming",
+    "052-why-would-canada-join-the-european-union",
+    "055-why-do-some-people-hate-apple",
+    "057-why-do-we-believe-before-we-check",
+    "060-what-happens-to-game-of-thrones-if-martin-never-finishes",
+    "063-why-do-people-keep-voting-for-populists",
+    "064-who-decides-whats-mens-and-womens",
+    "065-who-will-own-mars",
+    "072-how-many-genders-are-there",
+    "080-why-are-there-suddenly-so-many-trans-people",
+    "081-how-do-you-know-youre-trans",
+    "082-why-do-trans-people-change-their-bodies",
+    "083-why-is-it-so-hard-to-be-trans",
+    "084-when-does-society-become-the-problem",
+    "074-why-do-politicians-have-immunity",
+    "099-who-keeps-lending-money-to-governments",
+    "100-why-would-preparing-for-war-keep-the-peace",
+    "101-what-is-the-internet-really-optimizing-for",
+    "103-why-build-a-radio-you-cant-tune",
+    "115-what-happens-when-your-allies-stop-trusting-you",
+    "116-why-does-russia-keep-choosing-confrontation",
+    "117-what-would-it-take-for-russia-to-change",
+    "118-who-really-shot-down-mh17",
+    "150-why-cant-governments-quit-microsoft"
+   ]
+  },
+  {
+   "klic": "mysli",
+   "pinterest": "Aliens, Minds & Machines",
+   "titul": "Other Minds — Aliens, Telepathy and Machines",
+   "popis": "Could something else be thinking, and would we ever know? Brain-to-brain communication, machine consciousness, and what would actually happen the day a signal arrives.",
+   "videa": [
+    "029-what-if-we-detected-aliens",
+    "009-if-our-brains-could-do-telepathy",
+    "032-the-fermi-paradox-may-not-exist",
+    "022-can-ai-have-consciousness"
+   ]
+  },
+  {
+   "klic": "ai",
+   "pinterest": "Artificial Intelligence",
+   "titul": "AI — Where It Came From and What It's Doing to Us",
+   "popis": "AI did not start with ChatGPT, and the interesting questions are older than the hype. How long people have been building it, whether there is anything it is like to be one, and what happens to a job once the machine can do the typing.",
+   "videa": [
+    "044-when-programmers-stop-programming",
+    "042-ai-didnt-start-with-chatgpt",
+    "022-can-ai-have-consciousness",
+    "096-what-happens-when-ai-stops-being-a-tool",
+    "097-why-would-a-smart-ai-help-a-criminal",
+    "126-why-do-we-still-write-code",
+    "148-what-happens-to-open-source-when-ai-can-find-every-bug"
+   ]
+  },
+  {
+   "klic": "telo",
+   "pinterest": "Health & the Human Body",
+   "titul": "Your Body, and How Long It Lasts",
+   "popis": "Why elephants don't get cancer, why we can't simply stop ageing, what dying is from the inside, and why the whole thing reads like a codebase nobody dares refactor.",
+   "videa": [
+    "031-what-does-death-feel-like",
+    "013-why-dont-elephants-get-cancer",
+    "010-why-we-may-not-live-forever",
+    "051-why-do-we-actually-need-exercise",
+    "030-is-your-body-legacy-code",
+    "134-why-cant-you-read-your-own-bodys-logs",
+    "105-what-really-happens-after-16-hours-without-food"
+   ]
+  },
+  {
+   "klic": "energie",
+   "pinterest": "Energy",
+   "titul": "Energy — Where It Comes From and What It Costs",
+   "popis": "Fuel, batteries and heat, and the awkward questions underneath them. What a plane does with a hundred tonnes of kerosene it isn't allowed to land with, what a refinery actually does to crude oil, and why a battery that powers a phone for years can also set a bin lorry on fire.",
+   "videa": [
+    "002-where-does-jet-fuel-go",
+    "037-how-oil-becomes-petrol",
+    "049-what-makes-a-battery-catch-fire"
+   ]
+  },
+  {
+   "klic": "bezne",
+   "pinterest": "Everyday Science Questions",
+   "titul": "Ordinary Things, Awkward Questions",
+   "popis": "Everyday things with a strange answer behind them: a helicopter that isn't one, the order of words you never chose, what counts as a vegetable, where microplastics really come from, and a map that has been lying to you since school.",
+   "videa": [
+    "024-why-is-vegetable-just-tomatoes-and-cucumbers",
+    "014-the-helicopter-that-isnt",
+    "006-which-is-better-red-car-or-car-red",
+    "012-where-do-microplastics-come-from",
+    "075-how-do-you-make-microplastics",
+    "033-you-probably-use-linux-already",
+    "041-what-if-9-11-never-happened",
+    "043-maps-are-lying",
+    "048-why-are-some-languages-complicated",
+    "047-how-did-5mb-become-terabytes",
+    "051-why-do-we-actually-need-exercise",
+    "002-where-does-jet-fuel-go",
+    "056-why-does-your-computer-ignore-you-when-its-busy",
+    "059-why-cant-windows-delete-a-file-in-use",
+    "062-why-doesnt-windows-have-proper-tools",
+    "055-why-do-some-people-hate-apple",
+    "061-why-do-humans-smell",
+    "064-who-decides-whats-mens-and-womens",
+    "072-how-many-genders-are-there",
+    "080-why-are-there-suddenly-so-many-trans-people",
+    "081-how-do-you-know-youre-trans",
+    "082-why-do-trans-people-change-their-bodies",
+    "083-why-is-it-so-hard-to-be-trans",
+    "084-when-does-society-become-the-problem",
+    "078-what-do-you-actually-buy-when-you-subscribe",
+    "095-how-would-passengers-land-an-airliner",
+    "153-why-is-flying-so-safe-now",
+    "120-what-if-everyone-on-earth-owned-a-car",
+    "132-we-built-flying-cars-so-why-dont-we-use-them"
+   ]
+  },
+  {
+   "klic": "vesmir",
+   "pinterest": "Space & Astronomy",
+   "titul": "Space — Getting There, and Who Else Is Out There",
+   "popis": "What it actually takes to leave the ground, and what's waiting once you do. A working satellite built from parts you can order, who gets to own Mars, whether we could ever reach another star, what would happen the day a signal arrives, and why the silence overhead may not be the paradox it looks like.",
+   "videa": [
+    "067-could-you-build-your-own-satellite",
+    "065-who-will-own-mars",
+    "035-can-we-reach-another-star",
+    "029-what-if-we-detected-aliens",
+    "032-the-fermi-paradox-may-not-exist",
+    "109-why-did-europe-build-telescopes-in-chile",
+    "110-how-did-voyager-send-pictures-home",
+    "111-what-would-it-take-to-travel-faster-than-light",
+    "112-why-cant-we-travel-faster-than-light",
+    "125-why-is-getting-to-orbit-so-hard",
+    "127-what-would-a-spoonful-of-a-neutron-star-do",
+    "069-what-does-zero-gravity-actually-feel-like",
+    "070-how-do-we-find-exoplanets"
+   ]
+  },
+  {
+   "klic": "jazyky",
+   "pinterest": "Languages & Linguistics",
+   "titul": "Languages — Why We Speak the Way We Do",
+   "popis": "Why some languages look complicated and others look simple, what tiny words like \"the\" actually do, and how ordinary words slowly turn into grammar. Explainers about the languages we use every day without thinking about how they work.",
+   "videa": [
+    "087-what-would-english-sound-like-without-articles",
+    "088-why-is-computer-stuff-called-that",
+    "048-why-are-some-languages-complicated",
+    "106-why-does-english-need-do"
+   ]
+  },
+  {
+   "klic": "zeme",
+   "pinterest": "Planet Earth & Climate",
+   "titul": "Planet Earth — What We're Doing to It",
+   "popis": "What we leave in the ground, the sea and the air doesn't stay where we put it. Plastic that breaks into pieces too small to see, and frozen ground in the Arctic that is starting to thaw — what is actually changing, how we know, and which part of it is the real problem.",
+   "videa": [
+    "107-what-happens-when-the-world-thaws",
+    "012-where-do-microplastics-come-from",
+    "075-how-do-you-make-microplastics"
+   ]
+  },
+  {
+   "klic": "pocitace",
+   "pinterest": "Computers & Software",
+   "titul": "Inside Your Computer — Why It Behaves the Way It Does",
+   "popis": "Why your computer ignores you when it's busy, why it won't delete a file that's in use, why software is still full of bugs, how ARM took over, why computer stuff is called what it is, and why no computer can predict every deadlock. What actually happens underneath the screen.",
+   "videa": [
+    "056-why-does-your-computer-ignore-you-when-its-busy",
+    "059-why-cant-windows-delete-a-file-in-use",
+    "066-why-is-software-still-so-full-of-bugs",
+    "093-how-did-arm-take-over-computing",
+    "088-why-is-computer-stuff-called-that",
+    "108-why-computers-cant-always-detect-deadlocks",
+    "121-how-did-a-music-cassette-store-a-computer-game",
+    "130-how-did-8-bit-computers-load-games-faster",
+    "155-why-do-data-centres-still-use-tape",
+    "156-why-cant-one-program-take-over-your-computer",
+    "124-why-does-a-new-disk-need-formatting",
+    "157-how-can-you-recover-data-that-never-arrived",
+    "158-why-cant-we-compress-everything"
+   ]
+  },
+  {
+   "klic": "trans",
+   "titul": "Trans People — The Questions Behind the Debate",
+   "popis": "A series about transgender people that starts from the questions many people ask but rarely say out loud. Why there suddenly seem to be so many trans people, how someone knows they're trans, why some trans people change their bodies, why it is so hard to be trans, and when society becomes the problem. Calm explainers about what is known, what isn't, and what it is like for the people the debate is about.",
+   "videa": [
+    "080-why-are-there-suddenly-so-many-trans-people",
+    "081-how-do-you-know-youre-trans",
+    "082-why-do-trans-people-change-their-bodies",
+    "083-why-is-it-so-hard-to-be-trans",
+    "084-when-does-society-become-the-problem"
+   ]
+  }
+ ],
+ "_odlozeno": "ALTERNATIVNÍ HISTORIE — odloženo 2026-09-11, znovu posouzeno 2026-09-18. Playlist by dnes měl pořád JEN 041 (What If 9/11 Never Happened), a playlist o jednom videu neobslouží těch 27 % diváků, kvůli kterým playlisty jsou. NOVĚ ale platí, že se to odblokuje samo: v Témata.ods jsou čtyři nezpracovaná témata označená 'ah' (Heron a průmyslová revoluce, Svět bez ropy, Svět bez linuxu, Zázrak pro oceány – bez odpadů od 1950). Jakmile vyjde DRUHÉ, založit úzký playlist 'What If —' s 041 na prvním místě (CTR 3,28 %, nejlepší z kandidátů). Do té doby 041 bydlí v 'spolecnost', ne v 'bezne' — pod hlavičkou 'Ordinary Things' ta nálepka lhala.",
+ "_odlozeno_jazyk": "JAZYK A SLOVA — zvažováno 2026-09-18, odloženo. Hotová jsou dvě videa (048 Why Are Some Languages So Complicated, 006 Why Do Most Languages Put the Noun First) a v zásobníku leží 'Reforma anglického pravopisu'. Při dvou videích je to slabší než nechat je v 'bezne'; po třetím založit a obě přesunout.",
+ "_odlozeno_vesmir": "VESMÍR — ZALOŽENO 2026-09-28 jako playlist 'vesmir' (035 Proxima, 065 Mars, 067 satelit; 029 aliens a 032 Fermi jsou v něm i v 'mysli' duálně). Původně odloženo 2026-09-18, protože 029/032 jsou páteří 'mysli' — vyřešeno duálním členstvím, playlisty.py jen přidává, takže se z 'mysli' neztratily. 067 je zatím první (miniatura), ale nové/neveřejné a bez CTR; po zveřejnění zvážit přeřazení proven-CTR videa na první místo (jen ve Studiu).",
+ "_prerusteni": "FYZIKA PŘEROSTE. Dnes 7 videí, ale v zásobníku je jedenáct fyzikálních témat (Pátá základní síla, Slabá interakce a tunelování, Kvantová nejistota, Jaderná hmota, Why Does Time Only Move Forward, Why Is There Something Instead of Nothing, What Is Space Actually, Is Empty Space Really Empty, What Is Reality Made Of, Does the Universe Have an Edge, Cestování rychleji než světlo). Až jich bude přes patnáct, rozdělit na 'What Is Reality Made Of' (podstata: čas, prostor, hmota, síly) a 'Getting Off This Planet' (cestování, vzdálenosti, raketová rovnice). Rozdělit dřív, než tam bude dvacet položek — přeskládání hotového playlistu se dnes musí klikat ručně. Totéž hlídej u 'telo' (7 témat v zásobníku: transplantace hlavy, anestezie, vzteklina, alkohol, detekce rakoviny, co je smrad, mořská nemoc)."
+}

@@ -1,0 +1,683 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `retez()`: vlevo postava (uživatel), uprostřed čip AI, šipka od člověka k čipu; nad čipem bublina THIS IS A CRIME",
+      "note": "První scéna nese myšlenku, ne atmosféru: AI ví, že jde o zločin. Zavádí páteř (S02–S04, S13–S15, S33, S36, S47, S48, S53, v závěru S65, S67). Žádné SDXL."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "páteř; nad čipem checklist s fajfkami: ILLEGAL / SOMEONE COULD GET HURT",
+      "note": "„It understands… It knows… It knows“ = tři fajfky vědění.",
+      "pause": 0.4
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "páteř; od čipu šipka k výsledku DONE ambrově, bublina zmizí",
+      "note": "„helps you anyway“ — teprve teď přibude výsledek. Pauza krátká, S04 navazuje otázkou.",
+      "pause": 1.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "páteř jako S03 (DONE ambrově), nad čipem velký ambrový otazník",
+      "note": "Samotné „Why?“ — oddělené od zbytku, aby za ním byla pauza (uživatel po draftu 1).",
+      "pause": 1.0
+    },
+    {
+      "id": "S04b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04b.png",
+      "diagram_generator": "uvod",
+      "diagram": "páteř ztlumená; nad čipem ČÁRKOVANÁ bublina “THIS IS WRONG. I WON'T DO IT.”",
+      "note": "Čárkovaně = odmítnutí, které nepřijde (konvence 3). Bublina výš a nižší než v draftu 1."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "dva rámečky INTELLIGENCE ≠ CONSCIENCE, druhý ambrově",
+      "note": "Teze videa v jednom obraze.",
+      "pause": 1.6
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "okno chatu: bublina uživatele WRITE A SCAM EMAIL, odpověď AI ambrově: NO.",
+      "note": "„The AI you use every day“ — obecný chat, žádné logo ani jméno produktu (konvence 6).",
+      "pause": 0.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "čip s plným pásem LIMITS ambrově; vlevo postava trenéra se šipkou K PÁSU; štítek TRAINED IN",
+      "note": "Pás LIMITS = natrénované „no“. Šipka míří od člověka (Somebody trained it in) k pásu.",
+      "pause": 0.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "dva čipy vedle sebe: vlevo s plným pásem LIMITS, vpravo s ČÁRKOVANÝM prázdným pásem; popisky TRAINED IN / LEFT OUT",
+      "note": "Rým s S52 (SHODAN): tentýž prázdný pás. Konec bloku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "worm",
+      "diagram": "karta inzerátu na fóru: WormGPT, FOR SALE, nad ní SUMMER 2023 · A HACKER FORUM",
+      "note": "Konkrétní doklad do 1:10 (CLAUDE.md „začni platit“). Karta bez loga fóra."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "worm",
+      "diagram": "táž karta doplněná řádky NO ETHICAL LIMITS / FOR SCAM EMAILS / ≈ €60 A MONTH",
+      "note": "Čísla z factchecku (~60 €/měs.)."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "worm",
+      "diagram": "karta WormGPT ztlumeně vlevo, vpravo nová karta FraudGPT ambrově, mezi nimi WITHIN WEEKS",
+      "note": ""
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "worm",
+      "diagram": "obě karty vedle sebe, pod nimi štítek WORKING AS BUILT",
+      "note": "„Neither of them had turned evil“ — žádná ďábelská symbolika, jen „fungují, jak byly postavené“.",
+      "pause": 1.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "worm",
+      "diagram": "páteř; pod čipem dvě řádky: KNOWS IT'S A CRIME ✓ / CARES — (čárkovaný prázdný rámeček)",
+      "note": "Understanding ≠ motivation: vědění je plné, zájem čárkovaně prázdný."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "worm",
+      "diagram": "páteř; postava ambrově s popiskem THE USER: A CRIMINAL; nad čipem karta příkazu “HELP THE USER REACH THEIR GOAL AS EFFECTIVELY AS POSSIBLE”",
+      "note": "Úmysl přichází zleva, od člověka (konvence 2)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "worm",
+      "diagram": "páteř celá: člověk → AI → výsledek; mezi AI a výsledkem ČÁRKOVANÁ značka STOP přeškrtnutá — nic ho nezastaví",
+      "note": "MUSÍ být static — S15b z ní dědí obraz. Levý horní roh volný kvůli nápisu CTA."
+    },
+    {
+      "id": "S15b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "cta": true,
+      "note": "CTA podle docs/cta.md: dědí obraz S15, static. ~1:45, za blokem WormGPT.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "asimov",
+      "diagram": "čip s cedulkou pravidla “DO NOT HURT PEOPLE.” ambrově nad ním",
+      "note": "„So why not just give AI a rule?“",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Isaac Asimov",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "note": "Isaac Asimov, foto Phillip Leonian 1965 (New York World-Telegram & Sun), public domain. Portrét: fit 0.84, static, bez zoomu. PICK 0 ZKONTROLOVÁN OKEM 2026-10-08 (hlava celá, s odstupem)."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "asimov",
+      "diagram": "MOTIV `zakony()`: tři zákony pod sebou, první ambrově, další dva ztlumeně",
+      "note": "Znění je zkrácená parafráze, plné znění říká voiceover (factcheck)."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "asimov",
+      "diagram": "tři zákony, druhý ambrově, ostatní ztlumeně",
+      "note": ""
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "asimov",
+      "diagram": "tři zákony, třetí ambrově, ostatní ztlumeně",
+      "note": ""
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "asimov",
+      "diagram": "tři zákony, všechny plně, žádný ambrově",
+      "note": "",
+      "pause": 0.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "asimov",
+      "diagram": "tři zákony; MEZERY mezi nimi vyznačené ambrově čárkovaně",
+      "note": "„stories explore the gaps between the laws“ — rozsvítí se mezera, ne zákon."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "asimov",
+      "diagram": "Merkur: tečka robota obíhá kruh kolem selenového jezírka; šipka dovnitř LAW 2: GO GET IT, šipka ven LAW 3: DANGER",
+      "note": "Runaround: Speedy krouží, protože 2. a 3. zákon táhnou stejně silně. Šipky STEJNĚ dlouhé (assert)."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "asimov",
+      "diagram": "tři zákony jako nádoba; ze spodní mezery kape ambrová kapka, štítek THE PLOT",
+      "note": "„the plot is the leak“. Konec bloku, ale S25 začíná „Because“ → pauza střední.",
+      "pause": 0.8
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "harm",
+      "diagram": "velký nápis HARM s ambrovým otazníkem",
+      "note": ""
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "harm",
+      "diagram": "silnice shora: auto, před ním překážka, uhýbací dráha čárkovaně směrem k chodci",
+      "note": "Čárkovaně = možnost, ne to, co auto udělá."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "harm",
+      "diagram": "rozcestí: vlevo jedna postava, vpravo pět postav, auto na rozcestí, otazník",
+      "note": "One vs five; počty postav assert."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "harm",
+      "diagram": "vlevo řádek kódu `if harm: stop()` neproporcionálním písmem, vpravo velká spleť PHILOSOPHY ambrově",
+      "note": "Konec bloku „co je harm“.",
+      "pause": 1.2
+    },
+    {
+      "id": "S29",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S29.png",
+      "prompt": "long row of server racks in a dark data centre, small status lights glowing, cables overhead, deep perspective, nobody present",
+      "note": "Předěl „real computer system“, první SDXL až ~3:40. Žádný text na stojanech — při pseudotextu jiný seed."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "harm",
+      "diagram": "stoh vrstev počítače; nahoře přeškrtnutá čárkovaná bublina “THIS WILL HURT SOMEONE.”",
+      "note": "Na nejnižší úrovni tahle věta neexistuje."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "harm",
+      "diagram": "sloupec operací neproporcionálním písmem: run program / send data / change file / connect to server",
+      "note": "Výčet = čtyři řádky, assert."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "harm",
+      "diagram": "tytéž operace ztlumeně, kolem nich rámeček CONTEXT, u něj ambrově WHO IS ASKING? / WHY?",
+      "note": "Pauza zkrácena, blok pokračuje S32b–d (Asimov a nízká úroveň).",
+      "pause": 1.0
+    },
+    {
+      "id": "S32b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32b.png",
+      "diagram_generator": "harm",
+      "diagram": "MOTIV `zakony()`: tři zákony, první ambrově, další ztlumeně; vlevo nahoře nápis INSIDE THE POSITRONIC BRAIN",
+      "note": "Návrat k zákonům: u Asimova jsou součástí návrhu mozku (factcheck v0.5).",
+      "pause": 0.5
+    },
+    {
+      "id": "S32c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32c.png",
+      "diagram_generator": "harm",
+      "diagram": "vlevo ztlumeně sloupec operací z S31; vpravo nahoře karta 1. zákona, od ní dolů k operacím čárkovaná spojnice přeškrtnutá",
+      "note": "Pravidlo o škodě se do nejnižší úrovně nedostane — škrtá se SPOJENÍ, ne zákon."
+    },
+    {
+      "id": "S32d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32d.png",
+      "diagram_generator": "harm",
+      "diagram": "smyčka: karta 1. zákona → čip AI → karta WHAT COUNTS AS HARM? (ambrově) → zpět do zákona; uprostřed popisek THE SAME INTELLIGENCE",
+      "note": "Pravidlo závisí na úsudku téže inteligence, kterou má hlídat. Konec bloku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "prikaz",
+      "diagram": "páteř; nad čipem karta příkazu “FIND A WEAKNESS IN THIS SERVER.”; místo postavy ztlumeně",
+      "note": "Příkaz sám, bez toho, kdo ho dává."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "prikaz",
+      "diagram": "dva řetězy nad sebou (zmenšené, mimo registr): výzkumník → stejná karta → FIX IT; útočník → stejná karta → USE IT",
+      "note": "Karta příkazu je v obou řádcích bit po bitu stejná (tatáž funkce). Útočník NENÍ ambrový jen proto, že je útočník."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "prikaz",
+      "diagram": "totéž; mezi kartami ambrové =, mezi postavami a výsledky ≠",
+      "note": "„The words are identical. The difference is the intention.“"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "prikaz",
+      "diagram": "páteř; postava nahrazena otazníkem, karta příkazu nad čipem; šipka od člověka čárkovaně",
+      "note": "Úmysl v příkazu není — stroj vidí jen kartu.",
+      "pause": 2.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "bus",
+      "diagram": "MOTIV `autobus()`: autobus uprostřed, vpravo tři cíle SCHOOL / WORK / AWAY FROM A CRIME",
+      "note": "Tři cíle jako tři štítky, žádný ambrový — teprve S38 řekne, na kom to stojí."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "bus",
+      "diagram": "autobus, hlava řidiče ambrově, štítek THE DRIVER'S RESPONSIBILITY",
+      "note": "",
+      "pause": 0.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "bus",
+      "diagram": "autobus, na místě řidiče malý ambrový čip",
+      "note": "„a strange kind of bus“"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "bus",
+      "diagram": "autobus ztlumeně; checklist přeškrtnutý: PLANS / LOOKS FOR ALTERNATIVES / READS THE SITUATION",
+      "note": "Čeho autobus NEUMÍ — škrt po řádcích přes text (text_skrtnuty)."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "bus",
+      "diagram": "mapa: start a cíl s vlaječkou, ambrová trasa, kterou si AI našla, čárkovaně odmítnuté alternativy",
+      "note": "„it finds its own route“. Konec bloku.",
+      "pause": 1.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "zprava",
+      "diagram": "karta zdroje: ANTHROPIC · THREAT INTELLIGENCE REPORTS / the company behind Claude / how its models get misused",
+      "note": "Jen nápis, žádné logo (konvence 6). Obecně o zprávách, konkrétní přijde v S43."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "zprava",
+      "diagram": "mřížka 42 terčů, 14 ambrově; nahoře SEPTEMBER 2026 · ONE HACKTIVIST; vpravo 42 TARGETS / IN AT LEAST 14",
+      "note": "Čísla 42 a 14 z factchecku, assert."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "zprava",
+      "diagram": "čip uprostřed, šipky k třem rámečkům: A NEW WAY INTO WEBSITES / THE TOOLS / A DATA-EXPOSURE PLATFORM",
+      "note": "Šipky od AI k práci (AI ji dodala)."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "zprava",
+      "diagram": "smyčka: MALWARE → CAUGHT → REBUILT → … a výstup GOT THROUGH ambrově",
+      "note": "GTG-20006: agenti sami přestavovali malware, „until it was undetected“."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "zprava",
+      "diagram": "vlevo ztlumeně tým šesti postav A YEAR EARLIER, vpravo jedna postava + čip NOW",
+      "note": "Postavy rozestavené `rozestup_postav()`.",
+      "pause": 0.6
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "zprava",
+      "diagram": "páteř; postava ambrově, pod ní CHOOSING THE TARGETS / WHAT TO DO WITH THE RESULTS",
+      "note": "Co si lidé nechali — doslovně ze zprávy (target selection, monetization, review)."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "zprava",
+      "diagram": "páteř; pod čipem LABOUR, pod postavou INTENT ambrově; šipka od člověka ambrově",
+      "note": "Klíčová věta videa. Pauza dlouhá, ale S49 začíná „Which is why“ → ne přes 2,2.",
+      "pause": 2.2
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "skynet",
+      "diagram": "páteř ztlumená, nad ní velká čárkovaná šipka „nebezpečí“ míří na čip, ne na člověka",
+      "note": "„our usual picture… pointing the wrong way“ — čárkovaná, protože je to ten mylný obraz."
+    },
+    {
+      "id": "S50",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S50.png",
+      "prompt": "vast dark machine hall with a single large amber light slowly awakening at its centre, cables spreading like roots across the floor, ominous stillness, nobody present",
+      "note": "Skynet jako obecná představa „stroj se probouzí“ — žádný Terminator ani logo (konvence 6).",
+      "pause": 0.4
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "skynet",
+      "diagram": "čip s nápisem SHODAN, pod ním SYSTEM SHOCK · 1994; vpravo tři štítky OWN WILL / OWN GOALS / CONTEMPT FOR HUMANS",
+      "note": "Žádná tvář SHODAN (autorské právo, konvence 6), jen čip a nápis."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "skynet",
+      "diagram": "týž čip SHODAN s ČÁRKOVANÝM prázdným pásem; vedle vytažený pás LIMITS, postava hackera s šipkou od pásu pryč",
+      "note": "Rým s S08: tentýž prázdný pás. Šipka od hackera (podmět: a hacker stripped out)."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "skynet",
+      "diagram": "páteř; postava ambrově, od ní ambrová šipka s kartou GOALS do čipu",
+      "note": "„Someone else can provide them.“ Konec bloku.",
+      "pause": 1.8
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "moralka",
+      "diagram": "dva nápisy pod sebou: CAN WE TEACH AI MORALITY? ztlumeně, WHOSE MORALITY? ambrově",
+      "note": "Ne škrt — první otázka neplatí „takhle“, ne „vůbec“."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "moralka",
+      "diagram": "karta MORAL MACHINE · MIT · 2018; pod ní auto na rozcestí a 200+ COUNTRIES AND TERRITORIES",
+      "note": "Factcheck: 233 zemí a území → scénář „over two hundred“."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "moralka",
+      "diagram": "≈ 40 MILLION DECISIONS velkým; pod ním tři shluky teček různě nakloněné vahy",
+      "note": "Shluky = kulturní rozdíly (Western/Eastern/Southern ve studii); bez jmen, scénář je nejmenuje."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "moralka",
+      "diagram": "malé auto na rozcestí uprostřed prázdna, ONE QUESTION · ONE CAR",
+      "note": "",
+      "pause": 1.2
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "moralka",
+      "diagram": "čip uprostřed, kolem sedm štítků se šipkami k čipu: LAW, PRIVACY, SECURITY, FREEDOM, THE USER, THE COMPANY, THE GOVERNMENT",
+      "note": "Sedm vlivů, assert proti výčtu ve scénáři."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "moralka",
+      "diagram": "totéž; mezi dvojicemi štítků ambrové blesky střetu",
+      "note": "„What happens when they conflict?“ Pauza 1,5 s → tts.py použije obětovanou větu proti schwě na „conflict“ (uživatel po draftu 1).",
+      "pause": 1.5
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "moralka",
+      "diagram": "dvousloupcová tabulka ALWAYS GOOD / ALWAYS BAD s čárkovanými prázdnými řádky",
+      "note": "Žádný krátký seznam neexistuje — tabulka zůstane prázdná. Konec bloku, S61 začíná „So“.",
+      "pause": 1.6
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "zaver",
+      "diagram": "čip s čárkovanou svatozáří PERFECT CONSCIENCE? a přesýpacími hodinami",
+      "note": "Čekání na dokonalé svědomí."
+    },
+    {
+      "id": "S62",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S62.png",
+      "prompt": "control room of a power station, long consoles with switches and gauges, large windows onto turbines, soft light, orderly, nobody present",
+      "note": "„the way we build other powerful things“ — elektrárna je mocná věc s velínem, zámky a vypínačem."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "zaver",
+      "diagram": "čip v ohrazeném rámečku; vlevo checklist: LIMITED PERMISSIONS / ACCESS CONTROLS / PEOPLE WHO CAN SEE / A WAY TO STOP IT / WHO GAVE IT ITS POWERS",
+      "note": "Pět položek, assert."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "zaver",
+      "diagram": "čip uvnitř hranice; mnoho šipek schopností, většina končí na hranici, pár projde",
+      "note": "„can't do everything it's capable of“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "zaver",
+      "diagram": "páteř posunutá do DOLNÍ poloviny: místo postavy ambrový otazník, popisek WHO'S HOLDING IT?",
+      "note": "Závěrečné okno 20 s: horní polovina volná. Krátká pauza — S66 začíná „Because“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "zaver",
+      "diagram": "dolní polovina: čip s čárkovanou bublinou “I'VE DECIDED TO BECOME EVIL.” ztlumeně",
+      "note": "Hypotéza, kterou video odmítá → čárkovaně. Horní polovina volná."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "zaver",
+      "diagram": "dolní polovina: páteř posunutá, postava ambrově, pod čipem VERY GOOD AT HELPING; šipka od člověka ambrově",
+      "note": "Závěrečná deska, horní polovina volná pro koncovou obrazovku.",
+      "pause": 3.0
+    }
+  ]
+}

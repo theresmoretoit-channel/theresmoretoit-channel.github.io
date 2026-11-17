@@ -1,0 +1,727 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S01.png",
+   "note": "Hook. Zámerne DÍLNA, ne nemocnice — video mluví o údržbě, ne o léčbě. Žádné tělo, žádný mozek; ty přijdou až jako pojmy.",
+   "prompt": "a quiet workshop bench at night with a single warm lamp, worn tools laid out in a neat row, one small unfinished mechanism at the centre, deep shadow around"
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "První výskyt SEZNAMU OPRAV — vrací se v S16-S17 odškrtnutý a v S42 naposledy. Je to páteřní argument videa v jednom obraze, takže musí být zapamatovatelný.",
+   "diagram_generator": "oprava",
+   "diagram": "ČTYŘI OPRAVY jako řádky seznamu, každý s ambrovou fajfkou: DAMAGED CELLS / WORN-OUT TISSUE / DAMAGED DNA / MITOCHONDRIA. Pátý řádek CELLS MADE YOUNG AGAIN se rozsvěcí jako poslední."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Pointa hypotézy. Obrysy, ne tváře — doslovná dvojice 'starý clovek / mladý clovek' je právě ten generický záběr, kterému se vyhýbáme.",
+   "diagram_generator": "oprava",
+   "diagram": "dvě postavy-obrysy vedle sebe, popisky AGE 80 a AGE 40, mezi nimi rovnítko; pod tím velké WE'VE SOLVED AGEING a maličké COULD WE LIVE FOREVER?"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Obrat. Nekreslí se mozek, kreslí se MÍSTO, kde argument selže.",
+   "diagram_generator": "oprava",
+   "diagram": "týž obraz jako S03, ale ztlumený; přes něj se rozsvítí jediný ambrový uzel v místě hlavy, popisek THE BRAIN"
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "Prvni nahlednuti cisla. POZOR: krivka NEklesa u 156 k nule - protina tam padesat procent, protoze 156 je MEDIAN. Kdyby padala k nule, obraz by tvrdil pravy opak toho, co scenar o tri minuty pozdeji opravi v S33. A prazdne osy divak cte jako rozbity graf, takze krivka je v obraze od prvniho snimku. Slovo 'limit' se v S05 NEPOUZIVA (ani ve scenari, ani v titulku): 156 je median, kdezto 'limit' je v te studii pojem, ne to cislo - tataz past jako u slova 'maximum'. Navic S06 hned nato limit zpochybnuje, takze by to slovo padlo dvakrat za sebou.",
+   "diagram_generator": "model",
+   "diagram": "krivka preziti: drzi se u sta procent, pak klesa a protne padesat procent u znacky 156. Osa X 0 / 50 / 100 / 156 / 200 let, osa Y v procentech. Nahore cedulka MODEL, ne DATA."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Rozcestník. Divák má vědět, kam jdeme.",
+   "diagram_generator": "oprava",
+   "diagram": "dvě otázky pod sebou, obě ambrové: IS THAT A HARD LIMIT? a WHY WOULD THE BRAIN BE THE PROBLEM?",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Základ. Jednoduchý kruh, aby měl na čem stavět pruhový diagram v S08.",
+   "diagram_generator": "obnova",
+   "diagram": "cyklus tří uzlů: buňka -> zaniká -> nová buňka, šipky dokola"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Druhý páteřní obraz. Vrací se v S21 (co jde a nejde vyměnit), v S27 (pruh mozku utíká mimo obraz) a v S38 (srdce + mozek). Čísla jsou doložená ve factcheck.md.",
+   "diagram_generator": "obnova",
+   "diagram": "PRUHOVÝ DIAGRAM OBNOVY: tři vodorovné pruhy s délkou = doba obnovy. GUT LINING 3-5 days (nejkratší), SKIN ~40 days, BLOOD CELLS ~120 days. Osa dole ve dnech, logaritmická."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Zlom kapitoly. Stejná grafika, jiné čtení — proto se nekreslí nový obraz.",
+   "diagram_generator": "obnova",
+   "diagram": "týž pruhový diagram, přes něj ambrové THE REPAIR PROCESS ISN'T PERFECT"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "Protějšek seznamu oprav z S02. Záměrně stejné rozvržení — v S16 se pak jeden překryje druhým a divák to pozná bez vysvětlování.",
+   "diagram_generator": "poskozeni",
+   "diagram": "SEZNAM POŠKOZENÍ, tři řádky se rozsvěcují: DNA DAMAGE / WORN MITOCHONDRIA / WASTE BUILD-UP"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Senescentní buňka je 'nefunguje, ale neumřela' — ten rozdíl musí být vidět tvarem, ne popiskem.",
+   "diagram_generator": "poskozeni",
+   "diagram": "týž seznam + čtvrtý řádek SENESCENT CELLS; vedle malý obrázek: řada uzlů, jeden je šedý a s křížkem, ale pořád na svém místě"
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Poslední položka seznamu. Přepínače jsou nejlevnější způsob, jak ukázat 'zapínání a vypínání' bez biologické ilustrace.",
+   "diagram_generator": "poskozeni",
+   "diagram": "týž seznam + pátý řádek EPIGENETIC CHANGES; vedle přepínače genů ON/OFF, dva jsou přehozené"
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Analogie s OS. Že je to TÁŽ tabulka jako o tři scény dřív, dělá analogii viditelnou — proto se nekreslí počítač, ale tentýž seznam v jiném kabátě.",
+   "diagram_generator": "poskozeni",
+   "diagram": "totéž rozvržení překreslené jako okno operačního systému: seznam procesů, u tří varovný trojúhelník. Titulek STILL WORKS."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "Hromadění. Změna proti S13 musí být čitelná na první pohled.",
+   "diagram_generator": "poskozeni",
+   "diagram": "totéž okno, o dva roky starší: víc varování, dva řádky přeškrtnuté, indikátor spolehlivosti klesá"
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Scénář sám analogii relativizuje, obraz to musí udělat taky — vlnovka místo rovnítka je celá pointa scény.",
+   "diagram_generator": "poskozeni",
+   "diagram": "vedle sebe okno OS a pruhový diagram obnovy z S08, mezi nimi vlnovka (přibližně se rovná), ne rovnítko. Popisek NOT THE SAME THING",
+   "pause": 2.2
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Tady se vyplácí, že seznam existuje od S10 — odškrtávání je pohyb bez animace.",
+   "diagram_generator": "udrzba",
+   "diagram": "SEZNAM POŠKOZENÍ z S10-S12, první dvě položky se odškrtávají ambrovou fajfkou: SENESCENT CELLS ✓ / DNA DAMAGE ✓"
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Hypotéza dotažená do konce. Vizuálně je to nejuspokojivější snímek videa — a právě proto z něj bude pád o pár scén dál fungovat.",
+   "diagram_generator": "udrzba",
+   "diagram": "týž seznam, odškrtnuto všech pět: + MITOCHONDRIA ✓ / STEM CELLS ✓ / EPIGENETIC CHANGES ✓"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Rozdíl mezi léčbou a údržbou. Obě křivky v obraze od prvního snímku.",
+   "diagram_generator": "udrzba",
+   "diagram": "dvě křivky zdraví v čase: DETERIORATE THEN REPAIR (klesá, pak skok vzhůru) proti MAINTAIN CONTINUOUSLY (skoro vodorovná)"
+  },
+  {
+   "id": "S19",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S19.png",
+   "note": "Jediný doslovný obraz kapitoly, a je to metafora, ne tělo. Navazuje na dílnu z S01 — má to být tatáž místnost.",
+   "prompt": "an old machine on a workshop stand being serviced, panels open, parts laid out in order on a clean cloth, single warm lamp above, calm and unhurried, no people"
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Konec bloku o údržbě. Otázka na konci je most do druhé třetiny videa.",
+   "diagram_generator": "udrzba",
+   "diagram": "servisní list stroje: REPLACE WORN PARTS ✓ / REPAIR DAMAGE ✓ / KEEP EVERYTHING WORKING ✓; pod ním otázka SO WHY NOT A HUMAN?",
+   "pause": 2.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Návrat pruhů. Dutý pruh je zatím bezejmenný — jméno dostane až v S22. Pozor: paleta videa nemá zelenou, takže rozdíl nese plný vs. dutý pruh, ne barva.",
+   "diagram_generator": "obnova",
+   "diagram": "pruhový diagram z S08 doplněný: pruhy GUT / SKIN / BLOOD sevřené svorkou s popiskem EASY, pod nimi dutý pruh bez jména, který utíká za okraj, popisek NOT SO EASY"
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "Číslo je doložené (Azevedo 2009, 86,1 ± 8,1 mld., n=4) — viz factcheck.md. Nekreslit 86 miliard bodů, to je nečitelné i nepravdivé.",
+   "diagram_generator": "sit",
+   "diagram": "šedý pruh z S21 dostane popisek NEURONS; vedle číslo 86 000 000 000 vysázené velkými číslicemi, pod ním NEURONS"
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Nejdůležitější obraz celého videa a musí říct jednu věc: informace je v HRANÁCH, ne v uzlech. Vrací se v S26, S47-S51 a S53-S54, pokaždé s touž geometrií, aby ji divák poznal. Proto se kreslí z pevného seedu, ne náhodně pokaždé jinak.",
+   "diagram_generator": "sit",
+   "diagram": "PÁTEŘNÍ OBRAZ VIDEA: síť ~40 uzlů a hran. Uzly matné, HRANY ambrové a zřetelně silnější. Popisek u uzlů NEURONS, u hran SYNAPSES."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "Výčet ze scénáře přímo na hranách. Popisky jsou nutné — zpětná vazba z 3. videa: abstraktní tvar bez legendy neříká nic.",
+   "diagram_generator": "sit",
+   "diagram": "táž síť, ve čtyřech místech vyzdvižené shluky hran s popisky MEMORIES / SKILLS / PERSONALITY / WHAT YOU'VE LEARNED"
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Jádro argumentu. Rozdíl musí být vidět na HRANÁCH — když divák uvidí jen jiný puntík, scéna nic neřekla.",
+   "diagram_generator": "sit",
+   "diagram": "vlevo kožní buňka: uzel se vymění, nic se nestane. Vpravo týž zákrok na síti: vymění se uzel a tři hrany vedou jinam. Popisky RELATIVELY SIMPLE / A VERY BIG DEAL."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Konec bloku. Duch původního tvaru je nutný, jinak není proti čemu měřit změnu.",
+   "diagram_generator": "sit",
+   "diagram": "táž síť po výměně mnoha uzlů: obrys sítě je znatelně jiný. Vedle bledý duch původního tvaru pro srovnání. Popisek A DIFFERENT STRUCTURE.",
+   "pause": 2.2
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Vyplacená investice do jednoho diagramu. Pruh utíkající z obrazu řekne 'neurony se nevyměňují' líp než věta.",
+   "diagram_generator": "obnova",
+   "diagram": "pruhový diagram potřetí: GUT 3-5 days, SKIN ~40, BLOOD ~120 — a pruh NEURONS, který pokračuje za pravý okraj obrazu, popisek DECADES"
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "Setup. 'Remarkably good, but not perfect' — poměr musí být zjevně nepoměrný, jedna chyba z mnoha.",
+   "diagram_generator": "mutace",
+   "diagram": "buňka s opravným mechanismem: přicházející chyby, většina odchycená ambrovou fajfkou, jedna projde"
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Celý argument o somatických mutacích v jednom obraze. Stejná rychlost kapání je důležitá — nejde o horší buňku, jde o delší čas.",
+   "diagram_generator": "mutace",
+   "diagram": "dvě nádoby vedle sebe, do obou kape stejnou rychlostí: A FEW MONTHS je skoro prázdná, 150 YEARS je plná"
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Most k odhalení čísla.",
+   "diagram_generator": "mutace",
+   "diagram": "plná nádoba překročí rysku, popisek ENOUGH DAMAGE TO MATTER; dole se rozsvítí 156",
+   "pause": 2.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Zadání modelu. Prázdné místo je jediná scéna, kde smí něco chybět — je to otázka, ne rozbitý graf.",
+   "diagram_generator": "model",
+   "diagram": "otázka modelu vysázená jako zadání: REMOVE MOST CAUSES OF AGEING. WHAT'S LEFT? Pod tím prázdné místo na odpověď."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Odhalení. Táž křivka jako v S05, takže divák pozná, že se vrátil na začátek s odpovědí.",
+   "diagram_generator": "model",
+   "diagram": "křivka přežití z S05 znovu, teď s ambrovou svislicí v 156 a popiskem MEDIAN LIFESPAN. Cedulka MODEL nahoře pořád."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "Nejjemnejsi misto videa. POZOR na past, na kterou jsem naletel pri navrhu: median NENI dve stejne plochy pod krivkou preziti - spocitano, pomer je 18,4 : 1. Median je tam, kde krivka protne padesat procent POPULACE, takze se deli osa Y, ne plocha. Napis IN THE MODEL nesmi z obrazu zmizet.",
+   "diagram_generator": "model",
+   "diagram": "taz krivka, vodorovna cara v padesati procentech protina krivku presne nad znackou 156; svisla osa rozdelena na dva stejne vysoke pasy po 50 %, oba popsane. Nahore MEDIAN, NOT MAXIMUM a IN THE MODEL."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "Výhrada, kterou měl scénář od uživatele a je jeho nejsilnější místo. Přerušovaná část je 'neprokazuje, že se nedá žít déle'.",
+   "diagram_generator": "model",
+   "diagram": "táž křivka, přes ni přeškrtnutá ikona odpočtu s popiskem NOT A TIMER; vpravo křivka pokračuje přerušovaně za 156"
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Poctivost. Malé písmo je záměr — je to poznámka pod čarou, ne titulek.",
+   "diagram_generator": "model",
+   "diagram": "seznam předpokladů modelu jako patka dokumentu: ASSUMPTIONS, pod tím tři řádky drobným písmem, poslední ...",
+   "pause": 2.2
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Uživatelův zkrácený text. Krátká scéna, tak jí odpovídá jeden nápis.",
+   "diagram_generator": "model",
+   "diagram": "jediná velká otázka na prázdném poli: WHAT IF WE FIX ALMOST EVERYTHING ELSE?"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "NEJSILNEJSI SNIMEK VIDEA: vsechno odskrtnute, jeden radek zustane. Kreslí se kanonickych pet z S16/S17, ne formulace z S02 - v S02 scenar slova senescent ani epigenetic jeste nepouzil, takze tam ma seznam vlastni, drivejsi zneni. Layout je stejny, aby se dvojice cetla jako tyz seznam.",
+   "diagram_generator": "udrzba",
+   "diagram": "SEZNAM OPRAV z S02/S17 s pěti fajfkami, pod ním šestý řádek bez fajfky: THE INFORMATION INSIDE"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Doložené proti primárnímu zdroji: paper jmenuje neurony A kardiomyocyty. Bez srdce by obraz tvrdil o studii něco, co v ní není.",
+   "diagram_generator": "obnova",
+   "diagram": "pruhový diagram naposledy, zbyly dva pruhy mimo stupnici: HEART a BRAIN, popisek POST-MITOTIC"
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Kreslit pumpu, ne srdce. Schéma je přesně to tvrzení scénáře — funkce, ne kus masa.",
+   "diagram_generator": "dvetkane",
+   "diagram": "vlevo srdce nakreslené jako pumpa (schéma, ne orgán): vstup, výstup, popisek A PUMP. Šipka: vyměnit za identickou pumpu, LOSE NOTHING."
+  },
+  {
+   "id": "S39b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39b.png",
+   "note": "Doklad k tvrzeni, ze srdce je vymenitelne: uz se to stalo. Kresli se PLOCHA CARA misto EKG - to je to prekvapive, ne pumpa. Externi jednotka je KABELEM, ne radiem; scenar proto rika 'set from outside the body', ne 'remote control'.",
+   "diagram_generator": "dvetkane",
+   "diagram": "schema pumpy z S39, vedle nej plocha cara tam, kde by bylo EKG, popisek NO PULSE; vpravo externi jednotka s otackami, spojena kabelem, popisek SPEED SET FROM OUTSIDE"
+  },
+  {
+   "id": "S39c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39c.png",
+   "note": "Poctivost: byly to tydny az mesice a slo o most k transplantaci. Cisla jsou dolozena ve factcheck.md. Pointa je posledni radek - obeh sel udrzet a clovek zustal sam sebou, coz je presne ten rozdil, na kterem stoji S40.",
+   "diagram_generator": "dvetkane",
+   "diagram": "vodorovna osa ve tydnech s dvema vyznacenymi rozsahy (tydny / mesice), pod ni popisek A BRIDGE, NOT A CURE; dole velke THEY WERE STILL THEMSELVES"
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "TEZE CELÉHO VIDEA. Nejdelší pauza za scénou, ať to má kam dosednout.",
+   "diagram_generator": "dvetkane",
+   "diagram": "vpravo síť z S23; pokus vyměnit ji za 'novou' síť s jinými hranami. Popisek REPLACING THE PART MEANS REPLACING THE INFORMATION.",
+   "pause": 2.8
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Hypotéza se opakuje o patro výš — týž seznam, jiný nadpis.",
+   "diagram_generator": "udrzba",
+   "diagram": "seznam oprav ještě jednou, teď nadepsaný INSIDE EVERY NEURON: DNA ✓ / PROTEINS ✓ / MITOCHONDRIA ✓"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Přechod k identitě. Nezaškrtnutý řádek je otázka, na které stojí zbytek videa.",
+   "diagram_generator": "udrzba",
+   "diagram": "týž seznam s dovětkem BIOLOGICALLY YOUNG ✓, a pod ním šedý řádek STILL THE SAME YOU? bez fajfky"
+  },
+  {
+   "id": "S43",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S43.png",
+   "note": "Otázka 'co vlastně znamená opravit mozek' jako PRÁZDNÝ VERPÁNEK. Doslovný mozek by byl přesně ten generický záběr, kterému se vyhýbáme — a navíc je v negativu.",
+   "prompt": "an empty workbench under a single warm lamp, tools arranged and ready, nothing on the bench to work on, quiet dark workshop around"
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Setup lodi Théseus přes počítač, jak to má scénář. Data musí být viditelně oddělená od součástky.",
+   "diagram_generator": "theseus",
+   "diagram": "deska počítače, jeden tranzistor se vymění, datový blok vedle zůstane beze změny. Popisky COMPONENT / DATA."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Druhý stupeň. Zatím pořád platí, že data přežijí.",
+   "diagram_generator": "theseus",
+   "diagram": "výměna celého disku za identickou kopii, data zůstávají"
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Zlom. Ukazatel v procentech je nutný, jinak není poznat, že jde o postupnost.",
+   "diagram_generator": "theseus",
+   "diagram": "postupná výměna všech součástek: deska se přebarvuje zleva doprava, pod tím ubývající ORIGINAL HARDWARE 100% -> 0%. Otázka SAME COMPUTER?",
+   "pause": 2.4
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "Ten dovětek v obraze je záměrný: bez 'a different' by závěr 'none would remain' byl nepravdivý (0,99^100 = 36,6 %). Viz factcheck.md.",
+   "diagram_generator": "sit",
+   "diagram": "síť z S23, jedno procento uzlů obarvené jinak, popisek YEAR 1 — 1%. Pod tím drobně A DIFFERENT ONE PERCENT EACH YEAR."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Rozdíl proti S25 je celý smysl scény — tam hrany vedly jinam, tady sedí. Hrany se musí překrývat, ne jen podobat.",
+   "diagram_generator": "sit",
+   "diagram": "detail výměny: nový uzel dosedá PŘESNĚ na staré hrany. Popisky SAME FUNCTION / SAME CONNECTIONS / SAME INFORMATION."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Vizuální jádro Théseovy lodi. Že hrany zůstaly, je odpověď, kterou scénář nabízí — obraz ji řekne dřív než vypravěčka.",
+   "diagram_generator": "sit",
+   "diagram": "táž síť po sto krocích: všechny uzly obarvené, HRANY BEZE ZMĚNY. Ukazatel ORIGINAL NEURONS 0%."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Klidná scéna. Žádná nová grafika, jen otázka nad známým obrazem.",
+   "diagram_generator": "sit",
+   "diagram": "táž síť, otázka STILL THE SAME PERSON? a pod ní tichá odpověď MOST WOULD SAY YES"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "SDXL to netrefil DVAKRAT (mlzna krajina misto nepretrzite stuhy), takze podle pravidla projektu scena patri jinam - kreslena. Spojitost je beztak snaz ukazat carou bez sevu nez atmosferou, a diagram navic pripravi kontrast pro S52, kde je tyz prechod jednim skokem.",
+   "diagram_generator": "theseus",
+   "diagram": "sto drobnych kroku v jedne nepretrzite rade, nikde mezera; pod tim zvetseny vyrez, ktery ukazuje, ze ani zblizka zadny sev neni. Popisek THERE WAS NEVER A MOMENT."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Nejostřejší myšlenkový experiment videa. Obě strany musí končit IDENTICKÝM obrázkem, jinak scéna nefunguje.",
+   "diagram_generator": "sit",
+   "diagram": "vlevo výměna po krocích se stovkou dílků, vpravo táž výměna jedním skokem. Výsledek totožný, cesta jiná. Popisek ONE HUNDRED YEARS / ONE SECOND.",
+   "pause": 2.6
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Kopie musí být zjevně TÁŽ geometrie. Kdyby se lišila, scéna klade jinou otázku.",
+   "diagram_generator": "kopie",
+   "diagram": "síť z S23 a vedle ní její dokonalá kopie, hrana po hraně stejná. Popisky YOU / THE COPY."
+  },
+  {
+   "id": "S54",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S54.png",
+   "note": "Emoční vrchol videa. Siluety, žádné tváře — model tváře kazí a scéna je stejně o tom, že jsou nerozlišitelné.",
+   "prompt": "two identical dark silhouettes of one standing person seen from the side, facing each other across a narrow gap in the centre, lit from behind by one pale glow, empty dark interior, symmetrical composition, no faces, no other people",
+   "seed": 990318
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Předěl videa. Odsud jde scénář jinam a obraz to má oznámit.",
+   "diagram_generator": "kopie",
+   "diagram": "obě sítě vedle sebe, mezi nimi otazník; pod tím se z popisku BIOLOGY přepíše na PERSONAL IDENTITY",
+   "pause": 2.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Zavedení dvojice, která nese poslední třetinu videa. Vyšrafovaná část je to, o čem je celý zbytek.",
+   "diagram_generator": "healthspan",
+   "diagram": "dva pruhy pod sebou: LIFESPAN (dlouhý, konec vybledlý) a HEALTHSPAN (kratší, plný). Rozdíl mezi nimi vyšrafovaný."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "note": "Scénář se tu vzdává nesmrtelnosti. Škrtnutí to řekne rychleji než věta.",
+   "diagram_generator": "healthspan",
+   "diagram": "táž dvojice, přeškrtnuté cíle 1000 YEARS a 200 YEARS"
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Postupné odkrývání jedné osy — proto jeden generátor na S58 i S59.",
+   "diagram_generator": "healthspan",
+   "diagram": "vodorovná osa života se značkami 40 a 50, u obou ambrová fajfka a popisky STILL CAPABLE / STILL HEALTHY"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Vyvrcholení výčtu. Osa musí být od S58 stejná, jinak se ztratí, že to roste.",
+   "diagram_generator": "healthspan",
+   "diagram": "táž osa doplněná o 60, 70, 80 se stejnými fajfkami: STILL ACTIVE / STILL INDEPENDENT / STILL LIVING YOUR OWN LIFE"
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "note": "Pointa kapitoly. Pozor: ve scénáři tu bylo slovo 'maximum' a uživatel ho škrtl, aby se nevracela terminologie od 156 — v obraze ho taky nepoužívat.",
+   "diagram_generator": "healthspan",
+   "diagram": "HEALTHSPAN pruh se natáhne skoro až na konec LIFESPAN pruhu; vyšrafovaná část skoro zmizí",
+   "pause": 2.2
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Nosný graf kapitoly. Vrací se v S65 s třetí čarou — proto se zavádí čistě.",
+   "diagram_generator": "zkusenost",
+   "diagram": "dvě křivky na jedné ose věku: ENERGY klesá, EXPERIENCE roste. Obě v obraze od začátku."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Cteni grafu v jednom bode. Popisek zmirnen se scenarem 2026-08-30: 'no idea what they're doing' bylo drsne a hlavne MENE PRESNE - argument videa je, ze se zkusenost teprve nabira.",
+   "diagram_generator": "zkusenost",
+   "diagram": "bod na věku 20: ENERGY vysoko, EXPERIENCE nízko. Popisek PLENTY OF ENERGY, STILL WORKING IT OUT."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Aritmetika scénáře přímo na křivce — implikuje start ve dvaceti, což scénář o dvě věty dřív sám zavádí.",
+   "diagram_generator": "zkusenost",
+   "diagram": "body na 40 a 60 s odečtem EXPERIENCE 20 YEARS a 40 YEARS"
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Výčet. Vějíř drží vazbu na graf, aby to nebyl samostatný seznam.",
+   "diagram_generator": "zkusenost",
+   "diagram": "čtyři popisky vějířem od bodu EXPERIENCE: YOUR PROFESSION / PEOPLE / YOURSELF / BETTER DECISIONS"
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "Nejcennější obraz kapitoly: nůžky mezi zkušeností a tělem. Průsečík musí padnout viditelně do místa, kde křivka zkušenosti kulminuje.",
+   "diagram_generator": "zkusenost",
+   "diagram": "do grafu vstoupí třetí čára BIOLOGICAL HARDWARE, klesá právě tam, kde EXPERIENCE vrcholí. Průsečík zvýrazněný.",
+   "pause": 2.2
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "Uživatel tuhle kapitolu zkrátil ze čtyř scén na tři, protože otevírala nové téma. Vizuál to musí respektovat — jedna osa, žádná demografie.",
+   "diagram_generator": "zkusenost",
+   "diagram": "vodorovná osa dospělosti s bloky STUDY / CAREER / FIGURING IT OUT, zabírají celé dvacátníky a třicátníky"
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Dvě osy pod sebou. Nekreslit hodiny ani odpočet — to už bylo v S34.",
+   "diagram_generator": "zkusenost",
+   "diagram": "pod touž osou druhá, kratší: BIOLOGY. Končí dřív než blok FIGURING IT OUT. Rozdíl označený."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "Pointa kapitoly a je to POŘADÍ, ne délka — bloky se musí dát přerovnat, jinak obraz říká zase jen 'delší život'.",
+   "diagram_generator": "zkusenost",
+   "diagram": "osa BIOLOGY se natáhne pod celou osu života; bloky nahoře se dají přeskládat. Popisek FREEDOM OVER THE ORDER OF OUR LIVES.",
+   "pause": 2.6
+  },
+  {
+   "id": "S69",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S69.png",
+   "note": "Otevření závěru. Prázdný horizont je 'možná to není svět nesmrtelných' — nic doslovného.",
+   "prompt": "a wide quiet horizon at dusk with no landmarks, layered bands of pale light fading into one another, single faint amber line low on the horizon"
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Rozostření hranic je celý obsah scény, takže se kreslí jako přechod, ne jako tři krabice s popiskem 'blur'.",
+   "diagram_generator": "zaver",
+   "diagram": "tři ostře oddělené pruhy YOUTH / MIDDLE AGE / OLD AGE, jejich hranice se rozostřují a splývají"
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "Obrysy zase místo tváří — a je to týž jazyk jako S03, takže se závěr rýmuje s úvodem.",
+   "diagram_generator": "zaver",
+   "diagram": "dvě postavy-obrysy, obě popsané AGE 100: jedna dnešní, druhá vzpřímená; mezi nimi NOT THE SAME THING"
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Návrat páteřního grafu potřetí. Čára za 156 je přerušovaná, protože je to hypotéza, ne výsledek modelu — obraz nesmí tvrdit víc než scénář.",
+   "diagram_generator": "model",
+   "diagram": "křivka přežití naposledy: svislice v 156 zešedne a křivka pokračuje přerušovaně dál. Popisek IF WE LEARN TO REPAIR THE BRAIN."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "'Číslo závisí na tom, co umíme opravit.' Podstavec ze seznamu váže závěr zpět na S02, S17 a S37.",
+   "diagram_generator": "zaver",
+   "diagram": "číslo 156 stojí na podstavci složeném z položek seznamu oprav; když se jedna položka odškrtne, podstavec se posune"
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "note": "Abstraktní metafora, ne tři historické případy — rozhodl uživatel 2026-08-29. Kdyby tu byly konkrétní 'nepřekonatelné meze', obraz by dělal faktickou práci, kterou scénář nedělá, a fact check by se musel rozšířit o něco, co pro argument není potřeba. Zábrany se posouvají, takže třetí (zatím celá) je právě ta, o které si dnes myslíme, že je konečná.",
+   "diagram_generator": "zaver",
+   "diagram": "řetěz LIMIT -> prasklina -> LIMIT posunutý dál -> prasklina -> LIMIT ještě dál. Tři stejné zábrany, každá další o kus vpravo; první dvě prasklé, třetí zatím celá. ŽÁDNÁ jména, roky, ikony technologií ani postavy.",
+   "pause": 2.4
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "note": "Jednovetna scena koncici uvozovkou a po ni dlouha pauza. Slovo 'live' na KONCI vety cetlo Kokoro jako pridavne jmeno (/lajv/) - namereno na hotove nahravce: 0,42 s proti 0,12-0,16 s uprostred vety. Prepsano na 'life last', ktere heteronym neni.",
+   "diagram_generator": "zaver",
+   "diagram": "otazka sama na tmavem poli: HOW LONG CAN A HUMAN LIFE LAST?",
+   "pause": 2.6
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "note": "Převrácení otázky. Musí to být TÁŽ sazba jako S75, jinak se ztratí, že se mění jen jedno slovo. Platí i tady poznámka o schwě.",
+   "diagram_generator": "zaver",
+   "diagram": "táž sazba, LONG přeškrtnuté a nahrazené: HOW LONG CAN WE KEEP A HUMAN BEING HUMAN?",
+   "pause": 2.8
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "note": "Konec. Páteřní obraz videa se vrací potichu — a podpis kanálu se použije, protože tady sedí.",
+   "diagram_generator": "zaver",
+   "diagram": "síť z S23 naposledy, klidná, beze změn; pod ní drobně THERE'S MORE TO IT"
+  }
+ ]
+}

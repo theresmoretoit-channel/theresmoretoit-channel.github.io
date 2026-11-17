@@ -1,0 +1,807 @@
+1
+00:00:00,000 --> 00:00:02,180
+Here's every script
+ever written for this channel.
+
+2
+00:00:02,410 --> 00:00:08,200
+A hundred and fifty-eight videos, almost
+one and a half million bytes of text.
+
+3
+00:00:08,845 --> 00:00:12,085
+Run them through an ordinary compressor
+called gzip.
+
+4
+00:00:12,405 --> 00:00:15,065
+They come out at just
+over half a megabyte.
+
+5
+00:00:15,585 --> 00:00:17,265
+Almost two thirds gone.
+
+6
+00:00:17,626 --> 00:00:19,046
+And nothing is lost.
+
+7
+00:00:19,726 --> 00:00:23,246
+Unpack the file, and every script
+comes back, letter for letter.
+
+8
+00:00:23,953 --> 00:00:25,773
+Now compress it again.
+
+9
+00:00:26,799 --> 00:00:29,459
+It gets bigger. Ninety-eight bytes bigger.
+
+10
+00:00:30,138 --> 00:00:32,678
+A third time. Ninety-eight bytes bigger.
+
+11
+00:00:33,398 --> 00:00:35,378
+A fourth. Ninety-eight again.
+
+12
+00:00:35,975 --> 00:00:38,335
+The first round throws away two thirds.
+
+13
+00:00:39,095 --> 00:00:41,135
+The second finds nothing at all.
+
+14
+00:00:41,275 --> 00:00:43,655
+So why can't we just keep compressing?
+
+15
+00:00:46,065 --> 00:00:48,365
+Let's look inside that second file.
+
+16
+00:00:48,985 --> 00:00:50,945
+gzip didn't compress anything.
+
+17
+00:00:51,545 --> 00:00:55,205
+It copied the data across, unchanged,
+in sixteen blocks.
+
+18
+00:00:55,979 --> 00:00:58,279
+Each block got a five-byte label.
+
+19
+00:00:58,899 --> 00:01:01,679
+Add a small header and a footer,
+and you get exactly ninety-eight.
+
+20
+00:01:02,938 --> 00:01:05,258
+When a compressor finds nothing to remove,
+
+21
+00:01:05,498 --> 00:01:10,018
+it stores the data as it is,
+and adds only what it needs to undo it.
+
+22
+00:01:10,543 --> 00:01:14,943
+So why did the second round find nothing?
+And would a cleverer program?
+
+23
+00:01:17,596 --> 00:01:19,656
+Text like this is full of repetition.
+
+24
+00:01:20,656 --> 00:01:22,676
+The same words, the same phrases,
+
+25
+00:01:22,856 --> 00:01:25,836
+the same little scene markers
+at the top of every scene.
+
+26
+00:01:26,419 --> 00:01:31,519
+In 1977, Jacob Ziv and Abraham Lempel
+published a simple trick.
+
+27
+00:01:32,279 --> 00:01:33,919
+Don't write a repeat again.
+
+28
+00:01:34,359 --> 00:01:36,099
+Point back to where it was.
+
+29
+00:01:36,759 --> 00:01:40,119
+Go back three hundred characters,
+and copy the next twelve.
+
+30
+00:01:40,519 --> 00:01:42,679
+A few bytes instead of twelve.
+
+31
+00:01:44,743 --> 00:01:49,103
+The second trick: give common letters
+short codes, and rare ones long codes.
+
+32
+00:01:49,809 --> 00:01:54,229
+In 1951, David Huffman,
+a graduate student at MIT,
+
+33
+00:01:54,609 --> 00:01:58,329
+could take the final exam,
+or write a term paper instead.
+
+34
+00:01:59,057 --> 00:02:01,157
+The paper, set by Robert Fano,
+
+35
+00:02:01,237 --> 00:02:04,817
+was to find the most efficient code
+of exactly this kind.
+
+36
+00:02:05,489 --> 00:02:07,549
+For months, Huffman got nowhere.
+
+37
+00:02:08,089 --> 00:02:10,549
+He gave up,
+and started studying for the exam.
+
+38
+00:02:11,289 --> 00:02:12,709
+Then it came to him.
+
+39
+00:02:13,291 --> 00:02:16,231
+Take the two rarest symbols,
+join them into one,
+
+40
+00:02:16,311 --> 00:02:18,811
+and repeat until a single tree is left.
+
+41
+00:02:19,467 --> 00:02:22,807
+He later called it "the most
+singular moment of my life."
+
+42
+00:02:23,667 --> 00:02:26,967
+Fano hadn't told the class
+that he'd struggled with it himself,
+
+43
+00:02:27,307 --> 00:02:28,927
+and so had Claude Shannon.
+
+44
+00:02:29,565 --> 00:02:32,065
+Huffman's code beat both their methods.
+
+45
+00:02:32,665 --> 00:02:35,725
+And it can be proven
+that no code of its kind does better.
+
+46
+00:02:38,055 --> 00:02:42,475
+In the early 1990s, Phil Katz put
+both tricks together for ZIP files.
+
+47
+00:02:42,705 --> 00:02:46,175
+gzip uses the same method.
+
+48
+00:02:46,751 --> 00:02:51,051
+The first round already used up
+the patterns gzip knows how to find.
+
+49
+00:02:51,689 --> 00:02:53,989
+What's left gives it nothing to work with.
+
+50
+00:02:54,609 --> 00:02:56,449
+To gzip, it looks like noise.
+
+51
+00:02:58,749 --> 00:03:01,869
+But a cleverer program
+might see patterns gzip missed.
+
+52
+00:03:02,529 --> 00:03:06,009
+Could some program, someday,
+shrink anything you give it?
+
+53
+00:03:07,149 --> 00:03:07,649
+No.
+
+54
+00:03:07,729 --> 00:03:10,549
+And you don't need to know how it works
+to be sure of that.
+
+55
+00:03:11,127 --> 00:03:14,207
+Take every file
+that's exactly three bits long.
+
+56
+00:03:14,787 --> 00:03:16,187
+There are eight of them.
+
+57
+00:03:16,772 --> 00:03:18,672
+Now count everything shorter.
+
+58
+00:03:19,452 --> 00:03:22,932
+Four files of two bits,
+two of one bit, and one empty file.
+
+59
+00:03:23,569 --> 00:03:24,769
+Seven.
+
+60
+00:03:25,027 --> 00:03:28,167
+Eight files, and seven shorter places
+to put them.
+
+61
+00:03:28,428 --> 00:03:31,668
+If every one got shorter,
+two would have to share a place.
+
+62
+00:03:32,308 --> 00:03:34,768
+And when you unpack it,
+which one did you mean?
+
+63
+00:03:35,595 --> 00:03:39,455
+It's called the pigeonhole principle,
+and it holds at any length.
+
+64
+00:03:39,735 --> 00:03:42,855
+There's always one fewer shorter file
+to go around.
+
+65
+00:03:43,451 --> 00:03:45,331
+So any compressor that takes every file
+
+66
+00:03:45,561 --> 00:03:48,031
+and shrinks some of them
+has to make others bigger.
+
+67
+00:03:48,791 --> 00:03:50,751
+Not because it's badly written.
+
+68
+00:03:51,371 --> 00:03:53,491
+There's nowhere else for them to go.
+
+69
+00:03:54,332 --> 00:03:57,712
+Those ninety-eight bytes
+are how gzip pays that price.
+
+70
+00:03:58,417 --> 00:04:00,157
+Pick any compressor you like.
+
+71
+00:04:00,777 --> 00:04:03,877
+Of all files of a given size,
+it can shrink fewer than one
+
+72
+00:04:04,107 --> 00:04:06,557
+in two hundred and fifty by a single byte.
+
+73
+00:04:07,441 --> 00:04:10,621
+Compression works anyway,
+because the files we make aren't random.
+
+74
+00:04:10,851 --> 00:04:14,941
+They're text, pictures and programs,
+full of patterns.
+
+75
+00:04:16,331 --> 00:04:18,951
+That hasn't stopped people
+from promising more.
+
+76
+00:04:19,284 --> 00:04:23,784
+In 1992, WEB Technologies
+announced software that could squeeze
+
+77
+00:04:24,014 --> 00:04:26,284
+almost any data under a kilobyte.
+
+78
+00:04:26,364 --> 00:04:29,684
+Even its own output, again and again.
+
+79
+00:04:30,262 --> 00:04:31,682
+Its vice president said the method
+
+80
+00:04:31,912 --> 00:04:34,802
+was "not subject to the laws
+of information theory."
+
+81
+00:04:35,482 --> 00:04:37,162
+The product never shipped.
+
+82
+00:04:39,652 --> 00:04:42,712
+So how do photos and music
+get so much smaller?
+
+83
+00:04:43,332 --> 00:04:45,352
+They don't play by this rule at all.
+
+84
+00:04:45,737 --> 00:04:48,197
+A JPEG doesn't come back identical.
+
+85
+00:04:48,857 --> 00:04:50,557
+It comes back close enough.
+
+86
+00:04:51,197 --> 00:04:54,417
+Detail your eye won't miss
+is thrown away for good.
+
+87
+00:04:55,053 --> 00:04:57,373
+Zoom in, and you can see where it went.
+
+88
+00:04:58,093 --> 00:05:00,753
+That's lossy compression,
+and it's a different game.
+
+89
+00:05:01,533 --> 00:05:05,653
+This video is about the other kind.
+Every bit back, exactly.
+
+90
+00:05:08,403 --> 00:05:13,603
+So for files that do have patterns,
+how small can they go? Is there a bottom?
+
+91
+00:05:14,567 --> 00:05:19,667
+There is. It was found in 1948,
+in the same paper behind our video
+
+92
+00:05:19,897 --> 00:05:21,527
+on error-correcting codes.
+
+93
+00:05:22,239 --> 00:05:26,279
+There, Claude Shannon showed
+how adding redundancy protects a message.
+
+94
+00:05:26,859 --> 00:05:30,099
+Here, he worked out
+how much of it you can take away.
+
+95
+00:05:30,763 --> 00:05:36,023
+His answer was a number he called entropy:
+how hard it is to guess what comes next.
+
+96
+00:05:36,769 --> 00:05:39,709
+No lossless code can beat that number
+on average.
+
+97
+00:05:39,789 --> 00:05:42,729
+But you can get as close to it
+as you like.
+
+98
+00:05:45,009 --> 00:05:47,169
+So how unpredictable is English?
+
+99
+00:05:47,909 --> 00:05:50,869
+In 1951, Shannon measured it with a game.
+
+100
+00:05:51,528 --> 00:05:53,948
+He gave someone a passage
+they'd never seen,
+
+101
+00:05:54,028 --> 00:05:56,748
+and asked them to guess it,
+letter by letter.
+
+102
+00:05:56,977 --> 00:06:00,657
+If a guess was wrong, they guessed again,
+until they got it right.
+
+103
+00:06:01,319 --> 00:06:03,859
+People turned out to be very good at it.
+
+104
+00:06:04,559 --> 00:06:09,019
+With a hundred letters of context, English
+came out at about one bit per letter.
+
+105
+00:06:09,651 --> 00:06:12,411
+A computer stores each letter
+in eight bits.
+
+106
+00:06:13,151 --> 00:06:15,231
+A human reader needs about one.
+
+107
+00:06:15,444 --> 00:06:18,124
+That gap is the room compression works in.
+
+108
+00:06:18,784 --> 00:06:22,324
+gzip got the channel's scripts down
+to under three bits a character.
+
+109
+00:06:24,734 --> 00:06:27,394
+So how close to one bit can a machine get?
+
+110
+00:06:28,273 --> 00:06:30,373
+There's a prize for exactly that.
+
+111
+00:06:30,673 --> 00:06:33,093
+It's called the Hutter Prize,
+and since 2020,
+
+112
+00:06:33,323 --> 00:06:37,353
+the task is one file:
+a gigabyte of English Wikipedia.
+
+113
+00:06:38,205 --> 00:06:40,225
+gzip shrinks it to a third.
+
+114
+00:06:40,825 --> 00:06:43,665
+The best everyday compressors,
+to about a fifth.
+
+115
+00:06:44,362 --> 00:06:49,182
+The record, set in July 2026,
+is just over a hundred million bytes.
+
+116
+00:06:50,142 --> 00:06:51,342
+A tenth.
+
+117
+00:06:51,449 --> 00:06:53,489
+And the decompressor counts too.
+
+118
+00:06:54,229 --> 00:06:58,769
+Its size goes into the total, so you can't
+hide Wikipedia inside the program.
+
+119
+00:06:59,662 --> 00:07:02,802
+The fund is five hundred thousand euros.
+
+120
+00:07:02,882 --> 00:07:05,782
+Every one percent of improvement
+pays five thousand.
+
+121
+00:07:06,843 --> 00:07:11,123
+Marcus Hutter, who funds it, explains why:
+"being able to compress well
+
+122
+00:07:11,353 --> 00:07:14,183
+is closely related
+to acting intelligently."
+
+123
+00:07:14,447 --> 00:07:17,347
+Because the programs at the top
+don't hunt for repeats.
+
+124
+00:07:18,087 --> 00:07:19,287
+They predict.
+
+125
+00:07:19,793 --> 00:07:24,413
+Before each character, they estimate
+how likely every possible next one is.
+
+126
+00:07:25,213 --> 00:07:27,533
+A good guess costs a fraction of a bit.
+
+127
+00:07:28,189 --> 00:07:30,809
+It's Shannon's guessing game,
+played by a machine.
+
+128
+00:07:31,589 --> 00:07:35,829
+The best players now use neural networks,
+trained to predict what comes next.
+
+129
+00:07:36,565 --> 00:07:38,665
+It works even on finished files.
+
+130
+00:07:39,605 --> 00:07:44,805
+In 2016, Dropbox began re-packing
+its users' JPEGs with a better predictor.
+
+131
+00:07:45,565 --> 00:07:47,525
+On average, over a fifth smaller.
+
+132
+00:07:48,185 --> 00:07:50,925
+Every file came back bit for bit,
+and by 2017,
+
+133
+00:07:51,155 --> 00:07:54,065
+it had saved over forty-six petabytes.
+
+134
+00:07:54,605 --> 00:07:57,425
+That's over forty-six thousand terabytes.
+
+135
+00:07:59,735 --> 00:08:01,355
+Then there are the giants.
+
+136
+00:08:02,135 --> 00:08:07,335
+In 2023, researchers at DeepMind used
+a large language model as a compressor.
+
+137
+00:08:08,153 --> 00:08:11,433
+On small greyscale patches of photos,
+it beat PNG:
+
+138
+00:08:11,663 --> 00:08:15,453
+forty-eight percent of the original size
+against fifty-eight.
+
+139
+00:08:16,782 --> 00:08:21,722
+On recordings of read speech, it beat
+FLAC: twenty-one percent against thirty.
+
+140
+00:08:22,446 --> 00:08:24,406
+But that's without counting the model.
+
+141
+00:08:25,166 --> 00:08:27,146
+Add its size, and the result comes out
+
+142
+00:08:27,376 --> 00:08:29,846
+a hundred and forty times
+bigger than the data.
+
+143
+00:08:30,987 --> 00:08:34,347
+A compressor bigger than its data
+hasn't saved anything.
+
+144
+00:08:34,527 --> 00:08:37,047
+The program is part of the description.
+
+145
+00:08:39,927 --> 00:08:42,227
+And that brings us to the strangest part.
+
+146
+00:08:42,907 --> 00:08:45,147
+Here are the first million digits of pi.
+
+147
+00:08:46,083 --> 00:08:48,103
+Feed them to four compressors.
+
+148
+00:08:48,403 --> 00:08:52,903
+The best gets them down to about four
+hundred and twenty-six thousand bytes.
+
+149
+00:08:53,427 --> 00:08:56,727
+Now give the same compressors
+a million random digits.
+
+150
+00:08:57,127 --> 00:09:00,167
+The same result,
+within a tenth of a percent.
+
+151
+00:09:01,021 --> 00:09:02,781
+But pi isn't made at random.
+
+152
+00:09:03,461 --> 00:09:05,421
+It follows a mathematical rule.
+
+153
+00:09:06,141 --> 00:09:09,461
+Here's a program that prints
+every one of those million digits.
+
+154
+00:09:10,323 --> 00:09:11,893
+Three hundred and sixty-two bytes.
+
+155
+00:09:12,123 --> 00:09:15,193
+Over two thousand times
+shorter than the file.
+
+156
+00:09:16,094 --> 00:09:19,474
+The compressors couldn't see
+the mathematical rule behind pi.
+
+157
+00:09:19,954 --> 00:09:21,754
+They could only see the digits.
+
+158
+00:09:24,414 --> 00:09:27,734
+One way to measure the information
+in data is to ask:
+
+159
+00:09:27,894 --> 00:09:30,734
+how short can a program be,
+and still print it?
+
+160
+00:09:31,015 --> 00:09:33,675
+That length is called
+Kolmogorov complexity,
+
+161
+00:09:34,055 --> 00:09:36,275
+after one of the men who described it.
+
+162
+00:09:36,786 --> 00:09:39,186
+Most data has no short program.
+
+163
+00:09:39,866 --> 00:09:44,646
+It's the pigeonhole principle again: there
+aren't enough short programs to go around.
+
+164
+00:09:45,375 --> 00:09:48,735
+A million random digits
+very likely has nothing shorter.
+
+165
+00:09:49,175 --> 00:09:50,375
+Pi does.
+
+166
+00:09:51,041 --> 00:09:54,241
+So why not just find
+the shortest program for any file?
+
+167
+00:09:55,041 --> 00:09:58,861
+Because it's been proven that no algorithm
+can do that for every file.
+
+168
+00:09:59,501 --> 00:10:01,721
+Every program gives you an upper limit.
+
+169
+00:10:01,801 --> 00:10:05,521
+But nothing can always tell you
+whether a shorter one exists.
+
+170
+00:10:06,201 --> 00:10:08,301
+You never know you've reached the bottom.
+
+171
+00:10:11,321 --> 00:10:14,401
+gzip found the repeats in the scripts,
+and nothing more.
+
+172
+00:10:15,021 --> 00:10:17,441
+It sees bytes, not what the words mean.
+
+173
+00:10:18,054 --> 00:10:21,274
+To go further, a program
+has to predict them better.
+
+174
+00:10:22,074 --> 00:10:25,914
+And predicting text well starts
+to look a lot like understanding it.
+
+175
+00:10:26,429 --> 00:10:28,249
+So here's a question for you.
+
+176
+00:10:28,829 --> 00:10:31,689
+If a program could squeeze Wikipedia
+smaller than anything else,
+
+177
+00:10:31,919 --> 00:10:33,829
+would you say it understands it?
+
+178
+00:10:34,349 --> 00:10:36,039
+Leave your answer in the comments.

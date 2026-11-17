@@ -1,0 +1,777 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "Zavedení páteře. Osa i silueta LEŽÍ NA PEVNÝCH SOUŘADNICÍCH až do S83 — kdyby se posunuly, výplata v S43 a S76 se nepozná. Otazník je nad OSOU, ne nad siluetou: otázka je o tom, co je dál, ne o tom, kdo se ptá.",
+      "diagram_generator": "otazka",
+      "diagram": "PÁTEŘ SE ZAVÁDÍ: vodorovná osobní osa v OSA_Y, na ní silueta pozorovatele na značce TEĎ; vpravo osa pokračuje do prázdna a nad ní visí otazník."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Silueta v každém rámečku je celý argument videa nakreslený dopředu — divák ji zatím nemá vnímat, proto MUTED, ne ambrová. Ambrová přijde až v S09.",
+      "diagram_generator": "otazka",
+      "diagram": "Čtyři rámečky vpravo od TEĎ: tma, ticho, vznášení se v nicotě, čekání. V KAŽDÉM stojí tatáž silueta, zatím tlumeně."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Posmrtný život je ČÁRKOVANĚ, protože je to víra, ne doloženo. Ostatní čtyři jsou plné, protože jsou to popisy zážitku, ne tvrzení o světě. Rozdíl musí být vidět bez popisku.",
+      "diagram_generator": "otazka",
+      "diagram": "Pátý rámeček, ČÁRKOVANÝ (konvence: čárkovaná = hypotéza), silueta se probouzí jinde.",
+      "pause": 1.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Rovnost velikostí je tvrzení: 'sounds like a different thing' — zatím žádný z nich nemá přednost. Až S09 je spojí.",
+      "diagram_generator": "otazka",
+      "diagram": "Všech pět rámečků v řadě, stejná velikost, nic zvýrazněného."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Ambrová = 'o tomhle je teď řeč', ne 'tohle je správně'. Oko je doslovný obsah věty 'darkness is something you see'.",
+      "diagram_generator": "otazka",
+      "diagram": "Rámeček TMA ambrově, vedle něj oko."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Fact check S06: šeď se zavřenýma očima vyrábí tepelná izomerizace rodopsinu, tedy šum sítnice. Kresba proto ukazuje ZDROJ té šedi, ne jen její barvu — jinak by scéna tvrdila jen 'je to šedé', kdežto věta tvrdí 'vyrábí to zrakový systém'.",
+      "diagram_generator": "otazka",
+      "diagram": "Dvě plochy vedle sebe: vlevo PRAVÁ ČERNÁ (čistý BG), vpravo eigengrau — jemné zrno o něco světlejší; pod ním tyčinka sítnice se spontánním zábleskem."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Zrcadlí S05 na týchž souřadnicích. Symetrii vynucuje kód, ne opatrnost.",
+      "diagram_generator": "otazka",
+      "diagram": "Rámeček TICHO ambrově, vedle něj ucho."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Tady se silueta poprvé rozsvítí, protože věta ji poprvé pojmenuje ('still has someone standing in it').",
+      "diagram_generator": "otazka",
+      "diagram": "Rámečky PRÁZDNÝ POKOJ a ČEKÁNÍ, v obou silueta ambrově."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "PRVNÍ VÝPLATA PÁTEŘE, v 0:58 — přesně tam, kde má scénář podle metrik kanálu 'začít platit'. Rozsvítí se jen siluety, protože to je ta společná věc; kdyby se rozsvítilo cokoli dalšího, tvrzení se rozmaže.",
+      "diagram_generator": "otazka",
+      "diagram": "Všech pět rámečků, VE VŠECH silueta ambrově; ostatní kresba tlumená."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Tři, ne pět — věta jmenuje tři. Obraz nesmí tvrdit víc než scénář ani míň.",
+      "diagram_generator": "otazka",
+      "diagram": "Tři siluety vedle sebe s popisky: vidí tmu / slyší ticho / čeká."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Přebití otázky lepší otázkou v 1:10 — druhá branka podle metrik kanálu. Prázdno po rámečcích je záměrné: divák má vidět, že se ptáme jinak, ne že jsme odpověděli.",
+      "diagram_generator": "otazka",
+      "diagram": "Rámečky zmizí, zůstane jediná ambrová silueta na ose a nad ní otázka 'What happens to that someone?'",
+      "pause": 2.5
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Bublina, protože je to citace cizí věty, ne tvrzení videa. Ocásek je OTEVŘENÁ lomená čára, ne uzavřený trojúhelník.",
+      "diagram_generator": "spanek",
+      "diagram": "Bublina s promluvou 'After I die, I'll sleep forever.'"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Šipka zpět je ta 'feature that death doesn't have'. Ambrová je na ní, ne na spánku — věta mluví o probuzení.",
+      "diagram_generator": "spanek",
+      "diagram": "Silueta ležící na ose; z ní šipka zpět nahoru ke stojící siluetě, popisek PROBUZENÍ ambrově."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Blok má být zjevně široký, aby v S15 bylo vidět, že se scvrkl. Táž šířka se v S32 použije pro šest hodin anestezie — to je záměrný vizuální rým.",
+      "diagram_generator": "spanek",
+      "diagram": "Osa s vyznačeným blokem OSM HODIN mezi usnutím a probuzením."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Objektivní osa zůstane, subjektivní se zkrátí — dvě osy nad sebou. Bez té druhé osy by kresba tvrdila, že se ztratil ČAS, kdežto věta tvrdí, že se ztratil ZÁŽITEK času.",
+      "diagram_generator": "spanek",
+      "diagram": "Týž blok se scvrkne na nulu; dva okamžiky (před spánkem, po probuzení) leží těsně vedle sebe."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Náznak, ne odpověď. Hlavní teze padne až v S43, takže tady se ambrová dává MEZEŘE, ne závěru.",
+      "diagram_generator": "spanek",
+      "diagram": "Mezera mezi oběma okamžiky ambrově obtažená, popisek 'not an experience — a missing one'.",
+      "pause": 2.2
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Rám je záměrně vidět — je to ten 'screen', na který S18 ukáže. Kdyby byl neviditelný, pointa S18 nemá na co ukázat.",
+      "diagram_generator": "nic",
+      "diagram": "Prázdný rám uprostřed plátna, nic v něm."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Popisky ukazují NA VĚCI, které tam divák nečekal. Scéna netvrdí, že si to divák představil špatně, jen pojmenovává, co v té představě je.",
+      "diagram_generator": "nic",
+      "diagram": "Týž rám, uvnitř černá plocha; rám a plocha dostanou popisky 'there is a screen' / 'there is darkness'."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Táž silueta a týž měřítko jako v páteři. Tohle je věta, kterou uživatel označil za jednu z nejsilnějších ve videu — proto v obraze přibude JEN silueta, nic jiného.",
+      "diagram_generator": "nic",
+      "diagram": "Před rámem se objeví silueta pozorovatele, ambrově."
+    },
+    {
+      "id": "S20",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S20.png",
+      "note": "Jediná scéna v celém aktu, kde se nekreslí. Prázdný vesmír je atmosféra, ne schéma — a hlavně: otázku 'who is observing it?' obraz ZÁMĚRNĚ NEODPOVÍDÁ. Kdyby tam byla silueta, scéna si odpoví sama a divák nedostane ten okamžik ticha.",
+      "prompt": "a vast empty cosmos, no stars in the foreground, faint distant nebula, immense void, a single tiny horizon line far below, silent and cold, painterly conceptual illustration, no text"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Kresba musí tvrdit 'nemá čím to udělat', ne 'nechce'. Proto vyňatý obsah, ne škrt: škrt by znamenal 'to neplatí'.",
+      "diagram_generator": "nic",
+      "diagram": "Rámeček MOZEK, uvnitř menší kopie téhož rámečku, ze které je vyňat obsah — a ta prázdná kopie se do sebe nevejde.",
+      "pause": 2.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Návrat k ose na týchž souřadnicích jako S01. Značka TEĎ je táž konstanta.",
+      "diagram_generator": "spojitost",
+      "diagram": "PÁTEŘ: osa se třemi značkami — před chvílí, teď, za chvíli."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Tři popisky sedí přesně nad svými značkami, odsazení se počítá z výšky značky (pod_hlavou), ne od oka. Věta o spojité osobě je POD osou a tlumená, protože je to důsledek, ne čtvrtá složka.",
+      "diagram_generator": "spojitost",
+      "diagram": "Nad týmiž třemi značkami popisky PAMĚŤ / VNÍMÁNÍ / PŘEDPOVĚĎ; pod osou tlumeně 'one continuous person'."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Promítnuté obrysy jsou ČÁRKOVANÉ, protože předpověď je hypotéza o budoucnosti. Tahle konvence pak nese celou S26 a S28.",
+      "diagram_generator": "spojitost",
+      "diagram": "Rámeček MODEL na značce TEĎ, z něj tlumené obrysy promítnuté doprava před osu."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Jen rozjezd; obsah řetězu ukáže až S26.",
+      "diagram_generator": "spojitost",
+      "diagram": "Osa, model začíná skládat řetěz kroků doprava."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Tohle je šipkové schéma ze zdroje ('me -> death -> time -> time...'), které se ve scénáři říká slovy jen proto, aby mělo rytmus — nese ho obraz. Silueta za značkou SMRT je ZÁMĚRNĚ CHYBNÁ kresba: ukazuje, co dělá mozek, ne co je pravda. S27 ji vezme zpátky, takže ta chyba nesmí vydržet déle než jednu scénu.",
+      "diagram_generator": "spojitost",
+      "diagram": "Řetěz podél osy: JÁ -> SMRT -> ČAS -> ČAS -> ČAS ..., a silueta stojí NA OSE I ZA značkou SMRT."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Zůstává řetěz, mizí pozorovatel — to je přesně to, co věta říká. Kdyby zmizel i řetěz, scéna by tvrdila 'čas neplyne', což je něco úplně jiného a věcně špatně.",
+      "diagram_generator": "spojitost",
+      "diagram": "Týž řetěz, ale silueta za značkou SMRT zmizí; řetěz kroků zůstane."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Uživatel tuhle větu označil za jednu z nejsilnějších ve videu. Ambrová patří PRÁZDNÉMU MÍSTU, ne modelu — 'o tom je řeč' je ta absence.",
+      "diagram_generator": "spojitost",
+      "diagram": "Rámeček MODEL kreslí budoucnost, ve které rámeček MODEL chybí; prázdné místo po něm je obtažené ambrově.",
+      "pause": 2.5
+    },
+    {
+      "id": "S29",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S29.png",
+      "note": "ARCHIV ZAMÍTNUT PO POHLEDU, ne od stolu. Šest dotazů na Commons ('operating theatre general anaesthesia surgery hospital', 'anaesthesia machine operating room', 'surgery operating room team', 'general anaesthesia patient', 'anaesthetist', 'operating theatre') — obecný předmět bez vlastního jména Commons nemá a vracel kočku po narkóze, učebnici z roku 1903 a polní chirurgii. Jediný použitelný nález ('Operating theatre', Piotr Bodzek, CC BY-SA 3.0) je operace v běhu s krví v popředí — pro tohle téma úplně špatný rejstřík: video by vypadalo morbidně a je to zbytečné riziko u pravidel pro inzerenty. CLAUDE.md říká, že po zamítnuté fotce následuje kresba kódem, ale to pravidlo vzniklo u KONKRÉTNÍHO PŘEDMĚTU, který šel proti kotvě stylu. Tady je předmětem MÍSTNOST, tedy atmosféra, což je vlastní doména SDXL. Prompt je proto PRÁZDNÝ sál bez lidí — vyhne se deformovaným obličejům i krvi a nechá scénu říct 'běžná, klidná, kontrolovaná situace'.",
+      "prompt": "an empty operating theatre at rest, no people, surgical lights off and pointing down at a bare table, tiled walls, an anaesthesia machine standing to one side, everything clean and still, flat grey overcast light from a high window, no sun, cold and quiet, painterly conceptual illustration, no text"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Fact check S30: naměřeno, že lokální synchronie zůstává a ztrácí se DÁLKOVÁ integrace. Kresba to musí říct přesně takhle — 'zhasnutý mozek' by byl pravý opak toho, co věta tvrdí, a divák by si odnesl chybu, kterou žádný detektor nenajde.",
+      "diagram_generator": "anestezie",
+      "diagram": "Síť uzlů mozku: uzly SVÍTÍ (lokální aktivita zachovaná), ale dlouhé spoje mezi vzdálenými skupinami jsou přerušené; krátké spoje uvnitř skupin drží."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Táž šířka bloku jako osm hodin v S14 — vizuální rým, ne nedbalost.",
+      "diagram_generator": "anestezie",
+      "diagram": "Osa s blokem ŠEST HODIN, na jeho koncích usnutí a otevření očí."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Škrtá se PLOCHA bloku, takže křížek je v pořádku; přes nápis pod ním se křížek nekreslí. Viz konvence 4 v _kit.py.",
+      "diagram_generator": "anestezie",
+      "diagram": "Blok šesti hodin PŘEŠKRTNUTÝ vodorovnou čarou přes plochu (ne přes nápis), popisek 'no six-hour experience of darkness'."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Schéma 'before -> after' ze zdroje. Záměrně TOTOŽNÉ rozvržení jako S15 (spánek), aby divák spojil obojí bez vysvětlování. Beat 1,2 s, patří mu delší pauza.",
+      "diagram_generator": "anestezie",
+      "diagram": "Blok se scvrkne na nulu; zůstanou dvě značky těsně vedle sebe, PŘED a PO, mezi nimi nic.",
+      "pause": 2.5
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "ASSERT: počet políček a měřítko se počítají v kódu, nekreslí se 'nějak hodně'. Mřížka ZÁMĚRNĚ přetéká rámem (bleed) — je to tvrzení 'je jich víc, než se vejde', ne přešlap.",
+      "diagram_generator": "anestezie",
+      "diagram": "Mřížka bezejmenných políček zastupující tři miliony anestezií za rok, ořezaná rámem; pod ní číslo slovy a zdroj NAP5."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "ASSERT, že se nikde netvrdí doslovný poměr 1:20000 v počtu políček — ten se nakreslit nedá. Tlumená poznámka o nahlášení je tam kvůli fact checku: cílené dotazování najde 1:500 az 1:1000 a bez té poznámky by obraz tvrdil víc než zdroj.",
+      "diagram_generator": "anestezie",
+      "diagram": "V téže mřížce jediné ambrové políčko; popisek 'about one in twenty thousand REPORTS being aware' a tlumená poznámka, že jde o NAHLÁŠENÉ případy."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Tatáž šipka a tytéž souřadnice jako v S13 (spánek). Návrat je záměrný, protože S37 ji vzápětí odebere.",
+      "diagram_generator": "anestezie",
+      "diagram": "Osa anestezie se šipkou zpět nahoru, popisek PROBUZENÍ ambrově."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Beat 0,5 s — nejkratší scéna videa. Mění se JEDINÁ věc proti S36, takže to není střih, ale úder. Kdyby se změnilo cokoli dalšího, rozpadne se to na dva obrazy. NAVETI: divák nahlásil, že scéna zní divným hlasem a za koncovým t následuje schwa. Whisper promluvu přepsal jako „Death doesn't HE?“, tedy SLABIKA NAVÍC na úrovni řeči — případ z videa 026, ne doříkávaná schwa. Obětovaná věta by v promluvě 1,2 s neměla kde řezat. Návětí je SKUTEČNÝ text S36, takže promluvu prodlouží a zároveň dá scéně intonaci návaznosti — gramaticky je S37 pokračováním S36.",
+      "diagram_generator": "anestezie",
+      "diagram": "Táž kresba, šipka zpět PŘEŠKRTNUTÁ.",
+      "pause": 1.2,
+      "naveti": "And most importantly, anaesthesia has an awakening."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Táž dvojice os jako v S15. Tvrzení je 'subjektivní čas může zmizet', ne 'čas neexistuje' — proto objektivní osa zůstává celá.",
+      "diagram_generator": "anestezie",
+      "diagram": "Dvě osy nad sebou: objektivní běží dál, subjektivní se scvrkne na jediný bod.",
+      "pause": 2.5
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Návrat k S01 na týchž souřadnicích. Prázdnota je záměrná — po deseti minutách schémat se scéna vyprázdní, aby bylo poznat, že jde o obrat.",
+      "diagram_generator": "odpoved",
+      "diagram": "PÁTEŘ: čistá osa se siluetou na TEĎ, bez rámečků a popisků."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Fact check S40: naměřeno 4 az 10 s, ne přesně deset. Plná do čtyř, čárkovaná dál — konvence 'plná = doloženo, čárkovaná = rozptyl'. Přesný časovač by tvrdil víc než zdroj. A NIKDE se nesmí objevit slovo smrt: deset sekund je ztráta VĚDOMÍ.",
+      "diagram_generator": "odpoved",
+      "diagram": "Krátká úsečka od nuly do deseti sekund; ČÁRKOVANÁ od čtyř sekund dál, popisek 'consciousness can be lost within about ten seconds'."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Přímé srovnání se S30 na týchž souřadnicích — tam integrace chyběla, tady chybí všechno. Rozdíl mezi anestezií a smrtí musí být vidět ze dvou obrazů, ne z popisku.",
+      "diagram_generator": "odpoved",
+      "diagram": "Síť z S30, ale tentokrát zhasnou i uzly a zmizí i krátké spoje."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Scénář říká 'every one of those answers', ne číslovku — kandidátů je šest včetně černé obrazovky, ale rámečků z S04 je pět. Šestý (černá obrazovka ze S18) se přidá jako šestý rámeček, ať sedí počet. ASSERT na počet rámečků proti seznamu kandidátů.",
+      "diagram_generator": "odpoved",
+      "diagram": "Pět rámečků z S04 se vrátí, VŠECHNY přeškrtnuté vodorovnou čarou přes nápis (skrt_text), siluety v nich zmizí."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "VÝPLATA PÁTEŘE, v 4:46, tedy uprostřed videa. Rozdíl proti S27: tam mizela silueta a řetěz zůstal, tady končí sama osa. Kdyby za koncem osy bylo cokoli nakresleného, scéna by tvrdila přesně to, co celé video vyvrací.",
+      "diagram_generator": "odpoved",
+      "diagram": "HLAVNÍ DESKA: osa prostě SKONČÍ. Za jejím koncem není prázdný pruh, rámeček ani tečkovaná — není tam nic. Pod tím dvě věty scénáře.",
+      "pause": 3.2
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Uvozeno ve scénáři jako přirovnání ('a slightly morbid way of putting it'), takže kresba je schválně schematická — nemá vypadat jako tvrzení o mozku.",
+      "diagram_generator": "pocitac",
+      "diagram": "Obrys počítače jako celku, tlumeně."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Tři, ne pět. Scénář jmenuje tři a výčet v obraze musí sedět s výčtem v hlase.",
+      "diagram_generator": "pocitac",
+      "diagram": "Tři části uvnitř: výpočetní jednotky, paměť, síť mezi nimi."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Ambrová na běžícím systému, ne na souboru — 'o tom je řeč' je ta správná odpověď. Škrt přes ikonu (plocha), ne přes nápis.",
+      "diagram_generator": "pocitac",
+      "diagram": "Ikona SOUBORU na disku přeškrtnutá; BĚŽÍCÍ SYSTÉM ambrově jako proudění mezi částmi."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Postupné ubývání na týchž souřadnicích. Fáze se čtou zleva doprava, což samo o sobě tvrdí pořadí — a to pořadí scénář má.",
+      "diagram_generator": "pocitac",
+      "diagram": "Tři fáze v řadě: hardware selže, spoje zmizí, procesy se zastaví."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Dvojice, protože věta je dvojice. Ambrová je na PRÁZDNÉM MÍSTĚ, tedy na tom, co je pravda, ne na škrtnuté variantě.",
+      "diagram_generator": "pocitac",
+      "diagram": "Vlevo obrazovka s černou plochou, PŘEŠKRTNUTÁ; vpravo prázdné místo po počítači, obtažené ambrově.",
+      "pause": 2.2
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Jediná věta, která zbyla ze čtyřscénové sekce o duši. Čárkovaně = hypotéza, chybějící čára = chybějící doklad. NESMÍ tam být škrt: video netvrdí, že duše neexistuje, nýbrž že pro ni není doklad. To je rozdíl, který nese celou poctivost té scény.",
+      "diagram_generator": "pocitac",
+      "diagram": "Rámeček VĚDOMÍ mimo mozek, ČÁRKOVANĚ, a mezi ním a mozkem žádná čára; pod tím tlumeně 'not yet, at least'.",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Nová otázka do druhé poloviny, v 5:30. Prázdné plátno je záměrné — je to předěl, ne další schéma.",
+      "diagram_generator": "jazyk",
+      "diagram": "Otázka na prázdném plátně: 'If there is nothing there to feel, why does it frighten us so much?'"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Sama věta je předmětem zkoumání, takže je v obraze doslova. Bez bubliny — tohle neříká postava, říkáme to my všichni.",
+      "diagram_generator": "jazyk",
+      "diagram": "Věta 'I will be dead forever.' vysázená velkým písmem."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Kresba je ZÁMĚRNĚ CHYBNÁ — ukazuje, co ta věta dělá, ne co je pravda. Táž technika jako S26. Silueta je ambrová právě proto, že je to ten propašovaný pozorovatel.",
+      "diagram_generator": "jazyk",
+      "diagram": "PÁTEŘ: osa protažená daleko doprava, a NA NÍ silueta stojící kdesi v dálce, ambrově."
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S53.png",
+      "note": "TAHLE SCÉNA NESE TEXT, KTERÝ ŠEL VE STŘIHU 0.3 Z HLASU PRYČ. Vyškrtly se věty 'Stars can form and disappear. Civilisations can rise and fall.' s tím, že zůstanou jako OBRAZ. Bez nich ten škrt jen ubere. Žádné dawn/dusk v promptu — šikmé světlo je u SDXL vždycky zlaté a přebije studenou kotvu stylu. KOLO 2: první pokus dal hvězdy nad horami, tedy jen POLOVINU toho, co scéna nese — vyškrtnutá věta mluví i o civilizacích, které vznikají a zanikají. Prompt proto žádá zbytky měst konkrétně (obdélníkové obrysy, napůl zaváté), ne abstraktní „civilisations\": SDXL bere abstraktní pojmy doslova. Kolo 1 odloženo do scratchpadu na porovnání.",
+      "prompt": "an immense dark plain under a deep starfield, the faint rectangular outlines of ruined cities half buried in the ground, tiny and distant, scattered to the horizon, some stars bright and some burnt out, flat grey overcast haze near the horizon, no sun, cold and silent, painterly conceptual illustration, no text",
+      "seed": 8814402
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Stupňování v obraze musí být stejné jako v hlase: tři různě dlouhé úsečky, ale TŘI STEJNÉ prázdné výsledky. Kdyby se výsledky lišily, obraz by tvrdil, že na délce záleží.",
+      "diagram_generator": "jazyk",
+      "diagram": "Tři měřítka pod sebou: deset let, deset miliard let, věčnost — a u všech tří tentýž prázdný výsledek.",
+      "pause": 2.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Poprvé se dívá vlevo. Osa se nepřekresluje, jen se posune ambrový zájem — kdyby se překreslila, symetrie v S75 se nepozná.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "PÁTEŘ: osa, ale pozornost se otočí DOLEVA od značky TEĎ."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Škrtají se NÁPISY, takže vodorovná čára (skrt_text), ne křížek. Text_skrtnuty, aby se text a škrt nerozešly — u videa 026 z toho byly tři holé čárky bez nápisů.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Vlevo od narození dvě vysvětlení, obě PŘEŠKRTNUTÁ: 'memory is damaged' a 'you forgot'."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Zrcadlo S43 na týchž souřadnicích, jen na druhou stranu. Tohle je scéna, kvůli které je páteř osa a ne cokoli jiného. Beat 1,4 s.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Vlevo od značky NAROZENÍ prostě žádná osa není.",
+      "pause": 2.8
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Čtyři, protože věta jmenuje čtyři. Všechny týmž způsobem — kdyby jeden vypadal jinak, obraz by mezi nimi dělal rozdíl, který věta nedělá.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Čtyři přeškrtnuté nápisy: čekal, viděl tmu, nudil se, byl sám."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Ocásek bubliny míří do prázdna. Poznávací znak z docs: scéna, ve které něco míří na někoho — tady je ten někdo záměrně nikdo, a musí to být vidět, ne dovozeno.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Bublina s 'When is this going to end?' a v místě mluvčího PRÁZDNO obtažené ambrově."
+    },
+    {
+      "id": "S60",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "POZOR, NE PORTRÉT. Žádná dobová podobizna Lucretia neexistuje — všechny busty a rytiny jsou pozdější představy, takže portrét by byl vymyšlený doklad. Cíl je Leidenský rukopis VLF 30 (Codex Oblongus, 9. století), tedy nejstarší dochovaný opis De rerum natura — skutečný objekt s vlastním jménem, public domain. Dotaz je zúžený tak, aby cíl vycházel první; evidence je ale archive-raw/S60.orig a jeho otisk, ne pick. Bez zoomu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Lucretius De rerum natura Leiden VLF 30",
+        "grade": {
+          "fit": 0.95
+        },
+        "pick": 0
+      }
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Symetrii vynucuje kód: obě strany se kreslí jednou funkcí se znaménkem, ne dvěma voláními. Kdyby se lišily o pixel, argument o symetrii se rozpadne právě tam, kde ho scéna tvrdí.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Zrcadlo: osa s narozením uprostřed, vlevo i vpravo tentýž prázdný úsek; popisek Lucretius, De rerum natura, kniha III.",
+      "pause": 2.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Ambrová tu ukazuje, KTERÉ straně se divák bojí, ne která je horší. Popisek to musí říct, jinak si obraz vyrobí hodnocení sám.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Obě strany osy vedle sebe, vpravo ambrově — a otázka, proč právě ta."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Uzavřený versus otevřený rám je celé tvrzení věty. Šipky míří OD modelu k budoucnosti, tedy směr řízení — u každé šipky ověřit, že cíl odpovídá podmětu.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Vlevo uzavřený rámeček MINULOST, vpravo otevřený rámeček BUDOUCNOST se šipkami řízení od modelu."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Dvě fáze v jednom obraze vedle sebe, ne animace. Čárkovaně proto, že to nikdy nebyl doklad, jen pocit.",
+      "diagram_generator": "prednarozenim",
+      "diagram": "Rámeček 'belongs to us' kolem budoucnosti, nejdřív čárkovaně, pak zmizí docela; osa za TEĎ zůstane prázdná.",
+      "pause": 2.4
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Ohlášení, ne obsah. Uživatel tuhle sekci označil za nejužitečnější ve videu, takže dostane vlastní nájezd.",
+      "diagram_generator": "umirani",
+      "diagram": "Prázdné plátno s nadpisem rozlišení, které přijde."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Vizuálně TÉMĚŘ totožné, protože právě to je pointa — rozdíl je v jednom slově. Kdyby se lišily kresbou, scéna by odpověděla dřív než hlas.",
+      "diagram_generator": "umirani",
+      "diagram": "Dvě bubliny nad sebou: 'I'm afraid of death.' a 'I'm afraid of dying.'"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Beat 1,4 s. Mění se JEN vzdálenost a čára. Žádná barva navíc — ani jedna z nich není 'ta správná'.",
+      "diagram_generator": "umirani",
+      "diagram": "Tytéž dvě bubliny odtažené od sebe, mezi nimi svislá dělicí čára.",
+      "pause": 2.4
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Plná čára = doloženo. Tohle jsou skutečné zážitky a kresba to musí potvrdit, ne relativizovat. Šest, protože věta jmenuje šest.",
+      "diagram_generator": "umirani",
+      "diagram": "Sloupec šesti položek PLNOU čarou: bolest, strach, zmatek, ztráta kontroly, odloučení, vědomí ztráty."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Fact check S69: medicína je umí ZMÍRNIT, ne odstranit, a ne vždycky. Kdyby položky zmizely, obraz by tvrdil víc než scénář — a je to tvrzení o paliativní péči, u kterého na tom záleží.",
+      "diagram_generator": "umirani",
+      "diagram": "Týž sloupec, položky ZMENŠENÉ, ne odstraněné; u nich tlumeně 'sometimes', 'reduce'."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Rozdíl proti S69 je jediný: chybí subjekt. Položky se NESMÍ škrtnout — věta netvrdí, že bolest neexistuje, nýbrž že ji nemá kdo mít.",
+      "diagram_generator": "umirani",
+      "diagram": "Týž sloupec, ale místo pro toho, kdo je zažívá, je PRÁZDNÉ; položky visí bez podmětu.",
+      "pause": 2.8
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Prázdná událost, ale silueta tam JE. To je ta představitelná varianta.",
+      "diagram_generator": "pozorovatel",
+      "diagram": "Silueta a před ní prázdný rámeček UDÁLOST; popisek 'Nothing will happen to me.'"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Přesně obrácená prázdnota než S71, na týchž souřadnicích. Tady se vyplácí, že silueta má po celé video jedno měřítko a jedno místo — jinak by se rozdíl nedal přečíst.",
+      "diagram_generator": "pozorovatel",
+      "diagram": "Táž kresba, ale prázdné je místo SILUETY; rámeček události zůstane."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Návrat rámečků z S02 a S09 na týchž souřadnicích, potřetí. Silueta je TLUMENÁ, ne ambrová: tentokrát se vrací potají, což věta říká slovem 'quietly'.",
+      "diagram_generator": "pozorovatel",
+      "diagram": "Čtyři obrazy v řadě — pozorovatel, černý pokoj, tichý vesmír, nekonečný čas — a do každého se tlumeně vrací silueta."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Zavření kruhu z S09. Ambrová jen na popisku, protože o něm je řeč.",
+      "diagram_generator": "pozorovatel",
+      "diagram": "Všechny čtyři obrazy se slijí do jediného rámečku s popiskem 'an experience'.",
+      "pause": 2.6
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Táž osa, tytéž souřadnice jako S01 a S43. První bod je nová značka, ne posunutá stará.",
+      "diagram_generator": "symetrie",
+      "diagram": "PÁTEŘ: osa s vyznačeným PRVNÍM bodem, vlevo od něj nic."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Dvě věci naráz, obě ve větě: divákova osa končí, vesmír ne. Vesmír je POD osou a tlumený, aby si divák nespletl, která z těch dvou čar je jeho.",
+      "diagram_generator": "symetrie",
+      "diagram": "Táž osa s vyznačeným POSLEDNÍM bodem; za ním nic, ale pod osou tlumeně pokračuje vesmír.",
+      "pause": 2.2
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Škrt přes NÁPIS, tedy skrt_text. Otázka se neruší jako nesmysl, jen se odkládá — proto jedna čára, ne křížek.",
+      "diagram_generator": "symetrie",
+      "diagram": "Otázka 'What will I experience after death?' přeškrtnutá vodorovnou čarou."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Ambrová se vrací na značku TEĎ, tedy tam, kde byla v S01. Celý oblouk videa se uzavírá na jediné souřadnici.",
+      "diagram_generator": "symetrie",
+      "diagram": "Otázka 'What am I experiencing now?' a značka TEĎ na ose ambrově.",
+      "pause": 2.5
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Nejsilnější výplata páteře a schválně se kreslí, ne generuje modelem — je to přesně to, co věta říká, a difuzní model by z toho udělal atmosféru. Úsek MUSÍ ležet mezi týmiž značkami jako v S75 a S76.",
+      "diagram_generator": "symetrie",
+      "diagram": "PÁTEŘ, VÝPLATA: úsek osy mezi prvním a posledním bodem je VYPLNĚNÝ ambrově; všechno mimo něj je prázdné."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Čtyři, protože věta jmenuje čtyři. Vodorovný škrt přes nápisy.",
+      "diagram_generator": "symetrie",
+      "diagram": "Čtyři přeškrtnuté nápisy: second run, backup, save game, loading screen."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Mění se jediná věc proti S79 — tloušťka a popisek. Kdyby se změnilo rozvržení, z výplaty se stane další scéna.",
+      "diagram_generator": "symetrie",
+      "diagram": "Týž vyplněný úsek jako v S79, o něco silnější, popisek 'this life' ambrově.",
+      "pause": 2.5
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "'Lights go out' je ta špatná představa, proto škrt. Ambrová je na tom, co je pravda. Text drží mimo dolní třetinu a mimo pravý okraj — připravuje závěrečnou desku.",
+      "diagram_generator": "symetrie",
+      "diagram": "Zhasnutá žárovka tlumeně vlevo, PŘEŠKRTNUTÁ; vpravo prázdné místo po pozorovateli, ambrově."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Přes pravou a dolní část položí YouTube karty a závěrečnou obrazovku, takže tam nesmí být nic, o co by divák přišel. Static, žádný pohyb, delší doznění zajišťuje timing.tail.",
+      "diagram_generator": "symetrie",
+      "diagram": "ZÁVĚREČNÁ DESKA: osa v klidu, první a poslední bod, za ním nic. Text jen v horní polovině a vlevo od středu."
+    }
+  ]
+}

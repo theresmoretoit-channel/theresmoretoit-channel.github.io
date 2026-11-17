@@ -1,0 +1,104 @@
+{
+  "title": "Why Do Some People Hate Apple?",
+  "slug": "055-why-do-some-people-hate-apple",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1,
+    "clean_end_pause": 0.0
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly editorial illustration, restrained minimal composition, cool slate blue and pale aluminium grey, a single warm amber accent, soft even diffuse light, flat grey overcast sky through glass, clean uncluttered surfaces, one object given room to breathe, visible brush and ink texture, quiet human scale, cinematic composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, user interface, screen content, app icons, watermark, signature, logo, brand, apple logo, bitten apple, chart, graph, photorealistic, photograph, product advertisement, glossy advertising render, oversaturated, neon, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 138.59,
+    "music_seed": 6043,
+    "music_sections": []
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "archive_grade": {
+    "levels": "6%,94%",
+    "saturation": 55,
+    "tint": "#c98f4e",
+    "tint_amount": 20,
+    "contrast": "-6x-10",
+    "vignette": true,
+    "vignette_edge": "#a8a8a8"
+  },
+  "pronounce": {
+    "1960s": "nineteen sixties",
+    "2012": "twenty twelve",
+    "2016": "twenty sixteen",
+    "2023": "twenty twenty three",
+    "iPhone 7": "iPhone seven",
+    "iPhone 13": "iPhone thirteen",
+    "iPhone 15": "iPhone fifteen",
+    "use": "yooz"
+  },
+  "thumbnail": {
+    "source": "thumbnail/foto-klicova-dirka.png",
+    "out": "render/thumbnail.jpg",
+    "note": "Fotorealistický náhled dodal uživatel (ChatGPT) podle šablony z docs/thumbnail-styl.md — viz thumbnail/PUVOD.md. Předmět je telefon s prosvícenou klíčovou dírkou, APPLE / WHOSE PHONE?. Ze tří kreslených konceptů (c1 klíčová dírka, c2 přepravní kufry a baterie, c3 dveře) vybral uživatel fotorealistickou variantu c1. Agent obrázek jen ořízl na přesný poměr 16:9 (1664x936, protože 1672x941 má 1,7768 a vynucené přeškálování by obraz stlačilo) a zmenšil na 1280x720. Mříže v náhledu ZÁMĚRNĚ nejsou — klec je výplata videa v S84b a náhled nesmí prozradit odpověď."
+  }
+}

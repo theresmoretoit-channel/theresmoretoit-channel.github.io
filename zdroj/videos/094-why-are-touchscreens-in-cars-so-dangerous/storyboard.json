@@ -1,0 +1,928 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "hacek",
+      "diagram": "PÁTEŘ 1 `silnice()`: vodorovná silnice v dolní třetině, vlevo auto z boku; po silnici rysky po jedné sekundě (1 s, 2 s, 3 s …), zatím bez metrů; vlevo nahoře 50 km/h ≈ 30 mph",
+      "note": "První scéna nese myšlenku celého videa, ne atmosféru: ČAS ZA JÍZDY JE VZDÁLENOST. Rysky po sekundách zavádějí měřítko, které se v S07, S28, S35, S41–S43 a S95 vyplatí. Metry zatím ne — patří až do S07."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "hacek",
+      "diagram": "PÁTEŘ 2 `palubka()`: nad silnicí (ztlumenou) palubní deska starého auta; uprostřed kulatý knoflík teploty ambrově, kolem stupnice studená–teplá",
+      "note": "Zavádí druhou páteř. Palubka sedí vždy na týchž souřadnicích a mění se jen to, co je v jejím středu (knoflík / obrazovka)."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "hacek",
+      "diagram": "táž palubka; knoflík pootočený (oblouková šipka); ikona oka nad palubkou, čára pohledu vede ROVNOU NA SILNICI (ambrově), ne na knoflík",
+      "note": "Motiv OKA a ČÁRY POHLEDU: kam vede, tam se řidič dívá. „You don't need to look for it“ = čára pohledu zůstává na silnici. Drží se celým videem."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "hacek",
+      "diagram": "táž palubka, místo knoflíku velká svítící obrazovka (prázdná); oko a čára pohledu pořád na silnici",
+      "note": "Mění se jediná věc: knoflík → obrazovka. Stejné souřadnice jako S02, ať je výměna vidět.",
+      "pause": 0.6
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "hacek",
+      "diagram": "obrazovka s cestou menu v pěti krocích (1 LOOK · 2 CLIMATE · 3 TAP · 4 TEMPERATURE · 5 TAP), čára pohledu vede NA OBRAZOVKU (ambrově), silnice ztlumená; malá zpětná šipka „back to the road“",
+      "note": "Výčet krátkých vět je JEDEN obraz, ne šest střihů. Kroky musí odpovídat scénáři v pořadí."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "hacek",
+      "diagram": "silnice; auto s čarami pohybu a šipkou dopředu; palubka ztlumená",
+      "note": "„But the car hasn't stopped“ — pohyb je v kresbě (čáry), ne v efektu; diagram zůstává static. Dovětek proti doříkávané schwě (nahlásil uživatel v draftu 1).",
+      "pause": 0.6,
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "hacek",
+      "diagram": "silnice; první sekundový úsek zvýrazněný ambrově, nad ním 1 s = 14 m",
+      "note": "Měřítko: 50 km/h = 13,9 m/s (factcheck). Délka úseku se počítá z rychlosti, `assert`.",
+      "pause": 0.6
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "hacek",
+      "diagram": "týž úsek 14 m, šrafovaný; oko nad ním zavřené / čára pohledu vede jinam; štítek NOBODY WATCHING",
+      "note": "Konec háčku. Šrafovaný úsek = „ujeto naslepo“ — tahle konvence platí pro celé video.",
+      "pause": 2.4
+    },
+    {
+      "id": "S09",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S09.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "crash test dummy airbag",
+        "pick": 4
+      },
+      "note": "V08355P033 (1).jpg — NHTSA VRTC, public domain: figuríny po nárazu s vystřelenými airbagy. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07.",
+      "pause": 0.5
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S10.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Tesla Model 3 interior",
+        "pick": 0
+      },
+      "note": "Tesla Model 3 interior.jpg — CC BY-SA 4.0: volant VLEVO, velká centrální obrazovka. Draft 1 měl CC0 snímek s volantem vpravo; překlopení zamítnuto, zrcadlil by se nápis TESLA na volantu. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "uvod",
+      "diagram": "silnice se šrafovaným úsekem z S08 a nad ním velký otazník; nápis HOW DANGEROUS?",
+      "note": "První ze dvou otázek videa. Navazuje na páteř silnice.",
+      "pause": 0.5
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "uvod",
+      "diagram": "mřížka osmi malých palubek nových aut, každá s velkou obrazovkou; nápis WHY EVERY NEW CAR?",
+      "note": "Druhá otázka — ta, na kterou odpoví obrat S54–S69. MUSÍ být static (CTA S12b dědí tenhle obraz)."
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "cta": true,
+      "note": "CTA podle docs/cta.md: dědí obraz S12, static. Pozor: podle odhadu stopáže vychází kolem 0:55–1:10, tedy v druhém útesu — změřit po TTS a případně řešit s uživatelem (scénář je zamčený).",
+      "pause": 2.4
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "dotyk",
+      "diagram": "samotná obrazovka z palubky, klidná, s nápisem IN FAIRNESS",
+      "note": "Začátek bloku „obrazovka sama není problém“. Dovětek proti doříkávané schwě (nahlásil uživatel v draftu 1).",
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "dotyk",
+      "diagram": "dva panely: mapa na obrazovce ✓ vedle rozložené papírové mapy přes volant; zpětná kamera s vodicími čarami ✓",
+      "note": "Fajfky jen u obrazovky (mapa, kamera), papírová mapa bez hodnocení — scénář ji nezatracuje, jen srovnává.",
+      "pause": 1.2
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "dotyk",
+      "diagram": "ikona oka + ikona ruky, pod nimi nápis VISUAL–MANUAL INTERACTION",
+      "note": "Termín ze scénáře, nic navíc."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "dotyk",
+      "diagram": "tři kroky zleva doprava: LOOK (oko) → UNDERSTAND → TOUCH (prst na malém přesném terči na obrazovce)",
+      "note": "Tři věty scénáře = tři kroky, jeden obraz."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "dotyk",
+      "diagram": "tři fyzické ovladače vedle sebe: tlačítko (SHAPE), knoflík s rýhováním (RESISTANCE), páčkový spínač (POSITION)",
+      "note": "Výčet = jeden obraz. Každý ovladač má svůj popisek; hmat nese to, co tady jinak nese oko."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "dotyk",
+      "diagram": "tři ovladače ztlumené vlevo, vpravo hladká skleněná tabule (odlesk), štítek JUST GLASS ambrově",
+      "note": "„has... glass“ dávalo schwu („has a glass“, whisper); scénář změněn na „has... just glass“.",
+      "pause": 1.0
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "dotyk",
+      "diagram": "skleněná tabule s virtuálním tlačítkem jen čárkovaně; prst vedle něj (netrefí); čára pohledu z oka vede na tlačítko",
+      "note": "Čárkovaně = „pro prsty neexistuje“. Jedině oko ho najde.",
+      "pause": 0.5
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "dotyk",
+      "diagram": "oko; čára pohledu vede na silnici (páteř dole), štítek DRIVING NEEDS THIS",
+      "note": "Oko je sdílený prvek — kreslí se jednou funkcí v `_kit.py`.",
+      "pause": 1.4
+    },
+    {
+      "id": "S21",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S21.png",
+      "prompt": "a quiet office desk with a computer monitor, keyboard and mouse, desk lamp, seen from the side, still and calm, nobody present",
+      "note": "Atmosférický předěl „počítač na stole“. První SDXL scéna až ~2:00, ne v úvodu."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "dotyk",
+      "diagram": "čtyři kroky u stolu: LOOK · MOVE THE MOUSE · CLICK · READ, ikony monitoru a myši",
+      "note": "Výčet = jeden obraz. Rým se S05 (kroky v menu) — stejné rozvržení řady kroků."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "dotyk",
+      "diagram": "stůl s monitorem stojí na pevné zemi, štítek 0 km/h",
+      "note": "„The desk isn't moving.“"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "dotyk",
+      "diagram": "oko uprostřed, dvě možné čáry pohledu: na obrazovku a na silnici; svítí jen jedna, druhá čárkovaně; štítek ONE AT A TIME",
+      "note": "Konec bloku 1. Kresba nesmí naznačit, že jde dívat obojím naráz — svítí právě jedna čára.",
+      "pause": 2.6
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "pravidlo",
+      "diagram": "silnice (páteř) a nad ní stopky s otazníkem: HOW LONG?",
+      "note": "Otevírá blok čísel."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "pravidlo",
+      "diagram": "karta dokumentu: U.S. NHTSA · 2013 · VOLUNTARY GUIDELINES",
+      "note": "Zkratka NHTSA jen v obraze, v hlase „America's road safety regulator“. VOLUNTARY musí být čitelné — je to míra jistoty z factchecku."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "pravidlo",
+      "diagram": "časová osa úkolu: několik pohledů jako bloky, každý ≤ 2 s, mezi nimi silnice; nahoře součet ≤ 12 s",
+      "note": "Data: bloky se počítají v kódu, každý ≤ 2 s a součet ≤ 12 s (`assert`). Příklad rozložení, ne naměřené pohledy — popisek EXAMPLE."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "pravidlo",
+      "diagram": "silnice; 2 s při 100 km/h = 56 m šrafovaně",
+      "note": "27,8 m/s × 2 = 55,6 m. Měřítko silnice se mění proti S07 — měřítko musí být napsané u úseku."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "pravidlo",
+      "diagram": "vlevo přechod SAFE → DANGEROUS s dělicí čarou, škrtnutý (`text_skrtnuty`); vpravo kontrolní seznam TEST: glances ≤ 2 s ✓, total ≤ 12 s ✓",
+      "note": "Míra jistoty: je to test rozhraní, ne hranice bezpečí — kresba nesmí tvrdit práh.",
+      "pause": 2.2
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "utah",
+      "diagram": "řada ztlumených siluet palubek, nápis REAL CARS?",
+      "note": "Otázka bloku."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "utah",
+      "diagram": "karta: UNIVERSITY OF UTAH · AAA FOUNDATION FOR TRAFFIC SAFETY · 2017; pod ní 30 malých ikon aut (6 × 5)",
+      "note": "Počet ikon 30 (`assert`)."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "utah",
+      "diagram": "dvě palubky vedle sebe s ukazatelem zátěže: jedna nízko, druhá vysoko (ambrově); štítek DEMAND",
+      "note": "Kvalitativně „huge differences“ — bez počtů v kategoriích, ty ve scénáři ani ve factchecku nejsou.",
+      "pause": 0.5
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "utah",
+      "diagram": "obrazovka s navigací: pole DESTINATION a pod ním klávesnice, ambrově",
+      "note": "Nejnáročnější úkol ze studie."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "utah",
+      "diagram": "stopky ≈ 40 s, popisek AVERAGE",
+      "note": "„On average“ — AVERAGE musí být v obraze.",
+      "pause": 0.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "utah",
+      "diagram": "silnice; 40 s při 50 km/h = 556 m šrafovaně, ryska 500 m",
+      "note": "13,89 × 40 = 556 m; ryska půl kilometru ukazuje „more than half“. Měřítko u úseku."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "utah",
+      "diagram": "časová osa 40 s rozsekaná na pohledy po 1–2 s s mezerami; popisek EXAMPLE",
+      "note": "Rozložení pohledů je ilustrační (factcheck: výklad, ne tvrzení studie) — proto EXAMPLE. Součet bloků se počítá v kódu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "utah",
+      "diagram": "táž osa promítnutá na silnici: každý pohled = šrafovaný úsek silnice",
+      "note": "Spojuje čas a dráhu — konvence šrafy z S08.",
+      "pause": 2.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "svedsko",
+      "diagram": "karta: VI BILÄGARE · SWEDEN · 2022, štítek A SIMPLER TEST",
+      "note": "Jméno časopisu jen v obraze, v hlase ne (Kokoro by ho zkomolil)."
+    },
+    {
+      "id": "S39",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Volvo V70 dashboard",
+        "pick": 5
+      },
+      "note": "VolvoV70Instrumentpanelen.jpg — CC BY-SA 4.0: palubka V70 druhé generace (2000–2007) s tlačítky a knoflíky, tedy generace testovaného vozu z roku 2005. MK1 (1996–2000) a T4 SE (třetí generace s displejem) zamítnuty. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "svedsko",
+      "diagram": "110 km/h a čtyři ikony úkolů: SEAT HEATING + TEMPERATURE · RADIO · TRIP COMPUTER · DIM THE LIGHTS",
+      "note": "Výčet = jeden obraz. Úkoly podle factchecku."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "svedsko",
+      "diagram": "silnice v měřítku do 1,5 km; řádek VOLVO V70 (2005): 10 s · 306 m šrafovaně",
+      "note": "Měřítko S41–S44 je JEDNO a pevné, jinak se poměr nepozná. 30,56 m/s × 10 = 306 m.",
+      "pause": 0.6
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "svedsko",
+      "diagram": "přibude řádek MG MARVEL R: 44,9 s · 1 372 m",
+      "note": "Hodnoty z factchecku (Vi Bilägare). Délka úsečky z metrů, `assert` poměru 4,48.",
+      "pause": 0.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "svedsko",
+      "diagram": "oba řádky, mezi nimi popisek > 4× ambrově; SAME JOBS · SAME SPEED",
+      "note": "„More than four times“ — v obraze > 4×, ne 4,48×.",
+      "pause": 0.6
+    },
+    {
+      "id": "S43b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43b.png",
+      "diagram_generator": "svedsko",
+      "diagram": "přibudou řádky DACIA SANDERO 13,5 s · 414 m a VOLVO C40 13,7 s · 417 m, blízko starého Volva",
+      "note": "Klíčový doklad pro S44. Délky z factchecku, totéž měřítko."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "svedsko",
+      "diagram": "tentýž graf čtyř aut; rok výroby ztlumený, místo něj ambrový štítek u každého řádku podle toho, kolik pozornosti rozhraní chce (LOW / HIGH)",
+      "note": "Jádro videa podle uživatele. Kresba přeřadí čtenáře z „staré vs. nové“ na „rozhraní“. Netvrdit „tlačítka vs. dotyk“ — C40 má velký displej a vyšel dobře.",
+      "pause": 2.8
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "telefon",
+      "diagram": "telefon v ruce řidiče přeškrtnutý (křížek na plochu, ne na text)",
+      "note": "Krátký blok, překryv s 089 — nerozvádět."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "telefon",
+      "diagram": "telefon a obrazovka palubky vedle sebe, z oka vedou dvě čáry pohledu pryč od silnice",
+      "note": "„The same basic problem“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "telefon",
+      "diagram": "boční pohled: oko, vodorovná linie pohledu na silnici; obrazovka palubky menší úhel pod linií, telefon v klíně větší úhel; u obrazovky ikona zámku",
+      "note": "„Usually closer“ — žádné konkrétní úhly v obraze (MG 56° vs. Mercedes 20° ukazuje, že se to liší). Zámek = „some functions lock“.",
+      "pause": 0.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "telefon",
+      "diagram": "silnice se šrafovaným úsekem; nad ním ztlumeně telefon i obrazovka, obě vedou do téhož úseku",
+      "note": "„The road doesn't care why“ — oba zdroje končí ve stejné šrafě.",
+      "pause": 2.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "telefon",
+      "diagram": "bublina řeči směřující k palubce, otazník"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "telefon",
+      "diagram": "oko s čarou pohledu na silnici ✓, vedle bublina řeči se zvukovou vlnou",
+      "note": "Hlas pomáhá: pohled zůstává na silnici.",
+      "pause": 0.5
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "telefon",
+      "diagram": "karta UNIVERSITY OF UTAH (táž jako v S31), štítek YEARS OF RESEARCH",
+      "note": "Callback na S31 — stejná karta, stejné souřadnice."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "telefon",
+      "diagram": "oko s čarou pohledu na silnici, ale zorné pole zúžené (kužel se zmenší, okraje ztlumené); stopky REACTION se šipkou SLOWER",
+      "note": "Kognitivní rozptýlení: oči na silnici, přesto méně vnímá. Žádná čísla."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "telefon",
+      "diagram": "dva štítky: HANDS-FREE ✓ a DISTRACTION-FREE (`text_skrtnuty`), pod nimi LESS",
+      "note": "Konec první poloviny. Škrt přes text jen čarou, ať je čitelný.",
+      "pause": 3.0
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "proc",
+      "diagram": "otevřená složka výzkumů s grafy, štítek NOT A SECRET",
+      "note": "Obrat videa."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "proc",
+      "diagram": "skupina pěti postav (`postava`) u tabule s grafem pohledů",
+      "note": "„Whole teams of engineers“. Postavy neutrální, ne karikatura „zlé automobilky“ — video je o pobídkách.",
+      "pause": 0.5
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "proc",
+      "diagram": "palubka (páteř): tlačítka po okrajích, šipky z nich do obrazovky; velké WHY?",
+      "note": "Navrací otázku z S12.",
+      "pause": 0.6
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "proc",
+      "diagram": "ikona továrny a obrazovka s fajfkou, štítek CARMAKER'S SIDE",
+      "note": "Pohled výrobce."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "proc",
+      "diagram": "jedno tlačítko uprostřed, kolem pět štítků: DESIGNED · TESTED · WIRED · FITTED · SPARE PART FOR YEARS",
+      "note": "Pět kroků ze scénáře, nic navíc."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "proc",
+      "diagram": "palubka s několika desítkami spínačů (mřížka) a pod ní svazek kabeláže",
+      "note": "„A few dozen“ — počet spínačů 24–36 (`assert`), bez čísla v obraze."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "proc",
+      "diagram": "spínače z S59 zmizí, zůstane jedna obrazovka; štítky ONE PART + SOFTWARE",
+      "note": "Týž rámec palubky jako S59, ať je výměna vidět.",
+      "pause": 0.5
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "proc",
+      "diagram": "jedna obrazovka vlevo, z ní větve do tří skupin: MODELS · TRIM LEVELS · MARKETS"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "proc",
+      "diagram": "dva řádky: NEW LANGUAGE → SOFTWARE, NEW FEATURE → SOFTWARE",
+      "note": "Opakování slova „software“ je záměr scénáře — v obraze dvakrát totéž slovo."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "proc",
+      "diagram": "oblak → auto, šipka aktualizace, štítek OVER THE AIR",
+      "pause": 1.2
+    },
+    {
+      "id": "S64",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S64.png",
+      "prompt": "a new car in a bright modern showroom, glass walls, polished floor, a large glowing touchscreen visible through the open door, nobody present",
+      "note": "Atmosférický předěl „showroom“. Kotva stylu chce tlumené tóny — showroom má být jasný kontrast proti S66."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "proc",
+      "diagram": "časová osa: krátký jasný úsek A FEW MINUTES (svítící obrazovka) vlevo, za ním dlouhý ztlumený úsek LATER",
+      "note": "Showroom = minuty, jízda = potom. Délky jen kvalitativní, bez let v obraze."
+    },
+    {
+      "id": "S66",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S66.png",
+      "prompt": "view through a car windscreen on an empty dark motorway at night, wet road, distant lights, the dashboard touchscreen glowing in the lower corner",
+      "note": "„Dark motorway“ — noc je tady žádaná, ne `dusk`/`dawn` (ty dávají zlaté světlo).",
+      "pause": 1.4
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "proc",
+      "diagram": "prázdné váhy (`vahy`), štítek TRADE-OFF"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "proc",
+      "diagram": "váhy: na jedné misce CHEAPER TO BUILD · EASIER TO UPDATE, na druhé HARDER TO DRIVE",
+      "note": "Váhy NEROZHODUJÍ, která strana převáží — scénář to netvrdí. Misky ve stejné výšce."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "proc",
+      "diagram": "řada rozhodnutí, každé s fajfkou, šipka na konci padá na postavu řidiče (ambrově)",
+      "note": "Redakční závěr (factcheck). Šipka MUSÍ mířit na řidiče — „the cost lands on the driver“. Bez viníka na začátku řady.",
+      "pause": 3.0
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "zmena",
+      "diagram": "palubka (páteř) s obrazovkou; po stranách se vrací pár fyzických tlačítek (šipka zpět)"
+    },
+    {
+      "id": "S71",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S71.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Volkswagen ID.3 interior",
+        "pick": 2
+      },
+      "note": "Volkswagen ID.3 interior.jpg — CC BY-SA 4.0: volant s dotykovými ploškami a centrální obrazovka. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "zmena",
+      "diagram": "karta: VOLKSWAGEN · HEAD OF DESIGN · 2025 — „A MISTAKE“; pod ní řada fyzických tlačítek",
+      "note": "Mindt řekl „never … make this mistake any more“ — v uvozovkách jen slovo MISTAKE, které opravdu padlo.",
+      "pause": 0.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "zmena",
+      "diagram": "obrys auta na nárazové zkoušce s pěti hvězdami nad ním (ztlumeně)"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "zmena",
+      "diagram": "karta EURO NCAP · 2026 a pět prázdných rámečků pro funkce",
+      "note": "Doloženo sekundárně (factcheck) — obraz netvrdí víc než scénář."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "zmena",
+      "diagram": "pět rámečků z S74 se naplní ikonami: INDICATORS · HAZARD LIGHTS · HORN · WIPERS · EMERGENCY CALL",
+      "note": "Výčet = jeden obraz, stejné rámečky jako S74."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "zmena",
+      "diagram": "obrazovka, ve které jsou ty ikony schované; vedle ukazatel bodů se zmenšeným dílkem (−), pět hvězd ZŮSTÁVÁ",
+      "note": "Míra jistoty: ztráta bodů, NE ztráta hvězdy (5 bodů ze 100). Hvězdy se neškrtají."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "zmena",
+      "diagram": "páčka blinkrů a tlačítko výstražných světel se štítem SAFETY FEATURE",
+      "pause": 2.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "prázdná palubka (páteř) s otazníkem",
+      "note": "Blok „jak má vypadat rozhraní“ se staví do palubky postupně S80–S82."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "palubka s obrazovkou (zůstává) a ukazatel DEMAND ON THE DRIVER posunutý dolů",
+      "note": "„Not fewer computers“ — obrazovka v kresbě zůstává."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "palubka: řada fyzických ovladačů ambrově, oko s čarou pohledu na silnici",
+      "note": "„Find without looking“ — pohled zůstává venku."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "přístroje za volantem a projekce na čelním skle ambrově, blízko čáry pohledu",
+      "note": "Informace tam, kam oči už míří."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "bublina řeči (VOICE) a obrazovka s nastavením se štítkem P / WHEN STOPPED",
+      "pause": 1.2
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "kamera na sloupku míří na oko řidiče; oko dívající se dolů, výstražná ikona",
+      "note": "Kamera míří NA ŘIDIČE, ne na silnici.",
+      "pause": 0.6
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "kamera s fajfkou HELPS, vedle škrtnuté (`text_skrtnuty`) EXCUSE",
+      "pause": 0.6
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "citát v rámečku „Don't worry, the car will watch you…“ a dvě šipky v kruhu obráceně, štítek WRONG WAY ROUND",
+      "note": "Citát je ze scénáře (fiktivní replika), ne citace osoby — bez jména."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "rozhrani",
+      "diagram": "palubka s knoflíkem i obrazovkou, oko s čarou pohledu na silnici; nic nevede na obrazovku",
+      "note": "Callback na S03.",
+      "pause": 2.6
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "diagram_generator": "zaver",
+      "diagram": "časová osa: vlevo éra MECHANICAL ENGINEERING s ikonami motoru a brzdy",
+      "note": "Výčet = jeden obraz."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "diagram_generator": "zaver",
+      "diagram": "táž osa, vpravo přibude éra SOFTWARE: větší obrazovky, menu, aplikace",
+      "pause": 0.5
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "diagram_generator": "zaver",
+      "diagram": "notebook a auto vedle sebe, mezi nimi ≠"
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "diagram_generator": "zaver",
+      "diagram": "notebook: pozornost 100 % na obrazovku; auto: čára pohledu nesmí opustit silnici",
+      "pause": 0.5
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "diagram_generator": "zaver",
+      "diagram": "dva štítky: INFOTAINMENT ztlumeně, nad ním prázdné místo pro to důležitější",
+      "note": "Odpověď (DRIVING) až v S92 — tady ji ještě neukázat.",
+      "pause": 0.4
+    },
+    {
+      "id": "S92",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S92.png",
+      "prompt": "wide view through a car windscreen of an open country road stretching to the horizon, flat grey overcast sky, no sun, fields and distant hills, the dashboard edge dark at the bottom",
+      "note": "„The whole world outside your windscreen“ — zoom_out, svět se otevírá. Chlad počasím (overcast), ne denní dobou. Spadá do okna koncové obrazovky: obloha nahoře má zůstat klidná.",
+      "pause": 1.4
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "diagram_generator": "zaver",
+      "diagram": "palubka s obrovskou obrazovkou v DOLNÍ polovině obrazu, štítek BIGGEST SCREEN? ztlumeně",
+      "note": "Okno koncové obrazovky: HORNÍ polovina volná. Páteř palubky se tu smí posunout (závěrečná deska).",
+      "pause": 0.4
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "diagram_generator": "zaver",
+      "diagram": "táž palubka v dolní polovině, místo obří obrazovky knoflík; čára pohledu z oka na silnici",
+      "note": "Callback na S02–S03. Horní polovina volná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "diagram_generator": "zaver",
+      "diagram": "silnice (páteř na původních souřadnicích): 1 s při 100 km/h = 28 m šrafovaně",
+      "note": "Výplata páteře z S01/S07. 27,8 m/s. Horní polovina volná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "diagram_generator": "zaver",
+      "diagram": "silnice se šrafovanými úseky po 28 m za sebou, štítek PRICE OF A GLANCE: 28 m",
+      "note": "Závěrečná deska, klidná. Horní polovina volná pro dlaždici a kolečko odběru."
+    }
+  ]
+}

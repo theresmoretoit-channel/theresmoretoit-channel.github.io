@@ -1,0 +1,498 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ #1 — ORBITA A ROZSAH SMETÍ. První scéna NENÍ SDXL a nese myšlenku: silueta Země s orbitálními obálkami (LEO, GEO) a rozptýlenými body trosek podle kategorií (družice, stupně, střepy). Žádné AI klišé, čistý kód.",
+      "diagram_generator": "uvod",
+      "diagram": "Země uprostřed, kolem ní orbitální prstence LEO a GEO. V prostoru tečky a symboly různých typů trosek. Nahoře nápis EARTH ORBIT — ~13,000 TONNES OF OBJECTS.",
+      "pause": 0.45
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Detailní výřez z LEO: drobný úlomek/šroubek vedle vektoru rychlosti v > 7 km/s.",
+      "diagram_generator": "uvod",
+      "diagram": "Přiblížený sektor oběžné dráhy. Izolovaný kovový šroubek/střípek s dlouhou šipkou vektoru rychlosti a popiskem v > 7 km/s (25,000+ km/h)."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Kontrast měřítek: obrovský prázdný objem orbitálního prostoru vs. nepatrná tečka smetí. Otázka: proč je to problém?",
+      "diagram_generator": "uvod",
+      "diagram": "Černý prostor s obrovským objemovým čtvercem/krychlí a titěrnou tečkou uprostřed. Nápis SPACE IS ENORMOUS... SO WHY IS THIS A PROBLEM?",
+      "pause": 0.5
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "pause": 0.5,
+      "note": "Fyzika kinetické energie: E_k = 1/2 m v^2. Malý 1cm projektil při 10 km/s má kinetickou energii granátu a náraz roztříští cíl na tisíce dalších úlomků.",
+      "diagram_generator": "uvod",
+      "diagram": "Hypersonický náraz: malý úlomek dopadající na plášť družice, kužel exploze trosek, vzorec E_k = 1/2 m v^2 a nápis 1 CM FRAGMENT = BULLET."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Rétorická kotva: přeškrtnutá pozemská uklízecí technika (smeták, podlaha, popelářský vůz) vs. beztížná nekonečná orbita.",
+      "diagram_generator": "uvod",
+      "diagram": "Symbolické schéma: přeškrtnutá podlaha a popelářské auto, šipky neustálého volného pádu kolem Země s otázkou HOW DO YOU CLEAN ORBIT?"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Gravitace na Zemi vs. na orbitě. Na Zemi padá předmět svisle dolů; na orbitě tečná rychlost znamená neustálé padání za horizont.",
+      "diagram_generator": "mechanika",
+      "diagram": "Dva panely: vlevo pád jablka k podlaze (ON EARTH: STRAIGHT DOWN), vpravo Newtonova kanonická koule a zakřivená trajektorie obíhající Zemi (IN ORBIT: FALLING AROUND EARTH)."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Rychloměr LEO: 7 až 8 km/s, přes 25 000 km/h.",
+      "diagram_generator": "mechanika",
+      "diagram": "Kruhová dráha LEO ve výšce 400 km nad zakřivením Země, velký ukazatel rychlosti: 7.5 km/s (27,000 km/h).",
+      "pause": 0.45
+    },
+    {
+      "id": "S08",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "pause": 0.5,
+      "note": "PICK Z KONTAKTNÍHO LISTU 2026-09-28: důlek po úlomku (odprýsklá barva) na okně raketoplánu STS-7, NASA, public domain. Portrét -> fit 0.84.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Space debris impact on Space Shuttle window",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84,
+          "saturation": 90,
+          "vignette": false
+        }
+      }
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Životnost na dráze podle výšky. Graf výška vs. doba rozpadu (měsíce pod 400 km, staletí v 800 km, tisíciletí nad 1 000 km).",
+      "diagram_generator": "mechanika",
+      "diagram": "Diagram atmosférického brzdění: vrstvy atmosféry na ose Y (200 km, 400 km, 800 km, 1200 km) a doba setrvání na ose X (měsíce -> dekády -> staletí -> tisíciletí)."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Naivní představa odchytu: poslat stíhací loď, chytit satelit a snést dolů. Zvýrazněno červeným otazníkem.",
+      "diagram_generator": "aktivni",
+      "diagram": "Jednoduché schematické znázornění stíhací lodi letící k satelitu s červeným otazníkem a nápisem NOT THAT SIMPLE."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Orbitální rendezvous: vyrovnání drah (Hohmann), synchronizace sklonu a rotace cíle ve třech osách.",
+      "diagram_generator": "aktivni",
+      "diagram": "Orbitální manévr setkání: chaser loď dohánějící rotující satelit s vyznačenými vektory úhlové rychlosti a neřízeného převalování (TUMBLING TARGET)."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Původně SDXL; 2026-09-28 vyšel rozedraný „létající talíř“ (SDXL nezná konkrétní objekt), nahrazeno kresbou. Mrtvá družice s ohnutým panelem a trojí NO ze scénáře.",
+      "pause": 0.5,
+      "diagram_generator": "aktivni",
+      "diagram": "Velká mrtvá družice, ohnutý panel, popisky NO HANDLES / NO DOCKING PORTS / NO WORKING SYSTEMS."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "pause": 0.5,
+      "note": "Extrémní obtížnost přiblížení: oba objekty se řítí rychlostí 7,5 km/s a sebemenší chyba znamená další tříštivou kolizi.",
+      "diagram_generator": "aktivni",
+      "diagram": "Technický diagram přiblížení na vzdálenost metrů: toleranční kužel senzorů (LIDAR), relativní rychlost delta-v = 0.1 m/s při orbitální rychlosti 7.5 km/s."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Původně archive; Commons má k ClearSpace-1 jen logo a emblém (mise neletěla), proto kresba. Cíl od 2024 PROBA-1 (factcheck revize).",
+      "diagram_generator": "aktivni",
+      "diagram": "Loď se čtyřmi rameny sevře malou družici, spojení sestupuje do atmosféry. Vpravo pole drobných úlomků s otazníkem."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Nápad 'prostě to rozstřílet': kinetická protidružicová zbraň mířící na cíl. Červený varovný trojúhelník.",
+      "diagram_generator": "kessler",
+      "diagram": "Schematická raketa mířící na satelit s nápisem WHAT IF WE SHOOT IT DOWN? a velkým výstražným symbolem DANGER.",
+      "pause": 0.5
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Oblak trosek: z 1 tělesa vznikne expanze tisíců úlomků podél orbitální roviny. Příklad testu ASAT / srážky Iridium.",
+      "diagram_generator": "kessler",
+      "diagram": "Rozpad satelitu na oblak 1,000+ červených bodů rozptylujících se v eliptickém prstenci kolem Země. Nápis 1 TARGET -> 1,000 PROJECTILES.",
+      "pause": 0.35
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Kesslerův syndrom: řetězová reakce sekundárních kolizí. Každá srážka násobí počet projektilů.",
+      "diagram_generator": "kessler",
+      "diagram": "Kaskádový diagram: kolize A generuje trosky -> ty zasahují satelity B a C -> geometrický růst počtu úlomků. Nápis KESSLER SYNDROME (1978)."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Nepoužitelná orbita: zablokovaný LEO pás. Přeškrtnuté 'SMASH / DESTROY'. Předchází CTA scéně S18b, proto MUSÍ být statická.",
+      "diagram_generator": "kessler",
+      "diagram": "Husté červené pole trosek obepínající Zemi. Přeškrtnutá ikona exploze s textem WE CANNOT SIMPLY SMASH IT."
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "cta": true,
+      "note": "CTA scéna podle docs/cta.md. Vizuál zděděný z S18 (identický, bez střihu), nápis v levém horním rohu.",
+      "diagram_generator": "kessler",
+      "diagram": "Identický s S18."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Mentální obrat: nemusíme objekt fyzicky odtáhnout ani zastavit. Stačí změnit jeho oběžnou dráhu.",
+      "diagram_generator": "deorbit",
+      "diagram": "Původní kruhová orbita (modrá) a nová eliptická transferová dráha (oranžová). Šipka malé změny rychlosti delta-v. Nápis DON'T TOW IT — CHANGE THE ORBIT.",
+      "pause": 0.4
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Snížení perigea do atmosféry: v nejnižším bodě dráhy objekt narazí na odpor vzduchu (120–150 km) a ztrácí energii.",
+      "diagram_generator": "deorbit",
+      "diagram": "Eliptická dráha, jejíž perigeum (nejnižší bod) protíná modrý závoj horní atmosféry. V perigeu brzdné vlnky a nápis ATMOSPHERIC DRAG."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "pause": 0.5,
+      "note": "Zánik v husté atmosféře: aerotermodynamický rozpad většiny malých objektů. Nová otázka: jak dát objektu malý impuls?",
+      "diagram_generator": "deorbit",
+      "diagram": "Spirálovitý zánik úlomku v atmosféře, tepelný rozpad. Vpravo nápis THE NEW QUESTION: HOW DO WE GIVE IT A TINY PUSH?"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Metoda 1: Robotická odtahovka. Kosmická loď se připojí a zapálí retro-motor.",
+      "diagram_generator": "aktivni",
+      "diagram": "Schéma servisní lodi pevně připojené k nefunkčnímu stupni rakety, malý zážeh trysky proti směru letu (RETRO-BURN)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Výhody a limity robota: funguje na velké věci, ale drahý vývoj, složitá navigace a rendezvous pro každý kus zvlášť.",
+      "diagram_generator": "aktivni",
+      "diagram": "Tabulka kladů a záporů: vlevo zeleně 'LARGE OBJECTS', vpravo červeně 'EXPENSIVE', 'CUSTOM MECHANISM', '1 MISSION = 1 TARGET'.",
+      "pause": 0.45
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Problém škálování: tisíce trosek vs. jednotky misí. Potřebujeme metody, které nemusí ke každému kousku létat.",
+      "diagram_generator": "aktivni",
+      "diagram": "Porovnání počtu: 1 servisní loď vlevo vs. obrovský shluk 10,000 trosek vpravo. Šipka vedoucí k bezkontaktním metodám."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Původně archive; RemoveDEBRIS je na Commons jen jako krabička vypuštěná z ISS, bez sítě — scéna vysvětluje princip, proto kresba ve třech krocích.",
+      "diagram_generator": "aktivni",
+      "diagram": "Tři kroky: loď vystřelí síť, síť obalí úlomek, loď ho táhne dolů."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Výhoda sítě: nepotřebuje přesný dokovací bod ani madlo, obepne jakýkoli nepravidelný tvar.",
+      "diagram_generator": "aktivni",
+      "diagram": "Technický řez: síť s rohovými závažími uzavírající rotující nepravidelný úlomek. Popisek NO DOCKING PORT NEEDED.",
+      "pause": 0.5
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "pause": 0.5,
+      "note": "Riziko sítě: dynamika lana při 7 km/s, nebezpečí zamotání antén nebo zachycení vlastního vlečného plavidla.",
+      "diagram_generator": "aktivni",
+      "diagram": "Diagram letu sítě: lanko, napínací síly, výstražný symbol u nebezpečí zamotání (TANGLE RISK AT 7 KM/S)."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Metoda 3: Laser. Žádná sci-fi smrtící zbraň na rozstřelení družice, ale nástroj na udělení jemného brzdného impulsu.",
+      "diagram_generator": "laser",
+      "diagram": "Pozemní nebo orbitální laserová stanice vysílající paprsek k úlomku. Přeškrtnutá ikona exploze. Text: NOT A WEAPON — AN ORBITAL BRAKE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Fyzika radiačního tlaku: fotony nemají klidovou hmotnost, ale nesou hybnost p = E/c. Odraz fotonu předá hybnost objektu.",
+      "diagram_generator": "laser",
+      "diagram": "Kvantově-mechanický diagram: fotony dopadající na zrcadlový povrch a odrážející se zpět, vzorec p = E/c a vektor vyvolané síly F = 2P/c."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Kumulace radiačního tlaku v čase: v pozemských podmínkách nepostřehnutelné, ve vakuu orbitu měřitelně posune.",
+      "diagram_generator": "laser",
+      "diagram": "Časová osa působení: nepatrná síla (mikronewtony) působící kontinuálně po stovky oběhů, křivka narůstající změny trajektorie."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Laserová ablace: intenzivní pulzní laser odpaří tenkou mikrovrstvičku materiálu na povrchu tělesa na plazma.",
+      "diagram_generator": "laser",
+      "diagram": "Detail povrchu tělesa: zaostřený laserový pulz, bleskový ohřev mikroskopického bodu, vznik horkého expandujícího plazmatu.",
+      "pause": 0.35
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "pause": 0.5,
+      "note": "Ablace jako raketový motor: odpařený materiál tryská pryč, těleso dostává opačný impuls. Palivem je těleso samo!",
+      "diagram_generator": "laser",
+      "diagram": "Vektorový diagram reaktivního impulsu: výtrysk plazmatu směrem vpravo (v_ex), opačný vektor síly na satelit vlevo (F_reac). Popisek THE TARGET BECOMES ITS OWN ROCKET ENGINE."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Proč laser stačí: nepotřebujeme změnu rychlosti o kilometry za sekundu, stačí desítky centimetrů až jednotky m/s.",
+      "diagram_generator": "laser",
+      "diagram": "Porovnání měřítek rychlosti: dlouhý sloupce celkové rychlosti 7,500 m/s vs. miniaturní proužek potřebné delta-v: jen 1 až 5 m/s!"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Dlouhodobý efekt na orbitu: po 50 až 100 obězích se nepatrná změna rychlosti promítne do znatelného poklesu perigea.",
+      "diagram_generator": "laser",
+      "diagram": "Evoluce oběžné dráhy: původní dráha (modrá) se po impulsech postupně stáčí a klesá směrem k atmosféře (oranžové postupné elipsy po N obězích)."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Kompletní řetězec: Laser -> Ablace -> Snížení perigea -> Atmosférický odpor -> Zánik. Laser neničí, laser brzdí.",
+      "diagram_generator": "laser",
+      "diagram": "Infografický přehled 4 kroků v řadě: 1. Laser impulse -> 2. Perigee drops -> 3. Air drag takes over -> 4. Safe burn-up."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Překážka 1: Přesnost zaměření. Trefit 3cm úlomek na vzdálenost 800 km vyžaduje sub-obloukovou přesnost sledování.",
+      "diagram_generator": "laser",
+      "diagram": "Teleskop na Zemi mířící na 800 km vzdálený úlomek, kužel nepřesnosti zaměření a radarový lock (TARGET ACQUISITION: 3 CM AT 800 KM)."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Překážka 2 a 3: Obrovský energetický výkon a turbulence v atmosféře, která paprsek rozptyluje.",
+      "diagram_generator": "laser",
+      "diagram": "Pozemní laser procházející vlnící se atmosférickou vrstvou (ATMOSPHERIC DISTORTION) a zrcadlo adaptivní optiky, které deformaci koriguje.",
+      "pause": 0.45
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "pause": 0.5,
+      "note": "Překážka 4: Riziko chybného směru impulsu. Špatné načasování může dráhu zvýšit místo snížení.",
+      "diagram_generator": "laser",
+      "diagram": "Dva scénáře impulsu: správný retro-impuls proti vektoru v (perigee drops) vs. chybný impuls ve směru v (orbit expands into higher altitude)."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Metafora orbitální brzdy: laser jako bezkontaktní brzdový třmen pro oběžnou dráhu.",
+      "diagram_generator": "laser",
+      "diagram": "Stylizovaný diagram orbitální brzdy: paprsek působící přesně proti směru pohybu s nápisem CONTACTLESS ORBITAL BRAKE."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Hmotnostní limit laseru: pro vícetunové družice vyžaduje změna hybnosti nerealistické množství energie. Laser je pro malé trosky.",
+      "diagram_generator": "prevence",
+      "diagram": "Křivka energie vs. hmotnost: malý úlomek (gramy až kilogramy) v zelené zóně laseru, 5tunový satelit v červené zóně astronomické spotřeby energie.",
+      "pause": 0.5
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Matice technologií: Roboti na velké kusy, sítě na nekontrolované střední, lasery na malé úlomky.",
+      "diagram_generator": "prevence",
+      "diagram": "Přehledná matice 3 sloupců: LARGE (Robots/tugs) | MEDIUM (Nets/harpoons) | SMALL DEBRIS (Lasers/ablation).",
+      "pause": 0.5
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "pause": 0.5,
+      "note": "Konstrukční prevence: nejlevnější smetí je to, které nikdy nevznikne. Deorbitace družic na konci životnosti.",
+      "diagram_generator": "prevence",
+      "diagram": "Schéma moderní družice s deorbitačním systémem na konci mise. Zlatý citát: THE CHEAPEST SPACE JUNK NEVER BECOMES SPACE JUNK."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Exponenciální nárůst startů: graf vypuštěných družic ročně od roku 1957 po mega-konstelace současnosti.",
+      "diagram_generator": "prevence",
+      "diagram": "Časová osa startů od roku 1957 do 2026: strmý exponenciální nárůst v letech 2020+ (satellites launched per year).",
+      "pause": 0.5
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Čtyři pilíře prevence: pravidla opuštění dráhy (5 let), pasivace nádrží, sledování a manévry proti srážkám.",
+      "diagram_generator": "prevence",
+      "diagram": "Čtyři ikony: 1. 5-Year Deorbit Rule, 2. Tank Passivation (no explosions), 3. Collision Avoidance, 4. Design for Demise.",
+      "pause": 0.5
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Klíčová metafora scénáře: sofistikovaný vysavač usilovně luxující podlahu, na kterou lidé nepřetržitě sypou další odpad.",
+      "diagram_generator": "prevence",
+      "diagram": "Dva kontrastní panely: vlevo high-tech robotický vysavač, vpravo pásový dopravník sypající další odpadky na podlahu. Nápis SOPHISTICATED VACUUM CLEANERS... WHILE THROWING TRASH ON THE FLOOR."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Závěrečná syntéza: neexistuje jeden kouzelný stroj, ale koordinovaná kombinace technologií.",
+      "diagram_generator": "zaver",
+      "diagram": "Země chráněná soustavou propojených technologií (roboti, lasery, sítě, mezinárodní pravidla). Nápis A COMBINATION OF TECHNOLOGIES."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Rekapitulace rolí: roboti, sítě, lasery, sledování a inženýrská pravidla.",
+      "diagram_generator": "zaver",
+      "diagram": "Systémový diagram propojující 5 prvků ochrany nízké oběžné dráhy (ROBOTS, NETS, LASERS, TRACKING, RULES).",
+      "pause": 0.5
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Základní myšlenka videa: v kosmu nemusíme objekt odvézt, stačí mu dát malý impuls a gravitace s atmosférou udělají zbytek. Opraveno 2026-09-28: ~100 m/s, asi 1 % rychlosti (factcheck revize).",
+      "diagram_generator": "zaver",
+      "diagram": "Jednoduchý čistý závěrečný diagram: šipka nepatrného impulsu delta-v a atmosférický zánik. Nápis JUST A TINY PUSH — GRAVITY DOES THE REST.",
+      "pause": 0.5
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Přechod k dalším exotickým nápadům: tlumené ikony dosavadních metod uvolňují prostor pro dosud neprozkoumané koncepty.",
+      "diagram_generator": "zaver",
+      "diagram": "Tři dosavadní metody ztlumené v pozadí, v popředí otazníky a rozsvěcující se ikony pro exotické technologie."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Závěrečná deska a teaser na Part 2: ikony harpun, plachet, magnetických polí, tetherů a Slunce. Vpravo volná plocha pro karty YouTube.",
+      "diagram_generator": "zaver",
+      "diagram": "Vlevo 5 ikon pro Part 2 (HARPOONS, GIANT SAILS, MAGNETIC DOCKING, ELECTRODYNAMIC TETHERS, SUNLIGHT). Vpravo volný prostor pro YouTube end cards."
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook musí být SKUTEČNÝ stroj — celé video stojí na tom, že to vypadá jako vrtulník. SDXL by nakreslil vrtulník a obraz by lhal. Dotaz ověřen přes --search: `autogyro flight` pick 1 je moderní MTO-Sport za letu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "autogyro flight",
+        "pick": 1,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Původně archiv. Commons ale na `gyroplane grass airfield landing` ani na `autogyro takeoff run runway` nevrací nic použitelného, a dosazovat místo toho libovolnou fotku by znamenalo obrázek, který scénu nenese. Kresba to unese líp, protože scéna tvrdí DVĚ věci naráz (krátký prostor a bezpečné přistání bez motoru).",
+      "diagram_generator": "uvod",
+      "diagram": "krátká dráha s vyznačenou délkou rozjezdu a dojezdu; vedle stroj a dvě ikony: krátký vzlet, krátké přistání; a druhá půlka: zhasnutý motor a přesto řízené klesání"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "REVEAL. Tady se poprvé pojmenují dvě věci, na kterých stojí celé video — rotor a vrtule. Kreslené, ne fotka: fotka ukáže stroj, diagram ukáže ROZDĚLENÍ rolí. Silueta se vrací v S08 a S65.",
+      "diagram_generator": "uvod",
+      "diagram": "boční silueta gyroplánu s popisky ROTOR (nepoháněný, nahoře) a PROPELLER (poháněný, vzadu); nadpis GYROPLANE, pod ním menší AUTOGYRO"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Pointa první části. Tvrzení nese CHYBĚJÍCÍ čára — proto se nekreslí přeškrtnutá spojka, ta by říkala „spojení je rozbité“ místo „žádné tam není“.",
+      "diagram_generator": "uvod",
+      "diagram": "tentýž stroj jako S03, ale motor a vrtule svítí ambrově a od motoru vede plná čára K VRTULI; k rotoru NEVEDE ŽÁDNÁ ČÁRA, u hřídele je popisek NO DRIVE SHAFT",
+      "pause": 2.6
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Referenční obraz vrtulníku. Vrací se v S23 a S30, takže musí být stejný stroj ze stejné strany.",
+      "diagram_generator": "uvod",
+      "diagram": "vrtulník: motor ambrově, plná čára k HLAVĚ ROTORU, kolem rotoru šipka otáčení; nad ním svislá šipka LIFT a nakloněná varianta s popiskem TILT TO MOVE"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Dvě šipky proti sobě. Velikost šipek nese tvrzení — trupová musí být MENŠÍ, jinak obraz říká, že se trup točí stejně rychle jako rotor.",
+      "diagram_generator": "uvod",
+      "diagram": "týž vrtulník: velká šipka otáčení rotoru jedním směrem, pod ní menší šipka otáčení TRUPU opačným směrem, popisek REACTION"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Slovo USUALLY musí být V OBRAZE. Bez něj diagram tvrdí, že jinak to nejde — a fact check má u S07 výslovně, že koaxiální, tandemové a NOTAR stroje existují.",
+      "diagram_generator": "uvod",
+      "diagram": "vrtulník s vyrazeným ocasním rotorem, šipka jeho tahu proti reakčnímu momentu; popisek TAIL ROTOR a pod ním menší USUALLY"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Návrat siluety z S03. Rozdíl proti S04 je, že tady je vrtule POINTA, ne absence hřídele.",
+      "diagram_generator": "uvod",
+      "diagram": "silueta gyroplánu z S03: od motoru plná ambrová čára K VRTULI, popisek PROPELLER; rotor nahoře tlumeně, bez spojení"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "První výskyt slova AUTOROTATION. Proudění tu smí být naznačené — rozklad přijde až v S11–S17, takže tady by detail předběhl výklad.",
+      "diagram_generator": "uvod",
+      "diagram": "gyroplán letící doprava: velká šipka THRUST od vrtule dopředu, proud vzduchu zprava nalevo přes rotor, kolem rotoru šipka otáčení; nadpis AUTOROTATION"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Šipková řádka ze zdrojového scénáře, která se do hlasu nedostala (mluví se výčtem). Tady je na svém místě — diagram unese šipky, TTS ne.",
+      "diagram_generator": "uvod",
+      "diagram": "vodorovný řetěz šesti článků: ENGINE -> PROPELLER -> FORWARD MOTION -> AIRFLOW -> SPINNING ROTOR -> LIFT, poslední ambrový"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Otázka, ne odpověď. Blok S11–S17 je podle uživatele NOSNÁ ČÁST videa a chtěl ho výslovně jako diagram, ne jako další výklad.",
+      "diagram_generator": "autorotace",
+      "diagram": "obraz z S09 ztlumený, přes něj velký otazník u rotoru a nápis WHY DOES IT SPIN?",
+      "pause": 2.2
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Klíčový kontrast celého videa. Musí být čitelný na jeden pohled: stejný rám, stejná velikost, liší se jen sklon disku a směr šipek. Naklonění disku dozadu je to, co dělá zbytek.",
+      "diagram_generator": "autorotace",
+      "diagram": "dva stroje vedle sebe v řezu: vlevo HELICOPTER se šipkami proudění SHORA DOLŮ diskem, vpravo GYROPLANE s diskem nakloněným dozadu a šipkami ZDOLA NAHORU; popisky FLOW DOWN / FLOW UP"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Krok 1 ze tří. S13, S14 a S15 jsou TENTÝŽ obrázek ve třech krocích, ne tři různé kresby — divák musí vidět, že se do jednoho obrazu přidává. Profil listu se nesmí mezi kroky pohnout.",
+      "diagram_generator": "autorotace",
+      "diagram": "JEDEN list rotoru z boku (profil) uprostřed plátna: vodorovná šipka obvodové rychlosti BLADE'S OWN MOTION a svislá šipka zdola AIR FROM BELOW; obě jen naznačené, výsledná zatím NE"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Krok 2. Tvrzení nese ÚHEL: síla musí být viditelně nakloněná před svislou osu, jinak obraz neříká nic. Referenční svislice tam proto musí být, aby bylo proti čemu měřit.",
+      "diagram_generator": "autorotace",
+      "diagram": "týž profil listu: ke dvěma šipkám přibude jejich VEKTOROVÝ SOUČET (RESULTANT FLOW) zdola šikmo, a na něj kolmá výsledná síla nakloněná DOPŘEDU; tenká svislá osa jako reference"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Krok 3 a pointa bloku. Ambrová je jen ta vodorovná složka — ta je novinka.",
+      "diagram_generator": "autorotace",
+      "diagram": "týž profil listu: výsledná síla rozložená na dvě složky — svislou LIFT a vodorovnou DRIVES THE ROTOR ambrově, ve směru otáčení",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "DVĚ PASTI Z FACT CHECKU. (1) Hnací pás patří DOPROSTŘED listu, ne ke kořeni — u kořene je ztrátová oblast, která brzdí, takže „u náboje to pohání“ by byla chyba. (2) Procenta (25 / 25–70 / 30 %) se do obrázku NEPÍŠOU: platí pro vrtulník v autorotaci, kdežto gyroplán v dopředném letu má navíc asymetrii postupujícího a ustupujícího listu.",
+      "diagram_generator": "autorotace",
+      "diagram": "rotor SHORA, jeden list rozdělený na tři pásy: u kořene tlumený bez popisku, UPROSTŘED ambrový pás DRIVEN (u něj malý profil se STRMÝM proudem), u konce pás DRAGS (malý profil s PLOCHÝM proudem); ŽÁDNÁ procenta poloměru"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Konec bloku. Rovnováha se kreslí jako vyvážená — jakýkoli náklon by tvrdil, že jedna strana vyhrává. Miska vah musí být `close=True`, jinak nemá levou stěnu (past z třináctého videa).",
+      "diagram_generator": "autorotace",
+      "diagram": "váhy nebo dvě protilehlé šipky v rovnováze: DRIVING proti DRAGGING, uprostřed ustálené otáčky; kolem toho kruhová šipka zpětné vazby s popiskem SETTLES BY ITSELF",
+      "pause": 2.6
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Krátká scéna, obrat. Otazník je záměrný — odpověď je až v S19.",
+      "diagram_generator": "moment",
+      "diagram": "dvě dlaždice: FREE (rotor se točí sám) plně, vedle ní NOT COMPLETELY (ambrově) s otazníkem"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Výměna, ne ztráta — proto váhy, ne přeškrtnutí. Spodní pruh je návrat k S04.",
+      "diagram_generator": "moment",
+      "diagram": "váha s dvěma miskami: vlevo SOME FORWARD SPEED, vpravo ENERGY TO KEEP IT SPINNING; pod tím pruh s nápisem STILL NO ENGINE-DRIVEN ROTOR SHAFT"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Otázka, kterou si divák položil sám. Kruhová šipka kolem trupu je to, čeho se bojí.",
+      "diagram_generator": "moment",
+      "diagram": "silueta gyroplánu s velkým otazníkem a kruhovou šipkou kolem CELÉHO trupu; nápis SHOULDN'T IT SPIN?"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Scénář poctivě připouští, že momenty existují — obraz to musí připustit taky, jen tlumeně. Úplné vymazání šipky by tvrdilo víc než scénář.",
+      "diagram_generator": "moment",
+      "diagram": "tentýž obraz: kruhová šipka kolem trupu ztlumená, vedle malý popisek YES, THERE ARE AERODYNAMIC TORQUES"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Nosný kontrast bloku. Stejné rotory, liší se jen zdroj otáčení.",
+      "diagram_generator": "moment",
+      "diagram": "dva rotory vedle sebe: vlevo DRIVEN BY AN ENGINE s plnou čarou od motoru, vpravo DRIVEN BY THE AIRFLOW s proudnicemi; mezi nimi svislá dělicí čára"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Návrat obrazu z S05, teď s momentem. Musí to být tentýž stroj ze stejné strany.",
+      "diagram_generator": "moment",
+      "diagram": "vrtulník z S05: od motoru plná ambrová čára k rotoru, popisek CONTINUOUS TORQUE, kolem listů šipky odporu DRAG"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Akce a reakce musí být STEJNĚ VELKÉ šipky, jinak obraz tvrdí, že jedna vyhrává.",
+      "diagram_generator": "moment",
+      "diagram": "detail listu vrtulníku: šipka ROTOR PUSHES od listu do vzduchu a proti ní stejně velká AIR PUSHES BACK; pod tím kruhová šipka REACTION TORQUE"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Protějšek S23. Tenká hřídel proti tlusté ambrové čáře v S23 nese celý rozdíl.",
+      "diagram_generator": "moment",
+      "diagram": "rotor gyroplánu: hřídel kreslená TENKOU čarou s popiskem FREE-SPINNING, kolem listů proudnice; od motoru nevede k rotoru nic"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Přes NÁPIS se škrtá vodorovnou čarou (`skrt_text`), ne křížkem — pod plným křížkem se text nepřečte a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "moment",
+      "diagram": "svislý řez hřídelí gyroplánu se škrtnutým popiskem NO LARGE ENGINE TORQUE HERE; škrt VODOROVNOU čarou, ne křížkem"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "POZOR NA HEDGING. Fact check to má výslovně: gyroplán ocasní plochy MÁ, jen ne poháněný vyrovnávací rotor. Kdyby obraz ukázal holý ocas, tvrdil by nepravdu. Proto je v obraze i kormidlo s vlastním popiskem.",
+      "diagram_generator": "moment",
+      "diagram": "gyroplán z boku: v místě, kde by byl ocasní rotor, je prázdno s tlumeným obrysem a popiskem NOT NEEDED FOR THIS; vedle svislá ocasní plocha zvýrazněná s popiskem RUDDER: STEERING",
+      "pause": 2.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Ocásek bubliny je OTEVŘENÁ lomená čára, ne uzavřený trojúhelník — jinak má horní hranu přes ústí a maže se to čarou v barvě pozadí, která ukousne kus obrysu (past z 13. videa).",
+      "diagram_generator": "viseni",
+      "diagram": "bublina s replikou SO THIS IS JUST A CHEAP HELICOPTER? a pod ní menší NOT QUITE"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Největší pointa prostředního bloku. Nejdelší pauza v celém videu.",
+      "diagram_generator": "viseni",
+      "diagram": "velký nápis IT CAN'T HOVER přes celé plátno, pod ním malá silueta gyroplánu stojící na místě s klesající šipkou",
+      "pause": 2.8
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Uzavírá dvojici obrazů z S05 a S12 — tentýž pár strojů potřetí, takže musí sedět kompozičně.",
+      "diagram_generator": "viseni",
+      "diagram": "vedle sebe: HELICOPTER v visu s proudem dolů a popiskem LIFT AT ZERO SPEED, GYROPLANE s vodorovnou šipkou a popiskem NEEDS AIRFLOW"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Škrtá se ŠIPKA (plocha bez písma), takže tady křížek smí. Ale opatrně: o čtyři scény dál se to částečně opraví (S34–S37), takže škrt nesmí být triumfální.",
+      "diagram_generator": "viseni",
+      "diagram": "gyroplán se svislou šipkou vzhůru, přes šipku vodorovný škrt; vedle vodorovná šipka s popiskem THIS WAY INSTEAD"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Rostoucí otáčky nesou celou scénu. Tři fáze, ne pět — víc by se v šířce plátna slilo.",
+      "diagram_generator": "viseni",
+      "diagram": "vodorovná osa rozjezdu, nad ní tři fáze stroje zleva doprava: stojící (rotor pomalu), rozjíždějící se (rotor rychleji), vzlétající; nad rotory rostoucí značka otáček"
+    },
+    {
+      "id": "S33",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S33.png",
+      "note": "Předroztočení a krátký rozjezd. PAN doprava kopíruje směr rozjezdu, takže pohyb tady nese obsah — na rozdíl od diagramů, kde ruší. Dotaz ověřen přes --search.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "gyrocopter",
+        "pick": 4,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Twist začíná. Ručička nad běžnou oblastí je celý obsah scény.",
+      "diagram_generator": "skok",
+      "diagram": "otáčkoměr rotoru: normální letová oblast tlumeně, nad ní ambrový úsek s popiskem SPUN UP FURTHER; vedle silueta stroje stojícího na místě"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Proč jde rotor roztočit NAD letové otáčky: ploché listy nekladou odpor. Bez toho je skokový vzlet nepochopitelný. Navazuje na profil listu z S13–S15 — stejný profil, jiný úhel.",
+      "diagram_generator": "skok",
+      "diagram": "profil listu s ÚHLEM NASTAVENÍ TÉMĚŘ NULOVÝM (list naplocho), popisek BLADES FLAT — ALMOST NO LIFT; vedle šipka roztáčení a otáčkoměr nad letovou oblastí"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "PAST Z FACT CHECKU: šest metrů je výška JEDNOHO SKOKU, ne dostup. Měřítko proto musí být krátké a ukončené — žádná šipka pokračující vzhůru, ta by tvrdila stoupání.",
+      "diagram_generator": "skok",
+      "diagram": "tentýž profil listu skokově překlopený do kladného úhlu (šipka změny), vedle stroj vyskakující od země se svislou šipkou a měřítkem ABOUT SIX METRES"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Nejdůležitější obraz bloku. Bez něj by celý blok popíral S29 a S31. Uživatel to označil za dramaturgicky nejčistší místo — obraz to musí unést stejně jasně jako text.",
+      "diagram_generator": "skok",
+      "diagram": "stroj v nejvyšším bodě skoku, ambrová vodorovná šipka MUST FLY FORWARD NOW; vedle přeškrtnutý symbol visu s popiskem NO HOVER AT THE TOP"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Uzavření bloku a předobraz závěru — tentýž obraz se vrací v S65 a S66.",
+      "diagram_generator": "skok",
+      "diagram": "tři sloupce: AEROPLANE, GYROPLANE (uprostřed, ambrově), HELICOPTER; pod gyroplánem popisky ROTOR (od vrtulníku) a PROPELLER (od letadla) se šipkami z obou stran",
+      "pause": 2.4
+    },
+    {
+      "id": "S39",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "note": "Atmosférická scéna, jediná v prostředku videa. Ticho po vysazení motoru se nedá nakreslit diagramem. **STROJ SE NEKRESLÍ**: SDXL na 'rotorcraft' i na 'gyroplane' nakreslil vrtulník s vyrovnávacím rotorem — tedy přesně to, o čem video šest minut říká, že to tohle není. Nese to prázdná obloha, ne stroj.",
+      "prompt": "vast empty sky seen from high altitude over a flat patchwork of fields, thin high cloud, late afternoon haze, low horizon far below, painterly, quiet, nothing in the sky, no text"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Dvě referenční situace před pointou. U vrtulníku je klíčové slovo ENTERS — divák musí vidět, že to je krok, který někdo musí udělat.",
+      "diagram_generator": "motor",
+      "diagram": "dva pruhy: AEROPLANE — motor zhasl, stroj se mění v GLIDER; HELICOPTER — pilot ZAHAJUJE autorotaci, u toho popisek PILOT MUST ACT"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Pointa celého videa o bezpečnosti. Kontrast je v jasu: vrtule tlumená, rotor plný.",
+      "diagram_generator": "motor",
+      "diagram": "gyroplán s nápisem ALREADY IN AUTOROTATION; u vrtule tlumený škrt, rotor svítí a točí se dál",
+      "pause": 2.6
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Nejsilnější možný obraz: TENTÝŽ řetěz jako v S10, jen s uříznutým začátkem. Divák ho zná, takže hned vidí, co zbylo. Proto musí být kompozičně shodný s S10.",
+      "diagram_generator": "motor",
+      "diagram": "řetěz z S10 s přerušeným prvním článkem: ENGINE škrtnutý, PROPELLER tlumený, ale AIRFLOW -> SPINNING ROTOR -> LIFT dál plné a ambrové"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Klesání musí být STRMÉ, ne pozvolné jako u letadla — gyroplán má menší klouzavost a fact check to má výslovně. Pozvolná dráha by tvrdila dolet, který nemá.",
+      "diagram_generator": "motor",
+      "diagram": "klesající dráha k zemi s popiskem CONTROLLED DESCENT, na konci značka přistání; vedle menší tlumený nápis THIS ISN'T MAGIC"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Čtyři podmínky ze scénáře, čtyři dlaždice. Nic navíc.",
+      "diagram_generator": "motor",
+      "diagram": "čtyři dlaždice v řadě: ALTITUDE, SPEED, LANDING AREA, COMPETENT PILOT"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "SPLÁCÍ BLOK O AUTOROTACI. Rotor se točí, protože je zatížený — proto se sem vrací tentýž profil listu. Bez té vazby by to byl náhodný bezpečnostní disclaimer.",
+      "diagram_generator": "motor",
+      "diagram": "profil listu z S13–S15 podruhé: vlevo ZATÍŽENÝ rotor s proudem zdola a plnými šipkami (KEEPS SPINNING), vpravo ODLEHČENÝ rotor s tenkými šipkami a klesajícími otáčkami (UNLOADED)"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "PAST Z FACT CHECKU, výslovně: NEKRESLIT jako „motor zhasl -> nos dolů“. Příčina je poloha tahové osy nad těžištěm a odlehčený rotor, ne vysazení motoru. Motor v téhle scéně BĚŽÍ.",
+      "diagram_generator": "motor",
+      "diagram": "stroj z boku: tahová osa vrtule vedená VYSOKO nad značkou těžiště, z toho klopivá šipka nosem dolů, popisek OLDER DESIGNS; vedle moderní stroj s tahovou osou blíž těžišti a s vodorovnou ocasní plochou, popisek BUILT AGAINST IT"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Návrat k pozitivu po třech scénách výhrad. Obě šipky STEJNĚ VELKÉ — v tom je tvrzení.",
+      "diagram_generator": "motor",
+      "diagram": "gyroplán s běžícím i zhasnutým motorem vedle sebe, u obou stejná svislá šipka LIFT; nadpis LIFT DOESN'T DEPEND ON THE ENGINE",
+      "pause": 2.4
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Osa musí mít data v obraze od prvního snímku (zpětná vazba: prázdné osy čte divák jako rozbitý graf). Zakrytý je jen letopočet, ne celá osa.",
+      "diagram_generator": "historie",
+      "diagram": "časová osa zprava doleva: dnešní ultralight gyroplán vpravo, šipka doleva hluboko do minulosti, konec osy zatím zakrytý otazníkem"
+    },
+    {
+      "id": "S49",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Portrét Ciervy. STATIC a `fit` — zpětná vazba k prvnímu i čtvrtému videu: na portrét se NENAJÍŽDÍ, jinak se uřízne čelo. Celá hlava s odstupem, jméno vedle.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Juan de la Cierva",
+        "pick": 2,
+        "grade": {
+          "fit": 0.8
+        }
+      }
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "PŮVODNĚ ARCHIV, ZMĚNĚNO PO OVĚŘENÍ. Commons nemá fotku Ciervy C.4 — vrací jen pozdější typy (C.7 1927, C-8L 1928, C.30). Ukázat je u věty „His C four made its first successful flight\" by byla falešná atribuce: divák by je četl jako C.4. Kresba tvrdí jen to, co scénář říká — rok a stroj té třídy.",
+      "diagram_generator": "historie",
+      "diagram": "velký letopočet 1923 nad kreslenou siluetou raného vírníku s pádlovitým rotorem; pod tím GETAFE, MADRID a menší popisek o prvních třech neúspěšných typech"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Scénář říká jen `contributed ideas`, tedy obecně. Diagram smí ukázat KTERÝ kloub, protože to je doložené — ale NESMÍ tvrdit, že Cierva vynalezl vrtulník. Proto dvě rovnocenné šipky, ne jedna vedoucí k vrtulníku.",
+      "diagram_generator": "historie",
+      "diagram": "hlava rotoru s vyznačeným MÁVACÍM KLOUBEM, od ní dvě šipky doprava k siluetám: GYROPLANE a HELICOPTER; nadpis ONE IDEA, TWO AIRCRAFT"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Pořadí na ose je celé tvrzení: gyroplán je VLEVO od vrtulníků. Kdyby byl vpravo nebo vedle, obraz by popíral scénář.",
+      "diagram_generator": "historie",
+      "diagram": "časová osa z S48 doplněná: 1923 GYROPLANE (ambrově) vlevo, 1936 a 1939 první vrtulníky vpravo; škrtnutý popisek CHEAP ALTERNATIVE TO HELICOPTERS"
+    },
+    {
+      "id": "S53",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Cierva C.30 — nejrozšířenější typ, most mezi historií a dneškem. Ukončuje historický blok. Dotaz ověřen přes --search.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "autogiro Cierva",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86
+        }
+      },
+      "pause": 2.4
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Nájezd na čísla. Sloupce už tady musí být ve SKUTEČNÉM poměru, ne „nějak nižší“ — v S55 se k nim doplní procenta a poměr se nesmí změnit.",
+      "diagram_generator": "cena",
+      "diagram": "dva sloupce vedle sebe: GYROPLANE nízký ambrový, HELICOPTER vysoký tlumený; zatím bez čísel, jen popisky PURCHASE PRICE"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "PAST: sloupec musí odpovídat naměřenému rozpětí 22-41 %, ne „výrazně nižší“. A hedging DEPENDING ON THE MODEL patří do obrazu — fact check má horní okraj natěsno.",
+      "diagram_generator": "cena",
+      "diagram": "tytéž sloupce s vyznačeným pásmem 20 % až 40 % na gyroplánovém sloupci a popiskem ROUGHLY 20-40% OF THE PRICE; pod tím drobně DEPENDING ON THE MODEL"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Rozsah se kreslí jako PÁSMO, ne jako sloupec s jednou hodnotou. Fact check: silnější motory jdou nad dvacet litrů, takže jedno číslo by bylo nepravdivé.",
+      "diagram_generator": "cena",
+      "diagram": "palivoměr nebo kanystry: pásmo 10 AŽ 20 LITRES PER HOUR jako rozsah, ne jedno číslo; pod tím tlumeně A SMALL GYROPLANE, DEPENDING ON THE ENGINE"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Auto jako měřítko je to, co dělá číslo srozumitelným. Ale tlumeně — scéna je o gyroplánu.",
+      "diagram_generator": "cena",
+      "diagram": "přepočet: 140 KM/H a pásmo 7 AŽ 14 LITRES PER 100 KM, vedle tlumená silueta auta jako měřítko"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Hodnotící scéna, takže náklon vah SMÍ vyhrávat — na rozdíl od S17, kde je rovnováha fakt.",
+      "diagram_generator": "cena",
+      "diagram": "váha: na jedné misce NOT EXACTLY ECONOMICAL, na druhé ambrově IT FLIES; miska s létáním níž"
+    },
+    {
+      "id": "S59",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S59.png",
+      "note": "Atmosférický oddech před závěrem. Pohled, kvůli kterému člověk létá — ne stroj. Odjezd otevírá krajinu. Model gyroplán neumí, viz S39.",
+      "prompt": "aerial view of rolling farmland, hedgerows and a river in warm evening light, long shadows, low horizon, wide open sky, painterly, nothing in the sky, no text",
+      "pause": 2.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Návrat k otázce. Seznam je v obraze ztlumený od prvního snímku — prázdné místo by divák četl jako rozbitý obraz.",
+      "diagram_generator": "zaver",
+      "diagram": "velký nápis SO WHY DOESN'T EVERYONE FLY ONE? a pod ním tlumený seznam čtyř výhod, který se vyplní v S61 a S62"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Tři plusy ze scénáře, tři položky.",
+      "diagram_generator": "zaver",
+      "diagram": "tři odškrtnuté položky: NO POWERED MAIN ROTOR, SURVIVES ENGINE FAILURE, RESPECTABLE SPEEDS"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Doplnění seznamu ze S61. Musí to být tentýž seznam na témž místě.",
+      "diagram_generator": "zaver",
+      "diagram": "čtvrtá odškrtnutá položka MUCH CHEAPER TO BUY AND OPERATE, zbylé tři nahoře plné"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Protiváha celého seznamu. Křížek smí, protože HOVERING je krátké slovo a zůstane čitelné — ale ověřit v náhledu, jinak platí `skrt_text` s vodorovnou čarou.",
+      "diagram_generator": "zaver",
+      "diagram": "seznam ze S61-S62 ztlumený, přes něj ambrově jediná položka s křížkem: HOVERING",
+      "pause": 2.6
+    },
+    {
+      "id": "S64",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Zahrada, ne stroj. Scéna je o tom, co gyroplán NEUMÍ, takže se kreslí to místo, kam nedosedne. STATIC — pohyb by z toho udělal záběr na dům.",
+      "prompt": "ordinary suburban back garden seen from above, hedges, lawn, garden furniture, no aircraft, overcast afternoon light, painterly, muted, no text"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Návrat obrazu z S38. Vyjmutí rotoru z vrtulníku je doslovný převod věty — proto se kreslí jako přenesení dílu, ne jako šipka.",
+      "diagram_generator": "zaver",
+      "diagram": "tři sloupce z S38 znovu: AEROPLANE, GYROPLANE, HELICOPTER; z vrtulníku se vyjímá a ambrově zvýrazňuje ROTOR"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Dokončení S65. Uprostřed vzniká hotový stroj ze dvou převzatých dílů.",
+      "diagram_generator": "zaver",
+      "diagram": "tentýž obraz: z letadla se vyjímá PROPELLER a obojí se skládá do gyroplánu uprostřed, který teď svítí celý"
+    },
+    {
+      "id": "S67",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S67.png",
+      "note": "Závěrečný záběr. **Rukáv ani stožár se nezadává** — SDXL z 'windsock on a pole' udělal soustavu příhradových stožárů a lamp, což je průmyslové a scéna má být klidná. Nese to obloha. Seed zapsaný ručně, protože se odvozuje z ID scény a samotné --force by dalo touž kompozici.",
+      "prompt": "wide mown grass strip at dusk, low flat horizon, enormous pale evening sky filling most of the frame, thin high cloud lit from below, painterly, serene, empty, no poles, no towers, no text",
+      "seed": 4407
+    }
+  ]
+}

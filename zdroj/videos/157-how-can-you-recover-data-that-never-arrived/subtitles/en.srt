@@ -1,0 +1,749 @@
+1
+00:00:00,000 --> 00:00:01,720
+This is a QR code.
+
+2
+00:00:02,120 --> 00:00:04,200
+It holds one short line of text.
+
+3
+00:00:04,919 --> 00:00:06,919
+The phone reads it straight away.
+
+4
+00:00:07,703 --> 00:00:09,923
+Now let's tear a piece out of it.
+
+5
+00:00:10,230 --> 00:00:13,890
+And scan it again.
+The same text. Every letter.
+
+6
+00:00:14,617 --> 00:00:18,217
+Part of that code is gone.
+Not hard to read. Gone.
+
+7
+00:00:19,095 --> 00:00:22,375
+So how can a phone read something
+that is no longer there?
+
+8
+00:00:24,905 --> 00:00:27,105
+Here's the same problem, made smaller.
+
+9
+00:00:27,205 --> 00:00:29,405
+Someone sends you eight bits.
+
+10
+00:00:30,125 --> 00:00:31,825
+On the way, three of them are lost.
+
+11
+00:00:32,536 --> 00:00:37,056
+Each missing bit is a zero or a one,
+so there are eight ways to fill the gaps.
+
+12
+00:00:37,836 --> 00:00:40,756
+And nothing in what arrived
+tells you which one is right.
+
+13
+00:00:41,102 --> 00:00:43,622
+And yet the phone just did exactly that.
+
+14
+00:00:44,142 --> 00:00:45,342
+It wasn't guessing.
+
+15
+00:00:45,902 --> 00:00:48,522
+The answer was sent
+before anything was lost.
+
+16
+00:00:49,266 --> 00:00:52,086
+The trick is to send more
+than the message itself.
+
+17
+00:00:52,882 --> 00:00:56,002
+The simplest way
+is to say everything three times.
+
+18
+00:00:56,722 --> 00:01:00,022
+A zero is sent as three zeros,
+a one as three ones.
+
+19
+00:01:00,660 --> 00:01:03,580
+Noise flips one of them,
+and you receive one, zero, one.
+
+20
+00:01:03,660 --> 00:01:06,080
+Two votes against one.
+
+21
+00:01:06,480 --> 00:01:08,280
+It was almost certainly a one.
+
+22
+00:01:08,824 --> 00:01:12,844
+If noise flips one bit in ten,
+at random and independently,
+
+23
+00:01:13,224 --> 00:01:16,684
+a vote of three goes wrong
+less than three times in a hundred.
+
+24
+00:01:17,004 --> 00:01:19,004
+But you've tripled everything you send.
+
+25
+00:01:19,704 --> 00:01:23,884
+To get closer to perfect, you'd repeat
+five times, then nine, then a hundred...
+
+26
+00:01:23,964 --> 00:01:26,164
+and the message slows to a crawl.
+
+27
+00:01:27,030 --> 00:01:29,290
+For a long time,
+that looked like the price.
+
+28
+00:01:30,050 --> 00:01:33,330
+Fewer errors, slower messages.
+Keep that in mind.
+
+29
+00:01:35,820 --> 00:01:41,000
+In the late 1940s, Richard Hamming
+at Bell Labs had a problem of his own.
+
+30
+00:01:41,505 --> 00:01:43,245
+He mostly got time on a relay computer
+
+31
+00:01:43,475 --> 00:01:46,945
+at weekends,
+when nobody was there to watch it.
+
+32
+00:01:47,425 --> 00:01:49,765
+The machine could tell
+when it had made a mistake.
+
+33
+00:01:50,465 --> 00:01:52,765
+It would try the step again,
+three times...
+
+34
+00:01:52,845 --> 00:01:54,405
+and then drop his job.
+
+35
+00:01:54,725 --> 00:01:57,545
+Two weekends in a row, he lost his work.
+
+36
+00:01:58,171 --> 00:02:01,251
+His question, in his own words:
+"If the machine can locate
+
+37
+00:02:01,481 --> 00:02:04,591
+there is an error,
+why can it not locate where it is?"
+
+38
+00:02:04,811 --> 00:02:08,471
+The actual language, he admitted,
+was probably a bit stronger.
+
+39
+00:02:11,011 --> 00:02:14,671
+His answer takes four bits of message
+and adds three check bits.
+
+40
+00:02:15,071 --> 00:02:16,851
+Seven bits in all.
+
+41
+00:02:17,466 --> 00:02:20,266
+Each check bit looks after
+a different group of positions,
+
+42
+00:02:20,626 --> 00:02:23,586
+and makes sure that group
+holds an even number of ones.
+
+43
+00:02:24,239 --> 00:02:26,679
+The groups overlap in a careful pattern.
+
+44
+00:02:27,439 --> 00:02:30,759
+Every position belongs
+to its own combination of groups.
+
+45
+00:02:31,505 --> 00:02:33,005
+Now flip one bit.
+
+46
+00:02:33,385 --> 00:02:35,225
+Say, the one in position six.
+
+47
+00:02:35,613 --> 00:02:37,953
+The receiver runs the three checks again.
+
+48
+00:02:38,273 --> 00:02:42,953
+The first one passes.
+The second fails. The third one fails.
+
+49
+00:02:43,607 --> 00:02:46,027
+Write a failed check as one,
+a passed check as zero,
+
+50
+00:02:46,257 --> 00:02:48,447
+and read them from the last to the first.
+
+51
+00:02:49,287 --> 00:02:50,367
+One, one, zero.
+
+52
+00:02:50,447 --> 00:02:52,647
+In binary, that's six.
+
+53
+00:02:53,392 --> 00:02:56,092
+The checks don't just say
+that something went wrong.
+
+54
+00:02:56,612 --> 00:02:58,472
+They point at the exact bit.
+
+55
+00:02:59,165 --> 00:03:01,765
+Flip it back,
+and the message is whole again.
+
+56
+00:03:02,385 --> 00:03:04,505
+Nobody had to send anything twice.
+
+57
+00:03:05,279 --> 00:03:06,759
+So that's the answer.
+
+58
+00:03:07,439 --> 00:03:10,619
+The receiver doesn't rebuild
+lost information out of nothing.
+
+59
+00:03:11,279 --> 00:03:13,499
+The sender packed it in, ahead of time.
+
+60
+00:03:16,039 --> 00:03:17,959
+Not every check can do that.
+
+61
+00:03:18,719 --> 00:03:21,779
+A checksum, like the one in our video
+about Btrfs,
+
+62
+00:03:21,859 --> 00:03:26,039
+can tell you a block is damaged,
+but not what the original data were.
+
+63
+00:03:26,454 --> 00:03:28,194
+And there's a second kind of damage.
+
+64
+00:03:28,274 --> 00:03:30,614
+Sometimes a bit isn't wrong.
+
+65
+00:03:30,694 --> 00:03:34,674
+It's just missing,
+and you know exactly where the gap is.
+
+66
+00:03:35,301 --> 00:03:38,361
+That's called an erasure,
+and erasures are easier.
+
+67
+00:03:39,087 --> 00:03:41,267
+Send four numbers,
+four, seven, two and nine,
+
+68
+00:03:41,497 --> 00:03:44,478
+and a fifth one: their sum, twenty-two.
+
+69
+00:03:44,558 --> 00:03:47,098
+If any one of them goes missing,
+the others tell you what it was.
+
+70
+00:03:47,328 --> 00:03:50,958
+Four, seven, something, nine, twenty-two.
+
+71
+00:03:51,038 --> 00:03:52,898
+It has to be two.
+
+72
+00:03:53,490 --> 00:03:57,930
+Servers protect their disks with a similar
+kind of check, spread across the drives.
+
+73
+00:03:58,730 --> 00:04:02,250
+When one drive dies,
+its contents are worked out from the rest.
+
+74
+00:04:04,800 --> 00:04:06,780
+So how much extra do you need?
+
+75
+00:04:07,240 --> 00:04:12,000
+Repetition says: to get errors down to
+nothing, you have to slow down to nothing.
+
+76
+00:04:12,578 --> 00:04:15,218
+Two years before Hamming's paper came out,
+
+77
+00:04:15,298 --> 00:04:18,578
+his colleague Claude Shannon
+had published a stranger answer.
+
+78
+00:04:19,159 --> 00:04:22,579
+Every channel, a radio link,
+a cable, a disc, has a limit.
+
+79
+00:04:23,299 --> 00:04:24,979
+A top speed for information.
+
+80
+00:04:25,871 --> 00:04:30,011
+Below that limit, errors can be made
+as rare as you like, without slowing down.
+
+81
+00:04:30,411 --> 00:04:34,231
+Not by repeating more. By coding smarter.
+
+82
+00:04:34,995 --> 00:04:37,515
+Above it, no code in the world will help.
+
+83
+00:04:38,341 --> 00:04:42,801
+But there was a catch.
+Shannon proved that such codes exist.
+
+84
+00:04:43,341 --> 00:04:46,441
+He didn't show how to build one
+that anybody could use.
+
+85
+00:04:47,039 --> 00:04:50,859
+His proof said a code picked at random
+would almost certainly be good.
+
+86
+00:04:51,559 --> 00:04:54,379
+But the obvious way to decode it
+means comparing what arrived
+
+87
+00:04:54,609 --> 00:04:56,499
+with every possible message...
+
+88
+00:04:56,919 --> 00:04:58,859
+and for a block of a thousand bits,
+
+89
+00:04:59,019 --> 00:05:01,579
+there are more of those
+than atoms in the universe.
+
+90
+00:05:02,347 --> 00:05:04,547
+So Shannon's paper wasn't a solution.
+
+91
+00:05:05,167 --> 00:05:06,367
+It was a promise.
+
+92
+00:05:06,947 --> 00:05:10,607
+And engineers spent the next
+forty-five years trying to keep it.
+
+93
+00:05:13,227 --> 00:05:15,287
+Hamming's code was a first step.
+
+94
+00:05:15,847 --> 00:05:17,947
+It fixes one wrong bit in seven.
+
+95
+00:05:18,295 --> 00:05:20,475
+But real damage comes in bursts.
+
+96
+00:05:21,335 --> 00:05:25,235
+A scratch or a crackle of static
+takes out hundreds of bits in a row.
+
+97
+00:05:25,838 --> 00:05:29,218
+In 1960, Irving Reed and Gustave Solomon,
+
+98
+00:05:29,298 --> 00:05:33,798
+at MIT's Lincoln Laboratory,
+published a paper five pages long.
+
+99
+00:05:34,382 --> 00:05:37,422
+Their codes work on whole bytes,
+not single bits.
+
+100
+00:05:38,242 --> 00:05:42,102
+If a burst wrecks all eight bits
+of a byte, that's still just one bad byte.
+
+101
+00:05:43,056 --> 00:05:45,636
+One common version adds
+thirty-two check bytes
+
+102
+00:05:45,866 --> 00:05:48,356
+to two hundred and twenty-three
+bytes of data.
+
+103
+00:05:49,061 --> 00:05:51,881
+It can fix any sixteen bytes
+that arrive wrong...
+
+104
+00:05:52,121 --> 00:05:55,021
+or rebuild thirty-two
+that never arrive at all.
+
+105
+00:05:55,579 --> 00:05:57,759
+That's how a CD plays through a scratch.
+
+106
+00:05:58,719 --> 00:06:01,339
+Its two Reed-Solomon codes
+can fully repair a gap
+
+107
+00:06:01,569 --> 00:06:05,619
+of about four thousand bits,
+two and a half millimetres of track.
+
+108
+00:06:06,058 --> 00:06:08,798
+And it's why the torn QR code
+still worked.
+
+109
+00:06:09,298 --> 00:06:12,358
+At its strongest setting,
+a QR code can rebuild
+
+110
+00:06:12,588 --> 00:06:16,778
+up to about thirty percent of its bytes
+and still give back every letter.
+
+111
+00:06:19,638 --> 00:06:25,498
+Voyager 2 left Earth in 1977
+already carrying a Reed-Solomon encoder.
+
+112
+00:06:25,827 --> 00:06:29,287
+But at Jupiter and Saturn,
+it guarded everything but the pictures
+
+113
+00:06:29,517 --> 00:06:31,827
+with an older code, by Marcel Golay,
+
+114
+00:06:31,907 --> 00:06:35,027
+which sent one extra bit
+for every bit of data.
+
+115
+00:06:35,758 --> 00:06:39,138
+For Uranus and Neptune,
+with the signal getting weaker,
+
+116
+00:06:39,218 --> 00:06:42,818
+engineers switched Reed-Solomon on,
+on top of a second code
+
+117
+00:06:43,048 --> 00:06:45,118
+that every bit already went through.
+
+118
+00:06:45,710 --> 00:06:50,090
+With that second code alone, about five
+bits in a thousand were still wrong.
+
+119
+00:06:50,930 --> 00:06:53,690
+With Reed-Solomon on top,
+about one in a million.
+
+120
+00:06:54,520 --> 00:06:57,720
+Noise also comes in bursts,
+so Voyager shuffled
+
+121
+00:06:57,950 --> 00:07:00,660
+the bytes of four blocks together
+before sending them.
+
+122
+00:07:01,144 --> 00:07:04,744
+A burst that would have wrecked one block
+now takes a few bytes from each...
+
+123
+00:07:04,884 --> 00:07:07,464
+few enough for every block
+to repair itself.
+
+124
+00:07:08,237 --> 00:07:12,637
+The rest of how Neptune's pictures
+got home is in our video about Voyager.
+
+125
+00:07:13,611 --> 00:07:16,271
+But even this was still
+short of Shannon's limit...
+
+126
+00:07:16,351 --> 00:07:19,751
+and a code that could get much closer
+already existed.
+
+127
+00:07:20,733 --> 00:07:26,273
+In 1960, in his doctoral thesis at MIT,
+Robert Gallager described codes
+
+128
+00:07:26,503 --> 00:07:30,853
+made of many simple checks,
+each one looking at only a few bits.
+
+129
+00:07:31,539 --> 00:07:32,759
+Decoding them meant the checks
+
+130
+00:07:32,839 --> 00:07:35,839
+passing guesses back and forth,
+round after round...
+
+131
+00:07:35,919 --> 00:07:39,399
+far too much
+for the computers of the 1960s.
+
+132
+00:07:39,739 --> 00:07:43,739
+So the idea was put away,
+and mostly forgotten for thirty years.
+
+133
+00:07:46,069 --> 00:07:49,849
+In 1993,
+a team led by two French engineers,
+
+134
+00:07:49,929 --> 00:07:51,969
+Claude Berrou and Alain Glavieux,
+
+135
+00:07:52,049 --> 00:07:54,949
+presented turbo codes
+at a conference in Geneva.
+
+136
+00:07:55,722 --> 00:07:57,702
+Their results were so close
+to Shannon's limit
+
+137
+00:07:57,932 --> 00:08:01,062
+that many experts assumed
+they'd made a mistake.
+
+138
+00:08:01,622 --> 00:08:05,042
+Probably a factor of two,
+somewhere in their calculations.
+
+139
+00:08:06,273 --> 00:08:09,233
+Within a year,
+other labs had confirmed it.
+
+140
+00:08:10,161 --> 00:08:13,941
+Turbo codes also worked
+by passing guesses back and forth,
+
+141
+00:08:14,061 --> 00:08:16,261
+and that sent people back to Gallager.
+
+142
+00:08:16,828 --> 00:08:21,628
+In 1995 and 1996,
+David MacKay and Radford Neal
+
+143
+00:08:21,858 --> 00:08:25,688
+rediscovered his codes,
+and showed they could get just as close.
+
+144
+00:08:26,375 --> 00:08:29,915
+By 2001,
+a refined version of Gallager's codes
+
+145
+00:08:30,145 --> 00:08:33,615
+came within four hundredths of a decibel
+of Shannon's limit.
+
+146
+00:08:33,957 --> 00:08:38,017
+That's less than one percent more signal
+power than the theoretical minimum.
+
+147
+00:08:38,497 --> 00:08:41,537
+The promise of 1948 had been kept.
+
+148
+00:08:44,117 --> 00:08:48,157
+Today, Gallager's codes carry
+much of the data in 5G phones,
+
+149
+00:08:48,237 --> 00:08:51,197
+in modern Wi-Fi,
+and in satellite television.
+
+150
+00:08:53,817 --> 00:08:55,637
+Now, back to our eight bits.
+
+151
+00:08:56,317 --> 00:08:59,257
+Three were lost, and there are eight ways
+to fill the gaps.
+
+152
+00:08:59,838 --> 00:09:02,418
+But these eight bits
+were never just a message.
+
+153
+00:09:02,998 --> 00:09:05,578
+They carried four bits of data,
+Hamming's three checks,
+
+154
+00:09:05,808 --> 00:09:07,778
+and one more check over all eight.
+
+155
+00:09:08,427 --> 00:09:12,187
+Of all two hundred and fifty-six
+possible patterns of eight bits,
+
+156
+00:09:12,387 --> 00:09:14,467
+only sixteen follow those rules.
+
+157
+00:09:15,200 --> 00:09:20,140
+Test the eight candidates.
+One by one, they fail. Only one is left.
+
+158
+00:09:20,823 --> 00:09:22,963
+The missing bits were never really gone.
+
+159
+00:09:23,523 --> 00:09:26,523
+Their information was still there,
+in the bits that survived.
+
+160
+00:09:29,733 --> 00:09:31,613
+So here's a question for you.
+
+161
+00:09:32,193 --> 00:09:36,173
+Have you ever noticed error correction
+at work in something you use every day?
+
+162
+00:09:36,473 --> 00:09:38,063
+Let me know in the comments.

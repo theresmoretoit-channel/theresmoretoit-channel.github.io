@@ -1,0 +1,813 @@
+{
+  "total": 560.415,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 5.785,
+      "end": 6.585,
+      "dur": 6.185,
+      "text": "You know that feeling when you learn something new... and suddenly, it seems incredibly simple?"
+    },
+    {
+      "id": "S02",
+      "start": 6.585,
+      "speech_end": 11.749,
+      "end": 12.549,
+      "dur": 5.965,
+      "text": "You watch a couple of videos. Read a few articles. Maybe you try it yourself."
+    },
+    {
+      "id": "S03",
+      "start": 12.549,
+      "speech_end": 14.405,
+      "end": 15.205,
+      "dur": 2.656,
+      "text": "And then you think: \"I get it.\""
+    },
+    {
+      "id": "S04",
+      "start": 15.205,
+      "speech_end": 16.997,
+      "end": 17.797,
+      "dur": 2.592,
+      "text": "But here's the scary part."
+    },
+    {
+      "id": "S05",
+      "start": 17.797,
+      "speech_end": 22.619,
+      "end": 23.419,
+      "dur": 5.621,
+      "text": "What if the thing you're missing is precisely the thing that would tell you that you're missing something?"
+    },
+    {
+      "id": "S06",
+      "start": 23.419,
+      "speech_end": 27.003,
+      "end": 27.803,
+      "dur": 4.384,
+      "text": "This is the basic idea behind the Dunning–Kruger effect."
+    },
+    {
+      "id": "S07",
+      "start": 27.803,
+      "speech_end": 33.283,
+      "end": 35.483,
+      "dur": 7.68,
+      "text": "And it's much more interesting — and much more disturbing — than the popular internet version of it."
+    },
+    {
+      "id": "S08",
+      "start": 35.483,
+      "speech_end": 40.562,
+      "end": 41.362,
+      "dur": 5.879,
+      "text": "Imagine you've never programmed before. Someone shows you a few lines of code."
+    },
+    {
+      "id": "S09",
+      "start": 41.362,
+      "speech_end": 45.183,
+      "end": 45.983,
+      "dur": 4.621,
+      "text": "You learn what a variable is. You learn what a loop does."
+    },
+    {
+      "id": "S10",
+      "start": 45.983,
+      "speech_end": 51.773,
+      "end": 52.573,
+      "dur": 6.59,
+      "text": "You write your first little program... and suddenly programming doesn't seem that difficult anymore."
+    },
+    {
+      "id": "S11",
+      "start": 52.573,
+      "speech_end": 58.269,
+      "end": 59.069,
+      "dur": 6.496,
+      "text": "You might even look at professional programmers and wonder: \"Why do they make such a big deal out of this?\""
+    },
+    {
+      "id": "S12",
+      "start": 59.069,
+      "speech_end": 60.669,
+      "end": 61.469,
+      "dur": 2.4,
+      "text": "But then you keep learning."
+    },
+    {
+      "id": "S13",
+      "start": 61.469,
+      "speech_end": 66.164,
+      "end": 66.964,
+      "dur": 5.495,
+      "text": "You encounter data structures. Concurrency. Memory management."
+    },
+    {
+      "id": "S14",
+      "start": 66.964,
+      "speech_end": 74.817,
+      "end": 75.617,
+      "dur": 8.653,
+      "text": "And suddenly you realise that programming isn't one problem. It's an entire landscape of problems you didn't even know existed."
+    },
+    {
+      "id": "S15",
+      "start": 75.617,
+      "speech_end": 76.707,
+      "end": 79.107,
+      "dur": 3.49,
+      "text": "And that's the key."
+    },
+    {
+      "id": "S16",
+      "start": 79.107,
+      "speech_end": 86.808,
+      "end": 87.608,
+      "dur": 8.501,
+      "text": "In nineteen ninety-nine, psychologists David Dunning and Justin Kruger published a study investigating something very similar."
+    },
+    {
+      "id": "S17",
+      "start": 87.608,
+      "speech_end": 91.768,
+      "end": 92.568,
+      "dur": 4.96,
+      "text": "They were interested in people's ability to judge their own performance."
+    },
+    {
+      "id": "S18",
+      "start": 92.568,
+      "speech_end": 99.845,
+      "end": 100.645,
+      "dur": 8.077,
+      "text": "They gave students tests of logical reasoning, grammar, and humour. Then they asked them how well they thought they had done."
+    },
+    {
+      "id": "S19",
+      "start": 100.645,
+      "speech_end": 109.242,
+      "end": 110.042,
+      "dur": 9.397,
+      "text": "What they reported was that people who performed poorly on certain tasks often had difficulty recognising just how poorly they had performed."
+    },
+    {
+      "id": "S20",
+      "start": 110.042,
+      "speech_end": 111.834,
+      "end": 112.634,
+      "dur": 2.592,
+      "text": "And the numbers were striking."
+    },
+    {
+      "id": "S21",
+      "start": 112.634,
+      "speech_end": 119.717,
+      "end": 120.517,
+      "dur": 7.883,
+      "text": "The people who performed in the bottom quarter estimated their performance as if they were around the sixty-second percentile."
+    },
+    {
+      "id": "S22",
+      "start": 120.517,
+      "speech_end": 122.863,
+      "end": 123.663,
+      "dur": 3.147,
+      "text": "In reality, they were around the twelfth."
+    },
+    {
+      "id": "S23",
+      "start": 123.663,
+      "speech_end": 127.293,
+      "end": 129.493,
+      "dur": 5.83,
+      "text": "They weren't just wrong. They were wrong about how wrong they were."
+    },
+    {
+      "id": "S24",
+      "start": 129.493,
+      "speech_end": 137.986,
+      "end": 138.786,
+      "dur": 9.293,
+      "text": "In other words, the problem wasn't only that they made mistakes. They also lacked some of the knowledge necessary to recognise those mistakes."
+    },
+    {
+      "id": "S25",
+      "start": 138.786,
+      "speech_end": 141.367,
+      "end": 142.167,
+      "dur": 3.381,
+      "text": "And this creates a peculiar situation."
+    },
+    {
+      "id": "S26",
+      "start": 142.167,
+      "speech_end": 150.276,
+      "end": 151.076,
+      "dur": 8.909,
+      "text": "You need a certain amount of knowledge to perform a task. But you may also need some of that same knowledge to accurately judge your performance."
+    },
+    {
+      "id": "S27",
+      "start": 151.076,
+      "speech_end": 157.293,
+      "end": 158.093,
+      "dur": 7.017,
+      "text": "So when your knowledge is very limited... your ability to evaluate your own knowledge can be limited too."
+    },
+    {
+      "id": "S28",
+      "start": 158.093,
+      "speech_end": 161.421,
+      "end": 162.221,
+      "dur": 4.128,
+      "text": "And this is where the phenomenon becomes genuinely interesting."
+    },
+    {
+      "id": "S29",
+      "start": 162.221,
+      "speech_end": 169.542,
+      "end": 170.342,
+      "dur": 8.121,
+      "text": "Suppose I give you a complicated problem. You produce an answer. You are completely convinced it's correct."
+    },
+    {
+      "id": "S30",
+      "start": 170.342,
+      "speech_end": 172.347,
+      "end": 173.147,
+      "dur": 2.805,
+      "text": "How can you tell whether you're right?"
+    },
+    {
+      "id": "S31",
+      "start": 173.147,
+      "speech_end": 177.8,
+      "end": 178.6,
+      "dur": 5.453,
+      "text": "You could compare it with an expert. You could test it against reality."
+    },
+    {
+      "id": "S32",
+      "start": 178.6,
+      "speech_end": 182.655,
+      "end": 183.455,
+      "dur": 4.855,
+      "text": "You could look for counterexamples. You could measure the result."
+    },
+    {
+      "id": "S33",
+      "start": 183.455,
+      "speech_end": 189.473,
+      "end": 190.273,
+      "dur": 6.818,
+      "text": "But imagine that none of those things are available. Then you're relying largely on your own judgement."
+    },
+    {
+      "id": "S34",
+      "start": 190.273,
+      "speech_end": 197.151,
+      "end": 197.951,
+      "dur": 7.678,
+      "text": "And if your judgement is based on the same incomplete knowledge that produced the original answer... you have a problem."
+    },
+    {
+      "id": "S35",
+      "start": 197.951,
+      "speech_end": 203.541,
+      "end": 206.341,
+      "dur": 8.39,
+      "text": "Your brain is essentially grading its own exam. With an answer key it doesn't have."
+    },
+    {
+      "id": "S36",
+      "start": 206.341,
+      "speech_end": 210.565,
+      "end": 211.365,
+      "dur": 5.024,
+      "text": "This is also why expertise can look surprisingly different from confidence."
+    },
+    {
+      "id": "S37",
+      "start": 211.365,
+      "speech_end": 213.84,
+      "end": 214.64,
+      "dur": 3.275,
+      "text": "A beginner might say: \"This is easy.\""
+    },
+    {
+      "id": "S38",
+      "start": 214.64,
+      "speech_end": 217.84,
+      "end": 218.64,
+      "dur": 4.0,
+      "text": "An experienced person might say: \"It depends.\""
+    },
+    {
+      "id": "S39",
+      "start": 218.64,
+      "speech_end": 222.16,
+      "end": 222.96,
+      "dur": 4.32,
+      "text": "Why? Not necessarily because the expert is less confident."
+    },
+    {
+      "id": "S40",
+      "start": 222.96,
+      "speech_end": 225.435,
+      "end": 226.235,
+      "dur": 3.275,
+      "text": "The expert simply sees more variables."
+    },
+    {
+      "id": "S41",
+      "start": 226.235,
+      "speech_end": 228.005,
+      "end": 228.805,
+      "dur": 2.571,
+      "text": "The beginner sees the problem."
+    },
+    {
+      "id": "S42",
+      "start": 228.805,
+      "speech_end": 233.251,
+      "end": 234.051,
+      "dur": 5.246,
+      "text": "The expert sees the problem... and all the ways the problem can go wrong."
+    },
+    {
+      "id": "S43",
+      "start": 234.051,
+      "speech_end": 236.995,
+      "end": 237.795,
+      "dur": 3.744,
+      "text": "Think about something as simple as fixing a computer."
+    },
+    {
+      "id": "S44",
+      "start": 237.795,
+      "speech_end": 241.657,
+      "end": 242.457,
+      "dur": 4.661,
+      "text": "A beginner might say: \"Just reinstall the operating system.\""
+    },
+    {
+      "id": "S45",
+      "start": 242.457,
+      "speech_end": 244.718,
+      "end": 245.518,
+      "dur": 3.061,
+      "text": "Sometimes, that's exactly right."
+    },
+    {
+      "id": "S46",
+      "start": 245.518,
+      "speech_end": 249.55,
+      "end": 250.35,
+      "dur": 4.832,
+      "text": "But an experienced administrator immediately starts asking questions."
+    },
+    {
+      "id": "S47",
+      "start": 250.35,
+      "speech_end": 255.751,
+      "end": 256.551,
+      "dur": 6.201,
+      "text": "Is the hardware healthy? Is the filesystem corrupted? Is the disk failing?"
+    },
+    {
+      "id": "S48",
+      "start": 256.551,
+      "speech_end": 261.652,
+      "end": 262.452,
+      "dur": 5.901,
+      "text": "Is there a backup? Is the problem actually software? Is there a network issue?"
+    },
+    {
+      "id": "S49",
+      "start": 262.452,
+      "speech_end": 267.958,
+      "end": 268.758,
+      "dur": 6.306,
+      "text": "Will reinstalling destroy useful evidence? What caused the problem in the first place?"
+    },
+    {
+      "id": "S50",
+      "start": 268.758,
+      "speech_end": 273.283,
+      "end": 274.083,
+      "dur": 5.325,
+      "text": "The beginner sees one solution. The expert sees a decision tree."
+    },
+    {
+      "id": "S51",
+      "start": 274.083,
+      "speech_end": 277.793,
+      "end": 279.993,
+      "dur": 5.91,
+      "text": "And that difference can make expertise look like uncertainty."
+    },
+    {
+      "id": "S52",
+      "start": 279.993,
+      "speech_end": 281.891,
+      "end": 282.691,
+      "dur": 2.699,
+      "text": "But there's an important catch."
+    },
+    {
+      "id": "S53",
+      "start": 282.691,
+      "speech_end": 288.238,
+      "end": 289.038,
+      "dur": 6.347,
+      "text": "The Dunning–Kruger effect does not mean: \"The less intelligent you are, the more confident you become.\""
+    },
+    {
+      "id": "S54",
+      "start": 289.038,
+      "speech_end": 294.864,
+      "end": 295.664,
+      "dur": 6.626,
+      "text": "And it doesn't mean that experts are always insecure. That's a caricature of the research."
+    },
+    {
+      "id": "S55",
+      "start": 295.664,
+      "speech_end": 297.328,
+      "end": 298.128,
+      "dur": 2.464,
+      "text": "But there's another problem."
+    },
+    {
+      "id": "S56",
+      "start": 298.128,
+      "speech_end": 302.352,
+      "end": 303.152,
+      "dur": 5.024,
+      "text": "What if even the famous Dunning–Kruger graph doesn't mean quite what we think it means?"
+    },
+    {
+      "id": "S57",
+      "start": 303.152,
+      "speech_end": 309.488,
+      "end": 310.288,
+      "dur": 7.136,
+      "text": "Several researchers have argued that the characteristic pattern can appear partly because of statistical effects."
+    },
+    {
+      "id": "S58",
+      "start": 310.288,
+      "speech_end": 321.513,
+      "end": 322.313,
+      "dur": 12.025,
+      "text": "Things like regression to the mean. And the fact that almost everyone thinks they're above average. And a correlation created by the way the two measurements are plotted against each other."
+    },
+    {
+      "id": "S59",
+      "start": 322.313,
+      "speech_end": 324.297,
+      "end": 325.097,
+      "dur": 2.784,
+      "text": "And here's the surprising part."
+    },
+    {
+      "id": "S60",
+      "start": 325.097,
+      "speech_end": 330.324,
+      "end": 331.124,
+      "dur": 6.027,
+      "text": "If you take simulated data with no such effect built into it, and plot it the same way..."
+    },
+    {
+      "id": "S61",
+      "start": 331.124,
+      "speech_end": 334.196,
+      "end": 334.996,
+      "dur": 3.872,
+      "text": "you can still get a graph that looks much like the original."
+    },
+    {
+      "id": "S62",
+      "start": 334.996,
+      "speech_end": 339.016,
+      "end": 341.416,
+      "dur": 6.42,
+      "text": "In other words... the graph itself needs to be interpreted carefully."
+    },
+    {
+      "id": "S63",
+      "start": 341.416,
+      "speech_end": 343.976,
+      "end": 344.776,
+      "dur": 3.36,
+      "text": "And the debate isn't completely settled."
+    },
+    {
+      "id": "S64",
+      "start": 344.776,
+      "speech_end": 349.576,
+      "end": 350.376,
+      "dur": 5.6,
+      "text": "There are responses to those criticisms, and responses to those responses."
+    },
+    {
+      "id": "S65",
+      "start": 350.376,
+      "speech_end": 355.126,
+      "end": 357.926,
+      "dur": 7.55,
+      "text": "Which brings us back to the uncomfortable question. How do you know you're right?"
+    },
+    {
+      "id": "S66",
+      "start": 357.926,
+      "speech_end": 369.811,
+      "end": 370.611,
+      "dur": 12.685,
+      "text": "Dunning and Kruger's own claim was more subtle. People can have difficulty accurately evaluating their own competence, especially when they lack the skills needed to evaluate the task itself."
+    },
+    {
+      "id": "S67",
+      "start": 370.611,
+      "speech_end": 372.851,
+      "end": 373.651,
+      "dur": 3.04,
+      "text": "And that can happen to almost anyone."
+    },
+    {
+      "id": "S68",
+      "start": 373.651,
+      "speech_end": 376.637,
+      "end": 377.437,
+      "dur": 3.787,
+      "text": "In fact, that's what makes this effect so dangerous."
+    },
+    {
+      "id": "S69",
+      "start": 377.437,
+      "speech_end": 381.578,
+      "end": 382.378,
+      "dur": 4.941,
+      "text": "You don't have to be stupid. You just have to enter a new field."
+    },
+    {
+      "id": "S70",
+      "start": 382.378,
+      "speech_end": 389.633,
+      "end": 390.433,
+      "dur": 8.055,
+      "text": "Every expert was once a beginner. Every beginner initially has a very incomplete mental model of the subject."
+    },
+    {
+      "id": "S71",
+      "start": 390.433,
+      "speech_end": 396.309,
+      "end": 397.109,
+      "dur": 6.675,
+      "text": "And that means every one of us has areas where we may be confidently wrong... without realising it."
+    },
+    {
+      "id": "S72",
+      "start": 397.109,
+      "speech_end": 399.69,
+      "end": 400.49,
+      "dur": 3.381,
+      "text": "And here's the really uncomfortable question."
+    },
+    {
+      "id": "S73",
+      "start": 400.49,
+      "speech_end": 402.82,
+      "end": 406.02,
+      "dur": 5.53,
+      "text": "How do you know you're not doing it right now?"
+    },
+    {
+      "id": "S74",
+      "start": 406.02,
+      "speech_end": 411.844,
+      "end": 412.644,
+      "dur": 6.624,
+      "text": "You might be thinking: \"Fortunately, I understand the Dunning–Kruger effect, so I'm not one of those people.\""
+    },
+    {
+      "id": "S75",
+      "start": 412.644,
+      "speech_end": 418.769,
+      "end": 419.569,
+      "dur": 6.925,
+      "text": "But that doesn't prove anything. Knowing that the effect exists doesn't magically make you immune to it."
+    },
+    {
+      "id": "S76",
+      "start": 419.569,
+      "speech_end": 425.316,
+      "end": 426.116,
+      "dur": 6.547,
+      "text": "You can understand the concept perfectly... and still overestimate your knowledge of economics."
+    },
+    {
+      "id": "S77",
+      "start": 426.116,
+      "speech_end": 428.612,
+      "end": 429.412,
+      "dur": 3.296,
+      "text": "Or medicine. Or programming. Or history."
+    },
+    {
+      "id": "S78",
+      "start": 429.412,
+      "speech_end": 432.872,
+      "end": 434.872,
+      "dur": 5.46,
+      "text": "Or physics. Or politics. Or literally anything else."
+    },
+    {
+      "id": "S79",
+      "start": 434.872,
+      "speech_end": 437.069,
+      "end": 437.869,
+      "dur": 2.997,
+      "text": "So what can we actually do about it?"
+    },
+    {
+      "id": "S80",
+      "start": 437.869,
+      "speech_end": 440.557,
+      "end": 441.357,
+      "dur": 3.488,
+      "text": "The answer isn't simply: \"Be more humble.\""
+    },
+    {
+      "id": "S81",
+      "start": 441.357,
+      "speech_end": 446.693,
+      "end": 447.493,
+      "dur": 6.135,
+      "text": "Humility is useful. But humility by itself doesn't tell you whether you're right."
+    },
+    {
+      "id": "S82",
+      "start": 447.493,
+      "speech_end": 451.064,
+      "end": 451.864,
+      "dur": 4.371,
+      "text": "A person can be extremely humble... and still be wrong."
+    },
+    {
+      "id": "S83",
+      "start": 451.864,
+      "speech_end": 455.341,
+      "end": 456.141,
+      "dur": 4.277,
+      "text": "What we need is something better: feedback from reality."
+    },
+    {
+      "id": "S84",
+      "start": 456.141,
+      "speech_end": 460.453,
+      "end": 461.253,
+      "dur": 5.111,
+      "text": "Test your assumptions. Look for counterexamples. Measure things."
+    },
+    {
+      "id": "S85",
+      "start": 461.253,
+      "speech_end": 466.503,
+      "end": 467.303,
+      "dur": 6.05,
+      "text": "Ask people who know more than you. Try to predict what will happen before it happens."
+    },
+    {
+      "id": "S86",
+      "start": 467.303,
+      "speech_end": 472.873,
+      "end": 474.873,
+      "dur": 7.57,
+      "text": "And, perhaps most importantly... make it possible for yourself to discover that you're wrong."
+    },
+    {
+      "id": "S87",
+      "start": 474.873,
+      "speech_end": 480.933,
+      "end": 481.733,
+      "dur": 6.861,
+      "text": "A good programmer doesn't trust their code because they feel confident about it. They run tests."
+    },
+    {
+      "id": "S88",
+      "start": 481.733,
+      "speech_end": 487.986,
+      "end": 488.786,
+      "dur": 7.053,
+      "text": "A scientist doesn't trust an idea because it feels convincing. They test it against evidence."
+    },
+    {
+      "id": "S89",
+      "start": 488.786,
+      "speech_end": 492.711,
+      "end": 493.511,
+      "dur": 4.725,
+      "text": "An engineer doesn't say: \"I'm pretty sure this bridge will hold.\""
+    },
+    {
+      "id": "S90",
+      "start": 493.511,
+      "speech_end": 498.742,
+      "end": 499.542,
+      "dur": 6.031,
+      "text": "They calculate it. Measure it. Test it. And build in safety margins."
+    },
+    {
+      "id": "S91",
+      "start": 499.542,
+      "speech_end": 504.897,
+      "end": 505.697,
+      "dur": 6.155,
+      "text": "These systems work because they don't rely entirely on the human ability to judge itself."
+    },
+    {
+      "id": "S92",
+      "start": 505.697,
+      "speech_end": 508.107,
+      "end": 510.307,
+      "dur": 4.61,
+      "text": "They let reality provide the answer."
+    },
+    {
+      "id": "S93",
+      "start": 510.307,
+      "speech_end": 514.061,
+      "end": 514.861,
+      "dur": 4.555,
+      "text": "And perhaps that's the most useful lesson of the Dunning–Kruger effect."
+    },
+    {
+      "id": "S94",
+      "start": 514.861,
+      "speech_end": 520.687,
+      "end": 521.487,
+      "dur": 6.626,
+      "text": "The goal isn't to constantly doubt yourself. It's not: \"Maybe I'm wrong about everything.\""
+    },
+    {
+      "id": "S95",
+      "start": 521.487,
+      "speech_end": 524.261,
+      "end": 525.061,
+      "dur": 3.573,
+      "text": "The goal is to know how you would find out if you were wrong."
+    },
+    {
+      "id": "S96",
+      "start": 525.061,
+      "speech_end": 528.133,
+      "end": 528.933,
+      "dur": 3.872,
+      "text": "That's a much stronger form of intellectual humility."
+    },
+    {
+      "id": "S97",
+      "start": 528.933,
+      "speech_end": 531.429,
+      "end": 532.229,
+      "dur": 3.296,
+      "text": "Instead of saying: \"I'm probably right.\""
+    },
+    {
+      "id": "S98",
+      "start": 532.229,
+      "speech_end": 534.939,
+      "end": 537.139,
+      "dur": 4.91,
+      "text": "Ask: \"What evidence would convince me I'm wrong?\""
+    },
+    {
+      "id": "S99",
+      "start": 537.139,
+      "speech_end": 541.67,
+      "end": 542.47,
+      "dur": 5.331,
+      "text": "If you have a good answer... you're already doing something very valuable."
+    },
+    {
+      "id": "S100",
+      "start": 542.47,
+      "speech_end": 549.11,
+      "end": 551.71,
+      "dur": 9.24,
+      "text": "Because the most dangerous ignorance isn't simply not knowing something. It's not knowing that you don't know it."
+    },
+    {
+      "id": "S101",
+      "start": 551.71,
+      "speech_end": 559.215,
+      "end": 560.415,
+      "dur": 8.705,
+      "text": "And sometimes... the first step towards becoming an expert... is discovering just how much there is left to learn."
+    }
+  ]
+}

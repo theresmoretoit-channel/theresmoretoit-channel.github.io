@@ -1,0 +1,875 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "krab",
+   "diagram": "páteř: strom (kořen dole, větve nahoru); na pěti koncích větví táž ambrová silueta kraba",
+   "note": "První scéna nese myšlenku (ne SDXL): jeden tvar na pěti různých větvích. Zavádí páteř `strom()` na pevných souřadnicích.",
+   "pause": 0.5
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "krab",
+   "diagram": "strom; konce větví s kraby, na jednom zvýrazněném: FLAT, WIDE SHELL a TAIL TUCKED UNDERNEATH",
+   "note": "Každá větev vlastní — větve se nesbíhají v krabovi."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "krab",
+   "diagram": "nápis CARCINISATION pod stromem s kraby",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "krab",
+   "diagram": "strom, kraby přibývají i na dalších větvích (vtip); nápis NATURE KEEPS TRYING",
+   "note": "Vtip — neslibuje další skutečné vzniky, větve navíc čárkovaně.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "krab",
+   "diagram": "strom ztlumeně",
+   "note": "Přechod.",
+   "pause": 0.5
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "krab",
+   "diagram": "strom: SAME PROBLEM dole, SAME ANSWER na koncích větví",
+   "note": "Formulace teze konvergence.",
+   "pause": 1.0
+  },
+  {
+   "id": "S07",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S07.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Detail oka chobotnice (CC BY 2.0), na výšku → fit.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Octopus Eye 23859301645",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "oci",
+   "diagram": "strom: kořen = malý červ bez oka; dvě větve, na jedné chobotnice, na druhé člověk, obě s komorovým okem",
+   "note": "Oko na koncích, NE u kořene.",
+   "pause": 0.5
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "oci",
+   "diagram": "strom s mnoha konci, na každém malé oko; popisek 40+ TIMES (BY ONE ESTIMATE)",
+   "note": "Počet očí v obraze je schéma, ne 40 kusů; „by one estimate\" musí být v popisku."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "oci",
+   "diagram": "strom se čtyřmi konci: hmyz, ptakoještěr, pták, netopýr — každý s křídlem ambrově",
+   "note": "Čtyři z konstanty s assert.",
+   "pause": 0.6
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "oci",
+   "diagram": "tři siluety nad sebou: žralok, ichtyosaurus, delfín",
+   "note": "Siluety kreslené kódem ve stejném měřítku, ať je vidět shodný tvar."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "oci",
+   "diagram": "tytéž tři siluety na konci tří vzdálených větví stromu: FISH / REPTILE / MAMMAL",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S13",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Vlčí lebka z boku. S13 rozdělena na dvě scény 2026-10-06: scénář ukazuje dvě lebky po sobě („This is… And this is…“) a archive dá jeden snímek na scénu. Krátká pauza, S13b začíná „And“.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Canis lupus skull side",
+    "pick": 0,
+    "grade": {
+     "fit": 0.94
+    }
+   },
+   "pause": 0.4
+  },
+  {
+   "id": "S13b",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S13b.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Lebka vakovlka z boku, Royal Tyrrell (CC BY-SA 4.0), čenichem doprava jako vlčí v S13 — srovnání.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Thylacinus cynocephalus skull TMP 2009.003.0017",
+    "pick": 0,
+    "grade": {
+     "fit": 0.98,
+     "fit_bg": "#000000"
+    }
+   }
+  },
+  {
+   "id": "S14",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S14.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Vakovlk v Hobart Zoo 1928, public domain.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Thylacinus cynocephalus at Hobart Zoo 1928",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "oci",
+   "diagram": "strom: vakovlk na větvi vačnatců vedle klokana, vlk na vzdálené větvi; tvar lebky na obou koncích ambrově",
+   "note": "„closer to a kangaroo than to any wolf\" — větvení to musí ukázat."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "oci",
+   "diagram": "páteř strom se všemi příklady ztlumeně; nápis CONVERGENT EVOLUTION",
+   "note": "Konec bloku, CTA dědí tenhle obraz."
+  },
+  {
+   "id": "S16b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "cta": true,
+   "note": "CTA za blokem konvergence (~1:42), před hlavní otázkou — po „surprisingly familiar?\" by zabila okamžik (zpětná vazba 0.1). Dědí obrázek S16.",
+   "pause": 1.2
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "otazka",
+   "diagram": "vlevo malý černý les / podivný obrys z videa 091 ztlumeně; HOW STRANGE COULD ALIENS BE?",
+   "note": "Odkaz na 091 jen obrazem, bez „Part 1\".",
+   "pause": 0.6
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "otazka",
+   "diagram": "vedle stromu Země druhý strom z jiné planety (jiná barva kořene), konce zatím prázdné s otazníky",
+   "note": "Zavádí druhý strom pro výplatu."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "otazka",
+   "diagram": "silueta s otazníkem na konci větve cizího stromu",
+   "note": "Hlavní otázka videa (titul).",
+   "pause": 1.4
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "telo",
+   "diagram": "obrys těla shora se svislou osou souměrnosti: LEFT / RIGHT",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "telo",
+   "diagram": "řada obrysů zvířat (ryba, hmyz, pes, člověk), každý s osou souměrnosti",
+   "note": "„almost every animal that actively moves\".",
+   "pause": 0.5
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "telo",
+   "diagram": "obrys se šipkou pohybu; FRONT ambrově",
+   "note": ""
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "telo",
+   "diagram": "přední konec: ikonky EYES / EARS / NOSE soustředěné vpředu",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "telo",
+   "diagram": "mozek hned za smysly, krátké spoje",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "telo",
+   "diagram": "nápis CEPHALISATION: BUILDING A HEAD",
+   "note": ""
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "telo",
+   "diagram": "čtyři obrysy: červ, hmyz, chobotnice, člověk — hlava ambrově u každého",
+   "note": ""
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "telo",
+   "diagram": "cizí obrys (jiný tvar) s týmž uspořádáním: smysly vpředu, mozek u nich; SAME PHYSICS",
+   "note": "Konec bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "ruce",
+   "diagram": "nápis A TECHNOLOGICAL SPECIES",
+   "note": "Přechod.",
+   "pause": 0.6
+  },
+  {
+   "id": "S29",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Skákající delfín skákavý.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Atlantic bottlenose dolphin jumping at Pelican point",
+    "pick": 0
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "ruce",
+   "diagram": "obrys delfína; vedle škrtnuté ikony FIRE / KNIFE",
+   "note": "`text_skrtnuty` jen na nápisy.",
+   "pause": 0.6
+  },
+  {
+   "id": "S31",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Vrána novokaledonská na větvi s potravou/nástrojem v zobáku — ověřit ve velkém.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Corvus moneduloides eating on branch",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "ruce",
+   "diagram": "obrys člověka: nohy = MOVE, ruce = HANDS FREE ambrově",
+   "note": ""
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "ruce",
+   "diagram": "smyčka HANDS → TOOLS → BRAINS → TOOLS čárkovaně",
+   "note": "Čárkovaně = hypotéza („Many researchers think\").",
+   "pause": 0.6
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "ruce",
+   "diagram": "cizí obrys, ruce ambrově s otazníkem",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "ruce",
+   "diagram": "čtyři varianty manipulátorů: chapadla, klepeta, chobot, čtyři nohy a dvě ruce",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "ruce",
+   "diagram": "dvě skupiny končetin: MOVE / HANDLE",
+   "note": "Konec podbloku.",
+   "pause": 1.2
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "ruce",
+   "diagram": "nápis NOT ENOUGH",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S38",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Chobotnice se sklenicí na Commons není; celá chobotnice, Merculianova ilustrace (PD).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Octopus vulgaris Merculiano",
+    "pick": 0,
+    "grade": {
+     "fit": 0.94,
+     "fit_bg": "#ffffff",
+     "vignette": false
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "ruce",
+   "diagram": "časová osa: chobotnice 1–2 YEARS, člověk mnohem delší; chobotnice osamoceně",
+   "note": "Délky z konstant s assert.",
+   "pause": 0.5
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "ruce",
+   "diagram": "chobotnice; čárkovaná šipka ke druhé chobotnici přeškrtnutá — nic se nepředá",
+   "note": ""
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "ruce",
+   "diagram": "checklist: HANDS · BRAINS · TIME · OTHERS TO LEARN FROM",
+   "note": "Konec bloku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "filtr",
+   "diagram": "nápis THE TWIST",
+   "note": "Obrat videa.",
+   "pause": 1.0
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "filtr",
+   "diagram": "galaxie (spirála) se spoustou teček života",
+   "note": ""
+  },
+  {
+   "id": "S44",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S44.png",
+   "prompt": "a vast alien ocean world seen from a cliff, strange simple creatures drifting in shallow luminous water, mats of microbial colour, two moons in the sky, no text",
+   "note": "SDXL atmosféra: galaxie plná jednoduchého života.",
+   "pause": 0.5
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "filtr",
+   "diagram": "trychtýř: LIFE → ANIMALS → CLEVER ANIMALS → RADIOS & SPACESHIPS, dole hrstka teček",
+   "note": "Trychtýř = schéma, šířky nejsou data.",
+   "pause": 0.5
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "filtr",
+   "diagram": "trychtýř; dno ambrově: WE MEET THESE",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S47",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S47.png",
+   "prompt": "a meadow of short turquoise and violet alien grass, unearthly spiral-shaped blades bent by wind, two small pale suns clearly visible in a hazy sky, peaceful, no animals, no wheat, no text",
+   "note": "SDXL: mimozemská tráva (vtip „Alien grass won't call us\"). Kolo 2 (2026-10-06): seedy 4701–4703 s „turquoise and violet… two suns\"; dvě slunce ani cizí tvar nedal žádný — kotva stylu přebije prompt. Vybrán 4701 (nejméně pozemský). Když nestačí, náhrada je kresba, ne další seed.",
+   "pause": 1.0,
+   "seed": 4701
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "filtr",
+   "diagram": "checklist pod trychtýřem: SENSE · HANDLE · WORK TOGETHER · BUILD MACHINES",
+   "note": ""
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "filtr",
+   "diagram": "checklist + SAME PROBLEMS WE SOLVED",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "filtr",
+   "diagram": "trychtýř → bedna s nářadím: A TOOLKIT",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "filtr",
+   "diagram": "cizí obrys (ne lidský) vedle checklistu; NOT HUMAN · FAMILIAR PROBLEMS",
+   "note": "Klíčová věta videa (zpětná vazba 0.2).",
+   "pause": 2.4
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "oblicej",
+   "diagram": "bedna s nářadím, otazník",
+   "note": "Přechod.",
+   "pause": 0.6
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "oblicej",
+   "diagram": "hvězda, paprsky světla od ní ke krajině a k oku",
+   "note": ""
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "oblicej",
+   "diagram": "oko se spektrem IR/UV; řada variant: tři oči, mnoho očí",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "oblicej",
+   "diagram": "dvě oči od sebe, překryv zorných polí = DEPTH; vedle obrys sovy a kočky z čela",
+   "note": "Výsledek „one reason\", ne „that is why\"."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "oblicej",
+   "diagram": "prázdný obrys hlavy",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "oblicej",
+   "diagram": "do obrysu přibudou oči, ústa, nos vpředu",
+   "note": ""
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "oblicej",
+   "diagram": "dvě takové hlavy proti sobě, mezi nimi bublina nálady",
+   "note": ""
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "oblicej",
+   "diagram": "otazník",
+   "note": "",
+   "pause": 0.4
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "oblicej",
+   "diagram": "z prvků vznikne cizí, ale čitelný obličej",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "oblicej",
+   "diagram": "dvě různé hlavy (lidská, cizí) se stejnými funkčními místy",
+   "note": "Konec bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "debata",
+   "diagram": "nápis 1982, DALE RUSSELL, PALAEONTOLOGIST",
+   "note": "Portrét Russella se nehledá — licence nejistá.",
+   "pause": 0.5
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "debata",
+   "diagram": "časová osa: −66 MILLION YEARS, asteroid přeškrtnutý",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S64",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Rekonstrukce troodontida (CC BY-SA 4.0).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Troodon or Stenonychosaurus update",
+    "pick": 0,
+    "grade": {
+     "fit": 0.94,
+     "fit_bg": "#ffffff",
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S65",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-06, dotaz zúžený na název souboru. Kresba dinosauroida (CC BY-SA 4.0). Fotka muzejního modelu zamítnuta — práva k soše nejistá.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Dinosauroid drawing",
+    "pick": 0,
+    "grade": {
+     "fit": 0.98,
+     "fit_bg": "#000000",
+     "levels": "0%,72%",
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "debata",
+   "diagram": "nápis THE DINOSAUROID",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "debata",
+   "diagram": "silueta dinosauroida a v ní obrys člověka (kostým)",
+   "note": "Kritika, ne náš závěr.",
+   "pause": 1.0
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "debata",
+   "diagram": "dva rámečky proti sobě: GOULD / CONWAY MORRIS",
+   "note": ""
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "debata",
+   "diagram": "strom přehraný znovu: konce jinde, člověk chybí (čárkovaně)",
+   "note": "Gould: přehrání pásky."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "debata",
+   "diagram": "strom: na několika větvích podobný konec — lidský obrys",
+   "note": "Conway Morris: konvergence."
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "debata",
+   "diagram": "oba rámečky, mezi nimi rovnítko BOTH?",
+   "note": "",
+   "pause": 2.2
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "zaver",
+   "diagram": "cizí obrys a šipka g",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "zaver",
+   "diagram": "táž cizí postava stlačená (HEAVY) a natažená (LIGHT)",
+   "note": ""
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "zaver",
+   "diagram": "šestinohý tvor se čtyřma očima a krunýřem (schéma)",
+   "note": "Kreslené jako schéma, ne jako návrh tvora.",
+   "pause": 0.5
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "zaver",
+   "diagram": "na šestinohém tvoru vyznačeno: FRONT / PROCESSING / MOVE / BUILD",
+   "note": "Bez hlavy a centrálního mozku (zpětná vazba 0.2 — neodporovat 091)."
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "zaver",
+   "diagram": "HUMAN IN ARCHITECTURE, NOT IN APPEARANCE",
+   "note": "Konec bloku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "zaver",
+   "diagram": "páteř: strom Země a cizí strom vedle sebe",
+   "note": "Začíná výplata páteře.",
+   "pause": 0.8
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "zaver",
+   "diagram": "cizí strom: konce větví s podivnými tvary bez hlav",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "zaver",
+   "diagram": "cizí strom: jedna větev končí bednou s nářadím ambrově",
+   "note": "Horní polovina volná od téhle scény (závěrečná obrazovka).",
+   "pause": 0.6
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "zaver",
+   "diagram": "dolní polovina: cizí strom s mnoha různými konci",
+   "note": "Horní polovina volná."
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "zaver",
+   "diagram": "dolní polovina: oba stromy, z obou jedna větev do téže bedny s nářadím",
+   "note": "Výplata páteře. Horní polovina volná."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "diagram_generator": "zaver",
+   "diagram": "dolní polovina: oba stromy ztlumeně, jediný plán čárkovaně škrtnutý — NO ONE BLUEPRINT",
+   "note": "Horní polovina volná."
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "diagram_generator": "zaver",
+   "diagram": "dolní polovina: malá bedna s nářadím ambrově",
+   "note": "Poslední scéna, klidná, horní polovina volná.",
+   "pause": 2.0
+  }
+ ]
+}

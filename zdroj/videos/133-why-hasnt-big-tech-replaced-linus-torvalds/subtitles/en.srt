@@ -1,0 +1,577 @@
+1
+00:00:00,000 --> 00:00:03,780
+Imagine you run one of the biggest
+technology companies on Earth.
+
+2
+00:00:04,448 --> 00:00:05,428
+Thousands of engineers.
+
+3
+00:00:05,658 --> 00:00:08,068
+Billions of dollars.
+
+4
+00:00:08,613 --> 00:00:11,133
+And one of the most important pieces
+of your infrastructure
+
+5
+00:00:11,363 --> 00:00:14,613
+is controlled by a man
+who doesn't work for you.
+
+6
+00:00:15,087 --> 00:00:17,887
+You can't fire him.
+You can't overrule him.
+
+7
+00:00:18,469 --> 00:00:21,249
+When your engineers want to change
+that software,
+
+8
+00:00:21,329 --> 00:00:24,209
+they send him their work,
+and wait for his answer.
+
+9
+00:00:24,773 --> 00:00:26,413
+That man is Linus Torvalds.
+
+10
+00:00:26,643 --> 00:00:28,773
+And the software is Linux.
+
+11
+00:00:29,585 --> 00:00:34,205
+Google does this.
+So do Microsoft, Intel, Amazon and Meta.
+
+12
+00:00:34,953 --> 00:00:37,313
+So why hasn't Big Tech replaced him?
+
+13
+00:00:39,713 --> 00:00:43,413
+Linux began as a student's hobby
+in Helsinki in 1991.
+
+14
+00:00:44,313 --> 00:00:48,833
+Today, it runs Android phones,
+cloud servers, and all five hundred
+
+15
+00:00:48,936 --> 00:00:51,453
+of the world's fastest supercomputers.
+
+16
+00:00:52,184 --> 00:00:55,704
+The latest release brought
+almost nineteen thousand changes,
+
+17
+00:00:55,924 --> 00:00:59,644
+from about three thousand developers
+and more than two hundred companies.
+
+18
+00:01:00,251 --> 00:01:03,491
+So how many of those changes
+did Linus write himself?
+
+19
+00:01:04,421 --> 00:01:05,621
+Nine.
+
+20
+00:01:06,287 --> 00:01:09,167
+And eight of them
+just changed the version number.
+
+21
+00:01:09,796 --> 00:01:10,836
+In two weeks, he merged
+
+22
+00:01:11,066 --> 00:01:13,676
+around two hundred and forty batches
+of changes,
+
+23
+00:01:13,996 --> 00:01:16,536
+each one sent to him by someone he trusts.
+
+24
+00:01:17,316 --> 00:01:20,396
+He's in charge
+because the code ends up with him.
+
+25
+00:01:20,632 --> 00:01:24,892
+And that's exactly the part a company
+like Google could simply walk away from.
+
+26
+00:01:27,272 --> 00:01:29,112
+Linux is open source.
+
+27
+00:01:29,832 --> 00:01:32,692
+Anyone can take the code
+and make their own version.
+
+28
+00:01:33,450 --> 00:01:36,430
+It's called a fork,
+and you don't need Linus's permission.
+
+29
+00:01:37,322 --> 00:01:39,242
+Google did exactly that.
+
+30
+00:01:39,635 --> 00:01:41,195
+Not a whole new Linux.
+
+31
+00:01:42,015 --> 00:01:44,215
+It took the kernel,
+the core that talks to the hardware,
+
+32
+00:01:44,445 --> 00:01:46,855
+and kept its own branch of it for Android.
+
+33
+00:01:47,669 --> 00:01:52,729
+In December 2009, Android's code
+was removed from the main kernel.
+
+34
+00:01:53,397 --> 00:01:54,497
+Greg Kroah-Hartman,
+
+35
+00:01:54,577 --> 00:01:57,277
+one of the senior maintainers,
+explained why:
+
+36
+00:01:57,457 --> 00:02:00,117
+no one cared about the code,
+so it was removed.
+
+37
+00:02:00,617 --> 00:02:02,917
+So Android's kernel drifted away.
+
+38
+00:02:03,636 --> 00:02:07,596
+Chip makers and phone makers
+added their own changes on top.
+
+39
+00:02:08,191 --> 00:02:10,731
+By Google's own account,
+up to half the code
+
+40
+00:02:10,961 --> 00:02:14,071
+in a phone's kernel
+could come from outside the main kernel.
+
+41
+00:02:14,465 --> 00:02:17,005
+And every security fix found in Linux
+
+42
+00:02:17,105 --> 00:02:19,845
+had to be carried over
+into each of those versions.
+
+43
+00:02:20,599 --> 00:02:24,079
+Google's documentation calls that
+"prohibitively expensive".
+
+44
+00:02:25,047 --> 00:02:29,007
+A new kernel release could take
+up to eighteen months to reach a phone.
+
+45
+00:02:30,223 --> 00:02:34,043
+Two years after deleting
+Android's code, Greg put it back.
+
+46
+00:02:34,692 --> 00:02:38,492
+His note said: "Turns out I was wrong,
+we want these in the tree."
+
+47
+00:02:38,961 --> 00:02:42,141
+And since Android 12,
+phones that launch on a newer kernel
+
+48
+00:02:42,371 --> 00:02:46,781
+must use one common kernel from Google,
+the Generic Kernel Image.
+
+49
+00:02:47,463 --> 00:02:50,643
+It's still Linux
+with Android's own changes on top.
+
+50
+00:02:51,003 --> 00:02:55,443
+But it stays close to the main version,
+because that's where the fixes are.
+
+51
+00:02:56,009 --> 00:02:58,269
+Making your own version is easy.
+
+52
+00:02:58,789 --> 00:03:01,409
+Keeping it alive is the expensive part.
+
+53
+00:03:02,680 --> 00:03:05,720
+That's why companies send their code
+to the main kernel.
+
+54
+00:03:06,360 --> 00:03:11,040
+Not as a favour. Once it's in,
+everyone else helps look after it.
+
+55
+00:03:13,370 --> 00:03:16,190
+But Linus can't read
+nineteen thousand changes.
+
+56
+00:03:17,090 --> 00:03:18,290
+Nobody could.
+
+57
+00:03:18,588 --> 00:03:25,108
+Linux is split into areas. Networking.
+Memory. File systems. Graphics drivers.
+
+58
+00:03:25,188 --> 00:03:26,788
+Each processor family.
+
+59
+00:03:27,371 --> 00:03:29,891
+Each area has its own maintainers.
+
+60
+00:03:30,451 --> 00:03:33,811
+The list of them has around
+three and a half thousand entries.
+
+61
+00:03:34,509 --> 00:03:37,409
+A change goes first
+to the right maintainer.
+
+62
+00:03:37,890 --> 00:03:42,350
+They review it, argue about it,
+ask for fixes, and collect what's ready.
+
+63
+00:03:42,714 --> 00:03:44,414
+Then they send it up.
+
+64
+00:03:44,983 --> 00:03:48,483
+At the top, more than a hundred of them
+send their collections to Linus.
+
+65
+00:03:49,431 --> 00:03:51,111
+Linux is built everywhere.
+
+66
+00:03:51,191 --> 00:03:53,711
+But it comes together in one place.
+
+67
+00:03:56,061 --> 00:03:59,281
+Now, the companies
+sending all that code aren't charities.
+
+68
+00:04:00,210 --> 00:04:03,170
+These companies compete
+with each other every day.
+
+69
+00:04:03,805 --> 00:04:08,585
+Would Google let Microsoft decide what
+goes into the software its servers run on?
+
+70
+00:04:09,127 --> 00:04:11,347
+Linus doesn't work for any of them.
+
+71
+00:04:11,675 --> 00:04:13,375
+So who does pay him?
+
+72
+00:04:14,054 --> 00:04:15,414
+The Linux Foundation.
+
+73
+00:04:16,518 --> 00:04:20,978
+And the Foundation isn't a charity
+standing outside the corporate world.
+
+74
+00:04:21,563 --> 00:04:23,743
+It's an association of companies.
+
+75
+00:04:24,582 --> 00:04:27,722
+Google, Microsoft, Intel,
+Meta, Amazon and others
+
+76
+00:04:27,952 --> 00:04:32,162
+pay for its top membership,
+and each of them gets a seat on its board.
+
+77
+00:04:32,806 --> 00:04:36,806
+The Foundation says it pays Linus
+so that he can stay independent.
+
+78
+00:04:37,787 --> 00:04:40,547
+That's a stated purpose,
+not a published guarantee.
+
+79
+00:04:41,489 --> 00:04:44,469
+The Foundation hosts
+more than a thousand projects.
+
+80
+00:04:45,229 --> 00:04:47,929
+The kernel gets about three percent
+of its budget.
+
+81
+00:04:48,369 --> 00:04:51,369
+So the companies aren't putting
+one of their own at the top.
+
+82
+00:04:52,007 --> 00:04:54,627
+They're supporting a place
+where they can work together,
+
+83
+00:04:54,707 --> 00:04:56,647
+without any one of them in charge.
+
+84
+00:04:59,547 --> 00:05:02,287
+But does Linus really have the final word?
+
+85
+00:05:02,907 --> 00:05:04,687
+Here's what that looks like.
+
+86
+00:05:04,993 --> 00:05:09,633
+In 2024, Linux got
+a new file system called bcachefs,
+
+87
+00:05:09,973 --> 00:05:12,353
+a new way of storing files on a disk.
+
+88
+00:05:13,003 --> 00:05:14,923
+Every new version has a rule.
+
+89
+00:05:15,423 --> 00:05:18,043
+New features come in
+during the first two weeks.
+
+90
+00:05:18,783 --> 00:05:20,403
+After that, only fixes.
+
+91
+00:05:21,274 --> 00:05:25,114
+Its developer kept sending
+large changes after those two weeks.
+
+92
+00:05:25,765 --> 00:05:28,465
+In August 2024, Linus wrote:
+
+93
+00:05:28,810 --> 00:05:31,930
+"At some point, 'fix something'
+just turns into development.
+
+94
+00:05:32,710 --> 00:05:34,150
+And this is that point."
+
+95
+00:05:35,281 --> 00:05:37,721
+The arguments went on for another year.
+
+96
+00:05:38,321 --> 00:05:42,701
+In 2025, Linus took bcachefs
+out of the kernel.
+
+97
+00:05:43,367 --> 00:05:45,607
+It still exists, as a separate add-on.
+
+98
+00:05:45,687 --> 00:05:48,287
+Just not in the shared version.
+
+99
+00:05:49,105 --> 00:05:53,425
+Linus has power because the people
+who send him code keep trusting him.
+
+100
+00:05:56,165 --> 00:05:58,605
+So what happens when Linus is gone?
+
+101
+00:05:59,511 --> 00:06:01,171
+We already know a little.
+
+102
+00:06:01,514 --> 00:06:04,654
+In September 2018, Linus stepped away.
+
+103
+00:06:05,322 --> 00:06:08,322
+He apologised for attacking people
+in his emails,
+
+104
+00:06:08,542 --> 00:06:11,202
+and said he needed time
+to change how he behaved.
+
+105
+00:06:12,031 --> 00:06:15,771
+Greg Kroah-Hartman, the same maintainer
+from the Android story,
+
+106
+00:06:15,851 --> 00:06:18,071
+took over
+and finished the next version, 4.19.
+
+107
+00:06:19,701 --> 00:06:21,281
+Linux kept going.
+
+108
+00:06:21,741 --> 00:06:24,041
+A few weeks later, Linus came back.
+
+109
+00:06:25,327 --> 00:06:28,367
+Since 2026, there's even a written plan.
+
+110
+00:06:28,892 --> 00:06:32,592
+If Linus can't continue,
+the senior maintainers start talking
+
+111
+00:06:32,822 --> 00:06:35,652
+within seventy-two hours
+about who takes over.
+
+112
+00:06:36,177 --> 00:06:37,877
+It doesn't name a successor.
+
+113
+00:06:38,497 --> 00:06:40,457
+It describes how to find one.
+
+114
+00:06:40,833 --> 00:06:42,953
+So Linux can survive without Linus.
+
+115
+00:06:43,801 --> 00:06:46,361
+What it can't easily replace
+is the trust that put him
+
+116
+00:06:46,591 --> 00:06:48,361
+at the centre in the first place.
+
+117
+00:06:51,661 --> 00:06:54,861
+So why hasn't Big Tech
+replaced Linus Torvalds?
+
+118
+00:06:55,519 --> 00:06:58,219
+Because what they'd be replacing
+isn't a programmer.
+
+119
+00:06:58,978 --> 00:07:01,198
+It's the one place
+where all their competing code
+
+120
+00:07:01,428 --> 00:07:05,158
+comes together, looked after by someone
+none of them owns.
+
+121
+00:07:05,901 --> 00:07:07,781
+Linus doesn't own the kingdom.
+
+122
+00:07:08,401 --> 00:07:12,481
+Everyone just agrees that, for now,
+he's the right person to guard it.
+
+123
+00:07:14,611 --> 00:07:16,491
+So here's a question for you.
+
+124
+00:07:17,151 --> 00:07:19,351
+When Linus does step down,
+should one person
+
+125
+00:07:19,581 --> 00:07:22,311
+get the final word again,
+or should it be a group?
+
+126
+00:07:23,122 --> 00:07:24,552
+Let me know in the comments.

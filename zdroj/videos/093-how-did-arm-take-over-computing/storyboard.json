@@ -1,0 +1,972 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "hacek",
+      "diagram": "páteř: pouzdro čipu s vývody na pevných souřadnicích, na zkušební desce; napájecí vodič z kolonky POWER vede k vývodu VCC; nahoře štítek 1985",
+      "note": "První scéna nese myšlenku, ne atmosféru (ne SDXL): čip a jeho napájení — za dvě scény se ukáže, že ten vodič nevede nikam. Zavádí páteř `cip()`.",
+      "pause": 0.6
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "hacek",
+      "diagram": "táž deska, čip ambrový (běží), fajfka",
+      "note": "Beat „It worked.“ — mění se jen stav čipu.",
+      "pause": 0.6
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "hacek",
+      "diagram": "táž deska; napájecí vodič PŘERUŠENÝ těsně před vývodem VCC, mezera ambrově zvýrazněná, štítek NOT CONNECTED",
+      "note": "Mezera musí být na vodiči, který VEDE K ČIPU — ne u zdroje, jinak by kresba tvrdila „vypnutý zdroj“.",
+      "pause": 0.4
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "hacek",
+      "diagram": "přerušený vodič zůstává, čip přesto ambrově svítí",
+      "note": "S04 začíná „And yet“ → krátká pauza za S03.",
+      "pause": 0.6
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "hacek",
+      "diagram": "vlevo sousední čipy; jejich signálové vodiče vedou do VSTUPNÍCH vývodů ARM1, po nich ambrové šipky dovnitř; napájecí vodič pořád přerušený",
+      "note": "Kontrola funkčnosti: proud teče ze SIGNÁLŮ okolních čipů přes vstupní vývody (ochranné diody) do čipu — šipky míří do čipu, ne z něj. Napájení zůstává přerušené.",
+      "pause": 0.6
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "hacek",
+      "diagram": "čip a vedle velká hodnota ≈ 0.1 W",
+      "note": "Číslo ze scénáře, nic navíc.",
+      "pause": 0.6
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "hacek",
+      "diagram": "čip; nad ním štítek GOAL: CHEAP TO MAKE (ambrově), 0.1 W ztlumené pod tím jako vedlejší produkt",
+      "note": "Nízká spotřeba je důsledek, ne cíl (rozhodnutí uživatele) — 0.1 W ztlumené, ne škrtnuté: je to pravda, jen nebyl cíl.",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "hacek",
+      "diagram": "čip popsaný ARM1, deska ztlumená",
+      "note": "Pojmenování čipu na páteři; od teď se tenhle tvar vrací.",
+      "pause": 1.2
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "hacek",
+      "diagram": "tři ikony vedle sebe: telefon, notebook, serverový stojan; v každém malý ambrový čip",
+      "note": "Výčet ze scénáře, tři položky."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "hacek",
+      "diagram": "velký nápis OVER 300 BILLION ARM CHIPS a menší „shipped by 2025“",
+      "note": "Factcheck: >310 mld. k 3/2025 — nápis nesmí tvrdit víc než to. Doříkávaná schwa po poslechu draftu (2026-10-07) → obětovaná věta i při krátké pauze.",
+      "pause": 0.6,
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "hacek",
+      "diagram": "malý čip ARM1 vlevo, velký otazník, vpravo tři ikony z S09 ztlumené",
+      "note": "Hlavní otázka videa."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "hacek",
+      "diagram": "karta LOW POWER, pod ní čárkovaná šipka a štítek ALMOST AN ACCIDENT",
+      "note": "„Not simply low power“ — karta se neškrtá, jen se jí ubírá role příčiny.",
+      "pause": 0.8
+    },
+    {
+      "id": "S12b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "cta": true,
+      "note": "CTA za háčkem a otázkou (~1:15–1:30), před „go back to 1983“. Dědí obrázek S12.",
+      "pause": 1.2
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "acorn",
+      "diagram": "motiv `osa()`: časová osa 1983–2020, značka na 1983",
+      "note": "Zavádí časovou osu; vrací se v S51, S61, S87 na týchž souřadnicích.",
+      "pause": 1.0
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S14.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "BBC Micro Front Restored",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86
+        }
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07, dotaz zúžený na název souboru. BBC Micro zepředu, public domain. Rozlišení 1024 px → fit."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "acorn",
+      "diagram": "karta BBC MICRO s čipem 6502 · 8-BIT, šipka do prázdné čárkované karty NEXT MACHINE s otazníkem",
+      "note": "Čárkovaně = ještě neexistuje.",
+      "pause": 0.5
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "acorn",
+      "diagram": "dva čipy vedle sebe: MOTOROLA 68000, NATIONAL 32016; ztlumené",
+      "note": "Jen dva čipy, které jmenuje Furber (factcheck S16–S17). 286 do testu nepatří — ten se objeví až v S37 jako srovnání.",
+      "pause": 0.6
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "acorn",
+      "diagram": "tytéž dva čipy, uvnitř spletitá síť čar (složitost), pod nimi NOT WHAT ACORN WANTED",
+      "note": "Složitost = hustá spleť uvnitř pouzdra; neškrtat čipy.",
+      "pause": 0.6
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "acorn",
+      "diagram": "dvě jmenovky SOPHIE WILSON a STEVE FURBER; oblouková šipka z CAMBRIDGE, UK do ARIZONA, USA; u cíle WESTERN DESIGN CENTER",
+      "note": "Portrét Sophie Wilson na Commons má jen 521 px — nepoužitelný. Jména stačí."
+    },
+    {
+      "id": "S19",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S19.png",
+      "prompt": "modest single-storey suburban bungalow in Arizona in the 1980s, desert garden with gravel and agave, flat grey overcast sky, quiet residential street, no people",
+      "note": "Návštěva WDC: firma v rodinném domku. Konkrétní dům nemá jméno ani fotku → SDXL; obloha šedá, ať denní doba nepřebije kotvu.",
+      "pause": 0.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "acorn",
+      "diagram": "nahoře IF THEY CAN DESIGN A PROCESSOR…, pod tím …SO CAN WE.; na páteři čárkovaný obrys čipu",
+      "note": "Čárkovaný čip = ještě neexistuje (hypotéza).",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "risc",
+      "diagram": "sloupec instrukčních karet, každá delší a složitější než předchozí",
+      "note": "Narůstání sady instrukcí, schéma bez konkrétní syntaxe."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "risc",
+      "diagram": "motiv `cpu_pamet()`: vlevo MEMORY, vpravo procesor s registry a ALU; JEDNA instrukce = tři ambrové šipky: z paměti do ALU, ALU, zpět do paměti",
+      "note": "Zavádí rozvržení paměť–procesor, které nese S23–S34. Šipky jdou z paměti PŘÍMO do ALU — to je ta složitá instrukce."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "risc",
+      "diagram": "táž instrukce; vlevo PROGRAMMER fajfka, vpravo CHIP DESIGNER s hustým dekodérem",
+      "note": "Pohodlné pro jednoho, těžké pro druhého."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "risc",
+      "diagram": "blok DECODER uvnitř procesoru zvětšený a hustý; pod ním tři řádky MORE LOGIC · MORE TRANSISTORS · MORE DESIGN TIME",
+      "note": "Výčet ze scénáře.",
+      "pause": 1.2
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "risc",
+      "diagram": "dva štítky BERKELEY a STANFORD, mezi nimi otazník",
+      "note": "Bez dat — factcheck uvádí obecně."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "risc",
+      "diagram": "velká instrukce vstupuje do kolonky COMPILER a vychází jako řada malých stejných karet",
+      "note": "Kompilátor dělá zbytek."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "risc",
+      "diagram": "velké R I S C, pod každým písmenem slovo: REDUCED INSTRUCTION SET COMPUTER, iniciály ambrově",
+      "note": "Rozvedení zkratky.",
+      "pause": 1.0
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "risc",
+      "diagram": "jmenovka SOPHIE WILSON → karta ARM INSTRUCTION SET s několika krátkými stejnými instrukcemi",
+      "note": "Portrét na Commons malý (521 px), jméno stačí."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "risc",
+      "diagram": "cpu_pamet(): ALU propojená JEN s registry (16 políček); paměť oddělená, spojená přes LOAD/STORE",
+      "note": "Kontrola funkčnosti: ALU nemá žádnou čáru do paměti.",
+      "pause": 0.5
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "risc",
+      "diagram": "cpu_pamet(): tři číslované ambrové šipky 1 LOAD (paměť→registr), 2 ADD (registry↔ALU), 3 STORE (registr→paměť)",
+      "note": "Tři kroky ze scénáře, pořadí sedí se šipkami.",
+      "pause": 0.6
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "risc",
+      "diagram": "totéž rozvržení, nadpis LOAD-STORE ARCHITECTURE",
+      "note": "Pojmenování."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "risc",
+      "diagram": "tři krátké stejně široké karty LOAD / ADD / STORE, pod nimi REGULAR · PREDICTABLE · EASY TO DECODE",
+      "note": "Stejná šířka karet = pravidelnost.",
+      "pause": 0.6
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "risc",
+      "diagram": "vlevo ARM: 16 registrů × 32 bitů (mřížka 16 dlouhých políček), vpravo 6502: 3 krátká políčka A, X, Y",
+      "note": "Počty z konstant s assert: 16 a 3; šířka políček ∝ 32 vs 8 bitů.",
+      "pause": 2.4
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "arm1",
+      "diagram": "páteř: čip ARM1, štítek 1985",
+      "note": "Callback na S08, týž tvar.",
+      "pause": 0.6
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "arm1",
+      "diagram": "čip ARM1 a nápis ≈ 25,000 TRANSISTORS",
+      "note": "Callback v S95 — nápis na týchž souřadnicích."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "arm1",
+      "diagram": "dva čtverce vedle sebe, plochy v poměru 25 000 : 134 000; ARM1 1985 ambrově, INTEL 286 1982 tlumeně",
+      "note": "Plochy z konstant s assert (poměr 5,36). 286 vyšel 1982, tedy dřív — factcheck."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "arm1",
+      "diagram": "táž dvojice; pod ARM1 SMALLER → CHEAPER",
+      "note": "Callback ploch S37.",
+      "pause": 0.4
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "arm1",
+      "diagram": "čip ARM1 a ≈ 0.1 W",
+      "note": "Táž hodnota jako S06."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "arm1",
+      "diagram": "vodorovná stupnice 0–1 W, svislá ambrová mez 1 W PLASTIC PACKAGE LIMIT, značka ARM1 na 0.1 W; mezi nimi 10× BELOW",
+      "note": "Stupnice lineární, poloha z konstant s assert.",
+      "pause": 2.4
+    },
+    {
+      "id": "S41",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S41.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Acorn Archimedes A310 with mouse and keyboard",
+        "pick": 0,
+        "grade": {
+          "fit": 0.94
+        }
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07, dotaz zúžený na název souboru. A310 je model z roku 1987 (ARM2), CC BY-SA 4.0."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "archimedes",
+      "diagram": "karta ARCHIMEDES, 1987 s ambrovým čipem ARM2 a nápis ONE OF THE FASTEST PERSONAL COMPUTERS OF ITS DAY",
+      "note": "Bez grafu rychlosti — srovnání by tvrdilo víc než scénář.",
+      "pause": 1.0
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "archimedes",
+      "diagram": "táž karta ztlumená",
+      "note": "Beat „And it barely mattered.“ Doříkávaná schwa po poslechu draftu (2026-10-07) → obětovaná věta i při krátké pauze.",
+      "pause": 1.0,
+      "dovetek": "Now listen to it closely."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "archimedes",
+      "diagram": "velká ikona IBM PC + INTEL, do ní šipky SOFTWARE a BUSINESSES; malá karta Archimedes stranou",
+      "note": "Bez počtu ikon — počet by tvrdil tržní podíl."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "archimedes",
+      "diagram": "malá karta Archimedes uvnitř obrysu školní budovy, štítek BRITISH SCHOOLS",
+      "note": "Místo, kde Archimedes zůstal.",
+      "pause": 0.6
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "archimedes",
+      "diagram": "karta ACORN, šipka od OLIVETTI, 1985 s popisem RESCUE",
+      "note": "Olivetti převzal Acorn 1985 (factcheck).",
+      "pause": 2.2
+    },
+    {
+      "id": "S48",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Apple Newton MessagePad 100",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07, dotaz zúžený na název souboru. MessagePad 100 (1994) je technicky shodný s prvním Newtonem H1000 (1993); fotka se zapnutým displejem je čitelnější. CC BY-SA 4.0."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "firma",
+      "diagram": "seznam tří požadavků FAST · CHEAP · RUNS ON BATTERIES s fajfkami",
+      "note": "Požadavky Newtonu ze scénáře."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "firma",
+      "diagram": "karta APPLE, čip ARM uvnitř karty ACORN, pod ní A RIVAL COMPUTER MAKER; mezi Apple a Acornem čárkovaná spojnice",
+      "note": "Čárkovaně = nedůvěra/nejistá vazba.",
+      "pause": 0.5
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "firma",
+      "diagram": "osa() se značkou 1990; čip ARM vystupuje z karty ACORN do vlastní karty ARM",
+      "note": "Callback časové osy z S13."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "firma",
+      "diagram": "tři karty ACORN, APPLE, VLSI spojené stejnými čarami do karty ADVANCED RISC MACHINES",
+      "note": "Čáry stejně silné — kresba neříká nic o podílech.",
+      "pause": 0.6
+    },
+    {
+      "id": "S53",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S53.png",
+      "prompt": "an old timber barn in the flat English countryside near Cambridge, converted into a small office, flat grey overcast sky, damp fields, quiet, no people",
+      "note": "Stodola ve Swaffham Bulbeck nemá na Commons volnou fotku; atmosféra začátků. Šedá obloha kvůli kotvě.",
+      "pause": 0.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "firma",
+      "diagram": "nadpis THE BUSINESS MODEL",
+      "note": "Uvozuje blok obchodního modelu."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "firma",
+      "diagram": "obrys INTEL a uvnitř řetěz DESIGN → MAKE → SELL CHIPS",
+      "note": "Intel v minulém čase (factcheck), proto bez letopočtu."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "firma",
+      "diagram": "obrys ARM: DESIGN ambrově → SELL THE DESIGN; MAKE a SELL CHIPS čárkovaně ztlumené",
+      "note": "Totéž rozvržení jako S55, ať jde srovnat."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "firma",
+      "diagram": "karta ARM DESIGN → tři karty COMPANY → tři čipy; zpět od čipů ke ARM malé ambrové šipky FEE PER CHIP",
+      "note": "Směr šipek: design jde k firmám, poplatek jde zpět k ARM.",
+      "pause": 0.5
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "firma",
+      "diagram": "páteř zvětšená na čip celého zařízení: uprostřed ambrové ARM CORE, kolem bloky RADIO, GRAPHICS, CAMERA",
+      "note": "Rým s S90 (Apple M1) — týž rám čipu, jiné bloky. Kontrola: ARM jádro je JEDEN blok na čipu, ne celý čip."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "firma",
+      "diagram": "totéž, pod ním DESIGNED BY WHOEVER NEEDS IT",
+      "note": "Bez změny kresby, mění se popisek.",
+      "pause": 1.2
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "firma",
+      "diagram": "čip ARM a šipky do mnoha drobných ikon (telefon, auto, tiskárna, router, hodinky); nápis INSIDE ANYTHING",
+      "note": "S61 začíná „And“ → krátká pauza.",
+      "pause": 0.5
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "telefony",
+      "diagram": "osa() se značkou 1990s, nad ní ikona mobilního telefonu",
+      "note": "Callback časové osy."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "telefony",
+      "diagram": "vlevo stolní počítač s větrákem a ~100 W, vpravo telefon s baterií",
+      "note": "Číslo 100 W ze scénáře."
+    },
+    {
+      "id": "S63",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S63.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nokia 6110 blue-92111",
+        "pick": 0,
+        "grade": {
+          "fit": 0.94
+        }
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07, dotaz zúžený na název souboru. Nokia 6110 (1997), první GSM telefon s ARM (ARM7TDMI v čipu TI) — factcheck. CC BY-SA 4.0.",
+      "pause": 0.6
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "telefony",
+      "diagram": "dvě ikony: iPod a chytrý telefon, šipka mezi nimi",
+      "note": "Bez letopočtů — scénář je neříká."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "telefony",
+      "diagram": "řada telefonů s ikonou baterie a nápisem ALL DAY ON A BATTERY",
+      "note": "Počet telefonů je schéma, ne data — žádné číslo.",
+      "pause": 0.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "telefony",
+      "diagram": "páteř: čip ARM1; vlevo BUILT TO BE CHEAP, šipka → vpravo WHAT THE WORLD NEEDED",
+      "note": "Návrat k páteři před obratem.",
+      "pause": 1.2
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "telefony",
+      "diagram": "řetěz karet SIMPLE → EFFICIENT → WINS, šipky ČÁRKOVANĚ",
+      "note": "Čárkovaně = hypotéza, za scénu ji video přebije (vzor Steel Rod).",
+      "pause": 1.0
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "telefony",
+      "diagram": "tentýž řetěz ztlumený, velký ambrový otazník",
+      "note": "Hlavní obrat videa. Schwa po „quite“ (poslech draftu 2026-10-07); dovětek se v promluvě nenajde kde uříznout → ořez schwy, koncovka -t není rizikové -al/-er/-ly/-ing/-ion/-ity.",
+      "pause": 3.0,
+      "orez_schwy": true
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "jadro",
+      "diagram": "motiv `jadro()`: velký obrys moderního jádra s bloky, zatím vše ztlumené",
+      "note": "Zavádí jádro; nese S69–S72 a vrací se v S81, S96."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "jadro",
+      "diagram": "jádro: ambrově CACHES (velké), několik EXECUTION UNITS vedle sebe, BRANCH PREDICTOR",
+      "note": "Výčet ze scénáře."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "jadro",
+      "diagram": "jádro: ambrově blok OUT-OF-ORDER; vstupují instrukce 1 2 3 4, vycházejí v pořadí 3 1 4 2",
+      "note": "Kontrola funkčnosti: jinak se jen PROVÁDĚJÍ, výsledek se zapisuje v pořadí — pořadí na výstupu je pořadí provádění, ne výsledků."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "jadro",
+      "diagram": "celé jádro husté, nápis BILLIONS OF TRANSISTORS ON THE CHIP",
+      "note": "Factcheck: miliardy na čipu, ne v jádře.",
+      "pause": 0.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "jadro",
+      "diagram": "malý jednoduchý ARM1 vedle velkého jádra, otazník",
+      "note": "Kam zmizela jednoduchost.",
+      "pause": 1.4
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "jadro",
+      "diagram": "motiv `vrstvy()`: dvě vrstvy nad sebou, nahoře INSTRUCTION SET (tenká), dole MICROARCHITECTURE (vysoká)",
+      "note": "Zavádí vrstvy; S74–S82."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "jadro",
+      "diagram": "horní vrstva ambrově, nad ní SOFTWARE s šipkou dolů, ve vrstvě slova ADD · LOAD · STORE …",
+      "note": "Jazyk, kterým mluví software."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "jadro",
+      "diagram": "dolní vrstva ambrově s jádrem uvnitř",
+      "note": "Stroj, který instrukce provádí."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "jadro",
+      "diagram": "horní vrstva jednoduchá, dolní plná husté kresby; nápis SIMPLE LANGUAGE, COMPLEX MACHINE",
+      "note": "",
+      "pause": 1.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "x86",
+      "diagram": "dva sloupce vrstev vedle sebe: ARM a x86",
+      "note": "Rozvržení vrstev se jen zúží a zdvojí; obě pod sebou stejné."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "x86",
+      "diagram": "horní vrstva x86 ambrová, plná karet různé délky (složité instrukce)",
+      "note": "Různá délka = proměnná délka instrukcí x86.",
+      "pause": 0.5
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "x86",
+      "diagram": "z karty x86 vede šipka do řady malých stejných karet µOPS; štítek SINCE THE MID-1990s",
+      "note": "Pentium Pro / AMD K5 — factcheck.",
+      "pause": 0.4
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "x86",
+      "diagram": "pod oběma sloupci totéž jádro (sdílený tvar jadro_mini) — u ARM i u x86",
+      "note": "Táž funkce = tvrzení „podobný stroj“; hlídá registr."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "x86",
+      "diagram": "oba sloupce, spodní vrstvy ambrově, mezi nimi ≈",
+      "note": "",
+      "pause": 1.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "x86",
+      "diagram": "dva dekodéry: ARM malý, x86 větší; u ARM štítek A LITTLE LESS POWER",
+      "note": "Factcheck 3–10 % — „a little“.",
+      "pause": 0.4
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "x86",
+      "diagram": "váhy jen mírně nakloněné ve prospěch ARM; nápis NOT A MAGIC ADVANTAGE",
+      "note": "Náklon malý — kresba nesmí tvrdit velký rozdíl.",
+      "pause": 1.4
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "x86",
+      "diagram": "dva přeškrtnuté nápisy BECAUSE IT WAS SIMPLE a DESIGNED FOR LOW POWER",
+      "note": "Škrt přes nápis (text_skrtnuty) = „neplatí to takhle“.",
+      "pause": 0.8
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "x86",
+      "diagram": "tři karty vedle sebe ve stejné výšce: EFFICIENT DESIGN, ANYONE CAN BUILD WITH IT, A WORLD ON BATTERIES",
+      "note": "Tři věci ze scénáře, rovnocenné — stejná velikost.",
+      "pause": 2.4
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "diagram_generator": "apple",
+      "diagram": "osa() se značkou 2020, karta APPLE",
+      "note": "Callback časové osy."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "diagram_generator": "apple",
+      "diagram": "karta APPLE, štítek STAKE IN ARM s šipkou SOLD pryč",
+      "note": "Bez letopočtu — scénář říká „years earlier“."
+    },
+    {
+      "id": "S89",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S89.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Apple M1.jpg",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-07, dotaz zúžený na název souboru. Čip Apple M1 na desce, CC0."
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "diagram_generator": "apple",
+      "diagram": "týž rám čipu jako S58; bloky FAST CORES, EFFICIENT CORES, GRAPHICS, a další; uprostřed ARM",
+      "note": "Rým s S58 — týž tvar `soc()`, jiné bloky. M1 = jádra A14 (factcheck)."
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "diagram_generator": "apple",
+      "diagram": "dvě karty: FASTER THAN THE INTEL CHIPS IT REPLACED, LONGER ON A CHARGE",
+      "note": "Bez sloupcového grafu — scénář neříká o kolik."
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "diagram_generator": "apple",
+      "diagram": "ikony telefon a notebook, obě s ambrovým čipem",
+      "note": "",
+      "pause": 1.0
+    },
+    {
+      "id": "S93",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S93.png",
+      "prompt": "long aisle of server racks in a large data centre, rows of small status lights, cool slate blue light, polished floor, no people",
+      "note": "Datová centra jako atmosféra; Amazon zmíní hlas.",
+      "pause": 2.2
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "diagram_generator": "apple",
+      "diagram": "páteř: čip ARM1 a ≈ 25,000 TRANSISTORS na týchž souřadnicích jako S36; vpravo BILLIONS",
+      "note": "Callback S36 (záměrný, rozhodnutí uživatele)."
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "diagram_generator": "apple",
+      "diagram": "ARM1 malý vedle husté kresby moderního jádra (jadro z S72)",
+      "note": "",
+      "pause": 1.4
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ polovina: dvě postavy a čárkovaný obrys čipu; nahoře nic",
+      "note": "Závěrečných 20 s: horní polovina volná pro dlaždici a kolečko odběru."
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "diagram_generator": "zaver",
+      "diagram": "dolní polovina: FOR PHONES · FOR APPLE · TO BEAT INTEL ztlumeně",
+      "note": "Ztlumené, ne škrtnuté — VO to vyvrací, ale nejde o omyl.",
+      "pause": 1.0
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "diagram_generator": "zaver",
+      "diagram": "dolní polovina: čip ARM1 ztlumený",
+      "note": "",
+      "pause": 0.8
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "diagram_generator": "zaver",
+      "diagram": "dolní polovina: základová deska ARM a na ní mnoho bloků různých firem postavených navrch",
+      "note": "Poslední obraz: základ, na kterém staví ostatní. Klidná deska.",
+      "pause": 3.0
+    }
+  ]
+}

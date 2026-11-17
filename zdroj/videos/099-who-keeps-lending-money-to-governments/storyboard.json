@@ -1,0 +1,939 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: vlevo budova vlády; vpravo dvě vodorovné lišty COLLECTS (kratší) a SPENDS (delší), přesah SPENDS nad COLLECTS ambrově a šrafovaně",
+      "note": "První obrazovka nese myšlenku, ne atmosféru: vláda utrácí víc, než vybere — ten přesah je zárodek celého videa. Lišty jsou `rozpocet()`, tytéž v S17, S18 a obráceně v S26.",
+      "pause": 0.5
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "pět malých dvojic lišt `rozpocet()` vedle sebe (rok po roku), u každé týž ambrový přesah",
+      "note": "„Not once. Every year.“ — opakování, ne čísla. Roky bez letopočtů, je to představa, ne konkrétní země. Návětí = text S01: holé „Not once.“ má na konci doříkávané „eh?“ (whisper).",
+      "pause": 0.3,
+      "naveti": "Imagine a country that spends more than it collects."
+    },
+    {
+      "id": "S02b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Dědí obraz S02. Beat vyrobený ROZDĚLENÍM SCÉNY (uživatel po draftu 2026-10-10: za „Not once“ musí být pauza). Kokoro mezi větami nenechal ticho, takže sentence_pause nešel vložit; scene_pause se přidává, ne řeže.",
+      "pause": 0.6
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "čtyři karty účtů HOSPITALS, SCHOOLS, PENSIONS, ROADS v řadě; nad nimi lišta TAX MONEY, která končí dřív než poslední karta, zbytek ambrově čárkovaně",
+      "note": "Peníze dojdou dřív než účty: lišta je kratší než řada účtů. Čárkovaně = to, na co nezbylo.",
+      "pause": 0.5
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: vláda a vedle ní tři ambrové dluhopisové lístky na sobě; zprava k vládě šipky peněz (modrošedé) od zatím bezejmenných věřitelů",
+      "note": "Zavedení páteře (seznam scén je v hlavičce `_kit.py`). Ambrová = dluh, modrošedá = věřitelé a jejich peníze (konvence 1 a 2).",
+      "pause": 0.6
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: stoh šesti lístků; spodní lístky mají štítky DUE jeden po druhém, šipky od nich doprava",
+      "note": "Staré půjčky nezmizí, splatnost přichází postupně — proto spodní lístky odcházejí, ne horní."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: vysoký stoh; vpravo čárkovaná silueta věřitele s otazníkem",
+      "note": "Hlavní otázka videa. Věřitel čárkovaně = zatím neznámý (konvence 3).",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S07.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Syntagma square protest 2011",
+        "pick": 0
+      },
+      "note": "PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-09 pod tímto dotazem: noční Syntagma 2011, dav před parlamentem (Kotsolis, CC BY-SA 3.0). „A country where it stopped working.“ Po stažení ověřit ořez 16:9 — parlament nahoře nesmí odříznout."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "recko",
+      "diagram": "`pomer()`: lišta ECONOMY (GDP) = 100 a pod ní ambrová lišta DEBT 128.5 % ve stejném měřítku; nadpis GREECE 2009",
+      "note": "Poměr k HDP je druhý stálý motiv (`pomer()`, S08, S11, S25, S31, S48, S74): stejné měřítko px/% v celém videu, takže Japonsko v S48 je vidět dvakrát delší než ekonomika. Eurostat 128,5 (factcheck S08)."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "recko",
+      "diagram": "`graf_recko()`: měsíční výnos řeckého 10letého dluhopisu 2009-01 až 2011-12 (Eurostat irt_lt_mcby_m), osa 0–45 %, ambrová čára; značky 5.5 % (12/2009) a 21.1 % (12/2011)",
+      "note": "Celá řada ze zdroje (`data.json`), nic nedopočítané. Osa až do 45 %, aby S72 mohla přidat únor 2012 a denní kotace bez změny měřítka (registr)."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "recko",
+      "diagram": "stoh ambrových lístků GREECE přeříznutý vodorovnou čarou, nápis 2012 a malým písmem €199 BN EXCHANGED",
+      "note": "Restrukturalizace = dluh se přepsal, ne zaplatil. Číslo 199,2 mld. € z factchecku S10 (ZTG 2013). Ztráta věřitelů se ukazuje až v S73, tady ne."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "recko",
+      "diagram": "`pomer()`: GDP 100; ztlumená lišta 2009 128.5 %; ambrová lišta 2025 146.1 %",
+      "note": "Táž geometrie jako S08, takže prodloužení lišty je vidět. Eurostat 2025 146,1.",
+      "pause": 0.6
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "recko",
+      "diagram": "`graf_gr_fr()`: měsíční výnosy 10letých dluhopisů 2025-09 až 2026-08, Řecko ambrově, Francie INK; měsíce, kdy je Řecko níž, podbarvené",
+      "note": "„For most of the past year“: 9 z 12 měsíců je Řecko levnější (assert). Tři měsíce (3.–5. 2026) je dráž a v grafu to musí být vidět — obraz nesmí tvrdit víc než hlas. Datum 2. 10. patří do popisu videa, ne sem.",
+      "pause": 0.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "recko",
+      "diagram": "dvě kolony THEN | NOW: DEBT 128.5 % (2009) → 146.1 % (2025); INTEREST 29.2 % (2/2012) → 3.9 % (8/2026), šipky nahoru a dolů",
+      "note": "„Same country. More debt. Cheaper money.“ Obě čísla úroku jsou měsíční průměry z téže řady jako S09/S12, aby se nesrovnávala denní kotace s průměrem. Návětí = text S12: holé „Same country.“ whisper čte jako „The same country“.",
+      "pause": 0.3,
+      "naveti": "And for most of the past year, it has borrowed more cheaply than France. On ten-year bonds."
+    },
+    {
+      "id": "S13b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "naveti": "And for most of the past year, it has borrowed more cheaply than France. On ten-year bonds. Same country.",
+      "note": "Dědí obraz S13. Beat vyrobený ROZDĚLENÍM SCÉNY (uživatel po draftu 2026-10-10: za „Same country“ musí být pauza). Kokoro mezi větami nenechal ticho, takže sentence_pause nešel vložit; scene_pause se přidává, ne řeže. Návětí S12+S13 drží intonaci pokračování.",
+      "pause": 0.3
+    },
+    {
+      "id": "S13c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Dědí obraz S13. Holé „Cheaper money.“ je čisté; návětí se tu řízlo špatně (zbylo „at“)."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: vláda a stoh ztlumeně; vpravo prázdný rámeček věřitelů s ambrovým nápisem WHO'S LENDING?",
+      "note": "Přebití otázky lepší otázkou: ambrová se přesouvá ze stohu na věřitele.",
+      "pause": 0.6
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: od vlády doprava čárkovaná stopa mincí, která odchází za pravý okraj",
+      "note": "„Follow the money“ — stopa vede ven z obrazu. Kresba místo SDXL, protože S15b dědí obraz a pohyb by se při střihu na statickou kopii zlomil.",
+      "pause": 0.6
+    },
+    {
+      "id": "S15b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "cta": true,
+      "note": "CTA podle docs/cta.md: dědí obraz S15, static. Za první porcí výplat (Řecko: číslo a paradox), před výkladem pojmů.",
+      "pause": 2.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "deficit",
+      "diagram": "dvě karty DEFICIT a DEBT, mezi nimi ≠",
+      "note": "Pojmy se zavádějí kartami, které se pak vracejí jako štítky (S18, S19)."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "deficit",
+      "diagram": "`rozpocet()`: COLLECTS 100 BN, SPENDS 110 BN",
+      "note": "Ilustrační čísla ze scénáře, bez měny (notes: v grafech jsou koruny i dolary). Tytéž lišty jako S01, teď s čísly.",
+      "pause": 0.5
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "deficit",
+      "diagram": "`rozpocet()` jako S17; přesah 10 BN ambrově se štítkem DEFICIT — ONE YEAR",
+      "note": "Deficit = ten přesah za jeden rok."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "deficit",
+      "diagram": "řada ročních přesahů (malé ambrové kvádry) vlevo, šipky do jednoho stohu vpravo se štítkem DEBT — ALL THE YEARS BEFORE",
+      "note": "Dluh = součet přesahů. Šipky jdou z let do stohu, ne obráceně."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "deficit",
+      "diagram": "vana: kohoutek s proudem vody (DEFICIT), ve vaně ambrová voda (DEBT)",
+      "note": "Příměr z v0.1 (notes). `vana()` je sdílená s S21 a S29.",
+      "pause": 0.6
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "deficit",
+      "diagram": "dvě vany vedle sebe: vlevo plná, kohoutek zavřený (A LOT OF DEBT, NO DEFICIT); vpravo skoro prázdná, kohoutek teče (LITTLE DEBT, A DEFICIT EVERY YEAR)",
+      "note": "Obě kombinace vedle sebe ve stejném měřítku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "zeme",
+      "diagram": "dvě karty DENMARK a UNITED STATES vedle sebe",
+      "note": "Most k datům. Vany z S21 se schválně nevracejí: levá (hodně dluhu, žádný deficit) ani pravá (málo dluhu, deficit) nesedí ani na Dánsko, ani na USA, takže by obraz tvrdil nepravdu. Bez vlajek a map (konvence 5)."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "zeme",
+      "diagram": "škrtnuté KRONER a DOLLARS; pod nimi zlomek DEBT ÷ GDP",
+      "note": "Škrtá se text vodorovnou čarou (`text_skrtnuty`), ne křížkem."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "zeme",
+      "diagram": "dva panely: SMALL ECONOMY — lišta GDP 47 a lišta DEBT 100 (přes dvojnásobek); HUGE ECONOMY — lišta GDP přes celou šířku a DEBT 100 jako sotva viditelná čárka",
+      "note": "Každý panel má vlastní měřítko, ale poměr v něm je spočítaný (factcheck S24: Estonsko 47,0 mld. USD → 213 %, USA 30 767 mld. → 0,33 %, assert). Jména zemí v obraze nejsou, protože je nemá ani hlas."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "zeme",
+      "diagram": "`pomer()`: GDP 100, ambrová lišta DEBT 27.9 %; nadpis DENMARK, END OF 2025",
+      "note": "Táž geometrie jako S08 — krátká lišta proti řecké je vidět bez čtení.",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "zeme",
+      "diagram": "`rozpocet()` obráceně: COLLECTS delší než SPENDS; přesah COLLECTS ambrově",
+      "note": "Callback na S01: tytéž lišty, opačný výsledek."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "zeme",
+      "diagram": "`graf_dk()`: sloupce salda Dánska 2015–2025 kolem nulové čáry (Eurostat B9), 2025 ambrově s popiskem +2.9 %",
+      "note": "„Not for the first time“: celá řada ze zdroje, takže jsou vidět i záporné roky 2015 — nevybírat jen ty hezké.",
+      "pause": 0.5
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "zeme",
+      "diagram": "`graf_dk()`: čára dluhu Dánska 2015–2025 (Eurostat GD), úsek 2022–2025 ambrově, popisky 33.3 % a 27.9 %",
+      "note": "Táž osa let jako S27 (registr). Pokles začal už dřív (2021: 39,6) a graf to ukazuje — „since 2022“ je zvolený začátek, ne zlom."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "zeme",
+      "diagram": "`vana()`: kohoutek zavřený, výpust trochu otevřená, hladina nižší než v S20, ale voda pořád ve vaně; štítek SMALLER, NOT GONE",
+      "note": "Přebytek dluh snižuje, nevymaže.",
+      "pause": 2.4
+    },
+    {
+      "id": "S30",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Treasury Building Washington",
+        "pick": 2
+      },
+      "note": "PICK 2 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-09: široký záběr budovy U.S. Treasury (Rchuon24, CC BY-SA 3.0). Je to budova ministerstva financí, ne Kongres — sedí k „government debt“."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "zeme",
+      "diagram": "`pomer()`: GDP 100, ambrová lišta DEBT 123.9 %; nadpis UNITED STATES 2025, pod ní drobně IMF, ALL LEVELS OF GOVERNMENT",
+      "note": "IMF WEO 4/2026, general government (factcheck S31). Přeověřit po 13. 10. Drobný popisek zdroje, protože metodika je jiná než u Eurostatu v S08/S25.",
+      "pause": 0.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "zeme",
+      "diagram": "dva sloupce kolem nuly: DENMARK +2.9 (nahoru), UNITED STATES −6.8 (dolů, ambrově)",
+      "note": "Saldo ve stejném měřítku. Zdroj u každého sloupce (EUROSTAT / IMF)."
+    },
+    {
+      "id": "S32b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32b.png",
+      "diagram_generator": "zeme",
+      "diagram": "ilustrace dvou let: dluh 100 → 110, HDP 100 → 120; pod tím poměr 100 % → 92 %, šipka dolů; štítek EXAMPLE",
+      "note": "Ilustrační čísla, výslovně označená EXAMPLE — ne data USA. Poměr spočítaný (110/120 = 91,7), assert.",
+      "pause": 0.5
+    },
+    {
+      "id": "S32c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32c.png",
+      "diagram_generator": "zeme",
+      "diagram": "`pomer()` USA ztlumeně; přes něj velký nápis SUSTAINABLE? s otazníkem",
+      "note": "Procento samo odpověď nedá."
+    },
+    {
+      "id": "S32d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32d.png",
+      "diagram_generator": "zeme",
+      "diagram": "tři karty WHO OWNS IT · WHAT IT COSTS · HOW THE ECONOMY GROWS",
+      "note": "Tři otázky, které zbytek videa postupně zodpoví (S38–S55 kdo, S66–S75 kolik stojí).",
+      "pause": 2.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "zeme",
+      "diagram": "`graf_evropa()`: sedm sloupců Eurostat 2025 seřazených vzestupně, všechny ztlumeně, se jmény",
+      "note": "Data jsou v obraze od prvního snímku, jen ztlumená — prázdné osy by divák četl jako rozbitý graf. USA v grafu NEJSOU (jiná metodika, notes)."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "zeme",
+      "diagram": "`graf_evropa()`: ESTONIA 24.1, DENMARK 27.9, CZECH REPUBLIC 44.3, GERMANY 63.5 ambrově s hodnotami; zbytek ztlumeně",
+      "note": "Hodnoty v obraze s desetinou, hlas zaokrouhluje (factcheck S34). VÝČET (uživatel po draftu 2026-10-10: kde se vyjmenovává s tečkami, musí být malá pauza).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "zeme",
+      "diagram": "`graf_evropa()`: FRANCE 115.6, ITALY 137.1, GREECE 146.1 ambrově; první čtyři ztlumeně",
+      "note": "Táž geometrie, rozsvítí se druhý konec. VÝČET (uživatel po draftu 2026-10-10: kde se vyjmenovává s tečkami, musí být malá pauza).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "zeme",
+      "diagram": "`graf_evropa()` celý; svorka mezi Estonskem a Řeckem ×6",
+      "note": "146,1 / 24,1 = 6,06, assert.",
+      "pause": 2.6
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S37.png",
+      "diagram_generator": "malby",
+      "diagram": "malba přes celý rám z `art/S37.png` (ChatGPT, zadání v `art/ZADANI.md`)",
+      "note": "Předěl před hlavní otázkou. Počasí, ne denní doba (`dawn`/`dusk` by přebilo kotvu stylu). Původně SDXL („a row of stone ministry and parliament facades along a wide empty square, tall columns, stone steps, flat grey overcast sky, no sun, nobody present“); SDXL bylo 2026-10-09 nedostupné, obraz dodal uživatel z ChatGPT, původ v `art/PUVOD.md`.",
+      "pause": 1.0
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: vláda; spojnice k ikoně banky (LOAN) přeškrtnutá; od vlády ambrový lístek BOND doprava",
+      "note": "Škrtá se SPOJENÍ, ne banka (banky dluhopisy kupují, S42)."
+    },
+    {
+      "id": "S39",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Greek government bond",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "note": "PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-09: „Greek Government loan of 1825“ — skutečný dluhopis řecké půjčky z Londýna. „A promise on paper“ doslova a k tomu řecký rým. Listina na výšku → `fit`, žádný zoom (text se nemá hýbat). Při stahování ověřit popis souboru, licenci a že jde o dluhopis, ne kupón."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "`osa_dluhopisu()`: časová osa 0–10 let; v roce 0 šipka $1,000 od postavy YOU k vládě",
+      "note": "Osa je sdílená s S41."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "`osa_dluhopisu()`: v každém roce malá šipka INTEREST od vlády k postavě; v roce 10 velká šipka $1,000 BACK",
+      "note": "Úrok jednou za rok podle scénáře; pololetní kupony (factcheck S41) by v obraze mátly."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "`veritele()`: šest karet BANKS, PENSION FUNDS, INSURANCE COMPANIES, INVESTMENT FUNDS, FOREIGN GOVERNMENTS, CENTRAL BANKS ve dvou sloupcích vpravo; vlevo stoh lístků vystředěný na karty, od něj šipky ke kartám",
+      "note": "Karty na pevných místech (registr), vracejí se v S43 a S83. Stoh je tu vystředěný na karty, ne na zemi u vlády (vláda v obraze není) — požadavek uživatele 2026-10-09. Otázka oddělena od výčtu do S42b: s výpustkami ve výčtu Kokoro po „them?“ nenechal mezeru (70 ms). (VÝČET viz S42b; uživatel po draftu 2026-10-10: kde se vyjmenovává s tečkami, musí být malá pauza).",
+      "pause": 0.5
+    },
+    {
+      "id": "S42b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "vycet": 0.3,
+      "note": "Dědí obraz S42. VÝČET (uživatel po draftu 2026-10-10: kde se vyjmenovává s tečkami, musí být malá pauza)."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "`veritele()`: všechny ztlumeně, PENSION FUNDS ambrově",
+      "note": "Ambrová = o tomhle je teď řeč.",
+      "pause": 0.5
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "karta PENSION FUNDS s lístky uvnitř; pod ní řada postav, ke kterým vede čárkovaná šipka ONE DAY: PENSIONS",
+      "note": "Čárkovaně = budoucí výplata (konvence 3).",
+      "pause": 0.5
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "řetěz: postava YOU (ambrově) → PENSION / SAVINGS FUND → GOVERNMENT, šipky peněz modrošedé",
+      "note": "Směr šipek = směr peněz: od tebe k vládě."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "dluhopisy",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: stoh; od lístků vede ambrová linka až k postavě YOU vpravo; štítek SOMEBODY'S SAVINGS",
+      "note": "Pointa titulu v polovině videa (notes).",
+      "pause": 2.8
+    },
+    {
+      "id": "S47",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S47.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Bank of Japan head office",
+        "pick": 0
+      },
+      "note": "PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-09: hlavní budova Bank of Japan (yt_siden, CC BY-SA 2.0). Banka se objeví v S50, tady jen uvádí Japonsko."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "japonsko",
+      "diagram": "`pomer()`: GDP 100; ambrová lišta JAPAN 206.5 %; ztlumená lišta GREECE 146.1 %",
+      "note": "IMF WEO 4/2026 206,5 — přeověřit 13. 10., musí zůstat nad 200 (factcheck). Řecko je tu dnešní (2025), ne 2009.",
+      "pause": 0.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "japonsko",
+      "diagram": "`mrizka_jgb()`: 10×10 políček = japonské státní dluhopisy; 92 ambrově AT HOME, 8 ztlumeně ABROAD",
+      "note": "MoF 6/2026: cizinci 7,9 % JGB → 8 políček, assert. Počítá se bez T-bills, aby to sedělo s BoJ v S50 (tatáž tabulka).",
+      "pause": 0.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "japonsko",
+      "diagram": "`mrizka_jgb()`: táž mřížka, 47 políček BoJ ambrově se štítkem BANK OF JAPAN; ostatní domácí ztlumeně",
+      "note": "BoJ 46,7 % JGB → 47 políček, assert. Domácí políčka BoJ jsou podmnožinou domácích z S49.",
+      "pause": 0.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "japonsko",
+      "diagram": "mřížka ztlumeně; přes ni štítek RISKS: CHANGED, NOT GONE",
+      "note": "Formulace uživatele (notes): domácí věřitelé mění rizika, neodstraní je.",
+      "pause": 1.4
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "recko",
+      "diagram": "dvě zóny HOME | ABROAD oddělené čarou; většina věřitelů v ABROAD, od nich šipky ven z obrazu; nadpis GREECE 2009",
+      "note": "Bez čísla podílu — za rok 2009 přesné číslo chybí (factcheck S52), takže obraz ukazuje jen „most“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "recko",
+      "diagram": "rámeček GREECE, mimo něj symbol € ; spojnice „tisk peněz“ přeškrtnutá",
+      "note": "Škrtá se spojení (nemohlo tisknout), ne euro."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "recko",
+      "diagram": "lišta 100 % řeckého dluhu: 57 % ambrově RESCUE LOANS (EUROZONE GOVERNMENTS), zbytek ztlumeně; pod tím ~18 YEARS AVERAGE MATURITY, ~1.4 % COST",
+      "note": "PDMA 6/2026: 203,1 z 357,6 mld. € = 56,8 % (assert), splatnost 18,3 roku, náklad 1,43 %."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "recko",
+      "diagram": "`graf_gr_fr()` z S12 znovu",
+      "note": "Callback: tentýž graf, teď s vysvětlením. Geometrie hlídaná registrem. VÝČET (uživatel po draftu 2026-10-10: kde se vyjmenovává s tečkami, musí být malá pauza).",
+      "pause": 2.6,
+      "vycet": 0.3
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S56.png",
+      "diagram_generator": "malby",
+      "diagram": "malba přes celý rám z `art/S56.png` (ChatGPT, zadání v `art/ZADANI.md`)",
+      "note": "Předěl: „when do they ever pay it back?“ Původně SDXL („long archive shelves of old ledgers and tied bundles of paper bonds stretching into the distance, high windows, flat grey diffuse light, nobody present“); SDXL bylo 2026-10-09 nedostupné, obraz dodal uživatel z ChatGPT, původ v `art/PUVOD.md`.",
+      "pause": 1.0
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: stoh; spodní lístek ambrově se štítkem $1 BN — DUE THIS YEAR",
+      "note": "Začátek příkladu o refinancování. POŽADAVEK UŽIVATELE: S57–S60 je JEDEN KROK, ne obecný stav; že celkový dluh roste i klesá, ukazuje S62."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: od spodního lístku šipka k věřitelům PAY BACK; přeškrtnutý nápis $1 BN IN TAXES",
+      "note": "Škrtá se nápis vodorovně (`text_skrtnuty`)."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: nový ambrový lístek NEW BOND nahoře; od nového věřitele peníze k vládě, od vlády ke starému",
+      "note": "Šipky peněz modrošedé, lístky ambrově."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: starý lístek čárkovaně (pryč), nový nahoře; kóta výšky stohu SAME SIZE",
+      "note": "„Exactly the same size“ platí pro nominál v příkladu (factcheck S56–S62)."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: stoh s cyklem — dole odchází, nahoře přichází, kruhová šipka; nápis REFINANCING",
+      "note": "Obecný mechanismus, bez tvrzení o výši dluhu."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "`ganttovy dluhopisy`: desítky jednotlivých dluhopisů jako vodorovné úsečky od vydání po splatnost; nad nimi čára TOTAL DEBT spočítaná z úseček, která roste i klesá, ale nikdy nespadne na nulu",
+      "note": "POŽADAVEK UŽIVATELE (notes v0.3): řada musí ukázat pohyb OBĚMA směry. Celková čára se počítá ze součtu úseček v kódu, ne kreslí ručně (assert: max > min > 0 a aspoň jeden pokles i nárůst). Je to schéma bez čísel, ne data konkrétní země."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "čtyři lístky se jmény 2¾% ANNUITIES, 2½% ANNUITIES, 2½% CONSOLIDATED STOCK, 2½% TREASURY STOCK; razítko REDEEMED 5 JULY 2015",
+      "note": "Jména a datum z HM Treasury/DMO (factcheck S63). Bez War Loan, ten byl splacený zvlášť v březnu."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "časová osa 1720 — 1853 — 2015: SOUTH SEA BUBBLE, CONSOLIDATED (GLADSTONE), REDEEMED; úsek 1720–1853 čárkovaně",
+      "note": "Čárkovaně, protože závazky se k 1720 „dají dohledat“ přes konsolidaci, nejde o tentýž dluhopis (factcheck S64).",
+      "pause": 2.6
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: jako S59, ale místo nového věřitele čárkovaná silueta s otazníkem",
+      "note": "Refinancování závisí na tom, jestli někdo koupí.",
+      "pause": 0.3
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: jako S66, u nového lístku cenovka INTEREST ?",
+      "note": "Pokračování věty z S66."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "spirala",
+      "diagram": "věřitelé (siluety) s ambrovou šipkou nahoru INTEREST ↑",
+      "note": "„Nervous“ se nekreslí obličejem, jen požadavkem."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "refinancovani",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: odcházející spodní lístky 2 % (INK), přicházející horní 7 % (ambrově); vedle lišta INTEREST BILL rostoucí",
+      "note": "Procenta jsou ilustrační (bez země), proto je u nich štítek EXAMPLE."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "spirala",
+      "diagram": "`kruh_spirala()`: tři uzly INTEREST BILL ↑ → DEFICIT ↑ → NERVOUS LENDERS; nakreslené dvě šipky",
+      "note": "Uzly na pevných místech (registr), S71 dokreslí třetí šipku.",
+      "pause": 0.4
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "spirala",
+      "diagram": "`kruh_spirala()`: tytéž uzly a třetí šipka NERVOUS LENDERS → INTEREST BILL ambrově, smyčka uzavřená",
+      "note": "Uzavření smyčky = spirála."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "recko",
+      "diagram": "`graf_recko()` z S09 prodloužený do 2012-02 (29.2 %, měsíční průměr); čárkovaná vodorovná čára 40 % DAILY QUOTES: OVER 40 %",
+      "note": "Měsíční průměr vrcholí na 29,24 (factcheck S72); denní kotace 41–47 % podle zdroje, proto jen čárkovaně jako mez, ne jako bod řady."
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "recko",
+      "diagram": "lišta 100 = co věřitelé měli dostat; 53.5 čárkovaně a přeškrtnutě LOST, 46.5 plně (15 EFSF NOTES + 31.5 NEW BONDS)",
+      "note": "Nominál −53,5 % (factcheck S73), assert 15 + 31,5 + 53,5 = 100."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "japonsko",
+      "diagram": "`pomer()`: GDP 100; JAPAN 206.5 % ambrově; GREECE 2009 128.5 % ztlumeně",
+      "note": "Srovnává se s Řeckem PŘED krizí (2009), ne dnes — jinak než v S48.",
+      "pause": 0.5
+    },
+    {
+      "id": "S74b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74b.png",
+      "diagram_generator": "japonsko",
+      "diagram": "`pomer()` z S74 ztlumeně; čárkovaná svislá mez s nápisem DANGER LINE? přeškrtnutým vodorovně",
+      "note": "Žádný práh neexistuje; škrtá se nápis, ne lišty."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "spirala",
+      "diagram": "věřitel (silueta) s bublinou WILL WE KEEP GETTING PAID?",
+      "note": "Uzavírá blok o spirále.",
+      "pause": 2.6
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S76.png",
+      "diagram_generator": "malby",
+      "diagram": "malba přes celý rám z `art/S76.png` (ChatGPT, zadání v `art/ZADANI.md`)",
+      "note": "Předěl před Austrálií: proč to všechno nesplatit. Původně SDXL („an empty treasury vault with its heavy round door standing open, a few small stacks of coins on a stone floor, flat grey diffuse light, nobody present“); SDXL bylo 2026-10-09 nedostupné, obraz dodal uživatel z ChatGPT, původ v `art/PUVOD.md`.",
+      "pause": 1.0
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "australie",
+      "diagram": "graf čistého dluhu Austrálie: bod 2001-02 5.7 % HDP a čárkovaná očekávaná linie k nule v 2005-06 (EXPECTED)",
+      "note": "Jen to, co bylo známo v roce 2002 (factcheck S77–S78): skutečná řada až v S80b. Mezi roky se neinterpoluje — chybějící 2003-04 se nekreslí.",
+      "pause": 0.5
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "australie",
+      "diagram": "karta REVIEW OF THE COMMONWEALTH GOVERNMENT SECURITIES MARKET, 2002 a otázka DO WE STILL NEED TO SELL BONDS?",
+      "note": "Skutečný dokument (Treasury, 2002)."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "australie",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: od vlády lístky k FINANCIAL MARKETS (ambrově); spojnice k BUDGET přeškrtnutá",
+      "note": "Ne kvůli rozpočtu, kvůli trhu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "australie",
+      "diagram": "lístky → karta TREASURY BOND FUTURES → karta MANAGING INTEREST RATE RISK",
+      "note": "Futures se vypořádávají proti koši CGS (factcheck S80)."
+    },
+    {
+      "id": "S80b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80b.png",
+      "diagram_generator": "australie",
+      "diagram": "`vahy()`: miska OWNS těžší než OWES, nápis 2007; vedle stoh lístků STILL ISSUED",
+      "note": "Čistý dluh 2006-07 −2,1 %, hrubé CGS ~55 mld. A$ (factcheck S80b) — rozlišení čistého a hrubého dluhu, které chtěl uživatel."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "australie",
+      "diagram": "dvě karty WHEN IT'S SHORT OF MONEY (INK) a TO KEEP A WORKING BOND MARKET (ambrově), obě se šipkou k BONDS",
+      "note": "„Not only because“ — první důvod se neškrtá.",
+      "pause": 2.8
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: vláda a stoh; vpravo `veritele()` ztlumeně s otazníkem",
+      "note": "Callback na S06."
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "zaver",
+      "diagram": "`veritele()`: karty BANKS, PENSION FUNDS, INSURANCE COMPANIES, FOREIGN GOVERNMENTS rozsvícené, k tomu postava YOU ambrově",
+      "note": "Hlas říká „insurers, other governments“ — karty zůstávají s názvy z S42 (registr), rozsvítí se ty, které hlas jmenuje. VÝČET (uživatel po draftu 2026-10-10: kde se vyjmenovává s tečkami, musí být malá pauza).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ `vlada()` + `stoh()`: cyklus refinancování z S61 zmenšeně; nový věřitel čárkovaně",
+      "note": "Shrnutí: funguje, dokud se najde věřitel.",
+      "pause": 1.4
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "zaver",
+      "diagram": "JEN DOLNÍ POLOVINA: novinový titulek A COUNTRY OWES TRILLIONS a pod ním ztlumeně HOW WILL IT EVER PAY?",
+      "note": "Koncová obrazovka: posledních ~20 s kreslí jen pod `DOLNI` (konvence 7)."
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "zaver",
+      "diagram": "JEN DOLNÍ POLOVINA: řada věřitelů (plně) a vedle tatáž řada čárkovaně NEXT YEAR?",
+      "note": "Čárkovaně = budoucí, nejisté.",
+      "pause": 0.6
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "diagram_generator": "zaver",
+      "diagram": "JEN DOLNÍ POLOVINA: vláda zmenšeně vlevo, postava věřitele vpravo, mezi nimi řetěz ambrových článků A CHAIN OF PROMISES",
+      "note": "Páteř se smí pohnout jen v závěru (docs: pravidlo 3).",
+      "pause": 1.0
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "diagram_generator": "zaver",
+      "diagram": "JEN DOLNÍ POLOVINA: týž řetěz, jeden článek uprostřed rozpojený a čárkovaně",
+      "note": "„Until they don't.“ Rozpojený článek, žádný výbuch.",
+      "pause": 3.0
+    }
+  ]
+}

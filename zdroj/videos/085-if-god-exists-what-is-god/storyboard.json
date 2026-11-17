@@ -1,0 +1,997 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První scéna nese MYŠLENKU celého videa dřív, než ji voiceover vysloví: existence je odškrtnutá, a všechno, co by z ní mělo plynout, je prázdné. Páteř = řada políček na pevných souřadnicích; scénář jimi prochází v tomhle pořadí (S06–S76) a v S79 se zaplní všechno, co věta tvrdí. Žádný náboženský symbol a žádná postava Boha — kresba by tím za diváka vybrala, co je ten Bůh, tedy přesně tu otázku, kterou video klade.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ řada(): celá řada deseti políček (CAUSE · WHERE · WHEN · MADE OF · MIND · HOW MANY · POWER · KNOWLEDGE · GOOD · WANTS), všechna čárkovaná s otazníkem. Nad řadou velká ambrová pečeť GOD EXISTS ✓. Titulek SUPPOSE IT'S PROVEN."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "‚Not just… not… not…‘ — karty se neškrtají (neříkáme, že jsou falešné), jen ≠ důkaz.",
+      "diagram_generator": "uvod",
+      "diagram": "Tři karty vedle sebe: UNEXPLAINED EVENT · STRANGE DISCOVERY · ANCIENT TEXT, každá s ≠ pod sebou směrem k pečeti PROOF."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Beat ‚God exists.‘ — jediný prvek, klid.",
+      "diagram_generator": "uvod",
+      "diagram": "Pečeť GOD EXISTS ✓ sama uprostřed, velká, plná ambrová. Titulek ESTABLISHED."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "‚We have immediately created another question.‘",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ řada() pod pečetí; z pečeti vyrůstá velký ambrový otazník nad řadou. Titulek A NEW QUESTION.",
+      "pause": 1.2
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Klade hlavní otázku videa. Konec úvodního bloku.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ řada() uprostřed obrazu, větší; všech deset políček čárkovaných s otazníkem, pečeť ztlumená nahoře. Titulek WHAT EXACTLY EXISTS?",
+      "pause": 2.4
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S06.png",
+      "note": "‚The universe has a cause. That would be extraordinary.‘ Atmosféra, první SDXL scéna až ve ~0:30. Zdroj světla neviditelný — nesmí to být postava ani oko. — SDXL nebyl k dispozici; kreslil ChatGPT podle art/ZADANI.md, původ v art/PUVOD.md.",
+      "pause": 0.5,
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace z ChatGPT (art/S06.png) přes celý rám, bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "‚Not necessarily‘ → ≠ a čárkovaně, ne škrt. Obrys ‚God most people imagine‘ je abstraktní (zaoblený tvar), žádná vousatá postava.",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo kruh UNIVERSE, šipka od čárkovaného obdélníku CAUSE vlevo od něj. Vpravo odděleně rozmazaný obrys s nápisem ‚THE GOD MOST PEOPLE IMAGINE‘ a mezi nimi ≠. Titulek NOT NECESSARILY THE SAME.",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Od teď je CAUSE jediné plné políčko. Celé video se k tomu vrací.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ řada(); políčko CAUSE plné INK s fajfkou (GRANTED), ostatní čárkovaná. Titulek LET'S GRANT THAT MUCH."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Konec úvodu. Uvozovky = jméno, ne obsah.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ řada() jako S08; nad řadou nápis CALL IT ‘GOD’ s uvozovkami a šipka na zbytek řady: WHAT ELSE? Titulek WHAT CAN WE SAY ABOUT IT?",
+      "pause": 2.2
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S10.png",
+      "note": "‚Where is God?‘ Hubble eXtreme Deep Field (NASA, volné dílo) — skutečný snímek vesmíru, ne SDXL. Pick 1 z NASA hledání, prohlédnuto 2026-10-03.",
+      "archive": {
+        "provider": "nasa",
+        "query": "Hubble Ultra Deep Field",
+        "pick": 1
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Tady se poprvé ukáže konvence: aktivní políčko páteře ambrově = o tomhle je řeč.",
+      "diagram_generator": "prostor",
+      "diagram": "PÁTEŘ řada() malá nahoře, WHERE ambrové. Pod ní kruh UNIVERSE a vedle něj čárkovaný bod s otazníkem ‚OUTSIDE?‘ Titulek WHAT DOES ‘OUTSIDE’ MEAN?"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "‚Isn't necessarily‘ → levý obraz čárkovaně, ne přeškrtnutý.",
+      "diagram_generator": "prostor",
+      "diagram": "Vlevo čárkovaně: koule UNIVERSE uvnitř velkého obdélníku EMPTY SPACE s otazníkem (tak si to představujeme). Vpravo plně: kruh UNIVERSE, v něm mřížka SPACE. Titulek SPACE IS PART OF THE UNIVERSE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "‚God wouldn't simply be located beyond the edge‘ — tady scénář popírá naplno, proto škrt.",
+      "diagram_generator": "prostor",
+      "diagram": "Kruh UNIVERSE s mřížkou; za jeho okrajem malá značka ‚GOD HERE?‘ přeškrtnutá. Titulek NOT BEYOND THE EDGE."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "‚Might not‘ → okraj čárkovaný, ne smazaný.",
+      "diagram_generator": "prostor",
+      "diagram": "Tentýž kruh, okraj se rozpouští do čárkování; otazník u ‚WHERE?‘ ztlumený. Titulek THERE MIGHT BE NO EDGE."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Nedávat tvar ani polohu — kresba by tvrdila, kde Bůh je.",
+      "diagram_generator": "prostor",
+      "diagram": "Dvě vrstvy: SPACE WE INHABIT (mřížka) a nad ní/vedle neohraničený ambrový přechod bez souřadnic: NOT ‘OVER THERE’. Titulek EXISTING WITHOUT A PLACE.",
+      "pause": 2.2
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S16.png",
+      "note": "‚When did God exist?‘ Předěl do bloku o čase. Bez textu na přesýpacích hodinách. — SDXL nebyl k dispozici; kreslil ChatGPT podle art/ZADANI.md, původ v art/PUVOD.md.",
+      "pause": 0.6,
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace z ChatGPT (art/S16.png) přes celý rám, bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Úsek před počátkem čárkovaně: ‚may not make sense‘.",
+      "diagram_generator": "prostor",
+      "diagram": "PÁTEŘ řada() malá, WHEN ambrové. Časová osa TIME, začíná bodem BIG BANG; vlevo od něj čárkovaný úsek ‚BEFORE?‘ s otazníkem. Titulek TIME MAY BEGIN WITH THE UNIVERSE."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Analogie (Hawking, ve factchecku). Šipka za pólem čárkovaná.",
+      "diagram_generator": "prostor",
+      "diagram": "Zeměkoule z boku s poledníky sbíhajícími se na severním pólu; šipka NORTH jde k pólu a nad ním pokračuje čárkovaně do prázdna s otazníkem. Titulek WHAT IS NORTH OF THE NORTH POLE?"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Nekreslí, že otázka je hloupá — jen že souřadnice končí.",
+      "diagram_generator": "prostor",
+      "diagram": "Tatáž zeměkoule, na pólu ambrová značka END OF THE COORDINATE SYSTEM; šipka za pólem zmizela. Titulek THE QUESTION RUNS OUT.",
+      "pause": 0.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "‚Perhaps‘ ×2 → obě varianty čárkovaně, žádná se nevybírá.",
+      "diagram_generator": "prostor",
+      "diagram": "Vlevo dlouhá vodorovná úsečka ‚VERY OLD BEING‘ přes časovou osu, čárkovaná; vpravo bod mimo osu bez délky: ‚“OLD” MAY NOT APPLY‘. Titulek NOT JUST VERY OLD."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "‚May have been‘ → otazník zůstává. Statický diagram, protože za ním je CTA S21b se zděděným obrazem.",
+      "diagram_generator": "prostor",
+      "diagram": "Časová osa z S17; čárkovaný úsek BEFORE je přeškrtnutý jen tenkou čarou a nad ním ‚NO BEFORE?‘. Titulek THERE MAY HAVE BEEN NO BEFORE."
+    },
+    {
+      "id": "S21b",
+      "source": "svg",
+      "visual": "images/S21.png",
+      "effect": "static",
+      "cta": true,
+      "note": "Výzva k odběru (docs/cta.md). Za první výplatou (prostor a čas), ~2:17, mezi dvěma myšlenkami. Dědí obraz S21.",
+      "pause": 2.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "",
+      "diagram_generator": "latka",
+      "diagram": "PÁTEŘ řada() malá, MADE OF ambrové. Pod ní velký otazník. Titulek WHAT IS GOD MADE OF?"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Výčet má čtyři položky (atomy, částice, pole, záření).",
+      "diagram_generator": "latka",
+      "diagram": "Pět ikon v řadě: ATOMS · PARTICLES · FIELDS · RADIATION — každá jednoduchou značkou (jádro s elektrony, tečka, siločáry, vlnovka). Titulek EVERYTHING IS MADE OF SOMETHING."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "‚Seemingly empty‘ — kresba ukazuje, že prázdné není.",
+      "diagram_generator": "latka",
+      "diagram": "Prázdný obdélník VACUUM, uvnitř slabé siločáry a pár blikajících teček. Titulek EVEN EMPTY SPACE HAS PROPERTIES.",
+      "pause": 0.5
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Kruh v argumentu = kruhová šipka, ne škrt tvůrce.",
+      "diagram_generator": "latka",
+      "diagram": "Šipka CREATOR → UNIVERSE (MATTER); u tvůrce popisek MADE OF MATTER? a smyčka zpět: matter would already exist. Titulek A CIRCLE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "‚Often describe‘ — štítek, ne tvrzení.",
+      "diagram_generator": "latka",
+      "diagram": "Čárkovaný obrys bez výplně a štítek NON-PHYSICAL. Titulek THE CLASSICAL ANSWER."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S27.png",
+      "note": "‚We have spent our entire lives experiencing physical things.‘ Hmatatelný svět jako protiváha k S26. — SDXL nebyl k dispozici; kreslil ChatGPT podle art/ZADANI.md, původ v art/PUVOD.md.",
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace z ChatGPT (art/S27.png) přes celý rám, bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "",
+      "diagram_generator": "latka",
+      "diagram": "Velký čárkovaný obrys z S26, uvnitř prázdno; pod ním slova ‘NON-PHYSICAL OBJECT’ v uvozovkách a otazník. Titulek WE CAN SAY THE WORDS.",
+      "pause": 2.4
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Otevírá ústřední tah videa: z ‚něčeho‘ na ‚někoho‘.",
+      "diagram_generator": "osoba",
+      "diagram": "PÁTEŘ řada(), CAUSE plné, MIND ambrové s otazníkem. Titulek SUPPOSE THE ARGUMENT WORKS."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Tatáž věta se vrátí v S78 — sdílená funkce, týž rámeček na týchž souřadnicích.",
+      "diagram_generator": "osoba",
+      "diagram": "Velká věta v rámečku: SOMETHING CAUSED THE UNIVERSE. Titulek WHAT HAVE WE LEARNED?"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Čárkovaná šipka = krok, který zatím nic nenese.",
+      "diagram_generator": "osoba",
+      "diagram": "Rámeček z S30, slovo SOMETHING ambrově; pod ním čárkovaná šipka k druhému rámečku SOMEONE CAUSED THE UNIVERSE. Titulek HOW DO WE GET HERE?"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Ikony, ne fotka.",
+      "diagram_generator": "osoba",
+      "diagram": "Kámen a rozbité okno, šipka CAUSE mezi nimi. Titulek A CAUSE NEEDN'T BE A PERSON."
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pokračování výčtu S32 — stejné rozvržení tří příkladů vedle sebe.",
+      "diagram_generator": "osoba",
+      "diagram": "Hvězda a planeta na oběžné dráze; vedle dvě kolečka PROCESS → PROCESS. Titulek NO MIND REQUIRED.",
+      "pause": 0.5
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Mysl jen jako abstraktní obrys (kruh s vlnou), ne lidská hlava.",
+      "diagram_generator": "osoba",
+      "diagram": "Kruh FIRST CAUSE uprostřed, nad ním čárkovaná hlava/mysl s otazníkem. Titulek WHY WOULD IT HAVE A MIND?"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Refrén videa č. 1: chybějící krok = čárkované políčko mezi dvěma plnými.",
+      "diagram_generator": "osoba",
+      "diagram": "Řetízek: FIRST CAUSE → [čárkované políčko ADDITIONAL ARGUMENT] → PERSONAL CAUSE. Titulek THAT NEEDS ANOTHER ARGUMENT."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Cedulka nesmí mezeru zaplnit — kresba by tvrdila opak.",
+      "diagram_generator": "osoba",
+      "diagram": "Týž řetízek; do mezery přiložená jen cedulka ‘GOD’ — mezera pod ní zůstává prázdná. Titulek A WORD ISN'T A STEP.",
+      "pause": 2.2
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "‚Major monotheistic religions describe‘ — připsané tradici, ne tvrzené.",
+      "diagram_generator": "mysl",
+      "diagram": "PÁTEŘ řada() malá, MIND ambrové. Pod ní výčet pěti sloves v řadě: KNOWS · UNDERSTANDS · CHOOSES · RESPONDS. Titulek THE GOD OF MONOTHEISM IS CONSCIOUS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S38.png",
+      "note": "‚Consciousness… associated with physical nervous systems.‘ Purkyňova buňka, kresba Ramóna y Cajala (public domain). Pick 0, prohlédnuto 2026-10-03.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Purkinje cell Cajal",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "‚Maybe ×2‘ → čárkovaně.",
+      "diagram_generator": "mysl",
+      "diagram": "Vlevo mozek (zjednodušený obrys) se šipkou do kruhu CONSCIOUSNESS; vpravo kruh CONSCIOUSNESS bez mozku, čárkovaný, s otazníkem. Titulek ONE WAY AMONG OTHERS?",
+      "pause": 0.5
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "",
+      "diagram_generator": "mysl",
+      "diagram": "Malý rámeček HUMAN EXPERIENCE, z něj dlouhá čárkovaná šipka do velkého neohraničeného pole A DIFFERENT KIND OF EXISTENCE. Titulek STRETCHING OUR CONCEPTS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "",
+      "diagram_generator": "mysl",
+      "diagram": "Tři bubliny myšlenek pospojované šipkou za sebou na časové ose TIME. Titulek ONE AFTER ANOTHER?",
+      "pause": 0.5
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Beat výčtu — totéž rozvržení jako S41.",
+      "diagram_generator": "mysl",
+      "diagram": "Tytéž tři bubliny, postupně se rozsvěcují: 1 → 2 → 3. Titulek THEN ANOTHER.",
+      "pause": 0.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "",
+      "diagram_generator": "mysl",
+      "diagram": "Časová osa čárkovaná a ztlumená; tři bubliny přes sebe v jednom bodě bez šipek. Titulek NO SEQUENCE?"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "‚Things‘, ne ‚everything‘ (oprava v0.4) — nepsat EVERYTHING ani ∞.",
+      "diagram_generator": "mysl",
+      "diagram": "Jediná velká bublina, v ní slabě vidět víc obsahů najednou; štítek ALL AT ONCE. Titulek MIGHT KNOW THINGS ALL AT ONCE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "",
+      "diagram_generator": "mysl",
+      "diagram": "Bublina ze S44 vlevo, vpravo malá hlava s otazníkem (IMAGINE?). Titulek HARD TO IMAGINE ≠ IMPOSSIBLE."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Člověk jen jako jednoduchá postava v měřítku.",
+      "diagram_generator": "mysl",
+      "diagram": "Měřítko: řada od atomu přes člověka po galaxii, úzké ambrové okno HUMAN SCALE kolem člověka. Titulek BRAINS BUILT FOR HUMAN SCALE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "",
+      "diagram_generator": "pocet",
+      "diagram": "PÁTEŘ řada() malá, HOW MANY ambrové. Pod ní kruh UNIVERSE a nad ním jedna tečka CREATOR s otazníkem ‚ONLY ONE?‘. Titulek ONLY ONE?"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Čárkovaně = koncepční možnost.",
+      "diagram_generator": "pocet",
+      "diagram": "Kruh UNIVERSE, nad ním tři čárkované tečky CREATORS. Titulek CONCEPTUALLY, SEVERAL.",
+      "pause": 0.5
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "",
+      "diagram_generator": "pocet",
+      "diagram": "Tři varianty v řadě: dvě tečky spojené (COOPERATE), dvě tečky s bleskem (DISAGREE), vesmír rozdělený na dvě části se dvěma tvůrci (DIVIDED). Titulek PERHAPS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "",
+      "diagram_generator": "pocet",
+      "diagram": "Dva štítky: ‘A GOD’ a ‘THE GOD’; mezi nimi šipka s +INFORMATION. Titulek THE WORD ‘THE’ ADDS INFORMATION.",
+      "pause": 2.2
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "",
+      "diagram_generator": "moc",
+      "diagram": "PÁTEŘ řada() malá, POWER ambrové. Titulek ALL-POWERFUL? a pod ním staré písmo ‘AN OLD PUZZLE’."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Balvan jako kresba, ne fotka — v S53/54 se s ním pracuje.",
+      "diagram_generator": "moc",
+      "diagram": "Velký balvan na zemi, nad ním značka UNLIFTABLE? Titulek A ROCK TOO HEAVY TO LIFT.",
+      "pause": 0.6
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Dvě půlky vedle sebe — S54 doplní pravou.",
+      "diagram_generator": "moc",
+      "diagram": "Levá půlka: balvan stvořený (✓ CREATE) a ruka/šipka nahoru přeškrtnutá (✗ LIFT). Pravá půlka prázdná. Titulek IF GOD CAN CREATE IT…",
+      "pause": 0.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "",
+      "diagram_generator": "moc",
+      "diagram": "Totéž a pravá půlka: obrys balvanu čárkovaně (✗ CREATE). Titulek …OR CANNOT, SOMETHING IS LEFT UNDONE."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "",
+      "diagram_generator": "moc",
+      "diagram": "Obě půlky ztlumené, nad nimi uvozovky ‘CAN DO ANYTHING’ s ambrovým otazníkem. Titulek WHAT DOES IT MEAN?"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "‚Perhaps‘ — definice, ne tvrzení.",
+      "diagram_generator": "moc",
+      "diagram": "Velký kruh LOGICALLY POSSIBLE, v něm ambrově ALL OF IT. Titulek ANYTHING LOGICALLY POSSIBLE."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Čtverec-kruh leží MIMO kruh možného, ne v kruhu přeškrtnutý — rozdíl ‚nesplněný úkol‘ × ‚žádný úkol‘.",
+      "diagram_generator": "moc",
+      "diagram": "Mimo kruh: čtverec-kruh (čtverec s kulatými rohy přecházející v kruh) a štítek SQUARE CIRCLE. Titulek NOT A TASK AT ALL."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "",
+      "diagram_generator": "moc",
+      "diagram": "Balvan z S52 také mimo kruh, vedle čtverce-kruhu; nad kruhem MEANING ≠ CONTRADICTION. Titulek THE PARADOX IS ABOUT THE WORD.",
+      "pause": 2.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "‚Oko‘ jako jednoduchý kruh se zorničkou, ne náboženský symbol (oko prozřetelnosti nekreslit).",
+      "diagram_generator": "vedeni",
+      "diagram": "PÁTEŘ řada() malá, KNOWLEDGE ambrové. Pod ní časová osa NOW → TOMORROW, oko/kruh nad TOMORROW. Titulek KNOWING THE FUTURE.",
+      "pause": 0.5
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "",
+      "diagram_generator": "vedeni",
+      "diagram": "Na ose TOMORROW: čtvereček YOUR CHOICE, nad ním ambrová fajfka KNOWN WITH CERTAINTY. Titulek WHAT ABOUT FREEDOM?"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "",
+      "diagram_generator": "vedeni",
+      "diagram": "Z YOUR CHOICE vycházejí dvě větve: A (známá, plná) a B (čárkovaná) s otazníkem. Titulek COULD YOU CHOOSE DIFFERENTLY?",
+      "pause": 1.0
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "",
+      "diagram_generator": "vedeni",
+      "diagram": "Dvě půlky: vlevo větev B vybraná → štítek KNOWLEDGE WRONG; vpravo jen větev A → štítek FREE? Titulek A DILEMMA."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Postoje se staví postupně; žádný není ambrově vítězný.",
+      "diagram_generator": "vedeni",
+      "diagram": "Tři sloupce, první plný: COMPATIBLE. Titulek ARGUED FOR CENTURIES.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Všechny tři stejně velké a stejnou barvou — kresba nesmí vybrat vítěze.",
+      "diagram_generator": "vedeni",
+      "diagram": "Tři sloupce plné: COMPATIBLE · GENUINE CONFLICT · NO FIXED FUTURE. Titulek THREE ANSWERS.",
+      "pause": 2.4
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Velikost by tvrdila důležitost; ‚perhaps the most important‘ nese hlas, ne kresba.",
+      "diagram_generator": "dobro",
+      "diagram": "PÁTEŘ řada() malá, GOOD ambrové, stejně velké jako ostatní políčka. Titulek IS GOD GOOD?",
+      "pause": 0.6
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "",
+      "diagram_generator": "dobro",
+      "diagram": "Plné políčko CREATOR EXISTS ✓, vedle čárkované MORALLY PERFECT ?; mezi nimi ≠ šipka. Titulek EXISTING ≠ GOOD."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Žádný štítek barevně odlišený.",
+      "diagram_generator": "dobro",
+      "diagram": "Čtyři štítky stejné velikosti: INDIFFERENT · MORALLY STRANGE · HOSTILE · UNLIKE US. Titulek POWER SAYS NOTHING ABOUT MORALS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "073 dát do závěrečné obrazovky (notes.md).",
+      "diagram_generator": "dobro",
+      "diagram": "Políčko PERFECTLY GOOD s čárkovanou šipkou od ANOTHER REASON; dole malý odkaz PROBLEM OF SUFFERING ↗ (předchozí video). Titulek IT NEEDS ITS OWN REASON.",
+      "pause": 2.4
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "",
+      "diagram_generator": "touha",
+      "diagram": "PÁTEŘ řada() malá, WANTS ambrové. Titulek DOES A PERFECT GOD NEED ANYTHING?"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "",
+      "diagram_generator": "touha",
+      "diagram": "Plný kruh bez mezer, nápis COMPLETE. Titulek LACKS NOTHING."
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Tady scénář popírá naplno → škrt (text_skrtnuty, čitelně).",
+      "diagram_generator": "touha",
+      "diagram": "Kolem kruhu pět štítků potřeb (FOOD · SHELTER · MONEY · PROTECTION · COMPANY), každý přeškrtnutý tenkou čarou. Titulek NEEDS NOTHING.",
+      "pause": 0.5
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "",
+      "diagram_generator": "touha",
+      "diagram": "Kruh COMPLETE a od něj čárkovaná šipka k malému kruhu UNIVERSE a k postavičkám CONSCIOUS BEINGS. Titulek WHY CREATE?"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S73.png",
+      "note": "‚Was God lonely? Was God bored?‘ Atmosféra prázdnoty před stvořením; bez postavy. — SDXL nebyl k dispozici; kreslil ChatGPT podle art/ZADANI.md, původ v art/PUVOD.md.",
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace z ChatGPT (art/S73.png) přes celý rám, bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "",
+      "diagram_generator": "touha",
+      "diagram": "Čtyři otázky v řadě jako štítky: WORSHIP? · PRAYERS? · COMMANDMENTS? · JUDGEMENT? Titulek WHY WOULD GOD CARE?"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "‚Maybe‘ → otazník v titulku.",
+      "diagram_generator": "touha",
+      "diagram": "Dvě šipky z kruhu COMPLETE: NEEDED TO (čárkovaná, ztlumená) a CHOSE TO (plná). Titulek A CHOICE, NOT A NEED?",
+      "pause": 0.5
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Před hlavním obratem videa — delší ticho.",
+      "diagram_generator": "touha",
+      "diagram": "Šipka CHOSE TO, na jejím začátku velký ambrový otazník WHY? Titulek WHY?",
+      "pause": 3.0
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Rámečky na týchž souřadnicích jako S78 a S79.",
+      "diagram_generator": "synteza",
+      "diagram": "Dva prázdné rámečky nad sebou, první malý, druhý velký. Titulek TWO STATEMENTS."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "",
+      "diagram_generator": "synteza",
+      "diagram": "Horní rámeček: SOMETHING CAUSED THE UNIVERSE (tatáž funkce jako S30). Pod ním PÁTEŘ řada(): jen CAUSE plné, zbytek prázdný. Titulek STATEMENT ONE."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "WHERE, WHEN a MADE OF zůstávají otazníkem — věta S79 o prostoru, čase ani látce nic neříká, a kresba nesmí tvrdit víc než text. Ambrová výplň = tvrzené, ne doložené (konvence 3).",
+      "diagram_generator": "synteza",
+      "diagram": "VÝPLATA PÁTEŘE: řada() na týchž souřadnicích jako v S01; CAUSE dané (INK), MIND · HOW MANY · POWER · KNOWLEDGE · GOOD · WANTS ambrově vyplněné (TVRZENÉ). Nad řadou věta ze scénáře ve třech řádcích. Titulek STATEMENT TWO."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "",
+      "diagram_generator": "synteza",
+      "diagram": "PÁTEŘ řada() plná z S79; nad ní ambrová složená závorka +ENORMOUS INFORMATION a otazník WHERE FROM? Titulek WHERE DID IT COME FROM?"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Refrén. Jedna šipka z argumentu do všech políček by tvrdila opak — každé políčko má VLASTNÍ přívod.",
+      "diagram_generator": "synteza",
+      "diagram": "PÁTEŘ řada(); pod CAUSE plná šipka od FIRST-CAUSE ARGUMENT, pod každým dalším políčkem vlastní čárkovaná šipka od prázdného čárkovaného rámečku. Titulek EACH NEEDS ITS OWN JUSTIFICATION."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Neurčovat, které políčko je silné — scénář to neříká. Hustota čar jen ilustrativní, bez popisků políček.",
+      "diagram_generator": "synteza",
+      "diagram": "Tytéž rámečky argumentů: některé plnější (STRONG?), některé slabé (WEAK?), všechny stále oddělené. Titulek SEPARATE QUESTIONS.",
+      "pause": 2.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "",
+      "diagram_generator": "stroj",
+      "diagram": "Velká slovní věta: DON'T SMUGGLE EXTRA INFORMATION; kufr/balík s otazníkem vedle. Titulek A BROADER LESSON."
+    },
+    {
+      "id": "S84",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S84.png",
+      "note": "‚Imagine finding an ancient machine.‘ Hlavní fragment Antikythérského mechanismu, NAMA (CC BY 2.5, atribuce povinná). Scénář ho nejmenuje a obraz ho nepopisuje. Pick 0, prohlédnuto 2026-10-03.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Antikythera mechanism",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Táž funkce jako páteř, jiné štítky — rým s S78.",
+      "diagram_generator": "stroj",
+      "diagram": "Rýmovaná páteř: řada políček téhož tvaru jako řada() pro stroj: BUILT BY SOMEONE (plné ✓) · WHO? · WHAT THEY LOOKED LIKE? · WHY? · KIND? · STILL EXIST? (čárkovaná). Titulek THAT TELLS YOU SOMETHING.",
+      "pause": 0.5
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Množné ‚they‘ — nekreslit jednoho stavitele.",
+      "diagram_generator": "stroj",
+      "diagram": "Táž řada, čárkovaná políčka postupně ambrová (o těch je teď řeč). Titulek BUT NOT THE REST."
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Paralela musí být vidět tvarem.",
+      "diagram_generator": "stroj",
+      "diagram": "Řada stroje nahoře, PÁTEŘ řada() pod ní, obě se stejným vzorem: první plné, zbytek čárkovaný. Titulek THE SAME APPLIES TO GOD.",
+      "pause": 2.4
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "",
+      "diagram_generator": "pojem",
+      "diagram": "Pět štítků kolem slova GOD: A PERSON? · A MIND? · A FORCE? · THE FIRST CAUSE? · OUTSIDE SPACE AND TIME? Titulek SO WHAT IS GOD?"
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Bez náboženských symbolů a jmen tradic — kresba by vybírala.",
+      "diagram_generator": "pojem",
+      "diagram": "Slovo ‘GOD’ uprostřed, z něj se rozbíhají šipky k mnoha rozdílným tvarům (různé tradice — jen abstraktní tvary, žádné symboly). Titulek ONE WORD, MANY IDEAS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "",
+      "diagram_generator": "pojem",
+      "diagram": "Otázka DOES GOD EXIST? a pod ní jeden ostře ohraničený objekt. Titulek AS IF IT WERE ONE OBJECT.",
+      "pause": 0.5
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "",
+      "diagram_generator": "pojem",
+      "diagram": "Týž objekt se rozpadne na rodinu příbuzných, odlišných tvarů v řadě. Titulek A FAMILY OF CONCEPTS.",
+      "pause": 2.2
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S92.png",
+      "note": "‚Maybe… we wouldn't immediately recognise it as God.‘ Neurčitý tvar — model nesmí nakreslit nic rozpoznatelného (oltář, postavu, světlo z nebe). — SDXL nebyl k dispozici; kreslil ChatGPT podle art/ZADANI.md, původ v art/PUVOD.md.",
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace z ChatGPT (art/S92.png) přes celý rám, bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "‚Might not‘ → ≠, ne škrt.",
+      "diagram_generator": "pojem",
+      "diagram": "Čárkovaný obrys postavy přeškrtnutý jen ≠, vedle bublina myšlenky čárkovaně ≠ lidské myšlení. Titulek MIGHT NOT BE A PERSON."
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "",
+      "diagram_generator": "pojem",
+      "diagram": "Uvozovky ‘WHAT IS IT?’ a otazník, který nemá kam ukázat (šipka do prázdna). Titulek BEYOND OUR QUESTIONS?"
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "",
+      "diagram_generator": "pojem",
+      "diagram": "Plné políčko FUNDAMENTAL ✓ a vedle něj čárkovaná cedulka ‘GOD’? s otazníkem. Titulek DOES IT DESERVE THE NAME?",
+      "pause": 2.8
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Velká otázka DOES GOD EXIST? Titulek THE USUAL QUESTION."
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Otázka přepsaná: WHAT WOULD WE MEAN BY ‘GOD EXISTS’? Titulek THE DEEPER QUESTION.",
+      "pause": 0.6
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Výplata podruhé: každá definice rozsvítí jinou část téže řady.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ řada(): rozsvícené jen CAUSE (FIRST CAUSE = ONE CLAIM), pak CAUSE + MIND (INTELLIGENT CREATOR = ANOTHER). Titulek DIFFERENT CLAIMS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Začíná okno závěrečné obrazovky (posledních 20 s) — páteř smí dolů, horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ řada(): CAUSE + MIND + GOOD + WANTS rozsvícené. Titulek ANOTHER CLAIM AGAIN.",
+      "pause": 1.2
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Závěrečná obrazovka: horní polovina volná pro dlaždici a kolečko.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: pečeť GOD EXISTS ✓ a vedle ambrová šipka NEXT QUESTION →. Horní polovina prázdná. Titulek DON'T STOP THERE.",
+      "pause": 1.4
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Rým s S05. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: S05 v malém — řada políček s otazníky. Horní polovina prázdná. Titulek WHAT EXACTLY WAS PROVEN?",
+      "pause": 1.0
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Poslední deska; klid, žádné tvrzení, které by zakryly prvky závěrečné obrazovky.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní třetina: plné políčko CAUSE ✓ a za ním řada políček mizí do tmy. Horní polovina prázdná. Titulek ONLY THE BEGINNING."
+    }
+  ]
+}

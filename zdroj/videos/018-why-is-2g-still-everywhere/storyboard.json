@@ -1,0 +1,793 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook je SCÉNA, ne schéma. Divák musí napřed zažít úplnou normálnost — teprve pak má smysl ji rozbít.",
+      "prompt": "interior of a small passenger lift seen from inside, brushed metal doors closing, a lit floor button, nobody visible, calm ordinary light"
+    },
+    {
+      "id": "S02",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S02.png",
+      "note": "Táž kabina jako S01, jen zastavená a tmavší. Nesmí to být jiný výtah — celá scéna stojí na tom, že se nic nezměnilo kromě situace.  [pokus 1 dal prázdnou chodbu, odložen ve scratchpadu]",
+      "prompt": "close view of an emergency call button on a lift control panel, a single round illuminated button with a bell symbol, brushed metal panel with floor numbers, dim light, nobody there, waiting",
+      "seed": 4021
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Vylučovací metoda. První dvě MUSÍ být viditelně v pořádku a ztlumené, jinak obraz naznačí, že problém je i v nich.",
+      "diagram_generator": "uvod",
+      "diagram": "tři řádky pod sebou s ikonou a stavem: TLAČÍTKO / ELEKTŘINA obě se zeleným háčkem a slovem WORKS, třetí SÍŤ ambrová s přeškrtnutou anténou a slovem SWITCHED OFF; první dvě ztlumené"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Titulní karta bloku. Jediná scéna videa, která smí být čistě typografická.",
+      "diagram_generator": "uvod",
+      "diagram": "titulní karta: velký nápis TURNING OFF 2G, pod ním tenká vodorovná čára a drobně the surprisingly complicated problem"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Přesun významu: 2G není vzpomínka, je to současná infrastruktura. Pole ikon musí být VÝRAZNĚ větší než telefon — poměr nese celé tvrzení.",
+      "diagram_generator": "uvod",
+      "diagram": "vlevo malý obrys mobilu z devadesátých let s popiskem 2G, z něj vede čára doprava k hustému poli drobných ikon strojů; nad mobilem drobně 'what you remember', nad polem 'where it actually is'"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Výčet. Všech pět stejně velkých — kdyby jedna vyčnívala, obraz by řekl, že zrovna ta je ten případ.",
+      "diagram_generator": "uvod",
+      "diagram": "pět ikon v řadě s popisky: LIFTS, ALARMS, INDUSTRIAL EQUIPMENT, METERS, CARS; všechny stejně velké a stejně světlé"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Beat a konec intra. Je to TÝŽ obraz jako S06 s jedinou změnou — ne nový obrázek (CLAUDE.md: jinak z beatu je pět střihů).",
+      "diagram_generator": "uvod",
+      "diagram": "táž řada pěti ikon ztlumená, pod ní přibude šestá ambrová s popiskem EMERGENCY SYSTEMS",
+      "pause": 2.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Doklad stáří. Osa musí být čitelná od prvního snímku — prázdná osa se čte jako rozbitý graf (zpětná vazba u třetího videa).",
+      "diagram_generator": "stari",
+      "diagram": "vodorovná časová osa 1991 az 2026, vlevo ambrová značka GSM s popiskem first commercial network, vpravo značka TODAY; pod osou drobně 35 years"
+    },
+    {
+      "id": "S09",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S09.png",
+      "note": "Protipól k výtahu: tady je moderní síť na svém místě. Atmosféra, ne schéma.",
+      "prompt": "a passenger on a train watching video on a phone, window light streaming past, modern carriage interior, relaxed everyday moment"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "První rozdvojení videa. Háček vlevo NENÍ souhlas s vypnutím 2G obecně — je to souhlas jen pro telefon; popisek to musí říct.",
+      "diagram_generator": "stari",
+      "diagram": "svislá dělicí čára: vlevo ikona smartphonu se zeleným háčkem a popiskem SWITCH IT OFF, vpravo ikona výtahu s ambrovým otazníkem a popiskem NOT SO MUCH",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "CLAUDE.md: přes NÁPIS se škrtá vodorovnou čarou, křížek ho udělá nečitelným.",
+      "diagram_generator": "vytah",
+      "diagram": "čtyři přeškrtnuté řádky pod sebou: 5G, NETFLIX, GIGABIT CONNECTION, THE INTERNET; škrtnutí je vodorovná čára přes text, ne křížek"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Klíčová scéna a callback se vrátí v S88. Ocásek bubliny MUSÍ být otevřená lomená čára, ne uzavřený trojúhelník (CLAUDE.md).",
+      "diagram_generator": "vytah",
+      "diagram": "bublina s textem HELP. I'M STUCK BETWEEN FLOORS. vycházející z ikony výtahu, ocásek je otevřená lomená čára"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Plná čára = doloženo, tohle se skutečně takhle dělá. Konvence plná/čárkovaná platí pro celé video.",
+      "diagram_generator": "vytah",
+      "diagram": "schéma zleva doprava: ikona výtahu, plná čára s popiskem VOICE CALL, ikona sluchátka s popiskem SERVICE CENTRE; nad čarou drobně GSM"
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Rozšíření z výtahu na celou třídu zařízení. Čáry musí být stejně tenké — všechny potřebují stejně málo.",
+      "diagram_generator": "vytah",
+      "diagram": "čtyři ikony v řadě s popisky ALARM SYSTEMS, INDUSTRIAL EQUIPMENT, TRACKING DEVICES, METERS, z každé vede tenká čára do společného bodu vpravo označeného GSM"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Poměr šířek je tvrzení scény. Musí být tak velký, aby se dal přečíst v 210 px.",
+      "diagram_generator": "vytah",
+      "diagram": "porovnání dvou trubek: horní široká s popiskem WHAT MODERN NETWORKS OFFER, dolní velmi tenká ambrová s popiskem WHAT THESE MACHINES NEED; poměr průřezů výrazný",
+      "pause": 2.2
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Uvedení pojmu. Video ho použije ještě čtyřikrát, takže musí být jednou pořádně pojmenovaný.",
+      "diagram_generator": "gprs",
+      "diagram": "nápis GPRS uprostřed, pod ním mobile data over GSM, kolem drobné ukazatele rychlosti u nuly"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Řádový rozdíl. Dlouhý pruh musí utíkat z obrazu, jinak by čísla svedla k porovnávání konkrétních hodnot, které scénář neuvádí.",
+      "diagram_generator": "gprs",
+      "diagram": "dva vodorovné pruhy podle délky: krátký ambrový GPRS TENS OF KILOBITS a proti němu dlouhý ztlumený MODERN MOBILE DATA, který pokračuje mimo obraz"
+    },
+    {
+      "id": "S18",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S18.png",
+      "note": "Oddechová nostalgická scéna mezi dvěma diagramy. Nic netvrdí, jen dává divákovi dýchnout.",
+      "prompt": "an early two-thousands mobile phone beside a laptop on a desk at night, small screen glowing, patient waiting mood, period objects"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Vtip scénáře. Minimalismus je pointa — čím víc by se do obrazu přidalo, tím míň by to bylo vtipné.",
+      "diagram_generator": "gprs",
+      "diagram": "ambrový nápis YES uprostřed, pod ním drobně as your actual internet connection a ještě níž we survived"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Připravuje S21. Obdélníček musí být opravdu malý — velikost je tvrzení.",
+      "diagram_generator": "gprs",
+      "diagram": "ikona čidla, z ní tenká čára doprava k malému obdélníčku s popiskem A FEW HUNDRED BYTES"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Nejkonkrétnější obraz první poloviny videa. Hodnoty jsou přesně ty ze scénáře; 41 bajtů je spočítáno ve factcheck.md kap. 3.",
+      "diagram_generator": "gprs",
+      "diagram": "displej zařízení: rámeček s třemi řádky monospace TEMPERATURE 21.4 / PRESSURE 1012 / STATUS OK, pod rámečkem drobně 41 bytes",
+      "pause": 2.2
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Přesměrování pozornosti. Levá strana je ztlumená proto, že video ji odkládá, ne proto, že by byla nepravdivá.",
+      "diagram_generator": "stroje",
+      "diagram": "vlevo ztlumená ikona starého telefonu s popiskem OLD PHONES, vpravo ambrové pole ikon strojů s popiskem MACHINES, mezi nimi nápis 2G"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Mechanismus celé kapitoly v jednom obraze: funkčnost je důvod, proč se nic neděje.",
+      "diagram_generator": "stroje",
+      "diagram": "ikona stroje se zeleným háčkem a popiskem IT WORKS, pod ní přeškrtnutá ikona ruky s popiskem NOBODY REPLACES IT"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Klíčové srovnání videa. Pruh sítě musí být viditelně nejkratší — to je ten nesoulad, který video pojmenuje až v S81.",
+      "diagram_generator": "stroje",
+      "diagram": "vodorovné pruhy životností pod sebou: LIFT 20-30 YEARS, INDUSTRIAL MACHINE EVEN LONGER, a proti nim krátký ztlumený pruh MOBILE NETWORK GENERATION"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Doplňuje S24 o zařízení, na která se nesahá vůbec.",
+      "diagram_generator": "stroje",
+      "diagram": "ikona alarmu s popiskem INSTALLED AND FORGOTTEN a ikona měřáku s popiskem FIFTEEN YEARS OF QUIET READINGS"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Pointa kapitoly. Krátká scéna, jeden nápis, dlouhá pauza za ním.",
+      "diagram_generator": "stroje",
+      "diagram": "velký ambrový nápis IT WORKS uprostřed, nad ním drobně why would anyone replace it",
+      "pause": 2.5
+    },
+    {
+      "id": "S27",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S27.png",
+      "note": "POZOR: žádná značka vozu ani logo — factcheck.md, riziko 1. Auto je kategorie, ne konkrétní model.",
+      "prompt": "the interior of a modern car at dusk, dashboard and console lit from within, no visible brand marks, quiet cabin"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Modul je fyzicky malý a je uvnitř — obojí je důležité pro pozdější 'kdo to vymění' v S37.",
+      "diagram_generator": "auto",
+      "diagram": "obrys auta z boku, uvnitř malý obdélníček s popiskem COMMUNICATION MODULE, z něj vlnky k anténě s popiskem 2G / 3G; pod obrysem drobně older eCall"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Doloženo nařízením (EU) 2015/758, viz factcheck kap. 5. Čtyři položky MSD jsou přesně ty ze zdroje, ne vymyšlené.",
+      "diagram_generator": "auto",
+      "diagram": "schéma ve třech krocích: náraz, z auta ambrová šipka k nápisu 112, z ní menší šipka k rámečku se seznamem LOCATION / TIME / DIRECTION / VIN"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Nekompatibilita jako chybějící čára, ne jako křížek přes moderní sítě — ty fungují, jen ne pro tenhle modul.",
+      "diagram_generator": "auto",
+      "diagram": "modul auta s popiskem UNDERSTANDS 2G ONLY, před ním přeškrtnutá anténa a za ní ztlumené nápisy 4G a 5G, ke kterým nevede žádná čára"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Všechno funguje. Připravuje kontrast s S32, takže musí mít stejné rozvržení.",
+      "diagram_generator": "auto",
+      "diagram": "pět řádků se zeleným háčkem: ENGINE, BRAKES, AIRBAGS, RADIO, THE CAR ITSELF"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Táž kompozice jako S31 s jedinou změnou. Kdyby se rozvržení lišilo, kontrast by se ztratil.",
+      "diagram_generator": "auto",
+      "diagram": "týž seznam jako S31 ztlumený, pod ním přibude šestý řádek ambrově EMERGENCY COMMUNICATION s přeškrtnutím"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Pointa kapitoly a jedna z nejdůležitějších vět videa. Škrt patří jen na síť.",
+      "diagram_generator": "auto",
+      "diagram": "dva rámečky vedle sebe: vlevo CAR se zeleným háčkem a popiskem NOT OBSOLETE, vpravo NETWORK ambrově přeškrtnutý; mezi nimi drobně the dependency",
+      "pause": 2.8
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Námitka se musí položit férově — proto bez ironie a bez přeškrtnutí.",
+      "diagram_generator": "vymena",
+      "diagram": "bublina s textem FINE. JUST REPLACE THE OLD MODULE. a pod ní drobně sometimes that is exactly what happens"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Množství je argument. Ikon musí být tolik, aby se nedaly spočítat.",
+      "diagram_generator": "vymena",
+      "diagram": "husté pole drobných ikon výtahů a alarmů vyplňující obraz, nahoře popisek THOUSANDS"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Rozšíření z budov na celou zemi.",
+      "diagram_generator": "vymena",
+      "diagram": "tři skupiny ikon s popisky INDUSTRIAL EQUIPMENT FIFTEEN YEARS OLD, ROADWORTHY VEHICLES, METERS ACROSS A COUNTRY"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Chybějící šipky JSOU to tvrzení: není určeno, kdo platí. Kdyby vedla šipka k jednomu z nich, obraz by odpověděl na otázku, kterou scénář nechává otevřenou.",
+      "diagram_generator": "vymena",
+      "diagram": "uprostřed ikona modulu, kolem něj čtyři rámečky s otazníkem a popisky MANUFACTURER, BUILDING OWNER, MAINTENANCE COMPANY, CAR OWNER; žádná šipka nikam nevede"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Poměr velikostí nese celou pointu kapitoly.",
+      "diagram_generator": "vymena",
+      "diagram": "vlevo drobná ikona modemu s popiskem A CHEAP GSM MODEM, ambrová šipka doprava k velkému rámečku AN EXPENSIVE ENGINEERING PROJECT",
+      "pause": 2.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Teď mluví operátor a má pravdu. Obraz musí být věcný, ne obranný.",
+      "diagram_generator": "spektrum",
+      "diagram": "vodorovný pruh spektra rozdělený na úseky, celková šířka ohraničená svislými zarážkami a popiskem RADIO SPECTRUM IS LIMITED"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Spektrální účinnost. Doloženo řádově ve factcheck kap. 11 — proto rozdíl v hustotě, ne konkrétní čísla.",
+      "diagram_generator": "spektrum",
+      "diagram": "dva stejně široké pruhy nad sebou: horní GSM s několika málo dlaždicemi, dolní LTE / 5G s mnohem hustším rastrem; popisek SAME SPECTRUM"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Ekonomika z pohledu operátora. Nesmí to vypadat jako obvinění.",
+      "diagram_generator": "spektrum",
+      "diagram": "ikona operátorské věže, pod ní dva sloupce nákladů: OLD NETWORK vysoký, USERS nízký"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Video tady stojí na straně operátora. Klidná scéna bez ozdob.",
+      "diagram_generator": "spektrum",
+      "diagram": "nápis THAT'S A PERFECTLY REASONABLE QUESTION v rámečku, kolem prázdno"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Zlom videa. Od téhle scény se ptáme jinak.",
+      "diagram_generator": "spektrum",
+      "diagram": "velká ambrová otázka HOW MUCH 2G DO WE ACTUALLY NEED? uprostřed prázdného obrazu",
+      "pause": 2.5
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Škrtá se celý horní rámeček, protože se odmítá celá ta možnost, ne jedno slovo v ní.",
+      "diagram_generator": "kolik",
+      "diagram": "dva rámečky nad sebou: horní ztlumený přeškrtnutý KEEP THE ENTIRE 2G NETWORK FOREVER, dolní ambrový KEEP A TINY PART OF IT"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Čeho se vzdáváme. Vodorovné škrty přes text, ne křížky.",
+      "diagram_generator": "kolik",
+      "diagram": "tři přeškrtnuté řádky: MILLIONS OF SMARTPHONE USERS, STREAMING VIDEO, NORMAL MOBILE INTERNET"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Poměr proužku k pruhu je hlavní tvrzení druhé poloviny videa. Připravuje S48.",
+      "diagram_generator": "kolik",
+      "diagram": "široký pruh spektra a v něm jeden velmi úzký ambrový proužek s popiskem A SMALL NUMBER OF GSM CHANNELS"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Nosný diagram videa. Poměr musí být stejný jako v S46, jinak si obraz odporuje.",
+      "diagram_generator": "kolik",
+      "diagram": "pruh spektra: drtivá většina ztlumená s popiskem 4G AND 5G, na okraji tenká ambrová vrstva s popiskem A TINY LEGACY LAYER",
+      "pause": 2.2
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "POZOR: rámečky musí být PRÁZDNÉ — žádná loga ani jména operátorů v obraze (factcheck, riziko 2). Jména zazní jen v hlase.",
+      "diagram_generator": "legacy",
+      "diagram": "tři prázdné rámečky ve tvaru operátorských značek, všechny přeškrtnuté, pod nimi popisek IT DOESN'T HAVE TO BE ANY OF THEM"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Pojmenování nápadu. Musí být čitelné, protože se vrátí v S52 a v S65.",
+      "diagram_generator": "legacy",
+      "diagram": "velký ambrový nápis EU LEGACY uprostřed, pod ním drobně a shared european legacy service"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Pohled zařízení. Callback na S50 a nejnázornější obraz celého nápadu.",
+      "diagram_generator": "legacy",
+      "diagram": "displej modemu: malý rámeček s nápisem EU LEGACY a ukazatelem signálu, nad ním ikona výtahu, vedle drobně it doesn't care who owns the tower"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Rozlišení, na kterém stojí druhá polovina videa.",
+      "diagram_generator": "kapacita",
+      "diagram": "dva rámečky nad sebou: horní přeškrtnutý WE DON'T HAVE ENOUGH CAPACITY, dolní ambrový WE DON'T WANT TO RESERVE SPECTRUM; mezi nimi drobně two different problems",
+      "pause": 2.5
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Začátek revealu (viz notes.md, revize 0.2). Prázdný obraz, aby další scéna udeřila.",
+      "diagram_generator": "komise",
+      "diagram": "nápis THIS ISN'T ENTIRELY HYPOTHETICAL uprostřed prázdného obrazu"
+    },
+    {
+      "id": "S53",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S53.png",
+      "note": "Autorita revealu. ARCHIV, ne SDXL: fotorealistická generovaná scéna konkrétního skutečného místa by překlopila odpověď na dotaz YouTube „byla použita AI\" na ano (CLAUDE.md). Sídlo Komise je doložitelný objekt, ne ilustrace.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Berlaymont building Brussels",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Doloženo primárním zdrojem (factcheck kap. 7). Podmínka 'without coordination' MUSÍ být v obraze — bez ní by číslo tvrdilo, že se to stane vždycky.",
+      "diagram_generator": "komise",
+      "diagram": "velké ambrové číslo 64 MILLION uprostřed, pod ním VEHICLES ACROSS THE EU a ještě níž drobně could lose eCall if networks are switched off without coordination"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Kontrast měřítek. Škrtá se ta banální interpretace problému, ne telefon.",
+      "diagram_generator": "komise",
+      "diagram": "vlevo velké ambrové 64 000 000, vpravo jediná drobná ikona starého mobilu s přeškrtnutým popiskem SOMEBODY'S OLD NOKIA"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Rozsah problému. Čtyři stejně velké rámečky — žádná kategorie není důležitější.",
+      "diagram_generator": "komise",
+      "diagram": "čtyři rámečky v mřížce s popisky INFRASTRUCTURE, SAFETY SYSTEMS, VEHICLES, INDUSTRIAL EQUIPMENT, pod nimi pruh drobných ikon s popiskem AND MILLIONS WHO DON'T KNOW WHICH NETWORK THEY USE"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "POZOR na míru jistoty: slovo RECOMMENDS musí v obraze být. Studie doporučuje, nerozhoduje — factcheck kap. 7 to má jako hlídané místo.",
+      "diagram_generator": "komise",
+      "diagram": "rámeček s nadpisem THE STUDY RECOMMENDS a pod ním jediný řádek KEEP AT LEAST ONE CIRCUIT-SWITCHED NETWORK UNTIL AT LEAST 2030"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Pointa revealu: náš nápad a doporučení studie jsou totéž. Vizuální callback na S50 to říká bez jediného slova navíc.",
+      "diagram_generator": "komise",
+      "diagram": "nápis EU LEGACY jako v S50, ale menší a s ambrovým rámečkem, pod ním drobně in other words",
+      "pause": 2.8
+    },
+    {
+      "id": "S59",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Dobový přijímač z roku 1956 — konkrétní historický objekt, Commons ho má. „fit\" proto, že výchozí režim rám vyplňuje a ořezává; u předmětu, o kterém scéna mluví, musí být vidět celý. Staticky, protože rozostřené pozadí z „fit\" by se při zoomu hýbalo taky.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "vintage television set 1950s",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Škrtá se celá bublina, protože se odmítá celý ten postoj.",
+      "diagram_generator": "tv",
+      "diagram": "bublina s přeškrtnutým textem BLACK-AND-WHITE TELEVISIONS ARE OBSOLETE. THROW THEM AWAY."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Nejdůležitější diagram druhé poloviny — mechanismus zpětné kompatibility. Doloženo ve factcheck kap. 9 (subnosná 3,58 MHz).",
+      "diagram_generator": "tv",
+      "diagram": "jeden vodorovný signál, ze kterého vedou dvě čáry: dolů k ikoně černobílého přijímače s popiskem SEES THE PICTURE, nahoru k barevnému s popiskem SEES PICTURE PLUS COLOUR"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Shrnutí analogie. Připravuje protiargument v S70 — proto musí být uzavřené a spokojené.",
+      "diagram_generator": "tv",
+      "diagram": "tři řádky se zeleným háčkem: ONE BROADCAST, OLD EQUIPMENT STILL WORKS, NEW EQUIPMENT GETS THE NEW FEATURES",
+      "pause": 2.2
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Poctivý protiargument. Tabulka je doložená ve factcheck kap. 10; video si tu samo boří vlastní analogii, a to je jeho síla.",
+      "diagram_generator": "tv",
+      "diagram": "tabulka dvou sloupců GSM a LTE se čtyřmi řádky ACCESS, CARRIER WIDTH, CORE NETWORK, MODULATION; hodnoty se v každém řádku liší"
+    },
+    {
+      "id": "S64",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Nokia 5110, uvedená 1998 — přesně rok, který scénář jmenuje. Archiv, protože má vlastní jméno a Commons ho má; SDXL „starý mobil\" by byl obecný tvar.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nokia 5110",
+        "pick": 0,
+        "grade": {
+          "fit": 0.8
+        }
+      }
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Návrat k poměru z S46 a S48 — musí být stejný, jinak si video odporuje.",
+      "diagram_generator": "tv",
+      "diagram": "pruh spektra rozdělený: velká ztlumená část MODERN NETWORKS GET ALMOST EVERYTHING a tenký ambrový proužek THE OLD NETWORK GETS A TINY SLICE; pod tím drobně until the old equipment is gone",
+      "pause": 2.2
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Přeznačení pojmu. Škrtá se jen ten jeden řádek, ne celý nadpis (CLAUDE.md: jinak obraz řekne 'neplatí to vůbec').",
+      "diagram_generator": "stari2",
+      "diagram": "rámeček s nápisem LEGACY TECHNOLOGY, pod ním přeškrtnutý řádek BAD TECHNOLOGY a ambrový řádek OLD TECHNOLOGY STILL DOING ITS JOB"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Vyvracení dvou nevyřčených předsudků.",
+      "diagram_generator": "stari2",
+      "diagram": "dva řádky se zeleným háčkem: A TWENTY-YEAR-OLD GSM MODEM - NOT DANGEROUS, A LIFT WITH A GSM TELEPHONE - STILL USEFUL"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Chybějící šipka je tvrzení: vynález 5G není příčinou zastarání stroje.",
+      "diagram_generator": "stari2",
+      "diagram": "ikona průmyslového stroje se zeleným háčkem, vedle ztlumený nápis 5G HAS BEEN INVENTED, mezi nimi žádná šipka"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Jak si to představujeme. Ztlumené proto, že to video vzápětí odmítne.",
+      "diagram_generator": "stari2",
+      "diagram": "svislé schéma se šipkami OLD - REPLACE - NEW pod sebou, celé ztlumené a v tenké čáře"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Oprava S76. Překryv musí být zřetelný — je to hlavní teze celého videa.",
+      "diagram_generator": "stari2",
+      "diagram": "několik vodorovných pruhů generací, které se navzájem PŘEKRÝVAJÍ v čase, popisek REAL INFRASTRUCTURE OVERLAPS a pod ním FOR DECADES",
+      "pause": 2.5
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Doloženo (factcheck kap. 8): DT červen 2028, Vodafone září 2028, O2 druhá polovina 2028. Slovo PLAN musí v obraze být.",
+      "diagram_generator": "cas",
+      "diagram": "časová osa 2026 az 2030 s ambrovou značkou kolem 2028 a popiskem SOME EUROPEAN OPERATORS PLAN TO RETIRE 2G"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Rozdílné hodiny. Výtah z 2011 je v 2026 patnáctiletý, tedy v polovině životnosti — doloženo ve factcheck kap. 4.",
+      "diagram_generator": "cas",
+      "diagram": "dva pruhy stáří: krátký ztlumený A SMARTPHONE FROM 2021 - ALREADY OLD a dlouhý ambrový A LIFT FROM 2011 - BARELY MIDDLE-AGED"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Pruh musí utéct z obrazu — to dělá ten pocit délky.",
+      "diagram_generator": "cas",
+      "diagram": "pruh stroje z roku 2005, který pokračuje daleko doprava za pravý okraj, popisek ANOTHER TWENTY YEARS OF USEFUL LIFE"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Pojmenování nesouladu, který video ukazuje od S24. Hustota značek je celý argument.",
+      "diagram_generator": "cas",
+      "diagram": "dvě osy nad sebou s různou hustotou značek: hustá MOBILE NETWORK GENERATIONS a řídká THE INFRASTRUCTURE THAT USES THEM; popisek THE MISMATCH",
+      "pause": 2.5
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Obrat k závěru.",
+      "diagram_generator": "nuda",
+      "diagram": "přeškrtnutý nápis REVOLUTIONARY NEW TECHNOLOGY, pod ním ambrově SOMETHING INCREDIBLY BORING"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Pointa kapitoly.",
+      "diagram_generator": "nuda",
+      "diagram": "otázka DOES IT STILL WORK? a pod ní ambrová odpověď YES. GOOD. LEAVE IT ALONE.",
+      "pause": 2.8
+    },
+    {
+      "id": "S77",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S77.png",
+      "note": "Metafora 'nechat malé dveře otevřené'. Obraz musí být klidný, ne tajemný.",
+      "prompt": "a small service door left slightly ajar in a large modern building wall, warm light spilling from the gap, evening"
+    },
+    {
+      "id": "S78",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S78.png",
+      "note": "Návrat do normálu. Všechna zařízení, o kterých video mluvilo, jsou tady — jen je nevidíme.",
+      "prompt": "a quiet street at dusk with an ordinary apartment block, a parked older car and a lit stairwell window, nothing remarkable happening"
+    },
+    {
+      "id": "S79",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S79.png",
+      "note": "SDXL, ne archiv: scéna nechce 'který modul to je', ale 'nikdo o něm nepřemýšlí' (CLAUDE.md: archiv odpovídá na který objekt, ne jak má vypadat).",
+      "prompt": "a small electronic module with a short antenna inside a dusty metal enclosure, close view, forgotten and unremarkable"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Callback na S12 přes celé video. Bublina musí mít TÝŽ tvar i ocásek, jinak se spojení ztratí.",
+      "diagram_generator": "zaver",
+      "diagram": "tři přeškrtnuté řádky STREAM VIDEO, BROWSE THE WEB, DOWNLOAD APPS a pod nimi ambrová bublina HELP. I'M HERE. s ocáskem jako v S12"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Poslední návrat k poměru z S46, S48 a S72.",
+      "diagram_generator": "zaver",
+      "diagram": "úzký ambrový proužek v širokém ztlumeném pruhu spektra, popisek A PRETTY GOOD REASON TO KEEP A FEW GSM CHANNELS ALIVE"
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "První půlka závěrečné myšlenky.",
+      "diagram_generator": "zaver",
+      "diagram": "přeškrtnutý nápis THE ONE THAT REPLACES EVERYTHING THAT CAME BEFORE"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Druhá půlka. Stejné rozvržení jako S90, aby to byl jeden pár.",
+      "diagram_generator": "zaver",
+      "diagram": "ambrový nápis THE ONE THAT LETS THE OLD STUFF KEEP WORKING a pod ním drobně until we're actually ready to let it go"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Odmítnutí špatné otázky.",
+      "diagram_generator": "zaver",
+      "diagram": "nápis 2G MAY BE ANCIENT, pod ním přeškrtnutá otázka WHY ARE WE STILL USING IT?"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Závěrečná otázka videa. Zůstane na obrazovce do konce.",
+      "diagram_generator": "zaver",
+      "diagram": "velká ambrová otázka WHAT HAPPENS IF WE TURN IT OFF BEFORE WE'RE READY? uprostřed prázdného obrazu"
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "První scéna nese myšlenku, ne atmosféru: IZOLACE — kolem dráhy v žádném kruhu nic není. To je argument celého videa (provoz bez zázemí), zavedený dřív, než divák ví, o čem video je. Elipsy jsou páteř, vrací se v S26, S37, S38b, S40, S58, S61. Nebe nahoře zůstává prázdné kvůli závěrečné obrazovce.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: horizont v y=700, nad ním prázdná zatažená obloha; na zemi štěrková dráha v perspektivě a kolem ní soustředné elipsy vzdálenosti, všechny prázdné až k okraji obrazu. Malá postava na dráze. Nadpis CANADIAN ARCTIC."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Výčet z voiceoveru jako škrty na PÁTEŘI — ne nový obraz. Štítky leží uvnitř elips, škrt říká ‚tady není‘. Teploměr bez čísla (scénář číslo neříká).",
+      "diagram_generator": "arktida",
+      "diagram": "Táž páteř; v elipsách tři přeškrtnuté štítky: MAJOR AIRPORT, REPAIR CENTRE, SPARE PARTS, a teploměr pod nulou."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Letadlo přilétá do prázdna. Silueta je druhý motiv videa, kreslí ji jediná funkce dc3() v _kit.py.",
+      "diagram_generator": "arktida",
+      "diagram": "Táž páteř; nad horizontem přilétá silueta DC-3 (dc3() z _kit), malá, ambrová.",
+      "pause": 0.6
+    },
+    {
+      "id": "S04",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S04.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03. Kokpit DC-3 Lufthansa D-CADE (CC BY 2.0): jen kulaté budíky. Pick 2 (N760) ZAMÍTNUT — uprostřed panelu dodatečný displej, voiceover přitom říká ‚No screens‘; Buffalo C-GWIR má GPS. Zpětná vazba 2: tvrzení o mechanické jednoduchosti má mít vizuální důkaz. Motory nese hned S05. Výřez zoom ořízne muzejní cedulku vlevo a odlesk skla.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas DC-3 cockpit",
+        "pick": 6,
+        "grade": {
+          "zoom": [
+            0.12,
+            0.08,
+            0.76,
+            0.76
+          ]
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S05.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). DC-3 OH-LCB „Ibis“ v Malmi 1939, ČB, CC BY 4.0. Skutečný stroj z doby, ne kresba.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas DC-3 1930s",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "DATA: počet teček assertem == 10 000 (scénář říká ‚more than ten thousand‘, takže mřížka je dolní mez, ne přesné číslo — popisek MORE THAN). Roky výroby ověřit proti factcheck.md.",
+      "diagram_generator": "pocty",
+      "diagram": "Mřížka 100 × 100 drobných teček = 10 000, ambrově; nápis MORE THAN 10,000 MILITARY VERSIONS · 1941–45.",
+      "pause": 0.5
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Kontrast ‚tisíce vyrobených → pár pořád pracuje‘ (rozhodnutí uživatele). POZOR: počet svítících teček NESMÍ tvrdit číslo — factcheck říká, že počet v komerčním provozu žádný zdroj nemá. Proto ‚hrstka‘ bez popisku počtu a v note generátoru výslovně ‚symbolické‘.",
+      "diagram_generator": "pocty",
+      "diagram": "Táž mřížka, téměř všechny tečky ztlumené (DIM), hrstka zůstává ambrová; nad tím časová osa 1935 ——— 2026 a nápis STILL WORKING."
+    },
+    {
+      "id": "S08",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S08.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Buffalo Airways C-GWIR na stojánce s otevřenými dveřmi a schůdky — dnešní provoz, ne muzeum. CC BY-SA 2.0.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Buffalo Airways DC-3",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "DATA: délky úseček z let v kódu, assert poměr ≥ 3. Šedá je ‚about‘, takže konec úsečky měkký (přechod), ne tvrdá hrana.",
+      "diagram_generator": "pocty",
+      "diagram": "Dvě vodorovné úsečky na téže ose let: TYPICAL AIRLINER ~25 let (šedá) a DC-3 STILL AT WORK 75+ let (ambrová), délky v poměru.",
+      "pause": 0.8
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Hlavní otázka videa, končí úvod (~1:00). Pauza za ní — divák má otázku zaregistrovat.",
+      "diagram_generator": "otazka",
+      "diagram": "Silueta DC-3 uprostřed, pod ní otázka WHAT DID DOUGLAS GET SO RIGHT?",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Předěl do historie. Siluety obecné, bez typových jmen — scénář žádný typ nejmenuje.",
+      "diagram_generator": "historie",
+      "diagram": "Časová osa začátku dopravního létání (cca 1925–1935) se šedými siluetami dvouplošníků a jednoplošníků; DC-3 zatím jen jako prázdné místo na konci osy."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Váhy (vahy() z _kit) jsou motiv ekonomiky, výplata v S16. Popisek ‚alone‘ ze scénáře: cestující SAMI nestačí — proto závaží, ne prázdná miska.",
+      "diagram_generator": "ekonomika",
+      "diagram": "Váhy: na jedné misce PASSENGERS, na druhé COSTS — převažují náklady; misku cestujících podpírají dva závaží MAIL CONTRACTS a SUBSIDIES. Nahoře tři štítky NOISY · SLOW · UNCOMFORTABLE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Výčet ze scénáře jako popisky na stroji. Zatahovací podvozek kreslit zataženě (čárkovaně podvozek v letové poloze).",
+      "diagram_generator": "dc2",
+      "diagram": "Silueta DC-2 (dc3() v měřítku DC-2) se čtyřmi odkazy: ALL-METAL, RETRACTABLE GEAR, STREAMLINED FUSELAGE, TWIN ENGINES.",
+      "pause": 0.6
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Bokorys rozdíl skoro neukáže (délka 19,1 vs 19,7 m) — uživatel si všiml, že vypadají stejně. DC-3 bylo hlavně ŠIRŠÍ, proto čelní pohled. Poměry assertem.",
+      "diagram_generator": "dc2",
+      "diagram": "DC-2 (šedě) a DC-3 (ambrově) ZEPŘEDU vedle sebe ve skutečném poměru rozpětí (25,9 / 29,0 m) a šířky kabiny (66 / 92 palců).",
+      "pause": 0.6
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Pointa ‚enough‘: sloupce nejsou rekordní, jen všechny přes práh. Bez číselné osy — scénář čísla neříká.",
+      "diagram_generator": "ekonomika",
+      "diagram": "Čtyři sloupce SPEED, SEATS, RANGE, RELIABILITY, každý těsně přes vodorovnou čárkovanou čáru ENOUGH."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Výplata S12 na STEJNÝCH souřadnicích (vahy() s pevnou geometrií). Statická — následuje CTA, která obraz dědí.",
+      "diagram_generator": "ekonomika",
+      "diagram": "Tytéž váhy jako S12, ale miska PASSENGERS převáží COSTS sama, závaží MAIL/SUBSIDIES odložená šedě stranou. Pod tím AIR TRAVEL → INDUSTRY.",
+      "pause": 0.6
+    },
+    {
+      "id": "S16b",
+      "source": "svg",
+      "visual": "images/S16.png",
+      "effect": "static",
+      "cta": true,
+      "note": "CTA podle docs/cta.md: za první výplatou (historie dovyprávěna), před ‚So what was the secret?‘. Dědí obraz S16, předchozí scéna je statický diagram.",
+      "pause": 1.2
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Škrt přes nápis, ne křížek.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "Uprostřed nápis ONE SECRET, přeškrtnutý (text_skrtnuty), pod ním ztlumeně THERE WASN'T ONE."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Kvalitativní, bez stupnic. ‚Good at the same time‘ = vyrovnaný tvar, ne špička.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "Paprskový graf o šesti osách (speed, size, range, strength, simplicity, handling): DC-3 jako téměř pravidelný šestiúhelník blízko vnějšího okraje.",
+      "pause": 0.5
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18b.png",
+      "note": "Konkrétní odpověď na S10 (zpětná vazba draftu 1): konstrukce -> peníze. Řezy kabinou DC-2 (66 palců, 1+1, 14 míst) a DC-3 (92 palců, 2+1, 21 míst) v poměru šířek; počty sedadel assertem. Tvrzení o nákladech záměrně NE (bez primárního zdroje).",
+      "diagram_generator": "dc2",
+      "diagram": "Dva příčné řezy trupu vedle sebe, šířky 66 : 92, sedadla 1+1 a 2+1, pod nimi 7 ŘAD × 2 = 14 a 7 ŘAD × 3 = 21."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Ostatní letadla schválně BEZ JMEN — srovnání s konkrétními typy fact check neověřoval a scénář je nejmenuje.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "Tři žebříčky FASTEST / BIGGEST / LONGEST RANGE: DC-3 v žádném není první, ve všech je blízko vršku; ostatní příčky šedé bez jmen."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Funkční nákres: dráha krátká, hrbolatá, letadlo pomalu a s velkým úhlem náběhu — nekreslit nesmysl (podvozek na zemi jen ostruhou nahoře = taildragger).",
+      "diagram_generator": "konstrukce",
+      "diagram": "Silueta DC-3 při přistání na krátké hrbolaté štěrkové dráze; křídlo zvýrazněné ambrově s popiskem LARGE WING FOR ITS WEIGHT; malé štítky STRONG STRUCTURE · SIMPLE SYSTEMS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Čárkovaná = omezená/nejistá doba, v souladu s ‚Not indefinitely‘.",
+      "diagram_generator": "konstrukce",
+      "diagram": "Čelní pohled DC-3: levý motor přeškrtnutý (stojící vrtule), pravý běží; dráha letu pokračuje, nejdřív plná, pak čárkovaná a slábnoucí: NOT INDEFINITELY · LONG ENOUGH.",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Callback na S01 na STEJNÝCH souřadnicích. Konec bloku o konstrukci.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: elipsy vzdálenosti, letadlo nad dráhou, NEAREST AIRPORT daleko za poslední elipsou (u okraje), popisek HUNDREDS OF KM.",
+      "pause": 2.2
+    },
+    {
+      "id": "S27",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S27.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). ANA DC-3 VH-UZK v letu nad Melbourne, 40. léta, PD. Nahrazuje SDXL (není k dispozici): ‚the way it flew‘ nese skutečný let.",
+      "pause": 0.5,
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas DC-3 flying over",
+        "pick": 5
+      }
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Budík z motivu S04 (sdílená funkce). Bez čísel na stupnici. Varování = předpádové chvění, factcheck ověřuje formulaci.",
+      "diagram_generator": "kokpit",
+      "diagram": "Rychloměr z S04 zvětšený: ručička těsně nad oblastí varování (ambrový oblouk), za ní červeně čárkovaně STALL; popisek WARNING BEFORE IT GETS BAD.",
+      "pause": 0.5
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Po draftu 1 přeformulováno (‚another universe‘ uživatel nepochopil): malý pohyb řízení → malá plynulá odezva; vpravo přeškrtnuté ‚sudden lurch‘ = DC-3 tohle NEDĚLÁ.",
+      "diagram_generator": "kokpit",
+      "diagram": "Dvě dvojice vstup → odezva: malá výchylka řídicího sloupku → malá plynulá změna dráhy (ambrová); vedle přeškrtnutá varianta, kde malá výchylka vyhodí dráhu do spirály."
+    },
+    {
+      "id": "S29b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29b.png",
+      "note": "AOPA: veteráni tvrdili, že poznali váhu letušky s kávou (citlivost na těžiště). ‚claimed‘ drží míru jistoty — v obraze žádné číslo ani ‚měření‘. Po draftu 4 přesunuto PŘED přistání a doplněno vysvětlení (váha posune těžiště, pilot to cítí v řízení) — uživatel nepochopil, a ‚Forgiving‘ za tím nesedělo.",
+      "diagram_generator": "kokpit",
+      "diagram": "Velká silueta DC-3 bez oken jako řez, uvnitř postava s kávou v uličce a šipka ke kokpitu; popisek THE PILOTS COULD FEEL IT."
+    },
+    {
+      "id": "S29c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29c.png",
+      "pause": 1.2,
+      "note": "Zpětná vazba draftu 3: víc konkrétních příkladů shovívavosti. AOPA (big wings, ground effect, little tendency to bounce, easier to land than many light airplanes). Kresba nesmí tvrdit víc: polštář pod křídly = ‚settled softly‘, ne fyzikální model.",
+      "diagram_generator": "kokpit",
+      "diagram": "Silueta DC-3 těsně nad dráhou na konci plynulé sestupové dráhy s vyrovnáním; pod křídlem jemný ambrový polštář; popisek BIG WINGS SETTLE SOFTLY."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Slovo, které pilot používá — nese ho typografie, nic dalšího.",
+      "diagram_generator": "kokpit",
+      "diagram": "Jediné slovo FORGIVING, velké, ambrové, uprostřed.",
+      "pause": 1.4
+    },
+    {
+      "id": "S30b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S30b.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). DC-3 Kenn Borek na sněhu, s hangárem a mechanikem, PD (US State Dept). Nahrazuje SDXL: život DC-3 v drsných podmínkách.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas DC-3 snow",
+        "pick": 7
+      }
+    },
+    {
+      "id": "S30c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30c.png",
+      "note": "Kvalitativní. Scénář říká ‚might‘ — dolní linka proto končí čárkovaně, ne s jistotou do nekonečna.",
+      "diagram_generator": "kokpit",
+      "diagram": "Dvě vodorovné ‚životní‘ linky s drobnými křížky chyb: horní (šedá) končí u první chyby, dolní (ambrová) chyby přechází a pokračuje k okraji. Popisky PUNISHES · FORGIVES."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Míra jistoty: scénář výslovně říká, že padat mohlo — proto ta věta i v obraze.",
+      "diagram_generator": "kokpit",
+      "diagram": "Pás mezi MISTAKE a CATASTROPHE: široký ambrový pás ROOM TO RECOVER; nahoře drobně IT COULD STILL CRASH."
+    },
+    {
+      "id": "S31b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31b.png",
+      "pause": 2.4,
+      "note": "Citát R. Hallquista (High Sierra Pilots) doslova zkrácený; poctivý protipól shovívavosti a uzavření bloku. Typografická karta, atribuce bez jména (scénář jméno neříká).",
+      "diagram_generator": "kokpit",
+      "diagram": "Citát ve dvou řádcích, druhý ambrově; pod ním — A DC-3 PILOT."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Čárkovaná = nikdo to neplánoval.",
+      "diagram_generator": "cas",
+      "diagram": "Časová osa 1935 → 2026. U 1935 štítek GOAL: A REALLY GOOD AIRLINER, šipka cíle končí brzy; úsek k 2026 čárkovaný bez cíle.",
+      "pause": 0.5
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Popisky z textu doslova.",
+      "diagram_generator": "konstrukce",
+      "diagram": "Silueta DC-3 se třemi ambrovými štítky: ALUMINIUM STRUCTURE, MECHANICAL CONTROLS, MECHANICAL ENGINES."
+    },
+    {
+      "id": "S35",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S35.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-03. Mechanici na štaflích u otevřeného motoru R-1830 na C-47 (PD) — ‚understand it just by looking‘ jako fotka, ne kresba.",
+      "pause": 0.6,
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas C-47 engine maintenance",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Čtyři rámečky odpovídají čtyřem položkám věty. Šipky jen ‚a pak‘, ne příčina.",
+      "diagram_generator": "udrzba",
+      "diagram": "Řetěz čtyř rámečků pro moderní letadlo: DIAGNOSTIC EQUIPMENT → ELECTRONIC MODULE → SOFTWARE → CERTIFIED TECHNICIAN."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Callback izolace — totéž, co S36, jen v Arktidě to není po ruce.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: elipsy, dráha; čtyři rámečky z S36 jsou všechny daleko za poslední elipsou, u okrajů obrazu."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Obrat: v tomhle prostředí je stará konstrukce výhoda.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: na dráze stojí DC-3 (silueta) ambrově, bez rámečků.",
+      "pause": 0.6
+    },
+    {
+      "id": "S38b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38b.png",
+      "note": "Callback S26 na týchž souřadnicích.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: DC-3 na dráze, NEAREST HANGAR za poslední elipsou, nad letadlem malý otazník.",
+      "pause": 0.6
+    },
+    {
+      "id": "S38c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38c.png",
+      "note": "Zpětná vazba 2: detail lanka a kladky jako obraz, ne schéma. Commons použitelnou fotku nemá → kresba od ChatGPT (původ v art/PUVOD.md). Kotvy odkazů v pixelech zdroje (PANEL_*). Nadpis vypuštěn, padal přes ilustraci.",
+      "diagram_generator": "udrzba",
+      "diagram": "Ilustrace z ChatGPT (art/S38c-panel.png) přes celý rám: otevřený panel, lanko přes kladku, potrubí s kapkou. Kódem odkazy PULLEY, CABLE, LEAKING LINE a přeškrtnutý displej ERROR CODE vpravo nahoře. Bez nadpisu.",
+      "pause": 0.5
+    },
+    {
+      "id": "S38d",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S38d.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Douglas 1942: zkušený mechanik učí novou mechaničku na hvězdicovém motoru, PD (FSA/OWI). ‚Generations of mechanics‘ = předávání. Výškový snímek: fit 0.84 a static, jinak ořez uřízne hlavy.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "C-47 engine mechanics",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Přesun problému: porozumění ne, okolí ano.",
+      "diagram_generator": "udrzba",
+      "diagram": "Tři rámečky s překážkami: PARTS · SPECIALISTS · MODERN RULES; nad nimi přeškrtnuté UNDERSTANDING THE MACHINE."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Výplata páteře: prázdné elipsy z S01 se zaplnily — ‚The world around it isn't‘. Konec bloku údržby.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: malé jednoduché DC-3 na dráze; elipsy kolem tentokrát hustě zaplněné šedými rámečky (předpisy, díly, certifikace).",
+      "pause": 2.6
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Kvalitativní, bez svislé osy. Šipka = tlak historie, ne kauzalita křivek.",
+      "diagram_generator": "historie",
+      "diagram": "Tři křivky AERODYNAMICS / ALUMINIUM / ENGINES stoupají a v roce ~1935 se potkají; za tím velká šipka HISTORY."
+    },
+    {
+      "id": "S42",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S42.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). C-47 v letu nad pobřežím, PD (USAF).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "C-47 Skytrain 1944",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "pan_left",
+      "visual": "images/S43.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). C-47 nad Gheelem v Belgii cestou do Holandska 1944 (Market Garden), PD. Fotky výsadku z války Commons pod dotazem nevrátil — jen dnešní rekonstrukce, ty jsme nebrali.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "C-47 Skytrain 1944",
+        "pick": 7
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Mechaniků víc než pilotů, jak říká text. Počty symbolické, popisek bez čísla.",
+      "diagram_generator": "ekosystem",
+      "diagram": "Dvě řady drobných postav: PILOTS (ambrově) a víc MECHANICS; popisky THOUSANDS · THOUSANDS MORE."
+    },
+    {
+      "id": "S45",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S45.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Piedmont Airlines DC-3, cestující na mokré ploše, 50. léta, bez omezení. Poválečný civilní provoz.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Douglas DC-3 1950s",
+        "pick": 6
+      }
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Ekosystém = propojenost, uzly spojené i navzájem. Konec bloku před pointou — pauza.",
+      "diagram_generator": "ekosystem",
+      "diagram": "Síť: silueta DC-3 uprostřed, kolem uzly PARTS, MECHANICS, PILOTS, TRAINING, EXPERIENCE a drobné siluety letadel po okraji.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "POINTA, část 1. Stejné souřadnice jako S47b — mění se jediná věc.",
+      "diagram_generator": "pointa",
+      "diagram": "Silueta DC-3 sama uprostřed, ztlumená; text NOT BECAUSE IT IS PERFECT...",
+      "pause": 1.2
+    },
+    {
+      "id": "S47b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47b.png",
+      "note": "POINTA, část 2 — beat vyrobený rozdělením scény, jeden obraz s jedinou změnou. Delší pauza za ní, ať pointa dozní.",
+      "diagram_generator": "pointa",
+      "diagram": "Táž silueta, kolem ní kruh mnoha drobných ambrových postav; text BUT BECAUSE SO MANY PEOPLE KNOW HOW TO KEEP IT ALIVE.",
+      "pause": 3.0
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Kvalitativní.",
+      "diagram_generator": "dnes",
+      "diagram": "Dvě osy vedle sebe: DURABLE (DC-3 vysoko) a EFFICIENT (DC-3 nízko), mezi nimi ≠."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Formulace podle factcheck v0.4: méně paliva NA CESTUJÍCÍHO, ne za hodinu. Bez čísel. Turbovrtulový typ nejmenovat.",
+      "diagram_generator": "dnes",
+      "diagram": "Silueta DC-3 vs moderní turbovrtulový stroj: CARRIES MORE, LESS FUEL PER PASSENGER, MODERN AVIONICS u moderního; dole FUEL · MAINTENANCE nejsou zadarmo."
+    },
+    {
+      "id": "S49b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49b.png",
+      "pause": 1.2,
+      "note": "Mini-obrat ze zpětné vazby draftu 1: otázka, pauza, odpověď v S50.",
+      "diagram_generator": "dnes",
+      "diagram": "Silueta DC-3 sama, ztlumená, nad ní otazník; titulek SO WHY STILL USE ONE?"
+    },
+    {
+      "id": "S50",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S50.png",
+      "note": "Odpověď na S49b. PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). DC-3 na štěrkové ploše v Colville Lake (NWT), CC BY 2.0 — odlehlé letiště.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "DC-3 Northwest Territories",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Tytéž vahy() jako S12/S16.",
+      "diagram_generator": "dnes",
+      "diagram": "Váhy z _kit: OPERATE INDEPENDENTLY převáží LAST PERCENT OF EFFICIENCY.",
+      "pause": 2.2
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Funkční nákres: turbovrtulová gondola delší a štíhlejší, vrtule pětilistá (BT-67).",
+      "diagram_generator": "bt67",
+      "diagram": "Silueta DC-3: hvězdicový motor ztlumený a přeškrtnutý → na jeho místě štíhlá turbovrtulová gondola (ambrově); budíky z S04 → jedna obrazovka."
+    },
+    {
+      "id": "S53",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S53.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-02 (pořadí Commons se může změnit — evidence je .orig + SHA-256). Basler BT-67 na letišti Troll v Antarktidě, CC BY-SA 3.0.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Basler BT-67",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Analogie — kresba auta kódem je riziko (tvar). Kdyby vyšla jako hrouda, požádat uživatele o siluetu (čtvrtý zdroj, art/).",
+      "diagram_generator": "bt67",
+      "diagram": "Obrys veterána (auto 40. let) s otevřenou kapotou; uvnitř ambrově moderní motor a elektronika; štítek 80 YEARS."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Plná = zůstává, čárkovaná = mění se.",
+      "diagram_generator": "bt67",
+      "diagram": "Silueta DC-3 plnou čarou (BODY · CONCEPT survives), uvnitř čárkovaně vyměnitelná ‚technologie‘ — motory, kokpit.",
+      "pause": 2.4
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Představa, kterou video vyvrací — kreslit neutrálně.",
+      "diagram_generator": "pokrok",
+      "diagram": "Přímka OLD → NEW → NEWER; staré prvky za sebou blednou a mizí."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Protiklad S56, stejné rozvržení osy.",
+      "diagram_generator": "pokrok",
+      "diagram": "Místo přímky vrstvy: dole základ OLD DESIGN (ambrově), nad ním naskládané vrstvy NEW TECHNOLOGY."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Začíná závěrečný ocas: kresba drží v dolní polovině.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: DC-3 na dráze, malé; nahoře ztlumeně a přeškrtnuté RACE WITH MODERN AIRLINERS; dole JUST DO THE JOB.",
+      "pause": 0.8
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA (posledních ~20 s): horní polovina volná pro dlaždici a kolečko.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ: DC-3 na dráze, jen to. Horní polovina obrazu prázdná.",
+      "pause": 1.6
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA. Callback S01 na STEJNÝCH souřadnicích. Věta pokračuje do S61 — krátká pauza.",
+      "diagram_generator": "arktida",
+      "diagram": "PÁTEŘ jako S01: prázdné elipsy, dráha, DC-3 stojí na začátku dráhy. Horní polovina prázdná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA. Poslední deska, klidná, horní polovina volná.",
+      "diagram_generator": "arktida",
+      "diagram": "Totéž jako S60, vrtule DC-3 naznačené v pohybu (rozmazaný kotouč) a malá ambrová stopa vzletu.",
+      "pause": 3.0
+    }
+  ]
+}

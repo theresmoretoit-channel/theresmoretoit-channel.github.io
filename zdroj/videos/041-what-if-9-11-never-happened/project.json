@@ -1,0 +1,136 @@
+{
+  "title": "What If 9/11 Never Happened?",
+  "slug": "041-what-if-9-11-never-happened",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.4,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "ellipsis_pause": 0.35,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly documentary illustration, muted desaturated palette of pale slate blue, cool concrete grey and washed bone white, one restrained muted amber accent and nothing more, flat even overcast daylight, no sun, no shadows, visible brush and ink texture, subtle film grain, restrained detail, ordinary unremarkable everyday scene, calm and uneventful, quiet human scale, cinematic composition, early two thousands, no text",
+    "negative": "text, letters, words, numbers, caption, label, logo, watermark, signature, user interface, chart, graph, photorealistic, photograph, glossy render, fire, flames, burning, explosion, smoke, smoke plume, collapsing building, rubble, debris, wreckage, crash, aircraft crash, blood, wounded, corpse, casualty, memorial, candles, vigil, mourning, waving flag, patriotic poster, soldier firing, weapon, gun, missile, tank, horror, gore, dramatic lighting, lens flare, neon rim light, dawn, dusk, golden hour, sunlight, sunlit, warm daylight, sunset, oversaturated, neon, blurry, low quality, deformed, deformed hands, extra fingers, extra limbs, duplicate face"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -26.0,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 277,
+    "music_sections": [
+      [
+        "S01",
+        "S06"
+      ],
+      [
+        "S14",
+        "S19"
+      ],
+      [
+        "S26",
+        "S29"
+      ],
+      [
+        "S39",
+        "S43"
+      ],
+      [
+        "S48",
+        "S55"
+      ],
+      [
+        "S60",
+        "S65"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false
+  },
+  "archive_grade": {
+    "levels": "6%,94%",
+    "saturation": 55,
+    "tint": "#c98f4e",
+    "tint_amount": 20,
+    "contrast": "-6x-10",
+    "vignette": true,
+    "vignette_edge": "#a8a8a8"
+  },
+  "pronounce": {
+    "Osama bin Laden": "Oh-sahma bin Lahdin",
+    "Saddam Hussein": "Suh-dahm Hoosayn",
+    "Laden": "Lahdin",
+    "Iraq": "Irahk",
+    "Iran": "Irahn",
+    "Patriot": "Paytriot",
+    "Taliban": "Talibahn",
+    "Israel": "Izrael",
+    "September 11": "September the eleventh",
+    "September 10": "September the tenth",
+    "25 years": "twenty-five years",
+    "3,000": "three thousand",
+    "2001": "two thousand and one",
+    "2003": "two thousand and three",
+    "2025": "two thousand and twenty-five",
+    "2026": "twenty twenty-six"
+  },
+  "thumbnail": {
+    "source": "thumbnail/dodany-kalendar.png",
+    "out": "render/thumbnail.jpg",
+    "note": "Hotová bitmapa dodaná uživatelem, ne kreslená kódem — viz thumbnail/PUVOD.md. Vznikla překreslením konceptu C1 (kalendářní list), který agent nakreslil kódem a uživatel vybral ze tří. Rozvržení je ze šablony: nadpis 9/11 nahoře, jediný předmět uprostřed, otázka dole. Jas 61,0 a kontrast 86,2 jsou nad mediánem kanálu.",
+    "varianty": [
+      "thumbnail/c1-kalendar.svg",
+      "thumbnail/c2-dva-dny.svg",
+      "thumbnail/c3-noviny.svg"
+    ]
+  }
+}

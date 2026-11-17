@@ -1,0 +1,994 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Hook. Situace, ne definice. Postavy odvrácené a malé v záběru — SDXL nesmí dostat obličej zblízka.",
+      "prompt": "two people sitting at opposite ends of a quiet room, both turned away from each other, seen from behind in soft window light, empty table between them, painterly, figures small in the frame"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Tentýž tvar ve dvou hlavách. Shoda tvaru nese celou myšlenku scény.",
+      "diagram_generator": "uvod",
+      "diagram": "dvě hlavy z profilu proti sobě, v každé TÝŽ tvar myšlenky; popisek YOU SIMPLY KNOW"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Definice obrazem. Vrací se v S35 už jako komunikační řetěz.",
+      "diagram_generator": "uvod",
+      "diagram": "tvar myšlenky přechází šipkou z levé hlavy do pravé; velký popisek TELEPATHY"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "POZOR: žádná vymyšlená data. Prázdný rámeček JE ten údaj, ne chybějící údaj — proto má popisek už v prvním snímku.",
+      "diagram_generator": "uvod",
+      "diagram": "dlouhá čárkovaná osa s popiskem HUNDREDS OF YEARS OF CLAIMS, na jejím konci prázdný rámeček s popiskem RELIABLE DEMONSTRATION — NONE"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Škrt otázky, kterou video NEklade. Musí být čitelný i v malém.",
+      "diagram_generator": "uvod",
+      "diagram": "otázka DOES TELEPATHY EXIST? přeškrtnutá"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Otázka videa. Typograficky nejsilnější karta první třetiny.",
+      "diagram_generator": "uvod",
+      "diagram": "velká otázka přes celý rám: WHAT WOULD HAVE TO BE DIFFERENT?"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Teze videa. Šest slotů se sem vrací v S92-S99 vyplněných — proto už tady musí mít popisky.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘNÍ DIAGRAM: přeškrtnuté ONE ABILITY, vedle rozsvícené AN ENTIRE COMMUNICATION SYSTEM, pod tím šest prázdných ale POPSANÝCH slotů (transmitter, receiver, structure, decoder, filter, address)",
+      "pause": 2.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Aktivita, ne anatomie. Mozek se KRESLÍ, negeneruje — SDXL na anatomii selhává a fotorealismus by posunul dotaz YouTube na AI.",
+      "diagram_generator": "vysilac",
+      "diagram": "obrys mozku plný drobných jisker, popisek NOT ELECTRICALLY DEAD"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Dvě slova ze scénáře, dvě místa v obraze. Nic navíc.",
+      "diagram_generator": "vysilac",
+      "diagram": "dva neurony: podél axonu popisek ELECTRICAL IMPULSE, na synapsi CHEMICAL MESSENGERS"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Maxwell v jednom obrázku. Vlevo obecně, vpravo aplikace — divák si spojení udělá sám.",
+      "diagram_generator": "vysilac",
+      "diagram": "proud v kličce vodiče a kolem něj siločáry; popisek CURRENT MAKES A FIELD, vedle týž vztah u mozku"
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Archiv, ne kresba: čepici s elektrodami jde vyfotit, takže ji model ani kód kreslit nemá. Popisek EEG se tím ztrácí, ale hlas říká 'electrodes resting on the scalp', takže obraz nemusí nic vysvětlovat. Mikrovolty se přesouvají do S16, kde je zesílení stejně téma.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "EEG cap electrodes head",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Otázka, ne tvrzení. Čárkovaný obrys = hypotéza (konvence videa, viz S24).",
+      "diagram_generator": "vysilac",
+      "diagram": "mozek A --?--> mozek B, otazník velký a zvýrazněný"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Nosný obraz kapitoly. Prázdné místo je popsané, takže se nečte jako chybějící obrázek.",
+      "diagram_generator": "vysilac",
+      "diagram": "vlevo vysílač s vlnami, vpravo PRÁZDNÉ místo s popiskem NO RECEIVER HERE; nahoře TRANSMITTING IS NOT RECEIVING",
+      "pause": 2.2
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Konkrétní předmět = archiv, ne model. Dá se to vyfotit, tak to model kreslit nemá.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "vintage FM radio receiver",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Analogie autora. Vlny MUSÍ kamenem procházet, ne se od něj odrážet — jinak obraz tvrdí něco jiného než text.",
+      "diagram_generator": "radio",
+      "diagram": "rádiový vysílač s vlnami označenými ONE HUNDRED MEGAHERTZ, vedle kámen, vlny jím procházejí bez efektu; popisek NO RECEIVER"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Zesílení nepomůže. Tentýž prázdný rámeček jako v S13, teď vedle silné vlny.",
+      "diagram_generator": "radio",
+      "diagram": "signál mozku zesílený (malá vlna s popiskem 10-100 MICROVOLTS -> velká vlna s popiskem AMPLIFIED), za ním pořád prázdné místo přijímače"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Dvě podmínky, druhá je ta těžká. Předjímá kapitolu o myšlence.",
+      "diagram_generator": "radio",
+      "diagram": "dva boxy vedle sebe: CATCH THE SIGNAL a KNOW WHAT IT MEANS, druhý zvýrazněný",
+      "pause": 2.2
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Myšlenkový pokus: dejme tomu, že měříme dokonale.",
+      "diagram_generator": "myslenka",
+      "diagram": "hlava s dokonale zmapovanou aktivitou, popisek PERFECT MEASUREMENT"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Číslo je doložené (Azevedo 2009). Hlas říká jen 'billions', obraz smí být konkrétní.",
+      "diagram_generator": "myslenka",
+      "diagram": "husté pole teček, popisek EIGHTY-SIX BILLION NEURONS, vedle mapa aktivních oblastí"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Jádro kapitoly v jednom znaku.",
+      "diagram_generator": "myslenka",
+      "diagram": "vlevo jednoduchá sinusovka s popiskem SIGNAL, vpravo spleť s popiskem THOUGHT, mezi nimi nerovnítko"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Scéna předbíhá námitku 'neuron Jennifer Anistonové'. Ta jedna buňka MUSÍ být vidět — kdyby chyběla, obraz by tvrdil něco jiného než text.",
+      "diagram_generator": "myslenka",
+      "diagram": "jablko, k němu jedna zvýrazněná buňka s popiskem PICKY, ale kolem ní celá síť; popisek NOT THE WHOLE THOUGHT"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Distribuovaná reprezentace. Každý uzel popsaný už v prvním snímku.",
+      "diagram_generator": "myslenka",
+      "diagram": "jablko uprostřed, kolem něj popsané uzly SHAPE, COLOUR, TASTE, SMELL"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Payoff kapitoly: proto je každý mozek jiný. Síť se rozrůstá z S22, nezačíná znovu.",
+      "diagram_generator": "myslenka",
+      "diagram": "táž síť rozrostlá o MEMORIES, LANGUAGE, EMOTIONS, YOUR WHOLE PREVIOUS LIFE; vedle dvě mírně odlišné sítě u dvou hlav",
+      "pause": 2.5
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "TADY se zavádí konvence čárkovaného obrysu pro hypotetické scény. Jedna legenda pro celé video, pak už se jen dodržuje.",
+      "diagram_generator": "jazyk",
+      "diagram": "karta s legendou konvence videa: SOLID = DOCUMENTED, DASHED = IMAGINED; pod ní evoluce a vedle ní jazyk jako dvě úlohy téhož druhu"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Škrtá se Morseovka. Přeškrtnutí musí být čitelné, jinak obraz tvrdí opak textu.",
+      "diagram_generator": "jazyk",
+      "diagram": "tabulka PATTERN -> DANGER / FOOD / COME HERE přeškrtnutá, popisek NOT AN ALPHABET"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Struktura místo kódu. Obměny jsou důležité — ukazují, že to není přesná shoda symbolu.",
+      "diagram_generator": "jazyk",
+      "diagram": "vzorec, který se opakuje v mírných obměnách, a mozek, který ho postupně rozpoznává; popisek A PATTERN A BRAIN CAN LEARN"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Autorova analogie s okem. Přeškrtnutý mezikrok je pointa.",
+      "diagram_generator": "jazyk",
+      "diagram": "fotony -> sítnice -> vzorec vzruchů; mezi nimi přeškrtnutý box NO UNIVERSAL CODE"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Otázka, na kterou odpoví S29. Obě větve stejně silné, žádná napovězená.",
+      "diagram_generator": "jazyk",
+      "diagram": "otázka se dvěma větvemi: LEARNED? a BORN WITH?"
+    },
+    {
+      "id": "S29",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Kočkodan je konkrétní zvíře — archiv. Popisky BORN WITH / LEARNED se ztrácejí, ale hlas je říká celé ('is born with its alarm calls, but has to learn what they are for'), takže by byly jen zdvojením. Fotka je navíc živější než silueta.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "vervet monkey Chlorocebus",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88
+        }
+      }
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Přechod. Statický žebřík, ne animace.",
+      "diagram_generator": "jazyk",
+      "diagram": "žebřík od jednoduchého vzorce k složitému, popisek A LANGUAGE OF THE BRAIN"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Zvuk je jen jedna možnost. Ostatní kanály už tu jsou ztlumené, aby S32 nebyla skok.",
+      "diagram_generator": "jazyk",
+      "diagram": "ucho a hlasivky zvýrazněné s popiskem OUR CHANNEL, kolem ztlumené ostatní kanály"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Tady se konvence ze S24 vyplácí: čtyři doložené kanály plnou čarou, pátý čárkovaně. Divák vidí rozdíl mezi 'příroda to dělá' a 'to jsme si vymysleli' bez jediného slova navíc.",
+      "diagram_generator": "jazyk",
+      "diagram": "pět kanálů vedle sebe: LIGHT, ULTRASOUND, CHEMICALS, ELECTRIC plné čáry, ELECTROMAGNETIC ČÁRKOVANĚ s popiskem NO KNOWN EXAMPLE",
+      "pause": 2.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "První velká hypotéza. Čárkovaně podle konvence.",
+      "diagram_generator": "antena",
+      "diagram": "ČÁRKOVANĚ kreslený mozek se zvýrazněnou strukturou označenou BIOLOGICAL ANTENNA"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Analogie s uchem. Symetrická kompozice, aby se to četlo jako 'totéž pro jiný vstup'.",
+      "diagram_generator": "antena",
+      "diagram": "vlevo ucho + SOUND, vpravo nová struktura + ELECTROMAGNETIC, mezi nimi rovnítko analogie"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Návrat obrazu z S03, teď rozložený na články. Divák má poznat, že je to tentýž šíp.",
+      "diagram_generator": "antena",
+      "diagram": "řetěz BRAIN A -> TRANSMIT -> SPACE BETWEEN -> RECEIVE -> BRAIN B, každý článek popsaný"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Přerámování. Nic nového se nekreslí, jen se to pojmenuje.",
+      "diagram_generator": "antena",
+      "diagram": "týž řetěz orámovaný a označený A COMMUNICATION SYSTEM; vedle přeškrtnuté MAGIC"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Co by evoluce ladila. Čtyři, ne pět — odpovídá výčtu ve scénáři.",
+      "diagram_generator": "antena",
+      "diagram": "čtyři popsané ukazatele: SENSITIVITY, RANGE, NOISE FILTERING, DECODING SPEED",
+      "pause": 2.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Nejčastější divácký omyl o evoluci. Škrt musí být jednoznačný.",
+      "diagram_generator": "evoluce",
+      "diagram": "přeškrtnutý plán/výkres, popisek EVOLUTION HAS NO PLAN"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Mechanismus výběru, bez 'přežití nejsilnějšího'.",
+      "diagram_generator": "evoluce",
+      "diagram": "dvě větve populace, jedna se rozšiřuje; popisek SPREADS IF IT HELPS SURVIVAL OR REPRODUCTION"
+    },
+    {
+      "id": "S40",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S40.png",
+      "note": "Atmosféra. Siluety z dálky — konkrétní obličeje SDXL neumí a nejsou potřeba.",
+      "prompt": "a small group of prehistoric hunters moving through tall grass at dusk, seen from a distance, silhouettes, no faces, one of them raising a hand, cold blue light with a single warm glint"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Dvě výhody ze scénáře, dva panely.",
+      "diagram_generator": "evoluce",
+      "diagram": "skupina teček koordinovaná okamžitě (popisek NO SOUND), vedle rodič a mládě s popiskem SILENT WARNING"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Výčet výhod. Tři panely, ne čtyři — 'pod vodou' je odtud schválně pryč a má vlastní blok.",
+      "diagram_generator": "evoluce",
+      "diagram": "tři situace v řadě: DARK, BEHIND AN OBSTACLE, DENSE FOREST"
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S43.png",
+      "note": "Předěl do kapitoly o vodě. Nepotřebuje jediný popisek, takže nemá důvod být kreslený. Jediná pohyblivá archivní scéna videa — je to fotka, ne schéma.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "underwater view sea surface from below",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Mechanismus. Slábnutí musí být vidět jako útlum, ne jako odraz.",
+      "diagram_generator": "voda",
+      "diagram": "vlna vstupuje do vody a rychle slábne; popisek SEA WATER SWALLOWS RADIO WAVES, šipka HIGHER FREQUENCY -> SHORTER REACH"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "NOSNÝ DIAGRAM kapitoly, všechna čísla spočítaná ve factcheck.md. Hlas říká jen jedno z nich (čtvrt hodiny na tři písmena), zbytek nese obraz. Sto megahertzů je TÝŽ vysílač jako v S15 — vazba zpátky musí být vidět.",
+      "diagram_generator": "voda",
+      "diagram": "svislé měřítko hloubky s popsanými pruhy: ONE HUNDRED MEGAHERTZ = 2.5 cm, 76 HZ = 29 m; stranou popisek SUBMARINE ANTENNA 135 km / THREE LETTERS = 15 MINUTES"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Payoff kapitoly. Čárkovaně, je to hypotéza.",
+      "diagram_generator": "voda",
+      "diagram": "tvor v oceánu s ČÁRKOVANOU anténou, vedle tři popisky SLOW, SHORT, SIMPLE; dole THE MEDIUM SHAPES THE MIND",
+      "pause": 2.6
+    },
+    {
+      "id": "S47",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S47.png",
+      "note": "Atmosféra před diagramem chaosu. Město, ne dav — obličeje nejsou potřeba.",
+      "prompt": "a dense city at dusk seen from a high window, thousands of lit windows, no people visible, cool teal haze, painterly"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Chaos musí být nečitelný ZÁMĚRNĚ a musí to být vidět, že je to záměr — proto popisek.",
+      "diagram_generator": "chaos",
+      "diagram": "stovky překrývajících se vln slévajících se do šumu; popisek A MILLION SIGNALS AT ONCE"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Řešení. Trychtýř je jednoduchý tvar, čte se i ve 120 px.",
+      "diagram_generator": "chaos",
+      "diagram": "z šumu vede jediná čistá linka skrz trychtýř označený FILTER"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Filtr, který už máme. Analogie k telepatickému filtru.",
+      "diagram_generator": "chaos",
+      "diagram": "čtyři smysly jako vstupy, tři ztlumené, jeden prochází; popisky SOUND, TOUCH, SMELL, IMAGE a ATTENTION"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Vědomé odesílání. Brána, ne přepínač — přepínač by tvrdil, že je to binární vlastnost.",
+      "diagram_generator": "chaos",
+      "diagram": "brána se dvěma cestami: THIS I WANT TO SEND / THIS I DO NOT"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Otevření druhého problému. Otazník je celý obsah scény.",
+      "diagram_generator": "adresa",
+      "diagram": "myšlenka opouští hlavu a končí velkým otazníkem; popisek WHERE DOES IT GO?"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Autorova trojice. Čtvrtý řádek prázdný ale popsaný — nikdy prázdný rámeček bez popisku.",
+      "diagram_generator": "adresa",
+      "diagram": "tři řádky s popisky: RADIO - A FREQUENCY, TELEPHONE - A NUMBER, INTERNET - AN ADDRESS, čtvrtý řádek BRAIN - ? "
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Tři hypotézy, žádná upřednostněná.",
+      "diagram_generator": "adresa",
+      "diagram": "tři možnosti vedle sebe, všechny ČÁRKOVANĚ: A SIGNATURE, A FREQUENCY, A UNIQUE PATTERN"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Nejsilnější obraz kapitoly. Stupnice je zároveň odkaz na rádio z S14.",
+      "diagram_generator": "adresa",
+      "diagram": "ladicí stupnice, na ní jediná zaostřená mysl mezi mnoha rozostřenými; popisek TUNE YOURSELF"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Doložená pointa kapitoly (viz factcheck.md). Slovo PROBABLY v obraze být MUSÍ — identita jedince je slabší tvrzení než druh a pohlaví. Kreslená silueta, ne fotka: popisky jsou tu důležitější než realistická ryba, a scénář jmenuje knife fish.",
+      "diagram_generator": "adresa",
+      "diagram": "silueta ryby a její výbojový pulz, u pulzu tři popisky: SPECIES, SEX, PROBABLY WHICH FISH; dole NATURE ALREADY DOES HALF OF THIS",
+      "pause": 2.5
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Přechod do nepříjemné části. Obraz má být lehce nepříjemný, ne hororový.",
+      "diagram_generator": "soukromi",
+      "diagram": "hlava s otevřenými dveřmi na temeni, dovnitř vede cizí pohled; popisek NO PRIVACY"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Dvě vrstvy, které S60 rozdělí. Tady jsou ještě dohromady.",
+      "diagram_generator": "soukromi",
+      "diagram": "dvě vrstvy myšlenek: WHAT YOU MEAN TO SAY nahoře, pod tím vrstva ostatních"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Pět položek ze scénáře. Útržky drobné a rychlé — vizuálně 'na půl vteřiny'.",
+      "diagram_generator": "soukromi",
+      "diagram": "roj drobných útržků s popisky RANDOM ASSOCIATIONS, MEMORIES, DOUBTS, FEAR, WISHES"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Rozdělení dvou vrstev z S58. Táž kompozice, teď rozťatá.",
+      "diagram_generator": "soukromi",
+      "diagram": "dělicí čára mezi WHAT I THINK a WHAT I WANT TO TELL YOU"
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Dramaturgický vrchol první poloviny. Silná jednoduchá karta, musí fungovat i ve 150 px.",
+      "diagram_generator": "soukromi",
+      "diagram": "štít mezi vnitřkem hlavy a okolím, popisek MENTAL FIREWALL",
+      "pause": 2.6
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "Přerámování, které si vyžádal uživatel. Musí být explicitní, jinak si divák myslí, že tvrdíme mechanismus.",
+      "diagram_generator": "trisolarane",
+      "diagram": "karta ČÁRKOVANĚ: NOT HOW TELEPATHY WOULD WORK / WHAT IT WOULD DO TO A SOCIETY"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "POZOR NA LICENCE: nic z obálek knih, ilustrací ani ze seriálu. Vlastní kresba a vysázený text názvu je v pořádku, obrázek z díla ne.",
+      "diagram_generator": "trisolarane",
+      "diagram": "dvě siluety: člověk s UZAVŘENOU bublinou myšlenky, druhá bytost s OTEVŘENOU; stranou vysázený název REMEMBRANCE OF EARTH'S PAST a LIU CIXIN"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Rozdíl mechanismu v jednom obrázku.",
+      "diagram_generator": "trisolarane",
+      "diagram": "u lidské siluety dva oddělené kroky THINK a SAY, u druhé jeden společný"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Lidská mezera. Mezery musí být zjevné, protože S66 je odstraní.",
+      "diagram_generator": "trisolarane",
+      "diagram": "tři oddělené boxy WHAT I THINK / WHAT I SAY / WHAT I DO s mezerami mezi nimi"
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Payoff kapitoly. Popisky padají PRYČ od slepeného bloku — ztrácejí se s tou mezerou.",
+      "diagram_generator": "trisolarane",
+      "diagram": "tytéž tři boxy slepené do jednoho, kolem popadané popisky LYING, BLUFFING, DIPLOMACY, KEEPING A SECRET TO BE KIND",
+      "pause": 2.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Technologická linka začíná. Datový proud je stejný tvar, jaký se vrátí v S77-S79.",
+      "diagram_generator": "implantat",
+      "diagram": "implantát čte aktivitu mozku a mění ji na datový proud; popisky READ a DATA"
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Druhá půlka řetězu. Symetrie s S67.",
+      "diagram_generator": "implantat",
+      "diagram": "data přes internet do druhého implantátu a zpět do aktivity; popisek WRITE"
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Poctivé rozlišení. Scénář říká 'technically no' a obraz to musí říct taky.",
+      "diagram_generator": "implantat",
+      "diagram": "celý řetěz orámovaný popiskem TECHNOLOGICAL COMMUNICATION BETWEEN BRAINS, vedle přeškrtnuté TELEPATHY"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Co odpadá. Tři ikony, žádný text navíc.",
+      "diagram_generator": "implantat",
+      "diagram": "tři přeškrtnuté ikony: ústa, klávesnice, obrazovka"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Nejhladší představa videa — schválně, protože S76 ji hned uzemní.",
+      "diagram_generator": "implantat",
+      "diagram": "myšlenka s ikonou fotografie putuje k druhé hlavě; popisek SEND ME THAT PHOTOGRAPH"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Konvence plná/čárkovaná tu nese celý argument: technologická cesta je doložená, evoluční ne.",
+      "diagram_generator": "implantat",
+      "diagram": "dvě cesty k témuž cíli: EVOLUTION (dlouhá, čárkovaná) a TECHNOLOGY (krátká, plná)"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Mapování na kapitolu o anténě. Divák má poznat, že jsou to tytéž role.",
+      "diagram_generator": "implantat",
+      "diagram": "tři popsané náhrady: IMPLANT = ANTENNA, COMPUTER = TRANSLATOR, INTERNET = CHANNEL"
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Poslední článek. Metafora je autorova, drží se doslova.",
+      "diagram_generator": "implantat",
+      "diagram": "druhý implantát jako reproduktor mířící dovnitř mozku; popisek LOUDSPEAKER"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Přechod do bloku o experimentech. Ten úlomek se v S79 stane jedním políčkem mřížky.",
+      "diagram_generator": "implantat",
+      "diagram": "celá myšlenka ztlumená, z ní vyňatý jediný zvýrazněný úlomek; popisek A PIECE OF ONE"
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Pás je vidět celý po celý blok, jen se rozsvěcí aktivní zastávka. Prázdný rámeček zakázán (vada nahlášená u třetího videa).",
+      "diagram_generator": "experiment",
+      "diagram": "CELÝ PÁS ztlumeně: INDIA -> INTERNET -> STRASBOURG -> COMPUTER, pod ním popisek NO IMPLANTS - ELECTRODES AND A MAGNETIC COIL"
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Legenda je doslova z článku (Grau 2014), takže se přesnost dostane do obrazu zadarmo.",
+      "diagram_generator": "experiment",
+      "diagram": "rozsvícená zastávka INDIA: ruka -> čepice s elektrodami -> 1; legenda HANDS = 1, FEET = 0"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Cívka patří k zadní části hlavy (occipitální kůra), ne ke spánku — jinak obraz odporuje S78.",
+      "diagram_generator": "experiment",
+      "diagram": "rozsvícená zastávka STRASBOURG: cívka u ZADNÍ části hlavy, z ní plné kolečko nebo prázdné; legenda FLASH = 1, NO FLASH = 0"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "NOSNÁ SCÉNA CELÉHO BLOKU. 20 = 4 písmena x pětibitová Baconova šifra, 7 řádků = sedmery kopie pro redundanci. Diagram tedy JE ten experiment, ne ilustrace. Dělicí čára se dvěma popisky je celý účel scény: co udělal mozek a co počítač.",
+      "diagram_generator": "experiment",
+      "diagram": "mřížka 20 sloupců x 7 řádků = 140 políček (plné/prázdné) s popiskem THE BRAIN SAW THIS; pod dělicí čarou jediný dekódovaný řádek po pěticích a z něj H O L A s popiskem THE COMPUTER DID THIS"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "BrainNet. Blok se NEjmenuje Tetris a jeho tvary se nekreslí — hra to není a je to ochranná známka. Zakrytá spodní řada je věcně přesná.",
+      "diagram_generator": "experiment",
+      "diagram": "dva odesílatelé -> jeden příjemce, od každého JEDNO políčko; deska s padajícím blokem, spodní řada na straně příjemce zakrytá"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Kde jsme a kam to vede. Konvence plná/čárkovaná: hotový je jen první stupeň.",
+      "diagram_generator": "experiment",
+      "diagram": "žebřík pěti stupňů: A SIGNAL -> A WORD -> AN IMAGE -> A CONCEPT -> A MENTAL STATE, první stupeň plnou čarou, další čárkovaně",
+      "pause": 2.7
+    },
+    {
+      "id": "S82",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S82.png",
+      "note": "Atmosférický předěl. Prázdná krajina — tvory kreslí diagramy, ne model.",
+      "prompt": "an alien coastline under a pale sky, strange low vegetation, no creatures visible, cold teal and bone-white palette, painterly, wide empty composition"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Hypotetická fauna, čárkovaně.",
+      "diagram_generator": "planeta",
+      "diagram": "tři živočišné siluety, každá s popsaným vysílačem a přijímačem"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "Tři věty scénáře, tři panely.",
+      "diagram_generator": "planeta",
+      "diagram": "tři situace: predátor beze zvuku, kořist varující ostatní, skupina sdílející informaci"
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Nejsilnější věta kapitoly dostává vlastní obraz.",
+      "diagram_generator": "planeta",
+      "diagram": "přeškrtnutá bublina s prvním vysloveným slovem; popisek ITS FIRST WORD WAS NEVER SPOKEN"
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "note": "Rozcestí kultur. Statické, žádný pohyb.",
+      "diagram_generator": "planeta",
+      "diagram": "dvě rozbíhající se větve kultur, jedna popsaná SOUND, druhá MENTAL",
+      "pause": 2.4
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "note": "Otevření kapitoly.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "průhledné hlavy ve skupině, přeškrtnutý zámek; popisek NO SECRETS"
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "note": "Lhaní odpadá, manipulace ne. Dva panely, jasný kontrast.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "vlevo přeškrtnuté LYING, vpravo nová šipka označená SHAPING HOW IT IS READ"
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "note": "Interpretace. Táž myšlenka, dva různé výstupy — musí být zjevně TÁŽ.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "jedna myšlenka, dvě různá čtení u dvou příjemců"
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "note": "Výčet. Kandidát na zkrácení na tři, kdyby se video krátilo (viz notes.md).",
+      "diagram_generator": "tajemstvi",
+      "diagram": "čtyři popsané dlaždice: PROPAGANDA, ADVERTISING, ART, WAR, všechny s předponou TELEPATHIC"
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "note": "Telepatické heslo. Brána je tentýž tvar jako v S51 — vědomé rozhodování se vrací.",
+      "diagram_generator": "tajemstvi",
+      "diagram": "mysl s bránou a klíčem; popisek WHO DO YOU LET IN?",
+      "pause": 2.4
+    },
+    {
+      "id": "S92",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S92.png",
+      "note": "Návrat páteřního diagramu z S07. Popisky jsou tu od prvního snímku, plní se postupně — prázdná osa bez popisků se čte jako rozbitý graf.",
+      "diagram_generator": "podminky",
+      "diagram": "všech ŠEST popsaných ale prázdných slotů: TRANSMITTER, RECEIVER, STRUCTURE, DECODER, FILTER, ADDRESS"
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "note": "Plní se jeden po druhém, nic se nepřekresluje.",
+      "diagram_generator": "podminky",
+      "diagram": "týž diagram, vyplněný slot TRANSMITTER"
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "note": "Druhá podmínka. Nic se nepřekresluje, jen přibývá výplň.",
+      "diagram_generator": "podminky",
+      "diagram": "vyplněné TRANSMITTER + RECEIVER"
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "note": "Třetí podmínka je od v0.2 struktura, ne kód — musí sedět s S25-S26.",
+      "diagram_generator": "podminky",
+      "diagram": "vyplněné navíc STRUCTURE"
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "note": "Čtvrtá podmínka. Dekodér je jiná věc než struktura — musí být vidět, že přibyl krok, ne synonymum.",
+      "diagram_generator": "podminky",
+      "diagram": "vyplněné navíc DECODER"
+    },
+    {
+      "id": "S97",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S97.png",
+      "note": "Pátá podmínka. Filtr je týž tvar jako brána v S51.",
+      "diagram_generator": "podminky",
+      "diagram": "vyplněné navíc FILTER"
+    },
+    {
+      "id": "S98",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S98.png",
+      "note": "Šestá podmínka uzavírá blok S52-S56. Kdyby se vracelo na pět, mizí tahle scéna a v S92 se mění počet slotů.",
+      "diagram_generator": "podminky",
+      "diagram": "vyplněné navíc ADDRESS, tedy všech šest"
+    },
+    {
+      "id": "S99",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S99.png",
+      "note": "Payoff videa. Rám kolem šesti je týž tvar jako teze v S07.",
+      "diagram_generator": "podminky",
+      "diagram": "všech šest orámováno jedním rámem s popiskem A WHOLE NEW SENSE, vedle přeškrtnuté ONE GENE",
+      "pause": 2.6
+    },
+    {
+      "id": "S100",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S100.png",
+      "note": "Závěrečné shrnutí začíná. Vlna je silnější než v S16, jinak stejná.",
+      "diagram_generator": "zaver",
+      "diagram": "silnější vlna z mozku, vedle ní varovný popisek NOT TELEPATHY YET"
+    },
+    {
+      "id": "S101",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S101.png",
+      "note": "Přesně obrácený obraz proti S99. Divák vidí, kolik zbývá.",
+      "diagram_generator": "zaver",
+      "diagram": "šest slotů, vyplněný jen TRANSMITTER, ostatních pět ztlumených"
+    },
+    {
+      "id": "S102",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S102.png",
+      "note": "Nejtěžší krok pojmenovaný. Mezera je hlavní prvek obrazu.",
+      "diagram_generator": "zaver",
+      "diagram": "elektrická aktivita na jedné straně, rozpoznaná myšlenka na druhé, mezi nimi zvýrazněná mezera s popiskem THE HARD PART"
+    },
+    {
+      "id": "S103",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S103.png",
+      "note": "Zklidnění před závěrem.",
+      "diagram_generator": "zaver",
+      "diagram": "otevřená otázka jako karta: WHY IT IS FASCINATING"
+    },
+    {
+      "id": "S104",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S104.png",
+      "note": "Teze potřetí, doslova týž tvar jako S07 a S99.",
+      "diagram_generator": "zaver",
+      "diagram": "přeškrtnutá STRONGER BRAIN WAVE a přeškrtnutá ONE ABILITY, rozsvícené A WHOLE SYSTEM"
+    },
+    {
+      "id": "S105",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S105.png",
+      "note": "Nejsilnější obraz závěru. Šestá ikona je prázdná ZÁMĚRNĚ a má popisek.",
+      "diagram_generator": "zaver",
+      "diagram": "pět smyslů jako popsané ikony SIGHT, HEARING, SMELL, TOUCH a šestá prázdná s popiskem ANOTHER MIND"
+    },
+    {
+      "id": "S106",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S106.png",
+      "note": "Poslední otázka. Ta jedna oddělená hlava nese celou pointu.",
+      "diagram_generator": "zaver",
+      "diagram": "mnoho hlav propojených linkami, jedna ještě oddělená; popisek WOULD WE STILL BE INDIVIDUALS?"
+    },
+    {
+      "id": "S107",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S107.png",
+      "note": "Poslední záběr. Bez postav, bez textu — doznění.",
+      "prompt": "a wide quiet landscape at dawn with many distant scattered lights beginning to connect into faint threads, cold teal palette with one warm point, painterly, no figures"
+    }
+  ]
+}

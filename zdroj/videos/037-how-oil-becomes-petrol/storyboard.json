@@ -1,0 +1,805 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Otevírací obraz. ZÁMĚRNĚ sdxl, ne archiv: je to nálada, ne konkrétní stojan. Musí být vizuálně spárovaný s S84, kde se týž obraz vrací jako callback — stejná rodina promptu, jiný seed.",
+      "prompt": "close view of a hand holding a fuel nozzle at a petrol pump, ordinary car, quiet forecourt, flat grey overcast sky, no sun, no text"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY. Barel vlevo na pevných souřadnicích BAREL, jedna ambrová šipka doprava, kanystr benzinu. Je to NAIVNÍ MODEL, který video celé zboří — proto je nakreslený co nejjednodušeji a bez výhrad. Vrací se v S15 přeškrtnutý.",
+      "diagram_generator": "hook",
+      "diagram": "barel -> šipka -> benzin, jediný krok, popisek SIMPLE",
+      "naveti": "That is roughly what most people picture.",
+      "pause": 1.2
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Týž obraz jako S02, jen nad šipku přibudou tři otazníky. NENÍ to nový obrázek — je to beat téhož. Kdyby se překreslilo celé, vznikne AI-slop střih.",
+      "diagram_generator": "hook",
+      "diagram": "S02 + tři otazníky nad šipkou"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Z jedné šipky se stanou dvě (benzin, nafta) a barel zšedne a ztěžkne. Pořád týž rám.",
+      "diagram_generator": "hook",
+      "diagram": "barel -> dvě šipky: PETROL, DIESEL; vedle ztmavený barel HEAVY"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Beat před hlavní otázkou. Všechno kromě barelu zmizí. Ambrová jen na barelu — to je to, o čem bude řeč.",
+      "diagram_generator": "hook",
+      "diagram": "samotný barel na pevných souřadnicích, nic víc"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Hlavní otázka videa. Barel + domek + otazník. Tahle scéna se doslova vrací v S66, kde se otázka zodpoví — MUSÍ mít shodné rozvržení, jinak se callback nepozná.",
+      "diagram_generator": "hook",
+      "diagram": "barel, šipka do domku, velký otazník; popisek AT HOME?",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Slib divákovi, formulovaný uživatelem. Obraz je jen ukazatel směru: od otázky k rafinerii. Nic se tu netvrdí.",
+      "diagram_generator": "hook",
+      "diagram": "otazník vlevo, ambrová šipka doprava do siluety rafinerie"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Odsolení a odvodnění. Diagram, ne foto — jde o KROK, ne o zařízení. Odcházející voda a soli jsou MUTED, protože to je odpad; ambrová zůstává na ropě.",
+      "diagram_generator": "hook",
+      "diagram": "barel -> nádoba DESALTER -> ven dvě tenké šipky WATER, SALTS; dál pokračuje ropa"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Pec a vstup do kolony. Barel se tu POPRVÉ mění v kolonu — táž x, tatáž šířka, jen povyroste do výšky. To je celá páteř videa.",
+      "diagram_generator": "kolona",
+      "diagram": "pec s plamenem, ropa do spodku kolony; kolona zatím prázdná"
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S10.png",
+      "note": "Skutečná destilační kolona — dva díly postavené vedle tří tahačů, takže MĚŘÍTKO čte divák okamžitě a bez přemýšlení. POHYB JE ZÁMĚR: odjezd tahače odhalí. TŘI POKUSY, oba předchozí zamítnuty POHLEDEM: 'A giant distillation tower in Arak' byl týž kus vleže, ale s transparenty a vlajkou; 'Crude oil distillation unit at Lekki' se ukázal být FOTKA PLAKÁTU s cizím diagramem, který má vlastní teploty i americké 'gasoline' a naší koloně by odporoval. VÝHRADA: kolona leží, kdežto hlas říká 'a giant industrial tower' — spoléhá se na to, že S09 těsně předtím ukáže kolonu stojící. Na snímku je drobná cedule 'PRECAUCION EXCESO DE DIMENSIONES'.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "distillation tower",
+        "pick": 3,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Předěl před hlavním číslem videa. Prázdný rám s jedním nápisem — schválně nic jiného, aby další scéna udeřila.",
+      "diagram_generator": "paradox",
+      "diagram": "prázdný rám, uprostřed ambrový nápis ONE NUMBER"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "TĚŽIŠTĚ PRVNÍ TŘETINY. Vlevo barel naplněný na 159, vpravo výstupní sloupec 170 — a ten je VYŠŠÍ. Výšky se počítají z čísel, ne kreslí od oka, a scéna má assert na poměr 170/159. Kdyby vyšel sloupec nižší nebo stejný, obraz by tvrdil opak vyprávění.",
+      "diagram_generator": "paradox",
+      "diagram": "dva sloupce vedle sebe: IN 159 L, OUT ~170 L, výška úměrná objemu"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Beat. Týž obraz, jen se rozsvítí rozdíl mezi sloupci. Pauza je dlouhá schválně — tohle je moment, kdy video začne platit (podle CLAUDE.md musí nastat do 1:10).",
+      "diagram_generator": "paradox",
+      "diagram": "S12 + ambrové zvýraznění přesahu, popisek +11 L",
+      "naveti": "That sounds like a mistake, but it is not.",
+      "pause": 2.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Vysvětlení hustotou. Táž hmota, jiný objem — dvě krabice se stejným počtem teček, jedna sevřená, druhá rozvolněná. Tečky se počítají kódem a mají assert na SHODNÝ počet, jinak obraz tvrdí, že hmota přibyla.",
+      "diagram_generator": "paradox",
+      "diagram": "dvě nádoby se stejným počtem teček, různý objem; popisky DENSE CRUDE, LIGHTER PRODUCTS"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Výplata naivního modelu z S02: TÝŽ obraz, přeškrtnutý, a pod ním správný. Škrtá se text vodorovnou čárou (skrt_text), ne křížkem — pod křížkem nápis nejde přečíst a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "paradox",
+      "diagram": "nahoře přeškrtnutý naivní model z S02, dole barel -> rafinerie -> VÍC různých produktů"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Přechod dovnitř barelu. Barel se otevře — páteř zůstává na týchž souřadnicích, mění se jen obsah.",
+      "diagram_generator": "ropa",
+      "diagram": "barel s odklopeným víkem, dovnitř míří lupa"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Dvě věci, které ropa NENÍ. Obojí přeškrtnuté text_skrtnuty(), ne skrt_text() — ta kreslí jen čáru bez textu a u videa 026 z toho byly tři holé čárky.",
+      "diagram_generator": "ropa",
+      "diagram": "dva přeškrtnuté nápisy: LIQUID PETROL, ONE COMPOUND"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Složení. Uhlovodíky dominují plochou, příměsi jsou drobné — velikost tady NESE TVRZENÍ, takže se odvozuje z reálných řádů, ne z estetiky.",
+      "diagram_generator": "ropa",
+      "diagram": "velké pole HYDROCARBONS + drobné štítky SULPHUR, NITROGEN, OXYGEN, METALS"
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Škála velikostí molekul. Řetízky z koleček od jednoho článku po dlouhý shluk. Délky rostou monotónně — assert, protože scéna říká 'wildly different sizes'.",
+      "diagram_generator": "ropa",
+      "diagram": "řada řetězců rostoucí délky, vpravo popisek TAR"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "'Molecular soup' se ZÁMĚRNĚ nekreslí přes SDXL — model bere abstraktní pojmy doslova a udělal by polévku v talíři (viz CLAUDE.md, 'mřížka prostupující prostorem' dala pletivo). Diagram: barel plný promíchaných řetízků z S19.",
+      "diagram_generator": "ropa",
+      "diagram": "barel vyplněný náhodně rozházenými řetízky různých délek"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Lehká versus těžká. Dva barely, v levém převaha krátkých řetízků, v pravém dlouhých. Poměry se počítají kódem s assertem — jinak obraz může tvrdit opak.",
+      "diagram_generator": "ropa",
+      "diagram": "dva barely LIGHT / HEAVY, různé zastoupení délek"
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Sladká versus kyselá. Přidává se druhá osa — takže vznikne kříž se čtyřmi poli, ne další dvojice barelů. Poslední věta scény ('look similar') potřebuje, aby oba barely vypadaly ZVENČÍ stejně.",
+      "diagram_generator": "ropa",
+      "diagram": "osy LIGHT-HEAVY x SWEET-SOUR, dva zvenčí shodné barely v protilehlých polích"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Konec bloku o ropě. Tři různě složité siluety rafinerií pod třemi druhy ropy.",
+      "diagram_generator": "ropa",
+      "diagram": "tři barely, pod každým jinak složitá rafinerie",
+      "pause": 1.8
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Návrat ke koloně. Přeškrtnutá představa 'molekula po molekule' — pinzeta vytahující jednu kuličku.",
+      "diagram_generator": "kolona",
+      "diagram": "přeškrtnutá pinzeta vybírající jednu molekulu z barelu"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Správná představa: dělí se SKUPINY podle chování při varu. Řetízky se řadí do vodorovných pásů.",
+      "diagram_generator": "kolona",
+      "diagram": "řetízky seřazené do pásů podle délky, popisek BY BOILING BEHAVIOUR"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Kolona v provozu. Teplotní osa vlevo, 350 °C dole u pece. Šipky páry vzhůru, kapaliny dolů. Číslo 350 je ověřené (factcheck A4).",
+      "diagram_generator": "kolona",
+      "diagram": "kolona s teplotní osou, pec 350 °C dole, šipky nahoru/dolů"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Frakce se plní shora. Naphtha do ~190 °C. Pozice pásem se počítá z TEPLOT, ne rozděluje rovnoměrně — jinak obraz tvrdí rovnoměrnost, kterou skutečnost nemá.",
+      "diagram_generator": "kolona",
+      "diagram": "kolona, horní dvě patra: GASES, NAPHTHA do ~190 °C"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Kerosin a nafta. Beat téže kolony, přibývají dvě patra.",
+      "diagram_generator": "kolona",
+      "diagram": "S27 + KEROSENE ~190-250, DIESEL ~250-350"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Zbytek dole a přiznání, že čísla jsou přibližná. Kolona je hotová.",
+      "diagram_generator": "kolona",
+      "diagram": "S28 + HEAVY OIL, RESIDUE dole; celá kolona kompletní"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Nejdůležitější metodická scéna videa. Hranice mezi frakcemi se rozostří a překryjí, a jedna se posune. TVRZENÍ SCÉNY: řezné body jsou volba. Kresba to musí říkat stejně silně jako text — ostré čáry by tvrdily opak (factcheck A5).",
+      "diagram_generator": "kolona",
+      "diagram": "táž kolona, hranice pásem překryté a rozostřené, jedna posunutá šipkou; popisek A SETTING",
+      "pause": 2.2
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Falešný závěr. Benzin a nafta vytažené z kolony jako dva hotové kanystry, zaškrtnutí.",
+      "diagram_generator": "mezera",
+      "diagram": "kolona -> dva kanystry PETROL, DIESEL, zelené zaškrtnutí"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Obrat videa. Zaškrtnutí z S31 se přeškrtne. Beat na TÉMŽ obraze — nic jiného se nemění. Krátká promluva (~1 s) s dlouhou pauzou, proto naveti: obětovaná věta by tady podle CLAUDE.md selhala.",
+      "diagram_generator": "mezera",
+      "diagram": "S31 se zaškrtnutím přeškrtnutým",
+      "naveti": "That is what it looks like from the outside.",
+      "pause": 2.2
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Rozdíl mezi rozdělit a změnit. Vlevo přeuspořádání týchž kuliček, vpravo kuličky rozlomené na jiné. Počet atomů vlevo se ZACHOVÁVÁ, vpravo ne — assert.",
+      "diagram_generator": "mezera",
+      "diagram": "SEPARATE (tytéž molekuly přeskládané) vs CHANGE (rozlomené)"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Předěl, jediný nápis. Drží napětí před dvěma čísly.",
+      "diagram_generator": "mezera",
+      "diagram": "prázdný rám, nápis WHY IT HAS TO"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "První číslo: z barelu spadne ~20 % do benzinového rozsahu. Barel je TÝŽ jako v S12, jen se v něm rozsvítí pětina. Výška ambrového pásu = 20 % výšky barelu, assert (factcheck A6).",
+      "diagram_generator": "mezera",
+      "diagram": "barel s ambrově zvýrazněnou pětinou, popisek ~20% PETROL RANGE"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Beat. Týž barel, jen číslo velké. Krátká promluva + dlouhá pauza -> naveti, viz S32.",
+      "diagram_generator": "mezera",
+      "diagram": "S35, číslo 20% velké",
+      "naveti": "Let that number sit for a moment.",
+      "pause": 1.8
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Mezera v MNOŽSTVÍ. Vedle 20% pásu se postaví ~50% pás poptávky. Rozdíl mezi nimi je celý argument pro cracking. Obě výšky z čísel (factcheck A6, A7).",
+      "diagram_generator": "mezera",
+      "diagram": "sloupec DISTILLATION GIVES ~20% vs REFINERY SELLS ~50%, mezera zvýrazněná"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Mezera v KVALITĚ. Oktanová osa 0-100, straight-run na 50, auto chce 95. Čísla ověřená (A6, A8); scéna nesmí míchat RON a AKI, proto tam žádná zkratka stupnice není.",
+      "diagram_generator": "mezera",
+      "diagram": "osa oktanu, značka 50 (STRAIGHT-RUN) a 95 (YOUR CAR), mezera mezi nimi"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Obě mezery vedle sebe a nadpis CHEMISTRY přes obě. Tahle scéna zakládá strukturu QUANTITY -> QUALITY, na které stojí zbytek prostřední části.",
+      "diagram_generator": "mezera",
+      "diagram": "dvě mezery z S37 a S38 vedle sebe, popisky QUANTITY, QUALITY"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "Cracking. Dlouhý řetízek se láme na dva kratší. Součet článků po zlomu = počet před ním, assert — jinak obraz tvrdí, že se hmota ztratila.",
+      "diagram_generator": "cracking",
+      "diagram": "dlouhá molekula -> zlom -> dvě kratší; popisek CRACKING"
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Katalytický cracking. Katalyzátor jako podklad, na kterém se lámání děje — NENÍ to reagent, takže se nespotřebovává a nesmí do bilance vstupovat.",
+      "diagram_generator": "cracking",
+      "diagram": "S40 nad vrstvou CATALYST"
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Hydrocracking + jediná zbylá věta o těžké ropě (zbytek sekce vyškrtnut v 0.2). Vodík se PŘIDÁVÁ, takže tady na rozdíl od S40 článků přibude — a to je ten rozdíl, který scéna nese.",
+      "diagram_generator": "cracking",
+      "diagram": "lámání + vstupující H2 pod tlakem; vedle drobný těžký barel"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Obrat hodnoty: těžké molekuly byly MUTED, teď zambrovatí. Barva tady nese celé tvrzení scény, takže se nesmí použít nikde jinde v tomhle bloku.",
+      "diagram_generator": "cracking",
+      "diagram": "hromada velkých molekul přebarvená z MUTED na AMBER, šipka do kanystru PETROL"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Konec bloku o crackingu. Dvě otázky nad sebou, druhá ambrová.",
+      "diagram_generator": "cracking",
+      "diagram": "WHAT IS IN IT? (ztlumeně) / WHAT CAN WE TURN IT INTO? (ambrově)",
+      "pause": 2.0
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Druhá polovina struktury z S39: QUANTITY se odškrtne, QUALITY se rozsvítí. Musí to být TÝŽ tvar jako v S39, jinak se struktura nepozná.",
+      "diagram_generator": "oktan",
+      "diagram": "S39, QUANTITY hotová, QUALITY zvýrazněná"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Benzin jako směs proudů. Několik vstupů do jedné nádoby. Reforming jako první proud.",
+      "diagram_generator": "oktan",
+      "diagram": "tři až čtyři proudy do nádoby PETROL, první REFORMING"
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Beat: přibývají další proudy (isomerace, cracked). Táž nádoba, tytéž souřadnice.",
+      "diagram_generator": "oktan",
+      "diagram": "S46 + ISOMERISATION, CRACKED"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "Klepání. Píst, jiskra, a vedle ní samovolný zápal. Scéna, ve které něco míří na něco — ověřit, že šipka ukazuje na SAMOZÁPAL, ne na jiskru.",
+      "diagram_generator": "oktan",
+      "diagram": "válec s pístem, řízený zážeh vs. předčasný samozápal; popisek KNOCKING"
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Předěl. Prázdná osa bez značek — teprve S50 na ni dá obě kotvy.",
+      "diagram_generator": "oktan",
+      "diagram": "prázdná osa, nápis THE SCALE IS ARBITRARY"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Definice stupnice. Heptan = 0, isooktan = 100. Scénář říká 'was defined as', takže i obraz musí říkat DEFINICE (kolíky do osy), ne měření. Struktury molekul jsou tu na místě, protože jde právě o ně (factcheck A9).",
+      "diagram_generator": "oktan",
+      "diagram": "osa 0-100, vlevo heptan = 0, vpravo iso-oktan = 100"
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Stojan s 95 a přeškrtnutá představa 'víc energie'. Rozšířený mýtus, proto se škrtá výslovně.",
+      "diagram_generator": "oktan",
+      "diagram": "číslo 95 na stojanu, vedle přeškrtnutý nápis MORE ENERGY"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Co to číslo znamená doopravdy. Návrat k pístu z S48 — táž kresba, aby se spojily.",
+      "diagram_generator": "oktan",
+      "diagram": "píst z S48, popisek RESISTS IGNITING TOO EARLY"
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Shrnutí řetězu. Tři kroky vedle sebe, na konci kanystr. Konec bloku o benzinu.",
+      "diagram_generator": "oktan",
+      "diagram": "SEPARATION -> TRANSFORMATION -> BLENDING -> PETROL",
+      "pause": 1.8
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Nafta týmž řetězem. Vědomě se recykluje tvar z S53, protože scénář říká 'the same story' — shodný tvar to tvrdí líp než slova.",
+      "diagram_generator": "nafta",
+      "diagram": "týž řetěz jako S53, výstup DIESEL, část přichází přímo z kolony"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Cetan proti oktanu. DVĚ RŮZNÉ osy vedle sebe, ne jedna — jsou to opačné vlastnosti (snadnost vznícení vs. odolnost proti němu) a společná osa by tvrdila, že jsou srovnatelné.",
+      "diagram_generator": "nafta",
+      "diagram": "dvě samostatné osy: OCTANE (petrol) a CETANE (diesel)"
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Přeškrtnutá naivní definice nafty. Konec bloku.",
+      "diagram_generator": "nafta",
+      "diagram": "přeškrtnutý nápis JUST THE HEAVIER STUFF, pod ním MANUFACTURED"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Síra v ropě. Drobné žluté body rozeseté mezi řetízky z S19 — táž kresba molekul, aby bylo vidět, že síra JE uvnitř, ne vedle.",
+      "diagram_generator": "sira",
+      "diagram": "řetízky s vetknutými body S, popisek SULPHUR"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Hydrotreating. Vodík vstupuje, síra odchází. Scéna, ve které něco míří na někoho — ověřit, že šipka vodíku míří na SÍRU, ne na uhlovodík.",
+      "diagram_generator": "sira",
+      "diagram": "molekula + H2 -> molekula bez síry + H2S"
+    },
+    {
+      "id": "S59",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "Skutečná síra jako produkt rafinerie. VYFOTITELNÁ VĚC SE JMÉNEM, tedy případ pro archiv. Grade ZLEHČEN, protože funkcí scény je barva. DOTAZ PODRUHÉ PŘEPSÁN: 'sulfur pyramid' vrátil LETECKÝ snímek ropných písků, kde jsou sirné bloky jen bledé obdélníky mezi haldami — divák je jako síru nepřečte. Předtím 'sulfur block' vracel sopku Kawah Ijen, tedy síru vulkanickou. Potřeba je detail hromady. PICK POTVRZEN POHLEDEM: zářivě žlutá hromada síry u provozu proti modrému nebi, EPA DOCUMERICA, public domain — barvu nese jednoznačně.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "sulfur pile",
+        "pick": 1,
+        "grade": {
+          "fit": 0.88,
+          "saturation": 100,
+          "tint_amount": 0
+        }
+      }
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Obrat: z nečistoty produkt. Táž barevná logika jako v S43 (MUTED -> AMBER), a je to schválně — je to týž druh obratu.",
+      "diagram_generator": "sira",
+      "diagram": "štítek CONTAMINANT přeškrtnutý, vedle PRODUCT ambrově",
+      "pause": 1.8
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Otázka, na kterou odpoví S62. Barel z S12 zpátky, prázdný, s otazníkem — návrat páteře před výplatu.",
+      "diagram_generator": "produkty",
+      "diagram": "barel 159 L s otazníkem"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "VÝPLATA PÁTEŘE. Rozpad barelu na produkty podle EIA 2023. Výšky pásem se počítají z litrů (74 / 47 / 17 / zbytek) a mají assert — a součet MUSÍ přesáhnout 159, protože to je totéž processing gain jako v S12. Kdyby se to 'zaokrouhlilo na 159', obraz by popřel S13.",
+      "diagram_generator": "produkty",
+      "diagram": "svislý sloupec rozdělený úměrně: PETROL 74 L, DIESEL 47 L, JET 17 L, REST"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Beat: rozepsání zbytku. Týž sloupec, jen se spodní díl rozdělí na drobné položky.",
+      "diagram_generator": "produkty",
+      "diagram": "S62, spodní pás rozepsaný: COKE, REFINERY GAS, BITUMEN, LUBRICANTS, FEEDSTOCKS, SULPHUR"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "Přeškrtnutá věta, kterou lidé říkají. Škrtá se text_skrtnuty(), viz S17.",
+      "diagram_generator": "produkty",
+      "diagram": "přeškrtnutý nápis ONE BARREL = X LITRES OF PETROL"
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Konec prostřední části. Přeškrtnutá cedule PETROL FACTORY, pod ní CHEMICAL FACTORY s mnoha výstupy. Dlouhá pauza před závěrečnou třetinou.",
+      "diagram_generator": "produkty",
+      "diagram": "přeškrtnuté PETROL FACTORY, pod ním CHEMICAL FACTORY s mnoha výstupy",
+      "pause": 2.2
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "NÁVRAT S06, shodné rozvržení. Callback se pozná jen při shodných souřadnicích — proto totéž kreslí táž funkce, ne kopie kódu.",
+      "diagram_generator": "doma",
+      "diagram": "přesně S06: barel, šipka do domku, otazník"
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Otazník z S66 se změní v ANO. Krátká promluva + dlouhá pauza -> naveti (CLAUDE.md: u promluvy kolem sekundy obětovaná věta selže).",
+      "diagram_generator": "doma",
+      "diagram": "S66, otazník nahrazen ambrovým YES",
+      "naveti": "The honest answer surprises people."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Tři fyzikálně dovolené kroky, všechny se zaškrtnutím. Scéna schválně vypadá jako splněný seznam — S69 ho vzápětí zpochybní.",
+      "diagram_generator": "doma",
+      "diagram": "HEAT / SEPARATE / TRANSFORM, u každého zaškrtnutí"
+    },
+    {
+      "id": "S69",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S69.png",
+      "note": "Jediná atmosférická scéna v závěrečné třetině. Odjezd ukáže měřítko problému — pohyb je tu funkční, ne dekorace. Prompt NEŽÁDÁ denní dobu: dawn/dusk dá u SDXL vždycky zlaté světlo proti kotvě stylu (CLAUDE.md).",
+      "prompt": "a single small figure standing before a vast tangle of industrial pipework and vessels, sense of scale, flat grey overcast sky, no sun, no text"
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "Domácí destilace a její výsledek. CALLBACK NA S35 — táž pětina téhož barelu, a proto ji kreslí táž funkce. Tohle je scéna, kterou uživatel jmenoval jako to, co propojuje domácí pokus s vysvětlením.",
+      "diagram_generator": "doma",
+      "diagram": "primitivní destilační aparát, výstup = pětina barelu, popisek ~20%, OCTANE 50"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Co chybí. Dva nesplněné body — ZÁMĚRNĚ jako prázdná zaškrtávátka proti splněným z S68, aby se ty dvě scény četly proti sobě.",
+      "diagram_generator": "doma",
+      "diagram": "seznam s prázdnými poli: SULPHUR REMOVED, RUNS IN A MODERN ENGINE"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "Ukazatel cesty, na kterém je ušlá jen malá část. Konec pokusu s destilací.",
+      "diagram_generator": "doma",
+      "diagram": "dráha od CRUDE k PETROL, ambrově jen první kousek"
+    },
+    {
+      "id": "S73",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "Replika „Fine. I'll build a real refinery.\" Lehký humor, který si uživatel přál zachovat. Statické — je to gesto, ne pohyb. DRUHÉ KOLO: první prompt žádal postavu, která si vyhrnuje rukávy, a model nakreslil člověka ODCHÁZEJÍCÍHO pryč — tedy rezignaci místo odhodlání. Zamítnuto podle FUNKCE scény. Postava z promptu vypadla úplně: SDXL na lidech selhává a odhodlání unese i prázdný dvůr s barelem a připraveným nářadím. Seed je zapsaný, protože samotné --force by dalo tutéž kompozici.",
+      "prompt": "an empty suburban back garden, one battered oil barrel standing upright, a few hand tools laid out on the ground beside it, nobody in the shot, flat grey overcast sky, no sun, no text",
+      "seed": 4471
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Začátek narůstajícího seznamu. Položky přibývají a písmo se ZMENŠUJE, jak se plní rám — to je celý vtip a musí to dělat kód, ne odhad.",
+      "diagram_generator": "doma",
+      "diagram": "seznam procesů, prvních osm položek"
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Seznam přeteče. Táž funkce jako S74, jen víc položek a menší písmo. Rám je záměrně přeplněný až na hranu čitelnosti — pod ni ne, jinak scéna přestane tvrdit.",
+      "diagram_generator": "doma",
+      "diagram": "S74 + dalších devět položek, přeplněný rám"
+    },
+    {
+      "id": "S76",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Pointa: skutečná rafinerie. Po přeplněném seznamu udeří fotka. ARCHIV, ne SDXL — 'konkrétní objekt, dá se vyfotit'. Statické, protože po dvou hustých scénách má obraz stát. DOTAZ PŘEPSÁN po --search: původní 'large petroleum refinery aerial view pipes' vracel NIC. Nový vrací britské rafinerie z geograph (Fawley, Coryton, Killingholme), což sedí k en-gb rámci videa. PICK ZATÍM NEPOTVRZENÝ pohledem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "oil refinery aerial",
+        "pick": 1,
+        "grade": {
+          "fit": 0.92
+        }
+      },
+      "pause": 2.6
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Přeškrtnutý hrnec. Vtip, který si uživatel výslovně přál nechat, takže obraz musí být čitelný na první pohled — jeden objekt, jeden škrt.",
+      "diagram_generator": "doma",
+      "diagram": "obrovský hrnec, přeškrtnutý; popisek NOT A BIGGER POT"
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Odpověď na S77: silueta rafinerie složená z procesů ze S74-S75.",
+      "diagram_generator": "doma",
+      "diagram": "silueta rafinerie poskládaná z názvů procesů"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "note": "Začátek závěru. Přeškrtnuté 'crude oil' i 'one substance' u nádrže auta.",
+      "diagram_generator": "zaver",
+      "diagram": "nádrž auta, dva přeškrtnuté štítky: CRUDE OIL, ONE SUBSTANCE"
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Co v nádrži je. Molekuly obarvené podle původu — a legenda je POVINNÁ: barva bez významu si podle zpětné vazby k třetímu videu význam vyrobí sama.",
+      "diagram_generator": "zaver",
+      "diagram": "nádrž plná molekul, legenda ORIGINAL / CRACKED / REARRANGED"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Beat: molekuly se dobarví na zbylé dvě kategorie. Legenda z S80 zůstává na místě.",
+      "diagram_generator": "zaver",
+      "diagram": "S80, všechny tři kategorie obarvené"
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "ZAČÍNÁ OKNO ZÁVĚREČNÉ OBRAZOVKY (posledních 20 s). Kresba drží ve SPODNÍ polovině, horní zůstává volná — YouTube tam dá dlaždici a kolečko, a dole je vždycky titulek (docs/storyboard-a-diagramy.md). Ověřit zaver_check.py.",
+      "diagram_generator": "zaver",
+      "diagram": "přeškrtnuté FOUND, pod ním MANUFACTURED; vše v dolní polovině",
+      "pause": 2.0
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "Okno závěrečné obrazovky. Horní polovina volná.",
+      "diagram_generator": "zaver",
+      "diagram": "přeškrtnuté DINOSAUR JUICE a DISTILLED CRUDE, pod nimi řetěz procesů; dolní polovina"
+    },
+    {
+      "id": "S84",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "CALLBACK NA S01 — táž rodina promptu, jiný seed, ale širší záběr a auto odjíždí. Okno závěrečné obrazovky: prompt žádá prázdnou zataženou oblohu v horní části rámu, aby tam prvky měly kam. Statické, protože S01 se hýbalo a tohle je jeho klid.",
+      "prompt": "wide view of an ordinary car pulling away from a quiet petrol station forecourt, large empty flat grey overcast sky filling the upper half, no sun, no text",
+      "pause": 2.0
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "note": "Poslední deska a poslední výskyt páteře. Barel na týchž souřadnicích jako v S02, ale teď se z něj rozbíhají všechny produkty. Podle docs se páteř smí pohnout jedině tady — nehýbe se. Horní polovina volná pro závěrečnou obrazovku.",
+      "diagram_generator": "zaver",
+      "diagram": "barel z S02, z něj vějíř produktů; dolní polovina rámu"
+    }
+  ]
+}

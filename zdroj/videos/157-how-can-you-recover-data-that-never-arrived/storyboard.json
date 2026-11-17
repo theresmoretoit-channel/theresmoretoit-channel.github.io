@@ -1,0 +1,727 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "qr",
+   "diagram": "Skutečný QR kód (qrencode -l H, URL kanálu) na pevných souřadnicích QR_*; pod ním tlumeně ONE SHORT LINE OF TEXT.",
+   "note": "ZÁSKOK za záběr z telefonu (S01–S05 natočí uživatel, viz notes). První obrazovka nese myšlenku: kód, který se za chvíli roztrhne. QR se kreslí z matice qrencode, ne od oka — stejná matice v S03–S06 a S54."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "qr",
+   "diagram": "Týž QR; vpravo telefon, na displeji přečtený text (URL) a fajfka.",
+   "note": "ZÁSKOK za záběr. Text na displeji = přesně obsah kódu (assert)."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "qr",
+   "diagram": "Týž QR; přes část datové oblasti ambrově čárkovaný obrys roztržení.",
+   "note": "ZÁSKOK. Utržený kus leží v datové oblasti, NE na pozičních značkách (factcheck S01–S06). Obrys = místo, které v S04 zmizí — tytéž souřadnice TRHLINA.",
+   "pause": 0.5
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "qr",
+   "diagram": "QR s vytrženým kusem (prázdné tmavé místo s roztřepeným okrajem); telefon vpravo zase ukazuje celý text a fajfku.",
+   "note": "ZÁSKOK. Beat THE SAME TEXT nese telefon: tentýž displej jako S02, ne nový obrázek.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "qr",
+   "diagram": "Roztržený QR, díra ambrově orámovaná; vedle HARD TO READ přeškrtnuto (text_skrtnuty) a ambrově GONE.",
+   "note": "ZÁSKOK. Rozdíl ‚nečitelné‘ vs ‚chybí‘ je jádro videa (výmaz), proto škrt slova, ne obrázku.",
+   "vycet": 0.3,
+   "pause": 1.0
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "qr",
+   "diagram": "Roztržený QR ztlumeně, v díře velký ambrový otazník.",
+   "note": "Konec háčku. Tady už záběr z telefonu skončil, scéna je kresba i ve finále.",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "osm",
+   "diagram": "PÁTEŘ: řada osmi buněk (rada()) v RADA_Y; dorazilo 1 0 ? 1 0 ? 0 ? — buňky 3, 6, 8 čárkovaně prázdné s ambrovým otazníkem. Nad buňkami čísla pozic 1–8, pod řadou 3 OF 8 LOST.",
+   "note": "Odeslané slovo je 10110100, ale v obraze NENÍ — S08 říká, že z toho, co dorazilo, se správné doplnění poznat nedá. Bity se nečtou nahlas, nese je obraz. Tytéž souřadnice a výmazy v S77–S80 (callback)."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "osm",
+   "diagram": "Páteř nahoře beze změny; pod ní osm kandidátů (všechna doplnění 000…111 do pozic 3, 6, 8) ve dvou sloupcích, všechny stejně tlumeně.",
+   "note": "Všech osm kandidátů STEJNOU barvou — kresba nesmí napovědět, který je správný (assert: 8 různých, každý sedí na známé bity).",
+   "pause": 0.5
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "osm",
+   "diagram": "Dole časová osa ODESLÁNO → (blesk) → PŘIJATO; u odesílatele ke zprávě přicvaknutý ambrový štítek EXTRA ještě PŘED bleskem. Páteř nahoře tlumeně.",
+   "note": "Tvrzení scény je pořadí: odpověď odešla dřív, než se cokoli ztratilo. Štítek musí ležet vlevo od blesku."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "osm",
+   "diagram": "Obálka zprávy (MESSAGE) a přilepený ambrový díl EXTRA; jednoduché ‚zpráva + něco navíc‘.",
+   "note": "Tvar balíčku zprava+extra (balik()) se vrací v S30 jako shrnutí — tytéž souřadnice."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "opakovani",
+   "diagram": "0 → 0 0 0 a 1 → 1 1 1, velké neproporcionální číslice v buňkách.",
+   "note": "Opakovací kód (3,1)."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "opakovani",
+   "diagram": "Odesláno 1 1 1, blesk nad prostřední, přijato 1 0 1 (prostřední ambrově); hlasování 2 : 1 → 1.",
+   "note": "Hlas říká ‚one, zero, one‘ — v obraze přesně tytéž tři buňky v tom pořadí."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "opakovani",
+   "diagram": "Dvě mřížky po 1000 teček: vlevo BEZ OPAKOVÁNÍ 100 ambrových (1 v 10), vpravo HLASOVÁNÍ ZE TŘÍ 28 ambrových (2,8 %).",
+   "note": "Data: p = 0,1, 3p² − 2p³ = 0,028 (factcheck S13). assert na počty 100 a 28. Ne ‚3 ze 100‘ — scénář říká ‚less than three‘.",
+   "pause": 0.5
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "opakovani",
+   "diagram": "Pruhy délky odeslaného: ×1, ×3, ×5, ×9 úměrně, ×100 utíká za pravý okraj; ambrový kousek dat v každém stejně malý.",
+   "note": "Délky pruhů úměrné počtu opakování (assert), stovka záměrně za okrajem (bleed).",
+   "pause": 1.0
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "opakovani",
+   "diagram": "MOTIV GRAF (graf()): osa x SPEED, osa y ERRORS (logaritmicky, dolů = méně); body opakovacích kódů R1, R3, R5, R9, … klesají k počátku. Pod grafem FEWER ERRORS = SLOWER.",
+   "note": "Body jsou SPOČÍTANÉ pro kanál s 10 % chyb (týž předpoklad jako S13), osy bez čísel. Graf se vrací v S38, S41–S43 na týchž souřadnicích. VÝZVA: levý dolní roh (x < 563, y > 1080) prázdný v S15 i S16 — graf začíná až na GRAF_X0.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "hamming",
+   "diagram": "Karta RICHARD HAMMING · BELL LABS · LATE 1940s.",
+   "note": "Fotka Hamminga s volnou licencí na Commons nejspíš není — při obrázcích zkusit `archive.py --search \"Richard Hamming\"`, jinak zůstává karta. Levý dolní roh prázdný (výzva doběhne)."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S17.png",
+   "diagram_generator": "hamming",
+   "diagram": "Celoplošná ilustrace z art/S17.png (ChatGPT, zadání v art/ZADANI-S17.md): prázdná laboratoř s reléovými skříněmi v noci, jedna lampa. Dokud chybí, záskok s nápisem.",
+   "note": "SDXL není k dispozici → čtvrtý zdroj (ChatGPT, CLAUDE.md). Plochá/malířská ilustrace, ne fotorealismus (otázka AI se tím nemění). Konkrétní stroj (Model V) se netvrdí. Pohyb povolen: je to obraz, ne diagram s textem."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "hamming",
+   "diagram": "Smyčka: KROK → CHYBA → ZNOVU ×3 (tři oblouky) → JOB DROPPED; dole dva víkendy (SAT–SUN) oba přeškrtnuté.",
+   "note": "Pořadí ze zdroje: chybu POZNÁ, zkusí třikrát, úlohu zahodí (Hamming 1997)."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "hamming",
+   "diagram": "Citát patkovým písmem: “IF THE MACHINE CAN LOCATE THERE IS AN ERROR, WHY CAN IT NOT LOCATE WHERE IT IS?” — R. W. HAMMING; WHERE ambrově.",
+   "note": "Doslovné znění zkrácené jen na první půlku věty (factcheck S20). Druhou větu scény (silnější slova) nese hlas, ne obraz.",
+   "pause": 2.2
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "hamming",
+   "diagram": "Páteř se SEDMI buňkami (pozice 1–7, osmá chybí): 1 0 1 1 0 1 0; kontrolní pozice 1, 2, 4 ambrově orámované; pod řadou 4 DATA + 3 CHECKS = 7.",
+   "note": "Tytéž souřadnice buněk 1–7 jako osmibitová páteř — v S78 se k nim vrátí osmá. Slovo = prvních sedm bitů 10110100 (factcheck S77–S80)."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "hamming",
+   "diagram": "Páteř 7; pod ní matice skupin 3 × 7 teček (kontrola 1: 1,3,5,7; 2: 2,3,6,7; 3: 4,5,6,7); první skupina ambrově, vpravo EVEN NUMBER OF ONES ✓ (2).",
+   "note": "Matice skupin (skupiny()) na pevných souřadnicích, S23–S28. assert: počet jedniček ve skupině sudý."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "hamming",
+   "diagram": "Páteř 7 + matice všech tří skupin; sloupce zvýrazněné jako svislé kombinace teček; EVERY POSITION: ITS OWN COMBINATION.",
+   "note": "assert: sedm sloupců, sedm různých nenulových vzorů."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "hamming",
+   "diagram": "Páteř 7, buňka 6 překlopená 1 → 0 ambrově, nad ní blesk.",
+   "note": "Pozice 6 (rozhodnuto v notes): dva ze tří testů selžou.",
+   "pause": 0.5
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "hamming",
+   "diagram": "Matice skupin, u každého řádku výsledek: 1 PASS (fajfka), 2 FAIL (křížek), 3 FAIL (křížek).",
+   "note": "Výsledky SPOČÍTANÉ z překlopeného slova (assert), ne napsané.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "hamming",
+   "diagram": "Výsledky jako bity 0 1 1, šipka čtení od posledního k prvnímu → 1 1 0 → = 6 ambrově.",
+   "note": "Hlas: ‚one, one, zero‘ — v obraze tytéž číslice v tom pořadí."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "hamming",
+   "diagram": "Páteř 7, ambrová šipka z 6 dolů přesně na buňku 6.",
+   "note": "Scéna, ve které něco míří: šipka končí na buňce 6, ověřit na kontaktním listu."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "hamming",
+   "diagram": "Páteř 7 zase 1 0 1 1 0 1 0, buňka 6 ambrově zpátky na 1; NOTHING SENT TWICE.",
+   "note": ""
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "hamming",
+   "diagram": "Balíček MESSAGE + EXTRA ze S10 na týchž souřadnicích; PACKED IN AHEAD OF TIME.",
+   "note": "Callback S10 — odpověď na otázku z háčku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "kontroly",
+   "diagram": "Soubor s CHECKSUM; vpravo WHICH BLOCK? ✓ a ORIGINAL DATA? ✗; malý štítek BTRFS.",
+   "note": "Btrfs pozná, KTERÝ blok je vadný (zpětná vazba 0.3), neumí z kontrolního součtu obnovit data. Odkaz na video 141.",
+   "pause": 0.6,
+   "karta": "141-btrfs-checksums-how-does-it-know-your-data-is-corrupted"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "kontroly",
+   "diagram": "Dvě řady bitů: ERROR — jedna buňka špatně, ale nevíme kde (všechny buňky stejné, otazník nad řadou); ERASURE — díra s ambrovým rámečkem na známém místě.",
+   "note": "Rozdíl chyba × výmaz musí nést kresba: u chyby NIC nevyčnívá."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "kontroly",
+   "diagram": "Řada výmazu ze S33 velká; ERASURE ambrově, pod tím EASIER.",
+   "note": ""
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "kontroly",
+   "diagram": "Pět buněk: 4 7 2 9 a ambrově 22, nad ní SUM.",
+   "note": "assert 4+7+2+9 = 22.",
+   "vycet": 0.3,
+   "pause": 0.5
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "kontroly",
+   "diagram": "4 7 ? 9 22, otazník ambrově, pod tím 22 − 4 − 7 − 9 = 2.",
+   "note": ""
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "kontroly",
+   "diagram": "Čtyři disky vedle sebe, v každém pruhy bloků; kontrolní blok (ambrový) v každém pruhu na JINÉM disku; třetí disk přeškrtnutý a jeho bloky dopočítané šipkami z ostatních.",
+   "note": "RAID 5: parita rozprostřená (factcheck S37). Kresba nesmí ukazovat samostatný paritní disk.",
+   "pause": 2.4
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "shannon",
+   "diagram": "GRAF ze S15 na týchž souřadnicích, body opakování dojíždějí k počátku; ERRORS → 0 = SPEED → 0.",
+   "note": "Callback S15."
+  },
+  {
+   "id": "S39",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Portrét Shannona, BEZ zoomu (pravidlo portrétu), fit 0.84. DOTAZ OD STOLU — napřed --search a kontaktní list.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Claude Shannon",
+    "pick": 4,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "shannon",
+   "diagram": "Tři ikony vedle sebe (vysílač s vlnami, kabel, disk); nad nimi ambrová vodorovná čára LIMIT a A TOP SPEED FOR INFORMATION.",
+   "note": "Bez vzorce (factcheck S40).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "shannon",
+   "diagram": "GRAF: přibude Shannonova hranice (svislá u kapacity, pod ní zakřivená); bod při stálé rychlosti pod limitem klesá dolů šipkou; BELOW THE LIMIT.",
+   "note": "Hranice spočítaná pro týž kanál (C = 1 − H(0,1)), plnou čarou — je dokázaná. Šipka svisle dolů = ‚bez zpomalení‘."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "shannon",
+   "diagram": "GRAF: oblast vpravo od hranice šrafovaná; NO CODE WILL HELP.",
+   "note": "",
+   "pause": 1.0
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "shannon",
+   "diagram": "GRAF s hranicí; u hranice čárkovaný bod s otazníkem; vpravo EXIST ✓ a BUILD ONE? ?",
+   "note": "Čárkovaně = existuje, ale nikdo ho nemá (konvence)."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "shannon",
+   "diagram": "Přijaté slovo vlevo, vpravo sloupec kandidátních zpráv mizející dolů do teček; pod tím 1,000 BITS → MORE MESSAGES THAN ATOMS IN THE UNIVERSE.",
+   "note": "Bez čísla 10^150 — platí jen pro rychlost od ~0,27 (factcheck S44), scénář ho neříká."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "shannon",
+   "diagram": "Časová osa 1948 (PROMISE, ambrově) → čárkovaně 45 YEARS → 1993.",
+   "note": "Čárkovaně = slib, ještě nesplněný.",
+   "pause": 2.6
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "rs",
+   "diagram": "Sedm buněk Hammingova slova, jedna chybná opravená (fajfka); 1 IN 7.",
+   "note": "",
+   "pause": 0.5
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "rs",
+   "diagram": "Dlouhý proud drobných bitů po blocích sedmi; shluk desítek po sobě jdoucích ambrových bitů zasáhne několik bloků, každý přeškrtnutý.",
+   "note": "Shluk je SOUVISLÝ (assert), bloky po 7."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "rs",
+   "diagram": "Pět vějířovitě rozložených stránek; POLYNOMIAL CODES OVER CERTAIN FINITE FIELDS · I. S. REED & G. SOLOMON · MIT LINCOLN LABORATORY · 1960.",
+   "note": "Titul a strany 300–304 z factchecku S49; žádná napodobenina sazby časopisu."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "rs",
+   "diagram": "Bity seskupené po osmi do bajtů; shluk osmi bitů padne do jednoho bajtu → ONE BAD BYTE.",
+   "note": ""
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "rs",
+   "diagram": "Pruh 255 dílků: 223 DATA BYTES (světle) + 32 CHECK BYTES (ambrově), šířky úměrné.",
+   "note": "assert 223 + 32 = 255, šířky z počtu."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "rs",
+   "diagram": "Pruh ze S51; pod ním dvě varianty: 16 WRONG ✓ (16 ambrových dílků rozházeně) a 32 MISSING ✓ (32 děr).",
+   "note": "assert 16 a 32."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "rs",
+   "diagram": "CD vlevo, výřez stopy zvětšený vpravo, škrábanec přes stopu; ~4,000 BITS · 2.5 mm OF TRACK; TWO REED–SOLOMON CODES.",
+   "note": "Factcheck S53.",
+   "pause": 0.6
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "qr",
+   "diagram": "Roztržený QR ze S05 na týchž souřadnicích; vpravo LEVEL H a UP TO ~30% OF ITS BYTES.",
+   "note": "Callback háčku — tady se otázka ze S06 uzavírá. VÝZVA: levý dolní roh prázdný v S54 a začátku S56.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S56",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S56.png",
+   "note": "Sonda Voyager (NASA, public domain). Scénář od v0.6 mluví o Voyageru 2 (zpětná vazba 0.3); snímek je model sondy, oba Voyagery jsou stejné. Levý dolní roh tmavý (výzva doběhne).",
+   "archive": {
+    "provider": "nasa",
+    "query": "Voyager spacecraft",
+    "pick": 1,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "voyager",
+   "diagram": "Planety; u Jupiteru a Saturnu GOLAY a pruh DATA BIT + EXTRA BIT; vpravo tlumeně EVERYTHING BUT THE PICTURES.",
+   "note": "Golay chránil u J/S jen NEobrazová data (Rice 2024 podle JPL), snímky měly jen konvoluční kód."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "voyager",
+   "diagram": "Uran a Neptun zvýrazněné; řetěz DATA → REED–SOLOMON → SECOND CODE → vysílač, pod druhým kódem EVERY BIT.",
+   "note": "Pořadí kódování: RS vnější (první), konvoluční vnitřní (u kanálu). Řetěz, ne vnořené krabice — obálka by kreslila pořadí obráceně."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "voyager",
+   "diagram": "Dva řádky: SECOND CODE ALONE 5 IN 1,000 → WITH REED–SOLOMON 1 IN 1,000,000.",
+   "note": "Táž veličina před a po (factcheck S59).",
+   "pause": 1.0
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "voyager",
+   "diagram": "Čtyři bloky A–D jako řádky bajtů, šipky do jednoho proudu A1 B1 C1 D1 A2 B2 …",
+   "note": "Hloubka prokládání 4 (factcheck S60/S61)."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "voyager",
+   "diagram": "Proud ze S60 se shlukem přes osm sousedních bajtů; po rozložení zpět má každý blok jen dva vadné bajty a fajfku.",
+   "note": "assert: shluk 8 → 2 na blok."
+  },
+  {
+   "id": "S62",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S62.png",
+   "note": "Neptun z Voyageru 2 (NASA, public domain) — odkaz na video 110. DOTAZ OD STOLU — napřed --search.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Neptune Voyager 2",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   },
+   "pause": 1.0,
+   "karta": "110-how-did-voyager-send-pictures-home"
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "ldpc",
+   "diagram": "MOTIV PRAVÍTKO (pravitko()): vodorovná osa k ambrové svislé zdi SHANNON'S LIMIT; značka VOYAGER zřetelně před ní; nad osou CLOSER →; čárkovaně krabička ALREADY EXISTED.",
+   "note": "Pravítko BEZ měřítka a bez čísel (vzdálenosti Voyageru a turbo kódů factcheck nemá) — tvrdí jen pořadí. Tytéž souřadnice v S69, S70, S73.",
+   "pause": 1.0
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Graf Gallagerova kódu: nahoře řada kroužků (bity), dole řada čtverečků (kontroly), každá kontrola spojená jen se třemi až čtyřmi bity; GALLAGER · MIT · 1960.",
+   "note": "Řídkost hlídá assert (stupeň kontroly ≤ 4). Graf (tanner()) na pevných souřadnicích S65, S66, S71, S72."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Týž graf, po hranách šipky oběma směry (ROUND AFTER ROUND); celé ztlumené a přes to ~30 YEARS.",
+   "note": "",
+   "pause": 2.2
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Karta TURBO CODES · GENEVA · 1993; CLAUDE BERROU · ALAIN GLAVIEUX (a tým).",
+   "note": "Třetí autor Thitimajshima — ‚a team led by two French engineers‘ (factcheck S68)."
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Pravítko: značka TURBO těsně u zdi; nad ní ambrový otazník a A FACTOR OF TWO?",
+   "note": "Turbo je blíž než Voyager (pořadí je pravda), bez čísel."
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Pravítko jako S69, otazník nahrazený fajfkou; CONFIRMED.",
+   "note": "",
+   "pause": 1.2
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Vlevo dva dekodéry turbo kódu s šipkami tam a zpět, vpravo tlumený Gallagerův graf, šipka mezi nimi.",
+   "note": ""
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Gallagerův graf zase plnou barvou; DAVID MACKAY · RADFORD NEAL · 1995–96.",
+   "note": ""
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Pravítko: značka 2001 skoro na zdi; 0.04 dB.",
+   "note": "Kód z roku 2001 (Chung, Forney, Richardson, Urbanke) je NEregulární LDPC, tedy vylepšená verze Gallagerových kódů — tak to říká i scénář od v0.6. Jediné číslo na pravítku je ze scénáře.",
+   "pause": 0.5
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Dva pruhy výkonu: THEORETICAL MINIMUM a NEEDED, druhý o 0,93 % delší; < 1% MORE POWER.",
+   "note": "assert 10^0,004 = 1,0093; šířky úměrné.",
+   "pause": 2.6
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "ldpc",
+   "diagram": "Tři ikony: telefon 5G, router WI-FI, parabola SATELLITE TV; nad nimi malý Gallagerův graf.",
+   "note": "",
+   "pause": 2.2,
+   "vycet": 0.3
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř přesně jako S07: 1 0 ? 1 0 ? 0 ?; pod ní 8 WAYS.",
+   "note": "Callback S07 — tytéž souřadnice i výmazy (registr invariantů).",
+   "pause": 0.6
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř s výmazy; nad buňkami role: DATA (3, 5, 6, 7), CHECK (1, 2, 4, ambrově), CHECK OVER ALL 8 (8, ambrově).",
+   "note": "Rozšířený Hamming (8,4) (factcheck S77–S80)."
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "zaver",
+   "diagram": "Mřížka 16 × 16 = 256 buněk, 16 ambrových (platná slova); ONLY 16 FOLLOW THE RULES.",
+   "note": "assert: 16 platných ze 256, spočítáno, ne napsáno."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř s výmazy; pod ní osm kandidátů ze S08 na týchž místech, sedm přeškrtnutých, jeden ambrově s fajfkou.",
+   "note": "assert: platný právě jeden a je to 10110100."
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "zaver",
+   "diagram": "Páteř posunutá do DOLNÍ poloviny (ZAVER_Y), úplná 1 0 1 1 0 1 0 0, buňky 3, 6, 8 ambrově; horní polovina prázdná.",
+   "note": "Závěrečná obrazovka: posledních 20 s = S81 a S82, horní polovina prázdná. Páteř se smí pohnout jen tady (vlastní klíč registru).",
+   "pause": 3.0
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "diagram_generator": "zaver",
+   "diagram": "V dolní polovině otázka: HAVE YOU EVER NOTICED ERROR CORRECTION AT WORK? Horní polovina prázdná.",
+   "note": "Otázka do komentářů (docs/cta.md). Horní polovina pro dlaždici a kolečko odběru."
+  }
+ ]
+}

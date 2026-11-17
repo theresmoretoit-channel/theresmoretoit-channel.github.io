@@ -1,0 +1,725 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Schéma poštovního okna (záhlaví Windows): seznam zpráv, nahoře THE CHIEF PROSECUTOR · INTERNATIONAL CRIMINAL COURT. Zprávy postupně zešednou, přes okno visací zámek, ACCESS LOST. Titulek MAY 2025.",
+      "note": "První obrazovka nese myšlenku: prokurátor světového soudu přišel o e-mail. Žádný portrét, žádné logo ICC (uživatel: Haag, e-mail, sankční dokument, logo MS).",
+      "anim": "animace"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tři karty vedle sebe: A HACK? (přeškrtnuté), A POWER CUT? (přeškrtnuté), třetí ambrová: A SIGNATURE IN WASHINGTON — podpis se dopíše tahem pera.",
+      "note": "Škrt textu přes `text_skrtnuty()`, ne křížek. Podpis je tvar, takže se smí kreslit pohybem.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ `retez()` poprvé: vlevo WASHINGTON (list SANCTIONS · FEB 2025), uprostřed MICROSOFT (čtyři čtverečky) · AN AMERICAN COMPANY, vpravo INBOX · THE HAGUE. Spojnice naskočí na „sanctions“ a „Microsoft“.",
+      "note": "Páteř: tři uzly na pevných souřadnicích (ZÁKON → POSKYTOVATEL → ZÁKAZNÍK), vrací se v S05, S36, S39, S43, S44, S48, S54.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Řetěz ztlumený, nad uzlem MICROSOFT dvě karty MICROSOFT SAYS: NEVER STOPPED SERVING THE COURT · IN CONTACT THROUGHOUT THE PROCESS. Karty naskočí po sobě.",
+      "note": "Obě věty jsou výroky Microsoftu, ne fakta — proto štítek MICROSOFT SAYS a žádné uvozovky (nejde o doslovnou citaci, viz factcheck).",
+      "anim": "animace"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Řetěz: prostřední spojnice ČÁRKOVANĚ s popiskem WHO DECIDED? DISPUTED, a pod tím plná ambrová šipka přes celý řetěz WASHINGTON → THE HAGUE, popisek THE DEPENDENCY.",
+      "note": "Konvence: čárkovaně = sporné, plně = doložené. Míra jistoty v obraze musí sedět s *disputed / is not*.",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Řetěz se zmenší a odjede nahoru, místo jedné schránky tři instituce TAX OFFICE, HOSPITALS, POLICE; od každé čáry přes čárkovanou hranici k pěti malým rámečkům A HANDFUL OF COMPANIES ABROAD.",
+      "note": "Zvětšení z jednoho člověka na stát. Hranice čárkovaně = státní hranice, ne hypotéza; v hlavičce _kit to rozlišit tloušťkou.",
+      "anim": "animace"
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě čárkované karty WHAT IF: cenovka, jejíž sloupec se zdvojnásobí (×2 OVERNIGHT), a NO LONGER ALLOWED TO SELL se zákazovou páskou přes krabici softwaru.",
+      "note": "Čárkovaně = hypotéza (otázka, ne tvrzení).",
+      "anim": "animace"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "Hromádka smluv, na vrchní se podepisuje; nahoře GOVERNMENTS KNOW. THEY SIGN ANYWAY. Pak velké ambrové SO WHY?",
+      "note": "Hlavní otázka ~0:50, odtud se platí.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S09",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S09.png",
+      "note": "Budova MV ČR na Letné (Gampe, CC BY-SA 4.0). Dotaz zúžený na název souboru, pick 0 vybrán z kontaktního listu 2026-11-08 (vyřazen snímek s transparentem).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Letná Ministerstvo vnitra (6869)",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "cesko",
+      "diagram": "STROP `strop()`: čárkovaná vodorovná čára CEILING, nad ní 14,230,000,000 CZK · BEFORE VAT, pod tím ≈ €570 MILLION. Čára se natáhne zleva doprava, čísla naskočí.",
+      "note": "Přesné číslo nese obraz, hlas říká *just over fourteen billion* (pravidlo z notes). Čárkovaně = strop, ne utracené peníze — S12 na to staví.",
+      "anim": "animace"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "cesko",
+      "diagram": "Pod stropem časová osa 30 SEP 2024 → 29 SEP 2028 (FOUR YEARS), pod ní ikony MINISTRIES · STATE INSTITUTIONS a štítky LICENCES · SUPPORT. Osa se vykreslí.",
+      "note": "Konec dohody: do 29. 9. 2028 nebo vyčerpání (MV).",
+      "anim": "animace"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "cesko",
+      "diagram": "Týž strop, pod ním padají a skládají se malé bloky ORDER, ORDER, ORDER (minitendry), vedle tří rámečků APPROVED SUPPLIERS. Nahoře A CEILING, NOT A BILL.",
+      "note": "Bloky nesmí dosáhnout stropu (neví se, kolik je vyčerpáno).",
+      "anim": "animace"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "cesko",
+      "diagram": "Řada institucí (malé budovy) odchází za levý i pravý okraj obrazu, takže se nedají spočítat; sbíhají se do jednoho trychtýře → MORE BARGAINING POWER; potom se všechny zbarví stejně: THE SAME DEFAULT EVERYWHERE.",
+      "note": "Sleva a závislost jsou jedna věc: tentýž obraz, druhá věta ho jen přebarví. Počet budov NESMÍ jít spočítat (zpětná vazba ke storyboardu: dvacet budov by se četlo jako skutečný počet institucí v dohodě).",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "cesko",
+      "diagram": "Karta zdroje EUROPEAN PARLIAMENT STUDY · DEC 2025 a vrstvy digitálního stacku pod sebou; skoro všechny označené US FIRMS DOMINATE. Názvy vrstev JEN ze studie PE 778.576, ověřit v PDF před kreslením.",
+      "note": "🔔 Výzva k odběru za S14 (~1:40): levý dolní roh prázdný (nic vlevo pod y 1000, x < 560), titulek krátký. Vrstvy a jejich názvy SMÍ být jen ty, které studie sama uvádí; nic nedoplňovat (zpětná vazba ke storyboardu). Když studie vrstvy nevyjmenuje, kreslí se jen karta zdroje s citací *US firms dominate all major software layers*.",
+      "anim": "animace",
+      "pause": 2.2,
+      "vyzva": true
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "proc",
+      "diagram": "SO HOW DID IT GET LIKE THIS? a řada malých kroků zleva doprava, u každého fajfka SENSIBLE — naskakují po jedné.",
+      "note": "Žádný padouch: každá volba rozumná (zdroj kap. 2).",
+      "anim": "animace"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "proc",
+      "diagram": "Stát jako stroj: do rámečku A GOVERNMENT vjíždějí po pásu listy TAXES, ID CARDS, COURT RULINGS, LAND RECORDS, EMERGENCY CALLS; na výstupu vyjíždějí zpracované.",
+      "note": "Pohyb listů po pásu, text na listech se s nimi nehýbe zvlášť (je součást tvaru; když to bude rušit, popisky stát a listy bez textu).",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "proc",
+      "diagram": "Schéma kancelářského monitoru, na ploše naskakují dlaždice WINDOWS, OFFICE, OUTLOOK, ACTIVE DIRECTORY, TEAMS po jedné podle slov.",
+      "note": "Dlaždice = schémata, ne kopie loga (konvence 3 ze 149). Jen Windows smí mít čtyři čtverečky.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "proc",
+      "diagram": "Mřížka malých kancelářských budov, v každé tatáž pětice dlaždic: NOTHING EXOTIC · THE SAME TOOLS MILLIONS OF COMPANIES USE.",
+      "note": "Počet budov symbolický, bez čísla v obraze."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "proc",
+      "diagram": "Tři sloupce: STAFF KNOW THEM (postava), ADMINS KNOW HOW TO RUN THEM (postava s klíčem), DOCUMENTS EXPECT THEM (list); fajfky naskočí po větách.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "proc",
+      "diagram": "Mřížka 20 000 teček-počítačů (assert na počet) se zaplní, popisek 20,000 COMPUTERS, pak ambrové THE OBVIOUS DECISION.",
+      "note": "Data v obraze: počet teček se počítá a hlídá assertem.",
+      "anim": "animace"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "proc",
+      "diagram": "Dvě čáry: A COMPANY zatáčí (CAN CHANGE ITS STRATEGY), A STATE jede rovně dál a nesmí se zastavit (CAN'T STOP WORKING).",
+      "note": "Konec bloku.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "lockin",
+      "diagram": "PÁTEŘ 2 `ministerstvo()` poprvé: budova A MINISTRY · 20,000 STAFF, vpravo čárkované dveře EXIT a SO WHY NOT JUST SWITCH?",
+      "note": "Páteř 2: budova a dveře na pevných souřadnicích; vrací se v S23–S29, S31, S34, S57, S61–S64, S66. Cesta k východu se v S29 prodlužuje.",
+      "anim": "animace"
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "lockin",
+      "diagram": "Uvnitř budovy naskakují vrstvy ACCOUNTS · ACTIVE DIRECTORY, EMAIL · EXCHANGE, WORKFLOWS · SHAREPOINT, a ztlumeně EXCEL MACROS NOBODY REMEMBERS WRITING.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "lockin",
+      "diagram": "Vlevo malý rámeček INSTALL LINUX + LIBREOFFICE, vpravo dlouhý seznam MIGRATE DOCUMENTS, REWRITE APPLICATIONS, REBUILD LOGINS, RETRAIN PEOPLE, TEST EVERYTHING — položky naskakují.",
+      "note": "Poměr velikostí nese tvrzení *isn't a matter of installing*.",
+      "anim": "animace",
+      "pause": 0.4
+    },
+    {
+      "id": "S25",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S25.png",
+      "note": "Atmosféra: úřad, který nesmí zavřít ani na den. Jediná lidská scéna úvodní půlky; lidé zezadu (negativ má close-up of people). Vygenerováno 2026-11-08 (seed z ID scény).",
+      "prompt": "a public tax office service hall during opening hours, long counters, people waiting in a calm queue seen from behind, numbered ticket display without digits, wide shot",
+      "pause": 0.6
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "lockin",
+      "diagram": "Definice: VENDOR LOCK-IN velkým ambrovým, pod tím ministerstvo a cesta k EXIT přes závory TOO HARD · TOO EXPENSIVE; dveře zešednou: NOT A REAL OPTION.",
+      "note": "Pojem videa. Statická karta s jediným pohybem (závory spadnou).",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "lockin",
+      "diagram": "Smlouva s prázdným čárkovaným místem NO SUCH CLAUSE; nad tím NOBODY HAS TO FORCE YOU TO STAY."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "lockin",
+      "diagram": "Ministerstvo, rok za rokem (čítač YEAR 1, 2, 3) přibývají vrstvy MORE APPLICATIONS, MORE STAFF WHO KNOW IT, MORE DATA IN ITS FORMATS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "lockin",
+      "diagram": "Vrstvy obepne obrys listiny: THE TECHNOLOGY BECOMES THE CONTRACT; cesta k EXIT se s každým rokem prodlouží (čára se natahuje, dveře odjíždějí doprava).",
+      "note": "Hlavní obraz lock-inu. Dveře se pohnou JEN tady a vrátí se v S34/S57 na původní místo.",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "lockin",
+      "diagram": "Ceník dvou úrovní BASIC / PREMIUM; cena roste šipkou, pak dlaždice funkce, na které ministerstvo stojí, přejede z BASIC do PREMIUM.",
+      "anim": "animace"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "lockin",
+      "diagram": "Jednací stůl: vlevo ministerstvo s cedulí WE COULD LEAVE, vpravo dodavatel; uprostřed na stole karta LEAVING = 5 YEARS · BILLIONS, otočená k oběma.",
+      "note": "*Everyone at the table knows it*: karta je vidět z obou stran."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "lockin",
+      "diagram": "Karta zdroje GOV.UK · OFFICIAL GUIDANCE a citace „difficult, time consuming and disproportionately expensive“.",
+      "note": "Doslovná citace (GDS), proto uvozovky; ověřit přesné znění včetně pomlčky v *time consuming*.",
+      "pause": 0.5
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "lockin",
+      "diagram": "Druhá citace „in the cloud the advantages of being locked-in can often outweigh the disadvantages“ a pod ní váhy, které se nakloní k ADVANTAGES.",
+      "note": "Váhy se hýbou, citace stojí.",
+      "anim": "animace"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "lockin",
+      "diagram": "Ministerstvo s pěti spojnicemi k dodavatelům; každá dostane štítek KNOWN, a jen některé dveře EXIT plně: THE QUESTION ISN'T ZERO DEPENDENCIES · IT'S A REAL WAY OUT.",
+      "note": "Konec bloku lock-in.",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S35",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S35.png",
+      "note": "Budova ICC v Haagu bez aut v popředí (Ymblanter, CC BY-SA 4.0). Dotaz zúžený na název souboru, pick 0 z kontaktního listu 2026-11-08.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "International Criminal Court building seen from Maurits Kiekpad",
+        "pick": 0
+      },
+      "pause": 1.0
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "pravo",
+      "diagram": "PÁTEŘ `retez()`: uzel POSKYTOVATEL (A SOFTWARE COMPANY) je kotvou přivázaný k zemi WASHINGTON; kolem zákona štítky SANCTIONS · EXPORT RULES. Nadpis NOT ABOVE THE LAW.",
+      "anim": "animace"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "pravo",
+      "diagram": "Dvě země COUNTRY A — COUNTRY B, spojnice klidná; na *go bad* se zlomí do klikatice.",
+      "anim": "animace"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "pravo",
+      "diagram": "Ruka nad vypínačem CZECH REPUBLIC, mezi nimi tři zábrany CONTRACTS · COURTS · MONEY. Nadpis NOT ON A WHIM.",
+      "note": "Věta *No, Microsoft can't switch off the Czech Republic* — obraz nesmí ukázat vypnutí, jen zábrany.",
+      "pause": 0.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "pravo",
+      "diagram": "Řetěz: z poskytovatele vede ke ZÁKAZNÍKŮM mřížka 200 teček; zhasne JEDINÁ: NOT A COUNTRY GOING DARK · ONE PERSON, TARGETED.",
+      "note": "Skutečný tvar rizika, návrat k S03.",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "pravo",
+      "diagram": "Dva sloupce BUY / RENT: vlevo počítač, vpravo obláček služby napojený kabelem k dodavateli."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "pravo",
+      "diagram": "Totéž, výrobce zmizí (rámeček MAKER zbledne): koupený počítač dál svítí, pronajatá služba zhasne, kabel přeruší.",
+      "anim": "animace",
+      "pause": 0.8
+    },
+    {
+      "id": "S42",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S42.png",
+      "note": "Atmosféra: *a data centre inside its own borders… sounds reassuring*. Kotva stylu má server rooms behind glass. Vygenerováno 2026-11-08 (seed z ID scény).",
+      "prompt": "a quiet modern data centre behind a glass wall, rows of server racks with small status lights, cool even light, empty corridor, wide shot",
+      "pause": 0.6
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "pravo",
+      "diagram": "Mapa ze dvou zemí: SERVER stojí UVNITŘ země zákazníka (čárkovaná hranice), ale šipka zákona z WASHINGTON vede k uzlu poskytovatele, ne k serveru. Nadpis LOCATION ≠ LAW.",
+      "note": "Kresba tvrdí: zákon míří na firmu. Ověřit směr šipky proti větě (*laws apply to the company running it*).",
+      "anim": "animace"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "pravo",
+      "diagram": "Karta CLOUD ACT · 2018 · 18 U.S.C. § 2713 s citací „possession, custody, or control … regardless of whether … located within or outside of the United States“; řetěz US AUTHORITIES → (LEGAL PROCESS) → AMERICAN PROVIDER → DATA ABROAD.",
+      "note": "Doslovné znění ze zákona (factcheck [2713]).",
+      "anim": "animace"
+    },
+    {
+      "id": "S45",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S45.png",
+      "note": "Palais du Luxembourg, sídlo Senátu (Lmbuga, CC BY-SA 4.0); slyšení bylo ve výboru, proto exteriér. Pick 0 z kontaktního listu 2026-11-08 (druhý výsledek je jiný pomník — dotaz nezkracovat).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "2017 - Le palais du Luxembourg, dans le jardin du Luxembourg, Paris - 3",
+        "pick": 0
+      },
+      "pause": 1.0
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "pravo",
+      "diagram": "Otázka na kartě FRENCH SENATE · JUNE 2025 · UNDER OATH: CAN YOU GUARANTEE THAT FRENCH CITIZENS' DATA WILL NEVER GO TO US AUTHORITIES WITHOUT FRANCE'S CONSENT?",
+      "note": "Parafráze, ne citace (originál francouzsky) — bez uvozovek."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "pravo",
+      "diagram": "Dvě odpovědi pod sebou, naskočí postupně, obě připsané jemu: HE SAID: NO, HE COULDN'T GUARANTEE IT. · HE ADDED: IT HAS NEVER HAPPENED, pod tím menším NO SUCH REQUEST HAS AFFECTED A EUROPEAN COMPANY OR PUBLIC BODY · ACCORDING TO HIS TESTIMONY.",
+      "anim": "animace",
+      "note": "Druhá věta je jeho výpověď, ne zjištěný fakt, proto HE ADDED a ACCORDING TO HIS TESTIMONY. Znění podle přepisu (*cela ne s'est encore jamais produit*, factcheck [Senát]); návrh ze zpětné vazby *no such request had ever been MADE* nepřevzat, říká něco jiného."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "pravo",
+      "diagram": "Řetěz s dvěma štítky: u serveru WHERE YOUR DATA LIVES, u šipky zákona WHO HAS LEGAL CONTROL; mezi nimi ≠.",
+      "note": "Konec bloku jurisdikce.",
+      "pause": 2.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "linux",
+      "diagram": "Silueta diváka zezadu před obrazovkou, bublina JUST INSTALL LINUX!",
+      "note": "Výkřik k vládám; humor beatu.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S50",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S50.png",
+      "note": "Skutečný desktop LiMux s nápisem Landeshauptstadt München (Clemens Kleinfeld, GPL). Oba výsledky dotazu jsou týž snímek (jpg a PNG), takže pick nezáleží. Vybráno z kontaktního listu 2026-11-08 proti radnici: konkrétní věc, kterou scéna jmenuje.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "intitle:LiMux Kleinfeld",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "linux",
+      "diagram": "Osa MUNICH: 2004 PROJECT START → LATE 2006 MIGRATION BEGINS → 2013 OVER 15,000 PCs ON LIMUX → 2014 NEW MAYOR → 2017 VOTE: BACK TO WINDOWS. Osa se vykreslí podle let.",
+      "anim": "animace",
+      "note": "Migrace začala až koncem 2006 a 15 000 bylo dosaženo 2013 (factcheck [WP-LiMux]); osa nesmí naznačit, že se všechno převedlo v roce 2004 (zpětná vazba ke storyboardu)."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "linux",
+      "diagram": "Ledovec: nad hladinou malé THE DESKTOP, pod ní velké OLD APPLICATIONS · SUPPORT · USERS · POLITICAL COMMITMENT. Nahoře malým WHY? STILL DEBATED.",
+      "note": "Mnichov bez tvrzení *the software is the easy part* (rozhodnutí uživatele).",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "linux",
+      "diagram": "SCHLESWIG-HOLSTEIN: pruh pracovišť MIMO daňovou správu, téměř 80 % zaplněno LIBREOFFICE; daňová správa vedle zvlášť, ztlumeně, TAX OFFICES: NOT YET.",
+      "note": "80 % se počítá BEZ daňové správy (factcheck) — kresba to musí oddělit.",
+      "anim": "animace"
+    },
+    {
+      "id": "S53b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53b.png",
+      "diagram_generator": "linux",
+      "diagram": "≈ 44,000 MAILBOXES → OPEN-SOURCE EMAIL (obálky přelétnou) a > €15 MILLION SAVED IN LICENCE FEES · SAYS THE STATE.",
+      "note": "Bez období (tisková zpráva ho neuvádí), proto i v obraze *says the state*.",
+      "anim": "animace"
+    },
+    {
+      "id": "S53c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53c.png",
+      "diagram_generator": "linux",
+      "diagram": "STATE CHANCELLERY: mřížka 200+ stolů na LINUX a ~20 stolů čárkovaně WAITING · SPECIALISED APPLICATIONS.",
+      "note": "Primární zdroj: tisková zpráva SH ze 19. 9. 2026 (factcheck [SH-Linux]). Počty assertem: 200 plných, 20 čárkovaných (lidé vs stoly: popisek PEOPLE u plných, DESKS u čárkovaných). Kresba menší a klidnější než S53/S53b: je to detail jedné kanceláře, ne celkové číslo.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "linux",
+      "diagram": "PÁTEŘ `retez()` naposled: INBOX · THE HAGUE. Prostřední uzel je tady rozdělený na vrstvy a vymění se JEN vrstva OFFICE SUITE: MICROSOFT OFFICE odjede, přijede OPENDESK · OPEN-SOURCE OFFICE SUITE · BUILT FOR THE GERMAN GOVERNMENT. Ostatní vrstvy uzlu i spojnice zůstanou, ztlumeně. OCT 2025.",
+      "note": "Haag se uzavírá: soud hledá alternativu ke kancelářskému ekosystému. Obraz NESMÍ tvrdit, že ICC vyměnil celou infrastrukturu nebo poštovní službu (zpětná vazba ke storyboardu), proto se mění jen kancelářská vrstva. Uzel se hýbe jen tady.",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "linux",
+      "diagram": "Tři výhody: ANYONE CAN INSPECT THE CODE (lupa), YOU CAN CHANGE IT (tužka), MORE THAN ONE COMPANY CAN MAINTAIN IT (tři firmy u jednoho kódu).",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "linux",
+      "diagram": "Hodiny se ručičkou na 3:00 AM, u nich člověk na služebním telefonu; štítky PATCH · SUPPORT · FIX. Nadpis OPEN SOURCE ISN'T FREE INFRASTRUCTURE.",
+      "anim": "animace"
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "linux",
+      "diagram": "PÁTEŘ 2 ministerstvo s EXIT: z dveří vedou tři cesty k MICROSOFT, ALTERNATIVE, ALTERNATIVE; čárkované se změní v plné. NOT THE ONLY REALISTIC OPTION.",
+      "note": "Pointa praktické části. 🔔 Druhá výzva k odběru za S57 (~8:30): levý dolní roh prázdný.",
+      "anim": "animace",
+      "pause": 2.6,
+      "vyzva": true
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "zaver",
+      "diagram": "DIGITAL SOVEREIGNTY velkým písmem; vlevo ztlumeně transparent SLOGAN?, vpravo ambrově PRACTICAL."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "zaver",
+      "diagram": "Nahoře ztlumeně EVERY CHIP, EVERY PROGRAM (přeškrtnuto jako nemožné), pod tím tři body naskakují: KNOW YOUR CRITICAL DEPENDENCIES · KEEP CONTROL OF YOUR DATA · INSIST ON OPEN STANDARDS.",
+      "anim": "animace"
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dvě slova: ISOLATED (ztlumeně, NOT THE AIM) a HELPLESS (ambrově, AVOID).",
+      "pause": 2.2
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "zaver",
+      "diagram": "THE EXIT TEST: dodavatel zbledne a odjede; u ministerstva otázka 1 CAN YOU STILL REACH YOUR OWN DATA? s prázdným políčkem.",
+      "anim": "animace"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "zaver",
+      "diagram": "Další otázky MOVE YOUR APPLICATIONS? · CAN SOMEONE ELSE TAKE OVER? · HOW LONG? a osa A WEEK · A MONTH · FIVE YEARS, jezdec po ní přejede.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "zaver",
+      "diagram": "Políčka zůstanou prázdná; list EXIT PLAN s čárkovanými dveřmi, které nikam nevedou: ONLY ON PAPER.",
+      "anim": "animace"
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "zaver",
+      "diagram": "Tři fajfky TECHNICALLY POSSIBLE · AFFORDABLE · TESTED; na ose TEST stojí PŘED bleskem CRISIS.",
+      "note": "Konec bloku testu.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "zaver",
+      "diagram": "Ministerstvo a firma vedle sebe, spojnice BUYING IS FINE; u firmy OFTEN BUILDS IT BETTER."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "zaver",
+      "diagram": "Ministerstvo visí na jediné spojnici k firmě: THE MISTAKE: UNABLE TO FUNCTION WITHOUT THEM.",
+      "anim": "animace",
+      "pause": 1.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "zaver",
+      "diagram": "ZÁVĚREČNÉ OKNO, horní polovina prázdná. Dole dvě šipky z jednoho bodu: CHOOSE, a druhá, která se otočí jinam: CHOOSE AGAIN.",
+      "note": "Posledních 20 s: S67 (část), S68, S69 — nic nad y 600.",
+      "pause": 1.4
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina prázdná. Dole dva řádky: RENT THE SOFTWARE. · NOT THE ABILITY TO FUNCTION. (druhý ambrově)",
+      "note": "Pointa. Klidná deska.",
+      "pause": 3.0
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "zaver",
+      "diagram": "Horní polovina prázdná. Dole otázka WHAT WOULD BREAK FIRST? a menší LET ME KNOW IN THE COMMENTS.",
+      "note": "Otázka do komentářů, klidná deska pro závěrečnou obrazovku."
+    }
+  ]
+}

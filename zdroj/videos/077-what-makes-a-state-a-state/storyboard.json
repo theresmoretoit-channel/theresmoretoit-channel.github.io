@@ -1,0 +1,676 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PRVNÍ OBRAZOVKA není sdxl a nese myšlenku: policie ve tvé ulici, a spojnice rozkazů od vlády je přetržená. Divák má zarazit dřív, než ví, o čem video je. Tytéž souřadnice (ULICE_XY, VLADA_BOX) se vrátí v S58.",
+      "diagram_generator": "uvod",
+      "diagram": "Dole řada jednoduchých domů (YOUR NEIGHBOURHOOD), před nimi postava policisty (ambrově). Nahoře rámeček GOVERNMENT. Spojnice ORDERS od rámečku k policistovi je uprostřed přetržená (skrtla_spojnice)."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "Beat v témže obraze. Vláda, zákony a soudy ZŮSTÁVAJÍ (plně, jen ztlumeně) — kresba nesmí tvrdit, že zmizely. Kdo je 'someone else', nevíme: čárkovaně = neznámé.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz. Vedle GOVERNMENT přibudou ztlumeně LAWS a COURTS (všechny tři stojí, OP_TLUM). Od policisty nová čárkovaná spojnice do prázdného čárkovaného rámečku s otazníkem. Nadpis WHO IS ACTUALLY IN CHARGE?",
+      "pause": 1.4
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "ZAVEDENÍ PÁTEŘE: obrys území uzemi() na pevných souřadnicích UZEMI_XY. Kolem něj čtyři atributy ze scénáře (borders je ten obrys sám). Vlajka bez znaku (negativ v project.json platí i pro kresbu).",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ poprvé: neutrální obrys území uprostřed, štítek BORDERS na hranici. Kolem tři ikony: prázdná vlajka (FLAG), budova se sloupy (GOVERNMENT), listina (CONSTITUTION). Nadpis BUT WHAT MAKES IT A STATE?",
+      "pause": 1.2
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Weberova definice jako citátová karta, protože ji divák slyší jednou a je dlouhá. Zvýrazněná slova = to, s čím video dál pracuje. Znění přesně podle script.md (ne originál, ten je ve factcheck.md). Bez portrétu: tvář by nic nenesla a stála by archivní evidenci.",
+      "diagram_generator": "weber",
+      "diagram": "Rámeček s citátem 'A HUMAN COMMUNITY THAT (SUCCESSFULLY) CLAIMS THE MONOPOLY OF THE LEGITIMATE USE OF PHYSICAL FORCE WITHIN A GIVEN TERRITORY'. Ambrově SUCCESSFULLY, MONOPOLY, TERRITORY. Pod tím MAX WEBER · POLITICS AS A VOCATION · 1919."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "note": "Páteř na UZEMI_XY. Tečky jsou ilustrace 'millions', NE počet — žádný popisek s číslem tečky.",
+      "diagram_generator": "weber",
+      "diagram": "Obrys území vyplněný stovkami drobných ztlumených teček. Štítek MILLIONS OF ORGANISATIONS."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Beat: několik teček dostane štítek. ARMED GROUPS je mezi nimi stejnou barvou — teprve S16 z nich udělá problém. Pause 0.6: S07 začíná 'But' a pokračuje výčtem.",
+      "diagram_generator": "weber",
+      "diagram": "Týž obraz, pět teček zvýrazněných INK se štítky COMPANIES, CLUBS, RELIGIOUS ORGANISATIONS, PRIVATE SECURITY, ARMED GROUPS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "MONOPOL poprvé: jediné ambrové centrum moc() a jeho DOSAH (plné paprsky k hranici) pokryje celé území. Plná čára = síla, kterou stát skutečně vymáhá; čárkovaná (od S50) = schopnost, která se nepoužívá. Ostatní tečky ztlumené, ale zůstávají.",
+      "diagram_generator": "weber",
+      "diagram": "Páteř, tečky ztlumené. Uprostřed ambrové centrum THE STATE, paprsky dosahu až k hranici. Nadpis ULTIMATE USE OF FORCE: MINE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Dvě vinětky vedle sebe, každá přeškrtnutá jako CELEK (křížek přes ikonu, škrt přes nápis zvlášť text_skrtnuty). Pause 0.5: S09 začíná 'And', pokračuje výčet.",
+      "diagram_generator": "weber",
+      "diagram": "Vlevo postava se štítkem YOUR OWN POLICE (přeškrtnuto), vpravo mříže YOUR OWN PRISON (přeškrtnuto).",
+      "pause": 0.4
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Šipky musí mířit OD sporu KE státu (stát spor řeší), ne od státu na lidi. Armády ztlumené a přeškrtnuté.",
+      "diagram_generator": "weber",
+      "diagram": "Dvě postavy proti sobě, za každou ztlumená řada postaviček (OWN ARMY) přeškrtnutá. Nad nimi rámeček THE STATE, ke kterému od obou vede šipka. Nadpis THE STATE HANDLES IT."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Výčet = čtyři ikony v řadě, rozsvěcí se všechny naráz (je to jedna scéna). Táž sada ikon instituce() se vrátí v S15 (vyprázdněná) a S32 (ISIS) — proto jedna funkce v _kit.py.",
+      "diagram_generator": "weber",
+      "diagram": "Čtyři ikony v řadě: POLICE, COURTS, PRISONS, MILITARY."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Funkce celého systému. Statické, protože za ním je CTA (S11b dědí obraz).",
+      "diagram_generator": "weber",
+      "diagram": "Vlevo listina RULE, šipka přes čtyři ztlumené ikony institucí, vpravo ambrově ENFORCED. Nadpis MAKING RULES ENFORCEABLE."
+    },
+    {
+      "id": "S11b",
+      "source": "svg",
+      "visual": "images/S11.png",
+      "effect": "static",
+      "cta": true,
+      "note": "CTA podle docs/cta.md, ~1:40, za blokem monopolu a před 'Now comes the interesting part'. Dědí obraz S11. Pause = konec bloku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "Výčet všeho, co stát MÁ na papíře. Plně a čitelně — nic zatím nechybí. Pause 0.6: S13 začíná 'But'.",
+      "diagram_generator": "slaby",
+      "diagram": "Čtyři ikony: CONSTITUTION (listina), LAWS (svazek), PARLIAMENT (půlkruh sedadel), GOVERNMENT BUILDINGS (sloupová budova).",
+      "pause": 0.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Pravidlo zůstává napsané (plně!), chybí jen šipka k vymáhání. Netvrdit 'neplatí' — škrtá se SPOJENÍ, ne listina.",
+      "diagram_generator": "slaby",
+      "diagram": "Listina RULE plně, od ní přerušená spojnice k prázdnému místu, kde v S11 bylo ENFORCED. Nadpis STILL WRITTEN DOWN. DECIDES NOTHING.",
+      "pause": 1.2
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Zákon jako vyhláška. Pause 0.5: S15 začíná 'But'.",
+      "diagram_generator": "slaby",
+      "diagram": "Listina s nadpisem NEW LAW a řádkem STARTING TOMORROW, STEALING IS ILLEGAL.",
+      "pause": 0.4
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Ikony instituce() z S10 na STEJNÝCH souřadnicích, ale vyprázdněné: policie s jednou postavou místo řady, soud čárkovaně, vězení prázdné. Pause 0.4: S16 začíná 'And'.",
+      "diagram_generator": "slaby",
+      "diagram": "Tři ikony na místech z S10: POLICE (jedna postava, NOT ENOUGH PEOPLE), COURTS (čárkovaně, NOT FUNCTIONING), PRISONS (prázdná mříž, EMPTY). Na místě armády ztlumeně listina NEW LAW.",
+      "pause": 0.4
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "PÁTEŘ: dosah státu z S07 se zkracuje, u hranic se objeví jiná centra (MUTED, ne ambrová — ambrová je 'o tom je řeč' a to je pořád stát). Žádné zbraně v kresbě.",
+      "diagram_generator": "slaby",
+      "diagram": "Obrys území, ambrové centrum s KRATŠÍMI paprsky. U okrajů tři menší centra se svými kroužky dosahu, jeden popisek ARMED GROUPS s vodicími čarami ke všem třem."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Symboly stojí (plně), dosah slábne — rozpor mezi tím, co vidíš, a tím, co platí.",
+      "diagram_generator": "slaby",
+      "diagram": "Vlevo ikony LAW, PARLIAMENT, FLAG plně. Vpravo páteř s ještě kratším dosahem centra. Nadpis LOSING CONTROL."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Callback otázky z S02 — tentýž nadpis i čárkovaný otazník, aby se rým poznal. Konec bloku.",
+      "diagram_generator": "slaby",
+      "diagram": "Páteř z S17, nad ní čárkovaný otazník. Nadpis WHO IS ACTUALLY IN CHARGE?",
+      "pause": 2.4
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Slabá vláda, centrum malé a dosah jen kolem hlavního města. Nová centra se objeví (MUTED plně).",
+      "diagram_generator": "moc",
+      "diagram": "Páteř: ambrové centrum CENTRAL GOVERNMENT s krátkým dosahem. Kolem pět nových center se svými kroužky. Nadpis OTHER CENTRES OF POWER."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Beat v témže obraze: centra dostanou jména ze scénáře, v témže pořadí po směru hodin. Táž sada jmen se vrátí v S54.",
+      "diagram_generator": "moc",
+      "diagram": "Týž obraz, pět štítků: MILITIAS, TRIBAL GROUPS, WARLORDS, CRIMINAL ORGANISATIONS, RELIGIOUS MOVEMENTS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Detail jednoho města: dvě čtvrti, dvoje pravidla. Hranice mezi nimi je ulice, ne čára na mapě. Pause 0.4: S22 začíná 'And', souvětí pokračuje.",
+      "diagram_generator": "moc",
+      "diagram": "Půdorys několika bloků ulic. Levá část GOVERNMENT'S LAWS (ambrově podbarvená listina), pravá o pár ulic dál THEIR OWN RULES (MUTED listina). Štítek A FEW STREETS AWAY.",
+      "pause": 0.4
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Pravá čtvrť dostane totéž, co stát v S11: šipku k ENFORCED. Lidé, ne zbraně.",
+      "diagram_generator": "moc",
+      "diagram": "Týž půdorys, v pravé části řada postaviček (ENOUGH PEOPLE) a od jejich listiny šipka k ENFORCED."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Kvazistát: vypadá jako páteř, ale obrys je ČÁRKOVANÝ (není to uznaný stát). Konec bloku.",
+      "diagram_generator": "moc",
+      "diagram": "Malé území s vlastním centrem a plným dosahem, ale obrys čárkovaný. Štítek LOOKS LIKE A STATE, pod ním ztlumeně ISN'T ONE.",
+      "pause": 2.4
+    },
+    {
+      "id": "S24",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S24.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-01 (dotaz 'Beirut skyline', šest výsledků): [1] 'Beirut skyline from O Monot hotel', Laura C Ellis, CC BY-SA 4.0 — zatažené nebe a beton sedí na kotvu stylu; [0] mělo ostré slunce a čitelné billboardy. Evidence je .orig + SHA-256, pick není stabilní. Žádné vlajky ani symboly Hizballáhu.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Beirut skyline",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "Páteř jako LEBANON (obrys zůstává schematický, ne skutečná mapa — páteř se nemění). Tři instituce plně: stát tu JE. Pause 0.6: S26 začíná 'But'.",
+      "diagram_generator": "libanon",
+      "diagram": "Páteř se štítkem LEBANON, ambrové centrum. Vedle tři ikony GOVERNMENT, NATIONAL ARMY, POLICE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "note": "Druhé centrum UVNITŘ téhož území (ne na okraji jako v S16) a vlastní dosah se s tím státním PŘEKRÝVÁ. Hizballáh jen jménem, žádný symbol.",
+      "diagram_generator": "libanon",
+      "diagram": "Týž obraz, uvnitř druhé centrum HEZBOLLAH s vlastním dosahem, štítky ARMED FORCES, POLITICAL STRUCTURES, SOCIAL SERVICES. Ztlumeně FOR DECADES."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Uvozovky = cizí označení, ne tvrzení videa (ověřeno ve factcheck.md, kdo tak píše).",
+      "diagram_generator": "libanon",
+      "diagram": "Páteř, menší čárkovaný obrys kolem centra Hizballáhu uvnitř velkého. Nadpis v uvozovkách “A STATE WITHIN A STATE”."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Časová osa jednoho dne. Pořadí ověřené (factcheck: nejdřív salva, pak zasedání vlády). Šipka výstřelu míří VEN z území na ISRAEL. Írán nezmiňovat. Pause 0.6.",
+      "diagram_generator": "libanon",
+      "diagram": "Osa se závorkou jednoho dne 2 MARCH 2026, oba body UVNITŘ závorky: karta HEZBOLLAH FIRES ON ISRAEL, ambrová karta SAME DAY: GOVERNMENT BANS ITS MILITARY ACTIVITIES.",
+      "pause": 0.6
+    },
+    {
+      "id": "S28b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28b.png",
+      "note": "Citát premiéra jako karta, pod ní osa pokračuje: válka trvala dál (do příměří v polovině dubna, ~6 týdnů — na ose jen FOR WEEKS, nic přesnějšího scénář netvrdí).",
+      "diagram_generator": "libanon",
+      "diagram": "Karta “THE DECISION OF WAR AND PEACE RESTS EXCLUSIVELY WITH THE STATE.” — PRIME MINISTER NAWAF SALAM. Pod ní pokračující osa z S28 s úsekem THE WAR WENT ON FOR WEEKS.",
+      "pause": 1.2
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Weberova otázka nad Libanonem: vláda má PRÁVO (listina), Hizballáh SCHOPNOST (dosah). Obě centra stejně velká, ambrová je otázka, ne žádné z nich. Začíná 'So', ale po S28b je beat záměrný. Konec bloku.",
+      "diagram_generator": "libanon",
+      "diagram": "Páteř se dvěma centry: GOVERNMENT se štítkem LEGAL AUTHORITY, HEZBOLLAH se štítkem CAN START A WAR. Mezi nimi ambrově WHO HAS THE MONOPOLY?",
+      "pause": 2.8
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Uvedení bloku ISIS čistým nadpisem, bez symbolů a vlajky (negativ project.json platí i pro kresbu).",
+      "diagram_generator": "isis",
+      "diagram": "Ztlumeně schematické obrysy IRAQ a SYRIA vedle sebe. Nadpis THE ISLAMIC STATE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Kontrolované území přes hranici dvou států. SCHEMA, ne mapa: tvar plochy nesmí předstírat skutečný rozsah, proto štítek LARGE PARTS bez km². Roky 2014–2017 = vyhlášení chalífátu až ztráta Mosulu a Rakky (factcheck).",
+      "diagram_generator": "isis",
+      "diagram": "Obrysy IRAQ a SYRIA, přes hranici mezi nimi šrafovaná plocha CONTROLLED BY ISIS, 2014–2017. Vedle ztlumeně přeškrtnutá ikonka A GANG HIDING WEAPONS."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "Kontrolní seznam funkcí státu. Ikony instituce() z S10 + taxation, administration, rules. Pause 0.4: S33 'And' doplňuje výčet.",
+      "diagram_generator": "isis",
+      "diagram": "Šest řádků s fajfkou uprostřed obrazu: ARMY, POLICE, COURTS, TAXATION, ADMINISTRATION, ITS OWN RULES. V S34 seznam odjede doleva.",
+      "pause": 0.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "Sedmý řádek ambrově — schopnost vymáhat je to, o čem je video. Šipka ENFORCED jako v S11.",
+      "diagram_generator": "isis",
+      "diagram": "Týž seznam, přibude sedmý řádek ambrově ABLE TO ENFORCE THEM."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Uznání je JINÁ položka než funkce: samostatný rámeček s křížkem vedle seznamu, seznam fajfek zůstává. Pause 0.6: S35 'But'.",
+      "diagram_generator": "isis",
+      "diagram": "Seznam ztlumeně, vedle rámeček INTERNATIONALLY RECOGNISED s křížkem. Štítek IT WASN'T.",
+      "pause": 0.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Zpět na šrafované území, uvnitř centrum s plným dosahem — ale JEN uvnitř plochy a jen v letech. Pause 0.6: S36 'And' je závěr bloku.",
+      "diagram_generator": "isis",
+      "diagram": "Šrafované území z S31 s ambrovým centrem a dosahem po své hranici. Štítek FOR A PERIOD OF TIME: STATE FUNCTIONS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Teze: papír (listina) vs. kontrola (páteř s dosahem). Podmínka, ne definice — proto PLUS, ne rovnítko.",
+      "diagram_generator": "isis",
+      "diagram": "Vlevo listina A PIECE OF PAPER, plus, vpravo páteř s plným dosahem CONTROL OF TERRITORY. Nadpis A STATE NEEDS BOTH.",
+      "pause": 2.8
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Myšlenkový experiment: páteř bez centra. Obrys zůstává, ambrové centrum je jen čárkovaný prázdný kroužek.",
+      "diagram_generator": "zmizi",
+      "diagram": "Páteř, na místě centra čárkovaný prázdný kroužek. Nadpis WHAT IF THE GOVERNMENT DISAPPEARED?"
+    },
+    {
+      "id": "S38",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S38.png",
+      "note": "První SDXL ve videu (~4:40). Atmosféra: všechno stojí, nic nechybí. Žádné postavy v popředí, žádné uniformy. Pause 0.5: S39 'And'. PŘIJATO 2026-10-01 podle funkce: tichá ulice, nic nechybí.",
+      "prompt": "quiet ordinary city street in early morning, apartment buildings, a bridge in the distance, parked cars, empty pavement, flat grey overcast sky, no sun, calm and still, nothing broken",
+      "pause": 0.4,
+      "seed": 124098029
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "DAY 1 jako list kalendáře; čtyři věci z S38 (people, buildings, roads, money) s fajfkou 'beze změny'. Ztlumená fajfka = 'zatím'.",
+      "diagram_generator": "zmizi",
+      "diagram": "Kalendářní list DAY 1. Vedle čtyři řádky PEOPLE, BUILDINGS, ROADS, MONEY, u každého ztlumeně fajfka. Štítek ALMOST NOTHING LOOKS DIFFERENT."
+    },
+    {
+      "id": "S40",
+      "source": "sdxl",
+      "effect": "pan_right",
+      "visual": "images/S40.png",
+      "note": "Běžné ráno, lidé malí a zezadu (kotva stylu). Rodič s dítětem kvůli 'send their children to school'. Pause 0.6: S41 'And then'. PŘIJATO 2026-10-01 podle funkce: obyčejné ráno, lidé zezadu, dítě; obchod z promptu chybí, funkci to nebere.",
+      "prompt": "people walking to work along a city pavement in the morning, a parent walking a small child with a school bag, a corner grocery shop with crates of fruit, figures small and seen from behind, flat grey overcast sky, no sun",
+      "pause": 0.6,
+      "seed": 1964902093
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Otázka v bublině nad postavou. Pause 0.4: S42 'Because' na ni přímo odpovídá.",
+      "diagram_generator": "zmizi",
+      "diagram": "Postava v ulici z S01 (tytéž domy), nad ní bublina “WAIT... WHO IS ARRESTING PEOPLE TODAY?”",
+      "pause": 0.4
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Předěl: páteř s čárkovaným centrem z S37, nadpis jako odpověď blíží se.",
+      "diagram_generator": "zmizi",
+      "diagram": "Páteř s prázdným čárkovaným centrem. Nadpis WHAT A STATE ACTUALLY IS."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Tři symboly s popiskem NOT JUST — nic se neškrtá, ikony plně. Scénář říká 'nejen', ne 'ne'; škrt by tvrdil opak.",
+      "diagram_generator": "zmizi",
+      "diagram": "Tři ikony PRESIDENT, PARLIAMENT, FLAG; pod každou NOT JUST. Nic přeškrtnuté."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Síť: mnoho propojených postav a institucí uvnitř páteře, centrum zase plné. Bublina = co síť umí říct.",
+      "diagram_generator": "zmizi",
+      "diagram": "Páteř vyplněná sítí uzlů (postavy a ikony institucí) spojených čarami. Nad ní bublina “THIS IS THE RULE.”",
+      "pause": 0.5
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "Dialog ve dvou bublinách: odmítnutí a odpověď. Druhá bublina ambrově, protože je to ta schopnost, o které je video. Konec bloku.",
+      "diagram_generator": "zmizi",
+      "diagram": "Postava vlevo s bublinou “I DON'T CARE.”, vpravo policista s ambrovou bublinou “THEN YOU'RE COMING WITH ME.”",
+      "pause": 2.6
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Paradox jako dvě protiběžné osy: úspěšnost státu nahoru, viditelnost síly dolů. Jen tvar vztahu, žádná data na osách.",
+      "diagram_generator": "paradox",
+      "diagram": "Dvě křivky: ambrová MORE SUCCESSFUL STATE stoupá, MUTED HOW MUCH WE NOTICE ITS FORCE klesá. Nadpis A STRANGE PARADOX."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "Lidé v páteři, nikdo je netlačí: žádné šipky na ně. Centrum je, dosah zatím nekreslený.",
+      "diagram_generator": "paradox",
+      "diagram": "Páteř s řadou postav, centrum ztlumené bez paprsků. Štítek VOLUNTARILY."
+    },
+    {
+      "id": "S48",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S48.png",
+      "note": "Druhá a poslední SDXL v bloku: semafor a lidé, kteří čekají, ačkoli nikdo nehlídá. Žádný policista v obraze — to je pointa. Pause 0.4: S49 pokračuje souvětím. PŘIJATO 2026-10-01 podle funkce: červená, lidé čekají, žádný policista.",
+      "prompt": "pedestrians waiting at a red traffic light at an empty city crossing, no cars coming, no police anywhere, figures small and seen from behind, flat grey overcast sky, no sun",
+      "pause": 0.4,
+      "seed": 734717980
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Kontrafaktuál: policista za každým — kreslený ČÁRKOVANĚ a přeškrtnutý jako celek. Pause 0.3: S50 'But because' je druhá půlka téže věty.",
+      "diagram_generator": "paradox",
+      "diagram": "Řada postav, za každou čárkovaná postava policisty; celá řada přeškrtnutá. Štítek NOT A POLICE OFFICER BEHIND EVERYONE.",
+      "pause": 0.3
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "VÝPLATA PÁTEŘE: dosah z S07 na týchž souřadnicích, ale ČÁRKOVANÝ = schopnost, ne použitá síla. Hranice 'certain lines' jako čára v území. Pause 0.6.",
+      "diagram_generator": "paradox",
+      "diagram": "Páteř s ambrovým centrem a ČÁRKOVANÝMI paprsky dosahu. Uvnitř tenká čára CERTAIN LINES, postavy před ní. Štítek THE STATE CAN INTERVENE.",
+      "pause": 0.6
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "note": "Srovnání S07 (plné paprsky) a S50 (čárkované) vedle sebe, obě na shodném měřítku. Pointa videa; delší pauza před závěrem.",
+      "diagram_generator": "paradox",
+      "diagram": "Dvě zmenšené páteře: vlevo ztlumeně plný dosah FORCE USED, vpravo ambrově čárkovaný ABILITY TO USE FORCE. Nadpis WHY IT USUALLY DOESN'T HAVE TO.",
+      "pause": 3.0
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "BEATY S52–S52f (uživatel po poslechu draftu: výčet se četl moc rychle). V jedné scéně Kokoro výčet slil a pauzy nešly vložit (u řezu zněla řeč), proto ROZDĚLENÍ: scene pause se přidává, nevkládá řezem. Jeden obraz, v každém beatu přibude jen jedna ikona na místech z S03 (atributy()).",
+      "diagram_generator": "zaver",
+      "diagram": "Páteř se ztlumeným dosahem, kolem zatím nic. Nadpis WHAT MAKES A STATE A STATE?",
+      "pause": 0.5
+    },
+    {
+      "id": "S52b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52b.png",
+      "note": "Beat výčtu (A flag?). Návětí (oznamovací věta, ne předchozí otázky — ty Kokoro slil s první otázkou scény a nechal jen 30–50 ms ticha, takže se návětí vypnulo) kvůli krátké samostatné promluvě (CLAUDE.md, 'naveti'); řeže se v tichu před prvním slovem, nikdy nezazní. Pauza 0.45 s — za Elections delší, aby Perhaps nenavázalo hned (uživatel).",
+      "diagram_generator": "zaver",
+      "diagram": "Obraz S52, přibude FLAG.",
+      "naveti": "That is the list most people would start with.",
+      "pause": 0.45
+    },
+    {
+      "id": "S52c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52c.png",
+      "note": "Beat výčtu (A constitution?). Návětí (oznamovací věta, ne předchozí otázky — ty Kokoro slil s první otázkou scény a nechal jen 30–50 ms ticha, takže se návětí vypnulo) kvůli krátké samostatné promluvě (CLAUDE.md, 'naveti'); řeže se v tichu před prvním slovem, nikdy nezazní. Pauza 0.45 s — za Elections delší, aby Perhaps nenavázalo hned (uživatel).",
+      "diagram_generator": "zaver",
+      "diagram": "Obraz S52, přibude CONSTITUTION.",
+      "naveti": "That is the list most people would start with.",
+      "pause": 0.45
+    },
+    {
+      "id": "S52d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52d.png",
+      "note": "Beat výčtu (Borders?). Návětí (oznamovací věta, ne předchozí otázky — ty Kokoro slil s první otázkou scény a nechal jen 30–50 ms ticha, takže se návětí vypnulo) kvůli krátké samostatné promluvě (CLAUDE.md, 'naveti'); řeže se v tichu před prvním slovem, nikdy nezazní. Pauza 0.45 s — za Elections delší, aby Perhaps nenavázalo hned (uživatel).",
+      "diagram_generator": "zaver",
+      "diagram": "Obraz S52, přibude BORDERS.",
+      "naveti": "That is the list most people would start with.",
+      "pause": 0.45
+    },
+    {
+      "id": "S52e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52e.png",
+      "note": "Beat výčtu (Elections?). Návětí (oznamovací věta, ne předchozí otázky — ty Kokoro slil s první otázkou scény a nechal jen 30–50 ms ticha, takže se návětí vypnulo) kvůli krátké samostatné promluvě (CLAUDE.md, 'naveti'); řeže se v tichu před prvním slovem, nikdy nezazní. Pauza 0.85 s — za Elections delší, aby Perhaps nenavázalo hned (uživatel).",
+      "diagram_generator": "zaver",
+      "diagram": "Obraz S52, přibude ELECTIONS.",
+      "naveti": "That is the list most people would start with.",
+      "pause": 0.85
+    },
+    {
+      "id": "S52f",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52f.png",
+      "note": "Beat výčtu (Perhaps.). Návětí (oznamovací věta, ne předchozí otázky — ty Kokoro slil s první otázkou scény a nechal jen 30–50 ms ticha, takže se návětí vypnulo) kvůli krátké samostatné promluvě (CLAUDE.md, 'naveti'); řeže se v tichu před prvním slovem, nikdy nezazní. Pauza 1.0 s — za Elections delší, aby Perhaps nenavázalo hned (uživatel).",
+      "diagram_generator": "zaver",
+      "diagram": "Obraz S52, přibude PERHAPS.",
+      "naveti": "That is the list most people would start with.",
+      "pause": 1.0
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Dosah se stahuje od hranice, u okrajů přibývají centra (opakování S16, ale ve zkratce).",
+      "diagram_generator": "zaver",
+      "diagram": "Páteř, ambrový dosah nedosahuje k hranici, na okrajích vznikající centra. Štítek SOMETHING ELSE EMERGES."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Táž centra a tatáž jména jako S20, na týchž místech, aby se poznal rým. Pause 0.5: S55 'And'.",
+      "diagram_generator": "zaver",
+      "diagram": "Páteř s centry, štítky PARALLEL POWER, MILITIAS, WARLORDS, CRIMINAL ORGANISATIONS, COMPETING AUTHORITIES.",
+      "pause": 0.4
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Jedno z center dostane vlastní ČÁRKOVANÝ obrys (možnost, 'perhaps'), ne plný.",
+      "diagram_generator": "zaver",
+      "diagram": "Jedno okrajové centrum s vlastním čárkovaným obrysem uvnitř páteře. Štítek A NEW STATE?",
+      "pause": 1.0
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Dva nároky na totéž území: dvě centra, obě se šipkou nároku na jednu plochu. Pause 0.4: S57 'It's:' dokončuje větu.",
+      "diagram_generator": "zaver",
+      "diagram": "Jedno území, dvě centra, každé s listinou LEGAL RIGHT TO RULE? Šipky obou míří na totéž území.",
+      "pause": 0.4
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Odpověď videa: rozhoduje dosah, ne listina. Listiny ztlumené, ambrová otázka.",
+      "diagram_generator": "zaver",
+      "diagram": "Týž obraz, listiny ztlumené. Nadpis WHO CAN ACTUALLY ENFORCE THE RULES?",
+      "pause": 2.6
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "CALLBACK S01: tytéž domy, policista a přetržená spojnice na shodných souřadnicích (ULICE_XY), čárkovaná spojnice z S02. S58 ještě neleží v okně posledních 20 s, takže zůstává jako S01: rým má přednost.",
+      "diagram_generator": "uvod",
+      "diagram": "Obraz S01 1:1, čárkovaná spojnice z S02 k otazníku. Nadpis WHO IS IN CHARGE?",
+      "pause": 1.0
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "ZÁVĚREČNÁ OBRAZOVKA začíná tady (posl. 20 s = S59–S61): horní polovina VOLNÁ. Dvě odpovědi pod sebou v dolní polovině nad pásem titulku.",
+      "diagram_generator": "zaver",
+      "diagram": "Dolní polovina: ztlumeně THE OBVIOUS ANSWER: THE GOVERNMENT, pod tím ambrově THE DEEPER ANSWER: WHOEVER CAN ENFORCE ITS AUTHORITY. Horní polovina prázdná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Závěrečná obrazovka: horní polovina VOLNÁ. Páteř zmenšená do dolní poloviny — jediné místo, kde se smí pohnout (závěrečná deska).",
+      "diagram_generator": "zaver",
+      "diagram": "Zmenšená páteř s plným ambrovým dosahem v dolní polovině. Nadpis WHO HAS THE FINAL SAY?",
+      "pause": 0.6
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "MOST NA 020 (dlaždice na závěrečné obrazovce): několik zmenšených páteří vedle sebe v dolní polovině, nad nimi NIC — rým s 020 (vodorovná čára a prázdno nad ní). Horní polovina volná pro dlaždici a kolečko odběru.",
+      "diagram_generator": "zaver",
+      "diagram": "Dole řada pěti malých území, každé s vlastním ambrovým centrem (INSIDE A COUNTRY: THE STATE). Nad nimi tenká vodorovná čára a prázdný prostor, ztlumený čárkovaný otazník v rohu nesmí vadit dlaždici. Nadpis OVER THE STATES THEMSELVES?",
+      "pause": 1.0
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "visual": "images/S61.png",
+      "effect": "static",
+      "note": "Odkaz na 020 (uživatel po poslechu draftu). Dědí obraz S61 — horní polovina zůstává volná pro dlaždici 020. 'Right here' = dlaždice závěrečné obrazovky, MUSÍ tam být 020 (ruční krok ve Studiu)."
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+1
+00:00:01,820 --> 00:00:02,300
+948.
+
+2
+00:00:02,530 --> 00:00:04,820
+That's how many separate ways an AI found
+
+3
+00:00:05,050 --> 00:00:07,580
+to take over a Linux
+computer from the inside.
+
+4
+00:00:08,418 --> 00:00:09,938
+No stolen password.
+
+5
+00:00:10,538 --> 00:00:12,078
+No remote break-in.
+
+6
+00:00:12,278 --> 00:00:15,698
+Each one starts with an ordinary user
+who has no special rights,
+
+7
+00:00:15,928 --> 00:00:19,018
+and ends with root,
+the account that can do anything.
+
+8
+00:00:19,695 --> 00:00:23,635
+OpenAI published the result
+in November 2026.
+
+9
+00:00:24,335 --> 00:00:28,375
+The whole run cost
+$1.2 million in API credits.
+
+10
+00:00:29,137 --> 00:00:32,997
+These are OpenAI's own numbers,
+published the day before it launched
+
+11
+00:00:33,227 --> 00:00:37,917
+the model that produced them, and nobody
+outside has confirmed the full count.
+
+12
+00:00:38,637 --> 00:00:42,177
+But hundreds of reports and patches
+have already gone out.
+
+13
+00:00:42,761 --> 00:00:44,901
+Here's why this matters beyond Linux.
+
+14
+00:00:45,781 --> 00:00:49,581
+The Linux source code is public.
+Anyone can read it.
+
+15
+00:00:50,101 --> 00:00:53,041
+For decades, that was the argument
+for why it's safe.
+
+16
+00:00:53,443 --> 00:00:55,163
+So if a machine can read public code
+
+17
+00:00:55,393 --> 00:00:58,223
+and turn it into working
+exploits at this scale,
+
+18
+00:00:58,383 --> 00:01:01,243
+should software keep
+its code secret after all?
+
+19
+00:01:02,352 --> 00:01:04,652
+Let's look at software that already does.
+
+20
+00:01:05,532 --> 00:01:12,292
+In April 2026, Microsoft fixed 164
+security flaws on its monthly patch day.
+
+21
+00:01:12,812 --> 00:01:14,812
+In October, it fixed 1,413.
+
+22
+00:01:17,151 --> 00:01:21,191
+In that single month, it fixed more
+than in any whole year before it.
+
+23
+00:01:21,651 --> 00:01:25,811
+Over 1,000 of those fixes were in Windows,
+and Microsoft had warned
+
+24
+00:01:26,041 --> 00:01:28,771
+that its own AI tools
+would drive the surge.
+
+25
+00:01:29,473 --> 00:01:31,973
+You can't compare
+the two numbers directly.
+
+26
+00:01:32,573 --> 00:01:37,173
+Companies count differently, and Microsoft
+was searching its own private code.
+
+27
+00:01:37,527 --> 00:01:39,247
+But it does show one thing.
+
+28
+00:01:39,647 --> 00:01:42,487
+Keeping the code private
+had not kept the bugs out.
+
+29
+00:01:44,767 --> 00:01:46,687
+So what actually protects you?
+
+30
+00:01:47,367 --> 00:01:50,207
+To answer that,
+we need to see how this machine works,
+
+31
+00:01:50,287 --> 00:01:52,807
+because every step
+of it throws something away.
+
+32
+00:01:53,462 --> 00:01:56,822
+The Linux kernel has
+more than 40 million lines of code.
+
+33
+00:01:57,742 --> 00:02:01,122
+First, scout agents went through it
+and picked out the parts
+
+34
+00:02:01,352 --> 00:02:03,602
+an ordinary user can actually reach.
+
+35
+00:02:04,012 --> 00:02:06,352
+That left about 7%.
+
+36
+00:02:06,732 --> 00:02:09,132
+It's the part they judged worth attacking,
+
+37
+00:02:09,212 --> 00:02:13,152
+not a random sample,
+so you can't multiply the result by 14.
+
+38
+00:02:13,859 --> 00:02:18,019
+Next, analyst agents went through that
+code and listed everything suspicious.
+
+39
+00:02:18,249 --> 00:02:22,839
+2,308 candidates, in 12 hours.
+
+40
+00:02:23,172 --> 00:02:25,132
+But a suspicion proves nothing.
+
+41
+00:02:25,832 --> 00:02:30,012
+So other agents wrote test programs
+and ran them on isolated virtual machines.
+
+42
+00:02:30,242 --> 00:02:35,312
+1,724 bugs turned out to be real.
+
+43
+00:02:35,723 --> 00:02:39,423
+Then came the expensive part:
+building working exploits,
+
+44
+00:02:39,503 --> 00:02:42,763
+with the standard protections
+of a normal desktop system switched on.
+
+45
+00:02:42,993 --> 00:02:47,243
+1,169 reached root.
+
+46
+00:02:47,874 --> 00:02:52,654
+Group those by the underlying flaw,
+and you get the 948.
+
+47
+00:02:53,703 --> 00:02:56,863
+There's one detail in the report
+that's hard to forget.
+
+48
+00:02:57,663 --> 00:03:00,983
+In an early run,
+the agents reported 200 successes.
+
+49
+00:03:01,883 --> 00:03:04,303
+Then humans checked
+how they had got there.
+
+50
+00:03:04,811 --> 00:03:08,171
+Twenty of them had reached root
+through a different unknown bug,
+
+51
+00:03:08,251 --> 00:03:10,691
+not the one they had been told to use.
+
+52
+00:03:11,111 --> 00:03:15,171
+Sent to open one door,
+they found another that nobody knew about.
+
+53
+00:03:15,832 --> 00:03:20,972
+In a sample of its exploits, OpenAI
+identified ten exploitation techniques
+
+54
+00:03:21,202 --> 00:03:23,812
+that outside experts hadn't seen before.
+
+55
+00:03:24,440 --> 00:03:28,950
+In July, an earlier model
+found 166 of these flaws.
+
+56
+00:03:29,260 --> 00:03:33,460
+Three months of fixes later,
+the newer model found 948.
+
+57
+00:03:33,540 --> 00:03:35,540
+The bugs hadn't run out.
+
+58
+00:03:36,060 --> 00:03:38,040
+The later run found far more.
+
+59
+00:03:40,330 --> 00:03:42,430
+Now, there's an important limit.
+
+60
+00:03:43,090 --> 00:03:46,050
+None of this breaks into your computer
+over the internet.
+
+61
+00:03:46,710 --> 00:03:50,810
+The attacker already has
+to be on the machine, as an ordinary user.
+
+62
+00:03:51,417 --> 00:03:52,777
+That's less comforting than it sounds,
+
+63
+00:03:53,007 --> 00:03:55,957
+because real attacks
+often come in two steps.
+
+64
+00:03:56,417 --> 00:04:00,237
+First you get in, through a browser
+flaw or a malicious download.
+
+65
+00:04:00,897 --> 00:04:04,597
+Then you need root.
+This is the second step.
+
+66
+00:04:05,172 --> 00:04:07,512
+OpenAI's advice is blunt.
+
+67
+00:04:08,152 --> 00:04:12,692
+On a system without the latest patches,
+treat any ordinary account as root,
+
+68
+00:04:12,772 --> 00:04:14,952
+at least against a well-funded attacker.
+
+69
+00:04:17,522 --> 00:04:20,642
+So where does that leave
+the old argument for open code?
+
+70
+00:04:21,342 --> 00:04:24,582
+In the late nineties,
+Eric Raymond gave it a slogan:
+
+71
+00:04:24,922 --> 00:04:27,362
+"Given enough eyeballs,
+all bugs are shallow."
+
+72
+00:04:28,031 --> 00:04:29,711
+He called it Linus's Law.
+
+73
+00:04:30,051 --> 00:04:33,411
+It's a lovely idea,
+with one assumption inside it:
+
+74
+00:04:33,491 --> 00:04:35,531
+that somebody is actually looking.
+
+75
+00:04:36,150 --> 00:04:40,370
+In 2014, a bug called Heartbleed
+turned up in OpenSSL,
+
+76
+00:04:40,850 --> 00:04:43,590
+the code that protected
+a huge share of the web.
+
+77
+00:04:44,610 --> 00:04:47,970
+About half a million secure servers
+were thought to be exposed.
+
+78
+00:04:48,813 --> 00:04:51,833
+The bug had sat in public
+code for two years.
+
+79
+00:04:52,433 --> 00:04:55,513
+The project was getting
+about $2,000 a year in donations,
+
+80
+00:04:55,743 --> 00:04:58,533
+and had one full-time developer.
+
+81
+00:04:59,279 --> 00:05:00,939
+Anyone could read it.
+
+82
+00:05:01,199 --> 00:05:02,759
+Hardly anyone did.
+
+83
+00:05:03,652 --> 00:05:06,452
+That was always the real
+weakness of open source.
+
+84
+00:05:07,192 --> 00:05:10,232
+Not too many eyes on the code. Too few.
+
+85
+00:05:10,556 --> 00:05:12,616
+And that's the part AI changes.
+
+86
+00:05:13,456 --> 00:05:16,636
+A machine can keep scanning,
+and investigate far more candidates
+
+87
+00:05:16,866 --> 00:05:19,436
+than a human researcher
+could handle alone.
+
+88
+00:05:20,296 --> 00:05:24,616
+The old promise is finally being kept,
+for everybody, attackers included.
+
+89
+00:05:27,156 --> 00:05:30,196
+So public code really
+does get examined now.
+
+90
+00:05:30,876 --> 00:05:32,156
+Does hiding it help?
+
+91
+00:05:32,801 --> 00:05:35,081
+A closed program still has to run,
+
+92
+00:05:35,161 --> 00:05:38,761
+so its machine code sits
+on every computer that uses it.
+
+93
+00:05:39,181 --> 00:05:43,041
+Tools like Ghidra turn that back
+into something like source code.
+
+94
+00:05:43,372 --> 00:05:44,932
+And there's a classic trick.
+
+95
+00:05:45,732 --> 00:05:48,712
+Compare a program
+before and after a security update.
+
+96
+00:05:49,392 --> 00:05:52,032
+Whatever changed shows
+you where the hole was.
+
+97
+00:05:52,409 --> 00:05:54,669
+That tells attackers where to aim,
+
+98
+00:05:54,749 --> 00:05:57,749
+well before every system
+has installed the update.
+
+99
+00:05:58,479 --> 00:06:01,719
+Anthropic tried this on the Windows
+kernel, with 21 flaws
+
+100
+00:06:01,799 --> 00:06:05,199
+Microsoft had recently patched,
+and no source code.
+
+101
+00:06:06,039 --> 00:06:08,919
+The AI's first crash came in 31 minutes.
+
+102
+00:06:09,599 --> 00:06:11,799
+It had 18 within six hours.
+
+103
+00:06:12,445 --> 00:06:15,185
+Eight became working exploits
+capable of taking full
+
+104
+00:06:15,415 --> 00:06:19,285
+control of the machine,
+at roughly $2,000 each.
+
+105
+00:06:19,729 --> 00:06:21,849
+But these weren't unknown bugs.
+
+106
+00:06:22,429 --> 00:06:25,209
+The patches already pointed
+to where the problems were.
+
+107
+00:06:25,789 --> 00:06:28,309
+Finding a new flaw from scratch is harder.
+
+108
+00:06:28,639 --> 00:06:31,219
+So secrecy still costs
+an attacker something.
+
+109
+00:06:32,019 --> 00:06:35,719
+It's a speed bump, not a wall.
+How high is the bump?
+
+110
+00:06:36,039 --> 00:06:37,639
+There's no public number.
+
+111
+00:06:39,949 --> 00:06:41,529
+What about the other side?
+
+112
+00:06:42,109 --> 00:06:44,329
+What does being open actually buy you?
+
+113
+00:06:44,949 --> 00:06:48,529
+The answer is in a small detail
+of OpenAI's report.
+
+114
+00:06:49,329 --> 00:06:51,829
+During the ten days
+of that scan and analysis,
+
+115
+00:06:52,109 --> 00:06:56,989
+over 100 of these Linux flaws were fixed,
+or about to be, by other people.
+
+116
+00:06:57,529 --> 00:07:01,409
+About 300 more
+were already being discussed in public.
+
+117
+00:07:02,120 --> 00:07:05,400
+Other people were finding the same bugs
+at the same time.
+
+118
+00:07:06,349 --> 00:07:09,129
+Linus Torvalds had
+described this back in May.
+
+119
+00:07:10,089 --> 00:07:13,289
+He said AI reports had made
+the kernel's security mailing list
+
+120
+00:07:13,519 --> 00:07:17,709
+"almost entirely unmanageable",
+because different people kept finding
+
+121
+00:07:17,939 --> 00:07:20,029
+the same things with the same tools.
+
+122
+00:07:20,462 --> 00:07:24,462
+And his advice was this:
+"If you found a bug using AI tools,
+
+123
+00:07:24,542 --> 00:07:26,982
+the chances are somebody
+else found it too."
+
+124
+00:07:27,555 --> 00:07:29,995
+The kernel's rules now say it outright.
+
+125
+00:07:30,935 --> 00:07:35,115
+A bug found with AI must be treated
+as public, because these bugs surface
+
+126
+00:07:35,345 --> 00:07:38,755
+across several researchers,
+often on the same day.
+
+127
+00:07:39,344 --> 00:07:42,604
+Think about what that does
+to the idea of a secret bug.
+
+128
+00:07:43,344 --> 00:07:46,484
+If it was cheap for you to find,
+it was cheap for everyone.
+
+129
+00:07:47,143 --> 00:07:50,063
+With open source,
+anyone can inspect the report,
+
+130
+00:07:50,143 --> 00:07:52,843
+verify the fix, and challenge the result.
+
+131
+00:07:53,643 --> 00:07:56,643
+With closed software,
+you mostly have to trust the vendor.
+
+132
+00:07:59,363 --> 00:08:02,703
+But openness has a bill,
+and it isn't the one you'd expect.
+
+133
+00:08:03,343 --> 00:08:06,983
+It's tempting to say
+a small project can't afford the scanning.
+
+134
+00:08:07,723 --> 00:08:11,363
+AI companies are already
+offering maintainers free access.
+
+135
+00:08:12,114 --> 00:08:13,554
+What's short is people.
+
+136
+00:08:14,254 --> 00:08:18,154
+The kernel used to log
+about 500 security issues per release.
+
+137
+00:08:18,974 --> 00:08:20,714
+This year it passed 1,500.
+
+138
+00:08:21,654 --> 00:08:24,794
+Many are minor,
+but somebody still has to go through them.
+
+139
+00:08:25,293 --> 00:08:28,393
+In January, the curl project
+ended its paid bug bounty,
+
+140
+00:08:28,623 --> 00:08:31,553
+to stop rewarding a flood of junk reports.
+
+141
+00:08:32,408 --> 00:08:34,588
+Even good reports only
+move the work along.
+
+142
+00:08:34,818 --> 00:08:39,248
+AI-generated patches
+still need human review.
+
+143
+00:08:39,888 --> 00:08:45,028
+Some early fixes added unnecessary code
+or missed other versions of the same bug.
+
+144
+00:08:45,628 --> 00:08:47,188
+You can buy more scanning.
+
+145
+00:08:47,848 --> 00:08:51,408
+You can't buy more people
+who understand a piece of code that well.
+
+146
+00:08:51,928 --> 00:08:56,068
+Here, a company with a paid security team
+really does have an edge.
+
+147
+00:08:58,628 --> 00:09:00,568
+And then comes the last problem.
+
+148
+00:09:01,188 --> 00:09:03,288
+Fixed is not the same as installed.
+
+149
+00:09:04,059 --> 00:09:07,759
+In March 2017,
+Microsoft patched a flaw in Windows.
+
+150
+00:09:08,579 --> 00:09:11,779
+Closed source, one vendor,
+one update system.
+
+151
+00:09:12,479 --> 00:09:15,599
+Two months later,
+WannaCry went through that same hole,
+
+152
+00:09:15,829 --> 00:09:20,319
+into some 200,000 computers
+in about 150 countries.
+
+153
+00:09:20,755 --> 00:09:24,195
+That patch had two months to spread,
+and it wasn't enough.
+
+154
+00:09:24,755 --> 00:09:27,395
+An attacker may no longer
+leave you two months.
+
+155
+00:09:28,075 --> 00:09:31,415
+In the same Anthropic study,
+the AI took a public fix
+
+156
+00:09:31,645 --> 00:09:36,755
+for Firefox's JavaScript engine, and had
+a working exploit in under an hour.
+
+157
+00:09:37,303 --> 00:09:40,683
+The fixed version of Firefox
+was still 18 days away.
+
+158
+00:09:41,525 --> 00:09:44,005
+This is the danger of publishing a fix.
+
+159
+00:09:44,765 --> 00:09:48,565
+The information can reach attackers
+before the update reaches you.
+
+160
+00:09:49,089 --> 00:09:51,049
+A Linux fix has a long way to travel,
+
+161
+00:09:51,279 --> 00:09:55,649
+from the kernel to a stable release,
+to your distribution, to your device.
+
+162
+00:09:56,609 --> 00:09:58,929
+A phone may wait months, or forever.
+
+163
+00:09:59,234 --> 00:10:01,734
+And closed software doesn't escape this.
+
+164
+00:10:02,434 --> 00:10:05,054
+We just saw it:
+the Windows patch was enough.
+
+165
+00:10:05,914 --> 00:10:07,894
+Every update is now also a map.
+
+166
+00:10:08,793 --> 00:10:11,973
+So keep everything up to date,
+your computer, your phone,
+
+167
+00:10:12,053 --> 00:10:15,533
+even your router, and install
+updates as soon as they arrive.
+
+168
+00:10:16,573 --> 00:10:19,053
+As AI gets better at turning
+fixes into attacks,
+
+169
+00:10:19,283 --> 00:10:21,693
+every day you wait will matter more.
+
+170
+00:10:24,593 --> 00:10:29,193
+So, is open source still safer?
+Honestly, nobody knows.
+
+171
+00:10:29,993 --> 00:10:32,373
+As far as is publicly known,
+no one has run
+
+172
+00:10:32,603 --> 00:10:35,333
+the same test on both sides,
+under the same rules.
+
+173
+00:10:36,042 --> 00:10:37,402
+What we can say is more modest.
+
+174
+00:10:37,612 --> 00:10:41,142
+Hiding code buys less than it used to.
+
+175
+00:10:41,222 --> 00:10:43,622
+Showing it lets anyone check the work,
+
+176
+00:10:43,852 --> 00:10:47,562
+and hands a bigger pile of that work
+to the people who maintain it.
+
+177
+00:10:48,689 --> 00:10:51,329
+Even if AI never finds every bug,
+
+178
+00:10:51,409 --> 00:10:54,429
+it has already changed
+the economics of finding them.
+
+179
+00:10:55,150 --> 00:10:57,550
+What matters now is how
+long a hole stays open
+
+180
+00:10:57,780 --> 00:10:59,350
+between the moment somebody finds it
+
+181
+00:10:59,580 --> 00:11:02,170
+and the moment it's closed
+on your machine.
+
+182
+00:11:05,480 --> 00:11:07,320
+So here's a question for you.
+
+183
+00:11:07,580 --> 00:11:10,620
+If any bug can be found by anyone,
+would you rather trust
+
+184
+00:11:10,850 --> 00:11:14,240
+code you can read,
+or a company that's paid to fix it?
+
+185
+00:11:14,980 --> 00:11:16,270
+Let me know in the comments.

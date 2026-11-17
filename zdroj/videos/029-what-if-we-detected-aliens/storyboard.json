@@ -1,0 +1,808 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "note": "PÁTEŘ SE ZAVÁDÍ TADY a do konce videa se nesmí hnout ze souřadnic. Kreslí ji výhradně _kit.stopa(). Prázdno kolem je záměr — scéna říká jen „něco je tam“.",
+      "diagram_generator": "detekce",
+      "diagram": "Páteř: vodorovný pruh STOPY přes celý obraz, uvnitř plochá linka a v pravé třetině jediný nepravidelný útvar. Nic dalšího."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "note": "FACTCHECK: nesmí naznačit, že se pulsar opravdu pokládal za mimozemský signál — LGM-1 bylo žertovné označení. Scéna říká jen „tohle to není“. Použij text_skrtnuty(), ne skrt_text() — ta kreslí jen čáru.",
+      "diagram_generator": "detekce",
+      "diagram": "Táž stopa, nad ní tři přeškrtnuté nápisy PULSAR / QUASAR / NATURAL SOURCE. Škrt vodorovnou čarou, ne křížkem."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "Rozdíl musí být čitelný bez popisku — scéna tvrdí „mění se to“, takže se to musí dát porovnat okem. Ambrová = „o tomhle je řeč“, ne „dobré“.",
+      "diagram_generator": "detekce",
+      "diagram": "Stopa ve dvou časech pod sebou: nahoře jeden úsek, dole tentýž úsek později a útvar je jiný. Ambrová jen na tom, co se změnilo."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "note": "Beat 1,0 s. NAVETI je povinné: podle CLAUDE.md u promluvy kolem sekundy obětovaná věta selže a jen tiše varuje. Ověřit whisperem, ne existencí souboru.",
+      "diagram_generator": "detekce",
+      "diagram": "Stopa, útvar ambrově, nad ním jediné slovo MADE. Nic víc.",
+      "pause": 2.4,
+      "naveti": "And there is only one conclusion."
+    },
+    {
+      "id": "S05",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S05.png",
+      "note": "Jediná atmosférická scéna první třetiny. Zoom OUT, protože se svět rozšiřuje. PRVNÍ KOLO ZAMÍTNUTO: model vrátil denní horské údolí bez hvězd a bez toho vzdáleného bodu, takže scéna nenesla „somewhere out there\". Druhé kolo žádá noční oblohu výslovně a přidává „very dark low-key\". Negativ v project.json zakazuje talíře a mimozemšťany — u tohohle tématu je to hlavní pojistka.",
+      "prompt": "a vast dark night sky crowded with faint stars above a low black ridge, one single pale point of light near the horizon slightly brighter than the rest, very dark low-key, deep shadow, no sun, no text",
+      "seed": 90201
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "note": "Pant videa. Obraz se vyprazdňuje, aby S07 mohla nést jen otázku.",
+      "diagram_generator": "detekce",
+      "diagram": "Stopa ustupuje k hornímu okraji, pod ní prázdno a jediný otazník na ose obrazu."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "note": "Nejsilnější brána videa. Žádná ilustrace, jen věta — cokoli dalšího by ji zeslabilo.",
+      "diagram_generator": "detekce",
+      "diagram": "Ústřední otázka videa vysázená velkým písmem přes střed, stopa slabě u horního okraje.",
+      "pause": 2.6
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "ZAVEDENÍ ČTYŘKROKOVÉ KOSTRY (kroky() v _kit.py). Objevuje se jen ve čtyřech scénách — S08, S14, S22, S25 — a vždy na týchž souřadnicích. Je to odpověď na zpětnou vazbu 0.3: odklad ústřední otázky musí být PŘIZNANÝ, ne skrytý.",
+      "diagram_generator": "hledani",
+      "diagram": "Čtyřpolová kostra videa: FIND THEM / DISTANCE / WHAT THEY SAY / WHAT ANYTHING MEANS. Svítí první pole."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "note": "Scéna tvrdí „radio je jedna možnost, ne definice“. Velikost tady nese tvrzení, takže rám MUSÍ být výrazně větší než kruh — jinak obraz říká opak.",
+      "diagram_generator": "hledani",
+      "diagram": "Kruh RADIO vlevo, vedle něj mnohem širší prázdný rám s otazníkem. Šipka od radia ven z něj."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "note": "Páteř se tu poprvé odhalí jako spektrum — je to týž pruh na týchž souřadnicích, ne nový tvar. Pořadí pásem podle vlnové délky, ne podle pořadí ve scénáři.",
+      "diagram_generator": "hledani",
+      "diagram": "Stopa použitá jako spektrum: pruh rozdělený na RADIO / MICROWAVE / INFRARED / OPTICAL, každé pásmo popsané."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Transmisní spektroskopie. Paprsek musí procházet ATMOSFÉROU, ne planetou — jinak obraz tvrdí jiný jev, než scéna popisuje.",
+      "diagram_generator": "hledani",
+      "diagram": "Hvězda vlevo, planeta vpravo, mezi nimi paprsek procházející atmosférou planety a končící ve stopě."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "PŮVODNĚ ARCHIV, ZAMÍTNUTO PODLE KONTAKTNÍHO LISTU: Commons na tenhle obraz snímek nemá. „Fraunhofer lines solar spectrum“ vrátilo TABULKU označení a vlnových délek, „Eclipse Fraunhofer lines“ je EMISNÍ spektrum (factcheck žádá absorpční) a tři další dotazy nevrátily nic. Je to táž hranice, jakou CLAUDE.md popisuje u ocelové tyče. Kresba je tu navíc lepší: scéna má DVĚ tvrzení (chybějící barvy = pohlcené molekuly, a průmyslové plyny jako stopa technologie) a fotka unese jen první. Zároveň drží páteř — absorpční spektrum JE pruh, takže se kreslí do stopy. FACTCHECK: tmavé čáry ve spojitém pásu, NE barevné čáry na černé.",
+      "diagram_generator": "hledani",
+      "diagram": "Stopa jako spojité spektrum, v něm tmavé absorpční čáry na skutečných vlnových délkách (Ca II 393,3 a 396,8; CH+Fe 430,8; Hβ 486,1; Mg 516,8–518,3; Fe 527,0; Na D 589,0 a 589,6; Hα 656,3 nm). Jedna čára navíc ambrově s popiskem INDUSTRIAL."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "note": "Pointa bloku: vidíme dopad technologie, ne původce. Silueta se škrtá vodorovnou čarou — křížek přes postavu by se četl jako „zanikli“, a to scéna netvrdí.",
+      "diagram_generator": "hledani",
+      "diagram": "Planeta s ambrovým nádechem atmosféry; na povrchu nic. Vedle přeškrtnutá silueta postavy.",
+      "pause": 2.2
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "FACTCHECK: 500 ly je 0,57 % z 87 400 ly (D25). Poměr se v kódu SPOČÍTÁ a zajistí assertem, ne odhadne — jinak obraz tvrdí jiné číslo než hlas.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Kostra, svítí druhé pole. Pod ní úsečka 500 ly proti měřítku disku Galaxie s uvedeným průměrem."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "Osa musí začínat u NICH, ne u nás — první úsek je signál, který už letěl. Kdyby začínala u nás, chybí celá první porce zpoždění.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Vodorovná časová osa se třemi úseky po 500 letech: jejich signál k nám, naše odpověď, jejich reakce."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "note": "Nejtvrdší číslo videa. Promluva 2,4 s s pauzou 2,8 — po TTS ověřit whisperem, jestli obětovaná věta našla kde uříznout.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Táž osa, jen sečtená: ONE QUESTION / ONE ANSWER a pod tím 1 000 YEARS velkým písmem.",
+      "pause": 2.8
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "FACTCHECK: třetí řádek NESMÍ nést popisek „tens of thousands“ u šipky přes celou Galaxii — protilehlý okraj disku je ~175 000 let tam a zpět. Buď konkrétní vzdálenosti, nebo otevřený konec bez čísla.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Tři řádky téže osy pod sebou: 500 ly, 1 000 ly a „across the Galaxy“ s otevřeným koncem."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "note": "Rozdíl konverzace/korespondence je celý obsah scény, takže musí být v obraze, ne jen v popisku.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Dvě značky, mezi nimi místo obousměrné šipky jediná dlouhá čára s nápisem CORRESPONDENCE; přeškrtnutý nápis CONVERSATION."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "note": "Konvence plná/čárkovaná = doloženo/hypotéza. Scéna říká „might“, takže plná čára by tvrdila, že zanikli.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Vzdálená značka nakreslená ČÁRKOVANĚ, u ní dvě možnosti: GONE a CHANGED, obě čárkovaně."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "note": "Škrt přes NÁPIS je vodorovná čára, ne křížek — pod křížkem se nápis nepřečte a scéna, ve které divák nepřečte, co se škrtá, netvrdí nic.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Bublina s LET'S CALL THEM, přeškrtnutá vodorovnou čarou."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "note": "Páteř se vrací potřetí. FACTCHECK: má oporu v IAA protokolu, který žádá zaznamenat všechno a uložit nejméně ve dvou úložištích — to se rozvine až v S62, tady je zárodek.",
+      "diagram_generator": "vzdalenost",
+      "diagram": "Stopa se vpisuje do zásobníku: šipka od pruhu dolů do bloku ARCHIVE, nad tím RECORD EVERYTHING.",
+      "pause": 2.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Třetí krok kostry. Souřadnice shodné s S08.",
+      "diagram_generator": "struktura",
+      "diagram": "Kostra, svítí třetí pole."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "note": "Patra jsou vzestupná, protože scéna jde od jednoduchého ke složitému. Pořadí tady nese tvrzení.",
+      "diagram_generator": "struktura",
+      "diagram": "Stopa rozsekaná na opakující se symboly; pod ní tři patra nálezů: REPETITION / SYMBOLS / GRAMMAR."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "note": "Nejdůležitější obraz bloku: struktura je, význam ne. Rámečky musí být PRÁZDNÉ — otazník uvnitř by naznačoval, že odpověď existuje a jen ji neznáme.",
+      "diagram_generator": "struktura",
+      "diagram": "Táž řada symbolů, pod každým prázdný rámeček. Šipky od symbolů končí v prázdnu.",
+      "pause": 2.2
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "note": "ZPĚTNÁ VAZBA 0.5: delfín NENÍ „skoro mimozemšťan“. Pointa je opačná — je nám extrémně blízko, a přesto to nejde. Obraz to musí nést od první scény bloku.",
+      "diagram_generator": "delfini",
+      "diagram": "Kostra, svítí čtvrté pole. Pod ní se poprvé objeví silueta delfína."
+    },
+    {
+      "id": "S26",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S26.png",
+      "note": "Skutečný delfín, ne kresba: scéna mluví o desítkách let skutečného výzkumu. VYBRÁNO Z KONTAKTNÍHO LISTU proti druhému kandidátovi („Underwater dolphins 2“), který je z bazénu — tenhle je z volné vody, silueta je čitelná a mládě vedle nese „communicate with each other“. Pohyb je tu na místě, protože je to fotka, ne diagram. POZOR: pick není stabilní identifikátor, doklad je archive-raw/S26.orig a jeho SHA-256.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Tursiops truncatus underwater",
+        "pick": 0,
+        "grade": {
+          "fit": 0.88,
+          "saturation": 42,
+          "vignette": true
+        }
+      }
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "note": "Přerušení je uprostřed, ne u jedné strany: vada není na nikom konkrétním.",
+      "diagram_generator": "delfini",
+      "diagram": "Dvě bubliny proti sobě — lidská a delfíní — mezi nimi přerušená čára."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "note": "Tenhle obraz je celý argument bloku a S30 ho zopakuje s vyprázdněným seznamem. Rozvržení se proto MEZI S28 A S30 NESMÍ HNOUT, jinak se protiklad nepozná.",
+      "diagram_generator": "delfini",
+      "diagram": "Sdílený rám EARTH, uvnitř člověk i delfín; vedle vyjmenováno, co mají společné: PLANET / BIOSPHERE / OBSERVATION / EXPERIMENT."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "note": "Scéna nepřidává nový prvek, jen soud nad předchozím obrazem.",
+      "diagram_generator": "delfini",
+      "diagram": "Týž rám, přes seznam nápis STILL EXTREMELY DIFFICULT.",
+      "pause": 1.2
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "note": "Výplata S28. Souřadnice rámu i seznamu shodné s S28 — kdyby se posunuly, divák porovnání neudělá a scéna zůstane hezká, ale bez obsahu.",
+      "diagram_generator": "delfini",
+      "diagram": "Týž rám jako S28, ale rozpadlý na dva samostatné rámy; položky seznamu přeškrtnuté."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "Vzdálenost se přidává až tady, protože ve scénáři přichází jako poslední — ne jako první důvod.",
+      "diagram_generator": "delfini",
+      "diagram": "K rozpadlému obrazu přibývají přeškrtnuté položky SENSES a CONCEPTS a pod tím měřítko vzdálenosti."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "note": "První půlka výpustkového páru. Krátká pauza, ne bloková — beat, ne předěl.",
+      "diagram_generator": "delfini",
+      "diagram": "Bublina CALLING ANOTHER CIVILISATION, slábnoucí.",
+      "pause": 1.4
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "note": "ZPĚTNÁ VAZBA 0.5: S25–S33 je jeden souvislý argument, ne osm ilustrací. Tahle scéna je jeho uzávěrka — musí se dát přečíst jako návrat k první.",
+      "diagram_generator": "delfini",
+      "diagram": "Delfín ze S25 uvnitř druhé galaxie, oddělený od člověka mezerou z S31. Kompozice odkazuje na S26.",
+      "pause": 2.6
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "note": "Velikost nese tvrzení: sdílený předpoklad je většina toho, co se přenese. Kdyby byl blok menší než šipka, obraz říká opak.",
+      "diagram_generator": "znalost",
+      "diagram": "Dvě postavy, mezi nimi krátká šipka a pod ní široký blok COMMON KNOWLEDGE, mnohem větší než ta šipka."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "note": "Kresba musí být VELMI prostá — scéna říká „tohle je triviální“. Detailní ilustrace by tvrdila opak.",
+      "diagram_generator": "znalost",
+      "diagram": "Věta A DOG IS SITTING ON THE TABLE vysázená sama na ploše, vedle ní velmi jednoduchá kresba psa na stole."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Popisky se odvozují z rozměru kresby (pod_hlavou a spol.), nesázejí se na odhadnutou vzdálenost.",
+      "diagram_generator": "znalost",
+      "diagram": "Táž kresba obalená popisky toho, co divák doplnil sám: DOG / TABLE / GRAVITY / OBJECTS / BODIES / PERSPECTIVE."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "note": "Šipka míří od zobrazení k věci, ne naopak — scéna říká, že věc uvnitř obrázku není uvnitř počítače. Scéna, ve které něco míří na někoho: ověřit cíl.",
+      "diagram_generator": "znalost",
+      "diagram": "Fotografie téhož psa v rámečku, vedle ní obrazovka; šipka od obrázku VEN z obrazovky k reálnému psovi."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "Klidná deska před beatem S39.",
+      "diagram_generator": "znalost",
+      "diagram": "Obě postavy uvnitř jednoho rámu SAME WORLD."
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "Beat 1,0 s. NAVETI povinné (viz S04). Zvolený text je poslední řádek S38, aby si věta udržela kontrastní intonaci — CLAUDE.md to u naveti doporučuje.",
+      "diagram_generator": "znalost",
+      "diagram": "Týž rám, ale druhá postava je mimo něj a čárkovaně.",
+      "pause": 2.8,
+      "naveti": "We share the same world."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "note": "FACTCHECK: spor o univerzálnost jmen a sloves se vede i uvnitř lidských jazyků (salishanské jazyky), ale JE to spor. Čárkovaný rám je proto povinný — plný by z hypotézy udělal poznatek.",
+      "diagram_generator": "mysleni",
+      "diagram": "Dvě přihrádky NOUNS a VERBS, přes ně čárkovaný rám s nápisem MAYBE NOT."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "note": "Stejná velikost je záměr: scéna žádnou z alternativ nepreferuje. Kdyby jedna byla větší nebo ambrová, obraz by rozhodl otázku, kterou hlas nechává otevřenou.",
+      "diagram_generator": "mysleni",
+      "diagram": "Tři alternativy vedle sebe: sekvence symbolů (přeškrtnutá), prostorové uspořádání, pole. Všechny stejně velké."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "note": "Symetrie je obsah scény („works in both directions“). Obě strany kreslit JEDNÍM předpisem s posunem v x, jako dvojice() u 027 — jinak se jedna nepozorovaně zvýrazní.",
+      "diagram_generator": "mysleni",
+      "diagram": "Dvě šipky proti sobě; nad naší bublina s otazníkem, nad jejich WHAT ON EARTH IS THIS?"
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "Fajfka je u JEJICH otázky, ne u naší — scéna říká, že jejich otázka je oprávněná.",
+      "diagram_generator": "mysleni",
+      "diagram": "Táž dvojice, u jejich otázky fajfka.",
+      "pause": 1.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Převod obraz→signál. Vpravo NESMÍ být rozpixelovaný pes — to by tvrdilo, že mřížka bodů je vlastnost signálu. Je to konvence, ne vlastnost.",
+      "diagram_generator": "mysleni",
+      "diagram": "Vlevo fotografie psa, uprostřed šipka, vpravo týž obsah jako holá modulovaná vlna."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "note": "První půlka výpustkového páru.",
+      "diagram_generator": "mysleni",
+      "diagram": "Postava před tabulí, na ní roky pokusů vysvětlit slovo DOG.",
+      "pause": 1.4
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "note": "Pointa bloku. Rozdělení psa mezi kategorie je silnější než prázdná přihrádka — scéna neříká „nemají psy“, ale „nemají tu kategorii“.",
+      "diagram_generator": "mysleni",
+      "diagram": "Jejich kategorie: několik přihrádek, žádná neodpovídá psovi; pes leží rozdělený mezi tři z nich.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "note": "FACTCHECK: naměřený rozptyl napříč druhy jsou DVA ŘÁDY (Healy et al. 2013), člověk ~60 Hz. Do téhle osy nesmí přijít mimozemšťan.",
+      "diagram_generator": "cas",
+      "diagram": "Osa rychlosti zpracování informace se skutečnými živočichy a naměřeným rozsahem CFF (dva řády), člověk vyznačený."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "note": "FACTCHECK + ZPĚTNÁ VAZBA 0.5: tisícinásobek je hypotetický extrém, ne extrapolace biologických dat. ŽÁDNÁ společná škála „Earth animals → alien ×1000“. Oddělení od S47 je věcná podmínka, ne estetika.",
+      "diagram_generator": "cas",
+      "diagram": "Oddělený čárkovaný rám s nápisem HYPOTHETICAL a v něm ×1000, bez jakékoli osy se zvířaty.",
+      "pause": 2.2
+    },
+    {
+      "id": "S49",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S49.png",
+      "note": "Druhá atmosférická scéna. Zoom IN, protože se zaostřuje na jednu možnost. První půlka výpustkového páru. DRUHÉ KOLO ZAMÍTNUTO A VRÁCENO PRVNÍ: přegeneroval jsem to kvůli jasu (9,5x medián diagramů proti pásmu kanálu 4,0 az 6,3x), ale tmavší varianta vrátila roztřepený bílý okraj a z osamělé kopule udělala prosvětlený oblouk, tedy ztratila funkci scény. Jas je vada, ztráta funkce je horší — CLAUDE.md: obrázek se přijímá podle funkce scény, ne podle shody s promptem.",
+      "prompt": "a single small figure alone on the walkway of a dark observatory dome, vast cold emptiness above, flat grey overcast sky, no sun, no text",
+      "pause": 1.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "note": "Jednosměrnost je obsah scény. Obousměrná šipka by tvrdila opak.",
+      "diagram_generator": "bezrozhovoru",
+      "diagram": "Časová osa, na které naše značka leží daleko za jejich; šipka jde jen jedním směrem, z minulosti k nám."
+    },
+    {
+      "id": "S51",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S51.png",
+      "note": "Třetí a poslední atmosférická scéna. Zoom OUT — rozsah v čase, generace lidí. PRVNÍ KOLO ZAMÍTNUTO kvůli roztřepenému bílému okraji, který model přidal kolem celé kresby; ve videu by se četl jako chyba. Slovo „paper\" ho podle všeho vyvolávalo, proto je pryč.",
+      "prompt": "an immense dim hall of record shelves receding into darkness, rows of empty desks in front of them, one small lamp lit, deep shadow, flat even light, no sun, no text",
+      "seed": 90511
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "note": "Obrat bloku ze ztráty na zisk. Páteř se vrací — je to týž pruh, jen zarámovaný.",
+      "diagram_generator": "bezrozhovoru",
+      "diagram": "Stopa v muzejní vitríně, popiska MOST VALUABLE SCIENTIFIC OBJECT."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "note": "Beat 2,2 s s pauzou 2,6 — po TTS ověřit whisperem, jestli obětovaná věta prošla.",
+      "diagram_generator": "bezrozhovoru",
+      "diagram": "Vitrína, popiska zkrácená na MADE BY ANOTHER INTELLIGENCE.",
+      "pause": 2.6
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "note": "Chybějící šipka je tvrzení: struktura sama k významu nevede. Scénář to říká dvakrát (S54 a S58), obraz to musí říct taky.",
+      "diagram_generator": "ai",
+      "diagram": "Dvě oddělené krabice: FINDS STRUCTURE (plná) a UNDERSTANDS (čárkovaná, prázdná). Mezi nimi žádná šipka."
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "note": "Páteř podruhé v tomhle bloku. Pět položek odpovídá pěti beatům scénáře — počet zajistit assertem, aby obraz netvrdil víc ani míň.",
+      "diagram_generator": "ai",
+      "diagram": "Stopa procházená hřebenem; nad ní pět nálezů REPETITIONS / PATTERNS / CORRELATIONS / HIERARCHIES / POSSIBLE GRAMMAR."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "note": "Ambrová větev znamená „o téhle je řeč“, ne „tahle je správná“. Jakmile by znamenala správnost, celé video se čte obráceně.",
+      "diagram_generator": "ai",
+      "diagram": "Rozvětvený strom hypotéz, drtivá většina větví slabě, jedna cesta ambrově; vedle měřítko lidského tempa."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "note": "Vnější kotva — tentýž princip jako Rosettská deska. Čáry jsou tenké a nejisté, ne plné šipky: scéna říká „could begin“, ne „umíme“.",
+      "diagram_generator": "ai",
+      "diagram": "Zpráva vlevo, vpravo čtyři nezávislá pozorování PLANET / ATMOSPHERE / ENERGY USE / ORBITAL STRUCTURES; tenké čáry mezi nimi."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "note": "Scéna výslovně popírá kouzlo, takže obraz nesmí kreslit AI jako chápající. Rozdíl je v ploše, ne v kvalitě.",
+      "diagram_generator": "ai",
+      "diagram": "Obrovské pole možností, v něm malý prohledaný ostrůvek u člověka a velký u stroje. Nápis NOT MAGIC.",
+      "pause": 2.0
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "note": "ZPĚTNÁ VAZBA 0.5: S59–S63 má být nejzapamatovatelnější sekvence videa. Síť roste přes tři scény a nesmí se mezi nimi překreslit jinak.",
+      "diagram_generator": "archiv",
+      "diagram": "Jedna laboratoř vlevo, z ní se rozbíhá síť do stovek uzlů: COMPUTERS / SCIENTISTS / AMATEURS / UNIVERSITIES / AI RESEARCHERS."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "note": "Stopa uprostřed zůstává JEDNA. Kdyby měl každý uzel vlastní stopu, scéna by tvrdila, že si data rozeberou, ne že je sdílejí.",
+      "diagram_generator": "archiv",
+      "diagram": "Táž síť, uzly různými značkami — různé algoritmy nad touž stopou."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "note": "Beat 1,2 s. NAVETI povinné (viz S04). Škrt na text = vodorovná čára.",
+      "diagram_generator": "archiv",
+      "diagram": "Nápis DELETE THE DATA přeškrtnutý vodorovnou čarou.",
+      "pause": 1.6,
+      "naveti": "There would be one thing to avoid."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "note": "FACTCHECK: IAA protokol žádá uložení nejméně ve DVOU úložištích na různých místech a zpřístupnění vědecké obci. Dvě úložiště v obraze jsou doložený detail, ne ozdoba.",
+      "diagram_generator": "archiv",
+      "diagram": "Zásobník ze S21 rozložený na vrstvy EVERY FREQUENCY / EVERY SPECTRUM / EVERY TIMING DETAIL, vedle značka dvou úložišť na různých místech."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "note": "Dnešní a budoucí nástroj musí být rozlišené — jinak scéna tvrdí, že to vidíme už teď.",
+      "diagram_generator": "archiv",
+      "diagram": "Táž vrstva, nad ní budoucí nástroj vytahující z ní útvar, kterého si dnešní nástroj nevšiml."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "note": "FACTCHECK: měřítko je SKA (5 ZB/rok surových u SKA-Low), NE LHC (~400 PB/rok). Diagram srovnávající s LHC jako s vrcholem by byl zastaralý. Poměry spočítat a zajistit assertem.",
+      "diagram_generator": "archiv",
+      "diagram": "Sloupce objemu dat: SKA-Low, SKA-Mid, LHC a vedle nich náš archiv s otevřeným koncem.",
+      "pause": 2.2
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "note": "Scéna nabízí alternativu, ne opravu — obě obálky stejně velké.",
+      "diagram_generator": "zabava",
+      "diagram": "Dvě obálky: přeškrtnutá PHYSICS a vedle ní ENTERTAINMENT."
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "note": "Šedé dlaždice = „mundane to them“, ambrová hodnota = „valuable to us“. Rozdíl barvy je celý obsah scény.",
+      "diagram_generator": "zabava",
+      "diagram": "Pět dlaždic SOAP OPERA / ADVERTISEMENTS / SPORTS / MUSIC / NEWS, všechny šedě; vedle nich ambrový nápis VALUABLE."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "note": "Šest položek odpovídá šesti ve scénáři — assert na počet.",
+      "diagram_generator": "zabava",
+      "diagram": "Z dlaždice SOAP OPERA vede šest vláken k pojmům RELATIONSHIPS / HIERARCHIES / HUMOUR / JEALOUSY / FEAR / DESIRE."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "note": "Rozvržení shodné s S67, jen jiný zdroj — čte se to jako pokračování, ne nový nápad.",
+      "diagram_generator": "zabava",
+      "diagram": "Dvě další dlaždice s vlastními vlákny: reklama k VALUES, sport ke COMPETITION a COOPERATION."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "note": "Klíčový obraz bloku: obyčejné se stává oknem.",
+      "diagram_generator": "zabava",
+      "diagram": "Obyčejná dlaždice zvětšená do okna, za kterým je vidět cizí civilizace.",
+      "pause": 1.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "note": "První půlka výpustkového páru, 0,7 s. Pauza pod 1,5, takže se obětovaná věta nezapne — a to je správně, scéna končí výpustkou.",
+      "diagram_generator": "zabava",
+      "diagram": "Obraz S69 zrcadlově obrácený, zatím prázdný.",
+      "pause": 1.2
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Symetrie s S69 — kreslit jedním předpisem s převrácením, ne dvakrát ručně.",
+      "diagram_generator": "zabava",
+      "diagram": "Zrcadlo dokreslené: jejich okno míří na nás."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "note": "FACTCHECK + ZPĚTNÁ VAZBA 0.5: čárkovaný rám je POVINNÝ. Pozemský únik na 500 ly nedosáhne, takže plný rám by tvrdil falešnou symetrii — přesně to, co oprava textu v 0.5 odstranila. Obraz to nesmí vrátit zpátky.",
+      "diagram_generator": "zabava",
+      "diagram": "ČÁRKOVANÝ rám s nápisem IF THEY EVER REACHED THEM, uvnitř televize s naší zábavou a jejich postava u ní.",
+      "pause": 2.4
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "note": "První půlka výpustkového páru.",
+      "diagram_generator": "finale",
+      "diagram": "Všechno dosavadní zmenšené do horní části obrazu.",
+      "pause": 1.4
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "note": "Návrat páteřního motivu vzdálenosti. Souřadnice shodné s S18 — jinak se návrat nepozná.",
+      "diagram_generator": "finale",
+      "diagram": "Pod tím se vrací mezera z bloku vzdálenosti, nezměněná.",
+      "pause": 2.2
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "note": "Fajfky jsou tu na místě: scéna připouští, že tohle by mohlo vyjít.",
+      "diagram_generator": "finale",
+      "diagram": "Tři odškrtnuté položky DECODE / LANGUAGE / SCIENCE."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "note": "Mezera se přes fajfky NEZAVÍRÁ — to je celá pointa.",
+      "diagram_generator": "finale",
+      "diagram": "Přes odškrtnuté položky zůstává mezera. Nápis THE UNIVERSE DOESN'T CARE."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "note": "Poslední tvrdý údaj videa. Nejdelší pauza před závěrem.",
+      "diagram_generator": "finale",
+      "diagram": "Jen mezera a v ní 1 000 YEARS.",
+      "pause": 3.0
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "note": "Škrt na text = vodorovná čára. Tři nápisy, tři čáry — přes tabulku by se škrtalo celé, tady jsou to samostatné položky.",
+      "diagram_generator": "finale",
+      "diagram": "Tři přeškrtnuté nápisy FACE-TO-FACE / LANDING / HANDSHAKE."
+    },
+    {
+      "id": "S79",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S79.png",
+      "note": "Skutečný radioteleskop, ne kresba: scéna říká „arriving at a telescope“ a je to věc, která má jméno a dá se vyfotit. Originál je NA VÝŠKU (1923×2080), takže výplň rámu by uřízla buď talíř, nebo věž — proto fit 0,98, tedy co největší vsazení celého snímku. Zoom IN, protože se zaostřuje na jedno místo. První půlka výpustkového páru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Parkes radio telescope",
+        "pick": 1,
+        "grade": {
+          "fit": 0.98,
+          "saturation": 45,
+          "vignette": true
+        }
+      },
+      "pause": 1.4
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "note": "Generace, ne jedna kariéra. Stopa je jedna a tatáž — páteř.",
+      "diagram_generator": "finale",
+      "diagram": "Řada postav za sebou v čase, každá u téže stopy."
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "note": "Jediný symbol, ne celá věta: scéna říká „figures out what it says“, ne „přeloží celou zprávu“.",
+      "diagram_generator": "finale",
+      "diagram": "Poslední postava v řadě, nad stopou se rozsvítí jediný symbol s významem."
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "note": "Příprava na výplatu. Druhá značka tu ještě NENÍ.",
+      "diagram_generator": "finale",
+      "diagram": "Stopa a pod ní prázdná mapa vesmíru s jedinou naší značkou.",
+      "pause": 1.6
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "note": "VÝPLATA PÁTEŘE. Jediná změna proti S82 je druhá značka — nic jiného se nesmí hnout, jinak divák rozdíl neuvidí. Beat 1,2 s, NAVETI povinné.",
+      "diagram_generator": "finale",
+      "diagram": "Táž mapa, přibyla druhá značka.",
+      "pause": 3.2,
+      "naveti": "We discovered evidence that somewhere in the universe."
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "note": "ZÁVĚREČNÁ DESKA pro karty YouTube — ty sedí vpravo a dole. Stopa je pořád nepřečtená a to je záměr. Promluva 2,4 s s pauzou 3,5: po TTS ověřit whisperem.",
+      "diagram_generator": "finale",
+      "diagram": "Závěrečná deska: stopa nahoře, obě značky vlevo, dolní třetina a pravá část rámu PRÁZDNÉ.",
+      "pause": 3.5
+    }
+  ]
+}

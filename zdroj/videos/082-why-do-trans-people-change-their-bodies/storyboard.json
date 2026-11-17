@@ -1,0 +1,928 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "visual": "images/S01.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "První scéna nese MYŠLENKU, ne atmosféru: operace bez nálezu. Kontrast vidět × nevidět (připomínka uživatele k v0.3: podpořit obrazem, ne slovy). Postava i rámeček na souřadnicích, které se vracejí v S49–S51 a S82 (pohled_zvenci() v _kit).",
+      "diagram_generator": "uvod",
+      "diagram": "MOTIV POHLED ZVENČÍ: vlevo postava (tvar z 080 dav()), vpravo rámeček jako z vyšetření (monitor / snímek) s obrysem téže postavy a nápisem „NOTHING FOUND“. Nad tím dva štítky „INJURY“ a „ILLNESS ON A SCAN“, oba přeškrtnuté (scénář je popírá naplno: Not because…).",
+      "pause": 0.4
+    },
+    {
+      "id": "S02",
+      "visual": "images/S02.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Čárkovaná = skryté / zvenčí neviditelné (konvence 080/081). To, co člověk prožívá, není na snímku — přesně ten kontrast. Ambrová = o tomhle je řeč.",
+      "diagram_generator": "uvod",
+      "diagram": "Týž obraz; uvnitř postavy (ne v rámečku vyšetření) ČÁRKOVANÝ ambrový vnitřní obrys — „feels so profoundly wrong“. Rámeček vyšetření dál „NOTHING FOUND“. Dole tři štítky ztlumeně: MONTHS OF RECOVERY · RISKS · FOR THE REST OF YOUR LIFE."
+    },
+    {
+      "id": "S03",
+      "visual": "images/S03.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Zavedení páteře (S03–S07). Levá miska = to, co je vidět a co se platí (náklady), pravá čárkovaná = to, co zvenčí vidět není. Páteř kreslí výhradně vahy_pater(), souřadnice se nemění celým videem, výplata S65.",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ: vahy_pater() — váhy uprostřed dolní poloviny. Na LEVOU misku padá první závaží „YEARS OF MEDICATION“; pravá miska prázdná, čárkovaná. Váhy se nakloní doleva."
+    },
+    {
+      "id": "S04",
+      "visual": "images/S04.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Výčet ze scénáře doslova. Pořadí závaží se drží až do S62–S64.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř; na levou misku přibudou závaží „PERMANENT CHANGES“, „COMPLICATIONS“, „UNCERTAIN RESULTS“. Náklon doleva roste."
+    },
+    {
+      "id": "S05",
+      "visual": "images/S05.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Hlavní otázka videa, vrací se v S45 a S82 na téže výšce (otazka()).",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř; nad ní velká otázka „WHY WOULD ANYONE CHOOSE THAT?“ ambrově.",
+      "pause": 0.5
+    },
+    {
+      "id": "S06",
+      "visual": "images/S06.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Doing nothing might seem easier from the outside“ — zvenčí je na pravé misce nic, takže váhy padají doleva.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř, silně nakloněná doleva; u prázdné čárkované pravé misky drobně „FROM THE OUTSIDE: NOTHING“."
+    },
+    {
+      "id": "S07",
+      "visual": "images/S07.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Not doing anything may be even harder.“ První obrat: neviditelná váha je těžší. Závaží zůstává čárkované — nevidíme ho, jen jeho účinek. Pauza 0,5, další věta navazuje.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř; na PRAVOU čárkovanou misku dosedne čárkované ambrové závaží bez popisku a váhy se překlopí doprava.",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "visual": "images/S08.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "S08 zmírněná (rozhodnutí uživatele, sebevražednost je 084): obraz nesmí zesílit to, co text změkčil. Žádná dramatika, žádná prasklá miska. Konec bloku.",
+      "diagram_generator": "uvod",
+      "diagram": "Táž páteř nakloněná doprava; u pravého závaží štítek „DISTRESS“ ambrově, pod pravou miskou čárkovaně štítek „MEDICAL CARE MAY REDUCE IT“ (možnost, ne slib).",
+      "pause": 2.4
+    },
+    {
+      "id": "S09",
+      "visual": "images/S09.png",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "note": "„Not fashionable, not a trend, not a decision made without thinking about the consequences“ — přemýšlení nad papíry, ne módní obraz. Nesmí být čitelný text na letácích. Zezadu, bez tváře (kotva série). SDXL 2. kolo seed 9002; uživatel nechal v ChatGPT opravit nohy stolu (2026-10-18), původ v art/PUVOD.md.",
+      "pause": 0.4,
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace (art/S09.png) přes celý rám: SDXL seed 9002, nohy stolu opravené v ChatGPT. Bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S10",
+      "visual": "images/S10.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Scénář dvakrát popírá naplno → škrt; třetí věta je kladná. Na text vodorovný škrt, ne křížek.",
+      "diagram_generator": "uvod",
+      "diagram": "Štítky „FASHION“ a „TREND“ přeškrtnuté (text_skrtnuty), pod nimi plně „THINKING ABOUT THE CONSEQUENCES“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S11",
+      "visual": "images/S11.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Bring their bodies closer to how they experience themselves“ — blíž, ne totožné. Obrysy se NESMÍ překrýt úplně (tranzice není slib dokonalého výsledku, S71).",
+      "diagram_generator": "uvod",
+      "diagram": "Motiv pohledu zvenčí ze S02 (tytéž souřadnice): čárkovaný vnitřní obrys a plná postava se k sobě přiblíží (obrys o kus blíž tvaru postavy), ambrová šipka mezi nimi „CLOSER“.",
+      "pause": 2.4
+    },
+    {
+      "id": "S12",
+      "visual": "images/S12.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Most do sekce 2.",
+      "diagram_generator": "uvod",
+      "diagram": "Slovo „TRANSITION“ uprostřed a pod ním otazník.",
+      "pause": 0.4
+    },
+    {
+      "id": "S13",
+      "visual": "images/S13.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Only one part of a much larger picture.“ Za ní výzva k odběru (`vyzva`, docs/cta.md, od 2026-10-23 místo mluvené S13b); levý dolní roh S13 i S14 prázdný.",
+      "diagram_generator": "uvod",
+      "diagram": "Slovo „TRANSITION“ zmenšené jako jeden dílek; kolem něj rámeček širšího obrazu (puzzle / větší plocha), dílek „CHANGING YOUR BODY“ ambrově jako jedna část.",
+      "pause": 2.2,
+      "vyzva": true
+    },
+    {
+      "id": "S14",
+      "visual": "images/S14.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (váhy) ztlumeně pod nadpisem.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): nadpis „TRANSITION IS NOT ONE THING“, pod ním páteř vahy_pater() ztlumeně, v klidu (vodorovně)."
+    },
+    {
+      "id": "S15",
+      "visual": "images/S15.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Callback na předchozí díly musí vizuálně sedět s 080/081. ≠ místo škrtu (konvence: „není totéž“).",
+      "diagram_generator": "tranzice",
+      "diagram": "Tři panely SOCIAL · LEGAL · MEDICAL — RÝM s 080 a 081 S62: převzít tvar a pořadí panelů z 080/diagrams/gen/tranzice.py (případně 081 tranzice.py). Mezi panely ≠ („not interchangeable“).",
+      "pause": 0.4
+    },
+    {
+      "id": "S16",
+      "visual": "images/S16.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„There is no universal checklist“ — scénář popírá naplno → škrt přes celý seznam (ne po řádcích, viz docs). Rým s kartičkou testu 081 S51/S75.",
+      "diagram_generator": "tranzice",
+      "diagram": "Kontrolní seznam (checklist) se třemi políčky SOCIAL / LEGAL / MEDICAL — celý přeškrtnutý jedním škrtem.",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "visual": "images/S17.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Žádné hodnocení, která je „víc trans“: obě postavy stejně velké, stejně barevné kromě ambrového obrysu.",
+      "diagram_generator": "tranzice",
+      "diagram": "Dvě postavy vedle sebe: u levé jen panel SOCIAL a štítek „ENOUGH“; u pravé SOCIAL a pod ním ambrově čárkovaný vnitřní obrys z motivu pohledu zvenčí („the body itself remains a source of distress“).",
+      "pause": 0.5
+    },
+    {
+      "id": "S18",
+      "visual": "images/S18.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Most do sekce 3. Konec bloku.",
+      "diagram_generator": "tranzice",
+      "diagram": "Panel MEDICAL ze S15 vystoupí ambrově, ostatní ztlumené; pod ním štítek „HORMONES“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S19",
+      "visual": "images/S19.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (váhy) ztlumeně pod nadpisem.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): nadpis „WHAT HORMONES ACTUALLY DO“, pod ním páteř vahy_pater() ztlumeně, v klidu (vodorovně)."
+    },
+    {
+      "id": "S20",
+      "visual": "images/S20.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Věcné, jednoduché, bez anatomie. Šipka = směr (léčba míří k cílům člověka), ne nevyhnutelnost.",
+      "diagram_generator": "hormony",
+      "diagram": "Schéma: malá žláza / zdroj → tečky „chemických poslů“ krví → tři cílové tkáně (kůže, svaly, hlas). Popisek „CHEMICAL MESSENGERS“. Pod tím šipka „HORMONE THERAPY → A PERSON'S GOALS“."
+    },
+    {
+      "id": "S21",
+      "visual": "images/S21.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova podle scénáře a [ES17] tab. 12. ŽÁDNÁ modrá/růžová — oba sloupce (S21, S22) stejnou barvou INK, ambrová jen u právě zmiňovaného.",
+      "diagram_generator": "hormony",
+      "diagram": "Sloupec „TESTOSTERONE“: štítky DEEPER VOICE · FACIAL & BODY HAIR · FAT DISTRIBUTION · MUSCLE MASS.",
+      "pause": 0.5
+    },
+    {
+      "id": "S22",
+      "visual": "images/S22.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Připomínka uživatele k v0.3: obraz nesmí tvrdit, že potlačení testosteronu je nutné u každé trans ženy. Proto „USUALLY“ přímo v obraze a čárkovaně (konvence: nejisté / ne vždy), žádná plná šipka.",
+      "diagram_generator": "hormony",
+      "diagram": "Druhý sloupec „OESTROGEN“ vedle S21: BREAST DEVELOPMENT · FAT DISTRIBUTION · SOFTER SKIN; pod ním „TESTOSTERONE ↓“ s drobným „USUALLY“ ČÁRKOVANĚ.",
+      "pause": 0.5
+    },
+    {
+      "id": "S23",
+      "visual": "images/S23.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Beat. Ne škrt přes sloupce — účinky platí, jen nejsou kouzlo.",
+      "diagram_generator": "hormony",
+      "diagram": "Oba sloupce ztlumené, přes ně krátce „NOT MAGIC“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S24",
+      "visual": "images/S24.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kreslí DATA → hodnoty z ES17 v kódu s assert. Nesmí přidat víc účinků, než scénář jmenuje v S21–S22. Rozptyl mezi lidmi ukazuje jen popisek, ne vymyšlené pruhy.",
+      "diagram_generator": "hormony",
+      "diagram": "Časová osa 0 → 5 LET (MONTHS … YEARS); čtyři pruhy nástup → maximum podle [ES17] tab. 12–13: FAT DISTRIBUTION (1–6 měs. → 2–5 let), MUSCLE MASS (6–12 měs. → 2–5 let), BREAST DEVELOPMENT (3–6 měs. → 2–3 roky), VOICE DEEPENING (6–12 měs. → 1–2 roky). Titulek „DIFFERENT IN EVERYONE“.",
+      "vycet": 0.3,
+      "pause": 0.4
+    },
+    {
+      "id": "S25",
+      "visual": "images/S25.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Původní návrh měl řádek FACIAL HAIR mizet — jenže ochlupení po testosteronu je taky trvalé (UMich), takže by obraz tvrdil nepravdu. Proto FAT a MUSCLE (vratné) a VOICE, BREAST (příklady S26).",
+      "diagram_generator": "hormony",
+      "diagram": "Táž osa; svislá čára „TREATMENT STOPPED“; za ní VOICE a BREAST pokračují plnou ambrovou šipkou, FAT a MUSCLE jen čárkovaně a ztlumeně (můžou ustoupit)."
+    },
+    {
+      "id": "S26",
+      "visual": "images/S26.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Míra jistoty v obraze = míra jistoty ve scénáři (generally / may). Ne „IRREVERSIBLE“ napevno.",
+      "diagram_generator": "hormony",
+      "diagram": "Táž osa; pokračující pruhy dostanou ambrové štítky „VOICE DEEPENING: GENERALLY PERMANENT“ a „BREAST DEVELOPMENT: MAY PERSIST“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S27",
+      "visual": "images/S27.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kontroly à 3 měsíce = [ES17] dop. 4.1 (assert 4 háčky v prvním roce). Plodnost ambrově, protože se vrací v S39 a S63.",
+      "diagram_generator": "hormony",
+      "diagram": "Štítky FERTILITY · SEXUAL FUNCTION · MOOD · HEALTH (ztlumené, ambrová FERTILITY); pod nimi řádka kontrol: kalendář s háčky každé 3 měsíce v prvním roce „MONITORING“."
+    },
+    {
+      "id": "S28",
+      "visual": "images/S28.png",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "note": "MOTIV ZRCADLA, RÝM S 081 S20. „Their reflection becomes easier to live with.“ Rozhodnutí uživatele (2026-10-18): rovnou úprava 081/art/S20.png v ChatGPT, SDXL se nezkouší. Původ do art/PUVOD.md.",
+      "pause": 1.6,
+      "diagram_generator": "obrazy",
+      "diagram": "Ilustrace (art/S28.png) přes celý rám: úprava 081/art/S20.png v ChatGPT — látka sejmutá ze zrcadla a složená na židli, v zrcadle jen světlo z okna. Bez nadpisu a bez kresby kódem."
+    },
+    {
+      "id": "S29",
+      "visual": "images/S29.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Hormones cannot change everything.“ ≠ místo škrtu; hormony nejsou popřené.",
+      "diagram_generator": "hormony",
+      "diagram": "Sloupce ze S21–S22 malé vlevo; vpravo štítek „CHEST“, „GENITALS“ — „NOT WITH HORMONES ALONE“ — čárkovaně (co hormony nezmění).",
+      "pause": 0.4
+    },
+    {
+      "id": "S30",
+      "visual": "images/S30.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Most do sekce 4. Konec bloku.",
+      "diagram_generator": "hormony",
+      "diagram": "Šipka od čárkovaných štítků ze S29 ke slovu „SURGERY“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S31",
+      "visual": "images/S31.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (váhy) ztlumeně pod nadpisem.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): nadpis „SURGERY: THE PRICE OF A PHYSICAL CHANGE“, pod ním páteř vahy_pater() ztlumeně, v klidu (vodorovně)."
+    },
+    {
+      "id": "S32",
+      "visual": "images/S32.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Uživatel: žádné šokující chirurgické záběry, věcně správně. Proto jen mapa zón na obrysu, žádná anatomie ani nástroje. mapa_tela() v _kit — stejné souřadnice v S32–S35b.",
+      "diagram_generator": "chirurgie",
+      "diagram": "MAPA TĚLA: neutrální obrys postavy (bez pohlaví, bez anatomie, tvar z kitu) zepředu uprostřed; kolem něj několik prázdných kroužků-zón: FACE · CHEST · GENITAL AREA. Nadpis „NOT ONE OPERATION“."
+    },
+    {
+      "id": "S33",
+      "visual": "images/S33.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova podle scénáře.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Mapa těla; zóna CHEST ambrově, štítek „CHEST SURGERY · TRANS MEN“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S34",
+      "visual": "images/S34.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova podle scénáře; obrys postavy se nemění (žádné kreslení prsou).",
+      "diagram_generator": "chirurgie",
+      "diagram": "Mapa těla; zóna CHEST štítek „BREAST AUGMENTATION · TRANS WOMEN“, zóna FACE ambrově „FACIAL SURGERY“."
+    },
+    {
+      "id": "S35",
+      "visual": "images/S35.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Jen zóna a jméno zákroku — žádná kresba orgánů.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Mapa těla; zóna GENITAL AREA ambrově; štítek „VAGINOPLASTY“."
+    },
+    {
+      "id": "S35b",
+      "visual": "images/S35b.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Připomínka uživatele: rozdíl obou zákroků (fact check S35b). Šipka MUSÍ vést z předloktí do genitální zóny (směr přenosu tkáně) — zkontrolovat na kontaktním listu.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Mapa těla; štítek „PHALLOPLASTY“ s plnou šipkou od zóny na PŘEDLOKTÍ k zóně GENITAL AREA („TISSUE FROM ANOTHER PART OF THE BODY“); vedle štítek „METOIDIOPLASTY“ bez šipky, jen u genitální zóny, s drobným „USUALLY SMALLER“."
+    },
+    {
+      "id": "S36",
+      "visual": "images/S36.png",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "note": "„Weeks or months of recovery“ — klid zotavení, žádné nástroje, krev ani pacient (uživatel: žádné šokující záběry). Prázdná postel, nikdo na ní.",
+      "prompt": "a quiet hospital recovery room by day, an empty neatly made bed with a folded blanket, a small vase of flowers and a glass of water on the bedside table, soft daylight through a window, calm and gentle mood"
+    },
+    {
+      "id": "S37",
+      "visual": "images/S37.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Výčet doslova; žádná čísla komplikací (rozhodnutí uživatele, čísla jen do komentářů).",
+      "diagram_generator": "chirurgie",
+      "diagram": "Mřížka štítků: PAIN · SWELLING · BLEEDING · INFECTION · HEALING PROBLEMS · PROCEDURE-SPECIFIC COMPLICATIONS (poslední ambrově)."
+    },
+    {
+      "id": "S38",
+      "visual": "images/S38.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Čárkovaně = možná (can require). Obrysy jen abstraktní tvary, ne těla.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Řada kroků-operací: jeden plný kroužek „SURGERY“ a za ním dva ČÁRKOVANÉ „ADDITIONAL PROCEDURES?“; pod tím dva obrysy přes sebe — čárkovaný „EXPECTED“ a plný „RESULT“, které se úplně nekryjí."
+    },
+    {
+      "id": "S39",
+      "visual": "images/S39.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "FERTILITY je táž jako v S27 (rým).",
+      "diagram_generator": "chirurgie",
+      "diagram": "Štítky „PERMANENT“ a „FERTILITY“ ambrově.",
+      "pause": 0.5
+    },
+    {
+      "id": "S40",
+      "visual": "images/S40.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„May“ v obraze.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Přibudou štítky SENSATION · SEXUAL FUNCTION · URINATION, ztlumeně, „MAY ALTER“."
+    },
+    {
+      "id": "S41",
+      "visual": "images/S41.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Časová osa: bod „SURGERY“ a za ním osa pokračuje dál do „YEARS“ — „ONGOING CARE“.",
+      "pause": 0.4
+    },
+    {
+      "id": "S42",
+      "visual": "images/S42.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„May be necessary“ → čárkovaně (připomínka uživatele u v0.2: ne každý po každé operaci). Konec podbloku.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Táž osa; po bodu SURGERY pravidelné značky „HORMONE REPLACEMENT“ ČÁRKOVANĚ až za okraj; nad bodem SURGERY drobně „IF HORMONE-PRODUCING ORGANS ARE REMOVED“.",
+      "pause": 2.2
+    },
+    {
+      "id": "S43",
+      "visual": "images/S43.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Beat.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Velké „NOT A SMALL DECISION“.",
+      "pause": 0.4
+    },
+    {
+      "id": "S44",
+      "visual": "images/S44.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova; [SOC8] posouzení a informovaný souhlas.",
+      "diagram_generator": "chirurgie",
+      "diagram": "Čtyři políčka se zaškrtnutím: MEDICAL ASSESSMENT · REALISTIC EXPECTATIONS · UNDERSTANDING THE RISKS · TIME TO CONSIDER ALTERNATIVES."
+    },
+    {
+      "id": "S45",
+      "visual": "images/S45.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým S05 (otazka() na téže výšce, assert). Náklon doleva jako v S06.",
+      "diagram_generator": "zaver5",
+      "diagram": "PÁTEŘ SE VRACÍ: vahy_pater(); na levé misce všechna závaží ze S03–S04 a k nim nová ze sekcí 3–4; pravá miska prázdná čárkovaná; nad tím otázka „WHY WOULD SOMEONE ACCEPT ALL OF THIS?“ na výšce S05.",
+      "pause": 0.5
+    },
+    {
+      "id": "S46",
+      "visual": "images/S46.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova.",
+      "diagram_generator": "zaver5",
+      "diagram": "Táž páteř; závaží na levé misce dostanou čtyři popisky ze scénáře: PAINFUL · EXPENSIVE · COMPLICATED · SOMETIMES IRREVERSIBLE."
+    },
+    {
+      "id": "S47",
+      "visual": "images/S47.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Most do sekce 5. Konec bloku.",
+      "diagram_generator": "zaver5",
+      "diagram": "Táž páteř; pravá čárkovaná miska ambrově zvýrazněná, pod ní „DIFFICULT TO SEE FROM THE OUTSIDE“.",
+      "pause": 2.4
+    },
+    {
+      "id": "S48",
+      "visual": "images/S48.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (váhy) ztlumeně pod nadpisem.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): nadpis „WHAT IF YOU DON'T FEEL IT YOURSELF?“, pod ním páteř vahy_pater() ztlumeně, v klidu (vodorovně)."
+    },
+    {
+      "id": "S49",
+      "visual": "images/S49.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým s S01: tam vyšetření nic nenašlo, tady nic nevidí okolí. Pohledové čáry plné = vidí (to, co je vidět).",
+      "diagram_generator": "zvenci",
+      "diagram": "MOTIV POHLEDU ZVENČÍ (souřadnice S01–S02): postava uprostřed, kolem několik menších postav (dav() z 080) s plnými pohledovými čarami k ní a štítkem „ORDINARY“."
+    },
+    {
+      "id": "S50",
+      "visual": "images/S50.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova.",
+      "diagram_generator": "zvenci",
+      "diagram": "Tentýž obraz; u dvou skupin postav štítky FAMILY a FRIENDS, u obou „NOTHING WRONG“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S51",
+      "visual": "images/S51.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Your own experience can be very different.“ Klíčový rým se S02.",
+      "diagram_generator": "zvenci",
+      "diagram": "Tentýž obraz; okolní postavy ztlumené, u centrální postavy se objeví čárkovaný ambrový vnitřní obrys ze S02 (táž funkce, tytéž souřadnice).",
+      "pause": 2.2
+    },
+    {
+      "id": "S52",
+      "visual": "images/S52.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "",
+      "diagram_generator": "zvenci",
+      "diagram": "Centrální postava s čárkovaným obrysem sama, štítek „PERSISTENT DISTRESS“."
+    },
+    {
+      "id": "S53",
+      "visual": "images/S53.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Čáry k obrysu, ne k částem těla — žádné kreslení anatomie.",
+      "diagram_generator": "zvenci",
+      "diagram": "Kolem postavy pět štítků: CHEST · FACIAL HAIR · VOICE · GENITALS · HOW THE BODY DEVELOPS, každý tenkou čárkovanou čarou k obrysu (ne k anatomickému místu).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S54",
+      "visual": "images/S54.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Pojmenování.",
+      "diagram_generator": "zvenci",
+      "diagram": "Velký ambrový nápis „GENDER DYSPHORIA“ nad postavou, štítky ztlumené.",
+      "pause": 0.5
+    },
+    {
+      "id": "S55",
+      "visual": "images/S55.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Not every transgender person experiences dysphoria“ — první postava bez obrysu. Žádné označení cis/trans u postav (konvence 081).",
+      "diagram_generator": "zvenci",
+      "diagram": "Řada pěti postav: jedna bez obrysu, ostatní s čárkovanými obrysy různé velikosti/hustoty. Popisek „DIFFERENT WAYS, DIFFERENT INTENSITIES“."
+    },
+    {
+      "id": "S56",
+      "visual": "images/S56.png",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "note": "„Becomes more manageable as they find ways to live that feel right for them“ — obyčejný klidný den, žádný symbol. Pozor: ne „at dawn/dusk“ (zlaté světlo přebije kotvu).",
+      "prompt": "a person walking calmly along a quiet tree-lined street in soft afternoon light, seen from behind at a distance, relaxed posture, everyday city life, gentle and hopeful mood"
+    },
+    {
+      "id": "S57",
+      "visual": "images/S57.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Divák je ta levá postava. Žádná šipka, nikdo na nikoho neútočí.",
+      "diagram_generator": "zvenci",
+      "diagram": "Dvě postavy proti sobě: levá bez obrysu, pravá s čárkovaným obrysem; mezi nimi mezera a nad levou otazník „WHY WOULD ANYONE…?“",
+      "pause": 0.5
+    },
+    {
+      "id": "S58",
+      "visual": "images/S58.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "≠ místo škrtu (konvence: „není totéž“).",
+      "diagram_generator": "zvenci",
+      "diagram": "„NOT UNDERSTANDING“ ≠ „NOT REAL“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S59",
+      "visual": "images/S59.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Návrat k původní otázce. Konec bloku.",
+      "diagram_generator": "zvenci",
+      "diagram": "Otázka ze S05 „WHY WOULD ANYONE CHOOSE THAT?“ na téže výšce, pod ní páteř ztlumeně.",
+      "pause": 2.4
+    },
+    {
+      "id": "S60",
+      "visual": "images/S60.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Divákova hypotéza vložená na váhu. Pírko = lehké, otazníky = hypotéza, ne tvrzení videa.",
+      "diagram_generator": "jadro",
+      "diagram": "PÁTEŘ: vahy_pater(); na PRAVÉ misce místo čárkovaného závaží malé pírko se štítky „WHIM?“ „TREND?“ „JUST STOP FEELING IT?“."
+    },
+    {
+      "id": "S61",
+      "visual": "images/S61.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Příprava výplaty: závaží začnou padat v S62.",
+      "diagram_generator": "jadro",
+      "diagram": "Táž páteř; levá miska prázdná a nad ní „WHAT SOME PEOPLE ARE WILLING TO UNDERGO“."
+    },
+    {
+      "id": "S62",
+      "visual": "images/S62.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Callback: tatáž závaží (tvar, popisky) jako v S03–S04 a S45–S46.",
+      "diagram_generator": "jadro",
+      "diagram": "Táž páteř; na levou misku padají závaží YEARS OF HORMONES · MAJOR SURGERY · LONG RECOVERY · PERMANENT CHANGES; váhy se nakloní doleva proti pírku.",
+      "pause": 0.5
+    },
+    {
+      "id": "S63",
+      "visual": "images/S63.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým se štítky S27 a S39.",
+      "diagram_generator": "jadro",
+      "diagram": "Přibudou FERTILITY · SEXUAL FUNCTION · HEALTH.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "visual": "images/S64.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "",
+      "diagram_generator": "jadro",
+      "diagram": "Přibudou MONEY · PAIN · AN UNCERTAIN RESULT. Levá miska plná.",
+      "pause": 0.5
+    },
+    {
+      "id": "S65",
+      "visual": "images/S65.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Some people consider the potential improvement worth those costs.“ Pírko by tolik nevyvážilo — to je celý argument, beze slov. Závaží zůstává čárkované (zvenčí neviditelné). „FOR SOME“ v obraze, protože scénář neříká všichni. Assert: geometrie páteře shodná s S03.",
+      "diagram_generator": "jadro",
+      "diagram": "VÝPLATA PÁTEŘE: pírko z pravé misky zmizí a místo něj tam je čárkované ambrové závaží ze S07 se štítkem „A BETTER LIFE — FOR SOME“ (místo „IMPROVEMENT IN THEIR LIVES“, podle délky); váhy se i přes plnou levou misku nakloní DOPRAVA.",
+      "pause": 1.4
+    },
+    {
+      "id": "S66",
+      "visual": "images/S66.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Hlavní pointa videa zazní JEDNOU (rozhodnutí uživatele) — obraz ji nepřepisuje textem, nechá ji doznít.",
+      "diagram_generator": "jadro",
+      "diagram": "Táž páteř v klidu (z S65), bez dalších nápisů; jen čárkované závaží jemně ambrově.",
+      "pause": 1.6
+    },
+    {
+      "id": "S67",
+      "visual": "images/S67.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Vystřízlivění (uživatel u v0.2 i v0.3: nechat, zvyšuje důvěryhodnost). Ne škrt, ≠. Delší pauza, ať to není rychle odříkaná polemika.",
+      "diagram_generator": "jadro",
+      "diagram": "Táž páteř ztlumená; pod ní menším písmem „ACCEPTING RISKS ≠ PROOF OF A DIAGNOSIS“.",
+      "pause": 1.4
+    },
+    {
+      "id": "S68",
+      "visual": "images/S68.png",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "note": "„Serious, carefully considered medical treatment, and the experiences of people who seek it“ — vážnost a lidskost, ne dramatika. Zezadu, bez tváře, bez textu na deskách.",
+      "prompt": "a calm clinic waiting room, a single person sitting on a chair seen from behind, holding a folder on their lap, soft daylight, plants, muted colours, quiet and serious mood",
+      "pause": 1.0
+    },
+    {
+      "id": "S69",
+      "visual": "images/S69.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Does not adequately explain every person's experience“ — pírko je malé proti řadě lidí. ≠, ne škrt.",
+      "diagram_generator": "jadro",
+      "diagram": "Vlevo pírko „FASHION TREND“ malé; vpravo řada postav s čárkovanými obrysy ze S55; dole „STOP FEELING IT“ ≠ „HELP“."
+    },
+    {
+      "id": "S70",
+      "visual": "images/S70.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Can be a way to reduce…“ — obrys nezmizí úplně (není to slib, S71).",
+      "diagram_generator": "jadro",
+      "diagram": "Motiv postavy s čárkovaným obrysem (S51): obrys se zmenší a zjemní, štítek „LESS DISTRESS · BETTER QUALITY OF LIFE“."
+    },
+    {
+      "id": "S71",
+      "visual": "images/S71.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Vrchol jádra — konec bloku, dlouhá pauza. Ne škrty přes první dva řádky (nejsou to popřená tvrzení, ale vymezení). Za ní druhá výzva k odběru (`vyzva`), mezi jádrem a kapitolou S72; roh S71 i S72 prázdný.",
+      "diagram_generator": "jadro",
+      "diagram": "Tři řádky pod sebou: „NOT A PERFECT SOLUTION“ (ztlumeně), „NOT A GUARANTEE OF HAPPINESS“ (ztlumeně), „A MEANINGFUL POSSIBILITY“ (ambrově).",
+      "pause": 2.8,
+      "vycet": 0.3,
+      "vyzva": true
+    },
+    {
+      "id": "S72",
+      "visual": "images/S72.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (váhy) ztlumeně pod nadpisem.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): nadpis „WHY SOME PEOPLE CHOOSE NOT TO TRANSITION MEDICALLY“, pod ním páteř vahy_pater() ztlumeně, v klidu (vodorovně)."
+    },
+    {
+      "id": "S73",
+      "visual": "images/S73.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým se S15.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Tři panely SOCIAL · LEGAL · MEDICAL ze S15; panel MEDICAL s otazníkem „WHY NOT?“."
+    },
+    {
+      "id": "S74",
+      "visual": "images/S74.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„Some physical changes but not others.“ Bez ✓/✗, ať obraz nesoudí.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Tři postavy, každá s jinou kombinací malých štítků (HORMONES / CHEST SURGERY / NONE) — žádný výběr není zvýrazněný."
+    },
+    {
+      "id": "S75",
+      "visual": "images/S75.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Štítky „MEDICAL RISKS“ a „FERTILITY“ (FERTILITY tentýž štítek jako S27/S39/S63).",
+      "pause": 0.5
+    },
+    {
+      "id": "S76",
+      "visual": "images/S76.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Bez konkrétní země a bez mapy (scénář žádnou nejmenuje).",
+      "diagram_generator": "proc_ne",
+      "diagram": "Tři štítky: „COST“, „NO QUALIFIED PROVIDER“, „DIFFICULT OR DANGEROUS TO OBTAIN“; poslední s čárkovanou hranicí/plotem.",
+      "pause": 0.5
+    },
+    {
+      "id": "S77",
+      "visual": "images/S77.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova, bez hodnocení.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Postava a vedle ní štítek „NOT FOR ME“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S78",
+      "visual": "images/S78.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "RÝM s 081 S51/S75 (kartička testu, přeškrtnutá celá). Scénář to popírá naplno („should not be treated as a test“). Převzít tvar kartičky z 081.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Kartička testu „TRANS ENOUGH?“ se zaškrtávacími políčky HORMONES · SURGERY — celá přeškrtnutá."
+    },
+    {
+      "id": "S79",
+      "visual": "images/S79.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým se sekcí 4.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Mapa těla ze S32 ztlumeně a přes ni „THE GOAL IS NOT TO CHANGE EVERY BODY“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S80",
+      "visual": "images/S80.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Konec bloku.",
+      "diagram_generator": "proc_ne",
+      "diagram": "Řada pěti různých postav (různá výška a postoj, tvar z dav()), každá s jiným malým štítkem potřeb; nápis „DIFFERENT NEEDS“.",
+      "pause": 2.4
+    },
+    {
+      "id": "S81",
+      "visual": "images/S81.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (váhy) ztlumeně pod nadpisem.",
+      "diagram_generator": "kapitoly",
+      "diagram": "kapitola(): nadpis „THE QUESTION WE SHOULD REALLY BE ASKING“, pod ním páteř vahy_pater() ztlumeně, v klidu (vodorovně)."
+    },
+    {
+      "id": "S82",
+      "visual": "images/S82.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Návrat na začátek (assert souřadnic).",
+      "diagram_generator": "zaver",
+      "diagram": "RÝM S01: postava a rámeček vyšetření „NOTHING FOUND“ na souřadnicích S01; nad tím otázka „WHY WOULD SOMEONE CHANGE THEIR BODY?“ na výšce S05."
+    },
+    {
+      "id": "S83",
+      "visual": "images/S83.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Doslova.",
+      "diagram_generator": "zaver",
+      "diagram": "Řada postav s různými obrysy ze S55, nápis „NOT THE SAME FOR EVERYONE“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S84",
+      "visual": "images/S84.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "",
+      "diagram_generator": "zaver",
+      "diagram": "Postava se čárkovaným ambrovým obrysem (S02/S51), štítek „PROFOUND DISTRESS — FOR SOME“.",
+      "pause": 0.4
+    },
+    {
+      "id": "S85",
+      "visual": "images/S85.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Rým se S11: blíž, ne totožné.",
+      "diagram_generator": "zaver",
+      "diagram": "Obrys se přiblíží postavě jako v S11 (tytéž souřadnice), štítek „MORE BEARABLE“."
+    },
+    {
+      "id": "S86",
+      "visual": "images/S86.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Vyváženost závěru = vyrovnané váhy. Jediné místo, kde jsou váhy vodorovně s popisky na obou miskách.",
+      "diagram_generator": "zaver",
+      "diagram": "PÁTEŘ v klidu, vodorovně: na levé misce „REAL RISKS“, na pravé čárkovaně „POTENTIAL BENEFITS“; pod váhami „NO PRESSURE“.",
+      "pause": 0.4
+    },
+    {
+      "id": "S87",
+      "visual": "images/S87.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Konec podbloku.",
+      "diagram_generator": "zaver",
+      "diagram": "Táž páteř; nad ní „DON'T DISMISS IT“ ambrově.",
+      "pause": 0.8
+    },
+    {
+      "id": "S88",
+      "visual": "images/S88.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Scénář popírá naplno („not about achieving perfection“).",
+      "diagram_generator": "zaver",
+      "diagram": "Slovo „PERFECTION“ přeškrtnuté (text_skrtnuty).",
+      "pause": 0.5
+    },
+    {
+      "id": "S89",
+      "visual": "images/S89.png",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "note": "„A little more at home.“ Doslova domov, klid. Kotva: teplé tlumené světlo, ne zlatý západ slunce. Emocionální konec — dlouhá pauza.",
+      "prompt": "a person sitting relaxed in an armchair by a window, holding a cup of tea, seen from behind over the shoulder, head and shoulders visible above the armchair back, cosy small living room, plants on the windowsill, soft warm daylight, peaceful and at home",
+      "pause": 3.0,
+      "seed": 8903
+    },
+    {
+      "id": "S90",
+      "visual": "images/S90.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Otevírá téma 083 (pohled okolí). Od S90 se kompozice drží dole, ať je navazující závěrečná obrazovka konzistentní.",
+      "diagram_generator": "teaser",
+      "diagram": "Postava sama v DOLNÍ polovině obrazu; štítek „PERSONAL“, který se mění na „NOT ONLY PERSONAL“."
+    },
+    {
+      "id": "S91",
+      "visual": "images/S91.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Čárkované pohledy = soud, ne vidění (proti plným pohledům S49). Výčet s tečkami → vycet.",
+      "diagram_generator": "teaser",
+      "diagram": "DOLNÍ polovina: kolem postavy se objeví menší postavy (dav() z 080) s ČÁRKOVANÝMI pohledovými čarami a štítky NOTICE · ASSUMPTIONS · JUDGEMENT.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S92",
+      "visual": "images/S92.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Začátek okna závěrečné obrazovky (posledních ~20 s) — prvky YouTube patří nahoru (docs: dole je titulek).",
+      "diagram_generator": "teaser",
+      "diagram": "DOLNÍ polovina: dav uzavřený v kruhu, postava na jeho okraji; nad davem drobně „MASCULINE ENOUGH?“ „FEMININE ENOUGH?“. HORNÍ POLOVINA PRÁZDNÁ.",
+      "pause": 0.5
+    },
+    {
+      "id": "S93",
+      "visual": "images/S93.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "„One thing… another.“ ≠ = není totéž.",
+      "diagram_generator": "teaser",
+      "diagram": "DOLNÍ polovina: „CHANGING YOUR BODY“ ≠ „BEING JUDGED FOR IT“. HORNÍ POLOVINA PRÁZDNÁ.",
+      "pause": 0.5
+    },
+    {
+      "id": "S94",
+      "visual": "images/S94.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Závěrečná obrazovka.",
+      "diagram_generator": "teaser",
+      "diagram": "Tentýž obraz ztlumený. HORNÍ POLOVINA PRÁZDNÁ.",
+      "pause": 0.5
+    },
+    {
+      "id": "S95",
+      "visual": "images/S95.png",
+      "source": "svg",
+      "effect": "static",
+      "note": "Závěrečná obrazovka, rým s koncem 081 (S95). static, pauza 3,0.",
+      "diagram_generator": "teaser",
+      "diagram": "Klidná deska: v dolní třetině „NEXT: WHY IS IT SO HARD TO BE TRANS?“, horní polovina prázdná.",
+      "pause": 3.0
+    }
+  ]
+}

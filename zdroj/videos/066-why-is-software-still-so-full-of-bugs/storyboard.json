@@ -1,0 +1,643 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Svislý proud tří výstražných karet s ambrovým lemem, na každé drobný symbol chyby: SKIP THE LOGIN / LEAK PRIVATE DATA / HAND OVER YOUR COMPUTER.",
+      "note": "PRVNÍ SCÉNA schválně NENÍ sdxl a nese MYŠLENKU, ne atmosféru (docs): tři konkrétní následky chyby řeknou hned, o co jde. Karty stejně velké, ambr = 'o tomhle je řeč', ne 'zlé'."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Řada dlaždic WINDOWS, LINUX, BROWSER, DATABASE, CLOUD a jedna malá LIBRARY, od níž vedou tenké čáry k houfu drobných teček (miliony vývojářů).",
+      "note": "Ukazuje šíři zásahu. Tečky = hustota, ne spočítaný počet ('millions'). Windows jen jednou zmíněný (překryv s 053), nesmí dominovat."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed bublina otázky HOW DID THEY MISS THIS?",
+      "note": "Reakce publika. Rétorická otázka, beat nese pauza scény."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Čtyři štítky obrany CODE REVIEWS / AUTOMATED TESTS / SECURITY AUDITS / FUZZING nad nimi, a přesto pod nimi dál padají symboly chyb.",
+      "note": "Profesionálové mají nástroje, chyby přesto přicházejí. Čtyři štítky stejně velké."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed ambrová otázka videa: IS BUG-FREE COMPLEX SOFTWARE POSSIBLE?",
+      "note": "Ústřední otázka videa. Klidnější beat před tím, než se pustíme do čísla.",
+      "pause": 1.2
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ #1 se zavádí: mřížka 10×10 přepínačů (mrizka100() v _kit.py, pevné souřadnice), část zapnutá, část vypnutá. Štítek A HUNDRED SETTINGS.",
+      "note": "PÁTEŘ VIDEA #1 — mřížka 100 přepínačů na pevných souřadnicích, kreslí ji JEDINÁ funkce mrizka100() v _kit.py. Vrací se v S15 (každé 'what if' rozsvítí další přepínač) a jako výplata v S57. assert: přesně 100 buněk."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Táž mřížka, nad ní ambrová otázka HOW MANY COMBINATIONS?",
+      "note": "Přechod k číslu. Mřížka na týchž souřadnicích jako S06."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "Táž mřížka, nad ní velké 2¹⁰⁰ a pod tím ≈ A MILLION TRILLION TRILLION.",
+      "note": "2^100 se v OBRAZE píše mocninou (spoken tvar řeší VO). 'a million trillion trillion' = 10^30, řádově sedí (2^100 = 1,27·10^30)."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "uvod",
+      "diagram": "Mřížka zmenšená do rohu. Časová osa od BIG BANG doprava, na ní počítadlo 1,000,000,000 / SEC.",
+      "note": "Myšlenkový experiment: miliarda kombinací za sekundu od velkého třesku. Osa vede k dnešku."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "uvod",
+      "diagram": "Velmi dlouhý pruh = všechny kombinace, na jeho začátku nepatrný ambrový úsek se štítkem 1 IN 3000 TESTED.",
+      "note": "Data: za stáří vesmíru otestováno ~1 z 3000 (4,35·10^26 / 1,27·10^30 ≈ 1/2900). assert na poměr, ať obraz netvrdí víc než scénář."
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "uvod",
+      "diagram": "Mřížka přetéká přes všechny okraje rámu (miliony přepínačů), přes ni razítko IMPOSSIBLE.",
+      "note": "Konec bloku o kombinatorice. 'Just test everything' není drahé, je NEMOŽNÉ.",
+      "pause": 2.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "vstup",
+      "diagram": "Čistá 'happy path': USER → [account #] → DATABASE → zpět uživateli. Tři kroky, vše v pořádku.",
+      "note": "Nejjednodušší operace, jakou program dělá. Zavádí tok, na kterém S13–S14 ukážou větve."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "vstup",
+      "diagram": "Týž tok, ale z něj vyrůstají větve s otázkami: DOESN'T EXIST / TEXT, NOT A NUMBER / NEGATIVE / ENORMOUS.",
+      "note": "První sada 'what if'. Každá je odbočka od happy path."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "vstup",
+      "diagram": "Další větve téhož toku: NOT ALLOWED TO SEE IT / DELETED WHILE LOADING / SAME REQUEST TWICE.",
+      "note": "Druhá sada 'what if'. Vizuálně navazuje na S13 (týž tok, další větve)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "vstup",
+      "diagram": "Větve z S13–S14 se sbíhají zpět do mřížky 100 přepínačů (mrizka100()) — každé 'what if' rozsvítí jeden další přepínač.",
+      "note": "PÁTEŘ se vrací: každá otázka = další přepínač, problém je jejich KOMBINACE. Mřížka na týchž souřadnicích jako S06. S15 MUSÍ být statický diagram (dědí ho CTA S15b)."
+    },
+    {
+      "id": "S15b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "note": "VÝZVA K ODBĚRU podle docs/cta.md: dědí obraz S15 (visual→images/S15.png), effect static, cta true. Předchozí scéna JE statický diagram, takže na prolínačce mezi dvěma shodnými obrázky nic neskočí. Nápis vypaluje render.py ze sdílené vrstvy, do diagramu se NEKRESLÍ. V celém videu smí být cta:true jen jednou. Leží ~1:45, tj. za první výplatou (S06–S11) a funkcí 'načti uživatele' — mezi bloky, ne uvnitř rozvedené myšlenky.",
+      "cta": true,
+      "pause": 2.2
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "vstup",
+      "diagram": "Dva panely: WE TELL IT (přesný, doslovný příkaz) vs WE MEANT (co jsme mysleli) — a počítač jde po levém.",
+      "note": "Počítač dělá přesně, co řekneme, ne co myslíme."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "vstup",
+      "diagram": "Jeden vysokoúrovňový příkaz nahoře se rozbaluje do houfu nízkoúrovňových detailů pod ním, které skrývá.",
+      "note": "Proč jsme vymysleli programovací jazyky: popsat složité bez každého detailu. Zavádí abstrakci, kterou S49 vrací."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "pamet",
+      "diagram": "Dlaždice C s vlastnostmi FAST / SIMPLE / FULL CONTROL OVER MEMORY a posuvníkem SAFETY CHECKS na minimu.",
+      "note": "C jako příklad jazyka, který hlídá míň. Osm jazyků z 0.1 sloučeno do jedné věty (viz notes)."
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "pamet",
+      "diagram": "Úryvek kódu v C: 'char buf[16];' a 'strcpy(buf, input);' s popiskem RESERVE ROOM FOR 16 / COPY INPUT HERE.",
+      "note": "ÚRYVEK C v obraze (ne v řeči). Homograf 'read' se scénáři vyhnul. Kód drobně, čitelně."
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "pamet",
+      "diagram": "PÁTEŘ BLOKU: vodorovná řada paměti (mem_row() v _kit.py). Buffer 16 buněk, vstup 500 znaků přetéká šipkou daleko za jeho konec.",
+      "note": "MEMORY ROW — JEDEN obraz, na kterém se přes S20–S26 postupně mění JEDNA věc, ne sedm různých obrázků (notes). Zde: přetečení bufferu. Buffer i mřížka žijí ve _kit.py."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada paměti; buňka hned za bufferem se rozsvítí ambrově s otazníkem a štítkem SOMETHING IMPORTANT.",
+      "note": "Co je hned za bufferem? Napětí před odhalením návratové adresy. Táž řada jako S20."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada; buňka za bufferem popsána RETURN ADDRESS, od ní šipka 'go back here' k dalšímu kódu. Malý štítek CLASSIC LAYOUT.",
+      "note": "Návratová adresa. POZOR (notes): štítek CLASSIC LAYOUT — NESMÍ znít, že to dnes funguje takhle jednoduše (NX/ASLR řeší S59). Klasický zásobníkový rámec."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada, teď zaplněná útočníkem: [ATTACKER INSTRUCTIONS …][NEW RETURN ADDRESS], od nové adresy šipka zpět na začátek instrukcí.",
+      "note": "Útok: vstup přesné délky, vlastní instrukce + přepsaná návratová adresa mířící na ně. Ověř směr šipky (scéna, kde něco míří na něco)."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada; procesor čte návratovou adresu a skáče přímo do útočníkových instrukcí (šipka 'jump' zvýrazněná).",
+      "note": "Funkce skončí, procesor skočí do cizího kódu. Táž řada, mění se jen zvýraznění skoku."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada; útočníkovy instrukce běží (RUNNING), vedle štítek PERMISSIONS: YOURS a nadpis EXECUTING ARBITRARY CODE.",
+      "note": "Cizí program běží s právy toho našeho — 'executing arbitrary code'. Pointa bloku o paměti."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada, klidná; štítek THE PROCESSOR DID NOTHING WRONG — IT FOLLOWED THE INSTRUCTIONS.",
+      "note": "Procesor neudělal chybu, jen poslechl. Uzavírá mechanismus."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "pamet",
+      "diagram": "Malý graf rané sítě (pár propojených uzlů), po nich se šíří značka červa, štítek 1988 — MORRIS WORM, a osa '…and ever since'.",
+      "note": "Konec bloku o paměti. Morris worm 1988, tentýž trik dodnes. ALTERNATIVA k diagramu: archivní snímek diskety Morris worm (Computer History Museum, má jméno, dá se vyfotit) — nasadit jen, kdyby diagram nefungoval.",
+      "pause": 2.6
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Brána COMPILER: programy proudí zleva, ty, které by mohly zneužít paměť, jsou odmítnuty (REFUSED), bezpečné projdou. Štítek RUST.",
+      "note": "Novější jazyky předávají část práce překladači. FACTCHECK: Rust odmítá MNOHÉ, ne všechny programy (existuje 'unsafe') — v obraze 'many', ne 'all'."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Dvě bubliny: programátor 'BUT I KNOW WHAT I'M DOING!' a překladač 'THAT'S WHAT EVERYONE SAYS.'",
+      "note": "Odlehčení. Ověř, že ocásky bublin míří ke správnému mluvčímu."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Prstencový graf ~70 % podílu se štítkem MEMORY SAFETY BUGS a zdroji MICROSOFT / CHROME TEAM.",
+      "note": "Data: ~70 % bezpečnostních chyb je paměťových. FACTCHECK: číslo je Microsoft + Chrome team (high/critical Chromia), proto 'Chrome team', ne celý Google. assert na 70 %."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Vedle sebe zelený odznak MEMORY-SAFE ✓ a červený COMPLETELY WRONG ✗.",
+      "note": "Kontrast: paměťově bezpečný a přitom úplně špatný. Barva tu NESE význam (bezpečné/špatné), ne dekorace."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Přihlášení, samé zelené kontroly: PASSWORD OK / NO CRASH / MEMORY OK.",
+      "note": "Vše zdánlivě v pořádku. Připravuje obrat v S33.",
+      "pause": 0.5
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Týž přihlašovací tok, ale výstup doručí SOMEONE ELSE'S DATA; kontrola oprávnění označena SLIGHTLY WRONG.",
+      "note": "Pauza 0,5 patří k PŘEDCHOZÍ scéně (S32) — S33 pokračuje v rozjeté větě. Chybná kontrola oprávnění → cizí data; ověř, že šipka míří k cizím datům, ne zpět."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "jazyky",
+      "diagram": "Box jazyka/překladače s otazníkem nad 'INTENT'; pod tím ONLY WE KNOW WHAT IT SHOULD DO.",
+      "note": "Konec bloku: žádný jazyk nezná ZÁMĚR programu, jen my. Můstek k Dijkstrovi (testování).",
+      "pause": 2.4
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Testovací box: INPUT → RESULT, jediná šipka, jediný případ. Štítek FOR THIS INPUT, THIS RESULT.",
+      "note": "Zpět k testování: test řekne jen o jednom vstupu."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Mnoho vstupů, jen hrstka otestovaná; přes 'EVERY INPUT?' přeškrtnutí. Odkaz zpět na nemožnost z S08–S11.",
+      "note": "Test neřekne 'správně pro každý vstup' — a všechny vyzkoušet nejde (viz mřížka)."
+    },
+    {
+      "id": "S37",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Edsger Dijkstra",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 1
+      },
+      "note": "PORTRÉT DIJKSTRY, fit 0.84, STATIC, BEZ ZOOMU (nahlášená vada 004/008 — nájezd uřízne čelo). Jméno + rok 1970 vedle. Citát ('Testing can show the presence of bugs, but never their absence') nese VO a titulek. PICK vybrat až po --search a kontaktním listu, ne od stolu. Náhrada, kdyby Commons nic volného neměl: diagram citátu.",
+      "pause": 2.6
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Hypotetický (ČÁRKOVANĚ) box MAGIC CHECKER: libovolný CODE dovnitř → verdikt CORRECT? ven.",
+      "note": "Nápad: program, který prověří jiné programy. Čárkovaně = hypotéza (konvence plná×čárkovaná)."
+    },
+    {
+      "id": "S39",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Alan Turing",
+        "grade": {
+          "fit": 0.84
+        },
+        "pick": 3
+      },
+      "note": "PORTRÉT TURINGA, fit 0.84, STATIC, BEZ ZOOMU. Jméno + rok 1936 vedle. Tvrzení ('takový program NEMŮŽE existovat') nese VO. PICK až po --search a kontaktním listu. Náhrada: diagram."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Box MAGIC CHECKER z S38 tvrdě přeškrtnutý celý: CANNOT EXIST — ne 'NOT YET'.",
+      "note": "Přeškrtnutí CELÉHO nadpisu = 'neplatí vůbec' (konvence). Rozdíl 'ještě ne' × 'nikdy' je pointa scény."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Program, který dostane sám sebe na vstup; DECIDER se ptá WILL IT EVER STOP? a nedokáže odpovědět pro všechny.",
+      "note": "Problém zastavení (halting). Bez hesla 'halting' v řeči, ukazuje ho obraz."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Henry Rice, 1953. Seznam otázek o chování programu, u všech razítko UNDECIDABLE IN GENERAL. Šipka 'goes further' od S41.",
+      "note": "Riceova věta rozšiřuje halting na každou netriviální otázku o chování programu. FACTCHECK rok 1953, Henry Gordon Rice."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Tři otázky IS IT SECURE? / DOES IT LEAK DATA? / IS THE ANSWER RIGHT? → pod nimi NO GENERAL METHOD.",
+      "note": "Konec bloku o nemožnosti. Vrací frázi 'no general method' (kterou S55 uzavře).",
+      "pause": 2.4
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Přechod: 'EVERY PROGRAM' (přeškrtnuté) → 'ONE SPECIFIC PROGRAM' (možné, se štítkem WITH ENORMOUS EFFORT).",
+      "note": "Ne úplně nemožné: jeden konkrétní program dokázat lze, draze. Zavádí seL4."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Box jádra seL4 s odznakem PROVED ✓ = MATCHES ITS SPECIFICATION, štítek 2009 / AUSTRALIA.",
+      "note": "seL4 2009 (NICTA). 'seL4' v pronounce ('ess ee ell four') — poslechem ověřit. Dokázáno, že dělá přesně, co říká specifikace."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Srovnání sloupci: seL4 <10k lines; úsilí BUILD 2 person-years vs PROVE 20 person-years (poměr 1:10); vedle obří sloupec BROWSER: TENS OF MILLIONS OF LINES.",
+      "note": "Data ze SOSP 2009 §5.2: 2,2 py stavba, 20 py důkaz (poměr 1:10). assert na poměr i na měřítko browseru. Ukazuje cenu důkazu."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "dukazy",
+      "diagram": "CODE == SPEC ✓, ale nad tím mezera: SPEC =? WHAT WE ACTUALLY WANTED.",
+      "note": "Háček: důkaz ukáže shodu se specifikací, ne že specifikace je to, co jsme chtěli."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "dukazy",
+      "diagram": "Specifikace SPEC se šipkou 'written by' k ikonám lidí a odtud šipka zpět THE QUESTION COMES BACK TO US.",
+      "note": "Specifikaci píšou lidé → otázka se vrací k nám. Uzavírá blok o důkazech.",
+      "pause": 2.4
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "system",
+      "diagram": "Vaše aplikace nahoře stojí na stohu vrstev: FRAMEWORKS / LIBRARIES / HUNDREDS OF DEPENDENCIES. Každá vrstva šetří práci (štítek), ale je nutné jí rozumět nebo důvěřovat.",
+      "note": "Abstrakce, důvěra a vrstvy v JEDNÉ scéně (0.2: OS/překladač/procesor do obrazu, ne do řeči). Navazuje na abstrakci z S17.",
+      "pause": 0.5
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "system",
+      "diagram": "Blok závislosti s chybou uvnitř, šipka INSTALLED → do vaší aplikace. Štítek YOU DON'T HAVE TO WRITE A BUG.",
+      "note": "Pauza 0,5 patří k S49 (S50 pokračuje ve větě). Chybu stačí nainstalovat."
+    },
+    {
+      "id": "S51",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S51.png",
+      "prompt": "a single lit desk in a dark open-plan office late at night, one empty chair, quiet urgency, flat diffuse light with no sun, empty space around the desk, no clock, no text",
+      "note": "SDXL ATMOSFÉRA (plán): tlak termínu. Bez hodin a textu (SDXL je nezvládá). Ne denní doba kvůli chladu — 'no sun' v promptu. slow_zoom_in dovnitř tlaku."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "system",
+      "diagram": "Stoupající šipka BETTER TOOLS a na ní SAFER LANGUAGES / FUZZING / BUG BOUNTIES.",
+      "note": "Nástroje se lepší. 'even AI that writes code' vypuštěno (0.2), ať video neodbočí k debatě o AI."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "system",
+      "diagram": "Rostoucí sloupce/křivka počtu známých zranitelností, u roku 2024 ≈ 40,000 CVE / OFFICIAL NUMBERS.",
+      "note": "Přesto zranitelností přibývá: 2024 kolem 40 000 (0.4: 'around', datasety 39 957–40 009). assert ~40000. FACTCHECK počet CVE za 2024.",
+      "pause": 0.5
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "system",
+      "diagram": "Metafora silnic: každá silnice dostane značku SAFER, ale přibývá MILLIONS MORE ROADS.",
+      "note": "Pauza 0,5 patří k S53 (S54 pokračuje ve větě). Píšeme mnohem víc softwaru — bezpečnější silnice, ale mnohonásobně víc silnic.",
+      "pause": 2.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "system",
+      "diagram": "Programátor drží požadavek GUARANTEE: NO BUGS, na něm razítko NO GENERAL METHOD CAN. Velké klidné NO.",
+      "note": "'No.' je BEAT (notes) — když v hlase splyne, rozdělit scénu. Programátoři nejsou špatní; chtěli jsme po nich něco, co obecná metoda nezaručí. Vrací 'no general method' z S43/S55."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "system",
+      "diagram": "Otázka HOW DO WE WRITE SOFTWARE WITHOUT BUGS? přeškrtnutá jako WRONG QUESTION.",
+      "note": "Přerámování: špatná otázka. Přeškrtnutí celé otázky = 'takhle se ptát nemá'."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "system",
+      "diagram": "VÝPLATA PÁTEŘE: mřížka 100 přepínačů (mrizka100()) je teď obklopená ochranným rámem/vrstvami; jeden přepínač je špatně (ambrově), ale systém drží. Nad tím THE BETTER QUESTION: STAY SAFE EVEN WITH BUGS.",
+      "note": "VÝPLATA páteře z S06/S15: neptáme se 'jak vyřadit všechny přepínače správně' (nemožné), ale 'jak přežít jeden špatný'. Mřížka na týchž souřadnicích. Hlavní obrat videa.",
+      "pause": 2.6
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "system",
+      "diagram": "Dvě hesla: NEVER MAKE A MISTAKE (přeškrtnuté) → ASSUME YOU ALREADY HAVE (ambrově).",
+      "note": "Kam bezpečnost míří: předpokládej, že chybu už máš."
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "pamet",
+      "diagram": "ZNOVU MEMORY ROW (mem_row() z bloku S20): návratová adresa je teď chráněná (štít), pozice v paměti zamíchané (SHUFFLED / ASLR), oblast dat označená NON-EXECUTABLE (NX).",
+      "note": "Reuse páteře bloku o paměti — táž řada, jiný stav. Obrana: ASLR (zamíchání) a NX (data se nespustí). generator 'pamet', ať se řada kreslí jednou funkcí."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "pamet",
+      "diagram": "Táž řada; chyba v C kódu je pořád tam (ambrově), ale cesta k útoku přeškrtnutá/zablokovaná. Štítek STILL THERE — MUCH HARDER TO EXPLOIT.",
+      "note": "Chyba zůstává, jen se hůř zneužije. Uzavírá myšlenku 'systém drží i s chybou'."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "system",
+      "diagram": "Soustředné vrstvy obrany kolem jádra: SANDBOXES / LIMITED PERMISSIONS / ISOLATED PROCESSES / ENCRYPTION / BACKUPS / MONITORING — vrstva za vrstvou.",
+      "note": "Konec bloku o obraně do hloubky: jedna chyba se nesmí stát katastrofou. Každá vrstva má popisek (abstraktní tvar bez legendy neříká nic).",
+      "pause": 2.4
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "system",
+      "diagram": "BUGS ARE INEVITABLE → FIXING THEM ISN'T OPTIONAL.",
+      "note": "Praktický důsledek. 'inevitable' (0.2, dřív 'certain')."
+    },
+    {
+      "id": "S63",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S63.png",
+      "prompt": "an ordinary laptop open on a plain wooden table in a quiet everyday room, soft flat diffuse light with no sun, empty space around it, matte surfaces, no text, no logo, no glowing screen",
+      "note": "SDXL ATMOSFÉRA (plán): obyčejný notebook, všednost. 'no glowing screen' a 'no sun' proti kotvě/teplu. slow_zoom_out = rozšíření do všednosti. Software, co používáš dnes, možná chybu má.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "system",
+      "diagram": "Rozcestí: s UPDATE → 'A VULNERABILITY WAS DISCOVERED' (klid); bez → 'WE WERE HACKED'. Horní polovina volná.",
+      "note": "Pauza 0,5 patří k S63 (S64 pokračuje ve větě). Aktualizace je ten rozdíl. ZÁVĚREČNÁ OBRAZOVKA: začíná okno posledních ~20 s — horní polovinu nech volnou (docs)."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "system",
+      "diagram": "Staré knihovny a nepodporované platformy stárnou do hromady TECHNICAL DEBT; ignorováním nezbezpečnějí. Horní polovina volná.",
+      "note": "Technický dluh. ZÁVĚREČNÁ OBRAZOVKA: horní polovina volná pro dlaždici dalšího videa a kolečko odběru (dole je vždy titulek).",
+      "pause": 0.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "system",
+      "diagram": "Odkazová karta na jiné video: title 'It Still Works. So Why Upgrade It?' (video 019), drobně v dolní části. Horní polovina volná.",
+      "note": "Pauza 0,5 patří k S65 (S66 pokračuje ve větě). Odkaz na 019 — titul převzat z youtube-preklady. ZÁVĚREČNÁ OBRAZOVKA: horní polovina volná.",
+      "pause": 0.5
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "system",
+      "diagram": "Dvě klidné vrstvy: IT STILL WORKS  ≠  IT'S STILL SAFE. Horní polovina volná.",
+      "note": "POSLEDNÍ SCÉNA. Klidná, horní polovina volná pro závěrečnou obrazovku, delší pauza ať deska drží.",
+      "pause": 3.0
+    }
+  ]
+}

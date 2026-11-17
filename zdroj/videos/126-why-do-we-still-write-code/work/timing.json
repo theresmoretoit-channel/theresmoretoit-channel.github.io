@@ -1,0 +1,533 @@
+{
+  "total": 598.977,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 6.147,
+      "end": 6.947,
+      "dur": 6.797,
+      "text": "Here is a complete requirement for a piece of business software. A user can cancel an order."
+    },
+    {
+      "id": "S02",
+      "start": 6.947,
+      "speech_end": 11.365,
+      "end": 12.165,
+      "dur": 5.218,
+      "text": "Six words. Any developer would nod. Any customer would sign it."
+    },
+    {
+      "id": "S03",
+      "start": 12.165,
+      "speech_end": 18.012,
+      "end": 18.812,
+      "dur": 6.647,
+      "text": "So, can a user cancel an order after the invoice has gone out? After it has been shipped?"
+    },
+    {
+      "id": "S04",
+      "start": 18.812,
+      "speech_end": 27.497,
+      "end": 28.297,
+      "dur": 9.485,
+      "text": "Does cancelling it also cancel the reservation with the supplier? And what if two people cancel and approve the same order in the same second?"
+    },
+    {
+      "id": "S05",
+      "start": 28.297,
+      "speech_end": 40.537,
+      "end": 42.937,
+      "dur": 14.64,
+      "text": "The sentence answers none of that. The code has to answer all of it. And that gap, between the sentence and the code, is what programmers are actually paid for. At least they used to be."
+    },
+    {
+      "id": "S06",
+      "start": 42.937,
+      "speech_end": 53.119,
+      "end": 53.919,
+      "dur": 10.982,
+      "text": "Today there is a tempting idea. Write only the sentences. Keep them in documents, review them, version them. And let an AI write the code."
+    },
+    {
+      "id": "S07",
+      "start": 53.919,
+      "speech_end": 62.07,
+      "end": 62.87,
+      "dur": 8.951,
+      "text": "The specification becomes the source code. The code becomes what assembly is today: something that runs, and that nobody reads."
+    },
+    {
+      "id": "S08",
+      "start": 62.87,
+      "speech_end": 66.15,
+      "end": 68.35,
+      "dur": 5.48,
+      "text": "It is a good idea. It is also not a new one."
+    },
+    {
+      "id": "S09",
+      "start": 68.35,
+      "speech_end": 81.239,
+      "end": 82.039,
+      "dur": 13.689,
+      "text": "For nearly seventy years, people have tried to raise the level at which we tell computers what to do. The tools were different, and so were their goals. But each one moved more of the work from people to machines."
+    },
+    {
+      "id": "S10",
+      "start": 82.039,
+      "speech_end": 90.809,
+      "end": 91.609,
+      "dur": 9.57,
+      "text": "In 1957, a team at IBM published a paper about FORTRAN. Its title called it an automatic coding system."
+    },
+    {
+      "id": "S11",
+      "start": 91.609,
+      "speech_end": 100.977,
+      "end": 101.777,
+      "dur": 10.167,
+      "text": "At the time, that was an accurate name. You wrote formulas, and the machine instructions, the part people had written by hand, were now produced by the machine."
+    },
+    {
+      "id": "S12",
+      "start": 101.777,
+      "speech_end": 103.757,
+      "end": 105.357,
+      "dur": 3.58,
+      "text": "Today we call FORTRAN code."
+    },
+    {
+      "id": "S13",
+      "start": 105.357,
+      "speech_end": 116.388,
+      "end": 117.188,
+      "dur": 11.831,
+      "text": "In the 1980s, CASE tools and fourth-generation languages went a level higher. Draw the diagrams, fill in the forms, and much of the application is generated for you."
+    },
+    {
+      "id": "S14",
+      "start": 117.188,
+      "speech_end": 124.249,
+      "end": 125.049,
+      "dur": 7.861,
+      "text": "In 2001, the Object Management Group, the body behind UML, announced Model Driven Architecture."
+    },
+    {
+      "id": "S15",
+      "start": 125.049,
+      "speech_end": 136.573,
+      "end": 137.373,
+      "dur": 12.324,
+      "text": "The pitch will sound familiar. You describe the system once, as a model, independent of any technology. Then tools generate the implementation for whatever platform you need."
+    },
+    {
+      "id": "S16",
+      "start": 137.373,
+      "speech_end": 140.317,
+      "end": 140.917,
+      "dur": 3.544,
+      "text": "Same business rules. Replaceable technology."
+    },
+    {
+      "id": "S17",
+      "start": 140.917,
+      "speech_end": 151.991,
+      "end": 152.791,
+      "dur": 11.874,
+      "text": "And in 2014, the analysts at Forrester gave a name to platforms for building business applications with as little hand-written code as possible. They called it low-code."
+    },
+    {
+      "id": "S18",
+      "start": 152.791,
+      "speech_end": 154.477,
+      "end": 155.877,
+      "dur": 3.085,
+      "text": "So, did any of it work?"
+    },
+    {
+      "id": "S19",
+      "start": 155.877,
+      "speech_end": 166.46,
+      "end": 167.26,
+      "dur": 11.383,
+      "text": "Partly. In 2014, researchers at Lancaster University published a survey of four hundred and fifty people who were actually using model-driven development."
+    },
+    {
+      "id": "S20",
+      "start": 167.26,
+      "speech_end": 176.629,
+      "end": 177.429,
+      "dur": 10.169,
+      "text": "It did work, more widely than many people thought. But rarely for a whole system. People used it for key parts, and built the rest in other ways."
+    },
+    {
+      "id": "S21",
+      "start": 177.429,
+      "speech_end": 186.839,
+      "end": 187.839,
+      "dur": 10.41,
+      "text": "The biggest obstacles they found were people and organisations, not tools. But there is a technical limit too, and programmers have a joke about it."
+    },
+    {
+      "id": "S22",
+      "start": 187.839,
+      "speech_end": 194.668,
+      "end": 195.868,
+      "dur": 8.029,
+      "text": "A specification precise enough to generate the whole program from... already has a name. It's called code."
+    },
+    {
+      "id": "S23",
+      "start": 195.868,
+      "speech_end": 203.934,
+      "end": 204.734,
+      "dur": 8.866,
+      "text": "To generate everything, the model had to say everything. Every state, every exception, every \"what if two people do it at once\"."
+    },
+    {
+      "id": "S24",
+      "start": 204.734,
+      "speech_end": 213.284,
+      "end": 215.484,
+      "dur": 10.75,
+      "text": "At that point you haven't escaped programming. You've just moved it into a diagram, which is often harder to read, to compare, and to review."
+    },
+    {
+      "id": "S25",
+      "start": 215.484,
+      "speech_end": 225.769,
+      "end": 226.569,
+      "dur": 11.085,
+      "text": "Back in the late 1970s, Edsger Dijkstra put the other half of it into a short note with a blunt title. On the foolishness of natural language programming."
+    },
+    {
+      "id": "S26",
+      "start": 226.569,
+      "speech_end": 235.829,
+      "end": 236.629,
+      "dur": 10.061,
+      "text": "His point was that formal notation isn't a burden we put up with. He called it an amazingly effective tool for ruling out all sorts of nonsense."
+    },
+    {
+      "id": "S27",
+      "start": 236.629,
+      "speech_end": 241.819,
+      "end": 244.419,
+      "dur": 7.79,
+      "text": "Plain English doesn't rule it out. It hides it. A user can cancel an order."
+    },
+    {
+      "id": "S28",
+      "start": 244.419,
+      "speech_end": 247.257,
+      "end": 248.257,
+      "dur": 3.837,
+      "text": "So if none of that replaced code, why try again?"
+    },
+    {
+      "id": "S29",
+      "start": 248.257,
+      "speech_end": 250.433,
+      "end": 251.633,
+      "dur": 3.376,
+      "text": "Because one thing really is different."
+    },
+    {
+      "id": "S30",
+      "start": 251.633,
+      "speech_end": 264.863,
+      "end": 265.663,
+      "dur": 14.031,
+      "text": "Older generators couldn't fill a gap on their own. If the model didn't say what happens to a shipped order, someone had to add that rule explicitly. Until they did, the gap was still there, and you could find it."
+    },
+    {
+      "id": "S31",
+      "start": 265.663,
+      "speech_end": 272.748,
+      "end": 273.548,
+      "dur": 7.885,
+      "text": "An AI doesn't stop. Give it the six-word requirement and it will answer every question we asked at the start."
+    },
+    {
+      "id": "S32",
+      "start": 273.548,
+      "speech_end": 287.357,
+      "end": 288.157,
+      "dur": 14.609,
+      "text": "It will decide that a shipped order can be cancelled. Or that it can't. It will decide about the invoice, and about the supplier. It will produce code that runs, looks reasonable, and passes the tests it wrote itself."
+    },
+    {
+      "id": "S33",
+      "start": 288.157,
+      "speech_end": 296.779,
+      "end": 298.179,
+      "dur": 10.023,
+      "text": "That is exactly what makes it useful. And exactly what makes it dangerous. Because a plausible guess is not a business decision."
+    },
+    {
+      "id": "S34",
+      "start": 298.179,
+      "speech_end": 299.889,
+      "end": 301.489,
+      "dur": 3.31,
+      "text": "The gaps used to be errors."
+    },
+    {
+      "id": "S35",
+      "start": 301.489,
+      "speech_end": 304.949,
+      "end": 307.949,
+      "dur": 6.46,
+      "text": "Now they are decisions that nobody noticed being made."
+    },
+    {
+      "id": "S36",
+      "start": 307.949,
+      "speech_end": 313.987,
+      "end": 314.787,
+      "dur": 6.837,
+      "text": "So if the specification really is going to be the source code, it can't be a few informal paragraphs."
+    },
+    {
+      "id": "S37",
+      "start": 314.787,
+      "speech_end": 324.263,
+      "end": 325.063,
+      "dur": 10.276,
+      "text": "Picture the repository. One document describes orders and every state they can be in. Another says who can approve them, and who can cancel them."
+    },
+    {
+      "id": "S38",
+      "start": 325.063,
+      "speech_end": 334.537,
+      "end": 335.337,
+      "dur": 10.274,
+      "text": "A third says when an invoice is issued, and when it has to be reversed. Another describes the accounting system, including what happens when it's down."
+    },
+    {
+      "id": "S39",
+      "start": 335.337,
+      "speech_end": 346.197,
+      "end": 346.797,
+      "dur": 11.461,
+      "text": "Some of it is ordinary prose. But wherever prose would be ambiguous, there is something stricter: a list of states and the moves between them, a schema, a rule a machine can check."
+    },
+    {
+      "id": "S40",
+      "start": 346.797,
+      "speech_end": 350.744,
+      "end": 351.544,
+      "dur": 4.747,
+      "text": "And next to it, acceptance tests that say exactly what must happen."
+    },
+    {
+      "id": "S41",
+      "start": 351.544,
+      "speech_end": 358.884,
+      "end": 361.084,
+      "dur": 9.54,
+      "text": "All of it lives in Git. Changes are reviewed. Every requirement can be traced to the test that checks it."
+    },
+    {
+      "id": "S42",
+      "start": 361.084,
+      "speech_end": 372.245,
+      "end": 373.045,
+      "dur": 11.961,
+      "text": "So what does a change look like? Say the customer decides that a shipped order can still be cancelled, as long as it hasn't been delivered. And then the invoice must be reversed."
+    },
+    {
+      "id": "S43",
+      "start": 373.045,
+      "speech_end": 379.255,
+      "end": 379.855,
+      "dur": 6.81,
+      "text": "Nobody opens the backend. A developer changes one rule in the document about orders."
+    },
+    {
+      "id": "S44",
+      "start": 379.855,
+      "speech_end": 390.763,
+      "end": 391.363,
+      "dur": 11.507,
+      "text": "Then the system goes looking for everything that rule touches. The order states. The invoice rules. The tests about cancelling. The reservation with the supplier."
+    },
+    {
+      "id": "S45",
+      "start": 391.363,
+      "speech_end": 403.271,
+      "end": 404.071,
+      "dur": 12.708,
+      "text": "And there, it should stop and ask. The specification never said what happens to a supplier reservation once the goods are on the road. That is a decision, so it goes back to a person."
+    },
+    {
+      "id": "S46",
+      "start": 404.071,
+      "speech_end": 416.386,
+      "end": 416.986,
+      "dur": 12.915,
+      "text": "Only then is the new implementation generated. And it is checked in both directions. The tests for the new rule should pass. And every other test should still pass, unchanged."
+    },
+    {
+      "id": "S47",
+      "start": 416.986,
+      "speech_end": 424.369,
+      "end": 425.169,
+      "dur": 8.183,
+      "text": "Because a change to cancelling must not quietly change anything else. Though passing tests only shows what the tests check."
+    },
+    {
+      "id": "S48",
+      "start": 425.169,
+      "speech_end": 434.535,
+      "end": 435.135,
+      "dur": 9.965,
+      "text": "And because the rules are not tied to the technology, the same specification could produce a PHP application today, and something else entirely tomorrow."
+    },
+    {
+      "id": "S49",
+      "start": 435.135,
+      "speech_end": 444.325,
+      "end": 446.725,
+      "dur": 11.59,
+      "text": "Which is precisely what Model Driven Architecture promised twenty-five years ago. The difference is that, this time, the generator might be good enough."
+    },
+    {
+      "id": "S50",
+      "start": 446.725,
+      "speech_end": 452.721,
+      "end": 453.521,
+      "dur": 6.797,
+      "text": "That leaves the hardest question. How do you know the AI actually followed the specification?"
+    },
+    {
+      "id": "S51",
+      "start": 453.521,
+      "speech_end": 462.91,
+      "end": 464.11,
+      "dur": 10.589,
+      "text": "Code that works in ordinary situations can still fail in unusual ones. And the unusual ones are exactly the cases nobody thinks to test."
+    },
+    {
+      "id": "S52",
+      "start": 464.11,
+      "speech_end": 478.299,
+      "end": 479.099,
+      "dur": 14.989,
+      "text": "Amazon ran into this on its own cloud systems. In 2014, its engineers described how they had started writing precise, mathematical descriptions of their designs, in a language called TLA+."
+    },
+    {
+      "id": "S53",
+      "start": 479.099,
+      "speech_end": 489.575,
+      "end": 490.375,
+      "dur": 11.277,
+      "text": "Not the code. The design itself. A tool then took a model of the system, limited to a fixed size, and tried every possible ordering of failures and recoveries."
+    },
+    {
+      "id": "S54",
+      "start": 490.375,
+      "speech_end": 495.837,
+      "end": 496.637,
+      "dur": 6.261,
+      "text": "In DynamoDB, Amazon's database service, it found a bug that could lose data."
+    },
+    {
+      "id": "S55",
+      "start": 496.637,
+      "speech_end": 505.607,
+      "end": 508.007,
+      "dur": 11.37,
+      "text": "The shortest way to trigger it took thirty-five steps, in exactly the right order. It had passed design reviews, code reviews, and testing."
+    },
+    {
+      "id": "S56",
+      "start": 508.007,
+      "speech_end": 517.657,
+      "end": 519.857,
+      "dur": 11.85,
+      "text": "So the honest version of the idea isn't that AI writes the code and we trust it. It's that AI writes the code, and something independent checks it."
+    },
+    {
+      "id": "S57",
+      "start": 519.857,
+      "speech_end": 521.691,
+      "end": 522.691,
+      "dur": 2.835,
+      "text": "Now look at what we've built."
+    },
+    {
+      "id": "S58",
+      "start": 522.691,
+      "speech_end": 529.351,
+      "end": 530.151,
+      "dur": 7.46,
+      "text": "Precise states. Formal rules. Checkable tests. Versioned, reviewed, kept in a repository."
+    },
+    {
+      "id": "S59",
+      "start": 530.151,
+      "speech_end": 535.38,
+      "end": 536.38,
+      "dur": 6.229,
+      "text": "That doesn't look like the end of programming. It looks like programming, in a new language."
+    },
+    {
+      "id": "S60",
+      "start": 536.38,
+      "speech_end": 547.179,
+      "end": 547.779,
+      "dur": 11.399,
+      "text": "And that is what happened every time. FORTRAN was automatic coding, until it became the code. Each time the machine took over the how, people moved up to the what."
+    },
+    {
+      "id": "S61",
+      "start": 547.779,
+      "speech_end": 559.209,
+      "end": 561.409,
+      "dur": 13.63,
+      "text": "And the what was always the hard part. Not typing, but deciding. What happens to a shipped order. Who is allowed to touch which data. What the system must never do."
+    },
+    {
+      "id": "S62",
+      "start": 561.409,
+      "speech_end": 565.825,
+      "end": 566.425,
+      "dur": 5.016,
+      "text": "Maybe the programmer of the future won't write thousands of lines of code."
+    },
+    {
+      "id": "S63",
+      "start": 566.425,
+      "speech_end": 573.465,
+      "end": 574.265,
+      "dur": 7.84,
+      "text": "But someone will still have to understand a problem well enough to say exactly what a computer must do, and to check that it did it."
+    },
+    {
+      "id": "S64",
+      "start": 574.265,
+      "speech_end": 581.347,
+      "end": 581.947,
+      "dur": 7.683,
+      "text": "And if the specification becomes the source code, the most important skill might no longer be knowing how to write a program."
+    },
+    {
+      "id": "S65",
+      "start": 581.947,
+      "speech_end": 584.287,
+      "end": 587.287,
+      "dur": 5.34,
+      "text": "It might be knowing how to describe one."
+    },
+    {
+      "id": "S66",
+      "start": 587.287,
+      "speech_end": 596.577,
+      "end": 598.977,
+      "dur": 11.69,
+      "text": "So here is the question I'd like to hear your answer to. If you write a specification precise enough for a machine to build from... are you still programming?"
+    }
+  ]
+}

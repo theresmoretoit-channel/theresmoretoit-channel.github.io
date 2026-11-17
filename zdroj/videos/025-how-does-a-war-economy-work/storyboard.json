@@ -1,0 +1,717 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "ZAVÁDÍ PÁTEŘ CELÉHO VIDEA. Pruh má od téhle scény PEVNOU šířku i pozici a nikdy se neprodlouží — to je doslova argument videa. Kdyby se natáhl, výplata v S68 se nepozná. Kreslí se výhradně přes kapacita.pruh(), nikdy ručně.",
+   "diagram_generator": "kapacita",
+   "diagram": "ZAVÁDÍ PRUH: vodorovný pruh pevné šířky uprostřed plátna, rozdělený na světlé segmenty CARS, FRIDGES, FOOD, HOUSES; nad ním nadpis WHAT A COUNTRY CAN MAKE, pod ním drobné postavičky jdoucí do práce"
+  },
+  {
+   "id": "S02",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S02.png",
+   "note": "Jediný atmosférický předěl v první třetině. ŽÁDNÁ bojová scéna — negative prompt vylučuje výbuchy, oheň a zbraně. Válka je tu jen tím, že se zhaslo.",
+   "prompt": "a wide empty industrial street at night seen from a distance, rows of dark factory windows with only one lit, cold blue-grey tones, a few small figures walking away, wet cobblestones, quiet and still, no text"
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "note": "Výčet ze scénáře. Ikony musí být rozpoznatelné i v malém — tank jako silueta shora, loď jako obrys trupu. Prázdné místo nalevo je záměr: teprve S04 se zeptá, odkud se to vezme.",
+   "diagram_generator": "valka",
+   "diagram": "sloupec požadavků vlády: UNIFORMS, TRUCKS, SHELLS, AIRCRAFT, SHIPS, TANKS, každý s drobnou ikonou; nalevo od nich prázdné místo"
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "note": "Otázka celého videa. Otazník sedí přesně tam, kde bylo v S03 prázdno — divák tak vidí, že se ptáme na tu díru.",
+   "diagram_generator": "valka",
+   "diagram": "týž sloupec požadavků, nalevo velký ambrový otazník a nadpis WHERE DOES THIS COME FROM"
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "note": "MECHANISMUS, ne ilustrace věty (uživatel to označil jmenovitě). Divák má vidět, že vpravo NIC nevzniklo — tank je jen čárkovaný obrys. Čárkování = „mělo by tu být, ale není\", konvence videa.",
+   "diagram_generator": "penize",
+   "diagram": "vlevo tiskařský stroj chrlící stoh bankovek, uprostřed ambrová šipka, vpravo prázdný obrys tanku čárkovaně; přes šipku škrt"
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "note": "Pruh se poprvé dělí. Šířka se NEMĚNÍ — mění se jen dělicí čára. Tohle je vizuální definice slova redistribution.",
+   "diagram_generator": "kapacita",
+   "diagram": "týž pruh jako v S01 na týchž souřadnicích, ale svislá ambrová dělicí čára ho dělí na CIVILIAN a MILITARY; segmenty vpravo od čáry ztmavly",
+   "pause": 2.4
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "note": "Normální ekonomika: poptávka řídí výrobu. Jednoduchý řetěz zleva doprava — v S08 se do něj vloží nový zákazník.",
+   "diagram_generator": "presmerovani",
+   "diagram": "vlevo postavičky s bublinou WE WANT HOUSES, ambrová šipka doprava do továrny, z továrny vychází domek"
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "note": "Vláda se PŘIDÁVÁ ke stejné továrně, nenahrazuje ji. Velikost postavy nese tvrzení „one of the largest customers\" — to je konvence velikosti z docs/storyboard-a-diagramy.md.",
+   "diagram_generator": "presmerovani",
+   "diagram": "týž řetěz jako v S07, ale nad postavičkami se objeví výrazně větší ambrová postava GOVERNMENT s vlastní šipkou do téže továrny"
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "note": "Přesun důrazu, ne nahrazení — proto je horní otázka ztlumená, ne přeškrtnutá. Kdyby byla přeškrtnutá, tvrdilo by to, že civilní poptávka zmizela, což scénář neříká.",
+   "diagram_generator": "presmerovani",
+   "diagram": "dvě otázky nad sebou v rámečcích: WHAT DO CONSUMERS WANT (ztlumená) a WHAT DOES THE WAR EFFORT NEED (ambrová, větší)"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "note": "MECHANISMUS. Klíč je, že továrna i ocelárna jsou v obou polovinách NAKRESLENÉ ÚPLNĚ STEJNĚ — jediné, co se liší, je výstup. Kdyby se lišily i budovy, scéna by tvrdila, že se přestavěly.",
+   "diagram_generator": "presmerovani",
+   "diagram": "dvě dvojice vedle sebe: táž továrna vlevo vyrábí auto, vpravo vojenský kamion; pod tím táž ocelárna vlevo dodává nosník, vpravo pancéřovou desku"
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Pointa bloku a jedna z klíčových scén videa. Stroj je jeden a nehýbe se; mění se jen to, kam vede ambrová šipka.",
+   "diagram_generator": "presmerovani",
+   "diagram": "jediná továrna uprostřed, z ní dvě šipky: ztlumená doleva k domku a ambrová doprava k tanku; nadpis SAME MACHINES, pod obrazem DIFFERENT DESTINATION"
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Opakovaná otázka z S04, teď mířená na pruh. Vizuálně nejprázdnější scéna první poloviny — po hutném bloku S07–S11 je to nádech.",
+   "diagram_generator": "kapacita",
+   "diagram": "pruh sám uprostřed prázdného plátna, nad ním velký nadpis BUT WHERE FROM",
+   "pause": 1.4
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "note": "Strop nad každým sloupečkem je to tvrzení — každá zásoba má konec. Sloupečky NEMAJÍ čísla ani osu, protože scénář žádná nedává (pravidlo „žádná osa tam, kde ji zdroj nemá\").",
+   "diagram_generator": "kapacita",
+   "diagram": "týž pruh, pod ním vypsané zásoby jako svislé sloupečky konečné výšky: STEEL, COPPER, OIL, ELECTRICITY, FACTORIES, WORKERS, TIME; nad každým vodorovná čára stropu"
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "note": "MECHANISMUS a měřitelné tvrzení: co přibude ambrové, musí ubýt ztlumené. Generátor to počítá a jistí ASSERTem, jinak by obraz mohl tvrdit, že se zdroje vyrobily z ničeho.",
+   "diagram_generator": "kapacita",
+   "diagram": "tytéž sloupečky, ambrová část zdola roste směrem k vojenskému užití a ztlumená civilní část se o TOTÉŽ zmenšuje; mezi nimi vodorovná šipka"
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "note": "Navazuje na S05 týmž vizuálním slovníkem (bankovky vlevo, zbraň vpravo). Číslo ve scénáři schválně není, tak není ani v obraze — jen slovo BILLIONS.",
+   "diagram_generator": "penize",
+   "diagram": "vlevo rostoucí stoh bankovek s nápisem BILLIONS, vpravo tank; mezi nimi ambrový nápis NOT THE SAME THING"
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "note": "Odpověď na S15: mezi penězi a zbraní stojí fyzické vstupy. Bankovky zůstávají na místě a ztlumí se — peníze nezmizely, jen nejsou to podstatné.",
+   "diagram_generator": "penize",
+   "diagram": "táž kompozice, ale mezi bankovkami a tankem se rozsvítí tři skutečné vstupy: STEEL, WORKERS, MACHINES, každý s ambrovou šipkou do tanku"
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "note": "Přímý důsledek S14 na páteři. Pruh je pořád stejně dlouhý — kdyby se prodloužil, scéna by popřela sama sebe.",
+   "diagram_generator": "kapacita",
+   "diagram": "týž pruh, dělicí čára se posunula doleva, civilní část je viditelně užší; nad zmenšenou částí ambrová šipka dovnitř a nápis CIVILIAN OUTPUT SHRINKS"
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "note": "Shrnutí bloku a nejdůležitější scéna páteře do téhle chvíle. Šipka nesmí přesahovat mimo pruh — celý pohyb se děje uvnitř téže šířky.",
+   "diagram_generator": "kapacita",
+   "diagram": "týž pruh, přes něj velká ambrová šipka vedoucí ZEVNITŘ civilní části DOVNITŘ vojenské; nadpis MOVING, NOT SPENDING",
+   "pause": 2.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Krátká věta, klidný obraz. Zavádí postavu jako jednotku, se kterou blok počítá.",
+   "diagram_generator": "prace",
+   "diagram": "jediná postava uprostřed prázdného plátna, nad ní nadpis LABOUR"
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "note": "Vojáci jsou plné postavy, chybějící dělníci prázdné obrysy — konvence „plné = je tam, obrys = chybí\". Žádné zbraně: silueta uniformy stačí.",
+   "diagram_generator": "prace",
+   "diagram": "vlevo řada postav v uniformě, vpravo prázdné obrysy u auta, domu a stroje; mezi nimi ambrová šipka doleva"
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Vahy z _kit.py, vyrovnané. Rovnováha je tu tvrzení — scénář říká, že jde o rozpor bez řešení, ne že jedna strana vyhrává.",
+   "diagram_generator": "prace",
+   "diagram": "váhy: na jedné misce WAR NEEDS WORKERS, na druhé WAR TAKES WORKERS AWAY, obě stejně nízko"
+  },
+  {
+   "id": "S22",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "note": "PICK 1 VYBRÁN Z KONTAKTNÍHO LISTU, ne od stolu: Rolls Royce, řada motorů Merlin a ženy u nich (1942). Ostatní nálezy byly buď portrét jedné osoby, nebo pózující skupina — tahle jediná ukazuje PRÁCI i VÝROBNÍ LINKU zároveň, což je obsah scény. Static, protože je to skupina; na skupinový portrét zoom nepatří. Originál je 1229x1300, tedy na výšku — s fit se prakticky nezvětšuje (1300 -> 1296 px), takže měkkost nehrozí, jen bude širší lem rozostřené kopie.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "women factory workers Second World War",
+    "pick": 1,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 45,
+     "tint_amount": 22,
+     "vignette": true
+    }
+   },
+   "pause": 2.4
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "Předěl do historického bloku. Obrys ostrova je jediný tvar na plátně — po hutném bloku o práci je to nádech.",
+   "diagram_generator": "britanie",
+   "diagram": "obrys Británie uprostřed, nad ním nadpis BRITAIN"
+  },
+  {
+   "id": "S24",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "note": "PICK 0 Z KONTAKTNÍHO LISTU: jediný BAREVNÝ snímek oslav (Whitehall, vlajky, dav, 2480x1965). Barva tu není ozdoba — divák musí na první pohled vidět VÍTĚZSTVÍ, jinak nefunguje obrat v S25. Static, je to dav. Grading je tu záměrně mírnější než u ostatních archivních scén (saturation 88, tint 8 proti 45/22): první kolo srazilo jediný barevný snímek videa skoro na monochrom, čímž zmizel důvod, proč byl vybraný — vlajky a barva davu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "VE Day celebrations London 1945",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "saturation": 88,
+     "tint_amount": 8,
+     "vignette": true
+    }
+   }
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "note": "Obrat bloku. Škrtá se slovo RICH vodorovným škrtem přes text (skrt_text), ne křížkem — přes nápis se křížek nekreslí.",
+   "diagram_generator": "britanie",
+   "diagram": "obrys Británie s ambrovým vavřínem nebo značkou vítězství, vedle něj ale prázdná peněženka; nadpis WON, pod tím škrtnuté RICH"
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "note": "Dvě tvrzení scénáře v jednom obraze: dluh nahoru, průmysl pořád vázaný. Sloupec dluhu nemá měřítko ani číslo — scénář žádné nedává.",
+   "diagram_generator": "britanie",
+   "diagram": "sloupec DEBT rostoucí nad obrysem Británie, vedle ztlumená továrna se štítkem STILL ON WAR WORK"
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "note": "Tady se zavádí časová osa, kterou S29 dokončí. Pás přídělů musí zjevně pokračovat za pravý okraj — divák má cítit, že to ještě neskončilo.",
+   "diagram_generator": "britanie",
+   "diagram": "vodorovná časová osa, na ní zřetelná značka WAR ENDS; za ní ale pás přídělů pokračuje dál doprava a nekončí"
+  },
+  {
+   "id": "S28",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "note": "PICK 3 Z KONTAKTNÍHO LISTU: tác s přídělovou knížkou A týdenní dávkou cukru, másla a čaje (1772x1856). Ukazuje obojí, o čem scéna mluví — knížku i „basic goods\". Zamítnuto: pick 0 je muzejní vitrína s odlesky, pick 2 má přes celou stranu vodoznak COPY FOR INFORMATION, picky 4-7 jsou AMERICKÉ knížky z roku 1918, tedy jiná země i jiná válka.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "British ration book",
+    "pick": 3,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 50,
+     "tint_amount": 18,
+     "vignette": true
+    }
+   }
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "NEJSILNĚJŠÍ KONKRÉTUM VIDEA a jediné tvrdé číslo. Letopočty se v obraze píšou číslicemi (to je text, ne TTS), ve scénáři slovy. Ambrová závorka musí být zjevně dlouhá — délka JE argument.",
+   "diagram_generator": "britanie",
+   "diagram": "táž časová osa dokončená: značky 1940 START, 1945 WAR ENDS, 1954 RATIONING ENDS; mezi 1945 a 1954 ambrová závorka s popiskem ALMOST NINE YEARS",
+   "pause": 1.4
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "note": "Princip bloku. Plus, ne šipka — nejde o příčinu, jde o to, že obojí platí zároveň.",
+   "diagram_generator": "britanie",
+   "diagram": "dvě značky vedle sebe: ambrový věnec VICTORY a vedle něj vyčerpaná, poloprázdná zásobárna; mezi nimi znaménko plus"
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "note": "Závěr bloku, nejjednodušší možný obraz. Přeškrtnuté rovnítko je čitelné i ve 210 px.",
+   "diagram_generator": "britanie",
+   "diagram": "dva rámečky vedle sebe: MILITARY VICTORY a ECONOMIC PROSPERITY, mezi nimi velké přeškrtnuté rovnítko",
+   "pause": 2.6
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "note": "Předěl do nejdůležitější sekvence videa. Počítadlo se ukáže ztlumené dřív, než začne počítat — divák tak ví, kam se dívat.",
+   "diagram_generator": "hdp",
+   "diagram": "prázdné plátno s jediným nadpisem THE CONFUSING PART a pod ním ztlumený obrys počítadla, které se rozsvítí až v S33"
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "note": "ZAČÁTEK KLÍČOVÉ SEKVENCE (uživatel ji označil jmenovitě). Počítadlo má od téhle scény PEVNOU pozici a mění se jen počet rozsvícených dílků — je to druhá páteř videa, platná pro S33–S39. Tank NEMÁ cenovku: číslo bylo ze scénáře po zpětné vazbě odstraněno.",
+   "diagram_generator": "hdp",
+   "diagram": "vlevo továrna, z ní vyjíždí tank; vpravo svislé počítadlo GROSS DOMESTIC PRODUCT s jedním rozsvíceným dílkem"
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "note": "MĚŘITELNÉ TVRZENÍ: počítadlo se nesmí pohnout ani o pixel. Křížek se smí použít, protože jde o plochu bez písma — přes nápis by patřil vodorovný škrt.",
+   "diagram_generator": "hdp",
+   "diagram": "týž obraz, tank je teď na bojišti a přeškrtnutý křížkem; počítadlo vpravo se NEHNE a zůstává na jednom dílku"
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "note": "Divák vidí, že se přičetlo podruhé, přestože se nic nepřidalo do světa. Dílky musí být zjevně stejné velikosti jako v S33.",
+   "diagram_generator": "hdp",
+   "diagram": "táž továrna vyrábí druhý tank; počítadlo má teď DVA rozsvícené dílky"
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "note": "Otázka, ne odpověď. Obraz se tu záměrně zastaví — odpověď přichází až v S37 a je to nejdůležitější věta videa.",
+   "diagram_generator": "hdp",
+   "diagram": "počítadlo na dvou dílcích, vedle něj velký ambrový otazník a nadpis RICHER"
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "NEJDŮLEŽITĚJŠÍ SCÉNA VIDEA a věcně opravená po zpětné vazbě. Netvrdí, že společnost nezbohatla — tvrdí jen ASYMETRII měření, což je přesně to, co doslova říká BEA (viz factcheck.md, S37). Šipka nahoru plná, šipka dolů přeškrtnutá: obraz nesmí tvrdit víc než ta věta.",
+   "diagram_generator": "hdp",
+   "diagram": "počítadlo se dvěma dílky, k němu ambrová šipka nahoru s nápisem COUNTS THE SECOND; a druhá, přeškrtnutá šipka dolů s nápisem NEVER SUBTRACTS THE FIRST"
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "Prázdný obrys u WEALTH je konvence „chybí\", ne „je nula\". Rovnítko je přeškrtnuté, protože scénář výslovně říká, že měřidlo není k ničemu — jen měří něco jiného.",
+   "diagram_generator": "hdp",
+   "diagram": "počítadlo ztlumené, vedle něj dva oddělené rámečky: PRODUCTION (ambrový, plný) a WEALTH / LIVING STANDARDS (obrysový, prázdný), mezi nimi přeškrtnuté rovnítko"
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "note": "Vzdálenost mezi rámečky JE tvrzení. Scéna připravuje blok o iluzi boomu.",
+   "diagram_generator": "hdp",
+   "diagram": "tytéž dva rámečky, ale odsunuté daleko od sebe; mezi nimi ambrová dvojšipka s popiskem THE GAP",
+   "pause": 2.4
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Všechno vypadá dobře — a je to pravda, ne klam. Proto ambrová, ne varovná barva. Teprve S42 se zeptá, k čemu to je.",
+   "diagram_generator": "boom",
+   "diagram": "čtyři ukazatele v řadě, všechny ambrové a všechny nahoru: CAPACITY, EMPLOYMENT, OUTPUT, a nad nimi nadpis LOOKS LIKE A BOOM"
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Bublina má ocásek jako OTEVŘENOU lomenou čáru, ne uzavřený trojúhelník — jinak vzniknou dva pahýly (past z CLAUDE.md).",
+   "diagram_generator": "boom",
+   "diagram": "tytéž ukazatele ztlumené, přes ně bublina s replikou WAR STIMULATES THE ECONOMY"
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "note": "Úder bloku. Uživatel označil tuhle otázku za elegantnější než původní varianta s desetinásobky, která byla škrtnuta.",
+   "diagram_generator": "boom",
+   "diagram": "táž bublina, pod ní velký ambrový nápis TO DO WHAT"
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "note": "VÝPLATA PÁTEŘE PŮLKY VIDEA: mobilizace pruh nenatáhne. Čárkovaný obrys prodloužení musí být zjevně za koncem pruhu, ať je vidět, co se NESTALO.",
+   "diagram_generator": "kapacita",
+   "diagram": "týž pruh jako v S01 a S18, kolem něj ambrové značky mobilizace; přes pravý konec pruhu čárkovaný obrys prodloužení a přes něj velký škrt",
+   "pause": 2.4
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "note": "Otázka bloku. Čtyři cesty jsou už rozmístěné, ale ztlumené — S45 je rozsvítí. Divák tak vidí strukturu dřív, než ji uslyší.",
+   "diagram_generator": "placeni",
+   "diagram": "postava GOVERNMENT s prázdnou peněženkou, nad ní otazník; kolem ní čtyři zatím ztlumené cesty"
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "note": "Výčet ze scénáře. Čtvrtá cesta je ztlumenější než ostatní — scénář říká „in some circumstances\", takže obraz nesmí tvrdit, že je rovnocenná.",
+   "diagram_generator": "placeni",
+   "diagram": "tytéž čtyři cesty rozsvícené a popsané: TAXES, BORROWING, WAR BONDS, PRINTING MONEY"
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "note": "Ohnutá šipka o konec pruhu je vizuální podoba věty „something has to give\". Pruh se ANI TADY nesmí prodloužit.",
+   "diagram_generator": "placeni",
+   "diagram": "prázdný talíř s nápisem NO FREE LUNCH, pod ním pruh kapacity a přes něj šipka, která se opírá o jeho pravý konec a ohýbá se"
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "note": "MECHANISMUS, druhá sekvence, kterou uživatel označil jmenovitě. Čtverečků musí být PŘESNĚ sto a generátor to jistí ASSERTem — obraz tu tvrdí číslo, které říká scénář.",
+   "diagram_generator": "inflace",
+   "diagram": "vlevo mřížka přesně sta stejných čtverečků s popiskem 100 UNITS OF GOODS, vpravo hromádka peněz"
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "note": "Klíč sekvence: vlevo se NIC nezměnilo. Kdyby generátor nakreslil jiný počet, obraz by tvrdil opak scénáře — proto tentýž assert.",
+   "diagram_generator": "inflace",
+   "diagram": "táž mřížka stále přesně sta čtverečků, ale hromada peněz vpravo je výrazně vyšší; nad mřížkou nápis STILL 100"
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "note": "Důsledek. Šipka míří na CENU, ne na zboží — a to je přesně ten druh záměny, na který si dát pozor (kresba, která tvrdí opak popisku).",
+   "diagram_generator": "inflace",
+   "diagram": "táž dvojice, mezi nimi ambrová šipka nahoru s popiskem PRICES; pod obrazem MORE MONEY, SAME GOODS"
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "note": "Přechod z inflačního bloku do přídělů beze změny kompozice — divák vidí, že je to odpověď na tentýž problém.",
+   "diagram_generator": "pridel",
+   "diagram": "táž mřížka stovky čtverečků, přes ni se pokládá ambrová mřížka přídělových kuponů"
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "note": "Závora, ne zákaz — nakupovat lze, jen omezeně. Kdyby tam byl křížek, scéna by tvrdila, že se nesmí nakupovat vůbec.",
+   "diagram_generator": "pridel",
+   "diagram": "postava s plnou peněženkou stojí před pultem, přes cestu k pultu ambrová závora; bublina YOU CANNOT BUY AS MUCH AS YOU WANT"
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "note": "Rozdělena z původní S52, aby po „Why?\" vznikl beat. Pauzu tam nešlo vložit řezem — Kokoro čte „Why? Because money…\" slitě a pojistka ji odmítla (v místě řezu −1 dB vůči tělu promluvy). `scene_pause` se naproti tomu PŘIDÁVÁ, takže ho nemá co odmítnout. Vizuálně to NENÍ nový obraz: je to táž kompozice, ve které v S52b přibude jediná věc.",
+   "diagram_generator": "pridel",
+   "diagram": "tytéž váhy jako v S52b a na týchž souřadnicích: vlevo přeplněná miska MONEY, vpravo skoro prázdná PHYSICAL GOODS; ambrový popisek THE SCARCE ONE tu ještě NENÍ",
+   "pause": 1.0
+  },
+  {
+   "id": "S52b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52b.png",
+   "note": "Druhá půlka rozdělené S52. Přibude ambrový popisek THE SCARCE ONE a šipka — a MUSÍ mířit na misku se ZBOŽÍM, ne na peníze. Je to scéna, ve které něco míří na někoho, tedy typ, u kterého se podle docs/storyboard-a-diagramy.md kontroluje, jestli cíl odpovídá podmětu věty.",
+   "diagram_generator": "pridel",
+   "diagram": "tytéž váhy na týchž souřadnicích jako v S52, navíc ambrová šipka zdola na misku PHYSICAL GOODS a popisek THE SCARCE ONE"
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "note": "Nejlepší obraz nedostatku ve videu, protože poměr je vidět na první pohled. Petrol, ne gasoline — video je britské, a shodou okolností byl benzín v Británii vůbec první přidělovanou komoditou (viz factcheck.md, S53).",
+   "diagram_generator": "pridel",
+   "diagram": "vlevo řada postav, každá s bankovkou; vpravo jediná malá nádrž PETROL, ke které vede příliš mnoho šipek"
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Volba mezi dvěma způsoby, jak si nedostatek rozdělit. Levá je přeškrtnutá, protože ji vláda zvolila NEpoužít — ne proto, že by nefungovala.",
+   "diagram_generator": "pridel",
+   "diagram": "dvě varianty vedle sebe: vlevo cenovka letící nahoru (ztlumená, přeškrtnutá), vpravo přídělový kupon s pevným množstvím (ambrový)"
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "note": "Cesta vede OKOLO závory z S51, tedy tatáž kompozice. Scéna netvrdí, jak byl černý trh velký — jen že vznikne.",
+   "diagram_generator": "pridel",
+   "diagram": "pod pultem s ambrovou závorou vede tmavá cesta okolo, popsaná BLACK MARKET",
+   "pause": 2.4
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "note": "Předěl, stejná stavba jako S23 u Británie — dvojice historických příkladů má mít shodné rozvržení, aby se četla jako dvojice.",
+   "diagram_generator": "usa",
+   "diagram": "obrys Spojených států, nad ním nadpis THE CLEAREST EXAMPLE"
+  },
+  {
+   "id": "S57",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S57.png",
+   "note": "PICK 0 Z KONTAKTNÍHO LISTU: výrobní linka Douglas SBD-5 Dauntless, srpen 1943 — hala s řadou trupů a lidmi u nich. **Záměrně BEZ `fit`**: originál je 4435x5658 na výšku, takže by ve fit režimu zabral jen 40 % šířky rámu a zbytek by byl rozostřená kopie. Výchozí ořez z něj vezme vodorovný pás 4435x2495, což je pořád víc než cílových 2560 — měřítko haly je obsah scény a ořez ho zachová. Jediná archivní scéna se zoomem, protože se svět rozšiřuje.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "aircraft factory assembly line 1943",
+    "pick": 0,
+    "grade": {
+     "saturation": 45,
+     "tint_amount": 22,
+     "vignette": true
+    }
+   }
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "note": "Callback na S05 — týž stroj, teď jako to, co se NESTALO. Musí být nakreslený úplně stejně, jinak se callback nepozná.",
+   "diagram_generator": "usa",
+   "diagram": "tiskařský stroj z S05, ztlumený a přeškrtnutý; vedle něj nadpis NOT THIS"
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "note": "Výčet ze scénáře, plus poslední věta „and it built more capacity as well\" jako sedmý, odlišený vstup. Kdyby byl stejný jako ostatních šest, obraz by tvrdil, že nová kapacita byla taky jen přesunutá.",
+   "diagram_generator": "usa",
+   "diagram": "šest ambrových vstupů sbíhajících se do jedné továrny: PEOPLE, FACTORIES, MATERIALS, ENERGY, TECHNOLOGY, LOGISTICS; navíc jeden světlejší přírůstek NEW CAPACITY",
+   "pause": 2.6
+  },
+  {
+   "id": "S60",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S60.png",
+   "note": "Druhý a poslední atmosférický předěl, protějšek S02: tam se zhaslo, tady se rozednívá. POZOR na dawn/dusk — u SDXL je šikmé světlo vždycky zlaté a přebilo by kotvu stylu, proto se žádá zatažená obloha, ne denní doba (naměřeno u dvacátého videa).",
+   "prompt": "a wide empty industrial street seen from a distance in daylight, factory windows open and quiet, flat grey overcast sky with no sun, cold pale tones, a few small figures walking home, no text"
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "note": "Tři tvrzení scénáře v jednom obraze. Pás je prázdný, ne zastavený — továrna funguje, jen neví co dělat.",
+   "diagram_generator": "navrat",
+   "diagram": "zleva proud postav vracejících se domů, vpravo továrna s prázdným výrobním pásem a otazníkem; dolů ukazuje ztlumená šipka MILITARY SPENDING"
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "note": "Poptávka je zpátky (tytéž ikony jako v S01 — callback na páteř), ale cesta k ní není průchozí.",
+   "diagram_generator": "navrat",
+   "diagram": "postavičky s bublinami HOUSES, CARS, FRIDGES, CLOTHES; mezi nimi a továrnou ale stojí ambrová překážka"
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "note": "Setrvačnost jako váha, ne jako zeď — brzdí, nezastavuje. Tři kotvy odpovídají třem položkám scénáře, ani o jednu víc.",
+   "diagram_generator": "navrat",
+   "diagram": "tři těžké kotvy visící na továrně: SPECIALISED EQUIPMENT, SPECIALISED SKILLS, DEBT"
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Symetrie JE tvrzení — obě cesty stejně těžké. Kdyby se lišila tloušťka, obraz by tvrdil, že jedna je snazší.",
+   "diagram_generator": "navrat",
+   "diagram": "dvě šipky nad sebou mezi PEACE a WAR: horní doprava (na začátku videa) a dolní doleva; obě stejně tlusté a obě s toutéž překážkou uprostřed",
+   "pause": 2.6
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "note": "ZÁVĚR JE VIZUÁLNĚ JEDNODUCHÝ — uživatel si to vyžádal jmenovitě. Od téhle scény do konce ubývá prvků, ne přibývá. Nejprázdnější obraz videa.",
+   "diagram_generator": "zaver",
+   "diagram": "prázdné plátno, uprostřed jediný nadpis SO WHAT IS THE LESSON"
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "note": "MECHANISMUS oportunitního nákladu. Kus oceli je JEDEN a to je celý argument — kdyby byly dva, scéna netvrdí nic. Šev S65 → S66 je záměrný řečnický střih, uživatel ho po zvážení nechal.",
+   "diagram_generator": "zaver",
+   "diagram": "jediná tuna oceli uprostřed, z ní dvě šipky: doprava k tanku (ambrová) a doleva ke kolejnici (ztlumená, s ambrovým škrtem)"
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "note": "Přesně stejné rozvržení jako S66 — opakování tvaru je tu argument, že jde o tentýž princip, jen jiný zdroj.",
+   "diagram_generator": "zaver",
+   "diagram": "táž kompozice o patro níž: jediná postava dělníka, doprava k muničnímu závodu, doleva k rozestavěnému domu se škrtem"
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "note": "VÝPLATA PÁTEŘE CELÉHO VIDEA. Dvojšipka nahoře je jediné místo, kde se šířka pruhu měří explicitně — a musí se rovnat S01 na pixel. Generátor to jistí ASSERTem proti hodnotě z S01.",
+   "diagram_generator": "kapacita",
+   "diagram": "týž pruh jako v S01 na týchž souřadnicích a v téže šířce, ale dělicí čára je daleko vpravo; nad pruhem dvojšipka měřící jeho šířku, popsaná SAME LENGTH",
+   "pause": 1.4
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "note": "Válečná ekonomika funguje — a scéna to má přiznat naplno. Šipka je nejtlustší v celém videu; kdyby byla slabá, obraz by tvrdil, že je to neefektivní, což scénář neříká.",
+   "diagram_generator": "zaver",
+   "diagram": "jediná ambrová šipka vedoucí z pruhu zdrojů do symbolu vojenské síly, velmi silná a přímá; nadpis EFFICIENT AT ONE THING"
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "note": "Cena té efektivity. Zásobárna je táž jako v S30 u Británie, aby se propojil historický blok se závěrem.",
+   "diagram_generator": "zaver",
+   "diagram": "za tou šipkou se vyprazdňuje zásobárna popsaná BUILT OVER DECADES; hladina v ní zjevně klesla"
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "note": "Obě věty musí být graficky ROVNOCENNÉ — žádná ztlumená, žádná přeškrtnutá. Celá pointa je, že platí obě zároveň.",
+   "diagram_generator": "zaver",
+   "diagram": "dvě věty pod sebou v rámečcích, obě ambrové a obě bez škrtu: THE ECONOMY IS BOOMING a PEOPLE ARE GETTING POORER"
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "note": "Vysvětlení S71: každá věta měří něco jiného. Dělicí čára je vodorovné rozdělení dvou pojmů, ne protiklad.",
+   "diagram_generator": "zaver",
+   "diagram": "k horní větě šipka s popiskem PRODUCTION, k dolní šipka s popiskem WHAT PEOPLE GET; mezi nimi svislá dělicí čára"
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "note": "ZÁVĚREČNÁ DESKA. Karty YouTube sedí vpravo a dole, takže tam nesmí být text ani nic, o co by divák přišel. Delší pauza drží desku na obrazovce. Poslední výskyt páteře — pruh se smí naposledy posunout výš, protože už na jeho poloze nic nestojí.",
+   "diagram_generator": "zaver",
+   "diagram": "pruh kapacity naposledy, do něj vede ambrová šipka a ven z něj nic; velký nadpis A MACHINE FOR CONSUMING v HORNÍ TŘETINĚ obrazu, dolní třetina a pravá strana prázdné",
+   "pause": 3.5
+  }
+ ]
+}

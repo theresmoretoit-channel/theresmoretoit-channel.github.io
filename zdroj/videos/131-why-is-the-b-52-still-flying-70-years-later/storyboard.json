@@ -1,0 +1,1141 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `osa_let()` dole (1950–2060, desetiletí). Nad ní půdorys `b52()`. Na ose ambrová značka 1962 LAST ONE BUILT a druhá značka dnešek 2026 STILL FLYING, mezi nimi rozpětí.",
+   "note": "První obrazovka nese myšlenku, ne atmosféru (ne SDXL): poslední kus vyrobený 1962 a pořád létá. Osa se zavádí tady a do závěru se nehne (`OSA_Y`, `rok_x()`)."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř beze změny. Nad osou tři postavy zleva doprava, rostoucí věkem opačně: GRANDFATHER, FATHER, GRANDSON, každá nad svým desetiletím (60. léta, 90. léta, 2010s).",
+   "note": "Factcheck S02: doložená rodina Sprague–Welch (Minot), otec navigátor — proto „flown in it“, ne „piloted“. Postavy bez hodností a bez letopočtů v textu; poloha na ose je jen orientační (generace ~25 let).",
+   "pause": 0.6
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: pruh B-52 od 1952 plně do dneška a dál čárkovaně (plán) až do 2050s, štítek PLANNED: 2050s.",
+   "note": "Čárkování = plán, ne skutečnost (konvence 2)."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: závorka nad pruhem od 1952 (FIRST FLIGHT) do konce 2050s, nápis ~100 YEARS.",
+   "note": "Délka závorky z `rok_x()`, ne od oka; assert 2059−1952 ≥ 95."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: pod pruhem B-52 krátký pruh XB-70 VALKYRIE 1964–1969 s nápisem MACH 3, končí křížkem. Pruh B-52 jde dál.",
+   "note": "„outlived the bomber that was meant to replace it“ — v obraze to dělá délka pruhů. První let 1964, poslední let 1969 (A15).",
+   "pause": 0.5
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: přibude pruh B-2 SPIRIT od 1997 (ve službě) plně do dneška, čárkovaně do 2030s a tam konec. Pruh B-52 vpravo přečnívá.",
+   "pause": 1.2,
+   "note": "B-1 i B-2 prodlouženy 2026-09, pořád do 2030s (notes v0.4). Konec čárkovaný = plán."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř ztlumená. Nahoře velká otázka WHY KEEP FLYING ITS OLDEST BOMBER?",
+   "pause": 1.6,
+   "note": "Hlavní otázka v obraze."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Dvě karty vedle sebe: ANSWER · PART 1 ambrově, PART 2 ztlumeně s otazníkem.",
+   "note": "Krátká scéna (~2 s), drží rytmus „first part / half the answer“ a vrátí se v S14."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Tři prázdné karty nástupců v řadě, nad nimi BUILT TO BE THE BEST AT…",
+   "note": "Bez jmen letadel: scénář je tu nejmenuje a přiřazení FASTER/HIGHER k typu by tvrdilo víc."
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Tytéž tři karty: FASTER (čárky rychlosti), HIGHER (šipka vzhůru), HARDER TO SEE ON RADAR (čárkovaný obrys).",
+   "vycet": 0.3,
+   "note": "Výčet s tečkami."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Půdorys `b52()` vlevo, pod ním závaží A LOT OF WEIGHT, vpravo dlouhá šipka A VERY LONG WAY.",
+   "note": "Úloha B-52 poprvé jako dvojice váha × vzdálenost; tentýž pár slov se vrací v S52, S78, S101, S111.",
+   "pause": 0.6
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Tři karty z S10, na každé ambrový štítek EXPIRES s prázdným datem.",
+   "note": "„expiry date“ jako visačka, ne jako přeškrtnutí: technologie neplatí jen dočasně, ne vůbec."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Vedle tří karet čtvrtá, karta B-52: CARRY A LOT, A LONG WAY a štítek NO EXPIRY DATE.",
+   "pause": 2.4,
+   "note": "Konec prvního bloku."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Karty z S08: PART 1 s fajfkou, PART 2 ambrově s otazníkem.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Karta úlohy CARRY A LOT, A LONG WAY plně; vedle ní `b52()` čárkovaně s ikonou opotřebení (prasklina), nápis IF THE PLANE WEARS OUT.",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "odpoved",
+   "diagram": "Tři sloty úloh JOB 1, JOB 2, JOB 3 na pevných souřadnicích (`ULOHY_X`), zatím s otazníky.",
+   "note": "Sloty úloh jsou druhý opakovaný prvek: plní se v S28, S39, S48 a vyplatí v S54–S55."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: značka na ose posunutá před první let na 1948, štítek A HOTEL ROOM IN OHIO.",
+   "pause": 2.6,
+   "note": "Návrat na ose. Výzva tu původně byla, ale po TTS končí řeč v 1:20 (< 1:25), proto přesunuta na S20."
+  },
+  {
+   "id": "S18",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S18.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Hotel Van Cleve, Dayton, Ohio",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "Pohlednice Hotel Van Cleve (Wilkie News Co., PD). Vybráno z kontaktního listu 2026-11-02. fit nechá okolí rozostřené, levý dolní roh v době výzvy bez kresby."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "hotel",
+   "diagram": "Půdorys turbovrtulového návrhu Boeing Model 464-35 (čtyři vrtule, mírně šípové křídlo) na výkresovém papíře, štítek BOEING DESIGN.",
+   "note": "Kresba je obrys podle třípohledu 464-35 (A9), ne B-52. Nesmí mít proudové motory."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "hotel",
+   "diagram": "Týž výkres, čtyři vrtule ambrově (PROPELLERS); vpravo bublina od postavy AIR FORCE: JETS.",
+   "vyzva": true,
+   "note": "Výzva za S20 (konec řeči 1:36 podle timing.json). Levý dolní roh volný (výkres končí na y 63 %); výzva přetéká ~3 s do S21, ta musí mít levý dolní roh taky volný."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "note": "Původně SDXL („a small dim 1940s hotel room at night, a wooden desk covered with large unrolled blueprint sheets, a slide rule, pencils, coffee cups and an overflowing ashtray, a single desk lamp, dark window with curtains drawn, dark empty floor in the foreground, no people, no readable text“). 2026-11-02 dvě kola zamítnuta podle funkce: 1) dvouplošník visící v kanceláři za dne — obraz tvrdí vrtulový dvouplošník, 2) prázdná kancelář za dne, noc ani práci nenese. Proto kresba. Levý dolní roh volný — dobíhá do něj výzva ze S20.",
+   "diagram_generator": "hotel",
+   "diagram": "Týž výkres ztlumený (přepracovává se), vpravo HOTEL VAN CLEVE, kalendář a ONE WEEKEND."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "hotel",
+   "diagram": "Na výkresovém papíře přechod: vrtulový obrys čárkovaně, přes něj plně šípové křídlo a osm motorů ve čtyřech gondolách (`b52()` ve stylu skici). Štítky SWEPT WINGS a EIGHT JET ENGINES.",
+   "vycet": 0.3,
+   "note": "Výčet."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "hotel",
+   "diagram": "Balsové prkénko a nůž → malý model; nápis BALSA WOOD, HOBBY SHOP.",
+   "note": "A9: v sobotu ráno hobby shop (balsa, lepidlo, nože, stříbrná barva), model postavil George Schairer (BOEING-2002); jméno se ve videu neuvádí."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "hotel",
+   "diagram": "Svazek papírů se štítkem 33 PAGES (počet listů jako vějíř, assert 33).",
+   "pause": 0.3,
+   "note": "Souvětí pokračuje do S25."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "hotel",
+   "diagram": "Vedle svazku ruka držící malý stříbrný model na stojánku, nápis 14-INCH MODEL.",
+   "note": "A10: „a beautiful 14-inch scale model on a stand“ = 35,6 cm. Když se na Commons najde fotka modelu, zvážit archive."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "hotel",
+   "diagram": "Model zleva → velký půdorys `b52()` vpravo, nápis THE B-52.",
+   "note": ""
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: na ose značky 1952 FIRST FLIGHT a 1962 LAST ONE BUILT, mezi nimi 744 BUILT.",
+   "pause": 2.6,
+   "note": "Konec bloku hotel."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Sloty úloh: JOB 1 ambrově, zbytek ztlumený.",
+   "note": ""
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Schéma bez mapy: vlevo základna, vysoký oblouk letu VERY HIGH · VERY FAR přes čáru hranice USSR, na konci ikona bomby.",
+   "note": "Žádná mapa ani vlajka (konkrétní území by tvrdilo trasu, kterou nemáme). Bomba ikonou, ne hřibem."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Výšková osa (`osa_vysky()`, km vlevo): B-52 nahoře ve 15 km, pod ním dosah stíhačů a protiletadlových zbraní čárkovaně. ALTITUDE = PROTECTION.",
+   "note": "Výšková osa je třetí opakovaný tvar (S30–S37)."
+  },
+  {
+   "id": "S31",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S31.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "5th Reconnaissance Squadron U-2 Osan",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "pause": 0.3,
+   "note": "U-2 (5th Reconnaissance Squadron, Osan; USAF, PD). Dnešní U-2S, tvarem odpovídá; scénář o roce 1960 mluví jen hlasem. Vybráno z kontaktního listu 2026-11-02. Souvětí pokračuje do S32."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Výšková osa: U-2 ve 21 km, B-52 v 15 km (strop), raketa ze země až k U-2.",
+   "note": "Data A17: U-2 20,1–21,5 km, B-52 strop 15,2 km. Assert na pořadí výšek."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Výšková osa: nad B-52 přeškrtnutý nápis HIGH = SAFE.",
+   "pause": 2.2,
+   "note": "`text_skrtnuty()`, ne křížek."
+  },
+  {
+   "id": "S34",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S34.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "North American XB-70A Valkyrie in flight",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "XB-70A Valkyrie za letu (USAF, PD). Vybráno z kontaktního listu 2026-11-02."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Výšková osa: XB-70 nad 20 km, MACH 3; vedle srovnání rychlostí (pruhy): XB-70 885 m/s, rifle bullet ~840 m/s.",
+   "note": "Data A3: Mach 3 ve výšce 885 m/s, 7,62 NATO 838 m/s. Assert XB-70 > náboj."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Výšková osa: raketa z S32 dosahuje i do výšky XB-70; nápis ONLY 2 EVER BUILT.",
+   "pause": 2.4,
+   "note": "„answer to a question that had just stopped mattering“ — raketa sahá výš než XB-70."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "vysoko",
+   "diagram": "Výšková osa: šipka od B-52 nahoře dolů k zemi, IT WENT LOW.",
+   "note": ""
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "nizko",
+   "diagram": "Bokorys `b52_bok()` těsně nad terénem, nad ním kužel radaru čárkovaně; nápis A FEW HUNDRED FEET.",
+   "note": "Radar „nevidí pod obzor“: kužel začíná nad terénem."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "nizko",
+   "diagram": "Sloty úloh: JOB 1 HIGH s fajfkou, JOB 2 ambrově LOW.",
+   "note": ""
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "nizko",
+   "diagram": "Bokorys nad terénem, vlnovky turbulence, křídlo v obrysu s ohybem (dvě polohy čárkovaně). WASN'T DESIGNED FOR THIS.",
+   "note": ""
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "pause": 2.2,
+   "note": "Fotka 61-0023 bez kýlovky na Commons není (hledáno 2026-11-02), proto kresba. A19: zkouška 10. 1. 1964, utržena většina kýlovky, přistáli.",
+   "diagram_generator": "nizko",
+   "diagram": "Bokorys `b52_bok()` bez kýlovky (čárkovaně, kde chyběla), nad ním vlnovky turbulence; nápisy 1964 · ROCKY MOUNTAINS a STILL LANDED."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: 1970s na ose, nad ní ikony protiletadlových raket, LOW IS GETTING DANGEROUS.",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: značka 1977, pruh B-1A přeškrtnutý (CANCELLED) a nápis FIRST VERSION OF THE B-1.",
+   "note": "A23: B-1A zrušen 1977, B-1B obnoven 1981 — pruh B-1B se v obraze NEobjevuje, ať se neplete s S98."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "strely",
+   "diagram": "Velká ikona střely s plochou dráhou letu, THE CRUISE MISSILE.",
+   "note": ""
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "strely",
+   "diagram": "Střela letí nízko nad terénem, za ní stopa, měřítko 2,000+ KM.",
+   "note": "AGM-86B dolet > 2 400 km (A25).",
+   "pause": 0.5
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "strely",
+   "diagram": "B-52 vlevo, cíl vpravo, mezi nimi dlouhá závorka FAR FROM THE TARGET.",
+   "note": ""
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "strely",
+   "diagram": "Okraj „mapy“ (svislá čárkovaná čára), B-52 u něj, za čarou pokračují střely k cíli.",
+   "note": "„edge of the map“ = hranice dosahu obrany, ne konkrétní území."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "strely",
+   "diagram": "Sloty úloh: JOB 3 ambrově MISSILES.",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "strely",
+   "diagram": "Půdorys `b52()` s fajfkou, ALMOST PERFECT.",
+   "note": ""
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "strely",
+   "diagram": "Půdorys `b52()`: 2× 6 střel pod křídly + 8 v trupu (revolver), dohromady 20; nápis UP TO 20.",
+   "note": "Data B2: 6 + 6 + 8. Assert součet 20."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "strely",
+   "diagram": "Dva štítky přeškrtnuté: FAST, INVISIBLE (`text_skrtnuty()`).",
+   "note": ""
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "strely",
+   "diagram": "Dva štítky s fajfkou: BIG, LONG RANGE.",
+   "note": "",
+   "pause": 0.4
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "strely",
+   "diagram": "Výkres z S22 (osm motorů, šípové křídlo) s razítkem DAYTON 1948.",
+   "note": "Návrat ke skice z hotelu."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "strely",
+   "diagram": "Sloty úloh všechny tři naplněné: HIGH, LOW, MISSILES.",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "strely",
+   "diagram": "Pod každým slotem tentýž štítek A LOT · A LONG WAY, ambrově, spojené jednou čarou.",
+   "pause": 2.8,
+   "vyzva": true,
+   "note": "Konec bloku tří úloh; druhá výzva k odběru — přirozený předěl před opotřebením. Levý dolní roh: sloty začínají za x 22 %."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Půdorys `b52()` a vedle ukazatel opotřebení (oblouk 0–100 %).",
+   "note": "„perfect truck“ zůstává jen ve voiceoveru, náklaďák se nekreslí.",
+   "pause": 0.6
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Otázka STILL FLYING AT ALL? a pod ní BUILT IN THE EARLY 1960s.",
+   "pause": 1.0,
+   "note": ""
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Dvě ikony: kalendář přeškrtnutý, počítadlo letových hodin ambrově.",
+   "note": ""
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Pohled zepředu na křídlo, tři polohy ohybu (nahoru/dolů) a počítadlo cyklů +1 +1 +1.",
+   "note": "„flexes“ = pružný ohyb, ne trvalá deformace (zpětná vazba 0.2)."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Vodorovný sloupec AIRLINER 3,000–4,000 H/YEAR.",
+   "note": "Data B6: 4 200 h/rok A350. Měřítko `PX_H` sdílené s S61, assert."
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Pod ním sloupec B-52: A FEW HUNDRED (300 h) ve stejném měřítku.",
+   "note": "Data B7: 250–380 h/rok. Kreslí se 300, tedy uvnitř rozsahu."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Řada malých půdorysů letky, část ztlumená NOT FLYING.",
+   "note": ""
+  },
+  {
+   "id": "S63",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S63.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "B-52 Ground alert",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "pause": 0.3,
+   "note": "SAC: posádka běží k B-52 při cvičném poplachu (USAF, PD, černobílá). Vybráno z kontaktního listu 2026-11-02. Souvětí pokračuje do S64."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Schéma pohotovosti: konec dráhy, B-52, budova posádky blízko, nápis READY IN MINUTES.",
+   "note": ""
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Dva ukazatele opotřebení: WAITING skoro nula, FLYING ambrově.",
+   "pause": 2.4,
+   "note": "Konec bloku."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Vodorovný pruh životnosti křídla: vyplněno 18,000 H (2016).",
+   "note": "Data B9: průměr 17 867 h (sekundární zdroj, factcheck)."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Týž pruh prodloužený na 32,000+ H (konec čárkovaně = odhad).",
+   "note": "Data B10: 32 500–37 500 h, tedy „at least thirty-two thousand“. Assert 18/32 ≈ 0,56.",
+   "pause": 0.6
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "opotrebeni",
+   "diagram": "Týž pruh, polovina zvýrazněná: ABOUT HALF USED.",
+   "pause": 2.6,
+   "note": "Konec bloku."
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "ghost",
+   "diagram": "Půdorys `b52()` s ikonou ohně, 2014, a nápis NO NEW ONE ORDERED.",
+   "note": "B13: požár 2014 na Barksdale, B-52H 61-0049 (sériové číslo ze sekundárních zdrojů, v obraze se neuvádí).",
+   "pause": 0.5
+  },
+  {
+   "id": "S70",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S70.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Aerial view of Davis-Monthan AFB AMARG in March 2015",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "pause": 0.3,
+   "note": "Letecký snímek odstavné plochy AMARG, březen 2015 (US Navy, PD). Vybráno ze --search 2026-11-02, jediný letecký PD snímek. Souvětí pokračuje."
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "ghost",
+   "diagram": "Řada odstavených půdorysů v písku, jeden ambrově, nápis 7 YEARS IN THE SUN.",
+   "pause": 0.3,
+   "note": "Souvětí pokračuje."
+  },
+  {
+   "id": "S72",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S72.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "B-52H Stratofortress takes off after being taken out of long-term storage",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "B-52H startuje z Davis-Monthan po vyjmutí z dlouhodobého uložení (USAF, Greg Steele, PD) — návrat do služby. Vybráno z kontaktního listu 2026-11-02. Jméno GHOST RIDER zazní hlasem."
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "ghost",
+   "diagram": "Dvě šipky z pouště zpět do letky, druhá ambrově: A SECOND ONE.",
+   "note": "Druhý stroj Wise Guy 60-0034, 2019–2020 (B15); jméno v obraze ne."
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "ghost",
+   "diagram": "Mřížka 744 malých teček-letadel, nápis 744 BUILT.",
+   "note": "Assert 744."
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "ghost",
+   "diagram": "Vedle mřížka 21 teček, B-2: 21.",
+   "pause": 2.2,
+   "note": "Stejná velikost teček jako S74, assert 21."
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "ghost",
+   "diagram": "Nápis CHEAPEST TO FLY u půdorysu `b52()`.",
+   "note": ""
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "ghost",
+   "diagram": "Tři vodorovné sloupce nákladů na letovou hodinu, FY2025: B-52H $62K, B-2A $88K, B-1B $91K.",
+   "note": "Data B19 (sazby DoD FY2025). Délky ze sazeb, assert pořadí."
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "ghost",
+   "diagram": "Okraj mapy z S47: HOW MUCH · HOW FAR ambrově, HARD TO SEE ztlumeně.",
+   "pause": 2.6,
+   "note": "Konec bloku."
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys `b52()` ztlumený, velký otazník.",
+   "note": "dovetek: uživatel v draftu 2026-11-02 slyšel malou schwu na konci (pauza 0,8 s pod prahem obětované věty).",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys `b52()`, uvnitř obdélníky systémů prázdné; nápis NOT IN 1962.",
+   "note": ""
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "vymena",
+   "diagram": "Pět štítků kolem půdorysu s čarami k místu v letadle: RADIOS, NAVIGATION, COMPUTERS, COCKPIT SCREENS, WEAPONS.",
+   "vycet": 0.3,
+   "note": "Výčet. Poloha systémů orientační (kokpit a příď, zbraně pod křídly/v trupu)."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "diagram_generator": "vymena",
+   "diagram": "Tytéž štítky, u každého šipky výměny, u některých ×2.",
+   "note": ""
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "diagram_generator": "vymena",
+   "diagram": "Příď ambrově, NEW RADAR, BASED ON A FIGHTER'S (AN/APG-79 z F/A-18).",
+   "note": "C10. Havárie z 15. 6. 2026 při zkoušce radaru se nezmiňuje (rozhodnuto).",
+   "pause": 0.6
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "diagram_generator": "vymena",
+   "diagram": "Osm motorů ambrově.",
+   "note": "dovetek: uživatel v draftu 2026-11-02 slyšel malou schwu na konci (pauza 0,8 s pod prahem obětované věty).",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "diagram_generator": "vymena",
+   "diagram": "Motory s visačkou DESIGNED IN THE 1950s (TF33).",
+   "note": ""
+  },
+  {
+   "id": "S86",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S86.png",
+   "diagram_generator": "vymena",
+   "diagram": "Ikona motoru ROLLS-ROYCE F130 vedle starého.",
+   "pause": 0.3,
+   "note": "Kdyby Commons měl použitelný snímek F130, zvážit archive. Souvětí pokračuje."
+  },
+  {
+   "id": "S87",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S87.png",
+   "diagram_generator": "vymena",
+   "diagram": "Obrys business jetu se dvěma motory u ocasu ambrově: SAME FAMILY (BR725, Gulfstream G650).",
+   "note": "C12."
+  },
+  {
+   "id": "S88",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys: 8 starých motorů ven (čárkovaně), 8 nových dovnitř (ambrově).",
+   "vycet": 0.3,
+   "note": "Výčet dvou vět. Assert 8."
+  },
+  {
+   "id": "S89",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S89.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys se čtyřmi velkými motory čárkovaně a otazníkem.",
+   "note": ""
+  },
+  {
+   "id": "S90",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S90.png",
+   "diagram_generator": "vymena",
+   "diagram": "ENGINE SWAP → REDESIGN, šipka mezi dvěma kartami.",
+   "note": ""
+  },
+  {
+   "id": "S91",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S91.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys se 4 motory, jeden vnější přeškrtnutý, oblouková šipka stáčení; seznam NEW RUDDER, NEW COCKPIT CONTROLS, WING CHANGES.",
+   "pause": 0.3,
+   "note": "C17: stáčení je důvod směrovky, ostatní položky souběžné (v0.6)."
+  },
+  {
+   "id": "S92",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S92.png",
+   "diagram_generator": "vymena",
+   "diagram": "Seznam + YEARS OF FLIGHT TESTS.",
+   "note": "dovetek: uživatel v draftu 2026-11-02 slyšel malou schwu na konci (pauza 0,8 s pod prahem obětované věty).",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S93",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S93.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys s osmi menšími motory, fajfka; seznam z S91–S92 ztlumený.",
+   "pause": 2.4,
+   "note": "Konec bloku."
+  },
+  {
+   "id": "S94",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S94.png",
+   "diagram_generator": "vymena",
+   "diagram": "Půdorys `b52()`, velký nápis B-52J.",
+   "note": ""
+  },
+  {
+   "id": "S95",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S95.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: na ose značka konec 2020s TEST FLIGHTS.",
+   "pause": 2.6,
+   "note": ""
+  },
+  {
+   "id": "S96",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S96.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "B-21 Raider Refueling",
+    "pick": 0,
+    "grade": {
+     "fit": 0.88,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "note": "B-21 Raider při tankování za letu (USAF, PD). Vybráno z kontaktního listu 2026-11-02.",
+   "pause": 0.6
+  },
+  {
+   "id": "S97",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S97.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: pruhy B-52, B-1, B-2, B-21 nad osou; budoucí letka jako závorka TWO TYPES.",
+   "note": ""
+  },
+  {
+   "id": "S98",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S98.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: pruhy B-1 a B-2 končí ve 2030s (konec čárkovaně), ztlumené.",
+   "vycet": 0.3,
+   "note": "Výčet."
+  },
+  {
+   "id": "S99",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S99.png",
+   "diagram_generator": "uvod",
+   "diagram": "Páteř: zbývají pruhy B-21 (NEWEST) a B-52 (OLDEST) ambrově.",
+   "note": ""
+  },
+  {
+   "id": "S100",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S100.png",
+   "diagram_generator": "zaver",
+   "diagram": "Obrys B-21 (křídlo) a nápis GETS IN, UNSEEN.",
+   "note": ""
+  },
+  {
+   "id": "S101",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S101.png",
+   "diagram_generator": "zaver",
+   "diagram": "Vedle `b52()`: CARRIES A LOT, FROM FAR AWAY.",
+   "pause": 2.8,
+   "note": "Konec bloku."
+  },
+  {
+   "id": "S102",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S102.png",
+   "diagram_generator": "zaver",
+   "diagram": "Velká otázka WHY IS THE B-52 STILL FLYING?",
+   "pause": 1.4,
+   "note": ""
+  },
+  {
+   "id": "S103",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S103.png",
+   "diagram_generator": "zaver",
+   "diagram": "Nápis NOT THE BEST BOMBER EVER BUILT.",
+   "note": ""
+  },
+  {
+   "id": "S104",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S104.png",
+   "diagram_generator": "zaver",
+   "diagram": "Karty z S10 (FASTER, HIGHER, HARDER TO SEE), u B-52 všechny přeškrtnuté.",
+   "note": "Návrat k S10."
+  },
+  {
+   "id": "S105",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S105.png",
+   "diagram_generator": "zaver",
+   "diagram": "Karty nástupců z S12, nad nimi BUILT AROUND A TECHNOLOGY.",
+   "note": ""
+  },
+  {
+   "id": "S106",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S106.png",
+   "diagram_generator": "zaver",
+   "diagram": "Karta B-52 z S13: BUILT AROUND A JOB.",
+   "note": ""
+  },
+  {
+   "id": "S107",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S107.png",
+   "diagram_generator": "uvod",
+   "diagram": "VÝPLATA PÁTEŘE: na ose pruhy nástupců končí (XB-70 1969, B-1/B-2 2030s), pruh úlohy CARRY A LOT, A LONG WAY jde přes celou osu.",
+   "pause": 3.0,
+   "note": "Hlavní pointa."
+  },
+  {
+   "id": "S108",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S108.png",
+   "diagram_generator": "zaver",
+   "diagram": "Půdorys `b52()`: motory, elektronika, zbraně ambrově.",
+   "pause": 0.3,
+   "note": "Souvětí pokračuje. S108–S111 kreslí `b52()` v ZÁVĚREČNÉ poloze (`B52_ZAVER`, dolní polovina), protože S111 zasahuje do posledních 20 s."
+  },
+  {
+   "id": "S109",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S109.png",
+   "diagram_generator": "zaver",
+   "diagram": "Tytéž díly se šipkami výměny: SWAPPABLE.",
+   "note": "S108–S111 kreslí `b52()` v ZÁVĚREČNÉ poloze (`B52_ZAVER`, dolní polovina), protože S111 zasahuje do posledních 20 s."
+  },
+  {
+   "id": "S110",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S110.png",
+   "diagram_generator": "zaver",
+   "diagram": "Půdorys: vše ztlumené kromě křídla, nápis 1948.",
+   "note": "S108–S111 kreslí `b52()` v ZÁVĚREČNÉ poloze (`B52_ZAVER`, dolní polovina), protože S111 zasahuje do posledních 20 s."
+  },
+  {
+   "id": "S111",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S111.png",
+   "diagram_generator": "zaver",
+   "diagram": "Křídlo ambrově, A LOT, A LONG WAY.",
+   "pause": 2.8,
+   "note": "Konec výkladu. S108–S111 kreslí `b52()` v ZÁVĚREČNÉ poloze (`B52_ZAVER`, dolní polovina), protože S111 zasahuje do posledních 20 s."
+  },
+  {
+   "id": "S112",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S112.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dole uprostřed malý nápis A QUESTION FOR YOU, horní polovina prázdná.",
+   "pause": 1.0,
+   "note": "Posledních 20 s: prvky závěrečné obrazovky nahoře, obsah jen v dolní polovině nad titulkem."
+  },
+  {
+   "id": "S113",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S113.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dole otázka WHAT WILL FINALLY GROUND THE B-52? Horní polovina prázdná.",
+   "pause": 0.6,
+   "note": "Otázka (v0.7, uživatel 2026-11-02); za ní krátký beat před dvěma možnostmi."
+  },
+  {
+   "id": "S114",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S114.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dole A BETTER PLANE, / OR A JOB IT CAN'T DO? ambrově. Horní polovina prázdná.",
+   "pause": 2.0,
+   "note": "Závěrečná deska."
+  }
+ ]
+}

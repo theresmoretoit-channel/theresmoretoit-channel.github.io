@@ -1,0 +1,519 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "Atmosférická anténa v soumraku. Úvodní záběr smí být ilustrativní.",
+      "prompt": "a large radio dish antenna at dusk against a fading sky, dark pine silhouettes, distant mountains, quiet and cinematic"
+    },
+    {
+      "id": "S02",
+      "source": "archive",
+      "effect": "pan_left",
+      "visual": "images/S02.png",
+      "note": "HOTOVO — Juno u Jupiteru.",
+      "archive": {
+        "provider": "nasa",
+        "query": "jupiter juno spacecraft",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "note": "HOTOVO — AIR / WATER / ROPE.",
+      "diagram_generator": "triptych",
+      "diagram": "fáze 1: tři panely"
+    },
+    {
+      "id": "S04",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S04.png",
+      "note": "HOTOVO — prázdnota s postavou.",
+      "prompt": "(existuje, no_style)"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S05.png",
+      "note": "HOTOVO — éter jako mřížka.",
+      "diagram_generator": "eter",
+      "diagram": "fáze 1: éter jako mřížka, vlnou rozvlněná"
+    },
+    {
+      "id": "S06",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S06.png",
+      "note": "HOTOVO — Michelsonův aparát 1887.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Michelson Morley interferometer 1887"
+      }
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S07.png",
+      "note": "Skok zpět z 1887 do 1820.",
+      "diagram_generator": "osa",
+      "diagram": "fáze 1: prázdná osa, šipka zpět"
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S08.png",
+      "note": "Ørsted: vodič a vychýlená střelka.",
+      "diagram_generator": "orsted",
+      "diagram": "fáze 1: drát + kompas se stáčí"
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "pan_right",
+      "visual": "images/S09.png",
+      "note": "Ampère: soustředné siločáry kolem vodiče.",
+      "diagram_generator": "orsted",
+      "diagram": "fáze 2: doplní se magnetické pole"
+    },
+    {
+      "id": "S10",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S10.png",
+      "note": "Faraday — dobový portrét. Ořez posunut nahoru (crop_y), aby obličej zůstal v záběru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Michael Faraday portrait",
+        "grade": {
+          "crop_y": 0.12
+        }
+      }
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "note": "Stejnosměrný vs. střídavý proud.",
+      "diagram_generator": "dcac",
+      "diagram": "jediná fáze: DC statické / AC vyzařuje"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S12.png",
+      "note": "Proud teče do desek.",
+      "diagram_generator": "kondenzator",
+      "diagram": "fáze 1: obvod, náboj se hromadí"
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S13.png",
+      "note": "Mezera. Proud neteče, pole se mění.",
+      "diagram_generator": "kondenzator",
+      "diagram": "fáze 2: detail mezery, otazník nad B"
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S14.png",
+      "note": "Maxwell — dobová fotografie. Ořez posunut nahoru (crop_y), aby obličej zůstal v záběru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "James Clerk Maxwell portrait",
+        "grade": {
+          "crop_y": 0.34
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S15.png",
+      "note": "Posuvný proud smyčku uzavírá.",
+      "diagram_generator": "kondenzator",
+      "diagram": "fáze 3: chybějící člen doplněn"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "pan_left",
+      "visual": "images/S16.png",
+      "note": "E a B kolmo na sebe, vlna se šíří.",
+      "diagram_generator": "vlna",
+      "diagram": "fáze 1: vlna"
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Není to řetěz, je to jedna vlna.",
+      "diagram_generator": "vlna",
+      "diagram": "fáze 2: naivní řetěz přeškrtnut"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S18.png",
+      "note": "Maxwellův výpočet.",
+      "diagram_generator": "rychlost",
+      "diagram": "jediná fáze: poměr jednotek -> 310 740 km/s"
+    },
+    {
+      "id": "S18b",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S18b.png",
+      "note": "Jen to číslo, ať visí ve vzduchu. Otázka na diváka, pak 2,3 s ticha.",
+      "diagram_generator": "rychlost",
+      "diagram": "fáze 2: samotné číslo, bez výkladu"
+    },
+    {
+      "id": "S19",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S19.png",
+      "note": "Odhalení. Nejpomalejší scéna videa.",
+      "prompt": "a vast dark expanse suddenly suffused with soft golden light spreading outward, moment of realisation, cinematic"
+    },
+    {
+      "id": "S19b",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S19b.png",
+      "note": "Dozvuk po odhalení, návrat do běžného tempa.",
+      "prompt": "a nineteenth century study at dusk, papers and instruments left on a desk, warm lamplight, quiet aftermath of a discovery, painterly, muted"
+    },
+    {
+      "id": "S20",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S20.png",
+      "note": "Předpověď vs. experiment.",
+      "prompt": "an empty nineteenth century laboratory bench at night, single lamp, anticipation, painterly"
+    },
+    {
+      "id": "S21",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S21.png",
+      "note": "Hertzův aparát — jiskřiště a rezonátor.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Hertz apparatus spark gap"
+      }
+    },
+    {
+      "id": "S22",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S22.png",
+      "note": "Heinrich Hertz — portrét. Ořez posunut nahoru (crop_y), aby obličej zůstal v záběru.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Heinrich Hertz portrait",
+        "grade": {
+          "crop_y": 0.12
+        }
+      }
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S23.png",
+      "note": "1887 a 1888 vedle sebe.",
+      "diagram_generator": "osa",
+      "diagram": "fáze 2: dva body zvýrazněné"
+    },
+    {
+      "id": "S24",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S24.png",
+      "note": "Michelson a Morley vedle sebe — scénář jmenuje oba. Ořez posunut nahoru (crop_y), aby obličej zůstal v záběru.",
+      "archive": [
+        {
+          "provider": "wikimedia",
+          "query": "Albert Abraham Michelson",
+          "pick": 1,
+          "grade": {
+            "crop_y": 0.3
+          }
+        },
+        {
+          "provider": "wikimedia",
+          "query": "Edward Williams Morley",
+          "pick": 0,
+          "grade": {
+            "crop_y": 0.02
+          }
+        }
+      ]
+    },
+    {
+      "id": "S25",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S25.png",
+      "note": "Maxwell éter neopustil.",
+      "prompt": "victorian scientific engraving of an invisible all-pervading medium, sepia ink, antique plate"
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S26.png",
+      "note": "Éter přestal být potřeba. SVG záměrně: z promptu „mizející mřížka v prostoru\" vyšla SDXL prázdná dlážděná místnost. Trojice s S05 a S48.",
+      "diagram_generator": "eter",
+      "diagram": "fáze 2: mřížka se rozpouští zleva doprava, vlna zůstává"
+    },
+    {
+      "id": "S27",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S27.png",
+      "note": "Světlo, které známe odjakživa.",
+      "prompt": "warm sunlight through a window onto a stone floor, timeless and ordinary, painterly, muted"
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "pan_right",
+      "visual": "images/S28.png",
+      "note": "✅ HOTOVO — Spektrum se rozšiřuje: světlo → IR → UV → rádio.",
+      "diagram_generator": "spektrum",
+      "diagram": "fáze 1: přibývají pásma s letopočty"
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "pan_right",
+      "visual": "images/S29.png",
+      "note": "✅ HOTOVO — Celé spektrum, sedm pásem.",
+      "diagram_generator": "spektrum",
+      "diagram": "fáze 2: kompletní osa"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S30.png",
+      "note": "✅ HOTOVO — Není to sedm věcí.",
+      "diagram_generator": "spektrum",
+      "diagram": "fáze 3: pásma se slévají"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "note": "✅ HOTOVO — Rozdíl je jen ve vlnové délce.",
+      "diagram_generator": "spektrum",
+      "diagram": "fáze 4: srovnání vlnových délek"
+    },
+    {
+      "id": "S32",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S32.png",
+      "note": "Rádio, Wi-Fi, světlo — všední scéna.",
+      "prompt": "an ordinary living room at dusk bathed in warm light, a phone on a table, painterly, muted"
+    },
+    {
+      "id": "S33",
+      "source": "archive",
+      "effect": "pan_left",
+      "visual": "images/S33.png",
+      "note": "Skutečné antény.",
+      "archive": {
+        "provider": "nasa",
+        "query": "radio antenna array"
+      }
+    },
+    {
+      "id": "S34",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S34.png",
+      "note": "Ta absurdní otázka.",
+      "prompt": "a single radio antenna silhouette against a bright sky, absurdly small, whimsical but restrained"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S35.png",
+      "note": "Velikost antény podle vlnové délky.",
+      "diagram_generator": "antena",
+      "diagram": "fáze 1: FM 1,5 m vs. zelené světlo 275 nm"
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "note": "Problém je budič, ne anténa.",
+      "diagram_generator": "antena",
+      "diagram": "fáze 2: Wi-Fi 5 GHz | tranzistor 1 THz | světlo 545 THz"
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S37.png",
+      "note": "✅ HOTOVO — Vlna se rozprostírá.",
+      "diagram_generator": "ubyvani",
+      "diagram": "fáze 1: zdroj a vlnoplocha"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S38.png",
+      "note": "✅ HOTOVO — Táž energie na větší ploše.",
+      "diagram_generator": "ubyvani",
+      "diagram": "fáze 2: tři kulové plochy"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "note": "✅ HOTOVO — Nic se neopotřebovává.",
+      "diagram_generator": "ubyvani",
+      "diagram": "fáze 3: hustota klesá, energie stejná"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S40.png",
+      "note": "✅ HOTOVO — Zákon převrácených čtverců.",
+      "diagram_generator": "ubyvani",
+      "diagram": "fáze 4: 2× dál = ¼, 10× dál = 1/100"
+    },
+    {
+      "id": "S41",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S41.png",
+      "note": "Skutečná anténa Deep Space Network — tady už je řeč o citlivém příjmu.",
+      "archive": {
+        "provider": "nasa",
+        "query": "deep space network antenna dish"
+      }
+    },
+    {
+      "id": "S42",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S42.png",
+      "note": "Signál napříč Sluneční soustavou.",
+      "archive": {
+        "provider": "nasa",
+        "query": "deep space network spacecraft communication"
+      }
+    },
+    {
+      "id": "S43",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S43.png",
+      "note": "Co všechno s tím umíme.",
+      "prompt": "a luminous web of connections spanning a dark globe, restrained, painterly, muted"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "note": "Návrat k trojici z úvodu.",
+      "diagram_generator": "triptych",
+      "diagram": "fáze 2: tytéž panely, vybledlé"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S45.png",
+      "note": "Čtvrtý panel: pole.",
+      "diagram_generator": "triptych",
+      "diagram": "fáze 3: dokreslí se rám s popiskem FIELD"
+    },
+    {
+      "id": "S46",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S46.png",
+      "note": "Odpověď, co nevypadá jako odpověď.",
+      "prompt": "a door opening onto another identical door, quiet and unsettling, minimal, painterly"
+    },
+    {
+      "id": "S47",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S47.png",
+      "note": "Co vlastně je pole?",
+      "prompt": "an abstract shimmering continuum with no clear substance, barely there, deep space"
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S48.png",
+      "note": "Kvantové pole. Vizuální rým s éterem (S05), ale zřetelně jiné: éter je studený, statický a hledaný; pole je živé, fluktuující, s jednou lokalizovanou excitací.",
+      "diagram_generator": "pole",
+      "diagram": "vlastní generátor, sdílí geometrii s 'eter', ne obrázek"
+    },
+    {
+      "id": "S49",
+      "source": "sdxl",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "note": "Popsat ≠ říct, co to je.",
+      "prompt": "two overlapping translucent layers that never quite align, abstract, restrained"
+    },
+    {
+      "id": "S50",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S50.png",
+      "note": "Postavili jsme na tom svět.",
+      "prompt": "a quiet night landscape with distant city lights and a starry sky, humane scale, painterly"
+    },
+    {
+      "id": "S51",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S51.png",
+      "note": "Čím hlouběji, tím míň učebnice.",
+      "prompt": "descending into deep darkness with faint structure at the edge of perception, minimal"
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S52.png",
+      "note": "Závěrečná karta.",
+      "diagram_generator": "zaver",
+      "diagram": "THE ELECTROMAGNETIC FIELD / WHAT IS A FIELD?"
+    }
+  ]
+}

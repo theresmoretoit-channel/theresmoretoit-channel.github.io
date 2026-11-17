@@ -1,0 +1,547 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ `zeme()`: dvě pevnosti COUNTRY A vlevo a COUNTRY B vpravo na společné zemi, mezi nimi čárkovaná hranice; u A ambrový stoh zbraní `arzenal()`, B bez zbraní; nad hranicí prázdno",
+   "note": "První obrazovka nese myšlenku: jedna strana zbrojí a mezi nimi je klid. Zavádí páteř — pevnosti, hranici a stoh zbraní na týchž souřadnicích celým videem. Všechno pod polovinou výšky, horní pás volný.",
+   "pause": 0.5
+  },
+  {
+   "id": "S01b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "naveti": "That is the old advice.",
+   "note": "Beat rozdělením scény (poslech draftu 0.2): mezi „Do you want peace?“ a „Then prepare for war.“ nechal Kokoro 40 ms a sentence_pause se nevložil. Dědí obraz S01; návětí „Do you want peace?“ nešlo (Kokoro ho s „Then“ slil, 40 ms), proto neutrální oznamovací věta.",
+   "pause": 0.6
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "tři ikony vedle sebe: TANK, MISSILE, WARSHIP, nad každou ambrový otazník",
+   "note": "„Why build tanks, missiles and warships?“ — jen tři věci ze scénáře, žádné čísla.",
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "velké číslo $2,887 BILLION, pod ním WORLD MILITARY SPENDING · 2025, menší MOST EVER RECORDED · SIPRI",
+   "note": "Číslo z factcheck.md (SIPRI 2026, 2 887 mld. USD, reálně +2,9 %). Hlas říká „nearly two point nine trillion“, obraz má přesné číslo ze zdroje. Zdroj v obraze, aby „most ever recorded“ nebyl hlas vypravěče, ale SIPRI."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "řada pěti menších pevností bez jmen, nad nimi společná bublina: IT'S NOT FOR STARTING A WAR. IT'S FOR PREVENTING ONE.",
+   "note": "Bublina = to, co vlády ŘÍKAJÍ, ne co je pravda (factcheck S04). Pevnosti bez jmen a bez vlajek.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "dvě karty vedle sebe: A CONTRADICTION? | ONE REASON WAR SOMETIMES DOESN'T HAPPEN? — obě čárkovaně (otázka, ne odpověď)",
+   "note": "Hlavní otázka videa. Čárkovaně = hypotéza; ani jedna karta není ambrová, odpověď přijde až v S46.",
+   "pause": 2.2
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "odstraseni",
+   "diagram": "PÁTEŘ: A má čárkovanou šipku k B (zvažovaný útok); B bez zbraní; bublina z A: A FEW WEEKS. A QUICK WIN.",
+   "note": "Šipka míří od útočníka (A) na cíl (B) — podmět věty je útočník. Čárkovaně, protože útok se jen zvažuje.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "odstraseni",
+   "diagram": "PÁTEŘ: B má stoh zbraní (ambrově, o něm je řeč); bublina A: přeškrtnuté CAN WE WIN? a pod ním IS WINNING WORTH THE PRICE?",
+   "note": "Mění se jediná věc proti S06: B má zbraně. Šipka A→B zůstává čárkovaná."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "odstraseni",
+   "diagram": "PÁTEŘ jako S07, čárkovaná šipka A→B končí před hranicí; bublina A: A TERRIBLE DEAL; velký nápis DETERRENCE nahoře",
+   "note": "Odstrašení = přesvědčit, ne porazit. Šipka nekončí přeškrtnutím (to by tvrdilo jistotu), jen se zastaví u hranice.",
+   "pause": 2.4
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "vegetius",
+   "diagram": "velký latinský nápis SI VIS PACEM, PARA BELLUM, pod ním tlumeně IF YOU WANT PEACE, PREPARE FOR WAR",
+   "note": "„Its famous Latin version“ — ustálená podoba, kterou Vegetius doslova nenapsal (S11)."
+  },
+  {
+   "id": "S10",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Vegetius Epitoma rei militaris",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK 1 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-10 pod tímto dotazem: Vegetius, Epitoma rei militaris, rukopis Vaticanus Palatinus lat. (public domain). Listina → `fit`, static."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "vegetius",
+   "diagram": "nahoře ztlumeně a čárkovaně orámované SI VIS PACEM, PARA BELLUM s popiskem THE FAMOUS VERSION; dole ambrově IGITUR QUI DESIDERAT PACEM, PRAEPARET BELLUM s překladem LET HIM WHO DESIRES PEACE PREPARE FOR WAR a zdrojem EPITOMA REI MILITARIS, BOOK III",
+   "note": "Znění z factcheck.md (prolog 3. knihy). Krátká verze se NEŠKRTÁ — není nepravdivá, jen to nejsou jeho slova; proto čárkovaně, ne škrt."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "vegetius",
+   "diagram": "rámeček VEGETIUS CLAIMED THE INFANTRY HAD: tři ambrové řádky STOPPED DRILLING, STOPPED WEARING HELMETS, STOPPED WEARING BODY ARMOUR; zdroj EPITOMA REI MILITARIS · BOOK I",
+   "note": "Atribuce i v obraze (uživatel u storyboardu): Vegetiovo TVRZENÍ, ne doložený stav armády — historici ho považují za přehnané (factcheck S12). „Infantry“, protože I.20 mluví o pěchotě; jízda zbroj naopak zlepšila."
+  },
+  {
+   "id": "S12b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "cta": true,
+   "note": "CTA podle docs/cta.md: dědí obraz S12, static. ~1:37, za první výplatou (číslo, odstrašení, Vegetius), před bezpečnostním dilematem.",
+   "pause": 2.4
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "dilema",
+   "diagram": "PÁTEŘ: A se stohem zbraní; od B vede čárkovaný pohled (oko u B) na stoh A",
+   "note": "„Your enemy can see your preparations too.“ Oko patří B, pohled míří na zbraně A."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "dilema",
+   "diagram": "PÁTEŘ: stoh A vyšší; bublina z A: PURE DEFENCE",
+   "note": "Bublina = jak to vidí A zevnitř."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "dilema",
+   "diagram": "PÁTEŘ: oba stohy rostou střídavě, pod stohy malá čísla kroků 1–4 (A, B, A, B); bublina z B: THREAT",
+   "note": "Totéž zbrojení, které je pro A obrana, je pro B hrozba. Kroky ukazují střídání, ne čísla."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "dilema",
+   "diagram": "PÁTEŘ: oba stohy vysoké, nad každou pevností bublina DEFENCE; pod hranicí MORE ARMED · LESS SAFE",
+   "note": "Obě strany věří, že se brání — bubliny jsou totožné záměrně."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "dilema",
+   "diagram": "karta zdroje: THE SECURITY DILEMMA / JOHN H. HERZ · WORLD POLITICS · 1950",
+   "note": "Termín a rok z factcheck.md (Herz 1950).",
+   "pause": 2.4
+  },
+  {
+   "id": "S18",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S18.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "HMS Dreadnought 1906",
+    "pick": 0
+   },
+   "note": "PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-10: „HMS Dreadnought 1906 H61017“, loď z boku na moři (public domain).",
+   "pause": 0.4
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "namorni",
+   "diagram": "PÁTEŘ s popisky BRITAIN a GERMANY: u Británie vysoký stoh starých lodí ztlumeně (OLDER SHIPS), u obou nový malý ambrový stoh (NEW DESIGN); bubliny obou: ONLY FOR DEFENCE",
+   "note": "Náskok ve starých lodích „counted for much less“ = ztlumený, ne škrtnutý (pořád existoval). Žádná čísla lodí — nejsou ověřená. Německo už má flotilu (factcheck S19)."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "namorni",
+   "diagram": "časová osa 1898–1914: pruh NAVAL RACE od 1898 (Tirpitz) přes 1906 (DREADNOUGHT) slábnoucí ke 1912, značka 1914 FIRST WORLD WAR; mezi pruhem a válkou ŽÁDNÁ šipka",
+   "note": "Šipka by tvrdila příčinu (factcheck S20: jedna z provázaných příčin). Válka a závody jsou na ose vedle sebe, nic víc.",
+   "pause": 2.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "jaderne",
+   "diagram": "spojnicový graf světového počtu jaderných hlavic 1945–2026 (OWID/FAS, data.json), vrchol 1986 ambrovou tečkou s popiskem 70,374 · 1986",
+   "note": "Řada celá ze zdroje (FAS přes OWID, řádek World = včetně vyřazených). Hlas „around seventy thousand“, obraz přesné číslo."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "jaderne",
+   "diagram": "jedna vodorovná lišta 1986 rozdělená: USSR 40,159 | USA 23,317 | OTHERS 976 | RETIRED, AWAITING DISMANTLEMENT 5,922 (čárkovaně); pod tím FAR MORE THAN EITHER SIDE NEEDED",
+   "note": "Podíly z data.json s `assert` na součet 70 374. Vyřazené jsou čárkovaně a bez země — data je nepřiřazují."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S23.png",
+   "prompt": "an empty cold war command bunker, rows of dark consoles and a large blank wall screen, concrete walls, single amber desk lamp, quiet and still, flat grey light",
+   "note": "Otázka „Why would that make anyone safer?“ — atmosférický předěl. Ne první scéna videa. Herní PC nedostupné → nakreslil ChatGPT podle zadání (2026-10-10); prompt níž je původní SDXL zadání.",
+   "pause": 1.0,
+   "diagram_generator": "ilustrace",
+   "diagram": "Ilustrace z ChatGPT (art/S23.png) přes celý rám, bez textu. Původ v art/PUVOD.md."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "jaderne",
+   "diagram": "PÁTEŘ s popisky USA a USSR, oba stohy plné; čárkovaná šipka FIRST STRIKE z A na B a čárkovaná šipka zpět IN RETURN z B na A",
+   "note": "Obě šipky čárkovaně — žádná se nestala. Odveta míří od napadeného na útočníka.",
+   "pause": 0.6
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "jaderne",
+   "diagram": "jako S24, nad tím MUTUALLY ASSURED DESTRUCTION s ambrovými iniciálami M, A, D; dvě bubliny I WON'T, BECAUSE YOU CAN",
+   "note": "Zrcadlo: obě strany v téže pozici."
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "jaderne",
+   "diagram": "dva řádky: přeškrtnuté USEFUL BECAUSE THEY CAN BE USED; ambrově USEFUL BECAUSE USING THEM = CATASTROPHE",
+   "note": "Škrt přes první řádek je správně — scénář ho výslovně popírá. Pauza jen 1,0: S27 pokračuje „Which…“, konec bloku je až S29.",
+   "pause": 1.0
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "neviditelne",
+   "diagram": "prázdná titulní strana novin: hlavička, pod ní tři prázdné čárkované rámečky s nápisy NO BATTLE, NO VICTORY, NO HEADLINE",
+   "note": "„When it works, nothing happens.“ Úspěch, který nezanechá stopu.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "neviditelne",
+   "diagram": "časová osa 1949–2026, prázdná, s nápisem INVASIONS OF THE NATO TREATY AREA BY AN OUTSIDE POWER: 0",
+   "note": "Formulace podle factcheck S28 („outside power“, smluvní oblast čl. 6). Žádná mapa."
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "neviditelne",
+   "diagram": "dvě čárkované karty DETERRENCE? a NOBODY WOULD HAVE TRIED? mezi nimi otazník; pod nimi HISTORY RUNS ONLY ONCE",
+   "note": "Obě vysvětlení jsou rovnocenná — stejná velikost, žádné ambrové. Tohle je místo, kde video nepřisuzuje odstrašení jistotu.",
+   "pause": 2.6
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "falklandy",
+   "diagram": "PÁTEŘ: B se stohem; z A bublina s otazníkem WILL THEY USE IT?",
+   "note": "Odstrašení není ve zbraních B, ale v hlavě A."
+  },
+  {
+   "id": "S31",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S31.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "HMS Endurance Anita Dan",
+    "pick": 2
+   },
+   "note": "PICK 2 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-10: „HMS Endurance (A171) at Nassau in 1982“ — STARÁ Endurance (ex Anita Dan, ve službě 1967–1991), ne pozdější loď z 1991, kterou vrací dotaz „HMS Endurance ice patrol ship“ (public domain)."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "falklandy",
+   "diagram": "PÁTEŘ s popisky BRITAIN a ARGENTINA; u Argentiny sloupec signálů: dvě ztlumené karty OTHER SIGNALS a ambrová ENDURANCE TO BE RETIRED; bublina LOSING INTEREST?",
+   "note": "„One more sign“ = jedna z více karet (factcheck S32). Otazník v bublině — tak to četli, ne tak to bylo.",
+   "pause": 0.6
+  },
+  {
+   "id": "S32b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32b.png",
+   "diagram_generator": "falklandy",
+   "diagram": "malá ikona lodi s popiskem MILITARY VALUE: VERY LIMITED a vedle ní velký ambrový nápis WHAT IT SEEMED TO SAY",
+   "note": "Protiváha, kterou žádal uživatel (Franks: „limited military value… symbolic role“).",
+   "pause": 1.0
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "falklandy",
+   "diagram": "PÁTEŘ BRITAIN / ARGENTINA, malý ostrov FALKLANDS blíž Argentině, plná šipka z Argentiny na ostrov; nahoře 2 APRIL 1982",
+   "note": "Plná šipka — invaze se stala. Míří od Argentiny na ostrovy."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "falklandy",
+   "diagram": "PÁTEŘ: u Británie plný stoh lodí; bublina z Argentiny: A BRITISH MILITARY RESPONSE: ALMOST IMPOSSIBLE, pod ní zdroj RATTENBACH REPORT (ARGENTINA)",
+   "note": "Argentinský pramen (factcheck S34), ne britský výklad."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "falklandy",
+   "diagram": "dvě karty POWER TO STRIKE BACK a AN OPPONENT CONVINCED YOU WILL; pod nimi stopky MINUTES",
+   "note": "Dvě podmínky odstrašení; stopky = „sometimes, in a matter of minutes“.",
+   "pause": 2.4
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "petrov",
+   "diagram": "obrazovka varovného systému: tečka LAUNCH, pak dalších čtyři menší; nahoře 26 SEPTEMBER 1983",
+   "note": "Jedna, pak další čtyři (factcheck S36). Obrazovka schematická, bez mapy."
+  },
+  {
+   "id": "S37",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Stanislav Petrov",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK 0 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-10: portrét Petrova z roku 2016 (CC BY-SA 4.0). Portrét → `fit` 0.84, static, žádný zoom."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "petrov",
+   "diagram": "řez: oblouk Země, vysoká oblačnost, slunce vlevo, paprsek odražený od mraků k družici nahoře; popisky SUNLIGHT OFF HIGH CLOUDS a SATELLITE: \"LAUNCH\"",
+   "note": "Jedna družice (factcheck S38). Paprsek: slunce → mraky → družice, ne obráceně."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "petrov",
+   "diagram": "vlevo rámeček WARNING SYSTEM s nápisem LAUNCH ×5 (ambrově, s otazníkem), vpravo silueta s otazníkem a popiskem FALSE ALARM?",
+   "note": "Nekreslit „zachránil svět“ — jen to, že chybu stroje poznal člověk (factcheck S39).",
+   "pause": 2.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "linie",
+   "diagram": "PÁTEŘ: stoh A v pásu mezi dvěma vodorovnými čárkovanými mezemi — dole TOO WEAK: INVITES ATTACK, nahoře TOO THREATENING: A NEIGHBOUR STRIKES FIRST",
+   "note": "Úzký pás = narrow line. Meze čárkovaně, protože nikdo neví, kde přesně leží."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "linie",
+   "diagram": "dva stejné stohy zbraní vedle sebe s popisky DEFENSIVE a OFFENSIVE a mezi nimi znak =",
+   "note": "Stejný tvar záměrně — „can look almost exactly the same“.",
+   "pause": 2.2
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "linie",
+   "diagram": "PÁTEŘ USA / USSR, oba stohy plné, nahoře 1962 · CUBAN MISSILE CRISIS",
+   "note": "Přechod k tomu, co se postavilo po krizi.",
+   "pause": 0.6
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "linie",
+   "diagram": "PÁTEŘ USA / USSR: mezi pevnostmi poprvé ambrová LINKA `linka()` WASHINGTON — MOSCOW · 1963; nad ní přeškrtnuté NEARLY 12 HOURS",
+   "note": "Výplata páteře podruhé v S51. 11 h 32 min z FRUS (factcheck S43)."
+  },
+  {
+   "id": "S44",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S44.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Moscow Washington hotline teletype",
+    "pick": 1
+   },
+   "note": "PICK 1 VYBRÁN Z KONTAKTNÍHO LISTU 2026-10-10: „Hotlineroom.jpg“ — terminál horké linky Washington–Moskva v komunikačním centru Bílého domu, dálnopisy Teletype 28 a Siemens T63 (White House / NSA, public domain). Datum snímku není známé, proto v hlase nic o roce. Alternativa pick 0: dálnopis horké linky 1967 v LBJ Library (CC BY 4.0).",
+   "pause": 2.4
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "visual": "images/S45.png",
+   "prompt": "grey warships at anchor in a quiet harbour, calm water, stone breakwater, flat grey overcast sky, no sun, stillness",
+   "note": "Otázka titulu znovu, před odpovědí. Klid, nic se neděje. Herní PC nedostupné → nakreslil ChatGPT podle zadání (2026-10-10); prompt níž je původní SDXL zadání.",
+   "pause": 1.4,
+   "diagram_generator": "ilustrace",
+   "diagram": "Ilustrace z ChatGPT (art/S45.png) přes celý rám, bez textu. Původ v art/PUVOD.md."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ: B se stohem, čárkovaná šipka z A se zastaví u hranice; nahoře SOMETIMES, YES",
+   "note": "Rým s S08, ale nápis „sometimes“ — ne „yes“."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ: oba stohy plné, mezi nimi tři štítky FEAR, ARMS RACES, MISTAKES",
+   "note": "Rým s S16."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "zaver",
+   "diagram": "checklist ONLY WHEN: THEY BELIEVE THE THREAT, THEY UNDERSTAND IT, NOBODY PANICS",
+   "note": "Tři podmínky ze scénáře. Už v posledních ~25 s: kreslit jen do dolní poloviny."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "zaver",
+   "diagram": "v dolní polovině ležící raketa, čárkovaně orámovaná, popisek NEVER FIRED; horní polovina prázdná",
+   "note": "Koncová obrazovka: horní polovina volná pro prvky YouTube.",
+   "pause": 2.0
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ jako S01 (A se stohem, B, hranice), nic navíc",
+   "note": "Návrat k první větě videa. Páteř leží celá v dolní polovině.",
+   "pause": 0.5
+  },
+  {
+   "id": "S50b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "naveti": "That is the old advice.",
+   "note": "Beat rozdělením scény (poslech draftu 0.2): mezi „Do you want peace?“ a „Then prepare for war.“ nechal Kokoro 40 ms a sentence_pause se nevložil. Dědí obraz S50; návětí „Do you want peace?“ nešlo (Kokoro ho s „Then“ slil, 40 ms), proto neutrální oznamovací věta.",
+   "pause": 1.0
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ jako S50 + ambrová linka `linka()` mezi A a B (táž jako v S43), pod ní PREPARE FOR PEACE",
+   "note": "Výplata: to, co se v S43 postavilo mezi USA a SSSR, je teď mezi A a B. Horní polovina volná.",
+   "pause": 3.0
+  }
+ ]
+}

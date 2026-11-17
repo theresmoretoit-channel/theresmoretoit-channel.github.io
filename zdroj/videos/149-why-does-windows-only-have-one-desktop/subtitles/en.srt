@@ -1,0 +1,670 @@
+1
+00:00:00,000 --> 00:00:03,580
+Picture switching on a Windows PC
+and finding no taskbar,
+
+2
+00:00:03,660 --> 00:00:07,260
+no Start button,
+and not a single icon on the desktop.
+
+3
+00:00:07,817 --> 00:00:10,017
+Instead there's a thin bar along the top,
+
+4
+00:00:10,097 --> 00:00:15,577
+a menu that pops up wherever you click,
+and four virtual desktops side by side.
+
+5
+00:00:16,084 --> 00:00:17,344
+It looks like Linux.
+
+6
+00:00:17,564 --> 00:00:22,364
+But your programs, your drivers and your
+files are exactly where you left them.
+
+7
+00:00:22,764 --> 00:00:24,064
+It's still Windows.
+
+8
+00:00:24,888 --> 00:00:26,908
+Only the desktop has changed.
+
+9
+00:00:27,188 --> 00:00:30,448
+And the switch that changes it
+is a single setting.
+
+10
+00:00:31,130 --> 00:00:34,450
+Windows keeps it in the registry,
+in a value called Shell.
+
+11
+00:00:35,270 --> 00:00:37,810
+On almost every Windows PC,
+it says explorer.exe.
+
+12
+00:00:39,932 --> 00:00:42,032
+Write the name
+of a different program there,
+
+13
+00:00:42,112 --> 00:00:46,252
+sign out and sign back in,
+and Windows starts that program instead.
+
+14
+00:00:47,132 --> 00:00:49,132
+Whatever it draws becomes your desktop.
+
+15
+00:00:49,993 --> 00:00:52,513
+And this isn't a trick
+someone found last year.
+
+16
+00:00:53,233 --> 00:00:59,253
+In 1990, Windows 3.0 had the same switch
+in a plain text file called system.ini.
+
+17
+00:00:59,873 --> 00:01:01,273
+One line: shell=progman.exe.
+
+18
+00:01:04,363 --> 00:01:06,883
+If you changed that name, Program Manager,
+
+19
+00:01:07,123 --> 00:01:10,283
+the window full of icon groups,
+never appeared at all.
+
+20
+00:01:10,995 --> 00:01:14,235
+So the question isn't whether Windows
+can have a different desktop.
+
+21
+00:01:14,855 --> 00:01:16,055
+It always could.
+
+22
+00:01:16,495 --> 00:01:19,575
+The question is why almost
+nobody has seen one.
+
+23
+00:01:21,885 --> 00:01:24,585
+Start with what that line
+actually points to.
+
+24
+00:01:25,305 --> 00:01:28,985
+The taskbar, the desktop icons,
+the little tray by the clock:
+
+25
+00:01:29,205 --> 00:01:31,625
+all of that is one program, Explorer.
+
+26
+00:01:32,245 --> 00:01:35,745
+Yes, the same Explorer
+you open to look through your files.
+
+27
+00:01:36,205 --> 00:01:40,325
+It does two jobs,
+and most people only ever notice one.
+
+28
+00:01:40,876 --> 00:01:45,296
+That second job has a name: the shell.
+It's the layer you touch.
+
+29
+00:01:46,216 --> 00:01:47,896
+Underneath it sit the kernel, the drivers,
+
+30
+00:01:48,126 --> 00:01:50,756
+and the services
+that keep Windows running.
+
+31
+00:01:51,387 --> 00:01:53,247
+None of them need a taskbar.
+
+32
+00:01:53,407 --> 00:01:57,667
+End Explorer in Task Manager,
+and the taskbar and icons vanish...
+
+33
+00:01:58,007 --> 00:02:01,607
+but Notepad, your browser,
+every other window keeps working.
+
+34
+00:02:02,258 --> 00:02:04,918
+Start it again,
+and the desktop comes back.
+
+35
+00:02:05,418 --> 00:02:09,318
+That's about the clearest proof there is
+that the desktop is just another program.
+
+36
+00:02:12,168 --> 00:02:16,908
+If you've ever changed the launcher on an
+Android phone, you've seen a similar idea.
+
+37
+00:02:17,568 --> 00:02:19,788
+Android makes it a normal setting.
+
+38
+00:02:20,468 --> 00:02:22,388
+Windows has the mechanism too,
+
+39
+00:02:22,468 --> 00:02:25,708
+but never gave ordinary users
+a simple button for it.
+
+40
+00:02:26,641 --> 00:02:28,561
+Three words get mixed up here.
+
+41
+00:02:29,141 --> 00:02:33,341
+The shell is what you launch things from:
+the taskbar, the menus, the desktop.
+
+42
+00:02:34,081 --> 00:02:38,741
+A window manager controls how windows
+are positioned, stacked and focused.
+
+43
+00:02:39,661 --> 00:02:42,901
+A desktop environment
+brings the whole experience together.
+
+44
+00:02:43,618 --> 00:02:47,438
+On Linux, these pieces can be combined
+in many different ways.
+
+45
+00:02:48,058 --> 00:02:51,498
+On Windows, replacing the shell doesn't
+replace the system's window management,
+
+46
+00:02:51,728 --> 00:02:55,138
+or the way applications
+draw their window frames.
+
+47
+00:02:57,798 --> 00:02:59,938
+That didn't stop people from trying.
+
+48
+00:03:00,538 --> 00:03:03,078
+By the early nineties,
+you could walk into a shop
+
+49
+00:03:03,308 --> 00:03:05,858
+and buy a replacement for Program Manager.
+
+50
+00:03:06,536 --> 00:03:09,656
+Norton Desktop for Windows
+gave you its own desktop,
+
+51
+00:03:10,076 --> 00:03:14,916
+its own file tools and its own launcher,
+on top of the same Windows underneath.
+
+52
+00:03:15,677 --> 00:03:19,857
+Some computer makers replaced it
+before the customer ever switched on.
+
+53
+00:03:20,597 --> 00:03:22,457
+Packard Bell's Navigator greeted buyers
+
+54
+00:03:22,687 --> 00:03:25,737
+with a house you could walk through,
+room by room.
+
+55
+00:03:26,714 --> 00:03:29,754
+Then Windows 95 handed
+the job to Explorer,
+
+56
+00:03:29,914 --> 00:03:34,514
+and the line in system.ini
+simply changed to explorer.exe.
+
+57
+00:03:35,354 --> 00:03:37,774
+The switch stayed exactly where it was.
+
+58
+00:03:40,054 --> 00:03:43,774
+In the late nineties, a whole
+community grew up around that switch.
+
+59
+00:03:44,574 --> 00:03:46,414
+The best-known project was LiteStep.
+
+60
+00:03:47,576 --> 00:03:51,436
+It borrowed its look from AfterStep,
+a Unix window manager modelled
+
+61
+00:03:51,666 --> 00:03:56,156
+on NeXTSTEP, from the company
+Steve Jobs founded after leaving Apple.
+
+62
+00:03:56,845 --> 00:04:00,185
+LiteStep had no Start
+menu unless you built one.
+
+63
+00:04:00,545 --> 00:04:04,145
+Everything was a module:
+a dock here, a clock there,
+
+64
+00:04:04,225 --> 00:04:06,285
+a menu that opened
+wherever you right-clicked.
+
+65
+00:04:07,503 --> 00:04:09,803
+Its themes were shared like wallpapers.
+
+66
+00:04:10,183 --> 00:04:11,863
+Some looked futuristic.
+
+67
+00:04:12,523 --> 00:04:14,503
+Some looked like a Unix workstation.
+
+68
+00:04:15,003 --> 00:04:17,963
+Some left almost nothing
+on the screen at all.
+
+69
+00:04:18,549 --> 00:04:21,029
+Blackbox for Windows went the other way.
+
+70
+00:04:21,509 --> 00:04:24,869
+It copied Blackbox,
+a minimalist Unix window manager,
+
+71
+00:04:24,949 --> 00:04:27,909
+down to a single plain menu
+and a slim toolbar.
+
+72
+00:04:28,652 --> 00:04:33,772
+Its successor, bbLean, kept that idea
+alive on Windows 2000 and XP.
+
+73
+00:04:34,764 --> 00:04:38,684
+Emerge Desktop broke the shell
+into separate parts: a launcher,
+
+74
+00:04:38,764 --> 00:04:43,004
+a tray, a task list, each one a small
+program you could keep or drop.
+
+75
+00:04:44,207 --> 00:04:45,767
+Why go to all that trouble?
+
+76
+00:04:46,247 --> 00:04:50,527
+Partly because the look of XP
+was easy to recognise and hard to change.
+
+77
+00:04:51,367 --> 00:04:53,587
+Themes changed the colours and buttons.
+
+78
+00:04:54,327 --> 00:04:55,587
+The layout stayed.
+
+79
+00:04:56,277 --> 00:04:57,497
+Partly memory.
+
+80
+00:04:57,757 --> 00:05:00,777
+On a machine with a hundred
+and twenty-eight megabytes,
+
+81
+00:05:00,857 --> 00:05:03,897
+a lighter shell promised more room
+for everything else.
+
+82
+00:05:04,281 --> 00:05:08,541
+And partly Linux.
+There, choosing your desktop was normal,
+
+83
+00:05:08,621 --> 00:05:11,221
+and some Windows users wanted
+the same choice.
+
+84
+00:05:12,531 --> 00:05:14,531
+Most of those projects are gone now.
+
+85
+00:05:14,761 --> 00:05:19,411
+LiteStep's last release was a preview
+from 2014, still marked alpha.
+
+86
+00:05:19,641 --> 00:05:23,894
+Emerge Desktop
+and SharpEnviro stopped too.
+
+87
+00:05:25,794 --> 00:05:28,554
+Small volunteer teams
+were part of the reason.
+
+88
+00:05:28,874 --> 00:05:31,034
+But Windows changed too.
+
+89
+00:05:31,514 --> 00:05:35,454
+Over the years, its desktop became
+much more than one executable.
+
+90
+00:05:36,305 --> 00:05:40,185
+The desktop experience is now spread
+across multiple processes,
+
+91
+00:05:40,385 --> 00:05:43,165
+system components
+and packaged applications.
+
+92
+00:05:44,225 --> 00:05:47,405
+Even the Start menu runs
+as a program of its own.
+
+93
+00:05:47,944 --> 00:05:49,824
+Replacing Explorer doesn't mean replacing
+
+94
+00:05:50,054 --> 00:05:53,204
+everything that makes up
+the modern Windows interface.
+
+95
+00:05:54,024 --> 00:05:56,944
+And that's one reason why building
+a complete alternative desktop
+
+96
+00:05:57,174 --> 00:05:59,444
+is harder than it used to be.
+
+97
+00:06:01,994 --> 00:06:03,674
+And yet it still works.
+
+98
+00:06:04,314 --> 00:06:08,654
+Cairo Desktop, an open-source project,
+runs on Windows 11 today.
+
+99
+00:06:09,324 --> 00:06:12,784
+It brings its own menu bar along the top,
+its own taskbar,
+
+100
+00:06:12,864 --> 00:06:15,824
+and folders you can pin
+to the bar as stacks.
+
+101
+00:06:16,631 --> 00:06:20,111
+It can run alongside Explorer,
+or take over as the shell.
+
+102
+00:06:21,211 --> 00:06:24,231
+In that second mode,
+parts of Windows 11 can misbehave,
+
+103
+00:06:24,461 --> 00:06:27,471
+Settings and Windows Security among them.
+
+104
+00:06:28,593 --> 00:06:30,793
+Seelen UI goes about it differently.
+
+105
+00:06:31,653 --> 00:06:33,373
+It doesn't replace Explorer.
+
+106
+00:06:34,273 --> 00:06:36,833
+It hides the taskbar
+and brings its own pieces:
+
+107
+00:06:37,033 --> 00:06:41,133
+a dock, a bar, widgets, and a window
+manager that tiles your windows.
+
+108
+00:06:41,877 --> 00:06:44,037
+The result can look nothing like Windows.
+
+109
+00:06:44,597 --> 00:06:47,177
+But underneath, Explorer is still running.
+
+110
+00:06:47,897 --> 00:06:49,897
+It's a new face, not a new shell.
+
+111
+00:06:52,417 --> 00:06:53,617
+And Microsoft?
+
+112
+00:06:54,177 --> 00:06:56,597
+It actually has an official
+feature for this.
+
+113
+00:06:57,297 --> 00:07:01,517
+It's called Shell Launcher,
+and it's designed for devices like kiosks.
+
+114
+00:07:02,053 --> 00:07:04,713
+You've probably used something
+like it without knowing.
+
+115
+00:07:05,113 --> 00:07:10,853
+The ticket machine at a station.
+A self-service checkout. A cash machine.
+
+116
+00:07:11,477 --> 00:07:15,577
+Many of them are Windows PCs
+whose whole shell is one application.
+
+117
+00:07:16,657 --> 00:07:18,457
+An administrator names the program,
+
+118
+00:07:18,537 --> 00:07:21,897
+and after sign-in,
+that program is the whole desktop.
+
+119
+00:07:22,553 --> 00:07:27,913
+But it's only available in the Enterprise,
+Education and IoT Enterprise editions.
+
+120
+00:07:28,551 --> 00:07:31,951
+And the older registry mechanism
+is still part of Windows.
+
+121
+00:07:32,791 --> 00:07:37,491
+Microsoft just never turned it into a
+normal desktop setting for ordinary users.
+
+122
+00:07:40,791 --> 00:07:43,851
+So why does Windows only
+seem to have one desktop?
+
+123
+00:07:44,411 --> 00:07:46,771
+Not because it can't have another.
+
+124
+00:07:47,191 --> 00:07:49,171
+Because the desktop is the product.
+
+125
+00:07:52,201 --> 00:07:54,461
+On Linux, the desktop is a choice.
+
+126
+00:07:55,241 --> 00:07:58,661
+Some distributions ask you to pick one
+while you're still installing.
+
+127
+00:07:59,361 --> 00:08:02,461
+KDE Plasma, GNOME, Xfce, Cinnamon...
+
+128
+00:08:03,138 --> 00:08:05,618
+On Windows,
+the desktop is what Microsoft shows
+
+129
+00:08:05,848 --> 00:08:10,098
+in every advert, every screenshot
+and every support page.
+
+130
+00:08:11,038 --> 00:08:15,018
+One desktop means one set of instructions
+for more than a billion machines.
+
+131
+00:08:15,908 --> 00:08:17,488
+That's a real advantage.
+
+132
+00:08:18,308 --> 00:08:21,888
+When something breaks, the screen
+in the help article looks like yours.
+
+133
+00:08:22,548 --> 00:08:25,708
+The cost is that most people never learn
+there was a choice.
+
+134
+00:08:28,338 --> 00:08:32,958
+People were swapping the Windows desktop
+before Windows 95 even existed.
+
+135
+00:08:33,818 --> 00:08:38,018
+They built docks, bare menus, and desktops
+that looked like nothing else.
+
+136
+00:08:38,612 --> 00:08:42,432
+Most of those projects are gone.
+The idea isn't.
+
+137
+00:08:42,592 --> 00:08:44,912
+Under every taskbar you've ever clicked,
+
+138
+00:08:44,992 --> 00:08:47,972
+there's still that one setting,
+waiting for a different name.
+
+139
+00:08:49,168 --> 00:08:51,728
+The desktop is just
+another piece of software.
+
+140
+00:08:51,808 --> 00:08:54,148
+And software can be replaced.
+
+141
+00:08:55,878 --> 00:08:57,678
+So here's a question for you.
+
+142
+00:08:58,358 --> 00:09:01,378
+If Windows let you pick your desktop
+while installing, the way some
+
+143
+00:09:01,608 --> 00:09:05,158
+Linux distributions do, would you switch,
+or keep the one you know?
+
+144
+00:09:05,458 --> 00:09:07,008
+Let me know in the comments.

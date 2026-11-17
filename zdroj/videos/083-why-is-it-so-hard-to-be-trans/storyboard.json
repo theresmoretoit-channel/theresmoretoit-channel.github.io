@@ -1,0 +1,872 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "visual": "images/S01.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "První scéna nese MYŠLENKU, ne atmosféru: soud předchází slovům. Zavádí PÁTEŘ mistnost() — dveře, postava, pět pozorovatelů na pevných souřadnicích; vrací se v S02–S05, S13, S19, S28, S40, S82, výplata S86. Čárkovaný pohled = soud/domněnka, ne vidění (konvence 082 S91).",
+   "diagram_generator": "uvod",
+   "diagram": "MÍSTNOST (geometrie konce 082, teaser S91): uprostřed rám dveří a v něm postava, kolem šest pozorovatelů do hloubky s ČÁRKOVANÝMI ambrovými pohledy k její hlavě. Nad pozorovateli malé PLNÉ bubliny „…“ (už mají názor), nad postavou PRÁZDNÁ čárkovaná bublina (ještě nic neřekla). Žádný nadpis."
+  },
+  {
+   "id": "S02",
+   "visual": "images/S02.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Výčet s tečkami → vycet. Pohledové čáry míří na místa, která scénář jmenuje — kontrola cíle: pozorovatel → postava, nikdy obráceně.",
+   "diagram_generator": "uvod",
+   "diagram": "Táž místnost; v pásu nad ní štítky FACE · HAIR · CLOTHES · VOICE · THE WAY YOU MOVE.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S03",
+   "visual": "images/S03.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„Man or woman.“ Rozhodnutí = dva štítky, mezi kterými se volí. Žádná růžová/modrá, oba štítky stejnou barvou. Pauza = obrat k S04 („But what happens…“), záměrný beat.",
+   "diagram_generator": "uvod",
+   "diagram": "Táž místnost ztlumeně; nad postavou dva stejné štítky MAN | WOMAN, pohledy pozorovatelů se sbíhají do mezery mezi nimi. Dole drobně AUTOMATICALLY.",
+   "pause": 1.0
+  },
+  {
+   "id": "S04",
+   "visual": "images/S04.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "≠ = není totéž (konvence). Čárkovaný ambrový vnitřní obrys = kdo jsi, zvenčí nevidět (prozivani() z 082).",
+   "diagram_generator": "uvod",
+   "diagram": "Postava s čárkovaným ambrovým obrysem posunutým vůči ní. Nahoře „HOW PEOPLE SEE YOU“ ≠ „WHO YOU ARE“.",
+   "pause": 0.5
+  },
+  {
+   "id": "S05",
+   "visual": "images/S05.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Tři slovesa ze scénáře, nic navíc. Pohledy silnější než v S01 — eskalace na téže geometrii.",
+   "diagram_generator": "uvod",
+   "diagram": "Místnost; čárkované pohledy tlustší, u pozorovatelů štítky QUESTION · STARE · TREAT DIFFERENTLY."
+  },
+  {
+   "id": "S06",
+   "visual": "images/S06.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„Every time they leave home“ — opakování, ne jedna událost.",
+   "diagram_generator": "uvod",
+   "diagram": "Řada sedmi stejných malých dveří, z každých vychází táž malá postava. Pod nimi EVERY TIME THEY LEAVE HOME."
+  },
+  {
+   "id": "S07",
+   "visual": "images/S07.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Tři otázky + prázdné místo pro čtvrtou (věta pokračuje do S08, proto krátká pauza).",
+   "diagram_generator": "uvod",
+   "diagram": "Sloupec otázek: WILL SOMEONE NOTICE? · WILL THEY BE ACCEPTED? · WILL THEY BE SAFE? a pod nimi čtvrtý čárkovaný prázdný rámeček.",
+   "pause": 0.5
+  },
+  {
+   "id": "S08",
+   "visual": "images/S08.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Čtvrtá otázka ambrově = o té je řeč; první tři ztlumené.",
+   "diagram_generator": "uvod",
+   "diagram": "Týž sloupec; první tři ztlumené, čtvrtý rámeček plný a ambrový: ALLOWED TO GO ABOUT THEIR DAY WITHOUT EXPLAINING?",
+   "pause": 1.2
+  },
+  {
+   "id": "S09",
+   "visual": "images/S09.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Rekapitulace série 080–082. Tři dlaždice ztlumeně, čtvrtá prázdná čárkovaně (přijde S10).",
+   "diagram_generator": "uvod",
+   "diagram": "Čtyři dlaždice v řadě: WHAT IT MEANS · HOW PEOPLE DISCOVER IT · WHY SOME CHANGE THEIR BODIES (ztlumeně) a čtvrtá prázdná, čárkovaná.",
+   "pause": 0.5
+  },
+  {
+   "id": "S10",
+   "visual": "images/S10.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Čtvrtá dlaždice se plní. MUSÍ být static — S10b z ní dědí obraz.",
+   "diagram_generator": "uvod",
+   "diagram": "Tytéž čtyři dlaždice; čtvrtá ambrová: THE WORLD OUTSIDE.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S11",
+   "visual": "images/S11.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska: mluvený nadpis sekce. Jedna funkce kapitola() pro všechny, páteř (místnost) ztlumeně pod nadpisem.",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „WHAT DOES PASSING ACTUALLY MEAN?“, pod ním mistnost() ztlumeně."
+  },
+  {
+   "id": "S12",
+   "visual": "images/S12.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Zavedení slova.",
+   "diagram_generator": "passing",
+   "diagram": "Velké slovo „PASSING“ v uvozovkách uprostřed, pod ním drobně A WORD OFTEN USED."
+  },
+  {
+   "id": "S13",
+   "visual": "images/S13.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Definice. Postava sama NENÍ označená trans ani cis (konvence 082); to, co pozorovatel nevidí, je čárkovaný obrys a popisek pod ním.",
+   "diagram_generator": "passing",
+   "diagram": "Místnost s PLNÝMI pohledy (jen vidí); u postavy čárkovaný ambrový obrys = co pozorovatelé nevidí. Nad tím SEEN AS A MAN OR A WOMAN a ambrově WITHOUT RECOGNISING THAT THEY ARE TRANS."
+  },
+  {
+   "id": "S14",
+   "visual": "images/S14.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Co passing dává — žádná barva „dobré“, ambrová jen na tom, o čem je řeč.",
+   "diagram_generator": "passing",
+   "diagram": "Tři sloty vedle sebe; plné první dva: ADDRESSED CORRECTLY · LESS STRESSFUL, třetí prázdný.",
+   "pause": 0.4
+  },
+  {
+   "id": "S15",
+   "visual": "images/S15.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Třetí slot ČÁRKOVANĚ (in some circumstances… can). „But passing can also be complicated“ → otazník.",
+   "diagram_generator": "passing",
+   "diagram": "Tytéž tři sloty; třetí čárkovaný: LESS RISK OF HARASSMENT. Nad nimi otazník.",
+   "pause": 1.0
+  },
+  {
+   "id": "S16",
+   "visual": "images/S16.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Rým se sérií: nemůžu / nemám na to / nechci (080, 082). Třetí slot až v S17.",
+   "diagram_generator": "passing",
+   "diagram": "Tři sloty: CAN'T ACHIEVE IT · CAN'T AFFORD IT · prázdný.",
+   "pause": 0.4
+  },
+  {
+   "id": "S17",
+   "visual": "images/S17.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Třetí slot se plní; podtitulek je druhá věta scény.",
+   "diagram_generator": "passing",
+   "diagram": "Tři sloty, třetí ambrově DON'T WANT TO. Pod nimi NOT EVERY TRANS PERSON WANTS TO LOOK CONVENTIONALLY MASCULINE OR FEMININE."
+  },
+  {
+   "id": "S18",
+   "visual": "images/S18.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Dvakrát ≠ (konvence: není totéž), ne škrt.",
+   "diagram_generator": "passing",
+   "diagram": "Dva řádky: PASSING ≠ PROOF · NOT PASSING ≠ LESS REAL.",
+   "pause": 0.5
+  },
+  {
+   "id": "S19",
+   "visual": "images/S19.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Vzhled jako soudce. Dvě větve se NEBARVÍ jako vítěz — ambrová je jen APPEARANCE.",
+   "diagram_generator": "passing",
+   "diagram": "Nahoře ambrový štítek APPEARANCE. Dvě větve: LOOK AS EXPECTED → ACCEPTED (plná čára) a DON'T → UNDER SCRUTINY (čárkované pohledy z místnosti)."
+  },
+  {
+   "id": "S20",
+   "visual": "images/S20.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Jistota je uvnitř, zvenčí nevidět → čárkovaný obrys s popiskem CERTAIN; pozorovatelé venku soudí. Konec bloku passing.",
+   "diagram_generator": "passing",
+   "diagram": "Postava s čárkovaným ambrovým obrysem a štítkem CERTAIN; kolem pozorovatelé s čárkovanými pohledy a štítkem JUDGE FROM THE OUTSIDE.",
+   "pause": 0.6
+  },
+  {
+   "id": "S21",
+   "visual": "images/S21.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Most do sekce 3.",
+   "diagram_generator": "passing",
+   "diagram": "otazka(): WHY DOES APPEARANCE HAVE SO MUCH POWER?",
+   "pause": 2.2
+  },
+  {
+   "id": "S22",
+   "visual": "images/S22.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska.",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „WHO DECIDES WHAT A MAN OR WOMAN SHOULD LOOK LIKE?“"
+  },
+  {
+   "id": "S23",
+   "visual": "images/S23.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Výčet → vycet. Asociace je ČÁRKOVANÁ (konvence: nejisté), štítky se k MEN/WOMEN nepřiřazují — to by kresba tvrdila za scénář.",
+   "diagram_generator": "vzhled",
+   "diagram": "Šest štítků v neuspořádaném shluku: LONG HAIR · SHORT HAIR · DRESSES · TROUSERS · MAKEUP · BEARDS. Nad nimi dva prázdné rámečky MEN a WOMEN, od shluku k nim jen čárkované šipky.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S24",
+   "visual": "images/S24.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Tři kategorie jako Vennův diagram BEZ rozmístěných štítků: scénář neříká, který rys patří kam.",
+   "diagram_generator": "vzhled",
+   "diagram": "Tři překrývající se kruhy BIOLOGY · INDIVIDUAL PREFERENCE · SOCIAL EXPECTATIONS; průnik ambrově se štítkem MANY ARE A MIXTURE."
+  },
+  {
+   "id": "S25",
+   "visual": "images/S25.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Čtyři kombinace přesně podle scénáře.",
+   "diagram_generator": "vzhled",
+   "diagram": "Čtyři karty 2×2: A MAN + LONG HAIR · A WOMAN + A DEEP VOICE · A MAN + MAKEUP · A WOMAN + MASCULINE CLOTHING."
+  },
+  {
+   "id": "S26",
+   "visual": "images/S26.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„None of these… tells us everything“ → přeškrtnutá spojnice (skrtla_spojnice), ne přeškrtnuté rysy.",
+   "diagram_generator": "vzhled",
+   "diagram": "Šest štítků z S23 vlevo, vpravo GENDER IDENTITY; spojnice mezi nimi přeškrtnutá. Dole drobně WE ALREADY KNOW THIS ABOUT CISGENDER PEOPLE."
+  },
+  {
+   "id": "S27",
+   "visual": "images/S27.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Dvě karty, znění ze scénáře zkrácené, význam stejný.",
+   "diagram_generator": "vzhled",
+   "diagram": "Dvě karty: BROAD SHOULDERS → STILL A WOMAN · HIGHER VOICE → NO LESS A MAN.",
+   "pause": 0.5
+  },
+  {
+   "id": "S28",
+   "visual": "images/S28.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Návrat páteře: táž místnost, pohledy se sbíhají na detaily (lupa).",
+   "diagram_generator": "vzhled",
+   "diagram": "Místnost; čárkované pohledy zhuštěné na postavu, u ní kruh lupy. Štítek SUDDENLY MORE INTERESTED."
+  },
+  {
+   "id": "S29",
+   "visual": "images/S29.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Tři detaily a co se z nich stane — přesně tři dvojice ze scénáře.",
+   "diagram_generator": "vzhled",
+   "diagram": "Tři lupy v řadě: VOICE → EVIDENCE · FACE → SOMETHING TO EXAMINE · CLOTHES → A QUESTION.",
+   "pause": 1.0
+  },
+  {
+   "id": "S30",
+   "visual": "images/S30.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "≠; ambrová na tom, o čem je řeč (pravidla a soudy), ne „špatné“.",
+   "diagram_generator": "vzhled",
+   "diagram": "NOTICING DIFFERENCES ≠ ATTACHING RULES AND JUDGEMENTS (druhé ambrově)."
+  },
+  {
+   "id": "S31",
+   "visual": "images/S31.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Úzká hranice; lidé mimo ni dostanou otazník = „problém k vysvětlení“.",
+   "diagram_generator": "vzhled",
+   "diagram": "Dva úzké rámečky MEN a WOMEN s postavami uvnitř; dvě postavy mimo rámečky, nad nimi otazníky. Štítek A PROBLEM THAT NEEDS EXPLAINING."
+  },
+  {
+   "id": "S32",
+   "visual": "images/S32.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Skupiny se pojmenují TEXTEM v panelu, postavy samy zůstávají neoznačené.",
+   "diagram_generator": "vzhled",
+   "diagram": "Dva panely: TRANS PEOPLE — PARTICULARLY VULNERABLE (ambrově) · CISGENDER PEOPLE WHO DON'T FIT STEREOTYPES — RIDICULE, SUSPICION."
+  },
+  {
+   "id": "S33",
+   "visual": "images/S33.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Podmínka ambrově. Konec bloku.",
+   "diagram_generator": "vzhled",
+   "diagram": "Velký rámeček: YOU ARE ALLOWED TO BE YOURSELF… a pod ním ambrově AS LONG AS EVERYONE ELSE IS COMFORTABLE.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S34",
+   "visual": "images/S34.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska.",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „WHEN BEING DIFFERENT HAS A COST“",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S35",
+   "visual": "images/S35.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Týž pohled, dva výklady. Vpravo minulé pohledy čárkovaně ztlumeně = zkušenost.",
+   "diagram_generator": "cena",
+   "diagram": "Dvě poloviny se stejným pozorovatelem a pohledem: vlevo JUST A STARE; vpravo za postavou ztlumené stopy dřívějších pohledů a štítek A DIFFERENT MEANING."
+  },
+  {
+   "id": "S36",
+   "visual": "images/S36.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Nejistota: obě větve s otazníkem, žádná barevně.",
+   "diagram_generator": "cena",
+   "diagram": "Jeden pozorovatel s dlouhým pohledem, za ním dvě čárkované větve: CURIOUS? · A CRUEL REMARK?",
+   "pause": 0.6
+  },
+  {
+   "id": "S37",
+   "visual": "images/S37.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Únava z nejistoty, ne z události.",
+   "diagram_generator": "cena",
+   "diagram": "Postava pod řadou přibývajících otazníků (zleva doprava víc a hustěji); štítek UNCERTAINTY ITSELF."
+  },
+  {
+   "id": "S38",
+   "visual": "images/S38.png",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "note": "Veřejná místa, kde se rozhoduje, kam jít. Atmosféra uprostřed bloku. Ne „at dawn/dusk“ (zlaté světlo přebije kotvu).",
+   "prompt": "a person standing at the edge of a busy railway station concourse, seen from behind at a distance, hesitating before walking on, commuters passing by, soft overcast daylight, muted colours, quiet tension"
+  },
+  {
+   "id": "S39",
+   "visual": "images/S39.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Dvě strategie vedle sebe symetricky, žádná vítězná barva. TTS: homograf „present themselves“ (sloveso) — poslechnout.",
+   "diagram_generator": "cena",
+   "diagram": "Dva panely: MORE CAREFUL — WHERE · WHAT · HOW · WON'T LET REACTIONS DICTATE THEIR LIVES.",
+   "pause": 0.5
+  },
+  {
+   "id": "S40",
+   "visual": "images/S40.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Návrat páteře: místnost bez události, jen čárkovaná možnost; most k datům.",
+   "diagram_generator": "cena",
+   "diagram": "Místnost s ztlumeným davem, pohledy čárkované a tenké. Nad ní EVEN WHEN NOTHING HAPPENS.",
+   "pause": 1.0
+  },
+  {
+   "id": "S41",
+   "visual": "images/S41.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Zdroj čísla [USTS22] (factcheck S41–S43). „More than ninety thousand“ → 90,000+, ne přesné 92 329, ať obraz netvrdí víc než hlas.",
+   "diagram_generator": "data",
+   "diagram": "Husté pole drobných teček (bez měřítka) a nad ním 2022 U.S. TRANSGENDER SURVEY · 90,000+ RESPONDENTS."
+  },
+  {
+   "id": "S42",
+   "visual": "images/S42.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kreslí DATA → assert 3/10 a 3/100. Dvě různé škály záměrně (tři z deseti × tři ze sta), jak to říká scénář.",
+   "diagram_generator": "data",
+   "diagram": "Nahoře IN THE PAST 12 MONTHS. Řada 10 postav, 3 ambrově: VERBALLY HARASSED · ABOUT 3 IN 10. Pod ní mřížka 10×10 teček, 3 ambrově: PHYSICALLY ATTACKED · 3 IN 100."
+  },
+  {
+   "id": "S43",
+   "visual": "images/S43.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Výhrada ke vzorku = čárkovaný rámeček (konvence: nejisté). Data zůstávají, ztlumená.",
+   "diagram_generator": "data",
+   "diagram": "S42 ztlumeně v čárkovaném rámečku; štítky NOT A RANDOM SAMPLE · VARIES BY COUNTRY AND CIRCUMSTANCES."
+  },
+  {
+   "id": "S44",
+   "visual": "images/S44.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Obojí scénář popírá naplno („would be wrong“) → text_skrtnuty u obou. Data uprostřed zůstávají.",
+   "diagram_generator": "data",
+   "diagram": "Vlevo přeškrtnuté CONSTANT DANGER, vpravo přeškrtnuté IMAGINARY FEAR, uprostřed zmenšená data z S42."
+  },
+  {
+   "id": "S45",
+   "visual": "images/S45.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„not automatically“ → ≠, ne škrt.",
+   "diagram_generator": "data",
+   "diagram": "DISAGREEMENT ≠ DISCRIMINATION; pod tím tři ztlumené štítky MISUNDERSTANDING · A SINCERE QUESTION · AN HONEST MISTAKE."
+  },
+  {
+   "id": "S46",
+   "visual": "images/S46.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Rozcestí; ambrová na bodu rozhodnutí (THE RESPONSE), větve bez vítězné barvy. Konec bloku.",
+   "diagram_generator": "data",
+   "diagram": "Ambrový uzel THE RESPONSE, z něj dvě větve: LISTEN WHEN CORRECTED? · HUMILIATE SOMEONE?",
+   "pause": 2.4
+  },
+  {
+   "id": "S47",
+   "visual": "images/S47.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska.",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „FAMILY, WORK, AND EVERYDAY LIFE“"
+  },
+  {
+   "id": "S48",
+   "visual": "images/S48.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Šipky = moc nad životem, míří OD institucí K postavě (kontrola cíle). Tři oblasti, které sekce probere.",
+   "diagram_generator": "zivot",
+   "diagram": "Postava uprostřed, kolem tři rámečky FAMILY · WORK · HEALTHCARE, od každého šipka k postavě. Štítek POWER OVER OUR LIVES."
+  },
+  {
+   "id": "S49",
+   "visual": "images/S49.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Původně sdxl: dvě kola (seed 403683375 a 4902) nakreslila jediného člověka v kuchyni, rodina chyběla → funkci nenese, podle pravidla „dvakrát netrefí → jiný zdroj“ kresba. Navazuje na S50 (táž rodina, tytéž souřadnice). Doufané reakce ČÁRKOVANĚ (jen naděje).",
+   "diagram_generator": "zivot",
+   "diagram": "Vlevo dvě větší postavy (rodiče) a vpravo menší postava s bublinou SOMETHING IMPORTANT. Mezi nimi čárkovaně, co doufá: QUESTIONS · CONFUSION · A LITTLE TIME TO ADJUST."
+  },
+  {
+   "id": "S50",
+   "visual": "images/S50.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Tři věty ze scénáře v bublinách; bubliny míří od rodiny k postavě.",
+   "diagram_generator": "zivot",
+   "diagram": "Tři větší postavy vlevo s bublinami YOU'RE EMBARRASSING THE FAMILY · YOU'RE RUINING YOUR LIFE · YOU'RE NOT WHO WE THOUGHT; vpravo menší postava."
+  },
+  {
+   "id": "S51",
+   "visual": "images/S51.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Dvě větve bez vítězné barvy. Čísla z factchecku (67 % / 12 %) scénář neříká → nekreslí se.",
+   "diagram_generator": "zivot",
+   "diagram": "Dvě větve: LEARN · ADAPT · BECOME SUPPORTIVE a REMAIN REJECTING."
+  },
+  {
+   "id": "S52",
+   "visual": "images/S52.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Závislost = velikost postav (rodiče větší) a spojnice.",
+   "diagram_generator": "zivot",
+   "diagram": "Malá postava pod dvěma většími, spojené čarou; štítek DEPENDS ON THEIR PARENTS."
+  },
+  {
+   "id": "S53",
+   "visual": "images/S53.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Tři otázky ze scénáře čárkovaně („may determine“). Konec rodiny.",
+   "diagram_generator": "zivot",
+   "diagram": "Obrys domu, uvnitř tři čárkované řádky: HOME FEELS SAFE? · CAN SPEAK HONESTLY? · SOMEONE TO TURN TO?",
+   "pause": 1.4
+  },
+  {
+   "id": "S54",
+   "visual": "images/S54.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„might worry“ → čárkované pohledy. Tři skupiny přesně podle scénáře.",
+   "diagram_generator": "zivot",
+   "diagram": "Postava u stolu; kolem tři skupiny s čárkovanými pohledy: COLLEAGUES — MOCKED · A MANAGER — TREATED DIFFERENTLY · CUSTOMERS — JUDGED."
+  },
+  {
+   "id": "S55",
+   "visual": "images/S55.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„In some circumstances… can“ → čárkovaně. Druhá věta je most ke zdravotnictví (popisek dole).",
+   "diagram_generator": "zivot",
+   "diagram": "Tři schody HIRING · PROMOTION · CONTINUED EMPLOYMENT, čárkovaně. Dole ztlumeně AND THEN THERE'S HEALTHCARE."
+  },
+  {
+   "id": "S56",
+   "visual": "images/S56.png",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "note": "Odkládaná návštěva lékaře — doma, ne v čekárně (čekárna už byla v 082 S68). Šedé denní světlo. Uživatel 2026-10-24: postava neseděla na ničem → židle dokreslená v ChatGPT, původ v art/PUVOD.md.",
+   "pause": 0.3,
+   "diagram_generator": "obrazy",
+   "diagram": "Ilustrace (art/S56.png) přes celý rám: SDXL, v ChatGPT dokreslená židle pod postavou. Bez nadpisu a bez kresby kódem."
+  },
+  {
+   "id": "S57",
+   "visual": "images/S57.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Rozhovor uhne od problému k identitě — šipka uhýbá, ambrová na tom uhnutí.",
+   "diagram_generator": "zivot",
+   "diagram": "Bublina AN ORDINARY MEDICAL PROBLEM; šipka z ní se ohne ambrově k bublině YOUR TRANSGENDER STATUS.",
+   "pause": 0.6
+  },
+  {
+   "id": "S58",
+   "visual": "images/S58.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Všichni závisíme na druhých → síť postav; podmínka přijetí ambrově. Konec bloku.",
+   "diagram_generator": "zivot",
+   "diagram": "Řada postav spojených čarami (síť) se štítkem EVERYONE DEPENDS ON OTHER PEOPLE; pod ní ambrově ACCEPTANCE ON CONDITION: CONCEAL OR DEFEND.",
+   "pause": 2.4
+  },
+  {
+   "id": "S59",
+   "visual": "images/S59.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska. Celá sekce bez anatomie a bez tělesných kreseb.",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „WHY IS EVERYTHING ABOUT TRANS PEOPLE SO SEXUALISED?“"
+  },
+  {
+   "id": "S60",
+   "visual": "images/S60.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Výčet → vycet. Jen slova, žádná kresba těla.",
+   "diagram_generator": "sexualizace",
+   "diagram": "Rámeček PUBLIC DISCUSSION, z něj tři štítky GENITALS · SURGERIES · INTIMATE RELATIONSHIPS.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S61",
+   "visual": "images/S61.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Legitimní otázky — fajfka, bez ambrové („dobré“ se nebarví).",
+   "diagram_generator": "sexualizace",
+   "diagram": "SOME QUESTIONS ARE LEGITIMATE: ANATOMY · MEDICAL TREATMENT, u nich fajfka.",
+   "pause": 0.4
+  },
+  {
+   "id": "S62",
+   "visual": "images/S62.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„difference between“ → ≠.",
+   "diagram_generator": "sexualizace",
+   "diagram": "DISCUSSING AN ISSUE ≠ BODIES AS PUBLIC PROPERTY."
+  },
+  {
+   "id": "S63",
+   "visual": "images/S63.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Bubliny míří od tazatelů k postavě.",
+   "diagram_generator": "sexualizace",
+   "diagram": "Postava, kolem prázdné bubliny s otazníky od menších postav; štítek INTRUSIVE IN ANY OTHER CONTEXT."
+  },
+  {
+   "id": "S64",
+   "visual": "images/S64.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Otázky doslova ze scénáře.",
+   "diagram_generator": "sexualizace",
+   "diagram": "Tři bubliny pod sebou: WHAT DID YOU LOOK LIKE BEFORE? · WHAT EXACTLY IS IN YOUR UNDERWEAR? · WHAT WAS YOUR NAME BEFORE?"
+  },
+  {
+   "id": "S64b",
+   "visual": "images/S64b.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Vloženo po draftu 2 na pokyn uživatele (2026-10-24): otázka na staré jméno je obzvlášť nevhodná. Týž obraz jako S64, mění se jen zvýraznění.",
+   "diagram_generator": "sexualizace",
+   "diagram": "Tytéž tři bubliny; první dvě ztlumené, třetí (WHAT WAS YOUR NAME BEFORE?) ambrová — o té je řeč."
+  },
+  {
+   "id": "S65",
+   "visual": "images/S65.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Otočení na diváka: postava = YOU. Beat „Probably not.“ — poslechnout v draftu (min_sentence_words 1).",
+   "diagram_generator": "sexualizace",
+   "diagram": "Tytéž tři bubliny ztlumeně, teď míří na postavu se štítkem YOU; nad tím WOULD YOU ANSWER?"
+  },
+  {
+   "id": "S66",
+   "visual": "images/S66.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Šipka CURIOSITY → ENTITLEMENT; člověk se mění v téma.",
+   "diagram_generator": "sexualizace",
+   "diagram": "CURIOSITY → ENTITLEMENT (ambrově); pod tím postava, která se mění ve štítek A TOPIC, kolem FASCINATION · SUSPICION · POLITICAL ARGUMENT."
+  },
+  {
+   "id": "S67",
+   "visual": "images/S67.png",
+   "source": "svg",
+   "effect": "slow_zoom_in",
+   "note": "Obyčejný život místo tématu — nákup a cesta domů. Zezadu, z dálky. Uživatel 2026-10-24: divné nohy a světle zelené dveře vlevo → opraveno v ChatGPT, původ v art/PUVOD.md.",
+   "diagram_generator": "obrazy",
+   "diagram": "Ilustrace (art/S67.png) přes celý rám: SDXL, v ChatGPT opravené nohy postavy a světle zelené dveře vlevo. Bez nadpisu a bez kresby kódem."
+  },
+  {
+   "id": "S68",
+   "visual": "images/S68.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Scénář popírá naplno → škrt přes A PUBLIC DEBATE. Konec bloku.",
+   "diagram_generator": "sexualizace",
+   "diagram": "Postava; vedle přeškrtnuté A PUBLIC DEBATE a pod ním NO EXPLANATION OWED.",
+   "pause": 1.0
+  },
+  {
+   "id": "S69",
+   "visual": "images/S69.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Most do sekce 7.",
+   "diagram_generator": "sexualizace",
+   "diagram": "otazka(): WHO HAS THE RIGHT TO KNOW?",
+   "pause": 2.4
+  },
+  {
+   "id": "S70",
+   "visual": "images/S70.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska. Krátká samostatná promluva — v draftu poslechnout (kandidát na naveti).",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „THE RIGHT TO PRIVACY“",
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S71",
+   "visual": "images/S71.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Všechny tři scénář popírá naplno → text_skrtnuty. „wrongdoing“ podle opravy v0.4.",
+   "diagram_generator": "soukromi",
+   "diagram": "Tři přeškrtnuté řádky: A CONFESSION · WRONGDOING · INFORMATION THAT BELONGS TO EVERYONE."
+  },
+  {
+   "id": "S72",
+   "visual": "images/S72.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Levý panel; pravý prázdný do S73.",
+   "diagram_generator": "soukromi",
+   "diagram": "Levý panel OPEN: TALK PUBLICLY · EDUCATE · CAMPAIGN; pravý panel prázdný čárkovaný."
+  },
+  {
+   "id": "S73",
+   "visual": "images/S73.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Symetrie = obě volby rovnocenné; ŽÁDNÁ vítězná barva.",
+   "diagram_generator": "soukromi",
+   "diagram": "Oba panely plné stejnou barvou: OPEN · PRIVATE; pod nimi BOTH DESERVE RESPECT."
+  },
+  {
+   "id": "S74",
+   "visual": "images/S74.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„usually doesn't“ → čárkovaně, ne škrt.",
+   "diagram_generator": "soukromi",
+   "diagram": "Dvě postavy: A DOCTOR — MAY NEED TO KNOW (plně) · A STRANGER ON A BUS — USUALLY DOESN'T (čárkovaně)."
+  },
+  {
+   "id": "S75",
+   "visual": "images/S75.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "≠.",
+   "diagram_generator": "soukromi",
+   "diagram": "CHOOSING TO SHARE ≠ EXPOSED WITHOUT CONSENT (druhé ambrově)."
+  },
+  {
+   "id": "S76",
+   "visual": "images/S76.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Šipka = důsledek; míří od odhalení k postavě.",
+   "diagram_generator": "soukromi",
+   "diagram": "EXPOSED → postava; štítek CONSEQUENCES THEY NEVER AGREED TO."
+  },
+  {
+   "id": "S77",
+   "visual": "images/S77.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Třetí důsledek čárkovaně („in some circumstances“).",
+   "diagram_generator": "soukromi",
+   "diagram": "Tři důsledky: HOW COLLEAGUES TREAT THEM · HARASSMENT · SAFETY CONCERNS (čárkovaně)."
+  },
+  {
+   "id": "S78",
+   "visual": "images/S78.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "≠ a jádro: volba.",
+   "diagram_generator": "soukromi",
+   "diagram": "PRIVACY ≠ SHAME; nad tím ambrově A CHOICE."
+  },
+  {
+   "id": "S79",
+   "visual": "images/S79.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "„Perhaps“ → stará otázka se NEškrtá, jen ztlumí; nová ambrově. Konec bloku.",
+   "diagram_generator": "soukromi",
+   "diagram": "Ztlumeně WHY DO THEY WANT PRIVACY?, pod ním ambrově WHY SHOULD THEY HAVE TO JUSTIFY IT?",
+   "pause": 2.4
+  },
+  {
+   "id": "S80",
+   "visual": "images/S80.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kapitolová deska.",
+   "diagram_generator": "kapitoly",
+   "diagram": "kapitola(): „WHAT WOULD ACCEPTANCE ACTUALLY LOOK LIKE?“"
+  },
+  {
+   "id": "S81",
+   "visual": "images/S81.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Ne podmínka × jádro; DIGNITY ambrově.",
+   "diagram_generator": "zaver",
+   "diagram": "Ztlumeně NOT REQUIRED: PERFECT UNDERSTANDING; uprostřed ambrově DIGNITY."
+  },
+  {
+   "id": "S82",
+   "visual": "images/S82.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Kontrast řečeného a dělaného na páteři: místnost s pohledy z S05.",
+   "diagram_generator": "zaver",
+   "diagram": "Nahoře dvě řady: bublina BE COMFORTABLE WITH YOURSELF + štítek BUT: SCRUTINY, bublina BE HONEST + štítek BUT: PUNISHED FOR BEING OPEN; pod nimi místnost s čárkovanými pohledy."
+  },
+  {
+   "id": "S83",
+   "visual": "images/S83.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Různost = různé délky cest, ne různé postavy podle pohlaví.",
+   "diagram_generator": "zaver",
+   "diagram": "Řada postav, každá s cestou jiné délky; štítky SOME FIND ACCEPTANCE EASILY · OTHERS STRUGGLE FOR YEARS.",
+   "pause": 0.4
+  },
+  {
+   "id": "S84",
+   "visual": "images/S84.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Most k výčtu.",
+   "diagram_generator": "zaver",
+   "diagram": "Čtyři prázdné dlaždice v řadě, nad nimi WHAT MOST OF US TAKE FOR GRANTED."
+  },
+  {
+   "id": "S85",
+   "visual": "images/S85.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Výčet → vycet. Dlaždice se plní piktogramy.",
+   "diagram_generator": "zaver",
+   "diagram": "Čtyři dlaždice: TO GO TO WORK · TO SEE THEIR FRIENDS · TO VISIT A DOCTOR · TO WALK DOWN THE STREET.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S86",
+   "visual": "images/S86.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "VÝPLATA PÁTĚŘE: místnost z S01 na týchž souřadnicích, pozorovatelé tam pořád jsou, ale pohledové čáry zmizely a bubliny nad nimi jsou prázdné. Emocionální konec — dlouhá pauza.",
+   "diagram_generator": "zaver",
+   "diagram": "mistnost() beze změny geometrie: dveře, postava, šest pozorovatelů — BEZ pohledových čar, bez bublin. V pásu nad ní WITHOUT HAVING TO PROVE THEY DESERVE TO BE THERE.",
+   "pause": 3.0
+  },
+  {
+   "id": "S87",
+   "visual": "images/S87.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Háček na 084. Od S87 se kompozice drží v DOLNÍ polovině — okno závěrečné obrazovky (posledních ~20 s), prvky YouTube patří nahoru.",
+   "diagram_generator": "teaser",
+   "diagram": "DOLNÍ polovina: postava s čárkovaným vnitřním obrysem; kolem ní REJECTION · FEAR · THE PRESSURE TO HIDE, šipky K postavě. HORNÍ POLOVINA PRÁZDNÁ."
+  },
+  {
+   "id": "S88",
+   "visual": "images/S88.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Témata 084 jen slovy, žádná obrazová symbolika sebepoškození.",
+   "diagram_generator": "teaser",
+   "diagram": "DOLNÍ polovina: táž postava ztlumeně, vedle tři štítky GENDER DYSPHORIA · PSYCHOLOGICAL DISTRESS · SUICIDE RISK. HORNÍ POLOVINA PRÁZDNÁ.",
+   "pause": 0.5
+  },
+  {
+   "id": "S89",
+   "visual": "images/S89.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Rým s páteří 082 (váhy). Věta pokračuje do S90 → krátká pauza.",
+   "diagram_generator": "teaser",
+   "diagram": "DOLNÍ polovina: malé váhy vodorovně; levá miska ambrově THE EXPERIENCE ITSELF, pravá prázdná. HORNÍ POLOVINA PRÁZDNÁ.",
+   "pause": 0.3
+  },
+  {
+   "id": "S90",
+   "visual": "images/S90.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Váhy ZŮSTÁVAJÍ VODOROVNĚ a obě misky čárkovaně — náklon by odpověděl na otázku, kterou má zodpovědět až 084.",
+   "diagram_generator": "teaser",
+   "diagram": "Tytéž váhy, vodorovně; levá THE EXPERIENCE ITSELF, pravá ambrově HOW SOCIETY RESPONDS. HORNÍ POLOVINA PRÁZDNÁ.",
+   "pause": 1.2
+  },
+  {
+   "id": "S91",
+   "visual": "images/S91.png",
+   "source": "svg",
+   "effect": "static",
+   "note": "Závěrečná obrazovka, rým s koncem 081/082 (NEXT: …). static, pauza 3,0.",
+   "diagram_generator": "teaser",
+   "diagram": "Klidná deska: v dolní třetině „NEXT: WHEN DOES SOCIETY BECOME THE PROBLEM?“, horní polovina prázdná.",
+   "pause": 3.0
+  }
+ ]
+}
