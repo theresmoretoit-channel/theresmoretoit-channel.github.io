@@ -870,7 +870,11 @@ def stranka_domu(lang, videa, temata, ob):
 </section>"""
     alternativy = [(l, prefix(l) + "/") for l in LANGS]
     return stranka(lang, NAME, t["tagline"], prefix(lang) + "/", alternativy, telo,
-                   og=f"/og/{nej['cislo']}.jpg", nastroje=(lang == "en"))
+                   og=f"/og/{nej['cislo']}.jpg", nastroje=(lang == "en"),
+                   # Název webu ve výsledcích Googlu: bez WebSite na kořeni ukazoval
+                   # „GitHub“ (2026-11-18). Google ho čte jen z úvodní stránky domény.
+                   jsonld={"@context": "https://schema.org", "@type": "WebSite", "name": NAME,
+                           "url": SITE + "/", "sameAs": [CHANNEL]} if lang == "en" else None)
 
 
 def stranka_tematu(tema, ob):

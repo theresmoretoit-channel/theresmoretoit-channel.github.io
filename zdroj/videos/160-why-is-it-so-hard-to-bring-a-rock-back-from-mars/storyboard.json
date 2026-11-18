@@ -1,0 +1,917 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S01.png",
+      "note": "První obrazovka nese myšlenku: skutečné fotky depa Three Forks, ne SDXL ani kresba. PIA25738 je fotomontáž deseti záběrů WATSON (každá trubička zvlášť) — proto ve scénáři v0.5 „These are photographs from Mars.“ (rozhodl uživatel 2026-11-17; jednotlivé panorama PIA25736 ukázalo zřetelně jen jednu trubičku z deseti).",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA25738",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S02",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S02.png",
+      "note": "Skutečná trubička (tube 266) v ruce v rukavici — „titanium tube… drilled and sealed“. Žádné tvrzení o obsahu nad rámec scénáře.",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA24808",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S03",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S03.png",
+      "note": "Cheyava Falls, „leopard spots“ — skutečná fotka té horniny. Pozor: scéna říká, že tahle trubička je STÁLE V ROVERU, ne v depu; fotka je hornina na povrchu, takže sedí.",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA26368",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S03b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03b.png",
+      "diagram_generator": "uvod",
+      "diagram": "Výřez jedné leopardí skvrny (kroužek s tmavým lemem) se dvěma šipkami k popiskům MINERAL 1 / MINERAL 2; vpravo malá vložka ON EARTH: bahno s tečkami mikrobů a stejná skvrna.",
+      "note": "ANIMACE: skvrna se rozevře z fotky S03 do výřezu, vložka se dokreslí na „microbes feed“. Scénář minerály nejmenuje (vivianit, greigit) — v obraze taky NE, ať obraz netvrdí víc než hlas. Vložka ON EARTH čárkovaně = analogie, ne nález.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Nahoře ambrově POTENTIAL BIOSIGNATURE, pod tím dva sloupce: vlevo WHAT IT'S MADE OF s fajfkou (rover to umí), vpravo HOW IT FORMED s otazníkem. Dole drobně PROOF OF LIFE přeškrtnuté text_skrtnuty().",
+      "note": "ANIMACE: fajfka naskočí na „made of“, otazník na „not how they formed“. Míra jistoty musí sedět s hlasem: „potential“, „not proof“. Fajfka jen u složení — rover zná, z čeho to je, ne jak to vzniklo (factcheck S04).",
+      "anim": "animace"
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "cesta",
+      "diagram": "ZAVEDENÍ PÁTEŘE CESTA: vlevo výseč Marsu, vpravo malá Země, mezi nimi čárkovaný oblouk. Na povrchu Marsu ambrová trubička, nad ní nic. Nahoře nic.",
+      "note": "ANIMACE: trubička se zvedne a oblouk se k Zemi dokreslí čárkovaně (cesta, která zatím neexistuje). PÁTEŘ videa (kreslí ji jen _kit.cesta(), pevné souřadnice). Vrací se v S17–S21, S35–S38, S46, S54, S64, S69–S72, S77–S78 a S82. Ambrová trubička = „to, o čem je řeč“, celé video.",
+      "anim": "animace"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "cena",
+      "diagram": "Dvě misky vah: vlevo malá trubička a popisek < 0.5 KG, vpravo hromada bankovek ESTIMATED $11 BILLION; vahy přetočené k penězům.",
+      "note": "Dvě čísla ze scénáře, nic víc. „estimated“ i v obraze. Váhy jsou _kit.vahy()."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "cena",
+      "diagram": "Velké ambrové > $20,000,000 a pod ním / GRAM; vlevo maličký čtvereček 1 g.",
+      "note": "ANIMACE: číslo se načítá od nuly (počítadlo), jednotka stojí. Výpočet 11e9 / 450 g = 24 mil. $/g, „more than twenty million“ platí i při 500 g (factcheck S07). Assert v generátoru.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "cesta",
+      "diagram": "Páteř CESTA ztlumená, čárkovaný oblouk přeškrtnutý jednou čarou; nahoře FUNDING · JANUARY 2026 přeškrtnuté. Trubička stále na povrchu.",
+      "note": "ANIMACE: oblouk z S05 vybledne a přeškrtne se. „the original programme lost its funding“ — neříkat CANCELLED (Kongres nedal peníze, factcheck S08). Škrt přes oblouk, ne přes Mars.",
+      "anim": "animace",
+      "pause": 0.9
+    },
+    {
+      "id": "S09",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S09.png",
+      "note": "Skutečné vzorky Apolla 11 ve vakuové komoře Lunar Receiving Laboratory (1969). Číslo 22 kg nese hlas; obraz netvrdí množství.",
+      "archive": {
+        "provider": "nasa",
+        "query": "S69-45002",
+        "pick": 0,
+        "grade": {
+          "saturation": 100
+        }
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S09b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09b.png",
+      "diagram_generator": "mesic",
+      "diagram": "Měsíc s vyznačenou odvrácenou stranou (FAR SIDE), malá čárkovaná trajektorie s pouzdrem k Zemi; popisek 2024 · ROBOTIC.",
+      "note": "Bez loga a bez kresby čínské sondy (není volný snímek) — jen trajektorie. „samples“ nečíselně."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "mesic",
+      "diagram": "HLAVNÍ OTÁZKA: vlevo Měsíc s fajfkou a 22 KG, vpravo Mars s otazníkem a < 0.5 KG. Mezi nimi WHY?",
+      "note": "Osa celého videa. LEVÝ DOLNÍ ROH (x < 563, y > 1080) PRÁZDNÝ — výzva naskočí za touto scénou a přechází přes začátek S11. Mars vpravo, Měsíc vlevo — tatáž dvojice v S11–S16.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "mesic",
+      "diagram": "Měsíc vlevo a Mars vpravo ve správném poměru velikostí (průměr 3 475 : 6 779 km); pod nimi GRAVITY 1.62 / 3.71 m/s² a ambrově × 2.3.",
+      "note": "ANIMACE: Mars doroste z velikosti Měsíce na skutečnou. Poměr velikostí kotoučů spočítaný assertem. Levý dolní roh prázdný (výzva přes začátek scény), titulek krátký.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "mesic",
+      "diagram": "Dvojice z S11, nad každým svislá šipka nahoru: MOON 2.4 KM/S, MARS 5.0 KM/S (únikové rychlosti 2,38 a 5,03).",
+      "note": "ANIMACE: šipky vyrostou postupně, Měsíc na první větě, Mars na druhé. Šipky v poměru 2,1 : 1 (assert). Únikové rychlosti, ne oběžné — scénář říká „escape“.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "mesic",
+      "diagram": "Šipky z S12 a vedle nich × 2 přeškrtnuté text_skrtnuty(), pod tím ambrově MUCH WORSE.",
+      "note": "Škrt jen přes „× 2“ (neplatí to takhle), ne přes šipky."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "mesic",
+      "diagram": "CALLBACK NA 125: rovnice Δv = vₑ · ln(m₀ / m₁) písmem a rozvržením jako PÁTEŘ ROVNICE videa 125 (y 360); dole malá miniatura WHY IS GETTING TO ORBIT SO HARD?",
+      "note": "Rovnici převzít vzhledem z videos/125-…/diagrams/gen (rovnice), ať se pozná. Karta na 125.",
+      "karta": "125-why-is-getting-to-orbit-so-hard"
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "mesic",
+      "diagram": "Rovnice nahoře, ln ambrově. Pod ní řetěz nádrží: náklad ← palivo ← palivo pro palivo, každá nádrž větší (vzor 125/S08).",
+      "note": "ANIMACE: nádrže přibývají zprava doleva, každá větší. „grows exponentially, because extra fuel has to lift more fuel“ — řetěz musí růst, ne být lineární (assert na poměr velikostí).",
+      "anim": "animace"
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "mesic",
+      "diagram": "Dvě rakety vedle sebe, stejný motor: MOON — nádrž do poloviny ambrová (≈ 1/2 FUEL), MARS — tři čtvrtiny (≈ 3/4 FUEL).",
+      "note": "ANIMACE: nádrže se plní na „half fuel“ a „three quarters“. „In a simple example“ → v obraze malé SIMPLE EXAMPLE · SAME ENGINE. Podíly z rovnice (vₑ ~3,4 km/s, oběžné ~1,7/3,5 km/s) — factcheck S16, assert.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "cesta",
+      "diagram": "Páteř CESTA, šipka DOLŮ na povrch Marsu: LAND FIRST; na povrchu malá raketa.",
+      "note": "ANIMACE: raketa sjede po šipce na povrch. Pořadí: přistát → čekat → startovat. Šipka míří na Mars (podmět „everything that launches… has to land“).",
+      "anim": "animace"
+    },
+    {
+      "id": "S17b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17b.png",
+      "diagram_generator": "cesta",
+      "diagram": "Výřez atmosféry: vlevo Měsíc bez vrstvy (NO ATMOSPHERE), vpravo Mars s tenkou vrstvou, pouzdro se žhnoucím štítem a malý padák s popiskem NOT ENOUGH ON ITS OWN.",
+      "note": "ANIMACE: pouzdro proletí vrstvou a rozžhaví se. „on their own“ — padák není přeškrtnutý, jen nestačí; nekreslit ho jako zbytečný.",
+      "anim": "animace"
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "plan",
+      "diagram": "Sloupcové srovnání hmotností: PERSEVERANCE 1 025 KG a LANDER ~2 300 KG (ambrově, plán, čárkovaný obrys = nepostaveno); poměr 2.2×.",
+      "note": "ANIMACE: sloupec landeru vyroste přes Perseverance. „would have weighed“ → čárkovaně, nikdy nepostaveno. 2 275/1 025 = 2,2 (factcheck S18), assert.",
+      "anim": "animace"
+    },
+    {
+      "id": "S19",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S19.png",
+      "note": "Atmosféra čekání; jediný SDXL v prvních třech minutách, ne na začátku. Bez denní doby (dawn/dusk přebíjí paletu).",
+      "prompt": "a lone small lander on a rust-red Martian plain at night, a wall of dust storm approaching, cold blue-black sky, flat diffuse light, frost on the ground, tiny scale against vast landscape"
+    },
+    {
+      "id": "S19b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19b.png",
+      "diagram_generator": "cesta",
+      "diagram": "Časová osa s rovnoměrnými značkami po 26 měsících (WINDOW), jedna přeškrtnutá a šipka k další: +26 MONTHS.",
+      "note": "Okna jsou „roughly“ → popisek ≈ 26 MONTHS.",
+      "pause": 0.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "cesta",
+      "diagram": "Páteř CESTA, signál jako čárkovaná vlnka ze Země k Marsu: 3–22 MIN; u rakety na povrchu NO ONE THERE.",
+      "note": "ANIMACE: signál putuje vlnkou ze Země k Marsu pomalu. Rozsah 3–22 min (factcheck S20).",
+      "anim": "animace"
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "cesta",
+      "diagram": "Páteř CESTA: raketa na povrchu a nad ní ambrově FIRST LAUNCH FROM ANOTHER PLANET; vlevo nahoře drobně MOON ≠ PLANET.",
+      "note": "ANIMACE: raketa se odlepí od povrchu (jen kus, na oběžnou dráhu se nedostane). Konec bloku „proč je to těžké“.",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "meteority",
+      "diagram": "Prázdná deska, uprostřed velké ambrové ? a pod ním WORTH IT?",
+      "note": "Krátký beat, předěl bloků. Pauza 1,5 s, aby TTS řekl scénu s dovětkem (obětovaná věta): u draftu schwa za „worth it?“.",
+      "pause": 1.5
+    },
+    {
+      "id": "S23",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S23.png",
+      "note": "Skutečný marťanský meteorit (ALH84001 se štítkem) — kousek Marsu na Zemi. Tentýž kámen se vrací v S29b, takže tu nesmí být popsán jako největší.",
+      "archive": {
+        "provider": "nasa",
+        "query": "S85-39565",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "meteority",
+      "diagram": "Silueta kamene (obecná, NE kresba NWA 16788 — snímek Sotheby's není volný) a popisky 24.5 KG · NEW YORK · 2025 · LARGEST EVER FOUND.",
+      "note": "ANIMACE: kámen se usadí na váhu, ručička na 24,5 kg. Bez loga aukční síně. Factcheck S24.",
+      "anim": "animace"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "meteority",
+      "diagram": "Kámen z S24 s visačkou $5.3 MILLION a pod ní ≈ $200 / GRAM.",
+      "note": "5,3e6 / 24 500 g = 216 $/g → „about two hundred“ (assert)."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "cena",
+      "diagram": "Dva pruhy v logaritmickém měřítku nebo bodově: METEORITE ≈ $200 / G a NASA SAMPLE > $20,000,000 / G; ambrově × 100,000.",
+      "note": "Lineárně se nevejdou — zvolit log osu S POPISKEM LOG SCALE, jinak kresba lže. 2e7/216 ≈ 93 000 → „a hundred thousand“ zaokrouhlení, factcheck S26.",
+      "pause": 1.2
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "meteority",
+      "diagram": "Kámen a u něj prázdná poštovní visačka FROM: ______ (čárkovaně).",
+      "note": "„has no address“ — visačka bez adresy.",
+      "pause": 1.2
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S28.png",
+      "note": "Atmosféra cesty meteoritu. Model nezná konkrétní kráter, a nemá — scéna je obecná. Kolo 1 (seed z ID) dalo krajinu s planetou na obloze — bez dopadu; prompt přepsán na pohled z vesmíru. Kolo 2 (seed 2801) taky krajina → podle pravidla dvou neúspěchů jiný zdroj: kresba kódem.",
+      "pause": 0.5,
+      "diagram_generator": "meteority",
+      "diagram": "Výseč Marsu dole, ambrový záblesk dopadu, rozlet úlomků a čárkovaná dráha jednoho kamene do vesmíru."
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "meteority",
+      "diagram": "Kámen na písku (DESERT) a tři otazníky k němu: WHERE ON MARS? · WHAT DID THE IMPACT DO? · WHAT HAS EARTH ADDED?",
+      "note": "ANIMACE: otazníky naskakují po jednom podle hlasu. Tři otázky ze scénáře jedna k jedné. Pozor na homograf desert (TTS).",
+      "anim": "animace"
+    },
+    {
+      "id": "S29b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S29b.png",
+      "note": "Slavný snímek „tube-like structures“ z ALH84001 (1996). Hlas říká „possible fossil microbes“ — obraz bez popisku, který by tvrdil víc.",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA00288",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S29c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29c.png",
+      "diagram_generator": "meteority",
+      "diagram": "Časová osa: led Antarktidy, kámen v něm, ambrově 13,000 YEARS; z okolí do kamene drobné tečky (stopy Země) čárkovaně.",
+      "note": "ANIMACE: tečky postupně pronikají do kamene. „long enough for Earth to leave traces of its own“ — tečky jdou DOVNITŘ kamene (směr: Země → kámen). Spor bez kauzality (factcheck S29c).",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "meteority",
+      "diagram": "Vrstvy horniny v řezu (stratigrafie) a ke každé vrstvě jedna trubička s ambrovou čárou: KNOWN LAYER. Vlevo dole ztlumeně meteorit s FROM: ____ (callback S27).",
+      "note": "ANIMACE: trubičky se zasunou do svých vrstev. Opak meteoritu: adresa známá.",
+      "anim": "animace"
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "laborator",
+      "diagram": "Obrys roveru velikosti auta s několika malými přístroji (krabičky) a hranicí FITS ON A ROVER · SURVIVES LAUNCH.",
+      "note": "Obecný obrys roveru, ne věrná kresba Perseverance."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "laborator",
+      "diagram": "Mapa světa (BlankMap-World.svg z Commons, PD, převzatá z 129) s tečkami laboratoří; u tří přerušovaný ambrový kroužek = přístroje, které ještě nejsou. Legenda dole.",
+      "note": "Původní kresba pevnin kódem nebyla čitelná (uživatel u draftu: „co to tam je nakreslené?“), proto skutečná mapa. Tečky jsou ilustrace „kdekoli na světě“, ne seznam pracovišť. Čárkovaně = budoucí, neexistující.",
+      "anim": "animace"
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "laborator",
+      "diagram": "Časová osa 1969 → 2026, nad ní ambrově 50+ YEARS OF STUDY.",
+      "note": ""
+    },
+    {
+      "id": "S33b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33b.png",
+      "diagram_generator": "laborator",
+      "diagram": "Zapečetěná trubička s popisky SEALED ON THE MOON · 1972 a OPENED · 2022; mezi nimi čárkovaně WAITING FOR BETTER TOOLS.",
+      "note": "ANIMACE: trubička se na 2022 otevře. Apollo 17 vzorek 73001/73002 (ANGSA). Volný snímek v NASA API nenalezen (hledáno ANGSA, 73002), proto kresba.",
+      "anim": "animace",
+      "pause": 2.6
+    },
+    {
+      "id": "S34",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S34.png",
+      "note": "NASA ilustrace celé kampaně MSR (rover, lander, start rakety) — předěl do bloku „jak to NASA plánovala“. Je to ilustrace, ne fotka (Artist's Concept).",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA24870",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "plan",
+      "diagram": "Páteř CESTA: na povrchu rover → lander → malá raketa, a nad raketou kontejner (koule) popsaný SIZE OF A BASKETBALL.",
+      "note": "ANIMACE: rover přiveze trubičky k landeru, raketa je převezme. Řetěz MSR krok 1–3. Kontejner = ambrový (nese trubičky).",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "plan",
+      "diagram": "Váhy: MARS ASCENT VEHICLE ~ 400 KG proti < 0.5 KG.",
+      "note": "ANIMACE: miska s raketou klesne až na doraz. 350–450 kg → „a few hundred“ (factcheck S36). Táž _kit.vahy() jako S06.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "cesta",
+      "diagram": "Páteř CESTA: raketa vynese kontejner jen na kruh oběžné dráhy kolem Marsu; oblouk k Zemi zůstane čárkovaný a nedosažený.",
+      "note": "ANIMACE: kontejner vystoupá na kružnici a začne obíhat. „only reach orbit“.",
+      "anim": "animace"
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "plan",
+      "diagram": "Páteř CESTA + druhá loď (ESA ORBITER) na oběžné dráze, která najde kontejner a odletí s ním k Zemi.",
+      "note": "ANIMACE: orbiter dojede ke kontejneru a pak po oblouku k Zemi. „to be built by ESA“ — čárkovaně, nikdy nepostaveno.",
+      "anim": "animace"
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "plan",
+      "diagram": "Páteř CESTA, přímá šipka z povrchu Marsu rovnou k Zemi s otazníkem.",
+      "note": "",
+      "pause": 1.2
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "plan",
+      "diagram": "Dvě rakety vedle sebe na povrchu: malá TO ORBIT a mnohem větší STRAIGHT HOME; nad velkou šipka DOLŮ: ALL OF IT LANDS FIRST.",
+      "note": "Poměr velikostí jen orientačně, bez čísla (scénář číslo nedává)."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "plan",
+      "diagram": "Apollo jako vzor: Měsíc, na jeho oběžné dráze velitelský modul RETURN ENGINE, k povrchu malý LANDER. Vedle ztlumeně Mars se stejným rozvržením.",
+      "note": "ANIMACE: lander sestoupí, velitelský modul obíhá. Lunar orbit rendezvous. Rým s S37–S38 (stejné rozvržení kružnice).",
+      "anim": "animace",
+      "pause": 2.0
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "zachyceni",
+      "diagram": "Nahoře přeškrtnuté CATCHING A BULLET (text_skrtnuty), pod tím dvě tečky obíhající Mars vedle sebe se stejně dlouhými šipkami: SAME SPEED.",
+      "note": "ANIMACE: obě tečky obíhají spolu, vzdálenost se skoro nemění. Žádné číslo vzájemné rychlosti — v pramenech není (notes, S42).",
+      "anim": "animace"
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "slow_zoom_in",
+      "visual": "images/S44.png",
+      "note": "„alone, in a very large sky“ — atmosféra. Koule bez detailů, SDXL nezná kontejner a nemá. Kolo 1 (seed z ID) dalo pouštní krajinu s měsíci; prompt přepsán na pohled z oběžné dráhy. Kolo 2 (seed 4401) taky krajina → podle pravidla dvou neúspěchů jiný zdroj: kresba kódem.",
+      "pause": 0.4,
+      "diagram_generator": "zachyceni",
+      "diagram": "Okraj Marsu dole, hvězdy, drobný ambrový kontejner sám v prázdném nebi."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "zachyceni",
+      "diagram": "Orbiter se otevřeným záchytným košem těsně u kontejneru; dole Země s přeškrtnutým joystickem / NO ONE CAN STEP IN.",
+      "note": "ANIMACE: koš se zavře kolem kontejneru. Autonomie; zpoždění signálu z S20.",
+      "anim": "animace"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "plan",
+      "diagram": "Páteř CESTA s pěti uzly: LANDER · ROVER · ROCKET · ORBITER · CAPTURE, u každého malé kolečko s 1×.",
+      "note": "ANIMACE: uzly se rozsvěcují postupně podle výčtu. „Each one has to work the first time“ — žádné procento spolehlivosti (scénář ho nedává).",
+      "anim": "animace",
+      "pause": 1.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "cena",
+      "diagram": "Schodovitý graf odhadů: 2020 ≈ $4B, pak $7B, pak $11B (ambrově) a u něj SAMPLES ≥ 2040.",
+      "note": "ANIMACE: sloupce rostou postupně podle hlasu. Hodnoty z factcheck S48 (IRB 2020 3,8–4,4; 7; 11). Bez pevného roku u „seven“ — scénář ho neříká.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "cena",
+      "diagram": "Tři menší čárkované varianty CHEAPER OPTIONS a pod nimi ambrově NOT FUNDED.",
+      "note": "Konec bloku MSR. Druhá výzva k odběru ZA touto scénou (za hlavní pointou: cena + konec). Levý dolní roh v S49 i na začátku S50 prázdný.",
+      "pause": 2.6,
+      "vyzva": true
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "starship",
+      "diagram": "Páteř CESTA, uzly z S46 se slijí do jednoho velkého obrysu lodi.",
+      "note": "ANIMACE: pět uzlů splyne do jedné lodi. Motor druhé půlky.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "starship",
+      "diagram": "Sedm obdélníků STUDY · 2024, jeden ambrový SPACEX.",
+      "note": "Sedm studií (factcheck S51). Bez loga firmy."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "starship",
+      "diagram": "Titulní strana studie jako list papíru: ENABLING MARS SAMPLE RETURN WITH STARSHIP.",
+      "note": "Přesný název (factcheck S52)."
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "starship",
+      "diagram": "Vlevo čtyři menší stroje ztlumeně, vpravo jedna velká loď ambrově; nad ní drobně FEW DETAILS SHARED.",
+      "note": "Hypotéza → velká loď čárkovaným obrysem."
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "starship",
+      "diagram": "Velká loď čárkovaně na páteři CESTA, u ní tři úkoly LAND · COLLECT · RETURN.",
+      "note": "ANIMACE: loď přistane, nabere trubičky, vzlétne po oblouku. „Imagine“ → čárkovaně, hypotéza.",
+      "anim": "animace"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "starship",
+      "diagram": "Loď na povrchu, vedle obří nádrž FUEL TO LEAVE MARS a přeškrtnutá šipka ze Země TOO MUCH TO BRING.",
+      "note": "",
+      "pause": 0.6
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "starship",
+      "diagram": "Chemie jako vstupy a výstup: CO₂ (ATMOSPHERE) + H₂ (FROM WATER ICE) → CH₄ (METHANE).",
+      "note": "ANIMACE: molekuly vplynou do šipky. Bez úplné rovnice se stechiometrií — scénář ji neříká.",
+      "anim": "animace"
+    },
+    {
+      "id": "S56b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56b.png",
+      "diagram_generator": "starship",
+      "diagram": "Tatáž deska, pod ní druhý řádek CO₂ → O₂ (OXYGEN) ambrově.",
+      "note": "Rozšíření S56, stejné rozvržení."
+    },
+    {
+      "id": "S57",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S57.png",
+      "note": "MOXIE vkládaný do Perseverance (skutečná fotka). Bez přirovnání velikosti (notes: toaster × car battery).",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA24176",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "starship",
+      "diagram": "Malá kapka 122 G a vedle obrys psa s 10 H.",
+      "note": "ANIMACE: kapka se plní během 16 tiknutí. 16 běhů za 2 roky, 122 g (factcheck S58). Pes = obecný obrys.",
+      "anim": "animace"
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "starship",
+      "diagram": "Obrys Starship (obecný válec s nosem) a vedle sloupec ~1,200 T PROPELLANT; drobně USUALLY QUOTED.",
+      "note": "„the figure usually quoted“ i v obraze."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "starship",
+      "diagram": "Sloupec z S59 rozdělený: > 900 T OXYGEN ambrově, zbytek METHANE ztlumeně.",
+      "note": "Poměr O/F 3,6 → 940 t (factcheck S60), assert."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "starship",
+      "diagram": "Kapka 122 G z S58 vedle sloupce 900 T; ambrově × 7,000,000+.",
+      "note": "ANIMACE: kapka se zmenší na tečku, když se odjede k sloupci. 940e6/122 = 7,7 mil. (assert).",
+      "anim": "animace"
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "starship",
+      "diagram": "MOXIE jako krabička s fajfkou CHEMISTRY WORKS; přeškrtnutá čára k lodi NOT A FUEL TEST.",
+      "note": "Škrt jen přes spoj, ne přes MOXIE."
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "starship",
+      "diagram": "Vlevo malá krabička DEMONSTRATION, vpravo čárkovaný obrys továrny FACTORY · NOT BUILT; mezi nimi široká mezera s ambrovým GAP.",
+      "note": "Konec bloku Starship.",
+      "pause": 2.6
+    },
+    {
+      "id": "S64",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S64.png",
+      "note": "NASA ilustrace aeroshellu při vstupu do atmosféry (Artist's Concept) — předěl k poslední míli.",
+      "archive": {
+        "provider": "nasa",
+        "query": "PIA25336",
+        "pick": 0
+      }
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Páteř CESTA, přiblížený pravý konec: Země a šipka dolů s ?",
+      "note": "Pauza 1,5 s, aby TTS řekl scénu s dovětkem (obětovaná věta): u draftu sykavka za „down?“.",
+      "pause": 1.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Trubička a vedle ní dvě misky: EXPECTED: NOTHING ALIVE a PROVEN: ?",
+      "note": "Jistota přesně podle hlasu.",
+      "pause": 0.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Zapečetěný kontejner a dvě přeškrtnuté šipky: MARS → EARTH a EARTH → MARS.",
+      "note": "Oba směry, rovnocenně (S68 to zdůrazní).",
+      "pause": 0.6
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Šipka EARTH → MARS ambrově, k ní malá tečka mikroba a otazník nad CLOUD THE QUESTION.",
+      "note": "„That second part matters just as much.“",
+      "pause": 1.6
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Pouzdro (kužel) a vedle přeškrtnutý padák NO PARACHUTE.",
+      "note": "„In NASA's original design“ → drobně ORIGINAL DESIGN."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Pouzdro padá šikmo do terénu UTAH; vedle přeškrtnutá šipka k padáku ONE MORE THING TO FAIL.",
+      "note": "ANIMACE: pouzdro padá k zemi. Homograf desert (TTS). Věta pokračuje do S71 („…Utah desert, / at about…“) — pauza 0,3, ne scene_pause.",
+      "anim": "animace",
+      "pause": 0.3
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Dopad do měkké půdy, ambrově ~145 KM/H a CONTAINER INTACT.",
+      "note": "ANIMACE: pouzdro dopadne, vymrští prach, kontejner uvnitř zůstane celý. Factcheck S71.",
+      "anim": "animace"
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "ochrana",
+      "diagram": "Kontejner za dvěma vrstvami skla v laboratoři HIGH CONTAINMENT; postava venku čeká.",
+      "note": "Ne BSL-4 v obraze (scénář říká high-containment).",
+      "pause": 2.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "dnes",
+      "diagram": "Páteř CESTA, prázdná; oblouk čárkovaný.",
+      "note": "",
+      "pause": 1.0
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "dnes",
+      "diagram": "Místo lodi skupina postav u stolu: A TEAM, NOT A MISSION; NOVEMBER 2026.",
+      "note": "Factcheck S74 (PSRA)."
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "dnes",
+      "diagram": "Kalendář: JAN 2027 START → ~END OF 2027 RECOMMENDATIONS; pod tím přeškrtnuté LAUNCH DATE a MISSION BUDGET.",
+      "note": "„around the end of 2027“ → ~.",
+      "pause": 1.6
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "dnes",
+      "diagram": "Na páteři CESTA se objeví druhá skupina strojů s popiskem TIANWEN-3.",
+      "note": "Bez vlajky a bez kresby čínských sond (žádné volné snímky) — obecné tvary, stejné jako NASA v S46."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "dnes",
+      "diagram": "Páteř CESTA: dvě rakety ~2028, lander s malou raketou, orbiter nahoře, předání na oběžné dráze.",
+      "note": "ANIMACE: prvky se skládají podle výčtu. Stejné rozvržení jako S35–S38 — rým je pointa S78.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "dnes",
+      "diagram": "S77 a nad ní ztlumeně řetěz NASA z S46 — stejné uzly na stejných místech; NASA řetěz přeškrtnut TOO COMPLEX · TOO EXPENSIVE.",
+      "note": "Rým musí sedět na pixel: obě řetězové kresby z jedné funkce _kit."
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "dnes",
+      "diagram": "Páteř CESTA: trubička na čínském řetězu doletí k Zemi; ≈ 0.5 KG · 2031.",
+      "note": "ANIMACE: trubička doletí po oblouku. Plán, ne fakt → čárkovaný oblouk. Obsah v DOLNÍ polovině, pokud padne do posledních 20 s (ověřit po TTS).",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S79b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79b.png",
+      "diagram_generator": "dnes",
+      "diagram": "Páteř CESTA ztlumená, uprostřed velké ambrové ANOTHER SPACE RACE?",
+      "note": "Přidáno po 2. draftu na návrh uživatele: otázka jako přechod k závěru. Je to otázka, ne tvrzení — obraz netvrdí, kdo závodí. Obsah v dolní polovině nevadí, scéna je před oknem závěrečné obrazovky (ověřit po TTS).",
+      "pause": 2.4
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: řada pěti malých ikon s fajfkou LAND · DRIVE · DRILL · FLY a pátá COME BACK s čárkovaným otazníkem. HORNÍ POLOVINA VOLNÁ.",
+      "note": "Závěrečná obrazovka (posledních 20 s). Statická.",
+      "pause": 2.0
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: vlevo obrys Perseverance (rover), vpravo obrys čínské rakety, mezi nimi ambrová trubička. HORNÍ POLOVINA VOLNÁ.",
+      "note": "Závěrečný obraz podle uživatele. Statická, bez animace přes rám (docs: animace v posledních 20 s).",
+      "pause": 2.4
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: trubička a pod ní otázka WOULD IT MATTER WHICH COUNTRY OPENED IT? HORNÍ POLOVINA VOLNÁ.",
+      "note": "Otázka do komentářů (docs/cta.md). Statická. Ověřit snímkem z draftu.",
+      "pause": 2.0
+    }
+  ]
+}

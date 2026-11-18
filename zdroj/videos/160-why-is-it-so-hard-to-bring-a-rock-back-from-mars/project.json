@@ -1,0 +1,128 @@
+{
+  "title": "Why Is It So Hard to Bring a Rock Back from Mars?",
+  "slug": "160-why-is-it-so-hard-to-bring-a-rock-back-from-mars",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.15,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly editorial illustration, rust-red Martian desert and dusty butterscotch sky, deep blue-black space, muted palette with a single warm amber accent, soft diffuse light, subtle film grain, restrained detail, cinematic wide composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, faces, close-up of people, oversaturated, neon, blurry, low quality, deformed"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -36,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 160,
+    "music_sections": [
+      [
+        "S01",
+        "S05"
+      ],
+      [
+        "S19",
+        "S19b"
+      ],
+      [
+        "S22",
+        "S29b"
+      ],
+      [
+        "S33",
+        "S33b"
+      ],
+      [
+        "S44",
+        "S46"
+      ],
+      [
+        "S62",
+        "S66"
+      ],
+      [
+        "S78",
+        "S83"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false,
+    "lead_in": 0.15,
+    "frazovani": true
+  },
+  "pronounce": {
+    "1969": "nineteen sixty-nine",
+    "1972": "nineteen seventy-two",
+    "1996": "nineteen ninety-six",
+    "2020": "twenty twenty",
+    "2022": "twenty twenty-two",
+    "2024": "twenty twenty-four",
+    "2025": "twenty twenty-five",
+    "2026": "twenty twenty-six",
+    "2027": "twenty twenty-seven",
+    "2028": "twenty twenty-eight",
+    "2031": "twenty thirty-one",
+    "2040": "twenty forty"
+  },
+  "archive_grade": {
+    "saturation": 95,
+    "tint_amount": 0,
+    "vignette": false
+  }
+}
