@@ -49,6 +49,8 @@ Ja sitten käänne, jota en odottanut: Windows osaa täsmälleen saman asian. NT
 
 Tuo ero on osa syytä, miksi Windows ennen pyysi niin usein käynnistämään uudelleen — Microsoft sanoo sen sen työkalun dokumentaatiossa, joka rakennettiin sitä välttämään. Mutta se ei ole koko syy, eikä Linuxkaan ole ongelmasta vapaa.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-windows-delete-a-file-in-use/
+
 Luvut
 0:00 Viesti jonka kaikki tuntevat
 0:29 Mikä ohjelma?
@@ -92,6 +94,8 @@ Sous Linux, la même commande fonctionne, et la raison est plus étrange qu'il n
 Et puis le retournement que je n'attendais pas : Windows sait faire exactement la même chose. Sur NTFS, il peut demander une suppression à la POSIX, et Microsoft décrit le résultat avec les mots qu'emploierait un manuel Unix. Les deux systèmes savent faire les deux. Ce qui diffère, c'est le défaut.
 
 Cette différence explique en partie pourquoi Windows demandait si souvent de redémarrer — Microsoft le dit dans la documentation de l'outil conçu pour l'éviter. Mais ce n'est pas toute l'explication, et Linux n'est pas exempt du problème non plus.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-windows-delete-a-file-in-use/
 
 Chapitres
 0:00 Le message que tout le monde connaît
@@ -137,6 +141,8 @@ Lalu kejutan yang tidak kuduga: Windows bisa melakukan hal yang persis sama. Di 
 
 Perbedaan itu sebagian menjelaskan kenapa dulu Windows begitu sering minta dimulai ulang — Microsoft mengatakannya sendiri di dokumentasi alat yang dibuat untuk menghindarinya. Tapi itu bukan seluruh alasannya, dan Linux pun tidak bebas dari masalah ini.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-windows-delete-a-file-in-use/
+
 Bab
 0:00 Pesan yang dikenal semua orang
 0:29 Program yang mana?
@@ -180,6 +186,8 @@ Su Linux lo stesso comando funziona e basta, e il motivo è più strano di quant
 E poi la svolta che non mi aspettavo: Windows sa fare esattamente la stessa cosa. Su NTFS può chiedere una cancellazione in stile POSIX, e Microsoft descrive il risultato con le parole che userebbe un manuale Unix. Entrambi i sistemi sanno fare entrambe le cose. A cambiare è l'impostazione predefinita.
 
 Quella differenza spiega in parte perché Windows chiedeva così spesso di riavviare — lo dice Microsoft nella documentazione dello strumento costruito per evitarlo. Ma non è tutta la spiegazione, e nemmeno Linux è immune dal problema.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-windows-delete-a-file-in-use/
 
 Capitoli
 0:00 Il messaggio che tutti conoscono
@@ -225,6 +233,8 @@ Und dann die Wendung, die ich nicht erwartet hatte: Windows kann genau dasselbe.
 
 Dieser Unterschied ist ein Teil davon, warum Windows früher so oft um einen Neustart bat — Microsoft sagt das in der Dokumentation des Werkzeugs, das genau dafür gebaut wurde. Aber es ist nicht die ganze Erklärung, und Linux ist von dem Problem auch nicht frei.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-windows-delete-a-file-in-use/
+
 Kapitel
 0:00 Die Meldung, die jeder kennt
 0:29 Welches Programm?
@@ -268,6 +278,8 @@ W Linuksie to samo polecenie po prostu działa, a powód jest dziwniejszy, niż 
 A potem zwrot, którego się nie spodziewałem: Windows potrafi dokładnie to samo. Na NTFS może poprosić o usunięcie w stylu POSIX, a Microsoft opisuje wynik tymi samymi słowami, których użyłby podręcznik Uniksa. Oba systemy potrafią jedno i drugie. Różni je ustawienie domyślne.
 
 Ta różnica jest częścią odpowiedzi, dlaczego Windows tak często prosił o restart — Microsoft mówi to w dokumentacji narzędzia zbudowanego po to, by go uniknąć. Ale to nie całe wyjaśnienie, a Linux też nie jest od tego problemu wolny.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-windows-delete-a-file-in-use/
 
 Rozdziały
 0:00 Komunikat, który zna każdy
@@ -313,6 +325,8 @@ E então a virada que eu não esperava: o Windows faz exatamente a mesma coisa. 
 
 Essa diferença é parte do motivo de o Windows pedir reinício com tanta frequência — a Microsoft diz isso na documentação da ferramenta feita para evitá-lo. Mas não é a explicação inteira, e o Linux também não está livre do problema.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-windows-delete-a-file-in-use/
+
 Capítulos
 0:00 A mensagem que todo mundo conhece
 0:29 Qual programa?
@@ -356,6 +370,8 @@ Linux'ta aynı komut öylece çalışıyor, ve nedeni kulağa geldiğinden daha 
 Ve sonra beklemediğim dönüş: Windows tam olarak aynı şeyi yapabiliyor. NTFS üzerinde POSIX tarzı bir silme isteyebiliyor, ve Microsoft sonucu bir Unix kılavuzunun kullanacağı sözcüklerle anlatıyor. İki sistem de ikisini yapabiliyor. Farklı olan, varsayılan davranış.
 
 Bu fark, Windows'un eskiden neden bu kadar sık yeniden başlatma istediğinin bir parçası — Microsoft bunu, tam da bundan kaçınmak için yapılmış aracın belgelerinde söylüyor. Ama açıklamanın tamamı değil, ve Linux da bu sorundan muaf değil.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-windows-delete-a-file-in-use/
 
 Bölümler
 0:00 Herkesin bildiği ileti
@@ -401,6 +417,8 @@ Müzik bu kanal için yordamsal olarak üretilmektedir.
 
 Ця різниця — частина відповіді на те, чому Windows колись так часто просив перезавантажитися. Microsoft каже це в документації інструмента, збудованого саме для того, щоб цього уникнути. Але це не все пояснення, і Linux від цієї проблеми теж не вільний.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-windows-delete-a-file-in-use/
+
 Розділи
 0:00 Повідомлення, яке знають усі
 0:29 Яка програма?
@@ -444,6 +462,8 @@ Trên Linux cùng câu lệnh đó chạy bình thường, và lý do lạ hơn 
 Và rồi cú lật mà tôi không ngờ tới: Windows làm được đúng y như vậy. Trên NTFS nó có thể yêu cầu một lệnh xóa kiểu POSIX, và Microsoft mô tả kết quả bằng đúng những từ mà một trang hướng dẫn Unix sẽ dùng. Cả hai hệ điều hành đều làm được cả hai. Khác nhau là ở mặc định.
 
 Sự khác biệt ấy là một phần lý do vì sao Windows từng hay bắt khởi động lại đến thế — Microsoft nói điều đó ngay trong tài liệu của công cụ được tạo ra để tránh việc này. Nhưng đó không phải toàn bộ lời giải, và Linux cũng không thoát khỏi vấn đề này.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-windows-delete-a-file-in-use/
 
 Các chương
 0:00 Thông báo ai cũng biết
@@ -489,6 +509,8 @@ A pak obrat, který jsem nečekal: Windows umí přesně totéž. Na NTFS si um�
 
 Ten rozdíl je část odpovědi na to, proč Windows kdysi tak často žádal o restart — Microsoft to říká v dokumentaci nástroje, který se postavil právě proto, aby se tomu vyhnul. Ale není to celé vysvětlení, a Linux od toho problému taky není osvobozený.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-windows-delete-a-file-in-use/
+
 Kapitoly
 0:00 Hláška, kterou zná každý
 0:29 Který program?
@@ -533,6 +555,8 @@ Y entonces el giro que no esperaba: Windows sabe hacer exactamente lo mismo. En 
 
 Esa diferencia es parte de por qué Windows pedía reiniciar tan a menudo: lo dice Microsoft en la documentación de la herramienta construida para evitarlo. Pero no es toda la explicación, y Linux tampoco está libre del problema.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-windows-delete-a-file-in-use/
+
 Capítulos
 0:00 El mensaje que todos conocen
 0:29 ¿Qué programa?
@@ -576,6 +600,8 @@ I Linux fungerar samma kommando bara, och skälet är märkligare än det låter
 Och sedan vändningen jag inte väntade mig: Windows kan göra precis samma sak. På NTFS kan det be om en radering i POSIX-stil, och Microsoft beskriver resultatet med samma ord som en Unix-manual skulle använda. Båda systemen klarar båda sakerna. Det som skiljer är standardläget.
 
 Den skillnaden är en del av varför Windows förr bad om omstart så ofta — Microsoft säger det i dokumentationen till verktyget som byggdes för att undvika det. Men det är inte hela förklaringen, och Linux är inte heller fritt från problemet.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-windows-delete-a-file-in-use/
 
 Kapitel
 0:00 Meddelandet som alla känner igen

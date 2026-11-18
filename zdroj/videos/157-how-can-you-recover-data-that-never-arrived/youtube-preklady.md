@@ -45,6 +45,8 @@ Lähteet: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-can-you-recover-data-that-never-arrived/
+
 LUVUT
 00:00 Revitty QR-koodi, joka toimii yhä
 00:25 Kahdeksan bittiä, kolme puuttuu
@@ -82,6 +84,8 @@ Cette vidéo passe en revue la solution la plus simple de toutes, tout dire troi
 Sources : R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Hamming, Error Detecting and Error Correcting Codes, Bell System Technical Journal (1950); C. E. Shannon, A Mathematical Theory of Communication (1948); I. S. Reed and G. Solomon, Polynomial Codes over Certain Finite Fields, J. SIAM (1960); R. G. Gallager, Low-Density Parity-Check Codes, MIT (1960, 1963); C. Berrou, A. Glavieux, P. Thitimajshima, ICC Geneva (1993); D. J. C. MacKay and R. M. Neal, Electronics Letters (1996); S.-Y. Chung, G. D. Forney, T. J. Richardson, R. Urbanke, IEEE Communications Letters (2001); D. J. Costello and G. D. Forney, Channel Coding: The Road to Channel Capacity, Proceedings of the IEEE (2007); R. Ludwig and J. Taylor, Voyager Telecommunications, NASA JPL DESCANSO (2002); K. A. S. Immink, Shannon, Beethoven, and the Compact Disc; Denso Wave, QR code error correction; D. A. Patterson, G. Gibson, R. H. Katz, A Case for Redundant Arrays of Inexpensive Disks (1987).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-can-you-recover-data-that-never-arrived/
 
 CHAPITRES
 00:00 Un QR code déchiré qui se scanne encore
@@ -121,6 +125,8 @@ Sumber: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Ha
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-can-you-recover-data-that-never-arrived/
+
 BAB
 00:00 Kode QR sobek yang masih bisa dipindai
 00:25 Delapan bit, tiga hilang
@@ -158,6 +164,8 @@ Questo video parte dalla soluzione più semplice di tutte, dire tutto tre volte,
 Fonti: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Hamming, Error Detecting and Error Correcting Codes, Bell System Technical Journal (1950); C. E. Shannon, A Mathematical Theory of Communication (1948); I. S. Reed and G. Solomon, Polynomial Codes over Certain Finite Fields, J. SIAM (1960); R. G. Gallager, Low-Density Parity-Check Codes, MIT (1960, 1963); C. Berrou, A. Glavieux, P. Thitimajshima, ICC Geneva (1993); D. J. C. MacKay and R. M. Neal, Electronics Letters (1996); S.-Y. Chung, G. D. Forney, T. J. Richardson, R. Urbanke, IEEE Communications Letters (2001); D. J. Costello and G. D. Forney, Channel Coding: The Road to Channel Capacity, Proceedings of the IEEE (2007); R. Ludwig and J. Taylor, Voyager Telecommunications, NASA JPL DESCANSO (2002); K. A. S. Immink, Shannon, Beethoven, and the Compact Disc; Denso Wave, QR code error correction; D. A. Patterson, G. Gibson, R. H. Katz, A Case for Redundant Arrays of Inexpensive Disks (1987).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-can-you-recover-data-that-never-arrived/
 
 CAPITOLI
 00:00 Un codice QR strappato che si legge ancora
@@ -197,6 +205,8 @@ Quellen: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. H
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-can-you-recover-data-that-never-arrived/
+
 KAPITEL
 00:00 Ein zerrissener QR-Code, der noch funktioniert
 00:25 Acht Bits, drei fehlen
@@ -234,6 +244,8 @@ Ten film zaczyna od najprostszego rozwiązania ze wszystkich, czyli powtarzania 
 Źródła: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Hamming, Error Detecting and Error Correcting Codes, Bell System Technical Journal (1950); C. E. Shannon, A Mathematical Theory of Communication (1948); I. S. Reed and G. Solomon, Polynomial Codes over Certain Finite Fields, J. SIAM (1960); R. G. Gallager, Low-Density Parity-Check Codes, MIT (1960, 1963); C. Berrou, A. Glavieux, P. Thitimajshima, ICC Geneva (1993); D. J. C. MacKay and R. M. Neal, Electronics Letters (1996); S.-Y. Chung, G. D. Forney, T. J. Richardson, R. Urbanke, IEEE Communications Letters (2001); D. J. Costello and G. D. Forney, Channel Coding: The Road to Channel Capacity, Proceedings of the IEEE (2007); R. Ludwig and J. Taylor, Voyager Telecommunications, NASA JPL DESCANSO (2002); K. A. S. Immink, Shannon, Beethoven, and the Compact Disc; Denso Wave, QR code error correction; D. A. Patterson, G. Gibson, R. H. Katz, A Case for Redundant Arrays of Inexpensive Disks (1987).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-can-you-recover-data-that-never-arrived/
 
 ROZDZIAŁY
 00:00 Podarty kod QR, który wciąż działa
@@ -273,6 +285,8 @@ Fontes: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Ha
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-can-you-recover-data-that-never-arrived/
+
 CAPÍTULOS
 00:00 Um QR code rasgado que ainda funciona
 00:25 Oito bits, três faltando
@@ -310,6 +324,8 @@ Bu video en basit çözümle, yani her şeyi üç kez söylemekle başlıyor ve 
 Kaynaklar: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Hamming, Error Detecting and Error Correcting Codes, Bell System Technical Journal (1950); C. E. Shannon, A Mathematical Theory of Communication (1948); I. S. Reed and G. Solomon, Polynomial Codes over Certain Finite Fields, J. SIAM (1960); R. G. Gallager, Low-Density Parity-Check Codes, MIT (1960, 1963); C. Berrou, A. Glavieux, P. Thitimajshima, ICC Geneva (1993); D. J. C. MacKay and R. M. Neal, Electronics Letters (1996); S.-Y. Chung, G. D. Forney, T. J. Richardson, R. Urbanke, IEEE Communications Letters (2001); D. J. Costello and G. D. Forney, Channel Coding: The Road to Channel Capacity, Proceedings of the IEEE (2007); R. Ludwig and J. Taylor, Voyager Telecommunications, NASA JPL DESCANSO (2002); K. A. S. Immink, Shannon, Beethoven, and the Compact Disc; Denso Wave, QR code error correction; D. A. Patterson, G. Gibson, R. H. Katz, A Case for Redundant Arrays of Inexpensive Disks (1987).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-can-you-recover-data-that-never-arrived/
 
 BÖLÜMLER
 00:00 Hâlâ okunan yırtık bir QR kod
@@ -349,6 +365,8 @@ Voyager görselleri — NASA/JPL-Caltech, kamu malı
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-can-you-recover-data-that-never-arrived/
+
 РОЗДІЛИ
 00:00 Розірваний QR-код, який досі сканується
 00:25 Вісім бітів, трьох бракує
@@ -386,6 +404,8 @@ Video này đi qua cách đơn giản nhất, nói mọi thứ ba lần, và vì
 Nguồn: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Hamming, Error Detecting and Error Correcting Codes, Bell System Technical Journal (1950); C. E. Shannon, A Mathematical Theory of Communication (1948); I. S. Reed and G. Solomon, Polynomial Codes over Certain Finite Fields, J. SIAM (1960); R. G. Gallager, Low-Density Parity-Check Codes, MIT (1960, 1963); C. Berrou, A. Glavieux, P. Thitimajshima, ICC Geneva (1993); D. J. C. MacKay and R. M. Neal, Electronics Letters (1996); S.-Y. Chung, G. D. Forney, T. J. Richardson, R. Urbanke, IEEE Communications Letters (2001); D. J. Costello and G. D. Forney, Channel Coding: The Road to Channel Capacity, Proceedings of the IEEE (2007); R. Ludwig and J. Taylor, Voyager Telecommunications, NASA JPL DESCANSO (2002); K. A. S. Immink, Shannon, Beethoven, and the Compact Disc; Denso Wave, QR code error correction; D. A. Patterson, G. Gibson, R. H. Katz, A Case for Redundant Arrays of Inexpensive Disks (1987).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-can-you-recover-data-that-never-arrived/
 
 CHƯƠNG
 00:00 Mã QR bị rách vẫn quét được
@@ -425,6 +445,8 @@ Zdroje: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Ha
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-can-you-recover-data-that-never-arrived/
+
 KAPITOLY
 00:00 Roztržený QR kód, který pořád funguje
 00:25 Osm bitů, tři chybí
@@ -463,6 +485,8 @@ Fuentes: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. H
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-can-you-recover-data-that-never-arrived/
+
 CAPÍTULOS
 00:00 Un código QR rasgado que todavía se lee
 00:25 Ocho bits, faltan tres
@@ -500,6 +524,8 @@ Videon går igenom den allra enklaste lösningen, att säga allt tre gånger, oc
 Källor: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. Hamming, Error Detecting and Error Correcting Codes, Bell System Technical Journal (1950); C. E. Shannon, A Mathematical Theory of Communication (1948); I. S. Reed and G. Solomon, Polynomial Codes over Certain Finite Fields, J. SIAM (1960); R. G. Gallager, Low-Density Parity-Check Codes, MIT (1960, 1963); C. Berrou, A. Glavieux, P. Thitimajshima, ICC Geneva (1993); D. J. C. MacKay and R. M. Neal, Electronics Letters (1996); S.-Y. Chung, G. D. Forney, T. J. Richardson, R. Urbanke, IEEE Communications Letters (2001); D. J. Costello and G. D. Forney, Channel Coding: The Road to Channel Capacity, Proceedings of the IEEE (2007); R. Ludwig and J. Taylor, Voyager Telecommunications, NASA JPL DESCANSO (2002); K. A. S. Immink, Shannon, Beethoven, and the Compact Disc; Denso Wave, QR code error correction; D. A. Patterson, G. Gibson, R. H. Katz, A Case for Redundant Arrays of Inexpensive Disks (1987).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-can-you-recover-data-that-never-arrived/
 
 KAPITEL
 00:00 En sönderriven QR-kod som fortfarande fungerar

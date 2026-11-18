@@ -38,6 +38,8 @@ up on Mars while the original is still standing on Earth, which one is
 you? Nobody can prove that the consciousness on the other side is the
 same consciousness that entered.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-would-teleportation-take/
+
 Chapters:
 00:00 Step in, step out
 00:41 The portal

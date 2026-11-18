@@ -63,6 +63,8 @@ Sources: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-happens-when-the-world-thaws/
+
 CHAPTERS
 00:00 A virus frozen for 48,000 years
 00:39 What permafrost is

@@ -44,6 +44,8 @@ Jäljelle jää kysymys, johon seuraava puoli vuosisataa törmäsi yhä uudellee
 
 Matkan varrella: artikkeli, jonka Alan Turing avasi sanoilla ”Can machines think?”, ja se kikka, jolla hän korvasi koko kysymyksen; vuoden 1943 neuronimalli, jonka painot asetettiin käsin; talvet, joina rahoitus loppui; koiran valokuva, jota tietokoneet eivät osanneet tunnistaa viiteenkymmeneen vuoteen; ja syy siihen, miksi tekstikenttä verkkosivulla merkitsi enemmän kuin mikään sen takana ollut tekniikka.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/ai-didnt-start-with-chatgpt/
+
 Luvut
 00:00 Kenttä verkkosivulla
 00:39 ELIZA
@@ -104,6 +106,8 @@ n'ont pas su reconnaître pendant cinquante ans ; et la raison pour laquelle
 un champ de texte sur une page web a compté plus que toute la technologie
 qui la faisait fonctionner.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/ai-didnt-start-with-chatgpt/
+
 Chapitres
 00:00 Un champ de saisie sur une page web
 00:39 ELIZA
@@ -151,6 +155,8 @@ Pada 1966 seorang peneliti di MIT menerbitkan program bernama ELIZA. Program itu
 Maka tersisa satu pertanyaan yang terus ditemui setengah abad berikutnya: sebenarnya, apa saja kebutuhan minimal sebuah mesin agar tampak cerdas?
 
 Video ini juga membahas: makalah yang dibuka Alan Turing dengan "Can machines think?" dan siasat yang ia pakai untuk mengganti pertanyaan itu; model neuron tahun 1943 yang bobotnya diatur secara manual; musim-musim dingin ketika pendanaan berhenti; foto seekor anjing yang tidak bisa dikenali komputer selama lima puluh tahun; dan alasan kenapa sebuah kotak teks di halaman web lebih berarti daripada seluruh teknologi di belakangnya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/ai-didnt-start-with-chatgpt/
 
 Bab
 00:00 Sebuah kotak di halaman web
@@ -211,6 +217,8 @@ i cui pesi si fissavano a mano; gli inverni in cui i finanziamenti si
 fermarono; la foto di un cane che i computer non seppero riconoscere per
 cinquant'anni; e il motivo per cui un campo di testo su una pagina web
 contò più di tutta la tecnologia che c'era dietro.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/ai-didnt-start-with-chatgpt/
 
 Capitoli
 00:00 Un campo di testo su una pagina web
@@ -275,6 +283,8 @@ ausblieb; das Foto eines Hundes, das Computer fünfzig Jahre lang nicht
 erkennen konnten; und der Grund, warum ein Textfeld auf einer Webseite mehr
 bedeutete als die ganze Technik dahinter.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/ai-didnt-start-with-chatgpt/
+
 Kapitel
 00:00 Ein Feld auf einer Webseite
 00:39 ELIZA
@@ -336,6 +346,8 @@ wagi ustawiano ręcznie; zimy, kiedy wstrzymano finansowanie; zdjęcie psa,
 którego komputery nie potrafiły rozpoznać przez pięćdziesiąt lat; i powód,
 dla którego pole tekstowe na stronie internetowej znaczyło więcej niż cała
 technologia, dzięki której działało.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/ai-didnt-start-with-chatgpt/
 
 Rozdziały
 00:00 Pole na stronie internetowej
@@ -400,6 +412,8 @@ cortados; a foto de um cachorro que os computadores não souberam reconhecer
 por cinquenta anos; e a razão pela qual uma caixa de texto numa página da
 internet importou mais do que toda a tecnologia por trás dela.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/ai-didnt-start-with-chatgpt/
+
 Capítulos
 00:00 Uma caixa numa página da internet
 00:39 ELIZA
@@ -448,6 +462,8 @@ Geriye, sonraki yarım yüzyılın defalarca çarptığı bir soru kalıyor: bir
 
 Bu bölümde ayrıca: Alan Turing’in "Can machines think?" diye açtığı makale ve o soruyu değiştirmek için kullandığı numara; ağırlıkları elle ayarlanan 1943 tarihli nöron modeli; fonun kesildiği kışlar; bilgisayarların elli yıl boyunca tanıyamadığı bir köpek fotoğrafı; ve bir web sayfasındaki metin kutusunun, arkasındaki bütün teknolojiden neden daha önemli olduğu.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/ai-didnt-start-with-chatgpt/
+
 Bölümler
 00:00 Bir web sayfasındaki kutu
 00:39 ELIZA
@@ -494,6 +510,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Також у відео: стаття, яку Алан Тюрінг почав словами «Can machines think?», і той трюк, яким він замінив саме це запитання; модель нейрона 1943 року, ваги якої встановлювали вручну; зими, коли припинялося фінансування; фотографія пса, якого комп’ютери п’ятдесят років не могли впізнати; і причина, чому текстове поле на вебсторінці важило більше, ніж уся техніка за ним.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/ai-didnt-start-with-chatgpt/
+
 Розділи
 00:00 Поле на вебсторінці
 00:39 ELIZA
@@ -539,6 +557,8 @@ Năm 1966, một nhà nghiên cứu ở MIT công bố chương trình tên ELIZ
 Thế là còn lại một câu hỏi mà nửa thế kỷ tiếp theo cứ va vào mãi: thật ra một cỗ máy cần ít đến mức nào để trông có vẻ thông minh?
 
 Video cũng đề cập đến: bài báo Alan Turing mở đầu bằng "Can machines think?" và mẹo ông dùng để thay thế chính câu hỏi đó; mô hình nơ-ron năm 1943 với các trọng số được thiết lập thủ công; những mùa đông khi nguồn tài trợ dừng lại; bức ảnh một con chó mà máy tính không nhận ra nổi suốt năm mươi năm; và lý do một ô văn bản trên trang web lại quan trọng hơn toàn bộ công nghệ đằng sau nó.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/ai-didnt-start-with-chatgpt/
 
 Các chương
 00:00 Một ô trên trang web
@@ -595,6 +615,8 @@ a trik, kterým ji nahradil; model neuronu z roku 1943, jehož váhy se
 nastavovaly ručně; zimy, kdy se zastavilo financování; fotka psa, kterou
 počítače nedokázaly rozpoznat padesát let; a důvod, proč textové pole na
 webové stránce znamenalo víc než veškerá technologie, díky níž fungovalo.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/ai-didnt-start-with-chatgpt/
 
 Kapitoly
 00:00 Pole na webové stránce
@@ -659,6 +681,8 @@ reconocer durante cincuenta años; y la razón por la que una casilla de
 texto en una página web importó más que toda la tecnología que había
 detrás.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/ai-didnt-start-with-chatgpt/
+
 Capítulos
 00:00 Un campo de texto en una página web
 00:39 ELIZA
@@ -717,6 +741,8 @@ knepet han använde för att ersätta den frågan; neuronmodellen från 1943 var
 sattes för hand; vintrarna när anslagen drogs in; fotot av en hund som
 datorer inte kunde känna igen under femtio års tid; och skälet till att en textruta
 på en webbsida betydde mer än all teknik bakom den.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/ai-didnt-start-with-chatgpt/
 
 Kapitel
 00:00 En ruta på en webbsida

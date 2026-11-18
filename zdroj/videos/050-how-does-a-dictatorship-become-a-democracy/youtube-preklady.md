@@ -69,6 +69,8 @@ kysymystä — eivät sitä, miten pidämme vallan ikuisesti, vaan sitä, miten
 muutamme tämän tuhoamatta itseämme. Tällä kysymyksellä on videossa nimi:
 vallasta luopumisen ongelma.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-does-a-dictatorship-become-a-democracy/
+
 Luvut
 00:00 Kuvittele, että olet diktaattori
 00:23 Koko ongelma yhtenä lauseena
@@ -144,6 +146,8 @@ régime peut atteindre un point où ses propres dirigeants se posent une autre
 question — non pas comment garder le pouvoir pour toujours, mais comment
 changer cela sans nous détruire. Cette question a un nom dans cette vidéo :
 le problème de la sortie.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-does-a-dictatorship-become-a-democracy/
 
 Chapitres
 00:00 Imaginez que vous êtes un dictateur
@@ -221,6 +225,8 @@ mulai menanyakan hal lain — bukan bagaimana kami bertahan selamanya,
 melainkan bagaimana kami mengubah ini tanpa menghancurkan diri sendiri.
 Pertanyaan itu punya nama dalam video ini: masalah jalan keluar.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-does-a-dictatorship-become-a-democracy/
+
 Bab
 00:00 Bayangkan Anda seorang diktator
 00:23 Seluruh masalahnya dalam satu kalimat
@@ -294,6 +300,8 @@ arrivare a un punto in cui i suoi stessi dirigenti cominciano a porsi una
 domanda diversa — non come restiamo al potere per sempre, ma come cambiamo
 tutto questo senza distruggerci. Quella domanda in questo video ha un nome:
 il problema dell'uscita.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-does-a-dictatorship-become-a-democracy/
 
 Capitoli
 00:00 Immagina di essere un dittatore
@@ -370,6 +378,8 @@ eigene Führung eine andere Frage stellt — nicht, wie halten wir uns für
 immer, sondern wie ändern wir das, ohne uns dabei zu zerstören. Diese Frage
 hat in diesem Video einen Namen: das Ausstiegsproblem.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-does-a-dictatorship-become-a-democracy/
+
 Kapitel
 00:00 Stellen Sie sich vor, Sie sind Diktator
 00:23 Das ganze Problem in einem Satz
@@ -445,6 +455,8 @@ zadawać inne pytanie — nie jak utrzymać się na zawsze, lecz jak to zmienić
 nie niszcząc samych siebie. To pytanie ma w tym filmie nazwę: problem
 wyjścia.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-does-a-dictatorship-become-a-democracy/
+
 Rozdziały
 00:00 Wyobraź sobie, że jesteś dyktatorem
 00:23 Cały problem w jednym zdaniu
@@ -519,6 +531,8 @@ a um ponto em que os próprios dirigentes passam a fazer outra pergunta — não
 como continuamos no poder para sempre, mas como mudamos isso sem nos
 destruir. Essa pergunta tem um nome neste vídeo: o problema da saída.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-does-a-dictatorship-become-a-democracy/
+
 Capítulos
 00:00 Imagine que você é um ditador
 00:23 Todo o problema em uma frase
@@ -589,6 +603,8 @@ eğitimli ve dünyaya daha bağlı hâle geldi, ama siyasi sistem bunu izlemedi.
 yöneticilerinin başka bir soru sormaya başladığı bir noktaya gelebilmesi:
 sonsuza dek nasıl kalırız değil, kendimizi yok etmeden bunu nasıl
 değiştiririz. Bu sorunun videoda bir adı var: iktidardan çıkış sorunu.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-does-a-dictatorship-become-a-democracy/
 
 Bölümler
 00:00 Bir diktatör olduğunuzu düşünün
@@ -661,6 +677,8 @@ Videodaki diğer tüm görseller kodla çizildi.
 режим може дійти до моменту, коли його власні очільники починають ставити
 інше запитання — не як утриматися назавжди, а як це змінити, не знищивши
 себе. У цьому відео те запитання має назву: проблема виходу.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-does-a-dictatorship-become-a-democracy/
 
 Розділи
 00:00 Уявіть, що ви диктатор
@@ -736,6 +754,8 @@ Mà là một chế độ có thể đi đến lúc chính những người lãn
 thay đổi mà không tự hủy hoại mình. Câu hỏi đó có một cái tên trong video
 này: bài toán lối ra.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-does-a-dictatorship-become-a-democracy/
+
 Các phần
 00:00 Hãy hình dung bạn là một nhà độc tài
 00:23 Toàn bộ vấn đề trong một câu
@@ -806,6 +826,8 @@ Ten vzorec není o tom, že se z diktátorů stanou demokraté. Je o tom, že
 režim může dojít do bodu, kdy si jeho vlastní vedení začne klást jinou
 otázku — ne jak se udržíme navždy, ale jak to změníme, aniž bychom zničili
 sami sebe. Ta otázka má v tomhle videu jméno: problém odchodu.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-does-a-dictatorship-become-a-democracy/
 
 Kapitoly
 00:00 Představte si, že jste diktátor
@@ -881,6 +903,8 @@ otra pregunta — no cómo nos mantenemos para siempre, sino cómo cambiamos
 esto sin destruirnos. Esa pregunta tiene nombre en este vídeo: el problema
 de la salida.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-does-a-dictatorship-become-a-democracy/
+
 Capítulos
 00:00 Imagina que eres un dictador
 00:23 Todo el problema en una frase
@@ -953,6 +977,8 @@ en punkt där dess egna ledare börjar ställa en annan fråga — inte hur vi
 behåller makten för alltid, utan hur vi förändrar det här utan att förgöra
 oss själva. Den frågan har ett namn i den här videon: problemet med att
 lämna makten.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-does-a-dictatorship-become-a-democracy/
 
 Kapitel
 00:00 Föreställ dig att du är diktator

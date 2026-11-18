@@ -32,6 +32,8 @@ Entropy explains why disorder keeps increasing. It does not explain why the
 universe started out so extraordinarily ordered in the first place. That is
 still open.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-is-time-actually/
+
 CHAPTERS
 00:00 Two different things
 00:43 What a clock actually measures

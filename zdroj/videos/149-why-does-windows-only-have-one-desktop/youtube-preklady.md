@@ -36,6 +36,8 @@ Lähteet: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winl
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-windows-only-have-one-desktop/
+
 LUVUT
 00:00 Työpöytä ilman tehtäväpalkkia
 00:25 Yksi asetus
@@ -78,6 +80,8 @@ Ce n'est pas un tutoriel : modifier la valeur Shell sans remplaçant qui fonctio
 Sources : Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlogon) and Custom user interface policy; Microsoft KB Q58341, Windows 3.0 SYSTEM.INI [boot] section; Windows Insider Blog, Build 18317 (2019); Cairo Desktop, ManagedShell source code; Wikipedia: LiteStep, Packard Bell Navigator, List of alternative shells for Windows.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-windows-only-have-one-desktop/
 
 CHAPITRES
 00:00 Un bureau sans barre des tâches
@@ -122,6 +126,8 @@ Sumber: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlog
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-windows-only-have-one-desktop/
+
 BAB
 00:00 Desktop tanpa taskbar
 00:25 Satu pengaturan
@@ -164,6 +170,8 @@ Non è un tutorial: cambiare il valore Shell senza un sostituto funzionante può
 Fonti: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlogon) and Custom user interface policy; Microsoft KB Q58341, Windows 3.0 SYSTEM.INI [boot] section; Windows Insider Blog, Build 18317 (2019); Cairo Desktop, ManagedShell source code; Wikipedia: LiteStep, Packard Bell Navigator, List of alternative shells for Windows.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-windows-only-have-one-desktop/
 
 CAPITOLI
 00:00 Un desktop senza barra delle applicazioni
@@ -208,6 +216,8 @@ Quellen: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlo
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-windows-only-have-one-desktop/
+
 KAPITEL
 00:00 Ein Desktop ohne Taskleiste
 00:25 Eine einzige Einstellung
@@ -250,6 +260,8 @@ To nie jest poradnik: zmiana wartości Shell bez działającego zamiennika może
 Źródła: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlogon) and Custom user interface policy; Microsoft KB Q58341, Windows 3.0 SYSTEM.INI [boot] section; Windows Insider Blog, Build 18317 (2019); Cairo Desktop, ManagedShell source code; Wikipedia: LiteStep, Packard Bell Navigator, List of alternative shells for Windows.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-windows-only-have-one-desktop/
 
 ROZDZIAŁY
 00:00 Pulpit bez paska zadań
@@ -294,6 +306,8 @@ Fontes: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlog
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-windows-only-have-one-desktop/
+
 CAPÍTULOS
 00:00 Uma área de trabalho sem barra de tarefas
 00:25 Uma única configuração
@@ -336,6 +350,8 @@ Bu bir rehber değil: Shell değerini çalışan bir yedeği olmadan değiştiri
 Kaynaklar: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlogon) and Custom user interface policy; Microsoft KB Q58341, Windows 3.0 SYSTEM.INI [boot] section; Windows Insider Blog, Build 18317 (2019); Cairo Desktop, ManagedShell source code; Wikipedia: LiteStep, Packard Bell Navigator, List of alternative shells for Windows.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-windows-only-have-one-desktop/
 
 BÖLÜMLER
 00:00 Görev çubuğu olmayan bir masaüstü
@@ -380,6 +396,8 @@ Lisans: gnu.org/licenses/gpl.html
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-windows-only-have-one-desktop/
+
 РОЗДІЛИ
 00:00 Робочий стіл без панелі завдань
 00:25 Одне налаштування
@@ -422,6 +440,8 @@ Video này nói về thiết lập quyết định desktop của bạn sẽ như
 Nguồn: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlogon) and Custom user interface policy; Microsoft KB Q58341, Windows 3.0 SYSTEM.INI [boot] section; Windows Insider Blog, Build 18317 (2019); Cairo Desktop, ManagedShell source code; Wikipedia: LiteStep, Packard Bell Navigator, List of alternative shells for Windows.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-windows-only-have-one-desktop/
 
 CHƯƠNG
 00:00 Desktop không có thanh tác vụ
@@ -466,6 +486,8 @@ Zdroje: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlog
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-windows-only-have-one-desktop/
+
 KAPITOLY
 00:00 Plocha bez hlavního panelu
 00:25 Jediné nastavení
@@ -509,6 +531,8 @@ Fuentes: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlo
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-windows-only-have-one-desktop/
+
 CAPÍTULOS
 00:00 Un escritorio sin barra de tareas
 00:25 Un único ajuste
@@ -551,6 +575,8 @@ Det här är ingen guide: ändrar du värdet Shell utan en fungerande ersättare
 Källor: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlogon) and Custom user interface policy; Microsoft KB Q58341, Windows 3.0 SYSTEM.INI [boot] section; Windows Insider Blog, Build 18317 (2019); Cairo Desktop, ManagedShell source code; Wikipedia: LiteStep, Packard Bell Navigator, List of alternative shells for Windows.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-windows-only-have-one-desktop/
 
 KAPITEL
 00:00 Ett skrivbord utan aktivitetsfält

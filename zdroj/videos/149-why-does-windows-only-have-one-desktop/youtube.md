@@ -66,6 +66,8 @@ Sources: Microsoft Learn, Shell Launcher overview; Microsoft, Shell entry (Winlo
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-windows-only-have-one-desktop/
+
 CHAPTERS
 00:00 A desktop with no taskbar
 00:25 One setting

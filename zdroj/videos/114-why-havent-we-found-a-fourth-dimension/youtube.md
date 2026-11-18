@@ -72,6 +72,8 @@ Sources: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv h
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-havent-we-found-a-fourth-dimension/
+
 CHAPTERS
 00:00 Why doesn't the air leak out?
 00:48 A clue on your fridge

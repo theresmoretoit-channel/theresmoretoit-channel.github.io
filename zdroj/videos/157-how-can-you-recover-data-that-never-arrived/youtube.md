@@ -65,6 +65,8 @@ Sources: R. W. Hamming, The Art of Doing Science and Engineering (1997); R. W. H
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-can-you-recover-data-that-never-arrived/
+
 CHAPTERS
 00:00 A torn QR code that still scans
 00:25 Eight bits, three missing

@@ -49,6 +49,8 @@ Radiosignaali kulkee satoja miljoonia kilometrejä tyhjyyttä ja saapuu silti pe
 
 Yhdeksännellätoista vuosisadalla oli vastaus: valoa kantava eetteri. Tämä on tarina siitä, miten se vastaus tutkittiin, hylättiin ja korvattiin jollain oudommalla — ja miksi uusi selitys ei vieläkään oikein tunnu vastaukselta.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-is-a-wave-waving/
+
 Luvut
 0:00 Se kysymys
 0:37 Eetteri
@@ -114,6 +116,8 @@ l'histoire de la façon dont cette réponse a été mise à l'épreuve,
 abandonnée et remplacée par quelque chose de plus étrange — et pourquoi
 ce remplacement ne ressemble toujours pas tout à fait à une réponse.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-is-a-wave-waving/
+
 Chapitres
 0:00 La question
 0:37 L'éther
@@ -177,6 +181,8 @@ Gelombang Radio Sebenarnya Merambat di Dalam Apa?
 Sebuah sinyal radio menempuh ratusan juta kilometer kehampaan dan toh tetap sampai. Setiap gelombang yang bisa saya bayangkan membutuhkan sesuatu yang beriak — jadi yang ini beriak di dalam apa?
 
 Abad kesembilan belas punya jawabannya: eter pengangkut cahaya. Ini adalah kisah tentang bagaimana jawaban itu diuji, ditinggalkan, dan diganti dengan sesuatu yang lebih ganjil — dan kenapa penggantinya sampai sekarang masih terasa belum seperti sebuah jawaban.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-is-a-wave-waving/
 
 Bab
 0:00 Pertanyaannya
@@ -242,6 +248,8 @@ L'Ottocento aveva una risposta: l'etere luminifero. Questa è la storia di
 come quella risposta fu messa alla prova, abbandonata e sostituita da
 qualcosa di più strano — e del perché la sostituzione continua a non
 sembrare del tutto una risposta.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-is-a-wave-waving/
 
 Capitoli
 0:00 La domanda
@@ -317,6 +325,8 @@ die Geschichte davon, wie diese Antwort geprüft, aufgegeben und durch
 etwas Seltsameres ersetzt wurde — und warum sich der Ersatz noch immer
 nicht ganz wie eine Antwort anfühlt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-is-a-wave-waving/
+
 Kapitel
 0:00 Die Frage
 0:37 Der Äther
@@ -389,6 +399,8 @@ co faluje — więc co faluje w tym przypadku?
 Dziewiętnasty wiek miał odpowiedź: eter świetlny. To historia tego, jak
 tę odpowiedź sprawdzono, porzucono i zastąpiono czymś dziwniejszym — i
 dlaczego to zastępstwo wciąż nie do końca przypomina odpowiedź.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-is-a-wave-waving/
 
 Rozdziały
 0:00 Pytanie
@@ -464,6 +476,8 @@ história de como essa resposta foi testada, abandonada e substituída por
 algo mais estranho — e de por que a substituta ainda não parece
 exatamente uma resposta.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-is-a-wave-waving/
+
 Capítulos
 0:00 A pergunta
 0:37 O éter
@@ -529,6 +543,8 @@ Bir radyo sinyali yüz milyonlarca kilometre boşluk kat ediyor ve yine de varı
 
 On dokuzuncu yüzyılın bir cevabı vardı: ışığı taşıyan esir. Bu, o cevabın nasıl sınandığının, nasıl terk edildiğinin ve yerine daha tuhaf bir şeyin nasıl geçtiğinin hikâyesi — ve yerine geçen şeyin neden hâlâ tam olarak bir cevap gibi gelmediğinin.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-is-a-wave-waving/
+
 Bölümler
 0:00 Soru
 0:37 Esir
@@ -583,6 +599,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 Радіосигнал долає сотні мільйонів кілометрів порожнечі й усе одно долітає. Кожна хвиля, яку я здатен собі уявити, потребує чогось, що коливається, — то в чому коливається ця?
 
 У дев’ятнадцятому столітті відповідь була: світлоносний ефір. Це історія про те, як цю відповідь перевірили, полишили й замінили чимось дивнішим — і чому та заміна досі не зовсім схожа на відповідь.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-is-a-wave-waving/
 
 Розділи
 0:00 Те питання
@@ -639,6 +657,8 @@ Sóng vô tuyến thực ra lan truyền trong cái gì?
 Một tín hiệu vô tuyến vượt hàng trăm triệu kilômét chân không mà vẫn tới nơi. Mọi con sóng tôi hình dung được đều cần một thứ gì đó để dao động — vậy con sóng này dao động trong cái gì?
 
 Thế kỷ mười chín có câu trả lời: ê-te mang ánh sáng. Đây là câu chuyện về việc câu trả lời ấy đã được đem ra kiểm chứng, bị từ bỏ và được thay bằng một thứ kỳ lạ hơn ra sao — và vì sao thứ thay thế đó đến giờ vẫn chưa thật giống một câu trả lời.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-is-a-wave-waving/
 
 Các chương
 0:00 Câu hỏi
@@ -705,6 +725,8 @@ Devatenácté století mělo odpověď: světlonosný éter. Tohle je příběh
 o tom, jak se ta odpověď prověřila, opustila a nahradila něčím
 podivnějším — a proč ta náhrada pořád tak úplně nepůsobí jako odpověď.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-is-a-wave-waving/
+
 Kapitoly
 0:00 Ta otázka
 0:37 Éter
@@ -770,6 +792,8 @@ El siglo diecinueve tenía una respuesta: el éter luminífero. Esta es la
 historia de cómo esa respuesta se puso a prueba, se abandonó y se
 sustituyó por algo más extraño — y de por qué la sustituta sigue sin
 parecer del todo una respuesta.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-is-a-wave-waving/
 
 Capítulos
 0:00 La pregunta
@@ -844,6 +868,8 @@ Artonhundratalet hade ett svar: den ljusbärande etern. Det här är
 historien om hur det svaret prövades, övergavs och ersattes av något
 märkligare — och om varför ersättaren fortfarande inte riktigt känns som
 ett svar.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-is-a-wave-waving/
 
 Kapitel
 0:00 Frågan

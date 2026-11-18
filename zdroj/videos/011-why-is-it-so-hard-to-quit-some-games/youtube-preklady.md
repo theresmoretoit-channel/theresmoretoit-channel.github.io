@@ -44,6 +44,8 @@ Vahvaksi sen tekee se, ettei peli jätä sitä yksin. Se asettaa keskeneräisen 
 
 Jälkimmäinen puolisko kertoo, mitä sille tehdä, ja purkaa ne neljä vetoa yksi kerrallaan. Mikään siinä ei sano, että pelit olisivat pahasta. Edistyminen on yksi syy siihen, miksi pelit ovat hauskoja. Raja, johon kannattaa kiinnittää huomiota, on toinen: „haluan saada jotain valmiiksi" on kunnossa. „En pysty lopettamaan, vaikka en haluakaan jatkaa" ei ole.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-it-so-hard-to-quit-some-games/
+
 LUVUT
 00:00 Kolme tuntia, eikä hauskaa
 01:20 Peli, joka ei koskaan lopu
@@ -117,6 +119,8 @@ sont amusants. La limite à surveiller est ailleurs : « je veux finir
 quelque chose », très bien. « Je n'arrive pas à m'arrêter alors que je
 n'ai pas envie de continuer », non.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-it-so-hard-to-quit-some-games/
+
 CHAPITRES
 00:00 Trois heures, et aucun plaisir
 01:20 Un jeu qui ne finit jamais
@@ -184,6 +188,8 @@ Hal yang belum selesai memang menarikmu kembali. Hal ini sudah diteliti: orang k
 Yang membuatnya kuat adalah bahwa game tidak membiarkannya berdiri sendiri. Ia menaruh hal yang belum selesai itu di sebelah sebuah hadiah, di sebelah sebuah tenggat, di sebelah rutinitas yang sudah kamu punya — lalu ia menunjukkanmu sebuah angka. Pada titik itu kamu sebenarnya sudah tidak bermain game lagi. Kamu sedang merawatnya.
 
 Paruh kedua tentang apa yang bisa dilakukan soal itu, dan membongkar keempat tarikan satu per satu. Tidak ada satu pun bagiannya yang bilang game itu buruk. Kemajuan adalah salah satu alasan game jadi seru. Yang perlu diperhatikan adalah batas berikut: "aku ingin menyelesaikan sesuatu" itu wajar. "Aku tidak bisa berhenti padahal aku tidak ingin lanjut" tidak.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-it-so-hard-to-quit-some-games/
 
 BAB
 00:00 Tiga jam, dan tidak seru
@@ -257,6 +263,8 @@ volta. Niente qui dice che i giochi facciano male. Il progresso è uno dei
 motivi per cui i giochi sono divertenti. Il confine da tenere d'occhio è
 un altro: «voglio finire una cosa» va benissimo. «Non riesco a smettere
 anche se non ho voglia di continuare» no.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-it-so-hard-to-quit-some-games/
 
 CAPITOLI
 00:00 Tre ore, e nessun divertimento
@@ -343,6 +351,8 @@ auf die es zu achten lohnt, ist eine andere: „Ich will etwas zu Ende
 bringen" ist in Ordnung. „Ich kann nicht aufhören, obwohl ich nicht
 weitermachen will" ist es nicht.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-it-so-hard-to-quit-some-games/
+
 KAPITEL
 00:00 Drei Stunden, und kein Spaß
 01:20 Ein Spiel, das nie endet
@@ -428,6 +438,8 @@ których gry są przyjemne. Granica, którą warto obserwować, biegnie gdzie
 indziej: „chcę coś skończyć" jest w porządku. „Nie potrafię przestać,
 choć nie chce mi się grać dalej" nie jest.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-it-so-hard-to-quit-some-games/
+
 ROZDZIAŁY
 00:00 Trzy godziny i żadnej zabawy
 01:20 Gra, która nigdy się nie kończy
@@ -511,6 +523,8 @@ motivos de jogo ser divertido. A linha que vale a pena vigiar é outra:
 "eu quero terminar uma coisa" tudo bem. "Não consigo parar mesmo sem
 vontade de continuar" não.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-it-so-hard-to-quit-some-games/
+
 CAPÍTULOS
 00:00 Três horas, e diversão nenhuma
 01:20 Um jogo que nunca acaba
@@ -578,6 +592,8 @@ Onu güçlü kılan şey, oyunun bunu kendi başına bırakmaması. Yarım kalan
 
 İkinci yarı bununla ne yapılacağını anlatıyor ve dört çekimi tek tek ele alıyor. Hiçbiri oyunların kötü olduğunu söylemiyor. İlerleme, oyunların eğlenceli olmasının sebeplerinden biri. Dikkat edilmeye değer sınır başka: "bir şeyi bitirmek istiyorum" gayet normal. "Devam etmek istemesem de duramıyorum" değil.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-it-so-hard-to-quit-some-games/
+
 BÖLÜMLER
 00:00 Üç saat ve hiç eğlence yok
 01:20 Hiç bitmeyen bir oyun
@@ -632,6 +648,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 Сильною її робить те, що гра не лишає її саму. Вона ставить незавершену річ поряд із винагородою, поряд із дедлайном, поряд із рутиною, яку ти вже маєш, — а тоді показує тобі число. У цю мить ти вже насправді не граєш у гру. Ти її обслуговуєш.
 
 Друга половина про те, що з цим робити, і розбирає ті чотири тяги одну за одною. Ніщо в ній не каже, що ігри погані. Поступ — одна з причин, чому ігри бавлять. Межа, за якою варто стежити, інша: «хочу щось докінчити» — це гаразд. «Не можу перестати, хоча продовжувати не хочу» — ні.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-it-so-hard-to-quit-some-games/
 
 РОЗДІЛИ
 00:00 Три години — і жодної радості
@@ -688,6 +706,8 @@ Một việc còn dang dở thực sự kéo bạn quay lại. Điều này đã
 Thứ làm nó mạnh lên là trò chơi không để nó đứng một mình. Nó đặt cái dang dở ấy cạnh một phần thưởng, cạnh một hạn chót, cạnh một thói quen bạn vốn đã có — rồi nó cho bạn xem một con số. Đến lúc đó bạn thực ra không còn chơi game nữa. Bạn đang bảo trì nó.
 
 Nửa sau nói về việc nên làm gì với chuyện đó, và phân tích lần lượt từng lực kéo. Chẳng chỗ nào nói rằng game là xấu. Tiến độ chính là một trong những lý do khiến game vui. Ranh giới đáng để ý thì khác: "tôi muốn hoàn thành một việc" là bình thường. "Tôi không dừng được dù tôi không muốn chơi tiếp" thì không.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-it-so-hard-to-quit-some-games/
 
 CÁC CHƯƠNG
 00:00 Ba tiếng đồng hồ, mà chẳng vui
@@ -761,6 +781,8 @@ hry baví. Hranice, kterou má smysl hlídat, je jinde: „chci něco
 dodělat" je v pořádku. „Nemůžu přestat, i když se mi nechce pokračovat"
 není.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-it-so-hard-to-quit-some-games/
+
 KAPITOLY
 00:00 Tři hodiny, a žádná zábava
 01:20 Hra, která nikdy nekončí
@@ -833,6 +855,8 @@ uno a uno. Nada de esto dice que los juegos sean malos. El progreso es
 una de las razones por las que los juegos divierten. La línea que merece
 la pena vigilar está en otro sitio: «quiero terminar algo» está bien.
 «No puedo parar aunque no me apetece seguir» no.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-it-so-hard-to-quit-some-games/
 
 CAPÍTULOS
 00:00 Tres horas, y ninguna diversión
@@ -916,6 +940,8 @@ dragen ett i taget. Ingenting här säger att spel är dåliga. Progression
 är en av anledningarna till att spel är roliga. Gränsen värd att hålla
 ögonen på är en annan: "jag vill göra klart något" är helt okej. "Jag kan
 inte sluta trots att jag inte vill fortsätta" är det inte.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-it-so-hard-to-quit-some-games/
 
 KAPITEL
 00:00 Tre timmar, och inget roligt

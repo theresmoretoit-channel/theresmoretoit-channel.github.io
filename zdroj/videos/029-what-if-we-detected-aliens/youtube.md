@@ -49,6 +49,8 @@ to be a bit like trying to hold a conversation with a dolphin. Dolphins are inte
 communicate, we have recorded them for decades, and we share a planet, a biosphere and a
 physical world with them. It is still extremely hard. Now remove all of that.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-if-we-detected-aliens/
+
 Chapters
 0:00 A signal nothing in nature explains
 0:38 First we have to find them

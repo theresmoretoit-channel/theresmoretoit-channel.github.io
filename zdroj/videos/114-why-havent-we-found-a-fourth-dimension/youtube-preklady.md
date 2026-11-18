@@ -56,6 +56,8 @@ Lähteet: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-havent-we-found-a-fourth-dimension/
+
 LUVUT
 00:00 Miksi ilma ei vuoda pois?
 00:48 Vihje jääkaapin ovessa
@@ -93,6 +95,8 @@ Première partie : Et si l'espace avait une quatrième dimension ? https://www.y
 Sources : Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998 ; arXiv hep-ph/9803315) ; Lee et al., Phys. Rev. Lett. 124, 101101 (2020) ; Dimopoulos & Landsberg, Phys. Rev. Lett. 87, 161602 (2001) ; CMS, JHEP 08 (2026) 098 (arXiv:2604.10732) ; ATLAS, Phys. Rev. D 103, 112006 (2021) ; LIGO/Virgo, Phys. Rev. Lett. 119, 161101 (2017) ; LIGO/Virgo, Fermi GBM & INTEGRAL, ApJL 848, L13 (2017) ; Pardo, Fishbach, Holz & Spergel, JCAP 07 (2018) 048 (arXiv:1801.08160) ; E. A. Abbott, Flatland (1884).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-havent-we-found-a-fourth-dimension/
 
 CHAPITRES
 00:00 Pourquoi l'air ne s'échappe-t-il pas ?
@@ -132,6 +136,8 @@ Sumber: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv he
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-havent-we-found-a-fourth-dimension/
+
 BAB
 00:00 Mengapa udara tidak bocor keluar?
 00:48 Petunjuk di kulkas Anda
@@ -169,6 +175,8 @@ Prima parte: E se lo spazio avesse una quarta dimensione? https://www.youtube.co
 Fonti: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Dimopoulos & Landsberg, Phys. Rev. Lett. 87, 161602 (2001); CMS, JHEP 08 (2026) 098 (arXiv:2604.10732); ATLAS, Phys. Rev. D 103, 112006 (2021); LIGO/Virgo, Phys. Rev. Lett. 119, 161101 (2017); LIGO/Virgo, Fermi GBM & INTEGRAL, ApJL 848, L13 (2017); Pardo, Fishbach, Holz & Spergel, JCAP 07 (2018) 048 (arXiv:1801.08160); E. A. Abbott, Flatland (1884).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-havent-we-found-a-fourth-dimension/
 
 CAPITOLI
 00:00 Perché l'aria non scappa?
@@ -208,6 +216,8 @@ Quellen: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv h
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-havent-we-found-a-fourth-dimension/
+
 KAPITEL
 00:00 Warum entweicht die Luft nicht?
 00:48 Ein Hinweis am Kühlschrank
@@ -245,6 +255,8 @@ Część pierwsza: Co by było, gdyby przestrzeń miała czwarty wymiar? https:/
 Źródła: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Dimopoulos & Landsberg, Phys. Rev. Lett. 87, 161602 (2001); CMS, JHEP 08 (2026) 098 (arXiv:2604.10732); ATLAS, Phys. Rev. D 103, 112006 (2021); LIGO/Virgo, Phys. Rev. Lett. 119, 161101 (2017); LIGO/Virgo, Fermi GBM & INTEGRAL, ApJL 848, L13 (2017); Pardo, Fishbach, Holz & Spergel, JCAP 07 (2018) 048 (arXiv:1801.08160); E. A. Abbott, Flatland (1884).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-havent-we-found-a-fourth-dimension/
 
 ROZDZIAŁY
 00:00 Dlaczego powietrze nie ucieka?
@@ -284,6 +296,8 @@ Fontes: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv he
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-havent-we-found-a-fourth-dimension/
+
 CAPÍTULOS
 00:00 Por que o ar não vaza?
 00:48 Uma pista na geladeira
@@ -321,6 +335,8 @@ Birinci bölüm: Uzayın dördüncü bir boyutu olsaydı ne olurdu? https://www.
 Kaynaklar: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Dimopoulos & Landsberg, Phys. Rev. Lett. 87, 161602 (2001); CMS, JHEP 08 (2026) 098 (arXiv:2604.10732); ATLAS, Phys. Rev. D 103, 112006 (2021); LIGO/Virgo, Phys. Rev. Lett. 119, 161101 (2017); LIGO/Virgo, Fermi GBM & INTEGRAL, ApJL 848, L13 (2017); Pardo, Fishbach, Holz & Spergel, JCAP 07 (2018) 048 (arXiv:1801.08160); E. A. Abbott, Flatland (1884).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-havent-we-found-a-fourth-dimension/
 
 BÖLÜMLER
 00:00 Hava neden dışarı sızmıyor?
@@ -360,6 +376,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/3.0, creativecommons.org/licenses/
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-havent-we-found-a-fourth-dimension/
+
 РОЗДІЛИ
 00:00 Чому повітря не витікає?
 00:48 Підказка на холодильнику
@@ -397,6 +415,8 @@ Phần một: Sẽ ra sao nếu không gian có chiều thứ tư? https://www.y
 Nguồn: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Dimopoulos & Landsberg, Phys. Rev. Lett. 87, 161602 (2001); CMS, JHEP 08 (2026) 098 (arXiv:2604.10732); ATLAS, Phys. Rev. D 103, 112006 (2021); LIGO/Virgo, Phys. Rev. Lett. 119, 161101 (2017); LIGO/Virgo, Fermi GBM & INTEGRAL, ApJL 848, L13 (2017); Pardo, Fishbach, Holz & Spergel, JCAP 07 (2018) 048 (arXiv:1801.08160); E. A. Abbott, Flatland (1884).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-havent-we-found-a-fourth-dimension/
 
 CHƯƠNG
 00:00 Vì sao không khí không rò ra ngoài?
@@ -436,6 +456,8 @@ Zdroje: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv he
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-havent-we-found-a-fourth-dimension/
+
 KAPITOLY
 00:00 Proč vzduch neuniká?
 00:48 Vodítko na lednici
@@ -474,6 +496,8 @@ Fuentes: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv h
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-havent-we-found-a-fourth-dimension/
+
 CAPÍTULOS
 00:00 ¿Por qué no se escapa el aire?
 00:48 Una pista en la nevera
@@ -511,6 +535,8 @@ Del ett: Vad skulle hända om rummet hade en fjärde dimension? https://www.yout
 Källor: Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Dimopoulos & Landsberg, Phys. Rev. Lett. 87, 161602 (2001); CMS, JHEP 08 (2026) 098 (arXiv:2604.10732); ATLAS, Phys. Rev. D 103, 112006 (2021); LIGO/Virgo, Phys. Rev. Lett. 119, 161101 (2017); LIGO/Virgo, Fermi GBM & INTEGRAL, ApJL 848, L13 (2017); Pardo, Fishbach, Holz & Spergel, JCAP 07 (2018) 048 (arXiv:1801.08160); E. A. Abbott, Flatland (1884).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-havent-we-found-a-fourth-dimension/
 
 KAPITEL
 00:00 Varför läcker inte luften ut?

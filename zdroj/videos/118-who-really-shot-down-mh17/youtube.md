@@ -65,6 +65,8 @@ Viktor Baranets spoke on Radio Komsomolskaya Pravda on 21 September 2026. That r
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/who-really-shot-down-mh17/
+
 CHAPTERS
 00:00 Flight MH17
 00:18 A clip from Russian radio

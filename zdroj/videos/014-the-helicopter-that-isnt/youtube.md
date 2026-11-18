@@ -26,6 +26,8 @@ few of them can still leap off the ground without any run at all. Plus the
 part most people get wrong — the gyroplane is thirteen years OLDER than the
 practical helicopter, and it costs a fraction of one.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/the-helicopter-that-isnt/
+
 Chapters
 00:00 The machine that looks like a helicopter
 00:31 How a helicopter does it

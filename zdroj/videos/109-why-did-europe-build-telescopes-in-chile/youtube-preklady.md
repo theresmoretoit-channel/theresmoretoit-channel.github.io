@@ -58,6 +58,8 @@ Lähteet: ESO, ELT:n rakentamisen aikataulu (ann25001) ja jäsenmaat; GRAVITY Co
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-did-europe-build-telescopes-in-chile/
+
 LUVUT
 00:00 Suurin koskaan tehty kaukoputki
 00:34 Ongelma on ilma
@@ -98,6 +100,8 @@ Une partie de la réponse, c’est l’air. Les étoiles qui scintillent sont jo
 Sources : ESO, calendrier de construction de l’ELT (ann25001) et États membres ; GRAVITY Collaboration, A&A 615 (2018) ; S. Gillessen et al., ApJ 837 (2017) ; G. Anglada-Escudé et al., Nature 536 (2016) ; A. Suárez Mascareño et al., A&A 639 (2020) ; ALMA (ESO/NAOJ/NRAO), HL Tauri (2014) ; NASA, Nancy Grace Roman Space Telescope.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-did-europe-build-telescopes-in-chile/
 
 CHAPITRES
 00:00 Le plus grand télescope jamais construit
@@ -140,6 +144,8 @@ Sumber: ESO, jadwal pembangunan ELT (ann25001) dan negara anggota; GRAVITY Colla
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-did-europe-build-telescopes-in-chile/
+
 BAB
 00:00 Teleskop terbesar yang pernah dibuat
 00:34 Masalahnya adalah udara
@@ -180,6 +186,8 @@ Una parte della risposta è l’aria. Le stelle che scintillano sono belle, ma p
 Fonti: ESO, cronologia della costruzione dell’ELT (ann25001) e Stati membri; GRAVITY Collaboration, A&A 615 (2018); S. Gillessen et al., ApJ 837 (2017); G. Anglada-Escudé et al., Nature 536 (2016); A. Suárez Mascareño et al., A&A 639 (2020); ALMA (ESO/NAOJ/NRAO), HL Tauri (2014); NASA, Nancy Grace Roman Space Telescope.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-did-europe-build-telescopes-in-chile/
 
 CAPITOLI
 00:00 Il più grande telescopio mai costruito
@@ -222,6 +230,8 @@ Quellen: ESO, Zeitplan für den Bau des ELT (ann25001) und Mitgliedstaaten; GRAV
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-did-europe-build-telescopes-in-chile/
+
 KAPITEL
 00:00 Das größte Teleskop, das je gebaut wurde
 00:34 Das Problem ist die Luft
@@ -262,6 +272,8 @@ Część odpowiedzi to powietrze. Migoczące gwiazdy wyglądają pięknie, ale d
 Źródła: ESO, harmonogram budowy ELT (ann25001) i państwa członkowskie; GRAVITY Collaboration, A&A 615 (2018); S. Gillessen et al., ApJ 837 (2017); G. Anglada-Escudé et al., Nature 536 (2016); A. Suárez Mascareño et al., A&A 639 (2020); ALMA (ESO/NAOJ/NRAO), HL Tauri (2014); NASA, Nancy Grace Roman Space Telescope.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-did-europe-build-telescopes-in-chile/
 
 ROZDZIAŁY
 00:00 Największy teleskop w historii
@@ -304,6 +316,8 @@ Fontes: ESO, cronograma de construção do ELT (ann25001) e Estados-membros; GRA
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-did-europe-build-telescopes-in-chile/
+
 CAPÍTULOS
 00:00 O maior telescópio já construído
 00:34 O problema é o ar
@@ -344,6 +358,8 @@ Cevabın bir kısmı hava. Göz kırpan yıldızlar güzel görünür ama bir as
 Kaynaklar: ESO, ELT inşaat takvimi (ann25001) ve üye ülkeler; GRAVITY Collaboration, A&A 615 (2018); S. Gillessen et al., ApJ 837 (2017); G. Anglada-Escudé et al., Nature 536 (2016); A. Suárez Mascareño et al., A&A 639 (2020); ALMA (ESO/NAOJ/NRAO), HL Tauri (2014); NASA, Nancy Grace Roman Space Telescope.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-did-europe-build-telescopes-in-chile/
 
 BÖLÜMLER
 00:00 Şimdiye kadar yapılmış en büyük teleskop
@@ -386,6 +402,8 @@ Hubble ve Roman'ın fırlatılışı: NASA, kamu malı.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-did-europe-build-telescopes-in-chile/
+
 РОЗДІЛИ
 00:00 Найбільший телескоп в історії
 00:34 Проблема — повітря
@@ -426,6 +444,8 @@ Một phần câu trả lời nằm ở không khí. Những ngôi sao lấp lá
 Nguồn: ESO, tiến độ xây dựng ELT (ann25001) và các quốc gia thành viên; GRAVITY Collaboration, A&A 615 (2018); S. Gillessen et al., ApJ 837 (2017); G. Anglada-Escudé et al., Nature 536 (2016); A. Suárez Mascareño et al., A&A 639 (2020); ALMA (ESO/NAOJ/NRAO), HL Tauri (2014); NASA, Nancy Grace Roman Space Telescope.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-did-europe-build-telescopes-in-chile/
 
 CHƯƠNG
 00:00 Kính thiên văn lớn nhất từng được chế tạo
@@ -468,6 +488,8 @@ Zdroje: ESO, harmonogram stavby ELT (ann25001) a členské státy; GRAVITY Colla
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-did-europe-build-telescopes-in-chile/
+
 KAPITOLY
 00:00 Největší dalekohled, jaký kdy vznikl
 00:34 Problém je vzduch
@@ -509,6 +531,8 @@ Fuentes: ESO, calendario de construcción del ELT (ann25001) y Estados miembros;
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-did-europe-build-telescopes-in-chile/
+
 CAPÍTULOS
 00:00 El mayor telescopio jamás construido
 00:34 El problema es el aire
@@ -549,6 +573,8 @@ En del av svaret är luften. Tindrande stjärnor är vackra, men för en astrono
 Källor: ESO, tidsplan för bygget av ELT (ann25001) och medlemsländer; GRAVITY Collaboration, A&A 615 (2018); S. Gillessen et al., ApJ 837 (2017); G. Anglada-Escudé et al., Nature 536 (2016); A. Suárez Mascareño et al., A&A 639 (2020); ALMA (ESO/NAOJ/NRAO), HL Tauri (2014); NASA, Nancy Grace Roman Space Telescope.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-did-europe-build-telescopes-in-chile/
 
 KAPITEL
 00:00 Det största teleskopet som någonsin byggts

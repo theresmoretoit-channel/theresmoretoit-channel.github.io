@@ -64,6 +64,8 @@ Sitten se kohta, jonka ihmiset hyväksyvät vaikeimmin. Suuntaa ei ole. Slaavila
 
 Tekstitykset on kirjoitettu tätä videota varten, niitä ei ole luotu automaattisesti. Amerikanenglantilainen ääniraita on saatavilla toisena ääniraitana.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-are-some-languages-complicated/
+
 Luvut
 00:00 Yksinkertainen elämä, mutkikas kieli
 00:36 Miksei "goed"?
@@ -105,6 +107,8 @@ Cette vidéo explique pourquoi c'est ordinaire et non bizarre. Comment une langu
 Puis la partie que les gens acceptent le plus mal. Il n'y a aucune direction. Les langues slaves le montrent clairement : la plupart ont gardé des cas riches, tandis que le bulgare les a presque entièrement perdus sur les noms et s'est fait pousser autre chose, un article défini collé à la fin du mot. Le même ancêtre, des directions opposées, et aucune des deux n'est la mise à jour.
 
 Les sous-titres sont écrits pour cette vidéo, ils ne sont pas générés automatiquement. Une piste audio en anglais américain est disponible comme deuxième piste audio.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-are-some-languages-complicated/
 
 Chapitres
 00:00 Une vie simple, une langue compliquée
@@ -148,6 +152,8 @@ Lalu bagian yang paling sulit diterima orang. Tidak ada arah. Bahasa-bahasa Slav
 
 Takarir ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-are-some-languages-complicated/
+
 Bab
 00:00 Hidup sederhana, bahasa yang rumit
 00:36 Mengapa bukan "goed"?
@@ -189,6 +195,8 @@ Questo video spiega perché è normale e non bizzarro. Come una lingua ne divent
 Poi la parte che si accetta più a fatica. Non c'è nessuna direzione. Le lingue slave lo mostrano con chiarezza: la maggior parte ha tenuto casi ricchi, mentre il bulgaro li ha persi sui nomi quasi del tutto e gli è cresciuta un'altra cosa, un articolo determinativo attaccato alla fine della parola. Lo stesso antenato, direzioni opposte, e nessuna delle due è l'aggiornamento.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. È disponibile una traccia audio in inglese americano come seconda traccia.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-are-some-languages-complicated/
 
 Capitoli
 00:00 Una vita semplice, una lingua complicata
@@ -232,6 +240,8 @@ Und dann der Teil, den Menschen am schwersten annehmen. Es gibt keine Richtung. 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-are-some-languages-complicated/
+
 Kapitel
 00:00 Ein einfaches Leben, eine komplizierte Sprache
 00:36 Warum nicht „goed"?
@@ -273,6 +283,8 @@ Ten film jest o tym, dlaczego to zwyczajne, a nie dziwaczne. Jak z jednego języ
 A potem część, którą najtrudniej przyjąć. Nie ma żadnego kierunku. Języki słowiańskie pokazują to wyraźnie: większość zachowała bogatą odmianę, podczas gdy bułgarski stracił ją w rzeczownikach niemal całkowicie i wyrosło mu coś innego, rodzajnik określony doklejony na końcu wyrazu. Ten sam przodek, przeciwne kierunki, i żaden z nich nie jest ulepszeniem.
 
 Napisy zostały napisane do tego filmu, nie wygenerowane automatycznie. Dostępna jest ścieżka dźwiękowa w amerykańskim angielskim jako druga ścieżka.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-are-some-languages-complicated/
 
 Rozdziały
 00:00 Proste życie, skomplikowany język
@@ -316,6 +328,8 @@ E então a parte que as pessoas mais custam a aceitar. Não existe direção. As
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Há uma trilha de áudio em inglês americano disponível como segunda trilha.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-are-some-languages-complicated/
+
 Capítulos
 00:00 Vida simples, língua complicada
 00:36 Por que não “goed”?
@@ -357,6 +371,8 @@ Bu video bunun neden tuhaf değil olağan olduğunu anlatıyor. Kimse yeni bir d
 Sonra da insanların kabul etmekte en çok zorlandığı kısım. Hiçbir yön yok. Slav dilleri bunu açıkça gösteriyor: çoğu zengin ad çekimini korudu, Bulgarca ise onu adlarda neredeyse tümüyle yitirdi ve yerine başka bir şey büyüttü, sözcüğün sonuna yapışan bir belirtme tanımlığı. Aynı ata, karşıt yönler ve ikisinden hiçbiri yükseltme değil.
 
 Altyazılar bu video için yazıldı, otomatik olarak üretilmedi. İkinci ses parçası olarak Amerikan İngilizcesi ses parçası mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-are-some-languages-complicated/
 
 Bölümler
 00:00 Yalın bir hayat, karmaşık bir dil
@@ -400,6 +416,8 @@ Wikimedia Commons aracılığıyla
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Доступна доріжка американською англійською як друга звукова доріжка.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-are-some-languages-complicated/
+
 Розділи
 00:00 Просте життя, складна мова
 00:36 Чому не «goed»?
@@ -441,6 +459,8 @@ Video này nói về việc vì sao điều đó là bình thường chứ khôn
 Rồi đến phần người ta khó chấp nhận nhất. Không có hướng nào cả. Các ngôn ngữ Slav cho thấy rõ điều đó: phần lớn giữ được hệ cách phong phú, trong khi tiếng Bulgaria mất nó ở danh từ gần như hoàn toàn và mọc lên thứ khác, một mạo từ xác định dính ở cuối từ. Cùng một tổ tiên, hai hướng ngược nhau, và không hướng nào là bản nâng cấp.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có bản âm thanh tiếng Anh Mỹ dưới dạng bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-are-some-languages-complicated/
 
 Các chương
 00:00 Đời sống giản dị, ngôn ngữ phức tạp
@@ -484,6 +504,8 @@ A pak ta část, kterou lidé přijímají nejhůř. Žádný směr neexistuje. 
 
 Titulky jsou k tomuhle videu napsané, ne vygenerované automaticky. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-are-some-languages-complicated/
+
 Kapitoly
 00:00 Prostý život, složitý jazyk
 00:36 Proč ne „goed"?
@@ -526,6 +548,8 @@ Y luego la parte que más cuesta aceptar. No hay ninguna dirección. Las lenguas
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Hay una pista de audio en inglés americano disponible como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-are-some-languages-complicated/
+
 Capítulos
 00:00 Vida simple, lengua complicada
 00:36 ¿Por qué no «goed»?
@@ -567,6 +591,8 @@ Den här videon handlar om varför det är vanligt och inte konstigt. Hur ett sp
 Och så den del som folk har svårast att acceptera. Det finns ingen riktning. De slaviska språken visar det tydligt: de flesta behöll rika kasus, medan bulgariskan tappade dem på substantiven nästan helt och fick något annat i stället, en bestämd artikel som sitter fast i slutet av ordet. Samma förfader, motsatta riktningar, och ingen av dem är uppgraderingen.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett ljudspår på amerikansk engelska finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-are-some-languages-complicated/
 
 Kapitel
 00:00 Ett enkelt liv, ett komplicerat språk

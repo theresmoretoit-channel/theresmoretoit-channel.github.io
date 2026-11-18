@@ -31,6 +31,8 @@ Lähteet: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Mic
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-one-program-take-over-your-computer/
+
 LUVUT
 00:00 8,5 miljoonaa sinistä ruutua
 01:01 Kun mikään ei pysäyttänyt ohjelmaa
@@ -69,6 +71,8 @@ Cette vidéo explique les anneaux de protection, les quatre niveaux de privilèg
 Sources : CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Microsoft, Helping our customers through the CrowdStrike outage (2024); Microsoft Security, Windows security best practices for integrating and managing security tools (2024); Intel, 64 and IA-32 Architectures Software Developer's Manual, Volume 3; Schroeder and Saltzer, A Hardware Architecture for Implementing Protection Rings (Communications of the ACM, 1972); Google Project Zero, Reading privileged memory with a side-channel (2018); Red Hat, Speculative Execution Exploit Performance Impacts (2018); Riot Games, /dev/null: Anti-Cheat Kernel Driver (2020). Le nombre d'appels système, nous l'avons mesuré nous-mêmes avec strace.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-one-program-take-over-your-computer/
 
 CHAPITRES
 00:00 8,5 millions d'écrans bleus
@@ -109,6 +113,8 @@ Sumber: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Micro
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-one-program-take-over-your-computer/
+
 BAB
 00:00 8,5 juta layar biru
 01:01 Saat tidak ada yang menghentikan program
@@ -147,6 +153,8 @@ Questo video racconta i ring di protezione, i quattro livelli di privilegio che 
 Fonti: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Microsoft, Helping our customers through the CrowdStrike outage (2024); Microsoft Security, Windows security best practices for integrating and managing security tools (2024); Intel, 64 and IA-32 Architectures Software Developer's Manual, Volume 3; Schroeder and Saltzer, A Hardware Architecture for Implementing Protection Rings (Communications of the ACM, 1972); Google Project Zero, Reading privileged memory with a side-channel (2018); Red Hat, Speculative Execution Exploit Performance Impacts (2018); Riot Games, /dev/null: Anti-Cheat Kernel Driver (2020). Il numero di chiamate di sistema l'abbiamo misurato noi con strace.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-one-program-take-over-your-computer/
 
 CAPITOLI
 00:00 8,5 milioni di schermate blu
@@ -187,6 +195,8 @@ Quellen: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Micr
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-one-program-take-over-your-computer/
+
 KAPITEL
 00:00 8,5 Millionen Bluescreens
 01:01 Als nichts ein Programm aufhielt
@@ -225,6 +235,8 @@ Film omawia pierścienie ochrony, cztery poziomy uprawnień, które Intel wprowa
 Źródła: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Microsoft, Helping our customers through the CrowdStrike outage (2024); Microsoft Security, Windows security best practices for integrating and managing security tools (2024); Intel, 64 and IA-32 Architectures Software Developer's Manual, Volume 3; Schroeder and Saltzer, A Hardware Architecture for Implementing Protection Rings (Communications of the ACM, 1972); Google Project Zero, Reading privileged memory with a side-channel (2018); Red Hat, Speculative Execution Exploit Performance Impacts (2018); Riot Games, /dev/null: Anti-Cheat Kernel Driver (2020). Liczbę wywołań systemowych zmierzyliśmy sami narzędziem strace.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-one-program-take-over-your-computer/
 
 ROZDZIAŁY
 00:00 8,5 miliona niebieskich ekranów
@@ -265,6 +277,8 @@ Fontes: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Micro
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-one-program-take-over-your-computer/
+
 CAPÍTULOS
 00:00 8,5 milhões de telas azuis
 01:01 Quando nada impedia um programa
@@ -303,6 +317,8 @@ Bu video koruma halkalarını anlatıyor: Intel'in 1982'de 80286 ile getirdiği 
 Kaynaklar: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Microsoft, Helping our customers through the CrowdStrike outage (2024); Microsoft Security, Windows security best practices for integrating and managing security tools (2024); Intel, 64 and IA-32 Architectures Software Developer's Manual, Volume 3; Schroeder and Saltzer, A Hardware Architecture for Implementing Protection Rings (Communications of the ACM, 1972); Google Project Zero, Reading privileged memory with a side-channel (2018); Red Hat, Speculative Execution Exploit Performance Impacts (2018); Riot Games, /dev/null: Anti-Cheat Kernel Driver (2020). Sistem çağrısı sayılarını strace ile kendimiz ölçtük.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-one-program-take-over-your-computer/
 
 BÖLÜMLER
 00:00 8,5 milyon mavi ekran
@@ -343,6 +359,8 @@ Licences: creativecommons.org/licenses/by-sa/4.0, creativecommons.org/licenses/b
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-one-program-take-over-your-computer/
+
 РОЗДІЛИ
 00:00 8,5 мільйона синіх екранів
 01:01 Коли ніщо не зупиняло програму
@@ -381,6 +399,8 @@ Video này giải thích các ring bảo vệ, bốn cấp đặc quyền mà In
 Nguồn: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Microsoft, Helping our customers through the CrowdStrike outage (2024); Microsoft Security, Windows security best practices for integrating and managing security tools (2024); Intel, 64 and IA-32 Architectures Software Developer's Manual, Volume 3; Schroeder and Saltzer, A Hardware Architecture for Implementing Protection Rings (Communications of the ACM, 1972); Google Project Zero, Reading privileged memory with a side-channel (2018); Red Hat, Speculative Execution Exploit Performance Impacts (2018); Riot Games, /dev/null: Anti-Cheat Kernel Driver (2020). Số lời gọi hệ thống do chúng tôi tự đo bằng strace.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-one-program-take-over-your-computer/
 
 CHƯƠNG
 00:00 8,5 triệu màn hình xanh
@@ -421,6 +441,8 @@ Zdroje: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Micro
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-one-program-take-over-your-computer/
+
 KAPITOLY
 00:00 8,5 milionu modrých obrazovek
 01:01 Když program nic nezastavilo
@@ -460,6 +482,8 @@ Fuentes: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Micr
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-one-program-take-over-your-computer/
+
 CAPÍTULOS
 00:00 8,5 millones de pantallas azules
 01:01 Cuando nada detenía a un programa
@@ -498,6 +522,8 @@ Videon går igenom skyddsringarna, de fyra behörighetsnivåer som Intel införd
 Källor: CrowdStrike, Channel File 291 Incident Root Cause Analysis (2024); Microsoft, Helping our customers through the CrowdStrike outage (2024); Microsoft Security, Windows security best practices for integrating and managing security tools (2024); Intel, 64 and IA-32 Architectures Software Developer's Manual, Volume 3; Schroeder and Saltzer, A Hardware Architecture for Implementing Protection Rings (Communications of the ACM, 1972); Google Project Zero, Reading privileged memory with a side-channel (2018); Red Hat, Speculative Execution Exploit Performance Impacts (2018); Riot Games, /dev/null: Anti-Cheat Kernel Driver (2020). Antalet systemanrop har vi själva mätt med strace.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-one-program-take-over-your-computer/
 
 KAPITEL
 00:00 8,5 miljoner blå skärmar

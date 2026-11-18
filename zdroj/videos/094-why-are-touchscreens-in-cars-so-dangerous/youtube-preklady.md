@@ -42,6 +42,8 @@ Tutkijat ovat mitanneet, kauanko siihen menee. Ruotsalainen autolehti otti aikaa
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 LUVUT
 00:00 Nuppi ja valikko
 01:06 Kyse ei ole itse näytöstä
@@ -78,6 +80,8 @@ Pourquoi les écrans tactiles en voiture sont-ils si dangereux ?
 Des chercheurs ont mesuré combien de temps cela prend. Un magazine automobile suédois a chronométré les mêmes tâches simples à 110 km/h : une voiture a eu besoin d'environ 10 secondes, une autre de près de 45. Alors, si les constructeurs savent tout cela, pourquoi presque toutes les voitures neuves déplacent-elles leurs commandes sur un écran ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-are-touchscreens-in-cars-so-dangerous/
 
 CHAPITRES
 00:00 Une molette et un menu
@@ -116,6 +120,8 @@ Para peneliti sudah mengukur berapa lama waktu yang dibutuhkan. Sebuah majalah m
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 BAB
 00:00 Kenop dan menu
 01:06 Masalahnya bukan layarnya sendiri
@@ -152,6 +158,8 @@ A 50 km/h percorri 14 metri per ogni secondo in cui distogli lo sguardo dalla st
 I ricercatori hanno misurato quanto tempo ci vuole. Una rivista svedese di auto ha cronometrato gli stessi compiti semplici a 110 km/h: un'auto ci ha messo circa 10 secondi, un'altra quasi 45. Allora, se le case automobilistiche sanno tutto questo, perché quasi ogni auto nuova sta spostando i comandi su uno schermo?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-are-touchscreens-in-cars-so-dangerous/
 
 CAPITOLI
 00:00 Una manopola e un menu
@@ -190,6 +198,8 @@ Forscher haben gemessen, wie lange das dauert. Eine schwedische Autozeitschrift 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 KAPITEL
 00:00 Ein Drehknopf und ein Menü
 01:06 Es liegt nicht am Bildschirm selbst
@@ -226,6 +236,8 @@ Przy 50 km/h każda sekunda, w której nie patrzysz na drogę, to 14 metrów. W 
 Badacze zmierzyli, ile to trwa. Szwedzki magazyn motoryzacyjny zmierzył czas tych samych prostych czynności przy 110 km/h: w jednym aucie zajęły około 10 sekund, w innym prawie 45. Skoro producenci aut to wszystko wiedzą, to dlaczego prawie każde nowe auto przenosi sterowanie na ekran?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-are-touchscreens-in-cars-so-dangerous/
 
 ROZDZIAŁY
 00:00 Pokrętło i menu
@@ -264,6 +276,8 @@ Pesquisadores mediram quanto tempo isso leva. Uma revista sueca de carros cronom
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 CAPÍTULOS
 00:00 Um botão giratório e um menu
 01:06 Não é a tela em si
@@ -300,6 +314,8 @@ Saatte 50 km hızda, gözünüzü yoldan ayırdığınız her saniye 14 metre de
 Araştırmacılar bunun ne kadar sürdüğünü ölçtü. Bir İsveç otomobil dergisi aynı basit işler için saatte 110 km hızda süre tuttu: bir araba yaklaşık 10 saniyeye ihtiyaç duydu, bir diğeri neredeyse 45 saniyeye. Peki otomobil üreticileri bunların hepsini biliyorsa, neden neredeyse her yeni araba kumandalarını ekrana taşıyor?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-are-touchscreens-in-cars-so-dangerous/
 
 BÖLÜMLER
 00:00 Bir düğme ve bir menü
@@ -338,6 +354,8 @@ Licences: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 РОЗДІЛИ
 00:00 Регулятор і меню
 01:06 Справа не в самому екрані
@@ -374,6 +392,8 @@ Vì sao màn hình cảm ứng trên ô tô lại nguy hiểm đến vậy?
 Các nhà nghiên cứu đã đo xem việc đó mất bao lâu. Một tạp chí ô tô Thụy Điển đã bấm giờ cho cùng những việc đơn giản ấy ở tốc độ 110 km/h: một chiếc xe cần khoảng 10 giây, chiếc khác gần 45 giây. Vậy nếu các hãng xe biết hết những điều này, tại sao gần như mọi xe mới đều dồn các nút điều khiển lên màn hình?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-are-touchscreens-in-cars-so-dangerous/
 
 CHƯƠNG
 00:00 Núm vặn và menu
@@ -412,6 +432,8 @@ Výzkumníci změřili, jak dlouho to trvá. Švédský autočasopis to vyzkouš
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 KAPITOLY
 00:00 Knoflík a menu
 01:06 Nejde o obrazovku samotnou
@@ -449,6 +471,8 @@ Los investigadores han medido cuánto tiempo lleva eso. Una revista sueca de coc
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 CAPÍTULOS
 00:00 Un mando giratorio y un menú
 01:06 No es la pantalla en sí
@@ -485,6 +509,8 @@ I 50 km/h kör du 14 meter för varje sekund du tittar bort från vägen. I en g
 Forskare har mätt hur lång tid det tar. En svensk biltidning tog tid på samma enkla uppgifter i 110 km/h: en bil behövde ungefär 10 sekunder, en annan nästan 45. Så om biltillverkarna vet allt det här, varför flyttar nästan varje ny bil sina reglage till en skärm?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-are-touchscreens-in-cars-so-dangerous/
 
 KAPITEL
 00:00 Ett vred och en meny

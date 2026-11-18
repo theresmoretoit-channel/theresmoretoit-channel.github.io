@@ -59,6 +59,8 @@ Mikään tästä ei keksinyt häpeää. Ihmiset olivat välittäneet hajusta vuo
 
 Ja joku tuolla lukee sitä allekirjoitusta. Tartutaan sanaan feromoni; ihmisestä ei ole löydetty yhtäkään. Koira ei tarvitse sellaista. Neljä koiraa Belfastissa löysi stressinäytteen saman ihmisen hengityksestä ja hiestä 94 prosentissa 720 kokeesta. Koiralle se ei ole mikään vika: tältä tämä päivä vain haisee.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-humans-smell/
+
 Luvut
 0:00 Hikesi ei haise
 1:25 Muutama molekyyli miljardia kohti
@@ -106,6 +108,8 @@ Alors pourquoi tout cela nous dégoûte-t-il ? En partie pour de bonnes raisons 
 Rien de tout cela n'a inventé la honte. Les gens se souciaient de l'odeur depuis des siècles. Ce que 1919 a inventé, c'est la vente.
 
 Et quelqu'un, dehors, lit cette signature. On attrape le mot phéromone ; chez l'humain, on n'en a jamais trouvé. Un chien n'en a pas besoin. Quatre chiens de Belfast ont trouvé l'échantillon de stress, prélevé sur l'haleine et la sueur d'une même personne, dans quatre-vingt-quatorze pour cent de sept cent vingt essais. Pour le chien, ce n'est pas un défaut : c'est simplement l'odeur du jour.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-humans-smell/
 
 Chapitres
 0:00 Votre sueur ne sent rien
@@ -155,6 +159,8 @@ Tidak satu pun dari itu menciptakan rasa malu. Orang sudah mempersoalkan bau sel
 
 Dan ada yang membaca tanda tangan itu di luar sana. Orang menyebut kata feromon; pada manusia tak pernah ditemukan. Anjing tidak membutuhkannya. Empat anjing di Belfast menemukan sampel stres dari napas dan keringat orang yang sama pada sembilan puluh empat persen dari tujuh ratus dua puluh percobaan. Bagi anjing itu bukan kekurangan: itu sekadar bau hari ini.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-humans-smell/
+
 Bab
 0:00 Keringat Anda tidak berbau
 1:25 Beberapa molekul dalam tiap miliar
@@ -202,6 +208,8 @@ Perché allora tutto questo ci disgusta? In parte per buone ragioni: marciume, r
 Niente di tutto ciò ha inventato la vergogna. Le persone si preoccupavano dell'odore da secoli. Ciò che il 1919 ha inventato è la vendita.
 
 E qualcuno là fuori sta leggendo quella firma. Si ricorre alla parola feromone; nell'uomo non ne è mai stato trovato. Un cane non ne ha bisogno. Quattro cani a Belfast hanno trovato il campione da stress, respiro e sudore della stessa persona, nel novantaquattro per cento di settecentoventi prove. Per il cane non è un difetto: è semplicemente l'odore di oggi.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-humans-smell/
 
 Capitoli
 0:00 Il tuo sudore non ha odore
@@ -251,6 +259,8 @@ Nichts davon hat die Scham erfunden. Menschen störten sich seit Jahrhunderten a
 
 Und jemand da draußen liest diese Signatur. Man greift zum Wort Pheromon; beim Menschen wurde nie eines gefunden. Ein Hund braucht keines. Vier Hunde in Belfast erkannten die gestresste Probe aus Atem und Schweiß derselben Person in vierundneunzig Prozent von siebenhundertzwanzig Versuchen. Für den Hund ist das kein Makel — so riecht dieser Tag eben.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-humans-smell/
+
 Kapitel
 0:00 Ihr Schweiß riecht nicht
 1:25 Ein paar Moleküle pro Milliarde
@@ -298,6 +308,8 @@ Dlaczego więc nas to brzydzi? Po części nie bez powodu: gnicie, odpady, zaka�
 Nic z tego nie wymyśliło wstydu. Ludzie przejmowali się zapachem od stuleci. Rok 1919 wymyślił sprzedaż.
 
 I ktoś tam ten podpis czyta. Sięgamy po słowo feromon; u człowieka nie znaleziono żadnego. Pies żadnego nie potrzebuje. Cztery psy w Belfaście znalazły próbkę stresu — oddech i pot tego samego człowieka — w dziewięćdziesięciu czterech procentach z siedmiuset dwudziestu prób. Dla psa to żadna wada: po prostu tak pachnie dzisiaj.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-humans-smell/
 
 Rozdziały
 0:00 Twój pot nie pachnie
@@ -347,6 +359,8 @@ Nada disso inventou a vergonha. As pessoas se incomodavam com o cheiro havia sé
 
 E alguém lá fora está lendo essa assinatura. Recorremos à palavra feromônio; em humanos nunca se achou nenhum. Um cachorro não precisa de nenhum. Quatro cães em Belfast acharam a amostra de estresse do hálito e do suor da mesma pessoa em noventa e quatro por cento de setecentos e vinte testes. Para o cão, nada disso é um defeito: é simplesmente o cheiro de hoje.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-humans-smell/
+
 Capítulos
 0:00 Seu suor não tem cheiro
 1:25 Poucas moléculas em cada bilhão
@@ -394,6 +408,8 @@ Peki bütün bunlar bizi neden iğrendiriyor? Kısmen haklı bir nedenle: çür�
 Bunların hiçbiri utancı icat etmedi. İnsanlar yüzyıllardır kokuyu dert ediyordu. 1919'un icadı satıştı.
 
 Ve dışarıda biri o imzayı okuyor. İnsanlar feromon sözcüğüne sarılır; insanda hiç bulunmadı. Köpeğin buna ihtiyacı yok. Belfast'ta dört köpek, aynı kişinin nefesi ve terinden alınan stres örneğini yedi yüz yirmi denemenin yüzde doksan dördünde buldu. Köpek için bu bir kusur değil: bugün sadece böyle kokuyor.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-humans-smell/
 
 Bölümler
 0:00 Teriniz kokmaz
@@ -443,6 +459,8 @@ Bu videodaki arşiv görseli kamu malıdır.
 
 І хтось там цей підпис читає. Люди хапаються за слово феромон; у людини не знайшли жодного. Собаці жодного не треба. Чотири собаки в Белфасті знайшли стресовий зразок — дихання і піт однієї людини — у дев'яноста чотирьох відсотках із семисот двадцяти спроб. Для собаки це не вада: просто так пахне сьогодні.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-humans-smell/
+
 Розділи
 0:00 Ваш піт не пахне
 1:25 Кілька молекул на мільярд
@@ -490,6 +508,8 @@ Vậy tại sao tất cả những điều đó khiến ta ghê tởm? Một ph�
 Không điều nào trong đó phát minh ra nỗi xấu hổ. Người ta đã bận tâm về mùi suốt nhiều thế kỷ. Thứ mà năm 1919 phát minh ra chính là việc bán hàng.
 
 Và ngoài kia có ai đó đang đọc chữ ký ấy. Người ta vin vào từ pheromone; ở người chưa từng tìm thấy cái nào. Một con chó không cần cái nào. Bốn con chó ở Belfast tìm ra mẫu căng thẳng từ hơi thở và mồ hôi của cùng một người trong chín mươi tư phần trăm của bảy trăm hai mươi lượt thử. Với con chó, đó không phải lỗi lầm: đơn giản là hôm nay có mùi như vậy.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-humans-smell/
 
 Các chương
 0:00 Mồ hôi của bạn không có mùi
@@ -539,6 +559,8 @@ Nic z toho stud nevymyslelo. Lidé pach řešili staletí předtím. Rok 1919 vy
 
 A někdo ten podpis venku čte. Lidé sáhnou po slově feromon; u člověka se ale žádný nikdy nenašel. Pes žádný nepotřebuje. Čtyři psi v Belfastu našli stresovaný vzorek dechu a potu téhož člověka v devadesáti čtyřech procentech ze sedmi set dvaceti pokusů. Pro psa to není žádné selhání: prostě takhle je dnešek cítit.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-humans-smell/
+
 Kapitoly
 0:00 Váš pot nepáchne
 1:25 Pár molekul na každou miliardu
@@ -587,6 +609,8 @@ Nada de eso inventó la vergüenza. La gente se preocupaba por el olor desde hac
 
 Y alguien ahí fuera está leyendo esa firma. Se recurre a la palabra feromona; en humanos no se ha hallado ninguna. Un perro no necesita ninguna. Cuatro perros en Belfast encontraron la muestra de estrés del aliento y el sudor de una misma persona en el noventa y cuatro por ciento de setecientas veinte pruebas. Para el perro eso no es un defecto: es a lo que huele hoy, sin más.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-humans-smell/
+
 Capítulos
 0:00 Tu sudor no huele
 1:25 Unas pocas moléculas por cada mil millones
@@ -634,6 +658,8 @@ Varför äcklar då allt detta oss? Delvis med goda skäl: röta, avfall, infekt
 Inget av det uppfann skammen. Människor hade brytt sig om lukten i århundraden. Det 1919 uppfann var försäljningen.
 
 Och någon där ute läser den signaturen. Man griper efter ordet feromon; hos människan har inget hittats. En hund behöver inget. Fyra hundar i Belfast hittade stressprovet ur andedräkt och svett från samma person i nittiofyra procent av sjuhundratjugo försök. För hunden är det inget fel — så luktar den här dagen, helt enkelt.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-humans-smell/
 
 Kapitel
 0:00 Din svett luktar inte

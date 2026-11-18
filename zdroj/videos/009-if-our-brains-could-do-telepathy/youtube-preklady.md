@@ -48,6 +48,8 @@ Vastaus osoittautuu paljon suuremmaksi kuin „vahvemmat aivoaallot". Aivosi tod
 
 Käy se kunnolla läpi, ja telepatia lakkaa olemasta yksi kyky ja muuttuu kokonaiseksi viestintäjärjestelmäksi — lähetin, vastaanotin, rakenne, purkaja, suodatin ja osoite. Se ei ole muutos yhteen geeniin. Se on kokonaan uusi aisti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/if-our-brains-could-do-telepathy/
+
 LUVUT
 00:00 Kaksi ihmistä, yksi ajatus
 00:58 Aivot jo lähettävät
@@ -145,6 +147,8 @@ Déroulez cela correctement et la télépathie cesse d'être une capacité pour
 devenir tout un système de communication — un émetteur, un récepteur, une
 structure, un décodeur, un filtre et une adresse. Ce n'est pas une
 modification d'un gène. C'est un sens entièrement nouveau.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/if-our-brains-could-do-telepathy/
 
 CHAPITRES
 00:00 Deux personnes, une pensée
@@ -245,6 +249,8 @@ Jawabannya ternyata jauh lebih besar daripada "gelombang otak yang lebih kuat". 
 
 Telusuri ini dengan benar dan telepati berhenti menjadi satu kemampuan, lalu menjadi sebuah sistem komunikasi utuh — pemancar, penerima, struktur, pengurai, penyaring, dan alamat. Itu bukan perubahan pada satu gen. Itu sebuah indra yang sama sekali baru.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/if-our-brains-could-do-telepathy/
+
 BAB
 00:00 Dua orang, satu pikiran
 00:58 Otak memang sudah memancarkan
@@ -342,6 +348,8 @@ Se lo si srotola per bene, la telepatia smette di essere una capacità e
 diventa un intero sistema di comunicazione — un trasmettitore, un
 ricevitore, una struttura, un decodificatore, un filtro e un indirizzo.
 Non è la modifica di un gene. È un senso completamente nuovo.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/if-our-brains-could-do-telepathy/
 
 CAPITOLI
 00:00 Due persone, un pensiero
@@ -455,6 +463,8 @@ und wird zu einem ganzen Kommunikationssystem — Sender, Empfänger,
 Struktur, Decoder, Filter und Adresse. Das ist keine Änderung an einem
 Gen. Das ist ein völlig neuer Sinn.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/if-our-brains-could-do-telepathy/
+
 KAPITEL
 00:00 Zwei Menschen, ein Gedanke
 00:58 Das Gehirn sendet bereits
@@ -566,6 +576,8 @@ Rozłóż to porządnie, a telepatia przestaje być jedną zdolnością i staje
 się całym systemem łączności — nadajnikiem, odbiornikiem, strukturą,
 dekoderem, filtrem i adresem. To nie zmiana w jednym genie. To zupełnie
 nowy zmysł.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/if-our-brains-could-do-telepathy/
 
 ROZDZIAŁY
 00:00 Dwoje ludzi, jedna myśl
@@ -679,6 +691,8 @@ vira um sistema de comunicação inteiro — transmissor, receptor,
 estrutura, decodificador, filtro e endereço. Isso não é mudar um gene.
 Isso é um sentido inteiramente novo.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/if-our-brains-could-do-telepathy/
+
 CAPÍTULOS
 00:00 Duas pessoas, um pensamento
 00:58 O cérebro já transmite
@@ -776,6 +790,8 @@ Cevap, "daha güçlü beyin dalgaları"ndan çok daha büyük çıkıyor. Beynin
 
 Konuyu düzgünce ele al; telepati tek bir yetenek olmaktan çıkıp eksiksiz bir iletişim sistemine dönüşüyor — verici, alıcı, yapı, çözücü, süzgeç ve adres. Bu, tek bir gendeki değişiklik değil. Bu, bütünüyle yeni bir duyu.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/if-our-brains-could-do-telepathy/
+
 BÖLÜMLER
 00:00 İki insan, tek düşünce
 00:58 Beyin zaten yayın yapıyor
@@ -858,6 +874,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Розбери це як слід — і телепатія перестає бути однією здібністю та стає цілою системою зв’язку: передавач, приймач, структура, декодер, фільтр і адреса. Це не зміна в одному гені. Це цілком нове чуття.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/if-our-brains-could-do-telepathy/
+
 РОЗДІЛИ
 00:00 Двоє людей, одна думка
 00:58 Мозок уже передає
@@ -939,6 +957,8 @@ Chưa ai từng chứng minh một cách đáng tin rằng não người có th�
 Câu trả lời hóa ra lớn hơn nhiều so với "sóng não mạnh hơn". Não bạn đúng là có tạo ra hoạt động điện từ — ta đo được nó bằng điện cực đặt trên da đầu. Nhưng một máy phát mà chẳng ai thu được thì chỉ là hòn đá nằm cạnh cái radio. Và ngay cả một máy thu hoàn hảo cũng chẳng giúp được gì, bởi một ý nghĩ không phải là tín hiệu: trong đầu bạn không có một nơ-ron riêng lẻ nào nói "quả táo".
 
 Hãy lần theo cho đến nơi, và thần giao cách cảm thôi là một khả năng đơn lẻ mà trở thành cả một hệ thống liên lạc — máy phát, máy thu, cấu trúc, bộ giải mã, bộ lọc và địa chỉ. Đó không phải thay đổi ở một gene. Đó là cả một giác quan mới.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/if-our-brains-could-do-telepathy/
 
 CÁC CHƯƠNG
 00:00 Hai người, một ý nghĩ
@@ -1035,6 +1055,8 @@ Když se to promyslí pořádně, přestane být telepatie jednou schopností
 a stane se z ní celý komunikační systém — vysílač, přijímač, struktura,
 dekodér, filtr a adresa. To není změna jednoho genu. To je úplně nový
 smysl.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/if-our-brains-could-do-telepathy/
 
 KAPITOLY
 00:00 Dva lidé, jedna myšlenka
@@ -1133,6 +1155,8 @@ Si lo recorres bien, la telepatía deja de ser una capacidad y se
 convierte en todo un sistema de comunicación — emisor, receptor,
 estructura, decodificador, filtro y dirección. Eso no es cambiar un gen.
 Eso es un sentido entero nuevo.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/if-our-brains-could-do-telepathy/
 
 CAPÍTULOS
 00:00 Dos personas, un pensamiento
@@ -1247,6 +1271,8 @@ Går man igenom det ordentligt slutar telepati vara en förmåga och blir
 ett helt kommunikationssystem — sändare, mottagare, struktur, avkodare,
 filter och adress. Det är ingen ändring i en gen. Det är ett helt nytt
 sinne.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/if-our-brains-could-do-telepathy/
 
 KAPITEL
 00:00 Två människor, en tanke

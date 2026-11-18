@@ -66,6 +66,8 @@ Viktor Baranets puhui Radio Komsomolskaja Pravdassa 21. syyskuuta 2026. Tallenne
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/who-really-shot-down-mh17/
+
 LUVUT
 00:00 Lento MH17
 00:18 Pätkä venäläisestä radiosta
@@ -104,6 +106,8 @@ Sources : Dutch Safety Board, Crash of Malaysia Airlines flight MH17, rapport fi
 Viktor Baranets s'est exprimé sur Radio Komsomolskaïa Pravda le 21 septembre 2026. Cet enregistrement a depuis été retiré et nous n'avons pas entendu l'audio nous-mêmes ; ses propos sont cités d'après la transcription publiée par Agentstvo (Telegram, @agentstvonews, 11 octobre 2026).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/who-really-shot-down-mh17/
 
 CHAPITRES
 00:00 Le vol MH17
@@ -144,6 +148,8 @@ Viktor Baranets berbicara di Radio Komsomolskaya Pravda pada 21 September 2026. 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/who-really-shot-down-mh17/
+
 BAB
 00:00 Penerbangan MH17
 00:18 Klip dari radio Rusia
@@ -182,6 +188,8 @@ Fonti: Dutch Safety Board, Crash of Malaysia Airlines flight MH17, rapporto fina
 Viktor Baranets ha parlato a Radio Komsomolskaja Pravda il 21 settembre 2026. Quella registrazione è stata poi rimossa e noi non abbiamo ascoltato l'audio; le sue parole sono citate dalla trascrizione pubblicata da Agentstvo (Telegram, @agentstvonews, 11 ottobre 2026).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/who-really-shot-down-mh17/
 
 CAPITOLI
 00:00 Il volo MH17
@@ -222,6 +230,8 @@ Viktor Baranez sprach am 21. September 2026 bei Radio Komsomolskaja Prawda. Die 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/who-really-shot-down-mh17/
+
 KAPITEL
 00:00 Flug MH17
 00:18 Ein Mitschnitt aus dem russischen Radio
@@ -260,6 +270,8 @@ Czy to było przyznanie się, na które czekali śledczy? Żeby to ocenić, musi
 Wiktor Baraniec mówił w Radiu Komsomolskaja Prawda 21 września 2026 roku. Nagranie zostało później usunięte i sami nie słyszeliśmy dźwięku; jego słowa cytujemy według transkrypcji opublikowanej przez Agentstvo (Telegram, @agentstvonews, 11 października 2026).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/who-really-shot-down-mh17/
 
 ROZDZIAŁY
 00:00 Lot MH17
@@ -300,6 +312,8 @@ Viktor Baranets falou na Rádio Komsomolskaya Pravda em 21 de setembro de 2026. 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/who-really-shot-down-mh17/
+
 CAPÍTULOS
 00:00 O voo MH17
 00:18 Um trecho de uma rádio russa
@@ -338,6 +352,8 @@ Kaynaklar: Dutch Safety Board, Crash of Malaysia Airlines flight MH17, nihai rap
 Viktor Baranets, 21 Eylül 2026'da Radio Komsomolskaya Pravda'da konuştu. Bu kayıt daha sonra yayından kaldırıldı ve sesi kendimiz dinlemedik; sözleri, Agentstvo'nun yayımladığı dökümden alıntılanmıştır (Telegram, @agentstvonews, 11 Ekim 2026).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/who-really-shot-down-mh17/
 
 BÖLÜMLER
 00:00 MH17 sefer sayılı uçuş
@@ -378,6 +394,8 @@ Lisanslar: creativecommons.org/licenses/by/4.0, creativecommons.org/licenses/by-
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/who-really-shot-down-mh17/
+
 РОЗДІЛИ
 00:00 Рейс MH17
 00:18 Запис із російського радіо
@@ -416,6 +434,8 @@ Nguồn: Dutch Safety Board, Crash of Malaysia Airlines flight MH17, báo cáo c
 Viktor Baranets phát biểu trên Đài phát thanh Komsomolskaya Pravda ngày 21 tháng 9 năm 2026. Bản ghi âm đó sau này đã bị gỡ xuống và chính chúng tôi chưa nghe được âm thanh; lời ông được trích theo bản chép lại do Agentstvo công bố (Telegram, @agentstvonews, 11 tháng 10 năm 2026).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/who-really-shot-down-mh17/
 
 CHƯƠNG
 00:00 Chuyến bay MH17
@@ -456,6 +476,8 @@ Viktor Baranec vystoupil v Rádiu Komsomolskaja pravda 21. září 2026. Záznam
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/who-really-shot-down-mh17/
+
 KAPITOLY
 00:00 Let MH17
 00:18 Nahrávka z ruského rozhlasu
@@ -495,6 +517,8 @@ Víktor Baránets habló en Radio Komsomólskaya Pravda el 21 de septiembre de 2
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/who-really-shot-down-mh17/
+
 CAPÍTULOS
 00:00 El vuelo MH17
 00:18 Un fragmento de una emisión de radio rusa
@@ -533,6 +557,8 @@ Källor: Dutch Safety Board, Crash of Malaysia Airlines flight MH17, slutrapport
 Viktor Baranets talade i Radio Komsomolskaja Pravda den 21 september 2026. Inspelningen har sedan dess tagits bort och vi har inte själva hört ljudet; hans ord citeras efter den utskrift som Agentstvo publicerade (Telegram, @agentstvonews, 11 oktober 2026).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/who-really-shot-down-mh17/
 
 KAPITEL
 00:00 Flyg MH17

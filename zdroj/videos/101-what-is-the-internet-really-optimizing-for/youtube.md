@@ -61,6 +61,8 @@ YouTube: Creator Blog (2012); Covington, Adams and Sargin, RecSys 2016; Goodrow,
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-is-the-internet-really-optimizing-for/
+
 CHAPTERS
 00:00 A long video and a short one
 00:55 What can the system see?

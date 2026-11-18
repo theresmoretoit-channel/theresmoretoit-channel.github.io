@@ -49,6 +49,8 @@ Entä jos he eivät olisi olleet? Vuoden 2023 kyselyssä lähes puolet amerikkal
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-would-passengers-land-an-airliner/
+
 LUVUT
 00:00 Dubaista Tel Aviviin
 00:54 Osaisitko laskeutua?
@@ -91,6 +93,8 @@ En septembre 2026, le copilote d'un Boeing 737 de flydubai a attaqué le command
 Et s'ils n'avaient pas été là ? Dans un sondage de 2023, près de la moitié des hommes américains disaient pouvoir poser un avion de ligne avec la seule aide du contrôle aérien. Un pilote de ligne estimait leurs chances à presque zéro. Que devrait vraiment faire une cabine pleine de passagers pour ramener un avion de ligne au sol ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-would-passengers-land-an-airliner/
 
 CHAPITRES
 00:00 De Dubaï à Tel-Aviv
@@ -135,6 +139,8 @@ Jadi, bagaimana kalau mereka tidak ada? Dalam survei tahun 2023, hampir separuh 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-would-passengers-land-an-airliner/
+
 BAB
 00:00 Dari Dubai ke Tel Aviv
 00:54 Bisakah kamu mendaratkannya?
@@ -177,6 +183,8 @@ A settembre 2026, il copilota di un Boeing 737 di flydubai ha aggredito il coman
 E se non ci fossero stati? In un sondaggio del 2023, quasi metà degli uomini americani diceva di saper far atterrare un aereo di linea con il solo aiuto del controllo del traffico aereo. Un pilota di linea ha stimato le loro probabilità quasi a zero. Che cosa dovrebbe fare davvero una cabina piena di passeggeri per riportare a terra un aereo di linea?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-would-passengers-land-an-airliner/
 
 CAPITOLI
 00:00 Da Dubai a Tel Aviv
@@ -221,6 +229,8 @@ Was also, wenn sie nicht da gewesen wären? In einer Umfrage von 2023 sagte fast
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-would-passengers-land-an-airliner/
+
 KAPITEL
 00:00 Von Dubai nach Tel Aviv
 00:54 Könntest du es landen?
@@ -263,6 +273,8 @@ We wrześniu 2026 roku drugi pilot Boeinga 737 linii flydubai zaatakował kapita
 A gdyby ich tam nie było? W ankiecie z 2023 roku prawie połowa amerykańskich mężczyzn twierdziła, że wylądowałaby samolotem pasażerskim tylko z pomocą kontroli ruchu lotniczego. Pewien pilot liniowy ocenił ich szanse na prawie zero. Co właściwie musieliby zrobić pasażerowie wypełniający kabinę, żeby sprowadzić samolot pasażerski na ziemię?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-would-passengers-land-an-airliner/
 
 ROZDZIAŁY
 00:00 Z Dubaju do Tel Awiwu
@@ -307,6 +319,8 @@ E se eles não estivessem lá? Numa pesquisa de 2023, quase metade dos homens am
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-would-passengers-land-an-airliner/
+
 CAPÍTULOS
 00:00 De Dubai a Tel Aviv
 00:54 Você conseguiria pousar?
@@ -349,6 +363,8 @@ Eylül 2026'da bir flydubai Boeing 737'sinin yardımcı pilotu, kaptana kokpitte
 Peki ya orada olmasalardı? 2023'teki bir ankette Amerikalı erkeklerin neredeyse yarısı, yalnızca hava trafik kontrolünün yardımıyla bir yolcu uçağını indirebileceğini söyledi. Bir havayolu pilotu ise şanslarının neredeyse sıfır olduğunu söyledi. Kabini dolduran yolcular, bir yolcu uçağını yere indirmek için gerçekte ne yapmak zorunda kalırdı?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-would-passengers-land-an-airliner/
 
 BÖLÜMLER
 00:00 Dubai'den Tel Aviv'e
@@ -393,6 +409,8 @@ Licences: creativecommons.org/licenses/by-sa/2.0, /by-sa/3.0, /by-sa/4.0, /by/2.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-would-passengers-land-an-airliner/
+
 РОЗДІЛИ
 00:00 З Дубая до Тель-Авіва
 00:54 А ти зміг би посадити?
@@ -435,6 +453,8 @@ Tháng 9 năm 2026, cơ phó của một chiếc Boeing 737 của flydubai tấn
 Vậy nếu họ không có mặt thì sao? Trong một khảo sát năm 2023, gần một nửa đàn ông Mỹ nói họ có thể hạ cánh máy bay chở khách chỉ với sự trợ giúp của kiểm soát không lưu. Một phi công hãng hàng không đánh giá cơ hội của họ gần như bằng không. Cả một khoang đầy hành khách thực sự sẽ phải làm gì để đưa một chiếc máy bay chở khách xuống đất?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-would-passengers-land-an-airliner/
 
 CHƯƠNG
 00:00 Từ Dubai đến Tel Aviv
@@ -479,6 +499,8 @@ Co kdyby tam nebyli? V průzkumu z roku 2023 skoro polovina amerických mužů t
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-would-passengers-land-an-airliner/
+
 KAPITOLY
 00:00 Z Dubaje do Tel Avivu
 00:54 Přistál bys s ním?
@@ -522,6 +544,8 @@ En septiembre de 2026, el copiloto de un Boeing 737 de flydubai atacó al capit�
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-would-passengers-land-an-airliner/
+
 CAPÍTULOS
 00:00 De Dubái a Tel Aviv
 00:54 ¿Podrías aterrizarlo?
@@ -564,6 +588,8 @@ I september 2026 anföll andrepiloten på en Boeing 737 från flydubai kaptenen 
 Så tänk om de inte hade varit där? I en undersökning från 2023 sa nästan hälften av alla amerikanska män att de skulle kunna landa ett passagerarplan med bara flygledningen till hjälp. En trafikpilot bedömde deras chanser som nästan noll. Vad skulle en kabin full av passagerare faktiskt behöva göra för att få ner ett trafikflygplan?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-would-passengers-land-an-airliner/
 
 KAPITEL
 00:00 Från Dubai till Tel Aviv

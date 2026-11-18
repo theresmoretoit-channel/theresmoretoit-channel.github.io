@@ -46,6 +46,8 @@ Lähteet: Linux-ytimen dokumentaatio, ext4 Data Structures and Algorithms ja ext
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-a-new-disk-need-formatting/
+
 LUVUT
 00:00 Tyhjä levy, joka ei ole tyhjä
 00:48 Paperikasa ja muistivihko
@@ -78,6 +80,8 @@ Les chiffres viennent du formatage en ext4 d’une image disque de 1 To avec le
 Sources : documentation du noyau Linux, ext4 Data Structures and Algorithms et le guide d’administration d’ext4 ; e2fsprogs (mke2fs, dumpe2fs, debugfs) ; documentation de btrfs-progs ; Bairavasundaram et al. (2008), An Analysis of Data Corruption in the Storage Stack, USENIX FAST.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-a-new-disk-need-formatting/
 
 CHAPITRES
 00:00 Un disque vide qui ne l’est pas
@@ -112,6 +116,8 @@ Sumber: dokumentasi kernel Linux, ext4 Data Structures and Algorithms dan pandua
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-a-new-disk-need-formatting/
+
 BAB
 00:00 Disk kosong yang ternyata tidak kosong
 00:48 Tumpukan kertas dan buku catatan
@@ -144,6 +150,8 @@ I numeri vengono dalla formattazione in ext4 di un’immagine disco da 1 TB con 
 Fonti: documentazione del kernel Linux, ext4 Data Structures and Algorithms e la guida di amministrazione di ext4; e2fsprogs (mke2fs, dumpe2fs, debugfs); documentazione di btrfs-progs; Bairavasundaram et al. (2008), An Analysis of Data Corruption in the Storage Stack, USENIX FAST.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-a-new-disk-need-formatting/
 
 CAPITOLI
 00:00 Un disco vuoto che non lo è
@@ -178,6 +186,8 @@ Quellen: Dokumentation des Linux-Kernels, ext4 Data Structures and Algorithms un
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-a-new-disk-need-formatting/
+
 KAPITEL
 00:00 Ein leeres Laufwerk, das nicht leer ist
 00:48 Ein Papierstapel und ein Notizbuch
@@ -210,6 +220,8 @@ Liczby pochodzą ze sformatowania obrazu dysku o pojemności 1 TB na ext4 z usta
 Źródła: dokumentacja jądra Linuksa, ext4 Data Structures and Algorithms i podręcznik administratora ext4; e2fsprogs (mke2fs, dumpe2fs, debugfs); dokumentacja btrfs-progs; Bairavasundaram et al. (2008), An Analysis of Data Corruption in the Storage Stack, USENIX FAST.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-a-new-disk-need-formatting/
 
 ROZDZIAŁY
 00:00 Pusty dysk, który pusty nie jest
@@ -244,6 +256,8 @@ Fontes: documentação do kernel Linux, ext4 Data Structures and Algorithms e o 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-a-new-disk-need-formatting/
+
 CAPÍTULOS
 00:00 Um disco vazio que não está vazio
 00:48 Uma pilha de papel e um caderno
@@ -276,6 +290,8 @@ Rakamlar, 1 TB'lık bir disk görüntüsünün varsayılan ayarlarla ext4 olarak
 Kaynaklar: Linux çekirdeği belgeleri, ext4 Data Structures and Algorithms ve ext4 yönetici kılavuzu; e2fsprogs (mke2fs, dumpe2fs, debugfs); btrfs-progs belgeleri; Bairavasundaram et al. (2008), An Analysis of Data Corruption in the Storage Stack, USENIX FAST.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-a-new-disk-need-formatting/
 
 BÖLÜMLER
 00:00 Boş olmayan boş disk
@@ -310,6 +326,8 @@ BÖLÜMLER
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-a-new-disk-need-formatting/
+
 РОЗДІЛИ
 00:00 Порожній диск, який не порожній
 00:48 Купа паперу і зошит
@@ -342,6 +360,8 @@ Các con số đến từ việc định dạng một ảnh đĩa 1 TB bằng ex
 Nguồn: tài liệu nhân Linux, ext4 Data Structures and Algorithms và hướng dẫn quản trị ext4; e2fsprogs (mke2fs, dumpe2fs, debugfs); tài liệu btrfs-progs; Bairavasundaram et al. (2008), An Analysis of Data Corruption in the Storage Stack, USENIX FAST.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-a-new-disk-need-formatting/
 
 CHƯƠNG
 00:00 Ổ đĩa trống mà không trống
@@ -376,6 +396,8 @@ Zdroje: dokumentace linuxového jádra, ext4 Data Structures and Algorithms a p�
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-a-new-disk-need-formatting/
+
 KAPITOLY
 00:00 Prázdný disk, který prázdný není
 00:48 Hromada papíru a sešit
@@ -409,6 +431,8 @@ Fuentes: documentación del kernel de Linux, ext4 Data Structures and Algorithms
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-a-new-disk-need-formatting/
+
 CAPÍTULOS
 00:00 Un disco vacío que no lo está
 00:48 Un montón de papeles y un cuaderno
@@ -441,6 +465,8 @@ Siffrorna kommer från en diskavbild på 1 TB som formaterats med ext4 med stand
 Källor: Linuxkärnans dokumentation, ext4 Data Structures and Algorithms och administratörsguiden för ext4; e2fsprogs (mke2fs, dumpe2fs, debugfs); dokumentationen för btrfs-progs; Bairavasundaram et al. (2008), An Analysis of Data Corruption in the Storage Stack, USENIX FAST.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-a-new-disk-need-formatting/
 
 KAPITEL
 00:00 En tom disk som inte är tom

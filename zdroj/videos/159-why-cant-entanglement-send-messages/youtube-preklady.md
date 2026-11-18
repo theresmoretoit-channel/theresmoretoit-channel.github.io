@@ -48,6 +48,8 @@ Lähteet: J. Yin et al., Satellite-based entanglement distribution over 1200 kil
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-entanglement-send-messages/
+
 LUVUT
 00:00 Kaksi fotonia 1 200 km:n päässä toisistaan
 00:57 Linja Marsiin?
@@ -86,6 +88,8 @@ Cette vidéo explique ce qu’est vraiment l’intrication, l’argument de John
 Sources : J. Yin et al., Satellite-based entanglement distribution over 1200 kilometers, Science 356, 1140 (2017); D. Salart et al., Testing the speed of 'spooky action at a distance', Nature 454, 861 (2008); J. S. Bell, Bertlmann's socks and the nature of reality, J. Physique Colloques 42, C2-41 (1981); N. D. Mermin, Is the moon there when nobody looks?, Physics Today 38(4), 38 (1985); S. J. Freedman and J. F. Clauser, PRL 28, 938 (1972); B. Hensen et al., Nature 526, 682 (2015); G. C. Ghirardi, A. Rimini, T. Weber, Lett. Nuovo Cimento 27, 293 (1980); S. Weinberg, PRL 62, 485 (1989); J. J. Bollinger et al., PRL 63, 1031 (1989); N. Gisin, Phys. Lett. A 143, 1 (1990); J. Polchinski, PRL 66, 397 (1991); C. H. Bennett et al., PRL 70, 1895 (1993); J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, PRL 23, 880 (1969); B. S. Cirel'son, Lett. Math. Phys. 4, 93 (1980); S. Popescu and D. Rohrlich, Found. Phys. 24, 379 (1994); G. Brassard et al., PRL 96, 250401 (2006); M. Pawłowski et al., Information causality as a physical principle, Nature 461, 1101 (2009); S. Popescu, Nonlocality beyond quantum mechanics, Nature Physics 10, 264 (2014).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-entanglement-send-messages/
 
 CHAPITRES
 00:00 Deux photons à 1 200 km l’un de l’autre
@@ -126,6 +130,8 @@ Sumber: J. Yin et al., Satellite-based entanglement distribution over 1200 kilom
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-entanglement-send-messages/
+
 BAB
 00:00 Dua foton, berjarak 1.200 km
 00:57 Saluran ke Mars?
@@ -164,6 +170,8 @@ Questo video spiega che cos’è davvero l’entanglement, l’argomento di John
 Fonti: J. Yin et al., Satellite-based entanglement distribution over 1200 kilometers, Science 356, 1140 (2017); D. Salart et al., Testing the speed of 'spooky action at a distance', Nature 454, 861 (2008); J. S. Bell, Bertlmann's socks and the nature of reality, J. Physique Colloques 42, C2-41 (1981); N. D. Mermin, Is the moon there when nobody looks?, Physics Today 38(4), 38 (1985); S. J. Freedman and J. F. Clauser, PRL 28, 938 (1972); B. Hensen et al., Nature 526, 682 (2015); G. C. Ghirardi, A. Rimini, T. Weber, Lett. Nuovo Cimento 27, 293 (1980); S. Weinberg, PRL 62, 485 (1989); J. J. Bollinger et al., PRL 63, 1031 (1989); N. Gisin, Phys. Lett. A 143, 1 (1990); J. Polchinski, PRL 66, 397 (1991); C. H. Bennett et al., PRL 70, 1895 (1993); J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, PRL 23, 880 (1969); B. S. Cirel'son, Lett. Math. Phys. 4, 93 (1980); S. Popescu and D. Rohrlich, Found. Phys. 24, 379 (1994); G. Brassard et al., PRL 96, 250401 (2006); M. Pawłowski et al., Information causality as a physical principle, Nature 461, 1101 (2009); S. Popescu, Nonlocality beyond quantum mechanics, Nature Physics 10, 264 (2014).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-entanglement-send-messages/
 
 CAPITOLI
 00:00 Due fotoni a 1.200 km di distanza
@@ -204,6 +212,8 @@ Quellen: J. Yin et al., Satellite-based entanglement distribution over 1200 kilo
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-entanglement-send-messages/
+
 KAPITEL
 00:00 Zwei Photonen, 1.200 km voneinander entfernt
 00:57 Eine Leitung zum Mars?
@@ -242,6 +252,8 @@ Ten film omawia, czym właściwie jest splątanie, argument Johna Bella z niedob
 Źródła: J. Yin et al., Satellite-based entanglement distribution over 1200 kilometers, Science 356, 1140 (2017); D. Salart et al., Testing the speed of 'spooky action at a distance', Nature 454, 861 (2008); J. S. Bell, Bertlmann's socks and the nature of reality, J. Physique Colloques 42, C2-41 (1981); N. D. Mermin, Is the moon there when nobody looks?, Physics Today 38(4), 38 (1985); S. J. Freedman and J. F. Clauser, PRL 28, 938 (1972); B. Hensen et al., Nature 526, 682 (2015); G. C. Ghirardi, A. Rimini, T. Weber, Lett. Nuovo Cimento 27, 293 (1980); S. Weinberg, PRL 62, 485 (1989); J. J. Bollinger et al., PRL 63, 1031 (1989); N. Gisin, Phys. Lett. A 143, 1 (1990); J. Polchinski, PRL 66, 397 (1991); C. H. Bennett et al., PRL 70, 1895 (1993); J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, PRL 23, 880 (1969); B. S. Cirel'son, Lett. Math. Phys. 4, 93 (1980); S. Popescu and D. Rohrlich, Found. Phys. 24, 379 (1994); G. Brassard et al., PRL 96, 250401 (2006); M. Pawłowski et al., Information causality as a physical principle, Nature 461, 1101 (2009); S. Popescu, Nonlocality beyond quantum mechanics, Nature Physics 10, 264 (2014).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-entanglement-send-messages/
 
 ROZDZIAŁY
 00:00 Dwa fotony oddalone o 1200 km
@@ -282,6 +294,8 @@ Fontes: J. Yin et al., Satellite-based entanglement distribution over 1200 kilom
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-entanglement-send-messages/
+
 CAPÍTULOS
 00:00 Dois fótons a 1.200 km de distância
 00:57 Uma linha até Marte?
@@ -320,6 +334,8 @@ Bu video, dolanıklığın aslında ne olduğunu, John Bell'in Reinhold Bertlman
 Kaynaklar: J. Yin et al., Satellite-based entanglement distribution over 1200 kilometers, Science 356, 1140 (2017); D. Salart et al., Testing the speed of 'spooky action at a distance', Nature 454, 861 (2008); J. S. Bell, Bertlmann's socks and the nature of reality, J. Physique Colloques 42, C2-41 (1981); N. D. Mermin, Is the moon there when nobody looks?, Physics Today 38(4), 38 (1985); S. J. Freedman and J. F. Clauser, PRL 28, 938 (1972); B. Hensen et al., Nature 526, 682 (2015); G. C. Ghirardi, A. Rimini, T. Weber, Lett. Nuovo Cimento 27, 293 (1980); S. Weinberg, PRL 62, 485 (1989); J. J. Bollinger et al., PRL 63, 1031 (1989); N. Gisin, Phys. Lett. A 143, 1 (1990); J. Polchinski, PRL 66, 397 (1991); C. H. Bennett et al., PRL 70, 1895 (1993); J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, PRL 23, 880 (1969); B. S. Cirel'son, Lett. Math. Phys. 4, 93 (1980); S. Popescu and D. Rohrlich, Found. Phys. 24, 379 (1994); G. Brassard et al., PRL 96, 250401 (2006); M. Pawłowski et al., Information causality as a physical principle, Nature 461, 1101 (2009); S. Popescu, Nonlocality beyond quantum mechanics, Nature Physics 10, 264 (2014).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-entanglement-send-messages/
 
 BÖLÜMLER
 00:00 1.200 km arayla iki foton
@@ -360,6 +376,8 @@ Licences: creativecommons.org/licenses/by/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-entanglement-send-messages/
+
 РОЗДІЛИ
 00:00 Два фотони за 1200 км один від одного
 00:57 Лінія на Марс?
@@ -398,6 +416,8 @@ Video này lần lượt đi qua việc vướng víu thực sự là gì, lập
 Nguồn: J. Yin et al., Satellite-based entanglement distribution over 1200 kilometers, Science 356, 1140 (2017); D. Salart et al., Testing the speed of 'spooky action at a distance', Nature 454, 861 (2008); J. S. Bell, Bertlmann's socks and the nature of reality, J. Physique Colloques 42, C2-41 (1981); N. D. Mermin, Is the moon there when nobody looks?, Physics Today 38(4), 38 (1985); S. J. Freedman and J. F. Clauser, PRL 28, 938 (1972); B. Hensen et al., Nature 526, 682 (2015); G. C. Ghirardi, A. Rimini, T. Weber, Lett. Nuovo Cimento 27, 293 (1980); S. Weinberg, PRL 62, 485 (1989); J. J. Bollinger et al., PRL 63, 1031 (1989); N. Gisin, Phys. Lett. A 143, 1 (1990); J. Polchinski, PRL 66, 397 (1991); C. H. Bennett et al., PRL 70, 1895 (1993); J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, PRL 23, 880 (1969); B. S. Cirel'son, Lett. Math. Phys. 4, 93 (1980); S. Popescu and D. Rohrlich, Found. Phys. 24, 379 (1994); G. Brassard et al., PRL 96, 250401 (2006); M. Pawłowski et al., Information causality as a physical principle, Nature 461, 1101 (2009); S. Popescu, Nonlocality beyond quantum mechanics, Nature Physics 10, 264 (2014).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-entanglement-send-messages/
 
 CHƯƠNG
 00:00 Hai photon cách nhau 1.200 km
@@ -438,6 +458,8 @@ Zdroje: J. Yin et al., Satellite-based entanglement distribution over 1200 kilom
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-entanglement-send-messages/
+
 KAPITOLY
 00:00 Dva fotony 1 200 km od sebe
 00:57 Linka na Mars?
@@ -477,6 +499,8 @@ Fuentes: J. Yin et al., Satellite-based entanglement distribution over 1200 kilo
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-entanglement-send-messages/
+
 CAPÍTULOS
 00:00 Dos fotones a 1.200 km de distancia
 00:57 ¿Una línea a Marte?
@@ -515,6 +539,8 @@ Videon går igenom vad sammanflätning egentligen är, John Bells argument med R
 Källor: J. Yin et al., Satellite-based entanglement distribution over 1200 kilometers, Science 356, 1140 (2017); D. Salart et al., Testing the speed of 'spooky action at a distance', Nature 454, 861 (2008); J. S. Bell, Bertlmann's socks and the nature of reality, J. Physique Colloques 42, C2-41 (1981); N. D. Mermin, Is the moon there when nobody looks?, Physics Today 38(4), 38 (1985); S. J. Freedman and J. F. Clauser, PRL 28, 938 (1972); B. Hensen et al., Nature 526, 682 (2015); G. C. Ghirardi, A. Rimini, T. Weber, Lett. Nuovo Cimento 27, 293 (1980); S. Weinberg, PRL 62, 485 (1989); J. J. Bollinger et al., PRL 63, 1031 (1989); N. Gisin, Phys. Lett. A 143, 1 (1990); J. Polchinski, PRL 66, 397 (1991); C. H. Bennett et al., PRL 70, 1895 (1993); J. F. Clauser, M. A. Horne, A. Shimony, R. A. Holt, PRL 23, 880 (1969); B. S. Cirel'son, Lett. Math. Phys. 4, 93 (1980); S. Popescu and D. Rohrlich, Found. Phys. 24, 379 (1994); G. Brassard et al., PRL 96, 250401 (2006); M. Pawłowski et al., Information causality as a physical principle, Nature 461, 1101 (2009); S. Popescu, Nonlocality beyond quantum mechanics, Nature Physics 10, 264 (2014).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-entanglement-send-messages/
 
 KAPITEL
 00:00 Två fotoner, 1 200 km från varandra

@@ -37,6 +37,8 @@ Joskus vaikeinta ei ole löytää vastausta. Vaikeinta on selvittää, voiko kys
 
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-it-take-to-prove-god/
+
 LUVUT
 00:00 "Koska minulla on todiste"
 00:35 Mikä kelpaa todisteeksi?
@@ -73,6 +75,8 @@ En chemin : pourquoi « il existe une explication naturelle » ne veut pas dire 
 Parfois, le plus difficile n'est pas de trouver la réponse. C'est de savoir si la question peut seulement avoir une réponse.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-it-take-to-prove-god/
 
 CHAPITRES
 00:00 « Parce que j'en ai la preuve »
@@ -111,6 +115,8 @@ Terkadang bagian tersulit bukanlah menemukan jawabannya. Melainkan mencari tahu 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-it-take-to-prove-god/
+
 BAB
 00:00 "Karena saya punya bukti"
 00:35 Apa yang bisa dianggap sebagai bukti?
@@ -147,6 +153,8 @@ Il video affronta anche: perché "c'è una spiegazione naturale" non equivale a 
 A volte la parte più difficile non è trovare la risposta. È capire se la domanda possa avere una risposta.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-it-take-to-prove-god/
 
 CAPITOLI
 00:00 «Perché ne ho la prova»
@@ -185,6 +193,8 @@ Manchmal ist das Schwierigste nicht, die Antwort zu finden. Sondern herauszufind
 
 Die Untertitel sind für dieses Video geschrieben, nicht automatisch erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-it-take-to-prove-god/
+
 KAPITEL
 00:00 „Weil ich einen Beweis habe"
 00:35 Was zählt als Beweis?
@@ -221,6 +231,8 @@ Po drodze: dlaczego „istnieje naturalne wyjaśnienie" to nie to samo co „Bó
 Czasem najtrudniejsze nie jest znalezienie odpowiedzi. Najtrudniej jest ustalić, czy pytanie w ogóle może mieć odpowiedź.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-it-take-to-prove-god/
 
 ROZDZIAŁY
 00:00 „Bo mam dowód"
@@ -259,6 +271,8 @@ O vídeo também aborda: por que "existe uma explicação natural" não é o mes
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-it-take-to-prove-god/
+
 CAPÍTULOS
 00:00 "Porque eu tenho prova"
 00:35 O que conta como prova?
@@ -295,6 +309,8 @@ Videoda ayrıca: "doğal bir açıklaması var" demenin neden "Tanrı yok" demek
 Bazen en zor kısım cevabı bulmak değildir. Sorunun bir cevabı olup olamayacağını anlamaktır.
 
 Altyazılar bu video için yazıldı, otomatik üretilmedi. İkinci ses parçası olarak Amerikan İngilizcesi mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-it-take-to-prove-god/
 
 BÖLÜMLER
 00:00 "Çünkü kanıtım var"
@@ -333,6 +349,8 @@ Diğer bütün arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою звуковою доріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-it-take-to-prove-god/
+
 РОЗДІЛИ
 00:00 «Бо в мене є доказ»
 00:35 Що вважати доказом?
@@ -369,6 +387,8 @@ Video cũng đề cập đến: vì sao "có một lời giải thích tự nhi�
 Đôi khi, phần khó nhất không phải là tìm ra câu trả lời. Mà là tìm hiểu xem câu hỏi đó có thể có câu trả lời hay không.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-it-take-to-prove-god/
 
 CHƯƠNG
 00:00 "Vì tôi có bằng chứng"
@@ -407,6 +427,8 @@ Někdy není nejtěžší najít odpověď. Nejtěžší je zjistit, jestli ta o
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-it-take-to-prove-god/
+
 KAPITOLY
 00:00 „Protože mám důkaz"
 00:35 Co lze považovat za důkaz?
@@ -444,6 +466,8 @@ A veces lo más difícil no es encontrar la respuesta. Es averiguar si la pregun
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Hay una pista de audio en inglés americano como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-it-take-to-prove-god/
+
 CAPÍTULOS
 00:00 «Porque tengo pruebas»
 00:35 ¿Qué cuenta como prueba?
@@ -480,6 +504,8 @@ På vägen: varför ”det finns en naturlig förklaring” inte är samma sak s
 Ibland är det svåraste inte att hitta svaret. Det är att ta reda på om frågan över huvud taget kan ha ett svar.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-it-take-to-prove-god/
 
 KAPITEL
 00:00 ”För att jag har bevis”

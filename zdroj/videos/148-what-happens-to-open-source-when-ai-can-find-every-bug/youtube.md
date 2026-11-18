@@ -63,6 +63,8 @@ Sources: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 CHAPTERS
 00:00 948 ways in
 00:42 Public code

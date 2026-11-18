@@ -73,6 +73,8 @@ Sources: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC man
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-did-a-music-cassette-store-a-computer-game/
+
 CHAPTERS
 00:00 Not music, a program
 00:33 Zero and one as two notes

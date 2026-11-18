@@ -37,6 +37,8 @@ Lähteet: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-precise-can-time-actually-be/
+
 LUVUT
 00:00 Tarkin kello
 00:35 Särö oletuksessa
@@ -76,6 +78,8 @@ En 2025, des physiciens de Rome et de Budapest ont publié un calcul qui fissure
 Sources : Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on Clock Precision from Spacetime Uncertainty in Quantum Collapse Models, Physical Review Research 7, 043166 (2025); Aeppli et al., A clock with 8 × 10⁻¹⁹ systematic uncertainty, Physical Review Letters 133, 023401 (2024); Chou, Hume, Rosenband, Wineland, Optical Clocks and Relativity, Science 329, 1630 (2010); Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022); Ghirardi, Rimini, Weber, Physical Review D 34, 470 (1986); Donadi et al., Underground test of gravity-related wave function collapse, Nature Physics 17, 74 (2021).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-precise-can-time-actually-be/
 
 CHAPITRES
 00:00 L'horloge la plus précise
@@ -117,6 +121,8 @@ Sumber: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on C
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-precise-can-time-actually-be/
+
 BAB
 00:00 Jam paling presisi
 00:35 Retakan dalam anggapan
@@ -156,6 +162,8 @@ Nel 2025 un gruppo di fisici di Roma e Budapest ha pubblicato un calcolo che inc
 Fonti: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on Clock Precision from Spacetime Uncertainty in Quantum Collapse Models, Physical Review Research 7, 043166 (2025); Aeppli et al., A clock with 8 × 10⁻¹⁹ systematic uncertainty, Physical Review Letters 133, 023401 (2024); Chou, Hume, Rosenband, Wineland, Optical Clocks and Relativity, Science 329, 1630 (2010); Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022); Ghirardi, Rimini, Weber, Physical Review D 34, 470 (1986); Donadi et al., Underground test of gravity-related wave function collapse, Nature Physics 17, 74 (2021).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-precise-can-time-actually-be/
 
 CAPITOLI
 00:00 L'orologio più preciso
@@ -197,6 +205,8 @@ Quellen: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-precise-can-time-actually-be/
+
 KAPITEL
 00:00 Die genaueste Uhr
 00:35 Ein Riss in der Annahme
@@ -236,6 +246,8 @@ W 2025 roku fizycy z Rzymu i Budapesztu opublikowali obliczenia, które podważa
 Źródła: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on Clock Precision from Spacetime Uncertainty in Quantum Collapse Models, Physical Review Research 7, 043166 (2025); Aeppli et al., A clock with 8 × 10⁻¹⁹ systematic uncertainty, Physical Review Letters 133, 023401 (2024); Chou, Hume, Rosenband, Wineland, Optical Clocks and Relativity, Science 329, 1630 (2010); Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022); Ghirardi, Rimini, Weber, Physical Review D 34, 470 (1986); Donadi et al., Underground test of gravity-related wave function collapse, Nature Physics 17, 74 (2021).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-precise-can-time-actually-be/
 
 ROZDZIAŁY
 00:00 Najdokładniejszy zegar
@@ -277,6 +289,8 @@ Fontes: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on C
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-precise-can-time-actually-be/
+
 CAPÍTULOS
 00:00 O relógio mais preciso
 00:35 Uma rachadura na suposição
@@ -316,6 +330,8 @@ Colorado'nun Boulder kentindeki bir laboratuvarda öyle bir saat var ki frekans�
 Kaynaklar: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on Clock Precision from Spacetime Uncertainty in Quantum Collapse Models, Physical Review Research 7, 043166 (2025); Aeppli et al., A clock with 8 × 10⁻¹⁹ systematic uncertainty, Physical Review Letters 133, 023401 (2024); Chou, Hume, Rosenband, Wineland, Optical Clocks and Relativity, Science 329, 1630 (2010); Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022); Ghirardi, Rimini, Weber, Physical Review D 34, 470 (1986); Donadi et al., Underground test of gravity-related wave function collapse, Nature Physics 17, 74 (2021).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-precise-can-time-actually-be/
 
 BÖLÜMLER
 00:00 En kesin saat
@@ -357,6 +373,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-precise-can-time-actually-be/
+
 РОЗДІЛИ
 00:00 Найточніший годинник
 00:35 Тріщина в припущенні
@@ -396,6 +414,8 @@ Năm 2025, các nhà vật lý ở Rome và Budapest đã công bố một phép
 Nguồn: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on Clock Precision from Spacetime Uncertainty in Quantum Collapse Models, Physical Review Research 7, 043166 (2025); Aeppli et al., A clock with 8 × 10⁻¹⁹ systematic uncertainty, Physical Review Letters 133, 023401 (2024); Chou, Hume, Rosenband, Wineland, Optical Clocks and Relativity, Science 329, 1630 (2010); Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022); Ghirardi, Rimini, Weber, Physical Review D 34, 470 (1986); Donadi et al., Underground test of gravity-related wave function collapse, Nature Physics 17, 74 (2021).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-precise-can-time-actually-be/
 
 CHƯƠNG
 00:00 Chiếc đồng hồ chính xác nhất
@@ -437,6 +457,8 @@ Zdroje: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on C
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-precise-can-time-actually-be/
+
 KAPITOLY
 00:00 Nejpřesnější hodiny
 00:35 Trhlina v předpokladu
@@ -477,6 +499,8 @@ Fuentes: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-precise-can-time-actually-be/
+
 CAPÍTULOS
 00:00 El reloj más preciso
 00:35 Una grieta en la suposición
@@ -516,6 +540,8 @@ I ett laboratorium i Boulder, Colorado, finns en klocka vars frekvens är känd 
 Källor: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on Clock Precision from Spacetime Uncertainty in Quantum Collapse Models, Physical Review Research 7, 043166 (2025); Aeppli et al., A clock with 8 × 10⁻¹⁹ systematic uncertainty, Physical Review Letters 133, 023401 (2024); Chou, Hume, Rosenband, Wineland, Optical Clocks and Relativity, Science 329, 1630 (2010); Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022); Ghirardi, Rimini, Weber, Physical Review D 34, 470 (1986); Donadi et al., Underground test of gravity-related wave function collapse, Nature Physics 17, 74 (2021).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-precise-can-time-actually-be/
 
 KAPITEL
 00:00 Den mest exakta klockan

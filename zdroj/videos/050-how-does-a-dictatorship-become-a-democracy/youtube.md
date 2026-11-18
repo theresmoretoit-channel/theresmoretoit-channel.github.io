@@ -62,6 +62,8 @@ can reach a point where its own leaders start asking a different question
 destroying ourselves. That question has a name in this video: the exit
 problem.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-does-a-dictatorship-become-a-democracy/
+
 Chapters
 00:00 Imagine you are a dictator
 00:23 The whole problem in one line

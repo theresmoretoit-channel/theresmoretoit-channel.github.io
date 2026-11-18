@@ -26,6 +26,8 @@ And then the turn. If our feelings push us around this easily, what are we suppo
 
 There is an answer, and it doesn't require you to be an expert. It also doesn't let any of us off the hook: the research on this is uncomfortable, because being good at reasoning turns out to make people better at defending what they already thought.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-we-believe-before-we-check/
+
 Chapters
 0:00 A headline, and then a question
 0:22 A brain that doesn't wait

@@ -67,6 +67,8 @@ Sources: Linux kernel documentation, ext4 Data Structures and Algorithms and the
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-a-new-disk-need-formatting/
+
 CHAPTERS
 00:00 An empty disk that isn't
 00:48 A pile of paper and a notebook

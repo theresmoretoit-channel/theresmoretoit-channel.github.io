@@ -67,6 +67,8 @@ Sources: ZX Spectrum ROM disassembly (LD-BYTES) and SkoolKit's Skool Daze disass
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-did-8-bit-computers-load-games-faster/
+
 CHAPTERS
 00:00 Same tape, half the time
 00:37 Make every pulse shorter

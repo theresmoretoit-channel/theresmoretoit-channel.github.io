@@ -60,6 +60,8 @@ Sources: A. M. Turing, "On Computable Numbers, with an Application to the Entsch
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-computers-cant-always-detect-deadlocks/
+
 CHAPTERS
 00:00 Four cars, and nobody moves
 01:03 How a program gets stuck

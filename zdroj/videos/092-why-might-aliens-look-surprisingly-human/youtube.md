@@ -55,6 +55,8 @@ So if there is life on another planet, would it keep finding them too? And would
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-might-aliens-look-surprisingly-human/
+
 CHAPTERS
 00:00 Nature keeps making crabs
 00:36 Eyes, wings and swimmers

@@ -66,6 +66,8 @@ ancestor, opposite directions, and neither one is the upgrade.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-are-some-languages-complicated/
+
 Chapters
 00:00 A simple life, a complicated language
 00:36 Why isn't it "goed"?

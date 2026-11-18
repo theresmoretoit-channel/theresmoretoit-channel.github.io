@@ -37,6 +37,8 @@ Tämä ei ole video siitä, että tilaukset olisivat huijausta. Ne ratkaisevat t
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-do-you-actually-buy-when-you-subscribe/
+
 LUVUT
 00:00 Mitä oikeastaan ostit?
 01:04 C-kasetti
@@ -72,6 +74,8 @@ Cette vidéo part d'une cassette audio que personne ne pouvait désactiver à di
 Ce n'est pas une vidéo sur l'idée que les abonnements seraient une arnaque. Ils résolvent de vrais problèmes, et payer pour le confort, ça se justifie. Mais mieux vaut savoir ce que tu achètes.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-do-you-actually-buy-when-you-subscribe/
 
 CHAPITRES
 00:00 Qu'as-tu vraiment acheté ?
@@ -109,6 +113,8 @@ Ini bukan video tentang langganan sebagai tipuan. Langganan memecahkan masalah n
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-do-you-actually-buy-when-you-subscribe/
+
 BAB
 00:00 Apa yang sebenarnya kamu beli?
 01:04 Sebuah kaset
@@ -144,6 +150,8 @@ Questo video parte da una musicassetta che nessuno poteva spegnere a distanza, s
 Non è un video sull'idea che gli abbonamenti siano una fregatura. Risolvono problemi reali, e per la comodità vale la pena pagare. Ma conviene sapere che cosa stai comprando.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-do-you-actually-buy-when-you-subscribe/
 
 CAPITOLI
 00:00 Cosa hai comprato davvero?
@@ -181,6 +189,8 @@ Das ist kein Video darüber, dass Abos ein Trick wären. Sie lösen echte Proble
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-do-you-actually-buy-when-you-subscribe/
+
 KAPITEL
 00:00 Was hast du eigentlich gekauft?
 01:04 Eine Musikkassette
@@ -216,6 +226,8 @@ Ten film zaczyna się od kasety magnetofonowej, której nikt nie mógł wyłącz
 To nie jest film o tym, że subskrypcje to przekręt. Rozwiązują prawdziwe problemy, a za wygodę warto płacić. Ale warto wiedzieć, co kupujesz.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-do-you-actually-buy-when-you-subscribe/
 
 ROZDZIAŁY
 00:00 Co właściwie kupiłeś?
@@ -253,6 +265,8 @@ Este não é um vídeo sobre assinaturas serem uma enganação. Elas resolvem pr
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-do-you-actually-buy-when-you-subscribe/
+
 CAPÍTULOS
 00:00 O que você realmente comprou?
 01:04 Uma fita cassete
@@ -288,6 +302,8 @@ Bu video, kimsenin uzaktan kapatamadığı bir kasetle başlıyor, kendi diskind
 Bu, aboneliklerin bir kandırmaca olduğunu anlatan bir video değil. Gerçek sorunları çözüyorlar ve rahatlık için para ödemeye değer. Ama ne satın aldığını bilmekte de fayda var.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-do-you-actually-buy-when-you-subscribe/
 
 BÖLÜMLER
 00:00 Aslında ne satın aldın?
@@ -325,6 +341,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-do-you-actually-buy-when-you-subscribe/
+
 РОЗДІЛИ
 00:00 Що ти насправді купив?
 01:04 Аудіокасета
@@ -360,6 +378,8 @@ Video này bắt đầu từ một cuộn băng cát-xét mà không ai có th�
 Đây không phải là video nói rằng thuê bao là một trò lừa. Thuê bao giải quyết những vấn đề có thật, và sự tiện lợi đáng để trả tiền. Nhưng bạn nên biết mình đang mua gì.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-do-you-actually-buy-when-you-subscribe/
 
 CHƯƠNG
 00:00 Thực ra bạn đã mua gì?
@@ -397,6 +417,8 @@ Tohle není video o tom, že předplatné je podfuk. Řeší skutečné problém
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-do-you-actually-buy-when-you-subscribe/
+
 KAPITOLY
 00:00 Co sis vlastně koupil?
 01:04 Magnetofonová kazeta
@@ -433,6 +455,8 @@ No es un vídeo sobre que las suscripciones sean una trampa. Resuelven problemas
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-do-you-actually-buy-when-you-subscribe/
+
 CAPÍTULOS
 00:00 ¿Qué has comprado realmente?
 01:04 Una cinta de casete
@@ -468,6 +492,8 @@ Videon börjar med ett kassettband som ingen kunde stänga av på distans, följ
 Det här är inte en video om att prenumerationer skulle vara ett lurendrejeri. De löser verkliga problem, och bekvämlighet är värd att betala för. Men det är värt att veta vad du köper.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-do-you-actually-buy-when-you-subscribe/
 
 KAPITEL
 00:00 Vad köpte du egentligen?

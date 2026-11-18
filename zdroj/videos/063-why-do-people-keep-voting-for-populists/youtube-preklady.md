@@ -58,6 +58,8 @@ Vuonna 1958 73 prosenttia amerikkalaisista sanoi luottavansa siihen, että Washi
 
 Mikä johtaa siihen osaan, jota melkein kukaan ei sano ääneen. Populistin ei tarvitse vakuuttaa sinua siitä, että yksinkertainen ratkaisu toimii – se olisi vaikeaa, koska ratkaisut voi tarkistaa. Vain siitä, että nykyinen on jo epäonnistunut. Ja se on paljon helpompaa, koska varsin usein se on yksinkertaisesti totta.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-people-keep-voting-for-populists/
+
 Luvut
 0:00 Yksinkertaisia vastauksia monimutkaisiin ongelmiin
 0:29 Trump. AfD. Fico.
@@ -105,6 +107,8 @@ Puis il y a une mesure, et elle ne dit pas ce qu'on attendrait. En 2017, quatre 
 En 1958, 73 pour cent des Américains disaient faire confiance au gouvernement de Washington pour faire ce qui est juste. En septembre 2025, c'était 17. Et en seize mois, les niveaux de confiance des démocrates et des républicains se sont inversés : les démocrates de 35 à 9, les républicains de 11 à 26. L'occupant a changé. Ce chiffre ne mesurait donc jamais la performance.
 
 Ce qui mène à la partie que presque personne ne dit à voix haute. Un populiste n'a pas à vous convaincre que la solution simple va marcher – ce serait difficile, parce que les solutions peuvent être vérifiées. Seulement que l'actuelle a déjà échoué. Et ce travail est bien plus facile, parce que très souvent c'est simplement vrai.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-people-keep-voting-for-populists/
 
 Chapitres
 0:00 Des réponses simples à des problèmes compliqués
@@ -154,6 +158,8 @@ Pada 1958, 73 persen orang Amerika menyatakan percaya bahwa pemerintah di Washin
 
 Yang membawa kita ke bagian yang hampir tak pernah diucapkan. Seorang populis tidak perlu meyakinkan Anda bahwa solusi sederhana itu akan berhasil – itu sulit, karena solusi bisa diperiksa. Cukup meyakinkan bahwa yang sekarang sudah gagal. Dan pekerjaan itu jauh lebih mudah, karena cukup sering hal itu memang benar.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-people-keep-voting-for-populists/
+
 Bab
 0:00 Jawaban sederhana untuk masalah rumit
 0:29 Trump. AfD. Fico.
@@ -201,6 +207,8 @@ Poi c'è una misura, e non dice quello che ti aspetteresti. Nel 2017 quattro eco
 Nel 1958 il 73 per cento degli americani diceva di fidarsi che il governo di Washington facesse la cosa giusta. A settembre 2025 era il 17. E in sedici mesi i livelli di fiducia fra democratici e repubblicani si sono invertiti: democratici da 35 a 9, repubblicani da 11 a 26. È cambiato l'inquilino. Quel numero, quindi, non stava misurando i risultati.
 
 Il che porta alla parte che quasi nessuno dice ad alta voce. Un populista non deve convincerti che la soluzione semplice funzionerà – sarebbe difficile, perché le soluzioni si possono verificare. Solo che quella attuale ha già fallito. E questo è molto più facile, perché molto spesso è semplicemente vero.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-people-keep-voting-for-populists/
 
 Capitoli
 0:00 Risposte semplici a problemi complicati
@@ -250,6 +258,8 @@ Dann gibt es eine Messung, und sie sagt nicht das, was man erwarten würde. 2017
 
 Was zu dem Teil führt, den fast niemand laut ausspricht. Ein Populist muss Sie nicht davon überzeugen, dass die einfache Lösung funktionieren wird – das wäre schwer, denn Lösungen lassen sich überprüfen. Nur davon, dass die jetzige bereits gescheitert ist. Und das ist viel leichter, weil es ziemlich oft schlicht stimmt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-people-keep-voting-for-populists/
+
 Kapitel
 0:00 Einfache Antworten auf komplizierte Probleme
 0:29 Trump. Die AfD. Fico.
@@ -297,6 +307,8 @@ Potem jest pomiar i mówi coś innego, niż można by się spodziewać. W 2017 c
 W 1958 roku 73 procent Amerykanów mówiło, że ufa, iż rząd w Waszyngtonie robi to, co słuszne. We wrześniu 2025 było to 17. A w szesnaście miesięcy poziomy zaufania wśród demokratów i republikanów zamieniły się miejscami: demokraci z 35 na 9, republikanie z 11 na 26. Zmienił się lokator. Ta liczba nigdy więc nie mierzyła skuteczności.
 
 Co prowadzi do części, której prawie nikt nie mówi na głos. Populista nie musi przekonywać cię, że proste rozwiązanie zadziała – to byłoby trudne, bo rozwiązania da się sprawdzić. Wystarczy, że przekona cię, iż obecne już zawiodło. A to jest dużo łatwiejsze, bo całkiem często to po prostu prawda.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-people-keep-voting-for-populists/
 
 Rozdziały
 0:00 Proste odpowiedzi na skomplikowane problemy
@@ -346,6 +358,8 @@ Em 1958, 73 por cento dos americanos diziam confiar que o governo em Washington 
 
 O que leva à parte que quase ninguém diz em voz alta. Um populista não precisa convencer você de que a solução simples vai funcionar – isso seria difícil, porque soluções podem ser verificadas. Só de que a atual já fracassou. E esse trabalho é bem mais fácil, porque muitas vezes é simplesmente verdade.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-people-keep-voting-for-populists/
+
 Capítulos
 0:00 Respostas simples para problemas complicados
 0:29 Trump. A AfD. Fico.
@@ -393,6 +407,8 @@ Sonra bir ölçüm var ve beklediğinizi söylemiyor. 2017'de dört iktisatçı 
 1958'de Amerikalıların yüzde 73'ü Washington'daki hükümetin doğru olanı yapacağına güvendiğini söylüyordu. Eylül 2025'te bu oran 17'ydi. Ve on altı ayda bu sayıdaki parti ayrımı çaprazlama yer değiştirdi: Demokratlar 35'ten 9'a, Cumhuriyetçiler 11'den 26'ya. Oturan kişi değişti. Yani o sayı hiçbir zaman performansı ölçmüyordu.
 
 Bu da neredeyse kimsenin yüksek sesle söylemediği kısma götürüyor. Bir popülistin sizi basit çözümün işe yarayacağına ikna etmesi gerekmez – bu zor olurdu, çünkü çözümler denetlenebilir. Yalnızca mevcut olanın çoktan başarısız olduğuna ikna etmesi yeter. Ve bu iş çok daha kolaydır, çünkü çoğu zaman gerçekten de öyledir.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-people-keep-voting-for-populists/
 
 Bölümler
 0:00 Karmaşık sorunlara basit cevaplar
@@ -442,6 +458,8 @@ Müzik bu kanal için yordamsal olarak üretilmektedir.
 
 Що веде до частини, яку майже ніхто не каже вголос. Популістові не треба переконувати вас, що просте рішення спрацює, — це було б важко, бо рішення можна перевірити. Лише в тому, що нинішнє вже провалилося. І ця робота значно легша, бо доволі часто це просто правда.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-people-keep-voting-for-populists/
+
 Розділи
 0:00 Прості відповіді на складні проблеми
 0:29 Трамп. AfD. Фіцо.
@@ -489,6 +507,8 @@ Rồi có một phép đo, và nó không nói điều bạn tưởng. Năm 2017
 Năm 1958, 73 phần trăm người Mỹ nói họ tin chính quyền ở Washington làm điều đúng đắn. Đến tháng 9 năm 2025 chỉ còn 17. Và trong mười sáu tháng, mức tin tưởng của cử tri hai đảng đã đổi chỗ cho nhau: Dân chủ từ 35 xuống 9, Cộng hòa từ 11 lên 26. Người ngồi ghế đã đổi. Vậy là con số đó chưa bao giờ đo hiệu quả.
 
 Điều đó dẫn tới phần mà gần như không ai nói thành lời. Người dân túy không cần thuyết phục bạn rằng giải pháp đơn giản sẽ hiệu quả – việc đó khó, vì giải pháp có thể kiểm chứng được. Chỉ cần thuyết phục rằng cái hiện tại đã thất bại rồi. Và việc đó dễ hơn nhiều, vì điều đó thường đúng.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-people-keep-voting-for-populists/
 
 Các chương
 0:00 Câu trả lời đơn giản cho vấn đề phức tạp
@@ -538,6 +558,8 @@ V roce 1958 řeklo 73 procent Američanů, že věří, že vláda ve Washington
 
 Což vede k části, kterou skoro nikdo neřekne nahlas. Populista vás nemusí přesvědčit, že to jednoduché řešení bude fungovat – to by bylo těžké, protože řešení jde ověřit. Stačí, když vás přesvědčí, že to dosavadní už selhalo. A to je mnohem snazší, protože dost často je to prostě pravda.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-people-keep-voting-for-populists/
+
 Kapitoly
 0:00 Jednoduché odpovědi na složité problémy
 0:29 Trump. AfD. Fico.
@@ -586,6 +608,8 @@ En 1958, el 73 por ciento de los estadounidenses decía confiar en que el gobier
 
 Lo que lleva a la parte que casi nadie dice en voz alta. Un populista no tiene que convencerle de que la solución simple va a funcionar – eso sería difícil, porque las soluciones se pueden comprobar. Solo de que la actual ya ha fracasado. Y ese trabajo es mucho más fácil, porque bastante a menudo es sencillamente cierto.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-people-keep-voting-for-populists/
+
 Capítulos
 0:00 Respuestas simples a problemas complicados
 0:29 Trump. AfD. Fico.
@@ -633,6 +657,8 @@ Sedan finns en mätning, och den säger inte det man skulle vänta sig. År 2017
 År 1958 sa 73 procent av amerikanerna att de litade på att regeringen i Washington gjorde det rätta. I september 2025 var det 17. Och på sexton månader bytte demokraternas och republikanernas förtroendesiffror plats: demokrater från 35 till 9, republikaner från 11 till 26. Hyresgästen byttes ut. Den siffran mätte alltså aldrig prestation.
 
 Vilket leder till den del nästan ingen säger högt. En populist behöver inte övertyga dig om att den enkla lösningen kommer att fungera – det vore svårt, för lösningar går att kontrollera. Bara om att den nuvarande redan har misslyckats. Och det jobbet är mycket lättare, för ganska ofta är det helt enkelt sant.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-people-keep-voting-for-populists/
 
 Kapitel
 0:00 Enkla svar på komplicerade problem

@@ -75,6 +75,8 @@ Tekstitykset on kirjoitettu tätä videota varten, niitä ei ole tuotettu
 automaattisesti. Amerikanenglanninkielinen ääniraita on saatavilla
 toisena ääniraitana.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Luvut
 00:00 Kolme roolia, eikä yhtä huoli kukaan
 00:27 Rooli, jota kukaan ei halua
@@ -141,6 +143,8 @@ Les sous-titres sont écrits pour cette vidéo, ils ne sont pas générés
 automatiquement. Une piste audio en anglais américain est disponible comme
 deuxième piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Chapitres
 00:00 Trois rôles, et un dont personne ne veut
 00:27 Le rôle que personne ne veut
@@ -206,6 +210,8 @@ tank, dan mekanik yang tak bisa dilakukan orang lain.
 Subtitle ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Bab
 00:00 Tiga peran, dan satu tak diminati
 00:27 Peran yang tak diinginkan siapa pun
@@ -269,6 +275,8 @@ meccaniche che nessun altro sa fare.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una traccia audio in inglese americano come seconda traccia.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
 
 Capitoli
 00:00 Tre ruoli, e uno non lo vuole nessuno
@@ -337,6 +345,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Kapitel
 00:00 Drei Rollen, und eine will keiner
 00:27 Die Rolle, die niemand will
@@ -401,6 +411,8 @@ których nikt inny nie umie.
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Dostępna
 jest amerykańska angielska ścieżka dźwiękowa jako druga ścieżka.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Rozdziały
 00:00 Trzy role, a jednej nikt nie chce
 00:27 Rola, której nikt nie chce
@@ -463,6 +475,8 @@ ninguém sabe fazer.
 
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano disponível como segunda faixa.
+
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
 
 Capítulos
 00:00 Três funções, e uma ninguém quer
@@ -528,6 +542,8 @@ mekaniklere dönüşüyor.
 Altyazılar bu video için yazıldı, otomatik üretilmedi. İkinci ses parçası
 olarak Amerikan İngilizcesi ses parçası mevcut.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Bölümler
 00:00 Üç rol, ve birini kimse istemiyor
 00:27 Kimsenin istemediği rol
@@ -589,6 +605,8 @@ to Arms — мішок додаткових нагород для тієї ро�
 
 Субтитри написані саме до цього відео, а не згенеровані автоматично.
 Як друга звукова доріжка доступна доріжка американською англійською.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
 
 Розділи
 00:00 Три ролі, і одну ніхто не хоче
@@ -653,6 +671,8 @@ những cơ chế mà không ai khác làm được.
 Phụ đề được viết riêng cho video này, không phải do máy tự tạo. Có một
 bản âm thanh tiếng Anh Mỹ dưới dạng bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Các chương
 00:00 Ba vai trò, và một vai chẳng ai chọn
 00:27 Vai trò không ai muốn
@@ -715,6 +735,8 @@ neumí.
 
 Titulky jsou k tomuhle videu napsané, ne vygenerované automaticky. Jako
 druhá zvuková stopa je k dispozici stopa v americké angličtině.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
 
 Kapitoly
 00:00 Tři role, a o jednu nikdo nestojí
@@ -781,6 +803,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano disponible
 como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Capítulos
 00:00 Tres roles, y uno que nadie quiere
 00:27 El rol que nadie quiere
@@ -845,6 +869,8 @@ annan klarar.
 
 Undertexterna är skrivna för den här filmen, inte automatgenererade. Ett
 amerikanskt engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
 
 Kapitel
 00:00 Tre roller, och en som ingen vill ha

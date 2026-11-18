@@ -60,6 +60,8 @@ It also asks why we aren't still flying them everywhere, and what the Basler BT-
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-this-90-year-old-airplane-still-flying/
+
 CHAPTERS
 00:00 A 90-year-old airplane at work
 01:01 Flying before the DC-3

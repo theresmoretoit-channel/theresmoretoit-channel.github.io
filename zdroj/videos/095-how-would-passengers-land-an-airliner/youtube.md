@@ -60,6 +60,8 @@ So what if they hadn't been? In a 2023 survey, almost half of American men said 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-would-passengers-land-an-airliner/
+
 CHAPTERS
 00:00 Dubai to Tel Aviv
 00:54 Could you land it?

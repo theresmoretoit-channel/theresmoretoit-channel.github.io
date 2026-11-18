@@ -45,6 +45,8 @@ Lähteet: Tšekin radio (Český rozhlas) (1968.rozhlas.cz, lähetykset 21. elok
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-build-a-radio-you-cant-tune/
+
 LUVUT
 00:00 Yksi yö vuonna 1968
 00:55 Ei oikeastaan radio
@@ -79,6 +81,8 @@ Des « points radio » soviétiques et des plans de la guerre froide aux vallée
 Sources : Radio tchèque (Český rozhlas) (1968.rozhlas.cz, émissions du 21 août 1968 ; archives de la Radio tchèque, document 01075583) ; déclaration du Présidium du Comité central du Parti communiste de Tchécoslovaquie (21 août 1968) ; décret tchécoslovaque 50/1985 Sb. sur la radio par fil ; Dictionnaire historique de la Suisse (Telefonrundspruch) ; Rai (Filodiffusione, 1958) ; rediffusion.info (Rediffusion 1928–1978) ; Novinky.cz (2003–2004).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-build-a-radio-you-cant-tune/
 
 CHAPITRES
 00:00 Une nuit de 1968
@@ -115,6 +119,8 @@ Sumber: Radio Ceko (Český rozhlas) (1968.rozhlas.cz, siaran 21 Agustus 1968; a
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-build-a-radio-you-cant-tune/
+
 BAB
 00:00 Satu malam di tahun 1968
 00:55 Sebenarnya bukan radio
@@ -149,6 +155,8 @@ Dai «punti radio» sovietici e dai piani della Guerra fredda alle valli di mont
 Fonti: Radio ceca (Český rozhlas) (1968.rozhlas.cz, le trasmissioni del 21 agosto 1968; archivio della Radio ceca, documento 01075583); dichiarazione del Presidium del Comitato centrale del Partito comunista di Cecoslovacchia (21 agosto 1968); decreto cecoslovacco 50/1985 Sb. sulla radio via filo; Dizionario storico della Svizzera (Telefonrundspruch); Rai (Filodiffusione, 1958); rediffusion.info (Rediffusion 1928–1978); Novinky.cz (2003–2004).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-build-a-radio-you-cant-tune/
 
 CAPITOLI
 00:00 Una notte del 1968
@@ -185,6 +193,8 @@ Quellen: Tschechischer Rundfunk (Český rozhlas) (1968.rozhlas.cz, die Sendunge
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-build-a-radio-you-cant-tune/
+
 KAPITEL
 00:00 Eine Nacht im Jahr 1968
 00:55 Eigentlich kein Radio
@@ -219,6 +229,8 @@ Od sowieckich „punktów radiowych” i planów z czasów zimnej wojny, przez s
 Źródła: Czeskie Radio (Český rozhlas) (1968.rozhlas.cz, audycje z 21 sierpnia 1968; archiwum Czeskiego Radia, dokument 01075583); oświadczenie Prezydium Komitetu Centralnego Komunistycznej Partii Czechosłowacji (21 sierpnia 1968); czechosłowackie rozporządzenie 50/1985 Sb. o radiu przewodowym; Historisches Lexikon der Schweiz (Telefonrundspruch); Rai (Filodiffusione, 1958); rediffusion.info (Rediffusion 1928–1978); Novinky.cz (2003–2004).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-build-a-radio-you-cant-tune/
 
 ROZDZIAŁY
 00:00 Jedna noc w 1968 roku
@@ -255,6 +267,8 @@ Fontes: Rádio Tcheca (Český rozhlas) (1968.rozhlas.cz, as transmissões de 21
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-build-a-radio-you-cant-tune/
+
 CAPÍTULOS
 00:00 Uma noite em 1968
 00:55 Não exatamente um rádio
@@ -289,6 +303,8 @@ Sovyetlerin "radyo noktaları"ndan ve Soğuk Savaş planlarından İsviçre'nin 
 Kaynaklar: Çek Radyosu (Český rozhlas) (1968.rozhlas.cz, 21 Ağustos 1968 yayınları; Çek Radyosu arşivi, belge 01075583); Çekoslovakya Komünist Partisi Merkez Komitesi Prezidyumu'nun bildirisi (21 Ağustos 1968); kablolu radyoya ilişkin 50/1985 Sb. sayılı Çekoslovak yönetmeliği; Historisches Lexikon der Schweiz (Telefonrundspruch); Rai (Filodiffusione, 1958); rediffusion.info (Rediffusion 1928–1978); Novinky.cz (2003–2004).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-build-a-radio-you-cant-tune/
 
 BÖLÜMLER
 00:00 1968'de bir gece
@@ -325,6 +341,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-build-a-radio-you-cant-tune/
+
 РОЗДІЛИ
 00:00 Одна ніч 1968 року
 00:55 Не зовсім радіо
@@ -359,6 +377,8 @@ Từ những "điểm truyền thanh" của Liên Xô và các kế hoạch th�
 Nguồn: Đài Phát thanh Séc (Český rozhlas) (1968.rozhlas.cz, các chương trình phát sóng ngày 21/8/1968; lưu trữ của Đài Phát thanh Séc, tài liệu 01075583); tuyên bố của Đoàn Chủ tịch Ban Chấp hành Trung ương Đảng Cộng sản Tiệp Khắc (21/8/1968); nghị định Tiệp Khắc 50/1985 Sb. về truyền thanh hữu tuyến; Historisches Lexikon der Schweiz (Telefonrundspruch); Rai (Filodiffusione, 1958); rediffusion.info (Rediffusion 1928–1978); Novinky.cz (2003–2004).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-build-a-radio-you-cant-tune/
 
 CHƯƠNG
 00:00 Một đêm năm 1968
@@ -395,6 +415,8 @@ Zdroje: Český rozhlas (1968.rozhlas.cz, vysílání z 21. srpna 1968; archiv �
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-build-a-radio-you-cant-tune/
+
 KAPITOLY
 00:00 Jedna noc v roce 1968
 00:55 Vlastně to není rádio
@@ -430,6 +452,8 @@ Fuentes: Radio Checa (Český rozhlas) (1968.rozhlas.cz, las emisiones del 21 de
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-build-a-radio-you-cant-tune/
+
 CAPÍTULOS
 00:00 Una noche de 1968
 00:55 En realidad no es una radio
@@ -464,6 +488,8 @@ Från sovjetiska ”radiopunkter” och planering under kalla kriget till schwei
 Källor: Tjeckiska radion (Český rozhlas) (1968.rozhlas.cz, sändningarna den 21 augusti 1968; Tjeckiska radions arkiv, dokument 01075583); uttalande från presidiet i Tjeckoslovakiens kommunistiska partis centralkommitté (21 augusti 1968); tjeckoslovakisk förordning 50/1985 Sb. om trådradio; Historisches Lexikon der Schweiz (Telefonrundspruch); Rai (Filodiffusione, 1958); rediffusion.info (Rediffusion 1928–1978); Novinky.cz (2003–2004).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-build-a-radio-you-cant-tune/
 
 KAPITEL
 00:00 En natt 1968

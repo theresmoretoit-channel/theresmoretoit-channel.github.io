@@ -50,6 +50,8 @@ Luvut alla. Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaat
 
 ---
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Joku kävelee ohi
 00:29 Taianomainen musta ruutu
 00:59 Miksi se näyttää tuolta
@@ -118,6 +120,8 @@ Chapitres ci-dessous. Les sous-titres sont écrits pour cette vidéo, pas géné
 
 ---
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Quelqu'un passe derrière vous
 00:29 L'écran noir magique
 00:59 Pourquoi il a cette apparence
@@ -176,6 +180,8 @@ Beda antara administrasi dan peretasan bukan warna terminalmu, berapa monitor ya
 Bab di bawah. Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
 ---
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Seseorang lewat
 00:29 Layar hitam ajaib itu
@@ -240,6 +246,8 @@ cosa stai facendo, e se hai il permesso di farlo.
 Capitoli sotto. Capitoli qui sotto. I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
 
 ---
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Qualcuno passa alle tue spalle
 00:29 Lo schermo nero magico
@@ -319,6 +327,8 @@ Kapitel unten. Die Untertitel wurden für dieses Video geschrieben, nicht automa
 
 ---
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Jemand geht vorbei
 00:29 Der magische schwarze Bildschirm
 00:59 Warum es so aussieht
@@ -392,6 +402,8 @@ robisz — i czy masz na to pozwolenie.
 Rozdziały niżej. Rozdziały poniżej. Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
 
 ---
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Ktoś przechodzi obok
 00:29 Magiczny czarny ekran
@@ -468,6 +480,8 @@ Capítulos abaixo. As legendas foram escritas para este vídeo, não geradas aut
 
 ---
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Alguém passa por perto
 00:29 A tela preta mágica
 00:59 Por que ela é assim
@@ -527,6 +541,8 @@ Bölümler aşağıda. Altyazılar bu video için yazıldı, otomatik olarak olu
 
 ---
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Biri yanından geçiyor
 00:29 Sihirli siyah ekran
 00:59 Neden öyle görünüyor
@@ -575,6 +591,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 ---
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Хтось проходить повз
 00:29 Чарівний чорний екран
 00:59 Чому він так виглядає
@@ -622,6 +640,8 @@ Khác biệt giữa quản trị hệ thống và hack không nằm ở màu ter
 Các chương ở bên dưới. Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
 
 ---
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Có người đi ngang qua
 00:29 Màn hình đen kỳ diệu
@@ -685,6 +705,8 @@ v tom, co děláš — a jestli k tomu máš svolení.
 Kapitoly níž. Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
 ---
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Někdo jde kolem
 00:29 Kouzelná černá obrazovka
@@ -751,6 +773,8 @@ que estás haciendo, y si tienes permiso para hacerlo.
 Capítulos abajo. Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
 ---
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Alguien pasa por detrás
 00:29 La pantalla negra mágica
@@ -826,6 +850,8 @@ vad du gör — och om du har tillåtelse att göra det.
 Kapitel nedan. Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
 
 ---
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/does-a-terminal-make-you-a-hacker/
 
 00:00 Någon går förbi
 00:29 Den magiska svarta skärmen

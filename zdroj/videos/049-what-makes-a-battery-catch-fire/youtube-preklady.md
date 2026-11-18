@@ -73,6 +73,8 @@ pääsivät markkinoille.
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti luotu.
 Toisena ääniraitana on saatavilla amerikanenglantilainen ääniraita.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-makes-a-battery-catch-fire/
+
 Luvut
 00:00 Taas paloi akku
 00:40 Se kantaa oman polttoaineensa
@@ -140,6 +142,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés
 automatiquement. Une piste audio en anglais américain est disponible
 comme seconde piste audio.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-makes-a-battery-catch-fire/
+
 Chapitres
 00:00 Encore une batterie en feu
 00:40 Elle transporte son propre combustible
@@ -205,6 +209,8 @@ mana yang boleh masuk pasar.
 Takarir ditulis khusus untuk video ini, bukan dibuat otomatis. Tersedia
 juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-makes-a-battery-catch-fire/
+
 Bab
 00:00 Ada baterai terbakar lagi
 00:40 Ia membawa bahan bakarnya sendiri
@@ -269,6 +275,8 @@ potevano arrivare sul mercato.
 I sottotitoli sono scritti per questo video, non generati
 automaticamente. È disponibile una seconda traccia audio in inglese
 americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-makes-a-battery-catch-fire/
 
 Capitoli
 00:00 È bruciata un'altra batteria
@@ -336,6 +344,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur steht als zweite Tonspur
 zur Verfügung.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-makes-a-battery-catch-fire/
+
 Kapitel
 00:00 Schon wieder ein brennender Akku
 00:40 Er trägt seinen Brennstoff mit sich
@@ -398,6 +408,8 @@ to, które baterie mogły trafić na rynek.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Jako
 druga ścieżka dźwiękowa dostępna jest wersja w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-makes-a-battery-catch-fire/
 
 Rozdziały
 00:00 Znowu zapaliła się bateria
@@ -463,6 +475,8 @@ sim quais baterias podiam chegar ao mercado.
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma segunda faixa de áudio em inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-makes-a-battery-catch-fire/
+
 Capítulos
 00:00 Outra bateria pegou fogo
 00:40 Ela carrega o próprio combustível
@@ -524,6 +538,8 @@ değişen şey kimya değil, hangi bataryaların piyasaya çıkabildiğiydi.
 
 Altyazılar bu video için yazıldı, otomatik üretilmedi. İkinci ses parçası
 olarak Amerikan İngilizcesi mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-makes-a-battery-catch-fire/
 
 Bölümler
 00:00 Yine bir batarya yandı
@@ -587,6 +603,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/3.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою
 звуковою доріжкою доступна американська англійська.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-makes-a-battery-catch-fire/
 
 Розділи
 00:00 Знову загорілася батарея
@@ -652,6 +670,8 @@ nào được phép ra thị trường.
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thêm
 một bản âm thanh tiếng Anh Mỹ làm rãnh âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-makes-a-battery-catch-fire/
+
 Các chương
 00:00 Lại một viên pin bốc cháy
 00:40 Nó mang theo nhiên liệu của chính nó
@@ -712,6 +732,8 @@ nezměnila chemie, ale to, které baterie se smějí dostat na trh.
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-makes-a-battery-catch-fire/
 
 Kapitoly
 00:00 Zase hořela baterie
@@ -777,6 +799,8 @@ fue la química, sino qué baterías podían llegar al mercado.
 Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una segunda pista de audio en inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-makes-a-battery-catch-fire/
+
 Capítulos
 00:00 Otra batería ardió
 00:40 Lleva su propio combustible
@@ -838,6 +862,8 @@ York, där dessa bränder dödade arton människor 2023, var det som
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som
 andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-makes-a-battery-catch-fire/
 
 Kapitel
 00:00 Ännu ett batteri brann

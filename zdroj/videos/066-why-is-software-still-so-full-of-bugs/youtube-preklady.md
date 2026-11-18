@@ -51,6 +51,8 @@ kun ohjelmistossa on bugeja?
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-software-still-so-full-of-bugs/
+
 LUVUT
 00:00 Taas bugi uutisissa
 00:44 Sata kytkintä, ja 2^100
@@ -111,6 +113,8 @@ restent sûrs même quand le logiciel a des bugs ?
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement.
 Une piste audio en anglais américain est disponible comme deuxième piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-software-still-so-full-of-bugs/
+
 CHAPITRES
 00:00 Encore un bug dans l'actualité
 00:44 Cent interrupteurs, et 2^100
@@ -168,6 +172,8 @@ tetap aman bahkan ketika perangkat lunaknya punya bug?
 
 Subtitel ditulis untuk video ini, bukan dibuat otomatis. Trek audio bahasa
 Inggris Amerika tersedia sebagai trek audio kedua.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-software-still-so-full-of-bugs/
 
 BAB
 00:00 Lagi-lagi bug di berita
@@ -227,6 +233,8 @@ il software ha dei bug?
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 Una traccia audio in inglese americano è disponibile come seconda traccia.
 
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-software-still-so-full-of-bugs/
+
 CAPITOLI
 00:00 Ancora un bug nelle notizie
 00:44 Cento interruttori, e 2^100
@@ -285,6 +293,8 @@ die Software Bugs hat?
 Die Untertitel sind für dieses Video geschrieben, nicht automatisch erzeugt.
 Eine amerikanisch-englische Tonspur ist als zweite Tonspur verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-software-still-so-full-of-bugs/
+
 KAPITEL
 00:00 Wieder ein Bug in den Nachrichten
 00:44 Hundert Schalter, und 2^100
@@ -341,6 +351,8 @@ oprogramowanie ma błędy?
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa to amerykański angielski.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-software-still-so-full-of-bugs/
 
 ROZDZIAŁY
 00:00 Znów błąd w wiadomościach
@@ -399,6 +411,8 @@ software tem bugs?
 As legendas foram escritas para este vídeo, não geradas automaticamente. Há
 uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-software-still-so-full-of-bugs/
+
 CAPÍTULOS
 00:00 Mais um bug nas notícias
 00:44 Cem chaves, e 2^100
@@ -454,6 +468,8 @@ yazılımda hatalar olsa bile güvende kalan sistemleri nasıl kurarız?
 
 Altyazılar bu video için yazıldı, otomatik üretilmedi. İkinci ses parçası
 olarak Amerikan İngilizcesi mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-software-still-so-full-of-bugs/
 
 BÖLÜMLER
 00:00 Haberlerde yine bir hata
@@ -511,6 +527,8 @@ Alan Turing'in fotoğrafı kamu malıdır.
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою
 аудіодоріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-software-still-so-full-of-bugs/
+
 РОЗДІЛИ
 00:00 Знову вада в новинах
 00:44 Сто перемикачів, і 2^100
@@ -567,6 +585,8 @@ là: làm sao dựng những hệ thống vẫn an toàn ngay cả khi phần m�
 Phụ đề được viết cho video này, không phải tạo tự động. Có một bản âm thanh
 tiếng Anh Mỹ ở dạng bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-software-still-so-full-of-bugs/
+
 CHƯƠNG
 00:00 Lại một lỗi lên tin tức
 00:44 Một trăm công tắc, và 2^100
@@ -621,6 +641,8 @@ stavět systémy, které zůstanou bezpečné, i když v softwaru chyby jsou?
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-software-still-so-full-of-bugs/
 
 KAPITOLY
 00:00 Zase chyba ve zprávách
@@ -680,6 +702,8 @@ cuando el software tiene errores?
 Los subtítulos están escritos para este vídeo, no generados automáticamente.
 Hay una pista de audio en inglés americano como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-software-still-so-full-of-bugs/
+
 CAPÍTULOS
 00:00 Otro error en las noticias
 00:44 Cien interruptores, y 2^100
@@ -735,6 +759,8 @@ hur bygger vi system som förblir säkra även när mjukvaran har buggar?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-software-still-so-full-of-bugs/
 
 KAPITEL
 00:00 Ännu en bugg i nyheterna

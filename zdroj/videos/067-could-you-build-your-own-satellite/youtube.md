@@ -64,6 +64,8 @@ out to be a surprisingly big change.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/could-you-build-your-own-satellite/
+
 CHAPTERS
 00:00 A crazy idea
 00:27 Meet the CubeSat

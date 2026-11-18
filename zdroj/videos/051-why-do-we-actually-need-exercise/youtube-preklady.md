@@ -85,6 +85,8 @@ se käveleminen ei näkynyt suurempana lukuna.
 Jäljelle jää oudompi kysymys. Jos liikkumisella on näin paljon väliä,
 miksi liikkumattomuus ei tunnu miltään?
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-we-actually-need-exercise/
+
 Luvut
 00:00 Liikunta on sinulle hyväksi
 00:25 Mikä siis menee pieleen, kun emme liiku?
@@ -163,6 +165,8 @@ par un chiffre plus élevé.
 Reste une question plus étrange. Si le mouvement compte à ce point,
 pourquoi ne pas bouger ne se sent-il pas du tout ?
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-we-actually-need-exercise/
+
 Chapitres
 00:00 L'exercice est bon pour vous
 00:25 Qu'est-ce qui cloche quand on ne le fait pas ?
@@ -240,6 +244,8 @@ Semua jalan kaki itu tidak muncul sebagai angka yang lebih besar.
 Yang tersisa adalah pertanyaan yang lebih aneh. Kalau gerak sepenting
 itu, kenapa tidak bergerak sama sekali tidak terasa?
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-we-actually-need-exercise/
+
 Bab
 00:00 Olahraga itu baik untuk Anda
 00:25 Jadi apa yang rusak kalau kita tidak bergerak?
@@ -316,6 +322,8 @@ maggiore.
 Resta una domanda più strana. Se il movimento conta così tanto, perché
 non muoversi non si sente per niente?
 
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-we-actually-need-exercise/
+
 Capitoli
 00:00 L'esercizio fa bene
 00:25 Che cosa smette di funzionare se non ci muoviamo?
@@ -390,6 +398,8 @@ Gehen zeigte sich nicht als größere Zahl.
 
 Bleibt eine seltsamere Frage. Wenn Bewegung so wichtig ist, warum fühlt
 sich fehlende Bewegung nach gar nichts an?
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-we-actually-need-exercise/
 
 Kapitel
 00:00 Sport ist gut für Sie
@@ -466,6 +476,8 @@ to chodzenie nie przełożyło się na wyższy wynik.
 Zostaje dziwniejsze pytanie. Skoro ruch ma takie znaczenie, dlaczego brak
 ruchu w ogóle nic nie daje odczuć?
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-we-actually-need-exercise/
+
 Rozdziały
 00:00 Ćwiczenia są dla ciebie dobre
 00:25 Co się psuje, kiedy tego nie robimy?
@@ -539,6 +551,8 @@ Toda aquela caminhada não apareceu como um número maior.
 
 Sobra uma pergunta mais estranha. Se o movimento importa tanto, por que
 não se mexer não parece nada?
+
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-we-actually-need-exercise/
 
 Capítulos
 00:00 Exercício faz bem para você
@@ -615,6 +629,8 @@ büyük bir sayı olarak görünmedi.
 Geriye daha tuhaf bir soru kalıyor. Hareket bu kadar önemliyse, hareket
 etmemek neden hiçbir şey hissettirmiyor?
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-we-actually-need-exercise/
+
 Bölümler
 00:00 Egzersiz size iyi gelir
 00:25 Peki hareket etmediğimizde ne bozuluyor?
@@ -686,6 +702,8 @@ Bu videodaki diğer tüm görseller kodla çizilmiştir.
 
 Лишається дивніше запитання. Якщо рух аж настільки важливий, чому
 відсутність руху взагалі ніяк не відчувається?
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-we-actually-need-exercise/
 
 Розділи
 00:00 Вправи вам корисні
@@ -761,6 +779,8 @@ việc đi bộ đó không hiện ra thành một con số lớn hơn.
 Còn lại một câu hỏi lạ lùng hơn. Nếu vận động quan trọng đến thế, vì sao
 việc không vận động lại chẳng khiến ta thấy gì cả?
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-we-actually-need-exercise/
+
 Các phần
 00:00 Tập thể dục thì tốt cho bạn
 00:25 Vậy điều gì hỏng khi ta không vận động?
@@ -833,6 +853,8 @@ neprojevila jako vyšší číslo.
 
 Zbývá podivnější otázka. Když na pohybu tolik záleží, proč nehybnost
 vůbec nic necítíme?
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-we-actually-need-exercise/
 
 Kapitoly
 00:00 Cvičení vám prospívá
@@ -909,6 +931,8 @@ Todo aquel caminar no se tradujo en un gasto mayor.
 Queda una pregunta más extraña. Si el movimiento importa tanto, ¿por qué
 no moverse no se nota en absoluto?
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-we-actually-need-exercise/
+
 Capítulos
 00:00 El ejercicio es bueno para ti
 00:25 ¿Qué falla cuando no lo hacemos?
@@ -983,6 +1007,8 @@ Allt det där gåendet syntes inte som en högre siffra.
 
 Kvar blir en märkligare fråga. Om rörelse spelar så stor roll, varför
 känns det inte alls att låta bli?
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-we-actually-need-exercise/
 
 Kapitel
 00:00 Träning är bra för dig

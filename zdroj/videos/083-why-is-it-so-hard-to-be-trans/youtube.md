@@ -54,6 +54,8 @@ This is the fourth video in a series about transgender people. The earlier ones 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-it-so-hard-to-be-trans/
+
 CHAPTERS
 00:00 The first thing people notice
 01:21 What does passing actually mean?

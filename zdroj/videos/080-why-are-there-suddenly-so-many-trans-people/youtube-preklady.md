@@ -59,6 +59,8 @@ Tämä on ensimmäinen video transihmisiä käsittelevässä sarjassa. Seuraava 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-are-there-suddenly-so-many-trans-people/
+
 LUVUT
 00:00 Oletko koskaan tavannut transihmistä?
 00:43 Mitä trans oikeastaan tarkoittaa?
@@ -100,6 +102,8 @@ Enfin, elle remonte près de cent ans en arrière, jusqu'à l'institut de Magnus
 C'est la première vidéo d'une série sur les personnes transgenres. La suivante pose la question : comment savoir qu'on est trans ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-are-there-suddenly-so-many-trans-people/
 
 CHAPITRES
 00:00 Tu as déjà rencontré une personne trans ?
@@ -143,6 +147,8 @@ Ini adalah video pertama dalam seri tentang orang transgender. Video berikutnya 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-are-there-suddenly-so-many-trans-people/
+
 BAB
 00:00 Pernahkah kamu bertemu orang trans?
 00:43 Apa sebenarnya arti transgender?
@@ -184,6 +190,8 @@ Infine torna indietro di quasi cent'anni, all'istituto di Magnus Hirschfeld a Be
 Questo è il primo video di una serie sulle persone transgender. Il prossimo si chiede: come fai a sapere di essere trans?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-are-there-suddenly-so-many-trans-people/
 
 CAPITOLI
 00:00 Hai mai conosciuto una persona trans?
@@ -227,6 +235,8 @@ Das ist das erste Video einer Reihe über trans Menschen. Das nächste fragt: Wo
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-are-there-suddenly-so-many-trans-people/
+
 KAPITEL
 00:00 Bist du schon mal einer trans Person begegnet?
 00:43 Was bedeutet transgender eigentlich?
@@ -268,6 +278,8 @@ Na koniec cofa się o prawie sto lat — do instytutu Magnusa Hirschfelda w Berl
 To pierwszy film z serii o osobach transpłciowych. Następny pyta: skąd wiesz, że jesteś trans?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-are-there-suddenly-so-many-trans-people/
 
 ROZDZIAŁY
 00:00 Czy spotkałeś kiedyś osobę trans?
@@ -311,6 +323,8 @@ Este é o primeiro vídeo de uma série sobre pessoas transgênero. O próximo p
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-are-there-suddenly-so-many-trans-people/
+
 CAPÍTULOS
 00:00 Você já conheceu uma pessoa trans?
 00:43 O que transgênero quer dizer, afinal?
@@ -352,6 +366,8 @@ Son olarak neredeyse yüz yıl geriye gidiyor: Magnus Hirschfeld'in Berlin'deki 
 Bu, transgender insanlar hakkındaki bir serinin ilk videosu. Bir sonraki video şunu soruyor: Trans olduğunu nasıl anlarsın?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-are-there-suddenly-so-many-trans-people/
 
 BÖLÜMLER
 00:00 Hiç trans biriyle tanıştın mı?
@@ -395,6 +411,8 @@ Lisans: creativecommons.org/licenses/by/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-are-there-suddenly-so-many-trans-people/
+
 РОЗДІЛИ
 00:00 Тобі колись траплялася трансгендерна людина?
 00:43 Що насправді означає «трансгендерний»?
@@ -436,6 +454,8 @@ Cuối cùng, video quay ngược gần một trăm năm, về viện nghiên c�
 Đây là video đầu tiên trong loạt video về người chuyển giới. Video tiếp theo đặt câu hỏi: làm sao biết mình là người chuyển giới?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-are-there-suddenly-so-many-trans-people/
 
 CHƯƠNG
 00:00 Bạn đã bao giờ gặp một người chuyển giới chưa?
@@ -479,6 +499,8 @@ Tohle je první video ze série o transgender lidech. To další se ptá: jak po
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-are-there-suddenly-so-many-trans-people/
+
 KAPITOLY
 00:00 Potkal jsi někdy trans člověka?
 00:43 Co vlastně znamená transgender?
@@ -521,6 +543,8 @@ Este es el primer vídeo de una serie sobre las personas transgénero. El siguie
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-are-there-suddenly-so-many-trans-people/
+
 CAPÍTULOS
 00:00 ¿Alguna vez has conocido a una persona trans?
 00:43 ¿Qué significa realmente transgénero?
@@ -562,6 +586,8 @@ Till sist går den nästan hundra år tillbaka i tiden, till Magnus Hirschfelds 
 Det här är den första videon i en serie om transpersoner. Nästa video frågar: hur vet du att du är trans?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-are-there-suddenly-so-many-trans-people/
 
 KAPITEL
 00:00 Har du någonsin träffat en transperson?

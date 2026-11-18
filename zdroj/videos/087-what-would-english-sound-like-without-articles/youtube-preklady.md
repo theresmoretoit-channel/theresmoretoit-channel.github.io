@@ -44,6 +44,8 @@ Noin kolmasosalla maailman kielistä ei ole artikkeleita lainkaan, ja niiden puh
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-english-sound-like-without-articles/
+
 LUVUT
 00:00 I went to store and bought book
 00:43 ”A dog” vai ”the dog”?
@@ -77,6 +79,8 @@ I went to store and bought book. Si l'anglais est ta langue maternelle, ça sonn
 Environ un tiers des langues du monde n'ont pas d'articles du tout, et ceux qui les parlent s'en sortent très bien. Alors pourquoi l'anglais s'embête avec ça ? Que font vraiment ces petits mots que rien d'autre ne peut faire ? Pourquoi sont-ils parmi les dernières choses que maîtrisent ceux qui apprennent l'anglais ? Et d'où viennent-ils au départ ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-english-sound-like-without-articles/
 
 CHAPITRES
 00:00 I went to store and bought book
@@ -112,6 +116,8 @@ Kira-kira sepertiga bahasa di dunia sama sekali tidak punya kata sandang, dan pe
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-english-sound-like-without-articles/
+
 BAB
 00:00 I went to store and bought book
 00:43 “A dog” atau “the dog”?
@@ -145,6 +151,8 @@ I went to store and bought book. Se l'inglese è la tua lingua madre, ti suona s
 Circa un terzo delle lingue del mondo non ha proprio articoli, e chi le parla se la cava benissimo. Allora perché l'inglese si dà tanto da fare? Cosa fanno davvero queste paroline che nient'altro sa fare? Perché sono tra le ultime cose che chi impara l'inglese riesce a usare bene? E da dove vengono, tanto per cominciare?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-english-sound-like-without-articles/
 
 CAPITOLI
 00:00 I went to store and bought book
@@ -180,6 +188,8 @@ Etwa ein Drittel der Sprachen der Welt hat überhaupt keine Artikel, und wer sie
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-english-sound-like-without-articles/
+
 KAPITEL
 00:00 I went to store and bought book
 00:43 „A dog“ oder „the dog“?
@@ -213,6 +223,8 @@ I went to store and bought book. Jeśli angielski to twój język ojczysty, brzm
 Mniej więcej jedna trzecia języków świata nie ma przedimków wcale, a ich użytkownicy świetnie sobie radzą. To po co angielski zawraca sobie nimi głowę? Co właściwie robią te małe słówka, czego nie potrafi nic innego? Dlaczego uczący się angielskiego opanowują je niemal na samym końcu? I skąd się w ogóle wzięły?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-english-sound-like-without-articles/
 
 ROZDZIAŁY
 00:00 I went to store and bought book
@@ -248,6 +260,8 @@ Cerca de um terço das línguas do mundo não tem artigo nenhum, e quem fala ess
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-english-sound-like-without-articles/
+
 CAPÍTULOS
 00:00 I went to store and bought book
 00:43 “A dog” ou “the dog”?
@@ -281,6 +295,8 @@ I went to store and bought book. Ana dilin İngilizceyse, bu sana yanlış geliy
 Dünya dillerinin kabaca üçte birinde hiç tanımlık yok ve bu dilleri konuşanlar gayet iyi idare ediyor. Peki İngilizce neden bu zahmete giriyor? Bu küçük kelimeler, başka hiçbir şeyin yapamadığı neyi yapıyor? Neden İngilizce öğrenenlerin en son oturttuğu şeyler arasındalar? Ve en başta nereden çıktılar?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-english-sound-like-without-articles/
 
 BÖLÜMLER
 00:00 I went to store and bought book
@@ -316,6 +332,8 @@ I went to store and bought book. Якщо англійська — твоя рі
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-english-sound-like-without-articles/
+
 РОЗДІЛИ
 00:00 I went to store and bought book
 00:43 «A dog» чи «the dog»?
@@ -349,6 +367,8 @@ I went to store and bought book. Nếu tiếng Anh là tiếng mẹ đẻ của 
 Khoảng một phần ba số ngôn ngữ trên thế giới hoàn toàn không có mạo từ, và người nói những thứ tiếng đó vẫn hoàn toàn ổn. Vậy sao tiếng Anh phải bận tâm? Những từ nhỏ này thực ra làm được gì mà không thứ gì khác làm được? Vì sao chúng là một trong những thứ cuối cùng người học tiếng Anh dùng đúng? Và rốt cuộc chúng từ đâu mà ra?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-english-sound-like-without-articles/
 
 CHƯƠNG
 00:00 I went to store and bought book
@@ -384,6 +404,8 @@ Zhruba třetina světových jazyků nemá členy vůbec a jejich mluvčí se bez
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-english-sound-like-without-articles/
+
 KAPITOLY
 00:00 I went to store and bought book
 00:43 „A dog“, nebo „the dog“?
@@ -418,6 +440,8 @@ Más o menos un tercio de las lenguas del mundo no tiene artículos en absoluto,
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-english-sound-like-without-articles/
+
 CAPÍTULOS
 00:00 I went to store and bought book
 00:43 ¿«A dog» o «the dog»?
@@ -451,6 +475,8 @@ I went to store and bought book. Om engelska är ditt modersmål låter det fel.
 Ungefär en tredjedel av världens språk har inga artiklar alls, och de som talar dem klarar sig alldeles utmärkt. Så varför bryr sig engelskan? Vad gör de här små orden egentligen som inget annat kan? Varför hör de till det sista som faller på plats för den som lär sig engelska? Och var kom de ifrån från början?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-english-sound-like-without-articles/
 
 KAPITEL
 00:00 I went to store and bought book

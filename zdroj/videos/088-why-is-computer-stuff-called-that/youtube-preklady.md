@@ -39,6 +39,8 @@ Miksi internet on ”cloud” eli pilvi? Mitä tekemistä payloadilla on kuorma-
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-computer-stuff-called-that/
+
 LUVUT
 00:00 Tämä on log
 00:36 Ilmeiset: hiiri
@@ -79,6 +81,8 @@ Les ordinateurs sont pleins de mots comme celui-là. Mouse. Desktop. Cloud. Bug.
 Pourquoi Internet est-il un « cloud », un nuage ? Quel rapport entre un payload et un camion ? Pourquoi le démarrage d'un ordinateur s'appelle-t-il « booting » ? Le premier bug était-il vraiment un papillon de nuit ? Et pourquoi un programme qui tourne en arrière-plan porte-t-il le nom d'un démon ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-computer-stuff-called-that/
 
 CHAPITRES
 00:00 Ça, c'est un log
@@ -121,6 +125,8 @@ Kenapa internet disebut "cloud", awan? Apa hubungan payload dengan truk? Kenapa 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-computer-stuff-called-that/
+
 BAB
 00:00 Ini log
 00:36 Yang gampang: mouse
@@ -161,6 +167,8 @@ I computer sono pieni di parole così. Mouse. Desktop. Cloud. Bug. Alcune sono o
 Perché internet è un «cloud», una nuvola? Che cosa c'entra un payload con un camion? Perché l'avvio di un computer si chiama «booting»? Il primo bug era davvero una falena? E perché un programma che lavora in background ha il nome di un demone?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-computer-stuff-called-that/
 
 CAPITOLI
 00:00 Questo è un log
@@ -203,6 +211,8 @@ Warum ist das Internet eine „Cloud“? Was hat eine Payload mit einem Lastwage
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-computer-stuff-called-that/
+
 KAPITEL
 00:00 Das ist ein Log
 00:36 Die einfachen: die Maus
@@ -243,6 +253,8 @@ Komputery są pełne takich słów. Mouse. Desktop. Cloud. Bug. Niektóre są oc
 Dlaczego internet to „chmura”? Co ma payload wspólnego z ciężarówką? Dlaczego uruchamianie komputera nazywa się „booting”? Czy pierwszy bug naprawdę był ćmą? I dlaczego program działający w tle nosi imię demona?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-computer-stuff-called-that/
 
 ROZDZIAŁY
 00:00 To jest log
@@ -285,6 +297,8 @@ Por que a internet é um "cloud", uma nuvem? O que um payload tem a ver com um c
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-computer-stuff-called-that/
+
 CAPÍTULOS
 00:00 Isto é um log
 00:36 As fáceis: o mouse
@@ -325,6 +339,8 @@ Bilgisayarlar böyle kelimelerle dolu. Mouse. Desktop. Cloud. Bug. Bazıları ap
 İnternete neden "cloud", yani bulut deniyor? Payload'ın bir kamyonla ne ilgisi var? Bilgisayarı açmaya neden "booting" deniyor? İlk bug gerçekten bir güve miydi? Peki arka planda çalışan bir program neden bir iblisi andıran bir ad taşıyor?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-computer-stuff-called-that/
 
 BÖLÜMLER
 00:00 Bu bir log
@@ -367,6 +383,8 @@ Licences: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-computer-stuff-called-that/
+
 РОЗДІЛИ
 00:00 Це log
 00:36 Прості: миша
@@ -407,6 +425,8 @@ Máy tính đầy những từ như thế. Mouse. Desktop. Cloud. Bug. Có nhữ
 Vì sao internet lại là “cloud” – đám mây? Payload thì liên quan gì đến xe tải? Vì sao khởi động máy tính lại gọi là “booting”? Bug đầu tiên có thật là một con bướm đêm không? Và vì sao một chương trình chạy ngầm lại mang cái tên nghe như một con quỷ?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-computer-stuff-called-that/
 
 CHƯƠNG
 00:00 Đây là log
@@ -449,6 +469,8 @@ Proč je internet „cloud“, tedy oblak? Co má payload společného s nákla�
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-computer-stuff-called-that/
+
 KAPITOLY
 00:00 Tohle je log
 00:36 Ty snadné: myš
@@ -490,6 +512,8 @@ Las computadoras están llenas de palabras así. Mouse. Desktop. Cloud. Bug. Alg
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-computer-stuff-called-that/
+
 CAPÍTULOS
 00:00 Esto es un log
 00:36 Las fáciles: el mouse
@@ -530,6 +554,8 @@ Datorer är fulla av sådana ord. Mouse. Desktop. Cloud. Bug. Vissa är självkl
 Varför är internet ett ”moln”? Vad har en payload med en lastbil att göra? Varför heter det ”booting” när en dator startar? Var den första buggen verkligen en nattfjäril? Och varför har ett program som körs i bakgrunden namnet på en demon?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-computer-stuff-called-that/
 
 KAPITEL
 00:00 Det här är en log

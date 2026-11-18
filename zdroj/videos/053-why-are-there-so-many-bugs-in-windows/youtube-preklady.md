@@ -64,6 +64,8 @@ Tämä video kertoo siitä, mitä pinnan alla oikeasti tapahtuu: vuosikymmenten
 kerroksista, joita kukaan ei saa poistaa, siitä mitä se tekee testaamiselle,
 ja miksi Windowsin syvin osa saattaa olla sen vähiten noloa.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-are-there-so-many-bugs-in-windows/
+
 Luvut:
 0:00 Yksi erä, yksi tiistai
 0:47 Kursori vuodelta 1998
@@ -115,6 +117,8 @@ Cette vidéo parle de ce qui se passe réellement en dessous : des
 décennies de couches que personne n'a le droit de retirer, de ce que cela
 fait aux tests, et de la raison pour laquelle la partie la plus profonde
 de Windows est peut-être la moins embarrassante.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-are-there-so-many-bugs-in-windows/
 
 Chapitres :
 0:00 Un lot, un mardi
@@ -168,6 +172,8 @@ lapisan-lapisan puluhan tahun yang tidak boleh dihapus siapa pun, apa
 akibatnya bagi pengujian, dan mengapa bagian terdalam Windows mungkin
 justru bagian yang paling tidak memalukan.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-are-there-so-many-bugs-in-windows/
+
 Bab:
 0:00 Satu batch, satu Selasa
 0:47 Kursor dari tahun 1998
@@ -218,6 +224,8 @@ Questo video parla di ciò che accade davvero sotto la superficie: decenni
 di strati che nessuno può rimuovere, di che cosa questo comporta per i
 test, e del perché la parte più profonda di Windows potrebbe essere la
 meno imbarazzante.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-are-there-so-many-bugs-in-windows/
 
 Capitoli:
 0:00 Un gruppo, un martedì
@@ -271,6 +279,8 @@ jahrzehntelange Schichten, die niemand entfernen darf, was das mit dem
 Testen macht, und warum der tiefste Teil von Windows womöglich der am
 wenigsten peinliche ist.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-are-there-so-many-bugs-in-windows/
+
 Kapitel:
 0:00 Ein Schwung, ein Dienstag
 0:47 Der Mauszeiger von 1998
@@ -321,6 +331,8 @@ dokładnie wiedzieli, co budują, też się psują.
 Ten film jest o tym, co naprawdę dzieje się pod spodem: o dziesięcioleciach
 warstw, których nikomu nie wolno usunąć, o tym, co to robi z testowaniem,
 i dlaczego najgłębsza część Windowsa może być tą najmniej wstydliwą.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-are-there-so-many-bugs-in-windows/
 
 Rozdziały:
 0:00 Jedna partia, jeden wtorek
@@ -373,6 +385,8 @@ Este vídeo é sobre o que realmente acontece por baixo: décadas de camadas
 que ninguém tem permissão de remover, o que isso faz com os testes, e por
 que a parte mais profunda do Windows talvez seja a menos vergonhosa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-are-there-so-many-bugs-in-windows/
+
 Capítulos:
 0:00 Um lote, uma terça-feira
 0:47 O cursor de 1998
@@ -422,6 +436,8 @@ Bu video, altta gerçekte ne olduğunu anlatıyor: kimsenin kaldırmasına izin
 verilmeyen onlarca yıllık katmanlar, bunun teste ne yaptığı ve Windows'un
 en derin parçasının neden en az utanç verici parça olabileceği.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-are-there-so-many-bugs-in-windows/
+
 Bölümler:
 0:00 Tek paket, tek salı
 0:47 1998'den kalma imleç
@@ -470,6 +486,8 @@ Remote Desktop, спільні теки у віртуальних машинах
 Це відео про те, що насправді відбувається під поверхнею: десятиліття
 шарів, які нікому не дозволено прибрати, що це робить із тестуванням, і
 чому найглибша частина Windows, можливо, є найменш ганебною.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-are-there-so-many-bugs-in-windows/
 
 Розділи:
 0:00 Одна партія, один вівторок
@@ -521,6 +539,8 @@ Video này nói về điều thực sự diễn ra bên dưới: hàng chục n�
 không ai được phép gỡ bỏ, điều đó gây ra gì cho việc kiểm thử, và vì sao
 phần sâu nhất của Windows có lẽ lại là phần ít đáng xấu hổ nhất.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-are-there-so-many-bugs-in-windows/
+
 Các chương:
 0:00 Một đợt, một ngày thứ Ba
 0:47 Con trỏ từ năm 1998
@@ -569,6 +589,8 @@ a stavěli je lidé, co přesně věděli, co staví, se rozbíjejí taky.
 Tohle video je o tom, co se doopravdy děje vespod: o desítkách let vrstev,
 které nikdo nesmí odebrat, o tom, co to dělá s testováním, a proč je
 nejhlubší část Windows možná ta nejmíň trapná.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-are-there-so-many-bugs-in-windows/
 
 Kapitoly:
 0:00 Jedna dávka, jedno úterý
@@ -619,6 +641,8 @@ lo que estaba construyendo, también se rompen.
 Este vídeo trata de lo que ocurre de verdad por debajo: décadas de capas
 que nadie tiene permiso para quitar, lo que eso le hace a las pruebas, y
 por qué la parte más profunda de Windows quizá sea la menos vergonzosa.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-are-there-so-many-bugs-in-windows/
 
 Capítulos:
 0:00 Un lote, un martes
@@ -671,6 +695,8 @@ också sönder.
 Den här videon handlar om vad som egentligen pågår under ytan:
 årtionden av lager som ingen får ta bort, vad det gör med testningen, och
 varför den djupaste delen av Windows kanske är den minst pinsamma.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-are-there-so-many-bugs-in-windows/
 
 Kapitel:
 0:00 En omgång, en tisdag

@@ -81,6 +81,8 @@ ja creativecommons.org/licenses/by-sa/2.0
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 LUVUT
 0:00 Alkuun
 1:01 Joku todella mittasi sen
@@ -170,6 +172,8 @@ et creativecommons.org/licenses/by-sa/2.0
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 CHAPITRES
 0:00 Introduction
 1:01 Quelqu'un l'a vraiment mesuré
@@ -249,6 +253,8 @@ Lisensi: creativecommons.org/licenses/by-sa/4.0
 dan creativecommons.org/licenses/by-sa/2.0
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 BAB
 0:00 Pembuka
@@ -337,6 +343,8 @@ Licenze: creativecommons.org/licenses/by-sa/4.0
 e creativecommons.org/licenses/by-sa/2.0
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 CAPITOLI
 0:00 Introduzione
@@ -440,6 +448,8 @@ und creativecommons.org/licenses/by-sa/2.0
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 KAPITEL
 0:00 Einleitung
 1:01 Jemand hat es tatsächlich gemessen
@@ -538,6 +548,8 @@ Licencje: creativecommons.org/licenses/by-sa/4.0
 i creativecommons.org/licenses/by-sa/2.0
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 ROZDZIAŁY
 0:00 Wstęp
@@ -639,6 +651,8 @@ e creativecommons.org/licenses/by-sa/2.0
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 CAPÍTULOS
 0:00 Introdução
 1:01 Alguém mediu de verdade
@@ -718,6 +732,8 @@ ve creativecommons.org/licenses/by-sa/2.0
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 BÖLÜMLER
 0:00 Giriş
 1:01 Birileri bunu gerçekten ölçtü
@@ -785,6 +801,8 @@ Roasted Vegetables (2897937502) — Mack Male, CC BY-SA 2.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 РОЗДІЛИ
 0:00 Вступ
 1:01 Хтось це справді виміряв
@@ -851,6 +869,8 @@ Giấy phép: creativecommons.org/licenses/by-sa/4.0
 và creativecommons.org/licenses/by-sa/2.0
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 CÁC CHƯƠNG
 0:00 Mở đầu
@@ -934,6 +954,8 @@ Licence: creativecommons.org/licenses/by-sa/4.0
 a creativecommons.org/licenses/by-sa/2.0
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 KAPITOLY
 0:00 Úvod
@@ -1023,6 +1045,8 @@ Licencias: creativecommons.org/licenses/by-sa/4.0
 y creativecommons.org/licenses/by-sa/2.0
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 CAPÍTULOS
 0:00 Introducción
@@ -1119,6 +1143,8 @@ Licenser: creativecommons.org/licenses/by-sa/4.0
 och creativecommons.org/licenses/by-sa/2.0
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
 
 KAPITEL
 0:00 Inledning

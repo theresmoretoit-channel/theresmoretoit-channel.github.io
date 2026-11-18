@@ -39,6 +39,8 @@ None of which invented the shame. People had minded the smell for centuries. Wha
 
 And somebody is reading that signature. People reach for the word pheromone; in humans not one has ever been found. A dog does not need one. Four dogs in Belfast picked the stressed breath and sweat of the same person out of seven hundred and twenty trials, and got it right ninety-four per cent of the time. To the dog none of that is a failing — it is simply what today smells like.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-humans-smell/
+
 Chapters
 0:00 Your sweat does not smell
 1:25 A few molecules in every billion

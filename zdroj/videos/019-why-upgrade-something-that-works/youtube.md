@@ -40,6 +40,8 @@ question is: when this breaks, will anyone still be able to fix it?
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-upgrade-something-that-works/
+
 CHAPTERS
 0:00 They already know
 0:26 "But it works"

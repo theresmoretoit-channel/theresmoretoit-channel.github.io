@@ -65,6 +65,8 @@ Lähteet: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-we-travel-faster-than-light/
+
 LUVUT
 00:00 Vastaus ennen viestiä
 00:40 Nopeusrajoituksen mittaaminen
@@ -104,6 +106,8 @@ La vidéo précédente, sur les moteurs à distorsion et les trous de ver : Que 
 Sources : W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. Phys. 32, 551 (1964); A. Einstein, Relativity: The Special and General Theory (1917), §8–9; Benford, Book & Newcomb, The Tachyonic Antitelephone, Phys. Rev. D 2, 263 (1970); Nagel et al., Nat. Commun. 6, 8174 (2015); OPERA (arXiv 1109.4897) and ICARUS (arXiv 1203.3433); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); S. Hawking, Chronology protection conjecture, Phys. Rev. D 46, 603 (1992); Friedman et al., Phys. Rev. D 42, 1915 (1990); Echeverria, Klinkhammer & Thorne, Phys. Rev. D 44, 1077 (1991).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-we-travel-faster-than-light/
 
 CHAPITRES
 00:00 Une réponse avant le message
@@ -145,6 +149,8 @@ Sumber: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-we-travel-faster-than-light/
+
 BAB
 00:00 Balasan sebelum pesan dikirim
 00:40 Mengukur batas kecepatan
@@ -184,6 +190,8 @@ Il video precedente, sui motori a curvatura e i wormhole: Cosa servirebbe per vi
 Fonti: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. Phys. 32, 551 (1964); A. Einstein, Relativity: The Special and General Theory (1917), §8–9; Benford, Book & Newcomb, The Tachyonic Antitelephone, Phys. Rev. D 2, 263 (1970); Nagel et al., Nat. Commun. 6, 8174 (2015); OPERA (arXiv 1109.4897) and ICARUS (arXiv 1203.3433); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); S. Hawking, Chronology protection conjecture, Phys. Rev. D 46, 603 (1992); Friedman et al., Phys. Rev. D 42, 1915 (1990); Echeverria, Klinkhammer & Thorne, Phys. Rev. D 44, 1077 (1991).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-we-travel-faster-than-light/
 
 CAPITOLI
 00:00 Una risposta prima del messaggio
@@ -225,6 +233,8 @@ Quellen: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J.
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-we-travel-faster-than-light/
+
 KAPITEL
 00:00 Eine Antwort vor der Nachricht
 00:40 Das Tempolimit messen
@@ -264,6 +274,8 @@ Poprzedni film, o napędzie warp i tunelach czasoprzestrzennych: Czego potrzeba,
 Źródła: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. Phys. 32, 551 (1964); A. Einstein, Relativity: The Special and General Theory (1917), §8–9; Benford, Book & Newcomb, The Tachyonic Antitelephone, Phys. Rev. D 2, 263 (1970); Nagel et al., Nat. Commun. 6, 8174 (2015); OPERA (arXiv 1109.4897) and ICARUS (arXiv 1203.3433); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); S. Hawking, Chronology protection conjecture, Phys. Rev. D 46, 603 (1992); Friedman et al., Phys. Rev. D 42, 1915 (1990); Echeverria, Klinkhammer & Thorne, Phys. Rev. D 44, 1077 (1991).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-we-travel-faster-than-light/
 
 ROZDZIAŁY
 00:00 Odpowiedź przed wiadomością
@@ -305,6 +317,8 @@ Fontes: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-we-travel-faster-than-light/
+
 CAPÍTULOS
 00:00 Uma resposta antes da mensagem
 00:40 Medindo o limite de velocidade
@@ -344,6 +358,8 @@ Warp sürücüleri ve solucan delikleri üzerine önceki video: Işıktan hızl�
 Kaynaklar: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. Phys. 32, 551 (1964); A. Einstein, Relativity: The Special and General Theory (1917), §8–9; Benford, Book & Newcomb, The Tachyonic Antitelephone, Phys. Rev. D 2, 263 (1970); Nagel et al., Nat. Commun. 6, 8174 (2015); OPERA (arXiv 1109.4897) and ICARUS (arXiv 1203.3433); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); S. Hawking, Chronology protection conjecture, Phys. Rev. D 46, 603 (1992); Friedman et al., Phys. Rev. D 42, 1915 (1990); Echeverria, Klinkhammer & Thorne, Phys. Rev. D 44, 1077 (1991).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-we-travel-faster-than-light/
 
 BÖLÜMLER
 00:00 Mesajdan önce gelen yanıt
@@ -385,6 +401,8 @@ Diğer tüm arşiv görselleri: NASA, kamu malı.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-we-travel-faster-than-light/
+
 РОЗДІЛИ
 00:00 Відповідь раніше за повідомлення
 00:40 Вимірюємо обмеження швидкості
@@ -424,6 +442,8 @@ Video trước, về động cơ warp và lỗ giun: Cần những gì để du 
 Nguồn: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. Phys. 32, 551 (1964); A. Einstein, Relativity: The Special and General Theory (1917), §8–9; Benford, Book & Newcomb, The Tachyonic Antitelephone, Phys. Rev. D 2, 263 (1970); Nagel et al., Nat. Commun. 6, 8174 (2015); OPERA (arXiv 1109.4897) and ICARUS (arXiv 1203.3433); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); S. Hawking, Chronology protection conjecture, Phys. Rev. D 46, 603 (1992); Friedman et al., Phys. Rev. D 42, 1915 (1990); Echeverria, Klinkhammer & Thorne, Phys. Rev. D 44, 1077 (1991).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-we-travel-faster-than-light/
 
 CHƯƠNG
 00:00 Lời đáp đến trước tin nhắn
@@ -465,6 +485,8 @@ Zdroje: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-we-travel-faster-than-light/
+
 KAPITOLY
 00:00 Odpověď dřív než zpráva
 00:40 Jak se měřil rychlostní limit
@@ -505,6 +527,8 @@ Fuentes: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J.
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-we-travel-faster-than-light/
+
 CAPÍTULOS
 00:00 Una respuesta antes del mensaje
 00:40 Medir el límite de velocidad
@@ -544,6 +568,8 @@ Den förra videon, om varpdrift och maskhål: Vad skulle krävas för att färda
 Källor: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J. Phys. 32, 551 (1964); A. Einstein, Relativity: The Special and General Theory (1917), §8–9; Benford, Book & Newcomb, The Tachyonic Antitelephone, Phys. Rev. D 2, 263 (1970); Nagel et al., Nat. Commun. 6, 8174 (2015); OPERA (arXiv 1109.4897) and ICARUS (arXiv 1203.3433); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); S. Hawking, Chronology protection conjecture, Phys. Rev. D 46, 603 (1992); Friedman et al., Phys. Rev. D 42, 1915 (1990); Echeverria, Klinkhammer & Thorne, Phys. Rev. D 44, 1077 (1991).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-we-travel-faster-than-light/
 
 KAPITEL
 00:00 Ett svar före meddelandet

@@ -26,6 +26,8 @@ We take that apart on the Nazca Lines and on the lid of Pakal's sarcophagus at P
 
 Then the uncomfortable part: the method doesn't need a liar. It works perfectly well in the hands of a believer. And once television got hold of it, it didn't need the believer either.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-do-you-sell-a-mystery/
+
 Chapters
 0:00 A way of telling a story
 0:24 A hotel manager, arrested

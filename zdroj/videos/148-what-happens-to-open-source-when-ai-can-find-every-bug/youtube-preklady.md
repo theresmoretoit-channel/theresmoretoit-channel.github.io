@@ -34,6 +34,8 @@ Lähteet: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 LUVUT
 00:00 948 tietä sisään
 00:42 Julkinen koodi
@@ -75,6 +77,8 @@ Cette vidéo passe en revue le test d'OpenAI sur le noyau Linux, le mois record 
 Sources : OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2026); Linux kernel documentation, security-bugs.rst; Linus Torvalds, Linux 7.1-rc4 announcement (2026); Eric S. Raymond, The Cathedral and the Bazaar (1999); Phoronix; TechSpot; The Register.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
 
 CHAPITRES
 00:00 948 façons d'entrer
@@ -118,6 +122,8 @@ Sumber: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (20
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 BAB
 00:00 948 cara masuk
 00:42 Kode publik
@@ -159,6 +165,8 @@ Questo video racconta il test di OpenAI sul kernel Linux, il mese record di corr
 Fonti: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2026); Linux kernel documentation, security-bugs.rst; Linus Torvalds, Linux 7.1-rc4 announcement (2026); Eric S. Raymond, The Cathedral and the Bazaar (1999); Phoronix; TechSpot; The Register.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
 
 CAPITOLI
 00:00 948 modi per entrare
@@ -202,6 +210,8 @@ Quellen: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 KAPITEL
 00:00 948 Wege hinein
 00:42 Öffentlicher Code
@@ -243,6 +253,8 @@ Ten film opowiada o teście OpenAI na jądrze Linuksa, rekordowym miesiącu popr
 Źródła: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2026); Linux kernel documentation, security-bugs.rst; Linus Torvalds, Linux 7.1-rc4 announcement (2026); Eric S. Raymond, The Cathedral and the Bazaar (1999); Phoronix; TechSpot; The Register.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
 
 ROZDZIAŁY
 00:00 948 sposobów, żeby wejść
@@ -286,6 +298,8 @@ Fontes: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (20
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 CAPÍTULOS
 00:00 948 formas de entrar
 00:42 Código público
@@ -327,6 +341,8 @@ Bu video, OpenAI'ın Linux çekirdeği üzerindeki test çalışmasını, Micros
 Kaynaklar: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2026); Linux kernel documentation, security-bugs.rst; Linus Torvalds, Linux 7.1-rc4 announcement (2026); Eric S. Raymond, The Cathedral and the Bazaar (1999); Phoronix; TechSpot; The Register.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
 
 BÖLÜMLER
 00:00 İçeri girmenin 948 yolu
@@ -370,6 +386,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 РОЗДІЛИ
 00:00 948 шляхів усередину
 00:42 Відкритий код
@@ -411,6 +429,8 @@ Video này đi qua đợt thử nghiệm của OpenAI trên nhân Linux, tháng 
 Nguồn: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2026); Linux kernel documentation, security-bugs.rst; Linus Torvalds, Linux 7.1-rc4 announcement (2026); Eric S. Raymond, The Cathedral and the Bazaar (1999); Phoronix; TechSpot; The Register.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
 
 CHƯƠNG
 00:00 948 cách để vào
@@ -454,6 +474,8 @@ Zdroje: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (20
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 KAPITOLY
 00:00 948 cest dovnitř
 00:42 Veřejný kód
@@ -496,6 +518,8 @@ Fuentes: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
+
 CAPÍTULOS
 00:00 948 formas de entrar
 00:42 Código público
@@ -537,6 +561,8 @@ Videon går igenom OpenAI:s testkörning på Linuxkärnan, Microsofts rekordmån
 Källor: OpenAI, "A thousand fewer paths to root" (2026); Anthropic, "N-days" (2026); Linux kernel documentation, security-bugs.rst; Linus Torvalds, Linux 7.1-rc4 announcement (2026); Eric S. Raymond, The Cathedral and the Bazaar (1999); Phoronix; TechSpot; The Register.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-happens-to-open-source-when-ai-can-find-every-bug/
 
 KAPITEL
 00:00 948 vägar in

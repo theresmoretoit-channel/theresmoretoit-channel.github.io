@@ -48,6 +48,8 @@ Lähteet: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, Pow
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-the-b-52-still-flying-70-years-later/
+
 LUVUT
 00:00 Rakennettu 1962, suunnitelmissa 2050-luvulle
 00:38 Vastauksen ensimmäinen osa
@@ -82,6 +84,8 @@ Cette vidéo suit le B-52 depuis un week-end dans un hôtel de Dayton en 1948, o
 Sources : National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, l’affaire Powers) ; Boeing, B-52 Design: Dayton Hotel Birthplace of Jet-powered Bomber (2002) ; AFLCMC History Office, The B-52's First Flight (2026) ; US Air Force B-52H fact sheet ; Barksdale AFB, Ripped Off: The Story of No. 61-023 ; conférence de presse du président Carter du 30 juin 1977 ; Air & Space Forces Magazine, A Tale of Two Bombers et U-2 Down ; US Office of the Historian sur l’incident de l’U-2 ; US Government Accountability Office, GAO-26-109272 (juillet 2026) ; Defense Science Board, Task Force on B-52H Re-Engining (2004) ; Defense News, septembre 2026.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-the-b-52-still-flying-70-years-later/
 
 CHAPITRES
 00:00 Construit en 1962, en service prévu jusqu’aux années 2050
@@ -118,6 +122,8 @@ Sumber: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, insid
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-the-b-52-still-flying-70-years-later/
+
 BAB
 00:00 Dibuat tahun 1962, direncanakan terbang sampai 2050-an
 00:38 Bagian pertama jawabannya
@@ -152,6 +158,8 @@ Questo video segue il B-52 da un fine settimana in un hotel di Dayton nel 1948, 
 Fonti: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, il caso Powers); Boeing, B-52 Design: Dayton Hotel Birthplace of Jet-powered Bomber (2002); AFLCMC History Office, The B-52's First Flight (2026); US Air Force B-52H fact sheet; Barksdale AFB, Ripped Off: The Story of No. 61-023; conferenza stampa del presidente Carter del 30 giugno 1977; Air & Space Forces Magazine, A Tale of Two Bombers e U-2 Down; US Office of the Historian sull’incidente dell’U-2; US Government Accountability Office, GAO-26-109272 (luglio 2026); Defense Science Board, Task Force on B-52H Re-Engining (2004); Defense News, settembre 2026.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-the-b-52-still-flying-70-years-later/
 
 CAPITOLI
 00:00 Costruito nel 1962, destinato a volare fino agli anni 2050
@@ -188,6 +196,8 @@ Quellen: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, der 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-the-b-52-still-flying-70-years-later/
+
 KAPITEL
 00:00 Gebaut 1962, eingeplant bis in die 2050er
 00:38 Der erste Teil der Antwort
@@ -222,6 +232,8 @@ Ten film śledzi losy B-52 od weekendu w hotelu w Dayton w 1948 roku, kiedy inż
 Źródła: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, incydent z Powersem); Boeing, B-52 Design: Dayton Hotel Birthplace of Jet-powered Bomber (2002); AFLCMC History Office, The B-52's First Flight (2026); US Air Force B-52H fact sheet; Barksdale AFB, Ripped Off: The Story of No. 61-023; konferencja prasowa prezydenta Cartera z 30 czerwca 1977 r.; Air & Space Forces Magazine, A Tale of Two Bombers i U-2 Down; US Office of the Historian o incydencie z U-2; US Government Accountability Office, GAO-26-109272 (lipiec 2026); Defense Science Board, Task Force on B-52H Re-Engining (2004); Defense News, wrzesień 2026.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-the-b-52-still-flying-70-years-later/
 
 ROZDZIAŁY
 00:00 Zbudowany w 1962, w planach do lat 50. XXI wieku
@@ -258,6 +270,8 @@ Fontes: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, o inc
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-the-b-52-still-flying-70-years-later/
+
 CAPÍTULOS
 00:00 Construído em 1962, com voos previstos até a década de 2050
 00:38 A primeira parte da resposta
@@ -292,6 +306,8 @@ Bu video, B-52'yi 1948'de Dayton'daki bir otelde geçen bir hafta sonundan, yani
 Kaynaklar: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, Powers olayı); Boeing, B-52 Design: Dayton Hotel Birthplace of Jet-powered Bomber (2002); AFLCMC History Office, The B-52's First Flight (2026); US Air Force B-52H fact sheet; Barksdale AFB, Ripped Off: The Story of No. 61-023; Başkan Carter'ın 30 Haziran 1977 tarihli basın toplantısı; Air & Space Forces Magazine, A Tale of Two Bombers ve U-2 Down; US Office of the Historian, U-2 olayı üzerine; US Government Accountability Office, GAO-26-109272 (Temmuz 2026); Defense Science Board, Task Force on B-52H Re-Engining (2004); Defense News, Eylül 2026.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-the-b-52-still-flying-70-years-later/
 
 BÖLÜMLER
 00:00 1962'de üretildi, 2050'lere kadar uçması planlanıyor
@@ -328,6 +344,8 @@ Tüm arşiv görselleri kamu malıdır (US Air Force, US Navy ve diğerleri, Wik
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-the-b-52-still-flying-70-years-later/
+
 РОЗДІЛИ
 00:00 Збудований у 1962-му, у планах до 2050-х
 00:38 Перша частина відповіді
@@ -362,6 +380,8 @@ Video này theo chân B-52 từ một dịp cuối tuần tại một khách s�
 Nguồn: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, sự cố Powers); Boeing, B-52 Design: Dayton Hotel Birthplace of Jet-powered Bomber (2002); AFLCMC History Office, The B-52's First Flight (2026); US Air Force B-52H fact sheet; Barksdale AFB, Ripped Off: The Story of No. 61-023; cuộc họp báo của Tổng thống Carter ngày 30 tháng 6 năm 1977; Air & Space Forces Magazine, A Tale of Two Bombers và U-2 Down; US Office of the Historian về sự cố U-2; US Government Accountability Office, GAO-26-109272 (tháng 7 năm 2026); Defense Science Board, Task Force on B-52H Re-Engining (2004); Defense News, tháng 9 năm 2026.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-the-b-52-still-flying-70-years-later/
 
 CHƯƠNG
 00:00 Chế tạo năm 1962, dự kiến bay đến thập niên 2050
@@ -398,6 +418,8 @@ Zdroje: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, incid
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-the-b-52-still-flying-70-years-later/
+
 KAPITOLY
 00:00 Postavený v roce 1962, v plánu až do 50. let 21. století
 00:38 První část odpovědi
@@ -433,6 +455,8 @@ Fuentes: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, el i
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-the-b-52-still-flying-70-years-later/
+
 CAPÍTULOS
 00:00 Construido en 1962, con servicio previsto hasta la década de 2050
 00:38 La primera parte de la respuesta
@@ -467,6 +491,8 @@ Den här videon följer B-52:an från en helg på ett hotell i Dayton 1948, då 
 Källor: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, Powersincidenten); Boeing, B-52 Design: Dayton Hotel Birthplace of Jet-powered Bomber (2002); AFLCMC History Office, The B-52's First Flight (2026); US Air Force B-52H fact sheet; Barksdale AFB, Ripped Off: The Story of No. 61-023; president Carters presskonferens den 30 juni 1977; Air & Space Forces Magazine, A Tale of Two Bombers och U-2 Down; US Office of the Historian om U-2-incidenten; US Government Accountability Office, GAO-26-109272 (juli 2026); Defense Science Board, Task Force on B-52H Re-Engining (2004); Defense News, september 2026.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-the-b-52-still-flying-70-years-later/
 
 KAPITEL
 00:00 Byggd 1962, ska flyga in på 2050-talet

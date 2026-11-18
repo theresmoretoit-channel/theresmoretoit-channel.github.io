@@ -51,6 +51,8 @@ Matkan varrella: sääntö kenkien riisumisesta, joka päättyi hiljaa vuonna 20
 
 Ja sitten se osa, joka ei ole geopolitiikkaa lainkaan. Lähes 3 000 ihmistä olisi yhä elossa. Vuonna 2026 olisi kokonaisia perheitä, joita meidän aikajanallamme ei yksinkertaisesti ole.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-if-9-11-never-happened/
+
 Luvut
 00:00 Aamu, jona ei tapahtunut mitään
 00:36 Maailma, jossa sitä ei koskaan tapahtunut
@@ -120,6 +122,8 @@ trois mille personnes seraient encore en vie. En 2026, il y aurait des
 familles entières qui n'existent tout simplement pas dans notre ligne
 du temps.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-if-9-11-never-happened/
+
 Chapitres
 00:00 Le matin où rien ne s'est passé
 00:36 Un monde où cela n'a jamais eu lieu
@@ -168,6 +172,8 @@ Ini bukan video tentang serangan itu. Ini video tentang dunia yang mungkin kita 
 Video ini juga membahas: aturan melepas sepatu, yang berakhir diam-diam pada 2025 karena pemindainya membaik, bukan karena ketakutannya reda; laporan Parlemen Eropa tentang penyadapan komunikasi global, terbit pada 11 Juli 2001, dua bulan sebelum serangan; lembaga yang belum ada sampai dua bulan delapan hari setelahnya; dan alasan kenapa menghapus satu bencana tidak memberimu sejarah yang damai, hanya sejarah yang berbeda.
 
 Lalu ada bagian yang sama sekali bukan geopolitik. Hampir 3.000 orang akan tetap hidup. Pada 2026 akan ada keluarga-keluarga utuh yang di lini masa kita sama sekali tidak ada.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-if-9-11-never-happened/
 
 Bab
 00:00 Pagi ketika tidak terjadi apa-apa
@@ -234,6 +240,8 @@ ma solo un'altra storia.
 E poi la parte che non è più geopolitica. Quasi tremila persone sarebbero
 ancora vive. Nel 2026 esisterebbero famiglie intere che semplicemente non
 esistono nella nostra linea temporale.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-if-9-11-never-happened/
 
 Capitoli
 00:00 La mattina in cui non è successo niente
@@ -304,6 +312,8 @@ Und dann der Teil, der gar nicht mehr Geopolitik ist. Fast dreitausend
 Menschen würden noch leben. Im Jahr 2026 gäbe es ganze Familien, die es
 in unserem Zeitstrang schlicht nicht gibt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-if-9-11-never-happened/
+
 Kapitel
 00:00 Der Morgen, an dem nichts geschah
 00:36 Eine Welt, in der es nie passierte
@@ -370,6 +380,8 @@ historii, tylko inną.
 A potem część, która nie jest już geopolityką. Prawie trzy tysiące osób
 nadal by żyło. W 2026 roku istniałyby całe rodziny, których w naszej
 wersji dziejów po prostu nie ma.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-if-9-11-never-happened/
 
 Rozdziały
 00:00 Poranek, kiedy nic się nie stało
@@ -439,6 +451,8 @@ E depois a parte que já não é geopolítica. Quase três mil pessoas ainda
 estariam vivas. Em 2026 existiriam famílias inteiras que simplesmente não
 existem na nossa linha do tempo.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-if-9-11-never-happened/
+
 Capítulos
 00:00 A manhã em que nada aconteceu
 00:36 Um mundo onde nunca aconteceu
@@ -488,6 +502,8 @@ Bu bölümde ayrıca: ayakkabıları çıkarma kuralı — 2025’te sessizce so
 
 Ve sonra hiç jeopolitik olmayan kısım. Yaklaşık 3.000 kişi hâlâ hayatta olurdu. 2026’da, bizim zaman çizgimizde hiç var olmayan koca aileler olurdu.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-if-9-11-never-happened/
+
 Bölümler
 00:00 Hiçbir şeyin olmadığı sabah
 00:36 Hiç yaşanmamış olsaydı
@@ -535,6 +551,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 А потім та частина, яка взагалі не про геополітику. Майже 3 000 людей були б досі живі. У 2026 році існували б цілі родини, яких у нашій лінії часу просто немає.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-if-9-11-never-happened/
+
 Розділи
 00:00 Ранок, коли нічого не сталося
 00:36 Світ, у якому цього не було
@@ -581,6 +599,8 @@ Giờ hãy tua nhanh 25 năm. Bao nhiêu phần của thế giới bạn đang s
 Video cũng đề cập đến: quy định cởi giày, thứ lặng lẽ chấm dứt năm 2025 vì máy quét tốt lên chứ không phải vì nỗi sợ nguôi đi; báo cáo của Nghị viện châu Âu về việc nghe lén liên lạc toàn cầu, công bố ngày 11 tháng 7 năm 2001, hai tháng trước các vụ tấn công; cơ quan chưa hề tồn tại cho đến hai tháng tám ngày sau đó; và lý do vì sao xóa đi một thảm họa không cho bạn một lịch sử yên bình, mà chỉ là một lịch sử khác.
 
 Rồi đến phần chẳng liên quan gì tới địa chính trị. Gần 3.000 người hẳn vẫn còn sống. Đến năm 2026 sẽ có cả những gia đình mà trong dòng thời gian của chúng ta đơn giản là không tồn tại.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-if-9-11-never-happened/
 
 Các chương
 00:00 Buổi sáng không có gì xảy ra
@@ -645,6 +665,8 @@ poklidné dějiny, ale jen jiné.
 A pak část, která už není o geopolitice. Téměř tři tisíce lidí by byly
 naživu. V roce 2026 by existovaly celé rodiny, které v naší verzi dějin
 prostě nejsou.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-if-9-11-never-happened/
 
 Kapitoly
 00:00 Ráno, kdy se nic nestalo
@@ -714,6 +736,8 @@ Y luego la parte que ya no es geopolítica. Casi tres mil personas
 seguirían vivas. En 2026 habría familias enteras que sencillamente no
 existen en nuestra línea temporal.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-if-9-11-never-happened/
+
 Capítulos
 00:00 La mañana en que no pasó nada
 00:36 Un mundo donde nunca ocurrió
@@ -780,6 +804,8 @@ ger en fredlig historia att ta bort en katastrof, bara en annan historia.
 Och sedan den del som inte alls handlar om geopolitik. Nästan tre tusen
 människor skulle fortfarande leva. År 2026 skulle det finnas hela
 familjer som helt enkelt inte finns i vår tidslinje.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-if-9-11-never-happened/
 
 Kapitel
 00:00 Morgonen då ingenting hände

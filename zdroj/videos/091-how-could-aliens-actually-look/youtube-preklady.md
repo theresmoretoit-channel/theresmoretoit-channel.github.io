@@ -39,6 +39,8 @@ Maa on jo tuottanut olentoja, jotka ovat oudompia kuin useimmat tieteiskertomuks
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-could-aliens-actually-look/
+
 LUVUT
 00:00 Mitä kuvittelemme
 00:39 Aisteja, joita meillä ei ole
@@ -81,6 +83,8 @@ Quand on imagine des extraterrestres, on imagine en général des humains à que
 La Terre a déjà produit des créatures plus étranges que celles de la plupart des œuvres de science-fiction : des poissons qui se parlent avec l'électricité, des vers sans bouche qui ne mangent jamais, un myxomycète sans cerveau qui résout des labyrinthes, et une forêt de l'Utah qui est un seul être vivant. Alors, à quoi pourrait vraiment ressembler la vie ailleurs — et saurions-nous seulement la reconnaître ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-could-aliens-actually-look/
 
 CHAPITRES
 00:00 Ce qu'on imagine
@@ -125,6 +129,8 @@ Bumi sudah menciptakan makhluk yang lebih aneh daripada kebanyakan fiksi ilmiah:
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-could-aliens-actually-look/
+
 BAB
 00:00 Yang kita bayangkan
 00:39 Indra yang tidak kita miliki
@@ -167,6 +173,8 @@ Quando immaginiamo gli alieni, di solito immaginiamo persone con qualche modific
 La Terra ha già creato creature più strane di quelle della maggior parte delle opere di fantascienza: pesci che comunicano con l'elettricità, vermi senza bocca che non mangiano mai, una muffa mucillaginosa senza cervello che risolve labirinti e una foresta nello Utah che è un unico essere vivente. Allora che aspetto potrebbe avere davvero la vita altrove — e sapremmo almeno riconoscerla?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-could-aliens-actually-look/
 
 CAPITOLI
 00:00 Quello che immaginiamo
@@ -211,6 +219,8 @@ Die Erde hat schon Lebewesen hervorgebracht, die seltsamer sind als die meiste S
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-could-aliens-actually-look/
+
 KAPITEL
 00:00 Was wir uns vorstellen
 00:39 Sinne, die wir nicht haben
@@ -253,6 +263,8 @@ Kiedy wyobrażamy sobie kosmitów, zwykle widzimy ludzi z kilkoma zmianami: szar
 Ziemia stworzyła już istoty dziwniejsze niż większość science fiction: ryby, które rozmawiają za pomocą elektryczności, robaki bez ust, które nigdy nie jedzą, śluzowiec bez mózgu, który rozwiązuje labirynty, i las w Utah, który jest jedną żywą istotą. Jak więc naprawdę mogłoby wyglądać życie gdzie indziej — i czy w ogóle byśmy je rozpoznali?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-could-aliens-actually-look/
 
 ROZDZIAŁY
 00:00 Co sobie wyobrażamy
@@ -297,6 +309,8 @@ A Terra já criou criaturas mais estranhas do que as da maioria das obras de fic
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-could-aliens-actually-look/
+
 CAPÍTULOS
 00:00 O que imaginamos
 00:39 Sentidos que não temos
@@ -339,6 +353,8 @@ Uzaylıları hayal ettiğimizde, genellikle birkaç değişiklik yapılmış ins
 Dünya, çoğu bilimkurgudan daha tuhaf canlılar zaten yarattı: elektrikle konuşan balıklar, hiç yemek yemeyen ağızsız solucanlar, labirent çözen beyinsiz bir cıvık mantar ve Utah'ta tek bir canlı olan bir orman. Peki başka yerlerdeki yaşam aslında neye benzeyebilir — ve onu tanıyabilir miyiz ki?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-could-aliens-actually-look/
 
 BÖLÜMLER
 00:00 Hayal ettiğimiz şey
@@ -383,6 +399,8 @@ Licences: creativecommons.org/licenses/by-sa/4.0, creativecommons.org/licenses/b
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-could-aliens-actually-look/
+
 РОЗДІЛИ
 00:00 Що ми уявляємо
 00:39 Чуття, яких у нас немає
@@ -425,6 +443,8 @@ Khi hình dung người ngoài hành tinh, chúng ta thường nghĩ đến con 
 Trái Đất đã tạo ra những sinh vật còn kỳ lạ hơn những gì thường thấy trong khoa học viễn tưởng: những loài cá trò chuyện bằng điện, những con giun không có miệng và không bao giờ ăn, một loài nấm nhầy không có não nhưng giải được mê cung, và một khu rừng ở Utah thực chất là một sinh vật sống duy nhất. Vậy sự sống ở nơi khác thực sự có thể trông như thế nào — và liệu chúng ta có nhận ra nó không?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-could-aliens-actually-look/
 
 CHƯƠNG
 00:00 Những gì ta hình dung
@@ -469,6 +489,8 @@ Země už vytvořila tvory podivnější než většina sci-fi: ryby, které spo
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-could-aliens-actually-look/
+
 KAPITOLY
 00:00 Co si představujeme
 00:39 Smysly, které nemáme
@@ -512,6 +534,8 @@ La Tierra ya ha creado criaturas más extrañas que las de la mayoría de las ob
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-could-aliens-actually-look/
+
 CAPÍTULOS
 00:00 Lo que imaginamos
 00:39 Sentidos que no tenemos
@@ -554,6 +578,8 @@ När vi föreställer oss utomjordingar föreställer vi oss oftast människor m
 Jorden har redan skapat varelser som är konstigare än det mesta inom science fiction: fiskar som pratar med hjälp av elektricitet, maskar utan mun som aldrig äter, en slemsvamp utan hjärna som löser labyrinter och en skog i Utah som är en enda levande varelse. Så hur skulle liv någon annanstans egentligen kunna se ut – och skulle vi ens känna igen det?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-could-aliens-actually-look/
 
 KAPITEL
 00:00 Det vi föreställer oss

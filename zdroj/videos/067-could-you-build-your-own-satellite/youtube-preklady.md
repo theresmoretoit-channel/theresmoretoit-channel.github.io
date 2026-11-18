@@ -47,6 +47,8 @@ standardoidun. Ja se osoittautuu yllättävän suureksi muutokseksi.
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/could-you-build-your-own-satellite/
+
 LUVUT
 00:00 Hullu idea
 00:27 Tässä on CubeSat
@@ -98,6 +100,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés
 automatiquement. Une piste audio en anglais américain est disponible en
 seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/could-you-build-your-own-satellite/
+
 CHAPITRES
 00:00 Une idée folle
 00:27 Voici le CubeSat
@@ -147,6 +151,8 @@ terstandardisasi. Dan itu ternyata perubahan yang ternyata jauh lebih besar dari
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/could-you-build-your-own-satellite/
 
 BAB
 00:00 Sebuah ide gila
@@ -199,6 +205,8 @@ questo si rivela un cambiamento sorprendentemente grande.
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una seconda traccia audio in inglese americano.
 
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/could-you-build-your-own-satellite/
+
 CAPITOLI
 00:00 Un'idea folle
 00:27 Ecco il CubeSat
@@ -249,6 +257,8 @@ standardisiert. Und das erweist sich als überraschend große Veränderung.
 Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/could-you-build-your-own-satellite/
 
 KAPITEL
 00:00 Eine verrückte Idee
@@ -301,6 +311,8 @@ ustandaryzowany. A to okazuje się zaskakująco dużą zmianą.
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/could-you-build-your-own-satellite/
+
 ROZDZIAŁY
 00:00 Szalony pomysł
 00:27 Oto CubeSat
@@ -352,6 +364,8 @@ acaba sendo uma mudança surpreendentemente grande.
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/could-you-build-your-own-satellite/
+
 CAPÍTULOS
 00:00 Uma ideia maluca
 00:27 Conheça o CubeSat
@@ -400,6 +414,8 @@ CubeSat'ler uzayı kolaylaştırmadı. Onu standartlaştırdı. Ve bu, şaşırt
 derecede büyük bir değişiklik olarak ortaya çıkıyor.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/could-you-build-your-own-satellite/
 
 BÖLÜMLER
 00:00 Çılgın bir fikir
@@ -451,6 +467,8 @@ CubeSat не зробили космос легким. Вони зробили �
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою
 звуковою доріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/could-you-build-your-own-satellite/
+
 РОЗДІЛИ
 00:00 Божевільна ідея
 00:27 Знайомтеся, CubeSat
@@ -500,6 +518,8 @@ CubeSat không làm cho vũ trụ trở nên dễ dàng. Chúng đã tiêu chu�
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một
 bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/could-you-build-your-own-satellite/
+
 CHƯƠNG
 00:00 Một ý tưởng điên rồ
 00:27 Làm quen với CubeSat
@@ -548,6 +568,8 @@ ukazuje jako překvapivě velká změna.
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/could-you-build-your-own-satellite/
 
 KAPITOLY
 00:00 Bláznivý nápad
@@ -601,6 +623,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano como segunda
 pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/could-you-build-your-own-satellite/
+
 CAPÍTULOS
 00:00 Una idea descabellada
 00:27 Este es el CubeSat
@@ -651,6 +675,8 @@ visar sig vara en förvånansvärt stor förändring.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/could-you-build-your-own-satellite/
 
 KAPITEL
 00:00 En galen idé

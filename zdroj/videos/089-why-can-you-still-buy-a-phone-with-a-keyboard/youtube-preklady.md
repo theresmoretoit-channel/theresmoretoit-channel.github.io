@@ -39,6 +39,8 @@ BlackBerrystä Unihertz Titaniin, Astro Slideen, F(x)tec Pro1 X:ään ja Clicks 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 LUVUT
 00:00 Uusi puhelin näppäimistöllä
 00:35 BlackBerry
@@ -76,6 +78,8 @@ Les écrans tactiles ont gagné ce combat il y a plus de quinze ans. Alors pourq
 Du BlackBerry à l'Unihertz Titan, l'Astro Slide, le F(x)tec Pro1 X et le Clicks Communicator : que peuvent faire de vraies touches que le verre ne sait pas faire, pourquoi Samsung, Apple ou Google ne font-ils pas ce genre de téléphone — et le clavier sur un téléphone est-il vraiment mort ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
 
 CHAPITRES
 00:00 Un téléphone neuf avec un clavier
@@ -115,6 +119,8 @@ Dari BlackBerry sampai Unihertz Titan, Astro Slide, F(x)tec Pro1 X, dan Clicks C
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 BAB
 00:00 Ponsel baru dengan keyboard
 00:35 BlackBerry
@@ -152,6 +158,8 @@ Gli schermi touch hanno vinto questa battaglia più di quindici anni fa. Allora 
 Dal BlackBerry all'Unihertz Titan, all'Astro Slide, all'F(x)tec Pro1 X e al Clicks Communicator: che cosa sanno fare i tasti fisici che il vetro non sa fare, perché Samsung, Apple o Google non fanno telefoni così — e la tastiera sul telefono è davvero morta?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
 
 CAPITOLI
 00:00 Un telefono nuovo con la tastiera
@@ -191,6 +199,8 @@ Vom BlackBerry über das Unihertz Titan, das Astro Slide und das F(x)tec Pro1 X 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 KAPITEL
 00:00 Ein neues Handy mit Tastatur
 00:35 BlackBerry
@@ -228,6 +238,8 @@ Ekrany dotykowe wygrały tę walkę ponad piętnaście lat temu. To dlaczego tak
 Od BlackBerry przez Unihertz Titan, Astro Slide i F(x)tec Pro1 X po Clicks Communicator: co potrafią fizyczne klawisze, czego nie potrafi szkło, dlaczego Samsung, Apple czy Google nie robią takich telefonów — i czy klawiatura w telefonie naprawdę umarła?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
 
 ROZDZIAŁY
 00:00 Nowy telefon z klawiaturą
@@ -267,6 +279,8 @@ Do BlackBerry ao Unihertz Titan, ao Astro Slide, ao F(x)tec Pro1 X e ao Clicks C
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 CAPÍTULOS
 00:00 Um celular novo com teclado
 00:35 BlackBerry
@@ -304,6 +318,8 @@ Dokunmatik ekranlar bu savaşı on beş yıldan uzun süre önce kazandı. Peki 
 BlackBerry'den Unihertz Titan'a, Astro Slide'a, F(x)tec Pro1 X'e ve Clicks Communicator'a: fiziksel tuşlar camın yapamadığı neyi yapabiliyor, Samsung, Apple ya da Google neden böyle telefonlar yapmıyor — ve telefondaki klavye gerçekten öldü mü?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
 
 BÖLÜMLER
 00:00 Klavyeli yeni bir telefon
@@ -343,6 +359,8 @@ Licences: creativecommons.org/licenses/by-sa/2.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 РОЗДІЛИ
 00:00 Новий телефон із клавіатурою
 00:35 BlackBerry
@@ -380,6 +398,8 @@ Màn hình cảm ứng đã thắng cuộc chiến này từ hơn mười lăm n
 Từ BlackBerry đến Unihertz Titan, Astro Slide, F(x)tec Pro1 X và Clicks Communicator: phím vật lý làm được gì mà mặt kính không làm được, vì sao Samsung, Apple hay Google không làm điện thoại kiểu này — và bàn phím trên điện thoại có thực sự đã chết?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
 
 CHƯƠNG
 00:00 Một chiếc điện thoại mới có bàn phím
@@ -419,6 +439,8 @@ Od BlackBerry přes Unihertz Titan, Astro Slide a F(x)tec Pro1 X až po Clicks C
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 KAPITOLY
 00:00 Nový telefon s klávesnicí
 00:35 BlackBerry
@@ -457,6 +479,8 @@ De la BlackBerry al Unihertz Titan, el Astro Slide, el F(x)tec Pro1 X y el Click
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 CAPÍTULOS
 00:00 Un móvil nuevo con teclado
 00:35 BlackBerry
@@ -494,6 +518,8 @@ Pekskärmarna vann den här striden för mer än femton år sedan. Så varför f
 Från BlackBerry till Unihertz Titan, Astro Slide, F(x)tec Pro1 X och Clicks Communicator: vad kan fysiska tangenter som glas inte kan, varför gör inte Samsung, Apple eller Google sådana telefoner – och är tangentbordet på telefonen verkligen dött?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
 
 KAPITEL
 00:00 En ny telefon med tangentbord

@@ -39,6 +39,8 @@ Lähteet: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC ma
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-a-music-cassette-store-a-computer-game/
+
 LUVUT
 00:00 Ei musiikkia vaan ohjelma
 00:33 Nolla ja ykkönen kahtena sävelenä
@@ -80,6 +82,8 @@ Le signal de chargement de cette vidéo a été généré d’après les tempori
 Sources : ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES) ; ZX Spectrum BASIC manual, chapter 20 ; BYTE, February 1976 (Kansas City Standard symposium) ; Compute!'s Gazette, December 1983 ; Michael Steil, pagetable.com, et C64-Wiki on Commodore Datassette encoding ; Compute! no. 56 (TurboTape) ; ANTIC vol. 1 no. 4 (Atari cassette) ; Ventilator 202 (Radio Belgrade) ; Hobbyscoop / NOS (BASICODE) ; Electronic Soundmaker & Computer Music, September 1983 (Pete Shelley, XL1) ; Fujifilm LTO Ultrium specifications. La comparaison avec les cassettes suppose environ 300 Ko par face d’une cassette C60 à la vitesse du Spectrum.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-a-music-cassette-store-a-computer-game/
 
 CHAPITRES
 00:00 Pas de la musique, un programme
@@ -123,6 +127,8 @@ Sumber: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manu
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-a-music-cassette-store-a-computer-game/
+
 BAB
 00:00 Bukan musik, tapi program
 00:33 Nol dan satu sebagai dua nada
@@ -164,6 +170,8 @@ Il segnale di caricamento di questo video è stato generato dalle temporizzazion
 Fonti: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manual, chapter 20; BYTE, February 1976 (Kansas City Standard symposium); Compute!'s Gazette, December 1983; Michael Steil, pagetable.com, e C64-Wiki on Commodore Datassette encoding; Compute! no. 56 (TurboTape); ANTIC vol. 1 no. 4 (Atari cassette); Ventilator 202 (Radio Belgrade); Hobbyscoop / NOS (BASICODE); Electronic Soundmaker & Computer Music, September 1983 (Pete Shelley, XL1); Fujifilm LTO Ultrium specifications. Il confronto con le cassette presuppone circa 300 KB per lato di una cassetta C60 alla velocità dello Spectrum.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-a-music-cassette-store-a-computer-game/
 
 CAPITOLI
 00:00 Non musica, ma un programma
@@ -207,6 +215,8 @@ Quellen: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC man
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-a-music-cassette-store-a-computer-game/
+
 KAPITEL
 00:00 Keine Musik, ein Programm
 00:33 Null und Eins als zwei Töne
@@ -248,6 +258,8 @@ Sygnał ładowania w tym filmie wygenerowano według taktowania z ROM-u samego S
 Źródła: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manual, chapter 20; BYTE, February 1976 (Kansas City Standard symposium); Compute!'s Gazette, December 1983; Michael Steil, pagetable.com, i C64-Wiki on Commodore Datassette encoding; Compute! no. 56 (TurboTape); ANTIC vol. 1 no. 4 (Atari cassette); Ventilator 202 (Radio Belgrade); Hobbyscoop / NOS (BASICODE); Electronic Soundmaker & Computer Music, September 1983 (Pete Shelley, XL1); Fujifilm LTO Ultrium specifications. Porównanie z kasetami zakłada około 300 KB na stronę kasety C60 przy prędkości Spectrum.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-a-music-cassette-store-a-computer-game/
 
 ROZDZIAŁY
 00:00 Nie muzyka, tylko program
@@ -291,6 +303,8 @@ Fontes: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manu
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-a-music-cassette-store-a-computer-game/
+
 CAPÍTULOS
 00:00 Não é música, é um programa
 00:33 Zero e um como duas notas
@@ -332,6 +346,8 @@ Bu videodaki yükleme sinyali Spectrum'un kendi ROM zamanlamasıyla üretildi ve
 Kaynaklar: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manual, chapter 20; BYTE, February 1976 (Kansas City Standard symposium); Compute!'s Gazette, December 1983; Michael Steil, pagetable.com ve C64-Wiki on Commodore Datassette encoding; Compute! no. 56 (TurboTape); ANTIC vol. 1 no. 4 (Atari cassette); Ventilator 202 (Radio Belgrade); Hobbyscoop / NOS (BASICODE); Electronic Soundmaker & Computer Music, September 1983 (Pete Shelley, XL1); Fujifilm LTO Ultrium specifications. Kaset karşılaştırması, Spectrum hızında bir C60 kasetin bir yüzüne yaklaşık 300 KB sığdığı varsayımına dayanıyor.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-a-music-cassette-store-a-computer-game/
 
 BÖLÜMLER
 00:00 Müzik değil, bir program
@@ -375,6 +391,8 @@ Lisanslar: creativecommons.org/licenses/by/2.0, creativecommons.org/licenses/by/
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-a-music-cassette-store-a-computer-game/
+
 РОЗДІЛИ
 00:00 Не музика, а програма
 00:33 Нуль і одиниця як дві ноти
@@ -416,6 +434,8 @@ Tín hiệu tải trong video này được tạo ra theo đúng thời gian tro
 Nguồn: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manual, chapter 20; BYTE, February 1976 (Kansas City Standard symposium); Compute!'s Gazette, December 1983; Michael Steil, pagetable.com và C64-Wiki on Commodore Datassette encoding; Compute! no. 56 (TurboTape); ANTIC vol. 1 no. 4 (Atari cassette); Ventilator 202 (Radio Belgrade); Hobbyscoop / NOS (BASICODE); Electronic Soundmaker & Computer Music, September 1983 (Pete Shelley, XL1); Fujifilm LTO Ultrium specifications. Phép so sánh với băng cát-xét giả định mỗi mặt băng C60 chứa khoảng 300 KB ở tốc độ của Spectrum.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-a-music-cassette-store-a-computer-game/
 
 CHƯƠNG
 00:00 Không phải nhạc, mà là chương trình
@@ -459,6 +479,8 @@ Zdroje: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manu
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-a-music-cassette-store-a-computer-game/
+
 KAPITOLY
 00:00 Není to hudba, je to program
 00:33 Nula a jednička jako dva tóny
@@ -501,6 +523,8 @@ Fuentes: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC man
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-a-music-cassette-store-a-computer-game/
+
 CAPÍTULOS
 00:00 No es música, es un programa
 00:33 El cero y el uno como dos notas
@@ -542,6 +566,8 @@ Laddningssignalen i den här videon är genererad utifrån Spectrums egen ROM-ti
 Källor: ZX Spectrum ROM disassembly (SA-BYTES, LD-BYTES); ZX Spectrum BASIC manual, chapter 20; BYTE, February 1976 (Kansas City Standard symposium); Compute!'s Gazette, December 1983; Michael Steil, pagetable.com och C64-Wiki on Commodore Datassette encoding; Compute! no. 56 (TurboTape); ANTIC vol. 1 no. 4 (Atari cassette); Ventilator 202 (Radio Belgrade); Hobbyscoop / NOS (BASICODE); Electronic Soundmaker & Computer Music, September 1983 (Pete Shelley, XL1); Fujifilm LTO Ultrium specifications. Jämförelsen med kassetter utgår från ungefär 300 KB per sida av ett C60-band i Spectrums hastighet.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-a-music-cassette-store-a-computer-game/
 
 KAPITEL
 00:00 Inte musik, utan ett program

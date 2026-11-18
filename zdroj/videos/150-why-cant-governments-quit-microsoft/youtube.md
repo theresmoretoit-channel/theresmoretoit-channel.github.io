@@ -62,6 +62,8 @@ Sources: Czech Ministry of the Interior, Central purchase of Microsoft products 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-cant-governments-quit-microsoft/
+
 CHAPTERS
 00:00 The prosecutor who lost his email
 00:43 Now scale that up

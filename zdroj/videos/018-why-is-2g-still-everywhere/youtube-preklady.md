@@ -45,6 +45,8 @@ Euroopan komission tilaama ja toukokuussa 2026 julkaistu tutkimus arvioi, että 
 
 Ehkä kysymys ei siis olekaan siitä, pidetäänkö 2G käytössä. Ehkä kyse on siitä, kuinka vähän sitä oikeastaan tarvitsemme.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-2g-still-everywhere/
+
 LUVUT
 0:00 Jumissa kerrosten välissä
 1:01 2G on ikivanha
@@ -113,6 +115,8 @@ Alors la question n'est peut-être pas de savoir s'il faut garder la 2G.
 C'est peut-être de savoir quelle quantité minimale nous en avons vraiment
 besoin.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-2g-still-everywhere/
+
 CHAPITRES
 0:00 Bloqué entre deux étages
 1:01 La 2G est préhistorique
@@ -173,6 +177,8 @@ Operator ingin mematikannya, dan alasan mereka bagus: spektrum radio itu terbata
 Sebuah studi yang dipesan Komisi Eropa dan diterbitkan pada Mei 2026 memperkirakan bahwa 64 juta kendaraan di seluruh UE bisa kehilangan eCall kalau jaringan lamanya dimatikan tanpa koordinasi. Studi itu merekomendasikan agar setiap Negara Anggota mempertahankan setidaknya satu jaringan circuit-switched sampai paling tidak 2030.
 
 Jadi mungkin pertanyaannya bukan apakah 2G dipertahankan. Mungkin pertanyaannya adalah sesedikit apa sebenarnya yang kita butuhkan darinya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-2g-still-everywhere/
 
 BAB
 0:00 Terjebak di antara lantai
@@ -239,6 +245,8 @@ almeno fino al 2030.
 
 Forse allora la domanda non è se tenere il 2G. Forse è quanto poco ce ne
 serva davvero.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-2g-still-everywhere/
 
 CAPITOLI
 0:00 Bloccati tra due piani
@@ -316,6 +324,8 @@ leitungsvermitteltes Netz mindestens bis 2030 am Leben hält.
 Vielleicht lautet die Frage also gar nicht, ob wir 2G behalten. Vielleicht
 lautet sie, wie wenig davon wir tatsächlich brauchen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-2g-still-everywhere/
+
 KAPITEL
 0:00 Zwischen zwei Stockwerken steckengeblieben
 1:01 2G ist uralt
@@ -391,6 +401,8 @@ członkowskie utrzymało przy życiu co najmniej jedną sieć z komutacją
 
 Może więc pytanie nie brzmi, czy zachować 2G. Może brzmi ono, jak
 niewiele go naprawdę potrzebujemy.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-2g-still-everywhere/
 
 ROZDZIAŁY
 0:00 Utknięcie między piętrami
@@ -468,6 +480,8 @@ circuitos ao menos até 2030.
 Então talvez a pergunta não seja se manter o 2G. Talvez seja de quão
 pouco dele a gente realmente precisa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-2g-still-everywhere/
+
 CAPÍTULOS
 0:00 Preso entre andares
 1:01 2G é pré-história
@@ -529,6 +543,8 @@ Avrupa Komisyonu’nun yaptırdığı ve Mayıs 2026’da yayımlanan bir çalı
 
 Yani soru belki de 2G’nin korunup korunmayacağı değil. Belki de ondan gerçekte ne kadar azına ihtiyacımız olduğu.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-2g-still-everywhere/
+
 BÖLÜMLER
 0:00 Katlar arasında sıkışmak
 1:01 2G çok eski
@@ -579,6 +595,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Тож, можливо, запитання не в тому, чи зберігати 2G. Можливо, воно в тому, як мало його насправді потрібно.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-2g-still-everywhere/
+
 РОЗДІЛИ
 0:00 Застряг між поверхами
 1:01 2G — це давнина
@@ -628,6 +646,8 @@ Các nhà mạng muốn tắt nó, và họ có lý do chính đáng: phổ tầ
 Một nghiên cứu do Ủy ban châu Âu đặt hàng, công bố tháng 5 năm 2026, ước tính rằng 64 triệu phương tiện trên khắp EU có thể mất eCall nếu các mạng cũ bị tắt mà không có phối hợp. Nghiên cứu khuyến nghị mỗi Quốc gia Thành viên duy trì ít nhất một mạng chuyển mạch kênh đến ít nhất là năm 2030.
 
 Vậy có lẽ câu hỏi không phải là có giữ 2G hay không. Có lẽ nó là: mức tối thiểu của mạng 2G mà ta thực sự cần duy trì là bao nhiêu.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-2g-still-everywhere/
 
 CÁC CHƯƠNG
 0:00 Kẹt giữa các tầng
@@ -692,6 +712,8 @@ vypnuly bez koordinace. Doporučuje, aby každý členský stát udržel při
 
 Takže otázka možná nezní, jestli si 2G nechat. Možná zní, jak málo ho
 doopravdy potřebujeme.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-2g-still-everywhere/
 
 KAPITOLY
 0:00 Uvíznutí mezi patry
@@ -760,6 +782,8 @@ menos hasta 2030.
 
 Así que quizá la pregunta no sea si conservar el 2G. Quizá sea qué poco
 de él necesitamos en realidad.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-2g-still-everywhere/
 
 CAPÍTULOS
 0:00 Atrapado entre plantas
@@ -835,6 +859,8 @@ håller minst ett kretskopplat nät vid liv åtminstone till 2030.
 
 Så kanske är frågan inte om vi ska behålla 2G. Kanske är den hur lite av
 det vi egentligen behöver.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-2g-still-everywhere/
 
 KAPITEL
 0:00 Fast mellan våningarna

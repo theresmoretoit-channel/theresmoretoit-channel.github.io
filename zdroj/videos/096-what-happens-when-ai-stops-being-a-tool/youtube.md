@@ -59,6 +59,8 @@ That changes what AI is. A chatbot answers. An agent is given a goal, a browser,
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-happens-when-ai-stops-being-a-tool/
+
 CHAPTERS
 00:00 A different way to measure AI
 01:04 A very capable tool

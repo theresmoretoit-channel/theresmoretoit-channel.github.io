@@ -46,6 +46,8 @@ And then the turn I did not expect: Windows can do exactly the same thing. On NT
 
 That difference is part of why Windows used to ask you to restart so often — Microsoft says so in the documentation for the tool built to avoid it. But it is not the whole reason, and Linux is not free of the problem either.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-cant-windows-delete-a-file-in-use/
+
 Chapters
 0:00 The message everybody knows
 0:29 Which program?

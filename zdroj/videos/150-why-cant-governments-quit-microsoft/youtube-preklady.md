@@ -42,6 +42,8 @@ Lähteet: Czech Ministry of the Interior, Central purchase of Microsoft products
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-governments-quit-microsoft/
+
 LUVUT
 00:00 Syyttäjä, joka menetti sähköpostinsa
 00:43 Sama isommassa mittakaavassa
@@ -86,6 +88,8 @@ Au programme : l'accord-cadre du gouvernement tchèque pour les produits Microso
 Sources : Czech Ministry of the Interior, Central purchase of Microsoft products (2024); AP, Trump's sanctions on ICC's chief prosecutor have halted tribunal's work (May 2025); Executive Order 14203 (2025); The Register (October 2025, February 2026); European Parliament, European Software and Cyber Dependencies, PE 778.576 (2025); UK Government Digital Service, Managing technical lock-in in the cloud; 18 U.S.C. § 2713 (CLOUD Act); French Senate, commission of inquiry into public procurement, hearing of 10 June 2025; Land Schleswig-Holstein, press releases (December 2025, September 2026); Wikipedia: LiMux.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-governments-quit-microsoft/
 
 CHAPITRES
 00:00 Le procureur qui a perdu sa messagerie
@@ -132,6 +136,8 @@ Sumber: Czech Ministry of the Interior, Central purchase of Microsoft products (
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-governments-quit-microsoft/
+
 BAB
 00:00 Jaksa yang kehilangan emailnya
 00:43 Sekarang dalam skala besar
@@ -176,6 +182,8 @@ Nel video: l'accordo quadro del governo ceco per i prodotti Microsoft, perché s
 Fonti: Czech Ministry of the Interior, Central purchase of Microsoft products (2024); AP, Trump's sanctions on ICC's chief prosecutor have halted tribunal's work (May 2025); Executive Order 14203 (2025); The Register (October 2025, February 2026); European Parliament, European Software and Cyber Dependencies, PE 778.576 (2025); UK Government Digital Service, Managing technical lock-in in the cloud; 18 U.S.C. § 2713 (CLOUD Act); French Senate, commission of inquiry into public procurement, hearing of 10 June 2025; Land Schleswig-Holstein, press releases (December 2025, September 2026); Wikipedia: LiMux.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-governments-quit-microsoft/
 
 CAPITOLI
 00:00 Il procuratore senza email
@@ -222,6 +230,8 @@ Quellen: Czech Ministry of the Interior, Central purchase of Microsoft products 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-governments-quit-microsoft/
+
 KAPITEL
 00:00 Der Ankläger ohne E-Mail-Zugang
 00:43 Jetzt auf ein ganzes Land übertragen
@@ -266,6 +276,8 @@ W tym filmie: umowa ramowa czeskiego rządu na produkty Microsoftu, dlaczego wyb
 Źródła: Czech Ministry of the Interior, Central purchase of Microsoft products (2024); AP, Trump's sanctions on ICC's chief prosecutor have halted tribunal's work (May 2025); Executive Order 14203 (2025); The Register (October 2025, February 2026); European Parliament, European Software and Cyber Dependencies, PE 778.576 (2025); UK Government Digital Service, Managing technical lock-in in the cloud; 18 U.S.C. § 2713 (CLOUD Act); French Senate, commission of inquiry into public procurement, hearing of 10 June 2025; Land Schleswig-Holstein, press releases (December 2025, September 2026); Wikipedia: LiMux.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-governments-quit-microsoft/
 
 ROZDZIAŁY
 00:00 Prokurator, który stracił pocztę
@@ -312,6 +324,8 @@ Fontes: Czech Ministry of the Interior, Central purchase of Microsoft products (
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-governments-quit-microsoft/
+
 CAPÍTULOS
 00:00 O procurador que perdeu o e-mail
 00:43 Agora em escala maior
@@ -356,6 +370,8 @@ Bu videoda Çek hükümetinin Microsoft ürünleri için yaptığı çerçeve an
 Kaynaklar: Czech Ministry of the Interior, Central purchase of Microsoft products (2024); AP, Trump's sanctions on ICC's chief prosecutor have halted tribunal's work (May 2025); Executive Order 14203 (2025); The Register (October 2025, February 2026); European Parliament, European Software and Cyber Dependencies, PE 778.576 (2025); UK Government Digital Service, Managing technical lock-in in the cloud; 18 U.S.C. § 2713 (CLOUD Act); French Senate, commission of inquiry into public procurement, hearing of 10 June 2025; Land Schleswig-Holstein, press releases (December 2025, September 2026); Wikipedia: LiMux.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-governments-quit-microsoft/
 
 BÖLÜMLER
 00:00 E-postasını kaybeden savcı
@@ -402,6 +418,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/4.0, gnu.org/licenses/gpl.html
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-governments-quit-microsoft/
+
 РОЗДІЛИ
 00:00 Прокурор, який втратив пошту
 00:43 А тепер у більшому масштабі
@@ -446,6 +464,8 @@ Video này đi qua thỏa thuận khung của chính phủ Séc về sản phẩ
 Nguồn: Czech Ministry of the Interior, Central purchase of Microsoft products (2024); AP, Trump's sanctions on ICC's chief prosecutor have halted tribunal's work (May 2025); Executive Order 14203 (2025); The Register (October 2025, February 2026); European Parliament, European Software and Cyber Dependencies, PE 778.576 (2025); UK Government Digital Service, Managing technical lock-in in the cloud; 18 U.S.C. § 2713 (CLOUD Act); French Senate, commission of inquiry into public procurement, hearing of 10 June 2025; Land Schleswig-Holstein, press releases (December 2025, September 2026); Wikipedia: LiMux.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-governments-quit-microsoft/
 
 CHƯƠNG
 00:00 Công tố viên mất email
@@ -492,6 +512,8 @@ Zdroje: Czech Ministry of the Interior, Central purchase of Microsoft products (
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-governments-quit-microsoft/
+
 KAPITOLY
 00:00 Žalobce, který přišel o e-mail
 00:43 A teď ve velkém
@@ -537,6 +559,8 @@ Fuentes: Czech Ministry of the Interior, Central purchase of Microsoft products 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-governments-quit-microsoft/
+
 CAPÍTULOS
 00:00 El fiscal que perdió su correo
 00:43 Ahora, a gran escala
@@ -581,6 +605,8 @@ Videon går igenom den tjeckiska regeringens ramavtal för Microsoft-produkter, 
 Källor: Czech Ministry of the Interior, Central purchase of Microsoft products (2024); AP, Trump's sanctions on ICC's chief prosecutor have halted tribunal's work (May 2025); Executive Order 14203 (2025); The Register (October 2025, February 2026); European Parliament, European Software and Cyber Dependencies, PE 778.576 (2025); UK Government Digital Service, Managing technical lock-in in the cloud; 18 U.S.C. § 2713 (CLOUD Act); French Senate, commission of inquiry into public procurement, hearing of 10 June 2025; Land Schleswig-Holstein, press releases (December 2025, September 2026); Wikipedia: LiMux.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-governments-quit-microsoft/
 
 KAPITEL
 00:00 Åklagaren som förlorade sin e-post

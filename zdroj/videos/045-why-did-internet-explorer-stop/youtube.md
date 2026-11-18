@@ -67,6 +67,8 @@ https://youtu.be/1dIM5UZUEZg
 Part three — the browser that wouldn't die:
 https://youtu.be/dnF3SJoeTns
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-did-internet-explorer-stop/
+
 Chapters
 00:00 Five years and two months
 00:40 This is part four

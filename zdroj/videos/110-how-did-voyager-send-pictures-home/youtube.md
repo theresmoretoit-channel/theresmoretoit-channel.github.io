@@ -60,6 +60,8 @@ Sources: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS R
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-did-voyager-send-pictures-home/
+
 CHAPTERS
 00:00 A camera built around a TV tube
 00:35 Mariner 4 at Mars

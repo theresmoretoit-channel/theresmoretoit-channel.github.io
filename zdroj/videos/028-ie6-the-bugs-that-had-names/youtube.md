@@ -43,6 +43,8 @@ and the three words of HTML that could close a window on your own machine.
 Part one, on how Internet Explorer 6 became a platform in the first place:
 https://youtu.be/R7Un3IOMvbg
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/ie6-the-bugs-that-had-names/
+
 Chapters
 00:00 Part two
 00:36 A bug with a number

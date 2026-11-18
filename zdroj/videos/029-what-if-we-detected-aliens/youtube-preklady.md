@@ -43,6 +43,8 @@ Etsisimme teknosignatuureja koko sähkömagneettiselta spektriltä, emme pelkäl
 
 Vaikka olisimme jo havainneet signaalin, meidän olisi yhä selvitettävä, mitä se tarkoittaa — ja se osoittautuu vähän samanlaiseksi kuin yrittää käydä keskustelua delfiinin kanssa. Delfiinit ovat älykkäitä, ne viestivät, olemme äänittäneet niitä vuosikymmeniä, ja jaamme niiden kanssa planeetan, biosfäärin ja fyysisen maailman. Silti se on äärimmäisen vaikeaa. Ota nyt kaikki tuo pois.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-if-we-detected-aliens/
+
 Luvut
 0:00 Signaali, jota mikään luonnossa ei selitä
 0:38 Ensin meidän on löydettävä heidät
@@ -95,6 +97,8 @@ un peu à essayer de discuter avec un dauphin. Les dauphins sont intelligents, i
 nous les enregistrons depuis des décennies, et nous partageons avec eux une planète, une
 biosphère et un monde physique. C'est toujours extrêmement difficile. Maintenant, enlevez tout ça.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-if-we-detected-aliens/
+
 Chapitres
 0:00 Un signal que rien dans la nature n'explique
 0:38 Il faut d'abord les trouver
@@ -135,6 +139,8 @@ Misalkan kita mendeteksi sebuah sinyal yang tidak bisa dijelaskan apa pun di ala
 Kita akan mencari teknosignatur di seluruh spektrum elektromagnetik, bukan cuma radio. Kita mungkin bisa membaca atmosfer sebuah planet tanpa pernah pergi ke sana. Lalu jaraklah yang mengambil alih: pada jarak lima ratus tahun cahaya, satu pertanyaan dan satu jawaban memakan seribu tahun, jadi reaksi pertama bukan "ayo hubungi mereka" melainkan "rekam semuanya".
 
 Bahkan dengan sinyal di tangan, kita masih harus mencari tahu apa artinya — dan itu ternyata mirip mencoba bercakap-cakap dengan lumba-lumba. Lumba-lumba cerdas, mereka berkomunikasi, kita sudah merekam mereka puluhan tahun, dan kita berbagi planet, biosfer dan dunia fisik dengan mereka. Tetap saja itu luar biasa sulit. Sekarang hilangkan semua itu.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-if-we-detected-aliens/
 
 Bab
 0:00 Sinyal yang tidak dijelaskan apa pun di alam
@@ -188,6 +194,8 @@ al tentativo di fare conversazione con un delfino. I delfini sono intelligenti, 
 li registriamo da decenni e con loro condividiamo un pianeta, una biosfera e un mondo fisico.
 È ancora estremamente difficile. Adesso togliete tutto questo.
 
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-if-we-detected-aliens/
+
 Capitoli
 0:00 Un segnale che nulla in natura spiega
 0:38 Prima dobbiamo trovarli
@@ -239,6 +247,8 @@ Selbst mit dem Signal in der Hand müssten wir noch herausfinden, was es bedeute
 ein bisschen wie der Versuch, sich mit einem Delfin zu unterhalten. Delfine sind intelligent,
 sie kommunizieren, wir nehmen sie seit Jahrzehnten auf, und wir teilen mit ihnen einen Planeten,
 eine Biosphäre und eine physische Welt. Es ist immer noch extrem schwer. Und jetzt nimm all das weg.
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-if-we-detected-aliens/
 
 Kapitel
 0:00 Ein Signal, das nichts in der Natur erklärt
@@ -292,6 +302,8 @@ pogawędki z delfinem. Delfiny są inteligentne, porozumiewają się, nagrywamy 
 i dzielimy z nimi planetę, biosferę oraz świat fizyczny. I nadal jest to potwornie trudne.
 A teraz zabierz to wszystko.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-if-we-detected-aliens/
+
 Rozdziały
 0:00 Sygnał, którego nic w przyrodzie nie tłumaczy
 0:38 Najpierw musimy ich znaleźć
@@ -344,6 +356,8 @@ como tentar conversar com um golfinho. Golfinhos são inteligentes, eles se comu
 gravamos há décadas e dividimos com eles um planeta, uma biosfera e um mundo físico. E continua
 sendo extremamente difícil. Agora tire tudo isso.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-if-we-detected-aliens/
+
 Capítulos
 0:00 Um sinal que nada na natureza explica
 0:38 Primeiro temos que encontrá-los
@@ -384,6 +398,8 @@ Diyelim ki doğada hiçbir şeyin açıklamadığı bir sinyal tespit ettik. Kol
 Teknoimzaları yalnızca radyoda değil, elektromanyetik tayfın tamamında arardık. Bir gezegenin atmosferini oraya hiç gitmeden okuyabilirdik. Sonra mesafe devreye giriyor: beş yüz ışık yılı uzaklıkta bir soru ve bir cevap bin yıla mal oluyor, yani ilk tepki "hadi onları arayalım" değil, "her şeyi kaydedin" olurdu.
 
 Sinyal elimizde olsa bile, ne anlama geldiğini yine de çözmemiz gerekirdi — ki bu biraz bir yunusla sohbet etmeye çalışmaya benziyor. Yunuslar zekidir, iletişim kurarlar, onları onlarca yıldır kaydediyoruz ve onlarla bir gezegeni, bir biyosferi ve fiziksel bir dünyayı paylaşıyoruz. Yine de son derece zor. Şimdi bunların hepsini ortadan kaldır.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-if-we-detected-aliens/
 
 Bölümler
 0:00 Doğada hiçbir şeyin açıklamadığı bir sinyal
@@ -426,6 +442,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Навіть маючи сигнал у руках, ми все одно мусили б з’ясувати, що він означає, — а це виявляється трохи схожим на спробу поговорити з дельфіном. Дельфіни розумні, вони спілкуються, ми записуємо їх десятиліттями, і ми ділимо з ними планету, біосферу й фізичний світ. І все одно це надзвичайно важко. А тепер прибери все це.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-if-we-detected-aliens/
+
 Розділи
 0:00 Сигнал, якого ніщо в природі не пояснює
 0:38 Спершу треба їх знайти
@@ -466,6 +484,8 @@ Giả sử ta phát hiện một tín hiệu mà không gì trong tự nhiên gi
 Chúng ta sẽ tìm các dấu hiệu công nghệ trên toàn bộ phổ điện từ, không riêng gì sóng vô tuyến. Ta có thể đọc bầu khí quyển của một hành tinh mà chẳng cần đặt chân đến đó. Rồi khoảng cách lên tiếng: ở khoảng cách năm trăm năm ánh sáng, một câu hỏi và một câu trả lời tốn một nghìn năm, nên phản ứng đầu tiên sẽ không phải "gọi cho họ đi" mà là "ghi lại tất cả".
 
 Ngay cả khi đã có tín hiệu trong tay, ta vẫn phải tìm ra nó có nghĩa gì — và hóa ra việc đó hơi giống cố trò chuyện với một con cá heo. Cá heo thông minh, chúng giao tiếp, ta đã ghi âm chúng hàng chục năm, và ta chia sẻ với chúng một hành tinh, một sinh quyển và một thế giới vật chất. Vậy mà vẫn cực kỳ khó. Giờ hãy bỏ hết những thứ đó đi.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-if-we-detected-aliens/
 
 Các chương
 0:00 Một tín hiệu mà không gì trong tự nhiên giải thích được
@@ -519,6 +539,8 @@ popovídat si s delfínem. Delfíni jsou inteligentní, komunikují spolu, nahr�
 desetiletí a sdílíme s nimi planetu, biosféru i fyzický svět. A pořád je to strašně těžké.
 A teď to všechno odeberte.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-if-we-detected-aliens/
+
 Kapitoly
 0:00 Signál, který nic v přírodě nevysvětluje
 0:38 Nejdřív je musíme najít
@@ -571,6 +593,8 @@ un poco a intentar charlar con un delfín. Los delfines son inteligentes, se com
 décadas grabándolos y compartimos con ellos un planeta, una biosfera y un mundo físico. Y sigue
 siendo extremadamente difícil. Ahora quita todo eso.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-if-we-detected-aliens/
+
 Capítulos
 0:00 Una señal que nada en la naturaleza explica
 0:38 Primero hay que encontrarlos
@@ -622,6 +646,8 @@ reaktionen skulle inte bli ”vi ringer dem” utan ”spela in allt”.
 lite att försöka föra ett samtal med en delfin. Delfiner är intelligenta, de kommunicerar, vi har
 spelat in dem i decennier och vi delar en planet, en biosfär och en fysisk värld med dem. Det är
 ändå extremt svårt. Ta nu bort allt det.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-if-we-detected-aliens/
 
 Kapitel
 0:00 En signal som ingenting i naturen förklarar

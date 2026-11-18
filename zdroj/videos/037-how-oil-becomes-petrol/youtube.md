@@ -72,6 +72,8 @@ fifty, and then start adding cracking, hydrotreating, hydrogen
 production, high-pressure equipment, control systems and laboratories.
 Congratulations. You have just started building a refinery.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-oil-becomes-petrol/
+
 CHAPTERS
 0:00 How petrol appears
 0:35 What a refinery does first

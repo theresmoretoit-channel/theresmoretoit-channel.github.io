@@ -57,6 +57,8 @@ Kaikkea ei tarvitse päivittää — järjestelmä, joka sammutetaan ensi vuonna
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-upgrade-something-that-works/
+
 LUVUT
 0:00 He tietävät sen jo
 0:26 „Mutta se toimii"
@@ -151,6 +153,8 @@ y aura-t-il encore quelqu'un capable de le réparer ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-upgrade-something-that-works/
+
 CHAPITRES
 0:00 Ils le savent déjà
 0:26 « Mais ça marche »
@@ -234,6 +238,8 @@ Teknologi lama jarang gagal dengan cara crash. Ia gagal ketika audit keamanan me
 Tidak semuanya perlu diperbarui — sistem yang tahun depan dimatikan boleh tetap persis seperti sekarang, dan "ada versi yang lebih baru" bukan argumen yang berdiri sendiri. Pertanyaannya tidak pernah "apakah ini yang terbaru?" Pertanyaannya adalah: kalau ini rusak, apakah masih ada orang yang bisa memperbaikinya?
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-upgrade-something-that-works/
 
 BAB
 0:00 Mereka sudah tahu
@@ -328,6 +334,8 @@ La domanda è: quando si romperà, ci sarà ancora qualcuno capace di
 ripararla?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-upgrade-something-that-works/
 
 CAPITOLI
 0:00 Lo sanno già
@@ -436,6 +444,8 @@ noch jemanden geben, der es reparieren kann?
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-upgrade-something-that-works/
+
 KAPITEL
 0:00 Sie wissen es längst
 0:26 „Aber es funktioniert doch"
@@ -540,6 +550,8 @@ Pytanie brzmi: kiedy to się zepsuje, czy będzie jeszcze ktoś, kto potrafi
 to naprawić?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-upgrade-something-that-works/
 
 ROZDZIAŁY
 0:00 Oni już to wiedzą
@@ -646,6 +658,8 @@ consertar?
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-upgrade-something-that-works/
+
 CAPÍTULOS
 0:00 Eles já sabem
 0:26 "Mas funciona"
@@ -729,6 +743,8 @@ Her şeyin yükseltilmesi gerekmiyor — gelecek yıl kapatılacak bir sistem ay
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-upgrade-something-that-works/
+
 BÖLÜMLER
 0:00 Zaten biliyorlar
 0:26 "Ama çalışıyor ya"
@@ -799,6 +815,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-upgrade-something-that-works/
+
 РОЗДІЛИ
 0:00 Вони це вже знають
 0:26 «Але ж воно працює»
@@ -868,6 +886,8 @@ Công nghệ cũ hiếm khi thất bại vì sự cố hệ thống. Nó hỏng 
 Không phải thứ gì cũng cần nâng cấp — một hệ thống sang năm sẽ tắt hẳn có thể cứ để nguyên như vậy, và "đã có phiên bản mới hơn" tự nó không phải một lập luận. Câu hỏi chưa bao giờ là "cái này có mới nhất không?" Câu hỏi là: khi nó hỏng, liệu còn ai sửa được không?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-upgrade-something-that-works/
 
 CÁC CHƯƠNG
 0:00 Họ vốn đã biết
@@ -958,6 +978,8 @@ sám o sobě. Otázka nikdy nezněla „je tohle nejnovější?". Otázka zní: 
 se to rozbije, bude to ještě někdo umět spravit?
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-upgrade-something-that-works/
 
 KAPITOLY
 0:00 Oni to vědí
@@ -1052,6 +1074,8 @@ La pregunta es: cuando esto se rompa, ¿quedará alguien capaz de
 arreglarlo?
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-upgrade-something-that-works/
 
 CAPÍTULOS
 0:00 Ya lo saben
@@ -1157,6 +1181,8 @@ argument i sig. Frågan var aldrig "är det här det senaste?". Frågan är:
 när det här går sönder, finns det då fortfarande någon som kan laga det?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-upgrade-something-that-works/
 
 KAPITEL
 0:00 De vet det redan

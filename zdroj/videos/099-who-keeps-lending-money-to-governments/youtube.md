@@ -62,6 +62,8 @@ Debt and deficit figures: Eurostat (April 2026 notification) and the IMF World E
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/who-keeps-lending-money-to-governments/
+
 CHAPTERS
 00:00 Borrowing every year
 00:34 Where it stopped working

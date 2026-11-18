@@ -49,6 +49,8 @@ Suhteellisuusteoria pahentaa asiaa: ei ole yhtä yleismaailmallista nyt-hetkeä,
 
 Ja sitten yksi kysymys repii erilleen kaksi ajatusta, jotka yleensä pidämme liimattuina yhteen. Kuvittele, että jokainen tallenne eilisestä on poissa: ei valokuvia, ei asiakirjoja, ei muistikuvaa yhdessäkään päässä, ei fyysistä jälkeä viimeistä atomia myöten. Olisiko eilinen lakannut olemasta? Vai olisiko se silti tapahtunut?
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/does-the-past-still-exist/
+
 Luvut
 00:00 Missä eilinen on?
 00:36 Valokuva ei ole menneisyys
@@ -122,6 +124,8 @@ photo, aucun document, aucun souvenir dans aucune tête, aucune trace
 matérielle jusqu'au dernier atome. Hier aurait-il cessé d'exister ? Ou
 cela aurait-il eu lieu quand même ?
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/does-the-past-still-exist/
+
 Chapitres
 00:00 Où est hier ?
 00:36 La photo n'est pas le passé
@@ -175,6 +179,8 @@ Lalu ini jadi makin aneh. Kamu belum pernah sekali pun melihat apa pun di masa k
 Relativitas memperburuknya: tidak ada satu pun "sekarang" universal yang dimiliki bersama oleh seluruh alam semesta. Salah satu jawabannya adalah alam semesta blok, tempat masa kecilmu sekadar bagian lain dari ruang-waktu. Tapi relativitas hanya membuat gagasan itu menarik; ia tidak membuktikannya. Para filsuf punya tiga nama untuk pilihan-pilihan itu — presentisme, eternalisme dan blok yang terus tumbuh — dan fisika tidak menyelesaikan perdebatannya. Fisika justru mempersulitnya.
 
 Lalu satu pertanyaan memisahkan dua gagasan yang biasanya kita rekatkan jadi satu. Bayangkan setiap rekaman tentang kemarin lenyap: tidak ada foto, tidak ada dokumen, tidak ada ingatan di kepala siapa pun, tidak ada jejak fisik sampai atom terakhir. Apakah kemarin jadi berhenti ada? Atau apakah ia tetap pernah terjadi?
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/does-the-past-still-exist/
 
 Bab
 00:00 Di mana kemarin berada?
@@ -248,6 +254,8 @@ incollate. Immaginate che ogni traccia di ieri sia sparita: nessuna
 fotografia, nessun documento, nessun ricordo in nessuna testa, nessuna
 traccia materiale fino all'ultimo atomo. Ieri avrebbe smesso di esistere?
 Oppure sarebbe accaduto lo stesso?
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/does-the-past-still-exist/
 
 Capitoli
 00:00 Dov'è ieri?
@@ -326,6 +334,8 @@ gestern ist fort: keine Fotos, keine Dokumente, keine Erinnerung in
 keinem Kopf, keine physische Spur bis zum letzten Atom. Hätte das Gestern
 dann aufgehört zu existieren? Oder wäre es trotzdem passiert?
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/does-the-past-still-exist/
+
 Kapitel
 00:00 Wo ist das Gestern?
 00:36 Ein Foto ist nicht die Vergangenheit
@@ -403,6 +413,8 @@ sklejone. Wyobraźcie sobie, że każdy zapis wczorajszego dnia zniknął:
 żadnego materialnego śladu aż do ostatniego atomu. Czy wczoraj
 przestałoby istnieć? Czy też wydarzyłoby się tak czy owak?
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/does-the-past-still-exist/
+
 Rozdziały
 00:00 Gdzie jest wczoraj?
 00:36 Zdjęcie nie jest przeszłością
@@ -476,6 +488,8 @@ nenhum documento, nenhuma lembrança em cabeça nenhuma, nenhum rastro
 físico até o último átomo. O ontem teria deixado de existir? Ou teria
 acontecido do mesmo jeito?
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/does-the-past-still-exist/
+
 Capítulos
 00:00 Onde está o ontem?
 00:36 A fotografia não é o passado
@@ -529,6 +543,8 @@ Görelilik işi daha da kötüleştiriyor: bütün evrenin paylaştığı tek bi
 
 Ve sonra tek bir soru, normalde birbirine yapıştırdığımız iki fikri ayırıyor. Düne dair her kaydın yok olduğunu düşün: fotoğraf yok, belge yok, hiçbir kafada anı yok, son atomuna kadar fiziksel iz yok. Dün var olmaktan çıkmış mı olurdu? Yoksa yine de yaşanmış mı olurdu?
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/does-the-past-still-exist/
+
 Bölümler
 00:00 Dün nerede?
 00:36 Fotoğraf geçmiş değildir
@@ -580,6 +596,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 А потім одне запитання розтягує в різні боки дві ідеї, які ми зазвичай тримаємо склеєними. Уяви, що зник кожен запис про вчора: жодних фотографій, жодних документів, жодного спогаду в жодній голові, жодного фізичного сліду аж до останнього атома. Чи перестало б учора існувати? Чи воно все одно сталося б?
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/does-the-past-still-exist/
+
 Розділи
 00:00 Де тепер учора?
 00:36 Фотографія — це не минуле
@@ -630,6 +648,8 @@ Rồi nó còn lạ hơn nữa. Bạn chưa một lần nào nhìn thấy bất 
 Thuyết tương đối còn làm mọi thứ tệ hơn: không có một cái "bây giờ" phổ quát duy nhất mà cả vũ trụ cùng chia sẻ. Một câu trả lời cho điều đó là vũ trụ khối, nơi tuổi thơ của bạn chỉ đơn giản là một phần khác của không-thời gian. Nhưng thuyết tương đối chỉ khiến ý tưởng ấy hấp dẫn; nó không chứng minh được. Các triết gia có ba cái tên cho những lựa chọn này — thuyết hiện tại, thuyết vĩnh cửu và khối đang lớn dần — và vật lý đã không dàn xếp được cuộc tranh luận. Nó khiến cuộc tranh luận khó hơn.
 
 Rồi một câu hỏi tách rời hai ý niệm mà ta vẫn thường dán chặt vào nhau. Hãy hình dung mọi ghi chép về hôm qua đều biến mất: không ảnh, không tài liệu, không ký ức trong bất kỳ cái đầu nào, không một dấu vết vật chất nào cho đến nguyên tử cuối cùng. Hôm qua có thôi tồn tại không? Hay những gì xảy ra hôm qua vẫn là điều đã xảy ra?
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/does-the-past-still-exist/
 
 Các chương
 00:00 Hôm qua đang ở đâu?
@@ -699,6 +719,8 @@ slepené. Představte si, že každý záznam o včerejšku je pryč: žádné
 fotografie, žádné dokumenty, žádná vzpomínka v žádné hlavě, žádná hmotná
 stopa až do posledního atomu. Přestal by tím včerejšek existovat? Nebo by
 se stejně byl stal?
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/does-the-past-still-exist/
 
 Kapitoly
 00:00 Kde je včerejšek?
@@ -773,6 +795,8 @@ fotografía, ningún documento, ningún recuerdo en ninguna cabeza, ningún
 rastro físico hasta el último átomo. ¿Habría dejado el ayer de existir?
 ¿O habría pasado igualmente?
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/does-the-past-still-exist/
+
 Capítulos
 00:00 ¿Dónde está el ayer?
 00:36 La fotografía no es el pasado
@@ -844,6 +868,8 @@ ihoplimmade. Tänk dig att varje spår av gårdagen är borta: inga foton,
 inga dokument, inget minne i något huvud, inget fysiskt spår ner till
 sista atomen. Skulle gårdagen då ha slutat finnas? Eller skulle den ha
 hänt ändå?
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/does-the-past-still-exist/
 
 Kapitel
 00:00 Var är gårdagen?

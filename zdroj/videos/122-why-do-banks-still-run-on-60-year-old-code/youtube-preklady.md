@@ -41,6 +41,8 @@ Lähteet: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ER
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-banks-still-run-on-60-year-old-code/
+
 LUVUT
 00:00 Lisää yksi penny
 00:46 Kieli vuodelta 1959
@@ -78,6 +80,8 @@ COBOL est un langage de programmation de 1959. Pourquoi les banques ne l'ont-ell
 Sources : IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERROR, assumed decimal point), avec les exemples exécutés dans GnuCOBOL 3.2 ; Java BigDecimal documentation ; COBOL initial specifications, US Department of Defense, April 1960 ; IBM System/360 Principles of Operation ; IBM z/Architecture Principles of Operation ; IBM 10-K, fiscal 2022 ; SSA IT Modernization Plan, 2017 ; GAO-25-107795 (2025) ; FCA Final Notice to TSB Bank plc (2022) ; Slaughter and May, TSB Review (2019) ; TSB 2018 full-year results ; Commonwealth Bank of Australia, Recent Developments (2008) et 2013 Shareholder Review ; iTWire et Delimiter, February 2011 ; New Jersey Department of Labor, March 2020 ; New Jersey Office of the State Auditor (2022) ; WIRED, "Can't File for Unemployment? Don't Blame Cobol" (2020) ; Mar Hicks, "Built to Last", Logic (2020) ; Martin Fowler, "StranglerApplication" (2004).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-banks-still-run-on-60-year-old-code/
 
 CHAPITRES
 00:00 Ajoute un penny
@@ -117,6 +121,8 @@ Sumber: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERRO
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-banks-still-run-on-60-year-old-code/
+
 BAB
 00:00 Tambahkan satu penny
 00:46 Bahasa dari tahun 1959
@@ -154,6 +160,8 @@ Il COBOL è un linguaggio di programmazione del 1959. Allora perché le banche n
 Fonti: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERROR, assumed decimal point), con gli esempi eseguiti in GnuCOBOL 3.2; Java BigDecimal documentation; COBOL initial specifications, US Department of Defense, April 1960; IBM System/360 Principles of Operation; IBM z/Architecture Principles of Operation; IBM 10-K, fiscal 2022; SSA IT Modernization Plan, 2017; GAO-25-107795 (2025); FCA Final Notice to TSB Bank plc (2022); Slaughter and May, TSB Review (2019); TSB 2018 full-year results; Commonwealth Bank of Australia, Recent Developments (2008) e 2013 Shareholder Review; iTWire e Delimiter, February 2011; New Jersey Department of Labor, March 2020; New Jersey Office of the State Auditor (2022); WIRED, "Can't File for Unemployment? Don't Blame Cobol" (2020); Mar Hicks, "Built to Last", Logic (2020); Martin Fowler, "StranglerApplication" (2004).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-banks-still-run-on-60-year-old-code/
 
 CAPITOLI
 00:00 Aggiungi un penny
@@ -193,6 +201,8 @@ Quellen: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERR
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-banks-still-run-on-60-year-old-code/
+
 KAPITEL
 00:00 Rechne einen Penny dazu
 00:46 Eine Sprache von 1959
@@ -230,6 +240,8 @@ COBOL to język programowania z 1959 roku. Dlaczego więc banki go nie zastąpi�
 Źródła: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERROR, assumed decimal point), przykłady uruchomione w GnuCOBOL 3.2; Java BigDecimal documentation; COBOL initial specifications, US Department of Defense, April 1960; IBM System/360 Principles of Operation; IBM z/Architecture Principles of Operation; IBM 10-K, fiscal 2022; SSA IT Modernization Plan, 2017; GAO-25-107795 (2025); FCA Final Notice to TSB Bank plc (2022); Slaughter and May, TSB Review (2019); TSB 2018 full-year results; Commonwealth Bank of Australia, Recent Developments (2008) i 2013 Shareholder Review; iTWire i Delimiter, February 2011; New Jersey Department of Labor, March 2020; New Jersey Office of the State Auditor (2022); WIRED, "Can't File for Unemployment? Don't Blame Cobol" (2020); Mar Hicks, "Built to Last", Logic (2020); Martin Fowler, "StranglerApplication" (2004).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-banks-still-run-on-60-year-old-code/
 
 ROZDZIAŁY
 00:00 Dodaj jeden pens
@@ -269,6 +281,8 @@ Fontes: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERRO
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-banks-still-run-on-60-year-old-code/
+
 CAPÍTULOS
 00:00 Some um penny
 00:46 Uma linguagem de 1959
@@ -306,6 +320,8 @@ COBOL, 1959'dan kalma bir programlama dili. Peki bankaların parası da mühendi
 Kaynaklar: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERROR, assumed decimal point), örnekler GnuCOBOL 3.2 ile çalıştırıldı; Java BigDecimal documentation; COBOL initial specifications, US Department of Defense, April 1960; IBM System/360 Principles of Operation; IBM z/Architecture Principles of Operation; IBM 10-K, fiscal 2022; SSA IT Modernization Plan, 2017; GAO-25-107795 (2025); FCA Final Notice to TSB Bank plc (2022); Slaughter and May, TSB Review (2019); TSB 2018 full-year results; Commonwealth Bank of Australia, Recent Developments (2008) ve 2013 Shareholder Review; iTWire ve Delimiter, February 2011; New Jersey Department of Labor, March 2020; New Jersey Office of the State Auditor (2022); WIRED, "Can't File for Unemployment? Don't Blame Cobol" (2020); Mar Hicks, "Built to Last", Logic (2020); Martin Fowler, "StranglerApplication" (2004).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-banks-still-run-on-60-year-old-code/
 
 BÖLÜMLER
 00:00 Bir peni ekle
@@ -345,6 +361,8 @@ COBOL — це мова програмування 1959 року. То чому 
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-banks-still-run-on-60-year-old-code/
+
 РОЗДІЛИ
 00:00 Додай один пенні
 00:46 Мова 1959 року
@@ -382,6 +400,8 @@ COBOL là một ngôn ngữ lập trình ra đời năm 1959. Vậy tại sao c�
 Nguồn: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERROR, assumed decimal point), các ví dụ được chạy trên GnuCOBOL 3.2; Java BigDecimal documentation; COBOL initial specifications, US Department of Defense, April 1960; IBM System/360 Principles of Operation; IBM z/Architecture Principles of Operation; IBM 10-K, fiscal 2022; SSA IT Modernization Plan, 2017; GAO-25-107795 (2025); FCA Final Notice to TSB Bank plc (2022); Slaughter and May, TSB Review (2019); TSB 2018 full-year results; Commonwealth Bank of Australia, Recent Developments (2008) và 2013 Shareholder Review; iTWire và Delimiter, February 2011; New Jersey Department of Labor, March 2020; New Jersey Office of the State Auditor (2022); WIRED, "Can't File for Unemployment? Don't Blame Cobol" (2020); Mar Hicks, "Built to Last", Logic (2020); Martin Fowler, "StranglerApplication" (2004).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-banks-still-run-on-60-year-old-code/
 
 CHƯƠNG
 00:00 Cộng thêm một xu
@@ -421,6 +441,8 @@ Zdroje: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERRO
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-banks-still-run-on-60-year-old-code/
+
 KAPITOLY
 00:00 Přičti jednu penci
 00:46 Jazyk z roku 1959
@@ -459,6 +481,8 @@ Fuentes: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERR
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-banks-still-run-on-60-year-old-code/
+
 CAPÍTULOS
 00:00 Súmale un penique
 00:46 Un lenguaje de 1959
@@ -496,6 +520,8 @@ COBOL är ett programspråk från 1959. Så varför har bankerna inte ersatt det
 Källor: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERROR, assumed decimal point), med exemplen körda i GnuCOBOL 3.2; Java BigDecimal documentation; COBOL initial specifications, US Department of Defense, April 1960; IBM System/360 Principles of Operation; IBM z/Architecture Principles of Operation; IBM 10-K, fiscal 2022; SSA IT Modernization Plan, 2017; GAO-25-107795 (2025); FCA Final Notice to TSB Bank plc (2022); Slaughter and May, TSB Review (2019); TSB 2018 full-year results; Commonwealth Bank of Australia, Recent Developments (2008) och 2013 Shareholder Review; iTWire och Delimiter, February 2011; New Jersey Department of Labor, March 2020; New Jersey Office of the State Auditor (2022); WIRED, "Can't File for Unemployment? Don't Blame Cobol" (2020); Mar Hicks, "Built to Last", Logic (2020); Martin Fowler, "StranglerApplication" (2004).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-banks-still-run-on-60-year-old-code/
 
 KAPITEL
 00:00 Lägg till en penny

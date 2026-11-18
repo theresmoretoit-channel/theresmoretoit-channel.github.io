@@ -61,6 +61,8 @@ Sources: J. Yin et al., Satellite-based entanglement distribution over 1200 kilo
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-cant-entanglement-send-messages/
+
 CHAPTERS
 00:00 Two photons, 1,200 km apart
 00:57 A line to Mars?

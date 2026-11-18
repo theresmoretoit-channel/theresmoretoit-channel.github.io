@@ -49,6 +49,8 @@ company rather than Windows the system.
 But underneath all of that is a question that has nothing to do with bugs
 at all. It is about who decides what you may do with something you bought.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-some-people-hate-windows/
+
 Chapters:
 0:00 Most people never think about it
 0:42 The paradox: thirty-year-old programs

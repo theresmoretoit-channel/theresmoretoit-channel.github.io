@@ -61,6 +61,8 @@ tries to make sure both sides are answering the same question.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-many-genders-are-there/
+
 CHAPTERS
 00:00 Two, fifty-five, or hundreds?
 01:00 Sixty options on Facebook

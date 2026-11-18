@@ -67,6 +67,8 @@ Sources: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psycholog
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-almost-every-culture-have-gods/
+
 CHAPTERS
 00:00 Princess Alice is watching
 00:55 Two questions

@@ -57,6 +57,8 @@ Samaan aikaan Martinin paperit ovat vuodesta 1992 kulkeneet arkistoon Texasiin, 
 
 On vielä yksi yksityiskohta, joka tekee tästä kaikesta pahempaa. Vuonna 2013 Martin istuutui televisiotuottajien kanssa ja kertoi heille, miten se päättyy — ei kokonaan, vain kourallinen määränpäitä, joihin tarinan on päädyttävä. Mikä tarkoittaa, että rekonstruktio voisi osua jokaiseen niistä ja olla silti aivan toinen kirja.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Luvut
 0:00 Höyryjyrä ja kymmenen kesken jäänyttä romaania
 0:39 Viisitoista vuotta The Winds of Winteriä
@@ -107,6 +109,8 @@ Et en 1873, un imprimeur du Vermont a terminé Le Mystère d'Edwin Drood en disa
 Pendant ce temps, depuis 1992, les papiers de Martin partent vers un fonds d'archives au Texas qui dépasse aujourd'hui les deux cents cartons. La partie fermée a une règle écrite noir sur blanc : pour la consulter, il faut présenter une lettre d'autorisation. Une lettre de Martin.
 
 Il y a encore un détail qui rend tout ça pire. En 2013, Martin s'est assis avec les producteurs de la série et leur a raconté comment ça se termine — pas tout, juste une poignée de points d'arrivée où l'histoire doit aboutir. Ce qui veut dire qu'une reconstitution pourrait atteindre chacune d'elles et rester un livre complètement différent.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
 
 Chapitres
 0:00 Un rouleau compresseur et dix romans inachevés
@@ -159,6 +163,8 @@ Sementara itu, sejak 1992 kertas-kertas Martin masuk ke sebuah arsip di Texas ya
 
 Ada satu hal lagi yang membuat semua ini lebih buruk. Pada 2013, Martin duduk bersama para produser serialnya dan menceritakan bagaimana kisah itu berakhir — bukan seluruhnya, hanya segelintir titik yang harus dicapai cerita itu. Artinya sebuah rekonstruksi bisa mencapai setiap titik itu dan tetap menjadi buku yang sama sekali lain.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Bab
 0:00 Mesin gilas dan sepuluh novel tak selesai
 0:39 Lima belas tahun The Winds of Winter
@@ -209,6 +215,8 @@ E nel 1873 un tipografo del Vermont finì Il mistero di Edwin Drood, dicendo che
 Nel frattempo, dal 1992 le carte di Martin finiscono in un archivio in Texas che oggi supera le duecento scatole. La parte chiusa ha una regola messa per iscritto: per vederla bisogna presentare una lettera di autorizzazione. Una lettera di Martin.
 
 C'è un altro dettaglio che peggiora tutto questo. Nel 2013 Martin si sedette con i produttori della serie e raccontò loro come va a finire — non tutto, solo una manciata di punti d'arrivo a cui la storia deve arrivare. Il che significa che una ricostruzione potrebbe toccarle tutte ed essere comunque un libro del tutto diverso.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
 
 Capitoli
 0:00 Un rullo compressore e dieci romanzi incompiuti
@@ -261,6 +269,8 @@ Unterdessen gehen Martins Papiere seit 1992 in ein Archiv in Texas, das heute ü
 
 Es gibt noch eine Einzelheit, die das Ganze schlimmer macht. 2013 setzte Martin sich mit den Fernsehproduzenten zusammen und erzählte ihnen, wie es ausgeht — nicht das Ganze, nur eine Handvoll Punkte, die die Geschichte erreichen muss. Das heißt, eine Rekonstruktion könnte jeden einzelnen davon erreichen und trotzdem ein völlig anderes Buch sein.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Kapitel
 0:00 Eine Dampfwalze und zehn unvollendete Romane
 0:39 Fünfzehn Jahre The Winds of Winter
@@ -311,6 +321,8 @@ A w 1873 roku pewien drukarz z Vermontu dokończył Tajemnicę Edwina Drooda, tw
 Tymczasem od 1992 roku papiery Martina trafiają do archiwum w Teksasie, które dziś liczy ponad dwieście pudeł. Zasada dla zamkniętej części jest spisana: żeby ją zobaczyć, trzeba przedstawić list z pozwoleniem. List od Martina.
 
 Jest jeszcze jeden szczegół, który pogarsza to wszystko. W 2013 roku Martin usiadł z producentami serialu i opowiedział im, jak to się kończy — nie całość, tylko garstkę punktów, do których ma dojść. To znaczy, że rekonstrukcja może trafić w każde z nich i wciąż być zupełnie inną książką.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
 
 Rozdziały
 0:00 Walec parowy i dziesięć niedokończonych powieści
@@ -363,6 +375,8 @@ Enquanto isso, desde 1992 os papéis de Martin vão para um acervo no Texas que 
 
 Tem mais um detalhe que piora tudo isso. Em 2013, Martin sentou com os produtores da série e contou a eles como termina — não a história inteira, só um punhado de pontos aonde a história tem que chegar. O que significa que uma reconstrução poderia acertar cada um deles e ainda assim ser um livro totalmente outro.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Capítulos
 0:00 Um rolo compressor e dez romances inacabados
 0:39 Quinze anos de The Winds of Winter
@@ -413,6 +427,8 @@ Ve 1873'te Vermont'lu bir matbaacı Edwin Drood'un Gizemi'ni bitirdi; Dickens'ı
 Bu arada, 1992'den beri Martin'in kâğıtları Teksas'taki bir arşive gidiyor; arşiv bugün iki yüzden fazla kutuya ulaşıyor. Kapalı bölümün kuralı yazılı olarak duruyor: görmek isteyenin bir izin mektubu sunması gerekiyor. Martin'den bir mektup.
 
 Bütün bunları daha da kötüleştiren bir ayrıntı daha var. 2013'te Martin dizinin yapımcılarıyla oturdu ve onlara sonun nasıl olduğunu anlattı — tamamını değil, yalnızca hikâyenin ulaşması gereken birkaç nokta. Yani bir yeniden kurgulama bunların her birini tutturabilir ve yine de bambaşka bir kitap olabilir.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
 
 Bölümler
 0:00 Bir buharlı silindir ve on bitmemiş roman
@@ -465,6 +481,8 @@ Diğer bütün arşiv görselleri kamu malıdır.
 
 Є ще одна деталь, яка все це погіршує. У 2013 році Мартін сів із продюсерами серіалу і розповів їм, чим усе закінчується — не все, лише кілька точок, до яких історія має дійти. А це означає, що реконструкція може влучити в кожен із них і все одно бути зовсім іншою книжкою.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Розділи
 0:00 Паровий коток і десять незавершених романів
 0:39 П'ятнадцять років The Winds of Winter
@@ -515,6 +533,8 @@ Và năm 1873, một thợ in ở Vermont đã viết nốt Bí ẩn của Edwin
 Trong khi đó, từ năm 1992 giấy tờ của Martin vẫn được chuyển tới một kho lưu trữ ở Texas, nay đã lên tới hơn hai trăm thùng. Phần đóng có quy định được viết ra: muốn xem thì phải trình một lá thư cho phép. Một lá thư từ Martin.
 
 Còn một chi tiết nữa khiến mọi chuyện tệ hơn. Năm 2013, Martin ngồi lại với các nhà sản xuất truyền hình và kể cho họ nghe chuyện kết thúc ra sao — không phải toàn bộ, chỉ vài đích đến mà câu chuyện phải tới. Nghĩa là một bản tái dựng có thể chạm tới từng điểm một mà vẫn là một cuốn sách hoàn toàn khác.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
 
 Các chương
 0:00 Một chiếc xe lu và mười cuốn tiểu thuyết dang dở
@@ -567,6 +587,8 @@ Martinovy papíry mezitím od roku 1992 putují do archivu v Texasu, který má 
 
 Je tu ještě jedna věc, která to celé zhoršuje. V roce 2013 si Martin sedl s televizními producenty a řekl jim, jak to dopadne — ne celý příběh, jen hrstku bodů, kam má příběh dojít. Což znamená, že rekonstrukce může dojít do všech těch bodů a přitom být úplně jinou knihou.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Kapitoly
 0:00 Parní válec a deset nedopsaných románů
 0:39 Patnáct let The Winds of Winter
@@ -618,6 +640,8 @@ Mientras tanto, desde 1992 los papeles de Martin van a un archivo de Texas que h
 
 Hay un detalle más que lo empeora todo. En 2013, Martin se sentó con los productores de la serie y les contó cómo acaba — no entero, solo un puñado de puntos a los que la historia tiene que llegar. Lo que significa que una reconstrucción podría llegar a todos ellos y ser aun así un libro completamente distinto.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Capítulos
 0:00 Una apisonadora y diez novelas sin terminar
 0:39 Quince años de The Winds of Winter
@@ -668,6 +692,8 @@ Och 1873 skrev en tryckare i Vermont färdigt Edwin Droods mysterium och sa att 
 Under tiden har Martins papper sedan 1992 gått till ett arkiv i Texas som i dag omfattar över tvåhundra lådor. Regeln för den stängda delen är nedskriven: för att se den måste man visa upp ett tillståndsbrev. Ett brev från Martin.
 
 Det finns en detalj till som gör allt det här värre. 2013 satte sig Martin ner med tv-producenterna och berättade hur det slutar — inte alltihop, bara en handfull slutpunkter som berättelsen måste nå. Vilket betyder att en rekonstruktion kan träffa varenda en av dem och ändå vara en helt annan bok.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
 
 Kapitel
 0:00 En ångvält och tio oavslutade romaner

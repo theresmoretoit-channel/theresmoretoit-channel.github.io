@@ -49,6 +49,8 @@ Lähteet: A. M. Turing, "On Computable Numbers, with an Application to the Entsc
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-computers-cant-always-detect-deadlocks/
+
 LUVUT
 00:00 Neljä autoa, eikä kukaan liiku
 01:03 Miten ohjelma jää jumiin
@@ -79,6 +81,8 @@ Les bases de données savent bien repérer un interblocage une fois qu'il s'est 
 Sources : A. M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", Proceedings of the London Mathematical Society (1936) ; M. Davis, Computability and Unsolvability (1958) ; C. Strachey, "An impossible program", The Computer Journal (1965) ; J. W. Havender, "Avoiding deadlock in multitasking systems", IBM Systems Journal (1968) ; E. G. Coffman, M. J. Elphick et A. Shoshani, "System Deadlocks", ACM Computing Surveys (1971) ; C. Newcombe et al., "How Amazon Web Services Uses Formal Methods", Communications of the ACM 58(4) (2015) ; Microsoft Learn, guide sur les interblocages dans SQL Server et erreur 1205 ; Convention de Vienne sur la circulation routière (1968), article 18.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-computers-cant-always-detect-deadlocks/
 
 CHAPITRES
 00:00 Quatre voitures, et personne ne bouge
@@ -111,6 +115,8 @@ Sumber: A. M. Turing, "On Computable Numbers, with an Application to the Entsche
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-computers-cant-always-detect-deadlocks/
+
 BAB
 00:00 Empat mobil, dan tidak ada yang bergerak
 01:03 Bagaimana program bisa macet
@@ -141,6 +147,8 @@ I database sono bravi a individuare un deadlock quando ormai è avvenuto. SQL Se
 Fonti: A. M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", Proceedings of the London Mathematical Society (1936); M. Davis, Computability and Unsolvability (1958); C. Strachey, "An impossible program", The Computer Journal (1965); J. W. Havender, "Avoiding deadlock in multitasking systems", IBM Systems Journal (1968); E. G. Coffman, M. J. Elphick e A. Shoshani, "System Deadlocks", ACM Computing Surveys (1971); C. Newcombe et al., "How Amazon Web Services Uses Formal Methods", Communications of the ACM 58(4) (2015); Microsoft Learn, guida ai deadlock di SQL Server ed errore 1205; Convenzione di Vienna sulla circolazione stradale (1968), articolo 18.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-computers-cant-always-detect-deadlocks/
 
 CAPITOLI
 00:00 Quattro auto, e nessuno si muove
@@ -173,6 +181,8 @@ Quellen: A. M. Turing, "On Computable Numbers, with an Application to the Entsch
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-computers-cant-always-detect-deadlocks/
+
 KAPITEL
 00:00 Vier Autos, und keiner fährt
 01:03 Wie ein Programm hängen bleibt
@@ -203,6 +213,8 @@ Bazy danych dobrze wykrywają zakleszczenie, gdy już do niego doszło. Microsof
 Źródła: A. M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", Proceedings of the London Mathematical Society (1936); M. Davis, Computability and Unsolvability (1958); C. Strachey, "An impossible program", The Computer Journal (1965); J. W. Havender, "Avoiding deadlock in multitasking systems", IBM Systems Journal (1968); E. G. Coffman, M. J. Elphick i A. Shoshani, "System Deadlocks", ACM Computing Surveys (1971); C. Newcombe et al., "How Amazon Web Services Uses Formal Methods", Communications of the ACM 58(4) (2015); Microsoft Learn, przewodnik po zakleszczeniach w SQL Server i błąd 1205; Konwencja wiedeńska o ruchu drogowym (1968), artykuł 18.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-computers-cant-always-detect-deadlocks/
 
 ROZDZIAŁY
 00:00 Cztery auta i nikt nie rusza
@@ -235,6 +247,8 @@ Fontes: A. M. Turing, "On Computable Numbers, with an Application to the Entsche
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-computers-cant-always-detect-deadlocks/
+
 CAPÍTULOS
 00:00 Quatro carros, e ninguém sai do lugar
 01:03 Como um programa trava
@@ -265,6 +279,8 @@ Veritabanları, gerçekleşmiş bir kilitlenmeyi yakalamakta iyidir. Microsoft'u
 Kaynaklar: A. M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", Proceedings of the London Mathematical Society (1936); M. Davis, Computability and Unsolvability (1958); C. Strachey, "An impossible program", The Computer Journal (1965); J. W. Havender, "Avoiding deadlock in multitasking systems", IBM Systems Journal (1968); E. G. Coffman, M. J. Elphick ve A. Shoshani, "System Deadlocks", ACM Computing Surveys (1971); C. Newcombe et al., "How Amazon Web Services Uses Formal Methods", Communications of the ACM 58(4) (2015); Microsoft Learn, SQL Server kilitlenme kılavuzu ve 1205 hatası; Karayolu Trafiği Hakkında Viyana Sözleşmesi (1968), madde 18.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-computers-cant-always-detect-deadlocks/
 
 BÖLÜMLER
 00:00 Dört araba ve kimse kıpırdamıyor
@@ -297,6 +313,8 @@ Alan Turing'in 1930'lardaki portresi kamu malıdır, Wikimedia Commons üzerinde
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-computers-cant-always-detect-deadlocks/
+
 РОЗДІЛИ
 00:00 Чотири машини, і ніхто не рушає
 01:03 Як програма застрягає
@@ -327,6 +345,8 @@ Cơ sở dữ liệu khá giỏi phát hiện một bế tắc khi nó đã xả
 Nguồn: A. M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", Proceedings of the London Mathematical Society (1936); M. Davis, Computability and Unsolvability (1958); C. Strachey, "An impossible program", The Computer Journal (1965); J. W. Havender, "Avoiding deadlock in multitasking systems", IBM Systems Journal (1968); E. G. Coffman, M. J. Elphick và A. Shoshani, "System Deadlocks", ACM Computing Surveys (1971); C. Newcombe et al., "How Amazon Web Services Uses Formal Methods", Communications of the ACM 58(4) (2015); Microsoft Learn, hướng dẫn về bế tắc trong SQL Server và lỗi 1205; Công ước Viên về giao thông đường bộ (1968), điều 18.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-computers-cant-always-detect-deadlocks/
 
 CHƯƠNG
 00:00 Bốn chiếc xe, không ai nhúc nhích
@@ -359,6 +379,8 @@ Zdroje: A. M. Turing, "On Computable Numbers, with an Application to the Entsche
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-computers-cant-always-detect-deadlocks/
+
 KAPITOLY
 00:00 Čtyři auta a nikdo se nehne
 01:03 Jak program uvázne
@@ -390,6 +412,8 @@ Fuentes: A. M. Turing, "On Computable Numbers, with an Application to the Entsch
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-computers-cant-always-detect-deadlocks/
+
 CAPÍTULOS
 00:00 Cuatro coches, y nadie se mueve
 01:03 Cómo se atasca un programa
@@ -420,6 +444,8 @@ Databaser är bra på att upptäcka ett baklås när det väl har uppstått. Mic
 Källor: A. M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", Proceedings of the London Mathematical Society (1936); M. Davis, Computability and Unsolvability (1958); C. Strachey, "An impossible program", The Computer Journal (1965); J. W. Havender, "Avoiding deadlock in multitasking systems", IBM Systems Journal (1968); E. G. Coffman, M. J. Elphick och A. Shoshani, "System Deadlocks", ACM Computing Surveys (1971); C. Newcombe et al., "How Amazon Web Services Uses Formal Methods", Communications of the ACM 58(4) (2015); Microsoft Learn, guide om baklås i SQL Server och fel 1205; Wienkonventionen om vägtrafik (1968), artikel 18.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-computers-cant-always-detect-deadlocks/
 
 KAPITEL
 00:00 Fyra bilar, och ingen rör sig

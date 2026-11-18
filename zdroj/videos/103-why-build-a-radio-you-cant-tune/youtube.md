@@ -57,6 +57,8 @@ Sources: Czech Radio (1968.rozhlas.cz, the broadcasts of 21 August 1968; Czech R
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-build-a-radio-you-cant-tune/
+
 CHAPTERS
 00:00 One night in 1968
 00:55 Not really a radio

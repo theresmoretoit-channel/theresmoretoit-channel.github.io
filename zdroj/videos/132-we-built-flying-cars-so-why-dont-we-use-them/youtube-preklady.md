@@ -51,6 +51,8 @@ Lähteet: HistoryNet / Aviation History (Aerocar, ConvAirCar ja William Piperin 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 LUVUT
 00:00 Auto, joka saa lentää
 00:44 Aloitetaan yhdestä
@@ -90,6 +92,8 @@ Cette vidéo commence avec une seule voiture volante : pourquoi une voiture et u
 Sources : HistoryNet / Aviation History (l’Aerocar, le ConvAirCar et Private Flying: Today and Tomorrow de William Piper, 1949) ; archives du San Diego Air & Space Museum ; General Aviation News sur le certificat de l’AirCar (2022) ; caractéristiques du PAL-V Liberty ; coefficients des véhicules d’essai de l’US EPA ; Kasliwal et al., Nature Communications (2019) ; données du certificat de type EASA du Robinson R44 ; données du NTSB sur les accidents de l’aviation générale (2024) ; NHTSA et AAA Foundation ; statistiques de la FAA sur les pilotes et Air Traffic by the Numbers (FY2024) ; FHWA Highway Statistics ; UK Department for Transport, VEH0105 ; Aerospace America et AIN sur la simulation de la NASA et de Wisk (2026) ; documents officiels et annonces d’EHang et de Joby Aviation ; Abraphe sur la flotte d’hélicoptères de São Paulo ; AIN sur le CityAirbus NextGen d’Airbus (2025).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/we-built-flying-cars-so-why-dont-we-use-them/
 
 CHAPITRES
 00:00 Une voiture qui a le droit de voler
@@ -131,6 +135,8 @@ Sumber: HistoryNet / Aviation History (Aerocar, ConvAirCar, dan Private Flying: 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 BAB
 00:00 Mobil yang boleh terbang
 00:44 Mulai dari satu
@@ -170,6 +176,8 @@ Questo video parte da una sola auto volante: perché un’auto e un aereo voglio
 Fonti: HistoryNet / Aviation History (l’Aerocar, il ConvAirCar e Private Flying: Today and Tomorrow di William Piper, 1949); archivi del San Diego Air & Space Museum; General Aviation News sul certificato dell’AirCar (2022); specifiche del PAL-V Liberty; coefficienti delle auto di prova dell’US EPA; Kasliwal et al., Nature Communications (2019); dati del certificato di tipo EASA del Robinson R44; dati NTSB sugli incidenti dell’aviazione generale (2024); NHTSA e AAA Foundation; statistiche FAA sui piloti e Air Traffic by the Numbers (FY2024); FHWA Highway Statistics; UK Department for Transport, VEH0105; Aerospace America e AIN sulla simulazione di NASA e Wisk (2026); documenti ufficiali e annunci di EHang e Joby Aviation; Abraphe sulla flotta di elicotteri di San Paolo; AIN sul CityAirbus NextGen di Airbus (2025).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/we-built-flying-cars-so-why-dont-we-use-them/
 
 CAPITOLI
 00:00 Un’auto che ha il permesso di volare
@@ -211,6 +219,8 @@ Quellen: HistoryNet / Aviation History (Aerocar, ConvAirCar und William Pipers P
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 KAPITEL
 00:00 Ein Auto, das fliegen darf
 00:44 Fangen wir mit einem an
@@ -250,6 +260,8 @@ Ten film zaczyna od jednego latającego samochodu: dlaczego samochód i samolot 
 Źródła: HistoryNet / Aviation History (Aerocar, ConvAirCar i Private Flying: Today and Tomorrow Williama Pipera, 1949); archiwum San Diego Air & Space Museum; General Aviation News o certyfikacie AirCara (2022); dane techniczne PAL-V Liberty; współczynniki pojazdów testowych US EPA; Kasliwal et al., Nature Communications (2019); dane certyfikatu typu EASA dla Robinsona R44; dane NTSB o wypadkach lotnictwa ogólnego (2024); NHTSA i AAA Foundation; statystyki pilotów FAA i Air Traffic by the Numbers (FY2024); FHWA Highway Statistics; UK Department for Transport, VEH0105; Aerospace America i AIN o symulacji NASA i Wisk (2026); dokumenty urzędowe i komunikaty EHang i Joby Aviation; Abraphe o flocie śmigłowców São Paulo; AIN o Airbus CityAirbus NextGen (2025).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/we-built-flying-cars-so-why-dont-we-use-them/
 
 ROZDZIAŁY
 00:00 Samochód z pozwoleniem na lot
@@ -291,6 +303,8 @@ Fontes: HistoryNet / Aviation History (o Aerocar, o ConvAirCar e Private Flying:
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 CAPÍTULOS
 00:00 Um carro autorizado a voar
 00:44 Começando com um
@@ -330,6 +344,8 @@ Bu video tek bir uçan arabayla başlıyor: araba ile uçağın neden neredeyse 
 Kaynaklar: HistoryNet / Aviation History (Aerocar, ConvAirCar ve William Piper'ın Private Flying: Today and Tomorrow kitabı, 1949); San Diego Air & Space Museum arşivi; General Aviation News, AirCar sertifikası üzerine (2022); PAL-V Liberty teknik özellikleri; US EPA test aracı katsayıları; Kasliwal et al., Nature Communications (2019); Robinson R44 için EASA tip sertifikası verileri; NTSB genel havacılık kaza verileri (2024); NHTSA ve AAA Foundation; FAA pilot istatistikleri ve Air Traffic by the Numbers (FY2024); FHWA Highway Statistics; UK Department for Transport, VEH0105; Aerospace America ve AIN, NASA ve Wisk simülasyonu üzerine (2026); EHang ve Joby Aviation resmî belgeleri ve duyuruları; Abraphe, São Paulo'nun helikopter filosu üzerine; AIN, Airbus CityAirbus NextGen üzerine (2025).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/we-built-flying-cars-so-why-dont-we-use-them/
 
 BÖLÜMLER
 00:00 Uçmasına izin verilen bir araba
@@ -371,6 +387,8 @@ Diğer tüm arşiv görselleri kamu malıdır ya da bilinen bir telif hakkı kı
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 РОЗДІЛИ
 00:00 Автомобіль, якому дозволено літати
 00:44 Почнімо з одного
@@ -410,6 +428,8 @@ Video này bắt đầu với chỉ một chiếc ô tô bay: vì sao ô tô và
 Nguồn: HistoryNet / Aviation History (Aerocar, ConvAirCar và Private Flying: Today and Tomorrow của William Piper, 1949); kho lưu trữ San Diego Air & Space Museum; General Aviation News về giấy chứng nhận của AirCar (2022); thông số kỹ thuật PAL-V Liberty; hệ số xe thử nghiệm của US EPA; Kasliwal et al., Nature Communications (2019); dữ liệu chứng nhận loại của EASA cho Robinson R44; dữ liệu tai nạn hàng không chung của NTSB (2024); NHTSA và AAA Foundation; thống kê phi công của FAA và Air Traffic by the Numbers (FY2024); FHWA Highway Statistics; UK Department for Transport, VEH0105; Aerospace America và AIN về mô phỏng của NASA và Wisk (2026); hồ sơ chính thức và thông báo của EHang và Joby Aviation; Abraphe về đội trực thăng của São Paulo; AIN về Airbus CityAirbus NextGen (2025).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/we-built-flying-cars-so-why-dont-we-use-them/
 
 CHƯƠNG
 00:00 Chiếc xe được phép bay
@@ -451,6 +471,8 @@ Zdroje: HistoryNet / Aviation History (Aerocar, ConvAirCar a Private Flying: Tod
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 KAPITOLY
 00:00 Auto, které smí létat
 00:44 Začněme jedním
@@ -491,6 +513,8 @@ Fuentes: HistoryNet / Aviation History (el Aerocar, el ConvAirCar y Private Flyi
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 CAPÍTULOS
 00:00 Un coche que tiene permiso para volar
 00:44 Empecemos por uno
@@ -530,6 +554,8 @@ Den här videon börjar med en enda flygande bil: varför en bil och ett flygpla
 Källor: HistoryNet / Aviation History (Aerocar, ConvAirCar och William Pipers Private Flying: Today and Tomorrow, 1949); San Diego Air & Space Museums arkiv; General Aviation News om AirCars certifikat (2022); specifikationer för PAL-V Liberty; US EPA:s koefficienter för testbilar; Kasliwal et al., Nature Communications (2019); EASA:s typcertifikatdata för Robinson R44; NTSB:s olycksdata för allmänflyget (2024); NHTSA och AAA Foundation; FAA:s pilotstatistik och Air Traffic by the Numbers (FY2024); FHWA Highway Statistics; UK Department for Transport, VEH0105; Aerospace America och AIN om simuleringen från NASA och Wisk (2026); myndighetshandlingar och tillkännagivanden från EHang och Joby Aviation; Abraphe om São Paulos helikopterflotta; AIN om Airbus CityAirbus NextGen (2025).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/we-built-flying-cars-so-why-dont-we-use-them/
 
 KAPITEL
 00:00 En bil som får flyga

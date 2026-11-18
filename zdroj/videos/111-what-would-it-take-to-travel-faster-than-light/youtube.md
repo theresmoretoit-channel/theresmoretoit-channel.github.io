@@ -65,6 +65,8 @@ Sources: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-would-it-take-to-travel-faster-than-light/
+
 CHAPTERS
 00:00 One kilogram at 99% of light speed
 00:37 The last three metres per second

@@ -55,6 +55,8 @@ This is the third video in a series about transgender people. The first asked wh
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-trans-people-change-their-bodies/
+
 CHAPTERS
 00:00 Why would anyone choose that?
 01:33 Transition is not one thing

@@ -70,6 +70,8 @@ whole thing — which is why the best map ever drawn gets the geography
 almost entirely wrong, and why Leicester Square and Covent Garden are
 two hundred and sixty metres apart while everyone takes the train.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/maps-are-lying/
+
 Chapters
 00:00 A map you have seen a thousand times
 00:35 Every flat map has to lie

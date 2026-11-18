@@ -45,6 +45,8 @@ Lähteet: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psycholo
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-almost-every-culture-have-gods/
+
 LUVUT
 00:00 Prinsessa Alice katsoo
 00:55 Kaksi kysymystä
@@ -77,6 +79,8 @@ Pourquoi on croit quelque chose et si c’est vrai, ce sont deux questions disti
 Sources : Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology ; Bering & Bjorklund (2004), Developmental Psychology ; Peoples & Marlowe (2012), Human Nature ; codage High Gods de Swanson, Standard Cross-Cultural Sample (D-PLACE) ; Watts et al. (2015), Proceedings of the Royal Society B ; Norenzayan, Big Gods (2013) ; Purzycki et al. (2016), Nature ; Whitehouse et al. (2019), Nature (rétracté en 2021) ; Beheim et al. (2021), Nature ; Whitehouse et al. (2022), Religion, Brain & Behavior ; World Values Survey / European Values Study 2017–2022 (via Our World in Data) ; Special Eurobarometer 225 (2005).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-almost-every-culture-have-gods/
 
 CHAPITRES
 00:00 La princesse Alice regarde
@@ -111,6 +115,8 @@ Sumber: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-almost-every-culture-have-gods/
+
 BAB
 00:00 Putri Alice sedang mengawasi
 00:55 Dua pertanyaan
@@ -143,6 +149,8 @@ Perché crediamo a qualcosa e se sia vero sono domande separate. Questo video pa
 Fonti: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology; Bering & Bjorklund (2004), Developmental Psychology; Peoples & Marlowe (2012), Human Nature; codifica High Gods di Swanson, Standard Cross-Cultural Sample (D-PLACE); Watts et al. (2015), Proceedings of the Royal Society B; Norenzayan, Big Gods (2013); Purzycki et al. (2016), Nature; Whitehouse et al. (2019), Nature (ritrattato nel 2021); Beheim et al. (2021), Nature; Whitehouse et al. (2022), Religion, Brain & Behavior; World Values Survey / European Values Study 2017–2022 (tramite Our World in Data); Special Eurobarometer 225 (2005).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-almost-every-culture-have-gods/
 
 CAPITOLI
 00:00 La principessa Alice guarda
@@ -177,6 +185,8 @@ Quellen: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psycholog
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-almost-every-culture-have-gods/
+
 KAPITEL
 00:00 Prinzessin Alice sieht zu
 00:55 Zwei Fragen
@@ -209,6 +219,8 @@ Dlaczego w coś wierzymy i czy to prawda, to dwa osobne pytania. Ten film jest o
 Źródła: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology; Bering & Bjorklund (2004), Developmental Psychology; Peoples & Marlowe (2012), Human Nature; kodowanie High Gods Swansona, Standard Cross-Cultural Sample (D-PLACE); Watts et al. (2015), Proceedings of the Royal Society B; Norenzayan, Big Gods (2013); Purzycki et al. (2016), Nature; Whitehouse et al. (2019), Nature (wycofany w 2021); Beheim et al. (2021), Nature; Whitehouse et al. (2022), Religion, Brain & Behavior; World Values Survey / European Values Study 2017–2022 (za Our World in Data); Special Eurobarometer 225 (2005).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-almost-every-culture-have-gods/
 
 ROZDZIAŁY
 00:00 Księżniczka Alicja patrzy
@@ -243,6 +255,8 @@ Fontes: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-almost-every-culture-have-gods/
+
 CAPÍTULOS
 00:00 A princesa Alice está olhando
 00:55 Duas perguntas
@@ -275,6 +289,8 @@ Bir şeye neden inandığımız ve onun doğru olup olmadığı ayrı sorulardı
 Kaynaklar: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology; Bering & Bjorklund (2004), Developmental Psychology; Peoples & Marlowe (2012), Human Nature; Swanson'ın High Gods kodlaması, Standard Cross-Cultural Sample (D-PLACE); Watts et al. (2015), Proceedings of the Royal Society B; Norenzayan, Big Gods (2013); Purzycki et al. (2016), Nature; Whitehouse et al. (2019), Nature (2021'de geri çekildi); Beheim et al. (2021), Nature; Whitehouse et al. (2022), Religion, Brain & Behavior; World Values Survey / European Values Study 2017–2022 (Our World in Data aracılığıyla); Special Eurobarometer 225 (2005).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-almost-every-culture-have-gods/
 
 BÖLÜMLER
 00:00 Prenses Alice izliyor
@@ -309,6 +325,8 @@ BÖLÜMLER
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-almost-every-culture-have-gods/
+
 РОЗДІЛИ
 00:00 Принцеса Аліса стежить
 00:55 Два питання
@@ -341,6 +359,8 @@ Vì sao ta tin vào một điều gì đó và điều đó có đúng hay khôn
 Nguồn: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology; Bering & Bjorklund (2004), Developmental Psychology; Peoples & Marlowe (2012), Human Nature; bộ mã High Gods của Swanson, Standard Cross-Cultural Sample (D-PLACE); Watts et al. (2015), Proceedings of the Royal Society B; Norenzayan, Big Gods (2013); Purzycki et al. (2016), Nature; Whitehouse et al. (2019), Nature (bị rút lại năm 2021); Beheim et al. (2021), Nature; Whitehouse et al. (2022), Religion, Brain & Behavior; World Values Survey / European Values Study 2017–2022 (qua Our World in Data); Special Eurobarometer 225 (2005).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-almost-every-culture-have-gods/
 
 CHƯƠNG
 00:00 Công chúa Alice đang dõi theo
@@ -375,6 +395,8 @@ Zdroje: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-almost-every-culture-have-gods/
+
 KAPITOLY
 00:00 Princezna Alice se dívá
 00:55 Dvě otázky
@@ -408,6 +430,8 @@ Fuentes: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psycholog
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-almost-every-culture-have-gods/
+
 CAPÍTULOS
 00:00 La princesa Alice está mirando
 00:55 Dos preguntas
@@ -440,6 +464,8 @@ Varför vi tror på något och om det är sant är två olika frågor. Den här 
 Källor: Piazza, Bering & Ingram (2011), Journal of Experimental Child Psychology; Bering & Bjorklund (2004), Developmental Psychology; Peoples & Marlowe (2012), Human Nature; Swansons kodning av High Gods, Standard Cross-Cultural Sample (D-PLACE); Watts et al. (2015), Proceedings of the Royal Society B; Norenzayan, Big Gods (2013); Purzycki et al. (2016), Nature; Whitehouse et al. (2019), Nature (tillbakadragen 2021); Beheim et al. (2021), Nature; Whitehouse et al. (2022), Religion, Brain & Behavior; World Values Survey / European Values Study 2017–2022 (via Our World in Data); Special Eurobarometer 225 (2005).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-almost-every-culture-have-gods/
 
 KAPITEL
 00:00 Prinsessan Alice ser på

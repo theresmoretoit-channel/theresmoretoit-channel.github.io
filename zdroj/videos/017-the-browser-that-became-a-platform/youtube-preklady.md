@@ -45,6 +45,8 @@ Mutta IE6 ei ollut yksinkertaisesti kauhea selain. Microsoft yritti ratkaista to
 
 Tämä on tarina siitä, miten selaimesta tuli alusta, mitä se maksoi niille, joiden piti rakentaa sen päälle, ja miksi lopun pitäisi tuntua hieman liian tutulta: nykyään lähes jokainen selain, jonka osaat nimetä, pyörii samalla moottorilla.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/the-browser-that-became-a-platform/
+
 Luvut
 00:00 Kaikki on rikki
 01:01 Miten Internet Explorer voitti
@@ -103,6 +105,8 @@ laquelle la fin devrait vous sembler un peu trop familière : aujourd'hui
 presque tous les navigateurs que vous pouvez nommer tournent sur le même
 moteur.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/the-browser-that-became-a-platform/
+
 Chapitres
 00:00 Tout est cassé
 01:01 Comment Internet Explorer a gagné
@@ -155,6 +159,8 @@ Buka sebuah halaman web yang tampak normal di Netscape, di Opera, di Firefox yan
 Tapi IE6 bukan sekadar browser yang mengerikan. Microsoft sedang mencoba memecahkan masalah nyata: pada 2001 web bisa menampilkan dokumen dan tidak banyak lagi, sementara perusahaan menginginkan aplikasi sungguhan. ActiveX adalah jawaban yang datang lebih awal, nekat, dan sungguh visioner — ubah browsernya menjadi platform aplikasi. Mereka benar soal tujuannya dan keliru soal jalannya.
 
 Ini cerita tentang bagaimana sebuah browser menjadi sebuah platform, apa harganya bagi orang-orang yang harus membangun di atasnya, dan kenapa akhirnya terasa sedikit terlalu akrab: hari ini hampir setiap browser yang bisa kamu sebutkan berjalan di atas mesin yang sama.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/the-browser-that-became-a-platform/
 
 Bab
 00:00 Semuanya rusak
@@ -210,6 +216,8 @@ Questa è la storia di come un browser divenne una piattaforma, di quanto
 costò a chi doveva svilupparci sopra, e del perché il finale dovrebbe
 suonarvi un po' troppo familiare: oggi quasi tutti i browser che sapete
 nominare girano sullo stesso motore.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/the-browser-that-became-a-platform/
 
 Capitoli
 00:00 È tutto rotto
@@ -280,6 +288,8 @@ Leute kostete, die dafür entwickeln mussten, und warum sich das Ende ein
 bisschen zu vertraut anfühlen sollte: heute läuft fast jeder Browser, den
 Sie nennen können, auf derselben Engine.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/the-browser-that-became-a-platform/
+
 Kapitel
 00:00 Alles ist kaputt
 01:01 Wie der Internet Explorer gewann
@@ -348,6 +358,8 @@ To jest historia o tym, jak przeglądarka stała się platformą, ile to
 kosztowało tych, którzy musieli dla niej tworzyć, i dlaczego zakończenie
 powinno brzmieć odrobinę zbyt znajomo: dziś prawie każda przeglądarka,
 jaką potrafisz wymienić, działa na tym samym silniku.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/the-browser-that-became-a-platform/
 
 Rozdziały
 00:00 Wszystko jest zepsute
@@ -418,6 +430,8 @@ custou a quem tinha que desenvolver para ele, e de por que o final
 deveria soar um pouco familiar demais: hoje quase todo navegador que você
 consegue citar roda no mesmo motor.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/the-browser-that-became-a-platform/
+
 Capítulos
 00:00 Está tudo quebrado
 01:01 Como o Internet Explorer venceu
@@ -472,6 +486,8 @@ Ama IE6 sadece berbat bir tarayıcı değildi. Microsoft gerçek bir sorunu çö
 
 Bu, bir tarayıcının nasıl platforma dönüştüğünün, bu tarayıcı için uygulama geliştirmek zorunda kalanlara neye mal olduğunun ve sonun neden biraz fazla tanıdık gelmesi gerektiğinin hikâyesi: bugün adını sayabileceğin hemen her tarayıcı aynı motor üzerinde çalışıyor.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/the-browser-that-became-a-platform/
+
 Bölümler
 00:00 Her şey bozuk
 01:01 Internet Explorer nasıl kazandı
@@ -512,6 +528,8 @@ Internet Explorer 6 — браузер, який став платформою
 
 Це історія про те, як браузер став платформою, чого це коштувало тим, хто мусив під нього розробляти, і чому кінцівка має здаватися трохи занадто знайомою: сьогодні майже кожен браузер, який ти можеш назвати, працює на тому самому рушії.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/the-browser-that-became-a-platform/
+
 Розділи
 00:00 Усе поламане
 01:01 Як Internet Explorer переміг
@@ -551,6 +569,8 @@ Hãy mở một trang web hoàn toàn bình thường trong Netscape, trong Oper
 Nhưng IE6 không đơn giản chỉ là một trình duyệt tệ hại. Microsoft đang cố giải một bài toán có thật: năm 2001 web hiển thị được tài liệu và chẳng mấy thứ khác, trong khi các công ty lại muốn ứng dụng thực thụ. ActiveX là một câu trả lời sớm, liều lĩnh và thực sự có tầm nhìn — biến trình duyệt thành một nền tảng ứng dụng. Họ đúng về đích đến và sai về con đường.
 
 Đây là câu chuyện về việc một trình duyệt đã trở thành nền tảng ra sao, cái giá mà những người phải phát triển trên nó đã trả, và vì sao đoạn kết có lẽ sẽ khiến bạn thấy hơi quá quen thuộc: hôm nay gần như mọi trình duyệt bạn kể tên được đều chạy trên cùng một engine.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/the-browser-that-became-a-platform/
 
 Các chương
 00:00 Mọi thứ đều hỏng
@@ -605,6 +625,8 @@ Tohle je příběh o tom, jak se z prohlížeče stala platforma, co to stálo
 lidi, kteří pro něj museli vyvíjet, a proč by vám ten konec měl přijít
 trochu moc povědomý: dneska skoro každý prohlížeč, který dokážete
 jmenovat, běží na tomtéž jádru.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/the-browser-that-became-a-platform/
 
 Kapitoly
 00:00 Všechno je rozbité
@@ -662,6 +684,8 @@ Esta es la historia de cómo un navegador se convirtió en plataforma, de
 lo que costó a quienes tenían que desarrollar para él, y de por qué el
 final debería sonarte un poco demasiado familiar: hoy casi todos los
 navegadores que puedes nombrar funcionan sobre el mismo motor.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/the-browser-that-became-a-platform/
 
 Capítulos
 00:00 Todo está roto
@@ -729,6 +753,8 @@ Det här är historien om hur en webbläsare blev en plattform, vad det
 kostade dem som måste bygga för den, och varför slutet borde kännas en
 aning för bekant: i dag kör nästan varenda webbläsare du kan nämna på
 samma motor.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/the-browser-that-became-a-platform/
 
 Kapitel
 00:00 Allt är trasigt

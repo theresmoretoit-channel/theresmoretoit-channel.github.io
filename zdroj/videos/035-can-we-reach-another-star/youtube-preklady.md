@@ -43,6 +43,8 @@ Mene nopeammin, ja ongelmat muuttuvat sen sijaan että katoaisivat. Sadan gigawa
 
 Jäljelle jää kysymys, josta koko juttu oikeastaan kertoo: voimmeko rakentaa tänään koneen, joka perille päästyään yhä tietää, mitä sen on määrä tehdä?
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/can-we-reach-another-star/
+
 LUVUT
 0:00 Lähin tähti
 0:56 Miten nopeasti pääsemme?
@@ -112,6 +114,8 @@ Reste la question dont il s'agit vraiment : pouvons-nous construire
 aujourd'hui une machine qui saura encore ce qu'elle doit faire une fois
 arrivée ?
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/can-we-reach-another-star/
+
 CHAPITRES
 0:00 L'étoile la plus proche
 0:56 À quelle vitesse peut-on aller ?
@@ -163,6 +167,8 @@ Bisa dibilang begitu. Pada kecepatan Voyager 1 perjalanannya memakan sekitar tuj
 Melaju lebih cepat membuat masalahnya berubah, bukan hilang. Laser seratus gigawatt bisa mendorong layar bermassa sekitar satu gram ke seperlima kecepatan cahaya dan menyeberangi jarak itu dalam dua puluh tahun — tapi di ujung sana tidak ada apa pun yang menunggu untuk memperlambatnya, butiran debu terbesar di luar sana tiba dengan energi sebutir peluru senapan, dan wahananya harus menavigasi sendiri karena Bumi berjarak empat tahun lewat radio.
 
 Maka tersisa pertanyaan yang sebenarnya jadi inti semuanya: bisakah kita membangun hari ini sebuah mesin yang, saat sampai di sana, masih tahu apa yang seharusnya ia lakukan?
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/can-we-reach-another-star/
 
 BAB
 0:00 Bintang terdekat
@@ -229,6 +235,8 @@ navigare da sola, perché la Terra è a quattro anni di radio.
 
 Resta la domanda di cui in fondo si tratta: possiamo costruire oggi una
 macchina che sappia ancora cosa deve fare quando arriverà?
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/can-we-reach-another-star/
 
 CAPITOLI
 0:00 La stella più vicina
@@ -299,6 +307,8 @@ Erde ist vier Funkjahre entfernt.
 Bleibt die Frage, um die es eigentlich geht: Können wir heute eine
 Maschine bauen, die noch weiß, was sie tun soll, wenn sie ankommt?
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/can-we-reach-another-star/
+
 KAPITEL
 0:00 Der nächste Stern
 0:56 Wie schnell können wir fliegen?
@@ -365,6 +375,8 @@ oddalona o cztery lata drogi radiowej.
 
 Zostaje pytanie, o które tak naprawdę chodzi: czy umiemy dziś zbudować
 maszynę, która wciąż będzie wiedziała, co ma robić, kiedy tam doleci?
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/can-we-reach-another-star/
 
 ROZDZIAŁY
 0:00 Najbliższa gwiazda
@@ -433,6 +445,8 @@ está a quatro anos de rádio.
 Sobra a pergunta que é o assunto de verdade: conseguimos construir hoje
 uma máquina que ainda saiba o que deve fazer quando chegar lá?
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/can-we-reach-another-star/
+
 CAPÍTULOS
 0:00 A estrela mais próxima
 0:56 Quão rápido podemos ir?
@@ -486,6 +500,8 @@ Daha hızlı git, sorunlar kaybolmuyor, değişiyor. Yüz gigavatlık bir lazer 
 
 Geriye asıl soru kalıyor: bugün, oraya vardığında ne yapması gerektiğini hâlâ bilen bir makine yapabilir miyiz?
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/can-we-reach-another-star/
+
 BÖLÜMLER
 0:00 En yakın yıldız
 0:56 Ne kadar hızlı gidebiliriz?
@@ -537,6 +553,8 @@ Lisanslar: creativecommons.org/publicdomain/zero/1.0/
 
 Лишається запитання, про яке насправді йдеться в усьому цьому: чи можемо ми сьогодні збудувати машину, яка, діставшись туди, досі знатиме, що має робити?
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/can-we-reach-another-star/
+
 РОЗДІЛИ
 0:00 Найближча зоря
 0:56 Як швидко ми можемо летіти?
@@ -587,6 +605,8 @@ Proxima Centauri cách đây bốn phẩy hai lăm năm ánh sáng. Chúng ta đ
 Đi nhanh hơn thì các vấn đề thay đổi chứ không biến mất. Một laser một trăm gigawatt có thể đẩy cánh buồm nặng cỡ gam lên một phần năm tốc độ ánh sáng và vượt khoảng cách ấy trong hai mươi năm — nhưng ở đầu kia chẳng có gì chờ sẵn để hãm nó lại, hạt bụi lớn nhất ngoài đó ập tới với năng lượng của một viên đạn súng trường, và con tàu phải tự dẫn đường vì Trái Đất cách đó bốn năm theo đường sóng vô tuyến.
 
 Thế là còn lại câu hỏi mà tất cả thực ra xoay quanh: hôm nay ta có chế tạo được một cỗ máy mà khi tới nơi vẫn còn biết nó phải làm gì không?
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/can-we-reach-another-star/
 
 CÁC CHƯƠNG
 0:00 Ngôi sao gần nhất
@@ -653,6 +673,8 @@ po rádiu.
 
 Zbývá otázka, o kterou tu ve skutečnosti jde: umíme dnes postavit stroj,
 který bude pořád vědět, co má dělat, až tam dorazí?
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/can-we-reach-another-star/
 
 KAPITOLY
 0:00 Nejbližší hvězda
@@ -722,6 +744,8 @@ porque la Tierra está a cuatro años de radio.
 Queda la pregunta de la que en realidad se trata: ¿podemos construir hoy
 una máquina que siga sabiendo qué debe hacer cuando llegue allí?
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/can-we-reach-another-star/
+
 CAPÍTULOS
 0:00 La estrella más cercana
 0:56 ¿A qué velocidad podemos ir?
@@ -789,6 +813,8 @@ eftersom jorden ligger fyra radioår bort.
 
 Kvar står frågan som det egentligen handlar om: kan vi idag bygga en
 maskin som fortfarande vet vad den ska göra när den kommer fram?
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/can-we-reach-another-star/
 
 KAPITEL
 0:00 Den närmaste stjärnan

@@ -57,6 +57,8 @@ The question of who has the final say over the states themselves is the subject 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-makes-a-state-a-state/
+
 CHAPTERS
 00:00 Who is in charge?
 00:31 Max Weber's answer

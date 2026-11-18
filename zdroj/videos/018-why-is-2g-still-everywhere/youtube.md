@@ -32,6 +32,8 @@ least 2030.
 So maybe the question isn't whether to keep 2G. Maybe it's how little of it
 we actually need.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-2g-still-everywhere/
+
 CHAPTERS
 0:00 Stuck between floors
 1:01 2G is ancient

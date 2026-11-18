@@ -53,6 +53,8 @@ https://youtu.be/R7Un3IOMvbg
 Osa kaksi — virheet, joilla oli nimet:
 https://youtu.be/1dIM5UZUEZg
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/the-browser-that-wouldnt-die/
+
 Luvut
 00:00 Osa kolme
 01:19 Tammikuu 2010
@@ -119,6 +121,8 @@ https://youtu.be/R7Un3IOMvbg
 Deuxième partie — les bugs qui avaient des noms :
 https://youtu.be/1dIM5UZUEZg
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/the-browser-that-wouldnt-die/
+
 Chapitres
 00:00 Troisième partie
 01:19 Janvier 2010
@@ -164,6 +168,8 @@ https://youtu.be/R7Un3IOMvbg
 
 Bagian dua — bug-bug yang punya nama:
 https://youtu.be/1dIM5UZUEZg
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/the-browser-that-wouldnt-die/
 
 Bab
 00:00 Bagian tiga
@@ -230,6 +236,8 @@ https://youtu.be/R7Un3IOMvbg
 Seconda parte — i bug che avevano un nome:
 https://youtu.be/1dIM5UZUEZg
 
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/the-browser-that-wouldnt-die/
+
 Capitoli
 00:00 Terza parte
 01:19 Gennaio 2010
@@ -295,6 +303,8 @@ https://youtu.be/R7Un3IOMvbg
 Teil zwei — die Bugs, die Namen hatten:
 https://youtu.be/1dIM5UZUEZg
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/the-browser-that-wouldnt-die/
+
 Kapitel
 00:00 Teil drei
 01:19 Januar 2010
@@ -358,6 +368,8 @@ https://youtu.be/R7Un3IOMvbg
 
 Część druga — błędy, które miały imiona:
 https://youtu.be/1dIM5UZUEZg
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/the-browser-that-wouldnt-die/
 
 Rozdziały
 00:00 Część trzecia
@@ -424,6 +436,8 @@ https://youtu.be/R7Un3IOMvbg
 Segunda parte — os bugs que tinham nome:
 https://youtu.be/1dIM5UZUEZg
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/the-browser-that-wouldnt-die/
+
 Capítulos
 00:00 Terceira parte
 01:19 Janeiro de 2010
@@ -469,6 +483,8 @@ https://youtu.be/R7Un3IOMvbg
 
 İkinci bölüm — adı olan hatalar:
 https://youtu.be/1dIM5UZUEZg
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/the-browser-that-wouldnt-die/
 
 Bölümler
 00:00 Üçüncü bölüm
@@ -516,6 +532,8 @@ https://youtu.be/R7Un3IOMvbg
 Частина друга — помилки, які мали імена:
 https://youtu.be/1dIM5UZUEZg
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/the-browser-that-wouldnt-die/
+
 Розділи
 00:00 Частина третя
 01:19 Січень 2010
@@ -561,6 +579,8 @@ https://youtu.be/R7Un3IOMvbg
 
 Phần hai — những lỗi có tên riêng:
 https://youtu.be/1dIM5UZUEZg
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/the-browser-that-wouldnt-die/
 
 Các chương
 00:00 Phần ba
@@ -623,6 +643,8 @@ https://youtu.be/R7Un3IOMvbg
 
 Druhý díl — chyby, které měly jména:
 https://youtu.be/1dIM5UZUEZg
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/the-browser-that-wouldnt-die/
 
 Kapitoly
 00:00 Třetí díl
@@ -689,6 +711,8 @@ https://youtu.be/R7Un3IOMvbg
 Segunda parte — los fallos que tenían nombre:
 https://youtu.be/1dIM5UZUEZg
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/the-browser-that-wouldnt-die/
+
 Capítulos
 00:00 Tercera parte
 01:19 Enero de 2010
@@ -752,6 +776,8 @@ https://youtu.be/R7Un3IOMvbg
 
 Del två — buggarna som hade namn:
 https://youtu.be/1dIM5UZUEZg
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/the-browser-that-wouldnt-die/
 
 Kapitel
 00:00 Del tre

@@ -48,6 +48,8 @@ actually warned about, why copying a games console's code counted as fair
 use in 1992, what Google v. Oracle turned on, and why compulsory licensing
 is not a thought experiment — it has been law since 1909.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/does-copyright-hold-back-progress/
+
 CHAPTERS
 0:00 A recording nobody can use
 0:40 Why copyright exists

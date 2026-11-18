@@ -32,6 +32,8 @@ Jos jollakin toisella planeetalla on elämää, löytäisikö sekin ne? Ja pää
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-might-aliens-look-surprisingly-human/
+
 LUVUT
 00:00 Luonto tekee rapuja yhä uudelleen
 00:36 Silmät, siivet ja uimarit
@@ -72,6 +74,8 @@ Le crabe est apparu au moins cinq fois de façon indépendante. L'œil, plus de 
 Alors, s'il existe de la vie sur une autre planète, les retrouverait-elle aussi ? Et un extraterrestre intelligent finirait-il par avoir un air étrangement familier, ou ne nous ressemblerait-il pas du tout ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-might-aliens-look-surprisingly-human/
 
 CHAPITRES
 00:00 La nature n'arrête pas de faire des crabes
@@ -114,6 +118,8 @@ Jadi, kalau ada kehidupan di planet lain, apakah ia juga akan terus menemukannya
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-might-aliens-look-surprisingly-human/
+
 BAB
 00:00 Alam terus membuat kepiting
 00:36 Mata, sayap, dan perenang
@@ -154,6 +160,8 @@ Il granchio si è evoluto almeno cinque volte in modo indipendente. L'occhio, pi
 Quindi, se c'è vita su un altro pianeta, troverebbe anche lei quelle risposte? E un alieno intelligente finirebbe per sembrare stranamente familiare, o per non somigliarci affatto?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-might-aliens-look-surprisingly-human/
 
 CAPITOLI
 00:00 La natura continua a fare granchi
@@ -196,6 +204,8 @@ Wenn es also auf einem anderen Planeten Leben gibt, würde es sie auch finden? U
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-might-aliens-look-surprisingly-human/
+
 KAPITEL
 00:00 Die Natur macht immer wieder Krabben
 00:36 Augen, Flügel und Schwimmer
@@ -236,6 +246,8 @@ Krab wyewoluował co najmniej pięć razy niezależnie. Oko – ponad czterdzie�
 Jeśli więc na innej planecie istnieje życie, czy ono też by je znajdowało? I czy inteligentny kosmita wyglądałby dziwnie znajomo, czy zupełnie nie jak my?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-might-aliens-look-surprisingly-human/
 
 ROZDZIAŁY
 00:00 Natura wciąż robi kraby
@@ -278,6 +290,8 @@ Então, se existe vida em outro planeta, ela também as encontraria? E um alien�
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-might-aliens-look-surprisingly-human/
+
 CAPÍTULOS
 00:00 A natureza não para de fazer caranguejos
 00:36 Olhos, asas e nadadores
@@ -318,6 +332,8 @@ Yengeç en az beş kez birbirinden bağımsız olarak evrimleşti. Göz, kırkta
 Peki başka bir gezegende yaşam varsa, o da bu cevapları bulur muydu? Ve zeki bir uzaylı tuhaf biçimde tanıdık mı görünürdü, yoksa bize hiç mi benzemezdi?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-might-aliens-look-surprisingly-human/
 
 BÖLÜMLER
 00:00 Doğa durmadan yengeç yapıyor
@@ -360,6 +376,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/4.0, creativecommons.org/licenses/
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-might-aliens-look-surprisingly-human/
+
 РОЗДІЛИ
 00:00 Природа знову і знову робить крабів
 00:36 Очі, крила і форма для плавання
@@ -400,6 +418,8 @@ Dạng cua đã xuất hiện độc lập ít nhất năm lần trong tiến h�
 Vậy nếu có sự sống trên một hành tinh khác, liệu nó cũng sẽ tìm ra những lời giải ấy? Và một người ngoài hành tinh có trí tuệ rốt cuộc sẽ trông quen thuộc đến lạ, hay chẳng giống chúng ta chút nào?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-might-aliens-look-surprisingly-human/
 
 CÁC CHƯƠNG
 00:00 Tự nhiên cứ tạo ra loài cua
@@ -442,6 +462,8 @@ Takže kdyby byl život na jiné planetě, nacházel by je taky? A vypadal by in
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-might-aliens-look-surprisingly-human/
+
 KAPITOLY
 00:00 Příroda pořád dělá kraby
 00:36 Oči, křídla a plavci
@@ -483,6 +505,8 @@ Entonces, si hay vida en otro planeta, ¿también las encontraría? ¿Y un alien
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-might-aliens-look-surprisingly-human/
+
 CAPÍTULOS
 00:00 La naturaleza no para de hacer cangrejos
 00:36 Ojos, alas y nadadores
@@ -523,6 +547,8 @@ Krabbor har utvecklats minst fem gånger oberoende av varandra. Ögon, mer än f
 Så om det finns liv på en annan planet, skulle det också hitta dem? Och skulle en intelligent utomjording till slut se märkligt bekant ut, eller inte alls likna oss?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-might-aliens-look-surprisingly-human/
 
 KAPITEL
 00:00 Naturen gör krabbor om och om igen

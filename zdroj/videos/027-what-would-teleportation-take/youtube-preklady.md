@@ -52,6 +52,8 @@ Tämä video käy ne kaikki läpi: portaali, joka poistaa etäisyyden sen sijaan
 
 Ja sitten se osa, jota mikään insinöörityö ei ratkaise. Jos täydellinen kopio sinusta herää Marsissa alkuperäisen yhä seisoessa Maassa, kumpi niistä olet sinä? Kukaan ei voi todistaa, että toisella puolella oleva tietoisuus on sama tietoisuus, joka meni sisään.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-teleportation-take/
+
 Luvut:
 0:00 Astu sisään, astu ulos
 0:41 Portaali
@@ -106,6 +108,8 @@ debout sur Terre, laquelle des deux est toi ? Personne ne peut prouver
 que la conscience de l'autre côté est la même conscience que celle qui
 est entrée.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-teleportation-take/
+
 CHAPITRES
 0:00 Tu entres, tu ressors
 0:41 Le portail
@@ -154,6 +158,8 @@ Teleportasi bukan satu teknologi. Setidaknya ada lima, dan semuanya gagal dengan
 Video ini menelusuri satu per satu: portal yang menghapus jaraknya alih-alih memindahkanmu, transporter yang memindai lalu membangunmu kembali, mesin yang menyalin pikiranmu, dan trik fiksi ilmiah berjalan menembus dinding. Sepanjang jalan kita menghitung seberapa banyak informasi sebenarnya seorang manusia itu, kenapa mekanika kuantum membuat pemindaian jadi lebih sulit alih-alih lebih mudah, dan kenapa mesin penerimanya ternyata adalah pabrik paling canggih di alam semesta.
 
 Lalu bagian yang tidak bisa diselesaikan rekayasa apa pun. Kalau salinan sempurna dirimu terbangun di Mars sementara yang asli masih berdiri di Bumi, manakah di antara keduanya yang merupakan dirimu? Tidak ada yang bisa membuktikan bahwa kesadaran di seberang sana adalah kesadaran yang sama dengan yang masuk tadi.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-teleportation-take/
 
 Bab:
 0:00 Masuk, lalu keluar
@@ -208,6 +214,8 @@ E poi arriva la parte che nessuna ingegneria risolve. Se una copia
 perfetta di te si sveglia su Marte mentre l'originale è ancora in piedi
 sulla Terra, quale delle due sei tu? Nessuno può dimostrare che la
 coscienza dall'altra parte sia la stessa coscienza che è entrata.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-teleportation-take/
 
 CAPITOLI
 0:00 Entri, esci
@@ -273,6 +281,8 @@ steht — welche von beiden bist du? Niemand kann beweisen, dass das
 Bewusstsein auf der anderen Seite dasselbe Bewusstsein ist, das
 hineingegangen ist.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-teleportation-take/
+
 KAPITEL
 0:00 Du steigst ein, du steigst aus
 0:41 Das Portal
@@ -337,6 +347,8 @@ wciąż stoi na Ziemi — który z nich jest tobą? Nikt nie potrafi
 udowodnić, że świadomość po drugiej stronie jest tą samą świadomością,
 która weszła do środka.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-teleportation-take/
+
 ROZDZIAŁY
 0:00 Wchodzisz, wychodzisz
 0:41 Portal
@@ -400,6 +412,8 @@ você acorda em Marte enquanto o original ainda está de pé na Terra, qual
 dos dois é você? Ninguém consegue provar que a consciência do outro lado
 é a mesma consciência que entrou.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-teleportation-take/
+
 CAPÍTULOS
 0:00 Você entra, você sai
 0:41 O portal
@@ -449,6 +463,8 @@ Bu video hepsini tek tek ele alıyor: seni taşımak yerine mesafeyi ortadan kal
 
 Ve sonra hiçbir mühendisliğin çözmediği kısım. Senin kusursuz bir kopyan Mars’ta uyanırken orijinali hâlâ Dünya’da duruyorsa, hangisi sensin? Karşı taraftaki bilincin, içeri giren bilincin aynısı olduğunu kimse kanıtlayamaz.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-teleportation-take/
+
 Bölümler:
 0:00 Gir, çık
 0:41 Geçit
@@ -488,6 +504,8 @@ dolayısıyla atıf verilecek bir şey de yok.
 
 А далі — питання, якого не розв’язати жодними інженерними засобами. Якщо досконала копія тебе прокидається на Марсі, а оригінал досі стоїть на Землі, котрий із них — ти? Ніхто не може довести, що свідомість на тому боці — та сама свідомість, яка увійшла.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-teleportation-take/
+
 Розділи:
 0:00 Увійди, вийди
 0:41 Портал
@@ -526,6 +544,8 @@ Dịch chuyển tức thời không phải một công nghệ. Ít nhất là n�
 Video này lần lượt tìm hiểu từng công nghệ: cánh cổng xóa đi khoảng cách thay vì di chuyển bạn, máy dịch chuyển quét rồi dựng lại bạn, cỗ máy sao chép tâm trí bạn, và mẹo khoa học viễn tưởng đi xuyên qua tường. Dọc đường, chúng ta tính xem một con người thực ra là bao nhiêu thông tin, vì sao cơ học lượng tử khiến việc quét khó hơn chứ không dễ hơn, và vì sao cỗ máy nhận hóa ra lại là nhà máy tân tiến nhất vũ trụ.
 
 Rồi đến phần mà không kỹ thuật nào giải quyết được. Nếu một bản sao hoàn hảo của bạn tỉnh dậy trên sao Hỏa trong khi bản gốc vẫn đang đứng trên Trái Đất, ai trong hai người mới là bạn? Không ai chứng minh được rằng ý thức ở đầu bên kia chính là ý thức đã bước vào.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-teleportation-take/
 
 Các chương:
 0:00 Bước vào, bước ra
@@ -578,6 +598,8 @@ A pak přijde ta část, kterou žádné inženýrství neřeší. Když se doko
 kopie tebe probudí na Marsu, zatímco originál pořád stojí na Zemi — který
 z nich jsi ty? Nikdo nedokáže dokázat, že vědomí na druhé straně je totéž
 vědomí, které dovnitř vstoupilo.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-teleportation-take/
 
 KAPITOLY
 0:00 Vejdeš, vyjdeš
@@ -633,6 +655,8 @@ Y luego llega la parte que ninguna ingeniería resuelve. Si una copia
 perfecta de ti despierta en Marte mientras el original sigue de pie en la
 Tierra, ¿cuál de los dos eres tú? Nadie puede demostrar que la conciencia
 del otro lado sea la misma conciencia que entró.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-teleportation-take/
 
 CAPÍTULOS
 0:00 Entras, sales
@@ -696,6 +720,8 @@ Och sedan kommer den del som ingen teknik löser. Om en perfekt kopia av
 dig vaknar på Mars medan originalet fortfarande står kvar på jorden —
 vilken av dem är du? Ingen kan bevisa att medvetandet på andra sidan är
 samma medvetande som klev in.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-teleportation-take/
 
 KAPITEL
 0:00 Du kliver in, du kliver ut

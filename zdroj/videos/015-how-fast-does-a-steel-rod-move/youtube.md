@@ -33,6 +33,8 @@ object cannot exist in this universe at all, why your hand never really
 touches the table it is resting on, and why "solid" turns out to be a
 description of behaviour rather than a property of the world.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-fast-does-a-steel-rod-move/
+
 Chapters
 00:00 Push one end
 00:18 The easy answer: light

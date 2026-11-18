@@ -49,6 +49,8 @@ Wikimedia Commonsin kautta
 Lisenssit: creativecommons.org/licenses/by/3.0
 Kaikki muut arkistokuvat ovat tekijänoikeudettomia (public domain).
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 LUVUT
 00:00 Dataa järjettömään hintaan
 00:36 Mistä 160 tuli
@@ -89,6 +91,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 via Wikimedia Commons
 Licences : creativecommons.org/licenses/by/3.0
 Toutes les autres images d’archives sont dans le domaine public.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-a-160-character-message-become-a-gold-mine/
 
 CHAPITRES
 00:00 Des données à un prix absurde
@@ -131,6 +135,8 @@ melalui Wikimedia Commons
 Lisensi: creativecommons.org/licenses/by/3.0
 Semua gambar arsip lainnya berada dalam domain publik.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 BAB
 00:00 Data dengan harga absurd
 00:36 Asal angka 160
@@ -171,6 +177,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 tramite Wikimedia Commons
 Licenze: creativecommons.org/licenses/by/3.0
 Tutte le altre immagini d’archivio sono di pubblico dominio.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-a-160-character-message-become-a-gold-mine/
 
 CAPITOLI
 00:00 Dati a un prezzo assurdo
@@ -213,6 +221,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 Lizenzen: creativecommons.org/licenses/by/3.0
 Alle anderen Archivbilder sind gemeinfrei.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 KAPITEL
 00:00 Daten zu einem absurden Preis
 00:36 Woher die 160 kam
@@ -253,6 +263,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 przez Wikimedia Commons
 Licencje: creativecommons.org/licenses/by/3.0
 Wszystkie pozostałe zdjęcia archiwalne są w domenie publicznej.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-a-160-character-message-become-a-gold-mine/
 
 ROZDZIAŁY
 00:00 Dane po absurdalnej cenie
@@ -295,6 +307,8 @@ via Wikimedia Commons
 Licenças: creativecommons.org/licenses/by/3.0
 Todas as outras imagens de arquivo estão em domínio público.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 CAPÍTULOS
 00:00 Dados a um preço absurdo
 00:36 De onde veio o 160
@@ -335,6 +349,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 Wikimedia Commons aracılığıyla
 Lisanslar: creativecommons.org/licenses/by/3.0
 Diğer tüm arşiv görselleri kamu malıdır.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-a-160-character-message-become-a-gold-mine/
 
 BÖLÜMLER
 00:00 Absürt fiyatlı veri
@@ -377,6 +393,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 Ліцензії: creativecommons.org/licenses/by/3.0
 Усі інші архівні зображення є суспільним надбанням.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 РОЗДІЛИ
 00:00 Дані за абсурдною ціною
 00:36 Звідки взялося 160
@@ -417,6 +435,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 qua Wikimedia Commons
 Giấy phép: creativecommons.org/licenses/by/3.0
 Tất cả các hình ảnh lưu trữ khác thuộc phạm vi công cộng.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-a-160-character-message-become-a-gold-mine/
 
 CHƯƠNG
 00:00 Dữ liệu với giá vô lý
@@ -459,6 +479,8 @@ prostřednictvím Wikimedia Commons
 Licence: creativecommons.org/licenses/by/3.0
 Ostatní archivní snímky jsou volná díla.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 KAPITOLY
 00:00 Data za absurdní cenu
 00:36 Odkud se vzalo 160
@@ -500,6 +522,8 @@ vía Wikimedia Commons
 Licencias: creativecommons.org/licenses/by/3.0
 Todas las demás imágenes de archivo son de dominio público.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 CAPÍTULOS
 00:00 Datos a un precio absurdo
 00:36 De dónde salió el 160
@@ -540,6 +564,8 @@ Nokia 1011 — Jkbw, CC BY 3.0
 via Wikimedia Commons
 Licenser: creativecommons.org/licenses/by/3.0
 Alla övriga arkivbilder är fria från upphovsrätt (public domain).
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-a-160-character-message-become-a-gold-mine/
 
 KAPITEL
 00:00 Data till ett absurt pris

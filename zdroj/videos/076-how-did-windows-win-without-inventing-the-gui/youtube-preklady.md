@@ -47,6 +47,8 @@ Tämä video seuraa, mitä siinä välissä tapahtui: sopimus IBM:n kanssa, yhte
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-windows-win-without-inventing-the-gui/
+
 LUVUT
 00:00 Mitä Windows ei keksinyt
 00:36 Engelbartin esittely
@@ -93,6 +95,8 @@ Douglas Engelbart a présenté un ordinateur piloté à la souris en 1968. Xerox
 Cette vidéo raconte ce qui s'est passé entre-temps : un contrat avec IBM, une vague de PC compatibles, un procès de six ans et une dynamique qui, une fois enclenchée, est très difficile à briser.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-windows-win-without-inventing-the-gui/
 
 CHAPITRES
 00:00 Ce que Windows n'a pas inventé
@@ -141,6 +145,8 @@ Video ini menelusuri apa yang terjadi di antaranya: kontrak dengan IBM, gelomban
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-windows-win-without-inventing-the-gui/
+
 BAB
 00:00 Yang tidak diciptakan Windows
 00:36 Demo Engelbart
@@ -187,6 +193,8 @@ Douglas Engelbart mostrò un computer controllato con un mouse nel 1968. Lo Xero
 Questo video racconta cosa è successo nel mezzo: un contratto con IBM, un'ondata di PC compatibili, una causa durata sei anni e un circolo molto difficile da spezzare una volta avviato.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-windows-win-without-inventing-the-gui/
 
 CAPITOLI
 00:00 Cosa Windows non ha inventato
@@ -235,6 +243,8 @@ Dieses Video zeigt, was dazwischen geschah: ein Vertrag mit IBM, eine Welle komp
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-windows-win-without-inventing-the-gui/
+
 KAPITEL
 00:00 Was Windows nicht erfunden hat
 00:36 Engelbarts Vorführung
@@ -281,6 +291,8 @@ Douglas Engelbart pokazał w 1968 roku komputer sterowany myszą. Xerox PARC zbu
 Ten film opowiada, co wydarzyło się pomiędzy: umowa z IBM, fala kompatybilnych pecetów, sześcioletni proces i pętla, którą bardzo trudno przerwać, gdy już zacznie działać.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-windows-win-without-inventing-the-gui/
 
 ROZDZIAŁY
 00:00 Czego Windows nie wymyślił
@@ -329,6 +341,8 @@ Este vídeo acompanha o que aconteceu nesse meio-tempo: um contrato com a IBM, u
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-windows-win-without-inventing-the-gui/
+
 CAPÍTULOS
 00:00 O que o Windows não inventou
 00:36 A demonstração de Engelbart
@@ -375,6 +389,8 @@ Douglas Engelbart 1968'de fareyle kontrol edilen bir bilgisayarı tanıttı. Xer
 Bu video aradaki dönemde neler olduğunu anlatıyor: IBM ile bir sözleşme, uyumlu PC'lerden oluşan bir dalga, altı yıl süren bir dava ve bir kez dönmeye başladığında kırılması çok zor bir döngü.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-windows-win-without-inventing-the-gui/
 
 BÖLÜMLER
 00:00 Windows'un icat etmedikleri
@@ -423,6 +439,8 @@ Used with permission from Microsoft.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-windows-win-without-inventing-the-gui/
+
 РОЗДІЛИ
 00:00 Чого Windows не винайшов
 00:36 Демонстрація Енгельбарта
@@ -469,6 +487,8 @@ Douglas Engelbart đã trình diễn một chiếc máy tính điều khiển b�
 Video này kể lại những gì đã diễn ra trong khoảng thời gian đó: một hợp đồng với IBM, một làn sóng máy PC tương thích, một vụ kiện kéo dài sáu năm và một vòng lặp rất khó phá vỡ một khi nó đã chạy.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-windows-win-without-inventing-the-gui/
 
 CHƯƠNG
 00:00 Những gì Windows không phát minh
@@ -517,6 +537,8 @@ Video sleduje, co se stalo mezitím: smlouvu s IBM, vlnu kompatibilních PC, spo
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-windows-win-without-inventing-the-gui/
+
 KAPITOLY
 00:00 Co Windows nevynalezl
 00:36 Engelbartova ukázka
@@ -564,6 +586,8 @@ Este vídeo sigue lo que pasó entre medias: un contrato con IBM, una oleada de 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-windows-win-without-inventing-the-gui/
+
 CAPÍTULOS
 00:00 Lo que Windows no inventó
 00:36 La demostración de Engelbart
@@ -610,6 +634,8 @@ Douglas Engelbart visade 1968 en dator som styrdes med en mus. Xerox PARC byggde
 Den här videon följer vad som hände däremellan: ett avtal med IBM, en våg av kompatibla pc-datorer, en rättstvist som pågick i sex år och en självförstärkande process som är mycket svår att stoppa när den väl har kommit igång.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-windows-win-without-inventing-the-gui/
 
 KAPITEL
 00:00 Det Windows inte uppfann

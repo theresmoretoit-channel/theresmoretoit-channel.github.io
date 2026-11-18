@@ -51,6 +51,8 @@ Lähteet: Nobelin fysiologian tai lääketieteen palkinto 2016 (lehdistötiedote
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-really-happens-after-16-hours-without-food/
+
 LUVUT
 00:00 Kuudentoista tunnin lupaus
 00:33 Luvun jäljillä
@@ -84,6 +86,8 @@ D'un rythme de repas 16:8 et d'un guide du jeûne qui cite une étude sur des so
 Sources : prix Nobel de physiologie ou médecine 2016 (communiqué de presse et contexte scientifique) ; Martin Berkhan, The Leangains Guide (2010) ; Lasta, chronologie du jeûne (2024) ; Takeshige et al. 1992 et Tsukada & Ohsumi 1993 (levure) ; Kuma et al. 2004 et Komatsu et al. 2005 (souris nouveau-nées) ; Mizushima et al. 2004 et Alirezaei et al. 2010 (souris à jeun) ; Perlman 2016 et Carper et al. 2020 (métabolisme de la souris) ; Klionsky et al. 2021 (lignes directrices sur l'autophagie) ; Jamshed et al. 2019, Singh et al. 2025 et Bensalem et al. 2025 (études chez l'humain) ; Guido Kroemer interviewé par Rhonda Patrick, FoundMyFitness (2019) ; Hara et al. 2006, Komatsu et al. 2006 et Pyo et al. 2013 (cerveau et longévité) ; Qu et al. 2003, Yue et al. 2003 et Yang et al. 2011 (cancer) ; Anton et al. 2018 (bascule métabolique).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-really-happens-after-16-hours-without-food/
 
 CHAPITRES
 00:00 La promesse des seize heures
@@ -119,6 +123,8 @@ Sumber: Hadiah Nobel Fisiologi atau Kedokteran 2016 (siaran pers dan latar belak
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-really-happens-after-16-hours-without-food/
+
 BAB
 00:00 Janji enam belas jam
 00:33 Menelusuri asal angkanya
@@ -152,6 +158,8 @@ Da uno schema dei pasti 16:8 e da una guida al digiuno che cita uno studio sui t
 Fonti: Premio Nobel per la fisiologia o la medicina 2016 (comunicato stampa e contesto scientifico); Martin Berkhan, The Leangains Guide (2010); Lasta, cronologia del digiuno (2024); Takeshige et al. 1992 e Tsukada & Ohsumi 1993 (lievito); Kuma et al. 2004 e Komatsu et al. 2005 (topi neonati); Mizushima et al. 2004 e Alirezaei et al. 2010 (topi a digiuno); Perlman 2016 e Carper et al. 2020 (metabolismo del topo); Klionsky et al. 2021 (linee guida sull'autofagia); Jamshed et al. 2019, Singh et al. 2025 e Bensalem et al. 2025 (studi sull'uomo); Guido Kroemer intervistato da Rhonda Patrick, FoundMyFitness (2019); Hara et al. 2006, Komatsu et al. 2006 e Pyo et al. 2013 (cervello e longevità); Qu et al. 2003, Yue et al. 2003 e Yang et al. 2011 (cancro); Anton et al. 2018 (passaggio metabolico).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-really-happens-after-16-hours-without-food/
 
 CAPITOLI
 00:00 La promessa delle sedici ore
@@ -187,6 +195,8 @@ Quellen: Nobelpreis für Physiologie oder Medizin 2016 (Pressemitteilung und wis
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-really-happens-after-16-hours-without-food/
+
 KAPITEL
 00:00 Das Sechzehn-Stunden-Versprechen
 00:33 Der Zahl auf der Spur
@@ -220,6 +230,8 @@ Od planu posiłków 16:8 i poradnika o poście, który powołuje się na badanie
 Źródła: Nagroda Nobla w dziedzinie fizjologii lub medycyny 2016 (komunikat prasowy i tło naukowe); Martin Berkhan, The Leangains Guide (2010); Lasta, oś czasu postu (2024); Takeshige et al. 1992 i Tsukada & Ohsumi 1993 (drożdże); Kuma et al. 2004 i Komatsu et al. 2005 (nowo narodzone myszy); Mizushima et al. 2004 i Alirezaei et al. 2010 (głodzone myszy); Perlman 2016 i Carper et al. 2020 (metabolizm myszy); Klionsky et al. 2021 (wytyczne dotyczące autofagii); Jamshed et al. 2019, Singh et al. 2025 i Bensalem et al. 2025 (badania na ludziach); Guido Kroemer w rozmowie z Rhondą Patrick, FoundMyFitness (2019); Hara et al. 2006, Komatsu et al. 2006 i Pyo et al. 2013 (mózg i długość życia); Qu et al. 2003, Yue et al. 2003 i Yang et al. 2011 (nowotwory); Anton et al. 2018 (przełączenie metaboliczne).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-really-happens-after-16-hours-without-food/
 
 ROZDZIAŁY
 00:00 Obietnica szesnastu godzin
@@ -255,6 +267,8 @@ Fontes: Prêmio Nobel de Fisiologia ou Medicina 2016 (comunicado à imprensa e c
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-really-happens-after-16-hours-without-food/
+
 CAPÍTULOS
 00:00 A promessa das dezesseis horas
 00:33 Seguindo o número até a origem
@@ -288,6 +302,8 @@ On altı saat hiçbir şey yeme, diyor internet, ve hücrelerin otofaji adlı ye
 Kaynaklar: 2016 Nobel Fizyoloji veya Tıp Ödülü (basın bülteni ve bilimsel arka plan); Martin Berkhan, The Leangains Guide (2010); Lasta, oruç zaman çizelgesi (2024); Takeshige et al. 1992 ve Tsukada & Ohsumi 1993 (maya); Kuma et al. 2004 ve Komatsu et al. 2005 (yeni doğan fareler); Mizushima et al. 2004 ve Alirezaei et al. 2010 (aç bırakılan fareler); Perlman 2016 ve Carper et al. 2020 (fare metabolizması); Klionsky et al. 2021 (otofaji kılavuzu); Jamshed et al. 2019, Singh et al. 2025 ve Bensalem et al. 2025 (insan çalışmaları); Rhonda Patrick'in Guido Kroemer ile röportajı, FoundMyFitness (2019); Hara et al. 2006, Komatsu et al. 2006 ve Pyo et al. 2013 (beyin ve yaşam süresi); Qu et al. 2003, Yue et al. 2003 ve Yang et al. 2011 (kanser); Anton et al. 2018 (metabolik geçiş).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-really-happens-after-16-hours-without-food/
 
 BÖLÜMLER
 00:00 On altı saatin vaadi
@@ -323,6 +339,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-really-happens-after-16-hours-without-food/
+
 РОЗДІЛИ
 00:00 Обіцянка шістнадцяти годин
 00:33 Звідки взялося це число
@@ -356,6 +374,8 @@ Từ lịch ăn 16:8 và một cẩm nang nhịn ăn dẫn nguồn từ một ng
 Nguồn: Giải Nobel Sinh lý học hoặc Y học 2016 (thông cáo báo chí và bối cảnh khoa học); Martin Berkhan, The Leangains Guide (2010); Lasta, mốc thời gian nhịn ăn (2024); Takeshige et al. 1992 và Tsukada & Ohsumi 1993 (nấm men); Kuma et al. 2004 và Komatsu et al. 2005 (chuột sơ sinh); Mizushima et al. 2004 và Alirezaei et al. 2010 (chuột nhịn ăn); Perlman 2016 và Carper et al. 2020 (trao đổi chất của chuột); Klionsky et al. 2021 (hướng dẫn về tự thực); Jamshed et al. 2019, Singh et al. 2025 và Bensalem et al. 2025 (nghiên cứu trên người); Guido Kroemer trả lời phỏng vấn Rhonda Patrick, FoundMyFitness (2019); Hara et al. 2006, Komatsu et al. 2006 và Pyo et al. 2013 (não và tuổi thọ); Qu et al. 2003, Yue et al. 2003 và Yang et al. 2011 (ung thư); Anton et al. 2018 (chuyển đổi chuyển hóa).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-really-happens-after-16-hours-without-food/
 
 CHƯƠNG
 00:00 Lời hứa mười sáu tiếng
@@ -391,6 +411,8 @@ Zdroje: Nobelova cena za fyziologii nebo lékařství 2016 (tisková zpráva a v
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-really-happens-after-16-hours-without-food/
+
 KAPITOLY
 00:00 Slib šestnácti hodin
 00:33 Po stopě toho čísla
@@ -425,6 +447,8 @@ Fuentes: Premio Nobel de Fisiología o Medicina 2016 (nota de prensa y contexto 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-really-happens-after-16-hours-without-food/
+
 CAPÍTULOS
 00:00 La promesa de las dieciséis horas
 00:33 Siguiendo la cifra hasta su origen
@@ -458,6 +482,8 @@ Från ett måltidsschema på 16:8 och en fasteguide som hänvisar till en studie
 Källor: Nobelpriset i fysiologi eller medicin 2016 (pressmeddelande och vetenskaplig bakgrund); Martin Berkhan, The Leangains Guide (2010); Lasta, fastans tidslinje (2024); Takeshige et al. 1992 och Tsukada & Ohsumi 1993 (jäst); Kuma et al. 2004 och Komatsu et al. 2005 (nyfödda möss); Mizushima et al. 2004 och Alirezaei et al. 2010 (fastande möss); Perlman 2016 och Carper et al. 2020 (musens ämnesomsättning); Klionsky et al. 2021 (riktlinjer för autofagi); Jamshed et al. 2019, Singh et al. 2025 och Bensalem et al. 2025 (studier på människor); Guido Kroemer intervjuad av Rhonda Patrick, FoundMyFitness (2019); Hara et al. 2006, Komatsu et al. 2006 och Pyo et al. 2013 (hjärna och livslängd); Qu et al. 2003, Yue et al. 2003 och Yang et al. 2011 (cancer); Anton et al. 2018 (metabolisk omställning).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-really-happens-after-16-hours-without-food/
 
 KAPITEL
 00:00 Löftet om sexton timmar

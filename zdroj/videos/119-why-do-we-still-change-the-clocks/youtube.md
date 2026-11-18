@@ -68,6 +68,8 @@ Sources: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Dayl
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-we-still-change-the-clocks/
+
 CHAPTERS
 00:00 The same argument every year
 00:56 Daylight changes, schedules don't

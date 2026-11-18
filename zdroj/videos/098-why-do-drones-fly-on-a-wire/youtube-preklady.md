@@ -59,6 +59,8 @@ Satelliittien aikakaudella, kun kaikki on langatonta, miksi kukaan lennättäisi
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-drones-fly-on-a-wire/
+
 LUVUT
 00:00 Drooni langan päässä
 00:34 Kymmenentuhatta droonia kuukaudessa
@@ -95,6 +97,8 @@ Certains drones au-dessus de l'Ukraine ne parlent pas du tout à leur pilote par
 À l'ère des satellites et du tout sans fil, pourquoi faire voler un drone au bout d'un fil ? Comment un drone de quelques kilos s'en sort-il avec des kilomètres de câble, quel rapport avec un missile de l'armée américaine des années 1980, et que devient toute cette fibre qui reste dans les champs ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-drones-fly-on-a-wire/
 
 CHAPITRES
 00:00 Un drone au bout d'un fil
@@ -133,6 +137,8 @@ Di zaman satelit dan serba nirkabel, kenapa ada orang yang menerbangkan drone pa
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-drones-fly-on-a-wire/
+
 BAB
 00:00 Drone dengan seutas benang
 00:34 Sepuluh ribu drone per bulan
@@ -169,6 +175,8 @@ Alcuni droni sopra l'Ucraina non parlano affatto con il pilota via radio. Dietro
 Nell'epoca dei satelliti, in cui tutto è senza fili, perché qualcuno dovrebbe far volare un drone col filo? Come fa un drone di pochi chili a gestire chilometri di cavo, cosa c'entra un missile dell'esercito americano degli anni '80, e che fine fa tutta la fibra che resta nei campi?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-drones-fly-on-a-wire/
 
 CAPITOLI
 00:00 Un drone col filo
@@ -207,6 +215,8 @@ Im Zeitalter der Satelliten, in dem alles drahtlos ist, warum sollte jemand eine
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-drones-fly-on-a-wire/
+
 KAPITEL
 00:00 Eine Drohne am Faden
 00:34 Zehntausend Drohnen im Monat
@@ -243,6 +253,8 @@ Niektóre drony nad Ukrainą w ogóle nie rozmawiają ze swoim pilotem przez rad
 W epoce satelitów, kiedy wszystko jest bezprzewodowe, po co ktoś miałby latać dronem na drucie? Jak dron ważący kilka kilogramów radzi sobie z kilometrami kabla, co ma z tym wspólnego pocisk armii USA z lat 80. i co się dzieje z całym tym światłowodem, który zostaje na polach?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-drones-fly-on-a-wire/
 
 ROZDZIAŁY
 00:00 Dron na nitce
@@ -281,6 +293,8 @@ Na era dos satélites, em que tudo é sem fio, por que alguém pilotaria um dron
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-drones-fly-on-a-wire/
+
 CAPÍTULOS
 00:00 Um drone preso a um fio
 00:34 Dez mil drones por mês
@@ -317,6 +331,8 @@ Ukrayna semalarındaki bazı dronlar pilotlarıyla hiç radyo üzerinden konuşm
 Uyduların ve her şeyin kablosuz olduğu bu çağda, biri neden tele bağlı bir dron uçursun ki? Birkaç kiloluk bir dron kilometrelerce kabloyla nasıl başa çıkıyor, 1980'lerden kalma bir ABD Ordusu füzesinin bununla ne ilgisi var ve tarlalarda kalan onca fibere ne oluyor?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-drones-fly-on-a-wire/
 
 BÖLÜMLER
 00:00 İpliğe bağlı bir dron
@@ -355,6 +371,8 @@ Licences: creativecommons.org/licenses/by/4.0, creativecommons.org/licenses/by-n
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-drones-fly-on-a-wire/
+
 РОЗДІЛИ
 00:00 Дрон на нитці
 00:34 Десять тисяч дронів на місяць
@@ -391,6 +409,8 @@ Một số drone trên bầu trời Ukraine hoàn toàn không liên lạc với
 Trong thời đại của vệ tinh và cái gì cũng không dây, sao lại có người cho drone bay bằng dây? Một chiếc drone chỉ nặng vài ký xoay xở thế nào với hàng cây số cáp, một tên lửa của Lục quân Mỹ từ thập niên 1980 thì liên quan gì, và chuyện gì xảy ra với tất cả số sợi quang nằm lại trên những cánh đồng?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-drones-fly-on-a-wire/
 
 CHƯƠNG
 00:00 Chiếc drone với sợi chỉ
@@ -429,6 +449,8 @@ Proč by v době satelitů a všeho bezdrátového někdo létal s dronem na dr�
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-drones-fly-on-a-wire/
+
 KAPITOLY
 00:00 Dron na niti
 00:34 Deset tisíc dronů měsíčně
@@ -466,6 +488,8 @@ En la era de los satélites, en la que todo es inalámbrico, ¿por qué alguien 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-drones-fly-on-a-wire/
+
 CAPÍTULOS
 00:00 Un dron atado a un hilo
 00:34 Diez mil drones al mes
@@ -502,6 +526,8 @@ Vissa drönare över Ukraina pratar inte med sin pilot via radio alls. Bakom dem
 I satelliternas tidsålder, när allt är trådlöst, varför skulle någon flyga en drönare på tråd? Hur klarar en drönare som väger några kilo kilometervis med kabel, vad har en robot från USA:s armé på 1980-talet med saken att göra, och vad händer med all fiber som blir liggande på fälten?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-drones-fly-on-a-wire/
 
 KAPITEL
 00:00 En drönare på tråd

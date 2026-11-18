@@ -57,6 +57,8 @@ Why is the internet a "cloud"? What does a payload have to do with a truck? Why 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-computer-stuff-called-that/
+
 CHAPTERS
 00:00 This is a log
 00:36 The obvious ones: the mouse

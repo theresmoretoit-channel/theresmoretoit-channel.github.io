@@ -51,6 +51,8 @@ Kun sota alkaa, hallitus tarvitsee yhtäkkiä miljoonia univormuja, kuorma-autoj
 
 Tämä video käy läpi, mitä se oikeasti tarkoittaa. Miksi maa voi voittaa sodan ja selvitä siitä silti uupuneena: Britannia voitti vuonna 1945, ja säännöstely siellä päättyi vasta vuonna 1954, lähes yhdeksän vuotta myöhemmin. Miksi bruttokansantuote laskee tuhotun panssarivaunun kahdesti eikä koskaan vähennä menetystä. Miksi enemmän rahaa samojen tavaroiden perässä johtaa säännöstelyyn ja säännöstely mustaan pörssiin. Ja miksi „talous kukoistaa" ja „ihmiset köyhtyvät" voivat olla yhtä aikaa totta.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-does-a-war-economy-work/
+
 00:00 Miten rauhanajan talous toimii
 00:47 Valtiosta tulee asiakas
 01:28 Mistä resurssit oikeasti tulevat
@@ -91,6 +93,8 @@ Une économie de guerre n'est pas une machine à créer des ressources. C'est un
 Quand une guerre éclate, un État a soudain besoin de millions d'uniformes, de camions, d'obus, d'avions et de chars. Mais imprimer de l'argent ne crée pas de chars — l'acier, les travailleurs et les usines doivent venir de quelque part, et ce quelque part, c'est l'économie civile.
 
 Cette vidéo déroule ce que cela veut dire concrètement. Pourquoi un pays peut gagner une guerre et en sortir tout de même épuisé : la Grande-Bretagne a gagné en 1945, et le rationnement n'y a pris fin qu'en 1954, presque neuf ans plus tard. Pourquoi le produit intérieur brut compte deux fois un char détruit et ne soustrait jamais la perte. Pourquoi plus d'argent pour les mêmes biens mène au rationnement, et le rationnement au marché noir. Et pourquoi « l'économie est en plein essor » et « les gens s'appauvrissent » peuvent être vrais en même temps.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-does-a-war-economy-work/
 
 00:00 Comment fonctionne une économie en paix
 00:47 L'État devient le client
@@ -139,6 +143,8 @@ Ketika perang pecah, pemerintah tiba-tiba membutuhkan jutaan seragam, truk, pelu
 
 Video ini menelusuri apa artinya itu sebenarnya. Kenapa sebuah negara bisa memenangkan perang dan tetap keluar dari sana dalam keadaan kehabisan tenaga: Britania menang pada 1945, dan penjatahan di sana baru berakhir pada 1954, hampir sembilan tahun kemudian. Kenapa produk domestik bruto menghitung sebuah tank yang hancur dua kali dan tidak pernah mengurangkan kerugiannya. Kenapa uang yang lebih banyak mengejar barang yang sama berujung pada penjatahan, dan penjatahan pada pasar gelap. Dan kenapa "ekonominya sedang melesat" dan "orang-orang makin miskin" bisa sama-sama benar pada saat yang sama.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-does-a-war-economy-work/
+
 00:00 Bagaimana ekonomi masa damai bekerja
 00:47 Pemerintah menjadi pelanggan
 01:28 Sumber dayanya sebenarnya datang dari mana
@@ -182,6 +188,8 @@ crea carri armati — l'acciaio, i lavoratori e le fabbriche devono venire
 da qualche parte, e quel posto è l'economia civile.
 
 Questo video ripercorre cosa significa davvero. Perché un paese può vincere una guerra e uscirne comunque esausto: la Gran Bretagna vinse nel 1945, e lì il razionamento finì solo nel 1954, quasi nove anni dopo. Perché il prodotto interno lordo conta due volte un carro armato distrutto e non sottrae mai la perdita. Perché più denaro a caccia degli stessi beni porta al razionamento, e il razionamento al mercato nero. E perché «l'economia va a gonfie vele» e «la gente si impoverisce» possono essere vere nello stesso momento.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-does-a-war-economy-work/
 
 00:00 Come funziona un'economia in pace
 00:47 Lo Stato diventa il cliente
@@ -234,6 +242,8 @@ Wenn ein Krieg beginnt, braucht ein Staat plötzlich Millionen Uniformen, Lastwa
 
 Dieses Video geht durch, was das tatsächlich bedeutet. Warum ein Land einen Krieg gewinnen und trotzdem erschöpft daraus hervorgehen kann: Großbritannien gewann 1945, und die Rationierung endete dort erst 1954, fast neun Jahre später. Warum das Bruttoinlandsprodukt einen zerstörten Panzer doppelt zählt und den Verlust nie abzieht. Warum mehr Geld bei gleichbleibenden Gütern zur Rationierung führt und die Rationierung zum Schwarzmarkt. Und warum „die Wirtschaft boomt" und „die Menschen werden ärmer" gleichzeitig wahr sein können.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-does-a-war-economy-work/
+
 00:00 Wie eine Friedenswirtschaft funktioniert
 00:47 Der Staat wird zum Kunden
 01:28 Woher die Ressourcen wirklich kommen
@@ -284,6 +294,8 @@ Gospodarka wojenna nie jest maszyną do tworzenia zasobów. Jest maszyną do ich
 Gdy wybucha wojna, państwo nagle potrzebuje milionów mundurów, ciężarówek, pocisków, samolotów i czołgów. Ale drukowanie pieniędzy nie tworzy czołgów — stal, pracownicy i fabryki muszą skądś pochodzić, a tym „skądś" jest gospodarka cywilna.
 
 Ten film przechodzi przez to, co naprawdę oznacza. Dlaczego kraj może wygrać wojnę i mimo to wyjść z niej wyczerpany: Wielka Brytania wygrała w 1945 roku, a reglamentacja skończyła się tam dopiero w 1954, prawie dziewięć lat później. Dlaczego produkt krajowy brutto liczy zniszczony czołg dwa razy i nigdy nie odejmuje straty. Dlaczego więcej pieniędzy przy tej samej ilości dóbr prowadzi do reglamentacji, a reglamentacja do czarnego rynku. I dlaczego „gospodarka kwitnie" oraz „ludzie biednieją" mogą być prawdą jednocześnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-does-a-war-economy-work/
 
 00:00 Jak działa gospodarka w czasie pokoju
 00:47 Państwo staje się klientem
@@ -336,6 +348,8 @@ Quando uma guerra começa, um governo de repente precisa de milhões de uniforme
 
 Este vídeo percorre o que isso significa de fato. Por que um país pode vencer uma guerra e ainda assim sair dela exausto: a Grã-Bretanha venceu em 1945, e o racionamento por lá só terminou em 1954, quase nove anos depois. Por que o produto interno bruto conta um tanque destruído duas vezes e nunca subtrai a perda. Por que mais dinheiro atrás dos mesmos bens leva ao racionamento, e o racionamento ao mercado negro. E por que "a economia está bombando" e "as pessoas estão ficando mais pobres" podem ser verdade ao mesmo tempo.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-does-a-war-economy-work/
+
 00:00 Como funciona uma economia em tempo de paz
 00:47 O governo vira o cliente
 01:28 De onde os recursos realmente vêm
@@ -383,6 +397,8 @@ Bir savaş başladığında devletin birden milyonlarca üniformaya, kamyona, to
 
 Bu video bunun gerçekte ne anlama geldiğini adım adım ele alıyor. Bir ülkenin savaşı kazanıp yine de tükenmiş halde çıkması neden mümkün: Britanya 1945’te kazandı ve oradaki karne uygulaması ancak 1954’te, neredeyse dokuz yıl sonra sona erdi. Gayrisafi yurt içi hasıla yok edilmiş bir tankı neden iki kez sayıyor ve kaybı hiç düşmüyor. Aynı malların peşindeki daha çok paranın neden karneye, karnenin de karaborsaya yol açtığı. Ve "ekonomi uçuyor" ile "insanlar yoksullaşıyor" cümlelerinin neden aynı anda doğru olabileceği.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-does-a-war-economy-work/
+
 00:00 Barış zamanı ekonomisi nasıl işler
 00:47 Devlet müşteri hâline gelir
 01:28 Kaynaklar gerçekte nereden geliyor
@@ -420,6 +436,8 @@ Bir sonrakini istiyorsan, bir abone ol düğmesi var.
 
 Це відео розбирає, що це насправді означає. Чому країна може виграти війну й вийти з неї виснаженою: Британія перемогла в 1945 році, а карткову систему там скасували аж у 1954-му, майже дев’ять років по тому. Чому валовий внутрішній продукт зараховує знищений танк двічі й ніколи не віднімає втрату. Чому більше грошей претендує на ту саму кількість товарів, що веде до карток, а картки — до чорного ринку. І чому «економіка на підйомі» та «люди біднішають» можуть бути правдою водночас.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-does-a-war-economy-work/
+
 00:00 Як працює економіка мирного часу
 00:47 Держава стає замовником
 01:28 Звідки ресурси беруться насправді
@@ -456,6 +474,8 @@ Kinh tế thời chiến không phải cỗ máy tạo ra nguồn lực. Nó là
 Khi chiến tranh nổ ra, một chính phủ đột nhiên cần hàng triệu bộ quân phục, xe tải, đạn pháo, máy bay và xe tăng. Nhưng in tiền không tạo ra xe tăng — thép, công nhân và nhà máy phải đến từ đâu đó, và nơi đó chính là nền kinh tế dân sự.
 
 Video này giải thích điều đó thực sự có nghĩa là gì. Vì sao một nước có thể thắng cuộc chiến mà vẫn bước ra kiệt quệ: Anh Quốc thắng năm 1945, và chế độ tem phiếu ở đó mãi tới năm 1954 mới chấm dứt, gần chín năm sau. Vì sao tổng sản phẩm quốc nội đếm một chiếc xe tăng bị phá hủy tới hai lần mà không bao giờ trừ đi phần mất mát. Vì sao nhiều tiền hơn đuổi theo đúng ngần ấy hàng hóa dẫn tới tem phiếu, và tem phiếu dẫn tới chợ đen. Và vì sao "kinh tế đang bùng nổ" với "người dân đang nghèo đi" có thể cùng đúng một lúc.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-does-a-war-economy-work/
 
 00:00 Kinh tế thời bình vận hành ra sao
 00:47 Nhà nước trở thành khách hàng
@@ -497,6 +517,8 @@ Válečná ekonomika není stroj na vytváření zdrojů. Je to stroj na jejich 
 Když začne válka, vláda najednou potřebuje miliony uniforem, náklaďáků, granátů, letadel a tanků. Jenže tisknutí peněz tanky nevyrobí — ocel, dělníci a továrny musí odněkud přijít, a to odněkud je civilní ekonomika.
 
 Tohle video prochází, co to doopravdy znamená. Proč země může válku vyhrát a přesto z ní vyjít vyčerpaná: Británie vyhrála v roce 1945 a příděly tam skončily až v roce 1954, skoro devět let potom. Proč hrubý domácí produkt započítá zničený tank dvakrát a tu ztrátu nikdy neodečte. Proč víc peněz na stejné množství zboží vede k přídělům a příděly k černému trhu. A proč „ekonomika roste" a „lidem se žije hůř" můžou platit obojí naráz.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-does-a-war-economy-work/
 
 00:00 Jak funguje ekonomika v míru
 00:47 Zákazníkem se stává vláda
@@ -540,6 +562,8 @@ Una economía de guerra no es una máquina para crear recursos. Es una máquina 
 Cuando estalla una guerra, un Estado necesita de pronto millones de uniformes, camiones, proyectiles, aviones y tanques. Pero imprimir dinero no crea tanques — el acero, los trabajadores y las fábricas tienen que venir de algún sitio, y ese sitio es la economía civil.
 
 Este vídeo recorre lo que eso significa en realidad. Por qué un país puede ganar una guerra y salir de ella agotado igualmente: Gran Bretaña ganó en 1945, y allí el racionamiento no terminó hasta 1954, casi nueve años después. Por qué el producto interior bruto cuenta dos veces un tanque destruido y nunca resta la pérdida. Por qué más dinero para los mismos bienes lleva al racionamiento, y el racionamiento al mercado negro. Y por qué «la economía va viento en popa» y «la gente se empobrece» pueden ser ciertas a la vez.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-does-a-war-economy-work/
 
 00:00 Cómo funciona una economía en paz
 00:47 El Estado se convierte en el cliente
@@ -594,6 +618,8 @@ skapar inga stridsvagnar — stålet, arbetarna och fabrikerna måste komma
 någonstans ifrån, och det någonstansen är den civila ekonomin.
 
 Den här videon går igenom vad det faktiskt betyder. Varför ett land kan vinna ett krig och ändå komma ur det utmattat: Storbritannien vann 1945, och ransoneringen där upphörde först 1954, nästan nio år senare. Varför bruttonationalprodukten räknar en förstörd stridsvagn två gånger och aldrig drar av förlusten. Varför mer pengar efter samma varor leder till ransonering, och ransoneringen till svartabörshandel. Och varför "ekonomin blomstrar" och "folk blir fattigare" kan vara sant samtidigt.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-does-a-war-economy-work/
 
 00:00 Hur en fredsekonomi fungerar
 00:47 Staten blir kunden

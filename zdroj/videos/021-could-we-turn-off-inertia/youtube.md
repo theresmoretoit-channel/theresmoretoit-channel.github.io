@@ -44,6 +44,8 @@ make the passengers not share that acceleration?" — and the hardest part of
 interstellar travel might not be reaching a high speed, but surviving the
 acceleration required to get there.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/could-we-turn-off-inertia/
+
 CHAPTERS
 0:00 The question
 0:24 Acceleration is a ceiling

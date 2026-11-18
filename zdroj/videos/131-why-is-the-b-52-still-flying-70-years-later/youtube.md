@@ -64,6 +64,8 @@ Sources: National Museum of the US Air Force (XB-70 Valkyrie, AGM-86B ALCM, the 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-the-b-52-still-flying-70-years-later/
+
 CHAPTERS
 00:00 Built in 1962, set to fly into the 2050s
 00:38 The first part of the answer

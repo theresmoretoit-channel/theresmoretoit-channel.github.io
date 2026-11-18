@@ -62,6 +62,8 @@ Lähteet: Constitution of the Russian Federation (1993, amended 2020); Judicial 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-it-take-for-russia-to-change/
+
 LUVUT
 00:00 Uusi presidentti vuonna 2008
 00:47 Mihin jäimme
@@ -101,6 +103,8 @@ Vidéo précédente : Pourquoi la Russie choisit-elle sans cesse la confrontatio
 Sources : Constitution of the Russian Federation (1993, amended 2020) ; Judicial Department of the Supreme Court of Russia, court statistics (2023) ; OVD-Info (2025) ; Freedom House, Freedom in the World 2025: Russia ; S. E. Hanson, PONARS Policy Memo 285 (2002) ; J. L. Weeks, Dictators at War and Peace (2014) ; Norges Bank Investment Management, half-year report (2026) ; Norwegian Petroleum (norskpetroleum.no), the fiscal rule ; Budapest Memorandum on Security Assurances (1994) ; Treaty of Friendship, Cooperation and Partnership between Ukraine and the Russian Federation (1997) ; Treaty of Warsaw (1970) ; German–Polish Border Treaty (1990) ; Statistics Poland (GUS), foreign trade 2025 ; The Bell (2024) ; OutRush ; Memorial, list of political prisoners (2026) ; Levada Center (décembre 2018) ; A. Amalrik, Will the Soviet Union Survive Until 1984? (1969).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-it-take-for-russia-to-change/
 
 CHAPITRES
 00:00 Un nouveau président en 2008
@@ -142,6 +146,8 @@ Sumber: Constitution of the Russian Federation (1993, amended 2020); Judicial De
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-it-take-for-russia-to-change/
+
 BAB
 00:00 Presiden baru pada 2008
 00:47 Melanjutkan video sebelumnya
@@ -181,6 +187,8 @@ Video correlato: Come fa una dittatura a diventare una democrazia? https://www.y
 Fonti: Constitution of the Russian Federation (1993, amended 2020); Judicial Department of the Supreme Court of Russia, court statistics (2023); OVD-Info (2025); Freedom House, Freedom in the World 2025: Russia; S. E. Hanson, PONARS Policy Memo 285 (2002); J. L. Weeks, Dictators at War and Peace (2014); Norges Bank Investment Management, half-year report (2026); Norwegian Petroleum (norskpetroleum.no), the fiscal rule; Budapest Memorandum on Security Assurances (1994); Treaty of Friendship, Cooperation and Partnership between Ukraine and the Russian Federation (1997); Treaty of Warsaw (1970); German–Polish Border Treaty (1990); Statistics Poland (GUS), foreign trade 2025; The Bell (2024); OutRush; Memorial, list of political prisoners (2026); Levada Center (dicembre 2018); A. Amalrik, Will the Soviet Union Survive Until 1984? (1969).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-it-take-for-russia-to-change/
 
 CAPITOLI
 00:00 Un nuovo presidente nel 2008
@@ -222,6 +230,8 @@ Quellen: Constitution of the Russian Federation (1993, amended 2020); Judicial D
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-it-take-for-russia-to-change/
+
 KAPITEL
 00:00 Ein neuer Präsident im Jahr 2008
 00:47 Wo wir stehen geblieben sind
@@ -261,6 +271,8 @@ Zobacz też: Jak dyktatura staje się demokracją? https://www.youtube.com/watch
 Źródła: Constitution of the Russian Federation (1993, amended 2020); Judicial Department of the Supreme Court of Russia, court statistics (2023); OVD-Info (2025); Freedom House, Freedom in the World 2025: Russia; S. E. Hanson, PONARS Policy Memo 285 (2002); J. L. Weeks, Dictators at War and Peace (2014); Norges Bank Investment Management, half-year report (2026); Norwegian Petroleum (norskpetroleum.no), the fiscal rule; Budapest Memorandum on Security Assurances (1994); Treaty of Friendship, Cooperation and Partnership between Ukraine and the Russian Federation (1997); Treaty of Warsaw (1970); German–Polish Border Treaty (1990); Statistics Poland (GUS), foreign trade 2025; The Bell (2024); OutRush; Memorial, list of political prisoners (2026); Levada Center (grudzień 2018); A. Amalrik, Will the Soviet Union Survive Until 1984? (1969).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-it-take-for-russia-to-change/
 
 ROZDZIAŁY
 00:00 Nowy prezydent w 2008 roku
@@ -302,6 +314,8 @@ Fontes: Constitution of the Russian Federation (1993, amended 2020); Judicial De
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-it-take-for-russia-to-change/
+
 CAPÍTULOS
 00:00 Um novo presidente em 2008
 00:47 Onde paramos
@@ -341,6 +355,8 @@ Rusya, ülkenin başındaki kişiyi değiştirmeyi zaten denedi. Peki sistemin k
 Kaynaklar: Constitution of the Russian Federation (1993, amended 2020); Judicial Department of the Supreme Court of Russia, court statistics (2023); OVD-Info (2025); Freedom House, Freedom in the World 2025: Russia; S. E. Hanson, PONARS Policy Memo 285 (2002); J. L. Weeks, Dictators at War and Peace (2014); Norges Bank Investment Management, half-year report (2026); Norwegian Petroleum (norskpetroleum.no), the fiscal rule; Budapest Memorandum on Security Assurances (1994); Treaty of Friendship, Cooperation and Partnership between Ukraine and the Russian Federation (1997); Treaty of Warsaw (1970); German–Polish Border Treaty (1990); Statistics Poland (GUS), foreign trade 2025; The Bell (2024); OutRush; Memorial, list of political prisoners (2026); Levada Center (Aralık 2018); A. Amalrik, Will the Soviet Union Survive Until 1984? (1969).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-it-take-for-russia-to-change/
 
 BÖLÜMLER
 00:00 2008'de yeni bir devlet başkanı
@@ -382,6 +398,8 @@ Lisanslar: creativecommons.org/licenses/by/3.0, creativecommons.org/licenses/by-
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-it-take-for-russia-to-change/
+
 РОЗДІЛИ
 00:00 Новий президент 2008 року
 00:47 На чому ми зупинилися
@@ -421,6 +439,8 @@ Video liên quan: Làm thế nào một chế độ độc tài trở thành dâ
 Nguồn: Constitution of the Russian Federation (1993, amended 2020); Judicial Department of the Supreme Court of Russia, court statistics (2023); OVD-Info (2025); Freedom House, Freedom in the World 2025: Russia; S. E. Hanson, PONARS Policy Memo 285 (2002); J. L. Weeks, Dictators at War and Peace (2014); Norges Bank Investment Management, half-year report (2026); Norwegian Petroleum (norskpetroleum.no), the fiscal rule; Budapest Memorandum on Security Assurances (1994); Treaty of Friendship, Cooperation and Partnership between Ukraine and the Russian Federation (1997); Treaty of Warsaw (1970); German–Polish Border Treaty (1990); Statistics Poland (GUS), foreign trade 2025; The Bell (2024); OutRush; Memorial, list of political prisoners (2026); Levada Center (tháng 12/2018); A. Amalrik, Will the Soviet Union Survive Until 1984? (1969).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-it-take-for-russia-to-change/
 
 CHƯƠNG
 00:00 Một tổng thống mới năm 2008
@@ -462,6 +482,8 @@ Zdroje: Constitution of the Russian Federation (1993, amended 2020); Judicial De
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-it-take-for-russia-to-change/
+
 KAPITOLY
 00:00 Nový prezident v roce 2008
 00:47 Kde jsme skončili
@@ -502,6 +524,8 @@ Fuentes: Constitution of the Russian Federation (1993, amended 2020); Judicial D
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-it-take-for-russia-to-change/
+
 CAPÍTULOS
 00:00 Un nuevo presidente en 2008
 00:47 Donde lo dejamos
@@ -541,6 +565,8 @@ Relaterat: Hur blir en diktatur en demokrati? https://www.youtube.com/watch?v=Ax
 Källor: Constitution of the Russian Federation (1993, amended 2020); Judicial Department of the Supreme Court of Russia, court statistics (2023); OVD-Info (2025); Freedom House, Freedom in the World 2025: Russia; S. E. Hanson, PONARS Policy Memo 285 (2002); J. L. Weeks, Dictators at War and Peace (2014); Norges Bank Investment Management, half-year report (2026); Norwegian Petroleum (norskpetroleum.no), the fiscal rule; Budapest Memorandum on Security Assurances (1994); Treaty of Friendship, Cooperation and Partnership between Ukraine and the Russian Federation (1997); Treaty of Warsaw (1970); German–Polish Border Treaty (1990); Statistics Poland (GUS), foreign trade 2025; The Bell (2024); OutRush; Memorial, list of political prisoners (2026); Levada Center (december 2018); A. Amalrik, Will the Soviet Union Survive Until 1984? (1969).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-it-take-for-russia-to-change/
 
 KAPITEL
 00:00 En ny president 2008

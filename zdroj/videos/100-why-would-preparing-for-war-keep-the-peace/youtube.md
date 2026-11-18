@@ -64,6 +64,8 @@ Military spending: SIPRI (April 2026). Nuclear warheads: Federation of American 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-would-preparing-for-war-keep-the-peace/
+
 CHAPTERS
 00:00 Want peace? Prepare for war
 00:35 Deterrence in its simplest form

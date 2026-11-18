@@ -43,6 +43,8 @@ The nineteenth century had an answer: the luminiferous ether. This is the story 
 that answer was tested, abandoned, and replaced by something stranger — and why the
 replacement still doesn't quite feel like an answer.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-is-a-wave-waving/
+
 Chapters
 0:00 The question
 0:37 The ether

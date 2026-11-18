@@ -56,6 +56,8 @@ From BlackBerry to the Unihertz Titan, the Astro Slide, the F(x)tec Pro1 X and t
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-can-you-still-buy-a-phone-with-a-keyboard/
+
 CHAPTERS
 00:00 A new phone with a keyboard
 00:35 BlackBerry

@@ -34,6 +34,8 @@ When a war starts, a government suddenly needs millions of uniforms, trucks, she
 
 This video works through what that actually means. Why a country can win a war and still come out of it exhausted: Britain won in 1945, and rationing there did not end until 1954, almost nine years later. Why gross domestic product counts a destroyed tank twice and never subtracts the loss. Why more money chasing the same goods leads to rationing, and rationing to a black market. And why "the economy is booming" and "people are getting poorer" can both be true at the same time.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-does-a-war-economy-work/
+
 00:00 How a peacetime economy works
 00:47 The government becomes the customer
 01:28 Where the resources actually come from

@@ -34,6 +34,8 @@ Miksei suoratoisto sitten ole tappanut sitä? Mitä lähetin osaa, mikä on inte
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-hasnt-streaming-killed-tv/
+
 LUVUT
 00:00 Ilta lineaarisen tv:n ääressä
 00:52 Toki sen voi tallentaa
@@ -62,6 +64,8 @@ Et pourtant, en mai 2025, après presque vingt ans de Netflix et de YouTube, le 
 Alors pourquoi le streaming ne l'a-t-il pas tuée ? Que fait un émetteur qu'Internet a étonnamment du mal à faire ? La télévision et la diffusion, est-ce vraiment la même chose ? Et quand voudrais-tu vraiment que tout le monde voie la même chose au même moment ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-hasnt-streaming-killed-tv/
 
 CHAPITRES
 00:00 Une soirée devant la télé linéaire
@@ -92,6 +96,8 @@ Jadi kenapa streaming belum membunuhnya? Apa yang bisa dilakukan pemancar, tapi 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-hasnt-streaming-killed-tv/
+
 BAB
 00:00 Malam bersama TV linear
 00:52 Tentu, kamu bisa merekamnya
@@ -120,6 +126,8 @@ Eppure a maggio 2025, dopo quasi vent'anni di Netflix e YouTube, negli Stati Uni
 Allora perché lo streaming non l'ha uccisa? Che cosa fa un trasmettitore che per Internet è sorprendentemente difficile? Televisione e trasmissione via etere sono davvero la stessa cosa? E quando vorresti davvero che tutti vedessero la stessa cosa nello stesso momento?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-hasnt-streaming-killed-tv/
 
 CAPITOLI
 00:00 Una serata di TV lineare
@@ -150,6 +158,8 @@ Warum hat Streaming es also nicht umgebracht? Was kann eine Sendeanlage, womit s
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-hasnt-streaming-killed-tv/
+
 KAPITEL
 00:00 Ein Abend mit linearem Fernsehen
 00:52 Klar, du kannst ihn aufnehmen
@@ -178,6 +188,8 @@ A jednak w maju 2025, po prawie dwudziestu latach Netfliksa i YouTube'a, streami
 Więc dlaczego streaming jej nie zabił? Co potrafi nadajnik, z czym internet ma zaskakująco duży problem? Czy telewizja i nadawanie to w ogóle to samo? I kiedy naprawdę chciałbyś, żeby wszyscy oglądali to samo w tym samym czasie?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-hasnt-streaming-killed-tv/
 
 ROZDZIAŁY
 00:00 Wieczór z telewizją linearną
@@ -208,6 +220,8 @@ Então por que o streaming não acabou com ela? O que um transmissor faz que, pa
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-hasnt-streaming-killed-tv/
+
 CAPÍTULOS
 00:00 Uma noite de TV linear
 00:52 Claro, você pode gravar
@@ -236,6 +250,8 @@ Yine de Mayıs 2025'te, Netflix ve YouTube'la geçen neredeyse yirmi yılın ard
 Peki streaming onu neden öldürmedi? Bir verici, internetin şaşırtıcı derecede zorlandığı neyi yapabiliyor? Televizyon ve yayın aynı şey mi ki? Ve herkesin aynı şeyi aynı anda görmesini gerçekten ne zaman istersin?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-hasnt-streaming-killed-tv/
 
 BÖLÜMLER
 00:00 Doğrusal televizyonla bir akşam
@@ -266,6 +282,8 @@ BÖLÜMLER
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-hasnt-streaming-killed-tv/
+
 РОЗДІЛИ
 00:00 Вечір лінійного телебачення
 00:52 Звісно, його можна записати
@@ -294,6 +312,8 @@ Vậy mà vào tháng 5 năm 2025, sau gần hai mươi năm có Netflix và You
 Vậy sao streaming chưa giết được nó? Máy phát làm được điều gì mà Internet lại khó làm đến bất ngờ? Truyền hình và phát sóng có thật sự là một không? Và khi nào bạn thật sự muốn mọi người cùng xem một thứ vào cùng một lúc?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-hasnt-streaming-killed-tv/
 
 CHƯƠNG
 00:00 Một buổi tối với truyền hình tuyến tính
@@ -324,6 +344,8 @@ Tak proč streaming televizi nezabil? Co umí vysílač, s čím si internet př
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-hasnt-streaming-killed-tv/
+
 KAPITOLY
 00:00 Večer u lineární televize
 00:52 Samozřejmě si ho můžeš nahrát
@@ -353,6 +375,8 @@ Entonces, ¿por qué no la ha matado el streaming? ¿Qué hace un transmisor que
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-hasnt-streaming-killed-tv/
+
 CAPÍTULOS
 00:00 Una noche de tele lineal
 00:52 Claro, puedes grabarla
@@ -381,6 +405,8 @@ Och ändå gick streaming i USA förbi vanliga tv-kanaler och kabel-tv först i 
 Så varför har streaming inte dödat den? Vad klarar en sändare som internet har förvånansvärt svårt med? Är tv och sändningar ens samma sak? Och när skulle du faktiskt vilja att alla ser samma sak samtidigt?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-hasnt-streaming-killed-tv/
 
 KAPITEL
 00:00 En kväll med linjär tv

@@ -74,6 +74,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 World map: BlankMap-World by Canuckguy, after the CIA World Factbook, public domain
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-are-iphone-texts-to-android-still-green/
+
 CHAPTERS
 00:00 Blue and green
 00:34 Green came first

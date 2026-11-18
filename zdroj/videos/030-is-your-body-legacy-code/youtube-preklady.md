@@ -53,6 +53,8 @@ Siitä eteenpäin ohjelmistovertaus muuttuu oudommaksi eikä heikommaksi. Reposi
 
 Sitten vertaus hajoaa, ja se on kaikkein kiinnostavinta. DNA ei ole rakennuspiirustus. Ei ole riviä, jossa lukisi luo käsivarsi. Osaamme sekvensoida genomin, tunnistaa geenejä ja mitata proteiineja — emmekä silti osaa panna yhden tavallisen solun DNA:ta tietokoneeseen, painaa suorita ja katsoa ihmisen kehittyvän. Meillä on genomi. Genomi ei ole koko kone.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/is-your-body-legacy-code/
+
 Luvut
 0:00 Ohjelma, jota kukaan ei kirjoittaisi
 0:37 Jokaisessa solussa on koko juttu
@@ -115,6 +117,8 @@ mesurer des protéines — et on ne sait toujours pas mettre l'ADN d'une cellule
 ordinateur, appuyer sur exécuter et regarder un humain se développer. On a le génome. Le génome
 n'est pas toute la machine.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/is-your-body-legacy-code/
+
 Chapitres
 0:00 Le programme que personne n'écrirait
 0:37 Chaque cellule a le tout
@@ -158,6 +162,8 @@ Hampir setiap sel bernukleus di tubuhmu membawa salinan lengkap genommu yang sam
 Dari situ analogi perangkat lunaknya justru makin aneh, bukan makin lemah. Sebuah repositori dengan riwayat commit sedalam empat miliar tahun, dirawat dengan tambalan dan solusi sementara karena tidak ada yang bisa ditulis ulang. Sebuah pipeline integrasi berkelanjutan yang tesnya berjalan di sistem produksi. Triliunan agen kecil tanpa server pusat dan tanpa siapa pun yang memegang arsitekturnya di kepala. Dan sebuah mesin yang sudah berjalan puluhan tahun tanpa sekali pun reboot, mengganti komponennya sendiri sambil terus melayani.
 
 Lalu analoginya tidak berlaku lagi, dan justru itu bagian paling menariknya. DNA bukan cetak biru. Tidak ada baris yang berbunyi buat lengan. Kita bisa mengurutkan genom, mengidentifikasi gen dan mengukur protein — dan kita tetap tidak bisa memasukkan DNA satu sel biasa ke komputer, menekan run, lalu menonton seorang manusia berkembang. Genomnya kita punya. Genom bukanlah keseluruhan mesinnya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/is-your-body-legacy-code/
 
 Bab
 0:00 Program yang tidak akan ditulis siapa pun
@@ -220,6 +226,8 @@ parte c'è una riga che dica crea un braccio. Sappiamo sequenziare un genoma, id
 geni e misurare le proteine — e ancora non sappiamo mettere il DNA di una cellula comune in un
 computer, premere esegui e guardare una persona formarsi. Abbiamo il genoma. Il genoma non è
 tutta la macchina.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/is-your-body-legacy-code/
 
 Capitoli
 0:00 Il programma che nessuno scriverebbe
@@ -286,6 +294,8 @@ bestimmen und Proteine messen — und wir können die DNA einer gewöhnlichen Ze
 nicht in einen Computer laden, auf Start drücken und zusehen, wie ein Mensch entsteht. Wir
 haben das Genom. Das Genom ist nicht die ganze Maschine.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/is-your-body-legacy-code/
+
 Kapitel
 0:00 Das Programm, das niemand schreiben würde
 0:37 Jede Zelle hat das Ganze
@@ -347,6 +357,8 @@ Potem porównanie się załamuje i to jest najciekawsze. DNA nie jest planem. Ni
 linijki, która mówi: stwórz rękę. Umiemy zsekwencjonować genom, zidentyfikować geny i zmierzyć
 białka — i wciąż nie umiemy wgrać DNA zwykłej komórki do komputera, nacisnąć uruchom i patrzeć,
 jak powstaje człowiek. Mamy genom. Genom to nie cała maszyna.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/is-your-body-legacy-code/
 
 Rozdziały
 0:00 Program, którego nikt by nie napisał
@@ -413,6 +425,8 @@ genes e medir proteínas — e ainda não sabemos colocar o DNA de uma célula c
 apertar executar e ver uma pessoa se desenvolver. Temos o genoma. O genoma não é a máquina
 inteira.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/is-your-body-legacy-code/
+
 Capítulos
 0:00 O programa que ninguém escreveria
 0:37 Toda célula tem tudo
@@ -457,6 +471,8 @@ Oradan itibaren yazılım benzetmesi zayıflamak yerine tuhaflaşıyor. Commit g
 
 Sonra benzetme kopuyor ve en ilginç kısım da bu. DNA bir yapı planı değil. İçinde kol oluştur yazan bir satır yok. Bir genomu dizileyebiliyor, genleri tanımlayabiliyor ve proteinleri ölçebiliyoruz — ama sıradan tek bir hücrenin DNA’sını bilgisayara koyup çalıştır tuşuna basarak bir insanın gelişmesini izleyemiyoruz. Genom elimizde. Genom, makinenin tamamı değil.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/is-your-body-legacy-code/
+
 Bölümler
 0:00 Kimsenin yazmayacağı program
 0:37 Her hücrede tamamı var
@@ -499,6 +515,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 А тоді аналогія ламається — і це найцікавіше. ДНК не є кресленням. Немає рядка, у якому було б написано створи руку. Ми вміємо секвенувати геном, розпізнавати гени й вимірювати білки — і все одно не вміємо взяти ДНК однієї звичайної клітини, вкласти її в комп’ютер, натиснути «запустити» й дивитися, як розвивається людина. Геном ми маємо. Геном — це не вся машина.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/is-your-body-legacy-code/
+
 Розділи
 0:00 Програма, якої ніхто не написав би
 0:37 У кожній клітині є все
@@ -540,6 +558,8 @@ Gần như mọi tế bào có nhân trong cơ thể bạn đều mang cùng m�
 Từ đó trở đi, phép so sánh với phần mềm càng lạ hơn chứ không yếu đi. Một kho mã có lịch sử commit sâu bốn tỉ năm, được duy trì bằng các bản vá và giải pháp tình thế, vì chẳng thứ gì có thể viết lại từ đầu. Một pipeline tích hợp liên tục mà các bài kiểm thử chạy thẳng trên hệ thống production. Hàng nghìn tỉ tác nhân tí hon, không máy chủ trung tâm và không ai giữ kiến trúc trong đầu. Và một cỗ máy đã chạy hàng chục năm mà chưa khởi động lại lần nào, thay chính các bộ phận của mình trong lúc vẫn phục vụ.
 
 Rồi phép so sánh không còn đúng nữa, và đó mới là phần thú vị nhất. DNA không phải bản thiết kế. Không có dòng nào ghi hãy tạo một cánh tay. Chúng ta giải trình tự được bộ gene, nhận diện được gene và đo được protein — vậy mà vẫn không thể đưa DNA của một tế bào bình thường vào máy tính, bấm chạy và xem một con người phát triển. Bộ gene thì ta có. Bộ gene không phải toàn bộ cỗ máy.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/is-your-body-legacy-code/
 
 Các chương
 0:00 Chương trình chẳng ai viết như thế
@@ -599,6 +619,8 @@ Pak se přirovnání zlomí, a to je na tom nejzajímavější. DNA není plán.
 řádek, který by říkal: vytvoř ruku. Umíme sekvenovat genom, určit geny a změřit bílkoviny —
 a pořád neumíme vzít DNA obyčejné buňky, nahrát ji do počítače, stisknout spustit a sledovat,
 jak vzniká člověk. Máme genom. Genom ale není celý ten stroj.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/is-your-body-legacy-code/
 
 Kapitoly
 0:00 Program, který by nikdo nenapsal
@@ -664,6 +686,8 @@ medir proteínas — y seguimos sin poder meter el ADN de una célula corriente 
 pulsar ejecutar y ver cómo se desarrolla una persona. Tenemos el genoma. El genoma no es la
 máquina entera.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/is-your-body-legacy-code/
+
 Capítulos
 0:00 El programa que nadie escribiría
 0:37 Cada célula lleva el conjunto entero
@@ -723,6 +747,8 @@ Sedan brister jämförelsen, och det är det mest intressanta. DNA är ingen rit
 står det en rad som säger: skapa en arm. Vi kan sekvensera ett genom, identifiera gener och
 mäta proteiner — och vi kan fortfarande inte lägga in DNA från en vanlig cell i en dator,
 trycka på kör och se en människa växa fram. Vi har genomet. Genomet är inte hela maskinen.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/is-your-body-legacy-code/
 
 Kapitel
 0:00 Programmet ingen skulle skriva

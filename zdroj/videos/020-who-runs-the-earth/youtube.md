@@ -47,6 +47,8 @@ An American English audio track is available as a second audio track.
 
 ---
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/who-runs-the-earth/
+
 00:00 Nobody is above the countries
 01:01 How it works inside a country
 01:39 The same question, one level up

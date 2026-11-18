@@ -68,6 +68,8 @@ Sources: LWN.net (kernel release statistics, Android and the mainline kernel, th
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 CHAPTERS
 00:00 The man Big Tech can't fire
 00:39 From a student's hobby to the world's servers

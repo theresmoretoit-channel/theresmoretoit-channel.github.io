@@ -31,6 +31,8 @@ Lähteet: Barnett & Reig Torra, Airline safety: Still getting better?, Journal o
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-flying-so-safe-now/
+
 LUVUT
 00:00 40 kertaa turvallisempaa
 00:55 ”Liian paljon lentokonetta”
@@ -72,6 +74,8 @@ Cette vidéo passe par le bombardier Boeing qui s'est écrasé à cause d'un ver
 Sources : Barnett & Reig Torra, Airline safety: Still getting better?, Journal of Air Transport Management (2024) ; Gawande, The Checklist Manifesto (2009) ; FAA, Lessons Learned from Civil Aviation Accidents (de Havilland Comet; KLM and Pan Am at Tenerife) ; NTSB, Aircraft Accident Report AAR-90/06 (United 232) ; Haynes, The Crash of United Flight 232, lecture at NASA Ames (1991) ; BEA, Final Report on Air France 447 (2012) ; NASA, Aviation Safety Reporting System Program Briefing ; ICAO, Annex 13 ; Reason, Human Error (1990) ; KNKT, Final Report on Lion Air 610 (2019) ; US House Committee on Transportation and Infrastructure, Final Committee Report on the Boeing 737 MAX (2020).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-flying-so-safe-now/
 
 CHAPITRES
 00:00 40 fois plus sûr
@@ -115,6 +119,8 @@ Sumber: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-flying-so-safe-now/
+
 BAB
 00:00 40 kali lebih aman
 00:55 "Terlalu banyak pesawat untuk satu orang"
@@ -156,6 +162,8 @@ Questo video racconta il bombardiere Boeing precipitato per un fermo dimenticato
 Fonti: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of Air Transport Management (2024); Gawande, The Checklist Manifesto (2009); FAA, Lessons Learned from Civil Aviation Accidents (de Havilland Comet; KLM and Pan Am at Tenerife); NTSB, Aircraft Accident Report AAR-90/06 (United 232); Haynes, The Crash of United Flight 232, lecture at NASA Ames (1991); BEA, Final Report on Air France 447 (2012); NASA, Aviation Safety Reporting System Program Briefing; ICAO, Annex 13; Reason, Human Error (1990); KNKT, Final Report on Lion Air 610 (2019); US House Committee on Transportation and Infrastructure, Final Committee Report on the Boeing 737 MAX (2020).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-flying-so-safe-now/
 
 CAPITOLI
 00:00 40 volte più sicuro
@@ -199,6 +207,8 @@ Quellen: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-flying-so-safe-now/
+
 KAPITEL
 00:00 40-mal sicherer
 00:55 „Zu viel Flugzeug“
@@ -240,6 +250,8 @@ W tym filmie: bombowiec Boeinga, który rozbił się przez zapomnianą blokadę,
 Źródła: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of Air Transport Management (2024); Gawande, The Checklist Manifesto (2009); FAA, Lessons Learned from Civil Aviation Accidents (de Havilland Comet; KLM and Pan Am at Tenerife); NTSB, Aircraft Accident Report AAR-90/06 (United 232); Haynes, The Crash of United Flight 232, lecture at NASA Ames (1991); BEA, Final Report on Air France 447 (2012); NASA, Aviation Safety Reporting System Program Briefing; ICAO, Annex 13; Reason, Human Error (1990); KNKT, Final Report on Lion Air 610 (2019); US House Committee on Transportation and Infrastructure, Final Committee Report on the Boeing 737 MAX (2020).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-flying-so-safe-now/
 
 ROZDZIAŁY
 00:00 40 razy bezpieczniej
@@ -283,6 +295,8 @@ Fontes: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-flying-so-safe-now/
+
 CAPÍTULOS
 00:00 40 vezes mais seguro
 00:55 "Avião demais para um homem só"
@@ -324,6 +338,8 @@ Bu videoda unutulan bir kilit yüzünden düşen Boeing bombardıman uçağı, h
 Kaynaklar: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of Air Transport Management (2024); Gawande, The Checklist Manifesto (2009); FAA, Lessons Learned from Civil Aviation Accidents (de Havilland Comet; KLM and Pan Am at Tenerife); NTSB, Aircraft Accident Report AAR-90/06 (United 232); Haynes, The Crash of United Flight 232, lecture at NASA Ames (1991); BEA, Final Report on Air France 447 (2012); NASA, Aviation Safety Reporting System Program Briefing; ICAO, Annex 13; Reason, Human Error (1990); KNKT, Final Report on Lion Air 610 (2019); US House Committee on Transportation and Infrastructure, Final Committee Report on the Boeing 737 MAX (2020).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-flying-so-safe-now/
 
 BÖLÜMLER
 00:00 40 kat daha güvenli
@@ -367,6 +383,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-flying-so-safe-now/
+
 РОЗДІЛИ
 00:00 У 40 разів безпечніше
 00:55 «Забагато літака»
@@ -408,6 +426,8 @@ Video này kể về chiếc máy bay ném bom của Boeing rơi vì một chố
 Nguồn: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of Air Transport Management (2024); Gawande, The Checklist Manifesto (2009); FAA, Lessons Learned from Civil Aviation Accidents (de Havilland Comet; KLM and Pan Am at Tenerife); NTSB, Aircraft Accident Report AAR-90/06 (United 232); Haynes, The Crash of United Flight 232, lecture at NASA Ames (1991); BEA, Final Report on Air France 447 (2012); NASA, Aviation Safety Reporting System Program Briefing; ICAO, Annex 13; Reason, Human Error (1990); KNKT, Final Report on Lion Air 610 (2019); US House Committee on Transportation and Infrastructure, Final Committee Report on the Boeing 737 MAX (2020).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-flying-so-safe-now/
 
 CHƯƠNG
 00:00 An toàn hơn 40 lần
@@ -451,6 +471,8 @@ Zdroje: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-flying-so-safe-now/
+
 KAPITOLY
 00:00 40krát bezpečnější
 00:55 „Tolik letadla, že ho jeden neuřídí“
@@ -493,6 +515,8 @@ Fuentes: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-flying-so-safe-now/
+
 CAPÍTULOS
 00:00 40 veces más seguro
 00:55 «Demasiado avión para un solo hombre»
@@ -534,6 +558,8 @@ Videon går igenom Boeings bombplan som störtade på grund av en bortglömd sp�
 Källor: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of Air Transport Management (2024); Gawande, The Checklist Manifesto (2009); FAA, Lessons Learned from Civil Aviation Accidents (de Havilland Comet; KLM and Pan Am at Tenerife); NTSB, Aircraft Accident Report AAR-90/06 (United 232); Haynes, The Crash of United Flight 232, lecture at NASA Ames (1991); BEA, Final Report on Air France 447 (2012); NASA, Aviation Safety Reporting System Program Briefing; ICAO, Annex 13; Reason, Human Error (1990); KNKT, Final Report on Lion Air 610 (2019); US House Committee on Transportation and Infrastructure, Final Committee Report on the Boeing 737 MAX (2020).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-flying-so-safe-now/
 
 KAPITEL
 00:00 40 gånger säkrare

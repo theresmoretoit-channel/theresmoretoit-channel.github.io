@@ -35,6 +35,8 @@ Sitä, kenellä on viimeinen sana itse valtioista, käsitellään aiemmassa vide
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-makes-a-state-a-state/
+
 LUVUT
 00:00 Kuka täällä määrää?
 00:31 Max Weberin vastaus
@@ -68,6 +70,8 @@ Et elle se termine sur un paradoxe : mieux un État fonctionne, moins on remarqu
 La question de savoir qui a le dernier mot sur les États eux-mêmes fait l'objet d'une vidéo précédente : https://youtu.be/qCmRqFm-Vtk
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-makes-a-state-a-state/
 
 CHAPITRES
 00:00 Qui commande ?
@@ -103,6 +107,8 @@ Pertanyaan tentang siapa yang mengambil keputusan akhir atas negara-negara itu s
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-makes-a-state-a-state/
+
 BAB
 00:00 Siapa yang berkuasa?
 00:31 Jawaban Max Weber
@@ -136,6 +142,8 @@ E si chiude con un paradosso: più uno Stato funziona, meno ci accorgiamo del su
 Chi ha l'ultima parola sugli Stati stessi è il tema di un video precedente: https://youtu.be/qCmRqFm-Vtk
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-makes-a-state-a-state/
 
 CAPITOLI
 00:00 Chi comanda?
@@ -171,6 +179,8 @@ Wer über die Staaten selbst das letzte Wort hat, darum geht es in einem früher
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-makes-a-state-a-state/
+
 KAPITEL
 00:00 Wer hat das Sagen?
 00:31 Max Webers Antwort
@@ -204,6 +214,8 @@ A na koniec pojawia się paradoks: im skuteczniejsze jest państwo, tym mniej za
 O tym, kto ma ostatnie słowo wobec samych państw, opowiada wcześniejszy film: https://youtu.be/qCmRqFm-Vtk
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-makes-a-state-a-state/
 
 ROZDZIAŁY
 00:00 Kto tu rządzi?
@@ -239,6 +251,8 @@ Quem tem a palavra final sobre os próprios Estados é o tema de um vídeo anter
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-makes-a-state-a-state/
+
 CAPÍTULOS
 00:00 Quem manda?
 00:31 A resposta de Max Weber
@@ -272,6 +286,8 @@ Ve bir paradoksla bitiyor: bir devlet ne kadar başarılıysa, güç kullanma te
 Devletlerin kendileri üzerinde son sözü kimin söylediği sorusu, daha önceki bir videonun konusu: https://youtu.be/qCmRqFm-Vtk
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-makes-a-state-a-state/
 
 BÖLÜMLER
 00:00 Söz sahibi kim?
@@ -307,6 +323,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-makes-a-state-a-state/
+
 РОЗДІЛИ
 00:00 Хто тут керує?
 00:31 Відповідь Макса Вебера
@@ -340,6 +358,8 @@ Và video khép lại bằng một nghịch lý: nhà nước càng thành công
 Câu hỏi ai có tiếng nói cuối cùng đối với chính các nhà nước là chủ đề của một video trước: https://youtu.be/qCmRqFm-Vtk
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-makes-a-state-a-state/
 
 CHƯƠNG
 00:00 Ai đang nắm quyền?
@@ -375,6 +395,8 @@ Kdo má poslední slovo nad samotnými státy, rozebírá dřívější video: h
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-makes-a-state-a-state/
+
 KAPITOLY
 00:00 Kdo to tu řídí?
 00:31 Odpověď Maxe Webera
@@ -409,6 +431,8 @@ Quién tiene la última palabra sobre los propios Estados es el tema de un víde
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-makes-a-state-a-state/
+
 CAPÍTULOS
 00:00 ¿Quién manda?
 00:31 La respuesta de Max Weber
@@ -442,6 +466,8 @@ Och den slutar med en paradox: ju mer framgångsrik en stat är, desto mindre m�
 En tidigare video handlar om vem som har sista ordet över staterna själva: https://youtu.be/qCmRqFm-Vtk
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-makes-a-state-a-state/
 
 KAPITEL
 00:00 Vem bestämmer?

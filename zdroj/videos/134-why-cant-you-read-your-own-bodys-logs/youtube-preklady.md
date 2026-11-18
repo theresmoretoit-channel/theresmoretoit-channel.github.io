@@ -52,6 +52,8 @@ Tämä video ei ole lääketieteellistä neuvontaa. Uusi tai selittämätön rin
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-you-read-your-own-bodys-logs/
+
 LUVUT
 00:00 Kehosi virheilmoitukset
 00:57 Kaksi naulaa
@@ -87,6 +89,8 @@ Sources : BMJ, 1995 ; AP et TIME (Colorado, 2005) ; Google, Site Reliability Eng
 Cette vidéo ne constitue pas un avis médical. Une douleur nouvelle ou inexpliquée à la poitrine est une raison de demander une aide médicale sans attendre.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-you-read-your-own-bodys-logs/
 
 CHAPITRES
 00:00 Les messages d'erreur de ton corps
@@ -124,6 +128,8 @@ Video ini bukan nasihat medis. Nyeri dada yang baru atau tidak jelas sebabnya ad
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-you-read-your-own-bodys-logs/
+
 BAB
 00:00 Pesan error tubuhmu
 00:57 Dua paku
@@ -159,6 +165,8 @@ Fonti: BMJ, 1995; AP e TIME (Colorado, 2005); Google, Site Reliability Engineeri
 Questo video non è un consiglio medico. Un dolore al petto nuovo o inspiegato è un motivo per chiedere subito aiuto medico.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-you-read-your-own-bodys-logs/
 
 CAPITOLI
 00:00 I messaggi di errore del tuo corpo
@@ -196,6 +204,8 @@ Dieses Video ist keine medizinische Beratung. Neue oder unerklärliche Schmerzen
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-you-read-your-own-bodys-logs/
+
 KAPITEL
 00:00 Die Fehlermeldungen deines Körpers
 00:57 Zwei Nägel
@@ -231,6 +241,8 @@ Ten film idzie tropem dowodów: budowlaniec w straszliwym bólu, ze stopą całk
 Ten film nie jest poradą medyczną. Nowy lub niewyjaśniony ból w klatce piersiowej to powód, żeby natychmiast szukać pomocy medycznej.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-you-read-your-own-bodys-logs/
 
 ROZDZIAŁY
 00:00 Komunikaty o błędach z twojego ciała
@@ -268,6 +280,8 @@ Este vídeo não é aconselhamento médico. Dor no peito nova ou sem explicaçã
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-you-read-your-own-bodys-logs/
+
 CAPÍTULOS
 00:00 As mensagens de erro do seu corpo
 00:57 Dois pregos
@@ -303,6 +317,8 @@ Kaynaklar: BMJ, 1995; AP ve TIME (Colorado, 2005); Google, Site Reliability Engi
 Bu video tıbbi tavsiye değildir. Yeni ya da açıklanamayan göğüs ağrısı, hemen tıbbi yardım almak için bir nedendir.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-you-read-your-own-bodys-logs/
 
 BÖLÜMLER
 00:00 Bedeninin hata mesajları
@@ -340,6 +356,8 @@ Wikimedia Commons aracılığıyla
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-you-read-your-own-bodys-logs/
+
 РОЗДІЛИ
 00:00 Повідомлення про помилки від твого тіла
 00:57 Два цвяхи
@@ -375,6 +393,8 @@ Nguồn: BMJ, 1995; AP và TIME (Colorado, 2005); Google, Site Reliability Engin
 Video này không phải là lời khuyên y tế. Đau ngực mới xuất hiện hoặc không rõ nguyên nhân là lý do để tìm trợ giúp y tế ngay.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-you-read-your-own-bodys-logs/
 
 CHƯƠNG
 00:00 Thông báo lỗi của cơ thể bạn
@@ -412,6 +432,8 @@ Tohle video není lékařská rada. Nová nebo nevysvětlitelná bolest na hrudi
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-you-read-your-own-bodys-logs/
+
 KAPITOLY
 00:00 Chybové hlášky tvého těla
 00:57 Dva hřebíky
@@ -448,6 +470,8 @@ Este vídeo no es consejo médico. Un dolor en el pecho nuevo o sin explicación
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-you-read-your-own-bodys-logs/
+
 CAPÍTULOS
 00:00 Los mensajes de error de tu cuerpo
 00:57 Dos clavos
@@ -483,6 +507,8 @@ Källor: BMJ, 1995; AP och TIME (Colorado, 2005); Google, Site Reliability Engin
 Den här videon är inte medicinsk rådgivning. Ny eller oförklarlig bröstsmärta är skäl att söka vård direkt.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-you-read-your-own-bodys-logs/
 
 KAPITEL
 00:00 Kroppens felmeddelanden

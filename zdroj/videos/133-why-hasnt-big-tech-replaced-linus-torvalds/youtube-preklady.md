@@ -47,6 +47,8 @@ Lähteet: LWN.net (ytimen julkaisutilastot, Android ja Linuxin pääkehityshaara
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 LUVUT
 00:00 Mies, jota teknologiajätit eivät voi erottaa
 00:39 Opiskelijan harrastuksesta maailman palvelimille
@@ -80,6 +82,8 @@ Cette vidéo suit le code : combien des quelque 19 000 modifications de la derni
 Sources : LWN.net (statistiques des versions du noyau, Android et le noyau principal, la pause de 2018) ; l'historique git et la documentation du noyau Linux (processus de développement, MAINTAINERS, continuité du projet) ; le blog de Greg Kroah-Hartman (2010) ; la documentation de l'Android Open Source Project sur la Generic Kernel Image ; l'Android Developers Blog sur Project Treble (2017) ; la liste de diffusion du noyau Linux et Phoronix sur bcachefs (2024–2025) ; Form 990 de la Linux Foundation (FY2024), Annual Report 2025 et annonces d'adhésion ; TOP500 (depuis novembre 2017).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-hasnt-big-tech-replaced-linus-torvalds/
 
 CHAPITRES
 00:00 L'homme que les géants de la tech ne peuvent pas licencier
@@ -115,6 +119,8 @@ Sumber: LWN.net (statistik rilis kernel, Android dan kernel utama, jeda tahun 20
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 BAB
 00:00 Orang yang tak bisa dipecat raksasa teknologi
 00:39 Dari hobi mahasiswa ke server di seluruh dunia
@@ -148,6 +154,8 @@ Questo video segue il codice: quante delle circa 19.000 modifiche dell'ultima ve
 Fonti: LWN.net (statistiche delle versioni del kernel, Android e il kernel principale, la pausa del 2018); la cronologia git e la documentazione del kernel Linux (processo di sviluppo, MAINTAINERS, continuità del progetto); il blog di Greg Kroah-Hartman (2010); la documentazione dell'Android Open Source Project sulla Generic Kernel Image; l'Android Developers Blog su Project Treble (2017); la mailing list del kernel Linux e Phoronix su bcachefs (2024–2025); Form 990 della Linux Foundation (FY2024), Annual Report 2025 e annunci di adesione; TOP500 (da novembre 2017).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-hasnt-big-tech-replaced-linus-torvalds/
 
 CAPITOLI
 00:00 L'uomo che le Big Tech non possono licenziare
@@ -183,6 +191,8 @@ Quellen: LWN.net (Statistiken zu Kernel-Versionen, Android und der Mainline-Kern
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 KAPITEL
 00:00 Der Mann, den Big Tech nicht feuern kann
 00:39 Vom Hobby eines Studenten zu den Servern der Welt
@@ -216,6 +226,8 @@ To wideo podąża za kodem: ile z około 19 000 zmian w najnowszym wydaniu Linus
 Źródła: LWN.net (statystyki wydań jądra, Android a główne jądro, przerwa w 2018 roku); historia git i dokumentacja jądra Linux (proces rozwoju, MAINTAINERS, ciągłość projektu); blog Grega Kroah-Hartmana (2010); dokumentacja Android Open Source Project o Generic Kernel Image; Android Developers Blog o Project Treble (2017); lista dyskusyjna jądra Linux i Phoronix o bcachefs (2024–2025); Form 990 Linux Foundation (FY2024), Annual Report 2025 i ogłoszenia o członkostwie; TOP500 (od listopada 2017).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-hasnt-big-tech-replaced-linus-torvalds/
 
 ROZDZIAŁY
 00:00 Człowiek, którego giganci nie mogą zwolnić
@@ -251,6 +263,8 @@ Fontes: LWN.net (estatísticas das versões do kernel, o Android e o núcleo pri
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 CAPÍTULOS
 00:00 O homem que as big techs não podem demitir
 00:39 De hobby de estudante a servidores do mundo todo
@@ -284,6 +298,8 @@ Bu video kodun izini sürüyor: son sürümdeki yaklaşık 19.000 değişikliği
 Kaynaklar: LWN.net (çekirdek sürüm istatistikleri, Android ve ana çekirdek, 2018'deki ara); Linux çekirdeğinin git geçmişi ve belgeleri (geliştirme süreci, MAINTAINERS, proje sürekliliği); Greg Kroah-Hartman'ın blogu (2010); Android Open Source Project'in Generic Kernel Image belgeleri; Android Developers Blog'un Project Treble yazısı (2017); Linux çekirdeği e-posta listesi ve Phoronix'in bcachefs haberleri (2024–2025); Linux Foundation'ın Form 990 beyannamesi (FY2024), Annual Report 2025 ve üyelik duyuruları; TOP500 (Kasım 2017'den beri).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-hasnt-big-tech-replaced-linus-torvalds/
 
 BÖLÜMLER
 00:00 Teknoloji devlerinin kovamadığı adam
@@ -319,6 +335,8 @@ Google, Microsoft, Intel, Amazon і Meta — усі вони залежать в
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 РОЗДІЛИ
 00:00 Людина, яку технологічні гіганти не можуть звільнити
 00:39 Від студентського хобі до серверів усього світу
@@ -352,6 +370,8 @@ Video này đi theo dòng mã: trong khoảng 19.000 thay đổi của bản ph�
 Nguồn: LWN.net (thống kê các bản phát hành nhân, Android và nhân chính, lần tạm nghỉ năm 2018); lịch sử git và tài liệu của nhân Linux (quy trình phát triển, MAINTAINERS, tính liên tục của dự án); blog của Greg Kroah-Hartman (2010); tài liệu của Android Open Source Project về Generic Kernel Image; Android Developers Blog về Project Treble (2017); danh sách thư của nhân Linux và Phoronix về bcachefs (2024–2025); Form 990 của Linux Foundation (FY2024), Annual Report 2025 và các thông báo về thành viên; TOP500 (từ tháng 11 năm 2017).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-hasnt-big-tech-replaced-linus-torvalds/
 
 CHƯƠNG
 00:00 Người mà các gã khổng lồ công nghệ không thể sa thải
@@ -387,6 +407,8 @@ Zdroje: LWN.net (statistiky vydání jádra, Android a hlavní jádro, pauza v r
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 KAPITOLY
 00:00 Muž, kterého giganti nemůžou vyhodit
 00:39 Od studentského koníčku k serverům celého světa
@@ -421,6 +443,8 @@ Fuentes: LWN.net (estadísticas de versiones del kernel, Android y el núcleo pr
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-hasnt-big-tech-replaced-linus-torvalds/
+
 CAPÍTULOS
 00:00 El hombre al que las grandes tecnológicas no pueden despedir
 00:39 De la afición de un estudiante a los servidores de todo el mundo
@@ -454,6 +478,8 @@ Den här videon följer koden: hur många av de ungefär 19 000 ändringarna i d
 Källor: LWN.net (statistik över kärnversioner, Android och huvudkärnan, pausen 2018); Linuxkärnans git-historik och dokumentation (utvecklingsprocessen, MAINTAINERS, projektets kontinuitet); Greg Kroah-Hartmans blogg (2010); Android Open Source Projects dokumentation om Generic Kernel Image; Android Developers Blog om Project Treble (2017); Linuxkärnans sändlista och Phoronix om bcachefs (2024–2025); Linux Foundations Form 990 (FY2024), Annual Report 2025 och pressmeddelanden om medlemskap; TOP500 (sedan november 2017).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-hasnt-big-tech-replaced-linus-torvalds/
 
 KAPITEL
 00:00 Mannen som techjättarna inte kan sparka

@@ -49,6 +49,8 @@ kysymykseen.
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-many-genders-are-there/
+
 LUVUT
 00:00 Kaksi, viisikymmentäviisi vai satoja?
 01:00 Kuusikymmentä vaihtoehtoa Facebookissa
@@ -91,6 +93,8 @@ essaie de s'assurer que les deux camps répondent à la même question.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement.
 Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-many-genders-are-there/
 
 CHAPITRES
 00:00 Deux, cinquante-cinq ou des centaines ?
@@ -135,6 +139,8 @@ sama.
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-many-genders-are-there/
+
 BAB
 00:00 Dua, lima puluh lima, atau ratusan?
 01:00 Enam puluh pilihan di Facebook
@@ -177,6 +183,8 @@ di assicurarsi che le due parti rispondano alla stessa domanda.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-many-genders-are-there/
 
 CAPITOLI
 00:00 Due, cinquantacinque o centinaia?
@@ -223,6 +231,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-many-genders-are-there/
+
 KAPITEL
 00:00 Zwei, fünfundfünfzig oder Hunderte?
 01:00 Sechzig Optionen bei Facebook
@@ -264,6 +274,8 @@ Próbuje upewnić się, że obie strony odpowiadają na to samo pytanie.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-many-genders-are-there/
 
 ROZDZIAŁY
 00:00 Dwie, pięćdziesiąt pięć czy setki?
@@ -308,6 +320,8 @@ pergunta.
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-many-genders-are-there/
+
 CAPÍTULOS
 00:00 Dois, cinquenta e cinco ou centenas?
 01:00 Sessenta opções no Facebook
@@ -349,6 +363,8 @@ Bu video biyolojik cinsiyet ve toplumsal cinsiyet üzerine her tartışmayı
 da aynı soruyu yanıtladığından emin olmaya çalışıyor.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-many-genders-are-there/
 
 BÖLÜMLER
 00:00 İki, elli beş, yoksa yüzlerce mi?
@@ -393,6 +409,8 @@ BÖLÜMLER
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою
 звуковою доріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-many-genders-are-there/
+
 РОЗДІЛИ
 00:00 Два, п'ятдесят п'ять чи сотні?
 01:00 Шістдесят варіантів у Facebook
@@ -433,6 +451,8 @@ Video này không cố phân xử mọi tranh luận về giới tính và giớ
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một
 bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-many-genders-are-there/
 
 CHƯƠNG
 00:00 Hai, năm mươi lăm hay hàng trăm?
@@ -475,6 +495,8 @@ Tohle video se nesnaží rozhodnout každý spor o pohlaví a gender. Snaží se
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-many-genders-are-there/
 
 KAPITOLY
 00:00 Dva, pětapadesát, nebo stovky?
@@ -520,6 +542,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano como segunda
 pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-many-genders-are-there/
+
 CAPÍTULOS
 00:00 ¿Dos, cincuenta y cinco o cientos?
 01:00 Sesenta opciones en Facebook
@@ -560,6 +584,8 @@ försöker se till att båda sidor svarar på samma fråga.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-many-genders-are-there/
 
 KAPITEL
 00:00 Två, femtiofem eller hundratals?

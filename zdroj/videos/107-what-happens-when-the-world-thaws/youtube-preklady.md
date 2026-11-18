@@ -44,6 +44,8 @@ Lähteet: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et a
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-happens-when-the-world-thaws/
+
 LUVUT
 00:00 48 000 vuotta jäässä ollut virus
 00:39 Mitä ikirouta on
@@ -78,6 +80,8 @@ De Batagaïka, un cratère situé en Iakoutie dont les parois continuent de recu
 Sources : Alempic et al. (2023), Viruses ; Legendre et al. (2014), PNAS ; Obu et al. (2019), Earth-Science Reviews ; Murton et al. (2023) et Kizyakov et al. (2024) sur Batagaïka ; Liskova et al. (2021) et Hueffer et al. (2020) sur l'épidémie de maladie du charbon de 2016 au Yamal ; Global Carbon Budget 2024 (Friedlingstein et al. 2025) ; Hugelius et al. (2014) ; Schuur et al. (2015), Nature ; GIEC, AR6, groupe de travail I ; Mack et al. (2011), Nature, et Hu et al. (2010) sur l'incendie de la rivière Anaktuvuk ; Jones et al. (2015), Scientific Reports ; Copernicus Atmosphere Monitoring Service (2020) ; Scholten et al. (2021), Nature ; NOAA Arctic Report Card 2024 (Natali et al.) ; Hjort et al. (2018), Nature Communications.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-happens-when-the-world-thaws/
 
 CHAPITRES
 00:00 Un virus gelé depuis 48 000 ans
@@ -114,6 +118,8 @@ Sumber: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al.
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-happens-when-the-world-thaws/
+
 BAB
 00:00 Virus yang membeku selama 48.000 tahun
 00:39 Apa itu permafrost
@@ -148,6 +154,8 @@ Da Batagaika, un cratere in Jacuzia le cui pareti continuano ad arretrare, a un'
 Fonti: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al. (2019), Earth-Science Reviews; Murton et al. (2023) e Kizyakov et al. (2024) su Batagaika; Liskova et al. (2021) e Hueffer et al. (2020) sull'epidemia di antrace dello Jamal del 2016; Global Carbon Budget 2024 (Friedlingstein et al. 2025); Hugelius et al. (2014); Schuur et al. (2015), Nature; IPCC AR6, Gruppo di lavoro I; Mack et al. (2011), Nature, e Hu et al. (2010) sull'incendio del fiume Anaktuvuk; Jones et al. (2015), Scientific Reports; Copernicus Atmosphere Monitoring Service (2020); Scholten et al. (2021), Nature; NOAA Arctic Report Card 2024 (Natali et al.); Hjort et al. (2018), Nature Communications.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-happens-when-the-world-thaws/
 
 CAPITOLI
 00:00 Un virus congelato per 48.000 anni
@@ -184,6 +192,8 @@ Quellen: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-happens-when-the-world-thaws/
+
 KAPITEL
 00:00 Ein Virus, 48.000 Jahre eingefroren
 00:39 Was Permafrost ist
@@ -218,6 +228,8 @@ Od Batagajki, krateru w Jakucji, którego ściany wciąż się cofają, przez ep
 Źródła: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al. (2019), Earth-Science Reviews; Murton et al. (2023) i Kizyakov et al. (2024) o Batagajce; Liskova et al. (2021) i Hueffer et al. (2020) o epidemii wąglika na Jamale w 2016 roku; Global Carbon Budget 2024 (Friedlingstein et al. 2025); Hugelius et al. (2014); Schuur et al. (2015), Nature; IPCC AR6, Grupa Robocza I; Mack et al. (2011), Nature, i Hu et al. (2010) o pożarze nad rzeką Anaktuvuk; Jones et al. (2015), Scientific Reports; Copernicus Atmosphere Monitoring Service (2020); Scholten et al. (2021), Nature; NOAA Arctic Report Card 2024 (Natali et al.); Hjort et al. (2018), Nature Communications.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-happens-when-the-world-thaws/
 
 ROZDZIAŁY
 00:00 Wirus zamrożony przez 48 000 lat
@@ -254,6 +266,8 @@ Fontes: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al.
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-happens-when-the-world-thaws/
+
 CAPÍTULOS
 00:00 Um vírus congelado por 48 mil anos
 00:39 O que é o permafrost
@@ -288,6 +302,8 @@ Duvarları hâlâ çökerek gerileyen Yakutistan'daki Batagayka kraterinden Yama
 Kaynaklar: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al. (2019), Earth-Science Reviews; Batagayka üzerine Murton et al. (2023) ve Kizyakov et al. (2024); 2016 Yamal şarbon salgını üzerine Liskova et al. (2021) ve Hueffer et al. (2020); Global Carbon Budget 2024 (Friedlingstein et al. 2025); Hugelius et al. (2014); Schuur et al. (2015), Nature; IPCC AR6, I. Çalışma Grubu; Anaktuvuk Nehri yangını üzerine Mack et al. (2011), Nature, ve Hu et al. (2010); Jones et al. (2015), Scientific Reports; Copernicus Atmosphere Monitoring Service (2020); Scholten et al. (2021), Nature; NOAA Arctic Report Card 2024 (Natali et al.); Hjort et al. (2018), Nature Communications.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-happens-when-the-world-thaws/
 
 BÖLÜMLER
 00:00 48.000 yıl donmuş kalan bir virüs
@@ -324,6 +340,8 @@ Diğer tüm arşiv görselleri kamu malıdır: Batagayka krateri (NASA Earth Obs
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-happens-when-the-world-thaws/
+
 РОЗДІЛИ
 00:00 Вірус, замерзлий 48 000 років
 00:39 Що таке вічна мерзлота
@@ -358,6 +376,8 @@ Từ Batagaika, một miệng hố ở Yakutia có vách vẫn tiếp tục sạ
 Nguồn: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al. (2019), Earth-Science Reviews; Murton et al. (2023) và Kizyakov et al. (2024) về Batagaika; Liskova et al. (2021) và Hueffer et al. (2020) về đợt bùng phát bệnh than ở Yamal năm 2016; Global Carbon Budget 2024 (Friedlingstein et al. 2025); Hugelius et al. (2014); Schuur et al. (2015), Nature; IPCC AR6, Nhóm công tác I; Mack et al. (2011), Nature, và Hu et al. (2010) về vụ cháy sông Anaktuvuk; Jones et al. (2015), Scientific Reports; Copernicus Atmosphere Monitoring Service (2020); Scholten et al. (2021), Nature; NOAA Arctic Report Card 2024 (Natali et al.); Hjort et al. (2018), Nature Communications.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-happens-when-the-world-thaws/
 
 CHƯƠNG
 00:00 Một loại virus bị đóng băng 48.000 năm
@@ -394,6 +414,8 @@ Zdroje: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al.
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-happens-when-the-world-thaws/
+
 KAPITOLY
 00:00 Virus zmrzlý 48 000 let
 00:39 Co je permafrost
@@ -429,6 +451,8 @@ Fuentes: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-happens-when-the-world-thaws/
+
 CAPÍTULOS
 00:00 Un virus congelado durante 48 000 años
 00:39 Qué es el permafrost
@@ -463,6 +487,8 @@ Från Batagajka, en krater i Jakutien vars väggar fortfarande drar sig tillbaka
 Källor: Alempic et al. (2023), Viruses; Legendre et al. (2014), PNAS; Obu et al. (2019), Earth-Science Reviews; Murton et al. (2023) och Kizyakov et al. (2024) om Batagajka; Liskova et al. (2021) och Hueffer et al. (2020) om mjältbrandsutbrottet på Jamal 2016; Global Carbon Budget 2024 (Friedlingstein et al. 2025); Hugelius et al. (2014); Schuur et al. (2015), Nature; IPCC AR6, arbetsgrupp I; Mack et al. (2011), Nature, och Hu et al. (2010) om branden vid Anaktuvuk River; Jones et al. (2015), Scientific Reports; Copernicus Atmosphere Monitoring Service (2020); Scholten et al. (2021), Nature; NOAA Arctic Report Card 2024 (Natali et al.); Hjort et al. (2018), Nature Communications.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-happens-when-the-world-thaws/
 
 KAPITEL
 00:00 Ett virus som varit fruset i 48 000 år

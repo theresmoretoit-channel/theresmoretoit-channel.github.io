@@ -55,6 +55,8 @@ Roughly a third of the world's languages have no articles at all, and their spea
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-would-english-sound-like-without-articles/
+
 CHAPTERS
 00:00 I went to store and bought book
 00:43 A dog or the dog?

@@ -44,6 +44,8 @@ people who had to build for it, and why the ending should feel a little
 too familiar: today almost every browser you can name runs on the same
 engine.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/the-browser-that-became-a-platform/
+
 Chapters
 00:00 Everything is broken
 01:01 How Internet Explorer won

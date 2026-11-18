@@ -58,6 +58,8 @@ Sources: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of gr
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-english-need-do/
+
 CHAPTERS
 00:00 Two "do"s in one question
 00:27 Shakespeare used both

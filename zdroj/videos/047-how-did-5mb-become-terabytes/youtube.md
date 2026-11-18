@@ -63,6 +63,8 @@ materials, different physics, different companies — and the same move.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-did-5mb-become-terabytes/
+
 Chapters
 00:00 The machine that weighed a ton
 00:27 A thousand against a billion

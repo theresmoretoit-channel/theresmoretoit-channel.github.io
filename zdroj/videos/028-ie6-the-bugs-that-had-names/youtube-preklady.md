@@ -47,6 +47,8 @@ Tämä on osa kaksi. Se kertoo siitä, mitä tuon alustan sisällä eläminen oi
 Osa yksi — kuinka Internet Explorer 6:sta ylipäätään tuli alusta:
 https://youtu.be/R7Un3IOMvbg
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/ie6-the-bugs-that-had-names/
+
 Luvut
 00:00 Osa kaksi
 00:36 Virhe, jolla on numero
@@ -115,6 +117,8 @@ trois mots de HTML capables de fermer une fenêtre sur ta propre machine.
 La première partie, sur la façon dont Internet Explorer 6 est devenu une
 plateforme : https://youtu.be/R7Un3IOMvbg
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/ie6-the-bugs-that-had-names/
+
 Chapitres
 00:00 Deuxième partie
 00:36 Un bug avec un numéro
@@ -178,6 +182,8 @@ Ini bagian dua. Isinya tentang apa artinya benar-benar hidup di dalam platform i
 
 Bagian satu — bagaimana Internet Explorer 6 bisa menjadi sebuah platform:
 https://youtu.be/R7Un3IOMvbg
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/ie6-the-bugs-that-had-names/
 
 Bab
 00:00 Bagian dua
@@ -246,6 +252,8 @@ sulla tua stessa macchina.
 
 La prima parte, su come Internet Explorer 6 sia diventato una piattaforma:
 https://youtu.be/R7Un3IOMvbg
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/ie6-the-bugs-that-had-names/
 
 Capitoli
 00:00 Parte due
@@ -324,6 +332,8 @@ konnten.
 Teil eins, darüber, wie der Internet Explorer 6 überhaupt zur Plattform
 wurde: https://youtu.be/R7Un3IOMvbg
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/ie6-the-bugs-that-had-names/
+
 Kapitel
 00:00 Teil zwei
 00:36 Ein Bug mit einer Nummer
@@ -399,6 +409,8 @@ HTML, które potrafiły zamknąć okno na twoim własnym komputerze.
 
 Część pierwsza, o tym, jak Internet Explorer 6 w ogóle stał się platformą:
 https://youtu.be/R7Un3IOMvbg
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/ie6-the-bugs-that-had-names/
 
 Rozdziały
 00:00 Część druga
@@ -476,6 +488,8 @@ fechar uma janela na sua própria máquina.
 A parte um, sobre como o Internet Explorer 6 virou uma plataforma:
 https://youtu.be/R7Un3IOMvbg
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/ie6-the-bugs-that-had-names/
+
 Capítulos
 00:00 Parte dois
 00:36 Um bug com número
@@ -539,6 +553,8 @@ Bu ikinci bölüm. O platformun içinde yaşamanın gerçekte ne demek olduğunu
 Birinci bölüm — Internet Explorer 6 en başta nasıl bir platforma dönüştü:
 https://youtu.be/R7Un3IOMvbg
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/ie6-the-bugs-that-had-names/
+
 Bölümler
 00:00 İkinci bölüm
 00:36 Numarası olan bir hata
@@ -595,6 +611,8 @@ Internet Explorer 6 — помилки, які мали імена
 Частина перша — як Internet Explorer 6 узагалі став платформою:
 https://youtu.be/R7Un3IOMvbg
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/ie6-the-bugs-that-had-names/
+
 Розділи
 00:00 Частина друга
 00:36 Помилка з номером
@@ -650,6 +668,8 @@ Thông thường một lỗi trình duyệt chỉ là một con số trong hệ 
 
 Phần một — Internet Explorer 6 đã trở thành một nền tảng như thế nào:
 https://youtu.be/R7Un3IOMvbg
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/ie6-the-bugs-that-had-names/
 
 Các chương
 00:00 Phần hai
@@ -718,6 +738,8 @@ HTML, která uměla zavřít okno na tvém vlastním počítači.
 
 První díl, o tom, jak se z Internet Exploreru 6 vůbec stala platforma:
 https://youtu.be/R7Un3IOMvbg
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/ie6-the-bugs-that-had-names/
 
 Kapitoly
 00:00 Druhý díl
@@ -788,6 +810,8 @@ HTML que podían cerrar una ventana en tu propia máquina.
 
 La primera parte, sobre cómo Internet Explorer 6 llegó a ser una plataforma:
 https://youtu.be/R7Un3IOMvbg
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/ie6-the-bugs-that-had-names/
 
 Capítulos
 00:00 Segunda parte
@@ -864,6 +888,8 @@ stänga ett fönster på din egen maskin.
 
 Del ett, om hur Internet Explorer 6 blev en plattform från början:
 https://youtu.be/R7Un3IOMvbg
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/ie6-the-bugs-that-had-names/
 
 Kapitel
 00:00 Del två

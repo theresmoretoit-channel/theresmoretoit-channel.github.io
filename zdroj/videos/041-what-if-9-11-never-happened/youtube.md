@@ -57,6 +57,8 @@ And then the part that is not geopolitics at all. Nearly 3,000
 people would still be alive. There would be entire families in 2026 that
 simply do not exist in our timeline.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-if-9-11-never-happened/
+
 Chapters
 00:00 The morning nothing happened
 00:36 A world where it never happened

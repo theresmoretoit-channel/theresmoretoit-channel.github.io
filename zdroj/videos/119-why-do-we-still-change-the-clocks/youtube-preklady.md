@@ -34,6 +34,8 @@ Lähteet: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Day
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-we-still-change-the-clocks/
+
 LUVUT
 00:00 Joka vuosi sama väittely
 00:56 Päivänvalo muuttuu, aikataulut eivät
@@ -69,6 +71,8 @@ Alors si le changement d’heure est une si mauvaise idée, pourquoi est-il si d
 Sources : 15 U.S.C. 260a (Uniform Time Act) ; Congressional Research Service, Daylight Saving Time (R44411) ; Congress.gov, S.623 (117th Congress) et H.R. 139 (119th Congress) ; Public Laws 93-182 et 93-434 (1973, 1974) ; Office of the House Historian, Daylight Saving Time (2019) ; IANA Time Zone Database, NEWS ; European Commission, public consultation on summertime arrangements (2018) ; European Parliament, vote du 26 mars 2019 ; Planesas, Anuario del Observatorio Astronómico de Madrid (2013) ; Martín-Olalla, Scientific Reports (2018) ; Fritz et al., Current Biology (2020) ; Janszky & Ljung, New England Journal of Medicine (2008) ; Sandhu et al., Open Heart (2014). Les heures de lever et de coucher du Soleil sont calculées avec l’algorithme solaire de la NOAA.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-we-still-change-the-clocks/
 
 CHAPITRES
 00:00 Le même débat chaque année
@@ -106,6 +110,8 @@ Sumber: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Dayli
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-we-still-change-the-clocks/
+
 BAB
 00:00 Perdebatan yang sama setiap tahun
 00:56 Lama siang berubah, jadwal tetap
@@ -141,6 +147,8 @@ Quindi, se cambiare l’ora è un’idea così pessima, perché è così diffici
 Fonti: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Daylight Saving Time (R44411); Congress.gov, S.623 (117th Congress) e H.R. 139 (119th Congress); Public Laws 93-182 e 93-434 (1973, 1974); Office of the House Historian, Daylight Saving Time (2019); IANA Time Zone Database, NEWS; European Commission, public consultation on summertime arrangements (2018); European Parliament, voto del 26 marzo 2019; Planesas, Anuario del Observatorio Astronómico de Madrid (2013); Martín-Olalla, Scientific Reports (2018); Fritz et al., Current Biology (2020); Janszky & Ljung, New England Journal of Medicine (2008); Sandhu et al., Open Heart (2014). Gli orari di alba e tramonto sono calcolati con l’algoritmo solare della NOAA.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-we-still-change-the-clocks/
 
 CAPITOLI
 00:00 La stessa discussione ogni anno
@@ -178,6 +186,8 @@ Quellen: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Dayl
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-we-still-change-the-clocks/
+
 KAPITEL
 00:00 Jedes Jahr derselbe Streit
 00:56 Das Tageslicht ändert sich, der Tagesablauf nicht
@@ -213,6 +223,8 @@ Skoro więc zmiana czasu to taki zły pomysł, dlaczego tak trudno z nią skońc
 Źródła: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Daylight Saving Time (R44411); Congress.gov, S.623 (117th Congress) i H.R. 139 (119th Congress); Public Laws 93-182 i 93-434 (1973, 1974); Office of the House Historian, Daylight Saving Time (2019); IANA Time Zone Database, NEWS; European Commission, public consultation on summertime arrangements (2018); European Parliament, głosowanie z 26 marca 2019 r.; Planesas, Anuario del Observatorio Astronómico de Madrid (2013); Martín-Olalla, Scientific Reports (2018); Fritz et al., Current Biology (2020); Janszky & Ljung, New England Journal of Medicine (2008); Sandhu et al., Open Heart (2014). Godziny wschodu i zachodu Słońca obliczono algorytmem słonecznym NOAA.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-we-still-change-the-clocks/
 
 ROZDZIAŁY
 00:00 Co roku ta sama dyskusja
@@ -250,6 +262,8 @@ Fontes: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Dayli
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-we-still-change-the-clocks/
+
 CAPÍTULOS
 00:00 A mesma discussão todo ano
 00:56 A luz do dia muda, os horários não
@@ -285,6 +299,8 @@ Peki saatleri değiştirmek bu kadar kötü bir fikirse, bundan vazgeçmek neden
 Kaynaklar: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Daylight Saving Time (R44411); Congress.gov, S.623 (117th Congress) ve H.R. 139 (119th Congress); Public Laws 93-182 ve 93-434 (1973, 1974); Office of the House Historian, Daylight Saving Time (2019); IANA Time Zone Database, NEWS; European Commission, public consultation on summertime arrangements (2018); European Parliament, 26 Mart 2019 tarihli oylama; Planesas, Anuario del Observatorio Astronómico de Madrid (2013); Martín-Olalla, Scientific Reports (2018); Fritz et al., Current Biology (2020); Janszky & Ljung, New England Journal of Medicine (2008); Sandhu et al., Open Heart (2014). Gün doğumu ve gün batımı saatleri NOAA güneş algoritmasıyla hesaplandı.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-we-still-change-the-clocks/
 
 BÖLÜMLER
 00:00 Her yıl aynı tartışma
@@ -322,6 +338,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-we-still-change-the-clocks/
+
 РОЗДІЛИ
 00:00 Щороку та сама суперечка
 00:56 Світловий день змінюється, розпорядок — ні
@@ -357,6 +375,8 @@ Vậy nếu đổi giờ là một ý tưởng tồi đến thế, tại sao l�
 Nguồn: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Daylight Saving Time (R44411); Congress.gov, S.623 (117th Congress) và H.R. 139 (119th Congress); Public Laws 93-182 và 93-434 (1973, 1974); Office of the House Historian, Daylight Saving Time (2019); IANA Time Zone Database, NEWS; European Commission, public consultation on summertime arrangements (2018); European Parliament, cuộc bỏ phiếu ngày 26 tháng 3 năm 2019; Planesas, Anuario del Observatorio Astronómico de Madrid (2013); Martín-Olalla, Scientific Reports (2018); Fritz et al., Current Biology (2020); Janszky & Ljung, New England Journal of Medicine (2008); Sandhu et al., Open Heart (2014). Giờ mặt trời mọc và lặn được tính theo thuật toán mặt trời của NOAA.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-we-still-change-the-clocks/
 
 CHƯƠNG
 00:00 Năm nào cũng cùng một cuộc tranh cãi
@@ -394,6 +414,8 @@ Zdroje: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Dayli
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-we-still-change-the-clocks/
+
 KAPITOLY
 00:00 Každý rok tatáž debata
 00:56 Světlo se mění, denní režim ne
@@ -430,6 +452,8 @@ Fuentes: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Dayl
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-we-still-change-the-clocks/
+
 CAPÍTULOS
 00:00 La misma discusión cada año
 00:56 La luz cambia, los horarios no
@@ -465,6 +489,8 @@ Så om det är en så dålig idé att ställa om klockan, varför är det så sv
 Källor: 15 U.S.C. 260a (Uniform Time Act); Congressional Research Service, Daylight Saving Time (R44411); Congress.gov, S.623 (117th Congress) och H.R. 139 (119th Congress); Public Laws 93-182 och 93-434 (1973, 1974); Office of the House Historian, Daylight Saving Time (2019); IANA Time Zone Database, NEWS; European Commission, public consultation on summertime arrangements (2018); European Parliament, omröstning den 26 mars 2019; Planesas, Anuario del Observatorio Astronómico de Madrid (2013); Martín-Olalla, Scientific Reports (2018); Fritz et al., Current Biology (2020); Janszky & Ljung, New England Journal of Medicine (2008); Sandhu et al., Open Heart (2014). Tiderna för soluppgång och solnedgång är beräknade med NOAA:s solalgoritm.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-we-still-change-the-clocks/
 
 KAPITEL
 00:00 Samma diskussion varje år

@@ -32,6 +32,8 @@ Lähteet: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremia
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/where-did-the-idea-of-hell-come-from/
+
 LUVUT
 00:00 Helvetillä on osoite
 00:44 Ei helvettiä lainkaan
@@ -77,6 +79,8 @@ Dans les livres les plus anciens de la Bible, il n’est pas question d’enfer.
 Sources : King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah, Daniel, 2 Maccabees, Mark, Revelation); 1 Enoch; Plato, Gorgias; Book of the Dead, spells 30 and 125; Gilgamesh, Enkidu and the Netherworld; Apocalypse of Peter; Muratorian Fragment; Apocalypse of Paul; Dante, Inferno XIX; John Paul II, General Audience, 28 July 1999; Pew Research Center, 2025.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/where-did-the-idea-of-hell-come-from/
 
 CHAPITRES
 00:00 L’enfer a une adresse
@@ -124,6 +128,8 @@ Sumber: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah,
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/where-did-the-idea-of-hell-come-from/
+
 BAB
 00:00 Neraka punya alamat
 00:44 Sama sekali tanpa neraka
@@ -169,6 +175,8 @@ I libri più antichi della Bibbia non hanno affatto un inferno. Questo video rip
 Fonti: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah, Daniel, 2 Maccabees, Mark, Revelation); 1 Enoch; Plato, Gorgias; Book of the Dead, spells 30 and 125; Gilgamesh, Enkidu and the Netherworld; Apocalypse of Peter; Muratorian Fragment; Apocalypse of Paul; Dante, Inferno XIX; John Paul II, General Audience, 28 July 1999; Pew Research Center, 2025.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/where-did-the-idea-of-hell-come-from/
 
 CAPITOLI
 00:00 L’inferno ha un indirizzo
@@ -216,6 +224,8 @@ Quellen: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/where-did-the-idea-of-hell-come-from/
+
 KAPITEL
 00:00 Die Hölle hat eine Adresse
 00:44 Gar keine Hölle
@@ -261,6 +271,8 @@ Starsze księgi Biblii w ogóle nie znają piekła. Ten film śledzi, jak ta ide
 Źródła: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah, Daniel, 2 Maccabees, Mark, Revelation); 1 Enoch; Plato, Gorgias; Book of the Dead, spells 30 and 125; Gilgamesh, Enkidu and the Netherworld; Apocalypse of Peter; Muratorian Fragment; Apocalypse of Paul; Dante, Inferno XIX; John Paul II, General Audience, 28 July 1999; Pew Research Center, 2025.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/where-did-the-idea-of-hell-come-from/
 
 ROZDZIAŁY
 00:00 Piekło ma adres
@@ -308,6 +320,8 @@ Fontes: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah,
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/where-did-the-idea-of-hell-come-from/
+
 CAPÍTULOS
 00:00 O inferno tem endereço
 00:44 Nenhum inferno
@@ -353,6 +367,8 @@ Kutsal Kitap'ın eski kitaplarında hiç cehennem yok. Bu video, fikrin binlerce
 Kaynaklar: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah, Daniel, 2 Maccabees, Mark, Revelation); 1 Enoch; Plato, Gorgias; Book of the Dead, spells 30 and 125; Gilgamesh, Enkidu and the Netherworld; Apocalypse of Peter; Muratorian Fragment; Apocalypse of Paul; Dante, Inferno XIX; John Paul II, General Audience, 28 July 1999; Pew Research Center, 2025.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/where-did-the-idea-of-hell-come-from/
 
 BÖLÜMLER
 00:00 Cehennemin bir adresi var
@@ -400,6 +416,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/where-did-the-idea-of-hell-come-from/
+
 РОЗДІЛИ
 00:00 У пекла є адреса
 00:44 Пекла взагалі немає
@@ -445,6 +463,8 @@ Các sách cổ hơn của Kinh Thánh hoàn toàn không có địa ngục. Vid
 Nguồn: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah, Daniel, 2 Maccabees, Mark, Revelation); 1 Enoch; Plato, Gorgias; Book of the Dead, spells 30 and 125; Gilgamesh, Enkidu and the Netherworld; Apocalypse of Peter; Muratorian Fragment; Apocalypse of Paul; Dante, Inferno XIX; John Paul II, General Audience, 28 July 1999; Pew Research Center, 2025.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/where-did-the-idea-of-hell-come-from/
 
 CÁC CHƯƠNG
 00:00 Địa ngục có địa chỉ
@@ -492,6 +512,8 @@ Zdroje: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah,
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/where-did-the-idea-of-hell-come-from/
+
 KAPITOLY
 00:00 Peklo má adresu
 00:44 Žádné peklo
@@ -538,6 +560,8 @@ Fuentes: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/where-did-the-idea-of-hell-come-from/
+
 CAPÍTULOS
 00:00 El infierno tiene una dirección
 00:44 Ningún infierno
@@ -583,6 +607,8 @@ Bibelns äldre böcker har inget helvete alls. Den här videon följer hur idén
 Källor: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah, Daniel, 2 Maccabees, Mark, Revelation); 1 Enoch; Plato, Gorgias; Book of the Dead, spells 30 and 125; Gilgamesh, Enkidu and the Netherworld; Apocalypse of Peter; Muratorian Fragment; Apocalypse of Paul; Dante, Inferno XIX; John Paul II, General Audience, 28 July 1999; Pew Research Center, 2025.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/where-did-the-idea-of-hell-come-from/
 
 KAPITEL
 00:00 Helvetet har en adress

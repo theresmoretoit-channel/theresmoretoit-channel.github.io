@@ -58,6 +58,8 @@ Tämä on neljäs video transihmisiä käsittelevässä sarjassa. Aiemmissa vide
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-it-so-hard-to-be-trans/
+
 LUVUT
 00:00 Ensimmäinen asia, jonka ihmiset huomaavat
 01:21 Mitä passing oikeastaan tarkoittaa?
@@ -83,6 +85,8 @@ Cette vidéo raconte ce que signifie être transgenre dans un monde qui juge sur
 C'est la quatrième vidéo d'une série sur les personnes transgenres. Les précédentes se demandaient pourquoi il semble soudain y avoir autant de personnes trans, comment savoir qu'on est trans, et pourquoi les personnes trans changent leur corps. La dernière pose la question : quand la société devient-elle le problème ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-it-so-hard-to-be-trans/
 
 CHAPITRES
 00:00 La première chose que les gens remarquent
@@ -110,6 +114,8 @@ Ini adalah video keempat dalam seri tentang orang transgender. Video-video sebel
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-it-so-hard-to-be-trans/
+
 BAB
 00:00 Hal pertama yang diperhatikan orang
 01:21 Apa sebenarnya arti passing?
@@ -135,6 +141,8 @@ Questo video racconta che cosa vuol dire essere transgender in un mondo che giud
 Questo è il quarto video di una serie sulle persone transgender. I precedenti si chiedevano perché all'improvviso sembrino esserci così tante persone trans, come fai a sapere di essere trans e perché le persone trans cambiano il proprio corpo. L'ultimo si chiede: quando è la società a diventare il problema?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-it-so-hard-to-be-trans/
 
 CAPITOLI
 00:00 La prima cosa che la gente nota
@@ -162,6 +170,8 @@ Das ist das vierte Video einer Reihe über trans Menschen. Die bisherigen fragte
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-it-so-hard-to-be-trans/
+
 KAPITEL
 00:00 Das Erste, was anderen auffällt
 01:21 Was bedeutet Passing eigentlich?
@@ -187,6 +197,8 @@ Ten film pokazuje, jak to jest być osobą transpłciową w świecie, który oce
 To czwarty film z serii o osobach transpłciowych. Poprzednie pytały, dlaczego nagle wydaje się, że jest tyle osób trans, skąd wiesz, że jesteś trans, i dlaczego osoby trans zmieniają swoje ciała. Ostatni pyta: kiedy to społeczeństwo staje się problemem?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-it-so-hard-to-be-trans/
 
 ROZDZIAŁY
 00:00 Pierwsze, co zauważają ludzie
@@ -214,6 +226,8 @@ Este é o quarto vídeo de uma série sobre pessoas transgênero. Os anteriores 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-it-so-hard-to-be-trans/
+
 CAPÍTULOS
 00:00 A primeira coisa que as pessoas notam
 01:21 O que a passabilidade significa de verdade?
@@ -239,6 +253,8 @@ Bu video, insanları dış görünüşlerine göre yargılayan bir dünyada tran
 Bu, transgender insanlar hakkındaki bir serinin dördüncü videosu. Öncekiler, neden birdenbire bu kadar çok trans insan varmış gibi göründüğünü, trans olduğunu nasıl anlayacağını ve trans insanların bedenlerini neden değiştirdiğini soruyordu. Sonuncusu şunu soruyor: Toplum ne zaman sorunun kendisi hâline gelir?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-it-so-hard-to-be-trans/
 
 BÖLÜMLER
 00:00 İnsanların ilk fark ettiği şey
@@ -266,6 +282,8 @@ BÖLÜMLER
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-it-so-hard-to-be-trans/
+
 РОЗДІЛИ
 00:00 Перше, що помічають люди
 01:21 Що насправді означає пасинг?
@@ -291,6 +309,8 @@ Video này tìm hiểu trải nghiệm của người chuyển giới trong mộ
 Đây là video thứ tư trong loạt video về người chuyển giới. Các video trước đã hỏi vì sao có vẻ như đột nhiên có nhiều người chuyển giới đến vậy, làm sao bạn biết mình là người chuyển giới, và vì sao người chuyển giới thay đổi cơ thể mình. Video cuối cùng hỏi: khi nào xã hội trở thành vấn đề?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-it-so-hard-to-be-trans/
 
 CHƯƠNG
 00:00 Điều đầu tiên mọi người để ý
@@ -318,6 +338,8 @@ Tohle je čtvrté video ze série o transgender lidech. Ta předchozí se ptala,
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-it-so-hard-to-be-trans/
+
 KAPITOLY
 00:00 První, čeho si lidé všimnou
 01:21 Co vlastně znamená passing?
@@ -344,6 +366,8 @@ Este es el cuarto vídeo de una serie sobre las personas transgénero. Los anter
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-it-so-hard-to-be-trans/
+
 CAPÍTULOS
 00:00 Lo primero que nota la gente
 01:21 ¿Qué significa realmente el passing?
@@ -369,6 +393,8 @@ Den här videon handlar om hur det är att vara trans i en värld där människo
 Det här är den fjärde videon i en serie om transpersoner. De tidigare frågade varför det plötsligt verkar finnas så många transpersoner, hur du vet att du är trans och varför transpersoner förändrar sina kroppar. Den sista frågar: när blir samhället problemet?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-it-so-hard-to-be-trans/
 
 KAPITEL
 00:00 Det första folk lägger märke till

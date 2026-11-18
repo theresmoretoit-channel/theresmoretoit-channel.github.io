@@ -59,6 +59,8 @@ YouTube: Creator Blog (2012); Covington, Adams ja Sargin, RecSys 2016; Goodrow, 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-is-the-internet-really-optimizing-for/
+
 LUVUT
 00:00 Pitkä video ja lyhyt video
 00:55 Mitä järjestelmä näkee?
@@ -95,6 +97,8 @@ Un système de recommandation décide de ce que voient des millions de personnes
 YouTube : Creator Blog (2012) ; Covington, Adams et Sargin, RecSys 2016 ; Goodrow, YouTube Official Blog (2021). Facebook et la Pologne : The Wall Street Journal, Facebook Files (2021). Poisson rouge : Microsoft Canada, Attention Spans (2015) ; BBC More or Less (2017).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-is-the-internet-really-optimizing-for/
 
 CHAPITRES
 00:00 Une vidéo longue et une courte
@@ -133,6 +137,8 @@ YouTube: Creator Blog (2012); Covington, Adams, dan Sargin, RecSys 2016; Goodrow
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-is-the-internet-really-optimizing-for/
+
 BAB
 00:00 Satu video panjang, satu video pendek
 00:55 Apa yang bisa dilihat sistem?
@@ -169,6 +175,8 @@ Un sistema di raccomandazione decide che cosa vedono milioni di persone, ma non 
 YouTube: Creator Blog (2012); Covington, Adams e Sargin, RecSys 2016; Goodrow, YouTube Official Blog (2021). Facebook e Polonia: The Wall Street Journal, Facebook Files (2021). Pesce rosso: Microsoft Canada, Attention Spans (2015); BBC More or Less (2017).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-is-the-internet-really-optimizing-for/
 
 CAPITOLI
 00:00 Un video lungo e uno breve
@@ -207,6 +215,8 @@ YouTube: Creator Blog (2012); Covington, Adams und Sargin, RecSys 2016; Goodrow,
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-is-the-internet-really-optimizing-for/
+
 KAPITEL
 00:00 Ein langes Video und ein kurzes
 00:55 Was sieht das System?
@@ -243,6 +253,8 @@ O tym, co zobaczą miliony ludzi, decyduje system rekomendacji, a on nie potrafi
 YouTube: Creator Blog (2012); Covington, Adams i Sargin, RecSys 2016; Goodrow, YouTube Official Blog (2021). Facebook i Polska: The Wall Street Journal, Facebook Files (2021). Złota rybka: Microsoft Canada, Attention Spans (2015); BBC More or Less (2017).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-is-the-internet-really-optimizing-for/
 
 ROZDZIAŁY
 00:00 Długi film i krótki
@@ -281,6 +293,8 @@ YouTube: Creator Blog (2012); Covington, Adams e Sargin, RecSys 2016; Goodrow, Y
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-is-the-internet-really-optimizing-for/
+
 CAPÍTULOS
 00:00 Um vídeo longo e um curto
 00:55 O que o sistema consegue ver?
@@ -317,6 +331,8 @@ Milyonlarca insanın ne göreceğine bir öneri sistemi karar veriyor, ama bu si
 YouTube: Creator Blog (2012); Covington, Adams ve Sargin, RecSys 2016; Goodrow, YouTube Official Blog (2021). Facebook ve Polonya: The Wall Street Journal, Facebook Files (2021). Japon balığı: Microsoft Canada, Attention Spans (2015); BBC More or Less (2017).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-is-the-internet-really-optimizing-for/
 
 BÖLÜMLER
 00:00 Uzun bir video ve kısa bir video
@@ -355,6 +371,8 @@ YouTube: Creator Blog (2012); Covington, Adams і Sargin, RecSys 2016; Goodrow, 
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-is-the-internet-really-optimizing-for/
+
 РОЗДІЛИ
 00:00 Довге відео і коротке
 00:55 Що бачить система?
@@ -391,6 +409,8 @@ Một hệ thống đề xuất quyết định hàng triệu người được 
 YouTube: Creator Blog (2012); Covington, Adams và Sargin, RecSys 2016; Goodrow, YouTube Official Blog (2021). Facebook và Ba Lan: The Wall Street Journal, Facebook Files (2021). Cá vàng: Microsoft Canada, Attention Spans (2015); BBC More or Less (2017).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-is-the-internet-really-optimizing-for/
 
 CHƯƠNG
 00:00 Một video dài và một video ngắn
@@ -429,6 +449,8 @@ YouTube: Creator Blog (2012); Covington, Adams a Sargin, RecSys 2016; Goodrow, Y
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-is-the-internet-really-optimizing-for/
+
 KAPITOLY
 00:00 Dlouhé video a krátké
 00:55 Co ten systém vidí?
@@ -466,6 +488,8 @@ YouTube: Creator Blog (2012); Covington, Adams y Sargin, RecSys 2016; Goodrow, Y
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-is-the-internet-really-optimizing-for/
+
 CAPÍTULOS
 00:00 Un vídeo largo y uno corto
 00:55 ¿Qué puede ver el sistema?
@@ -502,6 +526,8 @@ Ett rekommendationssystem avgör vad miljontals människor får se, men det kan 
 YouTube: Creator Blog (2012); Covington, Adams och Sargin, RecSys 2016; Goodrow, YouTube Official Blog (2021). Facebook och Polen: The Wall Street Journal, Facebook Files (2021). Guldfisken: Microsoft Canada, Attention Spans (2015); BBC More or Less (2017).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-is-the-internet-really-optimizing-for/
 
 KAPITEL
 00:00 En lång video och en kort

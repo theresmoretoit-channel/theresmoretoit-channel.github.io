@@ -71,6 +71,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/3.0/
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-we-still-write-code/
+
 CHAPTERS
 00:00 Six words
 00:42 Write only the sentences

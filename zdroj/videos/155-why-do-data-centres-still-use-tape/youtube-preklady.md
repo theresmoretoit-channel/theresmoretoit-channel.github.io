@@ -31,6 +31,8 @@ Lähteet: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits on
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-data-centres-still-use-tape/
+
 LUVUT
 00:00 Kasetti ja omituinen väite
 00:22 Päivä, jona Gmail palasi nauhalta
@@ -68,6 +70,8 @@ Cette vidéo passe en revue LTO, le format de bande ouvert derrière les archive
 Sources : LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one exabyte of stored experimental data (2025); IEEE Spectrum, on the Gmail restore from tape (2011); Fujifilm, news release on data tape production capacity (2026); IBM Research, 580 TB tape areal density demonstration with Fujifilm (2020); Fujifilm, LTO Ultrium data cartridge specifications.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-data-centres-still-use-tape/
 
 CHAPITRES
 00:00 Une cassette et une affirmation étrange
@@ -107,6 +111,8 @@ Sumber: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-data-centres-still-use-tape/
+
 BAB
 00:00 Sebuah kaset dan klaim yang aneh
 00:22 Hari ketika Gmail kembali dari pita
@@ -144,6 +150,8 @@ Questo video racconta LTO, il formato a nastro aperto dietro gli archivi di dati
 Fonti: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one exabyte of stored experimental data (2025); IEEE Spectrum, on the Gmail restore from tape (2011); Fujifilm, news release on data tape production capacity (2026); IBM Research, 580 TB tape areal density demonstration with Fujifilm (2020); Fujifilm, LTO Ultrium data cartridge specifications.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-data-centres-still-use-tape/
 
 CAPITOLI
 00:00 Una cassetta e un'affermazione strana
@@ -183,6 +191,8 @@ Quellen: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-data-centres-still-use-tape/
+
 KAPITEL
 00:00 Eine Kassette und eine seltsame Behauptung
 00:22 Der Tag, an dem Gmail vom Band zurückkam
@@ -220,6 +230,8 @@ W tym filmie: LTO, otwarty format taśmowy, na którym stoją dzisiejsze archiwa
 Źródła: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one exabyte of stored experimental data (2025); IEEE Spectrum, on the Gmail restore from tape (2011); Fujifilm, news release on data tape production capacity (2026); IBM Research, 580 TB tape areal density demonstration with Fujifilm (2020); Fujifilm, LTO Ultrium data cartridge specifications.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-data-centres-still-use-tape/
 
 ROZDZIAŁY
 00:00 Kaseta i dziwne stwierdzenie
@@ -259,6 +271,8 @@ Fontes: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-data-centres-still-use-tape/
+
 CAPÍTULOS
 00:00 Uma fita cassete e uma afirmação estranha
 00:22 O dia em que o Gmail voltou da fita
@@ -296,6 +310,8 @@ Bu videoda bugünkü veri arşivlerinin arkasındaki açık teyp formatı LTO'yu
 Kaynaklar: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one exabyte of stored experimental data (2025); IEEE Spectrum, on the Gmail restore from tape (2011); Fujifilm, news release on data tape production capacity (2026); IBM Research, 580 TB tape areal density demonstration with Fujifilm (2020); Fujifilm, LTO Ultrium data cartridge specifications.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-data-centres-still-use-tape/
 
 BÖLÜMLER
 00:00 Bir kaset ve tuhaf bir iddia
@@ -335,6 +351,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-data-centres-still-use-tape/
+
 РОЗДІЛИ
 00:00 Касета і дивне твердження
 00:22 День, коли Gmail повернувся зі стрічки
@@ -372,6 +390,8 @@ Video này nói về LTO, định dạng băng từ mở đứng sau các kho d�
 Nguồn: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one exabyte of stored experimental data (2025); IEEE Spectrum, on the Gmail restore from tape (2011); Fujifilm, news release on data tape production capacity (2026); IBM Research, 580 TB tape areal density demonstration with Fujifilm (2020); Fujifilm, LTO Ultrium data cartridge specifications.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-data-centres-still-use-tape/
 
 CHƯƠNG
 00:00 Một cuộn băng và một khẳng định lạ
@@ -411,6 +431,8 @@ Zdroje: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-data-centres-still-use-tape/
+
 KAPITOLY
 00:00 Kazeta a zvláštní tvrzení
 00:22 Den, kdy se Gmail vrátil z pásky
@@ -449,6 +471,8 @@ Fuentes: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-data-centres-still-use-tape/
+
 CAPÍTULOS
 00:00 Una casete y una afirmación extraña
 00:22 El día en que Gmail volvió desde cinta
@@ -486,6 +510,8 @@ Videon går igenom LTO, det öppna bandformatet bakom dagens dataarkiv, hur 40 t
 Källor: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one exabyte of stored experimental data (2025); IEEE Spectrum, on the Gmail restore from tape (2011); Fujifilm, news release on data tape production capacity (2026); IBM Research, 580 TB tape areal density demonstration with Fujifilm (2020); Fujifilm, LTO Ultrium data cartridge specifications.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-data-centres-still-use-tape/
 
 KAPITEL
 00:00 En kassett och ett märkligt påstående

@@ -41,6 +41,8 @@ The answer involves a hundred-tonne gap between what an aircraft may take off at
 it may land at, a Cold War bomber that really did set its own dumped fuel on fire, and a
 twist most articles never mention: most airliners cannot dump fuel at all.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/where-does-jet-fuel-go/
+
 CHAPTERS
 0:00 The headline
 0:26 Why it can't just land

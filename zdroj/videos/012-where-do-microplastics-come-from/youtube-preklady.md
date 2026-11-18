@@ -50,6 +50,8 @@ Tämä video seuraa tuota materiaalia: mistä rengas oikeasti on tehty, miksi tu
 
 Matkan varrella: jarrupöly, pakokaasun ulkopuoliset päästöt, ranskalainen järjestelmä, joka kirjaimellisesti imuroi jarrusi, ja miksi sähköautot korjaavat osan tästä ongelmasta mutta eivät sitä osaa, jolla on eniten väliä.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/where-do-microplastics-come-from/
+
 LUVUT
 0:00 Mitä kuvittelemme, kun kuulemme mikromuovi
 0:43 Renkaat kuluvat — minne se menee?
@@ -138,6 +140,8 @@ système français qui aspire littéralement vos freins, et pourquoi les
 voitures électriques règlent une partie du problème mais pas celle qui
 compte le plus.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/where-do-microplastics-come-from/
+
 CHAPITRES
 0:00 Ce qu'on imagine en entendant microplastiques
 0:43 Les pneus s'usent — alors où va la matière ?
@@ -215,6 +219,8 @@ Ban aus. Kita benar-benar bisa melihat alur telapaknya menghilang. Yang jarang k
 Video ini mengikuti material itu: sebuah ban sebenarnya terbuat dari apa, kenapa para ilmuwan menyebut hasilnya "partikel aus ban dan jalan" alih-alih mikroplastik, apa hubungan 6PPD-kuinon dengan salmon yang mati, di mana partikelnya berakhir, dan apa yang sebenarnya dikatakan aturan Euro 7 Eropa — termasuk tabel batas untuk ban yang dicetak dengan setiap nilainya dibiarkan kosong.
 
 Sepanjang video: debu rem, emisi non-knalpot, sebuah sistem Prancis yang secara harfiah menyedot rem mobilmu, dan kenapa mobil listrik memperbaiki sebagian masalah ini tapi bukan bagian yang paling penting.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/where-do-microplastics-come-from/
 
 BAB
 0:00 Apa yang kita bayangkan saat mendengar mikroplastik
@@ -302,6 +308,8 @@ Lungo la strada: la polvere dei freni, le emissioni non da scarico, un
 sistema francese che letteralmente aspira i tuoi freni, e perché le auto
 elettriche risolvono una parte del problema ma non quella che conta di
 più.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/where-do-microplastics-come-from/
 
 CAPITOLI
 0:00 Cosa immaginiamo quando sentiamo microplastiche
@@ -401,6 +409,8 @@ Unterwegs: Bremsstaub, Nicht-Abgas-Emissionen, ein französisches System,
 das die Bremsen buchstäblich absaugt, und warum Elektroautos einen Teil
 dieses Problems lösen, aber nicht den wichtigsten.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/where-do-microplastics-come-from/
+
 KAPITEL
 0:00 Was wir uns bei Mikroplastik vorstellen
 0:43 Reifen fahren sich ab — wo bleibt das Material?
@@ -497,6 +507,8 @@ Po drodze: pył z hamulców, emisje nie z rury wydechowej, francuski
 system, który dosłownie odkurza twoje hamulce, i dlaczego samochody
 elektryczne rozwiązują część tego problemu, ale nie tę
 najważniejszą.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/where-do-microplastics-come-from/
 
 ROZDZIAŁY
 0:00 Co sobie wyobrażamy, słysząc mikroplastiki
@@ -596,6 +608,8 @@ sistema francês que literalmente aspira os seus freios, e por que os
 carros elétricos resolvem parte do problema, mas não a parte que mais
 importa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/where-do-microplastics-come-from/
+
 CAPÍTULOS
 0:00 O que imaginamos ao ouvir microplásticos
 0:43 Pneus se desgastam — então para onde vai?
@@ -674,6 +688,8 @@ Bu video o malzemenin peşinden gidiyor: bir lastik aslında neyden yapılır, b
 
 Bu bölümde ayrıca: fren tozu, egzoz dışı emisyonlar, frenlerindeki tozu kelimenin tam anlamıyla emen bir Fransız sistemi ve elektrikli arabaların bu sorunun neden bir kısmını çözüp en önemli kısmını çözmediği.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/where-do-microplastics-come-from/
+
 BÖLÜMLER
 0:00 Mikroplastik deyince ne hayal ediyoruz
 0:43 Lastikler aşınıyor — peki nereye gidiyor?
@@ -740,6 +756,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Також у відео: гальмівний пил, невихлопні викиди, французька система, яка буквально всмоктує пил із твоїх гальм, і чому електромобілі розв’язують частину цієї проблеми, але не ту, яка має найбільше значення.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/where-do-microplastics-come-from/
+
 РОЗДІЛИ
 0:00 Що ми уявляємо, коли чуємо «мікропластик»
 0:43 Шини стираються — то куди воно дівається?
@@ -805,6 +823,8 @@ Lốp mòn đi. Chúng ta thực sự nhìn thấy gai lốp biến mất. Đi�
 Video này đi theo phần vật liệu ấy: một chiếc lốp thực ra làm bằng gì, vì sao giới khoa học gọi kết quả là "hạt mài mòn từ lốp và mặt đường" chứ không phải vi nhựa, 6PPD-quinone liên quan gì đến những con cá hồi chết, các hạt ấy cuối cùng đi về đâu, và quy định Euro 7 của châu Âu thực sự nói gì — kể cả bảng giới hạn cho lốp được in ra với từng giá trị đều bỏ trống.
 
 Video cũng đề cập đến: bụi phanh, phát thải ngoài khí xả, một hệ thống của Pháp hút bụi phanh xe theo đúng nghĩa đen, và vì sao xe điện chỉ giải quyết một phần vấn đề này chứ không phải phần quan trọng nhất.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/where-do-microplastics-come-from/
 
 CÁC CHƯƠNG
 0:00 Ta hình dung gì khi nghe từ vi nhựa
@@ -890,6 +910,8 @@ hodnotu.
 Cestou: prach z brzd, emise mimo výfuk, francouzský systém, který brzdy
 doslova vysává, a proč elektromobily řeší část toho problému, ale ne tu
 nejdůležitější.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/where-do-microplastics-come-from/
 
 KAPITOLY
 0:00 Co si představíme, když slyšíme mikroplasty
@@ -979,6 +1001,8 @@ Por el camino: el polvo de los frenos, las emisiones que no salen del
 escape, un sistema francés que literalmente aspira tus frenos, y por qué
 los coches eléctricos arreglan parte del problema pero no la parte que
 más importa.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/where-do-microplastics-come-from/
 
 CAPÍTULOS
 0:00 Lo que imaginamos al oír microplásticos
@@ -1076,6 +1100,8 @@ lämnat tomt.
 På vägen: bromsdamm, utsläpp som inte kommer ur avgasröret, ett franskt
 system som bokstavligen dammsuger bromsarna, och varför elbilar löser en
 del av problemet men inte den del som betyder mest.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/where-do-microplastics-come-from/
 
 KAPITEL
 0:00 Vad vi föreställer oss när vi hör mikroplast

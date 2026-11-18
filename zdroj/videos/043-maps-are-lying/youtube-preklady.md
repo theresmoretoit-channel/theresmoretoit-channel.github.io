@@ -64,6 +64,8 @@ Jäljelle jää karttapallo. Ei litistämistä, ei venyttämistä, navat yksinke
 
 Karttapallo siis ratkaisee projektion ongelman. Se ei ratkaise esittämisen ongelmaa. Ja juuri siinä erossa on koko juttu — siksi paras koskaan piirretty kartta esittää maantieteen lähes kokonaan väärin, ja siksi Leicester Squaren ja Covent Gardenin välillä on kaksisataakuusikymmentä metriä, ja silti kaikki menevät junalla.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/maps-are-lying/
+
 Luvut
 00:00 Kartta, jonka olet nähnyt tuhat kertaa
 00:35 Jokaisen tasokartan on valehdeltava
@@ -131,6 +133,8 @@ sur presque toute la géographie, et pourquoi Leicester Square et Covent
 Garden sont à deux cent soixante mètres alors que tout le monde prend
 quand même le métro.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/maps-are-lying/
+
 Chapitres
 00:00 Une carte que vous avez vue mille fois
 00:35 Toute carte plane doit mentir
@@ -174,6 +178,8 @@ Perbaiki luasnya, bentuknya yang rusak. Perbaiki bentuknya, luasnya yang rusak. 
 Tinggal globe. Tidak ada yang didatarkan, tidak ada yang diregangkan, kutubnya memang ada di sana. Hanya saja Bumi bukan bola, Everest di globe sekolah akan setinggi dua persepuluh milimeter, dan globe dicetak dalam keadaan datar — pada dua belas bilah yang meruncing, lalu ditempelkan ke bola. Ini jeruk dari awal video, diputar mundur.
 
 Jadi globe menyelesaikan masalah proyeksi. Ia tidak menyelesaikan masalah representasi. Dan justru pada perbedaan itulah seluruh persoalannya — itulah sebabnya peta terbaik yang pernah dibuat justru menggambarkan geografi dengan hampir sepenuhnya keliru, dan sebabnya Leicester Square dan Covent Garden hanya berjarak dua ratus enam puluh meter sementara semua orang naik kereta.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/maps-are-lying/
 
 Bab
 00:00 Peta yang sudah kamu lihat ribuan kali
@@ -239,6 +245,8 @@ il problema della rappresentazione. E in quella differenza sta tutto:
 per questo la migliore carta mai disegnata sbaglia quasi tutta la
 geografia, e per questo Leicester Square e Covent Garden distano
 duecentosessanta metri e tutti prendono lo stesso la metropolitana.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/maps-are-lying/
 
 Capitoli
 00:00 Una carta che hai visto mille volte
@@ -306,6 +314,8 @@ vollständig falsch, und deshalb liegen Leicester Square und Covent
 Garden zweihundertsechzig Meter auseinander, und alle nehmen trotzdem
 die Bahn.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/maps-are-lying/
+
 Kapitel
 00:00 Eine Karte, die Sie tausendmal gesehen haben
 00:35 Jede flache Karte muss lügen
@@ -370,6 +380,8 @@ reprezentacji. I w tej właśnie różnicy mieści się wszystko — dlatego
 najlepsza mapa, jaką kiedykolwiek narysowano, myli się niemal w całej
 geografii, i dlatego Leicester Square i Covent Garden dzieli dwieście
 sześćdziesiąt metrów, a ludzie i tak jadą metrem.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/maps-are-lying/
 
 Rozdziały
 00:00 Mapa, którą widziałeś tysiąc razy
@@ -436,6 +448,8 @@ já desenhado erra quase toda a geografia, e por isso Leicester Square e
 Covent Garden ficam a duzentos e sessenta metros e todo mundo pega o
 trem mesmo assim.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/maps-are-lying/
+
 Capítulos
 00:00 Um mapa que você já viu mil vezes
 00:35 Todo mapa plano precisa mentir
@@ -479,6 +493,8 @@ Alanları düzelt, biçimler bozulur. Biçimleri düzelt, alanlar bozulur. 2017�
 Geriye yer küresi kalıyor. Düzleştirme yok, germe yok, kutuplar öylece yerinde. Ama Dünya bir küre değil, Everest, okullarda kullanılan bir yer küresinde iki onda bir milimetre yükseklikte olurdu. Yer küresinin haritası önce düz kâğıt şeritlere basılır — on iki tane incelen şerit — sonra bu şeritler bir topun üzerine yapıştırılır. Videonun başındaki portakalın ta kendisi, tersten.
 
 Yani yer küresi izdüşüm sorununu çözüyor. Temsil sorununu çözmüyor. Ve bütün mesele tam da bu ayrımda — çizilmiş en iyi haritanın coğrafyayı neredeyse baştan sona yanlış vermesinin sebebi bu, ve Leicester Square ile Covent Garden arasında iki yüz altmış metre olmasına rağmen herkesin metroya binmesinin sebebi de bu.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/maps-are-lying/
 
 Bölümler
 00:00 Bin kez gördüğün bir harita
@@ -524,6 +540,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Отже, глобус розв’язує проблему проєкції. Він не розв’язує проблему репрезентації. І саме в цій різниці вся суть — тому найкраща мапа з усіх намальованих передає географію майже повністю хибно, і тому Лестер-сквер і Ковент-Ґарден розділяють двісті шістдесят метрів, а всі однаково їдуть метро.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/maps-are-lying/
+
 Розділи
 00:00 Мапа, яку ти бачив тисячу разів
 00:35 Кожна пласка мапа мусить брехати
@@ -567,6 +585,8 @@ Giữ đúng diện tích thì hình dạng bị méo. Giữ đúng hình dạng
 Vậy còn lại quả địa cầu. Không trải phẳng, không kéo giãn, hai cực cứ thế nằm đó. Chỉ có điều Trái Đất không phải hình cầu, đỉnh Everest trên quả địa cầu dùng trong trường học sẽ cao hai phần mười milimét, và quả địa cầu được in trên mặt phẳng — trên mười hai dải thuôn nhọn, rồi dán lên một quả bóng. Đó chính là quả cam ở đầu video, chạy ngược lại.
 
 Vậy quả địa cầu giải quyết được vấn đề phép chiếu. Nó không giải quyết được vấn đề biểu diễn. Và chính sự khác biệt đó mới là mấu chốt — đó là lý do tấm bản đồ đẹp nhất từng được vẽ lại sai gần như toàn bộ về địa lý, và lý do Leicester Square với Covent Garden chỉ cách nhau hai trăm sáu mươi mét mà ai cũng đi tàu.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/maps-are-lying/
 
 Các chương
 00:00 Tấm bản đồ bạn đã thấy cả nghìn lần
@@ -628,6 +648,8 @@ Globus tedy řeší problém zobrazení. Neřeší problém reprezentace. A prá
 v tom rozdílu je celá věc — proto je nejlepší mapa, jaká kdy vznikla,
 geograficky skoro celá špatně, a proto dělí Leicester Square a Covent
 Garden dvě stě šedesát metrů, a lidé stejně jedou metrem.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/maps-are-lying/
 
 Kapitoly
 00:00 Mapa, kterou jste viděli tisíckrát
@@ -694,6 +716,8 @@ mejor mapa jamás dibujado se equivoca en casi toda la geografía, y por
 eso Leicester Square y Covent Garden están a doscientos sesenta metros y
 todo el mundo coge el tren igual.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/maps-are-lying/
+
 Capítulos
 00:00 Un mapa que has visto mil veces
 00:35 Todo mapa plano tiene que mentir
@@ -757,6 +781,8 @@ representationens problem. Och i den skillnaden ligger alltihop — därför
 har den bästa karta som någonsin ritats nästan hela geografin fel, och
 därför ligger Leicester Square och Covent Garden tvåhundrasextio meter
 isär medan alla ändå tar tåget.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/maps-are-lying/
 
 Kapitel
 00:00 En karta du har sett tusen gånger

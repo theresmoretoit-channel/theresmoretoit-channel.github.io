@@ -49,6 +49,8 @@ Se toimii vain niin kauan kuin ihmiset uskovat sen merkitsevän jotain.
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/who-decides-whats-mens-and-womens/
+
 LUVUT
 00:00 Näkymätön viiva jokaisessa vaatekaupassa
 01:01 Rehellinen osa: osa erosta on käytännöllistä
@@ -106,6 +108,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés
 automatiquement. Une piste audio en anglais américain est disponible en
 seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/who-decides-whats-mens-and-womens/
+
 CHAPITRES
 00:00 Une ligne invisible dans chaque magasin de vêtements
 01:01 La part honnête : une partie de la différence est pratique
@@ -162,6 +166,8 @@ aturan moral. Ia hanya bekerja selama orang percaya bahwa ia penting.
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/who-decides-whats-mens-and-womens/
+
 BAB
 00:00 Garis tak terlihat di setiap toko pakaian
 01:01 Bagian yang jujur: sebagian perbedaannya praktis
@@ -215,6 +221,8 @@ Perché una convenzione non è una legge, non è fisica, non è biologia e non
 
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/who-decides-whats-mens-and-womens/
 
 CAPITOLI
 00:00 Una linea invisibile in ogni negozio di abbigliamento
@@ -272,6 +280,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/who-decides-whats-mens-and-womens/
+
 KAPITEL
 00:00 Eine unsichtbare Linie in jedem Bekleidungsgeschäft
 01:01 Der ehrliche Teil: manches am Unterschied ist praktisch
@@ -326,6 +336,8 @@ Działa tylko tak długo, jak długo ludzie wierzą, że ma znaczenie.
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/who-decides-whats-mens-and-womens/
+
 ROZDZIAŁY
 00:00 Niewidzialna linia w każdym sklepie z odzieżą
 01:01 Uczciwa część: część różnicy jest praktyczna
@@ -379,6 +391,8 @@ moral. Ela só funciona enquanto as pessoas acreditarem que importa.
 
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano como segunda faixa.
+
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/who-decides-whats-mens-and-womens/
 
 CAPÍTULOS
 00:00 Uma linha invisível em toda loja de roupas
@@ -435,6 +449,8 @@ inandıkları sürece işler.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/who-decides-whats-mens-and-womens/
+
 BÖLÜMLER
 00:00 Her giyim mağazasındaki görünmez çizgi
 01:01 Dürüst kısım: farkın bir bölümü gerçekten pratik
@@ -487,6 +503,8 @@ Diğer bütün arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою
 звуковою доріжкою доступна американська англійська.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/who-decides-whats-mens-and-womens/
 
 РОЗДІЛИ
 00:00 Невидима лінія в кожній крамниці одягу
@@ -543,6 +561,8 @@ còn tin rằng nó quan trọng.
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một
 bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/who-decides-whats-mens-and-womens/
+
 CHƯƠNG
 00:00 Một lằn ranh vô hình trong mọi cửa hàng quần áo
 01:01 Phần trung thực: một phần khác biệt là thực dụng
@@ -595,6 +615,8 @@ pravidlo. Funguje jen tak dlouho, dokud lidé věří, že na ní záleží.
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/who-decides-whats-mens-and-womens/
 
 KAPITOLY
 00:00 Neviditelná čára v každém obchodě s oblečením
@@ -651,6 +673,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano como segunda
 pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/who-decides-whats-mens-and-womens/
+
 CAPÍTULOS
 00:00 Una línea invisible en cada tienda de ropa
 01:01 La parte honesta: parte de la diferencia es práctica
@@ -704,6 +728,8 @@ något.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/who-decides-whats-mens-and-womens/
 
 KAPITEL
 00:00 En osynlig linje i varje klädbutik

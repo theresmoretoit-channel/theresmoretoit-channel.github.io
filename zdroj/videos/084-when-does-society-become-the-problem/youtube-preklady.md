@@ -79,6 +79,8 @@ Jos olet välittömässä vaarassa, soita paikalliseen hätänumeroon.
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/when-does-society-become-the-problem/
+
 LUVUT
 00:00 Entä jos maailma näkisi sinut ongelmana?
 01:38 Kun oma keho tuntuu väärältä
@@ -112,6 +114,8 @@ Royaume-Uni et Irlande : Samaritans, 116 123
 Si tu es en danger immédiat, appelle le numéro d'urgence local.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/when-does-society-become-the-problem/
 
 CHAPITRES
 00:00 Et si le monde te voyait comme un problème ?
@@ -147,6 +151,8 @@ Jika kamu sedang dalam bahaya saat ini, segera hubungi nomor darurat setempat.
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/when-does-society-become-the-problem/
+
 BAB
 00:00 Bagaimana kalau dunia melihatmu sebagai masalah?
 01:38 Ketika tubuhmu sendiri terasa salah
@@ -180,6 +186,8 @@ Regno Unito e Irlanda: Samaritans, 116 123
 Se sei in pericolo immediato, chiama il numero di emergenza locale.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/when-does-society-become-the-problem/
 
 CAPITOLI
 00:00 E se il mondo ti vedesse come un problema?
@@ -215,6 +223,8 @@ Wenn du in akuter Gefahr bist, ruf die örtliche Notrufnummer an.
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/when-does-society-become-the-problem/
+
 KAPITEL
 00:00 Was, wenn die Welt dich als Problem sähe?
 01:38 Wenn sich der eigene Körper falsch anfühlt
@@ -248,6 +258,8 @@ Wielka Brytania i Irlandia: Samaritans, 116 123
 Jeśli grozi ci bezpośrednie niebezpieczeństwo, zadzwoń pod lokalny numer alarmowy.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/when-does-society-become-the-problem/
 
 ROZDZIAŁY
 00:00 A gdyby świat widział w tobie problem?
@@ -283,6 +295,8 @@ Se você estiver em perigo imediato, ligue para o número de emergência local.
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/when-does-society-become-the-problem/
+
 CAPÍTULOS
 00:00 E se o mundo visse você como um problema?
 01:38 Quando o seu próprio corpo parece errado
@@ -316,6 +330,8 @@ Birleşik Krallık ve İrlanda: Samaritans, 116 123
 Acil bir tehlike altındaysan yerel acil durum numarasını ara.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/when-does-society-become-the-problem/
 
 BÖLÜMLER
 00:00 Ya dünya seni bir sorun olarak görseydi?
@@ -351,6 +367,8 @@ Trans Lifeline, взаємопідтримка, яку надають транс
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/when-does-society-become-the-problem/
+
 РОЗДІЛИ
 00:00 А якби світ бачив у тобі проблему?
 01:38 Коли власне тіло здається неправильним
@@ -384,6 +402,8 @@ Vương quốc Anh và Ireland: Samaritans, 116 123
 Nếu bạn đang gặp nguy hiểm tức thời, hãy gọi số khẩn cấp tại nơi bạn ở.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/when-does-society-become-the-problem/
 
 CHƯƠNG
 00:00 Nếu thế giới coi bạn là một vấn đề thì sao?
@@ -419,6 +439,8 @@ Pokud ti hrozí bezprostřední nebezpečí, zavolej na místní tísňovou link
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/when-does-society-become-the-problem/
+
 KAPITOLY
 00:00 Co kdyby tě svět viděl jako problém?
 01:38 Když ti vlastní tělo nepřipadá správné
@@ -453,6 +475,8 @@ Si estás en peligro inmediato, llama al número de emergencias de tu zona.
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/when-does-society-become-the-problem/
+
 CAPÍTULOS
 00:00 ¿Y si el mundo te viera como un problema?
 01:38 Cuando sientes que tu propio cuerpo está mal
@@ -486,6 +510,8 @@ Storbritannien och Irland: Samaritans, 116 123
 Om du är i akut fara, ring ditt lokala nödnummer.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/when-does-society-become-the-problem/
 
 KAPITEL
 00:00 Tänk om världen såg dig som ett problem?

@@ -68,6 +68,8 @@ Lähteet: Address by the President of the Russian Federation, 24. helmikuuta 202
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-russia-keep-choosing-confrontation/
+
 LUVUT
 00:00 Suomi liittyy Natoon
 00:38 Niin paljon maata, niin pieni talous
@@ -107,6 +109,8 @@ La Russie est le plus grand pays du monde, riche en pétrole, en gaz, en forêts
 Sources : Address by the President of the Russian Federation, 24 février 2022 (kremlin.ru) ; NATO, Relations with Finland and Sweden ; IMF, World Economic Outlook (2026) ; World Bank, World Development Indicators ; MTS and EVA surveys on NATO membership ; Yle / Taloustutkimus (mai 2022) ; J. H. Herz, Idealist Internationalism and the Security Dilemma, World Politics (1950) ; G. F. Krivosheev, Soviet Casualties and Combat Losses (1993) ; Rosstat ; V. Putin, Russia at the Turn of the Millennium (1999) ; V. Putin, Address to the Federal Assembly (2005) ; V. Putin, On the Historical Unity of Russians and Ukrainians (2021) ; Kremlin, Security Council meeting transcript (21 février 2022) ; RUSI, Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine (2022) ; Federal Law No. 121-FZ (2012) ; EUAA, Russia: Foreign agents (2025) ; Ministry of Finance of the Russian Federation ; Gaidar Institute, Monitoring (2026) ; European Commission, REPowerEU Roadmap (2025) and Quarterly Report on European Gas Markets (2025) ; The Bell (2023) ; MERICS, China–Russia Dashboard (2026).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-russia-keep-choosing-confrontation/
 
 CHAPITRES
 00:00 La Finlande rejoint l'OTAN
@@ -148,6 +152,8 @@ Sumber: Address by the President of the Russian Federation, 24 Februari 2022 (kr
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-russia-keep-choosing-confrontation/
+
 BAB
 00:00 Finlandia bergabung dengan NATO
 00:38 Wilayah seluas itu, ekonomi sekecil itu
@@ -187,6 +193,8 @@ La Russia è il paese più grande della Terra, ricco di petrolio, gas, foreste, 
 Fonti: Address by the President of the Russian Federation, 24 febbraio 2022 (kremlin.ru); NATO, Relations with Finland and Sweden; IMF, World Economic Outlook (2026); World Bank, World Development Indicators; MTS and EVA surveys on NATO membership; Yle / Taloustutkimus (maggio 2022); J. H. Herz, Idealist Internationalism and the Security Dilemma, World Politics (1950); G. F. Krivosheev, Soviet Casualties and Combat Losses (1993); Rosstat; V. Putin, Russia at the Turn of the Millennium (1999); V. Putin, Address to the Federal Assembly (2005); V. Putin, On the Historical Unity of Russians and Ukrainians (2021); Kremlin, Security Council meeting transcript (21 febbraio 2022); RUSI, Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine (2022); Federal Law No. 121-FZ (2012); EUAA, Russia: Foreign agents (2025); Ministry of Finance of the Russian Federation; Gaidar Institute, Monitoring (2026); European Commission, REPowerEU Roadmap (2025) and Quarterly Report on European Gas Markets (2025); The Bell (2023); MERICS, China–Russia Dashboard (2026).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-russia-keep-choosing-confrontation/
 
 CAPITOLI
 00:00 La Finlandia entra nella NATO
@@ -228,6 +236,8 @@ Quellen: Address by the President of the Russian Federation, 24. Februar 2022 (k
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-russia-keep-choosing-confrontation/
+
 KAPITEL
 00:00 Finnland tritt der NATO bei
 00:38 So viel Land, eine so kleine Wirtschaft
@@ -267,6 +277,8 @@ Rosja jest największym krajem na Ziemi, bogatym w ropę, gaz, lasy, ziemię upr
 Źródła: Address by the President of the Russian Federation, 24 lutego 2022 (kremlin.ru); NATO, Relations with Finland and Sweden; IMF, World Economic Outlook (2026); World Bank, World Development Indicators; MTS and EVA surveys on NATO membership; Yle / Taloustutkimus (maj 2022); J. H. Herz, Idealist Internationalism and the Security Dilemma, World Politics (1950); G. F. Krivosheev, Soviet Casualties and Combat Losses (1993); Rosstat; V. Putin, Russia at the Turn of the Millennium (1999); V. Putin, Address to the Federal Assembly (2005); V. Putin, On the Historical Unity of Russians and Ukrainians (2021); Kremlin, Security Council meeting transcript (21 lutego 2022); RUSI, Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine (2022); Federal Law No. 121-FZ (2012); EUAA, Russia: Foreign agents (2025); Ministry of Finance of the Russian Federation; Gaidar Institute, Monitoring (2026); European Commission, REPowerEU Roadmap (2025) and Quarterly Report on European Gas Markets (2025); The Bell (2023); MERICS, China–Russia Dashboard (2026).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-russia-keep-choosing-confrontation/
 
 ROZDZIAŁY
 00:00 Finlandia wstępuje do NATO
@@ -308,6 +320,8 @@ Fontes: Address by the President of the Russian Federation, 24 de fevereiro de 2
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-russia-keep-choosing-confrontation/
+
 CAPÍTULOS
 00:00 A Finlândia entra na OTAN
 00:38 Tanta terra, uma economia tão pequena
@@ -347,6 +361,8 @@ Rusya dünyanın en büyük ülkesi; petrol, gaz, orman, tarım arazisi ve maden
 Kaynaklar: Address by the President of the Russian Federation, 24 Şubat 2022 (kremlin.ru); NATO, Relations with Finland and Sweden; IMF, World Economic Outlook (2026); World Bank, World Development Indicators; MTS and EVA surveys on NATO membership; Yle / Taloustutkimus (Mayıs 2022); J. H. Herz, Idealist Internationalism and the Security Dilemma, World Politics (1950); G. F. Krivosheev, Soviet Casualties and Combat Losses (1993); Rosstat; V. Putin, Russia at the Turn of the Millennium (1999); V. Putin, Address to the Federal Assembly (2005); V. Putin, On the Historical Unity of Russians and Ukrainians (2021); Kremlin, Security Council meeting transcript (21 Şubat 2022); RUSI, Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine (2022); Federal Law No. 121-FZ (2012); EUAA, Russia: Foreign agents (2025); Ministry of Finance of the Russian Federation; Gaidar Institute, Monitoring (2026); European Commission, REPowerEU Roadmap (2025) and Quarterly Report on European Gas Markets (2025); The Bell (2023); MERICS, China–Russia Dashboard (2026).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-russia-keep-choosing-confrontation/
 
 BÖLÜMLER
 00:00 Finlandiya NATO'ya katılıyor
@@ -388,6 +404,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/2.0 · creativecommons.org/license
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-russia-keep-choosing-confrontation/
+
 РОЗДІЛИ
 00:00 Фінляндія вступає до НАТО
 00:38 Стільки землі, така мала економіка
@@ -427,6 +445,8 @@ Nga là quốc gia lớn nhất trên Trái Đất, giàu dầu mỏ, khí đố
 Nguồn: Address by the President of the Russian Federation, 24 tháng 2 năm 2022 (kremlin.ru); NATO, Relations with Finland and Sweden; IMF, World Economic Outlook (2026); World Bank, World Development Indicators; MTS and EVA surveys on NATO membership; Yle / Taloustutkimus (tháng 5 năm 2022); J. H. Herz, Idealist Internationalism and the Security Dilemma, World Politics (1950); G. F. Krivosheev, Soviet Casualties and Combat Losses (1993); Rosstat; V. Putin, Russia at the Turn of the Millennium (1999); V. Putin, Address to the Federal Assembly (2005); V. Putin, On the Historical Unity of Russians and Ukrainians (2021); Kremlin, Security Council meeting transcript (21 tháng 2 năm 2022); RUSI, Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine (2022); Federal Law No. 121-FZ (2012); EUAA, Russia: Foreign agents (2025); Ministry of Finance of the Russian Federation; Gaidar Institute, Monitoring (2026); European Commission, REPowerEU Roadmap (2025) and Quarterly Report on European Gas Markets (2025); The Bell (2023); MERICS, China–Russia Dashboard (2026).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-russia-keep-choosing-confrontation/
 
 CHƯƠNG
 00:00 Phần Lan gia nhập NATO
@@ -468,6 +488,8 @@ Zdroje: Address by the President of the Russian Federation, 24. února 2022 (kre
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-russia-keep-choosing-confrontation/
+
 KAPITOLY
 00:00 Finsko vstupuje do NATO
 00:38 Tolik území, tak malá ekonomika
@@ -508,6 +530,8 @@ Fuentes: Address by the President of the Russian Federation, 24 de febrero de 20
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-russia-keep-choosing-confrontation/
+
 CAPÍTULOS
 00:00 Finlandia entra en la OTAN
 00:38 Tanta tierra, una economía tan pequeña
@@ -547,6 +571,8 @@ Ryssland är världens största land, rikt på olja, gas, skog, jordbruksmark oc
 Källor: Address by the President of the Russian Federation, 24 februari 2022 (kremlin.ru); NATO, Relations with Finland and Sweden; IMF, World Economic Outlook (2026); World Bank, World Development Indicators; MTS and EVA surveys on NATO membership; Yle / Taloustutkimus (maj 2022); J. H. Herz, Idealist Internationalism and the Security Dilemma, World Politics (1950); G. F. Krivosheev, Soviet Casualties and Combat Losses (1993); Rosstat; V. Putin, Russia at the Turn of the Millennium (1999); V. Putin, Address to the Federal Assembly (2005); V. Putin, On the Historical Unity of Russians and Ukrainians (2021); Kremlin, Security Council meeting transcript (21 februari 2022); RUSI, Preliminary Lessons in Conventional Warfighting from Russia's Invasion of Ukraine (2022); Federal Law No. 121-FZ (2012); EUAA, Russia: Foreign agents (2025); Ministry of Finance of the Russian Federation; Gaidar Institute, Monitoring (2026); European Commission, REPowerEU Roadmap (2025) and Quarterly Report on European Gas Markets (2025); The Bell (2023); MERICS, China–Russia Dashboard (2026).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-russia-keep-choosing-confrontation/
 
 KAPITEL
 00:00 Finland går med i Nato

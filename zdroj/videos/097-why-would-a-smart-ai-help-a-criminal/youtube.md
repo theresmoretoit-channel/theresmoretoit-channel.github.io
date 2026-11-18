@@ -60,6 +60,8 @@ If an AI is smart enough to know that something is a crime, why doesn't it simpl
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-would-a-smart-ai-help-a-criminal/
+
 CHAPTERS
 00:00 An AI that helps anyway
 00:47 WormGPT and FraudGPT

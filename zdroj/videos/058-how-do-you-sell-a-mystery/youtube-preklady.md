@@ -52,6 +52,8 @@ Puramme sen osiin Nazcan linjoilla ja Pakalin sarkofagin kannessa Palenquessa �
 
 Sitten epämukava osa: menetelmä ei tarvitse valehtelijaa. Se toimii aivan yhtä hyvin uskovaisen käsissä. Ja kun televisio sai siitä otteen, se ei tarvinnut enää uskovaistakaan.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-do-you-sell-a-mystery/
+
 Luvut
 0:00 Tapa kertoa tarina
 0:24 Hotellinjohtaja pidätetään
@@ -103,6 +105,8 @@ Car ce qui est intéressant chez Erich von Däniken, ce n'est pas de savoir s'il
 Nous démontons le procédé sur les lignes de Nazca et sur le couvercle du sarcophage de Pakal à Palenque — là où la même gravure porte deux jeux de noms entièrement différents, et où l'objection des archéologues n'est pas que cela ne ressemble en rien à une fusée, mais que la lecture « fusée » vient du seul regard et de rien d'autre.
 
 Puis vient la partie inconfortable : la méthode n'a pas besoin d'un menteur. Elle fonctionne très bien entre les mains d'un croyant. Et une fois que la télévision s'en est emparée, elle n'a plus eu besoin du croyant non plus.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-do-you-sell-a-mystery/
 
 Chapitres
 0:00 Une façon de raconter une histoire
@@ -156,6 +160,8 @@ Kami membongkarnya pada Garis Nazca dan pada penutup sarkofagus Pakal di Palenqu
 
 Lalu bagian yang tidak nyaman: metode ini tidak membutuhkan pembohong. Ia bekerja dengan sangat baik di tangan orang yang percaya. Dan begitu televisi menguasainya, ia bahkan tidak membutuhkan orang yang percaya itu lagi.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-do-you-sell-a-mystery/
+
 Bab
 0:00 Sebuah cara bercerita
 0:24 Seorang manajer hotel ditangkap
@@ -207,6 +213,8 @@ Perché la cosa interessante di Erich von Däniken non è se fosse onesto. È ch
 Lo smontiamo sulle linee di Nazca e sul coperchio del sarcofago di Pakal a Palenque — dove la stessa incisione porta due serie di nomi completamente diverse, e dove l'obiezione degli archeologi non è che non somigli affatto a un razzo, ma che la lettura "razzo" nasca dal solo guardare e da nient'altro.
 
 Poi la parte scomoda: il metodo non ha bisogno di un bugiardo. Funziona benissimo nelle mani di chi ci crede davvero. E una volta che la televisione se n'è impadronita, non ha avuto più bisogno nemmeno di chi ci crede.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-do-you-sell-a-mystery/
 
 Capitoli
 0:00 Un modo di raccontare una storia
@@ -260,6 +268,8 @@ Wir nehmen das an den Nazca-Linien auseinander und am Deckel von Pakals Sarkopha
 
 Dann der unangenehme Teil: Die Methode braucht keinen Lügner. Sie funktioniert bestens in den Händen eines Überzeugten. Und als das Fernsehen sie übernahm, brauchte sie auch den Überzeugten nicht mehr.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-do-you-sell-a-mystery/
+
 Kapitel
 0:00 Eine Art, eine Geschichte zu erzählen
 0:24 Ein Hoteldirektor wird verhaftet
@@ -311,6 +321,8 @@ Bo w Erichu von Dänikenie najciekawsze nie jest to, czy był uczciwy. Najciekaw
 Rozkładamy to na czynniki pierwsze na liniach z Nazca i na pokrywie sarkofagu Pakala w Palenque — ta sama płaskorzeźba nosi tam dwa zupełnie różne zestawy nazw, a zarzut archeologów nie brzmi, że nic tam nie przypomina rakiety, lecz że odczytanie "rakieta" bierze się z samego patrzenia i z niczego więcej.
 
 Potem część niewygodna: metoda nie potrzebuje kłamcy. Działa znakomicie w rękach kogoś, kto naprawdę wierzy. A kiedy przejęła ją telewizja, przestała potrzebować nawet tego wierzącego.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-do-you-sell-a-mystery/
 
 Rozdziały
 0:00 Pewien sposób opowiadania
@@ -364,6 +376,8 @@ Desmontamos o procedimento nas linhas de Nazca e na tampa do sarcófago de Pakal
 
 Depois vem a parte incômoda: o método não precisa de um mentiroso. Funciona muito bem nas mãos de quem acredita de verdade. E, assim que a televisão se apossou dele, deixou de precisar até mesmo de quem acredita.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-do-you-sell-a-mystery/
+
 Capítulos
 0:00 Um jeito de contar uma história
 0:24 Um gerente de hotel é preso
@@ -415,6 +429,8 @@ Bu, eski uzaylılarla ilgili teorilerinin bilinçli bir sahtekârlık olduğunu 
 Bunu Nazca çizgilerinde ve Palenque'deki Pakal lahdinin kapağında parçalarına ayırıyoruz — aynı kabartma orada bambaşka iki isim dizisi taşıyor ve arkeologların itirazı, bunun bir roketi hiç andırmadığı değil; "roket" okumasının yalnızca bakmaktan doğduğu ve başka hiçbir şeyden doğmadığı.
 
 Sonra rahatsız edici kısım: yöntemin bir yalancıya ihtiyacı yok. Gerçekten inanan birinin elinde de gayet iyi çalışıyor. Ve televizyon onu eline aldığında, artık o inanana bile ihtiyacı kalmadı.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-do-you-sell-a-mystery/
 
 Bölümler
 0:00 Bir hikâye anlatma biçimi
@@ -468,6 +484,8 @@ Lisanslar: creativecommons.org/licenses/by/3.0, /by-sa/2.0, /by-sa/4.0
 
 А потім незручна частина: методові не потрібен брехун. Він чудово працює в руках того, хто справді вірить. А щойно за нього взялося телебачення, йому перестав бути потрібен навіть той, хто вірить.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-do-you-sell-a-mystery/
+
 Розділи
 0:00 Спосіб розповідати історію
 0:24 Керівника готелю заарештовано
@@ -519,6 +537,8 @@ Bởi điều thú vị ở Erich von Däniken không phải là ông có trung 
 Chúng ta mổ xẻ điều này ở các đường Nazca và trên nắp quan tài đá của Pakal tại Palenque — cùng một bức chạm khắc mang hai bộ tên gọi hoàn toàn khác nhau, và phản bác của các nhà khảo cổ không phải là nó chẳng giống tên lửa chút nào, mà là cách đọc "tên lửa" chỉ sinh ra từ việc nhìn, và không từ gì khác.
 
 Rồi đến phần khó chịu: phương pháp này không cần một kẻ nói dối. Nó vận hành rất tốt trong tay một người thật lòng tin. Và khi truyền hình nắm lấy nó, nó thậm chí không còn cần cả người tin nữa.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-do-you-sell-a-mystery/
 
 Các chương
 0:00 Một cách kể chuyện
@@ -572,6 +592,8 @@ Rozebíráme to na obrazcích v Nazce a na víku Pakalova sarkofágu v Palenque 
 
 Pak přijde nepohodlná část: ta metoda nepotřebuje lháře. Funguje výborně i v rukou člověka, který tomu skutečně věří. A jakmile se jí chopila televize, přestala potřebovat i toho věřícího.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-do-you-sell-a-mystery/
+
 Kapitoly
 0:00 Jeden způsob vyprávění
 0:24 Zatčený hotelový manažer
@@ -624,6 +646,8 @@ Lo desmontamos en las líneas de Nazca y en la lápida del sarcófago de Pakal e
 
 Después llega la parte incómoda: el método no necesita un mentiroso. Funciona perfectamente en manos de alguien que cree de verdad. Y en cuanto la televisión se apoderó de él, dejó de necesitar incluso a ese creyente.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-do-you-sell-a-mystery/
+
 Capítulos
 0:00 Una manera de contar una historia
 0:24 Un director de hotel detenido
@@ -675,6 +699,8 @@ För det intressanta med Erich von Däniken är inte om han var ärlig. Det intr
 Vi plockar isär det på Nazcalinjerna och på locket till Pakals sarkofag i Palenque — samma relief bär där två helt olika uppsättningar namn, och arkeologernas invändning är inte att det inte alls liknar en raket, utan att raketläsningen kommer enbart av att titta, och av ingenting annat.
 
 Sedan den obekväma delen: metoden behöver ingen lögnare. Den fungerar utmärkt i händerna på någon som verkligen tror. Och så snart televisionen tog över den behövde den inte ens den troende längre.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-do-you-sell-a-mystery/
 
 Kapitel
 0:00 Ett sätt att berätta en historia

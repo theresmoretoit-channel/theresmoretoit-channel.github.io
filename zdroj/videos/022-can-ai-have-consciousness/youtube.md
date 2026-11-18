@@ -42,6 +42,8 @@ how would we ever tell?
 Today's language models are probably not conscious. This video
 explains why "probably" is doing a lot of work in that sentence.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/can-ai-have-consciousness/
+
 CHAPTERS
 0:00 The question nobody can answer
 0:41 What is consciousness anyway?

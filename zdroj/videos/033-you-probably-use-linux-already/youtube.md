@@ -34,6 +34,8 @@ you can wrap almost anything around. That's why it turns up in places
 that seem completely unrelated — and why you've almost certainly used it
 without ever choosing to.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/you-probably-use-linux-already/
+
 CHAPTERS
 0:00 The stereotype
 0:48 1991: a hobby project

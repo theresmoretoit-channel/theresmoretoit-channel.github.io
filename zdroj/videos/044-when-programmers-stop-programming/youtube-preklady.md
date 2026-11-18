@@ -50,6 +50,8 @@ Kiinnostavinta ei kuitenkaan ole se, onko sinulla yhä työpaikka. Opetimme vuos
 
 Video seuraa lupausta, että ohjelmointi katoaa: vuoden 1954 IBM:n raportista, jonka mukaan FORTRAN ”poistaisi käytännössä koodauksen ja virheenkorjauksen”, COBOLin ja vuonna 1982 ilmestyneen kirjan Application Development Without Programmers kautta siihen, mitä ammatille todella tapahtui — ja se on oudompaa kuin miltä näyttää. Vuonna 2003 amerikkalainen työvoimatutkimus lisäsi vanhan ammattinimikkeen rinnalle toisen, ja nykyään yhtä computer programmeria kohden on noin kuusi software developeria. Työ ei kadonnut. Se nimettiin uudelleen.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/when-programmers-stop-programming/
+
 Luvut:
 0:00 Ei enää kirjoitettavaa
 1:10 Mitä varten luettavuus oli?
@@ -90,6 +92,8 @@ Imagine que tu es programmeur. Un jour tu ouvres ton éditeur et tu comprends qu
 L'intéressant n'est pourtant pas de savoir si tu as encore un travail. Pendant des décennies on a appris aux programmeurs à écrire du code que d'autres programmeurs pourraient lire — et maintenant on construit des machines qui écrivent du code qu'aucun programmeur ne lira peut-être jamais. À quoi servait donc cette lisibilité ?
 
 La vidéo suit la promesse que la programmation allait disparaître : d'un rapport d'IBM de 1954 selon lequel FORTRAN « devrait pratiquement éliminer le codage et le débogage », en passant par COBOL et un livre de 1982 intitulé Application Development Without Programmers, jusqu'à ce qui est réellement arrivé au métier — et c'est plus étrange qu'il n'y paraît. En 2003, l'enquête américaine sur l'emploi a ajouté un nouvel intitulé à côté de l'ancien, et il y a aujourd'hui environ six software developers pour un computer programmer. Le métier n'a pas disparu. Il a changé de nom.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/when-programmers-stop-programming/
 
 Chapitres :
 0:00 Plus rien à écrire
@@ -132,6 +136,8 @@ Tapi yang menarik bukan soal apakah kamu masih punya pekerjaan. Selama puluhan t
 
 Video ini mengikuti janji bahwa pemrograman akan hilang: dari laporan IBM tahun 1954 yang menyebut FORTRAN "diharapkan dapat menghilangkan hampir seluruh pekerjaan coding dan debugging", lewat COBOL dan sebuah buku tahun 1982 yang judulnya benar-benar Application Development Without Programmers, sampai apa yang sebenarnya terjadi pada pekerjaan itu — dan itu lebih aneh dari kelihatannya. Pada 2003 survei tenaga kerja Amerika menambahkan satu nama jabatan baru di samping yang lama, dan hari ini ada sekitar enam software developer untuk setiap satu computer programmer. Pekerjaannya tidak hilang. Namanya yang berganti.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/when-programmers-stop-programming/
+
 Bab:
 0:00 Tidak ada lagi yang perlu ditulis
 1:10 Untuk apa keterbacaan itu?
@@ -172,6 +178,8 @@ Immagina di essere un programmatore. Un giorno apri l'editor e ti accorgi che l�
 La cosa interessante però non è se hai ancora un lavoro. Per decenni abbiamo insegnato ai programmatori a scrivere codice che altri programmatori potessero leggere — e adesso costruiamo macchine che scrivono codice che forse nessun programmatore leggerà mai. A cosa serviva allora quella leggibilità?
 
 Il video segue la promessa che programmare sarebbe scomparso: da una relazione IBM del 1954 secondo cui FORTRAN «dovrebbe praticamente eliminare la codifica e il debug», passando per COBOL e un libro del 1982 intitolato Application Development Without Programmers, fino a ciò che è davvero successo al mestiere — ed è più strano di quanto sembri. Nel 2003 l'indagine americana sul lavoro aggiunse una qualifica nuova accanto a quella vecchia, e oggi ci sono circa sei software developers per ogni computer programmer. Il lavoro non è sparito. Ha cambiato nome.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/when-programmers-stop-programming/
 
 Capitoli:
 0:00 Non resta niente da scrivere
@@ -214,6 +222,8 @@ Interessant ist aber nicht, ob du noch einen Job hast. Jahrzehntelang brachten w
 
 Das Video verfolgt das Versprechen, das Programmieren werde verschwinden: von einem IBM-Bericht aus dem Jahr 1954, nach dem FORTRAN „das Codieren und Debuggen praktisch überflüssig machen sollte", über COBOL und ein Buch von 1982 mit dem Titel Application Development Without Programmers bis zu dem, was mit dem Beruf tatsächlich geschah — und das ist seltsamer, als es aussieht. 2003 kam in der amerikanischen Arbeitsmarktbefragung neben dem alten Berufsnamen ein neuer dazu, und heute kommen rund sechs software developers auf einen computer programmer. Die Arbeit verschwand nicht. Sie wurde umbenannt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/when-programmers-stop-programming/
+
 Kapitel:
 0:00 Nichts mehr zu schreiben
 1:10 Wofür war die Lesbarkeit da?
@@ -254,6 +264,8 @@ Wyobraź sobie, że jesteś programistą. Pewnego dnia otwierasz edytor i orient
 Ciekawe jednak nie jest to, czy nadal masz pracę. Przez dekady uczyliśmy programistów pisać kod tak, żeby mogli go czytać inni programiści — a teraz budujemy maszyny, które piszą kod, którego być może żaden programista nigdy nie przeczyta. Po co więc była ta czytelność?
 
 Film śledzi obietnicę, że programowanie zniknie: od raportu IBM z 1954 roku, według którego FORTRAN „powinien praktycznie wyeliminować kodowanie i debugowanie", przez COBOL i książkę z 1982 roku zatytułowaną Application Development Without Programmers, aż po to, co naprawdę stało się z zawodem — a to jest dziwniejsze, niż wygląda. W 2003 roku w amerykańskim badaniu zatrudnienia obok starej nazwy pojawiła się nowa, a dziś na jednego computer programmer przypada około sześciu software developers. Praca nie zniknęła. Zmieniła nazwę.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/when-programmers-stop-programming/
 
 Rozdziały:
 0:00 Nie zostało nic do napisania
@@ -296,6 +308,8 @@ O interessante, porém, não é se você ainda tem emprego. Por décadas ensinam
 
 O vídeo acompanha a promessa de que programar iria desaparecer: de um relatório da IBM de 1954 segundo o qual o FORTRAN "deveria praticamente eliminar a codificação e a depuração", passando pelo COBOL e por um livro de 1982 chamado Application Development Without Programmers, até o que de fato aconteceu com a profissão — e isso é mais estranho do que parece. Em 2003 a pesquisa de emprego americana acrescentou um novo cargo ao lado do antigo, e hoje há cerca de seis software developers para cada computer programmer. O trabalho não desapareceu. Ele foi renomeado.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/when-programmers-stop-programming/
+
 Capítulos:
 0:00 Não sobrou nada para escrever
 1:10 Para que servia a legibilidade?
@@ -336,6 +350,8 @@ Bir programcı olduğunu düşün. Bir gün editörünü açıyorsun ve içinde 
 Ama ilginç olan, hâlâ bir işinin olup olmadığı değil. Onlarca yıl boyunca programcılara, başka programcıların okuyabileceği kod yazmayı öğrettik — ve şimdi, belki hiçbir programcının okumayacağı kodu yazan makineler kuruyoruz. Peki bütün o okunabilirlik ne içindi?
 
 Bu video, programlamanın ortadan kalkacağı vaadini izliyor: FORTRAN'ın "kodlamayı ve hata ayıklamayı neredeyse tamamen ortadan kaldırmasının beklendiğini" söyleyen 1954 tarihli IBM raporundan, COBOL'den ve adı birebir Application Development Without Programmers olan 1982 tarihli kitaptan, mesleğe gerçekte ne olduğuna kadar — ki bu göründüğünden daha tuhaf. 2003'te Amerikan işgücü anketi eski unvanın yanına ikinci bir unvan ekledi ve bugün her bir computer programmer'a karşılık yaklaşık altı software developer var. İş ortadan kalkmadı. Adı değişti.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/when-programmers-stop-programming/
 
 Bölümler:
 0:00 Yazacak bir şey kalmadı
@@ -378,6 +394,8 @@ There’s More To It — cevapları sandığından uzun çıkan sorular.
 
 Відео простежує обіцянку, що програмування зникне: від звіту IBM 1954 року, за яким FORTRAN «мав практично усунути кодування та зневадження», через COBOL і книжку 1982 року, яка так і називається — Application Development Without Programmers, до того, що з професією сталося насправді, — а це дивніше, ніж здається. У 2003 році американське обстеження робочої сили додало поруч зі старою назвою посади другу, і сьогодні на одного computer programmer припадає близько шести software developer. Робота не зникла. Її перейменували.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/when-programmers-stop-programming/
+
 Розділи:
 0:00 Не лишилося чого писати
 1:10 Для чого була ця читабельність?
@@ -418,6 +436,8 @@ Hãy tưởng tượng bạn là một lập trình viên. Một ngày nọ bạ
 Nhưng điều thú vị không phải là bạn còn việc làm hay không. Suốt mấy chục năm chúng ta dạy lập trình viên viết mã sao cho lập trình viên khác đọc được — và giờ chúng ta đang dựng những cỗ máy viết ra mã mà có thể không lập trình viên nào đọc. Vậy bao công sức làm cho mã dễ đọc là để làm gì?
 
 Video này lần theo lời hứa rằng lập trình sẽ biến mất: từ một báo cáo của IBM năm 1954 nói rằng FORTRAN "được kỳ vọng sẽ gần như loại bỏ việc viết mã và gỡ lỗi", qua COBOL và một cuốn sách năm 1982 mang chính cái tên Application Development Without Programmers, đến chuyện thực sự đã xảy ra với nghề này — và chuyện đó kỳ lạ hơn bạn tưởng. Năm 2003, khảo sát lao động của Mỹ thêm một chức danh thứ hai bên cạnh chức danh cũ, và ngày nay cứ một computer programmer thì có khoảng sáu software developer. Công việc không biến mất. Nó được đổi tên.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/when-programmers-stop-programming/
 
 Các chương:
 0:00 Không còn gì để viết
@@ -460,6 +480,8 @@ Zajímavé ale není to, jestli ještě máš práci. Desítky let jsme učili p
 
 Video sleduje slib, že programování zmizí: od zprávy IBM z roku 1954, podle které měl FORTRAN „prakticky odstranit kódování a ladění", přes COBOL a knihu z roku 1982 s názvem Application Development Without Programmers až k tomu, co se s tou profesí opravdu stalo — a to je zvláštnější, než to vypadá. V roce 2003 přibyl v americkém průzkumu zaměstnanosti vedle starého názvu nový a dnes připadá zhruba šest softwarových vývojářů na jednoho počítačového programátora. Ta práce nezmizela. Přejmenovala se.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/when-programmers-stop-programming/
+
 Kapitoly:
 0:00 Nezbylo co psát
 1:10 K čemu byla ta čitelnost?
@@ -501,6 +523,8 @@ Lo interesante, sin embargo, no es si sigues teniendo trabajo. Durante décadas 
 
 El vídeo sigue la promesa de que la programación desaparecería: desde un informe de IBM de 1954 según el cual FORTRAN "debería eliminar prácticamente la codificación y la depuración", pasando por COBOL y un libro de 1982 titulado Application Development Without Programmers, hasta lo que de verdad le ocurrió al oficio — que es más raro de lo que parece. En 2003 la encuesta laboral estadounidense añadió un título nuevo junto al antiguo, y hoy hay unos seis software developers por cada computer programmer. El trabajo no desapareció. Le cambiaron el nombre.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/when-programmers-stop-programming/
+
 Capítulos:
 0:00 No queda nada que escribir
 1:10 ¿Para qué servía la legibilidad?
@@ -541,6 +565,8 @@ Tänk dig att du är programmerare. En dag öppnar du din editor och inser att d
 Det intressanta är dock inte om du fortfarande har ett jobb. I decennier lärde vi programmerare att skriva kod som andra programmerare kunde läsa — och nu bygger vi maskiner som skriver kod som kanske ingen programmerare läser. Vad var då all den där läsbarheten till för?
 
 Videon följer löftet om att programmerandet skulle försvinna: från en IBM-rapport från 1954 enligt vilken FORTRAN "i praktiken borde undanröja kodning och felsökning", via COBOL och en bok från 1982 med titeln Application Development Without Programmers, fram till vad som faktiskt hände med yrket — och det är märkligare än det ser ut. År 2003 fick den amerikanska arbetskraftsundersökningen en ny yrkestitel bredvid den gamla, och i dag går det ungefär sex software developers på varje computer programmer. Jobbet försvann inte. Det bytte namn.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/when-programmers-stop-programming/
 
 Kapitel:
 0:00 Inget kvar att skriva

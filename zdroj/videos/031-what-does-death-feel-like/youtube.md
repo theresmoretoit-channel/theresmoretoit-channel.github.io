@@ -73,6 +73,8 @@ wrote it down about two thousand years ago.
 And one distinction that turns out to be the most useful of all: being afraid of death is
 not the same as being afraid of dying.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-does-death-feel-like/
+
 Chapters
 0:00 What we think it will feel like
 1:16 Eternal sleep

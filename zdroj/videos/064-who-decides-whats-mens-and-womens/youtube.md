@@ -84,6 +84,8 @@ moral rule. It only works as long as people believe that it matters.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/who-decides-whats-mens-and-womens/
+
 CHAPTERS
 00:00 An invisible line in every clothing shop
 01:01 The honest part: some of the difference is practical

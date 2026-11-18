@@ -47,6 +47,8 @@ profile and got an average score of 4.26 out of 5, a double-blind test in Nature
 that the astrologers themselves helped design, and why one experiment is never the
 last word — including that one.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-we-believe-in-astrology/
+
 Chapters
 0:00 A question about your star sign
 0:29 The thirteenth constellation

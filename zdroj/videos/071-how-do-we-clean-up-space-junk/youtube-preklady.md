@@ -52,6 +52,8 @@ tule avaruusromua.
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-do-we-clean-up-space-junk/
+
 LUVUT
 00:00 Tuhansia tonneja romua
 00:47 Miksi se ei vain putoa alas
@@ -98,6 +100,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés
 automatiquement. Une piste audio en anglais américain est disponible en
 seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-do-we-clean-up-space-junk/
+
 CHAPITRES
 00:00 Des milliers de tonnes de débris
 00:47 Pourquoi ça ne retombe pas tout seul
@@ -141,6 +145,8 @@ antariksa.
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-do-we-clean-up-space-junk/
 
 BAB
 00:00 Ribuan ton sampah
@@ -186,6 +192,8 @@ diventa mai un detrito spaziale.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-do-we-clean-up-space-junk/
 
 CAPITOLI
 00:00 Migliaia di tonnellate di detriti
@@ -233,6 +241,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-do-we-clean-up-space-junk/
+
 KAPITEL
 00:00 Tausende Tonnen Schrott
 00:47 Warum er nicht einfach herunterfällt
@@ -275,6 +285,8 @@ kosmiczny śmieć to taki, który nigdy nim nie zostanie.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-do-we-clean-up-space-junk/
 
 ROZDZIAŁY
 00:00 Tysiące ton śmieci
@@ -319,6 +331,8 @@ nunca vira lixo espacial.
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-do-we-clean-up-space-junk/
+
 CAPÍTULOS
 00:00 Milhares de toneladas de lixo
 00:47 Por que ele não simplesmente cai
@@ -361,6 +375,8 @@ zorlandığına, ve en ucuz uzay çöpünün neden hiç uzay çöpüne dönüşm
 
 Altyazılar bu video için yazıldı, otomatik üretilmedi.
 İkinci ses parçası olarak Amerikan İngilizcesinde bir seslendirme mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-do-we-clean-up-space-junk/
 
 BÖLÜMLER
 00:00 Binlerce ton çöp
@@ -405,6 +421,8 @@ via Wikimedia Commons
 Субтитри написані для цього відео, а не згенеровані автоматично. Доступна
 друга звукова доріжка з озвученням американським варіантом англійської.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-do-we-clean-up-space-junk/
+
 РОЗДІЛИ
 00:00 Тисячі тонн сміття
 00:47 Чому воно просто не падає
@@ -447,6 +465,8 @@ sao mảnh rác vũ trụ rẻ nhất là mảnh không bao giờ trở thành r
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một
 bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-do-we-clean-up-space-junk/
+
 CHƯƠNG
 00:00 Hàng nghìn tấn rác
 00:47 Tại sao nó không tự rơi xuống
@@ -488,6 +508,8 @@ nejlevnější kus vesmírného odpadu ten, který se jím nikdy nestane.
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-do-we-clean-up-space-junk/
 
 KAPITOLY
 00:00 Tisíce tun odpadu
@@ -534,6 +556,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano como segunda
 pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-do-we-clean-up-space-junk/
+
 CAPÍTULOS
 00:00 Miles de toneladas de basura
 00:47 Por qué no se cae sin más
@@ -576,6 +600,8 @@ blir rymdskrot.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-do-we-clean-up-space-junk/
 
 KAPITEL
 00:00 Tusentals ton skrot

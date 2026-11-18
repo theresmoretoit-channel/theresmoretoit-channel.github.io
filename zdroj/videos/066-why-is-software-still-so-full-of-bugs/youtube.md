@@ -65,6 +65,8 @@ software has bugs?
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-software-still-so-full-of-bugs/
+
 CHAPTERS
 00:00 Another bug in the news
 00:44 A hundred switches, and 2^100

@@ -65,6 +65,8 @@ Lähteet: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-happens-when-your-allies-stop-trusting-you/
+
 LUVUT
 00:00 Viides artikla, johon vedottiin kerran
 00:57 Liittolainen, joka laskee
@@ -104,6 +106,8 @@ Alors, qu'arrive-t-il au pays le plus puissant de la planète quand ses alliés 
 Sources : North Atlantic Treaty (1949), Article 5 ; NATO, Collective defence and Article 5 ; UK Ministry of Defence, FOI response (2021) ; Veterans Affairs Canada ; Danish Parliament, resolution B 37 (2001) ; ECFR, Kobzová & Zerka, Home alone: Europeans are ready to defend themselves (2026) ; Kiel Institute, Ukraine Support Tracker (2026) ; US Treasury OFAC, General License 135 (2026) ; US EIA, distillate fuel oil data (2026) ; Regulation (EU) 2025/1106 (SAFE) ; Council of the EU, EU–Canada SAFE agreement (2026) ; Gallup Korea (août 2026) ; Nanos Research for The Globe and Mail (avril 2026) ; NATO, The Hague Summit Declaration (2025) ; IMF, COFER (2026) ; SIPRI, Trends in International Arms Transfers (2026) ; IISS (2025) ; B. Eichengreen, Exorbitant Privilege (2011).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-happens-when-your-allies-stop-trusting-you/
 
 CHAPITRES
 00:00 L'article 5, invoqué une seule fois
@@ -145,6 +149,8 @@ Sumber: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Ar
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-happens-when-your-allies-stop-trusting-you/
+
 BAB
 00:00 Pasal 5, diaktifkan sekali
 00:57 Sekutu yang sedang berhitung
@@ -184,6 +190,8 @@ Video correlato: Perché il Canada dovrebbe entrare nell'Unione europea? https:/
 Fonti: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Article 5; UK Ministry of Defence, FOI response (2021); Veterans Affairs Canada; Danish Parliament, resolution B 37 (2001); ECFR, Kobzová & Zerka, Home alone: Europeans are ready to defend themselves (2026); Kiel Institute, Ukraine Support Tracker (2026); US Treasury OFAC, General License 135 (2026); US EIA, distillate fuel oil data (2026); Regulation (EU) 2025/1106 (SAFE); Council of the EU, EU–Canada SAFE agreement (2026); Gallup Korea (agosto 2026); Nanos Research for The Globe and Mail (aprile 2026); NATO, The Hague Summit Declaration (2025); IMF, COFER (2026); SIPRI, Trends in International Arms Transfers (2026); IISS (2025); B. Eichengreen, Exorbitant Privilege (2011).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-happens-when-your-allies-stop-trusting-you/
 
 CAPITOLI
 00:00 L'Articolo 5, invocato una volta
@@ -225,6 +233,8 @@ Quellen: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and A
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-happens-when-your-allies-stop-trusting-you/
+
 KAPITEL
 00:00 Artikel 5, einmal ausgelöst
 00:57 Ein Verbündeter, der nachrechnet
@@ -264,6 +274,8 @@ Zobacz też: Dlaczego Kanada miałaby wstąpić do Unii Europejskiej? https://ww
 Źródła: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Article 5; UK Ministry of Defence, FOI response (2021); Veterans Affairs Canada; Danish Parliament, resolution B 37 (2001); ECFR, Kobzová & Zerka, Home alone: Europeans are ready to defend themselves (2026); Kiel Institute, Ukraine Support Tracker (2026); US Treasury OFAC, General License 135 (2026); US EIA, distillate fuel oil data (2026); Regulation (EU) 2025/1106 (SAFE); Council of the EU, EU–Canada SAFE agreement (2026); Gallup Korea (sierpień 2026); Nanos Research for The Globe and Mail (kwiecień 2026); NATO, The Hague Summit Declaration (2025); IMF, COFER (2026); SIPRI, Trends in International Arms Transfers (2026); IISS (2025); B. Eichengreen, Exorbitant Privilege (2011).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-happens-when-your-allies-stop-trusting-you/
 
 ROZDZIAŁY
 00:00 Artykuł 5, na który powołano się raz
@@ -305,6 +317,8 @@ Fontes: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Ar
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-happens-when-your-allies-stop-trusting-you/
+
 CAPÍTULOS
 00:00 Artigo 5, invocado uma vez
 00:57 Um aliado fazendo as contas
@@ -344,6 +358,8 @@ Peki, müttefikleri ona güvenmeyi bırakınca Dünya'nın en güçlü ülkesine
 Kaynaklar: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Article 5; UK Ministry of Defence, FOI response (2021); Veterans Affairs Canada; Danish Parliament, resolution B 37 (2001); ECFR, Kobzová & Zerka, Home alone: Europeans are ready to defend themselves (2026); Kiel Institute, Ukraine Support Tracker (2026); US Treasury OFAC, General License 135 (2026); US EIA, distillate fuel oil data (2026); Regulation (EU) 2025/1106 (SAFE); Council of the EU, EU–Canada SAFE agreement (2026); Gallup Korea (Ağustos 2026); Nanos Research for The Globe and Mail (Nisan 2026); NATO, The Hague Summit Declaration (2025); IMF, COFER (2026); SIPRI, Trends in International Arms Transfers (2026); IISS (2025); B. Eichengreen, Exorbitant Privilege (2011).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-happens-when-your-allies-stop-trusting-you/
 
 BÖLÜMLER
 00:00 Bir kez devreye sokulan 5. Madde
@@ -385,6 +401,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-happens-when-your-allies-stop-trusting-you/
+
 РОЗДІЛИ
 00:00 Стаття 5, задіяна один раз
 00:57 Союзник, який почав рахувати
@@ -424,6 +442,8 @@ Video liên quan: Vì sao Canada lại muốn gia nhập Liên minh châu Âu? h
 Nguồn: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Article 5; UK Ministry of Defence, FOI response (2021); Veterans Affairs Canada; Danish Parliament, resolution B 37 (2001); ECFR, Kobzová & Zerka, Home alone: Europeans are ready to defend themselves (2026); Kiel Institute, Ukraine Support Tracker (2026); US Treasury OFAC, General License 135 (2026); US EIA, distillate fuel oil data (2026); Regulation (EU) 2025/1106 (SAFE); Council of the EU, EU–Canada SAFE agreement (2026); Gallup Korea (tháng 8/2026); Nanos Research for The Globe and Mail (tháng 4/2026); NATO, The Hague Summit Declaration (2025); IMF, COFER (2026); SIPRI, Trends in International Arms Transfers (2026); IISS (2025); B. Eichengreen, Exorbitant Privilege (2011).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-happens-when-your-allies-stop-trusting-you/
 
 CHƯƠNG
 00:00 Điều 5, mới kích hoạt một lần
@@ -465,6 +485,8 @@ Zdroje: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Ar
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-happens-when-your-allies-stop-trusting-you/
+
 KAPITOLY
 00:00 Článek 5, uplatněný jednou
 00:57 Spojenec, který počítá
@@ -505,6 +527,8 @@ Fuentes: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and A
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-happens-when-your-allies-stop-trusting-you/
+
 CAPÍTULOS
 00:00 El artículo 5, invocado una vez
 00:57 Un aliado haciendo cuentas
@@ -544,6 +568,8 @@ Relaterat: Varför skulle Kanada gå med i Europeiska unionen? https://www.youtu
 Källor: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and Article 5; UK Ministry of Defence, FOI response (2021); Veterans Affairs Canada; Danish Parliament, resolution B 37 (2001); ECFR, Kobzová & Zerka, Home alone: Europeans are ready to defend themselves (2026); Kiel Institute, Ukraine Support Tracker (2026); US Treasury OFAC, General License 135 (2026); US EIA, distillate fuel oil data (2026); Regulation (EU) 2025/1106 (SAFE); Council of the EU, EU–Canada SAFE agreement (2026); Gallup Korea (augusti 2026); Nanos Research for The Globe and Mail (april 2026); NATO, The Hague Summit Declaration (2025); IMF, COFER (2026); SIPRI, Trends in International Arms Transfers (2026); IISS (2025); B. Eichengreen, Exorbitant Privilege (2011).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-happens-when-your-allies-stop-trusting-you/
 
 KAPITEL
 00:00 Artikel 5, åberopad en gång

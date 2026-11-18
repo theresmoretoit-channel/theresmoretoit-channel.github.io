@@ -108,6 +108,8 @@ https://youtu.be/1dIM5UZUEZg
 Osa kolme — selain, joka ei suostunut kuolemaan:
 https://youtu.be/dnF3SJoeTns
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-did-internet-explorer-stop/
+
 Luvut
 00:00 Viisi vuotta ja kaksi kuukautta
 00:40 Tämä on neljäs osa
@@ -184,6 +186,8 @@ https://youtu.be/1dIM5UZUEZg
 
 Partie trois — le navigateur qui ne voulait pas mourir :
 https://youtu.be/dnF3SJoeTns
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-did-internet-explorer-stop/
 
 Chapitres
 00:00 Cinq ans et deux mois
@@ -262,6 +266,8 @@ https://youtu.be/1dIM5UZUEZg
 Bagian tiga — browser yang tidak mau mati:
 https://youtu.be/dnF3SJoeTns
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-did-internet-explorer-stop/
+
 Bab
 00:00 Lima tahun dua bulan
 00:40 Ini bagian keempat
@@ -335,6 +341,8 @@ https://youtu.be/1dIM5UZUEZg
 
 Parte tre — il browser che non voleva morire:
 https://youtu.be/dnF3SJoeTns
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-did-internet-explorer-stop/
 
 Capitoli
 00:00 Cinque anni e due mesi
@@ -414,6 +422,8 @@ https://youtu.be/1dIM5UZUEZg
 Teil drei — der Browser, der nicht sterben wollte:
 https://youtu.be/dnF3SJoeTns
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-did-internet-explorer-stop/
+
 Kapitel
 00:00 Fünf Jahre und zwei Monate
 00:40 Das ist Teil vier
@@ -488,6 +498,8 @@ https://youtu.be/1dIM5UZUEZg
 
 Część trzecia — przeglądarka, która nie chciała umrzeć:
 https://youtu.be/dnF3SJoeTns
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-did-internet-explorer-stop/
 
 Rozdziały
 00:00 Pięć lat i dwa miesiące
@@ -564,6 +576,8 @@ https://youtu.be/1dIM5UZUEZg
 Parte três — o navegador que não queria morrer:
 https://youtu.be/dnF3SJoeTns
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-did-internet-explorer-stop/
+
 Capítulos
 00:00 Cinco anos e dois meses
 00:40 Esta é a parte quatro
@@ -639,6 +653,8 @@ https://youtu.be/1dIM5UZUEZg
 Üçüncü bölüm — bir türlü ölmeyen tarayıcı:
 https://youtu.be/dnF3SJoeTns
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-did-internet-explorer-stop/
+
 Bölümler
 00:00 Beş yıl iki ay
 00:40 Bu dördüncü bölüm
@@ -710,6 +726,8 @@ https://youtu.be/1dIM5UZUEZg
 
 Частина третя — браузер, який не хотів помирати:
 https://youtu.be/dnF3SJoeTns
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-did-internet-explorer-stop/
 
 Розділи
 00:00 П'ять років і два місяці
@@ -783,6 +801,8 @@ https://youtu.be/1dIM5UZUEZg
 Phần ba — trình duyệt không chịu chết:
 https://youtu.be/dnF3SJoeTns
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-did-internet-explorer-stop/
+
 Các chương
 00:00 Năm năm hai tháng
 00:40 Đây là phần bốn
@@ -855,6 +875,8 @@ https://youtu.be/1dIM5UZUEZg
 
 Třetí díl — prohlížeč, který nechtěl umřít:
 https://youtu.be/dnF3SJoeTns
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-did-internet-explorer-stop/
 
 Kapitoly
 00:00 Pět let a dva měsíce
@@ -931,6 +953,8 @@ https://youtu.be/1dIM5UZUEZg
 Parte tres — el navegador que no quería morir:
 https://youtu.be/dnF3SJoeTns
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-did-internet-explorer-stop/
+
 Capítulos
 00:00 Cinco años y dos meses
 00:40 Esta es la parte cuatro
@@ -1005,6 +1029,8 @@ https://youtu.be/1dIM5UZUEZg
 
 Del tre — webbläsaren som inte ville dö:
 https://youtu.be/dnF3SJoeTns
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-did-internet-explorer-stop/
 
 Kapitel
 00:00 Fem år och två månader

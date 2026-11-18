@@ -65,6 +65,8 @@ Sources: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS,
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-does-your-clock-set-itself/
+
 CHAPTERS
 00:00 A clock nobody ever set
 00:45 Short dip, long dip

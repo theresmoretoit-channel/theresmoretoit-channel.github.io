@@ -58,6 +58,8 @@ Sources: British Army (M3 Amphibious Bridging Vehicle); General Dynamics Europea
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-can-a-floating-bridge-carry-a-tank/
+
 CHAPTERS
 00:00 Sixty tonnes on floating boxes
 00:26 Sixty cubic metres of water

@@ -60,6 +60,8 @@ https://youtu.be/R7Un3IOMvbg
 Part two — the bugs that had names:
 https://youtu.be/1dIM5UZUEZg
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/the-browser-that-wouldnt-die/
+
 Chapters
 00:00 Part three
 01:19 January 2010

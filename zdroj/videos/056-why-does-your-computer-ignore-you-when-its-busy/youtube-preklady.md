@@ -71,6 +71,8 @@ kone ei useinkaan ole hidas vaan myöhässä, miksi pullonkaula on joskus
 muisti eikä suoritin, ja miksi sovellus voi kalveta ja lakata
 vastaamasta, vaikka järjestelmä sen ympärillä on täysin elossa.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Luvut:
 0:00 Napsautus. Mitään ei tapahdu.
 1:18 Mikä keskeytys oikeastaan on
@@ -127,6 +129,8 @@ figé, pourquoi la machine n'est souvent pas lente mais en retard,
 pourquoi le goulot d'étranglement est parfois la mémoire et non le
 processeur, et pourquoi une application peut pâlir et cesser de répondre
 alors que le système autour d'elle est parfaitement vivant.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Chapitres :
 0:00 Clic. Rien ne se passe.
@@ -186,6 +190,8 @@ kenapa sumbatannya kadang memori dan bukan prosesor, dan kenapa sebuah
 aplikasi bisa memudar dan berhenti menjawab sementara sistem di
 sekelilingnya hidup sepenuhnya.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Bab:
 0:00 Klik. Tidak terjadi apa-apa.
 1:18 Apa sebenarnya interupsi itu
@@ -241,6 +247,8 @@ bloccato, perché la macchina spesso non è lenta ma in ritardo, perché il
 collo di bottiglia a volte è la memoria e non il processore, e perché
 un'applicazione può sbiadire e smettere di rispondere mentre il sistema
 attorno a lei è perfettamente vivo.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Capitoli:
 0:00 Clic. Non succede niente.
@@ -301,6 +309,8 @@ warum der Engpass manchmal der Speicher ist und nicht der Prozessor, und
 warum eine Anwendung blass werden und aufhören kann zu antworten,
 während das System um sie herum vollkommen lebendig ist.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Kapitel:
 0:00 Klick. Nichts passiert.
 1:18 Was ein Interrupt wirklich ist
@@ -356,6 +366,8 @@ dlaczego maszyna często nie jest wolna, tylko się spóźnia, dlaczego
 wąskim gardłem bywa pamięć, a nie procesor, i dlaczego aplikacja może
 zblednąć i przestać odpowiadać, kiedy system wokół niej jest zupełnie
 żywy.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Rozdziały:
 0:00 Klik. Nic się nie dzieje.
@@ -413,6 +425,8 @@ por que o gargalo às vezes é a memória e não o processador, e por que um
 aplicativo pode desbotar e parar de responder enquanto o sistema à volta
 dele está perfeitamente vivo.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Capítulos:
 0:00 Clique. Não acontece nada.
 1:18 O que é de fato uma interrupção
@@ -467,6 +481,8 @@ Yol boyunca: işlemcinin yüzde yüzde olması neden donmuş demek değil,
 makine neden çoğu zaman yavaş değil de geç kalmış oluyor, darboğaz neden
 bazen işlemci değil bellek oluyor, ve çevresindeki sistem gayet
 canlıyken bir uygulama neden solup yanıt vermeyi bırakabiliyor.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Bölümler:
 0:00 Tıklama. Hiçbir şey olmuyor.
@@ -523,6 +539,8 @@ Diğer bütün görseller projenin kendi kaynak dosyalarından çizildi.
 пам'ять, а не процесор, і чому застосунок може зблідніти й перестати
 відповідати, поки система довкола нього цілком жива.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Розділи:
 0:00 Клац. Нічого не відбувається.
 1:18 Що таке переривання насправді
@@ -578,6 +596,8 @@ treo máy, vì sao máy thường không chậm mà là đến muộn, vì sao n
 đôi khi là bộ nhớ chứ không phải bộ xử lý, và vì sao một ứng dụng có thể
 bạc đi và thôi trả lời trong khi hệ thống quanh nó vẫn sống nguyên vẹn.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Các phần:
 0:00 Bấm. Không có gì xảy ra.
 1:18 Ngắt thật ra là gì
@@ -631,6 +651,8 @@ Cestou: proč procesor na sto procentech neznamená zaseknuto, proč
 počítač často není pomalý, ale přichází pozdě, proč je úzkým hrdlem
 někdy paměť místo procesoru, a proč může aplikace zešednout a přestat
 odpovídat, zatímco systém kolem ní je úplně živý.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Kapitoly:
 0:00 Klik. Nic se nestane.
@@ -687,6 +709,8 @@ colgado, por qué la máquina muchas veces no es lenta sino que llega
 tarde, por qué el cuello de botella a veces es la memoria y no el
 procesador, y por qué una aplicación puede atenuarse y dejar de
 responder mientras el sistema a su alrededor está perfectamente vivo.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Capítulos:
 0:00 Clic. No pasa nada.
@@ -745,6 +769,8 @@ hängt sig, varför maskinen ofta inte är långsam utan sen, varför
 flaskhalsen ibland är minnet och inte processorn, och varför ett program
 kan blekna och sluta svara medan systemet runt omkring det är fullt
 levande.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-your-computer-ignore-you-when-its-busy/
 
 Kapitel:
 0:00 Klick. Ingenting händer.

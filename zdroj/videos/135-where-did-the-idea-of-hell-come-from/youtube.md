@@ -61,6 +61,8 @@ Sources: King James Bible (Deuteronomy, 1 Samuel, Ecclesiastes, Isaiah, Jeremiah
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/where-did-the-idea-of-hell-come-from/
+
 CHAPTERS
 00:00 Hell has an address
 00:44 No hell at all

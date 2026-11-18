@@ -50,6 +50,8 @@ Kone nousee, jokin menee pieleen, ja ennen laskeutumista se päästää kaksikym
 
 Vastauksessa on mukana sadan tonnin ero sen välillä, millä painolla kone saa nousta ja millä laskeutua, kylmän sodan pommikone joka todella sytytti oman ilmaan päästämänsä polttoaineen, ja käänne jota useimmat jutut eivät mainitse: useimmat matkustajakoneet eivät pysty päästämään polttoainetta ilmaan lainkaan.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/where-does-jet-fuel-go/
+
 LUVUT
 0:00 Uutisotsikko
 0:26 Miksi se ei voi vain laskeutua
@@ -112,6 +114,8 @@ bombardier de la guerre froide qui a vraiment mis le feu à son propre
 carburant largué, et un fait surprenant que presque aucun article ne
 mentionne : la plupart des avions de ligne ne peuvent pas larguer de
 carburant du tout.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/where-does-jet-fuel-go/
 
 CHAPITRES
 0:00 Le titre du journal
@@ -176,6 +180,8 @@ Sebuah pesawat lepas landas, ada yang tidak beres, dan sebelum mendarat ia membu
 
 Jawabannya melibatkan selisih seratus ton antara batas bobot yang diizinkan saat lepas landas dan saat mendarat, sebuah pengebom era Perang Dingin yang benar-benar membakar bahan bakarnya sendiri setelah dibuang, dan satu hal yang hampir tidak pernah disebut artikel mana pun: sebagian besar pesawat penumpang sama sekali tidak bisa membuang bahan bakar.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/where-does-jet-fuel-go/
+
 BAB
 0:00 Judul berita itu
 0:26 Kenapa pesawatnya tidak bisa langsung mendarat
@@ -239,6 +245,8 @@ bombardiere della guerra fredda che diede davvero fuoco al proprio
 carburante scaricato, e un colpo di scena che quasi nessun articolo
 racconta: la maggior parte degli aerei di linea non può scaricare
 carburante affatto.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/where-does-jet-fuel-go/
 
 CAPITOLI
 0:00 Il titolo di giornale
@@ -314,6 +322,8 @@ abgelassenen Treibstoff tatsächlich in Brand setzte, und eine Tatsache,
 die fast kein Artikel erwähnt: die meisten Verkehrsflugzeuge können
 überhaupt keinen Treibstoff ablassen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/where-does-jet-fuel-go/
+
 KAPITEL
 0:00 Die Schlagzeile
 0:26 Warum es nicht einfach landen kann
@@ -385,6 +395,8 @@ może wystartować, a tą, z jaką może wylądować, bombowiec z czasów zimnej
 wojny, który naprawdę podpalił własne zrzucone paliwo, i zwrot akcji, o
 którym prawie żaden artykuł nie wspomina: większość samolotów pasażerskich
 w ogóle nie potrafi zrzucać paliwa.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/where-does-jet-fuel-go/
 
 ROZDZIAŁY
 0:00 Nagłówek
@@ -459,6 +471,8 @@ Fria que de fato ateou fogo ao próprio combustível despejado, e uma
 reviravolta que quase nenhum artigo menciona: a maioria dos aviões
 comerciais não consegue despejar combustível de jeito nenhum.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/where-does-jet-fuel-go/
+
 CAPÍTULOS
 0:00 A manchete
 0:26 Por que ele não pode simplesmente pousar
@@ -520,6 +534,8 @@ Bir uçak kalkıyor, bir şeyler ters gidiyor ve inmeden önce gökyüzüne yirm
 
 Cevapta şunlar var: bir uçağın hangi ağırlıkla kalkabileceği ile hangi ağırlıkla inebileceği arasındaki yüz tonluk fark, boşalttığı kendi yakıtını gerçekten tutuşturan bir Soğuk Savaş bombardıman uçağı ve neredeyse hiçbir haberin değinmediği bir ayrıntı: yolcu uçaklarının çoğu yakıt boşaltamaz bile.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/where-does-jet-fuel-go/
+
 BÖLÜMLER
 0:00 Haber başlığı
 0:26 Neden öylece inemiyor
@@ -572,6 +588,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 У відповіді фігурують стотонна різниця між вагою, з якою літаку можна злітати, і тією, з якою можна сідати, бомбардувальник часів холодної війни, який справді підпалював злите власне пальне, і поворот, про який майже жодна стаття не згадує: більшість пасажирських літаків зливати пальне взагалі не вміє.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/where-does-jet-fuel-go/
+
 РОЗДІЛИ
 0:00 Заголовок новин
 0:26 Чому він не може просто сісти
@@ -623,6 +641,8 @@ Nhiên liệu máy bay xả ra sẽ đi đâu?
 Một chiếc máy bay cất cánh, có trục trặc, và trước khi hạ cánh nó xả hai mươi tấn nhiên liệu vào bầu trời. Chỗ nhiên liệu ấy thực sự đi đâu — và sao không đốt nhiên liệu đó đi?
 
 Câu trả lời liên quan đến khoảng chênh một trăm tấn giữa khối lượng mà máy bay được phép cất cánh và khối lượng mà nó được phép hạ cánh, một chiếc oanh tạc cơ thời Chiến tranh Lạnh từng thực sự đốt cháy chỗ nhiên liệu mình vừa xả, và một chi tiết mà hầu như chẳng bài báo nào nhắc tới: phần lớn máy bay chở khách không hề xả được nhiên liệu.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/where-does-jet-fuel-go/
 
 CÁC CHƯƠNG
 0:00 Dòng tít trên báo
@@ -684,6 +704,8 @@ V odpovědi hraje roli stotunový rozdíl mezi hmotností, se kterou letadlo
 smí vzlétnout, a tou, se kterou smí přistát, bombardér ze studené války,
 který si vypuštěné palivo doopravdy zapálil, a zvrat, který skoro žádný
 článek nezmiňuje: většina dopravních letadel palivo vypustit vůbec neumí.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/where-does-jet-fuel-go/
 
 KAPITOLY
 0:00 Titulek ve zprávách
@@ -749,6 +771,8 @@ aterrizar, un bombardero de la Guerra Fría que de verdad prendió fuego al
 combustible que había soltado, y un giro que casi ningún artículo
 menciona: la mayoría de los aviones de línea no pueden soltar combustible
 en absoluto.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/where-does-jet-fuel-go/
 
 CAPÍTULOS
 0:00 El titular
@@ -823,6 +847,8 @@ lyfta med och den det får landa med, ett bombplan från kalla kriget som
 verkligen satte eld på sitt eget dumpade bränsle, och en vändning som
 nästan ingen artikel nämner: de flesta trafikflygplan kan inte dumpa
 bränsle alls.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/where-does-jet-fuel-go/
 
 KAPITEL
 0:00 Rubriken

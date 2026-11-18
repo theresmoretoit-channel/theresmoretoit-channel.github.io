@@ -62,6 +62,8 @@ Kuulostaa helikopterilta. Ei ole — koska moottori ei pyöritä roottoria laink
 
 Tässä videossa selvitetään: miksi roottori pyörii, vaikka mikään ei käytä sitä, miksi runko ei pyöri sen mukana, miksi kone ei osaa leijua paikallaan, ja miksi muutama niistä pystyy silti ponnahtamaan maasta ilman minkäänlaista kiitoa. Lisäksi se osa, jonka useimmat ymmärtävät väärin — autogyro on kolmetoista vuotta VANHEMPI kuin käyttökelpoinen helikopteri, ja se maksaa murto-osan siitä.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/the-helicopter-that-isnt/
+
 Luvut
 00:00 Kone, joka näyttää helikopterilta
 00:31 Miten helikopteri tekee sen
@@ -116,6 +118,8 @@ quittent quand même le sol sans aucune course. Plus ce sur quoi presque
 tout le monde se trompe — l'autogire a treize ans de PLUS que
 l'hélicoptère utilisable, et coûte une fraction de son prix.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/the-helicopter-that-isnt/
+
 Chapitres
 00:00 L'engin qui ressemble à un hélicoptère
 00:31 Comment l'hélicoptère s'y prend
@@ -160,6 +164,8 @@ Ia punya rotor besar di atasnya. Ia lepas landas dan mendarat di area yang terny
 Kedengarannya seperti helikopter. Bukan — karena mesinnya sama sekali tidak menggerakkan rotornya. Udaranyalah yang menggerakkan.
 
 Video ini membongkarnya: kenapa sebuah rotor berputar padahal tidak ada yang menggerakkannya, kenapa badan pesawatnya tidak ikut berputar, kenapa mesin ini tidak bisa melayang di tempat, dan kenapa beberapa di antaranya tetap bisa melompat dari tanah tanpa ancang-ancang sama sekali. Ditambah bagian yang kebanyakan orang salah pahami — gyroplane itu tiga belas tahun LEBIH TUA daripada helikopter yang praktis, dan harganya hanya sebagian kecil dari harga helikopter.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/the-helicopter-that-isnt/
 
 Bab
 00:00 Mesin yang kelihatan seperti helikopter
@@ -214,6 +220,8 @@ fermo in aria, e perché alcuni riescono comunque a staccarsi da terra
 senza corsa alcuna. E poi la parte su cui quasi tutti sbagliano —
 l'autogiro è tredici anni PIÙ VECCHIO dell'elicottero utilizzabile, e
 costa una frazione del suo prezzo.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/the-helicopter-that-isnt/
 
 Capitoli
 00:00 La macchina che sembra un elicottero
@@ -272,6 +280,8 @@ Boden abheben. Dazu der Teil, bei dem sich die meisten irren — der
 Tragschrauber ist dreizehn Jahre ÄLTER als der brauchbare Hubschrauber,
 und kostet einen Bruchteil davon.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/the-helicopter-that-isnt/
+
 Kapitel
 00:00 Das Gerät, das aussieht wie ein Hubschrauber
 00:31 Wie der Hubschrauber es macht
@@ -329,6 +339,8 @@ rozbiegu. Do tego rzecz, co do której większość się myli — wiatrakowiec
 jest trzynaście lat STARSZY od użytecznego śmigłowca i kosztuje ułamek
 jego ceny.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/the-helicopter-that-isnt/
+
 Rozdziały
 00:00 Maszyna, która wygląda jak śmigłowiec
 00:31 Jak robi to śmigłowiec
@@ -383,6 +395,8 @@ por que alguns ainda assim saem do chão sem corrida nenhuma. Mais a parte
 em que quase todo mundo erra — o autogiro é treze anos MAIS ANTIGO que o
 helicóptero prático, e custa uma fração do preço dele.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/the-helicopter-that-isnt/
+
 Capítulos
 00:00 A máquina que parece um helicóptero
 00:31 Como o helicóptero faz isso
@@ -428,6 +442,8 @@ Kulağa helikopter gibi geliyor. Değil — çünkü motor rotoru hiç döndürm
 
 Bu video bunu parçalarına ayırıyor: hiçbir şey döndürmezken bir rotor neden döner, gövde neden onunla birlikte dönmez, bu makine neden havada asılı kalamaz ve birkaçı neden hiç kalkış koşusu olmadan yerden sıçrayabilir. Üstüne, çoğu kişinin yanlış bildiği kısım — cayrokopter, kullanışlı helikopterden on üç yıl DAHA ESKİ ve fiyatı bir helikopterin fiyatının çok küçük bir kısmı.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/the-helicopter-that-isnt/
+
 Bölümler
 00:00 Helikoptere benzeyen makine
 00:31 Helikopter bunu nasıl yapıyor
@@ -470,6 +486,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 У цьому відео пояснюємо: чому ротор обертається, хоча його ніщо не приводить у рух, чому фюзеляж не обертається разом з ним, чому машина не вміє висіти на місці, і чому деякі з них однаково здатні підстрибнути із землі взагалі без розбігу. А до того та частина, яку більшість розуміє хибно: автожир на тринадцять років СТАРШИЙ за придатний до використання гелікоптер і коштує дещицю його ціни.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/the-helicopter-that-isnt/
+
 Розділи
 00:00 Машина, схожа на гелікоптер
 00:31 Як це робить гелікоптер
@@ -511,6 +529,8 @@ Nó có một rotor lớn ở trên đầu. Nó cất và hạ cánh trong kho�
 Nghe thì giống trực thăng. Nhưng không phải — bởi động cơ hoàn toàn không quay rotor. Chính không khí mới quay nó.
 
 Video này mổ xẻ chuyện đó: vì sao một rotor lại quay dù chẳng có gì dẫn động nó, vì sao thân máy bay không quay theo, vì sao cỗ máy này không thể treo một chỗ, và vì sao vài chiếc trong số đó vẫn bật lên khỏi mặt đất mà không cần chạy đà chút nào. Cộng thêm phần mà phần lớn mọi người hiểu sai — loại máy bay này ra đời TRƯỚC chiếc trực thăng có thể sử dụng trong thực tế mười ba năm, và giá chỉ bằng một phần nhỏ.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/the-helicopter-that-isnt/
 
 Các chương
 00:00 Cỗ máy trông giống trực thăng
@@ -563,6 +583,8 @@ se s ním netočí i trup, proč stroj neumí viset, a proč se pár z nich
 přesto dokáže odlepit od země úplně bez rozjezdu. A k tomu věc, ve které
 se většina lidí mýlí — vírník je o třináct let STARŠÍ než použitelný
 vrtulník a stojí zlomek jeho ceny.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/the-helicopter-that-isnt/
 
 Kapitoly
 00:00 Stroj, který vypadá jako vrtulník
@@ -621,6 +643,8 @@ sin carrera ninguna. Y además lo que casi todo el mundo se equivoca — el
 autogiro es trece años MÁS ANTIGUO que el helicóptero práctico, y cuesta
 una fracción de uno.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/the-helicopter-that-isnt/
+
 Capítulos
 00:00 La máquina que parece un helicóptero
 00:31 Cómo lo hace un helicóptero
@@ -676,6 +700,8 @@ den, varför flygkroppen inte snurrar med, varför farkosten inte kan hovra,
 och varför några ändå lämnar marken helt utan startsträcka. Plus det som
 de flesta har fel om — autogiron är tretton år ÄLDRE än den användbara
 helikoptern, och kostar en bråkdel av en sådan.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/the-helicopter-that-isnt/
 
 Kapitel
 00:00 Maskinen som ser ut som en helikopter

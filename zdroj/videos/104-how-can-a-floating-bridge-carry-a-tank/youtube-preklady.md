@@ -53,6 +53,8 @@ Lähteet: Britannian armeija (M3-amfibisilta-ajoneuvo); General Dynamics Europea
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-can-a-floating-bridge-carry-a-tank/
+
 LUVUT
 00:00 Kuusikymmentä tonnia kelluvilla laatikoilla
 00:26 Kuusikymmentä kuutiometriä vettä
@@ -89,6 +91,8 @@ D'Archimède et d'un bloc d'eau déplacée aux ponts ruban, aux engins amphibies
 Sources : Armée britannique (engin amphibie de franchissement M3) ; General Dynamics European Land Systems (M3, exercice Anakonda 2016) ; WSDOT et Guinness World Records (SR 520 Evergreen Point Floating Bridge) ; FAS / manuel des systèmes d'armes de l'US Army (Improved Ribbon Bridge) ; Conflict and Environment Observatory (carte des dégâts du franchissement de Bilohorivka) ; US Army, army.mil (Kindy, 2025) ; Fort Leonard Wood, Engineer Professional Bulletin (Witcomb, 2025) ; point de situation du renseignement militaire britannique (UK Defence Intelligence) du 13 mai 2022, cité par la presse.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-can-a-floating-bridge-carry-a-tank/
 
 CHAPITRES
 00:00 Soixante tonnes sur des caisses flottantes
@@ -127,6 +131,8 @@ Sumber: Angkatan Darat Inggris (kendaraan jembatan amfibi M3); General Dynamics 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-can-a-floating-bridge-carry-a-tank/
+
 BAB
 00:00 Enam puluh ton di atas kotak terapung
 00:26 Enam puluh meter kubik air
@@ -163,6 +169,8 @@ Da Archimede e da un blocco d'acqua spostata ai ponti a nastro, ai mezzi anfibi 
 Fonti: Esercito britannico (mezzo anfibio da ponte M3); General Dynamics European Land Systems (M3, esercitazione Anakonda 2016); WSDOT e Guinness World Records (SR 520 Evergreen Point Floating Bridge); FAS / manuale dei sistemi d'arma dell'US Army (Improved Ribbon Bridge); Conflict and Environment Observatory (mappa dei danni all'attraversamento di Bilohorivka); US Army, army.mil (Kindy, 2025); Fort Leonard Wood, Engineer Professional Bulletin (Witcomb, 2025); bollettino dell'intelligence della difesa britannica (UK Defence Intelligence) del 13 maggio 2022, come riportato dalla stampa.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-can-a-floating-bridge-carry-a-tank/
 
 CAPITOLI
 00:00 Sessanta tonnellate su casse galleggianti
@@ -201,6 +209,8 @@ Quellen: Britische Armee (Amphibienbrückenfahrzeug M3); General Dynamics Europe
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-can-a-floating-bridge-carry-a-tank/
+
 KAPITEL
 00:00 Sechzig Tonnen auf schwimmenden Kästen
 00:26 Sechzig Kubikmeter Wasser
@@ -237,6 +247,8 @@ Od Archimedesa i bryły wypartej wody po mosty wstęgowe, amfibijne pojazdy most
 Źródła: Armia Brytyjska (amfibijny pojazd mostowy M3); General Dynamics European Land Systems (M3, ćwiczenia Anakonda 2016); WSDOT i Guinness World Records (SR 520 Evergreen Point Floating Bridge); FAS / podręcznik systemów uzbrojenia US Army (Improved Ribbon Bridge); Conflict and Environment Observatory (mapa zniszczeń przeprawy pod Biłohoriwką); US Army, army.mil (Kindy, 2025); Fort Leonard Wood, Engineer Professional Bulletin (Witcomb, 2025); komunikat brytyjskiego wywiadu wojskowego (UK Defence Intelligence) z 13 maja 2022 roku, według doniesień prasowych.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-can-a-floating-bridge-carry-a-tank/
 
 ROZDZIAŁY
 00:00 Sześćdziesiąt ton na pływających skrzyniach
@@ -275,6 +287,8 @@ Fontes: Exército Britânico (veículo anfíbio de ponte M3); General Dynamics E
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-can-a-floating-bridge-carry-a-tank/
+
 CAPÍTULOS
 00:00 Sessenta toneladas sobre caixas flutuantes
 00:26 Sessenta metros cúbicos de água
@@ -311,6 +325,8 @@ Arşimet'ten ve yerinden edilen su bloğundan şerit köprülere, amfibi köprü
 Kaynaklar: İngiliz Ordusu (M3 amfibi köprü aracı); General Dynamics European Land Systems (M3, Anakonda 2016 tatbikatı); WSDOT ve Guinness World Records (SR 520 Evergreen Point Floating Bridge); FAS / ABD Ordusu silah sistemleri el kitabı (Improved Ribbon Bridge); Conflict and Environment Observatory (Bilohorivka nehir geçişi hasar haritası); US Army, army.mil (Kindy, 2025); Fort Leonard Wood, Engineer Professional Bulletin (Witcomb, 2025); İngiliz Savunma İstihbaratı'nın (UK Defence Intelligence) 13 Mayıs 2022 tarihli durum değerlendirmesi, basında aktarıldığı şekliyle.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-can-a-floating-bridge-carry-a-tank/
 
 BÖLÜMLER
 00:00 Yüzen kutular üzerinde altmış ton
@@ -349,6 +365,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-can-a-floating-bridge-carry-a-tank/
+
 РОЗДІЛИ
 00:00 Шістдесят тонн на плавучих коробках
 00:26 Шістдесят кубометрів води
@@ -385,6 +403,8 @@ Từ Archimedes và khối nước bị chiếm chỗ đến cầu dải băng, 
 Nguồn: Quân đội Anh (xe bắc cầu lội nước M3); General Dynamics European Land Systems (M3, cuộc tập trận Anakonda 2016); WSDOT và Guinness World Records (SR 520 Evergreen Point Floating Bridge); FAS / sổ tay hệ thống vũ khí của Lục quân Mỹ (Improved Ribbon Bridge); Conflict and Environment Observatory (bản đồ thiệt hại tại điểm vượt sông Bilohorivka); US Army, army.mil (Kindy, 2025); Fort Leonard Wood, Engineer Professional Bulletin (Witcomb, 2025); bản cập nhật của tình báo quốc phòng Anh (UK Defence Intelligence) ngày 13 tháng 5 năm 2022, theo báo chí đưa tin.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-can-a-floating-bridge-carry-a-tank/
 
 CHƯƠNG
 00:00 Sáu mươi tấn trên những hộp nổi
@@ -423,6 +443,8 @@ Zdroje: britská armáda (obojživelné mostní vozidlo M3); General Dynamics Eu
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-can-a-floating-bridge-carry-a-tank/
+
 KAPITOLY
 00:00 Šedesát tun na plovoucích krabicích
 00:26 Šedesát krychlových metrů vody
@@ -460,6 +482,8 @@ Fuentes: Ejército británico (vehículo anfibio para tender puentes M3); Genera
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-can-a-floating-bridge-carry-a-tank/
+
 CAPÍTULOS
 00:00 Sesenta toneladas sobre cajas flotantes
 00:26 Sesenta metros cúbicos de agua
@@ -496,6 +520,8 @@ Från Arkimedes och ett block av undanträngt vatten till bandbroar, amfibiebrof
 Källor: Brittiska armén (amfibiebrofordonet M3); General Dynamics European Land Systems (M3, övningen Anakonda 2016); WSDOT och Guinness World Records (SR 520 Evergreen Point Floating Bridge); FAS / amerikanska arméns handbok över vapensystem (Improved Ribbon Bridge); Conflict and Environment Observatory (skadekarta över flodövergången vid Bilohorivka); US Army, army.mil (Kindy, 2025); Fort Leonard Wood, Engineer Professional Bulletin (Witcomb, 2025); lägesrapport från brittiska försvarsunderrättelsetjänsten (UK Defence Intelligence) den 13 maj 2022, enligt pressen.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-can-a-floating-bridge-carry-a-tank/
 
 KAPITEL
 00:00 Sextio ton på flytande lådor

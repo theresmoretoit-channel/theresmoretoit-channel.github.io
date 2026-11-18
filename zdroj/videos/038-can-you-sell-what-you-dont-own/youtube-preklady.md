@@ -48,6 +48,8 @@ Lyhyeksi myynti näyttää nurinkuriselta, koska se on sitä: myyt ensin ja osta
 
 Tynnyreistä sopimuksiin, sopimuksista riskiin ja lopulta markkinoihin, joilla käydään kauppaa pelkällä tapahtuman todennäköisyydellä. Näin markkina voi toimia ilman, että se koskaan tarvitsee sitä asiaa, jonka mukaan se on nimetty.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/can-you-sell-what-you-dont-own/
+
 Luvut
 0:00 Tarjous
 0:25 Myy ensin, osta myöhemmin
@@ -102,6 +104,8 @@ de prendre livraison de quelque chose qu'on n'avait nulle part où mettre.
 Des barils aux contrats, des contrats au risque, et enfin à des marchés qui n'échangent
 rien d'autre que la probabilité d'un événement.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/can-you-sell-what-you-dont-own/
+
 Chapitres
 0:00 L'offre
 0:25 Vendre d'abord, acheter ensuite
@@ -151,6 +155,8 @@ Saya menawarkan satu barel minyak kepadamu. Ada satu masalah: saya tidak memilik
 Short selling terlihat terbalik karena memang begitu: kamu menjual dulu dan membeli belakangan. Tapi kalau gagasan ini ditelusuri lebih jauh, pembahasannya tidak lagi menyangkut minyak sama sekali. Sebagian besar kontrak berjangka tidak pernah menyerahkan satu barel pun. Sebagian mengacu pada minyak yang belum diproduksi. Dan pada April 2020 harga sebuah kontrak berjangka minyak utama sempat jatuh di bawah nol, karena memegangnya berarti wajib menerima penyerahan sesuatu yang tidak punya tempat untuk ditaruh.
 
 Dari barel ke kontrak, dari kontrak ke risiko, dan akhirnya ke pasar yang memperdagangkan tidak lain selain probabilitas sebuah peristiwa. Beginilah sebuah pasar bisa bekerja tanpa pernah membutuhkan benda yang namanya dipakai untuk menyebut pasar itu.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/can-you-sell-what-you-dont-own/
 
 Bab
 0:00 Tawarannya
@@ -205,6 +211,8 @@ ritirare qualcosa che non avevi dove mettere.
 
 Dai barili ai contratti, dai contratti al rischio, e infine a mercati che scambiano
 soltanto la probabilità che un evento accada.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/can-you-sell-what-you-dont-own/
 
 Capitoli
 0:00 L'offerta
@@ -263,6 +271,8 @@ müssen, wofür man keinen Platz hatte.
 Von Barrels zu Kontrakten, von Kontrakten zu Risiko, und schließlich zu Märkten, die
 nichts weiter handeln als die Wahrscheinlichkeit eines Ereignisses.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/can-you-sell-what-you-dont-own/
+
 Kapitel
 0:00 Das Angebot
 0:25 Erst verkaufen, dann kaufen
@@ -318,6 +328,8 @@ odebrania czegoś, czego nie było gdzie podziać.
 
 Od baryłek do kontraktów, od kontraktów do ryzyka, aż po rynki, na których handluje się
 wyłącznie prawdopodobieństwem zdarzenia.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/can-you-sell-what-you-dont-own/
 
 Rozdziały
 0:00 Propozycja
@@ -376,6 +388,8 @@ você não tinha onde colocar.
 De barris a contratos, de contratos a risco, e por fim a mercados que negociam apenas a
 probabilidade de um evento acontecer.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/can-you-sell-what-you-dont-own/
+
 Capítulos
 0:00 A oferta
 0:25 Vender primeiro, comprar depois
@@ -425,6 +439,8 @@ Açığa satış tersten işliyormuş gibi görünüyor, çünkü öyle: önce s
 
 Varillerden sözleşmelere, sözleşmelerden riske ve nihayet yalnızca bir olayın olasılığını alıp satan piyasalara. Bir piyasa, adını taşıdığı şeye hiç ihtiyaç duymadan işte böyle çalışabiliyor.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/can-you-sell-what-you-dont-own/
+
 Bölümler
 0:00 Teklif
 0:25 Önce sat, sonra al
@@ -472,6 +488,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Від барелів до контрактів, від контрактів до ризику й нарешті до ринків, які торгують самою лише ймовірністю події. Ось як ринок може працювати, ніколи не потребуючи тієї речі, назву якої він носить.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/can-you-sell-what-you-dont-own/
+
 Розділи
 0:00 Пропозиція
 0:25 Спершу продай, потім купи
@@ -518,6 +536,8 @@ Tôi chào bán cho bạn một thùng dầu. Chỉ có một vấn đề: tôi 
 Bán khống trông như ngược đời vì nó đúng là như vậy: bạn bán trước rồi mua sau. Nhưng nếu tiếp tục suy xét theo hướng đó, câu chuyện sẽ không còn liên quan đến dầu nữa. Phần lớn hợp đồng tương lai chẳng bao giờ giao lấy một thùng. Một số có tài sản cơ sở là dầu chưa được khai thác. Và tháng 4 năm 2020, giá một hợp đồng tương lai dầu chủ chốt có lúc rơi xuống dưới 0, bởi giữ nó nghĩa là buộc phải nhận thứ mà bạn chẳng có chỗ nào để chứa.
 
 Từ thùng dầu đến hợp đồng, từ hợp đồng đến rủi ro, và cuối cùng đến những thị trường chỉ mua bán xác suất của một sự kiện. Đó là cách một thị trường có thể vận hành mà chẳng bao giờ cần đến chính thứ mà nó mang tên.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/can-you-sell-what-you-dont-own/
 
 Các chương
 0:00 Lời chào bán
@@ -571,6 +591,8 @@ držet ho znamenalo mít povinnost převzít něco, co nebylo kam dát.
 
 Od barelů ke kontraktům, od kontraktů k riziku a nakonec k trhům, které obchodují jen
 pravděpodobnost, že něco nastane.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/can-you-sell-what-you-dont-own/
 
 Kapitoly
 0:00 Nabídka
@@ -628,6 +650,8 @@ obligado a recibir algo que no tenías dónde meter.
 De los barriles a los contratos, de los contratos al riesgo y, al final, a mercados que
 negocian solo la probabilidad de que ocurra un suceso.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/can-you-sell-what-you-dont-own/
+
 Capítulos
 0:00 La oferta
 0:25 Primero vender, después comprar
@@ -683,6 +707,8 @@ det innebar en skyldighet att ta emot något man inte hade någonstans att göra
 
 Från fat till kontrakt, från kontrakt till risk, och till slut till marknader som handlar
 med ingenting annat än sannolikheten för att något ska hända.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/can-you-sell-what-you-dont-own/
 
 Kapitel
 0:00 Erbjudandet

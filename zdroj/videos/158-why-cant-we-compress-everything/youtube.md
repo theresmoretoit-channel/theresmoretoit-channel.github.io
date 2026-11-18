@@ -61,6 +61,8 @@ Sources: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compres
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-cant-we-compress-everything/
+
 CHAPTERS
 00:00 Every script on this channel, compressed
 00:24 Compress it again

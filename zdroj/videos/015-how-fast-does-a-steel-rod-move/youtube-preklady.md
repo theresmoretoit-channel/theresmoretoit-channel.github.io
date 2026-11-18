@@ -48,6 +48,8 @@ Ei heti. Eikä valonnopeudella. Vastaus on keskiviikkoiltapäivä — noin viisi
 
 Matkan varrella: miksi teräs ei ole täydellisen jäykkää, miksi täydellisen jäykkää kappaletta ei voi tässä maailmankaikkeudessa olla lainkaan, miksi kätesi ei koskaan oikeasti kosketa pöytää, jolla se lepää, ja miksi „kiinteä" osoittautuukin kuvaukseksi käyttäytymisestä eikä maailman ominaisuudeksi.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-fast-does-a-steel-rod-move/
+
 Luvut
 00:00 Työnnä toisesta päästä
 00:18 Helppo vastaus: valo
@@ -100,6 +102,8 @@ objet parfaitement rigide ne peut pas exister du tout dans cet univers,
 pourquoi votre main ne touche jamais vraiment la table sur laquelle elle
 repose, et pourquoi « solide » se révèle être la description d'un
 comportement plutôt qu'une propriété du monde.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-fast-does-a-steel-rod-move/
 
 Chapitres
 00:00 Poussez une extrémité
@@ -155,6 +159,8 @@ Tidak seketika. Juga tidak dengan kecepatan cahaya. Jawabannya adalah Rabu sore 
 
 Sepanjang video: kenapa baja tidak sepenuhnya kaku, kenapa benda yang benar-benar kaku sama sekali tidak bisa ada di alam semesta ini, kenapa tanganmu tidak pernah benar-benar menyentuh meja tempatnya bertumpu, dan kenapa "padat" ternyata adalah gambaran tentang perilaku, bukan sifat dunia.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-fast-does-a-steel-rod-move/
+
 Bab
 00:00 Dorong satu ujungnya
 00:18 Jawaban gampangnya: cahaya
@@ -206,6 +212,8 @@ oggetto perfettamente rigido non può esistere affatto in questo universo,
 perché la tua mano non tocca mai davvero il tavolo su cui è appoggiata, e
 perché «solido» si rivela essere la descrizione di un comportamento
 piuttosto che una proprietà del mondo.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-fast-does-a-steel-rod-move/
 
 Capitoli
 00:00 Spingi un'estremità
@@ -273,6 +281,8 @@ deine Hand den Tisch, auf dem sie liegt, nie wirklich berührt, und warum
 sich „fest" als Beschreibung eines Verhaltens entpuppt und nicht als
 Eigenschaft der Welt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-fast-does-a-steel-rod-move/
+
 Kapitel
 00:00 Schieb an einem Ende
 00:18 Die einfache Antwort: Licht
@@ -337,6 +347,8 @@ Po drodze: dlaczego stal nie jest doskonale sztywna, dlaczego doskonale
 sztywny obiekt w ogóle nie może istnieć w tym wszechświecie, dlaczego
 twoja dłoń nigdy naprawdę nie dotyka stołu, na którym leży, i dlaczego
 „stały" okazuje się opisem zachowania, a nie własnością świata.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-fast-does-a-steel-rod-move/
 
 Rozdziały
 00:00 Pchnij jeden koniec
@@ -405,6 +417,8 @@ que a sua mão nunca toca de verdade a mesa em que está apoiada, e por que
 "sólido" acaba sendo a descrição de um comportamento, e não uma
 propriedade do mundo.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-fast-does-a-steel-rod-move/
+
 Capítulos
 00:00 Empurre uma ponta
 00:18 A resposta fácil: a luz
@@ -459,6 +473,8 @@ Hemen değil. Işık hızıyla da değil. Cevap çarşamba öğleden sonrası �
 
 Bu bölümde ayrıca: çeliğin neden kusursuz biçimde katı olmadığı, tamamen rijit bir cismin bu evrende neden hiç var olamayacağı, elinin üstünde durduğu masaya neden aslında hiç dokunmadığı ve "katı"nın neden dünyanın bir özelliği değil, bir davranış tarifi olduğu.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-fast-does-a-steel-rod-move/
+
 Bölümler
 00:00 Bir ucundan it
 00:18 Kolay cevap: ışık
@@ -500,6 +516,8 @@ Bundan fazlası var.
 
 Також у відео: чому сталь не є ідеально твердою, чому ідеально тверде тіло взагалі не може існувати в цьому всесвіті, чому твоя рука ніколи по-справжньому не торкається столу, на якому лежить, і чому «тверде» виявляється описом поведінки, а не властивістю світу.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-fast-does-a-steel-rod-move/
+
 Розділи
 00:00 Штовхни з одного кінця
 00:18 Легка відповідь: світло
@@ -540,6 +558,8 @@ Hãy hình dung một thanh thép dài một triệu kilômét. Bạn đẩy m�
 Không phải ngay lập tức. Cũng không phải với tốc độ ánh sáng. Câu trả lời là chiều thứ Tư — khoảng năm mươi lăm giờ sau — và lời giải thích dẫn ta đến câu hỏi vật chất thực sự được cấu tạo từ gì.
 
 Video cũng đề cập đến: vì sao thép không cứng tuyệt đối, vì sao một vật cứng tuyệt đối hoàn toàn không thể tồn tại trong vũ trụ này, vì sao bàn tay bạn chưa từng thực sự chạm vào mặt bàn nó đang tựa lên, và vì sao "rắn" hóa ra là một mô tả về hành vi chứ không phải một thuộc tính của thế giới.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-fast-does-a-steel-rod-move/
 
 Các chương
 00:00 Đẩy một đầu
@@ -591,6 +611,8 @@ Cestou: proč ocel není dokonale tuhá, proč dokonale tuhý předmět v tomhle
 vesmíru vůbec nemůže existovat, proč se vaše ruka nikdy doopravdy
 nedotýká stolu, na kterém leží, a proč se ze slova „pevný" vyklube popis
 chování, a ne vlastnost světa.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-fast-does-a-steel-rod-move/
 
 Kapitoly
 00:00 Strčte do jednoho konce
@@ -645,6 +667,8 @@ objeto perfectamente rígido no puede existir en absoluto en este
 universo, por qué tu mano nunca toca realmente la mesa en la que se
 apoya, y por qué «sólido» resulta ser la descripción de un comportamiento
 y no una propiedad del mundo.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-fast-does-a-steel-rod-move/
 
 Capítulos
 00:00 Empuja un extremo
@@ -710,6 +734,8 @@ stelt föremål över huvud taget inte kan existera i det här universum,
 varför din hand aldrig riktigt rör vid bordet den vilar på, och varför
 "fast" visar sig vara en beskrivning av ett beteende snarare än en
 egenskap hos världen.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-fast-does-a-steel-rod-move/
 
 Kapitel
 00:00 Tryck på ena änden

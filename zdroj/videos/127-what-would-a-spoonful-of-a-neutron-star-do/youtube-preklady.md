@@ -56,6 +56,8 @@ Lisenssit: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 ja GRB 170817A:n jälkihehku — NASA ja ESA (Hubble Space Telescope)
 Kaikki muut arkistokuvat ovat tekijänoikeudettomia (public domain).
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 LUVUT
 00:00 Teelusikallinen neutronitähteä
 00:24 Enimmäkseen tyhjää tilaa
@@ -94,6 +96,8 @@ via Wikimedia Commons
 Licences : creativecommons.org/licenses/by-sa/3.0
 NGC 4993 et la rémanence de GRB 170817A — NASA et ESA (Hubble Space Telescope)
 Toutes les autres images d’archives sont dans le domaine public.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-a-spoonful-of-a-neutron-star-do/
 
 CHAPITRES
 00:00 Une cuillerée d’étoile à neutrons
@@ -134,6 +138,8 @@ Lisensi: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 dan cahaya susulan GRB 170817A — NASA dan ESA (Hubble Space Telescope)
 Semua gambar arsip lainnya berada dalam domain publik.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 BAB
 00:00 Sesendok bintang neutron
 00:24 Sebagian besar ruang kosong
@@ -172,6 +178,8 @@ tramite Wikimedia Commons
 Licenze: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 e il bagliore residuo di GRB 170817A — NASA ed ESA (Hubble Space Telescope)
 Tutte le altre immagini d’archivio sono di pubblico dominio.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-a-spoonful-of-a-neutron-star-do/
 
 CAPITOLI
 00:00 Un cucchiaino di stella di neutroni
@@ -212,6 +220,8 @@ Lizenzen: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 und das Nachleuchten von GRB 170817A — NASA und ESA (Hubble Space Telescope)
 Alle anderen Archivbilder sind gemeinfrei.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 KAPITEL
 00:00 Ein Teelöffel Neutronenstern
 00:24 Größtenteils leerer Raum
@@ -250,6 +260,8 @@ przez Wikimedia Commons
 Licencje: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 i poświata GRB 170817A — NASA i ESA (Hubble Space Telescope)
 Wszystkie pozostałe zdjęcia archiwalne są w domenie publicznej.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-a-spoonful-of-a-neutron-star-do/
 
 ROZDZIAŁY
 00:00 Łyżeczka gwiazdy neutronowej
@@ -290,6 +302,8 @@ Licenças: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 e o brilho residual de GRB 170817A — NASA e ESA (Hubble Space Telescope)
 Todas as outras imagens de arquivo estão em domínio público.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 CAPÍTULOS
 00:00 Uma colher de chá de estrela de nêutrons
 00:24 Quase tudo é espaço vazio
@@ -328,6 +342,8 @@ Wikimedia Commons aracılığıyla
 Lisanslar: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 ve GRB 170817A’nın art ışıması — NASA ve ESA (Hubble Space Telescope)
 Diğer tüm arşiv görselleri kamu malıdır.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-a-spoonful-of-a-neutron-star-do/
 
 BÖLÜMLER
 00:00 Bir çay kaşığı nötron yıldızı
@@ -368,6 +384,8 @@ Mètre-étalon, Paris — LPLT, CC BY-SA 3.0
 NGC 4993 і післясвітіння GRB 170817A — NASA та ESA (Hubble Space Telescope)
 Усі інші архівні зображення є суспільним надбанням.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 РОЗДІЛИ
 00:00 Чайна ложка нейтронної зорі
 00:24 Здебільшого порожній простір
@@ -406,6 +424,8 @@ qua Wikimedia Commons
 Giấy phép: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 và ánh sáng tàn dư của GRB 170817A — NASA và ESA (Hubble Space Telescope)
 Tất cả các hình ảnh lưu trữ khác thuộc phạm vi công cộng.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-a-spoonful-of-a-neutron-star-do/
 
 CHƯƠNG
 00:00 Một thìa sao neutron
@@ -446,6 +466,8 @@ Licence: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 a dosvit GRB 170817A — NASA a ESA (Hubble Space Telescope)
 Ostatní archivní snímky jsou volná díla.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 KAPITOLY
 00:00 Lžička neutronové hvězdy
 00:24 Hlavně prázdný prostor
@@ -485,6 +507,8 @@ Licencias: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 y el resplandor residual de GRB 170817A — NASA y ESA (Hubble Space Telescope)
 Todas las demás imágenes de archivo son de dominio público.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 CAPÍTULOS
 00:00 Una cucharadita de estrella de neutrones
 00:24 Casi todo es espacio vacío
@@ -523,6 +547,8 @@ via Wikimedia Commons
 Licenser: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 och efterglöden från GRB 170817A — NASA och ESA (Hubble Space Telescope)
 Alla övriga arkivbilder är fria från upphovsrätt (public domain).
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-a-spoonful-of-a-neutron-star-do/
 
 KAPITEL
 00:00 En tesked neutronstjärna

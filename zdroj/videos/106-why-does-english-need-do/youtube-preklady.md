@@ -58,6 +58,8 @@ Lähteet: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of g
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-does-english-need-do/
+
 LUVUT
 00:00 Kaksi ”do”:ta yhdessä kysymyksessä
 00:27 Shakespeare käytti molempia
@@ -86,6 +88,8 @@ D'un manuel de latin glosé en vieil anglais aux quatre négations de Chaucer da
 Sources : Alvar Ellegård, The Auxiliary Do (1953) ; Anthony Kroch, Reflexes of grammar in patterns of language change (1989) ; Anthony Warner, Why DO dove (2005) ; Otto Jespersen, Negation in English and Other Languages (1917) ; Phillip Wallage (2008) sur la négation en moyen anglais ; David Denison, English Historical Syntax (1993) ; Johan van der Auwera & Inge Genee (2002) sur le do anglais et les langues celtiques ; Ælfric's Colloquy (glose en vieil anglais, XIe siècle) ; Chaucer, General Prologue ; King Horn ; Shakespeare, Hamlet et Macbeth (éditions Folger) ; Bible du roi Jacques (1611) ; William Tyndale, Pentateuch (1530) ; Jon Nielson & Royal Skousen (1998) sur Tyndale et la Bible du roi Jacques.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-does-english-need-do/
 
 CHAPITRES
 00:00 Deux « do » dans une seule question
@@ -116,6 +120,8 @@ Sumber: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of gra
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-does-english-need-do/
+
 BAB
 00:00 Dua "do" dalam satu pertanyaan
 00:27 Shakespeare memakai keduanya
@@ -144,6 +150,8 @@ Da un libro scolastico di latino con glosse in inglese antico alle quattro negaz
 Fonti: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of grammar in patterns of language change (1989); Anthony Warner, Why DO dove (2005); Otto Jespersen, Negation in English and Other Languages (1917); Phillip Wallage (2008) sulla negazione nel medio inglese; David Denison, English Historical Syntax (1993); Johan van der Auwera & Inge Genee (2002) sul do inglese e le lingue celtiche; Ælfric's Colloquy (glossa in inglese antico, XI secolo); Chaucer, General Prologue; King Horn; Shakespeare, Hamlet e Macbeth (edizioni Folger); Bibbia di Re Giacomo (1611); William Tyndale, Pentateuch (1530); Jon Nielson & Royal Skousen (1998) su Tyndale e la Bibbia di Re Giacomo.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-does-english-need-do/
 
 CAPITOLI
 00:00 Due “do” in una sola domanda
@@ -174,6 +182,8 @@ Quellen: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of gr
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-does-english-need-do/
+
 KAPITEL
 00:00 Zwei „do“ in einer Frage
 00:27 Shakespeare benutzte beides
@@ -202,6 +212,8 @@ Od podręcznika łaciny z glosami w języku staroangielskim po cztery przeczenia
 Źródła: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of grammar in patterns of language change (1989); Anthony Warner, Why DO dove (2005); Otto Jespersen, Negation in English and Other Languages (1917); Phillip Wallage (2008) o przeczeniu w języku średnioangielskim; David Denison, English Historical Syntax (1993); Johan van der Auwera & Inge Genee (2002) o angielskim do i językach celtyckich; Ælfric's Colloquy (glosa staroangielska, XI wiek); Chaucer, General Prologue; King Horn; Shakespeare, Hamlet i Macbeth (wydania Folger); Biblia Króla Jakuba (1611); William Tyndale, Pentateuch (1530); Jon Nielson & Royal Skousen (1998) o Tyndale’u i Biblii Króla Jakuba.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-does-english-need-do/
 
 ROZDZIAŁY
 00:00 Dwa „do” w jednym pytaniu
@@ -232,6 +244,8 @@ Fontes: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of gra
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-does-english-need-do/
+
 CAPÍTULOS
 00:00 Dois “do” numa só pergunta
 00:27 Shakespeare usava as duas formas
@@ -260,6 +274,8 @@ Satır aralarına Eski İngilizce çeviri yazılmış bir Latince ders kitabınd
 Kaynaklar: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of grammar in patterns of language change (1989); Anthony Warner, Why DO dove (2005); Otto Jespersen, Negation in English and Other Languages (1917); Phillip Wallage (2008), Orta İngilizcede olumsuzluk üzerine; David Denison, English Historical Syntax (1993); Johan van der Auwera & Inge Genee (2002), İngilizce do ve Kelt dilleri üzerine; Ælfric's Colloquy (Eski İngilizce satır arası çeviri, 11. yüzyıl); Chaucer, General Prologue; King Horn; Shakespeare, Hamlet ve Macbeth (Folger basımları); Kral James İncili (1611); William Tyndale, Pentateuch (1530); Jon Nielson & Royal Skousen (1998), Tyndale ve Kral James İncili üzerine.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-does-english-need-do/
 
 BÖLÜMLER
 00:00 Tek soruda iki "do"
@@ -290,6 +306,8 @@ Tüm arşiv görselleri kamu malıdır: Droeshout'un Shakespeare portresi (1623)
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-does-english-need-do/
+
 РОЗДІЛИ
 00:00 Два «do» в одному запитанні
 00:27 Шекспір використовував обидва
@@ -318,6 +336,8 @@ Từ một cuốn sách dạy tiếng Latinh có chú giải bằng tiếng Anh 
 Nguồn: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of grammar in patterns of language change (1989); Anthony Warner, Why DO dove (2005); Otto Jespersen, Negation in English and Other Languages (1917); Phillip Wallage (2008) về phủ định trong tiếng Anh trung đại; David Denison, English Historical Syntax (1993); Johan van der Auwera & Inge Genee (2002) về chữ do trong tiếng Anh và các ngôn ngữ Celt; Ælfric's Colloquy (chú giải bằng tiếng Anh cổ, thế kỷ XI); Chaucer, General Prologue; King Horn; Shakespeare, Hamlet và Macbeth (ấn bản Folger); Kinh Thánh King James (1611); William Tyndale, Pentateuch (1530); Jon Nielson & Royal Skousen (1998) về Tyndale và Kinh Thánh King James.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-does-english-need-do/
 
 CHƯƠNG
 00:00 Hai chữ “do” trong một câu hỏi
@@ -348,6 +368,8 @@ Zdroje: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of gra
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-does-english-need-do/
+
 KAPITOLY
 00:00 Dvě „do“ v jedné otázce
 00:27 Shakespeare používal obojí
@@ -377,6 +399,8 @@ Fuentes: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of gr
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-does-english-need-do/
+
 CAPÍTULOS
 00:00 Dos “do” en una sola pregunta
 00:27 Shakespeare usaba las dos formas
@@ -405,6 +429,8 @@ Från en lärobok i latin med fornengelska glosor till Chaucers fyra negationer 
 Källor: Alvar Ellegård, The Auxiliary Do (1953); Anthony Kroch, Reflexes of grammar in patterns of language change (1989); Anthony Warner, Why DO dove (2005); Otto Jespersen, Negation in English and Other Languages (1917); Phillip Wallage (2008) om negation i medelengelska; David Denison, English Historical Syntax (1993); Johan van der Auwera & Inge Genee (2002) om engelskans do och de keltiska språken; Ælfric's Colloquy (fornengelsk glosa, 1000-talet); Chaucer, General Prologue; King Horn; Shakespeare, Hamlet och Macbeth (Folgerutgåvor); King James-bibeln (1611); William Tyndale, Pentateuch (1530); Jon Nielson & Royal Skousen (1998) om Tyndale och King James-bibeln.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-does-english-need-do/
 
 KAPITEL
 00:00 Två ”do” i en och samma fråga

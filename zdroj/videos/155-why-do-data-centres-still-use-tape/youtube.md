@@ -62,6 +62,8 @@ Sources: LTO Program, LTO-10 specifications and LTO roadmap; CERN, CERN hits one
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-data-centres-still-use-tape/
+
 CHAPTERS
 00:00 A cassette and a strange claim
 00:22 The day Gmail came back from tape

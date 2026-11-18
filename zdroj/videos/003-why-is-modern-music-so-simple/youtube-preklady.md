@@ -48,6 +48,8 @@ Neljä sointua. Yksinkertainen komppi. Kertosäe joka toistuu. Ja silti satoja m
 
 Nykypop on joiltakin osin yksinkertaisempaa ja toisilta paljon mutkikkaampaa. Tässä videossa selvitetään, minne monimutkaisuus siirtyi, mistä suoratoisto oikeasti palkitsee, ja millainen mittausongelma koko kysymyksen alla piilee: vertaamme tämän päivän keskivertomusiikkia parhaaseen musiikkiin, joka on säilynyt muistissa kuudenkymmenen vuoden ajan.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-modern-music-so-simple/
+
 Luvut
 0:00 Se kysymys
 1:03 Mitä ”yksinkertainen” oikeastaan tarkoittaa
@@ -106,6 +108,8 @@ La pop moderne est plus simple à certains égards et bien plus compliquée
 streaming récompense réellement, et le problème de mesure qui sous-tend
 toute la question : nous comparons la musique moyenne d'aujourd'hui à la
 meilleure musique qui a survécu à soixante ans d'oubli.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-modern-music-so-simple/
 
 Chapitres
 0:00 La question
@@ -166,6 +170,8 @@ Empat akor. Beat yang sederhana. Refrain yang diulang-ulang. Dan toh, ratusan ju
 
 Pop modern lebih sederhana dalam beberapa hal dan jauh lebih rumit dalam hal lain. Video ini mencari ke mana kerumitan itu pindah, apa yang sebenarnya diberi imbalan oleh streaming, dan masalah pengukuran yang mendasari seluruh pertanyaan ini: kita membandingkan musik masa kini yang kualitasnya rata-rata dengan musik terbaik yang tetap diingat setelah enam puluh tahun.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-modern-music-so-simple/
+
 Bab
 0:00 Pertanyaannya
 1:03 Apa arti ”sederhana” sebenarnya
@@ -224,6 +230,8 @@ sotto altri. Questo video cerca dove sia finita la complessità, che cosa
 premi davvero lo streaming, e il problema di misurazione alla base
 dell'intera domanda: confrontiamo la musica media di oggi con la musica
 migliore che è sopravvissuta a sessant'anni di dimenticanza.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-modern-music-so-simple/
 
 Capitoli
 0:00 La domanda
@@ -297,6 +305,8 @@ das hinter der ganzen Frage steckt: wir vergleichen die durchschnittliche
 Musik von heute mit der besten Musik, die sechzig Jahre des Vergessens
 überlebt hat.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-modern-music-so-simple/
+
 Kapitel
 0:00 Die Frage
 1:03 Was „einfach" eigentlich heißt
@@ -367,6 +377,8 @@ naprawdę nagradza streaming, i jaki problem z pomiarem kryje się za całym
 tym pytaniem: porównujemy przeciętną muzykę dzisiejszą z najlepszą muzyką,
 która przetrwała sześćdziesiąt lat zapominania.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-modern-music-so-simple/
+
 Rozdziały
 0:00 Pytanie
 1:03 Co właściwie znaczy „proste"
@@ -436,6 +448,8 @@ streaming de fato recompensa, e o problema de medição que está por trás de
 toda a pergunta: a gente compara a música média de hoje com a melhor
 música que sobreviveu a sessenta anos de esquecimento.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-modern-music-so-simple/
+
 Capítulos
 0:00 A pergunta
 1:03 O que "simples" quer dizer de fato
@@ -495,6 +509,8 @@ Dört akor. Basit bir ritim. Tekrar eden bir nakarat. Ve yine de yüz milyonlarc
 
 Modern pop bazı açılardan daha basit, bazı açılardan çok daha karmaşık. Bu video karmaşıklığın nereye gittiğini, streaming’in aslında neyi ödüllendirdiğini ve tüm sorunun altında yatan ölçüm problemini inceliyor: bugünün ortalama müziğini, altmış yıl boyunca unutulmadan günümüze ulaşmış en iyi müzikle karşılaştırıyoruz.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-modern-music-so-simple/
+
 Bölümler
 0:00 Soru
 1:03 ”Basit” aslında ne demek
@@ -543,6 +559,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 Чотири акорди. Простий біт. Приспів, який повторюється. І попри це — сотні мільйонів прослуховувань. То чи музика справді спростилася — чи ми змінили те, з чим її порівнюємо?
 
 Сучасний поп у чомусь простіший, а в чомусь значно складніший. У цьому відео розбираємося, куди перемістилася складність, що насправді винагороджує стримінг і яка проблема вимірювання стоїть за цим питанням: ми порівнюємо сучасну музику середнього рівня з найкращою музикою, яка пережила шістдесят років забуття.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-modern-music-so-simple/
 
 Розділи
 0:00 Те питання
@@ -593,6 +611,8 @@ Vì sao nhạc hiện đại lại đơn giản đến thế?
 Bốn hợp âm. Một nhịp đơn giản. Một điệp khúc lặp đi lặp lại. Vậy mà vẫn hàng trăm triệu lượt nghe. Vậy nhạc có thật sự đơn giản đi — hay chính chúng ta đã đổi thứ để đem ra so sánh?
 
 Nhạc pop hiện đại đơn giản hơn ở mặt này và phức tạp hơn nhiều ở mặt khác. Video này đi tìm xem sự phức tạp đã chuyển đi đâu, streaming thực sự tưởng thưởng cho điều gì, và vấn đề đo lường đằng sau câu hỏi này: chúng ta đang đem âm nhạc có chất lượng trung bình ngày nay so với thứ nhạc hay nhất đã sống sót qua sáu mươi năm bị lãng quên.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-modern-music-so-simple/
 
 Các chương
 0:00 Câu hỏi
@@ -653,6 +673,8 @@ Tohle video hledá, kam se ta složitost přesunula, co streaming
 doopravdy odměňuje, a jaký problém s měřením leží pod celou tou otázkou:
 porovnáváme průměrnou dnešní hudbu s tou nejlepší hudbou, která přežila
 šedesát let zapomínání.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-modern-music-so-simple/
 
 Kapitoly
 0:00 Ta otázka
@@ -715,6 +737,8 @@ en otros. Este vídeo busca adónde se fue la complejidad, qué premia
 realmente el streaming, y el problema de medición que subyace a toda la
 pregunta: comparamos la música media de hoy con la mejor música que
 sobrevivió a sesenta años de olvido.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-modern-music-so-simple/
 
 Capítulos
 0:00 La pregunta
@@ -785,6 +809,8 @@ andra. Den här videon letar efter vart komplexiteten tog vägen, vad
 strömningen faktiskt belönar, och mätproblemet som ligger under hela
 frågan: vi jämför dagens genomsnittliga musik med den bästa musik som
 överlevt sextio år av glömska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-modern-music-so-simple/
 
 Kapitel
 0:00 Frågan

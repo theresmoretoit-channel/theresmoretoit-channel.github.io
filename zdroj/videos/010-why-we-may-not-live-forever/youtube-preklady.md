@@ -50,6 +50,8 @@ Sydän on pumppu. Ihmiset ovat jo eläneet keinosydämen kanssa, jossa ei ole sy
 
 Lähteet ja tämän videon kaikkien lukujen kattava faktantarkistus ovat projektin muistiinpanoissa; keskeinen tutkimus on linkitetty alle.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-we-may-not-live-forever/
+
 — Luvut —
 0:00 Voisimmeko ratkaista vanhenemisen?
 0:49 Miksi vanhenemme
@@ -110,6 +112,8 @@ biologie en une question sur qui vous êtes.
 Les sources et la vérification complète de chaque chiffre de cette vidéo
 sont dans les notes du projet ; l'étude principale est en lien ci-dessous.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-we-may-not-live-forever/
+
 — Chapitres —
 0:00 Pourrions-nous résoudre le vieillissement ?
 0:49 Pourquoi nous vieillissons
@@ -164,6 +168,8 @@ Mungkin tidak. Sebuah model matematis terbaru bertanya apa yang akan tersisa kal
 Jantung adalah sebuah pompa. Orang sudah pernah hidup dengan jantung buatan yang sama sekali tidak berdenyut. Otak adalah satu-satunya tempat di mana mengganti bagiannya berarti mengganti informasinya — dan itu mengubah pertanyaan tentang biologi menjadi pertanyaan tentang siapa dirimu.
 
 Sumber dan fact check lengkap untuk setiap angka dalam video ini ada di catatan proyek; studi kuncinya ditautkan di bawah.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-we-may-not-live-forever/
 
 — Bab —
 0:00 Bisakah kita mengatasi penuaan?
@@ -222,6 +228,8 @@ biologia in una domanda su chi sei.
 
 Le fonti e la verifica completa di ogni numero di questo video sono negli
 appunti del progetto; lo studio principale è linkato qui sotto.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-we-may-not-live-forever/
 
 — Capitoli —
 0:00 Potremmo risolvere l'invecchiamento?
@@ -293,6 +301,8 @@ damit wird aus einer Frage der Biologie eine Frage danach, wer Sie sind.
 Quellen und der vollständige Faktencheck zu jeder Zahl in diesem Video
 stehen in den Projektnotizen; die zentrale Studie ist unten verlinkt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-we-may-not-live-forever/
+
 — Kapitel —
 0:00 Könnten wir das Altern lösen?
 0:49 Warum wir altern
@@ -361,6 +371,8 @@ jesteś.
 
 Źródła i pełne sprawdzenie każdej liczby z tego filmu są w notatkach
 projektu; kluczowe badanie jest podlinkowane poniżej.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-we-may-not-live-forever/
 
 — Rozdziały —
 0:00 Czy dałoby się rozwiązać starzenie?
@@ -431,6 +443,8 @@ pergunta sobre quem você é.
 As fontes e a checagem completa de cada número deste vídeo estão nas
 notas do projeto; o estudo principal está linkado abaixo.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-we-may-not-live-forever/
+
 — Capítulos —
 0:00 Dava para resolver o envelhecimento?
 0:49 Por que envelhecemos
@@ -486,6 +500,8 @@ Kalp bir pompadır. İnsanlar hiç nabzı olmayan yapay bir kalple yaşadılar b
 
 Kaynaklar ve bu videodaki her sayının tam doğruluk kontrolü proje notlarında; temel çalışmanın bağlantısı aşağıda.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-we-may-not-live-forever/
+
 — Bölümler —
 0:00 Yaşlanmayı çözebilir miyiz?
 0:49 Neden yaşlanıyoruz
@@ -530,6 +546,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Джерела й повний фактчек кожного числа в цьому відео є в проєктних нотатках; ключове дослідження полінковане нижче.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-we-may-not-live-forever/
+
 — Розділи —
 0:00 Чи могли б ми розв’язати проблему старіння?
 0:49 Чому ми старіємо
@@ -573,6 +591,8 @@ Có lẽ không. Một mô hình toán học gần đây đã hỏi rằng sẽ 
 Tim là một cái bơm. Người ta đã từng sống với một quả tim nhân tạo hoàn toàn không có mạch đập. Não là nơi duy nhất mà thay bộ phận nghĩa là thay cả thông tin — và điều đó biến một câu hỏi về sinh học thành câu hỏi về việc bạn là ai.
 
 Nguồn và phần kiểm chứng đầy đủ cho từng con số trong video này nằm trong ghi chú dự án; nghiên cứu chính được dẫn link bên dưới.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-we-may-not-live-forever/
 
 — Các chương —
 0:00 Ta có giải quyết được lão hóa không?
@@ -630,6 +650,8 @@ a tím se z otázky o biologii stává otázka o tom, kdo jste.
 
 Zdroje a úplné ověření každého čísla z tohohle videa jsou v poznámkách
 projektu; klíčová studie je odkazovaná níž.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-we-may-not-live-forever/
 
 — Kapitoly —
 0:00 Mohli bychom stárnutí vyřešit?
@@ -692,6 +714,8 @@ una pregunta de biología en una pregunta sobre quién eres.
 
 Las fuentes y la comprobación completa de cada cifra de este vídeo están
 en las notas del proyecto; el estudio principal está enlazado abajo.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-we-may-not-live-forever/
 
 — Capítulos —
 0:00 ¿Podríamos resolver el envejecimiento?
@@ -761,6 +785,8 @@ till en fråga om vem du är.
 
 Källor och den fullständiga faktakollen för varje siffra i videon finns i
 projektanteckningarna; huvudstudien är länkad nedan.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-we-may-not-live-forever/
 
 — Kapitel —
 0:00 Skulle vi kunna lösa åldrandet?

@@ -78,6 +78,8 @@ bigger number.
 Which leaves a stranger question. If movement matters this much, why does
 not moving not feel like anything at all?
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-we-actually-need-exercise/
+
 Chapters
 00:00 Exercise is good for you
 00:25 So what goes wrong when we don't?

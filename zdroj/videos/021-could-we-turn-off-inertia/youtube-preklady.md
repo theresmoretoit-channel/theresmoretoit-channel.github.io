@@ -49,6 +49,8 @@ Juuri siksi lentosimulaattori kallistuu taaksepäin sen sijaan että kiihdyttäi
 
 Nykyfysiikalla emme osaa rakentaa inertiavaimenninta. Mutta jos joskus opimme käsittelemään hitautta, painovoimaa tai aika-avaruutta, kysymys lakkaa olemasta „miten saamme ajoneuvon kiihtymään lempeämmin?" ja muuttuu muotoon „miten estämme matkustajia kokemasta samaa kiihtyvyyttä?" — ja tähtienvälisen matkailun vaikein osa ei ehkä olekaan suuren nopeuden saavuttaminen, vaan selviytyminen siitä kiihtyvyydestä, jota siihen tarvitaan.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/could-we-turn-off-inertia/
+
 LUVUT
 0:00 Kysymys
 0:24 Kiihtyvyys on katto
@@ -130,6 +132,8 @@ accélération ? » — et le plus difficile du voyage interstellaire ne sera
 peut-être pas d'atteindre une grande vitesse, mais de survivre à
 l'accélération nécessaire pour y parvenir.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/could-we-turn-off-inertia/
+
 CHAPITRES
 0:00 La question
 0:24 L'accélération est un plafond
@@ -193,6 +197,8 @@ Tapi ada satu gaya yang belum pernah kamu rasakan. Saat ini juga gravitasi menar
 Justru karena itulah simulator penerbangan memiringkan dirinya ke belakang alih-alih mengalami percepatan: ia meminjam gravitasi untuk meniru gaya yang tidak bisa ia hasilkan.
 
 Dengan pengetahuan fisika saat ini kita tidak bisa membangun peredam inersia. Tapi kalau suatu hari kita belajar memanipulasi inersia, gravitasi atau ruang-waktu, pertanyaannya berhenti menjadi "bagaimana membuat kendaraannya mengalami percepatan lebih lembut?" dan berubah jadi "bagaimana membuat penumpangnya tidak ikut mengalami percepatan itu?" — dan bagian tersulit dari perjalanan antarbintang mungkin bukan mencapai kecepatan tinggi, melainkan selamat dari percepatan yang dibutuhkan untuk sampai ke sana.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/could-we-turn-off-inertia/
 
 BAB
 0:00 Pertanyaannya
@@ -270,6 +276,8 @@ veicolo più dolcemente?» e diventa «come facciamo perché i passeggeri non
 condividano quell'accelerazione?» — e la parte più difficile del viaggio
 interstellare potrebbe non essere raggiungere una grande velocità, ma
 sopravvivere all'accelerazione necessaria per arrivarci.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/could-we-turn-off-inertia/
 
 CAPITOLI
 0:00 La domanda
@@ -362,6 +370,8 @@ diese Beschleunigung nicht teilen?" — und das Schwerste an der
 interstellaren Reise wäre womöglich nicht, eine hohe Geschwindigkeit zu
 erreichen, sondern die dafür nötige Beschleunigung zu überleben.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/could-we-turn-off-inertia/
+
 KAPITEL
 0:00 Die Frage
 0:24 Beschleunigung ist eine Decke
@@ -448,6 +458,8 @@ pytanie przestanie brzmieć „jak sprawić, żeby pojazd przyspieszał
 przyspieszenia?" — i najtrudniejsze w podróży międzygwiezdnej może
 okazać się nie osiągnięcie wielkiej prędkości, lecz przeżycie
 przyspieszenia potrzebnego, by ją osiągnąć.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/could-we-turn-off-inertia/
 
 ROZDZIAŁY
 0:00 Pytanie
@@ -537,6 +549,8 @@ essa aceleração?" — e a parte mais difícil da viagem interestelar talvez
 não seja atingir uma velocidade alta, e sim sobreviver à aceleração
 necessária para chegar lá.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/could-we-turn-off-inertia/
+
 CAPÍTULOS
 0:00 A pergunta
 0:24 A aceleração é um teto
@@ -600,6 +614,8 @@ Uçuş simülatörünün ivmelenmek yerine geriye yatmasının sebebi tam da bu:
 
 Bugünün fiziğiyle bir eylemsizlik sönümleyicisi yapamayız. Ama bir gün eylemsizliği, yerçekimini ya da uzay-zamanı yönlendirmeyi öğrenirsek, soru "aracı nasıl daha yumuşak ivmelendiririz?" olmaktan çıkıp "yolcuların aynı ivmeye maruz kalmasını nasıl önleriz?" hâline gelir — ve yıldızlararası yolculuğun en zor kısmı yüksek hıza ulaşmak değil, oraya varmak için gereken ivmelenmeden sağ çıkmak olabilir.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/could-we-turn-off-inertia/
+
 BÖLÜMLER
 0:00 Soru
 0:24 İvme bir tavandır
@@ -652,6 +668,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Із сьогоднішньою фізикою інерційний гасник ми збудувати не вміємо. Але якщо колись навчимося керувати інерцією, гравітацією чи простором-часом, запитання перестане бути «як змусити транспорт прискорюватися плавніше?» і стане «як зробити, щоб пасажири не зазнавали того самого прискорення?» — і найважчою частиною міжзоряної подорожі може виявитися не досягнення великої швидкості, а здатність пережити прискорення, потрібне для досягнення такої швидкості.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/could-we-turn-off-inertia/
+
 РОЗДІЛИ
 0:00 Запитання
 0:24 Прискорення — це стеля
@@ -703,6 +721,8 @@ Nhưng có một lực bạn chưa từng cảm thấy. Ngay lúc này trọng l
 Đó đúng là lý do buồng mô phỏng bay ngả ra sau thay vì tăng tốc: nó mượn trọng lực để bắt chước một lực mà nó không tạo ra được.
 
 Với vật lý hôm nay, ta không thể chế tạo bộ giảm chấn quán tính. Nhưng nếu một ngày ta học được cách tác động vào quán tính, trọng lực hay không-thời gian, câu hỏi sẽ thôi là "làm sao cho phương tiện tăng tốc êm hơn?" và trở thành "làm sao để hành khách không cùng chịu gia tốc ấy?" — và phần khó nhất của du hành giữa các vì sao có lẽ không phải đạt tới tốc độ cao, mà là sống sót qua gia tốc cần thiết để tới đó.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/could-we-turn-off-inertia/
 
 CÁC CHƯƠNG
 0:00 Câu hỏi
@@ -777,6 +797,8 @@ přestane znít „jak udělat, aby vozidlo zrychlovalo jemněji?" a začne zní
 „jak udělat, aby cestující to zrychlení nesdíleli?" — a nejtěžší na
 mezihvězdné cestě možná nebude dosáhnout vysoké rychlosti, ale přežít
 zrychlení, které je k tomu potřeba.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/could-we-turn-off-inertia/
 
 KAPITOLY
 0:00 Ta otázka
@@ -856,6 +878,8 @@ acelere más suavemente?» y pasa a ser «¿cómo hacemos que los pasajeros no
 compartan esa aceleración?» — y lo más difícil del viaje interestelar
 quizá no sea alcanzar una gran velocidad, sino sobrevivir a la
 aceleración necesaria para llegar hasta ahí.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/could-we-turn-off-inertia/
 
 CAPÍTULOS
 0:00 La pregunta
@@ -944,6 +968,8 @@ frågan vara "hur får vi fordonet att accelerera mjukare?" och blir "hur
 får vi passagerarna att inte dela den accelerationen?" — och det svåraste
 med interstellär resa är kanske inte att nå hög fart, utan att överleva
 den acceleration som krävs för att komma dit.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/could-we-turn-off-inertia/
 
 KAPITEL
 0:00 Frågan

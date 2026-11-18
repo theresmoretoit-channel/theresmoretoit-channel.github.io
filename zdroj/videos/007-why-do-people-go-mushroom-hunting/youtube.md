@@ -37,6 +37,8 @@ under, why most wild mushrooms cannot be farmed at all, why the deadliest
 one in Europe kills by waiting, and why drying a mushroom does not weaken
 it but makes it into a stronger ingredient than it ever was.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-people-go-mushroom-hunting/
+
 CHAPTERS
 00:00 What on earth are they doing?
 00:54 Not a plant, not an animal

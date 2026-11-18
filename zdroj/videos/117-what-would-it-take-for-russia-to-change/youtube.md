@@ -68,6 +68,8 @@ Sources: Constitution of the Russian Federation (1993, amended 2020); Judicial D
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-would-it-take-for-russia-to-change/
+
 CHAPTERS
 00:00 A new president in 2008
 00:47 Where we left off

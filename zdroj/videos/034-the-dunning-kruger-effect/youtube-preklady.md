@@ -35,6 +35,8 @@ Vuonna 1999 Justin Kruger ja David Dunning teettivät opiskelijoilla huumoria, k
 
 Mutta suosittu internet-versio kääntää asian päälaelleen, ja on vielä toinen ongelma, jota tuskin kukaan mainitsee: useat tutkijat ovat esittäneet, että tunnusomainen kuvaaja voi syntyä osittain tilastollisista syistä. Ota simuloitua aineistoa, jossa ei ole tuollaista ilmiötä lainkaan, piirrä se samalla tavalla, ja voit silti saada kuvan, joka näyttää pitkälti alkuperäiseltä. Kiista ei ole ratkennut — mikä vie meidät suoraan takaisin siihen epämukavaan kysymykseen, josta koko asiassa on kyse.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/the-dunning-kruger-effect/
+
 LUVUT
 0:00 Tunne siitä, että tajuaa
 0:35 Ohjelmoinnin opettelu
@@ -99,6 +101,8 @@ même obtenir une image très proche de l'originale. Le débat n'est pas
 tranché — ce qui nous ramène droit à la question dérangeante dont tout
 cela parle.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/the-dunning-kruger-effect/
+
 CHAPITRES
 0:00 Quand on croit avoir compris
 0:35 Apprendre à programmer
@@ -148,6 +152,8 @@ Kamu mempelajari sesuatu yang baru, dan tiba-tiba hal itu tampak sederhana. Tapi
 Pada 1999 Justin Kruger dan David Dunning memberi mahasiswa tes humor, tata bahasa dan logika, lalu bertanya menurut mereka seberapa baik hasilnya. Di empat studi, orang-orang di kuartil terbawah mendapat sekitar persentil ke-12 — dan menaksir diri mereka di persentil ke-62. Mereka bukan sekadar keliru. Mereka keliru tentang seberapa keliru mereka.
 
 Tapi versi internet yang populer justru membaliknya, dan ada masalah kedua yang hampir tidak pernah disebut: sejumlah peneliti berpendapat bahwa grafik khas itu bisa muncul sebagian karena alasan statistik. Ambil data simulasi yang sama sekali tidak mengandung efek semacam itu, gambarkan dengan cara yang sama, dan kamu tetap bisa mendapat gambar yang mirip sekali dengan aslinya. Perdebatannya belum selesai — dan itu membawa kita langsung kembali ke pertanyaan tidak nyaman yang jadi inti semuanya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/the-dunning-kruger-effect/
 
 BAB
 0:00 Perasaan saat mulai paham
@@ -209,6 +215,8 @@ statistiche. Prendi dati simulati in cui quell'effetto non c'è affatto,
 rappresentali allo stesso modo, e puoi comunque ottenere un'immagine
 molto simile all'originale. Il dibattito non è chiuso — il che ci
 riporta dritti alla domanda scomoda di cui si parla dall'inizio.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/the-dunning-kruger-effect/
 
 CAPITOLI
 0:00 Quando credi di aver capito
@@ -272,6 +280,8 @@ genauso auf, und du bekommst trotzdem ein Bild, das dem Original sehr
 ähnlich sieht. Die Debatte ist nicht beendet — was uns direkt zurück zu
 der unangenehmen Frage bringt, um die es die ganze Zeit geht.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/the-dunning-kruger-effect/
+
 KAPITEL
 0:00 Wenn man glaubt, es verstanden zu haben
 0:35 Programmieren lernen
@@ -333,6 +343,8 @@ statystycznych. Weź dane symulowane, w których takiego efektu w ogóle
 nie ma, nanieś je tak samo, a i tak możesz dostać obraz bardzo podobny
 do oryginału. Debata nie jest zamknięta — co sprowadza nas prosto z
 powrotem do niewygodnego pytania, o które w tym wszystkim chodzi.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/the-dunning-kruger-effect/
 
 ROZDZIAŁY
 0:00 Kiedy myślisz, że rozumiesz
@@ -396,6 +408,8 @@ jeito, e ainda assim você pode obter uma imagem bem parecida com a
 original. O debate não está encerrado — o que nos traz direto de volta à
 pergunta incômoda de que tudo isso trata.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/the-dunning-kruger-effect/
+
 CAPÍTULOS
 0:00 Quando você acha que entendeu
 0:35 Aprendendo a programar
@@ -445,6 +459,8 @@ Yeni bir şey öğreniyorsun ve birden basit görünüyor. Peki ya kaçırdığ�
 1999’da Justin Kruger ve David Dunning öğrencilere mizah, dilbilgisi ve mantık testleri verdi, sonra da ne kadar iyi yaptıklarını düşündüklerini sordu. Dört çalışmada, en alttaki çeyrekte yer alanlar yaklaşık 12. yüzdelik dilimde çıktı — ve 62. yüzdelik dilimde olduklarını tahmin ettiler. Yanılmakla kalmıyorlardı. Ne kadar yanıldıkları konusunda da yanılıyorlardı.
 
 Ama popüler internet versiyonu bunu tersine çeviriyor ve neredeyse hiç kimsenin değinmediği ikinci bir sorun var: birçok araştırmacı, o karakteristik grafiğin kısmen istatistiksel nedenlerle ortaya çıkabileceğini öne sürdü. İçinde böyle bir etki hiç bulunmayan benzetim verisi al, aynı şekilde çiz, yine de orijinaline çokça benzeyen bir tablo elde edebilirsin. Tartışma kapanmadı — ki bu bizi doğrudan, bütün meselenin etrafında döndüğü o rahatsız edici soruya geri götürüyor.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/the-dunning-kruger-effect/
 
 BÖLÜMLER
 0:00 Anladım hissi
@@ -496,6 +512,8 @@ Müzik, diyagramlar ve animasyon bu video için yapıldı.
 
 Але популярна інтернетна версія вивертає це навиворіт, і є ще друга проблема, про яку майже ніхто не згадує: кілька дослідників доводили, що характерний графік може частково виникати зі статистичних причин. Візьми змодельовані дані, у яких такого ефекту немає взагалі, побудуй графік так само — і все одно можеш дістати картинку, дуже схожу на оригінал. Дискусія ще не завершена, і це повертає нас просто до того незручного запитання, про яке тут ідеться.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/the-dunning-kruger-effect/
+
 РОЗДІЛИ
 0:00 Відчуття, що ти второпав
 0:35 Вчимося програмувати
@@ -545,6 +563,8 @@ Bạn học được điều gì đó mới, và bỗng nhiên nó có vẻ đơ
 Năm 1999, Justin Kruger và David Dunning cho sinh viên làm các bài kiểm tra về khiếu hài hước, ngữ pháp và logic, rồi hỏi họ nghĩ mình đã làm tốt đến đâu. Qua bốn nghiên cứu, nhóm ở phần tư thấp nhất đạt khoảng phân vị 12 — và tự đánh giá mình ở phân vị 62. Họ không chỉ sai. Họ còn sai về mức độ mình sai.
 
 Nhưng phiên bản phổ biến trên internet lại hiểu ngược, và còn một vấn đề thứ hai mà gần như không ai nhắc: nhiều nhà nghiên cứu đã lập luận rằng biểu đồ đặc trưng ấy có thể xuất hiện một phần vì lý do thống kê. Hãy lấy dữ liệu mô phỏng hoàn toàn không chứa hiệu ứng đó, vẽ theo đúng cách ấy, và bạn vẫn có thể thu được một hình rất giống bản gốc. Cuộc tranh luận chưa ngã ngũ — và điều đó đưa ta thẳng trở lại câu hỏi khó chịu ở trung tâm toàn bộ vấn đề.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/the-dunning-kruger-effect/
 
 CÁC CHƯƠNG
 0:00 Cảm giác đã hiểu ra
@@ -607,6 +627,8 @@ způsobem — a pořád můžeš dostat obrázek, který vypadá hodně podobně
 originál. Debata není uzavřená, což nás vrací rovnou k té nepříjemné
 otázce, o kterou tu celou dobu jde.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/the-dunning-kruger-effect/
+
 KAPITOLY
 0:00 Když si myslíš, že to chápeš
 0:35 Učení programovat
@@ -668,6 +690,8 @@ está, represéntalos igual, y aún puedes obtener una imagen muy parecida
 a la original. El debate no está cerrado, lo que nos devuelve
 directamente a la pregunta incómoda de la que trata todo esto.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/the-dunning-kruger-effect/
+
 CAPÍTULOS
 0:00 Cuando crees que lo has entendido
 0:35 Aprender a programar
@@ -728,6 +752,8 @@ simulerade data utan någon sådan effekt inbyggd, rita dem på samma sätt,
 och du kan ändå få en bild som liknar originalet ganska mycket. Debatten
 är inte avgjord — vilket för oss rakt tillbaka till den obehagliga
 frågan som hela saken handlar om.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/the-dunning-kruger-effect/
 
 KAPITEL
 0:00 När man tror att man förstått

@@ -60,6 +60,8 @@ In the age of satellites and wireless everything, why would anyone fly a drone o
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-drones-fly-on-a-wire/
+
 CHAPTERS
 00:00 A drone on a thread
 00:34 Ten thousand drones a month

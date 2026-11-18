@@ -77,6 +77,8 @@ Meanwhile, since 1992 Martin's papers have been going to an archive in Texas tha
 
 There's one more detail that makes all of this worse. In 2013 Martin sat down with the television producers and told them how it ends — not the whole thing, just a handful of destinations the story has to arrive at. Which means a reconstruction could hit every single one of them and still be a completely different book.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-happens-to-game-of-thrones-if-martin-never-finishes/
+
 Chapters
 0:00 A steamroller and ten unfinished novels
 0:39 Fifteen years of The Winds of Winter

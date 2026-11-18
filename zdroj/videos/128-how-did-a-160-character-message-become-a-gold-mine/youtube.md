@@ -70,6 +70,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by/3.0
 All other archive images are in the public domain.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-did-a-160-character-message-become-a-gold-mine/
+
 CHAPTERS
 00:00 Data at an absurd price
 00:36 Where 160 came from

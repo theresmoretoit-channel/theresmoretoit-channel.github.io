@@ -37,6 +37,8 @@ doesn't show about those twenty copies.
 Along the way: the zombie gene, why we can't simply turn our own p53 up
 to maximum, and what elephant MDM2 is doing in human cells.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-dont-elephants-get-cancer/
+
 CHAPTERS
 00:00 Thirty trillion chances to go wrong
 00:46 The elephant problem

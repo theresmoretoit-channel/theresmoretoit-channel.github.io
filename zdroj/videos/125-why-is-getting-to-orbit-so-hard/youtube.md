@@ -69,6 +69,8 @@ IMAGE CREDITS
 Apollo 11 launch; Saturn V third stage after separation (Apollo 8); Deep Space 1 ion engine test — NASA
 Portrait of Konstantin Tsiolkovsky — public domain
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-getting-to-orbit-so-hard/
+
 CHAPTERS
 00:00 One part in six hundred
 00:46 Fuel that has to carry fuel

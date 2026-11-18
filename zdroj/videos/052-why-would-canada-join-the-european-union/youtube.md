@@ -58,6 +58,8 @@ into something with edges, and Canada may end up with a slightly better
 trade deal and nothing more. But Europe said out loud that membership
 might not have to mean what it has always meant.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-would-canada-join-the-european-union/
+
 Chapters
 00:00 Canada wants to join the European Union
 00:22 Something that does not exist yet

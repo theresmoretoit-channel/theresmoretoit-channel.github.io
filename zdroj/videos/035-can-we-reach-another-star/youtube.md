@@ -58,6 +58,8 @@ Which leaves the question the whole thing is really about: can we build
 a machine today that still knows what it's supposed to do when it gets
 there?
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/can-we-reach-another-star/
+
 CHAPTERS
 0:00 The nearest star
 0:56 How fast can we go?

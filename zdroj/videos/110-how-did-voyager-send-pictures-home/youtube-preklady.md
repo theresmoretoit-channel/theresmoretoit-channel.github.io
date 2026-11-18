@@ -64,6 +64,8 @@ Lähteet: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-voyager-send-pictures-home/
+
 LUVUT
 00:00 Kamera, jonka ytimenä oli televisioputki
 00:35 Mariner 4 Marsin luona
@@ -98,6 +100,8 @@ L’histoire commence 12 ans avant le lancement de Voyager, avec Mariner 4 près
 Sources : Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002) ; PDS Rings Node, description de la caméra à champ étroit de Voyager ; J. Tomayko, Computers in Spaceflight (NASA CR-182505, 1988) ; B. A. Smith, Voyager Imaging Science Investigations (NASA, 1979) ; NSSDC, Mariner 4 ; Caltech Magazine, A Planet Painted by Hand ; IEEE Spectrum, histoire du premier appareil photo numérique ; NASA Photojournal PIA00451–PIA00453.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-voyager-send-pictures-home/
 
 CHAPITRES
 00:00 Une caméra construite autour d’un tube de télévision
@@ -134,6 +138,8 @@ Sumber: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Ri
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-voyager-send-pictures-home/
+
 BAB
 00:00 Kamera berbasis tabung televisi
 00:35 Mariner 4 melintasi Mars
@@ -168,6 +174,8 @@ La storia comincia 12 anni prima del lancio della Voyager, con la Mariner 4 vici
 Fonti: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Rings Node, descrizione della telecamera a campo stretto della Voyager; J. Tomayko, Computers in Spaceflight (NASA CR-182505, 1988); B. A. Smith, Voyager Imaging Science Investigations (NASA, 1979); NSSDC, Mariner 4; Caltech Magazine, A Planet Painted by Hand; IEEE Spectrum, storia della prima fotocamera digitale; NASA Photojournal PIA00451–PIA00453.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-voyager-send-pictures-home/
 
 CAPITOLI
 00:00 Una telecamera basata su un tubo televisivo
@@ -204,6 +212,8 @@ Quellen: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS R
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-voyager-send-pictures-home/
+
 KAPITEL
 00:00 Eine Kamera auf Basis einer Fernsehaufnahmeröhre
 00:35 Mariner 4 am Mars
@@ -238,6 +248,8 @@ Historia zaczyna się 12 lat przed startem Voyagera, od przelotu sondy Mariner 4
 Źródła: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Rings Node, opis wąskokątnej kamery Voyagera; J. Tomayko, Computers in Spaceflight (NASA CR-182505, 1988); B. A. Smith, Voyager Imaging Science Investigations (NASA, 1979); NSSDC, Mariner 4; Caltech Magazine, A Planet Painted by Hand; IEEE Spectrum, historia pierwszego aparatu cyfrowego; NASA Photojournal PIA00451–PIA00453.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-voyager-send-pictures-home/
 
 ROZDZIAŁY
 00:00 Kamera zbudowana wokół lampy telewizyjnej
@@ -274,6 +286,8 @@ Fontes: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Ri
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-voyager-send-pictures-home/
+
 CAPÍTULOS
 00:00 Uma câmera feita com um tubo de TV
 00:35 A Mariner 4 em Marte
@@ -308,6 +322,8 @@ Hikâye, Voyager'ın fırlatılmasından 12 yıl önce, Mars'ın yanından geçe
 Kaynaklar: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Rings Node, Voyager dar açılı kamerasının tanımı; J. Tomayko, Computers in Spaceflight (NASA CR-182505, 1988); B. A. Smith, Voyager Imaging Science Investigations (NASA, 1979); NSSDC, Mariner 4; Caltech Magazine, A Planet Painted by Hand; IEEE Spectrum, ilk dijital kameranın tarihi; NASA Photojournal PIA00451–PIA00453.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-voyager-send-pictures-home/
 
 BÖLÜMLER
 00:00 Televizyon tüpüne dayanan bir kamera
@@ -344,6 +360,8 @@ Diğer tüm arşiv görselleri: NASA, NASA/JPL, NASA/JPL-Caltech, NASA/GRC, kamu
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-voyager-send-pictures-home/
+
 РОЗДІЛИ
 00:00 Камера на основі телевізійної трубки
 00:35 Марінер-4 біля Марса
@@ -378,6 +396,8 @@ Câu chuyện bắt đầu 12 năm trước khi Voyager được phóng, với t
 Nguồn: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Rings Node, mô tả máy ảnh góc hẹp của Voyager; J. Tomayko, Computers in Spaceflight (NASA CR-182505, 1988); B. A. Smith, Voyager Imaging Science Investigations (NASA, 1979); NSSDC, Mariner 4; Caltech Magazine, A Planet Painted by Hand; IEEE Spectrum, lịch sử chiếc máy ảnh kỹ thuật số đầu tiên; NASA Photojournal PIA00451–PIA00453.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-voyager-send-pictures-home/
 
 CHƯƠNG
 00:00 Chiếc máy ảnh dựa trên ống truyền hình
@@ -414,6 +434,8 @@ Zdroje: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Ri
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-voyager-send-pictures-home/
+
 KAPITOLY
 00:00 Kamera postavená na televizní elektronce
 00:35 Mariner 4 u Marsu
@@ -449,6 +471,8 @@ Fuentes: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS R
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-voyager-send-pictures-home/
+
 CAPÍTULOS
 00:00 Una cámara construida en torno a un tubo de televisión
 00:35 La Mariner 4 en Marte
@@ -483,6 +507,8 @@ Berättelsen börjar 12 år före Voyagers uppskjutning, med Mariner 4 vid Mars 
 Källor: Ludwig & Taylor, Voyager Telecommunications (JPL DESCANSO, 2002); PDS Rings Node, beskrivning av Voyagers smalvinkelkamera; J. Tomayko, Computers in Spaceflight (NASA CR-182505, 1988); B. A. Smith, Voyager Imaging Science Investigations (NASA, 1979); NSSDC, Mariner 4; Caltech Magazine, A Planet Painted by Hand; IEEE Spectrum, historien om den första digitalkameran; NASA Photojournal PIA00451–PIA00453.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-voyager-send-pictures-home/
 
 KAPITEL
 00:00 En kamera byggd kring ett tv-rör

@@ -36,6 +36,8 @@ Ja sitten käänne. Jos tunteemme heiluttavat meitä näin helposti, mitä meid�
 
 Vastaus on olemassa, eikä se vaadi sinua olemaan asiantuntija. Se ei myöskään päästä ketään meistä helpolla: tutkimus tästä on epämukavaa, koska hyvä päättelykyky näyttää tekevän ihmisistä parempia puolustamaan sitä, mitä he jo ajattelivat.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-we-believe-before-we-check/
+
 Luvut
 0:00 Otsikko, ja sitten kysymys
 0:22 Aivot jotka eivät odota
@@ -73,6 +75,8 @@ On passe d'un bruit dans les buissons à une rue entière qui a peur sans que pe
 Et ensuite le retournement. Si nos émotions nous bousculent aussi facilement, qu'est-ce qu'on est censés y faire ? Tout vérifier soi-même ? Essayez une seule fois — prenez une affirmation sur l'économie et remontez-la jusqu'au bout — et la vraie question se révèle être une autre : comment choisir à qui se fier quand on ne peut pas vérifier ?
 
 Il y a une réponse, et elle n'exige pas d'être expert. Elle n'épargne personne non plus : la recherche sur le sujet est inconfortable, parce que bien raisonner rend surtout meilleur pour défendre ce qu'on pensait déjà.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-we-believe-before-we-check/
 
 Chapitres
 0:00 Un titre, puis une question
@@ -112,6 +116,8 @@ Lalu datang baliknya. Kalau perasaan kita mendorong kita segampang itu, lalu kit
 
 Ada jawabannya, dan itu tidak menuntut kamu jadi ahli. Jawaban itu juga tidak membebaskan siapa pun: penelitiannya tidak enak didengar, karena pandai bernalar ternyata membuat orang lebih pandai membela apa yang sudah mereka yakini.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-we-believe-before-we-check/
+
 Bab
 0:00 Sebuah judul, lalu sebuah pertanyaan
 0:22 Otak yang tidak menunggu
@@ -149,6 +155,8 @@ Si va da un fruscio nei cespugli a un'intera strada che ha paura senza che nessu
 E poi il ribaltamento. Se le emozioni ci spingono con tanta facilità, che cosa dovremmo farci? Verificare tutto da soli? Provaci una volta sola — prendi un'affermazione sull'economia e seguila fino in fondo — e la vera domanda si rivela un'altra: come decidere di chi fidarsi quando non possiamo verificare?
 
 Una risposta c'è, e non richiede di essere esperti. E non assolve nessuno: la ricerca su questo è scomoda, perché essere bravi a ragionare sembra rendere le persone più brave a difendere quello che già pensavano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-we-believe-before-we-check/
 
 Capitoli
 0:00 Un titolo, e poi una domanda
@@ -188,6 +196,8 @@ Und dann die Wende. Wenn unsere Gefühle uns so leicht herumschubsen, was sollen
 
 Es gibt eine Antwort, und sie verlangt nicht, dass du Fachmann bist. Sie lässt aber auch niemanden davonkommen: Die Forschung dazu ist unangenehm, denn wer gut denken kann, wird vor allem besser darin, das zu verteidigen, was er ohnehin schon dachte.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-we-believe-before-we-check/
+
 Kapitel
 0:00 Eine Schlagzeile, und dann eine Frage
 0:22 Ein Gehirn, das nicht wartet
@@ -225,6 +235,8 @@ Idziemy od szelestu w krzakach do całej ulicy przestraszonych ludzi, z których
 A potem zwrot. Skoro uczucia popychają nas tak łatwo, to co mamy z tym zrobić? Sprawdzać wszystko samemu? Spróbuj raz jeden — weź jedno twierdzenie o gospodarce i przejdź je do dna — a prawdziwe pytanie okaże się inne: jak wybrać, komu zaufać, kiedy sprawdzić się nie da?
 
 Odpowiedź istnieje i nie wymaga, żebyś był ekspertem. Nie rozgrzesza też nikogo: badania na ten temat są nieprzyjemne, bo dobre rozumowanie czyni ludzi przede wszystkim lepszymi w obronie tego, co już myśleli.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-we-believe-before-we-check/
 
 Rozdziały
 0:00 Nagłówek, a potem pytanie
@@ -264,6 +276,8 @@ E aí vem a virada. Se os sentimentos nos empurram com tanta facilidade, o que a
 
 Existe uma resposta, e ela não exige que você seja especialista. Também não livra ninguém: a pesquisa sobre isso é desconfortável, porque ser bom de raciocínio parece deixar as pessoas melhores em defender o que já pensavam.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-we-believe-before-we-check/
+
 Capítulos
 0:00 Uma manchete, e então uma pergunta
 0:22 Um cérebro que não espera
@@ -301,6 +315,8 @@ Bu bir internet sorunu değil. Her şey, daha başlık gelmeden önce beynin yap
 Sonra dönüş noktası. Duygularımız bizi bu kadar kolay itip kakıyorsa, bu konuda ne yapmamız gerekiyor? Her şeyi kendimiz mi kontrol edelim? Bunu bir kez dene — ekonomiyle ilgili tek bir iddia al ve dibine kadar takip et — ve asıl sorunun başka olduğu ortaya çıkıyor: kontrol edemediğinde kime güveneceğine nasıl karar verirsin?
 
 Bir cevap var ve uzman olmanı gerektirmiyor. Kimseyi de aklamıyor: bu konudaki araştırma rahatsız edici, çünkü akıl yürütmede iyi olmak insanları asıl olarak zaten düşündükleri şeyi savunmakta iyi yapıyor.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-we-believe-before-we-check/
 
 Bölümler
 0:00 Bir başlık, sonra bir soru
@@ -340,6 +356,8 @@ Müzik bu kanal için yordamsal olarak üretiliyor.
 
 Відповідь є, і вона не вимагає бути експертом. Вона також нікого не виправдовує: дослідження про це неприємне, бо вміння міркувати робить людей передусім кращими в захисті того, що вони вже думали.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-we-believe-before-we-check/
+
 Розділи
 0:00 Заголовок, а тоді питання
 0:22 Мозок, який не чекає
@@ -377,6 +395,8 @@ Ta đi từ tiếng sột soạt trong bụi cây tới cả một con phố s�
 Rồi tới bước ngoặt. Nếu cảm xúc xô đẩy ta dễ đến thế, thì ta phải làm gì? Tự mình kiểm chứng mọi thứ? Hãy thử đúng một lần — lấy một khẳng định về kinh tế rồi lần tới tận gốc — và câu hỏi thật sự hóa ra lại khác: làm sao chọn tin ai khi ta không thể kiểm chứng?
 
 Có một câu trả lời, và nó không đòi bạn phải là chuyên gia. Nó cũng không tha cho ai cả: nghiên cứu về chuyện này khá khó chịu, bởi giỏi lập luận hóa ra lại khiến người ta giỏi hơn trong việc bảo vệ điều họ vốn đã nghĩ.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-we-believe-before-we-check/
 
 Các phần
 0:00 Một tiêu đề, rồi một câu hỏi
@@ -416,6 +436,8 @@ A pak zlom. Když s námi pocity takhle snadno hýbou, co s tím máme dělat? O
 
 Odpověď existuje a nechce po tobě, abys byl odborník. Nikoho ale taky neomlouvá: výzkum k tomu je nepříjemný, protože dobré uvažování dělá z lidí hlavně lepší obhájce toho, co si mysleli už předtím.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-we-believe-before-we-check/
+
 Kapitoly
 0:00 Titulek, a pak otázka
 0:22 Mozek, který nečeká
@@ -454,6 +476,8 @@ Y entonces el giro. Si las emociones nos empujan con esta facilidad, ¿qué se s
 
 Hay una respuesta, y no exige que seas experto. Tampoco deja a nadie a salvo: la investigación sobre esto es incómoda, porque razonar bien parece hacer a la gente sobre todo mejor defendiendo lo que ya pensaba.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-we-believe-before-we-check/
+
 Capítulos
 0:00 Un titular, y luego una pregunta
 0:22 Un cerebro que no espera
@@ -491,6 +515,8 @@ Vi går från ett prassel i buskarna till en hel gata av rädda människor där 
 Och så vändningen. Om känslorna styr oss så här lätt, vad ska vi göra åt det? Kolla allt själva? Prova det en enda gång — ta ett påstående om ekonomin och följ det hela vägen ner — och den riktiga frågan visar sig vara en annan: hur avgör du vem du ska lita på när du inte kan kolla?
 
 Det finns ett svar, och det kräver inte att du är expert. Det friar heller ingen: forskningen om det här är obekväm, för att vara bra på att resonera verkar framför allt göra människor bättre på att försvara det de redan tyckte.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-we-believe-before-we-check/
 
 Kapitel
 0:00 En rubrik, och sedan en fråga

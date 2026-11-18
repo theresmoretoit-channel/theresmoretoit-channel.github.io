@@ -46,6 +46,8 @@ Lähteet: ZX Spectrum ROM disassembly (LD-BYTES) ja SkoolKit's Skool Daze disass
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-8-bit-computers-load-games-faster/
+
 LUVUT
 00:00 Sama nauha, puolet ajasta
 00:37 Lyhennä jokainen pulssi
@@ -86,6 +88,8 @@ Les sons de chargement de cette vidéo ont été générés à partir des vraies
 Sources : ZX Spectrum ROM disassembly (LD-BYTES) et SkoolKit's Skool Daze disassembly ; Your Sinclair, May 1986 (Turboloader) ; CRASH #24 and #44 (David Aubrey-Jones on Speedlock) ; World of Spectrum et CPCWiki on Speedlock ; Compute! #56 and #57, January and February 1985 (TurboTape) ; Michael Steil, pagetable.com, C64 KERNAL disassembly ; Commodore C2N Datassette service manual ; ANTIC, February 1983, on the Atari cassette recorder ; oldcomp.cz et atari-800.cz on Turbo 2000 ; Sharp MZ-800 Technical Reference Manual ; Sharp MZ-800 emulator archive (Turbo Copy).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-8-bit-computers-load-games-faster/
 
 CHAPITRES
 00:00 Même bande, deux fois moins de temps
@@ -128,6 +132,8 @@ Sumber: ZX Spectrum ROM disassembly (LD-BYTES) dan SkoolKit's Skool Daze disasse
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-8-bit-computers-load-games-faster/
+
 BAB
 00:00 Pita yang sama, separuh waktu
 00:37 Perpendek setiap pulsa
@@ -168,6 +174,8 @@ I suoni di caricamento di questo video sono stati generati dalle vere routine di
 Fonti: ZX Spectrum ROM disassembly (LD-BYTES) e SkoolKit's Skool Daze disassembly; Your Sinclair, May 1986 (Turboloader); CRASH #24 and #44 (David Aubrey-Jones on Speedlock); World of Spectrum e CPCWiki on Speedlock; Compute! #56 and #57, January and February 1985 (TurboTape); Michael Steil, pagetable.com, C64 KERNAL disassembly; Commodore C2N Datassette service manual; ANTIC, February 1983, on the Atari cassette recorder; oldcomp.cz e atari-800.cz on Turbo 2000; Sharp MZ-800 Technical Reference Manual; Sharp MZ-800 emulator archive (Turbo Copy).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-8-bit-computers-load-games-faster/
 
 CAPITOLI
 00:00 Stesso nastro, metà tempo
@@ -210,6 +218,8 @@ Quellen: ZX Spectrum ROM disassembly (LD-BYTES) und SkoolKit's Skool Daze disass
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-8-bit-computers-load-games-faster/
+
 KAPITEL
 00:00 Dasselbe Band, die halbe Zeit
 00:37 Jeden Impuls kürzer machen
@@ -250,6 +260,8 @@ Dźwięki ładowania w tym filmie wygenerowano na podstawie prawdziwych procedur
 Źródła: ZX Spectrum ROM disassembly (LD-BYTES) i SkoolKit's Skool Daze disassembly; Your Sinclair, May 1986 (Turboloader); CRASH #24 and #44 (David Aubrey-Jones on Speedlock); World of Spectrum i CPCWiki on Speedlock; Compute! #56 and #57, January and February 1985 (TurboTape); Michael Steil, pagetable.com, C64 KERNAL disassembly; Commodore C2N Datassette service manual; ANTIC, February 1983, on the Atari cassette recorder; oldcomp.cz i atari-800.cz on Turbo 2000; Sharp MZ-800 Technical Reference Manual; Sharp MZ-800 emulator archive (Turbo Copy).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-8-bit-computers-load-games-faster/
 
 ROZDZIAŁY
 00:00 Ta sama taśma, o połowę krócej
@@ -292,6 +304,8 @@ Fontes: ZX Spectrum ROM disassembly (LD-BYTES) e SkoolKit's Skool Daze disassemb
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-8-bit-computers-load-games-faster/
+
 CAPÍTULOS
 00:00 Mesma fita, metade do tempo
 00:37 Encurte cada pulso
@@ -332,6 +346,8 @@ Bu videodaki yükleme sesleri gerçek yükleme rutinlerinden üretildi (Spectrum
 Kaynaklar: ZX Spectrum ROM disassembly (LD-BYTES) ve SkoolKit's Skool Daze disassembly; Your Sinclair, May 1986 (Turboloader); CRASH #24 and #44 (David Aubrey-Jones on Speedlock); World of Spectrum ve CPCWiki on Speedlock; Compute! #56 and #57, January and February 1985 (TurboTape); Michael Steil, pagetable.com, C64 KERNAL disassembly; Commodore C2N Datassette service manual; ANTIC, February 1983, on the Atari cassette recorder; oldcomp.cz ve atari-800.cz on Turbo 2000; Sharp MZ-800 Technical Reference Manual; Sharp MZ-800 emulator archive (Turbo Copy).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-8-bit-computers-load-games-faster/
 
 BÖLÜMLER
 00:00 Aynı bant, yarı süre
@@ -374,6 +390,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-8-bit-computers-load-games-faster/
+
 РОЗДІЛИ
 00:00 Та сама стрічка, удвічі швидше
 00:37 Скороти кожен імпульс
@@ -414,6 +432,8 @@ Video này tìm hiểu các trình tải turbo trên máy tính gia đình 8-bit
 Nguồn: ZX Spectrum ROM disassembly (LD-BYTES) và SkoolKit's Skool Daze disassembly; Your Sinclair, May 1986 (Turboloader); CRASH #24 and #44 (David Aubrey-Jones on Speedlock); World of Spectrum và CPCWiki on Speedlock; Compute! #56 and #57, January and February 1985 (TurboTape); Michael Steil, pagetable.com, C64 KERNAL disassembly; Commodore C2N Datassette service manual; ANTIC, February 1983, on the Atari cassette recorder; oldcomp.cz và atari-800.cz on Turbo 2000; Sharp MZ-800 Technical Reference Manual; Sharp MZ-800 emulator archive (Turbo Copy).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-8-bit-computers-load-games-faster/
 
 CHƯƠNG
 00:00 Cùng cuộn băng, một nửa thời gian
@@ -456,6 +476,8 @@ Zdroje: ZX Spectrum ROM disassembly (LD-BYTES) a SkoolKit's Skool Daze disassemb
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-8-bit-computers-load-games-faster/
+
 KAPITOLY
 00:00 Stejná páska, poloviční doba
 00:37 Zkrať každý pulz
@@ -497,6 +519,8 @@ Fuentes: ZX Spectrum ROM disassembly (LD-BYTES) y SkoolKit's Skool Daze disassem
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-8-bit-computers-load-games-faster/
+
 CAPÍTULOS
 00:00 La misma cinta, la mitad de tiempo
 00:37 Acorta cada pulso
@@ -537,6 +561,8 @@ Laddningsljuden i den här videon är genererade från de riktiga laddningsrutin
 Källor: ZX Spectrum ROM disassembly (LD-BYTES) och SkoolKit's Skool Daze disassembly; Your Sinclair, May 1986 (Turboloader); CRASH #24 and #44 (David Aubrey-Jones on Speedlock); World of Spectrum och CPCWiki on Speedlock; Compute! #56 and #57, January and February 1985 (TurboTape); Michael Steil, pagetable.com, C64 KERNAL disassembly; Commodore C2N Datassette service manual; ANTIC, February 1983, on the Atari cassette recorder; oldcomp.cz och atari-800.cz on Turbo 2000; Sharp MZ-800 Technical Reference Manual; Sharp MZ-800 emulator archive (Turbo Copy).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-8-bit-computers-load-games-faster/
 
 KAPITEL
 00:00 Samma band, halva tiden

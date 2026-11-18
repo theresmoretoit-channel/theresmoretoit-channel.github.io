@@ -73,6 +73,8 @@ Licences: creativecommons.org/licenses/by-sa/3.0
 NGC 4993 and the afterglow of GRB 170817A — NASA and ESA (Hubble Space Telescope)
 All other archive images are in the public domain.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-would-a-spoonful-of-a-neutron-star-do/
+
 CHAPTERS
 00:00 A teaspoon of a neutron star
 00:24 Mostly empty space

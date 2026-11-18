@@ -39,6 +39,8 @@ Lisäksi se kysyy, miksi niillä ei enää lennetä kaikkialla, ja mitä Basler 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-this-90-year-old-airplane-still-flying/
+
 LUVUT
 00:00 90-vuotias lentokone töissä
 01:01 Lentäminen ennen DC-3:a
@@ -79,6 +81,8 @@ Cette vidéo remonte à l'époque où les compagnies aériennes avaient du mal �
 Elle se demande aussi pourquoi on ne les utilise plus partout, et ce que le Basler BT-67, une cellule de DC-3 avec des turbopropulseurs, dit de la façon dont la technologie progresse vraiment.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-this-90-year-old-airplane-still-flying/
 
 CHAPITRES
 00:00 Un avion de 90 ans au travail
@@ -121,6 +125,8 @@ Video ini juga bertanya mengapa kita tidak lagi memakainya di mana-mana, dan apa
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-this-90-year-old-airplane-still-flying/
+
 BAB
 00:00 Pesawat berusia 90 tahun yang masih bekerja
 01:01 Penerbangan sebelum DC-3
@@ -161,6 +167,8 @@ Questo video torna ai tempi in cui le compagnie aeree faticavano a guadagnare co
 Si chiede anche perché non li usiamo più ovunque, e che cosa dice il Basler BT-67, una cellula di DC-3 con motori turboelica, sul modo in cui la tecnologia va davvero avanti.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-this-90-year-old-airplane-still-flying/
 
 CAPITOLI
 00:00 Un aereo di 90 anni al lavoro
@@ -203,6 +211,8 @@ Es fragt auch, warum wir sie nicht mehr überall einsetzen und was die Basler BT
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-this-90-year-old-airplane-still-flying/
+
 KAPITEL
 00:00 Ein 90 Jahre altes Flugzeug im Einsatz
 01:01 Fliegen vor der DC-3
@@ -243,6 +253,8 @@ Ten film cofa się do czasów, gdy linie lotnicze z trudem zarabiały na samych 
 Pyta też, dlaczego nie używamy ich już wszędzie, i co Basler BT-67, płatowiec DC-3 z silnikami turbośmigłowymi, mówi o tym, jak naprawdę rozwija się technika.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-this-90-year-old-airplane-still-flying/
 
 ROZDZIAŁY
 00:00 90-letni samolot w pracy
@@ -285,6 +297,8 @@ Também pergunta por que não usamos mais esses aviões em todo lugar, e o que o
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-this-90-year-old-airplane-still-flying/
+
 CAPÍTULOS
 00:00 Um avião de 90 anos ainda na ativa
 01:01 Voar antes do DC-3
@@ -325,6 +339,8 @@ Bu video, havayollarının yalnızca yolcu taşıyarak para kazanmakta zorlandı
 Ayrıca neden artık her yerde onları kullanmadığımızı ve turboprop motorlu bir DC-3 gövdesi olan Basler BT-67'nin teknolojinin gerçekte nasıl ilerlediği hakkında ne söylediğini soruyor.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-this-90-year-old-airplane-still-flying/
 
 BÖLÜMLER
 00:00 Hâlâ çalışan 90 yaşında bir uçak
@@ -367,6 +383,8 @@ Douglas DC-3 уперше піднявся в повітря у 1935 році. �
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-this-90-year-old-airplane-still-flying/
+
 РОЗДІЛИ
 00:00 90-річний літак на роботі
 01:01 Польоти до DC-3
@@ -407,6 +425,8 @@ Video này quay lại thời mà các hãng hàng không chật vật kiếm l�
 Video cũng đặt câu hỏi vì sao ta không còn dùng chúng ở khắp nơi, và Basler BT-67, một khung thân DC-3 lắp động cơ cánh quạt tuabin, nói gì về cách công nghệ thật sự tiến lên.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-this-90-year-old-airplane-still-flying/
 
 CHƯƠNG
 00:00 Một chiếc máy bay 90 tuổi vẫn đang làm việc
@@ -449,6 +469,8 @@ A ptá se taky, proč s nimi dnes nelétáme všude a co o tom, jak se technika 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-this-90-year-old-airplane-still-flying/
+
 KAPITOLY
 00:00 Devadesátileté letadlo pořád v práci
 01:01 Létání před DC-3
@@ -490,6 +512,8 @@ También se pregunta por qué ya no los usamos en todas partes, y qué dice el B
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-this-90-year-old-airplane-still-flying/
+
 CAPÍTULOS
 00:00 Un avión de 90 años que sigue trabajando
 01:01 Volar antes del DC-3
@@ -530,6 +554,8 @@ Den här videon går tillbaka till tiden då flygbolagen hade svårt att tjäna 
 Den frågar också varför vi inte längre använder dem överallt, och vad Basler BT-67, en DC-3:s stomme med turbopropmotorer, säger om hur tekniken egentligen går framåt.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-this-90-year-old-airplane-still-flying/
 
 KAPITEL
 00:00 Ett 90 år gammalt plan i arbete

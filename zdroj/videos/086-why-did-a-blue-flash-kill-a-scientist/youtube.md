@@ -58,6 +58,8 @@ Why could a core like that be handled at all? What turned it dangerous in a frac
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-did-a-blue-flash-kill-a-scientist/
+
 CHAPTERS
 00:00 A blue flash in a laboratory
 00:48 He had been warned

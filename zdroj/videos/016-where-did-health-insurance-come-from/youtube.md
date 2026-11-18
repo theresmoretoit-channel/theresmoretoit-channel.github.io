@@ -35,6 +35,8 @@ This is the story of how we got from Roman burial societies and medieval
 guilds to Bismarck, Beveridge, and the strangest healthcare system in the
 developed world.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/where-did-health-insurance-come-from/
+
 00:00 Why this feels normal
 00:29 Europe around 1800
 01:08 Rome, guilds and the common fund

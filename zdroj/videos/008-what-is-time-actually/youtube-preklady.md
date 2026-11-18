@@ -51,6 +51,8 @@ Tämä video kertoo kahden asian erottamisesta: itse ajasta ja tunteestamme, ett
 
 Matkan varrella törmäämme johonkin, mitä toinen pääsääntö ei oikeastaan ratkaise. Entropia selittää, miksi epäjärjestys kasvaa jatkuvasti. Se ei selitä, miksi maailmankaikkeus alkoi ylipäätään niin poikkeuksellisen järjestyneenä. Se on yhä auki.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-is-time-actually/
+
 LUVUT
 00:00 Kaksi eri asiaa
 00:43 Mitä kello oikeasti mittaa
@@ -136,6 +138,8 @@ En chemin, nous tombons sur quelque chose que la seconde loi ne résout
 pas vraiment. L'entropie explique pourquoi le désordre ne cesse
 d'augmenter. Elle n'explique pas pourquoi l'univers a commencé si
 extraordinairement ordonné. Cela reste ouvert.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-is-time-actually/
 
 CHAPITRES
 00:00 Deux choses différentes
@@ -227,6 +231,8 @@ Video ini tentang membedakan dua hal: waktu itu sendiri, dan perasaan kita bahwa
 
 Dalam pembahasan ini kita menemui persoalan yang sebenarnya tidak diselesaikan oleh hukum kedua. Entropi menjelaskan kenapa ketidakteraturan terus bertambah. Ia tidak menjelaskan kenapa alam semesta bermula begitu luar biasa tertata sejak awalnya. Pertanyaan itu masih belum terjawab.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-is-time-actually/
+
 BAB
 00:00 Dua hal yang berbeda
 00:43 Apa yang sebenarnya diukur sebuah jam
@@ -313,6 +319,8 @@ Lungo la strada incontriamo qualcosa che il secondo principio non risolve
 affatto. L'entropia spiega perché il disordine continua a crescere. Non
 spiega perché l'universo sia partito così straordinariamente ordinato.
 Quello resta aperto.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-is-time-actually/
 
 CAPITOLI
 00:00 Due cose diverse
@@ -415,6 +423,8 @@ Die Entropie erklärt, warum die Unordnung immer weiter zunimmt. Sie
 erklärt nicht, warum das Universum so außerordentlich geordnet angefangen
 hat. Das ist weiter offen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-is-time-actually/
+
 KAPITEL
 00:00 Zwei verschiedene Dinge
 00:43 Was eine Uhr tatsächlich misst
@@ -513,6 +523,8 @@ Po drodze natrafiamy na coś, czego druga zasada wcale nie rozwiązuje.
 Entropia tłumaczy, dlaczego nieporządek wciąż rośnie. Nie tłumaczy,
 dlaczego wszechświat zaczął tak niezwykle uporządkowany. To pozostaje
 otwarte.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-is-time-actually/
 
 ROZDZIAŁY
 00:00 Dwie różne rzeczy
@@ -614,6 +626,8 @@ A entropia explica por que a desordem não para de aumentar. Não explica
 por que o universo começou tão extraordinariamente ordenado. Isso
 continua em aberto.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-is-time-actually/
+
 CAPÍTULOS
 00:00 Duas coisas diferentes
 00:43 O que um relógio de fato mede
@@ -702,6 +716,8 @@ Bu video iki şeyi birbirinden ayırmakla ilgili: zamanın kendisi ve zamanın a
 
 Bu süreçte ikinci yasanın aslında çözmediği bir sorunla karşılaşıyoruz. Entropi düzensizliğin neden sürekli arttığını açıklıyor. Evrenin en başta neden bu kadar olağanüstü düzenli başladığını açıklamıyor. O hâlâ açık bir soru.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-is-time-actually/
+
 BÖLÜMLER
 00:00 İki ayrı şey
 00:43 Bir saat gerçekte neyi ölçer
@@ -773,6 +789,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 Це відео про розрізнення двох речей: самого часу й нашого відчуття, що час тече. Це розрізнення веде нас від звичайних годинників до Ейнштейна, до ентропії, до мозку — і до запитання, чи існує взагалі якесь об’єктивне «тепер».
 
 Дорогою натрапляємо на щось, чого другий закон насправді не розв’язує. Ентропія пояснює, чому безлад постійно зростає. Вона не пояснює, чому всесвіт узагалі почався таким надзвичайно впорядкованим. Це питання досі залишається відкритим.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-is-time-actually/
 
 РОЗДІЛИ
 00:00 Дві різні речі
@@ -847,6 +865,8 @@ Chúng ta có đồng hồ. Chúng ta có lịch. Chúng ta biết mấy giờ r
 Video này nói về việc tách bạch hai thứ: bản thân thời gian, và cảm giác của chúng ta rằng thời gian đang trôi. Chỉ riêng sự phân biệt ấy đã dẫn chúng ta từ những chiếc đồng hồ thường ngày tới Einstein, tới entropy, tới bộ não — và tới câu hỏi liệu có tồn tại một cái "bây giờ" khách quan nào không.
 
 Dọc đường ta va phải một điều mà định luật thứ hai thực ra không giải quyết. Entropy giải thích vì sao sự hỗn độn cứ tăng lên. Nó không giải thích vì sao ngay từ đầu vũ trụ lại khởi sự trật tự đến mức phi thường như vậy. Điều đó vẫn còn bỏ ngỏ.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-is-time-actually/
 
 CÁC CHƯƠNG
 00:00 Hai thứ khác nhau
@@ -931,6 +951,8 @@ objektivní „teď".
 Cestou narazíme na něco, co druhá věta ve skutečnosti neřeší. Entropie
 vysvětluje, proč nepořádek pořád roste. Nevysvětluje, proč vesmír začal
 tak mimořádně uspořádaný. To zůstává otevřené.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-is-time-actually/
 
 KAPITOLY
 00:00 Dvě různé věci
@@ -1018,6 +1040,8 @@ Por el camino nos topamos con algo que la segunda ley no resuelve en
 realidad. La entropía explica por qué el desorden no deja de aumentar. No
 explica por qué el universo empezó tan extraordinariamente ordenado. Eso
 sigue abierto.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-is-time-actually/
 
 CAPÍTULOS
 00:00 Dos cosas distintas
@@ -1116,6 +1140,8 @@ På vägen stöter vi på något som andra huvudsatsen faktiskt inte löser.
 Entropin förklarar varför oordningen fortsätter öka. Den förklarar inte
 varför universum började så utomordentligt ordnat. Det är fortfarande
 öppet.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-is-time-actually/
 
 KAPITEL
 00:00 Två olika saker

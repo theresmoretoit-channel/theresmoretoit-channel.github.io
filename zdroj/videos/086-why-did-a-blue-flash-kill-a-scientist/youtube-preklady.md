@@ -36,6 +36,8 @@ Miksi tällaista ydintä ylipäätään saattoi käsitellä käsin? Mikä teki s
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-did-a-blue-flash-kill-a-scientist/
+
 LUVUT
 00:00 Sininen välähdys laboratoriossa
 00:48 Häntä oli varoitettu
@@ -75,6 +77,8 @@ En mai 1946, à Los Alamos, Louis Slotin faisait la démonstration d'une expéri
 Pourquoi pouvait-on seulement manipuler un tel cœur ? Qu'est-ce qui l'a rendu dangereux en une fraction de seconde ? D'où venait la lumière bleue, s'il n'y a pas eu d'explosion ? Et pourquoi n'était-ce même pas la première fois que ce même cœur tuait quelqu'un ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-did-a-blue-flash-kill-a-scientist/
 
 CHAPITRES
 00:00 Un éclair bleu dans un laboratoire
@@ -116,6 +120,8 @@ Mengapa inti seperti itu bisa dipegang dengan tangan? Apa yang membuatnya berbah
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-did-a-blue-flash-kill-a-scientist/
+
 BAB
 00:00 Kilatan biru di laboratorium
 00:48 Ia sudah diperingatkan
@@ -155,6 +161,8 @@ Nel maggio 1946, a Los Alamos, Louis Slotin stava mostrando un esperimento di cr
 Perché un nucleo del genere si poteva addirittura maneggiare? Che cosa lo rese pericoloso in una frazione di secondo? Da dove veniva la luce blu, se non c'era stata un'esplosione? E perché non era nemmeno la prima volta che lo stesso nucleo uccideva qualcuno?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-did-a-blue-flash-kill-a-scientist/
 
 CAPITOLI
 00:00 Un lampo blu in laboratorio
@@ -196,6 +204,8 @@ Warum konnte man mit so einem Kern überhaupt von Hand hantieren? Was machte ihn
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-did-a-blue-flash-kill-a-scientist/
+
 KAPITEL
 00:00 Ein blauer Blitz im Labor
 00:48 Man hatte ihn gewarnt
@@ -235,6 +245,8 @@ W maju 1946 roku Louis Slotin pokazywał w Los Alamos eksperyment krytyczności 
 Dlaczego taki rdzeń w ogóle można było trzymać w rękach? Co sprawiło, że w ułamku sekundy stał się niebezpieczny? Skąd wzięło się niebieskie światło, skoro nie był to wybuch? I dlaczego nie był to nawet pierwszy raz, kiedy ten sam rdzeń kogoś zabił?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-did-a-blue-flash-kill-a-scientist/
 
 ROZDZIAŁY
 00:00 Niebieski błysk w laboratorium
@@ -276,6 +288,8 @@ Por que dava para manusear um núcleo desses? O que o tornou perigoso numa fraç
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-did-a-blue-flash-kill-a-scientist/
+
 CAPÍTULOS
 00:00 Um clarão azul num laboratório
 00:48 Ele tinha sido avisado
@@ -315,6 +329,8 @@ Mayıs 1946'da Louis Slotin, Los Alamos'ta üçüncü atom bombası için yapıl
 Böyle bir çekirdek neden elle tutulabiliyordu? Onu saniyenin bir kesri içinde tehlikeli hâle getiren neydi? Bir patlama olmadıysa mavi ışık nereden geldi? Ve aynı çekirdeğin birini öldürmesi neden ilk sefer bile değildi?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-did-a-blue-flash-kill-a-scientist/
 
 BÖLÜMLER
 00:00 Laboratuvarda mavi bir parlama
@@ -356,6 +372,8 @@ Licences: creativecommons.org/licenses/by-sa/3.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-did-a-blue-flash-kill-a-scientist/
+
 РОЗДІЛИ
 00:00 Синій спалах у лабораторії
 00:48 Його попереджали
@@ -395,6 +413,8 @@ Tháng 5 năm 1946, tại Los Alamos, Louis Slotin đang trình diễn một th�
 Vì sao người ta lại có thể cầm nắm một lõi như thế bằng tay? Điều gì khiến nó trở nên nguy hiểm chỉ trong một phần nhỏ của giây? Ánh sáng xanh lam đến từ đâu, nếu đó không phải một vụ nổ? Và vì sao đây thậm chí không phải lần đầu tiên chính lõi ấy giết chết một người?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-did-a-blue-flash-kill-a-scientist/
 
 CHƯƠNG
 00:00 Một chớp sáng xanh lam trong phòng thí nghiệm
@@ -436,6 +456,8 @@ Proč se s takovým jádrem vůbec dalo pracovat v ruce? Co ho během zlomku sek
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-did-a-blue-flash-kill-a-scientist/
+
 KAPITOLY
 00:00 Modrý záblesk v laboratoři
 00:48 Varovali ho
@@ -476,6 +498,8 @@ En mayo de 1946, en Los Álamos, Louis Slotin hacía una demostración de un exp
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-did-a-blue-flash-kill-a-scientist/
+
 CAPÍTULOS
 00:00 Un destello azul en un laboratorio
 00:48 Le habían advertido
@@ -515,6 +539,8 @@ I maj 1946 visade Louis Slotin ett kriticitetsexperiment i Los Alamos med en plu
 Varför kunde man över huvud taget hantera en sådan kärna för hand? Vad gjorde den farlig på en bråkdel av en sekund? Var kom det blå ljuset ifrån, om det inte var en explosion? Och varför var det inte ens första gången som samma kärna dödade någon?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-did-a-blue-flash-kill-a-scientist/
 
 KAPITEL
 00:00 En blå blixt i ett laboratorium

@@ -31,6 +31,8 @@ Lähteet: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-does-your-clock-set-itself/
+
 LUVUT
 00:00 Kello, jota kukaan ei ole asettanut
 00:45 Lyhyt notkahdus, pitkä notkahdus
@@ -68,6 +70,8 @@ La vidéo passe en revue DCF77, près de Francfort, et WWVB, dans le Colorado, l
 Sources : PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, CCTF 2012 report from METAS (CH), BIPM working document TAI/12-21 (2012); BIPM, 28th CGPM (2026), Resolution 5; BIPM, 27th CGPM (2022), Resolution 4; NIST, Special Publication 432, NIST Time and Frequency Services; Meteotime, service notices (2026).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-does-your-clock-set-itself/
 
 CHAPITRES
 00:00 Une horloge que personne n'a réglée
@@ -107,6 +111,8 @@ Sumber: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-does-your-clock-set-itself/
+
 BAB
 00:00 Jam yang belum pernah diatur siapa pun
 00:45 Penurunan pendek, penurunan panjang
@@ -144,6 +150,8 @@ Il video passa in rassegna DCF77, vicino a Francoforte, e WWVB, in Colorado, com
 Fonti: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, CCTF 2012 report from METAS (CH), BIPM working document TAI/12-21 (2012); BIPM, 28th CGPM (2026), Resolution 5; BIPM, 27th CGPM (2022), Resolution 4; NIST, Special Publication 432, NIST Time and Frequency Services; Meteotime, service notices (2026).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-does-your-clock-set-itself/
 
 CAPITOLI
 00:00 Un orologio che nessuno ha mai regolato
@@ -183,6 +191,8 @@ Quellen: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS,
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-does-your-clock-set-itself/
+
 KAPITEL
 00:00 Eine Uhr, die nie jemand gestellt hat
 00:45 Kurze Absenkung, lange Absenkung
@@ -220,6 +230,8 @@ Film omawia DCF77 pod Frankfurtem i WWVB w Kolorado, to, jak fala radiowa niesie
 Źródła: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, CCTF 2012 report from METAS (CH), BIPM working document TAI/12-21 (2012); BIPM, 28th CGPM (2026), Resolution 5; BIPM, 27th CGPM (2022), Resolution 4; NIST, Special Publication 432, NIST Time and Frequency Services; Meteotime, service notices (2026).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-does-your-clock-set-itself/
 
 ROZDZIAŁY
 00:00 Zegar, którego nikt nie ustawiał
@@ -259,6 +271,8 @@ Fontes: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-does-your-clock-set-itself/
+
 CAPÍTULOS
 00:00 Um relógio que ninguém acertou
 00:45 Queda curta, queda longa
@@ -296,6 +310,8 @@ Bu video; Frankfurt yakınlarındaki DCF77'yi ve Colorado'daki WWVB'yi, bir rady
 Kaynaklar: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, CCTF 2012 report from METAS (CH), BIPM working document TAI/12-21 (2012); BIPM, 28th CGPM (2026), Resolution 5; BIPM, 27th CGPM (2022), Resolution 4; NIST, Special Publication 432, NIST Time and Frequency Services; Meteotime, service notices (2026).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-does-your-clock-set-itself/
 
 BÖLÜMLER
 00:00 Kimsenin ayarlamadığı bir saat
@@ -335,6 +351,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-does-your-clock-set-itself/
+
 РОЗДІЛИ
 00:00 Годинник, який ніхто не налаштовував
 00:45 Короткий спад, довгий спад
@@ -372,6 +390,8 @@ Video này đi qua DCF77 gần Frankfurt và WWVB ở Colorado, cách một són
 Nguồn: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, CCTF 2012 report from METAS (CH), BIPM working document TAI/12-21 (2012); BIPM, 28th CGPM (2026), Resolution 5; BIPM, 27th CGPM (2022), Resolution 4; NIST, Special Publication 432, NIST Time and Frequency Services; Meteotime, service notices (2026).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-does-your-clock-set-itself/
 
 CHƯƠNG
 00:00 Chiếc đồng hồ chưa ai chỉnh giờ
@@ -411,6 +431,8 @@ Zdroje: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-does-your-clock-set-itself/
+
 KAPITOLY
 00:00 Hodiny, které nikdo nenařídil
 00:45 Krátký pokles, dlouhý pokles
@@ -449,6 +471,8 @@ Fuentes: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS,
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-does-your-clock-set-itself/
+
 CAPÍTULOS
 00:00 Un reloj que nadie ha puesto en hora
 00:45 Bajada corta, bajada larga
@@ -486,6 +510,8 @@ Videon går igenom DCF77 nära Frankfurt och WWVB i Colorado, hur en radiovåg b
 Källor: PTB, DCF77 time code; PTB News 03/2, PTB time service prolonged; METAS, CCTF 2012 report from METAS (CH), BIPM working document TAI/12-21 (2012); BIPM, 28th CGPM (2026), Resolution 5; BIPM, 27th CGPM (2022), Resolution 4; NIST, Special Publication 432, NIST Time and Frequency Services; Meteotime, service notices (2026).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-does-your-clock-set-itself/
 
 KAPITEL
 00:00 En klocka som ingen har ställt

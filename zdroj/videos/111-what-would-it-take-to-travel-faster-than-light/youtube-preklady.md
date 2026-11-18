@@ -68,6 +68,8 @@ Lähteet M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-it-take-to-travel-faster-than-light/
+
 LUVUT
 00:00 Kilogramma 99 prosentin valonnopeudella
 00:37 Viimeiset kolme metriä sekunnissa
@@ -108,6 +110,8 @@ La vitesse réelle de nos vaisseaux spatiaux, et le temps qu’il leur faudrait 
 Sources : M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0009013); Pfenning & Ford, The unphysical nature of "warp drive" (1997; arXiv gr-qc/9702026); Everett & Roman (1997; arXiv gr-qc/9702049); Bobrick & Martire, Introducing physical warp drives (2021; arXiv 2102.06824); Morris & Thorne, Am. J. Phys. 56, 395 (1988); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); Davis & Lineweaver sur l’expansion cosmique (arXiv astro-ph/0310808); Visser, Kar & Dadhich (arXiv gr-qc/0301003); K. Thorne, Black Holes and Time Warps (1994).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-it-take-to-travel-faster-than-light/
 
 CHAPITRES
 00:00 Un kilogramme à 99 % de la vitesse de la lumière
@@ -150,6 +154,8 @@ Sumber: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-it-take-to-travel-faster-than-light/
+
 BAB
 00:00 Satu kilogram pada 99% kecepatan cahaya
 00:37 Tiga meter per detik terakhir
@@ -190,6 +196,8 @@ Quanto sono veloci i nostri veri veicoli spaziali, e quanto ci metterebbero a ra
 Fonti: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0009013); Pfenning & Ford, The unphysical nature of "warp drive" (1997; arXiv gr-qc/9702026); Everett & Roman (1997; arXiv gr-qc/9702049); Bobrick & Martire, Introducing physical warp drives (2021; arXiv 2102.06824); Morris & Thorne, Am. J. Phys. 56, 395 (1988); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); Davis & Lineweaver sull’espansione cosmica (arXiv astro-ph/0310808); Visser, Kar & Dadhich (arXiv gr-qc/0301003); K. Thorne, Black Holes and Time Warps (1994).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-it-take-to-travel-faster-than-light/
 
 CAPITOLI
 00:00 Un chilogrammo al 99% della velocità della luce
@@ -232,6 +240,8 @@ Quellen: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-it-take-to-travel-faster-than-light/
+
 KAPITEL
 00:00 Ein Kilogramm bei 99 % der Lichtgeschwindigkeit
 00:37 Die letzten drei Meter pro Sekunde
@@ -272,6 +282,8 @@ Jak szybkie są nasze prawdziwe statki kosmiczne i ile zajęłaby im podróż do
 Źródła: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0009013); Pfenning & Ford, The unphysical nature of "warp drive" (1997; arXiv gr-qc/9702026); Everett & Roman (1997; arXiv gr-qc/9702049); Bobrick & Martire, Introducing physical warp drives (2021; arXiv 2102.06824); Morris & Thorne, Am. J. Phys. 56, 395 (1988); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); Davis & Lineweaver o rozszerzaniu się Wszechświata (arXiv astro-ph/0310808); Visser, Kar & Dadhich (arXiv gr-qc/0301003); K. Thorne, Black Holes and Time Warps (1994).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-it-take-to-travel-faster-than-light/
 
 ROZDZIAŁY
 00:00 Kilogram przy 99% prędkości światła
@@ -314,6 +326,8 @@ Fontes: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-it-take-to-travel-faster-than-light/
+
 CAPÍTULOS
 00:00 Um quilo a 99% da velocidade da luz
 00:37 Os últimos três metros por segundo
@@ -354,6 +368,8 @@ Gerçek uzay araçlarımızın ne kadar hızlı olduğu ve başka bir yıldıza 
 Kaynaklar: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0009013); Pfenning & Ford, The unphysical nature of "warp drive" (1997; arXiv gr-qc/9702026); Everett & Roman (1997; arXiv gr-qc/9702049); Bobrick & Martire, Introducing physical warp drives (2021; arXiv 2102.06824); Morris & Thorne, Am. J. Phys. 56, 395 (1988); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); Davis & Lineweaver, kozmik genişleme üzerine (arXiv astro-ph/0310808); Visser, Kar & Dadhich (arXiv gr-qc/0301003); K. Thorne, Black Holes and Time Warps (1994).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-it-take-to-travel-faster-than-light/
 
 BÖLÜMLER
 00:00 Işık hızının %99'unda bir kilogram
@@ -396,6 +412,8 @@ Diğer tüm arşiv görselleri: NASA, ESA, kamu malı.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-it-take-to-travel-faster-than-light/
+
 РОЗДІЛИ
 00:00 Кілограм зі швидкістю 99 % від світлової
 00:37 Останні три метри за секунду
@@ -436,6 +454,8 @@ Tàu vũ trụ thật của chúng ta nhanh đến đâu, và chúng sẽ mất 
 Nguồn: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0009013); Pfenning & Ford, The unphysical nature of "warp drive" (1997; arXiv gr-qc/9702026); Everett & Roman (1997; arXiv gr-qc/9702049); Bobrick & Martire, Introducing physical warp drives (2021; arXiv 2102.06824); Morris & Thorne, Am. J. Phys. 56, 395 (1988); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); Davis & Lineweaver về sự giãn nở của vũ trụ (arXiv astro-ph/0310808); Visser, Kar & Dadhich (arXiv gr-qc/0301003); K. Thorne, Black Holes and Time Warps (1994).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-it-take-to-travel-faster-than-light/
 
 CHƯƠNG
 00:00 Một kilôgam ở 99% tốc độ ánh sáng
@@ -478,6 +498,8 @@ Zdroje: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-it-take-to-travel-faster-than-light/
+
 KAPITOLY
 00:00 Kilogram na 99 % rychlosti světla
 00:37 Poslední tři metry za sekundu
@@ -519,6 +541,8 @@ Fuentes: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-it-take-to-travel-faster-than-light/
+
 CAPÍTULOS
 00:00 Un kilo al 99 % de la velocidad de la luz
 00:37 Los últimos tres metros por segundo
@@ -559,6 +583,8 @@ Hur snabba våra riktiga rymdfarkoster är, och hur lång tid de skulle behöva 
 Källor: M. Alcubierre, The warp drive (Class. Quantum Grav., 1994; arXiv gr-qc/0009013); Pfenning & Ford, The unphysical nature of "warp drive" (1997; arXiv gr-qc/9702026); Everett & Roman (1997; arXiv gr-qc/9702049); Bobrick & Martire, Introducing physical warp drives (2021; arXiv 2102.06824); Morris & Thorne, Am. J. Phys. 56, 395 (1988); Morris, Thorne & Yurtsever, Phys. Rev. Lett. 61, 1446 (1988); Davis & Lineweaver om universums expansion (arXiv astro-ph/0310808); Visser, Kar & Dadhich (arXiv gr-qc/0301003); K. Thorne, Black Holes and Time Warps (1994).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-it-take-to-travel-faster-than-light/
 
 KAPITEL
 00:00 Ett kilo i 99 procent av ljushastigheten

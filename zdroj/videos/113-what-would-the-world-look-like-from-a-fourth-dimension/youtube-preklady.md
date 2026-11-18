@@ -60,6 +60,8 @@ Lähteet: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcu
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 LUVUT
 00:00 Joku lukitussa huoneessa
 00:27 Flatland, 1884
@@ -97,6 +99,8 @@ Le temps comme quatrième dimension, c'est une autre question : Le temps, qu'est
 Sources : E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul (1827); H. G. Wells, The Plattner Story (1896); Liu Cixin, Death's End (2010); P. Ehrenfest, Proc. Amsterdam Acad. 20 (1917); F. R. Tangherlini, Nuovo Cimento 27, 636 (1963); T. Kaluza, Sitzungsber. Preuss. Akad. Wiss. (1921); O. Klein, Z. Phys. 37 (1926); Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); recherches d'énergie manquante par ATLAS et CMS au LHC.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-would-the-world-look-like-from-a-fourth-dimension/
 
 CHAPITRES
 00:00 Quelqu'un dans une pièce fermée à clé
@@ -136,6 +140,8 @@ Sumber: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 BAB
 00:00 Seseorang di dalam ruangan terkunci
 00:27 Flatland, 1884
@@ -173,6 +179,8 @@ Il tempo come quarta dimensione è un'altra questione: Che cos'è davvero il tem
 Fonti: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul (1827); H. G. Wells, The Plattner Story (1896); Liu Cixin, Death's End (2010); P. Ehrenfest, Proc. Amsterdam Acad. 20 (1917); F. R. Tangherlini, Nuovo Cimento 27, 636 (1963); T. Kaluza, Sitzungsber. Preuss. Akad. Wiss. (1921); O. Klein, Z. Phys. 37 (1926); Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); ricerche di energia mancante di ATLAS e CMS all'LHC.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-would-the-world-look-like-from-a-fourth-dimension/
 
 CAPITOLI
 00:00 Qualcuno dentro una stanza chiusa a chiave
@@ -212,6 +220,8 @@ Quellen: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 KAPITEL
 00:00 Jemand in einem abgeschlossenen Raum
 00:27 Flächenland, 1884
@@ -249,6 +259,8 @@ Czas jako czwarty wymiar to inne pytanie: Czym właściwie jest czas? https://ww
 Źródła: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul (1827); H. G. Wells, The Plattner Story (1896); Liu Cixin, Death's End (2010); P. Ehrenfest, Proc. Amsterdam Acad. 20 (1917); F. R. Tangherlini, Nuovo Cimento 27, 636 (1963); T. Kaluza, Sitzungsber. Preuss. Akad. Wiss. (1921); O. Klein, Z. Phys. 37 (1926); Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); poszukiwania brakującej energii w eksperymentach ATLAS i CMS w LHC.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-would-the-world-look-like-from-a-fourth-dimension/
 
 ROZDZIAŁY
 00:00 Ktoś w zamkniętym pokoju
@@ -288,6 +300,8 @@ Fontes: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 CAPÍTULOS
 00:00 Alguém dentro de um cômodo trancado
 00:27 Planolândia, 1884
@@ -325,6 +339,8 @@ Dördüncü boyut olarak zaman ise başka bir soru: Zaman Aslında Nedir? https:
 Kaynaklar: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul (1827); H. G. Wells, The Plattner Story (1896); Liu Cixin, Death's End (2010); P. Ehrenfest, Proc. Amsterdam Acad. 20 (1917); F. R. Tangherlini, Nuovo Cimento 27, 636 (1963); T. Kaluza, Sitzungsber. Preuss. Akad. Wiss. (1921); O. Klein, Z. Phys. 37 (1926); Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); ATLAS ve CMS'in LHC'de kayıp enerji arayışları.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-would-the-world-look-like-from-a-fourth-dimension/
 
 BÖLÜMLER
 00:00 Kilitli bir odada biri
@@ -364,6 +380,8 @@ Wikimedia Commons aracılığıyla, hepsi kamu malı.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 РОЗДІЛИ
 00:00 Хтось у замкненій кімнаті
 00:27 «Флатландія», 1884
@@ -401,6 +419,8 @@ Còn việc coi thời gian là chiều thứ tư lại là một câu hỏi kh�
 Nguồn: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul (1827); H. G. Wells, The Plattner Story (1896); Liu Cixin, Death's End (2010); P. Ehrenfest, Proc. Amsterdam Acad. 20 (1917); F. R. Tangherlini, Nuovo Cimento 27, 636 (1963); T. Kaluza, Sitzungsber. Preuss. Akad. Wiss. (1921); O. Klein, Z. Phys. 37 (1926); Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); các cuộc tìm kiếm năng lượng bị thiếu hụt của ATLAS và CMS tại LHC.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-would-the-world-look-like-from-a-fourth-dimension/
 
 CHƯƠNG
 00:00 Có người trong căn phòng đã khóa
@@ -440,6 +460,8 @@ Zdroje: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 KAPITOLY
 00:00 Někdo v zamčeném pokoji
 00:27 Plochozemě, 1884
@@ -478,6 +500,8 @@ Fuentes: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 CAPÍTULOS
 00:00 Alguien dentro de una habitación cerrada con llave
 00:27 Planilandia, 1884
@@ -515,6 +539,8 @@ Tiden som fjärde dimension är en annan fråga: Vad är tid, egentligen? https:
 Källor: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul (1827); H. G. Wells, The Plattner Story (1896); Liu Cixin, Death's End (2010); P. Ehrenfest, Proc. Amsterdam Acad. 20 (1917); F. R. Tangherlini, Nuovo Cimento 27, 636 (1963); T. Kaluza, Sitzungsber. Preuss. Akad. Wiss. (1921); O. Klein, Z. Phys. 37 (1926); Arkani-Hamed, Dimopoulos & Dvali, Phys. Lett. B 429, 263 (1998; arXiv hep-ph/9803315); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); ATLAS- och CMS-sökningar efter saknad energi vid LHC.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-would-the-world-look-like-from-a-fourth-dimension/
 
 KAPITEL
 00:00 Någon i ett låst rum

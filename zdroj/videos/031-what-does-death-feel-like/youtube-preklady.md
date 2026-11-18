@@ -45,6 +45,8 @@ Matkan varrella: miksi aivosi ovat ennustuskone ja lisäävät yhä aikaa lopun 
 
 Ja yksi erottelu, joka osoittautuu kaikkein hyödyllisimmäksi: kuoleman pelkääminen ei ole sama asia kuin kuolemisen pelkääminen.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-does-death-feel-like/
+
 Luvut
 0:00 Millaiselta luulemme sen tuntuvan
 1:16 Ikuinen uni
@@ -99,6 +101,8 @@ moderne — un poète romain l'a écrit il y a environ deux mille ans.
 Et une distinction qui se révèle la plus utile de toutes : avoir peur de la mort n'est pas la même
 chose qu'avoir peur de mourir.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-does-death-feel-like/
+
 Chapitres
 0:00 Ce qu'on croit que ça fera
 1:16 Le sommeil éternel
@@ -141,6 +145,8 @@ Video ini menelusuri jawaban-jawabannya satu per satu — kegelapan, kesunyian, 
 Sepanjang video: kenapa otakmu adalah mesin prediksi dan terus menambahkan waktu setelah akhir, kenapa "aku akan berada dalam keadaan mati selamanya" diam-diam menempatkanmu kembali di garis waktu, dan kenapa keabadian sebelum kamu lahir tidak pernah mengganggumu. Argumen terakhir itu bukan hal modern — seorang penyair Romawi menuliskannya sekitar dua ribu tahun lalu.
 
 Dan satu pembedaan yang ternyata paling berguna dari semuanya: takut pada kematian tidak sama dengan takut pada proses sekarat.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-does-death-feel-like/
 
 Bab
 0:00 Kita mengira rasanya seperti apa
@@ -195,6 +201,8 @@ perché l'eternità prima della tua nascita non ti ha mai dato fastidio. Quest'u
 
 E una distinzione che si rivela la più utile di tutte: avere paura della morte non è la stessa
 cosa che avere paura di morire.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-does-death-feel-like/
 
 Capitoli
 0:00 Che cosa pensiamo si proverà
@@ -252,6 +260,8 @@ römischer Dichter hat es vor rund zweitausend Jahren aufgeschrieben.
 Und eine Unterscheidung, die sich als die nützlichste von allen erweist: Angst vor dem Tod ist
 nicht dasselbe wie Angst vor dem Sterben.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-does-death-feel-like/
+
 Kapitel
 0:00 Was wir glauben, wie es sich anfühlt
 1:16 Der ewige Schlaf
@@ -307,6 +317,8 @@ poeta zapisał go jakieś dwa tysiące lat temu.
 
 I jeszcze jedno rozróżnienie, które okazuje się najbardziej przydatne ze wszystkich: bać się
 śmierci to nie to samo, co bać się umierania.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-does-death-feel-like/
 
 Rozdziały
 0:00 Jak myślimy, że to będzie
@@ -364,6 +376,8 @@ poeta romano o escreveu há cerca de dois mil anos.
 E uma distinção que se mostra a mais útil de todas: ter medo da morte não é a mesma coisa que ter
 medo de morrer.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-does-death-feel-like/
+
 Capítulos
 0:00 O que achamos que vai ser
 1:16 O sono eterno
@@ -407,6 +421,8 @@ Bu bölümde ayrıca: beyninin neden bir tahmin makinesi olduğu ve sondan sonra
 
 Ve en yararlı olduğu ortaya çıkan bir ayrım: ölümden korkmak, ölmekten korkmakla aynı şey değil.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-does-death-feel-like/
+
 Bölümler
 0:00 Nasıl hissettireceğini sanıyoruz
 1:16 Sonsuz uyku
@@ -448,6 +464,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 І одне розрізнення, яке виявляється найкориснішим з усіх: боятися смерті — не те саме, що боятися вмирання.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-does-death-feel-like/
+
 Розділи
 0:00 Яким ми це собі уявляємо
 1:16 Вічний сон
@@ -488,6 +506,8 @@ Video này lần lượt xem xét từng câu trả lời — bóng tối, im l�
 Video cũng đề cập đến: vì sao não bạn là một cỗ máy dự đoán và cứ tiếp tục thêm thời gian sau khi đã hết, vì sao câu "tôi sẽ ở trong trạng thái đã chết mãi mãi" lặng lẽ đặt bạn trở lại dòng thời gian, và vì sao sự vĩnh hằng trước khi bạn ra đời chưa từng làm bạn bận lòng. Lập luận cuối ấy không phải của thời nay — một nhà thơ La Mã đã viết nó ra khoảng hai nghìn năm trước.
 
 Và một phân biệt hóa ra hữu ích hơn cả: sợ cái chết không giống với sợ quá trình hấp hối.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-does-death-feel-like/
 
 Các chương
 0:00 Ta nghĩ nó sẽ như thế nào
@@ -541,6 +561,8 @@ Ten poslední argument není moderní — římský básník ho sepsal asi před
 
 A jedno rozlišení, které se ukáže jako nejužitečnější ze všech: bát se smrti není totéž co bát se
 umírání.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-does-death-feel-like/
 
 Kapitoly
 0:00 Jaké si myslíme, že to bude
@@ -598,6 +620,8 @@ es moderno — un poeta romano lo escribió hace unos dos mil años.
 Y una distinción que resulta ser la más útil de todas: tener miedo a la muerte no es lo mismo que
 tener miedo a morir.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-does-death-feel-like/
+
 Capítulos
 0:00 Lo que creemos que se sentirá
 1:16 El sueño eterno
@@ -653,6 +677,8 @@ poet skrev ner det för ungefär tvåtusen år sedan.
 
 Och en åtskillnad som visar sig vara den mest användbara av alla: att vara rädd för döden är inte
 samma sak som att vara rädd för att dö.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-does-death-feel-like/
 
 Kapitel
 0:00 Vad vi tror att det kommer att kännas som

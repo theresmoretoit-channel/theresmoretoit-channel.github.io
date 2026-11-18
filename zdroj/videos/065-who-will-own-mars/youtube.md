@@ -64,6 +64,8 @@ Expanse. To skip that part, jump to 08:30.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/who-will-own-mars/
+
 CHAPTERS
 00:00 A city on another planet
 00:49 The Outer Space Treaty

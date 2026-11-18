@@ -34,6 +34,8 @@ Lähteet: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-you-stop-scrolling/
+
 LUVUT
 00:00 Kymmenen keltaista kynää
 00:45 Puhelin kädessäsi
@@ -73,6 +75,8 @@ Le doomscrolling, c’est continuer à faire défiler les mauvaises nouvelles, m
 Sources : Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Human Behavior; de Berker et al. 2016, Nature Communications; Hsee & Ruan 2016, Psychological Science; Thompson et al. 2019, Science Advances; Allcott et al. 2020, American Economic Review; Buchanan et al. 2021, PLoS ONE; Robertson et al. 2023, Nature Human Behaviour; Shabahang et al. 2024, Computers in Human Behavior Reports; Milli et al. 2025, PNAS Nexus; Türk Kurtça & Kocatürk 2025, Personality and Individual Differences.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-you-stop-scrolling/
 
 CHAPITRES
 00:00 Dix stylos jaunes
@@ -114,6 +118,8 @@ Sumber: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Hu
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-you-stop-scrolling/
+
 BAB
 00:00 Sepuluh pulpen kuning
 00:45 Ponsel di tanganmu
@@ -153,6 +159,8 @@ Il doomscrolling è continuare a scorrere cattive notizie, anche se sai che ti f
 Fonti: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Human Behavior; de Berker et al. 2016, Nature Communications; Hsee & Ruan 2016, Psychological Science; Thompson et al. 2019, Science Advances; Allcott et al. 2020, American Economic Review; Buchanan et al. 2021, PLoS ONE; Robertson et al. 2023, Nature Human Behaviour; Shabahang et al. 2024, Computers in Human Behavior Reports; Milli et al. 2025, PNAS Nexus; Türk Kurtça & Kocatürk 2025, Personality and Individual Differences.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-you-stop-scrolling/
 
 CAPITOLI
 00:00 Dieci penne gialle
@@ -194,6 +202,8 @@ Quellen: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in H
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-you-stop-scrolling/
+
 KAPITEL
 00:00 Zehn gelbe Stifte
 00:45 Ein Handy in deiner Hand
@@ -233,6 +243,8 @@ Doomscrolling to przewijanie złych wiadomości dalej i dalej, choć wiesz, że 
 Źródła: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Human Behavior; de Berker et al. 2016, Nature Communications; Hsee & Ruan 2016, Psychological Science; Thompson et al. 2019, Science Advances; Allcott et al. 2020, American Economic Review; Buchanan et al. 2021, PLoS ONE; Robertson et al. 2023, Nature Human Behaviour; Shabahang et al. 2024, Computers in Human Behavior Reports; Milli et al. 2025, PNAS Nexus; Türk Kurtça & Kocatürk 2025, Personality and Individual Differences.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-you-stop-scrolling/
 
 ROZDZIAŁY
 00:00 Dziesięć żółtych długopisów
@@ -274,6 +286,8 @@ Fontes: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Hu
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-you-stop-scrolling/
+
 CAPÍTULOS
 00:00 Dez canetas amarelas
 00:45 Um celular na sua mão
@@ -313,6 +327,8 @@ Doomscrolling, sana kendini daha kötü hissettirdiğini bile bile kötü haberl
 Kaynaklar: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Human Behavior; de Berker et al. 2016, Nature Communications; Hsee & Ruan 2016, Psychological Science; Thompson et al. 2019, Science Advances; Allcott et al. 2020, American Economic Review; Buchanan et al. 2021, PLoS ONE; Robertson et al. 2023, Nature Human Behaviour; Shabahang et al. 2024, Computers in Human Behavior Reports; Milli et al. 2025, PNAS Nexus; Türk Kurtça & Kocatürk 2025, Personality and Individual Differences.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-you-stop-scrolling/
 
 BÖLÜMLER
 00:00 On sarı kalem
@@ -354,6 +370,8 @@ Lisans: creativecommons.org/licenses/by/2.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-you-stop-scrolling/
+
 РОЗДІЛИ
 00:00 Десять жовтих ручок
 00:45 Телефон у твоїй руці
@@ -393,6 +411,8 @@ Doomscrolling là cứ tiếp tục lướt qua tin xấu, dù bạn biết nó 
 Nguồn: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Human Behavior; de Berker et al. 2016, Nature Communications; Hsee & Ruan 2016, Psychological Science; Thompson et al. 2019, Science Advances; Allcott et al. 2020, American Economic Review; Buchanan et al. 2021, PLoS ONE; Robertson et al. 2023, Nature Human Behaviour; Shabahang et al. 2024, Computers in Human Behavior Reports; Milli et al. 2025, PNAS Nexus; Türk Kurtça & Kocatürk 2025, Personality and Individual Differences.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-you-stop-scrolling/
 
 CÁC CHƯƠNG
 00:00 Mười cây bút vàng
@@ -434,6 +454,8 @@ Zdroje: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Hu
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-you-stop-scrolling/
+
 KAPITOLY
 00:00 Deset žlutých per
 00:45 Telefon v ruce
@@ -474,6 +496,8 @@ Fuentes: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in H
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-you-stop-scrolling/
+
 CAPÍTULOS
 00:00 Diez bolígrafos amarillos
 00:45 Un móvil en la mano
@@ -513,6 +537,8 @@ Doomscrolling betyder att fortsätta scrolla bland dåliga nyheter, fast du vet 
 Källor: Holman, Garfin & Silver 2014, PNAS; Kushlev & Dunn 2015, Computers in Human Behavior; de Berker et al. 2016, Nature Communications; Hsee & Ruan 2016, Psychological Science; Thompson et al. 2019, Science Advances; Allcott et al. 2020, American Economic Review; Buchanan et al. 2021, PLoS ONE; Robertson et al. 2023, Nature Human Behaviour; Shabahang et al. 2024, Computers in Human Behavior Reports; Milli et al. 2025, PNAS Nexus; Türk Kurtça & Kocatürk 2025, Personality and Individual Differences.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-you-stop-scrolling/
 
 KAPITEL
 00:00 Tio gula pennor

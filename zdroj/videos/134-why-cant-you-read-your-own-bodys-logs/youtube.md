@@ -67,6 +67,8 @@ This video is not medical advice. New or unexplained chest pain is a reason to g
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-cant-you-read-your-own-bodys-logs/
+
 CHAPTERS
 00:00 Your body's error messages
 00:57 Two nails

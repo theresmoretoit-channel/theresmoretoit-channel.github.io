@@ -66,6 +66,8 @@ So why hasn't streaming killed it? What does a transmitter do that the Internet 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-hasnt-streaming-killed-tv/
+
 CHAPTERS
 00:00 An evening of linear TV
 00:52 Of course, you could record it

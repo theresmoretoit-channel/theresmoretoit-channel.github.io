@@ -64,6 +64,8 @@ If you are in immediate danger, call your local emergency number.
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/when-does-society-become-the-problem/
+
 CHAPTERS
 00:00 What if the world saw you as a problem?
 01:38 When your own body feels wrong

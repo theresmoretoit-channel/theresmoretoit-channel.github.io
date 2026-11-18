@@ -61,6 +61,8 @@ Researchers have measured how long that takes. A Swedish car magazine timed the 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-are-touchscreens-in-cars-so-dangerous/
+
 CHAPTERS
 00:00 A knob and a menu
 01:06 It isn't the screen itself

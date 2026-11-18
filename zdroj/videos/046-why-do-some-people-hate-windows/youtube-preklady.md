@@ -61,6 +61,8 @@ Kaiken tämän alla on kuitenkin kysymys, jolla ei ole mitään tekemistä
 bugien kanssa. Se koskee sitä, kuka päättää, mitä saat tehdä ostamallasi
 asialla.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-some-people-hate-windows/
+
 Luvut:
 0:00 Useimmat eivät koskaan mieti sitä
 0:42 Paradoksi: kolmekymmentä vuotta vanhat ohjelmat
@@ -123,6 +125,8 @@ Mais sous tout cela il y a une question qui n'a rien à voir avec les
 bugs. Elle porte sur qui décide de ce que vous avez le droit de faire
 d'une chose que vous avez achetée.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-some-people-hate-windows/
+
 Chapitres :
 0:00 La plupart n'y pensent jamais
 0:42 Le paradoxe : des programmes de trente ans
@@ -182,6 +186,8 @@ Tapi di bawah semua itu ada pertanyaan yang sama sekali tidak berkaitan
 dengan bug. Pertanyaannya: siapa yang menentukan apa yang boleh kamu
 lakukan dengan barang yang kamu beli.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-some-people-hate-windows/
+
 Bab:
 0:00 Kebanyakan orang tidak pernah memikirkannya
 0:42 Paradoks: program berumur tiga puluh tahun
@@ -237,6 +243,8 @@ riguarda Microsoft come azienda, non Windows come sistema.
 
 Sotto tutto questo c'è però una domanda che con i bug non c'entra niente.
 Riguarda chi decide cosa puoi fare con una cosa che hai comprato.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-some-people-hate-windows/
 
 Capitoli:
 0:00 La maggior parte non ci pensa mai
@@ -298,6 +306,8 @@ Darunter liegt aber eine Frage, die mit Fehlern nichts zu tun hat. Es
 geht darum, wer entscheidet, was du mit etwas tun darfst, das du gekauft
 hast.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-some-people-hate-windows/
+
 Kapitel:
 0:00 Die meisten denken nie darüber nach
 0:42 Das Paradox: dreißig Jahre alte Programme
@@ -357,6 +367,8 @@ Pod tym wszystkim leży jednak pytanie, które z błędami nie ma nic
 wspólnego. Chodzi o to, kto decyduje, co wolno ci zrobić z rzeczą, którą
 kupiłeś.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-some-people-hate-windows/
+
 Rozdziały:
 0:00 Większość nigdy o tym nie myśli
 0:42 Paradoks: programy sprzed trzydziestu lat
@@ -414,6 +426,8 @@ sistema.
 Mas debaixo de tudo isso há uma pergunta que não tem nada a ver com bugs.
 Ela é sobre quem decide o que você pode fazer com algo que comprou.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-some-people-hate-windows/
+
 Capítulos:
 0:00 A maioria nunca pensa nisso
 0:42 O paradoxo: programas de trinta anos atrás
@@ -469,6 +483,8 @@ Windows'la değil, şirket olarak Microsoft'la ilgili.
 
 Ama bütün bunların altında hatalarla hiç ilgisi olmayan bir soru yatıyor.
 Satın aldığın bir şeyle ne yapabileceğine kimin karar verdiği sorusu.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-some-people-hate-windows/
 
 Bölümler:
 0:00 Çoğu insan bunu hiç düşünmez
@@ -526,6 +542,8 @@ Windows працює більш ніж на мільярді комп'ютері
 
 Але під усім цим лежить питання, яке не має нічого спільного з помилками.
 Воно про те, хто вирішує, що тобі можна робити з річчю, яку ти купив.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-some-people-hate-windows/
 
 Розділи:
 0:00 Більшість про це ніколи не думає
@@ -585,6 +603,8 @@ cách hệ thống.
 Nhưng bên dưới tất cả những điều đó là một câu hỏi chẳng liên quan gì tới
 lỗi. Nó là về chuyện ai quyết định bạn được làm gì với thứ bạn đã mua.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-some-people-hate-windows/
+
 Các chương:
 0:00 Phần lớn mọi người chưa bao giờ nghĩ tới
 0:42 Nghịch lý: những chương trình ba mươi năm tuổi
@@ -640,6 +660,8 @@ o Microsoftu jako firmě, ne o Windows jako systému.
 
 Pod tím vším ale leží otázka, která s chybami nemá nic společného.
 Je o tom, kdo rozhoduje, co smíš dělat s věcí, kterou sis koupil.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-some-people-hate-windows/
 
 Kapitoly:
 0:00 Většina lidí o tom nikdy nepřemýšlí
@@ -698,6 +720,8 @@ Pero debajo de todo eso hay una pregunta que no tiene nada que ver con
 los errores. Es sobre quién decide qué puedes hacer con algo que has
 comprado.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-some-people-hate-windows/
+
 Capítulos:
 0:00 La mayoría nunca piensa en ello
 0:42 La paradoja: programas de hace treinta años
@@ -753,6 +777,8 @@ handlar om Microsoft som företag, inte om Windows som system.
 Men under allt detta ligger en fråga som inte har med buggar att göra
 alls. Den handlar om vem som bestämmer vad du får göra med något du har
 köpt.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-some-people-hate-windows/
 
 Kapitel:
 0:00 De flesta tänker aldrig på det

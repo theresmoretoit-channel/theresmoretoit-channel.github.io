@@ -49,6 +49,8 @@ for which adjective goes where; Norwegian, which moves a different word
 entirely; and French, where moving the adjective quietly changes what the
 sentence means.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/which-is-better-red-car-or-car-red/
+
 Chapters:
 0:00 Take the red car
 0:28 Adjective first: English, German, Swedish

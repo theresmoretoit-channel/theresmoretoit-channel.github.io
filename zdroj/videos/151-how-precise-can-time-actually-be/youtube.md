@@ -63,6 +63,8 @@ Sources: Bortolotti, Curceanu, Diósi, Manti, Piscicchia, Fundamental Limits on 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-precise-can-time-actually-be/
+
 CHAPTERS
 00:00 The most precise clock
 00:35 A crack in the assumption

@@ -58,6 +58,8 @@ Vastaus ei siis voi olla, ettei Microsoft osannut. Mikä tarkoittaa, ettei todel
 
 Selityksiä on kolme, ja vain yhdestä löytyy oikeudenkäyntiasiakirjoja.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-doesnt-windows-have-proper-tools/
+
 Luvut
 0:00 Heillä oli kaikki syyt rakentaa ne
 0:52 Aloitetaan tiedostonhallinnasta
@@ -114,6 +116,8 @@ Puis le cas qui tranche. Process Explorer venait d'une société appelée Sysint
 La réponse ne peut donc pas être que Microsoft n'en était pas capable. Ce qui veut dire que la vraie question n'a jamais été pourquoi ils ont échoué. C'est pourquoi ils ont choisi de ne pas le faire.
 
 Il y a trois explications, et une seule s'appuie sur des documents judiciaires.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-doesnt-windows-have-proper-tools/
 
 Chapitres
 0:00 Ils avaient toutes les raisons de les construire
@@ -172,6 +176,8 @@ Jadi jawabannya tidak mungkin bahwa Microsoft tidak mampu. Artinya pertanyaan se
 
 Ada tiga penjelasan, dan hanya satu yang punya catatan pengadilan.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-doesnt-windows-have-proper-tools/
+
 Bab
 0:00 Mereka punya segala alasan untuk membangunnya
 0:52 Mulai dari pengelola berkas
@@ -228,6 +234,8 @@ Poi il caso che chiude la questione. Process Explorer veniva da un'azienda chiam
 Quindi la risposta non può essere che Microsoft non ne fosse capace. Il che significa che la vera domanda non è mai stata perché hanno fallito. È perché hanno scelto di non farlo.
 
 Ci sono tre spiegazioni, e solo una ha atti giudiziari.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-doesnt-windows-have-proper-tools/
 
 Capitoli
 0:00 Avevano ogni motivo per costruirli
@@ -286,6 +294,8 @@ Die Antwort kann also nicht sein, dass Microsoft es nicht konnte. Das heißt, di
 
 Es gibt drei Erklärungen, und nur eine hat Gerichtsakten.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-doesnt-windows-have-proper-tools/
+
 Kapitel
 0:00 Sie hatten jeden Grund, sie zu bauen
 0:52 Fangen wir beim Dateimanager an
@@ -342,6 +352,8 @@ Potem przypadek, który rozstrzyga. Process Explorer pochodził z firmy Sysinter
 Odpowiedź nie może więc brzmieć, że Microsoft nie potrafił. Czyli prawdziwe pytanie nigdy nie brzmiało, dlaczego im się nie udało. Brzmi: dlaczego postanowili tego nie robić.
 
 Są trzy wyjaśnienia, a tylko jedno ma akta sądowe.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-doesnt-windows-have-proper-tools/
 
 Rozdziały
 0:00 Mieli wszelkie powody, żeby je zbudować
@@ -400,6 +412,8 @@ Então a resposta não pode ser que a Microsoft não conseguia. O que significa 
 
 Há três explicações, e só uma tem registros judiciais.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-doesnt-windows-have-proper-tools/
+
 Capítulos
 0:00 Tinham todos os motivos para construí-las
 0:52 Comecemos pelo gerenciador de arquivos
@@ -456,6 +470,8 @@ Sonra meseleyi bitiren örnek. Process Explorer, Sysinternals adlı bir şirkett
 Yani cevap, Microsoft'un yapamadığı olamaz. Bu da demek oluyor ki asıl soru hiçbir zaman neden başarısız oldukları değildi. Asıl soru, neden yapmamayı seçtikleri.
 
 Üç açıklama var ve yalnızca birinin mahkeme kayıtları var.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-doesnt-windows-have-proper-tools/
 
 Bölümler
 0:00 Bu araçları geliştirmek için pek çok nedenleri vardı
@@ -514,6 +530,8 @@ Microsoft має вихідний код Windows. Вони написали API.
 
 Пояснень три, і лише одне з них підтверджують матеріали судових справ.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-doesnt-windows-have-proper-tools/
+
 Розділи
 0:00 Вони мали всі підстави їх зробити
 0:52 Почнімо з файлового менеджера
@@ -570,6 +588,8 @@ Rồi đến trường hợp quyết định tất cả. Process Explorer đến
 Vậy câu trả lời không thể là Microsoft không làm được. Nghĩa là câu hỏi thật sự chưa bao giờ là vì sao họ thất bại. Mà là vì sao họ chọn không làm.
 
 Có ba lời giải thích, và chỉ một trong số đó có hồ sơ tòa án.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-doesnt-windows-have-proper-tools/
 
 Các chương
 0:00 Họ có mọi lý do để phát triển những công cụ này
@@ -628,6 +648,8 @@ Odpověď tedy nemůže znít, že Microsoft nemohl. Což znamená, že skutečn
 
 Vysvětlení jsou tři a jen jedno z nich je doložené soudními spisy.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-doesnt-windows-have-proper-tools/
+
 Kapitoly
 0:00 Měli všechny důvody je vytvořit
 0:52 Začněme správcem souborů
@@ -685,6 +707,8 @@ Así que la respuesta no puede ser que Microsoft no pudiera. Lo que significa qu
 
 Hay tres explicaciones, y solo una tiene registros judiciales.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-doesnt-windows-have-proper-tools/
+
 Capítulos
 0:00 Tenían todas las razones para construirlas
 0:52 Empecemos por el gestor de archivos
@@ -741,6 +765,8 @@ Sedan fallet som avgör saken. Process Explorer kom från ett företag som hette
 Svaret kan alltså inte vara att Microsoft inte kunde. Vilket betyder att den riktiga frågan aldrig var varför de misslyckades. Den är varför de valde att låta bli.
 
 Det finns tre förklaringar, och bara en av dem har domstolshandlingar.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-doesnt-windows-have-proper-tools/
 
 Kapitel
 0:00 De hade alla skäl att bygga dem

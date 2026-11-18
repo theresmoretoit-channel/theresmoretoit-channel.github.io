@@ -54,6 +54,8 @@ Earth has already made creatures stranger than most science fiction: fish that t
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-could-aliens-actually-look/
+
 CHAPTERS
 00:00 What we imagine
 00:39 Senses we don't have

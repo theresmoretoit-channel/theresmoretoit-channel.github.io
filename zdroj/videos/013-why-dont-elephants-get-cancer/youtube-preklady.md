@@ -56,6 +56,8 @@ Tuo kysymys on nimeltään Peton paradoksi, ja kuuluisin vastaus — „norsuill
 
 Matkan varrella: zombigeeni, miksi emme voi yksinkertaisesti kääntää omaa p53:amme maksimiin, ja mitä norsun MDM2 tekee ihmissoluissa.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-dont-elephants-get-cancer/
+
 LUVUT
 00:00 Kolmekymmentä biljoonaa mahdollisuutta mennä pieleen
 00:46 Norsuongelma
@@ -124,6 +126,8 @@ En chemin : le gène zombie, pourquoi nous ne pouvons pas simplement
 pousser notre propre p53 au maximum, et ce que le MDM2 d'éléphant
 fabrique dans des cellules humaines.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-dont-elephants-get-cancer/
+
 CHAPITRES
 00:00 Trente mille milliards d'occasions de mal tourner
 00:46 Le problème de l'éléphant
@@ -188,6 +192,8 @@ Seekor gajah punya sel jauh lebih banyak daripada kamu, dan hidup berpuluh-puluh
 Pertanyaan itu disebut paradoks Peto, dan jawaban paling terkenalnya — "gajah punya dua puluh salinan TP53" — memang benar, memang populer, dan tidak persis seperti kedengarannya. Video ini menelusuri apa sebenarnya sebuah gen itu, apa yang dilakukan p53, kenapa apoptosis penting, dan apa yang ditunjukkan serta tidak ditunjukkan oleh bukti soal dua puluh salinan itu.
 
 Sepanjang video: gen zombi, kenapa kita tidak bisa begitu saja menyetel p53 kita sendiri ke maksimum, dan apa yang dilakukan MDM2 gajah di dalam sel manusia.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-dont-elephants-get-cancer/
 
 BAB
 00:00 Tiga puluh triliun peluang terjadinya kesalahan
@@ -254,6 +260,8 @@ i dati sulle venti copie.
 Lungo la strada: il gene zombie, perché non possiamo semplicemente
 spingere al massimo il nostro p53, e che cosa combina l'MDM2 di elefante
 dentro cellule umane.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-dont-elephants-get-cancer/
 
 CAPITOLI
 00:00 Trentamila miliardi di occasioni per andare storto
@@ -332,6 +340,8 @@ Unterwegs: das Zombie-Gen, warum wir unser eigenes p53 nicht einfach auf
 Maximum drehen können, und was Elefanten-MDM2 in menschlichen Zellen
 anstellt.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-dont-elephants-get-cancer/
+
 KAPITEL
 00:00 Dreißig Billionen Gelegenheiten, schiefzugehen
 00:46 Das Elefantenproblem
@@ -407,6 +417,8 @@ czego nie pokazują — o tych dwudziestu kopiach.
 
 Po drodze: gen zombie, dlaczego nie możemy po prostu podkręcić własnego
 p53 na maksimum, i co słoniowe MDM2 wyprawia w ludzkich komórkach.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-dont-elephants-get-cancer/
 
 ROZDZIAŁY
 00:00 Trzydzieści bilionów szans, żeby coś poszło źle
@@ -486,6 +498,8 @@ No caminho: o gene zumbi, por que a gente não pode simplesmente colocar o
 próprio p53 no máximo, e o que o MDM2 de elefante anda fazendo em células
 humanas.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-dont-elephants-get-cancer/
+
 CAPÍTULOS
 00:00 Trinta trilhões de chances de dar errado
 00:46 O problema do elefante
@@ -552,6 +566,8 @@ Bu soruya Peto paradoksu deniyor ve en ünlü cevabı — "fillerde TP53’ün y
 
 Bu bölümde ayrıca: zombi gen, kendi p53’ümüzü neden öylece sonuna kadar açamadığımız ve fil MDM2’sinin insan hücrelerinde ne yaptığı.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-dont-elephants-get-cancer/
+
 BÖLÜMLER
 00:00 Bir şeylerin ters gitmesi için otuz trilyon fırsat
 00:46 Fil sorunu
@@ -606,6 +622,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Також у відео: ген-зомбі, чому ми не можемо просто підвищити активність власного p53 до максимуму, і що слоновий MDM2 робить у людських клітинах.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-dont-elephants-get-cancer/
+
 РОЗДІЛИ
 00:00 Тридцять трильйонів можливостей для того, щоб щось пішло не так
 00:46 Проблема слона
@@ -659,6 +677,8 @@ Một con voi có số tế bào nhiều hơn bạn rất nhiều, và sống h�
 Câu hỏi đó gọi là nghịch lý Peto, và câu trả lời nổi tiếng nhất — "voi có hai mươi bản sao TP53" — vừa đúng, vừa phổ biến, lại vừa không hoàn toàn như bạn tưởng khi mới nghe. Video này giải thích một gene thực ra là gì, p53 làm gì, vì sao apoptosis lại quan trọng, và bằng chứng cho thấy gì và không cho thấy gì về hai mươi bản sao ấy.
 
 Video cũng đề cập đến: gene zombie, vì sao ta không thể cứ thế vặn p53 của chính mình lên hết cỡ, và MDM2 của voi đang làm gì trong tế bào người.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-dont-elephants-get-cancer/
 
 CÁC CHƯƠNG
 00:00 Ba mươi nghìn tỉ khả năng xảy ra sai sót
@@ -723,6 +743,8 @@ apoptóze, a co ty doklady o dvaceti kopiích ukazují a co ne.
 
 Cestou: zombie gen, proč si nemůžeme vlastní p53 prostě vytočit na
 maximum, a co sloní MDM2 vyvádí v lidských buňkách.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-dont-elephants-get-cancer/
 
 KAPITOLY
 00:00 Třicet bilionů příležitostí, aby se něco pokazilo
@@ -791,6 +813,8 @@ los datos sobre esas veinte copias.
 Por el camino: el gen zombi, por qué no podemos simplemente subir al
 máximo nuestro propio p53, y qué está haciendo el MDM2 de elefante dentro
 de células humanas.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-dont-elephants-get-cancer/
 
 CAPÍTULOS
 00:00 Treinta billones de oportunidades de salir mal
@@ -867,6 +891,8 @@ om de där tjugo kopiorna.
 
 På vägen: zombiegenen, varför vi inte helt enkelt kan vrida upp vårt eget
 p53 på max, och vad elefantens MDM2 håller på med i mänskliga celler.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-dont-elephants-get-cancer/
 
 KAPITEL
 00:00 Trettio biljoner chanser att gå fel

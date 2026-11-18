@@ -35,6 +35,8 @@ Tiede voi kertoa, miten maailmankaikkeus toimii. Onko sillä tarkoitus, on toise
 
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-people-still-believe-in-god/
+
 LUVUT
 00:00 Tiede selittää lähes kaiken
 00:33 Arvoituksia täynnä oleva maailma
@@ -73,6 +75,8 @@ La science n'a peut-être pas simplement échoué à remplacer la religion. Peut
 La science peut nous dire comment fonctionne l'univers. Savoir s'il a un but est une autre sorte de question — et celle-là reste ouverte.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-people-still-believe-in-god/
 
 CHAPITRES
 00:00 La science explique presque tout
@@ -113,6 +117,8 @@ Sains bisa memberi tahu kita bagaimana alam semesta bekerja. Apakah ia punya tuj
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-people-still-believe-in-god/
+
 BAB
 00:00 Sains menjelaskan hampir segalanya
 00:33 Dunia yang penuh misteri
@@ -151,6 +157,8 @@ Forse la scienza non ha semplicemente fallito nel sostituire la religione. Forse
 La scienza può dirci come funziona l'universo. Se abbia uno scopo è un altro tipo di domanda — e quella resta ancora aperta.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-people-still-believe-in-god/
 
 CAPITOLI
 00:00 La scienza spiega quasi tutto
@@ -191,6 +199,8 @@ Die Wissenschaft kann uns sagen, wie das Universum funktioniert. Ob es einen Zwe
 
 Die Untertitel sind für dieses Video geschrieben, nicht automatisch erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-people-still-believe-in-god/
+
 KAPITEL
 00:00 Die Wissenschaft erklärt fast alles
 00:33 Eine Welt voller Rätsel
@@ -229,6 +239,8 @@ Może nauka wcale nie zawiodła w zastępowaniu religii. Może oczekiwaliśmy, �
 Nauka potrafi nam powiedzieć, jak działa wszechświat. To, czy ma on cel, jest innym rodzajem pytania — i to pozostaje otwarte.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-people-still-believe-in-god/
 
 ROZDZIAŁY
 00:00 Nauka wyjaśnia niemal wszystko
@@ -269,6 +281,8 @@ A ciência pode nos dizer como o universo funciona. Se ele tem um propósito é 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-people-still-believe-in-god/
+
 CAPÍTULOS
 00:00 A ciência explica quase tudo
 00:33 Um mundo cheio de mistérios
@@ -307,6 +321,8 @@ Belki de mesele sadece bilimin dinin yerini almayı başaramaması değildi. Bel
 Bilim bize evrenin nasıl işlediğini söyleyebilir. Bir amacının olup olmadığı ise farklı türden bir soru — ve o soru hâlâ açık.
 
 Altyazılar bu video için yazıldı, otomatik üretilmedi. İkinci ses parçası olarak Amerikan İngilizcesi mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-people-still-believe-in-god/
 
 BÖLÜMLER
 00:00 Bilim neredeyse her şeyi açıklıyor
@@ -347,6 +363,8 @@ Lisanslar: creativecommons.org/publicdomain/zero/1.0/
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою звуковою доріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-people-still-believe-in-god/
+
 РОЗДІЛИ
 00:00 Наука пояснює майже все
 00:33 Світ, повний загадок
@@ -385,6 +403,8 @@ Có lẽ khoa học không đơn giản là đã thất bại trong việc thay 
 Khoa học có thể cho chúng ta biết vũ trụ vận hành ra sao. Còn liệu nó có một mục đích hay không lại là một loại câu hỏi khác — và câu hỏi ấy vẫn còn để ngỏ.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-people-still-believe-in-god/
 
 CHƯƠNG
 00:00 Khoa học giải thích gần như mọi thứ
@@ -434,6 +454,8 @@ jiného druhu — a ta zůstává otevřená.
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-people-still-believe-in-god/
+
 KAPITOLY
 00:00 Věda vysvětlí skoro všechno
 00:33 Svět plný záhad
@@ -473,6 +495,8 @@ La ciencia puede decirnos cómo funciona el universo. Si tiene un propósito es 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Hay una pista de audio en inglés americano como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-people-still-believe-in-god/
+
 CAPÍTULOS
 00:00 La ciencia explica casi todo
 00:33 Un mundo lleno de misterios
@@ -511,6 +535,8 @@ Kanske misslyckades vetenskapen inte bara med att ersätta religionen. Kanske v�
 Vetenskapen kan säga oss hur universum fungerar. Om det har ett syfte är en annan sorts fråga — och den är fortfarande öppen.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-people-still-believe-in-god/
 
 KAPITEL
 00:00 Vetenskapen förklarar nästan allt

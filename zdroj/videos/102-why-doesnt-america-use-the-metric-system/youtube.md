@@ -65,6 +65,8 @@ Sources: NIST (the 1959 definition of the inch and pound); BIPM (the Metre Conve
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-doesnt-america-use-the-metric-system/
+
 CHAPTERS
 00:00 Sixty-five what?
 00:47 The strange part

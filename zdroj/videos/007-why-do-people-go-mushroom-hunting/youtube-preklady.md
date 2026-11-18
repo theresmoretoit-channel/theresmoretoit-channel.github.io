@@ -47,6 +47,8 @@ Tämä kertoo siitä, miksi ero on olemassa — ja miksi sienestys osoittautuu v
 
 Matkan varrella: miksi sieni on lähempänä sinua kuin puuta, jonka alla se kasvaa, miksi useimpia luonnonsieniä ei voi viljellä lainkaan, miksi Euroopan tappavin tappaa odottamalla, ja miksi sienen kuivaaminen ei heikennä sitä vaan tekee siitä vahvemman raaka-aineen kuin se koskaan oli.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-people-go-mushroom-hunting/
+
 LUVUT
 00:00 Mitä ihmettä he oikein tekevät?
 00:54 Ei kasvi, ei eläin
@@ -120,6 +122,8 @@ sous lequel il pousse, pourquoi la plupart des champignons sauvages ne se
 cultivent pas du tout, pourquoi le plus mortel d'Europe tue en attendant,
 et pourquoi sécher un champignon ne l'affaiblit pas mais en fait un
 ingrédient plus puissant qu'il ne l'a jamais été.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-people-go-mushroom-hunting/
 
 CHAPITRES
 00:00 Mais qu'est-ce qu'ils fabriquent ?
@@ -196,6 +200,8 @@ Ini tentang kenapa perbedaan itu ada — dan kenapa berburu jamur ternyata adala
 
 Sepanjang video: kenapa jamur lebih dekat denganmu daripada dengan pohon yang tumbuh di atasnya, kenapa sebagian besar jamur liar sama sekali tidak bisa dibudidayakan, kenapa yang paling mematikan di Eropa membunuh dengan cara menunggu, dan kenapa mengeringkan jamur tidak melemahkannya melainkan menjadikannya bahan yang lebih kuat daripada sebelumnya.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-people-go-mushroom-hunting/
+
 BAB
 00:00 Mereka itu sebenarnya sedang apa?
 00:54 Bukan tumbuhan, bukan hewan
@@ -268,6 +274,8 @@ cui cresce, perché la maggior parte dei funghi selvatici non si coltiva
 affatto, perché il più letale d'Europa uccide aspettando, e perché
 essiccare un fungo non lo indebolisce ma ne fa un ingrediente più forte
 di quanto sia mai stato.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-people-go-mushroom-hunting/
 
 CAPITOLI
 00:00 Ma che diavolo stanno facendo?
@@ -354,6 +362,8 @@ wächst, warum sich die meisten Wildpilze überhaupt nicht anbauen lassen,
 warum der tödlichste Europas durch Warten tötet, und warum das Trocknen
 einen Pilz nicht schwächt, sondern zu einer stärkeren Zutat macht, als er
 je war.
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-people-go-mushroom-hunting/
 
 KAPITEL
 00:00 Was um alles in der Welt tun die da?
@@ -442,6 +452,8 @@ uprawiać, dlaczego najbardziej zabójczy w Europie zabija czekaniem
 i dlaczego suszenie grzyba go nie osłabia, tylko robi z niego składnik
 mocniejszy, niż był kiedykolwiek.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-people-go-mushroom-hunting/
+
 ROZDZIAŁY
 00:00 Co oni, u licha, robią?
 00:54 Ani roślina, ani zwierzę
@@ -526,6 +538,8 @@ para cultivar de jeito nenhum, por que o mais letal da Europa mata
 esperando, e por que secar um cogumelo não o enfraquece, e sim faz dele
 um ingrediente mais forte do que ele jamais foi.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-people-go-mushroom-hunting/
+
 CAPÍTULOS
 00:00 Mas o que é que eles estão fazendo?
 00:54 Nem planta, nem animal
@@ -598,6 +612,8 @@ Bu video farkın neden var olduğunu anlatıyor — ve mantar toplamanın neden,
 
 Bu bölümde ayrıca: bir mantar neden altında yetiştiği ağaçtan çok sana yakın, yabani mantarların çoğu neden hiç yetiştirilemiyor, Avrupa’nın en ölümcülü neden bekleyerek öldürüyor ve bir mantarı kurutmak neden onu zayıflatmıyor da, hiç olmadığı kadar güçlü bir malzemeye çeviriyor.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-people-go-mushroom-hunting/
+
 BÖLÜMLER
 00:00 Bunlar da ne yapıyor böyle?
 00:54 Ne bitki, ne hayvan
@@ -658,6 +674,8 @@ Bundan fazlası var.
 
 Також у відео: чому гриб ближчий до тебе, ніж до дерева, під яким росте, чому більшість диких грибів узагалі не вдається вирощувати, чому найсмертоносніший гриб Європи вбиває тим, що чекає, і чому сушіння гриба його не послаблює, а робить його інгредієнтом із насиченішим смаком, ніж будь-коли раніше.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-people-go-mushroom-hunting/
+
 РОЗДІЛИ
 00:00 Що вони, заради всього святого, роблять?
 00:54 Не рослина, не тварина
@@ -717,6 +735,8 @@ Một người lạ nhìn ai đó nhổ một cục màu nâu lên khỏi nền 
 Đây là chuyện vì sao có sự khác biệt ấy — và vì sao việc đi hái nấm hóa ra lại là tàn tích đời thường cuối cùng của một việc mà con người đã làm suốt gần trọn lịch sử của mình.
 
 Video cũng đề cập đến: vì sao một cây nấm gần gũi với bạn hơn là với cái cây nó mọc dưới gốc, vì sao phần lớn nấm hoang hoàn toàn không trồng được, vì sao loài chết chóc nhất châu Âu giết người bằng cách chờ đợi, và vì sao sấy khô một cây nấm không làm nó yếu đi mà biến nó thành một nguyên liệu có hương vị đậm đà hơn bao giờ hết.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-people-go-mushroom-hunting/
 
 CÁC CHƯƠNG
 00:00 Rốt cuộc họ đang làm cái gì vậy?
@@ -788,6 +808,8 @@ Cestou: proč je houba blíž vám než stromu, pod kterým roste, proč se
 většina divoce rostoucích hub vůbec nedá pěstovat, proč ta nejsmrtelnější
 v Evropě zabíjí tím, že čeká, a proč sušení houbu neoslabí, ale udělá
 z ní silnější surovinu, než jakou kdy byla.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-people-go-mushroom-hunting/
 
 KAPITOLY
 00:00 Co to proboha dělají?
@@ -862,6 +884,8 @@ el que crece, por qué la mayoría de las setas silvestres no se pueden
 cultivar en absoluto, por qué la más mortal de Europa mata esperando, y
 por qué secar una seta no la debilita sino que la convierte en un
 ingrediente más potente de lo que fue nunca.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-people-go-mushroom-hunting/
 
 CAPÍTULOS
 00:00 ¿Pero qué demonios están haciendo?
@@ -947,6 +971,8 @@ varför de flesta vilda svampar inte går att odla alls, varför den
 dödligaste i Europa dödar genom att vänta, och varför torkning inte
 försvagar en svamp utan gör den till en starkare ingrediens än den
 någonsin varit.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-people-go-mushroom-hunting/
 
 KAPITEL
 00:00 Vad i all världen håller de på med?

@@ -59,6 +59,8 @@ Sources: Nobel Prize in Physiology or Medicine 2016 (press release and scientifi
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-really-happens-after-16-hours-without-food/
+
 CHAPTERS
 00:00 The sixteen-hour promise
 00:33 Following the number back

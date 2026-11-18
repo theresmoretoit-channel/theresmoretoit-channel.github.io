@@ -42,6 +42,8 @@ radio, the internet, and now AI. Along the way: a massacre justified by a lie th
 Pope had already refuted, the most famous mass panic in history that never actually
 happened, and a study of 126,000 stories that found the problem is not the bots.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/disinformation-then-and-now/
+
 Chapters
 0:00 A monster in the north
 0:36 Were people back then more stupid?

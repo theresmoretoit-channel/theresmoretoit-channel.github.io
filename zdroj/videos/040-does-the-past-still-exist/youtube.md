@@ -59,6 +59,8 @@ documents, no memory in any head, no physical trace down to the last
 atom. Would yesterday have stopped existing? Or would it still have
 happened?
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/does-the-past-still-exist/
+
 Chapters
 00:00 Where is yesterday?
 00:36 A photograph is not the past

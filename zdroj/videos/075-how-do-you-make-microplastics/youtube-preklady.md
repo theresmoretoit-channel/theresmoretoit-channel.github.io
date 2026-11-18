@@ -51,6 +51,8 @@ Video jatkaa aiempaa videota yhdestä mikromuovisaasteen suurimmista lähteistä
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-do-you-make-microplastics/
+
 LUVUT
 00:00 Muovi, jota et koskaan heitä pois
 00:47 Tiskisienet
@@ -90,6 +92,8 @@ Cette vidéo passe en revue les recherches sur chacun de ces objets : ce que les
 Elle fait suite à une vidéo précédente sur l'une des plus grandes sources de pollution aux microplastiques, les pneus de ta voiture : https://youtu.be/9Xo3Ci3WFaA
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-do-you-make-microplastics/
 
 CHAPITRES
 00:00 Le plastique qu'on ne jette jamais
@@ -131,6 +135,8 @@ Video ini melanjutkan video sebelumnya tentang salah satu sumber polusi mikropla
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-do-you-make-microplastics/
+
 BAB
 00:00 Plastik yang tak pernah kamu buang
 00:47 Spons dapur
@@ -170,6 +176,8 @@ Questo video ripercorre le ricerche su ciascuno di questi oggetti: cosa hanno mi
 È il seguito di un video precedente su una delle maggiori fonti di inquinamento da microplastiche, gli pneumatici della tua auto: https://youtu.be/9Xo3Ci3WFaA
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-do-you-make-microplastics/
 
 CAPITOLI
 00:00 La plastica che non butti mai
@@ -211,6 +219,8 @@ Es knüpft an ein früheres Video über eine der größten Quellen von Mikroplas
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-do-you-make-microplastics/
+
 KAPITEL
 00:00 Das Plastik, das du nie wegwirfst
 00:47 Küchenschwämme
@@ -250,6 +260,8 @@ Ten film omawia badania dotyczące każdej z tych rzeczy: co badania zmierzyły,
 To kontynuacja wcześniejszego filmu o jednym z największych źródeł zanieczyszczenia mikroplastikiem, czyli oponach twojego samochodu: https://youtu.be/9Xo3Ci3WFaA
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-do-you-make-microplastics/
 
 ROZDZIAŁY
 00:00 Plastik, którego nigdy nie wyrzucasz
@@ -291,6 +303,8 @@ Ele dá continuidade a um vídeo anterior sobre uma das maiores fontes de polui�
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-do-you-make-microplastics/
+
 CAPÍTULOS
 00:00 O plástico que você nunca joga fora
 00:47 Esponjas de cozinha
@@ -330,6 +344,8 @@ Bu video her birinin arkasındaki araştırmaları ele alıyor: çalışmaların
 Mikroplastik kirliliğinin en büyük kaynaklarından biri olan arabanın lastikleri üzerine önceki bir videonun devamıdır: https://youtu.be/9Xo3Ci3WFaA
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-do-you-make-microplastics/
 
 BÖLÜMLER
 00:00 Hiç atmadığın plastik
@@ -371,6 +387,8 @@ Licences: creativecommons.org/licenses/by-sa/3.0, /by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-do-you-make-microplastics/
+
 РОЗДІЛИ
 00:00 Пластик, який ти ніколи не викидаєш
 00:47 Кухонні губки
@@ -410,6 +428,8 @@ Video này điểm qua các nghiên cứu về từng đồ vật này: các ngh
 Video này tiếp nối một video trước về một trong những nguồn ô nhiễm vi nhựa lớn nhất: lốp xe ô tô của bạn: https://youtu.be/9Xo3Ci3WFaA
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-do-you-make-microplastics/
 
 CHƯƠNG
 00:00 Thứ nhựa bạn không bao giờ vứt đi
@@ -451,6 +471,8 @@ Navazuje na starší video o jednom z největších zdrojů znečištění mikro
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-do-you-make-microplastics/
+
 KAPITOLY
 00:00 Plast, který nikdy nevyhodíš
 00:47 Kuchyňské houbičky
@@ -491,6 +513,8 @@ Continúa un vídeo anterior sobre una de las mayores fuentes de contaminación 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-do-you-make-microplastics/
+
 CAPÍTULOS
 00:00 El plástico que nunca tiras
 00:47 Esponjas de cocina
@@ -530,6 +554,8 @@ Den här videon går igenom forskningen bakom var och en: vad studierna mätte, 
 Den här videon är en fortsättning på en tidigare video om en av de största källorna till mikroplast, däcken på din bil: https://youtu.be/9Xo3Ci3WFaA
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-do-you-make-microplastics/
 
 KAPITEL
 00:00 Plasten du aldrig slänger

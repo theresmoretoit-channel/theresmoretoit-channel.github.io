@@ -81,6 +81,8 @@ into positioning, interrupts, tank swaps and mechanics nobody else can do.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-the-most-important-player-do-almost-nothing-in-mmos/
+
 Chapters
 00:00 Three roles, and one nobody picks
 00:27 The role nobody wants

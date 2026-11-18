@@ -69,6 +69,8 @@ Sources: E. A. Abbott, Flatland (1884); A. F. Möbius, Der barycentrische Calcul
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-would-the-world-look-like-from-a-fourth-dimension/
+
 CHAPTERS
 00:00 Someone inside a locked room
 00:27 Flatland, 1884

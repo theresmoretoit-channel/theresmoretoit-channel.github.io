@@ -63,6 +63,8 @@ Sources: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-humans-keep-inventing-drugs/
+
 CHAPTERS
 00:00 Tobacco seeds by an ancient fire
 01:04 Plants fight with chemistry

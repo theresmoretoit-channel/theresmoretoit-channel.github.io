@@ -47,6 +47,8 @@ KUVALÄHTEET
 Apollo 11:n laukaisu; Saturn V:n kolmas vaihe irtoamisen jälkeen (Apollo 8); Deep Space 1:n ionimoottorin testi — NASA
 Konstantin Tsiolkovskin muotokuva — tekijänoikeudeton (public domain)
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-is-getting-to-orbit-so-hard/
+
 LUVUT
 00:00 Kuudessadasosa raketista
 00:46 Polttoaine, jonka täytyy kantaa polttoainetta
@@ -80,6 +82,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. 
 CRÉDITS IMAGES
 Lancement d'Apollo 11 ; troisième étage de Saturn V après la séparation (Apollo 8) ; essai du moteur ionique de Deep Space 1 — NASA
 Portrait de Konstantin Tsiolkovski — domaine public
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-is-getting-to-orbit-so-hard/
 
 CHAPITRES
 00:00 Un six-centième de fusée
@@ -115,6 +119,8 @@ KREDIT GAMBAR
 Peluncuran Apollo 11; tingkat ketiga Saturn V setelah pemisahan (Apollo 8); uji mesin ion Deep Space 1 — NASA
 Potret Konstantin Tsiolkovsky — domain publik
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-is-getting-to-orbit-so-hard/
+
 BAB
 00:00 Satu dari enam ratus
 00:46 Bahan bakar yang harus membawa bahan bakar
@@ -148,6 +154,8 @@ I sottotitoli sono scritti per questo video, non generati automaticamente. Come 
 CREDITI IMMAGINI
 Lancio di Apollo 11; terzo stadio del Saturn V dopo la separazione (Apollo 8); test del motore ionico di Deep Space 1 — NASA
 Ritratto di Konstantin Ciolkovskij — pubblico dominio
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-is-getting-to-orbit-so-hard/
 
 CAPITOLI
 00:00 Un seicentesimo di razzo
@@ -183,6 +191,8 @@ BILDNACHWEIS
 Start von Apollo 11; dritte Stufe der Saturn V nach der Trennung (Apollo 8); Test des Ionentriebwerks von Deep Space 1 — NASA
 Porträt von Konstantin Ziolkowski — gemeinfrei
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-is-getting-to-orbit-so-hard/
+
 KAPITEL
 00:00 Ein Sechshundertstel einer Rakete
 00:46 Treibstoff, der Treibstoff tragen muss
@@ -216,6 +226,8 @@ Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ście�
 ŹRÓDŁA ZDJĘĆ
 Start Apollo 11; trzeci stopień Saturna V po odłączeniu (Apollo 8); test silnika jonowego Deep Space 1 — NASA
 Portret Konstantego Ciołkowskiego — domena publiczna
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-is-getting-to-orbit-so-hard/
 
 ROZDZIAŁY
 00:00 Jedna sześćsetna rakiety
@@ -251,6 +263,8 @@ CRÉDITOS DAS IMAGENS
 Lançamento da Apollo 11; terceiro estágio do Saturno V após a separação (Apollo 8); teste do motor iônico da Deep Space 1 — NASA
 Retrato de Konstantin Tsiolkovski — domínio público
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-is-getting-to-orbit-so-hard/
+
 CAPÍTULOS
 00:00 Um seiscentésimo de foguete
 00:46 Combustível que precisa carregar combustível
@@ -284,6 +298,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 GÖRSEL KAYNAKLARI
 Apollo 11'in fırlatılışı; ayrılmanın ardından Saturn V'in üçüncü kademesi (Apollo 8); Deep Space 1 iyon motoru testi — NASA
 Konstantin Tsiolkovski portresi — kamu malı
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-is-getting-to-orbit-so-hard/
 
 BÖLÜMLER
 00:00 Roketin altı yüzde biri
@@ -319,6 +335,8 @@ BÖLÜMLER
 Старт «Аполлона-11»; третій ступінь «Сатурна V» після відокремлення («Аполлон-8»); випробування іонного двигуна Deep Space 1 — NASA
 Портрет Костянтина Ціолковського — суспільне надбання
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-is-getting-to-orbit-so-hard/
+
 РОЗДІЛИ
 00:00 Одна шестисота ракети
 00:46 Паливо, яке мусить нести паливо
@@ -352,6 +370,8 @@ Phụ đề được viết riêng cho video này, không phải tạo tự đ�
 NGUỒN HÌNH ẢNH
 Vụ phóng Apollo 11; tầng thứ ba của Saturn V sau khi tách (Apollo 8); thử nghiệm động cơ ion của Deep Space 1 — NASA
 Chân dung Konstantin Tsiolkovsky — phạm vi công cộng
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-is-getting-to-orbit-so-hard/
 
 CHƯƠNG
 00:00 Một phần sáu trăm của tên lửa
@@ -387,6 +407,8 @@ ZDROJE OBRÁZKŮ
 Start Apolla 11; třetí stupeň Saturnu V po oddělení (Apollo 8); test iontového motoru Deep Space 1 — NASA
 Portrét Konstantina Ciolkovského — volné dílo
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-is-getting-to-orbit-so-hard/
+
 KAPITOLY
 00:00 Šestisetina rakety
 00:46 Palivo, které musí nést palivo
@@ -421,6 +443,8 @@ CRÉDITOS DE IMÁGENES
 Lanzamiento del Apolo 11; tercera etapa del Saturno V tras la separación (Apolo 8); prueba del motor iónico de Deep Space 1 — NASA
 Retrato de Konstantín Tsiolkovski — dominio público
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-is-getting-to-orbit-so-hard/
+
 CAPÍTULOS
 00:00 Una parte de cada seiscientas
 00:46 Combustible que tiene que cargar combustible
@@ -454,6 +478,8 @@ Undertexterna är skrivna för den här videon, inte automatgenererade. Som andr
 BILDKÄLLOR
 Uppskjutningen av Apollo 11; Saturn V:s tredje steg efter separationen (Apollo 8); test av Deep Space 1:s jonmotor — NASA
 Porträtt av Konstantin Tsiolkovskij — fri från upphovsrätt
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-is-getting-to-orbit-so-hard/
 
 KAPITEL
 00:00 En sexhundradel av en raket

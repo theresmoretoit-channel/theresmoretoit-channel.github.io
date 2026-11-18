@@ -65,6 +65,8 @@ Sources: IBM Enterprise COBOL for z/OS 6.4 Language Reference (ROUNDED, SIZE ERR
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-banks-still-run-on-60-year-old-code/
+
 CHAPTERS
 00:00 Add one penny
 00:46 A language from 1959

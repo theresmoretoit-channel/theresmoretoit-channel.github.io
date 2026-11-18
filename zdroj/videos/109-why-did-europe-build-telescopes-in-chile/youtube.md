@@ -59,6 +59,8 @@ Sources: ESO, ELT construction timeline (ann25001) and member states; GRAVITY Co
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-did-europe-build-telescopes-in-chile/
+
 CHAPTERS
 00:00 The largest telescope ever made
 00:34 The problem is the air

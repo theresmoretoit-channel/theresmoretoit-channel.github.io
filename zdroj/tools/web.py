@@ -892,26 +892,43 @@ def stranka_404():
     return stranka("en", "Page not found", T["en"]["notfound"], "/404.html", [("en", "/")], telo)
 
 
-def sitemap(videa, temata):
-    radky = []
+URLSET = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+          'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n')
 
-    def url(cesta, alts, lastmod):
+
+def sitemapy(videa, temata):
+    """{cesta: obsah}: celý /sitemap.xml, po jazycích /sitemaps/<l>.xml a jejich index.
+
+    Index a jazykové soubory vznikly 2026-11-18, když GSC u /sitemap.xml dva dny
+    hlásil „Nelze načíst" bez pokusu o čtení: nová adresa k odeslání a v GSC
+    pokrytí po jazycích. /sitemap.xml zůstává, je už odeslaný."""
+    radky = {l: [] for l in LANGS}
+
+    def url(lang, cesta, alts, lastmod):
         a = "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{SITE}{u}"/>' for l, u in alts)
-        radky.append(f"<url><loc>{SITE}{cesta}</loc><lastmod>{lastmod}</lastmod>{a}</url>")
+        radky[lang].append(f"<url><loc>{SITE}{cesta}</loc><lastmod>{lastmod}</lastmod>{a}</url>")
 
     dnes = dt.date.today().isoformat()
     homes = [(l, prefix(l) + "/") for l in LANGS]
     for l, u in homes:
-        url(u, homes, dnes)
+        url(l, u, homes, dnes)
     for x in temata:
         if x["_videa"]:
-            url(f"/topics/{x['klic']}/", [], dnes)
+            url("en", f"/topics/{x['klic']}/", [], dnes)
     for v in videa:
         alts = [(l, url_videa(v, l)) for l in LANGS if l in v["scenar"]]
         for l, u in alts:
-            url(u, alts, v["datum"])
-    return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-            'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(radky) + "\n</urlset>\n")
+            url(l, u, alts, v["datum"])
+    out = {"/sitemap.xml": URLSET + "\n".join(r for l in LANGS for r in radky[l]) + "\n</urlset>\n"}
+    idx = []
+    for l in LANGS:
+        if radky[l]:
+            out[f"/sitemaps/{l}.xml"] = URLSET + "\n".join(radky[l]) + "\n</urlset>\n"
+            idx.append(f"<sitemap><loc>{SITE}/sitemaps/{l}.xml</loc><lastmod>{dnes}</lastmod></sitemap>")
+    out["/sitemap_index.xml"] = ('<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex '
+                                 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                 + "\n".join(idx) + "\n</sitemapindex>\n")
+    return out
 
 
 def feed(videa):
@@ -1016,9 +1033,10 @@ def main():
             zapis(out, f"/topics/{x['klic']}/", stranka_tematu(x, ob))
             stran += 1
     zapis(out, "/404.html", stranka_404())
-    zapis(out, "/sitemap.xml", sitemap(videa, temata))
+    for cesta, obsah in sitemapy(videa, temata).items():
+        zapis(out, cesta, obsah)
     zapis(out, "/feed.xml", feed(videa))
-    zapis(out, "/robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    zapis(out, "/robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap_index.xml\n")
     # Podle tohohle pozná hodinová kontrola na GitHubu, jestli od minula něco vyšlo.
     # Stejná množina jako --vydana (ne `videa`: z těch se vynechává video bez popisu
     # a kontrola by pak stavěla každou hodinu znovu).

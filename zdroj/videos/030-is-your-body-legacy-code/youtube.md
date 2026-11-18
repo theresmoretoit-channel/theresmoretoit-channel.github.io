@@ -55,6 +55,8 @@ is no line that says create arm. We can sequence a genome, identify genes and me
 proteins — and we still cannot put the DNA of one ordinary cell into a computer, press run and
 watch a human develop. We have the genome. The genome is not the whole machine.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/is-your-body-legacy-code/
+
 Chapters
 0:00 The program nobody would write
 0:37 Every cell has the whole thing

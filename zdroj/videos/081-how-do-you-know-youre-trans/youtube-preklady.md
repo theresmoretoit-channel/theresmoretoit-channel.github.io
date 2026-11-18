@@ -57,6 +57,8 @@ Tämä on toinen video transihmisiä käsittelevässä sarjassa. Ensimmäinen ky
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-do-you-know-youre-trans/
+
 LUVUT
 00:00 Mistä tiedät, että olet mies tai nainen?
 00:42 Aina ei ole yhtä tiettyä hetkeä
@@ -92,6 +94,8 @@ Elle aborde aussi le doute, les personnes qui refoulent ces sentiments, celles q
 C'est la deuxième vidéo d'une série sur les personnes transgenres. La première se demandait pourquoi il semble soudain y avoir autant de personnes trans. La suivante pose la question : pourquoi les personnes trans changent-elles leur corps ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-do-you-know-youre-trans/
 
 CHAPITRES
 00:00 Comment tu sais que tu es un homme ou une femme ?
@@ -129,6 +133,8 @@ Ini adalah video kedua dalam seri tentang orang transgender. Video pertama berta
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-do-you-know-youre-trans/
+
 BAB
 00:00 Bagaimana kamu tahu kalau kamu laki-laki atau perempuan?
 00:42 Tidak selalu ada satu momen tertentu
@@ -164,6 +170,8 @@ Parla anche del dubbio, delle persone che reprimono questi sentimenti, di quelle
 Questo è il secondo video di una serie sulle persone transgender. Il primo si chiedeva perché all'improvviso sembrino esserci così tante persone trans. Il prossimo si chiede: perché le persone trans cambiano il proprio corpo?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-do-you-know-youre-trans/
 
 CAPITOLI
 00:00 Come fai a sapere di essere un uomo o una donna?
@@ -201,6 +209,8 @@ Das ist das zweite Video einer Reihe über trans Menschen. Das erste fragte, war
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-do-you-know-youre-trans/
+
 KAPITEL
 00:00 Woher weißt du, dass du ein Mann oder eine Frau bist?
 00:42 Es gibt nicht immer den einen Moment
@@ -236,6 +246,8 @@ Mówi też o wątpliwościach, o osobach, które tłumią te uczucia, o osobach,
 To drugi film z serii o osobach transpłciowych. Pierwszy pytał, dlaczego nagle wydaje się, że jest tyle osób trans. Następny pyta: dlaczego osoby trans zmieniają swoje ciała?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-do-you-know-youre-trans/
 
 ROZDZIAŁY
 00:00 Skąd wiesz, że jesteś mężczyzną albo kobietą?
@@ -273,6 +285,8 @@ Este é o segundo vídeo de uma série sobre pessoas transgênero. O primeiro pe
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-do-you-know-youre-trans/
+
 CAPÍTULOS
 00:00 Como você sabe que é homem ou mulher?
 00:42 Nem sempre existe um único momento
@@ -308,6 +322,8 @@ Video ayrıca şüpheyi, bu duyguları bastıran insanları, trans olduğunu far
 Bu, transgender insanlar hakkındaki bir serinin ikinci videosu. İlki, neden birdenbire bu kadar çok trans insan varmış gibi göründüğünü soruyordu. Bir sonraki video şunu soruyor: Trans insanlar bedenlerini neden değiştirir?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-do-you-know-youre-trans/
 
 BÖLÜMLER
 00:00 Erkek ya da kadın olduğunu nereden biliyorsun?
@@ -345,6 +361,8 @@ Left-handed writing — Alejandro Escamilla, CC0, via Wikimedia Commons
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-do-you-know-youre-trans/
+
 РОЗДІЛИ
 00:00 Звідки ти знаєш, що ти чоловік чи жінка?
 00:42 Це не завжди одна мить
@@ -380,6 +398,8 @@ Video cũng nói về sự hoài nghi, về những người kìm nén cảm xú
 Đây là video thứ hai trong loạt video về người chuyển giới. Video đầu tiên đặt câu hỏi vì sao có vẻ như đột nhiên có nhiều người chuyển giới đến vậy. Video tiếp theo hỏi: vì sao người chuyển giới thay đổi cơ thể mình?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-do-you-know-youre-trans/
 
 CHƯƠNG
 00:00 Làm sao bạn biết mình là đàn ông hay phụ nữ?
@@ -417,6 +437,8 @@ Tohle je druhé video ze série o transgender lidech. To první se ptalo, proč 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-do-you-know-youre-trans/
+
 KAPITOLY
 00:00 Jak víš, že jsi muž nebo žena?
 00:42 Ne vždycky je to jeden okamžik
@@ -453,6 +475,8 @@ Este es el segundo vídeo de una serie sobre las personas transgénero. El prime
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-do-you-know-youre-trans/
+
 CAPÍTULOS
 00:00 ¿Cómo sabes que eres un hombre o una mujer?
 00:42 No siempre hay un único momento
@@ -488,6 +512,8 @@ Den tar också upp tvivel, människor som trycker undan de här känslorna, män
 Det här är den andra videon i en serie om transpersoner. Den första frågade varför det plötsligt verkar finnas så många transpersoner. Nästa video frågar: varför ändrar transpersoner sina kroppar?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-do-you-know-youre-trans/
 
 KAPITEL
 00:00 Hur vet du att du är en man eller en kvinna?

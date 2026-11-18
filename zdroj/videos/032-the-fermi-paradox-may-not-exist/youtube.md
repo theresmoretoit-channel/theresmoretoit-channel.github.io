@@ -48,6 +48,8 @@ Ordinary mobile phone towers: four.
 
 We are already producing technosignatures. And we are not even trying to hide them.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/the-fermi-paradox-may-not-exist/
+
 Chapters
 0:00 The question
 1:19 Maybe intelligence is rare

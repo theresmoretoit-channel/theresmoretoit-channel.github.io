@@ -34,6 +34,8 @@ Lähteet: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne,
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-can-a-hypnotist-actually-make-you-do/
+
 LUVUT
 00:00 Kuutosta ei enää ole
 00:52 Mihin hypnotisoija pystyy?
@@ -74,6 +76,8 @@ Au cinéma, un hypnotiseur peut vous envoyer tuer, effacer un souvenir ou implan
 Sources : Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, Sheehan & Evans 1968, Journal of Personality and Social Psychology; Evans & Orne 1971, International Journal of Clinical and Experimental Hypnosis; Laurence & Perry 1983, Science; AMA Council on Scientific Affairs 1985, JAMA; Raz et al. 2002, Archives of General Psychiatry; Raz, Fan & Posner 2005, PNAS; Raz et al. 2006, Psychological Science; Montgomery et al. 2007, Journal of the National Cancer Institute; Kihlstrom 2008, The Oxford Handbook of Hypnosis; Terhune et al. 2017, Neuroscience & Biobehavioral Reviews; Thompson et al. 2019, Neuroscience & Biobehavioral Reviews.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-can-a-hypnotist-actually-make-you-do/
 
 CHAPITRES
 00:00 Le six a disparu
@@ -116,6 +120,8 @@ Sumber: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, S
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-can-a-hypnotist-actually-make-you-do/
+
 BAB
 00:00 Angka enam sudah hilang
 00:52 Apa yang bisa dilakukan penghipnotis?
@@ -156,6 +162,8 @@ Nei film un ipnotizzatore può mandarvi a uccidere, cancellare un ricordo o impi
 Fonti: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, Sheehan & Evans 1968, Journal of Personality and Social Psychology; Evans & Orne 1971, International Journal of Clinical and Experimental Hypnosis; Laurence & Perry 1983, Science; AMA Council on Scientific Affairs 1985, JAMA; Raz et al. 2002, Archives of General Psychiatry; Raz, Fan & Posner 2005, PNAS; Raz et al. 2006, Psychological Science; Montgomery et al. 2007, Journal of the National Cancer Institute; Kihlstrom 2008, The Oxford Handbook of Hypnosis; Terhune et al. 2017, Neuroscience & Biobehavioral Reviews; Thompson et al. 2019, Neuroscience & Biobehavioral Reviews.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-can-a-hypnotist-actually-make-you-do/
 
 CAPITOLI
 00:00 Il sei è sparito
@@ -198,6 +206,8 @@ Quellen: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-can-a-hypnotist-actually-make-you-do/
+
 KAPITEL
 00:00 Die Sechs ist weg
 00:52 Was kann ein Hypnotiseur?
@@ -238,6 +248,8 @@ W filmach hipnotyzer potrafi wysłać was, żebyście zabijali, wymazać wspomni
 Źródła: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, Sheehan & Evans 1968, Journal of Personality and Social Psychology; Evans & Orne 1971, International Journal of Clinical and Experimental Hypnosis; Laurence & Perry 1983, Science; AMA Council on Scientific Affairs 1985, JAMA; Raz et al. 2002, Archives of General Psychiatry; Raz, Fan & Posner 2005, PNAS; Raz et al. 2006, Psychological Science; Montgomery et al. 2007, Journal of the National Cancer Institute; Kihlstrom 2008, The Oxford Handbook of Hypnosis; Terhune et al. 2017, Neuroscience & Biobehavioral Reviews; Thompson et al. 2019, Neuroscience & Biobehavioral Reviews.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-can-a-hypnotist-actually-make-you-do/
 
 ROZDZIAŁY
 00:00 Szóstka zniknęła
@@ -280,6 +292,8 @@ Fontes: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, S
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-can-a-hypnotist-actually-make-you-do/
+
 CAPÍTULOS
 00:00 O seis sumiu
 00:52 O que um hipnotizador consegue fazer?
@@ -320,6 +334,8 @@ Filmlerde bir hipnotizmacı sizi adam öldürmeye gönderebilir, bir anıyı sil
 Kaynaklar: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, Sheehan & Evans 1968, Journal of Personality and Social Psychology; Evans & Orne 1971, International Journal of Clinical and Experimental Hypnosis; Laurence & Perry 1983, Science; AMA Council on Scientific Affairs 1985, JAMA; Raz et al. 2002, Archives of General Psychiatry; Raz, Fan & Posner 2005, PNAS; Raz et al. 2006, Psychological Science; Montgomery et al. 2007, Journal of the National Cancer Institute; Kihlstrom 2008, The Oxford Handbook of Hypnosis; Terhune et al. 2017, Neuroscience & Biobehavioral Reviews; Thompson et al. 2019, Neuroscience & Biobehavioral Reviews.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-can-a-hypnotist-actually-make-you-do/
 
 BÖLÜMLER
 00:00 Altı sayısı yok oldu
@@ -362,6 +378,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-can-a-hypnotist-actually-make-you-do/
+
 РОЗДІЛИ
 00:00 Шістка зникла
 00:52 Що може гіпнотизер?
@@ -402,6 +420,8 @@ Trong phim, nhà thôi miên có thể sai bạn đi giết người, xóa một
 Nguồn: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, Sheehan & Evans 1968, Journal of Personality and Social Psychology; Evans & Orne 1971, International Journal of Clinical and Experimental Hypnosis; Laurence & Perry 1983, Science; AMA Council on Scientific Affairs 1985, JAMA; Raz et al. 2002, Archives of General Psychiatry; Raz, Fan & Posner 2005, PNAS; Raz et al. 2006, Psychological Science; Montgomery et al. 2007, Journal of the National Cancer Institute; Kihlstrom 2008, The Oxford Handbook of Hypnosis; Terhune et al. 2017, Neuroscience & Biobehavioral Reviews; Thompson et al. 2019, Neuroscience & Biobehavioral Reviews.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-can-a-hypnotist-actually-make-you-do/
 
 CÁC CHƯƠNG
 00:00 Số sáu đã biến mất
@@ -444,6 +464,8 @@ Zdroje: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, S
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-can-a-hypnotist-actually-make-you-do/
+
 KAPITOLY
 00:00 Šestka zmizela
 00:52 Co dokáže hypnotizér?
@@ -485,6 +507,8 @@ Fuentes: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-can-a-hypnotist-actually-make-you-do/
+
 CAPÍTULOS
 00:00 El seis ha desaparecido
 00:52 ¿Qué puede hacer un hipnotizador?
@@ -525,6 +549,8 @@ På film kan en hypnotisör skicka ut dig för att döda, radera ett minne eller
 Källor: Orne & Evans 1965, Journal of Personality and Social Psychology; Orne, Sheehan & Evans 1968, Journal of Personality and Social Psychology; Evans & Orne 1971, International Journal of Clinical and Experimental Hypnosis; Laurence & Perry 1983, Science; AMA Council on Scientific Affairs 1985, JAMA; Raz et al. 2002, Archives of General Psychiatry; Raz, Fan & Posner 2005, PNAS; Raz et al. 2006, Psychological Science; Montgomery et al. 2007, Journal of the National Cancer Institute; Kihlstrom 2008, The Oxford Handbook of Hypnosis; Terhune et al. 2017, Neuroscience & Biobehavioral Reviews; Thompson et al. 2019, Neuroscience & Biobehavioral Reviews.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-can-a-hypnotist-actually-make-you-do/
 
 KAPITEL
 00:00 Sexan är borta

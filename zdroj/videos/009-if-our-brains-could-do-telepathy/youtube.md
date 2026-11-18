@@ -35,6 +35,8 @@ entire communication system — a transmitter, a receiver, structure, a decoder,
 a filter, and an address. That is not a change to one gene. That is a whole
 new sense.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/if-our-brains-could-do-telepathy/
+
 CHAPTERS
 00:00 Two people, one thought
 00:58 The brain already transmits

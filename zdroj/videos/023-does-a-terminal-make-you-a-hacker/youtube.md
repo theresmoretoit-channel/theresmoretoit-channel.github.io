@@ -57,6 +57,8 @@ An American English audio track is available as a second audio track.
 
 ---
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/does-a-terminal-make-you-a-hacker/
+
 00:00 Someone walks past
 00:29 The magical black screen
 00:59 Why it looks like that

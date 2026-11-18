@@ -58,6 +58,8 @@ Ja oktaaniasteikko itse osoittautuu kauniin mielivaltaiseksi: yksi molekyyli, he
 
 Lopuksi kysymys, josta aloitimme. Voisitko tehdä bensiiniä kotona? Periaatteessa kyllä — mikään siinä ei riko fysiikan lakeja. Käytännössä rakentaisit tislauslaitteen, saisit viidenneksen tynnyristä oktaaniluvulla viisikymmentä, ja sitten alkaisit lisätä krakkausta, vetykäsittelyä, vedyntuotantoa, korkeapainelaitteita, ohjausjärjestelmiä ja laboratorioita. Onneksi olkoon. Olet juuri alkanut rakentaa jalostamoa.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-oil-becomes-petrol/
+
 LUVUT
 0:00 Miten bensiini ilmestyy
 0:35 Mitä jalostamo tekee ensin
@@ -137,6 +139,8 @@ l'hydrotraitement, la production d'hydrogène, des équipements haute
 pression, des systèmes de conduite et des laboratoires. Félicitations.
 Vous venez de commencer à construire une raffinerie.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-oil-becomes-petrol/
+
 CHAPITRES
 0:00 D'où sort l'essence
 0:35 Ce que fait d'abord une raffinerie
@@ -191,6 +195,8 @@ Lalu bagian yang membuat seluruh industri ini diperlukan. Sulinglah minyak menta
 Dan skala oktan itu sendiri ternyata indah sekaligus sewenang-wenang: satu molekul, heptana, ditetapkan sebagai nol, satu lagi, iso-oktana, sebagai seratus, dan segala hal lain diukur di antara keduanya.
 
 Terakhir, pertanyaan yang jadi awal semuanya. Bisakah kamu membuat bensin di rumah? Pada prinsipnya bisa — tidak ada bagian darinya yang melanggar hukum fisika. Pada praktiknya kamu akan membangun alat suling, mendapat seperlima barel dengan oktan lima puluh, lalu mulai menambahkan perengkahan, hidrotreating, produksi hidrogen, peralatan bertekanan tinggi, sistem kendali dan laboratorium. Selamat. Kamu baru saja mulai membangun sebuah kilang.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-oil-becomes-petrol/
 
 BAB
 0:00 Bagaimana bensin muncul
@@ -271,6 +277,8 @@ produzione di idrogeno, impianti ad alta pressione, sistemi di controllo
 e laboratori. Congratulazioni. Hai appena cominciato a costruire una
 raffineria.
 
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-oil-becomes-petrol/
+
 CAPITOLI
 0:00 Da dove salta fuori la benzina
 0:35 Cosa fa per prima una raffineria
@@ -349,6 +357,8 @@ bekommen und dann anfangen, Cracken, Hydrotreating, Wasserstofferzeugung,
 Hochdruckanlagen, Leitsysteme und Labore hinzuzufügen. Herzlichen
 Glückwunsch. Sie haben gerade angefangen, eine Raffinerie zu bauen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-oil-becomes-petrol/
+
 KAPITEL
 0:00 Wo das Benzin herkommt
 0:35 Was eine Raffinerie zuerst macht
@@ -426,6 +436,8 @@ destylacyjny, dostał jedną piątą baryłki o liczbie oktanowej pięćdziesią
 a potem zacząłbyś dokładać kraking, hydrorafinację, produkcję wodoru,
 urządzenia wysokociśnieniowe, systemy sterowania i laboratoria.
 Gratulacje. Właśnie zacząłeś budować rafinerię.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-oil-becomes-petrol/
 
 ROZDZIAŁY
 0:00 Skąd bierze się benzyna
@@ -506,6 +518,8 @@ produção de hidrogênio, equipamentos de alta pressão, sistemas de
 controle e laboratórios. Parabéns. Você acabou de começar a construir uma
 refinaria.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-oil-becomes-petrol/
+
 CAPÍTULOS
 0:00 De onde aparece a gasolina
 0:35 O que uma refinaria faz primeiro
@@ -560,6 +574,8 @@ Sonra bütün sektörü gerekli kılan kısım. İyi bir hafif ham petrolü dam�
 Ve oktan ölçeğinin kendisi de tatlı bir keyfilikle tanımlanmış: bir molekül, heptan, sıfır kabul edildi; bir diğeri, izo-oktan, yüz; geri kalan her şey ikisinin arasında ölçülüyor.
 
 Son olarak, başladığımız soru. Benzini evde yapabilir misin? İlkesel olarak evet — hiçbir yanı fizik yasalarını çiğnemiyor. Pratikte bir damıtma düzeneği kurar, bir varilin beşte biri kadar elli oktanlık benzin elde eder, sonra parçalama, hidrojenle arıtma, hidrojen üretimi, yüksek basınç ekipmanı, kontrol sistemleri ve laboratuvarlar eklemeye başlarsın. Tebrikler. Az önce bir rafineri kurmaya başladın.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-oil-becomes-petrol/
 
 BÖLÜMLER
 0:00 Benzin nasıl ortaya çıkıyor
@@ -616,6 +632,8 @@ Bir sonrakini istiyorsan, bir abone ol düğmesi var.
 
 Наостанок — запитання, з якого ми почали. Чи міг би ти зробити бензин удома? У принципі так: ніщо в цьому не порушує законів фізики. На практиці ти збудував би перегінний куб, дістав би п’яту частину бареля з октановим числом п’ятдесят, а тоді почав би додавати крекінг, гідроочищення, виробництво водню, обладнання високого тиску, системи керування й лабораторії. Вітаємо. Ти щойно почав будувати нафтопереробний завод.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-oil-becomes-petrol/
+
 РОЗДІЛИ
 0:00 Як з’являється бензин
 0:35 Що нафтопереробний завод робить першим
@@ -670,6 +688,8 @@ Rồi đến phần khiến cả ngành này trở nên cần thiết. Hãy chư
 Và bản thân thang octan hóa ra được quy ước một cách thật thú vị: một phân tử, heptan, được định nghĩa là 0; một phân tử khác, iso-octan, là 100; mọi thứ còn lại đo ở giữa hai mốc ấy.
 
 Cuối cùng là câu hỏi ta bắt đầu. Bạn có thể tự làm xăng ở nhà không? Về nguyên tắc thì được — chẳng có gì trong đó vi phạm các định luật vật lý. Trên thực tế bạn sẽ dựng một nồi chưng cất, thu được một phần năm thùng dầu với octan năm mươi, rồi bắt đầu thêm cracking, xử lý bằng hydro, sản xuất hydro, thiết bị áp suất cao, hệ thống điều khiển và phòng thí nghiệm. Xin chúc mừng. Bạn vừa bắt đầu xây một nhà máy lọc dầu.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-oil-becomes-petrol/
 
 CÁC CHƯƠNG
 0:00 Xăng xuất hiện thế nào
@@ -746,6 +766,8 @@ byste postavili destilační kotlík, dostali pětinu barelu s oktanem
 padesát, a pak začali přidávat krakování, hydrogenační rafinaci, výrobu
 vodíku, vysokotlaká zařízení, řídicí systémy a laboratoře. Gratulujeme.
 Právě jste začali stavět rafinerii.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-oil-becomes-petrol/
 
 KAPITOLY
 0:00 Odkud se benzin bere
@@ -825,6 +847,8 @@ y luego empezarías a añadir craqueo, hidrotratamiento, producción de
 hidrógeno, equipos de alta presión, sistemas de control y laboratorios.
 Enhorabuena. Acabas de empezar a construir una refinería.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-oil-becomes-petrol/
+
 CAPÍTULOS
 0:00 De dónde sale la gasolina
 0:35 Qué hace primero una refinería
@@ -902,6 +926,8 @@ bygga en destillationsapparat, få en femtedel av fatet med oktantal
 femtio, och sedan börja lägga till krackning, vätebehandling,
 väteproduktion, högtrycksutrustning, styrsystem och laboratorier. Grattis.
 Du har just börjat bygga ett raffinaderi.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-oil-becomes-petrol/
 
 KAPITEL
 0:00 Var bensinen kommer ifrån

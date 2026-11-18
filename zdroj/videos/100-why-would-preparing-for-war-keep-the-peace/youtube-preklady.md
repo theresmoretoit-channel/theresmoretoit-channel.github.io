@@ -60,6 +60,8 @@ Sotilasmenot: SIPRI (huhtikuu 2026). Ydinkärjet: Federation of American Scienti
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-would-preparing-for-war-keep-the-peace/
+
 LUVUT
 00:00 Haluatko rauhaa? Valmistaudu sotaan
 00:35 Pelote yksinkertaisimmillaan
@@ -95,6 +97,8 @@ Mais si le but est de ne jamais se battre, pourquoi construire chars, missiles e
 Dépenses militaires : SIPRI (avril 2026). Ogives nucléaires : Federation of American Scientists. Malouines : le Franks Report (1983).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-would-preparing-for-war-keep-the-peace/
 
 CHAPITRES
 00:00 Tu veux la paix ? Prépare la guerre
@@ -132,6 +136,8 @@ Belanja militer: SIPRI (April 2026). Hulu ledak nuklir: Federation of American S
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-would-preparing-for-war-keep-the-peace/
+
 BAB
 00:00 Ingin damai? Bersiaplah untuk perang
 00:35 Penangkalan dalam bentuk paling sederhana
@@ -167,6 +173,8 @@ Ma se l'obiettivo è non combattere mai, perché costruire carri armati, missili
 Spese militari: SIPRI (aprile 2026). Testate nucleari: Federation of American Scientists. Falkland: il Franks Report (1983).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-would-preparing-for-war-keep-the-peace/
 
 CAPITOLI
 00:00 Vuoi la pace? Prepara la guerra
@@ -204,6 +212,8 @@ Militärausgaben: SIPRI (April 2026). Atomsprengköpfe: Federation of American S
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-would-preparing-for-war-keep-the-peace/
+
 KAPITEL
 00:00 Willst du Frieden? Bereite dich auf Krieg vor
 00:35 Abschreckung in der einfachsten Form
@@ -239,6 +249,8 @@ Ale skoro chodzi o to, by nigdy nie walczyć, po co budować czołgi, rakiety i 
 Wydatki wojskowe: SIPRI (kwiecień 2026). Głowice jądrowe: Federation of American Scientists. Falklandy: Franks Report (1983).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-would-preparing-for-war-keep-the-peace/
 
 ROZDZIAŁY
 00:00 Chcesz pokoju? Szykuj się do wojny
@@ -276,6 +288,8 @@ Gastos militares: SIPRI (abril de 2026). Ogivas nucleares: Federation of America
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-would-preparing-for-war-keep-the-peace/
+
 CAPÍTULOS
 00:00 Quer paz? Se prepare para a guerra
 00:35 A dissuasão na forma mais simples
@@ -311,6 +325,8 @@ Ama amaç hiç savaşmamaksa, neden tank, füze ve savaş gemisi yapasın? Silah
 Askeri harcamalar: SIPRI (Nisan 2026). Nükleer savaş başlıkları: Federation of American Scientists. Falkland: Franks Report (1983).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-would-preparing-for-war-keep-the-peace/
 
 BÖLÜMLER
 00:00 Barış mı istiyorsun? Savaşa hazırlan
@@ -348,6 +364,8 @@ Licences: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-would-preparing-for-war-keep-the-peace/
+
 РОЗДІЛИ
 00:00 Хочеш миру? Готуйся до війни
 00:35 Стримування в найпростішому вигляді
@@ -383,6 +401,8 @@ Nhưng nếu mục tiêu là không bao giờ phải đánh nhau, thì sao lại
 Chi tiêu quân sự: SIPRI (tháng 4/2026). Đầu đạn hạt nhân: Federation of American Scientists. Falkland: Franks Report (1983).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-would-preparing-for-war-keep-the-peace/
 
 CHƯƠNG
 00:00 Muốn hòa bình? Hãy chuẩn bị cho chiến tranh
@@ -420,6 +440,8 @@ Vojenské výdaje: SIPRI (duben 2026). Jaderné hlavice: Federation of American 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-would-preparing-for-war-keep-the-peace/
+
 KAPITOLY
 00:00 Chceš mír? Připravuj se na válku
 00:35 Odstrašení v nejjednodušší podobě
@@ -456,6 +478,8 @@ Gasto militar: SIPRI (abril de 2026). Ojivas nucleares: Federation of American S
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-would-preparing-for-war-keep-the-peace/
+
 CAPÍTULOS
 00:00 ¿Quieres paz? Prepárate para la guerra
 00:35 La disuasión en su forma más simple
@@ -491,6 +515,8 @@ Men om målet är att aldrig slåss, varför bygga stridsvagnar, robotar och kri
 Militära utgifter: SIPRI (april 2026). Kärnstridsspetsar: Federation of American Scientists. Falklandsöarna: Franks Report (1983).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-would-preparing-for-war-keep-the-peace/
 
 KAPITEL
 00:00 Vill du ha fred? Förbered dig för krig

@@ -70,6 +70,8 @@ Lähteet: NIST (tuuman ja paunan määritelmä vuodelta 1959); BIPM (metrisopimu
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-doesnt-america-use-the-metric-system/
+
 LUVUT
 00:00 Kuusikymmentäviisi mitä?
 00:47 Se outo juttu
@@ -105,6 +107,8 @@ Le plus bizarre, c'est que d'une certaine façon, c'est déjà fait. Du plan dé
 Sources : NIST (la définition du pouce et de la livre de 1959) ; BIPM (la Convention du Mètre, 1875) ; déclaration du président Ford à la signature du Metric Conversion Act (1975) ; Congressional Research Service (rapport 95-875) ; Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999) ; NASA Management Instruction 8010.2A (1991) ; RTÉ News (20 janvier 2005).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-doesnt-america-use-the-metric-system/
 
 CHAPITRES
 00:00 Soixante-cinq quoi ?
@@ -142,6 +146,8 @@ Sumber: NIST (definisi inci dan pon tahun 1959); BIPM (Konvensi Meter, 1875); pe
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-doesnt-america-use-the-metric-system/
+
 BAB
 00:00 Enam puluh lima apa?
 00:47 Bagian anehnya
@@ -177,6 +183,8 @@ La parte strana è che, in un certo senso, l'hanno già fatto. Dal piano decimal
 Fonti: NIST (la definizione di pollice e libbra del 1959); BIPM (la Convenzione del Metro, 1875); dichiarazione del presidente Ford alla firma del Metric Conversion Act (1975); Congressional Research Service (rapporto 95-875); Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); NASA Management Instruction 8010.2A (1991); RTÉ News (20 gennaio 2005).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-doesnt-america-use-the-metric-system/
 
 CAPITOLI
 00:00 Sessantacinque cosa?
@@ -214,6 +222,8 @@ Quellen: NIST (die Definition von Zoll und Pfund von 1959); BIPM (die Meterkonve
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-doesnt-america-use-the-metric-system/
+
 KAPITEL
 00:00 Fünfundsechzig was?
 00:47 Das Seltsame
@@ -249,6 +259,8 @@ Najdziwniejsze jest to, że w pewnym sensie już przeszły. Od dziesiętnego pla
 Źródła: NIST (definicja cala i funta z 1959 roku); BIPM (Konwencja Metryczna, 1875); oświadczenie prezydenta Forda przy podpisaniu Metric Conversion Act (1975); Congressional Research Service (raport 95-875); Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); NASA Management Instruction 8010.2A (1991); RTÉ News (20 stycznia 2005).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-doesnt-america-use-the-metric-system/
 
 ROZDZIAŁY
 00:00 Sześćdziesiąt pięć czego?
@@ -286,6 +298,8 @@ Fontes: NIST (a definição de polegada e libra de 1959); BIPM (a Convenção do
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-doesnt-america-use-the-metric-system/
+
 CAPÍTULOS
 00:00 Sessenta e cinco o quê?
 00:47 A parte estranha
@@ -321,6 +335,8 @@ Altmış beş ne? ABD'de herhangi bir yolda araba sür; hız sınırları, hava 
 Kaynaklar: NIST (inç ve librenin 1959 tanımı); BIPM (Metre Konvansiyonu, 1875); Başkan Ford'un Metric Conversion Act'i imzalarken yaptığı açıklama (1975); Congressional Research Service (rapor 95-875); Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); NASA Management Instruction 8010.2A (1991); RTÉ News (20 Ocak 2005).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-doesnt-america-use-the-metric-system/
 
 BÖLÜMLER
 00:00 Altmış beş ne?
@@ -358,6 +374,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-doesnt-america-use-the-metric-system/
+
 РОЗДІЛИ
 00:00 Шістдесят п’ять чого?
 00:47 Ось що дивно
@@ -393,6 +411,8 @@ Sáu mươi lăm gì? Lái xe trên bất kỳ con đường nào ở Mỹ, bạ
 Nguồn: NIST (định nghĩa inch và pound năm 1959); BIPM (Công ước Mét, 1875); tuyên bố của Tổng thống Ford khi ký Metric Conversion Act (1975); Congressional Research Service (báo cáo 95-875); Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); NASA Management Instruction 8010.2A (1991); RTÉ News (20 tháng 1 năm 2005).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-doesnt-america-use-the-metric-system/
 
 CHƯƠNG
 00:00 Sáu mươi lăm gì?
@@ -430,6 +450,8 @@ Zdroje: NIST (definice palce a libry z roku 1959); BIPM (Metrická konvence, 187
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-doesnt-america-use-the-metric-system/
+
 KAPITOLY
 00:00 Pětašedesát čeho?
 00:47 A teď ta zvláštní část
@@ -466,6 +488,8 @@ Fuentes: NIST (la definición de la pulgada y la libra de 1959); BIPM (la Conven
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-doesnt-america-use-the-metric-system/
+
 CAPÍTULOS
 00:00 ¿Sesenta y cinco qué?
 00:47 Lo raro
@@ -501,6 +525,8 @@ Det märkliga är att landet på sätt och vis redan har gjort det. Från Thomas
 Källor: NIST (1959 års definition av tum och pund); BIPM (meterkonventionen, 1875); president Fords uttalande vid undertecknandet av Metric Conversion Act (1975); Congressional Research Service (rapport 95-875); Mars Climate Orbiter Mishap Investigation Board, Phase I Report (1999); NASA Management Instruction 8010.2A (1991); RTÉ News (20 januari 2005).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-doesnt-america-use-the-metric-system/
 
 KAPITEL
 00:00 Sextiofem vad?

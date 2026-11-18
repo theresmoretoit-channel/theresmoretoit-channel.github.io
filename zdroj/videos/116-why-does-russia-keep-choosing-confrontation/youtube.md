@@ -75,6 +75,8 @@ Sources: Address by the President of the Russian Federation, 24 February 2022 (k
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-russia-keep-choosing-confrontation/
+
 CHAPTERS
 00:00 Finland joins NATO
 00:38 So much land, so small an economy

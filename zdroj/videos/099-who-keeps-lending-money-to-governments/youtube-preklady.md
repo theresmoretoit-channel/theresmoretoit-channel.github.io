@@ -48,6 +48,8 @@ Velka- ja alijäämäluvut: Eurostat (huhtikuun 2026 raportointi) ja IMF:n World
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/who-keeps-lending-money-to-governments/
+
 LUVUT
 00:00 Lainaa joka vuosi
 00:34 Missä se lakkasi toimimasta
@@ -84,6 +86,8 @@ Les États dépensent plus qu'ils n'encaissent, année après année, et les vie
 Chiffres de dette et de déficit : Eurostat (notification d'avril 2026) et World Economic Outlook du FMI (avril 2026). Rendements des obligations d'État à dix ans au 2 octobre 2026 : Grèce 4,52 %, France 4,91 %.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/who-keeps-lending-money-to-governments/
 
 CHAPITRES
 00:00 Emprunter chaque année
@@ -122,6 +126,8 @@ Angka utang dan defisit: Eurostat (notifikasi April 2026) dan World Economic Out
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/who-keeps-lending-money-to-governments/
+
 BAB
 00:00 Berutang setiap tahun
 00:34 Ketika cara ini tak lagi berhasil
@@ -158,6 +164,8 @@ Gli Stati spendono più di quanto incassano, anno dopo anno, e i vecchi prestiti
 Dati su debito e deficit: Eurostat (notifica di aprile 2026) e World Economic Outlook del FMI (aprile 2026). Rendimenti dei titoli di Stato a dieci anni al 2 ottobre 2026: Grecia 4,52%, Francia 4,91%.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/who-keeps-lending-money-to-governments/
 
 CAPITOLI
 00:00 Indebitarsi ogni anno
@@ -196,6 +204,8 @@ Schulden- und Defizitzahlen: Eurostat (Meldung vom April 2026) und World Economi
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/who-keeps-lending-money-to-governments/
+
 KAPITEL
 00:00 Jedes Jahr neue Schulden
 00:34 Wo es nicht mehr funktioniert hat
@@ -232,6 +242,8 @@ Rządy rok w rok wydają więcej, niż wpływa do budżetu, a stare pożyczki ja
 Dane o długu i deficycie: Eurostat (notyfikacja z kwietnia 2026) i World Economic Outlook MFW (kwiecień 2026). Rentowności dziesięcioletnich obligacji skarbowych 2 października 2026: Grecja 4,52%, Francja 4,91%.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/who-keeps-lending-money-to-governments/
 
 ROZDZIAŁY
 00:00 Pożyczki co roku
@@ -270,6 +282,8 @@ Dados de dívida e déficit: Eurostat (notificação de abril de 2026) e World E
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/who-keeps-lending-money-to-governments/
+
 CAPÍTULOS
 00:00 Pegando emprestado todo ano
 00:34 Onde isso parou de funcionar
@@ -306,6 +320,8 @@ Hükümetler yıldan yıla topladığından fazlasını harcıyor ve eski borçl
 Borç ve bütçe açığı rakamları: Eurostat (Nisan 2026 bildirimi) ve IMF World Economic Outlook (Nisan 2026). 2 Ekim 2026 itibarıyla on yıllık devlet tahvili getirileri: Yunanistan %4,52, Fransa %4,91.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/who-keeps-lending-money-to-governments/
 
 BÖLÜMLER
 00:00 Her yıl yeniden borç
@@ -344,6 +360,8 @@ Licences: creativecommons.org/licenses/by-sa/3.0, creativecommons.org/licenses/b
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/who-keeps-lending-money-to-governments/
+
 РОЗДІЛИ
 00:00 Позичати щороку
 00:34 Де це перестало працювати
@@ -380,6 +398,8 @@ Năm này qua năm khác, các chính phủ chi nhiều hơn số tiền thu v�
 Số liệu nợ và thâm hụt: Eurostat (báo cáo tháng 4/2026) và World Economic Outlook của IMF (tháng 4/2026). Lợi suất trái phiếu chính phủ kỳ hạn mười năm ngày 2/10/2026: Hy Lạp 4,52%, Pháp 4,91%.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/who-keeps-lending-money-to-governments/
 
 CHƯƠNG
 00:00 Năm nào cũng đi vay
@@ -418,6 +438,8 @@ Vlády rok co rok utrácejí víc, než vyberou, a staré půjčky jako by nikdy
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/who-keeps-lending-money-to-governments/
+
 KAPITOLY
 00:00 Každý rok nová půjčka
 00:34 Kde to fungovat přestalo
@@ -455,6 +477,8 @@ Cifras de deuda y déficit: Eurostat (notificación de abril de 2026) y World Ec
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/who-keeps-lending-money-to-governments/
+
 CAPÍTULOS
 00:00 Pedir prestado cada año
 00:34 Donde dejó de funcionar
@@ -491,6 +515,8 @@ Stater gör av med mer än de får in, år efter år, och de gamla lånen verkar
 Siffror för skuld och underskott: Eurostat (rapporteringen i april 2026) och IMF:s World Economic Outlook (april 2026). Räntor på tioåriga statsobligationer den 2 oktober 2026: Grekland 4,52 %, Frankrike 4,91 %.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/who-keeps-lending-money-to-governments/
 
 KAPITEL
 00:00 Lånar varje år

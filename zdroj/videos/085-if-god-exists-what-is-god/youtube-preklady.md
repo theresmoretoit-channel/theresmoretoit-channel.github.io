@@ -36,6 +36,8 @@ Aiempi video kysyi, mitä Jumalan olemassaolon todistaminen vaatisi: https://you
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/if-god-exists-what-is-god/
+
 LUVUT
 00:00 Oletetaan, että todistamme Jumalan olemassaolon
 00:58 Missä Jumala on?
@@ -77,6 +79,8 @@ En chemin, elle examine la différence entre « quelque chose est à l'origine d
 Une vidéo précédente se demandait ce qu'il faudrait pour prouver l'existence de Dieu : https://youtu.be/6IuuXCygHY0
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/if-god-exists-what-is-god/
 
 CHAPITRES
 00:00 Supposons qu'on prouve que Dieu existe
@@ -120,6 +124,8 @@ Video sebelumnya bertanya apa yang dibutuhkan untuk membuktikan bahwa Tuhan itu 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/if-god-exists-what-is-god/
+
 BAB
 00:00 Misalkan kita membuktikan bahwa Tuhan itu ada
 00:58 Di mana Tuhan?
@@ -161,6 +167,8 @@ Strada facendo esamina la differenza tra «qualcosa ha causato l'universo» e l'
 Un video precedente si chiedeva che cosa servirebbe per dimostrare che Dio esiste: https://youtu.be/6IuuXCygHY0
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/if-god-exists-what-is-god/
 
 CAPITOLI
 00:00 Supponiamo di dimostrare che Dio esiste
@@ -204,6 +212,8 @@ Ein früheres Video hat gefragt, was es bräuchte, um zu beweisen, dass Gott exi
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/if-god-exists-what-is-god/
+
 KAPITEL
 00:00 Angenommen, wir beweisen, dass Gott existiert
 00:58 Wo ist Gott?
@@ -245,6 +255,8 @@ Po drodze przygląda się różnicy między „coś spowodowało powstanie wszec
 Wcześniejszy film pytał, czego trzeba, by udowodnić istnienie Boga: https://youtu.be/6IuuXCygHY0
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/if-god-exists-what-is-god/
 
 ROZDZIAŁY
 00:00 Załóżmy, że udowodnimy istnienie Boga
@@ -288,6 +300,8 @@ Um vídeo anterior perguntou o que seria preciso para provar que Deus existe: ht
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/if-god-exists-what-is-god/
+
 CAPÍTULOS
 00:00 Suponha que a gente prove que Deus existe
 00:58 Onde está Deus?
@@ -329,6 +343,8 @@ Yol boyunca "bir şey evrenin var olmasına neden oldu" ile çoğu insanın Tanr
 Daha önceki bir video, Tanrı'nın var olduğunu kanıtlamak için ne gerekeceğini sormuştu: https://youtu.be/6IuuXCygHY0
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/if-god-exists-what-is-god/
 
 BÖLÜMLER
 00:00 Diyelim ki Tanrı'nın varlığını kanıtladık
@@ -372,6 +388,8 @@ Licences: creativecommons.org/licenses/by/2.5
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/if-god-exists-what-is-god/
+
 РОЗДІЛИ
 00:00 Припустімо, ми довели, що Бог існує
 00:58 Де Бог?
@@ -413,6 +431,8 @@ Bên cạnh đó, video còn xem xét sự khác biệt giữa "có một thứ 
 Một video trước đây đã hỏi cần những gì để chứng minh Thượng Đế tồn tại: https://youtu.be/6IuuXCygHY0
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/if-god-exists-what-is-god/
 
 CHƯƠNG
 00:00 Giả sử ta chứng minh được Thượng Đế tồn tại
@@ -456,6 +476,8 @@ Předchozí video se ptalo, co by bylo potřeba, abychom dokázali existenci Boh
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/if-god-exists-what-is-god/
+
 KAPITOLY
 00:00 Dejme tomu, že dokážeme, že Bůh existuje
 00:58 Kde je Bůh?
@@ -498,6 +520,8 @@ Un vídeo anterior se preguntaba qué haría falta para demostrar que Dios exist
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/if-god-exists-what-is-god/
+
 CAPÍTULOS
 00:00 Supongamos que demostramos que Dios existe
 00:58 ¿Dónde está Dios?
@@ -539,6 +563,8 @@ På vägen tittar den på skillnaden mellan ”något orsakade universum” och 
 En tidigare video frågade vad som skulle krävas för att bevisa att Gud finns: https://youtu.be/6IuuXCygHY0
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/if-god-exists-what-is-god/
 
 KAPITEL
 00:00 Anta att vi bevisar att Gud finns

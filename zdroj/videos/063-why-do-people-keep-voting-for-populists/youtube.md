@@ -40,6 +40,8 @@ In 1958, 73 percent of Americans said they trusted the government in Washington 
 
 Which leads to the part almost nobody says out loud. A populist does not have to convince you that the simple solution will work — that would be hard, because solutions can be checked. Only that the current one has already failed. And that job is much easier, because quite often it is simply true.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-people-keep-voting-for-populists/
+
 Chapters
 0:00 Simple answers to complicated problems
 0:29 Trump. The AfD. Fico.

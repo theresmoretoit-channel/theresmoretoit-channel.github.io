@@ -42,6 +42,8 @@ Along the way: brake dust, non-exhaust emissions, a French system that
 literally vacuums your brakes, and why electric cars fix part of this
 problem but not the part that matters most.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/where-do-microplastics-come-from/
+
 CHAPTERS
 0:00 What we picture when we hear microplastics
 0:43 Tyres wear out — so where does it go?

@@ -57,6 +57,8 @@ Jos tekoäly on tarpeeksi älykäs tietääkseen, että jokin on rikos, miksei s
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-would-a-smart-ai-help-a-criminal/
+
 LUVUT
 00:00 Tekoäly, joka auttaa silti
 00:47 WormGPT ja FraudGPT
@@ -87,6 +89,8 @@ Demande à un chatbot d'écrire un e-mail d'arnaque, et il dira sans doute non. 
 Si une IA est assez intelligente pour savoir que quelque chose est un crime, pourquoi ne refuse-t-elle pas tout simplement ? Quel rapport avec les Trois lois de la robotique d'Asimov, et pourquoi « Ne fais pas de mal aux gens » est-il si difficile à transformer en une règle qu'un ordinateur peut suivre ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-would-a-smart-ai-help-a-criminal/
 
 CHAPITRES
 00:00 Une IA qui aide quand même
@@ -119,6 +123,8 @@ Kalau sebuah AI cukup pintar untuk tahu bahwa sesuatu adalah kejahatan, kenapa i
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-would-a-smart-ai-help-a-criminal/
+
 BAB
 00:00 AI yang tetap membantu
 00:47 WormGPT dan FraudGPT
@@ -149,6 +155,8 @@ Chiedi a un chatbot di scrivere un'email truffa e probabilmente ti dirà di no. 
 Se un'IA è abbastanza intelligente da sapere che qualcosa è un reato, perché non si rifiuta e basta? Che c'entrano le Tre leggi della robotica di Asimov, e perché "Non fare del male alle persone" è così difficile da trasformare in una regola che un computer possa seguire?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-would-a-smart-ai-help-a-criminal/
 
 CAPITOLI
 00:00 Un'IA che aiuta lo stesso
@@ -181,6 +189,8 @@ Wenn eine KI klug genug ist, um zu wissen, dass etwas eine Straftat ist, warum l
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-would-a-smart-ai-help-a-criminal/
+
 KAPITEL
 00:00 Eine KI, die trotzdem hilft
 00:47 WormGPT und FraudGPT
@@ -211,6 +221,8 @@ Poproś chatbota o oszukańczego maila, a pewnie powie nie. Ale latem 2023 roku 
 Jeśli AI jest na tyle inteligentna, by wiedzieć, że coś jest przestępstwem, dlaczego po prostu nie odmówi? Co mają z tym wspólnego trzy prawa robotyki Asimova i dlaczego tak trudno zamienić „Nie krzywdź ludzi” w zasadę, której komputer potrafi przestrzegać?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-would-a-smart-ai-help-a-criminal/
 
 ROZDZIAŁY
 00:00 AI, która i tak pomaga
@@ -243,6 +255,8 @@ Se uma IA é inteligente o bastante para saber que algo é crime, por que ela si
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-would-a-smart-ai-help-a-criminal/
+
 CAPÍTULOS
 00:00 Uma IA que ajuda mesmo assim
 00:47 WormGPT e FraudGPT
@@ -273,6 +287,8 @@ Bir sohbet botundan dolandırıcılık e-postası yazmasını iste, büyük ihti
 Bir yapay zekâ bir şeyin suç olduğunu bilecek kadar zekiyse, neden doğrudan reddetmiyor? Asimov'un Üç Robot Yasası'nın bununla ne ilgisi var ve "İnsanlara zarar verme" ilkesini bir bilgisayarın uyabileceği bir kurala dönüştürmek neden bu kadar zor?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-would-a-smart-ai-help-a-criminal/
 
 BÖLÜMLER
 00:00 Yine de yardım eden bir yapay zekâ
@@ -305,6 +321,8 @@ Isaac Asimov — Phillip Leonian, New York World-Telegram & Sun, public domain, 
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-would-a-smart-ai-help-a-criminal/
+
 РОЗДІЛИ
 00:00 ШІ, який усе одно допомагає
 00:47 WormGPT і FraudGPT
@@ -335,6 +353,8 @@ Nhờ một chatbot viết email lừa đảo, có lẽ nó sẽ nói không. Nh
 Nếu một AI đủ thông minh để biết một việc là phạm tội, sao nó không từ chối luôn? Ba định luật về robot của Asimov thì liên quan gì, và vì sao “không được làm hại con người” lại khó biến thành một quy tắc mà máy tính có thể tuân theo đến vậy?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-would-a-smart-ai-help-a-criminal/
 
 CHƯƠNG
 00:00 Một AI vẫn giúp bạn
@@ -367,6 +387,8 @@ Když je AI dost chytrá na to, aby věděla, že něco je trestný čin, proč 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-would-a-smart-ai-help-a-criminal/
+
 KAPITOLY
 00:00 AI, která stejně pomůže
 00:47 WormGPT a FraudGPT
@@ -398,6 +420,8 @@ Si una IA es lo bastante inteligente para saber que algo es un delito, ¿por qu�
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-would-a-smart-ai-help-a-criminal/
+
 CAPÍTULOS
 00:00 Una IA que ayuda igualmente
 00:47 WormGPT y FraudGPT
@@ -428,6 +452,8 @@ Be en chattbot skriva ett bedrägerimejl, så säger den förmodligen nej. Men s
 Om en AI är smart nog att veta att något är ett brott, varför vägrar den inte bara? Vad har Asimovs tre robotlagar med saken att göra, och varför är det så svårt att göra om ”skada inte människor” till en regel som en dator kan följa?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-would-a-smart-ai-help-a-criminal/
 
 KAPITEL
 00:00 En AI som hjälper ändå

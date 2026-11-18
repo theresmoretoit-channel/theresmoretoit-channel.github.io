@@ -58,6 +58,8 @@ Molempien puolesta on hyviä perusteluja. Kun substantiivi tulee ensin, kuulija 
 
 Matkan varrella: puola, joka tekee iloisesti molempia yhtä aikaa ja jolla on sääntö siitä, kumpi adjektiivi menee minnekin; norja, joka siirtää kokonaan toista sanaa; ja ranska, jossa adjektiivin siirtäminen muuttaa hiljaa sen, mitä lause tarkoittaa.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/which-is-better-red-car-or-car-red/
+
 Luvut:
 0:00 Ota se punainen auto
 0:28 Adjektiivi ensin: englanti, saksa, ruotsi
@@ -111,6 +113,8 @@ règle pour savoir quel adjectif va où ; le norvégien, qui déplace un tout
 autre mot ; et le français, où déplacer l'adjectif change discrètement ce
 que la phrase veut dire.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/which-is-better-red-car-or-car-red/
+
 Chapitres :
 0:00 Prends la voiture rouge
 0:28 L'adjectif d'abord : anglais, allemand, suédois
@@ -157,6 +161,8 @@ Dan itu memunculkan pertanyaan yang membuat kita tidak nyaman: apakah salah satu
 Ada argumen bagus untuk keduanya. Kata benda dulu langsung memberitahumu apa yang sedang dibicarakan, dan segala yang menyusul hanyalah rincian. Tapi kalau kamu berdiri di sebelah dua ratus mobil, "mobil" sama sekali tidak memberitahumu apa-apa — warnanya adalah satu-satunya bagian yang menolong. Dan itu mengubah pertanyaan tata bahasa menjadi pertanyaan informasi: apa yang sudah diketahui pendengarnya?
 
 Sepanjang video: bahasa Polandia, yang dengan riang melakukan keduanya sekaligus dan punya aturan tentang kata sifat mana yang ditempatkan di posisi mana; bahasa Norwegia, yang justru memindahkan kata yang sama sekali lain; dan bahasa Prancis, di mana memindahkan kata sifatnya diam-diam mengubah makna kalimatnya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/which-is-better-red-car-or-car-red/
 
 Bab:
 0:00 Ambil mobil merah itu
@@ -209,6 +215,8 @@ Lungo la strada: il polacco, che allegramente fa entrambe le cose insieme
 e ha una regola per stabilire quale aggettivo va dove; il norvegese, che
 sposta tutta un'altra parola; e il francese, dove spostare l'aggettivo
 cambia in sordina ciò che la frase significa.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/which-is-better-red-car-or-car-red/
 
 Capitoli:
 0:00 Prendi l'auto rossa
@@ -272,6 +280,8 @@ Unterwegs: das Polnische, das munter beides zugleich macht und eine Regel
 dafür hat, welches Adjektiv wohin gehört; das Norwegische, das ein ganz
 anderes Wort verschiebt; und das Französische, wo das Verschieben des
 Adjektivs still und leise ändert, was der Satz bedeutet.
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/which-is-better-red-car-or-car-red/
 
 Kapitel:
 0:00 Nimm das rote Auto
@@ -337,6 +347,8 @@ gramatyczne w pytanie o informację: co słuchacz już wie?
 Po drodze: norweski, który przesuwa zupełnie inne słowo; i francuski,
 gdzie przesunięcie przymiotnika po cichu zmienia to, co zdanie znaczy.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/which-is-better-red-car-or-car-red/
+
 Rozdziały:
 0:00 Weź ten czerwony samochód
 0:28 Przymiotnik pierwszy: angielski, niemiecki, szwedzki
@@ -400,6 +412,8 @@ e tem uma regra para qual adjetivo vai onde; o norueguês, que move uma
 palavra completamente diferente; e o francês, onde mover o adjetivo muda
 discretamente o que a frase quer dizer.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/which-is-better-red-car-or-car-red/
+
 Capítulos:
 0:00 Pegue o carro vermelho
 0:28 Adjetivo primeiro: inglês, alemão, sueco
@@ -447,6 +461,8 @@ Her iki sıralamayı da destekleyen iyi gerekçeler var. Önce ad gelmesi neden 
 
 Bu bölümde ayrıca: ikisini birden neşeyle yapan ve hangi sıfatın nereye gideceğine dair kuralı olan Lehçe; bambaşka bir kelimeyi yerinden oynatan Norveççe; ve sıfatı kaydırmanın cümlenin anlamını sessizce değiştirdiği Fransızca.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/which-is-better-red-car-or-car-red/
+
 Bölümler:
 0:00 Şu kırmızı arabayı al
 0:28 Önce sıfat: İngilizce, Almanca, İsveççe
@@ -484,6 +500,8 @@ Bundan fazlası var.
 
 Також у відео: польська, яка бадьоро використовує обидва порядки слів і має правило, який прикметник куди йде; норвезька, яка пересуває зовсім інше слово; і французька, у якій переміщення прикметника тихо міняє те, що речення означає.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/which-is-better-red-car-or-car-red/
+
 Розділи:
 0:00 Візьми те червоне авто
 0:28 Спершу прикметник: англійська, німецька, шведська
@@ -520,6 +538,8 @@ Và điều đó làm nảy ra một câu hỏi khó chịu: liệu một trong 
 Cả hai bên đều có lý lẽ hay. Danh từ đứng trước cho bạn biết ngay ta đang nói về cái gì, và mọi thứ sau đó chỉ là chi tiết. Nhưng nếu bạn đang đứng cạnh hai trăm chiếc xe, chữ "xe" chẳng nói lên điều gì cả — màu sắc mới là phần giúp ích. Và thế là câu hỏi ngữ pháp biến thành câu hỏi về thông tin: người nghe vốn đã biết những gì?
 
 Video cũng đề cập đến: tiếng Ba Lan, thứ tiếng vui vẻ làm cả hai cùng lúc và có hẳn quy tắc về vị trí của từng loại tính từ; tiếng Na Uy, thứ tiếng lại dịch chuyển một từ hoàn toàn khác; và tiếng Pháp, nơi việc dời tính từ lặng lẽ làm đổi ý nghĩa của câu.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/which-is-better-red-car-or-car-red/
 
 Các chương:
 0:00 Lấy chiếc xe đỏ ấy
@@ -571,6 +591,8 @@ Cestou: polština, která vesele dělá obojí naráz a má pravidlo, které
 přídavné jméno kam patří; norština, která posouvá úplně jiné slovo; a
 francouzština, kde posunutí přídavného jména potichu změní, co věta
 znamená.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/which-is-better-red-car-or-car-red/
 
 Kapitoly:
 0:00 Vezmi si to červené auto
@@ -626,6 +648,8 @@ Por el camino: el polaco, que hace alegremente las dos cosas a la vez y
 tiene una regla para saber qué adjetivo va dónde; el noruego, que
 desplaza una palabra completamente distinta; y el francés, donde
 desplazar el adjetivo cambia calladamente lo que significa la frase.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/which-is-better-red-car-or-car-red/
 
 Capítulos:
 0:00 Coge el coche rojo
@@ -688,6 +712,8 @@ På vägen: polskan, som glatt gör bådadera samtidigt och har en regel för
 vilket adjektiv som hamnar var; norskan, som flyttar ett helt annat ord;
 och franskan, där en flyttad adjektivplacering i tysthet ändrar vad
 meningen betyder.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/which-is-better-red-car-or-car-red/
 
 Kapitel:
 0:00 Ta den röda bilen

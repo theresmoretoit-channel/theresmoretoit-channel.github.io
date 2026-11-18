@@ -55,6 +55,8 @@ Ja sitten se osa, jolla oikeasti on väliä: vaikka rakentaisimme sellaisen, mit
 
 Nykyiset kielimallit eivät luultavasti ole tietoisia. Tämä video selittää, miksi sanalla „luultavasti" on tuossa lauseessa niin suuri merkitys.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/can-ai-have-consciousness/
+
 LUVUT
 0:00 Kysymys, johon kukaan ei osaa vastata
 0:41 Mitä tietoisuus oikeastaan on?
@@ -119,6 +121,8 @@ Les modèles de langage actuels ne sont probablement pas conscients. Cette
 vidéo explique pourquoi le mot « probablement » travaille beaucoup dans
 cette phrase.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/can-ai-have-consciousness/
+
 CHAPITRES
 0:00 La question à laquelle personne ne sait répondre
 0:41 Qu'est-ce que la conscience, au juste ?
@@ -180,6 +184,8 @@ Video ini menanggapi pertanyaannya dengan serius dan menolak menjawabnya secara 
 Dan lalu bagian yang benar-benar penting: seandainya kita membangunnya sekalipun, bagaimana kita bisa mengetahuinya?
 
 Model bahasa saat ini kemungkinan besar tidak sadar. Video ini menjelaskan kenapa kata "kemungkinan besar" memikul beban yang berat dalam kalimat itu.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/can-ai-have-consciousness/
 
 BAB
 0:00 Pertanyaan yang tidak bisa dijawab siapa pun
@@ -243,6 +249,8 @@ potremmo mai accorgercene?
 I modelli linguistici di oggi probabilmente non sono coscienti. Questo
 video spiega perché la parola «probabilmente» sta lavorando parecchio in
 quella frase.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/can-ai-have-consciousness/
 
 CAPITOLI
 0:00 La domanda a cui nessuno sa rispondere
@@ -316,6 +324,8 @@ bauten, woran würden wir es je erkennen?
 Die heutigen Sprachmodelle sind wahrscheinlich nicht bewusst. Dieses
 Video erklärt, warum das Wort „wahrscheinlich" in diesem Satz sehr viel
 Arbeit leistet.
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/can-ai-have-consciousness/
 
 KAPITEL
 0:00 Die Frage, die niemand beantworten kann
@@ -391,6 +401,8 @@ Dzisiejsze modele językowe prawdopodobnie nie są świadome. Ten film
 tłumaczy, dlaczego słowo „prawdopodobnie" wykonuje w tym zdaniu bardzo
 dużo pracy.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/can-ai-have-consciousness/
+
 ROZDZIAŁY
 0:00 Pytanie, na które nikt nie umie odpowiedzieć
 0:41 Czym właściwie jest świadomość?
@@ -465,6 +477,8 @@ Os modelos de linguagem de hoje provavelmente não são conscientes. Este
 vídeo explica por que a palavra "provavelmente" está fazendo muito
 trabalho nessa frase.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/can-ai-have-consciousness/
+
 CAPÍTULOS
 0:00 A pergunta que ninguém sabe responder
 0:41 O que é afinal a consciência?
@@ -525,6 +539,8 @@ Ve sonra asıl önemli kısım: birini inşa etsek bile, bunu nasıl anlardık?
 
 Bugünün dil modelleri muhtemelen bilinçli değil. Bu video, o cümlede "muhtemelen" kelimesinin neden bu kadar çok iş yaptığını anlatıyor.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/can-ai-have-consciousness/
+
 BÖLÜMLER
 0:00 Kimsenin cevaplayamadığı soru
 0:41 Bilinç aslında nedir?
@@ -575,6 +591,8 @@ kodla çizildi; atmosferik sahneler fotoğraf değil, resim.
 
 Сьогоднішні мовні моделі, найімовірніше, не є свідомими. Це відео пояснює, чому слово «найімовірніше» виконує в тому реченні дуже багато роботи.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/can-ai-have-consciousness/
+
 РОЗДІЛИ
 0:00 Запитання, на яке ніхто не вміє відповісти
 0:41 Чим узагалі є свідомість?
@@ -624,6 +642,8 @@ Video này xem câu hỏi ấy một cách nghiêm túc và từ chối trả l�
 Và rồi phần thực sự quan trọng: cho dù ta có dựng được một cái như thế, làm sao ta biết được?
 
 Các mô hình ngôn ngữ hiện nay nhiều khả năng là không có ý thức. Video này giải thích vì sao cụm từ "nhiều khả năng" có vai trò quan trọng đến vậy trong câu đó.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/can-ai-have-consciousness/
 
 CÁC CHƯƠNG
 0:00 Câu hỏi không ai trả lời được
@@ -685,6 +705,8 @@ bychom to kdy poznali?
 
 Dnešní jazykové modely nejspíš vědomé nejsou. Tohle video vysvětluje,
 proč slovo „nejspíš" v té větě odvádí spoustu práce.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/can-ai-have-consciousness/
 
 KAPITOLY
 0:00 Otázka, na kterou nikdo neumí odpovědět
@@ -750,6 +772,8 @@ Y después la parte que de verdad importa: aunque construyéramos una,
 Los modelos de lenguaje actuales probablemente no son conscientes. Este
 vídeo explica por qué la palabra «probablemente» está trabajando mucho en
 esa frase.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/can-ai-have-consciousness/
 
 CAPÍTULOS
 0:00 La pregunta que nadie sabe responder
@@ -823,6 +847,8 @@ skulle vi någonsin kunna veta?
 
 Dagens språkmodeller är förmodligen inte medvetna. Den här videon
 förklarar varför ordet "förmodligen" arbetar väldigt hårt i den meningen.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/can-ai-have-consciousness/
 
 KAPITEL
 0:00 Frågan ingen kan besvara

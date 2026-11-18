@@ -33,6 +33,8 @@ question about who you are.
 Sources and the full fact check for every number in this video are in the
 project notes; the key study is linked below.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-we-may-not-live-forever/
+
 — Chapters —
 0:00 Could we solve ageing?
 0:49 Why we age

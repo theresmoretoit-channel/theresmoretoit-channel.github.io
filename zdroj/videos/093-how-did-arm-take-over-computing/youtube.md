@@ -55,6 +55,8 @@ The usual explanation is that ARM is simple and efficient, and efficient wins. B
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-did-arm-take-over-computing/
+
 CHAPTERS
 00:00 The chip that ran without power
 01:10 Acorn, 1983

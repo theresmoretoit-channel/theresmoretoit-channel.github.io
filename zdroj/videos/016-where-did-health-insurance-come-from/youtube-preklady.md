@@ -50,6 +50,8 @@ Julkinen sairausvakuutus tuntuu joltain, jonka on täytynyt olla aina olemassa. 
 
 Tämä on tarina siitä, miten pääsimme roomalaisista hautausyhdistyksistä ja keskiaikaisista killoista Bismarckiin, Beveridgeen ja kehittyneen maailman oudoimpaan terveydenhuoltojärjestelmään.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/where-did-health-insurance-come-from/
+
 00:00 Miksi tämä tuntuu normaalilta
 00:29 Eurooppa noin vuonna 1800
 01:08 Rooma, killat ja yhteinen kassa
@@ -131,6 +133,8 @@ détruire les finances de sa famille.
 Voici l'histoire du chemin qui va des collèges funéraires romains et des
 guildes médiévales à Bismarck, à Beveridge, et au système de santé le
 plus étrange du monde développé.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/where-did-health-insurance-come-from/
 
 00:00 Pourquoi cela nous paraît normal
 00:29 L'Europe vers 1800
@@ -215,6 +219,8 @@ Asuransi kesehatan publik terasa seperti sesuatu yang pasti selalu ada. Ternyata
 
 Ini cerita tentang bagaimana kita sampai dari perkumpulan pemakaman Romawi dan gilda abad pertengahan ke Bismarck, Beveridge, dan sistem layanan kesehatan paling aneh di dunia maju.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/where-did-health-insurance-come-from/
+
 00:00 Kenapa ini terasa normal
 00:29 Eropa sekitar 1800
 01:08 Roma, gilda dan dana bersama
@@ -296,6 +302,8 @@ una sola malattia.
 Questa è la storia di come si è arrivati dai collegi funerari romani e
 dalle gilde medievali a Bismarck, a Beveridge e al sistema sanitario più
 strano del mondo sviluppato.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/where-did-health-insurance-come-from/
 
 00:00 Perché ci sembra normale
 00:29 L'Europa intorno al 1800
@@ -391,6 +399,8 @@ die Finanzen seiner Familie zerstörte.
 Das ist die Geschichte des Wegs von römischen Begräbnisvereinen und
 mittelalterlichen Zünften zu Bismarck, zu Beveridge und zum seltsamsten
 Gesundheitssystem der entwickelten Welt.
+
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/where-did-health-insurance-come-from/
 
 00:00 Warum uns das normal vorkommt
 00:29 Europa um 1800
@@ -488,6 +498,8 @@ To historia drogi od rzymskich kolegiów pogrzebowych i średniowiecznych
 cechów do Bismarcka, Beveridge'a i najdziwniejszego systemu opieki
 zdrowotnej w rozwiniętym świecie.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/where-did-health-insurance-come-from/
+
 00:00 Dlaczego wydaje nam się to normalne
 00:29 Europa około 1800 roku
 01:08 Rzym, cechy i wspólna kasa
@@ -583,6 +595,8 @@ Esta é a história de como fomos das sociedades funerárias romanas e das
 guildas medievais até Bismarck, Beveridge e o sistema de saúde mais
 estranho do mundo desenvolvido.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/where-did-health-insurance-come-from/
+
 00:00 Por que isso nos parece normal
 00:29 A Europa por volta de 1800
 01:08 Roma, guildas e o fundo comum
@@ -666,6 +680,8 @@ Kamusal sağlık sigortası, hep var olmuş olması gereken bir şey gibi geliyo
 
 Bu, Roma cenaze derneklerinden ve ortaçağ loncalarından Bismarck’a, Beveridge’e ve gelişmiş dünyanın en tuhaf sağlık sistemine nasıl geldiğimizin hikâyesi.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/where-did-health-insurance-come-from/
+
 00:00 Bu neden normal geliyor
 00:29 1800 dolaylarında Avrupa
 01:08 Roma, loncalar ve ortak kasa
@@ -733,6 +749,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 Державне медичне страхування здається чимось, що мусило існувати завжди. Не мусило. Це переважно продукт останніх ста п’ятдесяти років, і винайшли його не просто так: індустріальне суспільство створило проблему нового типу, у якій людина могла бути цілком працездатною — і все одно одна хвороба нищила фінанси її родини.
 
 Це історія про те, як ми дійшли від римських поховальних товариств і середньовічних цехів до Бісмарка, Беверіджа й найдивнішої системи охорони здоров’я в розвиненому світі.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/where-did-health-insurance-come-from/
 
 00:00 Чому це здається нормальним
 00:29 Європа близько 1800 року
@@ -802,6 +820,8 @@ Trong phần lớn lịch sử loài người, nếu bạn ốm thì về cơ b�
 Có cảm giác như bảo hiểm y tế công là thứ hẳn phải luôn tồn tại. Không phải vậy. Nó phần lớn là sản phẩm của một trăm năm mươi năm gần đây, và nó được tạo ra vì một lý do: xã hội công nghiệp sinh ra một kiểu vấn đề mới, khi một người có thể hoàn toàn đủ sức làm việc mà chỉ một cơn bệnh cũng đủ phá tan tài chính của cả gia đình.
 
 Đây là câu chuyện về việc chúng ta đã đi từ các hội mai táng La Mã và phường hội thời trung cổ đến Bismarck, Beveridge, và hệ thống y tế kỳ lạ nhất trong thế giới phát triển.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/where-did-health-insurance-come-from/
 
 00:00 Vì sao chuyện này có vẻ bình thường
 00:29 Châu Âu vào khoảng năm 1800
@@ -881,6 +901,8 @@ rodinné finance.
 Tohle je příběh cesty od římských pohřebních spolků a středověkých cechů
 k Bismarckovi, Beveridgeovi a nejpodivnějšímu zdravotnictví vyspělého
 světa.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/where-did-health-insurance-come-from/
 
 00:00 Proč nám to připadá normální
 00:29 Evropa kolem roku 1800
@@ -966,6 +988,8 @@ su familia.
 Esta es la historia del camino que va de los colegios funerarios romanos
 y los gremios medievales a Bismarck, a Beveridge y al sistema sanitario
 más extraño del mundo desarrollado.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/where-did-health-insurance-come-from/
 
 00:00 Por qué esto nos parece normal
 00:29 Europa hacia 1800
@@ -1061,6 +1085,8 @@ förstör familjens ekonomi.
 Det här är historien om hur vi gick från romerska begravningsföreningar
 och medeltida skrån till Bismarck, Beveridge och den utvecklade världens
 märkligaste sjukvårdssystem.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/where-did-health-insurance-come-from/
 
 00:00 Varför det här känns normalt
 00:29 Europa omkring 1800

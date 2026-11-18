@@ -50,6 +50,8 @@ Se ei kuitenkaan ole outoa. Outoa on se, että kaikille kirjoitettu kuvaus voi s
 
 Matkan varrella: psykologi, joka antoi kolmellekymmenelleyhdeksälle opiskelijalle saman persoonallisuusprofiilin ja sai keskiarvoksi 4,26 viidestä, Naturessa julkaistu kaksoissokkokoe, jonka suunnitteluun astrologit itse osallistuivat, ja miksi yksi koe ei ole koskaan viimeinen sana — eikä tämäkään koe ole poikkeus.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-we-believe-in-astrology/
+
 Luvut
 0:00 Kysymys tähtimerkistäsi
 0:29 Kolmastoista tähdistö
@@ -129,6 +131,8 @@ test en double aveugle publié dans Nature que les astrologues eux-mêmes
 ont aidé à concevoir, et pourquoi une expérience n'a jamais le dernier
 mot — y compris celle-là.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-we-believe-in-astrology/
+
 Chapitres
 0:00 Une question sur votre signe
 0:29 La treizième constellation
@@ -201,6 +205,8 @@ Horoskopmu bilang kamu Leo. Astrologi India bilang kamu Cancer. Kedua sistem ini
 Itu belum bagian anehnya. Bagian anehnya adalah bahwa sebuah deskripsi yang ditulis untuk semua orang tetap bisa terasa seperti ditulis khusus untukmu. Video ini mulai dari rasi bintang ketiga belas yang diam-diam ditinggalkan zodiak, menelusuri apa sebenarnya sebuah zodiak begitu kamu sadar itu bukan rasi bintang, dan berakhir di sesuatu yang lebih menarik daripada astrologi: mesin di dalam kepalamu yang menemukan makna di dalam derau.
 
 Sepanjang video: seorang psikolog yang membagikan profil kepribadian yang sama kepada tiga puluh sembilan mahasiswa dan mendapat skor rata-rata 4,26 dari 5, sebuah uji buta ganda di Nature yang perancangannya dibantu para astrolog sendiri, dan kenapa satu eksperimen saja tidak pernah memberikan jawaban final — termasuk eksperimen tersebut.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-we-believe-in-astrology/
 
 Bab
 0:00 Sebuah pertanyaan tentang zodiakmu
@@ -277,6 +283,8 @@ stesso profilo di personalità e ottenne un voto medio di 4,26 su 5, un
 test in doppio cieco pubblicato su Nature che gli astrologi stessi
 aiutarono a progettare, e perché un esperimento non ha mai l'ultima
 parola — compreso quello.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-we-believe-in-astrology/
 
 Capitoli
 0:00 Una domanda sul tuo segno
@@ -368,6 +376,8 @@ Persönlichkeitsprofil aushändigte und eine Durchschnittsnote von 4,26 von
 entworfen haben, und warum ein einzelnes Experiment nie das letzte Wort
 hat — auch dieses nicht.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-we-believe-in-astrology/
+
 Kapitel
 0:00 Eine Frage zu Ihrem Sternzeichen
 0:29 Das dreizehnte Sternbild
@@ -457,6 +467,8 @@ sam profil osobowości i dostał średnią ocenę 4,26 na 5, test w podwójnie
 astrologowie, i dlaczego jeden eksperyment nigdy nie jest ostatnim słowem
 — łącznie z tamtym.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-we-believe-in-astrology/
+
 Rozdziały
 0:00 Pytanie o twój znak
 0:29 Trzynasty gwiazdozbiór
@@ -545,6 +557,8 @@ duplo-cego publicado na Nature que os próprios astrólogos ajudaram a
 desenhar, e por que um experimento nunca é a palavra final — inclusive
 aquele.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-we-believe-in-astrology/
+
 Capítulos
 0:00 Uma pergunta sobre o seu signo
 0:29 A décima terceira constelação
@@ -618,6 +632,8 @@ Tuhaf olan kısım bu değil. Tuhaf olan, herkes için yazılmış bir tarifin y
 
 Bu bölümde ayrıca: otuz dokuz öğrenciye aynı kişilik profilini veren ve ortalama 5 üzerinden 4,26 puan alan bir psikolog; astrologların tasarımına bizzat katkı verdiği, Nature’da yayımlanmış çift kör bir test; ve tek bir deneyin neden asla son söz olmadığı — o deney de dahil.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-we-believe-in-astrology/
+
 Bölümler
 0:00 Burcun hakkında bir soru
 0:29 On üçüncü takımyıldız
@@ -678,6 +694,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 Але дивно не це. Дивне те, що опис, написаний для всіх, усе одно може здаватися написаним саме для тебе. Це відео починається тринадцятим сузір’ям, яке зодіак тихо оминає, розбирає, чим знак насправді є, щойно помітиш, що це не сузір’я, і зрештою переходить до чогось цікавішого за астрологію: до механізму у твоїй голові, який знаходить сенс у шумі.
 
 Також у відео: психолог, який роздав тридцяти дев’ятьом студентам той самий профіль особистості й дістав середню оцінку 4,26 із 5; подвійне сліпе випробування в Nature, яке допомагали проєктувати самі астрологи; і чому один експеримент ніколи не є останнім словом — і цей експеримент — не виняток.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-we-believe-in-astrology/
 
 Розділи
 0:00 Запитання про твій знак зодіаку
@@ -740,6 +758,8 @@ Lá số của bạn nói bạn là Sư Tử. Chiêm tinh Ấn Độ nói bạn 
 Đó còn chưa phải phần lạ. Phần lạ là một bản mô tả viết cho tất cả mọi người vẫn có thể khiến bạn thấy như thể nó được viết riêng cho mình. Video này bắt đầu từ chòm sao thứ mười ba mà hoàng đạo lặng lẽ bỏ ra ngoài, giải thích một cung hoàng đạo thực chất là gì khi bạn nhận ra nó không phải chòm sao, và kết thúc ở một nơi thú vị hơn cả chiêm tinh: bộ máy trong đầu bạn, thứ tìm ra ý nghĩa giữa nhiễu loạn.
 
 Video cũng đề cập đến: một nhà tâm lý học phát cho ba mươi chín sinh viên cùng một bản mô tả tính cách và nhận được điểm trung bình 4,26 trên 5; một thử nghiệm mù đôi đăng trên Nature mà chính các nhà chiêm tinh đã góp phần thiết kế; và vì sao một thí nghiệm đơn lẻ không bao giờ đủ để đưa ra kết luận cuối cùng — kể cả thí nghiệm ấy.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-we-believe-in-astrology/
 
 Các chương
 0:00 Một câu hỏi về cung hoàng đạo của bạn
@@ -814,6 +834,8 @@ Cestou: psycholog, který dal třiceti devíti studentům tentýž osobnostní
 profil a dostal průměrnou známku 4,26 z 5, dvojitě zaslepený test
 v Nature, který pomáhali navrhnout sami astrologové, a proč jeden pokus
 nikdy nemá poslední slovo — včetně toho jednoho.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-we-believe-in-astrology/
 
 Kapitoly
 0:00 Otázka na vaše znamení
@@ -893,6 +915,8 @@ mismo perfil de personalidad y obtuvo una nota media de 4,26 sobre 5, un
 ensayo a doble ciego publicado en Nature que los propios astrólogos
 ayudaron a diseñar, y por qué un experimento nunca es la última palabra
 — incluido ese.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-we-believe-in-astrology/
 
 Capítulos
 0:00 Una pregunta sobre tu signo
@@ -980,6 +1004,8 @@ På vägen: en psykolog som delade ut samma personlighetsprofil till
 trettionio studenter och fick snittbetyget 4,26 av 5, ett dubbelblint
 test i Nature som astrologerna själva var med och utformade, och varför
 ett enda experiment aldrig är sista ordet — inte heller det.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-we-believe-in-astrology/
 
 Kapitel
 0:00 En fråga om ditt stjärntecken

@@ -58,6 +58,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Maailmankartta: BlankMap-World, tekijä Canuckguy, CIA World Factbookin pohjalta, tekijänoikeudeton (public domain)
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-are-iphone-texts-to-android-still-green/
+
 LUVUT
 00:00 Sininen ja vihreä
 00:34 Vihreä oli ensin
@@ -96,6 +98,8 @@ Tim Cook, mars 2026 — Tessa Bury, CC BY 4.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Carte du monde : BlankMap-World par Canuckguy, d'après le CIA World Factbook, domaine public
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-are-iphone-texts-to-android-still-green/
 
 CHAPITRES
 00:00 Bleu et vert
@@ -136,6 +140,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Peta dunia: BlankMap-World oleh Canuckguy, berdasarkan CIA World Factbook, domain publik
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-are-iphone-texts-to-android-still-green/
+
 BAB
 00:00 Biru dan hijau
 00:34 Hijau lebih dulu
@@ -174,6 +180,8 @@ Tim Cook, marzo 2026 — Tessa Bury, CC BY 4.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Mappa del mondo: BlankMap-World di Canuckguy, dal CIA World Factbook, pubblico dominio
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-are-iphone-texts-to-android-still-green/
 
 CAPITOLI
 00:00 Blu e verde
@@ -214,6 +222,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Weltkarte: BlankMap-World von Canuckguy, nach dem CIA World Factbook, gemeinfrei
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-are-iphone-texts-to-android-still-green/
+
 KAPITEL
 00:00 Blau und Grün
 00:34 Grün war zuerst da
@@ -252,6 +262,8 @@ Tim Cook, marzec 2026 — Tessa Bury, CC BY 4.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Mapa świata: BlankMap-World, autor Canuckguy, na podstawie CIA World Factbook, domena publiczna
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-are-iphone-texts-to-android-still-green/
 
 ROZDZIAŁY
 00:00 Niebieski i zielony
@@ -292,6 +304,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Mapa-múndi: BlankMap-World, de Canuckguy, baseado no CIA World Factbook, domínio público
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-are-iphone-texts-to-android-still-green/
+
 CAPÍTULOS
 00:00 Azul e verde
 00:34 O verde veio primeiro
@@ -330,6 +344,8 @@ Tim Cook, Mart 2026 — Tessa Bury, CC BY 4.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Dünya haritası: BlankMap-World, Canuckguy, CIA World Factbook'a dayanarak, kamu malı
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-are-iphone-texts-to-android-still-green/
 
 BÖLÜMLER
 00:00 Mavi ve yeşil
@@ -370,6 +386,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Карта світу: BlankMap-World, автор Canuckguy, за CIA World Factbook, суспільне надбання
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-are-iphone-texts-to-android-still-green/
+
 РОЗДІЛИ
 00:00 Синій і зелений
 00:34 Зелений був першим
@@ -408,6 +426,8 @@ Tim Cook, tháng 3/2026 — Tessa Bury, CC BY 4.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Bản đồ thế giới: BlankMap-World của Canuckguy, theo CIA World Factbook, phạm vi công cộng
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-are-iphone-texts-to-android-still-green/
 
 CHƯƠNG
 00:00 Xanh dương và xanh lá
@@ -448,6 +468,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Mapa světa: BlankMap-World, autor Canuckguy, podle CIA World Factbook, volné dílo
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-are-iphone-texts-to-android-still-green/
+
 KAPITOLY
 00:00 Modrá a zelená
 00:34 Zelená byla první
@@ -487,6 +509,8 @@ via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Mapa del mundo: BlankMap-World, de Canuckguy, basado en el CIA World Factbook, dominio público
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-are-iphone-texts-to-android-still-green/
+
 CAPÍTULOS
 00:00 Azul y verde
 00:34 El verde llegó primero
@@ -525,6 +549,8 @@ Tim Cook, mars 2026 — Tessa Bury, CC BY 4.0
 via Wikimedia Commons
 Licences: creativecommons.org/licenses/by-sa/2.0, creativecommons.org/licenses/by/4.0
 Världskarta: BlankMap-World av Canuckguy, efter CIA World Factbook, allmän egendom
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-are-iphone-texts-to-android-still-green/
 
 KAPITEL
 00:00 Blått och grönt

@@ -38,6 +38,8 @@ where the complexity went, what streaming actually rewards, and the measurement 
 underneath the whole question: we compare today's average music with the best music
 that survived sixty years of forgetting.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-modern-music-so-simple/
+
 Chapters
 0:00 The question
 1:03 What "simple" actually means

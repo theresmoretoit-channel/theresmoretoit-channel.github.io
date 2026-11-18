@@ -48,6 +48,8 @@ From barrels to contracts, from contracts to risk, and finally to markets that t
 nothing but the probability of an event. This is how a market can work without ever
 needing the thing it is named after.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/can-you-sell-what-you-dont-own/
+
 Chapters
 0:00 The offer
 0:25 Sell first, buy later

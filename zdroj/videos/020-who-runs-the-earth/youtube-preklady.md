@@ -51,6 +51,8 @@ Luvut alla. Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaat
 
 ---
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/who-runs-the-earth/
+
 00:00 Kukaan ei ole maiden yläpuolella
 01:01 Miten se toimii maan sisällä
 01:39 Sama kysymys yhtä tasoa ylempänä
@@ -116,6 +118,8 @@ Chapitres ci-dessous. Les sous-titres sont écrits pour cette vidéo, pas géné
 
 ---
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/who-runs-the-earth/
+
 00:00 Personne n'est au-dessus des pays
 01:01 Comment cela fonctionne à l'intérieur d'un pays
 01:39 La même question, un étage plus haut
@@ -177,6 +181,8 @@ Sebuah asteroid. Sebuah pandemi. Atau sebuah sinyal dari sistem bintang lain, da
 Bab di bawah. Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
 ---
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/who-runs-the-earth/
 
 00:00 Tidak ada yang berada di atas negara-negara
 01:01 Bagaimana itu bekerja di dalam sebuah negara
@@ -242,6 +248,8 @@ rispondere: chi rappresenta la Terra?
 Capitoli sotto. Capitoli qui sotto. I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
 
 ---
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/who-runs-the-earth/
 
 00:00 Nessuno sta sopra i paesi
 01:01 Come funziona dentro un paese
@@ -320,6 +328,8 @@ Kapitel unten. Die Untertitel wurden für dieses Video geschrieben, nicht automa
 
 ---
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/who-runs-the-earth/
+
 00:00 Niemand steht über den Staaten
 01:01 Wie es innerhalb eines Staates funktioniert
 01:39 Dieselbe Frage, eine Ebene höher
@@ -396,6 +406,8 @@ reprezentuje Ziemię?
 Rozdziały niżej. Rozdziały poniżej. Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
 
 ---
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/who-runs-the-earth/
 
 00:00 Nikt nie stoi nad państwami
 01:01 Jak to działa wewnątrz państwa
@@ -474,6 +486,8 @@ Capítulos abaixo. As legendas foram escritas para este vídeo, não geradas aut
 
 ---
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/who-runs-the-earth/
+
 00:00 Ninguém está acima dos países
 01:01 Como funciona dentro de um país
 01:39 A mesma pergunta, um nível acima
@@ -536,6 +550,8 @@ Bölümler aşağıda. Altyazılar bu video için yazıldı, otomatik olarak olu
 
 ---
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/who-runs-the-earth/
+
 00:00 Ülkelerin üstünde kimse yok
 01:01 Bir ülkenin içinde bu nasıl işler
 01:39 Aynı soru, bir üst düzeyde
@@ -586,6 +602,8 @@ Bütün diyagramlar kodla (SVG) çizildi. Müzik prosedürel olarak üretildi.
 
 ---
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/who-runs-the-earth/
+
 00:00 Над країнами немає нікого
 01:01 Як це працює всередині країни
 01:39 Те саме запитання, на рівень вище
@@ -635,6 +653,8 @@ Một tiểu hành tinh. Một đại dịch. Hoặc một tín hiệu từ hệ
 Các chương ở bên dưới. Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
 
 ---
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/who-runs-the-earth/
 
 00:00 Không ai đứng trên các quốc gia
 01:01 Bên trong một quốc gia thì nó vận hành ra sao
@@ -697,6 +717,8 @@ kterou dnes nikdo na téhle planetě neumí odpovědět: kdo zastupuje Zemi?
 Kapitoly níž. Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
 ---
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/who-runs-the-earth/
 
 00:00 Nad státy není nikdo
 01:01 Jak to funguje uvnitř státu
@@ -764,6 +786,8 @@ a la Tierra?
 Capítulos abajo. Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
 ---
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/who-runs-the-earth/
 
 00:00 Nadie está por encima de los países
 01:01 Cómo funciona dentro de un país
@@ -840,6 +864,8 @@ jorden?
 Kapitel nedan. Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
 
 ---
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/who-runs-the-earth/
 
 00:00 Ingen står över länderna
 01:01 Hur det fungerar inom ett land

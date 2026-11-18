@@ -65,6 +65,8 @@ same planet.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-do-we-find-exoplanets/
+
 CHAPTERS
 00:00 A strange problem
 00:53 Direct imaging

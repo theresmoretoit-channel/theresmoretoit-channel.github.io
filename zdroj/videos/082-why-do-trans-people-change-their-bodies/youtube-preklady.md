@@ -62,6 +62,8 @@ Tämä on kolmas video transihmisiä käsittelevässä sarjassa. Ensimmäinen ky
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-trans-people-change-their-bodies/
+
 LUVUT
 00:00 Miksi kukaan valitsisi sellaista?
 01:33 Transitio ei ole yksi asia
@@ -87,6 +89,8 @@ Cette vidéo explique ce qu'implique vraiment une transition médicale et pourqu
 C'est la troisième vidéo d'une série sur les personnes transgenres. La première se demandait pourquoi il semble soudain y avoir autant de personnes trans, la deuxième comment savoir qu'on est trans. La suivante pose la question : pourquoi est-ce si difficile d'être trans ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-trans-people-change-their-bodies/
 
 CHAPITRES
 00:00 Pourquoi est-ce que quelqu'un choisirait ça ?
@@ -114,6 +118,8 @@ Ini adalah video ketiga dalam seri tentang orang transgender. Video pertama bert
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-trans-people-change-their-bodies/
+
 BAB
 00:00 Kenapa ada orang yang mau memilih itu?
 01:33 Transisi bukan satu hal saja
@@ -139,6 +145,8 @@ Questo video racconta che cosa comporta davvero la transizione medica e perché 
 Questo è il terzo video di una serie sulle persone transgender. Il primo si chiedeva perché all'improvviso sembrino esserci così tante persone trans, il secondo come fai a sapere di essere trans. Il prossimo si chiede: perché è così difficile essere trans?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-trans-people-change-their-bodies/
 
 CAPITOLI
 00:00 Perché qualcuno dovrebbe scegliere una cosa del genere?
@@ -166,6 +174,8 @@ Das ist das dritte Video einer Reihe über trans Menschen. Das erste fragte, war
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-trans-people-change-their-bodies/
+
 KAPITEL
 00:00 Warum sollte sich jemand dafür entscheiden?
 01:33 Transition ist nicht nur eine Sache
@@ -191,6 +201,8 @@ Ten film pokazuje, z czym naprawdę wiąże się tranzycja medyczna i dlaczego n
 To trzeci film z serii o osobach transpłciowych. Pierwszy pytał, dlaczego nagle wydaje się, że jest tyle osób trans, drugi – skąd wiesz, że jesteś trans. Następny pyta: dlaczego tak trudno jest być trans?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-trans-people-change-their-bodies/
 
 ROZDZIAŁY
 00:00 Dlaczego ktoś miałby się na to zdecydować?
@@ -218,6 +230,8 @@ Este é o terceiro vídeo de uma série sobre pessoas transgênero. O primeiro p
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-trans-people-change-their-bodies/
+
 CAPÍTULOS
 00:00 Por que alguém escolheria isso?
 01:33 Transição não é uma coisa só
@@ -243,6 +257,8 @@ Bu video, tıbbi geçişin aslında neleri kapsadığını ve bazı trans insanl
 Bu, transgender insanlar hakkındaki bir serinin üçüncü videosu. İlki, neden birdenbire bu kadar çok trans insan varmış gibi göründüğünü, ikincisi trans olduğunu nasıl anlayacağını soruyordu. Bir sonraki video şunu soruyor: Trans olmak neden bu kadar zor?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-trans-people-change-their-bodies/
 
 BÖLÜMLER
 00:00 Biri neden bunu seçsin?
@@ -270,6 +286,8 @@ BÖLÜMLER
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-trans-people-change-their-bodies/
+
 РОЗДІЛИ
 00:00 Навіщо комусь таке обирати?
 01:33 Перехід — це не щось одне
@@ -295,6 +313,8 @@ Video này tìm hiểu chuyển đổi về mặt y tế thực sự bao gồm n
 Đây là video thứ ba trong loạt video về người chuyển giới. Video đầu tiên đặt câu hỏi vì sao có vẻ như đột nhiên có nhiều người chuyển giới đến vậy, video thứ hai hỏi làm sao bạn biết mình là người chuyển giới. Video tiếp theo hỏi: vì sao làm người chuyển giới lại khó khăn đến vậy?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-trans-people-change-their-bodies/
 
 CHƯƠNG
 00:00 Vì sao lại có người chọn điều đó?
@@ -322,6 +342,8 @@ Tohle je třetí video ze série o transgender lidech. To první se ptalo, proč
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-trans-people-change-their-bodies/
+
 KAPITOLY
 00:00 Proč by si to někdo vybral?
 01:33 Tranzice není jedna věc
@@ -348,6 +370,8 @@ Este es el tercer vídeo de una serie sobre las personas transgénero. El primer
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-trans-people-change-their-bodies/
+
 CAPÍTULOS
 00:00 ¿Por qué alguien elegiría algo así?
 01:33 La transición no es una sola cosa
@@ -373,6 +397,8 @@ Den här videon handlar om vad medicinsk transition faktiskt innebär och varfö
 Det här är den tredje videon i en serie om transpersoner. Den första frågade varför det plötsligt verkar finnas så många transpersoner, den andra hur du vet att du är trans. Nästa video frågar: varför är det så svårt att vara trans?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-trans-people-change-their-bodies/
 
 KAPITEL
 00:00 Varför skulle någon välja det?

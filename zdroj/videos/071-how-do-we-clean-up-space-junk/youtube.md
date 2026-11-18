@@ -61,6 +61,8 @@ never becomes space junk.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/how-do-we-clean-up-space-junk/
+
 CHAPTERS
 00:00 Thousands of tonnes of junk
 00:47 Why it doesn't just fall down

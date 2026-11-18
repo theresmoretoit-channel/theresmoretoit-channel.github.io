@@ -62,6 +62,8 @@ This is the first video in a series about transgender people. The next one asks:
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-are-there-suddenly-so-many-trans-people/
+
 CHAPTERS
 00:00 Have you ever met a trans person?
 00:43 What does transgender actually mean?

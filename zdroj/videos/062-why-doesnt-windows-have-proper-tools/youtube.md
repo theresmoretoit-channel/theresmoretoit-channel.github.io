@@ -33,6 +33,8 @@ So the answer cannot be that Microsoft couldn't. Which means the real question w
 
 There are three explanations, and only one of them has court records.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-doesnt-windows-have-proper-tools/
+
 Chapters
 0:00 They had every reason to build them
 0:52 Start with the file manager

@@ -68,6 +68,8 @@ Sources: HistoryNet / Aviation History (the Aerocar, the ConvAirCar and William 
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/we-built-flying-cars-so-why-dont-we-use-them/
+
 CHAPTERS
 00:00 A car that's allowed to fly
 00:44 Start with one

@@ -32,6 +32,8 @@ Tämä ei ole valitus laadusta — laitteisto on erinomainen. Tämä on kysymys 
 
 Ja sitten se osa, joka tekee tästä todella vaikeaa: sama hallinta, joka estää sinua asentamasta ostamaasi näyttöä, on syy siihen että kuulokkeesi yhdistyvät ennen kuin olet pyytänyt. Ota toinen pois ja otat toisenkin.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-some-people-hate-apple/
+
 Luvut
 0:00 Puhelin on sinun
 0:39 Liitäntä joka katosi
@@ -69,6 +71,8 @@ Tu as payé ton téléphone. Il est à toi. Et Apple décide de ce qui a le droi
 Ce n'est pas une critique de la qualité — le matériel est excellent. C'est une question : à qui appartient l'objet ? Nous passons en revue huit cas concrets : la prise casque, le connecteur qu'Apple a gardé onze ans, l'appairage des pièces, le kit de réparation arrivé en deux caisses, la mémoire qu'on ne peut pas changer, la commission de l'App Store, et l'année où des millions de téléphones ont été discrètement ralentis.
 
 Et puis la partie qui rend tout ça vraiment difficile : le même contrôle qui t'empêche de monter un écran que tu as acheté est la raison pour laquelle tes écouteurs se connectent avant que tu le demandes. Enlève l'un et tu enlèves l'autre.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-some-people-hate-apple/
 
 Chapitres
 0:00 Ton téléphone t'appartient
@@ -108,6 +112,8 @@ Ini bukan keluhan soal kualitas — perangkatnya luar biasa. Ini pertanyaan tent
 
 Lalu bagian yang membuatnya benar-benar sulit: kendali yang sama yang melarangmu memasang layar yang kamu beli adalah alasan headphone-mu tersambung sebelum kamu memintanya. Ambil yang satu dan kamu mengambil yang lain.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-some-people-hate-apple/
+
 Bab
 0:00 Ponsel itu milikmu
 0:39 Lubang yang menghilang
@@ -145,6 +151,8 @@ Hai pagato il tuo telefono. È tuo. E Apple decide che cosa può girarci sopra.
 Non è una lamentela sulla qualità — l'hardware è ottimo. È una domanda su a chi appartiene la cosa. Passiamo in rassegna otto casi concreti: la presa per le cuffie, il connettore che Apple ha tenuto per undici anni, l'abbinamento dei pezzi, il kit di riparazione arrivato in due casse, la memoria che non si può cambiare, la commissione dell'App Store e l'anno in cui milioni di telefoni sono stati rallentati in silenzio.
 
 E poi la parte che rende tutto questo davvero difficile: lo stesso controllo che ti impedisce di montare uno schermo che hai comprato è il motivo per cui le cuffie si collegano prima che tu l'abbia chiesto. Togli l'uno e togli anche l'altro.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-some-people-hate-apple/
 
 Capitoli
 0:00 Il telefono è tuo
@@ -184,6 +192,8 @@ Das ist keine Klage über die Qualität — die Hardware ist hervorragend. Es is
 
 Und dann der Teil, der es wirklich schwierig macht: dieselbe Kontrolle, die dich ein gekauftes Display nicht einbauen lässt, ist der Grund, warum deine Kopfhörer sich verbinden, bevor du sie darum gebeten hast. Nimm das eine weg und du nimmst auch das andere.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-some-people-hate-apple/
+
 Kapitel
 0:00 Das Handy gehört dir
 0:39 Der Anschluss, der verschwand
@@ -221,6 +231,8 @@ Zapłaciłeś za swój telefon. Jest twój. A Apple decyduje, co wolno na nim ur
 To nie jest zarzut co do jakości — sprzęt jest znakomity. To pytanie o to, do kogo ta rzecz należy. Przechodzimy przez osiem konkretnych przypadków: gniazdo słuchawkowe, złącze, które Apple trzymało jedenaście lat, parowanie części, zestaw naprawczy, który przyjechał jako dwie skrzynie transportowe, pamięć, której nie zmienisz, prowizję App Store i rok, w którym miliony telefonów po cichu spowolniono.
 
 A potem część, która czyni to naprawdę trudnym: ta sama kontrola, która nie pozwala ci zamontować kupionego ekranu, jest powodem, dla którego twoje słuchawki łączą się, zanim je o to poprosisz. Zabierz jedno, a zabierzesz i drugie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-some-people-hate-apple/
 
 Rozdziały
 0:00 Telefon jest twój
@@ -260,6 +272,8 @@ Isso não é uma reclamação sobre qualidade — o hardware é excelente. É um
 
 E então a parte que torna tudo isso realmente difícil: o mesmo controle que te impede de montar uma tela que você comprou é o motivo de os seus fones conectarem antes de você pedir. Tire um e você tira o outro.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-some-people-hate-apple/
+
 Capítulos
 0:00 O telefone é seu
 0:39 A entrada que sumiu
@@ -297,6 +311,8 @@ Telefonunun parasını sen ödedin. O senin. Ve onda neyin çalışacağına App
 Bu, kaliteyle ilgili bir şikâyet değil — donanım muhteşem. Bu, o şeyin kime ait olduğuyla ilgili bir soru. Sekiz somut örneğe bakıyoruz: kulaklık girişi, Apple'ın on bir yıl koruduğu konnektör, parça eşleştirme, iki taşıma sandığı hâlinde gelen onarım kiti, değiştirilemeyen bellek, App Store komisyonu ve milyonlarca telefonun sessizce yavaşlatıldığı yıl.
 
 Ve sonra işi gerçekten zorlaştıran kısım: satın aldığın bir ekranı takmanı engelleyen aynı kontrol, kulaklıklarının sen istemeden bağlanmasının sebebi. Birini alırsan diğerini de almış olursun.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-some-people-hate-apple/
 
 Bölümler
 0:00 Telefon senin
@@ -336,6 +352,8 @@ Music is generated procedurally for this channel.
 
 А потім частина, яка робить це справді складним: той самий контроль, який не дає тобі поставити куплений екран, і є причиною того, що твої навушники під'єднуються ще до того, як ти попросив. Прибери одне — і прибереш друге.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-some-people-hate-apple/
+
 Розділи
 0:00 Телефон твій
 0:39 Роз'єм, який зник
@@ -373,6 +391,8 @@ Bạn đã trả tiền cho chiếc điện thoại của mình. Nó là của b
 Đây không phải lời chê về chất lượng — phần cứng rất tuyệt. Đây là câu hỏi về việc thứ đó thuộc về ai. Chúng ta đi qua tám trường hợp cụ thể: giắc tai nghe, cổng kết nối Apple giữ suốt mười một năm, việc ghép đôi linh kiện, bộ dụng cụ sửa chữa gửi tới trong hai thùng vận chuyển, bộ nhớ không thể thay, mức hoa hồng của App Store, và năm mà hàng triệu chiếc máy bị làm chậm trong im lặng.
 
 Rồi đến phần khiến chuyện này thực sự khó: chính quyền kiểm soát ngăn bạn lắp màn hình mình đã mua lại là lý do tai nghe của bạn tự kết nối trước cả khi bạn yêu cầu. Bỏ cái này đi là bạn bỏ luôn cái kia.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-some-people-hate-apple/
 
 Chương
 0:00 Điện thoại là của bạn
@@ -412,6 +432,8 @@ Není to stížnost na kvalitu — hardware je znamenitý. Je to otázka, komu t
 
 A pak část, která to dělá doopravdy těžkým: tatáž kontrola, která ti nedovolí nasadit displej, který sis koupil, je důvod, proč se ti sluchátka připojí dřív, než o to požádáš. Když o jedno přijdeš, přijdeš i o druhé.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-some-people-hate-apple/
+
 Kapitoly
 0:00 Telefon je tvůj
 0:39 Konektor, který zmizel
@@ -450,6 +472,8 @@ Esto no es una queja sobre la calidad — el hardware es excelente. Es una pregu
 
 Y luego la parte que lo hace de verdad difícil: el mismo control que te impide montar una pantalla que compraste es la razón de que tus auriculares se conecten antes de que se lo pidas. Quita uno y pierdes el otro.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-some-people-hate-apple/
+
 Capítulos
 0:00 El teléfono es tuyo
 0:39 El conector que desapareció
@@ -487,6 +511,8 @@ Du har betalat för din telefon. Den är din. Och Apple bestämmer vad som får 
 Det här är ingen klagan på kvaliteten — hårdvaran är utmärkt. Det är en fråga om vem saken tillhör. Vi går igenom åtta konkreta fall: hörlursuttaget, kontakten Apple behöll i elva år, parkopplingen av delar, reparationssatsen som kom i två flightcase, minnet som inte går att byta, App Store-provisionen och året då miljontals telefoner tyst bromsades.
 
 Och sedan den del som gör det här verkligt svårt: samma kontroll som hindrar dig från att sätta i en skärm du köpt är skälet till att dina hörlurar kopplar upp sig innan du har bett om det. Ta bort det ena och du tar bort det andra.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-some-people-hate-apple/
 
 Kapitel
 0:00 Telefonen är din

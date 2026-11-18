@@ -37,6 +37,8 @@ Lähteet: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-humans-keep-inventing-drugs/
+
 LUVUT
 00:00 Tupakansiemeniä muinaisen nuotion äärellä
 01:04 Kasvit taistelevat kemialla
@@ -74,6 +76,8 @@ Cette vidéo parle de chenilles et d'abeilles nourries à la caféine, de la fa�
 Sources : Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (2010); McGovern et al., PNAS (2004); Ren et al., Science Advances (2019); Nathanson, Science (1984); Nathanson et al., PNAS (1993); Wright et al., Science (2013); Carrigan et al., PNAS (2015); Anthony, Warner & Kessler, Experimental and Clinical Psychopharmacology (1994); Lasker Foundation, Opiate receptors and enkephalins; Devane et al., Science (1992); European Union Drugs Agency, European Drug Report (2025); Australian Therapeutic Goods Administration, psilocybin and MDMA rescheduling (2023).
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-humans-keep-inventing-drugs/
 
 CHAPITRES
 00:00 Des graines de tabac près d'un feu ancien
@@ -113,6 +117,8 @@ Sumber: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-humans-keep-inventing-drugs/
+
 BAB
 00:00 Biji tembakau di dekat api unggun kuno
 01:04 Tanaman bertarung dengan kimia
@@ -150,6 +156,8 @@ Il video racconta di bruchi e api nutriti con la caffeina, di come le droghe abb
 Fonti: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (2010); McGovern et al., PNAS (2004); Ren et al., Science Advances (2019); Nathanson, Science (1984); Nathanson et al., PNAS (1993); Wright et al., Science (2013); Carrigan et al., PNAS (2015); Anthony, Warner & Kessler, Experimental and Clinical Psychopharmacology (1994); Lasker Foundation, Opiate receptors and enkephalins; Devane et al., Science (1992); European Union Drugs Agency, European Drug Report (2025); Australian Therapeutic Goods Administration, psilocybin and MDMA rescheduling (2023).
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-humans-keep-inventing-drugs/
 
 CAPITOLI
 00:00 Semi di tabacco accanto a un fuoco antico
@@ -189,6 +197,8 @@ Quellen: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity 
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-humans-keep-inventing-drugs/
+
 KAPITEL
 00:00 Tabaksamen an einem uralten Feuer
 01:04 Pflanzen kämpfen mit Chemie
@@ -226,6 +236,8 @@ W filmie: gąsienice i pszczoły karmione kofeiną, jak narkotyki doprowadziły 
 Źródła: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (2010); McGovern et al., PNAS (2004); Ren et al., Science Advances (2019); Nathanson, Science (1984); Nathanson et al., PNAS (1993); Wright et al., Science (2013); Carrigan et al., PNAS (2015); Anthony, Warner & Kessler, Experimental and Clinical Psychopharmacology (1994); Lasker Foundation, Opiate receptors and enkephalins; Devane et al., Science (1992); European Union Drugs Agency, European Drug Report (2025); Australian Therapeutic Goods Administration, psilocybin and MDMA rescheduling (2023).
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-humans-keep-inventing-drugs/
 
 ROZDZIAŁY
 00:00 Nasiona tytoniu przy pradawnym ognisku
@@ -265,6 +277,8 @@ Fontes: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-humans-keep-inventing-drugs/
+
 CAPÍTULOS
 00:00 Sementes de tabaco perto de uma fogueira antiga
 01:04 As plantas lutam com química
@@ -302,6 +316,8 @@ Bu videoda kafein verilen tırtıllar ve arılar, uyuşturucuların bilim insanl
 Kaynaklar: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (2010); McGovern et al., PNAS (2004); Ren et al., Science Advances (2019); Nathanson, Science (1984); Nathanson et al., PNAS (1993); Wright et al., Science (2013); Carrigan et al., PNAS (2015); Anthony, Warner & Kessler, Experimental and Clinical Psychopharmacology (1994); Lasker Foundation, Opiate receptors and enkephalins; Devane et al., Science (1992); European Union Drugs Agency, European Drug Report (2025); Australian Therapeutic Goods Administration, psilocybin and MDMA rescheduling (2023).
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-humans-keep-inventing-drugs/
 
 BÖLÜMLER
 00:00 Eski bir ateşin başında tütün tohumları
@@ -341,6 +357,8 @@ Tüm arşiv görselleri kamu malıdır, via Wikimedia Commons.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-humans-keep-inventing-drugs/
+
 РОЗДІЛИ
 00:00 Насіння тютюну біля давнього вогнища
 01:04 Рослини воюють хімією
@@ -378,6 +396,8 @@ Video này nói về những con sâu bướm và ong được cho caffeine, cá
 Nguồn: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (2010); McGovern et al., PNAS (2004); Ren et al., Science Advances (2019); Nathanson, Science (1984); Nathanson et al., PNAS (1993); Wright et al., Science (2013); Carrigan et al., PNAS (2015); Anthony, Warner & Kessler, Experimental and Clinical Psychopharmacology (1994); Lasker Foundation, Opiate receptors and enkephalins; Devane et al., Science (1992); European Union Drugs Agency, European Drug Report (2025); Australian Therapeutic Goods Administration, psilocybin and MDMA rescheduling (2023).
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-humans-keep-inventing-drugs/
 
 CHƯƠNG
 00:00 Hạt thuốc lá bên đống lửa cổ xưa
@@ -417,6 +437,8 @@ Zdroje: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-humans-keep-inventing-drugs/
+
 KAPITOLY
 00:00 Semínka tabáku u pravěkého ohně
 01:04 Rostliny bojují chemií
@@ -455,6 +477,8 @@ Fuentes: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-humans-keep-inventing-drugs/
+
 CAPÍTULOS
 00:00 Semillas de tabaco junto a una hoguera antigua
 01:04 Las plantas luchan con química
@@ -492,6 +516,8 @@ Videon tar upp fjärilslarver och bin som fått koffein, hur droger ledde forska
 Källor: Duke et al., Nature Human Behaviour (2021); Dillehay et al., Antiquity (2010); McGovern et al., PNAS (2004); Ren et al., Science Advances (2019); Nathanson, Science (1984); Nathanson et al., PNAS (1993); Wright et al., Science (2013); Carrigan et al., PNAS (2015); Anthony, Warner & Kessler, Experimental and Clinical Psychopharmacology (1994); Lasker Foundation, Opiate receptors and enkephalins; Devane et al., Science (1992); European Union Drugs Agency, European Drug Report (2025); Australian Therapeutic Goods Administration, psilocybin and MDMA rescheduling (2023).
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-humans-keep-inventing-drugs/
 
 KAPITEL
 00:00 Tobaksfrön vid en uråldrig eld

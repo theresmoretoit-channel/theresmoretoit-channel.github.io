@@ -67,6 +67,8 @@ Ja sitten se osa, jossa alan molemmat puoliskot päätyvät samaan liikkeeseen. 
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-5mb-become-terabytes/
+
 Luvut
 00:00 Kone joka painoi tonnin
 00:27 Tuhat vastaan miljardi
@@ -112,6 +114,8 @@ Sur le disque livré en 1956, un centimètre carré contenait trois cents bits. 
 Et puis la partie où les deux moitiés de l'industrie riment. Quand le bit n'a plus pu rapetisser, on l'a mis debout. Quand la cellule flash n'a plus pu rapetisser, on a empilé les cellules. Des matériaux différents, une physique différente, des entreprises différentes — et le même geste.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en deuxième piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-5mb-become-terabytes/
 
 Chapitres
 00:00 La machine qui pesait une tonne
@@ -159,6 +163,8 @@ Lalu bagian yang membuat kedua sisi industri ini berima. Ketika bit tidak bisa l
 
 Subtitel ditulis khusus untuk video ini, bukan hasil otomatis. Tersedia juga trek audio bahasa Inggris Amerika sebagai trek kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-5mb-become-terabytes/
+
 Bab
 00:00 Mesin seberat satu ton
 00:27 Seribu lawan satu miliar
@@ -204,6 +210,8 @@ Sul disco consegnato nel 1956, un centimetro quadrato conteneva trecento bit. Un
 E poi la parte in cui le due metà dell'industria fanno rima. Quando il bit non poteva più rimpicciolirsi, il bit è stato messo in piedi. Quando la cella flash non poteva più rimpicciolirsi, le celle sono state impilate. Materiali diversi, fisica diversa, aziende diverse — e la stessa mossa.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. È disponibile una traccia audio in inglese americano come seconda traccia.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-5mb-become-terabytes/
 
 Capitoli
 00:00 La macchina che pesava una tonnellata
@@ -251,6 +259,8 @@ Und dann der Teil, in dem sich beide Hälften der Branche reimen. Als das Bit ni
 
 Die Untertitel sind für dieses Video geschrieben, nicht automatisch erzeugt. Eine amerikanisch-englische Tonspur steht als zweite Tonspur zur Verfügung.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-5mb-become-terabytes/
+
 Kapitel
 00:00 Die Maschine, die eine Tonne wog
 00:27 Tausend gegen eine Milliarde
@@ -296,6 +306,8 @@ Na talerzu z 1956 roku jeden centymetr kwadratowy mieścił trzysta bitów. Dzis
 A potem część, w której obie połowy branży się rymują. Kiedy bit nie mógł być mniejszy, postawiono go na sztorc. Kiedy komórka flash nie mogła być mniejsza, ułożono komórki w stos. Inne materiały, inna fizyka, inne firmy — i ten sam ruch.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Dostępna jest też ścieżka dźwiękowa w amerykańskiej angielszczyźnie jako druga ścieżka.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-5mb-become-terabytes/
 
 Rozdziały
 00:00 Maszyna, która ważyła tonę
@@ -343,6 +355,8 @@ E depois a parte em que as duas metades da indústria rimam. Quando o bit não p
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Há também uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-5mb-become-terabytes/
+
 Capítulos
 00:00 A máquina que pesava uma tonelada
 00:27 Mil contra um bilhão
@@ -388,6 +402,8 @@ Akla ilk gelen açıklama, küçük makineler yapmayı öğrendiğimiz. Bu doğr
 Sonra da sektörün iki yarısının aynı kafiyeye düştüğü kısım. Bit daha fazla küçülemeyince bit dik durduruldu. Flash hücresi daha fazla küçülemeyince hücreler üst üste yığıldı. Farklı malzemeler, farklı fizik, farklı şirketler — ve aynı hamle.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-5mb-become-terabytes/
 
 Bölümler
 00:00 Bir ton ağırlığındaki makine
@@ -435,6 +451,8 @@ Lisanslar: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані саме для цього відео, а не згенеровані автоматично. Другою звуковою доріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-5mb-become-terabytes/
+
 Розділи
 00:00 Машина, що важила тонну
 00:27 Тисяча проти мільярда
@@ -480,6 +498,8 @@ Trên chiếc đĩa của năm 1956, một centimet vuông chứa được ba tr
 Rồi tới phần mà cả hai nửa của ngành này gieo cùng một vần. Khi bit không thể nhỏ hơn nữa, người ta dựng đứng bit lên. Khi ô nhớ flash không thể nhỏ hơn nữa, người ta xếp chồng các ô. Vật liệu khác nhau, vật lý khác nhau, công ty khác nhau — và cùng một nước đi.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thêm một bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-5mb-become-terabytes/
 
 Các phần
 00:00 Cỗ máy nặng một tấn
@@ -527,6 +547,8 @@ A pak část, ve které se obě poloviny oboru rýmují. Když nešlo bit dál z
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-5mb-become-terabytes/
+
 Kapitoly
 00:00 Stroj, který vážil tunu
 00:27 Tisíc proti miliardě
@@ -573,6 +595,8 @@ Y luego la parte en la que las dos mitades de la industria riman. Cuando el bit 
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Hay una pista de audio en inglés americano como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-5mb-become-terabytes/
+
 Capítulos
 00:00 La máquina que pesaba una tonelada
 00:27 Mil contra mil millones
@@ -618,6 +642,8 @@ På skivan från 1956 rymde en kvadratcentimeter trehundra bitar. En modern disk
 Och sedan delen där branschens båda halvor rimmar. När biten inte kunde bli mindre ställdes biten upprätt. När flashcellen inte kunde bli mindre staplades cellerna. Olika material, olika fysik, olika företag — och samma drag.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett amerikanskt engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-5mb-become-terabytes/
 
 Kapitel
 00:00 Maskinen som vägde ett ton

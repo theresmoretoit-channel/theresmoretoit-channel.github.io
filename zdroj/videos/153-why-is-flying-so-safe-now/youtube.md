@@ -61,6 +61,8 @@ Sources: Barnett & Reig Torra, Airline safety: Still getting better?, Journal of
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-flying-so-safe-now/
+
 CHAPTERS
 00:00 Forty times safer
 00:55 "Too much airplane"

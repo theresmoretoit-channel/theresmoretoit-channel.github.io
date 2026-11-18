@@ -71,6 +71,8 @@ Sources: North Atlantic Treaty (1949), Article 5; NATO, Collective defence and A
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-happens-when-your-allies-stop-trusting-you/
+
 CHAPTERS
 00:00 Article 5, invoked once
 00:57 An ally doing the maths

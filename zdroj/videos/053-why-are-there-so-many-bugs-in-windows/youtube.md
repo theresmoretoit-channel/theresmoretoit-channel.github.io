@@ -48,6 +48,8 @@ layers that nobody is allowed to remove, what that does to testing, and
 why the deepest part of Windows might be the least embarrassing part of
 it.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-are-there-so-many-bugs-in-windows/
+
 Chapters:
 0:00 One batch, one Tuesday
 0:47 The cursor from 1998

@@ -44,6 +44,8 @@ Se muuttaa sen, mitä tekoäly on. Chatbotti vastaa. Agentti saa tavoitteen, sel
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-happens-when-ai-stops-being-a-tool/
+
 LUVUT
 00:00 Toisenlainen tapa mitata tekoälyä
 01:04 Erittäin kyvykäs työkalu
@@ -70,6 +72,8 @@ Les chercheurs de METR mesurent l’IA d’une façon inhabituelle : pas selon s
 Ça change ce qu’est l’IA. Un chatbot répond. Un agent reçoit un objectif, un navigateur, des fichiers et un terminal, et il agit. En juillet 2025, un agent de codage IA a effacé une base de données de production en plein gel du code. Alors, quand un agent agit, qui lui donne vraiment les instructions ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-happens-when-ai-stops-being-a-tool/
 
 CHAPITRES
 00:00 Une autre façon de mesurer l’IA
@@ -98,6 +102,8 @@ Itu mengubah hakikat AI. Chatbot menjawab. Agen diberi tujuan, browser, file, da
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-happens-when-ai-stops-being-a-tool/
+
 BAB
 00:00 Cara lain mengukur AI
 01:04 Alat yang sangat mumpuni
@@ -124,6 +130,8 @@ I ricercatori di METR misurano l’IA in un modo insolito: non da quanto è inte
 Questo cambia che cosa è l’IA. Un chatbot risponde. Un agente riceve un obiettivo, un browser, dei file e un terminale, e agisce. A luglio 2025 un agente IA di programmazione ha cancellato un database di produzione nel pieno di un congelamento del codice. Allora, quando un agente agisce, chi gli sta davvero dando le istruzioni?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-happens-when-ai-stops-being-a-tool/
 
 CAPITOLI
 00:00 Un altro modo di misurare l’IA
@@ -152,6 +160,8 @@ Das verändert, was KI ist. Ein Chatbot antwortet. Ein Agent bekommt ein Ziel, e
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-happens-when-ai-stops-being-a-tool/
+
 KAPITEL
 00:00 Eine andere Art, KI zu messen
 01:04 Ein sehr fähiges Werkzeug
@@ -178,6 +188,8 @@ Badacze z METR mierzą AI w nietypowy sposób: nie tym, jak jest mądra, ale tym
 To zmienia to, czym jest AI. Chatbot odpowiada. Agent dostaje cel, przeglądarkę, pliki i terminal – i działa. W lipcu 2025 roku agent AI do programowania wyczyścił produkcyjną bazę danych w trakcie zamrożenia kodu. Kto więc właściwie wydaje polecenia, kiedy agent działa?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-happens-when-ai-stops-being-a-tool/
 
 ROZDZIAŁY
 00:00 Inny sposób mierzenia AI
@@ -206,6 +218,8 @@ Isso muda o que a IA é. Um chatbot responde. Um agente recebe um objetivo, um n
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-happens-when-ai-stops-being-a-tool/
+
 CAPÍTULOS
 00:00 Outro jeito de medir a IA
 01:04 Uma ferramenta muito capaz
@@ -232,6 +246,8 @@ METR’deki araştırmacılar yapay zekâyı alışılmadık bir şekilde ölç�
 Bu, yapay zekânın ne olduğunu değiştiriyor. Sohbet botu cevap verir. Ajana ise bir hedef, bir tarayıcı, dosyalar ve bir terminal verilir; o da harekete geçer. Temmuz 2025’te bir yapay zekâ kodlama ajanı, kod dondurmanın tam ortasında canlı bir veritabanını sildi. Peki bir ajan harekete geçtiğinde talimatları aslında kim veriyor?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-happens-when-ai-stops-being-a-tool/
 
 BÖLÜMLER
 00:00 Yapay zekâyı ölçmenin başka bir yolu
@@ -260,6 +276,8 @@ BÖLÜMLER
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-happens-when-ai-stops-being-a-tool/
+
 РОЗДІЛИ
 00:00 Інший спосіб вимірювати ШІ
 01:04 Дуже потужний інструмент
@@ -286,6 +304,8 @@ Các nhà nghiên cứu ở METR đo AI theo một cách khác thường: không
 Điều đó thay đổi bản chất của AI. Chatbot thì trả lời. Còn tác nhân được giao một mục tiêu, một trình duyệt, các tệp và một terminal, rồi tự hành động. Tháng 7 năm 2025, một tác nhân lập trình AI đã xóa sạch một cơ sở dữ liệu production ngay giữa đợt đóng băng mã nguồn. Vậy khi một tác nhân hành động, ai mới thực sự là người ra lệnh?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-happens-when-ai-stops-being-a-tool/
 
 CHƯƠNG
 00:00 Một cách khác để đo AI
@@ -314,6 +334,8 @@ To mění, čím AI je. Chatbot odpovídá. Agent dostane cíl, prohlížeč, so
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-happens-when-ai-stops-being-a-tool/
+
 KAPITOLY
 00:00 Jiný způsob, jak měřit AI
 01:04 Velmi schopný nástroj
@@ -341,6 +363,8 @@ Eso cambia lo que es la IA. Un chatbot responde. Un agente recibe un objetivo, u
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-happens-when-ai-stops-being-a-tool/
+
 CAPÍTULOS
 00:00 Otra forma de medir la IA
 01:04 Una herramienta muy capaz
@@ -367,6 +391,8 @@ Forskare på METR mäter AI på ett ovanligt sätt: inte efter hur smart den är
 Det förändrar vad AI är. En chattbot svarar. En agent får ett mål, en webbläsare, filer och en terminal – och agerar. I juli 2025 raderade en AI-kodagent en produktionsdatabas mitt under en kodfrysning. Så när en agent agerar, vem är det egentligen som ger instruktionerna?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-happens-when-ai-stops-being-a-tool/
 
 KAPITEL
 00:00 Ett annat sätt att mäta AI

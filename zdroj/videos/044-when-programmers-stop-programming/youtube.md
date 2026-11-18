@@ -38,6 +38,8 @@ But the interesting part is not whether you still have a job. We spent decades t
 
 This video follows the promise that programming would be eliminated, from a 1954 IBM report that said FORTRAN "should virtually eliminate coding and debugging", through COBOL and a 1982 book literally called Application Development Without Programmers, to what actually happened to the job — which is stranger than it looks. In 2003 the American labour survey added a second job title next to the old one, and today there are roughly six software developers for every one computer programmer. The work did not disappear. It got renamed.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/when-programmers-stop-programming/
+
 Chapters:
 0:00 Nothing left to write
 1:10 What was readability for?

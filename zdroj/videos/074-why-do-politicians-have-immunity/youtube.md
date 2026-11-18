@@ -68,6 +68,8 @@ verdict; it paused the case for the rest of his term.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-politicians-have-immunity/
+
 CHAPTERS
 00:00 January 1642
 01:00 Why parliaments need protection

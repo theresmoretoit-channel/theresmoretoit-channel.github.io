@@ -46,6 +46,8 @@ Se alkoi vuonna 1991 yhden opiskelijan harrasteprojektina. Nykyään se on puhel
 
 Linux ei oikeastaan ole yksi käyttöjärjestelmä. Se on ydin: rakennuspalikka, jonka ympärille voi rakentaa melkein mitä tahansa. Siksi se ilmestyy paikkoihin, jotka vaikuttavat täysin toisiinsa liittymättömiltä — ja siksi olet lähes varmasti käyttänyt sitä koskaan valitsematta sitä.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/you-probably-use-linux-already/
+
 LUVUT
 0:00 Stereotypia
 0:48 1991: harrasteprojekti
@@ -104,6 +106,8 @@ brique de base autour de laquelle on peut construire presque n'importe quoi.
 D'où sa présence dans des endroits qui semblent n'avoir aucun rapport — et
 la quasi-certitude que vous l'avez déjà utilisé sans jamais l'avoir choisi.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/you-probably-use-linux-already/
+
 CHAPITRES
 0:00 Le cliché
 0:48 1991 : un projet de loisir
@@ -151,6 +155,8 @@ Kalau kamu bukan programmer, kamu mungkin mengira Linux adalah terminal hitam pe
 Semuanya dimulai pada 1991 sebagai proyek iseng seorang mahasiswa. Kini Linux ada di ponselmu, routermu, televisimu, di server-server di balik sebagian besar web, di seluruh lima ratus superkomputer terkuat di dunia — dan di komputer penerbangan sebuah helikopter yang terbang di Mars.
 
 Linux sebenarnya bukan satu sistem operasi. Ia sebuah kernel: komponen dasar yang bisa kamu gunakan untuk membangun hampir apa saja. Itulah kenapa ia muncul di tempat-tempat yang tampak sama sekali tidak berhubungan — dan kenapa kamu hampir pasti pernah memakainya tanpa pernah memilihnya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/you-probably-use-linux-already/
 
 BAB
 0:00 Stereotipnya
@@ -207,6 +213,8 @@ Linux non è davvero un sistema operativo. È un nucleo: un mattone attorno
 al quale si può costruire quasi tutto. Per questo compare in posti che
 sembrano non c'entrare nulla — ed è quasi certo che tu lo abbia già usato
 senza averlo mai scelto.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/you-probably-use-linux-already/
 
 CAPITOLI
 0:00 Il luogo comune
@@ -265,6 +273,8 @@ Baustein, um den herum sich fast alles bauen lässt. Deshalb taucht es an
 Orten auf, die scheinbar nichts miteinander zu tun haben — und deshalb hast
 du es mit ziemlicher Sicherheit längst benutzt, ohne es je zu wählen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/you-probably-use-linux-already/
+
 KAPITEL
 0:00 Das Klischee
 0:48 1991: ein Hobbyprojekt
@@ -320,6 +330,8 @@ Linux właściwie nie jest systemem operacyjnym. To jądro: klocek, wokół
 którego można zbudować niemal wszystko. Dlatego pojawia się w miejscach,
 które zdają się nie mieć ze sobą nic wspólnego — i dlatego prawie na pewno
 już go używałeś, nigdy go nie wybierając.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/you-probably-use-linux-already/
 
 ROZDZIAŁY
 0:00 Stereotyp
@@ -377,6 +389,8 @@ qual dá para construir quase tudo. Por isso ele aparece em lugares que
 parecem não ter nada a ver — e por isso é quase certo que você já o usou sem
 nunca tê-lo escolhido.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/you-probably-use-linux-already/
+
 CAPÍTULOS
 0:00 O estereótipo
 0:48 1991: um passatempo
@@ -424,6 +438,8 @@ Programcı değilsen, Linux’un metinle dolu siyah bir terminal olduğunu düş
 1991’de tek bir öğrencinin hobi projesi olarak başladı. Bugün telefonunda, yönlendiricinde, televizyonunda, web’in çoğunun arkasındaki sunucularda, dünyanın en güçlü beş yüz süper bilgisayarının hepsinde — ve Mars’ta uçmuş bir helikopterin uçuş bilgisayarında.
 
 Linux aslında tek bir işletim sistemi değil. O bir çekirdek: üzerine neredeyse her şeyi inşa edebileceğin bir yapı taşı. Bu yüzden birbiriyle hiç ilgisiz görünen yerlerde karşına çıkıyor — ve bu yüzden onu neredeyse kesinlikle, hiç seçmeden kullanmış oluyorsun.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/you-probably-use-linux-already/
 
 BÖLÜMLER
 0:00 Klişe
@@ -474,6 +490,8 @@ Linux — ти ним, найімовірніше, уже користуєшся
 
 Linux насправді не є однією операційною системою. Це ядро: будівельний блок, навколо якого можна побудувати майже будь-що. Саме тому він з’являється в місцях, які здаються геть не пов’язаними, — і саме тому ти майже напевно ним користувався, ніколи його не обираючи.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/you-probably-use-linux-already/
+
 РОЗДІЛИ
 0:00 Стереотип
 0:48 1991: аматорський проєкт
@@ -522,6 +540,8 @@ Nếu bạn không phải lập trình viên, hẳn bạn nghĩ Linux là một 
 Linux ra đời năm 1991 từ một dự án làm vì sở thích của một sinh viên. Ngày nay, Linux có mặt trong điện thoại của bạn, bộ định tuyến của bạn, chiếc tivi của bạn, trong các máy chủ đứng sau phần lớn web, trong toàn bộ năm trăm siêu máy tính mạnh nhất thế giới — và trong máy tính điều khiển bay của một chiếc trực thăng từng bay trên sao Hỏa.
 
 Linux thật ra không phải một hệ điều hành. Nó là một nhân: một thành phần nền tảng để bạn xây dựng gần như bất cứ thứ gì. Đó là lý do nó xuất hiện ở những nơi trông chẳng liên quan gì đến nhau — và là lý do gần như chắc chắn bạn đã dùng nó mà chưa từng chọn nó.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/you-probably-use-linux-already/
 
 CÁC CHƯƠNG
 0:00 Định kiến
@@ -579,6 +599,8 @@ kterého se dá postavit skoro cokoli. Proto se objevuje na místech, která
 spolu vůbec nesouvisejí — a proto jste ho skoro jistě už použili, aniž
 byste si ho kdy vybrali.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/you-probably-use-linux-already/
+
 KAPITOLY
 0:00 Klišé
 0:48 1991: koníček
@@ -635,6 +657,8 @@ la que se puede construir casi cualquier cosa. Por eso aparece en lugares
 que no parecen tener nada que ver — y por eso es casi seguro que ya lo has
 usado sin haberlo elegido nunca.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/you-probably-use-linux-already/
+
 CAPÍTULOS
 0:00 El tópico
 0:48 1991: un pasatiempo
@@ -689,6 +713,8 @@ Linux är egentligen inget operativsystem. Det är en kärna: en byggsten som
 man kan bygga nästan vad som helst omkring. Därför dyker det upp på ställen
 som verkar helt orelaterade — och därför har du med största sannolikhet
 redan använt det utan att någonsin ha valt det.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/you-probably-use-linux-already/
 
 KAPITEL
 0:00 Klichén

@@ -80,6 +80,8 @@ and creativecommons.org/licenses/by-sa/2.0
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-vegetable-just-tomatoes-and-cucumbers/
+
 CHAPTERS
 0:00 Intro
 1:01 Somebody actually measured it

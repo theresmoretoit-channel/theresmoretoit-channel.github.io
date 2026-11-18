@@ -51,6 +51,8 @@ Tekijänoikeus rakennettiin vaihtokaupaksi: väliaikainen monopoli vastineeksi u
 
 Matkan varrella: miksi kappale ei ole yksi asia, mistä Blurred Linesin eriävä mielipide oikeastaan varoitti, miksi pelikonsolin koodin kopiointi laskettiin kohtuulliseksi käytöksi (fair use) vuonna 1992, mikä ratkaisi Google v. Oracle -tapauksen, ja miksi pakkolisensointi ei ole ajatuskoe — se on ollut laki vuodesta 1909.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/does-copyright-hold-back-progress/
+
 LUVUT
 0:00 Äänite, jota kukaan ei voi käyttää
 0:40 Miksi tekijänoikeus on olemassa
@@ -107,6 +109,8 @@ en 1992, sur quoi s'est joué Google v. Oracle, et pourquoi la licence
 obligatoire n'est pas une expérience de pensée — elle est la loi depuis
 1909.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/does-copyright-hold-back-progress/
+
 CHAPITRES
 0:00 Un enregistrement que personne ne peut utiliser
 0:40 Pourquoi le droit d'auteur existe
@@ -158,6 +162,8 @@ Sebuah rekaman dari 1950. Tidak ada yang menjualnya. Labelnya sudah tidak ada. M
 Hak cipta dibangun sebagai sebuah pertukaran: monopoli sementara sebagai imbalan atas lebih banyak karya. Video ini bertanya apa yang terjadi ketika "sementara" ternyata berarti seumur hidup penciptanya ditambah tujuh puluh tahun — dan berapa harga yang dibayar orang-orang yang ingin membangun di atas apa yang sudah ada.
 
 Sepanjang video: kenapa sebuah lagu bukan satu benda, apa yang sebenarnya diperingatkan oleh pendapat berbeda dalam kasus Blurred Lines, kenapa menyalin kode sebuah konsol game dihitung sebagai penggunaan wajar pada 1992, apa yang menentukan putusan Google v. Oracle, dan kenapa lisensi wajib bukan eksperimen pikiran — itu sudah jadi hukum sejak 1909.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/does-copyright-hold-back-progress/
 
 BAB
 0:00 Rekaman yang tidak bisa dipakai siapa pun
@@ -212,6 +218,8 @@ metteva davvero in guardia l'opinione dissenziente di Blurred Lines,
 perché copiare il codice di una console fu considerato fair use nel 1992,
 su cosa si giocò Google v. Oracle, e perché la licenza obbligatoria non è
 un esperimento mentale — è legge dal 1909.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/does-copyright-hold-back-progress/
 
 CAPITOLI
 0:00 Una registrazione che nessuno può usare
@@ -279,6 +287,8 @@ Spielkonsole 1992 als Fair Use galt, worauf es bei Google v. Oracle
 ankam, und warum die Zwangslizenz kein Gedankenexperiment ist — sie ist
 seit 1909 Gesetz.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/does-copyright-hold-back-progress/
+
 KAPITEL
 0:00 Eine Aufnahme, die niemand verwenden kann
 0:40 Warum es das Urheberrecht gibt
@@ -343,6 +353,8 @@ ostrzegało zdanie odrębne w sprawie Blurred Lines, dlaczego skopiowanie
 kodu konsoli do gier uznano w 1992 roku za dozwolony użytek, o co
 naprawdę chodziło w sprawie Google v. Oracle i dlaczego licencja
 przymusowa nie jest eksperymentem myślowym — jest prawem od 1909 roku.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/does-copyright-hold-back-progress/
 
 ROZDZIAŁY
 0:00 Nagranie, którego nikt nie może użyć
@@ -410,6 +422,8 @@ de um console de videogame contou como fair use em 1992, do que dependeu
 Google v. Oracle, e por que a licença compulsória não é um experimento
 mental — é lei desde 1909.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/does-copyright-hold-back-progress/
+
 CAPÍTULOS
 0:00 Uma gravação que ninguém pode usar
 0:40 Por que o direito autoral existe
@@ -462,6 +476,8 @@ Telif hakkı bir takas olarak kuruldu: daha fazla üretim karşılığında geç
 
 Bu bölümde ayrıca: bir şarkının neden tek bir şey olmadığı, Blurred Lines davasındaki karşı oy yazısında aslında hangi tehlikeye dikkat çekildiği, bir oyun konsolunun kodunu kopyalamanın 1992’de neden adil kullanım sayıldığı, Google v. Oracle davasının neye dayandığı ve zorunlu lisanslamanın neden bir düşünce deneyi olmadığı — 1909’dan beri yasa.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/does-copyright-hold-back-progress/
+
 BÖLÜMLER
 0:00 Kimsenin kullanamadığı bir kayıt
 0:40 Telif hakkı neden var
@@ -503,6 +519,8 @@ Diğer bütün görseller bu video için çizildi.
 
 Також у відео: чому пісня не є однією річчю, про що насправді застерігала окрема думка у справі Blurred Lines, чому копіювання коду ігрової консолі визнали добросовісним використанням у 1992 році, на чому трималася справа Google v. Oracle, і чому примусове ліцензування — не уявний експеримент: воно є законом від 1909 року.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/does-copyright-hold-back-progress/
+
 РОЗДІЛИ
 0:00 Запис, яким ніхто не може скористатися
 0:40 Навіщо існує авторське право
@@ -543,6 +561,8 @@ Một bản thu từ năm 1950. Chẳng ai bán nó. Hãng đĩa không còn. Ng
 Bản quyền được dựng lên như một cuộc trao đổi: một thế độc quyền tạm thời đổi lấy nhiều sáng tạo hơn. Video này hỏi chuyện gì xảy ra khi "tạm thời" hóa ra lại có nghĩa là suốt đời tác giả cộng thêm bảy mươi năm — và cái giá mà những người muốn phát triển dựa trên những gì đã có phải trả.
 
 Video cũng đề cập đến: vì sao một bài hát không phải một thứ duy nhất, ý kiến bất đồng của thẩm phán trong vụ Blurred Lines thực ra cảnh báo điều gì, vì sao việc sao chép mã của một máy chơi game lại được coi là sử dụng hợp lý năm 1992, vụ Google v. Oracle xoay quanh điều gì, và vì sao cấp phép bắt buộc không phải một thí nghiệm tư duy — nó đã là luật từ năm 1909.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/does-copyright-hold-back-progress/
 
 CÁC CHƯƠNG
 0:00 Bản thu không ai dùng được
@@ -597,6 +617,8 @@ odlišné stanovisko ve sporu Blurred Lines, proč se okopírování kódu hern�
 konzole v roce 1992 počítalo jako fair use, o co šlo ve sporu Google
 v. Oracle, a proč nucená licence není myšlenkový experiment — je to zákon
 od roku 1909.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/does-copyright-hold-back-progress/
 
 KAPITOLY
 0:00 Nahrávka, kterou nikdo nesmí použít
@@ -653,6 +675,8 @@ en realidad el voto particular de Blurred Lines, por qué copiar el código
 de una consola contó como uso legítimo en 1992, de qué dependió Google
 v. Oracle, y por qué la licencia obligatoria no es un experimento mental
 — es ley desde 1909.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/does-copyright-hold-back-progress/
 
 CAPÍTULOS
 0:00 Una grabación que nadie puede usar
@@ -718,6 +742,8 @@ i Blurred Lines faktiskt varnade för, varför det räknades som fair use
 att kopiera koden i en spelkonsol 1992, vad Google v. Oracle hängde på,
 och varför tvångslicens inte är ett tankeexperiment — den har varit lag
 sedan 1909.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/does-copyright-hold-back-progress/
 
 KAPITEL
 0:00 En inspelning ingen får använda

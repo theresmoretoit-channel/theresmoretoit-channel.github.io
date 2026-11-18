@@ -40,6 +40,8 @@ Tavallinen selitys on, että ARM on yksinkertainen ja energiatehokas, ja energia
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-did-arm-take-over-computing/
+
 LUVUT
 00:00 Siru, joka toimi ilman virtaa
 01:10 Acorn, 1983
@@ -77,6 +79,8 @@ En 1985, le premier processeur ARM a été allumé pour la toute première fois,
 L'explication habituelle, c'est qu'ARM est simple et efficace, et que l'efficacité l'emporte. Mais un cœur ARM moderne est tout sauf simple, et depuis le milieu des années 1990, les puces d'Intel lui ressemblent étonnamment à l'intérieur. Alors comment une puce d'une entreprise britannique d'ordinateurs familiaux s'est-elle retrouvée partout ?
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-did-arm-take-over-computing/
 
 CHAPITRES
 00:00 La puce qui tournait sans courant
@@ -116,6 +120,8 @@ Penjelasan yang biasa adalah bahwa ARM itu sederhana dan efisien, dan yang efisi
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-did-arm-take-over-computing/
+
 BAB
 00:00 Chip yang berjalan tanpa daya
 01:10 Acorn, 1983
@@ -153,6 +159,8 @@ Nel 1985 il primo processore ARM fu acceso per la primissima volta, e continuò 
 La spiegazione abituale è che ARM è semplice ed efficiente, e chi è efficiente vince. Ma un core ARM moderno è tutt'altro che semplice, e dalla metà degli anni '90 i chip di Intel, al loro interno, gli somigliano in modo sorprendente. Allora come ha fatto un chip di un'azienda britannica di home computer a finire ovunque?
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-did-arm-take-over-computing/
 
 CAPITOLI
 00:00 Il chip che funzionava senza corrente
@@ -192,6 +200,8 @@ Die übliche Erklärung lautet: ARM ist einfach und effizient, und effizient gew
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-did-arm-take-over-computing/
+
 KAPITEL
 00:00 Der Chip, der ohne Strom lief
 01:10 Acorn, 1983
@@ -229,6 +239,8 @@ W 1985 roku pierwszy procesor ARM został włączony po raz pierwszy i działał
 Zwykłe wyjaśnienie brzmi: ARM jest prosty i efektywny, a efektywny wygrywa. Tyle że nowoczesny rdzeń ARM wcale nie jest prosty, a od połowy lat 90. układy Intela wyglądają w środku zaskakująco podobnie. Jak więc układ z brytyjskiej firmy od komputerów domowych znalazł się wszędzie?
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-did-arm-take-over-computing/
 
 ROZDZIAŁY
 00:00 Układ, który działał bez zasilania
@@ -268,6 +280,8 @@ A explicação de sempre é que o ARM é simples e eficiente, e o eficiente venc
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-did-arm-take-over-computing/
+
 CAPÍTULOS
 00:00 O chip que funcionava sem energia
 01:10 Acorn, 1983
@@ -305,6 +319,8 @@ ARM bilgisayar dünyasını nasıl ele geçirdi?
 Yaygın açıklama şu: ARM basit ve verimli, verimli olan da kazanır. Ama modern bir ARM çekirdeği basit olmaktan çok uzak ve 1990'ların ortasından beri Intel'in çiplerinin iç yapısı da şaşırtıcı derecede benziyor. Peki İngiliz bir ev bilgisayarı şirketinin çipi nasıl her yere girdi?
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-did-arm-take-over-computing/
 
 BÖLÜMLER
 00:00 Elektrik olmadan çalışan çip
@@ -344,6 +360,8 @@ Licences: creativecommons.org/licenses/by-sa/4.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-did-arm-take-over-computing/
+
 РОЗДІЛИ
 00:00 Чип, що працював без живлення
 01:10 Acorn, 1983
@@ -381,6 +399,8 @@ Năm 1985, bộ xử lý ARM đầu tiên được bật lên lần đầu tiên
 Cách giải thích thường gặp là ARM đơn giản và hiệu quả, và hiệu quả thì chiến thắng. Nhưng một lõi ARM hiện đại chẳng hề đơn giản chút nào, và từ giữa thập niên 1990, bên trong các con chip của Intel cũng trông giống đến bất ngờ. Vậy làm thế nào một con chip của một công ty máy tính gia đình ở Anh lại có mặt ở khắp nơi?
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-did-arm-take-over-computing/
 
 CHƯƠNG
 00:00 Con chip chạy khi chưa nối nguồn điện
@@ -420,6 +440,8 @@ Obvyklé vysvětlení zní, že ARM je jednoduchý a efektivní a efektivní vyh
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-did-arm-take-over-computing/
+
 KAPITOLY
 00:00 Čip, který běžel bez napájení
 01:10 Acorn, 1983
@@ -458,6 +480,8 @@ La explicación habitual es que ARM es sencillo y eficiente, y lo eficiente gana
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-did-arm-take-over-computing/
+
 CAPÍTULOS
 00:00 El chip que funcionaba sin corriente
 01:10 Acorn, 1983
@@ -495,6 +519,8 @@ Hur tog ARM över datorvärlden?
 Den vanliga förklaringen är att ARM är enkelt och effektivt, och effektivt vinner. Men en modern ARM-kärna är allt annat än enkel, och sedan mitten av 1990-talet ser Intels chip förvånansvärt likartade ut inuti. Så hur hamnade ett chip från ett brittiskt hemdatorföretag överallt?
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-did-arm-take-over-computing/
 
 KAPITEL
 00:00 Chippet som gick utan ström

@@ -40,6 +40,8 @@ Lähteet: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compre
 
 Tekstitykset on kirjoitettu tätä videota varten, eivätkä ne ole automaattisesti luotuja. Toisena ääniraitana on saatavilla amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-cant-we-compress-everything/
+
 LUVUT
 00:00 Kaikki kanavan käsikirjoitukset pakattuina
 00:24 Pakkaa se uudelleen
@@ -83,6 +85,8 @@ Cette vidéo explique les deux astuces au cœur de ZIP et de gzip : les renvois 
 Sources : J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compression, IEEE Transactions on Information Theory (1977); D. A. Huffman, A Method for the Construction of Minimum-Redundancy Codes, Proceedings of the IRE (1952); G. Stix, Profile: David A. Huffman, Scientific American (1991); P. Deutsch, RFC 1951 and RFC 1952 (1996); C. E. Shannon, A Mathematical Theory of Communication (1948); C. E. Shannon, Prediction and Entropy of Printed English, Bell System Technical Journal (1951); J.-l. Gailly, comp.compression FAQ (1999); D. R. Horn et al., The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service, NSDI (2017); M. Hutter, Hutter Prize for Lossless Compression of Human Knowledge (prize.hutter1.net); M. Mahoney, Large Text Compression Benchmark; G. Delétang et al., Language Modeling Is Compression, ICLR (2024); A. N. Kolmogorov, Three Approaches to the Quantitative Definition of Information (1965); G. J. Chaitin, Information-Theoretic Limitations of Formal Systems (1974). Les mesures avec gzip et avec pi ont été réalisées pour cette vidéo.
 
 Les sous-titres ont été écrits pour cette vidéo, ils ne sont pas générés automatiquement. Une version en anglais américain est disponible en deuxième piste audio.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-cant-we-compress-everything/
 
 CHAPITRES
 00:00 Tous les scripts de la chaîne, compressés
@@ -128,6 +132,8 @@ Sumber: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compress
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-cant-we-compress-everything/
+
 BAB
 00:00 Semua naskah kanal ini, dikompresi
 00:24 Kompres sekali lagi
@@ -171,6 +177,8 @@ Il video spiega i due trucchi dentro ZIP e gzip: i rimandi al testo precedente d
 Fonti: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compression, IEEE Transactions on Information Theory (1977); D. A. Huffman, A Method for the Construction of Minimum-Redundancy Codes, Proceedings of the IRE (1952); G. Stix, Profile: David A. Huffman, Scientific American (1991); P. Deutsch, RFC 1951 and RFC 1952 (1996); C. E. Shannon, A Mathematical Theory of Communication (1948); C. E. Shannon, Prediction and Entropy of Printed English, Bell System Technical Journal (1951); J.-l. Gailly, comp.compression FAQ (1999); D. R. Horn et al., The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service, NSDI (2017); M. Hutter, Hutter Prize for Lossless Compression of Human Knowledge (prize.hutter1.net); M. Mahoney, Large Text Compression Benchmark; G. Delétang et al., Language Modeling Is Compression, ICLR (2024); A. N. Kolmogorov, Three Approaches to the Quantitative Definition of Information (1965); G. J. Chaitin, Information-Theoretic Limitations of Formal Systems (1974). Le misurazioni con gzip e con pi greco sono state fatte per questo video.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-cant-we-compress-everything/
 
 CAPITOLI
 00:00 Tutti i copioni del canale, compressi
@@ -216,6 +224,8 @@ Quellen: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compres
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Eine Tonspur in amerikanischem Englisch ist als zweite Audiospur verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-cant-we-compress-everything/
+
 KAPITEL
 00:00 Alle Skripte dieses Kanals, komprimiert
 00:24 Noch einmal komprimieren
@@ -259,6 +269,8 @@ Film omawia dwie sztuczki, na których opierają się ZIP i gzip: odwołania do 
 Źródła: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compression, IEEE Transactions on Information Theory (1977); D. A. Huffman, A Method for the Construction of Minimum-Redundancy Codes, Proceedings of the IRE (1952); G. Stix, Profile: David A. Huffman, Scientific American (1991); P. Deutsch, RFC 1951 and RFC 1952 (1996); C. E. Shannon, A Mathematical Theory of Communication (1948); C. E. Shannon, Prediction and Entropy of Printed English, Bell System Technical Journal (1951); J.-l. Gailly, comp.compression FAQ (1999); D. R. Horn et al., The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service, NSDI (2017); M. Hutter, Hutter Prize for Lossless Compression of Human Knowledge (prize.hutter1.net); M. Mahoney, Large Text Compression Benchmark; G. Delétang et al., Language Modeling Is Compression, ICLR (2024); A. N. Kolmogorov, Three Approaches to the Quantitative Definition of Information (1965); G. J. Chaitin, Information-Theoretic Limitations of Formal Systems (1974). Pomiary z gzipem i liczbą pi wykonano na potrzeby tego filmu.
 
 Napisy przygotowano specjalnie do tego filmu, nie są generowane automatycznie. Jako druga ścieżka dźwiękowa dostępna jest wersja w amerykańskim angielskim.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-cant-we-compress-everything/
 
 ROZDZIAŁY
 00:00 Wszystkie scenariusze kanału, skompresowane
@@ -304,6 +316,8 @@ Fontes: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compress
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Uma faixa de áudio em inglês americano está disponível como segunda faixa de áudio.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-cant-we-compress-everything/
+
 CAPÍTULOS
 00:00 Todos os roteiros do canal, comprimidos
 00:24 Comprimir de novo
@@ -347,6 +361,8 @@ Bu video, ZIP ve gzip’in içindeki iki hileyi anlatıyor: Jacob Ziv ile Abraha
 Kaynaklar: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compression, IEEE Transactions on Information Theory (1977); D. A. Huffman, A Method for the Construction of Minimum-Redundancy Codes, Proceedings of the IRE (1952); G. Stix, Profile: David A. Huffman, Scientific American (1991); P. Deutsch, RFC 1951 and RFC 1952 (1996); C. E. Shannon, A Mathematical Theory of Communication (1948); C. E. Shannon, Prediction and Entropy of Printed English, Bell System Technical Journal (1951); J.-l. Gailly, comp.compression FAQ (1999); D. R. Horn et al., The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service, NSDI (2017); M. Hutter, Hutter Prize for Lossless Compression of Human Knowledge (prize.hutter1.net); M. Mahoney, Large Text Compression Benchmark; G. Delétang et al., Language Modeling Is Compression, ICLR (2024); A. N. Kolmogorov, Three Approaches to the Quantitative Definition of Information (1965); G. J. Chaitin, Information-Theoretic Limitations of Formal Systems (1974). Bu video için gzip ve pi ile ölçümler yapıldı.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-cant-we-compress-everything/
 
 BÖLÜMLER
 00:00 Bu kanaldaki bütün metinler, sıkıştırılmış
@@ -392,6 +408,8 @@ Claude Shannon portresi — MIT Photo Service, kamu malı
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Як друга звукова доріжка доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-cant-we-compress-everything/
+
 РОЗДІЛИ
 00:00 Усі сценарії каналу, стиснуті
 00:24 Стиснути ще раз
@@ -435,6 +453,8 @@ Video này giải thích hai thủ thuật bên trong ZIP và gzip: những con 
 Nguồn: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compression, IEEE Transactions on Information Theory (1977); D. A. Huffman, A Method for the Construction of Minimum-Redundancy Codes, Proceedings of the IRE (1952); G. Stix, Profile: David A. Huffman, Scientific American (1991); P. Deutsch, RFC 1951 and RFC 1952 (1996); C. E. Shannon, A Mathematical Theory of Communication (1948); C. E. Shannon, Prediction and Entropy of Printed English, Bell System Technical Journal (1951); J.-l. Gailly, comp.compression FAQ (1999); D. R. Horn et al., The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service, NSDI (2017); M. Hutter, Hutter Prize for Lossless Compression of Human Knowledge (prize.hutter1.net); M. Mahoney, Large Text Compression Benchmark; G. Delétang et al., Language Modeling Is Compression, ICLR (2024); A. N. Kolmogorov, Three Approaches to the Quantitative Definition of Information (1965); G. J. Chaitin, Information-Theoretic Limitations of Formal Systems (1974). Các phép đo với gzip và số pi được thực hiện riêng cho video này.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Bản âm thanh tiếng Anh Mỹ có sẵn dưới dạng bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-cant-we-compress-everything/
 
 CHƯƠNG
 00:00 Mọi kịch bản của kênh, sau khi nén
@@ -480,6 +500,8 @@ Zdroje: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compress
 
 Titulky jsou k tomuto videu psané, ne automaticky generované. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-cant-we-compress-everything/
+
 KAPITOLY
 00:00 Všechny scénáře kanálu, zkomprimované
 00:24 Zkomprimovat ještě jednou
@@ -524,6 +546,8 @@ Fuentes: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compres
 
 Los subtítulos están escritos para este video, no generados automáticamente. Hay una pista de audio en inglés estadounidense disponible como segunda pista de audio.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-cant-we-compress-everything/
+
 CAPÍTULOS
 00:00 Todos los guiones del canal, comprimidos
 00:24 Comprimirlo otra vez
@@ -567,6 +591,8 @@ Videon går igenom de två knepen i ZIP och gzip: Jacob Zivs och Abraham Lempels
 Källor: J. Ziv and A. Lempel, A Universal Algorithm for Sequential Data Compression, IEEE Transactions on Information Theory (1977); D. A. Huffman, A Method for the Construction of Minimum-Redundancy Codes, Proceedings of the IRE (1952); G. Stix, Profile: David A. Huffman, Scientific American (1991); P. Deutsch, RFC 1951 and RFC 1952 (1996); C. E. Shannon, A Mathematical Theory of Communication (1948); C. E. Shannon, Prediction and Entropy of Printed English, Bell System Technical Journal (1951); J.-l. Gailly, comp.compression FAQ (1999); D. R. Horn et al., The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service, NSDI (2017); M. Hutter, Hutter Prize for Lossless Compression of Human Knowledge (prize.hutter1.net); M. Mahoney, Large Text Compression Benchmark; G. Delétang et al., Language Modeling Is Compression, ICLR (2024); A. N. Kolmogorov, Three Approaches to the Quantitative Definition of Information (1965); G. J. Chaitin, Information-Theoretic Limitations of Formal Systems (1974). Mätningarna med gzip och pi gjordes för den här videon.
 
 Undertexterna är skrivna för den här videon, inte automatiskt genererade. Amerikansk engelska finns som ett andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-cant-we-compress-everything/
 
 KAPITEL
 00:00 Alla manus på kanalen, komprimerade

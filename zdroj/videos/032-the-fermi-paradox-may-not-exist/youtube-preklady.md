@@ -53,6 +53,8 @@ Sitten Pimeä metsä — kaikkein kuuluisin vastaus — ja kysymys, joka kumoaa 
 
 Tuotamme jo teknosignatuureja. Emmekä edes yritä piilottaa niitä.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/the-fermi-paradox-may-not-exist/
+
 Luvut
 0:00 Kysymys
 1:19 Ehkä älykkyys on harvinaista
@@ -124,6 +126,8 @@ mille années-lumière. Antennes de téléphonie mobile ordinaires : quatre.
 
 Nous produisons déjà des technosignatures. Et nous ne faisons même pas d'efforts pour les cacher.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/the-fermi-paradox-may-not-exist/
+
 Chapitres
 0:00 La question
 1:19 L'intelligence est peut-être rare
@@ -180,6 +184,8 @@ Sepanjang video: kenapa ukuran sampel satu hampir tidak mendukung kesimpulan apa
 Lalu Hutan Gelap — jawaban yang paling terkenal — dan pertanyaan yang mematahkannya. Bagaimana persisnya kamu menyembunyikan sebuah planet? Atmosfer Bumi telah dibentuk ulang oleh biologi dan semakin dipengaruhi oleh teknologi. Dan pada 2025 sekelompok peneliti menghitung dari jarak berapa teknosignatur kita sendiri bisa tertangkap. Radar planet: sekitar dua belas ribu tahun cahaya. Menara ponsel biasa: empat.
 
 Kita sudah memproduksi teknosignatur. Dan kita bahkan tidak berusaha menyembunyikannya.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/the-fermi-paradox-may-not-exist/
 
 Bab
 0:00 Pertanyaannya
@@ -250,6 +256,8 @@ da quanto lontano potrebbero essere captate le nostre tecnofirme. Radar planetar
 dodicimila anni luce. Normali ripetitori di telefonia: quattro.
 
 Stiamo già producendo tecnofirme. E non ci stiamo nemmeno sforzando di nasconderle.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/the-fermi-paradox-may-not-exist/
 
 Capitoli
 0:00 La domanda
@@ -325,6 +333,8 @@ zwölftausend Lichtjahre. Gewöhnliche Mobilfunkmasten: vier.
 
 Wir erzeugen bereits Technosignaturen. Und wir geben uns nicht einmal Mühe, sie zu verbergen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/the-fermi-paradox-may-not-exist/
+
 Kapitel
 0:00 Die Frage
 1:19 Vielleicht ist Intelligenz selten
@@ -395,6 +405,8 @@ własne technosygnatury. Radar planetarny: około dwunastu tysięcy lat świetln
 telefonii komórkowej: cztery.
 
 Już teraz wytwarzamy technosygnatury. I nawet nie staramy się ich ukrywać.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/the-fermi-paradox-may-not-exist/
 
 Rozdziały
 0:00 Pytanie
@@ -467,6 +479,8 @@ anos-luz. Torres comuns de telefonia: quatro.
 
 Já estamos produzindo tecnoassinaturas. E nem estamos tentando escondê-las.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/the-fermi-paradox-may-not-exist/
+
 Capítulos
 0:00 A pergunta
 1:19 Talvez a inteligência seja rara
@@ -524,6 +538,8 @@ Sonra Karanlık Orman — hepsinin en ünlü cevabı — ve onu çürüten soru.
 
 Zaten teknoimza üretiyoruz. Ve onları saklamaya çalışmıyoruz bile.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/the-fermi-paradox-may-not-exist/
+
 Bölümler
 0:00 Soru
 1:19 Belki zekâ nadirdir
@@ -579,6 +595,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 
 Ми вже виробляємо техносигнатури. І навіть не намагаємося їх приховати.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/the-fermi-paradox-may-not-exist/
+
 Розділи
 0:00 Запитання
 1:19 Можливо, розум — рідкість
@@ -633,6 +651,8 @@ Video cũng đề cập đến: vì sao cỡ mẫu bằng một gần như khôn
 Rồi đến Khu rừng Tối — câu trả lời nổi tiếng nhất — và câu hỏi phá vỡ nó. Chính xác thì bạn giấu một hành tinh bằng cách nào? Bầu khí quyển Trái Đất đã bị sinh học, và ngày càng nhiều là công nghệ, định hình lại. Và năm 2025 một nhóm nhà nghiên cứu đã tính ra từ khoảng cách bao xa thì các dấu hiệu công nghệ của chính chúng ta có thể được phát hiện. Radar hành tinh: khoảng mười hai nghìn năm ánh sáng. Cột sóng điện thoại thông thường: bốn.
 
 Chúng ta đã và đang tạo ra các dấu hiệu công nghệ. Và thậm chí còn chẳng cố giấu chúng.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/the-fermi-paradox-may-not-exist/
 
 Các chương
 0:00 Câu hỏi
@@ -701,6 +721,8 @@ spočítala, z jaké vzdálenosti by šlo zachytit naše vlastní technosignatur
 zhruba dvanáct tisíc světelných let. Běžné mobilní vysílače: čtyři.
 
 Technosignatury už teď vyrábíme. A ani se je nesnažíme skrývat.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/the-fermi-paradox-may-not-exist/
 
 Kapitoly
 0:00 Ta otázka
@@ -773,6 +795,8 @@ Antenas de telefonía móvil corrientes: cuatro.
 
 Ya estamos produciendo tecnofirmas. Y ni siquiera intentamos ocultarlas.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/the-fermi-paradox-may-not-exist/
+
 Capítulos
 0:00 La pregunta
 1:19 Quizá la inteligencia sea rara
@@ -842,6 +866,8 @@ av tekniken. År 2025 räknade en forskargrupp ut på vilket avstånd våra egna
 skulle kunna fångas upp. Planetradar: omkring tolv tusen ljusår. Vanliga mobilmaster: fyra.
 
 Vi producerar redan teknosignaturer. Och vi anstränger oss inte ens för att dölja dem.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/the-fermi-paradox-may-not-exist/
 
 Kapitel
 0:00 Frågan

@@ -44,6 +44,8 @@ frozen, why the machine is often not slow but late, why the bottleneck is
 sometimes memory rather than the processor, and why an application can go
 pale and stop answering while the system around it is perfectly alive.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-does-your-computer-ignore-you-when-its-busy/
+
 Chapters:
 0:00 Click. Nothing happens.
 1:18 What an interrupt actually is

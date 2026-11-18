@@ -39,6 +39,8 @@ Lähteet FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles
 
 Tekstitykset on kirjoitettu tätä videota varten, ei luotu automaattisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-if-everyone-on-earth-owned-a-car/
+
 LUVUT
 00:00 Kahdeksan miljardia autoa
 00:28 Ei niin absurdia kuin miltä kuulostaa
@@ -75,6 +77,8 @@ Alors, que se passerait-il si tous les pays atteignaient le niveau américain ? 
 Sources : FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1) ; OICA, world vehicles in use (2020) et world motor vehicle production (2024) ; UN World Population Prospects 2024 ; World Bank, land area ; Litman, Victoria Transport Policy Institute, Transportation Cost and Benefit Analysis ; Shoup, The High Cost of Free Parking (2005) ; NACTO, Transit Street Design Guide (2016) ; FHWA, Katy Freeway project profile ; City Observatory (Cortright), Houston TranStar travel times ; WHO, Global Status Report on Road Safety 2023 ; Greene & Leard, Transportation Research Part A (2024) ; Odyssee-Mure, distance travelled by car ; GFEI ; IEA, Oil Market Report (2025) ; Ember, Global Electricity Review 2025 ; IEA, Global EV Outlook 2025. Les chiffres sur le carburant, l’électricité et les batteries supposent 10 000 km par voiture et par an, et 7 litres d’essence ou 20 kWh d’électricité aux 100 km.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-if-everyone-on-earth-owned-a-car/
 
 CHAPITRES
 00:00 Huit milliards de voitures
@@ -113,6 +117,8 @@ Sumber: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles 
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat secara otomatis. Tersedia juga trek audio kedua dalam bahasa Inggris Amerika.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-if-everyone-on-earth-owned-a-car/
+
 BAB
 00:00 Delapan miliar mobil
 00:28 Tidak seabsurd kedengarannya
@@ -149,6 +155,8 @@ Che cosa succederebbe, allora, se ogni Paese raggiungesse il livello americano? 
 Fonti: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles in use (2020) e world motor vehicle production (2024); UN World Population Prospects 2024; World Bank, land area; Litman, Victoria Transport Policy Institute, Transportation Cost and Benefit Analysis; Shoup, The High Cost of Free Parking (2005); NACTO, Transit Street Design Guide (2016); FHWA, Katy Freeway project profile; City Observatory (Cortright), Houston TranStar travel times; WHO, Global Status Report on Road Safety 2023; Greene & Leard, Transportation Research Part A (2024); Odyssee-Mure, distance travelled by car; GFEI; IEA, Oil Market Report (2025); Ember, Global Electricity Review 2025; IEA, Global EV Outlook 2025. I dati su carburante, elettricità e batterie presuppongono 10.000 km all’anno per auto e un consumo di 7 litri di benzina o 20 kWh di elettricità ogni 100 km.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. Come seconda traccia audio è disponibile l’inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-if-everyone-on-earth-owned-a-car/
 
 CAPITOLI
 00:00 Otto miliardi di auto
@@ -187,6 +195,8 @@ Quellen: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles
 
 Die Untertitel wurden für dieses Video geschrieben, nicht automatisch erzeugt. Als zweite Tonspur steht amerikanisches Englisch bereit.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-if-everyone-on-earth-owned-a-car/
+
 KAPITEL
 00:00 Acht Milliarden Autos
 00:28 Nicht so absurd, wie es klingt
@@ -223,6 +233,8 @@ Co więc by się stało, gdyby każdy kraj osiągnął poziom amerykański? W ty
 Źródła: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles in use (2020) i world motor vehicle production (2024); UN World Population Prospects 2024; World Bank, land area; Litman, Victoria Transport Policy Institute, Transportation Cost and Benefit Analysis; Shoup, The High Cost of Free Parking (2005); NACTO, Transit Street Design Guide (2016); FHWA, Katy Freeway project profile; City Observatory (Cortright), Houston TranStar travel times; WHO, Global Status Report on Road Safety 2023; Greene & Leard, Transportation Research Part A (2024); Odyssee-Mure, distance travelled by car; GFEI; IEA, Oil Market Report (2025); Ember, Global Electricity Review 2025; IEA, Global EV Outlook 2025. Obliczenia dotyczące paliwa, energii elektrycznej i baterii opierają się na założeniu 10 000 km rocznie na samochód oraz zużycie 7 litrów benzyny lub 20 kWh energii elektrycznej na 100 km.
 
 Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ścieżka dźwiękowa dostępny jest angielski amerykański.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-if-everyone-on-earth-owned-a-car/
 
 ROZDZIAŁY
 00:00 Osiem miliardów samochodów
@@ -261,6 +273,8 @@ Fontes: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles 
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Como segunda faixa de áudio está disponível o inglês americano.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-if-everyone-on-earth-owned-a-car/
+
 CAPÍTULOS
 00:00 Oito bilhões de carros
 00:28 Não é tão absurdo quanto parece
@@ -297,6 +311,8 @@ Peki her ülke Amerikan düzeyine ulaşsaydı ne olurdu? Bu video bunu adım ad�
 Kaynaklar: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles in use (2020) ve world motor vehicle production (2024); UN World Population Prospects 2024; World Bank, land area; Litman, Victoria Transport Policy Institute, Transportation Cost and Benefit Analysis; Shoup, The High Cost of Free Parking (2005); NACTO, Transit Street Design Guide (2016); FHWA, Katy Freeway project profile; City Observatory (Cortright), Houston TranStar travel times; WHO, Global Status Report on Road Safety 2023; Greene & Leard, Transportation Research Part A (2024); Odyssee-Mure, distance travelled by car; GFEI; IEA, Oil Market Report (2025); Ember, Global Electricity Review 2025; IEA, Global EV Outlook 2025. Yakıt, elektrik ve batarya rakamları, araba başına yılda 10.000 km ile 100 km’de 7 litre benzin ya da 20 kWh elektrik tüketimi varsayımına dayanıyor.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-if-everyone-on-earth-owned-a-car/
 
 BÖLÜMLER
 00:00 Sekiz milyar araba
@@ -335,6 +351,8 @@ Diğer tüm arşiv görselleri kamu malıdır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Також доступна друга звукова доріжка — американською англійською.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-if-everyone-on-earth-owned-a-car/
+
 РОЗДІЛИ
 00:00 Вісім мільярдів автомобілів
 00:28 Не так абсурдно, як здається
@@ -371,6 +389,8 @@ Vậy chuyện gì sẽ xảy ra nếu mọi quốc gia đều đạt đến m�
 Nguồn: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles in use (2020) và world motor vehicle production (2024); UN World Population Prospects 2024; World Bank, land area; Litman, Victoria Transport Policy Institute, Transportation Cost and Benefit Analysis; Shoup, The High Cost of Free Parking (2005); NACTO, Transit Street Design Guide (2016); FHWA, Katy Freeway project profile; City Observatory (Cortright), Houston TranStar travel times; WHO, Global Status Report on Road Safety 2023; Greene & Leard, Transportation Research Part A (2024); Odyssee-Mure, distance travelled by car; GFEI; IEA, Oil Market Report (2025); Ember, Global Electricity Review 2025; IEA, Global EV Outlook 2025. Các số liệu về nhiên liệu, điện và pin giả định mỗi xe chạy 10.000 km một năm, tiêu thụ 7 lít xăng hoặc 20 kWh điện cho mỗi 100 km.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có thể chọn tiếng Anh Mỹ ở bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-if-everyone-on-earth-owned-a-car/
 
 CHƯƠNG
 00:00 Tám tỷ chiếc ô tô
@@ -409,6 +429,8 @@ Zdroje: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles 
 
 Titulky jsou psané pro tohle video, ne strojový přepis. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-if-everyone-on-earth-owned-a-car/
+
 KAPITOLY
 00:00 Osm miliard aut
 00:28 Není to tak absurdní
@@ -446,6 +468,8 @@ Fuentes: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Como segunda pista de audio está disponible el inglés americano.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-if-everyone-on-earth-owned-a-car/
+
 CAPÍTULOS
 00:00 Ocho mil millones de coches
 00:28 No es tan absurdo como parece
@@ -482,6 +506,8 @@ Så vad skulle hända om alla länder nådde den amerikanska nivån? Den här vi
 Källor: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles in use (2020) och world motor vehicle production (2024); UN World Population Prospects 2024; World Bank, land area; Litman, Victoria Transport Policy Institute, Transportation Cost and Benefit Analysis; Shoup, The High Cost of Free Parking (2005); NACTO, Transit Street Design Guide (2016); FHWA, Katy Freeway project profile; City Observatory (Cortright), Houston TranStar travel times; WHO, Global Status Report on Road Safety 2023; Greene & Leard, Transportation Research Part A (2024); Odyssee-Mure, distance travelled by car; GFEI; IEA, Oil Market Report (2025); Ember, Global Electricity Review 2025; IEA, Global EV Outlook 2025. Siffrorna för bränsle, el och batterier förutsätter 10 000 km per bil och år samt 7 liter bensin eller 20 kWh el per 100 km.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Som andra ljudspår finns amerikansk engelska.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-if-everyone-on-earth-owned-a-car/
 
 KAPITEL
 00:00 Åtta miljarder bilar

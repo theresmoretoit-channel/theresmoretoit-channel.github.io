@@ -37,6 +37,8 @@ apart one at a time. None of it says games are bad. Progress is one of the
 reasons games are fun. The line worth watching is different: "I want to finish
 something" is fine. "I can't stop even though I don't want to continue" is not.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-is-it-so-hard-to-quit-some-games/
+
 CHAPTERS
 00:00 Three hours, and no fun
 01:20 A game that never ends

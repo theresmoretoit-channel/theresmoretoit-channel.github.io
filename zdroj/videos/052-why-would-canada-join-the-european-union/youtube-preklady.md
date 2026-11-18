@@ -67,6 +67,8 @@ joksikin, jolla on reunat, ja Kanadalle voi jäädä hieman parempi
 kauppasopimus eikä mitään muuta. Mutta Eurooppa sanoi ääneen, ettei
 jäsenyyden ehkä tarvitse tarkoittaa sitä, mitä se on aina tarkoittanut.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-would-canada-join-the-european-union/
+
 Luvut
 00:00 Kanada haluaa liittyä Euroopan unioniin
 00:22 Jotain, mitä ei vielä ole
@@ -151,6 +153,8 @@ accord commercial un peu meilleur et rien de plus. Mais l'Europe a dit
 tout haut que l'adhésion n'a peut-être pas à signifier ce qu'elle a
 toujours signifié.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-would-canada-join-the-european-union/
+
 Chapitres
 00:00 Le Canada veut entrer dans l'Union européenne
 00:22 Quelque chose qui n'existe pas encore
@@ -233,6 +237,8 @@ itu menjadi sesuatu yang bertepi, dan Kanada mungkin hanya mendapat
 perjanjian dagang yang sedikit lebih baik. Tetapi Eropa mengatakan dengan
 lantang bahwa keanggotaan mungkin tidak harus berarti apa yang selama ini
 selalu diartikan.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-would-canada-join-the-european-union/
 
 Bab
 00:00 Kanada ingin bergabung dengan Uni Eropa
@@ -317,6 +323,8 @@ in qualcosa con dei contorni, e al Canada potrebbe restare un accordo
 commerciale un po' migliore e nient'altro. Ma l'Europa ha detto ad alta
 voce che appartenere forse non deve significare ciò che ha sempre
 significato.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-would-canada-join-the-european-union/
 
 Capitoli
 00:00 Il Canada vuole entrare nell'Unione europea
@@ -403,6 +411,8 @@ Handelsabkommen bekommen und sonst nichts. Aber Europa hat laut gesagt,
 dass Mitgliedschaft vielleicht nicht bedeuten muss, was sie immer bedeutet
 hat.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-would-canada-join-the-european-union/
+
 Kapitel
 00:00 Kanada will der Europäischen Union beitreten
 00:22 Etwas, das es noch nicht gibt
@@ -488,6 +498,8 @@ w coś, co ma krawędzie, a Kanadzie może zostać nieco lepsza umowa
 handlowa i nic więcej. Ale Europa powiedziała na głos, że członkostwo być
 może nie musi znaczyć tego, co znaczyło zawsze.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-would-canada-join-the-european-union/
+
 Rozdziały
 00:00 Kanada chce wstąpić do Unii Europejskiej
 00:22 Coś, czego jeszcze nie ma
@@ -571,6 +583,8 @@ com contornos, e o Canadá pode acabar com um acordo comercial um pouco
 melhor e nada mais. Mas a Europa disse em voz alta que participar talvez
 não precise significar o que sempre significou.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-would-canada-join-the-european-union/
+
 Capítulos
 00:00 O Canadá quer entrar na União Europeia
 00:22 Algo que ainda não existe
@@ -651,6 +665,8 @@ Hiçbir şey kararlaştırılmadı. Ekimdeki bir zirvenin fikri kenarları olan
 bir şeye dönüştürmesi bekleniyor ve Kanada'nın eline yalnızca biraz daha
 iyi bir ticaret anlaşması geçebilir. Ama Avrupa yüksek sesle, üyeliğin her
 zaman taşıdığı anlamı taşımak zorunda olmayabileceğini söyledi.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-would-canada-join-the-european-union/
 
 Bölümler
 00:00 Kanada Avrupa Birliği'ne katılmak istiyor
@@ -733,6 +749,8 @@ Geri kalan bütün görseller koddan çizildi.
 обрисами, і Канаді може лишитися трохи краща торговельна угода й нічого
 більше. Але Європа вголос сказала, що членство, можливо, не мусить
 означати те, що означало завжди.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-would-canada-join-the-european-union/
 
 Розділи
 00:00 Канада хоче вступити до Європейського Союзу
@@ -817,6 +835,8 @@ chỉ nhận được một hiệp định thương mại tốt hơn chút ít. 
 nói to rằng tư cách thành viên có lẽ không nhất thiết mang ý nghĩa mà nó
 vẫn luôn mang.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-would-canada-join-the-european-union/
+
 Các chương
 00:00 Canada muốn gia nhập Liên minh châu Âu
 00:22 Một thứ chưa từng tồn tại
@@ -897,6 +917,8 @@ převzatých zemí, která o žádném z nich nehlasuje.
 Nic není dohodnuté. Summit v říjnu má z nápadu udělat něco s obrysy
 a Kanadě může nakonec zbýt o něco lepší obchodní dohoda a nic víc. Ale
 Evropa nahlas řekla, že členství nemusí znamenat to, co vždycky znamenalo.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-would-canada-join-the-european-union/
 
 Kapitoly
 00:00 Kanada chce vstoupit do Evropské unie
@@ -982,6 +1004,8 @@ con contornos, y a Canadá puede acabar quedándole un acuerdo comercial
 algo mejor y nada más. Pero Europa dijo en voz alta que pertenecer quizá
 no tenga que significar lo que siempre ha significado.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-would-canada-join-the-european-union/
+
 Capítulos
 00:00 Canadá quiere entrar en la Unión Europea
 00:22 Algo que todavía no existe
@@ -1064,6 +1088,8 @@ Ingenting är överenskommet. Ett toppmöte i oktober ska göra idén till
 något med kanter, och Kanada kan sluta med ett något bättre handelsavtal
 och inget mer. Men Europa sa högt att medlemskap kanske inte måste betyda
 det som det alltid har betytt.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-would-canada-join-the-european-union/
 
 Kapitel
 00:00 Kanada vill gå med i Europeiska unionen

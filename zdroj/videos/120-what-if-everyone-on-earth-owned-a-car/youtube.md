@@ -64,6 +64,8 @@ Sources: FHWA, Highway Statistics 2024 (MV-1, DL-1C, VM-1); OICA, world vehicles
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-if-everyone-on-earth-owned-a-car/
+
 CHAPTERS
 00:00 Eight billion cars
 00:28 Not as absurd as it sounds

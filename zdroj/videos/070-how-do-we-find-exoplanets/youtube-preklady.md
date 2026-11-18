@@ -65,6 +65,8 @@ planeetan.
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/how-do-we-find-exoplanets/
+
 LUVUT
 00:00 Outo ongelma
 00:53 Suora kuvantaminen
@@ -116,6 +118,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés
 automatiquement. Une piste audio en anglais américain est disponible en
 seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/how-do-we-find-exoplanets/
+
 CHAPITRES
 00:00 Un problème étrange
 00:53 L'imagerie directe
@@ -165,6 +169,8 @@ melihat apa yang terjadi ketika dua di antaranya melihat planet yang sama.
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/how-do-we-find-exoplanets/
+
 BAB
 00:00 Masalah yang aneh
 00:53 Pencitraan langsung
@@ -213,6 +219,8 @@ cosa succede quando due di loro osservano lo stesso pianeta.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/how-do-we-find-exoplanets/
 
 CAPITOLI
 00:00 Uno strano problema
@@ -265,6 +273,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/how-do-we-find-exoplanets/
+
 KAPITEL
 00:00 Ein seltsames Problem
 00:53 Direkte Abbildung
@@ -313,6 +323,8 @@ z nich widzą tę samą planetę.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/how-do-we-find-exoplanets/
 
 ROZDZIAŁY
 00:00 Dziwny problem
@@ -363,6 +375,8 @@ vemos o que acontece quando dois deles enxergam o mesmo planeta.
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/how-do-we-find-exoplanets/
+
 CAPÍTULOS
 00:00 Um problema estranho
 00:53 Imageamento direto
@@ -412,6 +426,8 @@ gördüğünde ne olduğuna bakıyoruz.
 Altyazılar bu video için yazıldı, otomatik üretilmedi. Amerikan
 İngilizcesinde ikinci bir ses parçası mevcuttur.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/how-do-we-find-exoplanets/
+
 BÖLÜMLER
 00:00 Tuhaf bir sorun
 00:53 Doğrudan görüntüleme
@@ -460,6 +476,8 @@ Diğer bütün görseller bu video için çizilmiş diyagramlardır.
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Доступна
 друга звукова доріжка американським варіантом англійської мови.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/how-do-we-find-exoplanets/
 
 РОЗДІЛИ
 00:00 Дивна проблема
@@ -511,6 +529,8 @@ hành tinh.
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một
 bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/how-do-we-find-exoplanets/
+
 CHƯƠNG
 00:00 Một vấn đề kỳ lạ
 00:53 Chụp ảnh trực tiếp
@@ -557,6 +577,8 @@ se stane, když dvě z nich uvidí tutéž planetu.
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/how-do-we-find-exoplanets/
 
 KAPITOLY
 00:00 Zvláštní potíž
@@ -608,6 +630,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano como segunda
 pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/how-do-we-find-exoplanets/
+
 CAPÍTULOS
 00:00 Un problema extraño
 00:53 La imagen directa
@@ -656,6 +680,8 @@ samma planet.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/how-do-we-find-exoplanets/
 
 KAPITEL
 00:00 Ett märkligt problem

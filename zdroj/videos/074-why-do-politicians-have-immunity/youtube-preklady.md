@@ -41,6 +41,8 @@ Babiš kiistää kaikki väärinteot. Tšekin parlamentin äänestys vuonna 2026
 
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-politicians-have-immunity/
+
 LUVUT
 00:00 Tammikuu 1642
 01:00 Miksi parlamentit tarvitsevat suojaa
@@ -78,6 +80,8 @@ Cette vidéo distingue deux immunités très différentes : la protection des re
 Babiš nie avoir commis la moindre faute. Le vote du Parlement tchèque en 2026 n'était pas un verdict ; il a suspendu la procédure pour le reste de son mandat.
 
 Les sous-titres sont écrits pour cette vidéo, pas générés automatiquement. Une piste audio en anglais américain est disponible en seconde piste.
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-politicians-have-immunity/
 
 CHAPITRES
 00:00 Janvier 1642
@@ -117,6 +121,8 @@ Babiš membantah melakukan kesalahan apa pun. Pemungutan suara parlemen Ceko pad
 
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-politicians-have-immunity/
+
 BAB
 00:00 Januari 1642
 01:00 Mengapa parlemen perlu dilindungi
@@ -154,6 +160,8 @@ Questo video distingue due tipi di immunità molto diversi: la tutela dei voti e
 Babiš nega ogni illecito. Il voto del parlamento ceco nel 2026 non è stato un verdetto: ha sospeso il procedimento per il resto del suo mandato.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente. È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-politicians-have-immunity/
 
 CAPITOLI
 00:00 Gennaio 1642
@@ -193,6 +201,8 @@ Babiš bestreitet jedes Fehlverhalten. Die Abstimmung im tschechischen Parlament
 
 Die Untertitel sind für dieses Video geschrieben, nicht automatisch erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-politicians-have-immunity/
+
 KAPITEL
 00:00 Januar 1642
 01:00 Warum Parlamente Schutz brauchen
@@ -230,6 +240,8 @@ Ten film rozdziela dwa bardzo różne rodzaje immunitetu: ochronę tego, jak pol
 Babiš zaprzecza, by zrobił cokolwiek złego. Głosowanie czeskiego parlamentu w 2026 roku nie było wyrokiem; zawiesiło sprawę do końca jego kadencji.
 
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-politicians-have-immunity/
 
 ROZDZIAŁY
 00:00 Styczeń 1642
@@ -269,6 +281,8 @@ Babiš nega qualquer irregularidade. A votação do parlamento tcheco em 2026 n�
 
 As legendas foram escritas para este vídeo, não geradas automaticamente. Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-politicians-have-immunity/
+
 CAPÍTULOS
 00:00 Janeiro de 1642
 01:00 Por que os parlamentos precisam de proteção
@@ -306,6 +320,8 @@ Bu video birbirinden çok farklı iki dokunulmazlığı ayırıyor: siyasetçile
 Babiš herhangi bir yanlış davranışta bulunduğunu reddediyor. Çek parlamentosunun 2026'daki oylaması bir hüküm değildi; oylama, davayı görev süresinin geri kalanı boyunca askıya aldı.
 
 Altyazılar bu video için yazıldı, otomatik üretilmedi. İkinci ses parçası olarak Amerikan İngilizcesi mevcuttur.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-politicians-have-immunity/
 
 BÖLÜMLER
 00:00 Ocak 1642
@@ -345,6 +361,8 @@ Licences: creativecommons.org/licenses/by-sa/3.0
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою звуковою доріжкою доступна американська англійська.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-politicians-have-immunity/
+
 РОЗДІЛИ
 00:00 Січень 1642
 01:00 Чому парламентам потрібен захист
@@ -382,6 +400,8 @@ Video này phân biệt hai loại quyền miễn trừ rất khác nhau: sự b
 Babiš phủ nhận mọi sai phạm. Cuộc bỏ phiếu của quốc hội Séc năm 2026 không phải là một bản án; nó tạm dừng vụ án cho đến hết nhiệm kỳ của ông.
 
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-politicians-have-immunity/
 
 CHƯƠNG
 00:00 Tháng 1 năm 1642
@@ -421,6 +441,8 @@ Babiš jakoukoli vinu popírá. Hlasování Poslanecké sněmovny v roce 2026 ne
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá zvuková stopa je k dispozici americká angličtina.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-politicians-have-immunity/
+
 KAPITOLY
 00:00 Leden 1642
 01:00 Proč parlamenty potřebují ochranu
@@ -459,6 +481,8 @@ Babiš niega haber cometido irregularidad alguna. La votación del parlamento ch
 
 Los subtítulos están escritos para este vídeo, no generados automáticamente. Hay una pista de audio en inglés americano como segunda pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-politicians-have-immunity/
+
 CAPÍTULOS
 00:00 Enero de 1642
 01:00 Por qué los parlamentos necesitan protección
@@ -496,6 +520,8 @@ Den här videon skiljer mellan två mycket olika slags immunitet: skydd för hur
 Babiš förnekar att han har gjort något fel. Det tjeckiska parlamentets omröstning 2026 var ingen dom; den pausade rättsprocessen under resten av hans mandatperiod.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-politicians-have-immunity/
 
 KAPITEL
 00:00 Januari 1642

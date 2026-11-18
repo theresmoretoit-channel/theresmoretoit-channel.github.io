@@ -47,6 +47,8 @@ way, and you can still get a picture that looks much like the original.
 The debate isn't settled — which brings us straight back to the
 uncomfortable question the whole thing is about.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/the-dunning-kruger-effect/
+
 CHAPTERS
 0:00 The feeling of getting it
 0:35 Learning to program

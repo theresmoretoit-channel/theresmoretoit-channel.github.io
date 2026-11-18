@@ -47,6 +47,8 @@ Eikä tämä ole uusi kritiikki. Vuoden 1934 raportissaan Yhdysvaltain senaatill
 
 Mikään tästä ei tee BKT:stä hyödytöntä. Päinvastoin. Kohtuullisen johdonmukainen lämpömittari on parempi kuin ei lämpömittaria lainkaan. Ongelma on pyytää lämpömittaria kertomaan verenpaineesi.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/what-gdp-doesnt-tell-you/
+
 LUVUT
 0:00 Miten hurrikaani voi nostaa BKT:tä
 0:27 Mitä BKT oikeasti mittaa
@@ -117,6 +119,8 @@ Rien de tout cela ne rend le PIB inutile. Bien au contraire. Un
 thermomètre à peu près fiable vaut mieux que pas de thermomètre du tout.
 Le problème, c'est de demander à un thermomètre votre tension.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/what-gdp-doesnt-tell-you/
+
 CHAPITRES
 0:00 Comment un ouragan fait monter le PIB
 0:27 Ce que le PIB mesure vraiment
@@ -169,6 +173,8 @@ Video ini menelusuri apa yang sebenarnya diukur PDB dan apa yang diam-diam ditin
 Dan ini bukan keluhan zaman sekarang. Dalam laporan tahun 1934 kepada Senat AS, Simon Kuznets — salah satu orang yang membangun akuntansi pendapatan nasional itu sendiri — menulis bahwa kesejahteraan sebuah bangsa nyaris tidak bisa disimpulkan dari pengukuran semacam ini. Ia menyebut pekerjaan rumah tangga tanpa upah sebagai salah satu hal yang ditinggalkan di luar.
 
 Tidak ada satu pun dari ini yang membuat PDB tidak berguna. Justru sebaliknya. Termometer yang cukup konsisten lebih baik daripada tidak ada termometer sama sekali. Masalahnya adalah meminta termometer memberitahumu tekanan darahmu.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/what-gdp-doesnt-tell-you/
 
 BAB
 0:00 Bagaimana badai bisa menaikkan PDB
@@ -238,6 +244,8 @@ tra le cose lasciate fuori.
 Niente di tutto ciò rende il PIL inutile. Tutt'altro. Un termometro
 ragionevolmente affidabile è meglio di nessun termometro. Il problema è
 chiedere a un termometro la pressione del sangue.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/what-gdp-doesnt-tell-you/
 
 CAPITOLI
 0:00 Come un uragano fa salire il PIL
@@ -310,6 +318,8 @@ Nichts davon macht das BIP nutzlos. Ganz im Gegenteil. Ein halbwegs
 verlässliches Thermometer ist besser als gar keines. Das Problem ist,
 von einem Thermometer den Blutdruck zu verlangen.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/what-gdp-doesnt-tell-you/
+
 KAPITEL
 0:00 Wie ein Hurrikan das BIP hebt
 0:27 Was das BIP wirklich misst
@@ -378,6 +388,8 @@ w domu.
 Nic z tego nie czyni PKB bezużytecznym. Wręcz przeciwnie. W miarę
 wiarygodny termometr jest lepszy niż żaden. Problemem jest żądanie od
 termometru pomiaru ciśnienia.
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/what-gdp-doesnt-tell-you/
 
 ROZDZIAŁY
 0:00 Jak huragan podnosi PKB
@@ -449,6 +461,8 @@ Nada disso torna o PIB inútil. Muito pelo contrário. Um termômetro
 razoavelmente confiável é melhor do que nenhum. O problema é pedir a um
 termômetro a sua pressão arterial.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/what-gdp-doesnt-tell-you/
+
 CAPÍTULOS
 0:00 Como um furacão faz o PIB subir
 0:27 O que o PIB realmente mede
@@ -501,6 +515,8 @@ Bu video, GSYH’nin aslında neyi ölçtüğünü ve sessizce neyi dışarıda 
 Ve bu modern bir yakınma değil. Simon Kuznets — ulusal gelir muhasebesini baştan kuran kişilerden biri — 1934’te ABD Senatosu’na sunduğu raporda, bir ulusun refahının böyle bir ölçümden güçlükle çıkarsanabileceğini yazmıştı. Dışarıda kalanlar arasında ücretsiz ev işlerini de saymıştı.
 
 Bunların hiçbiri GSYH’yi işe yaramaz kılmıyor. Tam tersine. Makul ölçüde tutarlı bir termometre, hiç termometre olmamasından iyidir. Sorun, bir termometreden tansiyonunu söylemesini istemek.
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/what-gdp-doesnt-tell-you/
 
 BÖLÜMLER
 0:00 Bir kasırga GSYH’yi nasıl yükseltir
@@ -555,6 +571,8 @@ Bir sonrakini istiyorsan, bir abone ol düğmesi var.
 
 Ніщо з цього не робить ВВП непотрібним. Навпаки. Термометр із досить стабільними показаннями кращий, ніж відсутність термометра взагалі. Проблема в тому, щоб вимагати від термометра, аби він сказав твій кров’яний тиск.
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/what-gdp-doesnt-tell-you/
+
 РОЗДІЛИ
 0:00 Як ураган може підняти ВВП
 0:27 Що ВВП насправді вимірює
@@ -607,6 +625,8 @@ Video này giải thích những gì GDP thực sự đo và những gì nó l�
 Và đây không phải lời phàn nàn thời nay. Trong một báo cáo năm 1934 gửi Thượng viện Mỹ, Simon Kuznets — một trong những người đã dựng nên hệ thống hạch toán thu nhập quốc dân — viết rằng phúc lợi của một quốc gia khó mà suy ra được từ một phép đo như thế. Ông liệt kê việc nhà không được trả công vào số những thứ bị để ra ngoài.
 
 Chẳng điều nào trong đó khiến GDP trở nên vô dụng. Ngược lại là khác. Một chiếc nhiệt kế cho kết quả tương đối ổn định vẫn hơn là không có nhiệt kế nào. Vấn đề là đòi hỏi một cái nhiệt kế cho bạn biết huyết áp.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/what-gdp-doesnt-tell-you/
 
 CÁC CHƯƠNG
 0:00 Một cơn bão có thể làm GDP tăng thế nào
@@ -672,6 +692,8 @@ nedá. Mezi vynechanými věcmi jmenoval neplacenou práci v domácnosti.
 Nic z toho nedělá z HDP nesmysl. Právě naopak. Rozumně spolehlivý
 teploměr je pořád lepší než žádný. Problém je chtít po teploměru krevní
 tlak.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/what-gdp-doesnt-tell-you/
 
 KAPITOLY
 0:00 Jak hurikán zvedne HDP
@@ -742,6 +764,8 @@ Nada de esto hace que el PIB sea inútil. Todo lo contrario. Un
 termómetro razonablemente fiable es mejor que ninguno. El problema es
 pedirle a un termómetro la tensión arterial.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/what-gdp-doesnt-tell-you/
+
 CAPÍTULOS
 0:00 Cómo un huracán hace subir el PIB
 0:27 Qué mide realmente el PIB
@@ -809,6 +833,8 @@ utanför.
 Inget av detta gör BNP oanvändbart. Tvärtom. En någorlunda pålitlig
 termometer är bättre än ingen alls. Problemet är att kräva blodtrycket
 av en termometer.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/what-gdp-doesnt-tell-you/
 
 KAPITEL
 0:00 Hur en orkan får BNP att stiga

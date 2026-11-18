@@ -52,6 +52,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 Wikimedia Commonsin kautta
 Lisenssi: creativecommons.org/licenses/by-sa/3.0/
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/why-do-we-still-write-code/
+
 LUVUT
 00:00 Kuusi sanaa
 00:42 Kirjoita vain lauseet
@@ -89,6 +91,8 @@ CRÉDITS DES IMAGES
 Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 via Wikimedia Commons
 Licence : creativecommons.org/licenses/by-sa/3.0/
+
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/why-do-we-still-write-code/
 
 CHAPITRES
 00:00 Six mots
@@ -128,6 +132,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 melalui Wikimedia Commons
 Lisensi: creativecommons.org/licenses/by-sa/3.0/
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/why-do-we-still-write-code/
+
 BAB
 00:00 Enam kata
 00:42 Tulis kalimatnya saja
@@ -165,6 +171,8 @@ CREDITI DELLE IMMAGINI
 Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 tramite Wikimedia Commons
 Licenza: creativecommons.org/licenses/by-sa/3.0/
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/why-do-we-still-write-code/
 
 CAPITOLI
 00:00 Sei parole
@@ -204,6 +212,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 über Wikimedia Commons
 Lizenz: creativecommons.org/licenses/by-sa/3.0/
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/why-do-we-still-write-code/
+
 KAPITEL
 00:00 Sechs Wörter
 00:42 Schreib nur die Sätze
@@ -241,6 +251,8 @@ Napisy są pisane do tego filmu, nie generowane automatycznie. Jako druga ście�
 Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 przez Wikimedia Commons
 Licencja: creativecommons.org/licenses/by-sa/3.0/
+
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/why-do-we-still-write-code/
 
 ROZDZIAŁY
 00:00 Sześć słów
@@ -280,6 +292,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 via Wikimedia Commons
 Licença: creativecommons.org/licenses/by-sa/3.0/
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/why-do-we-still-write-code/
+
 CAPÍTULOS
 00:00 Seis palavras
 00:42 Escrever só as frases
@@ -317,6 +331,8 @@ GÖRSEL KAYNAKLARI
 Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 Wikimedia Commons aracılığıyla
 Lisans: creativecommons.org/licenses/by-sa/3.0/
+
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/why-do-we-still-write-code/
 
 BÖLÜMLER
 00:00 Altı kelime
@@ -356,6 +372,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 через Wikimedia Commons
 Ліцензія: creativecommons.org/licenses/by-sa/3.0/
 
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/why-do-we-still-write-code/
+
 РОЗДІЛИ
 00:00 Шість слів
 00:42 Писати тільки речення
@@ -393,6 +411,8 @@ NGUỒN HÌNH ẢNH
 Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 qua Wikimedia Commons
 Giấy phép: creativecommons.org/licenses/by-sa/3.0/
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/why-do-we-still-write-code/
 
 CHƯƠNG
 00:00 Sáu từ
@@ -432,6 +452,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 prostřednictvím Wikimedia Commons
 Licence: creativecommons.org/licenses/by-sa/3.0/
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/why-do-we-still-write-code/
+
 KAPITOLY
 00:00 Šest slov
 00:42 Psát jen ty věty
@@ -470,6 +492,8 @@ Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 vía Wikimedia Commons
 Licencia: creativecommons.org/licenses/by-sa/3.0/
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/why-do-we-still-write-code/
+
 CAPÍTULOS
 00:00 Seis palabras
 00:42 Escribir solo las frases
@@ -507,6 +531,8 @@ BILDKÄLLOR
 Edsger Wybe Dijkstra — Hamilton Richards, CC BY-SA 3.0
 via Wikimedia Commons
 Licens: creativecommons.org/licenses/by-sa/3.0/
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/why-do-we-still-write-code/
 
 KAPITEL
 00:00 Sex ord

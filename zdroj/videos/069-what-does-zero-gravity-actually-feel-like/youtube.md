@@ -61,6 +61,8 @@ scientists and astronauts to film crews and anyone who buys a seat.
 Subtitles are written for this video, not auto-generated. An American
 English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-does-zero-gravity-actually-feel-like/
+
 CHAPTERS
 00:00 Floating inside an airplane
 00:47 How do you make someone weightless?

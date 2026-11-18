@@ -55,6 +55,8 @@ Neljännellätoista vuosisadalla matkamies saattoi kertoa sinulle, että pohjois
 
 Olivatko silloiset ihmiset siis herkkäuskoisempia kuin me? Tämä on tarina kuudesta tekniikasta, joista jokainen nopeutti tiedon leviämistä ja täsmälleen yhtä paljon pötyn leviämistä: puhuttu huhu, kirjapaino, sanomalehti, radio, internet ja nyt tekoäly. Matkan varrella: verilöyly, joka perusteltiin valheella, jonka paavi oli jo kumonnut, historian kuuluisin joukkopaniikki, jota ei koskaan oikeasti tapahtunut, ja 126 000 tarinan tutkimus, jonka mukaan ongelmana eivät ole botit.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/disinformation-then-and-now/
+
 Luvut
 0:00 Hirviö pohjoisessa
 0:36 Olivatko silloiset ihmiset tyhmempiä?
@@ -130,6 +132,8 @@ réfuté, la plus célèbre panique de masse de l'histoire qui n'a en réalité
 jamais eu lieu, et une étude portant sur 126 000 histoires qui a montré
 que le problème, ce ne sont pas les robots.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/disinformation-then-and-now/
+
 Chapitres
 0:00 Un monstre dans le nord
 0:36 Les gens de l'époque étaient-ils plus bêtes ?
@@ -201,6 +205,8 @@ Apa Dulu Sebelum Internet Omong Kosongnya Lebih Banyak?
 Pada abad keempat belas, seorang pengembara bisa saja bercerita bahwa di utara ada monster, dan kamu tidak punya cara untuk memeriksanya. Hari ini kamu bisa memeriksa apa pun dalam hitungan detik — dan omong kosong tetap melaju lebih jauh daripada kebenaran.
 
 Jadi apakah orang zaman itu lebih mudah percaya daripada kita? Ini adalah kisah enam teknologi yang masing-masing mempercepat penyebaran pengetahuan, dan mempercepat penyebaran omong kosong dengan tingkat percepatan yang persis sama: desas-desus lisan, mesin cetak, koran, radio, internet, dan sekarang AI. Video ini juga membahas: sebuah pembantaian yang dibenarkan dengan kebohongan yang sudah dibantah Paus, kepanikan massal paling terkenal dalam sejarah yang sebenarnya tidak pernah terjadi, dan sebuah studi atas 126.000 cerita yang menemukan bahwa masalahnya bukan bot.
+
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/disinformation-then-and-now/
 
 Bab
 0:00 Monster di utara
@@ -276,6 +282,8 @@ massacro giustificato da una menzogna che il papa aveva già smentito, il
 più famoso panico di massa della storia che non è mai avvenuto davvero, e
 uno studio su 126.000 storie che ha scoperto che il problema non sono i
 bot.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/disinformation-then-and-now/
 
 Capitoli
 0:00 Un mostro a nord
@@ -366,6 +374,8 @@ berühmteste Massenpanik der Geschichte, die es nie gegeben hat, und eine
 Studie zu 126.000 Geschichten, die herausfand, dass das Problem nicht die
 Bots sind.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/disinformation-then-and-now/
+
 Kapitel
 0:00 Ein Ungeheuer im Norden
 0:36 Waren die Leute damals dümmer?
@@ -450,6 +460,8 @@ już wcześniej obalił, najsłynniejsza masowa panika w historii, która
 nigdy naprawdę się nie wydarzyła, i badanie 126 000 historii, z którego
 wyszło, że problemem nie są boty.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/disinformation-then-and-now/
+
 Rozdziały
 0:00 Potwór na północy
 0:36 Czy ludzie z tamtych czasów byli głupsi?
@@ -531,6 +543,8 @@ pânico coletivo mais famoso da história que na verdade nunca aconteceu, e
 um estudo de 126.000 histórias que descobriu que o problema não são os
 bots.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/disinformation-then-and-now/
+
 Capítulos
 0:00 Um monstro no norte
 0:36 As pessoas daquela época eram mais burras?
@@ -603,6 +617,8 @@ On dördüncü yüzyılda bir gezgin sana kuzeyde bir canavar olduğunu anlatabi
 
 Peki o zamanın insanları bizden daha mı saftı? Bu, her biri bilginin yayılmasını hızlandıran ve saçmalığın yayılmasını tam olarak o kadar hızlandıran altı teknolojinin hikâyesi: ağızdan ağıza dolaşan söylenti, matbaa, gazete, radyo, internet ve şimdi yapay zekâ. Yol boyunca: papanın çoktan çürüttüğü bir yalanla gerekçelendirilmiş bir katliam, aslında hiç yaşanmamış olan tarihin en ünlü kitlesel paniği, ve sorunun botlar olmadığını bulan 126.000 hikâyelik bir araştırma.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/disinformation-then-and-now/
+
 Bölümler
 0:00 Kuzeyde bir canavar
 0:36 O zamanın insanları daha mı aptaldı?
@@ -662,6 +678,8 @@ Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci s
 У чотирнадцятому столітті мандрівник міг розповісти тобі, що на півночі живе чудовисько, і ти не мав жодного способу це перевірити. Сьогодні ти перевіриш будь-що за кілька секунд — а дурниці все одно поширюються далі, ніж правда.
 
 То чи були тодішні люди довірливіші за нас? Це історія шести технологій, кожна з яких пришвидшила поширення знань і рівно настільки ж пришвидшила поширення дурниць: усна чутка, друкарський верстат, газета, радіо, інтернет і тепер штучний інтелект. Також у відео: різанина, виправдана брехнею, яку папа вже спростував, найвідоміша масова паніка в історії, якої насправді ніколи не було, і дослідження 126 000 історій, яке виявило, що проблема не в ботах.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/disinformation-then-and-now/
 
 Розділи
 0:00 Чудовисько на півночі
@@ -723,6 +741,8 @@ Trước khi có internet, chuyện nhảm có nhiều hơn không?
 Vào thế kỷ mười bốn, một lữ khách có thể kể với bạn rằng ở phương bắc có một con quái vật, và bạn chẳng có cách nào kiểm chứng. Ngày nay bạn kiểm chứng được mọi thứ trong vài giây — vậy mà chuyện nhảm vẫn đi xa hơn sự thật.
 
 Vậy người thời đó có cả tin hơn chúng ta không? Đây là câu chuyện về sáu công nghệ, mỗi thứ đều làm cho tri thức lan nhanh hơn, và làm cho chuyện nhảm lan nhanh hơn đúng chừng ấy: lời đồn truyền miệng, máy in, báo giấy, radio, internet, và bây giờ là AI. Video cũng đề cập đến: một vụ thảm sát được biện minh bằng lời dối trá mà Giáo hoàng đã bác bỏ từ trước, cơn hoảng loạn tập thể nổi tiếng nhất lịch sử mà thực ra chưa từng xảy ra, và một nghiên cứu trên 126.000 câu chuyện cho thấy vấn đề không nằm ở đám bot.
+
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/disinformation-then-and-now/
 
 Các chương
 0:00 Một con quái vật ở phương bắc
@@ -801,6 +821,8 @@ kterou papež už předtím vyvrátil, nejslavnější hromadná panika dějin,
 která se ve skutečnosti nikdy nestala, a studie 126 000 příběhů, ze které
 vyšlo, že problém nejsou boti.
 
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/disinformation-then-and-now/
+
 Kapitoly
 0:00 Příšera na severu
 0:36 Byli tehdejší lidé hloupější?
@@ -874,6 +896,8 @@ el camino: una matanza justificada con una mentira que el papa ya había
 refutado, el pánico colectivo más famoso de la historia que en realidad
 nunca ocurrió, y un estudio de 126.000 historias que descubrió que el
 problema no son los bots.
+
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/disinformation-then-and-now/
 
 Capítulos
 0:00 Un monstruo en el norte
@@ -960,6 +984,8 @@ boktryckarkonsten, tidningen, radion, internet och nu AI. På vägen: en
 massaker rättfärdigad med en lögn som påven redan hade vederlagt,
 historiens mest berömda masspanik som aldrig faktiskt inträffade, och en
 studie av 126 000 berättelser som fann att problemet inte är botarna.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/disinformation-then-and-now/
 
 Kapitel
 0:00 Ett monster i norr

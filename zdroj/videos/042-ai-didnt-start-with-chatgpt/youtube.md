@@ -48,6 +48,8 @@ stopped; the photograph of a dog that computers could not recognise for
 fifty years; and the reason a text box on a web page mattered more than
 any of the technology behind it.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/ai-didnt-start-with-chatgpt/
+
 Chapters
 00:00 A box on a web page
 00:39 ELIZA

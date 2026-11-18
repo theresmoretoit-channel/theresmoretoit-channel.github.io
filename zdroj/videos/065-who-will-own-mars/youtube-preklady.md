@@ -56,6 +56,8 @@ For All Mankind ja The Expanse. Jos haluat ohittaa sen, siirry kohtaan
 Tekstitykset on kirjoitettu tätä videota varten, ei koneellisesti. Toisena
 ääniraitana on amerikanenglanti.
 
+Koko teksti, lähteet ja käännökset: https://theresmoretoit-channel.github.io/fi/videos/who-will-own-mars/
+
 LUVUT
 00:00 Kaupunki toisella planeetalla
 00:49 Ulkoavaruussopimus
@@ -112,6 +114,8 @@ Les sous-titres sont écrits pour cette vidéo, pas générés
 automatiquement. Une piste audio en anglais américain est disponible en
 seconde piste.
 
+Transcription complète, sources et traductions : https://theresmoretoit-channel.github.io/fr/videos/who-will-own-mars/
+
 CHAPITRES
 00:00 Une ville sur une autre planète
 00:49 Le traité de l'espace
@@ -167,6 +171,8 @@ Expanse. Kalau ingin melewatinya, langsung ke 08:30.
 Subtitel ditulis khusus untuk video ini, bukan dibuat otomatis. Trek audio
 bahasa Inggris Amerika tersedia sebagai trek audio kedua.
 
+Transkrip lengkap, sumber, dan terjemahan: https://theresmoretoit-channel.github.io/id/videos/who-will-own-mars/
+
 BAB
 00:00 Sebuah kota di planet lain
 00:49 Traktat Antariksa
@@ -220,6 +226,8 @@ Expanse. Se vuoi saltare questa parte, vai a 08:30.
 
 I sottotitoli sono scritti per questo video, non generati automaticamente.
 È disponibile una seconda traccia audio in inglese americano.
+
+Trascrizione completa, fonti e traduzioni: https://theresmoretoit-channel.github.io/it/videos/who-will-own-mars/
 
 CAPITOLI
 00:00 Una città su un altro pianeta
@@ -276,6 +284,8 @@ Die Untertitel sind für dieses Video geschrieben, nicht automatisch
 erzeugt. Eine amerikanisch-englische Tonspur ist als zweite Tonspur
 verfügbar.
 
+Vollständiger Text, Quellen und Übersetzungen: https://theresmoretoit-channel.github.io/de/videos/who-will-own-mars/
+
 KAPITEL
 00:00 Eine Stadt auf einem anderen Planeten
 00:49 Der Weltraumvertrag
@@ -331,6 +341,8 @@ The Expanse. Jeśli chcesz je pominąć, przeskocz do 08:30.
 Napisy są napisane do tego filmu, nie wygenerowane automatycznie. Druga
 ścieżka dźwiękowa jest dostępna w amerykańskiej angielszczyźnie.
 
+Pełna transkrypcja, źródła i tłumaczenia: https://theresmoretoit-channel.github.io/pl/videos/who-will-own-mars/
+
 ROZDZIAŁY
 00:00 Miasto na innej planecie
 00:49 Traktat o przestrzeni kosmicznej
@@ -385,6 +397,8 @@ The Expanse. Se quiser pular essa parte, vá para 08:30.
 As legendas foram escritas para este vídeo, não geradas automaticamente.
 Há uma faixa de áudio em inglês americano como segunda faixa.
 
+Transcrição completa, fontes e traduções: https://theresmoretoit-channel.github.io/pt-br/videos/who-will-own-mars/
+
 CAPÍTULOS
 00:00 Uma cidade em outro planeta
 00:49 O Tratado do Espaço Exterior
@@ -438,6 +452,8 @@ Expanse'ten bahsediyor. Bu kısmı atlamak istersen 08:30'a geç.
 
 Altyazılar bu video için yazıldı, otomatik olarak oluşturulmadı. İkinci ses parçası olarak Amerikan İngilizcesi de mevcut.
 
+Metnin tamamı, kaynaklar ve çeviriler: https://theresmoretoit-channel.github.io/tr/videos/who-will-own-mars/
+
 BÖLÜMLER
 00:00 Başka bir gezegende bir şehir
 00:49 Dış Uzay Antlaşması
@@ -490,6 +506,8 @@ Expanse. Якщо хочеш це пропустити, перейди на 08:3
 
 Субтитри написані для цього відео, а не згенеровані автоматично. Другою
 звуковою доріжкою доступна американська англійська.
+
+Повний текст, джерела та переклади: https://theresmoretoit-channel.github.io/uk/videos/who-will-own-mars/
 
 РОЗДІЛИ
 00:00 Місто на іншій планеті
@@ -546,6 +564,8 @@ Expanse. Nếu muốn bỏ qua, hãy chuyển đến 08:30.
 Phụ đề được viết riêng cho video này, không phải tạo tự động. Có sẵn một
 bản âm thanh tiếng Anh Mỹ làm bản âm thanh thứ hai.
 
+Toàn văn, nguồn và bản dịch: https://theresmoretoit-channel.github.io/vi/videos/who-will-own-mars/
+
 CHƯƠNG
 00:00 Một thành phố trên hành tinh khác
 00:49 Hiệp ước Không gian vũ trụ
@@ -598,6 +618,8 @@ a The Expanse. Jestli je chceš přeskočit, skoč na 08:30.
 
 Titulky jsou k tomuhle videu napsané, ne strojově vygenerované. Jako druhá
 zvuková stopa je k dispozici americká angličtina.
+
+Celý text, zdroje a překlady: https://theresmoretoit-channel.github.io/cs/videos/who-will-own-mars/
 
 KAPITOLY
 00:00 Město na jiné planetě
@@ -654,6 +676,8 @@ Los subtítulos están escritos para este vídeo, no generados
 automáticamente. Hay una pista de audio en inglés americano como segunda
 pista.
 
+Transcripción completa, fuentes y traducciones: https://theresmoretoit-channel.github.io/es/videos/who-will-own-mars/
+
 CAPÍTULOS
 00:00 Una ciudad en otro planeta
 00:49 El Tratado del Espacio Ultraterrestre
@@ -706,6 +730,8 @@ Expanse. Vill du hoppa över det, gå till 08:30.
 
 Undertexterna är skrivna för den här videon, inte automatgenererade. Ett
 amerikansk-engelskt ljudspår finns som andra ljudspår.
+
+Hela texten, källor och översättningar: https://theresmoretoit-channel.github.io/sv/videos/who-will-own-mars/
 
 KAPITEL
 00:00 En stad på en annan planet

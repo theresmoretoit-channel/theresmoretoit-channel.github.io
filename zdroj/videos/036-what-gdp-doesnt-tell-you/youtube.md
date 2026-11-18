@@ -67,6 +67,8 @@ None of which makes GDP useless. Quite the opposite. A reasonably
 consistent thermometer beats no thermometer at all. The problem is
 asking a thermometer to tell you your blood pressure.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/what-gdp-doesnt-tell-you/
+
 CHAPTERS
 0:00 How a hurricane can raise GDP
 0:27 What GDP actually measures

@@ -66,6 +66,8 @@ Sources: W. Bertozzi, Speed and Kinetic Energy of Relativistic Electrons, Am. J.
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-cant-we-travel-faster-than-light/
+
 CHAPTERS
 00:00 A reply before the message
 00:40 Measuring the speed limit

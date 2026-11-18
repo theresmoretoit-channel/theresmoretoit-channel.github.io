@@ -60,6 +60,8 @@ An earlier video asked what it would take to prove God exists: https://youtu.be/
 
 Subtitles are written for this video, not auto-generated. An American English audio track is available as a second audio track.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/if-god-exists-what-is-god/
+
 CHAPTERS
 00:00 Suppose we prove God exists
 00:58 Where is God?

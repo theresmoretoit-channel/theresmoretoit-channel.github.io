@@ -19,6 +19,8 @@ This isn't a complaint about quality — the hardware is superb. It's a question
 
 And then the part that makes it genuinely hard: the same control that stops you fitting a screen you bought is the reason your headphones connect before you've asked them to. Take one away and you take the other.
 
+Full transcript, sources and translations: https://theresmoretoit-channel.github.io/videos/why-do-some-people-hate-apple/
+
 Chapters
 0:00 You own your phone
 0:39 The socket that disappeared
