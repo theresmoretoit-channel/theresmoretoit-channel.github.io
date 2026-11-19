@@ -4,7 +4,8 @@
 # Repo Pages obsahuje podklady (zdroj/: web.py, texty videí, časy zveřejnění)
 # a zmenšené obrázky (obrazky/), ne hotový web. Stavba běží
 #   - po každém pushi z web_publikuj.sh,
-#   - každou hodinu, ale jen když od minula vyšlo naplánované video
+#   - kolem 21:00 Prahy po deseti minutách, jinak po hodině — ale stavba jen,
+#     když od minula vyšlo naplánované video
 #     (porovná `web.py --vydana` s /stav.json živého webu),
 #   - ručně (Actions -> Web -> Run workflow).
 # Takže naplánované video přibude na web do hodiny po zveřejnění, i když
@@ -13,8 +14,13 @@ name: Web
 on:
   push:
     branches: [main]
+  # GitHub plánované běhy při zátěži zpožďuje i ZAHAZUJE: 2026-11-19 po hodinovém
+  # "7 * * * *" proběhly jen 01:15, 10:14 a 19:27 UTC, takže 157 (vyšlo 20:00 UTC)
+  # na webu do půlnoci nebylo. Proto hustě kolem vydání (21:00 Praha = 20:00 UTC
+  # v zimě, 19:00 v létě) a k tomu pojistka po hodině. Běh bez změny trvá ~20 s.
   schedule:
-    - cron: "7 * * * *"
+    - cron: "4,14,24,34,44,54 19-21 * * *"
+    - cron: "41 * * * *"
   workflow_dispatch:
 permissions:
   contents: read
