@@ -1,0 +1,705 @@
+1
+00:00:00,000 --> 00:00:05,620
+In 1993, a game called Doom ran on a
+computer with four megabytes of memory.
+
+2
+00:00:06,261 --> 00:00:09,421
+That's about the size
+of a single photo on your phone.
+
+3
+00:00:10,091 --> 00:00:12,171
+There was no 3D accelerator.
+
+4
+00:00:12,951 --> 00:00:15,071
+The main processor did all the rendering.
+
+5
+00:00:15,863 --> 00:00:19,023
+Today, a developer starts with an engine,
+like Unity or Unreal,
+
+6
+00:00:19,253 --> 00:00:23,463
+that takes care of graphics, sound,
+memory and the hardware.
+
+7
+00:00:24,173 --> 00:00:26,713
+On DOS, all of that
+was the developer's problem.
+
+8
+00:00:26,793 --> 00:00:29,293
+And quite often, the player's too.
+
+9
+00:00:29,945 --> 00:00:32,565
+So how hard was it to make a game for DOS?
+
+10
+00:00:35,205 --> 00:00:38,265
+Let's start with memory,
+because memory was a mess.
+
+11
+00:00:38,907 --> 00:00:44,727
+The original IBM PC, from 1981,
+could address one megabyte of memory.
+
+12
+00:00:45,024 --> 00:00:49,124
+But only the first six hundred and forty
+kilobytes were meant for programs.
+
+13
+00:00:49,877 --> 00:00:53,717
+The other three hundred and eighty-four
+were reserved for video memory,
+
+14
+00:00:53,797 --> 00:00:55,717
+expansion cards and the BIOS.
+
+15
+00:00:56,587 --> 00:01:01,447
+For more than a decade, DOS normally
+started programs inside that space.
+
+16
+00:01:02,187 --> 00:01:04,467
+Anything beyond it took extra work.
+
+17
+00:01:05,647 --> 00:01:07,727
+That's where the famous line comes from.
+
+18
+00:01:07,807 --> 00:01:11,067
+640K ought to be enough for anybody.
+
+19
+00:01:11,847 --> 00:01:13,967
+It's usually credited to Bill Gates.
+
+20
+00:01:14,687 --> 00:01:18,067
+There's no record that he ever said it,
+and he denies it.
+
+21
+00:01:19,137 --> 00:01:23,217
+By the early nineties,
+a PC came with four megabytes, or eight.
+
+22
+00:01:23,541 --> 00:01:26,881
+And a game could still stop
+with the words "not enough memory".
+
+23
+00:01:27,605 --> 00:01:30,965
+Having the memory and being able to use it
+were two different things.
+
+24
+00:01:33,395 --> 00:01:36,855
+One way around it was expanded memory,
+or EMS.
+
+25
+00:01:37,757 --> 00:01:42,017
+A sixty-four kilobyte window sat
+in the upper part of that first megabyte.
+
+26
+00:01:42,417 --> 00:01:48,217
+Through it, a program could see four pages
+of extra memory, sixteen kilobytes each,
+
+27
+00:01:48,449 --> 00:01:51,709
+and swap them for others,
+like turning the pages of a book
+
+28
+00:01:51,939 --> 00:01:53,769
+through a hole in a sheet of paper.
+
+29
+00:01:54,508 --> 00:01:58,488
+Another way was extended memory,
+reached through a driver called HIMEM.
+
+30
+00:02:00,804 --> 00:02:03,884
+And this is where the developer's problem
+became the player's.
+
+31
+00:02:04,719 --> 00:02:07,979
+Drivers for the mouse, the CD drive
+or the sound card
+
+32
+00:02:08,209 --> 00:02:12,639
+took a bite out of that precious memory,
+unless you managed to load them high.
+
+33
+00:02:13,005 --> 00:02:16,805
+So players learned to edit two files,
+CONFIG.SYS and AUTOEXEC.BAT.
+
+34
+00:02:18,435 --> 00:02:20,135
+One game wanted EMS.
+
+35
+00:02:21,255 --> 00:02:24,765
+Another wanted it switched off,
+with a setting called NOEMS.
+
+36
+00:02:25,135 --> 00:02:28,195
+And a third needed every free kilobyte.
+
+37
+00:02:28,625 --> 00:02:33,025
+In 1993, MS-DOS 6 added a menu at startup.
+
+38
+00:02:33,820 --> 00:02:37,080
+You picked the configuration
+for the game you wanted to play,
+
+39
+00:02:37,240 --> 00:02:39,640
+and the computer started up for that game.
+
+40
+00:02:40,252 --> 00:02:44,512
+Some people ended up with a separate entry
+for almost every game they owned.
+
+41
+00:02:46,932 --> 00:02:50,932
+But by then, the bigger games had found
+a way around the limits of DOS.
+
+42
+00:02:51,443 --> 00:02:54,523
+Since the 386,
+the processor itself could run
+
+43
+00:02:54,753 --> 00:02:59,708
+in 32-bit protected mode,
+with room for up to four gigabytes.
+
+44
+00:03:00,008 --> 00:03:02,688
+We've looked at protected mode
+in an earlier video.
+
+45
+00:03:02,768 --> 00:03:05,348
+DOS, though, couldn't use it.
+
+46
+00:03:05,587 --> 00:03:09,067
+So games brought their own helper,
+a DOS extender.
+
+47
+00:03:09,787 --> 00:03:11,107
+The best known was DOS/4GW.
+
+48
+00:03:13,237 --> 00:03:16,916
+It came bundled with a popular compiler,
+Watcom C.
+
+49
+00:03:17,016 --> 00:03:20,656
+When a game started,
+DOS/4GW switched the processor
+
+50
+00:03:20,886 --> 00:03:23,736
+into protected mode,
+giving the game access
+
+51
+00:03:23,966 --> 00:03:26,176
+to memory beyond the DOS limit.
+
+52
+00:03:26,840 --> 00:03:31,460
+DOS was still there underneath,
+providing services like file access.
+
+53
+00:03:32,180 --> 00:03:37,160
+But the game now ran in protected mode,
+not as a traditional DOS program.
+
+54
+00:03:37,882 --> 00:03:40,322
+If you played DOS games in the nineties,
+
+55
+00:03:40,402 --> 00:03:42,802
+you've seen its name
+flash by on the screen.
+
+56
+00:03:45,572 --> 00:03:46,832
+Now, the picture.
+
+57
+00:03:47,792 --> 00:03:50,452
+In one of the most widely used VGA modes,
+
+58
+00:03:50,532 --> 00:03:53,662
+called Mode 13h,
+the screen was three hundred and twenty
+
+59
+00:03:53,892 --> 00:03:58,405
+by two hundred pixels,
+in two hundred and fifty-six colours.
+
+60
+00:03:58,705 --> 00:04:00,425
+Each pixel was one byte.
+
+61
+00:04:00,985 --> 00:04:03,605
+To colour a pixel,
+you wrote a number into memory.
+
+62
+00:04:04,105 --> 00:04:07,085
+No graphics library. Just memory.
+
+63
+00:04:07,829 --> 00:04:10,649
+The whole screen took
+sixty-four thousand bytes.
+
+64
+00:04:11,403 --> 00:04:15,523
+That's just under sixty-four kilobytes,
+small enough to fit in one segment,
+
+65
+00:04:15,723 --> 00:04:19,123
+the block a 16-bit program
+could address in one go.
+
+66
+00:04:20,023 --> 00:04:22,343
+For once, memory was on your side.
+
+67
+00:04:23,514 --> 00:04:25,954
+But if you draw straight
+onto the visible screen,
+
+68
+00:04:26,034 --> 00:04:29,714
+the player sees half-finished pictures,
+and the image flickers.
+
+69
+00:04:30,115 --> 00:04:32,915
+So games drew each frame
+in a hidden buffer first,
+
+70
+00:04:32,995 --> 00:04:35,815
+then copied the finished image
+into video memory.
+
+71
+00:04:38,405 --> 00:04:43,425
+In 1991, Michael Abrash, a programmer
+and writer, published a better way.
+
+72
+00:04:43,705 --> 00:04:45,405
+He called it Mode X.
+
+73
+00:04:46,119 --> 00:04:50,179
+It used a part of the VGA
+that most programmers had never touched.
+
+74
+00:04:50,845 --> 00:04:55,025
+It gave square pixels, and room
+for several screens in video memory.
+
+75
+00:04:55,698 --> 00:04:59,698
+The game drew on a screen nobody
+could see, and then simply switched to it.
+
+76
+00:05:00,198 --> 00:05:02,158
+But it was much harder to program.
+
+77
+00:05:04,788 --> 00:05:08,068
+Then there was sound.
+And sound was a lottery.
+
+78
+00:05:08,790 --> 00:05:11,690
+The PC's own speaker was built to beep.
+
+79
+00:05:11,993 --> 00:05:15,113
+Then came sound cards,
+and other sound hardware.
+
+80
+00:05:15,733 --> 00:05:17,793
+No two of them worked the same way.
+
+81
+00:05:18,341 --> 00:05:21,741
+AdLib, with a Yamaha chip
+that synthesised music.
+
+82
+00:05:22,061 --> 00:05:25,721
+Sound Blaster, which could also play
+recorded sound.
+
+83
+00:05:26,397 --> 00:05:30,917
+The Roland MT-32,
+an expensive box with richer instruments.
+
+84
+00:05:31,657 --> 00:05:32,857
+The Gravis UltraSound.
+
+85
+00:05:33,961 --> 00:05:37,101
+Supporting all of them
+meant writing different drivers.
+
+86
+00:05:37,619 --> 00:05:40,119
+And the game had to know
+where the card was.
+
+87
+00:05:40,559 --> 00:05:43,639
+Its port, its interrupt,
+and its DMA channel.
+
+88
+00:05:44,266 --> 00:05:49,446
+The usual answer, for a Sound Blaster,
+was port 220, IRQ 7, DMA 1.
+
+89
+00:05:49,526 --> 00:05:51,366
+Usually.
+
+90
+00:05:52,087 --> 00:05:55,867
+Get one of them wrong,
+and the game was silent. Or it froze.
+
+91
+00:05:57,286 --> 00:06:01,406
+In 1991, a programmer called John Miles
+released a library
+
+92
+00:06:01,636 --> 00:06:05,006
+that talked to many sound cards
+through a single interface.
+
+93
+00:06:05,702 --> 00:06:10,382
+A game could write its sound code once,
+and let the library deal with the card.
+
+94
+00:06:11,003 --> 00:06:13,583
+It was another layer
+between the game and the hardware.
+
+95
+00:06:14,223 --> 00:06:15,583
+Keep that in mind.
+
+96
+00:06:18,093 --> 00:06:19,513
+And then there was speed.
+
+97
+00:06:20,193 --> 00:06:23,293
+Programmers counted
+every step the processor took.
+
+98
+00:06:23,951 --> 00:06:25,871
+To find a pixel on the screen,
+
+99
+00:06:25,991 --> 00:06:29,251
+you multiply its row
+by three hundred and twenty.
+
+100
+00:06:29,551 --> 00:06:33,031
+On older processors,
+multiplying could be expensive.
+
+101
+00:06:33,635 --> 00:06:38,105
+But three hundred and twenty is two
+hundred and fifty-six plus sixty-four.
+
+102
+00:06:38,455 --> 00:06:40,275
+Both are powers of two.
+
+103
+00:06:40,459 --> 00:06:44,539
+So you can replace the multiplication
+with two bit shifts and an addition.
+
+104
+00:06:45,891 --> 00:06:48,551
+Chris Sawyer went all
+the way down to the metal.
+
+105
+00:06:49,351 --> 00:06:54,931
+He wrote Transport Tycoon, in 1994,
+almost entirely in assembly language,
+
+106
+00:06:55,067 --> 00:06:59,327
+the instructions the processor
+itself understands, one by one.
+
+107
+00:07:01,435 --> 00:07:04,335
+And sometimes,
+even all of that wasn't enough.
+
+108
+00:07:05,009 --> 00:07:07,529
+In 1990, Wing Commander had a bug
+
+109
+00:07:07,759 --> 00:07:10,789
+that the team couldn't find,
+with the deadline close.
+
+110
+00:07:11,162 --> 00:07:14,942
+When you quit the game, the memory
+manager crashed with an error message.
+
+111
+00:07:15,374 --> 00:07:18,674
+So a programmer, Ken Demarest,
+opened the memory manager
+
+112
+00:07:18,904 --> 00:07:22,454
+in a hex editor
+and changed the text of that message.
+
+113
+00:07:23,129 --> 00:07:25,969
+Now it said:
+"Thank you for playing Wing Commander."
+
+114
+00:07:26,830 --> 00:07:30,350
+Then the team found the real bug,
+and the joke never shipped.
+
+115
+00:07:31,086 --> 00:07:33,546
+Some players are still sure they saw it.
+
+116
+00:07:34,106 --> 00:07:37,626
+And later Origin games
+really did say goodbye like that.
+
+117
+00:07:40,176 --> 00:07:41,916
+Which brings us back to Doom.
+
+118
+00:07:43,456 --> 00:07:48,276
+Doom used DOS/4GW,
+and ran as a 32-bit program.
+
+119
+00:07:49,035 --> 00:07:52,415
+Floating-point hardware
+wasn't guaranteed on every PC.
+
+120
+00:07:52,869 --> 00:07:55,149
+So Doom used fixed-point arithmetic.
+
+121
+00:07:56,069 --> 00:07:59,609
+Whole numbers, with the lower sixteen bits
+standing for the fraction.
+
+122
+00:08:00,391 --> 00:08:02,311
+And its world wasn't
+really three-dimensional.
+
+123
+00:08:03,922 --> 00:08:08,402
+Every level is a flat floor plan, with a
+height for each floor and each ceiling.
+
+124
+00:08:09,031 --> 00:08:11,131
+One room can never sit above another.
+
+125
+00:08:11,211 --> 00:08:14,011
+And you can't properly look up or down.
+
+126
+00:08:14,655 --> 00:08:19,735
+Before a level could be played, a tool
+cut the map into a binary tree, a BSP.
+
+127
+00:08:20,468 --> 00:08:23,068
+The engine walks that tree
+from front to back,
+
+128
+00:08:23,188 --> 00:08:26,928
+starting on the player's side,
+and skips areas that can't be seen.
+
+129
+00:08:28,119 --> 00:08:30,579
+And Doom wasn't even written on DOS.
+
+130
+00:08:31,415 --> 00:08:36,995
+id Software built it on NeXT workstations,
+and compiled the result for DOS.
+
+131
+00:08:37,804 --> 00:08:40,164
+Doom wasn't a general 3D engine.
+
+132
+00:08:40,884 --> 00:08:43,384
+It was built for exactly
+one kind of world.
+
+133
+00:08:44,024 --> 00:08:47,044
+That specialisation
+helped it run on a 386.
+
+134
+00:08:47,859 --> 00:08:50,259
+And other studios wanted that world.
+
+135
+00:08:50,963 --> 00:08:57,643
+Raven Software licensed Doom's engine
+for Heretic, in 1994, and Hexen, in 1995.
+
+136
+00:08:58,653 --> 00:09:01,853
+Doom helped establish
+a new way of making games.
+
+137
+00:09:02,393 --> 00:09:07,073
+Studios could license an existing engine,
+instead of building it all from scratch.
+
+138
+00:09:09,753 --> 00:09:14,193
+A memory extender.
+A sound library. A licensed engine.
+
+139
+00:09:14,823 --> 00:09:17,483
+Each one took a problem
+off the developer's hands.
+
+140
+00:09:17,843 --> 00:09:22,563
+And the layers kept growing, into the
+engines that developers start with today.
+
+141
+00:09:25,573 --> 00:09:28,013
+So was making games harder back then?
+
+142
+00:09:28,333 --> 00:09:29,813
+In many ways, yes.
+
+143
+00:09:30,356 --> 00:09:32,256
+But the difficulty didn't disappear.
+
+144
+00:09:32,896 --> 00:09:34,096
+It moved.
+
+145
+00:09:35,286 --> 00:09:37,706
+Today, developers fight
+with gigabytes of assets
+
+146
+00:09:37,936 --> 00:09:41,966
+and millions of polygons,
+instead of a few hundred kilobytes.
+
+147
+00:09:42,443 --> 00:09:45,943
+On DOS, even the player
+had to know where their memory went.
+
+148
+00:09:47,193 --> 00:09:49,033
+So here's a question for you.
+
+149
+00:09:49,573 --> 00:09:52,793
+Do you remember building
+a boot menu just to get one game running?
+
+150
+00:09:53,413 --> 00:09:55,613
+And was it a struggle, or half the fun?
+
+151
+00:09:56,053 --> 00:09:57,343
+Let me know in the comments.

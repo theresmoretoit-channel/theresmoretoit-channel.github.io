@@ -1,0 +1,977 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed obecná drátová chodba v perspektivě (čáry, NE grafika Doomu), nad ní ztlumeně DOOM · 1993; pod ní velký ambrový nápis 4 MB a vedle malý obrys paměťového modulu.",
+      "note": "První obrazovka nese myšlenku: celá 3D hra ve 4 MB. Žádné SDXL, žádný snímek ani logo Doomu (data nejsou volná) — chodba je generická kresba. Tatáž kompozice se vrací v S75."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Vlevo pruh 4 MB (ten z S01), vpravo obrys telefonu s jednou fotkou a pod ní pruh ONE PHOTO ≈ 3–5 MB; oba pruhy vyjdou stejně dlouhé.",
+      "note": "ANIMACE: pruh fotky doroste na délku pruhu 4 MB. Factcheck S02: řádově, JPEG 12 Mpx 2–5 MB — popisek ≈, ne =.",
+      "anim": "animace"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Chodba z S01 v rámu monitoru; vlevo čip CPU, od něj se chodba kreslí po svislých sloupcích zleva doprava. Vedle přeškrtnutý čárkovaný slot 3D ACCELERATOR.",
+      "note": "ANIMACE: procesor kreslí obraz sloupec po sloupci (Doom opravdu kreslí stěny po svislých sloupcích). Slot akcelerátoru čárkovaně = neexistoval (3D karty až 1996).",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "PÁTEŘ `vrstvy()`: nahoře deska GAME, dole HARDWARE, mezi nimi velká deska ENGINE (UNITY · UNREAL), na ní čtyři štítky GRAPHICS · SOUND · MEMORY · HARDWARE; vedle postava vývojáře u desky GAME.",
+      "note": "Zavedení páteře: sloupec vrstev mezi hrou a hardwarem, PEVNÉ souřadnice v _kit.py. Výplata v S90–S91 (vrstvy z DOSu dorostou přesně na místo desky ENGINE).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "Tatáž páteř, deska ENGINE zmizí a zůstane prázdný čárkovaný slot; čtyři štítky se rozsvítí ambrově u postavy vývojáře. Na druhé větě se dole objeví menší postava hráče a jeden štítek se rozsvítí i u ní.",
+      "note": "ANIMACE: engine se rozplyne, štítky přejdou k vývojáři (pohyb tvarů, text se jen rozsvítí). Postava hráče připraví S21.",
+      "anim": "animace"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Textová obrazovka: C:\\> s blikajícím kurzorem, nad tím otázka HOW HARD WAS IT · TO MAKE A GAME FOR DOS?",
+      "note": "ANIMACE: jen blikající kurzor. Ústřední otázka, za ní předěl.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "pamet",
+      "diagram": "MOTIV `mapa()`: svislý sloupec paměti zatím prázdný (jen obrys) s nadpisem MEMORY; uvnitř pár nesourodých bloků přes sebe — nepořádek.",
+      "note": "Zavedení mapy prvního megabajtu na pevných souřadnicích (S07–S11, S17–S20, S22, S28–S29, S33)."
+    },
+    {
+      "id": "S08",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S08.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „IBM PC 5150“): #6 „Ibm computer pc 5150 (6049156797).jpg“, public domain — stroj v pokoji, dobové prostředí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "IBM PC 5150",
+        "pick": 6,
+        "grade": {
+          "fit": 0.9
+        }
+      },
+      "pause": 0.4
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "pamet",
+      "diagram": "Mapa: sloupec 1 MB (popisek nahoře 1 MB), spodní část 640 KB ambrově FOR PROGRAMS, horní část zatím ztlumená.",
+      "note": "Poměr výšek 640 : 384 = 5 : 3, `assert`. Adresa 0 dole.",
+      "anim": "animace"
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "pamet",
+      "diagram": "Tatáž mapa: horních 384 KB se rozdělí na VIDEO MEMORY · EXPANSION CARDS · BIOS, souhrnně RESERVED.",
+      "note": "ANIMACE: tři oblasti se postupně rozsvítí v rytmu slov. Pořadí zdola nahoru: video A0000, karty (C0000), BIOS (F0000). Velikosti: video 128 KB, karty 192 KB, BIOS 64 KB — `assert` součet 384.",
+      "anim": "animace"
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "pamet",
+      "diagram": "Mapa: dole DOS, nad ním PROGRAM uvnitř 640 KB; nad horní hranou 1 MB čárkovaně pokračující sloupec s popiskem EXTRA WORK.",
+      "note": "Čárkovaně = dostupné jen se zvláštní námahou (konvence 3), ne neexistující.",
+      "pause": 1.4
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "citat",
+      "diagram": "Velký citát v uvozovkách: “640K OUGHT TO BE ENOUGH FOR ANYBODY.”",
+      "note": "Citát sám, zatím bez autora."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "citat",
+      "diagram": "Týž citát ztlumený, pod ním — BILL GATES? s otazníkem a menší NO RECORD · HE DENIES IT.",
+      "note": "Míra jistoty: nedoloženo, ne vyvráceno (Quote Investigator). Citát se NEŠKRTÁ — škrt by tvrdil „vyvráceno“.",
+      "pause": 1.4
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "pamet",
+      "diagram": "Dva vysoké pruhy 4 MB a 8 MB; u paty každého drobný ambrový úsek 640 KB.",
+      "note": "Měřítko poměrné, `assert` 640/4096 a 640/8192 výšky.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "pamet",
+      "diagram": "Textová obrazovka (monospace): řádek C:\\>GAME a pod ním Not enough memory; vedle ztlumeně pruh 8 MB z S14.",
+      "note": "Hláška obecně, ne konkrétní hra. V titulcích se překládá, anglické znění nese obraz (rozhodnutí z ranných překladů)."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "pamet",
+      "diagram": "Pruh 8 MB: spodních 640 KB ambrově CAN USE, zbytek čárkovaně ztlumený HAVE.",
+      "note": "Dva pojmy ze scénáře (having × being able to use) jako dvě části téhož pruhu. Výzva k odběru ZA touto scénou (~1:39 odhadem, ověřit v timing.json po TTS; okno 1:30–2:15): pruh vpravo od středu, levý dolní roh (x < 563, y > 1080 v 2560×1440) prázdný v S16 i S17; titulek S17 krátký.",
+      "pause": 2.2,
+      "vyzva": true
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "ems",
+      "diagram": "Mapa 1 MB vlevo; vpravo stoh stránek EXPANDED MEMORY · EMS (mimo adresní prostor).",
+      "note": "Stoh stojí MIMO sloupec — EMS není v adresním prostoru, vidí se jen oknem. Levý dolní roh prázdný (výzva přejíždí přes začátek scény): mapa i stoh od x ≥ 600."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "ems",
+      "diagram": "V horní části mapy se otevře okno 64 KB (čtyři sloty po 16 KB); ze stohu vpravo do nich přijedou čtyři stránky.",
+      "note": "ANIMACE: okno se otevře, stránky přijedou. `assert` 4 × 16 = 64. Okno leží v horních 384 KB (page frame), ne v 640 KB.",
+      "anim": "animace",
+      "pause": 0.3
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "ems",
+      "diagram": "Totéž okno; dvě stránky se vrátí do stohu a místo nich přijedou jiné.",
+      "note": "ANIMACE: výměna stránek. Metaforu knihy nese hlas (kreslená kniha v té velikosti nic nenesla, vyřazena). Scéna gramaticky pokračuje S18 (začíná „and“), proto naveti = konec S18 kvůli intonaci a krátká pauza za S18.",
+      "anim": "animace",
+      "naveti": "Through it, a program could see four pages of extra memory, sixteen kilobytes each,"
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "ems",
+      "diagram": "Mapa: nad 1 MB vyroste plný sloupec EXTENDED MEMORY · XMS, u něj štítek ovladače HIMEM.SYS.",
+      "note": "Na rozdíl od S11 plně — tady je to dosažitelné přes ovladač.",
+      "pause": 2.2
+    },
+    {
+      "id": "S21",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S21.png",
+      "prompt": "a teenager's bedroom at night in the early 1990s, a beige desktop computer and a glowing CRT monitor on a cluttered desk, stacks of floppy disks and game boxes, an empty office chair turned towards the screen, seen from behind at a distance",
+      "note": "Předěl: problém vývojáře se stává problémem hráče. Atmosféra, bez textu na obrazovce (SDXL text neumí; kdyby nakreslil pseudotext, zahodit). Nejdřív v tomhle videu je SDXL až tady (~1:45). Přijato v 1. kole (2026-11-17), funkci nese."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "hrac",
+      "diagram": "Pruh 640 KB s počítadlem FREE; do pruhu postupně vjedou bloky MOUSE, CD-ROM, SOUND a počítadlo klesá; na „load them high“ bloky vyjedou nahoru do horní paměti (UPPER MEMORY) a počítadlo se vrátí.",
+      "note": "ANIMACE: ujídání a přesun nahoru. Velikosti ovladačů a čísla FREE ilustrační — popisek nesmí tvrdit konkrétní hodnotu bez zdroje (radši bez čísel, jen délka pruhu).",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "hrac",
+      "diagram": "Dva textové panely vedle sebe (monospace, vzhled textového editoru, ne okno Windows): CONFIG.SYS (DEVICE=HIMEM.SYS, DEVICE=EMM386.EXE, DOS=HIGH,UMB, DEVICEHIGH=…) a AUTOEXEC.BAT (LH MOUSE, LH MSCDEX …).",
+      "note": "Řádky musí být platná syntaxe MS-DOS 6 (ověřit proti nápovědě MS-DOS, factcheck-zaklad).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "hrac",
+      "diagram": "Tři krabice her GAME 1 · GAME 2 · GAME 3 (bez skutečných jmen), u každé požadavek EMS · NOEMS · EVERY FREE KB; pod nimi řádek DEVICE=EMM386.EXE …, jehož konec se přepíná mezi RAM a NOEMS.",
+      "note": "ANIMACE: konec řádku se přepíná podle toho, která hra se rozsvítí. EMM386 NOEMS = horní paměť bez EMS (factcheck).",
+      "anim": "animace"
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "menu",
+      "diagram": "Textová obrazovka startovacího menu: MS-DOS 6 Startup Menu, položky 1. GAMES WITH EMS · 2. GAMES WITHOUT EMS · 3. MAXIMUM MEMORY, dole Enter a choice: 1.",
+      "note": "Vzhled podle skutečného MultiConfig menu MS-DOS 6 (ověřit znění nadpisu a výzvy v nápovědě MS-DOS 6). Pozadí tmavé, ne modré."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "menu",
+      "diagram": "Totéž menu; výběr sjede na položku 2, vedle se rozsvítí odpovídající blok [GAMES2] v CONFIG.SYS a v AUTOEXEC.BAT řádek GOTO %CONFIG%.",
+      "note": "ANIMACE: posun výběru a rozsvícení bloku. Syntaxe [menu], MENUITEM=, GOTO %CONFIG% je doložená (factcheck-zaklad).",
+      "anim": "animace"
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "menu",
+      "diagram": "Menu se prodlužuje: položky přibývají až k číslu kolem osmnácti, každá se jménem obecné hry (GAME 1…GAME 18), poslední zmizí pod okrajem.",
+      "note": "ANIMACE: přibývání položek. (Výzva tu původně byla, ale S27 končí odhadem ~3:00, mimo okno 1:30–2:15 → přesunuta za S16.)",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "extender",
+      "diagram": "Mapa 1 MB z S07–S11 vpravo od středu; od programu vede ambrová šipka nahoru skrz horní hranu 1 MB, nad ní otazník.",
+      "note": "Levý dolní roh prázdný (výzva přejíždí přes začátek této scény).",
+      "pause": 0.5
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "extender",
+      "diagram": "Oddálení: sloupec 1 MB se zmenší na tenký proužek u paty vysokého sloupce 4 GB; vedle čip 386 a popisek 32-BIT PROTECTED MODE · UP TO 4 GB.",
+      "note": "ANIMACE: oddálení mapy. Proporce: 1 MB je 1/4096 ze 4 GB, v pixelech by byl neviditelný — proužek je zvětšený a popisek to musí říct (např. 1 MB, NOT TO SCALE). Adresní prostor, ne fyzická RAM (factcheck S29).",
+      "anim": "animace"
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "extender",
+      "diagram": "Dva přepínače režimu: REAL MODE (rozsvícený, s DOS) a PROTECTED MODE (ztlumený), u druhého DOS CAN'T USE IT. Prstence ze 156 jen jako malý ztlumený symbol u PROTECTED MODE.",
+      "note": "Callback na 156 — nevysvětlovat znovu prstence. Karta YouTube na 156 v tomhle místě.",
+      "karta": "156-why-cant-one-program-take-over-your-computer",
+      "pause": 0.5
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "PÁTEŘ: GAME nahoře, HARDWARE dole (tytéž souřadnice jako S04); do prázdného slotu se zasune první vrstva DOS EXTENDER · DOS/4GW.",
+      "note": "ANIMACE: zasunutí vrstvy. První ze tří vrstev výplaty S90.",
+      "anim": "animace"
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "extender",
+      "diagram": "Krabice překladače WATCOM C (obecný obrys, ne obal) a k ní připnutý štítek DOS/4GW · INCLUDED.",
+      "note": "Bez loga a obalu Watcomu — jen jméno.",
+      "pause": 0.6
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "extender",
+      "diagram": "Přepínač REAL → PROTECTED se překlopí; na mapě z S29 se blok GAME roztáhne nad hranici 1 MB.",
+      "note": "ANIMACE: překlopení režimu a růst bloku hry. Šipka přepnutí vychází z DOS/4GW (ten přepíná, ne DOS).",
+      "anim": "animace"
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "extender",
+      "diagram": "Nahoře GAME · PROTECTED MODE, dole DOS · REAL MODE; od hry jde požadavek FILE dolů k DOS a odpověď zpět nahoru, prostředníkem DOS/4GW.",
+      "note": "ANIMACE: požadavek a odpověď. DOS slouží, nevládne: šipky kreslit jako službu (požadavek dolů, výsledek nahoru), ne jako řízení.",
+      "anim": "animace"
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "extender",
+      "diagram": "Rám CRT obrazovky, na ní řádek DOS/4GW Protected Mode Run-time a pod ním Copyright (c) Rational Systems, Inc. — bez čísla verze.",
+      "note": "ANIMACE: banner proběhne a odroluje nahoru, jako při startu hry. Verze se NEUVÁDÍ (1.97 je z 1994, Doom 1993 — factcheck-zaklad).",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "grafika",
+      "diagram": "Rám obrazovky s kótami 320 × 200 a štítkem MODE 13h; pod ním pás palety 256 barev.",
+      "note": "Kóty z `assert`. Paleta 256 políček. V0.5: S36 („Now, the picture.“) vsazena sem — samostatná tříslovná scéna končila doříkávanou schwou za „picture“ (poslech 2026-11-17)."
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "grafika",
+      "diagram": "Přiblížená mřížka pixelů; pod ní řada bajtů paměti; do jednoho bajtu se zapíše číslo a odpovídající pixel se obarví barvou z palety. Dole NO GRAPHICS LIBRARY · JUST MEMORY.",
+      "note": "ANIMACE: zápis čísla → barva pixelu, třikrát po sobě. Spojnice bajt → pixel musí vést na TEN pixel (pořadí řádek po řádku).",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "grafika",
+      "diagram": "320 × 200 = 64,000 BYTES; mřížka obrazovky se zaplní.",
+      "note": "ANIMACE: počítadlo do 64 000. `assert` 320*200 == 64000.",
+      "anim": "animace"
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "grafika",
+      "diagram": "Rámeček ONE SEGMENT · 65,536 BYTES a do něj zasunutý pruh 64,000; malá mezera nahoře zůstane.",
+      "note": "ANIMACE: pruh se zasune. Mezera odpovídá 1 536 bajtům, `assert` poměru. Ambrová = segment (o tom je řeč).",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "grafika",
+      "diagram": "Rám obrazovky, na kterém se kreslí obraz přímo: napůl hotový snímek, mazání a blikání.",
+      "note": "ANIMACE: rozkreslený snímek bliká. Blikání mírné (žádné stroboskopické záblesky celé plochy — max. ~3 za s, jen část obrazu).",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "grafika",
+      "diagram": "Vlevo čárkovaná obrazovka HIDDEN BUFFER, v ní se snímek dokreslí; šipka COPY do plné obrazovky VIDEO MEMORY vpravo.",
+      "note": "ANIMACE: kreslení do bufferu, pak kopie. Kopie je přesun dat (šipka), ne přepnutí — rozdíl proti Mode X v S46.",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S43",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (dotaz „Michael Abrash“): #0 „Michael Abrash at Facebook's F8 2015.jpg“, CC BY 2.0 — celá postava. Portrét = fit 0.84, BEZ zoomu. Snímek je z 2015, ne z 1991 — ve scéně se nic o roce snímku netvrdí.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Michael Abrash",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "modex",
+      "diagram": "Video paměť VGA se rozloží na čtyři roviny PLANE 0–3 nad sebou (šikmý pohled); pixely jedné řádky obrazovky se rozdělí do rovin po čtyřech (0,1,2,3,0,1,…).",
+      "note": "ANIMACE (přání ze ZV 0.1 i 0.2): rozložení na roviny. Barva = číslo roviny, ne význam — legenda PLANE 0…3. Mode X NEBYL nedokumentovaný, nápis to nesmí naznačit.",
+      "anim": "animace"
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "modex",
+      "diagram": "Vlevo pixel 320 × 200 jako obdélníček, vpravo 320 × 240 čtvereček (SQUARE PIXELS); pod tím pás video paměti 256 KB, do kterého se vejdou tři stránky PAGE 1–3.",
+      "note": "ANIMACE: obdélník se srovná na čtverec, stránky se poskládají do paměti. `assert` 3 × 76 800 ≤ 262 144.",
+      "anim": "animace"
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "modex",
+      "diagram": "Tři stránky z S45; hra kreslí do skryté PAGE 2, ukazatel DISPLAY se přepne z PAGE 1 na PAGE 2. Na poslední větě se vedle objeví hustá spleť kódu MUCH HARDER TO PROGRAM.",
+      "note": "ANIMACE: přepnutí stránky (ukazatel skočí, data se nehýbou — proti kopii v S42). Hlavní animace grafického bloku.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Čtyři karty rubem nahoru jako v loterii, na každé otazník; nadpis SOUND.",
+      "note": "„Loterie“ jako zakryté karty, které se otočí v S49–S51."
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Malý reproduktor PC SPEAKER a z něj obdélníkový signál BEEP.",
+      "note": "ANIMACE: obdélníková vlna běží (obdélník, ne sinus — tak reproduktor PC opravdu hrál).",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Karty z S47 se otočí: čtyři různé siluety zvukových karet, každá s jiným konektorem a tabulkou nastavení; NO TWO ALIKE.",
+      "note": "ANIMACE: otočení karet.",
+      "anim": "animace"
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Dvě karty vedle sebe: ADLIB · YAMAHA FM (syntetizovaná vlna) a SOUND BLASTER · + RECORDED SOUND (vlna nahrávky).",
+      "note": "Kreslené schéma, ne fotky (dvě karty v jedné scéně). FM = OPL2/YM3812 (factcheck); číslo čipu do obrazu netřeba."
+    },
+    {
+      "id": "S51",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S51.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (dotaz „Roland MT-32“): #0 „MT 32.jpg“, public domain. GUS ve větě jen jménem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Roland MT-32",
+        "pick": 0,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Nahoře GAME, dole čtyři karty ADLIB · SOUND BLASTER · MT-32 · ULTRASOUND; od hry ke každé vlastní čára s vlastním DRIVER.",
+      "note": "Čtyři samostatné spoje = čtyři ovladače. Kontrast k S57.",
+      "pause": 0.5
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "setup",
+      "diagram": "Textová obrazovka SETUP (obecná, ne konkrétní hra): SOUND CARD · PORT · IRQ · DMA, hodnoty se protáčejí.",
+      "note": "ANIMACE: hodnoty se protáčejí jako při hledání.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "setup",
+      "diagram": "Týž SETUP, hodnoty se zastaví na PORT 220 · IRQ 7 · DMA 1; na „Usually.“ se vedle objeví malé ztlumené USUALLY.",
+      "note": "Tovární nastavení SB (factcheck). „Usually“ ztlumeně, ne jako razítko — humor nese hlas.",
+      "anim": "animace"
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "setup",
+      "diagram": "Týž SETUP s jednou špatnou hodnotou (IRQ 5 ambrově); vpravo dva výsledky: přeškrtnutý reproduktor SILENT a zamrzlá obrazovka FROZEN.",
+      "note": "ANIMACE: hodnota se změní, výsledek se objeví. Ambrová na chybné hodnotě = o té je řeč.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Karta AUDIO INTERFACE LIBRARY · JOHN MILES · 1991.",
+      "note": "Jméno knihovny (AIL) je doložené ve factchecku, ve scénáři jen „a library“ — v obraze smí být."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "zvuk",
+      "diagram": "Uspořádání S52, ale mezi hrou a kartami se vsune vrstva SOUND LIBRARY: od hry jediná čára, z knihovny se rozvětví ke čtyřem kartám.",
+      "note": "ANIMACE: čtyři čáry se slijí do jedné. Tentýž tvar desky jako vrstvy páteře (`vrstva()` z _kit.py).",
+      "anim": "animace"
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "PÁTEŘ: GAME, pod ní DOS/4GW (ztlumeně) a nově SOUND LIBRARY (ambrově), dole HARDWARE; jeden slot zůstává prázdný čárkovaně.",
+      "note": "„Keep that in mind“ — prázdný slot čeká na třetí vrstvu (S89).",
+      "pause": 2.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "rychlost",
+      "diagram": "Čip CPU, nad ním počítadlo CYCLES a řada kroků (tiků), které se postupně odškrtávají.",
+      "note": "ANIMACE: tikání počítadla.",
+      "anim": "animace"
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "rychlost",
+      "diagram": "Mřížka obrazovky s jedním ambrovým pixelem (x, y); vzorec ADDRESS = ROW × 320 + COLUMN.",
+      "note": "Mřížka tatáž jako v S38 (callback)."
+    },
+    {
+      "id": "S63b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63b.png",
+      "diagram_generator": "rychlost",
+      "diagram": "Dva pruhy: MULTIPLY dlouhý, SHIFT krátký; pod nimi ztlumeně 8088: ~120 CYCLES vs 2.",
+      "note": "Čísla z factchecku (MUL 118–133, posun 2 na 8088), proto s označením procesoru. Na 386 rozdíl menší — scénář říká „older processors“.",
+      "pause": 0.5
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "rychlost",
+      "diagram": "320 = 256 + 64, pod tím 2⁸ + 2⁶.",
+      "note": "`assert` 256 + 64 == 320.",
+      "vycet": 0.3,
+      "pause": 0.4
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "rychlost",
+      "diagram": "Řada bitů ROW; dvě kopie se posunou doleva o 8 a o 6 míst a sečtou se; vpravo (ROW << 8) + (ROW << 6).",
+      "note": "ANIMACE: posun bitů a součet. Příklad s konkrétním řádkem (např. 5 → 1600), `assert` výsledku.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S67",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S67.png",
+      "note": "OpenTTD (GPL), volná předělávka Transport Tycoonu — originál volný není; popisek to říká. PICK Z KONTAKTNÍHO LISTU: „Farhill Transport, 14th Mar 1939.png“ — krajina s tratí a městem, bez menu; „Cardhill“ zamítnut (ruské popisky, velkoměsto). Assembler nese animace S68. „Almost“, ne 99 % (to je RollerCoaster Tycoon).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Farhill Transport",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86,
+          "tint_amount": 0,
+          "vignette": false,
+          "popisek": "TRANSPORT TYCOON · SHOWN AS OPENTTD, A FREE REMAKE"
+        }
+      },
+      "pause": 0.3
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "rychlost",
+      "diagram": "Instrukce z S67 vjíždějí jedna po druhé do čipu CPU; ONE BY ONE.",
+      "note": "ANIMACE: instrukce po jedné. Scéna pokračuje větou S67 (začíná „the instructions“), proto naveti a krátká pauza za S67.",
+      "anim": "animace",
+      "pause": 2.4,
+      "naveti": "He wrote it almost entirely in assembly language,"
+    },
+    {
+      "id": "S69",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S69.png",
+      "prompt": "a small software studio office late at night in 1990, several beige computers with glowing CRT monitors, desks covered with printouts, coffee mugs and floppy disks, a wall calendar, nobody in the room, quiet tense atmosphere",
+      "note": "Předěl k historce Wing Commanderu. Atmosféra, bez lidí v detailu, bez textu. Přijato v 1. kole (2026-11-17), funkci nese."
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "wing",
+      "diagram": "WING COMMANDER · 1990; vedle brouk (chyba) a kalendář s blízkým termínem.",
+      "note": "Brouk = softwarová chyba (konvence). Bez loga a obalu hry.",
+      "pause": 0.5
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "wing",
+      "diagram": "Textová obrazovka: po ukončení hry chybová hláška memory manageru (obecně MEMORY MANAGER · ERROR, ne vymyšlené přesné znění EMM386).",
+      "note": "Přesné znění chyby neznáme — obraz ho nesmí vymyslet.",
+      "pause": 0.5
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "wing",
+      "diagram": "Hex editor: vlevo sloupce bajtů, vpravo text; v textu se chybová hláška přepisuje písmeno po písmenu a s ní se mění bajty. Nahoře ztlumeně KEN DEMAREST.",
+      "note": "ANIMACE: přepis písmen (text se mění, nehýbe). Bajty musí odpovídat ASCII přepisovaného textu (`assert`).",
+      "anim": "animace"
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "wing",
+      "diagram": "Táž obrazovka jako S71, místo chyby Thank you for playing Wing Commander.",
+      "note": "Rým S71 → S73: stejné souřadnice, jiný text."
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "wing",
+      "diagram": "Brouk z S70 přeškrtnutý (FOUND); hláška z S73 ztlumená a pod ní NOT IN THE SHIPPED GAME.",
+      "note": "Hláška se neškrtá křížkem (stala se během vývoje), jen se ztlumí a popisek řekne, že nevyšla."
+    },
+    {
+      "id": "S74b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74b.png",
+      "diagram_generator": "wing",
+      "diagram": "Vlevo čárkovaně hláška z S73 jako vzpomínka hráčů (bublina nad postavou); vpravo plně dvě skutečné hlášky pozdějších her: Thank you for Playing Wing Commander Academy! a Thanks for playing Privateer.",
+      "note": "Čárkovaně = vzpomínka, plně = doloženo (WC CIC 2/2024). Znění opsat přesně z factchecku.",
+      "pause": 2.6
+    },
+    {
+      "id": "S75",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S75.png",
+      "note": "Skutečný záběr z enginu Doomu, ale s volnými grafikami Freedoom (BSD) — originál Doomu volný není. Popisek v obraze to říká, aby snímek netvrdil, že je to Doom. PICK Z KONTAKTNÍHO LISTU: „Freedoom 2018.png“. Dřív rým s S01 (chodba). Pauza 1,5 s zapíná obětovanou větu: za „Doom“ byla při poslechu schwa.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Freedoom 2018",
+        "pick": 0,
+        "grade": {
+          "fit": 0.86,
+          "tint_amount": 0,
+          "vignette": false,
+          "popisek": "DOOM ENGINE · SHOWN WITH FREE FREEDOOM GRAPHICS"
+        }
+      },
+      "pause": 1.5
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "PÁTEŘ: nahoře místo GAME deska DOOM, pod ní rozsvícená vrstva DOS/4GW a štítek 32-BIT.",
+      "note": "Doom použil první vrstvu ze S31."
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "doom",
+      "diagram": "Obrys základní desky s čipem CPU a vedle prázdná čárkovaná patice FPU · NOT GUARANTEED.",
+      "note": "Čárkovaně = možná tam je, možná ne (386 a 486SX bez FPU).",
+      "pause": 0.4
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "doom",
+      "diagram": "32bitové číslo jako řada bitů rozdělená na WHOLE (horních 16) a FRACTION (dolních 16, ambrově); příklad 3.25 a jeho bity.",
+      "note": "ANIMACE: rozsvícení dvou půlek a příklad. `assert` 3.25 * 65536 == 0x34000.",
+      "anim": "animace"
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "doom",
+      "diagram": "Chodba z S75 a pod ní nápis 3D? se ztlumeným otazníkem.",
+      "note": "Příprava S80: chodba se v další scéně ukáže jako půdorys."
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "doom",
+      "diagram": "Půdorys úrovně (obecný, několik místností) v šikmém pohledu; místnosti se vytáhnou do výšky podle FLOOR a CEILING každé zvlášť.",
+      "note": "ANIMACE: vytažení výšek (2.5D). Obecná mapa, ne mapa z Doomu.",
+      "anim": "animace"
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "doom",
+      "diagram": "Vlevo dvě místnosti nad sebou přeškrtnuté křížkem (kresba, ne text); vpravo postava s pohledem a šipkami nahoru/dolů přeškrtnutými.",
+      "note": "Křížek přes plochu bez písma, popisky ROOM ABOVE ROOM a LOOK UP/DOWN mimo křížek. Původní Doom se nahoru ani dolů dívat neumí, takže šipky přeškrtnuté plně; „properly“ ve scénáři jen jistí pozdější hry na enginu (Heretic).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S82.png",
+      "diagram_generator": "doom",
+      "diagram": "Půdorys z S80 shora; dělicí čáry ho postupně rozřezávají a vedle roste binární strom BSP, každý řez = uzel.",
+      "note": "ANIMACE: řezy a růst stromu v lockstepu. Strom musí odpovídat řezům (`assert` počtu uzlů a listů).",
+      "anim": "animace"
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "doom",
+      "diagram": "Týž strom a půdorys; postava hráče v jedné oblasti; průchod začíná na její straně, uzly se rozsvěcejí zepředu dozadu, oblasti mimo výhled se ztlumí a jejich větve přeskočí.",
+      "note": "ANIMACE: průchod stromem. Pořadí rozsvěcení musí odpovídat poloze hráče (spočítat, ne nakreslit od oka).",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "doom",
+      "diagram": "Nápis DOS přeškrtnutý vodorovnou čarou (`text_skrtnuty`) u ikony vývojového stroje s otazníkem.",
+      "note": "Škrt slova, ne obrázku — „not written ON DOS“."
+    },
+    {
+      "id": "S85",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S85.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (dotaz „NeXTcube“): #6 „NeXTcube.jpeg“, CC BY-SA 2.0 — kostka s monitorem a běžícím NeXTSTEPem.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "NeXTcube",
+        "pick": 6,
+        "grade": {
+          "fit": 0.9
+        }
+      }
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "doom",
+      "diagram": "Velká čárkovaná krabice GENERAL 3D ENGINE ztlumeně, uvnitř ní malá plná ambrová ONE KIND OF WORLD s chodbou z S01; pod ní čip 386 a šipka RUNS.",
+      "note": "Specializace = malá krabice uvnitř velké. „Helped“ — šipka ke 386 ne jako jediná příčina (žádné „=“).",
+      "pause": 0.6
+    },
+    {
+      "id": "S87",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87.png",
+      "diagram_generator": "doom",
+      "diagram": "Deska DOOM ENGINE uprostřed, k ní ze stran míří tři ztlumené postavy STUDIOS.",
+      "note": "Šipky míří K enginu (studia ho chtějí), ne od něj."
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "diagram_generator": "doom",
+      "diagram": "Od DOOM ENGINE dvě čáry ke kartám HERETIC · 1994 a HEXEN · 1995, nad nimi RAVEN SOFTWARE · LICENSED.",
+      "note": "Bez log a obalů her."
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "PÁTEŘ: do posledního prázdného slotu se zasune třetí vrstva LICENSED ENGINE.",
+      "note": "ANIMACE: zasunutí. Doplňuje S31 a S57/S58 — teď jsou plné všechny tři sloty.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "PÁTEŘ: tři vrstvy MEMORY EXTENDER · SOUND LIBRARY · LICENSED ENGINE se rozsvěcují po jedné v rytmu výčtu.",
+      "note": "ANIMACE: rozsvícení po slovech. Výčet s tečkami → `vycet`.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "diagram_generator": "vrstvy",
+      "diagram": "Štítky problémů z S05 přejdou od postavy vývojáře do vrstev; vrstvy se pak slijí a dorostou do desky ENGINE (UNITY · UNREAL) přesně na souřadnice ze S04.",
+      "note": "VÝPLATA PÁTEŘE, kruh k S04. ANIMACE. Výzva k odběru ZA touto scénou (druhá, za pointou): páteř uprostřed, levý dolní roh (x < 563, y > 1080) prázdný v S91 i S92; titulek S92 krátký.",
+      "anim": "animace",
+      "pause": 2.8,
+      "vyzva": true
+    },
+    {
+      "id": "S92",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S92.png",
+      "prompt": "an early-1990s bedroom at night, a single beige computer with a glowing CRT monitor standing on the right side of a desk, the left half of the picture is an empty dark wall and empty floor, a box of floppy disks, a window with dark blue night outside, calm nostalgic mood, wide shot",
+      "note": "Rým s S21 (návrat do pokoje hráče) před závěrečnou úvahou. Kolo 2 (seed 9204, počítač vpravo): kolo 1 (odvozený seed) mělo v levém dolním rohu podstavec monitoru přesně pod rukou výzvy za S91; v kole 2 je roh tmavý a klidný a lampa dělá večer.",
+      "pause": 0.6,
+      "seed": 9204
+    },
+    {
+      "id": "S93",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S93.png",
+      "diagram_generator": "zaver",
+      "diagram": "Závaží DIFFICULTY se přesune od strany HARDWARE na stranu ASSETS (dvě misky nebo dvě místa na téže lince).",
+      "note": "ANIMACE: přesun závaží. Nemizí, jen se stěhuje — „it moved“.",
+      "anim": "animace",
+      "pause": 1.6
+    },
+    {
+      "id": "S94",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S94.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: dva pruhy GIGABYTES · MILLIONS OF POLYGONS proti drobnému A FEW HUNDRED KB. HORNÍ POLOVINA VOLNÁ.",
+      "note": "Okno závěrečné obrazovky (posledních ~20 s) může začínat už tady — kresba jen dole nad titulkovým pásem. Měřítko pruhů symbolické, popisek to řekne."
+    },
+    {
+      "id": "S95",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S95.png",
+      "diagram_generator": "zaver",
+      "diagram": "DOLNÍ POLOVINA: postava hráče ze S05 a vedle ní malá mapa paměti ze S07 s ambrovým 640 KB. HORNÍ POLOVINA VOLNÁ.",
+      "note": "Callback na S05 („and quite often, the player's too“). Statická, závěrečná obrazovka.",
+      "pause": 1.4
+    },
+    {
+      "id": "S96",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S96.png",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná deska, DOLNÍ POLOVINA: malé startovací menu ze S25 (tři řádky) a pod ním otázka A STRUGGLE · OR HALF THE FUN? HORNÍ POLOVINA VOLNÁ.",
+      "note": "Otázka do komentářů (docs/cta.md). Statická. Ověřit snímkem z draftu, ne jen `zaver_check.py`.",
+      "pause": 2.0
+    }
+  ]
+}
