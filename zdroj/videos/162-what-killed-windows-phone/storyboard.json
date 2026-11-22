@@ -1,0 +1,810 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Obecný obrys telefonu `telefon()` (dlaždicová domovská obrazovka, BEZ log) uprostřed; jedna dlaždice ambrově s nápisem YOUTUBE. Vlevo od telefonu štítek 2013 a WRITTEN BY MICROSOFT, vpravo ztlumeně GOOGLE: NO APP.",
+      "note": "První obrazovka nese myšlenku: softwarový gigant si musel YouTube napsat sám. Žádné SDXL. `telefon()` je motiv na pevných souřadnicích (S01–S03, S19, S21, S26), nikoli páteř."
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Týž telefon a dlaždice; pod ní NO GOOGLE ADS; od štítku GOOGLE šipka k dlaždici s popiskem REMOVE IT.",
+      "note": "Factcheck S02: dopis Googlu 5/2013 (reklamy, stahování). Šipka míří OD Googlu NA aplikaci, podmět věty je Google.",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Týž telefon; dlaždice nově VERSION 2 · WITH ADS, přes ni vodorovný škrt a vedle BLOCKED. Ztlumeně vlevo nahoře škrtnutá VERSION 1 jen jako stopa.",
+      "note": "Factcheck S03: první verzi Google nevypnul, druhou zablokoval (API klíč). Proto škrt jen u verze 2, verze 1 jen ztlumená, ne škrtnutá."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Dva štítky proti sobě: vlevo THE BIGGEST SOFTWARE COMPANY, vpravo THE MOST POPULAR VIDEO SITE, mezi nimi přerušená spojnice (`skrtla_spojnice`). Pod tím ztlumeně ON ITS OWN PHONE.",
+      "note": "Paradox v jednom obraze. Přerušená spojnice, ne zeď — zeď je vyhrazená pro verdikt (S69+)."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "cisla",
+      "diagram": "Tři karty vedle sebe: MONEY · A DESIGN REVIEWERS LOVED · NOKIA, pod Nokií malým písmem NO. 1 PHONE MAKER (2011).",
+      "note": "Factcheck S05: Nokia největší výrobce TELEFONŮ (ne smartphonů) do Q1 2012 — proto PHONE MAKER, ne SMARTPHONE."
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "cisla",
+      "diagram": "Mřížka 10×10 ikon telefonů, 3 ambrové, ostatní ztlumené. Nad ní 2013, pod ní ≈ 3 IN EVERY 100 SMARTPHONES SOLD.",
+      "note": "Data: Gartner 2013 3,2 % prodejů → 3 ze 100, `assert`. Mřížka se vrací v S45 na týchž souřadnicích (`MRIZKA_100`).",
+      "pause": 1.0
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "cisla",
+      "diagram": "Dvě velká čísla pod sebou: $7.6 BN WRITTEN OFF a UP TO 7,800 JOB CUTS; nahoře 2015 · NOKIA PHONE BUSINESS.",
+      "note": "Factcheck S07 (červenec 2015). Žádná další čísla, jen ta dvě ze scénáře."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "note": "Předěl: tiché vzdání se. Původně SDXL; dvě kola netrefila funkci (světlý den se stolními telefony, pak prázdný obchod bez telefonů), proto kresba jako callback S01. První SDXL je tak až S39.",
+      "pause": 1.2,
+      "diagram_generator": "uvod",
+      "diagram": "Telefon z S01 na týchž souřadnicích (TELEFON_UVOD), obrazovka zhasnutá, bez dlaždic; vlevo ztlumeně 2017."
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka vyšetřování (`nastenka()`): korkově tmavá deska, šest slotů zatím prázdných, nahoře nadpis WHAT KILLED WINDOWS PHONE?",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Zavádí se tady, prázdná.",
+      "pause": 1.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: pět karet otočených rubem s čísly 1–5 a otazníkem, šestý slot je prázdný BEZ rámečku (ať neprozradí šestého podezřelého).",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Konec úvodu.",
+      "pause": 2.2
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta 1 otočená lícem, ambrově TIME; ostatní rubem a ztlumeně.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 0.8
+    },
+    {
+      "id": "S12",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Steve Ballmer“): #1 „Steve ballmer 2007 outdoors2“ (Martin Olsson, CC BY-SA 3.0) — rok 2007, oblek, klidný výraz; [4] je téhož focení. Portrét: static, fit 0.84, žádný zoom. Ideálně snímek z let 2006–2008; jméno a funkci nese popisek v S13, ne obraz.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Steve Ballmer",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "cas",
+      "diagram": "Tři řádky pod sebou: $500 · EVEN WITH A CONTRACT / NO KEYBOARD / BUSINESS CUSTOMERS WON'T WANT IT; nahoře STEVE BALLMER, JAN 2007.",
+      "note": "Parafráze, NE citát — bez uvozovek (factcheck: přesné znění z CNBC se liší)."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "cas",
+      "diagram": "Obecný telefon s hardwarovou klávesnicí (kresba, bez značky), vedle MICROSOFT · SMARTPHONE SOFTWARE SINCE 2002 a pod tím BUSINESS USERS WANTED A KEYBOARD.",
+      "note": "Factcheck S14: smartphone software (Pocket PC 2002 Phone Edition / Smartphone 2002). Příbuzné video 089 (telefony s klávesnicí)."
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "cas",
+      "diagram": "Časová osa `osa()`: JAN 2007 IPHONE SHOWN → OCT 2010 WINDOWS PHONE 7, rozpětí ambrově 3 YEARS 9 MONTHS. Bod OCT 2008 ANDROID ztlumeně.",
+      "note": "Měřítko osy z měsíců, `assert` na 45 a 21 měsíců. Táž osa v S16, S24."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "cas",
+      "diagram": "Táž osa; rozpětí iPhone → Android ambrově 21 MONTHS, WP7 ztlumeně; u Androidu WON.",
+      "note": "Factcheck S16: HTC Dream 10/2008, 21 měsíců. `vycet` ne — Guilty?/Not so fast. jsou beaty; viz notes (jednoslovná otázka).",
+      "pause": 0.6
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta TIME s popiskem LATE, BUT NOT THE WHOLE STORY a malým špendlíkem COMES BACK.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Výzva k odběru za touto scénou (~2:07): levý dolní roh (x < 563, y > 1080) prázdný v S17 i S18.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta 2 lícem, THE PHONE ambrově; TIME už ztlumeně lícem.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Levý dolní roh prázdný (výzva ze S17).",
+      "pause": 0.8
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "telefon",
+      "diagram": "`telefon()` vlevo, vpravo dva řádky s křížkem: COPY & PASTE, OTHER APPS IN THE BACKGROUND; nahoře WINDOWS PHONE 7 · 2010.",
+      "note": "Factcheck S19. Křížek je u položky, ne přes nápis (čitelnost).",
+      "pause": 0.5
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "telefon",
+      "diagram": "Vedle S19 druhý sloupec FIRST IPHONE · 2007: COPY & PASTE ✗, APP STORE ✗ (FIRST YEAR).",
+      "note": "Factcheck S20: copy-paste na iPhonu 2009, App Store 7/2008. Oba sloupce stejně velké — kresba netvrdí, že je jeden horší.",
+      "pause": 0.6
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "telefon",
+      "diagram": "`telefon()` zvětšený: domovská obrazovka s velkým nadpisem a čtvercovými dlaždicemi MESSAGES 3, MISSED CALLS 2, PHOTOS; mimo telefon BIG, CLEAN TYPE.",
+      "note": "Factcheck S21: bez počasí na dlaždici (při uvedení nebylo). Kresba schématu, ne snímek cizího UI."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "telefon",
+      "diagram": "Dva nápisy: NOT PERFECT ≠ A BAD PHONE.",
+      "note": "Konec bloku.",
+      "pause": 2.4
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta 3 THE APPS ambrově, větší špendlík (THE ONE EVERYBODY NAMES).",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 0.8
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Osa jako v S15: INSTAGRAM ON IPHONE OCT 2010 → ON WINDOWS PHONE NOV 2013 · BETA, rozpětí 3 YEARS.",
+      "note": "Factcheck S24. Názvy aplikací jen textem, žádná loga."
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "aplikace",
+      "diagram": "SNAPCHAT: NEVER. Pod tím dvě dlaždice UNOFFICIAL APP se šipkou od SNAPCHAT a nápisem BLOCKED.",
+      "note": "Factcheck S25. Šipka od Snapchatu na neoficiální aplikace — Snapchat je blokoval."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "aplikace",
+      "diagram": "`telefon()` s domovskou obrazovkou, kde tři dlaždice jsou čárkovaně prázdné: BANK, TRAINS, YOUR FRIENDS' GAME.",
+      "note": "Čárkovaně = chybí (konvence). Factcheck S26 (Candy Crush 12/2014, Chase/BofA stáhly 2015)."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Checklist se třemi fajfkami: PAID DEVELOPERS / GAVE AWAY PHONES / WROTE SOME APPS ITSELF; nahoře MICROSOFT KNEW.",
+      "note": "Factcheck S27. Fajfka = stalo se, ne „pomohlo“."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta THE APPS s razítkem CASE CLOSED? (s otazníkem — obraz nesmí tvrdit víc než ironie scénáře).",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 0.9
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Řetěz CAUSE → EFFECT: NO APPS se přesune doprava do pole EFFECT, levé pole CAUSE je čárkované s otazníkem.",
+      "note": "Přebití dílčí odpovědi: aplikace jsou symptom."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Platforma WINDOWS PHONE (MICROSOFT + NOKIA) a postava vývojáře, která od ní stojí odvrácená; otazník.",
+      "note": "Otázka, ne odpověď."
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Postava SMALL STUDIO, dvě cesty: k platformě 80% OF USERS a k platformě 3%. U první šipka peněz zpět (fajfka), u druhé šipka zpět čárkovaně a končí naprázdno.",
+      "note": "Šířka platforem úměrná 80 : 3, `assert`. Neříká, že náklady jsou stejné — jen návratnost (v0.2)."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Týž obraz, nad postavou velký otazník.",
+      "note": "",
+      "pause": 1.0
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Karta zdroje: “PAID MONEY.. WROTE APPS 4 THEM.. BUT VOLUME OF USERS IS TOO LOW FOR MOST COMPANIES TO INVEST.” — JOE BELFIORE, MICROSOFT, OCT 2017",
+      "note": "Doslovný tweet (factcheck S33), proto v uvozovkách včetně pravopisu „4 them“. Belfiore WP nevedl, popisek jen jméno a firma.",
+      "pause": 0.6
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "smycka",
+      "diagram": "Smyčka `smycka()`: USERS nahoře, APPS dole, dvě zakřivené šipky dokola (no users → no apps → no users).",
+      "note": "Motiv `smycka()` na pevných souřadnicích: S34, S35, S54, S68."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "smycka",
+      "diagram": "Táž smyčka, uprostřed WHO STARTED IT?",
+      "note": "Konec bloku aplikací.",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta 4 NOKIA ambrově, na ní silueta postavy (ONE MAN AT NOKIA).",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 0.8
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "nokia",
+      "diagram": "NOKIA 2010 · NO. 1 PHONE MAKER; pod tím SYMBIAN se šipkou dolů a IPHONE, ANDROID se šipkami nahoru.",
+      "note": "Šipky schematicky, bez čísel (v scénáři nejsou).",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Stephen Elop“): #0 „Stephen elop“ (Luca Sartoni, CC BY-SA 2.0) — portrét na tmavě červeném pozadí. Portrét: static, fit 0.84, žádný zoom.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Stephen Elop",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      }
+    },
+    {
+      "id": "S39",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S39.png",
+      "prompt": "an offshore oil platform burning at night on a dark cold sea, seen from far away, orange flames and smoke under a blue-black sky",
+      "note": "Metafora z memoranda (8. 2. 2011). Atmosféra, bez textu.",
+      "pause": 0.8
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "nokia",
+      "diagram": "Osa: FEB 8 2011 MEMO → FEB 11 2011 NOKIA + WINDOWS PHONE, rozpětí 3 DAYS.",
+      "note": "Factcheck S39–S40."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "nokia",
+      "diagram": "Osa FEB 2011 → NOV 2011 FIRST LUMIA, rozpětí 9 MONTHS; pod osou pás SYMBIAN PHONES se šipkou dolů a SALES COLLAPSE.",
+      "note": "Factcheck S41: −41 % smartphonů Nokie Q4 2010 → Q2 2011; v obraze bez čísla."
+    },
+    {
+      "id": "S41b",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S41b.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Nokia N9“): #2 „Blue Nokia N9“ (Bytearray render, CC BY-SA 3.0) — na šířku, tmavý stůl, ladí s paletou. Ověřit na stránce souboru, že je to fotka, ne render. Skutečný N9, ne generický telefon (recenze 0.3). Nechat obrazově déle, proto pauza.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nokia N9",
+        "pick": 2
+      },
+      "pause": 1.6
+    },
+    {
+      "id": "S41c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41c.png",
+      "diagram_generator": "nokia",
+      "diagram": "NOKIA PHONE BUSINESS → MICROSOFT, šipka s popiskem 2013 · ≈ $7 BN DEAL; menší postava ELOP jde se šipkou zpět.",
+      "note": "Factcheck S41c: 7 mld $ je celá dohoda VČETNĚ patentů — proto DEAL, ne PRICE OF THE BUSINESS."
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "nokia",
+      "diagram": "Okruh MICROSOFT → NOKIA → MICROSOFT čárkovaně, uprostřed TROJAN HORSE? (čárkovaný rámeček).",
+      "note": "Čárkovaně = hypotéza, kterou video odmítne."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "nokia",
+      "diagram": "Vlevo text_skrtnuty A PLAN (NO EVIDENCE), vpravo ambrově A COSTLY MISTAKE.",
+      "note": "Škrt jen přes A PLAN, ne přes celý obraz.",
+      "pause": 1.4
+    },
+    {
+      "id": "S44",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S44.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-18, dotaz „Nokia Lumia 920“): #4 „Nokia Lumia 920 white“ — skutečná Lumia zepředu s dlaždicemi, ukazuje design. Nahradila „Nokia Lumia 800 front“ (operátor TELEMACH, azbuka, logo Twitteru). Jediný cizí prvek je malá dlaždice Yandexu. PROVEDENO retuší (2026-11-18): klasická výplň z okolí (Laplaceova difuze + šum z lemu, bez generativního AI) odstranila MTS RUS, Контакты, Nokia Город a Я Yandexu; retus_check 0,46 % plochy, mapa svítí jen na nich. Originál nedotčený.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nokia Lumia 920",
+        "pick": 4,
+        "retouch": "S44.retouch.png",
+        "grade": {
+          "_retusovano": "odstraněny nápisy MTS RUS, Контакты, Nokia Город a logo Yandexu (archive-raw/S44.retouch.png, ostatní pixely beze změny)"
+        }
+      }
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "cisla",
+      "diagram": "Mřížka 10×10 z S06 na týchž souřadnicích, 3 ambrové.",
+      "note": "Callback S06, `MRIZKA_100`.",
+      "pause": 1.0
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta NOKIA ztlumeně s popiskem RISKY BET, LOST.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Ztlumení = o tom už není řeč, ne „nevinná“.",
+      "pause": 2.4
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: karta 5 GOOGLE ambrově.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 0.8
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "google",
+      "diagram": "Vlevo malá dlaždice YOUTUBE · BLOCKED (z S03), vpravo karta zdroje: “WE WILL GO WHERE THE USERS ARE” — GOOGLE, DEC 2012.",
+      "note": "Factcheck S48: Clay Bavor, týkalo se Gmailu a Drive; v citátu jen první půlka, bez jména (scénář říká „a Google manager“)."
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "google",
+      "diagram": "Dvě cenovky: ANDROID → PHONE MAKERS: FREE; WINDOWS PHONE → PHONE MAKERS: LICENCE FEE PER PHONE (UNTIL 2014).",
+      "note": "Factcheck S49 (Build 2014, do 9\")."
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "google",
+      "diagram": "ANDROID PHONE MAKERS → MICROSOFT, šipka s popiskem PATENT ROYALTIES PER PHONE.",
+      "note": "POZOR (recenze 0.3): patentová licence ≠ licence systému. Kresba nesmí naznačit, že Android byl pro výrobce dražší než WP — žádné srovnání částek s S49."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "google",
+      "diagram": "SAMSUNG → MICROSOFT, šipka ≈ $1 BN IN ONE YEAR (2012–13).",
+      "note": "Factcheck S51."
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "google",
+      "diagram": "Týž obraz, nad šipkou MICROSOFT EARNED FROM ITS RIVAL'S SUCCESS.",
+      "note": "",
+      "pause": 1.4
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "google",
+      "diagram": "Dva štítky vedle sebe: GOOGLE'S REASON a EVERY DEVELOPER'S REASON, oba se stejným textem NOT ENOUGH USERS, mezi nimi =.",
+      "note": ""
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "smycka",
+      "diagram": "Smyčka z S34; GOOGLE stojí vedle ní (nedotýká se jí) s popisky DIDN'T START IT a DIDN'T HELP.",
+      "note": "Google mimo smyčku — kresba nesmí tvrdit, že ji roztočil.",
+      "pause": 2.2
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: pět karet ztlumeně lícem, šestý slot nově čárkovaně orámovaný a prázdný s otazníkem.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 1.6
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: v šestém slotu karta 6 MICROSOFT ambrově.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Výplata páteře.",
+      "pause": 1.4
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "resety",
+      "diagram": "WINDOWS MOBILE: rámeček hustě plný malých dlaždic aplikací, popisek THOUSANDS OF APPS.",
+      "note": "Factcheck S57. Hustota dlaždic je ilustrace, ne počet."
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "resety",
+      "diagram": "Vedle WINDOWS PHONE 7: prázdný rámeček; šipka od dlaždic WM přerušená (skrtla_spojnice) a pod tím DEVELOPERS: REWRITE.",
+      "note": "Reset 1 = aplikace (vývojáři). Rámečky resetů na pevných pozicích (`RESET_X`), vrací se v S64.",
+      "pause": 0.6
+    },
+    {
+      "id": "S59",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S59.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Nokia Lumia 900“): #1 „Nokia Lumia 900 black“ (Shineyalight, CC BY-SA 3.0) — čistý snímek, žádné obličeje ani cizí nápisy. Skutečná Lumia 900 (recenze 0.3).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Nokia Lumia 900",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "resety",
+      "diagram": "Osa: APR 2012 LUMIA 900 ON SALE → JUN 2012 WINDOWS PHONE 8 ANNOUNCED, rozpětí 10 WEEKS; pod tím LUMIA 900 → WINDOWS PHONE 8 přeškrtnutá šipka.",
+      "note": "Factcheck S60: 73 dní."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "resety",
+      "diagram": "Tabulka 2×2: OLD APPS → NEW PHONES ✓; NEW APPS → OLD PHONES ✗.",
+      "note": "Rozlišení resetů (v0.2): tady se resetují TELEFONY, ne aplikace."
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "resety",
+      "diagram": "Postava USER, starý telefon ztlumeně, šipka k novému telefonu ambrově, popisek START AGAIN.",
+      "note": "Reset 2 = uživatelé.",
+      "pause": 1.0
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "resety",
+      "diagram": "WINDOWS 10 MOBILE · 2015: A NEW WAY TO BUILD APPS; pod tím OLDER APPS ✓ a MANY WINDOWS PHONE 8 PHONES: NO UPGRADE OFFERED.",
+      "note": "Factcheck S63: upgrade jen pro část Lumií. Reset 3 = obojí, ale ne „všechno přepsat“."
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "resety",
+      "diagram": "Osa 2010 · 2012 · 2015 se třemi značkami RESET a pod nimi DEVELOPERS / USERS / BOTH; nahoře START AGAIN.",
+      "note": "Rámečky z S58 na týchž pozicích `RESET_X`.",
+      "pause": 2.6
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "zed",
+      "diagram": "Velké 1999 uprostřed, pod ním ztlumeně UNITED STATES v. MICROSOFT.",
+      "note": "",
+      "pause": 0.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "zed",
+      "diagram": "Karta dokumentu: FINDINGS OF FACT · 5 NOVEMBER 1999 · JUDGE THOMAS PENFIELD JACKSON; pod tím WHY NO RIVAL COULD CATCH WINDOWS.",
+      "note": "Factcheck S66. Kresba dokumentu, ne sken."
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "zed",
+      "diagram": "Ambrově velkými písmeny THE APPLICATIONS BARRIER TO ENTRY.",
+      "note": "Factcheck S67: pojem soudce převzal, nevymyslel — scénář to drží slovesem „called it“, obraz bez ™ a bez „coined“."
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "smycka",
+      "diagram": "Smyčka z S34, popisky PEOPLE a PROGRAMS, uprostřed WINDOWS.",
+      "note": "Tatáž smyčka jako u telefonů — divák pozná stroj."
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď `zed()`: vpravo uvnitř WINDOWS s postavami a dlaždicemi programů, vlevo venku u paty NEW SYSTEM, NO PROGRAMS, NO PEOPLE.",
+      "note": "Druhá páteř `zed()` na pevných souřadnicích: S69–S73, S76, S79. Nikdy ručně.",
+      "pause": 1.4
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "zed",
+      "diagram": "Táž zeď; uvnitř nově IPHONE a ANDROID, malý štítek vlevo nahoře PC → PHONES.",
+      "note": "Odkaz na 076 (karta).",
+      "karta": "076-how-did-windows-win-without-inventing-the-gui"
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "diagram_generator": "zed",
+      "diagram": "Táž zeď, venku u paty ambrová tečka MICROSOFT a nahoře 2010.",
+      "note": ""
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "zed",
+      "diagram": "Táž zeď; čárkovaně tři nižší výšky zdi (dřívější roky) a postava ANDROID na nejnižší z nich, s popiskem FREE FOR PHONE MAKERS.",
+      "note": "Zeď roste v čase — čárkovaně = dřívější stav, ne hypotéza; popsat v hlavičce `_kit.py`.",
+      "pause": 0.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "zed",
+      "diagram": "Táž zeď; tečka MICROSOFT kousek nad patou, vedle tři značky RESET jako přestávky ve šplhání; popisky USERS WAIT, DEVELOPERS HOLD OFF.",
+      "note": "Recenze 0.2: žádné „návraty na úpatí“, jen přestávky.",
+      "pause": 2.2
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka se všemi šesti kartami lícem, nadpis WHO KILLED WINDOWS PHONE?",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého.",
+      "pause": 1.4
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "nastenka",
+      "diagram": "Nástěnka: NOKIA, GOOGLE a THE APPS ztlumeně s popisky NOT ON ITS OWN / NO / NOT REALLY.",
+      "note": "Páteř `nastenka()`: šest slotů 3×2 na pevných souřadnicích (`SLOTY`), karta = číslo + jméno podezřelého. Ztlumit, NEŠKRTAT — Nokia není nevinná (v0.2)."
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "zed",
+      "diagram": "Dvě zdi vedle sebe: PC — tečka MICROSOFT uvnitř; PHONES — tečka MICROSOFT venku. Nad nimi ambrově THE APPLICATIONS BARRIER.",
+      "note": "Verdikt. Levý dolní roh prázdný (výzva).",
+      "pause": 2.6,
+      "vyzva": true
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "zaver",
+      "diagram": "Osa OCT 2017 NEW FEATURES NO LONGER THE FOCUS → DEC 2019 SUPPORT ENDS.",
+      "note": "Factcheck S77. Levý dolní roh prázdný (výzva přetéká ze S76)."
+    },
+    {
+      "id": "S78",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S78.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dva obrysy telefonů IPHONE a ANDROID v dolní polovině, na nich textem OUTLOOK, WORD, EXCEL, TEAMS.",
+      "note": "Bez log. Horní polovina prázdná (závěrečná obrazovka).",
+      "pause": 0.5
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "zed",
+      "diagram": "Zeď `zed()` zmenšená do dolní poloviny: MICROSOFT venku podává dlaždice aplikací přes zeď lidem uvnitř.",
+      "note": "Callback páteře; smí se posunout jen tady (závěrečná deska). Horní polovina prázdná.",
+      "pause": 1.4
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "zaver",
+      "diagram": "V dolní třetině: A THIRD KIND OF PHONE? a pod tím ztlumeně OR DOOMED FROM THE START?",
+      "note": "Otázka do komentářů. Horní polovina prázdná.",
+      "pause": 2.4
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "Sloupec pěti položek pod sebou, každá text_skrtnuty(): A CAR, TELEVISION, COMPUTERS, THE POWER GRID, SCHOOL AFTER GRADE 8. Bez nadpisu, bez ikon.",
+      "note": "První obrazovka nese myšlenku (seznam toho, bez čeho se žije), žádné SDXL. Škrtá se text vodorovnou čarou, ne křížkem, aby šel přečíst. `vycet`: výčet „Without television. Without computers.“",
+      "vycet": 0.3
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Týž seznam z S01 ztlumený vlevo (OP_TLUM); vpravo čárkovaný rámeček s nápisem A CULT? a pod ním vodorovný škrt přes CULT až na poslední řádek „But the Amish aren't a cult.“ — tedy škrt je součást téže desky, ne další střih.",
+      "note": "Čárkovaně = hypotéza, kterou video odmítne (konvence). Video ji odmítá hned ve S02, takže škrt je tu taky; netvrdit víc než scénář („It might seem that way“)."
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Paradox z titulu: vlevo ikona motorové pily `pila()` s fajfkou, vpravo ikona auta `auto()` s křížkem pod ní (ikony samy škrtnuté nejsou). Pod nimi NOT AGAINST TECHNOLOGY a ztlumeně NOT THE 18TH CENTURY.",
+      "note": "„Here's the surprising part“ — paradox z titulu tu poprvé v obraze, odpověď (S20b) ale ne. Pila a auto jsou na týchž souřadnicích jako v S20b (POZ_PILA, POZ_AUTO), aby se výplata poznala."
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ poprvé: `komunita()` — sedm statků v kruhu kolem prázdného středu, spojené krátkými čarami se sousedy i se středem. Zvenčí míří k ní šipka s ikonou otazníku. Nadpis nahoře: WHAT WILL THIS TECHNOLOGY DO TO OUR COMMUNITY?",
+      "note": "Hlavní otázka videa (~0:30). `komunita()` se odtud kreslí jen funkcí z `_kit.py` na KOMUNITA_STRED; střed je zatím bez popisku, RELIGION dostane až v S39.",
+      "pause": 1.4
+    },
+    {
+      "id": "S05",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S05.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Dirk Willems“): #1 „Dirk Willemsz redt zijn vervolger uit het ijs“ — lept Jana Luykena ze Zrcadla mučedníků (1685), sépiový. Anabaptista ze 16. století (Asperen 1569), ikonický obraz anabaptistické tradice. Ořez na 16:9 uřízne popisek dole. Obrázek nese jen „16. století, Evropa, pronásledovaní anabaptisté“; jméno Dirka Willemse se neříká, proto žádný popisek v obraze.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Dirk Willems",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "dejiny",
+      "diagram": "Vodorovná časová osa: 16TH CENTURY · ANABAPTISTS (EUROPE), 1693 · SPLIT · JAKOB AMMANN, TODAY · 420,000+ · US & CANADA. Poslední štítek akcentem.",
+      "note": "Factcheck S06: rozkol 1693, 421 200 (Young Center 2026) → v obraze „420,000+“, jak říká scénář. „almost all of them“ = US & CANADA bez dalších zemí."
+    },
+    {
+      "id": "S06b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06b.png",
+      "diagram_generator": "dejiny",
+      "diagram": "Tři sloupce: AT HOME (statek) · PENNSYLVANIA GERMAN akcentem, pod ním ztlumeně „PENNSYLVANIA DUTCH“; AT SCHOOL (tabule) · ENGLISH; BIBLE (kniha) · STANDARD GERMAN.",
+      "note": "Dotaz diváka (2026-11-21). Factcheck S06b: YC Language — Pennsylvania German mezi sebou i v kázáních, ve škole angličtina, Bible ve spisovné němčině. Swiss Amish (bernská švýcarská němčina) se neříká, „Among themselves“ platí pro většinu."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "dejiny",
+      "diagram": "`komunita()` vlevo (menší, scale), vpravo karta ORDNUNG s podtitulem USUALLY UNWRITTEN a třemi řádky: EVERYDAY LIFE, CLOTHING, WHICH TECHNOLOGY. Poslední řádek akcentem.",
+      "note": "Karta je jen popis, ne seznam pravidel konkrétní komunity. CLOTHING doplněno jako příklad „everyday life“ — factcheck: Ordnung upravuje oblékání; když by to bylo sporné, vyhodit.",
+      "pause": 0.5
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "dejiny",
+      "diagram": "Tři menší `komunita()` vedle sebe, pod každou vlastní karta ORDNUNG s jinak rozsvícenými řádky (abstraktní čárky, ne konkrétní technologie). Nad nimi nadpis NO SINGLE LIST.",
+      "note": "Řádky karet jsou záměrně bez textu: kdyby tam byly konkrétní technologie, tvrdil by obraz, která komunita co dovoluje, a to scénář neříká. Výzva k odběru ZA touto scénou (~1:32): levý dolní roh (x < 563, y > 1080 ve 2560×1440) prázdný v S08 i S09.",
+      "pause": 1.8,
+      "vyzva": true
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "auta",
+      "diagram": "Velká ikona `auto()` uprostřed, nad ní CARS a pod ní WHY NOT OWN ONE? (otázka, ne škrt).",
+      "note": "Diagram, ne fotka: přes začátek S09 běží výzva k odběru a roh musí být prázdný. Fotka bryčky je v S11."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "auta",
+      "diagram": "Čtyři řádky s ikonou vlevo: RIDE WITH A HIRED DRIVER ✓, BUS ✓, TRAIN ✓, a čtvrtý OWN AND DRIVE zatím ztlumeně bez značky.",
+      "note": "Factcheck S10: jízda s neamišským řidičem, bus, vlak ano. Čtvrtý řádek je připravený pro S11, kde se rozsvítí."
+    },
+    {
+      "id": "S11",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S11.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Amish buggy“): #3 „Amish Buggy 2018-11-06 962“ (Chris Light, CC BY-SA 4.0) — bryčka na silnici zezadu, v pozadí auta; vlastní vozidlo amišů vedle cizích. Řidič je malý a bez tváře. #2 téhož autora je záloha (dvě bryčky na parkovišti).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Amish buggy",
+        "pick": 3
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "auta",
+      "diagram": "`komunita()` vlevo na KOMUNITA_STRED; od ní doprava dlouhá šipka s ikonou auta až k okraji, pod ní DOZENS OF MILES a menší IN A SHORT TIME. Pro srovnání krátká ztlumená šipka s bryčkou.",
+      "note": "Bryčka ztlumeně kvůli měřítku, ne jako „špatně“. Délky šipek jen kvalitativně, žádná čísla (scénář je nemá)."
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "auta",
+      "diagram": "`komunita()` ztlumeně na svém místě (stopa), tři statky z ní odtržené daleko ven, spojnice k nim čárkované a natažené; u nich štítky LIVE FAR AWAY, WORK ELSEWHERE, EVENINGS IN ANOTHER TOWN. Dole LESS CONNECTED.",
+      "note": "Páteř se nehýbe: původní kruh zůstává ztlumeně, vzdálené domy jsou kresba navíc. Čárkovaně = hypotéza („can“), ne doložený stav. `vycet` na „Work somewhere else. Spend your evenings…“",
+      "vycet": 0.3
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "auta",
+      "diagram": "Nahoře text_skrtnuty(): TOO MODERN. Pod tím dvě komunity vedle sebe: soudržná a rozptýlená ze S13, mezi nimi šipka. Nadpis CHANGES HOW THE COMMUNITY WORKS.",
+      "note": "Škrt jen přes TOO MODERN; „isn't necessarily“ je tu měkké, ale scénář tím odmítá právě tuhle příčinu. Konec bloku auta.",
+      "pause": 2.4
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "elektrina",
+      "diagram": "Zleva stožár veřejné sítě a vedení k domu vpravo; spojnice přeškrtnutá `skrtla_spojnice()` těsně před domem. Nad tím PUBLIC GRID. V domě malá ikona blesku ztlumeně s otazníkem.",
+      "note": "Škrtá se SPOJENÍ, ne elektřina (konvence ze 162): přesně to scéna tvrdí."
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "elektrina",
+      "diagram": "Týž dům a přeškrtnuté vedení; uvnitř domu a dílny ikony BATTERIES, GENERATOR, COMPRESSED AIR a stroj v dílně s popiskem WORKSHOP MACHINERY.",
+      "note": "Factcheck S16: baterie, generátory, pneumatika (vzduch, hydraulika), dílny s dieselovým pohonem. v0.6: přidány SOLAR PANELS (factcheck: CSM 2008, panely hlavně na baterie, světla bryček, dílnu)."
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "elektrina",
+      "diagram": "Týž obraz; blesk v domě rozsvícený s ELECTRICITY a fajfkou, přeškrtnuté vedení akcentem s popiskem DEPENDENCE ON THE OUTSIDE.",
+      "note": "Míra jistoty: „can be the real concern“ — popisek bez vykřičníku, konec bloku elektřiny.",
+      "pause": 2.2
+    },
+    {
+      "id": "S18",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S18.png",
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Amish draft horses Lancaster“): #1 — orba koňmi daleko v poli, červené stodoly, bez tváří (Carol M. Highsmith, public domain). Ostatní výsledky mají farmáře z profilu blíž. „continue to rely heavily on horses“; zoom out = svět se rozšiřuje. Předloha je skoro čtvercová, střední ořez uřízl spřežení u spodního okraje → crop_y 0.85 (stodoly nahoře zůstanou částečně). Kvůli slow_zoom_out ověřit v draftu, že spřežení nevypadne.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Amish draft horses Lancaster",
+        "pick": 1,
+        "grade": {
+          "crop_y": 0.85
+        }
+      }
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "stroje",
+      "diagram": "Řada čtyř ikon s popisky: MODIFIED TRACTOR (ocelová kola), WOODWORKING, CHAINSAW (`pila()` akcentem), PNEUMATIC TOOLS.",
+      "note": "Pila akcentem = o té je řeč v titulu. Traktor s ocelovými koly je doložená úprava (factcheck S19).",
+      "pause": 0.5
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "stroje",
+      "diagram": "Tytéž ikony ztlumeně, přes ně nápis text_skrtnuty(): EVERYTHING BY HAND.",
+      "note": "Škrt přes celý nápis je tu správně: „Far from it.“ ho odmítá celý.",
+      "pause": 1.0
+    },
+    {
+      "id": "S20b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20b.png",
+      "diagram_generator": "stroje",
+      "diagram": "ODPOVĚĎ NA TITUL. Dvě poloviny: vlevo `pila()` na POZ_PILA a pod ní menší `komunita()` neporušená, popisek MAKES WORK EASIER. Vpravo `auto()` na POZ_AUTO a pod ním komunita rozptýlená jako v S13, popisky WHERE PEOPLE GO, HOW FAR APART, HOW OFTEN THEY MEET.",
+      "note": "Výplata páteře: pila a auto na souřadnicích ze S03, komunity jsou táž funkce. Tohle je silný obraz, který žádaly recenze. Konec první půlky.",
+      "pause": 2.8
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "telefon",
+      "diagram": "Osa ve třech krocích: dům s telefonem uvnitř → 1910 · LANCASTER: BANNED (škrt přes telefon) → telefon zpět, ale MIMO kuchyň: v domě přeškrtnutá kuchyň-ikona stolu.",
+      "note": "Factcheck S21: telefony doma kolem 1900–1910, zákaz v Lancasteru kolem 1910 („Around“ ve scénáři → v obraze „c. 1910“). „Not into the kitchen“ = ikona stolu se škrtem, ne obecný dům."
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "telefon",
+      "diagram": "`komunita()` na KOMUNITA_STRED; na okraji kruhu, mezi dvěma statky, malá dřevěná budka `budka()` s telefonem a dvě krátké spojnice ke dvěma statkům: SHARED. Popisek OUTSIDE THE HOME.",
+      "note": "Fotka z Commons („Public phone booths like this…“, FSA 1942) je veřejný automat, ne amišská budka — byla by to falešná ilustrace. Proto kresba. „Sometimes“ → jen dvě sdílející rodiny."
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "telefon",
+      "diagram": "Týž obraz; uvnitř jednoho statku ikona stolu s rodinou (tečky) a nad ní ztlumený přeškrtnutý zvonek; mezi statky spojnice zůstávají plné. Štítky WHEN NEEDED (u budky), NOT AT EVERY MEAL, NEIGHBOURS STILL VISITED.",
+      "note": "Plné spojnice = komunita drží; kontrast k S13, kde jsou čárkované a natažené."
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "telefon",
+      "diagram": "Dvě otázky pod sebou: ztlumeně IS IT USEFUL?, akcentem WHAT WOULD IT CHANGE INSIDE THE HOME?",
+      "note": "Ne škrt, jen ztlumení: užitečnost se nezahazuje, jen není ta otázka. Výzva k odběru ZA touto scénou (~4:30, za odpovědí na titul i metodou): levý dolní roh prázdný v S24 i S25.",
+      "pause": 1.2,
+      "vyzva": true
+    },
+    {
+      "id": "S24a",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24a.png",
+      "diagram_generator": "telefon",
+      "diagram": "Nahoře TODAY · MOBILE PHONES. Vlevo ozubené kolo a mobil, ESPECIALLY FOR BUSINESS s fajfkou. Vpravo statek, mobil mimo něj, spojení škrtnuté, OFTEN KEPT OUT OF THE HOME akcentem (rým s S21 NOT INTO THE KITCHEN).",
+      "note": "Pod výzvou k odběru (vyzva za S24): levý dolní roh prázdný, žádný titulek dole. Factcheck S24a: Kraybill/Nolt, NPR 2013, AP 2017 — práce ano, doma ne; sporné, liší se podle komunity („many“, „try to“)."
+    },
+    {
+      "id": "S24b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24b.png",
+      "diagram_generator": "svet",
+      "diagram": "Nahoře NO RELIGIOUS RULE AGAINST, vlevo čtyři štítky stejné šířky DOCTORS, SURGERY, MODERN DRUGS, VACCINES; vpravo budova nemocnice s křížem akcentem a WHEN SERIOUSLY ILL. Pod VACCINES ztlumeně LOW RATES IN SOME COMMUNITIES.",
+      "note": "Dotaz diváka. Factcheck S24b: YC Health, Wenger 2011, Scott 2021."
+    },
+    {
+      "id": "S24c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24c.png",
+      "diagram_generator": "svet",
+      "diagram": "`komunita()`, střed MUTUAL AID akcentem, od statku šipka k účtu HOSPITAL BILL. Vpravo karta COMMERCIAL INSURANCE ztlumeně, spojení s komunitou škrtnuté. Titulek SOCIAL SECURITY EXEMPTION, pod ním 1965 · QUALIFYING RELIGIOUS GROUPS.",
+      "note": "Škrtá se SPOJENÍ s pojišťovnou (konvence 4). Factcheck S24c: YC Government, Mutual Aid, FAQ (1965)."
+    },
+    {
+      "id": "S24d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24d.png",
+      "diagram_generator": "svet",
+      "diagram": "Vlevo THE LAW: tři řádky s fajfkou INCOME TAX, PROPERTY TAX, SALES TAX. Vpravo akcentem EXCEPTIONS: SCHOOL TO 8TH GRADE (1972 · WISCONSIN v. YODER), NO MILITARY SERVICE.",
+      "note": "Factcheck S24d: YC FAQ (daně), Wisconsin v. Yoder 406 U.S. 205, YC Government (armáda).",
+      "pause": 2.4
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "rumspringa",
+      "diagram": "Velké slovo RUMSPRINGA uprostřed horní poloviny, pod ním ztlumeně ONE OF THE MOST FAMOUS ASPECTS OF AMISH LIFE (jak říká scénář).",
+      "note": "Typografický předěl místo SDXL, protože přes začátek S25 doběhne výzva k odběru a levý dolní roh musí být prázdný."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "rumspringa",
+      "diagram": "Osa věku 0–25, značka AROUND 16 a od ní akcentová závorka MORE FREEDOM; pod ní text_skrtnuty(): ANYTHING GOES.",
+      "note": "Factcheck S26: kolem 16 let.",
+      "pause": 0.5
+    },
+    {
+      "id": "S27",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S27.png",
+      "prompt": "a long straight country road leading away from quiet farmland toward a distant modern town on the horizon, small tall buildings and glowing windows far away, wooden farmhouse and fields in the foreground, flat grey overcast sky, seen from far away, no people",
+      "note": "Atmosféra: cesta ven ze světa komunity. Bez lidí. KOLO 2 (2026-11-17): město na obzoru SDXL nenakreslil ve třech pokusech (výchozí seed, 16327, 16328); přijat 16327 — cesta vedoucí od statků do dálky nese funkci „cesta ven“ i bez města. Zamítnuté v scratchpadu sdxl1/ a sdxl2/.",
+      "seed": 16327
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "rumspringa",
+      "diagram": "`komunita()` vlevo; od ní jedna tečka-postava ven doprava ke shluku štítků MODERN CLOTHES, CARS, MOVIES, TELEVISION a ztlumeně … AND MORE.",
+      "note": "Jedna postava, ne poměr — kolik jich experimentuje, scénář neříká („Others“). `vycet` na výčet.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "rumspringa",
+      "diagram": "Rozcestí: cesta se dělí na BAPTISM → FULL MEMBER OF THE CHURCH a LEAVE. Obě větve stejnou barvou (INK), uprostřed otazník.",
+      "note": "Žádná větev akcentem: barva by si vyrobila „správnou“ volbu."
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "rumspringa",
+      "diagram": "Mřížka 10 × 10 teček, 85 rozsvícených akcentem, 15 ztlumených. Nad ní 85% OR MORE JOIN THE CHURCH, dole ztlumeně YOUNG CENTER FOR ANABAPTIST AND PIETIST STUDIES.",
+      "note": "Factcheck S30: Young Center, ≥ 85 %. Počet hlídá `assert`. „or more“ je v popisku, mřížka ukazuje spodní mez.",
+      "pause": 1.0
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "rumspringa",
+      "diagram": "Táž mřížka ztlumeně, přes ni velký otazník a WHY STAY?",
+      "note": "Beat otázky.",
+      "pause": 1.4
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "vahy",
+      "diagram": "Váhy `vahy()` v rovnováze; na levé misce sloupec MODERN SOCIETY: PERSONAL FREEDOM, OPPORTUNITIES, TRAVEL, CAREER CHOICES, TECHNOLOGY, INDEPENDENCE. Pravá miska prázdná.",
+      "note": "Váhy NEJSOU nakloněné — scénář nevyhlašuje vítěze. `vycet` na výčet.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "vahy",
+      "diagram": "Tytéž váhy; levý sloupec ztlumeně, na pravé misce AMISH COMMUNITY: FAMILY, RELATIONSHIPS, CLEAR RULES, FAMILIAR PLACE, MUTUAL HELP, IDENTITY.",
+      "note": "Stejný počet řádků jako vlevo (6 : 6), aby velikost netvrdila převahu. `vycet`.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "vahy",
+      "diagram": "Tytéž váhy, na miskách místo sloupců tři páry proti sobě: FREEDOM ↔ STABILITY, POSSIBILITIES ↔ CERTAINTY, INDIVIDUALISM ↔ COMMUNITY. Nad tím A TRADE-OFF.",
+      "note": "Výčet dvojic v krátkých větách → `vycet`.",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "vahy",
+      "diagram": "Tytéž váhy, pořád v rovnováze; pravá miska akcentem, levá ztlumeně. Popisek FOR SOME PEOPLE.",
+      "note": "Akcent = o téhle straně je teď řeč, ne „vyhrála“; váhy se proto nenakloní. Konec bloku Rumspringa.",
+      "pause": 2.4
+    },
+    {
+      "id": "S36",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S36.png",
+      "prompt": "an idyllic postcard view of a white wooden farmhouse and red barn among golden wheat fields, a horse-drawn buggy on a quiet lane, soft warm light, peaceful and perfect, seen from a distance, no people visible",
+      "note": "Záměrně pohlednicová idyla: to je ten „snadný obraz“, který scéna vzápětí zpochybní. Teplé světlo je tu žádoucí."
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "stin",
+      "diagram": "Čtyři řádky jako `checklist` bez fajfek: STRICT RULES, COMMUNITY PRESSURE, SCHOOL ENDS AFTER GRADE 8, SOME COMMUNITIES: EXTREMELY CONSERVATIVE.",
+      "note": "Factcheck S37: 8. třída (Wisconsin v. Yoder). Bez barevného hodnocení — jen výčet.",
+      "pause": 0.5
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "stin",
+      "diagram": "`komunita()` na KOMUNITA_STRED a jeden statek odsunutý ven, všechny jeho spojnice přeškrtnuté `skrtla_spojnice()`. Popisky LEAVING AFTER BAPTISM a SHUNNING.",
+      "note": "Škrtá se spojení, ne člověk. Factcheck S38: vyobcování se týká pokřtěných.",
+      "pause": 1.2
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "stin",
+      "diagram": "`komunita()`; střed poprvé popsaný RELIGION (akcentem, jak říká voiceover) a čárkovaný rámeček kolem něj, od něj čárkovaně REMOVE IT?",
+      "note": "„Imagine“ = hypotéza → čárkovaně."
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "stin",
+      "diagram": "`komunita()` bez středu (čárkovaná stopa po něm); kolem kruhu čtyři štítky COOPERATION, LIMITS ON TECHNOLOGY, SIMPLE LIVING, FAMILY.",
+      "note": "Štítky jsou to, co „would still have“; zůstávají plné. `vycet`.",
+      "vycet": 0.3,
+      "pause": 0.5
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "stin",
+      "diagram": "Týž obraz, ale spojnice statků se středem jsou pryč a spojnice mezi sousedy čárkované a povolené; štítky ztlumeně. Popisek THE MECHANISM THAT HOLDS IT TOGETHER u prázdného středu.",
+      "note": "Hypotetický stav → čárkovaně. Kruh zůstává na místě, mění se jen spojnice. Pauza kratší: S42 začíná „So“ a uzavírá tutéž myšlenku.",
+      "pause": 0.8
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "stin",
+      "diagram": "Nahoře ztlumeně „JUST A SIMPLER LIFESTYLE“ s poznámkou NOT ENTIRELY. Pod tím velký rámeček A RELIGIOUS WAY OF LIFE (akcent) a uvnitř menší rámeček LIMITS ON THE OUTSIDE WORLD.",
+      "note": "„not entirely accurate“ → ztlumení, ne škrt (škrt celého nadpisu by tvrdil „vůbec neplatí“). Vnořený rámeček = „is part of it“. Konec bloku.",
+      "pause": 2.8
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "zaver",
+      "diagram": "Callback S04: `komunita()` na KOMUNITA_STRED a táž otázka WHAT WILL THIS DO TO OUR COMMUNITY? na týchž souřadnicích.",
+      "note": "Musí být rozvržením totožné se S04, jinak se callback nepozná."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "zaver",
+      "diagram": "`komunita()`; uvnitř kruhu ikony, které prošly (pila, baterie), za kruhem ztlumeně auto a televize, na okraji upravené (budka s telefonem, traktor s ocelovými koly). Tři ztlumené popisky ACCEPTED, REJECTED, ADAPTED.",
+      "note": "Výplata páteře: každá ikona se už ve videu objevila (S16, S19, S22, S01). `vycet` na „Rejected others.“",
+      "vycet": 0.3,
+      "pause": 1.2
+    },
+    {
+      "id": "S45",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S45.png",
+      "note": "Nádech před závěrem. Původně SDXL bryčka: ve třech pokusech bryčka BEZ KONĚ (čte se jako první automobil — ve videu o autech zavádí) nebo kůň odpřažený vedle ní. Podle pravidla změna zdroje: PICK Z KONTAKTNÍHO LISTU (2026-11-17, dotaz „Amish farm Lancaster“): #3 — údolí s farmami, koňské spřežení maličké v poli, bez tváří.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Amish farm Lancaster",
+        "pick": 3
+      }
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dva řádky: ztlumeně WHAT WE CAN MAKE ≠ WHAT WE NEED, pod tím akcentem TECHNOLOGY SHOULD SERVE US.",
+      "note": "Bez škrtu, bez šipek.",
+      "pause": 1.0
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "zaver",
+      "diagram": "V DOLNÍ polovině pračka `pracka()`; z ní nahoru doprava ikona wi-fi a štítek SUBSCRIPTION / MONTH. Vedle drobně OUR OWN ORDNUNG? Horní polovina prázdná.",
+      "note": "Okno závěrečné obrazovky začíná zhruba tady (~8:00): HORNÍ polovina musí zůstat prázdná. Vtip nese obraz pračky, popisky krátké.",
+      "pause": 1.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná deska: v DOLNÍ polovině otázka WHICH ONE WOULD YOU KEEP OUT OF YOUR HOME? a vedle malá `budka()`. Horní polovina prázdná.",
+      "note": "Otázka do komentářů; poslední scéna = závěrečná obrazovka, horní polovina pro dlaždici a kolečko odběru."
+    }
+  ]
+}
