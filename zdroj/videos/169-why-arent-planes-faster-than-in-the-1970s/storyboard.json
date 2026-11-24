@@ -1,0 +1,691 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "Nahoře velké LONDON → NEW YORK. Dole PÁTEŘ 3 cesta(): ambrový pruh 1977 · CONCORDE ≈ 3½ H na hodinové stupnici 0–8 H; druhý řádek zatím prázdný.",
+   "note": "První obrazovka nese myšlenku (1977 za tři a půl hodiny), ne atmosféru; žádné SDXL. PÁTEŘ 3 = cesta() v _kit.py, pruhy v DOLNÍ polovině, aby se v S67 vešla závěrečná obrazovka. Factcheck S01: BA LON–JFK od 22. 11. 1977, let pod 3,5 h."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Táž cesta(): pruh Concorde ztlumený, pod ním ambrově TODAY 7–8 H (plně do 7 h, čárkovaně do 8 h). Nadpis LONDON → NEW YORK zůstává.",
+   "note": "Factcheck S02: LHR–JFK ~8 h, JFK–LHR ~7 h, proto plně 7 a čárkovaně 7–8 (rozsah, ne odhad).",
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Vlevo ztlumeně jedna silueta Concordu a ONE UNUSUAL PLANE. Vpravo šest obyčejných dopravních letadel (dva řádky po třech) a ambrově THE ORDINARY JETS TOO.",
+   "note": "Rozšiřuje otázku z jednoho letadla na všechna: obraz musí ukázat, že Concorde je výjimka a obyčejná letadla většina.",
+   "pause": 0.6
+  },
+  {
+   "id": "S04",
+   "source": "archive",
+   "effect": "pan_left",
+   "visual": "images/S04.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-22: Pan Am 747-121 N736PA na Heathrow (Commons, CC BY-SA 4.0). Dobová kresba Pan Am, Londýn rýmuje s S01. Factcheck S04: Pan Am leden 1970.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "N736PA Clipper Victor Pan Am Boeing 747-121, London Heathrow",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "zed",
+   "diagram": "PÁTEŘ 1 osa(): procento rychlosti zvuku 60–110 %. Na 85 % jediný bod a nad ním dva štítky: BOEING 747 · 1970 a ambrově NEWEST AIRLINERS · TODAY.",
+   "note": "Zavedení páteře 1 (osa v _kit.py, y = 860). Obě letadla na TÉMŽ bodě je celé tvrzení scény; factcheck S04–S05 ~M0,85. Zeď se ještě nekreslí, přijde v S13."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dva panely. COMPUTERS: skříň počítače velká jako místnost → telefon v dlani (šipka). JET SPEED: dva stejně dlouhé pruhy 1970 a TODAY, oba 85 %, ambrově BARELY MOVED.",
+   "note": "Kontrast změny a nezměny. Pruhy rychlosti musí být přesně stejné (assert), jinak obraz tvrdí posun."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Uprostřed silueta letadla, nad ní velký ambrový otazník a nápis DID WE FORGET HOW TO BUILD FAST PLANES?",
+   "note": "Otázka, na kterou S08 odpoví NE; bez šipek a bez nápovědy."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "Letadlo vlevo letí doprava proti svislé zdi z hustých vlnovek vzduchu (VZDUCH). Nad zdí ambrově THE WALL, pod ní MADE OF AIR.",
+   "note": "Zavádí metaforu zdi; zeď ze vlnovek, ne z cihel, protože jde o vzduch. Konec úvodního bloku.",
+   "pause": 2.4
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "kridlo",
+   "diagram": "Profil křídla (NACA 2412) a proudnice kolem. Nad křídlem dlouhá ambrová šipka FASTER OVER THE TOP, pod křídlem kratší šipka THE PLANE'S SPEED.",
+   "note": "Zjednodušení (factcheck S09–S12, ‚partly‘). Delší šipka = rychlejší proud; obě šipky jdou ve směru proudu vzhledem ke křídlu.",
+   "pause": 0.4
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "kridlo",
+   "diagram": "Týž profil. Vlevo štítek PLANE: ~80 % OF SOUND. Na hřbetu ambrově vyplněná kapsa vzduchu a u ní ABOVE 100 %.",
+   "note": "Kapsa jen na části hřbetu (‚parts of the air'), ne nad celým křídlem.",
+   "pause": 0.4
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "kridlo",
+   "diagram": "Týž profil a kapsa ztlumeně; na jejím zadním konci, kde vzduch zpomaluje, svislá ambrová čára rázové vlny a SHOCK WAVE.",
+   "note": "Rázová vlna na ZADNÍM okraji kapsy (tam, kde se nadzvukový proud zpomaluje), ne na náběžné hraně."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa rychlosti (páteř 1) a nad ní korálová křivka DRAG: skoro rovná, od ~80 % prudce nahoru. Štítek WAVE DRAG u ohybu. SCHEMATIC vpravo nahoře.",
+   "note": "Křivka je tvar, ne data (konvence 4, nápis SCHEMATIC). x křivky je TÁŽ osa, takže ohyb sedí na pásu zdi z S13."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa, křivka odporu ztlumeně a ambrový pás THE WALL 80–85 %. Štítek FOR MANY AIRLINERS.",
+   "note": "Factcheck S13: rozsah 80–85 %, ne pevná mez; proto pás, ne čára."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa a pás zdi; uvnitř pásu na 85 % bod se štítky BOEING 747 · 1970 a AIRLINERS · TODAY (opakování S05).",
+   "note": "Rým s S05: tentýž bod, teď uvnitř zdi. VÝZVA za touto scénou (~1:50): levý dolní roh prázdný v S14 i S15, scény bez titulku.",
+   "pause": 2.2,
+   "vyzva": true
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "palivo",
+   "diagram": "Vlevo rámeček DRAG (v aerodynamickém tunelu), šipka, vpravo velká korálová kapka FUEL.",
+   "note": "Přechod od fyziky k penězům. Levý dolní roh prázdný (výzva doznívá)."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "palivo",
+   "diagram": "Řada tří rámečků se šipkami: MORE DRAG → ENGINES PUSH HARDER → MORE FUEL PER KM (poslední ambrově).",
+   "note": "Řetěz příčin, šipky smí být (příčinnost je tu fyzika).",
+   "pause": 0.5
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "palivo",
+   "diagram": "Vodorovný pruh EVERYTHING AN AIRLINE SPENDS = 100 %; korálový úsek paliva plně do 25 % a čárkovaně do 33 %, popisek FUEL · A QUARTER TO A THIRD.",
+   "note": "Factcheck S17: IATA 2024 31 %, jinak kolem čtvrtiny. Úsek 25–33 % jako rozsah (assert).",
+   "pause": 0.6
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "palivo",
+   "diagram": "PÁTEŘ 2 volba(): vyvážené váhy, vlevo modře COST OF TIME, vpravo korálově COST OF FUEL.",
+   "note": "Zavedení páteře 2 (volba v _kit.py). Vlevo vždy rychlost/čas, vpravo palivo; těžší miska = co rozhodlo. Factcheck: formulace bez tvrzení, že optimum leží u zdi."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba nakloněná doleva (převažuje čas): pod levou miskou CREW PAID LONGER · FEWER TRIPS A DAY. Nad váhami TOO SLOW.",
+   "note": "Náklon směrem k času, protože pomalý let prodražuje čas."
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba nakloněná doprava (převažuje palivo): pod pravou miskou FUEL COSTS CLIMB SHARPLY. Nad váhami TOO FAST.",
+   "note": "Zrcadlo S19."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa a pás zdi. Čárkovaně na 90 % CAPABLE · UP TO 90 %, plně na 82 % USUALLY FLOWN · ~82 %. Vpravo nahoře BOEING 707 · 1960s.",
+   "note": "Kotva S20–S21 (schopnost vs. provoz). Factcheck S21: 707-320B max. cestovní M0,90, ekonomická 0,82. Čárkovaně = schopnost, která se nevyužila (konvence 3).",
+   "pause": 2.2
+  },
+  {
+   "id": "S22",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S22.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-22: NASA F-8 se superkritickým křídlem na podstavci, na trupu nápis SUPERCRITICAL WING (Commons, public domain, EC95-43002-2). Konkrétní letoun, na kterém NASA Whitcombovo křídlo zkoušela.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "F-8 SCW on display stand EC95-43002-2",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "kridlo",
+   "diagram": "Nadkritický profil (plochý hřbet) a SUPERCRITICAL WING. Z něj dvě cesty: čárkovaně a ztlumeně FLY FASTER, plně a ambrově SAME SPEED · LESS FUEL.",
+   "note": "‚Mostly‘ ve scénáři → nevyužitá cesta čárkovaně, ne přeškrtnutá. Factcheck S22–S24."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba vyvážená, SPEED vlevo, FUEL vpravo, celá váha v ambrovém rámu a nad ní REMEMBER THIS CHOICE.",
+   "note": "Ohlášení motivu, který se vrací v S27, S45–S48. Konec bloku.",
+   "pause": 1.4
+  },
+  {
+   "id": "S25",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S25.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-22: Convair 990 Coronado SAS při vzletu (Commons ‚Coronado CV-990 (1).jpg‘, public domain). Factcheck S25.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Coronado CV-990 (1)",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false
+    }
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa a pás zdi. Čárkovaně na 89 % PROMISED, plně na 84 % REACHED. Vpravo nahoře CONVAIR 990 a pod tím MORE FUEL THAN THE 707.",
+   "note": "Factcheck S26: max. M0,84 proti garantovaným 0,89 (American). ‚More fuel than the 707‘ je nejslabší zdroj — v obraze malým písmem, jak to říká scénář."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba nakloněná doprava: vlevo A LITTLE EXTRA SPEED, vpravo FUEL převažuje. Dole štítek ONLY 37 BUILT.",
+   "note": "Factcheck S27: 37 kusů. Druhý výskyt volby.",
+   "pause": 1.6
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "uvod",
+   "diagram": "Zeď ze vzduchu uprostřed. Vlevo letadlo těsně před zdí a ztlumeně A LITTLE FASTER · DOESN'T PAY. Čárkovaná ambrová šipka skrz zeď doprava a STRAIGHT THROUGH IT?",
+   "note": "Rým se zdí z S08 (tatáž funkce zed_vzduchu). Šipka skrz čárkovaně, protože je to otázka.",
+   "pause": 1.4
+  },
+  {
+   "id": "S29",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S29.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-22: Concorde Air France při vzletu nad mořem (Commons ‚Concorde 1 94-9-5 kix (cropped).jpg‘, CC BY-SA 3.0, 5048 px). Factcheck S29.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Concorde 1 94-9-5 kix (cropped)",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa se zlomem, pás zdi zůstává. Za zlomem na 200 % ambrově CONCORDE · 2 × SPEED OF SOUND. Mezi zdí a Concordem štítek THE WALL IS STILL THERE.",
+   "note": "Zeď se nekreslí slabší ani přeškrtnutá — scénář říká, že nezmizela. Factcheck S29: M2,02, > 2 000 km/h."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "concorde",
+   "diagram": "FUEL PER PASSENGER: vlevo 747 s jednou korálovou kapkou, vpravo Concorde se třemi kapkami a ~3 ×. Pod Concordem ~100 SEATS.",
+   "note": "Factcheck S31: 2,7–2,9×, modelový výpočet; ve scénáři ‚roughly three times'. Počet kapek assert 1 : 3.",
+   "pause": 0.5
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "pause": 4.0,
+   "example": { "zvuk": "zvuk/S32.flac", "gain_db": 0.0 },
+   "zvuk_note": "Do pauzy skutečný aerodynamický třesk (F/A-18, CC BY 3.0, AirMan/SoundBible přes Commons — atribuce do popisu). Recept zvuk/ukazky.py, hlasitost vybrána poslechem 2026-11-23.",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "concorde",
+   "diagram": "Concorde z boku a za ním kužel rázových vln (dvě čáry od přídě a ocasu dozadu dolů). Ambrově SONIC BOOM.",
+   "note": "Kužel jde DOZADU od letadla, ne dopředu."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "concorde",
+   "diagram": "Bokorys: Concorde nahoře letí doprava, za ním šipka THE WHOLE WAY; kužel sahá k zemi a na zemi ambrový pás CARPET OF NOISE · DOZENS OF KM WIDE po celé délce letu.",
+   "note": "Factcheck S33: pás ~48 km z 30 000 stop. Pás na zemi po celé dráze, ne jedna rána v místě překonání rychlosti zvuku."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "concorde",
+   "diagram": "Schéma: vlevo pevnina UNITED STATES šrafovaně s NO SUPERSONIC FLIGHT · 1973, vpravo moře (vlnky) OCEAN a nad ním Concorde s trasou nad mořem.",
+   "note": "Factcheck S34: zákaz jen nad USA a jejich teritoriálními vodami — vizuál NESMÍ ukazovat zákaz nad světem (uživatel). Moře výslovně bez zákazu.",
+   "pause": 0.5
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "concorde",
+   "diagram": "Vlevo tři body LONDON, PARIS → NEW YORK (dvě linky). Vpravo 20 malých siluet Concordu (4 × 5) a ONLY 20 BUILT.",
+   "note": "Factcheck S35: 20 postaveno; assert 20 siluet.",
+   "pause": 0.9
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "concorde",
+   "diagram": "Časová osa 1960–1980. Pás 1960s ambrově DESIGNED, u něj malá kapka a FUEL CHEAP.",
+   "note": "Časová osa se vrací v S37."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "concorde",
+   "diagram": "Táž časová osa. Dvě ODDĚLENÉ značky v roce 1973: EARLY 1973 · US AIRLINES DROP THEIR OPTIONS a OCT 1973 · OIL CRISIS · FUEL PRICES SOAR. Mezi nimi A FEW MONTHS APART. Žádná šipka mezi nimi.",
+   "note": "Uživatel: S37 vizuálně dvě oddělené události, ne příčina a následek — proto bez šipky a každá ve vlastním rámečku. Factcheck S37: Pan Am a TWA leden/únor 1973 opce; embargo říjen 1973."
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "concorde",
+   "diagram": "Velká letenka NEW YORK ⇄ LONDON · RETURN · 1997 a na ní ambrově $8,000+.",
+   "note": "Factcheck S38: $7 995–8 547; rozhodl uživatel ‚over eight thousand'."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "concorde",
+   "diagram": "Řada deseti sedadel/postav, dvě ambrové, zbytek prázdné obrysy: SOME PAID · NOT ENOUGH. Pod tím karta EXPENSIVE TO RUN AND MAINTAIN.",
+   "note": "Počet postav je ilustrační, ne data (SCHEMATIC)."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "concorde",
+   "diagram": "Časová osa Concordu 1976–2003: 1977 LONDON–NEW YORK, 2000 CRASH, 2001 SLUMP IN AIR TRAVEL, 2003 LAST PASSENGERS (ambrově).",
+   "note": "Factcheck S39–S40. Bez šipek mezi událostmi.",
+   "pause": 2.4
+  },
+  {
+   "id": "S41",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S41.png",
+   "note": "Atmosféra předělu (~5:00): rekapitulace před Sonic Cruiserem. První SDXL scéna až tady. Bez letadla — SDXL letadla nekreslí.",
+   "prompt": "a single long thin white contrail crossing an empty deep steel-blue stratosphere, curvature of the earth far below, high thin cirrus, vast calm open sky",
+   "pause": 0.7
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba (páteř 2) vyvážená, na obou miskách jen otazník; nad váhami EARLY 2000s · A DIRECT CHOICE.",
+   "note": "Váhy se v S45 naplní slovy FASTER / CHEAPER — volba ohlášená v S24 se vrací jako téměř přímá otázka."
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa a pás zdi. Čárkovaně na 98 % SONIC CRUISER · 2001 · UP TO 98 %, pod tím ~15–20 % FASTER. Vpravo nahoře čárkovaná silueta Sonic Cruiseru (kachna + delta).",
+   "note": "Kotva S42–S48. Čárkovaně, protože nikdy nevzlétl (konvence 3). Factcheck S43: až M0,98, o 15–20 % rychlejší."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa a pás zdi; Sonic Cruiser ztlumeně. Na 85 % čárkovaně ANOTHER IDEA · USUAL SPEED, pod tím 17–20 % LESS FUEL THAN A 767.",
+   "note": "Factcheck S44: 17–20 % spotřeby proti 767 (ne provozní náklady). Také čárkovaně — v roce 2002 jen nápad."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba vyvážená: vlevo FASTER (pod tím SONIC CRUISER), vpravo CHEAPER (pod tím USUAL SPEED · LESS FUEL).",
+   "note": "Tatáž váha jako S24 — ‚Remember that choice' se vyplácí.",
+   "pause": 1.6
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba nakloněná doprava, pravá miska CHEAPER v ambrovém rámu; pod ní 2002 → BOEING 787. Levá FASTER ztlumeně s SONIC CRUISER DROPPED.",
+   "note": "Factcheck S46: zrušen prosinec 2002 → 7E7/787."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba nakloněná doprava; pod pravou miskou seznam WHITCOMB'S WING · CONVAIR 990 · CONCORDE.",
+   "note": "Factcheck S47: ‚hurt', ne ‚sank' — seznam bez škrtů."
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "palivo",
+   "diagram": "Volba nakloněná doprava, pravá miska v ambrovém rámu; nad váhami AGAIN AND AGAIN · EFFICIENCY OVER SPEED.",
+   "note": "Factcheck S48: zobecnění tří doložených případů. Konec bloku.",
+   "pause": 1.2
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "levne",
+   "diagram": "PÁTEŘ 4 palubka(): čtyři dlaždice; svítí jen SPEED se SAME AS 1970, ostatní tři ztlumené s otazníkem.",
+   "note": "Zavedení páteře 4 (palubka v _kit.py). ‚Stood still?' — rychlost ano, ostatní se odhalí v S51–S54."
+  },
+  {
+   "id": "S50",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S50.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-22: Boeing 787-8 při prvním letu (Commons, CC BY-SA 3.0). Letadlo, které vzešlo z volby ‚cheaper' (S46), teď jako obraz toho, v čem se letadla zlepšila.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Boeing 787-8 maiden flight overhead view",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "levne",
+   "diagram": "Palubka: SPEED SAME, svítí FUEL PER SEAT ≈ ½ (NEW 1960s JET → NEW JET TODAY, SAME DISTANCE).",
+   "note": "Factcheck S51: ICCT nová letadla 1960→2008 ~2×, −45 % 1968→2014.",
+   "pause": 0.5
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "levne",
+   "diagram": "Palubka: SPEED, FUEL vyplněné; dlaždice FARES svítí ambrově, ale ještě s otazníkem.",
+   "note": "Ohlášení ‚flying got much cheaper' — číslo přijde v S53."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "levne",
+   "diagram": "Palubka: FARES ≈ −40 % s upřesněním US MEDIAN DOMESTIC RETURN · INFLATION-ADJUSTED · 1980 → 2005.",
+   "note": "Factcheck S53: GAO-06-630 ‚almost 40 percent'. V obraze ≈ −40 %, upřesnění celé, ať číslo nejde vytrhnout.",
+   "pause": 0.5
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "levne",
+   "diagram": "Palubka: PASSENGERS ~310 M → 4.5 BN s upřesněním 1970 → 2019, PER YEAR.",
+   "note": "Factcheck S54: ICAO ~310 mil. (1970), ~4,5 mld. (2019).",
+   "pause": 1.8
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "levne",
+   "diagram": "Dvě letiště (věž) spojená linkou s letadlem a SAME SPEED ztlumeně; před prvním letištěm ambrová cesta od domu (dům → letiště) s otazníkem.",
+   "note": "Kotva S55–S57. ‚Not between the airports' — ztlumené je letiště-letiště, ambrová část je mimo něj; vysvětlí S56–S57."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "levne",
+   "diagram": "Dvě řady postav. 1970: málokterá s letenkou, nápis BEYOND MANY BUDGETS. LATER: mnohem víc s letenkou (ambrově), FAR MORE PEOPLE. SCHEMATIC.",
+   "note": "Factcheck S56: interpretace bez čísla — poměry postav jsou ilustrační, proto SCHEMATIC.",
+   "pause": 1.2
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "levne",
+   "diagram": "Vlevo tabule odletů (DEPARTURES, sloupec časů) ztlumeně a SPEED · ON THE BOARD. Vpravo velká ambrová cenovka PRICE · WHO GOT ON AT ALL.",
+   "note": "Pointa videa (kotva). VÝZVA za touto scénou (~7:20): levý dolní roh prázdný v S57 i S58.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S58",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S58.png",
+   "note": "Atmosféra obratu do epilogu. Chlad bez denní doby (pravidlo dawn/dusk).",
+   "prompt": "two thin parallel white contrails high in a deep steel-blue stratosphere above a solid flat grey overcast cloud deck, no sun, quiet anticipation, vast empty sky"
+  },
+  {
+   "id": "S59",
+   "source": "archive",
+   "pause": 2.4,
+   "example": { "zvuk": "zvuk/S59.flac", "gain_db": -4.4 },
+   "zvuk_note": "Za „distant thump“ ILUSTRACE thumpu odvozená z nahrávky třesku v S32 (nahrávka X-59 zatím neexistuje). 5 LU pod třeskem, vybráno poslechem 2026-11-23.",
+   "effect": "pan_left",
+   "visual": "images/S59.png",
+   "note": "PICK Z KONTAKTNÍHO LISTU 2026-11-22: NASA X-59 za letu (Commons, public domain). Factcheck S59.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "NASA’s X-59 Continues Supersonic Flight Testing",
+    "pick": 1,
+    "grade": {
+     "fit": 0.92,
+     "saturation": 95,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa rychlosti; ambrově na ~110 % X-59 · 2026 · FIRST SUPERSONIC FLIGHT.",
+   "note": "Factcheck S60: 5. 6. 2026, ~M1,1. Bez pásu zdi — X-59 je o hluku, ne o palivu.",
+   "pause": 0.5
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "epilog",
+   "diagram": "List PROPOSED RULE · 2026 (US REGULATOR): přeškrtnuté BAN OVER LAND → LIMIT ON HOW LOUD THE BOOM IS ON THE GROUND. Čárkované razítko PROPOSAL · NOT YET A RULE.",
+   "note": "Factcheck S61: FR 2026-13440, k 22. 11. 2026 návrh. Čárkovaně = návrh (konvence 3)."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "epilog",
+   "diagram": "Čárkovaná silueta nadzvukového dopravního letadla a BOOM SUPERSONIC · DESIGN, pod tím FIRST FLIGHT PLANNED · LATE 2020s.",
+   "note": "Factcheck S62: konkrétní rok vypuštěn, firemní harmonogram. Čárkovaně = plán.",
+   "pause": 1.4
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "zed",
+   "diagram": "Osa, pás zdi a křivka odporu z S12 znovu plně; štítek STILL COSTS MORE FUEL u stoupající části.",
+   "note": "Rým s S12–S13: táž křivka, tatáž zeď. ‚What hasn't changed.'",
+   "pause": 0.6
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "epilog",
+   "diagram": "V dolní polovině dvě karty: CAN WE BUILD IT? s fajfkou WE COULD IN THE 1970s (ztlumeně) a ambrově WHO PAYS FOR THE HOURS IT SAVES?",
+   "note": "Kresba jen v dolní polovině (závěrečná obrazovka).",
+   "pause": 1.4
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "epilog",
+   "diagram": "V dolní polovině dvě letenky: FASTER ztlumeně, CHEAPER ambrově s fajfkou; pod nimi MOST OF US CHOSE.",
+   "note": "Kresba jen v dolní polovině (závěrečná obrazovka)."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "epilog",
+   "diagram": "V dolní polovině dvě dlaždice: SPEED · SAME AS 1970 a ambrově PASSENGERS · MORE THAN 10 ×.",
+   "note": "Factcheck S66: 14,7× → ‚more than ten times'. Kresba jen v dolní polovině.",
+   "pause": 2.0
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "epilog",
+   "diagram": "Páteř 3 cesta() jako v S02 (oba pruhy), mezi konci pruhů závorka a velké ambrové $ ? vpravo.",
+   "note": "Výplata páteře 3: otázka do komentářů nad týmž srovnáním, kterým video začalo. Horní polovina prázdná pro závěrečnou obrazovku."
+  }
+ ]
+}

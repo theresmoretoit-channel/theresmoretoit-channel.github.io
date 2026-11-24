@@ -24,6 +24,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -60,6 +61,25 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      # deploy-pages hned po nahrání artefakt nevidí: od 2026-11-23 22:53 UTC
+      # padal každý běh na "No artifacts named github-pages were found",
+      # přestože artefakt (103 MB) v běhu ležel — nasazení startovalo ve stejné
+      # sekundě, kdy nahrávání skončilo, a vzdalo to do sekundy. Počkat, až ho
+      # API běhu ukáže, a k tomu rezerva.
+      - name: Počkat, až je artefakt vidět
+        if: steps.kontrola.outputs.stavet
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 24); do
+            if curl -sf -H "Authorization: Bearer $GH_TOKEN" \
+                "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
+                | grep -q '"name": *"github-pages"'; then
+              echo "artefakt vidět po $((i*5)) s"; sleep 15; exit 0
+            fi
+            sleep 5
+          done
+          echo "artefakt není vidět ani po 120 s, zkouším nasadit stejně"
       - id: nasazeni
         if: steps.kontrola.outputs.stavet
         uses: actions/deploy-pages@v4

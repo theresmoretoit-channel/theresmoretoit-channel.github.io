@@ -1,0 +1,132 @@
+{
+  "title": "Why Aren't Planes Faster Than in the 1970s?",
+  "slug": "169-why-arent-planes-faster-than-in-the-1970s",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.15,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly editorial illustration, high-altitude sky, deep steel-blue stratosphere, thin white contrails, one small warm amber accent, calm contemplative mood, restrained detail, subtle film grain, cinematic wide composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, airline livery, faces, close-up of people, oversaturated, neon, blurry, low quality, deformed, sunrise, sunset"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -36,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 169,
+    "music_sections": [
+      [
+        "S01",
+        "S08"
+      ],
+      [
+        "S28",
+        "S30"
+      ],
+      [
+        "S41",
+        "S42"
+      ],
+      [
+        "S48",
+        "S50"
+      ],
+      [
+        "S55",
+        "S58"
+      ],
+      [
+        "S63",
+        "S67"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false,
+    "lead_in": 0.15,
+    "frazovani": true
+  },
+  "pronounce": {
+    "1960s": "nineteen sixties",
+    "1962": "nineteen sixty-two",
+    "1970": "nineteen seventy",
+    "1970s": "nineteen seventies",
+    "1973": "nineteen seventy-three",
+    "1977": "nineteen seventy-seven",
+    "1980": "nineteen eighty",
+    "1997": "nineteen ninety-seven",
+    "2000": "two thousand",
+    "2000s": "two thousands",
+    "2001": "two thousand and one",
+    "2002": "two thousand and two",
+    "2003": "two thousand and three",
+    "2005": "two thousand and five",
+    "2020s": "twenty twenties",
+    "2026": "twenty twenty-six",
+    "747": "seven four seven",
+    "787": "seven eight seven",
+    "990": "nine ninety",
+    "X-59": "X fifty-nine"
+  },
+  "archive_grade": {
+    "saturation": 95,
+    "tint_amount": 0,
+    "vignette": false
+  }
+}
