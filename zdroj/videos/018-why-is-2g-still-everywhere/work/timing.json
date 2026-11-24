@@ -1,0 +1,685 @@
+{
+  "total": 799.919,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 11.181,
+      "end": 11.981,
+      "dur": 11.581,
+      "text": "Imagine you're in a lift. You press the button. The doors slide shut. The lift starts moving. Everything is perfectly normal. Until, one day, it isn't."
+    },
+    {
+      "id": "S02",
+      "start": 11.981,
+      "speech_end": 19.623,
+      "end": 20.423,
+      "dur": 8.441,
+      "text": "The lift stops between floors. So you press the emergency button. You expect someone to answer. But nobody does."
+    },
+    {
+      "id": "S03",
+      "start": 20.423,
+      "speech_end": 31.456,
+      "end": 32.256,
+      "dur": 11.833,
+      "text": "Not because the button is broken. Not because the lift has no electricity. But because the mobile network that the emergency phone uses... has been switched off."
+    },
+    {
+      "id": "S04",
+      "start": 32.256,
+      "speech_end": 36.245,
+      "end": 37.045,
+      "dur": 4.789,
+      "text": "Welcome to the surprisingly complicated problem of turning off 2G."
+    },
+    {
+      "id": "S05",
+      "start": 37.045,
+      "speech_end": 45.581,
+      "end": 46.381,
+      "dur": 9.335,
+      "text": "Because 2G isn't just something your old Nokia used twenty years ago. It is still quietly sitting inside an astonishing number of things."
+    },
+    {
+      "id": "S06",
+      "start": 46.381,
+      "speech_end": 55.048,
+      "end": 55.848,
+      "dur": 9.467,
+      "text": "Things we generally expect to work for decades. Things like lifts. Alarms. Industrial equipment. Meters. Cars."
+    },
+    {
+      "id": "S07",
+      "start": 55.848,
+      "speech_end": 58.877,
+      "end": 61.377,
+      "dur": 5.529,
+      "text": "And, rather awkwardly... emergency systems."
+    },
+    {
+      "id": "S08",
+      "start": 61.377,
+      "speech_end": 76.319,
+      "end": 77.119,
+      "dur": 15.741,
+      "text": "Let's start with the obvious question. Why are we still talking about 2G? GSM first appeared commercially in the early 1990s. It is ancient. By technology standards, it is practically a fossil."
+    },
+    {
+      "id": "S09",
+      "start": 77.119,
+      "speech_end": 86.81,
+      "end": 87.61,
+      "dur": 10.491,
+      "text": "Today we have 4G. 5G. Gigabit mobile connections. We can stream 4K video from a phone while sitting on a train."
+    },
+    {
+      "id": "S10",
+      "start": 87.61,
+      "speech_end": 96.6,
+      "end": 98.8,
+      "dur": 11.19,
+      "text": "So surely it makes sense to get rid of this ancient technology? Well... For your smartphone, probably. For a lift? Not so much."
+    },
+    {
+      "id": "S11",
+      "start": 98.8,
+      "speech_end": 107.83,
+      "end": 108.63,
+      "dur": 9.83,
+      "text": "A lift doesn't need 5G. It doesn't need Netflix. It doesn't need a gigabit connection. It doesn't even need the internet."
+    },
+    {
+      "id": "S12",
+      "start": 108.63,
+      "speech_end": 115.055,
+      "end": 115.855,
+      "dur": 7.225,
+      "text": "It just needs to be able to say this. \"Help. I'm stuck between floors.\" That's basically it."
+    },
+    {
+      "id": "S13",
+      "start": 115.855,
+      "speech_end": 125.457,
+      "end": 126.257,
+      "dur": 10.402,
+      "text": "An emergency communicator in a lift might simply establish a voice call with a service centre. And GSM is perfectly capable of doing that."
+    },
+    {
+      "id": "S14",
+      "start": 126.257,
+      "speech_end": 133.835,
+      "end": 134.635,
+      "dur": 8.377,
+      "text": "The same applies to many alarm systems. Some industrial equipment. Some tracking devices. Some meters."
+    },
+    {
+      "id": "S15",
+      "start": 134.635,
+      "speech_end": 144.675,
+      "end": 146.875,
+      "dur": 12.24,
+      "text": "They don't need enormous bandwidth. They need a tiny, reliable communication channel. And that's exactly the sort of thing GSM was rather good at."
+    },
+    {
+      "id": "S16",
+      "start": 146.875,
+      "speech_end": 160.137,
+      "end": 160.937,
+      "dur": 14.063,
+      "text": "And then there was GPRS. If you were around in the early 2000s, you may remember it. GPRS was basically mobile data over GSM. And it was... slow. Very slow."
+    },
+    {
+      "id": "S17",
+      "start": 160.937,
+      "speech_end": 168.641,
+      "end": 169.441,
+      "dur": 8.503,
+      "text": "We are talking about tens of kilobits per second. Today, a teenager would probably describe that as a network outage."
+    },
+    {
+      "id": "S18",
+      "start": 169.441,
+      "speech_end": 177.485,
+      "end": 178.285,
+      "dur": 8.845,
+      "text": "But some of us actually used it. There were mobile data packages that allowed you to use GPRS as your internet connection."
+    },
+    {
+      "id": "S19",
+      "start": 178.285,
+      "speech_end": 184.696,
+      "end": 185.496,
+      "dur": 7.211,
+      "text": "Yes. As your actual internet connection. Some of us knew no better. And somehow... we survived."
+    },
+    {
+      "id": "S20",
+      "start": 185.496,
+      "speech_end": 194.287,
+      "end": 195.087,
+      "dur": 9.591,
+      "text": "The interesting thing is that GPRS is still perfectly adequate for some machines. A device might only need to send a few hundred bytes."
+    },
+    {
+      "id": "S21",
+      "start": 195.087,
+      "speech_end": 209.127,
+      "end": 211.327,
+      "dur": 16.24,
+      "text": "Something like this. Temperature, 21.4. Pressure, 1012. Status, OK. That's it. You don't need 5G for that. You barely need what we'd normally call the internet."
+    },
+    {
+      "id": "S22",
+      "start": 211.327,
+      "speech_end": 219.011,
+      "end": 219.811,
+      "dur": 8.484,
+      "text": "And this is where things get interesting. 2G isn't just used by old phones. It is used by machines."
+    },
+    {
+      "id": "S23",
+      "start": 219.811,
+      "speech_end": 225.646,
+      "end": 226.446,
+      "dur": 6.635,
+      "text": "And machines have a very annoying habit. If they work... nobody replaces them."
+    },
+    {
+      "id": "S24",
+      "start": 226.446,
+      "speech_end": 233.125,
+      "end": 233.925,
+      "dur": 7.479,
+      "text": "A lift can stay in service for twenty or thirty years. An industrial machine can last even longer."
+    },
+    {
+      "id": "S25",
+      "start": 233.925,
+      "speech_end": 242.738,
+      "end": 243.538,
+      "dur": 9.613,
+      "text": "An alarm system might be installed and then forgotten about. A meter can sit somewhere for fifteen years, quietly reporting its readings."
+    },
+    {
+      "id": "S26",
+      "start": 243.538,
+      "speech_end": 255.098,
+      "end": 257.598,
+      "dur": 14.06,
+      "text": "And nobody is going to replace a perfectly working device just because the mobile industry has moved on to another generation of technology. Why would they? It works."
+    },
+    {
+      "id": "S27",
+      "start": 257.598,
+      "speech_end": 263.595,
+      "end": 264.395,
+      "dur": 6.797,
+      "text": "Now let's talk about cars. Modern cars contain an extraordinary amount of electronics."
+    },
+    {
+      "id": "S28",
+      "start": 264.395,
+      "speech_end": 273.015,
+      "end": 273.815,
+      "dur": 9.421,
+      "text": "And some older cars have emergency communication systems based on 2G or 3G. This includes older versions of eCall."
+    },
+    {
+      "id": "S29",
+      "start": 273.815,
+      "speech_end": 284.889,
+      "end": 285.689,
+      "dur": 11.874,
+      "text": "The European emergency call system can automatically contact 112 after a serious accident and transmit information about the vehicle. That's rather useful."
+    },
+    {
+      "id": "S30",
+      "start": 285.689,
+      "speech_end": 294.786,
+      "end": 295.586,
+      "dur": 9.897,
+      "text": "But if the car's communication module only understands an old mobile network... then switching off that network creates a rather strange situation."
+    },
+    {
+      "id": "S31",
+      "start": 295.586,
+      "speech_end": 301.585,
+      "end": 302.385,
+      "dur": 6.799,
+      "text": "The car still works. The engine works. The brakes work. The airbags work. The radio works."
+    },
+    {
+      "id": "S32",
+      "start": 302.385,
+      "speech_end": 309.661,
+      "end": 310.461,
+      "dur": 8.077,
+      "text": "You can drive it perfectly normally. But its emergency communication system may no longer be able to communicate."
+    },
+    {
+      "id": "S33",
+      "start": 310.461,
+      "speech_end": 314.821,
+      "end": 317.621,
+      "dur": 7.16,
+      "text": "The car hasn't become obsolete. The network it depends on has."
+    },
+    {
+      "id": "S34",
+      "start": 317.621,
+      "speech_end": 326.417,
+      "end": 327.217,
+      "dur": 9.595,
+      "text": "Now, the obvious answer is this. \"Fine. Just replace the old module.\" And sometimes that is exactly what will happen."
+    },
+    {
+      "id": "S35",
+      "start": 327.217,
+      "speech_end": 333.727,
+      "end": 334.527,
+      "dur": 7.311,
+      "text": "But it isn't always that simple. Imagine thousands of lifts. Thousands of alarm systems."
+    },
+    {
+      "id": "S36",
+      "start": 334.527,
+      "speech_end": 343.939,
+      "end": 344.739,
+      "dur": 10.212,
+      "text": "Industrial equipment installed fifteen years ago. Vehicles that are perfectly roadworthy. Meters installed across an entire country."
+    },
+    {
+      "id": "S37",
+      "start": 344.739,
+      "speech_end": 352.895,
+      "end": 353.695,
+      "dur": 8.955,
+      "text": "Who replaces all those devices? The manufacturer? The building owner? The lift maintenance company? The car owner?"
+    },
+    {
+      "id": "S38",
+      "start": 353.695,
+      "speech_end": 364.445,
+      "end": 366.645,
+      "dur": 12.95,
+      "text": "And what happens if the manufacturer doesn't even make the device anymore? Suddenly, a very cheap GSM modem has become a rather expensive engineering project."
+    },
+    {
+      "id": "S39",
+      "start": 366.645,
+      "speech_end": 376.057,
+      "end": 376.857,
+      "dur": 10.212,
+      "text": "Now, there is a perfectly good reason for wanting to switch off 2G. Radio spectrum is limited. Operators have only so much of it."
+    },
+    {
+      "id": "S40",
+      "start": 376.857,
+      "speech_end": 386.416,
+      "end": 387.216,
+      "dur": 10.359,
+      "text": "Modern networks can use that spectrum much more efficiently. LTE and 5G can provide vastly more capacity and much better performance."
+    },
+    {
+      "id": "S41",
+      "start": 387.216,
+      "speech_end": 393.488,
+      "end": 394.288,
+      "dur": 7.072,
+      "text": "So from the operator's point of view, keeping an entire old network running forever doesn't make much sense."
+    },
+    {
+      "id": "S42",
+      "start": 394.288,
+      "speech_end": 403.122,
+      "end": 403.922,
+      "dur": 9.634,
+      "text": "Why maintain old equipment and dedicate spectrum to a technology that most people no longer use? That's a perfectly reasonable question."
+    },
+    {
+      "id": "S43",
+      "start": 403.922,
+      "speech_end": 408.532,
+      "end": 411.032,
+      "dur": 7.11,
+      "text": "But there is another question. How much 2G do we actually need?"
+    },
+    {
+      "id": "S44",
+      "start": 411.032,
+      "speech_end": 419.486,
+      "end": 420.286,
+      "dur": 9.254,
+      "text": "Maybe the answer isn't this. \"Keep the entire 2G network forever.\" Maybe it's this. \"Keep a tiny part of it.\""
+    },
+    {
+      "id": "S45",
+      "start": 420.286,
+      "speech_end": 429.485,
+      "end": 430.285,
+      "dur": 9.999,
+      "text": "We don't need 2G to carry millions of smartphone users. We don't need it for streaming video. We don't need it for normal mobile internet."
+    },
+    {
+      "id": "S46",
+      "start": 430.285,
+      "speech_end": 442.406,
+      "end": 443.206,
+      "dur": 12.921,
+      "text": "We don't even need huge amounts of bandwidth. We might only need a small number of GSM channels. Enough for voice, SMS, basic GPRS data and emergency systems."
+    },
+    {
+      "id": "S47",
+      "start": 443.206,
+      "speech_end": 450.346,
+      "end": 452.546,
+      "dur": 9.34,
+      "text": "Most of the spectrum could still go to 4G and 5G. The old network would become a tiny legacy layer."
+    },
+    {
+      "id": "S48",
+      "start": 452.546,
+      "speech_end": 461.576,
+      "end": 462.376,
+      "dur": 9.83,
+      "text": "And it wouldn't even have to belong to one particular operator. It doesn't have to be Vodafone. Or O2. Or Deutsche Telekom."
+    },
+    {
+      "id": "S49",
+      "start": 462.376,
+      "speech_end": 468.095,
+      "end": 468.895,
+      "dur": 6.519,
+      "text": "Imagine there was a shared European legacy service. Let's call it... EU Legacy."
+    },
+    {
+      "id": "S50",
+      "start": 468.895,
+      "speech_end": 475.425,
+      "end": 476.225,
+      "dur": 7.33,
+      "text": "A lift doesn't care who owns the tower. It just needs its old modem to find the network and make the call."
+    },
+    {
+      "id": "S51",
+      "start": 476.225,
+      "speech_end": 485.765,
+      "end": 488.265,
+      "dur": 12.04,
+      "text": "So perhaps the real problem isn't this. \"We don't have enough capacity.\" Perhaps it's this. \"We don't want to reserve any spectrum for it.\""
+    },
+    {
+      "id": "S52",
+      "start": 488.265,
+      "speech_end": 493.067,
+      "end": 493.867,
+      "dur": 5.602,
+      "text": "And here's where it gets strange. This isn't entirely hypothetical."
+    },
+    {
+      "id": "S53",
+      "start": 493.867,
+      "speech_end": 505.882,
+      "end": 506.682,
+      "dur": 12.815,
+      "text": "Regulators are aware of the problem. In May 2026, the European Commission published a study on exactly this. What happens to the machines when the old networks go."
+    },
+    {
+      "id": "S54",
+      "start": 506.682,
+      "speech_end": 515.58,
+      "end": 516.38,
+      "dur": 9.698,
+      "text": "And the numbers are not small. If the networks are switched off without coordination, 64 million vehicles across the EU could lose eCall."
+    },
+    {
+      "id": "S55",
+      "start": 516.38,
+      "speech_end": 522.099,
+      "end": 522.899,
+      "dur": 6.519,
+      "text": "64 million. So the problem isn't this. \"Somebody wants to keep their old Nokia.\""
+    },
+    {
+      "id": "S56",
+      "start": 522.899,
+      "speech_end": 535.833,
+      "end": 536.633,
+      "dur": 13.734,
+      "text": "We're talking about infrastructure. Safety systems. Vehicles. Industrial equipment. And millions of devices whose owners may not even realise which mobile technology they use."
+    },
+    {
+      "id": "S57",
+      "start": 536.633,
+      "speech_end": 543.462,
+      "end": 544.262,
+      "dur": 7.629,
+      "text": "And what does that study recommend? Keep at least one circuit-switched network alive until at least 2030."
+    },
+    {
+      "id": "S58",
+      "start": 544.262,
+      "speech_end": 547.272,
+      "end": 550.072,
+      "dur": 5.81,
+      "text": "In other words... keep a legacy network alive."
+    },
+    {
+      "id": "S59",
+      "start": 550.072,
+      "speech_end": 558.716,
+      "end": 559.516,
+      "dur": 9.444,
+      "text": "And here's the funny thing. We've solved this sort of problem before. Think about the transition from black-and-white television to colour."
+    },
+    {
+      "id": "S60",
+      "start": 559.516,
+      "speech_end": 566.773,
+      "end": 567.573,
+      "dur": 8.057,
+      "text": "When colour television arrived, we didn't say this. \"Black-and-white televisions are obsolete. Throw them away.\""
+    },
+    {
+      "id": "S61",
+      "start": 567.573,
+      "speech_end": 579.074,
+      "end": 579.874,
+      "dur": 12.301,
+      "text": "The colour television standards were designed so that older black-and-white receivers could still display the original image. New televisions could extract the additional colour information."
+    },
+    {
+      "id": "S62",
+      "start": 579.874,
+      "speech_end": 589.094,
+      "end": 591.294,
+      "dur": 11.42,
+      "text": "One broadcast. Old equipment still works. New equipment gets the new features. That is what good backward compatibility looks like."
+    },
+    {
+      "id": "S63",
+      "start": 591.294,
+      "speech_end": 600.171,
+      "end": 600.971,
+      "dur": 9.677,
+      "text": "Now, to be fair, mobile networks are much more complicated. GSM and LTE are not simply two versions of the same technology."
+    },
+    {
+      "id": "S64",
+      "start": 600.971,
+      "speech_end": 609.698,
+      "end": 610.498,
+      "dur": 9.527,
+      "text": "You can't just add a little bit of LTE to a GSM signal and expect a 1998 Nokia to understand it. It won't."
+    },
+    {
+      "id": "S65",
+      "start": 610.498,
+      "speech_end": 618.938,
+      "end": 621.138,
+      "dur": 10.64,
+      "text": "But that doesn't mean we have to switch the old system off overnight. We could run both. Until the old equipment is finally gone."
+    },
+    {
+      "id": "S66",
+      "start": 621.138,
+      "speech_end": 632.214,
+      "end": 633.014,
+      "dur": 11.876,
+      "text": "And perhaps that's the most important point. Legacy technology isn't necessarily bad technology. Sometimes it's simply old technology that is still doing its job."
+    },
+    {
+      "id": "S67",
+      "start": 633.014,
+      "speech_end": 643.384,
+      "end": 644.184,
+      "dur": 11.17,
+      "text": "A GSM modem doesn't become dangerous because it is twenty years old. A lift doesn't stop being useful because its emergency telephone uses GSM."
+    },
+    {
+      "id": "S68",
+      "start": 644.184,
+      "speech_end": 650.797,
+      "end": 651.597,
+      "dur": 7.413,
+      "text": "An industrial machine doesn't suddenly become obsolete because the telecom industry has invented 5G."
+    },
+    {
+      "id": "S69",
+      "start": 651.597,
+      "speech_end": 656.89,
+      "end": 657.69,
+      "dur": 6.093,
+      "text": "We have a tendency to think of technology as a sequence. Old. Replace. New."
+    },
+    {
+      "id": "S70",
+      "start": 657.69,
+      "speech_end": 663.93,
+      "end": 666.43,
+      "dur": 8.74,
+      "text": "But real infrastructure doesn't work like that. Real infrastructure overlaps. For decades."
+    },
+    {
+      "id": "S71",
+      "start": 666.43,
+      "speech_end": 675.093,
+      "end": 675.893,
+      "dur": 9.463,
+      "text": "And this is why the current timetable is interesting. Some European operators are planning to retire 2G around the end of this decade."
+    },
+    {
+      "id": "S72",
+      "start": 675.893,
+      "speech_end": 690.664,
+      "end": 691.464,
+      "dur": 15.571,
+      "text": "That sounds like a long time. Until you remember what we're talking about. A smartphone from 2021 is already old by 2026 standards. But a lift from 2011? That's barely middle-aged."
+    },
+    {
+      "id": "S73",
+      "start": 691.464,
+      "speech_end": 698.079,
+      "end": 698.879,
+      "dur": 7.415,
+      "text": "An industrial machine from 2005? It might still have another twenty years of useful life."
+    },
+    {
+      "id": "S74",
+      "start": 698.879,
+      "speech_end": 705.139,
+      "end": 707.639,
+      "dur": 8.76,
+      "text": "That's the mismatch. Mobile networks change much faster than the infrastructure that uses them."
+    },
+    {
+      "id": "S75",
+      "start": 707.639,
+      "speech_end": 714.489,
+      "end": 715.289,
+      "dur": 7.65,
+      "text": "And perhaps the best solution isn't some revolutionary new technology. Maybe it's something incredibly boring."
+    },
+    {
+      "id": "S76",
+      "start": 715.289,
+      "speech_end": 719.193,
+      "end": 721.993,
+      "dur": 6.704,
+      "text": "Just one question. \"Does it still work?\" Yes. Good. Leave it alone."
+    },
+    {
+      "id": "S77",
+      "start": 721.993,
+      "speech_end": 733.153,
+      "end": 733.953,
+      "dur": 11.959,
+      "text": "Technology doesn't always have to mean destroying the previous generation. Sometimes the smartest thing you can do is build the new system... and leave a tiny door open for the old one."
+    },
+    {
+      "id": "S78",
+      "start": 733.953,
+      "speech_end": 743.153,
+      "end": 743.953,
+      "dur": 10.001,
+      "text": "Because somewhere out there is a lift. There is probably an alarm. There is probably an industrial machine. There is definitely an old car."
+    },
+    {
+      "id": "S79",
+      "start": 743.953,
+      "speech_end": 753.024,
+      "end": 753.824,
+      "dur": 9.871,
+      "text": "And inside all of them there may be a little GSM modem made fifteen years ago. Nobody thinks about it. Nobody talks about it."
+    },
+    {
+      "id": "S80",
+      "start": 753.824,
+      "speech_end": 766.033,
+      "end": 766.833,
+      "dur": 13.009,
+      "text": "It doesn't stream video. It doesn't browse the web. It doesn't download apps. It has one job. To send a tiny message when something goes wrong. Something like this. \"Help. I'm here.\""
+    },
+    {
+      "id": "S81",
+      "start": 766.833,
+      "speech_end": 772.431,
+      "end": 773.231,
+      "dur": 6.398,
+      "text": "And honestly... I think that's a pretty good reason to keep a few GSM channels alive."
+    },
+    {
+      "id": "S82",
+      "start": 773.231,
+      "speech_end": 779.609,
+      "end": 780.409,
+      "dur": 7.179,
+      "text": "Because the most impressive technology isn't necessarily the one that replaces everything that came before."
+    },
+    {
+      "id": "S83",
+      "start": 780.409,
+      "speech_end": 786.063,
+      "end": 786.863,
+      "dur": 6.453,
+      "text": "Sometimes... it's the one that lets the old stuff keep working until we're actually ready to let it go."
+    },
+    {
+      "id": "S84",
+      "start": 786.863,
+      "speech_end": 793.544,
+      "end": 794.344,
+      "dur": 7.481,
+      "text": "2G may be ancient. But perhaps the right question isn't this. \"Why are we still using it?\""
+    },
+    {
+      "id": "S85",
+      "start": 794.344,
+      "speech_end": 798.719,
+      "end": 799.919,
+      "dur": 5.575,
+      "text": "Perhaps it's this. \"What happens if we turn it off before we're ready?\""
+    }
+  ]
+}

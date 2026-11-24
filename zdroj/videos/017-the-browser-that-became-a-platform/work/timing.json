@@ -1,0 +1,693 @@
+{
+  "total": 847.766,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 7.399,
+      "end": 8.199,
+      "dur": 7.799,
+      "text": "Imagine being a web developer in the early two thousands. You have written a perfectly reasonable web page."
+    },
+    {
+      "id": "S02",
+      "start": 8.199,
+      "speech_end": 18.469,
+      "end": 19.269,
+      "dur": 11.069,
+      "text": "It works in Netscape. It works in Opera. It works in the new Firefox. And then you open it in Internet Explorer. Everything is broken."
+    },
+    {
+      "id": "S03",
+      "start": 19.269,
+      "speech_end": 30.965,
+      "end": 31.765,
+      "dur": 12.497,
+      "text": "The layout is wrong. The buttons have moved. The PNG images look terrible. And somehow, adding one line break to your HTML has created a three pixel gap."
+    },
+    {
+      "id": "S04",
+      "start": 31.765,
+      "speech_end": 42.265,
+      "end": 43.065,
+      "dur": 11.3,
+      "text": "Welcome to web development in the age of Internet Explorer six. But here's the interesting part. Internet Explorer six wasn't simply a terrible browser."
+    },
+    {
+      "id": "S05",
+      "start": 43.065,
+      "speech_end": 51.707,
+      "end": 52.507,
+      "dur": 9.442,
+      "text": "Microsoft was trying to solve problems that the web genuinely had. They just had one enormous advantage over everyone else. Windows."
+    },
+    {
+      "id": "S06",
+      "start": 52.507,
+      "speech_end": 59.037,
+      "end": 61.437,
+      "dur": 8.93,
+      "text": "And eventually, that advantage allowed Microsoft to turn the browser into something much bigger than a browser."
+    },
+    {
+      "id": "S07",
+      "start": 61.437,
+      "speech_end": 69.141,
+      "end": 69.941,
+      "dur": 8.503,
+      "text": "In the mid nineteen nineties, the web was dominated by Netscape Navigator. Microsoft wasn't happy about that."
+    },
+    {
+      "id": "S08",
+      "start": 69.941,
+      "speech_end": 83.303,
+      "end": 84.103,
+      "dur": 14.163,
+      "text": "So Internet Explorer was bundled with Windows and made available for free. You bought a Windows computer. Internet Explorer was already there. Nothing to download. Nothing to pay for."
+    },
+    {
+      "id": "S09",
+      "start": 84.103,
+      "speech_end": 94.623,
+      "end": 95.423,
+      "dur": 11.319,
+      "text": "And most importantly, Microsoft controlled the operating system. By the early two thousands, Internet Explorer had more than ninety percent of the browser market."
+    },
+    {
+      "id": "S10",
+      "start": 95.423,
+      "speech_end": 105.663,
+      "end": 107.263,
+      "dur": 11.84,
+      "text": "Internet Explorer six arrived in two thousand and one, together with Windows XP. And for a while, it looked like Microsoft had simply won the browser wars."
+    },
+    {
+      "id": "S11",
+      "start": 107.263,
+      "speech_end": 119.452,
+      "end": 120.252,
+      "dur": 12.989,
+      "text": "Microsoft had a problem. The web was extremely limited. HTML could display documents. CSS could style them. JavaScript could make them interactive."
+    },
+    {
+      "id": "S12",
+      "start": 120.252,
+      "speech_end": 126.206,
+      "end": 127.006,
+      "dur": 6.754,
+      "text": "But that was about it. Anything more complicated ran straight into the limits of the browser."
+    },
+    {
+      "id": "S13",
+      "start": 127.006,
+      "speech_end": 134.754,
+      "end": 135.554,
+      "dur": 8.548,
+      "text": "What if you wanted to scan a document? Or communicate with a smart card? Or talk to some piece of Windows hardware?"
+    },
+    {
+      "id": "S14",
+      "start": 135.554,
+      "speech_end": 142.278,
+      "end": 143.078,
+      "dur": 7.524,
+      "text": "The browser couldn't really do those things. So Microsoft came up with a solution. ActiveX."
+    },
+    {
+      "id": "S15",
+      "start": 143.078,
+      "speech_end": 152.17,
+      "end": 152.97,
+      "dur": 9.892,
+      "text": "The basic idea was simple. Why restrict a web application to what the browser can do? Just let it use native Windows components."
+    },
+    {
+      "id": "S16",
+      "start": 152.97,
+      "speech_end": 157.93,
+      "end": 160.33,
+      "dur": 7.36,
+      "text": "And suddenly a web page could do things that ordinary HTML couldn't even dream of."
+    },
+    {
+      "id": "S17",
+      "start": 160.33,
+      "speech_end": 171.321,
+      "end": 172.121,
+      "dur": 11.791,
+      "text": "Today, ActiveX sounds terrifying. And for good reason. An ActiveX component could reach the files, the applications, the hardware and the operating system."
+    },
+    {
+      "id": "S18",
+      "start": 172.121,
+      "speech_end": 181.872,
+      "end": 182.672,
+      "dur": 10.551,
+      "text": "From today's security perspective, that sounds absolutely insane. But in the early two thousands, it made perfect sense for corporate applications."
+    },
+    {
+      "id": "S19",
+      "start": 182.672,
+      "speech_end": 192.212,
+      "end": 193.012,
+      "dur": 10.34,
+      "text": "Companies didn't want a pretty document viewer. They wanted applications. They wanted web pages that could behave almost like desktop software."
+    },
+    {
+      "id": "S20",
+      "start": 193.012,
+      "speech_end": 203.595,
+      "end": 204.395,
+      "dur": 11.383,
+      "text": "And Microsoft gave them exactly that. Even Windows Update itself originally relied on ActiveX to inspect the system and work out which updates were required."
+    },
+    {
+      "id": "S21",
+      "start": 204.395,
+      "speech_end": 212.077,
+      "end": 212.877,
+      "dur": 8.482,
+      "text": "So ActiveX wasn't simply a stupid mistake. It was an early attempt to turn the browser into an application platform."
+    },
+    {
+      "id": "S22",
+      "start": 212.877,
+      "speech_end": 220.137,
+      "end": 222.737,
+      "dur": 9.86,
+      "text": "And in that sense, Microsoft was actually ahead of its time. The problem was how much power they gave that platform."
+    },
+    {
+      "id": "S23",
+      "start": 222.737,
+      "speech_end": 233.303,
+      "end": 234.103,
+      "dur": 11.366,
+      "text": "ActiveX wasn't the only Microsoft extension. There was VBScript. There was DHTML. There was even CSS expression. Yes."
+    },
+    {
+      "id": "S24",
+      "start": 234.103,
+      "speech_end": 241.223,
+      "end": 243.623,
+      "dur": 9.52,
+      "text": "Internet Explorer could evaluate JavaScript directly inside CSS. You could do something like this."
+    },
+    {
+      "id": "S25",
+      "start": 243.623,
+      "speech_end": 251.585,
+      "end": 252.385,
+      "dur": 8.761,
+      "text": "It was ridiculous. It was also sometimes surprisingly useful. And none of it was guaranteed to work anywhere else."
+    },
+    {
+      "id": "S26",
+      "start": 252.385,
+      "speech_end": 263.815,
+      "end": 266.215,
+      "dur": 13.83,
+      "text": "Microsoft wasn't simply implementing the web. Microsoft was extending the web in its own direction. And with ninety percent of the market, it had enough power to make that work."
+    },
+    {
+      "id": "S27",
+      "start": 266.215,
+      "speech_end": 277.801,
+      "end": 278.601,
+      "dur": 12.386,
+      "text": "One of the most famous examples was the CSS box model. The standard model said that if an element was two hundred pixels wide, with twenty pixels of padding and a five pixel border,"
+    },
+    {
+      "id": "S28",
+      "start": 278.601,
+      "speech_end": 281.737,
+      "end": 282.537,
+      "dur": 3.936,
+      "text": "then the total width was two hundred and fifty pixels."
+    },
+    {
+      "id": "S29",
+      "start": 282.537,
+      "speech_end": 290.645,
+      "end": 291.445,
+      "dur": 8.909,
+      "text": "Older versions of Internet Explorer read it differently. In quirks mode, the declared width could include the padding and the border."
+    },
+    {
+      "id": "S30",
+      "start": 291.445,
+      "speech_end": 302.521,
+      "end": 303.321,
+      "dur": 11.876,
+      "text": "This was not necessarily an insane way to think about width. In fact, today we often deliberately use exactly this kind of behaviour. It is called border box sizing."
+    },
+    {
+      "id": "S31",
+      "start": 303.321,
+      "speech_end": 311.021,
+      "end": 312.621,
+      "dur": 9.3,
+      "text": "The real problem was that different browsers behaved differently. And that meant the developer had to care. A lot."
+    },
+    {
+      "id": "S32",
+      "start": 312.621,
+      "speech_end": 324.019,
+      "end": 324.819,
+      "dur": 12.198,
+      "text": "There was something called hasLayout. It wasn't a normal CSS property. It wasn't part of the standard. But it decided how Internet Explorer laid out elements."
+    },
+    {
+      "id": "S33",
+      "start": 324.819,
+      "speech_end": 336.431,
+      "end": 337.231,
+      "dur": 12.411,
+      "text": "And sometimes a broken layout could mysteriously be fixed by adding a single line. Zoom one. Why? Because zoom one could trigger the internal hasLayout mechanism."
+    },
+    {
+      "id": "S34",
+      "start": 337.231,
+      "speech_end": 348.454,
+      "end": 349.254,
+      "dur": 12.023,
+      "text": "There were problems with PNG transparency. There were problems with select elements appearing above absolutely positioned popups, regardless of how high you set the z-index."
+    },
+    {
+      "id": "S35",
+      "start": 349.254,
+      "speech_end": 356.804,
+      "end": 359.404,
+      "dur": 10.15,
+      "text": "Web development wasn't just about implementing your design. It was about learning the bugs of a particular browser engine."
+    },
+    {
+      "id": "S36",
+      "start": 359.404,
+      "speech_end": 373.362,
+      "end": 374.162,
+      "dur": 14.758,
+      "text": "Here's another wonderful example. Whitespace. And this one wasn't even Internet Explorer's fault. You could put two images right next to each other in the markup, with nothing between the tags, and get one result."
+    },
+    {
+      "id": "S37",
+      "start": 374.162,
+      "speech_end": 385.643,
+      "end": 386.443,
+      "dur": 12.281,
+      "text": "Then someone would nicely format the HTML and put each tag on its own line. And suddenly there was a few pixel gap between the images. The newline became significant."
+    },
+    {
+      "id": "S38",
+      "start": 386.443,
+      "speech_end": 398.003,
+      "end": 399.603,
+      "dur": 13.16,
+      "text": "Your code formatter could literally break your web page. And if you were using an old version of Visual Studio, it might happily format your HTML for you. Thank you, Microsoft."
+    },
+    {
+      "id": "S39",
+      "start": 399.603,
+      "speech_end": 405.293,
+      "end": 407.493,
+      "dur": 7.89,
+      "text": "Developers accumulated an entire toolbox of workarounds. Conditional comments."
+    },
+    {
+      "id": "S40",
+      "start": 407.493,
+      "speech_end": 414.149,
+      "end": 414.949,
+      "dur": 7.456,
+      "text": "And sometimes completely bizarre looking HTML whose only purpose was to make Internet Explorer behave."
+    },
+    {
+      "id": "S41",
+      "start": 414.949,
+      "speech_end": 421.969,
+      "end": 424.369,
+      "dur": 9.42,
+      "text": "You didn't write ugly code because you were a bad programmer. You wrote ugly code because the browser forced you to."
+    },
+    {
+      "id": "S42",
+      "start": 424.369,
+      "speech_end": 429.852,
+      "end": 430.652,
+      "dur": 6.283,
+      "text": "Internet Explorer also crashed spectacularly, and often took every open window with it."
+    },
+    {
+      "id": "S43",
+      "start": 430.652,
+      "speech_end": 439.616,
+      "end": 440.416,
+      "dur": 9.764,
+      "text": "Which led to a wonderful category of office entertainment. Hey, check out this link. And twenty Internet Explorer windows disappear."
+    },
+    {
+      "id": "S44",
+      "start": 440.416,
+      "speech_end": 449.489,
+      "end": 450.289,
+      "dur": 9.873,
+      "text": "This was the web before browsers were sandboxed. Today's browser says this. This website is untrusted. I'll isolate it."
+    },
+    {
+      "id": "S45",
+      "start": 450.289,
+      "speech_end": 457.809,
+      "end": 460.409,
+      "dur": 10.12,
+      "text": "Internet Explorer six sometimes felt more like this. You're a web page? Sure. Here's the keys to the building."
+    },
+    {
+      "id": "S46",
+      "start": 460.409,
+      "speech_end": 464.933,
+      "end": 465.733,
+      "dur": 5.325,
+      "text": "Why did developers actually use these hacks? Because they had to."
+    },
+    {
+      "id": "S47",
+      "start": 465.733,
+      "speech_end": 474.505,
+      "end": 475.305,
+      "dur": 9.572,
+      "text": "Imagine a company with five hundred employees. Every computer runs Windows XP. Every computer has Internet Explorer."
+    },
+    {
+      "id": "S48",
+      "start": 475.305,
+      "speech_end": 482.627,
+      "end": 483.427,
+      "dur": 8.121,
+      "text": "The developer has two options. Option one. Build for Internet Explorer, which everyone already has."
+    },
+    {
+      "id": "S49",
+      "start": 483.427,
+      "speech_end": 494.588,
+      "end": 495.388,
+      "dur": 11.961,
+      "text": "Option two. Build for every browser, test everything everywhere, and explain to the IT department why everyone needs a second one. The answer was usually obvious."
+    },
+    {
+      "id": "S50",
+      "start": 495.388,
+      "speech_end": 506.488,
+      "end": 509.088,
+      "dur": 13.7,
+      "text": "They weren't choosing Microsoft technology because they loved Microsoft. They were choosing what solved the customer's problem. And sometimes ActiveX was the best tool available."
+    },
+    {
+      "id": "S51",
+      "start": 509.088,
+      "speech_end": 518.372,
+      "end": 519.172,
+      "dur": 10.084,
+      "text": "And eventually someone had enough. JavaScript libraries started hiding the browser differences. One of the most important was jQuery."
+    },
+    {
+      "id": "S52",
+      "start": 519.172,
+      "speech_end": 524.911,
+      "end": 525.711,
+      "dur": 6.539,
+      "text": "Instead of writing browser specific event handling, you could write a single line that worked everywhere."
+    },
+    {
+      "id": "S53",
+      "start": 525.711,
+      "speech_end": 531.471,
+      "end": 532.271,
+      "dur": 6.56,
+      "text": "Instead of manually dealing with different AJAX implementations, you could use a common abstraction."
+    },
+    {
+      "id": "S54",
+      "start": 532.271,
+      "speech_end": 543.611,
+      "end": 546.011,
+      "dur": 13.74,
+      "text": "jQuery didn't make Internet Explorer disappear. But it made it much easier to pretend it didn't exist. And for web developers of that era, that was a beautiful thing."
+    },
+    {
+      "id": "S55",
+      "start": 546.011,
+      "speech_end": 553.567,
+      "end": 554.367,
+      "dur": 8.356,
+      "text": "Firefox appeared. Opera continued developing. Safari arrived. And eventually Google released Chrome."
+    },
+    {
+      "id": "S56",
+      "start": 554.367,
+      "speech_end": 564.611,
+      "end": 565.411,
+      "dur": 11.044,
+      "text": "The browser wars were back, and this time the competition was different. JavaScript engines became dramatically better. HTML five arrived."
+    },
+    {
+      "id": "S57",
+      "start": 565.411,
+      "speech_end": 570.765,
+      "end": 571.565,
+      "dur": 6.155,
+      "text": "The browser itself started learning all the things developers had previously needed plugins for."
+    },
+    {
+      "id": "S58",
+      "start": 571.565,
+      "speech_end": 581.532,
+      "end": 582.332,
+      "dur": 10.767,
+      "text": "Video. Audio. Canvas. SVG. WebGL. WebSockets. And eventually WebRTC. The web was becoming an application platform."
+    },
+    {
+      "id": "S59",
+      "start": 582.332,
+      "speech_end": 589.952,
+      "end": 592.352,
+      "dur": 10.02,
+      "text": "Which was exactly what Microsoft had been trying to achieve with ActiveX. But now it was happening through open standards."
+    },
+    {
+      "id": "S60",
+      "start": 592.352,
+      "speech_end": 603.449,
+      "end": 604.249,
+      "dur": 11.897,
+      "text": "Microsoft did try once more. Silverlight let developers build rich browser applications using C sharp and dot NET. It even powered Netflix's early streaming."
+    },
+    {
+      "id": "S61",
+      "start": 604.249,
+      "speech_end": 617.1,
+      "end": 617.9,
+      "dur": 13.651,
+      "text": "But the web didn't want plugins forever. Apple refused to support Flash on the iPhone. And suddenly the future wasn't this. Browser plus plugin. It was this. The browser itself."
+    },
+    {
+      "id": "S62",
+      "start": 617.9,
+      "speech_end": 626.94,
+      "end": 629.54,
+      "dur": 11.64,
+      "text": "Silverlight disappeared. Flash disappeared. ActiveX disappeared. And Internet Explorer eventually disappeared too."
+    },
+    {
+      "id": "S63",
+      "start": 629.54,
+      "speech_end": 640.04,
+      "end": 640.84,
+      "dur": 11.3,
+      "text": "And this is where the story gets interesting. Because Microsoft wasn't completely wrong. They had correctly predicted that the browser would become an application platform."
+    },
+    {
+      "id": "S64",
+      "start": 640.84,
+      "speech_end": 647.775,
+      "end": 648.575,
+      "dur": 7.735,
+      "text": "They were just trying to get there through proprietary technologies. The web reached the same destination through standards."
+    },
+    {
+      "id": "S65",
+      "start": 648.575,
+      "speech_end": 654.999,
+      "end": 657.399,
+      "dur": 8.823,
+      "text": "The browser won. But it won by becoming something far more powerful than the browser of two thousand and one."
+    },
+    {
+      "id": "S66",
+      "start": 657.399,
+      "speech_end": 663.44,
+      "end": 664.24,
+      "dur": 6.841,
+      "text": "So was Microsoft the villain? Not really. And that's what makes the story more interesting."
+    },
+    {
+      "id": "S67",
+      "start": 664.24,
+      "speech_end": 673.225,
+      "end": 674.025,
+      "dur": 9.785,
+      "text": "Microsoft had brilliant engineers. They had enormous resources. And they built many technologies that were genuinely ahead of their time."
+    },
+    {
+      "id": "S68",
+      "start": 674.025,
+      "speech_end": 680.705,
+      "end": 681.505,
+      "dur": 7.479,
+      "text": "But Microsoft also had an overwhelming market position. And that created a dangerous incentive."
+    },
+    {
+      "id": "S69",
+      "start": 681.505,
+      "speech_end": 692.705,
+      "end": 695.305,
+      "dur": 13.8,
+      "text": "If almost everyone uses your browser, why wait for standards? Why not simply implement your own solution? For a while, that worked. Until the rest of the web caught up."
+    },
+    {
+      "id": "S70",
+      "start": 695.305,
+      "speech_end": 706.681,
+      "end": 707.481,
+      "dur": 12.177,
+      "text": "Today, Internet Explorer is gone. The old browser wars seem like ancient history. But look at the modern browser market. Chrome. Edge. Opera. Brave. Vivaldi."
+    },
+    {
+      "id": "S71",
+      "start": 707.481,
+      "speech_end": 714.461,
+      "end": 715.261,
+      "dur": 7.78,
+      "text": "And many others are based on Chromium. Different products. Often the same underlying browser engine."
+    },
+    {
+      "id": "S72",
+      "start": 715.261,
+      "speech_end": 725.701,
+      "end": 726.501,
+      "dur": 11.24,
+      "text": "So perhaps we've traded this. One browser everyone had to support. For this. One engine everyone builds on. Does that sound familiar?"
+    },
+    {
+      "id": "S73",
+      "start": 726.501,
+      "speech_end": 730.939,
+      "end": 731.739,
+      "dur": 5.237,
+      "text": "Because a dominant browser engine doesn't just decide how websites are displayed."
+    },
+    {
+      "id": "S74",
+      "start": 731.739,
+      "speech_end": 740.029,
+      "end": 742.629,
+      "dur": 10.89,
+      "text": "It influences what developers build. Which technologies become popular. And ultimately, what the web itself becomes."
+    },
+    {
+      "id": "S75",
+      "start": 742.629,
+      "speech_end": 755.906,
+      "end": 756.706,
+      "dur": 14.077,
+      "text": "There is, however, one very important difference. Today's web is built around open standards. Firefox still has its own engine. Safari has WebKit. Chromium is open source."
+    },
+    {
+      "id": "S76",
+      "start": 756.706,
+      "speech_end": 763.044,
+      "end": 763.844,
+      "dur": 7.138,
+      "text": "And modern browsers update automatically. We are nowhere near the situation of two thousand and three."
+    },
+    {
+      "id": "S77",
+      "start": 763.844,
+      "speech_end": 774.394,
+      "end": 776.994,
+      "dur": 13.15,
+      "text": "But the basic question remains. How much influence should one company have over the platform used by almost everyone? That's the question that never really went away."
+    },
+    {
+      "id": "S78",
+      "start": 776.994,
+      "speech_end": 782.993,
+      "end": 783.793,
+      "dur": 6.799,
+      "text": "So, was Internet Explorer six terrible? Yes. Sometimes spectacularly terrible."
+    },
+    {
+      "id": "S79",
+      "start": 783.793,
+      "speech_end": 788.04,
+      "end": 788.84,
+      "dur": 5.047,
+      "text": "But that's not the whole story. It was also a product of its time."
+    },
+    {
+      "id": "S80",
+      "start": 788.84,
+      "speech_end": 794.621,
+      "end": 795.421,
+      "dur": 6.581,
+      "text": "The problem was that Microsoft had won the browser wars so completely that it could define the rules."
+    },
+    {
+      "id": "S81",
+      "start": 795.421,
+      "speech_end": 805.347,
+      "end": 806.147,
+      "dur": 10.726,
+      "text": "And web developers paid the price. They learned the mysteries of hasLayout. They discovered that zoom one could magically fix things. And they prayed."
+    },
+    {
+      "id": "S82",
+      "start": 806.147,
+      "speech_end": 815.045,
+      "end": 815.845,
+      "dur": 9.698,
+      "text": "And eventually, Internet Explorer became what it had spent twenty years creating. A legacy platform that nobody wanted to support anymore."
+    },
+    {
+      "id": "S83",
+      "start": 815.845,
+      "speech_end": 825.236,
+      "end": 826.036,
+      "dur": 10.191,
+      "text": "The web didn't reject Microsoft's vision. It simply built a better version of it. And if there's one thing that era should teach us, it's this."
+    },
+    {
+      "id": "S84",
+      "start": 826.036,
+      "speech_end": 829.385,
+      "end": 830.185,
+      "dur": 4.149,
+      "text": "Technology doesn't become a standard just because it's good."
+    },
+    {
+      "id": "S85",
+      "start": 830.185,
+      "speech_end": 835.476,
+      "end": 836.276,
+      "dur": 6.091,
+      "text": "Sometimes it becomes a standard because one company has enough power to make everyone use it."
+    },
+    {
+      "id": "S86",
+      "start": 836.276,
+      "speech_end": 840.766,
+      "end": 847.766,
+      "dur": 11.49,
+      "text": "And sometimes, twenty years later... we realise we've done it again."
+    }
+  ]
+}

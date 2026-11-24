@@ -1,0 +1,661 @@
+{
+  "total": 654.259,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 9.281,
+      "end": 10.081,
+      "dur": 9.681,
+      "text": "Imagine you are a programmer. Maybe you have been one for twenty years. You know what a race condition is. You know why NULL is evil."
+    },
+    {
+      "id": "S02",
+      "start": 10.081,
+      "speech_end": 18.196,
+      "end": 18.996,
+      "dur": 8.915,
+      "text": "And you have spent part of your life arguing about whether the opening brace belongs on the same line as the if... or on its own line underneath."
+    },
+    {
+      "id": "S03",
+      "start": 18.996,
+      "speech_end": 26.467,
+      "end": 27.667,
+      "dur": 8.671,
+      "text": "Then one day you come to work. You open your editor. And you realise there is nothing in there left for you to write."
+    },
+    {
+      "id": "S04",
+      "start": 27.667,
+      "speech_end": 33.919,
+      "end": 34.719,
+      "dur": 7.053,
+      "text": "Because the machine can do it. You tell it: build me an API for user management. It writes it."
+    },
+    {
+      "id": "S04b",
+      "start": 34.719,
+      "speech_end": 41.273,
+      "end": 42.073,
+      "dur": 7.353,
+      "text": "Add authentication. It writes it. Add tests. It writes them. Fix this bug. It fixes it."
+    },
+    {
+      "id": "S05",
+      "start": 42.073,
+      "speech_end": 43.779,
+      "end": 44.579,
+      "dur": 2.507,
+      "text": "And you review the result."
+    },
+    {
+      "id": "S06",
+      "start": 44.579,
+      "speech_end": 49.808,
+      "end": 51.008,
+      "dur": 6.429,
+      "text": "Congratulations. You have become a manager. Just without the manager's salary."
+    },
+    {
+      "id": "S06b",
+      "start": 51.008,
+      "speech_end": 55.768,
+      "end": 57.768,
+      "dur": 6.76,
+      "text": "And suddenly you are leading a team of programmers. Not one of them is human."
+    },
+    {
+      "id": "S07",
+      "start": 57.768,
+      "speech_end": 64.938,
+      "end": 65.738,
+      "dur": 7.97,
+      "text": "But look at what we actually did. We spent decades teaching programmers to write code that other programmers could read."
+    },
+    {
+      "id": "S08",
+      "start": 65.738,
+      "speech_end": 69.813,
+      "end": 70.613,
+      "dur": 4.875,
+      "text": "And now we are building machines that write code programmers may never read."
+    },
+    {
+      "id": "S09",
+      "start": 70.613,
+      "speech_end": 77.023,
+      "end": 79.623,
+      "dur": 9.01,
+      "text": "So the question is not whether you still have a job. The question is what all of that readability was for."
+    },
+    {
+      "id": "S10",
+      "start": 79.623,
+      "speech_end": 85.833,
+      "end": 86.633,
+      "dur": 7.01,
+      "text": "Start with the thing programmers say whenever this comes up. Programming has always been automated."
+    },
+    {
+      "id": "S11",
+      "start": 86.633,
+      "speech_end": 100.87,
+      "end": 101.67,
+      "dur": 15.037,
+      "text": "And that part is true. The first programmers worked directly in machine instructions. Then came assembly. Then languages you could almost read. Every time, a piece of the work moved from the person to the tool."
+    },
+    {
+      "id": "S12",
+      "start": 101.67,
+      "speech_end": 110.525,
+      "end": 111.325,
+      "dur": 9.655,
+      "text": "On the 10th of November, 1954, a group at IBM published a report about a system they were building. They called it FORTRAN."
+    },
+    {
+      "id": "S13",
+      "start": 111.325,
+      "speech_end": 121.567,
+      "end": 122.967,
+      "dur": 11.642,
+      "text": "Page two says this. \"Since FORTRAN should virtually eliminate coding and debugging...\" And the sentence goes on to promise the work will cost less than half of what it cost before."
+    },
+    {
+      "id": "S14",
+      "start": 122.967,
+      "speech_end": 130.31,
+      "end": 131.51,
+      "dur": 8.543,
+      "text": "FORTRAN arrived two and a half years later. Coding was not eliminated. The programmers wrote FORTRAN."
+    },
+    {
+      "id": "S15",
+      "start": 131.51,
+      "speech_end": 145.709,
+      "end": 146.509,
+      "dur": 14.999,
+      "text": "In 1959, a committee sat down to design a language for business. They agreed on two things. That more people should be able to program at all... and that the language should use as much plain English as possible."
+    },
+    {
+      "id": "S16",
+      "start": 146.509,
+      "speech_end": 154.151,
+      "end": 154.951,
+      "dur": 8.441,
+      "text": "That was a design goal, not a side effect. COBOL was shaped around what a human could read. Hold on to that one."
+    },
+    {
+      "id": "S17",
+      "start": 154.951,
+      "speech_end": 165.387,
+      "end": 166.187,
+      "dur": 11.236,
+      "text": "Then, in 1982, a man called James Martin published a book. It is worth hearing the title in full. \"Application Development Without Programmers.\""
+    },
+    {
+      "id": "S18",
+      "start": 166.187,
+      "speech_end": 176.317,
+      "end": 178.517,
+      "dur": 12.33,
+      "text": "It was not about robots. It was about report generators and application generators. And the promise was exactly the one you have been hearing this year."
+    },
+    {
+      "id": "S19",
+      "start": 178.517,
+      "speech_end": 183.959,
+      "end": 184.759,
+      "dur": 6.242,
+      "text": "So here is the obvious question. After all of that, how many programmers were left?"
+    },
+    {
+      "id": "S20",
+      "start": 184.759,
+      "speech_end": 196.643,
+      "end": 197.443,
+      "dur": 12.685,
+      "text": "More of them. Every time. In 1980, the United States had more than three hundred thousand computer programming jobs. By the early 2000s, more than seven hundred thousand."
+    },
+    {
+      "id": "S21",
+      "start": 197.443,
+      "speech_end": 206.917,
+      "end": 207.717,
+      "dur": 10.274,
+      "text": "But watch what happened to the word programmer. In 2003, the American labour survey added a new job title, right next to the old one."
+    },
+    {
+      "id": "S22",
+      "start": 207.717,
+      "speech_end": 214.655,
+      "end": 215.455,
+      "dur": 7.737,
+      "text": "Computer programmer. And software engineer. Today that second one is called software developer."
+    },
+    {
+      "id": "S22b",
+      "start": 215.455,
+      "speech_end": 224.203,
+      "end": 225.003,
+      "dur": 9.549,
+      "text": "Right now, about three hundred and eighty thousand Americans are computer programmers. And about two and a quarter million are software developers."
+    },
+    {
+      "id": "S23",
+      "start": 225.003,
+      "speech_end": 231.768,
+      "end": 232.568,
+      "dur": 7.565,
+      "text": "That is six developers for every one programmer. Almost nobody doing this work is still called a programmer."
+    },
+    {
+      "id": "S23b",
+      "start": 232.568,
+      "speech_end": 236.028,
+      "end": 238.828,
+      "dur": 6.26,
+      "text": "The job did not disappear. It got renamed."
+    },
+    {
+      "id": "S24",
+      "start": 238.828,
+      "speech_end": 242.796,
+      "end": 243.596,
+      "dur": 4.768,
+      "text": "And that is the shape of the thing that is happening now, except faster."
+    },
+    {
+      "id": "S25",
+      "start": 243.596,
+      "speech_end": 255.25,
+      "end": 256.05,
+      "dur": 12.454,
+      "text": "Because every earlier step had one thing in common. You were still programming. Just further from the metal. Assembly to C: still a program. C to Python: still a program."
+    },
+    {
+      "id": "S26",
+      "start": 256.05,
+      "speech_end": 270.458,
+      "end": 271.258,
+      "dur": 15.208,
+      "text": "Not this time. You describe what you want in ordinary sentences. I need a system where users can change their email address. The new address must be verified. Until then, the old one stays active."
+    },
+    {
+      "id": "S27",
+      "start": 271.258,
+      "speech_end": 280.092,
+      "end": 280.892,
+      "dur": 9.634,
+      "text": "And out comes the database change, the backend, the API, the front end, the tests, the documentation. And you have not written a line."
+    },
+    {
+      "id": "S28",
+      "start": 280.892,
+      "speech_end": 286.102,
+      "end": 288.302,
+      "dur": 7.41,
+      "text": "That is not a higher-level language. It is a different kind of thing entirely."
+    },
+    {
+      "id": "S29",
+      "start": 288.302,
+      "speech_end": 293.23,
+      "end": 294.03,
+      "dur": 5.728,
+      "text": "And at that point it stops being a philosophical question and becomes an arithmetic one."
+    },
+    {
+      "id": "S30",
+      "start": 294.03,
+      "speech_end": 309.4,
+      "end": 311.6,
+      "dur": 17.57,
+      "text": "If one programmer with these tools does the work that used to take five, a company will use that. The company does not have to be evil. It does not even have to want to let anyone go. It just needs a competitor who is faster and cheaper."
+    },
+    {
+      "id": "S31",
+      "start": 311.6,
+      "speech_end": 324.685,
+      "end": 325.485,
+      "dur": 13.885,
+      "text": "So the centre of gravity moves. From writing to instructing. From implementation to review. From programming to architecture. From writing the code to managing the thing that writes it."
+    },
+    {
+      "id": "S32",
+      "start": 325.485,
+      "speech_end": 332.764,
+      "end": 333.564,
+      "dur": 8.079,
+      "text": "Which is strange, because that path already existed. Team leader. Architect. Engineering manager."
+    },
+    {
+      "id": "S33",
+      "start": 333.564,
+      "speech_end": 342.315,
+      "end": 343.115,
+      "dur": 9.551,
+      "text": "Some programmers wanted it. Plenty of them did not. They did not want meetings or budgets or deciding who takes leave next week."
+    },
+    {
+      "id": "S34",
+      "start": 343.115,
+      "speech_end": 348.597,
+      "end": 349.397,
+      "dur": 6.283,
+      "text": "They wanted to sit down, look at something, and think: how on earth am I going to make this work?"
+    },
+    {
+      "id": "S35",
+      "start": 349.397,
+      "speech_end": 358.207,
+      "end": 360.607,
+      "dur": 11.21,
+      "text": "And now the work is moving them in exactly the opposite direction. Not because they got older. Because the craft got automated."
+    },
+    {
+      "id": "S36",
+      "start": 360.607,
+      "speech_end": 369.765,
+      "end": 370.565,
+      "dur": 9.958,
+      "text": "There is a quieter cost, too. When you solve it yourself, you have to think about it. You try something. You get it wrong. You take it apart."
+    },
+    {
+      "id": "S37",
+      "start": 370.565,
+      "speech_end": 374.514,
+      "end": 375.314,
+      "dur": 4.749,
+      "text": "And a year later you remember. Oh. I have had this before."
+    },
+    {
+      "id": "S38",
+      "start": 375.314,
+      "speech_end": 383.465,
+      "end": 384.265,
+      "dur": 8.951,
+      "text": "When the machine solves it, the job takes ten minutes. And a week later you open your own project and think: why did I do it this way?"
+    },
+    {
+      "id": "S39",
+      "start": 384.265,
+      "speech_end": 388.171,
+      "end": 388.971,
+      "dur": 4.706,
+      "text": "And the honest answer is: I don't know. AI wrote it."
+    },
+    {
+      "id": "S40",
+      "start": 388.971,
+      "speech_end": 395.864,
+      "end": 397.064,
+      "dur": 8.093,
+      "text": "Which is a very odd place to end up. More productive programmers, slowly becoming less able to program."
+    },
+    {
+      "id": "S40b",
+      "start": 397.064,
+      "speech_end": 403.167,
+      "end": 404.367,
+      "dur": 7.303,
+      "text": "If you'd like to see where the next question takes us, consider subscribing. It really helps the channel."
+    },
+    {
+      "id": "S41",
+      "start": 404.367,
+      "speech_end": 409.105,
+      "end": 409.905,
+      "dur": 5.538,
+      "text": "And then there are the things that used to matter enormously. Coding style."
+    },
+    {
+      "id": "S42",
+      "start": 409.905,
+      "speech_end": 419.831,
+      "end": 420.631,
+      "dur": 10.726,
+      "text": "We had entire arguments about where to put a curly brace. Tabs or spaces. Two spaces or four. CamelCase or snake_case."
+    },
+    {
+      "id": "S43",
+      "start": 420.631,
+      "speech_end": 423.447,
+      "end": 424.247,
+      "dur": 3.616,
+      "text": "Arguments that outlasted the code they were about."
+    },
+    {
+      "id": "S44",
+      "start": 424.247,
+      "speech_end": 432.725,
+      "end": 433.525,
+      "dur": 9.278,
+      "text": "But if a machine writes thousands of lines, and people barely read them, and nobody will maintain them by hand... how much does the brace matter?"
+    },
+    {
+      "id": "S45",
+      "start": 433.525,
+      "speech_end": 441.375,
+      "end": 443.575,
+      "dur": 10.05,
+      "text": "Coding style becomes an implementation detail. Something that matters to the machine... and less and less to the human."
+    },
+    {
+      "id": "S46",
+      "start": 443.575,
+      "speech_end": 446.306,
+      "end": 447.106,
+      "dur": 3.531,
+      "text": "Now think about spaceships in science fiction."
+    },
+    {
+      "id": "S47",
+      "start": 447.106,
+      "speech_end": 452.697,
+      "end": 453.497,
+      "dur": 6.391,
+      "text": "The ship has a computer that runs everything. Engines. Sensors. Life support."
+    },
+    {
+      "id": "S48",
+      "start": 453.497,
+      "speech_end": 456.911,
+      "end": 457.711,
+      "dur": 4.213,
+      "text": "And there is a medical bay, an engineering deck, a bridge."
+    },
+    {
+      "id": "S49",
+      "start": 457.711,
+      "speech_end": 462.468,
+      "end": 463.268,
+      "dur": 5.557,
+      "text": "What it does not have is a room with a sign on the door saying: software engineering."
+    },
+    {
+      "id": "S50",
+      "start": 463.268,
+      "speech_end": 470.929,
+      "end": 471.729,
+      "dur": 8.461,
+      "text": "Nobody on the bridge is arguing about library versions. Nobody says life support is down because of a null pointer."
+    },
+    {
+      "id": "S51",
+      "start": 471.729,
+      "speech_end": 476.211,
+      "end": 477.011,
+      "dur": 5.282,
+      "text": "The captain says: analyse the anomaly. And it gets analysed."
+    },
+    {
+      "id": "S52",
+      "start": 477.011,
+      "speech_end": 483.731,
+      "end": 486.131,
+      "dur": 9.12,
+      "text": "For decades that looked like the part the writers had not thought about. It may turn out to be the part they got right."
+    },
+    {
+      "id": "S53",
+      "start": 486.131,
+      "speech_end": 491.658,
+      "end": 492.458,
+      "dur": 6.327,
+      "text": "Because the problem does not go away. Somebody still has to know what the system should do."
+    },
+    {
+      "id": "S54",
+      "start": 492.458,
+      "speech_end": 501.403,
+      "end": 502.203,
+      "dur": 9.745,
+      "text": "What it must never do. What the security requirements are. What data it is allowed to touch. What happens when it fails."
+    },
+    {
+      "id": "S55",
+      "start": 502.203,
+      "speech_end": 508.797,
+      "end": 509.597,
+      "dur": 7.394,
+      "text": "And above all, somebody has to answer the question underneath all of those. How do we know it built the right thing?"
+    },
+    {
+      "id": "S56",
+      "start": 509.597,
+      "speech_end": 512.857,
+      "end": 515.457,
+      "dur": 5.86,
+      "text": "That may turn out to be harder than writing the code was."
+    },
+    {
+      "id": "S57",
+      "start": 515.457,
+      "speech_end": 519.363,
+      "end": 520.163,
+      "dur": 4.706,
+      "text": "And it leads somewhere odd. Why would a machine write Python?"
+    },
+    {
+      "id": "S58",
+      "start": 520.163,
+      "speech_end": 526.307,
+      "end": 527.107,
+      "dur": 6.944,
+      "text": "Python, C sharp, PHP — every one of them was designed so that a person could read and write it."
+    },
+    {
+      "id": "S59",
+      "start": 527.107,
+      "speech_end": 537.523,
+      "end": 538.323,
+      "dur": 11.217,
+      "text": "A machine does not need that. What it needs is a precise description of the thing it has to build. What must always be true. What must never happen."
+    },
+    {
+      "id": "S60",
+      "start": 538.323,
+      "speech_end": 542.654,
+      "end": 543.454,
+      "dur": 5.131,
+      "text": "And if that is what we end up writing, then the thing we keep is not the diff."
+    },
+    {
+      "id": "S61",
+      "start": 543.454,
+      "speech_end": 552.393,
+      "end": 553.193,
+      "dur": 9.739,
+      "text": "Not 37 changed files. Not 4,821 lines added and 1,734 removed."
+    },
+    {
+      "id": "S62",
+      "start": 553.193,
+      "speech_end": 559.595,
+      "end": 560.395,
+      "dur": 7.202,
+      "text": "The thing we keep is the specification. The test scenarios. The security rules. The data model."
+    },
+    {
+      "id": "S63",
+      "start": 560.395,
+      "speech_end": 568.719,
+      "end": 569.519,
+      "dur": 9.124,
+      "text": "And the code becomes a means of production. Nobody asks how the factory made the screw. They ask whether the screw meets the spec."
+    },
+    {
+      "id": "S63b",
+      "start": 569.519,
+      "speech_end": 579.959,
+      "end": 582.159,
+      "dur": 12.64,
+      "text": "Which makes the specification the source code. And the code underneath it becomes what assembly is today. Something that still runs, and that almost nobody reads."
+    },
+    {
+      "id": "S64",
+      "start": 582.159,
+      "speech_end": 588.71,
+      "end": 589.51,
+      "dur": 7.351,
+      "text": "So perhaps the sentence everybody says is the wrong sentence. Not: this will replace programmers."
+    },
+    {
+      "id": "S65",
+      "start": 589.51,
+      "speech_end": 594.395,
+      "end": 595.195,
+      "dur": 5.685,
+      "text": "Closer to it would be: this will replace programming as the main thing programmers do."
+    },
+    {
+      "id": "S66",
+      "start": 595.195,
+      "speech_end": 600.045,
+      "end": 602.645,
+      "dur": 7.45,
+      "text": "The programmers may not go anywhere. The programming may go out of their jobs."
+    },
+    {
+      "id": "S67",
+      "start": 602.645,
+      "speech_end": 607.639,
+      "end": 608.439,
+      "dur": 5.794,
+      "text": "Which brings us back to the question from the start. What was the readability for?"
+    },
+    {
+      "id": "S68",
+      "start": 608.439,
+      "speech_end": 615.931,
+      "end": 616.731,
+      "dur": 8.292,
+      "text": "All those English-like keywords. All those arguments about braces. The machine never needed any of it."
+    },
+    {
+      "id": "S69",
+      "start": 616.731,
+      "speech_end": 622.861,
+      "end": 625.861,
+      "dur": 9.13,
+      "text": "It was for us. So that a person could pick up something somebody else had made, and understand it."
+    },
+    {
+      "id": "S70",
+      "start": 625.861,
+      "speech_end": 629.511,
+      "end": 630.311,
+      "dur": 4.45,
+      "text": "Maybe you are a programmer. Maybe you were one, once."
+    },
+    {
+      "id": "S71",
+      "start": 630.311,
+      "speech_end": 637.759,
+      "end": 638.559,
+      "dur": 8.247,
+      "text": "And maybe, in a while, someone young will find one of these old repositories and ask: wait. You wrote these yourselves?"
+    },
+    {
+      "id": "S72",
+      "start": 638.559,
+      "speech_end": 639.561,
+      "end": 640.361,
+      "dur": 1.803,
+      "text": "Yes."
+    },
+    {
+      "id": "S72b",
+      "start": 640.361,
+      "speech_end": 642.388,
+      "end": 643.188,
+      "dur": 2.827,
+      "text": "Did you write the boring parts too?"
+    },
+    {
+      "id": "S72c",
+      "start": 643.188,
+      "speech_end": 644.575,
+      "end": 645.375,
+      "dur": 2.187,
+      "text": "Yes, everything."
+    },
+    {
+      "id": "S72d",
+      "start": 645.375,
+      "speech_end": 646.249,
+      "end": 648.249,
+      "dur": 2.875,
+      "text": "Why?"
+    },
+    {
+      "id": "S73",
+      "start": 648.249,
+      "speech_end": 651.259,
+      "end": 654.259,
+      "dur": 6.01,
+      "text": "And the honest answer is: because we enjoyed it."
+    }
+  ]
+}

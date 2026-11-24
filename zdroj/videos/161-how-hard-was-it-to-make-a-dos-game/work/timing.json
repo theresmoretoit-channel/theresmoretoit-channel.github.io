@@ -1,0 +1,749 @@
+{
+  "total": 599.913,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 5.611,
+      "end": 6.411,
+      "dur": 6.261,
+      "text": "In 1993, a game called Doom ran on a computer with four megabytes of memory."
+    },
+    {
+      "id": "S02",
+      "start": 6.411,
+      "speech_end": 9.441,
+      "end": 10.241,
+      "dur": 3.829,
+      "text": "That's about the size of a single photo on your phone."
+    },
+    {
+      "id": "S03",
+      "start": 10.241,
+      "speech_end": 15.213,
+      "end": 16.013,
+      "dur": 5.773,
+      "text": "There was no 3D accelerator. The main processor did all the rendering."
+    },
+    {
+      "id": "S04",
+      "start": 16.013,
+      "speech_end": 23.523,
+      "end": 24.323,
+      "dur": 8.309,
+      "text": "Today, a developer starts with an engine, like Unity or Unreal, that takes care of graphics, sound, memory and the hardware."
+    },
+    {
+      "id": "S05",
+      "start": 24.323,
+      "speech_end": 29.295,
+      "end": 30.095,
+      "dur": 5.773,
+      "text": "On DOS, all of that was the developer's problem. And quite often, the player's too."
+    },
+    {
+      "id": "S06",
+      "start": 30.095,
+      "speech_end": 32.955,
+      "end": 35.355,
+      "dur": 5.26,
+      "text": "So how hard was it to make a game for DOS?"
+    },
+    {
+      "id": "S07",
+      "start": 35.355,
+      "speech_end": 38.257,
+      "end": 39.057,
+      "dur": 3.701,
+      "text": "Let's start with memory, because memory was a mess."
+    },
+    {
+      "id": "S08",
+      "start": 39.057,
+      "speech_end": 44.774,
+      "end": 45.174,
+      "dur": 6.117,
+      "text": "The original IBM PC, from 1981, could address one megabyte of memory."
+    },
+    {
+      "id": "S09",
+      "start": 45.174,
+      "speech_end": 49.227,
+      "end": 50.027,
+      "dur": 4.853,
+      "text": "But only the first six hundred and forty kilobytes were meant for programs."
+    },
+    {
+      "id": "S10",
+      "start": 50.027,
+      "speech_end": 55.937,
+      "end": 56.737,
+      "dur": 6.709,
+      "text": "The other three hundred and eighty-four were reserved for video memory, expansion cards and the BIOS."
+    },
+    {
+      "id": "S11",
+      "start": 56.737,
+      "speech_end": 64.397,
+      "end": 65.797,
+      "dur": 9.061,
+      "text": "For more than a decade, DOS normally started programs inside that space. Anything beyond it took extra work."
+    },
+    {
+      "id": "S12",
+      "start": 65.797,
+      "speech_end": 71.197,
+      "end": 71.997,
+      "dur": 6.199,
+      "text": "That's where the famous line comes from. 640K ought to be enough for anybody."
+    },
+    {
+      "id": "S13",
+      "start": 71.997,
+      "speech_end": 77.887,
+      "end": 79.287,
+      "dur": 7.29,
+      "text": "It's usually credited to Bill Gates. There's no record that he ever said it, and he denies it."
+    },
+    {
+      "id": "S14",
+      "start": 79.287,
+      "speech_end": 83.191,
+      "end": 83.691,
+      "dur": 4.404,
+      "text": "By the early nineties, a PC came with four megabytes, or eight."
+    },
+    {
+      "id": "S15",
+      "start": 83.691,
+      "speech_end": 86.955,
+      "end": 87.755,
+      "dur": 4.064,
+      "text": "And a game could still stop with the words \"not enough memory\"."
+    },
+    {
+      "id": "S16",
+      "start": 87.755,
+      "speech_end": 91.345,
+      "end": 93.545,
+      "dur": 5.79,
+      "text": "Having the memory and being able to use it were two different things."
+    },
+    {
+      "id": "S17",
+      "start": 93.545,
+      "speech_end": 97.107,
+      "end": 97.907,
+      "dur": 4.363,
+      "text": "One way around it was expanded memory, or EMS."
+    },
+    {
+      "id": "S18",
+      "start": 97.907,
+      "speech_end": 108.299,
+      "end": 108.599,
+      "dur": 10.691,
+      "text": "A sixty-four kilobyte window sat in the upper part of that first megabyte. Through it, a program could see four pages of extra memory, sixteen kilobytes each,"
+    },
+    {
+      "id": "S19",
+      "start": 108.599,
+      "speech_end": 113.858,
+      "end": 114.658,
+      "dur": 6.059,
+      "text": "and swap them for others, like turning the pages of a book through a hole in a sheet of paper."
+    },
+    {
+      "id": "S20",
+      "start": 114.658,
+      "speech_end": 118.754,
+      "end": 120.954,
+      "dur": 6.296,
+      "text": "Another way was extended memory, reached through a driver called HIMEM."
+    },
+    {
+      "id": "S21",
+      "start": 120.954,
+      "speech_end": 124.069,
+      "end": 124.869,
+      "dur": 3.915,
+      "text": "And this is where the developer's problem became the player's."
+    },
+    {
+      "id": "S22",
+      "start": 124.869,
+      "speech_end": 132.655,
+      "end": 133.155,
+      "dur": 8.287,
+      "text": "Drivers for the mouse, the CD drive or the sound card took a bite out of that precious memory, unless you managed to load them high."
+    },
+    {
+      "id": "S23",
+      "start": 133.155,
+      "speech_end": 137.785,
+      "end": 138.585,
+      "dur": 5.429,
+      "text": "So players learned to edit two files, CONFIG.SYS and AUTOEXEC.BAT."
+    },
+    {
+      "id": "S24",
+      "start": 138.585,
+      "speech_end": 147.975,
+      "end": 148.775,
+      "dur": 10.191,
+      "text": "One game wanted EMS. Another wanted it switched off, with a setting called NOEMS. And a third needed every free kilobyte."
+    },
+    {
+      "id": "S25",
+      "start": 148.775,
+      "speech_end": 153.17,
+      "end": 153.97,
+      "dur": 5.195,
+      "text": "In 1993, MS-DOS 6 added a menu at startup."
+    },
+    {
+      "id": "S26",
+      "start": 153.97,
+      "speech_end": 159.602,
+      "end": 160.402,
+      "dur": 6.432,
+      "text": "You picked the configuration for the game you wanted to play, and the computer started up for that game."
+    },
+    {
+      "id": "S27",
+      "start": 160.402,
+      "speech_end": 164.882,
+      "end": 167.082,
+      "dur": 6.68,
+      "text": "Some people ended up with a separate entry for almost every game they owned."
+    },
+    {
+      "id": "S28",
+      "start": 167.082,
+      "speech_end": 171.093,
+      "end": 171.593,
+      "dur": 4.511,
+      "text": "But by then, the bigger games had found a way around the limits of DOS."
+    },
+    {
+      "id": "S29",
+      "start": 171.593,
+      "speech_end": 179.358,
+      "end": 180.158,
+      "dur": 8.565,
+      "text": "Since the 386, the processor itself could run in 32-bit protected mode, with room for up to four gigabytes."
+    },
+    {
+      "id": "S30",
+      "start": 180.158,
+      "speech_end": 185.237,
+      "end": 185.737,
+      "dur": 5.579,
+      "text": "We've looked at protected mode in an earlier video. DOS, though, couldn't use it."
+    },
+    {
+      "id": "S31",
+      "start": 185.737,
+      "speech_end": 192.587,
+      "end": 193.387,
+      "dur": 7.65,
+      "text": "So games brought their own helper, a DOS extender. The best known was DOS/4GW."
+    },
+    {
+      "id": "S32",
+      "start": 193.387,
+      "speech_end": 196.566,
+      "end": 197.166,
+      "dur": 3.779,
+      "text": "It came bundled with a popular compiler, Watcom C."
+    },
+    {
+      "id": "S33",
+      "start": 197.166,
+      "speech_end": 206.19,
+      "end": 206.99,
+      "dur": 9.824,
+      "text": "When a game started, DOS/4GW switched the processor into protected mode, giving the game access to memory beyond the DOS limit."
+    },
+    {
+      "id": "S34",
+      "start": 206.99,
+      "speech_end": 217.232,
+      "end": 218.032,
+      "dur": 11.042,
+      "text": "DOS was still there underneath, providing services like file access. But the game now ran in protected mode, not as a traditional DOS program."
+    },
+    {
+      "id": "S35",
+      "start": 218.032,
+      "speech_end": 223.322,
+      "end": 225.722,
+      "dur": 7.69,
+      "text": "If you played DOS games in the nineties, you've seen its name flash by on the screen."
+    },
+    {
+      "id": "S37",
+      "start": 225.722,
+      "speech_end": 238.055,
+      "end": 238.855,
+      "dur": 13.133,
+      "text": "Now, the picture. In one of the most widely used VGA modes, called Mode 13h, the screen was three hundred and twenty by two hundred pixels, in two hundred and fifty-six colours."
+    },
+    {
+      "id": "S38",
+      "start": 238.855,
+      "speech_end": 247.179,
+      "end": 247.979,
+      "dur": 9.125,
+      "text": "Each pixel was one byte. To colour a pixel, you wrote a number into memory. No graphics library. Just memory."
+    },
+    {
+      "id": "S39",
+      "start": 247.979,
+      "speech_end": 250.753,
+      "end": 251.553,
+      "dur": 3.573,
+      "text": "The whole screen took sixty-four thousand bytes."
+    },
+    {
+      "id": "S40",
+      "start": 251.553,
+      "speech_end": 262.264,
+      "end": 263.664,
+      "dur": 12.111,
+      "text": "That's just under sixty-four kilobytes, small enough to fit in one segment, the block a 16-bit program could address in one go. For once, memory was on your side."
+    },
+    {
+      "id": "S41",
+      "start": 263.664,
+      "speech_end": 269.765,
+      "end": 270.265,
+      "dur": 6.601,
+      "text": "But if you draw straight onto the visible screen, the player sees half-finished pictures, and the image flickers."
+    },
+    {
+      "id": "S42",
+      "start": 270.265,
+      "speech_end": 276.355,
+      "end": 278.555,
+      "dur": 8.29,
+      "text": "So games drew each frame in a hidden buffer first, then copied the finished image into video memory."
+    },
+    {
+      "id": "S43",
+      "start": 278.555,
+      "speech_end": 285.469,
+      "end": 286.269,
+      "dur": 7.714,
+      "text": "In 1991, Michael Abrash, a programmer and writer, published a better way. He called it Mode X."
+    },
+    {
+      "id": "S44",
+      "start": 286.269,
+      "speech_end": 290.195,
+      "end": 290.995,
+      "dur": 4.725,
+      "text": "It used a part of the VGA that most programmers had never touched."
+    },
+    {
+      "id": "S45",
+      "start": 290.995,
+      "speech_end": 295.048,
+      "end": 295.848,
+      "dur": 4.853,
+      "text": "It gave square pixels, and room for several screens in video memory."
+    },
+    {
+      "id": "S46",
+      "start": 295.848,
+      "speech_end": 302.538,
+      "end": 304.938,
+      "dur": 9.09,
+      "text": "The game drew on a screen nobody could see, and then simply switched to it. But it was much harder to program."
+    },
+    {
+      "id": "S47",
+      "start": 304.938,
+      "speech_end": 308.14,
+      "end": 308.94,
+      "dur": 4.002,
+      "text": "Then there was sound. And sound was a lottery."
+    },
+    {
+      "id": "S48",
+      "start": 308.94,
+      "speech_end": 311.543,
+      "end": 312.143,
+      "dur": 3.203,
+      "text": "The PC's own speaker was built to beep."
+    },
+    {
+      "id": "S49",
+      "start": 312.143,
+      "speech_end": 317.691,
+      "end": 318.491,
+      "dur": 6.349,
+      "text": "Then came sound cards, and other sound hardware. No two of them worked the same way."
+    },
+    {
+      "id": "S50",
+      "start": 318.491,
+      "speech_end": 325.747,
+      "end": 326.547,
+      "dur": 8.055,
+      "text": "AdLib, with a Yamaha chip that synthesised music. Sound Blaster, which could also play recorded sound."
+    },
+    {
+      "id": "S51",
+      "start": 326.547,
+      "speech_end": 333.311,
+      "end": 334.111,
+      "dur": 7.565,
+      "text": "The Roland MT-32, an expensive box with richer instruments. The Gravis UltraSound."
+    },
+    {
+      "id": "S52",
+      "start": 334.111,
+      "speech_end": 337.269,
+      "end": 337.769,
+      "dur": 3.657,
+      "text": "Supporting all of them meant writing different drivers."
+    },
+    {
+      "id": "S53",
+      "start": 337.769,
+      "speech_end": 343.616,
+      "end": 344.416,
+      "dur": 6.647,
+      "text": "And the game had to know where the card was. Its port, its interrupt, and its DMA channel."
+    },
+    {
+      "id": "S54",
+      "start": 344.416,
+      "speech_end": 351.437,
+      "end": 352.237,
+      "dur": 7.821,
+      "text": "The usual answer, for a Sound Blaster, was port 220, IRQ 7, DMA 1. Usually."
+    },
+    {
+      "id": "S55",
+      "start": 352.237,
+      "speech_end": 356.036,
+      "end": 357.436,
+      "dur": 5.199,
+      "text": "Get one of them wrong, and the game was silent. Or it froze."
+    },
+    {
+      "id": "S56",
+      "start": 357.436,
+      "speech_end": 365.052,
+      "end": 365.852,
+      "dur": 8.416,
+      "text": "In 1991, a programmer called John Miles released a library that talked to many sound cards through a single interface."
+    },
+    {
+      "id": "S57",
+      "start": 365.852,
+      "speech_end": 370.353,
+      "end": 371.153,
+      "dur": 5.301,
+      "text": "A game could write its sound code once, and let the library deal with the card."
+    },
+    {
+      "id": "S58",
+      "start": 371.153,
+      "speech_end": 375.843,
+      "end": 378.243,
+      "dur": 7.09,
+      "text": "It was another layer between the game and the hardware. Keep that in mind."
+    },
+    {
+      "id": "S59",
+      "start": 378.243,
+      "speech_end": 383.301,
+      "end": 384.101,
+      "dur": 5.858,
+      "text": "And then there was speed. Programmers counted every step the processor took."
+    },
+    {
+      "id": "S63",
+      "start": 384.101,
+      "speech_end": 388.901,
+      "end": 389.701,
+      "dur": 5.6,
+      "text": "To find a pixel on the screen, you multiply its row by three hundred and twenty."
+    },
+    {
+      "id": "S63b",
+      "start": 389.701,
+      "speech_end": 393.285,
+      "end": 393.785,
+      "dur": 4.084,
+      "text": "On older processors, multiplying could be expensive."
+    },
+    {
+      "id": "S64",
+      "start": 393.785,
+      "speech_end": 400.209,
+      "end": 400.609,
+      "dur": 6.823,
+      "text": "But three hundred and twenty is two hundred and fifty-six plus sixty-four. Both are powers of two."
+    },
+    {
+      "id": "S65",
+      "start": 400.609,
+      "speech_end": 404.641,
+      "end": 406.041,
+      "dur": 5.432,
+      "text": "So you can replace the multiplication with two bit shifts and an addition."
+    },
+    {
+      "id": "S67",
+      "start": 406.041,
+      "speech_end": 414.917,
+      "end": 415.217,
+      "dur": 9.177,
+      "text": "Chris Sawyer went all the way down to the metal. He wrote Transport Tycoon, in 1994, almost entirely in assembly language,"
+    },
+    {
+      "id": "S68",
+      "start": 415.217,
+      "speech_end": 419.185,
+      "end": 421.585,
+      "dur": 6.368,
+      "text": "the instructions the processor itself understands, one by one."
+    },
+    {
+      "id": "S69",
+      "start": 421.585,
+      "speech_end": 424.359,
+      "end": 425.159,
+      "dur": 3.573,
+      "text": "And sometimes, even all of that wasn't enough."
+    },
+    {
+      "id": "S70",
+      "start": 425.159,
+      "speech_end": 430.812,
+      "end": 431.312,
+      "dur": 6.153,
+      "text": "In 1990, Wing Commander had a bug that the team couldn't find, with the deadline close."
+    },
+    {
+      "id": "S71",
+      "start": 431.312,
+      "speech_end": 435.024,
+      "end": 435.524,
+      "dur": 4.212,
+      "text": "When you quit the game, the memory manager crashed with an error message."
+    },
+    {
+      "id": "S72",
+      "start": 435.524,
+      "speech_end": 442.479,
+      "end": 443.279,
+      "dur": 7.755,
+      "text": "So a programmer, Ken Demarest, opened the memory manager in a hex editor and changed the text of that message."
+    },
+    {
+      "id": "S73",
+      "start": 443.279,
+      "speech_end": 446.18,
+      "end": 446.98,
+      "dur": 3.701,
+      "text": "Now it said: \"Thank you for playing Wing Commander.\""
+    },
+    {
+      "id": "S74",
+      "start": 446.98,
+      "speech_end": 450.436,
+      "end": 451.236,
+      "dur": 4.256,
+      "text": "Then the team found the real bug, and the joke never shipped."
+    },
+    {
+      "id": "S74b",
+      "start": 451.236,
+      "speech_end": 457.726,
+      "end": 460.326,
+      "dur": 9.09,
+      "text": "Some players are still sure they saw it. And later Origin games really did say goodbye like that."
+    },
+    {
+      "id": "S75",
+      "start": 460.326,
+      "speech_end": 462.106,
+      "end": 463.606,
+      "dur": 3.28,
+      "text": "Which brings us back to Doom."
+    },
+    {
+      "id": "S76",
+      "start": 463.606,
+      "speech_end": 468.385,
+      "end": 469.185,
+      "dur": 5.579,
+      "text": "Doom used DOS/4GW, and ran as a 32-bit program."
+    },
+    {
+      "id": "S77",
+      "start": 469.185,
+      "speech_end": 472.619,
+      "end": 473.019,
+      "dur": 3.835,
+      "text": "Floating-point hardware wasn't guaranteed on every PC."
+    },
+    {
+      "id": "S78",
+      "start": 473.019,
+      "speech_end": 479.741,
+      "end": 480.541,
+      "dur": 7.522,
+      "text": "So Doom used fixed-point arithmetic. Whole numbers, with the lower sixteen bits standing for the fraction."
+    },
+    {
+      "id": "S79",
+      "start": 480.541,
+      "speech_end": 483.272,
+      "end": 484.072,
+      "dur": 3.531,
+      "text": "And its world wasn't really three-dimensional."
+    },
+    {
+      "id": "S80",
+      "start": 484.072,
+      "speech_end": 488.381,
+      "end": 489.181,
+      "dur": 5.109,
+      "text": "Every level is a flat floor plan, with a height for each floor and each ceiling."
+    },
+    {
+      "id": "S81",
+      "start": 489.181,
+      "speech_end": 494.005,
+      "end": 494.805,
+      "dur": 5.623,
+      "text": "One room can never sit above another. And you can't properly look up or down."
+    },
+    {
+      "id": "S82",
+      "start": 494.805,
+      "speech_end": 499.818,
+      "end": 500.618,
+      "dur": 5.813,
+      "text": "Before a level could be played, a tool cut the map into a binary tree, a BSP."
+    },
+    {
+      "id": "S83",
+      "start": 500.618,
+      "speech_end": 506.869,
+      "end": 508.269,
+      "dur": 7.651,
+      "text": "The engine walks that tree from front to back, starting on the player's side, and skips areas that can't be seen."
+    },
+    {
+      "id": "S84",
+      "start": 508.269,
+      "speech_end": 510.765,
+      "end": 511.565,
+      "dur": 3.296,
+      "text": "And Doom wasn't even written on DOS."
+    },
+    {
+      "id": "S85",
+      "start": 511.565,
+      "speech_end": 517.154,
+      "end": 517.954,
+      "dur": 6.389,
+      "text": "id Software built it on NeXT workstations, and compiled the result for DOS."
+    },
+    {
+      "id": "S86",
+      "start": 517.954,
+      "speech_end": 527.409,
+      "end": 528.009,
+      "dur": 10.055,
+      "text": "Doom wasn't a general 3D engine. It was built for exactly one kind of world. That specialisation helped it run on a 386."
+    },
+    {
+      "id": "S87",
+      "start": 528.009,
+      "speech_end": 530.313,
+      "end": 531.113,
+      "dur": 3.104,
+      "text": "And other studios wanted that world."
+    },
+    {
+      "id": "S88",
+      "start": 531.113,
+      "speech_end": 538.003,
+      "end": 538.803,
+      "dur": 7.691,
+      "text": "Raven Software licensed Doom's engine for Heretic, in 1994, and Hexen, in 1995."
+    },
+    {
+      "id": "S89",
+      "start": 538.803,
+      "speech_end": 547.503,
+      "end": 549.903,
+      "dur": 11.1,
+      "text": "Doom helped establish a new way of making games. Studios could license an existing engine, instead of building it all from scratch."
+    },
+    {
+      "id": "S90",
+      "start": 549.903,
+      "speech_end": 554.173,
+      "end": 554.973,
+      "dur": 5.069,
+      "text": "A memory extender. A sound library. A licensed engine."
+    },
+    {
+      "id": "S91",
+      "start": 554.973,
+      "speech_end": 562.923,
+      "end": 565.723,
+      "dur": 10.75,
+      "text": "Each one took a problem off the developer's hands. And the layers kept growing, into the engines that developers start with today."
+    },
+    {
+      "id": "S92",
+      "start": 565.723,
+      "speech_end": 569.906,
+      "end": 570.506,
+      "dur": 4.783,
+      "text": "So was making games harder back then? In many ways, yes."
+    },
+    {
+      "id": "S93",
+      "start": 570.506,
+      "speech_end": 573.836,
+      "end": 575.436,
+      "dur": 4.93,
+      "text": "But the difficulty didn't disappear. It moved."
+    },
+    {
+      "id": "S94",
+      "start": 575.436,
+      "speech_end": 581.793,
+      "end": 582.593,
+      "dur": 7.157,
+      "text": "Today, developers fight with gigabytes of assets and millions of polygons, instead of a few hundred kilobytes."
+    },
+    {
+      "id": "S95",
+      "start": 582.593,
+      "speech_end": 585.943,
+      "end": 587.343,
+      "dur": 4.749,
+      "text": "On DOS, even the player had to know where their memory went."
+    },
+    {
+      "id": "S96",
+      "start": 587.343,
+      "speech_end": 597.913,
+      "end": 599.913,
+      "dur": 12.57,
+      "text": "So here's a question for you. Do you remember building a boot menu just to get one game running? And was it a struggle, or half the fun? Let me know in the comments."
+    }
+  ]
+}

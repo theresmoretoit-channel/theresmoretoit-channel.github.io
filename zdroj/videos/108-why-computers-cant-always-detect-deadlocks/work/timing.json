@@ -1,0 +1,517 @@
+{
+  "total": 539.437,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 11.056,
+      "end": 11.856,
+      "dur": 11.706,
+      "text": "Four cars arrive at a crossroads at exactly the same moment. No lights. No signs. Just the rule many countries use: give way to the car on your right."
+    },
+    {
+      "id": "S02",
+      "start": 11.856,
+      "speech_end": 17.511,
+      "end": 18.311,
+      "dur": 6.455,
+      "text": "Every driver looks right, and sees a car they have to wait for. So every driver waits."
+    },
+    {
+      "id": "S03",
+      "start": 18.311,
+      "speech_end": 25.014,
+      "end": 26.214,
+      "dur": 7.903,
+      "text": "Nobody is breaking the rule. Everybody is following it perfectly. And nobody will ever move."
+    },
+    {
+      "id": "S04",
+      "start": 26.214,
+      "speech_end": 36.735,
+      "end": 37.535,
+      "dur": 11.321,
+      "text": "Computer scientists call this a deadlock. And it doesn't only happen on roads. It happens inside databases, operating systems and ordinary software."
+    },
+    {
+      "id": "S05",
+      "start": 37.535,
+      "speech_end": 47.223,
+      "end": 48.023,
+      "dur": 10.487,
+      "text": "Computers are often good at spotting a deadlock once it has happened. But could a program read another program and tell you, for certain, whether it will ever get stuck?"
+    },
+    {
+      "id": "S06",
+      "start": 48.023,
+      "speech_end": 61.033,
+      "end": 63.633,
+      "dur": 15.61,
+      "text": "For many programs, yes. But a method that works for every possible program can't exist. And not because computers aren't fast enough yet. No faster computer will ever change it."
+    },
+    {
+      "id": "S07",
+      "start": 63.633,
+      "speech_end": 70.056,
+      "end": 70.856,
+      "dur": 7.223,
+      "text": "Here's how a program gets stuck. Imagine an online shop, with two tasks running at the same time."
+    },
+    {
+      "id": "S08",
+      "start": 70.856,
+      "speech_end": 79.007,
+      "end": 79.807,
+      "dur": 8.951,
+      "text": "Before a task changes anything, it takes a lock on it, so that nobody else can touch it. Like taking the only key to a room."
+    },
+    {
+      "id": "S09",
+      "start": 79.807,
+      "speech_end": 87.66,
+      "end": 88.46,
+      "dur": 8.653,
+      "text": "The first task locks a customer's account, then reaches for their order. The second locks the order, then reaches for the account."
+    },
+    {
+      "id": "S10",
+      "start": 88.46,
+      "speech_end": 97.253,
+      "end": 98.053,
+      "dur": 9.593,
+      "text": "One holds the account and waits for the order. The other holds the order and waits for the account. Neither will let go of what it's holding."
+    },
+    {
+      "id": "S11",
+      "start": 98.053,
+      "speech_end": 108.53,
+      "end": 109.33,
+      "dur": 11.277,
+      "text": "And the strange part is, this code can run a million times without any trouble. Only when the two tasks overlap in exactly the wrong order does everything stop."
+    },
+    {
+      "id": "S12",
+      "start": 109.33,
+      "speech_end": 113.428,
+      "end": 114.428,
+      "dur": 5.098,
+      "text": "The bug was there all along. The timing just exposed it."
+    },
+    {
+      "id": "S12b",
+      "start": 114.428,
+      "speech_end": 120.118,
+      "end": 122.518,
+      "dur": 8.09,
+      "text": "By the way, if you like videos like this, consider subscribing. It really helps the channel."
+    },
+    {
+      "id": "S13",
+      "start": 122.518,
+      "speech_end": 128.856,
+      "end": 129.656,
+      "dur": 7.138,
+      "text": "Databases run into this all the time, so they keep watch. They draw a map of who is waiting for whom."
+    },
+    {
+      "id": "S14",
+      "start": 129.656,
+      "speech_end": 139.539,
+      "end": 140.039,
+      "dur": 10.383,
+      "text": "The first waits for the second. The second waits for the first. When the arrows close into a loop, that's a deadlock. No guessing. The loop is right there."
+    },
+    {
+      "id": "S15",
+      "start": 140.039,
+      "speech_end": 145.929,
+      "end": 146.729,
+      "dur": 6.69,
+      "text": "Then the database does something brutal. It picks one of the tasks and throws its work away."
+    },
+    {
+      "id": "S16",
+      "start": 146.729,
+      "speech_end": 153.897,
+      "end": 154.697,
+      "dur": 7.968,
+      "text": "Microsoft's SQL Server even tells the loser that it has been chosen as the deadlock victim, and should try again."
+    },
+    {
+      "id": "S17",
+      "start": 154.697,
+      "speech_end": 158.473,
+      "end": 159.273,
+      "dur": 4.576,
+      "text": "The other task carries on, and the victim can simply try again."
+    },
+    {
+      "id": "S18",
+      "start": 159.273,
+      "speech_end": 168.45,
+      "end": 169.65,
+      "dur": 10.377,
+      "text": "Notice what that does and doesn't fix. The jam is cleared. But the code that caused it is still there, waiting for the next unlucky moment."
+    },
+    {
+      "id": "S19",
+      "start": 169.65,
+      "speech_end": 176.052,
+      "end": 176.852,
+      "dur": 7.202,
+      "text": "So spotting a deadlock that has already happened is the easy part. The hard question is a different one."
+    },
+    {
+      "id": "S20",
+      "start": 176.852,
+      "speech_end": 182.808,
+      "end": 183.608,
+      "dur": 6.756,
+      "text": "Not: is this program stuck right now? But: give it this input. Could it ever get stuck?"
+    },
+    {
+      "id": "S21",
+      "start": 183.608,
+      "speech_end": 191.804,
+      "end": 192.404,
+      "dur": 8.796,
+      "text": "The first is a photo of the present. You can just look at it. The second is a prediction about every possible future."
+    },
+    {
+      "id": "S22",
+      "start": 192.404,
+      "speech_end": 202.073,
+      "end": 202.873,
+      "dur": 10.469,
+      "text": "And programs make that very hard. They make decisions. They repeat things. They can run calculations that take a second, or a thousand years."
+    },
+    {
+      "id": "S23",
+      "start": 202.873,
+      "speech_end": 208.355,
+      "end": 209.155,
+      "dur": 6.283,
+      "text": "A program might get stuck at once, after a million steps, for one rare input, or never at all."
+    },
+    {
+      "id": "S24",
+      "start": 209.155,
+      "speech_end": 214.875,
+      "end": 215.675,
+      "dur": 6.519,
+      "text": "You could just run it and watch. But if it hasn't got stuck after an hour, what does that tell you?"
+    },
+    {
+      "id": "S25",
+      "start": 215.675,
+      "speech_end": 219.085,
+      "end": 221.485,
+      "dur": 5.81,
+      "text": "Nothing. It might get stuck in the next second, or never."
+    },
+    {
+      "id": "S26",
+      "start": 221.485,
+      "speech_end": 233.156,
+      "end": 233.956,
+      "dur": 12.471,
+      "text": "In 1936, a young mathematician called Alan Turing showed that some questions about programs can't be answered by any program. The most famous one sounds even simpler."
+    },
+    {
+      "id": "S27",
+      "start": 233.956,
+      "speech_end": 239.891,
+      "end": 240.691,
+      "dur": 6.735,
+      "text": "Take any program, and its input. Will it eventually stop? Or will it run forever?"
+    },
+    {
+      "id": "S28",
+      "start": 240.691,
+      "speech_end": 246.474,
+      "end": 247.474,
+      "dur": 6.783,
+      "text": "It's now called the halting problem. And no program can answer it correctly in every case."
+    },
+    {
+      "id": "S29",
+      "start": 247.474,
+      "speech_end": 253.961,
+      "end": 254.761,
+      "dur": 7.287,
+      "text": "The idea behind the proof is surprisingly short. Suppose someone hands you a perfect halting checker."
+    },
+    {
+      "id": "S30",
+      "start": 254.761,
+      "speech_end": 261.185,
+      "end": 261.685,
+      "dur": 6.923,
+      "text": "Now you write a contrary little program. It asks the checker about itself, and then does the opposite."
+    },
+    {
+      "id": "S31",
+      "start": 261.685,
+      "speech_end": 268.172,
+      "end": 268.972,
+      "dur": 7.287,
+      "text": "If the checker says it will stop, it loops forever. If the checker says it will run forever, it stops at once."
+    },
+    {
+      "id": "S32",
+      "start": 268.972,
+      "speech_end": 274.682,
+      "end": 277.282,
+      "dur": 8.31,
+      "text": "Whatever the checker says about it, the checker is wrong. So a perfect checker can't exist."
+    },
+    {
+      "id": "S33",
+      "start": 277.282,
+      "speech_end": 280.889,
+      "end": 281.889,
+      "dur": 4.607,
+      "text": "So what does this have to do with deadlocks? Everything."
+    },
+    {
+      "id": "S34",
+      "start": 281.889,
+      "speech_end": 293.027,
+      "end": 293.827,
+      "dur": 11.938,
+      "text": "Imagine someone claims to have built a perfect deadlock predictor. Give it any program and its input, and it always tells you, correctly, whether that program will ever get stuck."
+    },
+    {
+      "id": "S35",
+      "start": 293.827,
+      "speech_end": 296.174,
+      "end": 297.174,
+      "dur": 3.347,
+      "text": "Let's use it to solve the halting problem."
+    },
+    {
+      "id": "S36",
+      "start": 297.174,
+      "speech_end": 300.822,
+      "end": 301.622,
+      "dur": 4.448,
+      "text": "Take any program you like, and wrap it inside a new program."
+    },
+    {
+      "id": "S37",
+      "start": 301.622,
+      "speech_end": 311.035,
+      "end": 311.535,
+      "dur": 9.913,
+      "text": "First, the new program simply runs the old one, step by step, on a single thread. No locks. Nothing shared. Nothing that could ever get stuck."
+    },
+    {
+      "id": "S38",
+      "start": 311.535,
+      "speech_end": 324.68,
+      "end": 325.48,
+      "dur": 13.945,
+      "text": "Then, if the old program ever finishes, the new one starts two tasks. Each grabs one lock, waits until the other has grabbed its own, and then reaches for the other's. A deadlock, on purpose, every time."
+    },
+    {
+      "id": "S39",
+      "start": 325.48,
+      "speech_end": 331.263,
+      "end": 332.263,
+      "dur": 6.783,
+      "text": "If the old program never finishes, the new one never gets that far. No deadlock. Ever."
+    },
+    {
+      "id": "S40",
+      "start": 332.263,
+      "speech_end": 336.333,
+      "end": 338.533,
+      "dur": 6.27,
+      "text": "So the new program gets stuck if, and only if, the old one stops."
+    },
+    {
+      "id": "S41",
+      "start": 338.533,
+      "speech_end": 347.263,
+      "end": 348.063,
+      "dur": 9.529,
+      "text": "Now ask the predictor about the new program. Yes, it will deadlock, means the old program stops. No means it runs forever."
+    },
+    {
+      "id": "S42",
+      "start": 348.063,
+      "speech_end": 352.929,
+      "end": 353.529,
+      "dur": 5.466,
+      "text": "We've just solved the halting problem. And that's exactly what can't be done."
+    },
+    {
+      "id": "S43",
+      "start": 353.529,
+      "speech_end": 356.643,
+      "end": 357.443,
+      "dur": 3.915,
+      "text": "So the perfect deadlock predictor can't exist either."
+    },
+    {
+      "id": "S44",
+      "start": 357.443,
+      "speech_end": 369.343,
+      "end": 372.543,
+      "dur": 15.1,
+      "text": "The trouble isn't locks, or databases, or bad programmers. A program can hide any calculation in front of a deadlock. To predict the deadlock, you'd have to predict the calculation."
+    },
+    {
+      "id": "S45",
+      "start": 372.543,
+      "speech_end": 381.275,
+      "end": 382.075,
+      "dur": 9.531,
+      "text": "But hold on. A real computer isn't infinite. Its memory has a limited number of states. So couldn't you just check them all?"
+    },
+    {
+      "id": "S46",
+      "start": 382.075,
+      "speech_end": 387.602,
+      "end": 388.402,
+      "dur": 6.327,
+      "text": "For a machine with a fixed amount of memory, in principle, yes. In practice, count them."
+    },
+    {
+      "id": "S47",
+      "start": 388.402,
+      "speech_end": 397.319,
+      "end": 398.119,
+      "dur": 9.717,
+      "text": "The memory of a laptop with eight gigabytes can be arranged in so many ways that just writing that number down takes about twenty billion digits."
+    },
+    {
+      "id": "S48",
+      "start": 398.119,
+      "speech_end": 402.002,
+      "end": 402.802,
+      "dur": 4.683,
+      "text": "The number of atoms in the observable universe has about eighty."
+    },
+    {
+      "id": "S49",
+      "start": 402.802,
+      "speech_end": 408.071,
+      "end": 409.071,
+      "dur": 6.269,
+      "text": "So on a real machine, checking everything is possible in theory, and hopeless in practice."
+    },
+    {
+      "id": "S50",
+      "start": 409.071,
+      "speech_end": 422.721,
+      "end": 425.321,
+      "dur": 16.25,
+      "text": "But that's a different wall. Turing's limit isn't about too many states. It applies to programs that can always ask for more memory. For those, no perfect predictor can exist, however big the computer."
+    },
+    {
+      "id": "S51",
+      "start": 425.321,
+      "speech_end": 434.778,
+      "end": 435.578,
+      "dur": 10.257,
+      "text": "Does that make deadlocks hopeless? No. It means there's no perfect checker. So programmers write programs that are easier to check."
+    },
+    {
+      "id": "S52",
+      "start": 435.578,
+      "speech_end": 443.305,
+      "end": 443.805,
+      "dur": 8.227,
+      "text": "The simplest trick is an order. Every task must lock the account before the order. Never the other way round."
+    },
+    {
+      "id": "S53",
+      "start": 443.805,
+      "speech_end": 449.714,
+      "end": 450.914,
+      "dur": 7.109,
+      "text": "If every task really sticks to that order, the loop can't form, and this kind of deadlock can't happen."
+    },
+    {
+      "id": "S54",
+      "start": 450.914,
+      "speech_end": 458.701,
+      "end": 459.301,
+      "dur": 8.387,
+      "text": "Other systems give up after a timeout, take all their locks in one go, or let the database pick a victim and simply try again."
+    },
+    {
+      "id": "S55",
+      "start": 459.301,
+      "speech_end": 471.889,
+      "end": 472.889,
+      "dur": 13.589,
+      "text": "And for small, carefully described designs, tools can check every possible state. Engineers at Amazon used one to find a bug that took thirty-five steps, in exactly the right order, to appear."
+    },
+    {
+      "id": "S56",
+      "start": 472.889,
+      "speech_end": 481.19,
+      "end": 482.39,
+      "dur": 9.501,
+      "text": "These tools work because the problem has been made smaller. They check a model of the system, not every program that could ever exist."
+    },
+    {
+      "id": "S57",
+      "start": 482.39,
+      "speech_end": 493.507,
+      "end": 494.307,
+      "dur": 11.917,
+      "text": "For real code, though, a checker that takes any program has to give something up. It may warn about deadlocks that can't happen, miss some that can, or sometimes give no answer at all."
+    },
+    {
+      "id": "S58",
+      "start": 494.307,
+      "speech_end": 502.087,
+      "end": 504.887,
+      "dur": 10.58,
+      "text": "A checker that never cries wolf, never misses one, and always gives an answer, for every program, is exactly what Turing ruled out."
+    },
+    {
+      "id": "S59",
+      "start": 504.887,
+      "speech_end": 508.215,
+      "end": 509.015,
+      "dur": 4.128,
+      "text": "Back at the crossroads, the four drivers don't sit there forever."
+    },
+    {
+      "id": "S60",
+      "start": 509.015,
+      "speech_end": 514.478,
+      "end": 515.678,
+      "dur": 6.663,
+      "text": "Somebody waves. One driver gives up their turn, and the jam is over in seconds."
+    },
+    {
+      "id": "S61",
+      "start": 515.678,
+      "speech_end": 523.149,
+      "end": 524.549,
+      "dur": 8.871,
+      "text": "That's what the database does, too. It doesn't predict the jam. It notices it, and makes someone give way."
+    },
+    {
+      "id": "S62",
+      "start": 524.549,
+      "speech_end": 529.287,
+      "end": 529.887,
+      "dur": 5.338,
+      "text": "Some problems need a faster computer. Some need a better idea."
+    },
+    {
+      "id": "S63",
+      "start": 529.887,
+      "speech_end": 536.437,
+      "end": 539.437,
+      "dur": 9.55,
+      "text": "And some, like this one, have no perfect solution at all. Only good rules, and someone ready to wave."
+    }
+  ]
+}

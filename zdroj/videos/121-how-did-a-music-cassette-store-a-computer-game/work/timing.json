@@ -1,0 +1,621 @@
+{
+  "total": 545.539,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 4.71,
+      "end": 10.11,
+      "dur": 9.96,
+      "text": "You press play on a cassette recorder. And this comes out of the speaker."
+    },
+    {
+      "id": "S02",
+      "start": 10.11,
+      "speech_end": 13.653,
+      "end": 14.453,
+      "dur": 4.343,
+      "text": "It isn't music. And it isn't a game's soundtrack."
+    },
+    {
+      "id": "S03",
+      "start": 14.453,
+      "speech_end": 19.789,
+      "end": 20.589,
+      "dur": 6.135,
+      "text": "It is the game. Every squeal is part of a program, and the computer is listening to it."
+    },
+    {
+      "id": "S04",
+      "start": 20.589,
+      "speech_end": 25.263,
+      "end": 26.063,
+      "dur": 5.474,
+      "text": "The cassette player has no idea. As far as it knows, it's playing a song."
+    },
+    {
+      "id": "S05",
+      "start": 26.063,
+      "speech_end": 32.209,
+      "end": 33.609,
+      "dur": 7.546,
+      "text": "So how do you turn a song into a game? And why could one wrong note throw away five minutes of waiting?"
+    },
+    {
+      "id": "S06",
+      "start": 33.609,
+      "speech_end": 40.542,
+      "end": 41.342,
+      "dur": 7.733,
+      "text": "Here's the trick, on one particular machine: the ZX Spectrum, a British home computer from 1982."
+    },
+    {
+      "id": "S07",
+      "start": 41.342,
+      "speech_end": 46.152,
+      "end": 47.952,
+      "dur": 6.61,
+      "text": "It uses two kinds of pulse. A short pair of pulses means zero."
+    },
+    {
+      "id": "S08",
+      "start": 47.952,
+      "speech_end": 53.242,
+      "end": 55.842,
+      "dur": 7.89,
+      "text": "A one is the same pair, with each pulse twice as long, so its tone sits an octave lower."
+    },
+    {
+      "id": "S09",
+      "start": 55.842,
+      "speech_end": 60.77,
+      "end": 61.57,
+      "dur": 5.728,
+      "text": "Send around fourteen hundred bits every second, and you get the noise you just heard."
+    },
+    {
+      "id": "S09b",
+      "start": 61.57,
+      "speech_end": 69.28,
+      "end": 71.68,
+      "dur": 10.11,
+      "text": "It also means a program full of zeros loads faster than one full of ones. Every one takes twice as long to send."
+    },
+    {
+      "id": "S10",
+      "start": 71.68,
+      "speech_end": 75.328,
+      "end": 75.828,
+      "dur": 4.148,
+      "text": "Now, if you grew up in America, you may never have heard it at all."
+    },
+    {
+      "id": "S11",
+      "start": 75.828,
+      "speech_end": 79.007,
+      "end": 79.807,
+      "dur": 3.979,
+      "text": "Which is odd, because the idea itself was American."
+    },
+    {
+      "id": "S12",
+      "start": 79.807,
+      "speech_end": 89.023,
+      "end": 89.823,
+      "dur": 10.016,
+      "text": "In 1975, at a meeting in Kansas City, computer hobbyists agreed on a way to store data as sound on ordinary audio cassettes."
+    },
+    {
+      "id": "S12b",
+      "start": 89.823,
+      "speech_end": 97.225,
+      "end": 98.225,
+      "dur": 8.403,
+      "text": "A one was eight quick cycles of a high tone, a zero four slower cycles of a low one. Three hundred bits a second."
+    },
+    {
+      "id": "S13",
+      "start": 98.225,
+      "speech_end": 104.988,
+      "end": 105.788,
+      "dur": 7.563,
+      "text": "Early machines like the Apple II and the TRS-80 saved their programs on everyday tape recorders."
+    },
+    {
+      "id": "S14",
+      "start": 105.788,
+      "speech_end": 108.54,
+      "end": 109.34,
+      "dur": 3.552,
+      "text": "But American home computing moved on quickly."
+    },
+    {
+      "id": "S15",
+      "start": 109.34,
+      "speech_end": 118.855,
+      "end": 120.055,
+      "dur": 10.715,
+      "text": "In 1983, one magazine reported a survey: nine in ten new Commodore 64 owners were buying a disk drive together with the computer."
+    },
+    {
+      "id": "S16",
+      "start": 120.055,
+      "speech_end": 122.551,
+      "end": 123.151,
+      "dur": 3.096,
+      "text": "In Britain, the story went the other way."
+    },
+    {
+      "id": "S17",
+      "start": 123.151,
+      "speech_end": 131.75,
+      "end": 132.35,
+      "dur": 9.199,
+      "text": "The Spectrum cost a hundred and twenty-five pounds, and it came with no storage at all. You used whatever cassette player you already had."
+    },
+    {
+      "id": "S18",
+      "start": 132.35,
+      "speech_end": 137.62,
+      "end": 140.92,
+      "dur": 8.57,
+      "text": "So for millions of kids across Europe, this noise was the sound of a game about to start."
+    },
+    {
+      "id": "S18b",
+      "start": 140.92,
+      "speech_end": 145.03,
+      "end": 147.43,
+      "dur": 6.51,
+      "text": "After enough loads, you could even tell which game it was just from the screech."
+    },
+    {
+      "id": "S19",
+      "start": 147.43,
+      "speech_end": 150.651,
+      "end": 151.451,
+      "dur": 4.021,
+      "text": "So let's follow one game from the tape into the computer."
+    },
+    {
+      "id": "S20",
+      "start": 151.451,
+      "speech_end": 153.99,
+      "end": 154.79,
+      "dur": 3.339,
+      "text": "You type LOAD, press enter, and press play."
+    },
+    {
+      "id": "S21",
+      "start": 154.79,
+      "speech_end": 159.611,
+      "end": 160.411,
+      "dur": 5.621,
+      "text": "First comes a steady hum, eight hundred cycles a second, for about five seconds."
+    },
+    {
+      "id": "S22",
+      "start": 160.411,
+      "speech_end": 166.579,
+      "end": 167.179,
+      "dur": 6.767,
+      "text": "It carries no data at all. It's there so the computer can find the signal and lock onto its rhythm."
+    },
+    {
+      "id": "S23",
+      "start": 167.179,
+      "speech_end": 171.703,
+      "end": 172.503,
+      "dur": 5.325,
+      "text": "Then two quick pulses, the sync. They mean: from here on, it's data."
+    },
+    {
+      "id": "S24",
+      "start": 172.503,
+      "speech_end": 181.551,
+      "end": 182.151,
+      "dur": 9.647,
+      "text": "The first thing to arrive is a short header. Nineteen bytes: a name of up to ten letters, what kind of file it is, and how long it's going to be."
+    },
+    {
+      "id": "S25",
+      "start": 182.151,
+      "speech_end": 186.396,
+      "end": 187.196,
+      "dur": 5.045,
+      "text": "Then a second, shorter hum, two seconds this time, and then the game itself."
+    },
+    {
+      "id": "S26",
+      "start": 187.196,
+      "speech_end": 192.209,
+      "end": 192.709,
+      "dur": 5.513,
+      "text": "Every byte is eight of those notes, one after another, with no gaps between bytes at all."
+    },
+    {
+      "id": "S27",
+      "start": 192.709,
+      "speech_end": 198.685,
+      "end": 199.185,
+      "dur": 6.475,
+      "text": "And the computer doesn't hear notes. It times the gap between one edge of the signal and the next."
+    },
+    {
+      "id": "S28",
+      "start": 199.185,
+      "speech_end": 202.856,
+      "end": 203.356,
+      "dur": 4.171,
+      "text": "A short pair is a zero. A long pair is a one."
+    },
+    {
+      "id": "S28a",
+      "start": 203.356,
+      "speech_end": 205.063,
+      "end": 206.463,
+      "dur": 3.107,
+      "text": "That's the whole decoder."
+    },
+    {
+      "id": "S28b",
+      "start": 206.463,
+      "speech_end": 215.681,
+      "end": 216.481,
+      "dur": 10.018,
+      "text": "And the noise at the start of this video isn't a sound effect. We generated it from exactly these rules, and a real Spectrum program is inside."
+    },
+    {
+      "id": "S28c",
+      "start": 216.481,
+      "speech_end": 221.391,
+      "end": 223.791,
+      "dur": 7.31,
+      "text": "We'll play all of it at the very end. Record it, and a Spectrum will load it."
+    },
+    {
+      "id": "S29",
+      "start": 223.791,
+      "speech_end": 227.737,
+      "end": 228.537,
+      "dur": 4.747,
+      "text": "Most games showed a picture first, and it loaded in a strange order."
+    },
+    {
+      "id": "S30",
+      "start": 228.537,
+      "speech_end": 238.865,
+      "end": 239.465,
+      "dur": 10.927,
+      "text": "Thin stripes appeared, eight lines apart, then filled in, line by line, one third of the screen at a time. And the colours came last, sweeping down over everything."
+    },
+    {
+      "id": "S31",
+      "start": 239.465,
+      "speech_end": 245.005,
+      "end": 246.605,
+      "dur": 7.14,
+      "text": "That picture alone took about forty seconds. The whole game, around five minutes."
+    },
+    {
+      "id": "S32",
+      "start": 246.605,
+      "speech_end": 249.271,
+      "end": 249.871,
+      "dur": 3.267,
+      "text": "And at the end of each block comes one more byte."
+    },
+    {
+      "id": "S33",
+      "start": 249.871,
+      "speech_end": 257.701,
+      "end": 258.201,
+      "dur": 8.329,
+      "text": "While saving, the Spectrum runs every byte of the block through a simple rule called XOR, and records the result as one more byte."
+    },
+    {
+      "id": "S34",
+      "start": 258.201,
+      "speech_end": 264.368,
+      "end": 264.768,
+      "dur": 6.567,
+      "text": "While loading, it repeats the calculation. If the results agree, the block arrived intact."
+    },
+    {
+      "id": "S35",
+      "start": 264.768,
+      "speech_end": 266.944,
+      "end": 267.744,
+      "dur": 2.976,
+      "text": "If they don't, the Spectrum says this."
+    },
+    {
+      "id": "S36",
+      "start": 267.744,
+      "speech_end": 273.974,
+      "end": 276.174,
+      "dur": 8.43,
+      "text": "Five minutes of waiting, and one byte decides it was all for nothing. Rewind, and start again."
+    },
+    {
+      "id": "S37",
+      "start": 276.174,
+      "speech_end": 283.314,
+      "end": 285.714,
+      "dur": 9.54,
+      "text": "Oddly, a broken header gets no error at all. The Spectrum simply ignores it, and keeps listening for the next one."
+    },
+    {
+      "id": "S38",
+      "start": 285.714,
+      "speech_end": 287.826,
+      "end": 288.626,
+      "dur": 2.912,
+      "text": "Other computers made other bets."
+    },
+    {
+      "id": "S39",
+      "start": 288.626,
+      "speech_end": 295.431,
+      "end": 296.231,
+      "dur": 7.605,
+      "text": "The Commodore 64 recorded every block twice, so a damaged spot in one copy could be rescued from the other."
+    },
+    {
+      "id": "S40",
+      "start": 296.231,
+      "speech_end": 303.721,
+      "end": 304.221,
+      "dur": 7.99,
+      "text": "Safer, but slow. With Commodore's built-in routine, a forty-kilobyte program took about twelve and a half minutes."
+    },
+    {
+      "id": "S41",
+      "start": 304.221,
+      "speech_end": 310.041,
+      "end": 312.241,
+      "dur": 8.02,
+      "text": "So game publishers wrote their own faster loaders, some of them up to about ten times faster."
+    },
+    {
+      "id": "S42",
+      "start": 312.241,
+      "speech_end": 314.311,
+      "end": 315.111,
+      "dur": 2.869,
+      "text": "And then there was the cassette player."
+    },
+    {
+      "id": "S43",
+      "start": 315.111,
+      "speech_end": 320.51,
+      "end": 321.31,
+      "dur": 6.199,
+      "text": "Too quiet, and the edges sink into the hiss. Too loud, and they smear into each other."
+    },
+    {
+      "id": "S44",
+      "start": 321.31,
+      "speech_end": 327.219,
+      "end": 328.019,
+      "dur": 6.709,
+      "text": "A tape running slightly fast or slow stretches every pulse, and the computer is measuring time."
+    },
+    {
+      "id": "S45",
+      "start": 328.019,
+      "speech_end": 335.381,
+      "end": 335.981,
+      "dur": 7.962,
+      "text": "Worst of all was the azimuth, the angle of the tape head. A tape recorded on one machine might not line up with another."
+    },
+    {
+      "id": "S46",
+      "start": 335.981,
+      "speech_end": 342.104,
+      "end": 342.904,
+      "dur": 6.923,
+      "text": "So people pushed a tiny screwdriver into a hole next to the head, and turned it a fraction at a time, listening."
+    },
+    {
+      "id": "S47",
+      "start": 342.904,
+      "speech_end": 346.494,
+      "end": 349.094,
+      "dur": 6.19,
+      "text": "It looked like superstition. It was signal tuning."
+    },
+    {
+      "id": "S48",
+      "start": 349.094,
+      "speech_end": 351.846,
+      "end": 352.646,
+      "dur": 3.552,
+      "text": "But notice what the cassette player never had to do."
+    },
+    {
+      "id": "S49",
+      "start": 352.646,
+      "speech_end": 357.491,
+      "end": 357.991,
+      "dur": 5.345,
+      "text": "It never understood a single bit. It recorded sound, and played it back."
+    },
+    {
+      "id": "S50",
+      "start": 357.991,
+      "speech_end": 364.243,
+      "end": 365.043,
+      "dur": 7.053,
+      "text": "Which means a program didn't really need a cassette. Anything that could carry sound could carry software."
+    },
+    {
+      "id": "S50b",
+      "start": 365.043,
+      "speech_end": 371.603,
+      "end": 373.203,
+      "dur": 8.16,
+      "text": "It also meant that copying a game was as easy as copying an album. Two cassette decks and a cable."
+    },
+    {
+      "id": "S51",
+      "start": 373.203,
+      "speech_end": 381.461,
+      "end": 382.261,
+      "dur": 9.058,
+      "text": "Atari used both stereo tracks. The program on one, and a voice on the other, talking to you through the TV while the game loaded."
+    },
+    {
+      "id": "S52",
+      "start": 382.261,
+      "speech_end": 387.04,
+      "end": 387.84,
+      "dur": 5.579,
+      "text": "In Yugoslavia, a show on Radio Belgrade broadcast programs over the air."
+    },
+    {
+      "id": "S53",
+      "start": 387.84,
+      "speech_end": 394.795,
+      "end": 395.595,
+      "dur": 7.755,
+      "text": "Listeners recorded them on tape, around a hundred and fifty programs between 1983 and 1986."
+    },
+    {
+      "id": "S54",
+      "start": 395.595,
+      "speech_end": 401.762,
+      "end": 402.562,
+      "dur": 6.967,
+      "text": "In Czechoslovakia, it was television. A program played as sound under the closing credits."
+    },
+    {
+      "id": "S55",
+      "start": 402.562,
+      "speech_end": 408.279,
+      "end": 409.079,
+      "dur": 6.517,
+      "text": "And in 1983, the singer Pete Shelley hid a Spectrum program at the end of a vinyl album."
+    },
+    {
+      "id": "S56",
+      "start": 409.079,
+      "speech_end": 414.019,
+      "end": 416.219,
+      "dur": 7.14,
+      "text": "Copy it to tape, load it, and the lyrics appeared on screen in time with the songs."
+    },
+    {
+      "id": "S57",
+      "start": 416.219,
+      "speech_end": 417.529,
+      "end": 418.529,
+      "dur": 2.31,
+      "text": "But there was a catch."
+    },
+    {
+      "id": "S58",
+      "start": 418.529,
+      "speech_end": 425.038,
+      "end": 425.838,
+      "dur": 7.309,
+      "text": "The radio could carry the sound to every computer in the country. Only the right one could understand it."
+    },
+    {
+      "id": "S59",
+      "start": 425.838,
+      "speech_end": 433.755,
+      "end": 434.355,
+      "dur": 8.517,
+      "text": "Play a Spectrum game to a Commodore, and the Commodore hears noise. The bits only mean something to a machine that knows the format."
+    },
+    {
+      "id": "S60",
+      "start": 434.355,
+      "speech_end": 445.109,
+      "end": 445.909,
+      "dur": 11.554,
+      "text": "So Dutch radio tried to fix that. In 1982, it created BASICODE: one sound format, with a small translator program for each kind of computer."
+    },
+    {
+      "id": "S61",
+      "start": 445.909,
+      "speech_end": 451.599,
+      "end": 454.199,
+      "dur": 8.29,
+      "text": "And that problem never went away. A file is only useful if something can still read it."
+    },
+    {
+      "id": "S62",
+      "start": 454.199,
+      "speech_end": 459.683,
+      "end": 460.183,
+      "dur": 5.985,
+      "text": "Cassettes lost, of course. Floppy disks were faster, then hard drives, then flash."
+    },
+    {
+      "id": "S63",
+      "start": 460.183,
+      "speech_end": 466.543,
+      "end": 467.343,
+      "dur": 7.159,
+      "text": "Except that tape never actually left. Data centres still keep their archives on magnetic tape."
+    },
+    {
+      "id": "S64",
+      "start": 467.343,
+      "speech_end": 471.204,
+      "end": 472.004,
+      "dur": 4.661,
+      "text": "One modern LTO-9 cartridge holds eighteen terabytes."
+    },
+    {
+      "id": "S65",
+      "start": 472.004,
+      "speech_end": 480.454,
+      "end": 482.054,
+      "dur": 10.05,
+      "text": "Converted to Spectrum speed, that capacity would fill roughly twenty-nine million cassettes, and take more than three thousand years to load."
+    },
+    {
+      "id": "S66",
+      "start": 482.054,
+      "speech_end": 488.644,
+      "end": 490.844,
+      "dur": 8.79,
+      "text": "Still the same idea, though. Patterns on a moving strip of tape, turned back into numbers when you need them."
+    },
+    {
+      "id": "S67",
+      "start": 490.844,
+      "speech_end": 497.289,
+      "end": 498.689,
+      "dur": 7.845,
+      "text": "So next time you hear that screech, remember what it is. Not noise. A program, travelling as sound."
+    },
+    {
+      "id": "S68",
+      "start": 498.689,
+      "speech_end": 507.429,
+      "end": 510.429,
+      "dur": 11.74,
+      "text": "And somewhere in 1985, a kid is sitting in front of a television, waiting for it to stop. Because when it does, the game begins."
+    },
+    {
+      "id": "S69",
+      "start": 510.429,
+      "speech_end": 518.799,
+      "end": 520.399,
+      "dur": 9.97,
+      "text": "So here's a question for you. If you ever loaded a game from a cassette, what do you remember most about it? Let me know in the comments."
+    },
+    {
+      "id": "S70",
+      "start": 520.399,
+      "speech_end": 527.539,
+      "end": 545.539,
+      "dur": 25.14,
+      "text": "And as promised, here's that program. Just like Czechoslovak television, we've put it under the closing credits."
+    }
+  ]
+}

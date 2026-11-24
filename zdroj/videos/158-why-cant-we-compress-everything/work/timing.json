@@ -1,0 +1,701 @@
+{
+  "total": 639.549,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 8.195,
+      "end": 8.995,
+      "dur": 8.845,
+      "text": "Here's every script ever written for this channel. A hundred and fifty-eight videos, almost one and a half million bytes of text."
+    },
+    {
+      "id": "S02",
+      "start": 8.995,
+      "speech_end": 17.276,
+      "end": 17.776,
+      "dur": 8.781,
+      "text": "Run them through an ordinary compressor called gzip. They come out at just over half a megabyte. Almost two thirds gone."
+    },
+    {
+      "id": "S03",
+      "start": 17.776,
+      "speech_end": 23.303,
+      "end": 24.103,
+      "dur": 6.327,
+      "text": "And nothing is lost. Unpack the file, and every script comes back, letter for letter."
+    },
+    {
+      "id": "S04",
+      "start": 24.103,
+      "speech_end": 25.749,
+      "end": 26.949,
+      "dur": 2.846,
+      "text": "Now compress it again."
+    },
+    {
+      "id": "S05",
+      "start": 26.949,
+      "speech_end": 29.488,
+      "end": 30.288,
+      "dur": 3.339,
+      "text": "It gets bigger. Ninety-eight bytes bigger."
+    },
+    {
+      "id": "S06",
+      "start": 30.288,
+      "speech_end": 35.325,
+      "end": 36.125,
+      "dur": 5.837,
+      "text": "A third time. Ninety-eight bytes bigger. A fourth. Ninety-eight again."
+    },
+    {
+      "id": "S07",
+      "start": 36.125,
+      "speech_end": 43.815,
+      "end": 46.215,
+      "dur": 10.09,
+      "text": "The first round throws away two thirds. The second finds nothing at all. So why can't we just keep compressing?"
+    },
+    {
+      "id": "S08",
+      "start": 46.215,
+      "speech_end": 55.329,
+      "end": 56.129,
+      "dur": 9.913,
+      "text": "Let's look inside that second file. gzip didn't compress anything. It copied the data across, unchanged, in sixteen blocks."
+    },
+    {
+      "id": "S09",
+      "start": 56.129,
+      "speech_end": 62.488,
+      "end": 63.088,
+      "dur": 6.959,
+      "text": "Each block got a five-byte label. Add a small header and a footer, and you get exactly ninety-eight."
+    },
+    {
+      "id": "S10",
+      "start": 63.088,
+      "speech_end": 69.893,
+      "end": 70.693,
+      "dur": 7.605,
+      "text": "When a compressor finds nothing to remove, it stores the data as it is, and adds only what it needs to undo it."
+    },
+    {
+      "id": "S11",
+      "start": 70.693,
+      "speech_end": 75.346,
+      "end": 77.746,
+      "dur": 7.053,
+      "text": "So why did the second round find nothing? And would a cleverer program?"
+    },
+    {
+      "id": "S12",
+      "start": 77.746,
+      "speech_end": 85.769,
+      "end": 86.569,
+      "dur": 8.823,
+      "text": "Text like this is full of repetition. The same words, the same phrases, the same little scene markers at the top of every scene."
+    },
+    {
+      "id": "S13",
+      "start": 86.569,
+      "speech_end": 96.109,
+      "end": 96.909,
+      "dur": 10.34,
+      "text": "In 1977, Jacob Ziv and Abraham Lempel published a simple trick. Don't write a repeat again. Point back to where it was."
+    },
+    {
+      "id": "S14",
+      "start": 96.909,
+      "speech_end": 102.693,
+      "end": 104.893,
+      "dur": 7.983,
+      "text": "Go back three hundred characters, and copy the next twelve. A few bytes instead of twelve."
+    },
+    {
+      "id": "S15",
+      "start": 104.893,
+      "speech_end": 109.159,
+      "end": 109.959,
+      "dur": 5.067,
+      "text": "The second trick: give common letters short codes, and rare ones long codes."
+    },
+    {
+      "id": "S16",
+      "start": 109.959,
+      "speech_end": 118.407,
+      "end": 119.207,
+      "dur": 9.248,
+      "text": "In 1951, David Huffman, a graduate student at MIT, could take the final exam, or write a term paper instead."
+    },
+    {
+      "id": "S17",
+      "start": 119.207,
+      "speech_end": 124.839,
+      "end": 125.639,
+      "dur": 6.432,
+      "text": "The paper, set by Robert Fano, was to find the most efficient code of exactly this kind."
+    },
+    {
+      "id": "S18",
+      "start": 125.639,
+      "speech_end": 132.641,
+      "end": 133.441,
+      "dur": 7.801,
+      "text": "For months, Huffman got nowhere. He gave up, and started studying for the exam. Then it came to him."
+    },
+    {
+      "id": "S19",
+      "start": 133.441,
+      "speech_end": 138.817,
+      "end": 139.617,
+      "dur": 6.176,
+      "text": "Take the two rarest symbols, join them into one, and repeat until a single tree is left."
+    },
+    {
+      "id": "S20",
+      "start": 139.617,
+      "speech_end": 142.817,
+      "end": 143.817,
+      "dur": 4.2,
+      "text": "He later called it \"the most singular moment of my life.\""
+    },
+    {
+      "id": "S21",
+      "start": 143.817,
+      "speech_end": 148.915,
+      "end": 149.715,
+      "dur": 5.899,
+      "text": "Fano hadn't told the class that he'd struggled with it himself, and so had Claude Shannon."
+    },
+    {
+      "id": "S22",
+      "start": 149.715,
+      "speech_end": 156.005,
+      "end": 158.205,
+      "dur": 8.49,
+      "text": "Huffman's code beat both their methods. And it can be proven that no code of its kind does better."
+    },
+    {
+      "id": "S23",
+      "start": 158.205,
+      "speech_end": 166.101,
+      "end": 166.901,
+      "dur": 8.695,
+      "text": "In the early 1990s, Phil Katz put both tricks together for ZIP files. gzip uses the same method."
+    },
+    {
+      "id": "S24",
+      "start": 166.901,
+      "speech_end": 171.039,
+      "end": 171.839,
+      "dur": 4.939,
+      "text": "The first round already used up the patterns gzip knows how to find."
+    },
+    {
+      "id": "S25",
+      "start": 171.839,
+      "speech_end": 176.699,
+      "end": 178.899,
+      "dur": 7.06,
+      "text": "What's left gives it nothing to work with. To gzip, it looks like noise."
+    },
+    {
+      "id": "S26",
+      "start": 178.899,
+      "speech_end": 185.899,
+      "end": 187.299,
+      "dur": 8.399,
+      "text": "But a cleverer program might see patterns gzip missed. Could some program, someday, shrink anything you give it?"
+    },
+    {
+      "id": "S27",
+      "start": 187.299,
+      "speech_end": 190.477,
+      "end": 191.277,
+      "dur": 3.979,
+      "text": "No. And you don't need to know how it works to be sure of that."
+    },
+    {
+      "id": "S28",
+      "start": 191.277,
+      "speech_end": 196.122,
+      "end": 196.922,
+      "dur": 5.645,
+      "text": "Take every file that's exactly three bits long. There are eight of them."
+    },
+    {
+      "id": "S29",
+      "start": 196.922,
+      "speech_end": 202.919,
+      "end": 203.719,
+      "dur": 6.797,
+      "text": "Now count everything shorter. Four files of two bits, two of one bit, and one empty file."
+    },
+    {
+      "id": "S30",
+      "start": 203.719,
+      "speech_end": 204.577,
+      "end": 205.177,
+      "dur": 1.458,
+      "text": "Seven."
+    },
+    {
+      "id": "S30b",
+      "start": 205.177,
+      "speech_end": 208.078,
+      "end": 208.578,
+      "dur": 3.401,
+      "text": "Eight files, and seven shorter places to put them."
+    },
+    {
+      "id": "S31",
+      "start": 208.578,
+      "speech_end": 214.745,
+      "end": 215.745,
+      "dur": 7.167,
+      "text": "If every one got shorter, two would have to share a place. And when you unpack it, which one did you mean?"
+    },
+    {
+      "id": "S32",
+      "start": 215.745,
+      "speech_end": 223.001,
+      "end": 223.601,
+      "dur": 7.855,
+      "text": "It's called the pigeonhole principle, and it holds at any length. There's always one fewer shorter file to go around."
+    },
+    {
+      "id": "S33",
+      "start": 223.601,
+      "speech_end": 233.482,
+      "end": 234.482,
+      "dur": 10.881,
+      "text": "So any compressor that takes every file and shrinks some of them has to make others bigger. Not because it's badly written. There's nowhere else for them to go."
+    },
+    {
+      "id": "S34",
+      "start": 234.482,
+      "speech_end": 237.767,
+      "end": 238.567,
+      "dur": 4.085,
+      "text": "Those ninety-eight bytes are how gzip pays that price."
+    },
+    {
+      "id": "S35",
+      "start": 238.567,
+      "speech_end": 246.591,
+      "end": 247.591,
+      "dur": 9.023,
+      "text": "Pick any compressor you like. Of all files of a given size, it can shrink fewer than one in two hundred and fifty by a single byte."
+    },
+    {
+      "id": "S36",
+      "start": 247.591,
+      "speech_end": 255.081,
+      "end": 256.481,
+      "dur": 8.89,
+      "text": "Compression works anyway, because the files we make aren't random. They're text, pictures and programs, full of patterns."
+    },
+    {
+      "id": "S37",
+      "start": 256.481,
+      "speech_end": 258.934,
+      "end": 259.434,
+      "dur": 2.953,
+      "text": "That hasn't stopped people from promising more."
+    },
+    {
+      "id": "S38",
+      "start": 259.434,
+      "speech_end": 269.612,
+      "end": 270.412,
+      "dur": 10.978,
+      "text": "In 1992, WEB Technologies announced software that could squeeze almost any data under a kilobyte. Even its own output, again and again."
+    },
+    {
+      "id": "S39",
+      "start": 270.412,
+      "speech_end": 277.402,
+      "end": 279.802,
+      "dur": 9.39,
+      "text": "Its vice president said the method was \"not subject to the laws of information theory.\" The product never shipped."
+    },
+    {
+      "id": "S40",
+      "start": 279.802,
+      "speech_end": 285.287,
+      "end": 285.887,
+      "dur": 6.085,
+      "text": "So how do photos and music get so much smaller? They don't play by this rule at all."
+    },
+    {
+      "id": "S41",
+      "start": 285.887,
+      "speech_end": 294.403,
+      "end": 295.203,
+      "dur": 9.316,
+      "text": "A JPEG doesn't come back identical. It comes back close enough. Detail your eye won't miss is thrown away for good."
+    },
+    {
+      "id": "S42",
+      "start": 295.203,
+      "speech_end": 297.443,
+      "end": 298.243,
+      "dur": 3.04,
+      "text": "Zoom in, and you can see where it went."
+    },
+    {
+      "id": "S43",
+      "start": 298.243,
+      "speech_end": 305.953,
+      "end": 308.553,
+      "dur": 10.31,
+      "text": "That's lossy compression, and it's a different game. This video is about the other kind. Every bit back, exactly."
+    },
+    {
+      "id": "S44",
+      "start": 308.553,
+      "speech_end": 313.717,
+      "end": 314.717,
+      "dur": 6.165,
+      "text": "So for files that do have patterns, how small can they go? Is there a bottom?"
+    },
+    {
+      "id": "S45",
+      "start": 314.717,
+      "speech_end": 321.589,
+      "end": 322.389,
+      "dur": 7.671,
+      "text": "There is. It was found in 1948, in the same paper behind our video on error-correcting codes."
+    },
+    {
+      "id": "S46",
+      "start": 322.389,
+      "speech_end": 330.113,
+      "end": 330.913,
+      "dur": 8.525,
+      "text": "There, Claude Shannon showed how adding redundancy protects a message. Here, he worked out how much of it you can take away."
+    },
+    {
+      "id": "S47",
+      "start": 330.913,
+      "speech_end": 336.119,
+      "end": 336.919,
+      "dur": 6.005,
+      "text": "His answer was a number he called entropy: how hard it is to guess what comes next."
+    },
+    {
+      "id": "S48",
+      "start": 336.919,
+      "speech_end": 342.959,
+      "end": 345.159,
+      "dur": 8.24,
+      "text": "No lossless code can beat that number on average. But you can get as close to it as you like."
+    },
+    {
+      "id": "S49",
+      "start": 345.159,
+      "speech_end": 350.878,
+      "end": 351.678,
+      "dur": 6.519,
+      "text": "So how unpredictable is English? In 1951, Shannon measured it with a game."
+    },
+    {
+      "id": "S50",
+      "start": 351.678,
+      "speech_end": 356.627,
+      "end": 357.127,
+      "dur": 5.449,
+      "text": "He gave someone a passage they'd never seen, and asked them to guess it, letter by letter."
+    },
+    {
+      "id": "S51",
+      "start": 357.127,
+      "speech_end": 360.669,
+      "end": 361.469,
+      "dur": 4.341,
+      "text": "If a guess was wrong, they guessed again, until they got it right."
+    },
+    {
+      "id": "S52",
+      "start": 361.469,
+      "speech_end": 369.001,
+      "end": 369.801,
+      "dur": 8.333,
+      "text": "People turned out to be very good at it. With a hundred letters of context, English came out at about one bit per letter."
+    },
+    {
+      "id": "S53",
+      "start": 369.801,
+      "speech_end": 375.094,
+      "end": 375.594,
+      "dur": 5.793,
+      "text": "A computer stores each letter in eight bits. A human reader needs about one."
+    },
+    {
+      "id": "S54",
+      "start": 375.594,
+      "speech_end": 382.684,
+      "end": 384.884,
+      "dur": 9.29,
+      "text": "That gap is the room compression works in. gzip got the channel's scripts down to under three bits a character."
+    },
+    {
+      "id": "S55",
+      "start": 384.884,
+      "speech_end": 387.423,
+      "end": 388.423,
+      "dur": 3.539,
+      "text": "So how close to one bit can a machine get?"
+    },
+    {
+      "id": "S56",
+      "start": 388.423,
+      "speech_end": 397.555,
+      "end": 398.355,
+      "dur": 9.933,
+      "text": "There's a prize for exactly that. It's called the Hutter Prize, and since 2020, the task is one file: a gigabyte of English Wikipedia."
+    },
+    {
+      "id": "S57",
+      "start": 398.355,
+      "speech_end": 403.712,
+      "end": 404.512,
+      "dur": 6.157,
+      "text": "gzip shrinks it to a third. The best everyday compressors, to about a fifth."
+    },
+    {
+      "id": "S58",
+      "start": 404.512,
+      "speech_end": 410.999,
+      "end": 411.599,
+      "dur": 7.087,
+      "text": "The record, set in July 2026, is just over a hundred million bytes. A tenth."
+    },
+    {
+      "id": "S59",
+      "start": 411.599,
+      "speech_end": 418.812,
+      "end": 419.812,
+      "dur": 8.213,
+      "text": "And the decompressor counts too. Its size goes into the total, so you can't hide Wikipedia inside the program."
+    },
+    {
+      "id": "S60",
+      "start": 419.812,
+      "speech_end": 426.193,
+      "end": 426.993,
+      "dur": 7.181,
+      "text": "The fund is five hundred thousand euros. Every one percent of improvement pays five thousand."
+    },
+    {
+      "id": "S61",
+      "start": 426.993,
+      "speech_end": 434.097,
+      "end": 434.597,
+      "dur": 7.604,
+      "text": "Marcus Hutter, who funds it, explains why: \"being able to compress well is closely related to acting intelligently.\""
+    },
+    {
+      "id": "S62",
+      "start": 434.597,
+      "speech_end": 439.143,
+      "end": 439.943,
+      "dur": 5.346,
+      "text": "Because the programs at the top don't hunt for repeats. They predict."
+    },
+    {
+      "id": "S63",
+      "start": 439.943,
+      "speech_end": 447.539,
+      "end": 448.339,
+      "dur": 8.397,
+      "text": "Before each character, they estimate how likely every possible next one is. A good guess costs a fraction of a bit."
+    },
+    {
+      "id": "S64",
+      "start": 448.339,
+      "speech_end": 455.915,
+      "end": 456.715,
+      "dur": 8.375,
+      "text": "It's Shannon's guessing game, played by a machine. The best players now use neural networks, trained to predict what comes next."
+    },
+    {
+      "id": "S65",
+      "start": 456.715,
+      "speech_end": 467.535,
+      "end": 468.335,
+      "dur": 11.62,
+      "text": "It works even on finished files. In 2016, Dropbox began re-packing its users' JPEGs with a better predictor. On average, over a fifth smaller."
+    },
+    {
+      "id": "S66",
+      "start": 468.335,
+      "speech_end": 477.685,
+      "end": 479.885,
+      "dur": 11.55,
+      "text": "Every file came back bit for bit, and by 2017, it had saved over forty-six petabytes. That's over forty-six thousand terabytes."
+    },
+    {
+      "id": "S67",
+      "start": 479.885,
+      "speech_end": 487.503,
+      "end": 488.303,
+      "dur": 8.418,
+      "text": "Then there are the giants. In 2023, researchers at DeepMind used a large language model as a compressor."
+    },
+    {
+      "id": "S68",
+      "start": 488.303,
+      "speech_end": 496.132,
+      "end": 496.932,
+      "dur": 8.629,
+      "text": "On small greyscale patches of photos, it beat PNG: forty-eight percent of the original size against fifty-eight."
+    },
+    {
+      "id": "S69",
+      "start": 496.932,
+      "speech_end": 501.796,
+      "end": 502.596,
+      "dur": 5.664,
+      "text": "On recordings of read speech, it beat FLAC: twenty-one percent against thirty."
+    },
+    {
+      "id": "S70",
+      "start": 502.596,
+      "speech_end": 509.937,
+      "end": 511.137,
+      "dur": 8.541,
+      "text": "But that's without counting the model. Add its size, and the result comes out a hundred and forty times bigger than the data."
+    },
+    {
+      "id": "S71",
+      "start": 511.137,
+      "speech_end": 517.477,
+      "end": 520.077,
+      "dur": 8.94,
+      "text": "A compressor bigger than its data hasn't saved anything. The program is part of the description."
+    },
+    {
+      "id": "S72",
+      "start": 520.077,
+      "speech_end": 525.433,
+      "end": 526.233,
+      "dur": 6.157,
+      "text": "And that brings us to the strangest part. Here are the first million digits of pi."
+    },
+    {
+      "id": "S73",
+      "start": 526.233,
+      "speech_end": 532.977,
+      "end": 533.577,
+      "dur": 7.343,
+      "text": "Feed them to four compressors. The best gets them down to about four hundred and twenty-six thousand bytes."
+    },
+    {
+      "id": "S74",
+      "start": 533.577,
+      "speech_end": 540.171,
+      "end": 541.171,
+      "dur": 7.594,
+      "text": "Now give the same compressors a million random digits. The same result, within a tenth of a percent."
+    },
+    {
+      "id": "S75",
+      "start": 541.171,
+      "speech_end": 549.623,
+      "end": 550.423,
+      "dur": 9.252,
+      "text": "But pi isn't made at random. It follows a mathematical rule. Here's a program that prints every one of those million digits."
+    },
+    {
+      "id": "S76",
+      "start": 550.423,
+      "speech_end": 555.244,
+      "end": 556.244,
+      "dur": 5.821,
+      "text": "Three hundred and sixty-two bytes. Over two thousand times shorter than the file."
+    },
+    {
+      "id": "S77",
+      "start": 556.244,
+      "speech_end": 562.164,
+      "end": 564.564,
+      "dur": 8.32,
+      "text": "The compressors couldn't see the mathematical rule behind pi. They could only see the digits."
+    },
+    {
+      "id": "S78",
+      "start": 564.564,
+      "speech_end": 570.665,
+      "end": 571.165,
+      "dur": 6.601,
+      "text": "One way to measure the information in data is to ask: how short can a program be, and still print it?"
+    },
+    {
+      "id": "S79",
+      "start": 571.165,
+      "speech_end": 576.136,
+      "end": 576.936,
+      "dur": 5.771,
+      "text": "That length is called Kolmogorov complexity, after one of the men who described it."
+    },
+    {
+      "id": "S80",
+      "start": 576.936,
+      "speech_end": 584.725,
+      "end": 585.525,
+      "dur": 8.589,
+      "text": "Most data has no short program. It's the pigeonhole principle again: there aren't enough short programs to go around."
+    },
+    {
+      "id": "S81",
+      "start": 585.525,
+      "speech_end": 590.391,
+      "end": 591.191,
+      "dur": 5.666,
+      "text": "A million random digits very likely has nothing shorter. Pi does."
+    },
+    {
+      "id": "S82",
+      "start": 591.191,
+      "speech_end": 598.851,
+      "end": 599.651,
+      "dur": 8.461,
+      "text": "So why not just find the shortest program for any file? Because it's been proven that no algorithm can do that for every file."
+    },
+    {
+      "id": "S83",
+      "start": 599.651,
+      "speech_end": 608.471,
+      "end": 611.471,
+      "dur": 11.82,
+      "text": "Every program gives you an upper limit. But nothing can always tell you whether a shorter one exists. You never know you've reached the bottom."
+    },
+    {
+      "id": "S84",
+      "start": 611.471,
+      "speech_end": 617.404,
+      "end": 618.204,
+      "dur": 6.733,
+      "text": "gzip found the repeats in the scripts, and nothing more. It sees bytes, not what the words mean."
+    },
+    {
+      "id": "S85",
+      "start": 618.204,
+      "speech_end": 625.779,
+      "end": 626.579,
+      "dur": 8.375,
+      "text": "To go further, a program has to predict them better. And predicting text well starts to look a lot like understanding it."
+    },
+    {
+      "id": "S86",
+      "start": 626.579,
+      "speech_end": 636.549,
+      "end": 639.549,
+      "dur": 12.97,
+      "text": "So here's a question for you. If a program could squeeze Wikipedia smaller than anything else, would you say it understands it? Leave your answer in the comments."
+    }
+  ]
+}

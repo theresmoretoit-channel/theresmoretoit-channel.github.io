@@ -1,0 +1,541 @@
+{
+  "total": 560.144,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.4,
+      "speech_end": 6.973,
+      "end": 7.773,
+      "dur": 7.373,
+      "text": "Imagine a flying machine that looks almost exactly like a helicopter. It has a big rotor on top."
+    },
+    {
+      "id": "S02",
+      "start": 7.773,
+      "speech_end": 15.561,
+      "end": 16.361,
+      "dur": 8.589,
+      "text": "It can take off and land in a surprisingly small space. And if its engine stops in mid-air, it can still land safely."
+    },
+    {
+      "id": "S03",
+      "start": 16.361,
+      "speech_end": 23.305,
+      "end": 24.105,
+      "dur": 7.744,
+      "text": "Sounds like a helicopter, right? Well… not quite. This is a gyroplane. Also called an autogyro."
+    },
+    {
+      "id": "S04",
+      "start": 24.105,
+      "speech_end": 28.955,
+      "end": 31.555,
+      "dur": 7.45,
+      "text": "And the weirdest thing about it is this. The engine doesn't power the rotor."
+    },
+    {
+      "id": "S05",
+      "start": 31.555,
+      "speech_end": 41.819,
+      "end": 42.619,
+      "dur": 11.063,
+      "text": "In a helicopter, the engine spins the main rotor. The rotor produces lift, and by tilting the rotor, the helicopter can also move in different directions."
+    },
+    {
+      "id": "S06",
+      "start": 42.619,
+      "speech_end": 49.405,
+      "end": 50.205,
+      "dur": 7.586,
+      "text": "But there is a problem. If you spin a rotor one way, physics wants to spin the rest of the helicopter the other way."
+    },
+    {
+      "id": "S07",
+      "start": 50.205,
+      "speech_end": 56.564,
+      "end": 57.364,
+      "dur": 7.159,
+      "text": "That's why conventional helicopters need a way to counteract that torque. Usually a tail rotor."
+    },
+    {
+      "id": "S08",
+      "start": 57.364,
+      "speech_end": 63.169,
+      "end": 63.969,
+      "dur": 6.605,
+      "text": "A gyroplane doesn't have this problem. Its engine powers a completely separate propeller."
+    },
+    {
+      "id": "S09",
+      "start": 63.969,
+      "speech_end": 72.483,
+      "end": 73.283,
+      "dur": 9.314,
+      "text": "The propeller pushes the aircraft forward. And the airflow through the big rotor on top makes it spin. This is called autorotation."
+    },
+    {
+      "id": "S10",
+      "start": 73.283,
+      "speech_end": 79.642,
+      "end": 80.442,
+      "dur": 7.159,
+      "text": "So the basic idea is this. Engine, propeller, forward motion, airflow, spinning rotor, lift."
+    },
+    {
+      "id": "S11",
+      "start": 80.442,
+      "speech_end": 85.582,
+      "end": 87.782,
+      "dur": 7.34,
+      "text": "But hold on. Why should air flowing through a rotor make that rotor spin at all?"
+    },
+    {
+      "id": "S12",
+      "start": 87.782,
+      "speech_end": 99.585,
+      "end": 100.385,
+      "dur": 12.603,
+      "text": "The answer is the angle. The rotor disc isn't flat. It's tilted back. So the air isn't pushed down through it, the way it is under a helicopter. It comes up through it instead."
+    },
+    {
+      "id": "S13",
+      "start": 100.385,
+      "speech_end": 107.385,
+      "end": 108.185,
+      "dur": 7.799,
+      "text": "Now think about one blade. It's slicing forward through the air, and at the same time, air is arriving from below."
+    },
+    {
+      "id": "S14",
+      "start": 108.185,
+      "speech_end": 118.621,
+      "end": 119.421,
+      "dur": 11.236,
+      "text": "The flow it meets is the sum of both, and it comes from underneath. That tips the lift of the blade slightly forward. Forward, in the direction the blade is already moving."
+    },
+    {
+      "id": "S15",
+      "start": 119.421,
+      "speech_end": 124.181,
+      "end": 126.581,
+      "dur": 7.16,
+      "text": "So the air isn't only holding the rotor up. It's driving it around."
+    },
+    {
+      "id": "S16",
+      "start": 126.581,
+      "speech_end": 134.414,
+      "end": 135.214,
+      "dur": 8.633,
+      "text": "Though not the whole blade does that. Where the flow arrives steeply, the blade is driven. Where it arrives shallowly, it drags."
+    },
+    {
+      "id": "S17",
+      "start": 135.214,
+      "speech_end": 143.684,
+      "end": 146.284,
+      "dur": 11.07,
+      "text": "Nobody is holding the rotor at any particular speed. It settles where those two balance, and holds there by itself for the whole flight."
+    },
+    {
+      "id": "S18",
+      "start": 146.284,
+      "speech_end": 153.315,
+      "end": 154.115,
+      "dur": 7.831,
+      "text": "The engine doesn't have to spin the rotor. The air does it for free. Well… not completely for free."
+    },
+    {
+      "id": "S19",
+      "start": 154.115,
+      "speech_end": 164.445,
+      "end": 165.245,
+      "dur": 11.129,
+      "text": "You are exchanging some forward speed for the energy needed to keep the rotor spinning. But the important point is this. There is no engine-driven rotor shaft."
+    },
+    {
+      "id": "S20",
+      "start": 165.245,
+      "speech_end": 170.58,
+      "end": 171.38,
+      "dur": 6.135,
+      "text": "So why doesn't the whole aircraft spin? This is probably the first thing you would ask."
+    },
+    {
+      "id": "S21",
+      "start": 171.38,
+      "speech_end": 179.233,
+      "end": 180.033,
+      "dur": 8.653,
+      "text": "If the rotor is spinning, shouldn't the aircraft spin in the opposite direction? And yes, there can be aerodynamic torques."
+    },
+    {
+      "id": "S22",
+      "start": 180.033,
+      "speech_end": 186.369,
+      "end": 187.169,
+      "dur": 7.136,
+      "text": "But there is a huge difference between a rotor being driven by an engine, and a rotor being driven by the airflow."
+    },
+    {
+      "id": "S23",
+      "start": 187.169,
+      "speech_end": 193.739,
+      "end": 194.539,
+      "dur": 7.371,
+      "text": "In a helicopter, the engine continuously supplies torque to overcome the aerodynamic drag of the rotor."
+    },
+    {
+      "id": "S24",
+      "start": 194.539,
+      "speech_end": 201.605,
+      "end": 202.405,
+      "dur": 7.865,
+      "text": "The rotor pushes against the air. The air pushes back. And that reaction torque has to be counteracted."
+    },
+    {
+      "id": "S25",
+      "start": 202.405,
+      "speech_end": 211.369,
+      "end": 212.169,
+      "dur": 9.764,
+      "text": "In a gyroplane, the rotor is free-spinning. It isn't being forced to rotate by the engine. The airflow is what keeps it rotating."
+    },
+    {
+      "id": "S26",
+      "start": 212.169,
+      "speech_end": 217.246,
+      "end": 218.046,
+      "dur": 5.877,
+      "text": "So there is no large engine torque being transmitted through the rotor shaft into the aircraft."
+    },
+    {
+      "id": "S27",
+      "start": 218.046,
+      "speech_end": 222.606,
+      "end": 225.006,
+      "dur": 6.96,
+      "text": "And that's why you don't need a tail rotor just to keep the fuselage from spinning."
+    },
+    {
+      "id": "S28",
+      "start": 225.006,
+      "speech_end": 230.533,
+      "end": 231.333,
+      "dur": 6.327,
+      "text": "But there's a catch. If you're thinking, \"so this is just a cheap helicopter\"… not quite."
+    },
+    {
+      "id": "S29",
+      "start": 231.333,
+      "speech_end": 235.363,
+      "end": 238.163,
+      "dur": 6.83,
+      "text": "The gyroplane has one enormous limitation. It can't hover."
+    },
+    {
+      "id": "S30",
+      "start": 238.163,
+      "speech_end": 245.291,
+      "end": 246.091,
+      "dur": 7.927,
+      "text": "A helicopter can generate lift while sitting almost stationary. A gyroplane needs airflow through its rotor."
+    },
+    {
+      "id": "S31",
+      "start": 246.091,
+      "speech_end": 253.73,
+      "end": 254.53,
+      "dur": 8.439,
+      "text": "That means it normally has to move forward. So unlike a helicopter, you can't simply point it upward and take off vertically."
+    },
+    {
+      "id": "S32",
+      "start": 254.53,
+      "speech_end": 261.463,
+      "end": 262.263,
+      "dur": 7.733,
+      "text": "You accelerate along the ground, the rotor spins faster and faster, and eventually there is enough lift to take off."
+    },
+    {
+      "id": "S33",
+      "start": 262.263,
+      "speech_end": 268.13,
+      "end": 268.93,
+      "dur": 6.667,
+      "text": "Some gyroplanes can pre-spin their rotors before takeoff, allowing a very short takeoff run."
+    },
+    {
+      "id": "S34",
+      "start": 268.93,
+      "speech_end": 276.1,
+      "end": 276.9,
+      "dur": 7.97,
+      "text": "And that spinning up can be taken further. Far enough that a few gyroplanes can leave the ground without any run at all."
+    },
+    {
+      "id": "S35",
+      "start": 276.9,
+      "speech_end": 286.886,
+      "end": 287.686,
+      "dur": 10.786,
+      "text": "It's called a jump takeoff. The rotor is spun up on the ground past its normal flying speed, with the blades set almost flat, so they make hardly any lift."
+    },
+    {
+      "id": "S36",
+      "start": 287.686,
+      "speech_end": 298.762,
+      "end": 299.562,
+      "dur": 11.876,
+      "text": "Then the pilot changes the blade angle all at once. The stored spin turns into lift, and the machine hops off the ground. Cierva's machines could clear about six metres."
+    },
+    {
+      "id": "S37",
+      "start": 299.562,
+      "speech_end": 309.934,
+      "end": 310.734,
+      "dur": 11.172,
+      "text": "But it's one jump, out of energy the rotor already had. The moment it's up, it still has to fly forward to keep that rotor turning. It doesn't hover at the top."
+    },
+    {
+      "id": "S38",
+      "start": 310.734,
+      "speech_end": 317.774,
+      "end": 320.174,
+      "dur": 9.44,
+      "text": "But it's still not a helicopter. It's much closer to a strange hybrid between an aeroplane and a helicopter."
+    },
+    {
+      "id": "S39",
+      "start": 320.174,
+      "speech_end": 329.65,
+      "end": 330.45,
+      "dur": 10.276,
+      "text": "What happens when the engine stops? Here's where the gyroplane gets really interesting. Imagine you're flying along… and the engine suddenly dies."
+    },
+    {
+      "id": "S40",
+      "start": 330.45,
+      "speech_end": 339.327,
+      "end": 340.127,
+      "dur": 9.677,
+      "text": "In an aeroplane, you now have a glider. In a helicopter, the pilot enters autorotation and uses the airflow to keep the rotor spinning."
+    },
+    {
+      "id": "S41",
+      "start": 340.127,
+      "speech_end": 343.862,
+      "end": 346.462,
+      "dur": 6.335,
+      "text": "And in a gyroplane? You're already in autorotation."
+    },
+    {
+      "id": "S42",
+      "start": 346.462,
+      "speech_end": 354.059,
+      "end": 354.859,
+      "dur": 8.397,
+      "text": "The rotor is normally powered by the airflow anyway. So the engine can stop turning the propeller… but the rotor keeps spinning."
+    },
+    {
+      "id": "S43",
+      "start": 354.859,
+      "speech_end": 361.154,
+      "end": 361.954,
+      "dur": 7.095,
+      "text": "The pilot can control the descent and make an emergency landing. Of course, this isn't magic."
+    },
+    {
+      "id": "S44",
+      "start": 361.954,
+      "speech_end": 367.095,
+      "end": 367.895,
+      "dur": 5.941,
+      "text": "You still need altitude, speed, a suitable landing area and a competent pilot."
+    },
+    {
+      "id": "S45",
+      "start": 367.895,
+      "speech_end": 375.43,
+      "end": 376.23,
+      "dur": 8.335,
+      "text": "And it isn't crash-proof. The rotor turns because the air is pushing up through it. Unload it, and it slows down."
+    },
+    {
+      "id": "S46",
+      "start": 376.23,
+      "speech_end": 387.859,
+      "end": 388.659,
+      "dur": 12.429,
+      "text": "Older designs carried the propeller high above the centre of gravity, and could pitch down into it. Modern machines are built against it, and pilots are taught never to unload the rotor."
+    },
+    {
+      "id": "S47",
+      "start": 388.659,
+      "speech_end": 394.839,
+      "end": 397.239,
+      "dur": 8.58,
+      "text": "But an engine failure doesn't automatically mean that the aircraft has lost its ability to generate lift."
+    },
+    {
+      "id": "S48",
+      "start": 397.239,
+      "speech_end": 404.622,
+      "end": 405.422,
+      "dur": 8.183,
+      "text": "And this thing is surprisingly old. You might think gyroplanes are some modern ultralight invention. They're not."
+    },
+    {
+      "id": "S49",
+      "start": 405.422,
+      "speech_end": 411.31,
+      "end": 412.11,
+      "dur": 6.688,
+      "text": "The first successful practical gyroplane was developed by Spanish engineer Juan de la Cierva."
+    },
+    {
+      "id": "S50",
+      "start": 412.11,
+      "speech_end": 418.469,
+      "end": 419.269,
+      "dur": 7.159,
+      "text": "His C four made its first successful flight in nineteen twenty-three. That's more than a century ago."
+    },
+    {
+      "id": "S51",
+      "start": 419.269,
+      "speech_end": 426.693,
+      "end": 427.493,
+      "dur": 8.224,
+      "text": "And Cierva's work on rotor systems also contributed ideas that later became important in helicopter development."
+    },
+    {
+      "id": "S52",
+      "start": 427.493,
+      "speech_end": 432.507,
+      "end": 433.307,
+      "dur": 5.813,
+      "text": "So the gyroplane wasn't invented as a cheap alternative to modern helicopters."
+    },
+    {
+      "id": "S53",
+      "start": 433.307,
+      "speech_end": 438.647,
+      "end": 441.047,
+      "dur": 7.74,
+      "text": "It was actually one of the stepping stones toward rotary-wing flight as we know it today."
+    },
+    {
+      "id": "S54",
+      "start": 441.047,
+      "speech_end": 449.881,
+      "end": 450.681,
+      "dur": 9.634,
+      "text": "And this thing is surprisingly affordable. A modern two-seat gyroplane can cost only a fraction of the price of a comparable small helicopter."
+    },
+    {
+      "id": "S55",
+      "start": 450.681,
+      "speech_end": 458.873,
+      "end": 459.673,
+      "dur": 8.992,
+      "text": "Depending on the model, a gyroplane can be available for roughly twenty to forty per cent of the purchase price of a comparable helicopter."
+    },
+    {
+      "id": "S56",
+      "start": 459.673,
+      "speech_end": 470.213,
+      "end": 471.013,
+      "dur": 11.341,
+      "text": "And the difference doesn't end there. A small gyroplane might burn roughly ten to twenty litres of fuel per hour, depending on the engine, the aircraft and the conditions."
+    },
+    {
+      "id": "S57",
+      "start": 471.013,
+      "speech_end": 479.227,
+      "end": 480.027,
+      "dur": 9.013,
+      "text": "At a cruising speed around one hundred and forty kilometres per hour, that can work out to roughly seven to fourteen litres per hundred kilometres."
+    },
+    {
+      "id": "S58",
+      "start": 480.027,
+      "speech_end": 488.355,
+      "end": 489.155,
+      "dur": 9.129,
+      "text": "That's not exactly economical transport… but for a machine with a rotor on top that flies through the sky, it's pretty remarkable."
+    },
+    {
+      "id": "S59",
+      "start": 489.155,
+      "speech_end": 495.925,
+      "end": 498.125,
+      "dur": 8.97,
+      "text": "So if you simply want to fly, and don't need to hover… a gyroplane starts looking surprisingly attractive."
+    },
+    {
+      "id": "S60",
+      "start": 498.125,
+      "speech_end": 505.553,
+      "end": 506.353,
+      "dur": 8.228,
+      "text": "So why doesn't everyone fly one? And this is the real question. The gyroplane is relatively simple."
+    },
+    {
+      "id": "S61",
+      "start": 506.353,
+      "speech_end": 515.104,
+      "end": 515.904,
+      "dur": 9.551,
+      "text": "It doesn't need a powered main rotor. It can survive an engine failure remarkably well. It can fly at respectable speeds."
+    },
+    {
+      "id": "S62",
+      "start": 515.904,
+      "speech_end": 520.299,
+      "end": 521.099,
+      "dur": 5.195,
+      "text": "And compared with a helicopter, it can be much cheaper to buy and to operate."
+    },
+    {
+      "id": "S63",
+      "start": 521.099,
+      "speech_end": 524.859,
+      "end": 527.459,
+      "dur": 6.36,
+      "text": "But you give up the helicopter's most useful trick. Hovering."
+    },
+    {
+      "id": "S64",
+      "start": 527.459,
+      "speech_end": 535.313,
+      "end": 536.113,
+      "dur": 8.655,
+      "text": "You need forward speed. You need space for takeoff and landing. And you can't simply land vertically in your back garden."
+    },
+    {
+      "id": "S65",
+      "start": 536.113,
+      "speech_end": 546.163,
+      "end": 546.963,
+      "dur": 10.85,
+      "text": "So the gyroplane isn't a cheap helicopter. It's something different. It's an aircraft that takes one of the most useful ideas from the helicopter. The rotor."
+    },
+    {
+      "id": "S66",
+      "start": 546.963,
+      "speech_end": 553.579,
+      "end": 554.379,
+      "dur": 7.415,
+      "text": "And combines it with one of the simplest ideas in aviation. A propeller pushing the aircraft forward."
+    },
+    {
+      "id": "S67",
+      "start": 554.379,
+      "speech_end": 558.944,
+      "end": 560.144,
+      "dur": 5.765,
+      "text": "And somehow, this strange combination has been flying for more than a hundred years."
+    }
+  ]
+}

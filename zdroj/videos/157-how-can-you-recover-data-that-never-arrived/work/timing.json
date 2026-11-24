@@ -1,0 +1,597 @@
+{
+  "total": 579.599,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 4.269,
+      "end": 5.069,
+      "dur": 4.919,
+      "text": "This is a QR code. It holds one short line of text."
+    },
+    {
+      "id": "S02",
+      "start": 5.069,
+      "speech_end": 7.053,
+      "end": 7.853,
+      "dur": 2.784,
+      "text": "The phone reads it straight away."
+    },
+    {
+      "id": "S03",
+      "start": 7.853,
+      "speech_end": 9.88,
+      "end": 10.38,
+      "dur": 2.527,
+      "text": "Now let's tear a piece out of it."
+    },
+    {
+      "id": "S04",
+      "start": 10.38,
+      "speech_end": 13.967,
+      "end": 14.767,
+      "dur": 4.387,
+      "text": "And scan it again. The same text. Every letter."
+    },
+    {
+      "id": "S05",
+      "start": 14.767,
+      "speech_end": 18.245,
+      "end": 19.245,
+      "dur": 4.479,
+      "text": "Part of that code is gone. Not hard to read. Gone."
+    },
+    {
+      "id": "S06",
+      "start": 19.245,
+      "speech_end": 22.655,
+      "end": 25.055,
+      "dur": 5.81,
+      "text": "So how can a phone read something that is no longer there?"
+    },
+    {
+      "id": "S07",
+      "start": 25.055,
+      "speech_end": 31.886,
+      "end": 32.686,
+      "dur": 7.631,
+      "text": "Here's the same problem, made smaller. Someone sends you eight bits. On the way, three of them are lost."
+    },
+    {
+      "id": "S08",
+      "start": 32.686,
+      "speech_end": 40.752,
+      "end": 41.252,
+      "dur": 8.566,
+      "text": "Each missing bit is a zero or a one, so there are eight ways to fill the gaps. And nothing in what arrived tells you which one is right."
+    },
+    {
+      "id": "S09",
+      "start": 41.252,
+      "speech_end": 48.616,
+      "end": 49.416,
+      "dur": 8.164,
+      "text": "And yet the phone just did exactly that. It wasn't guessing. The answer was sent before anything was lost."
+    },
+    {
+      "id": "S10",
+      "start": 49.416,
+      "speech_end": 52.232,
+      "end": 53.032,
+      "dur": 3.616,
+      "text": "The trick is to send more than the message itself."
+    },
+    {
+      "id": "S11",
+      "start": 53.032,
+      "speech_end": 60.01,
+      "end": 60.81,
+      "dur": 7.778,
+      "text": "The simplest way is to say everything three times. A zero is sent as three zeros, a one as three ones."
+    },
+    {
+      "id": "S12",
+      "start": 60.81,
+      "speech_end": 68.174,
+      "end": 68.974,
+      "dur": 8.164,
+      "text": "Noise flips one of them, and you receive one, zero, one. Two votes against one. It was almost certainly a one."
+    },
+    {
+      "id": "S13",
+      "start": 68.974,
+      "speech_end": 76.654,
+      "end": 77.154,
+      "dur": 8.18,
+      "text": "If noise flips one bit in ten, at random and independently, a vote of three goes wrong less than three times in a hundred."
+    },
+    {
+      "id": "S14",
+      "start": 77.154,
+      "speech_end": 86.18,
+      "end": 87.18,
+      "dur": 10.026,
+      "text": "But you've tripled everything you send. To get closer to perfect, you'd repeat five times, then nine, then a hundred... and the message slows to a crawl."
+    },
+    {
+      "id": "S15",
+      "start": 87.18,
+      "speech_end": 93.57,
+      "end": 95.97,
+      "dur": 8.79,
+      "text": "For a long time, that looked like the price. Fewer errors, slower messages. Keep that in mind."
+    },
+    {
+      "id": "S16",
+      "start": 95.97,
+      "speech_end": 100.855,
+      "end": 101.655,
+      "dur": 5.685,
+      "text": "In the late 1940s, Richard Hamming at Bell Labs had a problem of his own."
+    },
+    {
+      "id": "S17",
+      "start": 101.655,
+      "speech_end": 106.775,
+      "end": 107.575,
+      "dur": 5.92,
+      "text": "He mostly got time on a relay computer at weekends, when nobody was there to watch it."
+    },
+    {
+      "id": "S18",
+      "start": 107.575,
+      "speech_end": 117.521,
+      "end": 118.321,
+      "dur": 10.745,
+      "text": "The machine could tell when it had made a mistake. It would try the step again, three times... and then drop his job. Two weekends in a row, he lost his work."
+    },
+    {
+      "id": "S20",
+      "start": 118.321,
+      "speech_end": 128.961,
+      "end": 131.161,
+      "dur": 12.84,
+      "text": "His question, in his own words: \"If the machine can locate there is an error, why can it not locate where it is?\" The actual language, he admitted, was probably a bit stronger."
+    },
+    {
+      "id": "S22",
+      "start": 131.161,
+      "speech_end": 136.816,
+      "end": 137.616,
+      "dur": 6.455,
+      "text": "His answer takes four bits of message and adds three check bits. Seven bits in all."
+    },
+    {
+      "id": "S23",
+      "start": 137.616,
+      "speech_end": 143.589,
+      "end": 144.389,
+      "dur": 6.773,
+      "text": "Each check bit looks after a different group of positions, and makes sure that group holds an even number of ones."
+    },
+    {
+      "id": "S24",
+      "start": 144.389,
+      "speech_end": 150.855,
+      "end": 151.655,
+      "dur": 7.266,
+      "text": "The groups overlap in a careful pattern. Every position belongs to its own combination of groups."
+    },
+    {
+      "id": "S25",
+      "start": 151.655,
+      "speech_end": 155.263,
+      "end": 155.763,
+      "dur": 4.107,
+      "text": "Now flip one bit. Say, the one in position six."
+    },
+    {
+      "id": "S26",
+      "start": 155.763,
+      "speech_end": 162.957,
+      "end": 163.757,
+      "dur": 7.994,
+      "text": "The receiver runs the three checks again. The first one passes. The second fails. The third one fails."
+    },
+    {
+      "id": "S27",
+      "start": 163.757,
+      "speech_end": 172.742,
+      "end": 173.542,
+      "dur": 9.785,
+      "text": "Write a failed check as one, a passed check as zero, and read them from the last to the first. One, one, zero. In binary, that's six."
+    },
+    {
+      "id": "S28",
+      "start": 173.542,
+      "speech_end": 178.515,
+      "end": 179.315,
+      "dur": 5.773,
+      "text": "The checks don't just say that something went wrong. They point at the exact bit."
+    },
+    {
+      "id": "S29",
+      "start": 179.315,
+      "speech_end": 184.629,
+      "end": 185.429,
+      "dur": 6.114,
+      "text": "Flip it back, and the message is whole again. Nobody had to send anything twice."
+    },
+    {
+      "id": "S30",
+      "start": 185.429,
+      "speech_end": 193.589,
+      "end": 196.189,
+      "dur": 10.76,
+      "text": "So that's the answer. The receiver doesn't rebuild lost information out of nothing. The sender packed it in, ahead of time."
+    },
+    {
+      "id": "S32",
+      "start": 196.189,
+      "speech_end": 206.004,
+      "end": 206.604,
+      "dur": 10.415,
+      "text": "Not every check can do that. A checksum, like the one in our video about Btrfs, can tell you a block is damaged, but not what the original data were."
+    },
+    {
+      "id": "S33",
+      "start": 206.604,
+      "speech_end": 214.651,
+      "end": 215.451,
+      "dur": 8.847,
+      "text": "And there's a second kind of damage. Sometimes a bit isn't wrong. It's just missing, and you know exactly where the gap is."
+    },
+    {
+      "id": "S34",
+      "start": 215.451,
+      "speech_end": 218.437,
+      "end": 219.237,
+      "dur": 3.787,
+      "text": "That's called an erasure, and erasures are easier."
+    },
+    {
+      "id": "S35",
+      "start": 219.237,
+      "speech_end": 224.208,
+      "end": 224.708,
+      "dur": 5.471,
+      "text": "Send four numbers, four, seven, two and nine, and a fifth one: their sum, twenty-two."
+    },
+    {
+      "id": "S36",
+      "start": 224.708,
+      "speech_end": 232.84,
+      "end": 233.64,
+      "dur": 8.932,
+      "text": "If any one of them goes missing, the others tell you what it was. Four, seven, something, nine, twenty-two. It has to be two."
+    },
+    {
+      "id": "S37",
+      "start": 233.64,
+      "speech_end": 242.55,
+      "end": 244.95,
+      "dur": 11.31,
+      "text": "Servers protect their disks with a similar kind of check, spread across the drives. When one drive dies, its contents are worked out from the rest."
+    },
+    {
+      "id": "S38",
+      "start": 244.95,
+      "speech_end": 251.928,
+      "end": 252.728,
+      "dur": 7.778,
+      "text": "So how much extra do you need? Repetition says: to get errors down to nothing, you have to slow down to nothing."
+    },
+    {
+      "id": "S39",
+      "start": 252.728,
+      "speech_end": 258.509,
+      "end": 259.309,
+      "dur": 6.581,
+      "text": "Two years before Hamming's paper came out, his colleague Claude Shannon had published a stranger answer."
+    },
+    {
+      "id": "S40",
+      "start": 259.309,
+      "speech_end": 265.221,
+      "end": 266.021,
+      "dur": 6.711,
+      "text": "Every channel, a radio link, a cable, a disc, has a limit. A top speed for information."
+    },
+    {
+      "id": "S41",
+      "start": 266.021,
+      "speech_end": 274.345,
+      "end": 275.145,
+      "dur": 9.124,
+      "text": "Below that limit, errors can be made as rare as you like, without slowing down. Not by repeating more. By coding smarter."
+    },
+    {
+      "id": "S42",
+      "start": 275.145,
+      "speech_end": 277.491,
+      "end": 278.491,
+      "dur": 3.347,
+      "text": "Above it, no code in the world will help."
+    },
+    {
+      "id": "S43",
+      "start": 278.491,
+      "speech_end": 286.389,
+      "end": 287.189,
+      "dur": 8.697,
+      "text": "But there was a catch. Shannon proved that such codes exist. He didn't show how to build one that anybody could use."
+    },
+    {
+      "id": "S44",
+      "start": 287.189,
+      "speech_end": 301.697,
+      "end": 302.497,
+      "dur": 15.309,
+      "text": "His proof said a code picked at random would almost certainly be good. But the obvious way to decode it means comparing what arrived with every possible message... and for a block of a thousand bits, there are more of those than atoms in the universe."
+    },
+    {
+      "id": "S46",
+      "start": 302.497,
+      "speech_end": 310.777,
+      "end": 313.377,
+      "dur": 10.88,
+      "text": "So Shannon's paper wasn't a solution. It was a promise. And engineers spent the next forty-five years trying to keep it."
+    },
+    {
+      "id": "S47",
+      "start": 313.377,
+      "speech_end": 317.945,
+      "end": 318.445,
+      "dur": 5.067,
+      "text": "Hamming's code was a first step. It fixes one wrong bit in seven."
+    },
+    {
+      "id": "S48",
+      "start": 318.445,
+      "speech_end": 325.188,
+      "end": 325.988,
+      "dur": 7.543,
+      "text": "But real damage comes in bursts. A scratch or a crackle of static takes out hundreds of bits in a row."
+    },
+    {
+      "id": "S49",
+      "start": 325.988,
+      "speech_end": 333.732,
+      "end": 334.532,
+      "dur": 8.544,
+      "text": "In 1960, Irving Reed and Gustave Solomon, at MIT's Lincoln Laboratory, published a paper five pages long."
+    },
+    {
+      "id": "S50",
+      "start": 334.532,
+      "speech_end": 342.406,
+      "end": 343.206,
+      "dur": 8.674,
+      "text": "Their codes work on whole bytes, not single bits. If a burst wrecks all eight bits of a byte, that's still just one bad byte."
+    },
+    {
+      "id": "S51",
+      "start": 343.206,
+      "speech_end": 348.411,
+      "end": 349.211,
+      "dur": 6.005,
+      "text": "One common version adds thirty-two check bytes to two hundred and twenty-three bytes of data."
+    },
+    {
+      "id": "S52",
+      "start": 349.211,
+      "speech_end": 354.929,
+      "end": 355.729,
+      "dur": 6.517,
+      "text": "It can fix any sixteen bytes that arrive wrong... or rebuild thirty-two that never arrive at all."
+    },
+    {
+      "id": "S53",
+      "start": 355.729,
+      "speech_end": 365.608,
+      "end": 366.208,
+      "dur": 10.479,
+      "text": "That's how a CD plays through a scratch. Its two Reed-Solomon codes can fully repair a gap of about four thousand bits, two and a half millimetres of track."
+    },
+    {
+      "id": "S54",
+      "start": 366.208,
+      "speech_end": 377.188,
+      "end": 379.788,
+      "dur": 13.58,
+      "text": "And it's why the torn QR code still worked. At its strongest setting, a QR code can rebuild up to about thirty percent of its bytes and still give back every letter."
+    },
+    {
+      "id": "S56",
+      "start": 379.788,
+      "speech_end": 385.377,
+      "end": 385.977,
+      "dur": 6.189,
+      "text": "Voyager 2 left Earth in 1977 already carrying a Reed-Solomon encoder."
+    },
+    {
+      "id": "S57",
+      "start": 385.977,
+      "speech_end": 395.108,
+      "end": 395.908,
+      "dur": 9.931,
+      "text": "But at Jupiter and Saturn, it guarded everything but the pictures with an older code, by Marcel Golay, which sent one extra bit for every bit of data."
+    },
+    {
+      "id": "S58",
+      "start": 395.908,
+      "speech_end": 405.06,
+      "end": 405.86,
+      "dur": 9.952,
+      "text": "For Uranus and Neptune, with the signal getting weaker, engineers switched Reed-Solomon on, on top of a second code that every bit already went through."
+    },
+    {
+      "id": "S59",
+      "start": 405.86,
+      "speech_end": 413.67,
+      "end": 414.67,
+      "dur": 8.81,
+      "text": "With that second code alone, about five bits in a thousand were still wrong. With Reed-Solomon on top, about one in a million."
+    },
+    {
+      "id": "S60",
+      "start": 414.67,
+      "speech_end": 420.494,
+      "end": 421.294,
+      "dur": 6.624,
+      "text": "Noise also comes in bursts, so Voyager shuffled the bytes of four blocks together before sending them."
+    },
+    {
+      "id": "S61",
+      "start": 421.294,
+      "speech_end": 427.587,
+      "end": 428.387,
+      "dur": 7.093,
+      "text": "A burst that would have wrecked one block now takes a few bytes from each... few enough for every block to repair itself."
+    },
+    {
+      "id": "S62",
+      "start": 428.387,
+      "speech_end": 432.761,
+      "end": 433.761,
+      "dur": 5.373,
+      "text": "The rest of how Neptune's pictures got home is in our video about Voyager."
+    },
+    {
+      "id": "S63",
+      "start": 433.761,
+      "speech_end": 439.883,
+      "end": 440.883,
+      "dur": 7.123,
+      "text": "But even this was still short of Shannon's limit... and a code that could get much closer already existed."
+    },
+    {
+      "id": "S65",
+      "start": 440.883,
+      "speech_end": 450.889,
+      "end": 451.689,
+      "dur": 10.805,
+      "text": "In 1960, in his doctoral thesis at MIT, Robert Gallager described codes made of many simple checks, each one looking at only a few bits."
+    },
+    {
+      "id": "S66",
+      "start": 451.689,
+      "speech_end": 464.019,
+      "end": 466.219,
+      "dur": 14.53,
+      "text": "Decoding them meant the checks passing guesses back and forth, round after round... far too much for the computers of the 1960s. So the idea was put away, and mostly forgotten for thirty years."
+    },
+    {
+      "id": "S68",
+      "start": 466.219,
+      "speech_end": 475.072,
+      "end": 475.872,
+      "dur": 9.653,
+      "text": "In 1993, a team led by two French engineers, Claude Berrou and Alain Glavieux, presented turbo codes at a conference in Geneva."
+    },
+    {
+      "id": "S69",
+      "start": 475.872,
+      "speech_end": 485.623,
+      "end": 486.423,
+      "dur": 10.551,
+      "text": "Their results were so close to Shannon's limit that many experts assumed they'd made a mistake. Probably a factor of two, somewhere in their calculations."
+    },
+    {
+      "id": "S70",
+      "start": 486.423,
+      "speech_end": 489.111,
+      "end": 490.311,
+      "dur": 3.888,
+      "text": "Within a year, other labs had confirmed it."
+    },
+    {
+      "id": "S71",
+      "start": 490.311,
+      "speech_end": 496.178,
+      "end": 496.978,
+      "dur": 6.667,
+      "text": "Turbo codes also worked by passing guesses back and forth, and that sent people back to Gallager."
+    },
+    {
+      "id": "S72",
+      "start": 496.978,
+      "speech_end": 505.725,
+      "end": 506.525,
+      "dur": 9.547,
+      "text": "In 1995 and 1996, David MacKay and Radford Neal rediscovered his codes, and showed they could get just as close."
+    },
+    {
+      "id": "S73",
+      "start": 506.525,
+      "speech_end": 513.607,
+      "end": 514.107,
+      "dur": 7.583,
+      "text": "By 2001, a refined version of Gallager's codes came within four hundredths of a decibel of Shannon's limit."
+    },
+    {
+      "id": "S74",
+      "start": 514.107,
+      "speech_end": 521.667,
+      "end": 524.267,
+      "dur": 10.16,
+      "text": "That's less than one percent more signal power than the theoretical minimum. The promise of 1948 had been kept."
+    },
+    {
+      "id": "S75",
+      "start": 524.267,
+      "speech_end": 531.767,
+      "end": 533.967,
+      "dur": 9.7,
+      "text": "Today, Gallager's codes carry much of the data in 5G phones, in modern Wi-Fi, and in satellite television."
+    },
+    {
+      "id": "S77",
+      "start": 533.967,
+      "speech_end": 539.388,
+      "end": 539.988,
+      "dur": 6.021,
+      "text": "Now, back to our eight bits. Three were lost, and there are eight ways to fill the gaps."
+    },
+    {
+      "id": "S78",
+      "start": 539.988,
+      "speech_end": 547.777,
+      "end": 548.577,
+      "dur": 8.589,
+      "text": "But these eight bits were never just a message. They carried four bits of data, Hamming's three checks, and one more check over all eight."
+    },
+    {
+      "id": "S79",
+      "start": 548.577,
+      "speech_end": 554.55,
+      "end": 555.35,
+      "dur": 6.773,
+      "text": "Of all two hundred and fifty-six possible patterns of eight bits, only sixteen follow those rules."
+    },
+    {
+      "id": "S80",
+      "start": 555.35,
+      "speech_end": 560.173,
+      "end": 560.973,
+      "dur": 5.623,
+      "text": "Test the eight candidates. One by one, they fail. Only one is left."
+    },
+    {
+      "id": "S81",
+      "start": 560.973,
+      "speech_end": 566.883,
+      "end": 569.883,
+      "dur": 8.91,
+      "text": "The missing bits were never really gone. Their information was still there, in the bits that survived."
+    },
+    {
+      "id": "S82",
+      "start": 569.883,
+      "speech_end": 578.399,
+      "end": 579.599,
+      "dur": 9.716,
+      "text": "So here's a question for you. Have you ever noticed error correction at work in something you use every day? Let me know in the comments."
+    }
+  ]
+}
