@@ -1,0 +1,1089 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 — PALEC: velká špička palce z boku na tmavém pozadí, nehet zvýrazněný ambrově. Skrz ni šikmo zprava nahoře doleva dolů hustý svazek tenkých světlých čar (neutrina), které prstem projdou BEZ ohybu a bez zeslabení. Vpravo nahoře malým písmem ~65 BILLION / SECOND (zatím ztlumeně, plně až v S46).",
+      "note": "První obrazovka nese myšlenku: skrz tvůj nehet právě teď letí desítky miliard částic. Žádné SDXL. PÁTEŘ 1 = palec_paprsky() v _kit.py na pevných souřadnicích; vrací se v S46 a S88 (výplata: v S88 přibudou reliktní tečky). Slovní hříčka thumbnail = nehet i náhled videa. Tvar palce kreslit jednoduše (obrys + nehet); když vyjde jako hrouda, požádat uživatele o plochou ilustraci (art/). ANIMACE: čáry běží skrz prst plynule, prst se nehne.",
+      "anim": "animace"
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "Oddálení: obrys stojící postavy na oblouku povrchu Země, pod ní řez Zemí (kůra, plášť, jádro). Tytéž světlé čáry procházejí postavou i celou Zemí a vycházejí na druhé straně.",
+      "note": "Čáry stejného stylu a směru jako v S01, ať je jasné, že jde o tytéž částice. ANIMACE: čáry běží skrz postavu i Zemi bez ohybu.",
+      "anim": "animace"
+    },
+    {
+      "id": "S03",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S03.png",
+      "diagram_generator": "uvod",
+      "diagram": "Postava zepředu (obrys), skrz ni čáry; vedle velké číslo ~100 TRILLION a pod ním EVERY SECOND.",
+      "note": "Factcheck S03: průřez těla ~0,5–1 m² × 6,5×10¹⁰/cm²/s = stovky bilionů; scénář říká ‚about a hundred trillion‘, popisek proto ~100 TRILLION, ne přesné číslo. ANIMACE: čáry běží.",
+      "anim": "animace"
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "Detail: jedna čára vstupuje do obrysu ruky a vystupuje na druhé straně se stejnou délkou kroku a jasem; nad vstupem a výstupem stejný štítek rychlosti (dvě stejné šipky). V ruce mřížka atomů, kterou čára protíná, aniž by se kterého dotkla.",
+      "note": "Kresba nesmí naznačit žádné zpomalení ani srážku: stejná délka šipek na vstupu i výstupu, assert. ‚almost none of them ever touch you‘ — jedna čára z dvaceti by mohla mít drobný záblesk? NE: ‚almost none‘ v jedné ruce za sekundu je pořád nula viditelných, záblesk by tvrdil víc. ANIMACE: čára projde.",
+      "anim": "animace",
+      "vycet": 0.3
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "Země z dálky, vlevo Slunce. Na noční straně Země malý dům s postavou v posteli. Čáry ze Slunce procházejí celou Zemí a vycházejí ZESPODU podlahou domu a postavou.",
+      "note": "Factcheck: v noci tok prakticky stejný, přichází skrz Zemi. Postava na noční straně (odvrácené od Slunce), čáry ze Slunce nesmějí obcházet Zemi. ANIMACE: čáry běží přes Zemi a vynoří se pod domem.",
+      "anim": "animace"
+    },
+    {
+      "id": "S05b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05b.png",
+      "diagram_generator": "uvod",
+      "diagram": "Postava (silueta) vlevo, z těla na všechny strany odlétají čárkované stopy antineutrin. Vpravo THOUSANDS / EVERY SECOND a FROM POTASSIUM-40.",
+      "note": "Draslík-40 v těle 3 850–4 300 Bq, β⁻ 89 % → 3 400–3 800 antineutrin/s (factcheck 2026-11-22). Symbol ν̄ (jsou to antineutrina). ANIMACE: stopy běží ven.",
+      "anim": "animace"
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed velký nápis NEUTRINOS, pod ním symbol ν. Kolem slabě světlé čáry z předchozích scén. Pod tím ztlumeně čárkovaně otazník EXIST?",
+      "note": "Čárkovaný otazník = míra jistoty ‚nobody was sure‘. Text se nehýbe, scéna statická.",
+      "pause": 0.7
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Dvě otázky pod sebou: vlevo Země s čarou skrz a ‚HOW DOES IT PASS?‘, vpravo prázdný detektor s otazníkem a ‚HOW DO WE KNOW?‘.",
+      "note": "Konec úvodního bloku, hlavní dvě otázky videa. Obě dostanou odpověď: první v S33–S37, druhá v S22–S28 a S52–S56.",
+      "pause": 2.4
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 2 poprvé, prázdná: vodorovný ÚČET (sloupec dílků) s jedním čárkovaným dílkem a otazníkem; nad ním malé SOMETHING MISSING.",
+      "note": "PÁTEŘ 2 = ucet() v _kit.py: pruh dílků na pevných souřadnicích, plný dílek = doloženo, čárkovaný = chybí. Vrací se v S12 (energie), S16 (doplní ji neutrino), S63–S64 (Davis, chybí dvě třetiny), S66 (oba účty vedle sebe), S70 a S72 (dílky se doplní jinými druhy). Výplata v S72.",
+      "pause": 0.6
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "beta",
+      "diagram": "Nahoře ztlumeně 1914 · JAMES CHADWICK. Uprostřed jádro (shluk kuliček), z něj odlétá jedna kulička e⁻ se šipkou. Popisek BETA DECAY.",
+      "note": "Chadwickův portrét až v S17, kde ho scénář jmenuje podruhé; tady jen jméno, ať první minuta nestojí na fotce. Jádro: aspoň dvě barvy (protony/neutrony) s legendou, nebo jednobarevné — barva bez významu si význam vyrobí."
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "beta",
+      "diagram": "Tři stejná jádra pod sebou, z každého elektron se STEJNĚ dlouhou šipkou energie. Vpravo graf POČET × ENERGIE se svislou čarou v jediném místě (předpověď) a popiskem EXPECTED.",
+      "note": "Předpověď = jedna čára, čárkovaně (je to očekávání, ne měření). Osy popsané. ANIMACE: elektrony odlétají se stejnou šipkou a čára se v grafu zvedá na jednom místě.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "beta",
+      "diagram": "Tentýž graf: čárkovaná čára EXPECTED zůstává, přes ni plná ambrová spojitá křivka MEASURED od nuly až k té čáře (spektrum beta rozpadu). Elektrony vlevo mají šipky různých délek.",
+      "note": "Data od prvního snímku (prázdné osy čte divák jako rozbitý graf). Tvar křivky jako skutečné beta spektrum: začíná u nuly, vrchol níž než v polovině, končí právě v místě EXPECTED (koncový bod = celková energie). ANIMACE: body padají do přihrádek, křivka roste.",
+      "anim": "animace"
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "beta",
+      "diagram": "PÁTEŘ 2: ÚČET ENERGIE — celkový pruh TOTAL ENERGY, z něj plný ambrový díl ELECTRON (AVERAGE) a zbytek čárkovaně s otazníkem MISSING.",
+      "note": "‚On average… only part‘: plný díl kolem třetiny pruhu (typicky průměr ~1/3 koncové energie), popisek AVERAGE, ne jedno číslo. ANIMACE: čárkovaný díl ztmavne.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "beta",
+      "diagram": "Kamenná deska s nápisem CONSERVATION OF ENERGY, přes ni prasklina (čárkovaná, ne celá) a malý ztlumený nápis SOME READY TO GIVE IT UP.",
+      "note": "Prasklina čárkovaně a neúplná: zákon se NEPORUŠIL, jen byl v ohrožení. Nepřeškrtávat nadpis — tvrdilo by ‚neplatí‘.",
+      "pause": 1.4
+    },
+    {
+      "id": "S14",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "note": "Portrét Wolfganga Pauliho kolem roku 1930, celá hlava s odstupem, jméno vedle (fit). DOTAZ JE NÁVRH: napřed --search, kontaktní list, pak pick. Licence ověřit (ETH-Bibliothek CC BY-SA / PD).",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Wolfgang Pauli",
+        "pick": 3,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "beta",
+      "diagram": "Jádro z S09, z něj vylétá e⁻ a druhou stranou čárkovaná světlá kulička s otazníkem; vedle tři štítky NEUTRAL · VERY LIGHT · INVISIBLE. Nahoře malá citace „DESPERATE REMEDY“ · PAULI 1930.",
+      "note": "Čárkovaně = hypotéza (1930 ještě nezachycená). VERY LIGHT, ne MASSLESS: Pauli čekal hmotnost řádu elektronu (factcheck, a výplata v S75). ANIMACE: druhá částice se odpoutá.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "beta",
+      "diagram": "PÁTEŘ 2: týž ÚČET ENERGIE; čárkovaný díl se vyplní světlou barvou neutrina (NEUTRINO). Pod ním dvě další dělení téhož pruhu s posunutou hranicí (elektron víc / neutrino víc), součet pokaždé celý pruh.",
+      "note": "assert: elektron + neutrino = TOTAL ve všech třech řádcích. ‚sometimes one way, sometimes the other‘ = posuvná hranice. ANIMACE: hranice mezi díly klouže sem a tam, délka celého pruhu se nemění.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S17",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "note": "Portrét Jamese Chadwicka (Nobel 1935, PD). ‚the same James Chadwick‘ — fotka ho spojí s S09. Fit, bez zoomu. DOTAZ JE NÁVRH: napřed --search.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "James Chadwick",
+        "pick": 1,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "pause": 0.5
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "beta",
+      "diagram": "Dva štítky vedle sebe: vlevo přeškrtnutý NEUTRON (jen čára přes slovo, text_skrtnuty) s malým PAULI 1930, vpravo ambrově NEUTRINO · FERMI s překladem „LITTLE NEUTRAL ONE“.",
+      "note": "Konec bloku 1. VÝZVA K ODBĚRU za touto scénou (~2:15, za útesem 1:10): levý dolní roh (x < 22 %, y > 75 %) musí být v S18 i na začátku S19 prázdný a nadpis krátký. Škrt jen přes JMÉNO, ne přes Pauliho částici.",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "sazka",
+      "diagram": "Obecný detektor (krabice s čidly), světlá čára jím projde a čidla zůstanou zhasnutá.",
+      "note": "Levý dolní roh prázdný (doběh výzvy z S18). ANIMACE: čára projde, čidla neblikají.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "sazka",
+      "diagram": "Dvě jmenovky PAULI a BAADE (ASTRONOMER), mezi nimi bedna šampaňského. Nahoře čárkovaný rámeček THE STORY GOES.",
+      "note": "Míra jistoty: sázka nemá primární zdroj (factcheck) → čárkovaný rámeček = historka. Žádné portréty, ať to nevypadá jako doložená scéna."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "sazka",
+      "diagram": "Časová osa 1930 → 1956, po ní běží značka let; bedna šampaňského na začátku osy. Popisek A SAFE BET?",
+      "note": "Quarter of a century = 26 let, osa začíná 1930 (návrh) a končí 1956 (zachycení), assert délky. ANIMACE: značka putuje po ose.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S22",
+      "source": "archive",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "note": "Fotka Reines a Cowan (LANL, 1950s; jako dílo vlády USA PD — ověřit). Dva lidé, fit, bez zoomu. DOTAZ JE NÁVRH.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Reines Cowan",
+        "pick": 0,
+        "grade": {
+          "fit": 0.84
+        }
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "reaktor",
+      "diagram": "Vlevo budova reaktoru SAVANNAH RIVER (uvnitř nádoba a palivové tyče, bez komína), z ní záplava světlých čar ANTINEUTRINOS (antineutrino značeno ν̄, jinak stejný styl jako neutrino, s legendou). Vpravo vedle reaktoru dvě nádrže s vodou WATER TANKS.",
+      "note": "Nádrže vedle reaktoru, ne v něm. Antineutrina potřebují legendu (‚antimatter twin‘), jinak stejná čára jako neutrino. ANIMACE: záplava čar z reaktoru skrz nádrže.",
+      "anim": "animace"
+    },
+    {
+      "id": "S24",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S24.png",
+      "diagram_generator": "reaktor",
+      "diagram": "Detail v nádrži: čára ν̄ narazí do kuličky p; z místa nárazu vychází n a e⁺ s šipkou.",
+      "note": "Inverzní beta rozpad: ν̄ + p → n + e⁺. Šipka e⁺ ‚flies off‘. Kresba nesmí ukázat, že ν̄ zůstane. ANIMACE: náraz a rozlet.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "reaktor",
+      "diagram": "e⁺ zmizí v záblesku, z něj dvě opačné šipky γ, γ. Dole časová osa a na ní první záblesk FLASH 1.",
+      "note": "Anihilace pozitronu s elektronem: DVA gama fotony OPAČNÝM směrem. Časová osa je táž v S25–S27 (reaktor_osa() v _kit.py). ANIMACE: záblesk.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "reaktor",
+      "diagram": "Neutron putuje kousek a pohltí ho jádro Cd; druhý záblesk. Na téže časové ose druhá značka FLASH 2, mezi nimi kóta A FEW MILLIONTHS OF A SECOND.",
+      "note": "Zpoždění řádově mikrosekundy (factcheck). Kóta slovně jako ve scénáři, ne konkrétní číslo. ANIMACE: neutron dojde k Cd, záblesk.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "reaktor",
+      "diagram": "Jen časová osa: FLASH · pause · FLASH ambrově; pod ní ztlumené náhodné šumové záblesky jednotlivě, nikdy ve dvojici se stejnou mezerou.",
+      "note": "‚Almost nothing else makes that pattern‘: šum smí mít záblesky, ale žádnou dvojici se stejnou mezerou (assert). ANIMACE: dvojice záblesků se opakuje.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "sazka",
+      "diagram": "Telegrafní blanket: TELEGRAM · 14 JUNE 1956 · TO W. PAULI, text vysázený jako parafráze WE HAVE DETECTED NEUTRINOS (malými kapitálkami, ne doslovná citace).",
+      "note": "Telegram vysázet kódem, ne faksimile (licence). Text nesmí předstírat doslovné znění: buď doslovná citace podle factchecku, nebo zřetelně jen hlavička + stručné sdělení. Rozhodnout podle factcheck.md.",
+      "pause": 0.8
+    },
+    {
+      "id": "S29",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S29.png",
+      "diagram_generator": "sazka",
+      "diagram": "Citace v uvozovkách uprostřed: “EVERYTHING COMES TO HIM WHO KNOWS HOW TO WAIT.” a pod ní — W. PAULI.",
+      "note": "Citace doslova jako ve scénáři. Klidná deska.",
+      "pause": 1.0
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "sazka",
+      "diagram": "Šipka od PAULI zpět k REINES & COWAN končí čárkovaně v půli cesty, bez hrotu.",
+      "note": "Odpověď nedorazila: šipka nesmí dojít k adresátům. ‚Reines only learned of it many years later‘ — malý ztlumený popisek LEARNED YEARS LATER u Reinese.",
+      "pause": 1.0
+    },
+    {
+      "id": "S31",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S31.png",
+      "diagram_generator": "sazka",
+      "diagram": "Bedna šampaňského otevřená; vlevo skupinka THEORISTS se sklenkami, vpravo REINES & COWAN bez sklenek. Čárkovaný rámeček ACCORDING TO THE STORY.",
+      "note": "Konec historického bloku. Táž bedna jako v S20 (bedna() v _kit.py). Čárkovaný rámeček = historka, stejně jako v S20.",
+      "pause": 2.6
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "proc",
+      "diagram": "Velký symbol ν uprostřed, kolem otazník; pod tím WHY DOES IT PASS THROUGH EVERYTHING?",
+      "note": "Předěl, klidná deska.",
+      "pause": 1.2
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "proc",
+      "diagram": "Dvojice: vlevo e⁻ s nábojem −, siločáry kolem něj; vpravo ν bez náboje (0), siločáry jím procházejí bez ohybu. Pod tím ELECTRIC FORCE a u neutrina přeškrtnutá ikonka.",
+      "note": "PÁTEŘ 3 začíná: čtyři síly jako čtyři políčka (sily() v _kit.py) — ELECTRIC, STRONG, GRAVITY, WEAK; v S33–S35 se postupně zhasínají. ANIMACE: elektron se v poli stáčí, neutrino letí rovně.",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "proc",
+      "diagram": "PÁTEŘ 3: políčko STRONG (ikonka jádra drženého pohromadě) zhasne; ELECTRIC už zhasnuté.",
+      "note": "Zhasnuté = neúčinkuje na neutrino, ne ‚neexistuje‘. Popisek ‚holds atomic nuclei together‘ u políčka.",
+      "pause": 0.6
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "proc",
+      "diagram": "PÁTEŘ 3: zbylá dvě políčka; GRAVITY svítí jen nepatrně (HOPELESSLY WEAK), WEAK ambrově.",
+      "note": "Gravitace NEzhasnutá (působí), jen slabá. Ambrová = o tomhle je řeč (slabá síla).",
+      "pause": 0.8
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "proc",
+      "diagram": "Atom jako malé jádro a velký prázdný obal; čára neutrina proletí mezerou. Celý obrázek v čárkovaném rámečku s popiskem NOT THE REASON a vedle ztlumené čáry jiných částic (světlo, elektron), které by mezerou prošly taky — EVERYTHING WOULD SLIP THROUGH.",
+      "note": "Pozor na míru: nepřeškrtávat atom (atomy JSOU z velké části prázdné), škrtá se VYSVĚTLENÍ. Rámeček čárkovaně + NOT THE REASON.",
+      "pause": 0.5
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "proc",
+      "diagram": "Detail jádra: čára ν jde PŘÍMO skrz jádro a vyjde nezměněná. Vedle CHANCE OF ANYTHING HAPPENING ≈ 0.",
+      "note": "Opak S36: čára vede středem jádra, ne mezerou. ANIMACE: průlet jádrem.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "proc",
+      "diagram": "Slunce vlevo, Země vpravo v řezu; jedna čára ze Slunce míří do středu Země.",
+      "note": "Totéž rozvržení Země jako v S39 (zeme_rez() v _kit.py).",
+      "pause": 0.6
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "proc",
+      "diagram": "Čára prochází Zemí středem, kóta průměru ~12,700 KM · ROCK AND IRON. Vpravo počítadlo HITS: < 1 IN 1,000,000,000.",
+      "note": "Průměr Země 12 742 km → ‚almost thirteen thousand‘; kóta ~12,700 KM (nesmí být 13,000 bez ~). Factcheck: méně než jedno z miliardy. ANIMACE: čára prochází, počítadlo se nepohne.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "olovo",
+      "diagram": "Šedá stěna LEAD; nad ní postupně štítky 1 METRE (přeškrtnutý), 1 KILOMETRE (přeškrtnutý), 1 LIGHT-YEAR (ambrově). Stěna roste do tloušťky za okraj obrazu.",
+      "note": "Škrt jen přes štítky (text_skrtnuty), ne přes stěnu. ANIMACE: stěna se postupně rozšíří, štítky naskakují podle slov (words.json).",
+      "anim": "animace",
+      "vycet": 0.3,
+      "pause": 0.8
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "olovo",
+      "diagram": "Stěna z S40 dlouhá přes obraz, kóta ~9,500,000,000,000 KM a pod ní SOLID LEAD.",
+      "note": "1 ly = 9,46×10¹² km → ‚nearly ten trillion‘; číslo ~9.5 TRILLION KM nebo celé cifry, ne 10.",
+      "pause": 0.6
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "olovo",
+      "diagram": "Slunce vlevo, stěna uprostřed, zprava vychází VĚTŠINA čar (zhruba 6 ze 7), jedna až dvě skončí uvnitř stěny tečkou. Popisek MOST COME OUT.",
+      "note": "Factcheck: světelným rokem olova projde ~86 % pp neutrin → assert podílu prošlých čar mezi 80 a 90 %. Kresba nesmí tvrdit ‚všechny‘. ANIMACE: průlet stěnou.",
+      "anim": "animace",
+      "pause": 2.2
+    },
+    {
+      "id": "S43",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S43.png",
+      "prompt": "the Sun low above a dark rolling landscape at night-blue twilight, countless faint pale streaks of light radiating from the Sun across the whole sky and passing through the ground, quiet and vast, wide composition, no text",
+      "note": "Atmosférický předěl do slunečního bloku, jediné SDXL v první polovině. Teplé světlo u Slunce je tu v pořádku.",
+      "pause": 0.6
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "slunce",
+      "diagram": "PÁTEŘ 4 — SLUNCE V ŘEZU (jadro, zářivá a konvektivní zóna, pevné souřadnice). Vedle rovnice obrazem: 4 × H → He + 2 ν (čtyři kuličky, jedna větší, dvě světlé čáry ven).",
+      "note": "PÁTEŘ 4 = slunce_rez() v _kit.py, vrací se v S45–S49. assert: 4 vstupy, 2 neutrina. Pozitrony a fotony se nekreslí (scénář je nejmenuje), ale nic se nesmí kreslit, co by tvrdilo, že vznikají jen neutrina — ztlumený popisek + ENERGY. ANIMACE: čtyři jádra splynou, vyletí dvě neutrina.",
+      "anim": "animace",
+      "pause": 0.8
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "slunce",
+      "diagram": "PÁTEŘ 4 zmenšená vlevo, z ní všemi směry čáry. Vpravo číslo vypsané ciframi 180,000,000,000,000,000,000,000,000,000,000,000,000 a pod ním PER SECOND.",
+      "note": "1,8×10³⁸/s (factcheck; ‚a hundred and eighty trillion trillion trillion‘ = 180×10³⁶). assert: 39 číslic. ANIMACE: číslice naskakují po skupinách.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S45b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45b.png",
+      "diagram_generator": "slunce",
+      "diagram": "Vlevo Slunce, z něj husté krátké paprsky světla (SUN) a mezi nimi několik dlouhých čárkovaných stop neutrin. Vpravo FOR EVERY NEUTRINO / ~10,000,000 / PARTICLES OF LIGHT.",
+      "note": "Poměr fotonů a neutrin ze Slunce 9,9·10⁶ (factcheck). Hustota paprsků je ilustrace, číslo nese text.",
+      "pause": 1.0
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 přesně jako v S01; na nehtu rámeček 1 CM², u něj plně ambrově 65 BILLION / SECOND (štítek, který byl v S01 ztlumený).",
+      "note": "Výplata háčku: týž palec na týchž souřadnicích jako S01 (palec_paprsky()). 6,4–6,5×10¹⁰ /cm²/s. Nehet ≈ 1 cm² (nehet dospělého palce ~1,5×1,5 cm, takže ‚from the start‘ sedí). ANIMACE: tytéž čáry.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "slunce",
+      "diagram": "PÁTEŘ 4: z jádra ambrová klikatá cesta fotonu (náhodná procházka) ven k povrchu, popisek LIGHT: TENS OF THOUSANDS OF YEARS.",
+      "note": "Náhodná procházka, ne spirála. Factcheck: řádově 10⁴–10⁵ let, popisek drží znění scénáře. ANIMACE: klikatá čára se pomalu kreslí.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "slunce",
+      "diagram": "PÁTEŘ 4: přes klikatou cestu rovná světlá čára neutrina z jádra ven ~2 S; za Sluncem pokračuje k malé Zemi vpravo a kóta 8 MIN.",
+      "note": "Klikatá cesta z S47 zůstává ztlumeně, ať je srovnání v jednom obraze. ANIMACE: neutrino vyletí rovně, za 2 s je venku.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "slunce",
+      "diagram": "Dvě časové osy pod sebou do NOW: SUNLIGHT začíná daleko vlevo, před značkou PYRAMIDS (~4,500 YEARS AGO); NEUTRINO začíná 8 MINUTES AGO těsně u NOW.",
+      "note": "assert: začátek světla > 10 000 let (‚tens of thousands‘) a značka pyramid ~4 500 let leží mezi ním a NOW. Osa může být lomená (zlom = čárkovaně), jinak se 8 min nedá ukázat; zlom označit.",
+      "pause": 2.4
+    },
+    {
+      "id": "S50",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S50.png",
+      "diagram_generator": "detektor",
+      "diagram": "Stěna olova z S40 vlevo, čára jí projde, vpravo prázdný rámeček s otazníkem HOW TO CATCH IT?",
+      "note": "Callback stěny (stena() v _kit.py).",
+      "pause": 1.0
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "detektor",
+      "diagram": "Dvě slova pod sebou: ENORMOUS TARGET (s obrovskou nádrží) a WAIT (s hodinami).",
+      "note": "Klidná deska.",
+      "pause": 1.0
+    },
+    {
+      "id": "S52",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S52.png",
+      "note": "Fotka vnitřku Super-Kamiokande (stěny fotonásobičů). LICENCE: oficiální fotky jsou © Kamioka Observatory, ICRR — na Commons hledat volnou; když žádná není, náhrada kresbou: řez horou, nádrž 1 KM UNDERGROUND, 50,000 TONNES. DOTAZ JE NÁVRH.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Super-Kamiokande",
+        "pick": 0
+      },
+      "pause": 0.8
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "detektor",
+      "diagram": "Řez válcovou nádrží, stěny pokryté mřížkou kroužků (fotonásobiče), popisek > 11,000 LIGHT SENSORS a u jednoho kroužku kóta 50 CM.",
+      "note": "Tvar nádrže válec (~39 m × 42 m), ne koule. Mřížka je ilustrační, nekreslit 11 000 kroužků; popisek nese číslo.",
+      "pause": 0.8
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "detektor",
+      "diagram": "V nádrži: světlá čára ν, náraz do e⁻, elektron letí dál a za ním kužel modrého světla, který na stěně nádrže vykreslí prsten rozsvícených kroužků. Popisek FASTER THAN LIGHT IN WATER.",
+      "note": "Čerenkovův kužel ve směru letu elektronu, prsten na stěně vpředu. ‚faster than light travels through water‘ — popisek nesmí znít jako ‚faster than light‘ bez ‚in water‘. ANIMACE: náraz, kužel, prsten se rozsvítí.",
+      "anim": "animace",
+      "pause": 1.0
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "detektor",
+      "diagram": "Nádrž zboku, skrz ni hustý proud čar; vpravo 100,000,000,000,000,000,000,000 PER DAY.",
+      "note": "10⁵ × 10¹⁸ = 10²³ (factcheck), assert 24 číslic. ANIMACE: proud čar.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "detektor",
+      "diagram": "Tatáž nádrž a proud, ale uvnitř se rozsvítí jen několik prstenů; vpravo místo velkého čísla ambrově ~15 PER DAY.",
+      "note": "Krátká samostatná promluva → naveti (zní jako text, nikdy se neozve). ANIMACE: prsteny naskakují po jednom (patnáct za ‚den‘ zkráceně, assert 15).",
+      "anim": "animace",
+      "naveti": "That is an almost unimaginable number.",
+      "pause": 2.2
+    },
+    {
+      "id": "S57",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S57.png",
+      "prompt": "a huge cylindrical steel tank lying horizontally in a dark cavern deep underground, the tank dominates the frame, curved riveted metal catching a single warm lamp, rough rock walls around it, strange and isolated, no people, no text",
+      "note": "Předěl do bloku Davis, atmosféra ‚a much stranger tank‘. Konkrétní nádrž až v S58 (archiv). Když model nakreslí něco jiného, rozhoduje funkce (podivná nádrž v hlubině), ne shoda s promptem. Kolo 1 (seed z ID) dalo jeskyni bez nádrže; kolo 2 s nádrží na začátku promptu, vybrán seed 33 ze tří (11 pásové vozidlo, 22 světlé pozadí).",
+      "pause": 0.6,
+      "seed": 33
+    },
+    {
+      "id": "S58",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S58.png",
+      "note": "Fotka Davisovy nádrže v dole Homestake (BNL / DOE, pravděpodobně PD). DOTAZ JE NÁVRH: napřed --search, kontaktní list.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Homestake neutrino detector",
+        "pick": 0
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "davis",
+      "diagram": "Ležatá nádrž v řezu, plná kapaliny; popisek 380,000 LITRES a pod ním DRY-CLEANING FLUID (C₂Cl₄).",
+      "note": "PÁTEŘ 5 = davis_nadrz() v _kit.py, S59–S62 na týchž souřadnicích. 100 000 galonů = 378 541 l → ‚three hundred and eighty thousand‘.",
+      "pause": 0.8
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "davis",
+      "diagram": "Detail v nádrži: mnoho šedých kuliček Cl; čára ν ze Slunce zasáhne jednu a ta se změní na ambrovou Ar.",
+      "note": "Jen JEDEN atom se změní (‚every so often… one chlorine atom‘). ANIMACE: zásah a změna barvy.",
+      "anim": "animace",
+      "pause": 0.8
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "davis",
+      "diagram": "PÁTEŘ 5: z nádrže trubkou ven do malé baňky; v baňce několik jednotlivých ambrových teček ATOMS, vedle přeškrtnuté GRAMS. Nahoře EVERY COUPLE OF MONTHS.",
+      "note": "Škrt přes slovo GRAMS (text_skrtnuty), ne přes baňku. ANIMACE: tečky probublají trubkou do baňky.",
+      "anim": "animace",
+      "vycet": 0.3,
+      "pause": 1.0
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "davis",
+      "diagram": "Kalendář po dnech; každý druhý den jedna ambrová tečka. Popisek ~1 ATOM / 2 DAYS.",
+      "note": "assert: tečky přesně v každém druhém dni. ANIMACE: dny ubíhají, tečky přibývají.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "davis",
+      "diagram": "PÁTEŘ 2: ÚČET SLUNEČNÍCH NEUTRIN — tři stejné dílky PREDICTED (čárkovaný obrys) a pod nimi jeden plný ambrový MEASURED.",
+      "note": "Týž ucet() jako energie v S12. assert: predicted = 3 × measured. ANIMACE: dílky predicted se objeví, measured doroste jen na jeden.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "davis",
+      "diagram": "PÁTEŘ 2: tentýž účet, dva chybějící dílky ztmavnou s otazníkem — 2/3 MISSING.",
+      "note": "Výslovná rýma s S12: tentýž tvar ‚chybí‘.",
+      "pause": 1.4
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "davis",
+      "diagram": "Váhy s miskami THE EXPERIMENT a OUR MODEL OF THE SUN, obě s otazníkem; pod tím časová osa 1968 → 2001 s nápisem 30+ YEARS.",
+      "note": "Váhy v rovnováze (nikdo nevěděl), nenaklánět. Konec Davisova bloku. Pozor: osa nesmí tvrdit rok, který scénář neříká — ‚for more than thirty years‘; počátek prvních výsledků 1968, rozřešení SNO 2001/2002, ověřit ve factchecku a jinak osu jen bez let.",
+      "pause": 2.4
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "davis",
+      "diagram": "PÁTEŘ 2 dvakrát vedle sebe: vlevo zmenšený účet energie z S12 s vyplněným neutrinem (1930 · SOLVED), vpravo účet z S64 s otazníky (1960s · ?).",
+      "note": "‚the second time something had gone missing‘ — oba účty tímtéž tvarem.",
+      "pause": 1.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "oscilace",
+      "diagram": "Tři kuličky v řadě, každá vlastní barvou s popiskem: ELECTRON ν, MUON ν, TAU ν. Nad nimi THREE FLAVOURS.",
+      "note": "Barvy druhů (ne ambrová — ta zůstává ‚o tomhle je řeč‘): elektronové = světlá barva neutrina z celého videa (protože Slunce dělá jen tyhle), mionové a tauonové dvě nové, s legendou vždy viditelnou od S67 do S72. ANIMACE: kuličky naskakují podle slov.",
+      "anim": "animace",
+      "vycet": 0.3,
+      "pause": 0.6
+    },
+    {
+      "id": "S67b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67b.png",
+      "diagram_generator": "oscilace",
+      "diagram": "Tytéž tři kuličky druhů (EACH HAS A PARTNER), pod každou šipka k nabitému partnerovi e⁻ / μ⁻ / τ⁻ s popisky ELECTRON (LIGHTEST), MUON (207 × HEAVIER), TAU (3,477 × HEAVIER).",
+      "note": "Přání uživatele 2026-11-22: říct, čím se druhy liší. Druh = s kterým nabitým leptonem se neutrino páruje ve slabé interakci; při nabitém proudu z něj vznikne ten lepton. Hmotnosti PDG, assert. ‚can turn into‘ — při neutrálním proudu druh neprozradí. ANIMACE: partneři se rozsvítí na ‚electron‘.",
+      "anim": "animace",
+      "pause": 0.8
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "oscilace",
+      "diagram": "Vlevo Slunce, z něj jen čáry barvy ELECTRON; vpravo Davisova nádrž (davis_nadrz zmenšená) s okénkem, které propouští jen tu barvu (SEES: ELECTRON ν ONLY).",
+      "note": "Slunce = jen elektronová neutrina (assert v generátoru: jediná barva).",
+      "pause": 0.7
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "oscilace",
+      "diagram": "Jedna dlouhá čára ze Slunce k Zemi, barva se po délce plynule a opakovaně mění mezi třemi barvami druhů.",
+      "note": "Oscilace: změna periodická (‚back and forth‘), ne jednosměrná. ANIMACE: tečka letí a mění barvu.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S70",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S70.png",
+      "diagram_generator": "oscilace",
+      "diagram": "U nádrže dorazí čáry tří barev; nádrž zachytí jen elektronové, ostatní projdou. Vpravo PÁTEŘ 2: dva čárkované dílky účtu se zbarví mionovou a tauonovou barvou, ale zůstávají čárkované (UNSEEN).",
+      "note": "Podíl druhů u Země není přesně třetina každé; účet ukazuje ‚měřeno 1/3, zbytek jiné druhy‘ v souladu se S63 (měřeno 1/3 předpovědi). Nepsat poměry druhů. ANIMACE: čáry dorazí, jen jedna barva se zachytí.",
+      "anim": "animace",
+      "pause": 1.4
+    },
+    {
+      "id": "S71",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S71.png",
+      "note": "Na Commons není volná fotka detektoru SNO (hledáno 2026-11-20: 'Sudbury Neutrino Observatory', 'SNO neutrino detector', 'Sudbury neutrino detector' — jen SNOLAB a nesouvisející). Proto kresba. Legenda druhů zůstává.",
+      "pause": 1.0,
+      "diagram_generator": "oscilace",
+      "diagram": "SNO kresbou: akrylová koule v řezu s prstencem fotonásobičů, uvnitř těžká voda; čáry všech tří barev druhů vcházejí a všechny tři se zachytí. Popisek SNO · CANADA · SEES EVERY FLAVOUR."
+    },
+    {
+      "id": "S72",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S72.png",
+      "diagram_generator": "oscilace",
+      "diagram": "PÁTEŘ 2 — VÝPLATA: tentýž účet, všechny tři dílky plné (jeden elektronový, dva v barvách druhů), součet = PREDICTED. Nápis NONE MISSING.",
+      "note": "Pointa videa. assert: součet dílků = předpověď. Krátká promluva → naveti.",
+      "naveti": "Every flavour was counted at once.",
+      "pause": 2.6
+    },
+    {
+      "id": "S73",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S73.png",
+      "diagram_generator": "oscilace",
+      "diagram": "Rovnice obrazem: SWITCHING → MASS (šipka). Pod tím malá oscilující čára z S69.",
+      "note": "Šipka = ‚can only switch if it has mass‘ (nutná podmínka). Factcheck: přesně jde o rozdílné hmotnosti; scénář drží zjednodušení, popisek nesmí tvrdit víc.",
+      "pause": 0.6
+    },
+    {
+      "id": "S74",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S74.png",
+      "diagram_generator": "oscilace",
+      "diagram": "Štítek m = 0 přeškrtnutý (text_skrtnuty), vedle ambrově m > 0. Pod tím NOBEL PRIZE 2015 · KAJITA · McDONALD.",
+      "note": "Jména laureátů navíc v obraze, ne ve voiceoveru — ověřena (factcheck). ‚the simplest theory had treated neutrinos as massless‘ → popisek THEORY u m = 0.",
+      "pause": 1.4
+    },
+    {
+      "id": "S75",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S75.png",
+      "diagram_generator": "hmotnost",
+      "diagram": "Logaritmická stupnice hmotnosti; vpravo značka ELECTRON (511 keV), u ní čárkovaně PAULI'S GUESS (1930).",
+      "note": "PÁTEŘ 6 = stupnice_hmotnosti() v _kit.py, S75–S76. Čárkovaně = odhad. Stupnice popsaná řády.",
+      "pause": 0.6
+    },
+    {
+      "id": "S76",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S76.png",
+      "diagram_generator": "hmotnost",
+      "diagram": "Táž stupnice; daleko vlevo pásmo NEUTRINO s horní mezí < 0.45 eV a čárkovaným neznámým koncem, mezi pásmem a elektronem kóta > 1,000,000 ×.",
+      "note": "511 000 / 0,45 = 1,14×10⁶ → ‚at least a million times lighter‘, assert. Pásmo bez dolní hranice (čárkovaně) = ‚still don't know exactly‘. VÝZVA K ODBĚRU č. 2 za touto scénou (~9:00, za pointou mezi dvěma myšlenkami): levý dolní roh S76 i začátku S77 prázdný.",
+      "anim": "animace",
+      "pause": 2.4,
+      "vyzva": true
+    },
+    {
+      "id": "S77",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S77.png",
+      "diagram_generator": "supernova",
+      "diagram": "Ztlumené USELESS? přeškrtnuté jen čárou (text_skrtnuty), pod ním symbol ν.",
+      "note": "Levý dolní roh prázdný (doběh výzvy).",
+      "pause": 1.4
+    },
+    {
+      "id": "S78",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S78.png",
+      "note": "Snímek SN 1987A (Hubble, NASA/ESA; PD nebo CC BY 4.0 — ověřit). Popisek scény 23 FEB 1987 · LARGE MAGELLANIC CLOUD přes grade nedávat, scénář říká ‚neighbouring galaxy‘. DOTAZ JE NÁVRH.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "SN 1987A Hubble",
+        "pick": 5
+      },
+      "pause": 0.6
+    },
+    {
+      "id": "S79",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79.png",
+      "diagram_generator": "supernova",
+      "diagram": "Hvězda v řezu: z hroutícího se jádra vylétají světlé čáry neutrin ven skrz obal; uvnitř obalu ambrové klikaté krátké cesty světla, které obal neopustí. Popisek ~99 % OF THE ENERGY → NEUTRINOS.",
+      "note": "‚Almost all the energy‘ ≈ 99 % (factcheck). Světlo uvnitř = ‚still trapped‘; NESMÍ to vypadat, že je neutrino rychlejší než světlo — jen dřív venku (zpětná vazba 0.1 bod 2). ANIMACE: neutrina vyletí, světlo zůstává uvnitř. Callback na 127 (S24–S25).",
+      "anim": "animace",
+      "pause": 0.5
+    },
+    {
+      "id": "S79b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S79b.png",
+      "diagram_generator": "supernova",
+      "diagram": "Hvězda v řezu jako v S79: kolem jádra čárkovaná ambrová rázová vlna (SHOCK STALLS), dvě z šestnácti stop neutrin končí těsně za ní ambrovým bodem (ABSORBED → HEAT), pak se vlna rozjede ven (STAR BLOWN APART). Dole LEADING MODEL.",
+      "note": "Zpožděný neutrinový ohřev (Janka 2012, Müller 2017) — vedoucí model, ne uzavřený; proto LEADING MODEL a ve voiceoveru ‚physicists think‘. 2/16 = ‚small share‘. ANIMACE: vlna stojí, neutrina se pohltí, vlna se rozjede.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S80",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S80.png",
+      "diagram_generator": "supernova",
+      "diagram": "Vlevo malá hvězda, dlouhá čárkovaná dráha 168,000 YEARS, vpravo Země se třemi štítky KAMIOKANDE (JAPAN), IMB (USA), BAKSAN (USSR) a celkem 25 NEUTRINOS.",
+      "note": "NEUVÁDĚT počty po detektorech (11/8/5 dává 24, konflikt se ‚25‘). Jen celkem 25 jako ve scénáři. ANIMACE: čáry doletí, štítky se rozsvítí.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S81",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81.png",
+      "diagram_generator": "supernova",
+      "diagram": "Časová osa: krátký ambrový úsek 13 S (neutrina), za ním mezera 2–3 HOURS a pak značka LIGHT.",
+      "note": "Osa lomená, aby se 13 s a hodiny vešly; zlom označit čárkovaně. ANIMACE: úsek neutrin naskočí, pak po čase světlo.",
+      "anim": "animace",
+      "pause": 1.2
+    },
+    {
+      "id": "S81b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S81b.png",
+      "diagram_generator": "supernova",
+      "diagram": "Země v řezu (vrstvy), z nitra na všechny strany čárkované stopy antineutrin. Vpravo sloupec tepla Země: polovina ambrově RADIOACTIVITY ~20 TW, zbytek čárkovaně OTHER, celkem 44 TW; pod tím KAMLAND · BOREXINO.",
+      "note": "Geoneutrina: U+Th 20 (±9) TW z 44,2 TW (Nature Geoscience 2011). ANIMACE: stopy běží ven.",
+      "anim": "animace",
+      "pause": 2.4
+    },
+    {
+      "id": "S82",
+      "source": "svg",
+      "effect": "slow_zoom_out",
+      "visual": "images/S82.png",
+      "diagram_generator": "relikty",
+      "diagram": "Prázdný tmavý prostor plný rovnoměrného slabého oparu drobných teček (kresba ChatGPT, art/S82.png), bez textu.",
+      "note": "Předěl do posledního bloku (nejstarší neutrina), atmosféra bez tvrzení. Původně sdxl: potřikrát krajina s měsícem (kolo 1 + seedy 11/22/33), proto kresba z ChatGPT (2026-11-20, art/PUVOD.md). Pohyb kamery ponechán, obraz nemá text.",
+      "pause": 0.8
+    },
+    {
+      "id": "S83",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83.png",
+      "diagram_generator": "relikty",
+      "diagram": "Časová osa od BIG BANG; v 1 SECOND se hustá směs částic rozředí a světlé čáry neutrin se z ní vydají rovně dál (FREE SINCE THEN).",
+      "note": "~1 s po Velkém třesku oddělení neutrin (factcheck). ANIMACE: směs se rozpíná, neutrina se uvolní.",
+      "anim": "animace",
+      "pause": 0.8
+    },
+    {
+      "id": "S83b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S83b.png",
+      "diagram_generator": "relikty",
+      "diagram": "Vlevo 16 kuliček: 2 n a 14 p (1 : 7), nad tím WHEN NEUTRINOS BROKE FREE. Šipka. Vpravo jedno jádro helia (2 p + 2 n, ambrově) a 12 samostatných p; popisek HELIUM ≈ 1/4 OF THE MASS.",
+      "note": "n/p ≈ 1/7 při nukleosyntéze → Yp = 2(n/p)/(1+n/p) = 0,25 (factcheck). assert: 4/16 = 1/4 a 2/14 = 1/7. ANIMACE: helium se složí na ‚helium‘.",
+      "anim": "animace"
+    },
+    {
+      "id": "S84",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S84.png",
+      "diagram_generator": "relikty",
+      "diagram": "PÁTEŘ 7 — KOSTKA 1 CM³ (průhledná krychle, pevné souřadnice), uvnitř 336 drobných tlumených teček. Popisek 336 PER CM³.",
+      "note": "kostka() v _kit.py, S84–S86 a S89. assert: přesně 336 teček. ‚According to our best calculations‘ → popisek bez ‚measured‘. ANIMACE: tečky se objevují.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S85",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S85.png",
+      "diagram_generator": "relikty",
+      "diagram": "PÁTEŘ 7: tatáž kostka, reliktní tečky ztlumené, a dvě výrazné světlé tečky FROM THE SUN · ≈ 2.",
+      "note": "Hustota slunečních = tok / c = 6,5×10¹⁰ / 3×10¹⁰ ≈ 2,2 cm⁻³ (spočítat v generátoru, assert). Dvě tečky.",
+      "pause": 0.6
+    },
+    {
+      "id": "S86",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S86.png",
+      "diagram_generator": "relikty",
+      "diagram": "PÁTEŘ 7: tatáž kostka, vedle poměr ≈ 150 : 1 (FIRST SECOND : SUN).",
+      "note": "336 / 2,2 ≈ 153 → ‚a hundred and fifty to one‘; assert 140–170. Pozor: 336/2 = 168 — proto popisek ≈ 150 se odvozuje z 2,2, ne z nakreslených dvou teček.",
+      "pause": 1.2
+    },
+    {
+      "id": "S87",
+      "source": "archive",
+      "effect": "slow_zoom_out",
+      "visual": "images/S87.png",
+      "note": "Mapa reliktního záření z Plancku (ESA and the Planck Collaboration, CC BY-SA 3.0 IGO) = ‚the oldest light in the universe‘. Atribuce povinná. DOTAZ JE NÁVRH.",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Planck CMB",
+        "pick": 1
+      }
+    },
+    {
+      "id": "S87b",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87b.png",
+      "diagram_generator": "relikty",
+      "diagram": "Logaritmická osa NEUTRINOS PER CUBIC CENTIMETRE (10⁻¹⁰ … 10³): jasně pásmo ALL STARS SINCE (~10⁻⁸), ztlumeně bod FIRST SECOND (336).",
+      "note": "Hvězdná neutrina 5·10⁻⁹ až 1,4·10⁻⁸ cm⁻³ (EBL + DSNB, factcheck). Data od prvního snímku, reliktní jen ztlumená. Týž obraz jako S87c (beat)."
+    },
+    {
+      "id": "S87c",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87c.png",
+      "diagram_generator": "relikty",
+      "diagram": "Táž osa jako S87b, bod FIRST SECOND 336 rozsvícený, mezi ním a hvězdami ambrová závorka ~10¹⁰ × (TENS OF BILLIONS).",
+      "note": "Poměr 2–7·10¹⁰ (factcheck), assert v generátoru. ANIMACE: závorka naskočí.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S87d",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87d.png",
+      "diagram_generator": "relikty",
+      "diagram": "Krychle prostoru se zvětšuje, uvnitř stále týž počet teček (řídnou). Vpravo SAME NUMBER, MORE SPACE a ≈ 2 KELVIN.",
+      "note": "T_ν = 1,945 K (factcheck). assert: počet teček konstantní. ANIMACE: krychle roste, tečky řídnou.",
+      "anim": "animace"
+    },
+    {
+      "id": "S87e",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S87e.png",
+      "diagram_generator": "relikty",
+      "diagram": "Vlevo kosmická síť (uzly a vlákna galaxií), přes ni rovnoměrný opar teček neutrin. Vpravo GALAXIES CLUMP / NEUTRINOS STAY SPREAD OUT / → WEB SLIGHTLY SMOOTHER / HOW MUCH = HOW HEAVY.",
+      "note": "Volné proudění potlačuje růst struktur (DESI 2025); dosud jen horní mez hmotnosti → ‚trying to weigh‘.",
+      "pause": 2.4
+    },
+    {
+      "id": "S88",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S88.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 přesně jako v S01 a S46, štítek 65 BILLION / SECOND.",
+      "note": "Návrat háčku, týž obraz (palec_paprsky()). ANIMACE: tytéž čáry.",
+      "anim": "animace",
+      "pause": 0.6
+    },
+    {
+      "id": "S89",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S89.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1, ale celé pozadí kolem palce vyplní drobné tlumené tečky (reliktní neutrina), které pomalu driftují všemi směry, zatímco sluneční čáry běží dál.",
+      "note": "Výplata páteře: k obrazu z S01 přibude to, o čem divák na začátku nevěděl. Tečky tímtéž stylem jako v kostce S84. ANIMACE: drift teček.",
+      "anim": "animace",
+      "pause": 1.6
+    },
+    {
+      "id": "S90",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S90.png",
+      "diagram_generator": "zaver",
+      "diagram": "Ve SPODNÍ polovině tři dlaždice vedle sebe: THE SUN'S CORE (PÁTEŘ 4 zmenšená), AN EXPLODING STAR (z S79), THE FIRST SECOND (kostka z S84). Horní polovina prázdná.",
+      "note": "Okno závěrečné obrazovky (posledních 20 s) začíná během této scény → HORNÍ polovina musí být volná. Statická, bez animace (zaver_check vidí jen PNG).",
+      "pause": 2.6
+    },
+    {
+      "id": "S91",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S91.png",
+      "diagram_generator": "zaver",
+      "diagram": "Klidná deska: ve spodní polovině otázka DID IT SURPRISE YOU? a pod ní HOW MANY ARE PASSING THROUGH YOU RIGHT NOW; horní polovina prázdná pro dlaždici dalšího videa a kolečko odběru.",
+      "note": "Otázka do komentářů (docs/cta.md), znění zvolil uživatel 2026-11-22. Statická, horní polovina volná.",
+      "pause": 2.0
+    }
+  ]
+}

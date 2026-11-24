@@ -1,0 +1,641 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "RÁMEC (páteř 1) vlevo plný teček: ambrové = MATTER, prázdná kolečka = ANTIMATTER, stejně mnoho. Vpravo dva skoro stejně dlouhé pruhy MATTER / ANTIMATTER a nápis ALMOST EXACTLY EQUAL.",
+   "note": "První obrazovka nese myšlenku: hmota a antihmota skoro napůl. Žádné SDXL. PÁTEŘ 1 = ramec() v _kit.py: čtverec 880×880 vlevo (x 330–1210, y 190–1070) = vesmír / krabice. Vrací se v S01–S06, S11, S15, S17–S21, S24, S32, S36, S43, S60, S62. Počty teček hlídá assert (stejně).",
+   "pause": 0.5
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Částice a antičástice se potkají, mezi nimi záblesk; schéma MATTER + ANTIMATTER → LIGHT.",
+   "note": "Záblesk je světlo (fotony), ne výbuch; jen dvojice, žádný zbytek."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "RÁMEC prázdný, jen slabá rozplizlá záře. Vpravo SHOULD BE: EMPTY a ztlumeně NO STARS · NO PLANETS · NO PEOPLE.",
+   "note": "Kondicionál: tak by to vypadalo, kdyby byla množství stejná. Čárkovaný rámec = hypotetický stav."
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "RÁMEC s hvězdami a galaxií. Vpravo BUT IT ISN'T a dva pruhy, ambrový o kousek delší.",
+   "note": "Rozdíl pruhů je schválně zveličený (skutečný je miliardtina) — popisek NOT QUITE EQUAL, ne čísla; ta přijdou v S05."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dvě velká čísla pod sebou: 1,000,000,000 ANTIMATTER a 1,000,000,001 MATTER, poslední jednička ambrová.",
+   "note": "Factcheck S05: ~1 přebytečná na miliardu (η ≈ 6×10⁻¹⁰, řádově). ‚about‘ → popisek ABOUT. Rozdíl = 1 hlídá assert."
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Čísla z S05 přeškrtnutá, zbude ambrová jednička; z ní šipka do RÁMCE s galaxiemi: EVERYTHING YOU HAVE EVER SEEN.",
+   "note": "Rým s S05: čísla na týchž souřadnicích."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Vlevo jeden ambrový bod PROTON OR NEUTRON, vpravo hustá mřížka drobných bledých teček PARTICLES OF LIGHT a × MORE THAN 1,000,000,000. Nahoře ztlumeně THE FAINT GLOW THAT STILL FILLS SPACE.",
+   "note": "Factcheck S07: > 10⁹ fotonů na baryon (reliktní záření). Mřížka je symbol, ne miliarda teček — proto číslo v popisku."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "WHY THE EXTRA ONE? a pod tím karta OUR BEST THEORY OF PARTICLES: TINY IMBALANCE ✓ · ENOUGH ✗.",
+   "note": "Factcheck S08: Standardní model připouští narušení CP, o řády málo. Bez grafu, aby se neměřítkovalo."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "uvod",
+   "diagram": "Kotouč Země, skrz něj rovná dráha částice. Popisek NEUTRINO a čárkovaně ONE SUSPECT.",
+   "note": "Podezřelý = hypotéza → čárkovaně. Odkaz na video 166 (neutrina) → karta.",
+   "karta": "166-why-do-neutrinos-pass-through-everything",
+   "pause": 0.6
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dvě otázky pod sebou: ztlumeně WHY MATTER INSTEAD OF JUST LIGHT? a ambrově WHY ANYTHING AT ALL?",
+   "note": "Přebití otázky lepší otázkou (druhá branka kolem 1:10)."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "uvod",
+   "diagram": "RÁMEC prázdný s otazníkem uprostřed. Vpravo WHY IS THERE SOMETHING INSTEAD OF NOTHING?",
+   "note": "Konec úvodu, pauza za blokem.",
+   "pause": 2.4
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "PICK OVĚŘIT Z KONTAKTNÍHO LISTU: portrét Leibnize od Christopha Bernharda Franckeho (Commons, public domain). Portrét vsazený, bez zoomu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Portrait of Gottfried Leibniz Christoph Bernhard Francke",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "leibniz",
+   "diagram": "Citátová karta: “NOTHING IS SIMPLER AND EASIER THAN SOMETHING.” — LEIBNIZ, 1714, pod tím ztlumeně francouzsky le rien est plus simple et plus facile que quelque chose.",
+   "note": "Factcheck S13: Principes de la nature et de la grâce §7. Karta se v S53 otočí vzhůru nohama (rým, leibniz_karta() v _kit.py)."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "leibniz",
+   "diagram": "Dva sloupce: NOTHING (prázdný rámeček, NO RULES · NO BEGINNING · NO CAUSE) a SOMETHING (WHAT RULES? · WHAT BEGINNING? · WHAT CAUSE?).",
+   "note": "Po Codexu (script 0.6): u něčeho se ty otázky VYNOŘÍ, ne ‚něco je má‘ — sloupec SOMETHING jako otázky, ať obraz nepředjímá Russella.",
+   "pause": 0.5
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "leibniz",
+   "diagram": "RÁMEC s malou galaxií. Vpravo přeškrtnuté WHY IS IT WEIRD? a ambrově WHY IS IT THERE AT ALL?",
+   "note": "Škrt textu text_skrtnuty() (čitelný), ne křížek."
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "leibniz",
+   "diagram": "Tři karty IDEAS FROM PHYSICS (čárkovaně = hypotézy), u každé zleva přítok ze stejného bodu START: SOMETHING.",
+   "note": "VÝZVA za touhle scénou (odhad ~2:10, musí vyjít 1:30–2:15 — ověřit po TTS): levý dolní roh prázdný v S16 i S17.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "krabice",
+   "diagram": "RÁMEC = krabice, uvnitř atomy, prach, fotony. Vpravo ŽEBŘÍK NIC (páteř 2), první příčka EMPTY BOX ambrová, ostatní ztlumené, dole čárkovaně TRUE NOTHING.",
+   "note": "PÁTEŘ 2 = zebrik() v _kit.py: x 1440–2380, 4 příčky. S17, S24, S32, S35, S37. Levý dolní roh prázdný (výzva přes začátek scény)."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "krabice",
+   "diagram": "RÁMEC, z něj šipky ven: ATOMS · DUST · LIGHT. Vpravo teploměr dolů na COLDEST PHYSICS ALLOWS.",
+   "note": "Nedosáhne absolutní nuly — popisek ‚as far as physics allows‘, ne ‚0 K‘."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "note": "Beat před ‚It isn't.‘: S18 krabici vyprázdní, S19 ji ukáže prázdnou, S20 do ní vrátí vlnící se pole. 2026-11-22: SDXL prázdno netrefil ve dvou kolech (4 seedy: krajina, postava, pruhy), uživatel zvolil kresbu kódem místo ChatGPT.",
+   "pause": 1.0,
+   "diagram_generator": "krabice",
+   "diagram": "RÁMEC (páteř 1) úplně prázdný, krabice po vyndání všeho. Vpravo EMPTY SPACE a tlumeně = NOTHING?"
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "krabice",
+   "diagram": "RÁMEC vyplněný mřížkou drobných vlnek (pole). Vpravo QUANTUM FIELDS a NEVER PERFECTLY STILL.",
+   "note": "Vlnky jsou symbol pole, ne trajektorie."
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "krabice",
+   "diagram": "Týž rámec s vlnkami, vpravo stupně energie, nejnižší ambrový LOWEST POSSIBLE STATE = THE VACUUM, a STILL TREMBLING.",
+   "note": "Factcheck S21: energie nulového bodu, ‚lowest possible state‘."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "krabice",
+   "diagram": "Dvě svislé kovové desky blízko sebe, šipky tlačí dovnitř. Vedle kolečko průřezu vlasu, mnohem širší než mezera: A HAIR. Popisek GAP: FAR LESS THAN A HAIR'S WIDTH.",
+   "note": "Factcheck S22: mezery desetiny až jednotky µm, vlas ~70 µm. Poměr mezera / vlas hlídá assert (< 1/10)."
+  },
+  {
+   "id": "S23",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "note": "PICK OVĚŘIT Z KONTAKTNÍHO LISTU: Hendrik Casimir 1958 (Anefo, Nationaal Archief, CC BY-SA 3.0). Portrét vsazený, bez zoomu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Hendrik Casimir (1958)",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84,
+     "vignette": false
+    }
+   },
+   "pause": 2.2
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "tryon",
+   "diagram": "RÁMEC s vlnkami vakua, z něj čárkovaná bublina A WHOLE UNIVERSE? Vpravo ŽEBŘÍK, druhá příčka UNIVERSE FROM THE VACUUM ambrová.",
+   "note": "‚maybe‘ → čárkovaně."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "tryon",
+   "diagram": "Karta článku: NATURE · 1973 · EDWARD TRYON — “IS THE UNIVERSE A VACUUM FLUCTUATION?”",
+   "note": "Factcheck S25: Nature 246, 1973. Titul článku je otázka, sedí na scénář.",
+   "pause": 0.5
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "tryon",
+   "diagram": "Čárkovaná bublina vesmíru a nad ní velké ENERGY?",
+   "note": "Krátká otázka."
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "tryon",
+   "diagram": "Sloupec nahoru MATTER: + ENERGY, sloupec dolů GRAVITY: − ENERGY, stejně dlouhé; vpravo TOTAL = 0 ? čárkovaně.",
+   "note": "‚in a sense‘ a ‚might be‘ → součet čárkovaně s otazníkem. Stejné délky hlídá assert."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "tryon",
+   "diagram": "Kniha (obecná kresba, ne skutečná obálka): A UNIVERSE FROM NOTHING · LAWRENCE KRAUSS · 2012, štítek BESTSELLER.",
+   "note": "Nekreslit skutečnou obálku (grafiku vydavatele).",
+   "pause": 0.5
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "tryon",
+   "diagram": "Tatáž kniha vlevo, vpravo sloupec recenze REVIEW · DAVID ALBERT, šipka od recenze na slovo NOTHING v titulu.",
+   "note": "Factcheck: NYT Sunday Book Review, březen 2012. Šipka míří na TITUL, ne na autora."
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "tryon",
+   "diagram": "Slovo NOTHING z titulu přeškrtnuté, pod ním QUANTUM FIELDS = STUFF THAT FOLLOWS LAWS.",
+   "note": "Albertova námitka. Škrt text_skrtnuty().",
+   "pause": 0.5
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "tryon",
+   "diagram": "Domek z cihel. Vlevo HOW THE HOUSE WAS BUILT ✓, vpravo hromádka cihel s WHERE THE BRICKS CAME FROM ?",
+   "note": "Přirovnání je náš obraz, ne Albertův citát — v obraze bez jména.",
+   "pause": 2.2
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "RÁMEC čárkovaně a ztlumeně, přes něj škrty NO VACUUM · NO FIELDS · NO SPACE · NO TIME. Vpravo ŽEBŘÍK, třetí příčka NO SPACE, NO TIME ambrová.",
+   "note": "Čárkovaný rámec = prostor sám chybí."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "Karta článku: PHYSICS LETTERS B · 1982 · ALEXANDER VILENKIN — “CREATION OF UNIVERSES FROM NOTHING”.",
+   "note": "Factcheck S33: Phys. Lett. B 117 (1982)."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "Vlevo prázdno NO SPACE · NO TIME, čárkovaná šipka QUANTUM TUNNELLING k drobnému kolečku, od něj rozšiřující se kužel EXPANDS.",
+   "note": "Model = čárkovaně (hypotéza), rozpínání plnou čarou až za vznikem? Ne — celé je to model, čárkovaně všechno."
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "ŽEBŘÍK, třetí příčka ambrová a krátká vzdálenost k čárkované TRUE NOTHING, popisek ONE OF THE CLOSEST.",
+   "note": "Vlevo ztlumeně kužel z S34.",
+   "pause": 0.6
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "RÁMEC čárkovaný a prázdný, jen uvnitř ambrově THE LAWS OF PHYSICS a Schrödingerova rovnice. Vpravo WHY DO THESE LAWS EXIST?",
+   "note": "Rovnice je skutečná, ne pseudotext."
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "ŽEBŘÍK celý, u každé příčky co zbylo: FIELDS · FIELDS AND LAWS · LAWS. Dole čárkovaně TRUE NOTHING a NOT REACHED.",
+   "note": "Výplata páteře 2.",
+   "pause": 2.4
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "STATE → (RULE) → NEW STATE, pod tím EVERY EXPLANATION NEEDS SOMETHING TO START WITH.",
+   "note": "Schéma vysvětlení; v S39 se z něj vše vyprázdní (stav_pravidlo() v _kit.py)."
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "vilenkin",
+   "diagram": "Totéž schéma, ale stav je čárkovaný prázdný rámeček, pravidlo přeškrtnuté: TRUE NOTHING — NO STATE · NO RULE. Dole ambrově THE LIMIT OF PHYSICS.",
+   "note": "Hlavní obrat před filozofií.",
+   "pause": 2.8
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "debata",
+   "diagram": "Uprostřed starý rozhlasový mikrofon, nad ním BBC RADIO · 1948. Vlevo BERTRAND RUSSELL · PHILOSOPHER, vpravo FREDERICK COPLESTON · JESUIT PRIEST.",
+   "note": "Factcheck S40: Third Programme, 28. 1. 1948. Mikrofon = mikrofon() v _kit.py, vrátí se ztlumeně v S50 (přesun do knihy)."
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "debata",
+   "diagram": "Tři ikony STARS · PLANETS · PEOPLE, každá s čárkovaným ‚dvojníkem‘ vedle (jiná velikost, jiná barva) a popiskem COULD HAVE BEEN OTHERWISE.",
+   "note": "Čárkovaně = jiná možnost."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "debata",
+   "diagram": "Definiční karta CONTINGENT: EXISTS — BUT COULD HAVE FAILED TO.",
+   "note": "Slovníková karta.",
+   "pause": 0.5
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "debata",
+   "diagram": "RÁMEC plný drobných věcí se štítkem CONTINGENT; celý rámec dostane štítek CONTINGENT TOO. Šipka od rámce zpět do sebe přeškrtnutá: ITS OWN REASON?",
+   "note": "Coplestonův argument, v obraze ‚COPLESTON:‘.",
+   "pause": 0.5
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "debata",
+   "diagram": "ŘETĚZ DŮVODŮ zleva doprava: UNIVERSE ← REASON ← … končí ambrovým rámečkem NECESSARY BEING, pod ním FOR COPLESTON: GOD.",
+   "note": "retez() v _kit.py (S44, S45, S51, S52): týž řádek, jiný konec. Atribuce ‚for Copleston‘ v obraze."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "debata",
+   "diagram": "Týž řetěz; od NECESSARY BEING se vrací ztlumená otázka WHAT EXPLAINS GOD? a narazí na zarážku: FOR COPLESTON, THE QUESTION DOESN'T ARISE. Malým LEIBNIZ GAVE THIS ANSWER TOO.",
+   "note": "Nehodnotí se, jen se zobrazuje Coplestonova pozice."
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "debata",
+   "diagram": "Řada postav, každá se šipkou od ‚matky‘ (EVERY PERSON HAS A MOTHER). Celá skupina v rámečku HUMAN RACE a u ní MOTHER? a mezi tím DOESN'T FOLLOW.",
+   "note": "Russell: ‚doesn't mean‘ = neplyne z toho, ne ‚je to nepravda‘ → otazník, ne křížek."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "debata",
+   "diagram": "Totéž rozvržení: věci ve vesmíru, každá s čárkovanou šipkou CAUSE (‚may need‘); celý RÁMEC... ne — skupina v rámečku THE UNIVERSE AS A WHOLE a CAUSE? Mezi tím DOESN'T FOLLOW.",
+   "note": "Rým s S46 — tatáž geometrie, jiné obsazení (skupina() v _kit.py).",
+   "pause": 0.5
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "debata",
+   "diagram": "Dvě karty: STATEMENTS — CAN BE NECESSARY a THINGS — ? Nad tím RUSSELL: Příklad výroku ztlumeně ‚2 + 2 = 4‘.",
+   "note": "Russellův názor, ne fakt → nadpis RUSSELL:."
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "debata",
+   "diagram": "Citátová karta: “THE UNIVERSE IS JUST THERE, AND THAT'S ALL.” — BERTRAND RUSSELL, BBC 1948.",
+   "note": "Factcheck S49: přepis debaty. Citát se vrací v S66.",
+   "pause": 1.4
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "debata",
+   "diagram": "Vlevo ztlumený mikrofon z S40 (1948 · RADIO), šipka do knihy AQUINAS · 1955. Uprostřed šachovnice a prázdná židle; citát IF YOU WON'T EVEN SIT DOWN AT THE CHESSBOARD, YOU CAN'T BE CHECKMATED.",
+   "note": "Přání uživatele: přesun z rozhlasové debaty do pozdější knihy (factcheck: šachovnice je z Aquinas 1955, ne z debaty). Citát je parafráze → bez uvozovek."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "debata",
+   "diagram": "Dva řetězy pod sebou, stejnou barvou: COPLESTON … → GOD a RUSSELL … → NO FURTHER EXPLANATION (svislá zarážka).",
+   "note": "Žádný vítěz: obě větve stejně barevné a stejně dlouhé (assert)."
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "debata",
+   "diagram": "Řetěz fyziky: UNIVERSE ← LAW ← ? Pod tím EACH OF THESE CHAINS ENDS SOMEWHERE. THE QUESTION IS WHERE.",
+   "note": "VÝZVA za touhle scénou (~6:50): levý dolní roh prázdný v S52 i S53.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "inwagen",
+   "diagram": "Leibnizova karta z S13 otočená vzhůru nohama.",
+   "note": "Rým S13 → S53, leibniz_karta() v _kit.py. Levý dolní roh prázdný (výzva)."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "inwagen",
+   "diagram": "Karta: 1996 · PETER VAN INWAGEN — “WHY IS THERE ANYTHING AT ALL?” a pod tím HOW MANY WAYS COULD A WORLD BE?",
+   "note": "Factcheck S54: Proc. Aristotelian Society, suppl. vol. 70 (1996)."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "inwagen",
+   "diagram": "MŘÍŽKA SVĚTŮ (páteř 3): mnoho malých rámečků, v každém jiný svět (jedna hvězda, dvě, roj…), k okrajům slábne do … ENDLESSLY MANY WAYS FOR SOMETHING.",
+   "note": "PÁTEŘ 3 = svety() v _kit.py: S55, S56, S57, S59. Prázdné políčko je v mřížce od začátku (ztlumené), v S56 se rozsvítí.",
+   "pause": 0.6
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "inwagen",
+   "diagram": "Táž mřížka ztlumená, jediné prázdné políčko ambrové: ONLY ONE WAY FOR NOTHING.",
+   "note": "Prázdný svět je právě jeden (assert)."
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "inwagen",
+   "diagram": "Táž mřížka, nad ní čárkovaně IF ALL EQUALLY LIKELY, u prázdného políčka CHANCE ≈ 0.",
+   "note": "Podmínka → čárkovaně."
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "inwagen",
+   "diagram": "Dvě poloviny: LEIBNIZ — NOTHING: THE SIMPLEST, VAN INWAGEN — NOTHING: FAR LESS LIKELY THAN SOMETHING. Obě s prázdným rámečkem uprostřed.",
+   "note": "Po Codexu (0.6): ne ‚nejméně pravděpodobný‘ — každý jednotlivý svět je stejně pravděpodobný, méně pravděpodobné je nic proti VŠEMU něčemu. Oba názory stejnou barvou."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "inwagen",
+   "diagram": "Mřížka ztlumená, přes ni loterijní lístky s otazníky: WHY EQUALLY LIKELY? a ENDLESS POSSIBILITIES — NO ODDS ATTACHED.",
+   "note": "Námitka, ne vyvrácení — otazníky.",
+   "pause": 0.6
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "inwagen",
+   "diagram": "RÁMEC a v něm slovo NOTHING. Vpravo ASK WHAT NOTHING IS LIKE… a ambrově …AND IT'S ALREADY A KIND OF SOMETHING.",
+   "note": "Samotné slovo v rámci je ‚něco‘ — obraz dělá pointu bez dalšího.",
+   "pause": 2.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "zaver",
+   "diagram": "PHYSICS: a pod tím dva řádky ONE DAY, PERHAPS: WHY THERE'S MATTER (čárkovaně) · HOW A UNIVERSE MIGHT GROW FROM ALMOST NOTHING (čárkovaně, model).",
+   "note": "Po Codexu (0.6): asymetrie hmoty je nevyřešená (S08) → čárkovaně, bez fajfek."
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "zaver",
+   "diagram": "RÁMEC se zákony uvnitř, kolem něj prázdno a ambrově WHY IS THERE ANYTHING FOR THE LAWS TO BE ABOUT?",
+   "note": "Rým s S36.",
+   "pause": 0.5
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dva řetězy: STARTS WITH SOMETHING (začátek) a STOPS AT SOMETHING (konec). Pod tím WHERE EXPLAINING ITSELF RUNS OUT.",
+   "note": "Bez vítěze.",
+   "pause": 2.8
+  },
+  {
+   "id": "S64",
+   "source": "sdxl",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "note": "Atmosféra: malá část vesmíru se ptá, proč existuje. 2026-11-22 druhé kolo, seed 18911 vybrán ze tří (první kolo světlé šedé, ostatní příliš rušné). zaver_check OK (kresba 37,8 %, dlaždice i odběr mají místo nahoře).",
+   "prompt": "a tiny lone human figure silhouetted on a dark hilltop at the very bottom edge of the frame, looking up into an immense deep indigo-black night sky with faint scattered stars, small warm amber lantern glow beside the figure, the whole upper two thirds dark and empty",
+   "seed": 18911
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "zaver",
+   "diagram": "Ve spodní polovině: NOTHING CAN'T WONDER WHY THERE'S SOMETHING. a ambrově ONLY SOMETHING CAN.",
+   "note": "Závěrečná obrazovka: horní polovina volná.",
+   "pause": 1.4
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "zaver",
+   "diagram": "Ve spodní polovině: “THE UNIVERSE IS JUST THERE” — AN HONEST ANSWER, OR A WAY OF NOT ANSWERING?",
+   "note": "Otázka do komentářů. Závěrečná obrazovka: horní polovina volná.",
+   "pause": 2.0
+  }
+ ]
+}

@@ -1,0 +1,772 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "note": "PRVNÍ OBRAZOVKA: skutečná fotka startu Artemis II (duben 2026), ne SDXL. Nese háček videa: lidé k Měsíci letěli letos. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Artemis II launch“: start Artemis II, široký záběr s oblakem.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Artemis II launch",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S02",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "note": "Skutečný snímek odvrácené strany z Orionu (Artemis II). Kdyby NASA snímek z mise neměla, náhrada je kresba dráhy z S03, ne SDXL. PICK 2 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Artemis II lunar far side“: „A Breathtaking Earthset from Orion“ (art002e021278): krátery odvrácené strany a Země za obzorem.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Artemis II lunar far side",
+    "pick": 2
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ MĚSÍCE: `mesic()` vpravo, Země vlevo; ambrová smyčka volného návratu kolem odvrácené strany a zpět k Zemi. Bez popisku kromě ARTEMIS II · APRIL 2026.",
+   "note": "Smyčka se otáčí ZA Měsícem a vrací se — obraz říká „obletěli, nepřistáli“. Žádná tečka přistání. KRESBA 2026-11-20: Země a Měsíc nejsou v měřítku, proto štítek SCHEMATIC; dráha je osmička volného návratu.",
+   "pause": 1.2
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ ČASU: `osa_let()` na OSA_Y, roky 1960–2030. Vlevo ambrová značka DEC 1972 · LAST BOOTPRINT, vpravo tečka 2026 · NOW. Mezera mezi nimi vyšrafovaná/ztlumená s popiskem MORE THAN 50 YEARS.",
+   "note": "Páteř se zavádí tady a vyplatí se v S72 (Cernan: 1972 → 1999 → 2017 pořád poslední). Osa v dolní polovině obrazu, nad ní volno — v S72/S73 tam bude závěrečná obrazovka. Popisek přesně podle hlasu (víc než 50 let), ne 54."
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "`mesic()` přivrácenou stranou, šest teček míst přistání Apolla 11, 12, 14, 15, 16, 17 na skutečných selenografických souřadnicích, popisek 6 LANDINGS · 1969–1972. Pod tím ambrově SO WHY NOT AGAIN?",
+   "note": "Místa přistání jsou data → souřadnice z tabulky, `assert` na šest. Callback v S53 (daleko od pólů, přivrácená strana) a S55 (jižní pól). Počítač z věty se nekreslí: srovnání s kalkulačkou je ve factchecku jen přibližné, obraz by ho zpřesnil.",
+   "pause": 1.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Velký nápis MONEY, nad ním ztlumeně THE USUAL ANSWER.",
+   "note": "Bez škrtu a bez otazníku: scénář říká, že odpověď není špatná."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Sloupec podílu NASA na federálních výdajích USA: 1966 · 4.4 % (ambrově). Osa procent 0–5 %.",
+   "note": "Data z factchecku (4,41 % v roce 1966), měřítko `assert`. Do 1:10 musí video začít platit — tohle je první tvrdé číslo (~0:40)."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "Týž graf, vedle sloupce 1966 sloupec TODAY · < 0.5 % na stejném měřítku.",
+   "note": "Stejné měřítko jako S07, jinak by poměr lhal. Hodnota „dnes“ z factchecku."
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "uvod",
+   "diagram": "Velká částka > $250 BILLION a pod ní IN TODAY'S MONEY; ztlumeně NOBODY HAS PAID THAT AGAIN.",
+   "note": "„Well over a quarter of a trillion“ = přes 250 mld.; obraz netvrdí přesnou částku.",
+   "pause": 0.7
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "uvod",
+   "diagram": "MONEY ztlumeně (z S06), pod ním ambrová otázka WHY PAY IT THE FIRST TIME?",
+   "note": "Konec úvodu (~1:03). Otázka se posouvá, nic se neškrtá. Výzva k odběru tu NENÍ — je to před 1:10.",
+   "pause": 2.4
+  },
+  {
+   "id": "S11",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "note": "Portrét: static, `fit` 0,84, žádný zoom (zpětná vazba diváků). PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Yuri Gagarin portrait“: Yuri Gagarin (1961) – Restoration, černobílá, ne kolorovaná.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Yuri Gagarin portrait",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "note": "Kennedy před Kongresem 25. 5. 1961 (NASA, PD). Ne portrét zblízka, ale sál. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Kennedy Congress 1961“: S70-18218, Kennedy u pultu, za ním Johnson a Rayburn (25. 5. 1961).",
+   "archive": {
+    "provider": "nasa",
+    "query": "Kennedy Congress 1961",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9
+    }
+   }
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "zavod",
+   "diagram": "Citátová deska: “I'M NOT THAT INTERESTED IN SPACE.” — JOHN F. KENNEDY, RECORDED MEETING WITH NASA'S JAMES WEBB, 1962. Vlevo malá ikona magnetofonu.",
+   "note": "Uvozovky smí, je to doslovný citát z nahrávky (factcheck). Rok 1962 v obraze, ve hlase není — doložený."
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "zavod",
+   "diagram": "Dva rámečky USA a USSR, mezi nimi ambrová šipka od USA k USSR s popiskem BEAT.",
+   "note": "Šipka míří od podmětu (Kennedy/USA) k cíli (Sovětský svaz) — zkontrolovat směr na kontaktním listu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "zavod",
+   "diagram": "Graf průzkumů 60. let: body/sloupce podílu „stojí to za ty peníze“, vodorovná čárkovaná linka 50 %, všechny body pod ní.",
+   "note": "Data z factchecku (Launius 2003), `assert` že všechny < 50 %. VÝZVA K ODBĚRU ZA TOUTO SCÉNOU (~1:47, konec bloku o Kennedym): levý dolní roh (x < 563, y > 1080) prázdný v S15 i S16 — graf i nadpis drž vpravo/nahoře od něj. KRESBA 2026-11-20: místo bodů pásmo „pod polovinou“ 1961–1969 a jediný bod JULY 1969 · 53 % — jednotlivé hodnoty průzkumů factcheck nemá, body by tvrdily neověřená čísla.",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "zavod",
+   "diagram": "MOTIV RAKET: `raketa()` siluety vedle sebe ve společném měřítku metrů: SATURN V 110.6 m a N1 105 m; pod N1 kruh 30 motorů prvního stupně (30 teček, `assert`).",
+   "note": "Kresba, ne fotka: tvrzení scény je srovnání výšky a počet motorů, a to fotka neřekne. Měřítko z `MERITKO_M`, totéž v S58 (Starship). Levý dolní roh prázdný (výzva z S15 přechází přes začátek S16)."
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "zavod",
+   "diagram": "Čtyři značky startů N1 v řadě s roky (1969, 1969, 1971, 1972), u každé křížek FAILED.",
+   "note": "Křížek tady smí: start opravdu selhal. Roky z factchecku."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "zavod",
+   "diagram": "Krátká časová osa července 1969: 3 JULY · N1 EXPLODES ON THE PAD a 16 JULY · APOLLO 11 LAUNCHES, mezi nimi závorka < 2 WEEKS.",
+   "note": "Data z factchecku. Ne fotka výbuchu — dostupné snímky jsou nejasné původem."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "zavod",
+   "diagram": "Nápis PROGRAMME SHUT DOWN plně; pod ním čárkovaně v uvozovkách “WE WERE NEVER RACING.” s popiskem OFFICIAL SOVIET LINE.",
+   "note": "Čárkovaně = tvrzení, které neplatí (konvence kitu). Konec bloku N1. KRESBA 2026-11-20: WE WERE NEVER RACING bez uvozovek — je to parafráze oficiální linky, ne doložený citát.",
+   "pause": 2.4
+  },
+  {
+   "id": "S20",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S20.png",
+   "note": "Ikonický snímek Apolla 11 (AS11-40-5903 nebo stopa). Pomalý nájezd: fotka se hýbe, diagram ne. PICK 2 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Aldrin Apollo 11 lunar surface EVA“: as11-40-5902, Aldrin u nohy LM.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Aldrin Apollo 11 lunar surface EVA",
+    "pick": 2
+   },
+   "pause": 0.5
+  },
+  {
+   "id": "S21",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S21.png",
+   "note": "Atmosférický předěl: důvod zmizel. Opuštěná rampa Apolla (Launch Complex 34, mys Canaveral). SDXL kolo 1 (vymyšlená betonová věž s vlajkou) zamítnuto uživatelem 2026-11-22 — startovní věž je konkrétní objekt, patří do archivu. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-22 pod dotazem „Launch Complex 34“: File:Launch Complex 34.jpg (zatažené nebe, betonová plocha, v dálce lidé), CC BY-SA 3.0. Pozor: na LC-34 shořelo Apollo 1 (S37); ve videu se rampa nejmenuje.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Launch Complex 34",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "zavod",
+   "diagram": "Tři štítky APOLLO 18 · APOLLO 19 · APOLLO 20, každý přeškrtnutý `text_skrtnuty()`; pod nimi ztlumeně HARDWARE ALREADY BUILT.",
+   "note": "Škrt je tu doslovný (mise zrušené), proto vodorovná čára přes nápis, ne křížek."
+  },
+  {
+   "id": "S23",
+   "source": "archive",
+   "effect": "pan_right",
+   "visual": "images/S23.png",
+   "note": "Ležící Saturn V v muzeu (JSC nebo KSC). Panorama doprava podél ležící rakety. Konec bloku „závod skončil“. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Saturn V Rocket Park Johnson Space Center“: Saturn V ležící v hale Rocket Park, JSC.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Saturn V Rocket Park Johnson Space Center",
+    "pick": 0
+   },
+   "pause": 2.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "zavod",
+   "diagram": "RACE ENDED → MONEY WENT AWAY jako dvojice rámečků se šipkou, za nimi ambrový otazník.",
+   "note": "Šipka = příčina, sedí s hlasem. Otazník: video tu odpověď hned zpochybní.",
+   "pause": 1.2
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "zavod",
+   "diagram": "Táž dvojice, oba rámečky ztlumené; nad nimi NOT QUITE. a dvě zaškrtnutí THE MONEY ✓ THE REASON ✓ s popiskem BACK.",
+   "note": "Ztlumení, ne škrt — nejde o nepravdu, jen neúplnou odpověď.",
+   "pause": 2.4
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "artemis",
+   "diagram": "PÁTEŘ ČASU (`osa_let()`): body 2017 · RETURN ANNOUNCED a 2019 · ARTEMIS, od 2019 ambrová šipka na cíl 2024 · LANDING.",
+   "note": "Na týchž souřadnicích jako S04.",
+   "pause": 0.5
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "artemis",
+   "diagram": "Táž osa; cíl přistání se posouvá 2024 → 2025 → 2026 → 2027 (staré cíle čárkovaně a ztlumeně) až na ambrový 2028 · NOW.",
+   "note": "Čárkovaně = plán, který neplatí. Výčet roků → `vycet`.",
+   "vycet": 0.3,
+   "pause": 1.0
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "artemis",
+   "diagram": "Rovnice ze tří bloků: ROCKET + CAPSULE + GROUND SYSTEMS = > $4 BILLION PER LAUNCH; malé popisky SLS · ORION. Zdroj NASA OIG.",
+   "note": "POKYN ZE ZPĚTNÉ VAZBY: obraz musí říct, že 4 mld. není cena rakety, ale startu celku."
+  },
+  {
+   "id": "S29",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "note": "Čtyři motory RS-25 na centrálním stupni SLS (NASA, PD). Detail motorů ze Shuttlu. PICK 1 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „RS-25 engines installed SLS core stage“: celý centrální stupeň SLS vodorovně v hale s prvním RS-25 (Artemis I).",
+   "archive": {
+    "provider": "nasa",
+    "query": "RS-25 engines installed SLS core stage",
+    "pick": 1
+   }
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "artemis",
+   "diagram": "Jeden vysoký sloupec ARTEMIS · BY 2025 · > $90 BILLION.",
+   "note": "Sloupec je zároveň první polovina srovnání v S31 (stejné měřítko). KRESBA 2026-11-20: S30 NENÍ ve stejném měřítku jako S31 — S30 je nominálně (93 mld., OIG), S31 v dolarech 2025; společné měřítko by míchalo jednotky."
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "artemis",
+   "diagram": "POKYN ZE ZPĚTNÉ VAZBY: dva stejně DLOUHÉ pruhy (14 let) pod sebou, APOLLO a ARTEMIS; výška Artemis ~třetina Apolla. Popisky IN TODAY'S MONEY, ~14 YEARS EACH, PER YEAR: FAR LESS.",
+   "note": "Plocha = celková částka, délka = roky, výška = peníze za rok. Poměr z factchecku, `assert` na stejnou délku a výšku ~1/3.",
+   "pause": 1.4
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "artemis",
+   "diagram": "PÁTEŘ ČASU: body 1989 · SPACE EXPLORATION INITIATIVE a 2004 · VISION FOR SPACE EXPLORATION, obě ambrově s popiskem RETURN TO THE MOON.",
+   "note": "Na `osa_let()`."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "artemis",
+   "diagram": "Táž osa: u 1989 křížek DIED IN CONGRESS, u 2004 čárkovaný úsek do 2010 s křížkem CANCELLED · BILLIONS SPENT.",
+   "note": "Křížky na bodech, ne přes nápisy."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "artemis",
+   "diagram": "Dlouhý pruh MOON PROGRAMME (10+ let) a pod ním krátké úseky PRESIDENT, PRESIDENT, PRESIDENT; na každé hranici funkčního období malá nůžkovitá značka CAN CANCEL.",
+   "note": "Konec bloku o penězích.",
+   "pause": 2.6
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "riziko",
+   "diagram": "Tři prázdné očíslované karty 1 · 2 · 3 vedle sebe, nad nimi THREE LESS OBVIOUS REASONS.",
+   "note": "Karty jsou motiv pro S36, S45, S52 — `karta_duvodu()`, pevné souřadnice.",
+   "pause": 1.4
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "riziko",
+   "diagram": "Karta 1 ambrově s nápisem RISK, karty 2 a 3 ztlumeně prázdné.",
+   "note": " `dovetek` vynucený (pauza 1,0 < 1,5): bez něj schwa za „risk“ (poslech draftu 2026-11-22).",
+   "pause": 1.0,
+   "dovetek": "Now listen to it closely."
+  },
+  {
+   "id": "S37",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "note": "Skupinová fotka posádky Apolla 1 (NASA, PD). Static, `fit` 0,84 — u skupinového snímku by zoom ořezal hlavy. Ne fotka spálené kabiny. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Apollo 1 crew Grissom White Chaffee“: S66-30236, posádka Apolla 1 u stolu s modelem.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Apollo 1 crew Grissom White Chaffee",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   }
+  },
+  {
+   "id": "S38",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S38.png",
+   "note": "Earthrise (AS08-14-2383). Pomalé oddálení: svět se rozšiřuje. PICK 4 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Earthrise Apollo 8 AS08-14-2383“: File:AS08-14-2383.jpg, Země nad obzorem. `crop_y` 0,85: čtvercový snímek; střední ořez uřízl obzor, `fit` ukázal šedý obdélník v černém rámu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Earthrise Apollo 8 AS08-14-2383",
+    "pick": 4,
+    "grade": {
+     "crop_y": 0.85
+    }
+   }
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "riziko",
+   "diagram": "Dva půlkruhové ukazatele: 90 % · GETTING HOME a 50 % · LANDING FIRST TRY; nad nimi ARMSTRONG'S OWN ESTIMATE.",
+   "note": "Popisek „his own estimate“ drží míru jistoty — je to Armstrongův odhad, ne statistika. Výseče `assert`."
+  },
+  {
+   "id": "S40",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "note": "Strojopis projevu Williama Safira (National Archives, PD). Dokument, ne portrét. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „In Event of Moon Disaster Safire memo“: strojopis Safirova projevu.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "In Event of Moon Disaster Safire memo",
+    "pick": 0
+   }
+  },
+  {
+   "id": "S41",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "note": "Snímek poškozeného servisního modulu po odhození, utržený panel je vidět. PICK 4 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Apollo 13 damaged service module“ (NASA 7010516); pick 1 (as13-59-8500) byl skoro celý černý.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Apollo 13 damaged service module",
+    "pick": 4
+   },
+   "pause": 1.4
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "riziko",
+   "diagram": "Ukazatel 50 % z S39 ztlumeně, pod ním TODAY: NOT ACCEPTABLE.",
+   "note": "Callback S39 na týchž souřadnicích.",
+   "pause": 1.0
+  },
+  {
+   "id": "S43",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S43.png",
+   "note": "POKYN ZE ZPĚTNÉ VAZBY: skutečná fotka štítu Artemis I po přistání (odloupaná ablace), NASA PD. Žádný generický zničený štít. PICK 1 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Artemis I Orion heat shield“: Artemis I Orion Heat Shield Inspection: celý štít čelně, vidět bloky ablátoru.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Artemis I Orion heat shield",
+    "pick": 1
+   }
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "riziko",
+   "diagram": "Dva stejně dlouhé pruhy pod sebou: APOLLO 1 FIRE → CREW AROUND THE MOON · < 2 YEARS a ARTEMIS I HEAT SHIELD → CREW · ~2 YEARS OF INVESTIGATION. Nad nimi THE RIGHT CALL.",
+   "note": "Obraz nese S44 (script 0.6): stejně dlouhá doba, úplně jiný spouštěč — tři mrtví proti poškozenému štítu bez posádky. Data z factchecku.",
+   "pause": 2.6
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "riziko",
+   "diagram": "Karta 2 ambrově: žebřík s chybějícími příčkami a nápis WE TOOK APART THE LADDER; karty 1 a 3 ztlumeně.",
+   "note": "Žebřík je metafora z hlasu, kreslí se jednoduše.",
+   "pause": 1.0
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "riziko",
+   "diagram": "Nápis “NASA LOST THE SATURN V PLANS” přeškrtnutý `text_skrtnuty()` se štítkem MYTH; vedle ikona role výkresů DRAWINGS STILL EXIST.",
+   "note": "Škrt tu je správně: tvrzení je mýtus."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "riziko",
+   "diagram": "Výkres Saturnu V (obrys) ≠ silueta rakety — mezi nimi znak nerovnosti.",
+   "note": "Silueta z `raketa()` (stejný tvar jako S16).",
+   "pause": 1.0
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "riziko",
+   "diagram": "Pole teček: 400 teček = 400 000 lidí (1 tečka = 1 000), seskupených do shluků; popisky ~400,000 PEOPLE · ~20,000 COMPANIES AND UNIVERSITIES. Jen malá část teček má ikonu papíru: WRITTEN DOWN.",
+   "note": "Počet teček `assert`. Kolik znalostí se nezapsalo, nikdo nezměřil — proto „malá část“ bez čísla v popisku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "riziko",
+   "diagram": "Totéž pole teček, většina zhasne (ztlumení), popisek FACTORIES CLOSED · PEOPLE RETIRED.",
+   "note": "Stejné souřadnice teček jako S48."
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "riziko",
+   "diagram": "Rozložený motor F-1: obrys motoru vlevo, uprostřed jeho díly rozložené do mřížky, vpravo ambrový drátěný 3D model s popiskem SCANNED · 2012.",
+   "note": "Archiv NASA fotku rozebírání z roku 2012 nemá (dotazy „F-1 engine disassembled“, „3D scan“, „young engineers“ prázdné, „F-1 gas generator“ vrací až zážeh z 2013). Sekvenci F-1 proto nese kresba (S50) a fotka (S50b). Obrys F-1 je táž kresba jako v `raketa()`."
+  },
+  {
+   "id": "S50b",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S50b.png",
+   "note": "Druhá část sekvence F-1: celý motor F-1 (ručně stavěný). Pomalý nájezd na trysku. PICK 4 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „F-1 engine“: F-1 v dílně s techniky (9903405).",
+   "archive": {
+    "provider": "nasa",
+    "query": "F-1 engine",
+    "pick": 4
+   }
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "riziko",
+   "diagram": "Tři ikony TOOLS · SUPPLIERS · PRODUCTION LINES čárkovaně (už nejsou), pod nimi ambrová šipka REBUILT FROM SCRATCH.",
+   "note": "Čárkovaně = to, co chybí. Konec bloku o žebříku. KRESBA 2026-11-20: popisek THEY HAD TO BE BUILT AGAIN, ne „from scratch“ a bez šipky — factcheck S51 „almost from zero“ vyškrtl (SLS převzala hardware Shuttlu).",
+   "pause": 2.6
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "cil",
+   "diagram": "Karta 3 ambrově: NOT THE SAME GOAL; karty 1 a 2 ztlumeně.",
+   "note": "",
+   "pause": 1.0
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "cil",
+   "diagram": "Callback S05: `mesic()` na týchž souřadnicích, šest teček přistání, kolem nich ztlumený pás FAR FROM THE POLES · NEAR SIDE, popisek UP TO 3 DAYS.",
+   "note": "Stejné souřadnice míst přistání jako S05."
+  },
+  {
+   "id": "S54",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "note": "Schmitt s vlajkou a Zemí (AS17-134-20382) — vlajky, kameny, odlet. PICK 1 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Apollo 17 Schmitt flag Earth“: AS17-134-20384, Schmitt u vlajky, nad ní Země.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Apollo 17 Schmitt flag Earth",
+    "pick": 1
+   },
+   "pause": 1.4
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S55.png",
+   "note": "Mozaika jižního pólu z LRO (NASA, PD): dlouhé stíny jsou skutečné. Pomalý nájezd. PICK 0 Z KONTAKTNÍHO LISTU 2026-11-18 pod dotazem „Moon south pole LROC mosaic“: LRO WAC South Pole Mosaic.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Moon south pole LROC mosaic",
+    "pick": 0
+   },
+   "pause": 0.6
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "cil",
+   "diagram": "Řez kráterem: nízké slunce zleva, dno kráteru v trvalém stínu, uvnitř modrobílá vrstva ICE; z ní tři čárkované šipky WATER · AIR · FUEL.",
+   "note": "Čárkovaně = „could one day“. TECHNICKÁ KONTROLA: paprsky slunce dno nesmí zasáhnout (úhel paprsku < úhel stěny)."
+  },
+  {
+   "id": "S57",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S57.png",
+   "prompt": "a small permanent lunar outpost, three white cylindrical habitat modules half-covered in grey regolith with solar panel arrays beside them, low sun casting long shadows across the grey plain, tiny distant Earth high in the black sky, two tiny astronaut figures walking between the modules",
+   "note": "Atmosféra „zůstat“. Žádná denní doba (na Měsíci beztak nedává smysl).",
+   "pause": 1.6
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "cil",
+   "diagram": "MOTIV RAKET: v témž měřítku jako S16 silueta SATURN V (celá) a vedle STARSHIP LANDER · ~50 m; malá lidská postava u paty pro měřítko.",
+   "note": "Měřítko `MERITKO_M` z S16 — lander sám je skoro půl Saturnu V. Výška z factchecku."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "cil",
+   "diagram": "Země dole, oběžná dráha jako oblouk; na ní lander a k němu za sebou řada tankerových siluet, poslední čárkovaně a „…“, popisek REFUELLED IN ORBIT · MANY TANKER LAUNCHES.",
+   "note": "Bez konkrétního počtu tankerů — NASA ho neudává pevně; čárkovaný konec řady to říká."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "cil",
+   "diagram": "Táž dráha; ambrový nápis NEVER DONE BEFORE; pod ním NEXT ARTEMIS MISSION: PRACTICE IN EARTH ORBIT.",
+   "note": "Konec bloku o cíli.",
+   "pause": 2.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Seznam čtyř přísad: A HUGE BUDGET · 10+ YEARS · WILLING TO LOSE PEOPLE · AN ARMY OF SPECIALISTS, každá s malou ikonou.",
+   "note": "Pauza 2,0 před hlavním obratem (ne víc: S62 začíná „Which means“, gramaticky navazuje).",
+   "pause": 2.0
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Ztlumeně nahoře WHY HASN'T ANYONE GONE BACK?, pod ním velká ambrová otázka HOW DID WE GO AT ALL?",
+   "note": "HLAVNÍ POINTA (~7:35). Ztlumení, ne škrt — první otázka není špatná, jen menší.",
+   "pause": 3.0
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Dva pruhy na STEJNÉM měřítku let: nahoře APOLLO 1969–1972 se značkou každého startu posádky k Měsíci (hustě, ~každých 6 měsíců), dole ARTEMIS I 2022 a ARTEMIS II 2026 (dvě značky, mezera ~3.5 YEARS, I čárkovaně jako UNCREWED).",
+   "note": "Stejné měřítko pruhů je tvrzení scény. Seznam startů z factchecku, `assert`."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Dva sloupce v dnešních penězích: MANHATTAN PROJECT a APOLLO (několikanásobně vyšší).",
+   "note": "Poměr z factchecku, `assert`. KRESBA 2026-11-20: bez částek, jen SEVERAL TIMES MORE jako ve scénáři; výška sloupců 309 : 39 mld. (2025 $), `assert` 7–9×."
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Nápis USUALLY: WARTIME a pod ním ambrově THE COLD WAR.",
+   "note": "",
+   "pause": 1.2
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Tři ikony v řadě: A RIVAL IT FEARED · A DEADLINE IT PROMISED TO MEET · THE MONEY TO BACK IT UP, mezi nimi znaménka + a za nimi = 1969.",
+   "note": "Ikony `prisada()` na pevných souřadnicích, tytéž v S67 a S68."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Tytéž tři ikony, jedna (libovolná, prostřední) vyjmutá čárkovaně; výsledek = NO LANDING IN 1969 čárkovaně.",
+   "note": "VÝZVA K ODBĚRU ZA TOUTO SCÉNOU (~8:30, za pointou, před zvratem): levý dolní roh prázdný v S67 i S68 — ikony drž ve středním pásu nad 75 % výšky.",
+   "pause": 2.6,
+   "vyzva": true
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Tytéž tři ikony, A RIVAL ambrově se zvětšeným obrysem a popiskem COMING BACK?",
+   "note": "Otazník: „might be coming back“.",
+   "pause": 1.0
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "PÁTEŘ ČASU: na `osa_let()` nový bod BEFORE 2030 · CHINA: CREW ON THE MOON (čárkovaně = plán), pod ním TESTING: LANDER · ROCKET.",
+   "note": "Žádné vlajky ani loga.",
+   "pause": 0.5
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Táž osa: ambrová závorka RACE nad 1961–1969 (z S21) a druhá ambrová závorka RACE nad 2020s.",
+   "note": "Callback závorky; obě stejným tvarem.",
+   "pause": 1.0
+  },
+  {
+   "id": "S71",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S71.png",
+   "prompt": "a lone small astronaut figure standing on the grey lunar surface looking at a distant small Earth in a deep blue-black sky, vast empty plain",
+   "note": "Reflexivní předěl před závěrem. Pomalé oddálení.",
+   "pause": 2.4
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "VÝPLATA PÁTEŘE: `osa_let()` na OSA_Y; body 1972 · GENE CERNAN LEAVES THE MOON, 1999 · “STILL THE LAST”, 2017 · DIES · STILL THE LAST; ambrová čára od 1972 přes oba body.",
+   "note": "Táž osa jako S04. Okno závěrečné obrazovky začíná ~9:04: HORNÍ POLOVINA PRÁZDNÁ (osa a popisky pod y 720).",
+   "pause": 2.0
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "vyjimka",
+   "diagram": "Otázka do komentářů v dolní polovině: IF THERE WERE NO RACE TO WIN, / WHAT REASON WOULD BE GOOD ENOUGH TO GO BACK?",
+   "note": "Klidná deska, celá horní polovina volná (závěrečná obrazovka), static, dlouhá pauza.",
+   "pause": 3.0
+  }
+ ]
+}
