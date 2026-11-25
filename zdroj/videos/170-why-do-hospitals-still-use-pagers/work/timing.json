@@ -1,0 +1,557 @@
+{
+  "total": 561.055,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.15,
+      "speech_end": 5.483,
+      "end": 5.883,
+      "dur": 5.733,
+      "text": "In 2026, a hospital doctor starts a shift with a smartphone in one pocket."
+    },
+    {
+      "id": "S02",
+      "start": 5.883,
+      "speech_end": 13.672,
+      "end": 14.172,
+      "dur": 8.289,
+      "text": "And clipped to the belt, something from the 1980s. A small plastic box that can only beep and show a line of text."
+    },
+    {
+      "id": "S03",
+      "start": 14.172,
+      "speech_end": 15.262,
+      "end": 16.262,
+      "dur": 2.09,
+      "text": "A pager."
+    },
+    {
+      "id": "S04",
+      "start": 16.262,
+      "speech_end": 25.992,
+      "end": 26.792,
+      "dur": 10.53,
+      "text": "That little box has been in hospitals for a long time. In 1949, an inventor called Al Gross patented what he called a telephone pager."
+    },
+    {
+      "id": "S05",
+      "start": 26.792,
+      "speech_end": 36.565,
+      "end": 37.165,
+      "dur": 10.373,
+      "text": "The next year, New York's Jewish Hospital started using his system to reach its doctors. That was more than twenty years before the first mobile phone call."
+    },
+    {
+      "id": "S06",
+      "start": 37.165,
+      "speech_end": 48.772,
+      "end": 49.572,
+      "dur": 12.407,
+      "text": "And it never really left. In a survey published in 2017 of American hospital clinicians, almost eight in ten of those who answered had been given a pager by their hospital."
+    },
+    {
+      "id": "S07",
+      "start": 49.572,
+      "speech_end": 54.159,
+      "end": 54.959,
+      "dur": 5.387,
+      "text": "For about half of them, it was the main way messages about patients reached them."
+    },
+    {
+      "id": "S08",
+      "start": 54.959,
+      "speech_end": 66.758,
+      "end": 67.758,
+      "dur": 12.799,
+      "text": "In 2019, the British government ordered the NHS to stop using pagers for everyday messages by the end of 2021. There were about a hundred and thirty thousand of them."
+    },
+    {
+      "id": "S09",
+      "start": 67.758,
+      "speech_end": 70.83,
+      "end": 71.23,
+      "dur": 3.472,
+      "text": "In the summer of 2026, they were still in use."
+    },
+    {
+      "id": "S10",
+      "start": 71.23,
+      "speech_end": 72.69,
+      "end": 74.49,
+      "dur": 3.26,
+      "text": "So why won't it go away?"
+    },
+    {
+      "id": "S11",
+      "start": 74.49,
+      "speech_end": 78.159,
+      "end": 78.959,
+      "dur": 4.469,
+      "text": "The answer starts with one strange fact about how a pager works."
+    },
+    {
+      "id": "S12",
+      "start": 78.959,
+      "speech_end": 85.191,
+      "end": 86.791,
+      "dur": 7.831,
+      "text": "It never says anything. A typical hospital pager has no transmitter. It only listens."
+    },
+    {
+      "id": "S13",
+      "start": 86.791,
+      "speech_end": 100.467,
+      "end": 101.267,
+      "dur": 14.477,
+      "text": "What many of them listen for is a code from the 1970s. In the mid-1970s, the British Post Office brought together pager makers from Britain, Europe and Japan to agree on one way of paging."
+    },
+    {
+      "id": "S14",
+      "start": 101.267,
+      "speech_end": 112.007,
+      "end": 114.207,
+      "dur": 12.94,
+      "text": "The code they worked on is still on the air today, named after the group: POCSAG. Every pager has its own number. The network sends that number, followed by the message."
+    },
+    {
+      "id": "S15",
+      "start": 114.207,
+      "speech_end": 119.436,
+      "end": 119.936,
+      "dur": 5.729,
+      "text": "Your phone works differently. The network keeps track of roughly which area it's in."
+    },
+    {
+      "id": "S16",
+      "start": 119.936,
+      "speech_end": 126.978,
+      "end": 127.478,
+      "dur": 7.542,
+      "text": "When a call comes in, the network calls out across that area to find it. Engineers even call that paging."
+    },
+    {
+      "id": "S17",
+      "start": 127.478,
+      "speech_end": 132.685,
+      "end": 133.485,
+      "dur": 6.007,
+      "text": "Then your phone answers. And from that moment on, it's a two-way conversation."
+    },
+    {
+      "id": "S18",
+      "start": 133.485,
+      "speech_end": 140.271,
+      "end": 140.671,
+      "dur": 7.186,
+      "text": "A one-way pager network never gets an answer. It doesn't know where you are, and it doesn't try to find out."
+    },
+    {
+      "id": "S19",
+      "start": 140.671,
+      "speech_end": 149.261,
+      "end": 150.861,
+      "dur": 10.19,
+      "text": "So it broadcasts every message across its whole coverage area. Every pager listens. Only the one with your number reacts."
+    },
+    {
+      "id": "S20",
+      "start": 150.861,
+      "speech_end": 157.519,
+      "end": 158.319,
+      "dur": 7.458,
+      "text": "That one decision explains nearly everything that makes the pager hard to replace. Start with the battery."
+    },
+    {
+      "id": "S21",
+      "start": 158.319,
+      "speech_end": 171.339,
+      "end": 171.839,
+      "dur": 13.519,
+      "text": "Transmitting is expensive. This kind of pager never does it. Its receiver is simple, and it sleeps most of the time. It wakes only for its own short slot in each cycle of the broadcast."
+    },
+    {
+      "id": "S22",
+      "start": 171.839,
+      "speech_end": 177.599,
+      "end": 179.799,
+      "dur": 7.96,
+      "text": "So one small battery can keep it going for weeks. A phone needs a charger every day."
+    },
+    {
+      "id": "S23",
+      "start": 179.799,
+      "speech_end": 181.29,
+      "end": 182.09,
+      "dur": 2.291,
+      "text": "Then there's the building."
+    },
+    {
+      "id": "S24",
+      "start": 182.09,
+      "speech_end": 191.375,
+      "end": 192.175,
+      "dur": 10.085,
+      "text": "Hospitals are hard places for radio. Thick concrete. Basements. Rooms shielded on purpose, around scanners and X-ray machines."
+    },
+    {
+      "id": "S25",
+      "start": 192.175,
+      "speech_end": 198.811,
+      "end": 199.611,
+      "dur": 7.437,
+      "text": "A phone needs a link in both directions. It has to hear the mast, and the mast has to hear the phone."
+    },
+    {
+      "id": "S26",
+      "start": 199.611,
+      "speech_end": 206.931,
+      "end": 207.731,
+      "dur": 8.119,
+      "text": "The hard half is the phone's. A small, battery-powered transmitter has to reach a mast that may be kilometres away."
+    },
+    {
+      "id": "S27",
+      "start": 207.731,
+      "speech_end": 217.676,
+      "end": 218.476,
+      "dur": 10.745,
+      "text": "A pager only needs the other half. That transmitter can be powerful, and mounted high up. And it sends slowly, a few thousand bits a second at most."
+    },
+    {
+      "id": "S28",
+      "start": 218.476,
+      "speech_end": 228.826,
+      "end": 231.026,
+      "dur": 12.55,
+      "text": "A slower signal can hold up better in noisy conditions. Together with power and frequency, that often lets a paging network reach places where phones struggle."
+    },
+    {
+      "id": "S29",
+      "start": 231.026,
+      "speech_end": 233.991,
+      "end": 234.991,
+      "dur": 3.965,
+      "text": "The third advantage only shows up on the worst day."
+    },
+    {
+      "id": "S30",
+      "start": 234.991,
+      "speech_end": 243.505,
+      "end": 244.305,
+      "dur": 9.314,
+      "text": "When disaster strikes, everyone reaches for a phone at once. And every call puts another demand on a network that's already overloaded."
+    },
+    {
+      "id": "S31",
+      "start": 244.305,
+      "speech_end": 252.497,
+      "end": 253.297,
+      "dur": 8.992,
+      "text": "After Hurricane Katrina in 2005, Verizon said that where phones still worked at all, the circuits were often jammed."
+    },
+    {
+      "id": "S32",
+      "start": 253.297,
+      "speech_end": 264.717,
+      "end": 266.917,
+      "dur": 13.62,
+      "text": "Pager networks have limits too, and their masts can fail. But a thousand people receiving the same message doesn't mean a thousand connections. It's still just one broadcast."
+    },
+    {
+      "id": "S33",
+      "start": 266.917,
+      "speech_end": 270.715,
+      "end": 271.515,
+      "dur": 4.597,
+      "text": "That's the fourth advantage, the one hospitals care about most."
+    },
+    {
+      "id": "S34",
+      "start": 271.515,
+      "speech_end": 278.173,
+      "end": 278.973,
+      "dur": 7.458,
+      "text": "When a patient's heart stops, a whole team has to come running. Doctors, an anaesthetist, several nurses."
+    },
+    {
+      "id": "S35",
+      "start": 278.973,
+      "speech_end": 286.676,
+      "end": 287.476,
+      "dur": 8.503,
+      "text": "In many British hospitals, someone dials 2222. And every pager on that team goes off in the same second."
+    },
+    {
+      "id": "S36",
+      "start": 287.476,
+      "speech_end": 292.641,
+      "end": 293.441,
+      "dur": 5.965,
+      "text": "Nothing to unlock. No app to open. No group to put together first."
+    },
+    {
+      "id": "S37",
+      "start": 293.441,
+      "speech_end": 301.461,
+      "end": 304.061,
+      "dur": 10.62,
+      "text": "For decades, that was the whole case for the pager. It can reach people across the building, all at once, without needing them to answer."
+    },
+    {
+      "id": "S38",
+      "start": 304.061,
+      "speech_end": 306.216,
+      "end": 307.016,
+      "dur": 2.955,
+      "text": "But that same decision has a price."
+    },
+    {
+      "id": "S39",
+      "start": 307.016,
+      "speech_end": 314.933,
+      "end": 315.433,
+      "dur": 8.417,
+      "text": "Because the pager can't talk, it can't confirm the message arrived. The nurse who sends a page doesn't know if the doctor saw it."
+    },
+    {
+      "id": "S40",
+      "start": 315.433,
+      "speech_end": 322.005,
+      "end": 322.805,
+      "dur": 7.373,
+      "text": "And the doctor can't reply. They have to find a phone and call back... by which time the nurse may have moved on."
+    },
+    {
+      "id": "S41",
+      "start": 322.805,
+      "speech_end": 325.986,
+      "end": 327.186,
+      "dur": 4.381,
+      "text": "That's the first price. The second is worse."
+    },
+    {
+      "id": "S42",
+      "start": 327.186,
+      "speech_end": 329.917,
+      "end": 330.717,
+      "dur": 3.531,
+      "text": "A message sent everywhere can be heard everywhere."
+    },
+    {
+      "id": "S43",
+      "start": 330.717,
+      "speech_end": 339.19,
+      "end": 339.99,
+      "dur": 9.273,
+      "text": "Some pager systems still send their messages as plain text. Encrypted paging exists. But these systems don't use it."
+    },
+    {
+      "id": "S44",
+      "start": 339.99,
+      "speech_end": 344.385,
+      "end": 345.185,
+      "dur": 5.195,
+      "text": "With a cheap radio receiver, anyone in range can pick those messages up."
+    },
+    {
+      "id": "S45",
+      "start": 345.185,
+      "speech_end": 353.377,
+      "end": 354.177,
+      "dur": 8.992,
+      "text": "In 2018, researchers in Vancouver found hospital pages on the air with patients' names, diagnoses and room numbers."
+    },
+    {
+      "id": "S46",
+      "start": 354.177,
+      "speech_end": 366.358,
+      "end": 367.158,
+      "dur": 12.981,
+      "text": "In August 2026, the BBC found that the NHS service that matches donated organs had been sending transplant patients' names, birth dates and organ details the same way."
+    },
+    {
+      "id": "S47",
+      "start": 367.158,
+      "speech_end": 371.908,
+      "end": 374.308,
+      "dur": 7.15,
+      "text": "It apologised. And stopped sending patients' personal details over the air."
+    },
+    {
+      "id": "S48",
+      "start": 374.308,
+      "speech_end": 382.867,
+      "end": 383.367,
+      "dur": 9.059,
+      "text": "You'd think that settles it. Hospitals now have secure messaging apps. Two-way, encrypted, with a tick when your message is seen."
+    },
+    {
+      "id": "S49",
+      "start": 383.367,
+      "speech_end": 396.345,
+      "end": 397.145,
+      "dur": 13.779,
+      "text": "And for most messages, the apps are winning. Could you check the blood results in bed twelve? Can this patient move to the ward? Those are conversations. A phone is better at conversations."
+    },
+    {
+      "id": "S50",
+      "start": 397.145,
+      "speech_end": 402.244,
+      "end": 403.044,
+      "dur": 5.899,
+      "text": "In 2022, Cambridge University Hospitals made exactly that switch."
+    },
+    {
+      "id": "S51",
+      "start": 403.044,
+      "speech_end": 413.949,
+      "end": 414.549,
+      "dur": 11.505,
+      "text": "It upgraded its Wi-Fi to cover the whole site. For the first week, messages went to the app and the pagers. After that, everyday pages dropped almost to nothing."
+    },
+    {
+      "id": "S52",
+      "start": 414.549,
+      "speech_end": 421.21,
+      "end": 422.01,
+      "dur": 7.461,
+      "text": "But three kinds of call were never meant to move. Cardiac arrest. Major trauma. Fire."
+    },
+    {
+      "id": "S53",
+      "start": 422.01,
+      "speech_end": 430.05,
+      "end": 431.85,
+      "dur": 9.84,
+      "text": "Even the old pager system wasn't switched off. It would stay in place until a resilience review showed it was safe to remove."
+    },
+    {
+      "id": "S54",
+      "start": 431.85,
+      "speech_end": 439.54,
+      "end": 442.54,
+      "dur": 10.69,
+      "text": "These are the calls where nobody has time to reply. Where the message has to reach a whole team at once, wherever they are."
+    },
+    {
+      "id": "S55",
+      "start": 442.54,
+      "speech_end": 448.473,
+      "end": 449.273,
+      "dur": 6.733,
+      "text": "And that's the real answer. A hospital isn't sending one kind of message. It's sending two."
+    },
+    {
+      "id": "S56",
+      "start": 449.273,
+      "speech_end": 456.594,
+      "end": 457.394,
+      "dur": 8.121,
+      "text": "Most of them are questions. A question has to arrive, be seen, and get an answer. A phone does all three."
+    },
+    {
+      "id": "S57",
+      "start": 457.394,
+      "speech_end": 465.549,
+      "end": 466.349,
+      "dur": 8.955,
+      "text": "A few of them are alarms. An alarm has to reach a whole group, right now. Nobody needs to reply. They need to run."
+    },
+    {
+      "id": "S58",
+      "start": 466.349,
+      "speech_end": 470.639,
+      "end": 472.039,
+      "dur": 5.69,
+      "text": "Those are different jobs. So it makes sense to use different tools."
+    },
+    {
+      "id": "S59",
+      "start": 472.039,
+      "speech_end": 480.382,
+      "end": 481.182,
+      "dur": 9.143,
+      "text": "It isn't that the pager is unbreakable. A modern hospital can have backup power, spare Wi-Fi, and emergency systems of its own."
+    },
+    {
+      "id": "S60",
+      "start": 481.182,
+      "speech_end": 487.371,
+      "end": 488.171,
+      "dur": 6.989,
+      "text": "What the pager offers is another channel. Simpler, different, and one that can fail in different ways."
+    },
+    {
+      "id": "S61",
+      "start": 488.171,
+      "speech_end": 495.533,
+      "end": 496.733,
+      "dur": 8.562,
+      "text": "For an alarm, that matters more than cleverness. You want the channel that doesn't fail at the same moment as everything else."
+    },
+    {
+      "id": "S62",
+      "start": 496.733,
+      "speech_end": 501.543,
+      "end": 504.143,
+      "dur": 7.41,
+      "text": "For more than seventy years, that channel has been a little box that can't say a word."
+    },
+    {
+      "id": "S63",
+      "start": 504.143,
+      "speech_end": 506.127,
+      "end": 507.127,
+      "dur": 2.984,
+      "text": "Which leaves an awkward question."
+    },
+    {
+      "id": "S64",
+      "start": 507.127,
+      "speech_end": 516.302,
+      "end": 517.102,
+      "dur": 9.975,
+      "text": "Outside hospitals, almost everyone has left the pager behind. Japan switched off its last commercial pager service in 2019."
+    },
+    {
+      "id": "S65",
+      "start": 517.102,
+      "speech_end": 523.971,
+      "end": 524.471,
+      "dur": 7.369,
+      "text": "Fewer customers mean fewer networks, fewer companies making the devices, fewer people who know how to fix them."
+    },
+    {
+      "id": "S66",
+      "start": 524.471,
+      "speech_end": 533.519,
+      "end": 534.119,
+      "dur": 9.647,
+      "text": "If that goes on, hospitals may become some of the last customers of a whole technology. And a network with few customers is hard to keep running."
+    },
+    {
+      "id": "S67",
+      "start": 534.119,
+      "speech_end": 539.303,
+      "end": 539.903,
+      "dur": 5.784,
+      "text": "So whatever replaces the pager for those last few calls can't just be a better phone."
+    },
+    {
+      "id": "S68",
+      "start": 539.903,
+      "speech_end": 548.973,
+      "end": 550.573,
+      "dur": 10.67,
+      "text": "It has to keep the pager's oldest trick. Reach everyone at once. Keep working when other things stop. And say as little as possible."
+    },
+    {
+      "id": "S69",
+      "start": 550.573,
+      "speech_end": 559.855,
+      "end": 561.055,
+      "dur": 10.482,
+      "text": "So here's a question for the comments. In an emergency, would you rather get a message you can answer... or one designed to reach you when everything else fails?"
+    }
+  ]
+}

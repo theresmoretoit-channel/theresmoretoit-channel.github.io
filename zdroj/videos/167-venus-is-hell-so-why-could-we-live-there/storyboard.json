@@ -1,0 +1,930 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PROFIL atmosféry (páteř 1) vlevo, horní část ještě ztlumená. Dole povrch rozžhavený do oranžova a vedle něj velké 465 °C a pod ním malým písmem SURFACE OF VENUS.",
+   "note": "První obrazovka nese myšlenku, ne atmosféru: peklo dole, a nad ním prostor, o kterém se ještě nemluví (ztlumený, ne prázdný). Žádné SDXL. PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. Profil se vrací v S06–S15, S39, S50, S73 a v závěru S87 (výplata)."
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "Vlevo teploměr: ryska LEAD MELTS 327 °C a nad ní ambrová ryska VENUS 465 °C. Vpravo malý glóbus Venuše, u něj čtyři štítky DAY · NIGHT · POLES · EQUATOR, všechny se stejným 465°.",
+   "note": "Factcheck S01–S02: 464–465 °C, olovo taje při 327,5 °C; teplota téměř nezávisí na denní době ani šířce. Štítky stejné čtyřikrát, assert."
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "Vlevo sloupec šipek tlačících dolů a ×90. Vpravo hloubkoměr moře 0–1000 m, značka u ~900 m a štítek SAME PRESSURE.",
+   "note": "Factcheck: 92 bar ≈ 91 bar přetlaku ≈ 900–930 m vody. Scénář říká ‚nearly a kilometre‘, značka proto u 900 m, ne u 1000."
+  },
+  {
+   "id": "S04",
+   "source": "archive",
+   "effect": "pan_left",
+   "visual": "images/S04.png",
+   "note": "PICK OVĚŘEN Z KONTAKTNÍHO LISTU: barevný snímek Venery 13 (Commons ‚V13 vg261 262.tif‘, 2201×476, public domain). Recolorized verze měla jen 958×196 px, proto vyměněno. Zoom na pravou půlku (kameny a okraj modulu), ať se panorama nezmenší na proužek. Jediná skutečná fotka povrchu Venuše.",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "V13 vg261 262",
+    "pick": 0,
+    "grade": {
+     "zoom": [
+      0.5,
+      0.0,
+      0.5,
+      1.0
+     ],
+     "fit": 0.94,
+     "saturation": 100,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "Časová osa v minutách 0–140: čárkovaná značka DESIGNED ~32 MIN, plný ambrový pruh LASTED 127 MIN, na konci ikonka antény se škrtem SILENT.",
+   "note": "Factcheck S05: návrhová životnost 32 min, vydržel 127 min. ‚half an hour‘ ~ 32, popisek proto ~30 MIN? Ne — popisek bez čísla: DESIGNED FOR ~½ HOUR, ať obraz netvrdí přesněji než scénář. Délky pruhů z čísel, assert.",
+   "anim": "animace",
+   "pause": 1.4
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "Řada planet Sluneční soustavy (Merkur až Neptun, Země vynechaná a ztlumená obrysem). Venuše ambrově, nad ní čárkovaná bublina MOST EARTH-LIKE CONDITIONS?",
+   "note": "Čárkovaně, protože je to názor (‚some engineers argue‘), ne měření. Otazník drží otázku: ještě nevíme, kde přesně."
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "PROFIL: celý, horní část rozsvícená, pás 50–55 km obrysem a šipka od povrchu nahoru 50 KM. U povrchu dál 465 °C (ztlumeně).",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. Tady se poprvé ukáže, KDE ta místa jsou."
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "SKÓRE (páteř 2) poprvé: VENUS 0 : 0 MARS, pod ní osm prázdných kategorií. Nad Marsem drobný štos karet MOST PLANS.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. Zavádí se tady (0:40) a vrací se v S19, S24, S36, S46, S48, S56, S63, S70, S74, S77, S78.",
+   "pause": 2.4
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "pasmo",
+   "diagram": "PROFIL: dvě křivky podél osy výšky — teplota (ambrová) a tlak (světlá) klesají směrem nahoru; značka stoupá od povrchu.",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. ANIMACE: značka vyjede od povrchu k ~50 km, křivky stojí.",
+   "anim": "animace"
+  },
+  {
+   "id": "S10",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "diagram_generator": "pasmo",
+   "diagram": "PROFIL se značkou na 50 km. Vpravo dva štítky: PRESSURE ≈ SEA LEVEL ON EARTH (fajfka) a TEMPERATURE ~75 °C (teploměr, ambrově).",
+   "note": "Factcheck S10: VIRA 50 km ≈ 1,07 bar, 75 °C."
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "pasmo",
+   "diagram": "PROFIL se značkou na 55 km. Štítek ~ROOM TEMPERATURE (~27 °C).",
+   "note": "Factcheck S11: 55 km ≈ 27 °C (‚about room temperature‘)."
+  },
+  {
+   "id": "S12",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "diagram_generator": "pasmo",
+   "diagram": "PROFIL se značkou na 55 km, štítek PRESSURE ½. Vpravo hora s táborem: EVEREST BASE CAMP · 5,364 M · ~½ BAR.",
+   "note": "Factcheck S12: 55 km ≈ 0,53 bar; základní tábor 5 364 m ≈ 0,5 bar."
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "pasmo",
+   "diagram": "PROFIL, pásmo 50–55 km vyplněné; u dolního okraje WARMER · DENSER, u horního COOLER · THINNER, uprostřed YOUR COMPROMISE.",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. "
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "pasmo",
+   "diagram": "Postava v pásmu. Vpravo tři řádky: přeškrtnutý PRESSURE SUIT, fajfka NO FREEZING, fajfka NO BOILING.",
+   "note": "Text skafandru přeškrtnout text_skrtnuty(), ne křížkem."
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "pasmo",
+   "diagram": "Postava s maskou a lahví (SEALED MASK · OWN AIR), kolem molekuly CO₂ (OUTSIDE: CO₂). Nahoře pár kapek mraku s otazníkem (vysvětlí S49).",
+   "note": "Factcheck S15: maska s vlastním vzduchem, venku CO₂ (96,5 %). Kapky ztlumeně a s otazníkem — scénář říká ‚for reasons we'll get to‘. VÝZVA za touhle scénou (~1:45): levý dolní roh prázdný v S15 i S16.",
+   "pause": 2.2,
+   "vyzva": true
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Dva kotouče ve skutečném poměru velikosti: EARTH a VENUS (0,95). Pod nimi pruhy gravitace EARTH 100 % a VENUS ~90 %.",
+   "note": "Factcheck: poloměr 0,949, gravitace 0,904. Poměry z čísel, assert. Levý dolní roh prázdný (výzva za S15).",
+   "vycet": 0.3
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Totéž, přibude MARS: kotouč 0,53 a pruh 38 % (ambrově, o něm je řeč).",
+   "note": "Pruh Marsu musí být na téže stupnici jako v S16, assert."
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "gravitace",
+   "diagram": "Tři ikony s otazníky: BONES, MUSCLES, A CHILD GROWING UP; nad nimi YEARS AT 0.38 g — NEVER TESTED (čárkovaně).",
+   "note": "Čárkovaně = neznámé (konvence). ISS je beztíže, ne částečná gravitace (factcheck S18)."
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "gravitace",
+   "diagram": "SKÓRE 1 : 0, kategorie GRAVITY vyplněná barvou Venuše.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.2
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "radiace",
+   "diagram": "Venuše a Mars vedle sebe bez magnetického pole, šipky záření ze strany je zasahují. Nad oběma NO MAGNETIC FIELD.",
+   "note": "",
+   "vycet": 0.3,
+   "pause": 0.6
+  },
+  {
+   "id": "S21",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S21.png",
+   "diagram_generator": "radiace",
+   "diagram": "Dva sloupce vzduchu: VENUS · ABOVE 50 KM a EARTH · ABOVE A BEACH, výška úměrná hmotnosti sloupce (1 200 vs 1 033 g/cm²). Na vrcholu každého postavička.",
+   "note": "Factcheck S21: P/g = 1,07e5/8,87 → ~1 200 g/cm²; Země 1 033. Poměr výšek assert."
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "radiace",
+   "diagram": "Sloupec Venuše s nápisem ≈ 1 KG / CM²; šipky záření shora z velké části končí v horní polovině sloupce, jen pár slabých dojde dolů.",
+   "note": "‚much of the radiation‘, ne všechno: pár šipek dojde, ztlumeně."
+  },
+  {
+   "id": "S23",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "diagram_generator": "radiace",
+   "diagram": "Přibude třetí sloupec MARS < 2 % (16 g/cm²), skoro neviditelný. Vedle řez půdou s habitatem zahrabaným pod zeminou.",
+   "note": "Výška sloupce Marsu na téže stupnici, assert."
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "radiace",
+   "diagram": "SKÓRE 2 : 0, přibude RADIATION.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.2,
+   "naveti": "That's why many plans for Mars bury their habitats under soil."
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Vrstva mraků, nad ní obrys města pod kupolí a velký otazník.",
+   "note": "Úvod bloku 3.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Pozemský balon plný molekul helia (malé tečky), kolem vzduch (N₂, O₂ větší). Šipka vztlaku nahoru, LIGHTER THAN THE AIR AROUND IT.",
+   "note": "Konvence: vzduch, který dýcháme = tyrkysová (VZDUCH). CO₂ = khaki.",
+   "pause": 0.6
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Venuše a výsek složení atmosféry: CO₂ ~96,5 % (khaki), zbytek N₂.",
+   "note": "Factcheck: 96,5 % CO₂, 3,5 % N₂."
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "vztlak",
+   "diagram": "VÁHY: vlevo molekula CO₂ 44, vpravo vzduch 29; CO₂ dole. Pod tím ≈ 1.5×.",
+   "note": "Molární hmotnost 44 vs 28,96 → 1,52×. Assert. Náklon vah ve směru těžšího.",
+   "pause": 0.4
+  },
+  {
+   "id": "S29",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S29.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Tentýž balon jako v S26, ale uvnitř tyrkysový VZDUCH a kolem khaki CO₂. Šipka vztlaku. Nápis THE AIR WE BREATHE = A LIFTING GAS.",
+   "note": "Vizuální rým s S26 — stejná poloha a velikost balonu (funkce balon())."
+  },
+  {
+   "id": "S30",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S30.png",
+   "note": "Atmosféra: ‚and it floats‘. Až tady první SDXL (2:40), ne v úvodu. Kolo 1 (2026-11-21) zamítnuto: moře/pláž pod mraky a tyrkysové nebe → četlo se jako Země. Kolo 2 se seedem a promptem bez země.",
+   "prompt": "an enormous translucent pearl-white balloon envelope floating calmly high above a solid endless deck of sulphur-yellow clouds that fills everything below to the horizon, tiny habitat gondola beneath, seen from above the clouds",
+   "seed": 3001
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Pruhy nosnosti na metr krychlový: HELIUM ON EARTH ~1 kg, VENUS AIR AT 50 KM ~0.5 kg, HIGHER UP ~0.25 kg.",
+   "note": "Factcheck S31: 1,06 / 0,5 / 0,28 (Landis 56 km). Poměry assert."
+  },
+  {
+   "id": "S32",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Malý balon (0.5 KG PER M³) → velký balon s obytnou gondolou a postavami.",
+   "note": "Šipka zvětšení, ne časová."
+  },
+  {
+   "id": "S32b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S32b.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Řez balonem: postavy uvnitř obalu, mezi nimi tyrkysový vzduch; ONE ENORMOUS ROOM.",
+   "note": "Factcheck: Landis 2020 s. 14 — bydlení v nosném plynu."
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Stěna obalu zblízka, z obou stran stejně dlouhé šipky tlaku: INSIDE = OUTSIDE.",
+   "note": "Stejná délka šipek, assert."
+  },
+  {
+   "id": "S33b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33b.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Dva pruhy dechu: SEA LEVEL ON EARTH 1 bar × 21 % O₂ a CITY 0.5 bar × ~40 % O₂; tyrkysová část (kyslík) stejně dlouhá.",
+   "note": "Factcheck S33b: Landis 0,56 bar × 37 % ≈ 0,21 bar parciálního tlaku. Assert stejné délky kyslíku ±5 %."
+  },
+  {
+   "id": "S33c",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33c.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Tatáž stěna jako v S33, šipky se vyruší, obal tenký; NOTHING TO HOLD IN.",
+   "note": "Rým s S33."
+  },
+  {
+   "id": "S34",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S34.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Díra v obalu: pár malých tyrkysových teček pomalu ven, khaki dovnitř. Přeškrtnuté EXPLOSIVE DECOMPRESSION, pod tím SLOW SEEPING.",
+   "note": "ANIMACE: tečky prosakují pomalu oběma směry.",
+   "anim": "animace"
+  },
+  {
+   "id": "S35",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S35.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Velká trhlina, vedle přesýpací hodiny a THOUSANDS OF HOURS (čárkovaný rámeček ESTIMATE).",
+   "note": "Odhad jednoho inženýra (Landis) — čárkovaně."
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "vztlak",
+   "diagram": "Pod skóre: habitat na Marsu s dírou, tlusté šipky vzduchu ven do skoro prázdna; OUTSIDE < 1 % OF EARTH PRESSURE. Skóre 3 : 0, přibude STAYING UP.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. Skóre nahoře na pevném místě, ilustrace pod ním.",
+   "pause": 2.4
+  },
+  {
+   "id": "S37",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S37.png",
+   "note": "PICK OVĚŘIT: model sondy Vega v Udvar-Hazy (Commons, public domain).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Vega model Udvar-Hazy Center",
+    "pick": 0,
+    "grade": {
+     "fit": 0.9,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S38",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "note": "PICK OVĚŘIT: replika balonu Vegy (Commons, CC0).",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "20180328 Vega balloon Udvar-Hazy",
+    "pick": 0,
+    "grade": {
+     "fit": 0.86,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "vega",
+   "diagram": "PROFIL s balonem v 54 km, ~2 DAYS, vlnky rádiového signálu šikmo nahoru.",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. Factcheck S39: ~54 km, ~46 h."
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "vega",
+   "diagram": "Pohled shora na Venuši, oblouk dráhy balonu přes třetinu obvodu (120°), šipka ~250 KM/H.",
+   "note": "Factcheck S40: 66–69 m/s, ~11 600 km ≈ třetina obvodu ve 54 km. Úhel z čísel. ANIMACE: balon jede po oblouku.",
+   "anim": "animace"
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "vega",
+   "diagram": "Balon Vegy (průměr 3,4 m) vedle postavy na stejné stupnici, uvnitř HELIUM.",
+   "note": "Factcheck: obal 3,4 m. Měřítko assert."
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "vega",
+   "diagram": "Dvě karty: BALLOONS ON VENUS — 1985 (fajfka) a PEOPLE — NOT YET (čárkovaně).",
+   "note": "Čárkovaně = zatím ne.",
+   "pause": 2.2
+  },
+  {
+   "id": "S43",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S43.png",
+   "diagram_generator": "vega",
+   "diagram": "Vzducholoď HAVOC z boku s kótou 129 M; pod ní pro srovnání fotbalové hřiště 105 m.",
+   "note": "Factcheck: 129 m. Hřiště jen jako měřítko, ve scénáři není — ztlumeně a malým písmem FOOTBALL PITCH."
+  },
+  {
+   "id": "S44",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "diagram_generator": "vega",
+   "diagram": "Tatáž vzducholoď (zmenšená) nad pásem mraků s modulem posádky; 2 CREW · 30 DAYS · 50 KM.",
+   "note": "Factcheck S44."
+  },
+  {
+   "id": "S44b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S44b.png",
+   "diagram_generator": "vega",
+   "diagram": "Pět kroků zleva doprava, šikmo dolů: kapsle → padák → rozbalování → nafukování → vzducholoď ve vodorovném letu.",
+   "note": "Factcheck S44b: nafouknutí během sestupu (HAVOC PoC)."
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "vega",
+   "diagram": "Karta HAVOC — CONCEPT STUDY a razítko NEVER APPROVED.",
+   "note": "Levý dolní roh prázdný (výzva za S45).",
+   "pause": 2.4,
+   "vyzva": true
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "otazka",
+   "diagram": "SKÓRE 3 : 0 zvýrazněné.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. Levý dolní roh prázdný."
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "otazka",
+   "diagram": "Skóre ztlumené, pod ním velké WHY MARS? a štos karet plánů na Mars.",
+   "note": ""
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "otazka",
+   "diagram": "SKÓRE 3 : 0, pět zbývajících kategorií ukáže otazníky.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.6
+  },
+  {
+   "id": "S49",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S49.png",
+   "diagram_generator": "kyselina",
+   "diagram": "Kapka mraku zvětšená lupou: H₂SO₄; vedle přeškrtnuté H₂O (text_skrtnuty).",
+   "note": "Kyselina = kyselinově žlutozelená KYS.",
+   "vycet": 0.3,
+   "pause": 0.5
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "kyselina",
+   "diagram": "PROFIL: vrstva mraků 48–70 km kapkami, obytné pásmo 50–55 km uvnitř ní.",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. Assert: pásmo leží uvnitř vrstvy mraků."
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "kyselina",
+   "diagram": "Tři ikony: kov s rezavými skvrnami METAL CORRODES, roztržené těsnění SEALS FAIL, kousnutý tvar EATEN.",
+   "note": "Výčet — vycet 0.3.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "kyselina",
+   "diagram": "Skleněná láhev s kyselinou, štítek H₂SO₄, nápis GLASS · CENTURIES.",
+   "note": "Factcheck S52."
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "kyselina",
+   "diagram": "Fólie TEFLON (FEP) ve vaničce kyseliny; dva pruhy propustnosti DAY 1 ~90 % a DAY 30 ~90 %.",
+   "note": "Factcheck S53: HAVOC PoC, pokles < 2 %. Pruhy stejně dlouhé, assert."
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "kyselina",
+   "diagram": "Vzorek PVC: vlevo čistý, vpravo zhnědlý; AFTER 1 HOUR.",
+   "note": "Factcheck S54."
+  },
+  {
+   "id": "S55",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "diagram_generator": "kyselina",
+   "diagram": "Vlevo malá vanička s fólií LAB · ONE MONTH, uprostřed ≠, vpravo velký balon-habitat ve víru šipek větru a kapek kyseliny, nad ním A CITY IN A STORM · FOR DECADES, pod ním NEEDS CONSTANT REPAIR.",
+   "note": "Původně SDXL; tři kola (5 seedů) dala klidné horkovzdušné balony nebo krajinu s řekou, bouři ani jednou → podle pravidla o změně zdroje překresleno kódem. Vanička je tvarem rým s S53."
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "kyselina",
+   "diagram": "SKÓRE 3 : 1, přibude CLOUDS pro Mars.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.2
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "energie",
+   "diagram": "Slunce vlevo, Venuše (0,72 AU) a Země (1 AU) na ose; pruhy slunečního světla VENUS ~1.9× a EARTH 1×.",
+   "note": "Factcheck: 1/0,723² = 1,91. Assert.",
+   "vycet": 0.3,
+   "pause": 0.5
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "energie",
+   "diagram": "Pás mraků, nad ním dva panely: jeden lícem nahoru (přímé světlo shora), druhý lícem dolů (odražené světlo od mraků). Oba ALMOST AS GOOD.",
+   "note": "Factcheck S58: albedo ~0,75 (Landis)."
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "energie",
+   "diagram": "Venuše: tenká šipka rotace planety 243 DAYS a velká šipka atmosféry kolem ní.",
+   "note": "Šipka atmosféry výrazná, rotace planety skoro nehybná."
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "energie",
+   "diagram": "Pohled shora: prstenec atmosféry s šipkami, 6–7 DAYS PER LAP ve výšce města.",
+   "note": "Factcheck S60. ANIMACE: šipky prstence obíhají.",
+   "anim": "animace",
+   "pause": 0.5
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "energie",
+   "diagram": "Venuše shora s denní a noční polovinou, město na prstenci v noční polovině; dvě časové osy: EARTH NIGHT 12 H a CITY NIGHT ~3 DAYS.",
+   "note": "Pruhy z čísel (12 h vs 72 h), assert. ANIMACE: město vjede do noci.",
+   "anim": "animace"
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "energie",
+   "diagram": "Baterie 3 DAYS; pod ní pruh MARS DAY 24 H 40 MIN.",
+   "note": "Factcheck S62."
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "energie",
+   "diagram": "SKÓRE 3 : 2, přibude POWER pro Mars.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.2,
+   "naveti": "On Mars, a day lasts twenty-four hours and forty minutes."
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "voda",
+   "diagram": "Velký čtverec vzduchu, v něm jediný drobný tyrkysový bod; 20 PARTS PER MILLION.",
+   "note": "1 bod na 50 000 by nebyl vidět; bod je symbol, popisek nese číslo.",
+   "vycet": 0.3
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "voda",
+   "diagram": "Řez kapkou: většina H₂SO₄, mezi nimi molekuly vody (tyrkysově); WATER TOO.",
+   "note": "Factcheck S65: 75–96 % kyseliny."
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "voda",
+   "diagram": "Rovnice H₂SO₄ → H₂O + SO₃ v kartách se šipkou.",
+   "note": "Factcheck S66."
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "voda",
+   "diagram": "Tatáž rovnice, nad šipkou blesk LOTS OF ENERGY; čárkovaný stroj NOT BUILT YET.",
+   "note": "Čárkovaně = neexistuje."
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "voda",
+   "diagram": "Řez půdou Marsu s vrstvou ledu a lopatou; ICE IN THE GROUND.",
+   "note": "Factcheck S68."
+  },
+  {
+   "id": "S69",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S69.png",
+   "note": "PICK OVĚŘEN Z KONTAKTNÍHO LISTU: inženýři spouštějí MOXIE do Perseverance (NASA/JPL-Caltech). Původní kandidát ‚The Sound of MOXIE‘ měl kredit NASA/JPL-Caltech/CNES/IRAP, tedy i nevládní spoluautory — vyměněno.",
+   "archive": {
+    "provider": "nasa",
+    "query": "Engineers Lower MOXIE into Perseverance",
+    "pick": 0,
+    "grade": {
+     "fit": 0.92,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "voda",
+   "diagram": "Nahoře SKÓRE 3 : 3; pod ním dva řádky: OXYGEN FROM CO₂ — BOTH (fajfky) a WATER — MARS EASIER.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.2
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "zem",
+   "diagram": "Postava stojí na skalnatém povrchu Marsu, krumpáč a malá stavba; DIG · BUILD · MINE.",
+   "note": "",
+   "vycet": 0.3
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "zem",
+   "diagram": "Město v oblacích; šipky materiálu přicházejí jen dvěma cestami: z okolního vzduchu (CO₂) a raketou ze Země.",
+   "note": ""
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "zem",
+   "diagram": "PROFIL: město v pásmu, šipka dolů 50 KM k povrchu, přistávací modul a ≤ ~2 HOURS.",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. Factcheck S73: rekord Venera 13, 127 min."
+  },
+  {
+   "id": "S73b",
+   "source": "archive",
+   "effect": "slow_zoom_out",
+   "visual": "images/S73b.png",
+   "note": "PICK OVĚŘIT: Curiosity na Marsu (NASA/JPL-Caltech/MSSS, PD).",
+   "archive": {
+    "provider": "nasa",
+    "query": "Mount Sharp Photobombs Curiosity",
+    "pick": 0,
+    "grade": {
+     "fit": 0.94,
+     "vignette": false
+    }
+   }
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "zem",
+   "diagram": "SKÓRE 3 : 4, přibude GROUND pro Mars.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "pause": 2.4,
+   "naveti": "On Mars, rovers have been driving around for decades."
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "cesta",
+   "diagram": "SKÓRE s rozsvícenou poslední kategorií GETTING THERE.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. ",
+   "vycet": 0.3
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "cesta",
+   "diagram": "Časová osa 0–8 let: značky startovních oken VENUS každých ~19 měsíců a MARS každých ~26 měsíců.",
+   "note": "Factcheck S76: synodické periody 584 a 780 dní. Polohy z čísel, assert.",
+   "pause": 0.5
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "cesta",
+   "diagram": "Pruhy zpáteční cesty s měsícem pobytu: VENUS ~14 MONTHS, MARS ≥ 18 MONTHS; nahoře SKÓRE 4 : 4.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. Factcheck S77.",
+   "pause": 2.2
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "cesta",
+   "diagram": "SKÓRE 4 : 4, pod tabulí čárkovaná devátá kategorie GETTING HOME mimo řadu.",
+   "note": "PÁTEŘ 2 = skore() v _kit.py: tabule nahoře na pevných souřadnicích (Venuše vlevo, Mars vpravo), pod ní řada osmi kategorií; vyhrané kategorie barvou vítěze. "
+  },
+  {
+   "id": "S79",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S79.png",
+   "diagram_generator": "cesta",
+   "diagram": "Malá planeta MARS, raketa na zemi, slabá šipka gravitace.",
+   "note": "Rým s S80 — stejné rozvržení."
+  },
+  {
+   "id": "S80",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S80.png",
+   "diagram_generator": "cesta",
+   "diagram": "Velká planeta VENUS, raketa zavěšená pod balonem v oblacích, silná šipka gravitace.",
+   "note": ""
+  },
+  {
+   "id": "S81",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S81.png",
+   "diagram_generator": "cesta",
+   "diagram": "Pruhy ORBITAL SPEED: MARS ~3.5 KM/S a VENUS ~7.2 KM/S; ≈ 2×.",
+   "note": "Factcheck S81: 7,2 vs 3,4–3,5. Assert."
+  },
+  {
+   "id": "S82",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S82.png",
+   "diagram_generator": "cesta",
+   "diagram": "ROCKETS LAUNCHED FROM MARS: 0 a schránka se vzorkem; pod tím VENUS: HARDER STILL.",
+   "note": "Callback na video 160 (karta).",
+   "pause": 2.8,
+   "karta": "160-why-is-it-so-hard-to-bring-a-rock-back-from-mars"
+  },
+  {
+   "id": "S83",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S83.png",
+   "diagram_generator": "zaver",
+   "diagram": "Váhy EARTH-LIKE?: miska VENUS níž (víc podobností: gravitace, tlak, teplota).",
+   "note": "",
+   "pause": 0.6
+  },
+  {
+   "id": "S84",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S84.png",
+   "diagram_generator": "zaver",
+   "diagram": "Tři ikony pro Mars: GROUND TO DIG, ICE TO MELT, A WAY HOME.",
+   "note": "",
+   "vycet": 0.3
+  },
+  {
+   "id": "S85",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S85.png",
+   "diagram_generator": "zaver",
+   "diagram": "Dvě poloviny: vlevo Mars s postavou na zemi A PLACE TO STAND, vpravo Venuše s balonem A PLACE TO FLOAT.",
+   "note": "Hlavní pointa, delší pauza.",
+   "pause": 3.0
+  },
+  {
+   "id": "S86",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S86.png",
+   "note": "Atmosféra závěru: okno nad mořem žlutých mraků. Kola 1–2 zamítnuta (kulaté okno = lodní průzor, za ním moře a pláž). Kolo 3: kajuta vzducholodi, seed 8602 (8603 měl zase moře).",
+   "prompt": "interior of an airship cabin with a large panoramic window, outside the window only soft pale yellow cloud tops under a hazy cream sky, cloud tops fill the window up to the horizon",
+   "seed": 8602
+  },
+  {
+   "id": "S87",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S87.png",
+   "diagram_generator": "zaver",
+   "diagram": "PROFIL (výplata páteře 1) vlevo: postava v pásmu, u ní AIR · ROOM TEMPERATURE · 0.9 g, dole 465 °C. Pravá horní polovina prázdná.",
+   "note": "PÁTEŘ 1 = profil() v _kit.py: svislá osa výšky 0–70 km v LEVÉ části obrazu (x < ~900), dole rozžhavený povrch, pás mraků 48–70 km, obytné pásmo 50–55 km. Obsah scény vpravo. Závěrečná obrazovka: pravá horní část volná.",
+   "pause": 2.0
+  },
+  {
+   "id": "S88",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S88.png",
+   "diagram_generator": "zaver",
+   "diagram": "Ve spodní polovině: CAVE ON MARS  or  BALLOON ABOVE VENUS? se dvěma ikonkami. Horní polovina prázdná.",
+   "note": "Závěrečná obrazovka: horní polovina volná."
+  }
+ ]
+}

@@ -1,0 +1,679 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S01.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 dvojice(): vlevo smartphone (OBOUSMĚR, tyrkys) svítí, nad ním 2026; vpravo na pevném místě obrys pageru ztlumený, prázdný. Nahoře A HOSPITAL DOCTOR, 2026.",
+      "note": "První obrazovka nese myšlenku (dva přístroje z různých epoch v téže kapse), ne atmosféru; žádné SDXL. PÁTEŘ 1 se zavádí tady a vrací v S22, S48, S56–S58, S69 na týchž souřadnicích.",
+      "pause": 0.4
+    },
+    {
+      "id": "S02",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S02.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 1 dvojice(): telefon ztlumený, pager (JEDNOSMĚR, korál) rozsvícený, na displeji jeden řádek textu, nad ním 1980s.",
+      "note": "„can only beep and show a line of text“ — displej má JEDEN řádek, ne obrazovku. Text displeje neutrální (číslo linky), žádná data pacienta.",
+      "pause": 0.5
+    },
+    {
+      "id": "S03",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S03.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "pager Motorola",
+        "pick": 1
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-22, dotaz „pager Motorola“): [1] Motorola Pager 2 — tmavý pager z boku s displejem; jediný bez čitelného loga přes plochu ([3], [4] mají MOTOROLA velkým). Zoom na předmět je v pořádku.",
+      "naveti": "A small plastic box that can only beep and show a line of text.",
+      "pause": 1.0
+    },
+    {
+      "id": "S04",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S04.png",
+      "diagram_generator": "uvod",
+      "diagram": "PÁTEŘ 2 osa_let(): vodorovná časová osa 1949–2026 ve spodní třetině; značka 1949 svítí: AL GROSS · PATENT · „TELEPHONE PAGER“. Ostatní roky osy jen ztlumené dílky.",
+      "note": "PÁTEŘ 2 = osa_let() v _kit.py, tytéž souřadnice v S04, S05, S08, S09, S62, S64. Citované „telephone pager“ v uvozovkách, protože je to jeho výraz (Lemelson-MIT, factcheck S04)."
+    },
+    {
+      "id": "S05",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S05.png",
+      "diagram_generator": "uvod",
+      "diagram": "osa_let(): 1949 ztlumeně, 1950 svítí JEWISH HOSPITAL, NEW YORK; vpravo ztlumeně 1973 FIRST MOBILE PHONE CALL; mezi 1950 a 1973 závorka 20+ YEARS.",
+      "note": "Závorka měří 1950→1973 = 23 let, popisek 20+ ze scénáře („more than twenty years“); assert na rozdíl let.",
+      "pause": 0.6
+    },
+    {
+      "id": "S06",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S06.png",
+      "diagram_generator": "uvod",
+      "diagram": "Deset postav v řadě, osm rozsvícených (pager u pasu), dvě ztlumené. Nahoře SURVEY PUBLISHED 2017 · US HOSPITAL CLINICIANS; pod řadou ALMOST 8 IN 10 OF THOSE WHO ANSWERED HAD A PAGER.",
+      "note": "79,8 % → 8 z 10, assert. „of those who answered“ musí být v obraze (response rate 11 %, factcheck S06), jinak obraz tvrdí víc než scénář."
+    },
+    {
+      "id": "S07",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S07.png",
+      "diagram_generator": "uvod",
+      "diagram": "Tytéž postavy na týchž místech: pět z deseti svítí (podmnožina těch osmi), ostatní tři s pagerem ztlumeně, dvě bez pageru nejtišeji. Popisek ABOUT HALF: PAGER WAS THE MAIN WAY MESSAGES REACHED THEM.",
+      "note": "49 % je ze VŠECH respondentů (304/620, factcheck S07), proto 5 z 10, ne polovina z osmi. assert."
+    },
+    {
+      "id": "S08",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S08.png",
+      "diagram_generator": "uvod",
+      "diagram": "osa_let(): 2019 svítí — NHS ORDERED: STOP PAGERS FOR EVERYDAY MESSAGES; čárkovaná šipka k 2021 DEADLINE. Nad osou ≈130,000 PAGERS.",
+      "note": "Čárkovaně = plán (konvence 3). „everyday messages“ musí být v textu — zákaz se netýkal nouzových (factcheck S08).",
+      "pause": 1.0
+    },
+    {
+      "id": "S09",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S09.png",
+      "diagram_generator": "uvod",
+      "diagram": "osa_let(): termín 2021 zůstává čárkovaný, osa pokračuje k 2026, kde svítí SUMMER 2026: STILL IN USE.",
+      "note": "Termín se NEškrtá křížkem — neplatí „zákaz neexistuje“, ale „nesplnil se“. Čárkování to nese samo.",
+      "pause": 0.4
+    },
+    {
+      "id": "S10",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S10.png",
+      "diagram_generator": "uvod",
+      "diagram": "Uprostřed pager (korál), nad ním velký ambrový otazník. Pod ním WHY WON'T IT GO AWAY?",
+      "note": "Hlavní otázka videa; první dílčí odpověď přijde hned v S12 (do 1:10 začni platit: S04–S09 už nesou čísla).",
+      "pause": 1.8
+    },
+    {
+      "id": "S11",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S11.png",
+      "diagram_generator": "princip",
+      "diagram": "Řez pagerem (velký, uprostřed): uvnitř tři bloky RECEIVER · DISPLAY · BATTERY, čtvrtý slot prázdný a ztlumený. Nahoře HOW A PAGER WORKS.",
+      "note": "Řez musí být funkčně správně: anténa → přijímač → displej, baterie napájí. Je to scéna „jak něco funguje“ — projít kudy jde signál (docs/storyboard-a-diagramy.md)."
+    },
+    {
+      "id": "S12",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S12.png",
+      "diagram_generator": "princip",
+      "diagram": "Týž řez: čtvrtý slot nese přeškrtnutý nápis TRANSMITTER (text_skrtnuty), do antény míří jen příchozí vlny. Nahoře A TYPICAL HOSPITAL PAGER · ONLY LISTENS.",
+      "note": "„typical“ je v obraze, protože obousměrné pagery existují (factcheck S12). Vlny jen DOVNITŘ, žádná ven.",
+      "pause": 1.6
+    },
+    {
+      "id": "S13",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S13.png",
+      "diagram_generator": "princip",
+      "diagram": "Tři štítky BRITAIN · EUROPE · JAPAN (výrobci pagerů) se sbíhají do jednoho rámečku ONE WAY OF PAGING; nad tím MID-1970s · BRITISH POST OFFICE.",
+      "note": "„mid-1970s“, ne konkrétní rok (1975 vs 1976, factcheck S13). Šipky míří od výrobců ke společnému kódu — podmět věty je pošta, která je svedla dohromady."
+    },
+    {
+      "id": "S14",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S14.png",
+      "diagram_generator": "princip",
+      "diagram": "Vysílaný proud jako pás buněk zleva doprava: [ADRESA 1234567][ZPRÁVA „CALL 4417“], adresa ambrově. Nad pásem velké POCSAG, pod ním drobně POST OFFICE CODE STANDARDISATION ADVISORY GROUP.",
+      "note": "Výzva k odběru ZA touto scénou (~2:00): levý dolní roh (x < 22 %, y > 75 %) prázdný, BEZ svgkit.title(). Obsah končí nad y = 1080.",
+      "pause": 2.2,
+      "vyzva": true
+    },
+    {
+      "id": "S15",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S15.png",
+      "diagram_generator": "princip",
+      "diagram": "PÁTEŘ 3 mapa(): krajina se šesti stožáry ve dvou oblastech; telefon (tyrkys) v jedné, ta oblast podbarvená. Nahoře PHONE NETWORK: KNOWS ROUGHLY WHICH AREA.",
+      "note": "PÁTEŘ 3 = mapa() v _kit.py, tytéž stožáry v S15–S19, S42, S44. Začátek scény ještě kryje výzva → levý dolní roh prázdný, bez titulku; mapa v pravé a střední části.",
+      "pause": 0.5
+    },
+    {
+      "id": "S16",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S16.png",
+      "diagram_generator": "princip",
+      "diagram": "mapa(): jen stožáry podbarvené oblasti vysílají kroužky (výzva), ostatní mlčí. Popisek ENGINEERS CALL THIS „PAGING“.",
+      "note": "Kroužky jen v oblasti, kde síť telefon tuší — ne po celé mapě (to je až pager v S19).",
+      "pause": 0.5
+    },
+    {
+      "id": "S17",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S17.png",
+      "diagram_generator": "princip",
+      "diagram": "mapa(): telefon odpoví šipkou ke stožáru, mezi nimi obousměrná šipka TWO-WAY.",
+      "note": "Šipka odpovědi míří OD telefonu KE stožáru (podmět „your phone answers“)."
+    },
+    {
+      "id": "S18",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S18.png",
+      "diagram_generator": "princip",
+      "diagram": "mapa(): bez podbarvené oblasti, pager (korál) někde v krajině, nad sítí otazník; popisek ONE-WAY · NO ANSWER · NO IDEA WHERE YOU ARE.",
+      "note": "Žádná šipka od pageru — nemá vysílač.",
+      "pause": 0.4
+    },
+    {
+      "id": "S19",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S19.png",
+      "diagram_generator": "princip",
+      "diagram": "mapa(): VŠECHNY stožáry vysílají tutéž zprávu; v krajině osm pagerů ztlumeně, jeden se shodným číslem svítí.",
+      "note": "assert: všechny stožáry vysílají, svítí právě jeden pager.",
+      "pause": 1.6
+    },
+    {
+      "id": "S20",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S20.png",
+      "diagram_generator": "princip",
+      "diagram": "PÁTEŘ 4 ctyri(): nahoře rámeček NEVER TRANSMITS, pod ním čtyři dlaždice BATTERY · BUILDING · DISASTER · TEAM; svítí BATTERY.",
+      "note": "PÁTEŘ 4 = ctyri() v _kit.py: S20, S23, S33, S37, S38 na týchž souřadnicích. Dlaždice jsou osnova výhod, ne hodnocení."
+    },
+    {
+      "id": "S21",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S21.png",
+      "diagram_generator": "baterie",
+      "diagram": "Pás vysílacího cyklu rozdělený na sloty; pager spí (ztlumený), probouzí se jen ve svém slotu (ambrový). Vlevo přeškrtnuté TRANSMITTING. Popisek ASLEEP MOST OF THE TIME · WAKES FOR ITS OWN SLOT.",
+      "note": "„This kind of pager“ — POCSAG dávky (factcheck S21). Slot je krátký proti cyklu, poměr zhruba podle POCSAG (1 rámec z 8), assert.",
+      "pause": 0.5
+    },
+    {
+      "id": "S22",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S22.png",
+      "diagram_generator": "baterie",
+      "diagram": "PÁTEŘ 1 dvojice(): pod telefonem baterie téměř prázdná + zástrčka EVERY DAY; pod pagerem plná baterie WEEKS.",
+      "note": "„weeks“ bez čísla (provoz AA 3–4 týdny, factcheck S22). Konec bloku.",
+      "pause": 2.2
+    },
+    {
+      "id": "S23",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S23.png",
+      "diagram_generator": "budova",
+      "diagram": "ctyri(): svítí BUILDING, BATTERY ztlumeně s fajfkou.",
+      "note": "Krátká scéna (4 slova) → naveti z předchozí scény proti /s/ artefaktu.",
+      "naveti": "So one small battery can keep it going for weeks."
+    },
+    {
+      "id": "S24",
+      "source": "sdxl",
+      "effect": "slow_zoom_in",
+      "visual": "images/S24.png",
+      "prompt": "long hospital basement corridor, thick bare concrete walls, a heavy shielded door at the end, flat fluorescent ceiling light, empty, deep perspective",
+      "note": "Atmosféra místa, kde se rádiu nedaří; konkrétní tvrzení nese hlas. Bez denní doby (dawn/dusk přebije paletu).",
+      "vycet": 0.3
+    },
+    {
+      "id": "S25",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S25.png",
+      "diagram_generator": "budova",
+      "diagram": "Telefon (tyrkys) dole vlevo, stožár vpravo; dvě šipky: stožár → telefon HEAR THE MAST, telefon → stožár THE MAST HEARS THE PHONE.",
+      "note": "Obě šipky stejně silné — rozdíl přijde až v S26."
+    },
+    {
+      "id": "S26",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S26.png",
+      "diagram_generator": "budova",
+      "diagram": "Týž obraz: šipka telefon → stožár ambrová a tenká, slábnoucí; pod ní SMALL, BATTERY-POWERED TRANSMITTER; mezi telefonem a stožárem kótovaná vzdálenost KILOMETRES.",
+      "note": "„may be kilometres away“ — kóta bez čísla."
+    },
+    {
+      "id": "S27",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S27.png",
+      "diagram_generator": "budova",
+      "diagram": "Pager místo telefonu; zůstává jen šipka stožár → pager, stožár vyšší a s větší značkou výkonu: POWERFUL · HIGH UP. Pod tím SLOW: A FEW THOUSAND BITS A SECOND AT MOST.",
+      "note": "POCSAG 512–2 400 b/s, FLEX do 6 400 (factcheck S27). Šipka od pageru NENÍ."
+    },
+    {
+      "id": "S28",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S28.png",
+      "diagram_generator": "budova",
+      "diagram": "Řez budovou se suterénem: signál pagingu sahá hlouběji (plné vlny), telefonní spojení v suterénu s otazníkem. Popisek SLOWER SIGNAL + POWER + FREQUENCY → OFTEN REACHES WHERE PHONES STRUGGLE.",
+      "note": "„often“ a „struggle“ musí zůstat — žádná absolutní výhoda (zpětná vazba 0.1: jiný profil selhání, ne nezničitelnost).",
+      "pause": 2.2
+    },
+    {
+      "id": "S29",
+      "source": "sdxl",
+      "effect": "slow_zoom_out",
+      "visual": "images/S29.png",
+      "prompt": "city hospital building under a heavy storm at night, driving rain, flat grey overcast sky, no sun, a few lit windows, distant wind-bent trees",
+      "note": "„the worst day“ — předěl k bloku katastrofy. Počasí, ne denní doba (chlad).",
+      "pause": 1.0
+    },
+    {
+      "id": "S30",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S30.png",
+      "diagram_generator": "katastrofa",
+      "diagram": "Jeden stožár, k němu míří desítky šipek od telefonů ze všech stran; stožár s ambrovým symbolem přetížení. Popisek EVERY CALL: ANOTHER DEMAND.",
+      "note": "Šipky míří OD telefonů KE stožáru (podmět „every call“)."
+    },
+    {
+      "id": "S31",
+      "source": "archive",
+      "effect": "slow_zoom_in",
+      "visual": "images/S31.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Hurricane Katrina flooding New Orleans",
+        "pick": 0,
+        "grade": {
+          "saturation": 90
+        }
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-22): [0] KatrinaNewOrleansFlooded edit2 — letecký snímek zatopených čtvrtí, US Coast Guard, PD. Bez lidí. Hlas nese citaci Verizonu (Computerworld 2. 9. 2005, factcheck S31)."
+    },
+    {
+      "id": "S32",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S32.png",
+      "diagram_generator": "katastrofa",
+      "diagram": "Jeden stožár vysílá jednu zprávu, pod ním pole 1 000 teček-pagerů (25 × 40); popisek 1,000 RECEIVERS = 1 BROADCAST. Vpravo dole menší čárkovaný stožár s prasklinou: PAGER NETWORKS HAVE LIMITS TOO.",
+      "note": "assert 1 000 teček. Prasklý stožár je povinný — bez něj obraz tvrdí nezničitelnost.",
+      "pause": 2.2
+    },
+    {
+      "id": "S33",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S33.png",
+      "diagram_generator": "tym",
+      "diagram": "ctyri(): svítí TEAM, ostatní tři ztlumeně s fajfkou. Popisek THE ONE HOSPITALS CARE ABOUT MOST.",
+      "note": "Viz diagram."
+    },
+    {
+      "id": "S34",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S34.png",
+      "diagram_generator": "tym",
+      "diagram": "Srdce s rovnou čarou monitoru uprostřed (bez krve a těla), kolem postavy DOCTORS · ANAESTHETIST · NURSES, šipky běhu ke středu.",
+      "note": "Bez nosiče a bez pacienta (factcheck S34)."
+    },
+    {
+      "id": "S35",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S35.png",
+      "diagram_generator": "tym",
+      "diagram": "Vlevo telefonní klávesnice s 2222 (ambrově), vpravo pět pagerů týmu rozsvícených naráz, nad nimi jedna společná značka času. Popisek MANY BRITISH HOSPITALS.",
+      "note": "Skupinová výzva (crash bleep); „same second“ obrazné (factcheck S35) — proto jedna společná značka, ne stopky s milisekundami."
+    },
+    {
+      "id": "S36",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S36.png",
+      "diagram_generator": "tym",
+      "diagram": "Tři řádky přeškrtnuté (text_skrtnuty): ENTER A CODE · OPEN AN APP · BUILD A GROUP FIRST.",
+      "note": "Výčet → vycet. První položka dřív „Nothing to unlock.“ — vycet vložil pauzu do závěru koncového k („unlo… k“, poslech draftu); bez vycet zase výčet splynul. Proto položka bez koncové ražené souhlásky.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S37",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S37.png",
+      "diagram_generator": "tym",
+      "diagram": "ctyri(): všechny čtyři dlaždice svítí; pod nimi ACROSS THE BUILDING · ALL AT ONCE · NO ANSWER NEEDED.",
+      "note": "Konec bloku výhod.",
+      "pause": 2.6
+    },
+    {
+      "id": "S38",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S38.png",
+      "diagram_generator": "cena",
+      "diagram": "ctyri() zmenšené vlevo a ztlumené; z rámečku NEVER TRANSMITS vede druhá větev vpravo k ambrovému THE PRICE.",
+      "note": "Táž příčina, druhá větev — „that same decision“.",
+      "pause": 0.8
+    },
+    {
+      "id": "S39",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S39.png",
+      "diagram_generator": "cena",
+      "diagram": "Postava sestry vlevo, šipka zprávy k pageru vpravo; nad pagerem DELIVERED? SEEN? s otazníky, žádná fajfka.",
+      "note": "Šipka od sestry k pageru; zpět nic.",
+      "pause": 0.5
+    },
+    {
+      "id": "S40",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S40.png",
+      "diagram_generator": "cena",
+      "diagram": "Lékař u telefonu na zdi volá zpět; na místě sestry jen ztlumená stopa (prázdné místo), popisek MOVED ON.",
+      "note": "Ztlumeně, ne čárkovaně: čárkování je v tomhle videu vyhrazené plánu a hypotéze (konvence 3)."
+    },
+    {
+      "id": "S41",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S41.png",
+      "diagram_generator": "cena",
+      "diagram": "Dvě dlaždice ceny: 1 NO CONFIRMATION (ztlumeně), 2 ? (ambrově).",
+      "note": "Viz diagram.",
+      "pause": 1.2
+    },
+    {
+      "id": "S42",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S42.png",
+      "diagram_generator": "cena",
+      "diagram": "PÁTEŘ 3 mapa(): všechny stožáry vysílají; kdekoli v krajině ucho/anténa, které slyší totéž. Popisek SENT EVERYWHERE = HEARD EVERYWHERE.",
+      "note": "Navazuje na S19 — tytéž souřadnice, aby bylo vidět, že je to TÁŽ vlastnost."
+    },
+    {
+      "id": "S43",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S43.png",
+      "diagram_generator": "cena",
+      "diagram": "Dva řádky vysílání: PLAIN TEXT „CALL 4417 — BED 12“ (ambrově), pod ním ENCRYPTED „7f#Q9…“ ztlumeně s popiskem EXISTS. Nahoře SOME SYSTEMS.",
+      "note": "„Some“ v obraze (factcheck S43). Šifrování existuje → neškrtat."
+    },
+    {
+      "id": "S44",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S44.png",
+      "diagram_generator": "cena",
+      "diagram": "mapa(): uvnitř dosahu levný přijímač (anténa + notebook), z něj čitelný text zprávy. Popisek ANYONE IN RANGE.",
+      "note": "Žádný návod, jen princip; žádná cena (vypuštěno ve v0.2)."
+    },
+    {
+      "id": "S45",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S45.png",
+      "diagram_generator": "cena",
+      "diagram": "Displej pageru se třemi řádky: NAME ████ · DIAGNOSIS ████ · ROOM ███. Nahoře 2018 · RESEARCHERS, VANCOUVER.",
+      "note": "Údaje začerněné — kanál nesmí ukazovat ani vymyšlená jména."
+    },
+    {
+      "id": "S46",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S46.png",
+      "diagram_generator": "cena",
+      "diagram": "Týž displej: NAME ████ · DATE OF BIRTH ████ · ORGAN ████. Nahoře AUGUST 2026 · NHS ORGAN-MATCHING SERVICE.",
+      "note": "Bez loga NHS a BBC. Popis služby podle factchecku S46."
+    },
+    {
+      "id": "S47",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S47.png",
+      "diagram_generator": "cena",
+      "diagram": "Týž displej, osobní řádky odstraněné (prázdné); popisek APOLOGISED · STOPPED SENDING PERSONAL DETAILS OVER THE AIR.",
+      "note": "Nepřestali používat pagery — jen posílat osobní údaje (factcheck S47). Pager zůstává v obraze.",
+      "pause": 2.4
+    },
+    {
+      "id": "S48",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S48.png",
+      "diagram_generator": "aplikace",
+      "diagram": "PÁTEŘ 1 dvojice(): telefon svítí, na displeji bublina zprávy s fajfkou SEEN; pod ním TWO-WAY · ENCRYPTED. Pager ztlumený.",
+      "note": "Viz diagram.",
+      "pause": 0.5
+    },
+    {
+      "id": "S49",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S49.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Dvě bubliny chatu: COULD YOU CHECK THE BLOOD RESULTS IN BED 12? · CAN THIS PATIENT MOVE TO THE WARD? → CONVERSATIONS → PHONE.",
+      "note": "Viz diagram."
+    },
+    {
+      "id": "S50",
+      "source": "archive",
+      "effect": "pan_right",
+      "visual": "images/S50.png",
+      "archive": {
+        "provider": "wikimedia",
+        "query": "Addenbrooke's Hospital",
+        "pick": 0
+      },
+      "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-22): [0] Addenbrooke's hospital — panorama areálu s komínem, PD (D Dinneen). Budova, žádní lidé, žádné logo. pan_right (fotka se hýbe)."
+    },
+    {
+      "id": "S51",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S51.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Plán areálu celý pokrytý Wi-Fi; pod ním dva stavy: FIRST WEEK: APP + PAGERS → AFTER: EVERYDAY PAGES ALMOST NONE (ztlumený pager).",
+      "note": "Není to graf — žádná osa s vymyšlenými hodnotami (Ercole 2023: „negligible“). Přechod 8. 6. 2022, týden souběhu PO go-live (factcheck S50–S51).",
+      "pause": 0.6
+    },
+    {
+      "id": "S52",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S52.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Pager s třemi řádky na displeji: CARDIAC ARREST · MAJOR TRAUMA · FIRE (ambrově). Popisek NEVER MEANT TO MOVE.",
+      "note": "Výčet → vycet.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S53",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S53.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Starý pagerový systém (ztlumený stožár) STAYS IN PLACE → čárkovaný rámeček UNTIL A RESILIENCE REVIEW SAYS IT'S SAFE TO REMOVE.",
+      "note": "Čárkovaně = plán (posouzení ještě nebylo). Dokládá pointu „druhý kanál“.",
+      "pause": 1.8
+    },
+    {
+      "id": "S54",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S54.png",
+      "diagram_generator": "aplikace",
+      "diagram": "Tři hovory z S52 → celý tým (pět postav) najednou, rozeseté po plánku budovy. Popisek NO TIME TO REPLY · WHOLE TEAM · WHEREVER THEY ARE.",
+      "note": "Před hlavním obratem videa.",
+      "pause": 3.0
+    },
+    {
+      "id": "S55",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S55.png",
+      "diagram_generator": "pointa",
+      "diagram": "Proud zpráv zleva se větví na dva pruhy; nad tím ONE KIND OF MESSAGE přeškrtnuté a pod ním TWO.",
+      "note": "Pointa (~7:15). Škrtá se celý nápis „one kind“, protože scénář tvrdí, že neplatí vůbec."
+    },
+    {
+      "id": "S56",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S56.png",
+      "diagram_generator": "pointa",
+      "diagram": "PÁTEŘ 1 dvojice(): telefon svítí, nad ním QUESTIONS · MOST; tři fajfky ARRIVE · SEEN · ANSWERED. Pager ztlumený.",
+      "note": "Tytéž souřadnice jako S01 — výplata páteře."
+    },
+    {
+      "id": "S57",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S57.png",
+      "diagram_generator": "pointa",
+      "diagram": "dvojice(): pager svítí, nad ním ALARMS · A FEW; WHOLE GROUP · RIGHT NOW · NO REPLY — RUN. Telefon ztlumený.",
+      "note": "Viz diagram.",
+      "vycet": 0.3
+    },
+    {
+      "id": "S58",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S58.png",
+      "diagram_generator": "pointa",
+      "diagram": "dvojice(): oba svítí, každý pod svým nadpisem; uprostřed DIFFERENT JOBS → DIFFERENT TOOLS.",
+      "note": "Ani jeden přístroj není větší — žádné „vítěz“.",
+      "pause": 1.4
+    },
+    {
+      "id": "S59",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S59.png",
+      "diagram_generator": "pointa",
+      "diagram": "Pager s přeškrtnutým nápisem UNBREAKABLE (text_skrtnuty); vedle ikony nemocnice BACKUP POWER · SPARE WI-FI · OWN EMERGENCY SYSTEMS.",
+      "note": "Uživatel ke storyboardu: video nesmí vyznít jako reklama na pagery — tahle scéna to říká nahlas."
+    },
+    {
+      "id": "S60",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S60.png",
+      "diagram_generator": "pointa",
+      "diagram": "PÁTEŘ 5 kanaly(): dva vodorovné pruhy-kanály nad sebou: horní PHONE · WI-FI · APP (tyrkys, víc článků řetězu), dolní PAGER · TRANSMITTER (korál, méně článků). Popisek ANOTHER CHANNEL · SIMPLER · DIFFERENT.",
+      "note": "PÁTEŘ 5 = kanaly(), S60–S61 a S68. Dolní kanál má MÉNĚ článků, ne nula."
+    },
+    {
+      "id": "S61",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S61.png",
+      "diagram_generator": "pointa",
+      "diagram": "kanaly(): v obou pruzích výpadky (ambrové úseky) v RŮZNÝCH chvílích — i pagerový kanál má jeden; svislá čára ALARM padne na výpadek horního, dolní v tu chvíli běží. Popisek NOT AT THE SAME MOMENT.",
+      "note": "Redundance, ne záruka (notes: S61 ponecháno kvůli rytmu, obraz musí ukázat redundanci). assert: výpadky se nepřekrývají a dolní pruh má aspoň jeden.",
+      "pause": 1.2
+    },
+    {
+      "id": "S62",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S62.png",
+      "diagram_generator": "pointa",
+      "diagram": "osa_let(): úsek 1950–2026 ambrově s malým pagerem nad ním: 70+ YEARS.",
+      "note": "Výzva k odběru ZA touto scénou (~8:05): levý dolní roh prázdný, bez titulku; osa_let musí v levé třetině končit nad y = 1080.",
+      "pause": 2.6,
+      "vyzva": true
+    },
+    {
+      "id": "S63",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S63.png",
+      "diagram_generator": "zaver",
+      "diagram": "Velký ambrový otazník uprostřed, nic jiného.",
+      "note": "Začátek kryje výzva → levý dolní roh prázdný.",
+      "pause": 1.0
+    },
+    {
+      "id": "S64",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S64.png",
+      "diagram_generator": "zaver",
+      "diagram": "osa_let(): 2019 JAPAN: LAST COMMERCIAL PAGER SERVICE SWITCHED OFF (Tokyo Telemessage), pager nad tím ztlumený.",
+      "note": "„commercial“ v obraze (factcheck S64)."
+    },
+    {
+      "id": "S65",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S65.png",
+      "diagram_generator": "zaver",
+      "diagram": "Čtyři ubývající sloupce schodovitě: FEWER CUSTOMERS → FEWER NETWORKS → FEWER MAKERS → FEWER PEOPLE TO FIX THEM.",
+      "note": "Schematické, bez osy a hodnot.",
+      "pause": 0.5
+    },
+    {
+      "id": "S66",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S66.png",
+      "diagram_generator": "zaver",
+      "diagram": "Jeden stožár, z něj jediná čárkovaná linka k budově nemocnice, ostatní linky prázdné. Popisek MAY BECOME ONE OF THE LAST CUSTOMERS. Kresba jen v DOLNÍ polovině.",
+      "note": "Čárkovaně = hypotéza („may become“). Od S66 je kresba jen pod y = 720 — horní polovina pro závěrečnou obrazovku (S66 do ní částečně zasahuje).",
+      "pause": 0.6
+    },
+    {
+      "id": "S67",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S67.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dole: čárkovaný rámeček WHATEVER REPLACES IT, vedle telefon s nápisem CAN'T JUST BE A BETTER PHONE. Horní polovina prázdná.",
+      "note": "Závěrečná obrazovka: horní polovina volná.",
+      "pause": 0.6
+    },
+    {
+      "id": "S68",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S68.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dole tři řádky: REACH EVERYONE AT ONCE · KEEP WORKING WHEN OTHER THINGS STOP · SAY AS LITTLE AS POSSIBLE. Horní polovina prázdná.",
+      "note": "Výčet → vycet. Závěrečná obrazovka: horní polovina volná.",
+      "vycet": 0.3,
+      "pause": 1.6
+    },
+    {
+      "id": "S69",
+      "source": "svg",
+      "effect": "static",
+      "visual": "images/S69.png",
+      "diagram_generator": "zaver",
+      "diagram": "Dole PÁTEŘ 1 dvojice() zmenšená: telefon A MESSAGE YOU CAN ANSWER | pager ONE THAT REACHES YOU WHEN EVERYTHING ELSE FAILS; mezi nimi OR? Oba stejně velké a stejně jasné.",
+      "note": "Otázka do komentářů — obě strany vyvážené, žádný vítěz. Horní polovina volná pro dlaždici a kolečko."
+    }
+  ]
+}

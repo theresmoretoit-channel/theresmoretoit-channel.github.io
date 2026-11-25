@@ -1,0 +1,112 @@
+{
+  "title": "Venus Is Hell. So Why Could We Live There?",
+  "slug": "167-venus-is-hell-so-why-could-we-live-there",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.15,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly editorial illustration, endless sea of pale sulphur-yellow and ochre clouds, hazy pale cream-yellow sky, soft diffuse glow, one small cool teal accent, subtle film grain, restrained detail, cinematic wide composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, faces, close-up of people, oversaturated, neon, blurry, low quality, deformed, ocean, sea, water, beach, shoreline, ground, land, blue sky"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -36,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 167,
+    "music_sections": [
+      [
+        "S01",
+        "S08"
+      ],
+      [
+        "S29",
+        "S36"
+      ],
+      [
+        "S46",
+        "S48"
+      ],
+      [
+        "S78",
+        "S82"
+      ],
+      [
+        "S83",
+        "S88"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false,
+    "lead_in": 0.15,
+    "frazovani": true
+  },
+  "pronounce": {
+    "lead": "led",
+    "1982": "nineteen eighty-two",
+    "1985": "nineteen eighty-five",
+    "2021": "twenty twenty-one"
+  },
+  "archive_grade": {
+    "saturation": 95,
+    "tint_amount": 0,
+    "vignette": false
+  }
+}
