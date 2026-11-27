@@ -1,0 +1,871 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S01.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ kuchyn(): linka ve spodní polovině, na ní banán na pevném místě, vlevo nahoře okno. Banán ve třech stavech zleva doprava ztlumeně → hnědý → černý (poslední ambrově), pod nimi DAY 1 · DAY 3 · DAY 5. Prostor nad banánem prázdný.",
+   "note": "První obrazovka nese myšlenku: prázdný vzduch nad banánem je místo, kde v S02 budou mouchy (výplata o scénu později). Žádné SDXL. PÁTEŘ kuchyn() se zavádí tady, vrací se v S02–S04, S09, S30, S41, S75 na týchž souřadnicích.",
+   "pause": 0.5,
+   "vycet": 0.3
+  },
+  {
+   "id": "S02",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ kuchyn(): černý banán, nad ním hejnko drobných much (ambrově) s krouživými čárkami letu. Vedle malý panel A FEW DAYS AGO: tatáž linka, 0 FLIES. Velký otazník nad mouchami.",
+   "note": "Výplata prázdného vzduchu z S01. Otázka „where did they come from?“ — otazník, ne odpověď.",
+   "pause": 0.6
+  },
+  {
+   "id": "S02b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S02b.png",
+   "diagram_generator": "uvod",
+   "diagram": "Obraz S02 beze změny, přibude jen čárkovaná karta LIFE FROM NOTHING? vpravo od hejna.",
+   "note": "Otázka dodaná uživatelem po poslechu draftu (2026-11-25). Jeden obraz se S02, mění se jen karta; čárkovaně = tvrzení, které neplatí. Znění rýmuje S75 („life appearing from nothing“).",
+   "pause": 1.0
+  },
+  {
+   "id": "S03",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S03.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ kuchyn(): od banánu stoupá pach (vlnité čárkované linky) a odchází OKNEM ven; venku na téže stopě mouchy, které letí po pachu dovnitř. Popisek FERMENTING FRUIT + YEAST u banánu, FROM OUTSIDE u okna. Drobná ikona mouchy s popiskem FRUIT FLY.",
+   "note": "CESTA 1 (zvenku). Uživatel k v0.2: S03 a S04 musí být vizuálně jasně DVĚ různé cesty. Tady je jen okno a stopa pachu, žádná taška s ovocem.",
+   "pause": 0.5
+  },
+  {
+   "id": "S04",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S04.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ kuchyn(): cesta 1 z S03 ztlumeně (okno, šipka štěrbinou, popisek THROUGH A GAP). Nově vpravo nákupní taška s jablky a hroznem, výřez lupou na slupku s drobnými vajíčky (ambrově), šipka z tašky na linku: ON OTHER FRUIT, AS EGGS.",
+   "note": "CESTA 2 (vajíčka na ovoci) ambrově a na OPAČNÉ straně obrazu než okno — dvě cesty se nesmí plést. Cesta 1 zůstává ztlumená, protože hlas ji v první větě zmíní znovu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S05",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S05.png",
+   "diagram_generator": "uvod",
+   "diagram": "Kruh životního cyklu: EGG → LARVA → PUPA → ADULT, uprostřed ~10 DAYS (IN WARM CONDITIONS). Vpravo jedna samička a z ní vějíř teček s popiskem ~500 EGGS.",
+   "note": "Čísla jen ze scénáře (about ten days, around five hundred). Tečky vějíře nejsou počet 500 — popisek nese číslo, tečky jen „hodně“; žádný assert na počet teček, aby obraz netvrdil přesný počet.",
+   "pause": 0.6
+  },
+  {
+   "id": "S06",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S06.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ retez(): ve spodní polovině vodorovný řetěz článků; tři poslední vpravo jsou moucha ← vajíčko ← moucha ← vajíčko, nejpravější moucha ambrově. Nahoře NOTHING APPEARED OUT OF NOWHERE.",
+   "note": "PÁTEŘ retez() se zavádí tady: vodorovný řetěz generací v pásu y ≈ 900–1100 (z 1440), nejnovější článek vždy vpravo. Vrací se v S08, S31, S33, S73, S76, S77 na týchž souřadnicích. Leží DOLE schválně — v závěru (S76–S77) tak zůstane horní polovina volná pro závěrečnou obrazovku.",
+   "pause": 0.6
+  },
+  {
+   "id": "S07",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S07.png",
+   "diagram_generator": "uvod",
+   "diagram": "Dlouhá vodorovná úsečka 2000+ YEARS od ARISTOTLE vlevo po PASTEUR vpravo (jen jména, bez portrétů). Za jejím pravým koncem malý ambrový otazník: A PROBLEM WE STILL HAVEN'T SOLVED.",
+   "note": "Délka úsečky je jen „dlouhá“, ne měřítko. Otazník za koncem připravuje S08.",
+   "pause": 0.6
+  },
+  {
+   "id": "S08",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S08.png",
+   "diagram_generator": "uvod",
+   "diagram": "PÁTEŘ retez(): řetěz z S06 pokračuje doleva, články postupně tmavnou a ztrácí se ve tmě; na levém konci místo článku velký ambrový otazník a nad ním WHERE DID THE FIRST LIFE COME FROM?",
+   "note": "Hlavní otázka videa (~1:00). Konec úvodního bloku → dlouhá pauza.",
+   "pause": 2.6
+  },
+  {
+   "id": "S09",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S09.png",
+   "diagram_generator": "dejiny",
+   "diagram": "PÁTEŘ kuchyn(): černý banán, mouchy z něj vystupují po čárkovaných šipkách přímo z banánu. Popisek FROM THE BANANA ITSELF? Okno a taška nejsou.",
+   "note": "Rým na S03/S04: tatáž kuchyň, ale stará odpověď. Čárkovaně = tvrzení, které neplatí (konvence 3 v _kit.py).",
+   "pause": 0.6
+  },
+  {
+   "id": "S10",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S10.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Aristotle bust Altemps",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Aristotle bust Altemps“): [0] Aristotle Altemps Inv8575 — mramorová busta na světlém pozadí, PD. [3] je výřez jen 307 px, [1]/[2] busty v muzeu s cedulkami. Busta Aristotela, celá hlava s odstupem, bez zoomu (portrét). Úhoře a rosu nese S11.",
+   "pause": 0.8
+  },
+  {
+   "id": "S11",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S11.png",
+   "diagram_generator": "dejiny",
+   "diagram": "Nadpis SPONTANEOUS GENERATION. Pod ním dvě dvojice s čárkovanou šipkou: MUD ⇢ EELS, DEW ON LEAVES ⇢ INSECTS. Vpravo drobně LASTED FOR CENTURIES.",
+   "note": "Čárkované šipky = tvrzení, které neplatí. Úhoř a hmyz jsou z Aristotela (factcheck), žáby ze zdroje se nedávají.",
+   "pause": 1.0
+  },
+  {
+   "id": "S12",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S12.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Jan Baptist van Helmont portrait",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Jan Baptist van Helmont portrait“): [1] John Baptist van Helmont, PA07845 — rytina, PD, 1048×1745; [0] má jen 259×326 px, [2]/[3] dvojportrét s otcem/synem. Rytina/portrét van Helmonta, bez zoomu. Jméno v obraze nebude — nese ho hlas a S13.",
+   "pause": 0.4
+  },
+  {
+   "id": "S13",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S13.png",
+   "diagram_generator": "dejiny",
+   "diagram": "Receptová karta VAN HELMONT'S RECIPE FOR MICE: 1. DIRTY UNDERWEAR + WHEAT IN A JAR, 2. WAIT 21 DAYS, 3. MICE (čárkovaně, v uvozovkách). Vedle sklenice s hadrem a zrním, nad ní čárkovaná myš.",
+   "note": "Výsledek receptu je čárkovaně — obraz nesmí tvrdit, že myši opravdu vznikly. Vtip nese seriózní forma receptu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S14",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S14.png",
+   "diagram_generator": "dejiny",
+   "diagram": "Stodola v řezu, uvnitř pytle obilí. Myši vcházejí PLNÝMI šipkami škvírami ve zdi a z nory v rohu. Popisek THE BARN ALREADY HAD MICE.",
+   "note": "Výzva k odběru ZA touto scénou (~1:55): levý dolní roh (x < 22 %, y > 75 %) prázdný, BEZ svgkit.title(); kresba jen v pásu y 190–1080. Platí i pro začátek S15. Plné šipky = to, co se skutečně děje (proti čárkovaným v S09–S13).",
+   "pause": 2.2,
+   "vyzva": true
+  },
+  {
+   "id": "S15",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S15.png",
+   "diagram_generator": "redi",
+   "diagram": "Jmenovka FRANCESCO REDI · 1668 · PHYSICIAN. Vlevo ztlumené přeškrtnuté bubliny řeči (ARGUING), vpravo ambrové oko nad sklenicí s masem (WATCHING).",
+   "note": "Kreslené, ne portrét: začátek scény překrývá výzva k odběru, levý dolní roh musí být prázdný — fotka s fit by ho vyplnila rozostřenou kopií. Kresba jen nad y = 1080. Škrtá se plocha bublin bez písma; nápis ARGUING zůstává čitelný.",
+   "pause": 0.6
+  },
+  {
+   "id": "S16",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S16.png",
+   "diagram_generator": "redi",
+   "diagram": "PÁTEŘ sklenice(): řada sklenic s masem na pevných místech. Levá skupina OPEN, pravá SEALED (víčko). Nad otevřenými mouchy, v mase otevřených ambrově červi (MAGGOTS); zapečetěné čisté (NONE).",
+   "note": "PÁTEŘ sklenice() pro S16–S20: tytéž sklenice na týchž místech, mění se jen víčko/gáza a výsledek.",
+   "pause": 0.6,
+   "vycet": 0.3
+  },
+  {
+   "id": "S17",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S17.png",
+   "diagram_generator": "redi",
+   "diagram": "PÁTEŘ sklenice(): zapečetěná sklenice zvětšená, šipka vzduchu se od víčka odráží (NO AIR). Čárkovaně otazník: MAYBE LIFE NEEDS FRESH AIR?",
+   "note": "Námitka je hypotéza → čárkovaně.",
+   "pause": 0.5
+  },
+  {
+   "id": "S18",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S18.png",
+   "diagram_generator": "redi",
+   "diagram": "PÁTEŘ sklenice(): nová skupina zakrytá GAUZE (jemná mřížka). Šipky vzduchu procházejí gázou (AIR ✓), moucha zastavená na gáze (FLIES ✗).",
+   "note": "Funkční kontrola: vzduch PROCHÁZÍ, moucha NE. Křížek jen u slova FLIES jako značka, ne přes nápis.",
+   "pause": 0.6,
+   "vycet": 0.3
+  },
+  {
+   "id": "S19",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S19.png",
+   "diagram_generator": "redi",
+   "diagram": "PÁTEŘ sklenice(): gázová sklenice: maso čisté (NO MAGGOTS), na horní straně gázy ambrově červi, nad tím moucha, která je tam nakladla.",
+   "note": "Factcheck S19: živé larvy na gáze, nakladené mouchami zvenku. Červi leží NA gáze, ne v mase.",
+   "pause": 0.8
+  },
+  {
+   "id": "S20",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S20.png",
+   "diagram_generator": "redi",
+   "diagram": "PÁTEŘ sklenice(): všechny tři skupiny vedle sebe zmenšené; maso ztlumeně (MEAT: NO LIFE), mouchy ambrově s plnou šipkou k červům (FLIES → MAGGOTS).",
+   "note": "Závěr bloku Redi → dlouhá pauza.",
+   "pause": 2.4
+  },
+  {
+   "id": "S21",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S21.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Leeuwenhoek microscope replica",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Leeuwenhoek microscope replica“): [0] Leeuwenhoek Microscope — mosazná replika na výšku, CC BY-SA 3.0; [1] má jen 500×334 px. Leeuwenhoekův mikroskop (předmět, ne portrét), zoom dovnitř = „a whole world of tiny living things“. Snímek na výšku → fit 0.84 (bez něj ořez jen na šroub).",
+   "pause": 0.5
+  },
+  {
+   "id": "S22",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S22.png",
+   "diagram_generator": "redi",
+   "diagram": "Miska vývaru, výřez lupou se spoustou drobných mikrobů. Nahoře NO EGGS ANYONE COULD SEE, pod tím čárkovaně SPONTANEOUS GENERATION … JUST SMALLER?",
+   "note": "Hypotéza čárkovaně. Konec bloku → přechod k Pasteurovi.",
+   "pause": 2.2
+  },
+  {
+   "id": "S23",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S23.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Louis Pasteur Nadar photograph",
+    "pick": 0,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Louis Pasteur Nadar photograph“): [0] Louis Pasteur, foto Paul Nadar (Crisco edit) — sedící, celá postava s odstupem, PD, 2388×3292. Portrét Pasteura, celá hlava s odstupem, bez zoomu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S24",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S24.png",
+   "diagram_generator": "pasteur",
+   "diagram": "PÁTEŘ banka(): baňka s vývarem; hrdlo nad plamenem ohnuté do dlouhé esovité křivky s otevřeným koncem. Vedle drobně labutí krk jako obrys (LIKE A SWAN'S NECK).",
+   "note": "PÁTEŘ banka() pro S24–S28 a S38: táž baňka na týchž souřadnicích. Funkční kontrola: hrdlo je OTEVŘENÉ, není zatavené; nejnižší bod ohybu je pod úrovní ústí.",
+   "pause": 0.5
+  },
+  {
+   "id": "S25",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S25.png",
+   "diagram_generator": "pasteur",
+   "diagram": "PÁTEŘ banka(): pod baňkou plamen, vývar vře (BOILED: NOTHING ALIVE). U otevřeného konce hrdla šipka vzduchu dovnitř (AIR GETS IN).",
+   "note": "Vzduch vstupuje otevřeným koncem — tvrzení scény.",
+   "pause": 0.5
+  },
+  {
+   "id": "S26",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S26.png",
+   "diagram_generator": "pasteur",
+   "diagram": "PÁTEŘ banka(): vzduch s tečkami prachu a mikrobů vchází hrdlem; tečky se usazují v NEJNIŽŠÍM místě ohybu (ambrově, DUST TRAPPED). Vzduch pokračuje k vývaru bez teček.",
+   "note": "Funkční kontrola: prach končí v ohybu, ne ve vývaru; vzduch dál prochází. Žádná tečka za ohybem.",
+   "pause": 0.8
+  },
+  {
+   "id": "S27",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S27.png",
+   "diagram_generator": "pasteur",
+   "diagram": "PÁTEŘ banka(): vývar čirý, vedle něj tikající řada MONTHS … YEARS (CLEAR).",
+   "note": "Factcheck: čistý měsíce až roky. Ne „dodnes“ — bez primárního zdroje.",
+   "pause": 0.8,
+   "vycet": 0.3
+  },
+  {
+   "id": "S28",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S28.png",
+   "diagram_generator": "pasteur",
+   "diagram": "PÁTEŘ banka(): hrdlo ulomené těsně nad baňkou (lom), prach padá přímo dovnitř, vývar zakalený (ambrově CLOUDY), popisek WITHIN A DAY OR TWO.",
+   "note": "Factcheck S28: odlomil hrdlo, ne naklonil baňku.",
+   "pause": 1.2
+  },
+  {
+   "id": "S29",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S29.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Chapelle de la Sorbonne",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Chapelle de la Sorbonne“): [1] Sainte-Ursule de la Sorbonne 2014 — průčelí kaple zpříma, bez lidí, CC BY-SA 4.0. Kaple je ze 17. stol., takže stála i v roce 1864 (zbytek budov je přestavba 1885–1901). Dotaz „Sorbonne 19th century“ vrátil plakáty. Budova nebo dobová rytina Sorbonny, bez lidí v popředí. Snímek na výšku → fit 0.84, pomalý zoom (fotka se hýbe).",
+   "pause": 1.2
+  },
+  {
+   "id": "S30",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S30.png",
+   "diagram_generator": "pasteur",
+   "diagram": "PÁTEŘ kuchyn(): banán s mouchami, u nich drobný cyklus moucha → vajíčko → moucha plnými šipkami. Nahoře LIFE COMES FROM LIFE.",
+   "note": "Návrat do kuchyně = uzavření prvního oblouku. Konec bloku → dlouhá pauza.",
+   "pause": 2.4
+  },
+  {
+   "id": "S31",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S31.png",
+   "diagram_generator": "retez",
+   "diagram": "PÁTEŘ retez(): řetěz z S06 bez popisků, levý konec ještě mimo obraz. Nahoře ztlumeně LIFE FROM LIFE, ambrový rámeček kolem levého konce (THE BIGGER QUESTION).",
+   "note": "Přechod z kuchyně zpět k velké otázce — páteř na týchž souřadnicích jako S06/S08.",
+   "pause": 1.0
+  },
+  {
+   "id": "S32",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S32.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Charles Darwin photograph 1868",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Charles Darwin photograph 1868“): [1] Darwin, Julia Margaret Cameron 1868 — ČB, kontrastní, PD. Sepiové [0]/[4] jsou totéž, ČB lépe ladí s břidlicovou paletou. Darwinův portrét z let kolem 1860–1870, bez zoomu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S33",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S33.png",
+   "diagram_generator": "retez",
+   "diagram": "PÁTEŘ retez(): řetěz táhnoucí se doleva, nad ním drobně PASTEUR: LIFE FROM LIFE + DARWIN: DESCENT. Pod ním BILLIONS OF YEARS. Na levém konci svislá stěna (ambrově): IT CAN'T GO ON FOREVER.",
+   "note": "Stěna = začátek Země, nese ho S34. Nekreslit první článek — ten je otázka videa.",
+   "pause": 1.6
+  },
+  {
+   "id": "S34",
+   "source": "sdxl",
+   "effect": "slow_zoom_out",
+   "visual": "images/S34.png",
+   "prompt": "young molten planet surface, rivers of glowing lava between black volcanic cones, thick ash and steam clouds, no water, no plants, hostile and empty, vast scale",
+   "note": "Atmosféra rané Země („far too hot“). První SDXL scéna ~4:00, daleko za rozsudkem prvních 20 s. Bez denní doby.",
+   "pause": 0.6
+  },
+  {
+   "id": "S35",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S35.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Strelley Pool stromatolite",
+    "pick": 2
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Strelley Pool stromatolite“): [2] Stromatolite, Strelley Pool Formation, 3,35–3,46 Ga, Pilbara — vrstvy zblízka na šířku, CC BY 2.0 (James St. John). ZKAMENĚLÝ z Pilbary, jak žádá scénář, ne živý ze Shark Bay. MUSÍ to být FOSILNÍ stromatolit z Pilbary (Strelley Pool / Dresser Formation), ne dnešní živé ze Shark Bay — obraz by jinak tvrdil, že nejstarší stopy jsou dnešní kameny. Když Commons nic nedá, náhrada je kresba vrstev.",
+   "pause": 0.8
+  },
+  {
+   "id": "S36",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S36.png",
+   "diagram_generator": "zeme",
+   "diagram": "PÁTEŘ osa(): časová osa ~4.5 BILLION YEARS AGO (EARTH FORMS) → ~3.5 (OLDEST TRACES OF LIFE) → TODAY. Mezi 4.5 a 3.5 ambrový úsek s čárkovanou hranicí NOT ALIVE | ALIVE, bez přesného místa.",
+   "note": "PÁTEŘ osa() pro S36 a S39. Měřítko osy lineární a hlídané assertem (4.5, 3.5, 0). Hranice čárkovaně, protože kdy přesně, se neví.",
+   "pause": 1.0
+  },
+  {
+   "id": "S37",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S37.png",
+   "diagram_generator": "zeme",
+   "diagram": "Dvě karty proti sobě: PASTEUR — LIFE ONLY FROM LIFE / ABIOGENESIS — LIFE FROM NON-LIFE (ambrově), mezi nimi blesk střetu.",
+   "note": "„seems to clash“ — zdánlivý rozpor; S38 ho rozpustí.",
+   "pause": 0.6
+  },
+  {
+   "id": "S38",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S38.png",
+   "diagram_generator": "zeme",
+   "diagram": "PÁTEŘ banka() na svém místě vlevo s popiskem SHOWN: NOT IN A FLASK, EVEN AFTER YEARS (plně). Vpravo velký ambrový rámeček NOT SHOWN: LIFE CAN'T COME FROM CHEMISTRY.",
+   "note": "Rozlišuje, co Pasteur ukázal a co ne. Nic se nepřeškrtává — škrt by tvrdil „neplatí to vůbec“.",
+   "pause": 1.6
+  },
+  {
+   "id": "S39",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S39.png",
+   "diagram_generator": "zeme",
+   "diagram": "PÁTEŘ osa(): úsek 4.5–3.5 roztažený: HUNDREDS OF MILLIONS OF YEARS + WHOLE OCEANS (vlnovky pod osou). Vpravo drobně jedna baňka pro srovnání měřítka.",
+   "note": "Kontrast s baňkou z S38: roky × statisíce let, baňka × oceány. Nejde o měřítko v pravém smyslu, jen kontrast velikosti.",
+   "pause": 0.6
+  },
+  {
+   "id": "S40",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S40.png",
+   "diagram_generator": "dopis",
+   "diagram": "Kartička dopisu: DARWIN, LETTER, 1871. Citát „… would be instantly devoured …“ ambrově.",
+   "note": "Citát doslova podle factchecku (S40), výpustkou zkrácený, nic nedopsané.",
+   "pause": 1.0
+  },
+  {
+   "id": "S41",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S41.png",
+   "diagram_generator": "dopis",
+   "diagram": "PÁTEŘ kuchyn(): banán; plná šipka YEAST → banán (FIRST), MOUCHY → kvasinky (THEN). Popisek GOT THERE FIRST.",
+   "note": "Rozvržení tří uzlů (banán, kvasinky, mouchy) je společné s S42 — rým.",
+   "pause": 0.6
+  },
+  {
+   "id": "S42",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S42.png",
+   "diagram_generator": "dopis",
+   "diagram": "Stejné rozvržení jako S41, ale místo banánu tůň s chemií (ambrově) a místa kvasinek a much PRÁZDNÁ (čárkované obrysy bez obsahu). BEFORE THE FIRST LIFE: NOTHING TO GET THERE FIRST.",
+   "note": "Rým s S41 na týchž souřadnicích — divák pozná, co chybí. Konec bloku → dlouhá pauza.",
+   "pause": 2.6
+  },
+  {
+   "id": "S43",
+   "source": "sdxl",
+   "effect": "slow_zoom_in",
+   "visual": "images/S43.png",
+   "prompt": "a small warm shallow pond among dark volcanic rocks on a barren primordial shore, wisps of steam, faint lightning in the distant clouds, no plants, no animals",
+   "note": "„warm little pond … light, heat and electricity“ — atmosféra Darwinovy představy; citát nese hlas. Bez denní doby.",
+   "pause": 1.4
+  },
+  {
+   "id": "S44",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S44.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Stanley Miller",
+    "pick": 1,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Stanley Miller“): [1] SLMILLER — Miller u skleněné aparatury, PD, 965×660. Je to Miller v pozdějším věku (ne student z 1952); obraz netvrdí rok. [4] je jiný Stanley Miller (voják), [0] jen 187 px. Stanley Miller (ideálně s aparaturou). Když Commons nemá použitelný snímek s licencí, náhrada je kresba se jmény MILLER · UREY · 1952.",
+   "pause": 0.5
+  },
+  {
+   "id": "S45",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S45.png",
+   "diagram_generator": "miller",
+   "diagram": "PÁTEŘ aparatura(): malá baňka s vodou nad ohřevem (HEAT) → pára stoupá do velké baňky s plyny WATER, METHANE, AMMONIA, HYDROGEN a dvěma elektrodami s jiskrou (SPARKS = LIGHTNING) → chladič → U-trubice zpět do malé baňky.",
+   "note": "PÁTEŘ aparatura() pro S45–S47. FUNKČNÍ KONTROLA (doc „nákres technického zařízení“): oběh jde jedním směrem, elektrody jsou ve velké baňce s plyny, ne ve vodě; kondenzát stéká do pasti a zpět. Uživatel: aparaturu nechat i s plyny.",
+   "pause": 0.6
+  },
+  {
+   "id": "S46",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S46.png",
+   "diagram_generator": "miller",
+   "diagram": "PÁTEŘ aparatura(): voda v pasti a malé baňce zbarvená do kalně červena, AFTER A WEEK. Výřez: AMINO ACIDS = BUILDING BLOCKS OF PROTEINS (ambrově).",
+   "note": "Barva vody kalně červená podle scénáře.",
+   "pause": 1.0
+  },
+  {
+   "id": "S47",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S47.png",
+   "diagram_generator": "miller",
+   "diagram": "Řada lahviček (vials) s popiskem STEAMIER VERSION, nad nimi 2008: RE-TESTED → MORE THAN 20 AMINO ACIDS.",
+   "note": "Factcheck S47: přes 20 jen z „vulkanické“ (steamier) varianty, proto popisek u lahviček.",
+   "pause": 0.8
+  },
+  {
+   "id": "S48",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S48.png",
+   "diagram_generator": "miller",
+   "diagram": "Tři zdroje šipkami do jedné hromádky BUILDING BLOCKS: MILLER'S GASES (ztlumeně, čárkovaný rámeček = PROBABLY NOT THE EARLY ATMOSPHERE), OTHER MIXTURES, SPACE (ambrově, ikonka kamene).",
+   "note": "Čárkovaný rámeček = nejisté, ne „špatně“. SPACE ambrově, protože navazuje S49.",
+   "pause": 0.6
+  },
+  {
+   "id": "S49",
+   "source": "archive",
+   "effect": "slow_zoom_in",
+   "visual": "images/S49.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Murchison meteorite",
+    "pick": 1
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Murchison meteorite“): [1] Murchison meteorite MNHN Minéralogie — úlomek na tmavém pozadí, CC BY 4.0, 5000×3370. Úlomek murchisonského meteoritu; předmět, zoom je v pořádku. Číslo 70+ nese hlas (případně S50).",
+   "pause": 0.6
+  },
+  {
+   "id": "S50",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S50.png",
+   "diagram_generator": "miller",
+   "diagram": "Hromádka stavebních kostek (amino acids) ve dvou kupkách: ON EARTH / OFF IT. Nahoře THE INGREDIENTS AREN'T THE HARD PART.",
+   "note": "Kostky = stavební bloky; tentýž tvar kostky se vrací v S51.",
+   "pause": 1.2
+  },
+  {
+   "id": "S51",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S51.png",
+   "diagram_generator": "rna",
+   "diagram": "Vlevo hromádka kostek (HEAP OF BUILDING BLOCKS) ≠ vpravo; dole vlevo pytel rozsypaných písmen ≠ kniha. Ambrově THE NEXT STEP.",
+   "note": "Analogie písmena/kniha přesně podle hlasu.",
+   "pause": 0.8
+  },
+  {
+   "id": "S52",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S52.png",
+   "diagram_generator": "rna",
+   "diagram": "Dvě karty: CARRY INSTRUCTIONS (svitek) a COPY THEM (svitek → dva svitky).",
+   "note": "Dvě podmínky, na které se odkazuje S53–S59.",
+   "pause": 1.0
+  },
+  {
+   "id": "S53",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S53.png",
+   "diagram_generator": "rna",
+   "diagram": "PÁTEŘ smycka(): DNA (dvoušroubovice) STORES INSTRUCTIONS, PROTEINS (sbalená klubka) DO THE WORK; šipka od proteinů k DNA: COPYING THE DNA.",
+   "note": "PÁTEŘ smycka() pro S53–S55: DNA vlevo, proteiny vpravo, na týchž místech.",
+   "pause": 0.6
+  },
+  {
+   "id": "S54",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S54.png",
+   "diagram_generator": "rna",
+   "diagram": "PÁTEŘ smycka(): uzavřená smyčka dvou šipek DNA → BUILDS PROTEINS, PROTEINS → COPY DNA. Uprostřed ambrově WHICH CAME FIRST?",
+   "note": "Kruh bez začátku — tvar sám říká, že nejde říct, co bylo první.",
+   "pause": 1.6
+  },
+  {
+   "id": "S55",
+   "source": "archive",
+   "effect": "static",
+   "visual": "images/S55.png",
+   "archive": {
+    "provider": "wikimedia",
+    "query": "Thomas Cech",
+    "pick": 4,
+    "grade": {
+     "fit": 0.84
+    }
+   },
+   "note": "PICK VYBRÁN Z KONTAKTNÍHO LISTU (2026-11-23, dotaz „Thomas Cech“): [4] Thomas Cech HD2007 portrait — stojící, celá hlava s odstupem, CC BY-SA 3.0, 1964×2800; [0]/[1] jen 755×1085, [3] 150 px. Portrét Thomase Cecha, bez zoomu. Co molekula dělá, kreslí S56.",
+   "pause": 1.0
+  },
+  {
+   "id": "S56",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S56.png",
+   "diagram_generator": "rna",
+   "diagram": "Jedno vlákno RNA uprostřed (ambrově). Vlevo od něj CARRIES INSTRUCTIONS (LIKE DNA), vpravo DOES WORK (LIKE A PROTEIN) s nůžkami a spojkou na smyčce téhož vlákna (CUTS AND JOINS ITSELF). Dole ONE MOLECULE, BOTH JOBS.",
+   "note": "Doplňuje i obraz k S55 („cut and join itself with no protein involved“). Funkčně: stříhá a spojuje SAMO SEBE, žádný protein v obraze.",
+   "pause": 0.8
+  },
+  {
+   "id": "S57",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S57.png",
+   "diagram_generator": "rna",
+   "diagram": "Dvě etapy zleva doprava: RNA WORLD (čárkovaný rámeček, jen RNA) → DNA + PROTEINS TOOK OVER (plný rámeček, smycka() zmenšeně). Nahoře THE RNA WORLD.",
+   "note": "Čárkovaně = hypotéza („may have run on RNA“).",
+   "pause": 0.6
+  },
+  {
+   "id": "S58",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S58.png",
+   "diagram_generator": "rna",
+   "diagram": "Ribozom: dvě podjednotky, provlečené vlákno, z ribozomu vystupuje řetízek aminokyselin (PROTEIN). Jádro ribozomu ambrově: WORKING HEART: RNA.",
+   "note": "Funkčně: protein vzniká v ribozomu a vystupuje ven; ambrové je jádro (katalytické centrum), ne celý ribozom.",
+   "pause": 1.2
+  },
+  {
+   "id": "S59",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S59.png",
+   "diagram_generator": "rna",
+   "diagram": "2026 · QT45: malá RNA + hotové kousky (READY-MADE PIECES) → kopie sebe sama (plná šipka, ONE COPY ✓). Za tím čárkovaný cyklus ROUND AFTER ROUND s ambrovým otazníkem: NOT YET SHOWN.",
+   "note": "Factcheck S59: z hotových dílků, ne z ničeho; opakované kopírování zatím neukázané → čárkovaně.",
+   "pause": 0.8
+  },
+  {
+   "id": "S60",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S60.png",
+   "diagram_generator": "kde",
+   "diagram": "PÁTEŘ dve_mista(): dva panely: WARM POND (tůň se šipkami vysychání a dolévání) a HOT VENTS (komín na tmavém dně s dýmem). Obojí čárkovaný rámeček, nahoře NOBODY KNOWS WHERE.",
+   "note": "Obě hypotézy stejně velké, ani jedna ambrově — kresba nesmí naznačit vítěze.",
+   "pause": 0.6
+  },
+  {
+   "id": "S61",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S61.png",
+   "diagram_generator": "kde",
+   "diagram": "PÁTEŘ dve_mista(): tytéž panely, u každého ambrový otazník v rohu. Nahoře SERIOUS SCIENTISTS BEHIND EACH · NONE HAS THE WHOLE ANSWER.",
+   "note": "Konec bloku „jak“ → dlouhá pauza před převratem otázky.",
+   "pause": 2.6
+  },
+  {
+   "id": "S62",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S62.png",
+   "diagram_generator": "zivot",
+   "diagram": "Velký nápis WHERE DID THE FIRST LIFE COME FROM? (ztlumeně) a ambrový otazník nad celou otázkou: SET UP THE WRONG WAY?",
+   "note": "Otázka se neškrtá (škrt by tvrdil „neplatí vůbec“) — jen se zpochybní.",
+   "pause": 1.2
+  },
+  {
+   "id": "S63",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S63.png",
+   "diagram_generator": "zivot",
+   "diagram": "Tatáž otázka, slovo FIRST ambrově podtržené. Pod tím ostrá svislá čára: NOT ALIVE | ALIVE, ONE MOMENT, ONE THING.",
+   "note": "Ostrá čára je předpoklad, který S68–S71 rozpustí do svahu.",
+   "pause": 0.6
+  },
+  {
+   "id": "S64",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S64.png",
+   "diagram_generator": "zivot",
+   "diagram": "Citační karta: „a self-sustaining chemical system capable of Darwinian evolution“, pod ní ONE WORKING DEFINITION, DEVELOPED BY NASA SCIENTISTS. Nahoře SO WHAT COUNTS AS ALIVE?",
+   "note": "Formulace atribuce přesně podle factchecku (S64): pracovní definice, ne „NASA definuje život“.",
+   "pause": 1.0
+  },
+  {
+   "id": "S65",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S65.png",
+   "diagram_generator": "zivot",
+   "diagram": "PÁTEŘ kopie(): jedna molekula (krátké vlákno) vlevo, šipky ke kopiím vpravo; většina stejná, dvě mírně jiné (jiný odstín jednoho článku).",
+   "note": "PÁTEŘ kopie() pro S65–S67. Počty kopií a variant spočítané v kódu, assert.",
+   "pause": 0.5
+  },
+  {
+   "id": "S66",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S66.png",
+   "diagram_generator": "zivot",
+   "diagram": "PÁTEŘ kopie(): tři generace pod sebou, rychlejší varianta (ambrově) v každé generaci častější. INHERITED → FASTER COPIES BECOME MORE COMMON.",
+   "note": "Data: podíl ambrové varianty roste generace po generaci — assert monotónního růstu.",
+   "pause": 0.8
+  },
+  {
+   "id": "S67",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S67.png",
+   "diagram_generator": "zivot",
+   "diagram": "PÁTEŘ kopie() zmenšeně, vedle kontrolní seznam: A CELL? — NO · EATS OR BREATHES? — NO · EVOLVING? — YES (ambrově). Nahoře IS THAT ALIVE?",
+   "note": "NO/YES jako slova, ne křížky přes text.",
+   "pause": 1.0,
+   "vycet": 0.3
+  },
+  {
+   "id": "S68",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S68.png",
+   "diagram_generator": "zivot",
+   "diagram": "PÁTEŘ svah(): schody zleva doprava: COPYING MOLECULE → + MEMBRANE → + ENERGY → + BETTER COPIER. Nad schody ambrový čárkovaný otazník: AT WHICH STEP DID IT COME ALIVE?",
+   "note": "PÁTEŘ svah() pro S68, S70, S71: tytéž souřadnice — schody se v S70 vyhladí do svahu.",
+   "pause": 1.2,
+   "vycet": 0.3
+  },
+  {
+   "id": "S69",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S69.png",
+   "diagram_generator": "zivot",
+   "diagram": "Pás plynulého přechodu barvy zleva doprava: SPOKEN LATIN → FRENCH, bez jakékoli dělicí čáry. Nad ním čárkovaně THE FIRST WORD OF FRENCH? → NOBODY.",
+   "note": "Žádné letopočty — scénář je nemá. Žádná hranice v pásu, to je celé tvrzení.",
+   "pause": 1.0
+  },
+  {
+   "id": "S70",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70.png",
+   "diagram_generator": "zivot",
+   "diagram": "PÁTEŘ svah(): schody z S68 ztlumeně, přeškrtnutá ikonka jiskry (NOT A SPARK). Svah ještě není.",
+   "note": "Rozděleno na S70 + S70b po poslechu: vycet vložil ticho do závěru k ve „spark“ (spar‑k). Scény mají pauzu přidanou, ne řezanou. Škrtá se ikonka, ne nápis. Emma: hotový zvuk, recept zvuk/S70.py; af_heart jde Kokorem.",
+   "pause": 0.5,
+   "vycet": 0.3,
+   "zvuk": {
+    "bf_emma": "zvuk/S70.flac"
+   }
+  },
+  {
+   "id": "S70b",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S70b.png",
+   "diagram_generator": "zivot",
+   "diagram": "Obraz S70 + hladký svah a A SLOPE, drobně MAYBE.",
+   "note": "Odhalení svahu až na „A slope.“. MAYBE v obraze: uživatel chce pozvolný vznik držet jako „may“. Emma: hotový zvuk, recept zvuk/S70.py; af_heart jde Kokorem s návětím.",
+   "pause": 0.6,
+   "naveti": "It was not a spark.",
+   "zvuk": {
+    "bf_emma": "zvuk/S70b.flac"
+   }
+  },
+  {
+   "id": "S71",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S71.png",
+   "diagram_generator": "zivot",
+   "diagram": "PÁTEŘ svah(): svah s gradientem CHEMISTRY → LIFE, šipky drobných kroků vzhůru (A LITTLE MORE LIKE LIFE, AGAIN AND AGAIN), nahoře NO GOING BACK.",
+   "note": "Výzva k odběru ZA touto scénou (~8:55), za hlavní pointou: levý dolní roh prázdný, BEZ svgkit.title(); platí i pro začátek S72. Konec bloku → dlouhá pauza.",
+   "pause": 2.8,
+   "vyzva": true
+  },
+  {
+   "id": "S72",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S72.png",
+   "diagram_generator": "zaver",
+   "diagram": "Čtyři ikony v řadě: FLY, BANANA, YEAST, YOU; od každé čára k jednomu společnému pásku kódu (ambrově): THE SAME GENETIC CODE, drobně ESSENTIALLY.",
+   "note": "Začátek scény překrývá výzva k odběru: levý dolní roh prázdný, kresba jen nad y = 1080.",
+   "pause": 0.5
+  },
+  {
+   "id": "S73",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S73.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ retez(): čtyři řetězy (fly, banana, yeast, you) se zprava doleva sbíhají do jednoho článku COMMON ANCESTOR (ambrově). Vlevo od něj řetěz pokračuje čárkovaně k otazníku: FIRST LIFE? — NOT NECESSARILY THE SAME.",
+   "note": "Uživatel: S73–S74 nezkracovat; factcheck: společný předek není nutně první život → oddělit čárkovaně.",
+   "pause": 0.6
+  },
+  {
+   "id": "S74",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S74.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ retez() z S73; pod ním několik krátkých čárkovaných řetízků, které končí (OTHER BEGINNINGS? NO SURVIVORS?). Vpravo nahoře druhá planeta s otazníkem: LIFE THAT STARTED SOMEWHERE ELSE.",
+   "note": "Obě možnosti jako otázka, ani jedna jako tvrzení. Vazba na video 160 (Mars) — do závěrečné obrazovky.",
+   "pause": 2.4
+  },
+  {
+   "id": "S75",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S75.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ kuchyn(): banán s mouchami jako v S02, bez okna. Popisek NOT LIFE APPEARING FROM NOTHING. Kresba jen v dolní polovině.",
+   "note": "Návrat do kuchyně. Možná už v okně závěrečné obrazovky — horní polovina prázdná pro jistotu.",
+   "pause": 0.5
+  },
+  {
+   "id": "S76",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S76.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ retez(): celý řetěz, nejpravější článek moucha ambrově (THE NEWEST LINK), pod řetězem ~3.5 BILLION YEARS, UNBROKEN. Horní polovina prázdná.",
+   "note": "Okno závěrečné obrazovky: prvky YouTube patří nahoru, kresba jen pod y = 720.",
+   "pause": 0.5
+  },
+  {
+   "id": "S77",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S77.png",
+   "diagram_generator": "zaver",
+   "diagram": "PÁTEŘ retez() (8 článků) + nízký svah pod y = 730 (ne páteř svah(), ta je přes celou výšku): levý konec řetězu se nerozbíhá k prvnímu článku, ale rozplývá se do hladkého svahu chemie (gradient), NO FIRST FLY. Horní polovina prázdná.",
+   "note": "Výplata obou páteří naráz: řetěz z S06 ústí do svahu z S70. „Maybe“ → bez ostré hrany. Okno závěrečné obrazovky, kresba jen pod y = 720.",
+   "pause": 3.0
+  },
+  {
+   "id": "S78",
+   "source": "svg",
+   "effect": "static",
+   "visual": "images/S78.png",
+   "diagram_generator": "zaver",
+   "diagram": "Klidná deska, otázka v dolní polovině: IF A LAB MADE SOMETHING THAT COPIES ITSELF AND EVOLVES, FROM SIMPLE CHEMICALS… WOULD YOU CALL IT ALIVE? Horní polovina prázdná.",
+   "note": "Otázka do komentářů (docs/cta.md). Okno závěrečné obrazovky, horní polovina volná pro dlaždici a kolečko odběru."
+  }
+ ]
+}

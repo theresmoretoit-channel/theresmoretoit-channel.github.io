@@ -1,0 +1,115 @@
+{
+  "title": "Where Did the First Life Come From?",
+  "slug": "171-where-did-the-first-life-come-from",
+  "languages": [
+    "en",
+    "cs",
+    "sv",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it",
+    "pl",
+    "id",
+    "tr",
+    "uk",
+    "vi",
+    "fi"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "engine": "kokoro",
+    "name": "bf_emma",
+    "speed": 0.88,
+    "lang": "en-gb"
+  },
+  "timing": {
+    "scene_pause": 0.8,
+    "lead_in": 0.15,
+    "tail": 1.2,
+    "sentence_pause": 0.45,
+    "min_sentence_words": 1
+  },
+  "video": {
+    "transition": "dissolve",
+    "transition_dur": 0.6,
+    "source_resolution": [
+      2560,
+      1440
+    ],
+    "supersample": 3,
+    "supersample_draft": 2,
+    "crf": 18,
+    "preset": "slow"
+  },
+  "sdxl": {
+    "checkpoint": "sd_xl_base_1.0.safetensors",
+    "steps": 30,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "hires_denoise": 0.45,
+    "style": "painterly editorial illustration, primordial volcanic shoreline with shallow steaming pools, muted slate blue and deep teal, soft mist, one small warm amber accent, calm contemplative mood, restrained detail, subtle film grain, cinematic wide composition, no text",
+    "negative": "text, letters, words, numbers, caption, label, watermark, signature, logo, brand, faces, close-up of people, dinosaurs, animals, oversaturated, neon, blurry, low quality, deformed, sunrise, sunset"
+  },
+  "audio": {
+    "target_lufs": -14.0,
+    "music": "audio/music.wav",
+    "music_gain_db": -36,
+    "duck": {
+      "threshold": 0.03,
+      "ratio": 6,
+      "attack": 20,
+      "release": 900
+    },
+    "music_root": 146.83,
+    "music_seed": 171,
+    "music_sections": [
+      [
+        "S01",
+        "S08"
+      ],
+      [
+        "S34",
+        "S42"
+      ],
+      [
+        "S68",
+        "S71"
+      ],
+      [
+        "S75",
+        "S78"
+      ]
+    ]
+  },
+  "subtitles": {
+    "max_chars": 42,
+    "burn_in": false,
+    "lead_in": 0.15,
+    "frazovani": true
+  },
+  "pronounce": {
+    "1600s": "sixteen hundreds",
+    "1668": "sixteen sixty-eight",
+    "1859": "eighteen fifty-nine",
+    "1864": "eighteen sixty-four",
+    "1871": "eighteen seventy-one",
+    "1952": "nineteen fifty-two",
+    "1969": "nineteen sixty-nine",
+    "1982": "nineteen eighty-two",
+    "2008": "two thousand and eight",
+    "2026": "twenty twenty-six",
+    "QT45": "Q T forty-five"
+  },
+  "archive_grade": {
+    "saturation": 95,
+    "tint_amount": 0,
+    "vignette": false
+  }
+}
